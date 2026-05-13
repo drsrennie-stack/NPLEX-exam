@@ -1,0 +1,1612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NPLEX Board Review Engine | MedMasters Collaborative</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      /* Canonical school/ed palette */
+      --navy:#0A1322;
+      --navy-mid:#1F2D44;
+      --ink-soft:#14202F;
+      --ink-muted:#3D4860;
+      --slate:#334155;
+
+      --terra:#C25A3E;
+      --terra-text:#7A2F18;
+      --terra-bright:#E59575;
+
+      --gold:#D4A24C;
+      --gold-text:#6E5018;
+      --gold-bright:#E5B45C;
+
+      --teal-text:#2C5F66;
+      --teal-bright:#5B9AA0;
+
+      --plum-text:#5C2A66;
+
+      --rule:#B8BEC8;
+      --rule-soft:#DCE0E6;
+      --rule-faint:#E8EBEF;
+
+      /* Surfaces */
+      --bg:#ffffff;
+      --bg-soft:#fafaf9;
+      --surface:#ffffff;
+
+      /* Tints */
+      --terra-pale:rgba(194,90,62,.07);
+      --teal-pale:rgba(44,95,102,.08);
+      --gold-pale:rgba(212,162,76,.10);
+      --plum-pale:rgba(92,42,102,.08);
+      --navy-pale:rgba(10,19,34,.04);
+
+      /* Borders & shadows */
+      --border:var(--rule-faint);
+      --border-mid:var(--rule-soft);
+      --border-strong:var(--rule);
+
+      --shadow-card:0 1px 3px rgba(10,19,34,.08), 0 1px 2px rgba(10,19,34,.05);
+      --shadow-lift:0 6px 16px rgba(10,19,34,.10), 0 3px 6px rgba(10,19,34,.06);
+
+      --radius:0;
+    }
+
+    /* Force no italics anywhere, per standing build rules. */
+    em, i, cite, dfn, var, address {font-style: normal;}
+
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    body{font-family:'Plus Jakarta Sans',system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--ink-soft);min-height:100vh;-webkit-font-smoothing:antialiased;}
+
+    /* Top nav */
+    .topnav{background:var(--bg-soft);padding:14px 5%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--border);}
+    .brand-logo{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:1.15rem;letter-spacing:.02em;color:var(--navy);text-decoration:none;}
+    .brand-logo span{color:var(--terra-text);}
+    .nav-right{display:flex;align-items:center;gap:18px;}
+    .nav-tag{font-size:10px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:var(--ink-muted);}
+
+    /* Hero */
+    .page-hero{background:var(--bg-soft);border-bottom:1px solid var(--border);padding:42px 5% 36px;}
+    .page-hero-inner{max-width:1300px;margin:0 auto;display:flex;align-items:flex-end;justify-content:space-between;gap:24px;flex-wrap:wrap;}
+    .eyebrow{font-size:11px;font-weight:700;letter-spacing:.26em;text-transform:uppercase;color:var(--terra-text);display:flex;align-items:center;gap:12px;margin-bottom:14px;}
+    .eyebrow::before{content:'';width:24px;height:1px;background:var(--terra-text);}
+    .page-hero h1{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:clamp(38px,4.4vw,58px);letter-spacing:-.015em;color:var(--navy);line-height:1.0;}
+    .page-hero h1 em{color:var(--terra-text);} /* font-style:normal forced globally above */
+    .page-hero p{font-size:14.5px;color:var(--ink-muted);margin-top:14px;font-weight:400;line-height:1.65;max-width:620px;}
+    .hero-stats{display:flex;gap:12px;flex-wrap:wrap;}
+    .hero-stat{text-align:center;padding:14px 22px;background:var(--surface);border:1px solid var(--border-mid);}
+    .hero-stat-num{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:1.7rem;letter-spacing:-.01em;color:var(--terra-text);display:block;line-height:1;}
+    .hero-stat-label{font-size:9.5px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-muted);margin-top:6px;display:block;}
+
+    /* Status bar */
+    .statusbar{background:var(--surface);border-bottom:1px solid var(--border);padding:10px 5%;position:sticky;top:0;z-index:100;box-shadow:var(--shadow-card);}
+    .statusbar-inner{max-width:1300px;margin:0 auto;display:flex;align-items:center;gap:10px;flex-wrap:wrap;}
+    .s-chip{display:inline-flex;align-items:center;gap:8px;font-size:11.5px;font-weight:600;padding:5px 11px;border-radius:99px;}
+    .s-chip.navy{color:#fff;background:var(--navy);border:1px solid var(--navy);}
+    .s-chip.teal{color:var(--teal-text);background:var(--teal-pale);border:1px solid rgba(44,95,102,.20);}
+    .s-chip.gold{color:var(--gold-text);background:var(--gold-pale);border:1px solid rgba(212,162,76,.30);}
+    .s-chip.terra{color:var(--terra-text);background:var(--terra-pale);border:1px solid rgba(194,90,62,.22);}
+    .s-dot{width:6px;height:6px;border-radius:50%;background:currentColor;animation:blink 2.4s infinite;flex-shrink:0;}
+    @keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+
+    /* Main grid */
+    .main{padding:24px 5% 72px;}
+    .grid{max-width:1300px;margin:0 auto;display:grid;grid-template-columns:300px 1fr;gap:14px;}
+    @media(max-width:960px){.grid{grid-template-columns:1fr;}}
+
+    /* Panels */
+    .panel{background:var(--surface);border:1px solid var(--border-mid);box-shadow:var(--shadow-card);}
+    .panel.terra-accent{border-left:3px solid var(--terra);}
+    .panel.teal-accent{border-left:3px solid var(--teal-text);}
+    .panel.navy-accent{border-left:3px solid var(--navy);}
+    .panel.gold-accent{border-left:3px solid var(--gold);}
+    .panel-head{padding:13px 18px 11px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;gap:10px;background:var(--bg-soft);}
+    .panel-head h2{font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;font-size:16px;letter-spacing:.005em;color:var(--navy);}
+    .ph{font-size:9.5px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-muted);}
+    .panel-body{padding:14px 18px;}
+    .topics-col{grid-row:1/3;display:flex;flex-direction:column;}
+    @media(max-width:960px){.topics-col{grid-row:auto;}}
+    .topics-col .panel-body{flex:1;display:flex;flex-direction:column;gap:10px;}
+
+    /* Section eyebrows */
+    .sec-ey{font-size:9.5px;font-weight:700;letter-spacing:.26em;text-transform:uppercase;color:var(--teal-text);display:flex;align-items:center;gap:8px;margin-bottom:8px;}
+    .sec-ey::before{content:'';width:14px;height:1px;background:var(--teal-text);}
+    .sec-ey.terra{color:var(--terra-text);}.sec-ey.terra::before{background:var(--terra-text);}
+    .sec-ey.gold{color:var(--gold-text);}.sec-ey.gold::before{background:var(--gold-text);}
+    .sec-ey.muted{color:var(--ink-muted);}.sec-ey.muted::before{background:var(--ink-muted);}
+    .sec-ey.navy{color:var(--navy);}.sec-ey.navy::before{background:var(--navy);}
+    .sec-ey.plum{color:var(--plum-text);}.sec-ey.plum::before{background:var(--plum-text);}
+
+    /* Form controls */
+    label{display:block;font-size:12px;font-weight:600;letter-spacing:0;color:var(--ink-soft);margin:11px 0 6px;}
+    label.tight{margin:0 0 4px;}
+    select,input[type="text"]{
+      width:100%;background:var(--surface);border:1px solid var(--border-mid);
+      padding:10px 32px 10px 12px;color:var(--ink-soft);
+      font-family:'Plus Jakarta Sans',sans-serif;font-size:13.5px;font-weight:500;
+      outline:none;appearance:none;
+      background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='7' viewBox='0 0 10 7'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%233D4860' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+      background-repeat:no-repeat;background-position:right 12px center;
+      border-radius:0;transition:border-color .18s, box-shadow .18s;cursor:pointer;
+    }
+    select:focus,input:focus,textarea:focus{border-color:var(--navy);box-shadow:0 0 0 2px rgba(10,19,34,.10);outline:none;}
+    select option{background:var(--surface);}
+    input[type="text"]{background-image:none;padding-right:12px;cursor:text;}
+
+    textarea{
+      width:100%;flex:1;min-height:200px;background:var(--surface);
+      border:1px solid var(--border-mid);
+      padding:12px;color:var(--ink-soft);
+      font-family:'Plus Jakarta Sans',sans-serif;font-size:13.5px;font-weight:400;line-height:1.7;
+      resize:vertical;outline:none;transition:border-color .18s, box-shadow .18s;
+    }
+    textarea::placeholder{color:var(--ink-muted);opacity:.6;}
+
+    .check{display:flex;align-items:flex-start;gap:9px;margin-top:7px;padding:10px 12px;background:var(--bg-soft);border:1px solid var(--border);cursor:pointer;transition:border-color .15s, background .15s;}
+    .check:hover{border-color:var(--border-strong);background:#fff;}
+    .check input[type="checkbox"],.check input[type="radio"]{margin-top:2px;flex-shrink:0;width:14px;height:14px;accent-color:var(--navy);cursor:pointer;}
+    .check span{font-size:13px;color:var(--ink-soft);line-height:1.55;font-weight:500;text-transform:none;letter-spacing:0;}
+
+    .divider{height:1px;background:var(--border);margin:14px 0;}
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+    @media(max-width:560px){.two-col{grid-template-columns:1fr;}}
+    .three-col{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;}
+    @media(max-width:700px){.three-col{grid-template-columns:1fr 1fr;}}
+    @media(max-width:480px){.three-col{grid-template-columns:1fr;}}
+
+    /* Info boxes */
+    .info-box{background:var(--teal-pale);border:1px solid rgba(44,95,102,.16);border-left:3px solid var(--teal-text);padding:11px 12px;font-size:12.5px;color:var(--ink-soft);line-height:1.65;font-weight:400;}
+    .info-box strong{color:var(--navy);font-weight:700;}
+    .info-box.gold{background:var(--gold-pale);border-color:rgba(212,162,76,.20);border-left-color:var(--gold-text);}
+    .info-box.terra{background:var(--terra-pale);border-color:rgba(194,90,62,.16);border-left-color:var(--terra);}
+    .info-box.navy{background:var(--navy-pale);border-color:rgba(10,19,34,.10);border-left-color:var(--navy);}
+    .info-box.plum{background:var(--plum-pale);border-color:rgba(92,42,102,.16);border-left-color:var(--plum-text);}
+
+    /* Part I / Part II toggle bar (top of setup) */
+    .part-bar{display:flex;border:1px solid var(--navy);overflow:hidden;margin-bottom:4px;}
+    .part-btn{flex:1;padding:14px 8px;text-align:center;font-size:14px;font-weight:700;letter-spacing:.01em;border:none;background:var(--bg-soft);color:var(--navy);cursor:pointer;transition:background .15s, color .15s;border-right:1px solid var(--navy);font-family:'Plus Jakarta Sans',sans-serif;}
+    .part-btn:last-child{border-right:none;}
+    .part-btn.active{background:var(--navy);color:#fff;}
+    .part-btn:not(.active):hover{background:#fff;}
+    .part-btn .part-btn-sub{display:block;font-size:10.5px;font-weight:600;letter-spacing:.10em;text-transform:uppercase;color:var(--ink-muted);margin-top:3px;}
+    .part-btn.active .part-btn-sub{color:var(--gold-bright);}
+
+    /* Question type buttons */
+    .qtype-grid{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-bottom:4px;}
+    .qtype-btn{display:flex;flex-direction:column;align-items:center;gap:6px;padding:11px 8px;background:var(--bg-soft);border:1px solid var(--border-mid);cursor:pointer;transition:all .15s;font-family:'Plus Jakarta Sans',sans-serif;}
+    .qtype-btn:hover{background:#fff;border-color:var(--border-strong);}
+    .qtype-btn.active{background:var(--navy);border-color:var(--navy);color:#fff;}
+    .qtype-btn.active .qtype-icon{color:var(--gold-bright);}
+    .qtype-btn.active .qtype-label{color:#fff;}
+    .qtype-icon{font-size:15px;line-height:1;font-weight:700;color:var(--ink-soft);}
+    .qtype-label{font-size:11.5px;font-weight:600;letter-spacing:0;color:var(--ink-muted);}
+
+    /* Strictness bar */
+    .strictness-bar{display:flex;border:1px solid var(--border-mid);overflow:hidden;margin-top:6px;}
+    .s-btn{flex:1;padding:10px 6px;text-align:center;font-size:13px;font-weight:600;letter-spacing:0;border:none;background:var(--bg-soft);color:var(--ink-muted);cursor:pointer;transition:background .15s, color .15s;border-right:1px solid var(--border);font-family:'Plus Jakarta Sans',sans-serif;}
+    .s-btn:last-child{border-right:none;}
+    .s-btn.active{background:var(--navy);color:#fff;}
+    .s-btn:not(.active):hover{background:#fff;color:var(--navy);}
+
+    /* Topic meta */
+    .topic-meta{display:flex;align-items:center;justify-content:space-between;}
+    .topic-count{font-size:12px;font-weight:500;letter-spacing:0;color:var(--ink-muted);}
+    .topic-count span{color:var(--terra-text);font-weight:700;}
+
+    /* Specific-questions collapsible */
+    .sq-toggle{width:100%;display:flex;align-items:center;justify-content:space-between;gap:8px;background:none;border:none;cursor:pointer;padding:10px 0 4px;font-size:13px;font-weight:600;letter-spacing:0;color:var(--terra-text);transition:color .15s;font-family:'Plus Jakarta Sans',sans-serif;}
+    .sq-toggle:hover{color:var(--terra);}
+    .sq-toggle-label{display:flex;align-items:center;gap:7px;}
+    .sq-toggle-count{background:var(--terra-text);color:#fff;font-size:10px;font-weight:700;padding:2px 8px;border-radius:99px;}
+    .sq-chevron{transition:transform .2s;flex-shrink:0;}
+    .sq-chevron.open{transform:rotate(180deg);}
+    .sq-body{margin-top:8px;}
+
+    /* Modality group blocks (Part II) */
+    .mod-group{border:1px solid var(--border-mid);background:var(--bg-soft);padding:10px 12px;margin-top:8px;}
+    .mod-group:first-of-type{margin-top:0;}
+    .mod-group-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px;}
+    .mod-group-name{font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;font-size:12.5px;color:var(--teal-text);letter-spacing:.02em;}
+    .mod-group-pct{font-size:10.5px;font-weight:700;letter-spacing:.10em;color:var(--ink-muted);padding:2px 8px;border-radius:99px;background:var(--surface);border:1px solid var(--border-mid);}
+    .mod-list{display:grid;grid-template-columns:1fr 1fr;gap:6px;}
+    @media(max-width:560px){.mod-list{grid-template-columns:1fr;}}
+    .mod-item{display:flex;align-items:center;gap:7px;padding:7px 9px;background:var(--surface);border:1px solid var(--border-mid);cursor:pointer;transition:background .15s, border-color .15s;}
+    .mod-item:hover{border-color:var(--border-strong);}
+    .mod-item input{margin:0;flex-shrink:0;width:13px;height:13px;accent-color:var(--navy);cursor:pointer;}
+    .mod-item span{font-size:12px;font-weight:600;color:var(--ink-soft);line-height:1.3;}
+    .mod-item.allopathic span{color:var(--navy-mid);}
+    .mod-item.vitalistic span{color:var(--gold-text);}
+    .mod-item.psych span{color:var(--plum-text);}
+    .mod-item input:checked + span{font-weight:700;}
+
+    /* Domain chip list (Part I, also organ system / special populations) */
+    .chip-list{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px;}
+    .chip-item{display:inline-flex;align-items:center;gap:6px;padding:6px 11px;background:var(--bg-soft);border:1px solid var(--border-mid);font-size:12px;font-weight:600;color:var(--ink-soft);cursor:pointer;border-radius:99px;transition:background .15s, border-color .15s, color .15s;font-family:'Plus Jakarta Sans',sans-serif;}
+    .chip-item:hover{border-color:var(--border-strong);}
+    .chip-item input{display:none;}
+    .chip-item.checked{background:var(--navy);border-color:var(--navy);color:#fff;}
+    .chip-item.checked-terra{background:var(--terra-pale);border-color:var(--terra);color:var(--terra-text);}
+    .chip-item.checked-gold{background:var(--gold-pale);border-color:var(--gold);color:var(--gold-text);}
+    .chip-item.checked-teal{background:var(--teal-pale);border-color:var(--teal-text);color:var(--teal-text);}
+    .chip-item.checked-plum{background:var(--plum-pale);border-color:var(--plum-text);color:var(--plum-text);}
+
+    /* Actions row */
+    .actions-row{grid-column:1/-1;}
+    .actions-inner{padding:16px 18px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;}
+    .btn-primary{
+      display:inline-flex;align-items:center;gap:8px;
+      background:var(--navy);color:#fff;
+      font-family:'Plus Jakarta Sans',sans-serif;font-size:13.5px;font-weight:600;letter-spacing:0;
+      border:1px solid var(--navy);padding:13px 24px;cursor:pointer;
+      box-shadow:var(--shadow-card);transition:background .15s, box-shadow .15s, transform .08s;
+    }
+    .btn-primary:hover{background:var(--navy-mid);border-color:var(--navy-mid);box-shadow:var(--shadow-lift);}
+    .btn-primary:active{transform:translateY(1px);}
+    .btn-primary .btn-mark{display:inline-block;width:6px;height:6px;background:var(--gold-bright);}
+    .btn-secondary{
+      display:inline-flex;align-items:center;gap:7px;
+      background:transparent;color:var(--navy);
+      font-family:'Plus Jakarta Sans',sans-serif;font-size:13.5px;font-weight:600;letter-spacing:0;
+      border:1px solid var(--navy);padding:12px 18px;cursor:pointer;
+      transition:background .15s, color .15s;
+    }
+    .btn-secondary:hover{background:var(--navy);color:#fff;}
+    .btn-sep{width:1px;height:30px;background:var(--border-mid);margin:0 4px;}
+    .paste-note{font-size:12px;color:var(--ink-muted);display:flex;align-items:center;gap:6px;font-weight:500;}
+    .kbd{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:11px;background:var(--bg-soft);border:1px solid var(--border-mid);border-bottom-width:2px;padding:1px 6px;color:var(--ink-soft);font-weight:600;}
+
+    /* Steps */
+    .steps{display:flex;flex-direction:column;gap:0;}
+    .step{display:flex;gap:13px;padding:11px 0;border-bottom:1px solid var(--border);}
+    .step:last-child{border-bottom:none;}
+    .step-num{width:24px;height:24px;background:var(--navy);color:#fff;font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;}
+    .step-text{font-size:12.5px;color:var(--ink-soft);line-height:1.6;font-weight:400;}
+    .step-text strong{color:var(--navy);font-weight:700;}
+
+    /* Modal */
+    .modal{display:none;position:fixed;inset:0;z-index:999;background:rgba(10,19,34,.55);backdrop-filter:blur(4px);padding:16px;align-items:flex-start;justify-content:center;}
+    .modal.open{display:flex;}
+    .modal-box{width:100%;max-width:820px;margin-top:5vh;background:var(--surface);border:1px solid var(--border-strong);border-top:3px solid var(--terra);box-shadow:var(--shadow-lift);overflow:hidden;display:flex;flex-direction:column;max-height:88vh;animation:su .2s ease;}
+    @keyframes su{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+    .modal-head{padding:14px 18px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;flex-shrink:0;background:var(--bg-soft);}
+    .modal-head h3{font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;font-size:17px;color:var(--navy);}
+    .modal-close{width:28px;height:28px;border:1px solid var(--border-mid);background:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:18px;color:var(--ink-muted);font-weight:400;line-height:1;}
+    .modal-close:hover{color:var(--navy);border-color:var(--navy);}
+    .modal-body{padding:14px 16px;overflow:auto;flex:1;background:var(--bg-soft);}
+    .modal-body pre{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:12px;line-height:1.65;color:var(--ink-soft);white-space:pre-wrap;}
+    .modal-foot{padding:12px 16px;border-top:1px solid var(--border);display:flex;justify-content:flex-end;gap:8px;flex-wrap:wrap;flex-shrink:0;background:#fff;}
+
+    /* Footer */
+    .page-footer{background:var(--bg-soft);border-top:1px solid var(--border);padding:22px 5%;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;}
+    .foot-brand{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:1rem;color:var(--navy);}
+    .foot-brand span{color:var(--terra-text);}
+    .foot-meta{font-size:10px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--terra-text);}
+
+    /* Scrollbar */
+    ::-webkit-scrollbar{width:6px;height:6px;}
+    ::-webkit-scrollbar-track{background:transparent;}
+    ::-webkit-scrollbar-thumb{background:var(--rule);}
+
+    /* Entrance animation */
+    .fi{animation:fi .42s ease both;}
+    .fi:nth-child(2){animation-delay:.07s;}
+    .fi:nth-child(3){animation-delay:.13s;}
+    .fi:nth-child(4){animation-delay:.19s;}
+    @keyframes fi{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+    @media (prefers-reduced-motion: reduce){
+      .fi{animation:none;}
+      .s-dot{animation:none;}
+    }
+
+    /* Toast */
+    .toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--navy);color:#fff;font-size:13px;font-weight:500;letter-spacing:0;padding:12px 22px;border-left:3px solid var(--terra);opacity:0;transition:opacity .25s, transform .25s;pointer-events:none;z-index:9999;white-space:nowrap;box-shadow:var(--shadow-lift);}
+    .toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
+
+    /* Skip link & focus */
+    .skip-link{position:absolute;left:-9999px;top:8px;background:var(--navy);color:#fff;padding:8px 14px;font-size:12px;font-weight:700;text-decoration:none;z-index:1000;}
+    .skip-link:focus{left:8px;}
+    button:focus-visible,a:focus-visible,select:focus-visible,textarea:focus-visible,input:focus-visible{outline:2px solid var(--terra);outline-offset:2px;}
+
+    /* Disabled state for mode-locked controls */
+    button:disabled,select:disabled,input:disabled{opacity:.42;cursor:not-allowed;}
+    .check:has(input:disabled),.s-btn:disabled{opacity:.42;cursor:not-allowed;}
+    .lock-pill{display:inline-block;margin-left:6px;font-size:9px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-text);background:var(--gold-pale);border:1px solid rgba(212,162,76,.30);padding:1px 7px;border-radius:99px;vertical-align:middle;}
+
+    /* Hidden helper */
+    .vh{position:absolute;left:-9999px;}
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#mainContent">Skip to main content</a>
+
+  <nav class="topnav" aria-label="Primary">
+    <a class="brand-logo" href="#" target="_top">Med<span>Masters</span> Collaborative</a>
+    <div class="nav-right">
+      <div class="nav-tag">NPLEX Board Review</div>
+    </div>
+  </nav>
+
+  <header class="page-hero">
+    <div class="page-hero-inner">
+      <div>
+        <div class="eyebrow">Naturopathic Physician Licensing Exam Prep</div>
+        <h1>NPLEX <em>Interactive</em> Board Review Engine</h1>
+        <p>Part I biomedical sciences and Part II clinical sciences in one tool. One question at a time, immediate feedback, blueprint-aligned scoring, printable result sheet. Walk away knowing exactly where to study next.</p>
+      </div>
+      <div class="hero-stats" aria-label="Session features">
+        <div class="hero-stat"><span class="hero-stat-num">2</span><span class="hero-stat-label">Parts covered</span></div>
+        <div class="hero-stat"><span class="hero-stat-num">Live</span><span class="hero-stat-label">AI grading</span></div>
+        <div class="hero-stat"><span class="hero-stat-num">GEA</span><span class="hero-stat-label">Aligned scoring</span></div>
+      </div>
+    </div>
+  </header>
+
+  <div class="statusbar" role="status" aria-live="polite">
+    <div class="statusbar-inner">
+      <div class="s-chip navy" id="partBadge"><div class="s-dot" aria-hidden="true"></div><span>Part I, Biomedical Science Examination</span></div>
+      <div class="s-chip teal" id="sessionModeChip"><span>Tutoring mode</span></div>
+      <div class="s-chip teal" id="modeBadge"><span>Standard grading. Feedback after each answer.</span></div>
+      <div class="s-chip terra" id="gapChip" style="display:none;">&#9678; Gap Finder active</div>
+    </div>
+  </div>
+
+  <main class="main" id="mainContent">
+    <div class="grid">
+      <!-- Topics column -->
+      <section class="panel teal-accent topics-col fi" aria-labelledby="topicsHead">
+        <div class="panel-head"><h2 id="topicsHead">Topics to study</h2><span class="ph">One per line</span></div>
+        <div class="panel-body">
+          <div class="sec-ey">Enter topics below</div>
+          <label for="topicsInput" class="vh">Topics list, one per line</label>
+          <textarea id="topicsInput" placeholder="Cardiac action potential phases&#10;Renal tubular reabsorption&#10;Hepatic drug metabolism (CYP450)&#10;HPA axis feedback&#10;Vitamin D activation pathway&#10;Botanical adaptogens&#10;Therapeutic Order in chronic disease&#10;Hashimoto thyroiditis workup&#10;Homeopathic acute prescribing&#10;Emergency management of anaphylaxis"></textarea>
+          <div class="topic-meta"><div class="topic-count">Topics: <span id="topicCountDisplay">0</span></div></div>
+          <div class="info-box" style="font-size:12px;">The more specific your topics, the more targeted your study session. Use the same topics from your course materials or NPLEX competency list.</div>
+          <div class="divider" style="margin:10px 0 0;"></div>
+          <button class="sq-toggle" id="sqToggle" aria-expanded="false" aria-controls="sqBody">
+            <span class="sq-toggle-label"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" aria-hidden="true"><rect x="1" y="1" width="11" height="11" stroke="currentColor" stroke-width="1.3"/><path d="M4 6.5h5M6.5 4v5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>Include specific questions</span>
+            <span class="sq-toggle-count" id="sqCount" style="display:none;"></span>
+            <svg class="sq-chevron" id="sqChevron" width="11" height="11" viewBox="0 0 11 11" fill="none" aria-hidden="true"><path d="M2 4l3.5 3.5L9 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="sq-body" id="sqBody" style="display:none;">
+            <div class="info-box gold" style="margin-bottom:8px;font-size:12px;">Paste questions from your existing banks (250 diagnostic, 750 core) or instructor materials. Label each: <strong>MC:</strong> for multiple choice, <strong>CV:</strong> for case vignette, or <strong>CC:</strong> for case cluster.</div>
+            <label for="sqInput" class="vh">Specific questions to include</label>
+            <textarea id="sqInput" style="min-height:130px;font-size:12px;" placeholder="MC: A 52-year-old patient presents with bilateral pitting edema. Which botanical is most indicated?&#10;  A. Crataegus  B. Taraxacum  C. Cnicus  D. Solidago&#10;&#10;CC: A 28-year-old F with fatigue, weight gain, cold intolerance, TSH 8.2..."></textarea>
+            <div class="topic-meta" style="margin-top:5px;"><div class="topic-count">Questions pasted: <span id="sqCountDisplay">0</span></div></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Setup panel -->
+      <section class="panel terra-accent fi" style="animation-delay:.08s" aria-labelledby="setupHead">
+        <div class="panel-head"><h2 id="setupHead">Study session setup</h2><span class="ph">Customize your exam</span></div>
+        <div class="panel-body">
+
+          <!-- PART TOGGLE -->
+          <div class="sec-ey navy">Exam part</div>
+          <div class="part-bar" role="group" aria-label="Select NPLEX part">
+            <button class="part-btn active" id="partI" data-part="p1" aria-pressed="true">Part I<span class="part-btn-sub">Biomedical Sciences</span></button>
+            <button class="part-btn" id="partII" data-part="p2" aria-pressed="false">Part II<span class="part-btn-sub">Core Clinical Sciences</span></button>
+          </div>
+          <div class="info-box navy" style="font-size:12px;margin-top:8px;" id="partInfo"><strong>Part I, BSE:</strong> 200 MC questions across two GEAs. Structure/Function (60%, anatomy, physiology, biochemistry & genetics) and Disease/Dysfunction (40%, microbiology & immunology, pathology). Pass both GEAs in the same administration to pass the exam.</div>
+
+          <div class="divider"></div>
+
+          <!-- SESSION MODE TOGGLE -->
+          <div class="sec-ey navy">Session mode</div>
+          <div class="part-bar" role="group" aria-label="Select session mode">
+            <button class="part-btn active" id="modeTutoring" data-mode="tutoring" aria-pressed="true">Tutoring<span class="part-btn-sub">Interactive, feedback as you go</span></button>
+            <button class="part-btn" id="modeExam" data-mode="exam" aria-pressed="false">Mini-exam<span class="part-btn-sub">Diagnostic, score at end</span></button>
+          </div>
+          <div class="info-box navy" style="font-size:12px;margin-top:8px;" id="modeInfo"><strong>Tutoring mode:</strong> Interactive grading after each answer with rationale and optional hints. Best for active study sessions where you want to learn as you go.</div>
+
+          <div class="divider"></div>
+
+          <!-- PART I CONFIG -->
+          <div id="p1Config">
+            <div class="sec-ey terra">Part I categories</div>
+            <div class="chip-list" id="p1Domains" role="group" aria-label="Part I biomedical categories">
+              <label class="chip-item" data-sea="anatomy" data-gea="sf"><input type="checkbox" data-domain="anatomy" checked /><span>Anatomy</span></label>
+              <label class="chip-item" data-sea="anatomy" data-gea="sf"><input type="checkbox" data-domain="neuroanatomy_neurophysiology" /><span>Neuroanatomy & Neurophysiology</span></label>
+              <label class="chip-item" data-sea="physiology" data-gea="sf"><input type="checkbox" data-domain="physiology" checked /><span>Physiology</span></label>
+              <label class="chip-item" data-sea="biochem_genetics" data-gea="sf"><input type="checkbox" data-domain="biochemistry_genetics" /><span>Biochemistry & Genetics</span></label>
+              <label class="chip-item" data-sea="biochem_genetics" data-gea="sf"><input type="checkbox" data-domain="nutritional_biochemistry" /><span>Nutritional Biochemistry</span></label>
+              <label class="chip-item" data-sea="micro_immuno" data-gea="dd"><input type="checkbox" data-domain="microbiology" /><span>Microbiology</span></label>
+              <label class="chip-item" data-sea="micro_immuno" data-gea="dd"><input type="checkbox" data-domain="immunology" /><span>Immunology</span></label>
+              <label class="chip-item" data-sea="pathology" data-gea="dd"><input type="checkbox" data-domain="pathology" /><span>Pathology</span></label>
+            </div>
+            <div class="info-box terra" style="font-size:12px;margin-top:8px;">Eight study categories roll up into the five blueprint SEAs (anatomy, physiology, biochemistry & genetics, microbiology & immunology, pathology) and two GEAs (Structure/Function 60%, Disease/Dysfunction 40%) for scoring.</div>
+
+            <div class="two-col" style="margin-top:12px;">
+              <div>
+                <label for="p1Weighting" class="tight">Distribution</label>
+                <select id="p1Weighting">
+                  <option value="blueprint" selected>Blueprint-proportional (60/40 GEA split)</option>
+                  <option value="even">Even across selected categories</option>
+                  <option value="weak">Weighted to weak categories (Gap Finder)</option>
+                </select>
+              </div>
+              <div>
+                <label for="p1System" class="tight">Organ-system filter (optional)</label>
+                <select id="p1System">
+                  <option value="any" selected>Any system</option>
+                  <option value="cardiovascular">Cardiovascular</option>
+                  <option value="respiratory">Respiratory</option>
+                  <option value="renal">Renal</option>
+                  <option value="gi">GI / hepatic</option>
+                  <option value="endocrine">Endocrine</option>
+                  <option value="reproductive">Reproductive</option>
+                  <option value="msk">Musculoskeletal</option>
+                  <option value="neuro">Nervous system</option>
+                  <option value="integumentary">Integumentary</option>
+                  <option value="heme_lymph">Hematologic / lymphatic</option>
+                  <option value="special_senses">Special senses (EENT)</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <!-- PART II CONFIG -->
+          <div id="p2Config" style="display:none;">
+            <div class="sec-ey teal">Part II modalities by GEA</div>
+
+            <div class="mod-group">
+              <div class="mod-group-head"><div class="mod-group-name">GEA 1, Diagnosis</div><div class="mod-group-pct">30 to 35%</div></div>
+              <div class="mod-list">
+                <label class="mod-item allopathic"><input type="checkbox" data-mod="phys_clin_dx" data-gea="dx" checked /><span>Physical & Clinical Diagnosis</span></label>
+                <label class="mod-item allopathic"><input type="checkbox" data-mod="lab_imaging_dx" data-gea="dx" checked /><span>Lab & Imaging Diagnosis</span></label>
+              </div>
+            </div>
+
+            <div class="mod-group">
+              <div class="mod-group-head"><div class="mod-group-name">GEA 2, Materia Medica</div><div class="mod-group-pct">18 to 20%</div></div>
+              <div class="mod-list">
+                <label class="mod-item vitalistic"><input type="checkbox" data-mod="botanical" data-gea="mm" checked /><span>Botanical Medicine</span></label>
+                <label class="mod-item vitalistic"><input type="checkbox" data-mod="homeopathy" data-gea="mm" checked /><span>Homeopathy</span></label>
+              </div>
+            </div>
+
+            <div class="mod-group">
+              <div class="mod-group-head"><div class="mod-group-name">GEA 3, Other Modalities</div><div class="mod-group-pct">28 to 30%</div></div>
+              <div class="mod-list">
+                <label class="mod-item vitalistic"><input type="checkbox" data-mod="nutrition" data-gea="om" checked /><span>Nutrition</span></label>
+                <label class="mod-item vitalistic"><input type="checkbox" data-mod="physical_medicine" data-gea="om" checked /><span>Physical Medicine</span></label>
+                <label class="mod-item psych"><input type="checkbox" data-mod="psychology" data-gea="om" checked /><span>Psychology</span></label>
+              </div>
+            </div>
+
+            <div class="mod-group">
+              <div class="mod-group-head"><div class="mod-group-name">GEA 4, Medical Interventions</div><div class="mod-group-pct">20%</div></div>
+              <div class="mod-list">
+                <label class="mod-item allopathic"><input type="checkbox" data-mod="emergency" data-gea="mi" checked /><span>Emergency Medicine</span></label>
+                <label class="mod-item allopathic"><input type="checkbox" data-mod="pharmacology" data-gea="mi" checked /><span>Pharmacology</span></label>
+              </div>
+            </div>
+
+            <div class="info-box teal" style="font-size:12px;margin-top:10px;">Nine SEAs across four GEAs, 400 questions total on the real CCSE. Must demonstrate competence in all four GEAs in the same administration to pass.</div>
+
+            <div class="two-col" style="margin-top:12px;">
+              <div>
+                <label for="p2Weighting" class="tight">Distribution</label>
+                <select id="p2Weighting">
+                  <option value="blueprint" selected>Blueprint-proportional (NABNE GEA weights)</option>
+                  <option value="even">Even across selected modalities</option>
+                  <option value="weak">Weighted to weak modalities (Gap Finder)</option>
+                </select>
+              </div>
+              <div>
+                <label for="p2CaseFormat" class="tight">Case format</label>
+                <select id="p2CaseFormat">
+                  <option value="linked" selected>Linked case chain (4 to 6 items per stem)</option>
+                  <option value="single">Single vignette with clustered items</option>
+                </select>
+              </div>
+            </div>
+
+            <label for="p2CaseCategory" style="margin-top:12px;">Presenting case category</label>
+            <select id="p2CaseCategory">
+              <option value="any" selected>Any system, mixed</option>
+              <option value="cardiovascular">Cardiovascular</option>
+              <option value="gi_hepatic">GI / hepatic</option>
+              <option value="respiratory">Respiratory</option>
+              <option value="endocrine">Endocrine</option>
+              <option value="msk">Musculoskeletal</option>
+              <option value="neuro">Neurological</option>
+              <option value="dermatological">Dermatological</option>
+              <option value="gu">Genitourinary</option>
+              <option value="repro_female">Reproductive, female</option>
+              <option value="repro_male">Reproductive, male</option>
+              <option value="eent">EENT</option>
+            </select>
+
+            <label style="margin-top:12px;">Special populations (multi-select)</label>
+            <div class="chip-list" id="p2Populations" role="group" aria-label="Special populations">
+              <label class="chip-item"><input type="checkbox" data-pop="general_adult" checked /><span>General adult</span></label>
+              <label class="chip-item"><input type="checkbox" data-pop="pediatric" /><span>Pediatric</span></label>
+              <label class="chip-item"><input type="checkbox" data-pop="geriatric" /><span>Geriatric</span></label>
+              <label class="chip-item"><input type="checkbox" data-pop="perinatal" /><span>Pregnancy / perinatal</span></label>
+              <label class="chip-item"><input type="checkbox" data-pop="mental_health" /><span>Mental health focus</span></label>
+            </div>
+
+            <label class="check" style="margin-top:12px;"><input type="checkbox" id="therapeuticOrder" /><span><strong>Therapeutic Order</strong>. When on, every treatment-recommendation question frames the answer in NPLEX-aligned order: determinants of health, stimulate self-healing, support weakened systems, correct structural integrity, treat pathology naturally, synthetic substances, high-force interventions.</span></label>
+            <label class="check" style="margin-top:7px;"><input type="checkbox" id="sixPrinciples" checked /><span><strong>Surface the six naturopathic principles</strong> in case framing. Vis Medicatrix Naturae, Tolle Causam, Primum Non Nocere, Tolle Totum, Docere, Praevenir.</span></label>
+          </div>
+
+          <!-- QUESTION TYPES -->
+          <div class="divider"></div>
+          <div class="sec-ey terra">Question types</div>
+          <div class="qtype-grid" id="qtypeGrid" role="group" aria-label="Question type selection"></div>
+          <div class="info-box navy" style="font-size:12px;margin-top:6px;"><strong>Balanced answer key.</strong> Multiple choice questions automatically use a randomized A/B/C/D distribution generated fresh each session. Prevents the AI bias of defaulting to B or C as the correct answer.</div>
+
+          <!-- COUNT + DOK -->
+          <div class="divider"></div>
+          <div class="two-col">
+            <div>
+              <div class="sec-ey navy">Question count</div>
+              <label for="qCount">Total questions</label>
+              <select id="qCount"><option>5</option><option>10</option><option selected>15</option><option>20</option><option>25</option><option>30</option><option>40</option><option>50</option><option>75</option><option>100</option><option>200</option></select>
+            </div>
+            <div>
+              <div class="sec-ey navy">Question difficulty</div>
+              <label for="dokLevel">Difficulty calibration</label>
+              <select id="dokLevel">
+                <option value="balanced" selected>Standard (board-level)</option>
+                <option value="dok1">Easier (recall)</option>
+                <option value="dok2">Moderate (application)</option>
+                <option value="dok3">Harder (clinical analysis)</option>
+                <option value="dok4">Hardest (clinical integration)</option>
+                <option value="mixed">Mixed (full range)</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- STRICTNESS -->
+          <div class="divider"></div>
+          <div class="sec-ey">Grading behavior</div>
+          <div class="strictness-bar" role="group" aria-label="Grading strictness">
+            <button class="s-btn" id="sCoaching" data-mode="coaching" aria-pressed="false">Coaching</button>
+            <button class="s-btn active" id="sStandard" data-mode="standard" aria-pressed="true">Standard</button>
+            <button class="s-btn" id="sStrict" data-mode="strict" aria-pressed="false">Strict</button>
+          </div>
+          <div class="info-box" id="strictnessInfo" style="margin-top:8px;font-size:12px;"><strong>Standard:</strong> Fair, concise feedback after each answer. Explains why the correct answer is right.</div>
+
+          <!-- BEHAVIOR FLAGS -->
+          <div class="divider"></div>
+          <div class="three-col">
+            <div><div class="sec-ey muted">Justification</div><label class="check" style="margin-top:0;"><input type="checkbox" id="requireJustify" checked /><span>Require reasoning before grading</span></label></div>
+            <div><div class="sec-ey muted">Retry</div><label class="check" style="margin-top:0;"><input type="checkbox" id="oneRetry" checked /><span>Allow one retry with a hint</span></label></div>
+            <div><div class="sec-ey muted">Score</div><label class="check" style="margin-top:0;"><input type="checkbox" id="trackScore" checked /><span>Show running score after each question</span></label></div>
+          </div>
+
+          <!-- GAP FINDER -->
+          <div class="divider"></div>
+          <div class="sec-ey terra">Gap Finder (diagnostic mode)</div>
+          <label class="check" style="margin-top:0;"><input type="checkbox" id="gapFinderEnabled" /><span>Enable Gap Finder. The AI identifies specific knowledge gaps and prescribes how to fix them.</span></label>
+          <div id="gapFinderBody" style="display:none;margin-top:10px;">
+            <label for="gapTopicsInput">Topics to probe for gaps</label>
+            <textarea id="gapTopicsInput" style="min-height:90px;font-size:13px;" placeholder="Cardiac action potential phases&#10;Botanical actions on the HPA axis&#10;Differentiating IBS from IBD&#10;Therapeutic order in hypertension"></textarea>
+            <div class="topic-meta" style="margin-top:5px;"><div class="topic-count">Gap topics: <span id="gapTopicCount">0</span></div></div>
+            <div class="info-box terra" style="margin-top:8px;font-size:12px;">More focused topics give sharper results. <strong>&ldquo;Cardiac action potential phase 2&rdquo;</strong> beats <strong>&ldquo;heart.&rdquo;</strong> General topics work too, they just produce broader suggestions.</div>
+            <div class="two-col" style="margin-top:10px;">
+              <div><label for="gapDepth">Remediation depth</label><select id="gapDepth"><option value="light">Light: brief fix suggestions</option><option value="standard" selected>Standard: focused study actions</option><option value="detailed">Detailed: full plan per gap</option></select></div>
+              <div><label for="gapTiming">Gap reporting</label><select id="gapTiming"><option value="both" selected>Inline plus end summary</option><option value="endonly">End report only</option><option value="inline">Inline only</option></select></div>
+            </div>
+            <div id="p2TwoAxisRow" style="display:none;margin-top:10px;">
+              <label class="check" style="margin-top:0;"><input type="checkbox" id="twoAxisGap" checked /><span><strong>Two-axis tagging (Part II only).</strong> Tag each gap on both the clinical reasoning axis (dx, ddx, workup, prognosis) and the modality axis (which therapeutic modality is weak for this case category). End report shows a case-category by modality matrix.</span></label>
+            </div>
+          </div>
+
+          <!-- END REPORT -->
+          <div class="divider"></div>
+          <div class="sec-ey muted">End-of-session output</div>
+          <div class="two-col">
+            <div>
+              <label for="endReport">Scoring sheet format</label>
+              <select id="endReport">
+                <option value="nplex_full" selected>NPLEX scoring sheet, full (printable)</option>
+                <option value="full">Full breakdown plus study plan</option>
+                <option value="brief">Brief: score and weak topics only</option>
+                <option value="none">None: score only</option>
+              </select>
+            </div>
+            <div>
+              <label for="scoreModel">Scoring model</label>
+              <select id="scoreModel">
+                <option value="nplex" selected>NPLEX-style (Angoff minimum competence, converted 75)</option>
+                <option value="percent">Percentage correct only</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- How it works panel -->
+      <section class="panel navy-accent fi" style="animation-delay:.14s" aria-labelledby="howHead">
+        <div class="panel-head"><h2 id="howHead">How it works</h2><span class="ph">Session flow</span></div>
+        <div class="panel-body">
+          <ol class="steps">
+            <li class="step"><div class="step-num">1</div><div class="step-text"><strong>Configure your session</strong>. Pick a Part, a session mode, categories or modalities, count, depth, and grading behavior. The engine builds a single AI-runnable prompt.</div></li>
+            <li class="step"><div class="step-num">2</div><div class="step-text"><strong>Paste into Claude, ChatGPT, Gemini, or Copilot</strong>. The AI runs your session live.</div></li>
+            <li class="step"><div class="step-num">3</div><div class="step-text"><strong>Tutoring mode</strong>. One question at a time. Answer with reasoning. The AI grades immediately, gives a rationale, and (if enabled) offers one retry with a minimal hint on incorrect answers.</div></li>
+            <li class="step"><div class="step-num">4</div><div class="step-text"><strong>Mini-exam mode</strong>. Blueprint-proportional within the categories you select. No feedback during. Submit all answers at the end. The AI grades everything at once and runs an automatic diagnostic. Use this when you want a practice exam rather than a study session.</div></li>
+            <li class="step"><div class="step-num">5</div><div class="step-text"><strong>End-of-session scoring sheet</strong>. NPLEX-aligned: GEA pass/fail with raw and converted scores, SEA breakdown, weak topics, and a priority study action. In mini-exam mode the diagnostic analysis is automatic. Copy or print.</div></li>
+          </ol>
+          <div class="info-box gold" style="margin-top:14px;font-size:12px;line-height:1.65;"><strong>Recommended runtime: Claude.</strong> Claude follows the long structured prompt most faithfully across a full session, holds the balanced answer key without drifting to B or C, and writes homeopathy and botanical questions from the classical materia medica without injecting skeptical framing into the rationale. ChatGPT is a strong alternative, especially for lab and pharmacology items where precise numeric ranges matter. Gemini and Copilot work but produce noticeably weaker NPLEX-specific results.</div>
+        </div>
+      </section>
+
+      <!-- Actions row -->
+      <section class="panel terra-accent actions-row fi" style="animation-delay:.2s" aria-label="Generate study session">
+        <div class="actions-inner">
+          <button class="btn-primary" id="genClaude"><span class="btn-mark" aria-hidden="true"></span>Claude</button>
+          <button class="btn-primary" id="genChatGPT"><span class="btn-mark" aria-hidden="true"></span>ChatGPT</button>
+          <button class="btn-primary" id="genGemini"><span class="btn-mark" aria-hidden="true"></span>Gemini</button>
+          <button class="btn-primary" id="genCopilot"><span class="btn-mark" aria-hidden="true"></span>Copilot</button>
+          <div class="btn-sep" aria-hidden="true"></div>
+          <button class="btn-secondary" id="previewPrompt">Preview prompt</button>
+          <div class="paste-note">Paste with <span class="kbd">Ctrl+V</span> or <span class="kbd">Cmd+V</span>. The AI runs your exam live in the chat.</div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="page-footer">
+    <div class="foot-brand">Med<span>Masters</span> Collaborative</div>
+    <div class="foot-meta">Dr. Sharilyn Rennie &nbsp;&middot;&nbsp; Founder &amp; Learning Architect</div>
+  </footer>
+
+  <!-- Prompt preview modal -->
+  <div id="promptModal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="promptModalTitle">
+    <div class="modal-box">
+      <div class="modal-head"><h3 id="promptModalTitle">Prompt preview</h3><button class="modal-close" id="closePrompt" aria-label="Close preview">&#215;</button></div>
+      <div class="modal-body"><pre id="promptOutput"></pre></div>
+      <div class="modal-foot">
+        <button class="btn-secondary" id="copyPromptBtn">Copy to clipboard</button>
+        <button class="btn-primary" id="openClaudeBtn"><span class="btn-mark" aria-hidden="true"></span>Claude</button>
+        <button class="btn-primary" id="openGptBtn"><span class="btn-mark" aria-hidden="true"></span>ChatGPT</button>
+        <button class="btn-primary" id="openGeminiBtn"><span class="btn-mark" aria-hidden="true"></span>Gemini</button>
+        <button class="btn-primary" id="openCopilotBtn"><span class="btn-mark" aria-hidden="true"></span>Copilot</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script>
+  (function(){
+    const $=id=>document.getElementById(id);
+    let currentPart="p1";
+    let currentSessionMode="tutoring"; // tutoring | exam
+
+    /* ---------- PART TOGGLE ---------- */
+    const partBtns=document.querySelectorAll(".part-btn[data-part]");
+    partBtns.forEach(btn=>btn.addEventListener("click",()=>{
+      partBtns.forEach(b=>{b.classList.remove("active");b.setAttribute("aria-pressed","false");});
+      btn.classList.add("active");
+      btn.setAttribute("aria-pressed","true");
+      currentPart=btn.dataset.part;
+      $("p1Config").style.display=currentPart==="p1"?"block":"none";
+      $("p2Config").style.display=currentPart==="p2"?"block":"none";
+      $("p2TwoAxisRow").style.display=currentPart==="p2"?"block":"none";
+      $("partBadge").querySelector("span").textContent =
+        currentPart==="p1"
+          ? "Part I, Biomedical Science Examination"
+          : "Part II, Core Clinical Sciences Examination";
+      $("partInfo").innerHTML = currentPart==="p1"
+        ? "<strong>Part I, BSE:</strong> 200 MC questions across two GEAs. Structure/Function (60%, anatomy, physiology, biochemistry & genetics) and Disease/Dysfunction (40%, microbiology & immunology, pathology). Pass both GEAs in the same administration to pass the exam."
+        : "<strong>Part II, CCSE:</strong> 400 case-based MC questions across four GEAs. Diagnosis (30 to 35%), Materia Medica (18 to 20%), Other Modalities (28 to 30%), and Medical Interventions (20%). Must pass all four GEAs in the same administration. ND scope: outpatient primary care and internal medicine, never hospital floor.";
+      renderQuestionTypes();
+      applyExamModeLocks();
+      updateStatusBadges();
+    }));
+
+    /* ---------- SESSION MODE TOGGLE ---------- */
+    const modeBtns=document.querySelectorAll(".part-btn[data-mode]");
+    modeBtns.forEach(btn=>btn.addEventListener("click",()=>{
+      modeBtns.forEach(b=>{b.classList.remove("active");b.setAttribute("aria-pressed","false");});
+      btn.classList.add("active");
+      btn.setAttribute("aria-pressed","true");
+      currentSessionMode=btn.dataset.mode;
+      $("modeInfo").innerHTML = currentSessionMode==="tutoring"
+        ? "<strong>Tutoring mode:</strong> Interactive grading after each answer with rationale and optional hints. Best for active study sessions where you want to learn as you go."
+        : "<strong>Mini-exam mode:</strong> Exam simulation. Blueprint-proportional distribution within selected categories. No feedback during the exam. Full NPLEX scoring sheet and diagnostic analysis at the end. Reliability note: Part I needs 50+ questions for SEA-level diagnostic, 25+ for GEA-level only. Part II needs 90+ for SEA-level, 40+ for GEA-level. Below those thresholds the score is still useful but treat the SEA breakdown as directional, not definitive.";
+      applyExamModeLocks();
+      updateStatusBadges();
+    }));
+
+    /* ---------- EXAM MODE LOCKS ---------- */
+    function applyExamModeLocks(){
+      const exam = currentSessionMode==="exam";
+
+      // Distribution: lock to blueprint-proportional
+      ["p1Weighting","p2Weighting"].forEach(id=>{
+        const sel=$(id);
+        if(!sel) return;
+        if(exam){ sel.value="blueprint"; sel.disabled=true; }
+        else { sel.disabled=false; }
+      });
+
+      // Strictness: lock to strict
+      document.querySelectorAll(".s-btn").forEach(b=>{
+        if(exam){
+          b.disabled=true;
+          if(b.dataset.mode==="strict"){
+            b.classList.add("active"); b.setAttribute("aria-pressed","true");
+            strictMode="strict";
+          } else {
+            b.classList.remove("active"); b.setAttribute("aria-pressed","false");
+          }
+        } else {
+          b.disabled=false;
+        }
+      });
+      if(exam){
+        $("strictnessInfo").innerHTML="<strong>Strict (locked in mini-exam mode):</strong> No feedback, no hints, exam-style rigor.";
+      } else {
+        $("strictnessInfo").innerHTML=strictInfo[strictMode];
+      }
+
+      // Retry: force off
+      if(exam){ $("oneRetry").checked=false; $("oneRetry").disabled=true; }
+      else { $("oneRetry").disabled=false; }
+
+      // Running score: force off
+      if(exam){ $("trackScore").checked=false; $("trackScore").disabled=true; }
+      else { $("trackScore").disabled=false; }
+
+      // Gap Finder: in exam mode, the entire exam IS the diagnostic, so disable the manual toggle
+      if(exam){
+        $("gapFinderEnabled").checked=false;
+        $("gapFinderEnabled").disabled=true;
+        $("gapFinderBody").style.display="none";
+        $("gapChip").style.display="none";
+      } else {
+        $("gapFinderEnabled").disabled=false;
+      }
+    }
+
+    /* ---------- CHIP CHECKBOXES ---------- */
+    function wireChipList(containerId){
+      document.querySelectorAll("#"+containerId+" .chip-item").forEach(label=>{
+        const cb=label.querySelector("input");
+        function sync(){label.classList.toggle("checked",cb.checked);}
+        cb.addEventListener("change",sync);
+        sync();
+      });
+    }
+    wireChipList("p1Domains");
+    wireChipList("p2Populations");
+
+    /* ---------- QUESTION TYPES (adapt to part, NPLEX-faithful only) ---------- */
+    const partITypes=[
+      {id:"mc",icon:"A&ndash;D",label:"Multiple Choice",active:true},
+      {id:"cv",icon:"&#129504;",label:"Case Vignette",active:true}
+    ];
+    const partIITypes=[
+      {id:"mc",icon:"A&ndash;D",label:"Multiple Choice",active:true},
+      {id:"cc",icon:"&#128203;",label:"Case Cluster",active:true}
+    ];
+    function renderQuestionTypes(){
+      const grid=$("qtypeGrid");
+      grid.innerHTML="";
+      const types=currentPart==="p1"?partITypes:partIITypes;
+      grid.style.gridTemplateColumns="1fr 1fr";
+      types.forEach(t=>{
+        const btn=document.createElement("button");
+        btn.className="qtype-btn"+(t.active?" active":"");
+        btn.dataset.type=t.id;
+        btn.setAttribute("aria-pressed",String(t.active));
+        btn.innerHTML=`<span class="qtype-icon">${t.icon}</span><span class="qtype-label">${t.label}</span>`;
+        btn.addEventListener("click",()=>{
+          btn.classList.toggle("active");
+          btn.setAttribute("aria-pressed",String(btn.classList.contains("active")));
+        });
+        grid.appendChild(btn);
+      });
+    }
+    renderQuestionTypes();
+
+    function getActiveTypes(){
+      const labelMap=currentPart==="p1"
+        ? {mc:"Multiple Choice",cv:"Case Vignette"}
+        : {mc:"Multiple Choice",cc:"Case Cluster"};
+      return [...$("qtypeGrid").querySelectorAll(".qtype-btn")]
+        .filter(b=>b.classList.contains("active"))
+        .map(b=>labelMap[b.dataset.type]);
+    }
+
+    /* ---------- TOPICS + SPECIFIC QUESTIONS ---------- */
+    function getTopics(){
+      const r=$("topicsInput").value.trim();
+      return r? r.split(/\n+/).map(t=>t.trim()).filter(Boolean) : [];
+    }
+    $("topicsInput").addEventListener("input",()=>{$("topicCountDisplay").textContent=getTopics().length;});
+
+    $("sqToggle").addEventListener("click",()=>{
+      const body=$("sqBody"),chev=$("sqChevron");
+      const isOpen=body.style.display!=="none";
+      body.style.display=isOpen?"none":"block";
+      chev.classList.toggle("open",!isOpen);
+      $("sqToggle").setAttribute("aria-expanded",String(!isOpen));
+    });
+    $("sqInput").addEventListener("input",()=>{
+      const lines=($("sqInput").value||"").split(/\n+/).filter(l=>/^(MC|CV|CC)\s*:/i.test(l.trim()));
+      $("sqCountDisplay").textContent=lines.length;
+      const badge=$("sqCount");
+      if(lines.length>0){badge.textContent=lines.length+" pasted";badge.style.display="";}
+      else badge.style.display="none";
+    });
+
+    /* ---------- STRICTNESS ---------- */
+    const sBtns=document.querySelectorAll(".s-btn");
+    let strictMode="standard";
+    const strictInfo={
+      coaching:"<strong>Coaching:</strong> More hints and guidance. The AI nudges you toward the answer before grading. Best for first-time studying.",
+      standard:"<strong>Standard:</strong> Fair, concise feedback after each answer. Explains why the correct answer is right.",
+      strict:"<strong>Strict:</strong> Requires precise justification. No hints before grading. Closest to real exam conditions."
+    };
+    sBtns.forEach(btn=>btn.addEventListener("click",()=>{
+      sBtns.forEach(b=>{b.classList.remove("active");b.setAttribute("aria-pressed","false");});
+      btn.classList.add("active");
+      btn.setAttribute("aria-pressed","true");
+      strictMode=btn.dataset.mode;
+      $("strictnessInfo").innerHTML=strictInfo[strictMode];
+      updateStatusBadges();
+    }));
+
+    /* ---------- GAP FINDER CHIPS ---------- */
+    function getGapTopics(){
+      const r=$("gapTopicsInput").value.trim();
+      return r? r.split(/\n+/).map(t=>t.trim()).filter(Boolean) : [];
+    }
+    $("gapTopicsInput").addEventListener("input",()=>{$("gapTopicCount").textContent=getGapTopics().length;});
+    $("gapFinderEnabled").addEventListener("change",()=>{
+      const on=$("gapFinderEnabled").checked;
+      $("gapFinderBody").style.display=on?"block":"none";
+      $("gapChip").style.display=on?"inline-flex":"none";
+    });
+
+    function updateStatusBadges(){
+      const labels={
+        coaching:"Coaching mode. Hints and guidance.",
+        standard:"Standard grading. Feedback after each answer.",
+        strict:"Strict mode. Exam conditions."
+      };
+      const sessionChip=$("sessionModeChip");
+      const sessionSpan=sessionChip.querySelector("span");
+      if(currentSessionMode==="exam"){
+        sessionSpan.textContent="Mini-exam mode";
+        sessionChip.classList.remove("teal");
+        sessionChip.classList.add("terra");
+        $("modeBadge").querySelector("span").textContent="Locked strict. No feedback during exam.";
+      } else {
+        sessionSpan.textContent="Tutoring mode";
+        sessionChip.classList.remove("terra");
+        sessionChip.classList.add("teal");
+        $("modeBadge").querySelector("span").textContent=labels[strictMode]||labels.standard;
+      }
+    }
+
+    /* ---------- BALANCED ANSWER KEY (carries over from source) ---------- */
+    function generateBalancedAnswerKey(n){
+      const positions=["A","B","C","D"];
+      const seq=[];
+      for(let i=0;i<n;i++)seq.push(positions[i%4]);
+      for(let i=seq.length-1;i>0;i--){
+        const j=Math.floor(Math.random()*(i+1));
+        [seq[i],seq[j]]=[seq[j],seq[i]];
+      }
+      return seq;
+    }
+
+    /* ---------- DOK BLOCK ---------- */
+    function dokInstruction(val,n){
+      const rubric=
+`DOK LEVEL DEFINITIONS:
+  DOK 1, Recall: define, identify, name, label, list. No reasoning required.
+  DOK 2, Application: explain why, apply a concept to a scenario, compare structures, predict an outcome.
+  DOK 3, Analysis: clinical reasoning, evaluate mechanisms, justify a diagnosis, synthesize across systems.
+  DOK 4, Extended Thinking: integrate multiple body systems, evaluate competing explanations, analyze a complex clinical case.`;
+      if(val==="dok1")return `${rubric}\nDOK TARGET: Write all ${n} questions at DOK 1 (pure recall: definitions, identification, naming).`;
+      if(val==="dok2")return `${rubric}\nDOK TARGET: Write all ${n} questions at DOK 2. Every question must require the student to apply or explain a concept, not just recall a definition.`;
+      if(val==="dok3")return `${rubric}\nDOK TARGET: Write all ${n} questions at DOK 3. Every question must require clinical reasoning, mechanism analysis, or evaluation.`;
+      if(val==="dok4")return `${rubric}\nDOK TARGET: Write all ${n} questions at DOK 4. Each question must involve at least two body systems interacting and require integration of anatomy, physiology, and basic pathophysiology.`;
+      if(val==="mixed")return `${rubric}\nDOK TARGET: Distribute questions across all four DOK levels. Roughly 2 to 3 at DOK 1, the majority at DOK 2 and 3, and 1 to 2 challenging DOK 4 questions at the end. Label each [DOK 1], [DOK 2], [DOK 3], or [DOK 4] in your grading feedback.`;
+      const half=Math.floor(n/2),other=n-half;
+      return `${rubric}\nDOK TARGET (BALANCED): Write exactly ${half} questions at DOK 2 and exactly ${other} at DOK 3. Label each [DOK 2] or [DOK 3] in your grading feedback.`;
+    }
+
+    /* ---------- PART I SEED TAXONOMY ---------- */
+    const p1SeedTaxonomy={
+      anatomy:"gross anatomy by region and system; key bony landmarks; muscle origins/insertions/innervations; vascular trees (arterial supply, venous drainage); peripheral nerve courses; lymphatic drainage; embryological derivatives (pharyngeal arches, germ layers, neural tube derivatives); cross-sectional anatomy at common landmarks; histology highlights per system (epithelia, glands, organ-specific tissue).",
+      neuroanatomy_neurophysiology:"CNS organization (cortex lobes, basal ganglia, thalamus, brainstem nuclei, cerebellum); spinal cord tracts (ascending/descending) and cross-sectional anatomy; cranial nerves I to XII (course, function, lesion localization); blood-brain barrier; CSF circulation; autonomic anatomy (sympathetic chain, parasympathetic nuclei); resting membrane potential, action potential, synaptic transmission; neurotransmitter systems (cholinergic, dopaminergic, serotonergic, noradrenergic, GABAergic, glutamatergic); reflex arcs; motor and sensory pathways; vestibular, visual, auditory pathways.",
+      physiology:"cellular physiology and transport; cardiovascular (cardiac cycle, ECG, pressure-volume loops, baroreceptor and chemoreceptor reflexes, cardiac output regulation); respiratory (lung volumes, gas exchange, ventilation-perfusion, oxyhemoglobin curve, acid-base); renal (GFR, tubular transport, RAAS, ADH, acid-base correction); GI (motility, secretion, digestion, absorption, hepatic function); endocrine feedback loops (HPA, HPT, HPG, somatotropic, calcium homeostasis, glucose regulation); reproductive cycles; thermoregulation; exercise physiology; pregnancy physiology.",
+      biochemistry_genetics:"glycolysis, gluconeogenesis, TCA cycle, electron transport, oxidative phosphorylation; fatty acid synthesis and beta-oxidation; ketogenesis; protein synthesis and amino acid catabolism; urea cycle; nucleotide metabolism; heme metabolism; enzyme kinetics (Michaelis-Menten, inhibition types); cell signaling (G-protein coupled, tyrosine kinase, nuclear receptors); DNA replication, transcription, translation; mutation types; Mendelian inheritance patterns (AD, AR, X-linked, mitochondrial); pedigree analysis; karyotype abnormalities; common genetic diseases by inheritance pattern; cancer genetics (oncogenes, tumor suppressors); pharmacogenetics basics.",
+      nutritional_biochemistry:"macronutrient metabolism and requirements; micronutrients (fat-soluble A/D/E/K, water-soluble B vitamins and C; minerals Ca, Mg, K, Na, Fe, Zn, Cu, Se, I, Cr); biochemical roles of each vitamin/mineral as cofactor; deficiency states and clinical signs; toxicity states; nutrient-nutrient interactions; methylation cycle (B12, folate, B6, SAMe, homocysteine); antioxidant systems (glutathione, SOD, catalase); essential fatty acids (omega-3, omega-6, eicosanoid pathways); amino acid clinical applications; phytonutrients (polyphenols, flavonoids, carotenoids).",
+      microbiology:"bacterial classification (gram stain, shape, oxygen requirement); virulence factors; clinically important bacteria by system; viral families (DNA vs RNA, enveloped vs non-enveloped); common viruses by disease; fungi (Candida, Aspergillus, dermatophytes, dimorphic fungi); parasites (protozoa, helminths); diagnostic methods (culture, PCR, serology, microscopy); antibiotic mechanisms and resistance.",
+      immunology:"innate vs adaptive immunity; cellular components (neutrophils, macrophages, dendritic cells, NK cells, T cells CD4/CD8/Treg, B cells, plasma cells); cytokines (TNF, IL-1, IL-6, IFN, IL-2, IL-4, IL-10, IL-17); complement pathways (classical, alternative, lectin); antigen presentation (MHC I, II); antibody classes and functions; hypersensitivity reactions (Types I to IV); autoimmunity (loss of tolerance mechanisms); immunodeficiency (primary vs secondary); vaccine types and mechanisms.",
+      pathology:"general pathology (cell injury and adaptation, inflammation acute and chronic, healing and repair, hemodynamic disorders, neoplasia general principles); system-specific pathology paralleling anatomy/physiology categories; key disease entities NPLEX-relevant per system (cardiovascular: atherosclerosis, hypertension, heart failure, valvular disease, cardiomyopathy; respiratory: asthma, COPD, pneumonia, TB, lung cancer; GI: peptic ulcer, IBD, hepatitis, cirrhosis, GI cancers; endocrine: thyroid disorders, diabetes, adrenal disorders; renal: GN, AKI, CKD, kidney stones; reproductive: BPH, PCOS, endometriosis, common cancers; MSK: arthritides, osteoporosis; neuro: stroke, dementias, MS, Parkinson; heme: anemias, leukemias, lymphomas, coagulopathies)."
+    };
+
+    /* ---------- PART II SEED TAXONOMIES ---------- */
+    const p2SeedTaxonomy={
+      phys_clin_dx:"history-taking (HPI, ROS, PMH, FH, SH); physical examination by system (cardiovascular auscultation, pulmonary, abdominal, neurological, MSK orthopedic special tests, dermatologic morphology); vital signs interpretation; common physical signs and their differential significance; clinical reasoning frameworks (problem representation, hypothesis-driven exam, illness scripts); red flags for referral.",
+      lab_imaging_dx:"CBC with differential and interpretation; CMP/BMP interpretation; lipid panel; thyroid panel (TSH, free T4, free T3, antibodies); HbA1c, fasting glucose, OGTT; iron studies; B12, folate, methylmalonic acid, homocysteine; vitamin D 25-OH; inflammatory markers (CRP, ESR, ferritin); liver enzymes patterns (hepatocellular vs cholestatic); kidney function (BUN, creatinine, eGFR, cystatin C, urinalysis); coagulation (PT/INR, aPTT); tumor markers; hormone panels (cortisol, DHEA-S, sex hormones, prolactin); stool tests (calprotectin, occult blood, comprehensive); urine organic acids, neurotransmitter metabolites (functional medicine context). Imaging: indications and interpretation for X-ray, ultrasound, CT, MRI, mammography, bone density.",
+      botanical:"common ND clinical herbs with primary actions, indications, safety, interactions: Crataegus oxyacantha (cardiovascular tonic); Allium sativum (cardiovascular, antimicrobial); Hypericum perforatum (depression, neuropathy, viral); Echinacea (immune); Astragalus (immune, adaptogen); Withania somnifera (adaptogen); Rhodiola rosea (adaptogen); Panax ginseng (adaptogen); Eleutherococcus (adaptogen); Glycyrrhiza glabra (adrenal, mucous membrane, anti-inflammatory); Curcuma longa (anti-inflammatory); Boswellia (anti-inflammatory); Zingiber (digestive, anti-inflammatory); Mentha piperita (digestive, antispasmodic); Matricaria recutita (nervine, digestive); Passiflora incarnata (nervine); Valeriana officinalis (sleep, anxiolytic); Melissa officinalis (nervine, antiviral); Avena sativa (nervine trophorestorative); Scutellaria lateriflora (nervine); Leonurus cardiaca (cardiovascular, nervine); Vitex agnus-castus (PMS, hormonal); Trifolium pratense (phytoestrogen); Actaea racemosa (perimenopause); Dioscorea villosa (musculoskeletal, hormonal); Urtica dioica (allergic, BPH, mineral source); Serenoa repens (BPH); Pygeum africanum (BPH); Vaccinium macrocarpon (UTI); Arctostaphylos uva-ursi (UTI); Berberine-containing herbs (Hydrastis, Berberis, Mahonia) for digestive infection, dysglycemia; Silybum marianum (hepatoprotective); Taraxacum officinale root and leaf (cholagogue, diuretic); Cynara scolymus (digestive, lipid); Schisandra chinensis (hepatoprotective adaptogen); Ginkgo biloba (cognition, circulation); Bacopa monnieri (cognition). Authoritative sources: Commission E, ESCOP, American Botanical Council, Mills & Bone, Hoffmann, Yarnell, Natural Medicines Comprehensive Database.",
+      homeopathy:"acute and constitutional prescribing principles; case-taking; the Organon basics (laws of similars, single remedy, minimum dose, vital force); polychrest remedies and characteristic indications: Aconitum napellus (sudden fright, exposure to cold wind); Belladonna (sudden inflammation, red, hot, throbbing); Bryonia alba (worse from motion, dryness); Rhus toxicodendron (better from motion, stiffness); Arnica montana (trauma, soreness); Hypericum perforatum (nerve injury); Calendula officinalis (open wounds); Apis mellifica (edema, stinging pain); Cantharis (urinary burning, burns); Nux vomica (overindulgence, irritability); Sulphur (skin, chronic, philosopher type); Pulsatilla (mild, weepy, changeable symptoms); Sepia (sagging, exhausted female); Phosphorus (open, sympathetic, hemorrhagic tendency); Lycopodium clavatum (right-sided, digestive, intellectual but insecure); Calcarea carbonica (slow, chilly, sweaty); Natrum muriaticum (silent grief, reserved); Ignatia amara (acute grief, contradictory symptoms); Argentum nitricum (anticipatory anxiety); Gelsemium (drowsy, dull, trembling); Phytolacca (mastitis, throat); Hepar sulphuris (suppuration); Mercurius (purulent, perspiration without relief). Repertories: Kent, Murphy, Synthesis. Materia medicas: Boericke, Kent, Clarke, Vermeulen. Questions should align with classical and clinical homeopathy as taught for NPLEX, not skeptical critique.",
+      nutrition:"therapeutic diets (Mediterranean, anti-inflammatory, low-FODMAP, elimination, ketogenic, plant-based); nutrient dosing for common conditions; nutrient-drug interactions; nutrient prescribing for specific clinical scenarios (iron-deficiency anemia, B12 deficiency, vitamin D deficiency, magnesium repletion, omega-3 dosing); functional medicine concepts (gut health, methylation, mitochondrial support); food-as-medicine for cardiovascular, GI, endocrine, autoimmune conditions; pediatric and pregnancy nutrition; supplement quality and standardization. Authoritative sources: peer-reviewed nutrition literature, Gaby Nutritional Medicine, Linus Pauling Institute.",
+      physical_medicine:"hydrotherapy (constitutional, contrast, sitz bath, wet sheet wrap, sinus pack, heating compress); soft tissue manipulation; spinal manipulation principles and contraindications; therapeutic exercise prescription; ultrasound, electrical stimulation, diathermy basics; lymphatic drainage; basic naturopathic manipulative therapy; ergonomics. Authoritative sources: osteopathic literature, PT and manual therapy peer-reviewed sources, naturopathic physical medicine standard texts.",
+      psychology:"DSM-5-TR diagnostic criteria for common conditions (depression, anxiety disorders, OCD, PTSD, bipolar, ADHD, autism spectrum, substance use, eating disorders, personality disorders); brief evidence-based therapy modalities (CBT, motivational interviewing, mindfulness-based, ACT, IFS); therapeutic communication; suicide risk assessment; mental status exam; counseling within ND scope; referral indications; cultural competence.",
+      emergency:"recognition of medical emergencies in outpatient ND practice: anaphylaxis, cardiac arrest, respiratory distress, stroke, MI, sepsis, DKA, hypoglycemia, severe asthma exacerbation, pulmonary embolism, status epilepticus, severe trauma, suicidal ideation with plan, acute abdomen. Recognition, stabilization within scope, when and how to refer or call EMS. ND scope does NOT include hospital floor or critical care.",
+      pharmacology:"mechanism of action by class; common indications and contraindications; adverse effects; drug-drug and drug-herb-nutrient interactions; pharmacokinetics basics (absorption, distribution, metabolism CYP450, excretion); cardiovascular drugs (antihypertensives, antiarrhythmics, lipid agents, anticoagulants, antiplatelets); endocrine drugs (diabetes meds, thyroid replacement, glucocorticoids); psych meds (SSRIs, SNRIs, benzodiazepines, antipsychotics, mood stabilizers); analgesics (NSAIDs, opioids, acetaminophen); antimicrobials by class; respiratory drugs; GI drugs; immunosuppressants. Authoritative sources: Lexicomp, Davis Drug Guide. Within ND scope (which varies by state)."
+    };
+
+    /* ---------- NPLEX FRAME BLOCK (per part) ---------- */
+    function partOneFrameBlock(){
+      return `NPLEX PART I FRAME (Biomedical Science Examination, BSE):
+
+EXAMINATION FORMAT:
+- 200 multiple-choice questions on the real exam, each with four options.
+- Two General Exam Areas (GEAs):
+  - Structure/Function GEA: 60% of exam. Specific Exam Areas (SEAs): Anatomy, Physiology, Biochemistry & Genetics.
+  - Disease/Dysfunction GEA: 40% of exam. SEAs: Microbiology & Immunology, Pathology.
+- Approximately 40 questions per SEA on the real exam.
+- Many items appear in case-cluster format (a brief clinical or biomedical case followed by 2 to 4 related questions). Case clusters do not require clinical experience to answer.
+
+PASSING STANDARD:
+- The real exam uses the Angoff method to set a minimum-competence cut score per GEA. There is no fixed percentage. Examinees must pass BOTH GEAs in the same administration.
+
+DEPTH AND LANGUAGE:
+- Physician-level depth, similar to the basic-science depth seen on USMLE Step 1 and COMLEX Level 1.
+- Refer to the test-taker as the "examinee" or "student" and the practicing clinician as the "naturopathic physician" or "ND". Use "patient" for the subject of any clinical case. Do not use the term "client".`;
+    }
+
+    function partTwoFrameBlock(){
+      return `NPLEX PART II FRAME (Core Clinical Sciences Examination, CCSE):
+
+EXAMINATION FORMAT:
+- 400 case-based multiple-choice questions on the real exam.
+- Four General Exam Areas (GEAs) with NABNE-published weights:
+  - Diagnosis GEA: 30 to 35%. SEAs: Physical & Clinical Diagnosis; Lab & Imaging Diagnosis.
+  - Materia Medica GEA: 18 to 20%. SEAs: Botanical Medicine; Homeopathy.
+  - Other Modalities GEA: 28 to 30%. SEAs: Nutrition; Physical Medicine; Psychology.
+  - Medical Interventions GEA: 20%. SEAs: Emergency Medicine; Pharmacology.
+- Items are organized into case clusters around a single clinical vignette.
+
+PASSING STANDARD:
+- Angoff-method minimum-competence cut score, set per GEA. Examinees must demonstrate competence in ALL FOUR GEAs in the same administration. Failing any single GEA fails the entire exam.
+
+SCOPE OF PRACTICE (NON-NEGOTIABLE):
+- NDs practice OUTPATIENT primary care and internal medicine. Frame every case in an outpatient ND clinic context (private practice, community health, integrative clinic).
+- NDs do NOT work in hospital settings. Do not write hospital-floor, ICU, ED-as-primary-provider, or inpatient-rounding framing. Emergency-medicine items focus on recognition, initial stabilization within scope, and appropriate referral to emergency services.
+
+LANGUAGE CONVENTIONS:
+- Subject of the case: "patient" (NOT "client"). NPLEX does not use the NCSBN "client" convention.
+- Clinician: "the naturopathic physician" or "the ND". Where the question asks what the ND should do, use that phrasing.
+- Drugs by generic name, with brand parenthetical when commonly recognized.
+- Botanicals by full Latin binomial on first mention, common name parenthetical, then either thereafter.`;
+    }
+
+    /* ---------- SIX PRINCIPLES + THERAPEUTIC ORDER BLOCKS ---------- */
+    function principlesBlock(){
+      return `THE SIX NATUROPATHIC PRINCIPLES (surface these in case framing and rationale):
+1. Vis Medicatrix Naturae, the healing power of nature. Recognize the body's inherent self-healing capacity.
+2. Tolle Causam, identify and treat the cause. Pursue root-cause reasoning, not symptom suppression.
+3. Primum Non Nocere, first do no harm. Prefer least-force interventions when efficacy is comparable.
+4. Tolle Totum, treat the whole person. Integrate physical, mental/emotional, spiritual, social, and environmental factors.
+5. Docere, doctor as teacher. Teach the patient about their condition and engage them as a partner in care.
+6. Praevenir, prevention. Address risk factors and determinants of health before pathology emerges.`;
+    }
+
+    function therapeuticOrderBlock(){
+      return `THERAPEUTIC ORDER (treatment-sequencing logic, apply to every treatment-recommendation item):
+Level 1, Establish the conditions for health, address determinants of health (sleep, food, water, movement, breath, light, community).
+Level 2, Stimulate the Vis, the self-healing mechanism (hydrotherapy, homeopathy, mind-body practices, constitutional treatments).
+Level 3, Support and strengthen weakened systems (botanicals, nutrients, glandulars, targeted supplementation).
+Level 4, Correct structural integrity (physical medicine, manipulation, exercise prescription, ergonomics).
+Level 5, Address pathology with specific natural agents (high-dose nutrients, specific botanical actions, prescription botanicals where applicable).
+Level 6, Address pathology with specific synthetic substances (prescription pharmaceuticals).
+Level 7, Use high-force, invasive interventions, suppress pathology when necessary (surgery, suppressive drugs).
+
+When asked for a treatment recommendation, prefer lower levels first unless severity or safety mandates escalation. Justify any escalation by clinical urgency, severity, or evidence-of-failure at lower levels.`;
+    }
+
+    /* ---------- MODALITY-AWARE EVIDENCE BLOCK ---------- */
+    function evidenceBlock(activeMods){
+      const tiers={
+        phys_clin_dx:"Physical & Clinical Diagnosis: current edition standard diagnostic texts (Bates Guide to Physical Examination, DeGowin Diagnostic Examination); peer-reviewed clinical literature; current clinical practice guidelines from recognized specialty organizations.",
+        lab_imaging_dx:"Lab & Imaging Diagnosis: current edition standard texts (Henry Clinical Diagnosis and Management by Laboratory Methods); LabCorp/Quest reference ranges; CDC laboratory protocols; ACR Appropriateness Criteria for imaging; ARRS and RSNA peer-reviewed sources.",
+        botanical:"Botanical Medicine: Commission E monographs; ESCOP monographs; American Botanical Council clinical guides; Mills & Bone Principles and Practice of Phytotherapy; Hoffmann Medical Herbalism; Yarnell Naturopathic Gastroenterology and related volumes; Natural Medicines Comprehensive Database; peer-reviewed phytotherapy journals.",
+        homeopathy:"Homeopathy: classical materia medica (Boericke, Kent, Clarke, Vermeulen); proving records; repertories (Kent, Murphy, Synthesis); Hahnemann's Organon; peer-reviewed homeopathic clinical research where available. Evidence base differs from allopathic medicine, write questions consistent with classical and clinical homeopathy as taught for NPLEX, not skeptical critique.",
+        nutrition:"Nutrition: peer-reviewed nutrition literature; current edition Gaby Nutritional Medicine; Linus Pauling Institute Micronutrient Information Center; Academy of Nutrition and Dietetics evidence-based guidelines.",
+        physical_medicine:"Physical Medicine: osteopathic literature (Foundations of Osteopathic Medicine); PT and manual therapy peer-reviewed sources; standard naturopathic physical medicine texts including Boyle and Saine Lectures in Naturopathic Hydrotherapy; AAOM and AANP physical medicine guidelines.",
+        psychology:"Psychology: DSM-5-TR; APA evidence-based practice guidelines; peer-reviewed psychotherapy outcome literature; SAMHSA resources.",
+        emergency:"Emergency Medicine: current ACLS, PALS, BLS guidelines; AHA emergency cardiovascular care; AAEM and ACEP recognized standards. Recognition-and-referral level within ND outpatient scope.",
+        pharmacology:"Pharmacology: current Lexicomp; current Davis Drug Guide; FDA prescribing information; peer-reviewed pharmacology literature; current clinical practice guidelines for drug therapy; recognized pharmacology textbooks (Goodman & Gilman, Katzung)."
+      };
+      const active=activeMods.filter(m=>tiers[m]);
+      if(!active.length){return "";}
+      const lines=active.map(m=>`- ${tiers[m]}`);
+      return `MODALITY-AWARE EVIDENCE STANDARD (one tier per active modality):\n${lines.join("\n")}\n\nDo NOT base questions on unverified online sources, blogs, anecdotal evidence, or marketing materials. When evidence is evolving or genuinely contested, state that in the rationale and teach the current best-practice answer.`;
+    }
+
+    /* ---------- ANTI-BIAS MC BLOCK ---------- */
+    function answerBalanceBlock(activeTypes,n){
+      const hasMC=activeTypes.includes("Multiple Choice");
+      const hasCV=activeTypes.includes("Case Vignette");
+      const hasCC=activeTypes.includes("Case Cluster");
+      if(!hasMC && !hasCV && !hasCC) return "";
+      const parts=["ANSWER POSITION BALANCE (mandatory):"];
+      const seq=generateBalancedAnswerKey(n);
+      parts.push("");
+      parts.push("Every NPLEX-format item is four-option multiple choice (A, B, C, D), whether it appears standalone or as part of a case vignette or case cluster.");
+      parts.push("");
+      parts.push("Answer-position sequence (apply across ALL items in order, including those inside case vignettes and case clusters):");
+      parts.push(`[${seq.join(", ")}]`);
+      parts.push("");
+      parts.push(`The correct answer for the Nth item MUST be placed at the position at index N in the sequence above. So item 1 uses position ${seq[0]}, item 2 uses position ${seq[1]}, and so on.`);
+      parts.push("");
+      parts.push("This rule exists to prevent the well-documented AI bias of defaulting to B or C. Across the session, A, B, C, and D must each appear as the correct answer roughly equally often.");
+      parts.push("");
+      parts.push("ANTI-BIAS RULES FOR OPTIONS:");
+      parts.push("- All four options at the same level of detail and approximately the same length. The correct answer must not be the longest, most precisely worded, or most grammatically sophisticated option.");
+      parts.push("- Do not use absolute modifiers (\"always,\" \"never,\" \"all,\" \"none,\" \"only\") in the correct answer as a tell. If you use them, use them in distractors too.");
+      parts.push("- All distractors must be plausible, reflecting common misconceptions or near-correct reasoning, not random unrelated terms.");
+      parts.push("- Writing style, sentence structure, and vocabulary must not signal which option is correct.");
+      return "\n"+parts.join("\n")+"\n";
+    }
+
+    /* ---------- SELECTED P1 CATEGORIES + SEAs ---------- */
+    function getP1Selection(){
+      const out=[];
+      document.querySelectorAll("#p1Domains input[type=checkbox]").forEach(cb=>{
+        if(cb.checked){
+          const label=cb.parentElement;
+          out.push({
+            domain:cb.dataset.domain,
+            sea:label.dataset.sea,
+            gea:label.dataset.gea,
+            name:label.querySelector("span").textContent
+          });
+        }
+      });
+      return out;
+    }
+
+    /* ---------- SELECTED P2 MODALITIES ---------- */
+    function getP2Selection(){
+      const out=[];
+      document.querySelectorAll("#p2Config input[type=checkbox][data-mod]").forEach(cb=>{
+        if(cb.checked){
+          const item=cb.parentElement;
+          out.push({
+            mod:cb.dataset.mod,
+            gea:cb.dataset.gea,
+            name:item.querySelector("span").textContent
+          });
+        }
+      });
+      return out;
+    }
+
+    function getP2Populations(){
+      return [...document.querySelectorAll("#p2Populations input[type=checkbox]")]
+        .filter(cb=>cb.checked)
+        .map(cb=>cb.parentElement.querySelector("span").textContent);
+    }
+
+    /* ---------- SCORING SHEET BLOCK ---------- */
+    function nplexScoringBlock(part,p1Sel,p2Sel,reportLevel,scoreModel,gapEnabled,twoAxis){
+      if(reportLevel==="none"){
+        return "END-OF-SESSION OUTPUT: Final raw score and percentage only.";
+      }
+      if(reportLevel==="brief"){
+        return "END-OF-SESSION OUTPUT: Final raw score, percentage, and bullet list of weak topics.";
+      }
+
+      const angoffNote=scoreModel==="nplex"
+        ? `\nSCORING MODEL: NPLEX-style Angoff minimum-competence framing. The real exam has no fixed percentage cut. A converted score of 75 represents a scaled minimum-competence mark equivalent to roughly 60 to 70% raw correct depending on item difficulty. Report a raw score per GEA, then an approximate converted score using the convention raw_pct mapped to converted via: converted = round(60 + (raw_pct - 60) * 1.875), clamped to 0-100. State explicitly that this is an instructional approximation, not the official NABNE conversion.`
+        : `\nSCORING MODEL: Percentage correct per GEA, no Angoff conversion.`;
+
+      if(part==="p1"){
+        return `END-OF-SESSION OUTPUT, NPLEX PART I SCORING SHEET (full, printable plain-text):
+${angoffNote}
+
+Format the output EXACTLY like this, plain text, no markdown emphasis, ready to copy or print:
+
+================================================================
+NPLEX PART I, BIOMEDICAL SCIENCE EXAMINATION
+Practice Session Scoring Sheet
+================================================================
+
+Examinee: [the AI fills in if provided, otherwise blank line for handwriting]
+Date:     [today's date]
+Session:  [topics or focus area, one short line]
+Items:    [total questions in session]
+
+----------------------------------------------------------------
+GENERAL EXAM AREA RESULTS
+----------------------------------------------------------------
+GEA 1, Structure/Function (target 60%)
+  Items in session:           __
+  Correct:                    __
+  Raw percent:                __%
+  Approx. converted score:    __
+  GEA result:                 [PASS / FAIL minimum competence]
+
+  SEA breakdown:
+    Anatomy:                  __ / __  (__%)
+    Physiology:               __ / __  (__%)
+    Biochemistry & Genetics:  __ / __  (__%)
+
+GEA 2, Disease/Dysfunction (target 40%)
+  Items in session:           __
+  Correct:                    __
+  Raw percent:                __%
+  Approx. converted score:    __
+  GEA result:                 [PASS / FAIL minimum competence]
+
+  SEA breakdown:
+    Microbiology & Immunology: __ / __  (__%)
+    Pathology:                 __ / __  (__%)
+
+----------------------------------------------------------------
+OVERALL RESULT
+----------------------------------------------------------------
+Total raw correct:            __ / __  (__%)
+Overall result:               [PASS both GEAs / FAIL one or both]
+Note: On the real NPLEX, both GEAs must pass in the same administration.
+
+----------------------------------------------------------------
+WEAK TOPICS (top 3)
+----------------------------------------------------------------
+1. [topic]      Tag: [SEA, organ system if applicable]
+   Fix: [one concrete study action]
+2. [topic]      Tag: [SEA, organ system if applicable]
+   Fix: [one concrete study action]
+3. [topic]      Tag: [SEA, organ system if applicable]
+   Fix: [one concrete study action]
+
+----------------------------------------------------------------
+ONE PRIORITY ACTION BEFORE NEXT SESSION
+----------------------------------------------------------------
+[Single sentence, the most important thing to do next.]
+
+================================================================
+End of scoring sheet.
+================================================================`;
+      } else {
+        const matrixLine = (gapEnabled && twoAxis)
+          ? `\n\n----------------------------------------------------------------
+TWO-AXIS GAP MATRIX (Part II Gap Finder)
+----------------------------------------------------------------
+Rows: case category (cardiovascular, GI/hepatic, respiratory, etc., only those touched in session).
+Cols: modality (only those active in session).
+Each cell: count of items the examinee got correct / total items, plus a 1 to 3 weakness flag (3 = priority).
+
+[AI fills the matrix as a plain-text grid. Mark the single highest-priority cell with a *.]\n`
+          : "";
+
+        return `END-OF-SESSION OUTPUT, NPLEX PART II SCORING SHEET (full, printable plain-text):
+${angoffNote}
+
+Format the output EXACTLY like this, plain text, no markdown emphasis, ready to copy or print:
+
+================================================================
+NPLEX PART II, CORE CLINICAL SCIENCES EXAMINATION
+Practice Session Scoring Sheet
+================================================================
+
+Examinee: [blank line for handwriting]
+Date:     [today's date]
+Session:  [presenting case category + populations + active modalities, short]
+Items:    [total questions in session]
+Case format: [linked chain OR single vignette]
+
+----------------------------------------------------------------
+GENERAL EXAM AREA RESULTS
+----------------------------------------------------------------
+GEA 1, Diagnosis (target 30 to 35%)
+  Items in session:           __
+  Correct:                    __
+  Raw percent:                __%
+  Approx. converted score:    __
+  GEA result:                 [PASS / FAIL minimum competence]
+
+  SEA breakdown:
+    Physical & Clinical Dx:   __ / __
+    Lab & Imaging Dx:         __ / __
+
+GEA 2, Materia Medica (target 18 to 20%)
+  Items in session:           __
+  Correct:                    __
+  Raw percent:                __%
+  Approx. converted score:    __
+  GEA result:                 [PASS / FAIL minimum competence]
+
+  SEA breakdown:
+    Botanical Medicine:       __ / __
+    Homeopathy:               __ / __
+
+GEA 3, Other Modalities (target 28 to 30%)
+  Items in session:           __
+  Correct:                    __
+  Raw percent:                __%
+  Approx. converted score:    __
+  GEA result:                 [PASS / FAIL minimum competence]
+
+  SEA breakdown:
+    Nutrition:                __ / __
+    Physical Medicine:        __ / __
+    Psychology:               __ / __
+
+GEA 4, Medical Interventions (target 20%)
+  Items in session:           __
+  Correct:                    __
+  Raw percent:                __%
+  Approx. converted score:    __
+  GEA result:                 [PASS / FAIL minimum competence]
+
+  SEA breakdown:
+    Emergency Medicine:       __ / __
+    Pharmacology:             __ / __
+
+----------------------------------------------------------------
+OVERALL RESULT
+----------------------------------------------------------------
+Total raw correct:            __ / __  (__%)
+Overall result:               [PASS all four GEAs / FAIL one or more]
+Note: On the real CCSE, all four GEAs must pass in the same administration. Failing any single GEA fails the exam.${matrixLine}
+
+----------------------------------------------------------------
+WEAK TOPICS (top 3)
+----------------------------------------------------------------
+1. [topic]   Tag: [GEA, SEA, case category, special population if any]
+   Fix: [one concrete study action]
+2. [topic]   Tag: [GEA, SEA, case category, special population if any]
+   Fix: [one concrete study action]
+3. [topic]   Tag: [GEA, SEA, case category, special population if any]
+   Fix: [one concrete study action]
+
+----------------------------------------------------------------
+ONE PRIORITY ACTION BEFORE NEXT SESSION
+----------------------------------------------------------------
+[Single sentence, the most important thing to do next.]
+
+================================================================
+End of scoring sheet.
+================================================================`;
+      }
+    }
+
+    /* ---------- BUILD PROMPT ---------- */
+    let lastPrompt="";
+
+    function buildPrompt(){
+      const topics=getTopics();
+      const sqRaw=($("sqInput")||{value:""}).value.trim();
+      const gapEnabled=$("gapFinderEnabled").checked;
+      const gapTopics=gapEnabled?getGapTopics():[];
+      const gapDepth=$("gapDepth").value;
+      const gapTiming=$("gapTiming").value;
+      const twoAxis=$("twoAxisGap").checked;
+      const reportLevel=$("endReport").value;
+      const scoreModel=$("scoreModel").value;
+
+      if(gapEnabled && !gapTopics.length){
+        return {ok:false,error:"Gap Finder is on but no gap topics are listed. Add at least one focus topic or turn Gap Finder off."};
+      }
+      if(!topics.length && !sqRaw && !gapTopics.length){
+        return {ok:false,error:"Enter at least one topic in the Topics to study field, or enable Gap Finder with focus topics, or paste specific questions."};
+      }
+
+      const activeTypes=getActiveTypes();
+      if(!activeTypes.length){
+        return {ok:false,error:"Select at least one question type."};
+      }
+      const n=parseInt($("qCount").value,10);
+      const dokVal=$("dokLevel").value;
+
+      const justify=$("requireJustify").checked;
+      const retry=$("oneRetry").checked;
+      const score=$("trackScore").checked;
+
+      /* ---- topics block ---- */
+      let topicsBlock="";
+      if(topics.length){
+        topicsBlock=`\nTOPICS TO COVER (student-entered):\n${topics.map((t,i)=>`${i+1}. ${t}`).join("\n")}`;
+      } else if(gapEnabled && gapTopics.length){
+        topicsBlock=`\nTOPICS TO COVER (drawn from Gap Finder focus topics):\n${gapTopics.map((t,i)=>`${i+1}. ${t}`).join("\n")}`;
+      }
+      const sqBlock=sqRaw
+        ? `\n\nSPECIFIC QUESTIONS TO INCLUDE (use these exactly as written, fill remaining slots with new questions):\n${sqRaw}\n---`
+        : "";
+
+      /* ---- part-specific block ---- */
+      let partBlock="", taxonomyBlock="", caseFormatBlock="", scopeBlock="", populationsBlock="", evidenceTiers="";
+      let principlesOn = currentPart==="p2" && $("sixPrinciples").checked;
+      let therapeuticOrderOn = currentPart==="p2" && $("therapeuticOrder").checked;
+
+      if(currentPart==="p1"){
+        const p1Sel=getP1Selection();
+        if(!p1Sel.length){
+          return {ok:false,error:"Select at least one Part I category."};
+        }
+        partBlock=partOneFrameBlock();
+        const system=$("p1System").value;
+        const weighting=$("p1Weighting").value;
+
+        const taxonomyLines=p1Sel.map(d=>`- ${d.name} [SEA: ${seaName(d.sea)}, GEA: ${geaName(d.gea)}]\n    Seeds: ${p1SeedTaxonomy[d.domain]}`);
+        taxonomyBlock=`\nPART I SELECTED CATEGORIES, SEEDS, AND BLUEPRINT ROLLUP:\n${taxonomyLines.join("\n")}`;
+
+        const weightDirective = weighting==="blueprint"
+          ? "Distribute questions to approximately match the NPLEX Part I blueprint: 60% from Structure/Function SEAs (Anatomy, Physiology, Biochemistry & Genetics) and 40% from Disease/Dysfunction SEAs (Microbiology & Immunology, Pathology). Within each GEA, divide roughly evenly across the selected SEAs."
+          : weighting==="even"
+          ? "Distribute questions roughly evenly across the selected categories."
+          : "Weight more heavily toward the gap-finder focus topics, drawn from weak categories. Maintain at least one question per selected SEA.";
+        taxonomyBlock += `\n\nDISTRIBUTION DIRECTIVE: ${weightDirective}`;
+
+        if(system!=="any"){
+          taxonomyBlock += `\n\nORGAN-SYSTEM FILTER: Frame every question around the ${systemLabel(system)} system. Cross-cut the selected categories within that system.`;
+        }
+      } else {
+        const p2Sel=getP2Selection();
+        if(!p2Sel.length){
+          return {ok:false,error:"Select at least one Part II modality."};
+        }
+        partBlock=partTwoFrameBlock();
+        const caseCategory=$("p2CaseCategory").value;
+        const caseFormat=$("p2CaseFormat").value;
+        const weighting=$("p2Weighting").value;
+        const populations=getP2Populations();
+
+        const modLines=p2Sel.map(m=>`- ${m.name} [GEA: ${geaName(m.gea)}]\n    Seeds: ${p2SeedTaxonomy[m.mod]}`);
+        taxonomyBlock=`\nPART II SELECTED MODALITIES, SEEDS, AND BLUEPRINT GEA ROLLUP:\n${modLines.join("\n")}`;
+
+        const weightDirective = weighting==="blueprint"
+          ? "Distribute questions to approximately match NABNE CCSE blueprint weights across active GEAs: Diagnosis 30 to 35%, Materia Medica 18 to 20%, Other Modalities 28 to 30%, Medical Interventions 20%. Within each active GEA, divide across active SEAs roughly evenly."
+          : weighting==="even"
+          ? "Distribute questions roughly evenly across the selected modalities."
+          : "Weight more heavily toward gap-finder focus topics, drawn from weak modalities and case categories. Maintain at least one question per selected GEA.";
+        taxonomyBlock += `\n\nDISTRIBUTION DIRECTIVE: ${weightDirective}`;
+
+        if(caseCategory!=="any"){
+          taxonomyBlock += `\n\nPRESENTING CASE CATEGORY: Every case must present as a ${caseCategoryLabel(caseCategory)} clinical scenario.`;
+        }
+
+        if(populations.length){
+          populationsBlock = `\nSPECIAL POPULATIONS: Limit cases to the following patient populations: ${populations.join(", ")}. If "General adult" is included, you may use any adult presentation. Otherwise, every case must fit one of the listed populations.`;
+        }
+
+        caseFormatBlock = caseFormat==="linked"
+          ? `\nCASE FORMAT: LINKED CASE CHAIN.
+Each case opens with a single clinical stem (presenting complaint, vitals, brief history, relevant exam, initial labs/imaging). Then deliver 4 to 6 linked items that unfold from that stem: first item typically diagnosis or differential, then workup, then treatment recommendation across one or more active modalities, then a complication or follow-up consideration. Items within a chain must reference earlier answers when relevant. Count each item separately toward the total question count.`
+          : `\nCASE FORMAT: SINGLE VIGNETTE WITH CLUSTERED ITEMS.
+Each case opens with a single clinical vignette followed by 2 to 4 closely related items. Items in the cluster can be answered independently of each other.`;
+
+        scopeBlock = `\nOUTPATIENT ND SCOPE REMINDER: Every case must be plausibly within ND outpatient primary care or internal medicine scope. No hospital-floor, ICU, OR, or inpatient-rounding framing. Emergency Medicine items focus on recognition, initial outpatient stabilization, and timely referral.`;
+
+        evidenceTiers = "\n\n" + evidenceBlock(p2Sel.map(m=>m.mod));
+      }
+
+      const dokBlock=dokInstruction(dokVal,n);
+
+      /* ---- retry / strictness ---- */
+      const retryBlock = retry
+        ? "If the student answers incorrectly: provide a MINIMAL hint (one sentence, no giveaways), then ask for ONE retry. Grade the retry. Then reveal the correct answer."
+        : "No retries. If incorrect, reveal the correct answer with explanation.";
+      const strictnessTail =
+        strictMode==="coaching" ? ". Provide gentle guidance and hints before grading."
+        : strictMode==="strict" ? ". Require precise justification, no hints, exam-level rigor."
+        : ". Fair feedback, clear rationale.";
+      const justifyLine = justify
+        ? "REQUIRED. Ask the student to explain their reasoning before you grade each answer."
+        : "Encouraged but not required. Grade first, then invite reflection.";
+
+      /* ---- gap finder block (tutoring mode only) ---- */
+      let gapBlock="";
+      if(gapEnabled && currentSessionMode==="tutoring"){
+        const depthInstr={
+          light:"Provide brief, one-line fix suggestions for each gap.",
+          standard:"For each gap, name the specific concept to review and one concrete practice activity to close it.",
+          detailed:"For each gap, provide: (a) the specific concept misunderstood, (b) the root-cause classification, (c) the single most important thing to review first, (d) a concrete study activity, and (e) a practice exercise to confirm the gap is closed."
+        }[gapDepth];
+        const timingInstr={
+          inline:"Name each gap inline as it surfaces in the student's answer. Do not include an end-of-session gap summary.",
+          endonly:"Track gaps silently and present the full gap analysis only in the end-of-session report.",
+          both:"Name each gap inline as it surfaces (one sentence). Then present the consolidated remediation plan in the end-of-session report."
+        }[gapTiming];
+
+        const twoAxisInstr = (currentPart==="p2" && twoAxis)
+          ? `\n- TWO-AXIS TAGGING (Part II): Tag each gap on BOTH axes. Axis 1, clinical reasoning: dx weakness, ddx weakness, workup/lab interpretation weakness, prognosis weakness. Axis 2, modality: which active modality is weak for the case category at hand. Report the matrix in the end-of-session scoring sheet, rows = case categories touched, columns = active modalities, cells = correct / total, star the single highest-priority cell.`
+          : "";
+
+        gapBlock=`\nGAP FINDER MODE: ACTIVE\nFocus topics for gap analysis:\n${gapTopics.map((t,i)=>`${i+1}. ${t}`).join("\n")}\n\nGAP FINDER BEHAVIOR:\n- Design questions to probe the focus topics above. Weave them into the regular question loop.\n- When the student answers incorrectly or partially, identify the SPECIFIC knowledge gap, not just that the answer was wrong.\n- Classify each gap as one of: prerequisite missing, conceptual confusion, terminology error, mechanism not understood, clinical application weakness.\n- ${timingInstr}\n- Remediation depth: ${depthInstr}${twoAxisInstr}\n`;
+      }
+
+      /* ---- exam diagnostic block (mini-exam mode only, replaces gap finder) ---- */
+      let examDiagnosticBlock="";
+      if(currentSessionMode==="exam"){
+        const twoAxisExamInstr = currentPart==="p2"
+          ? `\n- TWO-AXIS DIAGNOSTIC MATRIX (Part II): Build a matrix with rows = case categories touched in this exam and columns = active modalities. Each cell shows correct / total for items that fall in that intersection. Star the single weakest cell. This shows the student which combination of case type and therapeutic modality needs the most attention.`
+          : "";
+        examDiagnosticBlock = `\nAUTOMATIC EXAM DIAGNOSTIC (replaces inline Gap Finder, since the entire exam IS the diagnostic):
+After grading the exam, perform a full diagnostic analysis as part of the scoring sheet:
+- Identify the weakest SEAs by raw percent correct.
+- Identify the weakest GEAs by aggregate raw percent correct against the NABNE blueprint cut-score expectation.
+- For each weak area: name the most-missed concept within it, classify the root cause (prerequisite missing, conceptual confusion, terminology error, mechanism not understood, clinical application weakness), and prescribe ONE specific study action.${twoAxisExamInstr}
+- Conclude with the single highest-priority action the student should take before their next study session.`;
+      }
+
+      /* ---- answer balance block ---- */
+      const balanceBlock = answerBalanceBlock(activeTypes,n);
+
+      /* ---- scoring block ---- */
+      const reportGapForScoring = gapEnabled || currentSessionMode==="exam";
+      const scoringSheet = nplexScoringBlock(currentPart, getP1Selection(), getP2Selection(), reportLevel, scoreModel, reportGapForScoring, twoAxis||currentSessionMode==="exam");
+
+      /* ---- principles + therapeutic order ---- */
+      const principlesText = principlesOn ? "\n\n"+principlesBlock() : "";
+      const therapeuticText = therapeuticOrderOn ? "\n\n"+therapeuticOrderBlock() : "";
+
+      /* ---- interaction block, branches on session mode ---- */
+      let interactionBlock;
+      const promptOpener = currentSessionMode==="exam"
+        ? "You are an expert naturopathic medical educator administering a live NPLEX mini-exam in exam-simulation mode."
+        : "You are an expert naturopathic medical educator running a live, interactive NPLEX board-review study session.";
+
+      if(currentSessionMode==="exam"){
+        const examDeliveryProtocol = (currentPart==="p2" && $("p2CaseFormat") && $("p2CaseFormat").value==="linked")
+          ? `EXAM DELIVERY PROTOCOL (mini-exam mode, Part II linked-chain format):
+1. Present case cluster 1: the case stem followed by all 4 to 6 linked items, numbered sequentially across the full exam.
+2. Wait for the student to submit all answers for cluster 1 in a single message (e.g., "1. A, 2. C, 3. B, 4. D, 5. A").
+3. Acknowledge receipt only ("Cluster 1 received. Moving to cluster 2."). Do NOT grade or reveal any answer.
+4. Continue with cluster 2, 3, and so on until all clusters delivered.
+5. After the final cluster, grade everything at once.
+6. Move directly to the NPLEX scoring sheet with full automatic diagnostic.`
+          : `EXAM DELIVERY PROTOCOL (mini-exam mode):
+1. Present all ${n} questions in a single numbered list, no answers shown, no rationale or feedback during delivery.
+2. Wait for the student to submit all answers in a single message (e.g., "1. A, 2. C, 3. B...").
+3. Once submitted, grade all answers at once.
+4. Move directly to the NPLEX scoring sheet with full automatic diagnostic.`;
+
+        interactionBlock = `EXAM-MODE RULES (locked):
+- No feedback, hints, retries, or rationale during the exam.
+- Justification: ${justify?"Ask the student to submit a brief one-line reason alongside each answer. You will grade the reasoning together with the answer at the end.":"Answers only. Reasoning not requested."}
+- Distribution is locked to blueprint-proportional within the selected categories or modalities. If the student selected a subset, "blueprint-proportional" means proportional WITHIN that subset, not against the full exam.
+- All quality controls and balanced-answer-key rules from earlier sections still apply.
+
+${examDeliveryProtocol}`;
+      } else {
+        interactionBlock = `INTERACTION RULES:
+- Strictness: ${strictMode}${strictnessTail}
+- Justification: ${justifyLine}
+- ${retryBlock}
+- Score tracking: ${score?"Display the running score after every question (e.g., Score: 4/6).":"Show the cumulative score only at the end."}
+
+QUESTION LOOP, repeat for every question or case-cluster item:
+1. State the question number and present ONE question only. Do not show the answer.
+2. Wait for the student to respond${justify?" with their answer and reasoning":""}.
+3. Grade immediately: Correct / Incorrect / Partial, with a clear rationale.
+4. ${retry?"If incorrect: give a minimal one-sentence hint, ask for one retry, then grade the retry.":"If incorrect: reveal the correct answer directly."}
+5. Reveal the correct answer with a brief explanation, citing the appropriate evidence tier for the active modality.
+6. Move to the next question or item.`;
+      }
+
+      const firstQuestionLine = currentSessionMode==="exam"
+        ? "- Begin immediately with the exam. Title it: \"NPLEX MINI-EXAM, Part " + (currentPart==="p1"?"I":"II") + ", blueprint-proportional.\" Then deliver Question 1 (or Case Cluster 1) per the protocol. No preamble."
+        : "- Begin immediately with Question 1. No preamble.";
+
+      /* ---- final prompt ---- */
+      const prompt = `${promptOpener}
+
+${partBlock}
+${principlesText}
+${therapeuticText}
+${scopeBlock}
+
+${dokBlock}
+${taxonomyBlock}
+${populationsBlock}
+${caseFormatBlock}
+${evidenceTiers}
+
+QUESTION TYPES TO USE: ${activeTypes.join(", ")}
+TOTAL QUESTIONS: ${n}${topicsBlock}${sqBlock}
+${balanceBlock}
+${interactionBlock}
+
+${gapBlock}${examDiagnosticBlock}
+${scoringSheet}
+
+QUALITY CONTROLS:
+- Zero factual errors. Zero ambiguity. Every rationale must be defensible from the modality-appropriate evidence tier.
+- Do NOT reveal upcoming questions or the answer key at any point.
+- Maintain the language conventions for this Part (patient not client, naturopathic physician or ND for the clinician).
+${firstQuestionLine}`;
+      return {ok:true,prompt};
+    }
+
+    function seaName(k){return {anatomy:"Anatomy",physiology:"Physiology",biochem_genetics:"Biochemistry & Genetics",micro_immuno:"Microbiology & Immunology",pathology:"Pathology"}[k]||k;}
+    function geaName(k){return {sf:"Structure/Function (60%)",dd:"Disease/Dysfunction (40%)",dx:"Diagnosis (30 to 35%)",mm:"Materia Medica (18 to 20%)",om:"Other Modalities (28 to 30%)",mi:"Medical Interventions (20%)"}[k]||k;}
+    function systemLabel(k){return {cardiovascular:"cardiovascular",respiratory:"respiratory",renal:"renal",gi:"GI/hepatic",endocrine:"endocrine",reproductive:"reproductive",msk:"musculoskeletal",neuro:"nervous",integumentary:"integumentary",heme_lymph:"hematologic/lymphatic",special_senses:"special senses (EENT)"}[k]||k;}
+    function caseCategoryLabel(k){return {cardiovascular:"cardiovascular",gi_hepatic:"GI/hepatic",respiratory:"respiratory",endocrine:"endocrine",msk:"musculoskeletal",neuro:"neurological",dermatological:"dermatological",gu:"genitourinary",repro_female:"female reproductive",repro_male:"male reproductive",eent:"EENT"}[k]||k;}
+
+    /* ---------- TOAST + CLIPBOARD + MODAL ---------- */
+    function showToast(msg,dur){
+      dur=dur||2600;
+      const t=$("toast");
+      t.textContent=msg;
+      t.classList.add("show");
+      setTimeout(()=>t.classList.remove("show"),dur);
+    }
+    async function copy(t){try{await navigator.clipboard.writeText(t);return true;}catch(e){return false;}}
+    function openModal(){$("promptModal").classList.add("open");$("promptModal").setAttribute("aria-hidden","false");}
+    function closeModal(){$("promptModal").classList.remove("open");$("promptModal").setAttribute("aria-hidden","true");}
+    window.addEventListener("click",e=>{if(e.target===$("promptModal"))closeModal();});
+    window.addEventListener("keydown",e=>{if(e.key==="Escape")closeModal();});
+    $("closePrompt").addEventListener("click",closeModal);
+
+    const aiUrls={gpt:"https://chatgpt.com/",claude:"https://claude.ai/new",gemini:"https://gemini.google.com/app",copilot:"https://copilot.microsoft.com/"};
+
+    async function handleGenerate(dest){
+      const r=buildPrompt();
+      if(!r.ok){showToast("Please note: "+r.error,3500);return;}
+      lastPrompt=r.prompt;
+      const ok=await copy(r.prompt);
+      if(!ok){
+        $("promptOutput").textContent=r.prompt;
+        openModal();
+        showToast("Clipboard blocked. Copy manually.",3500);
+        return;
+      }
+      showToast("Prompt copied. Paste it when the page opens.");
+      setTimeout(()=>window.open(aiUrls[dest]||aiUrls.gpt,"_blank","noopener"),400);
+    }
+
+    $("genChatGPT").addEventListener("click",()=>handleGenerate("gpt"));
+    $("genClaude").addEventListener("click",()=>handleGenerate("claude"));
+    $("genGemini").addEventListener("click",()=>handleGenerate("gemini"));
+    $("genCopilot").addEventListener("click",()=>handleGenerate("copilot"));
+    $("previewPrompt").addEventListener("click",()=>{
+      const r=buildPrompt();
+      if(!r.ok){showToast("Please note: "+r.error,3500);return;}
+      lastPrompt=r.prompt;
+      $("promptOutput").textContent=r.prompt;
+      openModal();
+    });
+    $("copyPromptBtn").addEventListener("click",async()=>{
+      const ok=await copy($("promptOutput").textContent||"");
+      showToast(ok?"Copied to clipboard.":"Clipboard blocked. Copy manually.");
+    });
+    $("openGptBtn").addEventListener("click",()=>window.open(aiUrls.gpt,"_blank","noopener"));
+    $("openClaudeBtn").addEventListener("click",()=>window.open(aiUrls.claude,"_blank","noopener"));
+    $("openGeminiBtn").addEventListener("click",()=>window.open(aiUrls.gemini,"_blank","noopener"));
+    $("openCopilotBtn").addEventListener("click",()=>window.open(aiUrls.copilot,"_blank","noopener"));
+
+    /* ---------- INIT ---------- */
+    updateStatusBadges();
+  })();
+  </script>
+
+  <!-- Kajabi/GitHub Pages iframe height-sender -->
+  <script>
+  (function(){
+    function sendHeight(){
+      var h=document.documentElement.scrollHeight;
+      try{ window.parent.postMessage({type:"resize",id:"nplex-board-review-engine",height:h},"*"); }catch(e){}
+    }
+    if("ResizeObserver" in window){
+      try{ new ResizeObserver(sendHeight).observe(document.documentElement); }catch(e){}
+    }
+    window.addEventListener("load",sendHeight);
+    window.addEventListener("resize",sendHeight);
+    document.addEventListener("DOMContentLoaded",sendHeight);
+    sendHeight();
+  })();
+  </script>
+</body>
+</html>
