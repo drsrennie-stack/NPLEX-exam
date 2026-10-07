@@ -23,6 +23,7 @@
   --mastered-border:#0B1530;--mastered-fill:rgba(11,21,48,.07);
   --bar:#0B1530;--bar-bg:rgba(11,21,48,.08);--bar-miss:#8B3A2E;
   --shadow:0 1px 3px rgba(0,0,0,.08);--shadow-hover:0 8px 16px rgba(0,0,0,.10);
+  --tile:#7A2E24;--tile-hover:#6A2620;--tile-ink:#FFFFFF;--tile-sub:rgba(255,255,255,.86);--tile-track:rgba(255,255,255,.24);--tile-fill:#E9CD8A;
   color-scheme:light;
 }
 @media (prefers-color-scheme: dark){
@@ -36,6 +37,7 @@
     --mastered-border:#EEF1F6;--mastered-fill:rgba(238,241,246,.10);
     --bar:#B6C0D0;--bar-bg:rgba(255,255,255,.10);--bar-miss:#E09A8C;
     --shadow:0 1px 3px rgba(0,0,0,.4);--shadow-hover:0 8px 16px rgba(0,0,0,.5);
+    --tile:#7A2E24;--tile-hover:#8B3A2E;--tile-ink:#FFFFFF;--tile-sub:rgba(255,255,255,.86);--tile-track:rgba(255,255,255,.24);--tile-fill:#E9CD8A;
     color-scheme:dark;
   }
 }
@@ -49,6 +51,7 @@
   --mastered-border:#EEF1F6;--mastered-fill:rgba(238,241,246,.10);
   --bar:#B6C0D0;--bar-bg:rgba(255,255,255,.10);--bar-miss:#E09A8C;
   --shadow:0 1px 3px rgba(0,0,0,.4);--shadow-hover:0 8px 16px rgba(0,0,0,.5);
+  --tile:#7A2E24;--tile-hover:#8B3A2E;--tile-ink:#FFFFFF;--tile-sub:rgba(255,255,255,.86);--tile-track:rgba(255,255,255,.24);--tile-fill:#E9CD8A;
   color-scheme:dark;
 }
 *,*::before,*::after{box-sizing:border-box}
@@ -155,7 +158,48 @@ main:focus{outline:none}
 .unit-row.soon .nm span.t{color:var(--ink2)}
 .ticks{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:.85rem}
 .ticks label{display:inline-flex;align-items:center;gap:4px;cursor:pointer;font-weight:600;color:var(--ink2)}
+/* Dark theme: navy page, white cards. Every card re-scopes to the light palette. */
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) :is(.card,.week,.concept,.routine li,.sec,.rv-item,.soft,.confirm,.week-tile.soon){--page:#FFFFFF;--soft:#FAFAF9;--card:#FFFFFF;--raised:#FFFFFF;--ink:#0B1530;--ink2:rgba(11,21,48,.72);--accent:#8B3A2E;--accent-hover:#6B2A20;--gold:#C9A14A;--line:rgba(11,21,48,.12);--line-strong:rgba(11,21,48,.55);--btn-bg:#0B1530;--btn-ink:#FFFFFF;--btn-hover:#1C2A4E;--acc-btn-bg:#8B3A2E;--acc-btn-ink:#FFFFFF;--mastered-border:#0B1530;--mastered-fill:rgba(11,21,48,.07);--bar:#0B1530;--bar-bg:rgba(11,21,48,.08);--bar-miss:#8B3A2E;--shadow:0 1px 3px rgba(0,0,0,.25);--shadow-hover:0 10px 22px rgba(0,0,0,.35);color-scheme:light;color:var(--ink)}}
+:root[data-theme="dark"] :is(.card,.week,.concept,.routine li,.sec,.rv-item,.soft,.confirm,.week-tile.soon){--page:#FFFFFF;--soft:#FAFAF9;--card:#FFFFFF;--raised:#FFFFFF;--ink:#0B1530;--ink2:rgba(11,21,48,.72);--accent:#8B3A2E;--accent-hover:#6B2A20;--gold:#C9A14A;--line:rgba(11,21,48,.12);--line-strong:rgba(11,21,48,.55);--btn-bg:#0B1530;--btn-ink:#FFFFFF;--btn-hover:#1C2A4E;--acc-btn-bg:#8B3A2E;--acc-btn-ink:#FFFFFF;--mastered-border:#0B1530;--mastered-fill:rgba(11,21,48,.07);--bar:#0B1530;--bar-bg:rgba(11,21,48,.08);--bar-miss:#8B3A2E;--shadow:0 1px 3px rgba(0,0,0,.25);--shadow-hover:0 10px 22px rgba(0,0,0,.35);color-scheme:light;color:var(--ink)}
+/* Stat boxes in brand colors (both themes) */
+:root .card.stat.t-gold{background:#C9A14A;--ink:#0B1530;--ink2:rgba(11,21,48,.86);color:#0B1530}
+:root .card.stat.t-terra{background:#8B3A2E;--ink:#FFFFFF;--ink2:rgba(255,255,255,.9);color:#FFFFFF}
+:root .card.stat.t-goldlt{background:#EFD9A4;--ink:#0B1530;--ink2:rgba(11,21,48,.86);color:#0B1530}
 input[type=checkbox],input[type=radio]{width:18px;height:18px;accent-color:var(--accent);margin:0;flex:none}
+input[type=checkbox]{-webkit-appearance:none;appearance:none;border:2px solid var(--line-strong);border-radius:5px;background:var(--card) center/12px 12px no-repeat;cursor:pointer}
+input[type=checkbox]:checked{background-color:var(--accent);border-color:var(--accent);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath d='M2 6.2l2.6 2.6L10 3.4' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")}
+.week-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:40px 14px;list-style:none;margin:0;padding:36px 0 0}
+.week-grid>li{position:relative}
+.here-arrow{position:absolute;left:50%;top:-38px;width:30px;height:32px;margin-left:-15px;color:var(--accent);animation:herebounce 1.1s ease-in-out infinite;pointer-events:none}
+.here-arrow svg{display:block;width:100%;height:100%}
+@keyframes herebounce{0%,100%{transform:translateY(0)}50%{transform:translateY(8px)}}
+.week-tile{display:flex;flex-direction:column;gap:6px;height:100%;min-height:150px;padding:18px;border-radius:14px;background:var(--tile);color:var(--tile-ink);text-decoration:none;box-shadow:var(--shadow);transition:transform 200ms ease,box-shadow 200ms ease,background-color 200ms ease}
+.week-tile:hover{transform:translateY(-2px);box-shadow:var(--shadow-hover);background:var(--tile-hover);color:var(--tile-ink)}
+.week-tile .wk{font-size:.72rem;font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:var(--tile-sub)}
+.week-tile .sys{font-size:1.3rem;font-weight:800;letter-spacing:-.02em;line-height:1.15}
+.week-tile .sub{font-size:.88rem;color:var(--tile-sub);margin-top:auto}
+.week-tile .track{height:6px;border-radius:99px;background:var(--tile-track);overflow:hidden}
+.week-tile .track span{display:block;height:100%;background:var(--tile-fill);border-radius:99px}
+.week-tile.soon{background:var(--card);color:var(--ink);border:1px solid var(--line)}
+.week-tile.soon .wk,.week-tile.soon .sub{color:var(--ink2)}
+.week-tile.soon:hover{background:var(--card);color:var(--ink)}
+.week-tile.soon .track{background:var(--bar-bg)}
+.concept-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px;list-style:none;margin:0;padding:0}
+.concept{display:flex;flex-direction:column;gap:8px;height:100%;padding:16px;border-radius:14px;background:var(--card);color:var(--ink);text-decoration:none;box-shadow:var(--shadow);transition:transform 200ms ease,box-shadow 200ms ease}
+a.concept:hover{transform:translateY(-2px);box-shadow:var(--shadow-hover);color:var(--ink)}
+.concept .cc{font-size:.75rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+.concept .cn{font-weight:800;font-size:1.02rem;line-height:1.25}
+.concept .foot{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:auto;flex-wrap:wrap}
+.concept.soon{box-shadow:none;border:1px dashed var(--line-strong)}
+.concept.soon .cc,.concept.soon .cn{color:var(--ink2)}
+.steps4{display:flex;gap:4px}
+.steps4 span{width:22px;height:8px;border-radius:99px;background:var(--bar-bg);border:1px solid var(--line)}
+.steps4 span.on{background:var(--accent);border-color:var(--accent)}
+.back{display:inline-block;margin-bottom:.6rem;font-weight:700;font-size:.9rem}
+.wk-progress{display:flex;align-items:center;gap:12px;margin-top:.6rem;font-size:.9rem;color:var(--ink2)}
+.wk-progress .bar{flex:1 1 200px;max-width:320px;height:8px;border-radius:99px;background:var(--bar-bg);overflow:hidden}
+.wk-progress .bar span{display:block;height:100%;background:var(--accent)}
+@media (prefers-reduced-motion: reduce){.here-arrow{animation:none}.week-tile,.concept{transition:none}.week-tile:hover,a.concept:hover{transform:none}}
 
 /* routine */
 .routine{counter-reset:r;list-style:none;padding:0;margin:0;display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(180px,1fr))}
@@ -357,7 +401,9 @@ function unitOf(code){
   if(m && COMP[m[1]]) return m[1];
   return null;
 }
-function sysName(code){ return SYS[code] ? SYS[code].name : code; }
+var SYS_SHORT={CV:'Cardio',GI:'GI',MS:'MSK',NE:'Neuro',RE:'Repro',UR:'Urology',EN:'Endo',IM:'Immuno',PU:'Pulm',HE:'Heme',IN:'Derm'};
+function sysName(code){ return SYS_SHORT[code] || (SYS[code] ? SYS[code].name : code); }
+function sysFull(code){ return SYS[code] ? (SYS[code].full||SYS[code].name) : code; }
 function casesFor(sys){ return CASES.filter(function(c){ return c.system===sys; }); }
 
 /* ---------------- helpers ---------------- */
@@ -640,31 +686,63 @@ VIEW.path = function(){
   var h='<div class="head"><p class="eyebrow">NPLEX Part I · 12 week course</p><h1 tabindex="-1">Your path to all <span class="accent">'+all+'</span> competencies</h1>'+
     '<p class="lead">One body system a week. Week 12 pulls it all together with full practice exams.</p></div>';
   h+='<section aria-labelledby="sum-h" class="section"><h2 id="sum-h" class="sr-only">Your progress</h2><div class="grid g4">'+
-    stat(started,'Units started')+stat(mastered,'Units mastered')+stat(due,'Due today')+stat(blind,'Blind spots')+'</div></section>';
+    stat(started,'Units started')+stat(mastered,'Units mastered','gold')+stat(due,'Due today','terra')+stat(blind,'Blind spots','goldlt')+'</div></section>';
   h+='<section aria-labelledby="today-h" class="section"><div class="card"><p class="eyebrow">Today</p><h2 id="today-h">What should you do next?</h2>'+todayHTML()+'</div></section>';
   h+='<section aria-labelledby="rt-h" class="section soft"><h2 id="rt-h">How do you work each unit?</h2><ol class="routine">'+
     '<li>Brain dump before you study</li><li>Study the notes and videos</li><li>Answer the case questions</li><li>Brain dump after you study</li><li>Spaced recall keeps it</li></ol>'+
-    '<p class="note" style="margin:.8rem 0 0">Tick each step as you go. Cases tick on their own when you finish a case set for that unit.</p></section>';
-  if(!openWeeks){ openWeeks={}; var cw=currentWeek(); openWeeks[cw]=true; }
-  h+='<section aria-labelledby="wk-h" class="section"><h2 id="wk-h">Week by week</h2>';
-  h+=weekBlock(0,'Week 0: Diagnostic','Find your starting gaps', '<p>Take the diagnostic first. Your results set up your first reviews.</p><p><a class="btn acc" href="#diagnostic">Go to the diagnostic</a></p>');
+    '<p class="note" style="margin:.8rem 0 0">Open a week, then pick a topic to start.</p></section>';
+  var cw=currentWeek();
+  h+='<section aria-labelledby="wk-h" class="section"><h2 id="wk-h">Pick a week</h2><ul class="week-grid">';
+  h+=weekTile(0,'Diagnostic','Find your starting gaps','#diagnostic',null,cw===0);
   SYS_ORDER.forEach(function(code,ix){
     var w=ix+1, list=ORDERED.filter(function(c){ return c.systemCode===code; });
-    var ready=list.filter(function(c){return UNITS[c.id];}).length, st=list.filter(function(c){return status(c.id)!=='new';}).length;
-    var rein=BP.systems.filter(function(s){ return s.reinforce===w; }).map(function(s){ return s.name; });
-    var body='';
-    if(rein.length) body+='<p class="note">Also this week: quick review of '+esc(rein.join(' and '))+'.</p>';
-    body+='<ul class="unit-list">'+list.map(unitRow).join('')+'</ul>';
-    h+=weekBlock(w,'Week '+w+': '+esc(sysName(code)), list.length+' units · '+ready+' ready · '+st+' started', body);
+    var ready=list.filter(function(c){return UNITS[c.id];}).length;
+    var done=list.filter(function(c){ var st=status(c.id); return st==='mastered'; }).length;
+    var started=list.filter(function(c){return status(c.id)!=='new';}).length;
+    var sub = ready ? list.length+' topics · '+started+' started' : list.length+' topics · coming soon';
+    h+=weekTile(w,sysName(code),sub,'#week/'+w, ready? {pct: list.length? Math.round(100*started/list.length):0, label: started+' of '+list.length+' topics started'} : null, w===cw, !ready);
   });
-  var rein12=BP.systems.filter(function(s){ return s.reinforce===12; }).map(function(s){ return s.name; });
-  h+=weekBlock(12,'Week 12: Integration review','Full exams and mixed review',
-    '<ul><li>Take the full practice exams</li><li>Mixed practice sets across all systems</li><li>Clear your blind spots and due reviews</li>'+(rein12.length?'<li>Quick review of '+esc(rein12.join(' and '))+'</li>':'')+'</ul>'+
-    '<div class="row"><a class="btn acc" href="#exams">Full exams</a><a class="btn ghost" href="#practice">Mixed practice</a><a class="btn ghost" href="#dashboard">See your weak spots</a></div>');
+  h+=weekTile(12,'Integration review','Full exams and mixed review','#week/12',null,cw===12);
   h+='</section>';
   return h;
 };
-function stat(n,l){ return '<div class="card stat"><div class="num">'+n+'</div><div class="lab">'+esc(l)+'</div></div>'; }
+function weekTile(w,name,sub,href,prog,current,soon){
+  var bar = prog ? '<div class="track" role="img" aria-label="'+esc(prog.label)+'"><span style="width:'+prog.pct+'%"></span></div>' : '';
+  var arrow = current ? '<span class="here-arrow" aria-hidden="true"><svg viewBox="0 0 30 32"><path d="M15 2v24M5 17l10 11 10-11" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>' : '';
+  return '<li>'+arrow+'<a class="week-tile'+(soon?' soon':'')+'" href="'+href+'"'+(current?' aria-current="step"':'')+'>'+
+    '<span class="wk">Week '+w+(current?' · You are here':'')+'</span><span class="sys">'+esc(name)+'</span>'+bar+'<span class="sub">'+esc(sub)+'</span></a></li>';
+}
+function conceptCard(c){
+  if(!UNITS[c.id]) return '<li><div class="concept soon"><span class="cc">'+esc(c.id)+'</span><span class="cn">'+esc(c.name)+'</span><div class="foot">'+chip('soon')+'</div></div></li>';
+  var st=status(c.id), s=(S.units[c.id]||{}).steps||{}, keys=['dump1','study','cases','dump2'], n=0;
+  var marks=keys.map(function(k){ if(s[k]) n++; return '<span class="'+(s[k]?'on':'')+'"></span>'; }).join('');
+  return '<li><a class="concept" href="#study/'+esc(c.id)+'"><span class="cc">'+esc(c.id)+'</span><span class="cn">'+esc(c.name)+'</span>'+
+    '<div class="foot">'+chip(st)+'<span class="steps4" role="img" aria-label="'+n+' of 4 steps done">'+marks+'</span></div></a></li>';
+}
+VIEW.week = function(arg){
+  var w=parseInt(arg,10);
+  if(w===12){
+    var rein12=BP.systems.filter(function(s){ return s.reinforce===12; }).map(function(s){ return sysName(s.code); });
+    return '<div class="head"><a class="back" href="#path">Back to all weeks</a><p class="eyebrow">Week 12</p><h1 tabindex="-1">Integration review</h1><p class="lead">Put it all together before test day.</p></div>'+
+      '<div class="card"><ul><li>Take the full practice exams</li><li>Mixed practice sets across all systems</li><li>Clear your blind spots and due reviews</li>'+(rein12.length?'<li>Quick review of '+esc(rein12.join(' and '))+'</li>':'')+'</ul>'+
+      '<div class="row"><a class="btn acc" href="#exams">Full exams</a><a class="btn ghost" href="#practice">Mixed practice</a><a class="btn ghost" href="#dashboard">See your weak spots</a></div></div>';
+  }
+  var code=SYS_ORDER[w-1];
+  if(!code) return '<div class="head"><h1 tabindex="-1">Week not found</h1><p><a href="#path">Back to all weeks</a></p></div>';
+  var list=ORDERED.filter(function(c){ return c.systemCode===code; });
+  var core=list.filter(function(c){ return c.kind!=='conditions'; }), conds=list.filter(function(c){ return c.kind==='conditions'; });
+  var started=list.filter(function(c){return status(c.id)!=='new';}).length;
+  var sys=BP.systems.filter(function(s){return s.code===code;})[0]||{};
+  var rein=BP.systems.filter(function(s){ return s.reinforce===w; }).map(function(s){ return sysName(s.code); });
+  var h='<div class="head"><a class="back" href="#path">Back to all weeks</a><p class="eyebrow">Week '+w+(sys.weight?' · '+sys.weight+'% of the exam':'')+'</p>'+
+    '<h1 tabindex="-1">'+esc(sysName(code))+'</h1><p class="lead">'+esc(sysFull(code))+'</p>'+
+    '<div class="wk-progress"><span class="bar" role="img" aria-label="'+started+' of '+list.length+' topics started"><span style="width:'+(list.length?Math.round(100*started/list.length):0)+'%"></span></span><span>'+started+' of '+list.length+' topics started</span></div>'+
+    (rein.length?'<p class="note">Also this week: quick review of '+esc(rein.join(' and '))+'.</p>':'')+'</div>';
+  h+='<section class="section" aria-labelledby="core-h"><h2 id="core-h">How the body works</h2><ul class="concept-grid">'+core.map(conceptCard).join('')+'</ul></section>';
+  if(conds.length) h+='<section class="section" aria-labelledby="cond-h"><h2 id="cond-h">Diseases and conditions</h2><ul class="concept-grid">'+conds.map(conceptCard).join('')+'</ul></section>';
+  return h;
+};
+function stat(n,l,t){ return '<div class="card stat'+(t?' t-'+t:'')+'"><div class="num">'+n+'</div><div class="lab">'+esc(l)+'</div></div>'; }
 function currentWeek(){
   for(var i=0;i<ORDERED.length;i++){ var c=ORDERED[i]; if(UNITS[c.id] && status(c.id)==='new') return c.week; }
   return S.history.some(function(h){return h.kind==='diag';}) ? 1 : 0;
@@ -690,7 +768,7 @@ VIEW.study = function(id){
   var c=COMP[id];
   if(!c) return '<div class="head"><h1 tabindex="-1">Unit not found</h1><p><a href="#path">Back to your path</a></p></div>';
   var u=UNITS[id], st=status(id), us=S.units[id]?S.units[id].steps:{};
-  var h='<div class="head"><p class="eyebrow">'+esc(c.system)+' · '+esc(c.id)+' · Week '+c.week+'</p><h1 tabindex="-1">'+esc(c.name)+'</h1>'+
+  var h='<div class="head"><p class="eyebrow">'+esc(sysName(c.systemCode))+' · '+esc(c.id)+' · Week '+c.week+'</p><h1 tabindex="-1">'+esc(c.name)+'</h1>'+
     '<p class="can">'+esc(c.can)+'</p>';
   if(c.conditions && c.conditions.length) h+='<ul class="tags" aria-label="Conditions in this unit">'+c.conditions.map(function(x){return '<li>'+esc(x.name)+'</li>';}).join('')+'</ul>';
   h+='<div class="row small">'+chip(u?st:'soon')+'<span class="muted">Exam area: '+esc(c.seaCodes.map(function(k){return SEA_NAMES[k];}).join(', '))+' · '+esc(c.gea)+'</span></div></div>';
@@ -795,7 +873,7 @@ function spinHTML(){
   h+='<div class="row"><button type="button" class="btn acc" data-act="spin">'+(spin?'Another one':'Spin')+'</button></div>';
   if(spin){
     var c=COMP[spin.unit], p=UNITS[spin.unit].dumps[spin.d];
-    h+='<div class="card" style="margin-top:16px"><p class="eyebrow">'+esc(c.system)+' · '+esc(c.id)+'</p><h3>'+esc(p.t)+'</h3><p class="spin-prompt">'+esc(p.p)+'</p>';
+    h+='<div class="card" style="margin-top:16px"><p class="eyebrow">'+esc(sysName(c.systemCode))+' · '+esc(c.id)+'</p><h3>'+esc(p.t)+'</h3><p class="spin-prompt">'+esc(p.p)+'</p>';
     h+='<div class="row spread" style="margin:12px 0"><div class="row"><span class="timer'+(spin.hide?' hide':'')+'" id="spin-clock" role="timer" aria-label="Time left">'+fmtTime(spin.left)+'</span>'+
       (spin.hide?'<span class="note">Clock hidden</span>':'')+'</div><div class="row">'+
       '<button type="button" class="btn small ghost" data-act="spintimer">'+(spin.running?'Pause':(spin.left<spin.total?'Resume':'Start'))+' timer</button>'+
@@ -1070,7 +1148,7 @@ VIEW.dashboard = function(){
   var rows=allAttemptRows(), mastered=ORDERED.filter(function(c){return status(c.id)==='mastered';}).length;
   var h='<div class="head"><p class="eyebrow">Dashboard</p><h1 tabindex="-1">Where are your <span class="accent">weak spots?</span></h1></div>';
   h+='<div class="grid g2">'+geaMeters(rows)+'</div>';
-  h+='<div class="grid g4 section">'+stat(rows.length,'Questions answered')+stat(pct(rows.filter(function(r){return r.ok;}).length,rows.length)+'%','Correct overall')+stat(mastered+' of '+ORDERED.length,'Units mastered')+stat(Object.keys(S.srs).length,'Units with reviews')+'</div>';
+  h+='<div class="grid g4 section">'+stat(rows.length,'Questions answered')+stat(pct(rows.filter(function(r){return r.ok;}).length,rows.length)+'%','Correct overall','gold')+stat(mastered+' of '+ORDERED.length,'Units mastered','terra')+stat(Object.keys(S.srs).length,'Units with reviews','goldlt')+'</div>';
   var L=todayList();
   h+='<section class="section grid g2"><div class="card"><h2>Blind spots</h2><p class="note">Top priority. You were sure and wrong.</p>'+
     (L.blind.length?'<ul class="rec">'+L.blind.map(function(c){return '<li>'+unitLink(c.id)+chip('blind')+'</li>';}).join('')+'</ul>':'<p>None right now.</p>')+'</div>'+
@@ -1113,8 +1191,8 @@ VIEW.diagnostic = function(){
 };
 
 /* ---------------- router ---------------- */
-var NAV_FOR = {path:'path',study:'path',dumps:'dumps',practice:'practice',exams:'exams',dashboard:'dashboard',diagnostic:'diagnostic'};
-var TITLES = {path:'Your path',study:'Study unit',dumps:'Brain dumps',practice:'Practice',exams:'Full exams',dashboard:'Dashboard',diagnostic:'Diagnostic',take:'Question',results:'Results'};
+var NAV_FOR = {path:'path',week:'path',study:'path',dumps:'dumps',practice:'practice',exams:'exams',dashboard:'dashboard',diagnostic:'diagnostic'};
+var TITLES = {path:'Your path',week:'Week',study:'Study unit',dumps:'Brain dumps',practice:'Practice',exams:'Full exams',dashboard:'Dashboard',diagnostic:'Diagnostic',take:'Question',results:'Results'};
 var lastRoute='';
 function route(keepFocus){
   var h=decodeURIComponent(location.hash.slice(1))||'path';
