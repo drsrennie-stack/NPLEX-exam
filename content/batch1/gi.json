@@ -1,0 +1,1349 @@
+[
+  {
+    "id": "DX-GI-C01",
+    "system": "GI",
+    "dx": "MASH cirrhosis with portal hypertension, ascites, esophageal varices, and Barrett esophagus",
+    "codes": [
+      "GI-13-C2",
+      "GI-13-C5",
+      "GI-13-J1",
+      "GI-13-G2"
+    ],
+    "case": "A 57-year-old man comes to the physician because of a 2-month history of increasing abdominal girth. He has obesity (BMI 38 kg/m2), type 2 diabetes, 20 years of heartburn, and known cirrhosis from metabolic dysfunction-associated steatohepatitis (MASH). He does not drink alcohol. Physical examination shows shifting dullness, spider angiomas, and a palpable spleen tip. Laboratory studies show albumin 2.6 g/dL (3.5 to 5.0), platelet count 82,000/µL (150,000 to 400,000), and INR 1.8 (0.8 to 1.2). Paracentesis yields clear, straw-colored fluid with a serum-ascites albumin gradient (SAAG) of 1.8 g/dL (1.1 or higher points to portal hypertension) and no increase in neutrophils. Screening endoscopy shows large distal esophageal varices and a tongue of salmon-colored mucosa extending 4 cm above the gastroesophageal junction. Diagnosis: MASH cirrhosis with portal hypertension, ascites, esophageal varices, and Barrett esophagus.",
+    "questions": [
+      {
+        "id": "DX-GI-C01-Q1",
+        "from": [
+          32
+        ],
+        "stem": "His varices form where portal blood is diverted into systemic veins at the lower esophagus. Which of the following portal tributaries carries this blood backward into the esophageal submucosal veins?",
+        "options": [
+          "Left gastric vein",
+          "Superior rectal vein",
+          "Paraumbilical veins",
+          "Inferior mesenteric vein"
+        ],
+        "answer": 0,
+        "sea": "A",
+        "comp": "GI-13-J1",
+        "dok": 2,
+        "approach": [
+          "Locate the varices: distal esophagus.",
+          "Name the anastomosis there: portal left gastric (coronary) vein meets systemic esophageal veins that drain to the azygos system.",
+          "With portal hypertension, blood flows backward through the left gastric vein into the thin-walled submucosal veins."
+        ],
+        "why": "The left gastric (coronary) vein drains the lesser curvature of the stomach into the portal vein, and its esophageal branches connect with esophageal veins that drain to the azygos system. When portal pressure rises, blood is pushed backward through the left gastric vein into these submucosal esophageal veins. They dilate into varices that can rupture and cause massive hematemesis, a leading cause of death in cirrhosis.",
+        "whyNot": [
+          "Correct.",
+          "The superior rectal vein is the portal side of the anorectal anastomosis with the middle and inferior rectal veins. In portal hypertension it feeds anorectal varices, not esophageal ones.",
+          "The paraumbilical veins run in the falciform ligament and connect with superficial veins of the abdominal wall. When they dilate, they produce caput medusae around the umbilicus.",
+          "The inferior mesenteric vein drains the left colon and upper rectum into the splenic vein. It does not reach the esophagus."
+        ],
+        "study": {
+          "topics": [
+            "Portosystemic anastomoses",
+            "Esophageal varices"
+          ],
+          "comps": [
+            "GI-13-J1",
+            "GI-5",
+            "GI-13-C5"
+          ]
+        }
+      },
+      {
+        "id": "DX-GI-C01-Q2",
+        "from": [
+          56
+        ],
+        "stem": "Which of the following mechanisms best explains his ascites?",
+        "options": [
+          "Tumor implants on the peritoneum leaking protein-rich fluid",
+          "High sinusoidal pressure with low plasma albumin",
+          "Bacterial infection of the peritoneum producing an exudate",
+          "Blocked thoracic duct releasing milky, fat-rich lymph"
+        ],
+        "answer": 1,
+        "sea": "X",
+        "comp": "GI-13-I1",
+        "dok": 2,
+        "approach": [
+          "Read the SAAG: 1.1 g/dL or higher means portal hypertension drives the fluid.",
+          "Add the low albumin from reduced hepatic synthesis, which lowers plasma oncotic pressure.",
+          "Combine the two Starling forces: high hydrostatic pressure out, low oncotic pressure holding fluid in."
+        ],
+        "why": "Scarring in cirrhosis raises resistance in the sinusoids, so hydrostatic pressure in the sinusoids and splanchnic capillaries rises and fluid leaks into the peritoneal cavity. The failing liver also makes less albumin, which lowers plasma oncotic pressure. Splanchnic vasodilation lowers effective arterial volume and activates the renin-angiotensin-aldosterone system, so the kidneys retain sodium and water that keep the ascites coming back. A SAAG of 1.1 g/dL or more confirms that portal hypertension is the driver.",
+        "whyNot": [
+          "Peritoneal carcinomatosis produces protein-rich fluid with a SAAG below 1.1 g/dL. His SAAG of 1.8 g/dL points to portal hypertension instead.",
+          "Correct.",
+          "Spontaneous bacterial peritonitis is an infection of ascites that is already present, and it raises the ascitic neutrophil count. His fluid has no increase in neutrophils, and infection does not explain why the ascites formed.",
+          "Chylous ascites from lymphatic disruption (lymphoma, trauma, surgery) is milky and high in triglycerides. His fluid is clear and straw colored."
+        ],
+        "study": {
+          "topics": [
+            "Ascites and SAAG",
+            "Starling forces"
+          ],
+          "comps": [
+            "GI-13-I1",
+            "GI-13-C5"
+          ]
+        }
+      },
+      {
+        "id": "DX-GI-C01-Q3",
+        "from": [
+          46
+        ],
+        "stem": "His INR of 1.8 reflects falling hepatic synthesis of clotting factors. Deficiency of which of the following factors prolongs the prothrombin time (PT) earliest as liver function declines?",
+        "options": [
+          "Factor VIII, made mostly by sinusoidal endothelium",
+          "Factor IX, which the prothrombin time measures directly",
+          "Factor VII, which has the shortest half-life",
+          "Factor XII, which begins the extrinsic coagulation pathway"
+        ],
+        "answer": 2,
+        "sea": "B",
+        "comp": "GI-13-C2",
+        "dok": 3,
+        "approach": [
+          "Recall what the PT measures: the extrinsic and common pathways (VII, X, V, II, fibrinogen).",
+          "Recall that the liver makes these factors, including the vitamin K-dependent factors II, VII, IX, and X.",
+          "Pick the factor that falls first when synthesis drops: the one with the shortest half-life."
+        ],
+        "why": "Hepatocytes make most clotting factors, including the vitamin K-dependent factors II, VII, IX, and X and the anticoagulant proteins C and S. When synthesis fails, the factor with the shortest plasma half-life falls first. Factor VII lasts only about 4 to 6 hours, and because it starts the extrinsic pathway, the PT and INR rise early in liver failure. Vitamin K does not fully correct this, because the problem is synthesis, not vitamin supply.",
+        "whyNot": [
+          "Factor VIII is made mainly by sinusoidal and other endothelial cells, and its level is often normal or high in cirrhosis. It is measured by the aPTT, not the PT.",
+          "Factor IX belongs to the intrinsic pathway and is measured by the aPTT. A low factor IX level prolongs the aPTT, as in hemophilia B.",
+          "Correct.",
+          "Factor XII starts the intrinsic (contact) pathway, and its deficiency prolongs the aPTT without bleeding. The extrinsic pathway begins with tissue factor and factor VII."
+        ],
+        "study": {
+          "topics": [
+            "Hepatic synthesis of clotting factors",
+            "PT versus aPTT"
+          ],
+          "comps": [
+            "GI-13-C2",
+            "GI-9"
+          ]
+        }
+      },
+      {
+        "id": "DX-GI-C01-Q4",
+        "from": [
+          57
+        ],
+        "stem": "Biopsy of the salmon-colored segment shows columnar epithelium with goblet cells where stratified squamous epithelium should be. This change is a precursor of which of the following tumors?",
+        "options": [
+          "Squamous cell carcinoma of the mid esophagus",
+          "Small cell carcinoma of the esophagus",
+          "Primary lymphoma of the esophageal wall",
+          "Adenocarcinoma of the distal esophagus"
+        ],
+        "answer": 3,
+        "sea": "X",
+        "comp": "GI-13-G2",
+        "dok": 2,
+        "approach": [
+          "Recognize intestinal metaplasia (goblet cells) in the distal esophagus: Barrett esophagus from chronic reflux.",
+          "Follow the sequence: metaplasia, then dysplasia, then carcinoma.",
+          "A glandular precursor gives a glandular cancer: adenocarcinoma near the gastroesophageal junction."
+        ],
+        "why": "Years of acid and bile reflux replace the distal esophageal squamous lining with intestinal-type columnar epithelium containing goblet cells. This metaplastic epithelium can become dysplastic and then progress to adenocarcinoma, which arises in the distal esophagus and gastroesophageal junction. Obesity adds to his risk because it promotes reflux. Patients with Barrett esophagus are followed with surveillance endoscopy to catch dysplasia early.",
+        "whyNot": [
+          "Esophageal squamous cell carcinoma arises from the native squamous lining, usually in the middle third. Its main risks are tobacco, alcohol, very hot drinks, and achalasia, not columnar metaplasia.",
+          "Small cell carcinoma of the esophagus is a rare neuroendocrine tumor with no link to Barrett metaplasia.",
+          "Primary esophageal lymphoma is very rare and does not arise from intestinal metaplasia.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Barrett esophagus",
+            "Esophageal cancer types"
+          ],
+          "comps": [
+            "GI-13-G2",
+            "GI-13-K1",
+            "GI-13-G8"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "DX-GI-C02",
+    "system": "GI",
+    "dx": "Adenocarcinoma of the head of the pancreas with obstructive jaundice",
+    "codes": [
+      "GI-13-K6",
+      "GI-13-C1"
+    ],
+    "case": "A 68-year-old woman comes to the physician because of a 2-month history of itching, dark urine, pale greasy stools, and a 7-kg weight loss. She has no abdominal pain. Physical examination shows jaundice and a smooth, nontender, pear-shaped mass below the right costal margin. Laboratory studies show total bilirubin 9.4 mg/dL (0.1 to 1.2) with direct bilirubin 7.9 mg/dL (0 to 0.3), alkaline phosphatase 610 U/L (40 to 120), and CA 19-9 1,250 U/mL (under 37). CT shows a 3-cm mass in the head of the pancreas, dilated common bile and pancreatic ducts, a distended gallbladder without stones, and tumor contact with the portal vein. Biopsy confirms ductal adenocarcinoma of the pancreatic head.",
+    "questions": [
+      {
+        "id": "DX-GI-C02-Q1",
+        "from": [
+          58
+        ],
+        "stem": "Which of the following best explains why her gallbladder is enlarged and nontender?",
+        "options": [
+          "A stone lodged in the cystic duct inflames and swells the gallbladder wall",
+          "Years of stone-related inflammation have thickened and enlarged the gallbladder",
+          "Slow tumor blockage of the distal bile duct stretches a healthy gallbladder",
+          "Tumor has spread into the gallbladder wall and formed a bulky mass there"
+        ],
+        "answer": 2,
+        "sea": "X",
+        "comp": "GI-13-K6",
+        "dok": 3,
+        "approach": [
+          "Identify the sign: painless jaundice with a palpable, nontender gallbladder (Courvoisier sign).",
+          "Ask what lets a gallbladder distend: a healthy, compliant wall and slowly rising pressure below it.",
+          "Match the cause: gradual distal bile duct blockage by a pancreatic head tumor."
+        ],
+        "why": "The pancreatic head surrounds the distal common bile duct, so a tumor there slowly narrows the duct. Bile backs up gradually, and a gallbladder with a normal, compliant wall stretches until it can be felt. Because the process is slow and not inflammatory, the gallbladder is not tender. Gallstone disease scars the wall, so obstruction from a stone rarely produces a large palpable gallbladder.",
+        "whyNot": [
+          "A stone impacted in the cystic duct causes acute cholecystitis, which makes the gallbladder tender (Murphy sign) and causes pain and fever. Her gallbladder is painless and has no stones.",
+          "Chronic stone disease scars the gallbladder wall, so it becomes small and stiff and cannot distend. This is why a palpable, painless gallbladder points away from stones.",
+          "Correct.",
+          "Pancreatic head cancer blocks the bile duct; it does not usually invade the gallbladder. CT shows a distended gallbladder without a wall mass."
+        ],
+        "study": {
+          "topics": [
+            "Courvoisier sign",
+            "Obstructive jaundice"
+          ],
+          "comps": [
+            "GI-13-K6",
+            "GI-13-C1"
+          ]
+        }
+      },
+      {
+        "id": "DX-GI-C02-Q2",
+        "from": [
+          34
+        ],
+        "stem": "At surgery, the surgeon places a finger in the omental (epiploic) foramen and the thumb on its anterior border. Which of the following groups of structures runs in this free edge of the lesser omentum?",
+        "options": [
+          "Hepatic artery proper, portal vein, and bile duct",
+          "Inferior vena cava, hepatic veins, and cystic duct",
+          "Splenic artery, splenic vein, and pancreatic duct",
+          "Left gastric artery, portal vein, and thoracic duct"
+        ],
+        "answer": 0,
+        "sea": "A",
+        "comp": "GI-3",
+        "dok": 2,
+        "approach": [
+          "Identify the free edge of the lesser omentum: the hepatoduodenal ligament, the anterior border of the omental foramen.",
+          "Recall its contents, the portal triad: bile duct (right), hepatic artery proper (left), portal vein (posterior).",
+          "Check each option against that list."
+        ],
+        "why": "The hepatoduodenal ligament is the free right edge of the lesser omentum and forms the front wall of the omental foramen. It carries the common bile duct on the right, the hepatic artery proper on the left, and the portal vein behind both. Surgeons use this relation to find the bile duct, and squeezing the ligament (the Pringle maneuver) stops inflow to the liver during bleeding.",
+        "whyNot": [
+          "Correct.",
+          "The inferior vena cava lies behind the omental foramen, forming its posterior wall, and the hepatic veins drain into it above the liver. Neither runs in the hepatoduodenal ligament.",
+          "The splenic artery and vein run along the upper and back surface of the pancreas, and the pancreatic duct runs inside the gland. None of them lies in the lesser omentum.",
+          "The left gastric artery runs in the lesser omentum along the lesser curvature, not in its free edge, and the thoracic duct is in the posterior mediastinum."
+        ],
+        "study": {
+          "topics": [
+            "Hepatoduodenal ligament",
+            "Omental foramen"
+          ],
+          "comps": [
+            "GI-3",
+            "GI-4",
+            "GI-5"
+          ]
+        }
+      },
+      {
+        "id": "DX-GI-C02-Q3",
+        "from": [
+          31
+        ],
+        "stem": "If the tumor occludes the portal vein, venous pressure will rise in which of the following groups of organs?",
+        "options": [
+          "Kidneys, adrenal glands, and gonads",
+          "Lower limbs, pelvic walls, and bladder",
+          "Head, neck, and upper limbs",
+          "Stomach, spleen, and intestines"
+        ],
+        "answer": 3,
+        "sea": "A",
+        "comp": "GI-5",
+        "dok": 2,
+        "approach": [
+          "Recall how the portal vein forms: the superior mesenteric vein joins the splenic vein behind the neck of the pancreas.",
+          "List what those veins drain: the abdominal gut from stomach to upper rectum, plus the spleen, pancreas, and gallbladder.",
+          "Choose the option made only of portal territory."
+        ],
+        "why": "The portal vein forms behind the neck of the pancreas, where the superior mesenteric vein joins the splenic vein, so pancreatic head tumors often touch or block it. It carries blood from the stomach, small and large intestines, spleen, pancreas, and gallbladder to the liver, which processes absorbed nutrients and drugs before they reach the systemic circulation. Blockage raises pressure throughout this territory and can cause splenomegaly, bowel congestion, and gastric varices.",
+        "whyNot": [
+          "The kidneys, adrenal glands, and gonads drain into the inferior vena cava or the left renal vein, which are systemic veins.",
+          "The lower limbs, pelvic walls, and bladder drain through the iliac veins into the inferior vena cava.",
+          "The head, neck, and upper limbs drain into the superior vena cava.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Portal venous system",
+            "Portal vein formation"
+          ],
+          "comps": [
+            "GI-5",
+            "GI-13-C5"
+          ]
+        }
+      },
+      {
+        "id": "DX-GI-C02-Q4",
+        "from": [
+          38
+        ],
+        "stem": "Her pale, greasy stools reflect blocked flow of bile and pancreatic juice. Normally, fat and protein entering the duodenum release a hormone that contracts the gallbladder and stimulates pancreatic acinar enzyme secretion. Which of the following cells releases this hormone?",
+        "options": [
+          "S cells of the duodenal mucosa",
+          "I cells of the duodenum and jejunum",
+          "G cells of the gastric antrum",
+          "K cells of the duodenum and upper jejunum"
+        ],
+        "answer": 1,
+        "sea": "P",
+        "comp": "GI-6",
+        "dok": 2,
+        "approach": [
+          "Identify the hormone from its two actions: gallbladder contraction plus acinar enzyme secretion is cholecystokinin (CCK).",
+          "Recall its trigger: fatty acids and amino acids in the duodenum.",
+          "Recall its source: I cells of the duodenum and jejunum."
+        ],
+        "why": "Cholecystokinin (CCK) is released by I cells in the duodenal and jejunal mucosa when fatty acids and amino acids arrive. It contracts the gallbladder, relaxes the sphincter of Oddi, stimulates acinar cells to secrete lipase, amylase, and proteases, and slows gastric emptying. In this patient the hormone still works, but the tumor blocks both ducts, so bile and enzymes cannot reach the gut and fat is poorly digested.",
+        "whyNot": [
+          "S cells release secretin when acid enters the duodenum. Secretin stimulates bicarbonate and water secretion from pancreatic duct cells, not gallbladder contraction.",
+          "Correct.",
+          "G cells release gastrin, which stimulates gastric acid secretion. Gastrin does not contract the gallbladder.",
+          "K cells release glucose-dependent insulinotropic peptide (GIP), which raises insulin release after a meal. It does not drive gallbladder contraction or enzyme secretion."
+        ],
+        "study": {
+          "topics": [
+            "CCK",
+            "GI hormones and their cells"
+          ],
+          "comps": [
+            "GI-6",
+            "GI-7"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "DX-GI-C03",
+    "system": "GI",
+    "dx": "Zollinger-Ellison syndrome from a duodenal gastrinoma",
+    "codes": [
+      "GI-13-K3",
+      "GI-13-G5"
+    ],
+    "case": "A 46-year-old man comes to the physician because of watery diarrhea with greasy, foul-smelling stools. He has had three duodenal ulcers in 2 years. Helicobacter pylori was found on gastric biopsy at his first endoscopy and treated, and a negative stool antigen test confirmed eradication, yet ulcers returned, including one in the proximal jejunum. Off acid-suppressing drugs, fasting serum gastrin is 1,150 pg/mL (under 100) with a gastric pH of 1.2. Endoscopy shows prominent, thickened gastric folds. Imaging finds a 1.5-cm mass in the duodenal wall. Diagnosis: Zollinger-Ellison syndrome from a duodenal gastrinoma.",
+    "questions": [
+      {
+        "id": "DX-GI-C03-Q1",
+        "from": [
+          39,
+          51
+        ],
+        "stem": "His first gastric biopsy showed curved organisms in the mucus layer of the antrum. Which of the following best describes this organism and how it survives gastric acid?",
+        "options": [
+          "Gram-positive, facultative anaerobic rod; catalase removes peroxide",
+          "Gram-negative, microaerophilic spiral rod; urease makes ammonia",
+          "Gram-negative, strictly anaerobic rod; spores resist the acid",
+          "Gram-positive coccus in chains; a toxin increases acid output"
+        ],
+        "answer": 1,
+        "sea": "M",
+        "comp": "GI-12",
+        "dok": 2,
+        "approach": [
+          "Identify the organism: curved rods in the antral mucus layer of an ulcer patient are Helicobacter pylori.",
+          "Recall its features: gram negative, microaerophilic, helical or spiral rod with flagella.",
+          "Recall its acid survival tool: urease splits urea into ammonia and carbon dioxide, buffering the acid around it."
+        ],
+        "why": "Helicobacter pylori is a gram-negative, microaerophilic, flagellated spiral rod that lives in the mucus layer over the gastric epithelium, mostly in the antrum. Its urease splits urea into ammonia and carbon dioxide, and the ammonia neutralizes acid in its immediate surroundings while also injuring epithelial cells. Flagella let it swim through mucus, and the CagA and VacA proteins add to tissue damage. The same urease is the basis of the urea breath test and the rapid urease biopsy test.",
+        "whyNot": [
+          "Helicobacter pylori is gram negative, not gram positive. It does make catalase, but catalase protects against neutrophil peroxide, not against gastric acid.",
+          "Correct.",
+          "Helicobacter pylori is microaerophilic, not a strict anaerobe, and it does not form spores. Spore formation is a feature of gram-positive rods such as Clostridium and Bacillus.",
+          "Helicobacter pylori is a curved rod, not a coccus, and it does not survive by raising acid output. Gram-positive cocci in chains are streptococci."
+        ],
+        "study": {
+          "topics": [
+            "Helicobacter pylori virulence",
+            "Gram-negative spiral organisms"
+          ],
+          "comps": [
+            "GI-12",
+            "GI-13-G5",
+            "GI-13-G7"
+          ]
+        }
+      },
+      {
+        "id": "DX-GI-C03-Q2",
+        "from": [
+          43
+        ],
+        "stem": "Which of the following mechanisms best explains his greasy, foul-smelling stools?",
+        "options": [
+          "Gastrin acts on enterocytes and drives chloride secretion",
+          "Gastrin blocks CCK receptors on pancreatic acinar cells",
+          "Gastrin overstimulates the gallbladder and causes bile acid loss",
+          "Excess acid in the duodenum inactivates pancreatic lipase"
+        ],
+        "answer": 3,
+        "sea": "P",
+        "comp": "GI-13-K3",
+        "dok": 3,
+        "approach": [
+          "Start with the cause: autonomous gastrin secretion drives huge acid output.",
+          "Follow the acid: it overwhelms pancreatic bicarbonate, so the duodenal pH stays low.",
+          "Apply enzyme pH limits: lipase is inactivated in acid, and bile acids precipitate, so fat is not digested."
+        ],
+        "why": "The gastrinoma releases gastrin continuously, so parietal cells secrete large volumes of acid. This acid overwhelms the bicarbonate from the pancreas, and the duodenal pH stays low. Pancreatic lipase is inactivated at low pH, and bile acids precipitate, so fewer micelles form and fat is poorly digested and absorbed. The result is steatorrhea, alongside the watery diarrhea caused by the sheer volume of gastric secretion.",
+        "whyNot": [
+          "Gastrin does not stimulate intestinal chloride secretion. Secretory diarrhea from chloride secretion is the mechanism of cholera toxin and VIP-secreting tumors, and it does not cause fat malabsorption.",
+          "Gastrin and CCK share a receptor family, but gastrin does not block acinar CCK receptors. Enzyme secretion is still present; the enzymes are inactivated after they reach the acidic duodenum.",
+          "Gastrin is a weak stimulus for gallbladder contraction at most. Bile acid diarrhea follows ileal disease or resection, which he does not have.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Zollinger-Ellison syndrome",
+            "Fat digestion and pH"
+          ],
+          "comps": [
+            "GI-13-K3",
+            "GI-7"
+          ]
+        }
+      },
+      {
+        "id": "DX-GI-C03-Q3",
+        "from": [
+          37
+        ],
+        "stem": "Gastrin is the main hormonal stimulus of gastric acid secretion. Besides acting on parietal cells directly, it raises acid output by making a neighboring cell release a paracrine mediator that binds H2 receptors on parietal cells. Which of the following cells releases this mediator?",
+        "options": [
+          "Enterochromaffin-like cell",
+          "D cell of the oxyntic mucosa",
+          "Chief cell at the gland base",
+          "Mucous neck cell of the gland"
+        ],
+        "answer": 0,
+        "sea": "P",
+        "comp": "GI-6",
+        "dok": 3,
+        "approach": [
+          "Identify the mediator from the receptor: H2 receptors bind histamine.",
+          "Name the gastric cell that releases histamine: the enterochromaffin-like (ECL) cell.",
+          "Link it to gastrin: gastrin binds CCK2 receptors on ECL cells and triggers histamine release."
+        ],
+        "why": "Gastrin from antral G cells, or here from the tumor, binds CCK2 (CCK-B) receptors on parietal cells and on enterochromaffin-like (ECL) cells. ECL cells respond by releasing histamine, which binds H2 receptors on nearby parietal cells and raises cAMP, strongly increasing H+/K+-ATPase activity. This is why H2 blockers reduce gastrin-driven acid secretion. Long-term high gastrin also makes ECL cells and parietal cells multiply.",
+        "whyNot": [
+          "Correct.",
+          "D cells release somatostatin, which inhibits gastrin release and acid secretion. Somatostatin does not act on H2 receptors.",
+          "Chief cells secrete pepsinogen and gastric lipase. They do not release histamine.",
+          "Mucous neck cells secrete mucus and are stem-like precursors. They do not release histamine."
+        ],
+        "study": {
+          "topics": [
+            "Regulation of gastric acid secretion",
+            "Gastrin and ECL cells"
+          ],
+          "comps": [
+            "GI-6",
+            "GI-2"
+          ]
+        }
+      },
+      {
+        "id": "DX-GI-C03-Q4",
+        "from": [
+          33
+        ],
+        "stem": "To confirm that his thickened folds come from hyperplasia of the acid-secreting cells, the endoscopist biopsies the region where those cells are concentrated. Which of the following regions is most likely biopsied?",
+        "options": [
+          "Antrum near the pylorus",
+          "Cardia near the esophagus",
+          "Gastric body and fundus",
+          "First part of the duodenum"
+        ],
+        "answer": 2,
+        "sea": "A",
+        "comp": "GI-2",
+        "dok": 2,
+        "approach": [
+          "Name the acid-secreting cell: the parietal cell.",
+          "Recall where parietal cells live: the oxyntic glands of the gastric body and fundus.",
+          "Remember that gastrin is trophic to this mucosa, so chronic hypergastrinemia thickens its folds."
+        ],
+        "why": "Parietal cells, which secrete hydrochloric acid and intrinsic factor, are concentrated in the oxyntic glands of the gastric body and fundus, along with chief cells that secrete pepsinogen. The antrum holds G cells that make gastrin, and the cardia holds mainly mucous glands. Constant high gastrin from a gastrinoma makes parietal cells and ECL cells multiply, so the body and fundus mucosa thickens into prominent folds.",
+        "whyNot": [
+          "The antral glands contain G cells and mucous cells and have few parietal cells. Gastrin from the antrum acts on the body and fundus.",
+          "The cardiac glands near the gastroesophageal junction are mostly mucus secreting and contain few parietal cells.",
+          "Correct.",
+          "The duodenum has no parietal cells. Its Brunner glands secrete alkaline mucus."
+        ],
+        "study": {
+          "topics": [
+            "Gastric gland cell types",
+            "Regions of the stomach"
+          ],
+          "comps": [
+            "GI-2",
+            "GI-3"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "DX-GI-C04",
+    "system": "GI",
+    "dx": "Celiac disease with iron deficiency anemia and coexisting primary biliary cholangitis",
+    "codes": [
+      "GI-13-E2",
+      "GI-13-C1"
+    ],
+    "case": "A 41-year-old woman comes to the physician because of an 8-month history of bloating, loose bulky stools, fatigue, and a 5-kg weight loss, and a 1-year history of generalized itching. Laboratory studies show hemoglobin 9.6 g/dL (12.0 to 16.0), MCV 71 fL (80 to 100), and ferritin 5 ng/mL (15 to 150). Tissue transglutaminase IgA is strongly positive. Duodenal biopsy shows villous atrophy, crypt hyperplasia, and increased intraepithelial lymphocytes. Alkaline phosphatase is 390 U/L (40 to 120) with normal bilirubin, antimitochondrial antibody (AMA) is positive, and ultrasound shows no bile duct dilation. Diagnosis: celiac disease with iron deficiency anemia and coexisting primary biliary cholangitis (PBC), an autoimmune liver disease that is more common in people with celiac disease.",
+    "questions": [
+      {
+        "id": "DX-GI-C04-Q1",
+        "from": [
+          41
+        ],
+        "stem": "Because of where celiac disease damages the bowel, which of the following is she most likely to malabsorb early in her disease?",
+        "options": [
+          "Vitamin B12 bound to intrinsic factor",
+          "Conjugated bile acids returning to the liver",
+          "Short-chain fatty acids from colonic fermentation",
+          "Fat and fat-soluble vitamins A, D, E, and K"
+        ],
+        "answer": 3,
+        "sea": "X",
+        "comp": "GI-13-E2",
+        "dok": 2,
+        "approach": [
+          "Locate the injury: celiac disease is worst in the duodenum and proximal jejunum.",
+          "Recall what those segments absorb: most dietary fat and fat-soluble vitamins, plus iron, calcium, and folate.",
+          "Exclude options absorbed in the terminal ileum or colon."
+        ],
+        "why": "Gluten-driven immune injury flattens the villi most severely in the duodenum and proximal jejunum, where most dietary fat and the fat-soluble vitamins A, D, E, and K are absorbed. The loss of surface area causes bulky, fatty stools and deficiencies such as low vitamin D with bone loss and low vitamin K with easy bruising. Her PBC can add to fat malabsorption by reducing bile flow late in its course. The terminal ileum and colon are usually spared early in celiac disease.",
+        "whyNot": [
+          "The vitamin B12 and intrinsic factor complex is absorbed in the terminal ileum, which celiac disease usually spares early on. B12 deficiency suggests ileal disease, as in Crohn disease.",
+          "Conjugated bile acids are reabsorbed in the terminal ileum. Their loss follows ileal disease or resection.",
+          "Short-chain fatty acids are made and absorbed in the colon, which celiac disease does not damage.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Celiac disease malabsorption",
+            "Fat-soluble vitamins"
+          ],
+          "comps": [
+            "GI-13-E2",
+            "GI-6",
+            "GI-8"
+          ]
+        }
+      },
+      {
+        "id": "DX-GI-C04-Q2",
+        "from": [
+          40
+        ],
+        "stem": "Her iron deficiency persists even though her diet contains enough iron. Which of the following best explains why celiac disease often causes iron deficiency?",
+        "options": [
+          "Iron is absorbed mostly in the terminal ileum, where gluten acts",
+          "Iron absorption needs intrinsic factor made by parietal cells",
+          "Iron is absorbed mostly in the duodenum, where damage is worst",
+          "Iron absorption needs bile acid micelles to cross the mucosa"
+        ],
+        "answer": 2,
+        "sea": "P",
+        "comp": "GI-6",
+        "dok": 2,
+        "approach": [
+          "Recall the absorption site for iron (and calcium): the duodenum and proximal jejunum.",
+          "Recall the site of maximal celiac injury: the same proximal segment.",
+          "Connect them: proximal villous atrophy causes iron deficiency that does not respond well to oral iron."
+        ],
+        "why": "Dietary nonheme iron is reduced from Fe3+ to Fe2+ at the brush border and enters duodenal enterocytes through DMT1, then leaves through ferroportin. Active, calcitriol-driven calcium absorption also happens mainly in the duodenum. Because celiac disease damages the duodenum most, iron deficiency anemia is one of its most common presentations, sometimes without diarrhea. Unexplained iron deficiency that does not respond to oral iron is a classic reason to test for celiac disease.",
+        "whyNot": [
+          "The terminal ileum absorbs vitamin B12 and bile acids, not most of the iron. Celiac damage is also worst proximally.",
+          "Intrinsic factor is needed for vitamin B12 absorption, not iron absorption.",
+          "Correct.",
+          "Bile acid micelles carry fats and fat-soluble vitamins. Iron is taken up by a membrane transporter without micelles."
+        ],
+        "study": {
+          "topics": [
+            "Iron absorption",
+            "Nutrient absorption sites"
+          ],
+          "comps": [
+            "GI-6",
+            "GI-8",
+            "GI-13-E2"
+          ]
+        }
+      },
+      {
+        "id": "DX-GI-C04-Q3",
+        "from": [
+          47
+        ],
+        "stem": "Her liver adjusts iron absorption to her depleted iron stores by changing its output of a peptide hormone. Which of the following changes occurs, and what is its effect?",
+        "options": [
+          "Hepcidin rises, so ferroportin is degraded and absorption falls",
+          "Hepcidin falls, so more ferroportin stays in cell membranes",
+          "Transferrin falls, so less iron is carried away from enterocytes",
+          "Erythropoietin falls, so the marrow's demand for iron decreases"
+        ],
+        "answer": 1,
+        "sea": "B",
+        "comp": "GI-8",
+        "dok": 3,
+        "approach": [
+          "Name the liver hormone that controls iron: hepcidin.",
+          "Recall its action: it binds ferroportin and causes its internalization and degradation.",
+          "Apply to low stores: hepcidin falls, ferroportin stays, and enterocytes and macrophages release more iron into blood."
+        ],
+        "why": "Hepcidin, made by hepatocytes, is the main regulator of body iron. It binds ferroportin, the only known iron exporter, on enterocytes and macrophages and causes it to be degraded, which traps iron inside those cells. When iron stores are low, hepcidin falls, ferroportin stays in the membrane, and absorption rises. In hereditary hemochromatosis, hepcidin is inappropriately low despite iron overload, so absorption continues unchecked.",
+        "whyNot": [
+          "Hepcidin rises when iron stores are full or with inflammation, which lowers iron absorption. With a ferritin of 5 ng/mL, her stores are empty, so hepcidin is suppressed.",
+          "Correct.",
+          "Transferrin is a carrier protein, not a regulating hormone, and its level rises in iron deficiency (high TIBC).",
+          "Erythropoietin is made mainly by the kidney, not the liver, and anemia raises it."
+        ],
+        "study": {
+          "topics": [
+            "Hepcidin and ferroportin",
+            "Iron homeostasis"
+          ],
+          "comps": [
+            "GI-8",
+            "GI-9"
+          ]
+        }
+      },
+      {
+        "id": "DX-GI-C04-Q4",
+        "from": [
+          60
+        ],
+        "stem": "Her itching and high alkaline phosphatase come from autoimmune injury in the liver. Which of the following cells are the main target of this injury?",
+        "options": [
+          "Small intrahepatic bile duct cells",
+          "Hepatocytes around the central veins",
+          "Kupffer cells lining the hepatic sinusoids",
+          "Stellate cells in the space of Disse"
+        ],
+        "answer": 0,
+        "sea": "X",
+        "comp": "GI-13-C1",
+        "dok": 2,
+        "approach": [
+          "Read the pattern: itching and high alkaline phosphatase with normal duct imaging is intrahepatic cholestasis.",
+          "Add the AMA: this marks primary biliary cholangitis.",
+          "Name the target: epithelial cells (cholangiocytes) of small intrahepatic bile ducts."
+        ],
+        "why": "Primary biliary cholangitis is an autoimmune disease in which T cells destroy the epithelial cells (cholangiocytes) of small intrahepatic bile ducts. Bile backs up, causing itching, high alkaline phosphatase, and later jaundice, fat-soluble vitamin deficiency, and cirrhosis. Antimitochondrial antibodies against the E2 subunit of the pyruvate dehydrogenase complex are found in more than 90% of patients. It mainly affects middle-aged women and often occurs with other autoimmune diseases.",
+        "whyNot": [
+          "Correct.",
+          "Hepatocytes are the main target in autoimmune and viral hepatitis, which raise ALT and AST far more than alkaline phosphatase.",
+          "Kupffer cells are resident macrophages. They take part in liver inflammation but are not the target of PBC.",
+          "Stellate cells store vitamin A and become collagen-producing myofibroblasts in fibrosis. They cause scarring but are not the target of the autoimmune attack."
+        ],
+        "study": {
+          "topics": [
+            "Primary biliary cholangitis",
+            "Cholestasis patterns"
+          ],
+          "comps": [
+            "GI-13-C1",
+            "GI-11"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "DX-GI-C05",
+    "system": "GI",
+    "dx": "Crohn disease of the terminal ileum and colon",
+    "codes": [
+      "GI-13-G9",
+      "GI-13-K7"
+    ],
+    "case": "A 54-year-old woman comes to the physician because of a 6-month history of right lower quadrant cramping, nonbloody diarrhea, and an 8-kg weight loss. Her temperature is 37.9 °C (100.2 °F). Physical examination shows a tender mass in the right lower quadrant. Colonoscopy shows deep linear ulcers and a cobblestone pattern in the terminal ileum and in patches of the ascending colon, with normal mucosa between them and a normal rectum. A 1.4-cm tubular adenoma is removed from her sigmoid colon, which is not inflamed. Ileal biopsies show transmural inflammation with non-caseating granulomas. Diagnosis: Crohn disease of the terminal ileum and colon.",
+    "questions": [
+      {
+        "id": "DX-GI-C05-Q1",
+        "from": [
+          53
+        ],
+        "stem": "Which of the following best describes the main cells in her ileal granulomas and the cytokine that drives their formation?",
+        "options": [
+          "Epithelioid macrophages, driven by IFN-gamma from Th1 cells",
+          "Neutrophils and mast cells, activated by IL-5 from Th2 cells",
+          "Plasma cells and B cells, activated by IL-4 from Th2 cells",
+          "Eosinophils and NK cells, activated by IL-17 from Th17 cells"
+        ],
+        "answer": 0,
+        "sea": "M",
+        "comp": "GI-11",
+        "dok": 3,
+        "approach": [
+          "Recognize a granuloma: a collection of activated macrophages.",
+          "Recall the cell types: epithelioid macrophages, often with multinucleated giant cells, ringed by CD4 T cells.",
+          "Recall the signal: Th1 cells release IFN-gamma, which activates macrophages (type IV hypersensitivity)."
+        ],
+        "why": "Granulomas form through a type IV, cell-mediated response. Macrophages present antigen and release IL-12, which drives CD4 T cells toward the Th1 type. Th1 cells release IFN-gamma, which turns macrophages into epithelioid cells that can fuse into multinucleated giant cells, surrounded by a cuff of lymphocytes. In Crohn disease the granulomas are non-caseating, which helps separate it from tuberculosis.",
+        "whyNot": [
+          "Correct.",
+          "Neutrophils form abscesses and mast cells drive immediate hypersensitivity. IL-5 recruits and activates eosinophils, and none of these form granulomas.",
+          "Plasma cells and B cells make antibodies, and IL-4 drives class switching to IgE. Antibody responses do not build granulomas.",
+          "Eosinophils and NK cells are not the core of granulomas. IL-17 recruits neutrophils and contributes to Crohn inflammation, but the granuloma itself is organized by Th1 cells."
+        ],
+        "study": {
+          "topics": [
+            "Granuloma formation",
+            "Type IV hypersensitivity"
+          ],
+          "comps": [
+            "GI-11",
+            "GI-13-G9"
+          ]
+        }
+      },
+      {
+        "id": "DX-GI-C05-Q2",
+        "from": [
+          55
+        ],
+        "stem": "Six months later she has pneumaturia and recurrent urinary tract infections with enteric organisms. Which of the following features of her disease, in contrast to ulcerative colitis, best explains this complication?",
+        "options": [
+          "Continuous mucosal inflammation spreading up from the rectum",
+          "Crypt abscesses confined to the mucosa and submucosa",
+          "Transmural inflammation that tunnels into nearby organs",
+          "Loss of haustra that leaves a short, tube-shaped colon"
+        ],
+        "answer": 2,
+        "sea": "X",
+        "comp": "GI-13-G9",
+        "dok": 3,
+        "approach": [
+          "Read the new clue: pneumaturia with enteric organisms means a fistula from bowel to bladder.",
+          "Ask what lets inflammation reach the bladder: inflammation through the full thickness of the bowel wall.",
+          "Match to the disease: transmural, patchy (skip) inflammation is Crohn disease; mucosal, continuous inflammation from the rectum is ulcerative colitis."
+        ],
+        "why": "Crohn disease inflames the full thickness of the bowel wall in patches (skip lesions) anywhere from mouth to anus, most often the terminal ileum. Deep fissuring ulcers can tunnel through the wall and form fistulas to bowel, bladder, vagina, or skin, and they can also cause abscesses and strictures. Ulcerative colitis involves only the mucosa and submucosa, starting at the rectum and spreading continuously, so fistulas are not a feature of it.",
+        "whyNot": [
+          "Continuous inflammation spreading upward from the rectum is the pattern of ulcerative colitis. Her rectum is normal and her disease is patchy.",
+          "Inflammation limited to the mucosa and submucosa is typical of ulcerative colitis, and it does not reach other organs.",
+          "Correct.",
+          "A shortened colon without haustra (lead-pipe colon) is a late feature of ulcerative colitis and does not create tracts to the bladder."
+        ],
+        "study": {
+          "topics": [
+            "Crohn disease versus ulcerative colitis",
+            "Fistulas in Crohn disease"
+          ],
+          "comps": [
+            "GI-13-G9"
+          ]
+        }
+      },
+      {
+        "id": "DX-GI-C05-Q3",
+        "from": [
+          35
+        ],
+        "stem": "Two years later, about 80 cm of her terminal ileum is removed because of a stricture. For which of the following vitamins will she most likely need lifelong monitoring and replacement?",
+        "options": [
+          "Folate, taken up mainly by the terminal ileum after digestion",
+          "Vitamin B12, taken up with intrinsic factor by ileal receptors",
+          "Thiamine, taken up mainly by the terminal ileum with bile acids",
+          "Vitamin C, taken up only after binding gastric intrinsic factor"
+        ],
+        "answer": 1,
+        "sea": "P",
+        "comp": "GI-6",
+        "dok": 2,
+        "approach": [
+          "Identify what was removed: the terminal ileum.",
+          "Recall what only the terminal ileum absorbs: the vitamin B12 and intrinsic factor complex (and bile acids).",
+          "Predict the result: B12 deficiency and megaloblastic anemia once liver stores run out over years."
+        ],
+        "why": "Parietal cells secrete intrinsic factor, which binds vitamin B12 in the duodenum after pancreatic proteases free it from haptocorrin. The B12 and intrinsic factor complex is absorbed only in the terminal ileum through cubilin receptors. Removing a long stretch of terminal ileum, or severe ileal Crohn disease, therefore causes B12 malabsorption. Liver stores last years, so deficiency appears late, which is why monitoring and replacement are lifelong.",
+        "whyNot": [
+          "Folate is absorbed mainly in the duodenum and jejunum, so it is not lost with ileal resection.",
+          "Correct.",
+          "Thiamine is absorbed mainly in the jejunum and does not depend on bile acids.",
+          "Vitamin C does not bind intrinsic factor. Intrinsic factor is specific for vitamin B12."
+        ],
+        "study": {
+          "topics": [
+            "Vitamin B12 absorption",
+            "Ileal resection effects"
+          ],
+          "comps": [
+            "GI-6",
+            "GI-8"
+          ]
+        }
+      },
+      {
+        "id": "DX-GI-C05-Q4",
+        "from": [
+          59
+        ],
+        "stem": "The sigmoid tubular adenoma arose in a segment free of colitis, so it follows the usual sporadic pathway. Which of the following sequences of genetic changes drives that pathway from normal mucosa to carcinoma?",
+        "options": [
+          "MLH1 or MSH2 loss, causing microsatellite instability",
+          "TP53 loss early, with APC loss only late in the process",
+          "BRCA2 loss, causing failed homologous recombination repair",
+          "APC loss, then KRAS activation, then TP53 loss"
+        ],
+        "answer": 3,
+        "sea": "B",
+        "comp": "GI-13-K7",
+        "dok": 2,
+        "approach": [
+          "Recognize the lesion: a tubular adenoma in uninflamed colon follows the adenoma-carcinoma sequence.",
+          "Recall the order: APC loss starts the adenoma, KRAS activation enlarges it, and TP53 loss allows invasive cancer.",
+          "Separate it from the mismatch repair pathway and from colitis-associated cancer."
+        ],
+        "why": "Most sporadic colorectal cancers follow the chromosomal instability pathway. Loss of both APC alleles turns on Wnt signaling and starts the adenoma, activating KRAS mutations let it grow, and loss of SMAD4 and TP53 allows the shift to invasive carcinoma. Adenomas take years to progress, which is why removing them prevents cancer. Cancers arising in colitis, as can happen in long-standing Crohn colitis, tend to lose TP53 early instead.",
+        "whyNot": [
+          "Loss of mismatch repair genes causes microsatellite instability. This happens in Lynch syndrome and in sporadic cancers with MLH1 promoter silencing, together about 15% of colorectal cancers, so it is not the usual pathway.",
+          "Early TP53 loss with late APC loss is the order seen in colitis-associated cancer, which arises in chronically inflamed mucosa without a preceding adenoma. Her adenoma arose outside the colitis.",
+          "BRCA2 loss is linked to breast, ovarian, prostate, and pancreatic cancers. It is not a step in the colorectal adenoma sequence.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Adenoma-carcinoma sequence",
+            "Colorectal cancer pathways"
+          ],
+          "comps": [
+            "GI-13-K7",
+            "GI-10"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "DX-GI-C06",
+    "system": "GI",
+    "dx": "Hemolytic uremic syndrome from enterohemorrhagic Escherichia coli O157:H7",
+    "codes": [
+      "GI-13-L1",
+      "GI-13-L3"
+    ],
+    "case": "A 6-year-old boy is brought to the physician because of pallor and decreased urine output. Six days ago he developed abdominal cramps and watery diarrhea that became bloody; the illness began 4 days after he ate an undercooked hamburger at a barbecue. He has had no fever. Laboratory studies show hemoglobin 7.8 g/dL (11.5 to 15.5), platelet count 42,000/µL (150,000 to 400,000), creatinine 2.6 mg/dL (0.3 to 0.7), and a high LDH. The direct antiglobulin (Coombs) test is negative, and the blood smear shows schistocytes. Stool testing detects Shiga toxin, and culture grows Escherichia coli O157:H7. Diagnosis: hemolytic uremic syndrome (HUS) caused by enterohemorrhagic E. coli (EHEC).",
+    "questions": [
+      {
+        "id": "DX-GI-C06-Q1",
+        "from": [
+          52
+        ],
+        "stem": "The toxin in his stool binds the glycolipid Gb3 on endothelial cells of the colon and glomeruli and enters them. Which of the following is the action of its A subunit inside the cell?",
+        "options": [
+          "ADP-ribosylates elongation factor 2 in the cytosol",
+          "Removes one adenine from 28S rRNA in the 60S subunit",
+          "Cleaves synaptobrevin and blocks vesicle release",
+          "Links MHC class II to T-cell receptors outside the groove"
+        ],
+        "answer": 1,
+        "sea": "M",
+        "comp": "GI-13-L1",
+        "dok": 2,
+        "approach": [
+          "Identify the toxin: EHEC O157:H7 makes Shiga toxin (Shiga-like toxin, verotoxin).",
+          "Recall its enzyme action: the A subunit is an N-glycosidase that removes a single adenine from 28S rRNA of the 60S ribosomal subunit.",
+          "Connect to disease: protein synthesis stops, endothelial cells die, and microthrombi form in glomeruli."
+        ],
+        "why": "Shiga toxin is an AB5 toxin. Its B pentamer binds Gb3 (globotriaosylceramide), which is plentiful on glomerular and colonic endothelial cells. Inside the cell, the A subunit acts as an N-glycosidase that removes one specific adenine from the 28S rRNA of the 60S ribosomal subunit, so aminoacyl-tRNA can no longer bind and protein synthesis stops. Endothelial injury exposes a surface that triggers platelet-fibrin microthrombi, producing HUS.",
+        "whyNot": [
+          "ADP-ribosylation of elongation factor 2 is how diphtheria toxin and Pseudomonas exotoxin A stop protein synthesis.",
+          "Correct.",
+          "Cleaving synaptobrevin is the action of tetanus toxin and some botulinum toxins, which block neurotransmitter release.",
+          "Linking MHC class II to T-cell receptors outside the peptide groove is the action of superantigens such as TSST-1, which cause toxic shock."
+        ],
+        "study": {
+          "topics": [
+            "Shiga toxin mechanism",
+            "EHEC and HUS"
+          ],
+          "comps": [
+            "GI-13-L1",
+            "GI-12"
+          ]
+        }
+      },
+      {
+        "id": "DX-GI-C06-Q2",
+        "from": [
+          54
+        ],
+        "stem": "While his culture was pending, the health department asked whether the family keeps backyard poultry or pet reptiles. That question screens for a different cause of bloody diarrhea. Which of the following identifies that organism and explains why the question fits?",
+        "options": [
+          "Shigella, which has animal hosts and spreads mainly through eggs",
+          "Shigella, which lives only in humans and spreads person to person",
+          "Vibrio cholerae, which lives in poultry and causes bloody stools",
+          "Salmonella, which has animal hosts and can enter the blood"
+        ],
+        "answer": 3,
+        "sea": "M",
+        "comp": "GI-13-L3",
+        "dok": 3,
+        "approach": [
+          "Spot the exposure clue: poultry, eggs, and reptiles are animal reservoirs.",
+          "Recall which enteric pathogen has those reservoirs: nontyphoidal Salmonella.",
+          "Contrast with Shigella: humans are the only reservoir, a very small dose causes infection, and spread is person to person."
+        ],
+        "why": "Nontyphoidal Salmonella lives in animals, especially poultry, eggs, and reptiles, so public health teams ask about these exposures. It invades the intestinal mucosa and can enter the bloodstream, particularly in infants, older adults, and people with sickle cell disease or weak immunity. Shigella has no animal reservoir, spreads person to person with a very small infectious dose, and usually stays in the colon. Both are gram-negative rods that do not ferment lactose.",
+        "whyNot": [
+          "Shigella has no animal reservoir, so poultry and eggs are not its usual source.",
+          "This statement about Shigella is true, but it explains why Shigella spreads in daycares and households. It does not explain a question about poultry and reptiles.",
+          "Vibrio cholerae lives in brackish and salt water and in shellfish, and it causes watery, not bloody, diarrhea.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Salmonella versus Shigella",
+            "Reservoirs of enteric pathogens"
+          ],
+          "comps": [
+            "GI-13-L3",
+            "GI-12"
+          ]
+        }
+      },
+      {
+        "id": "DX-GI-C06-Q3",
+        "from": [
+          42
+        ],
+        "stem": "Shiga toxin and cholera toxin are both AB5 toxins whose B pentamer binds a cell-surface glycolipid. Cholera toxin, however, causes profuse rice-water diarrhea without blood. Which of the following is the mechanism of its A subunit?",
+        "options": [
+          "ADP-ribosylates Gi alpha, so adenylyl cyclase loses its inhibition",
+          "Activates guanylyl cyclase, so cGMP rises and NaCl absorption falls",
+          "ADP-ribosylates Gs alpha, so cAMP rises and CFTR secretes chloride",
+          "Forms pores in enterocyte membranes, so the cells lyse"
+        ],
+        "answer": 2,
+        "sea": "P",
+        "comp": "GI-13-L3",
+        "dok": 3,
+        "approach": [
+          "Recall the cholera toxin target: the alpha subunit of the stimulatory G protein (Gs).",
+          "Follow the signal: ADP-ribosylation blocks GTP hydrolysis, so adenylyl cyclase stays on and cAMP rises.",
+          "Follow the effect: protein kinase A opens CFTR, chloride and water pour into the lumen, and the cells survive, so the stool is watery without blood."
+        ],
+        "why": "Cholera toxin's B pentamer binds the ganglioside GM1 on enterocytes, and its A1 fragment ADP-ribosylates the Gs alpha subunit. This blocks GTP hydrolysis, so Gs stays active and adenylyl cyclase keeps making cAMP. Protein kinase A then opens CFTR chloride channels and reduces NaCl absorption, and water follows into the lumen. The enterocytes stay alive and intact, so the diarrhea is watery and noninflammatory, unlike the bloody diarrhea of EHEC.",
+        "whyNot": [
+          "ADP-ribosylation of Gi alpha is the action of pertussis toxin. It raises cAMP in airway cells and lymphocytes, not by locking Gs on.",
+          "Raising cGMP through guanylyl cyclase is the action of the heat-stable toxin of enterotoxigenic E. coli, not cholera toxin.",
+          "Correct.",
+          "Forming pores in enterocyte membranes is the action of Clostridium perfringens enterotoxin, which damages the cells. Cholera toxin leaves enterocytes alive and intact."
+        ],
+        "study": {
+          "topics": [
+            "Cholera toxin mechanism",
+            "Secretory diarrhea"
+          ],
+          "comps": [
+            "GI-13-L3",
+            "GI-12",
+            "GI-6"
+          ]
+        }
+      },
+      {
+        "id": "DX-GI-C06-Q4",
+        "from": [],
+        "stem": "Which of the following mechanisms best explains his anemia?",
+        "options": [
+          "Red cells are sliced by microthrombi in small vessels",
+          "IgG coats red cells, which splenic macrophages then remove",
+          "Complement lyses red cells that lack CD55 and CD59",
+          "Toxin in the blood suppresses red cell production in marrow"
+        ],
+        "answer": 0,
+        "sea": "X",
+        "comp": "GI-13-L1",
+        "dok": 2,
+        "approach": [
+          "Read the clues: schistocytes, high LDH, low platelets, negative Coombs test.",
+          "Name the pattern: microangiopathic hemolytic anemia.",
+          "Link to the toxin: endothelial injury triggers platelet-fibrin microthrombi that shear red cells, mainly in glomeruli."
+        ],
+        "why": "Shiga toxin injures endothelial cells, especially in the glomeruli. Platelets stick to the damaged surface and form platelet-fibrin microthrombi, which use up platelets and narrow small vessels. Red cells are sliced as they squeeze past these thrombi, producing schistocytes, high LDH, and anemia, while blocked glomerular capillaries cause acute kidney injury. This triad of microangiopathic hemolytic anemia, thrombocytopenia, and acute kidney injury defines HUS.",
+        "whyNot": [
+          "Correct.",
+          "IgG-coated red cells cause warm autoimmune hemolytic anemia, which gives a positive direct Coombs test and spherocytes. His Coombs test is negative.",
+          "Red cells lacking CD55 and CD59 are found in paroxysmal nocturnal hemoglobinuria, an acquired stem cell disorder unrelated to EHEC.",
+          "Marrow suppression lowers red cell production without fragmented cells or a high LDH. His schistocytes and high LDH point to destruction in the circulation."
+        ],
+        "study": {
+          "topics": [
+            "Microangiopathic hemolytic anemia",
+            "HUS pathogenesis"
+          ],
+          "comps": [
+            "GI-13-L1"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "DX-GI-C07",
+    "system": "GI",
+    "dx": "Acute hepatitis A in a man with Gilbert syndrome",
+    "codes": [
+      "GI-13-L7",
+      "GI-13-C3"
+    ],
+    "case": "A 23-year-old man comes to the physician because of a 5-day history of fever, nausea, right upper quadrant pain, and dark urine. Three weeks ago he ate raw oysters on a trip, and two friends from the trip are also ill. His temperature is 38.2 °C (100.8 °F). Physical examination shows jaundice and a tender liver edge. Laboratory studies show ALT 2,150 U/L (7 to 56), total bilirubin 6.8 mg/dL (0.1 to 1.2) with direct bilirubin 4.1 mg/dL (0 to 0.3), and INR 1.1 (0.8 to 1.2). IgM anti-HAV is positive. HBsAg and anti-HBc are negative, and anti-HBs is positive. His records show three episodes of mild jaundice since age 19 during fasting or illness, each with unconjugated bilirubin of 2.4 to 3.0 mg/dL, normal ALT, and normal hemoglobin and reticulocyte counts. Diagnosis: acute hepatitis A.",
+    "questions": [
+      {
+        "id": "DX-GI-C07-Q1",
+        "from": [
+          49
+        ],
+        "stem": "Which of the following is the most likely course of his hepatitis A infection?",
+        "options": [
+          "Chronic infection in about 5% of adults, with later cirrhosis",
+          "Chronic infection in most patients, with slow scarring over decades",
+          "Full recovery with lasting immunity and no carrier state",
+          "Latent virus in hepatocytes that reactivates during later stress"
+        ],
+        "answer": 2,
+        "sea": "M",
+        "comp": "GI-13-L7",
+        "dok": 2,
+        "approach": [
+          "Use the clues: raw shellfish and a cluster of ill travelers point to fecal-oral spread, and IgM anti-HAV confirms acute hepatitis A.",
+          "Recall the natural history of HAV: acute, self-limited illness.",
+          "Exclude options describing chronic hepatitis B or C or latent viruses."
+        ],
+        "why": "Hepatitis A is a nonenveloped single-stranded RNA picornavirus spread by the fecal-oral route through contaminated food, water, and shellfish. It causes an acute illness that resolves in nearly all patients, with no chronic infection and no carrier state, and recovery gives lifelong immunity (IgG anti-HAV). Rare patients develop fulminant liver failure, mostly older adults or people with existing liver disease. Hepatitis E is also spread fecal-orally but can become chronic in people with weak immunity.",
+        "whyNot": [
+          "Chronic infection in about 5% of adults infected in adulthood describes hepatitis B, which spreads through blood and sexual contact.",
+          "Chronic infection in most patients describes hepatitis C, which spreads mainly through blood.",
+          "Correct.",
+          "Hepatitis A, an RNA virus, does not establish latency. Latency and reactivation are features of herpesviruses."
+        ],
+        "study": {
+          "topics": [
+            "Hepatitis A natural history",
+            "Comparison of hepatitis viruses"
+          ],
+          "comps": [
+            "GI-13-L7",
+            "GI-12"
+          ]
+        }
+      },
+      {
+        "id": "DX-GI-C07-Q2",
+        "from": [
+          45
+        ],
+        "stem": "Which of the following defects best explains the jaundice episodes recorded since age 19?",
+        "options": [
+          "Promoter variant lowering UGT1A1 activity to about 30%",
+          "Complete absence of UGT1A1 activity from a coding mutation",
+          "Defective MRP2 transport of conjugated bilirubin into bile",
+          "Short red cell survival from a membrane skeleton defect"
+        ],
+        "answer": 0,
+        "sea": "B",
+        "comp": "GI-13-C3",
+        "dok": 3,
+        "approach": [
+          "Characterize the episodes: mild unconjugated hyperbilirubinemia triggered by fasting or illness, with normal ALT.",
+          "Exclude hemolysis: normal hemoglobin and reticulocytes.",
+          "Name the condition and defect: Gilbert syndrome, reduced (not absent) UGT1A1 activity, most often from an extra TA repeat in the promoter."
+        ],
+        "why": "Gilbert syndrome is the most common inherited cause of hyperbilirubinemia. In most people of European descent it comes from an extra TA repeat in the UGT1A1 promoter, which lowers expression of bilirubin UDP-glucuronosyltransferase to about 30% of normal. Bilirubin stays normal or mildly high and rises with fasting, illness, stress, or exertion. Liver enzymes and liver structure are normal, and no treatment is needed.",
+        "whyNot": [
+          "Correct.",
+          "Complete absence of UGT1A1 activity is Crigler-Najjar syndrome type I, which causes severe unconjugated hyperbilirubinemia and kernicterus in the newborn period.",
+          "An MRP2 defect is Dubin-Johnson syndrome, which raises conjugated bilirubin and darkens the liver. His past episodes were unconjugated.",
+          "A red cell membrane defect such as hereditary spherocytosis causes hemolysis with anemia and a high reticulocyte count. His hemoglobin and reticulocytes were normal."
+        ],
+        "study": {
+          "topics": [
+            "Gilbert syndrome",
+            "Inherited hyperbilirubinemias"
+          ],
+          "comps": [
+            "GI-13-C3",
+            "GI-9",
+            "GI-10"
+          ]
+        }
+      },
+      {
+        "id": "DX-GI-C07-Q3",
+        "from": [
+          44
+        ],
+        "stem": "During his earlier episodes his urine stayed normal in color, but now it is dark with bilirubin. Which of the following changes allows bilirubin to appear in his urine now?",
+        "options": [
+          "Albumin binding increased in plasma, so it passes the glomerulus",
+          "Glycine was attached in hepatocytes, so it became lipid soluble",
+          "Sulfate was attached by gut bacteria, so it is reabsorbed from bowel",
+          "Glucuronic acid was added in hepatocytes, so it dissolves in water"
+        ],
+        "answer": 3,
+        "sea": "P",
+        "comp": "GI-9",
+        "dok": 3,
+        "approach": [
+          "Compare the episodes: before, unconjugated bilirubin; now, a large conjugated (direct) fraction.",
+          "Recall the change: UGT1A1 attaches glucuronic acid, making bilirubin water soluble.",
+          "Apply to the kidney: conjugated bilirubin that leaks back into blood from injured hepatocytes is filtered and appears in urine."
+        ],
+        "why": "Unconjugated bilirubin is lipid soluble and tightly bound to albumin, so it is not filtered and never appears in urine, which is why his Gilbert episodes left his urine normal. In the hepatocyte, UDP-glucuronosyltransferase attaches glucuronic acid, making conjugated (direct) bilirubin that is water soluble and normally secreted into bile. Hepatitis injures hepatocytes and bile canaliculi, so conjugated bilirubin leaks back into blood, is filtered by the kidney, and darkens the urine.",
+        "whyNot": [
+          "Albumin binding keeps unconjugated bilirubin out of the urine, because the albumin complex is too large to pass the glomerular barrier.",
+          "Glycine and taurine are attached to bile acids, not bilirubin, and conjugation makes molecules more water soluble, not lipid soluble.",
+          "Gut bacteria turn conjugated bilirubin into urobilinogen; they do not sulfate it. Urobilinogen reabsorbed from the gut is a small, normal urine component that does not make urine dark with bilirubin.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Bilirubin conjugation",
+            "Bilirubinuria"
+          ],
+          "comps": [
+            "GI-9",
+            "GI-13-C3"
+          ]
+        }
+      },
+      {
+        "id": "DX-GI-C07-Q4",
+        "from": [
+          50
+        ],
+        "stem": "He asks whether he could also acquire hepatitis D. Based on his serologic results, which of the following best describes his risk?",
+        "options": [
+          "At risk, because HDV replicates on its own once inside hepatocytes",
+          "Protected, because HDV needs HBsAg made by HBV for its envelope",
+          "Protected, because HDV spreads only by the fecal-oral route",
+          "At risk, because antibodies against HBsAg do not neutralize HDV"
+        ],
+        "answer": 1,
+        "sea": "M",
+        "comp": "GI-13-L7",
+        "dok": 3,
+        "approach": [
+          "Read the serology: anti-HBs positive with HBsAg and anti-HBc negative means vaccinated against HBV.",
+          "Recall what HDV needs: HBsAg from an active HBV infection to build its envelope.",
+          "Conclude: no HBV infection, so no HDV infection."
+        ],
+        "why": "Hepatitis D virus is a small, defective RNA virus. It can replicate its genome inside hepatocytes, but it uses HBsAg made by hepatitis B virus as its envelope, so it can only infect people who also have HBV. It can arrive at the same time as HBV (coinfection, which usually clears) or infect someone with chronic HBV (superinfection, which causes the most severe and rapidly progressive hepatitis). Because he is immune to HBV from vaccination, he is protected from HDV as well.",
+        "whyNot": [
+          "HDV can copy its own RNA genome using host RNA polymerase, but it cannot make an envelope or leave the cell without HBsAg from HBV. Without HBV it cannot spread.",
+          "Correct.",
+          "HDV spreads like HBV, through blood, sexual contact, and from mother to child. The fecal-oral route belongs to hepatitis A and E.",
+          "The HDV envelope is made of HBsAg, so anti-HBs neutralizes HDV particles. HBV vaccination therefore also prevents HDV infection."
+        ],
+        "study": {
+          "topics": [
+            "Hepatitis D",
+            "Hepatitis B serology"
+          ],
+          "comps": [
+            "GI-13-L7",
+            "GI-12"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "DX-GI-C08",
+    "system": "GI",
+    "dx": "Hirschsprung disease (congenital aganglionic megacolon)",
+    "codes": [
+      "GI-13-F5",
+      "NE-20-E3"
+    ],
+    "case": "A 2-day-old boy born at term is evaluated because he has not passed meconium. He now has abdominal distension and bilious vomiting. His mother has phenylketonuria (PKU) and kept a phenylalanine-restricted diet before and during the pregnancy; his father has no family history of PKU. Rectal examination shows a tight rectum, and withdrawal of the finger releases an explosive gush of stool and gas. Contrast enema shows a narrow rectum and sigmoid colon below a cone-shaped transition zone and a dilated colon above it. Suction rectal biopsy shows no ganglion cells in the submucosal plexus and thickened nerve fibers. Diagnosis: Hirschsprung disease (congenital aganglionic megacolon).",
+    "questions": [
+      {
+        "id": "DX-GI-C08-Q1",
+        "from": [
+          36
+        ],
+        "stem": "Which of the following developmental failures best explains the missing ganglion cells?",
+        "options": [
+          "Endoderm did not recanalize the gut lumen after its solid stage",
+          "Splanchnic mesoderm did not form the muscularis externa",
+          "The midgut loop did not rotate around the superior mesenteric artery",
+          "Neural crest cells did not migrate all the way to the distal colon"
+        ],
+        "answer": 3,
+        "sea": "A",
+        "comp": "GI-13-F5",
+        "dok": 2,
+        "approach": [
+          "Identify what is missing: ganglion cells of the enteric nervous system.",
+          "Recall their origin: neural crest cells that enter the foregut early in development and migrate in a head-to-tail wave toward the end of the hindgut.",
+          "Apply: migration that stops early leaves the most distal segment (rectum and sigmoid) without ganglia."
+        ],
+        "why": "The enteric nervous system comes from neural crest cells, mainly from the vagal region, that enter the foregut and migrate down the gut toward the anus. In Hirschsprung disease this migration stops short, so a continuous distal segment starting at the rectum has no ganglion cells in the submucosal (Meissner) and myenteric (Auerbach) plexuses. That segment cannot relax, so it acts as a functional obstruction, and the normal bowel above it dilates. Risk is higher in boys and in Down syndrome.",
+        "whyNot": [
+          "Failed recanalization of the gut lumen, best known in the duodenum, causes stenosis or atresia. That is a structural blockage, and ganglion cells are normal.",
+          "Splanchnic mesoderm forms the gut muscle and connective tissue. A muscle defect does not explain absent ganglion cells.",
+          "Failed midgut rotation causes malrotation with a risk of volvulus. It does not affect ganglion cells in the rectum.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Enteric nervous system development",
+            "Hirschsprung disease"
+          ],
+          "comps": [
+            "GI-13-F5",
+            "GI-1"
+          ]
+        }
+      },
+      {
+        "id": "DX-GI-C08-Q2",
+        "from": [],
+        "stem": "The aganglionic segment stays tightly contracted. Loss of which of the following neurons best explains why it cannot relax?",
+        "options": [
+          "Excitatory motor neurons that release acetylcholine and substance P",
+          "Inhibitory motor neurons that release nitric oxide and VIP",
+          "Sympathetic fibers that release norepinephrine onto the bowel",
+          "Vagal preganglionic fibers that release acetylcholine onto ganglia"
+        ],
+        "answer": 1,
+        "sea": "P",
+        "comp": "GI-6",
+        "dok": 3,
+        "approach": [
+          "Recall that gut smooth muscle relaxes in front of a bolus by an enteric reflex.",
+          "Identify the neurons that make it relax: intrinsic inhibitory motor neurons releasing nitric oxide and VIP.",
+          "Apply: with no ganglion cells, these neurons are absent, so the segment cannot relax and stays narrow."
+        ],
+        "why": "Peristalsis needs the muscle ahead of a bolus to relax while the muscle behind it contracts. Relaxation comes from inhibitory motor neurons in the myenteric plexus that release nitric oxide and vasoactive intestinal peptide (VIP). Without ganglion cells, these neurons are missing, so the segment cannot relax, and thick extrinsic cholinergic nerve fibers in the area add to its tone. The internal anal sphincter also fails to relax when the rectum fills.",
+        "whyNot": [
+          "Losing excitatory motor neurons would reduce contraction and cause a flaccid segment, not a tightly contracted one.",
+          "Correct.",
+          "Sympathetic fibers come from outside the gut and are still present in the aganglionic segment, so their loss does not explain the problem.",
+          "Vagal fibers do not supply the rectum or sigmoid colon; pelvic splanchnic nerves carry parasympathetic input there."
+        ],
+        "study": {
+          "topics": [
+            "Enteric motor neurons",
+            "Peristaltic reflex"
+          ],
+          "comps": [
+            "GI-6",
+            "GI-13-F5"
+          ]
+        }
+      },
+      {
+        "id": "DX-GI-C08-Q3",
+        "from": [],
+        "stem": "Genetic testing finds a heterozygous variant in the gene most often mutated in this disease. Which of the following variants is most likely?",
+        "options": [
+          "Loss-of-function variant in RET",
+          "Gain-of-function variant in RET",
+          "Loss-of-function variant in APC",
+          "Gain-of-function variant in KRAS"
+        ],
+        "answer": 0,
+        "sea": "B",
+        "comp": "GI-10",
+        "dok": 2,
+        "approach": [
+          "Recall the receptor that guides enteric neural crest cells: the RET receptor tyrosine kinase, activated by GDNF.",
+          "Ask which direction of change blocks migration: loss of function.",
+          "Separate it from the gain-of-function RET variants of MEN2."
+        ],
+        "why": "Enteric neural crest cells need signaling through the RET receptor tyrosine kinase, activated by glial cell line-derived neurotrophic factor (GDNF), to survive, multiply, and migrate along the gut. Loss-of-function RET variants are the most common genetic finding in Hirschsprung disease, especially in familial and long-segment cases, and penetrance is incomplete. Gain-of-function RET variants have the opposite effect and cause MEN2.",
+        "whyNot": [
+          "Correct.",
+          "Gain-of-function RET variants cause multiple endocrine neoplasia type 2 and medullary thyroid cancer. A few MEN2A variants occur with Hirschsprung disease, but the usual cause is loss of RET signaling, which impairs neural crest migration into the gut.",
+          "Loss-of-function APC variants cause familial adenomatous polyposis and start the colorectal adenoma sequence.",
+          "Gain-of-function KRAS variants drive growth in many cancers, including colorectal and pancreatic cancer, and are not a cause of Hirschsprung disease."
+        ],
+        "study": {
+          "topics": [
+            "RET and Hirschsprung disease",
+            "Loss versus gain of function"
+          ],
+          "comps": [
+            "GI-10",
+            "GI-13-F5"
+          ]
+        }
+      },
+      {
+        "id": "DX-GI-C08-Q4",
+        "from": [
+          48
+        ],
+        "stem": "His newborn screen shows a normal phenylalanine level. Which of the following best describes him with respect to his mother's disorder?",
+        "options": [
+          "50% chance of carrying one PAH variant; PKU is autosomal recessive",
+          "Obligate carrier of one tyrosine hydroxylase variant; PKU is X-linked",
+          "Obligate carrier of one PAH variant; PKU is autosomal recessive",
+          "Obligate carrier of one homogentisate oxidase variant; PKU is autosomal recessive"
+        ],
+        "answer": 2,
+        "sea": "B",
+        "comp": "NE-20-E3",
+        "dok": 3,
+        "approach": [
+          "Name the defect: PKU is deficiency of phenylalanine hydroxylase (PAH), which converts phenylalanine to tyrosine.",
+          "Recall the inheritance: autosomal recessive, so his affected mother has two PAH variants.",
+          "Apply: he must inherit one maternal variant, and his normal screen means he is not affected, so he is a carrier."
+        ],
+        "why": "Classic PKU is an autosomal recessive deficiency of phenylalanine hydroxylase (PAH), which needs tetrahydrobiopterin (BH4) to convert phenylalanine to tyrosine. An affected mother passes one PAH variant to every child, so this baby is an obligate carrier, and his normal screen shows he is not affected. Untreated PKU causes intellectual disability, seizures, light skin and hair, and a musty odor, and tyrosine becomes an essential amino acid. Keeping maternal phenylalanine low before and during pregnancy prevents maternal PKU embryopathy (microcephaly, heart defects, growth restriction).",
+        "whyNot": [
+          "His mother has two PAH variants, so every child inherits one of them. His chance of carrying one is 100%, not 50%.",
+          "Tyrosine hydroxylase makes L-DOPA from tyrosine and is not the PKU enzyme, and PKU is autosomal, not X-linked.",
+          "Correct.",
+          "Homogentisate oxidase deficiency causes alkaptonuria, not PKU."
+        ],
+        "study": {
+          "topics": [
+            "Phenylketonuria",
+            "Autosomal recessive inheritance"
+          ],
+          "comps": [
+            "NE-20-E3",
+            "GI-8"
+          ]
+        }
+      }
+    ]
+  }
+]

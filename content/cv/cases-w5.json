@@ -1,0 +1,924 @@
+[
+  {
+    "id": "CV-C25",
+    "system": "CV",
+    "dx": "Dilated cardiomyopathy from chronic alcohol use (alcoholic cardiomyopathy)",
+    "codes": [
+      "CV-18-E1"
+    ],
+    "case": "A 52-year-old right-handed man comes to the physician because of 4 months of progressive dyspnea on exertion, orthopnea, and ankle swelling. He has consumed 10 to 12 beers daily for 15 years. His pulse is 104/min and blood pressure is 112/74 mm Hg. Physical examination shows jugular venous distention, bibasilar crackles, an S3 gallop, and a laterally displaced apical impulse. Coronary angiography shows no significant stenosis. Echocardiography shows dilation of all four chambers with relatively thin walls, diffuse hypokinesis, and a left ventricular ejection fraction of 25% (reference 55% to 70%). Diagnosis: dilated cardiomyopathy caused by chronic alcohol use (alcoholic cardiomyopathy).",
+    "questions": [
+      {
+        "id": "CV-C25-Q1",
+        "stem": "Ethanol and its metabolite acetaldehyde are directly toxic to myocytes and weaken their contraction. In a healthy ventricular myocyte, which of the following directly triggers release of most of the calcium that activates contraction?",
+        "options": [
+          "IP3 binding to receptors on the sarcoplasmic reticulum after Gq signaling",
+          "Calcium entering through L-type channels and opening ryanodine receptors",
+          "T-tubule voltage sensors mechanically pulling ryanodine receptors open",
+          "Calcium binding calmodulin and activating myosin light-chain kinase"
+        ],
+        "answer": 1,
+        "sea": "P",
+        "comp": "CV-5",
+        "dok": 2,
+        "approach": [
+          "The question asks what starts calcium release in cardiac muscle specifically.",
+          "Cardiac muscle uses calcium-induced calcium release: a small trigger influx releases a much larger store.",
+          "Rule out the skeletal muscle (mechanical coupling) and smooth muscle (IP3, calmodulin) mechanisms."
+        ],
+        "why": "During the plateau of the ventricular action potential, L-type (dihydropyridine) calcium channels in the T tubules open. This small calcium influx opens ryanodine receptors (RyR2) on the sarcoplasmic reticulum, which release most of the calcium that binds troponin C. This is calcium-induced calcium release. Because the trigger influx and the sarcoplasmic reticulum store set how much calcium is released, they help set the force of each beat.",
+        "whyNot": [
+          "IP3-mediated calcium release is a main pathway in smooth muscle after Gq-coupled receptor activation. It plays only a minor role in ventricular myocytes.",
+          "Correct.",
+          "Direct mechanical coupling of the T-tubule voltage sensor (DHP receptor) to RyR1 is how skeletal muscle releases calcium. Cardiac muscle needs calcium entry to open RyR2.",
+          "Calcium-calmodulin activation of myosin light-chain kinase drives smooth muscle contraction. Cardiac muscle is regulated by calcium binding to troponin C on the thin filament."
+        ],
+        "study": {
+          "topics": [
+            "Excitation-contraction coupling in cardiac muscle",
+            "Cardiac versus skeletal versus smooth muscle calcium handling"
+          ],
+          "comps": [
+            "CV-5",
+            "CV-6"
+          ]
+        }
+      },
+      {
+        "id": "CV-C25-Q2",
+        "stem": "In his liver, alcohol dehydrogenase converts ethanol to acetaldehyde, and aldehyde dehydrogenase converts acetaldehyde to acetate. Both reactions reduce the same cofactor. Which of the following ratios is most likely increased in his hepatocytes?",
+        "options": [
+          "NADPH to NADP+",
+          "FADH2 to FAD",
+          "ATP to ADP",
+          "NADH to NAD+"
+        ],
+        "answer": 3,
+        "sea": "B",
+        "comp": "CV-13",
+        "dok": 2,
+        "approach": [
+          "Identify the two dehydrogenase steps of ethanol metabolism.",
+          "Both use NAD+ as the electron acceptor, producing NADH.",
+          "Large alcohol loads therefore raise the NADH to NAD+ ratio."
+        ],
+        "why": "Alcohol dehydrogenase and aldehyde dehydrogenase both transfer electrons to NAD+, so heavy drinking raises the NADH to NAD+ ratio. The high ratio pushes pyruvate toward lactate and oxaloacetate toward malate, which slows gluconeogenesis. It also slows fatty acid oxidation and favors glycerol-3-phosphate formation, which promotes fatty liver.",
+        "whyNot": [
+          "NADPH is used, not produced, by the microsomal ethanol-oxidizing system (CYP2E1), which oxidizes NADPH to NADP+. NADPH is mainly made by the pentose phosphate pathway.",
+          "FAD is the cofactor for enzymes such as succinate dehydrogenase. Neither alcohol dehydrogenase nor aldehyde dehydrogenase uses FAD.",
+          "ATP and ADP describe energy charge. They are not the electron carriers reduced by these dehydrogenase reactions.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Ethanol metabolism",
+            "Effects of a high NADH to NAD+ ratio"
+          ],
+          "comps": [
+            "CV-13"
+          ]
+        }
+      },
+      {
+        "id": "CV-C25-Q3",
+        "stem": "A new grade 2/6 holosystolic murmur is heard best at the apex and radiates to the left axilla. Which of the following best explains this murmur?",
+        "options": [
+          "Mitral valve, leaflets pulled apart by a dilated ventricle",
+          "Aortic valve, cusps unable to close in a dilated aortic root",
+          "Tricuspid valve, leaflets pulled apart by a dilated right ventricle",
+          "Pulmonary valve, cusps unable to close in a dilated pulmonary trunk"
+        ],
+        "answer": 0,
+        "sea": "A",
+        "comp": "CV-4",
+        "dok": 3,
+        "approach": [
+          "A holosystolic murmur means blood leaks backward through an atrioventricular valve during systole.",
+          "Apex location with radiation to the axilla points to the mitral valve.",
+          "In dilated cardiomyopathy, annular dilation and outward displacement of the papillary muscles stop the leaflets from meeting (functional regurgitation)."
+        ],
+        "why": "Mitral regurgitation produces a holosystolic murmur best heard at the apex that radiates to the left axilla. In dilated cardiomyopathy the leaflets are structurally normal, but the mitral annulus stretches and the papillary muscles are pulled outward and apically as the ventricle enlarges. The leaflets can no longer meet in systole, so blood leaks back into the left atrium. This is called functional or secondary mitral regurgitation.",
+        "whyNot": [
+          "Correct.",
+          "Aortic regurgitation from a dilated root causes an early diastolic decrescendo murmur at the left sternal border, not a holosystolic apical murmur.",
+          "Tricuspid regurgitation is also holosystolic and common in dilated cardiomyopathy, but it is heard best at the left lower sternal border and gets louder with inspiration. It does not radiate to the axilla.",
+          "Pulmonary regurgitation causes a diastolic murmur at the left upper sternal border, usually with pulmonary hypertension."
+        ],
+        "study": {
+          "topics": [
+            "Valve auscultation areas",
+            "Functional mitral regurgitation"
+          ],
+          "comps": [
+            "CV-4",
+            "CV-18-D2"
+          ]
+        }
+      },
+      {
+        "id": "CV-C25-Q4",
+        "stem": "Eight months later, he develops sudden weakness of the right face and right arm and nonfluent speech with intact comprehension. Echocardiography shows a thrombus at the left ventricular apex. An embolus from this thrombus has most likely occluded which of the following arteries?",
+        "options": [
+          "Right middle cerebral artery",
+          "Left anterior cerebral artery",
+          "Left middle cerebral artery",
+          "Basilar artery"
+        ],
+        "answer": 2,
+        "sea": "A",
+        "comp": "CV-9",
+        "dok": 3,
+        "approach": [
+          "Localize the deficit: right face and arm weakness with nonfluent speech and intact comprehension (expressive aphasia) means a left (dominant) frontal lesion in a right-handed person.",
+          "Face and arm motor cortex and Broca area are supplied by the middle cerebral artery.",
+          "Trace the embolus: left ventricle, aorta, left common carotid, left internal carotid, then straight into the left middle cerebral artery."
+        ],
+        "why": "A poorly contracting, dilated ventricle allows blood to pool (stasis), so mural thrombi form, often at the apex. An embolus leaving the left ventricle enters the aorta and can reach either carotid. The middle cerebral artery is the direct continuation of the internal carotid and is the most common site for cardiac emboli. The left middle cerebral artery supplies the lateral motor cortex for the right face and arm and, in most right-handed people, the Broca speech area.",
+        "whyNot": [
+          "A right middle cerebral artery embolus would cause left-sided face and arm weakness and usually neglect, not aphasia.",
+          "The left anterior cerebral artery supplies the medial motor cortex, so it causes right leg more than arm weakness and spares the face.",
+          "Correct.",
+          "Basilar artery occlusion affects the brainstem and occipital lobes, causing cranial nerve deficits, bilateral signs, or reduced consciousness."
+        ],
+        "study": {
+          "topics": [
+            "Cardioembolic stroke",
+            "Cerebral arterial territories"
+          ],
+          "comps": [
+            "CV-9",
+            "CV-18-H1"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "CV-C26",
+    "system": "CV",
+    "dx": "Hypertrophic cardiomyopathy with left ventricular outflow tract obstruction",
+    "codes": [
+      "CV-18-E1"
+    ],
+    "case": "A 19-year-old man is brought to the emergency department after he collapsed during a sprint drill at college soccer practice and regained consciousness within 1 minute. He has had chest tightness with strenuous exercise for several months. His paternal uncle died suddenly at age 34 years. Physical examination shows a harsh crescendo-decrescendo systolic murmur at the left lower sternal border that increases in intensity when he stands from a squatting position and decreases with sustained handgrip. ECG shows left ventricular hypertrophy with deep, narrow Q waves in the lateral leads. Echocardiography shows asymmetric septal thickening of 24 mm (reference up to about 11 mm), a small left ventricular cavity, systolic anterior motion of the mitral valve, and a resting outflow gradient of 50 mm Hg. Diagnosis: hypertrophic cardiomyopathy with left ventricular outflow tract obstruction.",
+    "questions": [
+      {
+        "id": "CV-C26-Q1",
+        "stem": "Genetic testing finds a pathogenic variant in MYH7, the gene for beta-myosin heavy chain. His father carries the same variant. If the patient later has children with a partner who does not carry the variant, which of the following is the probability that each child inherits it?",
+        "options": [
+          "25%",
+          "75%",
+          "100%",
+          "50%"
+        ],
+        "answer": 3,
+        "sea": "B",
+        "comp": "CV-14",
+        "dok": 2,
+        "approach": [
+          "Recognize the inheritance pattern: hypertrophic cardiomyopathy from sarcomere gene variants is autosomal dominant.",
+          "A heterozygous parent passes the variant allele to each child with a probability of one half.",
+          "Penetrance affects whether a carrier gets disease, not whether the allele is inherited."
+        ],
+        "why": "Most familial hypertrophic cardiomyopathy is autosomal dominant and is caused by variants in sarcomere genes, most often MYH7 (beta-myosin heavy chain) and MYBPC3 (cardiac myosin-binding protein C). The patient is heterozygous, so each child has a 50% chance of inheriting the variant. Penetrance is incomplete and age-dependent, and severity varies even within one family, so relatives who carry the same variant may have mild disease or none. First-degree relatives are offered genetic testing and echocardiographic screening.",
+        "whyNot": [
+          "25% is the chance that a child of two carrier parents is affected in an autosomal recessive disorder.",
+          "75% is the chance of inheriting at least one variant allele when both parents are heterozygous for a dominant trait.",
+          "100% would apply only if the patient were homozygous for the variant, which is rare.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Autosomal dominant inheritance and penetrance",
+            "Sarcomere genes in hypertrophic cardiomyopathy"
+          ],
+          "comps": [
+            "CV-14"
+          ]
+        }
+      },
+      {
+        "id": "CV-C26-Q2",
+        "stem": "A teammate's screening echocardiogram shows a left ventricular wall thickness of 13 mm. Which of the following additional findings would most strongly favor physiologic athlete's heart over hypertrophic cardiomyopathy?",
+        "options": [
+          "Regression of wall thickness after 3 months of detraining",
+          "A small left ventricular cavity, under 45 mm at end-diastole",
+          "Impaired early diastolic relaxation on Doppler imaging",
+          "Thickening confined to the septum, sparing the free wall"
+        ],
+        "answer": 0,
+        "sea": "P",
+        "comp": "CV-12",
+        "dok": 3,
+        "approach": [
+          "A wall thickness of 13 to 15 mm is a gray zone where athlete's heart and mild hypertrophic cardiomyopathy overlap.",
+          "Athlete's heart is a reversible adaptation to training with normal relaxation and an enlarged cavity.",
+          "Pick the finding that only a physiologic adaptation would show."
+        ],
+        "why": "Training causes a physiologic, reversible increase in cardiac mass, usually with an enlarged left ventricular cavity and normal diastolic function. When training stops for about 3 months, the wall thickness falls in athlete's heart but not in hypertrophic cardiomyopathy, whose hypertrophy comes from a sarcomere defect. Regression with detraining therefore points strongly toward a physiologic adaptation.",
+        "whyNot": [
+          "Correct.",
+          "A small cavity under about 45 mm favors hypertrophic cardiomyopathy. Trained athletes usually have a normal or enlarged cavity, often over 55 mm.",
+          "Impaired relaxation favors hypertrophic cardiomyopathy. Athlete's heart typically has normal or enhanced diastolic filling.",
+          "Asymmetric septal thickening is the classic pattern of hypertrophic cardiomyopathy. Athletic hypertrophy is usually symmetric."
+        ],
+        "study": {
+          "topics": [
+            "Athlete's heart versus hypertrophic cardiomyopathy",
+            "Cardiac adaptation to training"
+          ],
+          "comps": [
+            "CV-12",
+            "CV-18-E1"
+          ]
+        }
+      },
+      {
+        "id": "CV-C26-Q3",
+        "stem": "His syncope occurred during an intense sprint. Which of the following pairs of changes during exercise most increases his outflow tract obstruction?",
+        "options": [
+          "Decreased contractility and increased afterload",
+          "Decreased heart rate and increased end-diastolic volume",
+          "Increased contractility and decreased afterload",
+          "Increased afterload and increased end-diastolic volume"
+        ],
+        "answer": 2,
+        "sea": "P",
+        "comp": "CV-12",
+        "dok": 3,
+        "approach": [
+          "In this disease the obstruction is dynamic: it worsens whenever the left ventricular cavity gets smaller or ejects faster.",
+          "During exercise, sympathetic drive raises contractility and heart rate, and dilation of muscle arterioles lowers systemic vascular resistance.",
+          "Stronger, faster ejection into a lower resistance pulls the anterior mitral leaflet toward the septum and narrows the outflow tract."
+        ],
+        "why": "Exercise raises sympathetic tone, which increases contractility and heart rate, and metabolic vasodilation in working muscle lowers systemic vascular resistance. Stronger contraction empties the small ventricle further, and lower afterload speeds ejection. Both bring the thickened septum and the anterior mitral leaflet (systolic anterior motion) closer together, raising the outflow gradient. Cardiac output then cannot rise to meet demand, and syncope or a ventricular arrhythmia can follow.",
+        "whyNot": [
+          "Decreased contractility and increased afterload both reduce the obstruction. This is why handgrip, which raises afterload, softens his murmur.",
+          "A slower heart rate and a larger end-diastolic volume widen the outflow tract and lessen the obstruction, as with squatting or leg raising.",
+          "Correct.",
+          "Higher afterload and a larger ventricular volume both reduce the obstruction. Squatting produces both and softens the murmur."
+        ],
+        "study": {
+          "topics": [
+            "Dynamic outflow obstruction",
+            "Cardiovascular response to exercise"
+          ],
+          "comps": [
+            "CV-12",
+            "CV-6"
+          ]
+        }
+      },
+      {
+        "id": "CV-C26-Q4",
+        "stem": "If his collapse had been fatal, which of the following findings on microscopic examination of the interventricular septum would most likely be seen at autopsy?",
+        "options": [
+          "Lymphocytic infiltrate surrounding necrotic myocytes",
+          "Hypertrophied myocytes arranged in a chaotic, swirling pattern",
+          "Amorphous pink extracellular deposits with apple-green birefringence",
+          "Coagulation necrosis with neutrophils and loss of nuclei"
+        ],
+        "answer": 1,
+        "sea": "X",
+        "comp": "CV-18-E1",
+        "dok": 2,
+        "approach": [
+          "Link the diagnosis to its histologic hallmark.",
+          "Sarcomere protein defects produce hypertrophied myocytes that lose their parallel arrangement (myofiber disarray).",
+          "Rule out the patterns of myocarditis, amyloidosis, and acute infarction."
+        ],
+        "why": "The characteristic histology of hypertrophic cardiomyopathy is myocyte disarray: large, hypertrophied myocytes that branch and run in a disorganized, swirling pattern, most marked in the septum, with interstitial and replacement fibrosis. Disarray and fibrosis create an unstable electrical substrate. Ventricular arrhythmias from this substrate are the main cause of sudden death in young athletes with this disease.",
+        "whyNot": [
+          "A lymphocytic infiltrate with adjacent myocyte necrosis is the picture of viral or other lymphocytic myocarditis.",
+          "Correct.",
+          "Amorphous pink deposits with apple-green birefringence on Congo red staining define amyloidosis, which causes restrictive cardiomyopathy.",
+          "Coagulation necrosis with neutrophils is seen about 1 to 3 days after a myocardial infarction."
+        ],
+        "study": {
+          "topics": [
+            "Histology of the cardiomyopathies",
+            "Sudden cardiac death in young athletes"
+          ],
+          "comps": [
+            "CV-18-E1",
+            "CV-2"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "CV-C27",
+    "system": "CV",
+    "dx": "Restrictive cardiomyopathy from hereditary transthyretin amyloidosis",
+    "codes": [
+      "CV-18-E1"
+    ],
+    "case": "A 71-year-old man comes to the physician because of 6 months of progressive dyspnea on exertion, leg swelling, and early satiety. He underwent surgery for bilateral carpal tunnel syndrome 5 years ago. Blood pressure is 102/68 mm Hg. Physical examination shows jugular venous distention that increases with inspiration and hepatomegaly. ECG shows low QRS voltage in the limb leads. Echocardiography shows a left ventricular wall thickness of 17 mm (reference up to about 11 mm), a normal-sized ventricle, an ejection fraction of 55%, markedly enlarged atria, and no pericardial effusion. Serum and urine studies show no monoclonal protein. A technetium pyrophosphate scan shows intense cardiac uptake, and genetic testing finds a pathogenic transthyretin (TTR) variant. Diagnosis: restrictive cardiomyopathy from hereditary transthyretin amyloidosis.",
+    "questions": [
+      {
+        "id": "CV-C27-Q1",
+        "stem": "Transthyretin is made mainly in the liver and normally circulates as a tetramer that carries thyroxine and retinol-binding protein. Which of the following mechanisms best explains how his TTR variant causes disease?",
+        "options": [
+          "Unstable tetramers release monomers that misfold into beta-sheet fibrils",
+          "Clonal plasma cells secrete free light chains that form fibrils",
+          "Low alpha-galactosidase A activity lets glycosphingolipids build up in lysosomes",
+          "Excess intestinal iron uptake deposits iron within myocytes"
+        ],
+        "answer": 0,
+        "sea": "B",
+        "comp": "CV-14",
+        "dok": 3,
+        "approach": [
+          "Identify the protein: transthyretin is a transport tetramer made by the liver.",
+          "Pathogenic variants make the tetramer less stable, so it falls apart into monomers.",
+          "The monomers misfold into insoluble beta-pleated sheet fibrils that deposit in the heart and nerves."
+        ],
+        "why": "Hereditary transthyretin amyloidosis is autosomal dominant. A single amino acid substitution destabilizes the transthyretin tetramer, which dissociates into monomers that misfold and assemble into beta-pleated sheet amyloid fibrils. Fibrils deposit in the myocardial interstitium, the carpal tunnel, and peripheral nerves. Wild-type transthyretin can do the same with age, mostly in older men, without any variant.",
+        "whyNot": [
+          "Correct.",
+          "Free light chains from a plasma cell clone cause AL amyloidosis. His negative serum and urine studies for monoclonal protein and the TTR variant point away from it.",
+          "Alpha-galactosidase A deficiency is Fabry disease, an X-linked lysosomal storage disorder that can thicken the ventricle. It does not form amyloid fibrils.",
+          "Increased iron absorption is hereditary hemochromatosis (usually HFE variants), which can cause a dilated or restrictive cardiomyopathy through iron overload, not amyloid."
+        ],
+        "study": {
+          "topics": [
+            "Protein misfolding and amyloid",
+            "Hereditary transthyretin amyloidosis"
+          ],
+          "comps": [
+            "CV-14",
+            "CV-18-E1"
+          ]
+        }
+      },
+      {
+        "id": "CV-C27-Q2",
+        "stem": "Two months later, he reports dysphagia to solid foods. A barium swallow shows smooth extrinsic compression of the anterior wall of the esophagus at the level of the heart. Enlargement of which of the following chambers most likely explains this finding?",
+        "options": [
+          "Right atrium",
+          "Left ventricle",
+          "Left atrium",
+          "Right ventricle"
+        ],
+        "answer": 2,
+        "sea": "A",
+        "comp": "CV-3",
+        "dok": 2,
+        "approach": [
+          "Restrictive cardiomyopathy enlarges the atria because they must push blood into stiff ventricles.",
+          "Recall which surface of the heart each chamber forms.",
+          "The left atrium forms most of the base (posterior surface) and sits directly in front of the esophagus."
+        ],
+        "why": "The left atrium forms most of the posterior surface (base) of the heart and lies just anterior to the esophagus, separated from it by the pericardium. When the left atrium enlarges, it can indent the esophagus and cause trouble swallowing solids. The same relationship is why transesophageal echocardiography gives such clear views of the left atrium.",
+        "whyNot": [
+          "The right atrium forms the right border of the heart and receives the venae cavae. It does not lie against the esophagus.",
+          "The left ventricle forms the apex, the left border, and much of the inferior (diaphragmatic) surface.",
+          "Correct.",
+          "The right ventricle forms most of the anterior (sternocostal) surface, the side farthest from the esophagus."
+        ],
+        "study": {
+          "topics": [
+            "Surfaces and borders of the heart",
+            "Relations of the left atrium"
+          ],
+          "comps": [
+            "CV-3"
+          ]
+        }
+      },
+      {
+        "id": "CV-C27-Q3",
+        "stem": "His echocardiogram shows thick ventricular walls, yet his ECG shows low QRS voltage. Which of the following best explains this combination of findings?",
+        "options": [
+          "Concentric myocyte hypertrophy from long-standing pressure overload",
+          "Extracellular deposits thickening the wall without adding myocytes",
+          "Fluid in the pericardial sac that damps the cardiac electrical signal",
+          "Thinning and scarring of the wall after a large transmural infarction"
+        ],
+        "answer": 1,
+        "sea": "X",
+        "comp": "CV-18-E1",
+        "dok": 3,
+        "approach": [
+          "QRS voltage reflects the mass of electrically active myocytes.",
+          "Wall thickness on echo reflects everything in the wall, including extracellular material.",
+          "Thick walls with low voltage mean the thickening is from something electrically silent."
+        ],
+        "why": "Amyloid fibrils accumulate between myocytes, so the wall thickens while the amount of working, electrically active muscle stays the same or falls. The ECG therefore shows low voltage despite a thick wall on echo, a classic clue to infiltrative cardiomyopathy. The deposits also make the ventricle stiff, which causes the restrictive filling, enlarged atria, and rising neck veins on inspiration.",
+        "whyNot": [
+          "True myocyte hypertrophy from pressure overload adds electrically active muscle and raises QRS voltage.",
+          "Correct.",
+          "A pericardial effusion can lower QRS voltage, but his echocardiogram shows no effusion, and an effusion would not thicken the walls.",
+          "A large infarction thins and scars the wall. His walls are thick, and nothing in the case suggests a prior infarction."
+        ],
+        "study": {
+          "topics": [
+            "Infiltrative cardiomyopathy",
+            "Restrictive physiology"
+          ],
+          "comps": [
+            "CV-18-E1",
+            "CV-7"
+          ]
+        }
+      },
+      {
+        "id": "CV-C27-Q4",
+        "stem": "His earlier carpal tunnel syndrome resulted from amyloid deposits in the carpal tunnel compressing a nerve. Which of the following deficits would this compression most likely cause?",
+        "options": [
+          "Weak thumb adduction with a positive Froment sign",
+          "Weak finger abduction with sensory loss in the little finger",
+          "Weak wrist extension with wrist drop",
+          "Weak thumb opposition with index fingertip sensory loss"
+        ],
+        "answer": 3,
+        "sea": "A",
+        "comp": "CV-18-E1",
+        "dok": 2,
+        "approach": [
+          "Identify the nerve that passes through the carpal tunnel: the median nerve.",
+          "Recall what the median nerve supplies distal to the wrist: the thenar muscles and palmar skin of the thumb, index, middle, and half of the ring finger.",
+          "Match the deficit to that distribution."
+        ],
+        "why": "The median nerve runs through the carpal tunnel under the flexor retinaculum. Amyloid in the retinaculum and tendon sheaths narrows the tunnel and compresses it. Distal to the wrist, the median nerve supplies the thenar muscles, including opponens pollicis, and the palmar skin of the lateral three and a half digits. Bilateral carpal tunnel syndrome often appears years before the heart disease in transthyretin amyloidosis and is a useful early clue.",
+        "whyNot": [
+          "Weak thumb adduction (adductor pollicis) with a positive Froment sign is an ulnar nerve deficit.",
+          "Weak finger abduction (dorsal interossei) and a numb little finger point to the ulnar nerve, which passes through the Guyon canal, not the carpal tunnel.",
+          "Wrist drop comes from radial nerve injury, usually in the arm, and the radial nerve does not pass through the carpal tunnel.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Median nerve at the wrist",
+            "Extracardiac clues to amyloidosis"
+          ],
+          "comps": [
+            "CV-18-E1"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "CV-C28",
+    "system": "CV",
+    "dx": "Acute viral myocarditis from coxsackievirus B",
+    "codes": [
+      "CV-18-K6"
+    ],
+    "case": "A 23-year-old woman comes to the emergency department because of 2 days of sharp chest pain, fatigue, and dyspnea. Ten days earlier she had fever, sore throat, and diarrhea that resolved spontaneously. Temperature is 38.1 °C (100.6 °F), pulse is 118/min, and blood pressure is 98/64 mm Hg. Serum troponin I concentration is 3.2 ng/mL (reference below 0.04 ng/mL). ECG shows sinus tachycardia with diffuse nonspecific ST-segment and T-wave changes. Echocardiography shows global hypokinesis with an ejection fraction of 35% (reference 55% to 70%). Coronary angiography is normal. Endomyocardial biopsy shows a lymphocytic infiltrate with adjacent myocyte necrosis, and PCR of the tissue detects coxsackievirus B3. Diagnosis: acute viral myocarditis caused by coxsackievirus B.",
+    "questions": [
+      {
+        "id": "CV-C28-Q1",
+        "stem": "Coxsackievirus B is an enterovirus in the picornavirus family. After it enters a cell, its genome is translated directly by host ribosomes into one large polyprotein that viral proteases then cleave. Which of the following genome types allows this?",
+        "options": [
+          "Negative-sense single-stranded RNA",
+          "Segmented double-stranded RNA",
+          "Positive-sense single-stranded RNA",
+          "Linear double-stranded DNA"
+        ],
+        "answer": 2,
+        "sea": "M",
+        "comp": "CV-17",
+        "dok": 2,
+        "approach": [
+          "Ask what a genome must be for ribosomes to read it right away.",
+          "Only positive-sense RNA can act directly as messenger RNA.",
+          "Picornaviruses are small, nonenveloped, positive-sense single-stranded RNA viruses."
+        ],
+        "why": "Picornaviruses, including coxsackieviruses, have a positive-sense single-stranded RNA genome that works as messenger RNA as soon as it enters the cytoplasm. Host ribosomes translate it into one polyprotein, which viral proteases cleave into structural proteins and the RNA-dependent RNA polymerase. The virus is nonenveloped, spreads mainly by the fecal-oral route, and enters cardiomyocytes through the coxsackievirus and adenovirus receptor (CAR).",
+        "whyNot": [
+          "Negative-sense RNA cannot be translated directly. These viruses (for example influenza and rabies) must carry their own RNA polymerase to make a positive strand first.",
+          "Segmented double-stranded RNA is the genome of reoviruses such as rotavirus, which must transcribe messenger RNA with a packaged polymerase.",
+          "Correct.",
+          "Double-stranded DNA must be transcribed into messenger RNA before translation, usually in the nucleus, as in adenoviruses and herpesviruses."
+        ],
+        "study": {
+          "topics": [
+            "Picornavirus structure and replication",
+            "Viral genome types"
+          ],
+          "comps": [
+            "CV-17"
+          ]
+        }
+      },
+      {
+        "id": "CV-C28-Q2",
+        "stem": "Infected cardiomyocytes display viral peptides on MHC class I molecules. Which of the following cells recognizes these complexes and directly kills the myocytes, contributing to the injury seen on her biopsy?",
+        "options": [
+          "Natural killer (NK) cell",
+          "CD8+ cytotoxic T cell",
+          "CD4+ helper T cell",
+          "Antibody-secreting plasma cell"
+        ],
+        "answer": 1,
+        "sea": "M",
+        "comp": "CV-16",
+        "dok": 2,
+        "approach": [
+          "Peptide on MHC class I is read by a T-cell receptor plus the CD8 coreceptor.",
+          "CD8+ T cells kill their targets with perforin and granzymes or Fas ligand.",
+          "Match the effector cell to both the antigen presentation and the killing."
+        ],
+        "why": "Every nucleated cell, including cardiomyocytes, presents peptides from intracellular proteins on MHC class I. CD8+ cytotoxic T cells recognize viral peptide on MHC class I with their T-cell receptor and kill the infected cell through perforin and granzymes or Fas ligand. This clears the virus but also destroys myocytes, so much of the damage in viral myocarditis comes from the immune response itself.",
+        "whyNot": [
+          "NK cells kill cells that have lost MHC class I (missing self) or are coated with antibody. They do not recognize specific peptide-MHC complexes.",
+          "Correct.",
+          "CD4+ helper T cells recognize peptide on MHC class II, which is found on antigen-presenting cells, and they mainly direct other cells rather than kill directly.",
+          "Plasma cells secrete antibody against free virus and surface antigens. They do not recognize peptide-MHC complexes or kill cells themselves."
+        ],
+        "study": {
+          "topics": [
+            "MHC class I and CD8+ T cells",
+            "Immune injury in viral myocarditis"
+          ],
+          "comps": [
+            "CV-16"
+          ]
+        }
+      },
+      {
+        "id": "CV-C28-Q3",
+        "stem": "Myocarditis often causes arrhythmias. Inflammation that damages the intercalated discs can slow the spread of action potentials from one myocyte to the next. Which of the following junctions in the disc directly carries this current?",
+        "options": [
+          "Desmosomes",
+          "Fasciae adherentes",
+          "Tight junctions",
+          "Gap junctions"
+        ],
+        "answer": 3,
+        "sea": "A",
+        "comp": "CV-2",
+        "dok": 2,
+        "approach": [
+          "List the parts of the intercalated disc: fasciae adherentes, desmosomes, and gap junctions.",
+          "Separate mechanical junctions from the electrical junction.",
+          "Gap junctions (connexin 43 channels) let ions flow between neighboring cells."
+        ],
+        "why": "Gap junctions are channels built from connexins (mainly connexin 43 in ventricular muscle) that let ions pass directly between neighboring myocytes. This electrical coupling lets the myocardium act as a functional syncytium. Inflammation and scarring disturb gap junctions, which slows and fragments conduction and helps create reentrant arrhythmias.",
+        "whyNot": [
+          "Desmosomes anchor intermediate filaments (desmin) and hold cells together under strain. They do not pass current.",
+          "Fasciae adherentes anchor actin filaments of the sarcomeres to the cell membrane and transmit force, not current.",
+          "Tight junctions seal epithelial and endothelial cells. They are not part of the intercalated disc.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Intercalated disc structure",
+            "Cardiac muscle histology"
+          ],
+          "comps": [
+            "CV-2",
+            "CV-7"
+          ]
+        }
+      },
+      {
+        "id": "CV-C28-Q4",
+        "stem": "One year later, her ejection fraction is 25% and all four chambers are dilated. Which of the following processes best explains this outcome?",
+        "options": [
+          "Ongoing immune injury causing myocyte loss and replacement fibrosis",
+          "Interstitial amyloid deposits stiffening an otherwise normal ventricle",
+          "Inherited sarcomere protein defect causing myocyte disarray",
+          "Atherosclerotic narrowing of the coronaries causing repeated infarcts"
+        ],
+        "answer": 0,
+        "sea": "X",
+        "comp": "CV-18-K6",
+        "dok": 3,
+        "approach": [
+          "Recognize the new picture as dilated cardiomyopathy following myocarditis.",
+          "Most myocarditis resolves, but in some patients viral persistence or autoimmune injury continues.",
+          "Ongoing myocyte loss is replaced by fibrous tissue, and the weakened ventricle dilates."
+        ],
+        "why": "Viral myocarditis is a recognized cause of dilated cardiomyopathy. In a minority of patients, persistent viral genome or an autoimmune response against cardiac proteins such as myosin keeps injuring myocytes after the acute infection. Lost myocytes are replaced by fibrosis, the remaining muscle cannot keep up, and the ventricle remodels into a dilated, poorly contracting chamber.",
+        "whyNot": [
+          "Correct.",
+          "Amyloid causes a stiff, thick-walled restrictive cardiomyopathy with a normal-sized ventricle, not four-chamber dilation, and is not a result of myocarditis.",
+          "Sarcomere gene defects with myocyte disarray cause hypertrophic cardiomyopathy, which is inherited and would not follow an infection.",
+          "Her angiography was normal and she is young, so ischemic cardiomyopathy from coronary disease is very unlikely."
+        ],
+        "study": {
+          "topics": [
+            "Outcomes of myocarditis",
+            "Causes of dilated cardiomyopathy"
+          ],
+          "comps": [
+            "CV-18-K6",
+            "CV-18-E1"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "CV-C29",
+    "system": "CV",
+    "dx": "Dengue hemorrhagic fever (dengue with warning signs) in a second dengue infection",
+    "codes": [
+      "CV-18-K5"
+    ],
+    "case": "A 31-year-old woman comes to the emergency department on day 5 of a febrile illness because of abdominal pain, persistent vomiting, and bleeding gums. The illness began 4 days after she returned from a 2-week trip to Southeast Asia, with sudden fever to 39.8 °C (103.6 °F), severe headache, retro-orbital pain, and intense myalgias and arthralgias. Her fever resolved today. She had confirmed dengue while living in the Caribbean 4 years ago. Laboratory studies show a platelet count of 32,000/µL (reference 150,000 to 400,000/µL), leukocyte count of 2,900/µL (reference 4,500 to 11,000/µL), and hematocrit of 47% (reference 36% to 46%), up from 38% on day 2. Ultrasonography shows ascites and a right pleural effusion. Dengue NS1 antigen is positive. Diagnosis: dengue hemorrhagic fever (dengue with warning signs) during a second dengue infection.",
+    "questions": [
+      {
+        "id": "CV-C29-Q1",
+        "stem": "Her travel companion asks how to avoid this infection on a future trip. Which of the following characteristics of the vector should guide prevention?",
+        "options": [
+          "Anopheles mosquitoes biting mainly from dusk to dawn",
+          "Aedes mosquitoes biting mainly during the daytime",
+          "Ixodes ticks needing to stay attached for more than a day",
+          "Triatomine bugs biting the face during sleep at night"
+        ],
+        "answer": 1,
+        "sea": "M",
+        "comp": "CV-17",
+        "dok": 2,
+        "approach": [
+          "Name the vector of dengue virus: Aedes mosquitoes, mainly Aedes aegypti.",
+          "Recall its behavior: it bites during the day and breeds in small containers of standing water near homes.",
+          "Prevention therefore means daytime repellent and covering skin, not only bed nets at night."
+        ],
+        "why": "Dengue virus is a flavivirus spread by Aedes mosquitoes, mainly Aedes aegypti and also Aedes albopictus. Aedes aegypti bites mostly during the day, with peaks in the early morning and late afternoon, and breeds in water-holding containers around homes. Daytime repellent, long sleeves, and removing standing water matter more than bed nets alone.",
+        "whyNot": [
+          "Night-biting Anopheles mosquitoes transmit malaria, where bed nets are a mainstay of prevention.",
+          "Correct.",
+          "Ixodes ticks transmit Lyme disease, and transmission usually requires attachment for more than a day.",
+          "Triatomine (kissing) bugs transmit Trypanosoma cruzi, the cause of Chagas disease, through feces rubbed into the bite or mucosa."
+        ],
+        "study": {
+          "topics": [
+            "Arthropod vectors of cardiovascular infections",
+            "Dengue virus transmission"
+          ],
+          "comps": [
+            "CV-17",
+            "CV-18-K5"
+          ]
+        }
+      },
+      {
+        "id": "CV-C29-Q2",
+        "stem": "Her first dengue infection was with a different serotype. Which of the following mechanisms best explains why this second infection is more severe?",
+        "options": [
+          "Non-neutralizing IgG boosts viral entry into Fc receptor-bearing monocytes",
+          "Cross-reactive IgE from the first infection triggers mast cell degranulation",
+          "Antigenic drift produces a new viral hemagglutinin that her antibodies miss",
+          "Virus-induced loss of CD4+ T cells leaves the new infection unchecked"
+        ],
+        "answer": 0,
+        "sea": "M",
+        "comp": "CV-16",
+        "dok": 3,
+        "approach": [
+          "Note the key history: a prior infection with a different dengue serotype.",
+          "Antibodies from the first serotype bind the new serotype but do not neutralize it.",
+          "The antibody-coated virus is taken up through Fc gamma receptors on monocytes and macrophages, where it replicates (antibody-dependent enhancement)."
+        ],
+        "why": "There are four dengue serotypes. Infection gives lasting immunity to that serotype only. In a later infection with a different serotype, cross-reactive IgG binds the virus without neutralizing it, and the Fc portion directs it into Fc gamma receptor-bearing monocytes and macrophages. This antibody-dependent enhancement raises viral load and, with cross-reactive T cells and cytokine release, drives the capillary leak of dengue hemorrhagic fever.",
+        "whyNot": [
+          "Correct.",
+          "IgE-mediated mast cell degranulation is type I hypersensitivity (allergy and anaphylaxis). It is not the basis of severe dengue.",
+          "Antigenic drift of hemagglutinin describes influenza. Her two dengue infections were caused by different, established serotypes, not a drifted strain.",
+          "Progressive loss of CD4+ T cells is the hallmark of HIV infection, not dengue."
+        ],
+        "study": {
+          "topics": [
+            "Antibody-dependent enhancement",
+            "Dengue serotypes and immunity"
+          ],
+          "comps": [
+            "CV-16",
+            "CV-18-K5"
+          ]
+        }
+      },
+      {
+        "id": "CV-C29-Q3",
+        "stem": "Between day 2 and day 5, her hematocrit rose while ascites and a pleural effusion appeared. She has no history of heart, liver, or kidney disease, and her neck veins are flat. Which of the following changes in capillary fluid exchange best explains these findings?",
+        "options": [
+          "Increased capillary hydrostatic pressure from venous congestion",
+          "Obstructed lymphatic drainage of the pleura and peritoneum",
+          "Increased capillary permeability to plasma and protein",
+          "Decreased plasma oncotic pressure from impaired albumin synthesis"
+        ],
+        "answer": 2,
+        "sea": "P",
+        "comp": "CV-11",
+        "dok": 3,
+        "approach": [
+          "A rising hematocrit with new effusions means plasma is leaving the vessels while red cells stay behind.",
+          "Check each Starling force against the case: flat neck veins argue against high venous pressure, and she has no liver or kidney disease.",
+          "Dengue injures the endothelium, so permeability rises and the reflection coefficient for protein falls."
+        ],
+        "why": "Fluid movement across capillaries depends on hydrostatic and oncotic pressures and on how permeable the wall is to water and protein. In dengue, viral and immune effects on the endothelium make capillaries leak plasma and protein into serous cavities. Plasma volume falls, red cells are concentrated, and the hematocrit rises. This leak usually peaks around the time the fever breaks and can lead to shock.",
+        "whyNot": [
+          "Venous congestion raises capillary hydrostatic pressure in heart failure, but her neck veins are flat and she has no heart disease.",
+          "Lymphatic obstruction causes protein-rich edema over weeks, usually from tumor, surgery, or filariasis. Nothing in the case suggests it.",
+          "Correct.",
+          "Failing albumin synthesis occurs with chronic liver disease and develops over weeks because albumin has a half-life of about 3 weeks, which does not fit a 3-day change."
+        ],
+        "study": {
+          "topics": [
+            "Starling forces",
+            "Capillary leak in dengue"
+          ],
+          "comps": [
+            "CV-11",
+            "CV-18-H4"
+          ]
+        }
+      },
+      {
+        "id": "CV-C29-Q4",
+        "stem": "Which of the following complications is she at greatest risk of developing over the next 24 to 48 hours?",
+        "options": [
+          "Ischemic stroke from a cardioembolic clot",
+          "Rupture of an enlarged spleen",
+          "Acute kidney failure from immune complex glomerulonephritis",
+          "Hypovolemic shock from continued plasma leakage"
+        ],
+        "answer": 3,
+        "sea": "X",
+        "comp": "CV-18-K5",
+        "dok": 2,
+        "approach": [
+          "Place her in the course of dengue: the fever has just broken and warning signs have appeared, which marks the critical phase.",
+          "The critical phase usually lasts about 24 to 48 hours and is driven by capillary leak.",
+          "Ongoing leak shrinks plasma volume and can progress to shock."
+        ],
+        "why": "Dengue has a febrile phase, a critical phase, and a recovery phase. The critical phase begins around defervescence, usually about days 3 to 7 of illness, and lasts about 24 to 48 hours. Plasma leakage during this window can reduce circulating volume enough to cause hypovolemic shock (dengue shock syndrome), which is the main cause of death. Her rising hematocrit, effusions, and warning signs put her at high risk.",
+        "whyNot": [
+          "Cardioembolic stroke requires a cardiac source of clot, such as atrial fibrillation, which she does not have.",
+          "Splenic rupture is a rare event and is classically linked to infectious mononucleosis.",
+          "Immune complex glomerulonephritis is not a typical early complication of dengue. Kidney injury in dengue usually follows shock.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Phases of dengue",
+            "Dengue shock syndrome"
+          ],
+          "comps": [
+            "CV-18-K5",
+            "CV-18-H5"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "CV-C30",
+    "system": "CV",
+    "dx": "Wet beriberi: thiamine deficiency with high-output heart failure",
+    "codes": [
+      "CV-18-E1"
+    ],
+    "case": "A 36-year-old man comes to the physician 4 months after Roux-en-Y gastric bypass surgery because of dyspnea, leg swelling, and burning paresthesias in both feet. He has vomited after most meals for 6 weeks. His pulse is 116/min and blood pressure is 112/46 mm Hg. Physical examination shows warm extremities, bounding pulses, jugular venous distention, and pitting edema to the knees. Echocardiography shows dilated ventricles, an ejection fraction of 65%, and a cardiac output of 10 L/min (reference 4 to 8 L/min). Serum lactate concentration is 4.6 mmol/L (reference 0.5 to 2.2 mmol/L). Whole-blood thiamine concentration is low. Diagnosis: wet beriberi, thiamine (vitamin B1) deficiency causing high-output heart failure.",
+    "questions": [
+      {
+        "id": "CV-C30-Q1",
+        "stem": "Thiamine pyrophosphate is the active form of thiamine and a cofactor for several enzymes. Decreased activity of which of the following enzymes best explains his increased serum lactate concentration?",
+        "options": [
+          "Pyruvate carboxylase",
+          "Lactate dehydrogenase",
+          "Glyceraldehyde-3-phosphate dehydrogenase",
+          "Pyruvate dehydrogenase"
+        ],
+        "answer": 3,
+        "sea": "B",
+        "comp": "CV-13",
+        "dok": 3,
+        "approach": [
+          "Identify which listed enzyme needs thiamine pyrophosphate.",
+          "Pyruvate dehydrogenase links glycolysis to the citric acid cycle by converting pyruvate to acetyl-CoA.",
+          "When it slows, pyruvate builds up and is converted to lactate by lactate dehydrogenase."
+        ],
+        "why": "The pyruvate dehydrogenase complex needs thiamine pyrophosphate, lipoic acid, CoA, FAD, and NAD+. Without enough thiamine, pyruvate cannot enter the citric acid cycle as acetyl-CoA. Pyruvate accumulates and is reduced to lactate, causing lactic acidosis, and aerobic ATP production falls in high-demand tissues such as heart, nerve, and brain.",
+        "whyNot": [
+          "Pyruvate carboxylase uses biotin, not thiamine. Its deficiency also raises lactate, but his deficiency is thiamine.",
+          "Lactate dehydrogenase makes lactate from pyruvate. Reduced activity would lower lactate, and it does not need thiamine.",
+          "Glyceraldehyde-3-phosphate dehydrogenase is a glycolytic enzyme that uses NAD+, not thiamine. Reduced activity would slow glycolysis and lower pyruvate and lactate production.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Pyruvate dehydrogenase complex cofactors",
+            "Causes of lactic acidosis"
+          ],
+          "comps": [
+            "CV-13"
+          ]
+        }
+      },
+      {
+        "id": "CV-C30-Q2",
+        "stem": "To confirm a functional deficiency, a laboratory measures an enzyme's activity in his erythrocytes before and after adding thiamine pyrophosphate. A large increase with the added cofactor confirms deficiency. Which of the following enzymes and pathways does this test measure?",
+        "options": [
+          "Glucose-6-phosphate dehydrogenase, pentose phosphate pathway",
+          "Alpha-ketoglutarate dehydrogenase, citric acid cycle",
+          "Transketolase, pentose phosphate pathway",
+          "Glutathione reductase, glutathione recycling"
+        ],
+        "answer": 2,
+        "sea": "B",
+        "comp": "CV-13",
+        "dok": 3,
+        "approach": [
+          "List the thiamine-dependent enzymes: pyruvate dehydrogenase, alpha-ketoglutarate dehydrogenase, branched-chain alpha-keto acid dehydrogenase, and transketolase.",
+          "Red blood cells have no mitochondria, so the three mitochondrial dehydrogenases are absent.",
+          "That leaves transketolase in the nonoxidative pentose phosphate pathway."
+        ],
+        "why": "Transketolase is a thiamine pyrophosphate-dependent enzyme in the nonoxidative branch of the pentose phosphate pathway, which red blood cells use. The erythrocyte transketolase activity test measures activity with and without added thiamine pyrophosphate. A large increase with added cofactor shows that the enzyme was short of thiamine, which confirms functional deficiency.",
+        "whyNot": [
+          "Glucose-6-phosphate dehydrogenase is in the pentose phosphate pathway but uses NADP+, not thiamine pyrophosphate.",
+          "Alpha-ketoglutarate dehydrogenase does need thiamine pyrophosphate, but it is mitochondrial and red blood cells have no mitochondria.",
+          "Correct.",
+          "Glutathione reductase uses FAD, so a similar activation test with added FAD assesses riboflavin (vitamin B2) status, not thiamine."
+        ],
+        "study": {
+          "topics": [
+            "Thiamine-dependent enzymes",
+            "Pentose phosphate pathway"
+          ],
+          "comps": [
+            "CV-13"
+          ]
+        }
+      },
+      {
+        "id": "CV-C30-Q3",
+        "stem": "His deficiency also reduces mitochondrial ATP production in his cardiomyocytes. In the cross-bridge cycle, which of the following steps is directly caused by ATP binding to the myosin head?",
+        "options": [
+          "Release of the myosin head from actin",
+          "Power stroke that slides actin toward the sarcomere center",
+          "Shift of tropomyosin off the myosin-binding sites on actin",
+          "Release of calcium from the sarcoplasmic reticulum"
+        ],
+        "answer": 0,
+        "sea": "P",
+        "comp": "CV-5",
+        "dok": 2,
+        "approach": [
+          "Walk through the cross-bridge cycle step by step.",
+          "ATP binding detaches myosin from actin, ATP hydrolysis cocks the head, and phosphate release triggers the power stroke.",
+          "Calcium release and the tropomyosin shift come from excitation and calcium binding to troponin, not from ATP binding to myosin."
+        ],
+        "why": "In the cross-bridge cycle, myosin stays tightly bound to actin until ATP binds the myosin head, which lowers its affinity for actin and releases it. Hydrolysis of ATP to ADP and phosphate then re-cocks the head, and release of phosphate after rebinding triggers the power stroke. Without ATP, myosin stays locked to actin (rigor). ATP is also needed for SERCA to pump calcium back into the sarcoplasmic reticulum so the muscle can relax, so an energy-starved heart struggles with both contraction and relaxation.",
+        "whyNot": [
+          "Correct.",
+          "The power stroke is triggered by release of inorganic phosphate after the cocked head binds actin, not by ATP binding.",
+          "Tropomyosin moves off the myosin-binding sites when calcium binds troponin C.",
+          "Calcium release from the sarcoplasmic reticulum is triggered by calcium entry through L-type channels opening ryanodine receptors."
+        ],
+        "study": {
+          "topics": [
+            "Cross-bridge cycle",
+            "Myocardial energy use"
+          ],
+          "comps": [
+            "CV-5"
+          ]
+        }
+      },
+      {
+        "id": "CV-C30-Q4",
+        "stem": "His cardiac output is high, yet he has heart failure with edema. Which of the following mechanisms best explains the high-output state?",
+        "options": [
+          "Sympathetic vasoconstriction raising afterload and filling pressure",
+          "Peripheral vasodilation lowering systemic vascular resistance",
+          "A left-to-right shunt through an acquired septal defect",
+          "Increased blood viscosity from a rising hematocrit"
+        ],
+        "answer": 1,
+        "sea": "X",
+        "comp": "CV-18-E1",
+        "dok": 3,
+        "approach": [
+          "Read the clues: warm extremities, bounding pulses, a low diastolic pressure, and a wide pulse pressure.",
+          "These point to low systemic vascular resistance.",
+          "Low resistance raises venous return and cardiac output, while the energy-poor heart and kidney sodium retention lead to congestion."
+        ],
+        "why": "In wet beriberi, impaired oxidative metabolism in tissues is thought to cause local metabolic vasodilation, so peripheral arterioles dilate. Systemic vascular resistance falls, venous return and cardiac output rise, and the pulse pressure widens. The kidneys sense low effective arterial filling and retain sodium and water through the renin-angiotensin-aldosterone system. The heart, short of energy, cannot keep pace, so filling pressures rise and edema forms. Thiamine replacement usually reverses the high-output state quickly.",
+        "whyNot": [
+          "Sympathetic vasoconstriction raises resistance and lowers output. It describes low-output heart failure with cool, pale extremities.",
+          "Correct.",
+          "A left-to-right shunt raises pulmonary flow, not systemic output, and nothing in the case suggests a septal defect.",
+          "Higher blood viscosity raises resistance and would tend to lower cardiac output, and his hematocrit is not reported as high."
+        ],
+        "study": {
+          "topics": [
+            "High-output heart failure",
+            "Wet versus dry beriberi"
+          ],
+          "comps": [
+            "CV-18-E1",
+            "CV-13",
+            "CV-11"
+          ]
+        }
+      }
+    ]
+  }
+]

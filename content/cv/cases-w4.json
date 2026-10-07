@@ -1,0 +1,938 @@
+[
+ {
+  "id": "CV-C19",
+  "system": "CV",
+  "dx": "Subacute infective endocarditis (viridans group streptococci) on a rheumatic mitral valve",
+  "codes": [
+   "CV-18-D3",
+   "CV-18-K1"
+  ],
+  "case": "A 58-year-old woman with mitral regurgitation from childhood rheumatic fever comes to the physician because of low-grade fevers, night sweats, fatigue, and a 4-kg weight loss over 5 weeks. Two molars were extracted 7 weeks ago. Temperature is 38.1 °C (100.6 °F). Physical examination shows splinter hemorrhages, tender nodules on the pads of two fingers, and a palpable spleen tip. A holosystolic murmur that radiates to the left axilla is louder than it was last year. Hemoglobin is 10.6 g/dL (12.0 to 16.0), and MCV is 84 fL (80 to 100). Three blood cultures grow alpha-hemolytic, gram-positive cocci in chains that are optochin resistant and bile insoluble. Echocardiography shows a 9-mm vegetation on the atrial surface of the anterior mitral leaflet. Diagnosis: subacute infective endocarditis caused by viridans group streptococci.",
+  "questions": [
+   {
+    "id": "CV-C19-Q1",
+    "stem": "The organism adheres to fibrin-platelet deposits on the scarred leaflet by means of an extracellular polysaccharide. Which of the following dietary sugars is the substrate for synthesis of this polysaccharide?",
+    "options": [
+     "Lactose",
+     "Maltose",
+     "Sucrose",
+     "Galactose"
+    ],
+    "answer": 2,
+    "sea": "M",
+    "comp": "CV-17",
+    "dok": 2,
+    "approach": [
+     "Identify the organism: alpha-hemolytic, optochin-resistant, bile-insoluble streptococci are viridans streptococci.",
+     "Recall their adhesin: dextran (a glucose polymer) that binds fibrin-platelet deposits on damaged valves.",
+     "Name the substrate: glucosyltransferase builds dextran from sucrose."
+    ],
+    "why": "Viridans streptococci such as S. mutans and S. sanguinis carry glucosyltransferase (dextransucrase). This enzyme splits sucrose, links the glucose units into dextran, and releases fructose. Dextran helps the bacteria stick to tooth surfaces and to the sterile fibrin-platelet deposits that form on valves scarred by rheumatic disease. Bacteremia after dental work lets them seed those deposits.",
+    "whyNot": [
+     "Lactose is a glucose-galactose disaccharide from milk. Many bacteria ferment it, but it is not the substrate for dextran synthesis.",
+     "Maltose is a glucose-glucose disaccharide from starch breakdown. Glucosyltransferase does not use it to build dextran.",
+     "Correct.",
+     "Galactose is a monosaccharide from lactose. It is not used to build dextran, which is a glucose polymer."
+    ],
+    "study": {
+     "topics": [
+      "Viridans streptococci virulence",
+      "Dextran and glucosyltransferase"
+     ],
+     "comps": [
+      "CV-17",
+      "CV-18-D3"
+     ]
+    }
+   },
+   {
+    "id": "CV-C19-Q2",
+    "stem": "The mitral valve lies posterior to the left half of the sternum at the level of the fourth costal cartilage. At which of the following sites is her murmur most likely to be heard best?",
+    "options": [
+     "Fifth left intercostal space at the midclavicular line",
+     "Second right intercostal space at the sternal border",
+     "Second left intercostal space at the sternal border",
+     "Fourth left intercostal space at the lower sternal border"
+    ],
+    "answer": 0,
+    "sea": "A",
+    "comp": "CV-4",
+    "dok": 2,
+    "approach": [
+     "Link the murmur to the valve: a holosystolic murmur radiating to the axilla in this case is mitral regurgitation.",
+     "Separate the valve's position from its listening area: sound travels with blood flow toward the left ventricle.",
+     "Pick the mitral area: the cardiac apex, fifth left intercostal space at the midclavicular line."
+    ],
+    "why": "Each valve is heard best downstream of it, in the direction its blood flows. Mitral sounds travel toward the left ventricular apex, so the mitral area is the fifth left intercostal space at the midclavicular line. Mitral regurgitation is holosystolic, loudest at the apex, and radiates to the left axilla. A vegetation that erodes a leaflet or chordae makes the regurgitation and murmur worse.",
+    "whyNot": [
+     "Correct.",
+     "This is the aortic area. Aortic stenosis would be heard best here, with radiation to the carotids.",
+     "This is the pulmonic area. Pulmonic stenosis or a split S2 is heard best here.",
+     "This is the tricuspid area. Tricuspid regurgitation, common in endocarditis in people who inject drugs, is heard best here."
+    ],
+    "study": {
+     "topics": [
+      "Auscultation areas of the heart valves",
+      "Mitral regurgitation murmur"
+     ],
+     "comps": [
+      "CV-4",
+      "CV-18-D2"
+     ]
+    }
+   },
+   {
+    "id": "CV-C19-Q3",
+    "stem": "Urinalysis shows red blood cells, red blood cell casts, and 1+ protein. Serum C3 concentration is 58 mg/dL (90 to 180). Which of the following mechanisms best explains her renal findings?",
+    "options": [
+     "Antibodies binding type IV collagen in the glomerular basement membrane",
+     "Septic emboli causing wedge-shaped infarcts in the renal cortex",
+     "Bacteria invading the renal tubules and interstitium from the blood",
+     "Immune complexes deposited in glomeruli, activating complement"
+    ],
+    "answer": 3,
+    "sea": "M",
+    "comp": "CV-16",
+    "dok": 3,
+    "approach": [
+     "Read red cell casts as glomerular bleeding, which means glomerulonephritis.",
+     "Read the low C3 as complement being consumed.",
+     "Match a long-standing infection with low complement and glomerulonephritis to immune complex deposition (type III hypersensitivity)."
+    ],
+    "why": "Weeks of bacteremia produce antibodies that bind circulating bacterial antigens. These immune complexes lodge in the glomeruli and activate complement, which lowers serum C3 and recruits inflammatory cells. The result is a glomerulonephritis with red cell casts, a type III hypersensitivity reaction.",
+    "whyNot": [
+     "Anti-GBM disease is type II hypersensitivity. It often affects the lungs as well, and serum complement is usually normal.",
+     "Renal infarcts from emboli cause flank pain and hematuria, but they do not produce red cell casts or low C3.",
+     "Bacterial invasion of the tubules and interstitium is pyelonephritis, which produces white cell casts.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Type III hypersensitivity",
+      "Glomerulonephritis in endocarditis"
+     ],
+     "comps": [
+      "CV-16",
+      "CV-18-D3"
+     ]
+    }
+   },
+   {
+    "id": "CV-C19-Q4",
+    "stem": "Additional laboratory studies show serum iron 35 µg/dL (60 to 170), total iron-binding capacity 210 µg/dL (250 to 450), and ferritin 380 ng/mL (12 to 150). Which of the following mechanisms best explains her anemia?",
+    "options": [
+     "Chronic blood loss that has depleted total body iron stores",
+     "Hepcidin release driven by IL-6 that causes ferroportin breakdown",
+     "Antibody-mediated destruction of circulating red blood cells",
+     "Vitamin B12 deficiency slowing DNA synthesis in red cell precursors"
+    ],
+    "answer": 1,
+    "sea": "B",
+    "comp": "CV-13",
+    "dok": 3,
+    "approach": [
+     "Read the pattern: low iron, low TIBC, and high ferritin with a normal MCV.",
+     "Recognize anemia of chronic disease (anemia of inflammation) from a long infection.",
+     "Name the mechanism: IL-6 raises hepcidin, which makes cells internalize and degrade ferroportin, trapping iron in macrophages and enterocytes."
+    ],
+    "why": "Ongoing infection raises IL-6, which makes the liver release hepcidin. Hepcidin binds ferroportin, the iron exporter on enterocytes and macrophages, and causes it to be taken in and degraded. Iron stays locked in storage, so ferritin is high while serum iron falls. The liver also makes less transferrin, so TIBC is low. Red cell production is limited by the iron supply.",
+    "whyNot": [
+     "Iron deficiency from blood loss gives low ferritin and high TIBC, the opposite of this pattern.",
+     "Correct.",
+     "Immune hemolysis would raise reticulocytes, LDH, and indirect bilirubin. It does not trap iron in stores.",
+     "B12 deficiency gives a macrocytic anemia with a high MCV. Her MCV is normal."
+    ],
+    "study": {
+     "topics": [
+      "Anemia of chronic disease",
+      "Hepcidin and ferroportin"
+     ],
+     "comps": [
+      "CV-13",
+      "CV-16"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "CV-C20",
+  "system": "CV",
+  "dx": "Acute bacterial endocarditis of the aortic valve (Staphylococcus aureus)",
+  "codes": [
+   "CV-18-K1",
+   "CV-18-D3"
+  ],
+  "case": "A 63-year-old man with type 2 diabetes mellitus and an infected foot ulcer is brought to the emergency department because of 4 days of fever, rigors, and shortness of breath. An echocardiogram 1 year ago showed normal valves. Temperature is 39.7 °C (103.5 °F), pulse is 118/min, and blood pressure is 104/52 mm Hg. Physical examination shows painless erythematous macules on both soles and a new early diastolic decrescendo murmur at the left sternal border. Serum lactate is 4.6 mmol/L (0.5 to 2.2). Blood cultures grow gram-positive cocci in clusters that are catalase positive and coagulase positive. Echocardiography shows a 14-mm vegetation on the aortic valve with a perforated leaflet and moderate to severe regurgitation. Diagnosis: acute bacterial endocarditis caused by Staphylococcus aureus.",
+  "questions": [
+   {
+    "id": "CV-C20-Q1",
+    "stem": "His new murmur begins immediately after S2 and decreases in intensity through diastole. Which of the following pressure relationships best explains the timing and shape of this murmur?",
+    "options": [
+     "Aorta-to-ventricle gradient is highest just after S2, then falls",
+     "Atrium-to-ventricle gradient is highest at the end of diastole",
+     "Ventricle-to-aorta gradient is highest in mid systole",
+     "Ventricle-to-atrium gradient stays high throughout all of systole"
+    ],
+    "answer": 0,
+    "sea": "P",
+    "comp": "CV-4",
+    "dok": 3,
+    "approach": [
+     "Connect the early diastolic decrescendo murmur and the perforated aortic leaflet to aortic regurgitation.",
+     "Ask when the leak is driven hardest: right after the aortic valve closes, when aortic pressure is far above left ventricular pressure.",
+     "Follow the gradient through diastole: aortic pressure falls and ventricular pressure rises as the ventricle fills, so flow and loudness fade."
+    ],
+    "why": "A murmur is loudest when the pressure gradient driving the abnormal flow is largest. In aortic regurgitation, backflow begins as soon as the aortic valve closes (S2), when aortic pressure is far above left ventricular pressure. Through diastole the aorta drains backward and the ventricle fills, so the gradient narrows and the murmur fades. This produces a high-pitched, blowing, early diastolic decrescendo murmur.",
+    "whyNot": [
+     "Correct.",
+     "A gradient that peaks at the end of diastole fits mitral stenosis, where atrial contraction causes presystolic accentuation.",
+     "A gradient that peaks in mid systole fits aortic stenosis, a crescendo-decrescendo systolic ejection murmur.",
+     "A gradient that stays high through all of systole fits mitral regurgitation, a holosystolic murmur."
+    ],
+    "study": {
+     "topics": [
+      "Aortic regurgitation murmur",
+      "Pressure gradients in the cardiac cycle"
+     ],
+     "comps": [
+      "CV-4",
+      "CV-18-D1"
+     ]
+    }
+   },
+   {
+    "id": "CV-C20-Q2",
+    "stem": "Susceptibility testing shows that the isolate grows in the presence of oxacillin and cefoxitin. Which of the following mechanisms best explains this resistance?",
+    "options": [
+     "Hydrolysis of the beta-lactam ring by a plasmid-encoded penicillinase",
+     "D-Ala-D-Lac replacing D-Ala-D-Ala in cell wall precursors",
+     "Methylation of the binding site on 23S ribosomal RNA",
+     "A mecA-encoded penicillin-binding protein with low drug affinity"
+    ],
+    "answer": 3,
+    "sea": "M",
+    "comp": "CV-17",
+    "dok": 2,
+    "approach": [
+     "Recognize oxacillin and cefoxitin resistance in S. aureus as methicillin resistance (MRSA).",
+     "Recall that oxacillin resists staphylococcal penicillinase, so penicillinase cannot explain it.",
+     "Name the mechanism: mecA codes for PBP2a, which keeps building cell wall when beta-lactams are present."
+    ],
+    "why": "Methicillin-resistant S. aureus carries the mecA gene on the SCCmec element. mecA encodes PBP2a, a transpeptidase that binds beta-lactams poorly, so cell wall cross-linking continues. Laboratories use cefoxitin or oxacillin to detect it. The plain penicillinase most S. aureus strains make cannot break down oxacillin.",
+    "whyNot": [
+     "Most S. aureus make penicillinase, which explains resistance to penicillin G. Oxacillin and nafcillin are built to resist it.",
+     "This is the vancomycin resistance mechanism of enterococci (vanA). It does not affect beta-lactams.",
+     "This (erm) methylation causes resistance to macrolides and clindamycin.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "MRSA and mecA",
+      "Beta-lactam resistance mechanisms"
+     ],
+     "comps": [
+      "CV-17",
+      "CV-18-K1"
+     ]
+    }
+   },
+   {
+    "id": "CV-C20-Q3",
+    "stem": "His elevated serum lactate reflects poor tissue perfusion. Which of the following best describes the reaction that produces lactate in hypoxic cells and its purpose?",
+    "options": [
+     "Pyruvate carboxylase converting pyruvate to oxaloacetate for gluconeogenesis",
+     "Lactate dehydrogenase reducing pyruvate to regenerate NAD+ for glycolysis",
+     "Pyruvate dehydrogenase converting pyruvate to acetyl-CoA for the citric acid cycle",
+     "Alanine aminotransferase converting pyruvate to alanine for transport to liver"
+    ],
+    "answer": 1,
+    "sea": "B",
+    "comp": "CV-13",
+    "dok": 3,
+    "approach": [
+     "Without enough oxygen, the electron transport chain slows and NADH builds up.",
+     "Glycolysis needs NAD+ at the glyceraldehyde-3-phosphate dehydrogenase step.",
+     "Lactate dehydrogenase reduces pyruvate to lactate and oxidizes NADH back to NAD+, so glycolysis can keep making ATP."
+    ],
+    "why": "When oxygen delivery falls, mitochondria cannot reoxidize NADH. Glycolysis would stop at glyceraldehyde-3-phosphate dehydrogenase without NAD+. Lactate dehydrogenase solves this by reducing pyruvate to lactate while turning NADH into NAD+. The cell keeps a small ATP supply, and lactate spills into the blood. A rising lactate is a marker of tissue hypoperfusion in sepsis.",
+    "whyNot": [
+     "Pyruvate carboxylase is a mitochondrial gluconeogenic enzyme. It does not make lactate.",
+     "Correct.",
+     "Pyruvate dehydrogenase sends pyruvate into aerobic metabolism. Its flux falls when oxygen is short, which is why pyruvate is diverted to lactate.",
+     "Alanine aminotransferase makes alanine, used in the glucose-alanine cycle. It does not make lactate."
+    ],
+    "study": {
+     "topics": [
+      "Anaerobic glycolysis",
+      "Lactic acidosis in shock"
+     ],
+     "comps": [
+      "CV-13",
+      "CV-18-H5"
+     ]
+    }
+   },
+   {
+    "id": "CV-C20-Q4",
+    "stem": "On hospital day 3, he has no chest pain, and ECG shows no ST-segment changes. The PR interval has lengthened to 0.30 s (0.12 to 0.20), and intermittent second-degree AV block develops later. Which of the following complications most likely explains these findings?",
+    "options": [
+     "Septic embolus occluding the left anterior descending artery",
+     "Rupture of mitral chordae tendineae causing acute regurgitation",
+     "Aortic annular abscess invading nearby conduction tissue",
+     "Immune complex deposition damaging the sinoatrial node"
+    ],
+    "answer": 2,
+    "sea": "X",
+    "comp": "CV-18-K1",
+    "dok": 3,
+    "approach": [
+     "Notice new and progressing AV conduction delay in a patient with aortic valve endocarditis.",
+     "Recall the anatomy: the aortic annulus sits beside the membranous septum, where the AV bundle (bundle of His) passes.",
+     "Conclude that infection has spread beyond the leaflet into a perivalvular (ring) abscess, a typical S. aureus complication."
+    ],
+    "why": "S. aureus is destructive and often spreads from the leaflets into the valve ring. The aortic annulus lies next to the membranous interventricular septum and the AV node and bundle of His. An abscess there causes new PR prolongation or higher-grade AV block. In aortic valve endocarditis, a new conduction block suggests a perivalvular abscess until proven otherwise.",
+    "whyNot": [
+     "An embolus to a coronary artery would cause an infarct, usually with chest pain or ST-segment changes. Neither is present.",
+     "Chordal rupture causes acute mitral regurgitation and pulmonary edema. It does not damage conduction tissue.",
+     "Correct.",
+     "Immune complex disease in endocarditis affects the kidneys and skin. SA node damage would cause sinus pauses or sinus bradycardia. The PR interval reflects AV conduction."
+    ],
+    "study": {
+     "topics": [
+      "Perivalvular abscess",
+      "AV node and bundle of His location"
+     ],
+     "comps": [
+      "CV-18-K1",
+      "CV-7"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "CV-C21",
+  "system": "CV",
+  "dx": "Tricuspid valve endocarditis in a person who injects drugs (Staphylococcus aureus)",
+  "codes": [
+   "CV-18-K1",
+   "CV-18-D3"
+  ],
+  "case": "A 31-year-old woman who injects heroin comes to the emergency department because of 9 days of fever, chills, pleuritic chest pain, and cough with blood-streaked sputum. Temperature is 39.2 °C (102.6 °F). Physical examination shows injection marks over both antecubital fossae. A holosystolic murmur is heard at the left lower sternal border, and the jugular venous pulse shows large v waves. Blood cultures grow catalase-positive, coagulase-positive, gram-positive cocci in clusters that are oxacillin susceptible. Echocardiography shows a 15-mm vegetation on the tricuspid valve with severe regurgitation. CT scan of the chest shows multiple peripheral nodules in both lungs, several with central cavitation. Diagnosis: tricuspid valve endocarditis caused by methicillin-susceptible Staphylococcus aureus.",
+  "questions": [
+   {
+    "id": "CV-C21-Q1",
+    "stem": "Which of the following processes best explains the multiple peripheral, cavitating lung nodules on her CT scan?",
+    "options": [
+     "Reactivated tuberculosis spreading through the bronchial tree",
+     "Vegetation fragments crossing a patent foramen ovale to systemic arteries",
+     "Aspirated oral anaerobes forming a single dependent abscess",
+     "Vegetation fragments carried by the pulmonary arteries to the lungs"
+    ],
+    "answer": 3,
+    "sea": "X",
+    "comp": "CV-18-K1",
+    "dok": 3,
+    "approach": [
+     "Locate the source: a right-sided (tricuspid) vegetation.",
+     "Trace where its fragments go: right ventricle, pulmonary trunk, pulmonary arteries.",
+     "Match the result: many peripheral nodules that cavitate as the infected emboli form small abscesses (septic pulmonary emboli)."
+    ],
+    "why": "Fragments that break off a tricuspid vegetation travel with venous blood through the right ventricle into the pulmonary arteries. They lodge in small peripheral branches of both lungs, cause infarcts, and form abscesses that cavitate. This explains her pleuritic pain and blood-streaked sputum. Left-sided vegetations embolize instead to the brain, kidneys, spleen, and limbs.",
+    "whyNot": [
+     "Reactivation tuberculosis usually causes upper lobe cavitation with weeks to months of symptoms. It does not explain a tricuspid vegetation with many bilateral peripheral nodules.",
+     "Crossing a patent foramen ovale sends emboli into the systemic circulation (paradoxical embolism), so they would bypass the lungs.",
+     "Aspiration causes a lung abscess in a dependent segment, usually a single lesion. Her lesions are multiple and peripheral.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Septic pulmonary emboli",
+      "Right-sided versus left-sided embolization"
+     ],
+     "comps": [
+      "CV-18-K1",
+      "CV-18-H1"
+     ]
+    }
+   },
+   {
+    "id": "CV-C21-Q2",
+    "stem": "Her murmur at the left lower sternal border increases in intensity during inspiration. Which of the following mechanisms best explains this change?",
+    "options": [
+     "Increased intrathoracic pressure that augments left ventricular filling",
+     "Decreased intrathoracic pressure that augments right heart preload",
+     "Lung expansion that displaces the left ventricle toward the chest wall",
+     "Increased right ventricular contractility during inspiration"
+    ],
+    "answer": 1,
+    "sea": "P",
+    "comp": "CV-15",
+    "dok": 2,
+    "approach": [
+     "Identify the murmur: holosystolic at the left lower sternal border with large v waves means tricuspid regurgitation.",
+     "Recall that inspiration lowers intrathoracic pressure.",
+     "Apply it: lower intrathoracic pressure draws more venous blood into the right heart, so the right ventricle ejects and regurgitates more, and the murmur gets louder."
+    ],
+    "why": "During inspiration the diaphragm descends and intrathoracic pressure falls. More blood returns from the venae cavae to the right atrium and right ventricle. A larger right ventricular volume means more blood flows back through the leaky tricuspid valve in systole, so the murmur grows louder (Carvallo sign). Right-sided murmurs tend to increase with inspiration, while left-sided murmurs do not.",
+    "whyNot": [
+     "Inspiration lowers intrathoracic pressure, and it briefly reduces left heart filling.",
+     "Correct.",
+     "Inflating lungs move between the heart and the chest wall, which tends to soften heart sounds.",
+     "Inspiration does not raise right ventricular contractility. The louder murmur comes from greater right ventricular filling (preload)."
+    ],
+    "study": {
+     "topics": [
+      "Heart sounds and respiration",
+      "Tricuspid regurgitation"
+     ],
+     "comps": [
+      "CV-15",
+      "CV-4"
+     ]
+    }
+   },
+   {
+    "id": "CV-C21-Q3",
+    "stem": "Which of the following factors best explains why the infection involves the tricuspid valve rather than a left-sided valve?",
+    "options": [
+     "Injected particles injure the first valve that venous blood crosses",
+     "The tricuspid valve closes against the highest pressure in the heart",
+     "Rheumatic damage, which favors the tricuspid valve, was already present",
+     "Low oxygen tension in venous blood selects for anaerobic organisms"
+    ],
+    "answer": 0,
+    "sea": "X",
+    "comp": "CV-18-K1",
+    "dok": 3,
+    "approach": [
+     "Trace injected material: from an arm vein to the superior vena cava, right atrium, and then the tricuspid valve.",
+     "Recall that particles and drug additives in injected material are thought to damage the endothelium of the tricuspid valve.",
+     "Add skin flora (S. aureus) introduced with each injection, which can then attach to the injured valve."
+    ],
+    "why": "In people who inject drugs, every injection delivers particles, drug additives, and skin bacteria into venous blood. The tricuspid valve is the first valve this material crosses, and repeated endothelial injury there is the accepted explanation for the right-sided preference. S. aureus from the skin is the most common organism. It is virulent enough to infect even a previously normal valve.",
+    "whyNot": [
+     "Correct.",
+     "The tricuspid valve closes against right ventricular pressure, which is far lower than left ventricular pressure. Higher pressure stress on left-sided valves would favor the mitral and aortic valves.",
+     "Rheumatic heart disease mostly affects the mitral valve, then the aortic valve.",
+     "S. aureus is a facultative anaerobe that grows well in oxygenated blood, and anaerobes are rare causes of endocarditis."
+    ],
+    "study": {
+     "topics": [
+      "Endocarditis in people who inject drugs",
+      "Valve involvement patterns in endocarditis"
+     ],
+     "comps": [
+      "CV-18-K1",
+      "CV-18-D3"
+     ]
+    }
+   },
+   {
+    "id": "CV-C21-Q4",
+    "stem": "She injects into her right median cubital vein. Which of the following sequences of veins most directly carries the injected bacteria to the right atrium?",
+    "options": [
+     "Basilic, brachial, internal jugular, right brachiocephalic, superior vena cava",
+     "Cephalic, external jugular, azygos, right brachiocephalic, superior vena cava",
+     "Basilic, axillary, subclavian, right brachiocephalic, superior vena cava",
+     "Basilic, axillary, subclavian, right brachiocephalic, inferior vena cava"
+    ],
+    "answer": 2,
+    "sea": "A",
+    "comp": "CV-9",
+    "dok": 2,
+    "approach": [
+     "The median cubital vein links the cephalic and basilic veins in the cubital fossa.",
+     "The basilic vein joins the brachial veins to form the axillary vein, which becomes the subclavian vein at the first rib.",
+     "The subclavian joins the internal jugular to form the brachiocephalic vein, and the two brachiocephalic veins form the superior vena cava."
+    ],
+    "why": "Blood from the median cubital vein drains into the basilic vein, which joins the brachial veins at the lower border of teres major to form the axillary vein. The axillary vein becomes the subclavian vein at the outer border of the first rib. The subclavian and internal jugular veins join to form the brachiocephalic vein. Both brachiocephalic veins form the superior vena cava, which empties into the right atrium.",
+    "whyNot": [
+     "The internal jugular vein drains the head and neck. Arm blood reaches the brachiocephalic vein through the subclavian vein.",
+     "The cephalic vein drains into the axillary vein, and the azygos vein drains the posterior thoracic wall into the superior vena cava. This route is wrong.",
+     "Correct.",
+     "The inferior vena cava drains the lower body. Upper limb blood returns through the superior vena cava."
+    ],
+    "study": {
+     "topics": [
+      "Venous drainage of the upper limb",
+      "Formation of the superior vena cava"
+     ],
+     "comps": [
+      "CV-9",
+      "CV-3"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "CV-C22",
+  "system": "CV",
+  "dx": "Chronic Chagas cardiomyopathy (Trypanosoma cruzi)",
+  "codes": [
+   "CV-18-K2",
+   "CV-18-E1"
+  ],
+  "case": "A 54-year-old man comes to the physician because of 6 months of palpitations, exertional dyspnea, and ankle swelling. He also has dysphagia to both solids and liquids. He grew up in a rural adobe home in Bolivia and moved to California 20 years ago. ECG shows right bundle branch block with left anterior fascicular block and frequent premature ventricular contractions. Echocardiography shows a dilated left ventricle with an ejection fraction of 30% (55 to 70) and a thin-walled apical aneurysm. Two different serologic tests detect IgG antibodies against Trypanosoma cruzi. Diagnosis: chronic Chagas cardiomyopathy.",
+  "questions": [
+   {
+    "id": "CV-C22-Q1",
+    "stem": "He most likely acquired the infection as a child in his home. Which of the following was the most likely mode of transmission?",
+    "options": [
+     "Bite of a tsetse fly that injects parasites in its saliva",
+     "Triatomine bug feces rubbed into the bite wound or eye",
+     "Bite of a female sandfly that injects promastigotes",
+     "Bite of a female Anopheles mosquito injecting sporozoites"
+    ],
+    "answer": 1,
+    "sea": "M",
+    "comp": "CV-17",
+    "dok": 2,
+    "approach": [
+     "Identify the organism from the diagnosis: Trypanosoma cruzi.",
+     "Recall its vector: triatomine (reduviid, kissing) bugs that live in cracks of adobe walls and thatched roofs in Latin America.",
+     "Recall the route: the bug defecates while feeding, and parasites in the feces enter through the bite wound or the conjunctiva."
+    ],
+    "why": "T. cruzi is spread by triatomine bugs that hide in the walls of poorly built rural homes and feed at night. The bug passes infective trypomastigotes in its feces while feeding. Scratching rubs the feces into the bite wound, or the parasites enter through the conjunctiva, which can cause one-sided eyelid swelling (Romaña sign). Blood transfusion, organ transplant, mother-to-baby spread, and contaminated food are less common routes.",
+    "whyNot": [
+     "Tsetse flies transmit Trypanosoma brucei, the cause of African sleeping sickness, through their saliva.",
+     "Correct.",
+     "Sandflies transmit Leishmania species.",
+     "Anopheles mosquitoes transmit Plasmodium species, which cause malaria."
+    ],
+    "study": {
+     "topics": [
+      "Trypanosoma cruzi life cycle",
+      "Protozoan vectors"
+     ],
+     "comps": [
+      "CV-17",
+      "CV-18-K2"
+     ]
+    }
+   },
+   {
+    "id": "CV-C22-Q2",
+    "stem": "Right bundle branch block is the most common conduction abnormality in chronic Chagas heart disease. In the right ventricle, the right bundle branch normally reaches the base of the anterior papillary muscle by way of which of the following structures?",
+    "options": [
+     "Crista terminalis of the right atrium",
+     "Pectinate muscles of the right auricle",
+     "Septomarginal trabecula (moderator band)",
+     "Chordae tendineae of the tricuspid leaflets"
+    ],
+    "answer": 2,
+    "sea": "A",
+    "comp": "CV-7",
+    "dok": 2,
+    "approach": [
+     "Trace the right bundle branch: it runs down the right side of the interventricular septum.",
+     "Recall the muscular bridge from the septum to the anterior papillary muscle in the right ventricle.",
+     "Name it: the septomarginal trabecula (moderator band) carries the right bundle branch, so the anterior papillary muscle contracts in time."
+    ],
+    "why": "The right bundle branch descends on the right side of the interventricular septum. Much of it crosses the right ventricular cavity in the septomarginal trabecula, also called the moderator band, to reach the base of the anterior papillary muscle. This shortcut lets the papillary muscle tense the tricuspid chordae before the ventricle ejects. Chagas inflammation and fibrosis commonly involve the right bundle branch, so right bundle branch block is a classic finding.",
+    "whyNot": [
+     "The crista terminalis is a ridge in the right atrium that separates its smooth and rough parts. The SA node lies near its upper end.",
+     "Pectinate muscles are ridges in the atrial walls and auricles. They carry no bundle branch.",
+     "Correct.",
+     "Chordae tendineae are fibrous cords from papillary muscles to valve leaflets. They contain no conduction tissue."
+    ],
+    "study": {
+     "topics": [
+      "Right bundle branch and moderator band",
+      "Right ventricle internal anatomy"
+     ],
+     "comps": [
+      "CV-7",
+      "CV-3"
+     ]
+    }
+   },
+   {
+    "id": "CV-C22-Q3",
+    "stem": "His dilated, thin-walled left ventricle generates about the same systolic pressure as a normal ventricle, yet its wall stress and oxygen demand per beat are higher. Which of the following relationships best explains this?",
+    "options": [
+     "Flow through a vessel rises with the fourth power of its radius",
+     "Force of contraction rises as end-diastolic fiber length increases",
+     "Fluid movement depends on hydrostatic and oncotic pressure gradients",
+     "Wall stress rises with chamber radius and falls with wall thickness"
+    ],
+    "answer": 3,
+    "sea": "P",
+    "comp": "CV-6",
+    "dok": 3,
+    "approach": [
+     "Note what changed: the chamber radius is larger and the wall is thinner, while pressure is unchanged.",
+     "Recall the law of Laplace: wall stress is proportional to pressure times radius, divided by wall thickness.",
+     "Apply it: a larger radius and thinner wall raise wall stress, and higher wall stress raises myocardial oxygen demand."
+    ],
+    "why": "The law of Laplace says that wall stress equals pressure times radius divided by twice the wall thickness. A dilated ventricle has a larger radius and, in this case, a thinner wall, so each fiber must carry more tension to make the same pressure. Wall stress is a major driver of myocardial oxygen use, which is one reason a dilated heart works less efficiently.",
+    "whyNot": [
+     "This is Poiseuille's law for flow through a tube. It explains how vessel radius controls flow and resistance.",
+     "This is the Frank-Starling relationship. It describes how filling changes stroke volume. It does not explain the rise in wall stress.",
+     "These are Starling forces across capillaries. They explain capillary fluid exchange and edema.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Law of Laplace",
+      "Myocardial oxygen demand"
+     ],
+     "comps": [
+      "CV-6",
+      "CV-18-E1"
+     ]
+    }
+   },
+   {
+    "id": "CV-C22-Q4",
+    "stem": "A barium swallow shows a dilated esophagus that tapers smoothly to a narrow point at a lower esophageal sphincter that fails to relax. Which of the following mechanisms best explains this finding?",
+    "options": [
+     "Loss of ganglion cells in the myenteric plexus",
+     "Fibrous replacement of smooth muscle from systemic sclerosis",
+     "Peptic stricture from long-standing acid reflux",
+     "Circumferential growth of squamous cell carcinoma"
+    ],
+    "answer": 0,
+    "sea": "X",
+    "comp": "CV-18-K2",
+    "dok": 3,
+    "approach": [
+     "Recognize the pattern of achalasia: dilated esophagus, smooth taper, and a lower esophageal sphincter that does not relax.",
+     "Recall that sphincter relaxation depends on inhibitory neurons of the myenteric (Auerbach) plexus.",
+     "Link it to the diagnosis: chronic Chagas disease destroys these enteric neurons, causing megaesophagus and megacolon."
+    ],
+    "why": "Chronic T. cruzi infection damages neurons of the enteric nervous system, especially the myenteric (Auerbach) plexus. Loss of inhibitory neurons that release nitric oxide and VIP means the lower esophageal sphincter cannot relax, and peristalsis fails. The esophagus slowly dilates above the closed sphincter (megaesophagus). The same process in the colon produces megacolon.",
+    "whyNot": [
+     "Correct.",
+     "Systemic sclerosis replaces esophageal smooth muscle with fibrosis, which leaves the lower sphincter weak and open and causes reflux.",
+     "A peptic stricture narrows the distal esophagus, but the sphincter still relaxes and dysphagia is usually to solids first.",
+     "Carcinoma usually causes progressive dysphagia to solids first, with weight loss and an irregular narrowing on barium study."
+    ],
+    "study": {
+     "topics": [
+      "Chagas megaesophagus",
+      "Enteric nervous system"
+     ],
+     "comps": [
+      "CV-18-K2",
+      "CV-17"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "CV-C23",
+  "system": "CV",
+  "dx": "Lyme carditis with third-degree AV block (Borrelia burgdorferi)",
+  "codes": [
+   "CV-18-K3",
+   "CV-18-E2"
+  ],
+  "case": "A 26-year-old man from Connecticut comes to the physician because of lightheadedness and one episode of syncope. He went camping in wooded areas in June. Five weeks ago, he had an expanding erythematous rash with central clearing on his thigh that resolved without treatment. Pulse is 42/min. ECG shows P waves at 86/min with no relationship to narrow QRS complexes at 42/min. Two-tier serologic testing (enzyme immunoassay followed by Western blot) is positive for IgM and IgG antibodies against Borrelia burgdorferi. Diagnosis: Lyme carditis with third-degree AV block.",
+  "questions": [
+   {
+    "id": "CV-C23-Q1",
+    "stem": "His escape QRS complexes are narrow, which places the block above the bundle branches. In Lyme carditis, the block most often occurs in the structure that normally delays conduction between the atria and ventricles. In which of the following locations is this structure found?",
+    "options": [
+     "Subepicardium where the superior vena cava meets the right atrium",
+     "Muscular interventricular septum near the cardiac apex",
+     "Interatrial septum near the opening of the coronary sinus",
+     "Posterior wall of the left atrium between the pulmonary veins"
+    ],
+    "answer": 2,
+    "sea": "A",
+    "comp": "CV-7",
+    "dok": 3,
+    "approach": [
+     "Use the narrow escape QRS: the block is at or above the bundle of His.",
+     "Identify the structure that delays the impulse between atria and ventricles: the AV node.",
+     "Locate it: the lower interatrial septum, in the triangle of Koch near the coronary sinus opening, just above the septal tricuspid leaflet."
+    ],
+    "why": "The AV node sits in the lower part of the interatrial septum, within the triangle of Koch, close to the opening of the coronary sinus and the septal leaflet of the tricuspid valve. It slows conduction so the ventricles fill before they contract. Lyme carditis most often blocks conduction at this level. A junctional escape rhythm then takes over, giving narrow QRS complexes at about 40 to 60/min.",
+    "whyNot": [
+     "This is the location of the SA node, the normal pacemaker. His P waves at 86/min show the SA node is working.",
+     "The septum near the apex holds bundle branch and Purkinje fibers. Block there would give a wide, slow ventricular escape rhythm.",
+     "Correct.",
+     "The area between the pulmonary veins is where many atrial fibrillation triggers arise. It contains no AV conduction tissue."
+    ],
+    "study": {
+     "topics": [
+      "AV node and triangle of Koch",
+      "Escape rhythms"
+     ],
+     "comps": [
+      "CV-7",
+      "CV-18-K3"
+     ]
+    }
+   },
+   {
+    "id": "CV-C23-Q2",
+    "stem": "He recalls removing a small tick from his thigh about 2 days after the trip began. An infected Ixodes tick removed within about 24 hours of attachment rarely transmits B. burgdorferi. Which of the following best explains why transmission usually requires 36 to 48 hours or more of feeding?",
+    "options": [
+     "Spirochetes must move from the tick midgut to its salivary glands",
+     "The tick must molt into its adult stage while it is still attached",
+     "Spirochetes must first multiply inside the host's red blood cells",
+     "The tick must ingest the human's blood before it becomes infected"
+    ],
+    "answer": 0,
+    "sea": "M",
+    "comp": "CV-17",
+    "dok": 2,
+    "approach": [
+     "Recall where B. burgdorferi lives in an unfed tick: the midgut.",
+     "Recall the trigger: the incoming blood meal activates the spirochetes, which multiply, change surface proteins, and migrate to the salivary glands.",
+     "Conclude that this migration takes time, so prompt tick removal lowers the risk."
+    ],
+    "why": "In an unfed Ixodes tick, B. burgdorferi sits in the midgut. Once the tick starts feeding, the spirochetes multiply, switch surface proteins (OspA down, OspC up), and travel to the salivary glands. Only then are they injected with saliva. This process usually needs 36 to 48 hours or more of attachment, so checking for ticks daily and removing them promptly prevents most infections.",
+    "whyNot": [
+     "Correct.",
+     "Ticks molt between stages only after they drop off the host. Nymphs, which are small and easy to miss, transmit most human cases.",
+     "Babesia, which the same tick can carry, infects red blood cells. B. burgdorferi is an extracellular spirochete.",
+     "The tick acquired the spirochete earlier, as a larva or nymph feeding on infected mice. It does not need human blood to become infected."
+    ],
+    "study": {
+     "topics": [
+      "Lyme disease transmission",
+      "Ixodes tick life cycle"
+     ],
+     "comps": [
+      "CV-17",
+      "CV-18-K3"
+     ]
+    }
+   },
+   {
+    "id": "CV-C23-Q3",
+    "stem": "His Western blot shows IgG bands as well as IgM bands. Switching from IgM to IgG against the spirochete's protein antigens requires T-cell help. Which of the following interactions is required for this class switching?",
+    "options": [
+     "Peptide on MHC class I binding CD8 on cytotoxic T cells",
+     "CD40 ligand on helper T cells binding CD40 on B cells",
+     "Bacterial lipopolysaccharide binding TLR4 on macrophages",
+     "Complement C5a binding its receptor on neutrophils"
+    ],
+    "answer": 1,
+    "sea": "M",
+    "comp": "CV-16",
+    "dok": 2,
+    "approach": [
+     "Note the shift from IgM to IgG over the weeks after infection.",
+     "Recall that class switching to protein antigens is T-cell dependent.",
+     "Name the contact signal: CD40 ligand (CD154) on activated helper T cells binding CD40 on B cells, together with cytokines."
+    ],
+    "why": "B cells first make IgM. To switch to IgG, a B cell presents protein peptides on MHC class II to a helper T cell. The T cell then binds CD40 on the B cell through CD40 ligand and releases cytokines. These signals turn on activation-induced cytidine deaminase and class switch recombination. Without CD40 ligand, as in X-linked hyper-IgM syndrome, patients make IgM but little IgG.",
+    "whyNot": [
+     "MHC class I with CD8 activates cytotoxic T cells, which kill infected cells. It does not drive B cell class switching.",
+     "Correct.",
+     "B. burgdorferi lacks classic lipopolysaccharide, and TLR4 on macrophages drives innate inflammation. Its lipoproteins signal mainly through TLR2.",
+     "C5a attracts and activates neutrophils. It plays no direct role in class switching."
+    ],
+    "study": {
+     "topics": [
+      "Class switch recombination",
+      "T-dependent antibody responses"
+     ],
+     "comps": [
+      "CV-16",
+      "CV-18-K3"
+     ]
+    }
+   },
+   {
+    "id": "CV-C23-Q4",
+    "stem": "If his infection had not been treated, which of the following manifestations would most likely have developed months after the rash?",
+    "options": [
+     "Migratory polyarthritis with subcutaneous nodules and chorea",
+     "Symmetric small-joint arthritis with morning stiffness of the hands",
+     "Sudden monoarthritis of the big toe with urate crystals in fluid",
+     "Episodic swelling of one or a few large joints, often the knee"
+    ],
+    "answer": 3,
+    "sea": "X",
+    "comp": "CV-18-K3",
+    "dok": 2,
+    "approach": [
+     "Place the patient on the Lyme timeline: early localized (erythema migrans), early disseminated (carditis, facial palsy), late (arthritis).",
+     "Recall the late form: attacks of arthritis in one or a few large joints, most often the knee.",
+     "Rule out look-alikes from other diseases by their distinct features."
+    ],
+    "why": "Untreated Lyme disease can progress over months to late disease. The most common late finding in the United States is Lyme arthritis, with intermittent attacks of swelling in one or a few large joints, especially the knee. The swelling is often large and less painful than it looks. Carditis and facial nerve palsy belong to the earlier disseminated stage, which this patient is in now.",
+    "whyNot": [
+     "This combination is acute rheumatic fever after group A streptococcal pharyngitis.",
+     "Symmetric small-joint arthritis with morning stiffness describes rheumatoid arthritis.",
+     "This is acute gout from monosodium urate crystals.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Stages of Lyme disease",
+      "Lyme arthritis"
+     ],
+     "comps": [
+      "CV-18-K3",
+      "CV-17"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "CV-C24",
+  "system": "CV",
+  "dx": "Rocky Mountain spotted fever (Rickettsia rickettsii)",
+  "codes": [
+   "CV-18-K4",
+   "CV-18-I12"
+  ],
+  "case": "A 9-year-old girl in rural North Carolina is brought to the emergency department in July because of 5 days of fever, severe headache, and myalgias. Her parents found a tick on her scalp 8 days ago after she played with the family dog. Temperature is 39.8 °C (103.6 °F), pulse is 132/min, and blood pressure is 86/50 mm Hg. A rash that began as pink macules on the wrists and ankles has spread to the trunk and become petechial, including the palms and soles. There is edema of the hands and feet. Platelet count is 64,000/µL (150,000 to 400,000), and serum sodium is 129 mEq/L (135 to 145). Diagnosis: Rocky Mountain spotted fever caused by Rickettsia rickettsii. Doxycycline is started.",
+  "questions": [
+   {
+    "id": "CV-C24-Q1",
+    "stem": "Her petechial rash, edema of the hands and feet, and thrombocytopenia all result from infection of one principal host cell type. Which of the following cells does R. rickettsii primarily infect?",
+    "options": [
+     "Endothelial cells of small vessels",
+     "Red blood cells in the circulation",
+     "Monocytes in blood and tissues",
+     "Neutrophils in blood and tissues"
+    ],
+    "answer": 0,
+    "sea": "X",
+    "comp": "CV-18-K4",
+    "dok": 3,
+    "approach": [
+     "List the findings: petechiae, edema, low blood pressure, and low platelets.",
+     "Find the common cause: damage to small blood vessels (a vasculitis).",
+     "Name the target: R. rickettsii infects vascular endothelial cells (and vascular smooth muscle) of small vessels."
+    ],
+    "why": "R. rickettsii enters and multiplies in the endothelial cells of small vessels throughout the body. Infected endothelium is injured, which produces a small-vessel vasculitis. Leaky vessels cause edema and low blood volume, bleeding into the skin causes petechiae, and platelets are used up at sites of endothelial damage. The same vessel damage in the brain, lungs, and kidneys explains the severe forms of the disease.",
+    "whyNot": [
+     "Correct.",
+     "Babesia infects red blood cells, causing hemolytic anemia.",
+     "Ehrlichia chaffeensis infects monocytes, forming morulae in their cytoplasm.",
+     "Anaplasma phagocytophilum infects neutrophils (granulocytes)."
+    ],
+    "study": {
+     "topics": [
+      "Rickettsial vasculitis",
+      "Tick-borne intracellular bacteria"
+     ],
+     "comps": [
+      "CV-18-K4",
+      "CV-17"
+     ]
+    }
+   },
+   {
+    "id": "CV-C24-Q2",
+    "stem": "Two sets of routine blood cultures show no growth after 5 days. Which of the following properties of the organism best explains this finding?",
+    "options": [
+     "It is a spirochete too thin to see on Gram stain",
+     "It has a mycolic acid cell wall that needs weeks to grow",
+     "It is a virus that replicates only in host cell nuclei",
+     "It is a bacterium that grows only inside host cells"
+    ],
+    "answer": 3,
+    "sea": "M",
+    "comp": "CV-17",
+    "dok": 2,
+    "approach": [
+     "Identify the organism: R. rickettsii.",
+     "Recall its key property: an obligate intracellular gram-negative bacterium.",
+     "Apply it: it cannot grow on the cell-free media used for routine blood cultures, so diagnosis relies on serology, PCR, or skin biopsy staining."
+    ],
+    "why": "Rickettsiae are small gram-negative bacteria that stain poorly and grow only inside living host cells. They take nutrients and energy molecules from the host cell, so they do not grow in routine blood culture bottles. Diagnosis uses indirect immunofluorescent antibody testing, PCR, or immunohistochemistry on a skin biopsy. Treatment must start on clinical suspicion because early tests are often negative.",
+    "whyNot": [
+     "Thin spirochetes such as Treponema and Borrelia are hard to see on Gram stain. R. rickettsii is a gram-negative coccobacillus.",
+     "Mycobacteria have mycolic acid walls and grow slowly. That would not fit this acute tick-borne illness.",
+     "R. rickettsii is a gram-negative bacterium that multiplies mainly in the host cell cytoplasm.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Obligate intracellular bacteria",
+      "Diagnosis of Rocky Mountain spotted fever"
+     ],
+     "comps": [
+      "CV-17",
+      "CV-18-K4"
+     ]
+    }
+   },
+   {
+    "id": "CV-C24-Q3",
+    "stem": "Within endothelial cells, R. rickettsii escapes the phagosome and spreads directly into adjacent cells without re-entering the bloodstream. Which of the following host processes does it use for this movement?",
+    "options": [
+     "Dynein motors carrying it along microtubules",
+     "Clathrin-coated pits taking it up from the cell surface",
+     "Polymerization of host actin into a tail that pushes it",
+     "SNARE-mediated fusion of vesicles with the plasma membrane"
+    ],
+    "answer": 2,
+    "sea": "B",
+    "comp": "CV-17",
+    "dok": 2,
+    "approach": [
+     "Recognize cell-to-cell spread in the cytoplasm, like Listeria.",
+     "Recall which cytoskeletal protein builds a moving tail: actin.",
+     "Apply it: the bacterium recruits host actin to its surface and is pushed by actin polymerization into a neighboring cell."
+    ],
+    "why": "Spotted fever group rickettsiae, including R. rickettsii, recruit host actin to one end of the bacterium. Continuous actin polymerization forms a tail that pushes the bacterium through the cytoplasm and into protrusions that enter the next cell. This lets infection spread along the endothelium while the bacteria stay hidden from antibodies. Listeria monocytogenes and Shigella use the same host system.",
+    "whyNot": [
+     "Dynein moves cargo toward the minus ends of microtubules. Some viruses use it to reach the nucleus, but rickettsiae do not use it to spread between cells.",
+     "Clathrin-coated pits bring cargo into the cell. They do not move bacteria from one cell to the next.",
+     "Correct.",
+     "SNARE proteins fuse vesicles with membranes during secretion. They do not move cytoplasmic bacteria."
+    ],
+    "study": {
+     "topics": [
+      "Actin-based motility",
+      "Cell-to-cell spread of intracellular bacteria"
+     ],
+     "comps": [
+      "CV-17",
+      "CV-18-K4"
+     ]
+    }
+   },
+   {
+    "id": "CV-C24-Q4",
+    "stem": "Her serum albumin concentration is 3.9 g/dL (3.5 to 5.0), and her jugular veins are flat. Which of the following changes in capillary fluid exchange best explains the edema of her hands and feet?",
+    "options": [
+     "Increased capillary hydrostatic pressure from venous congestion",
+     "Increased capillary permeability to fluid and protein",
+     "Decreased plasma oncotic pressure from hypoalbuminemia",
+     "Impaired lymphatic drainage from lymph node obstruction"
+    ],
+    "answer": 1,
+    "sea": "P",
+    "comp": "CV-11",
+    "dok": 3,
+    "approach": [
+     "List the Starling factors: capillary hydrostatic pressure, plasma oncotic pressure, capillary permeability, and lymph drainage.",
+     "Use the clues: flat neck veins rule out venous congestion, and normal albumin rules out low oncotic pressure.",
+     "Connect the remaining factor to endothelial infection: damaged endothelium makes capillaries leaky."
+    ],
+    "why": "Injured endothelium in rickettsial vasculitis lets fluid and protein leak into the interstitium. In Starling terms, the filtration coefficient rises and the reflection coefficient for protein falls. Fluid leaves the vessels even though hydrostatic and oncotic pressures are not abnormal. This causes edema and, at the same time, low blood volume and hypotension.",
+    "whyNot": [
+     "Venous congestion would raise jugular venous pressure. Her neck veins are flat.",
+     "Correct.",
+     "Low albumin would lower oncotic pressure, but her albumin is normal.",
+     "Lymphatic blockage causes lymphedema over weeks to months, usually from surgery, cancer, or filarial infection."
+    ],
+    "study": {
+     "topics": [
+      "Starling forces and edema",
+      "Capillary permeability"
+     ],
+     "comps": [
+      "CV-11",
+      "CV-18-H4"
+     ]
+    }
+   }
+  ]
+ }
+]

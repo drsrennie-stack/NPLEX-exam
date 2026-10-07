@@ -1,0 +1,942 @@
+[
+  {
+    "id": "CV-C55",
+    "system": "CV",
+    "dx": "Acute pulmonary embolism",
+    "codes": [
+      "CV-18-I7"
+    ],
+    "case": "A 46-year-old man comes to the emergency department because of sudden shortness of breath and sharp right-sided chest pain that worsens with inspiration. He returned from a 14-hour flight 3 days ago, and his right calf has been sore and swollen since the trip. Pulse is 116/min, respirations are 28/min, and blood pressure is 104/68 mmHg. Pulse oximetry on room air shows an oxygen saturation of 89%. Arterial blood gas analysis on room air at sea level shows pH 7.49 (7.35 to 7.45), PaCO2 30 mmHg (35 to 45), and PaO2 62 mmHg (80 to 100). D-dimer is 2,400 ng/mL FEU (below 500). CT pulmonary angiography shows filling defects in both lower lobe pulmonary arteries. Echocardiography shows a dilated right ventricle. The diagnosis is acute pulmonary embolism.",
+    "questions": [
+      {
+        "id": "CV-C55-Q1",
+        "stem": "Using the alveolar gas equation (PAO2 = 150 mmHg minus PaCO2/0.8), which of the following best describes this patient's alveolar-arterial (A-a) oxygen gradient and the primary mechanism of his hypoxemia?",
+        "options": [
+          "About 10 mmHg, caused by alveolar hypoventilation",
+          "About 50 mmHg, caused by ventilation-perfusion mismatch",
+          "About 10 mmHg, caused by low inspired oxygen pressure",
+          "About 50 mmHg, caused by thickening of the alveolar membrane"
+        ],
+        "answer": 1,
+        "sea": "P",
+        "comp": "CV-15",
+        "dok": 3,
+        "approach": [
+          "Calculate PAO2: 150 minus (30 divided by 0.8) is about 112 mmHg.",
+          "Subtract PaO2: 112 minus 62 gives an A-a gradient of about 50 mmHg, well above the normal 5 to 15 mmHg.",
+          "A wide gradient with a low PaCO2 rules out hypoventilation and low inspired oxygen; in PE the cause is ventilation-perfusion mismatch."
+        ],
+        "why": "The clots block flow to ventilated lung, so blood is diverted to the remaining vessels, which are now overperfused relative to their ventilation. Blood leaving those low V/Q units is poorly oxygenated, and the A-a gradient widens to about 50 mmHg. Hypoxemia and pain drive hyperventilation, which explains the low PaCO2 and respiratory alkalosis.",
+        "whyNot": [
+          "Hypoventilation raises PaCO2 and keeps the A-a gradient normal. His PaCO2 is low. This fits opioid overdose or neuromuscular weakness.",
+          "Correct.",
+          "Low inspired oxygen (high altitude) lowers PaO2 with a normal gradient. He was tested at sea level, and his gradient is wide.",
+          "Membrane thickening (pulmonary fibrosis) does widen the gradient, but nothing in this case thickens the alveolar wall. The problem here is blocked blood flow."
+        ],
+        "study": {
+          "topics": [
+            "Alveolar gas equation and A-a gradient",
+            "Causes of hypoxemia",
+            "V/Q mismatch in pulmonary embolism"
+          ],
+          "comps": [
+            "CV-15",
+            "CV-18-I7"
+          ]
+        }
+      },
+      {
+        "id": "CV-C55-Q2",
+        "stem": "CT pulmonary angiography shows no infarction of the lung parenchyma distal to the occluded arteries. Which of the following vessels most likely maintains the viability of this lung tissue?",
+        "options": [
+          "Bronchial veins draining lung tissue into the azygos system",
+          "Pericardiophrenic arteries supplying the lower lobes",
+          "Internal thoracic arteries entering through the visceral pleura",
+          "Bronchial arteries arising from the systemic circulation"
+        ],
+        "answer": 3,
+        "sea": "A",
+        "comp": "CV-9",
+        "dok": 2,
+        "approach": [
+          "Recognize that the lung has a dual blood supply.",
+          "Identify the second, systemic source: the bronchial arteries, mostly from the descending thoracic aorta.",
+          "Link this to the fact that most emboli in healthy people do not cause infarction."
+        ],
+        "why": "The bronchial arteries arise from the systemic circulation, mainly the descending thoracic aorta, and supply the bronchi and supporting lung tissue. When a pulmonary artery branch is blocked, bronchial flow keeps the tissue alive. Infarction becomes likely when this backup is weak, as in left heart failure or existing lung disease.",
+        "whyNot": [
+          "Veins drain blood away from tissue and cannot deliver oxygen. Bronchial veins do drain into the azygos system, but that is irrelevant to survival.",
+          "The pericardiophrenic arteries run with the phrenic nerves to the pericardium and diaphragm. They do not supply lung parenchyma.",
+          "The internal thoracic arteries supply the anterior chest wall and breast. They do not enter the lung through the visceral pleura.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Dual blood supply of the lung",
+            "Bronchial arteries",
+            "Pulmonary infarction"
+          ],
+          "comps": [
+            "CV-9",
+            "CV-18-H3"
+          ]
+        }
+      },
+      {
+        "id": "CV-C55-Q3",
+        "stem": "One hour later, his blood pressure decreases to 86/54 mmHg. Repeat echocardiography shows flattening of the interventricular septum with bowing toward the left ventricle during diastole. Which of the following mechanisms most likely explains the decrease in his cardiac output?",
+        "options": [
+          "Septal bowing into the left ventricle that limits its filling",
+          "Coronary artery embolism reducing left ventricular contraction",
+          "Pericardial fluid compressing all four chambers of the heart",
+          "Systemic vasoconstriction raising left ventricular afterload"
+        ],
+        "answer": 0,
+        "sea": "P",
+        "comp": "CV-15",
+        "dok": 3,
+        "approach": [
+          "Clots suddenly raise pulmonary vascular resistance, so right ventricular afterload rises.",
+          "The thin-walled right ventricle dilates, and because both ventricles share the septum and pericardium, the septum shifts left.",
+          "A smaller left ventricle fills less, so stroke volume and cardiac output fall (ventricular interdependence)."
+        ],
+        "why": "Acute right ventricular pressure overload dilates the right ventricle. Inside the fixed pericardial space, the septum bows into the left ventricle and reduces its preload. Left ventricular stroke volume falls, causing hypotension. Low aortic pressure and high right ventricular wall stress also reduce right coronary perfusion, which explains the troponin rise often seen in PE with right ventricular strain.",
+        "whyNot": [
+          "Correct.",
+          "Venous clots travel to the lungs and cannot reach the coronary arteries unless they cross a right-to-left shunt. Nothing here suggests that.",
+          "Tamponade would show a pericardial effusion on echocardiography. His echo shows a dilated right ventricle and septal shift instead.",
+          "Higher afterload would raise blood pressure. His problem is low left ventricular preload, and his pressure is falling."
+        ],
+        "study": {
+          "topics": [
+            "Acute right heart strain",
+            "Ventricular interdependence",
+            "Obstructive shock"
+          ],
+          "comps": [
+            "CV-15",
+            "CV-18-B2"
+          ]
+        }
+      },
+      {
+        "id": "CV-C55-Q4",
+        "stem": "Which of the following sequences of enzymatic steps produces the fragment measured by this patient's D-dimer assay?",
+        "options": [
+          "Thrombin cleaves fibrinogen, then antithrombin breaks down fibrin",
+          "Plasmin cleaves circulating fibrinogen that was never cross-linked",
+          "Factor XIIIa cross-links fibrin, then plasmin cleaves the clot",
+          "Tissue plasminogen activator directly digests cross-linked fibrin"
+        ],
+        "answer": 2,
+        "sea": "B",
+        "comp": "CV-13",
+        "dok": 2,
+        "approach": [
+          "D-dimer is two D domains held together by a covalent cross-link.",
+          "That cross-link is made only by factor XIIIa in a formed clot.",
+          "Plasmin must then break the cross-linked fibrin to release the fragment."
+        ],
+        "why": "Thrombin converts fibrinogen to fibrin and activates factor XIII. Factor XIIIa, a transglutaminase, covalently links neighboring D domains of fibrin. When plasmin degrades this stabilized clot, the linked D domains are released as D-dimer. A high value shows that a clot formed and is being broken down, so it is sensitive but not specific.",
+        "whyNot": [
+          "Antithrombin inhibits thrombin and factor Xa. It does not degrade fibrin.",
+          "Plasmin acting on fibrinogen alone makes fibrinogen degradation products without D-dimer, because no cross-link exists. This pattern occurs in primary fibrinogenolysis.",
+          "Correct.",
+          "Tissue plasminogen activator converts plasminogen to plasmin. Plasmin then does the work of digesting the fibrin."
+        ],
+        "study": {
+          "topics": [
+            "Fibrin stabilization by factor XIII",
+            "Fibrinolysis",
+            "D-dimer"
+          ],
+          "comps": [
+            "CV-13",
+            "CV-18-H6"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "CV-C56",
+    "system": "CV",
+    "dx": "Deep vein thrombosis after surgery and immobility",
+    "codes": [
+      "CV-18-I10"
+    ],
+    "case": "A 71-year-old woman is evaluated because of aching and swelling of the left leg 5 days after surgical repair of a left hip fracture. Because of pain, she has been mostly confined to bed since the operation. Temperature is 37.0 °C (98.6 °F). Physical examination shows a warm, tender left calf with pitting edema; its circumference is 4 cm greater than that of the right calf. Compression duplex ultrasonography shows noncompressible left popliteal and femoral veins containing echogenic thrombus. Platelet count is 260,000/µL (150,000 to 400,000). The diagnosis is proximal deep vein thrombosis after surgery and immobility. Treatment with unfractionated heparin is started.",
+    "questions": [
+      {
+        "id": "CV-C56-Q1",
+        "stem": "Which of the following best describes the composition of this patient's venous thrombus?",
+        "options": [
+          "Many trapped red cells in a fibrin mesh, formed where flow is slow",
+          "Mostly platelets with little fibrin, formed where shear stress is high",
+          "Platelets and fibrin attached to a damaged heart valve leaflet",
+          "Separated layers of red cells and plasma, formed after flow stops"
+        ],
+        "answer": 0,
+        "sea": "X",
+        "comp": "CV-18-I10",
+        "dok": 2,
+        "approach": [
+          "Note the setting: a vein with stasis.",
+          "Low flow lets coagulation factors build up, so fibrin forms and traps red cells.",
+          "Choose the red (stasis) thrombus."
+        ],
+        "why": "Venous thrombi form under low flow, where activated clotting factors are not washed away. Fibrin forms a mesh that traps many red cells, so the thrombus is red and gelatinous and often builds a long tail in the direction of flow. This fibrin-rich makeup is why venous thrombosis is treated with anticoagulants.",
+        "whyNot": [
+          "Correct.",
+          "This is an arterial (pale) thrombus, which forms on a ruptured plaque under high shear and is platelet rich. That is why arterial disease is treated with antiplatelet drugs.",
+          "This describes a valve vegetation, as in endocarditis. Her clot is in a leg vein.",
+          "This describes a postmortem clot, which settles into layers after circulation stops and is not attached to the vessel wall."
+        ],
+        "study": {
+          "topics": [
+            "Venous versus arterial thrombi",
+            "Virchow triad"
+          ],
+          "comps": [
+            "CV-18-H6",
+            "CV-18-I10"
+          ]
+        }
+      },
+      {
+        "id": "CV-C56-Q2",
+        "stem": "Which of the following mechanisms that normally promotes venous return from the deep veins of the leg was most reduced by her bed rest?",
+        "options": [
+          "Arteriolar constriction that limits inflow of blood into the leg",
+          "Plasma oncotic pressure that pulls tissue fluid into the leg veins",
+          "Calf muscle contraction that squeezes blood through one-way valves",
+          "Sympathetic venoconstriction that keeps the deep veins narrowed"
+        ],
+        "answer": 2,
+        "sea": "P",
+        "comp": "CV-11",
+        "dok": 2,
+        "approach": [
+          "Identify the factor in Virchow triad that immobility causes: stasis.",
+          "Ask what normally moves venous blood upward from the legs against gravity.",
+          "The skeletal muscle pump, with venous valves, drives venous return from the legs."
+        ],
+        "why": "The deep leg veins run within muscle compartments. Each calf contraction squeezes them, and the one-way valves let blood move only toward the heart. Without movement this pump stops, blood pools in the valve pockets and soleal sinuses, and stasis allows clotting factors to accumulate.",
+        "whyNot": [
+          "Arteriolar tone controls inflow to capillaries. Bed rest does not remove it, and less inflow would not explain pooling in the veins.",
+          "Plasma oncotic pressure is unchanged by immobility. It governs fluid shifts across capillaries, not forward flow in large veins.",
+          "Correct.",
+          "Sympathetic venous tone is still present during bed rest. Venoconstriction actually pushes blood toward the heart, so it is not the force she lost."
+        ],
+        "study": {
+          "topics": [
+            "Skeletal muscle pump",
+            "Venous return",
+            "Venous valves"
+          ],
+          "comps": [
+            "CV-11",
+            "CV-12"
+          ]
+        }
+      },
+      {
+        "id": "CV-C56-Q3",
+        "stem": "Iliofemoral deep vein thrombosis occurs more often in the left leg than in the right leg. Which of the following anatomic relationships best explains this pattern?",
+        "options": [
+          "The left renal vein crossing between the aorta and superior mesenteric artery",
+          "The inguinal ligament pressing on the left femoral vein during hip flexion",
+          "The left common iliac artery crossing anterior to the right common iliac vein",
+          "The right common iliac artery crossing anterior to the left common iliac vein"
+        ],
+        "answer": 3,
+        "sea": "A",
+        "comp": "CV-9",
+        "dok": 3,
+        "approach": [
+          "Picture the aortic bifurcation at about L4 and the IVC formed to the right of midline at about L5.",
+          "The left common iliac vein must cross to the right to reach the IVC.",
+          "On its way it passes behind the right common iliac artery, which presses it against the lower lumbar spine."
+        ],
+        "why": "The IVC lies to the right of the aorta, so the left common iliac vein takes a longer course across the midline. The right common iliac artery crosses in front of it and can compress it against the fifth lumbar vertebra. Chronic pulsatile compression narrows the vein and causes stasis. When this compression causes symptoms, it is called May-Thurner syndrome.",
+        "whyNot": [
+          "Compression of the left renal vein between the aorta and SMA (nutcracker) causes left flank pain, hematuria, or a left varicocele, not leg DVT.",
+          "The inguinal ligament is symmetric on both sides and does not explain a left-sided pattern.",
+          "The right common iliac vein runs a short, nearly straight course to the IVC and is not crossed by the left common iliac artery.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Iliac vessel relationships",
+            "May-Thurner anatomy",
+            "Formation of the IVC"
+          ],
+          "comps": [
+            "CV-9",
+            "CV-18-I10"
+          ]
+        }
+      },
+      {
+        "id": "CV-C56-Q4",
+        "stem": "On day 7 of heparin therapy, her platelet count is 98,000/µL, and duplex ultrasonography shows a new thrombus in the right femoral vein. Which of the following mechanisms best explains both findings?",
+        "options": [
+          "IgE on mast cells binding heparin and releasing histamine",
+          "IgG against platelet factor 4 and heparin activating platelets",
+          "Cytotoxic T cells destroying megakaryocytes in the bone marrow",
+          "IgM cold agglutinins fixing complement on platelet surfaces"
+        ],
+        "answer": 1,
+        "sea": "M",
+        "comp": "CV-16",
+        "dok": 3,
+        "approach": [
+          "Platelets fell by more than half about 5 to 10 days after heparin started, and a new clot formed.",
+          "Low platelets plus new thrombosis points to heparin-induced thrombocytopenia (HIT).",
+          "Name the mechanism: IgG antibodies to platelet factor 4 bound to heparin."
+        ],
+        "why": "Heparin binds platelet factor 4 (PF4), creating a new epitope. IgG antibodies form against the PF4-heparin complex, and the immune complexes bind platelet Fc receptors. This activates platelets, which releases more PF4 and procoagulant microparticles, so platelets are consumed and cleared while thrombin generation rises. The result is a low count with new clots, so heparin must be stopped and replaced with a non-heparin anticoagulant.",
+        "whyNot": [
+          "An IgE-mediated reaction causes hives, wheezing, or anaphylaxis within minutes. It does not lower platelets or cause clots.",
+          "Correct.",
+          "T cells attacking megakaryocytes would reduce platelet production but would not cause new thrombosis.",
+          "Cold agglutinins are IgM antibodies against red cells, as in Mycoplasma infection. They cause hemolysis, not falling platelets with clots."
+        ],
+        "study": {
+          "topics": [
+            "Heparin-induced thrombocytopenia",
+            "Antibody-mediated platelet activation"
+          ],
+          "comps": [
+            "CV-16",
+            "CV-18-H6"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "CV-C57",
+    "system": "CV",
+    "dx": "Deep vein thrombosis in a patient with factor V Leiden",
+    "codes": [
+      "CV-18-I10"
+    ],
+    "case": "A 31-year-old woman comes to the physician because of a 3-day history of pain and swelling of the right leg. She has had no recent surgery, trauma, or prolonged travel. She began taking a combined estrogen-progestin oral contraceptive 4 months ago. Her mother had a deep vein thrombosis at age 40 years. Duplex ultrasonography shows thrombus in the right femoral vein. Prothrombin time is 12 seconds (11 to 13.5), and activated partial thromboplastin time is 30 seconds (25 to 35). An activated protein C resistance assay is abnormal, and genetic testing shows heterozygosity for factor V Leiden (F5 R506Q). The diagnosis is deep vein thrombosis in a patient with factor V Leiden.",
+    "questions": [
+      {
+        "id": "CV-C57-Q1",
+        "stem": "Which of the following best describes the molecular mechanism by which this patient's variant promotes thrombosis?",
+        "options": [
+          "Antithrombin cannot bind heparan sulfate on endothelial cells",
+          "A 3' untranslated region change raises plasma prothrombin levels",
+          "Thrombomodulin fails to bind thrombin on the endothelial surface",
+          "Activated factor V resists cleavage by activated protein C"
+        ],
+        "answer": 3,
+        "sea": "B",
+        "comp": "CV-14",
+        "dok": 2,
+        "approach": [
+          "R506Q is a single amino acid change: arginine 506 becomes glutamine.",
+          "Arginine 506 is a cleavage site where activated protein C inactivates factor Va.",
+          "Factor Va lasts longer, so more thrombin is made."
+        ],
+        "why": "Factor V Leiden is a missense point mutation (G to A) that replaces arginine 506 with glutamine. Activated protein C, with protein S as cofactor, normally shuts off factor Va by cleaving it, and arginine 506 is the first and fastest cleavage site. The mutant factor Va resists that cleavage, so prothrombinase stays active longer and thrombin generation rises. Routine PT and aPTT are normal because the clotting factors are present in normal amounts and work normally.",
+        "whyNot": [
+          "Antithrombin deficiency or dysfunction is a separate inherited thrombophilia. It does not explain APC resistance.",
+          "This describes the prothrombin G20210A variant, the second most common inherited thrombophilia. Her test shows a factor V variant.",
+          "Thrombomodulin defects are rare and would reduce protein C activation. Her abnormal test is resistance of factor Va to protein C that is already activated.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Factor V Leiden",
+            "Protein C pathway",
+            "Inherited thrombophilias"
+          ],
+          "comps": [
+            "CV-14",
+            "CV-13"
+          ]
+        }
+      },
+      {
+        "id": "CV-C57-Q2",
+        "stem": "Her husband is tested and is also heterozygous for factor V Leiden. Which of the following is the probability that their first child will be homozygous for the variant?",
+        "options": [
+          "12.5%",
+          "25%",
+          "50%",
+          "75%"
+        ],
+        "answer": 1,
+        "sea": "B",
+        "comp": "CV-14",
+        "dok": 2,
+        "approach": [
+          "Each heterozygous parent passes the variant allele with a probability of 1/2.",
+          "A homozygous child must receive the variant from both parents.",
+          "Multiply: 1/2 times 1/2 equals 1/4, or 25%."
+        ],
+        "why": "Factor V Leiden is inherited in an autosomal dominant pattern for thrombosis risk, with incomplete penetrance. Two heterozygous parents give a 25% chance of a homozygous child, a 50% chance of a heterozygous child, and a 25% chance of an unaffected child. Homozygotes have a much higher lifetime risk of clotting than heterozygotes, which is why this calculation matters for counseling.",
+        "whyNot": [
+          "12.5% would apply if one more independent 1/2 event were required. With two heterozygous parents there are only two transmissions.",
+          "Correct.",
+          "50% is the chance of a heterozygous child, or of any affected child if only one parent carried the variant.",
+          "75% is the chance that a child carries at least one copy (heterozygous or homozygous), not the chance of being homozygous."
+        ],
+        "study": {
+          "topics": [
+            "Punnett square for two heterozygotes",
+            "Autosomal dominant inheritance with incomplete penetrance"
+          ],
+          "comps": [
+            "CV-14"
+          ]
+        }
+      },
+      {
+        "id": "CV-C57-Q3",
+        "stem": "Two days later, she develops sudden weakness of the left arm. MRI of the brain shows a small acute infarct in the territory of the right middle cerebral artery. Echocardiography with agitated saline shows bubbles passing from the right atrium to the left atrium during a Valsalva maneuver through a flap-like opening in the atrial septum; no septal tissue is missing. Failure of which of the following normal processes most likely allowed a leg thrombus to reach her brain?",
+        "options": [
+          "Sealing of the opening between septum primum and septum secundum",
+          "Closure of the ductus arteriosus soon after the first breaths",
+          "Obliteration of the ductus venosus to form the ligamentum venosum",
+          "Division of the truncus arteriosus by the aorticopulmonary septum"
+        ],
+        "answer": 0,
+        "sea": "A",
+        "comp": "CV-1",
+        "dok": 3,
+        "approach": [
+          "A venous clot causing a stroke means it crossed from the right side of the heart to the left (paradoxical embolism).",
+          "A flap-like atrial opening that opens with straining is a patent foramen ovale.",
+          "The foramen ovale closes when the septum primum seals against the septum secundum after birth."
+        ],
+        "why": "Before birth, the foramen ovale lets blood pass from the right to the left atrium through the gap between the septum secundum and the septum primum. After birth, left atrial pressure rises above right, pressing the septum primum against the septum secundum, and the two usually fuse. In about a quarter of adults they never fuse, leaving a patent foramen ovale. Straining raises right atrial pressure, opens the flap, and lets a venous clot reach the systemic arteries.",
+        "whyNot": [
+          "Correct.",
+          "A patent ductus arteriosus connects the aorta and pulmonary artery, not the atria, and usually shunts left to right after birth.",
+          "The ductus venosus bypasses the fetal liver. Its persistence would not create an atrial-level shunt.",
+          "Failed truncal division causes persistent truncus arteriosus, a cyanotic defect present from infancy, not an adult atrial flap."
+        ],
+        "study": {
+          "topics": [
+            "Patent foramen ovale",
+            "Paradoxical embolism",
+            "Atrial septation"
+          ],
+          "comps": [
+            "CV-1",
+            "CV-18-G3"
+          ]
+        }
+      },
+      {
+        "id": "CV-C57-Q4",
+        "stem": "Her thrombosis risk increased sharply after she began taking the combined oral contraceptive. Which of the following mechanisms best explains this added risk?",
+        "options": [
+          "Estrogen stimulates erythropoietin release and thickens the blood",
+          "Progestin destroys the valves in the deep veins of the lower leg",
+          "Estrogen raises hepatic clotting factors and lowers protein S",
+          "Estrogen causes thrombocytosis by raising thrombopoietin output"
+        ],
+        "answer": 2,
+        "sea": "X",
+        "comp": "CV-18-I10",
+        "dok": 3,
+        "approach": [
+          "Estrogen acts on the liver, where most clotting proteins are made.",
+          "It increases procoagulant factors and decreases natural anticoagulants such as protein S and antithrombin.",
+          "This acquired hypercoagulable state adds to the inherited APC resistance."
+        ],
+        "why": "Oral estrogen passes through the liver and raises synthesis of fibrinogen and factors II, VII, VIII, and X while lowering protein S and antithrombin. Lower free protein S also produces an acquired resistance to activated protein C. Combined with factor V Leiden, these two hits on the protein C pathway multiply her risk well beyond either one alone.",
+        "whyNot": [
+          "Estrogen does not raise erythropoietin. Androgens and hypoxia do, and the higher hematocrit raises viscosity.",
+          "No hormone destroys venous valves. Valve damage follows a prior DVT and leads to post-thrombotic syndrome.",
+          "Correct.",
+          "Estrogen does not cause thrombocytosis. High platelet counts arise from inflammation, iron deficiency, or myeloproliferative disease."
+        ],
+        "study": {
+          "topics": [
+            "Estrogen and coagulation",
+            "Acquired hypercoagulable states"
+          ],
+          "comps": [
+            "CV-18-I10",
+            "CV-18-H6"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "CV-C58",
+    "system": "CV",
+    "dx": "Varicose veins with chronic venous insufficiency",
+    "codes": [
+      "CV-18-I11"
+    ],
+    "case": "A 56-year-old man comes to the physician because of heaviness and aching of the right leg that worsen through the day and improve with elevation. He has worked as a line cook for 30 years, standing about 10 hours a day. Physical examination shows dilated, tortuous superficial veins along the medial thigh and calf of the right leg, ankle edema, and brown, thickened skin above the medial malleolus. The ankle-brachial index is 1.05 (0.9 to 1.3). Duplex ultrasonography shows reflux in the main superficial vein of the medial leg and at its junction with the deep system, and incompetent valves in the deep veins. The diagnosis is varicose veins with chronic venous insufficiency.",
+    "questions": [
+      {
+        "id": "CV-C58-Q1",
+        "stem": "His varicosities follow the medial thigh and calf. Which of the following best describes the incompetent superficial vein and its normal site of termination in the deep system?",
+        "options": [
+          "Small saphenous vein into the femoral vein in the groin",
+          "Great saphenous vein into the popliteal vein behind the knee",
+          "Great saphenous vein into the femoral vein in the groin",
+          "Small saphenous vein into the popliteal vein behind the knee"
+        ],
+        "answer": 2,
+        "sea": "A",
+        "comp": "CV-9",
+        "dok": 2,
+        "approach": [
+          "Medial leg and thigh varicosities follow the great saphenous vein.",
+          "Trace its course: anterior to the medial malleolus, up the medial leg, behind the medial femoral condyle, and up the medial thigh.",
+          "It passes through the saphenous opening in the fascia lata to join the femoral vein."
+        ],
+        "why": "The great saphenous vein begins at the medial end of the dorsal venous arch, passes anterior to the medial malleolus, and ascends the medial leg and thigh. It ends by passing through the saphenous opening in the fascia lata, just below and lateral to the pubic tubercle, to join the femoral vein. Valve failure at this saphenofemoral junction is the most common source of reflux in varicose veins.",
+        "whyNot": [
+          "The small saphenous vein ends in the popliteal fossa, not the groin.",
+          "The great saphenous vein passes behind the knee on its medial side but continues up to the groin. It does not end in the popliteal vein.",
+          "Correct.",
+          "This is the correct course of the small saphenous vein, which runs behind the lateral malleolus and up the back of the calf. Reflux there gives posterior calf varicosities."
+        ],
+        "study": {
+          "topics": [
+            "Great and small saphenous veins",
+            "Saphenous opening"
+          ],
+          "comps": [
+            "CV-9",
+            "CV-18-I11"
+          ]
+        }
+      },
+      {
+        "id": "CV-C58-Q2",
+        "stem": "In a healthy adult, foot venous pressure is about 90 mmHg during quiet standing and falls sharply within a few steps of walking. Which of the following best describes this patient's foot venous pressure during walking?",
+        "options": [
+          "It falls as far as in a healthy leg because his calf muscles still contract",
+          "It falls only a little because blood refluxes through incompetent valves",
+          "It rises above arterial pressure because contracting muscles block outflow",
+          "It falls below normal because his dilated veins act as a large reservoir"
+        ],
+        "answer": 1,
+        "sea": "P",
+        "comp": "CV-12",
+        "dok": 3,
+        "approach": [
+          "Standing still, foot venous pressure equals the weight of the blood column up to the heart, about 90 mmHg.",
+          "During walking, each calf contraction empties the veins, and competent valves break the column into short segments, so pressure falls.",
+          "With incompetent valves, blood refluxes back between contractions and the column stays intact."
+        ],
+        "why": "During exercise, the muscle pump plus competent valves lowers foot venous pressure, which reduces capillary filtration and edema. When valves fail, the veins refill from above almost as fast as they are emptied, so pressure falls only slightly and stays high during walking (ambulatory venous hypertension). This sustained pressure drives the edema, skin changes, and ulcers of chronic venous insufficiency.",
+        "whyNot": [
+          "Muscle contraction alone does not lower pressure. Without working valves, blood flows back as soon as the muscle relaxes.",
+          "Correct.",
+          "Venous pressure cannot rise above arterial pressure in a leg with intact arterial inflow, and muscle contraction pushes blood toward the heart.",
+          "Dilated veins hold more blood, which keeps pressure high. They do not lower it below normal."
+        ],
+        "study": {
+          "topics": [
+            "Ambulatory venous pressure",
+            "Muscle pump during exercise"
+          ],
+          "comps": [
+            "CV-12",
+            "CV-11"
+          ]
+        }
+      },
+      {
+        "id": "CV-C58-Q3",
+        "stem": "Two years later, a shallow, irregular, weeping ulcer develops on the same leg. Which of the following best describes the most likely location and mechanism of this ulcer?",
+        "options": [
+          "Tips of the toes, from reduced arterial inflow and ischemia",
+          "Under the metatarsal heads, from repeated pressure on numb skin",
+          "Back of the heel, from prolonged pressure while lying in bed",
+          "Above the medial ankle, from sustained venous hypertension"
+        ],
+        "answer": 3,
+        "sea": "X",
+        "comp": "CV-18-I11",
+        "dok": 2,
+        "approach": [
+          "Link the disease to its pressure problem: high venous pressure in the lower leg.",
+          "That pressure is highest and the skin most affected in the gaiter area above the medial malleolus.",
+          "Choose the location and mechanism that match venous disease."
+        ],
+        "why": "Sustained venous hypertension distends skin capillaries and lets fluid, fibrinogen, and red cells leak into the tissue. Trapped leukocytes, fibrosis (lipodermatosclerosis), and poor nutrient exchange make the skin fragile, and it breaks down into a shallow, irregular ulcer. These ulcers most often occur above the medial malleolus, where the brown, thickened skin already appears.",
+        "whyNot": [
+          "Painful, punched-out ulcers on the toe tips come from peripheral arterial disease. His ankle-brachial index is normal.",
+          "Ulcers under the metatarsal heads are neuropathic, as in diabetic neuropathy. Nothing here suggests sensory loss.",
+          "Heel pressure injuries occur in bedbound patients. He is ambulatory, and his skin changes point to venous disease.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Venous stasis ulcers",
+            "Arterial versus venous versus neuropathic ulcers"
+          ],
+          "comps": [
+            "CV-18-I11",
+            "CV-18-I6"
+          ]
+        }
+      },
+      {
+        "id": "CV-C58-Q4",
+        "stem": "Which of the following best describes the brown pigment in the skin above his medial malleolus and its source?",
+        "options": [
+          "Iron from leaked red cells, stored by macrophages as hemosiderin",
+          "Lipofuscin from lipid peroxidation in aging dermal fibroblasts",
+          "Bilirubin carried in the blood and deposited in the dermis",
+          "Homogentisic acid polymer bound to collagen fibers of the dermis"
+        ],
+        "answer": 0,
+        "sea": "B",
+        "comp": "CV-13",
+        "dok": 3,
+        "approach": [
+          "High capillary pressure lets red cells leak into the dermis.",
+          "Macrophages engulf the red cells and break down hemoglobin.",
+          "The released iron is stored as ferritin, which aggregates into brown hemosiderin."
+        ],
+        "why": "Macrophages break down the hemoglobin of leaked red cells. Heme oxygenase opens the heme ring, releasing iron and producing biliverdin, which becomes bilirubin and is carried away. The iron stays in the macrophage, bound to ferritin, and excess ferritin aggregates into golden-brown hemosiderin granules that stain blue with Prussian blue. This local iron deposit is what gives stasis skin its brown color.",
+        "whyNot": [
+          "Correct.",
+          "Lipofuscin is a yellow-brown wear-and-tear pigment inside aging cells such as neurons and cardiac myocytes. It does not explain a localized patch above the ankle.",
+          "Bilirubin is cleared from tissue and colors skin diffusely yellow in jaundice. It does not form a fixed brown patch over the ankle.",
+          "Homogentisic acid deposits occur in alkaptonuria (ochronosis) and darken cartilage, ears, and sclerae."
+        ],
+        "study": {
+          "topics": [
+            "Heme degradation",
+            "Ferritin and hemosiderin",
+            "Stasis dermatitis"
+          ],
+          "comps": [
+            "CV-13",
+            "CV-18-I11"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "CV-C59",
+    "system": "CV",
+    "dx": "Kaposi sarcoma in advanced HIV infection",
+    "codes": [
+      "CV-18-J2"
+    ],
+    "case": "A 38-year-old man comes to the physician because of a 2-month history of painless purple plaques and nodules on both lower legs. He has HIV infection and stopped taking antiretroviral therapy 3 years ago. Physical examination also shows a flat violaceous lesion on the hard palate and mild edema of both legs. CD4+ T-lymphocyte count is 42/µL (500 to 1,500), and HIV RNA is 210,000 copies/mL. Biopsy of a leg nodule is positive on immunostaining for a latency protein of a virus known to cause this tumor. The diagnosis is Kaposi sarcoma in advanced HIV infection (AIDS).",
+    "questions": [
+      {
+        "id": "CV-C59-Q1",
+        "stem": "Which of the following best describes the virus that causes this patient's tumor?",
+        "options": [
+          "Nonenveloped double-stranded DNA virus in the papillomavirus family",
+          "Enveloped double-stranded DNA virus in the gammaherpesvirus subfamily",
+          "Enveloped single-stranded RNA retrovirus that uses reverse transcriptase",
+          "Enveloped double-stranded DNA virus in the betaherpesvirus subfamily"
+        ],
+        "answer": 1,
+        "sea": "M",
+        "comp": "CV-17",
+        "dok": 2,
+        "approach": [
+          "Kaposi sarcoma is caused by human herpesvirus 8 (HHV-8, also called KSHV).",
+          "All herpesviruses are enveloped double-stranded DNA viruses that establish latency.",
+          "HHV-8 belongs with Epstein-Barr virus in the gammaherpesvirus subfamily, which infects lymphocytes and drives cell growth."
+        ],
+        "why": "HHV-8 is an enveloped, linear double-stranded DNA gammaherpesvirus. It spreads mainly through saliva and also through sexual contact and transplanted organs. It stays latent in B cells and endothelial cells, where latency proteins such as LANA keep the viral genome and push cell growth. HHV-8 also causes primary effusion lymphoma and multicentric Castleman disease.",
+        "whyNot": [
+          "Papillomaviruses are nonenveloped dsDNA viruses that cause warts and cervical, anal, and oropharyngeal cancers, not Kaposi sarcoma.",
+          "Correct.",
+          "This describes HIV itself. HIV causes the immune deficiency that allows Kaposi sarcoma but is not the tumor virus.",
+          "Cytomegalovirus (HHV-5) is a betaherpesvirus. In AIDS it causes retinitis and colitis, not Kaposi sarcoma."
+        ],
+        "study": {
+          "topics": [
+            "Herpesvirus subfamilies",
+            "HHV-8 transmission and latency"
+          ],
+          "comps": [
+            "CV-17",
+            "CV-18-J2"
+          ]
+        }
+      },
+      {
+        "id": "CV-C59-Q2",
+        "stem": "After antiretroviral therapy is restarted, his CD4+ T-lymphocyte count increases over several months and his lesions regress. Restoration of which of the following immune responses best explains the regression?",
+        "options": [
+          "IgE-triggered mast cell degranulation in the dermis",
+          "Neutrophil phagocytosis of the infected spindle cells",
+          "Complement lysis of infected cells by the attack complex",
+          "Virus-specific CD8 T-cell killing aided by CD4 T cells"
+        ],
+        "answer": 3,
+        "sea": "M",
+        "comp": "CV-16",
+        "dok": 3,
+        "approach": [
+          "Latent virus sits inside cells, out of reach of antibodies and complement.",
+          "Cells infected with virus show viral peptides on MHC class I, which CD8 cytotoxic T cells recognize.",
+          "CD8 responses need CD4 helper T cells, so restoring CD4 cells restores control."
+        ],
+        "why": "Intracellular viral infection is controlled by cell-mediated immunity. CD8 cytotoxic T cells recognize HHV-8 peptides on MHC class I and kill infected cells with perforin and granzymes. CD4 helper T cells make IL-2 and license dendritic cells, which sustains effective CD8 responses. When HIV depletes CD4 cells, HHV-8 escapes this control, and when ART restores them, lesions often regress.",
+        "whyNot": [
+          "IgE and mast cells defend against parasites and cause allergy. They play no role in controlling herpesvirus-infected cells.",
+          "Neutrophils mainly kill extracellular bacteria and fungi. They do not target virus-infected tumor cells.",
+          "The membrane attack complex is most important against Neisseria and other extracellular bacteria. Latent virus inside cells escapes it.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Cell-mediated immunity to viruses",
+            "CD4 help for CD8 T cells",
+            "Immune reconstitution"
+          ],
+          "comps": [
+            "CV-16"
+          ]
+        }
+      },
+      {
+        "id": "CV-C59-Q3",
+        "stem": "Which of the following histologic findings is most likely in the biopsy specimen of the leg nodule?",
+        "options": [
+          "Lobular capillaries with neutrophils and silver-staining bacilli",
+          "Atypical melanocytes spreading upward through the epidermis",
+          "Spindle cells forming slitlike spaces with extravasated red cells",
+          "Thin-walled capillaries lined by a single layer of flat endothelium"
+        ],
+        "answer": 2,
+        "sea": "X",
+        "comp": "CV-18-J2",
+        "dok": 2,
+        "approach": [
+          "Kaposi sarcoma is a tumor of endothelial-type spindle cells.",
+          "The spindle cells form jagged, slitlike vascular channels.",
+          "Red cells leak out of these channels, leaving hemosiderin, which gives the lesion its purple color."
+        ],
+        "why": "Nodular Kaposi sarcoma shows sheets of plump spindle cells forming slitlike vascular spaces packed with red cells, along with extravasated red cells and hemosiderin-laden macrophages. The spindle cells carry HHV-8, which is shown by immunostaining for LANA. The leaked blood and slow flow give the lesions their purple to brown color.",
+        "whyNot": [
+          "This describes bacillary angiomatosis, caused by Bartonella henselae or quintana in AIDS. It can look like Kaposi sarcoma on the skin but responds to antibiotics.",
+          "Upward (pagetoid) spread of atypical melanocytes describes melanoma, a pigmented tumor of melanocytes with no vascular channels.",
+          "Correct.",
+          "Well-formed capillaries lined by normal flat endothelium describe a benign capillary hemangioma, which lacks spindle cells and slitlike spaces."
+        ],
+        "study": {
+          "topics": [
+            "Kaposi sarcoma histology",
+            "Bacillary angiomatosis",
+            "Vascular tumors"
+          ],
+          "comps": [
+            "CV-18-J2",
+            "CV-18-J1"
+          ]
+        }
+      },
+      {
+        "id": "CV-C59-Q4",
+        "stem": "The causative virus encodes a homolog of cellular cyclin D. Which of the following best describes how this viral cyclin promotes proliferation of infected cells?",
+        "options": [
+          "It pairs with CDK6 to phosphorylate Rb and free E2F",
+          "It stabilizes the Rb and E2F complex to hold cells in G1",
+          "It activates p53, which induces p21 and arrests the cycle",
+          "It inhibits CDK1 and blocks the cell from entering mitosis"
+        ],
+        "answer": 0,
+        "sea": "B",
+        "comp": "CV-18-J2",
+        "dok": 3,
+        "approach": [
+          "Cyclin D normally binds CDK4 or CDK6 in G1.",
+          "The cyclin-CDK complex phosphorylates Rb, which releases E2F.",
+          "Free E2F turns on S-phase genes, so the cell passes the G1 to S checkpoint."
+        ],
+        "why": "In G1, cyclin D partners with CDK4 or CDK6 to phosphorylate the retinoblastoma protein (Rb). Phosphorylated Rb releases E2F transcription factors, which turn on genes needed for DNA synthesis. The HHV-8 viral cyclin binds CDK6 and resists normal CDK inhibitors, so it keeps Rb phosphorylated and drives continuous cell cycle entry. Other HHV-8 latency proteins, such as LANA, also block p53 and Rb.",
+        "whyNot": [
+          "Correct.",
+          "Hypophosphorylated Rb bound to E2F holds cells in G1. A cyclin that promoted this would stop growth, the opposite of an oncogenic effect.",
+          "p53 activation and p21 production stop the cell cycle. Viruses that cause cancer block p53 instead.",
+          "Blocking CDK1 would arrest cells at G2. Cyclin D partners act earlier, at the G1 to S transition."
+        ],
+        "study": {
+          "topics": [
+            "Cyclins, CDKs, and Rb",
+            "Viral oncogenesis"
+          ],
+          "comps": [
+            "CV-18-J2",
+            "CV-14"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "CV-C60",
+    "system": "CV",
+    "dx": "Secondary lymphedema after axillary lymph node dissection",
+    "codes": [
+      "CV-10",
+      "CV-18-H4"
+    ],
+    "case": "A 52-year-old woman comes to the physician because of gradually increasing swelling and heaviness of the right arm and hand; her rings no longer fit. Ten months ago, she underwent right modified radical mastectomy with axillary lymph node dissection, followed by axillary radiation, for invasive ductal carcinoma. The right forearm circumference is 5 cm greater than the left. The swelling was pitting at first but is now firm and nonpitting, with thickened skin. Venous duplex ultrasonography shows no thrombosis. Serum albumin is 4.1 g/dL (3.5 to 5.0). Lymphoscintigraphy shows delayed lymph transport, dermal backflow, and no axillary node uptake. The diagnosis is secondary lymphedema of the right arm.",
+    "questions": [
+      {
+        "id": "CV-C60-Q1",
+        "stem": "Before her surgery, lymph from her right hand entered the venous circulation at which of the following sites?",
+        "options": [
+          "Junction of the right subclavian and right internal jugular veins",
+          "Junction of the left subclavian and left internal jugular veins",
+          "Cisterna chyli, anterior to the first and second lumbar vertebrae",
+          "Azygos vein, through lymphatics that follow the intercostal spaces"
+        ],
+        "answer": 0,
+        "sea": "A",
+        "comp": "CV-10",
+        "dok": 2,
+        "approach": [
+          "Trace the path: hand lymphatics, then axillary nodes, then apical axillary nodes.",
+          "The right subclavian lymph trunk carries this lymph to the right lymphatic duct or directly to the vein.",
+          "It enters the blood at the right venous angle, where the right subclavian and internal jugular veins meet."
+        ],
+        "why": "Lymph from the upper limb drains through the axillary nodes to the apical group, then into the subclavian lymph trunk. On the right, this trunk joins the right lymphatic duct or opens on its own at the right venous angle. The right lymphatic duct drains only the right upper limb and the right side of the head, neck, and thorax. All other lymph reaches the left venous angle through the thoracic duct.",
+        "whyNot": [
+          "Correct.",
+          "The left venous angle receives the thoracic duct, which drains everything below the diaphragm plus the left side of the head, neck, thorax, and left upper limb. It would be correct for her left arm.",
+          "The cisterna chyli collects lymph from the abdomen and lower limbs and is the start of the thoracic duct. It is not a point of entry into the blood.",
+          "Intercostal lymphatics drain the chest wall to parasternal and intercostal nodes. The azygos vein does not receive upper limb lymph."
+        ],
+        "study": {
+          "topics": [
+            "Lymphatic drainage of the upper limb",
+            "Right lymphatic duct and thoracic duct"
+          ],
+          "comps": [
+            "CV-10"
+          ]
+        }
+      },
+      {
+        "id": "CV-C60-Q2",
+        "stem": "Her serum albumin concentration is normal, and her veins are patent. Which of the following changes in Starling forces most likely sustains the fluid accumulation in her arm?",
+        "options": [
+          "Higher capillary hydrostatic pressure from venous outflow blockage",
+          "Lower plasma oncotic pressure from loss of albumin in the urine",
+          "Higher interstitial oncotic pressure from retained tissue protein",
+          "Higher capillary permeability from widened endothelial cell gaps"
+        ],
+        "answer": 2,
+        "sea": "P",
+        "comp": "CV-11",
+        "dok": 3,
+        "approach": [
+          "Capillaries normally filter a small net amount of fluid and protein that only lymphatics can return.",
+          "With lymphatics removed, the protein stays in the interstitium.",
+          "Interstitial oncotic pressure rises, which increases net filtration and traps more water."
+        ],
+        "why": "Even with normal Starling forces, capillaries filter a little more fluid than they reabsorb, along with small amounts of plasma protein. Lymphatics normally return this fluid and protein to the blood, about 2 to 3 L per day for the whole body. Without lymph drainage, protein accumulates in the tissue, raising interstitial oncotic pressure and drawing still more fluid out of the capillaries. This is why lymphedema fluid is high in protein, unlike most other edemas.",
+        "whyNot": [
+          "Venous obstruction raises capillary hydrostatic pressure, as in DVT. Her duplex scan shows open veins.",
+          "Low plasma oncotic pressure occurs in nephrotic syndrome and liver failure. Her albumin is normal.",
+          "Correct.",
+          "Increased permeability occurs in inflammation, burns, and sepsis. Her edema came on gradually after node removal, with no sign of inflammation."
+        ],
+        "study": {
+          "topics": [
+            "Starling forces",
+            "Lymph flow",
+            "Mechanisms of edema"
+          ],
+          "comps": [
+            "CV-11",
+            "CV-18-H4"
+          ]
+        }
+      },
+      {
+        "id": "CV-C60-Q3",
+        "stem": "Which of the following best explains the change in her swelling from soft and pitting to firm and nonpitting?",
+        "options": [
+          "Glycosaminoglycans deposited in the dermis from thyroid disease",
+          "Clot organizing in the deep veins and stiffening the arm tissue",
+          "Hemosiderin deposited from repeated bleeding into soft tissue",
+          "Protein-rich fluid driving fibrosis and fat buildup in tissue"
+        ],
+        "answer": 3,
+        "sea": "X",
+        "comp": "CV-18-H4",
+        "dok": 2,
+        "approach": [
+          "Early lymphedema is free fluid that can be pushed aside, so it pits.",
+          "Long-standing protein-rich fluid causes chronic inflammation that stimulates fibroblasts and fat cells.",
+          "Fibrosis and fat do not move under pressure, so the swelling becomes firm and nonpitting."
+        ],
+        "why": "Stagnant, protein-rich interstitial fluid triggers chronic low-grade inflammation. Fibroblasts lay down collagen, adipose tissue expands, and the skin thickens. Once fibrosis and fat replace free fluid, pressing on the arm no longer leaves a pit, and elevation alone no longer reduces the swelling. Skin may take on a thick, dimpled texture (peau d'orange), and long-standing cases carry a small risk of angiosarcoma.",
+        "whyNot": [
+          "Glycosaminoglycan deposition causes nonpitting myxedema in hypothyroidism or pretibial myxedema in Graves disease. Nothing suggests thyroid disease here.",
+          "Her duplex scan shows no venous thrombosis.",
+          "Hemosiderin causes brown discoloration, as in venous stasis. It does not make tissue firm, and she has no history of bleeding.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Chronic lymphedema",
+            "Pitting versus nonpitting edema"
+          ],
+          "comps": [
+            "CV-18-H4",
+            "CV-10"
+          ]
+        }
+      },
+      {
+        "id": "CV-C60-Q4",
+        "stem": "Eight months later, she has a temperature of 38.6 °C (101.5 °F) and a warm, spreading area of erythema without pus on the swollen forearm. Blood cultures grow beta-hemolytic, gram-positive cocci in chains that are sensitive to bacitracin. Which of the following surface proteins of this organism resists phagocytosis and is the main target of type-specific antibodies?",
+        "options": [
+          "Protein A, which binds the Fc portion of IgG and blocks opsonization",
+          "M protein, which recruits factor H and limits C3b deposition",
+          "Coagulase, which clots plasma and wraps the organism in fibrin",
+          "Internalin, which binds E-cadherin to enter epithelial cells"
+        ],
+        "answer": 1,
+        "sea": "M",
+        "comp": "CV-17",
+        "dok": 3,
+        "approach": [
+          "Beta-hemolytic cocci in chains that are bacitracin sensitive are Streptococcus pyogenes (group A).",
+          "Lymphedema impairs local immune surveillance and is a strong risk factor for recurrent streptococcal cellulitis.",
+          "The major group A antiphagocytic surface protein, and the basis for typing, is M protein."
+        ],
+        "why": "Streptococcus pyogenes is a common cause of nonpurulent cellulitis, and a lymphedematous limb is especially prone to repeated attacks. M protein extends from the cell wall and binds host factor H, which speeds breakdown of C3b, so less complement opsonin coats the bacterium and phagocytes cannot grab it. Antibodies against a given M type protect against that type, and M protein also shows molecular mimicry with cardiac proteins, the basis of rheumatic fever.",
+        "whyNot": [
+          "Protein A is the antiphagocytic surface protein of Staphylococcus aureus, which grows in clusters and is catalase positive.",
+          "Correct.",
+          "Coagulase identifies Staphylococcus aureus. It is an enzyme that converts fibrinogen to fibrin, not a streptococcal surface protein.",
+          "Internalin lets Listeria monocytogenes enter gut epithelial cells. Listeria is a gram-positive rod."
+        ],
+        "study": {
+          "topics": [
+            "Streptococcus pyogenes virulence factors",
+            "Cellulitis risk in lymphedema"
+          ],
+          "comps": [
+            "CV-17",
+            "CV-16"
+          ]
+        }
+      }
+    ]
+  }
+]

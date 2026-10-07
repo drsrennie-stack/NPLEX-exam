@@ -1,0 +1,943 @@
+[
+ {
+  "id": "CV-C07",
+  "system": "CV",
+  "dx": "Stable angina pectoris from a fixed atherosclerotic coronary narrowing",
+  "codes": [
+   "CV-18-C1"
+  ],
+  "case": "A 58-year-old woman who works as a letter carrier comes to the physician because of a 3-month history of pressure-like substernal chest discomfort. The discomfort occurs when she walks uphill carrying her mail bag and resolves within 5 minutes of rest. It has never occurred at rest. She has type 2 diabetes mellitus and smokes cigarettes. Pulse is 76/min and blood pressure is 146/88 mm Hg. An ECG at rest shows no abnormalities. Serum LDL cholesterol is 168 mg/dL (reference below 100 mg/dL), and HDL cholesterol is 38 mg/dL (reference 50 mg/dL or higher for women). During treadmill exercise testing, at a heart rate of 142/min, she develops her usual discomfort and 2-mm horizontal ST-segment depression in leads V4 to V6 that resolves during recovery. Diagnosis: stable angina pectoris from a fixed atherosclerotic coronary narrowing.",
+  "questions": [
+   {
+    "id": "CV-C07-Q1",
+    "stem": "During exercise, rising shear stress on healthy coronary endothelium triggers release of nitric oxide, which dilates the artery. In atherosclerotic segments like hers, nitric oxide output is reduced and the artery dilates poorly. Which of the following reactions produces nitric oxide in endothelial cells?",
+    "options": [
+     "Guanylyl cyclase converting GTP into nitric oxide and cGMP",
+     "Nitric oxide synthase oxidizing L-arginine to L-citrulline",
+     "Arginase splitting L-arginine into ornithine and nitric oxide",
+     "Heme oxygenase breaking down heme into biliverdin and nitric oxide"
+    ],
+    "answer": 1,
+    "sea": "B",
+    "comp": "CV-13",
+    "dok": 2,
+    "approach": [
+     "The clue is a gas made by endothelium that relaxes smooth muscle.",
+     "Recall the enzyme that makes it and its amino acid substrate.",
+     "Separate the enzyme that makes nitric oxide from the enzyme nitric oxide activates."
+    ],
+    "why": "Endothelial nitric oxide synthase (eNOS) oxidizes L-arginine, using oxygen and NADPH with tetrahydrobiopterin as a cofactor, to form nitric oxide and L-citrulline. Shear stress and calcium-calmodulin activate eNOS. Nitric oxide diffuses into vascular smooth muscle, activates soluble guanylyl cyclase, and raises cGMP, which lowers cytosolic calcium and relaxes the vessel. Atherosclerosis and its risk factors reduce nitric oxide availability (endothelial dysfunction), so the narrowed artery cannot dilate well when demand rises.",
+    "whyNot": [
+     "Guanylyl cyclase is the target of nitric oxide in smooth muscle. It converts GTP to cGMP and does not make nitric oxide.",
+     "Correct.",
+     "Arginase converts L-arginine to ornithine and urea in the urea cycle. It competes with nitric oxide synthase for arginine but makes no nitric oxide.",
+     "Heme oxygenase breaks heme into biliverdin, iron, and carbon monoxide. Carbon monoxide is a different gas signal."
+    ],
+    "study": {
+     "topics": [
+      "Endothelial nitric oxide synthesis",
+      "Endothelial dysfunction in atherosclerosis"
+     ],
+     "comps": [
+      "CV-13",
+      "CV-11",
+      "CV-18-I3"
+     ]
+    }
+   },
+   {
+    "id": "CV-C07-Q2",
+    "stem": "Her high LDL enters the intima of her coronary arteries, where some of it is oxidized. Macrophages take up the oxidized LDL and become lipid-filled foam cells. Which of the following best explains why macrophages continue to take up cholesterol after their cholesterol content is high?",
+    "options": [
+     "Rising cell cholesterol activates SREBP and raises LDL receptor numbers",
+     "Oxidized LDL crosses the cell membrane only by passive diffusion",
+     "Macrophages lack the enzyme that esterifies cholesterol for storage",
+     "Scavenger receptors for oxidized LDL are not suppressed by cholesterol"
+    ],
+    "answer": 3,
+    "sea": "B",
+    "comp": "CV-13",
+    "dok": 3,
+    "approach": [
+     "Recall how most cells stop LDL uptake when cholesterol is high.",
+     "Identify which receptor macrophages use for oxidized LDL.",
+     "Ask whether that receptor is under the same sterol feedback."
+    ],
+    "why": "Most cells take up native LDL through the LDL receptor. When cell cholesterol rises, SREBP stays in the endoplasmic reticulum, so transcription of the LDL receptor and HMG-CoA reductase falls and uptake stops. Macrophages take up oxidized LDL through scavenger receptors such as SR-A and CD36, which lack this feedback. Uptake therefore continues, the cholesterol is esterified by ACAT and stored in droplets, and the cell becomes a foam cell.",
+    "whyNot": [
+     "High cell cholesterol does the opposite: it keeps SREBP inactive and lowers LDL receptor numbers. This feedback is why the LDL receptor pathway cannot make foam cells.",
+     "Oxidized LDL is a large particle taken up by receptor-mediated endocytosis. It does not diffuse across the membrane.",
+     "Macrophages do esterify cholesterol with ACAT. The stored cholesteryl ester droplets are what give foam cells their foamy look.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Scavenger receptors and foam cell formation",
+      "SREBP regulation of the LDL receptor"
+     ],
+     "comps": [
+      "CV-13",
+      "CV-18-I3"
+     ]
+    }
+   },
+   {
+    "id": "CV-C07-Q3",
+    "stem": "Eight months later she has chest discomfort at rest that lasts about 20 minutes and recurs several times over 2 days. During pain her ECG shows ST depression in V3 to V6. Serial troponin levels stay within the reference range. Which of the following changes in her coronary plaque most likely caused this new pattern?",
+    "options": [
+     "A fissured plaque cap with a thrombus partly blocking the lumen",
+     "Slow plaque growth that thickens its collagen-rich fibrous cap",
+     "Complete thrombotic occlusion causing full-thickness necrosis",
+     "Dystrophic calcification of the core with an intact plaque surface"
+    ],
+    "answer": 0,
+    "sea": "X",
+    "comp": "CV-18-C1",
+    "dok": 3,
+    "approach": [
+     "Rest pain that is new and recurring with normal troponin defines unstable angina.",
+     "Unstable angina comes from an acute change in the plaque, not gradual growth.",
+     "Normal troponin rules out myocardial necrosis."
+    ],
+    "why": "Pain at rest that is new or increasing, with ST depression and no troponin rise, is unstable angina. In most cases a plaque fissures or ruptures, platelets aggregate, and a thrombus forms that narrows the lumen without completely blocking it. Flow can fall at rest, and fragments may embolize downstream. Because troponin stays normal, the ischemia has not caused myocyte necrosis.",
+    "whyNot": [
+     "Correct.",
+     "Slow growth with a thick fibrous cap describes a stable plaque. It causes symptoms only when demand rises, which is her original pattern.",
+     "Complete occlusion with full-thickness necrosis is an ST-elevation MI. Troponin would rise and the ECG would show ST elevation.",
+     "Calcification makes a plaque stiffer but does not by itself cause a sudden change in symptoms. An intact surface does not trigger thrombosis."
+    ],
+    "study": {
+     "topics": [
+      "Unstable angina versus stable angina",
+      "Acute plaque change"
+     ],
+     "comps": [
+      "CV-18-C1",
+      "CV-18-C3",
+      "CV-18-I3"
+     ]
+    }
+   },
+   {
+    "id": "CV-C07-Q4",
+    "stem": "Her exercise ECG showed ST depression, which reflects ischemia limited to the inner layer of the left ventricular wall. Her heart rate rose to 142/min during the test. Which of the following best explains why the subendocardium is to become ischemic when demand rises past what a narrowed artery can supply?",
+    "options": [
+     "It is supplied by end arteries that arise from the coronary sinus",
+     "Its myocytes depend on anaerobic glycolysis even when oxygen is plentiful",
+     "It is squeezed in systole and perfused mainly during diastole",
+     "It is fed by blood from the ventricular cavity that is low in oxygen"
+    ],
+    "answer": 2,
+    "sea": "P",
+    "comp": "CV-8",
+    "dok": 3,
+    "approach": [
+     "Note where the ischemia is: the inner layer of the left ventricle.",
+     "Recall when left ventricular myocardium receives most of its flow.",
+     "Link a faster heart rate to a shorter diastole."
+    ],
+    "why": "Coronary arteries run on the epicardial surface and send branches inward, so the subendocardium is farthest from the supply. During systole, pressure inside the left ventricular wall is highest in the subendocardium and compresses its vessels, so most of its flow occurs during diastole. Tachycardia shortens diastole more than systole, which cuts subendocardial perfusion just as oxygen demand rises. With a fixed stenosis, this layer becomes ischemic first, producing ST depression on the surface ECG.",
+    "whyNot": [
+     "The coronary sinus is a vein that drains the heart into the right atrium. It does not supply any myocardium.",
+     "Cardiac myocytes rely on aerobic metabolism, mostly fatty acid oxidation, when oxygen is available. Anaerobic glycolysis takes over only during ischemia.",
+     "Correct.",
+     "Small veins (Thebesian veins) drain into the chambers, but the ventricular cavity does not supply the myocardium in a normal adult heart. The subendocardium is fed by coronary branches."
+    ],
+    "study": {
+     "topics": [
+      "Subendocardial perfusion",
+      "Effect of heart rate on diastolic time"
+     ],
+     "comps": [
+      "CV-8",
+      "CV-11",
+      "CV-18-C1"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "CV-C08",
+  "system": "CV",
+  "dx": "Chronic ischemic heart disease (ischemic cardiomyopathy) with heart failure",
+  "codes": [
+   "CV-18-C2"
+  ],
+  "case": "A 71-year-old man comes to the physician because of a 1-year history of increasing shortness of breath when climbing one flight of stairs, orthopnea, and ankle swelling. He has had no recent chest pain. He had myocardial infarctions at ages 60 and 66 years. Pulse is 88/min and blood pressure is 118/72 mm Hg. Physical examination shows crackles at both lung bases, an S3 gallop, and edema of both ankles. Serum BNP is 820 pg/mL (reference below 100 pg/mL). Echocardiography shows a dilated left ventricle with an ejection fraction of 30% (reference 55% to 70%), a thin, akinetic scar in the inferior wall, and a hypokinetic anterior wall. Coronary angiography shows severe stenosis of all three major coronary arteries. Diagnosis: chronic ischemic heart disease (ischemic cardiomyopathy) with heart failure.",
+  "questions": [
+   {
+    "id": "CV-C08-Q1",
+    "stem": "Further imaging shows that his hypokinetic anterior wall has normal thickness and takes up a metabolic tracer, so its myocytes are alive. After bypass surgery restores blood flow to it, the anterior wall contracts normally over the following weeks. Which of the following best describes the anterior wall before surgery?",
+    "options": [
+     "Stunned myocardium",
+     "Transmural collagen scar",
+     "Hibernating myocardium",
+     "Ventricular aneurysm"
+    ],
+    "answer": 2,
+    "sea": "X",
+    "comp": "CV-18-C2",
+    "dok": 2,
+    "approach": [
+     "The muscle is alive but weak while flow is chronically low.",
+     "Function returns only after flow is restored.",
+     "Match that pattern to the term, and separate it from stunning, which follows a brief ischemic episode."
+    ],
+    "why": "Hibernating myocardium is living muscle that lowers its contraction to match a chronically reduced blood supply. It stays weak as long as flow stays low and recovers after revascularization. It is common in chronic ischemic heart disease and is one reason bypass or stenting can improve ejection fraction. Detecting viable tissue with metabolic or perfusion imaging helps predict which segments will recover.",
+    "whyNot": [
+     "Stunned myocardium follows a brief episode of severe ischemia after flow has already returned. It recovers on its own over hours to days without revascularization.",
+     "A scar is dead tissue replaced by collagen. It is thin, does not take up a metabolic tracer, and does not regain contraction, like his inferior wall.",
+     "Correct.",
+     "A ventricular aneurysm is a thin scar that bulges outward during systole. It has no living muscle to recover."
+    ],
+    "study": {
+     "topics": [
+      "Hibernating versus stunned myocardium",
+      "Chronic ischemic heart disease"
+     ],
+     "comps": [
+      "CV-18-C2",
+      "CV-18-C3"
+     ]
+    }
+   },
+   {
+    "id": "CV-C08-Q2",
+    "stem": "His healthy myocardium gets most of its ATP from oxidizing fatty acids. In his poorly perfused but living segments, a shift toward oxidizing glucose instead would help those cells keep working. Which of the following best explains why this shift helps when oxygen supply is limited?",
+    "options": [
+     "Glucose oxidation yields more ATP for each molecule of oxygen used",
+     "Glucose oxidation yields more ATP per gram of fuel than fatty acids",
+     "Glucose oxidation makes all of its ATP without using mitochondria",
+     "Glucose oxidation avoids the citric acid cycle and the NADH it forms"
+    ],
+    "answer": 0,
+    "sea": "B",
+    "comp": "CV-13",
+    "dok": 3,
+    "approach": [
+     "The limiting factor in ischemia is oxygen, not fuel.",
+     "Compare fuels by ATP made per oxygen consumed.",
+     "Fatty acids are more reduced and use more oxygen for each ATP they produce."
+    ],
+    "why": "Fatty acids are more reduced than glucose, so their oxidation passes a larger share of electrons through FADH2 and uses more oxygen per carbon. As a result, complete oxidation of glucose produces more ATP for each molecule of oxygen consumed. When oxygen delivery is the limit, as in chronically ischemic myocardium, shifting fuel use toward glucose gets more work from the same oxygen. This is the rationale behind metabolic approaches that partly inhibit fatty acid oxidation in angina.",
+    "whyNot": [
+     "Correct.",
+     "Fatty acids yield more ATP per gram than glucose, which is why fat is the body's main energy store. The advantage of glucose is per oxygen, not per gram.",
+     "Only the glycolysis portion of glucose metabolism runs outside the mitochondria and yields 2 ATP. Complete oxidation needs the citric acid cycle and electron transport chain in mitochondria.",
+     "Pyruvate from glucose enters the citric acid cycle as acetyl-CoA and generates NADH, just as fatty acids do. Both fuels depend on the cycle."
+    ],
+    "study": {
+     "topics": [
+      "Myocardial fuel selection",
+      "ATP yield per oxygen for glucose and fatty acids"
+     ],
+     "comps": [
+      "CV-13",
+      "CV-18-C2"
+     ]
+    }
+   },
+   {
+    "id": "CV-C08-Q3",
+    "stem": "His left ventricle has dilated over several years. At the same systolic pressure, which of the following best describes the effect of the larger chamber on the oxygen demand of the remaining viable myocardium?",
+    "options": [
+     "Demand falls, because each fiber shortens less to eject the same stroke volume",
+     "Demand falls, because stretched fibers contract with greater mechanical efficiency",
+     "Demand stays the same, because myocardial oxygen use depends only on heart rate",
+     "Demand rises, because a larger radius raises the tension in the wall"
+    ],
+    "answer": 3,
+    "sea": "P",
+    "comp": "CV-6",
+    "dok": 3,
+    "approach": [
+     "Wall tension is a major driver of myocardial oxygen use.",
+     "Apply the law of Laplace: wall stress rises with pressure and radius and falls with wall thickness.",
+     "A dilated, thinned ventricle has a larger radius and a thinner wall."
+    ],
+    "why": "By the law of Laplace, wall stress is about pressure times radius divided by twice the wall thickness. A dilated ventricle has a larger radius and often a thinner wall, so each fiber must generate more tension to produce the same pressure. Wall tension, heart rate, and contractility are the main determinants of myocardial oxygen demand. Dilation therefore raises demand in a heart whose supply is already limited, which feeds the decline in chronic ischemic heart disease.",
+    "whyNot": [
+     "A larger chamber does need less fiber shortening per stroke volume, but each fiber must produce more tension. The rise in tension raises oxygen use.",
+     "Moderate stretch improves force through the Frank-Starling mechanism, but in a chronically dilated heart this benefit is exhausted and wall stress dominates.",
+     "Heart rate is one determinant of oxygen demand, but wall tension and contractility matter as well.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Law of Laplace and wall stress",
+      "Determinants of myocardial oxygen demand"
+     ],
+     "comps": [
+      "CV-6",
+      "CV-18-B1",
+      "CV-18-C2"
+     ]
+    }
+   },
+   {
+    "id": "CV-C08-Q4",
+    "stem": "A plaque removed from one of his coronary arteries contains many activated CD4+ T cells that secrete interferon-gamma. Which of the following best explains how this cytokine makes a plaque more likely to rupture?",
+    "options": [
+     "It drives B cells to switch to IgE production against plaque lipids",
+     "It blocks collagen synthesis by smooth muscle cells in the cap",
+     "It shifts macrophages toward a repair state that lays down matrix",
+     "It stimulates fibroblasts to cross-link type I collagen in the cap"
+    ],
+    "answer": 1,
+    "sea": "M",
+    "comp": "CV-16",
+    "dok": 2,
+    "approach": [
+     "Interferon-gamma is the main Th1 cytokine.",
+     "Plaque strength depends on collagen in the fibrous cap, made by smooth muscle cells.",
+     "Ask whether the cytokine adds or removes cap collagen."
+    ],
+    "why": "Th1 cells in plaques secrete interferon-gamma. It inhibits collagen synthesis by intimal smooth muscle cells and activates macrophages, which release matrix metalloproteinases that break down collagen. Less collagen is made and more is destroyed, so the fibrous cap thins and becomes vulnerable to rupture. Plaque rupture with thrombosis is the usual trigger for acute coronary syndromes in patients like him.",
+    "whyNot": [
+     "Class switching to IgE is driven by IL-4 from Th2 cells, and interferon-gamma inhibits it. This is not how interferon-gamma weakens the cap.",
+     "Correct.",
+     "Interferon-gamma promotes classically activated (M1) macrophages that are pro-inflammatory. Repair-type (M2) macrophages are driven by IL-4 and IL-13.",
+     "Interferon-gamma reduces collagen production in the cap. Collagen cross-linking would strengthen the cap, the opposite effect."
+    ],
+    "study": {
+     "topics": [
+      "Inflammation and plaque stability",
+      "Th1 cytokines and macrophage activation"
+     ],
+     "comps": [
+      "CV-16",
+      "CV-18-I3",
+      "CV-18-C3"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "CV-C09",
+  "system": "CV",
+  "dx": "Acute anterior wall ST-elevation myocardial infarction from proximal LAD occlusion",
+  "codes": [
+   "CV-18-C3"
+  ],
+  "case": "A 46-year-old man who is a high school teacher is brought to the emergency department 1 hour after the onset of crushing chest pain and diaphoresis that began while he was shoveling snow. He does not smoke. His father had a myocardial infarction at age 50 years. Pulse is 98/min and blood pressure is 132/84 mm Hg. An ECG shows ST-segment elevation in leads V1 to V4. Serum troponin I is 4.8 ng/mL (reference below 0.04 ng/mL). LDL cholesterol is 118 mg/dL (reference below 100 mg/dL), and lipoprotein(a) is 210 nmol/L (reference below 75 nmol/L). Coronary angiography shows a thrombus occluding the proximal left anterior descending (LAD) artery, which is opened with a stent 90 minutes after the onset of pain. Diagnosis: acute anterior wall ST-elevation myocardial infarction.",
+  "questions": [
+   {
+    "id": "CV-C09-Q1",
+    "stem": "On day 2, his ECG shows a new right bundle branch block. Which of the following vessels most likely supplied the injured conduction tissue?",
+    "options": [
+     "AV nodal branch of the right coronary artery",
+     "Obtuse marginal branches of the circumflex artery",
+     "Sinoatrial nodal branch of the right coronary artery",
+     "Septal perforating branches of the LAD artery"
+    ],
+    "answer": 3,
+    "sea": "A",
+    "comp": "CV-8",
+    "dok": 3,
+    "approach": [
+     "The right bundle branch runs down the interventricular septum.",
+     "The anterior two-thirds of the septum is supplied by septal branches of the LAD.",
+     "His occluded artery is the LAD, which fits."
+    ],
+    "why": "The LAD runs in the anterior interventricular groove and gives off septal perforating branches that supply the anterior two-thirds of the interventricular septum. The right bundle branch and the anterior fascicle of the left bundle branch run through this territory and depend mainly on these branches. A new bundle branch block in anterior MI signals a large septal infarct and a risk of progression to complete heart block below the AV node.",
+    "whyNot": [
+     "The AV nodal artery supplies the AV node and the start of the bundle of His, not the length of the right bundle branch. It is usually involved in inferior MI from right coronary occlusion.",
+     "Obtuse marginal branches supply the lateral wall of the left ventricle. They do not reach the septum.",
+     "The sinoatrial nodal artery supplies the SA node in the right atrium. Its loss causes sinus node dysfunction, not bundle branch block.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Septal blood supply and the bundle branches",
+      "Conduction blocks in anterior MI"
+     ],
+     "comps": [
+      "CV-8",
+      "CV-7",
+      "CV-18-C3"
+     ]
+    }
+   },
+   {
+    "id": "CV-C09-Q2",
+    "stem": "Flow was restored about 90 minutes after occlusion. Which of the following microscopic findings is most characteristic of irreversibly injured myocytes that are reperfused?",
+    "options": [
+     "Wavy fibers at the infarct border stretched by nearby beating cells",
+     "Dense eosinophilic cross bands of hypercontracted sarcomeres",
+     "Granulation tissue with new capillaries and loose collagen",
+     "Myocyte nuclei dividing to replace the cells that were lost"
+    ],
+    "answer": 1,
+    "sea": "X",
+    "comp": "CV-18-C3",
+    "dok": 3,
+    "approach": [
+     "The key clue is reperfusion of tissue that is already dying.",
+     "Restored flow brings a surge of calcium into cells with damaged membranes.",
+     "Calcium overload causes the myofibrils to hypercontract."
+    ],
+    "why": "When blood flow returns to myocytes that are already irreversibly injured, calcium floods in through damaged membranes. The sarcomeres contract intensely and lock, forming dense, eosinophilic transverse bands called contraction bands. This contraction band necrosis is typical of reperfused infarcts, which may also be hemorrhagic because injured vessels leak when flow returns. Reperfusion still salvages myocytes that were only reversibly injured, so it limits infarct size overall.",
+    "whyNot": [
+     "Wavy fibers appear at the border of an early infarct as noncontracting dead fibers are stretched. They can appear within hours with or without reperfusion, so they do not mark reperfusion.",
+     "Correct.",
+     "Granulation tissue appears at the infarct margins at about 7 to 14 days. It is far too late for the first hours after reperfusion.",
+     "Adult cardiac myocytes are permanent cells and do not divide to replace lost tissue in any meaningful amount. Infarcts heal by scar."
+    ],
+    "study": {
+     "topics": [
+      "Contraction band necrosis and reperfusion injury",
+      "Infarct histology"
+     ],
+     "comps": [
+      "CV-18-C3",
+      "CV-2"
+     ]
+    }
+   },
+   {
+    "id": "CV-C09-Q3",
+    "stem": "His lipoprotein(a) is high. Lp(a) is an LDL-like particle in which apolipoprotein B-100 is linked to apolipoprotein(a). In addition to carrying cholesterol into the artery wall, which of the following best explains how apolipoprotein(a) promotes coronary thrombosis?",
+    "options": [
+     "It activates factor X directly and speeds thrombin formation",
+     "It inhibits antithrombin, leaving thrombin unopposed",
+     "It resembles plasminogen and interferes with fibrinolysis",
+     "It binds von Willebrand factor and increases platelet adhesion"
+    ],
+    "answer": 2,
+    "sea": "B",
+    "comp": "CV-13",
+    "dok": 2,
+    "approach": [
+     "Recall the structure of apolipoprotein(a).",
+     "Its repeated kringle domains are similar to those in plasminogen.",
+     "A plasminogen look-alike competes with plasminogen and slows clot breakdown."
+    ],
+    "why": "Apolipoprotein(a) contains many kringle domains that closely resemble those of plasminogen. It competes with plasminogen for binding sites on fibrin and cells, so less plasmin is formed and clots are broken down more slowly. Lp(a) level is mostly set by inheritance at the LPA gene and changes little with diet. A high level is an independent risk factor for premature coronary disease, as in this patient with only modestly raised LDL.",
+    "whyNot": [
+     "Factor X is activated by the tissue factor and intrinsic tenase complexes. Apolipoprotein(a) is not a known activator.",
+     "Lp(a) does not inhibit antithrombin. Low antithrombin activity comes from inherited deficiency, liver disease, or protein loss.",
+     "Correct.",
+     "Von Willebrand factor links platelets to exposed collagen through glycoprotein Ib. That is not the mechanism of Lp(a)."
+    ],
+    "study": {
+     "topics": [
+      "Lipoprotein(a) structure and function",
+      "Fibrinolysis and plasminogen"
+     ],
+     "comps": [
+      "CV-13",
+      "CV-14",
+      "CV-18-I3"
+     ]
+    }
+   },
+   {
+    "id": "CV-C09-Q4",
+    "stem": "On day 4 he develops new chest pain with fresh ST elevation in V1 to V4. His troponin I is still elevated from the first infarct. Which of the following serum markers is most useful for detecting a new infarct at this point?",
+    "options": [
+     "Creatine kinase MB",
+     "Lactate dehydrogenase",
+     "Aspartate aminotransferase",
+     "B-type natriuretic peptide"
+    ],
+    "answer": 0,
+    "sea": "X",
+    "comp": "CV-18-C3",
+    "dok": 3,
+    "approach": [
+     "Troponin stays high for about 7 to 10 days, so it cannot easily show a second event on day 4.",
+     "Look for a cardiac marker that returns to normal within a few days.",
+     "A fresh rise in that marker points to new necrosis."
+    ],
+    "why": "Troponin I and T begin to rise about 2 to 4 hours after infarction and stay elevated for about 7 to 10 days. CK-MB rises over a similar early period, peaks at about 24 to 48 hours, and returns to normal within about 72 hours. By day 4 his CK-MB should be back near baseline, so a new rise strongly suggests reinfarction. This timing difference is the classic reason CK-MB is used to detect early reinfarction. Current practice can also detect reinfarction by a further rise in troponin of about 20% or more, but among these markers CK-MB is the one that has already returned to baseline.",
+    "whyNot": [
+     "Correct.",
+     "Lactate dehydrogenase rises later than CK-MB and stays high for a week or more. It is also nonspecific, so it cannot separate a new infarct from the first.",
+     "AST is found in liver and muscle as well as heart and is no longer used to diagnose MI. It is too nonspecific to confirm reinfarction.",
+     "BNP rises with ventricular wall stress and heart failure. It does not measure myocyte necrosis."
+    ],
+    "study": {
+     "topics": [
+      "Cardiac biomarker timing",
+      "Diagnosis of reinfarction"
+     ],
+     "comps": [
+      "CV-18-C3"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "CV-C10",
+  "system": "CV",
+  "dx": "Inferior wall MI with right ventricular involvement from right coronary artery occlusion, with bradycardia and second-degree AV block",
+  "codes": [
+   "CV-18-C3"
+  ],
+  "case": "A 66-year-old woman is brought to the emergency department 2 hours after the onset of heavy pressure in her lower chest and upper abdomen with nausea and diaphoresis. Pulse is 44/min and blood pressure is 84/56 mm Hg. Jugular venous pressure is increased, and the lungs are clear to auscultation. An ECG shows ST-segment elevation in leads II, III, and aVF and in the right-sided lead V4R, with ST-segment depression in leads I and aVL. A rhythm strip shows progressive lengthening of the PR interval until a P wave is not followed by a QRS complex. Serum troponin I is 2.6 ng/mL (reference below 0.04 ng/mL). Coronary angiography shows occlusion of a dominant right coronary artery (RCA) proximal to its right ventricular branches. Diagnosis: inferior wall MI with right ventricular involvement from RCA occlusion, with bradycardia and second-degree AV block.",
+  "questions": [
+   {
+    "id": "CV-C10-Q1",
+    "stem": "Which of the following anatomic features best explains why her coronary occlusion has disturbed AV conduction?",
+    "options": [
+     "The AV nodal artery usually arises from the RCA near the crux",
+     "The AV node is supplied by the first diagonal branch of the LAD",
+     "The AV nodal artery comes from the circumflex in right-dominant hearts",
+     "The AV node lies in the free wall of the right ventricle"
+    ],
+    "answer": 0,
+    "sea": "A",
+    "comp": "CV-8",
+    "dok": 2,
+    "approach": [
+     "She has an RCA occlusion and a conduction block at the AV node.",
+     "Recall where the AV nodal artery arises.",
+     "Link the artery to the node it supplies."
+    ],
+    "why": "The AV node lies in the lower part of the interatrial septum, in the triangle of Koch near the opening of the coronary sinus. Its artery usually arises from the RCA near the crux of the heart, the point where the posterior interventricular groove meets the atrioventricular groove. In most people the RCA is dominant, giving rise to the posterior descending artery and the AV nodal artery. RCA occlusion can therefore cause AV block along with inferior wall infarction.",
+    "whyNot": [
+     "Correct.",
+     "Diagonal branches of the LAD supply the anterolateral left ventricle. They do not supply the AV node.",
+     "In right-dominant hearts, the RCA gives the AV nodal artery. The circumflex supplies it mainly in left-dominant hearts.",
+     "The AV node lies in the lower interatrial septum, in the triangle of Koch near the coronary sinus opening. It is not in the ventricular wall."
+    ],
+    "study": {
+     "topics": [
+      "AV nodal blood supply",
+      "Coronary dominance"
+     ],
+     "comps": [
+      "CV-8",
+      "CV-7"
+     ]
+    }
+   },
+   {
+    "id": "CV-C10-Q2",
+    "stem": "Her rhythm strip shows Mobitz type I (Wenckebach) second-degree AV block. This block often improves with atropine after inferior myocardial infarction. Which of the following best describes the site of the conduction delay and the reason for this response?",
+    "options": [
+     "In the His-Purkinje system, which has dense vagal innervation",
+     "In the bundle branches, which are supplied by the LAD",
+     "In the AV node, where vagal tone and ischemia slow conduction",
+     "In the SA node, where vagal tone delays each atrial impulse"
+    ],
+    "answer": 2,
+    "sea": "P",
+    "comp": "CV-7",
+    "dok": 3,
+    "approach": [
+     "A PR interval that lengthens before a dropped beat places the block in the AV node.",
+     "The AV node is strongly influenced by the vagus nerve.",
+     "Atropine blocks muscarinic receptors and removes vagal slowing."
+    ],
+    "why": "In Mobitz type I block, conduction through the AV node slows a little more with each beat until one impulse fails to pass, and the cycle restarts. The AV node receives dense vagal innervation, and inferior MI often increases vagal tone through reflexes from the inferior wall, along with ischemia of the node itself. Acetylcholine acting on M2 receptors slows nodal conduction, so atropine often improves the block. Block at this level is usually transient after inferior MI.",
+    "whyNot": [
+     "The His-Purkinje system has little vagal innervation. Block there causes Mobitz type II or complete block with a fixed PR interval and responds poorly to atropine.",
+     "Bundle branch block widens the QRS but does not cause a progressively lengthening PR interval. The bundle branches are supplied mainly by the LAD and are usually affected in anterior MI.",
+     "Correct.",
+     "SA node slowing causes sinus bradycardia or sinus pauses in which the P wave itself is missing. Here P waves appear on time but fail to conduct."
+    ],
+    "study": {
+     "topics": [
+      "Mobitz type I versus type II block",
+      "Autonomic control of the AV node"
+     ],
+     "comps": [
+      "CV-7",
+      "CV-18-C3"
+     ]
+    }
+   },
+   {
+    "id": "CV-C10-Q3",
+    "stem": "Which of the following mechanisms best explains her low blood pressure with raised jugular venous pressure and clear lungs?",
+    "options": [
+     "Rupture of a papillary muscle with acute mitral regurgitation",
+     "Right ventricular failure that underfills the left ventricle",
+     "Loss of over 40% of left ventricular mass with pulmonary congestion",
+     "Cytokine-driven vasodilation with a low systemic vascular resistance"
+    ],
+    "answer": 1,
+    "sea": "X",
+    "comp": "CV-18-C3",
+    "dok": 3,
+    "approach": [
+     "Combine the findings: hypotension, high venous pressure, and clear lungs.",
+     "High venous pressure with clear lungs points to a problem on the right side.",
+     "ST elevation in V4R confirms right ventricular infarction."
+    ],
+    "why": "Proximal RCA occlusion can infarct the right ventricle as well as the inferior left ventricle. The weak right ventricle cannot pump venous return forward, so blood backs up in the systemic veins (raised jugular venous pressure) while the left ventricle receives too little preload. Left ventricular output and blood pressure fall, yet the lungs stay clear because the left side is not congested. These patients depend on preload, so lowering it with venodilators can worsen the hypotension.",
+    "whyNot": [
+     "Acute mitral regurgitation from papillary muscle rupture causes sudden pulmonary edema, so the lungs would not be clear. It also usually occurs a few days after MI, not in the first hours.",
+     "Correct.",
+     "Massive left ventricular loss causes cardiogenic shock with pulmonary congestion and crackles. Her lungs are clear.",
+     "Vasodilatory shock, as in sepsis, has a low or normal venous pressure. Her raised jugular venous pressure points to pump failure on the right."
+    ],
+    "study": {
+     "topics": [
+      "Right ventricular infarction",
+      "Preload dependence"
+     ],
+     "comps": [
+      "CV-18-C3",
+      "CV-18-B2",
+      "CV-18-H5"
+     ]
+    }
+   },
+   {
+    "id": "CV-C10-Q4",
+    "stem": "Within the first day after infarction, neutrophils begin to enter her necrotic myocardium. Which of the following most likely initiates this inflammatory response?",
+    "options": [
+     "IgE on mast cells binding cardiac proteins released from the infarct",
+     "Cytotoxic T cells recognizing myocyte antigens shown on MHC class I",
+     "Antibodies to cardiac myosin forming immune complexes in the wall",
+     "Necrotic myocyte contents activating pattern recognition receptors"
+    ],
+    "answer": 3,
+    "sea": "M",
+    "comp": "CV-16",
+    "dok": 2,
+    "approach": [
+     "Necrosis releases cell contents that are normally hidden inside cells.",
+     "These molecules are danger signals recognized by innate immune receptors.",
+     "Innate immunity acts within hours, faster than any antibody or T-cell response."
+    ],
+    "why": "Necrotic myocytes release damage-associated molecular patterns such as HMGB1, ATP, heat shock proteins, and mitochondrial DNA. These bind pattern recognition receptors, including Toll-like receptors and the NLRP3 inflammasome, on resident macrophages and endothelial cells. The cells release IL-1, TNF, and chemokines and display adhesion molecules, and complement is also activated. Neutrophils are recruited within hours and peak at about 1 to 3 days.",
+    "whyNot": [
+     "IgE and mast cells drive immediate (type I) hypersensitivity to allergens. They do not start the response to necrotic tissue.",
+     "A CD8 T-cell response needs priming and takes days. It does not explain neutrophil entry within hours.",
+     "Antibodies against heart antigens take weeks to form. They are linked to later immune complications such as post-MI (Dressler) pericarditis, not to early neutrophil entry.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Damage-associated molecular patterns",
+      "Acute inflammation after infarction"
+     ],
+     "comps": [
+      "CV-16",
+      "CV-2",
+      "CV-18-C3"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "CV-C11",
+  "system": "CV",
+  "dx": "Post-myocardial infarction (Dressler) syndrome",
+  "codes": [
+   "CV-18-C3",
+   "CV-18-F3"
+  ],
+  "case": "A 63-year-old woman comes to the physician because of a 4-day history of sharp chest pain that worsens with inspiration and when lying supine and improves when she sits up and leans forward. Three weeks ago, she had an anterior wall myocardial infarction treated with a coronary stent. Temperature is 38.2 °C (100.8 °F), pulse is 96/min, and blood pressure is 128/76 mm Hg. A three-component friction rub is heard at the left sternal border. Erythrocyte sedimentation rate is 68 mm/h (reference below 30 mm/h), and leukocyte count is 11,800/µL (reference 4,500 to 11,000/µL). Echocardiography shows a small pericardial effusion and no new wall-motion abnormality. Diagnosis: post-myocardial infarction (Dressler) syndrome.",
+  "questions": [
+   {
+    "id": "CV-C11-Q1",
+    "stem": "Some patients develop pericarditis 1 to 3 days after a transmural infarct, but hers began about 3 weeks later. Which mechanism best explains her pericarditis?",
+    "options": [
+     "Fibrinous inflammation spreading from the necrotic wall to the overlying pericardium",
+     "Coxsackievirus B infection picked up during her hospital stay",
+     "An immune response to myocardial antigens exposed by the infarct",
+     "Bacterial seeding of the pericardium during the stent procedure"
+    ],
+    "answer": 2,
+    "sea": "M",
+    "comp": "CV-16",
+    "dok": 3,
+    "approach": [
+     "Use the timing: weeks after MI, not days.",
+     "A delay of weeks fits an adaptive immune response.",
+     "Necrosis exposes heart proteins the immune system does not normally see."
+    ],
+    "why": "Dressler syndrome usually appears a few weeks after MI or heart surgery. Necrosis releases myocardial antigens, the immune system forms antibodies against them, and immune complexes are thought to deposit on the pericardium and pleura. The result is fever, pericarditis, sometimes pleuritis, and high inflammatory markers. The delay reflects the time needed for an adaptive immune response.",
+    "whyNot": [
+     "Early post-MI pericarditis comes from inflammation over a transmural infarct and appears in the first few days. Her onset at 3 weeks does not fit.",
+     "Coxsackievirus B is a common cause of viral pericarditis and myocarditis. Nothing here links a new viral infection to her infarct, and the timing fits Dressler syndrome.",
+     "Correct.",
+     "Purulent bacterial pericarditis is rare after a stent and causes a much sicker patient with a purulent effusion. Her small effusion and recent MI fit an immune cause."
+    ],
+    "study": {
+     "topics": [
+      "Dressler syndrome",
+      "Early versus late pericarditis after MI"
+     ],
+     "comps": [
+      "CV-16",
+      "CV-18-F3",
+      "CV-18-C3"
+     ]
+    }
+   },
+   {
+    "id": "CV-C11-Q2",
+    "stem": "If the infarcted region of her anterior wall were examined now, 3 weeks after the infarct, which of the following microscopic findings would most likely be seen?",
+    "options": [
+     "Maturing granulation tissue with increasing collagen",
+     "Coagulation necrosis with a dense band of neutrophils",
+     "Macrophages engulfing dead myocytes at the infarct edge",
+     "Dense collagen scar that contains very few cells"
+    ],
+    "answer": 0,
+    "sea": "X",
+    "comp": "CV-18-C3",
+    "dok": 2,
+    "approach": [
+     "Place 3 weeks on the healing timeline.",
+     "Neutrophils peak at about 1 to 3 days and macrophages at about 3 to 7 days.",
+     "Granulation tissue forms at about 7 to 14 days, and a dense scar forms by about 2 months."
+    ],
+    "why": "Infarcts heal in a predictable order. Neutrophils peak at about 1 to 3 days, macrophages clear dead cells at about 3 to 7 days, and granulation tissue with new capillaries forms at about 7 to 14 days. From about 2 to 8 weeks, collagen steadily increases and cellularity falls. By about 2 months the area is a dense collagen scar, so at 3 weeks she has maturing granulation tissue.",
+    "whyNot": [
+     "Correct.",
+     "Coagulation necrosis with a neutrophil band is the picture at about 1 to 3 days.",
+     "Macrophage removal of dead myocytes peaks at about 3 to 7 days. This is also when the wall is softest and most likely to rupture.",
+     "A dense, cell-poor collagen scar is expected by about 2 months. At 3 weeks healing is still in progress."
+    ],
+    "study": {
+     "topics": [
+      "Histologic timeline of myocardial infarction",
+      "Repair by connective tissue"
+     ],
+     "comps": [
+      "CV-18-C3",
+      "CV-2"
+     ]
+    }
+   },
+   {
+    "id": "CV-C11-Q3",
+    "stem": "She also has pain along the ridge of her left trapezius muscle. Which of the following nerves carries pain from the parietal pericardium that is referred to this area?",
+    "options": [
+     "Vagus nerve",
+     "Second intercostal nerve",
+     "Cardiopulmonary splanchnic nerves",
+     "Phrenic nerve"
+    ],
+    "answer": 3,
+    "sea": "A",
+    "comp": "CV-3",
+    "dok": 2,
+    "approach": [
+     "Trapezius ridge pain is referred to the C3 to C5 dermatomes.",
+     "Find the nerve with C3 to C5 roots that supplies the pericardium.",
+     "Separate pericardial pain from pain arising in the heart muscle itself."
+    ],
+    "why": "The fibrous pericardium and the parietal layer of serous pericardium receive sensory fibers from the phrenic nerves (C3 to C5). Pain from inflamed parietal pericardium is referred to skin supplied by the same spinal segments, including the trapezius ridge and shoulder. Trapezius ridge pain is a classic clue to pericarditis. Myocardial ischemic pain travels with sympathetic fibers instead.",
+    "whyNot": [
+     "The vagus nerve carries some visceral sensation from the heart and lungs, mainly for reflexes, and does not cause referred pain to the trapezius.",
+     "Intercostal nerves supply the chest wall and parietal pleura of the ribs, not the parietal pericardium. Their pain stays over the chest wall.",
+     "The cardiopulmonary splanchnic nerves carry sympathetic fibers and the visceral pain fibers that run with them from the heart to spinal segments about T1 to T4. That ischemic pain is referred to the chest and inner arm, not the trapezius.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Innervation of the pericardium",
+      "Referred pain from the thorax"
+     ],
+     "comps": [
+      "CV-3",
+      "CV-18-F3"
+     ]
+    }
+   },
+   {
+    "id": "CV-C11-Q4",
+    "stem": "A new myocardial infarction must be excluded. Which of the following ECG findings most strongly supports pericarditis rather than a new ST-elevation myocardial infarction?",
+    "options": [
+     "ST elevation in V1 to V4 with reciprocal depression in II, III, aVF",
+     "ST elevation across many territories with PR-segment depression",
+     "Convex ST elevation in II, III, and aVF with new Q waves there",
+     "Horizontal ST depression in V4 to V6 that resolves with rest"
+    ],
+    "answer": 1,
+    "sea": "X",
+    "comp": "CV-18-F3",
+    "dok": 3,
+    "approach": [
+     "Pericarditis inflames the whole epicardial surface, not one artery's territory.",
+     "An MI produces ST elevation in one territory, often with reciprocal depression.",
+     "Inflamed atrial epicardium shifts the PR segment."
+    ],
+    "why": "Pericarditis injures the epicardium over most of the heart, so concave ST elevation appears in leads from several coronary territories, usually without reciprocal ST depression except in aVR. Inflammation of the atrial epicardium creates an atrial injury current that depresses the PR segment. An ST-elevation MI follows the territory of one artery, often shows reciprocal depression, and may develop new Q waves. These differences let clinicians separate the two at the bedside.",
+    "whyNot": [
+     "ST elevation in V1 to V4 with reciprocal inferior depression follows the LAD territory. That pattern points to a new anterior infarct.",
+     "Correct.",
+     "Convex ST elevation limited to the inferior leads with new Q waves points to an RCA or circumflex infarct.",
+     "Horizontal ST depression that resolves with rest fits exercise-induced subendocardial ischemia, as in stable angina."
+    ],
+    "study": {
+     "topics": [
+      "ECG in pericarditis versus STEMI",
+      "Atrial injury current and PR depression"
+     ],
+     "comps": [
+      "CV-18-F3",
+      "CV-7",
+      "CV-18-C3"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "CV-C12",
+  "system": "CV",
+  "dx": "Cardiogenic shock from left ventricular pump failure after a large anterior myocardial infarction",
+  "codes": [
+   "CV-18-H5",
+   "CV-18-C3"
+  ],
+  "case": "A 74-year-old man in the coronary care unit is evaluated 14 hours after a large anterior wall myocardial infarction. He is confused, and his skin is cool, pale, and clammy. Pulse is 122/min, respirations are 28/min, and blood pressure is 78/52 mm Hg. Crackles are heard over both lung fields. Urine output has been 10 mL/h for 4 hours. Serum lactate is 6.1 mmol/L (reference 0.5 to 2.2 mmol/L), and creatinine has increased from 1.0 to 2.3 mg/dL (reference 0.7 to 1.3 mg/dL). A pulmonary artery catheter shows a cardiac index of 1.6 L/min/m² (reference 2.5 to 4.0 L/min/m²), a pulmonary capillary wedge pressure of 28 mm Hg (reference 6 to 12 mm Hg), and an increased systemic vascular resistance. Diagnosis: cardiogenic shock from left ventricular pump failure.",
+  "questions": [
+   {
+    "id": "CV-C12-Q1",
+    "stem": "Which of the following mechanisms best explains his cool, pale skin and high systemic vascular resistance?",
+    "options": [
+     "Nitric oxide released from activated endothelium in the skin",
+     "More carotid baroreceptor firing, which stimulates the vagus",
+     "Direct constriction of skin vessels by high lactate levels",
+     "Less baroreceptor firing, which raises sympathetic tone"
+    ],
+    "answer": 3,
+    "sea": "P",
+    "comp": "CV-11",
+    "dok": 2,
+    "approach": [
+     "Low arterial pressure reduces stretch on the carotid sinus and aortic arch.",
+     "Less baroreceptor firing removes inhibition of the sympathetic outflow.",
+     "Sympathetic alpha-1 stimulation constricts skin arterioles."
+    ],
+    "why": "When blood pressure falls, the carotid sinus and aortic arch baroreceptors fire less. The medullary centers respond by raising sympathetic output and lowering vagal output. Norepinephrine acting on alpha-1 receptors constricts arterioles in the skin, kidneys, and gut, which raises systemic vascular resistance and makes the skin cool and pale, while sympathetic stimulation of sweat glands makes it clammy. The response protects brain and heart flow but adds afterload to a failing ventricle.",
+    "whyNot": [
+     "Nitric oxide dilates vessels. Widespread nitric oxide release causes the warm skin and low resistance of septic shock.",
+     "Increased baroreceptor firing happens when pressure rises, and it slows the heart and dilates vessels. His pressure is low.",
+     "Lactate and acidosis tend to dilate local vessels. They cannot explain the high systemic resistance.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Baroreceptor reflex",
+      "Hemodynamic profiles of shock"
+     ],
+     "comps": [
+      "CV-11",
+      "CV-18-H5"
+     ]
+    }
+   },
+   {
+    "id": "CV-C12-Q2",
+    "stem": "His lactate is 6.1 mmol/L. In poorly perfused tissues, which of the following best explains why converting pyruvate to lactate allow ATP production to continue?",
+    "options": [
+     "It makes ATP directly by substrate-level phosphorylation",
+     "It restores the NAD+ that glycolysis needs to continue",
+     "It feeds acetyl-CoA into the citric acid cycle without oxygen",
+     "It reoxidizes FADH2 so the electron transport chain can work"
+    ],
+    "answer": 1,
+    "sea": "B",
+    "comp": "CV-13",
+    "dok": 2,
+    "approach": [
+     "Without oxygen, the electron transport chain cannot reoxidize NADH.",
+     "Glycolysis needs NAD+ at the glyceraldehyde-3-phosphate dehydrogenase step.",
+     "Lactate dehydrogenase turns NADH back into NAD+ as it reduces pyruvate."
+    ],
+    "why": "Glyceraldehyde-3-phosphate dehydrogenase needs NAD+ to keep glycolysis running. Normally the NADH it forms is reoxidized by the mitochondria, but that requires oxygen. In hypoperfused tissue, lactate dehydrogenase reduces pyruvate to lactate and regenerates NAD+, so glycolysis can keep making its 2 ATP per glucose. Lactate builds up in the blood, and a high level is a marker of tissue hypoperfusion and a poor prognosis in shock.",
+    "whyNot": [
+     "The lactate dehydrogenase reaction makes no ATP. The ATP comes from earlier glycolytic steps (phosphoglycerate kinase and pyruvate kinase).",
+     "Correct.",
+     "Pyruvate enters the citric acid cycle as acetyl-CoA through pyruvate dehydrogenase. Making lactate diverts pyruvate away from that pathway.",
+     "FADH2 is reoxidized only by the electron transport chain, which needs oxygen. Lactate formation does not involve FAD."
+    ],
+    "study": {
+     "topics": [
+      "Anaerobic glycolysis and lactate",
+      "NAD+ regeneration"
+     ],
+     "comps": [
+      "CV-13",
+      "CV-18-H5"
+     ]
+    }
+   },
+   {
+    "id": "CV-C12-Q3",
+    "stem": "His creatinine continues to rise. Urine dipstick is negative for blood, and urine microscopy shows many muddy brown granular casts. Which process is most likely occurring in his kidneys?",
+    "options": [
+     "Ischemic injury of tubular epithelium from low renal blood flow",
+     "Immune complex deposition in the glomerular basement membrane",
+     "Tubules blocked by myoglobin released from injured skeletal muscle",
+     "Prerenal azotemia with intact tubules that reabsorb sodium avidly"
+    ],
+    "answer": 0,
+    "sea": "X",
+    "comp": "CV-18-H5",
+    "dok": 3,
+    "approach": [
+     "Shock lowers renal perfusion.",
+     "Muddy brown granular casts are made of shed tubular epithelial cells.",
+     "A dipstick negative for blood argues against myoglobin."
+    ],
+    "why": "In shock, low cardiac output and intense renal vasoconstriction reduce blood flow to the kidneys. Tubular epithelial cells, especially in the proximal tubule and thick ascending limb, have high energy needs and are injured first. Injured cells detach and form muddy brown granular casts, tubules become blocked, and glomerular filtration falls. This acute tubular necrosis is one of the main forms of organ damage in progressive shock.",
+    "whyNot": [
+     "Correct.",
+     "Immune complex glomerulonephritis causes blood and red cell casts in the urine. His dipstick is negative for blood.",
+     "Myoglobin causes a dipstick that is positive for blood without red cells on microscopy. His dipstick is negative.",
+     "Prerenal azotemia shows bland urine or hyaline casts. Muddy brown granular casts mean the tubular cells themselves are injured."
+    ],
+    "study": {
+     "topics": [
+      "Acute tubular necrosis in shock",
+      "Stages of shock"
+     ],
+     "comps": [
+      "CV-18-H5"
+     ]
+    }
+   },
+   {
+    "id": "CV-C12-Q4",
+    "stem": "On day 2, his C-reactive protein is 160 mg/L (reference below 10 mg/L). Which of the following cytokines, released by macrophages in the infarct, is the main stimulus for hepatocytes to make this protein?",
+    "options": [
+     "Interleukin-10",
+     "Interleukin-4",
+     "Interleukin-6",
+     "Interleukin-2"
+    ],
+    "answer": 2,
+    "sea": "M",
+    "comp": "CV-16",
+    "dok": 2,
+    "approach": [
+     "C-reactive protein is an acute-phase protein made by the liver.",
+     "Identify the cytokine that most strongly drives acute-phase protein synthesis.",
+     "Rule out anti-inflammatory and lymphocyte growth cytokines."
+    ],
+    "why": "C-reactive protein is an acute-phase reactant made by hepatocytes. Tissue injury, such as a large infarct, activates macrophages to release IL-1, TNF, and especially IL-6. IL-6 is the main stimulus for hepatocytes to make C-reactive protein and other acute-phase proteins such as fibrinogen and serum amyloid A. C-reactive protein binds damaged cells and microbes and activates complement.",
+    "whyNot": [
+     "IL-10 is an anti-inflammatory cytokine that suppresses macrophages. It does not drive acute-phase protein production.",
+     "IL-4 drives Th2 responses and IgE class switching. It does not stimulate C-reactive protein production.",
+     "Correct.",
+     "IL-2 is a T-cell growth factor made mainly by activated T cells. It does not drive the acute-phase response."
+    ],
+    "study": {
+     "topics": [
+      "Acute-phase response",
+      "IL-6 and C-reactive protein"
+     ],
+     "comps": [
+      "CV-16",
+      "CV-18-H5"
+     ]
+    }
+   }
+  ]
+ }
+]
