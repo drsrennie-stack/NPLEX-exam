@@ -165,6 +165,46 @@ main:focus{outline:none}
 :root .card.stat.t-gold{background:#C9A14A;--ink:#0B1530;--ink2:rgba(11,21,48,.86);color:#0B1530}
 :root .card.stat.t-terra{background:#8B3A2E;--ink:#FFFFFF;--ink2:rgba(255,255,255,.9);color:#FFFFFF}
 :root .card.stat.t-goldlt{background:#EFD9A4;--ink:#0B1530;--ink2:rgba(11,21,48,.86);color:#0B1530}
+.subj-tile{display:flex;flex-direction:column;gap:6px;height:100%;min-height:150px;padding:18px;border-radius:14px;text-decoration:none;box-shadow:var(--shadow);transition:transform 200ms ease,box-shadow 200ms ease}
+.subj-tile:hover{transform:translateY(-2px);box-shadow:var(--shadow-hover)}
+.subj-tile .wk{font-size:.72rem;font-weight:700;letter-spacing:.24em;text-transform:uppercase;opacity:.86}
+.subj-tile .sys{font-size:1.3rem;font-weight:800;letter-spacing:-.02em;line-height:1.15}
+.subj-tile .sub{font-size:.88rem;margin-top:auto;opacity:.9}
+.subj-tile.c-maroon,.subj-tile.c-maroon:hover{background:#7A2E24;color:#FFFFFF}
+.subj-tile.c-gold,.subj-tile.c-gold:hover{background:#C9A14A;color:#0B1530}
+.subj-tile.c-goldlt,.subj-tile.c-goldlt:hover{background:#EFD9A4;color:#0B1530}
+.subj-tile.c-white,.subj-tile.c-white:hover{background:#FFFFFF;color:#0B1530}
+.subj-tile.c-salmon,.subj-tile.c-salmon:hover{background:#E09A8C;color:#0B1530}
+.sub-sys{margin:22px 0 10px}
+.cutscale{margin:12px 0 6px}
+.cutscale .track{position:relative;height:16px;border-radius:999px;background:var(--bar-bg);border:1px solid var(--line)}
+.cutscale .band{position:absolute;top:2px;bottom:2px;border-radius:999px;background:rgba(201,161,74,.55)}
+.cutscale .cut{position:absolute;left:50%;top:-6px;bottom:-6px;width:3px;margin-left:-1.5px;background:var(--accent);border-radius:2px}
+.cutscale .mark{position:absolute;top:50%;width:18px;height:18px;margin:-9px 0 0 -9px;border-radius:50%;background:var(--ink);border:3px solid var(--card);box-shadow:0 0 0 1px var(--ink)}
+.cutscale .zones{display:grid;grid-template-columns:repeat(5,1fr);font-size:.72rem;color:var(--ink2);margin-top:6px;text-align:center;font-weight:600}
+.verdict{display:inline-block;font-weight:800;font-size:1.4rem;letter-spacing:-.02em}
+.verdict.pass{color:var(--ink)}
+.verdict.fail{color:var(--accent)}
+.rel-row{display:grid;grid-template-columns:minmax(0,11rem) 1fr 3rem;gap:10px;align-items:center;margin:8px 0}
+.rel-track{position:relative;height:12px;border-radius:999px;background:var(--bar-bg)}
+.rel-track .mid{position:absolute;left:50%;top:-4px;bottom:-4px;width:2px;background:var(--line-strong)}
+.rel-track .fill{position:absolute;top:0;bottom:0;border-radius:999px;background:var(--bar)}
+.rel-track .fill.neg{background:var(--accent)}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;margin:0}
+.kv dt{font-weight:700}
+.kv dd{margin:0;color:var(--ink2)}
+@media (max-width:560px){.rel-row{grid-template-columns:1fr auto}.rel-row .rel-track{grid-column:1 / -1;grid-row:2}}
+@media (prefers-reduced-motion: reduce){.subj-tile{transition:none}.subj-tile:hover{transform:none}}
+.objs{list-style:none;margin:0;padding:0 0 4px;display:grid;gap:9px}
+.objs li{display:grid;grid-template-columns:4.6rem minmax(0,1fr);gap:2px 10px}
+.objs .oid{font-size:.8rem;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums;padding-top:2px}
+.objs .otags{display:inline-flex;flex-wrap:wrap;gap:5px;vertical-align:middle}
+.srcb{display:inline-flex;font-size:.7rem;font-weight:700;border-radius:999px;padding:0 8px;border:1.5px solid;white-space:nowrap}
+.srcb.s-NPLEX{color:#0B1530;border-color:#0B1530;background:#FFFFFF}
+.srcb.s-Both{color:#0B1530;border-color:#C9A14A;background:#EFD9A4}
+.srcb.s-USMLE{color:#8B3A2E;border-color:#8B3A2E;background:#FFFFFF}
+.tagb{display:inline-flex;font-size:.7rem;font-weight:600;border:1px solid var(--line);border-radius:999px;padding:0 8px;color:var(--ink2);white-space:nowrap}
+@media (max-width:560px){.objs li{grid-template-columns:3.9rem minmax(0,1fr)}}
 input[type=checkbox],input[type=radio]{width:18px;height:18px;accent-color:var(--accent);margin:0;flex:none}
 input[type=checkbox]{-webkit-appearance:none;appearance:none;border:2px solid var(--line-strong);border-radius:5px;background:var(--card) center/12px 12px no-repeat;cursor:pointer}
 input[type=checkbox]:checked{background-color:var(--accent);border-color:var(--accent);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath d='M2 6.2l2.6 2.6L10 3.4' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")}
@@ -347,6 +387,7 @@ label.field{display:block;font-weight:700;margin-bottom:.35rem}
   <nav class="main-nav" aria-label="Main">
     <ul>
       <li><a href="#path" data-nav="path">Your path</a></li>
+      <li><a href="#subjects" data-nav="subjects">Subjects</a></li>
       <li><a href="#dumps" data-nav="dumps">Brain dumps</a></li>
       <li><a href="#practice" data-nav="practice">Practice</a></li>
       <li><a href="#exams" data-nav="exams">Full exams</a></li>
@@ -391,7 +432,16 @@ CASES.concat(DIAG).forEach(function(c){
   CASE[c.id]=c;
   c.questions.forEach(function(q){ QMAP[q.id]={q:q,c:c}; });
 });
-var TARGET = 70;
+var TARGET = 65;
+/* Scoring like NPLEX: NABNE reports Pass or Fail for each general exam area, set by an
+   Angoff cut (a number correct), with no numeric score. The real cut is not published,
+   so the app uses an estimated cut that the instructor can change. */
+var EST_CUT_DEFAULT = {SF:65, DD:65};
+var GEA_ITEMS = {SF:120, DD:80};
+function cutFor(g){ var c=(S.settings.cut||{})[g]; return (typeof c==='number' && c>=40 && c<=90) ? c : EST_CUT_DEFAULT[g]; }
+function zoneOf(m){ return m< -10?'Well below the cut': m< -3?'Below the cut': m<=3?'Right at the cut': m<=10?'Above the cut':'Well above the cut'; }
+var ZONES=['Well below the cut','Below the cut','Right at the cut','Above the cut','Well above the cut'];
+function normCdf(z){ var t=1/(1+0.2316419*Math.abs(z)), d=0.3989423*Math.exp(-z*z/2); var p=d*t*(0.3193815+t*(-0.3565638+t*(1.781478+t*(-1.821256+t*1.330274)))); return z>0?1-p:p; }
 var LADDER = [1,3,7,14,30];
 
 function unitOf(code){
@@ -773,7 +823,8 @@ VIEW.study = function(id){
   if(c.conditions && c.conditions.length) h+='<ul class="tags" aria-label="Conditions in this unit">'+c.conditions.map(function(x){return '<li>'+esc(x.name)+'</li>';}).join('')+'</ul>';
   h+='<div class="row small">'+chip(u?st:'soon')+'<span class="muted">Exam area: '+esc(c.seaCodes.map(function(k){return SEA_NAMES[k];}).join(', '))+' · '+esc(c.gea)+'</span></div></div>';
   if(!u){
-    h+='<div class="card"><p>Notes for this unit are coming soon.</p>'+(casesFor(c.systemCode).length?'<button type="button" class="btn acc" data-act="unitpractice" data-unit="'+esc(id)+'">Practice cases for this system</button>':'')+'</div>';
+    if((c.objectives||[]).length) h+=sec('s-objs','What should you be able to do?',objHTML(c),true);
+    h+='<div class="card"><p>Notes for this unit are coming soon. Use the list above to study from your textbooks for now.</p>'+(casesFor(c.systemCode).length?'<button type="button" class="btn acc" data-act="unitpractice" data-unit="'+esc(id)+'">Practice cases for this system</button>':'')+'</div>';
     return h;
   }
   h+='<div class="card" style="margin-bottom:16px"><h2 class="h3" style="font-size:1rem">Your steps for this unit</h2><div class="steps-box" role="group" aria-label="Steps done">'+
@@ -784,6 +835,7 @@ VIEW.study = function(id){
     '<button type="button" class="btn acc" data-act="unitpractice" data-unit="'+esc(id)+'">Practice cases for this unit</button>'+
     '<a class="btn ghost" href="#dumps/'+esc(id)+'">Brain dump after you study</a></div></div>';
   if(u.summary) h+='<p class="lead" style="font-size:1.05rem;max-width:75ch">'+esc(u.summary)+'</p>';
+  if((c.objectives||[]).length) h+=sec('s-objs','What should you be able to do?',objHTML(c),true);
 
   var notes=(u.notes||[]).map(function(n){ return '<h3>'+esc(n.h)+'</h3><ul>'+(n.points||[]).map(function(p){return '<li>'+esc(p)+'</li>';}).join('')+'</ul>'; }).join('');
   if(notes) h+=sec('s-notes','Notes','<div class="notes">'+notes+'</div>',true);
@@ -801,6 +853,11 @@ VIEW.study = function(id){
   if(rel.length) h+=sec('s-rel','Related units','<ul>'+rel.map(function(x){return '<li>'+unitLink(x)+'</li>';}).join('')+'</ul>',false);
   return h;
 };
+var SRC_LAB={NPLEX:'NPLEX',Both:'NPLEX + USMLE',USMLE:'USMLE extension'};
+function objHTML(c){
+  var L=c.objectives||[]; if(!L.length) return '';
+  return '<ol class="objs">'+L.map(function(o){ return '<li><span class="oid">'+esc(o.id)+'</span><span><span class="ot">'+esc(o.t)+'</span> <span class="otags"><span class="srcb s-'+o.src+'">'+SRC_LAB[o.src]+'</span><span class="tagb">'+esc(SEA_NAMES[o.sea])+'</span></span></span></li>'; }).join('')+'</ol>';
+}
 function sec(id,title,body,open){ return '<section class="sec">'+coll(id,esc(title),'',body,open,2)+'</section>'; }
 function tableHTML(t){
   var h='<div class="tbl-wrap" role="region" tabindex="0" aria-label="'+esc(t.title)+' (scrolls sideways)"><table><caption>'+esc(t.title)+'</caption><thead><tr>'+
@@ -1044,7 +1101,9 @@ VIEW.results = function(id){
   h+='<div class="card"><p class="eyebrow">Blind spots</p><div class="big-score">'+blind.length+'</div><p class="muted" style="margin:.4rem 0 0">Sure and wrong</p></div>';
   h+='<div class="card"><p class="eyebrow">Lucky guesses</p><div class="big-score">'+unsureRight+'</div><p class="muted" style="margin:.4rem 0 0">Right but not sure</p></div></div>';
   if(ss.kind==='exam'||ss.kind==='diag'){
-    h+='<section class="section" aria-labelledby="gea-h"><h2 id="gea-h">Did you reach the practice target in both areas?</h2><p class="note">You must pass both areas on the real exam. NABNE sets the real cut score for each administration, so 70% here is a practice target.</p><div class="grid g2">'+geaMeters(rows)+'</div></section>';
+    var both=['SF','DD'].every(function(g){ var rs=rows.filter(function(r){return SEA_GEA[r.q.sea]===g;}); return rs.length && rs.filter(function(r){return r.ok;}).length/rs.length>=cutFor(g)/100; });
+    h+='<section class="section" aria-labelledby="gea-h"><h2 id="gea-h">Scored like NPLEX: <span class="accent">'+(both?'Estimated Pass':'Estimated Fail')+'</span></h2><p class="note">NPLEX reports Pass or Fail for each area and where you landed compared with the cut. You must pass both. The cut here is an estimate; NABNE does not publish it.</p><div class="grid g2">'+geaMeters(rows,true)+'</div>'+
+      '<div class="card" style="margin-top:14px"><h3>Exam areas compared with your average</h3>'+relAreas(rows)+'</div></section>';
   }
   h+='<section class="section grid g2">';
   h+='<div class="card"><h2>By exam area</h2>'+barsFrom(rows,function(r){return r.q.sea;},function(k){return SEA_NAMES[k]||k;},['A','P','B','M','X'])+'</div>';
@@ -1071,12 +1130,13 @@ VIEW.results = function(id){
   h+='</section>';
   return h;
 };
-function geaMeters(rows){
+function geaMeters(rows,exam){
   return ['SF','DD'].map(function(g){
-    var rs=rows.filter(function(r){return SEA_GEA[r.q.sea]===g;}), n=rs.length, ok=rs.filter(function(r){return r.ok;}).length, p=pct(ok,n);
-    return '<div class="card meter"><p class="eyebrow">'+GEA_NAMES[g]+'</p><div class="big">'+(n?p+'%':'No data yet')+'</div>'+
-      (n?'<div class="bar" role="img" aria-label="'+GEA_NAMES[g]+': '+p+' percent, practice target 70 percent" style="margin:10px 0"><div class="bar-fill" style="width:'+p+'%"></div><div class="target" style="left:'+TARGET+'%"></div></div>'+
-      '<p class="small" style="margin:0"><strong>'+(p>=TARGET?'At or above':'Below')+' the 70% practice target</strong> · '+ok+' of '+n+' correct</p>':'')+'</div>';
+    var rs=rows.filter(function(r){return SEA_GEA[r.q.sea]===g;}), n=rs.length, ok=rs.filter(function(r){return r.ok;}).length, p=n?ok/n:0, cut=cutFor(g)/100, m=(p-cut)*100;
+    if(!n) return '<div class="card meter"><p class="eyebrow">'+GEA_NAMES[g]+'</p><div class="big">No data yet</div></div>';
+    return '<div class="card meter"><p class="eyebrow">'+GEA_NAMES[g]+'</p><div class="verdict '+(p>=cut?'pass':'fail')+'">'+(exam?(p>=cut?'Estimated: Pass':'Estimated: Fail'):zoneOf(m))+'</div>'+
+      cutScale(p,cut,null,null,GEA_NAMES[g]+': '+pct(ok,n)+' percent correct, estimated cut '+cutFor(g)+' percent, '+zoneOf(m))+
+      '<p class="small" style="margin:0">'+(exam?zoneOf(m)+' · ':'')+ok+' of '+n+' correct ('+pct(ok,n)+'%) · estimated cut '+cutFor(g)+'%</p></div>';
   }).join('');
 }
 function barsFrom(rows,keyFn,nameFn,order){
@@ -1138,6 +1198,143 @@ VIEW.exams = function(){
   return h;
 };
 
+
+/* ---------------- prediction ---------------- */
+function firstRows(){
+  var rows=[];
+  Object.keys(S.attempts).forEach(function(qid){ var m=QMAP[qid], at=S.attempts[qid]; if(!m||!at||!at.length) return;
+    var a=at[0]; rows.push({q:m.q,c:m.c,ok:a.ok,sure:a.sure,t:a.t,sys:m.c.system,g:SEA_GEA[m.q.sea]}); });
+  return rows;
+}
+function ageDays(iso){ if(!iso) return 0; var d=new Date(iso+'T12:00:00'); return Math.max(0,(Date.now()-d.getTime())/864e5); }
+function predictGEA(g,rows){
+  var rs=rows.filter(function(r){return r.g===g;}); if(!rs.length) return null;
+  var W=0,K=0; rs.forEach(function(r){ var w=Math.pow(0.5,ageDays(r.t)/21); W+=w; if(r.ok) K+=w; });
+  var mean=K/W, A=8, tot=BP.systems.reduce(function(a,s){return a+s.weight;},0), p=0, v=0, seen=0;
+  BP.systems.forEach(function(s){
+    var w=s.weight/tot, n=0,k=0,n2=0;
+    rs.forEach(function(r){ if(r.sys!==s.code) return; var x=Math.pow(0.5,ageDays(r.t)/21); n+=x; n2+=x*x; if(r.ok) k+=x; });
+    var ps=(k+A*mean)/(n+A), neff=n? n*n/n2 : 0;
+    p+=w*ps;
+    v+= n ? w*w*ps*(1-ps)/(neff+A) : w*w*0.15*0.15;
+    if(n) seen++;
+  });
+  var cut=cutFor(g)/100;
+  var sd=Math.sqrt(v + p*(1-p)/GEA_ITEMS[g] + 0.03*0.03);
+  return {p:p, sd:sd, lo:Math.max(0,p-1.28*sd), hi:Math.min(1,p+1.28*sd), cut:cut, margin:(p-cut)*100, pass:normCdf((p-cut)/sd), seen:seen, n:rs.length};
+}
+function predictAll(){
+  var rows=firstRows(), sf=predictGEA('SF',rows), dd=predictGEA('DD',rows);
+  var full=S.history.filter(function(h){return h.kind==='exam' && !h.preview;}).length;
+  var sys={}; rows.forEach(function(r){ sys[r.sys]=1; }); var ns=Object.keys(sys).length;
+  var conf = (rows.length>=400 && ns===BP.systems.length && full>=1) ? 'High' : (rows.length>=150 && ns>=8) ? 'Medium' : 'Low';
+  return {sf:sf, dd:dd, n:rows.length, systems:ns, full:full, conf:conf, overall:(sf&&dd)? sf.pass*dd.pass : null};
+}
+function cutScale(p,cut,lo,hi,label){
+  var span=30, pos=function(x){ return Math.max(0,Math.min(100, 50+((x-cut)*100)/span*50)); };
+  var band = (lo!=null) ? '<span class="band" style="left:'+pos(lo)+'%;width:'+Math.max(1,pos(hi)-pos(lo))+'%"></span>' : '';
+  return '<div class="cutscale" role="img" aria-label="'+esc(label)+'"><div class="track">'+band+'<span class="cut"></span><span class="mark" style="left:'+pos(p)+'%"></span></div>'+
+    '<div class="zones" aria-hidden="true"><span>Well below</span><span>Below</span><span>At the cut</span><span>Above</span><span>Well above</span></div></div>';
+}
+function predCard(g,pr){
+  var name=GEA_NAMES[g];
+  if(!pr) return '<div class="card"><p class="eyebrow">'+name+'</p><p>No questions answered in this area yet.</p></div>';
+  var pp=Math.round(pr.p*100), lo=Math.round(pr.lo*100), hi=Math.round(pr.hi*100), m=Math.round(pr.margin);
+  return '<div class="card"><p class="eyebrow">'+name+'</p><div class="verdict '+(pr.pass>=0.5?'pass':'fail')+'">'+zoneOf(pr.margin)+'</div>'+
+    cutScale(pr.p,pr.cut,pr.lo,pr.hi,name+': predicted '+pp+' percent correct, likely range '+lo+' to '+hi+' percent, estimated cut '+Math.round(pr.cut*100)+' percent')+
+    '<dl class="kv"><dt>Chance of passing</dt><dd>About '+Math.round(pr.pass*100)+'%</dd><dt>Predicted</dt><dd>'+pp+'% correct (likely '+lo+' to '+hi+'%), '+(m>=0?m+' points above':(-m)+' points below')+' the estimated cut</dd><dt>Based on</dt><dd>'+pr.n+' first tries, '+pr.seen+' of '+BP.systems.length+' systems</dd></dl></div>';
+}
+function predSnapshot(){
+  var P=predictAll(), f=function(x){ return x?{p:Math.round(x.p*1000)/10,lo:Math.round(x.lo*1000)/10,hi:Math.round(x.hi*1000)/10,cut:Math.round(x.cut*100),zone:zoneOf(x.margin),pass:Math.round(x.pass*100)}:null; };
+  return {date:today(), sf:f(P.sf), dd:f(P.dd), overall:P.overall==null?null:Math.round(P.overall*100), n:P.n, systems:P.systems, full:P.full, conf:P.conf};
+}
+function predText(sn){
+  var g=function(n,x){ return x? n+': '+x.zone+', predicted '+x.p+'% (likely '+x.lo+' to '+x.hi+'%), estimated cut '+x.cut+'%, pass chance '+x.pass+'%' : n+': no data'; };
+  return 'NPLEX Part I prediction, '+nice(sn.date)+'\n'+g('Structure/Function',sn.sf)+'\n'+g('Disease/Dysfunction',sn.dd)+'\nOverall pass chance: '+(sn.overall==null?'no data':sn.overall+'%')+'\nBased on '+sn.n+' first tries across '+sn.systems+' systems, '+sn.full+' full exams. Confidence: '+sn.conf+'.';
+}
+VIEW.predict = function(){
+  var P=predictAll();
+  var h='<div class="head"><a class="back" href="#dashboard">Back to the dashboard</a><p class="eyebrow">Predicted result</p><h1 tabindex="-1">How would you do <span class="accent">today?</span></h1>'+
+    '<p class="lead">NPLEX reports Pass or Fail for each area and shows where you landed compared with the cut. This predicts that.</p></div>';
+  h+='<div class="grid g2">'+predCard('SF',P.sf)+predCard('DD',P.dd)+'</div>';
+  h+='<div class="grid g3 section">'+stat(P.overall==null?'No data':'About '+Math.round(P.overall*100)+'%','Chance of passing both areas','terra')+stat(P.conf,'Confidence in this prediction','gold')+stat(P.n,'First tries counted','goldlt')+'</div>';
+  var tips=[]; if(P.n<150) tips.push('Answer at least 150 questions');
+  if(P.systems<BP.systems.length) tips.push('Practice every system ('+P.systems+' of '+BP.systems.length+' so far)');
+  if(!P.full) tips.push('Take at least one full-length exam');
+  if(tips.length) h+='<div class="card section"><h2>How can you make this more accurate?</h2><ul>'+tips.map(function(t){return '<li>'+esc(t)+'</li>';}).join('')+'</ul></div>';
+  h+='<section class="section card" aria-labelledby="sv-h"><h2 id="sv-h">Save today\'s prediction</h2><p class="note">Save one close to your exam date. After you get your result, log it below to see how close it was.</p>'+
+    '<div class="row"><button type="button" class="btn acc" data-act="savepred"'+(P.sf||P.dd?'':' disabled')+'>Save today\'s prediction</button><button type="button" class="btn ghost" data-act="copypred"'+(P.sf||P.dd?'':' disabled')+'>Copy it as text</button></div><p id="pred-msg" class="note" aria-live="polite"></p>';
+  var preds=S.settings.preds||[];
+  if(preds.length) h+='<div class="tbl-wrap" role="region" tabindex="0" aria-label="Saved predictions (scrolls sideways)"><table><thead><tr><th scope="col">Saved</th><th scope="col">Structure/Function</th><th scope="col">Disease/Dysfunction</th><th scope="col">Pass chance</th><th scope="col">Confidence</th></tr></thead><tbody>'+
+    preds.slice().reverse().map(function(x){ return '<tr><th scope="row">'+nice(x.date)+'</th><td>'+(x.sf?esc(x.sf.zone)+' ('+x.sf.p+'%)':'No data')+'</td><td>'+(x.dd?esc(x.dd.zone)+' ('+x.dd.p+'%)':'No data')+'</td><td>'+(x.overall==null?'':x.overall+'%')+'</td><td>'+esc(x.conf)+'</td></tr>'; }).join('')+'</tbody></table></div>';
+  h+='</section>';
+  var opt=function(id){ return '<select id="'+id+'"><option value="">Choose one</option>'+ZONES.map(function(z){return '<option>'+z+'</option>';}).join('')+'</select>'; };
+  h+='<section class="section card" aria-labelledby="lg-h"><h2 id="lg-h">Log your real result</h2><p class="note">Your NABNE report shows a scale for each area. Pick where your marker landed.</p>'+
+    '<form id="realform" novalidate><div class="grid g3"><div><label class="field" for="rr-date">Exam date</label><input type="date" id="rr-date" value="'+today()+'"></div>'+
+    '<div><label class="field" for="rr-sf">Structure/Function marker</label>'+opt('rr-sf')+'</div><div><label class="field" for="rr-dd">Disease/Dysfunction marker</label>'+opt('rr-dd')+'</div></div>'+
+    '<p id="rr-err" class="err" aria-live="polite"></p><button type="button" class="btn" data-act="logreal">Save my real result</button></form>';
+  var reals=S.settings.reals||[];
+  if(reals.length){
+    h+='<h3 style="margin-top:18px">How close was the prediction?</h3><div class="tbl-wrap" role="region" tabindex="0" aria-label="Prediction compared with real results (scrolls sideways)"><table><thead><tr><th scope="col">Exam</th><th scope="col">Area</th><th scope="col">Predicted</th><th scope="col">Real</th><th scope="col">Off by</th></tr></thead><tbody>';
+    reals.forEach(function(r){
+      var before=preds.filter(function(x){return x.date<=r.date;}).slice(-1)[0];
+      [['sf','Structure/Function'],['dd','Disease/Dysfunction']].forEach(function(a){
+        var pz=before&&before[a[0]]?before[a[0]].zone:null, rz=r[a[0]];
+        var off = pz&&rz ? Math.abs(ZONES.indexOf(pz)-ZONES.indexOf(rz)) : null;
+        h+='<tr><th scope="row">'+nice(r.date)+'</th><td>'+a[1]+'</td><td>'+(pz?esc(pz)+' (saved '+nice(before.date)+')':'No saved prediction before this date')+'</td><td>'+esc(rz||'')+'</td><td>'+(off==null?'':off===0?'Exact band':off+' band'+(off>1?'s':''))+'</td></tr>';
+      });
+    });
+    h+='</tbody></table></div>';
+  }
+  h+='</section>';
+  h+='<section class="section card" aria-labelledby="hw-h"><h2 id="hw-h">How is this predicted?</h2><ol>'+
+    '<li>Only your first try at each question counts, so repeats do not inflate it.</li>'+
+    '<li>Recent work counts more. A try from three weeks ago counts half as much as one from today.</li>'+
+    '<li>Each system is weighted the way the blueprint weights it (Cardio and GI 12%, Heme and Derm 6%).</li>'+
+    '<li>Systems you have not practiced pull the range wider, since there is no evidence yet.</li>'+
+    '<li>The range also includes the luck of which 120 and 80 questions land on your exam.</li></ol>'+
+    '<p class="note">NABNE does not publish its cut. Licensed NDs set it for each exam with the Angoff method, as a number of questions correct in each area. Change the estimate here if you have better information.</p>'+
+    '<div class="grid g2"><div><label class="field" for="cut-sf">Estimated cut, Structure/Function (% correct)</label><input type="number" id="cut-sf" min="40" max="90" step="1" value="'+cutFor('SF')+'" data-chg="cutset" data-g="SF"></div>'+
+    '<div><label class="field" for="cut-dd">Estimated cut, Disease/Dysfunction (% correct)</label><input type="number" id="cut-dd" min="40" max="90" step="1" value="'+cutFor('DD')+'" data-chg="cutset" data-g="DD"></div></div></section>';
+  return h;
+};
+
+/* ---------------- subjects ---------------- */
+var SUBJ = [['A','Anatomy','c-maroon'],['P','Physiology','c-gold'],['B','Biochemistry and Genetics','c-goldlt'],['M','Microbiology and Immunology','c-white'],['X','Pathology','c-salmon']];
+VIEW.subjects = function(){
+  var rows=firstRows();
+  var h='<div class="head"><p class="eyebrow">Study by subject</p><h1 tabindex="-1">Pick a <span class="accent">subject</span></h1><p class="lead">The same topics as your weekly path, sorted by exam area across all 11 systems.</p></div>';
+  h+='<ul class="week-grid" style="padding-top:0;gap:14px">'+SUBJ.map(function(x){
+    var n=ORDERED.filter(function(c){return c.seaCodes.indexOf(x[0])>=0;}).length, rs=rows.filter(function(r){return r.q.sea===x[0];}), ok=rs.filter(function(r){return r.ok;}).length;
+    var gea=SEA_GEA[x[0]]==='SF'?'Structure/Function':'Disease/Dysfunction';
+    return '<li><a class="subj-tile '+x[2]+'" href="#subject/'+x[0]+'"><span class="wk">'+gea+'</span><span class="sys">'+esc(x[1])+'</span><span class="sub">'+n+' topics · '+(rs.length?pct(ok,rs.length)+'% correct on '+rs.length:'no questions yet')+'</span></a></li>';
+  }).join('')+'</ul>';
+  return h;
+};
+VIEW.subject = function(k){
+  var sj=SUBJ.filter(function(x){return x[0]===k;})[0];
+  if(!sj) return '<div class="head"><h1 tabindex="-1">Subject not found</h1><p><a href="#subjects">Back to subjects</a></p></div>';
+  var all=ORDERED.filter(function(c){return c.seaCodes.indexOf(k)>=0;}), started=all.filter(function(c){return status(c.id)!=='new';}).length;
+  var h='<div class="head"><a class="back" href="#subjects">Back to all subjects</a><p class="eyebrow">'+(SEA_GEA[k]==='SF'?'Structure/Function':'Disease/Dysfunction')+' · about 40 questions on the exam</p><h1 tabindex="-1">'+esc(sj[1])+'</h1>'+
+    '<div class="wk-progress"><span class="bar" role="img" aria-label="'+started+' of '+all.length+' topics started"><span style="width:'+pct(started,all.length)+'%"></span></span><span>'+started+' of '+all.length+' topics started</span></div>'+
+    '<div class="row" style="margin-top:12px"><button type="button" class="btn acc" data-act="subjpractice" data-k="'+k+'">Practice '+esc(sj[1])+' questions</button></div></div>';
+  SYS_ORDER.forEach(function(code){
+    var list=all.filter(function(c){return c.systemCode===code;}); if(!list.length) return;
+    h+='<section class="section" aria-labelledby="ss-'+code+'"><h2 class="sub-sys" id="ss-'+code+'">'+esc(sysName(code))+' <span class="note">Week '+list[0].week+'</span></h2><ul class="concept-grid">'+list.map(conceptCard).join('')+'</ul></section>';
+  });
+  return h;
+};
+
+/* relative strength by exam area, the way NABNE shows it on a failing report */
+function relAreas(rows){
+  var g={}; rows.forEach(function(r){ var b=g[r.q.sea]=g[r.q.sea]||{n:0,ok:0}; b.n++; if(r.ok) b.ok++; });
+  var ks=['A','P','B','M','X'].filter(function(k){return g[k];}); if(!ks.length) return '<p>No data yet.</p>';
+  var avg=ks.reduce(function(a,k){return a+g[k].ok/g[k].n;},0)/ks.length;
+  return ks.map(function(k){ var d=Math.round((g[k].ok/g[k].n-avg)*100), w=Math.min(50,Math.abs(d));
+    return '<div class="rel-row"><span>'+esc(SEA_NAMES[k])+'</span><span class="rel-track" role="img" aria-label="'+esc(SEA_NAMES[k])+': '+(d>=0?d+' points above':(-d)+' points below')+' your average"><span class="mid"></span><span class="fill'+(d<0?' neg':'')+'" style="'+(d>=0?'left:50%':'right:50%')+';width:'+w+'%"></span></span><span class="bar-num">'+(d>0?'+':'')+d+'</span></div>'; }).join('')+
+    '<p class="note">Compared with your own average across these areas, the same way NABNE shows exam areas on a failing report.</p>';
+}
+
 /* dashboard */
 function allAttemptRows(){
   var rows=[];
@@ -1147,7 +1344,9 @@ function allAttemptRows(){
 VIEW.dashboard = function(){
   var rows=allAttemptRows(), mastered=ORDERED.filter(function(c){return status(c.id)==='mastered';}).length;
   var h='<div class="head"><p class="eyebrow">Dashboard</p><h1 tabindex="-1">Where are your <span class="accent">weak spots?</span></h1></div>';
-  h+='<div class="grid g2">'+geaMeters(rows)+'</div>';
+  var P=predictAll();
+  h+='<section aria-labelledby="pr-h"><h2 id="pr-h">Predicted result <span class="note">Confidence: '+esc(P.conf)+(P.overall==null?'':' · about '+Math.round(P.overall*100)+'% chance of passing both')+'</span></h2><div class="grid g2">'+predCard('SF',P.sf)+predCard('DD',P.dd)+'</div>'+
+    '<p style="margin:.8rem 0 0"><a class="btn ghost" href="#predict">Save, test, and see how this is predicted</a></p></section>';
   h+='<div class="grid g4 section">'+stat(rows.length,'Questions answered')+stat(pct(rows.filter(function(r){return r.ok;}).length,rows.length)+'%','Correct overall','gold')+stat(mastered+' of '+ORDERED.length,'Units mastered','terra')+stat(Object.keys(S.srs).length,'Units with reviews','goldlt')+'</div>';
   var L=todayList();
   h+='<section class="section grid g2"><div class="card"><h2>Blind spots</h2><p class="note">Top priority. You were sure and wrong.</p>'+
@@ -1191,8 +1390,8 @@ VIEW.diagnostic = function(){
 };
 
 /* ---------------- router ---------------- */
-var NAV_FOR = {path:'path',week:'path',study:'path',dumps:'dumps',practice:'practice',exams:'exams',dashboard:'dashboard',diagnostic:'diagnostic'};
-var TITLES = {path:'Your path',week:'Week',study:'Study unit',dumps:'Brain dumps',practice:'Practice',exams:'Full exams',dashboard:'Dashboard',diagnostic:'Diagnostic',take:'Question',results:'Results'};
+var NAV_FOR = {path:'path',week:'path',subjects:'subjects',subject:'subjects',predict:'dashboard',study:'path',dumps:'dumps',practice:'practice',exams:'exams',dashboard:'dashboard',diagnostic:'diagnostic'};
+var TITLES = {path:'Your path',week:'Week',subjects:'Subjects',subject:'Subject',predict:'Predicted result',study:'Study unit',dumps:'Brain dumps',practice:'Practice',exams:'Full exams',dashboard:'Dashboard',diagnostic:'Diagnostic',take:'Question',results:'Results'};
 var lastRoute='';
 function route(keepFocus){
   var h=decodeURIComponent(location.hash.slice(1))||'path';
@@ -1253,6 +1452,16 @@ var ACT = {
     postHeight();
   },
   unitpractice:function(b){ startUnitPractice(b.getAttribute('data-unit')); },
+  subjpractice:function(b){ var k=b.getAttribute('data-k'); pb.sys=SYS_ORDER.filter(function(s){return casesFor(s).length;}); pb.areas=[k]; pb.units=[]; go('practice'); announce('Practice set to '+SEA_NAMES[k]+' only. Pick how many cases and start.'); },
+  savepred:function(){ var sn=predSnapshot(); S.settings.preds=(S.settings.preds||[]).concat([sn]); save(); rerender(); var m=document.getElementById('pred-msg'); if(m) m.textContent='Saved your prediction for '+nice(sn.date)+'.'; },
+  copypred:function(){ var t=predText(predSnapshot()), m=document.getElementById('pred-msg');
+    var done=function(){ if(m) m.textContent='Copied. Paste it somewhere safe.'; };
+    try{ navigator.clipboard.writeText(t).then(done,function(){ if(m) m.textContent=t; }); }catch(e){ if(m) m.textContent=t; } },
+  logreal:function(){
+    var d=document.getElementById('rr-date').value, sf=document.getElementById('rr-sf').value, dd=document.getElementById('rr-dd').value, err=document.getElementById('rr-err');
+    if(!d||!sf||!dd){ err.textContent='Add the exam date and pick where both markers landed.'; return; }
+    S.settings.reals=(S.settings.reals||[]).concat([{date:d,sf:sf,dd:dd}]); save(); rerender(); announce('Real result saved. The comparison is below.');
+  },
   dtab:function(b){ dumpUI.tab=b.getAttribute('data-tab'); rerender(); var x=main.querySelector('[data-act="dtab"][aria-pressed="true"]'); if(x) x.focus(); announce(b.textContent+' shown'); },
   savecomp:function(b){
     var id=b.getAttribute('data-unit'), boxes=main.querySelectorAll('.kp-'+CSS.escape(id)), n=boxes.length, k=0;
@@ -1360,6 +1569,8 @@ var CHG = {
     announce((t.checked?'Marked done: ':'Unmarked: ')+t.parentNode.textContent.trim());
     var tid=t.id; rerender(); focusSel('#'+CSS.escape(tid));
   },
+  cutset:function(t){ var g=t.getAttribute('data-g'), v=parseInt(t.value,10); if(isNaN(v)||v<40||v>90){ t.value=cutFor(g); announce('Use a number from 40 to 90.'); return; }
+    S.settings.cut=S.settings.cut||{}; S.settings.cut[g]=v; save(); announce('Estimated cut for '+GEA_NAMES[g]+' set to '+v+' percent.'); },
   dsys:function(t){ dumpUI.sys=t.value; rerender(); focusSel('#dsys'); announce('Showing '+sysName(t.value)); },
   pass:function(t){
     var id=t.getAttribute('data-unit'), d=S.dumps[id]=S.dumps[id]||{}; d[t.getAttribute('data-pass')]=t.checked;

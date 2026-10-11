@@ -21,7 +21,11 @@ The app tracks every unit as Not started, In progress, Due, Blind spot, or Maste
 | File | What it is |
 |---|---|
 | `index.html` | The whole app: path, study units, brain dumps, practice, full exams, dashboard, diagnostic |
-| `nplex-competencies.js` | The blueprint: 152 numbered competencies, 95 condition groups, 423 conditions, weights |
+| `nplex-competencies.js` | GENERATED. The blueprint (152 numbered competencies, 95 condition groups, 423 conditions, weights) plus 1,687 specific competencies at USMLE Step 1 depth and the USMLE crosswalk |
+| `nplex-competencies.html` | Searchable competency viewer with the USMLE crosswalk |
+| `NPLEX-Part-I-Competencies.pdf` | Print version of the viewer |
+| `content/objectives/` | Source competencies by system (JSON), reviewed |
+| `specs/OBJECTIVES.md` | How competencies are written and tagged |
 | `nplex-content.js` | GENERATED. Study units, cases, diagnostic. Rebuild, never hand-edit |
 | `content/` | Source content as JSON, one file per writer batch |
 | `specs/SPEC.md` | The content spec every writer follows |
@@ -35,6 +39,9 @@ The app tracks every unit as Not started, In progress, Due, Blind spot, or Maste
 ## Rebuild after content changes
 
 ```
+python3 tools/check_objectives.py content/objectives/*.json
+cd tools && python3 build_competencies.py ../NPLEX_Master_Blueprint_Scaffold.xlsx .. && cd ..
+python3 tools/build_competency_pages.py .
 python3 tools/check_content.py content/*/*.json
 python3 tools/build_bundle.py
 ```

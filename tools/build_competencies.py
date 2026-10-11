@@ -10,7 +10,7 @@ Code scheme (matches the scaffold legend example CV-18-A3):
 Spaced recall schedules at the numbered-competency and category level. Questions
 may be tagged at the condition level; they roll up to their category.
 """
-import json, sys, os
+import json, sys, os, glob
 from openpyxl import load_workbook
 from openpyxl.styles import Font, PatternFill, Alignment
 from openpyxl.worksheet.datavalidation import DataValidation
@@ -27,6 +27,25 @@ def dok_for(statement, is_conditions):
     return 2
 
 
+OBJ_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "content", "objectives")
+
+
+def load_objectives():
+    objs, cross, excl = {}, [], []
+    for f in sorted(glob.glob(os.path.join(OBJ_DIR, "*.json"))):
+        d = json.load(open(f, encoding="utf-8"))
+        objs.update(d.get("objectives", {}))
+        for c in d.get("crosswalk", []):
+            cross.append(dict(c, system=d["system"]))
+        for x in d.get("excluded", []):
+            excl.append(dict(x, system=d["system"]))
+    return objs, cross, excl
+
+
+OBJS, CROSS, EXCL = load_objectives()
+SRC_LABEL = {"NPLEX": "NPLEX", "Both": "NPLEX + USMLE", "USMLE": "USMLE extension"}
+
+
 def build():
     comps, flat = [], []  # comps: schedulable units; flat: every code for the sheet
     for s in SYSTEMS:
@@ -41,8 +60,11 @@ def build():
                 "sea": SEA_NAME[prim], "seaCodes": list(seas),
                 "gea": GEA_NAME[SEA_GEA[prim]], "dok": dok_for(stmt, False), "nd": bool(nd),
             }
+            c["objectives"] = OBJS.get(code, [])
             comps.append(c)
             flat.append(dict(code=code, level="Competency", parent="", **{k: c[k] for k in ("system", "name", "can", "sea", "gea", "nd", "week")}))
+            for o in c["objectives"]:
+                flat.append(obj_row(o, code, s["name"], s["week"]))
         n = s["condNum"]
         flat.append(dict(code=f"{s['code']}-{n}", level="Competency", parent="", system=s["name"],
                          name=f"{s['name']} conditions", can="Explain pathogenesis and identify etiology, risk factors, complications, and clinical characteristics of the conditions listed under this competency.",
@@ -62,11 +84,23 @@ def build():
                 "sea": SEA_NAME[prim], "seaCodes": list(seas),
                 "gea": GEA_NAME[SEA_GEA[prim]], "dok": 3, "nd": bool(nd),
             }
+            c["objectives"] = OBJS.get(code, [])
             comps.append(c)
             flat.append(dict(code=code, level="Category", parent=f"{s['code']}-{n}", system=s["name"], name=title, can=stmt, sea=c["sea"], gea=c["gea"], nd=c["nd"], week=s["week"]))
             for x in cl:
                 flat.append(dict(code=x["code"], level="Condition", parent=code, system=s["name"], name=x["name"], can="", sea=c["sea"], gea=c["gea"], nd=c["nd"], week=s["week"]))
+            for o in c["objectives"]:
+                flat.append(obj_row(o, code, s["name"], s["week"]))
     return comps, flat
+
+
+SEA_FULL = {"A": "Anatomy", "P": "Physiology", "B": "Biochemistry & Genetics", "M": "Microbiology & Immunology", "X": "Pathology"}
+GEA_OF = {"A": "Structure/Function", "P": "Structure/Function", "B": "Structure/Function", "M": "Disease/Dysfunction", "X": "Disease/Dysfunction"}
+
+
+def obj_row(o, parent, sysname, week):
+    return dict(code=o["id"], level="Objective", parent=parent, system=sysname, name=SRC_LABEL[o["src"]], can=o["t"],
+                sea=SEA_FULL[o["sea"]], gea=GEA_OF[o["sea"]], nd=False, week=week, dok=o["dok"], usmle=o.get("usmle") or "")
 
 
 def blueprint_obj():
@@ -80,6 +114,10 @@ def blueprint_obj():
     return {"source": "NABNE NPLEX Part I Biomedical Sciences Study Guide, revised March 2026 (August 2026 administrations)",
             "sourceUrl": "https://www.nabne.org/pdf/NPLEX-Part-I-Biomedical-Sciences-Study-Guide-08-2026.pdf",
             "exam": EXAM, "geas": GEAS, "seas": SEAS, "systems": systems,
+            "usmle": {"source": "USMLE Step 1 Content Outline and Specifications (usmle.org)",
+                      "sourceUrl": "https://www.usmle.org/exam-resources/step-1-materials/step-1-content-outline-and-specifications",
+                      "outlineUrl": "https://www.usmle.org/sites/default/files/2022-01/USMLE_Content_Outline_0.pdf",
+                      "note": "USMLE removed General Principles; foundational science now sits inside organ systems. Objectives tagged USMLE are Step 1 topics added inside the closest NPLEX unit. Pharmacology, behavioral and social sciences, biostatistics, and care of the well patient are not on NPLEX Part I and are excluded."},
             "notes": {"seaTags": "NABNE does not assign SEAs to competencies. seaCodes are our default tags; each question carries its own SEA.",
                       "nd": "nd marks competencies where naturopathic training places extra weight: nutrition biochemistry, antioxidants, detoxification, exercise, and deficiency states. It is our flag, not NABNE's.",
                       "codes": "Codes follow system-number-letter-item, for example CV-18-C3 (myocardial infarction)."}}
@@ -102,6 +140,8 @@ def write_js(comps, path):
     with open(path, "w", encoding="utf-8") as f:
         f.write(head)
         f.write("window.NPLEX_BLUEPRINT = " + json.dumps(blueprint_obj(), ensure_ascii=False, indent=1) + ";\n\n")
+        f.write("window.NPLEX_CROSSWALK = " + json.dumps(CROSS, ensure_ascii=False) + ";\n")
+        f.write("window.NPLEX_EXCLUDED = " + json.dumps(EXCL, ensure_ascii=False) + ";\n\n")
         f.write("window.NPLEX_COMPETENCIES = [\n")
         f.write(",\n".join("  " + json.dumps(c, ensure_ascii=False) for c in comps))
         f.write("\n];\n")
@@ -112,29 +152,29 @@ def write_sheet(flat, src, dst):
     if "Competencies" in wb.sheetnames:
         del wb["Competencies"]
     ws = wb.create_sheet("Competencies", 1)
-    navy, white = "1E3D4C", "FFFFFF"
+    navy, white = "0B1530", "FFFFFF"
     ws["A1"] = "NPLEX Part I Competencies (NABNE study guide, revised March 2026)"
     ws["A1"].font = Font(bold=True, size=14, color=navy)
-    ws["A2"] = "Use these codes in the Question Bank's Competency Ref column. Tag at the most specific level that fits (a condition code like CV-18-C3 when the question is about one condition)."
+    ws["A2"] = "Use these codes in the Question Bank's Competency Ref column. Tag at the most specific level that fits: an objective (CV-7.3) or a condition (CV-18-C3)."
     ws["A2"].alignment = Alignment(wrap_text=False)
-    hdr = ["Code", "Level", "Parent", "Body System", "Name", "Blueprint statement", "Default SEA", "GEA", "ND emphasis", "Week"]
+    hdr = ["Code", "Level", "Parent", "Body System", "Name or source", "Blueprint statement or objective", "SEA", "GEA", "ND emphasis", "Week", "DOK", "USMLE outline heading"]
     for i, h in enumerate(hdr, 1):
         c = ws.cell(row=4, column=i, value=h)
         c.font = Font(bold=True, color=white)
         c.fill = PatternFill("solid", fgColor=navy)
     for r, x in enumerate(flat, 5):
-        vals = [x["code"], x["level"], x["parent"], x["system"], x["name"], x["can"], x["sea"], x["gea"], "Yes" if x["nd"] else "", x["week"]]
+        vals = [x["code"], x["level"], x["parent"], x["system"], x["name"], x["can"], x["sea"], x["gea"], "Yes" if x["nd"] else "", x["week"], x.get("dok", ""), x.get("usmle", "")]
         for i, v in enumerate(vals, 1):
             cell = ws.cell(row=r, column=i, value=v)
-            cell.alignment = Alignment(vertical="top", wrap_text=(i == 6))
-        if x["level"] != "Condition":
+            cell.alignment = Alignment(vertical="top", wrap_text=(i in (6, 12)))
+        if x["level"] in ("Competency", "Category"):
             for i in range(1, 6):
                 ws.cell(row=r, column=i).font = Font(bold=True, color=navy)
-    widths = [12, 12, 11, 16, 44, 80, 24, 20, 12, 7]
+    widths = [13, 12, 11, 16, 30, 90, 24, 20, 12, 7, 6, 46]
     for i, w in enumerate(widths, 1):
         ws.column_dimensions[chr(64 + i)].width = w
     ws.freeze_panes = "B5"
-    ws.auto_filter.ref = f"A4:J{4 + len(flat)}"
+    ws.auto_filter.ref = f"A4:L{4 + len(flat)}"
     last = 4 + len(flat)
 
     # Dropdown on Question Bank > Competency Ref
@@ -148,6 +188,28 @@ def write_sheet(flat, src, dst):
                         error="Pick a code from the Competencies tab.")
     dv.add(f"{letter}3:{letter}{qb.max_row}")
     qb.add_data_validation(dv)
+    if "USMLE Crosswalk" in wb.sheetnames:
+        del wb["USMLE Crosswalk"]
+    cw = wb.create_sheet("USMLE Crosswalk", 2)
+    cw["A1"] = "USMLE Step 1 topics and where they live in this course"
+    cw["A1"].font = Font(bold=True, size=14, color=navy)
+    cw["A2"] = "Every topic named in the USMLE Step 1 outline for each system, mapped to an objective code, or marked excluded with the reason."
+    h2 = ["System", "USMLE outline topic", "Where in this course", "Note"]
+    for i, h in enumerate(h2, 1):
+        c = cw.cell(row=4, column=i, value=h); c.font = Font(bold=True, color=white); c.fill = PatternFill("solid", fgColor=navy)
+    r = 5
+    for x in CROSS:
+        for i, v in enumerate([x["system"], x.get("usmle", ""), x.get("where", ""), x.get("note", "")], 1):
+            cw.cell(row=r, column=i, value=v).alignment = Alignment(vertical="top", wrap_text=(i in (2, 4)))
+        r += 1
+    for x in EXCL:
+        for i, v in enumerate([x["system"], x.get("usmle", ""), "excluded", x.get("reason", "")], 1):
+            cw.cell(row=r, column=i, value=v).alignment = Alignment(vertical="top", wrap_text=(i in (2, 4)))
+        r += 1
+    for i, w in enumerate([9, 70, 20, 60], 1):
+        cw.column_dimensions[chr(64 + i)].width = w
+    cw.freeze_panes = "A5"
+    cw.auto_filter.ref = f"A4:D{r - 1}"
     wb.save(dst)
 
 
@@ -160,7 +222,7 @@ if __name__ == "__main__":
     lv = {}
     for x in flat:
         lv[x["level"]] = lv.get(x["level"], 0) + 1
-    print("schedulable units:", len(comps), "| sheet rows by level:", lv)
+    print("schedulable units:", len(comps), "| objectives:", sum(len(c["objectives"]) for c in comps), "| crosswalk:", len(CROSS), "| excluded:", len(EXCL), "| sheet rows by level:", lv)
     for s in SYSTEMS:
         k = [c for c in comps if c["systemCode"] == s["code"]]
         print(f"  {s['code']} {s['name']:16} units {len(k):3}  conditions {sum(len(c.get('conditions', [])) for c in k):3}  nd {sum(c['nd'] for c in k)}")
