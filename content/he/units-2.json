@@ -1,647 +1,1667 @@
 [
-{
+ {
   "id": "HE-8",
   "summary": "The organisms that live in or attack blood cells: Plasmodium, Babesia, Schistosoma, and parvovirus B19. Exam questions ask you to trace a life cycle, name the vector or host, explain what makes a pathogen dangerous, and explain why some red cell traits protect against malaria.",
   "notes": [
-    {"h": "Plasmodium life cycle", "points": [
-      "A female Anopheles mosquito injects sporozoites from its salivary glands into the blood.",
-      "Sporozoites reach the liver within an hour and enter hepatocytes, where liver schizogony makes thousands of merozoites. This stage causes no symptoms.",
-      "Merozoites leave the liver and invade red cells: ring form, then trophozoite, then schizont, which ruptures and releases new merozoites into the blood.",
-      "Each round of red cell rupture releases parasite products (including hemozoin) that trigger cytokines such as TNF, which cause the fever paroxysm.",
-      "Some merozoites become male and female gametocytes. A feeding mosquito takes these up, and sexual reproduction happens in the mosquito gut, ending with new sporozoites in its salivary glands.",
-      "P. vivax and P. ovale leave dormant hypnozoites in the liver. These wake weeks to months later and cause relapse even after the blood stage is cleared, so a drug that kills liver stages (primaquine) is needed."
-    ]},
-    {"h": "Why P. falciparum is the most dangerous", "points": [
-      "It invades red cells of all ages, so parasitemia can climb very high. P. vivax and P. ovale prefer reticulocytes and P. malariae prefers older cells, which caps their parasitemia.",
-      "Infected cells display PfEMP1 on surface knobs. PfEMP1 binds endothelial receptors (such as CD36 and ICAM-1), so mature parasites stick to small vessel walls (sequestration).",
-      "Sequestration blocks microvessels in the brain, kidney, lung, and placenta and keeps mature parasites out of the spleen, where they would be cleared.",
-      "Because mature stages are stuck in vessels, the peripheral smear shows mostly ring forms and gametocytes.",
-      "PfEMP1 is encoded by a family of about 60 var genes. The parasite expresses one at a time and switches, so antibodies made against one version stop working (antigenic variation)."
-    ]},
-    {"h": "Red cell traits that protect against malaria", "points": [
-      "Sickle cell trait: infected HbAS cells sickle more readily at low oxygen and are removed early by the spleen, and parasite growth is impaired. Protection is mainly against severe falciparum malaria.",
-      "G6PD deficiency: infected cells are under extra oxidant stress, so they are damaged and cleared earlier, limiting parasite growth.",
-      "Thalassemia trait (alpha or beta): lowers the risk of severe malaria; the proposed mechanisms include reduced parasite growth and stronger immune clearance of infected microcytic cells.",
-      "These traits stay common in malaria regions because carriers survive childhood malaria better (balanced selection).",
-      "Duffy antigen: P. vivax uses the Duffy antigen (DARC) as its main receptor to enter reticulocytes. Duffy-negative red cells, common in people of West African ancestry, largely resist P. vivax."
-    ]},
-    {"h": "Babesia microti", "points": [
-      "An intraerythrocytic protozoan spread by the Ixodes scapularis (deer or blacklegged) tick, mostly in the northeastern and upper midwestern United States.",
-      "Also spread by blood transfusion, since the parasite survives in stored red cells.",
-      "Smear: small ring forms inside red cells and, less often, tetrads shaped like a Maltese cross, which are pathognomonic.",
-      "On a blood smear, Babesia shows no hemozoin pigment, no schizonts, and no recognizable gametocytes, which helps separate it from Plasmodium.",
-      "The same tick carries Borrelia burgdorferi (Lyme disease) and Anaplasma, so coinfection is common."
-    ]},
-    {"h": "Schistosoma life cycle", "points": [
-      "Eggs passed in stool or urine hatch in fresh water into miracidia, which infect a freshwater snail (the intermediate host).",
-      "The snail releases free-swimming cercariae, which penetrate intact human skin during wading or swimming.",
-      "They become schistosomula, travel through the lungs to the portal circulation, mature, and pair as male and female adults.",
-      "Adults live in venules: S. mansoni and S. japonicum in the mesenteric venules, S. haematobium in the vesical (bladder) venous plexus.",
-      "Females lay eggs that pass through the bowel or bladder wall. Eggs that get trapped in tissue cause the disease, and adults evade immunity by coating themselves with host antigens."
-    ]},
-    {"h": "Parvovirus B19", "points": [
-      "A small, nonenveloped, single-stranded DNA virus that replicates in the nucleus of dividing cells. Spread by respiratory droplets, transfusion, and across the placenta.",
-      "It enters erythroid progenitors through the P antigen (globoside) and kills them, stopping red cell production for about a week. Giant pronormoblasts appear in the marrow.",
-      "In a healthy person red cells live about 120 days, so a one week pause barely changes hemoglobin. The child gets fifth disease (slapped cheek rash) and adults may get symmetric arthritis.",
-      "In chronic hemolytic anemia (sickle cell disease, hereditary spherocytosis) red cells live only days to weeks, so the pause causes transient aplastic crisis with a sharp fall in hemoglobin and near-zero reticulocytes.",
-      "In the fetus, red cells turn over quickly, so infection causes severe anemia, high-output heart failure, and hydrops fetalis."
-    ]}
+   {
+    "h": "Plasmodium life cycle",
+    "points": [
+     "A female Anopheles mosquito injects sporozoites from its salivary glands into the blood.",
+     "Sporozoites reach the liver within an hour and enter hepatocytes, where liver schizogony makes thousands of merozoites. This stage causes no symptoms.",
+     "Merozoites leave the liver and invade red cells: ring form, then trophozoite, then schizont, which ruptures and releases new merozoites into the blood.",
+     "Each round of red cell rupture releases parasite products (including hemozoin) that trigger cytokines such as TNF, which cause the fever paroxysm.",
+     "Some merozoites become male and female gametocytes. A feeding mosquito takes these up, and sexual reproduction happens in the mosquito gut, ending with new sporozoites in its salivary glands.",
+     "P. vivax and P. ovale leave dormant hypnozoites in the liver. These wake weeks to months later and cause relapse even after the blood stage is cleared, so a drug that kills liver stages (primaquine) is needed."
+    ]
+   },
+   {
+    "h": "Why P. falciparum is the most dangerous",
+    "points": [
+     "It invades red cells of all ages, so parasitemia can climb very high. P. vivax and P. ovale prefer reticulocytes and P. malariae prefers older cells, which caps their parasitemia.",
+     "Infected cells display PfEMP1 on surface knobs. PfEMP1 binds endothelial receptors (such as CD36 and ICAM-1), so mature parasites stick to small vessel walls (sequestration).",
+     "Sequestration blocks microvessels in the brain, kidney, lung, and placenta and keeps mature parasites out of the spleen, where they would be cleared.",
+     "Because mature stages are stuck in vessels, the peripheral smear shows mostly ring forms and gametocytes.",
+     "PfEMP1 is encoded by a family of about 60 var genes. The parasite expresses one at a time and switches, so antibodies made against one version stop working (antigenic variation)."
+    ]
+   },
+   {
+    "h": "Red cell traits that protect against malaria",
+    "points": [
+     "Sickle cell trait: infected HbAS cells sickle more readily at low oxygen and are removed early by the spleen, and parasite growth is impaired. Protection is mainly against severe falciparum malaria.",
+     "G6PD deficiency: infected cells are under extra oxidant stress, so they are damaged and cleared earlier, limiting parasite growth.",
+     "Thalassemia trait (alpha or beta): lowers the risk of severe malaria; the proposed mechanisms include reduced parasite growth and stronger immune clearance of infected microcytic cells.",
+     "These traits stay common in malaria regions because carriers survive childhood malaria better (balanced selection).",
+     "Duffy antigen: P. vivax uses the Duffy antigen (DARC) as its main receptor to enter reticulocytes. Duffy-negative red cells, common in people of West African ancestry, largely resist P. vivax."
+    ]
+   },
+   {
+    "h": "Babesia microti",
+    "points": [
+     "An intraerythrocytic protozoan spread by the Ixodes scapularis (deer or blacklegged) tick, mostly in the northeastern and upper midwestern United States.",
+     "Also spread by blood transfusion, since the parasite survives in stored red cells.",
+     "Smear: small ring forms inside red cells and, less often, tetrads shaped like a Maltese cross, which are pathognomonic.",
+     "On a blood smear, Babesia shows no hemozoin pigment, no schizonts, and no recognizable gametocytes, which helps separate it from Plasmodium.",
+     "The same tick carries Borrelia burgdorferi (Lyme disease) and Anaplasma, so coinfection is common."
+    ]
+   },
+   {
+    "h": "Schistosoma life cycle",
+    "points": [
+     "Eggs passed in stool or urine hatch in fresh water into miracidia, which infect a freshwater snail (the intermediate host).",
+     "The snail releases free-swimming cercariae, which penetrate intact human skin during wading or swimming.",
+     "They become schistosomula, travel through the lungs to the portal circulation, mature, and pair as male and female adults.",
+     "Adults live in venules: S. mansoni and S. japonicum in the mesenteric venules, S. haematobium in the vesical (bladder) venous plexus.",
+     "Females lay eggs that pass through the bowel or bladder wall. Eggs that get trapped in tissue cause the disease, and adults evade immunity by coating themselves with host antigens."
+    ]
+   },
+   {
+    "h": "Parvovirus B19",
+    "points": [
+     "A small, nonenveloped, single-stranded DNA virus that replicates in the nucleus of dividing cells. Spread by respiratory droplets, transfusion, and across the placenta.",
+     "It enters erythroid progenitors through the P antigen (globoside) and kills them, stopping red cell production for about a week. Giant pronormoblasts appear in the marrow.",
+     "In a healthy person red cells live about 120 days, so a one week pause barely changes hemoglobin. The child gets fifth disease (slapped cheek rash) and adults may get symmetric arthritis.",
+     "In chronic hemolytic anemia (sickle cell disease, hereditary spherocytosis) red cells live only days to weeks, so the pause causes transient aplastic crisis with a sharp fall in hemoglobin and near-zero reticulocytes.",
+     "In the fetus, red cells turn over quickly, so infection causes severe anemia, high-output heart failure, and hydrops fetalis."
+    ]
+   }
   ],
   "charts": [
-    {"title": "Plasmodium species compared", "cols": ["Species", "Red cells infected", "Fever cycle", "Liver hypnozoites", "Smear clues"],
-     "rows": [
-      ["P. falciparum", "All ages", "Irregular, not well synchronized", "No", "Many rings, often several per cell; banana-shaped gametocytes"],
-      ["P. vivax", "Young cells (reticulocytes)", "About 48 hours", "Yes", "Enlarged red cells with Schuffner dots"],
-      ["P. ovale", "Young cells (reticulocytes)", "About 48 hours", "Yes", "Enlarged oval red cells with Schuffner dots"],
-      ["P. malariae", "Older cells", "About 72 hours", "No", "Band-form trophozoites"]
-    ]},
-    {"title": "Blood-borne pathogens at a glance", "cols": ["Pathogen", "Type", "Transmission", "Target and key virulence feature"],
-     "rows": [
-      ["Plasmodium", "Apicomplexan protozoan", "Female Anopheles mosquito; also transfusion and congenital", "Hepatocytes then red cells; PfEMP1 adherence in P. falciparum"],
-      ["Babesia microti", "Apicomplexan protozoan", "Ixodes scapularis tick; transfusion", "Red cells; rings and Maltese cross tetrads"],
-      ["Schistosoma species", "Trematode (blood fluke), separate sexes", "Cercariae from freshwater snails penetrate skin", "Adults in mesenteric or vesical venules; eggs cause granulomas"],
-      ["Parvovirus B19", "Nonenveloped single-stranded DNA virus", "Respiratory droplets, transfusion, transplacental", "Erythroid progenitors via P antigen"]
-    ]}
+   {
+    "title": "Plasmodium species compared",
+    "cols": [
+     "Species",
+     "Red cells infected",
+     "Fever cycle",
+     "Liver hypnozoites",
+     "Smear clues"
+    ],
+    "rows": [
+     [
+      "P. falciparum",
+      "All ages",
+      "Irregular, not well synchronized",
+      "No",
+      "Many rings, often several per cell; banana-shaped gametocytes"
+     ],
+     [
+      "P. vivax",
+      "Young cells (reticulocytes)",
+      "About 48 hours",
+      "Yes",
+      "Enlarged red cells with Schuffner dots"
+     ],
+     [
+      "P. ovale",
+      "Young cells (reticulocytes)",
+      "About 48 hours",
+      "Yes",
+      "Enlarged oval red cells with Schuffner dots"
+     ],
+     [
+      "P. malariae",
+      "Older cells",
+      "About 72 hours",
+      "No",
+      "Band-form trophozoites"
+     ]
+    ]
+   },
+   {
+    "title": "Blood-borne pathogens at a glance",
+    "cols": [
+     "Pathogen",
+     "Type",
+     "Transmission",
+     "Target and key virulence feature"
+    ],
+    "rows": [
+     [
+      "Plasmodium",
+      "Apicomplexan protozoan",
+      "Female Anopheles mosquito; also transfusion and congenital",
+      "Hepatocytes then red cells; PfEMP1 adherence in P. falciparum"
+     ],
+     [
+      "Babesia microti",
+      "Apicomplexan protozoan",
+      "Ixodes scapularis tick; transfusion",
+      "Red cells; rings and Maltese cross tetrads"
+     ],
+     [
+      "Schistosoma species",
+      "Trematode (blood fluke), separate sexes",
+      "Cercariae from freshwater snails penetrate skin",
+      "Adults in mesenteric or vesical venules; eggs cause granulomas"
+     ],
+     [
+      "Parvovirus B19",
+      "Nonenveloped single-stranded DNA virus",
+      "Respiratory droplets, transfusion, transplacental",
+      "Erythroid progenitors via P antigen"
+     ]
+    ]
+   }
   ],
   "tricks": [
-    {"kind": "trick", "label": "Vivax and ovale come back", "text": "Only the two species with hypnozoites relapse from the liver: P. vivax and P. ovale. Think V and O for liver sleepers."},
-    {"kind": "trick", "label": "Sticky falciparum", "text": "PfEMP1 makes infected cells sticky, stickiness causes sequestration, and sequestration explains both cerebral malaria and why you see only rings and gametocytes on the smear."},
-    {"kind": "trick", "label": "One tick, three bugs", "text": "Ixodes scapularis can give Lyme disease, babesiosis, and anaplasmosis at once. A patient with Lyme disease plus hemolysis should make you look for Babesia."}
+   {
+    "kind": "trick",
+    "label": "Vivax and ovale come back",
+    "text": "Only the two species with hypnozoites relapse from the liver: P. vivax and P. ovale. Think V and O for liver sleepers."
+   },
+   {
+    "kind": "trick",
+    "label": "Sticky falciparum",
+    "text": "PfEMP1 makes infected cells sticky, stickiness causes sequestration, and sequestration explains both cerebral malaria and why you see only rings and gametocytes on the smear."
+   },
+   {
+    "kind": "trick",
+    "label": "One tick, three bugs",
+    "text": "Ixodes scapularis can give Lyme disease, babesiosis, and anaplasmosis at once. A patient with Lyme disease plus hemolysis should make you look for Babesia."
+   }
   ],
   "highYield": [
-    "Malaria that returns months after travel, with no new exposure, means relapse from P. vivax or P. ovale hypnozoites.",
-    "P. falciparum invades red cells of all ages and causes the highest parasitemia.",
-    "PfEMP1, encoded by switchable var genes, drives both sequestration and immune evasion.",
-    "Duffy-negative red cells resist P. vivax because the parasite needs the Duffy antigen to enter.",
-    "Maltese cross tetrads in red cells, with no pigment, point to Babesia.",
-    "S. haematobium lives in the bladder venous plexus; S. mansoni and S. japonicum live in the mesenteric veins.",
-    "Parvovirus B19 uses the P antigen and causes aplastic crisis in sickle cell disease and hereditary spherocytosis.",
-    "Parvovirus B19 in pregnancy can cause fetal anemia and hydrops fetalis."
+   "Malaria that returns months after travel, with no new exposure, means relapse from P. vivax or P. ovale hypnozoites.",
+   "P. falciparum invades red cells of all ages and causes the highest parasitemia.",
+   "PfEMP1, encoded by switchable var genes, drives both sequestration and immune evasion.",
+   "Duffy-negative red cells resist P. vivax because the parasite needs the Duffy antigen to enter.",
+   "Maltese cross tetrads in red cells, with no pigment, point to Babesia.",
+   "S. haematobium lives in the bladder venous plexus; S. mansoni and S. japonicum live in the mesenteric veins.",
+   "Parvovirus B19 uses the P antigen and causes aplastic crisis in sickle cell disease and hereditary spherocytosis.",
+   "Parvovirus B19 in pregnancy can cause fetal anemia and hydrops fetalis."
   ],
   "pitfalls": [
-    "Babesia rings can look like P. falciparum rings. Babesia has no hemozoin pigment, no recognizable gametocytes, and may form tetrads; travel history and tick exposure help.",
-    "The mosquito is the definitive host of Plasmodium (sexual reproduction happens there); humans are the intermediate host.",
-    "The snail is the intermediate host of Schistosoma; the human is the definitive host where adults mate.",
-    "Aplastic crisis from parvovirus B19 shows very low reticulocytes, which separates it from a hemolytic crisis, where reticulocytes rise."
+   "Babesia rings can look like P. falciparum rings. Babesia has no hemozoin pigment, no recognizable gametocytes, and may form tetrads; travel history and tick exposure help.",
+   "The mosquito is the definitive host of Plasmodium (sexual reproduction happens there); humans are the intermediate host.",
+   "The snail is the intermediate host of Schistosoma; the human is the definitive host where adults mate.",
+   "Aplastic crisis from parvovirus B19 shows very low reticulocytes, which separates it from a hemolytic crisis, where reticulocytes rise."
   ],
   "dumps": [
-    {"t": "Malaria life cycle", "p": "Draw the Plasmodium life cycle as a loop between the mosquito and the human. Label each stage, where it happens, and where hypnozoites form.",
-     "l": ["Female Anopheles injects sporozoites", "Sporozoites infect hepatocytes and form liver schizonts", "Merozoites released into blood invade red cells", "Ring, trophozoite, schizont, then rupture with fever", "Some merozoites form gametocytes", "Mosquito takes up gametocytes; sexual stage in mosquito gut", "Hypnozoites in liver for P. vivax and P. ovale cause relapse"]},
-    {"t": "Pathogen comparison table", "p": "Make a table on blank paper for Plasmodium falciparum, Babesia microti, Schistosoma, and parvovirus B19. Columns: type of organism, how it spreads, the cell or site it targets, and its key virulence feature.",
-     "l": ["P. falciparum: protozoan, Anopheles mosquito, red cells of all ages", "P. falciparum: PfEMP1 sequestration and var gene switching", "Babesia: protozoan, Ixodes tick or transfusion, red cells", "Babesia: rings and Maltese cross tetrads, coinfection with Borrelia", "Schistosoma: fluke, skin penetration by cercariae from snails", "Schistosoma: adults in mesenteric or vesical venules, eggs cause disease", "Parvovirus B19: nonenveloped ssDNA virus, P antigen on erythroid progenitors", "Parvovirus B19: aplastic crisis in hemolytic anemia, hydrops fetalis"]}
+   {
+    "t": "Malaria life cycle",
+    "p": "Draw the Plasmodium life cycle as a loop between the mosquito and the human. Label each stage, where it happens, and where hypnozoites form.",
+    "l": [
+     "Female Anopheles injects sporozoites",
+     "Sporozoites infect hepatocytes and form liver schizonts",
+     "Merozoites released into blood invade red cells",
+     "Ring, trophozoite, schizont, then rupture with fever",
+     "Some merozoites form gametocytes",
+     "Mosquito takes up gametocytes; sexual stage in mosquito gut",
+     "Hypnozoites in liver for P. vivax and P. ovale cause relapse"
+    ]
+   },
+   {
+    "t": "Pathogen comparison table",
+    "p": "Make a table on blank paper for Plasmodium falciparum, Babesia microti, Schistosoma, and parvovirus B19. Columns: type of organism, how it spreads, the cell or site it targets, and its key virulence feature.",
+    "l": [
+     "P. falciparum: protozoan, Anopheles mosquito, red cells of all ages",
+     "P. falciparum: PfEMP1 sequestration and var gene switching",
+     "Babesia: protozoan, Ixodes tick or transfusion, red cells",
+     "Babesia: rings and Maltese cross tetrads, coinfection with Borrelia",
+     "Schistosoma: fluke, skin penetration by cercariae from snails",
+     "Schistosoma: adults in mesenteric or vesical venules, eggs cause disease",
+     "Parvovirus B19: nonenveloped ssDNA virus, P antigen on erythroid progenitors",
+     "Parvovirus B19: aplastic crisis in hemolytic anemia, hydrops fetalis"
+    ]
+   }
   ],
   "refs": [
-    {"book": "Jawetz, Melnick, and Adelberg's Medical Microbiology", "where": "Medical Parasitology (sections on Plasmodium, Babesia, and Schistosoma)"},
-    {"book": "Jawetz, Melnick, and Adelberg's Medical Microbiology", "where": "Parvoviruses"},
-    {"book": "Robbins and Cotran Pathologic Basis of Disease", "where": "Infectious Diseases (section on malaria)"}
+   {
+    "book": "Jawetz, Melnick, and Adelberg's Medical Microbiology",
+    "where": "Medical Parasitology (sections on Plasmodium, Babesia, and Schistosoma)"
+   },
+   {
+    "book": "Jawetz, Melnick, and Adelberg's Medical Microbiology",
+    "where": "Parvoviruses"
+   },
+   {
+    "book": "Robbins and Cotran Pathologic Basis of Disease",
+    "where": "Infectious Diseases (section on malaria)"
+   }
   ],
-  "videos": [],
-  "related": ["HE-9-E", "HE-9-E1", "HE-9-E2", "HE-9-E3", "HE-9-B1", "HE-6"]
-},
-{
+  "videos": [
+   {
+    "channel": "Armando Hasudungan",
+    "title": "Malaria Pathophysiology",
+    "url": "https://www.youtube.com/watch?v=oQmL6XqCKSU"
+   }
+  ],
+  "related": [
+   "HE-9-E",
+   "HE-9-E1",
+   "HE-9-E2",
+   "HE-9-E3",
+   "HE-9-B1",
+   "HE-6"
+  ]
+ },
+ {
   "id": "HE-9-A",
   "summary": "Anemias and other problems that come from making too few or too many blood cells: iron deficiency, anemia of chronic disease, sideroblastic anemia, B12 and folate deficiency, aplastic anemia, polycythemia, neutropenia, and leukemoid reactions. Exam questions give you iron studies, a smear, or a cell count and ask for the cause or the next consequence.",
   "notes": [
-    {"h": "Microcytic anemias", "points": [
-      "Iron deficiency is the most common anemia worldwide. Causes: chronic blood loss (menstrual or gastrointestinal, such as colon cancer in an older adult), poor intake, poor absorption (celiac disease, gastrectomy), and higher need in pregnancy and growth.",
-      "Iron deficiency profile: low ferritin (the earliest change), high TIBC, low serum iron, low transferrin saturation, high RDW, microcytic hypochromic cells, and pencil cells.",
-      "Anemia of chronic disease: IL-6 from inflammation makes the liver release hepcidin, which degrades ferroportin. Iron gets trapped in macrophages and gut cells, so ferritin is normal or high and TIBC is low.",
-      "Thalassemia trait: iron studies are normal, microcytosis is out of proportion to a mild anemia, the red cell count is normal or high, and target cells appear.",
-      "Sideroblastic anemia: heme synthesis fails, so iron builds up in mitochondria. Serum iron and ferritin are high, TIBC is low, and ringed sideroblasts show on Prussian blue stain of marrow."
-    ]},
-    {"h": "Causes of sideroblastic anemia and lead poisoning", "points": [
-      "Heme synthesis starts with ALA synthase, which needs pyridoxal phosphate (vitamin B6).",
-      "Hereditary form: X-linked ALAS2 mutation, so most patients are male.",
-      "Acquired forms: alcohol (a mitochondrial toxin), B6 deficiency (for example from isoniazid), copper deficiency, lead, and myelodysplastic syndrome.",
-      "Lead inhibits ALA dehydratase and ferrochelatase. ALA builds up, and zinc is put into protoporphyrin in place of iron, so zinc protoporphyrin rises.",
-      "Lead also inhibits pyrimidine 5' nucleotidase, so ribosomal RNA clumps show as basophilic stippling of red cells.",
-      "Other lead clues: abdominal colic, wrist or foot drop in adults, lead lines on gums and long bone metaphyses, and learning problems in children."
-    ]},
-    {"h": "Macrocytic anemias", "points": [
-      "Megaloblastic anemia comes from impaired DNA synthesis: macro-ovalocytes, MCV usually above 100 fL, and hypersegmented neutrophils (6 or more lobes). Ineffective erythropoiesis raises LDH and indirect bilirubin.",
-      "B12 deficiency: pernicious anemia (autoantibodies to parietal cells and intrinsic factor, atrophic gastritis of the body and fundus), ileal resection or Crohn disease, strict vegan diet, and the fish tapeworm Dibothriocephalus latus, which competes for B12.",
-      "B12 deficiency raises both methylmalonic acid and homocysteine and can cause subacute combined degeneration: loss of dorsal columns (vibration and position sense) and lateral corticospinal tracts (weakness, spasticity).",
-      "Folate deficiency: poor intake (alcohol use, poor diet), pregnancy, chronic hemolysis (high use), and drugs that block dihydrofolate reductase (methotrexate). Homocysteine rises, methylmalonic acid stays normal, and there are no neurologic signs.",
-      "Body folate stores last months, while B12 stores last years, so folate deficiency appears much sooner.",
-      "Nonmegaloblastic macrocytosis has round macrocytes and no hypersegmented neutrophils: alcohol, liver disease (extra membrane lipid), hypothyroidism, and reticulocytosis (reticulocytes are larger cells)."
-    ]},
-    {"h": "Aplastic anemia", "points": [
-      "Failure of hematopoietic stem cells, giving pancytopenia with low reticulocytes.",
-      "Most cases are autoimmune: cytotoxic T cells attack stem cells. Other causes: drugs (chloramphenicol, alkylating agents), benzene, radiation, viral hepatitis (a seronegative hepatitis), and Fanconi anemia (inherited DNA repair defect with short stature and thumb or radial defects).",
-      "Marrow biopsy shows a hypocellular marrow replaced by fat.",
-      "No splenomegaly. An enlarged spleen points to another cause such as hypersplenism, leukemia, or myelofibrosis."
-    ]},
-    {"h": "Polycythemia", "points": [
-      "Polycythemia vera is a myeloproliferative neoplasm with JAK2 V617F in nearly all cases. Red cells grow without erythropoietin, so erythropoietin is low.",
-      "PV clues: plethora, aquagenic pruritus (itching after a warm bath, from basophil and mast cell histamine), splenomegaly, and often high white cells and platelets.",
-      "PV complications: hyperviscosity and thrombosis (stroke, myocardial infarction, Budd-Chiari syndrome), erythromelalgia (burning, red hands and feet from platelet plugs), gout from high cell turnover, and late progression to myelofibrosis (spent phase) or AML.",
-      "Secondary polycythemia with appropriate high erythropoietin: tissue hypoxia from lung disease, high altitude, cyanotic heart disease, sleep apnea, or smoking (carbon monoxide).",
-      "Secondary polycythemia with inappropriate erythropoietin: tumors that make erythropoietin, mainly renal cell carcinoma and hepatocellular carcinoma. Oxygen saturation is normal.",
-      "Relative polycythemia: red cell mass is normal and plasma volume is low (dehydration, diuretics, burns)."
-    ]},
-    {"h": "Blood loss and white cell changes", "points": [
-      "Acute blood loss: hemoglobin is normal at first because whole blood is lost. It falls over 1 to 3 days as fluid moves from tissues into vessels or IV fluid is given.",
-      "Reticulocytes begin rising after a few days and peak around 7 to 10 days; iron stores are normal unless loss continues.",
-      "Chronic blood loss slowly drains iron and leads to iron deficiency anemia.",
-      "Neutropenia is an absolute neutrophil count below 1500/µL. Below 500/µL the risk of severe bacterial and fungal infection (Candida, Aspergillus) is high.",
-      "Neutropenia mechanisms: marrow failure or infiltration; drug-induced agranulocytosis (propylthiouracil, methimazole, clozapine, chemotherapy); immune destruction (autoimmune disease, Felty syndrome); and cyclic neutropenia from ELANE (neutrophil elastase) mutations, with drops about every 21 days.",
-      "Leukemoid reaction: a marked neutrophilia from infection or inflammation with left shift, toxic granulation, Dohle bodies, and high leukocyte alkaline phosphatase (LAP).",
-      "Chronic myeloid leukemia: neutrophilia at all stages plus basophilia, low LAP, and the BCR-ABL1 fusion from t(9;22)."
-    ]}
+   {
+    "h": "Microcytic anemias",
+    "points": [
+     "Iron deficiency is the most common anemia worldwide. Causes: chronic blood loss (menstrual or gastrointestinal, such as colon cancer in an older adult), poor intake, poor absorption (celiac disease, gastrectomy), and higher need in pregnancy and growth.",
+     "Iron deficiency profile: low ferritin (the earliest change), high TIBC, low serum iron, low transferrin saturation, high RDW, microcytic hypochromic cells, and pencil cells.",
+     "Anemia of chronic disease: IL-6 from inflammation makes the liver release hepcidin, which degrades ferroportin. Iron gets trapped in macrophages and gut cells, so ferritin is normal or high and TIBC is low.",
+     "Thalassemia trait: iron studies are normal, microcytosis is out of proportion to a mild anemia, the red cell count is normal or high, and target cells appear.",
+     "Sideroblastic anemia: heme synthesis fails, so iron builds up in mitochondria. Serum iron and ferritin are high, TIBC is low, and ringed sideroblasts show on Prussian blue stain of marrow."
+    ]
+   },
+   {
+    "h": "Causes of sideroblastic anemia and lead poisoning",
+    "points": [
+     "Heme synthesis starts with ALA synthase, which needs pyridoxal phosphate (vitamin B6).",
+     "Hereditary form: X-linked ALAS2 mutation, so most patients are male.",
+     "Acquired forms: alcohol (a mitochondrial toxin), B6 deficiency (for example from isoniazid), copper deficiency, lead, and myelodysplastic syndrome.",
+     "Lead inhibits ALA dehydratase and ferrochelatase. ALA builds up, and zinc is put into protoporphyrin in place of iron, so zinc protoporphyrin rises.",
+     "Lead also inhibits pyrimidine 5' nucleotidase, so ribosomal RNA clumps show as basophilic stippling of red cells.",
+     "Other lead clues: abdominal colic, wrist or foot drop in adults, lead lines on gums and long bone metaphyses, and learning problems in children."
+    ]
+   },
+   {
+    "h": "Macrocytic anemias",
+    "points": [
+     "Megaloblastic anemia comes from impaired DNA synthesis: macro-ovalocytes, MCV usually above 100 fL, and hypersegmented neutrophils (6 or more lobes). Ineffective erythropoiesis raises LDH and indirect bilirubin.",
+     "B12 deficiency: pernicious anemia (autoantibodies to parietal cells and intrinsic factor, atrophic gastritis of the body and fundus), ileal resection or Crohn disease, strict vegan diet, and the fish tapeworm Dibothriocephalus latus, which competes for B12.",
+     "B12 deficiency raises both methylmalonic acid and homocysteine and can cause subacute combined degeneration: loss of dorsal columns (vibration and position sense) and lateral corticospinal tracts (weakness, spasticity).",
+     "Folate deficiency: poor intake (alcohol use, poor diet), pregnancy, chronic hemolysis (high use), and drugs that block dihydrofolate reductase (methotrexate). Homocysteine rises, methylmalonic acid stays normal, and there are no neurologic signs.",
+     "Body folate stores last months, while B12 stores last years, so folate deficiency appears much sooner.",
+     "Nonmegaloblastic macrocytosis has round macrocytes and no hypersegmented neutrophils: alcohol, liver disease (extra membrane lipid), hypothyroidism, and reticulocytosis (reticulocytes are larger cells)."
+    ]
+   },
+   {
+    "h": "Aplastic anemia",
+    "points": [
+     "Failure of hematopoietic stem cells, giving pancytopenia with low reticulocytes.",
+     "Most cases are autoimmune: cytotoxic T cells attack stem cells. Other causes: drugs (chloramphenicol, alkylating agents), benzene, radiation, viral hepatitis (a seronegative hepatitis), and Fanconi anemia (inherited DNA repair defect with short stature and thumb or radial defects).",
+     "Marrow biopsy shows a hypocellular marrow replaced by fat.",
+     "No splenomegaly. An enlarged spleen points to another cause such as hypersplenism, leukemia, or myelofibrosis."
+    ]
+   },
+   {
+    "h": "Polycythemia",
+    "points": [
+     "Polycythemia vera is a myeloproliferative neoplasm with JAK2 V617F in nearly all cases. Red cells grow without erythropoietin, so erythropoietin is low.",
+     "PV clues: plethora, aquagenic pruritus (itching after a warm bath, from basophil and mast cell histamine), splenomegaly, and often high white cells and platelets.",
+     "PV complications: hyperviscosity and thrombosis (stroke, myocardial infarction, Budd-Chiari syndrome), erythromelalgia (burning, red hands and feet from platelet plugs), gout from high cell turnover, and late progression to myelofibrosis (spent phase) or AML.",
+     "Secondary polycythemia with appropriate high erythropoietin: tissue hypoxia from lung disease, high altitude, cyanotic heart disease, sleep apnea, or smoking (carbon monoxide).",
+     "Secondary polycythemia with inappropriate erythropoietin: tumors that make erythropoietin, mainly renal cell carcinoma and hepatocellular carcinoma. Oxygen saturation is normal.",
+     "Relative polycythemia: red cell mass is normal and plasma volume is low (dehydration, diuretics, burns)."
+    ]
+   },
+   {
+    "h": "Blood loss and white cell changes",
+    "points": [
+     "Acute blood loss: hemoglobin is normal at first because whole blood is lost. It falls over 1 to 3 days as fluid moves from tissues into vessels or IV fluid is given.",
+     "Reticulocytes begin rising after a few days and peak around 7 to 10 days; iron stores are normal unless loss continues.",
+     "Chronic blood loss slowly drains iron and leads to iron deficiency anemia.",
+     "Neutropenia is an absolute neutrophil count below 1500/µL. Below 500/µL the risk of severe bacterial and fungal infection (Candida, Aspergillus) is high.",
+     "Neutropenia mechanisms: marrow failure or infiltration; drug-induced agranulocytosis (propylthiouracil, methimazole, clozapine, chemotherapy); immune destruction (autoimmune disease, Felty syndrome); and cyclic neutropenia from ELANE (neutrophil elastase) mutations, with drops about every 21 days.",
+     "Leukemoid reaction: a marked neutrophilia from infection or inflammation with left shift, toxic granulation, Dohle bodies, and high leukocyte alkaline phosphatase (LAP).",
+     "Chronic myeloid leukemia: neutrophilia at all stages plus basophilia, low LAP, and the BCR-ABL1 fusion from t(9;22)."
+    ]
+   }
   ],
   "charts": [
-    {"title": "Iron studies in microcytic anemia", "cols": ["Disorder", "Serum iron", "Ferritin", "TIBC", "Transferrin saturation", "Key clue"],
-     "rows": [
-      ["Iron deficiency", "Low", "Low", "High", "Low", "High RDW, pencil cells"],
-      ["Anemia of chronic disease", "Low", "Normal or high", "Low", "Low or normal", "Hepcidin traps iron in macrophages"],
-      ["Thalassemia trait", "Normal", "Normal", "Normal", "Normal", "Target cells, high red cell count"],
-      ["Sideroblastic anemia", "High", "High", "Low", "High", "Ringed sideroblasts in marrow"]
-    ]},
-    {"title": "B12 versus folate deficiency", "cols": ["Feature", "B12 deficiency", "Folate deficiency"],
-     "rows": [
-      ["Megaloblastic anemia and hypersegmented neutrophils", "Yes", "Yes"],
-      ["Homocysteine", "High", "High"],
-      ["Methylmalonic acid", "High", "Normal"],
-      ["Neurologic damage", "Yes, subacute combined degeneration", "No"],
-      ["Time for stores to run out", "Years", "Months"],
-      ["Classic causes", "Pernicious anemia, ileal disease, vegan diet, fish tapeworm", "Poor diet, alcohol, pregnancy, hemolysis, methotrexate"]
-    ]},
-    {"title": "Types of polycythemia", "cols": ["Type", "Red cell mass", "Erythropoietin", "Oxygen saturation", "Examples"],
-     "rows": [
-      ["Polycythemia vera", "High", "Low", "Normal", "JAK2 V617F myeloproliferative neoplasm"],
-      ["Secondary, appropriate", "High", "High", "Low (pulse oximetry may read normal with carbon monoxide)", "Lung disease, altitude, cyanotic heart disease, smoking"],
-      ["Secondary, inappropriate", "High", "High", "Normal", "Renal cell or hepatocellular carcinoma"],
-      ["Relative", "Normal", "Normal", "Normal", "Dehydration, diuretics, burns"]
-    ]}
+   {
+    "title": "Iron studies in microcytic anemia",
+    "cols": [
+     "Disorder",
+     "Serum iron",
+     "Ferritin",
+     "TIBC",
+     "Transferrin saturation",
+     "Key clue"
+    ],
+    "rows": [
+     [
+      "Iron deficiency",
+      "Low",
+      "Low",
+      "High",
+      "Low",
+      "High RDW, pencil cells"
+     ],
+     [
+      "Anemia of chronic disease",
+      "Low",
+      "Normal or high",
+      "Low",
+      "Low or normal",
+      "Hepcidin traps iron in macrophages"
+     ],
+     [
+      "Thalassemia trait",
+      "Normal",
+      "Normal",
+      "Normal",
+      "Normal",
+      "Target cells, high red cell count"
+     ],
+     [
+      "Sideroblastic anemia",
+      "High",
+      "High",
+      "Low",
+      "High",
+      "Ringed sideroblasts in marrow"
+     ]
+    ]
+   },
+   {
+    "title": "B12 versus folate deficiency",
+    "cols": [
+     "Feature",
+     "B12 deficiency",
+     "Folate deficiency"
+    ],
+    "rows": [
+     [
+      "Megaloblastic anemia and hypersegmented neutrophils",
+      "Yes",
+      "Yes"
+     ],
+     [
+      "Homocysteine",
+      "High",
+      "High"
+     ],
+     [
+      "Methylmalonic acid",
+      "High",
+      "Normal"
+     ],
+     [
+      "Neurologic damage",
+      "Yes, subacute combined degeneration",
+      "No"
+     ],
+     [
+      "Time for stores to run out",
+      "Years",
+      "Months"
+     ],
+     [
+      "Classic causes",
+      "Pernicious anemia, ileal disease, vegan diet, fish tapeworm",
+      "Poor diet, alcohol, pregnancy, hemolysis, methotrexate"
+     ]
+    ]
+   },
+   {
+    "title": "Types of polycythemia",
+    "cols": [
+     "Type",
+     "Red cell mass",
+     "Erythropoietin",
+     "Oxygen saturation",
+     "Examples"
+    ],
+    "rows": [
+     [
+      "Polycythemia vera",
+      "High",
+      "Low",
+      "Normal",
+      "JAK2 V617F myeloproliferative neoplasm"
+     ],
+     [
+      "Secondary, appropriate",
+      "High",
+      "High",
+      "Low (pulse oximetry may read normal with carbon monoxide)",
+      "Lung disease, altitude, cyanotic heart disease, smoking"
+     ],
+     [
+      "Secondary, inappropriate",
+      "High",
+      "High",
+      "Normal",
+      "Renal cell or hepatocellular carcinoma"
+     ],
+     [
+      "Relative",
+      "Normal",
+      "Normal",
+      "Normal",
+      "Dehydration, diuretics, burns"
+     ]
+    ]
+   }
   ],
   "tricks": [
-    {"kind": "trick", "label": "Hepcidin is the jailer", "text": "Inflammation raises hepcidin, hepcidin locks iron inside macrophages, so the body has iron (high ferritin) that the marrow cannot use (low serum iron)."},
-    {"kind": "trick", "label": "Folate is fast, B12 is slow and nervy", "text": "Folate runs out in months and spares the nerves. B12 runs out over years, raises methylmalonic acid, and damages the spinal cord."},
-    {"kind": "trick", "label": "Leukemoid or CML", "text": "High LAP and toxic granules mean the marrow is answering an infection. Low LAP, basophils, and a big spleen mean CML."}
+   {
+    "kind": "trick",
+    "label": "Hepcidin is the jailer",
+    "text": "Inflammation raises hepcidin, hepcidin locks iron inside macrophages, so the body has iron (high ferritin) that the marrow cannot use (low serum iron)."
+   },
+   {
+    "kind": "trick",
+    "label": "Folate is fast, B12 is slow and nervy",
+    "text": "Folate runs out in months and spares the nerves. B12 runs out over years, raises methylmalonic acid, and damages the spinal cord."
+   },
+   {
+    "kind": "trick",
+    "label": "Leukemoid or CML",
+    "text": "High LAP and toxic granules mean the marrow is answering an infection. Low LAP, basophils, and a big spleen mean CML."
+   }
   ],
   "highYield": [
-    "Low ferritin is the most specific single test for iron deficiency.",
-    "Iron deficiency anemia in an older man or a postmenopausal woman needs a search for gastrointestinal blood loss such as colon cancer.",
-    "Basophilic stippling with high zinc protoporphyrin points to lead poisoning.",
-    "Methylmalonic acid is high in B12 deficiency and normal in folate deficiency.",
-    "Pancytopenia with a fatty, hypocellular marrow and no splenomegaly is aplastic anemia.",
-    "Polycythemia with low erythropoietin is polycythemia vera; with high erythropoietin and normal oxygen saturation, look for renal cell or hepatocellular carcinoma.",
-    "Hemoglobin right after acute hemorrhage underestimates the blood lost.",
-    "An absolute neutrophil count below 500/µL means high risk of severe bacterial and fungal infection."
+   "Low ferritin is the most specific single test for iron deficiency.",
+   "Iron deficiency anemia in an older man or a postmenopausal woman needs a search for gastrointestinal blood loss such as colon cancer.",
+   "Basophilic stippling with high zinc protoporphyrin points to lead poisoning.",
+   "Methylmalonic acid is high in B12 deficiency and normal in folate deficiency.",
+   "Pancytopenia with a fatty, hypocellular marrow and no splenomegaly is aplastic anemia.",
+   "Polycythemia with low erythropoietin is polycythemia vera; with high erythropoietin and normal oxygen saturation, look for renal cell or hepatocellular carcinoma.",
+   "Hemoglobin right after acute hemorrhage underestimates the blood lost.",
+   "An absolute neutrophil count below 500/µL means high risk of severe bacterial and fungal infection."
   ],
   "pitfalls": [
-    "Ferritin is an acute phase reactant, so it can be normal in iron deficiency when inflammation is also present.",
-    "Thalassemia trait and iron deficiency are both microcytic, but only iron deficiency has low ferritin and high RDW.",
-    "Folate given alone can correct the anemia of B12 deficiency while the nerve damage keeps getting worse.",
-    "Macrocytosis from alcohol or liver disease has round macrocytes and no hypersegmented neutrophils, unlike megaloblastic anemia.",
-    "Relative polycythemia has a high hematocrit with normal red cell mass, so the cause is lost plasma."
+   "Ferritin is an acute phase reactant, so it can be normal in iron deficiency when inflammation is also present.",
+   "Thalassemia trait and iron deficiency are both microcytic, but only iron deficiency has low ferritin and high RDW.",
+   "Folate given alone can correct the anemia of B12 deficiency while the nerve damage keeps getting worse.",
+   "Macrocytosis from alcohol or liver disease has round macrocytes and no hypersegmented neutrophils, unlike megaloblastic anemia.",
+   "Relative polycythemia has a high hematocrit with normal red cell mass, so the cause is lost plasma."
   ],
   "dumps": [
-    {"t": "Anemia by MCV", "p": "Draw a flowchart that sorts anemia by MCV into microcytic, normocytic, and macrocytic. Under each group, list each cause from this unit and the one lab or smear finding that identifies it.",
-     "l": ["Microcytic: iron deficiency with low ferritin and high TIBC", "Microcytic: anemia of chronic disease with high ferritin and low TIBC", "Microcytic: thalassemia trait with normal iron and target cells", "Microcytic: sideroblastic with high iron and ringed sideroblasts", "Macrocytic megaloblastic: B12 with high methylmalonic acid", "Macrocytic megaloblastic: folate with normal methylmalonic acid", "Macrocytic nonmegaloblastic: alcohol, liver disease, reticulocytosis", "Aplastic anemia: pancytopenia, low reticulocytes, fatty marrow"]},
-    {"t": "Polycythemia comparison", "p": "Make a table comparing polycythemia vera, secondary polycythemia from hypoxia, secondary polycythemia from a tumor, and relative polycythemia. Include red cell mass, erythropoietin, oxygen saturation, and two complications or clues for polycythemia vera.",
-     "l": ["PV: JAK2 V617F, low erythropoietin", "PV: aquagenic pruritus and splenomegaly", "PV complications: thrombosis such as Budd-Chiari, erythromelalgia, gout", "PV can progress to myelofibrosis or AML", "Hypoxic: high erythropoietin, low oxygen saturation", "Tumor: high erythropoietin, normal saturation, renal cell or hepatocellular carcinoma", "Relative: normal red cell mass, low plasma volume"]}
+   {
+    "t": "Anemia by MCV",
+    "p": "Draw a flowchart that sorts anemia by MCV into microcytic, normocytic, and macrocytic. Under each group, list each cause from this unit and the one lab or smear finding that identifies it.",
+    "l": [
+     "Microcytic: iron deficiency with low ferritin and high TIBC",
+     "Microcytic: anemia of chronic disease with high ferritin and low TIBC",
+     "Microcytic: thalassemia trait with normal iron and target cells",
+     "Microcytic: sideroblastic with high iron and ringed sideroblasts",
+     "Macrocytic megaloblastic: B12 with high methylmalonic acid",
+     "Macrocytic megaloblastic: folate with normal methylmalonic acid",
+     "Macrocytic nonmegaloblastic: alcohol, liver disease, reticulocytosis",
+     "Aplastic anemia: pancytopenia, low reticulocytes, fatty marrow"
+    ]
+   },
+   {
+    "t": "Polycythemia comparison",
+    "p": "Make a table comparing polycythemia vera, secondary polycythemia from hypoxia, secondary polycythemia from a tumor, and relative polycythemia. Include red cell mass, erythropoietin, oxygen saturation, and two complications or clues for polycythemia vera.",
+    "l": [
+     "PV: JAK2 V617F, low erythropoietin",
+     "PV: aquagenic pruritus and splenomegaly",
+     "PV complications: thrombosis such as Budd-Chiari, erythromelalgia, gout",
+     "PV can progress to myelofibrosis or AML",
+     "Hypoxic: high erythropoietin, low oxygen saturation",
+     "Tumor: high erythropoietin, normal saturation, renal cell or hepatocellular carcinoma",
+     "Relative: normal red cell mass, low plasma volume"
+    ]
+   }
   ],
   "refs": [
-    {"book": "Guyton and Hall Textbook of Medical Physiology", "where": "Red Blood Cells, Anemia, and Polycythemia"},
-    {"book": "Robbins and Cotran Pathologic Basis of Disease", "where": "Red Blood Cell and Bleeding Disorders (sections on anemias of diminished erythropoiesis)"},
-    {"book": "Lippincott Illustrated Reviews: Biochemistry", "where": "Micronutrients: Vitamins (sections on folic acid and cobalamin)"},
-    {"book": "Lange: Pathophysiology of Disease (McPhee and Hammer)", "where": "Blood Disorders"}
+   {
+    "book": "Guyton and Hall Textbook of Medical Physiology",
+    "where": "Red Blood Cells, Anemia, and Polycythemia"
+   },
+   {
+    "book": "Robbins and Cotran Pathologic Basis of Disease",
+    "where": "Red Blood Cell and Bleeding Disorders (sections on anemias of diminished erythropoiesis)"
+   },
+   {
+    "book": "Lippincott Illustrated Reviews: Biochemistry",
+    "where": "Micronutrients: Vitamins (sections on folic acid and cobalamin)"
+   },
+   {
+    "book": "Lange: Pathophysiology of Disease (McPhee and Hammer)",
+    "where": "Blood Disorders"
+   }
   ],
-  "videos": [],
-  "related": ["HE-9-A1", "HE-9-A2", "HE-3", "HE-5", "HE-9-B", "HE-9-D"]
-},
-{
+  "videos": [
+   {
+    "channel": "Ninja Nerd",
+    "title": "Microcytic Anemia | Clinical Medicine",
+    "url": "https://www.youtube.com/watch?v=KelJAPQGlyg"
+   },
+   {
+    "channel": "Ninja Nerd",
+    "title": "Macrocytic Anemia | Clinical Medicine",
+    "url": "https://www.youtube.com/watch?v=nUKG5TV4NC4"
+   },
+   {
+    "channel": "Armando Hasudungan",
+    "title": "Anaemia (anemia) - classification (microcytic, normocytic and macrocytic) and pathophysiology",
+    "url": "https://www.youtube.com/watch?v=Vh1LZlLCfkU"
+   }
+  ],
+  "related": [
+   "HE-9-A1",
+   "HE-9-A2",
+   "HE-3",
+   "HE-5",
+   "HE-9-B",
+   "HE-9-D"
+  ]
+ },
+ {
   "id": "HE-9-B",
   "summary": "Anemias from red cells being destroyed too early: sickle cell disease, thalassemia, G6PD deficiency, hereditary spherocytosis, PNH, other membrane and enzyme defects, mechanical hemolysis, and hemolytic disease of the newborn. Spleen disorders are here too. Exam questions link the defect to the smear finding, the site of hemolysis, and the expected complication.",
   "notes": [
-    {"h": "Hemolysis basics", "points": [
-      "All hemolysis: high reticulocytes, high LDH, high indirect bilirubin, and low haptoglobin.",
-      "Extravascular hemolysis happens in splenic macrophages: splenomegaly, jaundice, and pigment gallstones.",
-      "Intravascular hemolysis happens in vessels: free hemoglobin, very low haptoglobin, hemoglobinuria, and hemosiderinuria."
-    ]},
-    {"h": "Sickle cell disease", "points": [
-      "A point mutation in the beta globin gene (glutamate to valine at position 6) makes HbS, which polymerizes when deoxygenated. Low oxygen, acidosis, and dehydration make it worse; HbF protects infants for the first months.",
-      "Vaso-occlusion causes dactylitis (painful swollen hands and feet in infants), acute chest syndrome (the top cause of death in adults), stroke in children, priapism, and avascular necrosis.",
-      "Repeated splenic infarcts cause autosplenectomy, with risk of encapsulated bacteria and Howell-Jolly bodies on smear.",
-      "Salmonella osteomyelitis is classic in sickle cell disease, though Staphylococcus aureus is still common.",
-      "Renal medulla hypoxia causes renal papillary necrosis and inability to concentrate urine; this can happen in sickle cell trait too.",
-      "Chronic hemolysis causes pigment gallstones, and parvovirus B19 causes aplastic crisis."
-    ]},
-    {"h": "Thalassemia", "points": [
-      "Beta thalassemia major: little or no beta chain, so free alpha chains precipitate in red cell precursors and kill them in the marrow (ineffective erythropoiesis). Symptoms start around 6 months, when HbF production falls.",
-      "Marrow expansion gives a crew-cut skull on X-ray and maxillary overgrowth; extramedullary hematopoiesis gives hepatosplenomegaly.",
-      "Iron overload comes from transfusions and from more gut absorption (hepcidin is suppressed). Heart failure from iron is a major cause of death.",
-      "Beta thalassemia minor: mild microcytic anemia, target cells, normal iron studies, and HbA2 above about 3.5% on electrophoresis.",
-      "Alpha thalassemia depends on how many of the 4 alpha genes are lost: 3 lost gives HbH disease (beta tetramers) and 4 lost gives Hb Barts and hydrops fetalis."
-    ]},
-    {"h": "Enzyme and membrane defects", "points": [
-      "G6PD deficiency (X-linked): low NADPH means glutathione cannot be kept reduced, so oxidants denature hemoglobin. Triggers: infection, fava beans, sulfonamides, primaquine, dapsone.",
-      "G6PD smear: Heinz bodies (denatured hemoglobin, seen with supravital stain) and bite cells (splenic macrophages remove the Heinz bodies). Hemolysis is episodic and mainly intravascular.",
-      "Hereditary spherocytosis (mostly autosomal dominant): defects in ankyrin, spectrin, band 3, or protein 4.2 cause membrane loss, so cells become spheres that are trapped and destroyed in the spleen.",
-      "Spherocytosis findings: spherocytes, high MCHC, splenomegaly, pigment gallstones, increased osmotic fragility, reduced eosin-5-maleimide (EMA) binding, and a negative Coombs test.",
-      "Pyruvate kinase deficiency (autosomal recessive): red cells cannot make enough ATP by glycolysis, become rigid, and are removed in the spleen.",
-      "Hereditary elliptocytosis: spectrin defects make elliptical cells; most patients have mild or no hemolysis."
-    ]},
-    {"h": "PNH, microangiopathy, and mechanical hemolysis", "points": [
-      "PNH: an acquired PIGA mutation in a stem cell blocks GPI anchors, so CD55 and CD59 are missing and complement lyses red cells in vessels.",
-      "PNH causes hemoglobinuria, venous thrombosis at unusual sites (hepatic, portal, cerebral veins), and cytopenias. Flow cytometry shows cells lacking CD55 and CD59.",
-      "TTP: ADAMTS13 deficiency (usually an autoantibody) leaves ultralarge von Willebrand factor multimers that build platelet microthrombi. Neurologic signs are prominent.",
-      "HUS: Shiga toxin from E. coli O157:H7, usually after bloody diarrhea in a child, injures glomerular endothelium. Acute kidney injury is prominent.",
-      "Both TTP and HUS show schistocytes, thrombocytopenia, and normal PT and PTT, which separates them from DIC.",
-      "Prosthetic heart valves and severe aortic stenosis shear red cells: schistocytes and intravascular hemolysis. Iron lost in the urine over time causes iron deficiency."
-    ]},
-    {"h": "Hemolytic disease of the newborn", "points": [
-      "An Rh-negative mother exposed to Rh-positive fetal blood (prior delivery, miscarriage, trauma) makes anti-D IgG. The first pregnancy is usually spared.",
-      "In a later Rh-positive pregnancy, anti-D IgG crosses the placenta and coats fetal red cells, causing hemolysis, anemia, extramedullary hematopoiesis, and hydrops fetalis in severe cases.",
-      "Before birth the placenta clears fetal bilirubin. After birth the immature newborn liver cannot keep up, so unconjugated bilirubin rises and can cause kernicterus.",
-      "Newborn: positive direct Coombs test (IgG on the baby's red cells). Mother: positive indirect Coombs test (anti-D in her serum).",
-      "ABO disease: group O mothers make IgG anti-A and anti-B. It can affect a first pregnancy but is milder, because fetal A and B antigens are weakly expressed."
-    ]},
-    {"h": "Spleen disorders", "points": [
-      "Rupture: blunt trauma, or minor trauma to a spleen enlarged by infectious mononucleosis. Pain may spread to the left shoulder.",
-      "Infarct: sickle cell disease, emboli (endocarditis, atrial fibrillation), and massive splenomegaly. Abscess: septic emboli from infective endocarditis.",
-      "After splenectomy: Howell-Jolly bodies, target cells, and thrombocytosis, plus lifelong risk of sepsis from encapsulated bacteria.",
-      "Hypersplenism: an enlarged spleen from portal hypertension or infiltrative disease traps and destroys cells, causing cytopenias with a cellular or hypercellular marrow. Aplastic anemia has a fatty marrow and no splenomegaly."
-    ]}
+   {
+    "h": "Hemolysis basics",
+    "points": [
+     "All hemolysis: high reticulocytes, high LDH, high indirect bilirubin, and low haptoglobin.",
+     "Extravascular hemolysis happens in splenic macrophages: splenomegaly, jaundice, and pigment gallstones.",
+     "Intravascular hemolysis happens in vessels: free hemoglobin, very low haptoglobin, hemoglobinuria, and hemosiderinuria."
+    ]
+   },
+   {
+    "h": "Sickle cell disease",
+    "points": [
+     "A point mutation in the beta globin gene (glutamate to valine at position 6) makes HbS, which polymerizes when deoxygenated. Low oxygen, acidosis, and dehydration make it worse; HbF protects infants for the first months.",
+     "Vaso-occlusion causes dactylitis (painful swollen hands and feet in infants), acute chest syndrome (the top cause of death in adults), stroke in children, priapism, and avascular necrosis.",
+     "Repeated splenic infarcts cause autosplenectomy, with risk of encapsulated bacteria and Howell-Jolly bodies on smear.",
+     "Salmonella osteomyelitis is classic in sickle cell disease, though Staphylococcus aureus is still common.",
+     "Renal medulla hypoxia causes renal papillary necrosis and inability to concentrate urine; this can happen in sickle cell trait too.",
+     "Chronic hemolysis causes pigment gallstones, and parvovirus B19 causes aplastic crisis."
+    ]
+   },
+   {
+    "h": "Thalassemia",
+    "points": [
+     "Beta thalassemia major: little or no beta chain, so free alpha chains precipitate in red cell precursors and kill them in the marrow (ineffective erythropoiesis). Symptoms start around 6 months, when HbF production falls.",
+     "Marrow expansion gives a crew-cut skull on X-ray and maxillary overgrowth; extramedullary hematopoiesis gives hepatosplenomegaly.",
+     "Iron overload comes from transfusions and from more gut absorption (hepcidin is suppressed). Heart failure from iron is a major cause of death.",
+     "Beta thalassemia minor: mild microcytic anemia, target cells, normal iron studies, and HbA2 above about 3.5% on electrophoresis.",
+     "Alpha thalassemia depends on how many of the 4 alpha genes are lost: 3 lost gives HbH disease (beta tetramers) and 4 lost gives Hb Barts and hydrops fetalis."
+    ]
+   },
+   {
+    "h": "Enzyme and membrane defects",
+    "points": [
+     "G6PD deficiency (X-linked): low NADPH means glutathione cannot be kept reduced, so oxidants denature hemoglobin. Triggers: infection, fava beans, sulfonamides, primaquine, dapsone.",
+     "G6PD smear: Heinz bodies (denatured hemoglobin, seen with supravital stain) and bite cells (splenic macrophages remove the Heinz bodies). Hemolysis is episodic and mainly intravascular.",
+     "Hereditary spherocytosis (mostly autosomal dominant): defects in ankyrin, spectrin, band 3, or protein 4.2 cause membrane loss, so cells become spheres that are trapped and destroyed in the spleen.",
+     "Spherocytosis findings: spherocytes, high MCHC, splenomegaly, pigment gallstones, increased osmotic fragility, reduced eosin-5-maleimide (EMA) binding, and a negative Coombs test.",
+     "Pyruvate kinase deficiency (autosomal recessive): red cells cannot make enough ATP by glycolysis, become rigid, and are removed in the spleen.",
+     "Hereditary elliptocytosis: spectrin defects make elliptical cells; most patients have mild or no hemolysis."
+    ]
+   },
+   {
+    "h": "PNH, microangiopathy, and mechanical hemolysis",
+    "points": [
+     "PNH: an acquired PIGA mutation in a stem cell blocks GPI anchors, so CD55 and CD59 are missing and complement lyses red cells in vessels.",
+     "PNH causes hemoglobinuria, venous thrombosis at unusual sites (hepatic, portal, cerebral veins), and cytopenias. Flow cytometry shows cells lacking CD55 and CD59.",
+     "TTP: ADAMTS13 deficiency (usually an autoantibody) leaves ultralarge von Willebrand factor multimers that build platelet microthrombi. Neurologic signs are prominent.",
+     "HUS: Shiga toxin from E. coli O157:H7, usually after bloody diarrhea in a child, injures glomerular endothelium. Acute kidney injury is prominent.",
+     "Both TTP and HUS show schistocytes, thrombocytopenia, and normal PT and PTT, which separates them from DIC.",
+     "Prosthetic heart valves and severe aortic stenosis shear red cells: schistocytes and intravascular hemolysis. Iron lost in the urine over time causes iron deficiency."
+    ]
+   },
+   {
+    "h": "Hemolytic disease of the newborn",
+    "points": [
+     "An Rh-negative mother exposed to Rh-positive fetal blood (prior delivery, miscarriage, trauma) makes anti-D IgG. The first pregnancy is usually spared.",
+     "In a later Rh-positive pregnancy, anti-D IgG crosses the placenta and coats fetal red cells, causing hemolysis, anemia, extramedullary hematopoiesis, and hydrops fetalis in severe cases.",
+     "Before birth the placenta clears fetal bilirubin. After birth the immature newborn liver cannot keep up, so unconjugated bilirubin rises and can cause kernicterus.",
+     "Newborn: positive direct Coombs test (IgG on the baby's red cells). Mother: positive indirect Coombs test (anti-D in her serum).",
+     "ABO disease: group O mothers make IgG anti-A and anti-B. It can affect a first pregnancy but is milder, because fetal A and B antigens are weakly expressed."
+    ]
+   },
+   {
+    "h": "Spleen disorders",
+    "points": [
+     "Rupture: blunt trauma, or minor trauma to a spleen enlarged by infectious mononucleosis. Pain may spread to the left shoulder.",
+     "Infarct: sickle cell disease, emboli (endocarditis, atrial fibrillation), and massive splenomegaly. Abscess: septic emboli from infective endocarditis.",
+     "After splenectomy: Howell-Jolly bodies, target cells, and thrombocytosis, plus lifelong risk of sepsis from encapsulated bacteria.",
+     "Hypersplenism: an enlarged spleen from portal hypertension or infiltrative disease traps and destroys cells, causing cytopenias with a cellular or hypercellular marrow. Aplastic anemia has a fatty marrow and no splenomegaly."
+    ]
+   }
   ],
   "charts": [
-    {"title": "Hemolytic anemias compared", "cols": ["Disorder", "Inheritance or cause", "Defect", "Main site of hemolysis", "Smear or test"],
-     "rows": [
-      ["Sickle cell disease", "Autosomal recessive", "HbS polymerizes when deoxygenated", "Both, mainly extravascular", "Sickle cells; Howell-Jolly bodies after autosplenectomy"],
-      ["Beta thalassemia major", "Autosomal recessive", "Absent beta chains, excess alpha chains", "Marrow (ineffective erythropoiesis) and spleen", "Target cells, nucleated red cells; HbF high"],
-      ["G6PD deficiency", "X-linked recessive", "Low NADPH, oxidant injury", "Mainly intravascular, episodic", "Heinz bodies, bite cells"],
-      ["Hereditary spherocytosis", "Mostly autosomal dominant", "Ankyrin, spectrin, band 3, or protein 4.2", "Extravascular (spleen)", "Spherocytes, high MCHC, low EMA binding, Coombs negative"],
-      ["Pyruvate kinase deficiency", "Autosomal recessive", "Low ATP, rigid cells", "Extravascular (spleen)", "Enzyme assay"],
-      ["Hereditary elliptocytosis", "Mostly autosomal dominant", "Spectrin defects", "Usually mild or none", "Elliptocytes"],
-      ["PNH", "Acquired PIGA mutation", "No CD55 or CD59, complement lysis", "Intravascular", "Flow cytometry for CD55 and CD59"],
-      ["TTP or HUS", "ADAMTS13 deficiency or Shiga toxin", "Microthrombi shear red cells", "Intravascular", "Schistocytes, low platelets, normal PT and PTT"],
-      ["Valve hemolysis", "Prosthetic valve, aortic stenosis", "Mechanical shear", "Intravascular", "Schistocytes, hemosiderinuria"]
-    ]},
-    {"title": "Rh versus ABO hemolytic disease", "cols": ["Feature", "Rh disease", "ABO disease"],
-     "rows": [
-      ["Mother", "Rh negative, sensitized", "Group O"],
-      ["Antibody", "Anti-D IgG made after exposure", "IgG anti-A or anti-B present without exposure"],
-      ["First pregnancy affected", "Usually no", "Can be"],
-      ["Severity", "Can be severe, with hydrops fetalis", "Usually mild jaundice"],
-      ["Direct Coombs in newborn", "Strongly positive", "Weakly positive or negative"]
-    ]}
+   {
+    "title": "Hemolytic anemias compared",
+    "cols": [
+     "Disorder",
+     "Inheritance or cause",
+     "Defect",
+     "Main site of hemolysis",
+     "Smear or test"
+    ],
+    "rows": [
+     [
+      "Sickle cell disease",
+      "Autosomal recessive",
+      "HbS polymerizes when deoxygenated",
+      "Both, mainly extravascular",
+      "Sickle cells; Howell-Jolly bodies after autosplenectomy"
+     ],
+     [
+      "Beta thalassemia major",
+      "Autosomal recessive",
+      "Absent beta chains, excess alpha chains",
+      "Marrow (ineffective erythropoiesis) and spleen",
+      "Target cells, nucleated red cells; HbF high"
+     ],
+     [
+      "G6PD deficiency",
+      "X-linked recessive",
+      "Low NADPH, oxidant injury",
+      "Mainly intravascular, episodic",
+      "Heinz bodies, bite cells"
+     ],
+     [
+      "Hereditary spherocytosis",
+      "Mostly autosomal dominant",
+      "Ankyrin, spectrin, band 3, or protein 4.2",
+      "Extravascular (spleen)",
+      "Spherocytes, high MCHC, low EMA binding, Coombs negative"
+     ],
+     [
+      "Pyruvate kinase deficiency",
+      "Autosomal recessive",
+      "Low ATP, rigid cells",
+      "Extravascular (spleen)",
+      "Enzyme assay"
+     ],
+     [
+      "Hereditary elliptocytosis",
+      "Mostly autosomal dominant",
+      "Spectrin defects",
+      "Usually mild or none",
+      "Elliptocytes"
+     ],
+     [
+      "PNH",
+      "Acquired PIGA mutation",
+      "No CD55 or CD59, complement lysis",
+      "Intravascular",
+      "Flow cytometry for CD55 and CD59"
+     ],
+     [
+      "TTP or HUS",
+      "ADAMTS13 deficiency or Shiga toxin",
+      "Microthrombi shear red cells",
+      "Intravascular",
+      "Schistocytes, low platelets, normal PT and PTT"
+     ],
+     [
+      "Valve hemolysis",
+      "Prosthetic valve, aortic stenosis",
+      "Mechanical shear",
+      "Intravascular",
+      "Schistocytes, hemosiderinuria"
+     ]
+    ]
+   },
+   {
+    "title": "Rh versus ABO hemolytic disease",
+    "cols": [
+     "Feature",
+     "Rh disease",
+     "ABO disease"
+    ],
+    "rows": [
+     [
+      "Mother",
+      "Rh negative, sensitized",
+      "Group O"
+     ],
+     [
+      "Antibody",
+      "Anti-D IgG made after exposure",
+      "IgG anti-A or anti-B present without exposure"
+     ],
+     [
+      "First pregnancy affected",
+      "Usually no",
+      "Can be"
+     ],
+     [
+      "Severity",
+      "Can be severe, with hydrops fetalis",
+      "Usually mild jaundice"
+     ],
+     [
+      "Direct Coombs in newborn",
+      "Strongly positive",
+      "Weakly positive or negative"
+     ]
+    ]
+   }
   ],
   "tricks": [
-    {"kind": "trick", "label": "Bite and Heinz go together", "text": "Heinz bodies are clumps of oxidant-damaged hemoglobin inside the cell; bite cells are what is left after the spleen plucks them out. Both point to G6PD deficiency."},
-    {"kind": "trick", "label": "PNH is missing its shields", "text": "CD55 and CD59 are shields against complement. PIGA loss removes the GPI anchor that holds them on, so complement punches holes in red cells."},
-    {"kind": "trick", "label": "Direct on the baby, indirect in the mother", "text": "The direct Coombs test finds antibody already stuck to red cells (the baby). The indirect Coombs test finds free antibody in serum (the mother)."}
+   {
+    "kind": "trick",
+    "label": "Bite and Heinz go together",
+    "text": "Heinz bodies are clumps of oxidant-damaged hemoglobin inside the cell; bite cells are what is left after the spleen plucks them out. Both point to G6PD deficiency."
+   },
+   {
+    "kind": "trick",
+    "label": "PNH is missing its shields",
+    "text": "CD55 and CD59 are shields against complement. PIGA loss removes the GPI anchor that holds them on, so complement punches holes in red cells."
+   },
+   {
+    "kind": "trick",
+    "label": "Direct on the baby, indirect in the mother",
+    "text": "The direct Coombs test finds antibody already stuck to red cells (the baby). The indirect Coombs test finds free antibody in serum (the mother)."
+   }
   ],
   "highYield": [
-    "Salmonella osteomyelitis, autosplenectomy, and aplastic crisis from parvovirus B19 are classic sickle cell complications.",
-    "HbA2 above about 3.5% with microcytosis and normal iron studies means beta thalassemia minor.",
-    "Hemolysis after sulfonamides, primaquine, dapsone, or fava beans with bite cells means G6PD deficiency.",
-    "Spherocytes with a negative Coombs test and a family history point to hereditary spherocytosis; with a positive Coombs test, think warm autoimmune hemolytic anemia.",
-    "Hemolysis plus thrombosis in hepatic or cerebral veins suggests PNH.",
-    "Schistocytes and low platelets with normal PT and PTT point to TTP or HUS; prolonged PT and PTT point to DIC.",
-    "Howell-Jolly bodies and target cells mean the spleen is absent or not working.",
-    "Unconjugated bilirubin in Rh disease rises after birth because the placenta no longer clears it."
+   "Salmonella osteomyelitis, autosplenectomy, and aplastic crisis from parvovirus B19 are classic sickle cell complications.",
+   "HbA2 above about 3.5% with microcytosis and normal iron studies means beta thalassemia minor.",
+   "Hemolysis after sulfonamides, primaquine, dapsone, or fava beans with bite cells means G6PD deficiency.",
+   "Spherocytes with a negative Coombs test and a family history point to hereditary spherocytosis; with a positive Coombs test, think warm autoimmune hemolytic anemia.",
+   "Hemolysis plus thrombosis in hepatic or cerebral veins suggests PNH.",
+   "Schistocytes and low platelets with normal PT and PTT point to TTP or HUS; prolonged PT and PTT point to DIC.",
+   "Howell-Jolly bodies and target cells mean the spleen is absent or not working.",
+   "Unconjugated bilirubin in Rh disease rises after birth because the placenta no longer clears it."
   ],
   "pitfalls": [
-    "Sickle cell trait is usually silent, but renal papillary necrosis and hematuria can still occur.",
-    "The G6PD activity test can look normal during an acute episode because young cells with more enzyme survive; retest weeks later.",
-    "Hereditary spherocytosis has a high MCHC; most other anemias have a normal or low MCHC.",
-    "Hypersplenism and aplastic anemia both cause pancytopenia, but hypersplenism has a big spleen and a cellular marrow.",
-    "ABO disease can occur in a first pregnancy; Rh disease usually needs prior sensitization."
+   "Sickle cell trait is usually silent, but renal papillary necrosis and hematuria can still occur.",
+   "The G6PD activity test can look normal during an acute episode because young cells with more enzyme survive; retest weeks later.",
+   "Hereditary spherocytosis has a high MCHC; most other anemias have a normal or low MCHC.",
+   "Hypersplenism and aplastic anemia both cause pancytopenia, but hypersplenism has a big spleen and a cellular marrow.",
+   "ABO disease can occur in a first pregnancy; Rh disease usually needs prior sensitization."
   ],
   "dumps": [
-    {"t": "Hemolytic anemia table", "p": "Make a table on blank paper for sickle cell disease, beta thalassemia major, G6PD deficiency, hereditary spherocytosis, PNH, and TTP. Columns: defect, where hemolysis happens, smear or test finding, and one complication.",
-     "l": ["Sickle cell: HbS polymerizes; acute chest syndrome, stroke, autosplenectomy", "Beta thalassemia major: ineffective erythropoiesis, crew-cut skull, iron overload", "G6PD: low NADPH, Heinz bodies and bite cells after oxidant stress", "Spherocytosis: ankyrin or spectrin defect, splenic trapping, gallstones", "Spherocytosis: high MCHC, low EMA binding, Coombs negative", "PNH: PIGA mutation, no CD55 or CD59, venous thrombosis", "TTP: ADAMTS13 deficiency, schistocytes, normal PT and PTT"]},
-    {"t": "Rh disease timeline", "p": "Draw a timeline of two pregnancies in an Rh-negative mother with Rh-positive babies. Show when she is sensitized, what crosses the placenta, what happens to the second fetus, and what happens after birth.",
-     "l": ["First birth or bleed exposes mother to Rh-positive fetal cells", "Mother makes anti-D, first IgM then IgG", "First baby usually unaffected", "Anti-D IgG crosses placenta in later pregnancy", "Fetal hemolysis, anemia, extramedullary hematopoiesis, hydrops fetalis", "Placenta clears bilirubin before birth", "After birth unconjugated bilirubin rises, kernicterus risk", "Direct Coombs positive in baby, indirect Coombs positive in mother"]}
+   {
+    "t": "Hemolytic anemia table",
+    "p": "Make a table on blank paper for sickle cell disease, beta thalassemia major, G6PD deficiency, hereditary spherocytosis, PNH, and TTP. Columns: defect, where hemolysis happens, smear or test finding, and one complication.",
+    "l": [
+     "Sickle cell: HbS polymerizes; acute chest syndrome, stroke, autosplenectomy",
+     "Beta thalassemia major: ineffective erythropoiesis, crew-cut skull, iron overload",
+     "G6PD: low NADPH, Heinz bodies and bite cells after oxidant stress",
+     "Spherocytosis: ankyrin or spectrin defect, splenic trapping, gallstones",
+     "Spherocytosis: high MCHC, low EMA binding, Coombs negative",
+     "PNH: PIGA mutation, no CD55 or CD59, venous thrombosis",
+     "TTP: ADAMTS13 deficiency, schistocytes, normal PT and PTT"
+    ]
+   },
+   {
+    "t": "Rh disease timeline",
+    "p": "Draw a timeline of two pregnancies in an Rh-negative mother with Rh-positive babies. Show when she is sensitized, what crosses the placenta, what happens to the second fetus, and what happens after birth.",
+    "l": [
+     "First birth or bleed exposes mother to Rh-positive fetal cells",
+     "Mother makes anti-D, first IgM then IgG",
+     "First baby usually unaffected",
+     "Anti-D IgG crosses placenta in later pregnancy",
+     "Fetal hemolysis, anemia, extramedullary hematopoiesis, hydrops fetalis",
+     "Placenta clears bilirubin before birth",
+     "After birth unconjugated bilirubin rises, kernicterus risk",
+     "Direct Coombs positive in baby, indirect Coombs positive in mother"
+    ]
+   }
   ],
   "refs": [
-    {"book": "Robbins and Cotran Pathologic Basis of Disease", "where": "Red Blood Cell and Bleeding Disorders (section on hemolytic anemias)"},
-    {"book": "Robbins and Cotran Pathologic Basis of Disease", "where": "Diseases of White Blood Cells, Lymph Nodes, Spleen, and Thymus (section on the spleen)"},
-    {"book": "Lange: Pathophysiology of Disease (McPhee and Hammer)", "where": "Blood Disorders"},
-    {"book": "Abbas, Basic Immunology", "where": "Effector Mechanisms of Humoral Immunity"}
+   {
+    "book": "Robbins and Cotran Pathologic Basis of Disease",
+    "where": "Red Blood Cell and Bleeding Disorders (section on hemolytic anemias)"
+   },
+   {
+    "book": "Robbins and Cotran Pathologic Basis of Disease",
+    "where": "Diseases of White Blood Cells, Lymph Nodes, Spleen, and Thymus (section on the spleen)"
+   },
+   {
+    "book": "Lange: Pathophysiology of Disease (McPhee and Hammer)",
+    "where": "Blood Disorders"
+   },
+   {
+    "book": "Abbas, Basic Immunology",
+    "where": "Effector Mechanisms of Humoral Immunity"
+   }
   ],
-  "videos": [],
-  "related": ["HE-9-B1", "HE-9-B2", "HE-5", "HE-6", "HE-7", "HE-9-A", "HE-8"]
-},
-{
+  "videos": [
+   {
+    "channel": "Ninja Nerd",
+    "title": "Normocytic Anemia | Clinical Medicine",
+    "url": "https://www.youtube.com/watch?v=_kN2Nnz0nk8"
+   }
+  ],
+  "related": [
+   "HE-9-B1",
+   "HE-9-B2",
+   "HE-5",
+   "HE-6",
+   "HE-7",
+   "HE-9-A",
+   "HE-8"
+  ]
+ },
+ {
   "id": "HE-9-C",
   "summary": "Bleeding and clotting disorders: DIC, hemophilia, ITP, von Willebrand disease, vitamin K deficiency, liver failure, inherited platelet defects, thrombophilias, and paraneoplastic blood syndromes. Exam questions hand you a platelet count, PT, PTT, and bleeding pattern and ask you to name the defect.",
   "notes": [
-    {"h": "Read the bleeding pattern first", "points": [
-      "Platelet and von Willebrand factor problems cause mucocutaneous bleeding: petechiae, nosebleeds, gum bleeding, heavy menses, and a prolonged bleeding time.",
-      "Clotting factor problems cause deep bleeding: hemarthroses, muscle hematomas, and bleeding that starts hours after surgery.",
-      "PT tests the extrinsic and common pathways (factor VII, X, V, II, fibrinogen). PTT tests the intrinsic and common pathways (XII, XI, IX, VIII, X, V, II, fibrinogen).",
-      "A mixing study adds normal plasma: correction means a factor is missing; no correction means an inhibitor is present."
-    ]},
-    {"h": "DIC", "points": [
-      "Triggers: sepsis (most common), major trauma and burns, obstetric events (placental abruption, amniotic fluid embolism), acute promyelocytic leukemia, and mucin-secreting adenocarcinomas (pancreas, lung, stomach).",
-      "Tissue factor or endothelial injury sets off widespread clotting that uses up platelets and factors and turns on fibrinolysis.",
-      "Labs: low platelets, prolonged PT and PTT, low fibrinogen, high D-dimer, and schistocytes.",
-      "Microthrombi injure the kidneys (acute kidney injury), lungs (ARDS), brain (confusion), and adrenals (hemorrhagic adrenal necrosis, as in meningococcemia).",
-      "Consumption of platelets and factors causes bleeding at the same time: oozing from IV and venipuncture sites, mucosa, and wounds."
-    ]},
-    {"h": "Hemophilia and von Willebrand disease", "points": [
-      "Hemophilia A (factor VIII) and B (factor IX) are X-linked recessive, so affected patients are almost all male. About a third have no family history (new mutation).",
-      "Hemophilia labs: isolated prolonged PTT, normal PT, normal platelet count, normal bleeding time, and correction on mixing.",
-      "An acquired factor VIII inhibitor (autoantibody in older adults, postpartum women, or autoimmune disease) also prolongs the PTT, but it does not correct on mixing.",
-      "Von Willebrand disease is the most common inherited bleeding disorder, usually autosomal dominant.",
-      "Von Willebrand factor links platelet GpIb to exposed collagen (adhesion) and carries factor VIII, protecting it from breakdown.",
-      "VWD labs: normal platelet count, prolonged bleeding time, normal or prolonged PTT (from low factor VIII), normal PT, and low ristocetin cofactor activity."
-    ]},
-    {"h": "ITP and inherited platelet defects", "points": [
-      "ITP: IgG autoantibodies to platelet GpIIb/IIIa coat platelets, which splenic macrophages destroy. The spleen also makes much of the antibody.",
-      "Children: acute ITP a few weeks after a viral infection, usually resolves on its own. Adults: chronic ITP, most often in women of reproductive age, sometimes with SLE, HIV, or hepatitis C.",
-      "ITP labs: isolated thrombocytopenia, normal PT and PTT, large platelets, and more megakaryocytes in the marrow. The spleen is not enlarged.",
-      "Bernard-Soulier syndrome: GpIb deficiency, giant platelets, mild thrombocytopenia, and defective adhesion. Ristocetin does not aggregate platelets.",
-      "Glanzmann thrombasthenia: GpIIb/IIIa deficiency, normal platelet count and size, and defective aggregation. Platelets do not clump with ADP or collagen.",
-      "Uremia: retained toxins impair platelet adhesion and aggregation, so bleeding time is prolonged with a normal count."
-    ]},
-    {"h": "Vitamin K deficiency and liver failure", "points": [
-      "Vitamin K is needed to gamma-carboxylate factors II, VII, IX, and X and proteins C and S.",
-      "Causes: newborns not given vitamin K at birth (sterile gut, little in breast milk), fat malabsorption (cystic fibrosis, celiac disease, biliary obstruction), long courses of broad-spectrum antibiotics, and poor intake.",
-      "Factor VII has the shortest half-life (about 6 hours), so the PT prolongs first. PTT prolongs later as the deficiency deepens.",
-      "Vitamin K deficiency: prolonged PT, normal fibrinogen, normal platelets, normal factor VIII.",
-      "Liver failure: prolonged PT and PTT, low fibrinogen, and thrombocytopenia (splenic sequestration and low thrombopoietin). Factor VIII stays normal or high because endothelial cells make it."
-    ]},
-    {"h": "Thrombophilia and paraneoplastic syndromes", "points": [
-      "Antithrombin III deficiency: thrombin and factor Xa are not inactivated; heparin has a weak effect because it works through antithrombin.",
-      "Protein C or S deficiency: factors Va and VIIIa are not inactivated. Starting warfarin can cause skin necrosis because protein C falls before the clotting factors.",
-      "Hyperhomocysteinemia (from B12, folate, or B6 deficiency, or cystathionine beta-synthase deficiency) injures endothelium and raises venous and arterial clot risk.",
-      "Suspect an inherited thrombophilia with a clot at a young age, recurrent clots, clots at unusual sites (cerebral sinus, mesenteric, hepatic veins), or a strong family history.",
-      "Trousseau syndrome: migratory superficial thrombophlebitis with pancreatic and other mucin-producing adenocarcinomas.",
-      "Erythrocytosis from ectopic erythropoietin: renal cell carcinoma and hepatocellular carcinoma. Pure red cell aplasia: thymoma."
-    ]}
+   {
+    "h": "Read the bleeding pattern first",
+    "points": [
+     "Platelet and von Willebrand factor problems cause mucocutaneous bleeding: petechiae, nosebleeds, gum bleeding, heavy menses, and a prolonged bleeding time.",
+     "Clotting factor problems cause deep bleeding: hemarthroses, muscle hematomas, and bleeding that starts hours after surgery.",
+     "PT tests the extrinsic and common pathways (factor VII, X, V, II, fibrinogen). PTT tests the intrinsic and common pathways (XII, XI, IX, VIII, X, V, II, fibrinogen).",
+     "A mixing study adds normal plasma: correction means a factor is missing; no correction means an inhibitor is present."
+    ]
+   },
+   {
+    "h": "DIC",
+    "points": [
+     "Triggers: sepsis (most common), major trauma and burns, obstetric events (placental abruption, amniotic fluid embolism), acute promyelocytic leukemia, and mucin-secreting adenocarcinomas (pancreas, lung, stomach).",
+     "Tissue factor or endothelial injury sets off widespread clotting that uses up platelets and factors and turns on fibrinolysis.",
+     "Labs: low platelets, prolonged PT and PTT, low fibrinogen, high D-dimer, and schistocytes.",
+     "Microthrombi injure the kidneys (acute kidney injury), lungs (ARDS), brain (confusion), and adrenals (hemorrhagic adrenal necrosis, as in meningococcemia).",
+     "Consumption of platelets and factors causes bleeding at the same time: oozing from IV and venipuncture sites, mucosa, and wounds."
+    ]
+   },
+   {
+    "h": "Hemophilia and von Willebrand disease",
+    "points": [
+     "Hemophilia A (factor VIII) and B (factor IX) are X-linked recessive, so affected patients are almost all male. About a third have no family history (new mutation).",
+     "Hemophilia labs: isolated prolonged PTT, normal PT, normal platelet count, normal bleeding time, and correction on mixing.",
+     "An acquired factor VIII inhibitor (autoantibody in older adults, postpartum women, or autoimmune disease) also prolongs the PTT, but it does not correct on mixing.",
+     "Von Willebrand disease is the most common inherited bleeding disorder, usually autosomal dominant.",
+     "Von Willebrand factor links platelet GpIb to exposed collagen (adhesion) and carries factor VIII, protecting it from breakdown.",
+     "VWD labs: normal platelet count, prolonged bleeding time, normal or prolonged PTT (from low factor VIII), normal PT, and low ristocetin cofactor activity."
+    ]
+   },
+   {
+    "h": "ITP and inherited platelet defects",
+    "points": [
+     "ITP: IgG autoantibodies to platelet GpIIb/IIIa coat platelets, which splenic macrophages destroy. The spleen also makes much of the antibody.",
+     "Children: acute ITP a few weeks after a viral infection, usually resolves on its own. Adults: chronic ITP, most often in women of reproductive age, sometimes with SLE, HIV, or hepatitis C.",
+     "ITP labs: isolated thrombocytopenia, normal PT and PTT, large platelets, and more megakaryocytes in the marrow. The spleen is not enlarged.",
+     "Bernard-Soulier syndrome: GpIb deficiency, giant platelets, mild thrombocytopenia, and defective adhesion. Ristocetin does not aggregate platelets.",
+     "Glanzmann thrombasthenia: GpIIb/IIIa deficiency, normal platelet count and size, and defective aggregation. Platelets do not clump with ADP or collagen.",
+     "Uremia: retained toxins impair platelet adhesion and aggregation, so bleeding time is prolonged with a normal count."
+    ]
+   },
+   {
+    "h": "Vitamin K deficiency and liver failure",
+    "points": [
+     "Vitamin K is needed to gamma-carboxylate factors II, VII, IX, and X and proteins C and S.",
+     "Causes: newborns not given vitamin K at birth (sterile gut, little in breast milk), fat malabsorption (cystic fibrosis, celiac disease, biliary obstruction), long courses of broad-spectrum antibiotics, and poor intake.",
+     "Factor VII has the shortest half-life (about 6 hours), so the PT prolongs first. PTT prolongs later as the deficiency deepens.",
+     "Vitamin K deficiency: prolonged PT, normal fibrinogen, normal platelets, normal factor VIII.",
+     "Liver failure: prolonged PT and PTT, low fibrinogen, and thrombocytopenia (splenic sequestration and low thrombopoietin). Factor VIII stays normal or high because endothelial cells make it."
+    ]
+   },
+   {
+    "h": "Thrombophilia and paraneoplastic syndromes",
+    "points": [
+     "Antithrombin III deficiency: thrombin and factor Xa are not inactivated; heparin has a weak effect because it works through antithrombin.",
+     "Protein C or S deficiency: factors Va and VIIIa are not inactivated. Starting warfarin can cause skin necrosis because protein C falls before the clotting factors.",
+     "Hyperhomocysteinemia (from B12, folate, or B6 deficiency, or cystathionine beta-synthase deficiency) injures endothelium and raises venous and arterial clot risk.",
+     "Suspect an inherited thrombophilia with a clot at a young age, recurrent clots, clots at unusual sites (cerebral sinus, mesenteric, hepatic veins), or a strong family history.",
+     "Trousseau syndrome: migratory superficial thrombophlebitis with pancreatic and other mucin-producing adenocarcinomas.",
+     "Erythrocytosis from ectopic erythropoietin: renal cell carcinoma and hepatocellular carcinoma. Pure red cell aplasia: thymoma."
+    ]
+   }
   ],
   "charts": [
-    {"title": "Bleeding disorder lab patterns", "cols": ["Disorder", "Platelets", "Bleeding time", "PT", "PTT", "Other key finding"],
-     "rows": [
-      ["DIC", "Low", "Prolonged", "Prolonged", "Prolonged", "Low fibrinogen, high D-dimer, schistocytes"],
-      ["Hemophilia A or B", "Normal", "Normal", "Normal", "Prolonged", "Corrects on mixing; low factor VIII or IX"],
-      ["Acquired factor VIII inhibitor", "Normal", "Normal", "Normal", "Prolonged", "Does not correct on mixing"],
-      ["ITP", "Low", "Prolonged", "Normal", "Normal", "More megakaryocytes in marrow"],
-      ["Von Willebrand disease", "Normal", "Prolonged", "Normal", "Normal or prolonged", "Low ristocetin cofactor activity"],
-      ["Vitamin K deficiency", "Normal", "Normal", "Prolonged first", "Normal or prolonged", "Normal fibrinogen and factor VIII"],
-      ["Liver failure", "Low", "Normal or prolonged", "Prolonged", "Prolonged", "Low fibrinogen, normal or high factor VIII"],
-      ["Bernard-Soulier syndrome", "Mildly low, giant platelets", "Prolonged", "Normal", "Normal", "GpIb missing; no aggregation with ristocetin"],
-      ["Glanzmann thrombasthenia", "Normal", "Prolonged", "Normal", "Normal", "GpIIb/IIIa missing; no aggregation with ADP or collagen"]
-    ]},
-    {"title": "Causes of thrombophilia", "cols": ["Condition", "Mechanism", "Clue"],
-     "rows": [
-      ["Antithrombin III deficiency", "Thrombin and Xa not inactivated", "Weak response to heparin; acquired form in nephrotic syndrome"],
-      ["Protein C deficiency", "Va and VIIIa not inactivated", "Warfarin-induced skin necrosis"],
-      ["Protein S deficiency", "Loss of protein C cofactor", "Young venous clots, family history"],
-      ["Factor V Leiden", "Factor Va resists activated protein C", "Most common inherited thrombophilia in people of European ancestry"],
-      ["Hyperhomocysteinemia", "Endothelial injury", "Low B12, folate, or B6; homocystinuria"]
-    ]}
+   {
+    "title": "Bleeding disorder lab patterns",
+    "cols": [
+     "Disorder",
+     "Platelets",
+     "Bleeding time",
+     "PT",
+     "PTT",
+     "Other key finding"
+    ],
+    "rows": [
+     [
+      "DIC",
+      "Low",
+      "Prolonged",
+      "Prolonged",
+      "Prolonged",
+      "Low fibrinogen, high D-dimer, schistocytes"
+     ],
+     [
+      "Hemophilia A or B",
+      "Normal",
+      "Normal",
+      "Normal",
+      "Prolonged",
+      "Corrects on mixing; low factor VIII or IX"
+     ],
+     [
+      "Acquired factor VIII inhibitor",
+      "Normal",
+      "Normal",
+      "Normal",
+      "Prolonged",
+      "Does not correct on mixing"
+     ],
+     [
+      "ITP",
+      "Low",
+      "Prolonged",
+      "Normal",
+      "Normal",
+      "More megakaryocytes in marrow"
+     ],
+     [
+      "Von Willebrand disease",
+      "Normal",
+      "Prolonged",
+      "Normal",
+      "Normal or prolonged",
+      "Low ristocetin cofactor activity"
+     ],
+     [
+      "Vitamin K deficiency",
+      "Normal",
+      "Normal",
+      "Prolonged first",
+      "Normal or prolonged",
+      "Normal fibrinogen and factor VIII"
+     ],
+     [
+      "Liver failure",
+      "Low",
+      "Normal or prolonged",
+      "Prolonged",
+      "Prolonged",
+      "Low fibrinogen, normal or high factor VIII"
+     ],
+     [
+      "Bernard-Soulier syndrome",
+      "Mildly low, giant platelets",
+      "Prolonged",
+      "Normal",
+      "Normal",
+      "GpIb missing; no aggregation with ristocetin"
+     ],
+     [
+      "Glanzmann thrombasthenia",
+      "Normal",
+      "Prolonged",
+      "Normal",
+      "Normal",
+      "GpIIb/IIIa missing; no aggregation with ADP or collagen"
+     ]
+    ]
+   },
+   {
+    "title": "Causes of thrombophilia",
+    "cols": [
+     "Condition",
+     "Mechanism",
+     "Clue"
+    ],
+    "rows": [
+     [
+      "Antithrombin III deficiency",
+      "Thrombin and Xa not inactivated",
+      "Weak response to heparin; acquired form in nephrotic syndrome"
+     ],
+     [
+      "Protein C deficiency",
+      "Va and VIIIa not inactivated",
+      "Warfarin-induced skin necrosis"
+     ],
+     [
+      "Protein S deficiency",
+      "Loss of protein C cofactor",
+      "Young venous clots, family history"
+     ],
+     [
+      "Factor V Leiden",
+      "Factor Va resists activated protein C",
+      "Most common inherited thrombophilia in people of European ancestry"
+     ],
+     [
+      "Hyperhomocysteinemia",
+      "Endothelial injury",
+      "Low B12, folate, or B6; homocystinuria"
+     ]
+    ]
+   }
   ],
   "tricks": [
-    {"kind": "trick", "label": "Platelet bleeds are shallow, factor bleeds are deep", "text": "Skin and mucosal bleeding means a platelet or von Willebrand factor problem. Joint and muscle bleeding means a clotting factor problem."},
-    {"kind": "trick", "label": "Seven goes first", "text": "Factor VII has the shortest half-life, so vitamin K deficiency, early liver disease, and new warfarin use all prolong the PT before the PTT."},
-    {"kind": "trick", "label": "Factor VIII separates liver from DIC", "text": "Liver failure and DIC both prolong PT and PTT and lower fibrinogen. Factor VIII is normal or high in liver failure and low in DIC."}
+   {
+    "kind": "trick",
+    "label": "Platelet bleeds are shallow, factor bleeds are deep",
+    "text": "Skin and mucosal bleeding means a platelet or von Willebrand factor problem. Joint and muscle bleeding means a clotting factor problem."
+   },
+   {
+    "kind": "trick",
+    "label": "Seven goes first",
+    "text": "Factor VII has the shortest half-life, so vitamin K deficiency, early liver disease, and new warfarin use all prolong the PT before the PTT."
+   },
+   {
+    "kind": "trick",
+    "label": "Factor VIII separates liver from DIC",
+    "text": "Liver failure and DIC both prolong PT and PTT and lower fibrinogen. Factor VIII is normal or high in liver failure and low in DIC."
+   }
   ],
   "highYield": [
-    "Bleeding from IV sites plus low fibrinogen and high D-dimer means DIC; acute promyelocytic leukemia and amniotic fluid embolism are classic triggers.",
-    "A boy with hemarthroses and an isolated prolonged PTT that corrects on mixing has hemophilia A or B.",
-    "A prolonged PTT that does not correct on mixing points to an inhibitor such as an acquired factor VIII antibody.",
-    "Isolated thrombocytopenia after a viral illness in a child, with a normal spleen, is acute ITP.",
-    "Heavy menses and nosebleeds with a normal platelet count and low ristocetin cofactor activity is von Willebrand disease.",
-    "A newborn who bleeds on day 2 to 7 without vitamin K prophylaxis has vitamin K deficiency bleeding.",
-    "Migratory superficial thrombophlebitis can be the first sign of pancreatic adenocarcinoma."
+   "Bleeding from IV sites plus low fibrinogen and high D-dimer means DIC; acute promyelocytic leukemia and amniotic fluid embolism are classic triggers.",
+   "A boy with hemarthroses and an isolated prolonged PTT that corrects on mixing has hemophilia A or B.",
+   "A prolonged PTT that does not correct on mixing points to an inhibitor such as an acquired factor VIII antibody.",
+   "Isolated thrombocytopenia after a viral illness in a child, with a normal spleen, is acute ITP.",
+   "Heavy menses and nosebleeds with a normal platelet count and low ristocetin cofactor activity is von Willebrand disease.",
+   "A newborn who bleeds on day 2 to 7 without vitamin K prophylaxis has vitamin K deficiency bleeding.",
+   "Migratory superficial thrombophlebitis can be the first sign of pancreatic adenocarcinoma."
   ],
   "pitfalls": [
-    "Von Willebrand disease can prolong the PTT because factor VIII loses its carrier; it can be mistaken for hemophilia.",
-    "Bernard-Soulier syndrome and von Willebrand disease both fail with ristocetin; adding normal plasma corrects VWD but not Bernard-Soulier.",
-    "ITP and TTP both have low platelets; TTP also has schistocytes, hemolysis, and often neurologic and renal signs.",
-    "Bleeding time and PFA tests reflect platelet function; they stay normal in hemophilia."
+   "Von Willebrand disease can prolong the PTT because factor VIII loses its carrier; it can be mistaken for hemophilia.",
+   "Bernard-Soulier syndrome and von Willebrand disease both fail with ristocetin; adding normal plasma corrects VWD but not Bernard-Soulier.",
+   "ITP and TTP both have low platelets; TTP also has schistocytes, hemolysis, and often neurologic and renal signs.",
+   "Bleeding time and PFA tests reflect platelet function; they stay normal in hemophilia."
   ],
   "dumps": [
-    {"t": "Coagulation cascade and lab tests", "p": "Draw the clotting cascade with the extrinsic, intrinsic, and common pathways. Circle the factors the PT measures and the factors the PTT measures, and mark the vitamin K dependent factors.",
-     "l": ["Extrinsic: tissue factor with factor VII, measured by PT", "Intrinsic: XII, XI, IX, VIII, measured by PTT", "Common: X, V, II, fibrinogen, measured by both", "Vitamin K dependent: II, VII, IX, X, proteins C and S", "Factor VII has the shortest half-life", "Hemophilia A is factor VIII and hemophilia B is factor IX", "Antithrombin inactivates thrombin and Xa; protein C with S inactivates Va and VIIIa"]},
-    {"t": "Bleeding disorder lab table", "p": "Make a table with columns for platelet count, bleeding time, PT, and PTT. Fill in rows for DIC, hemophilia, ITP, von Willebrand disease, vitamin K deficiency, and liver failure, and add one extra clue for each.",
-     "l": ["DIC: everything abnormal, low fibrinogen, high D-dimer", "Hemophilia: only PTT prolonged, corrects on mixing", "ITP: only platelets low and bleeding time prolonged", "VWD: bleeding time prolonged, PTT normal or prolonged, low ristocetin cofactor", "Vitamin K deficiency: PT prolonged first, fibrinogen normal", "Liver failure: PT and PTT prolonged, low platelets, factor VIII normal or high"]}
+   {
+    "t": "Coagulation cascade and lab tests",
+    "p": "Draw the clotting cascade with the extrinsic, intrinsic, and common pathways. Circle the factors the PT measures and the factors the PTT measures, and mark the vitamin K dependent factors.",
+    "l": [
+     "Extrinsic: tissue factor with factor VII, measured by PT",
+     "Intrinsic: XII, XI, IX, VIII, measured by PTT",
+     "Common: X, V, II, fibrinogen, measured by both",
+     "Vitamin K dependent: II, VII, IX, X, proteins C and S",
+     "Factor VII has the shortest half-life",
+     "Hemophilia A is factor VIII and hemophilia B is factor IX",
+     "Antithrombin inactivates thrombin and Xa; protein C with S inactivates Va and VIIIa"
+    ]
+   },
+   {
+    "t": "Bleeding disorder lab table",
+    "p": "Make a table with columns for platelet count, bleeding time, PT, and PTT. Fill in rows for DIC, hemophilia, ITP, von Willebrand disease, vitamin K deficiency, and liver failure, and add one extra clue for each.",
+    "l": [
+     "DIC: everything abnormal, low fibrinogen, high D-dimer",
+     "Hemophilia: only PTT prolonged, corrects on mixing",
+     "ITP: only platelets low and bleeding time prolonged",
+     "VWD: bleeding time prolonged, PTT normal or prolonged, low ristocetin cofactor",
+     "Vitamin K deficiency: PT prolonged first, fibrinogen normal",
+     "Liver failure: PT and PTT prolonged, low platelets, factor VIII normal or high"
+    ]
+   }
   ],
   "refs": [
-    {"book": "Guyton and Hall Textbook of Medical Physiology", "where": "Hemostasis and Blood Coagulation"},
-    {"book": "Robbins and Cotran Pathologic Basis of Disease", "where": "Red Blood Cell and Bleeding Disorders (section on bleeding disorders)"},
-    {"book": "Lange: Pathophysiology of Disease (McPhee and Hammer)", "where": "Blood Disorders"}
+   {
+    "book": "Guyton and Hall Textbook of Medical Physiology",
+    "where": "Hemostasis and Blood Coagulation"
+   },
+   {
+    "book": "Robbins and Cotran Pathologic Basis of Disease",
+    "where": "Red Blood Cell and Bleeding Disorders (section on bleeding disorders)"
+   },
+   {
+    "book": "Lange: Pathophysiology of Disease (McPhee and Hammer)",
+    "where": "Blood Disorders"
+   }
   ],
-  "videos": [],
-  "related": ["HE-9-C1", "HE-9-C2", "HE-9-C3", "HE-9-C4", "HE-9-C5", "HE-4", "HE-9-B"]
-},
-{
+  "videos": [
+   {
+    "channel": "Ninja Nerd",
+    "title": "Coagulopathy | Clinical Medicine",
+    "url": "https://www.youtube.com/watch?v=QpuxIc25izM"
+   },
+   {
+    "channel": "Ninja Nerd",
+    "title": "Platelet Disorders | Clinical Medicine",
+    "url": "https://www.youtube.com/watch?v=i_c8x7TiHN0"
+   }
+  ],
+  "related": [
+   "HE-9-C1",
+   "HE-9-C2",
+   "HE-9-C3",
+   "HE-9-C4",
+   "HE-9-C5",
+   "HE-4",
+   "HE-9-B"
+  ]
+ },
+ {
   "id": "HE-9-D",
   "summary": "Cancers of blood-forming cells and lymphocytes: acute and chronic leukemias, Hodgkin and non-Hodgkin lymphomas, plasma cell disorders, myelodysplasia, myelofibrosis, and Langerhans cell histiocytosis, plus tumor lysis syndrome. Exam questions match a patient's age, smear, marker, or translocation to the right neoplasm and predict its complications.",
   "notes": [
-    {"h": "Acute leukemias", "points": [
-      "Blasts fill the marrow and crowd out normal cells: anemia, bleeding from low platelets, and infections from low neutrophils.",
-      "ALL: the most common cancer of children. Lymphoblasts are TdT positive; B-ALL is usually CD10 and CD19 positive. Bone pain, hepatosplenomegaly, and lymphadenopathy are common.",
-      "ALL spreads to the CNS and testes, sites shielded from chemotherapy. Down syndrome raises the risk.",
-      "AML: mainly older adults, usually 20% or more marrow blasts. Blasts are myeloperoxidase positive and may contain Auer rods.",
-      "AML risks: prior chemotherapy or radiation, benzene, myelodysplastic syndrome, and Down syndrome.",
-      "Acute promyelocytic leukemia, t(15;17) PML-RARA: promyelocyte granules set off DIC, which is an emergency."
-    ]},
-    {"h": "Chronic leukemias and myeloid neoplasms", "points": [
-      "CLL: older adults, mature B cells that are CD5 and CD23 positive, smudge cells on smear, often found by chance as lymphocytosis.",
-      "CLL complications: hypogammaglobulinemia with infections, warm autoimmune hemolytic anemia, and Richter transformation to diffuse large B cell lymphoma.",
-      "CML: t(9;22) Philadelphia chromosome makes the BCR-ABL1 tyrosine kinase. Neutrophils at every stage of maturation, basophilia, and splenomegaly; confirm by finding BCR-ABL1.",
-      "CML moves from chronic phase to accelerated phase to blast crisis, which behaves like acute leukemia.",
-      "Hairy cell leukemia: middle-aged men, B cells with hairlike projections, TRAP and CD11c positive, BRAF V600E, marrow fibrosis giving a dry tap, and massive splenomegaly without lymphadenopathy.",
-      "Myelodysplastic syndromes: clonal, ineffective hematopoiesis in older adults or after alkylating agents or radiation. Cytopenias, pseudo-Pelger-Huet neutrophils, ringed sideroblasts, and risk of AML.",
-      "Primary myelofibrosis: JAK2, CALR, or MPL mutations; megakaryocytes release growth factors that drive marrow fibrosis. Dry tap, teardrop cells, leukoerythroblastic smear, and massive splenomegaly from extramedullary hematopoiesis."
-    ]},
-    {"h": "Hodgkin lymphoma", "points": [
-      "Reed-Sternberg cells: large cells with two mirror-image nuclei, CD15 and CD30 positive, in a background of reactive cells.",
-      "Spreads in order to neighboring node groups, so it is often localized. Bimodal age (young adults and older adults). Some cases are linked to EBV.",
-      "Nodular sclerosis is the most common type and often shows a mediastinal mass in a young adult.",
-      "Fever, night sweats, and weight loss (B symptoms) signal worse disease."
-    ]},
-    {"h": "Non-Hodgkin and T cell lymphomas", "points": [
-      "Non-Hodgkin lymphoma spreads to noncontiguous nodes and often involves extranodal sites; most are B cell tumors.",
-      "Diffuse large B cell lymphoma is the most common and aggressive. Follicular lymphoma, t(14;18) BCL2, is indolent with waxing and waning nodes and can transform to DLBCL.",
-      "Burkitt lymphoma, t(8;14) MYC: starry sky pattern, very fast growth, EBV link; jaw mass in the endemic African form, abdominal mass in the sporadic form.",
-      "Mantle cell lymphoma, t(11;14) cyclin D1: CD5 positive, CD23 negative, older men. MALT lymphoma of the stomach is driven by Helicobacter pylori and can regress after eradication.",
-      "Adult T cell leukemia/lymphoma: HTLV-1, CD4 T cells, skin lesions, hypercalcemia, and lytic bone lesions.",
-      "Mycosis fungoides: skin-homing CD4 T cells in patches and plaques, Pautrier microabscesses in the epidermis. Spread to the blood as Sezary cells (cerebriform nuclei) is Sezary syndrome."
-    ]},
-    {"h": "Plasma cell neoplasms", "points": [
-      "Multiple myeloma: clonal plasma cells in the marrow of older adults, making an M spike (most often IgG) on serum protein electrophoresis.",
-      "Myeloma cells increase RANKL signaling, so osteoclasts make punched-out lytic lesions, fractures, and hypercalcemia.",
-      "Light chains filtered by the kidney form tubular casts (myeloma kidney) and appear in urine as Bence Jones protein. High serum protein makes red cells stack as rouleaux.",
-      "Normal antibodies fall, so bacterial infections are common. Anemia comes from marrow crowding.",
-      "MGUS: M protein below 3 g/dL, under 10% marrow plasma cells, and no end-organ damage. About 1% per year progress.",
-      "Waldenstrom macroglobulinemia: IgM M spike, hyperviscosity (blurred vision, headache, bleeding), lymphadenopathy, and no lytic lesions.",
-      "AL amyloidosis: light chains fold into amyloid in kidney (nephrotic syndrome), heart (restrictive cardiomyopathy), tongue, and nerves."
-    ]},
-    {"h": "Langerhans cell histiocytosis and tumor lysis syndrome", "points": [
-      "LCH: clonal Langerhans cells that are CD1a and S100 positive with Birbeck granules (tennis racket shape on electron microscopy).",
-      "Children present with a lytic bone lesion, often in the skull (eosinophilic granuloma), or with multisystem disease; pituitary stalk involvement causes diabetes insipidus.",
-      "Tumor lysis syndrome: rapid killing of fast-growing tumors (Burkitt lymphoma, acute leukemias), usually soon after chemotherapy starts.",
-      "Dying cells release potassium, phosphate, and nucleic acids (broken down to uric acid). Phosphate binds calcium, so calcium falls.",
-      "Result: hyperkalemia (arrhythmias), hyperphosphatemia, hypocalcemia (tetany), hyperuricemia, and acute kidney injury from urate and calcium phosphate crystals."
-    ]}
+   {
+    "h": "Acute leukemias",
+    "points": [
+     "Blasts fill the marrow and crowd out normal cells: anemia, bleeding from low platelets, and infections from low neutrophils.",
+     "ALL: the most common cancer of children. Lymphoblasts are TdT positive; B-ALL is usually CD10 and CD19 positive. Bone pain, hepatosplenomegaly, and lymphadenopathy are common.",
+     "ALL spreads to the CNS and testes, sites shielded from chemotherapy. Down syndrome raises the risk.",
+     "AML: mainly older adults, usually 20% or more marrow blasts. Blasts are myeloperoxidase positive and may contain Auer rods.",
+     "AML risks: prior chemotherapy or radiation, benzene, myelodysplastic syndrome, and Down syndrome.",
+     "Acute promyelocytic leukemia, t(15;17) PML-RARA: promyelocyte granules set off DIC, which is an emergency."
+    ]
+   },
+   {
+    "h": "Chronic leukemias and myeloid neoplasms",
+    "points": [
+     "CLL: older adults, mature B cells that are CD5 and CD23 positive, smudge cells on smear, often found by chance as lymphocytosis.",
+     "CLL complications: hypogammaglobulinemia with infections, warm autoimmune hemolytic anemia, and Richter transformation to diffuse large B cell lymphoma.",
+     "CML: t(9;22) Philadelphia chromosome makes the BCR-ABL1 tyrosine kinase. Neutrophils at every stage of maturation, basophilia, and splenomegaly; confirm by finding BCR-ABL1.",
+     "CML moves from chronic phase to accelerated phase to blast crisis, which behaves like acute leukemia.",
+     "Hairy cell leukemia: middle-aged men, B cells with hairlike projections, TRAP and CD11c positive, BRAF V600E, marrow fibrosis giving a dry tap, and massive splenomegaly without lymphadenopathy.",
+     "Myelodysplastic syndromes: clonal, ineffective hematopoiesis in older adults or after alkylating agents or radiation. Cytopenias, pseudo-Pelger-Huet neutrophils, ringed sideroblasts, and risk of AML.",
+     "Primary myelofibrosis: JAK2, CALR, or MPL mutations; megakaryocytes release growth factors that drive marrow fibrosis. Dry tap, teardrop cells, leukoerythroblastic smear, and massive splenomegaly from extramedullary hematopoiesis."
+    ]
+   },
+   {
+    "h": "Hodgkin lymphoma",
+    "points": [
+     "Reed-Sternberg cells: large cells with two mirror-image nuclei, CD15 and CD30 positive, in a background of reactive cells.",
+     "Spreads in order to neighboring node groups, so it is often localized. Bimodal age (young adults and older adults). Some cases are linked to EBV.",
+     "Nodular sclerosis is the most common type and often shows a mediastinal mass in a young adult.",
+     "Fever, night sweats, and weight loss (B symptoms) signal worse disease."
+    ]
+   },
+   {
+    "h": "Non-Hodgkin and T cell lymphomas",
+    "points": [
+     "Non-Hodgkin lymphoma spreads to noncontiguous nodes and often involves extranodal sites; most are B cell tumors.",
+     "Diffuse large B cell lymphoma is the most common and aggressive. Follicular lymphoma, t(14;18) BCL2, is indolent with waxing and waning nodes and can transform to DLBCL.",
+     "Burkitt lymphoma, t(8;14) MYC: starry sky pattern, very fast growth, EBV link; jaw mass in the endemic African form, abdominal mass in the sporadic form.",
+     "Mantle cell lymphoma, t(11;14) cyclin D1: CD5 positive, CD23 negative, older men. MALT lymphoma of the stomach is driven by Helicobacter pylori and can regress after eradication.",
+     "Adult T cell leukemia/lymphoma: HTLV-1, CD4 T cells, skin lesions, hypercalcemia, and lytic bone lesions.",
+     "Mycosis fungoides: skin-homing CD4 T cells in patches and plaques, Pautrier microabscesses in the epidermis. Spread to the blood as Sezary cells (cerebriform nuclei) is Sezary syndrome."
+    ]
+   },
+   {
+    "h": "Plasma cell neoplasms",
+    "points": [
+     "Multiple myeloma: clonal plasma cells in the marrow of older adults, making an M spike (most often IgG) on serum protein electrophoresis.",
+     "Myeloma cells increase RANKL signaling, so osteoclasts make punched-out lytic lesions, fractures, and hypercalcemia.",
+     "Light chains filtered by the kidney form tubular casts (myeloma kidney) and appear in urine as Bence Jones protein. High serum protein makes red cells stack as rouleaux.",
+     "Normal antibodies fall, so bacterial infections are common. Anemia comes from marrow crowding.",
+     "MGUS: M protein below 3 g/dL, under 10% marrow plasma cells, and no end-organ damage. About 1% per year progress.",
+     "Waldenstrom macroglobulinemia: IgM M spike, hyperviscosity (blurred vision, headache, bleeding), lymphadenopathy, and no lytic lesions.",
+     "AL amyloidosis: light chains fold into amyloid in kidney (nephrotic syndrome), heart (restrictive cardiomyopathy), tongue, and nerves."
+    ]
+   },
+   {
+    "h": "Langerhans cell histiocytosis and tumor lysis syndrome",
+    "points": [
+     "LCH: clonal Langerhans cells that are CD1a and S100 positive with Birbeck granules (tennis racket shape on electron microscopy).",
+     "Children present with a lytic bone lesion, often in the skull (eosinophilic granuloma), or with multisystem disease; pituitary stalk involvement causes diabetes insipidus.",
+     "Tumor lysis syndrome: rapid killing of fast-growing tumors (Burkitt lymphoma, acute leukemias), usually soon after chemotherapy starts.",
+     "Dying cells release potassium, phosphate, and nucleic acids (broken down to uric acid). Phosphate binds calcium, so calcium falls.",
+     "Result: hyperkalemia (arrhythmias), hyperphosphatemia, hypocalcemia (tetany), hyperuricemia, and acute kidney injury from urate and calcium phosphate crystals."
+    ]
+   }
   ],
   "charts": [
-    {"title": "Leukemias compared", "cols": ["Leukemia", "Typical age", "Cell and markers", "Classic findings"],
-     "rows": [
-      ["ALL", "Children", "Lymphoblasts, TdT positive", "Bone pain, CNS and testis spread, Down syndrome risk"],
-      ["AML", "Older adults", "Myeloblasts, myeloperoxidase positive, Auer rods", "20% or more blasts; APL with t(15;17) causes DIC"],
-      ["CLL", "Older adults", "Mature B cells, CD5 and CD23 positive", "Smudge cells, hypogammaglobulinemia, autoimmune hemolysis, Richter transformation"],
-      ["CML", "Middle-aged adults", "Myeloid cells at all stages, BCR-ABL1", "Basophilia, splenomegaly, low LAP, blast crisis"],
-      ["Hairy cell leukemia", "Middle-aged men", "Mature B cells, TRAP and CD11c positive, BRAF V600E", "Dry tap, massive splenomegaly, no lymphadenopathy"]
-    ]},
-    {"title": "Lymphomas compared", "cols": ["Lymphoma", "Genetic or infectious link", "Key feature", "Behavior"],
-     "rows": [
-      ["Hodgkin, nodular sclerosis", "EBV in some cases", "Reed-Sternberg cells CD15 and CD30 positive; mediastinal mass", "Contiguous spread, often localized"],
-      ["Diffuse large B cell", "Can arise from follicular lymphoma or CLL", "Sheets of large B cells", "Aggressive, most common NHL"],
-      ["Follicular", "t(14;18) BCL2", "Back-to-back follicles", "Indolent, may transform"],
-      ["Burkitt", "t(8;14) MYC; EBV", "Starry sky pattern", "Very fast growing"],
-      ["Mantle cell", "t(11;14) cyclin D1", "CD5 positive, CD23 negative", "Aggressive, older men"],
-      ["MALT (marginal zone)", "Helicobacter pylori", "Gastric mucosal lymphoma", "Indolent, may regress with H. pylori cure"],
-      ["Adult T cell leukemia/lymphoma", "HTLV-1", "CD4 T cells, hypercalcemia, lytic bone lesions", "Aggressive"],
-      ["Mycosis fungoides", "None known", "Skin CD4 T cells, Pautrier microabscesses, Sezary cells", "Indolent skin disease that can spread to blood"]
-    ]},
-    {"title": "Plasma cell disorders", "cols": ["Disorder", "M protein", "Marrow plasma cells", "End-organ damage or key feature"],
-     "rows": [
-      ["MGUS", "Below 3 g/dL", "Under 10%", "None"],
-      ["Multiple myeloma", "Usually IgG or IgA, often 3 g/dL or more", "10% or more", "Hypercalcemia, renal injury, anemia, lytic bone lesions"],
-      ["Waldenstrom macroglobulinemia", "IgM", "Lymphoplasmacytic cells", "Hyperviscosity, no lytic lesions"],
-      ["AL amyloidosis", "Free light chains", "Small clone", "Amyloid in kidney, heart, tongue, nerves"]
-    ]}
+   {
+    "title": "Leukemias compared",
+    "cols": [
+     "Leukemia",
+     "Typical age",
+     "Cell and markers",
+     "Classic findings"
+    ],
+    "rows": [
+     [
+      "ALL",
+      "Children",
+      "Lymphoblasts, TdT positive",
+      "Bone pain, CNS and testis spread, Down syndrome risk"
+     ],
+     [
+      "AML",
+      "Older adults",
+      "Myeloblasts, myeloperoxidase positive, Auer rods",
+      "20% or more blasts; APL with t(15;17) causes DIC"
+     ],
+     [
+      "CLL",
+      "Older adults",
+      "Mature B cells, CD5 and CD23 positive",
+      "Smudge cells, hypogammaglobulinemia, autoimmune hemolysis, Richter transformation"
+     ],
+     [
+      "CML",
+      "Middle-aged adults",
+      "Myeloid cells at all stages, BCR-ABL1",
+      "Basophilia, splenomegaly, low LAP, blast crisis"
+     ],
+     [
+      "Hairy cell leukemia",
+      "Middle-aged men",
+      "Mature B cells, TRAP and CD11c positive, BRAF V600E",
+      "Dry tap, massive splenomegaly, no lymphadenopathy"
+     ]
+    ]
+   },
+   {
+    "title": "Lymphomas compared",
+    "cols": [
+     "Lymphoma",
+     "Genetic or infectious link",
+     "Key feature",
+     "Behavior"
+    ],
+    "rows": [
+     [
+      "Hodgkin, nodular sclerosis",
+      "EBV in some cases",
+      "Reed-Sternberg cells CD15 and CD30 positive; mediastinal mass",
+      "Contiguous spread, often localized"
+     ],
+     [
+      "Diffuse large B cell",
+      "Can arise from follicular lymphoma or CLL",
+      "Sheets of large B cells",
+      "Aggressive, most common NHL"
+     ],
+     [
+      "Follicular",
+      "t(14;18) BCL2",
+      "Back-to-back follicles",
+      "Indolent, may transform"
+     ],
+     [
+      "Burkitt",
+      "t(8;14) MYC; EBV",
+      "Starry sky pattern",
+      "Very fast growing"
+     ],
+     [
+      "Mantle cell",
+      "t(11;14) cyclin D1",
+      "CD5 positive, CD23 negative",
+      "Aggressive, older men"
+     ],
+     [
+      "MALT (marginal zone)",
+      "Helicobacter pylori",
+      "Gastric mucosal lymphoma",
+      "Indolent, may regress with H. pylori cure"
+     ],
+     [
+      "Adult T cell leukemia/lymphoma",
+      "HTLV-1",
+      "CD4 T cells, hypercalcemia, lytic bone lesions",
+      "Aggressive"
+     ],
+     [
+      "Mycosis fungoides",
+      "None known",
+      "Skin CD4 T cells, Pautrier microabscesses, Sezary cells",
+      "Indolent skin disease that can spread to blood"
+     ]
+    ]
+   },
+   {
+    "title": "Plasma cell disorders",
+    "cols": [
+     "Disorder",
+     "M protein",
+     "Marrow plasma cells",
+     "End-organ damage or key feature"
+    ],
+    "rows": [
+     [
+      "MGUS",
+      "Below 3 g/dL",
+      "Under 10%",
+      "None"
+     ],
+     [
+      "Multiple myeloma",
+      "Usually IgG or IgA, often 3 g/dL or more",
+      "10% or more",
+      "Hypercalcemia, renal injury, anemia, lytic bone lesions"
+     ],
+     [
+      "Waldenstrom macroglobulinemia",
+      "IgM",
+      "Lymphoplasmacytic cells",
+      "Hyperviscosity, no lytic lesions"
+     ],
+     [
+      "AL amyloidosis",
+      "Free light chains",
+      "Small clone",
+      "Amyloid in kidney, heart, tongue, nerves"
+     ]
+    ]
+   }
   ],
   "tricks": [
-    {"kind": "mnemonic", "label": "CRAB", "text": "Calcium high, Renal injury, Anemia, Bone lytic lesions: the end-organ damage that defines multiple myeloma and is absent in MGUS."},
-    {"kind": "trick", "label": "Translocation pairs", "text": "Burkitt 8;14 (MYC), follicular 14;18 (BCL2), mantle cell 11;14 (cyclin D1), CML 9;22 (BCR-ABL1), APL 15;17 (PML-RARA). Chromosome 14 carries the immunoglobulin heavy chain gene in the B cell ones."},
-    {"kind": "trick", "label": "Who has CD5", "text": "The two classic CD5 positive B cell neoplasms are CLL and mantle cell lymphoma. CD23 separates them (positive in CLL, negative in mantle cell)."},
-    {"kind": "trick", "label": "Dry tap pair", "text": "A dry tap means a fibrotic marrow. In a patient with a huge spleen, think primary myelofibrosis (teardrop cells) or hairy cell leukemia (TRAP positive)."}
+   {
+    "kind": "mnemonic",
+    "label": "CRAB",
+    "text": "Calcium high, Renal injury, Anemia, Bone lytic lesions: the end-organ damage that defines multiple myeloma and is absent in MGUS."
+   },
+   {
+    "kind": "trick",
+    "label": "Translocation pairs",
+    "text": "Burkitt 8;14 (MYC), follicular 14;18 (BCL2), mantle cell 11;14 (cyclin D1), CML 9;22 (BCR-ABL1), APL 15;17 (PML-RARA). Chromosome 14 carries the immunoglobulin heavy chain gene in the B cell ones."
+   },
+   {
+    "kind": "trick",
+    "label": "Who has CD5",
+    "text": "The two classic CD5 positive B cell neoplasms are CLL and mantle cell lymphoma. CD23 separates them (positive in CLL, negative in mantle cell)."
+   },
+   {
+    "kind": "trick",
+    "label": "Dry tap pair",
+    "text": "A dry tap means a fibrotic marrow. In a patient with a huge spleen, think primary myelofibrosis (teardrop cells) or hairy cell leukemia (TRAP positive)."
+   }
   ],
   "highYield": [
-    "Auer rods are diagnostic of a myeloid blast; DIC in a new leukemia points to acute promyelocytic leukemia.",
-    "TdT marks lymphoblasts of ALL and is absent in mature B cell neoplasms such as CLL.",
-    "Smudge cells in an older adult with lymphocytosis mean CLL.",
-    "Basophilia with neutrophils at every stage and low LAP means CML; BCR-ABL1 confirms it.",
-    "Reed-Sternberg cells are CD15 and CD30 positive; nodular sclerosis is the most common Hodgkin type.",
-    "Punched-out skull lesions, rouleaux, and an M spike mean multiple myeloma.",
-    "Teardrop cells with a leukoerythroblastic smear mean marrow fibrosis.",
-    "After starting chemotherapy for Burkitt lymphoma, watch for high potassium, phosphate, and uric acid with low calcium."
+   "Auer rods are diagnostic of a myeloid blast; DIC in a new leukemia points to acute promyelocytic leukemia.",
+   "TdT marks lymphoblasts of ALL and is absent in mature B cell neoplasms such as CLL.",
+   "Smudge cells in an older adult with lymphocytosis mean CLL.",
+   "Basophilia with neutrophils at every stage and low LAP means CML; BCR-ABL1 confirms it.",
+   "Reed-Sternberg cells are CD15 and CD30 positive; nodular sclerosis is the most common Hodgkin type.",
+   "Punched-out skull lesions, rouleaux, and an M spike mean multiple myeloma.",
+   "Teardrop cells with a leukoerythroblastic smear mean marrow fibrosis.",
+   "After starting chemotherapy for Burkitt lymphoma, watch for high potassium, phosphate, and uric acid with low calcium."
   ],
   "pitfalls": [
-    "AML and ALL both cause pancytopenia and bone pain; myeloperoxidase and Auer rods mark AML, TdT marks ALL.",
-    "A leukemoid reaction can look like CML, but it has high LAP and no basophilia or BCR-ABL1.",
-    "Myeloma lesions are purely lytic, so a bone scan (which shows bone formation) can miss them.",
-    "MGUS has an M protein but no CRAB features; do not call it myeloma.",
-    "Hodgkin lymphoma spreads to neighboring nodes in order; non-Hodgkin lymphoma skips around and goes extranodal."
+   "AML and ALL both cause pancytopenia and bone pain; myeloperoxidase and Auer rods mark AML, TdT marks ALL.",
+   "A leukemoid reaction can look like CML, but it has high LAP and no basophilia or BCR-ABL1.",
+   "Myeloma lesions are purely lytic, so a bone scan (which shows bone formation) can miss them.",
+   "MGUS has an M protein but no CRAB features; do not call it myeloma.",
+   "Hodgkin lymphoma spreads to neighboring nodes in order; non-Hodgkin lymphoma skips around and goes extranodal."
   ],
   "dumps": [
-    {"t": "Leukemia comparison table", "p": "Make a table for ALL, AML, CLL, CML, and hairy cell leukemia. Columns: typical age, cell type, the marker or genetic change that identifies it, and one complication.",
-     "l": ["ALL: children, TdT positive lymphoblasts, CNS and testis spread", "AML: older adults, myeloperoxidase positive, Auer rods", "APL: t(15;17) PML-RARA, DIC", "CLL: older adults, CD5 and CD23 positive, smudge cells", "CLL: autoimmune hemolysis and Richter transformation", "CML: t(9;22) BCR-ABL1, basophilia, blast crisis", "Hairy cell: TRAP and CD11c positive, BRAF V600E, dry tap, big spleen"]},
-    {"t": "Myeloma mechanisms", "p": "Draw a plasma cell in the marrow and draw arrows from it to each problem it causes in bone, blood, kidney, and immune function. Label the mechanism on each arrow.",
-     "l": ["RANKL increase activates osteoclasts: lytic lesions and fractures", "Bone resorption releases calcium: hypercalcemia", "Light chains form tubular casts: myeloma kidney", "Bence Jones protein in urine", "Marrow crowding: anemia", "High serum protein: rouleaux", "Low normal antibodies: infections", "M spike on electrophoresis; light chains can form AL amyloid"]}
+   {
+    "t": "Leukemia comparison table",
+    "p": "Make a table for ALL, AML, CLL, CML, and hairy cell leukemia. Columns: typical age, cell type, the marker or genetic change that identifies it, and one complication.",
+    "l": [
+     "ALL: children, TdT positive lymphoblasts, CNS and testis spread",
+     "AML: older adults, myeloperoxidase positive, Auer rods",
+     "APL: t(15;17) PML-RARA, DIC",
+     "CLL: older adults, CD5 and CD23 positive, smudge cells",
+     "CLL: autoimmune hemolysis and Richter transformation",
+     "CML: t(9;22) BCR-ABL1, basophilia, blast crisis",
+     "Hairy cell: TRAP and CD11c positive, BRAF V600E, dry tap, big spleen"
+    ]
+   },
+   {
+    "t": "Myeloma mechanisms",
+    "p": "Draw a plasma cell in the marrow and draw arrows from it to each problem it causes in bone, blood, kidney, and immune function. Label the mechanism on each arrow.",
+    "l": [
+     "RANKL increase activates osteoclasts: lytic lesions and fractures",
+     "Bone resorption releases calcium: hypercalcemia",
+     "Light chains form tubular casts: myeloma kidney",
+     "Bence Jones protein in urine",
+     "Marrow crowding: anemia",
+     "High serum protein: rouleaux",
+     "Low normal antibodies: infections",
+     "M spike on electrophoresis; light chains can form AL amyloid"
+    ]
+   }
   ],
   "refs": [
-    {"book": "Robbins and Cotran Pathologic Basis of Disease", "where": "Diseases of White Blood Cells, Lymph Nodes, Spleen, and Thymus"},
-    {"book": "Lange: Pathophysiology of Disease (McPhee and Hammer)", "where": "Blood Disorders"},
-    {"book": "Lange: Pathophysiology of Disease (McPhee and Hammer)", "where": "Neoplasia"}
+   {
+    "book": "Robbins and Cotran Pathologic Basis of Disease",
+    "where": "Diseases of White Blood Cells, Lymph Nodes, Spleen, and Thymus"
+   },
+   {
+    "book": "Lange: Pathophysiology of Disease (McPhee and Hammer)",
+    "where": "Blood Disorders"
+   },
+   {
+    "book": "Lange: Pathophysiology of Disease (McPhee and Hammer)",
+    "where": "Neoplasia"
+   }
   ],
-  "videos": [],
-  "related": ["HE-9-D1", "HE-9-D2", "HE-9-D3", "HE-6", "HE-9-A", "HE-9-C1"]
-},
-{
+  "videos": [
+   {
+    "channel": "Ninja Nerd",
+    "title": "Acute Leukemia | Clinical Medicine",
+    "url": "https://www.youtube.com/watch?v=fUEWCxaeVvA"
+   },
+   {
+    "channel": "Ninja Nerd",
+    "title": "Lymphoma | Clinical Medicine",
+    "url": "https://www.youtube.com/watch?v=ycoumecc4d4"
+   }
+  ],
+  "related": [
+   "HE-9-D1",
+   "HE-9-D2",
+   "HE-9-D3",
+   "HE-6",
+   "HE-9-A",
+   "HE-9-C1"
+  ]
+ },
+ {
   "id": "HE-9-E",
   "summary": "Infections that show up in the blood and lymphatic system: babesiosis, malaria, schistosomiasis, mosquito-borne viruses, filoviruses, plague, cat scratch disease, and lymphangitis. Exam questions tie the exposure and smear or biopsy finding to the organism and predict complications.",
   "notes": [
-    {"h": "Babesiosis", "points": [
-      "Follows an Ixodes tick bite in the northeastern or upper midwestern United States, usually in summer, or a blood transfusion.",
-      "Findings: fever, chills, fatigue, hemolytic anemia (high LDH, high indirect bilirubin, low haptoglobin), and thrombocytopenia.",
-      "Severe disease risk: asplenia, older age, and immunosuppression (HIV, cancer, transplant, rituximab).",
-      "Severe cases can bring ARDS, DIC, kidney injury, and heart failure."
-    ]},
-    {"h": "Malaria", "points": [
-      "Fever paroxysms (chills, then high fever, then sweating) come when a synchronized group of infected red cells ruptures.",
-      "The cycle is about 48 hours for P. vivax and P. ovale and about 72 hours for P. malariae. P. falciparum fevers are often irregular.",
-      "Red cell rupture and splenic removal of infected and uninfected cells cause hemolytic anemia; the spleen enlarges and thrombocytopenia is common.",
-      "P. falciparum complications come from high parasitemia and sequestration: cerebral malaria (confusion, seizures, coma), severe anemia, hypoglycemia, acute kidney injury, hemoglobinuria, and acute respiratory distress.",
-      "Falciparum smear: many ring forms, often more than one per cell, and banana-shaped (crescent) gametocytes."
-    ]},
-    {"h": "Schistosomiasis", "points": [
-      "Disease comes from eggs trapped in tissue. A CD4 T helper 2 response builds granulomas with eosinophils, which later scar.",
-      "S. mansoni and S. japonicum eggs lodge in portal venules: periportal pipestem fibrosis and presinusoidal portal hypertension with splenomegaly and varices. Liver synthetic function is usually preserved.",
-      "S. haematobium eggs lodge in the bladder wall: hematuria, bladder fibrosis and calcification, obstruction, and squamous cell carcinoma of the bladder.",
-      "Peripheral eosinophilia is a key clue. Acute infection can cause fever, cough, and eosinophilia a few weeks after exposure (Katayama fever)."
-    ]},
-    {"h": "Aedes-borne and filovirus infections", "points": [
-      "Dengue (flavivirus, 4 serotypes): fever, severe headache behind the eyes, muscle and joint pain, rash, leukopenia, and thrombocytopenia.",
-      "Severe dengue is more likely after reinfection with a different serotype. Non-neutralizing antibodies help the virus enter Fc receptor-bearing cells (antibody-dependent enhancement), leading to plasma leakage, shock, and bleeding.",
-      "Chikungunya (alphavirus): high fever and severe symmetric joint pain that can persist for months.",
-      "Zika (flavivirus): usually mild rash, conjunctivitis, and joint pain; infection in pregnancy causes congenital microcephaly. Zika can also spread sexually and has been linked to Guillain-Barre syndrome.",
-      "Ebola and Marburg viruses: filamentous, enveloped, negative-sense RNA filoviruses. Fruit bats are the likely reservoir; people catch them through contact with blood or body fluids of an infected person or animal.",
-      "Filovirus illness: fever and weakness, then vomiting and diarrhea, then in many patients hemorrhage, DIC, shock, and multiorgan failure."
-    ]},
-    {"h": "Lymphadenitis and lymphangitis", "points": [
-      "Yersinia pestis: gram-negative coccobacillus with bipolar (safety pin) staining. Rodent fleas transmit it; in the United States most cases are in the Southwest.",
-      "Plague forms: bubonic (painful, swollen, suppurative node near the bite), septicemic (DIC, gangrene of fingers and toes), and pneumonic (spreads person to person by droplets).",
-      "Bartonella henselae: from a cat scratch or bite, often a kitten. A papule at the site is followed by tender regional lymphadenopathy; biopsy shows stellate necrotizing granulomas.",
-      "Acute lymphangitis: Streptococcus pyogenes spreads along lymphatics from a skin wound, causing red streaks toward tender regional nodes, with fever.",
-      "Reactive node patterns: follicular hyperplasia (B cell areas; rheumatoid arthritis, early HIV, toxoplasmosis), paracortical hyperplasia (T cell areas; viral infections such as mononucleosis, some drugs), and sinus histiocytosis (macrophages in sinuses; nodes draining a cancer).",
-      "Reactive follicles vary in size, have tingible body macrophages, and lack BCL2 in germinal centers. Follicular lymphoma has crowded uniform follicles, effaced architecture, and BCL2 positive germinal centers."
-    ]}
+   {
+    "h": "Babesiosis",
+    "points": [
+     "Follows an Ixodes tick bite in the northeastern or upper midwestern United States, usually in summer, or a blood transfusion.",
+     "Findings: fever, chills, fatigue, hemolytic anemia (high LDH, high indirect bilirubin, low haptoglobin), and thrombocytopenia.",
+     "Severe disease risk: asplenia, older age, and immunosuppression (HIV, cancer, transplant, rituximab).",
+     "Severe cases can bring ARDS, DIC, kidney injury, and heart failure."
+    ]
+   },
+   {
+    "h": "Malaria",
+    "points": [
+     "Fever paroxysms (chills, then high fever, then sweating) come when a synchronized group of infected red cells ruptures.",
+     "The cycle is about 48 hours for P. vivax and P. ovale and about 72 hours for P. malariae. P. falciparum fevers are often irregular.",
+     "Red cell rupture and splenic removal of infected and uninfected cells cause hemolytic anemia; the spleen enlarges and thrombocytopenia is common.",
+     "P. falciparum complications come from high parasitemia and sequestration: cerebral malaria (confusion, seizures, coma), severe anemia, hypoglycemia, acute kidney injury, hemoglobinuria, and acute respiratory distress.",
+     "Falciparum smear: many ring forms, often more than one per cell, and banana-shaped (crescent) gametocytes."
+    ]
+   },
+   {
+    "h": "Schistosomiasis",
+    "points": [
+     "Disease comes from eggs trapped in tissue. A CD4 T helper 2 response builds granulomas with eosinophils, which later scar.",
+     "S. mansoni and S. japonicum eggs lodge in portal venules: periportal pipestem fibrosis and presinusoidal portal hypertension with splenomegaly and varices. Liver synthetic function is usually preserved.",
+     "S. haematobium eggs lodge in the bladder wall: hematuria, bladder fibrosis and calcification, obstruction, and squamous cell carcinoma of the bladder.",
+     "Peripheral eosinophilia is a key clue. Acute infection can cause fever, cough, and eosinophilia a few weeks after exposure (Katayama fever)."
+    ]
+   },
+   {
+    "h": "Aedes-borne and filovirus infections",
+    "points": [
+     "Dengue (flavivirus, 4 serotypes): fever, severe headache behind the eyes, muscle and joint pain, rash, leukopenia, and thrombocytopenia.",
+     "Severe dengue is more likely after reinfection with a different serotype. Non-neutralizing antibodies help the virus enter Fc receptor-bearing cells (antibody-dependent enhancement), leading to plasma leakage, shock, and bleeding.",
+     "Chikungunya (alphavirus): high fever and severe symmetric joint pain that can persist for months.",
+     "Zika (flavivirus): usually mild rash, conjunctivitis, and joint pain; infection in pregnancy causes congenital microcephaly. Zika can also spread sexually and has been linked to Guillain-Barre syndrome.",
+     "Ebola and Marburg viruses: filamentous, enveloped, negative-sense RNA filoviruses. Fruit bats are the likely reservoir; people catch them through contact with blood or body fluids of an infected person or animal.",
+     "Filovirus illness: fever and weakness, then vomiting and diarrhea, then in many patients hemorrhage, DIC, shock, and multiorgan failure."
+    ]
+   },
+   {
+    "h": "Lymphadenitis and lymphangitis",
+    "points": [
+     "Yersinia pestis: gram-negative coccobacillus with bipolar (safety pin) staining. Rodent fleas transmit it; in the United States most cases are in the Southwest.",
+     "Plague forms: bubonic (painful, swollen, suppurative node near the bite), septicemic (DIC, gangrene of fingers and toes), and pneumonic (spreads person to person by droplets).",
+     "Bartonella henselae: from a cat scratch or bite, often a kitten. A papule at the site is followed by tender regional lymphadenopathy; biopsy shows stellate necrotizing granulomas.",
+     "Acute lymphangitis: Streptococcus pyogenes spreads along lymphatics from a skin wound, causing red streaks toward tender regional nodes, with fever.",
+     "Reactive node patterns: follicular hyperplasia (B cell areas; rheumatoid arthritis, early HIV, toxoplasmosis), paracortical hyperplasia (T cell areas; viral infections such as mononucleosis, some drugs), and sinus histiocytosis (macrophages in sinuses; nodes draining a cancer).",
+     "Reactive follicles vary in size, have tingible body macrophages, and lack BCL2 in germinal centers. Follicular lymphoma has crowded uniform follicles, effaced architecture, and BCL2 positive germinal centers."
+    ]
+   }
   ],
   "charts": [
-    {"title": "Infections of the blood compared", "cols": ["Infection", "Exposure", "Blood or tissue finding", "Major complications"],
-     "rows": [
-      ["Babesiosis", "Ixodes tick in northeastern or upper midwestern US; transfusion", "Ring forms, Maltese cross tetrads, no pigment", "Severe hemolysis, ARDS, DIC in asplenic, older, or immunosuppressed patients"],
-      ["Malaria (P. falciparum)", "Anopheles mosquito in endemic area", "Many rings, banana-shaped gametocytes", "Cerebral malaria, severe anemia, hypoglycemia, kidney injury, hemoglobinuria"],
-      ["Malaria (P. vivax or P. ovale)", "Anopheles mosquito in endemic area", "Enlarged red cells with Schuffner dots", "Relapse from hypnozoites, splenomegaly"],
-      ["Schistosomiasis (S. mansoni, S. japonicum)", "Freshwater skin contact", "Eggs in stool, eosinophilia", "Pipestem fibrosis, presinusoidal portal hypertension"],
-      ["Schistosomiasis (S. haematobium)", "Freshwater skin contact", "Eggs in urine, eosinophilia", "Hematuria, bladder fibrosis, squamous cell carcinoma"]
-    ]},
-    {"title": "Aedes-borne viruses", "cols": ["Virus", "Family", "Hallmark", "Severe outcome"],
-     "rows": [
-      ["Dengue", "Flavivirus", "Fever, retro-orbital headache, myalgia, thrombocytopenia", "Plasma leakage and shock after reinfection with another serotype"],
-      ["Chikungunya", "Alphavirus", "Severe symmetric arthralgia", "Joint pain lasting months"],
-      ["Zika", "Flavivirus", "Mild rash, conjunctivitis", "Congenital microcephaly"]
-    ]},
-    {"title": "Reactive lymph node patterns", "cols": ["Pattern", "Zone expanded", "Common causes"],
-     "rows": [
-      ["Follicular hyperplasia", "B cell follicles", "Rheumatoid arthritis, early HIV, toxoplasmosis"],
-      ["Paracortical hyperplasia", "T cell paracortex", "Viral infections such as mononucleosis, some drug reactions"],
-      ["Sinus histiocytosis", "Sinuses filled with macrophages", "Nodes draining a cancer"]
-    ]}
+   {
+    "title": "Infections of the blood compared",
+    "cols": [
+     "Infection",
+     "Exposure",
+     "Blood or tissue finding",
+     "Major complications"
+    ],
+    "rows": [
+     [
+      "Babesiosis",
+      "Ixodes tick in northeastern or upper midwestern US; transfusion",
+      "Ring forms, Maltese cross tetrads, no pigment",
+      "Severe hemolysis, ARDS, DIC in asplenic, older, or immunosuppressed patients"
+     ],
+     [
+      "Malaria (P. falciparum)",
+      "Anopheles mosquito in endemic area",
+      "Many rings, banana-shaped gametocytes",
+      "Cerebral malaria, severe anemia, hypoglycemia, kidney injury, hemoglobinuria"
+     ],
+     [
+      "Malaria (P. vivax or P. ovale)",
+      "Anopheles mosquito in endemic area",
+      "Enlarged red cells with Schuffner dots",
+      "Relapse from hypnozoites, splenomegaly"
+     ],
+     [
+      "Schistosomiasis (S. mansoni, S. japonicum)",
+      "Freshwater skin contact",
+      "Eggs in stool, eosinophilia",
+      "Pipestem fibrosis, presinusoidal portal hypertension"
+     ],
+     [
+      "Schistosomiasis (S. haematobium)",
+      "Freshwater skin contact",
+      "Eggs in urine, eosinophilia",
+      "Hematuria, bladder fibrosis, squamous cell carcinoma"
+     ]
+    ]
+   },
+   {
+    "title": "Aedes-borne viruses",
+    "cols": [
+     "Virus",
+     "Family",
+     "Hallmark",
+     "Severe outcome"
+    ],
+    "rows": [
+     [
+      "Dengue",
+      "Flavivirus",
+      "Fever, retro-orbital headache, myalgia, thrombocytopenia",
+      "Plasma leakage and shock after reinfection with another serotype"
+     ],
+     [
+      "Chikungunya",
+      "Alphavirus",
+      "Severe symmetric arthralgia",
+      "Joint pain lasting months"
+     ],
+     [
+      "Zika",
+      "Flavivirus",
+      "Mild rash, conjunctivitis",
+      "Congenital microcephaly"
+     ]
+    ]
+   },
+   {
+    "title": "Reactive lymph node patterns",
+    "cols": [
+     "Pattern",
+     "Zone expanded",
+     "Common causes"
+    ],
+    "rows": [
+     [
+      "Follicular hyperplasia",
+      "B cell follicles",
+      "Rheumatoid arthritis, early HIV, toxoplasmosis"
+     ],
+     [
+      "Paracortical hyperplasia",
+      "T cell paracortex",
+      "Viral infections such as mononucleosis, some drug reactions"
+     ],
+     [
+      "Sinus histiocytosis",
+      "Sinuses filled with macrophages",
+      "Nodes draining a cancer"
+     ]
+    ]
+   }
   ],
   "tricks": [
-    {"kind": "trick", "label": "Tertian and quartan", "text": "Fever every third day (48 hours) is P. vivax or P. ovale; every fourth day (72 hours) is P. malariae. Count the fever day as day 1."},
-    {"kind": "trick", "label": "Eggs do the damage", "text": "In schistosomiasis the adult worms hide quietly; the trapped eggs make granulomas. Mesenteric species scar the liver, the bladder species scars the bladder."},
-    {"kind": "trick", "label": "Second dengue is the dangerous one", "text": "Antibodies from the first serotype help the second serotype get into macrophages, so the second infection is the one that leaks and shocks."}
+   {
+    "kind": "trick",
+    "label": "Tertian and quartan",
+    "text": "Fever every third day (48 hours) is P. vivax or P. ovale; every fourth day (72 hours) is P. malariae. Count the fever day as day 1."
+   },
+   {
+    "kind": "trick",
+    "label": "Eggs do the damage",
+    "text": "In schistosomiasis the adult worms hide quietly; the trapped eggs make granulomas. Mesenteric species scar the liver, the bladder species scars the bladder."
+   },
+   {
+    "kind": "trick",
+    "label": "Second dengue is the dangerous one",
+    "text": "Antibodies from the first serotype help the second serotype get into macrophages, so the second infection is the one that leaks and shocks."
+   }
   ],
   "highYield": [
-    "Fever and hemolytic anemia after a summer in New England in a patient without a spleen points to babesiosis.",
-    "Banana-shaped gametocytes and multiple rings per red cell mean P. falciparum.",
-    "Cerebral malaria and hypoglycemia are P. falciparum complications.",
-    "S. haematobium is linked to squamous cell carcinoma of the bladder.",
-    "S. mansoni causes presinusoidal portal hypertension with preserved liver function and eosinophilia.",
-    "Severe dengue follows a second infection with a different serotype.",
-    "A painful suppurative bubo after a flea bite in the US Southwest is bubonic plague.",
-    "Tender axillary nodes with stellate necrotizing granulomas after a kitten scratch is cat scratch disease."
+   "Fever and hemolytic anemia after a summer in New England in a patient without a spleen points to babesiosis.",
+   "Banana-shaped gametocytes and multiple rings per red cell mean P. falciparum.",
+   "Cerebral malaria and hypoglycemia are P. falciparum complications.",
+   "S. haematobium is linked to squamous cell carcinoma of the bladder.",
+   "S. mansoni causes presinusoidal portal hypertension with preserved liver function and eosinophilia.",
+   "Severe dengue follows a second infection with a different serotype.",
+   "A painful suppurative bubo after a flea bite in the US Southwest is bubonic plague.",
+   "Tender axillary nodes with stellate necrotizing granulomas after a kitten scratch is cat scratch disease."
   ],
   "pitfalls": [
-    "Babesia and P. falciparum both show small rings; only Plasmodium shows pigment and recognizable gametocytes on smear.",
-    "Schistosomal portal hypertension is presinusoidal, so liver function stays normal, unlike cirrhosis.",
-    "Chikungunya and dengue overlap early; prolonged severe arthralgia favors chikungunya, while bleeding and plasma leakage favor dengue.",
-    "A plague bubo is painful; the nodes of lymphoma are usually painless."
+   "Babesia and P. falciparum both show small rings; only Plasmodium shows pigment and recognizable gametocytes on smear.",
+   "Schistosomal portal hypertension is presinusoidal, so liver function stays normal, unlike cirrhosis.",
+   "Chikungunya and dengue overlap early; prolonged severe arthralgia favors chikungunya, while bleeding and plasma leakage favor dengue.",
+   "A plague bubo is painful; the nodes of lymphoma are usually painless."
   ],
   "dumps": [
-    {"t": "Blood parasite comparison", "p": "Make a table comparing babesiosis, P. falciparum malaria, P. vivax malaria, and schistosomiasis. Columns: how it is caught, what you see on smear or in samples, who gets severe disease, and the major complication.",
-     "l": ["Babesiosis: Ixodes tick or transfusion, rings and Maltese cross tetrads", "Babesiosis: severe in asplenia, older age, immunosuppression", "P. falciparum: many rings, banana gametocytes", "P. falciparum: cerebral malaria, severe anemia, hypoglycemia, kidney injury", "P. vivax: 48 hour fever, relapse from hypnozoites", "Schistosomiasis: freshwater exposure, eggs in stool or urine, eosinophilia", "S. mansoni: pipestem fibrosis and portal hypertension", "S. haematobium: hematuria and bladder squamous cell carcinoma"]},
-    {"t": "Lymphadenitis causes", "p": "List four infections that cause enlarged or painful lymph nodes or red streaks on the skin: plague, cat scratch disease, strep lymphangitis, and a viral cause of paracortical hyperplasia. For each, write the exposure, the organism, and the node or skin finding.",
-     "l": ["Plague: rodent flea, Yersinia pestis, bipolar staining", "Plague: painful suppurative bubo, septicemic and pneumonic spread", "Cat scratch: Bartonella henselae from a kitten scratch", "Cat scratch: regional nodes with stellate necrotizing granulomas", "Lymphangitis: Streptococcus pyogenes from a skin wound, red streaks to nodes", "Mononucleosis: paracortical T cell hyperplasia", "Reactive follicles lack BCL2 and keep tingible body macrophages, unlike follicular lymphoma"]}
+   {
+    "t": "Blood parasite comparison",
+    "p": "Make a table comparing babesiosis, P. falciparum malaria, P. vivax malaria, and schistosomiasis. Columns: how it is caught, what you see on smear or in samples, who gets severe disease, and the major complication.",
+    "l": [
+     "Babesiosis: Ixodes tick or transfusion, rings and Maltese cross tetrads",
+     "Babesiosis: severe in asplenia, older age, immunosuppression",
+     "P. falciparum: many rings, banana gametocytes",
+     "P. falciparum: cerebral malaria, severe anemia, hypoglycemia, kidney injury",
+     "P. vivax: 48 hour fever, relapse from hypnozoites",
+     "Schistosomiasis: freshwater exposure, eggs in stool or urine, eosinophilia",
+     "S. mansoni: pipestem fibrosis and portal hypertension",
+     "S. haematobium: hematuria and bladder squamous cell carcinoma"
+    ]
+   },
+   {
+    "t": "Lymphadenitis causes",
+    "p": "List four infections that cause enlarged or painful lymph nodes or red streaks on the skin: plague, cat scratch disease, strep lymphangitis, and a viral cause of paracortical hyperplasia. For each, write the exposure, the organism, and the node or skin finding.",
+    "l": [
+     "Plague: rodent flea, Yersinia pestis, bipolar staining",
+     "Plague: painful suppurative bubo, septicemic and pneumonic spread",
+     "Cat scratch: Bartonella henselae from a kitten scratch",
+     "Cat scratch: regional nodes with stellate necrotizing granulomas",
+     "Lymphangitis: Streptococcus pyogenes from a skin wound, red streaks to nodes",
+     "Mononucleosis: paracortical T cell hyperplasia",
+     "Reactive follicles lack BCL2 and keep tingible body macrophages, unlike follicular lymphoma"
+    ]
+   }
   ],
   "refs": [
-    {"book": "Jawetz, Melnick, and Adelberg's Medical Microbiology", "where": "Medical Parasitology"},
-    {"book": "Jawetz, Melnick, and Adelberg's Medical Microbiology", "where": "Section on arthropod-borne viral diseases"},
-    {"book": "Robbins and Cotran Pathologic Basis of Disease", "where": "Infectious Diseases"},
-    {"book": "Robbins and Cotran Pathologic Basis of Disease", "where": "Diseases of White Blood Cells, Lymph Nodes, Spleen, and Thymus (section on reactive lymphadenitis)"}
+   {
+    "book": "Jawetz, Melnick, and Adelberg's Medical Microbiology",
+    "where": "Medical Parasitology"
+   },
+   {
+    "book": "Jawetz, Melnick, and Adelberg's Medical Microbiology",
+    "where": "Section on arthropod-borne viral diseases"
+   },
+   {
+    "book": "Robbins and Cotran Pathologic Basis of Disease",
+    "where": "Infectious Diseases"
+   },
+   {
+    "book": "Robbins and Cotran Pathologic Basis of Disease",
+    "where": "Diseases of White Blood Cells, Lymph Nodes, Spleen, and Thymus (section on reactive lymphadenitis)"
+   }
   ],
-  "videos": [],
-  "related": ["HE-9-E1", "HE-9-E2", "HE-9-E3", "HE-8", "HE-9-C1", "HE-9-D2"]
-}
+  "videos": [
+   {
+    "channel": "Armando Hasudungan",
+    "title": "Malaria Pathophysiology",
+    "url": "https://www.youtube.com/watch?v=oQmL6XqCKSU"
+   }
+  ],
+  "related": [
+   "HE-9-E1",
+   "HE-9-E2",
+   "HE-9-E3",
+   "HE-8",
+   "HE-9-C1",
+   "HE-9-D2"
+  ]
+ }
 ]

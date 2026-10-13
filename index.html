@@ -631,21 +631,45 @@ function startUnitPractice(id){
   return true;
 }
 
+var CONF_LV={sure:3,mid:2,unsure:1};
+var CONF_NAMES={3:'Sure',2:'Fairly sure',1:'Not sure'};
+/* certainty-based marking (Gardner-Medwin): right +1/+2/+3, wrong 0/-2/-6 */
+function cbmPts(r){ if(!r.answered||!r.conf) return 0; return r.ok?r.conf:(r.conf===3?-6:r.conf===2?-2:0); }
+function cbmHTML(rows, full){
+  var ans=rows.filter(function(r){return r.answered&&r.conf;});
+  if(!ans.length) return '<p>Answer some questions and rate how sure you are to see this.</p>';
+  var pts=0; ans.forEach(function(r){pts+=cbmPts(r);}); var max=3*ans.length;
+  var tgt={3:[80,101,'over 80%'],2:[67,80,'67 to 80%'],1:[-1,67,'under 67%']};
+  var h='<p class="big-score" style="margin:0">'+Math.round(pts/max*100)+'%</p><p class="muted" style="margin:.2rem 0 .8rem">'+pts+' of '+max+' confidence points</p>';
+  h+='<div class="tbl-wrap" role="region" tabindex="0" aria-label="Confidence levels (scrolls sideways)"><table><thead><tr><th scope="col">You said</th><th scope="col">Answers</th><th scope="col">Right</th><th scope="col">Should be right</th><th scope="col">What it means</th></tr></thead><tbody>';
+  [3,2,1].forEach(function(lv){
+    var rs=ans.filter(function(r){return r.conf===lv;}), n=rs.length, k=rs.filter(function(r){return r.ok;}).length, pc=n?Math.round(k/n*100):null, t=tgt[lv], msg;
+    if(n<5) msg='Too few to judge yet';
+    else if(pc>=t[0]&&pc<t[1]) msg='Well matched';
+    else if(lv===3) msg='Too confident. Use Fairly sure more often';
+    else if(lv===2) msg=pc>=80?'You know more than you think. Use Sure more often':'Use Not sure on these';
+    else msg='You know more than you think. Use Fairly sure more often';
+    h+='<tr><th scope="row">'+CONF_NAMES[lv]+'</th><td>'+n+'</td><td>'+(pc==null?'None':pc+'%')+'</td><td>'+t[2]+'</td><td>'+msg+'</td></tr>';
+  });
+  h+='</tbody></table></div>';
+  if(full) h+='<p class="note" style="margin-top:.6rem">Right answers earn 1, 2, or 3 points (Not sure, Fairly sure, Sure). Wrong answers cost 0, 2, or 6 points. Your NPLEX-style score is not affected. Rating honestly is what earns the most points.</p>';
+  return h;
+}
 function evalSession(ss){
   return ss.items.map(function(it,ix){
     var m=QMAP[it.q]; if(!m) return null;
     var a=ss.answers[it.q]||{}, key=it.p.indexOf(m.q.answer);
-    return {it:it,q:m.q,c:m.c,a:a,key:key,ok:a.choice===key,answered:a.choice!=null,sure:a.sure==='sure',unit:unitOf(m.q.comp),ix:ix};
+    return {it:it,q:m.q,c:m.c,a:a,key:key,ok:a.choice===key,answered:a.choice!=null,sure:a.sure==='sure',conf:CONF_LV[a.sure]||0,unit:unitOf(m.q.comp),ix:ix};
   }).filter(Boolean);
 }
 function finishSession(key){
   var ss=S.sessions[key]; if(!ss) return;
   var rows=evalSession(ss), byUnit={};
   rows.forEach(function(r){
-    (S.attempts[r.q.id]=S.attempts[r.q.id]||[]).push({t:today(),ok:r.ok,sure:r.sure,s:ss.id});
+    (S.attempts[r.q.id]=S.attempts[r.q.id]||[]).push({t:today(),ok:r.ok,sure:r.sure,conf:r.conf,s:ss.id});
     if(!r.unit) return;
     var b=byUnit[r.unit]=byUnit[r.unit]||{n:0,ok:0,sure:0};
-    b.n++; if(r.ok) b.ok++; if(r.sure) b.sure++;
+    b.n++; if(r.ok) b.ok++; b.sure+=r.conf===3?1:r.conf===2?0.5:0;
   });
   Object.keys(byUnit).forEach(function(id){
     var b=byUnit[id];
@@ -1031,8 +1055,9 @@ VIEW.take = function(key){
   });
   h+='</div></fieldset>';
   h+='<fieldset><legend>How sure are you?</legend><div class="radios">'+
-    '<label for="cf-s"><input type="radio" name="sure" id="cf-s" value="sure" data-chg="sure"'+(a.sure==='sure'?' checked':'')+(locked?' disabled':'')+'>Sure</label>'+
-    '<label for="cf-n"><input type="radio" name="sure" id="cf-n" value="unsure" data-chg="sure"'+(a.sure==='unsure'?' checked':'')+(locked?' disabled':'')+'>Not sure</label></div></fieldset>';
+    [['sure','cf-s','Sure'],['mid','cf-m','Fairly sure'],['unsure','cf-n','Not sure']].map(function(o){
+      return '<label for="'+o[1]+'"><input type="radio" name="sure" id="'+o[1]+'" value="'+o[0]+'" data-chg="sure"'+(a.sure===o[0]?' checked':'')+(locked?' disabled':'')+'>'+o[2]+'</label>'; }).join('')+
+    '</div><p class="note" style="margin:.4rem 0 0">Sure: you would bet on it. Fairly sure: probably right. Not sure: an educated guess.</p></fieldset>';
   h+='<p class="err" id="qerr" role="alert"></p><div class="row">';
   if(ss.mode==='tutor' && !locked) h+='<button type="button" class="btn acc" data-act="submit">Submit answer</button>';
   if(ss.mode==='exam') h+='<button type="button" class="btn acc" data-act="savenext">'+(ss.cur<part[1]-1?'Save and next':'Save')+'</button>';
@@ -1070,7 +1095,7 @@ function reviewBody(it,q,a,lv){
       (mine?' <span class="rv-tag yours">'+(isKey?ICON_CHECK:ICON_X)+'Your answer</span>':'')+'</li>';
   });
   h+='</ul>';
-  h+='<p class="verdict">'+(a.choice==null?'Not answered.':(a.choice===key?'You got it right':'You missed this one'))+(a.choice!=null?(a.sure==='sure'?', and you were sure.':a.sure==='unsure'?', and you were not sure.':'.'):'')+
+  h+='<p class="verdict">'+(a.choice==null?'Not answered.':(a.choice===key?'You got it right':'You missed this one'))+(a.choice!=null?(a.sure==='sure'?', and you were sure.':a.sure==='mid'?', and you were fairly sure.':a.sure==='unsure'?', and you were not sure.':'.'):'')+
     (a.choice!==key && a.sure==='sure'?' This is a blind spot.':'')+'</p>';
   if(q.approach && q.approach.length) h+='<'+hN+'>How to work it</'+hN+'><ol>'+q.approach.map(function(s){return '<li>'+esc(s)+'</li>';}).join('')+'</ol>';
   if(q.why) h+='<'+hN+'>Why this is right</'+hN+'><p>'+esc(q.why)+'</p>';
@@ -1097,9 +1122,10 @@ VIEW.results = function(id){
   var h='<div class="head"><p class="eyebrow">'+esc(ss.title)+' · '+nice(ss.finished)+'</p><h1 tabindex="-1">How did <span class="accent">you do?</span></h1></div>';
   h+='<div class="grid g3"><div class="card"><p class="eyebrow">Score</p><div class="big-score">'+pct(ok,n)+'%</div><p class="muted" style="margin:.4rem 0 0">'+ok+' of '+n+' correct</p></div>';
   var blind=rows.filter(function(r){return r.sure&&!r.ok&&r.answered;});
-  var unsureRight=rows.filter(function(r){return !r.sure&&r.ok;}).length;
+  var unsureRight=rows.filter(function(r){return r.conf===1&&r.ok;}).length;
   h+='<div class="card"><p class="eyebrow">Blind spots</p><div class="big-score">'+blind.length+'</div><p class="muted" style="margin:.4rem 0 0">Sure and wrong</p></div>';
   h+='<div class="card"><p class="eyebrow">Lucky guesses</p><div class="big-score">'+unsureRight+'</div><p class="muted" style="margin:.4rem 0 0">Right but not sure</p></div></div>';
+  h+='<section class="section card" aria-labelledby="cbm-h"><h2 id="cbm-h">Confidence score</h2><p class="note">Do your Sure answers hold up? This shows how well your confidence matches what you know.</p>'+cbmHTML(rows,true)+'</section>';
   if(ss.kind==='exam'||ss.kind==='diag'){
     var both=['SF','DD'].every(function(g){ var rs=rows.filter(function(r){return SEA_GEA[r.q.sea]===g;}); return rs.length && rs.filter(function(r){return r.ok;}).length/rs.length>=cutFor(g)/100; });
     h+='<section class="section" aria-labelledby="gea-h"><h2 id="gea-h">Scored like NPLEX: <span class="accent">'+(both?'Estimated Pass':'Estimated Fail')+'</span></h2><p class="note">NPLEX reports Pass or Fail for each area and where you landed compared with the cut. You must pass both. The cut here is an estimate; NABNE does not publish it.</p><div class="grid g2">'+geaMeters(rows,true)+'</div>'+
@@ -1338,7 +1364,7 @@ function relAreas(rows){
 /* dashboard */
 function allAttemptRows(){
   var rows=[];
-  Object.keys(S.attempts).forEach(function(qid){ var m=QMAP[qid]; if(!m) return; S.attempts[qid].forEach(function(at){ rows.push({q:m.q,c:m.c,ok:at.ok,sure:at.sure,unit:unitOf(m.q.comp)}); }); });
+  Object.keys(S.attempts).forEach(function(qid){ var m=QMAP[qid]; if(!m) return; S.attempts[qid].forEach(function(at){ rows.push({q:m.q,c:m.c,ok:at.ok,sure:at.sure,conf:at.conf||(at.sure?3:1),answered:true,unit:unitOf(m.q.comp)}); }); });
   return rows;
 }
 VIEW.dashboard = function(){
@@ -1352,6 +1378,7 @@ VIEW.dashboard = function(){
   h+='<section class="section grid g2"><div class="card"><h2>Blind spots</h2><p class="note">Top priority. You were sure and wrong.</p>'+
     (L.blind.length?'<ul class="rec">'+L.blind.map(function(c){return '<li>'+unitLink(c.id)+chip('blind')+'</li>';}).join('')+'</ul>':'<p>None right now.</p>')+'</div>'+
     '<div class="card"><h2>Due for review</h2>'+(L.due.length?'<ul class="rec">'+L.due.map(function(c){return '<li>'+unitLink(c.id)+'<span class="note">due '+nice(S.srs[c.id].next)+'</span></li>';}).join('')+'</ul>':'<p>Nothing due today.</p>')+'</div></section>';
+  h+='<section class="section card" aria-labelledby="dcbm-h"><h2 id="dcbm-h">How well does your confidence match?</h2><p class="note">All questions you have answered. Blind spots come from Sure answers that were wrong.</p>'+cbmHTML(rows,true)+'</section>';
   h+='<section class="section grid g2"><div class="card"><h2>By system</h2>'+barsFrom(rows,function(r){return r.c.system;},sysName,SYS_ORDER)+'</div>'+
     '<div class="card"><h2>By exam area</h2>'+barsFrom(rows,function(r){return r.q.sea;},function(k){return SEA_NAMES[k];},['A','P','B','M','X'])+'</div></section>';
   var g={}; rows.forEach(function(r){ if(!r.unit) return; var b=g[r.unit]=g[r.unit]||{n:0,ok:0}; b.n++; if(r.ok) b.ok++; });
