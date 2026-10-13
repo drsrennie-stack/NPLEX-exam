@@ -1,0 +1,11 @@
+Verdict: board-ready after edits; all 40 keys confirmed correct. Keys changed: 0. Items rewritten: 2 (stems of HE-C03-Q2 and HE-C05-Q3). Facts corrected: 1. Videos removed: 0 (not applicable to case files).
+
+# Review log: content/he/cases-c01.json
+
+I solved every question before checking the key, and all 40 keys matched. Every whyNot entry at the key reads exactly "Correct.", each other entry explains its own option, no text refers to an option by letter or position, and no key is the longest option. Case summaries and stems are in exam-writer voice, with vital signs in standard order and reference ranges on lab values a student must judge. Each obj is tested by its question, and every case mixes at least three SEAs. The checker passes with 0 errors and 0 warnings, and answer positions stay 10/10/10/10.
+
+## Changes
+- HE-C03-Q2 stem: "Which of the following serum findings would best confirm a cellular deficiency of vitamin B12 rather than folate?" left a second defensible answer, because high methylmalonic acid with normal homocysteine also points to B12 rather than folate. Changed to "Which of the following combinations of serum concentrations is most likely in this patient?" so only the high/high pattern fits. Updated the whyNot for the high methylmalonic acid, normal homocysteine option to say homocysteine rises too in B12 deficiency.
+- HE-C05-Q3 stem: the item placed sudden marrow failure "during his hepatitis illness", but hepatitis-associated aplastic anemia appears weeks to months after the hepatitis and immune marrow failure is gradual, so the lifespan-based sequence (which objective HE-3.5 frames as sudden marrow suppression) did not fit this patient. Rewrote the stem as a new patient whose marrow stops abruptly after high-dose chemotherapy, followed with daily counts and no bleeding or transfusions. Key unchanged.
+- HE-C05-Q3 whyNot (platelets, then erythrocytes, then neutrophils): "this order is reversed at both ends" was inaccurate for that sequence. Changed to state plainly that neutrophils fall first and red cells last.
+- HE-C10 case: "A skull x-ray obtained at diagnosis showed a hair-on-end (crew-cut) pattern" placed the finding at 9 months of age, before marrow expansion would have produced it. Changed to "A skull x-ray shows a hair-on-end (crew-cut) pattern."
