@@ -1,0 +1,610 @@
+{
+  "unit": "RE-10",
+  "chapter_id": "NPLEX-P1-REPR-10",
+  "topic_id": "NPLEX-P1-REPR-10-01",
+  "title": "Reproductive Genetics",
+  "subject": "Reproductive System (REPR)",
+  "version": "1.0",
+  "author": "Dr. Sharilyn Rennie",
+  "brand": "MedMasters Collaborative",
+  "overview": {
+    "intro": "This chapter explains how errors in chromosome number and mutations in single genes produce reproductive disease. It begins with sex chromosome aneuploidy and X inactivation, then follows the molecular path from high-risk human papillomavirus (HPV) to cervical carcinoma, and closes with the inherited DNA repair syndromes (BRCA1, BRCA2, and Lynch syndrome) and the receptor-based classification of breast cancer. Board questions usually hand you a karyotype, a viral protein, a family history, or a receptor profile and ask for the mechanism and the expected phenotype. The common thread is that loss of a control system, whether chromosome segregation, a cell cycle checkpoint, or a repair pathway, has predictable consequences.",
+    "prerequisites": [
+      "Stages of meiosis I and meiosis II and the difference between homologs and sister chromatids",
+      "The G1 to S checkpoint: cyclin D and CDK4/6, Rb, E2F, p53, and p21",
+      "DNA repair pathways: mismatch repair, homologous recombination, and nonhomologous end joining",
+      "Tumor suppressor genes versus oncogenes and the two-hit hypothesis",
+      "Hypothalamic-pituitary-gonadal axis and feedback by sex steroids and inhibin"
+    ],
+    "connections": [
+      {
+        "to": "Gonadal development and disorders of sex development (RE embryology units)",
+        "how": "The Y chromosome gene SRY and the number of X chromosomes determine whether gonads become testes, ovaries, or dysgenetic streaks."
+      },
+      {
+        "to": "Female reproductive pathology (RE-13)",
+        "how": "Cervical intraepithelial neoplasia, endometrial carcinoma, high-grade serous ovarian carcinoma, and breast carcinoma are the clinical endpoints of the mechanisms taught here."
+      },
+      {
+        "to": "Cardiovascular and renal anatomy",
+        "how": "Turner syndrome links a sex chromosome error to bicuspid aortic valve, coarctation of the aorta, and horseshoe kidney."
+      },
+      {
+        "to": "Gastrointestinal pathology",
+        "how": "Lynch syndrome is the most common inherited colorectal cancer syndrome, so the same mismatch repair defect explains both colon and endometrial tumors."
+      },
+      {
+        "to": "Microbiology and immunology",
+        "how": "HPV oncoproteins show how a DNA virus commandeers host cell cycle machinery, and persistent infection reflects failed immune clearance."
+      }
+    ],
+    "terms": [
+      {
+        "term": "Nondisjunction",
+        "def": "Failure of homologous chromosomes (meiosis I) or sister chromatids (meiosis II or mitosis) to separate, giving daughter cells with an extra or missing chromosome."
+      },
+      {
+        "term": "Aneuploidy",
+        "def": "A chromosome number that is not an exact multiple of the haploid set, such as 47,XXY or 45,X."
+      },
+      {
+        "term": "Mosaicism",
+        "def": "The presence of two or more cell lines with different karyotypes in one person, all derived from a single zygote."
+      },
+      {
+        "term": "X inactivation",
+        "def": "Transcriptional silencing of all but one X chromosome in each somatic cell, which equalizes X-linked gene dosage between XX and XY cells."
+      },
+      {
+        "term": "Barr body",
+        "def": "The condensed, inactive X chromosome seen as a dense chromatin mass against the inner nuclear membrane of interphase cells."
+      },
+      {
+        "term": "Pseudoautosomal region",
+        "def": "Segments at the tips of the X and Y chromosomes that are homologous, pair and recombine in male meiosis, and largely escape X inactivation."
+      },
+      {
+        "term": "E2F",
+        "def": "A family of transcription factors that activate genes needed for DNA synthesis and S phase entry, held inactive by hypophosphorylated Rb."
+      },
+      {
+        "term": "Homologous recombination",
+        "def": "An accurate repair pathway for double-strand DNA breaks that copies the missing sequence from the intact sister chromatid."
+      },
+      {
+        "term": "Mismatch repair",
+        "def": "A pathway that recognizes and removes nucleotides wrongly paired or looped out during DNA replication, using the parental strand as template."
+      },
+      {
+        "term": "Microsatellite instability",
+        "def": "Variation in the length of short tandem repeat sequences in tumor DNA, the signature of defective mismatch repair."
+      },
+      {
+        "term": "Loss of heterozygosity",
+        "def": "Loss of the remaining normal allele in a cell that inherited one mutant allele, the usual second hit in tumor suppressor syndromes."
+      },
+      {
+        "term": "Triple-negative breast cancer",
+        "def": "Breast carcinoma lacking estrogen receptor, progesterone receptor, and HER2 overexpression or amplification."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "comp": "NPLEX-P1-REPR-10-01-C01",
+      "obj": "RE-10.1",
+      "title": "Nondisjunction and the sex chromosome aneuploidies",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "In meiosis I, homologous chromosomes separate (in the male, X and Y pair through their pseudoautosomal regions and then part); in meiosis II, sister chromatids separate. Nondisjunction is a failure of either step. A meiosis I error places both homologs in one gamete, and a meiosis II error places two copies of the same chromosome in one gamete. The partner gamete from that division carries no sex chromosome."
+        },
+        {
+          "type": "table",
+          "title": "How sex chromosome gametes combine",
+          "cols": [
+            "Abnormal gamete",
+            "Normal partner gamete",
+            "Zygote",
+            "Where the error can arise"
+          ],
+          "rows": [
+            [
+              "XX egg",
+              "Y sperm",
+              "47,XXY",
+              "Maternal meiosis I or II"
+            ],
+            [
+              "XY sperm",
+              "X egg",
+              "47,XXY",
+              "Paternal meiosis I only"
+            ],
+            [
+              "XX sperm",
+              "X egg",
+              "47,XXX",
+              "Paternal meiosis II"
+            ],
+            [
+              "YY sperm",
+              "X egg",
+              "47,XYY",
+              "Paternal meiosis II"
+            ],
+            [
+              "Egg or sperm with no sex chromosome",
+              "X gamete",
+              "45,X",
+              "Either parent; usually the father"
+            ]
+          ],
+          "caption": "An XY sperm arises only from paternal meiosis I."
+        },
+        {
+          "type": "p",
+          "text": "Klinefelter syndrome (47,XXY) affects about 1 in 500 to 1,000 males. About half of cases arise from a paternal meiosis I error and half from maternal errors, and only the maternal fraction rises with maternal age. The extra X destroys germ cells and hyalinizes the tubules, producing primary hypogonadism (flow below). Gynecomastia reflects a high estradiol to testosterone ratio, long legs reflect delayed epiphyseal closure and an extra SHOX dose, and male breast cancer risk is increased."
+        },
+        {
+          "type": "p",
+          "text": "Turner syndrome (45,X) occurs in about 1 in 2,500 live-born females, but most 45,X conceptuses are lost in pregnancy. In about three quarters of cases the paternal sex chromosome was lost, through nondisjunction or anaphase lag, so risk does not rise with maternal age. Oocytes undergo accelerated atresia, leaving streak ovaries, so estrogen and inhibin fall and FSH and LH rise. Short stature reflects loss of one SHOX copy; webbed neck and peripheral lymphedema reflect fetal lymphatic obstruction (cystic hygroma); bicuspid aortic valve, coarctation, and horseshoe kidney are characteristic associations."
+        },
+        {
+          "type": "flow",
+          "title": "Klinefelter syndrome from gamete to phenotype",
+          "steps": [
+            "Nondisjunction yields an XX egg or an XY sperm",
+            "Fertilization gives 47,XXY",
+            "Extra X damages germ cells; tubules hyalinize",
+            "Inhibin B and testosterone fall",
+            "Loss of negative feedback raises FSH and LH",
+            "Small firm testes, azoospermia, gynecomastia"
+          ],
+          "caption": "The endocrine pattern is primary (testicular) hypogonadism: low testosterone with high gonadotropins."
+        },
+        {
+          "type": "h",
+          "text": "Mosaicism"
+        },
+        {
+          "type": "p",
+          "text": "When nondisjunction or anaphase lag happens in a mitotic division after fertilization, only the descendants of that cell are abnormal. The result is mosaicism, such as 45,X/46,XX or 46,XY/47,XXY. Because a normal cell line is present, the phenotype is usually milder and depends on which tissues carry the abnormal line: a 45,X/46,XX woman may have spontaneous puberty and menstrual cycles before early ovarian failure, and a 46,XY/47,XXY man may retain some spermatogenesis. A 45,X/46,XY mosaic is a special case because Y chromosome material in a dysgenetic gonad carries a risk of gonadoblastoma. A blood karyotype samples only lymphocytes and can miss mosaicism in other tissues."
+        },
+        {
+          "type": "example",
+          "title": "Working out the parental origin of an error",
+          "text": "A 47,XXY boy carries one maternal X, one paternal X, and his father's Y. Ask which gamete carried two sex chromosomes. An XX egg would have given two maternal X chromosomes, so the egg was normal and the sperm carried both paternal X and Y. X and Y are homologs that separate in meiosis I, so the error was paternal meiosis I, and maternal age is irrelevant. By the same logic, a 47,XXY boy with two different maternal X chromosomes points to maternal meiosis I, and two identical maternal X chromosomes (at loci near the centromere) points to maternal meiosis II."
+        },
+        {
+          "type": "stop",
+          "predict": "A father has nondisjunction of the sex chromosomes in meiosis II. What karyotypes can his children have if the abnormal sperm fertilize normal eggs?",
+          "explain": "Sister chromatids fail to separate, so the sperm carries XX, YY, or no sex chromosome, giving 47,XXX, 47,XYY, or 45,X.",
+          "check": "Compare with the gamete table; note that an XY sperm cannot arise in meiosis II."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-REPR-10-01-C02",
+      "obj": "RE-10.2",
+      "title": "X inactivation, XIST, and Barr bodies",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A female cell with two active X chromosomes would make twice as much of each X-linked gene product as a male cell. Dosage compensation solves this by silencing all but one X in every somatic cell. The choice is made in the early embryo, around the late blastocyst stage, and in the embryo proper it is random: in some cells the maternal X is silenced and in others the paternal X. Once made, the choice is stable and is inherited by every daughter cell, so every woman is a mosaic of two cell populations. This is why a heterozygous carrier of an X-linked disorder can show patchy or partial signs, and why skewed inactivation can occasionally make a carrier fully affected."
+        },
+        {
+          "type": "p",
+          "text": "Silencing is controlled by the X inactivation center on the long arm of the X, which contains the XIST gene. XIST is transcribed only from the X that will be silenced, and its product is a long noncoding RNA that stays on that chromosome and coats it in cis. The RNA recruits Polycomb repressive complexes that place repressive histone marks (H3K27 trimethylation), the histone variant macroH2A is incorporated, and CpG islands of promoters become methylated. The chromosome condenses into facultative heterochromatin, replicates late in S phase, and sits against the nuclear envelope as the Barr body. Once DNA methylation is established, continued XIST expression is no longer required to keep most genes off."
+        },
+        {
+          "type": "flow",
+          "title": "Steps in X inactivation",
+          "steps": [
+            "Cell counts X chromosomes in the early embryo",
+            "One X is chosen to remain active",
+            "XIST is transcribed from each other X",
+            "XIST RNA coats its own X in cis",
+            "Repressive histone marks and CpG methylation follow",
+            "Condensed, late-replicating X forms the Barr body"
+          ],
+          "caption": "Every X beyond the first is silenced, so the count of Barr bodies tracks the count of X chromosomes."
+        },
+        {
+          "type": "p",
+          "text": "The rule for prediction follows directly: the number of Barr bodies equals the number of X chromosomes minus one, regardless of how many Y chromosomes are present. A Y chromosome is never inactivated and forms no Barr body."
+        },
+        {
+          "type": "table",
+          "title": "Barr bodies by karyotype",
+          "cols": [
+            "Karyotype",
+            "Condition",
+            "Active X",
+            "Barr bodies"
+          ],
+          "rows": [
+            [
+              "46,XY",
+              "Typical male",
+              "1",
+              "0"
+            ],
+            [
+              "46,XX",
+              "Typical female",
+              "1",
+              "1"
+            ],
+            [
+              "47,XXY",
+              "Klinefelter syndrome",
+              "1",
+              "1"
+            ],
+            [
+              "45,X",
+              "Turner syndrome",
+              "1",
+              "0"
+            ],
+            [
+              "47,XXX",
+              "Triple X",
+              "1",
+              "2"
+            ],
+            [
+              "48,XXXY",
+              "Klinefelter variant",
+              "1",
+              "2"
+            ]
+          ],
+          "caption": "One X is always active; each additional X is inactivated."
+        },
+        {
+          "type": "h",
+          "text": "Why aneuploidy still matters"
+        },
+        {
+          "type": "p",
+          "text": "If inactivation were complete, extra or missing X chromosomes would have little effect. It is not. About 15% of X-linked genes escape inactivation and a further group escapes variably. The pseudoautosomal genes, including SHOX, have functional copies on the Y, so normal development expects two active copies in both sexes. A 45,X cell has one dose of these genes, which explains short stature and the other Turner features, while a 47,XXY cell has three. Both X chromosomes are also active in the earliest embryo and in oocytes, where two X chromosomes are needed to maintain the follicle pool, which helps explain ovarian failure in Turner syndrome. When one X is structurally abnormal, such as an isochromosome Xq, the abnormal X is preferentially inactivated in surviving cells."
+        },
+        {
+          "type": "stop",
+          "predict": "How many Barr bodies are in a buccal cell from a 49,XXXXY individual, and why does this karyotype cause more severe intellectual disability than 47,XXY?",
+          "explain": "Three Barr bodies (four X minus one). Silencing is incomplete, so each extra X adds more active escape gene dosage.",
+          "check": "Compare with the Barr body rule and the paragraph on genes that escape inactivation."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-REPR-10-01-C03",
+      "obj": "RE-10.3",
+      "title": "High-risk HPV E6 and E7 and the loss of cell cycle checkpoints",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Two tumor suppressor proteins guard the G1 to S transition. Rb, when hypophosphorylated, binds E2F transcription factors and keeps S phase genes off. Growth signals induce cyclin D, and cyclin D with CDK4 or CDK6 (then cyclin E with CDK2) phosphorylates Rb, which releases E2F and commits the cell to DNA replication. p53 responds to DNA damage: kinases such as ATM stabilize it by freeing it from its ubiquitin ligase MDM2, and p53 then induces p21, a CDK inhibitor that keeps Rb hypophosphorylated and arrests the cycle, as well as GADD45 for repair and BAX for apoptosis if the damage is beyond repair."
+        },
+        {
+          "type": "p",
+          "text": "HPV infects basal keratinocytes through microabrasions, most often at the cervical transformation zone, where immature metaplastic squamous cells are especially susceptible. The virus needs the host DNA synthesis machinery but infects cells that would normally stop dividing as they differentiate, so its early proteins E6 and E7 force them back into S phase. High-risk types (most importantly 16 and 18, together responsible for about 70% of cervical carcinomas) make E6 and E7 that bind their targets with high affinity; low-risk types 6 and 11, which cause condylomata, bind weakly."
+        },
+        {
+          "type": "table",
+          "title": "High-risk HPV oncoproteins",
+          "cols": [
+            "Oncoprotein",
+            "Host target",
+            "Molecular action",
+            "Consequence"
+          ],
+          "rows": [
+            [
+              "E6",
+              "p53",
+              "Recruits the ubiquitin ligase E6AP, tagging p53 for proteasomal degradation",
+              "No G1 arrest or apoptosis after DNA damage"
+            ],
+            [
+              "E6",
+              "Telomerase (TERT)",
+              "Activates TERT expression",
+              "Cells avoid replicative senescence"
+            ],
+            [
+              "E7",
+              "Hypophosphorylated Rb (and p107, p130)",
+              "Binds Rb, displacing E2F, and promotes Rb degradation",
+              "E2F drives S phase entry without growth signals"
+            ],
+            [
+              "E7",
+              "p21 and p27",
+              "Inactivates these CDK inhibitors",
+              "Cyclin-CDK activity cannot be braked"
+            ]
+          ],
+          "caption": "E6 pairs with p53 and E7 with Rb; together they remove both arms of the G1 checkpoint."
+        },
+        {
+          "type": "p",
+          "text": "In a productive infection, the viral genome persists as a circular episome and the viral E2 protein represses transcription of E6 and E7, so expression stays modest and the lesion is usually a low-grade squamous intraepithelial lesion (CIN 1); most such infections are cleared by the immune system within one to two years. In high-grade lesions and carcinomas the viral DNA has often integrated into a host chromosome, and integration usually breaks the E2 gene. Without E2, E6 and E7 are overexpressed. The cell now proliferates without growth signals and continues dividing despite DNA damage, so mutations accumulate with each cycle. Persistent infection, smoking, and immunosuppression such as HIV infection raise the odds of progression."
+        },
+        {
+          "type": "flow",
+          "title": "From high-risk HPV infection to invasive carcinoma",
+          "steps": [
+            "HPV 16 or 18 infects transformation zone basal cells",
+            "Persistent infection escapes immune clearance",
+            "Viral DNA integrates, disrupting E2",
+            "E6 and E7 are overexpressed",
+            "p53 degraded; Rb inactivated, E2F released",
+            "Mutations accumulate: CIN 2 to CIN 3",
+            "Invasion through basement membrane: squamous cell carcinoma"
+          ],
+          "caption": "Viral oncoproteins start the process; host mutations acquired over years complete it."
+        },
+        {
+          "type": "p",
+          "text": "Two diagnostic findings follow from this mechanism. Koilocytes, squamous cells with a wrinkled nucleus and a clear perinuclear halo, mark productive viral replication in the upper epithelium. Strong diffuse staining for p16, a CDK4/6 inhibitor, marks transformation: with Rb inactivated, the negative feedback that normally limits p16 is lost, so p16 accumulates even though it can no longer stop the cycle. HPV 18 is relatively more common in endocervical adenocarcinoma, and the same E6 and E7 mechanism underlies HPV-related vulvar, anal, penile, and oropharyngeal carcinomas."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-REPR-10-01-C04",
+      "obj": "RE-10.4",
+      "title": "BRCA1, BRCA2, and hereditary breast and ovarian cancer",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A double-strand break is the most dangerous DNA lesion because neither strand is left to serve as a template. After replication, during S and G2 phases, the cell can repair it accurately by homologous recombination, which copies the missing sequence from the intact sister chromatid. BRCA1 acts early: it helps resect the broken ends to expose single-stranded DNA and coordinates checkpoint signaling. Through the bridging protein PALB2 it recruits BRCA2, which loads the recombinase RAD51 onto the single strands so they can invade the sister chromatid and copy it. Without either protein the cell falls back on nonhomologous end joining and other error-prone pathways that delete or rearrange sequence, so the genome becomes progressively unstable."
+        },
+        {
+          "type": "p",
+          "text": "BRCA1 (chromosome 17q) and BRCA2 (chromosome 13q) are tumor suppressor genes. Hereditary breast and ovarian cancer follows an autosomal dominant pattern in families, yet the defect is recessive at the level of the cell: one inherited mutant allele is present in every cell, and a tumor arises only after the second allele is lost in a breast or ovarian epithelial cell, usually by deletion that produces loss of heterozygosity. Because a second hit is likely but not certain, penetrance is high but incomplete, cancers appear at younger ages, and they are more often bilateral or multiple. Certain founder mutations are frequent in Ashkenazi Jewish families."
+        },
+        {
+          "type": "flow",
+          "title": "BRCA two-hit tumorigenesis",
+          "steps": [
+            "Germline BRCA1 or BRCA2 mutation in every cell",
+            "Second allele lost in one epithelial cell",
+            "Homologous recombination fails",
+            "Double-strand breaks repaired by error-prone joining",
+            "Chromosomal instability; TP53 mutation is common",
+            "Clonal expansion to carcinoma"
+          ],
+          "caption": "Inheritance is dominant in the family, but tumor formation requires loss of both alleles in a cell."
+        },
+        {
+          "type": "table",
+          "title": "BRCA1 versus BRCA2",
+          "cols": [
+            "Feature",
+            "BRCA1",
+            "BRCA2"
+          ],
+          "rows": [
+            [
+              "Chromosome",
+              "17q",
+              "13q"
+            ],
+            [
+              "Role in repair",
+              "End resection, checkpoint signaling, recruits BRCA2 via PALB2",
+              "Loads RAD51 onto single-stranded DNA"
+            ],
+            [
+              "Female breast cancer, lifetime",
+              "About 60 to 70%",
+              "About 55 to 70%"
+            ],
+            [
+              "Ovarian (tubo-ovarian) cancer, lifetime",
+              "About 40%",
+              "About 15 to 20%"
+            ],
+            [
+              "Typical breast tumor type",
+              "Triple-negative, basal-like, high grade",
+              "Usually ER-positive, luminal"
+            ],
+            [
+              "Male breast cancer",
+              "Slightly increased",
+              "Clearly increased, about 6 to 7% lifetime"
+            ],
+            [
+              "Other cancers",
+              "Prostate (modest), pancreatic",
+              "Prostate (often aggressive), pancreatic, melanoma"
+            ],
+            [
+              "Biallelic germline mutation",
+              "Usually lethal in the embryo; very rare survivors",
+              "Fanconi anemia (FANCD1)"
+            ]
+          ],
+          "caption": "Risk figures are approximate cumulative risks to about age 80 and differ between studies; general population breast cancer risk is about 12%."
+        },
+        {
+          "type": "p",
+          "text": "The ovarian cancer in BRCA carriers is almost always high-grade serous carcinoma, and many of these tumors begin in the fimbriated end of the fallopian tube as serous tubal intraepithelial carcinoma before seeding the ovary and peritoneum. TP53 mutation is nearly universal in these tumors. BRCA2 is the gene to suspect when a family includes male breast cancer, prostate cancer, or pancreatic cancer. Why loss of a ubiquitous repair gene targets the breast and tube so selectively is not fully understood; hormonal effects on proliferating epithelium are a leading explanation."
+        },
+        {
+          "type": "p",
+          "text": "The same repair defect makes BRCA-deficient tumor cells unusually dependent on backup pathways. Inhibiting poly(ADP-ribose) polymerase (PARP), which repairs single-strand breaks, lets those breaks become double-strand breaks at replication forks; normal cells repair them by homologous recombination, but BRCA-deficient cells cannot and die. This is synthetic lethality, and it illustrates that loss of a repair pathway is both the cause and a vulnerability of the tumor. It also explains why these tumors are sensitive to DNA cross-linking agents such as platinum compounds."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-REPR-10-01-C05",
+      "obj": "RE-10.5",
+      "title": "Lynch syndrome: mismatch repair, microsatellite instability, and gynecologic cancer",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "DNA polymerase occasionally inserts a wrong base or, in repetitive sequence, slips so that the new strand gains or loses a repeat unit. Mismatch repair corrects these errors just behind the replication fork. The MSH2 and MSH6 heterodimer recognizes base mismatches and small loops (MSH2 with MSH3 handles larger loops), the MLH1 and PMS2 heterodimer is recruited and nicks the newly synthesized strand, and the error is excised and resynthesized using the parental strand as template. Without this system the mutation rate rises by roughly a hundredfold to a thousandfold."
+        },
+        {
+          "type": "p",
+          "text": "Lynch syndrome (hereditary nonpolyposis colorectal cancer) is caused by a germline mutation in MLH1, MSH2, MSH6, or PMS2, or by a deletion in EPCAM that silences the neighboring MSH2 gene. It affects roughly 1 in 300 people and is inherited as autosomal dominant. As with BRCA, every cell carries one defective allele and a tumor arises after the second allele is lost. The tumor then accumulates mutations in microsatellites, short tandem repeats of 1 to 6 base pairs scattered through the genome, and the lengths of these repeats vary in tumor DNA compared with normal tissue. This is microsatellite instability (MSI). When a microsatellite lies in the coding sequence of a growth-regulating gene, such as the TGF-beta receptor type II or BAX, a frameshift inactivates it, which drives the tumor forward."
+        },
+        {
+          "type": "flow",
+          "title": "Mismatch repair loss to carcinoma",
+          "steps": [
+            "Germline mutation in one mismatch repair allele",
+            "Second allele lost in an epithelial cell",
+            "Replication slippage errors go uncorrected",
+            "Microsatellite lengths change: MSI-high",
+            "Frameshifts inactivate genes such as TGFBR2 and BAX",
+            "Accelerated progression to carcinoma"
+          ],
+          "caption": "Adenomas in Lynch syndrome progress to carcinoma faster than sporadic adenomas because mutations accumulate rapidly."
+        },
+        {
+          "type": "p",
+          "text": "In women with Lynch syndrome, the lifetime risk of endometrial carcinoma (roughly 40 to 60% for MLH1 and MSH2 carriers) equals or exceeds the risk of colorectal carcinoma, and endometrial cancer is often the first, or sentinel, cancer. These are usually endometrioid carcinomas, sometimes arising in the lower uterine segment. Ovarian cancer risk rises to roughly 10%, with endometrioid and clear cell types more common than in BRCA carriers. Colorectal cancers arise younger (often in the 40s), favor the right colon, and carry dense tumor-infiltrating lymphocytes because frameshift mutations generate abnormal peptides the immune system recognizes. Stomach, small bowel, upper urinary tract, and biliary tract are also at risk, and sebaceous skin tumors define the Muir-Torre variant."
+        },
+        {
+          "type": "example",
+          "title": "Reading mismatch repair immunohistochemistry",
+          "text": "An endometrial carcinoma from a 44-year-old woman shows MSI and loss of MLH1 and PMS2 staining, with MSH2 and MSH6 retained. PMS2 is unstable without its partner MLH1, so paired loss points to MLH1 as the primary defect; isolated PMS2 loss would point to PMS2 itself. By the same logic, MSH2 loss carries MSH6 with it. MLH1 loss, however, has two causes. In Lynch syndrome it reflects a germline mutation, but many sporadic MSI tumors silence MLH1 by somatic hypermethylation of its promoter. Testing the tumor for MLH1 promoter methylation (and BRAF V600E in colon tumors) separates the two: methylation favors a sporadic tumor, while its absence calls for germline testing."
+        },
+        {
+          "type": "p",
+          "text": "The distinction from BRCA syndromes is in the repair pathway and the signature it leaves. BRCA loss produces gross chromosomal rearrangements and copy number changes (chromosomal instability), whereas mismatch repair loss produces many small insertions, deletions, and point mutations with a near-normal karyotype."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-REPR-10-01-C06",
+      "obj": "RE-10.6",
+      "title": "Receptor-based classification of breast carcinoma and the BRCA1 link",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Breast epithelium has two cell layers: inner luminal cells, many of which express estrogen receptor (ER) and progesterone receptor (PR), and outer basal or myoepithelial cells, which express basal keratins such as CK5/6 and lack hormone receptors. Gene expression profiling sorts invasive carcinomas into molecular groups that resemble these cell types. In practice, immunohistochemistry for ER, PR, HER2, and the proliferation marker Ki-67 approximates the groups, which matters because each group depends on a different growth pathway and behaves differently."
+        },
+        {
+          "type": "p",
+          "text": "ER is a nuclear transcription factor; estrogen binding drives expression of genes for proliferation, including PR itself, which is why a PR-positive, ER-negative tumor is uncommon. HER2 is a receptor tyrosine kinase of the epidermal growth factor receptor family, encoded by ERBB2 on chromosome 17q. In HER2-positive tumors the gene is amplified, so the cell makes many copies of the receptor, which dimerize without ligand and signal continuously through the RAS-MAPK and PI3K-AKT pathways. HER2 status is therefore read as protein overexpression by immunohistochemistry or gene amplification by in situ hybridization."
+        },
+        {
+          "type": "table",
+          "title": "Molecular groups of invasive breast carcinoma",
+          "cols": [
+            "Group",
+            "Receptor profile",
+            "Biology",
+            "Approximate share and behavior"
+          ],
+          "rows": [
+            [
+              "Luminal A",
+              "ER+, PR+, HER2 negative, low Ki-67",
+              "Low grade, estrogen-driven",
+              "About 40 to 55%; best prognosis, late recurrences possible"
+            ],
+            [
+              "Luminal B",
+              "ER+, PR lower or negative, high Ki-67, HER2 negative or positive",
+              "Higher grade, estrogen-driven but more proliferative",
+              "About 15 to 20%; intermediate prognosis"
+            ],
+            [
+              "HER2-enriched",
+              "ER and PR negative, HER2 amplified",
+              "Driven by constant HER2 signaling",
+              "About 10 to 15%; high grade, aggressive biology"
+            ],
+            [
+              "Basal-like",
+              "ER, PR, and HER2 negative (triple-negative); CK5/6 and EGFR often positive",
+              "High grade, TP53 mutated, genomic instability",
+              "About 10 to 15%; younger women, early recurrence"
+            ]
+          ],
+          "caption": "Triple-negative and basal-like overlap heavily but are not identical: most basal-like tumors are triple-negative, and most triple-negative tumors are basal-like."
+        },
+        {
+          "type": "p",
+          "text": "About 70 to 80% of breast cancers in BRCA1 carriers are triple-negative and basal-like, whereas BRCA2 tumors are usually ER-positive and resemble sporadic luminal cancers. The leading explanation is that BRCA1 is needed for luminal progenitor cells to differentiate into mature ER-positive luminal cells. When BRCA1 is lost, progenitors accumulate, and the resulting tumors keep an undifferentiated, ER-negative program with basal features. Combined with the loss of homologous recombination and nearly universal TP53 mutation, this produces high-grade tumors with large, pleomorphic nuclei, many mitoses, pushing borders, and frequent lymphocytic infiltrates. Triple-negative tumors are more common in younger women and in women of African ancestry, recur early (mostly within about 3 to 5 years), and spread to viscera and brain more than to bone."
+        },
+        {
+          "type": "p",
+          "text": "Receptor status explains why prognosis differs. ER-positive tumors stay dependent on estrogen signaling, and HER2-positive tumors on HER2 signaling, so each has an identifiable driver pathway. Triple-negative tumors lack both, and because so many BRCA1 cancers are triple-negative, a triple-negative breast cancer, especially in a young woman, is a recognized reason to look for a germline BRCA1 mutation."
+        },
+        {
+          "type": "stop",
+          "predict": "A 36-year-old woman has a high-grade breast carcinoma that is ER, PR, and HER2 negative, and her mother had high-grade serous ovarian cancer. Which gene is most likely mutated, and what repair process has failed?",
+          "explain": "BRCA1. Homologous recombination repair of double-strand breaks has failed, and loss of BRCA1 also blocks luminal differentiation, giving a basal-like tumor.",
+          "check": "Compare with the BRCA1 versus BRCA2 table and the paragraph on the BRCA1 link."
+        }
+      ]
+    }
+  ],
+  "integration": [
+    {
+      "type": "p",
+      "text": "Every disorder in this chapter is the failure of a control system that normally protects genetic information. Meiotic segregation protects chromosome number, X inactivation protects gene dosage, the p53 and Rb checkpoints protect the cell cycle, and homologous recombination and mismatch repair protect sequence. Anatomy and endocrinology show the consequences at the organ level (streak ovaries, hyalinized tubules, and high gonadotropins), microbiology shows how a virus disables the checkpoints from outside, and pathology shows that inherited repair defects leave recognizable signatures: chromosomal instability with BRCA loss and microsatellite instability with mismatch repair loss."
+    },
+    {
+      "type": "p",
+      "text": "The limits matter for reasoning. A peripheral blood karyotype can miss tissue mosaicism. Not all MSI or MLH1 loss is inherited, and not all triple-negative cancers carry BRCA1 mutations; most do not. Risk figures for hereditary syndromes vary with the specific gene, the study population, and the age to which risk is calculated, so exam answers depend on the direction and relative size of risk rather than an exact percentage."
+    }
+  ],
+  "summary": [
+    "Meiosis I nondisjunction sends both homologs into one gamete; meiosis II nondisjunction sends both sister chromatids. An XY sperm arises only from paternal meiosis I.",
+    "47,XXY causes primary hypogonadism (low testosterone and inhibin B, high FSH and LH); 45,X causes streak ovaries and is usually due to loss of the paternal sex chromosome, unrelated to maternal age.",
+    "Errors after fertilization produce mosaicism, which usually gives a milder phenotype; Y material in 45,X/46,XY gonads carries gonadoblastoma risk.",
+    "XIST RNA coats the X it is transcribed from and silences it in cis; Barr bodies equal the number of X chromosomes minus one.",
+    "Genes that escape inactivation, including pseudoautosomal SHOX, explain why sex chromosome aneuploidy still causes a phenotype.",
+    "High-risk HPV E6 targets p53 for ubiquitin-mediated degradation and E7 binds Rb to release E2F; integration that disrupts E2 raises their expression.",
+    "BRCA1 and BRCA2 are autosomal dominant tumor suppressors required for homologous recombination; tumors need loss of the second allele.",
+    "BRCA1 tumors are typically triple-negative and basal-like; BRCA2 adds male breast, prostate, and pancreatic cancer.",
+    "Lynch syndrome is germline mismatch repair deficiency with microsatellite instability, and endometrial cancer risk equals or exceeds colorectal risk in women.",
+    "Breast carcinomas group by ER, PR, and HER2 status; HER2 positivity reflects ERBB2 gene amplification."
+  ],
+  "sources": [
+    {
+      "book": "Robbins and Cotran Pathologic Basis of Disease",
+      "where": "Genetic and Pediatric Diseases, cytogenetic disorders involving sex chromosomes"
+    },
+    {
+      "book": "Robbins and Cotran Pathologic Basis of Disease",
+      "where": "Neoplasia, oncogenic DNA viruses and defects in DNA repair"
+    },
+    {
+      "book": "Robbins and Cotran Pathologic Basis of Disease",
+      "where": "The Female Genital Tract and The Breast"
+    },
+    {
+      "book": "Lippincott Illustrated Reviews: Biochemistry",
+      "where": "DNA structure, replication, and repair"
+    },
+    {
+      "book": "Langman's Medical Embryology",
+      "where": "Gametogenesis, chromosomal abnormalities"
+    },
+    {
+      "book": "Jawetz, Melnick, and Adelberg's Medical Microbiology",
+      "where": "Papillomaviruses and tumor viruses"
+    }
+  ],
+  "verify": [
+    "Incidence figures (Klinefelter about 1 in 500 to 1,000 males; Turner about 1 in 2,500 live-born females) and the share of Klinefelter cases of paternal origin (about half) vary between sources.",
+    "Lifetime cancer risks for BRCA1, BRCA2, and Lynch syndrome genes are given as approximate ranges; published estimates vary with gene, population, and age cutoff. Confirm any figures NABNE expects.",
+    "The share of breast cancers in each molecular group and the 70 to 80% triple-negative rate in BRCA1 carriers are approximate and differ between series.",
+    "The fraction of X-linked genes escaping inactivation is quoted from about 15% to 25% when variable escapees are included.",
+    "Current ASCO/CAP thresholds for ER positivity and HER2 scoring (including the newer HER2-low category) change over time; confirm the definitions NABNE uses.",
+    "The age threshold for testing triple-negative breast cancer for BRCA mutations follows current guidelines and may change.",
+    "Confirm whether NABNE Part I expects the eponyms Muir-Torre, Lynch, and Barr body or only the descriptive terms, and whether EPCAM deletion is tested.",
+    "Requested new diagram names for a future revision: meiotic-nondisjunction (meiosis I versus meiosis II errors with resulting gametes) and g1-s-checkpoint (cyclin D-CDK4/6, Rb, E2F, p53, p21 with HPV E6 and E7 sites of action)."
+  ]
+}

@@ -1,0 +1,16 @@
+# Review log: NE-20-D (notes Phase 1)
+- C02: mononeuritis multiplex mechanism softened to "most often" vasculitis of the vasa nervorum (diabetes and leprosy also cause it).
+- C03: polyol flow caption reworded; named lens and retina as the other aldose reductase tissues.
+- C03: syndrome table caption corrected; removed overstated claim that autonomic and sensory loss "usually begin together"; now explains length dependence via vagus and distal sudomotor fibers.
+- C05: Korsakoff circuit made precise; dorsomedial thalamus is not part of the Papez circuit, so text now says diencephalic memory circuits including the Papez circuit.
+- C06: corrected "commonest inherited neuromuscular disorder" to "commonest inherited peripheral neuropathy".
+- C07: corrected high-risk starting sodium from 120 to 105 mEq/L or less (expert panel criteria); added that ODS is rare above about 120 mEq/L.
+- C07: removed unsupported "about 10%" extrapontine figure (series range about 10% to half); now "extrapontine lesions are common, with or without pontine involvement".
+- verify: extrapontine item updated to state the chapter gives no figure.
+- Integration: thiamine localization sentence made precise (periventricular regions with highest thiamine-dependent oxidative turnover).
+- Length: trimmed C02 opening paragraph, C04 B12 table caption (store point already in text), C01 "therefore", and integration lead sentence so total stays at or below original (4704 words).
+- Checked and confirmed without change: ammonia sources and zonation, NH3/NH4+ pKa about 9.2, hypokalemia ammoniagenesis example, axonal vs demyelinating conduction findings, leprosy laminin binding, AGE/RAGE/PKC, CN III pupil sparing anatomy, B12 absorption steps and causes, MMA/homocysteine biochemistry, SCD tracts, TPP enzymes, Wernicke lesion sites, CMT1A PMP22 17p12 duplication, HNPP deletion, CMT table genes, osmolyte adaptation timing, biphasic course and locked-in anatomy.
+- Scope: no treatment content found beyond mechanism-level mentions (benzodiazepines as precipitant, chemotherapy agents as neurotoxins, folate masking).
+- STOP prompts (3): answerable from their sections; check pointers correct.
+- Sources: all six from allowed books with real chapter titles or plain section names.
+- Checker: 0 errors, 0 warnings.

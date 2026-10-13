@@ -1,0 +1,583 @@
+{
+  "unit": "NE-15",
+  "chapter_id": "NPLEX-P1-NEUR-15",
+  "topic_id": "NPLEX-P1-NEUR-15-01",
+  "title": "Neurotransmitter Synthesis and Breakdown",
+  "subject": "Nervous System (NEUR)",
+  "version": "1.0",
+  "author": "Dr. Sharilyn Rennie",
+  "brand": "MedMasters Collaborative",
+  "overview": {
+    "intro": "This chapter follows the major small-molecule neurotransmitters from precursor to breakdown product: the catecholamines, serotonin and melatonin, glutamate, GABA, glycine, and acetylcholine. For each one you will learn the rate-limiting enzyme and its cofactor, where in the cell each step happens, how signaling ends, and which urinary or plasma products reveal disease. The chapter closes by placing each transmitter in its source nucleus and explaining how losing those neurons produces Parkinson disease, Huntington disease, and the cholinergic deficit of Alzheimer disease. Board questions usually give a deficiency, a tumor, a lab result, or a lesion and ask you to work back to the enzyme, cofactor, or nucleus responsible.",
+    "prerequisites": [
+      "Amino acid structure, transamination, and the role of pyridoxal phosphate (vitamin B6)",
+      "Synaptic vesicle release, ionotropic and metabotropic receptors, EPSPs and IPSPs (NE-13)",
+      "Phenylalanine and tyrosine metabolism, including phenylketonuria (NE-14)",
+      "Adrenal gland structure and blood supply (EN-3, EN-4)",
+      "Basal ganglia anatomy and brainstem landmarks (NE-3)"
+    ],
+    "connections": [
+      {
+        "to": "Autonomic nervous system (NE-9)",
+        "how": "Sympathetic neurons release norepinephrine, the adrenal medulla releases epinephrine, and all preganglionic neurons release acetylcholine, so these pathways set autonomic tone."
+      },
+      {
+        "to": "Endocrine hormone synthesis (EN-8, EN-12-G)",
+        "how": "Cortisol induces PNMT in the adrenal medulla, and pheochromocytoma and carcinoid tumors are identified by the catecholamine and serotonin products described here."
+      },
+      {
+        "to": "Neurological biochemistry and nutrition (NE-14, NE-20-D)",
+        "how": "Tetrahydrobiopterin, pyridoxal phosphate, ascorbate, copper, and thiamine deficiencies each disable a specific synthetic step."
+      },
+      {
+        "to": "Neurological vascular disease (NE-20-A)",
+        "how": "Glutamate excitotoxicity explains why neurons die within minutes of ischemia and why some neuron types die first."
+      },
+      {
+        "to": "Degenerative diseases and neoplasms (NE-20-B, NE-20-F)",
+        "how": "Parkinson, Huntington, and Alzheimer disease are defined by the loss of specific transmitter-producing neurons, and neuroblastoma is diagnosed partly by catecholamine metabolites."
+      }
+    ],
+    "terms": [
+      {
+        "term": "Catecholamine",
+        "def": "A monoamine with a catechol ring (a benzene ring carrying two adjacent hydroxyl groups) and an amine side chain: dopamine, norepinephrine, and epinephrine."
+      },
+      {
+        "term": "Tetrahydrobiopterin (BH4)",
+        "def": "The reduced pterin cofactor that supplies electrons for the aromatic amino acid hydroxylases (phenylalanine, tyrosine, and tryptophan hydroxylase)."
+      },
+      {
+        "term": "Pyridoxal phosphate (PLP)",
+        "def": "The active form of vitamin B6, a cofactor for amino acid decarboxylases and transaminases, including the enzymes that make dopamine, serotonin, and GABA."
+      },
+      {
+        "term": "Aromatic L-amino acid decarboxylase (AADC)",
+        "def": "The PLP-dependent enzyme, also called DOPA decarboxylase, that converts L-DOPA to dopamine and 5-hydroxytryptophan to serotonin."
+      },
+      {
+        "term": "Monoamine oxidase (MAO)",
+        "def": "A flavin enzyme of the outer mitochondrial membrane that removes the amine group of monoamines by oxidative deamination."
+      },
+      {
+        "term": "Catechol-O-methyltransferase (COMT)",
+        "def": "A cytosolic enzyme that transfers a methyl group from S-adenosylmethionine to the 3-hydroxyl of a catechol ring."
+      },
+      {
+        "term": "VMAT2",
+        "def": "The vesicular monoamine transporter that loads cytosolic monoamines into vesicles in exchange for protons."
+      },
+      {
+        "term": "Excitotoxicity",
+        "def": "Neuronal death caused by excessive glutamate receptor activation, mainly through NMDA receptor Ca2+ entry."
+      },
+      {
+        "term": "Glutamate-glutamine cycle",
+        "def": "The shuttle in which astrocytes take up synaptic glutamate, convert it to glutamine, and return glutamine to neurons to be made back into glutamate."
+      },
+      {
+        "term": "Nucleus basalis of Meynert",
+        "def": "A group of large cholinergic neurons in the basal forebrain (substantia innominata) that supplies most of the acetylcholine in the neocortex."
+      },
+      {
+        "term": "Locus coeruleus",
+        "def": "A pigmented nucleus in the dorsal rostral pons that is the main source of norepinephrine in the brain."
+      },
+      {
+        "term": "Medium spiny neuron",
+        "def": "The GABAergic projection neuron of the striatum, the cell type lost first in Huntington disease."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "comp": "NPLEX-P1-NEUR-15-01-C01",
+      "obj": "NE-15.1",
+      "title": "Catecholamine synthesis from tyrosine",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Dopamine, norepinephrine, and epinephrine are made by one pathway that starts with tyrosine. Each cell type runs the pathway only as far as its enzymes allow: dopaminergic neurons lack dopamine beta-hydroxylase and stop at dopamine, sympathetic postganglionic neurons and the locus coeruleus lack PNMT and stop at norepinephrine, and adrenal medullary chromaffin cells carry it through to epinephrine."
+        },
+        {
+          "type": "flow",
+          "title": "Catecholamine synthesis",
+          "steps": [
+            "Phenylalanine hydroxylase (liver, BH4) makes tyrosine from phenylalanine",
+            "Tyrosine hydroxylase (BH4, Fe2+, O2) makes L-DOPA: rate limiting",
+            "AADC (pyridoxal phosphate) removes CO2 to make dopamine",
+            "VMAT2 loads dopamine into vesicles",
+            "Dopamine beta-hydroxylase (copper, ascorbate) makes norepinephrine in vesicles",
+            "PNMT (SAM, induced by cortisol) makes epinephrine in cytosol"
+          ],
+          "caption": "Each step changes one group on the tyrosine skeleton. Where the enzyme sits (cytosol or vesicle) decides the order in which the cell handles the product."
+        },
+        {
+          "type": "p",
+          "text": "Tyrosine comes from the diet or from phenylalanine through hepatic phenylalanine hydroxylase. Tyrosine hydroxylase, a cytosolic enzyme, adds a second ring hydroxyl to form L-DOPA, using O2, ferrous iron, and tetrahydrobiopterin (BH4) as the electron donor. It is the rate-limiting step for three reasons. It is normally close to saturated with tyrosine, so eating more tyrosine adds little. Catecholamines inhibit it by competing with BH4, so a full terminal slows its own production. Neural activity speeds it within minutes through phosphorylation by protein kinase A and other kinases, and sustained stress induces more enzyme over hours to days. Aromatic L-amino acid decarboxylase (AADC) then removes the carboxyl group so quickly that L-DOPA barely accumulates."
+        },
+        {
+          "type": "p",
+          "text": "The last two steps depend on location. Dopamine beta-hydroxylase sits inside synaptic and chromaffin vesicles, so dopamine must first be pumped in by VMAT2, and norepinephrine is made inside the vesicle. The enzyme contains copper and uses ascorbate (vitamin C) to supply electrons as it hydroxylates the beta carbon of the side chain. It is released with norepinephrine during exocytosis, and its activity falls when copper transport fails, as in Menkes disease."
+        },
+        {
+          "type": "p",
+          "text": "Phenylethanolamine N-methyltransferase (PNMT) is cytosolic, so norepinephrine must leak out of the vesicle, accept a methyl group from S-adenosylmethionine (SAM), and be repackaged. Chromaffin cells have high PNMT because blood leaving the adrenal cortex drains through the medulla before reaching the systemic circulation, bathing the medulla in cortisol at concentrations far above those in systemic plasma. Cortisol induces PNMT, so about 80% of adrenal medullary output is epinephrine. Paragangliomas outside the adrenal gland lack this cortisol supply and secrete mainly norepinephrine."
+        },
+        {
+          "type": "table",
+          "title": "Enzymes of catecholamine synthesis",
+          "cols": [
+            "Enzyme",
+            "Cofactors",
+            "Location",
+            "What a defect or deficiency does"
+          ],
+          "rows": [
+            [
+              "Tyrosine hydroxylase",
+              "BH4, Fe2+, O2",
+              "Cytosol",
+              "BH4 deficiency lowers dopamine and norepinephrine (and serotonin)"
+            ],
+            [
+              "AADC (DOPA decarboxylase)",
+              "Pyridoxal phosphate",
+              "Cytosol",
+              "AADC deficiency lowers dopamine and serotonin together"
+            ],
+            [
+              "Dopamine beta-hydroxylase",
+              "Copper, ascorbate",
+              "Vesicle",
+              "Norepinephrine and epinephrine nearly absent; dopamine high"
+            ],
+            [
+              "PNMT",
+              "SAM",
+              "Cytosol, adrenal medulla",
+              "Low epinephrine when cortisol is low or medulla is lost"
+            ]
+          ],
+          "caption": "Ring hydroxylases need BH4, decarboxylases need B6, side-chain hydroxylation needs copper and vitamin C, and methylation needs SAM."
+        },
+        {
+          "type": "stop",
+          "predict": "In congenital dopamine beta-hydroxylase deficiency, what happens to plasma dopamine and norepinephrine, and to blood pressure on standing?",
+          "explain": "Norepinephrine and epinephrine are nearly undetectable and plasma dopamine is high, because sympathetic vesicles fill with dopamine that cannot be converted. Sympathetic nerves then release dopamine in place of norepinephrine, and dopamine is a poor alpha-1 agonist at these concentrations, so the baroreflex cannot raise vascular resistance on standing and severe orthostatic hypotension results.",
+          "check": "The vesicular location of dopamine beta-hydroxylase and the enzyme table."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-NEUR-15-01-C02",
+      "obj": "NE-15.2",
+      "title": "Catecholamine breakdown and tumor markers",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Most released catecholamine is removed by reuptake, not by enzymes. The Na+-coupled norepinephrine transporter (NET) and dopamine transporter (DAT) return transmitter to the terminal, where VMAT2 repackages much of it. Blocking reuptake, as cocaine does, lengthens the synaptic signal. Transmitter that escapes reuptake, leaks from vesicles, or is secreted into blood is degraded by two enzymes."
+        },
+        {
+          "type": "p",
+          "text": "Monoamine oxidase (MAO) is a flavin enzyme on the outer mitochondrial membrane. It removes the amine group by oxidative deamination, producing an aldehyde that aldehyde dehydrogenase oxidizes to an acid. MAO-A prefers norepinephrine and serotonin and is abundant in gut and liver, where it destroys dietary amines such as tyramine. MAO-B prefers dopamine and is concentrated in astrocytes. Catechol-O-methyltransferase (COMT) is cytosolic and abundant in liver, kidney, and adrenal chromaffin cells. It transfers a methyl group from SAM to the 3-hydroxyl of the ring. The two enzymes can act in either order, and both routes converge on the same end products."
+        },
+        {
+          "type": "table",
+          "title": "Catecholamine breakdown products",
+          "cols": [
+            "Parent",
+            "After COMT alone",
+            "After MAO and COMT",
+            "Clinical use"
+          ],
+          "rows": [
+            [
+              "Dopamine",
+              "3-methoxytyramine",
+              "Homovanillic acid (HVA)",
+              "Urine HVA high in neuroblastoma"
+            ],
+            [
+              "Norepinephrine",
+              "Normetanephrine",
+              "Vanillylmandelic acid (VMA); MHPG in brain",
+              "Urine VMA high in neuroblastoma"
+            ],
+            [
+              "Epinephrine",
+              "Metanephrine",
+              "VMA",
+              "Plasma or urine metanephrines high in pheochromocytoma"
+            ]
+          ],
+          "caption": "HVA comes from dopamine; VMA and the metanephrines come from norepinephrine and epinephrine. In the CNS, norepinephrine is mainly reduced rather than oxidized after deamination, giving MHPG."
+        },
+        {
+          "type": "p",
+          "text": "These products become tumor markers because tumors of neural crest origin make catecholamines faster than they store them. Neuroblastoma is an embryonal tumor of sympathetic neuroblasts, usually in a child under 5 years, arising in the adrenal medulla or along the paraspinal sympathetic chain. Its immature cells make mostly dopamine and norepinephrine, which are metabolized inside the tumor and liver to HVA and VMA, so urinary HVA, VMA, or both are raised in about 90% of cases. Because much of the transmitter is degraded before it reaches receptors, hypertension is less prominent than in pheochromocytoma."
+        },
+        {
+          "type": "p",
+          "text": "Pheochromocytoma is a tumor of mature chromaffin cells, usually in adults. Release is episodic, so plasma catecholamines can be normal between attacks of headache, sweating, palpitations, and hypertension. The tumor cells contain COMT, however, and convert leaking catecholamine to metanephrines continuously, which is why plasma free or urinary fractionated metanephrines are the most sensitive tests."
+        },
+        {
+          "type": "example",
+          "title": "Reading the metabolite pattern",
+          "text": "A 3-year-old has an abdominal mass and raised urinary HVA and VMA with normal blood pressure. HVA points to excess dopamine, typical of immature cells that convert little of it onward, and VMA shows norepinephrine is also being made and degraded. That pattern fits neuroblastoma. A 45-year-old with spells of headache, sweating, and blood pressure of 210/120 mm Hg during spells, normal plasma norepinephrine between spells, and high plasma metanephrines fits pheochromocytoma: tumor COMT keeps producing metanephrines even when release pauses. If metanephrine (from epinephrine) dominates, the tumor is likely adrenal, because only cortisol-exposed tissue makes much PNMT; a pure normetanephrine rise suggests an extra-adrenal paraganglioma."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-NEUR-15-01-C03",
+      "obj": "NE-15.3",
+      "title": "Serotonin synthesis, melatonin, and 5-HIAA",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Serotonin (5-hydroxytryptamine, 5-HT) is an indoleamine made from the essential amino acid tryptophan in two steps that mirror catecholamine synthesis. Tryptophan hydroxylase uses BH4, O2, and Fe2+ to hydroxylate the 5 position of the indole ring, forming 5-hydroxytryptophan, and the same PLP-dependent AADC then removes the carboxyl group. Tryptophan hydroxylase is rate limiting, but unlike tyrosine hydroxylase it is not saturated at normal brain tryptophan levels, so tryptophan supply does change serotonin output. Tryptophan enters the brain on the large neutral amino acid transporter, competing with leucine, phenylalanine, and tyrosine."
+        },
+        {
+          "type": "p",
+          "text": "Two isoforms divide the work. TPH2 operates in the raphe nuclei, clusters of neurons along the midline of the brainstem that supply all brain serotonin. TPH1 operates in the pineal gland and in enterochromaffin cells of the gut, which hold about 90% of the body's serotonin. Platelets take serotonin up through the serotonin transporter (SERT) but cannot make it. Serotonin in blood does not cross the blood-brain barrier, so the brain relies entirely on its own synthesis."
+        },
+        {
+          "type": "table",
+          "title": "Serotonin synthesis and its two fates",
+          "cols": [
+            "Step",
+            "Enzyme",
+            "Cofactor or donor",
+            "Site"
+          ],
+          "rows": [
+            [
+              "Tryptophan to 5-hydroxytryptophan",
+              "Tryptophan hydroxylase (rate limiting)",
+              "BH4",
+              "Raphe neurons, enterochromaffin cells, pineal"
+            ],
+            [
+              "5-hydroxytryptophan to serotonin",
+              "AADC",
+              "Pyridoxal phosphate",
+              "Same cells"
+            ],
+            [
+              "Serotonin to N-acetylserotonin",
+              "Arylalkylamine N-acetyltransferase (rate limiting for melatonin)",
+              "Acetyl-CoA",
+              "Pineal gland"
+            ],
+            [
+              "N-acetylserotonin to melatonin",
+              "Hydroxyindole-O-methyltransferase",
+              "SAM",
+              "Pineal gland"
+            ],
+            [
+              "Serotonin to 5-HIAA",
+              "MAO-A, then aldehyde dehydrogenase",
+              "FAD, then NAD+",
+              "Neurons, liver, lung"
+            ]
+          ],
+          "caption": "Serotonin is either converted to melatonin in the pineal gland or deaminated to 5-hydroxyindoleacetic acid (5-HIAA), which is excreted in urine."
+        },
+        {
+          "type": "p",
+          "text": "In the pineal gland, the output of serotonin as melatonin follows the light and dark cycle. Melatonin signals night to the body and peaks in the middle of the night. Light suppresses it through a multisynaptic sympathetic pathway, and darkness releases it."
+        },
+        {
+          "type": "flow",
+          "title": "From darkness to melatonin release",
+          "steps": [
+            "Melanopsin retinal ganglion cells sense light",
+            "Retinohypothalamic tract signals the suprachiasmatic nucleus",
+            "In darkness, SCN inhibition of the paraventricular nucleus falls",
+            "Paraventricular nucleus drives the intermediolateral column (upper thoracic cord)",
+            "Superior cervical ganglion releases norepinephrine onto pinealocytes",
+            "Beta-1 receptors raise cAMP and N-acetyltransferase activity",
+            "Melatonin is made and secreted"
+          ],
+          "caption": "Light at night silences this pathway within minutes. Damage to the cervical sympathetic chain abolishes the melatonin rhythm."
+        },
+        {
+          "type": "p",
+          "text": "Synaptic serotonin is removed by SERT and then deaminated by MAO-A to 5-HIAA. Urinary 5-HIAA therefore measures whole-body serotonin turnover. In carcinoid syndrome, a well-differentiated neuroendocrine tumor derived from enterochromaffin cells makes large amounts of serotonin, and 24-hour urinary 5-HIAA rises well above the reference range. Liver MAO normally inactivates serotonin carried in portal blood, so flushing, diarrhea, and bronchospasm usually appear only after liver metastases release serotonin directly into the hepatic veins. Normally about 1% of tryptophan becomes serotonin; a carcinoid tumor can divert most of it, leaving too little for niacin synthesis and producing pellagra."
+        },
+        {
+          "type": "example",
+          "title": "Why one cofactor defect lowers two transmitters",
+          "text": "An infant has high plasma phenylalanine that does not fall on a low-phenylalanine diet, plus hypotonia and seizures. Cerebrospinal fluid HVA and 5-HIAA are low. Phenylalanine hydroxylase itself is normal, so the defect lies in its cofactor, BH4. Tyrosine hydroxylase and tryptophan hydroxylase use the same cofactor, so dopamine and serotonin synthesis fail together, and their breakdown products in CSF fall. The same logic applies to AADC deficiency, except phenylalanine stays normal because AADC acts after the hydroxylases, and CSF L-DOPA and 5-hydroxytryptophan accumulate."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-NEUR-15-01-C04",
+      "obj": "NE-15.4",
+      "title": "Glutamate, GABA, glycine, and excitotoxicity",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Glutamate is the main excitatory transmitter of the CNS. It crosses the blood-brain barrier poorly, so neurons make it from glutamine with glutaminase and by transamination of the Krebs cycle intermediate alpha-ketoglutarate. After release, Na+-dependent excitatory amino acid transporters, mostly on astrocytes, clear it from the cleft. Astrocytes convert it to glutamine with glutamine synthetase, which consumes ATP and ammonia, and return glutamine to neurons. This glutamate-glutamine cycle keeps extracellular glutamate low, which matters because glutamate at high concentration is toxic."
+        },
+        {
+          "type": "p",
+          "text": "GABA (gamma-aminobutyric acid) is made from glutamate in one step: glutamate decarboxylase (GAD) removes the alpha-carboxyl group, using pyridoxal phosphate. The brain's main inhibitory transmitter is therefore built from its main excitatory one. GABA is cleared by GABA transporters and degraded by GABA transaminase, also PLP dependent, to succinic semialdehyde and then succinate, which enters the Krebs cycle. Glycine, made from serine, is the main inhibitory transmitter of the spinal cord and brainstem, used by Renshaw cells and by the interneurons that relax antagonist muscles."
+        },
+        {
+          "type": "table",
+          "title": "Amino acid transmitter receptors",
+          "cols": [
+            "Receptor",
+            "Type",
+            "Ions or effector",
+            "Result"
+          ],
+          "rows": [
+            [
+              "AMPA (glutamate)",
+              "Ionotropic",
+              "Na+ in, K+ out",
+              "Fast EPSP"
+            ],
+            [
+              "NMDA (glutamate)",
+              "Ionotropic",
+              "Na+ and Ca2+; Mg2+ blocks at rest; glycine is co-agonist",
+              "Slow EPSP and Ca2+ signal when cell is already depolarized"
+            ],
+            [
+              "GABA-A",
+              "Ionotropic",
+              "Cl- channel",
+              "Fast IPSP or shunting inhibition"
+            ],
+            [
+              "GABA-B",
+              "Metabotropic (Gi/o)",
+              "Opens K+ channels; closes presynaptic Ca2+ channels",
+              "Slow IPSP; less transmitter release"
+            ],
+            [
+              "Glycine",
+              "Ionotropic",
+              "Cl- channel",
+              "Fast IPSP in cord and brainstem"
+            ]
+          ],
+          "caption": "Excitatory receptors pass cations; fast inhibitory receptors pass Cl-, which holds the membrane near the Cl- equilibrium potential of about -70 mV."
+        },
+        {
+          "type": "p",
+          "text": "The NMDA receptor opens only when glutamate is bound and the membrane is already depolarized, usually by AMPA receptors, enough to expel Mg2+ from the pore. This coincidence detection makes it the trigger for long-term potentiation and learning. GABA-A and glycine receptors inhibit because Cl- entry drives the membrane toward a potential at or below rest. In immature neurons, intracellular Cl- is high, so opening GABA-A channels lets Cl- leave and depolarizes the cell instead. Strychnine blocks glycine receptors, and tetanus toxin blocks GABA and glycine release from spinal inhibitory interneurons; both remove inhibition and cause rigidity and spasms."
+        },
+        {
+          "type": "stop",
+          "predict": "A patient taking isoniazid, or an infant fed a formula lacking vitamin B6, develops seizures. Which transmitter falls, and why?",
+          "explain": "GABA. Isoniazid forms an inactive hydrazone with pyridoxal and depletes PLP, and dietary deficiency removes it directly. Without PLP, glutamate decarboxylase cannot make GABA, inhibition fails, and glutamate-driven excitation is left unopposed.",
+          "check": "The GABA synthesis paragraph and the receptor table."
+        },
+        {
+          "type": "p",
+          "text": "Excitotoxicity is the main reason neurons die within minutes of ischemia. Glutamate uptake is powered by the Na+ gradient, so when ATP runs out the transporters stall or run backward, and depolarized terminals keep releasing glutamate."
+        },
+        {
+          "type": "flow",
+          "title": "Ischemia to excitotoxic neuronal death",
+          "steps": [
+            "Blood flow falls; ATP is depleted",
+            "Na+/K+ ATPase fails; neurons depolarize",
+            "Glutamate release rises; uptake stalls or reverses",
+            "Depolarization removes Mg2+ block; NMDA channels admit Ca2+",
+            "Ca2+ activates calpains, phospholipase A2, endonucleases, nitric oxide synthase",
+            "Free radicals and peroxynitrite damage membranes and mitochondria",
+            "Necrosis in the core; apoptosis in the penumbra"
+          ],
+          "caption": "Na+ and water entry also cause cytotoxic edema. Each dying neuron releases more glutamate, spreading injury outward."
+        },
+        {
+          "type": "p",
+          "text": "Neurons with dense glutamate input die first after global ischemia: CA1 pyramidal neurons of the hippocampus, cerebellar Purkinje cells, and pyramidal neurons of neocortical layers 3, 5, and 6, which produces laminar necrosis. About 12 to 24 hours after the insult these neurons appear as red neurons, shrunken cells with eosinophilic cytoplasm and pyknotic nuclei. Early memory loss after cardiac arrest reflects CA1 injury."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-NEUR-15-01-C05",
+      "obj": "NE-15.5",
+      "title": "Acetylcholine synthesis, breakdown, and Alzheimer disease",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Acetylcholine is the transmitter of motor neurons, all preganglionic autonomic neurons, postganglionic parasympathetic neurons, sympathetic neurons to sweat glands, and several CNS systems. Choline acetyltransferase (ChAT), a cytosolic enzyme in the nerve terminal, transfers the acetyl group of acetyl-CoA to choline. Acetyl-CoA comes from pyruvate through pyruvate dehydrogenase in terminal mitochondria, a thiamine-dependent step that ties cholinergic function to glucose metabolism."
+        },
+        {
+          "type": "p",
+          "text": "Choline, not ChAT, limits the rate of synthesis. Neurons make little choline, so they depend on the Na+-dependent high-affinity choline transporter in the terminal membrane, which recaptures choline from the cleft and takes it up from plasma, where it comes from the diet and from phosphatidylcholine. The vesicular acetylcholine transporter (VAChT) loads acetylcholine into vesicles in exchange for protons, and Ca2+ entry triggers release through SNARE proteins, which botulinum toxin cleaves."
+        },
+        {
+          "type": "cycle",
+          "title": "The cholinergic synapse",
+          "steps": [
+            "High-affinity transporter takes choline into the terminal (rate limiting)",
+            "ChAT joins acetyl-CoA and choline",
+            "VAChT loads acetylcholine into vesicles",
+            "Ca2+ entry triggers exocytosis",
+            "Acetylcholinesterase splits acetylcholine into acetate and choline",
+            "Choline returns to the terminal"
+          ],
+          "caption": "About half the choline released by hydrolysis is recaptured; the rest is replaced from plasma."
+        },
+        {
+          "type": "p",
+          "text": "Acetylcholinesterase ends the signal by hydrolysis rather than reuptake. It is anchored in the synaptic cleft (in the basal lamina at the neuromuscular junction) and is among the fastest enzymes known, so a given acetylcholine molecule acts for only about a millisecond. A serine in its active site attacks the ester bond, forming a brief acetyl-enzyme intermediate that water quickly releases. Organophosphates phosphorylate that serine almost irreversibly, so acetylcholine accumulates and overstimulates both muscarinic and nicotinic receptors. Butyrylcholinesterase (pseudocholinesterase), made by the liver, hydrolyzes choline esters in plasma."
+        },
+        {
+          "type": "p",
+          "text": "The nucleus basalis of Meynert is a sheet of large cholinergic neurons in the substantia innominata of the basal forebrain, beneath the globus pallidus and anterior commissure. It supplies most of the acetylcholine in the neocortex and amygdala, while the nearby medial septal nucleus and diagonal band supply the hippocampus. Cortical acetylcholine sharpens attention and helps encode new memories."
+        },
+        {
+          "type": "p",
+          "text": "In Alzheimer disease these basal forebrain neurons form neurofibrillary tangles and die early. Cortical ChAT activity and acetylcholine release fall, and the size of the fall correlates with cognitive decline. This is the cholinergic deficit of Alzheimer disease. It is a consequence of the neurodegeneration, which is driven by amyloid-beta plaques and tau tangles, rather than its cause. The deficit explains why drugs that block muscarinic receptors can worsen confusion and memory in older adults: they further reduce an already depleted signal."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-NEUR-15-01-C06",
+      "obj": "NE-15.6",
+      "title": "Source nuclei and the transmitter changes in Parkinson and Huntington disease",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Each monoamine and acetylcholine system starts in a small group of neurons with very widespread axons, so losing a few thousand cells can change transmitter levels across much of the brain. The locus coeruleus and substantia nigra contain neuromelanin, a dark byproduct of catecholamine oxidation, which makes them visible as pigmented areas on gross brain sections."
+        },
+        {
+          "type": "table",
+          "title": "Main source nuclei",
+          "cols": [
+            "Transmitter",
+            "Source nucleus",
+            "Location",
+            "Main targets and roles"
+          ],
+          "rows": [
+            [
+              "Dopamine",
+              "Substantia nigra pars compacta",
+              "Midbrain",
+              "Striatum (nigrostriatal): starting and scaling movement"
+            ],
+            [
+              "Dopamine",
+              "Ventral tegmental area",
+              "Midbrain, medial to the nigra",
+              "Nucleus accumbens and limbic areas (mesolimbic), prefrontal cortex (mesocortical): reward and motivation"
+            ],
+            [
+              "Dopamine",
+              "Arcuate nucleus",
+              "Hypothalamus",
+              "Anterior pituitary (tuberoinfundibular): inhibits prolactin"
+            ],
+            [
+              "Norepinephrine",
+              "Locus coeruleus",
+              "Dorsal rostral pons, floor of fourth ventricle",
+              "Whole cortex, cerebellum, spinal cord: arousal and vigilance"
+            ],
+            [
+              "Serotonin",
+              "Raphe nuclei",
+              "Midline brainstem",
+              "Rostral groups to forebrain (mood, sleep); caudal groups to cord (pain modulation)"
+            ],
+            [
+              "Acetylcholine",
+              "Nucleus basalis of Meynert",
+              "Basal forebrain",
+              "Neocortex: attention and memory"
+            ]
+          ],
+          "caption": "The locus coeruleus and raphe fire fastest in wakefulness, slow in non-REM sleep, and fall nearly silent in REM sleep."
+        },
+        {
+          "type": "p",
+          "text": "These nuclei act on the basal ganglia through two opposing striatal pathways. Striatal medium spiny neurons are GABAergic. Direct pathway neurons carry D1 receptors and, when excited, inhibit the internal globus pallidus (GPi), releasing the thalamus to drive movement. Indirect pathway neurons carry D2 receptors and, through the external globus pallidus and subthalamic nucleus, increase GPi output and suppress movement. Dopamine excites the direct pathway and inhibits the indirect pathway, so both effects promote movement. Striatal cholinergic interneurons oppose dopamine."
+        },
+        {
+          "type": "p",
+          "text": "In Parkinson disease, pigmented neurons of the substantia nigra pars compacta die, many containing Lewy bodies of aggregated alpha-synuclein. Motor signs appear only after about 60% of these neurons and about 80% of striatal dopamine are lost. The direct pathway loses drive and the indirect pathway loses inhibition, so GPi output rises and the thalamus is held back, giving bradykinesia and rigidity, plus a resting tremor. Acetylcholine becomes relatively excessive. Neurons in the locus coeruleus and raphe are also lost, which helps explain the depression and sleep disturbance of the disease."
+        },
+        {
+          "type": "p",
+          "text": "Huntington disease is an autosomal dominant expansion of CAG repeats in the huntingtin gene on chromosome 4. Striatal medium spiny neurons die, beginning in the caudate, and the caudate atrophies so that the lateral ventricles enlarge. Indirect pathway neurons are lost first, so the brake on movement fails and chorea results. Striatal GABA and ChAT activity fall, while nigral dopamine neurons survive and dopamine signaling becomes relatively excessive. Mutant huntingtin appears to enhance NMDA receptor signaling in response to corticostriatal glutamate, so excitotoxicity is thought to contribute."
+        },
+        {
+          "type": "stop",
+          "predict": "Why does Parkinson disease produce too little movement and early Huntington disease too much, when both damage the striatal circuit?",
+          "explain": "Parkinson disease removes dopamine, which normally excites the direct pathway and inhibits the indirect one, so net GPi output rises and the thalamus is suppressed. Early Huntington disease destroys indirect pathway neurons themselves, so GPi output falls, the thalamus is released, and chorea appears.",
+          "check": "The direct and indirect pathway paragraph."
+        }
+      ]
+    }
+  ],
+  "integration": [
+    {
+      "type": "p",
+      "text": "Biochemistry links these pathways through shared cofactors. BH4 serves all three aromatic hydroxylases, PLP serves AADC, GAD, and GABA transaminase, SAM serves PNMT, COMT, and melatonin synthesis, and copper and ascorbate serve dopamine beta-hydroxylase, so one nutritional or genetic defect can lower several transmitters at once. Anatomy and endocrinology meet in the adrenal gland, where cortical venous drainage induces PNMT, and in the pineal gland, where a sympathetic pathway from the cervical cord turns darkness into melatonin. Pathology reads the same pathways backward: HVA, VMA, metanephrines, and 5-HIAA identify neural crest and enterochromaffin tumors."
+    },
+    {
+      "type": "p",
+      "text": "In neuropathology, transmitter changes follow selective neuron loss rather than isolated enzyme defects. Parkinson, Huntington, and Alzheimer disease each remove a defined population, and ischemia kills the neurons with the heaviest glutamate input first. The transmitter-centered view has limits. Each disease involves many systems, protein aggregation and inflammation drive the degeneration, and transmitter levels are inferred from enzyme activity and metabolite measurements rather than seen directly."
+    }
+  ],
+  "summary": [
+    "Tyrosine hydroxylase (BH4) is rate limiting for catecholamines; AADC needs PLP, dopamine beta-hydroxylase needs copper and vitamin C inside vesicles, and PNMT needs SAM.",
+    "Cortisol from the adrenal cortex induces PNMT, so the adrenal medulla secretes mostly epinephrine and extra-adrenal paragangliomas secrete mostly norepinephrine.",
+    "Reuptake ends most catecholamine action; MAO deaminates and COMT methylates, giving HVA from dopamine and VMA and metanephrines from norepinephrine and epinephrine.",
+    "Neuroblastoma in a young child raises urinary HVA and VMA; pheochromocytoma is detected by metanephrines because tumor COMT forms them continuously.",
+    "Tryptophan hydroxylase (BH4) is rate limiting for serotonin; raphe neurons supply the brain, the pineal makes melatonin in darkness, and MAO forms urinary 5-HIAA, which rises in carcinoid syndrome.",
+    "GABA is made from glutamate by PLP-dependent GAD, so B6 deficiency or isoniazid causes seizures; glycine inhibits in the cord and brainstem.",
+    "NMDA receptors need glutamate plus depolarization to relieve Mg2+ block; in ischemia, failed uptake and Ca2+ overload kill CA1, Purkinje, and cortical pyramidal neurons first.",
+    "ChAT joins acetyl-CoA and choline, choline uptake is rate limiting, and acetylcholinesterase hydrolyzes acetylcholine to acetate and choline.",
+    "Loss of nucleus basalis neurons lowers cortical acetylcholine in Alzheimer disease.",
+    "Parkinson disease is nigral dopamine loss with relative cholinergic excess; Huntington disease is striatal GABA and acetylcholine loss with relative dopamine excess."
+  ],
+  "sources": [
+    {
+      "book": "Lippincott Illustrated Reviews: Biochemistry",
+      "where": "Conversion of amino acids to specialized products (catecholamines, serotonin, melatonin, GABA)"
+    },
+    {
+      "book": "Guyton and Hall Textbook of Medical Physiology",
+      "where": "Organization of the Nervous System, Basic Functions of Synapses, and Transmitter Substances"
+    },
+    {
+      "book": "Boron and Boulpaep Medical Physiology",
+      "where": "Synaptic transmission in the nervous system; the adrenal medulla"
+    },
+    {
+      "book": "Robbins and Cotran Pathologic Basis of Disease",
+      "where": "The Central Nervous System: hypoxia and ischemia, neurodegenerative diseases"
+    },
+    {
+      "book": "Robbins and Cotran Pathologic Basis of Disease",
+      "where": "Diseases of Infancy and Childhood (neuroblastoma); The Endocrine System (adrenal medulla)"
+    },
+    {
+      "book": "Lange Pathophysiology of Disease",
+      "where": "Nervous System Disorders"
+    }
+  ],
+  "verify": [
+    "The share of neuroblastomas with raised urinary HVA or VMA is quoted from about 85% to over 90%; this chapter says about 90%.",
+    "The share of adrenal medullary output that is epinephrine is given as about 80% in most texts; some give 75% to 85%.",
+    "The fraction of tryptophan converted to serotonin normally (about 1%) and in carcinoid syndrome (up to about 60% to 70%) varies between review sources; confirm values if NABNE tests them.",
+    "Thresholds for Parkinson motor signs (about 60% nigral neuron loss, about 80% striatal dopamine loss) vary between sources from 50% to 80%.",
+    "Board sources state that acetylcholine is decreased in Huntington disease; this reflects reduced striatal ChAT activity, and some texts note that cholinergic interneuron numbers are relatively preserved. Confirm the expected answer.",
+    "The source nuclei chart in the NE-15 study unit lists GABA as arising from the nucleus accumbens and links norepinephrine and serotonin levels to anxiety and depression; those claims were left out here because they oversimplify, and NABNE expectations should be confirmed.",
+    "MAO-A and MAO-B substrate preferences overlap; dopamine is metabolized by both, and the MAO-B preference for dopamine applies mainly to the human brain.",
+    "Requested new diagram names for a future revision: catecholamine-pathway (structures from phenylalanine to epinephrine with enzymes and cofactors) and basal-ganglia-loops (direct and indirect pathways with D1 and D2 receptors)."
+  ]
+}

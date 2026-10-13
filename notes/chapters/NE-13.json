@@ -1,0 +1,715 @@
+{
+ "unit": "NE-13",
+ "chapter_id": "NPLEX-P1-NEUR-13",
+ "topic_id": "NPLEX-P1-NEUR-13-01",
+ "title": "Membrane Potentials, Action Potentials, and Synaptic Transmission",
+ "subject": "Nervous System (NEUR)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter explains how excitable cells hold a resting voltage, fire action potentials, integrate synaptic input, and conduct signals along axons and across the neuromuscular junction, then uses those mechanisms to explain seizures and hypokalemic periodic paralysis. Board questions in this area rarely ask for a definition alone. They describe a change, such as a shift in serum potassium, loss of myelin, an antibody, a toxin, or an abnormal EEG, and ask you to predict the effect on excitability or transmission. If you can reason from equilibrium potentials, Na+ channel gating, cable properties, and the steps of vesicle release, most of these questions become a short chain of cause and effect.",
+  "prerequisites": [
+   "Diffusion, electrochemical gradients, and primary active transport",
+   "Neuron structure and the myelin-forming glial cells (NE-2)",
+   "Skeletal muscle structure and excitation-contraction coupling",
+   "Serum electrolyte reference ranges for K+, Na+, Ca2+, and Mg2+",
+   "Antibody-mediated (type II) hypersensitivity"
+  ],
+  "connections": [
+   {
+    "to": "Sensory receptors and reflexes (NE-5)",
+    "how": "Receptor potentials are graded potentials, and nerve fiber class sets how fast sensory and reflex signals travel."
+   },
+   {
+    "to": "Autonomic nervous system (NE-9)",
+    "how": "The same acetylcholine release machinery works at autonomic ganglia and parasympathetic endings, so botulism and Lambert-Eaton syndrome produce autonomic signs."
+   },
+   {
+    "to": "Cardiac electrophysiology (CV-7)",
+    "how": "Potassium, Na+ channel inactivation, and refractoriness explain both the cardiac and the neuromuscular effects of electrolyte disorders."
+   },
+   {
+    "to": "Renal physiology and potassium balance",
+    "how": "Insulin, catecholamines, and kidney handling of K+ set the serum K+ that determines the resting potential."
+   },
+   {
+    "to": "Immunology and microbiology",
+    "how": "Autoantibodies (myasthenia gravis, Lambert-Eaton), molecular mimicry (Guillain-Barré syndrome), and Clostridium botulinum toxin each attack a different step of conduction or transmission."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Resting membrane potential",
+    "def": "The steady voltage across the membrane of an unstimulated cell, inside negative, about -70 mV in neurons and about -90 mV in skeletal muscle."
+   },
+   {
+    "term": "Equilibrium potential",
+    "def": "The membrane voltage at which the electrical force on an ion exactly balances its concentration gradient, so it has no net movement; calculated with the Nernst equation."
+   },
+   {
+    "term": "Threshold",
+    "def": "The membrane voltage at which inward Na+ current exceeds outward current, so depolarization becomes self-sustaining and an action potential fires."
+   },
+   {
+    "term": "Inactivation gate",
+    "def": "The part of the voltage-gated Na+ channel that closes shortly after depolarization opens the channel and reopens only after the membrane repolarizes."
+   },
+   {
+    "term": "Refractory period",
+    "def": "The interval after an action potential during which a second action potential cannot fire (absolute) or needs a stronger stimulus (relative)."
+   },
+   {
+    "term": "Postsynaptic potential",
+    "def": "A graded change in postsynaptic voltage caused by neurotransmitter, depolarizing (EPSP) or moving the cell away from threshold (IPSP)."
+   },
+   {
+    "term": "Length constant",
+    "def": "The distance over which a passively spreading voltage falls to about 37% of its starting value; longer when membrane resistance is high and internal resistance is low."
+   },
+   {
+    "term": "Saltatory conduction",
+    "def": "Conduction in myelinated axons in which the action potential is regenerated only at nodes of Ranvier, with current spreading rapidly through the myelinated internodes between them."
+   },
+   {
+    "term": "Safety factor",
+    "def": "The margin by which the depolarizing current available at a node or end plate exceeds the amount needed to reach threshold."
+   },
+   {
+    "term": "Quantum",
+    "def": "The amount of acetylcholine released by fusion of one synaptic vesicle, several thousand molecules."
+   },
+   {
+    "term": "Paroxysmal depolarization shift",
+    "def": "A large, prolonged neuronal depolarization that triggers a burst of action potentials; the cellular event behind epileptiform discharges."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-NEUR-13-01-C01",
+   "obj": "NE-13.1",
+   "title": "The resting membrane potential and extracellular potassium",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Every living cell holds a voltage across its membrane, inside negative, called the resting membrane potential (RMP). It requires unequal ion distribution and selective permeability. The Na+/K+ ATPase pumps 3 Na+ out and 2 K+ in per ATP, concentrating K+ inside and Na+ outside. The pump is electrogenic, but its direct contribution is only a few millivolts; its main role is to maintain the gradients that the channels use."
+    },
+    {
+     "type": "p",
+     "text": "At rest the membrane is far more permeable to K+ than to other cations because K+ leak channels (two-pore domain and inward rectifier channels) stay open. K+ diffuses outward down its concentration gradient and leaves behind negative charge, mostly on impermeant proteins and organic phosphates. The growing negativity pulls K+ back, and the voltage at which this electrical pull exactly balances the chemical push is the K+ equilibrium potential (EK). The Nernst equation gives the equilibrium potential of any single ion: E = (61.5 / z) x log10 ([ion] outside / [ion] inside) mV at 37 °C (98.6 °F), where z is the ion's valence."
+    },
+    {
+     "type": "table",
+     "title": "Typical concentrations and equilibrium potentials",
+     "cols": [
+      "Ion",
+      "Outside (mmol/L)",
+      "Inside (mmol/L)",
+      "Equilibrium potential"
+     ],
+     "rows": [
+      [
+       "K+",
+       "About 4",
+       "About 140",
+       "About -90 to -95 mV"
+      ],
+      [
+       "Na+",
+       "About 142",
+       "About 14",
+       "About +60 mV"
+      ],
+      [
+       "Cl-",
+       "About 105 to 110",
+       "About 5 to 10 in neurons",
+       "About -70 to -90 mV, close to rest"
+      ],
+      [
+       "Ca2+ (free)",
+       "About 1.2",
+       "About 0.0001",
+       "About +120 mV or more"
+      ]
+     ],
+     "caption": "The membrane is pulled toward the equilibrium potential of its most permeant ion, which at rest is K+."
+    },
+    {
+     "type": "p",
+     "text": "The actual membrane potential is a weighted average of the equilibrium potentials, each weighted by that ion's permeability, which is what the Goldman-Hodgkin-Katz equation expresses. Because K+ permeability dominates, the RMP lies near EK, and a small Na+ leak holds it a little less negative: about -70 mV in a typical neuron and about -90 mV in skeletal muscle, where a large resting Cl- conductance also stabilizes it."
+    },
+    {
+     "type": "h",
+     "text": "Extracellular potassium and excitability"
+    },
+    {
+     "type": "p",
+     "text": "Intracellular K+ is so large that clinical disorders barely change it, so serum K+ (reference range about 3.5 to 5.0 mmol/L) is the main lever on EK and therefore on the RMP. Hyperkalemia shrinks the gradient and depolarizes cells. A mild rise brings the membrane closer to threshold and raises excitability, but sustained depolarization keeps voltage-gated Na+ channels inactivated (C02), so fewer are available, upstrokes become smaller and slower, and excitability falls. The result is weakness, paresthesias, and in the heart slowed conduction and arrhythmias. Hypokalemia widens the gradient and hyperpolarizes nerve and skeletal muscle, moving them away from threshold and causing weakness or flaccid paralysis. The heart is an exception: low extracellular K+ reduces inward rectifier K+ conductance, which delays repolarization and favors arrhythmias."
+    },
+    {
+     "type": "p",
+     "text": "Extracellular Ca2+ works differently. It barely changes the RMP but binds the outer surface of Na+ channels and raises the voltage needed to open them, so hypocalcemia lowers threshold and causes paresthesias and tetany, while hypercalcemia dulls excitability."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: how far does EK move?",
+     "text": "Take intracellular K+ as 140 mmol/L. At serum K+ 4 mmol/L, log10 (4/140) = -1.54, so EK = 61.5 x -1.54 = about -95 mV. At 8 mmol/L, log10 (8/140) = -1.24, so EK = about -76 mV. Doubling extracellular K+ moves EK by 61.5 x log10 2, about 18.5 mV, toward zero, and the RMP follows by somewhat less because of the small Na+ permeability. The cell first sits closer to threshold, but held there its Na+ channels stay inactivated, so severe hyperkalemia ends in weakness and cardiac standstill rather than continuous firing."
+    },
+    {
+     "type": "stop",
+     "predict": "Serum K+ falls from 4.0 to 2.0 mmol/L. Predict the change in skeletal muscle RMP and excitability.",
+     "explain": "EK becomes about 18 mV more negative, the RMP hyperpolarizes away from threshold, and the muscle is harder to fire, so weakness follows.",
+     "check": "The extracellular potassium paragraph and worked example."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-13-01-C02",
+   "obj": "NE-13.2",
+   "title": "The action potential, threshold, and refractory periods",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "An action potential (AP) is a brief, all-or-none reversal of membrane voltage that regenerates itself as it travels along an axon or muscle fiber. It depends on voltage-gated Na+ channels, which have two gates: an activation gate that opens quickly when the membrane depolarizes and an inactivation gate that closes a fraction of a millisecond later and stays closed until the membrane repolarizes. Voltage-gated K+ channels (delayed rectifiers) also open with depolarization, but more slowly."
+    },
+    {
+     "type": "p",
+     "text": "Threshold is the voltage at which inward Na+ current through newly opened channels exceeds outward K+ and leak current, so depolarization becomes self-sustaining. In a typical neuron it is about -55 mV, roughly 15 mV above rest. Below threshold a stimulus produces only a local response that decays. Above it, positive feedback drives the upstroke regardless of stimulus size, which is why the AP is all-or-none and why stimulus strength is coded by firing frequency rather than spike height."
+    },
+    {
+     "type": "cycle",
+     "title": "Positive feedback of the upstroke",
+     "steps": [
+      "Membrane depolarizes to threshold",
+      "Voltage-gated Na+ channels open",
+      "Na+ enters the cell",
+      "Membrane depolarizes further",
+      "More Na+ channels open"
+     ],
+     "caption": "The loop drives the membrane toward ENa in well under a millisecond. Na+ channel inactivation and delayed K+ efflux break it."
+    },
+    {
+     "type": "table",
+     "title": "Phases of the neuronal action potential",
+     "cols": [
+      "Phase",
+      "Channel events",
+      "Voltage"
+     ],
+     "rows": [
+      [
+       "Rest",
+       "K+ leak dominates; Na+ channels closed but ready",
+       "About -70 mV"
+      ],
+      [
+       "Upstroke",
+       "Na+ activation gates open; Na+ influx",
+       "Peak about +30 to +40 mV, short of ENa"
+      ],
+      [
+       "Repolarization",
+       "Na+ inactivation gates close; delayed K+ channels open; K+ efflux",
+       "Falls back toward rest"
+      ],
+      [
+       "Afterhyperpolarization",
+       "K+ channels close slowly, so K+ conductance stays above resting",
+       "Briefly more negative than rest, toward EK"
+      ],
+      [
+       "Recovery",
+       "Na+ inactivation gates reset as the membrane repolarizes",
+       "Returns to rest"
+      ]
+     ],
+     "caption": "Repolarization needs both events: Na+ inactivation stops the inward current, and K+ efflux supplies the outward current."
+    },
+    {
+     "type": "p",
+     "text": "The absolute refractory period lasts from threshold through most of repolarization. During it nearly all Na+ channels are either already open or inactivated, so no stimulus of any strength can produce a second AP. The relative refractory period follows. Some Na+ channels have reset, but K+ conductance is still elevated and the membrane is hyperpolarized, so only a stronger than normal stimulus fires the cell, and the AP it produces is smaller. Refractoriness limits the maximum firing rate and makes conduction one-way, because the membrane just behind an advancing AP cannot be re-excited."
+    },
+    {
+     "type": "p",
+     "text": "Very few ions cross during a single AP, so concentrations barely change. The Na+/K+ ATPase restores them over many spikes and is not needed to repolarize each one. Nerve APs last about 1 ms and skeletal muscle APs a few milliseconds. Two exceptions confirm the gating logic. When a cell is depolarized slowly, Na+ channels inactivate before enough open together (accommodation), so threshold rises or is never reached, which is the same reason sustained hyperkalemia silences cells. Blocking Na+ channels, as tetrodotoxin does from outside and lidocaine-type local anesthetics do from inside, prevents the upstroke, whereas blocking K+ channels prolongs the AP."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-13-01-C03",
+   "obj": "NE-13.3",
+   "title": "Graded potentials and summation at the axon hillock",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Graded potentials are local voltage changes whose size varies with stimulus strength. At chemical synapses they arise when neurotransmitter opens ligand-gated (ionotropic) channels on dendrites and the cell body. An excitatory postsynaptic potential (EPSP) is a depolarization, typically from glutamate opening AMPA receptor cation channels, which let more Na+ in than K+ out. NMDA receptors add a slower, Ca2+-carrying EPSP, but only when glutamate is bound and depolarization has expelled the Mg2+ that blocks the pore. An inhibitory postsynaptic potential (IPSP) moves the membrane away from threshold: GABA-A and glycine receptors open Cl- channels, and GABA-B receptors open K+ channels through a G protein."
+    },
+    {
+     "type": "p",
+     "text": "Graded potentials spread passively (electrotonically) and shrink with distance and time because current leaks out across the membrane. The length constant is the distance over which voltage falls to about 37% of its starting value, and the time constant is the time the membrane takes to charge or discharge by about 63%. A single EPSP at a central synapse is usually well under the 10 to 20 mV needed to reach threshold, so one input rarely fires a neuron."
+    },
+    {
+     "type": "table",
+     "title": "Graded potentials compared with action potentials",
+     "cols": [
+      "Feature",
+      "Graded potential (EPSP or IPSP)",
+      "Action potential"
+     ],
+     "rows": [
+      [
+       "Site",
+       "Dendrites and cell body",
+       "Starts at the axon initial segment, travels down the axon"
+      ],
+      [
+       "Channels",
+       "Ligand-gated (or sensory transduction) channels",
+       "Voltage-gated Na+ and K+ channels"
+      ],
+      [
+       "Size",
+       "Proportional to stimulus",
+       "All-or-none, fixed size"
+      ],
+      [
+       "Direction",
+       "Depolarizing or hyperpolarizing",
+       "Always a depolarizing upstroke"
+      ],
+      [
+       "Over distance",
+       "Decays",
+       "Regenerated without loss"
+      ],
+      [
+       "Summation and refractoriness",
+       "Sums; no refractory period",
+       "Does not sum; absolute then relative refractory period"
+      ]
+     ],
+     "caption": "Graded potentials carry information by amplitude over short distances; action potentials carry it by frequency over long distances."
+    },
+    {
+     "type": "h",
+     "text": "Summation and integration"
+    },
+    {
+     "type": "p",
+     "text": "Temporal summation occurs when one synapse fires repeatedly before each EPSP has decayed, so successive potentials stack; a long time constant favors it. Spatial summation occurs when many synapses at different sites are active together and their currents add; a long length constant favors it. EPSPs and IPSPs sum algebraically. The point of integration is the axon hillock and initial segment, which has the highest density of voltage-gated Na+ channels and therefore the lowest threshold in the neuron. The cell fires when, and as often as, the net voltage there exceeds threshold, so the neuron converts many graded inputs into one frequency code."
+    },
+    {
+     "type": "p",
+     "text": "Inhibitory synapses on or near the soma are especially powerful because their effect reaches the initial segment with little decay. Opening Cl- channels inhibits even when ECl is close to the RMP and the voltage barely changes, because the open channels hold the membrane near ECl and drain away excitatory current (shunting inhibition). Loss of inhibition shows how much it matters: tetanus toxin blocks glycine and GABA release from spinal inhibitory interneurons and strychnine blocks glycine receptors, and both leave motor neurons firing unopposed, with rigidity and spasms."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-13-01-C04",
+   "obj": "NE-13.4",
+   "title": "Myelin, axon diameter, and conduction velocity",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Conduction velocity depends on how quickly current from the active region brings the next stretch of membrane to threshold. That depends on how far current spreads before leaking out, which is the length constant (longer when membrane resistance is high and internal resistance is low), and on how fast the membrane charges, which is faster when membrane capacitance is low. A wider axon has lower internal (axial) resistance, so velocity rises with diameter: roughly with the square root of diameter in unmyelinated fibers and roughly in proportion to diameter in myelinated fibers."
+    },
+    {
+     "type": "p",
+     "text": "Myelin is a spiral of glial membrane, formed by oligodendrocytes in the CNS (one cell myelinates segments of many axons) and Schwann cells in the PNS (one cell per internode). The many wrapped layers raise membrane resistance and lower capacitance, so little current leaks out or is spent charging the internode. Voltage-gated Na+ channels cluster at the nodes of Ranvier and are sparse under myelin, so the AP is regenerated only at nodes while current spreads rapidly through the internode to the next node. This saltatory conduction is faster and uses less energy, because ion exchange, and therefore pump work, is confined to the nodes."
+    },
+    {
+     "type": "table",
+     "title": "Nerve fiber classes (Erlanger-Gasser)",
+     "cols": [
+      "Class",
+      "Myelin and diameter",
+      "Velocity",
+      "Examples"
+     ],
+     "rows": [
+      [
+       "A alpha",
+       "Heavy, about 12 to 20 µm",
+       "About 70 to 120 m/s",
+       "Alpha motor neurons; Ia and Ib afferents"
+      ],
+      [
+       "A beta",
+       "Heavy, about 6 to 12 µm",
+       "About 30 to 70 m/s",
+       "Touch, pressure, vibration"
+      ],
+      [
+       "A delta",
+       "Thin, about 1 to 5 µm",
+       "About 5 to 30 m/s",
+       "Fast sharp pain, cold"
+      ],
+      [
+       "B",
+       "Thin, under about 3 µm",
+       "About 3 to 15 m/s",
+       "Preganglionic autonomic"
+      ],
+      [
+       "C",
+       "Unmyelinated, about 0.2 to 1.5 µm",
+       "About 0.5 to 2 m/s",
+       "Slow burning pain, warmth, postganglionic autonomic"
+      ]
+     ],
+     "caption": "Values are approximate and vary slightly between sources."
+    },
+    {
+     "type": "p",
+     "text": "Normally the current reaching a node is several times what is needed to fire it (the safety factor). When myelin is lost, current leaks across the bare internode and is spent charging its now higher capacitance, and that membrane has too few Na+ channels to regenerate the spike. Conduction slows when the safety factor is reduced and blocks when too little current reaches the next node. Heat speeds Na+ channel inactivation and shortens the inward current, tipping marginal fibers into block, which explains the Uhthoff phenomenon, a transient worsening of symptoms with exercise or a hot bath."
+    },
+    {
+     "type": "flow",
+     "title": "From demyelination to conduction block",
+     "steps": [
+      "Myelin lost from an internode",
+      "Membrane resistance falls and capacitance rises",
+      "Current leaks out before reaching the next node",
+      "Next node depolarizes slowly or not to threshold",
+      "Conduction slows, or fails completely"
+     ],
+     "caption": "Slowing reflects a reduced safety factor; block occurs when the safety factor falls below one."
+    },
+    {
+     "type": "p",
+     "text": "Multiple sclerosis (MS) is immune-mediated destruction of CNS myelin and oligodendrocytes, producing plaques in white matter. Deficits follow plaque location, such as optic neuritis or internuclear ophthalmoplegia from a medial longitudinal fasciculus lesion, and evoked potentials show delayed latencies. CNS remyelination is limited and axons are lost over time, so disability accumulates. Guillain-Barré syndrome in its common demyelinating form targets peripheral nerve myelin and roots, often after Campylobacter jejuni or viral infection, probably through molecular mimicry. It causes ascending, symmetric flaccid weakness with lost reflexes, and nerve conduction studies show slowed velocity, prolonged latencies, and conduction block. CSF protein is high with a normal cell count, and because Schwann cells remyelinate, most patients recover over weeks to months."
+    },
+    {
+     "type": "stop",
+     "predict": "In demyelinating Guillain-Barré syndrome, which fail first: reflexes and vibration sense, or pain and temperature sense?",
+     "explain": "Reflexes, vibration, and motor function depend on large myelinated fibers that rely on saltatory conduction. Unmyelinated C fibers never used myelin, so pain and temperature are relatively spared.",
+     "check": "Compare with the fiber class table and the paragraph on the safety factor."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-13-01-C05",
+   "obj": "NE-13.5",
+   "title": "Neuromuscular transmission and its disorders",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The neuromuscular junction (NMJ) is a cholinergic synapse between a motor neuron terminal and the motor end plate, a folded region of the muscle membrane."
+    },
+    {
+     "type": "flow",
+     "title": "Steps of neuromuscular transmission",
+     "steps": [
+      "Motor nerve AP depolarizes the terminal",
+      "P/Q-type voltage-gated Ca2+ channels open; Ca2+ enters",
+      "Ca2+ binds synaptotagmin; SNARE proteins fuse vesicles",
+      "Acetylcholine (ACh) diffuses across the cleft",
+      "ACh opens nicotinic receptor cation channels",
+      "End-plate potential fires a muscle AP",
+      "Acetylcholinesterase splits ACh; choline is recycled"
+     ],
+     "caption": "Botulinum toxin blocks step 3, Lambert-Eaton antibodies step 2, and myasthenia gravis antibodies step 5."
+    },
+    {
+     "type": "p",
+     "text": "ACh is made in the terminal from choline and acetyl-CoA by choline acetyltransferase and packed into vesicles. Each vesicle releases one quantum of several thousand ACh molecules; a single spontaneous vesicle produces a miniature end-plate potential of about 0.5 mV. Fusion requires SNARE proteins: synaptobrevin on the vesicle zips together with syntaxin and SNAP-25 on the plasma membrane, and Ca2+ binding to synaptotagmin triggers fusion. Release rises steeply with Ca2+ entry, so a modest fall in Ca2+ influx sharply reduces release."
+    },
+    {
+     "type": "p",
+     "text": "The adult muscle nicotinic receptor is a pentamer of two alpha-1 subunits with beta, delta, and epsilon subunits; ACh must bind both alpha subunits to open its nonselective cation channel. Na+ entry exceeds K+ exit, producing the end-plate potential, which fires a muscle AP in the adjacent Na+ channel-rich membrane. An impulse releases several dozen quanta or more, depending on the muscle, so the end-plate potential is normally several times larger than needed (the safety factor). Acetylcholinesterase in the synaptic basal lamina splits ACh into acetate and choline within milliseconds, and choline is recycled by a Na+-coupled transporter. If the enzyme is inhibited, as in organophosphate poisoning, the end plate stays depolarized, nearby Na+ channels inactivate, and fasciculations give way to weakness (depolarizing block)."
+    },
+    {
+     "type": "table",
+     "title": "Disorders of neuromuscular transmission",
+     "cols": [
+      "Disorder",
+      "Mechanism",
+      "Distinguishing features"
+     ],
+     "rows": [
+      [
+       "Botulism (presynaptic)",
+       "Toxin, a zinc protease, cleaves SNARE proteins (A and E: SNAP-25; B: synaptobrevin); no ACh release",
+       "Descending flaccid paralysis starting in cranial nerves; dilated pupils, dry mouth; sensation intact"
+      ],
+      [
+       "Myasthenia gravis (postsynaptic)",
+       "IgG against nicotinic receptors (some against MuSK); complement damage and receptor internalization",
+       "Ptosis, diplopia, bulbar and proximal weakness worse with use; pupils and reflexes normal; thymic hyperplasia or thymoma"
+      ],
+      [
+       "Lambert-Eaton syndrome (presynaptic)",
+       "IgG against P/Q-type Ca2+ channels; less Ca2+ entry and release",
+       "Proximal leg weakness that briefly improves with effort; reduced reflexes; dry mouth; often small cell lung carcinoma"
+      ]
+     ],
+     "caption": "Presynaptic disorders lower release; myasthenia gravis lowers the response to normal release."
+    },
+    {
+     "type": "p",
+     "text": "Quanta per impulse normally decline during repeated firing as the readily releasable store depletes. This is harmless with a normal safety factor, but in myasthenia gravis more and more fibers fall below threshold, so weakness worsens with use. In Lambert-Eaton syndrome and botulism release is low, so baseline strength and reflexes fall, but rapid firing lets residual Ca2+ build up in the terminal and transiently increases release (facilitation). Botulinum toxin also blocks autonomic cholinergic endings, which explains the dilated pupils and dry mouth."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: repetitive nerve stimulation",
+     "text": "A motor nerve is stimulated at 3 Hz while the compound muscle action potential (CMAP) is recorded. Patient A has a normal first CMAP that falls by more than 10% by the fourth or fifth response. Patient B has a small first CMAP that more than doubles after 10 seconds of maximal contraction. In A, release is normal but receptors are few, so as quanta per impulse decline over the first stimuli, fibers drop below threshold one by one: a decrement, myasthenia gravis. In B, so few quanta are released at rest that many fibers fail from the start; exercise loads the terminal with Ca2+, release surges, and silent fibers are recruited: an increment, Lambert-Eaton syndrome."
+    },
+    {
+     "type": "stop",
+     "predict": "Would inhibiting acetylcholinesterase enlarge the end-plate potential more in myasthenia gravis or botulism?",
+     "explain": "Myasthenia gravis: normal ACh release, and a longer life lets each molecule reach the scarce receptors repeatedly. In botulism little ACh is released, so there is little to preserve.",
+     "check": "The transmission flow and disorders table."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-13-01-C06",
+   "obj": "NE-13.6",
+   "title": "Seizures: classification and mechanisms",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "A seizure is a transient episode of signs or symptoms caused by abnormally excessive, synchronous neuronal activity in the brain; epilepsy is a lasting tendency to recurrent unprovoked seizures. Cortex is normally stable because glutamate excitation is balanced by GABA inhibition, much of it from interneurons that surround active neurons and keep activity from spreading (surround inhibition). Anything that raises excitation or lowers inhibition can tip neurons into synchronous firing."
+    },
+    {
+     "type": "p",
+     "text": "The cellular hallmark is the paroxysmal depolarization shift: a large, prolonged depolarization driven by glutamate (AMPA and NMDA) and Ca2+ currents that fires a burst of APs and is normally ended by a GABA-mediated afterhyperpolarization. Many neurons doing this together produce an interictal EEG spike. A seizure begins when afterhyperpolarization and surround inhibition fail, so bursting recruits neighbors and spreads, helped by K+ that accumulates outside active cells (C01). Active inhibition, adenosine release, and metabolic exhaustion end the seizure and contribute to postictal depression."
+    },
+    {
+     "type": "table",
+     "title": "Conditions that tip the excitation and inhibition balance",
+     "cols": [
+      "Condition",
+      "Mechanism"
+     ],
+     "rows": [
+      [
+       "Hyponatremia",
+       "Water enters brain cells, causing cerebral edema, worst when the fall is rapid"
+      ],
+      [
+       "Hypoglycemia",
+       "Energy failure impairs ion pumping and transmitter balance"
+      ],
+      [
+       "Hypocalcemia",
+       "Na+ channels open at more negative voltages, lowering threshold"
+      ],
+      [
+       "Hypomagnesemia",
+       "Mg2+ block of NMDA receptors is relieved; also lowers serum Ca2+"
+      ],
+      [
+       "Alcohol or benzodiazepine withdrawal",
+       "GABA-A signaling is downregulated during chronic use, so inhibition suddenly falls"
+      ],
+      [
+       "SCN1A loss of function (Dravet syndrome)",
+       "Inhibitory interneurons fire poorly, so inhibition fails"
+      ],
+      [
+       "Structural lesions (scar, tumor, stroke, hippocampal sclerosis)",
+       "Interneurons are lost and excitatory circuits reorganize"
+      ]
+     ],
+     "caption": "Metabolic causes provoke seizures until corrected; lesions create a lasting focus."
+    },
+    {
+     "type": "table",
+     "title": "Major seizure types (ILAE 2017 terms)",
+     "cols": [
+      "Type",
+      "Onset",
+      "Features",
+      "Afterward and EEG"
+     ],
+     "rows": [
+      [
+       "Focal aware",
+       "One hemisphere network",
+       "Awareness kept; symptoms match the area (motor jerking that marches along the homunculus, sensory, autonomic, or psychic aura)",
+       "Todd paralysis may follow a motor seizure"
+      ],
+      [
+       "Focal impaired awareness",
+       "One network, often mesial temporal lobe",
+       "Aura (rising epigastric feeling, deja vu), staring, automatisms such as lip smacking, 1 to 2 minutes",
+       "Postictal confusion"
+      ],
+      [
+       "Focal to bilateral tonic-clonic",
+       "Focal, then both hemispheres",
+       "Focal signs, then tonic-clonic activity",
+       "Postictal confusion"
+      ],
+      [
+       "Generalized tonic-clonic",
+       "Both hemispheres from onset",
+       "Sudden loss of consciousness, tonic stiffening, then clonic jerking; lateral tongue biting, incontinence",
+       "Postictal confusion and drowsiness"
+      ],
+      [
+       "Absence (typical)",
+       "Bilateral thalamocortical",
+       "Seconds of staring with abrupt start and stop, many per day, provoked by hyperventilation; childhood onset",
+       "No postictal state; 3 Hz spike-and-wave"
+      ]
+     ],
+     "caption": "Older terms: simple partial, complex partial, and secondarily generalized seizures."
+    },
+    {
+     "type": "p",
+     "text": "Absence seizures arise from an oscillation in thalamocortical circuits that depends on T-type (low-threshold) Ca2+ channels in thalamic relay neurons. These channels can open only after hyperpolarization from the GABAergic thalamic reticular nucleus has removed their inactivation, as the cycle below shows. Blocking T-type channels, the action of ethosuximide, abolishes the rhythm."
+    },
+    {
+     "type": "cycle",
+     "title": "The thalamocortical loop in absence seizures",
+     "steps": [
+      "Reticular nucleus GABA neurons inhibit thalamic relay neurons",
+      "Hyperpolarization removes T-type Ca2+ channel inactivation",
+      "Rebound Ca2+ spike triggers a burst of APs",
+      "Synchronous cortical excitation (EEG spike)",
+      "Cortex re-excites reticular nucleus; inhibition returns (EEG wave)"
+     ],
+     "caption": "Each turn takes about a third of a second, giving 3 Hz spike-and-wave."
+    },
+    {
+     "type": "p",
+     "text": "A seizure lasting 5 minutes or more, or repeated seizures without recovery between them, is status epilepticus; sustained firing injures neurons through NMDA-mediated Ca2+ entry (excitotoxicity). Febrile seizures occur in children about 6 months to 5 years old with a temperature of 38 °C (100.4 °F) or higher, without CNS infection, metabolic cause, or earlier afebrile seizure. Fever raises excitability in an immature brain whose inhibition is still developing, and family history is common. A simple febrile seizure is generalized, lasts under 15 minutes, and does not recur within 24 hours; a complex one is focal, longer, or repeated. About a third recur with a later fever, but epilepsy risk after a simple febrile seizure is only slightly above the general population."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-13-01-C07",
+   "obj": "NE-13.7",
+   "title": "Hypokalemic periodic paralysis",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Hypokalemic periodic paralysis (HypoPP) is an inherited channelopathy of skeletal muscle, usually autosomal dominant with reduced penetrance in women. Most cases are caused by mutations in the skeletal muscle L-type Ca2+ channel (CACNA1S, Cav1.1, the dihydropyridine receptor), and a smaller group by mutations in the skeletal muscle Na+ channel (SCN4A, Nav1.4). Attacks usually begin in adolescence or early adulthood and bring flaccid weakness lasting hours to a day or more. Serum K+ is low during the attack, often below 3.0 mmol/L, and normal between attacks."
+    },
+    {
+     "type": "p",
+     "text": "The mutations replace positively charged arginines in the S4 voltage-sensing segment, opening an abnormal leak path through the voltage sensor itself, the gating pore (omega) current, which carries a small inward cation current at rest. Normally, lowering extracellular K+ hyperpolarizes muscle (C01). However, inward rectifier K+ conductance falls as extracellular K+ falls, and in HypoPP fibers the inward gating pore current then outweighs the shrinking K+ current. Instead of hyperpolarizing, the fiber paradoxically depolarizes to about -60 mV. At that voltage its Na+ channels are inactivated (C02), so it cannot fire an AP and becomes flaccid and electrically inexcitable."
+    },
+    {
+     "type": "flow",
+     "title": "How an attack develops",
+     "steps": [
+      "Carbohydrate meal raises insulin, or rest follows exercise",
+      "Na+/K+ ATPase drives K+ into cells; serum K+ falls",
+      "Inward rectifier K+ conductance decreases",
+      "Gating pore leak paradoxically depolarizes the fiber",
+      "Voltage-gated Na+ channels inactivate",
+      "Fiber cannot fire: flaccid weakness"
+     ],
+     "caption": "Low serum K+ is both the trigger and a marker; the mutant channel turns a fall in K+ into depolarization."
+    },
+    {
+     "type": "p",
+     "text": "Triggers act by shifting K+ into cells, not by removing it from the body. Insulin released after a carbohydrate-rich meal and catecholamines both stimulate the Na+/K+ ATPase, and K+ released from muscle during exercise is taken back up during rest. Attacks often begin on waking after a large evening meal or strenuous exercise. Weakness is mainly proximal, reflexes are reduced during the attack, sensation is normal, and respiratory and cranial muscles are usually spared. During an attack the ECG may show hypokalemic changes such as flattened T waves and U waves. Total body K+ is normal, and some patients later develop a fixed proximal myopathy."
+    },
+    {
+     "type": "table",
+     "title": "Distinguishing causes of paralysis with abnormal potassium",
+     "cols": [
+      "Condition",
+      "Cause",
+      "Serum K+ in attack",
+      "Distinguishing features"
+     ],
+     "rows": [
+      [
+       "Hypokalemic periodic paralysis",
+       "Inherited CACNA1S or SCN4A gating pore mutation",
+       "Low",
+       "Carbohydrate meals or rest after exercise; normal K+ between attacks"
+      ],
+      [
+       "Hyperkalemic periodic paralysis",
+       "Inherited SCN4A mutation that impairs Na+ channel inactivation",
+       "High or normal",
+       "Shorter attacks after K+-rich food, fasting, or rest after exercise; myotonia may occur"
+      ],
+      [
+       "Thyrotoxic periodic paralysis",
+       "Acquired; thyroid hormone increases Na+/K+ ATPase activity",
+       "Low",
+       "Mostly young men of Asian descent; signs of hyperthyroidism; attacks stop when thyroid function normalizes"
+      ],
+      [
+       "Hypokalemia from K+ loss",
+       "Renal or gastrointestinal loss, such as diuretics, vomiting, or diarrhea",
+       "Low",
+       "Total body K+ depleted; weakness persists until K+ is replaced"
+      ]
+     ],
+     "caption": "Periodic paralyses are shifts of K+ across cell membranes in a muscle that responds abnormally; ordinary hypokalemia is a true deficit."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Every topic in this chapter rests on the same few mechanisms. The Na+/K+ ATPase builds the gradients, K+ leak channels set the RMP, and voltage-gated Na+ channels with their inactivation gates decide whether a cell can fire. Hyperkalemia, accommodation, organophosphate poisoning, hyperkalemic periodic paralysis, and HypoPP all silence muscle the same way, by holding the membrane depolarized until Na+ channels inactivate. Anatomy and histology add the glial cells that make myelin, which explains why MS (oligodendrocytes) and Guillain-Barré syndrome (Schwann cells) differ in location and recovery."
+  },
+  {
+   "type": "p",
+   "text": "Immunology and microbiology supply the agents that attack each step: autoantibodies against the nicotinic receptor or P/Q-type Ca2+ channel, molecular mimicry after Campylobacter infection, and the SNARE-cleaving toxins of Clostridium botulinum and Clostridium tetani. Pathology and genetics add channelopathies, from SCN1A in Dravet syndrome to CACNA1S in HypoPP, in which one altered channel changes excitability throughout a tissue. The limits matter as well: serum values describe the extracellular space only, nerve conduction and EEG findings support but do not by themselves make a diagnosis."
+  }
+ ],
+ "summary": [
+  "The RMP lies near EK because K+ leak channels dominate resting permeability; the Na+/K+ ATPase maintains the gradients and adds only a few millivolts directly.",
+  "Nernst: E = (61.5 / z) x log10 (outside / inside); EK is about -90 to -95 mV and ENa about +60 mV, and doubling serum K+ moves EK about 18 mV toward zero.",
+  "Hyperkalemia depolarizes and, if sustained, inactivates Na+ channels and lowers excitability; hypokalemia hyperpolarizes nerve and skeletal muscle and causes weakness.",
+  "The AP upstroke is Na+ positive feedback; Na+ inactivation plus delayed K+ efflux repolarize; inactivation sets the absolute refractory period and lingering K+ conductance the relative one.",
+  "Graded potentials decay and sum; the axon initial segment, with the densest Na+ channels, integrates EPSPs and IPSPs and fires when net voltage exceeds threshold.",
+  "Velocity rises with axon diameter and with myelin, which raises membrane resistance and lowers capacitance so APs regenerate only at nodes; demyelination slows or blocks conduction.",
+  "MS strips CNS myelin with limited repair; demyelinating Guillain-Barré syndrome strips peripheral myelin, gives ascending areflexic weakness and high CSF protein, and usually recovers.",
+  "At the NMJ, botulinum toxin cleaves SNAREs, Lambert-Eaton antibodies block P/Q Ca2+ channels (facilitation with effort), and myasthenia gravis antibodies remove nicotinic receptors (fatigue with use).",
+  "Seizures are synchronous firing when excitation outweighs inhibition; absence seizures come from T-type Ca2+ thalamocortical oscillation with 3 Hz spike-and-wave and no postictal state.",
+  "Hypokalemic periodic paralysis is a gating pore channelopathy in which an insulin or post-exercise K+ shift paradoxically depolarizes muscle, inactivating Na+ channels and causing flaccid weakness."
+ ],
+ "sources": [
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Membrane Potentials and Action Potentials"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Neuromuscular Transmission and Excitation-Contraction Coupling"
+  },
+  {
+   "book": "Boron and Boulpaep Medical Physiology",
+   "where": "Electrophysiology of the cell membrane; synaptic transmission and the neuromuscular junction"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Peripheral Nerves and Skeletal Muscles; The Central Nervous System"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Nervous System Disorders"
+  },
+  {
+   "book": "Jawetz, Melnick, and Adelberg's Medical Microbiology",
+   "where": "Spore-forming gram-positive bacilli, Clostridium botulinum"
+  }
+ ],
+ "verify": [
+  "Equilibrium potentials and resting potentials are given as approximate ranges (EK about -90 to -95 mV; neuronal RMP about -70 mV; threshold about -55 mV) because textbooks use slightly different ion concentrations; confirm the values NABNE expects.",
+  "Fiber class diameters and velocities differ slightly between Guyton and Hall and other references; the table gives approximate consensus values.",
+  "Seizure terminology follows the ILAE 2017 classification; confirm whether NABNE items still use simple partial and complex partial.",
+  "Febrile seizure age range (6 months to 5 years versus 6 to 60 months), recurrence of about one third, and the small rise in later epilepsy risk vary slightly by source.",
+  "Repetitive nerve stimulation criteria (decrement over 10% in myasthenia gravis; increment over 100% in Lambert-Eaton syndrome, with some sources using 60%) should be confirmed.",
+  "Botulinum serotype targets (A and E on SNAP-25, B on synaptobrevin) are stated for the serotypes most often tested; confirm whether NABNE expects serotype detail.",
+  "The gating pore current and paradoxical depolarization model of hypokalemic periodic paralysis reflects current research consensus; the relative share of CACNA1S and SCN4A mutations varies by series.",
+  "Confirm whether NABNE expects the eponyms Uhthoff, Todd, Dravet, and Erlanger-Gasser, or only the descriptive terms.",
+  "Requested new diagram names for a future revision: neuron-ap (neuronal action potential with phases and refractory periods), nmj-synapse (nerve terminal, cleft, and end plate with sites of botulinum toxin and antibody action), and saltatory-conduction (myelinated axon with nodes and internodes).",
+  "Quantal content per impulse at the human neuromuscular junction is stated only as several dozen or more because published values vary by muscle and method."
+ ]
+}

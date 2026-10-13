@@ -1,0 +1,611 @@
+{
+ "unit": "NE-16",
+ "chapter_id": "NPLEX-P1-NEUR-16",
+ "topic_id": "NPLEX-P1-NEUR-16-01",
+ "title": "Neurogenetics",
+ "subject": "Nervous System (NEUR)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter explains how specific kinds of genetic error produce neurologic disease: unstable trinucleotide repeats, an extra chromosome 21, inherited loss of tumor suppressor genes, a somatic activating mutation, loss of a motor neuron survival gene, and the driver mutations of nervous system tumors. Board questions usually give a pedigree, an age of onset, or a cluster of skin, eye, and brain findings and ask for the gene, the inheritance pattern, or the molecular mechanism. If you can say what the normal gene product does, how the mutation changes its amount or behavior, and why the cells that suffer are the ones that depend on it, you can reason through almost every question in this area.",
+  "prerequisites": [
+   "Mendelian inheritance patterns, penetrance, and expressivity",
+   "Meiosis I and II, chromosome segregation, and karyotype notation",
+   "Transcription, pre-mRNA splicing, and DNA methylation as gene silencing",
+   "Cell cycle regulation at the G1 to S checkpoint and the Ras and mTOR growth pathways",
+   "Upper versus lower motor neuron signs (NE-7)"
+  ],
+  "connections": [
+   {
+    "to": "Degenerative and demyelination diseases (NE-20-B)",
+    "how": "Huntington disease, Alzheimer disease, and Friedreich ataxia are degenerative disorders whose cause is genetic, and Down syndrome is the clearest proof that amyloid-beta dosage drives Alzheimer pathology."
+   },
+   {
+    "to": "Neurological neoplasms (NE-20-F)",
+    "how": "Vestibular schwannoma, hemangioblastoma, oligodendroglioma, retinoblastoma, and neuroblastoma are defined or predicted by the genes taught here."
+   },
+   {
+    "to": "Musculoskeletal genetics (MS-9)",
+    "how": "Myotonic dystrophy is both a repeat disorder and a muscle disease, and spinal muscular atrophy must be told apart from primary myopathies in the floppy infant."
+   },
+   {
+    "to": "Neural tube embryology (NE-1)",
+    "how": "Neural crest gives rise to melanocytes, Schwann cells, and the adrenal medulla, which is why skin pigment, nerve sheath tumors, and neuroblastoma recur in this chapter."
+   },
+   {
+    "to": "Neoplasia and cell cycle control",
+    "how": "The two-hit model, tumor suppressor loss, and oncogene amplification are general principles of cancer biology applied here to the nervous system."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Trinucleotide repeat expansion",
+    "def": "Lengthening of a tandem run of three bases beyond a stable size, causing disease once a threshold is passed."
+   },
+   {
+    "term": "Anticipation",
+    "def": "Earlier onset or greater severity of a disease in successive generations, explained in repeat disorders by progressive repeat lengthening."
+   },
+   {
+    "term": "Premutation",
+    "def": "A repeat longer than normal but below the disease range that is unstable and can expand to a full mutation in the next generation."
+   },
+   {
+    "term": "Nondisjunction",
+    "def": "Failure of homologous chromosomes or sister chromatids to separate at meiosis or mitosis, producing cells with an extra or missing chromosome."
+   },
+   {
+    "term": "Robertsonian translocation",
+    "def": "Fusion of the long arms of two acrocentric chromosomes (13, 14, 15, 21, 22) with loss of their short arms, giving a balanced carrier 45 chromosomes."
+   },
+   {
+    "term": "Mosaicism",
+    "def": "Presence of two or more genetically different cell lines in one person, arising from an error after fertilization."
+   },
+   {
+    "term": "Tumor suppressor gene",
+    "def": "A gene whose product restrains growth or division, so disease requires loss of function of both copies in a cell."
+   },
+   {
+    "term": "Two-hit hypothesis",
+    "def": "Knudson's model that a tumor suppressor tumor needs two inactivating events, the first of which may be inherited in every cell."
+   },
+   {
+    "term": "Loss of heterozygosity",
+    "def": "Loss of the remaining normal allele at a locus in a cell that started with one normal and one mutant copy, a common form of the second hit."
+   },
+   {
+    "term": "Oncogene",
+    "def": "A mutated or overexpressed gene whose gain of function drives growth, so one altered copy or amplification is enough."
+   },
+   {
+    "term": "Somatic mosaic mutation",
+    "def": "A mutation that arises after conception in one cell and is passed only to that cell's descendants, so it is not inherited."
+   },
+   {
+    "term": "Gene amplification",
+    "def": "Increase in the number of copies of a gene within a tumor cell, raising its product and acting as a gain of function."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-NEUR-16-01-C01",
+   "obj": "NE-16.1",
+   "title": "Trinucleotide repeat expansion disorders",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "A trinucleotide repeat is a tandem run of the same three bases. Short runs are inherited stably, but once a run passes a threshold it can fold into hairpins and other unusual structures that make DNA polymerase slip during replication and repair, so the tract tends to lengthen when passed on. Longer repeats are both more unstable and more harmful, so each generation tends to carry a longer tract, show symptoms earlier, and be more severely affected. This is anticipation."
+    },
+    {
+     "type": "p",
+     "text": "Where the repeat sits decides how it causes disease. A repeat inside the coding sequence is translated into an abnormal protein (gain of function), a repeat in an untranslated region or intron can silence the gene (loss of function) or produce a toxic RNA."
+    },
+    {
+     "type": "table",
+     "title": "The four repeat disorders compared",
+     "cols": [
+      "Disorder",
+      "Repeat, location, gene",
+      "Mechanism",
+      "Inheritance and anticipation",
+      "Key findings"
+     ],
+     "rows": [
+      [
+       "Huntington disease",
+       "CAG in exon 1 of HTT (chromosome 4)",
+       "Polyglutamine huntingtin misfolds and aggregates (toxic protein)",
+       "Autosomal dominant; anticipation, largest expansions through the father",
+       "Chorea, psychiatric change, dementia, caudate atrophy"
+      ],
+      [
+       "Fragile X syndrome",
+       "CGG in the 5' untranslated region of FMR1 (Xq27.3)",
+       "Full mutation hypermethylates the promoter; FMRP absent",
+       "X-linked (often called X-linked dominant with reduced penetrance in females); anticipation, expansion through the mother",
+       "Intellectual disability, long face, large ears and jaw, macroorchidism, mitral valve prolapse"
+      ],
+      [
+       "Myotonic dystrophy type 1",
+       "CTG in the 3' untranslated region of DMPK (chromosome 19)",
+       "Expanded CUG RNA traps splicing regulators (toxic RNA)",
+       "Autosomal dominant; anticipation, congenital form through the mother",
+       "Myotonia, distal and facial weakness, cataracts, frontal balding, testicular atrophy, heart block"
+      ],
+      [
+       "Friedreich ataxia",
+       "GAA in intron 1 of FXN (chromosome 9)",
+       "Repeat blocks transcription; frataxin deficient (loss of function)",
+       "Autosomal recessive; no anticipation across generations",
+       "Ataxia, areflexia, lost position sense, hypertrophic cardiomyopathy, diabetes, scoliosis"
+      ]
+     ],
+     "caption": "Coding repeats make a toxic protein; noncoding repeats silence the gene or make a toxic RNA."
+    },
+    {
+     "type": "p",
+     "text": "In Huntington disease about 40 or more CAG repeats are fully penetrant (36 to 39 with reduced penetrance). The polyglutamine tract makes huntingtin misfold and aggregate and disturbs transcription, and the GABAergic medium spiny neurons of the striatum die first. Early loss of the indirect pathway removes a brake on movement, producing chorea, and caudate atrophy widens the frontal horns of the lateral ventricles. CAG tracts are most unstable in spermatogenesis, so juvenile cases usually inherit from the father."
+    },
+    {
+     "type": "p",
+     "text": "In fragile X a full mutation (more than about 200 CGG repeats) triggers methylation of the FMR1 promoter, which silences transcription and removes FMRP, an RNA-binding protein that restrains local protein synthesis at synapses. A premutation (about 55 to 200) expands to a full mutation only during female meiosis, so risk depends on the mother's repeat size. Premutation carriers make excess FMR1 mRNA that is toxic, which explains the late-onset tremor and ataxia syndrome in older men and primary ovarian insufficiency in women."
+    },
+    {
+     "type": "p",
+     "text": "In myotonic dystrophy the CTG repeat is transcribed but not translated. The expanded CUG RNA forms nuclear foci that sequester the splicing regulator muscleblind-like 1, so many transcripts revert to fetal splicing. Missplicing of the muscle chloride channel (ClC-1) lowers sarcolemmal chloride conductance, so fibers keep firing after a voluntary contraction and relax slowly, which is myotonia, and missplicing of the insulin receptor causes insulin resistance."
+    },
+    {
+     "type": "p",
+     "text": "In Friedreich ataxia both FXN alleles usually carry GAA expansions that pack the gene into silent chromatin. Frataxin is a mitochondrial protein needed to build iron-sulfur clusters, so its deficiency cripples respiratory chain enzymes, iron accumulates in mitochondria, and oxidative injury follows. Dorsal root ganglion neurons, dorsal columns, spinocerebellar tracts, cardiomyocytes, and pancreatic beta cells are hit hardest. Because carrier parents are unaffected, there is no generation-to-generation anticipation, even though longer repeats predict earlier onset."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-16-01-C02",
+   "obj": "NE-16.2",
+   "title": "Down syndrome: chromosomal mechanisms and early Alzheimer disease",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Down syndrome results from three copies of the long arm of chromosome 21 (21q). The phenotype is a dosage effect: genes on 21q are expressed at about 1.5 times the normal level, which alters development of the brain, face, heart (atrioventricular septal defects), and gut (duodenal atresia). The three ways a person can end up with extra 21q differ in karyotype, cause, link to maternal age, and recurrence risk."
+    },
+    {
+     "type": "table",
+     "title": "Mechanisms of Down syndrome",
+     "cols": [
+      "Mechanism",
+      "Frequency",
+      "Karyotype",
+      "Cause",
+      "Maternal age link",
+      "Recurrence"
+     ],
+     "rows": [
+      [
+       "Meiotic nondisjunction",
+       "About 95%",
+       "47,+21",
+       "Failed separation, mostly maternal meiosis I",
+       "Strong",
+       "Low"
+      ],
+      [
+       "Robertsonian translocation",
+       "About 3 to 4%",
+       "46, with a fused chromosome carrying 21q (often 14;21)",
+       "De novo or inherited from a balanced carrier parent",
+       "None",
+       "High if a parent carries the translocation"
+      ],
+      [
+       "Mosaicism",
+       "About 1 to 2%",
+       "Mixture of 46 and 47,+21 cell lines",
+       "Mitotic nondisjunction after fertilization",
+       "None",
+       "Low"
+      ]
+     ],
+     "caption": "Only the translocation form depends on parental karyotype, so it is the one that can recur in a family regardless of maternal age."
+    },
+    {
+     "type": "p",
+     "text": "Most trisomy 21 arises in the mother because oocytes enter prophase I before birth and stay arrested until ovulation, sometimes for more than 40 years. Over that time the cohesin that holds chromosomes together deteriorates, and homologs joined by few or poorly placed crossovers are more likely to move to the same pole. This is why risk climbs steeply after about age 35."
+    },
+    {
+     "type": "flow",
+     "title": "How a balanced 14;21 carrier has a child with Down syndrome",
+     "steps": [
+      "Parent has 45 chromosomes, including fused 14q21q",
+      "Parent is balanced and phenotypically normal",
+      "Gamete receives fused chromosome plus a free 21",
+      "Fertilization adds another normal 21",
+      "Child has 46 chromosomes but three copies of 21q"
+     ],
+     "caption": "The count looks normal, but 21q is present in triplicate; parental karyotyping is required after any translocation case."
+    },
+    {
+     "type": "p",
+     "text": "In mosaicism a nondisjunction during an early mitotic division leaves only some cell lines trisomic, so features are often milder and vary with the proportion of trisomic cells in each tissue."
+    },
+    {
+     "type": "p",
+     "text": "The amyloid precursor protein (APP) gene lies on 21q. With three copies, cells make about 1.5 times the normal APP, and sequential cleavage by beta-secretase and then gamma-secretase releases more amyloid-beta, especially the aggregation-prone 42 amino acid form. Amyloid-beta deposits as extracellular plaques, followed by tau neurofibrillary tangles and neuron loss, the same cascade as in Alzheimer disease in the general population. Plaques are present in nearly all people with Down syndrome by about age 40, and most develop clinical dementia in their 50s or 60s. The link is specific to APP dosage: duplication of APP alone, without trisomy 21, causes familial early-onset Alzheimer disease."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: recurrence after a translocation case",
+     "text": "A 26-year-old woman has a child with Down syndrome whose karyotype shows 46 chromosomes, including a fused 14;21 chromosome. Step 1: 46 chromosomes with extra 21q means translocation Down syndrome, unrelated to maternal age. Step 2: the parents must be karyotyped, because about a quarter of these translocations are inherited. Step 3: if the mother has 45 chromosomes with the 14;21 fusion, she is a balanced carrier, and her observed recurrence risk is about 10 to 15%, far above the risk for her age. Step 4: if both parents have normal karyotypes, the translocation arose de novo and recurrence is low. A parent carrying a 21;21 fusion can have only liveborn children with Down syndrome, because conceptions lacking 21q are lost."
+    },
+    {
+     "type": "stop",
+     "predict": "Would a woman with Down syndrome caused by mosaicism be expected to show Alzheimer pathology as early as a woman with full trisomy 21?",
+     "explain": "Probably later or less uniformly, because only her trisomic cells carry three APP copies, so amyloid-beta production depends on the proportion of trisomic cells.",
+     "check": "The APP dosage paragraph and the mosaicism row of the mechanisms table."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-16-01-C03",
+   "obj": "NE-16.3",
+   "title": "Neurocutaneous syndromes from tumor suppressor loss",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Neurofibromatosis type 1 (NF1), neurofibromatosis type 2 (NF2), tuberous sclerosis complex, and von Hippel-Lindau disease share one logic. Each is inherited as an autosomal dominant trait, yet each tumor arises only when a cell loses its remaining normal allele. Every cell carries one inherited inactive copy; a somatic second hit, often a deletion or mitotic recombination that produces loss of heterozygosity, removes the other. Because second hits occur randomly across millions of cells, affected people develop multiple tumors in several organs, and the dominant pedigree reflects the near certainty that some cell will be hit. About half of NF1 cases arise from new mutations, so a negative family history does not exclude these disorders."
+    },
+    {
+     "type": "table",
+     "title": "Autosomal dominant tumor suppressor syndromes",
+     "cols": [
+      "Syndrome",
+      "Gene, protein, chromosome",
+      "Normal function lost",
+      "Nervous system lesions",
+      "Other findings"
+     ],
+     "rows": [
+      [
+       "NF1",
+       "NF1, neurofibromin, 17",
+       "Ras GTPase-activating protein; Ras stays on",
+       "Cutaneous and plexiform neurofibromas, optic pathway glioma",
+       "Cafe-au-lait macules, axillary freckling, Lisch nodules, pheochromocytoma"
+      ],
+      [
+       "NF2",
+       "NF2, merlin, 22",
+       "Links membrane to actin for contact inhibition",
+       "Bilateral vestibular schwannomas, meningiomas, spinal ependymomas",
+       "Juvenile posterior subcapsular cataracts"
+      ],
+      [
+       "Tuberous sclerosis",
+       "TSC1 hamartin (9); TSC2 tuberin (16)",
+       "Complex inactivates Rheb; mTORC1 stays on",
+       "Cortical tubers, subependymal nodules, giant cell astrocytoma; seizures, intellectual disability",
+       "Ash-leaf macules, facial angiofibromas, cardiac rhabdomyoma, renal angiomyolipoma"
+      ],
+      [
+       "von Hippel-Lindau",
+       "VHL, VHL protein, 3",
+       "Targets HIF for degradation; HIF accumulates",
+       "Hemangioblastomas of cerebellum, brainstem, spinal cord, and retina",
+       "Bilateral clear cell renal carcinoma, pheochromocytoma, pancreatic cysts"
+      ]
+     ],
+     "caption": "Same inheritance and two-hit mechanism; the lost pathway determines which tumors form."
+    },
+    {
+     "type": "p",
+     "text": "Neurofibromin accelerates hydrolysis of GTP on Ras. Without it Ras remains GTP-bound and keeps the RAF-MEK-ERK and PI3K-AKT pathways active, driving Schwann cell growth in neurofibromas and melanocyte expansion in cafe-au-lait macules. Lisch nodules are pigmented iris hamartomas that do not affect vision."
+    },
+    {
+     "type": "p",
+     "text": "Merlin links membrane receptors to the actin cytoskeleton and transmits the signal that stops growth when cells touch, partly through the Hippo pathway. Schwann and meningothelial cells depend most on this brake, so NF2 produces schwannomas, classically on the vestibular division of cranial nerve VIII at the cerebellopontine angle, causing sensorineural hearing loss, tinnitus, and imbalance."
+    },
+    {
+     "type": "p",
+     "text": "Hamartin and tuberin form a complex whose GTPase-activating activity keeps the small G protein Rheb inactive. Loss of either releases Rheb-GTP to activate mTORC1, which increases protein synthesis and cell size. The resulting lesions are mostly hamartomas, disorganized overgrowths of tissue native to the site. Cortical tubers contain abnormal giant cells and disrupted lamination that act as seizure foci, explaining infantile spasms and epilepsy."
+    },
+    {
+     "type": "flow",
+     "title": "Loss of VHL protein produces pseudohypoxia",
+     "steps": [
+      "Normal oxygen: prolyl hydroxylases hydroxylate HIF-alpha",
+      "VHL protein recognizes hydroxylated HIF and ubiquitinates it",
+      "Proteasome degrades HIF",
+      "VHL lost: HIF escapes degradation despite oxygen",
+      "HIF induces VEGF, erythropoietin, and glucose transporters",
+      "Hemangioblastomas, clear cell carcinoma, possible erythrocytosis"
+     ],
+     "caption": "Cells lacking VHL behave as if hypoxic, which explains the highly vascular tumors."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-16-01-C04",
+   "obj": "NE-16.4",
+   "title": "Sturge-Weber syndrome",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Sturge-Weber syndrome is a congenital capillary-venous malformation affecting the skin of the face, the leptomeninges, and the eye. It is usually grouped with the neurocutaneous syndromes, but its genetics are the opposite of NF1, NF2, tuberous sclerosis, and von Hippel-Lindau disease. It is sporadic, it is caused by an activating (gain of function) mutation rather than loss of a tumor suppressor, and the mutation is present only in a patch of tissue rather than in every cell. It is not inherited, and affected people do not pass it on."
+    },
+    {
+     "type": "p",
+     "text": "The mutation lies in GNAQ, which encodes Gq alpha, the G protein subunit that couples receptors to phospholipase C beta. The usual change, arginine 183 to glutamine, impairs the intrinsic GTPase that switches Gq alpha off, so downstream signaling, including the MAPK pathway, stays active in affected endothelial cells. The mutation arises after conception in a progenitor cell, and only that cell's descendants carry it (somatic mosaicism). Timing matters: a mutation early enough to reach progenitors shared by the upper facial skin, the overlying leptomeninges, and the eye produces the full syndrome, whereas a later mutation produces an isolated port-wine stain, which carries the same GNAQ change. The territory of the ophthalmic division of the trigeminal nerve (CN V1) is used clinically to describe the facial stain; the lesion reflects the embryonic vascular field rather than the nerve itself."
+    },
+    {
+     "type": "table",
+     "title": "Lesions of Sturge-Weber syndrome and their consequences",
+     "cols": [
+      "Lesion",
+      "Mechanism",
+      "Manifestation"
+     ],
+     "rows": [
+      [
+       "Facial port-wine stain (nevus flammeus)",
+       "Dilated dermal capillaries and venules in the CN V1 territory",
+       "Present at birth, usually unilateral; may darken and thicken with age"
+      ],
+      [
+       "Leptomeningeal angioma, ipsilateral",
+       "Capillary-venous malformation of the pia-arachnoid, often occipital and parietal",
+       "Seizures in infancy, contralateral hemiparesis, homonymous hemianopia, intellectual disability"
+      ],
+      [
+       "Cortical injury beneath the angioma",
+       "Venous stasis and poor cortical drainage cause chronic ischemia",
+       "Cortical atrophy and gyriform (tram-track) calcification on imaging"
+      ],
+      [
+       "Eye involvement, ipsilateral",
+       "Raised episcleral venous pressure and a malformed drainage angle",
+       "Glaucoma, sometimes congenital with an enlarged eye (buphthalmos); choroidal hemangioma"
+      ]
+     ],
+     "caption": "The brain and eye injuries follow from abnormal venous drainage, not from tumor growth."
+    },
+    {
+     "type": "flow",
+     "title": "From somatic GNAQ mutation to seizures",
+     "steps": [
+      "Activating GNAQ mutation in an early progenitor cell",
+      "Capillary-venous malformation in face, leptomeninges, and eye",
+      "Abnormal pial vessels drain cortex poorly",
+      "Venous stasis and chronic cortical hypoxia",
+      "Neuron loss, gliosis, calcification",
+      "Focal seizures and contralateral deficits"
+     ],
+     "caption": "Progressive ischemic injury explains why neurologic findings can worsen after birth."
+    },
+    {
+     "type": "p",
+     "text": "Despite the name, the leptomeningeal angioma is a vascular malformation, not a neoplasm, which distinguishes it from the tumors of the tumor suppressor syndromes. A port-wine stain on the forehead or upper eyelid raises the likelihood of brain and eye involvement, but most children with a facial port-wine stain do not have Sturge-Weber syndrome."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-16-01-C05",
+   "obj": "NE-16.5",
+   "title": "Spinal muscular atrophy",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Spinal muscular atrophy (SMA) is an autosomal recessive degeneration of the alpha motor neurons in the anterior horns of the spinal cord and the motor nuclei of the lower brainstem. About 95% of patients lack both copies of exon 7 of SMN1 (survival motor neuron 1) on chromosome 5q, usually by deletion or by conversion of SMN1 into its neighbor SMN2. It is one of the most common lethal recessive disorders of infancy, with a carrier frequency of roughly 1 in 40 to 60."
+    },
+    {
+     "type": "p",
+     "text": "SMN protein assembles the small nuclear ribonucleoproteins of the spliceosome and helps move mRNA along axons. All cells need it, but alpha motor neurons are the most vulnerable; why they are selectively lost is not fully explained, though their very long axons and high demands on RNA processing are thought to contribute."
+    },
+    {
+     "type": "p",
+     "text": "Severity is set by SMN2, a nearly identical gene that everyone carries in variable copy number. A single C to T change in exon 7 of SMN2 disrupts a splicing enhancer, so most SMN2 transcripts skip exon 7 and encode a truncated, unstable protein. Each SMN2 copy therefore contributes only about 10% of full-length SMN, and patients with more copies have more functional protein, later onset, and milder disease."
+    },
+    {
+     "type": "flow",
+     "title": "Why SMN2 copy number sets severity in SMA",
+     "steps": [
+      "Both SMN1 copies deleted or converted",
+      "SMN2 C to T change disrupts an exon 7 splicing enhancer",
+      "About 90% of SMN2 mRNA skips exon 7",
+      "Each SMN2 copy yields about 10% full-length SMN",
+      "Fewer SMN2 copies, less SMN, earlier severe disease"
+     ],
+     "caption": "The modifier gene is the only source of SMN protein once SMN1 is lost."
+    },
+    {
+     "type": "table",
+     "title": "Clinical types of SMA",
+     "cols": [
+      "Type",
+      "Onset",
+      "Highest motor milestone",
+      "Usual SMN2 copies"
+     ],
+     "rows": [
+      [
+       "Type 1 (Werdnig-Hoffmann)",
+       "Before 6 months",
+       "Never sits",
+       "Usually 2"
+      ],
+      [
+       "Type 2",
+       "6 to 18 months",
+       "Sits, never walks",
+       "Usually 3"
+      ],
+      [
+       "Type 3 (Kugelberg-Welander)",
+       "After 18 months",
+       "Walks, may lose walking later",
+       "3 or 4"
+      ],
+      [
+       "Type 4",
+       "Adulthood",
+       "Normal walking, mild weakness",
+       "4 or more"
+      ]
+     ],
+     "caption": "Types form a continuum defined by age of onset and best motor function achieved."
+    },
+    {
+     "type": "p",
+     "text": "Loss of anterior horn cells removes the final common pathway to muscle, so every sign is a lower motor neuron sign. The severe infantile form presents as a floppy infant with symmetric proximal weakness, frog-leg posture, and absent deep tendon reflexes. Tongue fasciculations reflect degeneration of hypoglossal motor neurons. Intercostal muscles weaken before the diaphragm, so the chest is drawn in while the abdomen rises (paradoxical breathing) and the chest becomes bell-shaped; respiratory failure is the usual cause of death in untreated type 1. Sensory neurons, cortex, and the extraocular muscles are spared, so the infant is alert, with normal sensation and eye movements. Electromyography shows denervation, muscle biopsy shows grouped atrophy, and creatine kinase is normal or only mildly raised."
+    },
+    {
+     "type": "p",
+     "text": "Two distinctions are frequently tested. Central (upper motor neuron) causes of infant hypotonia preserve or increase reflexes and often impair alertness. Infant botulism also produces a floppy baby, but blocked acetylcholine release adds constipation, ptosis, poor suck, and sluggish pupils, all absent in SMA."
+    },
+    {
+     "type": "stop",
+     "predict": "Two siblings both lack SMN1 entirely, yet one sits unsupported at 9 months and the other never achieves head control. What genetic difference best explains this?",
+     "explain": "The milder sibling most likely carries more SMN2 copies. SMN1 status is identical, so the amount of full-length SMN made from SMN2 decides how many motor neurons survive.",
+     "check": "The SMN2 splicing flow and the clinical types table."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-16-01-C06",
+   "obj": "NE-16.6",
+   "title": "Driver genes in nervous system tumors",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Tumors arise when mutations inactivate tumor suppressor genes or activate oncogenes. A tumor suppressor acts recessively at the level of the cell, so both copies must be lost; an oncogene acts dominantly, so one activating event, such as amplification, is enough. Retinoblastoma, oligodendroglioma, and neuroblastoma each illustrate a different way a driver gene shapes a tumor's behavior and its laboratory definition."
+    },
+    {
+     "type": "flow",
+     "title": "Rb and the G1 to S checkpoint",
+     "steps": [
+      "Hypophosphorylated Rb binds E2F and represses S-phase genes",
+      "Growth signals raise cyclin D, activating CDK4 and CDK6",
+      "CDK4/6, then cyclin E-CDK2, hyperphosphorylate Rb, freeing E2F",
+      "E2F drives transcription of DNA synthesis genes",
+      "Cell enters S phase",
+      "Both RB1 copies lost: E2F always free, G1 control lost"
+     ],
+     "caption": "Rb is the brake on entry into DNA synthesis; losing both copies removes the brake permanently."
+    },
+    {
+     "type": "p",
+     "text": "RB1 on chromosome 13q14 encodes Rb, the protein that holds cells in G1. Knudson's two-hit model came from retinoblastoma. In hereditary cases, about 40%, a germline RB1 mutation is present in every retinal cell, so one somatic hit is enough. Tumors therefore tend to be bilateral, multifocal, and diagnosed earlier, and survivors carry a lifelong risk of second cancers, especially osteosarcoma and other sarcomas. In sporadic cases both hits must occur in the same developing retinal cell, so the tumor is usually unilateral, single, and later. Inheritance appears autosomal dominant with high penetrance, although the gene is recessive within the cell. Retinoblastoma presents as leukocoria, a white pupillary reflex, often with strabismus."
+    },
+    {
+     "type": "p",
+     "text": "Oligodendroglioma is now defined molecularly by an IDH1 or IDH2 mutation plus whole-arm codeletion of 1p and 19q. Mutant isocitrate dehydrogenase gains a new activity, converting alpha-ketoglutarate to 2-hydroxyglutarate. This oncometabolite inhibits alpha-ketoglutarate-dependent DNA and histone demethylases, producing widespread hypermethylation that blocks glial differentiation. The tumor typically arises in the frontal lobe of adults and presents with seizures; classic histology shows round nuclei with perinuclear halos (fried-egg cells), branching chicken-wire capillaries, and calcification. IDH mutation with 1p/19q codeletion predicts slower growth and longer survival than IDH-wildtype gliomas."
+    },
+    {
+     "type": "p",
+     "text": "Neuroblastoma arises from neural crest cells of the sympathetic system, most often in the adrenal medulla of children younger than about 5 years. Tumor cells secrete catecholamines, so urinary homovanillic acid and vanillylmandelic acid are raised, and histology shows small round blue cells with Homer Wright rosettes. MYCN on chromosome 2p encodes N-Myc, a transcription factor that drives proliferation and blocks differentiation. Amplification, often more than 10 copies, occurs in about a quarter of tumors and marks aggressive disease with poor prognosis independent of age and stage."
+    },
+    {
+     "type": "table",
+     "title": "Driver gene defects in nervous system tumors",
+     "cols": [
+      "Tumor",
+      "Driver",
+      "Type of alteration",
+      "Behavior within the cell",
+      "Significance"
+     ],
+     "rows": [
+      [
+       "Retinoblastoma",
+       "RB1 (13q14)",
+       "Two-hit loss: mutation, deletion, or loss of heterozygosity",
+       "Recessive tumor suppressor",
+       "Germline first hit: bilateral, early, later osteosarcoma"
+      ],
+      [
+       "Oligodendroglioma",
+       "IDH1 or IDH2 with 1p/19q codeletion",
+       "Point mutation (neomorphic enzyme) plus chromosome arm loss",
+       "Gain of a new function",
+       "Defining marker; better prognosis than IDH-wildtype glioma"
+      ],
+      [
+       "Neuroblastoma",
+       "MYCN (2p)",
+       "Gene amplification",
+       "Dominant oncogene",
+       "Aggressive disease, poor prognosis"
+      ]
+     ],
+     "caption": "The type of alteration predicts how many events are needed and how the tumor behaves."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: bilateral versus unilateral retinoblastoma",
+     "text": "A 9-month-old has tumors in both eyes; a 2-year-old has one tumor in one eye. Step 1: bilateral, early disease implies a germline RB1 mutation, because every retinal cell already carries the first hit and only a common somatic second hit is needed. Step 2: this child will pass the mutation to about 50% of children, and most carriers develop retinoblastoma because second hits are very likely. Step 3: the second child probably has two somatic hits in one cell, which is rare, explaining one tumor at a later age. Step 4: unilateral disease does not fully exclude a germline mutation, which is present in a minority of unilateral cases, so germline testing is still informative."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "This chapter applies a few molecular rules across very different diseases. Loss of function needs both copies in a cell (Friedreich ataxia, SMA, tumor suppressor syndromes, retinoblastoma), whereas gain of function needs one (Huntington disease, myotonic dystrophy RNA toxicity, Sturge-Weber, MYCN). Dosage alone can cause disease, as an extra APP copy shows, and timing of a mutation decides whether it is inherited in every cell, confined to one tissue, or limited to a tumor. Anatomy and embryology explain distribution: neural crest derivatives link pigment, nerve sheath, and adrenal lesions, and the territory of an early progenitor defines the Sturge-Weber field."
+  },
+  {
+   "type": "p",
+   "text": "Pathology and biochemistry connect these genes to familiar pathways: Ras, mTOR, HIF, Rb and E2F, mitochondrial iron-sulfur assembly, and splicing. The limits matter. Repeat thresholds overlap, penetrance in the intermediate ranges is uncertain, phenotype severity within one genotype still varies, and tumor classifications now rest on molecular criteria that are revised over time, so definitions should be checked against current references."
+  }
+ ],
+ "summary": [
+  "Repeat instability increases with length, causing anticipation in Huntington disease (paternal), fragile X (maternal), and myotonic dystrophy (congenital form maternal), but not in recessive Friedreich ataxia.",
+  "Huntington CAG makes toxic polyglutamine huntingtin; fragile X CGG silences FMR1 by hypermethylation; myotonic dystrophy CTG makes toxic RNA that missplices ClC-1; Friedreich GAA blocks frataxin transcription.",
+  "About 95% of Down syndrome is nondisjunction, mostly maternal meiosis I and age-related; Robertsonian translocation can recur regardless of maternal age; mosaicism is usually milder.",
+  "Three copies of APP on chromosome 21 raise amyloid-beta, giving plaques by about age 40 and early-onset Alzheimer disease.",
+  "NF1, NF2, tuberous sclerosis, and von Hippel-Lindau are autosomal dominant but need a second somatic hit in each tumor cell.",
+  "Neurofibromin turns off Ras, merlin mediates contact inhibition, hamartin-tuberin restrains mTORC1 through Rheb, and VHL protein targets HIF for degradation.",
+  "Sturge-Weber is a sporadic somatic activating GNAQ mutation: CN V1 port-wine stain, ipsilateral leptomeningeal angioma, seizures, and glaucoma.",
+  "SMA is recessive loss of SMN1 with pure lower motor neuron signs; SMN2 copy number sets severity.",
+  "RB1 needs two hits, oligodendroglioma is defined by IDH mutation with 1p/19q codeletion, and MYCN amplification marks aggressive neuroblastoma."
+ ],
+ "sources": [
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Genetic and Pediatric Diseases"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Neoplasia"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "The Central Nervous System"
+  },
+  {
+   "book": "Lippincott Illustrated Reviews: Biochemistry",
+   "where": "Regulation of gene expression and RNA processing"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Genetic Disease"
+  },
+  {
+   "book": "Langman's Medical Embryology",
+   "where": "Central nervous system and neural crest derivatives"
+  }
+ ],
+ "verify": [
+  "Repeat thresholds differ slightly between sources: Huntington 36 to 39 reduced penetrance and 40 or more full penetrance; fragile X premutation about 55 to 200 and full mutation more than about 200; confirm the values NABNE uses.",
+  "Fragile X inheritance is labeled X-linked dominant in some review sources and simply X-linked in others; confirm the term NABNE expects.",
+  "Down syndrome mechanism percentages (about 95%, 3 to 4%, 1 to 2%), the proportion of translocations that are inherited (about one quarter), and recurrence for a maternal 14;21 carrier (about 10 to 15%, lower for a paternal carrier) vary between sources.",
+  "Mosaic Down syndrome is listed with no maternal age link; mosaics that arise by loss of an extra 21 from a trisomic zygote may carry one.",
+  "Ages for universal Alzheimer plaques (about 40) and onset of dementia in Down syndrome (50s to 60s) are consensus approximations.",
+  "The proportion of children with a forehead or upper eyelid port-wine stain who have Sturge-Weber syndrome is quoted variably; the chapter states only that most do not.",
+  "SMA carrier frequency (about 1 in 40 to 60), SMN2 copy number by type, and the 10% full-length SMN figure are approximate.",
+  "Proportion of hereditary retinoblastoma (about 40%) and of neuroblastomas with MYCN amplification (about a quarter) vary between sources.",
+  "The molecular definition of oligodendroglioma follows the 2021 WHO classification of CNS tumors; confirm that NABNE materials use this definition.",
+  "Requested new diagram names for a future revision: two-hit-model (germline versus sporadic first and second hits) and robertsonian-translocation (balanced carrier and possible gametes)."
+ ]
+}

@@ -1,0 +1,608 @@
+{
+ "unit": "NE-18",
+ "chapter_id": "NPLEX-P1-NEUR-18",
+ "topic_id": "NPLEX-P1-NEUR-18-01",
+ "title": "Immune Responses in Neurological Disease",
+ "subject": "Nervous System (NEUR)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "The nervous system keeps most of the immune system at a distance, yet many neurologic diseases are driven by immune responses. This chapter explains how the blood-brain barrier and microglia shape CNS defense and how cytokines in bacterial meningitis cause cerebral edema. It then covers autoimmune attack on CNS myelin (multiple sclerosis), peripheral nerve (Guillain-Barré syndrome), and the neuromuscular junction (myasthenia gravis, Lambert-Eaton syndrome), paraneoplastic syndromes, and the immunology of vaccines against meningitis and polio. Board questions usually give a CSF result, an antibody, or an antecedent infection and ask you to name the target, the effector, and the hypersensitivity type.",
+  "prerequisites": [
+   "Innate immunity: toll-like receptors, NF-kB, IL-1 and TNF, neutrophil recruitment (IM-13)",
+   "Antibody classes, class switching, and T cell help to B cells (IM-5)",
+   "Gell and Coombs hypersensitivity types (IM-15-C)",
+   "Myelination by oligodendrocytes and Schwann cells, and saltatory conduction (NE-2, NE-13)",
+   "CSF formation, flow, and normal composition (NE-4, NE-10)"
+  ],
+  "connections": [
+   {
+    "to": "Synaptic transmission (NE-13)",
+    "how": "Myasthenia gravis and Lambert-Eaton syndrome are explained by the quantal release of acetylcholine and the safety factor of the end-plate potential."
+   },
+   {
+    "to": "Neurological pathogens (NE-19) and CNS infections (NE-20-G)",
+    "how": "The organisms that cause meningitis and polio are the targets of the vaccines covered here, and their structures trigger the cytokine response."
+   },
+   {
+    "to": "Degenerative and demyelination diseases (NE-20-B)",
+    "how": "The pathology of multiple sclerosis plaques and ADEM builds on the T cell mechanisms taught in this chapter."
+   },
+   {
+    "to": "Pulmonary and reproductive neoplasia",
+    "how": "Small cell lung cancer, ovarian teratoma, and gynecologic cancers supply the shared antigens behind paraneoplastic syndromes."
+   },
+   {
+    "to": "Diseases of increased intracranial fluid (NE-20-C)",
+    "how": "Vasogenic, cytotoxic, and interstitial edema from meningitis raise intracranial pressure and reduce cerebral perfusion."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Blood-brain barrier",
+    "def": "The tight junction-sealed, nonfenestrated capillary endothelium of the CNS, supported by basement membrane, pericytes, and astrocyte end-feet, that restricts passage of cells, proteins, and polar solutes."
+   },
+   {
+    "term": "Microglia",
+    "def": "Resident macrophages of the CNS, derived from yolk sac precursors, that survey tissue, phagocytose debris, present antigen, and release cytokines."
+   },
+   {
+    "term": "Vasogenic edema",
+    "def": "Extracellular accumulation of plasma water and protein in brain tissue after the blood-brain barrier opens."
+   },
+   {
+    "term": "Cerebral perfusion pressure",
+    "def": "The pressure driving blood through the brain, equal to mean arterial pressure minus intracranial pressure."
+   },
+   {
+    "term": "Oligoclonal bands",
+    "def": "Discrete IgG bands on CSF electrophoresis, absent from paired serum, that indicate antibody synthesis by a few B cell clones inside the CNS."
+   },
+   {
+    "term": "Molecular mimicry",
+    "def": "Cross-reaction of an immune response raised against a microbial antigen with a structurally similar host molecule."
+   },
+   {
+    "term": "Albuminocytologic dissociation",
+    "def": "Raised CSF protein with a normal CSF cell count, typical of Guillain-Barré syndrome."
+   },
+   {
+    "term": "Type II hypersensitivity",
+    "def": "Injury or dysfunction caused by antibody binding to antigen fixed on a cell surface or in tissue matrix."
+   },
+   {
+    "term": "Safety factor",
+    "def": "The margin by which the end-plate potential normally exceeds the depolarization needed to trigger a muscle action potential."
+   },
+   {
+    "term": "Onconeural antigen",
+    "def": "A protein normally restricted to neurons that is also expressed by a tumor and becomes the target of a paraneoplastic immune response."
+   },
+   {
+    "term": "Linked recognition",
+    "def": "Help given by a T cell to a B cell when both recognize different parts of the same physical antigen, the basis of conjugate vaccines."
+   },
+   {
+    "term": "Secretory IgA",
+    "def": "Dimeric IgA joined by J chain and transported across mucosal epithelium by the polymeric immunoglobulin receptor, which protects mucosal surfaces."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-NEUR-18-01-C01",
+   "obj": "NE-18.1",
+   "title": "The blood-brain barrier, microglia, and cytokine-driven edema in bacterial meningitis",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The blood-brain barrier (BBB) is formed by continuous, nonfenestrated capillary endothelium whose cells are sealed by tight junctions (claudin-5 and occludin) and carry out very little transcytosis. A basement membrane, pericytes, and astrocyte end-feet surround the capillary and maintain these properties. Solutes cross only if they are lipid soluble or have a carrier, such as GLUT1 for glucose. The barrier is absent at the circumventricular organs (for example the area postrema and posterior pituitary), and the choroid plexus has fenestrated capillaries, so its barrier lies in the choroid epithelium instead."
+    },
+    {
+     "type": "p",
+     "text": "The barrier also limits immune surveillance. Normal CSF holds fewer than 5 cells/µL, very little complement, and IgG at well under 1% of the plasma level, so the subarachnoid space is poor at opsonizing bacteria. Innate defense rests mainly on microglia. Unlike neurons and macroglia, which arise from neuroectoderm, microglia derive from yolk sac (mesodermal) myeloid precursors. At rest they are ramified and survey the tissue with their processes. When their pattern recognition receptors are engaged, they retract their processes, become amoeboid, phagocytose, increase MHC class II, and release cytokines. Perivascular and meningeal macrophages play the same role at the borders of the brain."
+    },
+    {
+     "type": "h",
+     "text": "How cytokines open the barrier in bacterial meningitis"
+    },
+    {
+     "type": "p",
+     "text": "Bacteria usually reach the subarachnoid space from the bloodstream after nasopharyngeal colonization, then multiply freely in CSF. Their cell wall products activate toll-like receptors (TLR4 for the lipopolysaccharide or lipooligosaccharide of N. meningitidis and H. influenzae, TLR2 and NOD-like receptors for pneumococcal lipoteichoic acid and peptidoglycan). Through NF-kB, microglia, macrophages, and endothelium release IL-1 beta and TNF-alpha, with IL-6 and chemokines."
+    },
+    {
+     "type": "flow",
+     "title": "From bacterial products to cerebral edema",
+     "steps": [
+      "Bacteria multiply in CSF lacking complement and antibody",
+      "Cell wall products activate TLRs on microglia and macrophages",
+      "NF-kB drives IL-1 and TNF release",
+      "Endothelial E-selectin and ICAM-1 recruit neutrophils",
+      "Neutrophil proteases and oxidants loosen tight junctions",
+      "Plasma water and protein leak: vasogenic edema",
+      "Intracranial pressure rises; perfusion falls; herniation risk"
+     ],
+     "caption": "IL-1 and TNF convert a local infection into barrier failure, edema, and raised intracranial pressure."
+    },
+    {
+     "type": "p",
+     "text": "Edema has three components. Vasogenic edema comes from the open barrier. Cytotoxic edema follows when bacterial toxins, neutrophil products, excess glutamate, and ischemia fail the Na+/K+-ATPase, so cells swell. Interstitial edema appears when purulent exudate blocks CSF absorption at the arachnoid granulations, producing hydrocephalus. Together they raise intracranial pressure (ICP), which lowers cerebral perfusion pressure (CPP = mean arterial pressure minus ICP); the resulting ischemia adds more cytotoxic edema, a self-reinforcing cycle. The same mechanisms explain the CSF: many neutrophils, high protein from the leaky barrier, and low glucose because GLUT1 transport is impaired while neutrophils, bacteria, and brain tissue consume it."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: intracranial pressure and perfusion",
+     "text": "A patient with pneumococcal meningitis has a mean arterial pressure of 90 mmHg. With a normal ICP of about 10 mmHg, CPP is 90 minus 10, or 80 mmHg, within the range where autoregulation holds cerebral blood flow steady. As edema raises ICP to 40 mmHg, CPP falls to 50 mmHg, near the lower limit of autoregulation (about 50 to 60 mmHg). Any further rise in ICP or fall in blood pressure now reduces flow passively, the brain becomes ischemic, cells swell, and ICP rises further. The Cushing reflex (hypertension, bradycardia, irregular breathing) reflects the brainstem trying to restore CPP by raising arterial pressure."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-18-01-C02",
+   "obj": "NE-18.2",
+   "title": "Multiple sclerosis: T cell-mediated injury to CNS myelin",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Multiple sclerosis (MS) is a chronic immune-mediated disease that destroys CNS myelin and the oligodendrocytes that make it, producing lesions separated in time and in space. Peripheral myelin, made by Schwann cells, is spared, which is one feature that separates MS from Guillain-Barré syndrome."
+    },
+    {
+     "type": "flow",
+     "title": "Pathogenesis of an MS plaque",
+     "steps": [
+      "Myelin-reactive CD4 T cells escape tolerance",
+      "Activated in peripheral lymphoid tissue, possibly by mimicry",
+      "VLA-4 binds endothelial VCAM-1; T cells cross the barrier",
+      "Reactivated by microglia presenting myelin peptides on MHC II",
+      "Th1 releases IFN-gamma; Th17 releases IL-17",
+      "Macrophages and microglia strip and phagocytose myelin",
+      "Demyelinated axons conduct slowly or fail"
+     ],
+     "caption": "CD4 T cells start the lesion; macrophages, microglia, CD8 T cells, B cells, and antibody carry out the injury."
+    },
+    {
+     "type": "p",
+     "text": "Th1 cells secrete interferon-gamma, which activates macrophages and microglia. Th17 cells secrete IL-17, which recruits neutrophils and further loosens the barrier. The candidate antigens are myelin proteins such as myelin basic protein, proteolipid protein, and myelin oligodendrocyte glycoprotein. Experimental autoimmune encephalomyelitis, induced in animals by immunization with myelin antigens and transferred by CD4 T cells, supports this model. Epstein-Barr virus infection is strongly associated with later MS, consistent with mimicry or bystander activation."
+    },
+    {
+     "type": "p",
+     "text": "The strongest genetic risk is the HLA-DR2 class II haplotype (HLA-DRB1*15:01, serologically DR15). Class II molecules present peptides to CD4 T cells, which fits a CD4-driven disease. Other risks are female sex (about 2 to 3 times more common), onset between 20 and 40 years, higher latitude, low vitamin D, and smoking."
+    },
+    {
+     "type": "p",
+     "text": "B cells and plasma cells that settle in the CNS make IgG from a limited number of clones. CSF electrophoresis therefore shows oligoclonal IgG bands that are absent from paired serum, proving intrathecal synthesis, in more than 90% of patients, with a raised IgG index. The cell count is normal or mildly raised with lymphocytes. Bands are not specific, because CNS infections can also produce them."
+    },
+    {
+     "type": "p",
+     "text": "Inflammation starts around small veins, so plaques cluster around the periventricular veins and appear on MRI as ovoid lesions perpendicular to the lateral ventricles, as well as in juxtacortical, infratentorial, spinal cord, and optic nerve white matter. Active plaques contain perivenular lymphocytes and lipid-laden macrophages with relatively preserved axons; old plaques are gliotic scars with few oligodendrocytes and progressive axon loss, which drives lasting disability. Demyelinated internodes have few Na+ channels and leak current, so saltatory conduction slows or blocks. Raising body temperature shortens Na+ channel opening, so marginal axons fail and symptoms worsen with heat or exercise (Uhthoff phenomenon)."
+    },
+    {
+     "type": "table",
+     "title": "MS lesion sites and their findings",
+     "cols": [
+      "Lesion site",
+      "Finding"
+     ],
+     "rows": [
+      [
+       "Optic nerve",
+       "Optic neuritis: painful monocular vision loss, relative afferent pupillary defect"
+      ],
+      [
+       "Medial longitudinal fasciculus",
+       "Internuclear ophthalmoplegia: weak adduction on the side of the lesion, nystagmus of the abducting eye"
+      ],
+      [
+       "Cervical dorsal columns",
+       "Lhermitte sign (electric sensation down the spine on neck flexion), loss of vibration sense"
+      ],
+      [
+       "Corticospinal tracts",
+       "Spastic weakness, hyperreflexia, Babinski sign"
+      ],
+      [
+       "Cerebellum and its connections",
+       "Ataxia, intention tremor, scanning dysarthria"
+      ]
+     ],
+     "caption": "Upper motor neuron and central sensory signs reflect CNS white matter lesions."
+    },
+    {
+     "type": "stop",
+     "predict": "Would a patient with MS have antibody bands in serum that match the CSF bands?",
+     "explain": "No. The defining bands come from plasma cells inside the CNS, so they appear in CSF but not in paired serum.",
+     "check": "Compare with the paragraph on oligoclonal IgG bands and intrathecal synthesis."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-18-01-C03",
+   "obj": "NE-18.3",
+   "title": "Guillain-Barré syndrome and molecular mimicry",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Guillain-Barré syndrome (GBS) is an acute immune-mediated polyradiculoneuropathy, an attack on peripheral nerves and spinal nerve roots. The demyelinating form, acute inflammatory demyelinating polyradiculoneuropathy (AIDP), is most common in North America and Europe; axonal forms such as acute motor axonal neuropathy (AMAN) are more common in Asia and after Campylobacter jejuni infection."
+    },
+    {
+     "type": "p",
+     "text": "About two thirds of patients report an infection 1 to 4 weeks earlier, most often C. jejuni enteritis, with cytomegalovirus, Epstein-Barr virus, Mycoplasma pneumoniae, and Zika virus also implicated. The outer core of C. jejuni lipooligosaccharide (LOS) carries sialylated sugars structurally identical to the carbohydrate of gangliosides such as GM1 and GD1a. Antibodies made against the bacterium therefore bind gangliosides concentrated at the nodes of Ranvier and paranodes. Bound IgG activates complement, whose membrane attack complex disrupts the nodal axolemma and its Na+ channel clusters (AMAN), or macrophages enter the nerve and strip myelin (AIDP). The LOS structure of the infecting strain helps decide which ganglioside is targeted."
+    },
+    {
+     "type": "flow",
+     "title": "Molecular mimicry in Guillain-Barré syndrome",
+     "steps": [
+      "C. jejuni enteritis exposes lipooligosaccharide",
+      "B cells make IgG against ganglioside-like sugars",
+      "IgG binds gangliosides at nodes and paranodes",
+      "Complement and macrophages damage myelin or axolemma",
+      "Conduction slows or blocks in roots and nerves",
+      "Ascending weakness and areflexia"
+     ],
+     "caption": "The response is appropriate against the bacterium but cross-reacts with peripheral nerve gangliosides."
+    },
+    {
+     "type": "p",
+     "text": "Weakness is symmetric, flaccid, and usually ascending, reaching its worst within 4 weeks. Reflexes disappear because both arms of the reflex arc run in peripheral nerves. Cranial nerves (often both facial nerves), the phrenic and intercostal nerves (respiratory failure), and autonomic fibers (arrhythmia, labile blood pressure) can be involved. These are lower motor neuron signs, unlike the upper motor neuron signs of MS. Schwann cells remyelinate, so most patients recover over weeks to months, more slowly in axonal forms. Nerve conduction studies show slowed velocity, prolonged latencies, and conduction block in AIDP, but reduced amplitudes with preserved velocity in AMAN."
+    },
+    {
+     "type": "p",
+     "text": "The CSF shows albuminocytologic dissociation. Inflamed nerve roots lie in the subarachnoid space and leak protein, but few leukocytes enter the CSF, so protein rises with fewer than 10 cells/µL; protein may still be normal in the first week."
+    },
+    {
+     "type": "p",
+     "text": "In the Miller Fisher variant, about 90% of patients have IgG against ganglioside GQ1b, which is concentrated in the paranodal regions of the oculomotor, trochlear, and abducens nerves and in large sensory neurons that carry muscle spindle input. The antibody target explains the triad: ophthalmoplegia, ataxia from loss of proprioceptive input, and areflexia, usually with little limb weakness."
+    },
+    {
+     "type": "table",
+     "title": "CSF patterns in immune neurologic disease",
+     "cols": [
+      "Condition",
+      "Cells",
+      "Protein",
+      "Glucose",
+      "Distinctive finding"
+     ],
+     "rows": [
+      [
+       "Normal adult",
+       "0 to 5/µL, mononuclear",
+       "About 15 to 45 mg/dL",
+       "About 60% of serum",
+       "Clear, opening pressure about 10 to 20 cm H2O"
+      ],
+      [
+       "Bacterial meningitis",
+       "Often 1,000 to 5,000/µL, neutrophils",
+       "Markedly raised",
+       "Low, CSF to serum ratio 0.4 or less",
+       "Raised opening pressure, organisms on Gram stain"
+      ],
+      [
+       "Multiple sclerosis",
+       "Normal or mildly raised lymphocytes",
+       "Normal or mildly raised",
+       "Normal",
+       "Oligoclonal IgG bands absent from serum"
+      ],
+      [
+       "Guillain-Barré syndrome",
+       "Usually fewer than 10/µL",
+       "Raised",
+       "Normal",
+       "Albuminocytologic dissociation"
+      ]
+     ],
+     "caption": "Cells reflect leukocyte entry, protein reflects barrier or root leak, and glucose falls only when transport fails and consumption rises."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-18-01-C04",
+   "obj": "NE-18.4",
+   "title": "Classifying neuroimmune disease: antibody-mediated versus T cell-mediated",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "In type II hypersensitivity, IgG or IgM binds an antigen fixed on a cell surface or in matrix. The antibody then activates complement, opsonizes the target for phagocytes, or changes the function of a receptor by blocking or stimulating it without killing the cell. In type IV hypersensitivity, T cells cause the injury without any need for antibody: CD4 cells by releasing cytokines that activate macrophages, and CD8 cells by direct cytotoxicity."
+    },
+    {
+     "type": "h",
+     "text": "Myasthenia gravis"
+    },
+    {
+     "type": "p",
+     "text": "About 85% of patients with generalized myasthenia gravis have IgG against the nicotinic acetylcholine receptor (AChR) on the postsynaptic membrane; most others have antibodies to muscle-specific kinase (MuSK) or LRP4, which cluster the receptor. Anti-AChR IgG acts in three ways: cross-linking speeds internalization and degradation of receptors, complement damages the postsynaptic folds (flattening them and widening the cleft), and some antibodies block the acetylcholine binding site. The end-plate potential (EPP) normally exceeds threshold by a wide safety factor. With fewer receptors the EPP is smaller, and because acetylcholine release normally declines with repeated firing, more junctions fall below threshold as activity continues. Weakness is therefore fatigable and worse late in the day, favoring the extraocular muscles and levator (diplopia, ptosis), then bulbar and proximal limb muscles, with normal sensation and reflexes. An acetylcholinesterase inhibitor briefly improves strength because acetylcholine lingers in the cleft."
+    },
+    {
+     "type": "p",
+     "text": "Most AChR-positive patients have a thymic abnormality: lymphoid follicular hyperplasia with germinal centers in about 60 to 70% and thymoma in about 10 to 15%. Thymic myoid cells express AChR, and the thymus is thought to be where tolerance to the receptor breaks down."
+    },
+    {
+     "type": "h",
+     "text": "Lambert-Eaton myasthenic syndrome"
+    },
+    {
+     "type": "p",
+     "text": "In Lambert-Eaton syndrome (LEMS), IgG binds presynaptic P/Q-type voltage-gated Ca2+ channels at motor and autonomic nerve terminals. Less Ca2+ enters with each action potential, fewer quanta are released, and the EPP is small. Patients have proximal leg weakness, reduced reflexes, and autonomic symptoms such as dry mouth, with little ocular involvement. About half have small cell lung cancer, which expresses the same channel. During brief maximal effort, Ca2+ accumulates in the terminal and release rises, so strength and reflexes improve for a short time."
+    },
+    {
+     "type": "h",
+     "text": "T cell-mediated demyelination"
+    },
+    {
+     "type": "p",
+     "text": "MS and acute disseminated encephalomyelitis (ADEM) are classed as type IV. ADEM is usually a single episode of multifocal perivenous demyelination with encephalopathy, most often in a child days to weeks after a viral infection or, rarely, vaccination. All its lesions are the same age, unlike the lesions of different ages in MS. GBS is mainly antibody-mediated, although T cells and macrophages contribute."
+    },
+    {
+     "type": "table",
+     "title": "Immune mechanisms in neurologic disease",
+     "cols": [
+      "Disorder",
+      "Target",
+      "Effector",
+      "Type",
+      "Signature finding"
+     ],
+     "rows": [
+      [
+       "Myasthenia gravis",
+       "Postsynaptic AChR",
+       "IgG, complement",
+       "II",
+       "Fatigable ptosis and diplopia; decrement on repetitive stimulation"
+      ],
+      [
+       "Lambert-Eaton syndrome",
+       "Presynaptic P/Q Ca2+ channel",
+       "IgG",
+       "II",
+       "Strength improves briefly with effort; small cell lung cancer"
+      ],
+      [
+       "Guillain-Barré syndrome",
+       "Peripheral nerve gangliosides",
+       "IgG, complement, macrophages",
+       "Mainly II",
+       "Ascending weakness, areflexia, albuminocytologic dissociation"
+      ],
+      [
+       "Multiple sclerosis",
+       "CNS myelin",
+       "CD4 Th1 and Th17, macrophages",
+       "IV",
+       "Relapses; periventricular plaques; oligoclonal bands"
+      ],
+      [
+       "ADEM",
+       "CNS myelin",
+       "T cells",
+       "IV",
+       "Monophasic, postinfectious, lesions of the same age"
+      ]
+     ],
+     "caption": "Antibody-mediated disorders act at the neuromuscular junction and peripheral nerve; T cell-mediated disorders demyelinate the CNS."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: repetitive nerve stimulation",
+     "text": "Stimulating a motor nerve at 3 Hz normally lowers acetylcholine release over the first few shocks, but the safety factor keeps every fiber firing, so the compound muscle action potential (CMAP) is stable. In myasthenia gravis the reduced safety factor means fibers drop out as release declines, and the CMAP decreases progressively (decrement). In LEMS the first CMAP is already small because few quanta are released. After 10 seconds of maximal contraction, or stimulation at 20 to 50 Hz, Ca2+ builds up in the terminal and the CMAP can more than double (increment). A postsynaptic defect gives decrement; a presynaptic Ca2+ defect gives facilitation."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-18-01-C05",
+   "obj": "NE-18.5",
+   "title": "Paraneoplastic neurologic syndromes",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "A paraneoplastic neurologic syndrome is nervous system injury caused by a tumor at a distance, not by invasion, metastasis, metabolic effects, or treatment. The tumor expresses an onconeural antigen, a protein normally restricted to neurons. The neurons have been largely hidden from the immune system behind the barrier, while the tumor presents the antigen in an immunologically active setting. The response raised against the tumor then crosses into the nervous system. Because this response may hold the tumor in check, the neurologic syndrome often appears months before the cancer is found, and the tumor is frequently small."
+    },
+    {
+     "type": "p",
+     "text": "The location of the antigen decides the effector and the outcome. When the antigen is intracellular, as with Hu and Yo, antibodies cannot reach it in living cells; they serve as markers, and CD8 cytotoxic T cells that recognize antigen peptides on MHC class I kill the neurons. Neuron loss is therefore largely permanent. When the antigen sits on the cell surface, as with the NMDA receptor or the Ca2+ channel in LEMS, the antibody itself causes the dysfunction, and recovery is possible when antibody levels fall."
+    },
+    {
+     "type": "p",
+     "text": "Anti-Hu antibodies (ANNA-1) recognize RNA-binding proteins in neuronal nuclei and are most often linked to small cell lung cancer. Dorsal root ganglion neurons are especially exposed because their capillaries are more permeable than those of the CNS. Their loss causes sensory neuronopathy: asymmetric loss of all sensory modalities, pain, sensory ataxia, and areflexia. Inflammation of the hippocampus and amygdala causes limbic encephalitis with short-term memory loss, mood and behavior change, and seizures."
+    },
+    {
+     "type": "p",
+     "text": "Anti-Yo antibodies (PCA-1) recognize a cytoplasmic protein of Purkinje cells and occur almost entirely in women with ovarian, breast, or other gynecologic cancers. Purkinje cell loss causes subacute cerebellar degeneration: gait and limb ataxia, dysarthria, and nystagmus that develop over weeks to months, followed by cerebellar atrophy."
+    },
+    {
+     "type": "p",
+     "text": "Anti-NMDA receptor encephalitis is caused by IgG against the extracellular GluN1 subunit. In young women it is often associated with an ovarian teratoma containing neural tissue that expresses the receptor. The antibody cross-links and internalizes receptors, reducing NMDA receptor current, so the illness resembles the effects of NMDA antagonists such as phencyclidine and ketamine. A viral-like prodrome is followed by psychiatric symptoms (anxiety, psychosis, agitation), seizures, reduced consciousness, orofacial dyskinesias, autonomic instability, and central hypoventilation. CSF often shows lymphocytic pleocytosis and oligoclonal bands, and receptor density can recover once the antibody falls."
+    },
+    {
+     "type": "table",
+     "title": "Classic neurologic paraneoplastic antibodies",
+     "cols": [
+      "Antibody",
+      "Antigen location",
+      "Usual tumor",
+      "Syndrome",
+      "Prognosis"
+     ],
+     "rows": [
+      [
+       "Anti-Hu (ANNA-1)",
+       "Neuronal nucleus (intracellular)",
+       "Small cell lung cancer",
+       "Sensory neuronopathy, limbic encephalitis, encephalomyelitis",
+       "Poor; T cell-mediated neuron loss"
+      ],
+      [
+       "Anti-Yo (PCA-1)",
+       "Purkinje cell cytoplasm (intracellular)",
+       "Ovarian, breast, gynecologic",
+       "Subacute cerebellar degeneration",
+       "Poor; Purkinje cells lost"
+      ],
+      [
+       "Anti-NMDA receptor",
+       "Cell surface (GluN1)",
+       "Ovarian teratoma",
+       "Psychiatric change, seizures, dyskinesias, autonomic instability",
+       "Often good; antibody effect reversible"
+      ],
+      [
+       "Anti-P/Q Ca2+ channel",
+       "Presynaptic surface",
+       "Small cell lung cancer",
+       "Lambert-Eaton syndrome",
+       "Often improves; antibody effect reversible"
+      ]
+     ],
+     "caption": "Intracellular antigens predict cytotoxic T cell injury and permanent deficits; surface antigens predict antibody-mediated, reversible dysfunction."
+    },
+    {
+     "type": "stop",
+     "predict": "A woman has new psychosis, seizures, and orofacial dyskinesias. Would you expect permanent neuron loss?",
+     "explain": "Not usually. Anti-NMDA receptor antibodies target a surface receptor and cause reversible internalization rather than T cell killing of neurons.",
+     "check": "Compare with the paragraph contrasting intracellular and surface antigens."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-18-01-C06",
+   "obj": "NE-18.6",
+   "title": "Conjugate polysaccharide vaccines and polio vaccine immunity",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "H. influenzae type b (Hib), S. pneumoniae, and N. meningitidis are encapsulated. The polysaccharide capsule resists phagocytosis and complement deposition, so protection depends on anticapsular antibody that opsonizes the organism for splenic and hepatic phagocytes and, for Neisseria, fixes complement for lysis. Risk peaks in infancy after maternal IgG wanes."
+    },
+    {
+     "type": "p",
+     "text": "A plain polysaccharide is a T cell-independent antigen. Its repeating units cross-link many B cell receptors on marginal zone and B-1 B cells, but it contains no protein, so no peptide can be presented on MHC class II to a helper T cell. The response is mainly IgM, short-lived, without germinal centers or significant memory, and repeat doses give no booster effect. Children under about 2 years respond poorly because their splenic marginal zone is immature and their B cells express little CD21 (complement receptor 2)."
+    },
+    {
+     "type": "flow",
+     "title": "Linked recognition in a conjugate vaccine",
+     "steps": [
+      "Polysaccharide is covalently linked to a carrier protein",
+      "B cell receptor binds the polysaccharide portion",
+      "B cell internalizes and processes the whole conjugate",
+      "Carrier peptides are presented on MHC class II",
+      "Carrier-specific helper T cell gives CD40L and cytokines",
+      "Germinal center: class switch, affinity maturation, memory"
+     ],
+     "caption": "The antibody is against the polysaccharide; the T cell help is against the carrier, such as tetanus toxoid or nontoxic diphtheria toxin."
+    },
+    {
+     "type": "p",
+     "text": "Conjugate vaccines against Hib, pneumococcus, and meningococcus (serogroups A, C, W, Y) therefore produce high-affinity IgG and memory from infancy and boost on later doses. They also reduce nasopharyngeal carriage, which lowers transmission to unvaccinated people. Serogroup B is the exception: its capsule is polysialic acid identical to that on human neural cell adhesion molecule (NCAM), so it is tolerated as self and poorly immunogenic, and serogroup B vaccines use outer membrane proteins instead."
+    },
+    {
+     "type": "h",
+     "text": "Polio: serum IgG versus mucosal IgA"
+    },
+    {
+     "type": "p",
+     "text": "Poliovirus spreads by the fecal-oral route, replicates in the oropharynx and intestinal lymphoid tissue, and occasionally reaches the CNS through viremia, where it destroys anterior horn motor neurons. Serum neutralizing IgG blocks the viremic step; intestinal secretory IgA blocks infection and shedding. Mucosal IgA requires antigen delivered at the mucosa, where it is made by lamina propria plasma cells and carried across the epithelium by the polymeric immunoglobulin receptor. A live virus replicating in the gut provides this; an injected killed virus mostly does not."
+    },
+    {
+     "type": "table",
+     "title": "Inactivated (Salk) versus live oral (Sabin) polio vaccine",
+     "cols": [
+      "Feature",
+      "Inactivated (Salk, IPV)",
+      "Live attenuated oral (Sabin, OPV)"
+     ],
+     "rows": [
+      [
+       "Route",
+       "Injection",
+       "Oral"
+      ],
+      [
+       "Serum neutralizing IgG",
+       "Strong; prevents paralytic disease",
+       "Strong"
+      ],
+      [
+       "Intestinal secretory IgA",
+       "Weak; vaccinee can still be infected and shed virus",
+       "Strong; blocks gut infection and transmission"
+      ],
+      [
+       "Spread to contacts",
+       "None",
+       "Vaccine virus is shed and can immunize contacts"
+      ],
+      [
+       "Reversion risk",
+       "None",
+       "Rare vaccine-associated paralytic polio and vaccine-derived strains"
+      ],
+      [
+       "Immunodeficient host",
+       "No live virus, so no infection",
+       "Prolonged gut replication; risk of paralytic disease"
+      ]
+     ],
+     "caption": "Both vaccines protect the vaccinee; only the live oral vaccine reliably interrupts intestinal spread."
+    },
+    {
+     "type": "stop",
+     "predict": "Why does a plain pneumococcal polysaccharide vaccine fail to give a booster response on a second dose, while a conjugate vaccine does?",
+     "explain": "Without protein there is no peptide on MHC class II, no T cell help, no germinal center, and no memory B cells; the carrier in the conjugate supplies that help.",
+     "check": "Compare with the linked recognition flow."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Anatomy and physiology decide where an immune attack shows itself. The blood-brain barrier keeps antibody and complement low in the CNS, which is why bacteria multiply freely in CSF and why a CNS antibody response such as oligoclonal bands must be made locally. Myelin from oligodendrocytes (MS, ADEM) gives upper motor neuron and central sensory signs, while myelin and nodes from Schwann cells (GBS) give lower motor neuron signs and areflexia. At the neuromuscular junction, the safety factor and the Ca2+ dependence of transmitter release explain why a postsynaptic receptor loss fatigues while a presynaptic Ca2+ channel loss briefly facilitates."
+  },
+  {
+   "type": "p",
+   "text": "Microbiology, biochemistry, and immunology supply the triggers and the effectors. Sialylated sugars link C. jejuni to gangliosides and serogroup B meningococcus to NCAM, and the location of an antigen predicts whether antibody or cytotoxic T cells cause the damage, and therefore whether recovery is possible. The type II and type IV labels are teaching simplifications: MS plaques contain B cells and antibody, and GBS involves T cells and macrophages, so classification names the dominant mechanism, not the only one."
+  }
+ ],
+ "summary": [
+  "Tight junctions in nonfenestrated endothelium keep cells, complement, and antibody out of the CNS, leaving microglia as the main resident innate defense.",
+  "In bacterial meningitis, TLR signaling drives IL-1 and TNF release, neutrophil recruitment, barrier breakdown, vasogenic edema, raised ICP, and falling cerebral perfusion pressure.",
+  "MS is CD4 Th1 and Th17 attack on CNS myelin, linked to HLA-DR2, with CSF oligoclonal bands absent from serum and perivenular periventricular plaques.",
+  "GBS follows C. jejuni infection when antibodies to lipooligosaccharide cross-react with nerve gangliosides, causing ascending weakness, areflexia, and albuminocytologic dissociation.",
+  "Anti-GQ1b antibodies target the ocular motor nerves and proprioceptive neurons, producing the Miller Fisher triad of ophthalmoplegia, ataxia, and areflexia.",
+  "Myasthenia gravis (postsynaptic AChR, thymic hyperplasia or thymoma) and LEMS (presynaptic P/Q Ca2+ channel, small cell lung cancer) are type II; MS and ADEM are type IV.",
+  "Paraneoplastic antibodies to intracellular antigens (Hu, Yo) mark cytotoxic T cell injury with permanent deficits; antibodies to surface antigens (NMDA receptor) act directly and are often reversible.",
+  "Conjugate vaccines turn a T cell-independent polysaccharide into a T cell-dependent antigen through linked recognition, giving IgG, memory, and protection in infants.",
+  "Inactivated polio vaccine gives serum IgG that prevents paralysis; live oral vaccine adds intestinal secretory IgA that blocks gut infection and spread, at a rare risk of reversion."
+ ],
+ "sources": [
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "The Central Nervous System; peripheral nerve and neuromuscular junction disorders"
+  },
+  {
+   "book": "Abbas, Cellular and Molecular Immunology",
+   "where": "Hypersensitivity disorders; immunologic tolerance and autoimmunity; B cell activation and antibody production"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Cerebral Blood Flow, Cerebrospinal Fluid, and Brain Metabolism; neuromuscular transmission"
+  },
+  {
+   "book": "Jawetz, Melnick and Adelberg's Medical Microbiology",
+   "where": "Haemophilus, Neisseria, and Streptococcus pneumoniae; picornaviruses and polio vaccines"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Nervous System Disorders"
+  }
+ ],
+ "verify": [
+  "HLA-DR2 is the classic exam term; current nomenclature is HLA-DRB1*15:01 (serologic DR15). Confirm which NABNE expects.",
+  "Percentages vary between sources: anti-AChR in about 85% of generalized myasthenia gravis, thymic hyperplasia about 60 to 70% and thymoma about 10 to 15%, small cell lung cancer in about half of LEMS, anti-GQ1b in about 90% of Miller Fisher syndrome, and oligoclonal bands in more than 90% of MS.",
+  "The proportion of anti-NMDA receptor encephalitis with ovarian teratoma depends strongly on age and sex in published series; the chapter states only that it is often associated in young women.",
+  "CSF reference values (cells, protein, glucose ratio, opening pressure) and the lower limit of cerebral autoregulation (about 50 to 60 mmHg CPP) vary slightly between texts.",
+  "Polio vaccine policy changes over time (for example the US uses inactivated vaccine only, and global programs have changed oral vaccine formulations); confirm any policy detail NABNE expects.",
+  "Whether NABNE classifies GBS as type II, type IV, or mixed hypersensitivity should be confirmed.",
+  "Requested new diagram names for a future revision: neuromuscular-junction (presynaptic Ca2+ channel, quantal release, postsynaptic AChR and folds) and conjugate-vaccine (B cell, carrier peptide on MHC II, helper T cell)."
+ ]
+}

@@ -1,0 +1,1014 @@
+{
+ "unit": "NE-20-G",
+ "chapter_id": "NPLEX-P1-NEUR-20",
+ "topic_id": "NPLEX-P1-NEUR-20-07",
+ "title": "Infections of the Central and Peripheral Nervous System",
+ "subject": "Nervous System (NEUR)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter explains how bacteria, viruses, fungi, parasites, toxins, and prions reach the nervous system and why each produces its own pattern of injury. It covers meningitis, encephalitis, abscess, opportunistic infections in AIDS, toxin-mediated paralysis, latent and slow viral infections, prion disease, and infections of peripheral nerves. Board questions usually give the host (age, immune status, exposure) and the lesion (CSF profile, imaging, histology) and ask for the organism or mechanism. If you can trace the route of entry, the cell the agent targets, and the immune response it provokes, you can reason through nearly every item in this unit.",
+  "prerequisites": [
+   "Meninges, CSF production, circulation, and absorption at the arachnoid granulations",
+   "Upper versus lower motor neuron signs and the dorsal column and spinothalamic pathways",
+   "Neuromuscular junction transmission and SNARE-mediated vesicle release",
+   "Th1 and Th2 helper T cell responses and granuloma formation",
+   "Basic virology: genome type, envelope, latency, and replication strategy"
+  ],
+  "connections": [
+   {
+    "to": "Neuromuscular junction and motor control (NE chapters on synaptic transmission)",
+    "how": "Botulinum and tetanus toxins cleave the same SNARE proteins but act at different synapses, producing flaccid versus spastic paralysis."
+   },
+   {
+    "to": "Immunology (IM)",
+    "how": "CD4 count, Th1 versus Th2 polarization, and complement and antibody deficiency predict which opportunistic or encapsulated organism invades."
+   },
+   {
+    "to": "Cardiovascular infections (CV-18-K)",
+    "how": "Infective endocarditis and right-to-left shunts seed the brain with septic emboli that become abscesses."
+   },
+   {
+    "to": "Congenital infections (NE-20-E)",
+    "how": "Congenital CMV and Toxoplasma produce different calcification patterns and hearing and visual deficits in the newborn brain."
+   },
+   {
+    "to": "Demyelinating and neurodegenerative disease (NE-20 units)",
+    "how": "PML, SSPE, and prion disease mimic primary demyelinating and dementing disorders and must be told apart by tempo, histology, and CSF."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Meningitis",
+    "def": "Inflammation of the leptomeninges (pia and arachnoid) and the CSF in the subarachnoid space."
+   },
+   {
+    "term": "Encephalitis",
+    "def": "Inflammation of the brain parenchyma, usually viral, causing altered mental status, seizures, or focal deficits."
+   },
+   {
+    "term": "Aseptic meningitis",
+    "def": "Meningitis with a lymphocytic CSF and negative routine bacterial culture, most often caused by enteroviruses or other viruses."
+   },
+   {
+    "term": "Dead-end host",
+    "def": "A host in which a pathogen does not reach blood levels high enough to infect the next vector, so transmission stops there."
+   },
+   {
+    "term": "Neuronophagia",
+    "def": "Engulfment of dying neurons by microglia and macrophages, a hallmark of viral destruction of neurons."
+   },
+   {
+    "term": "Microglial nodule",
+    "def": "A small cluster of activated microglia around an infected or dying neuron in viral encephalitis."
+   },
+   {
+    "term": "Ring-enhancing lesion",
+    "def": "A lesion with a contrast-enhancing rim on CT or MRI, seen with abscess, toxoplasmosis, necrotic tumor, and lymphoma."
+   },
+   {
+    "term": "Retrograde axonal transport",
+    "def": "Dynein-driven movement of material from the axon terminal toward the cell body, used by rabies virus, poliovirus, and tetanus toxin."
+   },
+   {
+    "term": "Latency",
+    "def": "Persistence of a viral genome in host cells without production of infectious virus, with the possibility of later reactivation."
+   },
+   {
+    "term": "Opening pressure",
+    "def": "CSF pressure measured at lumbar puncture in the lateral decubitus position, normally about 10 to 20 cm H2O in adults."
+   },
+   {
+    "term": "SNARE proteins",
+    "def": "Membrane proteins (synaptobrevin, SNAP-25, syntaxin) that dock synaptic vesicles and fuse them with the presynaptic membrane."
+   },
+   {
+    "term": "Spongiform change",
+    "def": "Fine vacuoles in the gray matter neuropil, the characteristic lesion of prion disease."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-NEUR-20-07-C01",
+   "obj": "NE-20-G.1",
+   "title": "Arboviral encephalitis and West Nile acute flaccid paralysis",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Arboviruses (arthropod-borne viruses) are maintained in nature by a cycle between a vector and an amplifying host. For the major North American encephalitis viruses, the vector is a mosquito and the amplifying host is a wild bird. Birds develop a high-titer viremia, so a mosquito that feeds on them becomes infected and passes the virus on at its next blood meal. Humans and horses become infected when bitten by the same mosquitoes, but their viremia is low and brief, too low to infect a feeding mosquito. That is why they are called dead-end hosts: they can become ill, but they do not spread the virus, and cases cluster in late summer and early fall when mosquitoes are most active."
+    },
+    {
+     "type": "cycle",
+     "title": "Arbovirus transmission cycle",
+     "steps": [
+      "Infected mosquito bites a bird",
+      "Bird develops high-titer viremia",
+      "New mosquitoes feed and become infected",
+      "Infected mosquito bites another bird",
+      "Occasional bite of human or horse (dead-end host)"
+     ],
+     "caption": "Birds amplify the virus; humans and horses have viremia too low to infect mosquitoes, so the cycle continues only through birds."
+    },
+    {
+     "type": "p",
+     "text": "Most infections are asymptomatic. With West Nile virus (WNV), about 80% of infected people have no symptoms, about 20% develop a febrile illness with headache, myalgia, and sometimes a rash, and fewer than 1% develop neuroinvasive disease (meningitis, encephalitis, or acute flaccid paralysis). The risk of neuroinvasive disease rises steeply with age and with impaired cell-mediated immunity. Once the virus crosses into the CNS it infects neurons, producing the typical viral encephalitis histology (C04), with a predilection for the deep gray matter (thalamus and basal ganglia), brainstem, and anterior horns of the spinal cord. Involvement of the deep gray matter explains the tremor, myoclonus, and parkinsonian features some patients show."
+    },
+    {
+     "type": "p",
+     "text": "West Nile acute flaccid paralysis is caused by infection and destruction of anterior horn motor neurons, the same lesion as poliomyelitis (C12). Weakness is therefore of the lower motor neuron type: sudden, often asymmetric, flaccid, with reduced or absent reflexes and no sensory loss. If the cervical cord or brainstem is involved, respiratory failure can follow. CSF typically shows a lymphocytic pleocytosis with elevated protein and normal glucose. Detection of WNV-specific IgM in CSF supports the diagnosis, because IgM is a large molecule that does not readily cross the blood-brain barrier and so indicates antibody made within the CNS."
+    },
+    {
+     "type": "table",
+     "title": "Mosquito-borne encephalitis viruses",
+     "cols": [
+      "Virus",
+      "Family",
+      "Reservoir and vector",
+      "Key features"
+     ],
+     "rows": [
+      [
+       "West Nile virus",
+       "Flaviviridae",
+       "Birds; Culex mosquitoes",
+       "Most common US arboviral neuroinvasive disease; older adults; acute flaccid paralysis"
+      ],
+      [
+       "St. Louis encephalitis virus",
+       "Flaviviridae",
+       "Birds; Culex mosquitoes",
+       "Encephalitis mainly in older adults; similar to WNV"
+      ],
+      [
+       "Eastern equine encephalitis virus",
+       "Togaviridae (alphavirus)",
+       "Birds in swamp habitats; mosquitoes",
+       "Rare but most severe, with high fatality and frequent lasting deficits"
+      ],
+      [
+       "Western equine encephalitis virus",
+       "Togaviridae (alphavirus)",
+       "Birds; Culex tarsalis",
+       "Western US and Canada; disease most often in infants and older adults"
+      ]
+     ],
+     "caption": "All four are enveloped, positive-sense single-stranded RNA viruses carried by mosquitoes from birds; humans and horses are dead-end hosts."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-20-07-C02",
+   "obj": "NE-20-G.2",
+   "title": "Botulism: foodborne, infant, and wound forms",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Clostridium botulinum is a gram-positive, spore-forming, obligate anaerobic rod found in soil. Its spores survive boiling, but they germinate and make toxin only in a low-oxygen, low-acid, moist environment. Botulinum neurotoxin is the most potent biological toxin known. Its heavy chain binds receptors on peripheral cholinergic nerve terminals, the toxin is taken up by endocytosis, and its light chain, a zinc-dependent protease, enters the cytosol and cleaves a SNARE protein (SNAP-25 for type A, synaptobrevin for type B). Without intact SNAREs, acetylcholine vesicles cannot fuse with the membrane, so release stops at the neuromuscular junction and at autonomic cholinergic synapses."
+    },
+    {
+     "type": "p",
+     "text": "The three main forms differ in where the toxin is made. In foodborne botulism, toxin is already formed in improperly home-canned or preserved low-acid food, so symptoms begin within hours to a few days of eating it; the toxin itself is heat-labile, which is why thorough cooking of the food destroys it. In infant botulism, the infant swallows spores (from honey or environmental dust), and because the immature gut flora of an infant under about 12 months cannot suppress them, the spores germinate and make toxin within the colon. Constipation is often the first sign, followed by a weak cry, poor suck, ptosis, and generalized hypotonia (floppy baby). In wound botulism, spores germinate in devitalized tissue, classically from injection drug use, so there are no gastrointestinal symptoms."
+    },
+    {
+     "type": "p",
+     "text": "All three produce the same syndrome because the same toxin acts on the same terminals. Paralysis is symmetric and descending, beginning with cranial nerves (diplopia, ptosis, dysarthria, dysphagia) and moving to the arms, trunk, diaphragm, and legs. Blocked parasympathetic transmission gives dilated, poorly reactive pupils, dry mouth, constipation, and urinary retention. The patient is afebrile and alert, and sensation is normal because the toxin acts only on cholinergic terminals, and sensory pathways do not depend on them. These features distinguish botulism from Guillain-Barre syndrome, which is usually ascending with sensory symptoms, and from myasthenia gravis, which spares the pupils."
+    },
+    {
+     "type": "table",
+     "title": "Forms of botulism",
+     "cols": [
+      "Form",
+      "Source of toxin",
+      "Typical setting",
+      "Distinguishing features"
+     ],
+     "rows": [
+      [
+       "Foodborne",
+       "Preformed toxin in food",
+       "Home-canned low-acid vegetables, fermented fish",
+       "Onset hours to days after ingestion; may begin with nausea and vomiting; often several people affected"
+      ],
+      [
+       "Infant",
+       "Spores swallowed and germinate in colon",
+       "Age under about 12 months; honey, soil, dust",
+       "Constipation first, then poor feeding, weak cry, hypotonia"
+      ],
+      [
+       "Wound",
+       "Spores germinate in an anaerobic wound",
+       "Injection drug use, contaminated trauma",
+       "No gastrointestinal phase; wound may look unremarkable"
+      ]
+     ],
+     "caption": "Each form ends in the same descending, symmetric flaccid paralysis without fever or sensory loss."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-20-07-C03",
+   "obj": "NE-20-G.3",
+   "title": "Brain abscess",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "A brain abscess is a focal collection of pus within the brain parenchyma. Organisms reach the brain in three ways, and the route predicts both the location and the organism. Contiguous spread from a nearby infection travels through bone or along emissary veins: frontal sinusitis and dental infection lead to frontal lobe abscesses, while otitis media and mastoiditis lead to temporal lobe and cerebellar abscesses. Hematogenous seeding from infective endocarditis, lung abscess, or bronchiectasis produces abscesses that are often multiple and lie at the gray-white junction in middle cerebral artery territory, where emboli lodge as arterioles narrow. Direct inoculation follows penetrating trauma or neurosurgery."
+    },
+    {
+     "type": "p",
+     "text": "Right-to-left shunts deserve special attention. Normally the pulmonary capillaries filter small septic emboli and bacteria from venous blood. In cyanotic congenital heart disease (for example tetralogy of Fallot) or with pulmonary arteriovenous malformations, venous blood bypasses this filter and enters the systemic arteries directly. Chronic hypoxemia and polycythemia may also create small areas of low perfusion where bacteria can settle. Once bacteria lodge, the lesion evolves over about two weeks from cerebritis (neutrophils, edema, softening) to a necrotic center walled off by a collagen capsule laid down by fibroblasts. The capsule is often thinner on the ventricular side, where an abscess can rupture into the ventricle."
+    },
+    {
+     "type": "p",
+     "text": "The organisms reflect the source. Streptococci, especially the Streptococcus anginosus (milleri) group of viridans streptococci, are the most common, often mixed with anaerobes such as Bacteroides, Prevotella, and Fusobacterium from sinus, dental, or ear infection. Staphylococcus aureus dominates after trauma or surgery and with endocarditis. In immunocompromised hosts, Toxoplasma, Nocardia, and fungi become important."
+    },
+    {
+     "type": "p",
+     "text": "On contrast CT or MRI the capsule appears as a smooth enhancing ring because its new vessels leak contrast, with low-density pus centrally and vasogenic edema around it. Pus restricts diffusion on diffusion-weighted MRI, which helps separate an abscess from a necrotic tumor. Clinically, headache is the most common symptom, and fever and focal deficits are each present in only about half of patients, so the full triad is often absent. Seizures and signs of raised intracranial pressure may occur. Lumbar puncture is avoided because releasing CSF below a mass lesion can precipitate herniation, and the CSF is often nondiagnostic."
+    },
+    {
+     "type": "stop",
+     "predict": "A 9-year-old with tetralogy of Fallot develops headache, fever, and a new left hemiparesis. Where did the organisms most likely bypass a normal defense, and what will imaging show?",
+     "explain": "Venous bacteria crossed the right-to-left shunt without passing through the pulmonary capillary filter and lodged in the right cerebral hemisphere, forming a ring-enhancing lesion with surrounding edema.",
+     "check": "Compare with the paragraph on right-to-left shunts and the imaging paragraph."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-20-07-C04",
+   "obj": "NE-20-G.4",
+   "title": "Histology of viral encephalitis and rabies",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Viral encephalitis has a recognizable histological pattern regardless of the virus. Lymphocytes, plasma cells, and macrophages accumulate in the Virchow-Robin spaces around small vessels, forming perivascular cuffs. Within the parenchyma, activated microglia gather into small clusters (microglial nodules) around infected neurons. When a neuron dies, microglia and macrophages engulf it, a process called neuronophagia. Some viruses add a specific clue in the form of inclusion bodies: intranuclear Cowdry type A inclusions in herpes simplex encephalitis and SSPE, enlarged cells with owl's eye inclusions in CMV, and Negri bodies in rabies."
+    },
+    {
+     "type": "p",
+     "text": "Rabies virus is an enveloped, bullet-shaped, negative-sense single-stranded RNA virus of the family Rhabdoviridae (genus Lyssavirus). It is transmitted in the saliva of an infected mammal, usually by a bite. Worldwide, dogs cause nearly all human deaths. In the United States, wildlife reservoirs include raccoons, skunks, foxes, and bats, and bats account for most human cases, often because the bite was small and went unnoticed."
+    },
+    {
+     "type": "flow",
+     "title": "Path of rabies virus from bite to brain",
+     "steps": [
+      "Virus replicates in muscle at bite site",
+      "Binds nicotinic acetylcholine receptor near nerve terminals",
+      "Enters peripheral nerve",
+      "Retrograde axonal transport to spinal cord and brain",
+      "Spreads through neurons, especially limbic system and brainstem",
+      "Travels outward along nerves to salivary glands"
+     ],
+     "caption": "Because the virus moves inside axons, it is shielded from antibody, and the incubation period depends on the distance from the bite to the CNS."
+    },
+    {
+     "type": "p",
+     "text": "The incubation period is usually 1 to 3 months but ranges from days to more than a year, and bites on the face and head have shorter incubations. A prodrome of fever, malaise, and pain or paresthesia at the healed bite site is attributed to inflammation of the dorsal root ganglion that supplies the bite. Most patients then develop the encephalitic (furious) form: agitation, confusion, hallucinations, hypersalivation, and autonomic instability. Hydrophobia is the hallmark, consisting of painful spasms of the pharyngeal and laryngeal muscles when the patient attempts to drink, later triggered by the sight of water or a draft of air (aerophobia). A minority develop a paralytic form with ascending flaccid weakness. Once symptoms appear, the disease is almost always fatal."
+    },
+    {
+     "type": "p",
+     "text": "Negri bodies are round, eosinophilic cytoplasmic inclusions composed of viral nucleocapsid material, found most often in Purkinje cells of the cerebellum and pyramidal neurons of the hippocampus. Inflammation is often surprisingly mild for such a lethal disease, because rabies kills largely by disrupting neuronal function rather than by destroying large numbers of neurons."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-20-07-C05",
+   "obj": "NE-20-G.5",
+   "title": "Parasitic infections: Toxoplasma, neurocysticercosis, and Naegleria",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Toxoplasma gondii is an obligate intracellular protozoan whose definitive host is the cat. Humans become infected by swallowing oocysts from cat feces (soil, litter, unwashed produce) or tissue cysts in undercooked meat. In an immunocompetent person the infection is controlled by cell-mediated immunity (Th1 cells, interferon-gamma, activated macrophages), but the parasite persists as dormant bradyzoite cysts in brain and muscle, which is why many adults are IgG seropositive. When the CD4 count falls below about 100 cells per microliter in AIDS, bradyzoites convert back to rapidly dividing tachyzoites and destroy brain tissue. Imaging shows multiple ring-enhancing lesions with edema, typically in the basal ganglia and at the gray-white junction, with headache, fever, confusion, seizures, and focal deficits. The main alternative in this setting is EBV-associated primary CNS lymphoma, which is more often solitary and periventricular (C07)."
+    },
+    {
+     "type": "p",
+     "text": "Neurocysticercosis is caused by the larval stage of the pork tapeworm Taenia solium. The route of exposure decides the disease. Eating undercooked pork containing cysticerci produces an adult tapeworm in the intestine (taeniasis). Swallowing eggs, shed in the feces of a human tapeworm carrier and spread by contaminated hands, food, or water, produces cysticercosis: the eggs hatch, the embryos penetrate the intestinal wall, and they travel in the blood to brain, muscle, and eye, where they form fluid-filled cysts. A carrier can also infect themselves. Living cysts provoke little inflammation, but as a cyst degenerates the host response produces edema and seizures, and the cyst later calcifies. Neurocysticercosis is a leading cause of acquired epilepsy worldwide. Imaging shows cysts, some with a visible scolex, and scattered calcifications; cysts in the ventricles can block CSF flow and cause hydrocephalus."
+    },
+    {
+     "type": "p",
+     "text": "Naegleria fowleri is a free-living amoeba of warm freshwater, such as lakes, hot springs, and poorly chlorinated pools. When contaminated water is forced into the nose during swimming or nasal rinsing, the amoeba attaches to the olfactory mucosa and migrates along the olfactory nerve fibers through the cribriform plate into the olfactory bulbs and frontal lobes. The result is primary amebic meningoencephalitis, a hemorrhagic necrotizing infection in previously healthy children and young adults. Early changes in smell or taste are followed by severe headache, fever, stiff neck, and rapid progression to coma, and death usually occurs within about one to two weeks. CSF resembles bacterial meningitis (neutrophils, low glucose, high protein), and motile trophozoites may be seen on a wet mount of fresh CSF."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-20-07-C06",
+   "obj": "NE-20-G.6",
+   "title": "Fungal infections: cryptococcal meningitis and rhinocerebral mucormycosis",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Cryptococcus neoformans is an encapsulated yeast found in soil contaminated with bird, especially pigeon, droppings. Infection begins when the yeast is inhaled. Its thick polysaccharide capsule (mainly glucuronoxylomannan) resists phagocytosis and suppresses the inflammatory response, so control depends on CD4 T cells activating macrophages. When the CD4 count drops below about 100 cells per microliter, the yeast spreads from the lung by the blood and has a strong tropism for the CNS, causing a subacute meningoencephalitis. Patients have headache, fever, and altered mental status that develop over days to weeks, and neck stiffness is often mild or absent because the inflammatory response is weak."
+    },
+    {
+     "type": "p",
+     "text": "The CSF opening pressure is often markedly raised, frequently above 25 cm H2O, because yeast and shed capsular polysaccharide clog the arachnoid granulations and impair CSF absorption. The CSF shows low glucose, elevated protein, and a lymphocytic pleocytosis that may be minimal in advanced AIDS. Cryptococcal capsular antigen in CSF or serum is highly sensitive and specific. India ink shows yeast surrounded by a clear halo (the capsule), and mucicarmine stains the capsule red in tissue. In the brain, yeast can fill dilated perivascular spaces of the basal ganglia, producing gelatinous soap bubble lesions."
+    },
+    {
+     "type": "p",
+     "text": "Mucormycosis is caused by molds of the order Mucorales, including Rhizopus and Mucor, which form broad, ribbon-like hyphae with few or no septa that branch at wide, nearly right angles. These organisms are angioinvasive. Diabetic ketoacidosis is the classic setting because acidosis lowers the iron-binding capacity of transferrin, releasing free iron that the fungus needs for growth, and because hyperglycemia and acidosis impair neutrophil chemotaxis and killing. Severe neutropenia and iron overload are other risk factors. In rhinocerebral disease, inhaled spores germinate in the nose and sinuses, and hyphae invade arterial walls, causing thrombosis and ischemic necrosis. This produces a black eschar on the turbinates or palate, then spread into the orbit (proptosis, ophthalmoplegia, vision loss), the cavernous sinus, and the frontal lobe within days."
+    },
+    {
+     "type": "table",
+     "title": "Cryptococcus versus Mucorales",
+     "cols": [
+      "Feature",
+      "Cryptococcus neoformans",
+      "Mucorales (Rhizopus, Mucor)"
+     ],
+     "rows": [
+      [
+       "Form in tissue",
+       "Encapsulated budding yeast",
+       "Broad nonseptate hyphae branching at wide angles"
+      ],
+      [
+       "Main host risk",
+       "Low CD4 count (AIDS), other T cell defects",
+       "Diabetic ketoacidosis, neutropenia, iron overload"
+      ],
+      [
+       "Route to CNS",
+       "Inhalation, then blood to meninges",
+       "Direct extension from sinuses through vessels and bone"
+      ],
+      [
+       "Tempo",
+       "Subacute, days to weeks",
+       "Fulminant, hours to days"
+      ],
+      [
+       "Key findings",
+       "High opening pressure; capsular antigen; India ink halo",
+       "Black nasal or palatal eschar; orbital and brain invasion"
+      ]
+     ],
+     "caption": "The yeast causes a meningitis through the bloodstream; the mold invades vessels and destroys tissue by infarction."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-20-07-C07",
+   "obj": "NE-20-G.7",
+   "title": "Herpesvirus diseases of the CNS",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "All herpesviruses are enveloped, double-stranded DNA viruses that establish lifelong latency. Their CNS diseases follow from where each virus becomes latent and from the state of the host's cell-mediated immunity, so the key questions are the patient's age and immune status."
+    },
+    {
+     "type": "p",
+     "text": "Herpes simplex virus type 1 (HSV-1) is the most common cause of sporadic, nonepidemic fatal viral encephalitis in adults. The virus is thought to reach the brain along the olfactory or trigeminal pathways, either during primary infection or on reactivation from the trigeminal ganglion. It produces a hemorrhagic, necrotizing encephalitis of the medial temporal lobes and orbitofrontal cortex, usually asymmetric. Because these are limbic regions, patients show fever with confusion, personality and behavioral change, memory loss, aphasia, olfactory or gustatory hallucinations, and temporal lobe seizures. CSF shows a lymphocytic pleocytosis, often with red blood cells from the hemorrhagic necrosis, and HSV DNA by PCR. MRI shows temporal lobe signal change, and EEG may show periodic lateralized discharges over the temporal region. Histology adds Cowdry type A intranuclear inclusions to the general viral pattern."
+    },
+    {
+     "type": "p",
+     "text": "HSV-2 behaves differently. In adults it typically causes a self-limited aseptic (lymphocytic) meningitis, often with primary genital infection, and it is the main cause of recurrent benign lymphocytic meningitis. In the newborn, who lacks mature cell-mediated immunity, HSV acquired from the maternal genital tract at delivery (usually HSV-2) can cause localized skin, eye, and mouth disease, diffuse encephalitis, or disseminated infection."
+    },
+    {
+     "type": "p",
+     "text": "Cytomegalovirus (CMV) causes CNS disease at the two extremes of immunity. In advanced AIDS, usually with CD4 counts below about 50 cells per microliter, it causes encephalitis that favors the cells lining the ventricles (ventriculoencephalitis), together with retinitis and polyradiculopathy. Congenital CMV, the most common congenital infection, injures the germinal matrix around the ventricles, leaving periventricular calcifications with microcephaly, chorioretinitis, and sensorineural hearing loss. Congenital toxoplasmosis, by contrast, leaves calcifications scattered through the parenchyma with hydrocephalus. Epstein-Barr virus (EBV) drives primary CNS lymphoma in AIDS: latently infected B cells express viral proteins that promote proliferation, and when T cell surveillance is lost they expand into a diffuse large B-cell lymphoma, usually a solitary periventricular lesion with weak or irregular ring enhancement."
+    },
+    {
+     "type": "table",
+     "title": "Herpesviruses and CNS disease",
+     "cols": [
+      "Virus",
+      "Host",
+      "Lesion",
+      "Clue"
+     ],
+     "rows": [
+      [
+       "HSV-1",
+       "Any age, usually immunocompetent",
+       "Hemorrhagic necrosis of temporal and orbitofrontal lobes",
+       "Behavior change, seizures, red cells in CSF"
+      ],
+      [
+       "HSV-2",
+       "Adults; neonates at delivery",
+       "Aseptic meningitis; neonatal encephalitis or dissemination",
+       "Recurrent lymphocytic meningitis in adults"
+      ],
+      [
+       "CMV",
+       "Advanced AIDS; fetus",
+       "Ventriculoencephalitis; congenital periventricular calcifications",
+       "Owl's eye inclusions; hearing loss in newborn"
+      ],
+      [
+       "EBV",
+       "Advanced AIDS",
+       "Primary CNS lymphoma (B cell)",
+       "Usually solitary periventricular mass"
+      ],
+      [
+       "VZV",
+       "Older or immunosuppressed adults",
+       "Ganglionitis with dermatomal zoster",
+       "See C17"
+      ]
+     ],
+     "caption": "Latency site and host immunity predict which herpesvirus causes which CNS lesion."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-20-07-C08",
+   "obj": "NE-20-G.8",
+   "title": "Leprosy: tuberculoid and lepromatous forms",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Mycobacterium leprae is an acid-fast, obligate intracellular bacillus that cannot be grown in standard culture and divides very slowly, so incubation lasts years. It grows best below core body temperature, at roughly 27 to 30 °C (81 to 86 °F), which is why it attacks the skin, nasal mucosa, testes, anterior eye, and superficial peripheral nerves such as the ulnar, common fibular, and great auricular nerves. Transmission is thought to be mainly by respiratory droplets during prolonged close contact, and armadillos are an animal reservoir in the southern United States. The bacillus binds the basal lamina of Schwann cells and lives inside them, so nerve damage is central to the disease."
+    },
+    {
+     "type": "p",
+     "text": "The clinical form depends on the helper T cell response, and the two poles of the spectrum illustrate how immunity shapes pathology. In tuberculoid leprosy, a strong Th1 response (IL-2 and interferon-gamma) activates macrophages and forms well-organized epithelioid granulomas that contain the infection, so bacilli are scarce (paucibacillary) and the lepromin skin test is positive. Lesions are few, asymmetric, well-demarcated, hypopigmented plaques that are anesthetic, because the granulomas destroy the small cutaneous nerves within them. Nearby peripheral nerves are thickened and palpable."
+    },
+    {
+     "type": "p",
+     "text": "In lepromatous leprosy, a Th2-dominant response (IL-4 and IL-10) gives antibody but weak macrophage activation, so bacilli multiply freely inside foamy macrophages (lepra cells), and the disease is multibacillary with a negative lepromin test. Diffuse nodular infiltration of the cool skin of the face produces leonine facies, with loss of the eyebrows and destruction of the nasal cartilage. Bacilli spread through the blood and invade nerves symmetrically, so sensory loss begins in the coolest distal regions, giving a glove-and-stocking pattern. Testicular involvement can cause atrophy and gynecomastia, and immune complex deposition can cause erythema nodosum leprosum. In both forms, painless injuries, burns, and ulcers accumulate in anesthetic hands and feet, leading to deformity and loss of digits."
+    },
+    {
+     "type": "table",
+     "title": "Tuberculoid versus lepromatous leprosy",
+     "cols": [
+      "Feature",
+      "Tuberculoid",
+      "Lepromatous"
+     ],
+     "rows": [
+      [
+       "T cell response",
+       "Th1 (IL-2, interferon-gamma)",
+       "Th2 (IL-4, IL-10)"
+      ],
+      [
+       "Bacilli in tissue",
+       "Few (paucibacillary)",
+       "Many (multibacillary), in foamy macrophages"
+      ],
+      [
+       "Histology",
+       "Well-formed epithelioid granulomas",
+       "Sheets of foamy macrophages, poorly formed granulomas"
+      ],
+      [
+       "Lepromin skin test",
+       "Positive",
+       "Negative"
+      ],
+      [
+       "Skin lesions",
+       "Few, asymmetric, anesthetic hypopigmented plaques",
+       "Widespread nodules and infiltration; leonine facies"
+      ],
+      [
+       "Nerve involvement",
+       "Thickened nerves near lesions, asymmetric",
+       "Symmetric glove-and-stocking sensory loss"
+      ]
+     ],
+     "caption": "The same organism causes opposite pictures depending on whether the host mounts a cell-mediated (Th1) or humoral (Th2) response."
+    },
+    {
+     "type": "stop",
+     "predict": "If a patient with tuberculoid leprosy develops a condition that weakens Th1 immunity, how would the skin biopsy and lesion pattern change?",
+     "explain": "Granulomas would become poorly formed, bacilli would multiply inside macrophages, and lesions would become more numerous and symmetric, shifting the disease toward the lepromatous pole.",
+     "check": "Compare with the table on tuberculoid versus lepromatous leprosy."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-20-07-C09",
+   "obj": "NE-20-G.9",
+   "title": "Bacterial meningitis: organisms by age and pathogenesis",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Most bacterial meningitis begins with colonization of a mucosal surface, followed by invasion of the blood and crossing of the blood-brain or blood-CSF barrier at the choroid plexus or cerebral capillaries. A polysaccharide capsule is the key virulence factor, because it lets the organism resist complement and phagocytosis in the bloodstream. Once in the subarachnoid space, bacteria multiply quickly because CSF contains very little complement, antibody, or phagocytic activity. Bacterial cell wall components and endotoxin then trigger release of IL-1, TNF-alpha, and other cytokines, drawing in neutrophils and opening the blood-brain barrier. Much of the damage comes from this host response."
+    },
+    {
+     "type": "flow",
+     "title": "Pathogenesis of bacterial meningitis",
+     "steps": [
+      "Nasopharyngeal or birth canal colonization",
+      "Invasion into bloodstream; capsule resists clearance",
+      "Crossing into CSF at choroid plexus or capillaries",
+      "Rapid multiplication in CSF with weak defenses",
+      "Cytokine release and neutrophil exudate",
+      "Edema, raised intracranial pressure, vascular and nerve injury"
+     ],
+     "caption": "The immune response to bacterial products, more than the bacteria themselves, injures the brain."
+    },
+    {
+     "type": "p",
+     "text": "The likely organism follows the patient's age and immunity. Neonates acquire group B streptococcus (Streptococcus agalactiae) and Escherichia coli (especially strains with the K1 capsule) from the maternal genital and intestinal tract, and Listeria monocytogenes can cross the placenta or be acquired at birth. After the neonatal period, Streptococcus pneumoniae and Neisseria meningitidis dominate in children and adults. N. meningitidis is especially important in adolescents and young adults in crowded settings such as dormitories and military barracks. Haemophilus influenzae type b was once the leading cause in young children and is now rare where conjugate vaccination is routine. In older adults, waning cell-mediated immunity makes Listeria, an intracellular organism controlled by T cells, important again alongside S. pneumoniae and N. meningitidis; Listeria also affects pregnant and immunosuppressed patients. Gram-negative bacilli matter in older adults and after neurosurgery."
+    },
+    {
+     "type": "table",
+     "title": "Typical CSF profiles",
+     "cols": [
+      "Cause",
+      "Opening pressure",
+      "Cells",
+      "Glucose",
+      "Protein"
+     ],
+     "rows": [
+      [
+       "Normal adult",
+       "About 10 to 20 cm H2O",
+       "0 to 5 lymphocytes per microliter",
+       "About 45 to 80 mg/dL (about 60% of serum)",
+       "About 15 to 45 mg/dL"
+      ],
+      [
+       "Bacterial",
+       "Raised",
+       "Hundreds to thousands, neutrophils",
+       "Low (below about 40 mg/dL)",
+       "High"
+      ],
+      [
+       "Viral (aseptic)",
+       "Normal or mildly raised",
+       "Tens to hundreds, lymphocytes",
+       "Normal",
+       "Normal or mildly raised"
+      ],
+      [
+       "Tuberculous or fungal",
+       "Raised",
+       "Tens to hundreds, lymphocytes",
+       "Low",
+       "High, often very high in TB"
+      ]
+     ],
+     "caption": "Bacteria and neutrophils consume glucose and the barrier leaks protein; viruses usually leave glucose normal."
+    },
+    {
+     "type": "table",
+     "title": "Gram stain clues",
+     "cols": [
+      "Gram stain",
+      "Organism",
+      "Typical host"
+     ],
+     "rows": [
+      [
+       "Gram-positive cocci in chains",
+       "Group B streptococcus",
+       "Neonate"
+      ],
+      [
+       "Gram-negative rods",
+       "E. coli",
+       "Neonate; older adult"
+      ],
+      [
+       "Gram-positive rods",
+       "Listeria monocytogenes",
+       "Neonate, pregnancy, older or immunosuppressed adult"
+      ],
+      [
+       "Gram-positive lancet-shaped diplococci",
+       "S. pneumoniae",
+       "All ages beyond neonate; older adults"
+      ],
+      [
+       "Gram-negative diplococci",
+       "N. meningitidis",
+       "Adolescents and young adults"
+      ]
+     ],
+     "caption": "The Gram stain links the CSF finding back to the age group."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-20-07-C10",
+   "obj": "NE-20-G.10",
+   "title": "Findings and complications of meningitis, including tuberculous meningitis",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The classic findings of meningitis come from inflammation of the meninges and the raised intracranial pressure that follows. Inflamed meninges are pain-sensitive, giving severe headache, and stretching them by flexing the neck triggers protective muscle spasm, felt as neck stiffness. The Kernig and Brudzinski signs test the same irritation but are insensitive. Photophobia is thought to reflect irritation of meningeal pain fibers carried by the trigeminal nerve. Fever and altered mental status reflect cytokine release and cortical dysfunction. In infants these signs are unreliable, and irritability, poor feeding, lethargy, and a bulging fontanelle may be the only clues."
+    },
+    {
+     "type": "p",
+     "text": "Meningococcal disease adds a petechial or purpuric rash. Endotoxin (lipooligosaccharide) shed by N. meningitidis damages endothelium and activates coagulation, producing disseminated intravascular coagulation, skin hemorrhage, shock, and in the worst cases bilateral adrenal hemorrhage with acute adrenal failure (Waterhouse-Friderichsen syndrome)."
+    },
+    {
+     "type": "table",
+     "title": "Complications and their mechanisms",
+     "cols": [
+      "Complication",
+      "Mechanism"
+     ],
+     "rows": [
+      [
+       "Sensorineural hearing loss",
+       "Infection and inflammation spread from the subarachnoid space to the cochlea (labyrinthitis) and damage the eighth nerve; most frequent with pneumococcus"
+      ],
+      [
+       "Hydrocephalus",
+       "Purulent exudate obstructs CSF absorption at the arachnoid granulations or flow through the basal cisterns and ventricular outlets"
+      ],
+      [
+       "Seizures",
+       "Cortical irritation, infarction, venous sinus thrombosis, and hyponatremia"
+      ],
+      [
+       "Infarction",
+       "Inflammation of vessels crossing the subarachnoid space causes vasospasm and thrombosis"
+      ],
+      [
+       "Cerebral edema and herniation",
+       "Vasogenic, cytotoxic, and interstitial edema raise intracranial pressure"
+      ],
+      [
+       "Hyponatremia",
+       "Inappropriate ADH secretion"
+      ],
+      [
+       "Cranial nerve palsies",
+       "Nerves crossing the inflamed subarachnoid space are compressed or ischemic"
+      ]
+     ],
+     "caption": "Each complication follows from inflammation in the subarachnoid space and the structures that pass through it."
+    },
+    {
+     "type": "p",
+     "text": "Tuberculous meningitis has a different tempo and distribution. During earlier hematogenous spread, Mycobacterium tuberculosis forms small caseating foci (Rich foci) beneath the pia or ependyma; when one ruptures into the subarachnoid space, it releases bacilli and antigen that provoke a thick, gelatinous, fibrinous exudate concentrated at the base of the brain. That location explains the three main complications. Cranial nerves leaving the brainstem become entrapped, so palsies of the abducens (most common), oculomotor, and facial nerves are typical. The exudate obstructs CSF flow through the basal cisterns, causing communicating hydrocephalus. Arteries passing through the exudate develop obliterative endarteritis, producing infarcts, especially in the basal ganglia and internal capsule supplied by the lenticulostriate arteries. Onset is subacute over weeks, with headache, low-grade fever, weight loss, and confusion. CSF shows lymphocytes, very high protein, and low glucose."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: reading the CSF",
+     "text": "A 45-year-old man has three weeks of headache, night sweats, and double vision; he cannot abduct the right eye. CSF: opening pressure 30 cm H2O, 220 cells per microliter (85% lymphocytes), glucose 25 mg/dL with serum glucose 110 mg/dL, protein 280 mg/dL. Step 1: lymphocytes and a subacute course argue against typical bacterial meningitis. Step 2: a CSF to serum glucose ratio of about 0.23 is low, which argues against most viral meningitis. Step 3: very high protein, a cranial nerve VI palsy, and raised pressure point to a thick basilar exudate. Conclusion: tuberculous meningitis, with cryptococcal meningitis the main alternative if the patient is immunosuppressed."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-20-07-C11",
+   "obj": "NE-20-G.11",
+   "title": "Neurosyphilis",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Treponema pallidum invades the CSF early in infection in many patients, often without symptoms. If the infection is not cleared, it can produce neurologic disease months to decades later. The tertiary forms reflect where the spirochetes and the chronic lymphocyte and plasma cell inflammation they provoke settle: in the meninges and vessels, in the cerebral cortex, or in the dorsal roots and dorsal columns of the spinal cord."
+    },
+    {
+     "type": "p",
+     "text": "Meningovascular neurosyphilis, appearing years after infection, is a chronic meningitis that involves the base of the brain and causes obliterative endarteritis, with plasma cells and lymphocytes around small vessels. The narrowed arteries cause ischemic strokes in relatively young adults, often in middle cerebral artery territory. General paresis results from invasion of the cerebral cortex, especially the frontal lobes, typically one to several decades after infection. Neuronal loss, microglial proliferation, gliosis, and iron deposits in microglia produce a progressive dementia with personality change, poor judgment, mood disturbance, and sometimes grandiose delusions."
+    },
+    {
+     "type": "p",
+     "text": "Tabes dorsalis, also a late form, damages the sensory nerve roots where they enter the spinal cord, with secondary degeneration of the dorsal columns, mainly in the lumbosacral region. The losses follow directly from the anatomy. Loss of proprioception produces sensory ataxia with a wide-based, stamping gait and a positive Romberg sign: the patient can stand with eyes open by using vision but falls when the eyes are closed. Loss of the afferent limb of the stretch reflex abolishes knee and ankle reflexes. Irritation of dorsal roots causes sudden lancinating (lightning) pains. Loss of pain and position sense in large joints allows repeated unrecognized injury, producing destructive neuropathic (Charcot) joints, classically the knee. Bladder sensation is lost, causing overflow retention. Argyll Robertson pupils are small, irregular pupils that constrict to accommodation but not to light, attributed to a lesion in the dorsal midbrain that interrupts the light reflex pathway while sparing the more ventral accommodation pathway."
+    },
+    {
+     "type": "table",
+     "title": "Forms of neurosyphilis",
+     "cols": [
+      "Form",
+      "Site of injury",
+      "Main findings"
+     ],
+     "rows": [
+      [
+       "Asymptomatic",
+       "CSF and meninges",
+       "Abnormal CSF only"
+      ],
+      [
+       "Meningovascular",
+       "Basal meninges and small arteries (endarteritis)",
+       "Stroke in a young adult, cranial nerve palsies"
+      ],
+      [
+       "General paresis",
+       "Cerebral cortex, especially frontal",
+       "Dementia, personality change, delusions"
+      ],
+      [
+       "Tabes dorsalis",
+       "Dorsal roots and dorsal columns",
+       "Sensory ataxia, positive Romberg, areflexia, lightning pains, Charcot joints, Argyll Robertson pupils"
+      ]
+     ],
+     "caption": "The location of chronic spirochetal inflammation determines the syndrome."
+    },
+    {
+     "type": "p",
+     "text": "CSF in neurosyphilis typically shows a lymphocytic pleocytosis and elevated protein. The CSF VDRL test, which detects antibodies to cardiolipin, is highly specific: a reactive result essentially confirms neurosyphilis. It is not sensitive, however, and misses a substantial fraction of cases, so a negative CSF VDRL does not exclude the diagnosis. Serum treponemal tests usually remain positive for life once a patient has been infected."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-20-07-C12",
+   "obj": "NE-20-G.12",
+   "title": "Poliomyelitis and post-polio syndrome",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Poliovirus is a nonenveloped, positive-sense single-stranded RNA virus of the genus Enterovirus (family Picornaviridae), with three serotypes. Because it lacks an envelope, it survives stomach acid and the environment and spreads by the fecal-oral route. The virus replicates first in the oropharynx and in intestinal lymphoid tissue (tonsils and Peyer patches), then enters the blood. In a small minority it reaches the CNS, either across the blood-brain barrier or by retrograde transport along peripheral nerves, using its cell receptor CD155. Within the CNS it is strongly tropic for motor neurons, destroying anterior horn cells of the spinal cord and, in bulbar polio, motor nuclei of the brainstem."
+    },
+    {
+     "type": "p",
+     "text": "Most infections are silent. Roughly 70% are asymptomatic, about a quarter cause a mild febrile illness, 1% to 5% cause aseptic meningitis, and fewer than 1% cause paralysis. Paralytic disease follows the loss of lower motor neurons. Weakness is flaccid and asymmetric, often affecting one leg more than the other and proximal muscles more than distal, because the virus destroys motor neuron pools patchily. Loss of the motor neuron interrupts the efferent limb of the stretch reflex, so reflexes are reduced or absent. Dying motor units produce fasciculations, and denervated muscles atrophy over weeks. Sensation is normal because the dorsal horns and dorsal roots are spared. Bulbar involvement can cause dysphagia and respiratory failure. CSF shows a lymphocytic pleocytosis with normal glucose. Histology shows the viral encephalitis pattern (C04) centered on the anterior horns."
+    },
+    {
+     "type": "p",
+     "text": "Recovery after acute polio depends on surviving motor neurons sprouting new axon branches to reinnervate orphaned muscle fibers, creating enlarged motor units. Post-polio syndrome appears about 15 to 40 years later as new, slowly progressive weakness, fatigue, and atrophy, usually in previously affected muscles. It is not reactivation of the virus. The best-supported explanation is that the oversized motor units, under long-term metabolic stress, gradually lose terminal sprouts and fail. Vaccines that prevent polio are the inactivated vaccine and the live attenuated oral vaccine; the oral strains can rarely revert to neurovirulence, which is the biomedical basis of vaccine-associated and vaccine-derived paralytic polio."
+    },
+    {
+     "type": "stop",
+     "predict": "Why does a patient with West Nile acute flaccid paralysis look so much like a patient with paralytic polio?",
+     "explain": "Both viruses destroy anterior horn motor neurons, so both produce asymmetric lower motor neuron weakness with areflexia and preserved sensation.",
+     "check": "Compare the lesion described here with West Nile paralysis in C01."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-20-07-C13",
+   "obj": "NE-20-G.13",
+   "title": "Prion disease",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Prion diseases are transmissible neurodegenerative disorders caused by a misfolded host protein rather than by a microorganism with nucleic acid. Normal prion protein (PrPc), encoded by the PRNP gene on chromosome 20, is a membrane protein rich in alpha-helices that is readily digested by proteases. The disease form (PrPSc) has the same amino acid sequence but is folded into beta-pleated sheets. It is insoluble, resistant to proteases, and able to bind PrPc and template its conversion into more PrPSc. Each conversion adds template, so PrPSc accumulates exponentially, aggregates, and kills neurons."
+    },
+    {
+     "type": "p",
+     "text": "The initial misfolding can arise in three ways. Sporadic Creutzfeldt-Jakob disease (CJD), the most common form at about 85% of cases, arises spontaneously, usually around age 60. Inherited forms (about 10% to 15%) result from PRNP mutations that make the protein prone to misfold and include familial CJD, Gerstmann-Straussler-Scheinker syndrome, and fatal familial insomnia. Acquired forms are rare: iatrogenic CJD from contaminated neurosurgical instruments, dura mater or corneal grafts, and cadaveric pituitary growth hormone; kuru from ritual cannibalism; and variant CJD from eating beef contaminated with bovine spongiform encephalopathy prions. Variant CJD affects younger patients, begins with psychiatric and sensory symptoms, runs a longer course, and shows prominent amyloid plaques."
+    },
+    {
+     "type": "p",
+     "text": "Sporadic CJD causes a rapidly progressive dementia over weeks to months, with startle-sensitive myoclonus, ataxia, and visual or behavioral disturbance, and death usually within about a year. The pathology explains the name spongiform encephalopathy: fine vacuoles in the gray matter neuropil, neuronal loss, and reactive astrocytosis, with no inflammatory infiltrate, because PrPSc is a self protein and the immune system does not recognize it as foreign. Supporting tests reflect rapid neuronal destruction or the abnormal protein itself: periodic sharp wave complexes on EEG, raised CSF 14-3-3 protein and tau, a positive RT-QuIC assay that amplifies PrPSc seeding activity, and cortical and basal ganglia signal change on diffusion-weighted MRI. Prions resist conventional sterilization by heat, formalin, and radiation, which is why instruments have transmitted disease."
+    },
+    {
+     "type": "table",
+     "title": "Categories of human prion disease",
+     "cols": [
+      "Category",
+      "Examples",
+      "Origin of PrPSc"
+     ],
+     "rows": [
+      [
+       "Sporadic",
+       "Sporadic CJD",
+       "Spontaneous misfolding of normal PrP"
+      ],
+      [
+       "Inherited",
+       "Familial CJD, Gerstmann-Straussler-Scheinker syndrome, fatal familial insomnia",
+       "PRNP mutation, autosomal dominant"
+      ],
+      [
+       "Acquired",
+       "Iatrogenic CJD, kuru, variant CJD",
+       "Exposure to exogenous prions"
+      ]
+     ],
+     "caption": "All forms share protease-resistant beta-sheet PrP and spongiform change without inflammation."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-20-07-C14",
+   "obj": "NE-20-G.14",
+   "title": "Progressive multifocal leukoencephalopathy",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Progressive multifocal leukoencephalopathy (PML) is a demyelinating disease caused by JC virus, a small, nonenveloped, double-stranded DNA polyomavirus. Most people are infected silently in childhood, after which the virus remains latent, mainly in the kidney, and is shed in the urine without harm. Healthy T cell immunity keeps it in check. When cell-mediated immunity is profoundly impaired, the virus reactivates, and rearranged, neurotropic variants reach the brain."
+    },
+    {
+     "type": "p",
+     "text": "The settings all share severe loss of T cell surveillance of the brain. Advanced AIDS was the classic cause, usually with a CD4 count below about 200 and often below 100 cells per microliter. Other settings include hematologic malignancy, organ transplantation, and specific immunomodulating drugs. Natalizumab, an antibody to alpha-4 integrin, blocks lymphocytes from crossing into the CNS, so the brain loses immune surveillance even when blood counts look normal. Rituximab, an anti-CD20 antibody, depletes B cells, which may serve as a reservoir and vehicle for the virus as well as supporting T cell responses."
+    },
+    {
+     "type": "p",
+     "text": "JC virus infects and lyses oligodendrocytes, the cells that make and maintain CNS myelin, and also infects astrocytes. As oligodendrocytes die, myelin breaks down in patches that enlarge and merge, most often in the subcortical white matter of the parietal and occipital lobes, including the subcortical U-fibers. Histology shows oligodendrocytes with enlarged nuclei filled with glassy, purple viral inclusions at the edges of the lesions, and bizarre, enlarged astrocytes that can resemble tumor cells, with little inflammation."
+    },
+    {
+     "type": "p",
+     "text": "The clinical course reflects lesion location rather than any meningeal process. Patients develop subacute, steadily worsening focal deficits over weeks: hemiparesis, visual field loss or cortical blindness, aphasia, ataxia, and cognitive decline. Fever and headache are uncommon. MRI shows multifocal, asymmetric white matter lesions that are bright on T2-weighted images, with little or no mass effect and usually no enhancement. Detection of JC virus DNA in CSF by PCR supports the diagnosis. Without restoration of immunity, death typically follows within months. If immunity recovers rapidly, the returning inflammatory response can briefly worsen lesions and make them enhance (immune reconstitution inflammatory syndrome)."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-20-07-C15",
+   "obj": "NE-20-G.15",
+   "title": "Subacute sclerosing panencephalitis",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Subacute sclerosing panencephalitis (SSPE) is a rare, progressive, fatal encephalitis caused by persistent measles virus infection of the brain. Measles (rubeola) virus is an enveloped, negative-sense single-stranded RNA paramyxovirus. The greatest risk follows measles acquired in early childhood, especially before about age 2, when the immature immune system may fail to clear virus that has entered the CNS. SSPE then appears after a latent period of several years, typically about 7 to 10, most often in late childhood or adolescence."
+    },
+    {
+     "type": "p",
+     "text": "The persisting virus is defective. Mutations, most consistently in the gene for the matrix (M) protein and often in the fusion and hemagglutinin genes, prevent assembly and budding of complete virions. The viral nucleocapsids instead spread directly from cell to cell across synapses, so no free virus is released for antibody to neutralize. The host continues to make large amounts of anti-measles antibody, yet the infection persists inside neurons and oligodendrocytes. Inflammation and neuronal loss slowly destroy both gray and white matter, which is the meaning of panencephalitis, and gliosis (sclerosis) follows. Histology shows perivascular cuffs, microglial nodules, gliosis, and intranuclear and cytoplasmic viral inclusions in neurons and oligodendrocytes."
+    },
+    {
+     "type": "p",
+     "text": "The disease starts insidiously with personality change, irritability, and declining school performance, then progresses to periodic myoclonic jerks, seizures, visual loss from chorioretinitis, and finally rigidity, dementia, and a vegetative state, with death usually within about one to three years of onset. EEG shows periodic, high-amplitude complexes that repeat every several seconds and coincide with the myoclonic jerks. CSF has few or no cells and normal glucose, but the immunoglobulin findings are striking: markedly raised anti-measles antibody titers in CSF relative to serum, an elevated IgG index, and oligoclonal bands, all reflecting antibody production within the CNS. SSPE is prevented by measles vaccination, because preventing early childhood measles removes the source of persistent virus."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-20-07-C16",
+   "obj": "NE-20-G.16",
+   "title": "Tetanus",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Clostridium tetani is a gram-positive, spore-forming, obligate anaerobic rod with a terminal spore (drumstick appearance). Spores are widespread in soil and animal feces and survive for years. When they enter a wound with low oxygen tension, such as a puncture wound, crush injury, burn, or wound with dead tissue or a foreign body, they germinate and the bacteria release tetanospasmin. The organism stays at the wound and does not invade, and the wound may look trivial. In neonatal tetanus, spores enter the umbilical stump when the cord is cut with an unsterile instrument or dressed with contaminated material, in infants whose mothers lack protective antibody."
+    },
+    {
+     "type": "flow",
+     "title": "How tetanospasmin causes spastic paralysis",
+     "steps": [
+      "Toxin binds motor nerve terminals at the wound",
+      "Retrograde axonal transport to spinal cord and brainstem",
+      "Transfer into inhibitory interneurons",
+      "Light chain cleaves synaptobrevin",
+      "Glycine and GABA release blocked",
+      "Alpha motor neurons fire unopposed: rigidity and spasms"
+     ],
+     "caption": "Removing inhibition, not adding excitation, produces sustained muscle contraction."
+    },
+    {
+     "type": "p",
+     "text": "Like botulinum toxin, tetanospasmin is a zinc protease that cleaves a SNARE protein, but after retrograde transport it acts centrally, in the inhibitory interneurons (including Renshaw cells) that normally restrain motor neurons. With glycine and GABA release blocked, alpha motor neurons discharge without inhibition, so agonist and antagonist muscles contract together. Loss of inhibition of sympathetic neurons causes autonomic instability with tachycardia, hypertension, and sweating."
+    },
+    {
+     "type": "p",
+     "text": "The muscles with the shortest nerve pathways are often affected first. Trismus (lockjaw) from masseter spasm is usually the first sign. Sustained facial muscle contraction produces risus sardonicus, a fixed grin with raised eyebrows. Generalized spasms, triggered by noise, touch, or light, arch the back into opisthotonus. Laryngeal spasm and rigidity of respiratory muscles threaten breathing. The patient remains conscious and in pain throughout. Neonatal tetanus appears in the first one to two weeks of life with poor sucking, irritability, rigidity, and spasms."
+    },
+    {
+     "type": "p",
+     "text": "Tetanus is prevented by toxoid immunization. Toxoid is tetanospasmin inactivated with formaldehyde, which destroys its toxicity but preserves its antigenic structure, so it induces neutralizing IgG antitoxin. Maternal immunization protects the newborn because IgG crosses the placenta. Recovery from tetanus does not confer immunity, because the amount of toxin that causes disease is too small to stimulate an antibody response."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: botulism or tetanus?",
+     "text": "Two farm workers present on the same day. The first has a stiff jaw, painful back arching set off by noise, and a healing puncture wound on the foot. The second has double vision, drooping eyelids, dilated pupils, and weakness spreading down from the face after eating home-canned beans. Step 1: both toxins are zinc proteases that cleave SNARE proteins. Step 2: ask which synapse is silenced. Botulinum toxin stays at the peripheral cholinergic terminal and blocks acetylcholine release, so muscles go limp and pupils dilate: flaccid paralysis in the second patient. Step 3: tetanospasmin travels to the spinal cord and blocks inhibitory glycine and GABA release, so motor neurons fire unopposed: spastic paralysis in the first patient."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-20-07-C17",
+   "obj": "NE-20-G.17",
+   "title": "Varicella zoster virus: latency, reactivation, and herpes zoster syndromes",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Primary varicella zoster virus (VZV) infection is chickenpox. The virus is spread by respiratory droplets and contact with vesicle fluid, replicates in the respiratory tract and lymphoid tissue, and reaches the skin through the blood, producing a widespread vesicular rash. During this illness the virus enters sensory nerve endings in the skin and travels by retrograde axonal transport to the sensory ganglia, and it may also reach them through the blood. It then becomes latent in neurons of the dorsal root ganglia and cranial nerve ganglia, including the trigeminal and geniculate ganglia. Cell-mediated immunity, specifically VZV-specific T cells, keeps it latent."
+    },
+    {
+     "type": "cycle",
+     "title": "VZV latency and reactivation",
+     "steps": [
+      "Chickenpox: virus enters sensory nerve endings",
+      "Retrograde transport to sensory ganglion",
+      "Latency held by VZV-specific T cells",
+      "T cell immunity declines with age or immunosuppression",
+      "Reactivation and anterograde spread to the dermatome"
+     ],
+     "caption": "Shingles is reactivation of the patient's own latent virus, not a new infection."
+    },
+    {
+     "type": "p",
+     "text": "VZV-specific T cell immunity declines with age, especially after about 50, and with immunosuppression. The virus then reactivates in one ganglion, inflames and damages it, and travels anterograde down the sensory axons to the skin of that dermatome. This explains the features of herpes zoster (shingles): burning or aching pain often precedes the rash by several days, and the vesicles cluster in a band on one side of the body that respects the midline. Thoracic dermatomes are the most common, followed by the ophthalmic division of the trigeminal nerve. Vesicle scrapings show multinucleated giant cells with intranuclear inclusions."
+    },
+    {
+     "type": "p",
+     "text": "Herpes zoster ophthalmicus is reactivation in the trigeminal ganglion affecting the ophthalmic division (V1). Vesicles on the tip or side of the nose (Hutchinson sign) signal involvement of the nasociliary branch, which also supplies the cornea and is therefore a warning of keratitis and uveitis. Ramsay Hunt syndrome (herpes zoster oticus) is reactivation in the geniculate ganglion of the facial nerve. It causes an ipsilateral lower motor neuron facial palsy with vesicles in the external ear canal or auricle, sometimes with loss of taste on the anterior two-thirds of the tongue and, when the adjacent vestibulocochlear nerve is involved, hearing loss and vertigo. VZV can also infect cerebral arteries after zoster, causing a vasculopathy with stroke."
+    },
+    {
+     "type": "p",
+     "text": "Postherpetic neuralgia is pain that persists in the affected dermatome for more than about three months after the rash heals. Its risk rises with age and with the severity of the acute pain and rash. Inflammation and necrosis in the ganglion and nerve destroy many sensory neurons, and the injured, surviving neurons fire ectopically while central pain pathways become sensitized. The result is burning pain, allodynia (pain from light touch), and sometimes numbness in the same area."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-20-07-C18",
+   "obj": "NE-20-G.18",
+   "title": "Spirochetal meningitis: Lyme neuroborreliosis and leptospirosis",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Spirochetes are thin, helical bacteria that move by corkscrew motion powered by periplasmic flagella (endoflagella) lying beneath the outer membrane. This motility lets them penetrate tissue and cross barriers, including the blood-brain barrier, and they classically produce a lymphocytic (aseptic-type) meningitis rather than the neutrophilic meningitis of pyogenic bacteria."
+    },
+    {
+     "type": "p",
+     "text": "Lyme disease is caused by Borrelia burgdorferi, transmitted in North America by Ixodes ticks (the blacklegged or deer tick). White-footed mice and other small mammals are the main reservoir for the bacteria, while deer support the adult ticks. Transmission usually requires prolonged tick attachment, and most cases occur in the northeastern and upper midwestern United States in late spring and summer. Early localized disease is erythema migrans, an expanding red rash at the bite site. Over the following weeks the organism spreads in the blood, and early disseminated disease can involve the heart (AV block), skin (multiple erythema migrans), and nervous system."
+    },
+    {
+     "type": "p",
+     "text": "Lyme neuroborreliosis classically presents as a triad that can occur alone or together. Lymphocytic meningitis causes headache and mild neck stiffness, with CSF lymphocytes, raised protein, normal glucose, and intrathecal production of antibody to Borrelia. Cranial neuritis most often affects the facial nerve, and the palsy is bilateral in a notable minority of cases. Because bilateral facial palsy has few causes, Lyme disease is a leading consideration in an endemic area. Painful radiculoneuritis causes burning, shooting pain in a dermatomal distribution, sometimes with weakness. Late disease can cause a mild encephalopathy and peripheral neuropathy."
+    },
+    {
+     "type": "p",
+     "text": "Leptospirosis is caused by Leptospira interrogans, a spirochete with hooked ends. Rodents, especially rats, are the most important reservoir, though dogs and livestock also carry it, shedding the organism in their urine into water and soil. Humans are infected when contaminated water enters through abraded skin or mucous membranes, so cases follow flooding, freshwater swimming, and occupational exposure, especially in tropical regions. The illness is often biphasic. A leptospiremic phase brings abrupt fever, severe headache, calf myalgia, and conjunctival suffusion (red eyes without discharge). After a brief improvement, an immune phase follows as antibodies appear, and aseptic lymphocytic meningitis is its most common neurologic feature. Severe disease (Weil disease) adds jaundice, acute kidney injury, and hemorrhage, including pulmonary hemorrhage."
+    },
+    {
+     "type": "table",
+     "title": "Spirochetes that cause meningitis",
+     "cols": [
+      "Feature",
+      "Borrelia burgdorferi",
+      "Leptospira interrogans",
+      "Treponema pallidum"
+     ],
+     "rows": [
+      [
+       "Transmission",
+       "Ixodes tick bite",
+       "Water or soil contaminated by animal urine",
+       "Sexual contact or vertical"
+      ],
+      [
+       "Reservoir",
+       "White-footed mice and small mammals",
+       "Rats, dogs, livestock",
+       "Humans only"
+      ],
+      [
+       "Neurologic pattern",
+       "Meningitis, facial palsy (often bilateral), radiculoneuritis",
+       "Aseptic meningitis in the immune phase",
+       "Meningovascular disease, general paresis, tabes dorsalis (C11)"
+      ],
+      [
+       "Other clues",
+       "Erythema migrans, AV block",
+       "Conjunctival suffusion, calf pain, jaundice and renal failure",
+       "Chancre, secondary rash"
+      ]
+     ],
+     "caption": "All three cause lymphocytic meningitis; the exposure and associated findings identify the organism."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Nearly every infection in this chapter can be solved by linking three facts: how the agent reaches the nervous system, which cell it damages, and how the host responds. Agents that travel inside axons (rabies virus, poliovirus, tetanus toxin, VZV) are shielded from antibody, and Naegleria reaches the brain by migrating along olfactory nerve fibers; both routes bypass the bloodstream. Agents that reach the subarachnoid space through the blood (pneumococcus, meningococcus, Cryptococcus) cause meningitis whose character depends on whether the host response is neutrophilic, lymphocytic, or weak. The target cell predicts the deficit: anterior horn cells give flaccid weakness (polio, West Nile), oligodendrocytes give demyelination (PML), Schwann cells give peripheral neuropathy (leprosy), inhibitory interneurons give spasticity (tetanus), and cholinergic terminals give flaccid paralysis with autonomic failure (botulism)."
+  },
+  {
+   "type": "p",
+   "text": "Immune status narrows the list, and pathology reveals the tempo. Very low CD4 counts invite reactivation or opportunistic disease from Toxoplasma, Cryptococcus, CMV, EBV, and JC virus; Th1 strength decides the form of leprosy; and neonates and older adults share Listeria because both have weaker cell-mediated immunity. Disorders without inflammation (prion disease) or with persistent intrathecal antibody (SSPE) show that inflammation itself can be absent, present but ineffective, or the main cause of injury, as in bacterial and tuberculous meningitis. A limit of this approach is overlap: ring-enhancing lesions, lymphocytic CSF, and subacute dementia each have several causes, so the full picture, not one finding, should drive the answer."
+  }
+ ],
+ "summary": [
+  "Arboviruses cycle between mosquitoes and birds; humans are dead-end hosts, and West Nile virus can destroy anterior horn cells to cause polio-like flaccid paralysis in older adults.",
+  "Botulinum toxin blocks acetylcholine release at peripheral cholinergic terminals (descending flaccid paralysis, dilated pupils, no fever or sensory loss), while tetanus toxin blocks glycine and GABA release from spinal inhibitory interneurons (spastic paralysis).",
+  "Brain abscess location and organisms follow the route of spread, and the collagen capsule forms the enhancing ring; lumbar puncture risks herniation.",
+  "Viral encephalitis shows perivascular cuffs, microglial nodules, and neuronophagia; inclusions (Negri bodies, Cowdry A, owl's eye) point to rabies, herpesviruses, and CMV.",
+  "Low CD4 counts permit Toxoplasma (multiple ring lesions), Cryptococcus (high opening pressure, capsular antigen), CMV, EBV lymphoma, and JC virus (PML); ketoacidosis frees iron for angioinvasive Mucorales.",
+  "Bacterial meningitis organisms follow age: group B streptococcus, E. coli, and Listeria in neonates; S. pneumoniae and N. meningitidis afterward; Listeria returns in older adults.",
+  "Tuberculous meningitis forms a basilar exudate that traps cranial nerves, blocks CSF flow, and causes endarteritis with infarcts.",
+  "Th1-dominant tuberculoid leprosy is paucibacillary with few anesthetic plaques; Th2-dominant lepromatous leprosy is multibacillary with leonine facies and symmetric neuropathy.",
+  "Tabes dorsalis destroys dorsal roots and columns (sensory ataxia, Romberg sign, areflexia, Charcot joints, Argyll Robertson pupils); a reactive CSF VDRL is specific but insensitive.",
+  "Prions (beta-sheet PrP templating its own formation), PML (lytic oligodendrocyte infection), and SSPE (defective measles virus) are slow progressive CNS infections with distinctive pathology and CSF findings."
+ ],
+ "sources": [
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "The Central Nervous System, section on infections"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Peripheral Nerves and Skeletal Muscles; Infectious Diseases, sections on leprosy and syphilis"
+  },
+  {
+   "book": "Jawetz, Melnick and Adelberg's Medical Microbiology",
+   "where": "Clostridia; Mycobacteria; Spirochetes; Herpesviruses; Picornaviruses; Rabies and arboviruses; Prions; Medical mycology"
+  },
+  {
+   "book": "Abbas, Cellular and Molecular Immunology",
+   "where": "Effector mechanisms of cell-mediated immunity; immunity to microbes"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Infectious diseases and nervous system disorders"
+  }
+ ],
+ "verify": [
+  "Proportions of West Nile infections that are asymptomatic (about 80%), febrile (about 20%), and neuroinvasive (under 1%) follow CDC figures; confirm the values NABNE expects.",
+  "Poliovirus outcome proportions (about 70% asymptomatic, about 25% minor illness, 1% to 5% aseptic meningitis, under 1% paralytic) vary slightly between sources.",
+  "Temperature preference of M. leprae is quoted variously from about 27 to 33 °C (81 to 91 °F); this chapter uses about 27 to 30 °C (81 to 86 °F).",
+  "The SSPE latent period (about 7 to 10 years) and the age of measles infection that carries greatest risk (before about age 2) vary among sources.",
+  "CD4 thresholds for opportunistic CNS infections (Toxoplasma and Cryptococcus below about 100, CMV and EBV lymphoma below about 50, PML usually below about 200 cells per microliter) are approximate and differ between references.",
+  "Prion disease proportions (sporadic about 85%, inherited about 10% to 15%, acquired under 1%) are approximate.",
+  "The anatomic site responsible for Argyll Robertson pupils (dorsal midbrain near the pretectal and Edinger-Westphal region) is the traditional explanation but is not firmly established.",
+  "Confirm whether NABNE expects eponyms such as Rich focus, Hutchinson sign, Weil disease, and Waterhouse-Friderichsen syndrome, or only the descriptive terms.",
+  "Requested new diagram names for a future revision: meningitis-csf (CSF profile comparison chart) and botulism-tetanus-synapse (sites of SNARE cleavage at the neuromuscular junction and spinal inhibitory interneuron)."
+ ]
+}

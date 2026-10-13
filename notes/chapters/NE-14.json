@@ -1,0 +1,613 @@
+{
+  "unit": "NE-14",
+  "chapter_id": "NPLEX-P1-NEUR-14",
+  "topic_id": "NPLEX-P1-NEUR-14-01",
+  "title": "Neurological Biochemistry and Nutrition",
+  "subject": "Nervous System (NEUR)",
+  "version": "1.0",
+  "author": "Dr. Sharilyn Rennie",
+  "brand": "MedMasters Collaborative",
+  "overview": {
+    "intro": "This chapter explains how the nervous system's biochemistry makes it vulnerable to fuel shortage, vitamin deficiency, ammonia, inherited lipid storage, and lead. Neurons need a continuous supply of oxidizable fuel, depend on vitamin cofactors to make ATP, neurotransmitters, and myelin, and rely on astrocytes and lysosomes to remove what they cannot use. Board questions usually describe a neurologic picture with a dietary, laboratory, or family clue and ask for the enzyme or cofactor at fault. If you can follow each finding back to the reaction that failed, you can reason through hypoglycemia, Wernicke encephalopathy, subacute combined degeneration, hepatic encephalopathy, the sphingolipidoses, and lead poisoning.",
+    "prerequisites": [
+      "Glycolysis, pyruvate dehydrogenase, the TCA cycle, and the pentose phosphate pathway",
+      "Ketone body synthesis in the liver during fasting",
+      "Urea cycle and amino acid transamination",
+      "Heme synthesis pathway",
+      "Myelin formation by oligodendrocytes and Schwann cells (NE-2) and spinal cord tracts (NE-7)"
+    ],
+    "connections": [
+      {
+        "to": "Neuron and nerve histology (NE-2)",
+        "how": "Myelin structure explains why lipid storage disorders, B12 deficiency, and vitamin E deficiency injure white matter and long axons."
+      },
+      {
+        "to": "Somatic motor and sensory pathways (NE-7)",
+        "how": "The dorsal columns, corticospinal tracts, and spinocerebellar tracts damaged by B12 and vitamin E deficiency produce the bedside signs used to localize these lesions."
+      },
+      {
+        "to": "Gastrointestinal and hepatic physiology",
+        "how": "Liver failure, portosystemic shunting, ileal disease, and fat malabsorption are the usual routes to hyperammonemia and to B12 and vitamin E deficiency."
+      },
+      {
+        "to": "Hematology",
+        "how": "Megaloblastic anemia, sideroblastic anemia, and basophilic stippling share enzyme defects with the neurologic disorders in this chapter."
+      },
+      {
+        "to": "Endocrine physiology",
+        "how": "Insulin, glucagon, and epinephrine control the blood glucose that the brain cannot store, and counterregulation produces the warning symptoms of hypoglycemia."
+      }
+    ],
+    "terms": [
+      {
+        "term": "Neuroglycopenia",
+        "def": "Brain dysfunction caused by too little glucose reaching neurons, ranging from confusion to seizures and coma."
+      },
+      {
+        "term": "Thiamine pyrophosphate (TPP)",
+        "def": "The active form of vitamin B1, a cofactor that carries activated aldehyde groups in oxidative decarboxylation and transketolase reactions."
+      },
+      {
+        "term": "Methyl-folate trap",
+        "def": "Accumulation of folate as N5-methyltetrahydrofolate when B12-dependent methionine synthase fails, starving DNA synthesis of usable folate."
+      },
+      {
+        "term": "Subacute combined degeneration",
+        "def": "Demyelination of the dorsal columns and lateral corticospinal tracts of the spinal cord in vitamin B12 deficiency."
+      },
+      {
+        "term": "Pyridoxal phosphate (PLP)",
+        "def": "The active form of vitamin B6, a cofactor for amino acid decarboxylases, transaminases, and ALA synthase."
+      },
+      {
+        "term": "Glutamine synthetase",
+        "def": "The astrocyte enzyme that combines glutamate and ammonia into glutamine, the brain's main route for removing ammonia."
+      },
+      {
+        "term": "Alzheimer type II astrocyte",
+        "def": "A gray matter astrocyte with an enlarged, pale, vesicular nucleus, the histologic marker of chronic hyperammonemia; unrelated to Alzheimer disease."
+      },
+      {
+        "term": "Sphingolipid",
+        "def": "A membrane lipid built on ceramide (sphingosine plus a fatty acid), including sphingomyelin, cerebrosides, sulfatides, and gangliosides."
+      },
+      {
+        "term": "Sphingolipidosis",
+        "def": "An inherited lysosomal storage disease in which one missing hydrolase lets its sphingolipid substrate accumulate."
+      },
+      {
+        "term": "Leukodystrophy",
+        "def": "An inherited disorder in which myelin forms abnormally or is destroyed, causing progressive white matter loss."
+      },
+      {
+        "term": "Zinc protoporphyrin",
+        "def": "Protoporphyrin IX carrying zinc instead of iron, which rises when ferrochelatase is inhibited or iron is scarce."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "comp": "NPLEX-P1-NEUR-14-01-C01",
+      "obj": "NE-14.1",
+      "title": "Brain fuel: glucose, ketone bodies, and hypoglycemia",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The brain is about 2% of body weight but uses about 20% of resting oxygen consumption and roughly 120 g of glucose a day in a fed adult. Almost all of this energy comes from complete oxidation of glucose. Brain glycogen, held mainly in astrocytes, would last only minutes without fresh supply, so neuronal function tracks blood glucose."
+        },
+        {
+          "type": "p",
+          "text": "Glucose crosses the blood-brain barrier by facilitated diffusion through GLUT1 on capillary endothelial cells (and on astrocytes), then enters neurons through GLUT3. Both transporters have a high affinity for glucose, so uptake is adequate across the normal range (fasting about 70 to 99 mg/dL, 3.9 to 5.5 mmol/L), and neither requires insulin. This lets the brain keep taking up glucose when insulin is low during fasting, while insulin-dependent GLUT4 in muscle and fat shuts down. The flip side is that the brain cannot acutely raise uptake when blood glucose falls, because transport is passive and follows the concentration gradient. In GLUT1 deficiency syndrome, too little glucose crosses the barrier, cerebrospinal fluid glucose is low while blood glucose is normal, and infants develop seizures and delayed development."
+        },
+        {
+          "type": "p",
+          "text": "Long-chain fatty acids are not a meaningful neuronal fuel: they cross the barrier slowly while bound to albumin, and neurons have little capacity for beta-oxidation. Ketone bodies solve this problem in fasting. As insulin falls and glucagon rises, the liver oxidizes fatty acids to acetoacetate and beta-hydroxybutyrate. These cross the barrier through monocarboxylate transporters (MCT1), and brain mitochondria convert them back to acetyl-CoA using succinyl-CoA:3-ketoacid CoA transferase, an enzyme the liver lacks (so the liver exports ketones rather than using them). Uptake rises with blood level, so ketones contribute little after an overnight fast but supply about two-thirds of brain energy after several weeks of starvation. This lowers the brain's glucose demand and therefore the amount of muscle protein broken down for gluconeogenesis."
+        },
+        {
+          "type": "table",
+          "title": "Brain fuel across the fed and fasted states",
+          "cols": [
+            "State",
+            "Main brain fuel",
+            "Glucose source",
+            "Why"
+          ],
+          "rows": [
+            [
+              "Fed",
+              "Glucose",
+              "Dietary carbohydrate",
+              "Insulin high; ketogenesis suppressed"
+            ],
+            [
+              "Overnight fast",
+              "Glucose",
+              "Hepatic glycogenolysis, then gluconeogenesis",
+              "Ketones still low, so uptake is small"
+            ],
+            [
+              "Several days of fasting",
+              "Glucose plus rising ketones",
+              "Gluconeogenesis from amino acids, lactate, glycerol",
+              "Ketone levels rise and MCT1 uptake increases"
+            ],
+            [
+              "Weeks of starvation",
+              "Ketones (about two-thirds), glucose (about one-third)",
+              "Gluconeogenesis, now reduced",
+              "Spares muscle protein"
+            ]
+          ],
+          "caption": "The brain never stops needing some glucose, but ketone bodies replace most of it in prolonged fasting."
+        },
+        {
+          "type": "p",
+          "text": "Hypoglycemia produces symptoms in a predictable order because thresholds are hierarchical. Insulin secretion falls first (at about 80 mg/dL, 4.4 mmol/L), then glucagon and epinephrine rise at about 65 to 70 mg/dL (3.6 to 3.9 mmol/L). Autonomic symptoms follow at about 55 mg/dL (3.0 mmol/L): adrenergic tremor, palpitations, and anxiety, and cholinergic sweating, hunger, and tingling. Below about 50 mg/dL (2.8 mmol/L) neurons run short of ATP, and neuroglycopenic symptoms appear: confusion, difficulty concentrating, behavior change, blurred or double vision, slurred speech, focal deficits, then seizures and coma. Prolonged severe hypoglycemia causes selective neuronal death in the cortex, hippocampus, and striatum, driven partly by glutamate excitotoxicity. Recurrent episodes shift the thresholds lower, so neuroglycopenia can arrive without warning (hypoglycemia unawareness), and beta blockade masks adrenergic warnings but not cholinergic sweating."
+        },
+        {
+          "type": "flow",
+          "title": "Falling blood glucose and the order of responses",
+          "steps": [
+            "Blood glucose falls",
+            "Insulin secretion falls (about 80 mg/dL)",
+            "Glucagon and epinephrine rise (about 65 to 70 mg/dL)",
+            "Autonomic warning symptoms (about 55 mg/dL)",
+            "Neuronal ATP falls (below about 50 mg/dL)",
+            "Confusion, behavior change, visual and speech disturbance",
+            "Seizures, coma, selective neuronal death"
+          ],
+          "caption": "Counterregulation and autonomic warnings normally appear before neuroglycopenia; thresholds are approximate and shift with recurrent hypoglycemia."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-NEUR-14-01-C02",
+      "obj": "NE-14.2",
+      "title": "Thiamine: TPP enzymes, Wernicke encephalopathy, and beriberi",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Thiamine (vitamin B1) is absorbed in the small intestine and phosphorylated inside cells by thiamine pyrophosphokinase to thiamine pyrophosphate (TPP). Body stores are small, so a poor diet empties them within weeks. Chronic alcohol use is the usual cause in developed countries because it reduces intake, intestinal absorption, hepatic storage, and phosphorylation at the same time. Other settings include hyperemesis gravidarum, bariatric surgery, prolonged vomiting, refeeding after starvation, and diets of polished rice."
+        },
+        {
+          "type": "table",
+          "title": "Enzymes that need thiamine pyrophosphate",
+          "cols": [
+            "Enzyme",
+            "Reaction",
+            "Effect of deficiency"
+          ],
+          "rows": [
+            [
+              "Pyruvate dehydrogenase",
+              "Pyruvate to acetyl-CoA (links glycolysis to the TCA cycle)",
+              "Pyruvate diverted to lactate; less acetyl-CoA and ATP"
+            ],
+            [
+              "Alpha-ketoglutarate dehydrogenase",
+              "Alpha-ketoglutarate to succinyl-CoA (TCA cycle)",
+              "TCA cycle slows; alpha-ketoglutarate and glutamate accumulate"
+            ],
+            [
+              "Branched-chain ketoacid dehydrogenase",
+              "Breakdown of leucine, isoleucine, valine ketoacids",
+              "Minor role in acquired deficiency"
+            ],
+            [
+              "Transketolase",
+              "Nonoxidative pentose phosphate pathway",
+              "Pentose and glycolytic intermediates interconvert poorly; red cell transketolase activity falls"
+            ]
+          ],
+          "caption": "The two dehydrogenases dominate the neurologic picture because they control aerobic ATP production from glucose. Red cell transketolase activity is a functional test of thiamine status."
+        },
+        {
+          "type": "p",
+          "text": "Without TPP, glucose can still be broken down to pyruvate, but the pyruvate cannot enter the TCA cycle, and the cycle itself stalls at alpha-ketoglutarate. Tissues that depend on aerobic glucose oxidation, chiefly neurons and myocardium, lose ATP and produce lactate. Neurons and astrocytes in regions with high metabolic turnover then fail through a combination of energy failure, focal lactic acidosis, glutamate excitotoxicity, and breakdown of the blood-brain barrier."
+        },
+        {
+          "type": "p",
+          "text": "Wernicke encephalopathy is the acute result. The lesions are symmetric and lie around the third ventricle, aqueduct, and fourth ventricle: the mammillary bodies, medial thalamus, periaqueductal gray, and the ocular motor and vestibular nuclei. These sites explain the classic triad of confusion, ophthalmoplegia with nystagmus (often lateral rectus weakness from abducens nucleus involvement), and gait ataxia (vestibular and superior vermis involvement). Only a minority of patients show all three, so the diagnosis is suspected from any part of the triad in an at-risk patient. Korsakoff syndrome is the chronic sequel when damage to the medial thalamus and mammillary bodies persists: severe anterograde amnesia, patchy retrograde amnesia, and confabulation with otherwise preserved alertness."
+        },
+        {
+          "type": "p",
+          "text": "Peripheral nerves fail more slowly. Dry beriberi is a symmetric, length-dependent axonal sensorimotor neuropathy, worse in the legs, with distal weakness, wasting, and lost ankle reflexes. Wet beriberi is high-output heart failure from peripheral vasodilation combined with impaired myocardial energy production."
+        },
+        {
+          "type": "flow",
+          "title": "Why glucose before thiamine worsens Wernicke encephalopathy",
+          "steps": [
+            "Thiamine-depleted patient receives a glucose load",
+            "Glycolytic flux to pyruvate rises",
+            "PDH and alpha-KGDH consume remaining TPP",
+            "Pyruvate shunted to lactate; ATP falls further",
+            "Vulnerable periventricular neurons fail",
+            "Wernicke encephalopathy appears or worsens"
+          ],
+          "caption": "A carbohydrate load raises demand for a cofactor that is already scarce, so thiamine must be replaced before or with glucose."
+        },
+        {
+          "type": "stop",
+          "predict": "A malnourished patient with alcohol use disorder is given intravenous dextrose alone and becomes more confused, with new nystagmus. Which two enzymes are most responsible, and why did dextrose make things worse?",
+          "explain": "Pyruvate dehydrogenase and alpha-ketoglutarate dehydrogenase. The dextrose increased flux toward pyruvate and the TCA cycle, using up the last TPP, so neurons in the periventricular gray lost aerobic ATP production faster.",
+          "check": "The TPP enzyme table and the glucose-before-thiamine flow."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-NEUR-14-01-C03",
+      "obj": "NE-14.3",
+      "title": "Vitamin B12 and folate: two enzymes, two laboratory patterns, one myelopathy",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Vitamin B12 (cobalamin) is a cofactor for only two human enzymes, and both explain its clinical picture. Methionine synthase, in the cytosol, uses methylcobalamin to move a methyl group from N5-methyltetrahydrofolate to homocysteine, forming methionine and regenerating tetrahydrofolate (THF). Methylmalonyl-CoA mutase, in mitochondria, uses adenosylcobalamin to convert L-methylmalonyl-CoA to succinyl-CoA. That second reaction is the final step in breaking down propionyl-CoA, which comes from odd-chain fatty acids and from valine, isoleucine, methionine, and threonine."
+        },
+        {
+          "type": "table",
+          "title": "The two B12-dependent enzymes",
+          "cols": [
+            "Enzyme",
+            "B12 form",
+            "Also needs folate?",
+            "Substrate that rises when blocked"
+          ],
+          "rows": [
+            [
+              "Methionine synthase",
+              "Methylcobalamin",
+              "Yes (N5-methyl-THF is the methyl donor)",
+              "Homocysteine"
+            ],
+            [
+              "Methylmalonyl-CoA mutase",
+              "Adenosylcobalamin",
+              "No",
+              "Methylmalonic acid (from methylmalonyl-CoA)"
+            ]
+          ],
+          "caption": "Homocysteine rises in deficiency of either vitamin; methylmalonic acid rises only in B12 deficiency."
+        },
+        {
+          "type": "p",
+          "text": "When methionine synthase stalls, folate accumulates as N5-methyl-THF, which cannot be converted back to other folate forms (the methyl-folate trap). The cell then lacks N5,N10-methylene-THF for thymidylate synthesis, DNA replication lags behind cytoplasmic growth, and marrow precursors become megaloblastic. Folate deficiency reaches the same DNA defect directly, so the two anemias look identical on a smear: macrocytes, hypersegmented neutrophils, and ineffective erythropoiesis."
+        },
+        {
+          "type": "p",
+          "text": "Only B12 deficiency damages the nervous system in adults. The exact mechanism is still debated. The leading explanations are reduced S-adenosylmethionine, which is needed to methylate myelin basic protein and phospholipids, and incorporation of abnormal odd-chain and branched fatty acids into myelin when methylmalonyl-CoA and propionyl-CoA accumulate. The characteristic lesion is subacute combined degeneration: vacuolar demyelination, then axonal loss, beginning in the dorsal columns of the cervical and upper thoracic cord and spreading to the lateral corticospinal tracts. Dorsal column loss produces impaired vibration and position sense, sensory ataxia, and a positive Romberg sign. Corticospinal loss produces spastic weakness and Babinski signs. A coexisting peripheral neuropathy can depress the ankle reflexes, so extensor plantar responses with absent ankle jerks is a classic combination. Cognitive decline, depression, and optic neuropathy can also occur, and neurologic damage can appear before, or without, anemia."
+        },
+        {
+          "type": "p",
+          "text": "Folate supplements bypass the methyl-folate trap by supplying folate that is not methylated, so they restore DNA synthesis and correct the anemia of B12 deficiency. They do not restore methylmalonyl-CoA mutase or methionine synthase, so the myelopathy continues and the hematologic clue that would prompt testing disappears. Nitrous oxide oxidizes the cobalt in cobalamin and inactivates methionine synthase, which is why nitrous oxide exposure can precipitate subacute combined degeneration in someone with borderline stores. Folate deficiency in pregnancy matters for neural tube closure in the embryo, but that is a developmental effect, not myelin injury in the mother."
+        },
+        {
+          "type": "example",
+          "title": "Reading the laboratory pattern",
+          "text": "A 64-year-old has macrocytic anemia and hypersegmented neutrophils. Both deficiencies impair DNA synthesis, so the smear cannot separate them. Homocysteine is elevated, which fits either, because methionine synthase needs both vitamins. Methylmalonic acid is also elevated. Only methylmalonyl-CoA mutase can explain that, and it needs B12 but not folate, so this is B12 deficiency. Expect dorsal column and corticospinal signs now or later. If methylmalonic acid were normal with high homocysteine, folate deficiency would be the answer and the spinal cord would be spared. Note that renal failure can raise both metabolites, so the pattern is read with kidney function in mind."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-NEUR-14-01-C04",
+      "obj": "NE-14.4",
+      "title": "Vitamin B6, niacin, and vitamin E",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Vitamin B6 (pyridoxine) acts as pyridoxal phosphate (PLP), which forms a Schiff base with amino acids and stabilizes the intermediates of decarboxylation and transamination. Neurotransmitter synthesis depends on it. Glutamate decarboxylase makes GABA, aromatic L-amino acid decarboxylase makes dopamine from L-DOPA and serotonin from 5-hydroxytryptophan, and histidine decarboxylase makes histamine. PLP is also needed by ALA synthase, the first step of heme synthesis, and by kynureninase in the pathway that makes niacin from tryptophan."
+        },
+        {
+          "type": "p",
+          "text": "When PLP falls, GABA synthesis is the most consequential loss: inhibition fails relative to excitation, and seizures follow, most dramatically in infants. Deficiency also produces a sensory-predominant peripheral neuropathy, irritability, and confusion, plus sideroblastic anemia from impaired ALA synthase and cheilosis and glossitis. Isoniazid causes deficiency by forming an inactive hydrazone with pyridoxal and inhibiting pyridoxal kinase. An important exception is that chronic high-dose pyridoxine is itself toxic to dorsal root ganglion neurons and causes a sensory neuronopathy, so both too little and too much B6 injure sensory nerves."
+        },
+        {
+          "type": "p",
+          "text": "Niacin (vitamin B3) is the precursor of NAD+ and NADP+, the electron carriers for hundreds of oxidation-reduction reactions, including glycolysis, the TCA cycle, and the respiratory chain. It can also be made from tryptophan in a pathway that needs B6 and riboflavin, at roughly 60 mg of tryptophan per 1 mg of niacin. Deficiency, pellagra, therefore follows either low niacin intake or reduced tryptophan supply. High-turnover and high-energy tissues fail: photosensitive dermatitis in sun-exposed skin, diarrhea from intestinal epithelial loss, and dementia with depression, insomnia, and confusion progressing to delirium. Large cortical neurons, including Betz cells, show chromatolysis. Causes include a maize-based diet (niacin bound in an unavailable form, and maize is low in tryptophan), Hartnup disease (defective neutral amino acid transporter in gut and kidney), carcinoid syndrome (tryptophan diverted to serotonin), isoniazid, and alcohol use disorder."
+        },
+        {
+          "type": "p",
+          "text": "Vitamin E (alpha-tocopherol) is a lipid-soluble, chain-breaking antioxidant that sits in membranes and stops lipid peroxidation of polyunsaturated fatty acids. Deficiency is almost always secondary to fat malabsorption (cholestatic liver disease, cystic fibrosis, short bowel, abetalipoproteinemia) or to mutation of alpha-tocopherol transfer protein (ataxia with vitamin E deficiency). Large sensory neurons with long axons are most vulnerable, producing a picture that resembles Friedreich ataxia: spinocerebellar ataxia, dorsal column loss of vibration and position sense, areflexia, peripheral neuropathy, and sometimes ophthalmoplegia and retinopathy. Red cell membranes undergo peroxidation, causing hemolytic anemia. Because dorsal column signs overlap with B12 deficiency, the distinguishing clues are normal methylmalonic acid, no megaloblastic anemia, and evidence of malabsorption."
+        },
+        {
+          "type": "table",
+          "title": "B6, niacin, and vitamin E deficiency compared",
+          "cols": [
+            "Vitamin",
+            "Active form and key role",
+            "Neurologic findings",
+            "Distinguishing clues"
+          ],
+          "rows": [
+            [
+              "B6 (pyridoxine)",
+              "PLP: glutamate decarboxylase, aromatic amino acid decarboxylase, ALA synthase",
+              "Seizures (low GABA), peripheral neuropathy, irritability",
+              "Isoniazid; sideroblastic anemia; excess B6 also causes sensory neuropathy"
+            ],
+            [
+              "B3 (niacin)",
+              "NAD+ and NADP+ for redox reactions",
+              "Dementia, depression, delirium (pellagra)",
+              "Photosensitive dermatitis and diarrhea; maize diet, Hartnup, carcinoid"
+            ],
+            [
+              "E (alpha-tocopherol)",
+              "Membrane antioxidant against lipid peroxidation",
+              "Spinocerebellar ataxia, dorsal column loss, neuropathy",
+              "Fat malabsorption; hemolytic anemia; normal methylmalonic acid"
+            ]
+          ],
+          "caption": "Each deficiency is localized by which neural function depends most on the missing reaction."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-NEUR-14-01-C05",
+      "obj": "NE-14.5",
+      "title": "Hyperammonemia and the astrocyte",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Ammonia comes from amino acid catabolism, intestinal glutaminase, and bacterial urease in the colon. Portal blood carries it to the liver, where periportal hepatocytes convert it to urea and perivenous hepatocytes capture the remainder as glutamine. Normal plasma ammonia in adults is below about 50 micromol/L. Liver failure removes both systems, portosystemic shunting lets portal blood bypass them, and urea cycle defects block urea formation directly."
+        },
+        {
+          "type": "p",
+          "text": "The brain has no complete urea cycle. Ammonia crosses the blood-brain barrier readily as un-ionized NH3, and astrocytes, which hold nearly all brain glutamine synthetase, detoxify it by adding it to glutamate to form glutamine, using ATP. Because NH3 and NH4+ equilibrate with a pKa of about 9.2, alkalosis increases the NH3 fraction and therefore brain entry, which is why alkalosis and hypokalemia (which raises renal ammonia production) can precipitate encephalopathy."
+        },
+        {
+          "type": "flow",
+          "title": "How excess ammonia injures the brain",
+          "steps": [
+            "Blood ammonia rises",
+            "NH3 diffuses into astrocytes",
+            "Glutamine synthetase makes glutamine from glutamate",
+            "Glutamine accumulates and draws in water",
+            "Glutamine enters mitochondria and releases ammonia",
+            "Mitochondrial dysfunction and oxidative stress",
+            "Astrocyte swelling and impaired glutamate cycling",
+            "Cerebral edema, encephalopathy"
+          ],
+          "caption": "Glutamine acts both as an osmolyte and as a carrier that delivers ammonia into astrocyte mitochondria (the Trojan horse hypothesis)."
+        },
+        {
+          "type": "p",
+          "text": "Glutamine is osmotically active, so astrocytes swell. In acute liver failure or a neonatal urea cycle crisis, the rise is fast, compensation cannot keep up, and cytotoxic edema raises intracranial pressure and can cause herniation. In chronic liver disease, astrocytes export other osmolytes such as myo-inositol, swelling stays mild, and dysfunction dominates over edema. Energy fails as well: fixing ammonia consumes glutamate and, through glutamate dehydrogenase, alpha-ketoglutarate, which slows the TCA cycle. Diversion of glutamate also disrupts the glutamate-glutamine cycle that refills neuronal transmitter pools, and inhibitory GABAergic tone appears to be increased. The result is a fluctuating encephalopathy: inverted sleep pattern, confusion, asterixis (a flapping movement from brief lapses of postural tone, not a true tremor), somnolence, and coma."
+        },
+        {
+          "type": "p",
+          "text": "The histologic hallmark is the Alzheimer type II astrocyte: an enlarged, pale, vesicular nucleus with marginated chromatin and little visible cytoplasm, found in the cortex, basal ganglia, thalamus, and cerebellar dentate nucleus. It reflects metabolic stress, is unrelated to Alzheimer disease, and also appears in Wilson disease, where liver failure coexists with copper toxicity."
+        },
+        {
+          "type": "p",
+          "text": "Urea cycle defects present in neonates once protein feeding begins, with poor feeding, vomiting, lethargy, seizures, and hyperventilation (ammonia stimulates the respiratory center, causing respiratory alkalosis). Ornithine transcarbamylase deficiency, the most common, is X-linked; unused carbamoyl phosphate spills into pyrimidine synthesis, so orotic acid rises. Carbamoyl phosphate synthetase I deficiency causes similar hyperammonemia without orotic aciduria."
+        },
+        {
+          "type": "stop",
+          "predict": "A patient with cirrhosis and stable mental status develops vomiting and diuretic-induced hypokalemic metabolic alkalosis, then becomes confused with asterixis. Why did the alkalosis matter?",
+          "explain": "Alkalosis shifts NH4+ toward NH3, which crosses the blood-brain barrier freely, and hypokalemia increases renal ammonia production. More ammonia reaches astrocytes, glutamine accumulates, and encephalopathy follows.",
+          "check": "The NH3 and NH4+ equilibrium and the ammonia flow."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-NEUR-14-01-C06",
+      "obj": "NE-14.6",
+      "title": "Myelin lipids, sphingolipidoses, and leukodystrophies",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Myelin is a stack of compacted plasma membrane, about 70 to 80% lipid by dry weight, compared with roughly half for most cell membranes. This composition gives it the high electrical resistance and low capacitance that make saltatory conduction possible. Its main lipids are cholesterol (about a quarter of myelin lipid), galactocerebroside (about a fifth), phospholipids including ethanolamine plasmalogen, sphingomyelin, and a smaller amount of sulfatide. The fatty acids are long and highly saturated, which packs the bilayer tightly. Galactocerebroside and sulfatide are so characteristic of oligodendrocytes and Schwann cells that they serve as myelin markers."
+        },
+        {
+          "type": "p",
+          "text": "All sphingolipids share a ceramide core made from serine and palmitoyl-CoA (a PLP-dependent step) plus a second fatty acid. Adding phosphocholine makes sphingomyelin, adding galactose makes galactocerebroside, sulfating galactocerebroside makes sulfatide, and adding sugar chains with sialic acid makes gangliosides, which are concentrated in neuronal membranes. Breakdown occurs in lysosomes, where specific hydrolases remove one group at a time from the outer end, so a single missing enzyme halts the whole sequence at its substrate."
+        },
+        {
+          "type": "flow",
+          "title": "Lysosomal breakdown of the myelin glycolipids",
+          "steps": [
+            "Sulfatide",
+            "Arylsulfatase A removes sulfate (absent in metachromatic leukodystrophy)",
+            "Galactocerebroside",
+            "Galactocerebrosidase removes galactose (absent in Krabbe disease)",
+            "Ceramide",
+            "Ceramidase releases sphingosine and fatty acid"
+          ],
+          "caption": "Each step needs the previous product, so a block at either hydrolase causes storage of the lipid just above it."
+        },
+        {
+          "type": "p",
+          "text": "Where the stored lipid normally lives determines the disease. Gangliosides and sphingomyelin are abundant in neuronal membranes, so their storage diseases distend neuronal cell bodies, impair autophagy, and cause gray matter disease with loss of milestones, seizures, and blindness. Accumulation in retinal ganglion cells whitens the macula except at the fovea, where ganglion cells are absent, producing a cherry-red spot. Galactocerebroside and sulfatide belong to myelin, so their defects destroy oligodendrocytes and Schwann cells and cause leukodystrophies affecting both central and peripheral myelin. In Krabbe disease, the toxic product is psychosine (galactosylsphingosine), which galactocerebrosidase normally degrades; it kills myelinating cells, so little galactocerebroside actually accumulates in brain, and macrophages filled with undegraded lipid form multinucleated globoid cells. In metachromatic leukodystrophy, stored sulfatide stains a different color with certain dyes, which gives the disease its name. X-linked adrenoleukodystrophy is the peroxisomal exception: a defective ABCD1 transporter prevents very long chain fatty acids from entering peroxisomes for beta-oxidation, and they accumulate in myelin and the adrenal cortex."
+        },
+        {
+          "type": "table",
+          "title": "Lipid storage disorders that injure the nervous system",
+          "cols": [
+            "Disease",
+            "Missing enzyme or protein",
+            "Stored substance",
+            "Inheritance",
+            "Nervous system findings"
+          ],
+          "rows": [
+            [
+              "Tay-Sachs disease",
+              "Hexosaminidase A",
+              "GM2 ganglioside",
+              "Autosomal recessive",
+              "Infantile neurodegeneration, exaggerated startle, cherry-red spot; no hepatosplenomegaly"
+            ],
+            [
+              "Niemann-Pick disease type A",
+              "Sphingomyelinase",
+              "Sphingomyelin",
+              "Autosomal recessive",
+              "Neurodegeneration, cherry-red spot, hepatosplenomegaly, foam cells"
+            ],
+            [
+              "Gaucher disease (types 2 and 3)",
+              "Glucocerebrosidase",
+              "Glucocerebroside",
+              "Autosomal recessive",
+              "Neurologic involvement only in types 2 and 3; type 1 spares the brain"
+            ],
+            [
+              "Krabbe disease",
+              "Galactocerebrosidase",
+              "Psychosine (toxic), galactocerebroside in globoid cells",
+              "Autosomal recessive",
+              "Central and peripheral demyelination, optic atrophy, spasticity"
+            ],
+            [
+              "Metachromatic leukodystrophy",
+              "Arylsulfatase A",
+              "Sulfatide",
+              "Autosomal recessive",
+              "Central and peripheral demyelination, ataxia, cognitive decline"
+            ],
+            [
+              "Fabry disease",
+              "Alpha-galactosidase A",
+              "Globotriaosylceramide",
+              "X-linked recessive",
+              "Painful small fiber neuropathy; also kidney, heart, skin"
+            ],
+            [
+              "X-linked adrenoleukodystrophy",
+              "ABCD1 peroxisomal transporter",
+              "Very long chain fatty acids",
+              "X-linked recessive",
+              "Cerebral demyelination in boys, adrenal insufficiency"
+            ]
+          ],
+          "caption": "Neuronal storage (gangliosides, sphingomyelin) causes gray matter disease; defects in galactocerebroside and sulfatide breakdown cause leukodystrophy."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-NEUR-14-01-C07",
+      "obj": "NE-14.7",
+      "title": "Lead poisoning: heme synthesis and the nervous system",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Lead binds sulfhydryl groups and displaces zinc and calcium from proteins. Two heme synthesis enzymes are especially sensitive. ALA dehydratase (porphobilinogen synthase), a cytosolic zinc enzyme, joins two molecules of delta-aminolevulinic acid (ALA) into porphobilinogen; lead displaces its zinc and blocks it, so ALA accumulates in blood and urine. Ferrochelatase, in mitochondria, inserts ferrous iron into protoporphyrin IX to make heme; when lead inhibits it, zinc is inserted instead, and zinc protoporphyrin accumulates in red cells."
+        },
+        {
+          "type": "flow",
+          "title": "Heme synthesis and the steps lead blocks",
+          "steps": [
+            "Glycine plus succinyl-CoA",
+            "ALA synthase (needs PLP) makes ALA",
+            "ALA dehydratase makes porphobilinogen (blocked by lead)",
+            "Cytosolic steps to coproporphyrinogen III",
+            "Protoporphyrin IX in mitochondria",
+            "Ferrochelatase inserts iron to form heme (blocked by lead)"
+          ],
+          "caption": "Blocks at the second and final steps raise ALA and zinc protoporphyrin and lower heme, giving a microcytic, sideroblastic anemia."
+        },
+        {
+          "type": "p",
+          "text": "Falling heme output produces a microcytic hypochromic anemia with ringed sideroblasts, because iron enters mitochondria but cannot be incorporated. Lead also inhibits pyrimidine 5'-nucleotidase, so ribosomal RNA is not degraded and aggregates as basophilic stippling. The accumulated ALA is structurally similar to GABA and may contribute to neurotoxicity, but most nervous system injury comes from lead's direct effects on calcium-dependent processes: it substitutes for calcium at voltage-gated channels, protein kinase C, and synaptic release machinery, and blocks NMDA receptors that are important for synaptic plasticity in the developing brain."
+        },
+        {
+          "type": "p",
+          "text": "Children are more vulnerable for several reasons. They ingest dust and old paint chips through hand-to-mouth behavior, absorb a much larger fraction of ingested lead than adults, and have a developing blood-brain barrier and synapses that are still forming. At high blood levels lead damages capillary endothelium, causing vasogenic cerebral edema with headache, vomiting, ataxia, seizures, and coma. At much lower levels it produces lasting deficits in IQ, attention, and learning without any acute illness, and no safe threshold has been established. Dense metaphyseal bands on radiographs of long bones mark growth periods during exposure."
+        },
+        {
+          "type": "p",
+          "text": "Adults, usually exposed through battery manufacture, smelting, renovation, or firearms, more often develop peripheral rather than central disease. Lead neuropathy is predominantly motor with little sensory loss, and it favors the most active extensor muscles, especially those supplied by the radial nerve (wrist drop) and the common fibular nerve (foot drop). Adults also develop abdominal colic, a gray-blue gingival line (lead sulfide), proximal tubular injury and chronic nephropathy, hypertension, and saturnine gout."
+        },
+        {
+          "type": "table",
+          "title": "Lead poisoning in children and adults",
+          "cols": [
+            "Feature",
+            "Children",
+            "Adults"
+          ],
+          "rows": [
+            [
+              "Usual exposure",
+              "Old paint chips and dust, contaminated soil and water",
+              "Occupational: batteries, smelting, renovation, firing ranges"
+            ],
+            [
+              "Main nervous system target",
+              "Brain: encephalopathy, cerebral edema, cognitive and behavioral deficits",
+              "Peripheral motor nerves: wrist drop and foot drop"
+            ],
+            [
+              "Why",
+              "Higher absorption, immature barrier, developing synapses",
+              "Mature barrier; long motor axons to active extensors"
+            ],
+            [
+              "Other findings",
+              "Lead lines at metaphyses, microcytic anemia, stippling",
+              "Colic, gingival line, nephropathy, gout, hypertension, anemia"
+            ]
+          ],
+          "caption": "The same enzyme and calcium-pathway effects produce different patterns because the target tissues differ in maturity and exposure."
+        },
+        {
+          "type": "example",
+          "title": "Linking the blood smear to the wrist",
+          "text": "A 45-year-old who recycles car batteries has abdominal pain and cannot extend his right wrist, with normal sensation. His smear shows microcytic red cells with basophilic stippling. Work backward. Microcytosis means less heme. Stippling means pyrimidine 5'-nucleotidase failed, a lead effect. Elevated zinc protoporphyrin would confirm ferrochelatase inhibition, and urinary ALA would confirm ALA dehydratase inhibition. A purely motor radial neuropathy fits lead's preference for motor axons to active extensors. A child with the same exposure would instead present with behavioral change or encephalopathy, because the developing brain is the more sensitive target."
+        }
+      ]
+    }
+  ],
+  "integration": [
+    {
+      "type": "p",
+      "text": "Every disorder in this chapter follows the same logic: a nervous system function depends on one reaction, and the reaction fails because its substrate, cofactor, or clearance pathway is missing. Energy metabolism links glucose, thiamine, niacin, and ammonia, because all of them converge on pyruvate, the TCA cycle, and NAD+. Myelin links B12, vitamin E, and the leukodystrophies, since long, heavily myelinated tracts such as the dorsal columns and corticospinal tracts show damage first. Heme synthesis links B6 and lead, which cause sideroblastic anemia through ALA synthase and ferrochelatase, respectively. Hematology often gives the decisive clue: megaloblasts point to B12 or folate, stippling to lead, hemolysis to vitamin E."
+    },
+    {
+      "type": "p",
+      "text": "Pathology confirms the mechanism. Periventricular hemorrhagic lesions mark thiamine deficiency, vacuolar cord demyelination marks B12 deficiency, Alzheimer type II astrocytes mark hyperammonemia, and globoid cells, foam cells, and metachromatic material mark the lysosomal diseases. The limits matter: several mechanisms, especially the cause of myelin injury in B12 deficiency and the relative weight of edema and neurotransmitter change in hepatic encephalopathy, remain incompletely understood, and laboratory thresholds vary between sources and laboratories."
+    }
+  ],
+  "summary": [
+    "The brain takes up glucose through insulin-independent GLUT1 and GLUT3, stores almost none, cannot use fatty acids, and shifts to ketone bodies through MCT1 in prolonged fasting.",
+    "Hypoglycemia triggers counterregulation and autonomic warnings first; neuroglycopenia (confusion, behavior change, seizures, coma) appears below about 50 mg/dL (2.8 mmol/L).",
+    "TPP is the cofactor for pyruvate dehydrogenase, alpha-ketoglutarate dehydrogenase, branched-chain ketoacid dehydrogenase, and transketolase; deficiency causes Wernicke encephalopathy, Korsakoff syndrome, and beriberi, and glucose before thiamine worsens it.",
+    "B12 runs methionine synthase and methylmalonyl-CoA mutase; high methylmalonic acid separates B12 from folate deficiency, and only B12 deficiency causes subacute combined degeneration.",
+    "B6 deficiency causes seizures (low GABA) and neuropathy; niacin deficiency causes pellagra with dementia; vitamin E deficiency causes spinocerebellar ataxia and dorsal column loss.",
+    "Astrocytes clear brain ammonia through glutamine synthetase; glutamine accumulation swells astrocytes, alpha-ketoglutarate depletion slows the TCA cycle, and Alzheimer type II astrocytes mark the injury.",
+    "Myelin is lipid-rich with cholesterol, galactocerebroside, sulfatide, and sphingomyelin; lysosomal sphingolipid breakdown proceeds one step at a time.",
+    "Neuronal lipid storage (Tay-Sachs, Niemann-Pick A) causes gray matter disease; defects in galactocerebroside and sulfatide breakdown (Krabbe, metachromatic leukodystrophy) cause leukodystrophy.",
+    "Lead inhibits ALA dehydratase and ferrochelatase, causing microcytic sideroblastic anemia with basophilic stippling, encephalopathy in children, and motor wrist and foot drop in adults."
+  ],
+  "sources": [
+    {
+      "book": "Lippincott Illustrated Reviews: Biochemistry",
+      "where": "Vitamins; Metabolism of sphingolipids; Conversion of amino acids to specialized products (heme synthesis); Disposal of nitrogen"
+    },
+    {
+      "book": "Guyton and Hall Textbook of Medical Physiology",
+      "where": "Cerebral blood flow and brain metabolism; Insulin, glucagon, and diabetes mellitus"
+    },
+    {
+      "book": "Boron and Boulpaep Medical Physiology",
+      "where": "Brain energy metabolism and the blood-brain barrier"
+    },
+    {
+      "book": "Robbins and Cotran Pathologic Basis of Disease",
+      "where": "The Central Nervous System: metabolic and toxic disorders, leukodystrophies; Genetic disorders: lysosomal storage diseases"
+    },
+    {
+      "book": "Lange Pathophysiology of Disease",
+      "where": "Liver disease: hepatic encephalopathy; Nervous system disorders"
+    }
+  ],
+  "verify": [
+    "Hypoglycemia response thresholds (about 80, 65 to 70, 55, and 50 mg/dL) are approximate and differ slightly among sources; confirm values NABNE expects.",
+    "The fraction of brain energy supplied by ketone bodies in prolonged starvation (about two-thirds) and the brain's daily glucose use (about 120 g) are textbook approximations.",
+    "Myelin lipid proportions (cholesterol about a quarter, galactocerebroside about a fifth of lipid) vary between neurochemistry references and between CNS and PNS myelin.",
+    "The mechanism of neurologic injury in B12 deficiency remains debated; the S-adenosylmethionine and abnormal fatty acid explanations are presented as leading hypotheses.",
+    "Adult plasma ammonia reference upper limit (about 50 micromol/L) varies by laboratory and method.",
+    "Blood lead reference and action values for children are periodically revised by public health agencies; no specific current value is stated here.",
+    "Relative contribution of ALA-GABA mimicry versus calcium-pathway effects to lead neurotoxicity is uncertain."
+  ]
+}
