@@ -248,6 +248,19 @@ a.concept:hover{transform:translateY(-2px);box-shadow:var(--shadow-hover);color:
 .todo{list-style:none;padding:0;margin:0}
 .todo li{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;justify-content:space-between;padding:10px 0;border-top:1px solid var(--line);margin:0}
 .todo li:first-child{border-top:0}
+.daily li{align-items:flex-start;justify-content:flex-start;flex-wrap:nowrap;gap:12px}
+.daily .tx{flex:1 1 auto}
+.daily .struck{color:var(--muted);text-decoration:line-through}
+.tick{flex:0 0 auto;display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:7px 14px;font:inherit;font-size:.86rem;color:inherit;cursor:pointer;min-width:7.5rem}
+.tick span{width:16px;height:16px;border:2px solid var(--line);border-radius:4px;display:inline-block}
+.tick.on{background:var(--acc,#7a2d2d);border-color:var(--acc,#7a2d2d);color:#fff}
+.tick.on span{background:#fff;border-color:#fff}
+.tick:focus-visible{outline:3px solid var(--gold,#c9a227);outline-offset:2px}
+.daystrip{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:8px}
+.daystrip li a,.daystrip li span{display:block;border:1px solid var(--line);border-radius:12px;padding:8px 12px;text-decoration:none;min-width:5.6rem}
+.daystrip .now{border-color:var(--acc,#7a2d2d);border-width:2px}
+.daystrip .dn{display:block;font-size:.78rem;color:var(--muted)}
+.daystrip .dd{display:block;font-weight:600}
 
 /* study */
 .can{font-size:1.05rem;font-weight:600}
@@ -418,6 +431,7 @@ label.field{display:block;font-weight:700;margin-bottom:.35rem}
   <nav class="main-nav" aria-label="Main">
     <ul>
       <li><a href="#path" data-nav="path">Your path</a></li>
+      <li><a href="#today" data-nav="today">Today</a></li>
       <li><a href="#subjects" data-nav="subjects">Subjects</a></li>
       <li><a href="#dumps" data-nav="dumps">Brain dumps</a></li>
       <li><a href="#cards" data-nav="cards">Flashcards</a></li>
@@ -536,7 +550,7 @@ var store = {
   get:function(k){ try{ var v=window.localStorage.getItem(k); return v==null ? (k in mem ? mem[k] : null) : v; }catch(e){ return k in mem ? mem[k] : null; } },
   set:function(k,v){ mem[k]=v; try{ window.localStorage.setItem(k,v); return true; }catch(e){ return false; } }
 };
-function blank(){ return {v:1,units:{},attempts:{},srs:{},sessions:{},history:[],dumps:{},settings:{},cards:{},noteChecks:{}}; }
+function blank(){ return {v:1,units:{},attempts:{},srs:{},sessions:{},history:[],dumps:{},settings:{},cards:{},noteChecks:{},planDone:{}}; }
 function loadState(){
   var s=null; try{ s=JSON.parse(store.get('nplex-state')||'null'); }catch(e){ s=null; }
   var b=blank(); if(s && typeof s==='object'){ for(var k in b){ if(s[k]!=null) b[k]=s[k]; } }
@@ -1106,8 +1120,147 @@ function planCardHTML(){
   if(!P) return '<div class="card"><p class="eyebrow">Study plan</p><h2>How much do you need to study each week?</h2><p>Put in your exam date, your hours, and how you feel about each system. You get a week-by-week plan.</p><a class="btn acc" href="#plan">Build your study plan</a></div>';
   var R=planCalc(P), n=planWeekNow(P,R), w=R.W[n-1];
   var what = !n ? 'Your plan starts '+nice(P.start)+'.' : w ? (w.final?'Full-length exams and mixed review':w.items.map(function(it){ return sysName(it.code)+(it.split?' (part '+it.part+')':''); }).join(', ')) : 'Exam week.';
-  return '<div class="card"><p class="eyebrow">Study plan · exam '+nice(P.exam)+'</p><h2>'+(n?'This is week '+n+' of '+R.weeks:'Get ready')+'</h2><p>'+esc(what)+(w&&n?'. About '+r1(w.h)+' hours this week.':'')+'</p><a class="btn ghost" href="#plan">See or change your plan</a></div>';
+  var D=planDays(P,R), t=today(), d=planFindDay(D,t), nx=d?null:planNextDay(D,addDays(t,-1));
+  var line = d ? (pdAllDone(d) ? 'Today is done. ' + (planNextDay(D,t)?'Next session is '+dayName(planNextDay(D,t).date)+' '+shortDate(planNextDay(D,t).date)+'.':'')
+                              : 'Today: '+daySummary(d)+'. '+pdLeft(d)+' thing'+(pdLeft(d)===1?'':'s')+' left.')
+               : (t<P.start ? 'Your plan starts '+nice(P.start)+'.' : 'Rest day. Next session is '+(nx?dayName(nx.date)+' '+shortDate(nx.date):'coming up')+'.');
+  return '<div class="card"><p class="eyebrow">Study plan · exam '+nice(P.exam)+'</p><h2>'+(n?'This is week '+n+' of '+R.weeks:'Get ready')+'</h2>'+
+    '<p>'+esc(what)+(w&&n?'. About '+r1(w.h)+' hours this week.':'')+'</p>'+
+    '<p><strong>'+esc(line)+'</strong></p>'+
+    '<div class="row"><a class="btn acc" href="#today">'+(d&&!pdAllDone(d)?'Start today\'s session':'See today')+'</a> <a class="btn ghost" href="#plan">See or change your plan</a></div></div>';
 }
+
+/* ---------------- daily sessions ---------------- */
+function planDPW(hrs){ hrs=+hrs||0; return hrs>=18?6:hrs>=10?5:4; }
+function unitsForItem(it,R){
+  var list=ORDERED.filter(function(c){ return c.systemCode===it.code; }).map(function(c){ return c.id; });
+  var parts=0; R.W.forEach(function(w){ w.items.forEach(function(x){ if(x.code===it.code) parts++; }); });
+  if(parts<=1) return list;
+  var per=Math.ceil(list.length/parts), a=(it.part-1)*per;
+  return it.part===parts ? list.slice(a) : list.slice(a,a+per);
+}
+function planDays(P,R){
+  var dpw=planDPW(P.hrs), out=[];
+  R.W.forEach(function(w){
+    var days=[],i;
+    for(i=0;i<dpw;i++) days.push({date:addDays(w.start,i), week:w.n, tasks:[]});
+    if(w.final){
+      var fin=[['exam','Full exam 1: 100 questions, 2.5 hours','#exams'],
+               ['review','Review every miss from exam 1','#dashboard'],
+               ['exam','Full exam 2: 100 questions, 2.5 hours','#exams'],
+               ['review','Review every miss from exam 2','#dashboard'],
+               ['mix','Mixed set of 25 questions on your weakest systems','#practice'],
+               ['mix','Clear your blind spots and anything still due','#path']];
+      days.forEach(function(d,ix){
+        d.tasks.push({k:'recall',t:'Warm-up recall, 15 minutes',link:'#cards'});
+        if(fin[ix]) d.tasks.push({k:fin[ix][0],t:fin[ix][1],link:fin[ix][2]});
+      });
+      out.push({n:w.n,start:w.start,days:days,final:true});
+      return;
+    }
+    var units=[], qs=0;
+    w.items.forEach(function(it){
+      var row=null; R.sys.forEach(function(s){ if(s.code===it.code) row=s; });
+      unitsForItem(it,R).forEach(function(u){ units.push(u); });
+      if(row&&row.h>0) qs+=Math.round(row.q*(it.h/row.h));
+    });
+    var per=Math.max(1,Math.ceil(units.length/dpw)), qper=Math.round(qs/dpw);
+    days.forEach(function(d,ix){
+      d.tasks.push({k:'recall',t:'Warm-up recall, 15 minutes: what is due today plus flashcards',link:'#cards'});
+      units.slice(ix*per,(ix+1)*per).forEach(function(u){
+        d.tasks.push({k:'unit',u:u,t:'Study '+u+' '+((COMP[u]&&COMP[u].name)||'')+': brain dump, notes and videos, brain dump',link:'#study/'+u});
+      });
+      if(qper>0) d.tasks.push({k:'q',t:'Case questions in Teaching mode: about '+qper+' questions',link:'#practice'});
+      if(ix===dpw-1) d.tasks.push({k:'mix',t:'Timed mixed set: 25 questions, about 40 minutes',link:'#practice'});
+    });
+    out.push({n:w.n,start:w.start,days:days});
+  });
+  return out;
+}
+function planDayAt(D,iso){
+  for(var i=0;i<D.length;i++){ var ds=D[i].days; for(var j=0;j<ds.length;j++) if(ds[j].date===iso) return {w:D[i],d:ds[j]}; }
+  return null;
+}
+function planNextDay(D,iso){
+  var best=null;
+  D.forEach(function(w){ w.days.forEach(function(d){ if(d.date>iso && (!best||d.date<best.date)) best=d; }); });
+  return best;
+}
+function planFindDay(D,iso){ var r=planDayAt(D,iso); return r?r.d:null; }
+function pdDone(d,i){ var m=S.planDone[d.date]; return !!(m&&m[i]); }
+function pdAllDone(d){ return d.tasks.length>0 && d.tasks.every(function(t,i){ return pdDone(d,i); }); }
+function pdLeft(d){ var n=0; d.tasks.forEach(function(t,i){ if(!pdDone(d,i)) n++; }); return n; }
+function planOpenBefore(D,iso){
+  var out=[];
+  D.forEach(function(w){ w.days.forEach(function(d){
+    if(d.date<iso) d.tasks.forEach(function(t,i){ if(!pdDone(d,i) && t.k!=='recall') out.push({d:d,i:i,t:t}); });
+  }); });
+  return out;
+}
+function dayName(iso){ var p=iso.split('-'), d=new Date(+p[0],+p[1]-1,+p[2]); return ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'][d.getDay()]; }
+function shortDate(iso){ var p=iso.split('-'), m=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']; return m[+p[1]-1]+' '+(+p[2]); }
+function taskListHTML(d){
+  return '<ol class="todo daily">'+d.tasks.map(function(t,i){
+    var on=pdDone(d,i);
+    return '<li><button type="button" class="tick'+(on?' on':'')+'" data-act="pdone" data-date="'+d.date+'" data-i="'+i+'" aria-pressed="'+(on?'true':'false')+'"><span aria-hidden="true"></span>'+(on?'Done':'Mark done')+'</button>'+
+      '<span class="tx'+(on?' struck':'')+'">'+esc(t.t)+' <a href="'+t.link+'">Open</a></span></li>';
+  }).join('')+'</ol>';
+}
+function daySummary(d){
+  var u=d.tasks.filter(function(t){return t.k==='unit';}).map(function(t){ return t.u; });
+  var q=d.tasks.filter(function(t){return t.k==='q';}).length;
+  var x=d.tasks.filter(function(t){return t.k==='exam'||t.k==='mix'||t.k==='review';}).map(function(t){ return t.t; });
+  var bits=[];
+  if(u.length) bits.push(u.join(', '));
+  if(q) bits.push('case questions');
+  if(x.length) bits.push(x.join('; '));
+  return bits.join(' plus ') || 'Recall only';
+}
+function dayStripHTML(w,cur){
+  return '<ul class="daystrip">'+w.days.map(function(d){
+    var done=pdAllDone(d), now=d.date===cur;
+    return '<li><a class="'+(now?'now':'')+'" href="#today/'+d.date+'" aria-current="'+(now?'date':'false')+'"><span class="dn">'+dayName(d.date).slice(0,3)+' '+shortDate(d.date)+'</span><span class="dd">'+(done?'Done':pdLeft(d)+' left')+'</span></a></li>';
+  }).join('')+'</ul>';
+}
+VIEW.today = function(arg){
+  var P=S.settings.plan;
+  if(!P) return '<div class="head"><p class="eyebrow">Today</p><h1 tabindex="-1">Build your plan and this page tells you what to do</h1>'+
+    '<p class="lead">Put in your dates, your hours and how you feel about each system. After that, this page walks you through every day, one session at a time.</p></div>'+
+    '<div class="card"><a class="btn acc" href="#plan">Build your study plan</a></div>';
+  var R=planCalc(P), D=planDays(P,R), t=today();
+  var show = arg && planFindDay(D,arg) ? arg : null;
+  var cur = planFindDay(D,t), d = show ? planFindDay(D,show) : cur;
+  var wk = null; D.forEach(function(w){ w.days.forEach(function(x){ if(d&&x.date===d.date) wk=w; }); });
+  var next = planNextDay(D, d?d.date:t);
+  var h='<div class="head"><p class="eyebrow">Your daily walkthrough</p>';
+  if(!d){
+    var up = planNextDay(D,addDays(t,-1));
+    h+='<h1 tabindex="-1">No session scheduled today</h1>';
+    h+='<p class="lead">'+(t<P.start?'Your plan starts '+nice(P.start)+'.':'Today is a rest day. Rest days matter, your recall holds better after one.')+'</p></div>';
+    if(up) h+='<div class="card"><p class="eyebrow">Next session · '+dayName(up.date)+' '+shortDate(up.date)+'</p><h2>'+esc(daySummary(up))+'</h2>'+taskListHTML(up)+'</div>';
+    h+='<div class="card" style="margin-top:14px"><h3>Want to use today anyway?</h3><p>Clear what is due and run a flashcard set.</p><a class="btn ghost" href="#cards">Flashcards</a> <a class="btn ghost" href="#path">What is due</a></div>';
+    return h;
+  }
+  var isToday = d.date===t, done=pdAllDone(d), left=pdLeft(d);
+  h+='<h1 tabindex="-1">'+(isToday?'Today':dayName(d.date))+', '+shortDate(d.date)+'</h1>';
+  h+='<p class="lead">Week '+d.week+' of '+R.weeks+(wk&&wk.final?', final week.':'.')+' '+(done?'Everything here is done.':left+' thing'+(left===1?'':'s')+' left in this session.')+'</p></div>';
+  var open = planOpenBefore(D,t);
+  if(isToday && open.length) h+='<div class="card"><h2>Still open from earlier</h2><p class="note">Do today first, then pull these back in. If the list is long, drop the oldest case questions and keep the units.</p><ul class="small">'+
+    open.slice(0,6).map(function(o){ return '<li>'+shortDate(o.d.date)+': '+esc(o.t.t)+'</li>'; }).join('')+'</ul>'+(open.length>6?'<p class="note">Plus '+(open.length-6)+' more.</p>':'')+'</div>';
+  if(done){
+    h+='<section class="section"><div class="card"><p class="eyebrow">Done</p><h2>You met this session. Good.</h2>'+
+      '<p>'+(next?'Next session is '+dayName(next.date)+' '+shortDate(next.date)+': '+esc(daySummary(next))+'.':'That was the last session in your plan. From here, keep clearing what is due and run mixed sets until test day.')+'</p>'+
+      (next?'<div class="row"><a class="btn acc" href="#today/'+next.date+'">Open that session now</a> <a class="btn ghost" href="#cards">Extra flashcards</a></div>':'<a class="btn acc" href="#practice">Mixed practice</a>')+
+      '</div></section>';
+    h+='<section class="section"><h2>What you finished</h2><div class="card">'+taskListHTML(d)+'</div></section>';
+  } else {
+    h+='<section class="section"><h2>Your session'+(isToday?' today':'')+'</h2><div class="card"><p class="note">Work down the list. Mark each one as you finish it, and the page tells you what is next.</p>'+taskListHTML(d)+'</div></section>';
+  }
+  if(wk) h+='<section class="section"><h2>This week</h2><div class="card">'+dayStripHTML(wk,t)+
+    '<p class="note" style="margin:.8rem 0 0">Week '+wk.n+' starts '+nice(wk.start)+'. Rest days are the days not shown.</p></div></section>';
+  h+='<div class="row" style="margin-top:14px"><a class="btn ghost" href="#plan">See or change your plan</a> <a class="btn ghost" href="#path">Your path</a></div>';
+  return h;
+};
 
 /* ---------------- comprehensive notes (HTML) ---------------- */
 var NOTES_IDX = window.NPLEX_NOTES_INDEX || {};
@@ -1764,7 +1917,7 @@ VIEW.diagnostic = function(){
 };
 
 /* ---------------- router ---------------- */
-var NAV_FOR = {path:'path',week:'path',subjects:'subjects',subject:'subjects',predict:'dashboard',plan:'path',study:'path',notes:'path',dumps:'dumps',cards:'cards',practice:'practice',exams:'exams',dashboard:'dashboard',diagnostic:'diagnostic'};
+var NAV_FOR = {path:'path',today:'today',week:'path',subjects:'subjects',subject:'subjects',predict:'dashboard',plan:'path',study:'path',notes:'path',dumps:'dumps',cards:'cards',practice:'practice',exams:'exams',dashboard:'dashboard',diagnostic:'diagnostic'};
 var TITLES = {path:'Your path',week:'Week',subjects:'Subjects',subject:'Subject',predict:'Predicted result',plan:'Study plan',study:'Study unit',notes:'Notes',dumps:'Brain dumps',cards:'Flashcards',practice:'Practice',exams:'Full exams',dashboard:'Dashboard',diagnostic:'Diagnostic',take:'Question',results:'Results'};
 var lastRoute='';
 function route(keepFocus){
@@ -1838,7 +1991,15 @@ var ACT = {
   nstopshow:function(b){ var k=b.getAttribute('data-key'); nui.stop[k]=nui.stop[k]||{}; nui.stop[k].shown=true; rerender(); },
   nprint:function(b){ notesPrint(b.getAttribute('data-what')); },
   nchecksave:function(b){ var u=b.getAttribute('data-unit'), d=notesFor(u), chk=(S.noteChecks[u]=S.noteChecks[u]||{}); var n=d.sections.length, k=d.sections.filter(function(s){return chk[s.comp];}).length; srsUpdate(u, n?k/n:0, k/n>=0.75); save(); var s=S.srs[u], m=document.getElementById('nc-msg'), t='Saved: '+k+' of '+n+' competencies. '+(s&&s.next?'Next review '+nice(s.next)+'.':''); if(m) m.textContent=t; announce(t); },
-  plsave:function(){ S.settings.plan=JSON.parse(JSON.stringify(planDraft)); S.settings.plan.made=today(); save(); rerender(); var m=document.getElementById('pl-msg'); if(m) m.textContent='Saved. Your path page now shows this week.'; announce('Plan saved'); },
+  plsave:function(){ S.settings.plan=JSON.parse(JSON.stringify(planDraft)); S.settings.plan.made=today(); save(); announce('Plan saved. Here is today.'); location.hash='#today'; },
+  pdone:function(b){
+    var dt=b.getAttribute('data-date'), i=+b.getAttribute('data-i'), m=(S.planDone[dt]=S.planDone[dt]||{});
+    if(m[i]) delete m[i]; else m[i]=1;
+    save(); rerender();
+    var x=main.querySelector('[data-act="pdone"][data-date="'+dt+'"][data-i="'+i+'"]');
+    if(x) x.focus(); else { var hd=main.querySelector('h1,h2'); if(hd) hd.focus&&hd.focus(); }
+    announce(m[i]?'Marked done':'Marked not done');
+  },
   fcstart:function(){
     var ids=[]; var us=fcUnit?[fcUnit]:ORDERED.filter(function(c){return c.systemCode===fcSys;}).map(function(c){return c.id;});
     us.forEach(function(u){ cardsFor(u).forEach(function(c){ if(!fcOnlyMissed || (S.cards[c.id]&&S.cards[c.id].m>0&&S.cards[c.id].last!=='k')) ids.push(c.id); }); });
