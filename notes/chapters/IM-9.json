@@ -1,0 +1,484 @@
+{
+  "unit": "IM-9",
+  "chapter_id": "NPLEX-P1-IMMU-09",
+  "topic_id": "NPLEX-P1-IMMU-09-01",
+  "title": "Lymph Composition and Transport",
+  "subject": "Immunology and Lymphatic System (IMMU)",
+  "version": "1.0",
+  "author": "Dr. Sharilyn Rennie",
+  "brand": "MedMasters Collaborative",
+  "overview": {
+    "intro": "This chapter explains where lymph comes from, what it carries, how it is pushed back to the veins, and what happens when that drainage fails. Lymph begins as the small excess of fluid that Starling forces leave in the interstitium, and it is the only route by which filtered plasma protein returns to the blood. Board questions usually describe a swollen limb, a milky effusion, or a fetus with a neck mass and ask you to identify the failed step. If you can reason from Starling forces to interstitial protein to lymph flow, you can separate lymphedema from other edemas and explain why it scars.",
+    "prerequisites": [
+      "Capillary structure: continuous, fenestrated, and sinusoidal endothelium",
+      "Body fluid compartments and the composition of plasma and interstitial fluid",
+      "Hydrostatic and oncotic (colloid osmotic) pressure",
+      "Lymph node structure and lymphocyte recirculation (IM-2, IM-8)",
+      "Fat digestion and chylomicron assembly in enterocytes"
+    ],
+    "connections": [
+      {
+        "to": "Capillary fluid exchange (CV-11)",
+        "how": "The Starling forces that set capillary filtration determine how much fluid the lymphatics must remove."
+      },
+      {
+        "to": "Edema and heart failure (CV-18-B, CV-18-H)",
+        "how": "Comparing the protein content of edema fluid separates lymphatic failure from high venous pressure or low albumin."
+      },
+      {
+        "to": "Lymphatic drainage and lymph nodes (IM-4, IM-8)",
+        "how": "Afferent lymph delivers antigen and dendritic cells to nodes, and efferent lymph returns recirculating lymphocytes to the blood."
+      },
+      {
+        "to": "Lymph biochemistry (IM-11)",
+        "how": "Lacteals carry chylomicrons, so absorbed long-chain fat reaches the blood through the thoracic duct rather than the portal vein."
+      },
+      {
+        "to": "Medical genetics and parasitology",
+        "how": "Milroy disease, Turner syndrome, and Wuchereria bancrofti each cause lymphedema by a different lesion in the same drainage pathway."
+      }
+    ],
+    "terms": [
+      {
+        "term": "Starling forces",
+        "def": "The hydrostatic and oncotic pressures inside and outside a capillary whose balance determines the direction and rate of fluid movement across its wall."
+      },
+      {
+        "term": "Filtration coefficient (Kf)",
+        "def": "The product of capillary wall hydraulic conductance and surface area, which converts net filtration pressure into a flow of fluid."
+      },
+      {
+        "term": "Reflection coefficient (sigma)",
+        "def": "A number from 0 to 1 describing how well the capillary wall holds back protein; 1 means protein cannot cross and its full oncotic pressure is effective."
+      },
+      {
+        "term": "Interstitial fluid pressure",
+        "def": "The hydrostatic pressure of free fluid in the tissue spaces, normally slightly negative (about -3 mmHg) in loose subcutaneous tissue."
+      },
+      {
+        "term": "Lymph",
+        "def": "Interstitial fluid that has entered lymphatic vessels, carrying filtered protein, cells, and in the intestine absorbed fat."
+      },
+      {
+        "term": "Chyle",
+        "def": "Milky intestinal lymph rich in chylomicrons, formed in the lacteals after a fatty meal."
+      },
+      {
+        "term": "Anchoring filaments",
+        "def": "Fine fibers that tether lymphatic capillary endothelium to the surrounding matrix and pull the vessel open as tissue swells."
+      },
+      {
+        "term": "Lymphangion",
+        "def": "The segment of a collecting lymphatic between two one-way valves, which acts as a small contractile pump."
+      },
+      {
+        "term": "Safety factor against edema",
+        "def": "A mechanism that opposes interstitial fluid accumulation, such as rising lymph flow or washout of interstitial protein."
+      },
+      {
+        "term": "Lymphedema",
+        "def": "Protein-rich interstitial swelling caused by failure of lymphatic drainage rather than by excess filtration."
+      },
+      {
+        "term": "Cystic hygroma",
+        "def": "A fluid-filled lymphatic malformation, classically in the posterior neck of a fetus, caused by failed connection of lymph sacs to the veins."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "comp": "NPLEX-P1-IMMU-09-01-C01",
+      "obj": "IM-9.1",
+      "title": "Lymph formation from net capillary filtration",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Fluid crosses a capillary wall by bulk flow, driven by two pairs of opposing pressures called Starling forces. Capillary hydrostatic pressure (Pc) pushes fluid out, and interstitial oncotic pressure (pi i), created by protein in the tissue fluid, pulls fluid out. Plasma oncotic pressure (pi c), created mainly by albumin, pulls fluid back in. Interstitial hydrostatic pressure (Pi) opposes filtration only when it is positive; in loose tissue it is normally slightly negative, so it adds a small outward pull."
+        },
+        {
+          "type": "p",
+          "text": "The Starling equation combines these forces: filtration rate equals Kf multiplied by [(Pc minus Pi) minus sigma (pi c minus pi i)]. Kf, the filtration coefficient, reflects how leaky and how large the capillary bed is. Sigma, the reflection coefficient, describes how well the wall holds back protein; in most tissues it is close to 1, so plasma protein exerts nearly its full oncotic effect."
+        },
+        {
+          "type": "table",
+          "title": "Starling forces in a typical systemic capillary (Guyton and Hall values)",
+          "cols": [
+            "Force",
+            "Direction",
+            "About (mmHg)",
+            "Change that raises net filtration"
+          ],
+          "rows": [
+            [
+              "Capillary hydrostatic pressure (Pc)",
+              "Out",
+              "30 arterial end, 10 venous end, 17 functional mean",
+              "Venous obstruction, heart failure, volume overload"
+            ],
+            [
+              "Interstitial hydrostatic pressure (Pi)",
+              "Out while negative, in when positive",
+              "-3 in subcutaneous tissue",
+              "Becomes positive as edema develops"
+            ],
+            [
+              "Interstitial oncotic pressure (pi i)",
+              "Out",
+              "8",
+              "Protein leak (inflammation) or protein not removed (lymphatic block)"
+            ],
+            [
+              "Plasma oncotic pressure (pi c)",
+              "In",
+              "28",
+              "Low albumin (nephrotic syndrome, cirrhosis, malnutrition)"
+            ]
+          ],
+          "caption": "Values are averages for a typical systemic capillary bed; individual organs differ, and the glomerulus and lung are special cases."
+        },
+        {
+          "type": "p",
+          "text": "Averaged over the whole capillary, the outward forces exceed the inward force by a fraction of a millimeter of mercury. That small imbalance, multiplied across the enormous capillary surface of the body, leaves fluid in the interstitium every minute. Lymphatic capillaries collect this excess. Guyton and Hall estimate about 100 mL per hour of flow in the thoracic duct and about 20 mL per hour in other channels, giving about 2 to 3 L of lymph returned to the blood each day."
+        },
+        {
+          "type": "example",
+          "title": "Worked example: net filtration along a capillary",
+          "text": "At the arterial end, outward forces are Pc 30, plus 3 from the negative Pi, plus pi i 8, totaling 41 mmHg. The inward force is pi c 28 mmHg, so net pressure is 13 mmHg outward. At the venous end Pc falls to 10, so outward forces total 21 against 28 inward, a net of 7 mmHg inward. Using the functional mean Pc of 17.3, outward forces are 28.3 against 28, a net of about 0.3 mmHg outward. That small residual drives the steady net filtration that becomes lymph. If heart failure raises venous pressure and mean Pc by 10 mmHg, net outward pressure rises far above the 0.3 mmHg baseline, and lymph flow must rise to match or edema forms."
+        },
+        {
+          "type": "p",
+          "text": "The lymphatics therefore act as an overflow drain matched to filtration. Edema appears when filtration rises beyond the maximum lymph flow or when lymph flow itself fails. The first situation describes heart failure or hypoalbuminemia, and the second describes lymphedema; later sections explain why the two produce different fluids."
+        },
+        {
+          "type": "flow",
+          "title": "From capillary filtration to venous return",
+          "steps": [
+            "Net filtration leaves fluid and some protein in the interstitium",
+            "Interstitial volume and pressure rise slightly",
+            "Anchoring filaments open lymphatic capillary junctions",
+            "Fluid and protein enter as lymph",
+            "Lymph passes through regional lymph nodes",
+            "Thoracic or right lymphatic duct empties into a venous angle"
+          ],
+          "caption": "Lymph returns about 2 to 3 L per day of filtered fluid, with its protein, to the subclavian and internal jugular junctions."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-IMMU-09-01-C02",
+      "obj": "IM-9.2",
+      "title": "Lymph composition and the return of filtered protein",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Lymph is interstitial fluid that has entered a lymphatic vessel, so its small solutes match those of tissue fluid. Electrolytes and glucose are at about plasma concentrations because they cross capillary walls freely. What distinguishes lymph is its protein, its cells, and in the intestine its fat."
+        },
+        {
+          "type": "table",
+          "title": "Components of lymph and their source",
+          "cols": [
+            "Component",
+            "Source",
+            "Note"
+          ],
+          "rows": [
+            [
+              "Water, electrolytes, glucose",
+              "Capillary filtrate",
+              "About plasma concentrations"
+            ],
+            [
+              "Plasma protein, mainly albumin",
+              "Leak through endothelial junctions and transcytosis",
+              "About 2 g/dL in limb lymph, 3 to 4 g/dL intestinal, up to about 6 g/dL hepatic"
+            ],
+            [
+              "Lymphocytes",
+              "Recirculation through lymph nodes",
+              "Sparse in afferent lymph, abundant in efferent lymph"
+            ],
+            [
+              "Dendritic cells and antigen",
+              "Peripheral tissues",
+              "Carried in afferent lymph to the node"
+            ],
+            [
+              "Chylomicrons",
+              "Intestinal enterocytes via lacteals",
+              "Make intestinal lymph milky (chyle)"
+            ]
+          ],
+          "caption": "Liver and intestine produce about two thirds of all lymph, which is why thoracic duct lymph is relatively protein rich, about 3 to 5 g/dL."
+        },
+        {
+          "type": "p",
+          "text": "Capillary walls are not perfectly impermeable. A small fraction of plasma albumin escapes every minute through intercellular clefts and by vesicular transport, and the liver sinusoids, with their discontinuous endothelium, leak protein freely. Over a day, a large fraction of the circulating plasma protein passes into the interstitium this way."
+        },
+        {
+          "type": "p",
+          "text": "Once in the interstitium, that protein cannot return to the blood by the route it came. Plasma protein concentration is higher than tissue protein concentration, so diffusion opposes its return, and capillary endothelium restricts protein movement in both directions. Lymphatic capillaries differ: they are blind-ended tubes with overlapping, loosely joined endothelial cells, little or no basement membrane, and no pericytes. Fluid flows through these openings in bulk, carrying protein with it rather than sieving it out. Lymph is therefore the only route returning filtered protein to the circulation."
+        },
+        {
+          "type": "p",
+          "text": "The importance of this return is quantitative. If lymphatic drainage stopped, interstitial protein would accumulate, interstitial oncotic pressure would rise toward plasma oncotic pressure, and the main force holding fluid in capillaries would be lost. Fluid would shift into the tissues and plasma volume would fall. Guyton and Hall estimate that total failure of lymph flow would be fatal within about a day."
+        },
+        {
+          "type": "p",
+          "text": "Chylomicrons explain why intestinal lymph is special. Enterocytes package absorbed long-chain fatty acids, cholesterol, and fat-soluble vitamins into chylomicrons, which are far too large to cross the basement membrane and endothelium of blood capillaries. They enter the central lacteal of each villus instead and travel through the cisterna chyli and thoracic duct, bypassing the liver on first pass. A torn or obstructed thoracic duct (trauma, thoracic surgery, lymphoma) can therefore leak chyle into the pleural space as a milky chylothorax with high triglyceride content."
+        },
+        {
+          "type": "stop",
+          "predict": "Lymphatic drainage of a limb is blocked while capillary filtration stays normal. What happens to interstitial protein concentration and to filtration over the following days?",
+          "explain": "Protein keeps leaking in but cannot leave, so interstitial protein and oncotic pressure rise. That raises the outward Starling force, so filtration increases and edema becomes self-sustaining.",
+          "check": "The paragraph on why lymph is the only protein return route and the Starling table in C01."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-IMMU-09-01-C03",
+      "obj": "IM-9.3",
+      "title": "Propulsion of lymph and the response to rising interstitial pressure",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Lymph moves from tissues at slightly negative pressure into veins at a higher pressure, so it needs a pump. Initial (capillary) lymphatics collect fluid, and they drain into collecting lymphatics whose walls contain smooth muscle. Paired one-way valves divide each collecting vessel into segments called lymphangions, and the thoracic duct and right lymphatic duct carry the final output to the venous angles where the internal jugular and subclavian veins join."
+        },
+        {
+          "type": "table",
+          "title": "Forces that move lymph",
+          "cols": [
+            "Mechanism",
+            "How it works",
+            "Relative role"
+          ],
+          "rows": [
+            [
+              "Intrinsic lymphangion pump",
+              "Stretch of a filled segment triggers smooth muscle contraction",
+              "Main driving force"
+            ],
+            [
+              "One-way valves",
+              "Open toward the veins and close against backflow",
+              "Make every compression move lymph forward"
+            ],
+            [
+              "Skeletal muscle pump",
+              "Contracting muscle squeezes lymphatics between valves",
+              "Large during exercise, minimal at rest"
+            ],
+            [
+              "Arterial pulsation and body movement",
+              "Intermittent external compression",
+              "Minor, continuous"
+            ],
+            [
+              "Respiratory pressure changes",
+              "Inspiration lowers thoracic and raises abdominal pressure",
+              "Draws lymph from cisterna chyli into the thoracic duct"
+            ]
+          ],
+          "caption": "External compression can only move lymph forward because valves prevent retrograde flow."
+        },
+        {
+          "type": "p",
+          "text": "The intrinsic pump works like the heart's length dependence. As a lymphangion fills, its smooth muscle is stretched and contracts more often and more forcefully, ejecting lymph through the downstream valve while the upstream valve closes. The next segment then fills and contracts, so a sequence of small pumps moves lymph centrally. Sympathetic stimulation and local mediators can modify this rhythm, but stretch is the main trigger."
+        },
+        {
+          "type": "p",
+          "text": "Entry into the initial lymphatics depends on interstitial pressure. When tissue fluid volume rises, the matrix swells and anchoring filaments pull on the overlapping endothelial cells, opening their junctions like flap valves. Fluid enters, and when local pressure inside the vessel exceeds tissue pressure the flaps close, preventing backflow. More entry stretches the downstream lymphangions, which pump harder."
+        },
+        {
+          "type": "p",
+          "text": "Lymph flow therefore rises steeply as interstitial pressure rises from its normal negative value toward zero. Guyton and Hall describe about a 20 fold increase by the time interstitial pressure reaches about 0 to +2 mmHg. Above this, flow plateaus: the rising tissue pressure compresses the larger lymphatics from outside as much as it fills them, so further increases do not raise flow."
+        },
+        {
+          "type": "cycle",
+          "title": "Lymph flow as negative feedback on interstitial volume",
+          "steps": [
+            "Filtration rises and interstitial fluid accumulates",
+            "Interstitial pressure rises toward zero",
+            "Anchoring filaments open initial lymphatics",
+            "Stretched lymphangions pump faster and harder",
+            "Lymph flow rises and removes fluid and protein",
+            "Interstitial volume and pressure fall back"
+          ],
+          "caption": "The loop limits edema until lymph flow reaches its plateau near 0 to +2 mmHg interstitial pressure."
+        },
+        {
+          "type": "p",
+          "text": "This response is one of three safety factors that keep edema from appearing until capillary pressure rises substantially. Because more fluid is carried off, more protein is also removed, so interstitial oncotic pressure falls, a process called protein washout. Together with the low compliance of the interstitium while its pressure is negative, these allow capillary pressure to rise by about 17 mmHg before clinically obvious edema develops."
+        },
+        {
+          "type": "table",
+          "title": "Safety factors against edema (Guyton and Hall estimates)",
+          "cols": [
+            "Safety factor",
+            "Mechanism",
+            "About (mmHg)"
+          ],
+          "rows": [
+            [
+              "Low interstitial compliance in the negative pressure range",
+              "Small volume gain raises tissue pressure enough to oppose filtration",
+              "3"
+            ],
+            [
+              "Increased lymph flow",
+              "Rising interstitial pressure raises lymph flow up to about 20 fold",
+              "7"
+            ],
+            [
+              "Protein washout",
+              "Faster lymph flow removes interstitial protein, lowering pi i",
+              "7"
+            ]
+          ],
+          "caption": "Sum about 17 mmHg; lymphedema removes the last two at once."
+        },
+        {
+          "type": "stop",
+          "predict": "A healthy traveler sits still for a 12 hour flight and develops ankle swelling. Which lymph propulsion mechanism has been lost?",
+          "explain": "The skeletal muscle pump. Without leg muscle contraction, external compression of lymphatics and veins falls, so lymph and venous return slow while capillary pressure in the dependent legs stays high.",
+          "check": "The table of forces that move lymph."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-IMMU-09-01-C04",
+      "obj": "IM-9.4",
+      "title": "Lymphedema: mechanism and classic causes",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Lymphedema is edema caused by failure of lymphatic drainage while filtration remains normal. Because protein that leaks from capillaries cannot leave, edema fluid is protein rich, unlike the low-protein transudate of heart failure or nephrotic syndrome. The protein raises interstitial oncotic pressure, which draws out more fluid, and two of the three safety factors (lymph flow and protein washout) are lost at once."
+        },
+        {
+          "type": "table",
+          "title": "Distinguishing edema by mechanism",
+          "cols": [
+            "Mechanism",
+            "Example",
+            "Edema fluid protein",
+            "Pitting"
+          ],
+          "rows": [
+            [
+              "High capillary hydrostatic pressure",
+              "Heart failure, venous obstruction",
+              "Low (transudate)",
+              "Yes"
+            ],
+            [
+              "Low plasma oncotic pressure",
+              "Nephrotic syndrome, cirrhosis",
+              "Low (transudate)",
+              "Yes"
+            ],
+            [
+              "Increased permeability",
+              "Inflammation, burns",
+              "High (exudate)",
+              "Variable"
+            ],
+            [
+              "Lymphatic obstruction or absence",
+              "Axillary dissection, filariasis, Milroy disease",
+              "High",
+              "Early yes, late no"
+            ]
+          ],
+          "caption": "Protein content of edema fluid points to the failed step."
+        },
+        {
+          "type": "p",
+          "text": "Early lymphedema is soft and may pit. Over months, stagnant protein-rich fluid promotes chronic inflammation, fibroblast activation with collagen deposition, and growth of adipose tissue, so the limb becomes firm and nonpitting. The skin thickens and becomes warty, and when dermal lymphatics of the breast are blocked, the swollen skin dimples where hair follicles and sweat ducts tether it, giving peau d'orange. Stagnant lymph also impairs local immune surveillance, so recurrent cellulitis is common, and long-standing lymphedema rarely gives rise to lymphangiosarcoma."
+        },
+        {
+          "type": "flow",
+          "title": "Pathogenesis of lymphedema",
+          "steps": [
+            "Lymphatics removed, irradiated, blocked, or malformed",
+            "Filtered fluid and protein cannot leave the interstitium",
+            "Interstitial oncotic pressure rises and draws out more fluid",
+            "Protein-rich pitting edema",
+            "Chronic stasis drives inflammation, fibrosis, and fat deposition",
+            "Firm nonpitting swelling, thick skin, recurrent cellulitis"
+          ],
+          "caption": "Secondary and primary causes share the same downstream sequence."
+        },
+        {
+          "type": "p",
+          "text": "Secondary lymphedema follows damage to normal vessels. Axillary lymph node dissection for breast cancer removes the nodes and channels that drain the arm, and radiation adds fibrosis of the remaining vessels, so swelling appears in the arm on the treated side. Wuchereria bancrofti is a mosquito-borne filarial nematode. Infective larvae enter through the bite and mature in lymphatics, where adult worms and the host inflammatory response to them, especially as they die, dilate and scar the vessels. Chronic infection produces elephantiasis of the legs and, in men, hydrocele and scrotal swelling."
+        },
+        {
+          "type": "p",
+          "text": "Primary lymphedema reflects abnormal lymphatic development. Lymphatic endothelium buds from embryonic veins and grows under the signal of VEGF-C acting on VEGFR3, the product of the FLT4 gene. In Milroy disease, an autosomal dominant FLT4 mutation impairs this signaling, so the legs are swollen from birth with a normal karyotype. In Turner syndrome (45,X), the jugular lymph sacs fail to connect with the internal jugular veins, so lymph collects in the posterior neck as a cystic hygroma. Later the distended skin leaves a webbed neck, and the infant may have lymphedema of the hands and feet."
+        },
+        {
+          "type": "example",
+          "title": "Worked example: one finding, four lesions",
+          "text": "Four patients have a swollen limb with protein-rich fluid. A woman who had axillary node dissection and radiation has an arm swollen on that side: damaged vessels. A man from a filariasis-endemic region has massive leg swelling and a hydrocele: adult worms obstructing lymphatics. A newborn with bilateral leg swelling, a parent with the same history, and a normal karyotype suggests Milroy disease from an FLT4 mutation. A fetus with a posterior neck mass who is later a short girl with a webbed neck points to Turner syndrome. Each lesion differs, but each blocks the same drainage step, so all four produce protein-rich edema that tends toward fibrosis."
+        }
+      ]
+    }
+  ],
+  "integration": [
+    {
+      "type": "p",
+      "text": "Anatomy and physiology supply the mechanism. Lymphatic capillaries are built to take up fluid and protein in bulk, collecting vessels are built to pump it, and the thoracic duct delivers it to the left venous angle, so the system both balances Starling filtration and returns albumin. The same channels carry dendritic cells and antigen to lymph nodes and lymphocytes back to the blood, which is why lymph node dissection affects both fluid balance and regional immunity, and why chylomicrons travel this route rather than the portal vein."
+    },
+    {
+      "type": "p",
+      "text": "Pathology, microbiology, and genetics supply the lesions. Surgery and radiation destroy vessels, filarial worms and the inflammation they provoke obstruct them, and FLT4 mutations or the aneuploidy of Turner syndrome prevent normal development. All converge on retained interstitial protein, which explains why lymphedema differs from transudative edema and why it becomes fibrotic. The Starling values here are averages, and newer work on the endothelial glycocalyx suggests that sustained venous-end reabsorption is smaller than the classic model implies, but the conclusion that lymph must remove the net filtrate and its protein is unchanged."
+    }
+  ],
+  "summary": [
+    "Capillary hydrostatic pressure, interstitial oncotic pressure, and negative interstitial pressure favor filtration; plasma oncotic pressure opposes it.",
+    "Net filtration slightly exceeds reabsorption, and lymphatics return the excess, about 2 to 3 L per day.",
+    "Lymph is the only route back to the blood for filtered plasma protein, because lymphatic capillaries take up fluid and protein in bulk.",
+    "Lymph protein is highest from the liver (about 6 g/dL) and lowest from the limbs (about 2 g/dL); efferent lymph is rich in lymphocytes and intestinal lymph carries chylomicrons as chyle.",
+    "Lymph is propelled mainly by stretch-activated lymphangion contraction, with valves, skeletal muscle, arterial pulsation, and inspiration adding to it.",
+    "Rising interstitial pressure opens initial lymphatics and raises lymph flow about 20 fold until a plateau near 0 to +2 mmHg.",
+    "Lymph flow and protein washout are safety factors against edema; lymphedema removes both.",
+    "Lymphedema is protein rich and becomes nonpitting as chronic inflammation causes fibrosis and fat deposition.",
+    "Secondary causes include axillary dissection or radiation and Wuchereria bancrofti; primary causes include Milroy disease (FLT4, VEGFR3) and Turner syndrome (cystic hygroma)."
+  ],
+  "sources": [
+    {
+      "book": "Guyton and Hall Textbook of Medical Physiology",
+      "where": "The Microcirculation and Lymphatic System: Capillary Fluid Exchange, Interstitial Fluid, and Lymph Flow"
+    },
+    {
+      "book": "Guyton and Hall Textbook of Medical Physiology",
+      "where": "The Body Fluid Compartments, section on edema and safety factors"
+    },
+    {
+      "book": "Boron and Boulpaep Medical Physiology",
+      "where": "The Microcirculation, section on lymphatics"
+    },
+    {
+      "book": "Robbins and Cotran Pathologic Basis of Disease",
+      "where": "Hemodynamic Disorders, section on edema; Blood Vessels, section on lymphatics"
+    },
+    {
+      "book": "Jawetz, Melnick, and Adelberg's Medical Microbiology",
+      "where": "Medical Parasitology, filarial nematodes"
+    },
+    {
+      "book": "Langman's Medical Embryology",
+      "where": "Cardiovascular System, development of the lymphatic system"
+    }
+  ],
+  "verify": [
+    "Starling force values (Pc 30 and 10 mmHg, Pi -3, pi i 8, pi c 28) and the 0.3 mmHg mean net pressure are Guyton and Hall figures; other texts give slightly different numbers.",
+    "Lymph flow of about 100 mL per hour in the thoracic duct and about 20 mL per hour elsewhere, and the 2 to 3 L per day total, follow Guyton and Hall; some sources quote up to 4 L per day.",
+    "The statement that complete failure of lymph flow would be fatal within about 24 hours is a Guyton and Hall estimate, not a clinical observation.",
+    "Safety factor magnitudes (about 3, 7, and 7 mmHg, total about 17 mmHg) are Guyton and Hall estimates.",
+    "Lymph protein concentrations (about 2 g/dL limbs, 3 to 4 g/dL intestine, 6 g/dL liver) vary between sources.",
+    "The revised Starling principle (glycocalyx model) questions sustained venous-end reabsorption; confirm whether NABNE expects the classic or revised model.",
+    "A pleural fluid triglyceride above about 110 mg/dL is the commonly used chylothorax threshold; confirm if NABNE tests a specific cutoff.",
+    "Confirm whether NABNE expects the term lymphangion and the eponym Stewart-Treves syndrome for lymphangiosarcoma after chronic lymphedema.",
+    "Requested new diagram name for a future revision: starling-capillary (capillary from arterial to venous end with the four Starling forces and a lymphatic capillary)."
+  ]
+}

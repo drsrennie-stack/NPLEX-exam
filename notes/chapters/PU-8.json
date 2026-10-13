@@ -1,0 +1,594 @@
+{
+ "unit": "PU-8",
+ "chapter_id": "NPLEX-P1-RESP-08",
+ "topic_id": "NPLEX-P1-RESP-08-01",
+ "title": "Blood Gas Transport",
+ "subject": "Respiratory System (RESP)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter explains how blood carries oxygen and carbon dioxide between the lungs and the tissues and how breathing sets arterial acid-base status. It starts with oxygen content and the oxyhemoglobin dissociation curve, follows CO2 as bicarbonate, carbamino compounds, and dissolved gas, and shows how the Bohr and Haldane effects link the two gases. It then applies these ideas to carbon monoxide poisoning and methemoglobinemia, where PaO2 is normal yet tissues are hypoxic, and to arterial blood gases in respiratory acidosis and alkalosis. Board questions test whether you can keep partial pressure, saturation, and content apart, predict curve shifts, and decide whether compensation is appropriate or a second disorder is present.",
+  "prerequisites": [
+   "Partial pressures, Dalton's law, and Henry's law for gases in solution",
+   "Alveolar ventilation and its relation to PaCO2 (PU-6)",
+   "Hemoglobin structure: globin chains, heme, and ferrous iron (HE-5)",
+   "Buffers and the Henderson-Hasselbalch equation",
+   "Red cell glycolysis and the origin of 2,3-bisphosphoglycerate"
+  ],
+  "connections": [
+   {
+    "to": "Gas exchange and tissue perfusion (PU-7)",
+    "how": "Alveolar diffusion and ventilation-perfusion matching set PaO2, which this chapter converts into saturation, content, and delivery."
+   },
+   {
+    "to": "Hemoglobin and hematologic biochemistry (HE-5)",
+    "how": "Globin chain composition, heme iron state, and red cell enzymes determine O2 affinity and explain fetal hemoglobin, methemoglobin, and 2,3-BPG effects."
+   },
+   {
+    "to": "Kidney in acid-base and blood pressure control (UR-7)",
+    "how": "Renal H+ secretion, ammoniagenesis, and new bicarbonate generation produce the slow compensation for respiratory acid-base disorders."
+   },
+   {
+    "to": "Energy production and the respiratory system (PU-11)",
+    "how": "Carbon monoxide inhibits cytochrome c oxidase, and any failure of O2 delivery shifts cells to anaerobic glycolysis and lactate production."
+   },
+   {
+    "to": "Restrictive and obstructive pulmonary diseases (PU-14-A, PU-14-B)",
+    "how": "Diseases that limit ventilation produce the chronic respiratory acidosis whose renal compensation is analyzed here."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Oxygen content (CaO2)",
+    "def": "The total volume of O2 carried per deciliter of arterial blood, bound to hemoglobin plus dissolved in plasma."
+   },
+   {
+    "term": "Saturation (SaO2)",
+    "def": "The percentage of available hemoglobin heme sites in arterial blood that carry O2."
+   },
+   {
+    "term": "P50",
+    "def": "The PO2 at which hemoglobin is 50% saturated, normally about 26 to 27 mmHg; a higher P50 means lower affinity."
+   },
+   {
+    "term": "Cooperative binding",
+    "def": "The property by which O2 binding at one heme of hemoglobin increases the O2 affinity of the remaining hemes."
+   },
+   {
+    "term": "T and R states",
+    "def": "The tense (low affinity, favored by deoxyhemoglobin) and relaxed (high affinity, favored by oxyhemoglobin) conformations of hemoglobin."
+   },
+   {
+    "term": "2,3-Bisphosphoglycerate (2,3-BPG)",
+    "def": "A red cell glycolytic byproduct that binds deoxyhemoglobin and lowers its O2 affinity."
+   },
+   {
+    "term": "Carbaminohemoglobin",
+    "def": "Hemoglobin carrying CO2 bound to the terminal amino groups of its globin chains."
+   },
+   {
+    "term": "Chloride shift",
+    "def": "Exchange of red cell bicarbonate for plasma chloride through band 3 as CO2 is loaded, reversed in the lung."
+   },
+   {
+    "term": "Bohr effect",
+    "def": "The decrease in hemoglobin O2 affinity caused by a rise in H+ or CO2."
+   },
+   {
+    "term": "Haldane effect",
+    "def": "The increase in blood CO2 carrying capacity when hemoglobin is deoxygenated, and the release of CO2 when it is oxygenated."
+   },
+   {
+    "term": "Methemoglobin",
+    "def": "Hemoglobin whose heme iron has been oxidized to the ferric (Fe3+) state, which cannot bind O2."
+   },
+   {
+    "term": "Co-oximetry",
+    "def": "Multiwavelength measurement of a blood sample that quantifies oxyhemoglobin, deoxyhemoglobin, carboxyhemoglobin, and methemoglobin directly."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-RESP-08-01-C01",
+   "obj": "PU-8.1",
+   "title": "Arterial oxygen content and how anemia, polycythemia, and CO change it",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Oxygen travels in blood in two forms. A small amount is physically dissolved in plasma in proportion to its partial pressure (Henry's law), about 0.003 mL O2 per dL of blood for each mmHg of PO2. Normally about 98% is bound to the ferrous (Fe2+) iron of hemoglobin, and each gram of fully saturated hemoglobin binds about 1.34 mL O2. Arterial O2 content (CaO2, in mL O2 per dL) is therefore CaO2 = (1.34 x Hb x SaO2) + (0.003 x PaO2), with Hb in g/dL and SaO2 as a fraction."
+    },
+    {
+     "type": "p",
+     "text": "With Hb 15 g/dL, SaO2 0.98, and PaO2 100 mmHg, bound O2 is about 19.7 mL/dL and dissolved O2 only 0.3 mL/dL, for a total of about 20 mL/dL. Mixed venous blood (PO2 about 40 mmHg, saturation about 75%) holds about 15 mL/dL, so resting tissues extract about 5 mL/dL, roughly a quarter of what is delivered. Breathing 100% O2 raises PaO2 to about 600 mmHg but raises dissolved O2 only to about 1.8 mL/dL, which shows that hemoglobin, not plasma, sets content."
+    },
+    {
+     "type": "h",
+     "text": "Pressure, saturation, and content are separate measurements"
+    },
+    {
+     "type": "p",
+     "text": "PaO2 is the partial pressure of dissolved O2 in arterial plasma. It reflects alveolar PO2 and how well the lung transfers O2 (diffusion and ventilation-perfusion matching), and it is independent of the amount of hemoglobin. SaO2 is the fraction of available heme sites carrying O2; for normal hemoglobin it follows PaO2 along the dissociation curve. Content depends on both, and O2 delivery equals cardiac output times CaO2, about 5 L/min times 200 mL/L, or about 1,000 mL/min at rest against consumption of about 250 mL/min."
+    },
+    {
+     "type": "p",
+     "text": "Anemia lowers content in proportion to the fall in hemoglobin while PaO2 and SaO2 stay normal: the lungs and each hemoglobin molecule work normally, but there is less hemoglobin. The carotid bodies sense PaO2, not content, so anemia does not drive ventilation at rest. Compensation comes from higher cardiac output, greater tissue extraction (lower venous PO2), and a rise in red cell 2,3-BPG that shifts the curve right. Polycythemia raises content with normal PaO2 and SaO2, at the cost of higher viscosity. Carbon monoxide leaves PaO2 normal but occupies heme sites, so true SaO2 and content fall (C05). Only low inspired PO2, hypoventilation, diffusion limitation, ventilation-perfusion mismatch, or shunt lowers PaO2."
+    },
+    {
+     "type": "table",
+     "title": "How each condition changes the oxygen numbers",
+     "cols": [
+      "Condition",
+      "PaO2",
+      "True SaO2",
+      "Pulse oximeter (SpO2)",
+      "O2 content"
+     ],
+     "rows": [
+      [
+       "Anemia",
+       "Normal",
+       "Normal",
+       "Normal",
+       "Low"
+      ],
+      [
+       "Polycythemia",
+       "Normal",
+       "Normal",
+       "Normal",
+       "High"
+      ],
+      [
+       "Carbon monoxide poisoning",
+       "Normal",
+       "Low",
+       "Falsely normal",
+       "Low"
+      ],
+      [
+       "Methemoglobinemia",
+       "Normal",
+       "Low",
+       "Drifts toward about 85%",
+       "Low"
+      ],
+      [
+       "Hypoventilation or high altitude",
+       "Low",
+       "Low; falls steeply below about 60 mmHg",
+       "Low",
+       "Low"
+      ]
+     ],
+     "caption": "Low alveolar PO2 or poor transfer across the lung lowers PaO2; abnormal hemoglobin lowers true SaO2 with a normal PaO2; too little hemoglobin lowers only content."
+    },
+    {
+     "type": "example",
+     "title": "Same content, different tissue oxygenation",
+     "text": "Patient A has Hb 7.5 g/dL, SaO2 0.98, and PaO2 100 mmHg: CaO2 = (1.34 x 7.5 x 0.98) + 0.3 = 9.8 + 0.3, about 10.1 mL/dL. Patient B has Hb 15 g/dL, PaO2 100 mmHg, and 50% carboxyhemoglobin, so only about 48% of hemes carry O2: CaO2 = (1.34 x 15 x 0.48) + 0.3 = 9.6 + 0.3, about 9.9 mL/dL. Content is nearly identical, yet patient A may be ambulatory while patient B may be comatose. In anemia the curve is normal or right shifted, so tissues can draw O2 down to a low PO2. In CO poisoning the remaining hemes are held in the high-affinity state (left shift), so O2 is released only at a very low tissue PO2, and CO also inhibits cytochrome c oxidase. Content alone does not predict tissue oxygenation; unloading matters too."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-08-01-C02",
+   "obj": "PU-8.2",
+   "title": "The oxyhemoglobin dissociation curve, cooperativity, and curve shifts",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The oxyhemoglobin dissociation curve plots hemoglobin saturation against PO2. It is sigmoid, unlike the hyperbolic curve of single-chain myoglobin, because hemoglobin binds O2 cooperatively. Adult hemoglobin (HbA) is a tetramer of two alpha and two beta chains, each holding one heme. In the T (tense) state, typical of deoxyhemoglobin, salt bridges between subunits constrain the molecule and O2 affinity is low. Binding of O2 pulls the iron into the plane of the porphyrin ring, and the change spreads to the other subunits as shown below."
+    },
+    {
+     "type": "flow",
+     "title": "Cooperative binding from T state to R state",
+     "steps": [
+      "Deoxyhemoglobin held in the low-affinity T state by salt bridges",
+      "First O2 binds one heme with low affinity",
+      "Iron moves into the porphyrin plane, pulling the proximal histidine",
+      "Movement shifts subunit interfaces and breaks salt bridges",
+      "Tetramer converts toward the high-affinity R state",
+      "Remaining hemes bind O2 more readily"
+     ],
+     "caption": "Each O2 bound makes the next easier to bind, which converts a hyperbolic binding curve into a sigmoid one."
+    },
+    {
+     "type": "p",
+     "text": "The shape has a purpose. The upper plateau keeps saturation above about 90% as long as PaO2 stays above about 60 mmHg, so loading in the lung tolerates a moderate fall in alveolar PO2. The steep middle portion, roughly 15 to 40 mmHg, lies at tissue PO2, so a small fall in tissue PO2 releases a large amount of O2. Landmarks are about 97 to 98% saturation at 100 mmHg (arterial), about 75% at 40 mmHg (mixed venous), and 50% at about 26 to 27 mmHg, the P50, which is the standard index of affinity."
+    },
+    {
+     "type": "p",
+     "text": "A right shift raises P50, meaning lower affinity and easier unloading; a left shift lowers P50, meaning tighter binding and poorer unloading. Right-shift factors stabilize the T state. H+ protonates histidine residues that then form salt bridges, CO2 forms carbamino groups on the amino terminals of the globin chains, and 2,3-BPG, made in red cells from the glycolytic intermediate 1,3-BPG, binds one molecule per tetramer in the central cavity between the beta chains of deoxyhemoglobin. Heat lowers affinity directly. All of these rise in working muscle, so O2 is released where demand is highest."
+    },
+    {
+     "type": "p",
+     "text": "Left shifts occur when the T state is destabilized or the R state is locked in. Fetal hemoglobin (two alpha and two gamma chains) binds 2,3-BPG poorly because the gamma chain lacks a positively charged histidine at the binding site, so its P50 is about 19 to 20 mmHg and O2 moves from maternal to fetal blood across the placenta. CO and methemoglobin hold the remaining hemes in a high-affinity state (C05). Alkalosis, hypothermia, and low 2,3-BPG (stored blood, hypophosphatemia) also shift the curve left. Chronic hypoxemia, anemia, and altitude raise 2,3-BPG within hours, helping unloading."
+    },
+    {
+     "type": "table",
+     "title": "Factors that shift the curve",
+     "cols": [
+      "Direction",
+      "Causes",
+      "P50",
+      "Effect on O2"
+     ],
+     "rows": [
+      [
+       "Right",
+       "More H+ (lower pH), higher PCO2, higher temperature, more 2,3-BPG, exercise",
+       "Higher than about 27 mmHg",
+       "Lower affinity; more unloading in tissues"
+      ],
+      [
+       "Left",
+       "Fetal hemoglobin, carbon monoxide, methemoglobin, alkalosis, hypothermia, less 2,3-BPG",
+       "Lower than about 26 mmHg",
+       "Higher affinity; less unloading in tissues"
+      ]
+     ],
+     "caption": "Right-shift factors stabilize the T state and are all increased by tissue metabolism; left-shift factors favor or lock in the R state."
+    },
+    {
+     "type": "stop",
+     "predict": "In pyruvate kinase deficiency the glycolytic block lies below 1,3-BPG. Predict the P50 and why exercise tolerance is often better than the hemoglobin level suggests.",
+     "explain": "Upstream intermediates accumulate, so more 1,3-BPG is diverted to 2,3-BPG. The curve shifts right and P50 rises, so tissues extract more O2 from each deciliter. Hexokinase deficiency does the opposite and shifts the curve left.",
+     "check": "The role of 2,3-BPG in stabilizing the T state and the shift table."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-08-01-C03",
+   "obj": "PU-8.3",
+   "title": "Carbon dioxide transport and the chloride shift",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Resting metabolism produces about 200 mL CO2 per minute. Mixed venous blood carries about 52 mL CO2 per dL and arterial blood about 48 mL/dL, so each deciliter unloads only about 4 mL in the lung. CO2 is about 20 times more soluble than O2, so dissolved CO2 is a meaningful fraction, but most CO2 is carried only after chemical conversion inside the red cell."
+    },
+    {
+     "type": "table",
+     "title": "Forms of CO2 in blood",
+     "cols": [
+      "Form",
+      "Share of CO2 exchanged",
+      "Where formed",
+      "Key point"
+     ],
+     "rows": [
+      [
+       "Bicarbonate (HCO3-)",
+       "About 70%",
+       "Made in red cells by carbonic anhydrase; carried mostly in plasma",
+       "Depends on the chloride shift and on H+ buffering by hemoglobin"
+      ],
+      [
+       "Carbamino compounds",
+       "About 20 to 25%",
+       "Terminal amino groups of globin chains, and plasma proteins",
+       "Deoxyhemoglobin forms more than oxyhemoglobin"
+      ],
+      [
+       "Dissolved CO2",
+       "About 5 to 10%",
+       "Plasma and red cell water",
+       "Proportional to PCO2; about 0.03 mmol/L per mmHg"
+      ]
+     ],
+     "caption": "Shares refer to the CO2 added in tissues and removed in the lungs; exact percentages differ slightly between texts."
+    },
+    {
+     "type": "p",
+     "text": "Hydration of CO2 to carbonic acid is slow in plasma but very fast in red cells, which contain abundant carbonic anhydrase (mainly the CA II isoform), a zinc enzyme that speeds the reaction several thousandfold. Carbonic acid dissociates almost instantly into H+ and HCO3-. Two processes keep the reaction moving forward. First, hemoglobin buffers the H+, and deoxyhemoglobin is the better buffer because its histidines have a higher pKa. Second, HCO3- leaves the cell through band 3 (anion exchanger 1), an electroneutral exchanger that brings Cl- in, the chloride shift."
+    },
+    {
+     "type": "flow",
+     "title": "CO2 loading in a systemic capillary",
+     "steps": [
+      "Tissue CO2 diffuses into plasma and then red cells",
+      "Carbonic anhydrase converts CO2 and H2O to H2CO3",
+      "H2CO3 dissociates into H+ and HCO3-",
+      "Deoxyhemoglobin buffers the H+, pulling the reaction forward",
+      "HCO3- exits through band 3 in exchange for Cl-",
+      "HCO3- travels in plasma to the lungs"
+     ],
+     "caption": "In the pulmonary capillary every step runs in reverse and CO2 is exhaled."
+    },
+    {
+     "type": "p",
+     "text": "Because hemoglobin absorbs most of the H+, venous pH is only about 0.03 to 0.04 units lower than arterial pH despite the CO2 load. The chloride shift has a visible consequence: venous red cells gain Cl- and osmotically active particles, take up water, and swell slightly, so venous hematocrit is about 3% higher than arterial. In the pulmonary capillary Cl- leaves, HCO3- re-enters, combines with H+ released from newly oxygenated hemoglobin, and carbonic anhydrase converts carbonic acid back to CO2, which diffuses into the alveolus. Inhibiting carbonic anhydrase slows both loading and unloading, so tissue PCO2 rises. Carbamino CO2 needs no enzyme; it forms on uncharged amino groups and is released when hemoglobin is oxygenated (C04)."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-08-01-C04",
+   "obj": "PU-8.4",
+   "title": "The Bohr effect in tissues and the Haldane effect in the lungs",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The Bohr and Haldane effects are two views of one property of hemoglobin: binding of O2 and binding of H+ or CO2 favor opposite conformations. Deoxyhemoglobin (T state) binds H+ and forms carbamino groups more readily, while oxyhemoglobin (R state) releases them. Whichever ligand rises pushes the molecule toward the conformation that releases the other."
+    },
+    {
+     "type": "p",
+     "text": "The Bohr effect is the fall in O2 affinity caused by H+ and CO2. In a systemic capillary, CO2 enters the red cell and carbonic anhydrase generates H+, which binds hemoglobin and stabilizes the T state; CO2 also binds directly as carbamino groups. The curve shifts right, so at the same tissue PO2 more O2 is released. Working muscle, with high PCO2, low pH, and high temperature, therefore receives more O2 from each deciliter of blood. In the lung the reverse occurs: CO2 leaves, pH rises, affinity increases, and loading is helped slightly."
+    },
+    {
+     "type": "p",
+     "text": "The Haldane effect is the change in CO2 carriage caused by O2. At any PCO2, deoxygenated blood holds more CO2 because deoxyhemoglobin buffers more H+, which lets more HCO3- form, and forms more carbamino compounds. In the pulmonary capillary, O2 loading converts hemoglobin to the R state, which releases H+ and carbamino CO2; the released H+ combines with HCO3- to form CO2, which is exhaled. By Guyton and Hall's estimate, the Haldane effect roughly doubles the CO2 released in the lung, making it quantitatively more important for CO2 transport than the Bohr effect is for O2 transport. In tissues it runs the other way: as O2 unloads, the new deoxyhemoglobin takes up more CO2 and H+."
+    },
+    {
+     "type": "cycle",
+     "title": "Reciprocal exchange in a systemic capillary",
+     "steps": [
+      "Tissue CO2 enters red cell; carbonic anhydrase forms H+",
+      "H+ and CO2 bind hemoglobin, stabilizing the T state (Bohr)",
+      "O2 is released to the tissue",
+      "More deoxyhemoglobin is present",
+      "Deoxyhemoglobin takes up more H+ and CO2 (Haldane)"
+     ],
+     "caption": "Each gas helps unload the other; in the pulmonary capillary the same loop runs in reverse, with O2 loading driving CO2 release."
+    },
+    {
+     "type": "table",
+     "title": "Bohr versus Haldane",
+     "cols": [
+      "Feature",
+      "Bohr effect",
+      "Haldane effect"
+     ],
+     "rows": [
+      [
+       "What changes",
+       "H+ and CO2 alter O2 binding",
+       "O2 alters H+ and CO2 binding"
+      ],
+      [
+       "Where it matters most",
+       "Systemic capillaries",
+       "Pulmonary capillaries"
+      ],
+      [
+       "Main result",
+       "O2 unloading to tissues",
+       "CO2 release into alveoli (and uptake in tissues)"
+      ],
+      [
+       "Curve that moves",
+       "O2 dissociation curve shifts right",
+       "CO2 dissociation curve shifts down when blood is oxygenated"
+      ]
+     ],
+     "caption": "Bohr: CO2 and H+ push O2 off hemoglobin. Haldane: O2 pushes CO2 and H+ off hemoglobin."
+    },
+    {
+     "type": "p",
+     "text": "The Haldane effect has a practical consequence in chronic hypercapnia. When a patient with severe COPD breathes high inspired O2, PaCO2 can rise; oxygenating venous hemoglobin releases CO2 it had been carrying, and relief of hypoxic pulmonary vasoconstriction worsens ventilation-perfusion matching, while the fall in hypoxic drive contributes less than once thought."
+    },
+    {
+     "type": "stop",
+     "predict": "A red cell enters a capillary in exercising muscle. Predict which way each effect operates there.",
+     "explain": "Rising CO2, H+, and temperature lower affinity and unload O2 (Bohr). As hemoglobin deoxygenates, it binds more H+ and carbamino CO2, so the blood loads more CO2 at a given PCO2 (Haldane in reverse).",
+     "check": "The cycle figure and the Bohr versus Haldane table."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-08-01-C05",
+   "obj": "PU-8.5",
+   "title": "Carbon monoxide, methemoglobin, and misleading pulse oximetry",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Carbon monoxide (CO) comes from incomplete combustion, such as vehicle exhaust, faulty heaters, and smoke inhalation. It binds the same ferrous heme site as O2 with about 200 to 250 times greater affinity, so an alveolar PCO below 1 mmHg can occupy a large fraction of hemoglobin. CO impairs O2 delivery in three ways: it removes heme sites, so content falls; it holds the remaining subunits in the R state, so the curve shifts left and O2 is not released at normal tissue PO2; and it binds cytochrome c oxidase and myoglobin, impairing O2 use in cells. Brain and heart, with high O2 demand, show early effects: headache, confusion, seizures, myocardial ischemia, and lactic acidosis. Cherry-red skin is classic but uncommon."
+    },
+    {
+     "type": "flow",
+     "title": "Carbon monoxide poisoning to tissue hypoxia",
+     "steps": [
+      "CO binds heme with about 200 times the affinity of O2",
+      "Fewer heme sites carry O2, so content falls",
+      "Remaining hemes hold O2 tightly (left shift)",
+      "Unloading at tissue PO2 falls",
+      "Tissue hypoxia with normal PaO2 and normal SpO2",
+      "Anaerobic glycolysis raises lactate"
+     ],
+     "caption": "Low content and poor unloading combine, and cytochrome c oxidase inhibition adds a cellular defect."
+    },
+    {
+     "type": "p",
+     "text": "Methemoglobin contains ferric (Fe3+) iron, which cannot bind O2. Red cells normally keep it below about 1 to 2% by reducing it with NADH-cytochrome b5 reductase, using NADH from glycolysis; an NADPH-dependent reductase is a minor pathway. Oxidizing agents overwhelm this system, including nitrites and nitrates, dapsone, topical anesthetics such as benzocaine, and primaquine. Congenital forms arise from cytochrome b5 reductase deficiency and hemoglobin M variants. A ferric heme raises the O2 affinity of the remaining ferrous hemes in the same tetramer, so the curve also shifts left. Blood is chocolate brown and stays brown on exposure to air, and cyanosis appears at about 1.5 g/dL of methemoglobin, compared with about 5 g/dL of deoxyhemoglobin for ordinary cyanosis."
+    },
+    {
+     "type": "h",
+     "text": "Why the usual measurements mislead"
+    },
+    {
+     "type": "p",
+     "text": "PaO2 is normal in both disorders because ventilation and the alveolar-capillary membrane are intact and PaO2 measures only dissolved O2. A blood gas analyzer that calculates saturation from PaO2 therefore reports a falsely normal SaO2. A standard pulse oximeter compares absorbance at about 660 nm (red) and 940 nm (infrared) and assumes only oxyhemoglobin and deoxyhemoglobin are present. Carboxyhemoglobin absorbs red light much like oxyhemoglobin, so it is counted as oxygenated and SpO2 reads falsely normal. Methemoglobin absorbs strongly at both wavelengths, pushing the ratio toward 1, which the device reads as about 85%, whatever the true saturation. Co-oximetry measures each hemoglobin species directly, and a gap between calculated or pulse oximeter saturation and the co-oximetry value points to an abnormal hemoglobin."
+    },
+    {
+     "type": "table",
+     "title": "Carbon monoxide poisoning versus methemoglobinemia",
+     "cols": [
+      "Feature",
+      "Carbon monoxide",
+      "Methemoglobin"
+     ],
+     "rows": [
+      [
+       "Defect",
+       "CO occupies ferrous heme",
+       "Heme iron oxidized to ferric"
+      ],
+      [
+       "Typical causes",
+       "Combustion, smoke inhalation",
+       "Nitrites, dapsone, benzocaine, primaquine; b5 reductase deficiency"
+      ],
+      [
+       "Curve",
+       "Left shift",
+       "Left shift"
+      ],
+      [
+       "PaO2",
+       "Normal",
+       "Normal"
+      ],
+      [
+       "SpO2",
+       "Falsely normal",
+       "About 85% regardless of true value"
+      ],
+      [
+       "Appearance",
+       "Cherry red (uncommon)",
+       "Cyanosis; chocolate-brown blood"
+      ],
+      [
+       "Confirmed by",
+       "Co-oximetry carboxyhemoglobin",
+       "Co-oximetry methemoglobin"
+      ]
+     ],
+     "caption": "Both lower true saturation and content with a normal PaO2; they differ in iron state and in how they fool the pulse oximeter."
+    },
+    {
+     "type": "stop",
+     "predict": "In methemoglobinemia, why does breathing supplemental O2 raise PaO2 yet leave the cyanosis and SpO2 nearly unchanged?",
+     "explain": "PaO2 was already normal, so the ferrous hemes were already nearly saturated, and ferric hemes cannot bind O2 at any PO2. The extra O2 adds only a little dissolved O2, and the oximeter ratio is still dominated by methemoglobin.",
+     "check": "The methemoglobin paragraph and the pulse oximetry explanation."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-08-01-C06",
+   "obj": "PU-8.6",
+   "title": "Arterial blood gases in respiratory acidosis and alkalosis",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "PaCO2 is proportional to CO2 production divided by alveolar ventilation, so a primary respiratory acid-base disorder is a disorder of ventilation. pH follows the Henderson-Hasselbalch equation, pH = 6.1 + log [HCO3- / (0.03 x PaCO2)]. Normal arterial values are pH 7.35 to 7.45, PaCO2 35 to 45 mmHg, HCO3- 22 to 26 mEq/L, and PaO2 about 80 to 100 mmHg on room air at sea level. Respiratory acidosis is a primary rise in PaCO2 (hypoventilation); respiratory alkalosis is a primary fall (hyperventilation)."
+    },
+    {
+     "type": "p",
+     "text": "Compensation works on two time scales. Within minutes, non-bicarbonate buffers, chiefly hemoglobin and intracellular proteins, take up or release H+, changing HCO3- only slightly; pH falls about 0.08 per 10 mmHg acute rise in PaCO2. Renal compensation starts within hours and is complete in 3 to 5 days. With high PaCO2, tubular cells secrete more H+, increase ammoniagenesis and NH4+ excretion, and add new HCO3- to the blood while Cl- is excreted, so chronic respiratory acidosis has low plasma Cl-. With low PaCO2 they reabsorb less HCO3-. Compensation moves pH toward normal but rarely all the way, except sometimes in chronic respiratory alkalosis."
+    },
+    {
+     "type": "table",
+     "title": "Expected HCO3- in respiratory disorders",
+     "cols": [
+      "Disorder",
+      "HCO3- change per 10 mmHg change in PaCO2",
+      "Example: PaCO2, HCO3-, pH"
+     ],
+     "rows": [
+      [
+       "Acute respiratory acidosis",
+       "Up about 1 mEq/L",
+       "60 mmHg, 26 mEq/L, about 7.26"
+      ],
+      [
+       "Chronic respiratory acidosis",
+       "Up about 3 to 4 mEq/L",
+       "60 mmHg, 31 mEq/L, about 7.34"
+      ],
+      [
+       "Acute respiratory alkalosis",
+       "Down about 2 mEq/L",
+       "30 mmHg, 22 mEq/L, about 7.49"
+      ],
+      [
+       "Chronic respiratory alkalosis",
+       "Down about 4 to 5 mEq/L",
+       "30 mmHg, 19 to 20 mEq/L, about 7.44"
+      ]
+     ],
+     "caption": "Start from HCO3- 24 mEq/L and PaCO2 40 mmHg. A measured HCO3- clearly outside the expected value means a second, metabolic disorder."
+    },
+    {
+     "type": "flow",
+     "title": "Reading a blood gas with a respiratory problem",
+     "steps": [
+      "pH below 7.35 is acidemia; above 7.45 is alkalemia",
+      "Primary change is the value that explains the pH",
+      "If PaCO2 is primary, decide acute or chronic",
+      "Calculate expected HCO3- from a baseline of 24",
+      "Measured HCO3- outside expected: add a metabolic disorder",
+      "Use PaO2 and the A-a gradient to locate the cause"
+     ],
+     "caption": "Judge compensation against a calculated value, not a normal pH."
+    },
+    {
+     "type": "p",
+     "text": "Respiratory acidosis follows failure anywhere in the ventilatory chain: depressed respiratory centers (opioids, sedatives), neuromuscular weakness (Guillain-Barre syndrome, myasthenia gravis), chest wall restriction or obesity hypoventilation, airway obstruction, and advanced COPD. Pure hypoventilation lowers PaO2 with a normal A-a gradient. CO2 crosses the blood-brain barrier and dilates cerebral vessels, causing headache, raised intracranial pressure, drowsiness, and at high levels CO2 narcosis. Respiratory alkalosis follows increased drive: anxiety, hypoxemia (altitude, pulmonary embolism, pneumonia), pregnancy (progesterone), early salicylate toxicity, sepsis, and liver failure. Alkalemia increases Ca2+ binding to albumin, lowering ionized Ca2+ and causing perioral numbness, paresthesias, and carpopedal spasm, while hypocapnic cerebral vasoconstriction causes lightheadedness."
+    },
+    {
+     "type": "p",
+     "text": "Mixed disorders appear when HCO3- departs from the expected value. A normal pH with clearly abnormal PaCO2 and HCO3- moving in opposite directions, as in salicylate toxicity (respiratory alkalosis plus anion gap metabolic acidosis), indicates two disorders. When metabolic acidosis is primary, expected PaCO2 is 1.5 x HCO3- + 8 (plus or minus 2), the Winter formula; a higher PaCO2 means a coexisting respiratory acidosis."
+    },
+    {
+     "type": "example",
+     "title": "Is the bicarbonate appropriate?",
+     "text": "A patient with long-standing stable COPD has pH 7.21, PaCO2 70 mmHg, and HCO3- 27 mEq/L. The pH is acidemic and PaCO2 is high, so respiratory acidosis is primary. PaCO2 is 30 mmHg above 40. If chronic, expected HCO3- is 24 + (3 x 3 to 4), about 33 to 36 mEq/L, and pH would be about 7.32. The measured 27 mEq/L is far too low for a known chronic state, so a metabolic acidosis, such as lactic acidosis, coexists. Had the hypercapnia been new, 27 would fit acute compensation (24 + 3). Conversely, PaCO2 60 mmHg with HCO3- 38 mEq/L exceeds even chronic compensation (about 30 to 32) and indicates an added metabolic alkalosis."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Biochemistry and hematology explain carrying capacity and affinity. Globin chain composition sets 2,3-BPG binding and fetal O2 transfer, the iron oxidation state decides whether heme can bind O2 at all, and red cell glycolytic enzymes and NADH-cytochrome b5 reductase link enzyme defects to curve shifts and methemoglobinemia. Anemia, polycythemia, and abnormal hemoglobins all alter content or unloading without touching the lung, which is why PaO2 can be normal in a hypoxic patient. Mitochondrial biochemistry completes the picture: CO and cyanide block cytochrome c oxidase, and lactic acidosis signals failed O2 use whatever its cause."
+  },
+  {
+   "type": "p",
+   "text": "Physiology and pathology join at the blood gas. Alveolar ventilation sets PaCO2, red cell carbonic anhydrase and band 3 convert CO2 into a transportable buffer, and the kidney supplies slow compensation, so a single ABG reflects lungs, blood, and kidney together. The expected compensation values are empirical averages with real scatter, the shares of CO2 transport and the P50 vary slightly by source, and pulse oximetry is reliable only when hemoglobin is normal, so each number is interpreted with the history and, when needed, co-oximetry and the anion gap."
+  }
+ ],
+ "summary": [
+  "CaO2 = (1.34 x Hb x SaO2) + (0.003 x PaO2), about 20 mL/dL normally; nearly all O2 is bound to hemoglobin.",
+  "PaO2 reflects gas exchange, SaO2 reflects how full hemoglobin is, and content reflects both plus the amount of hemoglobin; anemia lowers only content.",
+  "Cooperative T to R transition makes the curve sigmoid, with a protective plateau above PaO2 60 mmHg and a steep segment at tissue PO2; P50 is about 26 to 27 mmHg.",
+  "H+, CO2, temperature, and 2,3-BPG shift the curve right; fetal hemoglobin, CO, methemoglobin, alkalosis, and cold shift it left.",
+  "About 70% of CO2 is carried as bicarbonate made by red cell carbonic anhydrase and exported through band 3 in exchange for Cl- (chloride shift); the rest is carbamino and dissolved.",
+  "Bohr: CO2 and H+ lower O2 affinity and unload O2 in tissues. Haldane: oxygenation releases H+ and CO2 in the lungs, and deoxygenation increases CO2 uptake in tissues.",
+  "CO and methemoglobin lower true saturation and content and shift the curve left while PaO2 stays normal; pulse oximetry reads falsely normal in CO and about 85% in methemoglobinemia; co-oximetry measures both.",
+  "In respiratory acidosis HCO3- rises about 1 mEq/L acutely and 3 to 4 mEq/L chronically per 10 mmHg PaCO2; in respiratory alkalosis it falls about 2 acutely and 4 to 5 chronically.",
+  "A measured HCO3- outside the expected range, or a normal pH with clearly abnormal PaCO2 and HCO3-, signals a mixed disorder."
+ ],
+ "sources": [
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Transport of Oxygen and Carbon Dioxide in Blood and Tissue Fluids"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Acid-Base Regulation"
+  },
+  {
+   "book": "Boron and Boulpaep Medical Physiology",
+   "where": "Transport of oxygen and carbon dioxide in the blood"
+  },
+  {
+   "book": "Lippincott Illustrated Reviews: Biochemistry",
+   "where": "Globular Proteins"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Pulmonary Disease"
+  }
+ ],
+ "verify": [
+  "The hemoglobin O2 binding factor is given as 1.34 mL/g here; some texts use 1.36 or the theoretical 1.39. Confirm the value NABNE uses in content calculations.",
+  "CO affinity for hemoglobin is quoted from about 200 to 250 times that of O2; the competency uses about 200.",
+  "Shares of CO2 transport (bicarbonate about 70%, carbamino about 20 to 25%, dissolved about 5 to 10%) differ by text and by whether total CO2 or exchanged CO2 is meant.",
+  "Expected chronic compensation is quoted as 3 to 4 (often 3.5) mEq/L per 10 mmHg for respiratory acidosis and 4 to 5 mEq/L per 10 mmHg for respiratory alkalosis; confirm the figures NABNE expects.",
+  "P50 is given as about 26 to 27 mmHg for adult hemoglobin and about 19 to 20 mmHg for fetal hemoglobin; values vary slightly between sources.",
+  "The methemoglobin level producing visible cyanosis (about 1.5 g/dL) and the normal methemoglobin fraction (below about 1 to 2%) vary slightly between references.",
+  "The quantitative importance of the Haldane effect (roughly doubling CO2 release in the lung) follows Guyton and Hall; other texts express it differently.",
+  "The relative contributions of the Haldane effect, ventilation-perfusion mismatch, and reduced hypoxic drive to O2-induced hypercapnia in COPD are debated; confirm emphasis expected by NABNE.",
+  "Requested new diagram names for a future revision: oxyhemoglobin-curve (normal, right-shifted, and left-shifted curves with P50, arterial and venous points) and rbc-co2-transport (red cell in tissue and lung capillaries showing carbonic anhydrase, band 3, and hemoglobin buffering)."
+ ]
+}

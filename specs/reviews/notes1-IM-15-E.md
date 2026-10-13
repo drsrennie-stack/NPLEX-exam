@@ -1,0 +1,7 @@
+# Review log: notes/chapters/IM-15-E.json (Phase 1)
+
+- C01 tissue damage paragraph: rewrote the compression sentence so parenchymal cells atrophy and the deposits (not the cells) stiffen tissue and weaken vessels; the original grammar attributed stiffening to the atrophying cells.
+- C03 kidney paragraph: corrected "kidneys may remain normal in size or enlarged even late" to "often normal in size or enlarged, though long-standing disease shrinks them" (Robbins: long-standing renal amyloid can reduce kidney size).
+- C04 opening paragraph: cut the sentence on excess, unstable, or poorly cleared precursors, which repeated C01.
+- verify: added the transthyretin numbering note (Val30Met and Val122Ile are the older mature-protein names; current nomenclature is V50M and V142I).
+- Checked and confirmed without change: fibril width 7.5 to 10 nm, about 95% fibril protein with SAP and glycosaminoglycans, lambda about 3:1 over kappa, 5% to 15% of myeloma with AL, free light chain ratio 0.26 to 1.65, SAA rise up to about 1,000-fold and the 76-residue AA fragment, FMF genetics and pyrin inflammasome, AA settings including renal cell carcinoma and Hodgkin lymphoma, beta2-microglobulin about 12 kDa and proximal tubule handling, Abeta 40 to 42 residues from APP on chromosome 21, calcitonin and amylin deposits, factor X binding in AL, worked examples and STOP prompts (answerable, checks point to the right blocks), sources, no treatment content, no dashes or italics.

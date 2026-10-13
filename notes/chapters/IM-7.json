@@ -1,0 +1,624 @@
+{
+ "unit": "IM-7",
+ "chapter_id": "NPLEX-P1-IMMU-07",
+ "topic_id": "NPLEX-P1-IMMU-07-01",
+ "title": "Complement",
+ "subject": "Immunological System (IMMU)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "Complement is a set of plasma and membrane proteins that marks microbes for phagocytes, recruits inflammatory cells, lyses some bacteria, and clears immune complexes and dying cells. This chapter explains how three different recognition systems all place a C3 convertase on a target surface, what each cleavage fragment does, and how host cells keep this always-active system off their own membranes. It then shows how each missing component or regulator produces a predictable disease and how serum C3 and C4 reveal which pathway is being consumed. Board questions usually give an infection pattern, an autoimmune picture, or a pair of complement levels and ask you to name the missing protein or the active pathway.",
+  "prerequisites": [
+   "Structure of IgG and IgM, including Fc regions and antibody isotypes (IM-5)",
+   "Innate recognition of microbial patterns and the acute-phase response (IM-6, IM-13)",
+   "Serine proteases, zymogen activation, and proteolytic cascades",
+   "Type III (immune complex) hypersensitivity (IM-15-C)",
+   "Red cell destruction and markers of hemolysis (HE-3)"
+  ],
+  "connections": [
+   {
+    "to": "Humoral immunity (IM-5)",
+    "how": "Bound IgM and IgG start the classical pathway, and C3d on antigen lowers the threshold for B cell activation."
+   },
+   {
+    "to": "Glomerular diseases (UR-12-A)",
+    "how": "Immune complex and alternative pathway glomerulonephritis are read largely through serum C3 and C4."
+   },
+   {
+    "to": "Diseases of blood cell lysis (HE-9-B)",
+    "how": "Paroxysmal nocturnal hemoglobinuria is complement-mediated intravascular hemolysis caused by missing GPI-anchored regulators."
+   },
+   {
+    "to": "Infections of the CNS (NE-20-G)",
+    "how": "Terminal complement and properdin deficiencies predispose to recurrent or fulminant meningococcal disease."
+   },
+   {
+    "to": "Hemostasis (HE-4)",
+    "how": "C1 esterase inhibitor also controls factor XIIa and kallikrein, linking complement to the contact system and bradykinin."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Complement",
+    "def": "A group of more than 30 plasma and cell-surface proteins, mostly made by hepatocytes, that act as a proteolytic cascade to tag, attract cells to, and sometimes lyse targets."
+   },
+   {
+    "term": "C3 convertase",
+    "def": "A two-part enzyme bound to a surface that cleaves C3 into C3a and C3b: C4b2a in the classical and lectin pathways, C3bBb in the alternative pathway."
+   },
+   {
+    "term": "C5 convertase",
+    "def": "A C3 convertase that has bound an additional C3b and now cleaves C5, beginning assembly of the membrane attack complex."
+   },
+   {
+    "term": "Tickover",
+    "def": "Slow spontaneous hydrolysis of the internal thioester bond of C3 in plasma, which keeps the alternative pathway running at a low level at all times."
+   },
+   {
+    "term": "Thioester bond",
+    "def": "A reactive internal bond in C3 and C4 that, once exposed by cleavage, lets the b fragment attach covalently to a nearby surface."
+   },
+   {
+    "term": "Opsonization",
+    "def": "Coating of a particle with molecules, such as C3b or IgG, that phagocyte receptors recognize, which greatly increases ingestion."
+   },
+   {
+    "term": "Anaphylatoxin",
+    "def": "A small complement fragment (C5a, C3a, and weakly C4a) that triggers mast cell degranulation and increases vascular permeability."
+   },
+   {
+    "term": "Membrane attack complex (MAC)",
+    "def": "The pore formed by C5b, C6, C7, C8, and polymerized C9 in a target membrane, causing osmotic lysis."
+   },
+   {
+    "term": "GPI anchor",
+    "def": "A glycosylphosphatidylinositol lipid that tethers certain proteins, including CD55 and CD59, to the outer leaflet of the plasma membrane."
+   },
+   {
+    "term": "Bradykinin",
+    "def": "A peptide cleaved from high molecular weight kininogen by kallikrein that increases vascular permeability and is degraded by angiotensin-converting enzyme."
+   },
+   {
+    "term": "CH50",
+    "def": "A functional assay of the classical and terminal pathways that measures the serum dilution lysing 50% of antibody-coated sheep red cells."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-IMMU-07-01-C01",
+   "obj": "IM-7.1",
+   "title": "Three activation pathways converging on C3 convertase",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Complement proteins circulate as inactive precursors. Activation is a cascade in which each enzyme cleaves the next component, so a small trigger produces a large, surface-focused response. The central event in every pathway is the same: a C3 convertase forms on a target surface and cleaves many C3 molecules. The three pathways differ only in how they recognize the target."
+    },
+    {
+     "type": "h",
+     "text": "Classical pathway"
+    },
+    {
+     "type": "p",
+     "text": "C1 is a complex of one C1q with two C1r and two C1s proteases. C1q has six globular heads, and it activates only when at least two heads bind Fc regions at the same time. Free antibody in plasma therefore does not trigger it. One IgM pentamer bound to a surface changes shape and exposes several Fc sites, so a single bound IgM is enough. IgG has one Fc per molecule, so several IgG molecules must bind close together, which is why IgM is the more efficient activator. IgG3 and IgG1 activate well, IgG2 weakly, and IgG4, IgA, IgE, and IgD do not activate the classical pathway. C1q can also bind C-reactive protein and apoptotic cells. Once bound, C1r activates C1s, which cleaves C4 and then C2. C4b attaches to the surface through its thioester, C2a joins it, and the result is the C3 convertase C4b2a."
+    },
+    {
+     "type": "h",
+     "text": "Lectin pathway"
+    },
+    {
+     "type": "p",
+     "text": "Mannose-binding lectin (MBL) and the related ficolins recognize repeating mannose and N-acetylglucosamine residues in the spacing found on bacterial, yeast, and some viral surfaces. Host glycoproteins usually end in sialic acid and are not bound. MBL-associated serine protease 2 (MASP-2) cleaves C4 and C2 just as C1s does, so the lectin pathway builds the same C4b2a without any antibody."
+    },
+    {
+     "type": "h",
+     "text": "Alternative pathway"
+    },
+    {
+     "type": "p",
+     "text": "The thioester inside plasma C3 hydrolyzes slowly and spontaneously (tickover). This altered C3 binds factor B, factor D cleaves the bound B, and a small fluid-phase convertase releases a steady trickle of C3b. Newly formed C3b bonds covalently to whatever surface is nearest or is inactivated within moments. On host cells, regulators destroy it at once. On a microbial surface that lacks these regulators, C3b binds factor B, factor D cleaves it, and C3bBb forms; properdin stabilizes it and extends its short half-life. Because every C3b deposited by any pathway can seed a new C3bBb, the alternative pathway also serves as the amplification loop for the other two."
+    },
+    {
+     "type": "cycle",
+     "title": "The alternative pathway amplification loop",
+     "steps": [
+      "C3b deposits on a microbial surface",
+      "Factor B binds the C3b",
+      "Factor D cleaves bound factor B",
+      "C3bBb forms; properdin stabilizes it",
+      "C3bBb cleaves more C3",
+      "More C3b deposits nearby"
+     ],
+     "caption": "Each turn multiplies surface C3b, so any pathway that deposits a little C3b is rapidly amplified."
+    },
+    {
+     "type": "p",
+     "text": "When a C3 convertase binds one more C3b, it becomes a C5 convertase (C4b2a3b or C3bBb3b), which cleaves C5 and starts the shared terminal sequence."
+    },
+    {
+     "type": "table",
+     "title": "Comparison of the three activation pathways",
+     "cols": [
+      "Feature",
+      "Classical",
+      "Lectin",
+      "Alternative"
+     ],
+     "rows": [
+      [
+       "Trigger",
+       "IgM or clustered IgG bound to antigen; also CRP and apoptotic cells",
+       "Microbial mannose and N-acetylglucosamine patterns",
+       "Spontaneous C3 hydrolysis; C3b survives on surfaces lacking regulators"
+      ],
+      [
+       "Recognition molecule",
+       "C1q",
+       "MBL or ficolins",
+       "None specific; C3b itself"
+      ],
+      [
+       "Protease that starts it",
+       "C1r, then C1s",
+       "MASP-2",
+       "Factor D (cleaves factor B)"
+      ],
+      [
+       "Components used before C3",
+       "C1, C4, C2",
+       "MBL, MASPs, C4, C2",
+       "Factor B, factor D, properdin"
+      ],
+      [
+       "C3 convertase",
+       "C4b2a",
+       "C4b2a",
+       "C3bBb"
+      ],
+      [
+       "C5 convertase",
+       "C4b2a3b",
+       "C4b2a3b",
+       "C3bBb3b"
+      ]
+     ],
+     "caption": "All three pathways converge on C3 cleavage; only the classical and lectin pathways consume C4 and C2."
+    },
+    {
+     "type": "stop",
+     "predict": "Why does circulating IgG at a normal concentration of about 1,000 mg/dL not activate complement continuously in plasma?",
+     "explain": "C1q must bind at least two Fc regions at once. Soluble IgG monomers rarely sit that close; their Fc regions cluster only when several bind neighboring epitopes on a surface or form large immune complexes.",
+     "check": "The C1q binding requirement in the classical pathway paragraph."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-07-01-C02",
+   "obj": "IM-7.2",
+   "title": "Effector functions of complement",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Cleavage of C3 and C5 splits each into a small soluble a fragment and a larger b fragment. The b fragment exposes a binding site and stays on the target, where it labels the surface. The a fragment diffuses away and signals to cells nearby. This split explains the division of labor: C3b and C5b act where complement was activated, while C3a and C5a spread inflammation into the surrounding tissue."
+    },
+    {
+     "type": "h",
+     "text": "Opsonization"
+    },
+    {
+     "type": "p",
+     "text": "C3b is the main complement opsonin. Neutrophils and macrophages bind it through complement receptor 1 (CR1, CD35). Factor I then cleaves surface C3b to iC3b, which binds CR3 (CD11b/CD18) and CR4 and is an even stronger signal for ingestion. C3b and IgG together are more effective than either alone. Opsonization is the main defense against encapsulated bacteria such as Streptococcus pneumoniae and Haemophilus influenzae, whose capsules resist phagocytosis until they are coated. A further breakdown product, C3d, binds CR2 (CD21) on B cells, which signals with CD19 and lowers the antigen dose needed to activate the B cell."
+    },
+    {
+     "type": "h",
+     "text": "Anaphylatoxins and chemotaxis"
+    },
+    {
+     "type": "p",
+     "text": "C5a and C3a bind G protein-coupled receptors on mast cells and basophils and cause histamine release, which produces vasodilation, increased vascular permeability, and smooth muscle contraction. C5a is the most potent, and C4a is at most a weak anaphylatoxin. C5a is also the main complement chemoattractant: neutrophils and monocytes migrate up its concentration gradient, and C5a increases their integrin adhesion and oxidative burst."
+    },
+    {
+     "type": "h",
+     "text": "Membrane attack complex"
+    },
+    {
+     "type": "p",
+     "text": "C5b binds C6 and C7, and the C5b-7 complex becomes hydrophobic and inserts into the nearest lipid membrane. C8 then penetrates the bilayer, and C9 polymerizes into a ring that forms a pore about 10 nm across. Water and ions rush in and the cell lyses osmotically. The thin outer membrane of gram-negative bacteria is vulnerable, and Neisseria depend most on this route for their clearance; the thick peptidoglycan wall of gram-positive bacteria resists MAC insertion."
+    },
+    {
+     "type": "flow",
+     "title": "Assembly of the membrane attack complex",
+     "steps": [
+      "C5 convertase cleaves C5 into C5a and C5b",
+      "C5b binds C6, then C7",
+      "C5b-7 inserts into the target membrane",
+      "C8 binds and penetrates the bilayer",
+      "Multiple C9 molecules polymerize into a pore",
+      "Water and ions enter; the cell lyses"
+     ],
+     "caption": "CD59 on host cells blocks the C8 and C9 steps, so the pore cannot form on self membranes."
+    },
+    {
+     "type": "h",
+     "text": "Clearance of immune complexes"
+    },
+    {
+     "type": "p",
+     "text": "C1q, C4b, and C3b bind antigen-antibody complexes and keep them small and soluble so they do not grow into lattices that deposit in vessel walls and glomeruli. C3b-coated complexes then bind CR1 on red cells, which carry them to the liver and spleen. There, macrophages strip the complexes off and the red cells return to circulation. The same early components tag apoptotic cells for quiet removal."
+    },
+    {
+     "type": "table",
+     "title": "Complement fragments, receptors, and effects",
+     "cols": [
+      "Fragment",
+      "Receptor or partner",
+      "Main effect"
+     ],
+     "rows": [
+      [
+       "C3b",
+       "CR1 (CD35) on phagocytes and red cells",
+       "Opsonization; immune complex transport"
+      ],
+      [
+       "iC3b",
+       "CR3 (CD11b/CD18), CR4",
+       "Strong opsonization"
+      ],
+      [
+       "C3d",
+       "CR2 (CD21) on B cells",
+       "Lowers B cell activation threshold"
+      ],
+      [
+       "C3a",
+       "C3a receptor on mast cells and basophils",
+       "Anaphylatoxin, weaker than C5a"
+      ],
+      [
+       "C5a",
+       "C5a receptor (CD88) on mast cells, neutrophils, monocytes",
+       "Strongest anaphylatoxin; chemotaxis and neutrophil activation"
+      ],
+      [
+       "C5b to C9",
+       "Target membrane",
+       "Pore formation and osmotic lysis"
+      ]
+     ],
+     "caption": "Bound b fragments act on the target; soluble a fragments act on nearby cells."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-07-01-C03",
+   "obj": "IM-7.3",
+   "title": "Regulators of complement, hereditary angioedema, and PNH",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Because tickover never stops and nascent C3b bonds to any nearby surface, host cells are under constant low-level attack. Regulators protect them at three checkpoints: the start of the classical and lectin pathways, the convertases, and MAC assembly. Microbes lack these host proteins, which lets complement tell self from nonself without antibody."
+    },
+    {
+     "type": "table",
+     "title": "Major complement regulators",
+     "cols": [
+      "Regulator",
+      "Location",
+      "Target and action",
+      "Disease when lost"
+     ],
+     "rows": [
+      [
+       "C1 esterase inhibitor (C1-INH)",
+       "Plasma (serine protease inhibitor)",
+       "Binds and inactivates C1r, C1s, MASPs, kallikrein, and factor XIIa",
+       "Hereditary angioedema"
+      ],
+      [
+       "DAF (CD55)",
+       "GPI-anchored on blood and other cells",
+       "Speeds dissociation of C3 and C5 convertases",
+       "PNH (with CD59)"
+      ],
+      [
+       "CD59 (protectin)",
+       "GPI-anchored on blood and other cells",
+       "Binds C8 and C9; blocks C9 polymerization",
+       "PNH (with CD55)"
+      ],
+      [
+       "Factor H",
+       "Plasma; binds sialic acid on host surfaces",
+       "Displaces Bb from C3b; factor I cofactor",
+       "Atypical hemolytic uremic syndrome"
+      ],
+      [
+       "Factor I",
+       "Plasma protease",
+       "Cleaves C3b and C4b with a cofactor",
+       "Secondary C3 depletion; infections"
+      ]
+     ],
+     "caption": "C1-INH acts at the start, DAF at the convertases, CD59 at the pore."
+    },
+    {
+     "type": "h",
+     "text": "Hereditary angioedema"
+    },
+    {
+     "type": "p",
+     "text": "Hereditary angioedema (HAE) is autosomal dominant. One defective SERPING1 allele leaves too little functional C1-INH, either because the protein is low (type I, about 85% of cases) or present but nonfunctional (type II). The swelling is not caused by complement: C1-INH is also the main inhibitor of the contact system, and when it is deficient, factor XIIa and kallikrein cleave high molecular weight kininogen and release excess bradykinin. Bradykinin acts on endothelial B2 receptors and loosens endothelial junctions, producing nonpitting edema of the deep dermis and submucosa. Mast cells are not involved, so there is no urticaria or itching. Attacks last 2 to 5 days, often after trauma or dental work; laryngeal swelling can obstruct the airway, and bowel wall edema causes colicky abdominal pain. The complement signature is separate: unopposed C1s keeps cleaving C4 and C2, so C4 is low even between attacks, while C3 stays normal."
+    },
+    {
+     "type": "flow",
+     "title": "From C1-INH deficiency to angioedema",
+     "steps": [
+      "SERPING1 mutation lowers functional C1-INH",
+      "Factor XIIa and kallikrein act unchecked",
+      "Kallikrein cleaves high molecular weight kininogen",
+      "Bradykinin binds endothelial B2 receptors",
+      "Permeability rises without mast cell activation",
+      "Nonpitting swelling of face, larynx, or bowel; no hives"
+     ],
+     "caption": "Unopposed C1s also consumes C4."
+    },
+    {
+     "type": "stop",
+     "predict": "Lip and tongue swelling without hives begins after an angiotensin-converting enzyme (ACE) inhibitor is started. C4 and C1-INH are normal. What is the mediator?",
+     "explain": "Bradykinin. ACE (kininase II) normally degrades bradykinin, so blocking it raises bradykinin with C1-INH intact. The mediator matches HAE, explaining the absent urticaria, but complement is not consumed, so C4 is normal.",
+     "check": "The HAE mechanism paragraph."
+    },
+    {
+     "type": "h",
+     "text": "Paroxysmal nocturnal hemoglobinuria"
+    },
+    {
+     "type": "p",
+     "text": "Paroxysmal nocturnal hemoglobinuria (PNH) is acquired. A somatic mutation in PIGA, an X-linked gene needed for the first step of GPI anchor synthesis, arises in a hematopoietic stem cell. Each cell has only one active copy, so one mutation is enough. All descendants of that clone (red cells, granulocytes, and platelets) lack GPI-anchored proteins, including DAF and CD59. Tickover then deposits C3b on these red cells, convertases persist, and MACs lyse them inside vessels."
+    },
+    {
+     "type": "flow",
+     "title": "From PIGA mutation to intravascular hemolysis",
+     "steps": [
+      "Somatic PIGA mutation in a stem cell",
+      "No GPI anchors are made",
+      "Clone's cells lack CD55 and CD59",
+      "C3 convertases persist on red cells",
+      "MAC forms unopposed",
+      "Intravascular hemolysis and hemoglobinuria"
+     ],
+     "caption": "Missing CD59 is the main cause of lysis; missing CD55 adds C3b deposition."
+    },
+    {
+     "type": "p",
+     "text": "The mechanism explains the findings. Intravascular hemolysis releases hemoglobin, producing hemoglobinuria (dark urine, classically most noticeable in the morning), high LDH, low haptoglobin, and hemosiderinuria. The direct antiglobulin (Coombs) test is negative because no antibody is involved. Free hemoglobin scavenges nitric oxide, causing smooth muscle spasm (dysphagia, abdominal pain). Thrombosis in unusual sites such as the hepatic veins (Budd-Chiari syndrome) is the leading cause of death. Clones often arise in aplastic anemia, so cytopenias are common. Flow cytometry confirms red cells and granulocytes lacking CD55 and CD59."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-07-01-C04",
+   "obj": "IM-7.4",
+   "title": "Predicting disease from complement deficiencies",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Inherited deficiency of a complement protein is rare, apart from MBL and C2, and is usually autosomal recessive; properdin deficiency is X-linked. The clinical picture follows directly from which function is lost, so the rule is to ask where the missing protein sits in the cascade and what it normally does there."
+    },
+    {
+     "type": "h",
+     "text": "Early classical components: C1q, C1r, C1s, C4, C2"
+    },
+    {
+     "type": "p",
+     "text": "These proteins tag immune complexes and apoptotic cells for quiet removal. When they are missing, apoptotic debris carrying nuclear antigens persists, autoantibodies form against it, and immune complexes deposit in skin, joints, and kidney, producing an SLE-like disease. Risk follows the position in the cascade: about 90% of people with complete C1q deficiency develop lupus, about 75% with complete C4 deficiency, and about 10% to 30% with C2 deficiency. C2 deficiency is the most common inherited complement deficiency in people of European ancestry and also raises the risk of infection with encapsulated bacteria."
+    },
+    {
+     "type": "h",
+     "text": "C3"
+    },
+    {
+     "type": "p",
+     "text": "C3 is the point where all pathways meet, so its loss removes opsonization by C3b and iC3b, most C5a generation, and the MAC. From infancy, once maternal IgG wanes, children have severe recurrent pyogenic infections with encapsulated organisms such as S. pneumoniae, H. influenzae, and Neisseria meningitidis. Immune complexes are also poorly solubilized, causing membranoproliferative glomerulonephritis. Deficiency of factor H or factor I produces a secondary version of the same picture, because uncontrolled alternative pathway activity uses up C3."
+    },
+    {
+     "type": "h",
+     "text": "Terminal components: C5 to C9"
+    },
+    {
+     "type": "p",
+     "text": "Without a working MAC, opsonization still clears most bacteria, but serum killing of Neisseria fails. Patients have recurrent meningococcal infection, often first in adolescence, often with less common serogroups, and also disseminated gonococcal infection. C9 deficiency is milder because C5b-8 alone forms small leaky channels. Properdin deficiency destabilizes C3bBb and causes fulminant meningococcal disease, mainly in males. Blocking C5 with an antibody such as eculizumab creates the same Neisseria risk, which confirms the mechanism."
+    },
+    {
+     "type": "h",
+     "text": "MBL"
+    },
+    {
+     "type": "p",
+     "text": "Low MBL levels from common MBL2 variants occur in about 5% to 10% of people and are usually silent, because the classical and alternative pathways compensate. Infections cluster between about 6 and 18 months of age, after maternal antibody fades and before the child's own antibody repertoire matures."
+    },
+    {
+     "type": "table",
+     "title": "Complement deficiencies and screening results",
+     "cols": [
+      "Missing protein",
+      "Function lost",
+      "Main clinical result",
+      "CH50",
+      "AH50"
+     ],
+     "rows": [
+      [
+       "C1q, C1r, C1s, C4, C2",
+       "Clearance of immune complexes and apoptotic cells",
+       "SLE-like disease; some encapsulated infections",
+       "Absent or very low",
+       "Normal"
+      ],
+      [
+       "C3",
+       "Opsonization, C5a, MAC",
+       "Severe pyogenic infections; immune complex glomerulonephritis",
+       "Absent",
+       "Absent"
+      ],
+      [
+       "C5, C6, C7, C8",
+       "MAC",
+       "Recurrent Neisseria infections",
+       "Absent",
+       "Absent"
+      ],
+      [
+       "C9",
+       "Full MAC pore",
+       "Mild or no increase in Neisseria risk",
+       "Reduced",
+       "Reduced"
+      ],
+      [
+       "Properdin",
+       "Stable C3bBb",
+       "Fulminant meningococcal disease",
+       "Normal",
+       "Low"
+      ],
+      [
+       "MBL",
+       "Lectin pathway",
+       "Infections in infancy and early childhood",
+       "Normal",
+       "Normal"
+      ]
+     ],
+     "caption": "CH50 tests the classical and terminal pathways; AH50 tests the alternative and terminal pathways; MBL deficiency needs a lectin pathway assay."
+    },
+    {
+     "type": "example",
+     "title": "Locating a defect with CH50 and AH50",
+     "text": "A 17-year-old has a second episode of meningococcal meningitis. CH50 and AH50 are both undetectable; C3 and C4 levels are normal. CH50 needs C1, C4, C2, C3, and C5 to C9; AH50 needs factor B, factor D, properdin, C3, and C5 to C9. Both failing points to a component they share, which is C3 or C5 to C9. A normal C3 excludes C3, leaving a terminal component, which also fits recurrent Neisseria. If only CH50 were absent, the defect would be early classical (C1, C4, or C2), and the expected picture would be lupus-like disease. If only AH50 were low, properdin, factor B, or factor D would be the suspects."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-07-01-C05",
+   "obj": "IM-7.5",
+   "title": "Interpreting serum C3 and C4",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Serum C3 and C4 are measured as protein concentrations, with typical adult reference ranges of about 90 to 180 mg/dL for C3 and about 10 to 40 mg/dL for C4; laboratories vary. A level reflects hepatic synthesis minus consumption. Both proteins are acute-phase reactants, so inflammation raises synthesis and can hide modest consumption. A low value means consumption is outpacing production."
+    },
+    {
+     "type": "p",
+     "text": "Which protein falls depends on where activation enters the cascade. Classical activation by immune complexes cleaves C4 and C2 before C3, so both C4 and C3 fall. Alternative pathway activation begins at C3 and never uses C4, so C3 falls while C4 stays normal. Loss of C1-INH lets C1s cleave C4 and C2 in plasma, but the fluid-phase C4b2a that results is unstable and quickly regulated, so little C3 is cleaved and C3 stays normal."
+    },
+    {
+     "type": "p",
+     "text": "In active SLE, DNA and anti-dsDNA immune complexes activate the classical pathway in the kidney and other tissues, so C3 and C4 are both low. Falling C3 and C4 with a rising anti-dsDNA titer signal a flare, especially lupus nephritis, and levels rise toward normal with remission. In poststreptococcal glomerulonephritis (PSGN), which follows group A streptococcal pharyngitis by about 1 to 3 weeks or skin infection by about 3 to 6 weeks, streptococcal antigens in the glomerulus activate mainly the alternative pathway; C3 is low, C4 usually normal, and C3 returns to normal within about 6 to 8 weeks. A C3 that stays low beyond that window suggests persistent alternative pathway activation, such as C3 glomerulopathy driven by C3 nephritic factor, an autoantibody that stabilizes C3bBb. In HAE, C4 is low with normal C3, and a low C1q in addition points to the acquired form of C1-INH deficiency rather than the hereditary one."
+    },
+    {
+     "type": "table",
+     "title": "Serum complement patterns",
+     "cols": [
+      "Pattern",
+      "Pathway consumed",
+      "Examples"
+     ],
+     "rows": [
+      [
+       "Low C3, low C4",
+       "Classical (immune complexes)",
+       "Active SLE; serum sickness; cryoglobulinemia (C4 often very low)"
+      ],
+      [
+       "Low C3, normal C4",
+       "Alternative",
+       "PSGN; C3 glomerulopathy with C3 nephritic factor; factor H or factor I deficiency"
+      ],
+      [
+       "Normal C3, low C4",
+       "Early classical only, without C3 cleavage",
+       "Hereditary angioedema; acquired C1-INH deficiency"
+      ],
+      [
+       "Normal C3 and C4, absent CH50",
+       "None consumed; a component is missing",
+       "Inherited deficiency of C1q, C2, or a terminal component (C5 to C8)"
+      ]
+     ],
+     "caption": "Classical activation consumes C4 before C3, alternative activation starts at C3, and C1-INH loss consumes C4 without reaching C3."
+    },
+    {
+     "type": "example",
+     "title": "Following C3 after a sore throat",
+     "text": "A 7-year-old has cola-colored urine, periorbital edema, and blood pressure of 128/84 mm Hg two weeks after pharyngitis. C3 is 40 mg/dL and C4 is 25 mg/dL. Low C3 with normal C4 means alternative pathway consumption, which fits PSGN, and the anti-streptolysin O titer supports recent infection. Active SLE would lower both. At 12 weeks the urine has cleared but C3 is still 45 mg/dL. In PSGN the streptococcal antigen is cleared and C3 should be normal by about 8 weeks, so persistent consumption implies a continuing driver, such as C3 nephritic factor or a factor H defect, and the diagnosis needs to be reconsidered."
+    },
+    {
+     "type": "stop",
+     "predict": "In HAE, C1s cleaves C4 and C2 continuously. Why does C3 not fall as well?",
+     "explain": "The C4b2a formed in plasma is not anchored to a protected surface; C2a dissociates quickly, and factor I with a plasma cofactor inactivates the C4b. Little C3 is cleaved, so C3 stays normal while C4 is used up.",
+     "check": "The second paragraph of this section and the regulator table in C03."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Biochemistry and microbiology explain how complement works and how pathogens escape it. The cascade runs on serine proteases held as zymogens, the reactive thioester of C3 and C4 lets fragments bond covalently to targets, and GPI anchor synthesis explains why one PIGA mutation removes two regulators at once. Successful pathogens exploit the same self-recognition rules: polysaccharide capsules hinder C3b deposition and access to phagocyte receptors, and Neisseria meningitidis and Streptococcus pyogenes bind factor H to their own surfaces. This is why encapsulated organisms dominate the infections of C3 and antibody deficiency and Neisseria dominates those of terminal deficiency."
+  },
+  {
+   "type": "p",
+   "text": "Pathology and anatomy explain where complement causes harm. Immune complex disease (type III hypersensitivity) damages glomeruli, joints, and skin through local C5a recruitment of neutrophils, while uncontrolled alternative pathway activity on endothelium underlies atypical hemolytic uremic syndrome. The liver makes most complement proteins, and the spleen and liver macrophages remove opsonized bacteria and immune complexes, so severe liver disease and asplenia weaken the same defenses. Serum levels are a blunt tool: they reflect the balance of synthesis and consumption, rise in acute inflammation, and miss local activation, so they are read alongside the clinical picture and repeated over time."
+  }
+ ],
+ "summary": [
+  "All three pathways build a surface C3 convertase: C4b2a in the classical (C1q binding one IgM or clustered IgG) and lectin (MBL with MASP-2) pathways, and C3bBb, stabilized by properdin, in the alternative pathway.",
+  "Alternative pathway tickover is constant and nonspecific; host regulators, absent from microbes, provide self versus nonself discrimination and the C3bBb loop amplifies every pathway.",
+  "Bound b fragments act on the target (C3b and iC3b opsonize, C5b starts the MAC); soluble a fragments act on cells nearby (C3a and C5a are anaphylatoxins, and C5a recruits neutrophils).",
+  "C3b keeps immune complexes soluble and lets red cell CR1 carry them to the liver and spleen; early classical components also clear apoptotic cells.",
+  "C1-INH deficiency (autosomal dominant HAE) raises bradykinin through unchecked kallikrein, giving nonpitting swelling without hives, low C4, and normal C3.",
+  "PNH is an acquired PIGA mutation that removes GPI-anchored CD55 and CD59, causing Coombs-negative intravascular hemolysis, thrombosis, and cytopenias.",
+  "Early classical deficiency (C1q, C4, C2) causes SLE-like disease; C3 deficiency causes severe pyogenic infections and immune complex glomerulonephritis; C5 to C9 or properdin deficiency causes Neisseria infection; MBL deficiency causes infections in early childhood.",
+  "CH50 and AH50 localize a missing component: both absent means C3 or a terminal component, CH50 alone means early classical, AH50 alone means alternative pathway factors.",
+  "Low C3 and C4 indicate classical consumption (active SLE); low C3 with normal C4 indicates alternative consumption (PSGN, normal again by about 8 weeks); low C4 with normal C3 indicates C1-INH deficiency."
+ ],
+ "sources": [
+  {
+   "book": "Abbas, Basic Immunology",
+   "where": "Effector Mechanisms of Humoral Immunity"
+  },
+  {
+   "book": "Abbas, Basic Immunology",
+   "where": "Innate Immunity, section on the complement system"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Inflammation and Repair, section on the complement system"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Red Blood Cell and Bleeding Disorders, section on paroxysmal nocturnal hemoglobinuria; The Kidney, section on poststreptococcal glomerulonephritis"
+  },
+  {
+   "book": "Jawetz, Melnick and Adelberg's Medical Microbiology",
+   "where": "Immunology section on complement"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Disorders of the Immune System"
+  }
+ ],
+ "verify": [
+  "C2 fragment nomenclature: this chapter uses the traditional names C4b2a and C3bBb3b. Some newer immunology texts rename the larger C2 fragment C2b and write the convertase as C4b2b; confirm which convention NABNE uses.",
+  "Reported lupus risk by deficiency (about 90% for C1q, 75% for C4, 10% to 30% for C2) varies between reviews; confirm the figures NABNE expects if they are tested.",
+  "Serum C3 (about 90 to 180 mg/dL) and C4 (about 10 to 40 mg/dL) reference ranges vary by laboratory and method.",
+  "The proportion of HAE that is type I (about 85%) and the frequency of low MBL levels (about 5% to 10%) are approximate and vary by source and population.",
+  "The classic explanation that PNH hemolysis worsens at night because of mild respiratory acidosis during sleep is debated, and hemolysis is now viewed as largely continuous; this chapter describes morning dark urine without endorsing the mechanism.",
+  "Time to C3 normalization after PSGN is quoted as 6 to 8 weeks in most sources and up to 12 weeks in some; confirm the cutoff NABNE uses.",
+  "Confirm whether NABNE Part I expects receptor names (CR1 to CR4, CD35, CD21, CD88) and newer entities such as C3 glomerulopathy, or only the core pathway and deficiency patterns.",
+  "Requested new diagram name for a future revision: complement-cascade (classical, lectin, and alternative pathways converging on C3 and C5 convertases and the MAC, with C1-INH, DAF, and CD59 marked at their steps)."
+ ]
+}

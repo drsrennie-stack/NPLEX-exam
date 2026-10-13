@@ -1,0 +1,666 @@
+{
+ "unit": "PU-12",
+ "chapter_id": "NPLEX-P1-RESP-12",
+ "topic_id": "NPLEX-P1-RESP-12-01",
+ "title": "Immune Responses in Pulmonary Disease",
+ "subject": "Respiratory System (RESP)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "The lung exchanges gas across about 70 square meters of alveolar surface while breathing in about 10,000 L of air a day, so it must clear microbes and particles without inflaming the alveoli. This chapter explains the layered innate defenses, then shows how each hypersensitivity type produces a distinct lung disease: IgE in asthma, antibody to basement membrane in Goodpasture syndrome, immune complexes and T cells in hypersensitivity pneumonitis, and Th1 granulomas in tuberculosis and sarcoidosis. It closes with how respiratory vaccines work and how lung cancers escape immunity. Board questions usually give a clinical picture and ask for the hypersensitivity type, cytokine, antibody target, or defense that failed.",
+  "prerequisites": [
+   "Innate and adaptive immunity, antigen presentation on MHC class I and II (IM units)",
+   "The four Gell and Coombs hypersensitivity types",
+   "Airway and alveolar histology: ciliated epithelium, goblet cells, type I and II pneumocytes",
+   "Obstructive versus restrictive patterns on pulmonary function tests",
+   "B cell class switching and the germinal center reaction"
+  ],
+  "connections": [
+   {
+    "to": "Immunology (IM units)",
+    "how": "Every disease here is a standard hypersensitivity or immune evasion mechanism expressed in lung tissue."
+   },
+   {
+    "to": "Respiratory pathogens (PU-13)",
+    "how": "Loss of a specific defense predicts which organisms cause pneumonia, such as encapsulated bacteria when opsonizing antibody is lacking."
+   },
+   {
+    "to": "Obstructive and restrictive lung disease (PU-14)",
+    "how": "Asthma is the prototype of reversible obstruction, while hypersensitivity pneumonitis and sarcoidosis produce restriction and a low DLCO."
+   },
+   {
+    "to": "Renal pathology (UR units)",
+    "how": "Goodpasture syndrome and granulomatosis with polyangiitis are pulmonary renal syndromes with crescentic glomerulonephritis."
+   },
+   {
+    "to": "Neuromuscular physiology (NE units)",
+    "how": "Lambert-Eaton syndrome is explained by reduced presynaptic Ca2+ entry and acetylcholine release at the neuromuscular junction."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Mucociliary escalator",
+    "def": "The layer of mucus moved toward the pharynx by the coordinated beating of airway cilia, which carries trapped particles out of the lower airways."
+   },
+   {
+    "term": "Secretory IgA",
+    "def": "Dimeric IgA joined by a J chain and carried across epithelium by the polymeric immunoglobulin receptor, a fragment of which remains as secretory component."
+   },
+   {
+    "term": "Collectins",
+    "def": "Soluble C-type lectins, including surfactant proteins A and D, that bind microbial carbohydrates and promote their clearance."
+   },
+   {
+    "term": "Opsonin",
+    "def": "A molecule that coats a particle and makes it easier for phagocytes to bind and ingest."
+   },
+   {
+    "term": "Th2 cell",
+    "def": "A CD4 helper T cell subset that secretes IL-4, IL-5, and IL-13 and drives IgE, eosinophil, and mucus responses."
+   },
+   {
+    "term": "Late phase reaction",
+    "def": "The second wave of a type I response, several hours after exposure, caused by recruited eosinophils, Th2 cells, and other leukocytes."
+   },
+   {
+    "term": "Granuloma",
+    "def": "An organized collection of activated macrophages (epithelioid cells), often with multinucleated giant cells, surrounded by lymphocytes."
+   },
+   {
+    "term": "Epithelioid cell",
+    "def": "An IFN-gamma activated macrophage with abundant pink cytoplasm and an elongated nucleus that resembles an epithelial cell."
+   },
+   {
+    "term": "Precipitins",
+    "def": "Serum IgG antibodies that form visible precipitates with a specific antigen, used as a marker of exposure in hypersensitivity pneumonitis."
+   },
+   {
+    "term": "ANCA",
+    "def": "Antineutrophil cytoplasmic antibodies, directed against neutrophil granule enzymes such as proteinase 3 (PR3) and myeloperoxidase (MPO)."
+   },
+   {
+    "term": "Conjugate vaccine",
+    "def": "A vaccine in which a bacterial capsular polysaccharide is covalently linked to a carrier protein so that helper T cells can assist the antibody response."
+   },
+   {
+    "term": "Immune checkpoint",
+    "def": "An inhibitory receptor pathway, such as PD-1 binding PD-L1, that limits T cell activation and can be exploited by tumors."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-RESP-12-01-C01",
+   "obj": "PU-12.1",
+   "title": "Innate lung defenses and how their failure causes pneumonia",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The lower respiratory tract below the larynx is kept nearly sterile by defenses arranged in layers. Which layer handles an inhaled particle depends mainly on its size, because size determines where it deposits: by impaction in the nose and large airways, by sedimentation in small airways, and by diffusion in the alveoli."
+    },
+    {
+     "type": "table",
+     "title": "Layers of lung defense",
+     "cols": [
+      "Site",
+      "Defense",
+      "How it works"
+     ],
+     "rows": [
+      [
+       "Nose and nasopharynx",
+       "Hairs, turbinates, mucus",
+       "Turbulent flow makes particles larger than about 10 micrometers impact on the mucosa"
+      ],
+      [
+       "Larynx and airways",
+       "Cough and glottic closure",
+       "Vagal afferents trigger forceful expiration that expels material; the epiglottis and glottis close during swallowing"
+      ],
+      [
+       "Trachea to bronchioles",
+       "Mucociliary escalator",
+       "Particles of about 2 to 10 micrometers stick to mucus that cilia carry up to the pharynx to be swallowed or coughed out"
+      ],
+      [
+       "Mucosal surface",
+       "Secretory IgA, lysozyme, lactoferrin, defensins",
+       "IgA blocks microbial attachment without inflammation; the others kill or starve bacteria"
+      ],
+      [
+       "Alveoli",
+       "Alveolar macrophages",
+       "Ingest particles of about 0.5 to 5 micrometers and microbes; recruit neutrophils if the load is large"
+      ],
+      [
+       "Alveolar lining fluid",
+       "Surfactant proteins A and D",
+       "Bind microbial surface carbohydrates, aggregate organisms, and opsonize them for macrophages"
+      ]
+     ],
+     "caption": "Size cutoffs are approximate and overlap; smaller particles travel deeper."
+    },
+    {
+     "type": "p",
+     "text": "The mucociliary escalator has two parts. Goblet cells and submucosal glands make a gel layer of mucus, which floats on a thin watery periciliary layer. Ciliated cells, each with a few hundred cilia built on a 9 + 2 microtubule axoneme, beat in coordinated waves; dynein arms between the outer microtubule doublets use ATP to slide them and bend the cilium. The beat moves the gel layer toward the pharynx, so a defect in mucus hydration, in cilia, or in cough leaves material to stagnate."
+    },
+    {
+     "type": "p",
+     "text": "Secretory IgA is made by plasma cells in the lamina propria as a dimer joined by a J chain. The polymeric immunoglobulin receptor on the basal surface of the epithelium carries it across, and part of the receptor stays bound as secretory component, which protects IgA from proteases. IgA neutralizes toxins and blocks adhesion but activates complement poorly, so it protects without inflaming the mucosa. Surfactant proteins A and D are hydrophilic collectins secreted by type II pneumocytes and club cells. Unlike SP-B and SP-C, which lower surface tension, SP-A and SP-D bind sugars on bacteria, viruses, and fungi and present them to macrophages."
+    },
+    {
+     "type": "h",
+     "text": "Why smoking, alcohol, and ciliary defects raise pneumonia risk"
+    },
+    {
+     "type": "p",
+     "text": "Cigarette smoke slows ciliary beating, causes goblet cell hyperplasia with thicker mucus, replaces ciliated cells with squamous metaplasia, and impairs the killing ability of alveolar macrophages, so organisms that should be carried out are retained. Alcohol depresses consciousness, cough, and the gag reflex, which allows aspiration of oropharyngeal flora, including anaerobes and Klebsiella pneumoniae, and it also impairs neutrophil and macrophage function. In primary ciliary dyskinesia, an autosomal recessive defect most often in dynein arm proteins, cilia are immotile or beat abnormally, causing chronic sinusitis, otitis media, and bronchiectasis from childhood. About half of patients have situs inversus (Kartagener syndrome) because embryonic nodal cilia set left and right asymmetry, and men are usually infertile because sperm flagella share the axoneme. Cystic fibrosis is a different mechanism: the cilia are normal, but dehydrated mucus cannot be moved."
+    },
+    {
+     "type": "stop",
+     "predict": "A patient with immotile cilia and a patient with cystic fibrosis both develop bronchiectasis. Would situs inversus or a nasal biopsy with abnormal cilia help separate them?",
+     "explain": "Yes. Primary ciliary dyskinesia is a structural ciliary defect, so electron microscopy shows missing dynein arms and half of patients have situs inversus. In cystic fibrosis the CFTR defect dehydrates the periciliary layer; cilia are structurally normal and organ position is normal.",
+     "check": "The mucociliary escalator paragraph and the final paragraph on ciliary defects."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-12-01-C02",
+   "obj": "PU-12.2",
+   "title": "Type I hypersensitivity in allergic asthma and rhinitis",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Allergic asthma and allergic rhinitis are type I (immediate) hypersensitivity reactions: IgE bound to mast cells reacts with an inhaled allergen such as house dust mite, pollen, animal dander, or cockroach protein. The same mechanism affects the nasal mucosa in rhinitis and the bronchi in asthma, and the two often occur together in atopic people, who have an inherited tendency to make IgE responses."
+    },
+    {
+     "type": "flow",
+     "title": "Sensitization and the allergic asthma attack",
+     "steps": [
+      "Dendritic cells carry inhaled allergen to lymph nodes",
+      "Epithelial alarmins and IL-4 push naive CD4 cells to Th2",
+      "Th2 IL-4 and CD40 ligand switch B cells to IgE",
+      "IgE binds Fc epsilon RI on mast cells (sensitized)",
+      "Re-exposure cross-links bound IgE; mast cells degranulate",
+      "Minutes: bronchoconstriction, mucus, edema (early phase)",
+      "Hours: IL-5 recruited eosinophils and Th2 cells (late phase)"
+     ],
+     "caption": "The first exposure sensitizes without symptoms; later exposures trigger the reaction."
+    },
+    {
+     "type": "p",
+     "text": "Sensitization begins when the injured or stimulated airway epithelium releases alarmins (IL-25, IL-33, and thymic stromal lymphopoietin), which favor Th2 differentiation. Th2 cytokines then each produce one feature of the disease. IL-4, with CD40 ligand on the T cell, drives B cell class switching to IgE. IL-5 drives eosinophil production in the marrow, their activation, and their survival. IL-13 acts on airway epithelium and smooth muscle to cause goblet cell metaplasia, mucus hypersecretion, and airway hyperresponsiveness, and it also supports IgE switching. IgE binds the high-affinity receptor Fc epsilon RI on mast cells and basophils, where it remains for weeks."
+    },
+    {
+     "type": "p",
+     "text": "When allergen cross-links two or more receptor-bound IgE molecules, the mast cell degranulates within minutes. Preformed mediators (histamine, tryptase, heparin) are released at once, and arachidonic acid is converted to newly synthesized mediators: the cysteinyl leukotrienes C4, D4, and E4 and prostaglandin D2, which are potent bronchoconstrictors and increase vascular permeability and mucus secretion. Mast cells also release cytokines and chemokines that set up the late phase."
+    },
+    {
+     "type": "table",
+     "title": "Early and late phase responses",
+     "cols": [
+      "Feature",
+      "Early phase",
+      "Late phase"
+     ],
+     "rows": [
+      [
+       "Onset",
+       "Within minutes; fades in about 1 hour",
+       "About 4 to 8 hours; may last a day or more"
+      ],
+      [
+       "Main cells",
+       "Resident mast cells",
+       "Recruited eosinophils, Th2 cells, basophils, neutrophils"
+      ],
+      [
+       "Mediators",
+       "Histamine, leukotrienes C4, D4, E4, prostaglandin D2",
+       "Major basic protein, eosinophil cationic protein, leukotrienes, Th2 cytokines"
+      ],
+      [
+       "Airway effect",
+       "Smooth muscle contraction, edema, mucus",
+       "Epithelial damage, persistent inflammation, increased hyperresponsiveness"
+      ],
+      [
+       "In the nose",
+       "Sneezing, itching, watery rhinorrhea",
+       "Nasal congestion and blockage"
+      ]
+     ],
+     "caption": "Repeated late phase reactions lead to chronic airway remodeling."
+    },
+    {
+     "type": "p",
+     "text": "Eosinophil granule proteins injure the epithelium, exposing sensory nerves and removing epithelial barrier function, which explains why hyperresponsiveness rises after the late phase. Repeated cycles remodel the airway: a thickened subepithelial basement membrane from collagen deposition, smooth muscle hypertrophy and hyperplasia, goblet cell and submucosal gland hyperplasia, and mucus plugs. Sputum may show Curschmann spirals (shed epithelium in mucus casts of small airways) and Charcot-Leyden crystals (crystallized eosinophil protein). Narrowed airways produce wheeze and an obstructive pattern with a reduced FEV1/FVC ratio that improves substantially after a bronchodilator, and blood eosinophils and total IgE are often raised. In rhinitis, histamine stimulates sensory nerves (itch, sneezing) and dilates leaky vessels (rhinorrhea, congestion), and the mucosa looks pale and swollen."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-12-01-C03",
+   "obj": "PU-12.3",
+   "title": "Granulomas in tuberculosis and sarcoidosis and the role of TNF-alpha",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "A granuloma is a type IV (delayed, cell-mediated) response that walls off an antigen macrophages cannot destroy. Mycobacterium tuberculosis is the classic example: inhaled bacilli are ingested by alveolar macrophages, but cell wall lipids such as sulfatides and lipoarabinomannan, together with bacterial proteins, block fusion of the phagosome with the lysosome, so the organism survives and multiplies inside the cell."
+    },
+    {
+     "type": "flow",
+     "title": "How a granuloma forms and is maintained",
+     "steps": [
+      "Macrophage ingests an organism it cannot kill",
+      "Macrophage presents antigen on MHC class II and secretes IL-12",
+      "IL-12 drives naive CD4 cells to become Th1 cells",
+      "Th1 cells secrete IFN-gamma",
+      "IFN-gamma activates macrophages: phagolysosome fusion, nitric oxide",
+      "Activated macrophages become epithelioid and giant cells",
+      "TNF-alpha recruits cells and holds the granuloma together"
+     ],
+     "caption": "The same Th1 pathway is used in tuberculosis and in sarcoidosis; only the antigen differs."
+    },
+    {
+     "type": "p",
+     "text": "IFN-gamma is the key activating signal. It enables phagolysosome fusion, induces inducible nitric oxide synthase, and increases antigen presentation, turning macrophages into epithelioid cells that may fuse into multinucleated giant cells (Langhans giant cells, not Langerhans cells, with nuclei in a horseshoe). A cuff of CD4 T cells surrounds them. TNF-alpha, made mainly by macrophages and T cells, induces chemokines and endothelial adhesion molecules that keep recruiting cells, and it acts with IFN-gamma to keep macrophages activated. In tuberculosis the intense response to mycobacterial lipids produces caseous necrosis, a cheesy center of dead cells, and the granuloma contains rather than eliminates the organism; this contained state is latent infection. The tuberculin skin test and interferon-gamma release assay detect this Th1 memory, not active disease. People with inherited defects in the IL-12 or IFN-gamma receptors develop disseminated mycobacterial infection, which confirms the pathway."
+    },
+    {
+     "type": "table",
+     "title": "Tuberculosis and sarcoidosis granulomas",
+     "cols": [
+      "Feature",
+      "Tuberculosis",
+      "Sarcoidosis"
+     ],
+     "rows": [
+      [
+       "Antigen",
+       "Mycobacterium tuberculosis",
+       "Unknown; exaggerated Th1 response to a persistent antigen"
+      ],
+      [
+       "Necrosis",
+       "Caseating",
+       "Noncaseating"
+      ],
+      [
+       "Typical lung picture",
+       "Ghon complex in primary; apical cavities in reactivation",
+       "Bilateral hilar lymphadenopathy, with or without interstitial disease"
+      ],
+      [
+       "Inclusions",
+       "Acid-fast bacilli in the granuloma",
+       "Asteroid bodies and Schaumann bodies (nonspecific)"
+      ],
+      [
+       "Laboratory clues",
+       "Positive culture or nucleic acid test",
+       "Raised serum ACE; hypercalcemia; high CD4 to CD8 ratio in lavage fluid"
+      ]
+     ],
+     "caption": "Neither inclusion nor ACE is diagnostic; sarcoidosis is a diagnosis of exclusion."
+    },
+    {
+     "type": "p",
+     "text": "Sarcoidosis granulomas are formed by the same Th1 mechanism, driven by CD4 T cells concentrated in the lung while peripheral skin test responses are often reduced (cutaneous anergy). Activated granuloma macrophages produce angiotensin converting enzyme and express 1-alpha-hydroxylase, converting 25-hydroxyvitamin D to calcitriol without normal feedback control, which explains hypercalciuria and hypercalcemia."
+    },
+    {
+     "type": "example",
+     "title": "Predicting tuberculosis reactivation under TNF-alpha blockade",
+     "text": "A patient with a positive interferon-gamma release assay and a normal chest radiograph has latent tuberculosis: live bacilli are contained inside granulomas. A monoclonal antibody that neutralizes TNF-alpha is started for an autoimmune disease. Without TNF-alpha, chemokine and adhesion molecule signals that recruit and retain cells fall, macrophage activation weakens, and the granuloma loses its organized structure. Bacilli are released and multiply, usually within the first months. Because containment fails everywhere at once, the resulting disease is often extrapulmonary or disseminated rather than typical apical cavitation. The same reasoning explains why granulomatous fungal infections such as histoplasmosis can also reactivate."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-12-01-C04",
+   "obj": "PU-12.4",
+   "title": "Hypersensitivity pneumonitis and how it differs from asthma",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Hypersensitivity pneumonitis (extrinsic allergic alveolitis) is an immune reaction in the alveolar walls and terminal bronchioles to an inhaled organic antigen. Farmer lung is the prototype: thermophilic actinomycetes, such as Saccharopolyspora rectivirgula, grow in warm, moldy hay and release spores small enough (under about 5 micrometers) to reach the alveoli. Bird fancier lung (avian proteins in droppings and feathers) and hot tub lung (nontuberculous mycobacteria in aerosols) work the same way. Asthma antigens, by contrast, act mainly in the conducting airways."
+    },
+    {
+     "type": "p",
+     "text": "Two hypersensitivity types combine. Repeated exposure induces precipitating IgG. When a large dose of antigen is inhaled again, antigen and IgG form immune complexes in the alveolar walls (type III), activate complement, and attract neutrophils. Complex formation and neutrophil recruitment take hours, which is why fever, chills, cough, and dyspnea begin about 4 to 8 hours after exposure and settle within a day or two once exposure stops. With continued exposure the response shifts to T cells (type IV): lymphocytes, many of them CD8 cells, infiltrate the interstitium around bronchioles, and macrophages form small, loose, poorly formed noncaseating granulomas. Over months to years this can progress to interstitial fibrosis."
+    },
+    {
+     "type": "p",
+     "text": "Because the inflammation thickens and later scars the alveolar walls, the lung becomes stiff and gas transfer falls. Pulmonary function tests show a restrictive pattern (reduced total lung capacity and FVC with a normal or high FEV1/FVC ratio) and a reduced DLCO, and lavage fluid shows a marked lymphocytosis. Serum precipitins prove exposure but not disease, because many exposed people who stay well also have them."
+    },
+    {
+     "type": "table",
+     "title": "Hypersensitivity pneumonitis versus allergic asthma",
+     "cols": [
+      "Feature",
+      "Hypersensitivity pneumonitis",
+      "Allergic asthma"
+     ],
+     "rows": [
+      [
+       "Hypersensitivity type",
+       "III (acute) and IV (subacute and chronic)",
+       "I"
+      ],
+      [
+       "Antibody",
+       "Precipitating IgG",
+       "IgE on mast cells"
+      ],
+      [
+       "Antigen",
+       "Organic dust: actinomycetes, avian proteins, fungi",
+       "Mite, pollen, dander, mold, cockroach"
+      ],
+      [
+       "Site",
+       "Alveolar walls and terminal bronchioles",
+       "Conducting airways (bronchi and bronchioles)"
+      ],
+      [
+       "Timing after exposure",
+       "About 4 to 8 hours",
+       "Minutes, with a late phase at 4 to 8 hours"
+      ],
+      [
+       "Systemic features",
+       "Fever, chills, malaise",
+       "Usually none"
+      ],
+      [
+       "Cells",
+       "Neutrophils early, then lymphocytes (often CD8)",
+       "Mast cells, eosinophils, Th2 cells"
+      ],
+      [
+       "Histology",
+       "Interstitial lymphocytes, poorly formed granulomas",
+       "Mucus plugs, eosinophils, thick basement membrane"
+      ],
+      [
+       "Pulmonary function",
+       "Restrictive with low DLCO",
+       "Obstructive, reversible, normal or high DLCO"
+      ]
+     ],
+     "caption": "The late phase of asthma also starts hours after exposure, so timing alone does not separate them; site, cell type, fever, and the PFT pattern do."
+    },
+    {
+     "type": "stop",
+     "predict": "A dairy farmer has fever, dyspnea, and crackles every evening after forking hay in winter. Would you expect wheeze, eosinophilia, and a low FEV1/FVC ratio?",
+     "explain": "No. This is hypersensitivity pneumonitis. The reaction is immune complex and T cell inflammation in the alveolar walls, not IgE in the bronchi, so it causes crackles, fever, neutrophils then lymphocytes, and a restrictive pattern with low DLCO.",
+     "check": "The comparison table and the paragraph on timing."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-12-01-C05",
+   "obj": "PU-12.5",
+   "title": "Goodpasture syndrome versus granulomatosis with polyangiitis",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Both diseases cause a pulmonary renal syndrome, bleeding into the alveoli together with rapidly progressive glomerulonephritis, but by different immune mechanisms. Recognizing the mechanism explains the immunofluorescence pattern, the upper airway findings, and the serology."
+    },
+    {
+     "type": "p",
+     "text": "Goodpasture syndrome (anti-glomerular basement membrane disease) is type II hypersensitivity: IgG binds a fixed tissue antigen, the noncollagenous (NC1) domain of the alpha-3 chain of type IV collagen. This chain is found in glomerular and alveolar basement membranes, which is why these two organs are hit. The antibody binds evenly along the basement membrane, giving smooth linear IgG and C3 staining on immunofluorescence. Complement activation and Fc receptor engagement recruit neutrophils and monocytes, which break the capillary walls, so blood enters the alveoli and Bowman space and crescents form. Glomerular endothelium is fenestrated, giving circulating antibody direct access to the basement membrane, whereas alveolar capillary endothelium is continuous, so lung hemorrhage is more likely when the alveolar membrane is already injured, especially by smoking or inhaled hydrocarbons. HLA-DR15 increases susceptibility. Patients present with hemoptysis, iron deficiency anemia, hematuria with red cell casts, and rising creatinine; lavage fluid shows hemosiderin-laden macrophages."
+    },
+    {
+     "type": "p",
+     "text": "Granulomatosis with polyangiitis (formerly Wegener granulomatosis) is a necrotizing vasculitis of small and medium vessels with necrotizing granulomatous inflammation of the upper and lower respiratory tract. Most patients have antibodies to proteinase 3 (PR3-ANCA), which give a cytoplasmic (c-ANCA) pattern. Cytokines such as TNF-alpha, released during infection, prime neutrophils so that PR3 moves to the cell surface. ANCA then bind it and engage Fc receptors, causing neutrophils to adhere to endothelium, degranulate, release reactive oxygen species, and form extracellular traps that destroy the vessel wall. Because injury is caused by activated neutrophils rather than deposited antibody, the kidney shows few or no immune deposits (pauci-immune crescentic glomerulonephritis)."
+    },
+    {
+     "type": "table",
+     "title": "Two pulmonary renal syndromes",
+     "cols": [
+      "Feature",
+      "Goodpasture syndrome",
+      "Granulomatosis with polyangiitis"
+     ],
+     "rows": [
+      [
+       "Mechanism",
+       "Type II: IgG to alpha-3 chain of type IV collagen",
+       "ANCA-activated neutrophils damage vessel walls"
+      ],
+      [
+       "Serology",
+       "Anti-GBM antibody",
+       "PR3-ANCA (c-ANCA) in most"
+      ],
+      [
+       "Kidney immunofluorescence",
+       "Linear IgG and C3",
+       "Pauci-immune (little or no deposit)"
+      ],
+      [
+       "Granulomas",
+       "None",
+       "Necrotizing granulomas"
+      ],
+      [
+       "Upper airway",
+       "Spared",
+       "Sinusitis, otitis, nasal ulcers, saddle nose"
+      ],
+      [
+       "Lung",
+       "Diffuse alveolar hemorrhage",
+       "Nodules that cavitate; may also bleed"
+      ],
+      [
+       "Other organs",
+       "Lung and kidney only",
+       "Eyes, skin, joints, nerves possible"
+      ]
+     ],
+     "caption": "Microscopic polyangiitis resembles granulomatosis with polyangiitis but has MPO-ANCA (p-ANCA) and no granulomas."
+    },
+    {
+     "type": "p",
+     "text": "The upper airway is the most useful distinction: chronic sinusitis, crusting nasal ulcers, and collapse of the nasal cartilage (saddle nose) point to granulomatosis with polyangiitis. About a third of patients with anti-GBM antibody also have ANCA (double positive)."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-12-01-C06",
+   "obj": "PU-12.6",
+   "title": "How toxoid, acellular pertussis, and conjugate vaccines protect",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "A vaccine protects only if it induces the effector that blocks the organism's main weapon. Diphtheria and tetanus cause disease mainly through exotoxins, Hib and pneumococcus through polysaccharide capsules that resist phagocytosis, and pertussis through adhesins plus toxins, so each needs a different antigen."
+    },
+    {
+     "type": "p",
+     "text": "A toxoid is a toxin inactivated chemically, usually with formaldehyde, so it loses toxicity but keeps its epitopes. Diphtheria toxin and tetanospasmin are A-B toxins: the B subunit binds a host receptor and the A subunit acts inside the cell (diphtheria toxin ADP-ribosylates elongation factor 2 and stops protein synthesis; tetanospasmin cleaves synaptobrevin in inhibitory interneurons). Because toxoids are proteins, they are T cell dependent antigens, and helper T cells drive class switching to high-affinity neutralizing IgG and memory. Antitoxin IgG blocks binding of the toxin to its receptor. The immunity is antitoxic, not antibacterial, so a vaccinated person can still carry Corynebacterium diphtheriae while being protected from toxin-mediated disease."
+    },
+    {
+     "type": "p",
+     "text": "Acellular pertussis vaccine contains purified Bordetella pertussis proteins instead of killed whole bacteria: pertussis toxoid with, depending on the product, filamentous hemagglutinin, pertactin, and fimbrial antigens. Antibody to the toxoid neutralizes pertussis toxin, while antibodies to the adhesins hinder attachment to ciliated respiratory epithelium. Antibody levels and protection after acellular vaccination wane over several years."
+    },
+    {
+     "type": "p",
+     "text": "Capsular polysaccharides behave differently. Their long chains of repeating sugar units cross-link many B cell receptors at once and activate B cells without T cell help (T cell independent antigens). Because carbohydrates cannot be processed into peptides for MHC class II, helper T cells are never engaged, so the response is mostly IgM with little class switching, affinity maturation, or memory, and a repeat dose gives no booster rise. Children under about 2 years respond poorly because their marginal zone B cells, which carry most of these responses, are immature. This is why infants are especially susceptible to encapsulated bacteria."
+    },
+    {
+     "type": "flow",
+     "title": "Linked recognition in a conjugate vaccine",
+     "steps": [
+      "Polysaccharide-specific B cell binds the conjugate by its receptor",
+      "B cell internalizes and processes the carrier protein",
+      "Carrier peptides are displayed on MHC class II",
+      "Carrier-specific helper T cell recognizes the peptide",
+      "CD40 ligand and cytokines drive germinal center reaction",
+      "IgG to the polysaccharide, affinity maturation, memory B cells"
+     ],
+     "caption": "The antibody is against the polysaccharide even though the T cell recognizes the protein."
+    },
+    {
+     "type": "table",
+     "title": "Plain polysaccharide versus conjugate vaccine",
+     "cols": [
+      "Feature",
+      "Plain polysaccharide",
+      "Polysaccharide-protein conjugate"
+     ],
+     "rows": [
+      [
+       "T cell help",
+       "No (T cell independent)",
+       "Yes (T cell dependent)"
+      ],
+      [
+       "Main antibody",
+       "IgM, some IgG2",
+       "High-affinity IgG"
+      ],
+      [
+       "Memory and booster response",
+       "Little or none",
+       "Yes"
+      ],
+      [
+       "Response under about 2 years",
+       "Poor",
+       "Good"
+      ],
+      [
+       "Effect on nasopharyngeal carriage",
+       "Little",
+       "Reduced, which also protects unvaccinated contacts"
+      ],
+      [
+       "Examples",
+       "23-valent pneumococcal polysaccharide vaccine",
+       "Hib (PRP capsule linked to tetanus toxoid or other carrier), pneumococcal conjugate"
+      ]
+     ],
+     "caption": "Conjugation converts a T cell independent antigen into a T cell dependent one."
+    },
+    {
+     "type": "example",
+     "title": "Why the conjugate antibody targets the sugar",
+     "text": "The Hib capsule is polyribosylribitol phosphate (PRP). In the conjugate vaccine PRP is linked to a carrier such as tetanus toxoid. A B cell whose receptor recognizes PRP binds the conjugate and swallows the whole molecule. It cannot present PRP to T cells, but it does present tetanus toxoid peptides on MHC class II. A helper T cell that recognizes those peptides delivers CD40 ligand and cytokines to that B cell, and the B cell, still specific for PRP, class switches and enters a germinal center. The resulting memory B cells and plasma cells make IgG against PRP, which opsonizes the bacterium and activates complement. Help from the carrier is the only change; the specificity comes from the B cell receptor."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-12-01-C07",
+   "obj": "PU-12.7",
+   "title": "Immune evasion by lung cancer and paraneoplastic neurologic syndromes",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Lung cancers, especially those caused by smoking, carry many mutations, so they make many abnormal proteins (neoantigens). Tumor cells process these into peptides presented on MHC class I, where CD8 cytotoxic T cells can recognize and kill them. A tumor that grows to clinical size has therefore usually acquired ways to avoid this response."
+    },
+    {
+     "type": "table",
+     "title": "How lung cancers escape T cells",
+     "cols": [
+      "Mechanism",
+      "How it works",
+      "Result"
+     ],
+     "rows": [
+      [
+       "Reduced MHC class I",
+       "Loss or mutation of HLA genes or beta-2 microglobulin, or reduced antigen processing (for example TAP)",
+       "CD8 T cells cannot see tumor peptides"
+      ],
+      [
+       "PD-L1 expression",
+       "PD-L1 on tumor cells binds PD-1 on activated T cells; PD-1 recruits a phosphatase that dampens T cell receptor and CD28 signaling",
+       "T cells in the tumor are present but exhausted"
+      ],
+      [
+       "Suppressive environment",
+       "Regulatory T cells, TGF-beta, IL-10, myeloid suppressor cells",
+       "Local T cell activation is blunted"
+      ]
+     ],
+     "caption": "Tumors often use several mechanisms at once."
+    },
+    {
+     "type": "p",
+     "text": "Loss of MHC class I should make tumor cells targets for natural killer cells, whose inhibitory receptors recognize class I (missing self), so tumors that escape this way must also evade NK cells, for example by shedding activating NK ligands. PD-L1 expression is often induced by IFN-gamma released from the T cells attacking the tumor, a self-protective response called adaptive resistance. Antibodies that block PD-1 or PD-L1 remove this brake, which is the mechanistic proof that the pathway restrains antitumor T cells; the same release explains why such antibodies can cause autoimmune inflammation."
+    },
+    {
+     "type": "h",
+     "text": "Paraneoplastic neurologic syndromes"
+    },
+    {
+     "type": "p",
+     "text": "Small cell lung carcinoma is a neuroendocrine tumor that expresses proteins normally restricted to neurons. An immune response against the tumor therefore also attacks the nervous system, and the neurologic syndrome often appears before the cancer is found. Anti-Hu antibodies target HuD, an RNA-binding protein inside neuronal nuclei; because the antigen is intracellular, the antibody is mainly a marker, and cytotoxic T cells cause the neuronal loss. The results are paraneoplastic encephalomyelitis, limbic encephalitis, and sensory neuronopathy from destruction of dorsal root ganglion cells. Antibodies to P/Q-type voltage-gated calcium channels are directly pathogenic: they reduce the number of presynaptic channels, so less Ca2+ enters the nerve terminal and fewer acetylcholine quanta are released, producing Lambert-Eaton myasthenic syndrome."
+    },
+    {
+     "type": "example",
+     "title": "Why Lambert-Eaton weakness improves with effort",
+     "text": "In Lambert-Eaton syndrome each action potential lets too little Ca2+ into the nerve terminal, so acetylcholine release, and the end plate potential, falls below threshold at many fibers. Reflexes are reduced and proximal limbs are weak. If the patient contracts a muscle hard for about 10 seconds, impulses arrive faster than Ca2+ can be cleared, so residual Ca2+ accumulates and each later impulse releases more transmitter. Strength and reflexes briefly improve, and high-frequency repetitive nerve stimulation shows an increment in the muscle action potential. Myasthenia gravis is the opposite: postsynaptic acetylcholine receptors are lost, release is normal, and weakness worsens with repeated use. Reduced acetylcholine release at autonomic synapses also explains the dry mouth and orthostatic symptoms of Lambert-Eaton."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "The lung shows every hypersensitivity type because it is constantly exposed to foreign material and has a thin, richly vascular basement membrane. Antigen size and site decide the disease: proteins deposited in conducting airways of atopic people give IgE responses (type I), organic dusts reaching alveoli give immune complex and T cell injury (types III and IV), persistent intracellular organisms give Th1 granulomas (type IV), and an autoantigen shared by alveolar and glomerular basement membranes gives antibody-mediated injury (type II). Histology confirms the mechanism: eosinophils and mucus plugs, loose interstitial granulomas, organized caseating or noncaseating granulomas, linear IgG, or pauci-immune necrosis."
+  },
+  {
+   "type": "p",
+   "text": "The same immunology explains protection and its limits. Innate barriers fail mechanically (cilia, cough, mucus) before adaptive immunity is needed; vaccines work only if they engage T cell help when lasting IgG is required; and cancer exploits the checkpoints that normally prevent autoimmunity, while cross-reaction between tumor and neuron shows how an antitumor response can itself cause disease. Hypersensitivity labels are simplifications: most real diseases, including asthma and hypersensitivity pneumonitis, involve more than one mechanism."
+  }
+ ],
+ "summary": [
+  "Particle size sets where defenses act: the nose traps large particles, the mucociliary escalator clears mid-sized ones, and alveolar macrophages aided by SP-A and SP-D opsonins clear the smallest.",
+  "Smoking (ciliary and macrophage damage), alcohol (aspiration, weak cough and phagocytes), and dynein arm defects (primary ciliary dyskinesia) each remove a defense layer and raise pneumonia risk.",
+  "Allergic asthma is type I: IL-4 switches B cells to IgE, IL-5 drives eosinophils, IL-13 drives mucus and hyperresponsiveness; mast cell mediators cause the early phase and eosinophils the late phase.",
+  "Granulomas form when macrophage IL-12 drives Th1 cells whose IFN-gamma activates macrophages; TNF-alpha maintains the granuloma, so blocking it can reactivate latent tuberculosis.",
+  "Tuberculosis granulomas caseate; sarcoidosis granulomas do not and are linked to hilar adenopathy, raised ACE, and calcitriol-driven hypercalcemia.",
+  "Hypersensitivity pneumonitis is a type III and IV reaction to organic dust in the alveolar walls, with fever hours after exposure, lymphocytes, poorly formed granulomas, and a restrictive pattern with low DLCO.",
+  "Goodpasture syndrome is type II anti-alpha-3 type IV collagen IgG with linear staining, alveolar hemorrhage, and crescentic glomerulonephritis; granulomatosis with polyangiitis is PR3-ANCA vasculitis with upper airway disease and pauci-immune glomerulonephritis.",
+  "Toxoids induce neutralizing antitoxin IgG; plain polysaccharides give T cell independent IgM without memory; conjugates add carrier-driven T cell help, giving IgG and memory even in infants.",
+  "Lung cancers evade CD8 T cells by lowering MHC class I and expressing PD-L1; small cell carcinoma shares neuronal antigens, causing anti-Hu syndromes and anti-calcium channel Lambert-Eaton syndrome."
+ ],
+ "sources": [
+  {
+   "book": "Abbas, Cellular and Molecular Immunology",
+   "where": "Hypersensitivity disorders; Immunity to tumors; Immunity to microbes"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "The Lung, sections on asthma, granulomatous diseases, hypersensitivity pneumonitis, and diffuse alveolar hemorrhage syndromes"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Diseases of the Immune System; Blood Vessels, section on vasculitis"
+  },
+  {
+   "book": "Jawetz, Melnick and Adelberg Medical Microbiology",
+   "where": "Sections on Corynebacterium diphtheriae, Bordetella, Haemophilus, pneumococcus, and mycobacteria"
+  },
+  {
+   "book": "Junqueira Basic Histology",
+   "where": "Respiratory System, respiratory epithelium and alveoli"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Pulmonary Disease"
+  }
+ ],
+ "verify": [
+  "Particle size cutoffs for deposition (nose above about 10 micrometers, airways about 2 to 10, alveoli about 0.5 to 5) vary between sources; confirm the ranges NABNE uses.",
+  "Timing of the late phase reaction (about 4 to 8 hours here) and of acute hypersensitivity pneumonitis symptoms (about 4 to 8 hours here; some sources give 4 to 6) varies between references.",
+  "The proportion of primary ciliary dyskinesia patients with situs inversus is given as about half; confirm the figure expected.",
+  "The causative actinomycete of farmer lung has been renamed (Micropolyspora faeni, Faenia rectivirgula, now Saccharopolyspora rectivirgula); confirm which name NABNE materials use.",
+  "Confirm whether NABNE expects the eponym Wegener granulomatosis or only granulomatosis with polyangiitis, and whether HLA-DR15 association in anti-GBM disease is tested.",
+  "Acellular pertussis vaccine composition differs by product (two to five antigens), and the rate of waning protection is still being studied; confirm the level of detail NABNE expects.",
+  "The CD8 predominance of lavage lymphocytes in hypersensitivity pneumonitis is classic but not universal, especially in chronic disease; confirm whether it is tested as a distinguishing feature from sarcoidosis.",
+  "Requested new diagram names for a future revision: hypersensitivity-types (types I to IV side by side) and granuloma-structure (epithelioid cells, giant cell, lymphocyte cuff, caseous center).",
+  "The proportion of anti-GBM patients also ANCA positive (about a third here) varies between reports."
+ ]
+}

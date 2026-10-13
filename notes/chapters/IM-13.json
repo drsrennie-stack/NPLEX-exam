@@ -1,0 +1,674 @@
+{
+ "unit": "IM-13",
+ "chapter_id": "NPLEX-P1-IMMU-13",
+ "topic_id": "NPLEX-P1-IMMU-13-01",
+ "title": "Innate and Adaptive Immune Activation",
+ "subject": "Immune System (IMMU)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter explains how the immune system decides to respond, how a response is started and stopped, and what happens when that control fails. It moves from innate recognition and two-signal T cell activation to tumor immunity and tumor escape, then to vaccines, autoimmunity, and the four hypersensitivity types. Board questions in this area usually describe a patient, a lab finding, or a blocked molecule and ask you to name the effector or predict the result. If you can say which signal is present, which cell sees which MHC class, and whether antibody or T cells cause the injury, most of these questions become straightforward.",
+  "prerequisites": [
+   "Cells of the immune system and primary and secondary lymphoid organs",
+   "MHC class I and class II structure and antigen processing pathways",
+   "Antibody isotypes and their functions, including complement activation",
+   "T and B cell development, V(D)J recombination, and thymic selection",
+   "Cytokine families and helper T cell subsets (Th1, Th2, Th17, Treg)"
+  ],
+  "connections": [
+   {
+    "to": "Microbiology",
+    "how": "Microbial molecules such as LPS, flagellin, and viral nucleic acids are the patterns innate receptors detect, and some microbes trigger autoimmunity by mimicry."
+   },
+   {
+    "to": "Oncology and pathology",
+    "how": "Tumor growth reflects selection of cells that escape CD8 T cell and NK cell killing, the basis of checkpoint biology."
+   },
+   {
+    "to": "Renal pathology",
+    "how": "Glomerulonephritis is classified by whether antibody binds the basement membrane (type II) or immune complexes deposit (type III)."
+   },
+   {
+    "to": "Neurology and cardiology",
+    "how": "Guillain-Barre syndrome and rheumatic heart disease are the classic examples of molecular mimicry after infection."
+   },
+   {
+    "to": "Hematology",
+    "how": "Autoimmune hemolytic anemia, immune thrombocytopenia, and transfusion reactions are type II reactions against blood cells."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Pattern recognition receptor (PRR)",
+    "def": "A germline-encoded receptor that detects conserved microbial structures or molecules released by damaged cells."
+   },
+   {
+    "term": "PAMP and DAMP",
+    "def": "Pathogen-associated and damage-associated molecular patterns, the microbial and host danger molecules that PRRs detect."
+   },
+   {
+    "term": "Clonal expansion",
+    "def": "Proliferation of the few lymphocytes whose receptors bind an antigen, producing many effector cells with the same specificity."
+   },
+   {
+    "term": "Costimulation",
+    "def": "A second activating signal, mainly CD28 binding B7 (CD80 or CD86), required with antigen recognition to activate a naive T cell."
+   },
+   {
+    "term": "Anergy",
+    "def": "A state of functional unresponsiveness in a lymphocyte that has recognized antigen without adequate costimulation."
+   },
+   {
+    "term": "Immune checkpoint",
+    "def": "An inhibitory receptor pathway, such as CTLA-4 or PD-1, that limits T cell activation and protects tissues from immune damage."
+   },
+   {
+    "term": "Cross-presentation",
+    "def": "Presentation of peptides from ingested exogenous antigen on MHC class I by dendritic cells, allowing priming of CD8 T cells."
+   },
+   {
+    "term": "Missing self",
+    "def": "NK cell recognition of a cell that has lost MHC class I, which removes the inhibitory signal that normally prevents killing."
+   },
+   {
+    "term": "Toxoid",
+    "def": "A bacterial exotoxin chemically inactivated so it is no longer toxic but still induces neutralizing antibody."
+   },
+   {
+    "term": "Molecular mimicry",
+    "def": "Cross-reaction of an immune response raised against a microbial epitope with a structurally similar self antigen."
+   },
+   {
+    "term": "Immune complex",
+    "def": "Antigen bound to antibody, which can activate complement and deposit in vessel walls, glomeruli, and joints."
+   },
+   {
+    "term": "Hypersensitivity",
+    "def": "An immune response, against foreign or self antigen, that is excessive or misdirected and injures the host."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-IMMU-13-01-C01",
+   "obj": "IM-13.1",
+   "title": "Innate and adaptive immunity compared",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Innate immunity is the defense present before any infection. Its receptors are encoded in the germline, so every macrophage or neutrophil carries the same set, aimed at structures microbes need and cannot easily change, such as lipopolysaccharide (LPS) of gram-negative walls, flagellin, and viral double-stranded RNA. Because no selection or expansion is needed, innate cells respond within minutes to hours. The same receptors also detect damage-associated molecules from dead host cells, which is why sterile injury causes inflammation."
+    },
+    {
+     "type": "table",
+     "title": "Major pattern recognition receptors",
+     "cols": [
+      "Receptor",
+      "Location",
+      "Ligand",
+      "Main output"
+     ],
+     "rows": [
+      [
+       "TLR4 (with MD-2 and CD14)",
+       "Cell surface",
+       "LPS (lipid A)",
+       "NF-kB: TNF, IL-1, IL-6"
+      ],
+      [
+       "TLR2 (with TLR1 or TLR6)",
+       "Cell surface",
+       "Lipoteichoic acid, lipoproteins",
+       "NF-kB cytokines"
+      ],
+      [
+       "TLR5",
+       "Cell surface",
+       "Flagellin",
+       "NF-kB cytokines"
+      ],
+      [
+       "TLR3, TLR7, TLR8, TLR9",
+       "Endosome",
+       "dsRNA, ssRNA, unmethylated CpG DNA",
+       "Type I interferon and cytokines"
+      ],
+      [
+       "NOD1, NOD2",
+       "Cytosol",
+       "Peptidoglycan fragments",
+       "NF-kB cytokines"
+      ],
+      [
+       "NLRP3 inflammasome",
+       "Cytosol",
+       "Crystals, ATP, K+ efflux",
+       "Caspase-1 cleaves pro-IL-1 beta and pro-IL-18"
+      ]
+     ],
+     "caption": "Germline receptors grouped by location; nucleic acid sensors sit in endosomes, where ingested microbes are degraded."
+    },
+    {
+     "type": "p",
+     "text": "The innate effectors are neutrophils, which arrive first and phagocytose; macrophages, which phagocytose, kill, and release TNF, IL-1, and IL-12; natural killer (NK) cells, which kill infected or stressed cells without prior sensitization; dendritic cells; and complement. Complement can be activated by antibody (classical pathway), by mannose-binding lectin on microbial sugars (lectin pathway), or spontaneously on surfaces that lack host regulatory proteins (alternative pathway). All three converge on C3: C3b opsonizes, C5a recruits neutrophils, and C5b to C9 form the membrane attack complex."
+    },
+    {
+     "type": "p",
+     "text": "Adaptive immunity uses T and B cells whose receptors are assembled by V(D)J recombination (RAG1 and RAG2) with random nucleotide addition (TdT). This creates an enormous repertoire, but each specificity is rare, about 1 naive T cell in 10^5 to 10^6 for a given antigen. A first response therefore needs days of clonal expansion. Some expanded cells persist as memory cells, so a second exposure produces a faster, larger response, with antibody that has class switched and undergone affinity maturation."
+    },
+    {
+     "type": "table",
+     "title": "Innate versus adaptive immunity",
+     "cols": [
+      "Feature",
+      "Innate",
+      "Adaptive"
+     ],
+     "rows": [
+      [
+       "Receptors",
+       "Germline PRRs, identical within a cell type",
+       "Rearranged TCR and BCR, unique to each clone"
+      ],
+      [
+       "Target",
+       "Shared microbial and danger patterns",
+       "A single epitope"
+      ],
+      [
+       "Speed",
+       "Minutes to hours",
+       "Days on first exposure"
+      ],
+      [
+       "Memory",
+       "None in the classic sense",
+       "Yes; faster, stronger secondary response"
+      ],
+      [
+       "Self discrimination",
+       "Built in by receptor choice",
+       "Learned by selection and tolerance"
+      ],
+      [
+       "Main components",
+       "Neutrophils, macrophages, NK cells, dendritic cells, complement",
+       "T cells, B cells, antibody"
+      ]
+     ],
+     "caption": "The two systems differ in how receptors are generated, which sets their speed, breadth, and memory."
+    },
+    {
+     "type": "p",
+     "text": "The two systems are linked rather than separate. When a dendritic cell's TLRs are engaged, it raises B7 and secretes cytokines, supplying the costimulatory and polarizing signals naive T cells need (next section); IL-12, for example, favors Th1. In the other direction, antibodies activate complement and coat microbes for phagocytes, and Th1 cytokines such as IFN-gamma activate macrophages. Innate-like lymphocytes (gamma-delta T cells, NKT cells, and B-1 cells) have limited receptor diversity and sit between the two arms."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-13-01-C02",
+   "obj": "IM-13.2",
+   "title": "Two-signal T cell activation, anergy, and inhibitory checkpoints",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "A naive T cell needs two signals from an antigen-presenting cell (APC) to become activated. Signal 1 is the T cell receptor (TCR) binding its peptide on MHC, with CD4 binding MHC class II or CD8 binding MHC class I; it supplies specificity. Signal 2 is CD28 on the T cell binding B7-1 (CD80) or B7-2 (CD86) on the APC; it confirms danger, because APCs express high B7 mainly after microbial products or cytokines have stimulated them. Cytokines from the APC, sometimes called signal 3, then steer the cell toward a Th1, Th2, Th17, or other fate."
+    },
+    {
+     "type": "flow",
+     "title": "Activation of a naive T cell",
+     "steps": [
+      "Dendritic cell senses microbe through TLRs",
+      "Dendritic cell raises B7 and migrates to lymph node",
+      "TCR binds peptide on MHC (signal 1)",
+      "CD28 binds B7 (signal 2)",
+      "IL-2 and IL-2 receptor alpha (CD25) induced",
+      "Survival proteins rise; clonal expansion",
+      "Effector and memory cells form"
+     ],
+     "caption": "Both signals together drive IL-2 production, survival, and proliferation."
+    },
+    {
+     "type": "p",
+     "text": "CD28 signaling amplifies TCR signals, raises IL-2 synthesis, induces anti-apoptotic proteins such as Bcl-xL, and increases glucose uptake to fuel division. When a T cell receives signal 1 without signal 2, as when it meets a self peptide on a resting APC or a tissue cell that lacks B7, it makes little IL-2 and enters anergy, a lasting unresponsive state. Anergy is a major mechanism of peripheral tolerance and explains why most self-reactive T cells that escape the thymus cause no disease."
+    },
+    {
+     "type": "p",
+     "text": "Activation also switches on brakes. CTLA-4 is induced on activated T cells and expressed constitutively on regulatory T cells (Tregs). It binds B7 with much higher affinity than CD28 does, so it outcompetes CD28 and can strip B7 from APCs, limiting priming mainly in lymphoid organs. PD-1 is expressed on activated and chronically stimulated T cells; when it binds PD-L1 (inducible on many tissue and tumor cells, often by IFN-gamma) or PD-L2, it recruits the phosphatase SHP-2, which dephosphorylates TCR and CD28 signaling molecules. PD-1 therefore acts mainly in peripheral tissues, damping effector cells already at work."
+    },
+    {
+     "type": "table",
+     "title": "Costimulatory and inhibitory receptors on T cells",
+     "cols": [
+      "Receptor",
+      "Ligand",
+      "Effect",
+      "Result of loss or blockade"
+     ],
+     "rows": [
+      [
+       "CD28",
+       "B7-1, B7-2 on APC",
+       "Activates; IL-2 and survival",
+       "No signal 2: anergy, weak responses"
+      ],
+      [
+       "CTLA-4",
+       "B7-1, B7-2 (higher affinity)",
+       "Inhibits priming; Treg function",
+       "Early, severe multiorgan autoimmunity"
+      ],
+      [
+       "PD-1",
+       "PD-L1, PD-L2 on tissue and tumor cells",
+       "Inhibits effector T cells in tissues",
+       "Organ-specific autoimmunity; restored antitumor killing"
+      ]
+     ],
+     "caption": "CD28 and CTLA-4 share B7; PD-1 uses a separate ligand pair."
+    },
+    {
+     "type": "p",
+     "text": "Antibodies that block CTLA-4 or PD-1 are used against cancer, and their effects confirm the physiology: tumor-specific T cells regain function, while self-reactive T cells also escape control, producing immune-related colitis, hepatitis, pneumonitis, thyroiditis, and hypophysitis. Conversely, a soluble CTLA-4 fusion protein binds B7 and denies CD28 its ligand, which suppresses T cell activation."
+    },
+    {
+     "type": "stop",
+     "predict": "A CD8 T cell recognizes a self peptide on MHC class I of a thyroid follicular cell, which has no B7. What happens to that T cell, and what would change if the gland were inflamed by a viral infection?",
+     "explain": "Signal 1 without signal 2 produces anergy. Infection activates dendritic cells that carry thyroid antigen, so they raise B7 and present the same self peptide with both signals, activating cells that would otherwise become anergic.",
+     "check": "Compare with the paragraph on anergy and the activation flow."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-13-01-C03",
+   "obj": "IM-13.3",
+   "title": "Antitumor immunity and tumor escape",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Tumors are recognized because they display antigens normal cells do not. These include neoantigens from mutated proteins, viral oncoproteins such as HPV E6 and E7 or EBV proteins, and normal proteins that are overexpressed or reexpressed, such as cancer-testis antigens. Tumor cells present their own cytosolic proteins on MHC class I, which is what CD8 cytotoxic T cells read."
+    },
+    {
+     "type": "p",
+     "text": "Most tumor cells lack B7 and do not travel to lymph nodes, so they cannot prime naive CD8 T cells themselves. Dendritic cells ingest dying tumor cells and cross-present tumor peptides on MHC class I, while presenting others on MHC class II to CD4 T cells that provide help. Primed CD8 T cells enter the tumor, recognize the same peptide on MHC class I, and kill by releasing perforin and granzymes or by Fas ligand binding Fas, both of which trigger apoptosis. IFN-gamma from T cells raises MHC expression on the tumor and activates macrophages."
+    },
+    {
+     "type": "cycle",
+     "title": "Antitumor immune cycle",
+     "steps": [
+      "Tumor cells die and release antigen",
+      "Dendritic cells cross-present antigen in lymph node",
+      "Naive CD8 T cells primed with CD4 help",
+      "Effector CD8 T cells traffic into tumor",
+      "T cells recognize peptide on MHC class I",
+      "Perforin, granzymes, and Fas ligand kill tumor cells",
+      "More tumor antigen released"
+     ],
+     "caption": "Each round of killing releases more antigen and can broaden the response."
+    },
+    {
+     "type": "p",
+     "text": "NK cells provide a second, independent check. Their inhibitory receptors (killer cell immunoglobulin-like receptors in humans) bind self MHC class I and block killing. Activating receptors such as NKG2D bind stress ligands that transformed or infected cells display. A cell that loses MHC class I or gains stress ligands tips the balance toward killing, the missing-self principle. NK cells also kill antibody-coated cells through the Fc receptor CD16 (antibody-dependent cellular cytotoxicity) and are activated by IL-12, IL-15, and type I interferon."
+    },
+    {
+     "type": "table",
+     "title": "CD8 T cells and NK cells in tumor killing",
+     "cols": [
+      "Feature",
+      "CD8 T cell",
+      "NK cell"
+     ],
+     "rows": [
+      [
+       "Recognition",
+       "Specific peptide on MHC class I",
+       "Loss of MHC class I, stress ligands, IgG via CD16"
+      ],
+      [
+       "Prior priming",
+       "Required (dendritic cell cross-presentation)",
+       "Not required"
+      ],
+      [
+       "Effect of MHC class I loss",
+       "Tumor becomes invisible",
+       "Inhibition removed; killing increases"
+      ],
+      [
+       "Killing mechanism",
+       "Perforin, granzymes, Fas ligand",
+       "Perforin, granzymes, Fas ligand"
+      ]
+     ],
+     "caption": "The two killers are complementary: losing MHC class I escapes one and exposes the tumor to the other."
+    },
+    {
+     "type": "p",
+     "text": "Tumors that grow to clinical size have been selected for escape. One route is loss of antigen presentation: downregulation of MHC class I, mutation of beta-2 microglobulin, or loss of the peptide transporter TAP. Complete loss should invite NK attack, so successful tumors often also shed NKG2D ligands or keep partial class I. A second route is active suppression: PD-L1 expression, often induced by IFN-gamma from the very T cells attacking the tumor, recruitment of Tregs and myeloid suppressor cells, and secretion of TGF-beta and IL-10."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: why PD-1 blockade can fail",
+     "text": "A melanoma responds to PD-1 blockade, then regrows. The regrowing cells carry an inactivating beta-2 microglobulin mutation. Step 1: PD-1 blockade works only if CD8 T cells can see tumor peptide on MHC class I. Step 2: MHC class I heavy chains need beta-2 microglobulin to fold and reach the surface, so these cells display no class I. Step 3: CD8 T cells, even with the PD-1 brake removed, now have no signal 1 on the tumor, so blockade loses its effect. Step 4: NK cells are no longer inhibited by class I, so NK killing becomes the remaining cytotoxic route, unless the tumor has also suppressed NK activating signals."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-13-01-C04",
+   "obj": "IM-13.4",
+   "title": "Vaccine types and the immunity each induces",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "A vaccine works by producing memory cells and, for many pathogens, long-lived plasma cells that keep protective antibody in the blood. Which arm of adaptive immunity it engages depends on where the antigen ends up inside the host. Antigen made inside a host cell enters the cytosolic pathway and is shown on MHC class I to CD8 T cells; antigen taken up from outside is shown mainly on MHC class II to CD4 T cells, which help B cells make antibody."
+    },
+    {
+     "type": "p",
+     "text": "Live attenuated vaccines (measles, mumps, rubella, varicella, yellow fever; also intranasal influenza, rotavirus, oral polio, and BCG) contain organisms weakened so they replicate briefly without causing disease. Because they infect host cells, their proteins reach MHC class I, so these vaccines induce CD8 T cells as well as antibody, with long-lasting protection. The same replication is the hazard: in a person with severe T cell deficiency, the organism is not contained and can cause disseminated infection, which is why live vaccines are avoided in severe immunodeficiency and, because of theoretical fetal risk, in pregnancy."
+    },
+    {
+     "type": "table",
+     "title": "Vaccine types",
+     "cols": [
+      "Type",
+      "Examples",
+      "Main response",
+      "Key point"
+     ],
+     "rows": [
+      [
+       "Live attenuated",
+       "MMR, varicella, yellow fever",
+       "CD8 and CD4 T cells plus antibody",
+       "Strongest, durable; avoided in severe immunodeficiency and pregnancy"
+      ],
+      [
+       "Inactivated (killed)",
+       "Rabies, hepatitis A, injected polio, injected influenza",
+       "Mainly antibody",
+       "Cannot replicate; boosters needed"
+      ],
+      [
+       "Subunit or recombinant",
+       "Hepatitis B surface antigen, HPV, acellular pertussis",
+       "Antibody",
+       "Selected proteins; safe in immunodeficiency, though responses may be weaker"
+      ],
+      [
+       "Toxoid",
+       "Tetanus, diphtheria",
+       "Neutralizing antitoxin IgG",
+       "Blocks toxin, not colonization"
+      ],
+      [
+       "Polysaccharide-protein conjugate",
+       "Hib, pneumococcal, meningococcal",
+       "T-dependent antibody with memory",
+       "Effective in infants under 2 years"
+      ]
+     ],
+     "caption": "Nonliving vaccines are presented as exogenous antigen on MHC class II and rely on antibody and boosters; adjuvants are added to supply innate signals."
+    },
+    {
+     "type": "p",
+     "text": "Inactivated, subunit, and toxoid vaccines cannot replicate, so they are safe when T cell function is poor, but they deliver a fixed dose of exogenous antigen. Responses are mostly antibody, need adjuvants such as aluminum salts to provide innate signals, and need boosters. A toxoid raises IgG that neutralizes the exotoxin, so it prevents disease without necessarily preventing carriage of the organism."
+    },
+    {
+     "type": "p",
+     "text": "Encapsulated bacteria pose a special problem. Pure polysaccharide cannot be loaded onto MHC, so it activates B cells only by cross-linking their receptors, a T-independent response that yields mostly IgM, little class switching, and weak memory. Infants under about 2 years respond poorly to such antigens because their marginal zone B cells are immature. Linking the polysaccharide to a carrier protein solves this."
+    },
+    {
+     "type": "flow",
+     "title": "How a conjugate vaccine creates T cell help",
+     "steps": [
+      "B cell receptor binds the capsular polysaccharide",
+      "B cell internalizes the whole polysaccharide-protein conjugate",
+      "Carrier peptides loaded on MHC class II",
+      "Carrier-specific helper T cell binds and gives CD40L and cytokines",
+      "Class switching to IgG and affinity maturation",
+      "Memory B cells and plasma cells against the polysaccharide"
+     ],
+     "caption": "The antibody is against the sugar, but the help comes from T cells that recognize the protein."
+    },
+    {
+     "type": "stop",
+     "predict": "An 8-month-old receives a plain pneumococcal polysaccharide vaccine and, separately, a conjugate pneumococcal vaccine. Which produces protective IgG and memory, and why?",
+     "explain": "Only the conjugate. Plain polysaccharide gives a T-independent response that infants handle poorly, while the conjugate lets polysaccharide-specific B cells present carrier peptides to helper T cells and receive help for class switching and memory.",
+     "check": "Compare with the conjugate flow and the paragraph before it."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-13-01-C05",
+   "obj": "IM-13.5",
+   "title": "Mechanisms of autoimmunity",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Self-tolerance is built in layers. Central tolerance occurs in the thymus and bone marrow: developing T cells that bind self peptide on MHC strongly are deleted (negative selection) or become Tregs, and self-reactive B cells edit their receptors or die. The transcription factor AIRE lets thymic epithelial cells express tissue-restricted proteins such as insulin, so T cells against them can be removed. Peripheral tolerance controls the cells that escape: anergy from signal 1 without costimulation, suppression by FOXP3-positive Tregs through CTLA-4, IL-10, and TGF-beta, and deletion by Fas-Fas ligand apoptosis after repeated stimulation."
+    },
+    {
+     "type": "table",
+     "title": "Single-gene failures of tolerance",
+     "cols": [
+      "Defect",
+      "Tolerance step lost",
+      "Result"
+     ],
+     "rows": [
+      [
+       "AIRE",
+       "Central deletion of tissue-specific T cells",
+       "APS-1: chronic mucocutaneous candidiasis, hypoparathyroidism, adrenal insufficiency"
+      ],
+      [
+       "FOXP3",
+       "Treg development",
+       "IPEX: enteropathy, early type 1 diabetes, eczema"
+      ],
+      [
+       "Fas or Fas ligand",
+       "Deletion of activated lymphocytes",
+       "ALPS: lymphadenopathy, splenomegaly, autoimmune cytopenias"
+      ]
+     ],
+     "caption": "Rare monogenic diseases show what each tolerance mechanism normally prevents."
+    },
+    {
+     "type": "p",
+     "text": "Common autoimmune diseases are not single-gene disorders. They usually require inherited susceptibility plus an environmental trigger such as infection or tissue injury. The strongest genetic links are to HLA (human MHC) alleles, because the shape of the peptide-binding groove decides which self peptides are presented and how well. HLA-DQ2 and DQ8, for example, bind gliadin peptides that tissue transglutaminase has deamidated, presenting them strongly to CD4 T cells in celiac disease. An HLA allele raises risk but rarely causes disease alone; most carriers stay healthy."
+    },
+    {
+     "type": "table",
+     "title": "Classic HLA associations",
+     "cols": [
+      "HLA allele",
+      "Disease"
+     ],
+     "rows": [
+      [
+       "B27",
+       "Ankylosing spondylitis, reactive arthritis, psoriatic arthritis"
+      ],
+      [
+       "DQ2, DQ8",
+       "Celiac disease"
+      ],
+      [
+       "DR3, DR4",
+       "Type 1 diabetes"
+      ],
+      [
+       "DR4",
+       "Rheumatoid arthritis"
+      ],
+      [
+       "DR2 (DR15)",
+       "Multiple sclerosis, Goodpasture syndrome"
+      ]
+     ],
+     "caption": "Association raises relative risk; it is neither necessary nor sufficient for disease."
+    },
+    {
+     "type": "p",
+     "text": "Infection can break tolerance in two ways. Its inflammation activates APCs and raises B7, so self-reactive cells that were ignored now receive costimulation (bystander activation). In molecular mimicry, lymphocytes made against a microbial epitope cross-react with a similar self structure. After group A streptococcal pharyngitis, antibodies and T cells against the M protein cross-react with cardiac myosin and valve tissue, producing acute rheumatic fever about 2 to 4 weeks later, with carditis that most often scars the mitral valve. After Campylobacter jejuni enteritis, antibodies against its lipooligosaccharide bind gangliosides such as GM1 on peripheral nerve, fix complement, injure the nerve, and produce Guillain-Barre syndrome: ascending symmetric weakness with lost reflexes and high CSF protein with a normal cell count. Other mechanisms include release of antigens normally hidden from the immune system, as in sympathetic ophthalmia after eye injury, and epitope spreading, in which tissue damage exposes new self antigens."
+    },
+    {
+     "type": "flow",
+     "title": "Molecular mimicry after infection",
+     "steps": [
+      "Infection supplies microbial antigen and inflammation",
+      "B and T cells respond to a microbial epitope",
+      "Epitope resembles a self structure",
+      "Antibody or T cells bind the self tissue",
+      "Complement and inflammation injure the tissue"
+     ],
+     "caption": "The delay of 1 to several weeks after infection reflects the time to build the adaptive response."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-13-01-C06",
+   "obj": "IM-13.6",
+   "title": "The four types of hypersensitivity",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Hypersensitivity reactions are classified by the effector that causes injury, not by the antigen or organ. The same organism, group A streptococcus, can cause type II disease (rheumatic fever) or type III disease (poststreptococcal glomerulonephritis)."
+    },
+    {
+     "type": "p",
+     "text": "Type I (immediate) hypersensitivity needs prior sensitization. Th2 cells release IL-4 and IL-13, which switch B cells to IgE, and IgE binds the high-affinity receptor FcepsilonRI on mast cells and basophils. On re-exposure, antigen cross-links bound IgE and the cells degranulate within minutes, releasing preformed histamine and tryptase, then newly made leukotrienes and prostaglandin D2. These cause vasodilation, leaky vessels, bronchoconstriction, and mucus. A late phase about 2 to 24 hours later brings eosinophils and further inflammation. Anaphylaxis, allergic asthma, urticaria, and allergic rhinitis are examples, and a raised serum tryptase marks mast cell activation."
+    },
+    {
+     "type": "flow",
+     "title": "Type I hypersensitivity",
+     "steps": [
+      "First exposure: Th2 cells drive IgE class switch",
+      "IgE binds FcepsilonRI on mast cells",
+      "Re-exposure: antigen cross-links bound IgE",
+      "Degranulation: histamine and tryptase within minutes",
+      "Leukotrienes and prostaglandins synthesized",
+      "Late phase with eosinophils hours later"
+     ],
+     "caption": "Sensitization is silent; symptoms appear only after re-exposure."
+    },
+    {
+     "type": "p",
+     "text": "Type II reactions use IgG or IgM bound to antigens fixed on cells or matrix. The antibody can mark cells for phagocytosis or complement lysis (autoimmune hemolytic anemia, ABO transfusion reaction, immune thrombocytopenia), recruit neutrophils that damage matrix (Goodpasture syndrome against type IV collagen, with linear immunofluorescence), or alter receptor function without inflammation (stimulating TSH receptor antibodies in Graves disease, blocking acetylcholine receptor antibodies in myasthenia gravis). The direct Coombs test detects antibody on red cells."
+    },
+    {
+     "type": "p",
+     "text": "Type III reactions are caused by circulating antigen-antibody complexes that deposit where blood is filtered at pressure, in glomeruli, small vessels, and synovium. Complement is activated, so serum C3 falls, and C5a draws neutrophils that cause vasculitis, glomerulonephritis, and arthritis with granular deposits. Serum sickness appears about 1 to 2 weeks after a foreign protein, when antibody has formed, while the local Arthus reaction appears within hours in a previously sensitized person."
+    },
+    {
+     "type": "p",
+     "text": "Type IV reactions involve no antibody. Sensitized CD4 Th1 cells release IFN-gamma that activates macrophages, Th17 cells recruit neutrophils, and CD8 T cells kill directly. Recruiting and activating these cells takes time, so reactions peak at 48 to 72 hours, as in the tuberculin skin test, contact dermatitis, granulomas, and acute cellular rejection."
+    },
+    {
+     "type": "table",
+     "title": "Classifying hypersensitivity",
+     "cols": [
+      "Type",
+      "Effector",
+      "Timing",
+      "Examples"
+     ],
+     "rows": [
+      [
+       "I",
+       "IgE, mast cells, basophils",
+       "Minutes; late phase hours",
+       "Anaphylaxis, allergic asthma, urticaria, latex allergy"
+      ],
+      [
+       "II",
+       "IgG or IgM against fixed cell or matrix antigen",
+       "Minutes to days",
+       "Hemolytic anemia, Goodpasture, rheumatic fever, Graves, myasthenia gravis"
+      ],
+      [
+       "III",
+       "Immune complexes, complement, neutrophils",
+       "About 1 to 2 weeks; Arthus hours",
+       "SLE, poststreptococcal glomerulonephritis, serum sickness, polyarteritis nodosa"
+      ],
+      [
+       "IV",
+       "CD4 Th1 or CD8 T cells, macrophages",
+       "48 to 72 hours",
+       "PPD test, poison ivy or nickel dermatitis, granulomas"
+      ]
+     ],
+     "caption": "Ask whether antibody is involved, which isotype, and whether the antigen is fixed in tissue or circulating."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: classifying a reaction",
+     "text": "Ten days after receiving horse-derived antivenom, a man develops fever, rash, joint pain, and proteinuria, with low serum C3. Step 1: the delay rules out type I, which occurs in minutes. Step 2: low C3 means complement consumption, which requires antibody, so this is not type IV. Step 3: the antigen, horse protein, circulates rather than sitting fixed in one tissue, and injury appears at several filtering sites at once. Step 4: complexes of antibody with soluble antigen that deposit are type III, here serum sickness."
+    },
+    {
+     "type": "stop",
+     "predict": "Two patients have glomerulonephritis. One has linear IgG along the basement membrane; the other has granular, lumpy deposits and low C3 after a skin infection. Which type is each?",
+     "explain": "Linear staining means antibody binds a fixed basement membrane antigen (type II, Goodpasture). Granular deposits with complement consumption mean immune complexes deposited from the blood (type III, poststreptococcal).",
+     "check": "Compare with the type II and type III paragraphs."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Activation rules link the whole chapter. Innate recognition by PRRs decides whether dendritic cells raise B7, and B7 decides whether a T cell is activated or made anergic. The same logic explains why live vaccines and adjuvants work, why infection can break tolerance through bystander activation or mimicry, and why removing CTLA-4 or PD-1 helps tumor immunity at the price of autoimmunity. Microbiology supplies the triggers, from LPS to streptococcal M protein and Campylobacter lipooligosaccharide, and pathology shows the results as granulomas, vasculitis, and glomerular deposits."
+  },
+  {
+   "type": "p",
+   "text": "The Gell and Coombs types are a teaching scheme with limits. Many diseases mix mechanisms: SLE has type II cytopenias and type III nephritis, and type 1 diabetes involves autoantibodies even though T cells cause the beta cell loss. Classify by the effector that causes the injury in the scenario given, and use clues such as timing, complement levels, and immunofluorescence pattern to decide."
+  }
+ ],
+ "summary": [
+  "Innate immunity uses germline PRRs such as TLR4 (LPS) and acts in minutes without memory; adaptive immunity uses rearranged TCRs and BCRs, needs days of clonal expansion, and forms memory.",
+  "Innate signals start adaptive immunity: TLR engagement makes dendritic cells raise B7 and secrete polarizing cytokines.",
+  "Naive T cells need TCR binding peptide on MHC (signal 1) and CD28 binding B7 (signal 2); signal 1 alone produces anergy.",
+  "CTLA-4 outcompetes CD28 for B7 during priming, and PD-1 binding PD-L1 recruits SHP-2 to damp effector T cells in tissues; blocking either boosts antitumor immunity and causes autoimmunity.",
+  "CD8 T cells kill tumor cells presenting peptide on MHC class I after dendritic cell cross-presentation; NK cells kill cells that lose class I or display stress ligands.",
+  "Tumors escape by losing MHC class I, beta-2 microglobulin, or TAP, by expressing PD-L1, and by building a suppressive environment with Tregs and TGF-beta.",
+  "Live attenuated vaccines enter the MHC class I pathway and give cellular and humoral immunity but are avoided in severe immunodeficiency and pregnancy; nonliving vaccines give mainly antibody and need boosters.",
+  "Conjugating polysaccharide to protein lets B cells obtain T cell help, so infants under 2 years make class-switched antibody and memory.",
+  "Autoimmunity follows failed central (AIRE) or peripheral (anergy, FOXP3 Tregs, Fas) tolerance, usually with HLA susceptibility plus a trigger such as M protein or C. jejuni mimicry.",
+  "Type I is IgE and mast cells in minutes, type II is antibody against fixed antigen, type III is immune complexes with low C3, and type IV is T cells peaking at 48 to 72 hours."
+ ],
+ "sources": [
+  {
+   "book": "Abbas, Cellular and Molecular Immunology",
+   "where": "Innate immunity; activation of T lymphocytes"
+  },
+  {
+   "book": "Abbas, Cellular and Molecular Immunology",
+   "where": "Immunologic tolerance and autoimmunity; immunity to tumors"
+  },
+  {
+   "book": "Abbas, Cellular and Molecular Immunology",
+   "where": "Hypersensitivity disorders"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Diseases of the Immune System, sections on hypersensitivity and autoimmunity"
+  },
+  {
+   "book": "Jawetz, Melnick and Adelberg's Medical Microbiology",
+   "where": "Immunology"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Disorders of the immune system"
+  }
+ ],
+ "verify": [
+  "The frequency of naive T cells specific for one antigen (about 1 in 10^5 to 10^6) is the figure given by Abbas; other texts give slightly different ranges.",
+  "Timing of the type I late phase (about 2 to 24 hours), serum sickness (about 1 to 2 weeks), and the interval from streptococcal pharyngitis to rheumatic fever (about 2 to 4 weeks) vary among sources.",
+  "Confirm which vaccines NABNE lists as live attenuated, inactivated, subunit, and conjugate, since product formulations and schedules change; mRNA vaccines are not covered here.",
+  "Contraindication details for live vaccines (for example HIV infection with preserved CD4 counts) belong to clinical practice and current guidelines; this chapter states only the immunologic basis.",
+  "HLA associations are population dependent; confirm the set NABNE expects, including DR2 (DR15) with Goodpasture syndrome and multiple sclerosis.",
+  "Confirm whether NABNE uses the Gell and Coombs labels alone or the newer subdivisions of type IV (IVa to IVd)."
+ ]
+}

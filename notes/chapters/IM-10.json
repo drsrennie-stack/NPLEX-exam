@@ -1,0 +1,666 @@
+{
+ "unit": "IM-10",
+ "chapter_id": "NPLEX-P1-IMMU-10",
+ "topic_id": "NPLEX-P1-IMMU-10-01",
+ "title": "Immune Biochemistry and Nutrition",
+ "subject": "Immune System (IMMU)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter covers the chemistry that immune cells depend on and the nutrients that keep them supplied. It traces how phagocytes turn oxygen into bleach and what happens when the first enzyme is missing, how a single purine salvage enzyme decides whether lymphocytes survive, which arachidonic acid products drive fever, pain, chemotaxis, and bronchoconstriction, and why granuloma macrophages can raise serum calcium. It ends with zinc, vitamin A, and protein-energy malnutrition, the most common cause of immunodeficiency worldwide. Board questions usually describe an infection pattern, a screening test, or a lab panel and ask you to name the broken step, so each section is built around the pathway that explains the finding.",
+  "prerequisites": [
+   "Pentose phosphate pathway and the role of NADPH",
+   "Purine salvage and ribonucleotide reductase in deoxynucleotide synthesis",
+   "Innate immune cells, phagocytosis, and the phagosome (IM-1, IM-2)",
+   "Vitamin D activation and calcium regulation by PTH and FGF23",
+   "Thymic T cell development and cell-mediated immunity"
+  ],
+  "connections": [
+   {
+    "to": "Primary immunodeficiencies",
+    "how": "CGD and ADA deficiency are classic inherited defects of phagocyte killing and lymphocyte development, read against other SCID forms and phagocyte disorders."
+   },
+   {
+    "to": "Acute inflammation and pathology",
+    "how": "Prostaglandins and leukotrienes are chemical mediators that explain the vascular and cellular events of acute inflammation."
+   },
+   {
+    "to": "Endocrine calcium regulation",
+    "how": "Unregulated macrophage 1-alpha-hydroxylase produces PTH-independent hypercalcemia with suppressed PTH."
+   },
+   {
+    "to": "Pulmonary system",
+    "how": "Cysteinyl leukotrienes drive bronchoconstriction in asthma, and sarcoidosis granulomas are most often pulmonary."
+   },
+   {
+    "to": "Biochemistry of nutrition",
+    "how": "Zinc, vitamin A, and protein supply limit the rapidly dividing lymphoid tissue and epithelial barriers that defend against infection."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Respiratory burst",
+    "def": "A rapid rise in oxygen consumption by activated phagocytes that is used to make reactive oxygen species, not ATP."
+   },
+   {
+    "term": "NADPH oxidase (NOX2)",
+    "def": "A multi-subunit phagocyte enzyme that transfers electrons from NADPH to molecular oxygen to form superoxide."
+   },
+   {
+    "term": "Myeloperoxidase",
+    "def": "A heme enzyme of neutrophil azurophilic granules that combines hydrogen peroxide with chloride to form hypochlorous acid."
+   },
+   {
+    "term": "Chronic granulomatous disease (CGD)",
+    "def": "An inherited NADPH oxidase defect in which phagocytes ingest microbes normally but cannot generate an oxidative burst."
+   },
+   {
+    "term": "Adenosine deaminase (ADA)",
+    "def": "A purine salvage enzyme that irreversibly deaminates adenosine and deoxyadenosine to inosine and deoxyinosine."
+   },
+   {
+    "term": "Ribonucleotide reductase",
+    "def": "The enzyme that reduces ribonucleoside diphosphates to deoxyribonucleotides, supplying all four DNA precursors."
+   },
+   {
+    "term": "Eicosanoids",
+    "def": "Signaling lipids made from 20-carbon arachidonic acid, including prostaglandins, thromboxanes, and leukotrienes."
+   },
+   {
+    "term": "Cysteinyl leukotrienes",
+    "def": "LTC4, LTD4, and LTE4, glutathione-derived leukotrienes that constrict bronchi and increase venular permeability."
+   },
+   {
+    "term": "Cathelicidin (LL-37)",
+    "def": "A cationic antimicrobial peptide whose gene is induced by calcitriol acting through the vitamin D receptor."
+   },
+   {
+    "term": "Thymulin",
+    "def": "A thymic epithelial peptide hormone that supports T cell maturation and is biologically active only when bound to zinc."
+   },
+   {
+    "term": "Squamous metaplasia",
+    "def": "Replacement of a specialized columnar epithelium by stratified squamous epithelium, which in vitamin A deficiency becomes keratinized."
+   },
+   {
+    "term": "Kwashiorkor",
+    "def": "Protein-energy malnutrition in which protein lack outweighs calorie lack, producing hypoalbuminemic edema and fatty liver."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-IMMU-10-01-C01",
+   "obj": "IM-10.1",
+   "title": "The respiratory burst and its failure in chronic granulomatous disease",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "When a neutrophil or macrophage engulfs a microbe, its oxygen consumption rises sharply within seconds. This respiratory burst is not mitochondrial respiration, makes no ATP, and continues when mitochondria are poisoned with cyanide. Its purpose is to convert molecular oxygen into reactive oxygen species inside the phagosome, through a fixed sequence in which each enzyme uses the product of the step before."
+    },
+    {
+     "type": "flow",
+     "title": "Oxygen-dependent killing in the neutrophil phagosome",
+     "steps": [
+      "Glucose-6-phosphate dehydrogenase (pentose phosphate pathway) makes NADPH",
+      "NADPH oxidase moves electrons from NADPH to O2",
+      "Superoxide (O2 radical anion) forms in the phagosome",
+      "Superoxide dismutase converts superoxide to H2O2",
+      "Myeloperoxidase combines H2O2 with chloride",
+      "Hypochlorous acid (HOCl, bleach) oxidizes microbial proteins and lipids"
+     ],
+     "caption": "Each step depends on the one before it. CGD breaks the second step, so nothing downstream forms unless the microbe supplies its own H2O2."
+    },
+    {
+     "type": "p",
+     "text": "NADPH comes from the oxidative branch of the pentose phosphate pathway, in which glucose-6-phosphate dehydrogenase (G6PD) is the rate-limiting enzyme. NADPH oxidase (NOX2) is assembled only on activation. Its catalytic core, cytochrome b558, sits in the membranes of specific granules and the plasma membrane, which fuse to form the phagosome wall, and contains gp91phox (the NOX2 protein itself) and p22phox. On stimulation, the cytosolic subunits p47phox, p67phox, and p40phox move to the membrane with the small GTPase Rac, and the complex transfers one electron at a time to O2. Superoxide dismutase then makes hydrogen peroxide. Myeloperoxidase (MPO), the green heme enzyme of azurophilic granules that colors pus, is delivered into the phagosome by degranulation and uses H2O2 and chloride to make HOCl. In the presence of ferrous iron, H2O2 can also form the hydroxyl radical (Fenton reaction)."
+    },
+    {
+     "type": "p",
+     "text": "Chronic granulomatous disease (CGD) is an inherited loss of NADPH oxidase activity. About two thirds of cases are X-linked, from mutations in CYBB, which encodes gp91phox. The rest are autosomal recessive, most often in NCF1 (p47phox), less often in CYBA (p22phox), NCF2 (p67phox), or NCF4 (p40phox). Phagocyte number, chemotaxis, ingestion, and MPO content are normal; only superoxide production fails. Without the burst, phagocytes kill poorly, and microbes persist inside them. Oxidants also normally help limit inflammation, so CGD tissues show exaggerated, persistent inflammation, and chronic stimulation of macrophages builds granulomas in lymph nodes, liver, lung, skin, bowel, and urinary tract, which can obstruct the gastric outlet or ureters."
+    },
+    {
+     "type": "p",
+     "text": "Defects downstream are milder. Inherited MPO deficiency is the most common inherited phagocyte defect and is usually silent, because superoxide and H2O2 still form and H2O2 alone kills many organisms. Severe G6PD deficiency, with almost no residual enzyme in leukocytes, can starve NADPH oxidase of substrate and rarely produces a CGD-like picture; the common variants that cause hemolysis do not."
+    },
+    {
+     "type": "stop",
+     "predict": "A child has normal neutrophil counts, normal ingestion of bacteria, and normal MPO staining, yet has recurrent liver abscesses. Which molecule is missing from the phagosome first?",
+     "explain": "Superoxide. NADPH oxidase is the first oxidative step, so its loss also removes the H2O2 and HOCl that depend on it, while ingestion and granule enzymes remain intact.",
+     "check": "The respiratory burst flow and the CGD paragraph."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-10-01-C02",
+   "obj": "IM-10.2",
+   "title": "Predicting CGD infections and reading the DHR and NBT tests",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "A CGD phagocyte still holds MPO, so it can make HOCl if it receives H2O2 from another source. Many bacteria make H2O2 as a byproduct of aerobic metabolism. Catalase-negative organisms, such as streptococci, leave that H2O2 in the phagosome, where the phagocyte borrows it and kills the organism with its own MPO. Catalase-positive organisms break down their H2O2 to water and oxygen, removing the only substrate available, and survive. This explains the classic CGD list: Staphylococcus aureus, Aspergillus species, Burkholderia cepacia complex, Serratia marcescens, and Nocardia. Aspergillus pneumonia is the leading infectious cause of death, and S aureus commonly causes liver abscess, lymphadenitis, and skin infection."
+    },
+    {
+     "type": "p",
+     "text": "The catalase rule is a useful teaching model rather than the whole explanation. Catalase-deficient strains of S aureus and Aspergillus still cause infection in CGD animal models, so other organism traits also matter. For the exam, an unusual infection with one of these catalase-positive organisms, especially with granulomas, points to CGD. Serum immunoglobulins are normal or high from chronic infection, which distinguishes CGD from antibody defects."
+    },
+    {
+     "type": "h",
+     "text": "Screening tests read out superoxide production"
+    },
+    {
+     "type": "p",
+     "text": "Both tests stimulate phagocytes and detect whether reactive oxygen species appear. In the dihydrorhodamine (DHR) test, cells are loaded with nonfluorescent dihydrorhodamine 123, stimulated (usually with phorbol myristate acetate), and analyzed by flow cytometry. Oxidants convert the dye to fluorescent rhodamine 123, so normal neutrophils shift strongly to higher fluorescence. In CGD the shift is absent or small. In the older nitroblue tetrazolium (NBT) slide test, superoxide reduces the pale yellow dye to dark blue formazan, so normal neutrophils turn blue and CGD neutrophils stay pale. DHR is now preferred because it is quantitative, counts individual cells, and shows inheritance patterns. Genetic testing then identifies the subunit."
+    },
+    {
+     "type": "table",
+     "title": "Interpreting phagocyte oxidase tests",
+     "cols": [
+      "Condition",
+      "DHR after stimulation",
+      "NBT",
+      "Mechanism"
+     ],
+     "rows": [
+      [
+       "Normal",
+       "Strong shift to high fluorescence",
+       "Most cells blue",
+       "Intact NADPH oxidase"
+      ],
+      [
+       "X-linked CGD (gp91phox)",
+       "No or almost no shift",
+       "Cells stay yellow",
+       "No functional cytochrome b558"
+      ],
+      [
+       "Autosomal recessive CGD (p47phox)",
+       "Small residual shift",
+       "Few or faint blue cells",
+       "Some residual oxidase activity"
+      ],
+      [
+       "X-linked CGD carrier mother",
+       "Two populations, one normal and one negative",
+       "Mixed blue and yellow cells",
+       "Random X inactivation (lyonization)"
+      ],
+      [
+       "MPO deficiency",
+       "Can be falsely low",
+       "Normal",
+       "Superoxide forms; DHR oxidation partly depends on MPO"
+      ]
+     ],
+     "caption": "An abnormal DHR result needs MPO deficiency excluded, because the DHR signal partly depends on MPO while the NBT result does not."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: a DHR result in a family",
+     "text": "A 2-year-old boy has Serratia osteomyelitis and Aspergillus pneumonia. His neutrophils show no DHR shift after stimulation. His mother's neutrophils show two peaks: about 40% shift normally and about 60% do not. Step 1: the boy makes no oxidant, so NADPH oxidase is absent. Step 2: his mother has two neutrophil populations, which in a woman reflects random X inactivation, since each neutrophil expresses only one of her two X chromosomes. Step 3: she is therefore a carrier of an X-linked defect, so the gene is CYBB (gp91phox). Step 4: had his mother shown a single normal peak and the boy a small residual shift, an autosomal recessive form such as p47phox deficiency would be more likely. Carriers whose normal population is very small can have infections themselves."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-10-01-C03",
+   "obj": "IM-10.3",
+   "title": "Adenosine deaminase deficiency: a metabolic cause of SCID",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Adenosine deaminase (ADA) is a purine salvage enzyme present in all cells and most active in lymphoid tissue. It irreversibly deaminates adenosine to inosine and deoxyadenosine to deoxyinosine, which are then degraded through hypoxanthine to uric acid. Deoxyadenosine comes largely from DNA breakdown, which is heavy in the thymus, where most developing thymocytes die by apoptosis and are cleared. Loss of ADA, inherited as an autosomal recessive trait, causes about 10 to 15 percent of severe combined immunodeficiency (SCID)."
+    },
+    {
+     "type": "flow",
+     "title": "How ADA deficiency kills lymphocytes",
+     "steps": [
+      "ADA absent: deoxyadenosine accumulates",
+      "Lymphocyte deoxycytidine kinase phosphorylates it to dAMP",
+      "Further phosphorylation traps it as dATP",
+      "dATP binds the activity site of ribonucleotide reductase",
+      "All four deoxyribonucleotides fall",
+      "DNA synthesis and repair fail; lymphocytes undergo apoptosis"
+     ],
+     "caption": "Excess of one deoxynucleotide shuts down synthesis of all of them. Lymphocytes trap dATP most avidly, so they die first."
+    },
+    {
+     "type": "p",
+     "text": "Ribonucleotide reductase converts ribonucleoside diphosphates to deoxyribonucleoside diphosphates and is the only de novo source of deoxynucleotides. Its activity site is a regulatory switch: ATP binding turns the enzyme on, and dATP binding turns it off for every substrate. This normally prevents overproduction, but when dATP accumulates to very high levels the enzyme stays off and dCTP, dGTP, and dTTP run out. Cells that must copy DNA, such as proliferating lymphoid precursors, cannot divide or repair breaks and die."
+    },
+    {
+     "type": "p",
+     "text": "Lymphocytes are selectively vulnerable because they have high deoxycytidine kinase activity, which phosphorylates deoxyadenosine, and relatively low nucleotidase activity, which would remove the phosphates. Deoxyadenosine also irreversibly inactivates S-adenosylhomocysteine hydrolase, so S-adenosylhomocysteine accumulates and inhibits methylation reactions, adding further toxicity. Because the damage is metabolic and acts on every developing lymphocyte, T, B, and NK cells are all profoundly low (T minus, B minus, NK minus SCID). Infants present in the first months with persistent thrush, chronic diarrhea, failure to thrive, severe viral infections, and Pneumocystis pneumonia, with a small thymus, no palpable lymph nodes, and absent tonsils."
+    },
+    {
+     "type": "p",
+     "text": "ADA is expressed throughout the body, so features beyond immunity occur: flaring and cupping of the costochondral junctions on chest radiograph, sensorineural deafness, and neurologic and hepatic abnormalities. Diagnosis rests on absent ADA activity and high deoxyadenosine nucleotides in red cells. Newborn screening detects all typical SCID forms by low T cell receptor excision circles (TRECs), DNA circles made during T cell receptor rearrangement that mark recent thymic emigrants."
+    },
+    {
+     "type": "table",
+     "title": "ADA deficiency compared with related SCID forms",
+     "cols": [
+      "Feature",
+      "ADA deficiency",
+      "PNP deficiency",
+      "X-linked SCID"
+     ],
+     "rows": [
+      [
+       "Defect",
+       "Adenosine deaminase",
+       "Purine nucleoside phosphorylase",
+       "Common gamma chain (IL2RG)"
+      ],
+      [
+       "Inheritance",
+       "Autosomal recessive",
+       "Autosomal recessive",
+       "X-linked"
+      ],
+      [
+       "Toxic metabolite or lost signal",
+       "dATP",
+       "dGTP",
+       "IL-7 and IL-15 signaling lost"
+      ],
+      [
+       "Lymphocyte profile",
+       "T, B, NK all low",
+       "Mainly T low; B often present",
+       "T and NK low; B present but nonfunctional"
+      ],
+      [
+       "Other clues",
+       "Costochondral flaring, deafness",
+       "Neurologic disease, low uric acid",
+       "Most common SCID; boys"
+      ]
+     ],
+     "caption": "Metabolic SCID removes lymphocytes by toxicity; X-linked SCID removes cytokine signals for T and NK development."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-10-01-C04",
+   "obj": "IM-10.4",
+   "title": "Arachidonic acid products in inflammation",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Eicosanoids are not stored. Cells make them on demand from arachidonic acid, a 20-carbon omega-6 fatty acid held at the sn-2 position of membrane phospholipids. Stimuli that raise cytosolic calcium, such as receptor activation, mechanical injury, or complement fragments, activate cytosolic phospholipase A2, which releases arachidonic acid. Which product a cell then makes depends on the enzymes it expresses, which is why platelets, endothelium, mast cells, and neutrophils each produce a characteristic set."
+    },
+    {
+     "type": "flow",
+     "title": "Two branches of arachidonic acid metabolism",
+     "steps": [
+      "Phospholipase A2 releases arachidonic acid from membrane phospholipid",
+      "COX branch: COX-1 or COX-2 makes PGG2, then PGH2",
+      "Cell-specific synthases make PGE2, PGI2, PGD2, or thromboxane A2",
+      "LOX branch: 5-lipoxygenase with FLAP makes 5-HPETE, then LTA4",
+      "LTA4 hydrolase makes LTB4",
+      "LTC4 synthase adds glutathione: LTC4, then LTD4 and LTE4"
+     ],
+     "caption": "Glucocorticoids reduce both branches by inhibiting phospholipase A2 (through annexin A1) and suppressing COX-2 induction; NSAIDs block only the COX branch."
+    },
+    {
+     "type": "p",
+     "text": "Cyclooxygenase has two activities in one enzyme: a cyclooxygenase step that makes PGG2 and a peroxidase step that reduces it to PGH2, the common precursor. COX-1 is constitutive and maintains housekeeping functions such as gastric mucosal protection and platelet thromboxane. COX-2 is induced by IL-1, TNF, and bacterial lipopolysaccharide at sites of inflammation, so it supplies most inflammatory prostaglandin."
+    },
+    {
+     "type": "p",
+     "text": "PGE2 explains three cardinal features of inflammation. For fever, IL-1, IL-6, and TNF induce COX-2 in the endothelium of hypothalamic vessels, and the PGE2 they release acts on EP3 receptors of preoptic neurons, raising the temperature set point so heat is conserved and produced until core temperature rises, for example to about 39 °C (102.2 °F). For pain, PGE2 lowers the threshold of nociceptors to bradykinin, histamine, and mechanical stimuli (hyperalgesia). For redness and swelling, PGE2 and PGI2 dilate arterioles and add to the venular leak caused by histamine and bradykinin. PGD2, the main prostaglandin of mast cells, also dilates vessels and constricts bronchi."
+    },
+    {
+     "type": "p",
+     "text": "Thromboxane A2 from platelets (via thromboxane synthase) acts through a Gq receptor that raises calcium, causing platelet aggregation and vasoconstriction; it lasts only seconds before hydrolysis to inactive thromboxane B2. Prostacyclin (PGI2) from endothelium raises platelet cAMP and does the opposite, so their balance sets local clotting and tone. Aspirin acetylates COX irreversibly, and anucleate platelets cannot replace it for their roughly 7 to 10 day life span, while endothelium makes new enzyme."
+    },
+    {
+     "type": "p",
+     "text": "The lipoxygenase branch is most active in leukocytes and mast cells. LTB4, from neutrophils and macrophages, is a potent chemoattractant that also activates neutrophil adhesion and degranulation, so it amplifies recruitment. The cysteinyl leukotrienes (LTC4, LTD4, LTE4), mainly from mast cells, eosinophils, and basophils, act on CysLT1 receptors to constrict bronchial smooth muscle far more potently than histamine, increase venular permeability, and increase mucus secretion. They were once called slow-reacting substance of anaphylaxis because their bronchoconstriction is slow and sustained. Lipoxins, made when neutrophils and platelets cooperate, inhibit further neutrophil recruitment and help end inflammation."
+    },
+    {
+     "type": "table",
+     "title": "Major eicosanoids and their actions",
+     "cols": [
+      "Product",
+      "Enzyme and main source",
+      "Main actions"
+     ],
+     "rows": [
+      [
+       "PGE2",
+       "COX; macrophages, endothelium, many cells",
+       "Fever, nociceptor sensitization, vasodilation"
+      ],
+      [
+       "PGI2 (prostacyclin)",
+       "COX; endothelium",
+       "Vasodilation, inhibits platelet aggregation"
+      ],
+      [
+       "Thromboxane A2",
+       "COX; platelets",
+       "Platelet aggregation, vasoconstriction"
+      ],
+      [
+       "PGD2",
+       "COX; mast cells",
+       "Vasodilation, bronchoconstriction"
+      ],
+      [
+       "LTB4",
+       "5-lipoxygenase; neutrophils, macrophages",
+       "Neutrophil chemotaxis, adhesion, activation"
+      ],
+      [
+       "LTC4, LTD4, LTE4",
+       "5-lipoxygenase; mast cells, eosinophils",
+       "Bronchoconstriction, increased venular permeability, mucus"
+      ],
+      [
+       "Lipoxins",
+       "Lipoxygenases; neutrophils with platelets",
+       "Inhibit neutrophil recruitment; resolution"
+      ]
+     ],
+     "caption": "COX products dominate fever, pain, vascular tone, and platelets; 5-lipoxygenase products dominate leukocyte recruitment and the airway."
+    },
+    {
+     "type": "stop",
+     "predict": "Why can blocking cyclooxygenase provoke bronchospasm in some people with asthma?",
+     "explain": "Arachidonic acid that cannot enter the COX branch is available to 5-lipoxygenase, and loss of PGE2, which normally restrains leukotriene release, removes a brake. Cysteinyl leukotrienes rise and constrict the airway.",
+     "check": "The two-branch flow and the cysteinyl leukotriene paragraph."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-10-01-C05",
+   "obj": "IM-10.5",
+   "title": "Macrophage vitamin D activation: sarcoidosis hypercalcemia and cathelicidin",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Vitamin D3 from skin or diet is hydroxylated in the liver to 25-hydroxyvitamin D, the main circulating form, and then by 1-alpha-hydroxylase (CYP27B1) to calcitriol (1,25-dihydroxyvitamin D), the active hormone. In the proximal tubule this last step is tightly controlled. PTH and low phosphate induce it; calcitriol, FGF23, and high calcium suppress it; and calcitriol also induces 24-hydroxylase (CYP24A1), which inactivates it. Serum calcitriol therefore stays within a narrow range, about 20 to 60 pg/mL."
+    },
+    {
+     "type": "p",
+     "text": "Activated macrophages express the same 1-alpha-hydroxylase, but they regulate it differently. Interferon-gamma from Th1 cells and Toll-like receptor signals induce it, PTH does not control it, calcitriol does not suppress it, and macrophages inactivate calcitriol poorly. In sarcoidosis, the large mass of activated macrophages and epithelioid cells in noncaseating granulomas converts circulating 25-hydroxyvitamin D to calcitriol without feedback."
+    },
+    {
+     "type": "flow",
+     "title": "From granuloma to hypercalcemia",
+     "steps": [
+      "Interferon-gamma activates granuloma macrophages",
+      "Macrophage 1-alpha-hydroxylase converts 25(OH)D to calcitriol without feedback",
+      "Serum calcitriol rises",
+      "Gut calcium absorption and bone resorption increase",
+      "Hypercalciuria, then hypercalcemia",
+      "High calcium suppresses PTH"
+     ],
+     "caption": "PTH-independent hypercalcemia: high calcitriol with low PTH. Other granulomatous diseases and some lymphomas can do the same."
+    },
+    {
+     "type": "p",
+     "text": "Hypercalciuria is common in sarcoidosis, and hypercalcemia occurs in a smaller fraction of patients. It worsens with more sunlight or vitamin D intake, because more substrate reaches the macrophages. Consequences follow from calcium: nephrolithiasis, nephrocalcinosis, polyuria from impaired urinary concentration, and reduced kidney function. The same mechanism occurs in tuberculosis, fungal granulomas, berylliosis, and Hodgkin and some non-Hodgkin lymphomas. Total serum calcium normally runs about 8.5 to 10.5 mg/dL (2.1 to 2.6 mmol/L)."
+    },
+    {
+     "type": "table",
+     "title": "Renal compared with macrophage 1-alpha-hydroxylase",
+     "cols": [
+      "Regulator",
+      "Proximal tubule enzyme",
+      "Macrophage enzyme"
+     ],
+     "rows": [
+      [
+       "PTH",
+       "Induces",
+       "No effect"
+      ],
+      [
+       "Low phosphate",
+       "Induces",
+       "No important effect"
+      ],
+      [
+       "Calcitriol",
+       "Suppresses and induces 24-hydroxylase",
+       "No effective suppression"
+      ],
+      [
+       "Interferon-gamma and TLR signals",
+       "No role",
+       "Induce"
+      ],
+      [
+       "Result in granulomatous disease",
+       "Suppressed by high calcium",
+       "Keeps producing calcitriol"
+      ]
+     ],
+     "caption": "One enzyme, two control systems: endocrine feedback in the kidney, immune activation in the macrophage."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: separating causes of hypercalcemia",
+     "text": "A 38-year-old with bilateral hilar adenopathy has calcium 11.8 mg/dL, low PTH, high calcitriol, and low-normal 25-hydroxyvitamin D. Step 1: low PTH rules out primary hyperparathyroidism, where PTH is high or inappropriately normal. Step 2: high calcitriol with ordinary 25-hydroxyvitamin D means unregulated activation, not excess intake; vitamin D intoxication raises 25-hydroxyvitamin D markedly. Step 3: humoral hypercalcemia of malignancy from PTH-related peptide also suppresses PTH, but calcitriol is low or normal because PTH-related peptide raises it far less than PTH does. Step 4: high calcitriol, low PTH, and hilar granulomas fit macrophage 1-alpha-hydroxylase in sarcoidosis."
+    },
+    {
+     "type": "p",
+     "text": "In host defense this pathway is useful. When TLR2/1 on human macrophages recognizes mycobacterial lipoproteins, the cell increases both the vitamin D receptor and 1-alpha-hydroxylase. Calcitriol made inside the cell binds the vitamin D receptor, which acts with RXR at a vitamin D response element in the cathelicidin gene promoter. The precursor protein is processed to LL-37, a cationic peptide that disrupts microbial membranes and promotes autophagy, aiding killing of Mycobacterium tuberculosis. Because the macrophage depends on circulating 25-hydroxyvitamin D as substrate, low serum levels limit cathelicidin induction, one proposed link between vitamin D deficiency and tuberculosis risk."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-10-01-C06",
+   "obj": "IM-10.6",
+   "title": "Zinc and vitamin A deficiency and infection risk",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Zinc is a cofactor for many enzymes, including alkaline phosphatase and DNA and RNA polymerases, and is the structural core of zinc finger transcription factors. Tissues with rapid cell turnover, such as lymphoid tissue, intestinal mucosa, and skin, are therefore the first to fail. Thymic epithelial cells secrete thymulin, which supports thymocyte maturation and is active only when bound to zinc. Zinc deficiency causes thymic atrophy and lymphopenia, reduces Th1 cytokines (IL-2 and interferon-gamma), weakens delayed hypersensitivity and NK cell activity, and impairs phagocyte function. Skin and gut barriers break down at the same time, so children with zinc deficiency have more diarrhea, pneumonia, and skin infection. Other effects include poor wound healing, loss of taste (dysgeusia), growth retardation, and hypogonadism."
+    },
+    {
+     "type": "p",
+     "text": "Acrodermatitis enteropathica is the inherited form. It is an autosomal recessive defect in SLC39A4, which encodes ZIP4, the zinc importer on the apical membrane of duodenal and jejunal enterocytes. Breast milk contains zinc in a highly absorbable form, so symptoms typically start at weaning or earlier in formula-fed infants. The triad is dermatitis around the mouth, eyes, and anus and on the hands and feet (sharply bordered, crusted, sometimes vesiculobullous), alopecia, and diarrhea, often with irritability and secondary Candida and bacterial skin infection. Serum zinc is low, and alkaline phosphatase is often low because it is a zinc enzyme. Acquired deficiency with the same rash occurs with malabsorption, alcoholism, and parenteral nutrition lacking zinc."
+    },
+    {
+     "type": "p",
+     "text": "Vitamin A, as retinoic acid acting through nuclear RAR and RXR receptors, keeps mucus-secreting columnar epithelium differentiated. Without it, epithelium of the conjunctiva, airways, and urinary tract undergoes squamous metaplasia with keratinization. Ciliated, mucus-producing linings that trap and clear microbes become dry keratin barriers that clear poorly, raising the risk of respiratory infection, and desquamated keratin in the urinary tract can seed stones and infection. In the eye this produces xerophthalmia, Bitot spots, and corneal softening (keratomalacia); night blindness reflects loss of rhodopsin. Retinoic acid made by intestinal dendritic cells also directs lymphocytes to home to the gut and supports IgA class switching, so mucosal antibody defense weakens."
+    },
+    {
+     "type": "p",
+     "text": "Measles shows the interaction most clearly. Infection lowers serum retinol, because fever increases use, intake falls, and retinol-binding protein is a negative acute-phase protein whose synthesis drops during inflammation. In a child who is already deficient, measles causes more severe pneumonia, diarrhea, corneal ulceration leading to blindness, and higher mortality."
+    },
+    {
+     "type": "table",
+     "title": "Zinc compared with vitamin A deficiency",
+     "cols": [
+      "Feature",
+      "Zinc deficiency",
+      "Vitamin A deficiency"
+     ],
+     "rows": [
+      [
+       "Core mechanism",
+       "Enzyme, zinc finger, and thymulin failure",
+       "Loss of retinoic acid-driven epithelial differentiation"
+      ],
+      [
+       "Immune effect",
+       "Thymic atrophy, lymphopenia, weak T cell function",
+       "Barrier loss, weaker mucosal IgA and gut homing"
+      ],
+      [
+       "Skin and mucosa",
+       "Periorificial and acral dermatitis, alopecia, diarrhea",
+       "Squamous metaplasia, dry keratinized skin and conjunctiva"
+      ],
+      [
+       "Infection pattern",
+       "Diarrhea, pneumonia, Candida and skin infection",
+       "Respiratory infection, diarrhea, severe measles"
+      ],
+      [
+       "Distinctive clue",
+       "Low alkaline phosphatase; inherited ZIP4 defect",
+       "Night blindness, Bitot spots, keratomalacia"
+      ]
+     ],
+     "caption": "Both deficiencies impair epithelial barriers; zinc acts more on T cell development, vitamin A more on mucosal differentiation."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-10-01-C07",
+   "obj": "IM-10.7",
+   "title": "Protein-energy malnutrition: the leading acquired immunodeficiency",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Worldwide, the most common cause of acquired immunodeficiency is protein-energy malnutrition (PEM), not HIV. It affects large numbers of young children in low-income regions and also occurs in older adults, people with chronic illness or cancer, eating disorders, and severe malabsorption. Lymphocyte proliferation and clonal expansion demand amino acids, energy, and micronutrients, so the adaptive immune system is among the first systems to falter when supply falls."
+    },
+    {
+     "type": "p",
+     "text": "The thymus is especially sensitive, and its shrinkage in malnutrition is sometimes called nutritional thymectomy. Thymocytes are lost through lack of substrate for proliferation and through apoptosis driven by the high cortisol of starvation. Falling leptin, which reflects fat loss, removes a signal that normally supports thymic output and Th1 responses. T cell areas of the lymph nodes (paracortex) and spleen (periarteriolar sheaths) are depleted, CD4 counts and the CD4 to CD8 ratio fall, and delayed-type hypersensitivity skin tests become anergic. Antibody responses to new antigens are weaker, secretory IgA and complement (especially C3) fall, and phagocyte killing is impaired, while total serum immunoglobulin is often normal or high because of repeated infection. The net effect is a predominantly cell-mediated defect, so tuberculosis, measles, Pneumocystis, and severe gastroenteritis are common and severe."
+    },
+    {
+     "type": "cycle",
+     "title": "The malnutrition and infection cycle",
+     "steps": [
+      "Inadequate protein and energy intake",
+      "Thymic atrophy and weak cell-mediated immunity",
+      "More frequent, more severe infections",
+      "Fever, catabolism, anorexia, and diarrheal losses",
+      "Further depletion of protein and micronutrients"
+     ],
+     "caption": "Each turn worsens the next: infection raises nutrient needs while reducing intake and absorption."
+    },
+    {
+     "type": "p",
+     "text": "Marasmus and kwashiorkor are two patterns of PEM. Marasmus results from a total calorie deficit: the body consumes its fat and skeletal muscle (the somatic protein compartment) to supply energy and amino acids. Serum albumin, part of the visceral protein compartment, is relatively preserved, so there is no edema. Kwashiorkor occurs when protein lack is greater than calorie lack, classically in a child weaned onto a starchy, low-protein diet. The visceral compartment is depleted, low albumin lowers plasma oncotic pressure and contributes to edema, and the liver cannot make enough apolipoprotein to export triglyceride as VLDL, producing fatty liver. Edema can mask the weight loss."
+    },
+    {
+     "type": "table",
+     "title": "Marasmus compared with kwashiorkor",
+     "cols": [
+      "Feature",
+      "Marasmus",
+      "Kwashiorkor"
+     ],
+     "rows": [
+      [
+       "Main deficit",
+       "Total calories",
+       "Protein more than calories"
+      ],
+      [
+       "Compartment depleted",
+       "Somatic (muscle, fat)",
+       "Visceral (albumin, liver proteins)"
+      ],
+      [
+       "Body weight",
+       "Severe wasting, often below about 60% of expected",
+       "Less wasting, about 60 to 80% of expected, masked by edema"
+      ],
+      [
+       "Edema",
+       "Absent",
+       "Present"
+      ],
+      [
+       "Serum albumin",
+       "Near normal",
+       "Low"
+      ],
+      [
+       "Liver",
+       "Normal size",
+       "Enlarged, fatty"
+      ],
+      [
+       "Skin and hair",
+       "Loose skin folds, wizened face",
+       "Flaky paint dermatosis, depigmented sparse hair"
+      ],
+      [
+       "Immune effect",
+       "Thymic atrophy, impaired cell-mediated immunity",
+       "Same, often with more severe infection"
+      ]
+     ],
+     "caption": "Weight thresholds follow traditional weight-for-age classifications; both forms share the immune defect, and mixed marasmic kwashiorkor occurs."
+    },
+    {
+     "type": "stop",
+     "predict": "A severely malnourished child has a nonreactive tuberculin skin test despite active pulmonary tuberculosis. Why?",
+     "explain": "The skin test depends on memory Th1 cells and macrophage recruitment. Thymic atrophy, low CD4 counts, and weak Th1 cytokine production leave too few responding T cells, so the test is falsely negative (anergy).",
+     "check": "The thymus and T cell zone paragraph in this section."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Each topic in this chapter is a biochemical pathway that becomes an immune phenotype. The pentose phosphate pathway supplies NADPH for the burst, so erythrocyte and phagocyte biochemistry meet in G6PD deficiency. Purine salvage links nucleotide metabolism to lymphocyte survival, and the pattern of lost cells (T, B, and NK in ADA deficiency, mainly T in PNP deficiency) separates metabolic SCID from cytokine receptor SCID. Arachidonic acid metabolism connects acute inflammation in pathology to fever physiology, platelet function, and asthma. Macrophage vitamin D activation ties granulomatous inflammation to calcium endocrinology and to innate killing of mycobacteria. In microbiology, the catalase test that sorts staphylococci from streptococci also predicts which organisms threaten a CGD patient."
+  },
+  {
+   "type": "p",
+   "text": "These models have limits. Catalase alone does not determine virulence in CGD, and the DHR result must be read with MPO status. The edema of kwashiorkor is not fully explained by low albumin, and malnourished patients usually lack several micronutrients at once, so zinc, vitamin A, and protein effects overlap in real patients. Laboratory reference ranges differ between laboratories, and borderline values should be interpreted against the local range and the clinical picture."
+  }
+ ],
+ "summary": [
+  "The respiratory burst runs in order: G6PD makes NADPH, NADPH oxidase makes superoxide, superoxide dismutase makes H2O2, and myeloperoxidase makes HOCl.",
+  "CGD is loss of NADPH oxidase, about two thirds X-linked (gp91phox); ingestion and MPO are normal, but no oxidant forms and granulomas develop.",
+  "CGD phagocytes can borrow H2O2 from catalase-negative microbes, so infections come from catalase-positive organisms: S aureus, Aspergillus, B cepacia, Serratia, Nocardia.",
+  "DHR shows no fluorescence shift and NBT stays yellow in CGD; X-linked carriers show two populations, and MPO deficiency can falsely lower DHR.",
+  "ADA deficiency lets deoxyadenosine accumulate as dATP, which turns off ribonucleotide reductase, starving lymphocytes of deoxynucleotides and causing T, B, and NK negative SCID.",
+  "Phospholipase A2 releases arachidonic acid; COX makes PGE2 (fever, pain, vasodilation), PGI2, and thromboxane A2, and 5-lipoxygenase makes LTB4 (chemotaxis) and LTC4, LTD4, LTE4 (bronchoconstriction, permeability).",
+  "Granuloma macrophages activate vitamin D without PTH or calcitriol feedback, giving hypercalcemia with high calcitriol and low PTH.",
+  "Macrophage TLR2/1 signaling induces 1-alpha-hydroxylase and the vitamin D receptor, and intracellular calcitriol induces cathelicidin (LL-37) against mycobacteria.",
+  "Zinc deficiency causes thymic atrophy and weak T cell function; acrodermatitis enteropathica is inherited ZIP4 failure with periorificial and acral dermatitis, alopecia, and diarrhea.",
+  "Vitamin A deficiency causes mucosal squamous metaplasia and more lethal measles; protein-energy malnutrition causes thymic atrophy and anergy and is the leading acquired immunodeficiency worldwide."
+ ],
+ "sources": [
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Inflammation and Repair; Diseases of the Immune System; Environmental and Nutritional Diseases"
+  },
+  {
+   "book": "Abbas, Cellular and Molecular Immunology",
+   "where": "Congenital and Acquired Immunodeficiencies"
+  },
+  {
+   "book": "Lippincott Illustrated Reviews: Biochemistry",
+   "where": "Pentose Phosphate Pathway and NADPH; Nucleotide Metabolism; Eicosanoids"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Body Temperature Regulation and Fever; Parathyroid Hormone, Calcitonin, Calcium and Phosphate Metabolism, Vitamin D"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Disorders of the Immune System; Disorders of the Parathyroids and Calcium Metabolism"
+  },
+  {
+   "book": "Jawetz, Melnick and Adelberg's Medical Microbiology",
+   "where": "Staphylococci and the catalase test"
+  }
+ ],
+ "verify": [
+  "The share of CGD that is X-linked is quoted from about 60% to 70% in different sources; this chapter says about two thirds.",
+  "The catalase-positive organism model for CGD is the standard teaching explanation, but animal studies show catalase is not required for virulence; confirm NABNE expects only the classic organism list.",
+  "ADA deficiency is quoted as about 10 to 15% of SCID in most sources and up to 20% in some series; confirm the figure NABNE expects.",
+  "Normal serum calcitriol is about 20 to 60 pg/mL here; laboratory ranges vary (some list about 18 to 78 pg/mL).",
+  "The fraction of sarcoidosis patients with hypercalcemia (often given as about 5% to 10%) and with hypercalciuria (often higher) varies widely between series, so no single figure is stated as fact.",
+  "Weight thresholds for marasmus and kwashiorkor follow the traditional weight-for-age (Wellcome) classification; current WHO criteria use weight-for-height z-scores and mid-upper arm circumference. Confirm which system NABNE uses.",
+  "The mechanism of edema in kwashiorkor is debated (hypoalbuminemia alone does not fully explain it; oxidative stress theories exist); the chapter states that low albumin contributes.",
+  "The aspirin-exacerbated bronchospasm STOP prompt uses the substrate-shunting and loss-of-PGE2 explanation, which is the consensus model but still being refined.",
+  "Requested new diagram names for a future revision: respiratory-burst (phagosome with NADPH oxidase, superoxide dismutase, and myeloperoxidase steps) and arachidonic-acid-tree (COX and 5-lipoxygenase branches with products).",
+  "Whether FGF23 suppresses macrophage (extrarenal) 1-alpha-hydroxylase is unsettled; the renal versus macrophage table therefore lists only calcitriol feedback for the macrophage enzyme."
+ ]
+}

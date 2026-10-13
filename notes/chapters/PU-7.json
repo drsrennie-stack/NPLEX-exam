@@ -1,0 +1,584 @@
+{
+ "unit": "PU-7",
+ "chapter_id": "NPLEX-P1-RESP-07",
+ "topic_id": "NPLEX-P1-RESP-07-01",
+ "title": "Gas Exchange and Tissue Perfusion",
+ "subject": "Respiratory System (RESP)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter follows oxygen from inspired air into alveolar gas, across the alveolar-capillary barrier, and out to the tissues. It covers the alveolar gas equation and A-a gradient, the five mechanisms of hypoxemia, the ventilation-perfusion spectrum from dead space to shunt, diffusion and DLCO, the four types of tissue hypoxia, and adaptation to high altitude. Board questions usually give an arterial blood gas, a pulmonary function result, or a setting such as a mountain or a house fire and ask you to locate the failing step. If you can calculate PAO2 and say which step of oxygen delivery is broken, most of these questions become straightforward.",
+  "prerequisites": [
+   "Dalton law of partial pressures and the composition of air",
+   "Minute ventilation, alveolar ventilation, and the PaCO2 relationship (PU-6)",
+   "Regional distribution of pulmonary blood flow and ventilation (PU-5)",
+   "The oxyhemoglobin dissociation curve and factors that shift it (PU-8)",
+   "Basic acid-base physiology: the bicarbonate buffer and renal compensation"
+  ],
+  "connections": [
+   {
+    "to": "Blood gas transport (PU-8)",
+    "how": "Hemoglobin binding and the shape of the dissociation curve explain why shunt cannot be offset and why carbon monoxide is so harmful."
+   },
+   {
+    "to": "Energy production and the respiratory system (PU-11)",
+    "how": "Cyanide blocks cytochrome c oxidase in the electron transport chain, producing histotoxic hypoxia with lactic acidosis."
+   },
+   {
+    "to": "Restrictive and obstructive pulmonary diseases (PU-14-A, PU-14-B)",
+    "how": "Fibrosis and emphysema lower DLCO by different mechanisms, and both widen the A-a gradient through V/Q mismatch."
+   },
+   {
+    "to": "Pulmonary vascular disease (PU-14-E)",
+    "how": "Pulmonary embolism creates dead space, and chronic hypoxic vasoconstriction at altitude causes pulmonary hypertension."
+   },
+   {
+    "to": "Renal acid-base physiology and hematology",
+    "how": "Renal bicarbonate excretion and erythropoietin release are the slow arms of altitude acclimatization."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Alveolar gas equation",
+    "def": "PAO2 = FiO2 x (Patm minus PH2O) minus PaCO2/R, which predicts alveolar PO2 from inspired O2 and arterial PCO2."
+   },
+   {
+    "term": "A-a gradient",
+    "def": "The difference between calculated alveolar PO2 and measured arterial PO2, a measure of how well the lung transfers oxygen."
+   },
+   {
+    "term": "Respiratory quotient (R)",
+    "def": "The ratio of CO2 produced to O2 consumed, about 0.8 on a mixed diet."
+   },
+   {
+    "term": "Ventilation-perfusion ratio (V/Q)",
+    "def": "The ratio of alveolar ventilation to capillary blood flow in a lung unit or the whole lung, about 0.8 overall."
+   },
+   {
+    "term": "Physiological dead space",
+    "def": "The part of each breath that does not take part in gas exchange: anatomic dead space plus alveoli that are ventilated but not perfused."
+   },
+   {
+    "term": "Shunt",
+    "def": "Blood that reaches the systemic arteries without passing a ventilated alveolus, so it keeps mixed venous gas tensions."
+   },
+   {
+    "term": "Perfusion-limited exchange",
+    "def": "Gas transfer in which the gas equilibrates early in the capillary, so uptake rises only if blood flow rises."
+   },
+   {
+    "term": "Diffusion-limited exchange",
+    "def": "Gas transfer in which the gas has not equilibrated by the end of the capillary, so uptake depends on the barrier."
+   },
+   {
+    "term": "DLCO",
+    "def": "Diffusing capacity of the lung for carbon monoxide, the uptake of CO per minute per mmHg of driving pressure."
+   },
+   {
+    "term": "Oxygen content (CaO2)",
+    "def": "Total oxygen carried per deciliter of blood, bound to hemoglobin plus dissolved, normally about 20 mL/dL."
+   },
+   {
+    "term": "Histotoxic hypoxia",
+    "def": "Hypoxia in which oxygen is delivered normally but cells cannot use it, as when cyanide blocks cytochrome c oxidase."
+   },
+   {
+    "term": "Hypoxic pulmonary vasoconstriction",
+    "def": "Contraction of pulmonary arterioles in response to low alveolar PO2, which diverts blood away from poorly ventilated alveoli."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-RESP-07-01-C01",
+   "obj": "PU-7.1",
+   "title": "The alveolar gas equation and the A-a gradient",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Arterial PO2 can never exceed alveolar PO2, so the first question in any hypoxemia problem is what the alveolar PO2 should be. Inspired gas is warmed to 37 °C (98.6 °F) and fully humidified in the airways, and water vapor at that temperature exerts 47 mmHg. The gas available for oxygen is therefore barometric pressure minus 47, and inspired PO2 (PIO2) is FiO2 times that value. At sea level on room air, PIO2 = 0.21 x (760 minus 47), or about 150 mmHg. FiO2 is 0.21 at every altitude; only barometric pressure changes."
+    },
+    {
+     "type": "p",
+     "text": "In the alveolus, oxygen is continuously removed by capillary blood and CO2 is added. Alveolar PCO2 equals arterial PCO2 for practical purposes because CO2 equilibrates completely, so PaCO2 tells us how much CO2 has diluted the alveolar gas. The body consumes more O2 than it produces CO2 (respiratory quotient about 0.8), so alveolar PO2 falls by more than the PCO2 added: by PaCO2 divided by 0.8. This gives the alveolar gas equation: PAO2 = FiO2 x (Patm minus 47) minus PaCO2/0.8. With a PaCO2 of 40 mmHg, PAO2 is about 150 minus 50, or 100 mmHg. The equation shows two ways to lower alveolar PO2 without any lung disease: lower the inspired PO2 or let PaCO2 rise."
+    },
+    {
+     "type": "p",
+     "text": "The A-a gradient is PAO2 minus measured PaO2. Even healthy lungs have a small gradient, because bronchial venous blood enters the pulmonary veins and thebesian veins empty into the left ventricle (a small anatomic shunt) and because V/Q varies from apex to base. On room air the normal gradient is about 5 to 15 mmHg in young adults and widens with age as V/Q matching worsens; a common estimate of the upper limit is age divided by 4, plus 4. Normal PaO2 at sea level is about 80 to 100 mmHg."
+    },
+    {
+     "type": "p",
+     "text": "Interpretation follows from the logic of the equation. If the gradient is normal, the lung is transferring oxygen well and the low PaO2 comes from a low PAO2, meaning low inspired O2 or hypoventilation. If the gradient is widened, oxygen is failing to move from alveolus to blood, which means diffusion limitation, V/Q mismatch, or shunt. The simplified equation is most reliable on room air; on high FiO2 the normal gradient itself becomes larger, so gradients measured on supplemental oxygen must be read with care."
+    },
+    {
+     "type": "example",
+     "title": "Two hypoxemic patients at sea level on room air",
+     "text": "Patient A after an opioid overdose: PaO2 45, PaCO2 80 mmHg. PAO2 = 150 minus 80/0.8 = 150 minus 100 = 50 mmHg. The A-a gradient is 50 minus 45 = 5 mmHg, which is normal, so hypoventilation fully explains the hypoxemia. Patient B with severe COPD: PaO2 50, PaCO2 60 mmHg. PAO2 = 150 minus 75 = 75 mmHg, and the gradient is 25 mmHg, which is widened. Hypoventilation is present, but it cannot account for the whole fall in PaO2; V/Q mismatch within the lung adds to it."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-07-01-C02",
+   "obj": "PU-7.2",
+   "title": "The five mechanisms of hypoxemia",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Hypoxemia means a low arterial PO2, generally below about 80 mmHg at sea level. There are five mechanisms, and each breaks a different step between inspired air and arterial blood. Two lower alveolar PO2 itself and leave the gradient normal; three impair transfer within the lung and widen it."
+    },
+    {
+     "type": "p",
+     "text": "Low inspired O2, as at altitude, lowers PIO2 and therefore PAO2 and PaO2 in parallel. The hypoxemia stimulates the peripheral chemoreceptors, so PaCO2 is usually low. Hypoventilation from opioids, sedatives, brainstem injury, neuromuscular weakness, or chest wall disease reduces alveolar ventilation; PaCO2 rises in inverse proportion to alveolar ventilation, and by the alveolar gas equation PAO2 falls. A high PaCO2 with a normal gradient is the signature."
+    },
+    {
+     "type": "p",
+     "text": "Diffusion limitation occurs when the barrier is thickened or the capillary transit time is too short for equilibration (C04). V/Q mismatch, the most common mechanism in lung disease (COPD, asthma, pneumonia, embolism), mixes blood from low V/Q units, which leave the capillary with low PO2 and saturation, with blood from high V/Q units. Because the oxyhemoglobin curve is flat near the top, the high V/Q units add little extra oxygen, so they cannot balance the desaturated blood. Right-to-left shunt is the extreme of V/Q mismatch, with V/Q of zero (C03), and also includes intracardiac shunts such as an atrial or ventricular septal defect after the pressure gradient reverses."
+    },
+    {
+     "type": "p",
+     "text": "Response to supplemental oxygen separates shunt from the other two lung mechanisms. In a low V/Q unit, even a little ventilation with enriched gas gradually washes out nitrogen and raises alveolar PO2 greatly; in diffusion limitation, a higher alveolar PO2 increases the driving gradient across the barrier. In a true shunt, the blood never contacts the added oxygen. The ventilated units add only dissolved oxygen (0.003 mL/dL per mmHg) to blood that is already saturated, so when the shunt fraction exceeds about 30%, PaO2 rises very little even on 100% O2."
+    },
+    {
+     "type": "table",
+     "title": "Mechanisms of hypoxemia",
+     "cols": [
+      "Mechanism",
+      "PaCO2",
+      "A-a gradient",
+      "PaO2 on 100% O2",
+      "Examples"
+     ],
+     "rows": [
+      [
+       "Low inspired O2",
+       "Low (hyperventilation)",
+       "Normal",
+       "Corrects",
+       "High altitude"
+      ],
+      [
+       "Hypoventilation",
+       "High",
+       "Normal",
+       "Corrects (PaCO2 stays high)",
+       "Opioid overdose, myasthenic crisis, severe kyphoscoliosis"
+      ],
+      [
+       "Diffusion limitation",
+       "Normal or low",
+       "Widened",
+       "Corrects",
+       "Interstitial fibrosis, especially on exercise"
+      ],
+      [
+       "V/Q mismatch",
+       "Low, normal, or high",
+       "Widened",
+       "Corrects",
+       "COPD, asthma, pulmonary embolism"
+      ],
+      [
+       "Right-to-left shunt",
+       "Normal or low",
+       "Widened",
+       "Rises little",
+       "Lobar consolidation, ARDS, atelectasis, reversed septal defect"
+      ]
+     ],
+     "caption": "The gradient places the problem inside or outside the lung; the response to oxygen identifies shunt."
+    },
+    {
+     "type": "flow",
+     "title": "Sorting hypoxemia from the blood gas",
+     "steps": [
+      "Confirm low PaO2 and calculate PAO2",
+      "Normal A-a gradient: problem is outside the lung",
+      "High PaCO2 means hypoventilation; low PaCO2 means low PIO2",
+      "Widened A-a gradient: problem is in gas transfer",
+      "Corrects with 100% O2: V/Q mismatch or diffusion",
+      "Little change with 100% O2: shunt"
+     ],
+     "caption": "A widened gradient with a high PaCO2 means lung disease with or without added hypoventilation."
+    },
+    {
+     "type": "stop",
+     "predict": "A patient with lobar pneumonia has a PaO2 of 55 mmHg on room air and 65 mmHg on 100% O2. Which mechanism dominates?",
+     "explain": "Shunt. Alveoli filled with exudate receive no gas, so the blood passing them keeps mixed venous values no matter what the patient breathes. The small rise comes from dissolved O2 added in the ventilated units and from correction of coexisting low V/Q units.",
+     "check": "The paragraph on response to supplemental oxygen and the mechanisms table."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-07-01-C03",
+   "obj": "PU-7.3",
+   "title": "Dead space versus shunt",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Overall alveolar ventilation is about 4 L/min and pulmonary blood flow about 5 L/min, giving a whole-lung V/Q of about 0.8. In the upright lung, blood flow increases toward the base more steeply than ventilation does, so V/Q is about 3 at the apex and about 0.6 at the base. Every lung unit lies somewhere on a spectrum whose two ends are dead space and shunt."
+    },
+    {
+     "type": "p",
+     "text": "Dead space is ventilation without perfusion, so V/Q approaches infinity. Alveolar gas in such a unit is never changed by blood and stays close to inspired gas (PO2 about 150, PCO2 near 0 mmHg). Physiological dead space is anatomic dead space (the conducting airways, about 150 mL in an adult) plus alveolar dead space, which is normally negligible. The Bohr equation (Enghoff form) measures it: VD/VT = (PaCO2 minus mixed expired PCO2) divided by PaCO2, normally about 0.2 to 0.35. Pulmonary embolism is the classic cause, and alveolar dead space also rises with low cardiac output and in emphysema."
+    },
+    {
+     "type": "p",
+     "text": "Shunt is perfusion without ventilation, so V/Q is zero. Blood leaves the unit unchanged, with mixed venous gas (PO2 about 40, PCO2 about 46 mmHg). Causes are alveoli filled by pus, edema fluid, or blood, collapsed alveoli (atelectasis, as distal to an obstructed bronchus), and anatomic right-to-left shunts."
+    },
+    {
+     "type": "p",
+     "text": "The two gases respond differently because their dissociation curves differ. The CO2 curve is nearly linear across the physiological range, so when chemoreceptors raise ventilation, the healthy units unload extra CO2 and keep PaCO2 normal or low despite a shunt. The O2 curve is flat above a PO2 of about 60 mmHg, so hyperventilated units cannot add enough oxygen to make up for shunted blood, and PaO2 stays low."
+    },
+    {
+     "type": "p",
+     "text": "In a pure dead space problem, wasted ventilation would raise PaCO2 if total ventilation stayed fixed. In pulmonary embolism, however, pain, hypoxemia, and stimulation of pulmonary receptors make the patient breathe faster, so PaCO2 is usually low. Hypoxemia in embolism comes from blood diverted to the remaining vessels, which overperfuses their alveoli and creates low V/Q units, with atelectasis adding some shunt. Because unperfused alveoli contribute CO2-free gas to the exhaled breath, end-tidal PCO2 falls below PaCO2. The lung partly corrects both extremes locally: hypoxic pulmonary vasoconstriction diverts blood away from shunt units, and low alveolar PCO2 in unperfused units constricts their airways."
+    },
+    {
+     "type": "table",
+     "title": "Dead space and shunt compared",
+     "cols": [
+      "Feature",
+      "Dead space",
+      "Shunt"
+     ],
+     "rows": [
+      [
+       "Defect",
+       "Ventilated, not perfused",
+       "Perfused, not ventilated"
+      ],
+      [
+       "V/Q",
+       "Approaches infinity",
+       "Zero"
+      ],
+      [
+       "Gas in the affected unit",
+       "Like inspired air (PO2 about 150, PCO2 near 0)",
+       "Like mixed venous blood (PO2 about 40, PCO2 about 46)"
+      ],
+      [
+       "Classic causes",
+       "Pulmonary embolism, low cardiac output",
+       "Lobar pneumonia, pulmonary edema, atelectasis, airway obstruction"
+      ],
+      [
+       "PaO2",
+       "Falls from overperfusion of the remaining units",
+       "Falls"
+      ],
+      [
+       "PaCO2",
+       "Would rise, but tachypnea usually makes it low",
+       "Normal or low"
+      ],
+      [
+       "Response to 100% O2",
+       "Improves",
+       "Little change"
+      ]
+     ],
+     "caption": "Both ends of the V/Q spectrum lower PaO2; neither usually raises PaCO2, because the patient increases ventilation."
+    },
+    {
+     "type": "stop",
+     "predict": "If a patient with a large pulmonary embolism could not increase total ventilation (for example, during fixed mechanical ventilation), what would happen to PaCO2?",
+     "explain": "It would rise. Part of each breath now ventilates unperfused alveoli, so alveolar ventilation of perfused units falls. The usual low PaCO2 in embolism reflects the compensating tachypnea, not the dead space itself.",
+     "check": "The paragraph on dead space and PaCO2 and the comparison table."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-07-01-C04",
+   "obj": "PU-7.4",
+   "title": "Diffusion, perfusion limitation, and DLCO",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Gases cross the alveolar-capillary barrier by passive diffusion. Fick law states that the rate of transfer equals (A/T) x D x (P1 minus P2), where A is surface area, T is barrier thickness, P1 minus P2 is the partial pressure difference, and D is a diffusion constant proportional to solubility divided by the square root of molecular weight. The barrier is very thin (well under 1 micrometer in most places) and its area is large (about 50 to 100 square meters). CO2 is about 20 times more diffusible than O2, mainly because it is far more soluble, so CO2 transfer is rarely limited by diffusion."
+    },
+    {
+     "type": "p",
+     "text": "Whether uptake of a gas depends on the barrier or on blood flow is decided by how quickly its partial pressure in capillary blood rises toward the alveolar value. Nitrous oxide does not bind hemoglobin, so its plasma partial pressure rises almost immediately and equilibrates within the first tenth of the capillary length; after that no more crosses, and uptake can rise only if more blood flows through. This is perfusion limitation. Carbon monoxide binds hemoglobin so avidly that its plasma partial pressure stays near zero along the whole capillary, so the gradient never collapses and uptake is set by the barrier. This is diffusion limitation."
+    },
+    {
+     "type": "p",
+     "text": "Oxygen normally behaves like a perfusion-limited gas. At rest a red cell spends about 0.75 s in the pulmonary capillary, and capillary PO2 reaches alveolar PO2 in about 0.25 s, leaving a large reserve. During heavy exercise transit time can fall to about a third of that, yet a healthy lung still equilibrates. Oxygen becomes diffusion-limited when the reserve is used up: a thickened barrier slows the rate of rise, a low alveolar PO2 at altitude shrinks the driving gradient, and exercise shortens the time available. This is why fibrosis patients and healthy climbers at high altitude desaturate on exertion though they may be adequately saturated at rest."
+    },
+    {
+     "type": "p",
+     "text": "DLCO uses a small, safe concentration of CO to measure the transfer capacity of the barrier, normally about 25 mL/min/mmHg. It depends on the membrane and on the volume of capillary blood and hemoglobin available to bind CO, so it is reported corrected for hemoglobin. In emphysema, destruction of alveolar walls removes surface area and capillaries, so DLCO falls; in chronic bronchitis and asthma the alveolar walls are intact, so DLCO is normal (sometimes high in asthma). Interstitial fibrosis lowers DLCO by thickening the barrier and destroying capillaries, while pulmonary vascular disease lowers it by reducing capillary blood volume. Polycythemia and alveolar hemorrhage raise it because extra hemoglobin binds CO."
+    },
+    {
+     "type": "table",
+     "title": "Perfusion-limited and diffusion-limited exchange",
+     "cols": [
+      "Feature",
+      "Perfusion-limited",
+      "Diffusion-limited"
+     ],
+     "rows": [
+      [
+       "Binding in blood",
+       "None (N2O) or sites fill quickly (O2 at rest)",
+       "Strong binding holds plasma partial pressure low (CO)"
+      ],
+      [
+       "Equilibration",
+       "Early in the capillary",
+       "Not reached by the end of the capillary"
+      ],
+      [
+       "Uptake raised by",
+       "More blood flow",
+       "More area, thinner barrier, larger gradient"
+      ],
+      [
+       "Examples",
+       "N2O; O2 and CO2 in healthy lungs",
+       "CO; O2 in fibrosis or strenuous exercise at altitude"
+      ]
+     ],
+     "caption": "The same gas can switch category when disease, altitude, or exercise removes the equilibration reserve."
+    },
+    {
+     "type": "table",
+     "title": "DLCO in common disorders",
+     "cols": [
+      "Disorder",
+      "DLCO",
+      "Reason"
+     ],
+     "rows": [
+      [
+       "Emphysema",
+       "Low",
+       "Loss of alveolar walls and capillary surface area"
+      ],
+      [
+       "Interstitial fibrosis",
+       "Low",
+       "Thickened barrier and loss of capillaries"
+      ],
+      [
+       "Pulmonary embolism or pulmonary hypertension",
+       "Low",
+       "Reduced capillary blood volume"
+      ],
+      [
+       "Anemia (uncorrected value)",
+       "Low",
+       "Less hemoglobin to bind CO"
+      ],
+      [
+       "Chronic bronchitis, asthma",
+       "Normal or high",
+       "Alveolar walls intact; disease is in the airways"
+      ],
+      [
+       "Polycythemia, alveolar hemorrhage",
+       "High",
+       "Extra hemoglobin in or near the alveoli binds CO"
+      ]
+     ],
+     "caption": "DLCO separates emphysema from chronic bronchitis and asthma, and fibrosis from extrapulmonary restriction such as obesity or neuromuscular weakness."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-07-01-C05",
+   "obj": "PU-7.5",
+   "title": "Hypoxemia versus tissue hypoxia",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Hypoxemia is a low PaO2 in arterial blood. Hypoxia is an inadequate supply or use of oxygen in tissue. They often occur together but can be separated, because tissues depend on oxygen delivery, which is cardiac output times arterial oxygen content (about 5 L/min x 200 mL/L, or about 1,000 mL/min at rest)."
+    },
+    {
+     "type": "p",
+     "text": "Oxygen content is CaO2 = (1.34 x Hb x SaO2) + (0.003 x PaO2), in mL O2/dL. With Hb 15 g/dL, SaO2 0.98, and PaO2 100 mmHg, bound O2 is about 19.7 and dissolved O2 only 0.3, for about 20 mL/dL. PaO2 reflects only the dissolved fraction, while content depends mostly on how much hemoglobin there is and how saturated it is. At rest tissues extract about 5 mL/dL (about 25%), so mixed venous blood returns with PO2 about 40 mmHg and saturation about 75%."
+    },
+    {
+     "type": "p",
+     "text": "Hypoxemic hypoxia lowers PaO2, SaO2, and content together. In anemic hypoxia hemoglobin is low, so PaO2 and SaO2 are normal but content falls. Carbon monoxide poisoning is a form of anemic hypoxia: CO binds hemoglobin about 200 to 250 times more avidly than O2, so true SaO2 and content fall while PaO2 stays normal; CO also shifts the curve left, so the remaining O2 unloads poorly. Standard two-wavelength pulse oximeters read carboxyhemoglobin as oxyhemoglobin, so only co-oximetry shows the true saturation. Methemoglobin (iron in the ferric state) behaves similarly, and pulse oximetry tends to read about 85% regardless of the true value."
+    },
+    {
+     "type": "p",
+     "text": "In circulatory (stagnant) hypoxia, from shock, heart failure, or arterial obstruction, arterial blood is normal but flow is too low. Tissues compensate by extracting more oxygen, so venous O2 is low and the arteriovenous difference widens. In histotoxic hypoxia, cyanide binds the ferric iron of cytochrome a3 in cytochrome c oxidase (complex IV) and stops electron transport. Oxygen is delivered but not used, so venous O2 is abnormally high, the arteriovenous difference narrows, and cells switch to anaerobic glycolysis, producing a high anion gap lactic acidosis. Venous oxygen therefore separates the two types that have normal arterial values."
+    },
+    {
+     "type": "table",
+     "title": "Types of hypoxia",
+     "cols": [
+      "Type",
+      "PaO2",
+      "SaO2",
+      "CaO2",
+      "Venous O2",
+      "Example"
+     ],
+     "rows": [
+      [
+       "Hypoxemic",
+       "Low",
+       "Low",
+       "Low",
+       "Low",
+       "Altitude, lung disease"
+      ],
+      [
+       "Anemic",
+       "Normal",
+       "Normal",
+       "Low",
+       "Low",
+       "Iron deficiency anemia"
+      ],
+      [
+       "Carbon monoxide",
+       "Normal",
+       "Low by co-oximetry; pulse oximetry falsely normal",
+       "Low",
+       "Low",
+       "Smoke inhalation, faulty heater"
+      ],
+      [
+       "Circulatory",
+       "Normal",
+       "Normal",
+       "Normal",
+       "Low",
+       "Cardiogenic shock, arterial occlusion"
+      ],
+      [
+       "Histotoxic",
+       "Normal",
+       "Normal",
+       "Normal",
+       "High",
+       "Cyanide poisoning"
+      ]
+     ],
+     "caption": "Ask which of PaO2, saturation, and content is low; if none is, venous O2 separates circulatory from histotoxic hypoxia."
+    },
+    {
+     "type": "example",
+     "title": "Why anemia lowers content more than moderate hypoxemia",
+     "text": "Patient A has Hb 15 g/dL and PaO2 40 mmHg with SaO2 75%. Content = 1.34 x 15 x 0.75 + 0.003 x 40 = 15.1 + 0.1, about 15.2 mL/dL. Patient B has Hb 7.5 g/dL, PaO2 95 mmHg, and SaO2 98%. Content = 1.34 x 7.5 x 0.98 + 0.003 x 95 = 9.8 + 0.3, about 10.1 mL/dL. Patient B has a normal blood gas but about a third less oxygen per deciliter than patient A. A patient with Hb 15 and 50% carboxyhemoglobin has a content near 10 mL/dL like patient B, but is worse off because the left shift also impairs unloading."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-07-01-C06",
+   "obj": "PU-7.6",
+   "title": "Acclimatization to high altitude and altitude illness",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Barometric pressure falls with altitude while FiO2 stays 0.21. At about 3,000 m, pressure is about 525 mmHg, so PIO2 is about 0.21 x (525 minus 47), or about 100 mmHg, and PAO2 falls to roughly 60 mmHg or less, depending on how much the person hyperventilates. This is hypoxemia from low inspired O2 with a normal A-a gradient. Each acclimatization response improves oxygen delivery but carries a cost."
+    },
+    {
+     "type": "p",
+     "text": "Ventilation rises within minutes because the carotid bodies respond sharply once PaO2 falls below about 60 mmHg. The fall in PaCO2 produces respiratory alkalosis, and the alkalosis and low PCO2 brake the central chemoreceptors, which limits the first rise. Over the next several days the kidneys excrete bicarbonate by reducing H+ secretion and bicarbonate reabsorption, and bicarbonate in cerebrospinal fluid also falls. As pH returns toward normal, the brake is released and ventilation climbs further; carotid body sensitivity to hypoxia also increases. Carbonic anhydrase inhibition illustrates the mechanism, since the bicarbonate diuresis it causes produces a metabolic acidosis that reproduces this renal step in advance."
+    },
+    {
+     "type": "cycle",
+     "title": "Ventilatory acclimatization",
+     "steps": [
+      "Low PaO2 stimulates the carotid bodies",
+      "Ventilation rises; PaCO2 falls; pH rises",
+      "Alkalosis brakes the central chemoreceptors",
+      "Kidneys excrete bicarbonate over several days",
+      "pH normalizes; brake released; ventilation rises further"
+     ],
+     "caption": "Renal compensation for respiratory alkalosis is what allows ventilation to reach its acclimatized level."
+    },
+    {
+     "type": "p",
+     "text": "Hypoxia stabilizes hypoxia-inducible factor (its prolyl hydroxylases need O2 to mark it for degradation), so renal interstitial cells release erythropoietin within hours, and red cell mass rises over weeks. Hematocrit rises sooner from plasma volume contraction. Red cell 2,3-BPG rises, shifting the curve to the right and favoring unloading. Hypoxic pulmonary vasoconstriction, in which low alveolar PO2 inhibits K+ channels in pulmonary arterial smooth muscle and causes depolarization and Ca2+ entry, becomes generalized at altitude. Pulmonary artery pressure rises, and over months to years right ventricular hypertrophy can follow."
+    },
+    {
+     "type": "p",
+     "text": "Acute mountain sickness begins about 6 to 12 hours after a fast ascent, usually above about 2,500 m, with headache, nausea, fatigue, dizziness, and poor sleep. Hypoxic cerebral vasodilation raises cerebral blood flow and capillary permeability. High altitude cerebral edema is the severe end of the same process, with vasogenic edema causing ataxia and confusion that can progress to coma. High altitude pulmonary edema usually appears 2 to 4 days after arrival. Vasoconstriction is uneven, so the less constricted capillaries receive high pressure and flow, their walls undergo stress failure, and protein- and red cell-rich fluid floods the alveoli. Left atrial pressure is normal, so this is noncardiogenic edema. Dyspnea at rest, cough, and a widened A-a gradient follow, because flooded alveoli now add shunt."
+    },
+    {
+     "type": "flow",
+     "title": "Pathogenesis of high altitude pulmonary edema",
+     "steps": [
+      "Low alveolar PO2 throughout the lung",
+      "Exaggerated and uneven hypoxic vasoconstriction",
+      "High pressure and flow in unconstricted capillaries",
+      "Stress failure of the capillary wall",
+      "Protein-rich fluid and red cells fill alveoli",
+      "Shunt widens the A-a gradient; hypoxemia worsens"
+     ],
+     "caption": "People with a strong pulmonary pressor response to hypoxia are most susceptible."
+    },
+    {
+     "type": "stop",
+     "predict": "A climber at 4,000 m has a PaO2 of 45 mmHg and a normal A-a gradient on day 1. On day 3 PaO2 is 35 mmHg with a widened gradient. What changed?",
+     "explain": "Day 1 hypoxemia is explained by low inspired O2 alone. A newly widened gradient means the lung itself now fails to transfer oxygen, most likely from high altitude pulmonary edema creating shunt and low V/Q units.",
+     "check": "The altitude illness paragraph and the A-a gradient logic in C01."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Oxygen delivery is a chain, and each discipline explains a different link. Anatomy sets the area and thickness of the barrier and the small normal shunt through bronchial and thebesian veins. Physiology supplies the alveolar gas equation, V/Q matching, and Fick law, which decide alveolar and arterial PO2. Biochemistry explains why hemoglobin, not PaO2, determines content, how CO and methemoglobin disable it, and how cyanide stops oxygen use at complex IV. Pathology maps diseases onto the chain: emphysema removes surface area, fibrosis thickens the barrier, pneumonia and edema create shunt, and embolism creates dead space."
+  },
+  {
+   "type": "p",
+   "text": "The working method is to locate the failing step. A low PaO2 with a normal gradient points before the alveolus; a widened gradient points to the alveolar-capillary unit, and the response to oxygen separates shunt from V/Q mismatch and diffusion. A normal PaO2 with hypoxia points to hemoglobin, flow, or the mitochondria. The limits are real: reference values vary with age and source, real patients usually have mixed mechanisms, and the A-a gradient is least reliable on high FiO2."
+  }
+ ],
+ "summary": [
+  "PAO2 = FiO2 x (Patm minus 47) minus PaCO2/0.8, about 100 mmHg at sea level on room air; normal A-a gradient is about 5 to 15 mmHg and widens with age.",
+  "Hypoxemia with a normal gradient comes from low inspired O2 (low PaCO2) or hypoventilation (high PaCO2); a widened gradient means diffusion limitation, V/Q mismatch, or shunt.",
+  "V/Q mismatch is the most common mechanism; shunt is the one that barely improves on 100% O2 because shunted blood never meets the added oxygen.",
+  "Dead space (V/Q approaching infinity, classically embolism) and shunt (V/Q of zero, as in consolidation or edema) both lower PaO2, while PaCO2 is usually normal or low because ventilation rises.",
+  "The flat top of the O2 curve prevents healthy units from offsetting shunt; the nearly linear CO2 curve lets them unload extra CO2.",
+  "N2O and resting O2 are perfusion-limited; CO is diffusion-limited, and O2 becomes diffusion-limited in fibrosis or with exercise at altitude.",
+  "DLCO is low in emphysema, fibrosis, and pulmonary vascular disease, and normal in chronic bronchitis and asthma.",
+  "CaO2 = 1.34 x Hb x SaO2 + 0.003 x PaO2; anemia and CO lower content with a normal PaO2, and pulse oximetry misses CO.",
+  "Circulatory hypoxia has low venous O2 from increased extraction; cyanide gives high venous O2 and lactic acidosis.",
+  "Altitude acclimatization: hyperventilation and respiratory alkalosis, renal bicarbonate excretion, more EPO and 2,3-BPG, and pulmonary vasoconstriction; uneven vasoconstriction causes HAPE."
+ ],
+ "sources": [
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Principles of Gas Exchange; Diffusion of Oxygen and Carbon Dioxide Through the Respiratory Membrane"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Transport of Oxygen and Carbon Dioxide in Blood and Tissue Fluids"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Aviation, High Altitude, and Space Physiology"
+  },
+  {
+   "book": "Boron and Boulpaep Medical Physiology",
+   "where": "Respiratory system: gas exchange, ventilation-perfusion matching, and high altitude"
+  },
+  {
+   "book": "Lippincott Illustrated Reviews: Biochemistry",
+   "where": "Electron transport chain and oxidative phosphorylation, inhibitors of cytochrome c oxidase"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Pulmonary Disease"
+  }
+ ],
+ "verify": [
+  "The age-adjusted upper limit of the A-a gradient (age divided by 4, plus 4) is a common bedside estimate, not a universal standard; confirm whether NABNE expects a specific formula.",
+  "Normal PaO2 and A-a gradient ranges, the normal DLCO (about 25 mL/min/mmHg), and the VD/VT range (about 0.2 to 0.35) vary slightly between sources and laboratories.",
+  "The shunt fraction above which 100% O2 produces little rise in PaO2 is quoted as about 25% to 30% in different texts.",
+  "Barometric pressure at 3,000 m (about 525 mmHg) and the altitude thresholds for acute mountain sickness (about 2,500 m) are approximations from standard tables and consensus statements.",
+  "The CO affinity of hemoglobin relative to O2 is quoted as about 200 to 250 times; the methemoglobin pulse oximetry reading of about 85% is the commonly taught value.",
+  "Net position of the dissociation curve at altitude (right shift from 2,3-BPG against left shift from alkalosis) varies with altitude and is not addressed here; confirm whether NABNE tests it.",
+  "Requested new diagram names for a future revision: va-q-spectrum (dead space, normal, and shunt units with their gas tensions) and capillary-equilibration (PO2 along the pulmonary capillary for N2O, CO, and O2 at rest, in exercise, and in fibrosis)."
+ ]
+}

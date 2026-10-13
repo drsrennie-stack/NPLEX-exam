@@ -1,0 +1,563 @@
+{
+ "unit": "PU-11",
+ "chapter_id": "NPLEX-P1-RESP-11",
+ "topic_id": "NPLEX-P1-RESP-11-01",
+ "title": "Energy Production and the Respiratory System",
+ "subject": "Respiratory System (RESP)",
+ "version": "1.0",
+ "overview": {
+  "intro": "This chapter explains why the body needs oxygen at all. O2 is the final electron acceptor that lets mitochondria make most of the cell's ATP, so failure of O2 delivery or O2 use forces cells onto anaerobic glycolysis and produces lactic acidosis. The chapter then applies that idea to smoke inhalation (cyanide and carbon monoxide), to the respiratory quotient and the CO2 load that different fuels create, to red cell 2,3-BPG and hemoglobin O2 affinity, and to the energy cost of breathing in severe emphysema. Board questions in this area hinge on reading a blood gas, a venous saturation, or a lactate level and working back to the step in the pathway that failed.",
+  "prerequisites": [
+   "Glycolysis, the citric acid cycle, and the electron transport chain",
+   "Oxygen content, the oxyhemoglobin dissociation curve, and P50 (PU-8)",
+   "Alveolar ventilation and the relationship between PaCO2 and CO2 production (PU-6)",
+   "Anion gap and the classification of metabolic acidosis",
+   "Lung mechanics, compliance, and airway resistance (PU-5 and PU-6)"
+  ],
+  "connections": [
+   {
+    "to": "Blood gas transport (PU-8)",
+    "how": "Carbon monoxide and 2,3-BPG both act by changing hemoglobin O2 content or affinity, which this chapter links to cellular energy supply."
+   },
+   {
+    "to": "Gas exchange and tissue perfusion (PU-7)",
+    "how": "O2 delivery and extraction at the tissue level decide when a cell runs short of usable O2 and switches to lactate production."
+   },
+   {
+    "to": "Pulmonary biochemistry and nutrition (PU-9)",
+    "how": "The respiratory quotient ties the fuel a patient burns to the CO2 the lungs must remove."
+   },
+   {
+    "to": "Obstructive pulmonary diseases (PU-14-B)",
+    "how": "Hyperinflation and airflow limitation in emphysema raise the work of breathing, which explains weight loss in advanced disease."
+   },
+   {
+    "to": "Hematology",
+    "how": "Pyruvate kinase and hexokinase deficiencies are red cell glycolytic defects whose effect on 2,3-BPG changes how well patients tolerate anemia."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Cytochrome c oxidase (complex IV)",
+    "def": "The last enzyme of the electron transport chain, which transfers electrons from cytochrome c to O2 to form water while pumping protons."
+   },
+   {
+    "term": "Oxidative phosphorylation",
+    "def": "ATP synthesis by ATP synthase driven by the proton gradient that electron transport builds across the inner mitochondrial membrane."
+   },
+   {
+    "term": "Lactic acidosis",
+    "def": "A high anion gap metabolic acidosis caused by accumulation of lactate and H+, most often from inadequate tissue O2 delivery or use."
+   },
+   {
+    "term": "Histotoxic hypoxia",
+    "def": "Failure of cells to use O2 that is delivered normally, as in cyanide poisoning."
+   },
+   {
+    "term": "Carboxyhemoglobin",
+    "def": "Hemoglobin with carbon monoxide bound to its heme iron, which cannot carry O2 and raises the O2 affinity of the remaining hemes."
+   },
+   {
+    "term": "Respiratory quotient (RQ)",
+    "def": "The ratio of CO2 produced to O2 consumed by metabolism, which depends on the fuel being oxidized."
+   },
+   {
+    "term": "2,3-Bisphosphoglycerate (2,3-BPG)",
+    "def": "A red cell glycolytic intermediate that binds deoxyhemoglobin and lowers its O2 affinity."
+   },
+   {
+    "term": "P50",
+    "def": "The PO2 at which hemoglobin is 50% saturated, normally about 26 to 27 mmHg; a higher P50 means a right shift and lower affinity."
+   },
+   {
+    "term": "Rapoport-Luebering shunt",
+    "def": "The red cell side path of glycolysis in which bisphosphoglycerate mutase converts 1,3-BPG to 2,3-BPG."
+   },
+   {
+    "term": "Work of breathing",
+    "def": "The energy the respiratory muscles spend to overcome elastic recoil and airway resistance during ventilation."
+   },
+   {
+    "term": "Dynamic hyperinflation",
+    "def": "Progressive air trapping that occurs when expiration is too slow to finish before the next breath begins."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-RESP-11-01-C01",
+   "obj": "PU-11.1",
+   "title": "Oxygen as the final electron acceptor and the switch to lactate",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "NADH and FADH2 from glycolysis, beta-oxidation, and the citric acid cycle hand their electrons to the electron transport chain in the inner mitochondrial membrane. Electrons pass from complex I (or II) to coenzyme Q, complex III, cytochrome c, and finally complex IV, cytochrome c oxidase. At complex IV, four electrons and four matrix protons reduce one O2 to two water molecules. Complexes I, III, and IV use the energy of this downhill electron flow to pump protons into the intermembrane space, and ATP synthase lets them flow back to make ATP."
+    },
+    {
+     "type": "p",
+     "text": "O2 is the only acceptor that can take electrons off the end of the chain. Without it, cytochrome c oxidase stays reduced, electrons back up through every complex, proton pumping stops, and ATP synthase runs down. The backlog also means NADH can no longer be reoxidized, so the mitochondrial and cytosolic NADH to NAD+ ratio rises. Complete oxidation of one glucose yields about 30 to 32 ATP; glycolysis alone yields a net 2."
+    },
+    {
+     "type": "h",
+     "text": "The anaerobic switch"
+    },
+    {
+     "type": "p",
+     "text": "Glycolysis needs NAD+ at the glyceraldehyde-3-phosphate dehydrogenase step. When mitochondria cannot accept NADH, lactate dehydrogenase reduces pyruvate to lactate, regenerating NAD+ so glycolysis can keep running. At the same time, falling ATP and rising AMP activate phosphofructokinase-1, so glycolytic flux increases (the Pasteur effect). The cell survives briefly on 2 ATP per glucose, but it must burn glucose many times faster to approach its normal ATP supply."
+    },
+    {
+     "type": "flow",
+     "title": "Tissue hypoxia to lactic acidosis",
+     "steps": [
+      "O2 supply to mitochondria falls below demand",
+      "Complex IV lacks its electron acceptor; the chain stops",
+      "Proton pumping and oxidative ATP synthesis fall",
+      "NADH accumulates and AMP rises",
+      "PFK-1 activated; glycolytic flux increases",
+      "LDH reduces pyruvate to lactate, regenerating NAD+",
+      "Lactate and H+ accumulate: high anion gap acidosis"
+     ],
+     "caption": "Each step follows from the one before: no terminal acceptor, no oxidative ATP, then lactate production to keep glycolysis supplied with NAD+."
+    },
+    {
+     "type": "p",
+     "text": "Lactate and H+ accumulate together, bicarbonate is consumed in buffering, and the unmeasured lactate anion widens the anion gap. Normal blood lactate is below about 2 mmol/L. Because the redox state shifts toward NADH, the lactate to pyruvate ratio rises above its normal value of about 10. The liver (Cori cycle) and kidney normally clear lactate, so liver failure worsens accumulation."
+    },
+    {
+     "type": "table",
+     "title": "Ways tissue O2 supply or use can fail",
+     "cols": [
+      "Mechanism",
+      "Example",
+      "PaO2",
+      "Arterial O2 content"
+     ],
+     "rows": [
+      [
+       "Hypoxemic",
+       "Hypoventilation, V/Q mismatch, high altitude",
+       "Low",
+       "Low"
+      ],
+      [
+       "Anemic",
+       "Severe anemia, carbon monoxide",
+       "Normal",
+       "Low"
+      ],
+      [
+       "Circulatory (stagnant)",
+       "Shock, heart failure, arterial occlusion",
+       "Normal",
+       "Normal"
+      ],
+      [
+       "Histotoxic",
+       "Cyanide",
+       "Normal",
+       "Normal"
+      ]
+     ],
+     "caption": "O2 delivery equals cardiac output times arterial O2 content. Any of the first three lowers delivery; the fourth blocks O2 use at complex IV. All four can produce lactic acidosis (type A, tissue hypoxia)."
+    },
+    {
+     "type": "p",
+     "text": "Tissues normally extract only about 25% of delivered O2, so delivery can fall a long way before consumption suffers. Once extraction reaches its maximum, consumption becomes supply dependent and lactate rises. Red cells, which lack mitochondria, make lactate even when O2 is plentiful, which is why a small baseline lactate is normal. Lactic acidosis without tissue hypoxia (type B), as in liver failure or with metformin, follows the same chemistry through a different cause."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-11-01-C02",
+   "obj": "PU-11.2",
+   "title": "Cyanide and carbon monoxide in smoke inhalation",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Fires that burn nitrogen-containing polymers (polyurethane foam, nylon, acrylic fibers) or wool and silk release hydrogen cyanide through incomplete combustion, and every fire releases carbon monoxide (CO), so a smoke victim may carry both poisons."
+    },
+    {
+     "type": "h",
+     "text": "Cyanide: a pure block of O2 use"
+    },
+    {
+     "type": "p",
+     "text": "Cyanide binds the ferric (Fe3+) iron of heme a3 in cytochrome c oxidase and stops electron transfer to O2. The lungs still oxygenate blood normally, so PaO2 and arterial O2 content are normal, but cells cannot use the O2 they receive. ATP falls, cells switch to anaerobic glycolysis, and lactate rises sharply (histotoxic hypoxia). Because tissues extract little O2, venous blood returns almost as saturated as arterial blood: venous O2 saturation is high, the arteriovenous O2 difference narrows, and venous blood looks bright red. The organs with the highest O2 use, brain and heart, fail first, so headache, confusion, seizures, coma, hypotension, and arrhythmias follow."
+    },
+    {
+     "type": "p",
+     "text": "A small detoxifying pathway exists: the mitochondrial enzyme rhodanese transfers sulfur from thiosulfate to cyanide, forming thiocyanate for renal excretion, but it is limited by the supply of sulfur donors and is quickly overwhelmed."
+    },
+    {
+     "type": "flow",
+     "title": "Cyanide poisoning from smoke inhalation",
+     "steps": [
+      "Burning plastics, foam, wool, or silk release hydrogen cyanide",
+      "Cyanide binds Fe3+ of heme a3 in complex IV",
+      "Electron transport stops; O2 cannot be used",
+      "ATP falls; anaerobic glycolysis and lactate rise",
+      "Unused O2 returns in venous blood: high venous saturation",
+      "Brain and heart fail first: seizures, coma, arrhythmias"
+     ],
+     "caption": "PaO2 stays normal throughout because the lesion is in the mitochondria, not the lung or the blood."
+    },
+    {
+     "type": "h",
+     "text": "Carbon monoxide: two lesions"
+    },
+    {
+     "type": "p",
+     "text": "CO binds the ferrous iron of hemoglobin with an affinity about 200 to 250 times that of O2, forming carboxyhemoglobin. This lowers O2 content, and CO bound at one heme raises the O2 affinity of the remaining hemes, shifting the curve left so tissues unload less of what is left. CO also binds the reduced heme a3 of cytochrome c oxidase and myoglobin, adding a direct block of cellular respiration. PaO2 is normal because PaO2 measures dissolved O2, which CO does not change. Standard pulse oximetry reads carboxyhemoglobin as oxyhemoglobin and gives a falsely normal SpO2; co-oximetry is needed to measure true O2 saturation and the carboxyhemoglobin fraction."
+    },
+    {
+     "type": "table",
+     "title": "Telling the causes of tissue hypoxia apart",
+     "cols": [
+      "Condition",
+      "PaO2",
+      "Arterial O2 content",
+      "Venous O2 saturation",
+      "Lactate"
+     ],
+     "rows": [
+      [
+       "Hypoxemia from lung disease",
+       "Low",
+       "Low",
+       "Low",
+       "High if severe"
+      ],
+      [
+       "Severe anemia",
+       "Normal",
+       "Low",
+       "Low",
+       "High if severe"
+      ],
+      [
+       "Carbon monoxide",
+       "Normal",
+       "Low (true SaO2 low; SpO2 falsely normal)",
+       "Low",
+       "High"
+      ],
+      [
+       "Cyanide",
+       "Normal",
+       "Normal",
+       "High",
+       "High"
+      ]
+     ],
+     "caption": "A normal PaO2 with lactic acidosis points to a problem in O2 carriage or O2 use. A high venous saturation points to failed O2 use, the signature of cyanide."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: O2 content in carbon monoxide poisoning",
+     "text": "A fire victim has hemoglobin 15 g/dL, PaO2 95 mmHg, and carboxyhemoglobin 30%. Pulse oximetry reads 98%, but co-oximetry shows oxyhemoglobin about 68%. Arterial O2 content is 1.34 x Hb x SaO2 plus 0.003 x PaO2: 1.34 x 15 x 0.68 = 13.7, plus 0.3, about 14 mL/dL against a normal of about 20 mL/dL. Content has fallen by almost a third while PaO2 and the oximeter look normal, and the left shift means tissues release less of what remains."
+    },
+    {
+     "type": "stop",
+     "predict": "Two smoke victims both have a normal PaO2 and marked lactic acidosis. Central venous O2 saturation is 90% in one and 50% in the other. Which is more likely dominated by cyanide?",
+     "explain": "The patient at 90%. Cyanide blocks O2 use, so little is extracted and venous blood stays nearly arterial. CO lowers O2 content and unloading, so extraction is high and venous saturation falls.",
+     "check": "Compare with the table on telling the causes of tissue hypoxia apart."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-11-01-C03",
+   "obj": "PU-11.3",
+   "title": "The respiratory quotient and ventilatory demand",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The respiratory quotient (RQ) is the ratio of CO2 produced to O2 consumed by cellular metabolism, VCO2 divided by VO2. A resting adult consumes about 250 mL O2/min and produces about 200 mL CO2/min, so RQ is about 0.8 on a mixed diet. RQ is a property of the fuel: the more oxygen a fuel already contains, the less inhaled O2 it needs for each CO2 it releases."
+    },
+    {
+     "type": "p",
+     "text": "Glucose oxidation is C6H12O6 + 6 O2 giving 6 CO2 + 6 H2O, so RQ is 6/6 = 1.0; carbohydrate supplies enough of its own oxygen to make the water. Fat is highly reduced, mostly carbon and hydrogen. Palmitate (C16H32O2) needs 23 O2 to make 16 CO2, an RQ of 16/23, about 0.7, because much of the inhaled O2 goes to forming water from its hydrogen. Protein falls between, at about 0.8. When excess carbohydrate is converted to fat, an oxygen-rich substrate becomes an oxygen-poor product, so CO2 is released without matching O2 use and whole-body RQ rises above 1.0. In fasting or a ketogenic state, RQ falls toward 0.7."
+    },
+    {
+     "type": "table",
+     "title": "Respiratory quotient by fuel",
+     "cols": [
+      "Fuel or state",
+      "RQ",
+      "CO2 produced per O2 consumed"
+     ],
+     "rows": [
+      [
+       "Fat oxidation (fasting, ketosis)",
+       "About 0.7",
+       "Lowest"
+      ],
+      [
+       "Protein oxidation",
+       "About 0.8",
+       "Intermediate"
+      ],
+      [
+       "Mixed diet",
+       "About 0.8",
+       "Intermediate"
+      ],
+      [
+       "Carbohydrate oxidation",
+       "1.0",
+       "Highest of the oxidized fuels"
+      ],
+      [
+       "Net lipogenesis from excess carbohydrate",
+       "Above 1.0",
+       "CO2 rises without matching O2 use"
+      ]
+     ],
+     "caption": "An RQ above 1.0 cannot come from burning carbohydrate alone; it means net fat synthesis."
+    },
+    {
+     "type": "h",
+     "text": "Why fuel mix changes ventilation"
+    },
+    {
+     "type": "p",
+     "text": "Arterial PCO2 is set by the balance between CO2 production and alveolar ventilation: PaCO2 = 0.863 x VCO2 / VA, with VCO2 in mL/min and VA in L/min. For the same energy yield, carbohydrate generates more CO2 than fat, so a shift toward carbohydrate raises VCO2 and the lungs must increase alveolar ventilation to hold PaCO2 near 40 mmHg. A healthy person does this easily, but a patient with severe COPD, respiratory muscle weakness, or a limited ventilatory reserve may not, and PaCO2 rises."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: CO2 load and PaCO2",
+     "text": "At rest, VCO2 is 200 mL/min and alveolar ventilation is 4.3 L/min, so PaCO2 = 0.863 x 200 / 4.3 = about 40 mmHg. A heavy carbohydrate load raises RQ toward 1.0 and lifts VCO2 to 250 mL/min. If alveolar ventilation cannot rise, PaCO2 = 0.863 x 250 / 4.3 = about 50 mmHg, an acute respiratory acidosis. To keep PaCO2 at 40 mmHg, alveolar ventilation must rise by the same 25%, to about 5.4 L/min, a demand a patient with severe emphysema may not be able to meet."
+    },
+    {
+     "type": "p",
+     "text": "RQ also enters the alveolar gas equation, PAO2 = FiO2 x (PB minus PH2O) minus PaCO2/R. At sea level on room air with PaCO2 40 mmHg, an R of 0.8 gives PAO2 of about 100 mmHg, while an R of 1.0 gives about 110 mmHg. Keep RQ, which describes cell metabolism, separate from the respiratory exchange ratio (RER) measured at the mouth. They match in a steady state, but RER rises above 1.0 during hyperventilation or intense exercise, when bicarbonate buffering of lactic acid releases extra CO2 that metabolism did not produce."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-11-01-C04",
+   "obj": "PU-11.4",
+   "title": "2,3-BPG, hemoglobin O2 affinity, altitude, and pyruvate kinase deficiency",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Mature red cells have no mitochondria, so glycolysis is their only source of ATP. A side path of red cell glycolysis, the Rapoport-Luebering shunt, makes 2,3-bisphosphoglycerate (2,3-BPG). Bisphosphoglycerate mutase converts 1,3-BPG to 2,3-BPG, and a phosphatase activity of the same bifunctional enzyme later converts 2,3-BPG to 3-phosphoglycerate, which rejoins glycolysis. The shunt skips the phosphoglycerate kinase step, so the red cell gives up one ATP for every molecule routed through it. Red cells hold about 4 to 5 mmol/L of 2,3-BPG, roughly one molecule per hemoglobin tetramer."
+    },
+    {
+     "type": "flow",
+     "title": "The red cell 2,3-BPG shunt",
+     "steps": [
+      "Red cell glycolysis produces 1,3-bisphosphoglycerate",
+      "Bisphosphoglycerate mutase converts it to 2,3-BPG",
+      "The phosphoglycerate kinase ATP step is bypassed",
+      "2,3-BPG binds the central cavity of deoxyhemoglobin",
+      "T state stabilized; O2 affinity falls",
+      "P50 rises; curve shifts right; tissues receive more O2"
+     ],
+     "caption": "The shunt trades one ATP for a molecule that improves O2 unloading."
+    },
+    {
+     "type": "h",
+     "text": "How 2,3-BPG lowers affinity"
+    },
+    {
+     "type": "p",
+     "text": "2,3-BPG carries several negative charges and fits the positively charged central cavity between the two beta chains of deoxyhemoglobin. Binding cross-links the beta chains and stabilizes the tense (T) state, which has low O2 affinity. When O2 binds, the molecule shifts to the relaxed (R) state, the cavity narrows, and 2,3-BPG is expelled. Raising 2,3-BPG therefore raises P50 above its normal value of about 26 to 27 mmHg and shifts the oxyhemoglobin curve right, which matters most at tissue PO2, where more O2 is released. Fetal hemoglobin binds 2,3-BPG poorly because its gamma chains replace a positively charged histidine in the cavity with serine, which is why fetal blood has higher O2 affinity."
+    },
+    {
+     "type": "h",
+     "text": "Conditions that change 2,3-BPG"
+    },
+    {
+     "type": "p",
+     "text": "At high altitude, hypoxemia triggers hyperventilation and respiratory alkalosis. A higher red cell pH stimulates phosphofructokinase and bisphosphoglycerate mutase and inhibits the phosphatase, and more deoxyhemoglobin binds free 2,3-BPG and relieves product inhibition, so 2,3-BPG rises within hours to days. This counteracts the left shift that alkalosis alone would cause and improves unloading. The same rise occurs in chronic anemia and chronic hypoxemic lung disease."
+    },
+    {
+     "type": "p",
+     "text": "Pyruvate kinase deficiency, an autosomal recessive defect and the most common glycolytic enzyme cause of hemolytic anemia, blocks the last step of glycolysis. Intermediates above the block, including 1,3-BPG, accumulate and more flux enters the shunt, so 2,3-BPG rises. ATP falls, the membrane cannot maintain its ion gradients and shape, and rigid cells are removed in the spleen (extravascular hemolysis). The right shift lets tissues extract more O2 from each gram of hemoglobin, so patients tolerate their anemia better than the hemoglobin level suggests. Hexokinase deficiency blocks glycolysis above the shunt, lowers 2,3-BPG, and has the opposite effect."
+    },
+    {
+     "type": "table",
+     "title": "Factors that change red cell 2,3-BPG",
+     "cols": [
+      "Condition",
+      "2,3-BPG",
+      "Curve shift",
+      "Reason"
+     ],
+     "rows": [
+      [
+       "High altitude, chronic hypoxemia",
+       "Up",
+       "Right",
+       "Alkalosis and deoxyhemoglobin increase shunt flux"
+      ],
+      [
+       "Chronic anemia",
+       "Up",
+       "Right",
+       "More deoxyhemoglobin binds 2,3-BPG, relieving inhibition"
+      ],
+      [
+       "Pyruvate kinase deficiency",
+       "Up",
+       "Right",
+       "Block below the shunt backs intermediates into it"
+      ],
+      [
+       "Hexokinase deficiency",
+       "Down",
+       "Left",
+       "Block above the shunt starves it of substrate"
+      ],
+      [
+       "Stored banked blood",
+       "Down",
+       "Left",
+       "Acidic storage lowers synthesis over days to weeks"
+      ],
+      [
+       "Chronic acidosis",
+       "Down",
+       "Left (offsets the Bohr effect)",
+       "Low pH inhibits PFK and the mutase"
+      ]
+     ],
+     "caption": "A block below the shunt raises 2,3-BPG; a block above it lowers it."
+    },
+    {
+     "type": "stop",
+     "predict": "Two patients have the same hemoglobin of 8 g/dL from hemolysis, one from pyruvate kinase deficiency and one from hexokinase deficiency. Which tolerates exercise better?",
+     "explain": "The pyruvate kinase deficient patient. The block lies below the shunt, so 2,3-BPG rises, the curve shifts right, and more O2 is unloaded per gram of hemoglobin. Hexokinase deficiency lowers 2,3-BPG and shifts the curve left.",
+     "check": "Compare with the table of factors that change red cell 2,3-BPG."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-11-01-C05",
+   "obj": "PU-11.5",
+   "title": "Work of breathing, energy expenditure, and weight loss in emphysema",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Work of breathing is the energy the respiratory muscles spend to stretch the lungs and chest wall against elastic recoil and to move air against airway resistance. In a healthy person at rest, quiet breathing uses only a few percent of total body O2 consumption, because expiration is passive and inspiration requires little force. Several features of severe emphysema raise this cost."
+    },
+    {
+     "type": "p",
+     "text": "Loss of alveolar walls destroys elastic recoil and removes the radial traction that holds small airways open. Airways collapse during expiration, so air is trapped and expiration is not complete before the next breath begins. This dynamic hyperinflation leaves positive end-expiratory pressure in the alveoli (intrinsic PEEP), which the inspiratory muscles must overcome before any air flows. Hyperinflation also flattens and shortens the diaphragm, placing it at a poor point on its length-tension curve and reducing the pressure it generates for a given effort, so accessory muscles are recruited. Destroyed capillary beds raise dead space, so a larger minute ventilation is needed to clear the same CO2. Each breath costs more, and more breaths are needed."
+    },
+    {
+     "type": "table",
+     "title": "Why each breath costs more in severe emphysema",
+     "cols": [
+      "Change",
+      "Mechanical consequence",
+      "Energy effect"
+     ],
+     "rows": [
+      [
+       "Loss of elastic recoil",
+       "Expiratory airway collapse and air trapping",
+       "Expiration may become active"
+      ],
+      [
+       "Dynamic hyperinflation",
+       "Intrinsic PEEP must be overcome first",
+       "Added inspiratory threshold load"
+      ],
+      [
+       "Flattened, shortened diaphragm",
+       "Poor length-tension position",
+       "More effort per unit of pressure"
+      ],
+      [
+       "Accessory muscle use",
+       "Less efficient chest wall movement",
+       "Higher O2 cost of breathing"
+      ],
+      [
+       "Increased dead space",
+       "Higher minute ventilation for the same CO2",
+       "More breaths per minute"
+      ]
+     ],
+     "caption": "Several independent mechanisms multiply the O2 cost of ventilation."
+    },
+    {
+     "type": "p",
+     "text": "The result is a resting energy expenditure that is commonly above predicted. Intake often falls at the same time: dyspnea worsens during eating, chewing and swallowing interrupt breathing, and the low, flat diaphragm compresses the stomach and causes early fullness. Systemic inflammation, with cytokines such as tumor necrosis factor alpha and interleukin 6, adds protein breakdown, and hypoxemia and inactivity add further muscle loss. The energy gap is filled by breaking down fat and skeletal muscle, including the respiratory muscles themselves."
+    },
+    {
+     "type": "cycle",
+     "title": "The energy cycle of pulmonary cachexia",
+     "steps": [
+      "Hyperinflation and airflow limitation raise work of breathing",
+      "Resting energy expenditure rises",
+      "Dyspnea and early fullness reduce intake",
+      "Fat and muscle, including respiratory muscle, are catabolized",
+      "Weaker respiratory muscles raise relative effort per breath"
+     ],
+     "caption": "Each turn of the cycle makes the next breath relatively more costly."
+    },
+    {
+     "type": "p",
+     "text": "This mechanism underlies the thin, dyspneic patient with predominant emphysema, in contrast to the patient with predominant chronic bronchitis, who is more often normal weight or heavier. Low body mass index and loss of fat-free mass independently predict worse survival in COPD, and body mass index is one component of the BODE index. Fuel choice links back to the respiratory quotient: a high carbohydrate load raises CO2 production, adding ventilatory work for a patient who has little reserve."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "The chapter rests on one biochemical fact: O2 is consumed only at complex IV, so every route to cellular energy failure ends in the same place. Pulmonary disease lowers PaO2, anemia and CO lower O2 content, shock lowers flow, and cyanide blocks use, yet all of them push cells into anaerobic glycolysis and produce the same high anion gap lactic acidosis. The blood gas, co-oximetry, and venous saturation distinguish them by showing which link in the chain from air to mitochondrion has failed. The brain and heart, with the highest O2 use, show injury first."
+  },
+  {
+   "type": "p",
+   "text": "Metabolism and ventilation are coupled in both directions. The fuel being burned sets CO2 production and therefore the ventilation needed, and in emphysema the act of ventilating becomes a large enough energy cost to cause weight loss. Red cell glycolysis, through 2,3-BPG, tunes hemoglobin so that delivery adapts to altitude and anemia. The limit of these models is that real patients combine mechanisms, such as a smoke victim with CO, cyanide, and lung injury at once, so findings must be read together rather than one value at a time."
+  }
+ ],
+ "summary": [
+  "O2 is the final electron acceptor at complex IV; without it the electron transport chain stops, oxidative ATP synthesis fails, and NADH accumulates.",
+  "Lactate dehydrogenase reduces pyruvate to lactate to regenerate NAD+ for glycolysis, producing a high anion gap metabolic acidosis (lactate normally below about 2 mmol/L).",
+  "Hypoxemic, anemic, circulatory, and histotoxic hypoxia all end in lactic acidosis; PaO2 is low only in the hypoxemic type.",
+  "Cyanide binds Fe3+ of heme a3, so PaO2 and O2 content are normal, venous O2 saturation is high, and lactate rises.",
+  "CO forms carboxyhemoglobin, lowers O2 content, shifts the curve left, and also binds complex IV; PaO2 stays normal and pulse oximetry reads falsely normal.",
+  "RQ is VCO2/VO2: 1.0 for carbohydrate, about 0.7 for fat, about 0.8 for protein and a mixed diet, and above 1.0 during net lipogenesis.",
+  "PaCO2 is proportional to VCO2 divided by alveolar ventilation, so a higher carbohydrate load demands more ventilation.",
+  "2,3-BPG from the Rapoport-Luebering shunt stabilizes the T state and shifts the curve right; it rises with altitude, anemia, and pyruvate kinase deficiency and falls with hexokinase deficiency and stored blood.",
+  "In severe emphysema, hyperinflation, intrinsic PEEP, a flattened diaphragm, and increased dead space raise the work of breathing and resting energy expenditure, causing weight loss and muscle wasting."
+ ],
+ "sources": [
+  {
+   "book": "Lippincott Illustrated Reviews: Biochemistry",
+   "where": "Bioenergetics and Oxidative Phosphorylation"
+  },
+  {
+   "book": "Lippincott Illustrated Reviews: Biochemistry",
+   "where": "Glycolysis, including the red cell 2,3-BPG pathway and pyruvate kinase deficiency"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Transport of Oxygen and Carbon Dioxide in Blood and Tissue Fluids"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Aviation, High Altitude, and Space Physiology"
+  },
+  {
+   "book": "Boron and Boulpaep Medical Physiology",
+   "where": "Respiratory physiology: gas exchange, oxygen transport, and mechanics of breathing"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "The Lung, section on chronic obstructive pulmonary disease"
+  }
+ ],
+ "verify": [
+  "ATP yield per glucose is given as about 30 to 32, using P/O ratios of about 2.5 for NADH and 1.5 for FADH2; older sources give 36 to 38. Confirm which value NABNE expects.",
+  "Upper limit of normal blood lactate (about 2 mmol/L) and the normal anion gap range differ between laboratories.",
+  "Hemoglobin affinity for CO is quoted from about 200 to 250 times that of O2; this chapter uses that range.",
+  "The degree and timing of the 2,3-BPG rise at altitude, and the red cell concentration of about 4 to 5 mmol/L, vary between sources.",
+  "Percent of total O2 consumption used for quiet breathing (often quoted as 2% to 5%) and the size of the rise in resting energy expenditure in severe COPD vary between studies; no single figure is stated here.",
+  "Confirm whether NABNE Part I expects the eponym Rapoport-Luebering shunt and the BODE index, or only the descriptive terms.",
+  "Requested new diagram names for a future revision: etc-chain (complexes I to IV, coenzyme Q, cytochrome c, ATP synthase, with cyanide and CO sites marked) and oxyhb-curve-shifts (right and left shifted curves with P50 marked)."
+ ]
+}

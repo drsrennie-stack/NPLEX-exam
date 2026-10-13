@@ -1,0 +1,621 @@
+{
+ "unit": "PU-5",
+ "chapter_id": "NPLEX-P1-RESP-05",
+ "topic_id": "NPLEX-P1-RESP-05-01",
+ "title": "Pulmonary Blood Flow and Airflow",
+ "subject": "Respiratory System (RESP)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter explains how blood and air move through the lungs and what sets the resistance to each. It covers the two blood supplies of the lung, the unusual response of pulmonary vessels to hypoxia, the effect of gravity on regional perfusion and ventilation, the anatomy of the airway tree, the physics of airway resistance, and how lung volume changes pulmonary vascular resistance. Board questions use these ideas to explain why most pulmonary emboli do not infarct, how chronic hypoxia leads to cor pulmonale, why reactivation tuberculosis favors the apex, and why narrowing an airway slightly reduces airflow so much.",
+  "prerequisites": [
+   "Pressure, flow, and resistance in the circulation (flow equals pressure difference divided by resistance)",
+   "Right and left heart pressures and the pulmonary and systemic circuits",
+   "Airway histology from trachea to alveolus (PU-2)",
+   "Thoracic anatomy, hilum, and pleura (PU-4)",
+   "G protein signaling: Gq, IP3, and Ca2+; Gs, cAMP, and protein kinase A"
+  ],
+  "connections": [
+   {
+    "to": "Ventilation and lung mechanics (PU-6)",
+    "how": "Lung volume, pleural pressure, and compliance determine both regional ventilation and the caliber of airways and extra-alveolar vessels."
+   },
+   {
+    "to": "Gas exchange and hypoxemia (PU-7)",
+    "how": "West zones and hypoxic vasoconstriction set the regional ventilation-perfusion ratios that decide alveolar and arterial PO2."
+   },
+   {
+    "to": "Cardiovascular hemodynamics",
+    "how": "Pulmonary vascular resistance is the afterload of the right ventricle, so lung disease that raises it causes right ventricular hypertrophy and failure."
+   },
+   {
+    "to": "Pulmonary pathology (PU-14)",
+    "how": "Embolism, infarction, chronic obstructive disease, asthma, and tuberculosis are explained by the flow and resistance principles in this chapter."
+   },
+   {
+    "to": "Neonatal transition",
+    "how": "The fall in pulmonary vascular resistance at the first breath reverses hypoxic vasoconstriction in the fetal lung and redirects blood through the lungs."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Pulmonary vascular resistance (PVR)",
+    "def": "Mean pulmonary artery pressure minus left atrial pressure, divided by pulmonary blood flow; the afterload of the right ventricle."
+   },
+   {
+    "term": "Bronchial circulation",
+    "def": "Systemic arterial supply from the thoracic aorta that nourishes the airway walls, connective tissue, and visceral pleura."
+   },
+   {
+    "term": "Recruitment and distension",
+    "def": "Opening of previously closed pulmonary capillaries and widening of open ones, which lower PVR as flow or pressure rises."
+   },
+   {
+    "term": "Hypoxic pulmonary vasoconstriction",
+    "def": "Constriction of small pulmonary arteries in response to low alveolar PO2, diverting blood toward better ventilated alveoli."
+   },
+   {
+    "term": "Cor pulmonale",
+    "def": "Right ventricular hypertrophy or dilation caused by pulmonary hypertension from disease of the lungs or pulmonary vessels, not from left heart disease."
+   },
+   {
+    "term": "West zones",
+    "def": "Regions of the upright lung defined by the order of alveolar, pulmonary arterial, and pulmonary venous pressures."
+   },
+   {
+    "term": "Ventilation-perfusion ratio (V/Q)",
+    "def": "Alveolar ventilation divided by capillary blood flow in a region; about 0.8 for the whole lung."
+   },
+   {
+    "term": "Anatomic dead space",
+    "def": "Volume of the conducting airways, about 150 mL in an adult, which moves gas without exchanging it."
+   },
+   {
+    "term": "Poiseuille law",
+    "def": "For laminar flow in a tube, resistance equals 8 times viscosity times length divided by pi times the radius to the fourth power."
+   },
+   {
+    "term": "Radial traction",
+    "def": "Outward pull of surrounding lung tissue on airways and extra-alveolar vessels, which increases as lung volume increases."
+   },
+   {
+    "term": "Functional residual capacity (FRC)",
+    "def": "Lung volume at the end of a quiet expiration, where lung recoil and chest wall recoil balance."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-RESP-05-01-C01",
+   "obj": "PU-5.1",
+   "title": "Pulmonary and bronchial circulations and why emboli rarely infarct",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The lung receives blood from two separate systems. The pulmonary circulation carries the entire right ventricular output through the alveolar capillaries for gas exchange. The bronchial circulation is a small systemic supply, about 1% to 2% of cardiac output, that nourishes the tissue of the lung itself."
+    },
+    {
+     "type": "p",
+     "text": "Because the pulmonary circuit must accept the whole cardiac output, it is built for low resistance. Its arteries are short, wide, and thin walled with little smooth muscle, and its capillary network is vast. Pulmonary artery pressure is about 25/8 mmHg (mean about 15 mmHg) against a left atrial pressure of about 5 mmHg, so a pressure drop of only about 10 mmHg drives the full cardiac output. Pulmonary vascular resistance (PVR) is therefore about one tenth of systemic resistance. When cardiac output rises, closed capillaries open (recruitment) and open capillaries widen (distension), so PVR falls and pressure rises only a little. Pulmonary capillary pressure stays near 7 mmHg, well below plasma oncotic pressure, which keeps the alveoli dry."
+    },
+    {
+     "type": "table",
+     "title": "Pulmonary versus bronchial circulation",
+     "cols": [
+      "Feature",
+      "Pulmonary",
+      "Bronchial"
+     ],
+     "rows": [
+      [
+       "Source",
+       "Right ventricle through the pulmonary trunk",
+       "Thoracic aorta; the right bronchial artery often arises from the third right posterior intercostal artery or a common trunk"
+      ],
+      [
+       "Pressure",
+       "Low, mean about 15 mmHg",
+       "Systemic, mean about 90 to 95 mmHg"
+      ],
+      [
+       "Blood carried",
+       "Mixed venous blood",
+       "Oxygenated arterial blood"
+      ],
+      [
+       "Supplies",
+       "Alveolar capillaries for gas exchange",
+       "Bronchi and bronchioles, connective tissue, visceral pleura, lymph nodes"
+      ],
+      [
+       "Venous return",
+       "Pulmonary veins to the left atrium",
+       "Hilar bronchial veins to the azygos and accessory hemiazygos veins; most deeper bronchial blood enters pulmonary veins"
+      ]
+     ],
+     "caption": "Bronchial venous blood that drains into the pulmonary veins is a small normal shunt that keeps arterial PO2 slightly below alveolar PO2."
+    },
+    {
+     "type": "p",
+     "text": "Lung tissue therefore has three sources of oxygen: pulmonary blood, bronchial blood, and the alveolar gas itself. When an embolus blocks a branch of the pulmonary artery, bronchial flow and alveolar oxygen keep the parenchyma alive, so only about 10% of emboli cause infarction. The blocked region becomes alveolar dead space, ventilated but not perfused, and the redirected flow overperfuses the remaining lung, which lowers PaO2."
+    },
+    {
+     "type": "flow",
+     "title": "When a pulmonary embolus causes infarction",
+     "steps": [
+      "Embolus occludes a medium or small pulmonary artery",
+      "Bronchial flow already reduced, as in left heart failure",
+      "Parenchyma beyond the block becomes ischemic and necrotic",
+      "Bronchial blood leaks into the dead zone: hemorrhagic infarct",
+      "Wedge shape with its base on the pleura",
+      "Fibrinous pleuritis: pleuritic pain, friction rub, hemoptysis"
+     ],
+     "caption": "Infarction needs both circulations to fail; the infarct is red because bronchial blood keeps entering it, and it later organizes into a scar."
+    },
+    {
+     "type": "p",
+     "text": "Infarction is more likely when the bronchial circulation or cardiac output is already compromised, as in left heart failure, or with underlying lung disease. The infarct follows the conical territory of the occluded artery, so it is wedge shaped with its base at the pleura, often in the lower lobes, which receive the most blood flow. The bronchial arteries also explain why they, not the pulmonary arteries, are the usual source of massive hemoptysis: they carry systemic pressure and enlarge in chronic inflammatory disease such as bronchiectasis."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-05-01-C02",
+   "obj": "PU-5.2",
+   "title": "Hypoxic pulmonary vasoconstriction and cor pulmonale",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Small pulmonary arteries constrict when the PO2 of the alveoli around them falls, especially below about 70 mmHg. The main stimulus is alveolar PO2, which reaches the arteriolar smooth muscle by diffusion; mixed venous PO2 contributes less. Hypercapnia and acidosis strengthen the response. This is the reverse of the systemic response, and it makes sense once the purpose is clear: a hypoxic systemic tissue needs more blood to deliver oxygen, but a poorly ventilated alveolus cannot load oxygen into the blood passing it, so the lung sends that blood elsewhere."
+    },
+    {
+     "type": "flow",
+     "title": "Hypoxic pulmonary vasoconstriction",
+     "steps": [
+      "Low alveolar PO2 reaches pulmonary arteriolar smooth muscle",
+      "Oxygen-sensitive K+ channels close",
+      "Membrane depolarizes",
+      "L-type Ca2+ channels open and Ca2+ enters",
+      "Smooth muscle contracts, local resistance rises",
+      "Blood shifts to well ventilated alveoli; V/Q matching improves"
+     ],
+     "caption": "Mitochondria are thought to act as the oxygen sensor that signals to these channels; the carotid body glomus cell uses a similar K+ channel mechanism."
+    },
+    {
+     "type": "table",
+     "title": "Hypoxia in the pulmonary and systemic beds",
+     "cols": [
+      "Feature",
+      "Pulmonary arterioles",
+      "Systemic arterioles"
+     ],
+     "rows": [
+      [
+       "Response to hypoxia",
+       "Constriction",
+       "Dilation"
+      ],
+      [
+       "Membrane effect",
+       "K+ channels close, depolarization, Ca2+ entry",
+       "KATP channels open, hyperpolarization, less Ca2+ entry"
+      ],
+      [
+       "Other mediators",
+       "Endothelin release and reduced nitric oxide sustain it",
+       "Adenosine, nitric oxide, H+, CO2, lactate"
+      ],
+      [
+       "Purpose",
+       "Match perfusion to ventilation",
+       "Match flow to tissue oxygen demand"
+      ]
+     ],
+     "caption": "The same stimulus produces opposite effects because the two beds serve opposite goals."
+    },
+    {
+     "type": "p",
+     "text": "Before birth this response keeps PVR high, because the lungs are fluid filled and hypoxic, so most right ventricular output crosses the ductus arteriosus. With the first breaths alveolar PO2 rises, the vessels dilate, and PVR falls sharply."
+    },
+    {
+     "type": "p",
+     "text": "Regional hypoxia, such as one consolidated lobe, constricts only local vessels and protects PaO2. Global alveolar hypoxia, as in chronic obstructive pulmonary disease (COPD), obstructive sleep apnea, obesity hypoventilation, or residence at high altitude, constricts the whole pulmonary bed at once. Pulmonary artery pressure rises. With time the arteries remodel: medial smooth muscle hypertrophies, muscle extends into normally nonmuscular arterioles, and the intima thickens, so the hypertension becomes partly fixed. Hypoxia also stimulates erythropoietin, and the resulting polycythemia raises blood viscosity and PVR further. In emphysema, destruction of alveolar walls also removes capillary bed."
+    },
+    {
+     "type": "flow",
+     "title": "Chronic alveolar hypoxia to cor pulmonale",
+     "steps": [
+      "Chronic alveolar hypoxia: COPD, sleep apnea, high altitude",
+      "Constriction throughout the pulmonary arterial bed",
+      "Pulmonary hypertension; mean pressure above about 20 mmHg",
+      "Vascular remodeling: medial hypertrophy, muscularized arterioles",
+      "Higher right ventricular afterload: concentric RV hypertrophy",
+      "RV failure: raised JVP, hepatomegaly, peripheral edema"
+     ],
+     "caption": "Cor pulmonale is right heart disease caused by lung or pulmonary vascular disease, not by left heart failure."
+    },
+    {
+     "type": "p",
+     "text": "The findings follow from the mechanism. A loud pulmonic component of S2 reflects forceful closure of the pulmonic valve under high pressure. A left parasternal heave reflects the hypertrophied right ventricle. The ECG may show right axis deviation, a dominant R wave in V1, and tall P waves in lead II from right atrial enlargement. When the ventricle fails, raised venous pressure produces jugular distension, hepatic congestion, and dependent edema."
+    },
+    {
+     "type": "stop",
+     "predict": "A patient has pneumonia confined to the right lower lobe. Predict how flow to that lobe changes and what would happen to PaO2 if that response were lost.",
+     "explain": "Alveolar hypoxia in the lobe constricts its arterioles, diverting blood to ventilated lung. Without the response, more blood would pass unventilated alveoli, acting as a shunt, and PaO2 would fall further.",
+     "check": "Compare with the first flow figure and the purpose row of the table."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-05-01-C03",
+   "obj": "PU-5.3",
+   "title": "West zones and regional ventilation-perfusion",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "In the upright lung, gravity adds hydrostatic pressure to blood in the pulmonary vessels, about 0.74 mmHg for every centimeter below the heart. The lung extends roughly 20 cm above to 10 cm below the pulmonary artery, so vascular pressure is about 15 mmHg lower at the apex and about 8 mmHg higher at the base than at heart level. Alveolar pressure, by contrast, is the same throughout the lung (atmospheric at rest between breaths). Because a low-pressure circuit has little pressure to spare, the order of alveolar (PA), arterial (Pa), and venous (Pv) pressures changes with height, and that order decides blood flow."
+    },
+    {
+     "type": "table",
+     "title": "West zones of the upright lung",
+     "cols": [
+      "Zone",
+      "Pressure order",
+      "What controls flow",
+      "Where it occurs"
+     ],
+     "rows": [
+      [
+       "Zone 1",
+       "PA > Pa > Pv",
+       "No flow; capillaries collapsed; alveolar dead space",
+       "Apex only when Pa falls (hemorrhage, shock) or PA rises (positive pressure ventilation)"
+      ],
+      [
+       "Zone 2",
+       "Pa > PA > Pv",
+       "Arterial minus alveolar pressure; venous pressure has no effect",
+       "Upper and middle lung; at the apex flow may occur only in systole"
+      ],
+      [
+       "Zone 3",
+       "Pa > Pv > PA",
+       "Arterial minus venous pressure; vessels fully open",
+       "Lower lung, which receives the most flow"
+      ]
+     ],
+     "caption": "Moving down the lung, alveolar pressure drops from first to last place in the order. Zone 1 is absent in a healthy upright person at rest."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: when the apex becomes zone 1",
+     "text": "Pulmonary artery pressure at heart level is 25/8 mmHg. The apex lies about 20 cm higher, which subtracts about 15 mmHg, so apical arterial pressure is about 10 mmHg in systole and about -7 mmHg in diastole. Alveolar pressure is 0. The capillaries open in systole (Pa > PA, zone 2) and collapse in diastole, so apical flow is intermittent. After a large hemorrhage, pulmonary artery pressure falls to about 15/4 mmHg; apical systolic pressure becomes about 0, never exceeding alveolar pressure, so the apex is zone 1 throughout the cycle. Ventilated but unperfused, it adds alveolar dead space. Raising alveolar pressure with positive pressure ventilation has the same effect."
+    },
+    {
+     "type": "p",
+     "text": "Ventilation also increases toward the base. Pleural pressure is about -10 cmH2O at the apex and about -2.5 cmH2O at the base because the lung hangs in the chest, so apical alveoli are already more inflated at rest and sit on the flat, stiff upper part of the pressure-volume curve. Basal alveoli are smaller and sit on the steep part, so each breath expands them more. Perfusion, however, rises far more steeply down the lung than ventilation does. As a result V/Q falls from about 3.3 at the apex to about 0.6 at the base, averaging about 0.8."
+    },
+    {
+     "type": "table",
+     "title": "Apex versus base in the upright lung",
+     "cols": [
+      "Feature",
+      "Apex",
+      "Base"
+     ],
+     "rows": [
+      [
+       "Ventilation per unit volume",
+       "Lower",
+       "Higher"
+      ],
+      [
+       "Perfusion per unit volume",
+       "Much lower",
+       "Much higher"
+      ],
+      [
+       "V/Q",
+       "About 3.3",
+       "About 0.6"
+      ],
+      [
+       "Alveolar PO2",
+       "Highest, about 130 mmHg",
+       "Lowest, about 90 mmHg"
+      ],
+      [
+       "Alveolar PCO2",
+       "Lowest, about 28 mmHg",
+       "Highest, about 42 mmHg"
+      ]
+     ],
+     "caption": "A high V/Q region behaves like inspired air; a low V/Q region behaves like mixed venous blood."
+    },
+    {
+     "type": "p",
+     "text": "Mycobacterium tuberculosis is an obligate aerobe, and reactivation (secondary) tuberculosis favors the apical and posterior segments of the upper lobes, where alveolar PO2 is highest. Primary infection instead seeds the lower part of the upper lobe or upper part of the lower lobe, where more inhaled air, and therefore more inhaled bacilli, arrives. During exercise, higher pulmonary artery pressure recruits apical capillaries and makes V/Q more uniform; lying supine reduces the vertical gradient."
+    },
+    {
+     "type": "stop",
+     "predict": "Predict the effect of a sudden fall in pulmonary artery pressure on the apex of an upright patient receiving positive pressure ventilation.",
+     "explain": "Lower arterial pressure and higher alveolar pressure both push the apex toward PA > Pa, creating zone 1 with no flow and more dead space.",
+     "check": "Compare with the West zone table and the worked example."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-05-01-C04",
+   "obj": "PU-5.4",
+   "title": "Conducting and respiratory zones and where airway resistance lies",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The airway tree branches by repeated division, about 23 generations from trachea to alveolar sacs in the classic Weibel model. The first part, the conducting zone, moves, warms, humidifies, and filters air but exchanges no gas. The second part, the respiratory zone, has alveoli in its walls and exchanges gas with capillary blood."
+    },
+    {
+     "type": "table",
+     "title": "Conducting and respiratory zones",
+     "cols": [
+      "Feature",
+      "Conducting zone",
+      "Respiratory zone"
+     ],
+     "rows": [
+      [
+       "Structures",
+       "Trachea, main, lobar, and segmental bronchi, small bronchi, bronchioles, terminal bronchioles",
+       "Respiratory bronchioles, alveolar ducts, alveolar sacs and alveoli"
+      ],
+      [
+       "Generations (approximate)",
+       "0 to 16",
+       "17 to 23"
+      ],
+      [
+       "Gas exchange",
+       "None",
+       "Yes"
+      ],
+      [
+       "Wall support",
+       "Cartilage in trachea and bronchi; bronchioles have none and rely on radial traction",
+       "Alveolar walls with elastic fibers; no cartilage"
+      ],
+      [
+       "Gas movement",
+       "Bulk flow",
+       "Mostly diffusion, because total cross-section is enormous"
+      ],
+      [
+       "Volume",
+       "Anatomic dead space, about 150 mL",
+       "Most of the lung volume, about 3 L at FRC"
+      ]
+     ],
+     "caption": "The terminal bronchiole is the last purely conducting airway; the respiratory bronchiole is the first with alveoli."
+    },
+    {
+     "type": "p",
+     "text": "The anatomic dead space matters because each breath first pushes in the 150 mL of used air left in the conducting airways. With a tidal volume of 500 mL, only about 350 mL of fresh air reaches the alveoli, so alveolar ventilation at 12 breaths per minute is about 4.2 L/min rather than 6 L/min. Rapid shallow breathing wastes a larger fraction of each breath on dead space. Anatomic dead space rises slightly with lung volume and neck extension, which stretch the airways. Added to the alveolar dead space of ventilated but unperfused alveoli (C03), it forms the physiologic dead space (PU-6)."
+    },
+    {
+     "type": "p",
+     "text": "It seems that the narrowest airways should resist airflow most, because resistance of a single tube rises steeply as its radius falls (C05). But airways at each generation are arranged in parallel, and the combined resistance of n identical tubes in parallel equals one tube's resistance divided by n. The number of airways roughly doubles with each generation while each one narrows only modestly, so after the first several generations total cross-sectional area expands enormously. Total resistance therefore peaks in the medium-sized bronchi, around the segmental bronchi to about the seventh generation, and airways smaller than about 2 mm in diameter contribute less than 20% of the total. Flow in the trachea and large bronchi is also partly turbulent, which adds to resistance there."
+    },
+    {
+     "type": "flow",
+     "title": "Why total resistance peaks in medium-sized bronchi",
+     "steps": [
+      "Trachea: one wide tube, low resistance",
+      "Medium bronchi: narrower tubes, still few in parallel",
+      "Total resistance reaches its maximum here",
+      "Bronchioles: tiny radius but thousands in parallel",
+      "Huge total cross-section, low combined resistance",
+      "Respiratory zone: flow so slow that diffusion takes over"
+     ],
+     "caption": "Total resistance of a generation is the single-tube resistance divided by the number of tubes in parallel."
+    },
+    {
+     "type": "p",
+     "text": "This has a practical consequence. Disease that begins in the small airways, as in early chronic bronchitis in smokers, can narrow many bronchioles while hardly changing total resistance, so routine spirometry stays normal until the disease is advanced. The small airways are therefore called the quiet zone of the lung."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-05-01-C05",
+   "obj": "PU-5.5",
+   "title": "Poiseuille law and what changes airway resistance",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Airflow follows the same relationship as blood flow: flow equals the pressure difference between mouth and alveoli divided by airway resistance. For laminar flow through a tube, Poiseuille law gives resistance as R = 8 x viscosity x length / (pi x r^4). Radius dominates because it is raised to the fourth power. Halving the radius raises resistance 2 x 2 x 2 x 2 = 16-fold, so at the same driving pressure flow falls to one sixteenth. Normal total airway resistance is low, about 1.5 to 2 cmH2O per L/s, so quiet breathing needs only about 1 to 2 cmH2O of pressure."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: a small change in radius",
+     "text": "Bronchoconstriction narrows the medium bronchi so their radius falls by 20%, to 0.8 of normal. Resistance changes by 1 / (0.8 x 0.8 x 0.8 x 0.8) = 1 / 0.41, about 2.4 times normal. If the patient keeps the same alveolar driving pressure, airflow falls to about 41% of normal. To restore normal flow, the respiratory muscles must generate about 2.4 times the pressure gradient. A modest change in airway caliber therefore produces a large rise in the work of breathing."
+    },
+    {
+     "type": "p",
+     "text": "Poiseuille law strictly applies only to laminar flow. Whether flow is laminar or turbulent is predicted by the Reynolds number, which rises with gas density, velocity, and airway diameter and falls with viscosity. In the trachea and large bronchi, where velocity is high, flow is turbulent or transitional; there the pressure needed rises with the square of flow, and resistance depends on gas density rather than viscosity. In the small airways, where velocity is very low, flow is laminar and density matters little."
+    },
+    {
+     "type": "table",
+     "title": "Factors that change airway resistance",
+     "cols": [
+      "Factor",
+      "Effect on resistance",
+      "Mechanism"
+     ],
+     "rows": [
+      [
+       "Vagal acetylcholine on M3 receptors",
+       "Increases",
+       "Gq, IP3, rise in intracellular Ca2+, smooth muscle contraction"
+      ],
+      [
+       "Histamine, leukotrienes, irritants",
+       "Increases",
+       "Smooth muscle contraction, mucosal edema, mucus in the lumen"
+      ],
+      [
+       "Beta-2 stimulation by circulating epinephrine",
+       "Decreases",
+       "Gs, cAMP, protein kinase A, smooth muscle relaxation"
+      ],
+      [
+       "High lung volume",
+       "Decreases",
+       "Greater radial traction holds airways open"
+      ],
+      [
+       "Low lung volume",
+       "Increases",
+       "Less traction; small airways may close near residual volume"
+      ],
+      [
+       "Denser gas (diving at depth)",
+       "Increases",
+       "More turbulence and density-dependent resistance in large airways"
+      ],
+      [
+       "Low-density gas (helium-oxygen)",
+       "Decreases",
+       "Less turbulence; effect is greatest where flow is turbulent"
+      ]
+     ],
+     "caption": "Airway smooth muscle has little direct sympathetic innervation; its beta-2 receptors respond mainly to circulating epinephrine."
+    },
+    {
+     "type": "p",
+     "text": "Lung volume acts mechanically. Bronchioles lack cartilage, so their caliber depends on the outward pull of the alveolar walls attached to them. As the lung inflates, that radial traction widens them and resistance falls; as volume falls toward residual volume, resistance rises steeply. People with asthma often breathe at a higher lung volume during an attack, which partly offsets narrowing by increasing traction. In emphysema, destruction of alveolar walls removes that traction, so the airways narrow and collapse during expiration."
+    },
+    {
+     "type": "p",
+     "text": "Asthma combines several of these mechanisms: smooth muscle contraction, mucosal edema, and mucus plugging each reduce radius, and because resistance scales with the fourth power, their effects multiply. Wheezing is the sound of air forced at high velocity through narrowed, oscillating airways. Expiration is affected most, because intrathoracic airways are narrower when pleural pressure is less negative."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-05-01-C06",
+   "obj": "PU-5.6",
+   "title": "Pulmonary vascular resistance and lung volume",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Pulmonary vessels sit in two different mechanical settings, and lung inflation affects them in opposite ways. Alveolar vessels are the capillaries in the alveolar walls; they are surrounded by alveolar pressure and are stretched along their length and flattened as the alveoli expand. Extra-alveolar vessels are the arteries, arterioles, and veins in the interstitium; they are tethered to the surrounding lung, so radial traction pulls them open as the lung inflates and lets them narrow as it deflates."
+    },
+    {
+     "type": "table",
+     "title": "Alveolar and extra-alveolar vessels",
+     "cols": [
+      "Feature",
+      "Alveolar vessels",
+      "Extra-alveolar vessels"
+     ],
+     "rows": [
+      [
+       "Location",
+       "Capillaries in alveolar walls",
+       "Arteries, arterioles, veins in the interstitium"
+      ],
+      [
+       "Surrounding pressure",
+       "Alveolar pressure",
+       "Interstitial pressure, which follows pleural pressure"
+      ],
+      [
+       "At high lung volume",
+       "Stretched and compressed: resistance rises",
+       "Pulled open: resistance falls"
+      ],
+      [
+       "At low lung volume",
+       "Open and wider: resistance falls",
+       "Lose traction and narrow: resistance rises"
+      ]
+     ],
+     "caption": "Total PVR is the sum of these two resistances in series."
+    },
+    {
+     "type": "p",
+     "text": "Because the two components move in opposite directions, total PVR plotted against lung volume forms a U-shaped curve with its lowest point near functional residual capacity (FRC), the volume at which a person rests at the end of a quiet breath. Below FRC, narrowing of extra-alveolar vessels dominates. Their own smooth muscle tone and elastic recoil add to the narrowing, and collapsed alveoli become hypoxic, which adds active hypoxic vasoconstriction (C02). Above FRC, compression of alveolar capillaries dominates and resistance rises again toward total lung capacity."
+    },
+    {
+     "type": "p",
+     "text": "These passive effects explain several clinical patterns of right ventricular strain. Lobar collapse (atelectasis) raises PVR through loss of traction and local hypoxia. Hyperinflation in severe COPD, and large tidal volumes or high end-expiratory pressure during mechanical ventilation, raise PVR by compressing alveolar capillaries and also convert more lung to zone 1 or zone 2 (C03). In each case right ventricular afterload rises."
+    },
+    {
+     "type": "p",
+     "text": "Lung volume is one of several passive influences on PVR. Rising pulmonary artery or left atrial pressure lowers PVR by recruitment and distension (C01). Active influences act on vascular smooth muscle: nitric oxide and prostacyclin from the endothelium dilate, while hypoxia, endothelin-1, and thromboxane A2 constrict. Autonomic nerves have only a weak effect on the pulmonary vessels."
+    },
+    {
+     "type": "stop",
+     "predict": "Predict how PVR changes when a patient breathes from FRC down to residual volume, and when the same patient inhales to total lung capacity.",
+     "explain": "Both raise PVR. Near residual volume extra-alveolar vessels narrow from lost traction; near total lung capacity alveolar capillaries are stretched and compressed.",
+     "check": "Compare with the alveolar and extra-alveolar vessel table."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Anatomy and physiology meet in the lung's blood and air pathways. The bronchial arteries from the aorta explain why emboli rarely infarct and why massive hemoptysis is usually bronchial in origin. Branching geometry explains why total airway resistance peaks in the medium bronchi and why small airway disease is silent, while the absence of cartilage in bronchioles makes their caliber depend on lung volume, linking airway resistance to the same radial traction that controls extra-alveolar vessels. Gravity, alveolar pressure, and low vascular pressure create West zones and the apex to base gradient in V/Q, which in turn explains the apical location of reactivation tuberculosis."
+  },
+  {
+   "type": "p",
+   "text": "Physiology, biochemistry, and pathology connect through smooth muscle signaling. Oxygen-sensitive K+ channels and L-type Ca2+ channels drive hypoxic vasoconstriction, Gq and Gs pathways set bronchial tone, and the same hypoxic signal that protects PaO2 in a single lobe becomes harmful when the whole lung is hypoxic, producing pulmonary hypertension and cor pulmonale. West zone boundaries are not fixed lines but shift with posture, cardiac output, and ventilation, and regional values for V/Q and alveolar gas pressures are approximate averages."
+  }
+ ],
+ "summary": [
+  "The pulmonary circulation carries the whole cardiac output at low pressure (about 25/8, mean about 15 mmHg); PVR is about one tenth of systemic resistance and falls further with recruitment and distension.",
+  "The bronchial arteries from the aorta nourish airway walls and pleura, so most pulmonary emboli do not infarct; infarction needs compromised bronchial flow and is hemorrhagic and wedge shaped with a pleural base.",
+  "Low alveolar PO2 closes K+ channels in pulmonary arteriolar muscle, causing depolarization, Ca2+ entry, and constriction; systemic arterioles dilate in hypoxia.",
+  "Global chronic hypoxia constricts and remodels the whole pulmonary bed, causing pulmonary hypertension and right ventricular hypertrophy (cor pulmonale).",
+  "Zone 1: PA > Pa > Pv, no flow; zone 2: Pa > PA > Pv; zone 3: Pa > Pv > PA. Zone 1 appears only with low arterial or high alveolar pressure.",
+  "Ventilation and perfusion both rise toward the base, but perfusion rises more, so V/Q is about 3.3 at the apex and about 0.6 at the base; high apical PO2 favors reactivation tuberculosis.",
+  "The conducting zone (generations 0 to 16) is anatomic dead space of about 150 mL; the respiratory zone begins at the respiratory bronchioles.",
+  "Resistance varies with 1/r^4, so halving the radius raises it 16-fold; total resistance peaks in medium-sized bronchi because small airways are arranged in vast parallel networks.",
+  "Airway resistance rises with M3 stimulation, low lung volume, and denser gas, and falls with beta-2 stimulation, high lung volume, and low-density gas.",
+  "PVR is lowest near FRC; it rises at low volumes as extra-alveolar vessels narrow and at high volumes as alveolar capillaries are compressed."
+ ],
+ "sources": [
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Pulmonary Circulation, Pulmonary Edema, Pleural Fluid"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Pulmonary Ventilation, section on airway resistance and dead space"
+  },
+  {
+   "book": "Boron and Boulpaep Medical Physiology",
+   "where": "Pulmonary blood flow and ventilation-perfusion matching; mechanics of airflow"
+  },
+  {
+   "book": "Moore, Clinically Oriented Anatomy",
+   "where": "Thorax, bronchial arteries and veins"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "The Lung, pulmonary embolism, hemorrhage, and infarction; pulmonary hypertension"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Pulmonary Disease"
+  }
+ ],
+ "verify": [
+  "Pulmonary hypertension is defined here as mean pulmonary artery pressure above about 20 mmHg at rest (current international consensus); older sources and many review books use 25 mmHg or more. Confirm the cutoff NABNE expects.",
+  "Regional values (V/Q about 3.3 at the apex and 0.6 at the base; alveolar PO2 about 130 versus 90 mmHg; PCO2 about 28 versus 42 mmHg; pleural pressure about -10 versus -2.5 cmH2O) come from West's classic data and differ slightly between textbooks.",
+  "The hydrostatic figures (apex about 15 mmHg below and base about 8 mmHg above heart level) follow Guyton and Hall and vary with body height.",
+  "The threshold for hypoxic pulmonary vasoconstriction (alveolar PO2 below about 70 mmHg) follows Guyton and Hall; the identity of the oxygen sensor (mitochondrial reactive oxygen species and specific Kv channels) is still debated.",
+  "The fraction of pulmonary emboli that cause infarction is quoted as fewer than 10% to about 10% to 15% in different sources.",
+  "Weibel generation numbers (conducting zone 0 to 16, respiratory zone 17 to 23) and the statement that airways below 2 mm contribute less than 20% of resistance are approximate and model based.",
+  "Some texts describe a zone 4 at the extreme lung base, where high interstitial pressure narrows extra-alveolar vessels and reduces flow; it is not included in the competency and was omitted.",
+  "Reduced apical lymphatic clearance is also proposed as a contributor to the apical location of reactivation tuberculosis; the high alveolar PO2 explanation is the one tested most often.",
+  "Requested new diagram names for a future revision: west-zones (upright lung with the three pressure orders and apex to base V/Q curves) and pvr-lung-volume (U-shaped PVR curve with alveolar and extra-alveolar components)."
+ ]
+}

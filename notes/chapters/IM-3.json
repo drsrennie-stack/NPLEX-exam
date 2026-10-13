@@ -1,0 +1,536 @@
+{
+ "unit": "IM-3",
+ "chapter_id": "NPLEX-P1-IMMU-03",
+ "topic_id": "NPLEX-P1-IMMU-03-01",
+ "title": "Histocompatibility Antigens and Disease",
+ "subject": "Immune System (IMMU)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter explains the major histocompatibility complex (MHC), called human leukocyte antigen (HLA) in humans: the two classes of molecule, how each is loaded with peptide, how the genes are inherited, and why particular alleles raise the risk of particular autoimmune diseases. It then applies MHC biology to natural killer (NK) cell recognition and to transplant rejection. Board questions often describe a defect (absent TAP, a sensitized recipient, a virus that hides class I) and ask which T cell or NK response fails or which reaction follows. If you can say where a peptide came from, which molecule carries it, and which cell reads it, you can reason through most of them.",
+  "prerequisites": [
+   "Structure of the T cell receptor and the CD4 and CD8 coreceptors",
+   "Protein trafficking through the endoplasmic reticulum, Golgi, and endosomes",
+   "Ubiquitin and proteasomal protein degradation",
+   "Mendelian inheritance, linkage, and codominance",
+   "Complement activation and type II hypersensitivity"
+  ],
+  "connections": [
+   {
+    "to": "Humoral and cell-mediated immunity (IM-5)",
+    "how": "Thymic positive and negative selection on self MHC decides which T cells survive, and MHC restriction follows from that selection."
+   },
+   {
+    "to": "Diseases of hypersensitivity (IM-15-C)",
+    "how": "Hyperacute rejection is a type II reaction in which preformed antibody and complement destroy graft endothelium."
+   },
+   {
+    "to": "Musculoskeletal pathology (seronegative spondyloarthropathies)",
+    "how": "HLA-B27 links ankylosing spondylitis, reactive arthritis, and psoriatic arthritis through a shared genetic risk."
+   },
+   {
+    "to": "Gastrointestinal and endocrine pathology",
+    "how": "HLA-DQ2 and DQ8 present gluten peptides in celiac disease, and DR3, DR4, and DQ8 shape risk for type 1 diabetes."
+   },
+   {
+    "to": "Virology and tumor immunology",
+    "how": "Viruses and tumors that lower class I escape CD8 T cells but expose themselves to NK cells."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Major histocompatibility complex (MHC)",
+    "def": "The gene cluster on chromosome 6 that encodes the peptide-presenting molecules recognized by T cells; in humans it is called HLA."
+   },
+   {
+    "term": "MHC restriction",
+    "def": "The rule that a T cell recognizes a peptide only when it is bound to a self MHC molecule, with CD8 cells reading class I and CD4 cells reading class II."
+   },
+   {
+    "term": "Beta2-microglobulin",
+    "def": "The small, nonpolymorphic light chain of class I, encoded on chromosome 15, needed for class I to fold and reach the surface."
+   },
+   {
+    "term": "TAP",
+    "def": "Transporter associated with antigen processing, an ATP-driven pump that moves cytosolic peptides into the endoplasmic reticulum for class I loading."
+   },
+   {
+    "term": "Invariant chain",
+    "def": "A protein that occupies the class II groove in the endoplasmic reticulum and steers class II to endosomes."
+   },
+   {
+    "term": "CLIP",
+    "def": "Class II-associated invariant chain peptide, the fragment of invariant chain left in the class II groove until HLA-DM removes it."
+   },
+   {
+    "term": "Haplotype",
+    "def": "The set of linked HLA alleles on one copy of chromosome 6, usually inherited as a single block."
+   },
+   {
+    "term": "Codominance",
+    "def": "Expression of the alleles from both parents at the same time, so each cell displays both sets of HLA molecules."
+   },
+   {
+    "term": "Missing self",
+    "def": "NK cell killing of a cell that has lost the self class I molecules that normally switch the NK cell off."
+   },
+   {
+    "term": "Sensitization",
+    "def": "Formation of antibodies against foreign HLA after exposure through transfusion, pregnancy, or a previous transplant."
+   },
+   {
+    "term": "Crossmatch",
+    "def": "A test of recipient serum against donor lymphocytes that detects preformed antibodies to donor HLA."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-IMMU-03-01-C01",
+   "obj": "IM-3.1",
+   "title": "Structure, distribution, and T cell partners of MHC class I and class II",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "A T cell receptor cannot bind a free protein. It recognizes a short peptide held in the groove of an MHC molecule on another cell's surface, and it recognizes that peptide only on self MHC (MHC restriction). The two classes of MHC sample different compartments and are read by different T cells, so the immune system can decide whether a cell should be killed or whether a response should be helped."
+    },
+    {
+     "type": "p",
+     "text": "Class I molecules are encoded by HLA-A, -B, and -C. Each is one polymorphic heavy (alpha) chain with three extracellular domains, noncovalently paired with beta2-microglobulin. The alpha1 and alpha2 domains form the peptide groove, which is closed at both ends, so it holds peptides of about 8 to 10 amino acids. The alpha3 domain is conserved and is the binding site for CD8. Class I is on all nucleated cells and on platelets, but not on mature red cells, which have no nucleus or protein synthesis."
+    },
+    {
+     "type": "p",
+     "text": "Class II molecules are encoded by HLA-DP, -DQ, and -DR. Each is an alpha chain paired with a beta chain, both spanning the membrane. The alpha1 and beta1 domains form a groove open at both ends, so peptides of about 13 to 25 amino acids can overhang it. CD4 binds the conserved beta2 domain. Class II is expressed constitutively on professional antigen-presenting cells (dendritic cells, macrophages, and B cells) and on thymic epithelium, and can be induced on other cells such as endothelium by interferon gamma, which also raises class I."
+    },
+    {
+     "type": "table",
+     "title": "MHC class I compared with class II",
+     "cols": [
+      "Feature",
+      "Class I",
+      "Class II"
+     ],
+     "rows": [
+      [
+       "HLA loci",
+       "HLA-A, -B, -C",
+       "HLA-DP, -DQ, -DR"
+      ],
+      [
+       "Chains",
+       "Heavy chain (alpha1 to alpha3) plus beta2-microglobulin",
+       "Alpha chain plus beta chain"
+      ],
+      [
+       "Groove",
+       "Alpha1 and alpha2; closed ends; about 8 to 10 amino acids",
+       "Alpha1 and beta1; open ends; about 13 to 25 amino acids"
+      ],
+      [
+       "Coreceptor binding site",
+       "Alpha3 binds CD8",
+       "Beta2 binds CD4"
+      ],
+      [
+       "Cells expressing it",
+       "All nucleated cells and platelets",
+       "Dendritic cells, macrophages, B cells, thymic epithelium; inducible by interferon gamma"
+      ],
+      [
+       "Peptide source",
+       "Cytosolic (endogenous) proteins",
+       "Endocytosed (exogenous) proteins"
+      ],
+      [
+       "Responding T cell",
+       "CD8 cytotoxic T cell, which kills the presenting cell",
+       "CD4 helper T cell, which directs macrophages and B cells"
+      ]
+     ],
+     "caption": "Class I reports on what a cell is making, and class II reports on what an antigen-presenting cell has taken up."
+    },
+    {
+     "type": "p",
+     "text": "The logic of the pairing explains the distribution. Any cell can be infected by a virus or become malignant, so every nucleated cell must be able to show its internal proteins to CD8 cells, which kill it. Help from CD4 cells is needed only where antigen is captured and an immune response is organized, so class II is restricted to antigen-presenting cells. This is why loss of class I (TAP deficiency, C02) leaves CD8 T cells low, and loss of class II (bare lymphocyte syndrome, from defects in the transcription factors that drive class II genes, such as CIITA and RFX subunits) leaves CD4 T cells low with poor antibody responses: thymocytes need the matching MHC for positive selection."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-03-01-C02",
+   "obj": "IM-3.2",
+   "title": "Antigen processing for class I and class II",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Antigen processing is the conversion of a protein into peptides and their loading onto MHC. The two pathways are kept separate by where loading happens and by what blocks the groove until then, which keeps a cytosolic viral peptide on class I and an engulfed bacterial peptide on class II."
+    },
+    {
+     "type": "flow",
+     "title": "Class I pathway",
+     "steps": [
+      "Cytosolic proteins, including viral proteins, are tagged with ubiquitin",
+      "Proteasome cleaves them into short peptides",
+      "TAP pumps peptides into the endoplasmic reticulum",
+      "Peptide-loading complex (tapasin, calreticulin) loads class I",
+      "Stable class I and peptide travel through Golgi to surface",
+      "CD8 T cell recognizes peptide on class I"
+     ],
+     "caption": "Peptides from proteins synthesized in the cytosol reach class I inside the endoplasmic reticulum."
+    },
+    {
+     "type": "p",
+     "text": "Class I loading takes place in the endoplasmic reticulum (ER). The proteasome degrades old, misfolded, and ubiquitinated cytosolic proteins, and interferon gamma induces immunoproteasome subunits that favor peptides suited to class I. TAP, a heterodimer of TAP1 and TAP2 in the ER membrane, uses ATP to move the peptides into the ER, where ER aminopeptidases may trim them. Newly made heavy chain and beta2-microglobulin wait in the peptide-loading complex, which includes tapasin bridging class I to TAP. Class I without peptide is unstable and is degraded, so in TAP deficiency little class I reaches the surface, CD8 T cells are few, and patients have chronic bacterial respiratory infections and often granulomatous skin lesions."
+    },
+    {
+     "type": "flow",
+     "title": "Class II pathway",
+     "steps": [
+      "Class II alpha and beta assemble in ER with invariant chain",
+      "Invariant chain blocks groove and sorts class II to endosomes",
+      "Endocytosed protein is degraded in acidic endosomes",
+      "Proteases trim invariant chain to CLIP in the groove",
+      "HLA-DM exchanges CLIP for an endosomal peptide",
+      "Loaded class II goes to the surface for CD4 T cells"
+     ],
+     "caption": "The invariant chain keeps class II empty until it reaches the endosome where exogenous peptides are made."
+    },
+    {
+     "type": "p",
+     "text": "Class II is also built in the ER, which is full of TAP-delivered peptides, but the invariant chain (CD74) occupies its groove there and carries a sorting signal that sends the complex to late endosomes. Endocytosed or phagocytosed proteins are degraded there by acid-dependent proteases such as cathepsins. The same proteases cut the invariant chain down to CLIP, which still blocks the groove. HLA-DM, a nonpolymorphic class II-like molecule that does not itself present peptide, catalyzes release of CLIP and favors stable binding of higher-affinity peptides. Agents that raise endosomal pH, such as chloroquine, impair this step, which shows that class II loading depends on acidity."
+    },
+    {
+     "type": "p",
+     "text": "One exception matters. Dendritic cells can deliver engulfed antigen to the class I pathway (cross-presentation), so CD8 T cells can be primed against viruses and tumors that do not infect dendritic cells themselves."
+    },
+    {
+     "type": "stop",
+     "predict": "A virus encodes a protein that blocks TAP. What happens to surface class I and class II on an infected macrophage, and which T cell response fails?",
+     "explain": "Class I falls because empty class I is unstable and degraded, so CD8 recognition fails. Class II is unaffected because its peptides come from endosomes and its loading does not need TAP.",
+     "check": "Compare with the two flow figures and the paragraph on TAP and the peptide-loading complex."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-03-01-C03",
+   "obj": "IM-3.3",
+   "title": "HLA genetics, haplotype inheritance, and sibling matching",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The HLA genes lie together on the short arm of chromosome 6 (6p21.3). The class I region contains HLA-A, -B, and -C; the class II region contains HLA-DP, -DQ, and -DR along with genes for antigen processing, including TAP and HLA-DM; and between them the class III region encodes non-presenting proteins such as complement C2, C4, and factor B, and TNF. Beta2-microglobulin is encoded on chromosome 15, so it is not inherited with the HLA haplotype."
+    },
+    {
+     "type": "p",
+     "text": "HLA genes are the most polymorphic in the human genome, with thousands of alleles at the classical loci. Most of the variation sits in the residues lining the peptide groove, so different alleles bind different peptides. Expression is codominant: each cell displays the molecules from both parental chromosomes, giving up to six different classical class I molecules. Because each molecule binds a range of peptides, an individual can present peptides from almost any pathogen, and a population with many alleles is unlikely to contain a pathogen that escapes everyone. The cost is that two unrelated people rarely match."
+    },
+    {
+     "type": "p",
+     "text": "The loci are close enough that recombination between them is uncommon, so the alleles on one chromosome travel together as a haplotype. Each parent carries two haplotypes and passes one, at random, to each child. If the father is a/b and the mother is c/d, every child is ac, ad, bc, or bd, each with probability one in four."
+    },
+    {
+     "type": "table",
+     "title": "HLA sharing expected between relatives",
+     "cols": [
+      "Relationship",
+      "Full match (2 haplotypes)",
+      "Half match (1 haplotype)",
+      "No shared haplotype"
+     ],
+     "rows": [
+      [
+       "Sibling",
+       "25%",
+       "50%",
+       "25%"
+      ],
+      [
+       "Parent and child",
+       "0% (unless parents share a haplotype)",
+       "100%",
+       "0%"
+      ],
+      [
+       "Identical twin",
+       "100%",
+       "Not applicable",
+       "Not applicable"
+      ],
+      [
+       "Unrelated person",
+       "Rare, because of polymorphism",
+       "Variable",
+       "Most likely"
+      ]
+     ],
+     "caption": "Values assume no recombination within the HLA region and four distinct parental haplotypes."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: sibling donors",
+     "text": "A patient needs a stem cell donor and has three siblings with the same parents. For any one sibling, the chance of receiving the same paternal haplotype as the patient is 1/2, and the same maternal haplotype is also 1/2. Because the two events are independent, a full match is 1/2 x 1/2 = 1/4, or 25%. Each sibling is an independent draw, so the chance that none of the three matches is (3/4) cubed, about 0.42, and the chance that at least one matches is about 58%. A parent is always a half match because the child carries one parental haplotype, and an identical twin is the only certain full match."
+    },
+    {
+     "type": "p",
+     "text": "Linkage also explains linkage disequilibrium, the finding that some alleles on neighboring loci occur together more often than chance predicts, such as the ancestral haplotype carrying HLA-A1, B8, and DR3. This is why a disease association found with one allele may actually reflect a nearby gene on the same haplotype (C04)."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-03-01-C04",
+   "obj": "IM-3.4",
+   "title": "HLA alleles and disease susceptibility",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Because each HLA allele binds its own set of peptides, the alleles a person inherits influence which self or foreign peptides are shown to T cells, both in the thymus during selection and in the periphery. Some alleles present a self peptide, or a modified self peptide, in a way that favors an autoreactive response. An HLA association raises risk but does not cause disease by itself: most carriers of a risk allele never develop the disease, and disease also requires other genes and environmental triggers such as infection or diet."
+    },
+    {
+     "type": "table",
+     "title": "Classic HLA and disease associations",
+     "cols": [
+      "HLA type",
+      "Disease",
+      "Proposed link"
+     ],
+     "rows": [
+      [
+       "HLA-B27 (class I)",
+       "Ankylosing spondylitis, reactive arthritis, psoriatic arthritis, arthritis of inflammatory bowel disease",
+       "Seronegative spondyloarthropathies with enthesitis and sacroiliitis; mechanism unproven"
+      ],
+      [
+       "HLA-DQ2 and DQ8",
+       "Celiac disease",
+       "Bind deamidated gluten peptides and present them to CD4 T cells"
+      ],
+      [
+       "HLA-DR3 and DR4 (with DQ8)",
+       "Type 1 diabetes",
+       "Present beta cell antigens; DR3/DR4 heterozygotes have the highest risk"
+      ],
+      [
+       "HLA-DR4",
+       "Rheumatoid arthritis",
+       "Shared epitope in the DR beta chain binds citrullinated peptides"
+      ],
+      [
+       "HLA-DR2 (DR15)",
+       "Multiple sclerosis, Goodpasture syndrome",
+       "Present myelin antigens and type IV collagen alpha3 chain peptides"
+      ]
+     ],
+     "caption": "Most associations are with class II, which presents to CD4 helper cells that drive autoantibody and inflammatory responses; B27 is the major class I exception."
+    },
+    {
+     "type": "p",
+     "text": "Celiac disease shows the mechanism most clearly. Gluten proteins (gliadins) are rich in proline and glutamine and resist digestion, leaving long peptides in the small intestine. Tissue transglutaminase deamidates some glutamine residues to glutamate, adding negative charges that fit pockets in the DQ2 and DQ8 grooves, so these molecules bind the modified peptides tightly and present them to gluten-specific CD4 T cells. The resulting inflammation causes villous atrophy, crypt hyperplasia, and intraepithelial lymphocytosis. Nearly all patients carry DQ2 or DQ8, but these alleles are common in the general population, so their absence makes celiac disease very unlikely while their presence proves little."
+    },
+    {
+     "type": "p",
+     "text": "In rheumatoid arthritis, several DR4 alleles (and some others) share a sequence in the DR beta chain, the shared epitope, that favors binding of citrullinated peptides, which matches the anti-citrullinated protein antibodies typical of the disease. In type 1 diabetes, risk comes mainly from DR3 and DR4 haplotypes and the DQ8 allele carried with DR4, and the DR3/DR4 heterozygote carries the highest risk. HLA-B27 is present in about 90% of patients with ankylosing spondylitis in populations of European descent, yet only a small fraction of B27 carriers develop it. Its mechanism is debated: hypotheses include presentation of arthritogenic bacterial or self peptides to CD8 cells, misfolding of B27 heavy chains in the ER that triggers an inflammatory stress response, and B27 heavy chain dimers that engage receptors on NK and other cells. Reactive arthritis after enteric or genitourinary infection fits the idea of an infectious trigger in a susceptible host."
+    },
+    {
+     "type": "p",
+     "text": "Some associations reflect linkage rather than antigen presentation. Hereditary hemochromatosis, for example, is caused by the HFE gene, which lies near HLA-A on chromosome 6 and is often inherited with HLA-A3."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-03-01-C05",
+   "obj": "IM-3.5",
+   "title": "NK cells and missing self",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "NK cells are innate lymphocytes that kill infected and malignant cells without prior sensitization and without antigen-specific receptors. They express no T cell receptor. Instead, each NK cell carries several germline-encoded inhibitory and activating receptors, and whether it kills depends on the balance of signals at the moment it contacts a target."
+    },
+    {
+     "type": "table",
+     "title": "Main NK cell receptors",
+     "cols": [
+      "Receptor",
+      "Ligand",
+      "Effect"
+     ],
+     "rows": [
+      [
+       "KIRs (killer cell immunoglobulin-like receptors)",
+       "HLA-A, -B, -C",
+       "Inhibitory (most); ITIMs recruit phosphatases such as SHP-1"
+      ],
+      [
+       "CD94/NKG2A",
+       "HLA-E, which displays leader peptides from other class I molecules",
+       "Inhibitory; reports overall class I synthesis"
+      ],
+      [
+       "NKG2D",
+       "Stress-induced ligands MICA, MICB, and ULBPs",
+       "Activating"
+      ],
+      [
+       "CD16 (Fc gamma RIIIa)",
+       "Fc region of IgG on antibody-coated cells",
+       "Activating; antibody-dependent cellular cytotoxicity"
+      ]
+     ],
+     "caption": "Inhibition by self class I normally dominates over activating signals."
+    },
+    {
+     "type": "p",
+     "text": "Healthy cells display self class I, which engages inhibitory receptors whose cytoplasmic immunoreceptor tyrosine-based inhibitory motifs (ITIMs) recruit phosphatases. These remove the phosphates that activating receptors add to signaling kinases, so the NK cell stays quiet. When a cell is infected or transformed, two things tend to happen together: stress pathways induce activating ligands such as MICA and MICB, and class I expression falls."
+    },
+    {
+     "type": "flow",
+     "title": "Missing-self recognition",
+     "steps": [
+      "Virus or tumor lowers class I to escape CD8 T cells",
+      "Inhibitory KIR and CD94/NKG2A receptors are no longer engaged",
+      "Stress ligands engage activating receptors such as NKG2D",
+      "Activating signals are no longer opposed by phosphatases",
+      "NK cell releases perforin and granzymes",
+      "Target cell undergoes apoptosis"
+     ],
+     "caption": "Loss of class I removes the brake, and stress ligands supply the accelerator."
+    },
+    {
+     "type": "p",
+     "text": "Class I loss is common because it protects a virus or tumor from CD8 T cells. Herpes simplex virus blocks TAP, adenovirus retains class I in the ER, and cytomegalovirus proteins send class I for degradation; many tumors lose class I or beta2-microglobulin. Each strategy that hides a cell from CD8 cells exposes it to NK cells, so the two systems are complementary. Some viruses answer this too: cytomegalovirus makes a class I-like decoy and a peptide that keeps HLA-E on the surface to engage inhibitory receptors. NK cells kill through perforin and granzymes, which trigger apoptosis, and through Fas ligand, and they release interferon gamma that activates macrophages. IL-12, IL-15, and type I interferons enhance their activity."
+    },
+    {
+     "type": "p",
+     "text": "Missing self alone is not enough. Mature red cells lack class I but are not killed, because they lack activating ligands. NK cells act within the first days of a viral infection, before CD8 T cells expand, and people with NK cell deficiencies suffer severe, recurrent herpesvirus infections."
+    },
+    {
+     "type": "stop",
+     "predict": "A tumor loses beta2-microglobulin. Which effector cell loses the ability to recognize it, and which gains it?",
+     "explain": "Without beta2-microglobulin class I cannot reach the surface, so CD8 T cells lose their target, while NK inhibitory receptors are no longer engaged, so NK cells can kill if activating ligands are present.",
+     "check": "Compare with the missing-self flow and the receptor table."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-03-01-C06",
+   "obj": "IM-3.6",
+   "title": "Sensitization, hyperacute rejection, crossmatching, and HLA matching",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Foreign HLA molecules are the main antigens that trigger graft rejection, because an unusually large fraction of a person's T cells (on the order of 1 to 2%) react directly to allogeneic MHC carrying peptide. Antibodies matter too. A person who has been exposed to foreign HLA through blood transfusion, pregnancy (fetal HLA from the father), or a previous transplant can make long-lived antibodies against those alleles; this is sensitization. ABO blood group antibodies are naturally present and act the same way against ABO-incompatible tissue, because ABO antigens are expressed on endothelium."
+    },
+    {
+     "type": "flow",
+     "title": "Hyperacute rejection",
+     "steps": [
+      "Transfusion, pregnancy, or prior graft exposes recipient to foreign HLA",
+      "Plasma cells make anti-HLA antibodies that persist",
+      "Graft is perfused; antibodies bind donor endothelium",
+      "Complement activation injures and activates endothelium",
+      "Platelets aggregate and vessels thrombose",
+      "Graft becomes ischemic, mottled, and cyanotic within minutes to hours"
+     ],
+     "caption": "Preformed antibody, not T cells, causes hyperacute rejection; it is a type II hypersensitivity reaction."
+    },
+    {
+     "type": "p",
+     "text": "Hyperacute rejection begins as soon as the vascular anastomosis is opened. Antibody bound to endothelium activates complement through the classical pathway, causing endothelial injury, loss of the anticoagulant endothelial surface, and exposure of subendothelial matrix. Platelets adhere and aggregate, and thrombi occlude small vessels. Microscopically the graft shows thrombi, neutrophils in vessel walls, and fibrinoid necrosis, followed by infarction. Because the antibody is already present, no delay for T cell priming is needed, which is why the reaction begins within minutes."
+    },
+    {
+     "type": "table",
+     "title": "Tests that prevent hyperacute rejection",
+     "cols": [
+      "Test",
+      "What it does",
+      "What a positive result means"
+     ],
+     "rows": [
+      [
+       "ABO typing",
+       "Matches donor and recipient blood groups",
+       "Natural anti-A or anti-B antibodies would attack the graft"
+      ],
+      [
+       "Antibody screening (panel reactive antibody)",
+       "Tests recipient serum against HLA from a panel or on synthetic beads",
+       "Recipient is sensitized; percentage estimates how many donors are incompatible"
+      ],
+      [
+       "Crossmatch",
+       "Mixes recipient serum with donor lymphocytes, read by complement-mediated killing or flow cytometry",
+       "Recipient has antibody against this donor's HLA; high risk of hyperacute or antibody-mediated rejection"
+      ]
+     ],
+     "caption": "Lymphocytes are used in the crossmatch because they express donor class I, and B cells also express class II."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: a sensitized recipient",
+     "text": "A woman with kidney failure has had three pregnancies with the same partner and several transfusions. Her husband offers a kidney. Her serum lyses his lymphocytes in a crossmatch. Each pregnancy exposed her to his paternal HLA through fetal cells, and transfusions added other HLA, so she produced anti-HLA antibodies. A positive crossmatch means those antibodies recognize his class I or class II, so if his kidney were perfused they would bind its endothelium at once and fix complement, causing hyperacute rejection. A donor who lacks the HLA her antibodies recognize would give a negative crossmatch."
+    },
+    {
+     "type": "p",
+     "text": "Crossmatching and HLA matching act on different arms of rejection. The crossmatch excludes preformed antibody and so prevents hyperacute rejection. HLA matching lowers the number of mismatched alleles that recipient T cells can recognize, which reduces both T cell mediated acute rejection and the formation of new donor-specific antibody, and so improves long-term graft survival. For kidney transplantation, matching typically focuses on HLA-A, -B, and -DR."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "MHC ties the chapter's disciplines together. Cell biology explains the two loading routes, which the invariant chain keeps apart. Genetics explains why polymorphic, codominant, tightly linked HLA genes protect populations yet make unrelated donors hard to find and siblings match one time in four. Immunology follows from which cell reads each class: CD8 cells kill cells that show foreign peptide on class I, CD4 cells direct responses to peptide on class II, and NK cells cover cells that drop class I."
+  },
+  {
+   "type": "p",
+   "text": "Pathology applies the same rules. Autoimmune disease associations are mostly class II because CD4 helper cells drive autoantibody and inflammatory responses, and celiac disease shows how a modified dietary peptide can fit a risk allele. In transplantation, preformed antibody causes hyperacute (type II) rejection, while T cell recognition of mismatched HLA drives acute rejection, which is why crossmatching and HLA matching are separate safeguards. The limits matter: HLA risk alleles are neither necessary nor sufficient for disease, and several proposed mechanisms, especially for HLA-B27, remain unproven."
+  }
+ ],
+ "summary": [
+  "Class I (HLA-A, -B, -C) is a heavy chain with beta2-microglobulin on all nucleated cells and platelets; it presents cytosolic peptides of about 8 to 10 amino acids to CD8 T cells through the alpha3 domain.",
+  "Class II (HLA-DP, -DQ, -DR) is an alpha and beta chain on antigen-presenting cells and thymic epithelium; it presents endosomal peptides of about 13 to 25 amino acids to CD4 T cells through the beta2 domain.",
+  "Class I loading: ubiquitin, proteasome, TAP into the ER, peptide-loading complex; TAP loss lowers surface class I and CD8 T cells.",
+  "Class II loading: invariant chain blocks the groove and sorts class II to endosomes, it is trimmed to CLIP, and HLA-DM exchanges CLIP for peptide.",
+  "HLA genes on chromosome 6p are polymorphic, codominant, and inherited as haplotypes; a sibling is a full match 25%, a half match 50%, and no match 25% of the time.",
+  "Risk alleles: B27 with spondyloarthropathies, DQ2 and DQ8 with celiac disease, DR3 and DR4 with type 1 diabetes, DR4 with rheumatoid arthritis, DR2 with multiple sclerosis and Goodpasture syndrome; association raises risk but does not cause disease alone.",
+  "NK cells are inhibited by self class I through KIRs and CD94/NKG2A and kill cells that lose class I and express stress ligands (missing self).",
+  "Escape from CD8 T cells by lowering class I exposes infected and tumor cells to NK cells.",
+  "Preformed anti-HLA or ABO antibodies from transfusion, pregnancy, or prior grafts cause complement-mediated hyperacute rejection within minutes to hours.",
+  "The crossmatch detects preformed antibody against donor HLA; HLA matching reduces T cell mediated rejection and improves long-term graft survival."
+ ],
+ "sources": [
+  {
+   "book": "Abbas, Basic Immunology",
+   "where": "Antigen Capture and Presentation to Lymphocytes"
+  },
+  {
+   "book": "Abbas, Basic Immunology",
+   "where": "Innate Immunity (natural killer cells)"
+  },
+  {
+   "book": "Abbas, Basic Immunology",
+   "where": "Immune Responses Against Tumors and Transplants"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Diseases of the Immune System (HLA and disease associations; rejection of transplants)"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "The Gastrointestinal Tract (celiac disease)"
+  },
+  {
+   "book": "Jawetz, Melnick and Adelberg's Medical Microbiology",
+   "where": "Immunology (major histocompatibility complex and transplantation)"
+  }
+ ],
+ "verify": [
+  "Peptide lengths (class I about 8 to 10 or 8 to 11 amino acids; class II about 13 to 25, sometimes given as 10 to 30) differ slightly between sources.",
+  "The fraction of T cells that directly recognize allogeneic MHC is quoted from about 1% to 10% in different texts; this chapter uses on the order of 1 to 2% (Abbas).",
+  "The frequency of HLA-B27 in ankylosing spondylitis (about 90% in populations of European descent) and of DQ2 or DQ8 in celiac disease (about 95% or more) vary by population and source.",
+  "DR2 is now usually designated DR15 (DRB1*15:01); confirm which name NABNE uses for the multiple sclerosis and Goodpasture associations.",
+  "The B27 mechanism is unsettled; confirm whether NABNE expects any specific hypothesis or only the association.",
+  "Kidney allocation practice and the loci emphasized in matching (HLA-A, -B, -DR, and increasingly DQ) change over time; confirm the current emphasis if tested.",
+  "Confirm whether NABNE Part I expects details such as tapasin, ERAP, HLA-E, and the viral class I evasion proteins, or only the core pathway.",
+  "Requested new diagram names for a future revision: mhc-structure (class I and class II domains with peptide groove and CD8 and CD4 binding sites) and haplotype-pedigree (two parents with haplotypes a/b and c/d and four children)."
+ ]
+}

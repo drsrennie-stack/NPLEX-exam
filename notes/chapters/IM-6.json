@@ -1,0 +1,667 @@
+{
+ "unit": "IM-6",
+ "chapter_id": "NPLEX-P1-IMMU-06",
+ "topic_id": "NPLEX-P1-IMMU-06-01",
+ "title": "Cell and Cytokine Signaling in Injury and Infection",
+ "subject": "Immunology (IMMU)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter follows the innate response from first contact to systemic effect. Sentinel cells recognize microbial and damage patterns, cytokines recruit leukocytes out of venules, the liver and hypothalamus mount the acute phase response, and phagocytes ingest and kill what they find. When the stimulus cannot be cleared, macrophages wall it off in a granuloma; when cytokine release escapes local control, the result is septic or toxic shock. Board questions usually give a finding, such as a delayed umbilical cord separation, giant neutrophil granules, or a high ferritin with low serum iron, and ask for the receptor, cytokine, or defective step that explains it.",
+  "prerequisites": [
+   "Cells of innate immunity: neutrophils, monocytes and macrophages, dendritic cells, mast cells",
+   "Structure of the gram-negative and gram-positive cell envelope, including lipid A",
+   "MHC class II structure and antigen presentation to CD4 T cells (IM-4, IM-5)",
+   "Basic G protein-coupled receptor and NF-kappaB transcription factor signaling",
+   "Complement activation and the generation of C3b and C5a (IM-7)"
+  ],
+  "connections": [
+   {
+    "to": "Complement (IM-7)",
+    "how": "C3b opsonizes microbes for phagocytosis and C5a is one of the strongest neutrophil chemoattractants."
+   },
+   {
+    "to": "Hematology and iron metabolism",
+    "how": "Hepcidin made in the acute phase response traps iron in macrophages and produces anemia of chronic disease."
+   },
+   {
+    "to": "Microbiology of gram-negative and gram-positive bacteria",
+    "how": "Lipid A drives septic shock through TLR4, while staphylococcal and streptococcal superantigens drive toxic shock through T cells."
+   },
+   {
+    "to": "Musculoskeletal pathology (gout)",
+    "how": "Monosodium urate crystals activate the NLRP3 inflammasome, so gout flares are IL-1beta driven."
+   },
+   {
+    "to": "Respiratory pathology (tuberculosis, sarcoidosis)",
+    "how": "Th1 cells and IFN-gamma build the immune granulomas that define these diseases."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Pattern recognition receptor (PRR)",
+    "def": "A germline-encoded receptor of innate cells that binds a molecular pattern shared by a class of microbes or released by damaged cells."
+   },
+   {
+    "term": "PAMP",
+    "def": "Pathogen-associated molecular pattern: a conserved microbial structure, such as lipid A or flagellin, that host cells do not make."
+   },
+   {
+    "term": "DAMP",
+    "def": "Damage-associated molecular pattern: a host molecule, such as extracellular ATP or urate crystals, that signals cell injury when it appears outside its normal place."
+   },
+   {
+    "term": "Inflammasome",
+    "def": "A cytosolic protein complex that activates caspase-1, which cleaves pro-IL-1beta and pro-IL-18 into active cytokines."
+   },
+   {
+    "term": "Extravasation",
+    "def": "The ordered movement of leukocytes from the lumen of a venule into tissue through rolling, adhesion, diapedesis, and chemotaxis."
+   },
+   {
+    "term": "Chemotaxis",
+    "def": "Directed movement of a cell along a concentration gradient of a chemical attractant."
+   },
+   {
+    "term": "Acute phase reactant",
+    "def": "A plasma protein whose hepatic synthesis rises (positive) or falls (negative) by at least about 25% during inflammation, mainly under IL-6 control."
+   },
+   {
+    "term": "Opsonin",
+    "def": "A molecule, chiefly IgG or C3b, that coats a particle and links it to receptors on phagocytes so it is ingested efficiently."
+   },
+   {
+    "term": "Phagolysosome",
+    "def": "The vesicle formed when a phagosome containing an ingested particle fuses with lysosomes and granules."
+   },
+   {
+    "term": "Granuloma",
+    "def": "A focal collection of activated (epithelioid) macrophages, often with multinucleated giant cells, that walls off material the body cannot eliminate."
+   },
+   {
+    "term": "SIRS",
+    "def": "Systemic inflammatory response syndrome: two or more abnormalities of temperature, heart rate, respiration, or white cell count reflecting systemic cytokine action."
+   },
+   {
+    "term": "Superantigen",
+    "def": "A microbial protein that cross-links MHC class II to the V-beta region of the T cell receptor outside the peptide groove, activating many T cells at once."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-IMMU-06-01-C01",
+   "obj": "IM-6.1",
+   "title": "Pattern recognition: Toll-like receptors and the NLRP3 inflammasome",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Innate cells cannot recognize every microbe individually, so they use pattern recognition receptors (PRRs) that bind structures shared by whole classes of microbes. These pathogen-associated molecular patterns (PAMPs) are essential to the microbe and absent or hidden in the host, so a single receptor detects many organisms and rarely reacts to self. PRRs also detect damage-associated molecular patterns (DAMPs), host molecules that signal injury when they escape cells."
+    },
+    {
+     "type": "p",
+     "text": "Toll-like receptors (TLRs) are the best known PRRs. Surface TLRs bind cell wall and surface components. Lipopolysaccharide (LPS) from gram-negative bacteria is carried in plasma by LPS-binding protein to CD14, which hands the lipid A portion to the TLR4 and MD-2 complex. TLR5 binds flagellin. The nucleic acid sensors TLR3, 7, 8, and 9 sit in endosomal membranes, where ingested microbes are broken down and their genomes exposed. Host DNA and RNA normally stay in the nucleus and cytosol and do not reach endosomes, which protects against self-reaction; when self nucleic acids do reach them, as in systemic lupus erythematosus, TLR7 and TLR9 drive autoimmunity."
+    },
+    {
+     "type": "table",
+     "title": "Toll-like receptors tested most often",
+     "cols": [
+      "Receptor",
+      "Location",
+      "Ligand",
+      "Typical source"
+     ],
+     "rows": [
+      [
+       "TLR4 with CD14 and MD-2",
+       "Cell surface",
+       "LPS (lipid A)",
+       "Gram-negative bacteria"
+      ],
+      [
+       "TLR2 (with TLR1 or TLR6)",
+       "Cell surface",
+       "Lipoproteins, lipoteichoic acid, zymosan",
+       "Gram-positive bacteria, mycobacteria, fungi"
+      ],
+      [
+       "TLR5",
+       "Cell surface",
+       "Flagellin",
+       "Motile bacteria"
+      ],
+      [
+       "TLR3",
+       "Endosome",
+       "Double-stranded RNA",
+       "Many viruses"
+      ],
+      [
+       "TLR7 and TLR8",
+       "Endosome",
+       "Single-stranded RNA",
+       "RNA viruses"
+      ],
+      [
+       "TLR9",
+       "Endosome",
+       "Unmethylated CpG DNA",
+       "Bacteria and DNA viruses"
+      ]
+     ],
+     "caption": "Surface TLRs see microbial walls and surface proteins; endosomal TLRs see nucleic acids released after uptake."
+    },
+    {
+     "type": "p",
+     "text": "Most TLRs signal through the adaptor MyD88 to activate NF-kappaB, which switches on genes for TNF-alpha, IL-6, chemokines such as IL-8, adhesion molecules, and the inactive precursor pro-IL-1beta. TLR3 signals through a different adaptor, TRIF, and TLR4 uses both MyD88 and TRIF. TRIF activates interferon regulatory factors, so these pathways induce type I interferons (IFN-alpha and IFN-beta), which suit an antiviral response."
+    },
+    {
+     "type": "h",
+     "text": "The NLRP3 inflammasome"
+    },
+    {
+     "type": "p",
+     "text": "IL-1beta is a powerful pyrogen and is not secreted in active form simply because its gene is transcribed. Release needs two signals. Signal 1, usually TLR to NF-kappaB, makes pro-IL-1beta and NLRP3 protein. Signal 2 is a DAMP or cell stress that triggers potassium efflux or lysosomal damage: extracellular ATP from dying cells, monosodium urate crystals, cholesterol crystals, silica, and some microbial toxins. NLRP3 then assembles with the adaptor ASC and pro-caspase-1, which activates itself. Caspase-1 cleaves pro-IL-1beta and pro-IL-18 into active cytokines and cleaves gasdermin D, which forms membrane pores that release IL-1beta and can kill the cell by an inflammatory lysis called pyroptosis. This explains the intense neutrophilic inflammation of gout and pseudogout, and gain-of-function NLRP3 mutations cause the cryopyrin-associated periodic syndromes of recurrent fever."
+    },
+    {
+     "type": "flow",
+     "title": "Two signals for active IL-1beta",
+     "steps": [
+      "Signal 1: PAMP binds TLR, MyD88 activates NF-kappaB",
+      "Transcription of pro-IL-1beta and NLRP3",
+      "Signal 2: DAMP (ATP, urate crystals) causes K+ efflux",
+      "NLRP3, ASC, and pro-caspase-1 assemble",
+      "Caspase-1 cleaves pro-IL-1beta, pro-IL-18, gasdermin D",
+      "IL-1beta released; pyroptosis possible"
+     ],
+     "caption": "Transcription alone produces only an inactive precursor; the inflammasome supplies the second, activating step."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-06-01-C02",
+   "obj": "IM-6.2",
+   "title": "Leukocyte extravasation and leukocyte adhesion deficiency",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Leukocytes leave the blood mainly in postcapillary venules, where shear stress is low and inflammation makes the endothelium sticky. Each step uses a different pair of molecules, and local mediators switch each one on, so leukocytes exit only where injury or infection is present. In inflamed vessels, increased permeability and slower flow push leukocytes toward the vessel wall (margination)."
+    },
+    {
+     "type": "p",
+     "text": "Rolling comes first. Endothelial P-selectin is stored in Weibel-Palade bodies and moves to the surface within minutes of exposure to histamine or thrombin; E-selectin is synthesized over hours after TNF-alpha and IL-1 stimulate the endothelium. Both bind sialyl Lewis X carbohydrate on leukocyte glycoproteins. Selectin bonds form and break quickly, so the cell tumbles slowly along the wall. While rolling, the leukocyte meets chemokines displayed on endothelial proteoglycans, and chemokine receptor signaling shifts its integrins from a low affinity to a high affinity conformation. The beta-2 integrins LFA-1 (CD11a/CD18) and Mac-1 (CD11b/CD18) then bind ICAM-1, which TNF-alpha and IL-1 have induced on the endothelium, and the cell stops firmly."
+    },
+    {
+     "type": "p",
+     "text": "In diapedesis the cell squeezes between endothelial cells, using PECAM-1 (CD31) homophilic binding at intercellular junctions, and secretes enzymes to cross the basement membrane. In tissue it follows chemotactic gradients of bacterial N-formyl peptides, complement C5a, leukotriene B4 (LTB4), and IL-8 (CXCL8). These act on G protein-coupled receptors that polymerize actin at the leading edge. Neutrophils dominate the first 6 to 24 hours; monocytes follow over 24 to 48 hours."
+    },
+    {
+     "type": "table",
+     "title": "Steps of extravasation",
+     "cols": [
+      "Step",
+      "Endothelial molecule",
+      "Leukocyte molecule",
+      "Inducer"
+     ],
+     "rows": [
+      [
+       "Rolling",
+       "P-selectin, E-selectin",
+       "Sialyl Lewis X on glycoproteins",
+       "Histamine, thrombin (P); TNF, IL-1 (E)"
+      ],
+      [
+       "Firm adhesion",
+       "ICAM-1 (VCAM-1)",
+       "LFA-1, Mac-1 (CD18 integrins); VLA-4 on monocytes and lymphocytes",
+       "TNF, IL-1 on endothelium; chemokines activate integrins"
+      ],
+      [
+       "Diapedesis",
+       "PECAM-1 (CD31)",
+       "PECAM-1 (CD31)",
+       "Junctional, constitutive"
+      ],
+      [
+       "Chemotaxis",
+       "Chemoattractant gradient",
+       "Receptors for fMLP, C5a, LTB4, IL-8",
+       "Bacteria, complement, mast cells, macrophages"
+      ]
+     ],
+     "caption": "A different molecular pair controls each step, so a single missing molecule halts the sequence at a predictable point."
+    },
+    {
+     "type": "p",
+     "text": "Leukocyte adhesion deficiency type 1 (LAD-1) is an autosomal recessive defect of the ITGB2 gene encoding CD18, the shared beta-2 chain. Neutrophils roll normally but cannot adhere firmly, so they remain in the circulation. The findings follow directly: marked neutrophilia even between infections, recurrent bacterial skin and mucosal infections without pus, periodontitis, poor wound healing, and delayed separation of the umbilical cord, which needs neutrophil entry to separate. LAD-2 is a defect in fucose metabolism that removes sialyl Lewis X and blocks rolling, with similar but milder infections plus the Bombay blood phenotype and developmental delay."
+    },
+    {
+     "type": "stop",
+     "predict": "A newborn's umbilical cord is still attached at 4 weeks, the WBC is 40,000/mm3 with mostly neutrophils, and an infected skin wound contains no pus. Which step of extravasation fails?",
+     "explain": "Firm adhesion fails because CD18 is missing, so LFA-1 and Mac-1 cannot bind ICAM-1. Neutrophils roll but stay in the blood, raising the count and leaving tissue without pus.",
+     "check": "Compare with the extravasation table and the LAD-1 paragraph."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-06-01-C03",
+   "obj": "IM-6.3",
+   "title": "Fever and the acute phase response",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "IL-1, IL-6, and TNF-alpha are the endogenous pyrogens. They act on endothelial cells of the circumventricular region near the preoptic hypothalamus (the organum vasculosum of the lamina terminalis), where the blood-brain barrier is weak, and induce cyclooxygenase-2 (COX-2). The prostaglandin E2 (PGE2) produced raises the hypothalamic temperature set point. Core temperature is now below the new set point, so the body responds as if cold: cutaneous vasoconstriction, shivering, and heat-seeking behavior raise temperature until it matches the set point. When the stimulus falls, sweating and vasodilation return temperature to normal. This differs from hyperthermia, in which the set point is normal and heat gain exceeds heat loss. Blocking COX-2 removes the PGE2 signal, which is the mechanism by which aspirin and NSAIDs lower fever."
+    },
+    {
+     "type": "flow",
+     "title": "How cytokines cause fever",
+     "steps": [
+      "Macrophages release IL-1, IL-6, TNF-alpha",
+      "Endothelium near preoptic hypothalamus induces COX-2",
+      "PGE2 raises the temperature set point",
+      "Vasoconstriction, shivering, heat conservation",
+      "Core temperature rises to the new set point"
+     ],
+     "caption": "Fever is a regulated rise in the set point, not a failure of heat loss."
+    },
+    {
+     "type": "p",
+     "text": "The acute phase response is a change in hepatic protein synthesis driven mainly by IL-6, with help from IL-1 and TNF-alpha. The liver shifts output toward proteins that opsonize, clot, and withhold iron, and away from transport proteins. Positive reactants rise; negative reactants fall, partly because amino acids and synthetic capacity are diverted and partly from increased capillary leak and catabolism."
+    },
+    {
+     "type": "table",
+     "title": "Acute phase reactants",
+     "cols": [
+      "Protein",
+      "Change",
+      "Function and consequence"
+     ],
+     "rows": [
+      [
+       "C-reactive protein (CRP)",
+       "Up, fast and large",
+       "Pentraxin that binds phosphocholine on microbes and damaged cells, activates C1q, opsonizes"
+      ],
+      [
+       "Fibrinogen",
+       "Up",
+       "Coagulation; coats red cells, promotes rouleaux, raises ESR"
+      ],
+      [
+       "Serum amyloid A",
+       "Up",
+       "HDL apolipoprotein; sustained elevation can deposit as AA amyloid"
+      ],
+      [
+       "Ferritin",
+       "Up",
+       "Stores iron inside cells, away from microbes"
+      ],
+      [
+       "Hepcidin",
+       "Up",
+       "Degrades ferroportin; low serum iron, anemia of chronic disease"
+      ],
+      [
+       "Albumin",
+       "Down",
+       "Lower oncotic pressure; low albumin marks chronic inflammation"
+      ],
+      [
+       "Transferrin",
+       "Down",
+       "Low TIBC, so iron studies separate this anemia from iron deficiency"
+      ]
+     ],
+     "caption": "IL-6 is the main hepatic signal; haptoglobin, complement components, and ceruloplasmin also rise, and transthyretin also falls."
+    },
+    {
+     "type": "p",
+     "text": "CRP is the most responsive marker. It begins to rise within about 6 hours, peaks at about 48 hours, and falls quickly when inflammation resolves because its half-life is about 19 hours. The erythrocyte sedimentation rate (ESR) changes more slowly because it depends on fibrinogen, which neutralizes the negative surface charge that normally keeps red cells apart. Hepcidin binds ferroportin, the only cellular iron exporter, causing its internalization and degradation. Enterocytes stop releasing absorbed iron and macrophages keep recycled iron, so serum iron falls while ferritin is normal or high. This withholds iron from bacteria but limits erythropoiesis."
+    },
+    {
+     "type": "example",
+     "title": "Reading iron studies in inflammation",
+     "text": "A patient with active rheumatoid arthritis has a mild normocytic anemia. Serum iron is low, TIBC is low, ferritin is high, and CRP is high. Start with the cytokine: IL-6 raises hepcidin, which degrades ferroportin, so iron is trapped in macrophages (high ferritin) and cannot reach plasma (low serum iron). IL-6 also lowers transferrin, so TIBC is low. In iron deficiency, by contrast, stores are empty (low ferritin) and the liver makes more transferrin (high TIBC). The direction of TIBC and ferritin, not the serum iron, separates the two."
+    },
+    {
+     "type": "stop",
+     "predict": "A patient with a fever of 39.5 °C (103.1 °F) is given a COX inhibitor. Which molecule is no longer made, and does the patient sweat or shiver as the temperature falls?",
+     "explain": "PGE2 synthesis in the hypothalamus stops, so the set point returns to normal. Core temperature is now above the set point, so the patient vasodilates and sweats until temperature falls.",
+     "check": "Compare with the fever flow figure and the first paragraph of this section."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-06-01-C04",
+   "obj": "IM-6.4",
+   "title": "Opsonization, phagolysosome fusion, and Chediak-Higashi syndrome",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Phagocytes bind many microbes poorly on their own, especially bacteria with polysaccharide capsules, which are hydrophilic and negatively charged and hide surface ligands. Opsonins solve this by coating the microbe with molecules that phagocyte receptors recognize. IgG, mainly the IgG1 and IgG3 subclasses, binds by its Fab ends to the microbe and presents its Fc region to Fc gamma receptors. C3b, deposited covalently on microbial surfaces by any complement pathway, binds complement receptor 1 (CR1, CD35), and its breakdown product iC3b binds CR3, which is Mac-1 (CD11b/CD18). CRP and mannose-binding lectin also act as opsonins. IgM is a poor direct opsonin because phagocytes lack an Fc receptor that mediates ingestion of IgM-coated particles, but it activates complement efficiently and so deposits C3b."
+    },
+    {
+     "type": "p",
+     "text": "Engulfment forms a phagosome, which must fuse with lysosomes and neutrophil granules to become a phagolysosome. Inside it, NADPH oxidase converts oxygen to superoxide (the respiratory burst), superoxide becomes hydrogen peroxide, and myeloperoxidase from azurophilic granules converts hydrogen peroxide and chloride to hypochlorous acid. Lysosomal hydrolases, defensins, and lactoferrin add oxygen-independent killing. A defect anywhere in this sequence allows organisms to survive inside phagocytes."
+    },
+    {
+     "type": "h",
+     "text": "Chediak-Higashi syndrome"
+    },
+    {
+     "type": "p",
+     "text": "Chediak-Higashi syndrome is an autosomal recessive disorder caused by mutation of LYST, the lysosomal trafficking regulator gene. LYST controls the size and movement of lysosomes and lysosome-related organelles. Without it, these organelles fuse into giant granules that move poorly and fail to empty into phagosomes, so killing is impaired. Neutrophils also show reduced chemotaxis, and many die in the marrow, causing neutropenia. Because the same trafficking defect affects every lysosome-related organelle, one mutation explains findings in several tissues."
+    },
+    {
+     "type": "table",
+     "title": "Chediak-Higashi syndrome: one organelle defect, many findings",
+     "cols": [
+      "Affected organelle or cell",
+      "Finding"
+     ],
+     "rows": [
+      [
+       "Neutrophil granules",
+       "Giant peroxidase-positive granules on smear; recurrent pyogenic infections, mainly S aureus and streptococci"
+      ],
+      [
+       "Melanosomes",
+       "Partial oculocutaneous albinism; silvery hair with clumped pigment"
+      ],
+      [
+       "Platelet dense granules",
+       "Mild bleeding tendency"
+      ],
+      [
+       "Neurons",
+       "Progressive peripheral neuropathy and later neurodegeneration"
+      ],
+      [
+       "NK and cytotoxic T cell granules",
+       "Poor cytotoxicity; risk of a lymphohistiocytic accelerated phase"
+      ]
+     ],
+     "caption": "The giant inclusions on a blood smear are the diagnostic clue."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-06-01-C05",
+   "obj": "IM-6.5",
+   "title": "Foreign body granulomas and immune granulomas",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "A granuloma is a pattern of chronic inflammation in which activated macrophages wall off something the body cannot eliminate. Its defining cell is the epithelioid macrophage, an activated macrophage with abundant pink cytoplasm and indistinct borders that resembles squamous epithelium. Epithelioid cells may fuse into multinucleated giant cells. The stimulus decides which of two mechanisms builds the granuloma."
+    },
+    {
+     "type": "p",
+     "text": "A foreign body granuloma forms around inert material too large for a single macrophage to engulf, such as suture, talc injected with crushed tablets, wood splinters, or keratin from a ruptured cyst. Macrophages gather around the material and fuse into foreign body giant cells, whose many nuclei are scattered haphazardly. No antigen-specific T cell response is required, so lymphocytes are few. The material is usually visible within or beside the giant cells, and talc and many sutures are birefringent under polarized light."
+    },
+    {
+     "type": "p",
+     "text": "An immune granuloma forms around a persistent antigen that provokes a T cell response, most often an intracellular organism that survives in macrophages, such as Mycobacterium tuberculosis. Macrophages and dendritic cells present antigen on MHC class II and secrete IL-12, which drives CD4 T cells to the Th1 subset. Th1 cells secrete IFN-gamma, which activates macrophages to kill better and to become epithelioid cells and Langhans giant cells, whose nuclei form a horseshoe at the periphery. Macrophage TNF-alpha recruits cells and maintains the structure, so blocking TNF can dissolve granulomas and reactivate latent tuberculosis. A cuff of lymphocytes surrounds the core, and fibroblasts lay down a fibrous rim. This is the effector arm of type IV (delayed-type) hypersensitivity. Defects in the IL-12 and IFN-gamma axis prevent proper granuloma formation and cause disseminated mycobacterial infection."
+    },
+    {
+     "type": "flow",
+     "title": "Building an immune granuloma",
+     "steps": [
+      "Macrophage harbors persistent antigen (M tuberculosis)",
+      "Antigen on MHC class II; IL-12 secreted",
+      "CD4 T cells become Th1 cells",
+      "Th1 IFN-gamma activates macrophages",
+      "Epithelioid cells and Langhans giant cells form",
+      "TNF-alpha maintains the wall; fibrosis surrounds it"
+     ],
+     "caption": "Th1 cytokines, not the stimulus alone, organize the immune granuloma."
+    },
+    {
+     "type": "table",
+     "title": "Foreign body versus immune granuloma",
+     "cols": [
+      "Feature",
+      "Foreign body granuloma",
+      "Immune granuloma"
+     ],
+     "rows": [
+      [
+       "Stimulus",
+       "Inert, nonantigenic material",
+       "Persistent antigen, often intracellular microbe"
+      ],
+      [
+       "Driving signal",
+       "Frustrated phagocytosis; no specific T cells",
+       "Th1 IFN-gamma, maintained by TNF-alpha"
+      ],
+      [
+       "Giant cells",
+       "Foreign body type, nuclei scattered",
+       "Langhans type, nuclei in a peripheral horseshoe"
+      ],
+      [
+       "Lymphocyte cuff",
+       "Sparse",
+       "Prominent"
+      ],
+      [
+       "Necrosis",
+       "Usually absent",
+       "Caseous in tuberculosis; absent in sarcoidosis"
+      ],
+      [
+       "Clue on histology",
+       "Visible, often polarizable material",
+       "Organisms on special stains or culture in infectious types"
+      ],
+      [
+       "Examples",
+       "Suture, talc, splinter, keratin",
+       "Tuberculosis, leprosy, histoplasmosis, sarcoidosis, Crohn disease"
+      ]
+     ],
+     "caption": "Giant cell nuclear pattern is a supporting clue, not a rule; both giant cell types can appear in either lesion."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-06-01-C06",
+   "obj": "IM-6.6",
+   "title": "LPS, cytokines, and the mechanisms of sepsis",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Sepsis is a local defense turned systemic. In gram-negative bacteremia, lipid A reaches TLR4 on monocytes, macrophages, and endothelium through LPS-binding protein and CD14, and NF-kappaB signaling releases large amounts of TNF-alpha, IL-1, and IL-6 into the blood. Gram-positive wall components (through TLR2) and fungal products act similarly. Effects that help at a single site, such as vasodilation, leaky vessels, and local clotting, become damaging when they occur in every vascular bed at once."
+    },
+    {
+     "type": "flow",
+     "title": "From LPS to organ dysfunction",
+     "steps": [
+      "Lipid A binds LBP, CD14, then TLR4 and MD-2",
+      "NF-kappaB releases TNF-alpha, IL-1, IL-6 systemically",
+      "iNOS nitric oxide dilates arterioles: hypotension",
+      "Endothelial activation: capillary leak and edema",
+      "Tissue factor expression: DIC and microthrombi",
+      "Hypoperfusion: lactic acidosis, multiorgan dysfunction"
+     ],
+     "caption": "Vasodilation, leak, and clotting act together to cut tissue oxygen delivery."
+    },
+    {
+     "type": "p",
+     "text": "Three mechanisms explain the clinical picture. First, cytokines induce inducible nitric oxide synthase (iNOS) in vascular smooth muscle and endothelium, and the large amounts of nitric oxide relax arterioles. Systemic vascular resistance falls, causing hypotension with warm, flushed skin in early septic shock, and cardiac output rises at first. Second, activated endothelium loosens its junctions and loses its glycocalyx, so protein-rich fluid leaks into tissues, lowering intravascular volume and producing edema, including pulmonary edema of acute respiratory distress syndrome. Third, monocytes and endothelium express tissue factor, while thrombomodulin, protein C activation, and fibrinolysis are suppressed. Widespread microthrombi consume platelets and clotting factors, which is disseminated intravascular coagulation (DIC): low platelets and fibrinogen, prolonged PT and PTT, raised D-dimer, and schistocytes, with bleeding and ischemia at the same time."
+    },
+    {
+     "type": "p",
+     "text": "Low pressure, leak, and microthrombi reduce oxygen delivery, while cytokines also impair mitochondrial oxygen use. Cells shift to anaerobic glycolysis and lactate accumulates, causing an anion gap metabolic acidosis. Organ dysfunction follows: acute kidney injury, acute respiratory distress syndrome, hepatic dysfunction with cholestasis, myocardial depression, and confusion."
+    },
+    {
+     "type": "table",
+     "title": "SIRS criteria (two or more)",
+     "cols": [
+      "Variable",
+      "Abnormal value"
+     ],
+     "rows": [
+      [
+       "Temperature",
+       "Above 38 °C (100.4 °F) or below 36 °C (96.8 °F)"
+      ],
+      [
+       "Heart rate",
+       "Above 90 beats/min"
+      ],
+      [
+       "Respiration",
+       "Above 20 breaths/min, or PaCO2 below 32 mm Hg"
+      ],
+      [
+       "White cell count",
+       "Above 12,000/mm3, below 4,000/mm3, or more than 10% bands"
+      ]
+     ],
+     "caption": "SIRS measures systemic cytokine effect; it is not specific for infection and also occurs after trauma, burns, and pancreatitis."
+    },
+    {
+     "type": "p",
+     "text": "Each criterion reflects a cytokine effect: fever (or, in severe cases, hypothermia) from the hypothalamus, tachycardia from fever and falling resistance, tachypnea from lactic acidosis and lung injury, and leukocytosis from IL-1 and G-CSF releasing marrow neutrophils, including immature bands. Leukopenia signals neutrophil consumption and worse prognosis. Sepsis was classically defined as SIRS with suspected infection; current consensus (Sepsis-3) instead defines it as infection with organ dysfunction, but SIRS criteria remain widely taught and tested."
+    },
+    {
+     "type": "example",
+     "title": "Applying SIRS criteria",
+     "text": "A patient with pyelonephritis has temperature 38.6 °C (101.5 °F), pulse 112/min, respirations 18/min, PaCO2 38 mm Hg, and WBC 9,800/mm3 with 14% bands. Check each criterion. Temperature is above 38 °C: met. Pulse is above 90: met. Respirations are 20 or below and PaCO2 is not below 32 mm Hg: not met. WBC is within 4,000 to 12,000, but bands exceed 10%: met. Three of four criteria are present, so SIRS is present. The bands matter: a normal total count does not exclude the criterion."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-06-01-C07",
+   "obj": "IM-6.7",
+   "title": "Superantigens and toxic shock syndrome",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Normally a T cell is activated only when its T cell receptor (TCR) recognizes a specific peptide held in the groove of an MHC molecule. Because each peptide is recognized by very few clones, a conventional antigen activates on the order of 1 in 10,000 to 1 in 100,000 T cells. Superantigens bypass this specificity. They are not processed; instead the intact toxin binds the outside of MHC class II on antigen-presenting cells, away from the peptide groove, and simultaneously binds the variable region of the TCR beta chain (V-beta). Any T cell whose TCR uses a compatible V-beta family is activated regardless of its peptide specificity, so up to about 20% of all T cells respond at once."
+    },
+    {
+     "type": "flow",
+     "title": "Superantigen cytokine storm",
+     "steps": [
+      "Toxin binds MHC class II outside the peptide groove",
+      "Same toxin binds TCR V-beta region",
+      "Polyclonal activation of up to about 20% of T cells",
+      "Massive IL-2, IFN-gamma, TNF release",
+      "Macrophages add IL-1 and TNF-alpha",
+      "Fever, rash, capillary leak, shock"
+     ],
+     "caption": "Activation depends on V-beta family, not antigen specificity, so the response is polyclonal."
+    },
+    {
+     "type": "p",
+     "text": "Activated T cells release IL-2 and IFN-gamma, and IFN-gamma activates macrophages to release TNF-alpha and IL-1. The result is a cytokine storm with the same downstream effects as gram-negative sepsis (vasodilation, capillary leak, DIC, and multiorgan dysfunction), but the trigger is T cell activation rather than TLR4. Afterward, many activated clones are deleted or become anergic, leaving a temporary state of immune hyporesponsiveness."
+    },
+    {
+     "type": "p",
+     "text": "Toxic shock syndrome (TSS) is the clinical form. Staphylococcal TSS is caused mainly by toxic shock syndrome toxin-1 (TSST-1) produced by S aureus colonizing a tampon, nasal packing, or a surgical wound; staphylococcal enterotoxins are also superantigens. It presents with high fever, hypotension, a diffuse macular erythroderma like sunburn, involvement of three or more organ systems, and desquamation of the palms and soles about 1 to 2 weeks later. Blood cultures are usually negative because the toxin, not invasion, causes disease. Streptococcal TSS is caused by S pyogenes pyrogenic exotoxins (SpeA and SpeC), usually from an invasive soft tissue infection such as necrotizing fasciitis; blood cultures are more often positive and mortality is higher."
+    },
+    {
+     "type": "table",
+     "title": "Two routes to cytokine shock",
+     "cols": [
+      "Feature",
+      "Gram-negative septic shock",
+      "Superantigen toxic shock"
+     ],
+     "rows": [
+      [
+       "Trigger",
+       "LPS (lipid A)",
+       "TSST-1, enterotoxins, SpeA, SpeC"
+      ],
+      [
+       "Receptor",
+       "TLR4 with CD14 and MD-2 on innate cells",
+       "MHC class II plus TCR V-beta"
+      ],
+      [
+       "First responding cell",
+       "Monocytes and macrophages",
+       "CD4 and CD8 T cells, polyclonal"
+      ],
+      [
+       "Key early cytokines",
+       "TNF-alpha, IL-1, IL-6",
+       "IL-2, IFN-gamma, then TNF-alpha and IL-1"
+      ],
+      [
+       "Distinctive feature",
+       "Gram-negative focus or bacteremia; no rash",
+       "Erythroderma, later desquamation"
+      ]
+     ],
+     "caption": "Both converge on TNF-alpha and IL-1, so the shock physiology is similar even though the receptors differ."
+    },
+    {
+     "type": "stop",
+     "predict": "Why does a superantigen activate thousands of times more T cells than a conventional peptide antigen?",
+     "explain": "It binds MHC class II and TCR V-beta outside the peptide groove, so every T cell using a compatible V-beta family responds, regardless of which peptide its TCR recognizes.",
+     "check": "Compare with the first paragraph and the flow figure of this section."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Microbiology and immunology meet at the receptor. Lipid A, flagellin, and CpG DNA are recognized because they are conserved and essential to the microbe, while staphylococcal and streptococcal toxins exploit the structure of MHC class II and the TCR itself. The same three cytokines, IL-1, IL-6, and TNF-alpha, link the local response to the whole body: they induce endothelial adhesion molecules, raise the hypothalamic set point through PGE2, reprogram hepatic protein synthesis, and at high concentration cause shock and DIC. Biochemistry explains the killing (NADPH oxidase and myeloperoxidase) and the iron withholding (hepcidin and ferroportin)."
+  },
+  {
+   "type": "p",
+   "text": "Pathology shows each step failing in a recognizable way. Loss of CD18 stops adhesion (LAD-1), loss of LYST disrupts granule trafficking (Chediak-Higashi syndrome), excess NLRP3 activity drives gout and periodic fever syndromes, and a defective IL-12 and IFN-gamma axis prevents granuloma formation. The limits matter: SIRS is nonspecific, acute phase reactants show that inflammation exists but not where or why, and giant cell morphology supports rather than proves the type of granuloma."
+  }
+ ],
+ "summary": [
+  "Surface TLRs detect wall components (TLR4 with CD14 and MD-2 for LPS, TLR5 for flagellin); endosomal TLR3, 7, 8, and 9 detect nucleic acids.",
+  "TLR signaling through MyD88 activates NF-kappaB for TNF-alpha, IL-6, and pro-IL-1beta; the NLRP3 inflammasome, triggered by DAMPs such as ATP and urate, activates caspase-1 to release IL-1beta.",
+  "Extravasation proceeds by selectin rolling, integrin (CD18) adhesion to ICAM-1 induced by TNF and IL-1, PECAM-1 diapedesis, and chemotaxis to C5a, LTB4, IL-8, and formyl peptides.",
+  "LAD-1 (absent CD18) causes neutrophilia, infections without pus, and delayed umbilical cord separation.",
+  "IL-1, IL-6, and TNF-alpha cause fever by inducing hypothalamic COX-2 and PGE2, which raises the set point.",
+  "IL-6 raises CRP, fibrinogen, serum amyloid A, ferritin, and hepcidin and lowers albumin and transferrin; hepcidin causes anemia of chronic disease.",
+  "IgG (via Fc gamma receptors) and C3b (via CR1) opsonize microbes; killing requires phagolysosome fusion and the oxidative burst.",
+  "LYST mutation in Chediak-Higashi syndrome causes giant granules, partial albinism, neuropathy, bleeding, and pyogenic infections.",
+  "Foreign body granulomas surround inert material without specific T cells; immune granulomas are built by Th1 IFN-gamma and maintained by TNF-alpha.",
+  "LPS-driven cytokines cause vasodilation, capillary leak, and DIC in sepsis; superantigens cross-link MHC class II and TCR V-beta to cause polyclonal T cell activation in toxic shock syndrome."
+ ],
+ "sources": [
+  {
+   "book": "Abbas, Cellular and Molecular Immunology",
+   "where": "Innate immunity; Effector mechanisms of cell-mediated immunity"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Inflammation and repair; Hemodynamic disorders, thromboembolism, and shock"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Body temperature regulation and fever"
+  },
+  {
+   "book": "Jawetz, Melnick, and Adelberg's Medical Microbiology",
+   "where": "Pathogenesis of bacterial infection; Staphylococci; Streptococci"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Disorders of the immune system and infectious diseases"
+  }
+ ],
+ "verify": [
+  "SIRS criteria are given in their classic 1992 consensus form; Sepsis-3 (2016) replaced SIRS with organ dysfunction scoring. Confirm which definition NABNE Part I currently tests.",
+  "The fraction of T cells activated by a superantigen (up to about 20%) and by a conventional antigen (about 1 in 10,000 to 1 in 100,000) vary between sources.",
+  "CRP kinetics (rise by about 6 hours, peak about 48 hours, half-life about 19 hours) are consensus approximations; laboratory reference limits for CRP differ and are not stated here.",
+  "The age that defines delayed umbilical cord separation in LAD-1 varies (often beyond about 3 weeks); the 4-week figure in the STOP prompt is illustrative.",
+  "Some review sources list TLR8 with TLR7 and others omit it; confirm whether NABNE expects TLR2 partners (TLR1, TLR6) and the TRIF adaptor.",
+  "Confirm whether NABNE expects the term pyroptosis, gasdermin D, and the subtypes LAD-2 and LAD-3, or only LAD-1.",
+  "Requested new diagram names for a future revision: extravasation-steps (rolling, adhesion, diapedesis, chemotaxis along a venule) and superantigen-binding (toxin bridging MHC class II and TCR V-beta outside the groove)."
+ ]
+}

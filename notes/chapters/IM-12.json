@@ -1,0 +1,635 @@
+{
+ "unit": "IM-12",
+ "chapter_id": "NPLEX-P1-IMMU-12",
+ "topic_id": "NPLEX-P1-IMMU-12-01",
+ "title": "Immunogenetics: Receptor Assembly, Immunodeficiency, and Tolerance Genes",
+ "subject": "Immunology (IMMU)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter follows single genes through the life of a lymphocyte: the enzymes that assemble antigen receptors, the cytokine and metabolic genes whose loss causes severe combined immunodeficiency (SCID), the cytoskeletal and costimulatory genes behind Wiskott-Aldrich and hyper-IgM syndromes, and the genes that enforce tolerance (AIRE, FOXP3, FAS). Board questions give a lymphocyte profile, an immunoglobulin pattern, a newborn screen, or a pedigree and ask which molecule is broken. Each disorder is predictable once you know what the normal protein does and which cells depend on it, so this chapter teaches the normal step first and then the failure that follows from it.",
+  "prerequisites": [
+   "Structure of immunoglobulins and the T cell receptor, including variable and constant regions",
+   "B and T cell development in bone marrow and thymus, including positive and negative selection (IM-1, IM-5)",
+   "Cytokine receptor signaling through JAK and STAT proteins",
+   "Purine metabolism and the role of ribonucleotide reductase in DNA synthesis",
+   "X-linked recessive and autosomal recessive inheritance patterns"
+  ],
+  "connections": [
+   {
+    "to": "Thymus embryology and lymphoid histology (IM-1, IM-2)",
+    "how": "An absent thymic shadow and empty lymphoid follicles are the anatomical result of failed lymphocyte development in SCID."
+   },
+   {
+    "to": "Humoral and cell-mediated immunity (IM-5)",
+    "how": "CD40 ligand and the immune synapse are the contact points between T cell help and B cell or macrophage responses that fail in hyper-IgM and Wiskott-Aldrich syndromes."
+   },
+   {
+    "to": "Immune biochemistry and nutrition (IM-10)",
+    "how": "ADA deficiency is a purine salvage defect in which a toxic nucleotide, dATP, starves lymphocytes of DNA precursors."
+   },
+   {
+    "to": "Congenital immunodeficiency diseases (IM-15-A)",
+    "how": "This chapter supplies the genetic and molecular basis that the disease chapter applies to clinical presentation."
+   },
+   {
+    "to": "Endocrine system",
+    "how": "Hypoparathyroidism, adrenal insufficiency, and neonatal type 1 diabetes in AIRE and FOXP3 disorders show endocrine organs as targets of failed tolerance."
+   }
+  ],
+  "terms": [
+   {
+    "term": "V(D)J recombination",
+    "def": "Somatic DNA rearrangement that joins one variable (V), one diversity (D, in some loci), and one joining (J) gene segment to build the variable exon of an antigen receptor."
+   },
+   {
+    "term": "Recombination signal sequence (RSS)",
+    "def": "A conserved heptamer and nonamer separated by a 12 or 23 base pair spacer that flanks each V, D, and J segment and directs RAG cutting."
+   },
+   {
+    "term": "Junctional diversity",
+    "def": "Variation created at segment joints by nucleotide loss, palindromic (P) nucleotides, and untemplated (N) nucleotides added by TdT."
+   },
+   {
+    "term": "T cell receptor excision circle (TREC)",
+    "def": "A circle of DNA cut out during T cell receptor gene rearrangement that does not replicate and therefore marks recent thymic output."
+   },
+   {
+    "term": "Common gamma chain (gamma c)",
+    "def": "The IL2RG-encoded receptor subunit shared by the IL-2, IL-4, IL-7, IL-9, IL-15, and IL-21 receptors, which signals through JAK3."
+   },
+   {
+    "term": "Class switch recombination",
+    "def": "Deletional recombination between switch regions of the heavy chain locus that replaces the mu constant region with gamma, alpha, or epsilon while keeping antigen specificity."
+   },
+   {
+    "term": "Activation-induced cytidine deaminase (AID)",
+    "def": "A B cell enzyme that converts cytosine to uracil in DNA, initiating class switch recombination and somatic hypermutation."
+   },
+   {
+    "term": "Central tolerance",
+    "def": "Deletion or diversion of self-reactive lymphocytes during development in the thymus or bone marrow."
+   },
+   {
+    "term": "Peripheral tolerance",
+    "def": "Control of mature self-reactive lymphocytes outside the primary organs by anergy, regulatory T cells, and apoptosis."
+   },
+   {
+    "term": "Regulatory T cell (Treg)",
+    "def": "A CD4+ CD25high FOXP3+ T cell that suppresses activation of other lymphocytes."
+   },
+   {
+    "term": "Death-inducing signaling complex (DISC)",
+    "def": "The complex of trimerized Fas, the adaptor FADD, and procaspase 8 that starts extrinsic apoptosis."
+   },
+   {
+    "term": "Double negative T cell",
+    "def": "A mature alpha-beta T cell expressing neither CD4 nor CD8, increased in blood in autoimmune lymphoproliferative syndrome."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-IMMU-12-01-C01",
+   "obj": "IM-12.1",
+   "title": "V(D)J recombination, junctional diversity, and RAG deficiency",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The genome cannot encode a separate gene for every antigen receptor, so each developing lymphocyte assembles its own by cutting and joining gene segments. The immunoglobulin heavy chain and the T cell receptor (TCR) beta and delta chains are built from variable (V), diversity (D), and joining (J) segments, while immunoglobulin kappa and lambda light chains and TCR alpha and gamma chains use only V and J. The joined unit becomes the variable domain exon, and its joints form the third complementarity determining region (CDR3), the most variable antigen contact."
+    },
+    {
+     "type": "p",
+     "text": "Each segment is flanked by a recombination signal sequence (RSS), a heptamer and nonamer separated by a spacer of 12 or 23 base pairs. Recombination occurs only between a 12 spacer and a 23 spacer signal (the 12/23 rule), which prevents useless joins such as V to V. The lymphoid-specific recombinase, RAG1 with RAG2, binds a pair of signals, nicks the DNA, and seals each coding end into a hairpin. Nonhomologous end joining (NHEJ), present in all cells, completes the join: Ku70 and Ku80 bind the ends, DNA-PKcs activates the nuclease Artemis to open the hairpins, and XRCC4 with DNA ligase IV ligates them."
+    },
+    {
+     "type": "flow",
+     "title": "Assembling a variable region exon",
+     "steps": [
+      "RAG1 and RAG2 bind a 12 and a 23 spacer RSS",
+      "DNA is cut; coding ends form hairpins",
+      "Artemis opens hairpins, often off center (P nucleotides)",
+      "Exonuclease trims; TdT adds random N nucleotides",
+      "Ku, XRCC4, and DNA ligase IV join coding ends",
+      "Excised signal ends close into a circle (TREC in T cells)"
+     ],
+     "caption": "RAG starts the reaction and general DNA repair completes it; a defect in either blocks receptor assembly."
+    },
+    {
+     "type": "p",
+     "text": "Diversity comes from three sources. Combinatorial diversity is the choice of one V, D, and J from many. Pairing two different chains multiplies it. Junctional diversity is the largest contributor: Artemis opens hairpins off center, creating short palindromic (P) nucleotides, exonucleases remove bases, and terminal deoxynucleotidyl transferase (TdT), a template-independent DNA polymerase expressed in early lymphoid precursors, adds untemplated N nucleotides. Many joins shift the reading frame, so the cell often must try its second allele."
+    },
+    {
+     "type": "p",
+     "text": "A completed heavy chain or TCR beta chain is tested by pairing it with a surrogate partner to form the pre-B cell receptor or pre-TCR. Signaling from this receptor gives survival, proliferation, and allelic exclusion. A cell that never completes rearrangement never receives the signal and dies. Loss of RAG1 or RAG2 therefore removes every T and B cell, while NK cells, which recognize targets with germline-encoded receptors (killer cell immunoglobulin-like receptors, NKG2D) and depend on IL-15 rather than rearrangement, develop normally. This is autosomal recessive T negative, B negative, NK positive SCID. Artemis or DNA-PKcs deficiency produces the same lymphocyte profile with added sensitivity to ionizing radiation, because NHEJ also repairs radiation-induced breaks. Partial RAG activity yields a few oligoclonal T cells and Omenn syndrome (erythroderma, eosinophilia, high IgE, low or absent B cells)."
+    },
+    {
+     "type": "table",
+     "title": "Molecules of V(D)J recombination and the effect of their loss",
+     "cols": [
+      "Molecule",
+      "Normal job",
+      "Expression",
+      "Result of loss"
+     ],
+     "rows": [
+      [
+       "RAG1, RAG2",
+       "Recognize RSS, cut DNA, form hairpins",
+       "Developing B and T cells only",
+       "T-B-NK+ SCID; Omenn syndrome if partial"
+      ],
+      [
+       "Artemis (DCLRE1C)",
+       "Opens coding hairpins",
+       "All cells",
+       "T-B-NK+ SCID with radiosensitivity"
+      ],
+      [
+       "DNA-PKcs, DNA ligase IV",
+       "Activate Artemis; ligate ends (NHEJ)",
+       "All cells",
+       "Radiosensitive SCID or combined immunodeficiency; ligase IV often with microcephaly"
+      ],
+      [
+       "TdT",
+       "Adds N nucleotides at joints",
+       "Early B and T precursors",
+       "Less junctional diversity; development proceeds"
+      ]
+     ],
+     "caption": "Only RAG and TdT are lymphoid specific."
+    },
+    {
+     "type": "stop",
+     "predict": "An infant has no T or B cells and normal NK cells. Cultured fibroblasts die after a low dose of radiation. Is the defect in RAG2 or Artemis?",
+     "explain": "Artemis. RAG2 exists only in developing lymphocytes, so fibroblasts lacking it repair radiation breaks normally; Artemis belongs to the NHEJ pathway in all cells.",
+     "check": "The table of recombination molecules and where each is expressed."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-12-01-C02",
+   "obj": "IM-12.2",
+   "title": "Classifying SCID by lymphocyte profile and TRECs",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Severe combined immunodeficiency (SCID) is a group of genetic disorders in which T cell development fails and B cell function is lost, directly or through absent T cell help. All forms share early-onset persistent thrush, chronic diarrhea with failure to thrive, Pneumocystis jirovecii pneumonia, severe viral infections, disease from live vaccines such as rotavirus and BCG, an absent thymic shadow on chest radiograph, and marked lymphopenia for age. Maternal IgG delays serious bacterial infection for a few months. Which lymphocyte populations are missing predicts the genotype."
+    },
+    {
+     "type": "p",
+     "text": "X-linked SCID, from mutation of IL2RG, removes the common gamma chain shared by the receptors for IL-2, IL-4, IL-7, IL-9, IL-15, and IL-21. IL-7 drives proliferation and survival of early thymocytes, so T cells are absent, and IL-15 is required for NK cell development, so NK cells are absent. B cells are present in normal or increased numbers but do not make useful antibody, because they lack T cell help and cannot respond to IL-21. JAK3 is the kinase that carries the gamma chain signal, so autosomal recessive JAK3 deficiency copies this T-B+NK- profile in both sexes. IL-7 receptor alpha deficiency removes only T cells (T-B+NK+), confirming that NK loss in X-linked SCID is due to IL-15."
+    },
+    {
+     "type": "p",
+     "text": "Adenosine deaminase (ADA) converts adenosine and deoxyadenosine to inosine and deoxyinosine in purine salvage. Without it, deoxyadenosine accumulates and is phosphorylated to dATP, especially in lymphocytes, which have high kinase and low nucleotidase activity. dATP inhibits ribonucleotide reductase, depleting the other deoxynucleotides needed for DNA synthesis, and deoxyadenosine also inhibits S-adenosylhomocysteine hydrolase. The toxin poisons every lymphocyte lineage, giving the most profound form, T-B-NK-. Because ADA works in all tissues, skeletal changes (flared costochondral junctions), sensorineural hearing loss, and neurologic findings can accompany it."
+    },
+    {
+     "type": "table",
+     "title": "SCID genotypes by lymphocyte profile",
+     "cols": [
+      "Gene",
+      "Inheritance",
+      "T",
+      "B",
+      "NK",
+      "Mechanism"
+     ],
+     "rows": [
+      [
+       "IL2RG (common gamma chain)",
+       "X-linked recessive",
+       "Absent",
+       "Present",
+       "Absent",
+       "No IL-7 or IL-15 signal"
+      ],
+      [
+       "JAK3",
+       "Autosomal recessive",
+       "Absent",
+       "Present",
+       "Absent",
+       "Kinase for the common gamma chain"
+      ],
+      [
+       "IL7R alpha",
+       "Autosomal recessive",
+       "Absent",
+       "Present",
+       "Present",
+       "No IL-7 signal; IL-15 intact"
+      ],
+      [
+       "ADA",
+       "Autosomal recessive",
+       "Absent",
+       "Absent",
+       "Absent",
+       "dATP inhibits ribonucleotide reductase"
+      ],
+      [
+       "RAG1, RAG2, Artemis",
+       "Autosomal recessive",
+       "Absent",
+       "Absent",
+       "Present",
+       "No V(D)J recombination"
+      ]
+     ],
+     "caption": "B cells listed as present are nonfunctional."
+    },
+    {
+     "type": "p",
+     "text": "T cell receptor excision circles (TRECs) form when the TCR delta locus is deleted during TCR alpha rearrangement in the thymus. The circle is stable but is not copied when the cell divides, so its concentration in blood reflects how many new naive T cells the thymus is releasing. Newborn screening measures TRECs by PCR on the dried blood spot. Every typical SCID genotype gives very low or absent TRECs, because the shared defect is failure of thymic output; in RAG deficiency the circle cannot form at all, because no TCR gene is ever cut. Thymic aplasia (complete DiGeorge syndrome), prematurity, and secondary T cell loss also lower TRECs, so flow cytometry follows."
+    },
+    {
+     "type": "flow",
+     "title": "From newborn screen to genotype",
+     "steps": [
+      "Low or absent TRECs on newborn screen",
+      "Flow cytometry confirms very low naive T cells",
+      "B cells present: gamma c, JAK3, or IL7R alpha",
+      "Boy with B+ and NK absent: IL2RG first",
+      "B absent, NK present: RAG1, RAG2, or Artemis",
+      "T, B, and NK all absent: ADA deficiency"
+     ],
+     "caption": "The lymphocyte profile narrows the gene list."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: reading a SCID panel",
+     "text": "A 4-month-old boy with thrush and Pneumocystis pneumonia had undetectable TRECs at birth. CD3+ T cells are nearly absent, CD19+ B cells are increased, and NK cells are absent. Step 1: B cells present excludes RAG and ADA defects, which remove B cells too. Step 2: absent NK cells means IL-15 signaling is also lost, so the defect lies in the common gamma chain or JAK3, not IL7R alpha. Step 3: in a boy, IL2RG is most likely, with JAK3 the autosomal alternative. Any IgG he has now is maternal."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-12-01-C03",
+   "obj": "IM-12.3",
+   "title": "Wiskott-Aldrich syndrome and X-linked risk",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Wiskott-Aldrich syndrome (WAS) is an X-linked recessive disorder caused by mutation of the WAS gene, which encodes the Wiskott-Aldrich syndrome protein (WASp). WASp is expressed only in hematopoietic cells. When a receptor is engaged, the GTPase Cdc42 opens WASp so it can activate the Arp2/3 complex, which nucleates branched actin. Blood cells need this actin to change shape, move, and form contacts with other cells, so WASp loss damages several lineages at once."
+    },
+    {
+     "type": "p",
+     "text": "Platelets are produced in reduced numbers, are small (low mean platelet volume), and are removed early in the spleen, giving microthrombocytopenia with petechiae, bloody diarrhea, and bleeding after circumcision in infancy. Platelets in immune thrombocytopenia are normal sized or large. T cells form an unstable immune synapse with antigen-presenting cells and proliferate poorly, and their numbers often fall with age. Impaired leukocyte migration, NK cytotoxicity, and regulatory T cell function explain the eczema, the autoimmunity (especially autoimmune hemolytic anemia and vasculitis), and the increased risk of B cell lymphoma, often associated with Epstein-Barr virus."
+    },
+    {
+     "type": "p",
+     "text": "Antibody production is most defective against polysaccharide antigens, the capsules of Streptococcus pneumoniae, Haemophilus influenzae, and Neisseria meningitidis. Serum IgM and isohemagglutinins (IgM antibodies to blood group carbohydrates) are typically low, and patients have recurrent otitis, sinusitis, and pneumonia with encapsulated bacteria. IgG is usually normal, while IgA and IgE are raised, reflecting dysregulated B cell activation and a shift toward Th2 (IL-4 driven) responses. Milder mutations that preserve some WASp cause X-linked thrombocytopenia, with small platelets but little or no immune disease."
+    },
+    {
+     "type": "table",
+     "title": "Wiskott-Aldrich findings explained by WASp loss",
+     "cols": [
+      "Finding",
+      "Mechanism"
+     ],
+     "rows": [
+      [
+       "Thrombocytopenia, small platelets",
+       "Abnormal platelet formation and early splenic clearance"
+      ],
+      [
+       "Eczema",
+       "Immune dysregulation: impaired regulatory T cells and a shift toward Th2 responses"
+      ],
+      [
+       "Infections with encapsulated bacteria",
+       "Poor antibody response to polysaccharide antigens; low IgM"
+      ],
+      [
+       "High IgA and IgE, normal IgG",
+       "Dysregulated B cell activation with Th2 skewing"
+      ],
+      [
+       "Autoimmunity, lymphoma",
+       "Defective regulatory T cells and impaired immune surveillance"
+      ]
+     ],
+     "caption": "One cytoskeletal regulator, many cell types, many findings."
+    },
+    {
+     "type": "p",
+     "text": "Risk calculation follows X-linked recessive rules. A carrier mother has one mutant and one normal X. Each son receives one of her two X chromosomes and the father's Y, so each son has a 50% chance of being affected. Each daughter receives one maternal X and the father's normal X, so she has a 50% chance of being a carrier and is not affected. For a pregnancy of unknown sex, the risk of an affected child is 25%. Carrier women are healthy because their blood cells that express normal WASp have a survival advantage, so their hematopoietic cells show nonrandom (skewed) X inactivation, which can be used to detect carriers."
+    },
+    {
+     "type": "table",
+     "title": "Offspring risk in X-linked recessive inheritance",
+     "cols": [
+      "Parents",
+      "Sons",
+      "Daughters"
+     ],
+     "rows": [
+      [
+       "Carrier mother, normal father",
+       "50% affected, 50% unaffected",
+       "50% carriers, none affected"
+      ],
+      [
+       "Normal mother, affected father",
+       "None affected (receive the Y)",
+       "All carriers"
+      ],
+      [
+       "Woman whose mother is a carrier (her own status unknown)",
+       "25% affected (1/2 carrier x 1/2 transmission)",
+       "25% carriers"
+      ]
+     ],
+     "caption": "Sons receive their only X from the mother."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: a sister's risk",
+     "text": "A woman's brother has Wiskott-Aldrich syndrome inherited from their healthy carrier mother. What is the risk that her son will be affected? Step 1: her mother is a carrier, so the chance that she inherited the mutant X is 1/2. Step 2: if she is a carrier, each son has a 1/2 chance of receiving that X. Step 3: multiply, 1/2 x 1/2 = 1/4, so the risk for a son is 25%. Step 4: for a pregnancy of unknown sex, multiply again by 1/2 for a male child, giving 1/8. Carrier testing changes her risk to either 50% or 0% for each son."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-12-01-C04",
+   "obj": "IM-12.4",
+   "title": "CD40 ligand deficiency and hyper-IgM syndrome",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Every naive B cell first makes IgM (and IgD), because the mu constant region lies closest to the rearranged VDJ exon. Switching to IgG, IgA, or IgE requires class switch recombination, which deletes the DNA between two switch regions and moves a new constant region next to the same VDJ, so specificity is kept while effector function changes. The enzyme that starts it is activation-induced cytidine deaminase (AID), which converts cytosine to uracil in switch region DNA. Uracil-DNA glycosylase (UNG) removes the uracils, the abasic sites are cut into double-strand breaks, NHEJ joins the two switch regions, and the intervening DNA is lost. AID also drives somatic hypermutation and affinity maturation in germinal centers."
+    },
+    {
+     "type": "p",
+     "text": "B cells express AID only after receiving a contact signal from a helper T cell. When a CD4 T cell recognizes peptide on a B cell's MHC class II, it upregulates CD40 ligand (CD40L, CD154), which binds CD40 on the B cell. CD40 activates NF-kappa B and, together with cytokines that choose the isotype (IL-4 for IgE, TGF-beta for IgA), induces AID, B cell proliferation, and germinal center formation."
+    },
+    {
+     "type": "flow",
+     "title": "T cell help for class switching",
+     "steps": [
+      "B cell presents peptide on MHC class II",
+      "CD4 T cell activates and expresses CD40L",
+      "CD40L binds CD40 on the B cell",
+      "NF-kappa B and cytokines induce AID",
+      "AID deaminates cytosine in switch regions",
+      "Switch recombination: IgG, IgA, or IgE"
+     ],
+     "caption": "X-linked hyper-IgM syndrome breaks the third step, so B cells remain at IgM."
+    },
+    {
+     "type": "p",
+     "text": "In X-linked hyper-IgM syndrome, mutation of CD40LG means activated T cells cannot deliver this signal. B cells are normal in number and make IgM, but they cannot switch isotype, form germinal centers, or produce switched memory B cells. Serum IgM is normal or high, while IgG, IgA, and IgE are very low. Lymph nodes are small and lack germinal centers. Recurrent sinopulmonary infections with encapsulated bacteria follow from the lack of opsonizing IgG and mucosal IgA."
+    },
+    {
+     "type": "p",
+     "text": "CD40 is also present on macrophages and dendritic cells. CD40L ligation drives dendritic cells to make IL-12, which promotes IFN-gamma production by T helper 1 cells, and it activates macrophages to kill intracellular organisms. Losing this signal makes X-linked hyper-IgM a combined immunodeficiency, which explains Pneumocystis jirovecii pneumonia in infancy and chronic Cryptosporidium infection, which causes protracted diarrhea and can ascend into the bile ducts to cause sclerosing cholangitis and liver disease. Neutropenia is also common. Autosomal recessive forms from CD40, AID (AICDA), or UNG mutation share the immunoglobulin pattern, but AID and UNG defects are confined to B cells: germinal centers enlarge into lymphoid hyperplasia and opportunistic infections do not occur."
+    },
+    {
+     "type": "table",
+     "title": "Forms of hyper-IgM syndrome",
+     "cols": [
+      "Gene",
+      "Inheritance",
+      "Cell affected",
+      "Germinal centers",
+      "Opportunistic infections"
+     ],
+     "rows": [
+      [
+       "CD40LG",
+       "X-linked recessive",
+       "Activated CD4 T cell",
+       "Absent",
+       "Yes (Pneumocystis, Cryptosporidium)"
+      ],
+      [
+       "CD40",
+       "Autosomal recessive",
+       "B cell, macrophage, dendritic cell",
+       "Absent",
+       "Yes"
+      ],
+      [
+       "AICDA (AID)",
+       "Autosomal recessive",
+       "B cell",
+       "Enlarged (lymphoid hyperplasia)",
+       "No"
+      ],
+      [
+       "UNG",
+       "Autosomal recessive",
+       "B cell",
+       "Enlarged",
+       "No"
+      ]
+     ],
+     "caption": "Defects in the CD40 signal impair both B cells and macrophages; defects inside the switching machinery impair only B cells."
+    },
+    {
+     "type": "stop",
+     "predict": "Two boys both have high IgM and undetectable IgG. One has Pneumocystis pneumonia and small lymph nodes; the other has large lymph nodes and only bacterial sinusitis. Which gene is likely in each?",
+     "explain": "The first has CD40L deficiency: CD40 signaling is lost in macrophages and dendritic cells, permitting opportunistic infection, and no germinal centers form. The second has an AID defect: the B cell receives T cell help but cannot complete switching, so germinal centers enlarge, and macrophage activation is intact.",
+     "check": "The hyper-IgM forms table and the role of CD40 on macrophages."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-12-01-C05",
+   "obj": "IM-12.5",
+   "title": "AIRE, FOXP3, and the two layers of T cell tolerance",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Random receptor assembly inevitably produces T cells that recognize self. Tolerance removes or restrains them at two levels. Central tolerance acts in the thymus, where thymocytes that bind self peptide on MHC too strongly are deleted by apoptosis or diverted into regulatory T cells. Peripheral tolerance controls the self-reactive cells that escape, and regulatory T cells are its main enforcers. AIRE and FOXP3 are the key genes at each level, and their loss produces two distinct autoimmune syndromes."
+    },
+    {
+     "type": "p",
+     "text": "Negative selection requires that thymocytes see self antigens from every tissue, including proteins normally made only in the parathyroid, adrenal cortex, pancreatic islets, or skin. The autoimmune regulator (AIRE), a transcriptional regulator in medullary thymic epithelial cells, switches on low-level expression of thousands of these tissue-restricted genes so their peptides can be presented. With AIRE lost, T cells specific for those antigens are neither deleted nor converted to regulatory cells, and they leave the thymus."
+    },
+    {
+     "type": "flow",
+     "title": "How AIRE loss leads to endocrine autoimmunity",
+     "steps": [
+      "AIRE mutation in medullary thymic epithelium",
+      "Tissue-restricted self antigens not expressed in thymus",
+      "Self-reactive thymocytes escape deletion",
+      "T cells attack parathyroid, adrenal, and other tissues",
+      "Autoantibodies to type I interferons and IL-17, IL-22"
+     ],
+     "caption": "Organ damage is mainly T cell mediated; the cytokine autoantibodies explain the candidiasis."
+    },
+    {
+     "type": "p",
+     "text": "The result is autoimmune polyglandular syndrome type 1 (APS-1), also called APECED (autoimmune polyendocrinopathy, candidiasis, ectodermal dystrophy), inherited in an autosomal recessive pattern and beginning in childhood. The classic triad is chronic mucocutaneous candidiasis, hypoparathyroidism, and primary adrenal insufficiency, usually appearing in that order; two of the three establish the diagnosis. Candidiasis arises because patients make neutralizing autoantibodies against IL-17A, IL-17F, and IL-22, the cytokines that induce antimicrobial peptides and neutrophil recruitment at skin and mucosal surfaces. Autoantibodies against type I interferons (especially IFN-omega) are found in nearly all patients and are a useful diagnostic marker. Hypoparathyroidism produces hypocalcemia with high phosphate and low PTH, causing tetany and seizures, and adrenal destruction produces low cortisol and aldosterone with hyponatremia, hyperkalemia, hypotension, and hyperpigmentation from raised ACTH. Enamel hypoplasia, nail dystrophy, type 1 diabetes, primary ovarian insufficiency, vitiligo, and autoimmune hepatitis may follow. APS-2, by contrast, is an adult, polygenic, HLA-associated syndrome of adrenal insufficiency with thyroid disease or type 1 diabetes, without candidiasis."
+    },
+    {
+     "type": "p",
+     "text": "FOXP3 is the transcription factor that programs regulatory T cells (Tregs). It drives high expression of CD25, the IL-2 receptor alpha chain, and of CTLA-4. Tregs suppress neighboring T cells by consuming IL-2, by using CTLA-4 to strip CD80 and CD86 from antigen-presenting cells, and by secreting IL-10 and TGF-beta. In IPEX syndrome (immune dysregulation, polyendocrinopathy, enteropathy, X-linked), FOXP3 mutation leaves boys without functional Tregs. Autoimmunity begins in the first months of life: severe watery diarrhea from autoimmune enteropathy with villous atrophy, neonatal type 1 diabetes, eczematous dermatitis, thyroiditis, and autoimmune cytopenias, often with high IgE and eosinophilia."
+    },
+    {
+     "type": "table",
+     "title": "AIRE versus FOXP3 disorders",
+     "cols": [
+      "Feature",
+      "APS-1 (AIRE)",
+      "IPEX (FOXP3)"
+     ],
+     "rows": [
+      [
+       "Tolerance layer lost",
+       "Central (thymic negative selection)",
+       "Peripheral (regulatory T cells)"
+      ],
+      [
+       "Inheritance",
+       "Autosomal recessive",
+       "X-linked recessive"
+      ],
+      [
+       "Onset",
+       "Childhood, organs added over years",
+       "First months of life"
+      ],
+      [
+       "Hallmarks",
+       "Candidiasis, hypoparathyroidism, adrenal insufficiency",
+       "Enteropathy, neonatal type 1 diabetes, dermatitis"
+      ],
+      [
+       "Laboratory clue",
+       "Autoantibodies to interferons and IL-17, IL-22",
+       "Absent or nonfunctional FOXP3+ Tregs; high IgE"
+      ]
+     ],
+     "caption": "Both cause multiorgan endocrine autoimmunity, but timing, inheritance, and candidiasis separate them."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-12-01-C06",
+   "obj": "IM-12.6",
+   "title": "Fas-mediated apoptosis and autoimmune lymphoproliferative syndrome",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "An immune response must end. After an infection, an antigen-specific clone may have expanded many thousandfold, and most of these cells must die, leaving lymphoid tissue at normal size with only memory cells. Lymphocytes die by two apoptotic routes. The intrinsic (mitochondrial) pathway is triggered when antigen and growth factors such as IL-2 are withdrawn, and it accounts for much of the contraction after an infection clears. The extrinsic pathway is triggered by death receptors, of which Fas (CD95) is the key one in lymphocytes."
+    },
+    {
+     "type": "p",
+     "text": "Repeated or persistent stimulation through the antigen receptor raises Fas and Fas ligand (FasL, CD178) on activated T cells. FasL, a trimer, binds and clusters Fas on the same or a neighboring cell. The clustered death domains recruit the adaptor FADD, which recruits procaspase 8, forming the death-inducing signaling complex (DISC). Procaspase 8 molecules activate one another, and caspase 8 then activates the executioner caspases 3 and 7 and cleaves BID, which amplifies the signal through the mitochondria. This activation-induced cell death removes chronically stimulated T cells. The cells most often restimulated are those that recognize self antigens, which are always present, so Fas signaling is a main mechanism for deleting self-reactive T cells in the periphery. FasL on helper T cells can also kill B cells that bind self antigen but do not receive the signals needed to survive."
+    },
+    {
+     "type": "flow",
+     "title": "Fas-mediated (extrinsic) apoptosis",
+     "steps": [
+      "Repeated antigen stimulation raises Fas and FasL",
+      "FasL trimer clusters Fas",
+      "Fas death domains recruit FADD",
+      "FADD recruits procaspase 8 (DISC)",
+      "Caspase 8 activates caspases 3 and 7; cleaves BID",
+      "Lymphocyte dies; clone and self-reactive cells removed"
+     ],
+     "caption": "Loss of Fas blocks this pathway at the receptor, so cells that should be deleted accumulate."
+    },
+    {
+     "type": "p",
+     "text": "Autoimmune lymphoproliferative syndrome (ALPS) is most often caused by a heterozygous germline FAS mutation inherited in an autosomal dominant pattern with variable penetrance. Because Fas acts as a trimer, one mutant subunit can disable a complex built mostly of normal subunits (a dominant negative effect). Somatic FAS mutations limited to lymphocytes, and mutations in FASLG or caspase 10, cause similar disease. Activated lymphocytes that should have died accumulate, giving chronic nonmalignant lymphadenopathy and splenomegaly beginning in childhood. Self-reactive B cell clones escape deletion and produce autoantibodies against blood cells, causing autoimmune hemolytic anemia, immune thrombocytopenia, and neutropenia, worsened by splenic sequestration."
+    },
+    {
+     "type": "p",
+     "text": "A distinctive population, alpha-beta T cells that are CD4 negative and CD8 negative (double negative T cells), expands in blood and lymphoid tissue. These are thought to be chronically activated T cells that lost their coreceptors and would normally have been removed by Fas, and their increase is the main laboratory criterion. Supporting markers include raised soluble FasL, IL-10, and vitamin B12, polyclonal hypergammaglobulinemia, and defective Fas-induced apoptosis of lymphocytes in vitro. Patients have an increased risk of Hodgkin and non-Hodgkin lymphoma, because cells that escape apoptosis survive long enough to accumulate further mutations."
+    },
+    {
+     "type": "table",
+     "title": "ALPS findings and their mechanism",
+     "cols": [
+      "Finding",
+      "Mechanism"
+     ],
+     "rows": [
+      [
+       "Lymphadenopathy, splenomegaly",
+       "Activated lymphocytes not deleted after stimulation"
+      ],
+      [
+       "Autoimmune cytopenias",
+       "Self-reactive B and T cells escape peripheral deletion"
+      ],
+      [
+       "Increased double negative alpha-beta T cells",
+       "Chronically activated T cells normally removed by Fas"
+      ],
+      [
+       "Lymphoma",
+       "Long-lived lymphocytes accumulate oncogenic mutations"
+      ]
+     ],
+     "caption": "Every feature follows from lymphocytes that live too long."
+    },
+    {
+     "type": "stop",
+     "predict": "Would a defect in the intrinsic (mitochondrial) pathway produce the same disease as loss of Fas?",
+     "explain": "Not the same. Both allow lymphocytes to accumulate, but the intrinsic pathway mainly removes cells after antigen and IL-2 are withdrawn, while Fas deletes chronically stimulated mature cells, including self-reactive ones. Only loss of Fas signaling gives the ALPS pattern with expanded double negative T cells.",
+     "check": "The paragraphs on the intrinsic and extrinsic pathways and on double negative T cells."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "These disorders can be organized along the life of a lymphocyte. Receptor assembly needs a lymphoid recombinase (RAG) and general DNA repair (Artemis, ligase IV), linking immunology to molecular biology and explaining radiosensitivity. Survival and expansion need cytokine signals (common gamma chain, JAK3) and an intact nucleotide supply (ADA), linking immunology to purine biochemistry. Effective help needs physical contact and a working cytoskeleton (CD40L, WASp), and the end of a response needs tolerance and death signals (AIRE, FOXP3, Fas). Anatomy follows function: the thymus and nodes are tiny where cells are never made and enlarged where cells fail to die, as in ALPS and AID deficiency."
+  },
+  {
+   "type": "p",
+   "text": "Pathology and genetics apply the same logic. X-linked inheritance explains the male predominance of IL2RG SCID, WAS, CD40L deficiency, and IPEX, while autosomal genes affect both sexes and can mimic them (JAK3 copies X-linked SCID; CD40 copies CD40L deficiency). Lymphocyte profiles and immunoglobulin patterns point to a gene but rarely prove it; hypomorphic mutations give milder or atypical phenotypes, maternal IgG and engrafted maternal T cells can mask a defect in infancy, and confirmation requires molecular testing."
+  }
+ ],
+ "summary": [
+  "RAG1 and RAG2 cut at recombination signal sequences, NHEJ (Artemis, ligase IV) joins the ends, and TdT adds N nucleotides that diversify CDR3.",
+  "RAG deficiency causes T-B-NK+ SCID because only T and B cells need a rearranged receptor; Artemis deficiency adds radiosensitivity.",
+  "IL2RG (X-linked) and JAK3 (autosomal recessive) loss gives T-B+NK- SCID: no IL-7 signal for thymocytes and no IL-15 signal for NK cells.",
+  "ADA deficiency causes dATP accumulation that inhibits ribonucleotide reductase, removing T, B, and NK cells.",
+  "TRECs mark new thymic output and are low in all typical SCID, which is the basis of newborn screening.",
+  "Wiskott-Aldrich syndrome (X-linked WAS) gives small platelets, eczema, and infections with low IgM, high IgA and IgE; each son of a carrier has a 50% risk.",
+  "CD40L deficiency blocks AID induction and class switching, giving normal or high IgM with low IgG, IgA, and IgE, plus Pneumocystis and Cryptosporidium from impaired macrophage activation.",
+  "AIRE loss breaks central tolerance (APS-1: candidiasis, hypoparathyroidism, adrenal insufficiency); FOXP3 loss removes regulatory T cells (IPEX).",
+  "Fas signaling through FADD and caspase 8 deletes chronically stimulated and self-reactive lymphocytes; FAS mutation causes ALPS with lymphadenopathy, splenomegaly, autoimmune cytopenias, and double negative T cells."
+ ],
+ "sources": [
+  {
+   "book": "Abbas, Cellular and Molecular Immunology",
+   "where": "Lymphocyte development and antigen receptor gene rearrangement"
+  },
+  {
+   "book": "Abbas, Cellular and Molecular Immunology",
+   "where": "Immunologic tolerance and autoimmunity"
+  },
+  {
+   "book": "Abbas, Cellular and Molecular Immunology",
+   "where": "Congenital and acquired immunodeficiencies"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Diseases of the Immune System, primary immune deficiencies and autoimmunity"
+  },
+  {
+   "book": "Lippincott Illustrated Reviews: Biochemistry",
+   "where": "Nucleotide metabolism, degradation of purine nucleotides"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Disorders of the Immune System"
+  }
+ ],
+ "verify": [
+  "Relative frequency of SCID genotypes (IL2RG historically the most common in many series) varies by population and by era of newborn screening; confirm whether NABNE expects a frequency ranking.",
+  "Mean platelet volume in Wiskott-Aldrich syndrome is quoted at about half of normal; numeric cutoffs vary by laboratory and were omitted.",
+  "NIH diagnostic criteria for ALPS use double negative alpha-beta T cells of at least about 1.5% of total lymphocytes or about 2.5% of T cells with normal or raised lymphocyte counts; confirm current thresholds.",
+  "Some heterozygous dominant negative AIRE variants cause milder, later-onset autoimmunity; the classic APS-1 taught here is autosomal recessive.",
+  "Confirm whether NABNE expects the term APECED, the Omenn syndrome eponym, and the less common SCID genotypes (IL7R alpha, Artemis, ligase IV) or only IL2RG, JAK3, ADA, and RAG.",
+  "Requested new diagram names for a future revision: vdj-recombination (germline segments, RSS, cut, and joined VDJ with excised circle) and scid-lymphocyte-grid (T, B, NK presence by genotype)."
+ ]
+}

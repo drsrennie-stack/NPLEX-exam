@@ -1,0 +1,709 @@
+{
+ "unit": "PU-6",
+ "chapter_id": "NPLEX-P1-RESP-06",
+ "topic_id": "NPLEX-P1-RESP-06-01",
+ "title": "Ventilation: Lung Volumes, Mechanics, and the Control of Breathing",
+ "subject": "Respiratory System (RESP)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter explains how air is moved into and out of the alveoli and how the brainstem decides how much to move. It covers lung volumes and how they are measured, minute and alveolar ventilation and dead space, the elastic forces of the lung and chest wall, spirometry and flow-volume loops, the respiratory centers and chemoreceptors, and the sleep-related breathing disorders. Board questions ask you to calculate alveolar ventilation, classify a spirometry pattern, predict the ventilatory response to a change in PaCO2 or PaO2, and trace nighttime hypoxemia to pulmonary hypertension and polycythemia. Each of these rests on a few relationships taught here.",
+  "prerequisites": [
+   "Gas laws: Boyle law and partial pressures (Dalton law)",
+   "Anatomy of the thoracic cage, diaphragm, pleura, and conducting airways (PU-4)",
+   "Airway resistance and the pressure gradients that drive airflow (PU-5)",
+   "The bicarbonate buffer system and the Henderson-Hasselbalch equation",
+   "Brainstem anatomy and the glossopharyngeal and vagus nerves"
+  ],
+  "connections": [
+   {
+    "to": "Respiratory embryology (PU-1)",
+    "how": "Type II pneumocytes mature late in gestation, so surfactant deficiency in premature infants shows the law of Laplace in action."
+   },
+   {
+    "to": "Pulmonary blood flow and airflow (PU-5)",
+    "how": "Dynamic airway compression and airway resistance explain why obstructive disease limits expiratory flow on spirometry."
+   },
+   {
+    "to": "Gas exchange and blood gas transport (PU-7, PU-8)",
+    "how": "Alveolar ventilation sets alveolar PCO2 and PO2, and the shape of the oxyhemoglobin curve explains the 60 mmHg chemoreceptor threshold."
+   },
+   {
+    "to": "Renal and acid-base physiology",
+    "how": "Renal bicarbonate retention resets CSF pH in chronic hypercapnia and blunts the central drive to breathe."
+   },
+   {
+    "to": "Pulmonary vascular disease (PU-14-E)",
+    "how": "Repeated hypoxemia in sleep-disordered breathing causes hypoxic pulmonary vasoconstriction, pulmonary hypertension, and cor pulmonale."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Functional residual capacity (FRC)",
+    "def": "The volume of gas left in the lungs at the end of a quiet expiration, where the inward recoil of the lung equals the outward recoil of the chest wall."
+   },
+   {
+    "term": "Residual volume (RV)",
+    "def": "The volume of gas that remains in the lungs after a maximal expiration and cannot be exhaled."
+   },
+   {
+    "term": "Anatomic dead space",
+    "def": "The volume of the conducting airways, about 150 mL in an adult, which fills with gas that never reaches alveoli."
+   },
+   {
+    "term": "Physiologic dead space",
+    "def": "Anatomic dead space plus alveolar dead space (alveoli that are ventilated but not perfused); the total wasted ventilation."
+   },
+   {
+    "term": "Alveolar ventilation",
+    "def": "The volume of fresh gas reaching perfused alveoli each minute; it sets alveolar and arterial PCO2."
+   },
+   {
+    "term": "Compliance",
+    "def": "The change in volume produced by a change in distending pressure (delta V divided by delta P); the inverse of elastance or stiffness."
+   },
+   {
+    "term": "Transpulmonary pressure",
+    "def": "Alveolar pressure minus intrapleural pressure; the pressure that holds the lung open."
+   },
+   {
+    "term": "Surfactant",
+    "def": "A phospholipid and protein mixture, mainly dipalmitoylphosphatidylcholine, secreted by type II pneumocytes that lowers alveolar surface tension."
+   },
+   {
+    "term": "FEV1/FVC ratio",
+    "def": "The fraction of the forced vital capacity exhaled in the first second; normally about 0.75 to 0.85 in young adults."
+   },
+   {
+    "term": "Hering-Breuer inflation reflex",
+    "def": "A vagal reflex in which slowly adapting airway stretch receptors terminate inspiration when the lung is markedly inflated."
+   },
+   {
+    "term": "Glomus (type I) cell",
+    "def": "The oxygen-sensing cell of the carotid and aortic bodies, which releases transmitters onto afferent nerve endings when PaO2 falls."
+   },
+   {
+    "term": "Hypoxic pulmonary vasoconstriction",
+    "def": "Contraction of pulmonary arterioles in response to low alveolar PO2, which diverts blood to better ventilated regions but raises pulmonary vascular resistance when hypoxia is widespread."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-RESP-06-01-C01",
+   "obj": "PU-6.1",
+   "title": "Lung volumes and capacities, and why residual volume needs special methods",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The lung is never empty. Its volume at any moment is described with four non-overlapping volumes and four capacities, and each capacity is a sum of two or more volumes. Values depend on height, age, and sex; those below are typical for a young adult man and are roughly 20% to 25% lower in women."
+    },
+    {
+     "type": "table",
+     "title": "Lung volumes and capacities",
+     "cols": [
+      "Measure",
+      "Definition",
+      "Typical value"
+     ],
+     "rows": [
+      [
+       "Tidal volume (TV)",
+       "Air moved in a quiet breath",
+       "About 500 mL"
+      ],
+      [
+       "Inspiratory reserve volume (IRV)",
+       "Extra air that can be inhaled after a normal inspiration",
+       "About 3000 mL"
+      ],
+      [
+       "Expiratory reserve volume (ERV)",
+       "Extra air that can be exhaled after a normal expiration",
+       "About 1100 mL"
+      ],
+      [
+       "Residual volume (RV)",
+       "Air left after maximal expiration",
+       "About 1200 mL"
+      ],
+      [
+       "Inspiratory capacity (IC)",
+       "TV + IRV",
+       "About 3500 mL"
+      ],
+      [
+       "Functional residual capacity (FRC)",
+       "ERV + RV",
+       "About 2300 mL"
+      ],
+      [
+       "Vital capacity (VC)",
+       "IRV + TV + ERV",
+       "About 4600 mL"
+      ],
+      [
+       "Total lung capacity (TLC)",
+       "VC + RV",
+       "About 5800 mL"
+      ]
+     ],
+     "caption": "Any capacity that contains RV (FRC and TLC) cannot be measured by spirometry alone."
+    },
+    {
+     "type": "p",
+     "text": "TLC is reached when the inspiratory muscles can no longer overcome the inward recoil of the lung and chest wall. RV remains because, in young people, the chest wall becomes too stiff for the expiratory muscles to compress further; with age and in obstructive disease, small airways close near the bottom of expiration and trap gas. FRC is not a muscular limit at all: it is the resting volume where the lung and chest wall recoils balance (C03). FRC also serves as a gas reservoir that buffers alveolar PO2 and PCO2 between breaths."
+    },
+    {
+     "type": "p",
+     "text": "A spirometer records only the gas that moves through the mouth. Residual volume never leaves the lung, so spirometry cannot measure RV or any capacity that contains it. Two indirect methods are used. Helium dilution has the subject breathe from a closed spirometer containing a known concentration of helium, an inert gas that is barely absorbed into blood. After equilibration, conservation of helium gives C1 x V1 = C2 x (V1 + FRC). Body plethysmography seats the subject in a sealed box; when the subject breathes against a closed shutter at FRC, the change in mouth pressure and the reciprocal change in box pressure give thoracic gas volume through Boyle law (P1V1 = P2V2). RV is then FRC minus ERV, and TLC is RV plus VC."
+    },
+    {
+     "type": "p",
+     "text": "The methods differ in what they count. Helium reaches only gas in communication with open airways, so it underestimates FRC when gas is trapped behind closed or narrowed airways, as in emphysema or bullous disease. Plethysmography compresses all gas in the thorax, trapped or not. In obstructive disease the plethysmographic value therefore exceeds the helium value, and the difference estimates trapped gas."
+    },
+    {
+     "type": "example",
+     "title": "Helium dilution and trapped gas",
+     "text": "A spirometer holds 3.0 L of gas with 10% helium. The patient, a heavy smoker, is connected at the end of a quiet expiration and breathes until the helium reads 5.0%. Helium is conserved: 0.10 x 3.0 L = 0.05 x (3.0 L + FRC), so 0.30 = 0.15 + 0.05 FRC, and FRC is 3.0 L. Body plethysmography gives an FRC of 4.0 L. The extra 1.0 L is gas in poorly communicating regions, such as bullae, that helium never reached. If ERV is 0.8 L, plethysmographic RV is 3.2 L, well above normal, which is the air trapping expected in emphysema."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-06-01-C02",
+   "obj": "PU-6.2",
+   "title": "Minute ventilation, alveolar ventilation, and dead space",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Minute ventilation (VE) is the total gas moved per minute: tidal volume times respiratory rate, about 500 mL x 12 = 6 L/min at rest. Not all of it reaches gas exchange. At the end of each expiration the conducting airways are full of alveolar gas, and the first part of the next breath simply pushes that stale gas back into the alveoli. The last part of each inspiration stays in the conducting airways and is exhaled unchanged. This anatomic dead space is about 150 mL in an adult (often estimated as about 1 mL per pound of ideal body weight), so alveolar ventilation (VA) is (TV minus VD) x rate, about (500 minus 150) x 12 = 4.2 L/min."
+    },
+    {
+     "type": "p",
+     "text": "Physiologic dead space adds alveolar dead space, alveoli that are ventilated but not perfused. Normally alveolar dead space is negligible, so physiologic and anatomic dead space nearly match, but in pulmonary embolism or emphysema alveolar dead space grows. The Bohr method measures total physiologic dead space. Dead space gas contributes essentially no CO2, so it dilutes the CO2 coming from perfused alveoli. Using arterial PCO2 as the estimate of alveolar PCO2: VD/VT = (PaCO2 minus PECO2) / PaCO2, where PECO2 is the PCO2 of mixed expired gas. With PaCO2 40 mmHg and PECO2 28 mmHg, VD/VT is 12/40 = 0.30, the normal value of about 0.2 to 0.35."
+    },
+    {
+     "type": "p",
+     "text": "Alveolar ventilation, not minute ventilation, sets PaCO2. The alveolar ventilation equation states that PaCO2 is proportional to CO2 production divided by alveolar ventilation (PaCO2 = VCO2 x 0.863 / VA, with VCO2 in mL/min and VA in L/min). At a steady CO2 production of about 200 mL/min, halving VA roughly doubles PaCO2. Hypoventilation is defined by a raised PaCO2, and hyperventilation by a low one, regardless of how fast or deep the breathing looks."
+    },
+    {
+     "type": "table",
+     "title": "Same minute ventilation, different alveolar ventilation",
+     "cols": [
+      "Pattern",
+      "TV x rate",
+      "Minute ventilation",
+      "Alveolar ventilation (VD 150 mL)"
+     ],
+     "rows": [
+      [
+       "Normal",
+       "500 mL x 12",
+       "6.0 L/min",
+       "4.2 L/min"
+      ],
+      [
+       "Slow and deep",
+       "1000 mL x 6",
+       "6.0 L/min",
+       "5.1 L/min"
+      ],
+      [
+       "Rapid and shallow",
+       "250 mL x 24",
+       "6.0 L/min",
+       "2.4 L/min"
+      ]
+     ],
+     "caption": "Dead space is paid once per breath, so small fast breaths waste a larger fraction of every breath."
+    },
+    {
+     "type": "p",
+     "text": "Anatomic dead space is fixed by airway size, so each breath pays the same 150 mL cost. At a tidal volume of 250 mL, 60% of each breath is dead space, and alveolar ventilation falls from 4.2 to 2.4 L/min even though minute ventilation is unchanged. If CO2 production is constant, PaCO2 rises toward about 70 mmHg. This explains why patients with fatiguing respiratory muscles, opioid toxicity, or stiff lungs that force small tidal volumes can retain CO2 while appearing to breathe quickly."
+    },
+    {
+     "type": "stop",
+     "predict": "A patient's PaCO2 is 40 mmHg and mixed expired PCO2 falls from 28 to 20 mmHg after a pulmonary embolus, with no change in tidal volume or rate. What happened to VD/VT, and what will PaCO2 do if ventilation stays the same?",
+     "explain": "VD/VT rises from 0.30 to 0.50 because embolized alveoli are ventilated but unperfused and add CO2-free gas to the exhalate. Alveolar ventilation of perfused units falls, so PaCO2 would rise unless total ventilation increases, which in practice it usually does.",
+     "check": "The Bohr equation and the alveolar ventilation equation."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-06-01-C03",
+   "obj": "PU-6.3",
+   "title": "Compliance, elastic recoil, intrapleural pressure, and surfactant",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The lung and the chest wall are two elastic structures coupled by the thin pleural fluid layer. The lung always tends to recoil inward, toward a small collapsed volume. The chest wall, at volumes below about two thirds of TLC, tends to spring outward. Compliance (delta V divided by delta P) describes how easily each is stretched: the normal lung alone is about 200 mL/cmH2O, and lung plus chest wall together is about 110 mL/cmH2O, because two springs in series are stiffer than either alone."
+    },
+    {
+     "type": "p",
+     "text": "FRC is the volume at which these opposite recoils are equal, so the respiratory muscles are relaxed. The pleural space, pulled from both sides, sits below atmospheric pressure, about -5 cmH2O at FRC. Transpulmonary pressure (alveolar minus pleural pressure) is therefore about +5 cmH2O, which holds the lung open. During quiet inspiration the diaphragm makes pleural pressure more negative, to about -7.5 cmH2O, alveolar pressure falls slightly below atmospheric, and air flows in. Quiet expiration is passive recoil. If air enters the pleural space (pneumothorax), pleural pressure becomes atmospheric, the coupling is lost, the lung collapses inward, and the chest wall on that side springs outward."
+    },
+    {
+     "type": "table",
+     "title": "Conditions that change compliance",
+     "cols": [
+      "Change",
+      "Example",
+      "Effect on FRC"
+     ],
+     "rows": [
+      [
+       "Lung compliance increased",
+       "Emphysema (elastin destroyed), aging",
+       "FRC rises; chest becomes barrel shaped"
+      ],
+      [
+       "Lung compliance decreased",
+       "Pulmonary fibrosis, pulmonary edema, surfactant deficiency",
+       "FRC falls"
+      ],
+      [
+       "Chest wall compliance decreased",
+       "Obesity, kyphoscoliosis",
+       "FRC falls"
+      ]
+     ],
+     "caption": "FRC moves to the new volume where the inward lung recoil again equals the outward chest wall recoil."
+    },
+    {
+     "type": "p",
+     "text": "About two thirds of the lung's recoil comes not from tissue elastin but from surface tension at the air-liquid interface of the alveoli. This is shown by the classic observation that a saline-filled lung inflates at much lower pressure than an air-filled one. The law of Laplace for a sphere states that the pressure needed to keep it open is P = 2T/r, where T is surface tension and r is radius. If all alveoli had the same surface tension, a small alveolus would have a higher internal pressure than a large neighbor and would empty into it, and the lung would trend toward collapse of small units (atelectasis)."
+    },
+    {
+     "type": "p",
+     "text": "Type II pneumocytes secrete surfactant from lamellar bodies. It is mostly phospholipid, chiefly dipalmitoylphosphatidylcholine, with surfactant proteins (SP-A, SP-B, SP-C, SP-D) that help it spread, recycle, and defend the alveolus. Surfactant lowers surface tension from about 72 dynes/cm for pure water to about 5 to 30 dynes/cm. Its key property is that as an alveolus shrinks, the surfactant molecules are compressed into a denser film and surface tension falls further, so T falls along with r and small alveoli are stabilized. Lower surface tension also increases compliance, reducing the work of breathing, and reduces the inward pull on interstitial fluid that would otherwise draw fluid into the alveoli. Deficient surfactant, as in the premature infant, produces stiff lungs, widespread atelectasis, and alveolar edema (neonatal respiratory distress syndrome)."
+    },
+    {
+     "type": "flow",
+     "title": "Surfactant deficiency and lung failure",
+     "steps": [
+      "Immature type II pneumocytes secrete too little surfactant",
+      "Surface tension stays high, especially in small alveoli",
+      "Laplace: small alveoli collapse into larger ones",
+      "Compliance falls; work of breathing rises",
+      "Atelectasis creates shunt; hypoxemia worsens",
+      "High surface tension draws fluid into alveoli"
+     ],
+     "caption": "Laplace physics links surfactant deficiency to collapse, stiffness, shunt, and edema."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-06-01-C04",
+   "obj": "PU-6.4",
+   "title": "Spirometry and flow-volume loops: obstructive, restrictive, and upper airway patterns",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "In forced spirometry the subject inhales to TLC and exhales as hard and fast as possible to RV. The forced vital capacity (FVC) is the total volume exhaled, FEV1 is the volume exhaled in the first second, and their ratio shows whether flow is limited out of proportion to volume. A healthy young adult exhales about 75% to 85% of the FVC in the first second."
+    },
+    {
+     "type": "p",
+     "text": "After the first part of a forced expiration, flow becomes effort independent. Rising pleural pressure squeezes the alveoli and drives air out, but it also compresses the airways. Along the airway, pressure falls from alveolus to mouth, and where airway pressure equals pleural pressure (the equal pressure point) the airway downstream is compressed, so pushing harder does not raise flow. Anything that reduces elastic recoil (emphysema), narrows the lumen (asthma, chronic bronchitis), or weakens the radial traction that tethers airways open moves the equal pressure point toward the alveoli so flow becomes limited over more of the expiration."
+    },
+    {
+     "type": "p",
+     "text": "Obstructive disease therefore lowers FEV1 much more than FVC, so FEV1/FVC falls below about 0.70. Airways close early during expiration, trapping gas, so RV rises and TLC is normal or increased (hyperinflation). On the flow-volume loop the expiratory limb is scooped (concave) because flow falls disproportionately as volume declines, and the loop is shifted toward higher volumes. Restrictive disease reduces how much the lung can hold, not how fast it empties. FEV1 and FVC fall together, so the ratio is normal or high. In fibrosis the ratio may exceed normal because increased radial traction from stiff tissue holds airways open and strong recoil drives flow. TLC is the defining measure and is reduced. The loop is narrow, shifted to lower volumes, with expiratory flow near or above normal for the volume."
+    },
+    {
+     "type": "table",
+     "title": "Spirometry and lung volume patterns",
+     "cols": [
+      "Measure",
+      "Obstructive",
+      "Restrictive (parenchymal)",
+      "Restrictive (chest wall or neuromuscular)"
+     ],
+     "rows": [
+      [
+       "FEV1",
+       "Low",
+       "Low",
+       "Low"
+      ],
+      [
+       "FVC",
+       "Normal or low",
+       "Low",
+       "Low"
+      ],
+      [
+       "FEV1/FVC",
+       "Below about 0.70",
+       "Normal or high",
+       "Normal or high"
+      ],
+      [
+       "TLC",
+       "Normal or high",
+       "Low",
+       "Low"
+      ],
+      [
+       "RV",
+       "High (air trapping)",
+       "Low",
+       "Normal or high if expiratory muscles are weak"
+      ],
+      [
+       "Loop shape",
+       "Scooped expiratory limb, shifted to high volume",
+       "Narrow, shifted to low volume",
+       "Narrow; peak flow may be reduced by weakness"
+      ],
+      [
+       "Examples",
+       "COPD, asthma, bronchiectasis",
+       "Idiopathic pulmonary fibrosis, sarcoidosis, pneumoconioses",
+       "Obesity, kyphoscoliosis, myasthenia gravis, ALS"
+      ]
+     ],
+     "caption": "The ratio sorts obstructive from restrictive; TLC confirms restriction. Diffusing capacity (PU-7) separates parenchymal from extrapulmonary restriction."
+    },
+    {
+     "type": "p",
+     "text": "Large airway lesions are sorted by whether the narrowing changes with the phase of breathing. A fixed obstruction, such as tracheal stenosis after intubation or a rigid tumor, cannot change caliber, so both inspiratory and expiratory limbs are flattened into plateaus. A variable lesion moves with transmural pressure. Outside the thorax, airway pressure falls below atmospheric during forced inspiration, so a variable extrathoracic lesion (vocal fold paralysis, laryngeal tumor) collapses inward and flattens the inspiratory limb. Inside the thorax, pleural pressure surrounds the airway, rises above airway pressure during forced expiration, and compresses a variable intrathoracic lesion (tracheomalacia, a tumor of the lower trachea), flattening the expiratory limb."
+    },
+    {
+     "type": "table",
+     "title": "Upper airway obstruction on the flow-volume loop",
+     "cols": [
+      "Lesion",
+      "Inspiratory limb",
+      "Expiratory limb",
+      "Reason"
+     ],
+     "rows": [
+      [
+       "Fixed (either location)",
+       "Flattened",
+       "Flattened",
+       "Caliber cannot change with pressure"
+      ],
+      [
+       "Variable extrathoracic",
+       "Flattened",
+       "Normal",
+       "Airway pressure below atmospheric during inspiration"
+      ],
+      [
+       "Variable intrathoracic",
+       "Normal",
+       "Flattened",
+       "Pleural pressure exceeds airway pressure during expiration"
+      ]
+     ],
+     "caption": "Large airway lesions may leave FEV1/FVC only mildly affected, so the loop shape, not the ratio, identifies them."
+    },
+    {
+     "type": "stop",
+     "predict": "A patient has FEV1 1.8 L, FVC 2.0 L, and TLC 60% of predicted. Is this obstruction?",
+     "explain": "No. FEV1/FVC is 0.90, which is normal or high, and TLC is reduced, so this is restriction. A low FEV1 alone means little until it is compared with FVC and TLC.",
+     "check": "The spirometry pattern table."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-06-01-C05",
+   "obj": "PU-6.5",
+   "title": "Brainstem control of breathing and the Hering-Breuer reflex",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Breathing continues during sleep and anesthesia because its rhythm is generated automatically in the brainstem. The medulla contains the rhythm generator and the main premotor neurons; the pons and vagal afferents shape the timing of each breath; and the cortex can override the system for speech, breath holding, or voluntary hyperventilation through corticospinal pathways that bypass the medulla."
+    },
+    {
+     "type": "p",
+     "text": "The dorsal respiratory group (DRG) lies in the dorsal medulla within the nucleus tractus solitarius. It is mainly inspiratory and receives visceral afferents from the glossopharyngeal (CN IX) and vagus (CN X) nerves, including chemoreceptor and lung stretch input. During quiet breathing its output is a ramp: inspiratory neuron firing rises steadily for about 2 seconds, so the diaphragm contracts smoothly through the phrenic nerve (C3 to C5), then stops abruptly, and recoil carries out expiration for about 3 seconds. The ventral respiratory group (VRG), in the ventrolateral medulla around the nucleus ambiguus, contains both inspiratory and expiratory neurons. It is nearly silent during quiet breathing, when expiration is passive, but it is recruited when ventilation must rise, driving accessory inspiratory muscles and the internal intercostal and abdominal muscles of active expiration. The VRG includes the pre-Botzinger complex, which most current physiology texts identify as the core rhythm generator."
+    },
+    {
+     "type": "p",
+     "text": "The pneumotaxic center (pontine respiratory group) in the upper pons sends signals that switch off the inspiratory ramp. Strong pneumotaxic output shortens inspiration and therefore increases rate; weak output lengthens each breath. The apneustic center in the lower pons does the opposite, promoting prolonged inspiration. Normally the pneumotaxic center and vagal stretch input override it; when both are removed, the result is apneusis, long sustained inspiratory gasps with brief expirations."
+    },
+    {
+     "type": "table",
+     "title": "Breathing after brainstem transection or lesion",
+     "cols": [
+      "Level of section",
+      "Remaining control",
+      "Breathing pattern"
+     ],
+     "rows": [
+      [
+       "Above the pons",
+       "Medulla and entire pons",
+       "Normal automatic rhythm"
+      ],
+      [
+       "Upper pons, vagi intact",
+       "Apneustic center, medulla, vagal reflex",
+       "Slower, deeper breaths"
+      ],
+      [
+       "Upper pons, vagi cut",
+       "Apneustic center and medulla only",
+       "Apneusis"
+      ],
+      [
+       "Pontomedullary junction",
+       "Medulla only",
+       "Rhythmic but irregular breathing persists"
+      ],
+      [
+       "Below the medulla (high cervical cord)",
+       "Spinal cord only",
+       "Apnea"
+      ]
+     ],
+     "caption": "The medulla can generate rhythm on its own; the pons and vagus refine it."
+    },
+    {
+     "type": "p",
+     "text": "The Hering-Breuer inflation reflex begins in slowly adapting stretch receptors in the smooth muscle of bronchi and bronchioles. Inflation stretches them, and their signals travel in the vagus to the DRG, where they act as an inspiratory off-switch, like the pneumotaxic center. In adults the reflex is weak during quiet breathing and becomes active only when tidal volume exceeds about 1.5 L, about three times normal, so it mainly protects against overinflation. It is more prominent in newborns."
+    },
+    {
+     "type": "flow",
+     "title": "Hering-Breuer inflation reflex",
+     "steps": [
+      "Large inspiration stretches the airways",
+      "Slowly adapting stretch receptors fire",
+      "Vagal afferents reach the dorsal respiratory group",
+      "Inspiratory ramp switches off early",
+      "Expiration begins; overinflation is prevented"
+     ],
+     "caption": "The reflex shares its output, earlier termination of inspiration, with the pneumotaxic center."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-06-01-C06",
+   "obj": "PU-6.6",
+   "title": "Central and peripheral chemoreceptors and the response to hypercapnia and hypoxemia",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Ventilation is adjusted mainly to hold PaCO2 near 40 mmHg, with PaO2 as a backup signal, and the two sets of chemoreceptors sense different things. Central chemoreceptors lie just beneath the ventral surface of the medulla, bathed in brain interstitial fluid and CSF. They respond to H+, not directly to CO2, but in practice they track arterial PCO2. The blood-brain barrier is relatively impermeable to H+ and HCO3- but CO2 crosses it freely. In CSF, CO2 combines with water to form carbonic acid, and because CSF contains little protein its buffering is weak, so a small rise in PaCO2 produces a relatively large fall in CSF pH. They produce most of the steady-state response to CO2, and ventilation rises steeply and nearly linearly as PaCO2 climbs above about 40 mmHg."
+    },
+    {
+     "type": "flow",
+     "title": "Central chemoreceptor response to hypercapnia",
+     "steps": [
+      "PaCO2 rises",
+      "CO2 diffuses across the blood-brain barrier",
+      "CO2 + H2O forms H+ and HCO3- in poorly buffered CSF",
+      "CSF pH falls; central chemoreceptors fire",
+      "Respiratory centers increase rate and depth",
+      "Alveolar ventilation rises; PaCO2 returns toward 40 mmHg"
+     ],
+     "caption": "Arterial H+ crosses the barrier poorly, so the central response follows CO2."
+    },
+    {
+     "type": "p",
+     "text": "Peripheral chemoreceptors are the carotid bodies at the carotid bifurcations, whose afferents run in the carotid sinus nerve of CN IX, and the aortic bodies along the aortic arch, served by CN X. Their glomus (type I) cells contain O2-sensitive K+ channels. When PO2 falls these channels close, the cell depolarizes, voltage-gated Ca2+ channels open, and transmitters (including dopamine and ATP) are released onto afferent endings. Carotid body blood flow is extremely high relative to its metabolism, so the receptor senses dissolved O2, the PaO2, not O2 content. Anemia and carbon monoxide poisoning lower content while PaO2 stays normal, so they stimulate these receptors little."
+    },
+    {
+     "type": "p",
+     "text": "Peripheral receptor firing increases only modestly until PaO2 falls below about 60 mmHg, then rises steeply. This matches the oxyhemoglobin curve, whose flat upper portion keeps saturation at about 90% or more until PaO2 falls to about 60 mmHg. The carotid bodies also respond quickly to rises in PaCO2 and arterial H+, and they are the main sensors of arterial H+, so they drive the immediate hyperventilation of metabolic acidosis. Hypoxemia and hypercapnia act synergistically: low PaO2 steepens the CO2 response. The ventilatory response to hypoxemia alone is braked because hyperventilation lowers PaCO2 and raises pH, removing central drive."
+    },
+    {
+     "type": "table",
+     "title": "Central versus peripheral chemoreceptors",
+     "cols": [
+      "Feature",
+      "Central",
+      "Peripheral"
+     ],
+     "rows": [
+      [
+       "Location",
+       "Ventral surface of the medulla",
+       "Carotid bodies (CN IX); aortic bodies (CN X)"
+      ],
+      [
+       "Primary stimulus",
+       "CSF H+ generated from arterial CO2",
+       "PaO2 below about 60 mmHg"
+      ],
+      [
+       "Other stimuli",
+       "None of clinical importance",
+       "Rising PaCO2; arterial H+ (mainly carotid)"
+      ],
+      [
+       "Anemia or CO poisoning",
+       "No response",
+       "Little response, because PaO2 is normal"
+      ],
+      [
+       "Chronic hypercapnia",
+       "Adapts as CSF HCO3- rises",
+       "Does not adapt; becomes a larger share of drive"
+      ]
+     ],
+     "caption": "Central receptors guard PaCO2; peripheral receptors guard PaO2 and arterial pH."
+    },
+    {
+     "type": "p",
+     "text": "With sustained hypercapnia, as in severe COPD, the kidneys retain HCO3-, and within 1 to 2 days CSF HCO3- also rises and restores CSF pH. Central drive then weakens at the same PaCO2, and carotid body hypoxic drive becomes a larger share of the stimulus. When such patients breathe high concentrations of O2, PaCO2 can rise, mainly because relief of hypoxic pulmonary vasoconstriction worsens V/Q matching and the Haldane effect releases CO2 from hemoglobin; loss of hypoxic drive contributes less."
+    },
+    {
+     "type": "example",
+     "title": "Predicting the response to two blood gases",
+     "text": "Patient A has opioid toxicity: PaCO2 60 mmHg, PaO2 60 mmHg. CSF acidosis should raise ventilation severalfold, but the opioid depresses the medullary centers, so CO2 accumulates. Patient B is at high altitude: PaO2 50 mmHg, PaCO2 normal at first. Carotid bodies fire and ventilation rises, but the resulting fall in PaCO2 raises CSF pH and restrains central drive. Over several days, as renal HCO3- excretion lowers plasma and CSF HCO3-, the brake is released and ventilation climbs further."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-06-01-C07",
+   "obj": "PU-6.7",
+   "title": "Sleep apnea and obesity hypoventilation, with their cardiopulmonary and hematologic consequences",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Sleep removes the wakefulness drive to breathe, lowers chemoreceptor sensitivity, and reduces tone in the pharyngeal dilator muscles such as the genioglossus. The pharynx has no rigid support, so its patency depends on that tone. An apnea is cessation of airflow for at least 10 seconds; the disorders differ in whether the brain is still trying to breathe."
+    },
+    {
+     "type": "p",
+     "text": "In obstructive sleep apnea (OSA), the pharynx collapses during inspiration because negative airway pressure exceeds the reduced dilator tone, and the respiratory muscles keep working against the closed airway. Chest and abdominal effort therefore continue while airflow stops, often with paradoxical motion. Risk factors are those that narrow the airway: obesity with fat around the pharynx, a large neck, tonsillar hypertrophy (the main cause in children), retrognathia, and macroglossia, as in hypothyroidism or acromegaly. Each event ends with a brief arousal that restores tone, so sleep is fragmented, causing loud snoring, witnessed apneas, daytime sleepiness, and morning headache from nocturnal CO2 retention. Repeated arousals and hypoxemia cause sympathetic surges that contribute to systemic hypertension."
+    },
+    {
+     "type": "cycle",
+     "title": "The obstructive apnea cycle",
+     "steps": [
+      "Sleep onset lowers pharyngeal dilator tone",
+      "Pharynx collapses; effort continues without airflow",
+      "PaO2 falls and PaCO2 rises",
+      "Chemoreceptor drive provokes brief arousal",
+      "Dilator tone returns; airway opens; sleep resumes"
+     ],
+     "caption": "Hundreds of cycles a night fragment sleep and expose the pulmonary vessels to repeated hypoxemia."
+    },
+    {
+     "type": "p",
+     "text": "In central sleep apnea, airflow stops because the medullary drive stops, so there is no chest or abdominal effort during the pause. Causes include opioids, brainstem lesions, and heart failure. In heart failure, Cheyne-Stokes breathing results from an unstable feedback loop: prolonged circulation time delays the arrival of changed blood gases at the chemoreceptors, and heightened CO2 sensitivity makes the response overshoot, so hyperventilation drives PaCO2 below the apneic threshold, breathing stops, CO2 accumulates, and the cycle waxes again."
+    },
+    {
+     "type": "p",
+     "text": "Obesity hypoventilation syndrome (OHS) is defined by BMI 30 kg/m2 or more and awake daytime PaCO2 above 45 mmHg, after other causes of hypoventilation are excluded; most patients also have OSA. The heavy chest wall and abdomen lower respiratory system compliance and FRC, increase the work of breathing, and favor small tidal volumes, while the CO2 response is blunted. Nightly CO2 retention raises serum HCO3-, which blunts central drive further and carries hypercapnia into the day. Elevated serum bicarbonate is therefore a typical clue."
+    },
+    {
+     "type": "table",
+     "title": "Sleep-related breathing disorders",
+     "cols": [
+      "Feature",
+      "Obstructive sleep apnea",
+      "Central sleep apnea",
+      "Obesity hypoventilation"
+     ],
+     "rows": [
+      [
+       "Respiratory effort during events",
+       "Present",
+       "Absent",
+       "Reduced; hypoventilation persists while awake"
+      ],
+      [
+       "Core mechanism",
+       "Pharyngeal collapse",
+       "Loss of medullary drive",
+       "Mechanical load plus blunted CO2 response"
+      ],
+      [
+       "Daytime PaCO2",
+       "Usually normal",
+       "Normal or low (heart failure)",
+       "Above 45 mmHg"
+      ],
+      [
+       "Typical associations",
+       "Obesity, tonsils, retrognathia, hypertension",
+       "Heart failure, opioids, brainstem lesion",
+       "BMI 30 or more, coexisting OSA, raised HCO3-"
+      ]
+     ],
+     "caption": "Effort sorts obstructive from central apnea; daytime hypercapnia defines obesity hypoventilation."
+    },
+    {
+     "type": "p",
+     "text": "Chronic or repeated hypoxemia affects the pulmonary circulation and the marrow. In pulmonary arteriolar smooth muscle, low alveolar PO2 inhibits K+ channels, depolarizes the cell, and opens Ca2+ channels, causing vasoconstriction; acidosis from hypercapnia enhances it. When hypoxia is global rather than regional, pulmonary vascular resistance rises throughout the lung, and with time the vessels remodel. The right ventricle hypertrophies against the higher afterload (cor pulmonale). Hypoxia also stabilizes hypoxia-inducible factor in renal peritubular interstitial cells, raising erythropoietin and producing secondary polycythemia, which increases blood viscosity and adds further to pulmonary vascular resistance. These complications are most marked in OHS and in OSA with daytime hypoxemia, such as coexisting COPD."
+    },
+    {
+     "type": "flow",
+     "title": "From nocturnal hypoxemia to cor pulmonale and polycythemia",
+     "steps": [
+      "Repeated or sustained alveolar hypoxia",
+      "Hypoxic pulmonary vasoconstriction, enhanced by acidosis",
+      "Vascular remodeling; pulmonary hypertension",
+      "Right ventricular hypertrophy (cor pulmonale)",
+      "Renal hypoxia raises erythropoietin",
+      "Secondary polycythemia raises viscosity and resistance"
+     ],
+     "caption": "Two hypoxia responses that are adaptive locally become harmful when hypoxia is global and repeated."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Anatomy and physics set the limits of ventilation. The rigid thoracic cage and diaphragm create the outward chest wall recoil, elastin and surface tension create the inward lung recoil, and their balance fixes FRC; type II pneumocytes, which mature late in gestation, supply the surfactant that keeps small alveoli open as Laplace predicts they otherwise would not. Pathology changes these forces in predictable directions: emphysema destroys elastin and traps gas, fibrosis stiffens the lung and shrinks TLC, and obesity loads the chest wall. Spirometry and lung volumes detect the result, but they describe a pattern rather than a diagnosis, and a mixed obstructive and restrictive picture requires full lung volumes to interpret."
+  },
+  {
+   "type": "p",
+   "text": "Control of breathing links the lung to the brain, kidney, and blood. Central chemoreceptors respond to CO2 through CSF chemistry, so renal bicarbonate handling resets them in chronic hypercapnia; peripheral receptors respond to PaO2 because of the shape of the oxyhemoglobin curve. Drugs that depress the medulla, such as opioids, and diseases that slow circulation, such as heart failure, therefore change the pattern of breathing, and sustained hypoxemia from any cause recruits the same pulmonary vascular and erythropoietin responses that produce cor pulmonale and polycythemia."
+  }
+ ],
+ "summary": [
+  "Capacities are sums of volumes; RV, FRC, and TLC cannot be measured by spirometry and need helium dilution or body plethysmography, which also counts trapped gas.",
+  "Alveolar ventilation is (TV minus dead space) x rate, and PaCO2 varies inversely with it at constant CO2 production.",
+  "The Bohr equation, VD/VT = (PaCO2 minus PECO2) / PaCO2, measures physiologic dead space, normally about 0.3.",
+  "Rapid shallow breathing wastes a larger fraction of each breath on fixed dead space, lowering alveolar ventilation and raising PaCO2 at the same minute ventilation.",
+  "FRC is where inward lung recoil equals outward chest wall recoil, giving an intrapleural pressure of about -5 cmH2O.",
+  "By Laplace (P = 2T/r) small alveoli would collapse; surfactant lowers surface tension most in small alveoli, stabilizing them and raising compliance.",
+  "Obstruction: FEV1/FVC below about 0.70 with normal or high TLC and a scooped loop; restriction: normal or high ratio with low TLC.",
+  "Fixed upper airway obstruction flattens both limbs; variable extrathoracic flattens inspiration; variable intrathoracic flattens expiration.",
+  "The medulla generates rhythm (DRG for inspiration, VRG for forced breathing); the pneumotaxic center and Hering-Breuer reflex end inspiration; the apneustic center prolongs it.",
+  "Central chemoreceptors track PaCO2 through CSF H+; carotid bodies respond to PaO2 below about 60 mmHg and to arterial H+; OSA (effort present), central apnea (effort absent), and OHS (daytime PaCO2 above 45 mmHg) lead to pulmonary hypertension and polycythemia through hypoxemia."
+ ],
+ "sources": [
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Pulmonary Ventilation"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Regulation of Respiration"
+  },
+  {
+   "book": "Boron and Boulpaep Medical Physiology",
+   "where": "Respiratory physiology: mechanics of ventilation and control of breathing"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "The Lung"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Pulmonary Disease"
+  },
+  {
+   "book": "Langman's Medical Embryology",
+   "where": "Respiratory System, maturation of the lungs"
+  }
+ ],
+ "verify": [
+  "Lung volume values (TV 500, IRV 3000, ERV 1100, RV 1200 mL) follow Guyton and Hall; other texts give slightly different figures, so all are stated as approximate.",
+  "The FEV1/FVC cutoff of 0.70 is the fixed-ratio criterion used by GOLD; ATS/ERS interpretation standards prefer the lower limit of normal. Confirm which NABNE expects.",
+  "Normal VD/VT is quoted from about 0.2 to 0.35 depending on source; confirm the value NABNE uses.",
+  "Lung compliance (about 200 mL/cmH2O) and combined lung and chest wall compliance (about 110 mL/cmH2O) follow Guyton and Hall; other texts round these differently.",
+  "Guyton and Hall describe the dorsal respiratory group as the basic rhythm generator, while Boron and Boulpaep and current research locate the core rhythm generator in the pre-Botzinger complex of the ventral respiratory group. Confirm the emphasis NABNE expects.",
+  "Most texts attribute roughly 70% to 80% of the steady-state CO2 response to central chemoreceptors, but the figure varies, so the chapter says only \"most\".",
+  "Apnea-hypopnea index thresholds for diagnosing and grading OSA were omitted because they are clinical criteria; confirm whether NABNE Part I tests them.",
+  "Requested new diagram names for a future revision: spirogram (volumes and capacities labeled), flow-volume-loops (normal, obstructive, restrictive, fixed, variable extrathoracic, and variable intrathoracic), and compliance-curves (lung, chest wall, and combined pressure-volume curves with FRC marked)."
+ ]
+}

@@ -1,0 +1,623 @@
+{
+  "unit": "IM-8",
+  "chapter_id": "NPLEX-P1-IMMU-08",
+  "topic_id": "NPLEX-P1-IMMU-08-01",
+  "title": "Lymphatic Organ Function",
+  "subject": "Immune System (IMMU)",
+  "version": "1.0",
+  "author": "Dr. Sharilyn Rennie",
+  "brand": "MedMasters Collaborative",
+  "overview": {
+    "intro": "This chapter explains what the thymus, spleen, and lymph nodes do. The thymus builds a T cell repertoire that recognizes self MHC but tolerates self antigen. The spleen filters blood, removing worn red cells and encapsulated bacteria. Lymph nodes bring rare naive lymphocytes together with antigen carried in from the tissues. Board questions rarely ask for these functions directly; instead they describe a patient whose organ is missing, failing, or suppressed by cortisol and ask you to predict the smear, the blood count, or the infection. Each prediction follows from a lost normal function.",
+    "prerequisites": [
+      "MHC class I and class II structure and antigen presentation to CD8 and CD4 T cells",
+      "T cell receptor gene rearrangement by RAG1 and RAG2 (V(D)J recombination)",
+      "Histology of the thymus, spleen, and lymph node (IM-2)",
+      "Complement activation and opsonization by C3b (IM-7)",
+      "Hypothalamic-pituitary-adrenal axis and cortisol secretion"
+    ],
+    "connections": [
+      {
+        "to": "Thymus embryology (IM-1)",
+        "how": "Thymic epithelium comes from the third pharyngeal pouch, so its failure in 22q11.2 deletion removes the site where T cells mature."
+      },
+      {
+        "to": "Congenital immunodeficiency diseases (IM-15-A)",
+        "how": "Defects in RAG, MHC expression, or AIRE each stop thymic maturation or selection at a predictable step."
+      },
+      {
+        "to": "Complement (IM-7)",
+        "how": "Splenic clearance of encapsulated bacteria depends on C3b and IgM opsonization, so complement defects and asplenia produce the same infections."
+      },
+      {
+        "to": "Hematology and sickle cell disease",
+        "how": "Red pulp filtering explains why splenectomy and sickle cell autosplenectomy change the blood smear."
+      },
+      {
+        "to": "Diseases of endocrine hyperfunction (EN-12-A)",
+        "how": "Cushing syndrome changes the white cell differential through glucocorticoid effects on leukocyte adhesion, survival, and distribution."
+      }
+    ],
+    "terms": [
+      {
+        "term": "Thymocyte",
+        "def": "A developing T cell inside the thymus, named by its CD4 and CD8 expression as double negative, double positive, or single positive."
+      },
+      {
+        "term": "Positive selection",
+        "def": "Survival of thymocytes whose T cell receptor binds self MHC on cortical epithelial cells with low to moderate affinity."
+      },
+      {
+        "term": "Negative selection",
+        "def": "Deletion, or diversion to regulatory T cells, of thymocytes whose receptor binds self peptide and MHC with high affinity."
+      },
+      {
+        "term": "AIRE",
+        "def": "Autoimmune regulator, a transcriptional regulator in medullary thymic epithelial cells that switches on genes for tissue-restricted self proteins."
+      },
+      {
+        "term": "Red pulp",
+        "def": "The splenic compartment of cords and venous sinuses where blood is filtered and old or damaged red cells are removed."
+      },
+      {
+        "term": "Marginal zone",
+        "def": "The border between splenic white pulp and red pulp where blood-borne antigen is first sampled by specialized macrophages and B cells."
+      },
+      {
+        "term": "Pitting",
+        "def": "Removal of a rigid inclusion from a red cell by splenic macrophages, returning the red cell to the circulation."
+      },
+      {
+        "term": "Functional asplenia",
+        "def": "Loss of splenic filtering and immune function while splenic tissue is still present, as in early sickle cell disease."
+      },
+      {
+        "term": "High endothelial venule (HEV)",
+        "def": "A postcapillary venule in lymphoid tissue lined by cuboidal endothelium that allows naive lymphocytes to enter the organ from blood."
+      },
+      {
+        "term": "Homing",
+        "def": "The directed migration of lymphocytes to a particular tissue, set by the adhesion molecules and chemokine receptors they express."
+      },
+      {
+        "term": "Margination",
+        "def": "The pool of neutrophils loosely attached to vessel walls, roughly equal in size to the freely circulating pool and not counted on a blood draw."
+      },
+      {
+        "term": "Demargination",
+        "def": "Release of marginated neutrophils into the circulating pool, which raises the measured neutrophil count without new production."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "comp": "NPLEX-P1-IMMU-08-01-C01",
+      "obj": "IM-8.1",
+      "title": "Thymic T cell maturation and selection",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The thymus solves two problems created by random T cell receptor (TCR) gene rearrangement. Most new receptors cannot recognize peptide on self MHC at all, and some recognize self peptide strongly enough to cause autoimmunity. The thymus tests every thymocyte for both and keeps only cells that pass, so only a few percent of thymocytes leave as mature T cells."
+        },
+        {
+          "type": "p",
+          "text": "The scaffold is epithelial. Cortical thymic epithelial cells (cTECs) and medullary thymic epithelial cells (mTECs) derive from third pharyngeal pouch endoderm, while thymocytes come from bone marrow precursors that enter through venules near the corticomedullary junction. The cortex is dense with immature thymocytes; the paler medulla holds mature thymocytes, dendritic cells, and Hassall corpuscles."
+        },
+        {
+          "type": "flow",
+          "title": "A thymocyte's route from entry to exit",
+          "steps": [
+            "Marrow precursor enters at the corticomedullary junction",
+            "Double negative (CD4 and CD8 absent) in outer cortex",
+            "TCR beta rearranges; pre-TCR signals survival and proliferation",
+            "Cell becomes double positive; TCR alpha rearranges",
+            "Positive selection on cTEC self MHC in the cortex",
+            "Single positive cell migrates to the medulla (CCR7)",
+            "Negative selection on mTECs and dendritic cells",
+            "Naive CD4 or CD8 T cell exits to blood"
+          ],
+          "caption": "Location tracks maturity: cortex for receptor assembly and positive selection, medulla for tolerance testing."
+        },
+        {
+          "type": "h",
+          "text": "Positive selection: can the receptor see self MHC?"
+        },
+        {
+          "type": "p",
+          "text": "Double positive thymocytes sample peptide and MHC presented by cTECs. A receptor that binds with low to moderate affinity delivers a survival signal; the large majority bind too weakly and die by neglect, a quiet apoptosis from absent signaling. This step creates MHC restriction, meaning mature T cells recognize antigen only on self MHC. It also fixes lineage: a cell whose receptor engages MHC class I keeps CD8, which binds class I, and one engaging class II keeps CD4."
+        },
+        {
+          "type": "h",
+          "text": "Negative selection: does the receptor attack self?"
+        },
+        {
+          "type": "p",
+          "text": "Single positive thymocytes move into the medulla, where mTECs and dendritic cells present self peptides. High-affinity binding triggers apoptosis (clonal deletion), and some cells with intermediate to high affinity become FOXP3 positive regulatory T cells instead. Ubiquitous proteins are easy to display, but insulin, thyroglobulin, and other organ-restricted proteins would never be seen without AIRE, which drives mTECs to transcribe thousands of tissue-restricted genes. Negative selection is incomplete, so peripheral tolerance mechanisms remain necessary."
+        },
+        {
+          "type": "table",
+          "title": "Where thymic development fails",
+          "cols": [
+            "Defect",
+            "Step lost",
+            "Result"
+          ],
+          "rows": [
+            [
+              "Thymic aplasia (22q11.2 deletion)",
+              "No epithelial scaffold",
+              "Few or no T cells; B cell numbers preserved"
+            ],
+            [
+              "RAG1 or RAG2 loss",
+              "No TCR (or BCR) rearrangement",
+              "Arrest at double negative stage; T and B cells absent"
+            ],
+            [
+              "MHC class II deficiency",
+              "No class II for positive selection",
+              "Few CD4 T cells; CD8 present"
+            ],
+            [
+              "TAP deficiency (MHC class I low)",
+              "Little class I for positive selection",
+              "Few CD8 T cells; CD4 present"
+            ],
+            [
+              "AIRE mutation",
+              "Incomplete negative selection",
+              "Autoimmune polyendocrine syndrome type 1"
+            ]
+          ],
+          "caption": "Each defect removes one requirement of the pathway in the flow above, so the missing T cell subset predicts the lesion."
+        },
+        {
+          "type": "p",
+          "text": "AIRE failure shows how deletion protects specific organs. Autoimmune polyendocrine syndrome type 1 classically combines hypoparathyroidism, primary adrenal insufficiency, and chronic mucocutaneous candidiasis, the last linked to neutralizing autoantibodies against IL-17 family cytokines and IL-22 that weaken mucosal antifungal defense. The thymus is largest relative to body size in infancy and involutes after puberty as fat replaces cortex, though output continues at a low level into adulthood."
+        },
+        {
+          "type": "stop",
+          "predict": "A child lacks MHC class II on all antigen-presenting cells. Will the child have CD4 T cells, CD8 T cells, or both?",
+          "explain": "CD8 T cells only. Positive selection to the CD4 lineage requires the receptor to engage class II on cTECs, so CD4 cells die by neglect, while class I selection proceeds normally.",
+          "check": "Positive selection and the failure table."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-IMMU-08-01-C02",
+      "obj": "IM-8.2",
+      "title": "Splenic functions: filtering blood and defending against encapsulated bacteria",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The spleen is the only lymphoid organ placed in the bloodstream rather than the lymph stream. It receives about 5% of cardiac output through the splenic artery, which branches into central arterioles inside white pulp and then empties into red pulp. Its two compartments do different jobs: red pulp filters red cells, and white pulp with its marginal zone mounts immune responses to blood-borne antigen."
+        },
+        {
+          "type": "h",
+          "text": "Red pulp: quality control of red cells"
+        },
+        {
+          "type": "p",
+          "text": "Much of the arterial blood enters an open circulation, pouring into the splenic cords (cords of Billroth), a meshwork of reticular fibers and macrophages. To return to the venous side, each red cell must squeeze through slits a few micrometers wide between the elongated endothelial cells of the venous sinuses. A young red cell, about 7.5 to 8 micrometers across, deforms and passes. A cell that has lost membrane and flexibility near the end of its roughly 120 day life, or that carries a rigid inclusion, is held in the cords, where flow is slow and the setting is hypoxic and acidic."
+        },
+        {
+          "type": "flow",
+          "title": "Red cell passage through the red pulp",
+          "steps": [
+            "Central arteriole empties into the splenic cords",
+            "Red cell moves slowly past cord macrophages",
+            "Cell must deform through narrow sinus wall slits",
+            "Flexible cell passes into the venous sinus",
+            "Rigid or aged cell held back and phagocytosed",
+            "Cell with inclusion is pitted and returned"
+          ],
+          "caption": "Deformability is the test. Hemoglobin iron from destroyed cells is recycled; heme becomes bilirubin."
+        },
+        {
+          "type": "p",
+          "text": "Pitting removes Howell-Jolly bodies (nuclear DNA remnants), Heinz bodies (denatured hemoglobin), and Pappenheimer bodies (iron granules) without destroying the cell. Splenic macrophages also trim excess membrane from reticulocytes as they mature."
+        },
+        {
+          "type": "h",
+          "text": "White pulp and marginal zone: immune clearance"
+        },
+        {
+          "type": "p",
+          "text": "White pulp contains the periarteriolar lymphoid sheath (PALS) of T cells around central arterioles and B cell follicles beside it. The surrounding marginal zone receives blood first. Polysaccharide capsules (on S pneumoniae, H influenzae type b, and N meningitidis) block complement deposition and phagocyte binding. Marginal zone B cells answer them quickly with T cell-independent IgM, because polysaccharides cannot be presented to helper T cells. IgM activates complement, coating the organism with C3b, and splenic macrophages, which bind C3b and the Fc portion of IgG, remove the opsonized bacteria from slow-moving blood. The liver clears well opsonized organisms efficiently, but the spleen is the main site for poorly opsonized ones and for the first IgM response."
+        },
+        {
+          "type": "table",
+          "title": "Splenic jobs by compartment",
+          "cols": [
+            "Function",
+            "Compartment and cells",
+            "Mechanism"
+          ],
+          "rows": [
+            [
+              "Remove aged and rigid red cells",
+              "Red pulp cords, macrophages",
+              "Failure to deform through sinus slits, then phagocytosis"
+            ],
+            [
+              "Pit inclusions and remodel membrane",
+              "Red pulp macrophages",
+              "Inclusion or excess membrane removed; cell returned"
+            ],
+            [
+              "Clear opsonized bacteria",
+              "Marginal zone and red pulp macrophages",
+              "Receptors for C3b and the Fc of IgG"
+            ],
+            [
+              "Rapid IgM to polysaccharide",
+              "Marginal zone B cells",
+              "T cell-independent activation"
+            ],
+            [
+              "Adaptive responses to blood antigen",
+              "PALS (T cells), follicles (B cells)",
+              "Germinal centers, IgG class switching"
+            ],
+            [
+              "Platelet pool",
+              "Red pulp",
+              "About one third of total platelets held in exchange with blood"
+            ]
+          ],
+          "caption": "Most rows reappear in C03 as a finding when the function is lost."
+        },
+        {
+          "type": "p",
+          "text": "The platelet pool is exchangeable, not a store of inactive cells. When the spleen enlarges, it can trap a much larger fraction, which explains thrombocytopenia in hypersplenism. The fetal spleen also makes blood cells, and that extramedullary hematopoiesis can return in adults with marrow failure."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-IMMU-08-01-C03",
+      "obj": "IM-8.3",
+      "title": "Findings after splenectomy and in functional asplenia",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Asplenia means absent splenic function, whether the organ was removed (after trauma, for example), never formed (congenital asplenia), or is present but not working (functional asplenia). The findings are the same because each is a lost job from C02, so they can be predicted rather than memorized."
+        },
+        {
+          "type": "table",
+          "title": "Each finding traced to a lost splenic function",
+          "cols": [
+            "Finding",
+            "Lost function",
+            "Explanation"
+          ],
+          "rows": [
+            [
+              "Howell-Jolly bodies",
+              "Pitting",
+              "Nuclear remnants stay in circulating red cells; the most reliable smear sign of asplenia"
+            ],
+            [
+              "Pappenheimer and Heinz bodies",
+              "Pitting",
+              "Iron granules and denatured hemoglobin are no longer removed"
+            ],
+            [
+              "Target cells (codocytes)",
+              "Membrane remodeling",
+              "Excess membrane relative to cell volume bulges centrally"
+            ],
+            [
+              "Acanthocytes and other irregular forms",
+              "Removal of misshapen cells",
+              "Abnormal cells that would be culled keep circulating"
+            ],
+            [
+              "Thrombocytosis",
+              "Platelet pool",
+              "Platelets formerly pooled in the spleen stay in the blood"
+            ],
+            [
+              "Mild leukocytosis, often lymphocytosis",
+              "Sequestration and clearance",
+              "Cells normally held or cleared in the spleen remain in blood"
+            ],
+            [
+              "Sepsis from encapsulated bacteria",
+              "Marginal zone IgM and macrophage clearance",
+              "Unopsonized organisms multiply in blood unchecked"
+            ]
+          ],
+          "caption": "Smear changes appear after any cause of asplenia and persist; they confirm loss of function even when a spleen is visible on imaging."
+        },
+        {
+          "type": "p",
+          "text": "Platelets rise within days of splenectomy and commonly peak over the next few weeks, often above the upper reference limit of about 400 x 10^9/L (reference about 150 to 400 x 10^9/L), then settle partly. Bone marrow production is not the main change; the circulating pool simply gains the cells the spleen used to hold."
+        },
+        {
+          "type": "h",
+          "text": "Overwhelming infection"
+        },
+        {
+          "type": "p",
+          "text": "The serious consequence is overwhelming post-splenectomy infection: bacteremia that can progress to septic shock and disseminated intravascular coagulation within hours. S pneumoniae causes most cases, followed by H influenzae type b and N meningitidis. Without the spleen, no organ supplies rapid T cell-independent IgM against capsules or efficiently clears organisms that carry little antibody or C3b, so bacteria multiply in blood before an adaptive response develops. Risk is lifelong and highest in young children, whose marginal zone B cells respond poorly to polysaccharides before about age 2. Asplenia also worsens infection with intraerythrocytic parasites (Babesia, Plasmodium), which the spleen normally pits or removes, and with Capnocytophaga canimorsus after dog bites."
+        },
+        {
+          "type": "h",
+          "text": "Sickle cell disease: functional asplenia, then autosplenectomy"
+        },
+        {
+          "type": "flow",
+          "title": "From sickling to autosplenectomy",
+          "steps": [
+            "Slow, hypoxic, acidic flow in splenic cords",
+            "Deoxygenated HbS polymerizes; red cells sickle",
+            "Sickled cells block cords and sinuses",
+            "Filtering fails: functional asplenia in infancy",
+            "Repeated infarcts cause fibrosis and shrinkage",
+            "Small fibrotic remnant: autosplenectomy in early childhood"
+          ],
+          "caption": "The spleen fails before it disappears, so Howell-Jolly bodies and infection risk appear while it is still enlarged."
+        },
+        {
+          "type": "p",
+          "text": "The red pulp is the most favorable place in the body for HbS polymerization because flow is slow and oxygen tension and pH are low. Children with sickle cell anemia lose splenic function in the first years of life, and the organ becomes a small fibrotic, calcified remnant, usually by about age 5. Before fibrosis, the enlarged spleen can suddenly trap a large volume of blood (splenic sequestration crisis). Hemoglobin SC disease and sickle beta+ thalassemia often keep splenomegaly into later life."
+        },
+        {
+          "type": "example",
+          "title": "Reading a smear after splenic injury",
+          "text": "A 24-year-old had a splenectomy after a motorcycle crash 3 weeks ago. Platelets are 720 x 10^9/L and the smear shows Howell-Jolly bodies and target cells. Start with the platelets: above 400 x 10^9/L, but expected, because the splenic pool now circulates; this is not a marrow disorder. Howell-Jolly bodies mean no pitting, and target cells mean no membrane trimming, so splenic function is absent. The same smear in a 10-year-old with sickle cell anemia means lost splenic function from autosplenectomy. In both, the important prediction is risk of rapid sepsis from S pneumoniae, Hib, or N meningitidis."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-IMMU-08-01-C04",
+      "obj": "IM-8.4",
+      "title": "Lymphocyte homing and antigen encounter in lymph nodes",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A naive T cell specific for one epitope may be one in 10^5 to 10^6 cells, while antigen may enter through any patch of skin or mucosa. Lymph nodes solve this search problem by collecting antigen from a tissue region and drawing naive lymphocytes from the blood into the same small space. Naive cells recirculate, spending hours to about a day in each node before moving on."
+        },
+        {
+          "type": "h",
+          "text": "Entry from blood through high endothelial venules"
+        },
+        {
+          "type": "p",
+          "text": "High endothelial venules (HEVs) sit in the paracortex, the T cell zone. Their tall endothelium displays peripheral node addressin (PNAd), a group of sulfated sialomucins, and presents the chemokines CCL19 and CCL21. Naive lymphocytes enter through a multistep adhesion cascade."
+        },
+        {
+          "type": "flow",
+          "title": "Naive lymphocyte entry at the HEV",
+          "steps": [
+            "L-selectin (CD62L) on lymphocyte binds PNAd; cell rolls",
+            "CCL19 and CCL21 on HEV engage CCR7",
+            "Gi signaling switches LFA-1 to high affinity",
+            "LFA-1 binds ICAM-1; cell arrests firmly",
+            "Cell crosses the HEV into the paracortex",
+            "T cells stay in paracortex; B cells follow CXCL13 to follicles"
+          ],
+          "caption": "Rolling, chemokine activation, firm arrest, and transmigration: the same logic as neutrophil recruitment, with different molecules."
+        },
+        {
+          "type": "h",
+          "text": "Antigen arrives through afferent lymph"
+        },
+        {
+          "type": "p",
+          "text": "Afferent lymphatics enter the convex surface and empty into the subcapsular sinus, then lymph passes through cortical and medullary sinuses to the efferent lymphatic at the hilum. Tissue dendritic cells that capture antigen and sense microbial products mature: they raise MHC and costimulatory molecules (B7) and switch on CCR7, which carries them along CCL21 on lymphatic endothelium into the paracortex. CCR7 thus brings both antigen-bearing dendritic cells and naive T cells to the same zone. Small soluble antigens travel through reticular conduits, while subcapsular sinus macrophages and follicular dendritic cells present intact antigen to B cells."
+        },
+        {
+          "type": "table",
+          "title": "Molecules that direct lymphocyte traffic",
+          "cols": [
+            "Molecule",
+            "Cell",
+            "Partner and role"
+          ],
+          "rows": [
+            [
+              "L-selectin (CD62L)",
+              "Naive and central memory lymphocytes",
+              "PNAd on HEV; rolling"
+            ],
+            [
+              "CCR7",
+              "Naive T and B cells, mature dendritic cells",
+              "CCL19 and CCL21; entry and positioning in T zone"
+            ],
+            [
+              "LFA-1 (integrin)",
+              "Lymphocytes",
+              "ICAM-1; firm arrest"
+            ],
+            [
+              "CXCR5",
+              "B cells, follicular helper T cells",
+              "CXCL13 from follicular stromal cells; follicle entry"
+            ],
+            [
+              "Alpha4 beta7 integrin",
+              "Gut-homing lymphocytes",
+              "MAdCAM-1 on Peyer patch and gut venules"
+            ],
+            [
+              "S1P receptor 1 (S1PR1)",
+              "Naive lymphocytes",
+              "S1P in lymph and blood; exit"
+            ],
+            [
+              "CD69",
+              "Recently activated lymphocytes",
+              "Internalizes S1PR1; retention"
+            ]
+          ],
+          "caption": "The receptors a lymphocyte expresses decide which tissue it can enter and when it leaves."
+        },
+        {
+          "type": "h",
+          "text": "Exit and what changes after activation"
+        },
+        {
+          "type": "p",
+          "text": "Sphingosine 1-phosphate (S1P) is high in lymph and blood and low within the node. Naive lymphocytes that meet no antigen regain S1PR1 and follow the gradient into the medullary sinuses and efferent lymph, which returns them to blood through the thoracic duct or right lymphatic duct. A T cell that recognizes antigen expresses CD69, which removes S1PR1 from the surface, so it stays for several days to proliferate. The resulting effector T cells lose L-selectin and CCR7 and gain receptors for inflamed endothelium, so they home to tissue rather than nodes. Drugs that internalize S1PR1 trap lymphocytes in nodes, producing lymphopenia without destroying cells."
+        },
+        {
+          "type": "stop",
+          "predict": "A mouse lacks CCR7. What happens to naive T cells and to skin dendritic cells after a skin infection?",
+          "explain": "Naive T cells cannot arrest at HEVs or settle in the paracortex, and activated dendritic cells cannot travel through afferent lymphatics, so the two rarely meet and priming is weak and delayed.",
+          "check": "The HEV flow and the afferent lymph paragraph."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-IMMU-08-01-C05",
+      "obj": "IM-8.5",
+      "title": "Cortisol effects on the blood count and lymphoid organs",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Cortisol and synthetic glucocorticoids diffuse into leukocytes and bind the cytoplasmic glucocorticoid receptor, which moves to the nucleus and changes transcription. Two mechanisms matter: it represses inflammatory gene programs, partly by interfering with NF-kappa B and AP-1, and it changes adhesion, survival, and distribution of each white cell type. The blood count shows the distribution changes within hours of a cortisol surge or a large glucocorticoid dose."
+        },
+        {
+          "type": "flow",
+          "title": "How a cortisol surge reshapes the differential",
+          "steps": [
+            "Stress, Cushing syndrome, or glucocorticoid dose raises cortisol",
+            "Glucocorticoid receptor alters leukocyte gene transcription",
+            "Neutrophil adhesion falls; marginated cells enter circulation",
+            "Marrow releases mature neutrophils; tissue emigration slows",
+            "Lymphocytes redistribute to marrow and lymphoid tissue",
+            "Eosinophils, lymphocytes, and thymocytes undergo apoptosis",
+            "Neutrophilia with lymphopenia, eosinopenia, and monocytopenia"
+          ],
+          "caption": "Single doses produce the largest shift at about 4 to 6 hours, with return toward baseline by about 24 hours."
+        },
+        {
+          "type": "h",
+          "text": "Why neutrophils rise"
+        },
+        {
+          "type": "p",
+          "text": "Roughly half the neutrophils within vessels are marginated, loosely rolling along venule walls, and are not sampled by venipuncture. Glucocorticoids reduce L-selectin on neutrophils and adhesion molecules on endothelium, so these cells join the circulating pool and the measured count rises without new production. Release of mature neutrophils from the marrow reserve, slower emigration into tissue, and delayed neutrophil apoptosis add to the rise. Because the extra cells are mature, there is no significant left shift (bands) or toxic granulation, which distinguishes this from bacterial infection. Epinephrine also demarginates neutrophils, but within minutes, so acute stress raises the count before cortisol acts."
+        },
+        {
+          "type": "h",
+          "text": "Why lymphocytes and eosinophils fall"
+        },
+        {
+          "type": "p",
+          "text": "Lymphocytes, especially T cells, leave the blood for bone marrow and lymphoid tissue, and many undergo glucocorticoid-induced apoptosis. Eosinophils are redistributed and die by apoptosis, so eosinopenia is one of the most consistent findings. Monocytes and basophils also fall. Double positive cortical thymocytes are exquisitely sensitive to glucocorticoid-induced apoptosis, so sustained cortisol excess causes rapid thymic involution, most visible in the cortex, along with shrinkage of lymph nodes and splenic white pulp. Thymic and lymphoid atrophy, adrenal enlargement, and gastric ulcers form the classic stress triad described in experimental animals. These changes, together with suppressed cytokine production and neutrophil emigration, explain the increased infection risk in Cushing syndrome."
+        },
+        {
+          "type": "table",
+          "title": "Cortisol excess compared with cortisol deficiency",
+          "cols": [
+            "Cell or organ",
+            "Cortisol excess",
+            "Cortisol deficiency (primary adrenal insufficiency)"
+          ],
+          "rows": [
+            [
+              "Neutrophils",
+              "Increased (demargination, marrow release)",
+              "Normal or mildly decreased"
+            ],
+            [
+              "Lymphocytes",
+              "Decreased (redistribution, apoptosis)",
+              "Relative lymphocytosis"
+            ],
+            [
+              "Eosinophils",
+              "Decreased, often near zero",
+              "Eosinophilia"
+            ],
+            [
+              "Monocytes and basophils",
+              "Decreased",
+              "Little change"
+            ],
+            [
+              "Thymus and lymphoid tissue",
+              "Atrophy",
+              "May enlarge"
+            ]
+          ],
+          "caption": "Eosinophilia in a hypotensive, stressed patient suggests cortisol is not responding as it should."
+        },
+        {
+          "type": "example",
+          "title": "Absolute counts in cortisol excess",
+          "text": "A woman with Cushing syndrome has WBC 13.5 x 10^9/L: neutrophils 89%, lymphocytes 7%, monocytes 4%, eosinophils 0%. Convert to absolute counts by multiplying WBC by each fraction. Neutrophils are 12.0 x 10^9/L (reference about 1.8 to 7.7), lymphocytes 0.95 x 10^9/L (reference about 1.0 to 4.8), monocytes 0.54 x 10^9/L, and eosinophils zero. The WBC is high entirely from neutrophils, while lymphocytes and eosinophils are low. With no bands or toxic granulation, the pattern fits demargination and redistribution by cortisol rather than bacterial infection."
+        },
+        {
+          "type": "stop",
+          "predict": "Why does the neutrophil count rise within hours of a glucocorticoid dose when marrow production takes days to increase?",
+          "explain": "Most of the early rise comes from cells already formed: marginated neutrophils released into the circulating pool and mature cells released from the marrow reserve, with fewer leaving the blood for tissue.",
+          "check": "Why neutrophils rise."
+        }
+      ]
+    }
+  ],
+  "integration": [
+    {
+      "type": "p",
+      "text": "Embryology and histology set the stage: thymic epithelium from the third pharyngeal pouch provides the MHC-displaying scaffold for selection, the spleen's open red pulp circulation makes it a filter, and HEVs and lymphatic sinuses give the lymph node its two inputs. Immunology runs on that architecture, and pathology follows from removing a piece. Loss of thymic epithelium, MHC, RAG, or AIRE stops maturation or tolerance at a predictable step; loss of the spleen, by surgery or sickle cell infarction, removes pitting, the platelet pool, and the marginal zone defense against capsules."
+    },
+    {
+      "type": "p",
+      "text": "Endocrinology links back through cortisol, which shifts leukocytes between pools and kills susceptible lymphocytes and thymocytes, so a blood count can reflect adrenal status. The limits are important: a smear shows loss of filtering but not its cause, neutrophilia does not distinguish stress from early infection without the rest of the picture, and the reference ranges and timing used here vary between laboratories and sources."
+    }
+  ],
+  "summary": [
+    "Thymocytes rearrange TCR beta at the double negative stage, then TCR alpha as double positive cells in the cortex.",
+    "Positive selection on cortical epithelial MHC keeps receptors that bind self MHC with low to moderate affinity and sets CD4 (class II) or CD8 (class I) lineage; most thymocytes die by neglect.",
+    "Negative selection in the medulla deletes strongly self-reactive cells or diverts them to FOXP3 regulatory T cells; AIRE supplies tissue-restricted antigens, and its loss causes autoimmune polyendocrine syndrome type 1.",
+    "Splenic red pulp removes red cells that cannot deform through sinus slits and pits inclusions; the marginal zone makes T cell-independent IgM, and macrophages clear C3b and IgG coated encapsulated bacteria.",
+    "The spleen holds about one third of platelets in exchange with blood.",
+    "Asplenia shows Howell-Jolly bodies, target cells, and thrombocytosis, and risks overwhelming sepsis from S pneumoniae, H influenzae type b, and N meningitidis.",
+    "Sickle cell disease causes functional asplenia in infancy and autosplenectomy by early childhood through sickling and infarction in the slow, hypoxic red pulp.",
+    "Naive lymphocytes enter nodes through paracortical HEVs by L-selectin rolling, CCR7 activation, and LFA-1 arrest; CCR7 also brings antigen-bearing dendritic cells in through afferent lymph.",
+    "Lymphocytes leave through efferent lymph by following S1P; CD69 retains activated cells, and effector cells lose L-selectin and CCR7.",
+    "Cortisol causes neutrophilia from demargination and marrow release without left shift, plus lymphopenia, eosinopenia, monocytopenia, and thymic atrophy."
+  ],
+  "sources": [
+    {
+      "book": "Abbas, Cellular and Molecular Immunology",
+      "where": "Lymphocyte development and antigen receptor gene rearrangement; Cells and tissues of the immune system"
+    },
+    {
+      "book": "Abbas, Cellular and Molecular Immunology",
+      "where": "Leukocyte circulation and migration into tissues; Immunologic tolerance and autoimmunity"
+    },
+    {
+      "book": "Junqueira's Basic Histology",
+      "where": "The Immune System and Lymphoid Organs"
+    },
+    {
+      "book": "Robbins and Cotran Pathologic Basis of Disease",
+      "where": "Diseases of White Blood Cells, Lymph Nodes, Spleen, and Thymus"
+    },
+    {
+      "book": "Guyton and Hall Textbook of Medical Physiology",
+      "where": "Adrenocortical Hormones, section on anti-inflammatory and immune effects of cortisol"
+    },
+    {
+      "book": "Langman's Medical Embryology",
+      "where": "Head and Neck, pharyngeal pouch derivatives"
+    }
+  ],
+  "verify": [
+    "Splenic blood flow is given as about 5% of cardiac output; published values range from about 4% to 6%.",
+    "The fraction of thymocytes that survive selection is quoted from about 2% to 5% in different texts; this chapter says only a few percent.",
+    "The platelet pool is stated as about one third of total platelets (Guyton and Hall, Robbins); confirm NABNE uses this figure.",
+    "Timing of thrombocytosis after splenectomy (rise within days, peak over the next few weeks) varies between series; no single peak value is stated.",
+    "Age of autosplenectomy in sickle cell anemia is given as usually by about age 5; sources range from about age 2 to 8.",
+    "The age below which polysaccharide responses are poor is given as about 2 years, the usual consensus; confirm wording.",
+    "Absolute count reference ranges (neutrophils about 1.8 to 7.7, lymphocytes about 1.0 to 4.8 x 10^9/L; platelets about 150 to 400 x 10^9/L) vary by laboratory.",
+    "Peak leukocyte changes about 4 to 6 hours after a single glucocorticoid dose and return by about 24 hours follow classic studies; confirm if NABNE tests timing.",
+    "Confirm whether NABNE expects the term autoimmune polyendocrine syndrome type 1, APECED, or both, and whether Hassall corpuscles, cords of Billroth, and the stress triad are tested by name.",
+    "Requested new diagram names for a future revision: thymic-selection (thymic lobule with cortex and medulla showing stages), spleen-microanatomy (white pulp, marginal zone, red pulp cords and sinuses), and lymph-node-traffic (afferent and efferent lymph, HEV, T and B zones)."
+  ]
+}

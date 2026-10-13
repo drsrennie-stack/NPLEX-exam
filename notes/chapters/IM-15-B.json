@@ -1,0 +1,619 @@
+{
+ "unit": "IM-15-B",
+ "chapter_id": "NPLEX-P1-IMMU-15",
+ "topic_id": "NPLEX-P1-IMMU-15-02",
+ "title": "Acquired Immunodeficiency Diseases",
+ "subject": "Immune System (IMMU)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter covers immune deficiency acquired after birth, first from immunosuppressive drugs and then from HIV infection. Both follow one rule: when a drug or a virus removes a specific arm of immunity, the infections and cancers that follow are the ones that arm normally contains. Board questions give a drug, a CD4 count, a test result, or a lesion and ask you to name the organism, the mechanism, or the meaning of a test result. If you can explain what each drug removes, how HIV enters and depletes CD4 T cells, how each HIV test works, and why each opportunistic disease appears at its threshold, you can reason through most questions here.",
+  "prerequisites": [
+   "CD4 helper T cell subsets (Th1, Th2, Th17) and their cytokines (IM-5)",
+   "Macrophage activation by IFN-gamma and the structure of granulomas",
+   "B cell development, CD20 expression, and plasma cell differentiation",
+   "Retrovirus replication: reverse transcription and integration",
+   "Placental transfer of IgG and the immunology of the newborn"
+  ],
+  "connections": [
+   {
+    "to": "Congenital immunodeficiencies (IM-15-A)",
+    "how": "The infection pattern of each acquired defect mirrors the matching inborn defect, so the same organism-to-defect reasoning applies."
+   },
+   {
+    "to": "Microbiology",
+    "how": "Pneumocystis, Toxoplasma, Cryptococcus, CMV, EBV, HHV-8, and JC virus are the organisms that define the late stages of HIV disease."
+   },
+   {
+    "to": "Pulmonary infections",
+    "how": "Reactivated tuberculosis after TNF-alpha blockade and Pneumocystis pneumonia after T cell suppression are common lung presentations of acquired immunodeficiency."
+   },
+   {
+    "to": "Renal pathology",
+    "how": "HIV-associated nephropathy is a collapsing form of focal segmental glomerulosclerosis caused by direct infection of kidney epithelium."
+   },
+   {
+    "to": "Oncology and viral oncogenesis",
+    "how": "Loss of T cell surveillance lets latent oncogenic herpesviruses drive Kaposi sarcoma and EBV-positive lymphomas."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Calcineurin",
+    "def": "A calcium-dependent phosphatase in T cells that removes phosphate from NFAT so it can enter the nucleus and switch on the IL-2 gene."
+   },
+   {
+    "term": "Absolute neutrophil count (ANC)",
+    "def": "The white cell count multiplied by the fraction of segmented and band neutrophils; below 500 cells per mm3 is severe neutropenia."
+   },
+   {
+    "term": "Retrovirus",
+    "def": "An RNA virus that copies its genome into DNA with reverse transcriptase and integrates that DNA into the host genome."
+   },
+   {
+    "term": "Provirus",
+    "def": "Viral DNA integrated into a host chromosome, which persists for the life of the cell and is copied with it."
+   },
+   {
+    "term": "Coreceptor tropism",
+    "def": "Whether an HIV strain uses CCR5 (R5 strains) or CXCR4 (X4 strains), or both, together with CD4 to enter cells."
+   },
+   {
+    "term": "Viral set point",
+    "def": "The relatively stable plasma viral load reached about 6 months after infection, once early immune responses have lowered peak viremia."
+   },
+   {
+    "term": "Window period",
+    "def": "The interval after infection during which a given test cannot yet detect it."
+   },
+   {
+    "term": "AIDS-defining illness",
+    "def": "An opportunistic infection or cancer that, in a person with HIV, establishes the diagnosis of AIDS regardless of CD4 count."
+   },
+   {
+    "term": "Opportunistic infection",
+    "def": "An infection by an organism that rarely causes disease in a person with intact immunity."
+   },
+   {
+    "term": "Immune reconstitution inflammatory syndrome (IRIS)",
+    "def": "Clinical worsening caused by a recovering immune response against an infection or antigen already present, after immunity is restored."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-IMMU-15-02-C01",
+   "obj": "IM-15-B.1",
+   "title": "Drug-induced immunodeficiency and the infections it unmasks",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Immunosuppressive drugs and cancer chemotherapy are a leading cause of acquired immunodeficiency. Each removes a particular defense, and the infection that follows is the one that defense normally holds back."
+    },
+    {
+     "type": "h",
+     "text": "T cell suppression: glucocorticoids and calcineurin inhibitors"
+    },
+    {
+     "type": "p",
+     "text": "Glucocorticoids bind a cytoplasmic receptor that moves to the nucleus and inhibits the transcription factors NF-kappaB and AP-1, in part by inducing the inhibitor IkappaB. Production of IL-1, IL-2, TNF-alpha, IFN-gamma, and many chemokines falls. Lymphocytes, monocytes, and eosinophils leave the blood (lymphopenia, monocytopenia, eosinopenia), while neutrophils rise because they detach from vessel walls, yet they migrate poorly into tissue. The net loss of T cell help and macrophage activation explains the classic risks: Pneumocystis jirovecii pneumonia, reactivated tuberculosis, invasive fungi, and Strongyloides hyperinfection."
+    },
+    {
+     "type": "p",
+     "text": "Cyclosporine binds cyclophilin and tacrolimus binds FKBP12; each complex inhibits calcineurin. NFAT stays phosphorylated and trapped in the cytoplasm, so activated T cells do not transcribe IL-2 and cannot expand clonally. Because cytotoxic T cells control latent herpesviruses, recipients develop CMV disease, EBV-driven post-transplant lymphoproliferative disorder, BK polyomavirus nephropathy, Pneumocystis, and fungal infection."
+    },
+    {
+     "type": "flow",
+     "title": "How calcineurin inhibitors stop T cell activation",
+     "steps": [
+      "T cell receptor signaling raises cytoplasmic Ca2+",
+      "Ca2+ and calmodulin activate calcineurin",
+      "Cyclosporine-cyclophilin or tacrolimus-FKBP12 blocks calcineurin",
+      "NFAT stays phosphorylated in the cytoplasm",
+      "No IL-2 transcription, so no clonal T cell expansion"
+     ],
+     "caption": "Blocking one phosphatase removes the IL-2 signal that drives T cell proliferation."
+    },
+    {
+     "type": "h",
+     "text": "TNF-alpha blockade, B cell depletion, and neutropenia"
+    },
+    {
+     "type": "p",
+     "text": "TNF-alpha, made by macrophages and T cells, keeps macrophages activated and holds the granuloma together. Infliximab and adalimumab (monoclonal antibodies) and etanercept (a soluble receptor fusion protein) neutralize it, so granulomas that wall off latent Mycobacterium tuberculosis break down. Reactivation is often extrapulmonary or disseminated, and endemic granulomatous fungi (Histoplasma, Coccidioides) and Listeria also emerge."
+    },
+    {
+     "type": "p",
+     "text": "Rituximab is a chimeric anti-CD20 antibody. CD20 is present from the late pre-B to the mature B cell stage but absent from most plasma cells, so circulating B cells disappear while serum IgG often falls only slowly. Hepatitis B virus persists as covalently closed circular DNA in hepatocytes, and B cells help keep it suppressed by making neutralizing antibody and presenting antigen; when they are removed the virus reactivates, even in people who are HBsAg-negative but anti-HBc-positive. Progressive multifocal leukoencephalopathy from JC virus is a rare but classic complication."
+    },
+    {
+     "type": "p",
+     "text": "Cytotoxic chemotherapy kills dividing marrow precursors and mucosal epithelium. Neutropenia is an ANC below 1,500 cells per mm3 and is severe below 500. Without neutrophils there is little pus, so fever may be the only sign: neutropenic fever is a single temperature of at least 38.3 °C (100.9 °F) or at least 38.0 °C (100.4 °F) sustained over an hour. Gut and skin flora enter through mucositis and catheters, causing gram-negative bacteremia (Escherichia coli, Klebsiella, Pseudomonas aeruginosa) and gram-positive infection; when neutropenia lasts more than about 7 days, Candida and Aspergillus follow."
+    },
+    {
+     "type": "table",
+     "title": "Immunosuppressive drugs and the infections they unmask",
+     "cols": [
+      "Drug",
+      "Defense removed",
+      "Characteristic infections"
+     ],
+     "rows": [
+      [
+       "Glucocorticoids",
+       "Cytokine transcription, lymphocyte and monocyte numbers, macrophage activation",
+       "Pneumocystis, tuberculosis, fungi, Strongyloides hyperinfection"
+      ],
+      [
+       "Cyclosporine, tacrolimus",
+       "IL-2 production and T cell proliferation",
+       "CMV, EBV lymphoproliferation, BK virus, Pneumocystis, fungi"
+      ],
+      [
+       "Infliximab, adalimumab, etanercept",
+       "TNF-alpha maintenance of granulomas",
+       "Reactivated tuberculosis, histoplasmosis, coccidioidomycosis, Listeria"
+      ],
+      [
+       "Rituximab (anti-CD20)",
+       "B cells and new antibody responses",
+       "Hepatitis B reactivation, JC virus (PML)"
+      ],
+      [
+       "Cytotoxic chemotherapy",
+       "Neutrophils and mucosal barriers",
+       "Gram-negative rods including Pseudomonas, gram-positive cocci, Candida, Aspergillus"
+      ]
+     ],
+     "caption": "Each drug class removes one arm of immunity, and the expected organisms are those that arm normally contains."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-15-02-C02",
+   "obj": "IM-15-B.2",
+   "title": "HIV structure, genes, and entry",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "HIV is an enveloped retrovirus of the lentivirus genus. Each virion carries two copies of positive-sense single-stranded RNA inside a cone-shaped capsid, together with the enzymes needed to establish infection. HIV-1 causes most disease worldwide; HIV-2, concentrated in West Africa, is less transmissible and progresses more slowly."
+    },
+    {
+     "type": "p",
+     "text": "Three structural genes are shared by all retroviruses. gag encodes the core proteins, including p24 (the capsid protein detected by fourth generation tests) and p17 (matrix). pol encodes reverse transcriptase, integrase, and protease. env encodes gp160, which a host protease cleaves into gp120, the surface protein that binds receptors, and gp41, the transmembrane protein that fuses membranes. HIV also carries regulatory and accessory genes; tat enhances transcription of the provirus, rev exports viral RNA from the nucleus, nef downregulates CD4 and MHC class I so infected cells escape cytotoxic T cells, and vif counteracts the host antiviral enzyme APOBEC3G."
+    },
+    {
+     "type": "table",
+     "title": "HIV genes and their products",
+     "cols": [
+      "Gene",
+      "Product",
+      "Function"
+     ],
+     "rows": [
+      [
+       "gag",
+       "p24 capsid, p17 matrix",
+       "Structural core; p24 antigen appears in blood before antibody"
+      ],
+      [
+       "pol",
+       "Reverse transcriptase",
+       "RNA-dependent and DNA-dependent DNA polymerase with RNase H activity; no proofreading"
+      ],
+      [
+       "pol",
+       "Integrase",
+       "Inserts viral DNA into host DNA as a provirus"
+      ],
+      [
+       "pol",
+       "Protease",
+       "Cleaves gag and gag-pol polyproteins so virions mature"
+      ],
+      [
+       "env",
+       "gp120",
+       "Binds CD4, then CCR5 or CXCR4"
+      ],
+      [
+       "env",
+       "gp41",
+       "Inserts into the host membrane and fuses it with the envelope"
+      ]
+     ],
+     "caption": "The three structural genes of HIV, each a target of laboratory tests or of drugs that act on that step."
+    },
+    {
+     "type": "p",
+     "text": "Entry is a two-step process. gp120 first binds CD4, which changes its shape and exposes a site that binds a chemokine receptor, CCR5 or CXCR4. Coreceptor binding releases gp41, whose fusion peptide inserts into the host membrane; gp41 then folds back on itself and pulls the two membranes together until they fuse. CD4 is found on helper T cells, macrophages, and dendritic cells, which explains the cells HIV infects. Dendritic cells in the mucosa also carry virions to lymph nodes, where CD4 T cells are concentrated."
+    },
+    {
+     "type": "flow",
+     "title": "HIV life cycle",
+     "steps": [
+      "gp120 binds CD4, then CCR5 or CXCR4",
+      "gp41 fuses the viral envelope with the cell membrane",
+      "Reverse transcriptase copies viral RNA into double-stranded DNA",
+      "Integrase inserts the DNA into host chromosomes",
+      "Host RNA polymerase II transcribes viral RNA; polyproteins are made",
+      "Virions bud; protease cleaves polyproteins into mature infectious virus"
+     ],
+     "caption": "Integration makes infection lifelong; maturation by protease occurs after budding."
+    },
+    {
+     "type": "p",
+     "text": "Reverse transcriptase lacks proofreading and is highly error-prone, so each patient carries a swarm of related variants that can escape antibodies and T cells. Strains that use CCR5 (R5 strains) infect macrophages and memory T cells and dominate transmission and early infection. In many patients, strains that use CXCR4 (X4 strains) appear later and are associated with faster CD4 decline."
+    },
+    {
+     "type": "p",
+     "text": "The CCR5 delta32 allele has a 32 base pair deletion that shifts the reading frame, producing a truncated protein that never reaches the cell surface. Homozygotes, about 1% of people of northern European descent, lack surface CCR5 and strongly resist infection by R5 strains. Protection is not absolute, since rare infections with X4 strains occur, and heterozygotes, with less surface CCR5, tend to progress more slowly."
+    },
+    {
+     "type": "stop",
+     "predict": "A man homozygous for CCR5 delta32 is exposed to a partner whose virus uses only CXCR4. Will he be protected?",
+     "explain": "No. The deletion removes CCR5 from the cell surface, which blocks R5 strains, but CXCR4 is still present, so gp120 of an X4 strain can bind CD4 and CXCR4 and trigger gp41 fusion.",
+     "check": "Compare with the entry steps and the paragraph on the delta32 allele."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-15-02-C03",
+   "obj": "IM-15-B.3",
+   "title": "Natural history of HIV infection",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "HIV spreads through sexual contact, blood, and from mother to child. Receptive anal intercourse carries the highest sexual risk per act, and genital ulcers and other sexually transmitted infections raise risk by breaching mucosa and recruiting target cells. Parenteral spread now comes mainly from shared needles, since donated blood is screened. Perinatal transmission occurs in utero, during delivery (the largest share where infants are not breastfed), and through breastfeeding. Across all routes, the viral load of the source is the strongest determinant of risk."
+    },
+    {
+     "type": "h",
+     "text": "Acute infection"
+    },
+    {
+     "type": "p",
+     "text": "After mucosal entry, R5 virus infects memory CD4 T cells, which are abundant in gut-associated lymphoid tissue. Within weeks a large fraction of mucosal CD4 T cells is destroyed, and plasma viral load often exceeds a million copies per mL, making this the most infectious stage. About 2 to 6 weeks after exposure, many patients develop acute retroviral syndrome, a mononucleosis-like illness of fever, pharyngitis, lymphadenopathy, maculopapular rash, mucocutaneous ulcers, and myalgia, sometimes with aseptic meningitis. The CD4 count dips transiently, and antibody tests may still be negative."
+    },
+    {
+     "type": "p",
+     "text": "Cytotoxic CD8 T cells, followed by antibodies, then lower viremia to a set point reached about 6 months after infection. A higher set point predicts faster progression."
+    },
+    {
+     "type": "h",
+     "text": "Clinical latency and progression"
+    },
+    {
+     "type": "p",
+     "text": "Clinical latency is not viral latency. For a median of about 8 to 10 years without treatment, the patient may be well or have persistent generalized lymphadenopathy, but billions of virions are produced each day, mostly in lymphoid tissue, where follicular dendritic cells trap virus on their surface. Integrated provirus in resting memory T cells forms a long-lived reservoir."
+    },
+    {
+     "type": "p",
+     "text": "CD4 T cells are lost by several mechanisms: direct cytopathic killing, pyroptosis of abortively infected bystander cells, killing of infected cells by CD8 T cells, and chronic immune activation that drives cells to divide and die. Bacterial products leak through the damaged gut mucosa into the blood and sustain that activation, and fibrosis of lymphoid tissue limits replacement. B cells are activated polyclonally, so total immunoglobulin rises while specific antibody responses to new antigens are poor."
+    },
+    {
+     "type": "cycle",
+     "title": "Immune activation drives HIV progression",
+     "steps": [
+      "HIV replicates in lymphoid tissue",
+      "Gut CD4 loss lets bacterial products enter blood",
+      "Chronic immune activation recruits and activates CD4 T cells",
+      "Activated CD4 T cells are the best targets for HIV"
+     ],
+     "caption": "Activation creates new target cells, which sustains replication and progressive CD4 depletion."
+    },
+    {
+     "type": "p",
+     "text": "A normal adult CD4 count is roughly 500 to 1,500 cells per mm3. AIDS is defined by a CD4 count below 200 cells per mm3 (or a CD4 percentage below 14%) or by any AIDS-defining illness, whatever the count. Below 200, Th1 help for macrophages and CD8 T cells is too weak to contain organisms that live within cells or remain latent."
+    },
+    {
+     "type": "flow",
+     "title": "From HIV exposure to AIDS",
+     "steps": [
+      "Mucosal or blood exposure; R5 virus infects CD4 cells",
+      "Acute infection: peak viremia and gut CD4 depletion",
+      "CD8 T cells and antibodies lower viremia to a set point",
+      "Years of lymphoid replication with steady CD4 decline",
+      "CD4 below 200 per mm3 or AIDS-defining illness: AIDS"
+     ],
+     "caption": "Untreated progression is set mainly by the viral set point."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-15-02-C04",
+   "obj": "IM-15-B.4",
+   "title": "Interpreting HIV tests",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Each HIV test detects a different marker, and each marker appears at a different time after infection. Viral RNA appears first, about 10 days after exposure, then p24 antigen a few days later, and finally antibody, IgM before IgG, after roughly 3 weeks or more. A test is negative during its window period even though the person is infected and highly infectious."
+    },
+    {
+     "type": "p",
+     "text": "Laboratory screening uses a fourth generation antigen and antibody immunoassay, which detects p24 antigen together with antibodies to HIV-1 and HIV-2. Because p24 appears before antibody, it narrows the window period compared with antibody-only tests, to roughly 2 to 6 weeks. A reactive screen is followed by an HIV-1 and HIV-2 antibody differentiation assay, which confirms antibody and identifies the virus type. If the differentiation assay is negative or indeterminate, an HIV-1 nucleic acid test (NAT) decides the case: RNA present means acute HIV-1 infection before antibody has formed, and RNA absent means the screen was falsely reactive. This sequence replaced the older Western blot, which missed early infections."
+    },
+    {
+     "type": "flow",
+     "title": "Laboratory HIV diagnostic sequence",
+     "steps": [
+      "Fourth generation antigen and antibody immunoassay",
+      "Nonreactive: no infection unless exposure was recent",
+      "Reactive: HIV-1 and HIV-2 antibody differentiation assay",
+      "Antibody positive: HIV-1, HIV-2, or both confirmed",
+      "Negative or indeterminate: HIV-1 nucleic acid test",
+      "RNA positive: acute HIV-1; RNA negative: false-positive screen"
+     ],
+     "caption": "Each step answers the question the previous one could not."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: a reactive screen with no antibody",
+     "text": "A woman has fever, sore throat, rash, and cervical lymphadenopathy 3 weeks after condomless sex with a new partner. Her fourth generation immunoassay is reactive, but the differentiation assay is negative. The screen detected something, yet she has no antibody to HIV-1 or HIV-2. At 3 weeks, p24 antigen and RNA are present while antibody may not yet be. The HIV-1 RNA test is strongly positive, confirming acute HIV-1 infection. Had the RNA been negative, the reactive screen would have been a false positive. Repeating antibody testing weeks later would show seroconversion."
+    },
+    {
+     "type": "h",
+     "text": "Monitoring tests"
+    },
+    {
+     "type": "p",
+     "text": "Once infection is confirmed, two measurements describe it. The CD4 count, measured by flow cytometry, stages immune damage and predicts which opportunistic infections are likely now. The plasma viral load, HIV-1 RNA copies per mL by quantitative nucleic acid amplification, measures how fast the virus is replicating and therefore how fast the CD4 count will fall; it is also the main determinant of transmission risk. The two answer different questions and cannot substitute for each other. Standard HIV-1 viral load assays do not reliably quantify HIV-2."
+    },
+    {
+     "type": "h",
+     "text": "Infants of infected mothers"
+    },
+    {
+     "type": "p",
+     "text": "Maternal IgG crosses the placenta through neonatal Fc receptors and can persist in the infant for up to about 18 months. Every infant of an infected mother is therefore antibody-positive at birth, whether or not the infant is infected, and a positive antibody or fourth generation result proves only maternal infection. Diagnosis in infants under 18 months relies on HIV NAT (RNA or proviral DNA) repeated at intervals in the first months of life, because only direct detection of the virus shows infant infection. Loss of maternal antibody later confirms an uninfected child."
+    },
+    {
+     "type": "stop",
+     "predict": "A 4-month-old born to a mother with HIV has a reactive fourth generation test. Is the infant infected?",
+     "explain": "Not necessarily. The antibody component detects transplacental maternal IgG, which persists for many months, so the result cannot separate maternal antibody from infant infection. Only an HIV nucleic acid test shows whether the virus is present in the infant.",
+     "check": "Compare with the paragraph on infants of infected mothers."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-15-02-C05",
+   "obj": "IM-15-B.5",
+   "title": "Opportunistic infections by CD4 count",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "CD4 T cells defend against intracellular and latent organisms in two ways. Th1 cells secrete IFN-gamma, which activates macrophages to kill organisms they have ingested, such as mycobacteria, Toxoplasma, Pneumocystis, and fungi. CD4 help also sustains the CD8 T cells that keep latent herpesviruses (CMV, EBV) and JC virus under control. Mucosal Th17 cells recruit neutrophils and induce antimicrobial peptides that contain Candida. As the count falls, these defenses fail in a predictable order, so the CD4 count tells you which organisms are likely. The thresholds are approximate: each infection becomes common below its threshold, not impossible above it."
+    },
+    {
+     "type": "h",
+     "text": "Above 200: mucosal and reactivation diseases"
+    },
+    {
+     "type": "p",
+     "text": "Oral candidiasis (thrush) produces white plaques that scrape off to leave a red base. Oral hairy leukoplakia is an EBV-driven hyperplasia of epithelium on the lateral tongue, with corrugated white plaques that do not scrape off. Herpes zoster, bacterial pneumonia from Streptococcus pneumoniae, and tuberculosis increase at any count, because they need only partial loss of immunity; in advanced disease tuberculosis is more often extrapulmonary and forms poor granulomas."
+    },
+    {
+     "type": "h",
+     "text": "Below 200, 100, and 50"
+    },
+    {
+     "type": "p",
+     "text": "Pneumocystis jirovecii, a fungus, causes subacute dry cough, fever, and exertional hypoxemia, with bilateral interstitial or ground-glass infiltrates and elevated lactate dehydrogenase; cysts are seen with silver stain. Below 100, Toxoplasma gondii reactivates from tissue cysts in seropositive patients to cause encephalitis with multiple ring-enhancing lesions, often in the basal ganglia and at the gray-white junction. Cryptococcus neoformans meningitis, chronic Cryptosporidium diarrhea, and Candida esophagitis also cluster here. Below 50, CMV retinitis causes painless vision loss with retinal necrosis and hemorrhage, and disseminated Mycobacterium avium complex (MAC) causes fever, night sweats, weight loss, diarrhea, anemia, hepatosplenomegaly, and a raised alkaline phosphatase."
+    },
+    {
+     "type": "table",
+     "title": "Opportunistic infections by CD4 count (cells per mm3)",
+     "cols": [
+      "CD4 count",
+      "Infection",
+      "Key finding and mechanism"
+     ],
+     "rows": [
+      [
+       "Below 500",
+       "Oral candidiasis",
+       "White plaques that scrape off; Th17 loss at mucosa"
+      ],
+      [
+       "Below 500",
+       "Oral hairy leukoplakia (EBV)",
+       "Lateral tongue plaques that do not scrape off"
+      ],
+      [
+       "Any count, rising as CD4 falls",
+       "Tuberculosis, zoster, pneumococcal pneumonia",
+       "Reactivation and encapsulated bacteria; atypical TB when CD4 is low"
+      ],
+      [
+       "Below 200",
+       "Pneumocystis pneumonia",
+       "Dry cough, hypoxemia, bilateral ground-glass infiltrates"
+      ],
+      [
+       "Below 200",
+       "Progressive multifocal leukoencephalopathy (JC virus)",
+       "Nonenhancing white matter lesions; oligodendrocyte infection"
+      ],
+      [
+       "Below 100",
+       "Toxoplasma encephalitis",
+       "Multiple ring-enhancing lesions; IgG seropositive"
+      ],
+      [
+       "Below 100",
+       "Cryptococcal meningitis",
+       "Headache, raised opening pressure, capsular antigen in CSF"
+      ],
+      [
+       "Below 100",
+       "Candida esophagitis, Cryptosporidium",
+       "Painful swallowing; chronic watery diarrhea"
+      ],
+      [
+       "Below 50",
+       "CMV retinitis, colitis",
+       "Retinal necrosis with hemorrhage; owl's eye inclusions"
+      ],
+      [
+       "Below 50",
+       "Disseminated MAC",
+       "Fever, weight loss, diarrhea, anemia, raised alkaline phosphatase"
+      ]
+     ],
+     "caption": "Organisms appear in order as successive layers of CD4-dependent defense fail."
+    },
+    {
+     "type": "stop",
+     "predict": "Why does Pneumocystis appear at a higher CD4 count than CMV retinitis?",
+     "explain": "Pneumocystis is contained mainly by alveolar macrophages activated through CD4 Th1 help, so moderate loss of CD4 cells allows it to grow. CMV is held latent by CD8 T cells, which still function until CD4 help is almost gone.",
+     "check": "Compare with the first paragraph of this section and the table."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-15-02-C06",
+   "obj": "IM-15-B.6",
+   "title": "Noninfectious complications of HIV and AIDS",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Noninfectious complications fall into three groups: virus-driven cancers that T cells no longer control, organ injury from HIV itself, and inflammation when immunity is restored."
+    },
+    {
+     "type": "h",
+     "text": "Virus-driven cancers"
+    },
+    {
+     "type": "p",
+     "text": "Kaposi sarcoma is caused by human herpesvirus 8 (HHV-8, also called KSHV). Latent viral proteins drive proliferation and survival (LANA binds and inhibits p53 and Rb; vFLIP activates NF-kappaB). Infected spindle cells of endothelial origin form slit-like vascular spaces filled with extravasated red cells and hemosiderin. Lesions are red-purple macules, plaques, or nodules on the skin, oral palate, gut, and lungs. They can appear at any CD4 count. Bacillary angiomatosis (Bartonella) looks similar but shows neutrophils."
+    },
+    {
+     "type": "p",
+     "text": "Primary CNS lymphoma is an EBV-positive diffuse large B cell lymphoma, usually at CD4 counts below 50. Without cytotoxic T cell surveillance, EBV-infected B cells proliferate unchecked. It typically forms a single, often periventricular, ring-enhancing lesion, and EBV DNA may be found in the cerebrospinal fluid. Systemic B cell lymphomas (including Burkitt lymphoma) and HPV-related cervical and anal carcinoma are also increased."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: a brain lesion at CD4 of 40",
+     "text": "A man with untreated AIDS and a CD4 count of 40 cells per mm3 has headache and focal weakness. Imaging shows ring-enhancing lesions. At this count, the leading causes are Toxoplasma encephalitis and primary CNS lymphoma. Several lesions in the basal ganglia with positive Toxoplasma IgG favor toxoplasmosis, because reactivation needs prior infection. A single periventricular lesion with negative Toxoplasma IgG and EBV DNA in the cerebrospinal fluid favors lymphoma. Nonenhancing white matter lesions without mass effect point instead to PML."
+    },
+    {
+     "type": "h",
+     "text": "Direct HIV injury"
+    },
+    {
+     "type": "p",
+     "text": "HIV-associated nephropathy (HIVAN) is a collapsing form of focal segmental glomerulosclerosis. HIV infects podocytes and tubular epithelium, causing the glomerular capillary tuft to collapse beneath hypertrophied, proliferating podocytes, with microcystic tubular dilation. Patients have nephrotic-range proteinuria, large echogenic kidneys, and rapid progression to kidney failure. It occurs mostly in people of African ancestry with two APOL1 risk variants and high viral loads."
+    },
+    {
+     "type": "p",
+     "text": "HIV enters the brain early inside infected monocytes and infects perivascular macrophages and microglia, but not neurons. Viral proteins (gp120, Tat), inflammatory cytokines, and excess glutamate injure neurons indirectly. HIV-associated neurocognitive disorder is a subcortical pattern of slowed thinking, apathy, and motor slowing, ranging from mild impairment to dementia, with microglial nodules and multinucleated giant cells. Distal symmetric sensory polyneuropathy is a length-dependent axonal neuropathy with burning feet and reduced ankle reflexes, caused by viral proteins and inflammation acting on dorsal root ganglia and axons."
+    },
+    {
+     "type": "h",
+     "text": "Immune reconstitution inflammatory syndrome"
+    },
+    {
+     "type": "p",
+     "text": "When antiretroviral therapy lowers the viral load, CD4 T cells recover, usually within weeks to a few months, and mount a vigorous Th1 response against antigens already present. Paradoxical IRIS is worsening of a known infection; unmasking IRIS is the first appearance of one that was subclinical. Risk is highest with a low starting CD4 count and preexisting tuberculosis, MAC, Cryptococcus, or CMV; fever, enlarging nodes, new infiltrates, or worsening meningitis follow because immunity is improving, not failing."
+    },
+    {
+     "type": "table",
+     "title": "Noninfectious complications and their causes",
+     "cols": [
+      "Complication",
+      "Cause",
+      "Key finding"
+     ],
+     "rows": [
+      [
+       "Kaposi sarcoma",
+       "HHV-8 in spindle cells of endothelial origin",
+       "Purple plaques; slit-like vessels with red cells"
+      ],
+      [
+       "Primary CNS lymphoma",
+       "EBV-driven B cell proliferation",
+       "Single ring-enhancing lesion; EBV DNA in CSF"
+      ],
+      [
+       "HIV-associated nephropathy",
+       "HIV infection of podocytes; APOL1 variants",
+       "Collapsing FSGS; nephrotic proteinuria"
+      ],
+      [
+       "Neurocognitive disorder",
+       "Infected microglia and macrophages; neurotoxins",
+       "Subcortical slowing, apathy, motor signs"
+      ],
+      [
+       "Distal sensory polyneuropathy",
+       "Viral proteins and inflammation in sensory neurons",
+       "Burning feet, reduced or absent ankle reflexes"
+      ],
+      [
+       "IRIS",
+       "Recovering T cells attack existing antigen",
+       "Worsening weeks after therapy begins"
+      ]
+     ],
+     "caption": "Cancers follow loss of viral surveillance; organ injury follows direct infection; IRIS follows recovery."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Acquired immunodeficiency ties immunology to microbiology and pathology through one principle: the lost defense predicts the disease. Drugs remove a single arm, so their infections are narrow and predictable, while HIV erodes CD4 help progressively, so infections appear in order as each defense fails. Molecular virology explains the tests (p24 before antibody, RNA before both) and the drug targets, and transplacental IgG explains why infants need nucleic acid testing. Pathology adds the herpesvirus cancers and direct organ injury that follow loss of surveillance."
+  },
+  {
+   "type": "p",
+   "text": "The thresholds and drug associations are probabilities, not rules. Tuberculosis and Kaposi sarcoma occur at any CD4 count, several infections share similar thresholds, and patients often take more than one immunosuppressant. Interpret each finding with the CD4 count, serology, and imaging."
+  }
+ ],
+ "summary": [
+  "Glucocorticoids and calcineurin inhibitors suppress T cell cytokines and IL-2, causing Pneumocystis, herpesvirus, and fungal infections.",
+  "TNF-alpha holds granulomas together, so TNF blockade reactivates latent tuberculosis and endemic fungi.",
+  "Rituximab depletes CD20 B cells, allowing hepatitis B reactivation and, rarely, JC virus PML.",
+  "Severe neutropenia (ANC below 500 per mm3) causes gram-negative bacteremia and, if prolonged, Candida and Aspergillus, often with fever as the only sign.",
+  "HIV gp120 binds CD4 and then CCR5 or CXCR4, and gp41 mediates fusion; CCR5 delta32 homozygotes resist R5 strains.",
+  "Acute HIV brings peak viremia and gut CD4 loss; clinical latency hides ongoing lymphoid replication; AIDS is CD4 below 200 per mm3 or an AIDS-defining illness.",
+  "Fourth generation screening detects p24 and antibody; a negative differentiation assay after a reactive screen calls for HIV-1 RNA testing.",
+  "CD4 count measures immune damage, viral load measures replication, and infants need nucleic acid testing because maternal IgG persists up to about 18 months.",
+  "Thrush and hairy leukoplakia appear early, Pneumocystis below 200, Toxoplasma below 100, and CMV retinitis and MAC below 50.",
+  "Kaposi sarcoma (HHV-8), CNS lymphoma (EBV), collapsing FSGS, neurocognitive disorder, neuropathy, and IRIS are the main noninfectious complications."
+ ],
+ "sources": [
+  {
+   "book": "Abbas, Basic Immunology",
+   "where": "Congenital and Acquired Immunodeficiencies"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Diseases of the Immune System, acquired immunodeficiency syndrome"
+  },
+  {
+   "book": "Jawetz, Melnick, and Adelberg's Medical Microbiology",
+   "where": "AIDS and Lentiviruses"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Disorders of the Immune System, acquired immunodeficiency syndrome"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "The Kidney, focal segmental glomerulosclerosis and HIV-associated nephropathy"
+  }
+ ],
+ "verify": [
+  "CD4 thresholds for individual opportunistic infections (for example cryptococcosis below 100 versus below 50, PML below 200) differ between sources; confirm the values NABNE expects.",
+  "The CD4 threshold for oral thrush and oral hairy leukoplakia is given as below 500 in many review sources; other sources say only that they occur before CD4 falls below 200.",
+  "Acute retroviral syndrome onset (2 to 6 weeks), the median untreated latency of about 8 to 10 years, the timing of the viral set point (about 6 months), and the share of patients whose virus switches to CXCR4 are estimates that vary by cohort.",
+  "Window periods (RNA about 10 days, fourth generation assay about 2 to 6 weeks) follow CDC laboratory guidance and differ by assay; confirm current values.",
+  "The CCR5 delta32 homozygote frequency of about 1% in northern European populations varies by region.",
+  "Neutropenic fever thresholds (38.3 °C (100.9 °F) once, or 38.0 °C (100.4 °F) sustained over an hour) follow common oncology definitions; confirm if tested.",
+  "The glucocorticoid dose and duration that defines Pneumocystis risk (commonly cited as about 20 mg prednisone daily for 4 weeks or more) is not stated here because sources differ.",
+  "Confirm whether NABNE still lists the CD4 percentage below 14% as an AIDS criterion alongside the count below 200 cells per mm3.",
+  "A schematic of the HIV virion (gene products in place) and a CD4 and viral load timeline would help; request diagram names hiv-virion and hiv-natural-history."
+ ]
+}

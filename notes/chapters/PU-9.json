@@ -1,0 +1,584 @@
+{
+ "unit": "PU-9",
+ "chapter_id": "NPLEX-P1-RESP-09",
+ "topic_id": "NPLEX-P1-RESP-09-01",
+ "title": "Pulmonary Biochemistry and Nutrition",
+ "subject": "Respiratory System (RESP)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "The lung stays open, elastic, clean, and intact because of a handful of molecules: surfactant, elastin and collagen, mucins, alpha-1 antitrypsin, and the antioxidant enzymes, supported by vitamin A, the fat-soluble vitamins, and selenium. This chapter explains how each molecule is built and what it does, then follows each failure to a lung disease: neonatal respiratory distress, emphysema, fibrosis, oxygen toxicity, chronic bronchitis, and cystic fibrosis. Board questions usually describe a patient or an infant and ask for the molecule, enzyme, cofactor, or hormone responsible. If you can explain why a molecular defect changes compliance, recoil, or mucus clearance, you can reason through most of them.",
+  "prerequisites": [
+   "Alveolar histology: type I and type II pneumocytes, alveolar macrophages, and the airway epithelium (PU-2)",
+   "Lung compliance, elastic recoil, and the pressure-volume curve (PU-6)",
+   "Phospholipid structure and the CDP-choline pathway of phosphatidylcholine synthesis",
+   "Collagen synthesis and post-translational modification of proteins in the ER and Golgi",
+   "Fat digestion, micelle formation, and chylomicron transport"
+  ],
+  "connections": [
+   {
+    "to": "Respiratory embryology (PU-1)",
+    "how": "Surfactant production depends on the saccular and alveolar stages of lung development, which sets the gestational age at which a newborn can breathe without collapse."
+   },
+   {
+    "to": "Pulmonary genetics (PU-10)",
+    "how": "Alpha-1 antitrypsin deficiency and cystic fibrosis are the inherited versions of the protease and mucus failures taught here."
+   },
+   {
+    "to": "Obstructive pulmonary diseases (PU-14-B)",
+    "how": "Emphysema and chronic bronchitis are the structural results of protease excess, elastin loss, and mucous gland hyperplasia."
+   },
+   {
+    "to": "Restrictive pulmonary diseases (PU-14-A)",
+    "how": "Collagen deposition and loss of surfactant both lower compliance, which is the mechanical basis of restriction."
+   },
+   {
+    "to": "Energy production and the respiratory system (PU-11)",
+    "how": "Mitochondrial electron leak and the pentose phosphate pathway supply, respectively, the superoxide and the NADPH that drive oxidant injury and its repair."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Surfactant",
+    "def": "A lipid and protein film secreted by type II pneumocytes that lowers alveolar surface tension, most strongly as the alveolus shrinks."
+   },
+   {
+    "term": "Dipalmitoylphosphatidylcholine (DPPC)",
+    "def": "A phosphatidylcholine (lecithin) with two saturated palmitate chains, the main surface-active lipid of surfactant."
+   },
+   {
+    "term": "Lecithin to sphingomyelin (L/S) ratio",
+    "def": "The amniotic fluid ratio of phosphatidylcholine to sphingomyelin, which rises as fetal surfactant production increases."
+   },
+   {
+    "term": "Serpin",
+    "def": "A serine protease inhibitor that traps its target protease in a covalent complex after the protease cleaves the inhibitor's reactive loop."
+   },
+   {
+    "term": "Alpha-1 antitrypsin (AAT)",
+    "def": "A serpin made mainly by hepatocytes that is the main inhibitor of neutrophil elastase in the lower respiratory tract."
+   },
+   {
+    "term": "Lysyl oxidase",
+    "def": "A copper-dependent extracellular enzyme that converts lysine side chains to aldehydes, starting the cross-links of elastin and collagen."
+   },
+   {
+    "term": "Desmosine",
+    "def": "A cross-link formed from four lysine side chains that is found only in elastin and lets elastin fibers stretch and recoil."
+   },
+   {
+    "term": "Compliance",
+    "def": "The change in lung volume per unit change in transpulmonary pressure; the reciprocal of elastance."
+   },
+   {
+    "term": "Squamous metaplasia",
+    "def": "Reversible replacement of ciliated columnar epithelium by stratified squamous epithelium in response to chronic injury or vitamin A deficiency."
+   },
+   {
+    "term": "Reactive oxygen species (ROS)",
+    "def": "Partially reduced oxygen products, including superoxide, hydrogen peroxide, and the hydroxyl radical, that oxidize lipids, proteins, and DNA."
+   },
+   {
+    "term": "Mucin",
+    "def": "A very large glycoprotein whose dense O-linked sugar chains bind water and form the mucus gel."
+   },
+   {
+    "term": "Reid index",
+    "def": "The ratio of submucosal gland thickness to bronchial wall thickness between epithelium and cartilage; above 0.4 indicates the gland hyperplasia of chronic bronchitis."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-RESP-09-01-C01",
+   "obj": "PU-9.1",
+   "title": "Surfactant composition, function, and hormonal control of its synthesis",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "A thin layer of water lines every alveolus, and surface tension at that air-water interface pulls the alveolus toward collapse. By the law of Laplace, collapsing pressure equals 2T/r (T is surface tension, r is radius). With equal T everywhere, small alveoli would empty into large ones and collapse at end expiration, and surface tension would also draw interstitial fluid into the airspace. Surfactant prevents both."
+    },
+    {
+     "type": "p",
+     "text": "Surfactant is about 90% lipid and 10% protein. Type II pneumocytes synthesize it, store it in lamellar bodies, and secrete it by exocytosis; it unfolds into tubular myelin and spreads as a film. Type II cells recycle most of it and alveolar macrophages degrade the rest, so defective macrophage clearance (pulmonary alveolar proteinosis) fills alveoli with surfactant."
+    },
+    {
+     "type": "table",
+     "title": "Components of surfactant",
+     "cols": [
+      "Component",
+      "Approximate share",
+      "Role"
+     ],
+     "rows": [
+      [
+       "Dipalmitoylphosphatidylcholine (DPPC)",
+       "About 40% to 50% of surfactant by weight",
+       "Main surface-active lipid; packs tightly when compressed"
+      ],
+      [
+       "Other phosphatidylcholines",
+       "Most of the remaining phosphatidylcholine",
+       "Keep the film fluid enough to spread"
+      ],
+      [
+       "Phosphatidylglycerol (PG)",
+       "About 5% to 10% of the lipid; appears late in gestation",
+       "Helps film spreading; its presence marks a mature lung"
+      ],
+      [
+       "Cholesterol and neutral lipids",
+       "Small fraction",
+       "Modulate film fluidity"
+      ],
+      [
+       "SP-B and SP-C (hydrophobic)",
+       "Small fraction",
+       "Insert lipid into the interface and stabilize the film; SP-B deficiency is lethal at birth"
+      ],
+      [
+       "SP-A and SP-D (hydrophilic collectins)",
+       "Small fraction",
+       "Bind microbial carbohydrates and act as opsonins; SP-A also aids tubular myelin formation"
+      ]
+     ],
+     "caption": "Lipids lower surface tension; the hydrophobic proteins spread the film; the collectins add innate immune defense."
+    },
+    {
+     "type": "p",
+     "text": "DPPC's two saturated palmitate chains are straight and pack tightly. As the alveolus shrinks in expiration, the film is compressed, DPPC crowds together, and surface tension falls from about 70 mN/m (water) toward near zero. Because the fall is greatest where surface area is smallest, T drops with r, the 2T/r pressures equalize, and alveoli of different sizes stay open together. Phosphatidylcholine is made by the CDP-choline pathway (CTP:phosphocholine cytidylyltransferase is rate limiting), and an unsaturated chain is then exchanged for palmitate to make DPPC."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: why small alveoli need surfactant most",
+     "text": "Two connected alveoli have radii of 50 and 100 micrometers. With equal T, collapsing pressure is 2T/50 in the small one and 2T/100 in the large one, so the small alveolus has twice the pressure and empties into the large one. With surfactant, the small alveolus is compressed more and its T falls further; if T falls to half that of the large one, pressures become 2(T/2)/50 and 2T/100, which are equal, and both stay open. Without surfactant, as in a preterm infant, the result is diffuse atelectasis, stiff lungs, and shunt."
+    },
+    {
+     "type": "p",
+     "text": "Type II pneumocytes appear around 20 to 24 weeks of gestation, but enough surfactant to prevent collapse is usually present only after about 34 to 35 weeks; an amniotic L/S ratio above 2.0 and the presence of PG indicate maturity. Fetal cortisol is the main driver: through the glucocorticoid receptor it induces type II cell differentiation, fatty acid synthase and cytidylyltransferase activity for DPPC synthesis, and the SP-A, SP-B, and SP-C genes, which is why fetal stress or exogenous glucocorticoids accelerate maturity. Thyroid hormone acts synergistically, mainly by increasing phosphatidylcholine synthesis."
+    },
+    {
+     "type": "flow",
+     "title": "Maternal diabetes and delayed surfactant",
+     "steps": [
+      "Maternal hyperglycemia; glucose crosses the placenta",
+      "Fetal beta cells secrete excess insulin",
+      "Insulin antagonizes cortisol-driven type II cell maturation",
+      "Surfactant protein and DPPC synthesis lag; PG appears late",
+      "Respiratory distress at a gestational age usually safe"
+     ],
+     "caption": "Insulin does not cross the placenta; the fetus makes it in response to maternal glucose."
+    },
+    {
+     "type": "p",
+     "text": "Fetal hyperinsulinemia also drives macrosomia, so the infant of a diabetic mother may be large yet surfactant deficient. Deficiency of any cause produces neonatal respiratory distress syndrome: atelectasis lowers compliance and creates shunt, hypoxemia injures the alveolar capillary barrier, and leaked plasma proteins form hyaline membranes that further inactivate surfactant."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-09-01-C02",
+   "obj": "PU-9.2",
+   "title": "Protease and antiprotease balance and how smoking tips it",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Alveolar walls are built on elastin, and neutrophils that enter the lung carry neutrophil elastase, a serine protease that can digest it. Normal lungs survive this exposure because an excess of antiproteases surrounds every neutrophil. Alpha-1 antitrypsin (AAT) is the most important: a roughly 52 kDa glycoprotein made mainly by hepatocytes, it diffuses from plasma into the interstitium and epithelial lining fluid and supplies most of the antielastase protection of the alveoli. Secretory leukocyte protease inhibitor guards the larger airways, and tissue inhibitors of metalloproteinases (TIMPs) restrain matrix metalloproteinases (MMPs)."
+    },
+    {
+     "type": "p",
+     "text": "AAT is a serpin and works as a suicide substrate. Elastase attacks a peptide bond at methionine 358 in AAT's exposed reactive center loop. Once cut, the loop snaps into the body of AAT and carries the still-attached elastase to the opposite pole, distorting its active site so the acyl-enzyme intermediate cannot be hydrolyzed. Both molecules are consumed in a stable complex that is cleared by the liver. Inhibition is therefore stoichiometric, one AAT for one elastase, and depends on enough AAT reaching the tissue."
+    },
+    {
+     "type": "p",
+     "text": "Methionine is the weak point. Oxidants convert the methionine 358 side chain to methionine sulfoxide, which elastase no longer recognizes, and AAT's rate of association with elastase falls by orders of magnitude. AAT is present but functionally inactive."
+    },
+    {
+     "type": "flow",
+     "title": "Cigarette smoke tips the balance toward destruction",
+     "steps": [
+      "Smoke activates alveolar macrophages and epithelium",
+      "Chemokines such as IL-8 and leukotriene B4 recruit neutrophils",
+      "Neutrophils release elastase; macrophages release MMPs such as MMP-12",
+      "Smoke and respiratory burst oxidants oxidize AAT methionine 358",
+      "Unopposed proteases digest alveolar wall elastin",
+      "Airspaces merge, recoil falls, and small airways collapse"
+     ],
+     "caption": "Smoking acts on both sides at once: more protease and less functional antiprotease."
+    },
+    {
+     "type": "p",
+     "text": "The resulting emphysema in smokers is centriacinar and worst in the upper lobes, where smoke particles deposit and respiratory bronchioles are destroyed first. In inherited AAT deficiency (most often the PiZZ genotype, PU-10), the misfolded Z protein polymerizes in hepatocyte endoplasmic reticulum, plasma AAT falls to about 10% to 15% of normal, and the whole acinus is unprotected. The result is panacinar emphysema, worst in the lower lobes, possibly because they receive more blood flow and therefore more neutrophils, appearing in early middle age and much earlier in smokers. Retained Z polymers form PAS-positive, diastase-resistant globules in hepatocytes and can cause cirrhosis, so a patient with both emphysema and liver disease suggests AAT deficiency."
+    },
+    {
+     "type": "stop",
+     "predict": "A nonsmoker with PiZZ AAT deficiency and a smoker with normal AAT levels both develop emphysema. Which has the lower plasma AAT, and which has more functionally inactive AAT in the alveolus?",
+     "explain": "The PiZZ patient has low plasma AAT because it is retained in the liver. The smoker has normal plasma levels but oxidized, inactive AAT locally, plus more recruited neutrophils.",
+     "check": "Compare with the paragraphs on methionine oxidation and on PiZZ panacinar emphysema."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-09-01-C03",
+   "obj": "PU-9.3",
+   "title": "Elastin, collagen, and opposite changes in compliance",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Elastic recoil, the tendency of the stretched lung to return to its resting volume, has two sources: surface tension at the alveolar lining, which accounts for roughly half to two-thirds of recoil, and the elastic fiber network of the alveolar walls and airways. Collagen in the same walls provides tensile strength and limits overdistension."
+    },
+    {
+     "type": "p",
+     "text": "Fibroblasts secrete elastin as soluble tropoelastin, a protein rich in glycine, alanine, proline, and valine, with little hydroxyproline, no hydroxylysine, and no glycine-X-Y repeats, which distinguishes it from collagen. Hydrophobic domains alternate with short lysine-rich domains, and tropoelastin is deposited on a fibrillin microfibril scaffold. Lysyl oxidase, a copper-dependent extracellular enzyme, oxidatively deaminates selected lysine side chains to aldehydes (allysine). Three allysines and one unmodified lysine then condense spontaneously into desmosine or isodesmosine, cross-links unique to elastin that join four chains into a rubber-like network. Lysyl oxidase also starts the cross-links that give collagen its strength."
+    },
+    {
+     "type": "p",
+     "text": "Elastin recoils because of entropy: stretching forces its hydrophobic domains into ordered extended chains, and on release they return to a disordered state, pulling the fiber back. Cross-links prevent the chains from slipping apart. Elastin is synthesized mainly during development and has a half-life measured in decades, so fibers destroyed in adulthood are poorly replaced. Inadequate copper (as in Menkes disease, a defect of copper transport) or lysyl oxidase inhibition (lathyrism) weakens both elastin and collagen."
+    },
+    {
+     "type": "table",
+     "title": "Emphysema versus pulmonary fibrosis",
+     "cols": [
+      "Feature",
+      "Emphysema (elastin loss)",
+      "Fibrosis (collagen excess)"
+     ],
+     "rows": [
+      [
+       "Molecular change",
+       "Protease digestion of elastin",
+       "Myofibroblasts deposit collagen types I and III, driven by TGF-beta"
+      ],
+      [
+       "Compliance",
+       "Increased (floppy lung)",
+       "Decreased (stiff lung)"
+      ],
+      [
+       "Elastic recoil",
+       "Decreased",
+       "Increased"
+      ],
+      [
+       "Pressure-volume curve",
+       "Shifted up and left, steeper",
+       "Shifted down and right, flatter"
+      ],
+      [
+       "Lung volumes",
+       "TLC, FRC, and RV increased",
+       "TLC, FRC, and RV decreased"
+      ],
+      [
+       "FEV1/FVC",
+       "Decreased (obstructive)",
+       "Normal or increased (restrictive)"
+      ],
+      [
+       "DLCO",
+       "Decreased (lost surface area)",
+       "Decreased (thick membrane, lost capillaries)"
+      ]
+     ],
+     "caption": "Opposite changes in compliance and recoil, but both diseases lower DLCO."
+    },
+    {
+     "type": "p",
+     "text": "In emphysema, the lung expands easily but recoils weakly. Recoil is the force that drives expiratory flow, and the elastic attachments of alveolar walls normally hold small airways open by radial traction. When both are lost, small airways collapse during forced expiration, air is trapped, and the chest becomes hyperinflated. In fibrosis, the stiff lung pulls inward strongly, resting volumes shrink, and each breath needs a larger pressure change, so patients take rapid shallow breaths. High recoil also holds airways wide open, so flow is normal or high for the small lung volume."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: calculating compliance",
+     "text": "Compliance is the change in volume divided by the change in transpulmonary pressure. In a healthy adult, a 500 mL breath needs a pressure change of about 2.5 cm H2O, so compliance is 500 / 2.5 = 200 mL/cm H2O. In emphysema the same 500 mL needs only about 1.5 cm H2O: 500 / 1.5 = about 330 mL/cm H2O, high compliance with little stored recoil to drive exhalation. In fibrosis it needs about 7 cm H2O: 500 / 7 = about 70 mL/cm H2O, low compliance and more work per breath. The numbers are illustrative."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-09-01-C04",
+   "obj": "PU-9.4",
+   "title": "Vitamin A and airway epithelium; fat-soluble vitamin loss in cystic fibrosis",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The conducting airways are lined by pseudostratified ciliated columnar epithelium with goblet cells, the working surface of the mucociliary escalator. Keeping that lining differentiated requires retinoic acid, the active acid form of vitamin A. Retinoic acid enters the nucleus and binds retinoic acid receptors (RARs), which pair with retinoid X receptors (RXRs) on DNA response elements and switch on genes for ciliated and mucus-secreting differentiation while suppressing genes for keratinizing squamous cells."
+    },
+    {
+     "type": "flow",
+     "title": "Vitamin A deficiency and respiratory infection",
+     "steps": [
+      "Low retinol intake or absorption",
+      "Too little retinoic acid for RAR and RXR signaling",
+      "Basal cells differentiate into keratinizing squamous cells",
+      "Cilia and goblet cells are lost",
+      "Mucociliary clearance fails and mucosal immunity weakens",
+      "More frequent and more severe respiratory infections"
+     ],
+     "caption": "The same switch to keratinizing epithelium in the conjunctiva produces xerophthalmia and Bitot spots."
+    },
+    {
+     "type": "p",
+     "text": "Squamous metaplasia trades function for toughness: the new epithelium resists abrasion but cannot move mucus, so bacteria and debris stay in the airways. Vitamin A deficiency also impairs mucosal IgA responses and other immune functions, which is why it raises the severity and mortality of measles and lower respiratory infections in children. The metaplasia is reversible when retinoic acid is restored. Note that cigarette smoke causes a similar squamous metaplasia by chronic injury, not by vitamin deficiency."
+    },
+    {
+     "type": "p",
+     "text": "Vitamins A, D, E, and K are absorbed only with dietary fat. Pancreatic lipase and colipase digest triglycerides, bile salts gather the products and the vitamins into micelles, enterocytes absorb them, and they leave in chylomicrons through the lymphatics. Anything that blocks fat digestion therefore blocks all four vitamins at once."
+    },
+    {
+     "type": "p",
+     "text": "In cystic fibrosis, defective CFTR in pancreatic duct cells cannot secrete chloride and bicarbonate, so ductal secretions become thick, protein-rich, and acidic. They plug the ducts, the acini are destroyed and replaced by fibrosis and fat, and most patients (about 85% to 90%) have exocrine pancreatic insufficiency from infancy. The enzymes that do reach the duodenum work poorly, because without bicarbonate the duodenal pH stays low, which inactivates lipase and precipitates bile acids. The result is steatorrhea and malabsorption of fat-soluble vitamins, sometimes compounded by CF liver disease."
+    },
+    {
+     "type": "table",
+     "title": "Fat-soluble vitamin deficiencies and their mechanisms",
+     "cols": [
+      "Vitamin",
+      "Key function",
+      "Deficiency findings"
+     ],
+     "rows": [
+      [
+       "A (retinol)",
+       "11-cis retinal in rhodopsin; retinoic acid for epithelial differentiation",
+       "Night blindness, xerophthalmia, squamous metaplasia, infections"
+      ],
+      [
+       "D (calciferol)",
+       "Calcitriol raises intestinal calcium and phosphate absorption",
+       "Rickets in children, osteomalacia in adults, low bone density"
+      ],
+      [
+       "E (tocopherol)",
+       "Chain-breaking antioxidant in membranes",
+       "Hemolytic anemia, spinocerebellar ataxia, peripheral neuropathy"
+      ],
+      [
+       "K (phylloquinone)",
+       "Cofactor for gamma-carboxylation of factors II, VII, IX, X and proteins C and S",
+       "Bleeding, prolonged PT"
+      ]
+     ],
+     "caption": "All four fall together whenever fat digestion or absorption fails."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-09-01-C05",
+   "obj": "PU-9.5",
+   "title": "Oxidant lung injury from hyperoxia and smoke, and the antioxidant enzymes",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Complete reduction of O2 to water takes four electrons, delivered together by cytochrome c oxidase. When O2 accepts electrons one at a time, it forms reactive oxygen species (ROS): one electron gives superoxide, two give hydrogen peroxide, and three give the hydroxyl radical, usually produced when hydrogen peroxide reacts with ferrous iron (the Fenton reaction). The hydroxyl radical is the most damaging and no enzyme removes it, so cells protect themselves by removing its precursors and keeping iron bound."
+    },
+    {
+     "type": "p",
+     "text": "The lung faces more oxygen than any other tissue. Normally, a small fraction of electrons leak from mitochondrial complexes I and III to form superoxide, and phagocyte NADPH oxidase generates ROS on purpose to kill microbes. Breathing a high inspired O2 fraction (FiO2) raises tissue PO2, and mitochondrial superoxide production rises with it. Cigarette smoke delivers very large numbers of free radicals in its gas phase, and quinones in its tar phase cycle continuously to make superoxide and hydrogen peroxide; smoke also recruits neutrophils whose respiratory burst adds more."
+    },
+    {
+     "type": "p",
+     "text": "ROS attack polyunsaturated fatty acids in membranes, starting chain reactions of lipid peroxidation; they oxidize proteins (including methionine 358 of AAT, C02) and damage DNA. The most vulnerable cells are the thin type I pneumocytes and the capillary endothelium. Their injury opens the alveolar capillary barrier, protein-rich fluid floods the alveoli, hyaline membranes form, and surfactant is inactivated: diffuse alveolar damage. If exposure continues, type II cells proliferate and fibroblasts lay down collagen. Prolonged high FiO2 can cause this pattern in adults, and in preterm infants, whose antioxidant enzymes mature late in gestation along with surfactant, oxygen injury contributes to bronchopulmonary dysplasia. High FiO2 also causes absorption atelectasis, a separate mechanism in which O2 replacing nitrogen is absorbed from poorly ventilated alveoli until they collapse."
+    },
+    {
+     "type": "table",
+     "title": "Antioxidant defenses of the lung",
+     "cols": [
+      "Defense",
+      "Reaction or action",
+      "Cofactor or source"
+     ],
+     "rows": [
+      [
+       "Superoxide dismutase (SOD)",
+       "2 superoxide + 2 H+ to hydrogen peroxide + O2",
+       "Copper and zinc (cytosolic SOD1, extracellular SOD3); manganese (mitochondrial SOD2)"
+      ],
+      [
+       "Catalase",
+       "2 hydrogen peroxide to 2 H2O + O2",
+       "Heme iron; located mainly in peroxisomes"
+      ],
+      [
+       "Glutathione peroxidase",
+       "Hydrogen peroxide or lipid peroxides + 2 GSH to water or alcohols + GSSG",
+       "Selenium as selenocysteine in the active site"
+      ],
+      [
+       "Glutathione reductase",
+       "GSSG + NADPH to 2 GSH",
+       "FAD (riboflavin); NADPH from glucose-6-phosphate dehydrogenase"
+      ],
+      [
+       "Vitamin E",
+       "Breaks lipid peroxidation chains in membranes",
+       "Diet; regenerated by vitamin C"
+      ],
+      [
+       "Vitamin C and glutathione",
+       "Water-soluble scavengers in epithelial lining fluid",
+       "Diet; glutathione made by cells"
+      ]
+     ],
+     "caption": "GSH is reduced glutathione; GSSG is its oxidized disulfide form."
+    },
+    {
+     "type": "flow",
+     "title": "Removing superoxide and hydrogen peroxide",
+     "steps": [
+      "O2 gains one electron, forming superoxide",
+      "SOD converts superoxide to hydrogen peroxide",
+      "Catalase or glutathione peroxidase converts hydrogen peroxide to water",
+      "Glutathione peroxidase oxidizes GSH to GSSG",
+      "Glutathione reductase regenerates GSH using NADPH"
+     ],
+     "caption": "Removing hydrogen peroxide quickly also denies iron the substrate for hydroxyl radical formation."
+    },
+    {
+     "type": "p",
+     "text": "Selenium deficiency lowers glutathione peroxidase activity, and copper or zinc deficiency lowers SOD1 and SOD3. NADPH supply ties the system to the pentose phosphate pathway, so G6PD deficiency limits glutathione regeneration. Catalase and glutathione peroxidase both remove hydrogen peroxide, but only glutathione peroxidase needs selenium and only it reduces lipid peroxides in membranes."
+    },
+    {
+     "type": "stop",
+     "predict": "A patient with selenium deficiency is exposed to a high FiO2. Which reaction slows, and which product accumulates?",
+     "explain": "Glutathione peroxidase activity falls, so hydrogen peroxide and lipid peroxides are cleared more slowly, more hydroxyl radical forms through Fenton chemistry, and lipid peroxidation spreads. Catalase still works but cannot reduce lipid peroxides.",
+     "check": "Compare with the antioxidant table and the flow of peroxide removal."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RESP-09-01-C06",
+   "obj": "PU-9.6",
+   "title": "Mucin structure, mucus clearance, chronic bronchitis, and cystic fibrosis",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Airway mucus is a gel that traps inhaled particles and microbes so cilia can carry them up to the pharynx. Its gel-forming molecules are mucins, very large glycoproteins of which up to about 80% of the mass is carbohydrate. The main airway mucins are MUC5AC, made mainly by goblet cells of the surface epithelium, and MUC5B, made mainly by mucous cells of the submucosal glands."
+    },
+    {
+     "type": "p",
+     "text": "The mucin protein core contains long tandem repeat domains rich in serine, threonine, and proline. In the Golgi apparatus, N-acetylgalactosamine is attached to the hydroxyl groups of serine and threonine (O-linked glycosylation, in contrast to the N-linked glycosylation on asparagine that starts in the ER), and hundreds of branching sugar chains are built outward, many ending in negatively charged sialic acid or sulfate. The result is a stiff bottlebrush that binds large amounts of water. Cysteine-rich ends join mucins end to end by disulfide bonds into long polymers. Mucins are stored in secretory granules in a compact form in which calcium shields their negative charges; at release, calcium is exchanged and the molecules expand many hundredfold into gel."
+    },
+    {
+     "type": "p",
+     "text": "Clearance depends on two layers of airway surface liquid. A watery periciliary layer, about the height of an extended cilium, lets cilia beat freely, and the mucus gel rides on top. Hydration of both is controlled by ion transport across the epithelium: CFTR secretes chloride and bicarbonate, water follows, and the epithelial sodium channel (ENaC) absorbs sodium, which pulls water back. Too much mucus or too little water stops the escalator."
+    },
+    {
+     "type": "table",
+     "title": "Two ways mucus clearance fails",
+     "cols": [
+      "Feature",
+      "Chronic bronchitis",
+      "Cystic fibrosis"
+     ],
+     "rows": [
+      [
+       "Primary problem",
+       "Too much mucus",
+       "Too little water in the mucus and periciliary layer"
+      ],
+      [
+       "Cause",
+       "Chronic irritation, mainly smoking",
+       "Loss-of-function CFTR mutations (PU-10)"
+      ],
+      [
+       "Structural change",
+       "Submucosal gland hyperplasia (Reid index above 0.4); goblet cell increase in small airways",
+       "Dehydrated, adherent mucus plugs; later bronchiectasis"
+      ],
+      [
+       "Ciliary function",
+       "Cilia damaged by smoke; ciliated cells reduced",
+       "Cilia normal but flattened by a collapsed periciliary layer"
+      ],
+      [
+       "Infection pattern",
+       "Recurrent bacterial exacerbations",
+       "Staphylococcus aureus early; Pseudomonas aeruginosa later"
+      ],
+      [
+       "Clinical definition or clue",
+       "Productive cough at least 3 months in each of 2 consecutive years",
+       "Onset in childhood with pancreatic insufficiency"
+      ]
+     ],
+     "caption": "Chronic bronchitis is a clinical diagnosis; the Reid index is its pathologic correlate."
+    },
+    {
+     "type": "p",
+     "text": "In chronic bronchitis, smoke and inflammatory mediators induce mucin gene expression and gland enlargement, and neutrophil elastase (C02) is itself a strong stimulus for mucus secretion. Excess mucus plugs small airways, causing ventilation-perfusion mismatch, hypoxemia, and often CO2 retention."
+    },
+    {
+     "type": "flow",
+     "title": "CFTR loss and mucus plugging",
+     "steps": [
+      "Defective CFTR: chloride and bicarbonate secretion lost",
+      "Sodium absorption through ENaC continues unopposed",
+      "Airway surface liquid shrinks; periciliary layer collapses",
+      "Low bicarbonate leaves mucins poorly expanded and sticky",
+      "Mucus adheres to the epithelium; cilia cannot move it",
+      "Bacteria colonize; neutrophil DNA adds viscosity"
+     ],
+     "caption": "Infection and inflammation then cause the airway wall destruction of bronchiectasis."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "One cell type and one exposure tie this chapter together. The type II pneumocyte makes surfactant, renews type I cells after oxidant injury, and its maturity depends on endocrine signals, linking embryology and endocrinology to neonatal lung disease. Cigarette smoke links nearly every other section: it recruits neutrophils whose elastase digests elastin and stimulates mucus secretion, it oxidizes AAT, it overwhelms antioxidant enzymes, and it causes squamous metaplasia. The two main inherited disorders, AAT deficiency and cystic fibrosis, show the same failures without smoke, and cystic fibrosis also connects the lung to the pancreas, the gut, and vitamin status."
+  },
+  {
+   "type": "p",
+   "text": "Pathology follows mechanics. Loss of elastin raises compliance and causes obstruction; excess collagen or loss of surfactant lowers compliance and causes restriction; failed clearance causes infection and bronchiectasis. The limits are worth stating: emphysema and chronic bronchitis usually coexist in smokers, and the hormonal control of surfactant is better established for cortisol than for thyroid hormone."
+  }
+ ],
+ "summary": [
+  "Surfactant is mostly lipid; DPPC packs tightly when compressed, so surface tension falls most in small alveoli and the 2T/r pressures equalize.",
+  "Fetal cortisol, with thyroid hormone, drives type II cell maturation and surfactant synthesis; fetal hyperinsulinemia in maternal diabetes antagonizes it.",
+  "An L/S ratio above 2.0 and the presence of phosphatidylglycerol in amniotic fluid indicate fetal lung maturity.",
+  "AAT is a hepatic serpin that traps neutrophil elastase one to one; oxidation of its methionine 358 inactivates it.",
+  "Smoking adds protease and removes functional antiprotease, giving centriacinar upper lobe emphysema; PiZZ AAT deficiency gives panacinar lower lobe emphysema and liver disease.",
+  "Copper-dependent lysyl oxidase starts desmosine cross-links in elastin; elastin loss raises compliance and lowers recoil, and collagen deposition does the opposite.",
+  "Retinoic acid maintains ciliated and goblet cell epithelium through RAR and RXR; deficiency causes squamous metaplasia and more respiratory infections.",
+  "CF pancreatic insufficiency blocks fat digestion and causes deficiency of vitamins A, D, E, and K.",
+  "SOD (copper, zinc, manganese), catalase (heme), and glutathione peroxidase (selenium) remove ROS, with NADPH regenerating glutathione.",
+  "Mucins are heavily O-glycosylated on serine and threonine; chronic bronchitis makes too much mucus and cystic fibrosis makes mucus too dry to clear."
+ ],
+ "sources": [
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Pulmonary Ventilation, section on surfactant, surface tension, and lung compliance"
+  },
+  {
+   "book": "Boron and Boulpaep Medical Physiology",
+   "where": "Mechanics of ventilation and airway surface liquid"
+  },
+  {
+   "book": "Lippincott Illustrated Reviews: Biochemistry",
+   "where": "Fibrous Proteins; Phospholipid, Glycosphingolipid, and Eicosanoid Metabolism; Glycosaminoglycans, Proteoglycans, and Glycoproteins"
+  },
+  {
+   "book": "Lippincott Illustrated Reviews: Biochemistry",
+   "where": "Vitamins; pentose phosphate pathway and NADPH"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "The Lung (obstructive lung diseases, acute lung injury); Diseases of Infancy and Childhood (neonatal respiratory distress syndrome)"
+  },
+  {
+   "book": "Langman's Medical Embryology",
+   "where": "Respiratory System, maturation of the lungs"
+  }
+ ],
+ "verify": [
+  "Surfactant composition figures (DPPC about 40% to 50% by weight, phosphatidylglycerol about 5% to 10% of lipid) vary between sources; confirm the values NABNE expects.",
+  "The gestational ages for type II cell appearance (about 20 to 24 weeks) and adequate surfactant (about 34 to 35 weeks) differ slightly among embryology texts.",
+  "The share of lung recoil attributed to surface tension is quoted from about half to two-thirds; Guyton and Hall gives about two-thirds.",
+  "Thyroid hormone is listed in the competency as promoting surfactant; its role is less well established than cortisol's, so confirm the depth NABNE expects.",
+  "The fraction of CF patients with pancreatic insufficiency (about 85% to 90%) and PiZZ plasma AAT levels (about 10% to 15% of normal) are consensus approximations.",
+  "Compliance values in the worked example are illustrative; normal lung compliance is quoted as about 200 mL/cm H2O for the lungs alone (Guyton and Hall) and lower for lungs and chest wall together.",
+  "Confirm whether NABNE expects mucin gene names (MUC5AC, MUC5B), SOD isoform numbers, and the eponym Fenton reaction, or only the descriptive terms.",
+  "No diagram names were used; a future schematic of the airway surface liquid (periciliary layer and mucus gel with CFTR and ENaC) would help, requested as airway-surface-liquid."
+ ]
+}

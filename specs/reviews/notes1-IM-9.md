@@ -1,0 +1,12 @@
+# Review log: notes/chapters/IM-9.json (Phase 1)
+
+- Overview connections: corrected wrong unit cross-references. "Microcirculation (CV-10)" is now "Capillary fluid exchange (CV-11)" (CV-11.5 holds the Starling equation; CV-10 is lymphatic vessels and organs). "Edema and heart failure (CV-11)" is now "(CV-18-B, CV-18-H)". "Secondary lymphoid organs (IM-4, IM-11)" is now "Lymphatic drainage and lymph nodes (IM-4, IM-8)" (IM-11 is lymph biochemistry). "Gastrointestinal absorption" is now "Lymph biochemistry (IM-11)", the unit that teaches chylomicron entry into lacteals.
+- Overview prerequisites: lymph node structure and recirculation now points to IM-2 and IM-8 instead of IM-4 (drainage only).
+- C01 Starling table: renamed the last column from "Change that raises lymph load" to "Change that raises net filtration", since lymphatic block raises interstitial protein and filtration but does not raise lymph load.
+- C03 opening paragraph: interstitial pressure corrected from "near zero" to "slightly negative", consistent with the -3 mmHg value in C01.
+- Length offsets: tightened four sentences (C01 closing paragraph, C02 protein return sentence, C03 lymph flow sentence, integration paragraph 2) with no change in meaning.
+- Confirmed against Guyton and Hall, Boron and Boulpaep, Robbins, Langman, and Jawetz: Starling values and the worked example arithmetic (13 out, 7 in, 0.3 mmHg mean), thoracic duct flow (about 100 mL/h plus 20 mL/h elsewhere, 2 to 3 L/day), lymph protein (limb about 2, intestine 3 to 4, liver up to 6, thoracic duct 3 to 5 g/dL), two thirds of lymph from liver and intestine, lymphatic capillary structure, 20 fold lymph flow rise to a plateau near 0 to +2 mmHg, safety factors 3, 7, 7 (about 17 mmHg), 24 hour fatality estimate, respiratory pump direction, edema mechanism table, peau d'orange, lymphangiosarcoma, W. bancrofti life cycle and hydrocele, Milroy disease (autosomal dominant FLT4, VEGFR3), Turner syndrome jugular lymph sac failure with cystic hygroma and webbed neck.
+- Each section covers its full competency (IM-9.1 to IM-9.4); no treatment content; STOP prompts answerable and check targets correct; sources are real chapter titles or plain section names; verify list honest and unchanged; no dashes, italics, or banned phrases.
+- Facts corrected: 2 (unit cross-references, interstitial pressure wording) plus 1 table label. Sections expanded: 0. Items moved to verify: 0.
+- Length: 3500 words before review, 3497 after (not lengthened).
+- Checker: 0 errors, 0 warnings.

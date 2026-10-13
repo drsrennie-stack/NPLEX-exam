@@ -1,0 +1,517 @@
+{
+ "unit": "IM-15-E",
+ "chapter_id": "NPLEX-P1-IMMU-15",
+ "topic_id": "NPLEX-P1-IMMU-15-05",
+ "title": "Diseases of Amyloid",
+ "subject": "Immune System (IMMU)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "Amyloidosis is a group of diseases in which a normally soluble protein misfolds, assembles into insoluble fibrils, and is deposited outside cells, where it stiffens organs and crowds out working tissue. This chapter explains what makes a deposit amyloid, how it is recognized and confirmed on biopsy, and how the source protein decides which organs fail. It compares primary (AL) amyloidosis from a plasma cell clone with secondary (AA) amyloidosis from chronic inflammation, then matches the other important amyloid proteins to their settings. Board questions usually describe an organ pattern or an underlying disease and ask for the protein, the stain, or the expected finding, so the aim is to reason from precursor protein to clinical picture.",
+  "prerequisites": [
+   "Protein secondary structure: alpha helices and beta-pleated sheets",
+   "Immunoglobulin structure: heavy and light chains, variable and constant regions",
+   "Plasma cell differentiation and the meaning of a monoclonal protein",
+   "The acute-phase response and the cytokines IL-1, IL-6, and TNF",
+   "The glomerular filtration barrier and the definition of nephrotic syndrome"
+  ],
+  "connections": [
+   {
+    "to": "Innate and adaptive immune activation (IM-13)",
+    "how": "Inflammasome signaling and cytokine-driven acute-phase protein synthesis are the upstream events of AA amyloidosis and familial Mediterranean fever."
+   },
+   {
+    "to": "Blood cells and plasma (HE-2) and plasma cell neoplasms",
+    "how": "AL amyloid comes from the same kind of clonal plasma cell population seen in monoclonal gammopathy and multiple myeloma."
+   },
+   {
+    "to": "Glomerular diseases (UR-12-A)",
+    "how": "Amyloid is a cause of nephrotic syndrome whose glomerular deposits are Congo red positive, unlike other causes."
+   },
+   {
+    "to": "Cardiomyopathies",
+    "how": "AL and transthyretin amyloid are the classic infiltrative causes of restrictive cardiomyopathy with thick walls and low ECG voltage."
+   },
+   {
+    "to": "Neurodegeneration and endocrine pathology",
+    "how": "Abeta in Alzheimer disease, calcitonin in medullary thyroid carcinoma, and amylin in type 2 diabetes are localized amyloids made by the local cells."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Amyloid",
+    "def": "Extracellular deposit of insoluble protein fibrils built from cross-beta-pleated sheets, identified by apple-green birefringence after Congo red staining."
+   },
+   {
+    "term": "Cross-beta structure",
+    "def": "Arrangement in which beta strands run perpendicular to the long axis of the fibril, stacking into a rigid, protease-resistant core."
+   },
+   {
+    "term": "Congo red",
+    "def": "A dye that binds in an ordered way along amyloid fibrils, staining them red in ordinary light."
+   },
+   {
+    "term": "Apple-green birefringence",
+    "def": "The green color of Congo red stained amyloid under polarized light, which confirms that a deposit is amyloid."
+   },
+   {
+    "term": "Serum amyloid P component",
+    "def": "A plasma pentraxin that binds all amyloid fibril types and protects them from breakdown."
+   },
+   {
+    "term": "Plasma cell dyscrasia",
+    "def": "A clonal expansion of plasma cells that secretes a single (monoclonal) immunoglobulin or light chain."
+   },
+   {
+    "term": "Free light chain",
+    "def": "An immunoglobulin kappa or lambda light chain circulating unbound to heavy chain; in urine it is called a Bence Jones protein."
+   },
+   {
+    "term": "Serum amyloid A",
+    "def": "An acute-phase apolipoprotein made by hepatocytes under IL-1, IL-6, and TNF; its N-terminal fragment forms AA amyloid."
+   },
+   {
+    "term": "Transthyretin",
+    "def": "A liver-made tetrameric plasma protein that carries thyroxine and retinol-binding protein; its misfolded monomers form ATTR amyloid."
+   },
+   {
+    "term": "Restrictive cardiomyopathy",
+    "def": "Heart muscle disease in which stiff ventricles fill poorly in diastole while systolic function is relatively preserved."
+   },
+   {
+    "term": "Nephrotic syndrome",
+    "def": "Proteinuria above about 3.5 g per day with hypoalbuminemia, edema, and hyperlipidemia, caused by injury to the glomerular filtration barrier."
+   },
+   {
+    "term": "Autoinflammatory disease",
+    "def": "A disorder of innate immunity, such as familial Mediterranean fever, with recurrent inflammation but no autoantibodies or autoreactive T cells."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-IMMU-15-05-C01",
+   "obj": "IM-15-E.1",
+   "title": "What amyloid is and how it is diagnosed",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Amyloid is not a single protein but a shared physical form that more than 30 unrelated proteins can adopt. A newly made protein normally folds into its native shape, and molecular chaperones, the ubiquitin-proteasome system, and autophagy refold or destroy molecules that misfold. Amyloid forms when misfolded molecules outpace these defenses: when a precursor is made in excess (light chains from a plasma cell clone, serum amyloid A in chronic inflammation), when a mutation destabilizes it (hereditary transthyretin), when its clearance fails (beta2-microglobulin in kidney failure), or with aging (wild-type transthyretin)."
+    },
+    {
+     "type": "p",
+     "text": "Misfolded molecules expose hydrophobic segments that stack into beta-pleated sheets whose strands run perpendicular to the long axis of the fibril, the cross-beta structure. On electron microscopy the fibrils are nonbranching, about 7.5 to 10 nm wide, and of indefinite length. Tight, regular stacking makes them insoluble and resistant to proteolysis, so they accumulate instead of being cleared. About 95% of a deposit is fibril protein; the remainder is serum amyloid P component and glycosaminoglycans such as heparan sulfate, which bind the fibrils and help stabilize them."
+    },
+    {
+     "type": "flow",
+     "title": "How a soluble protein becomes an amyloid deposit",
+     "steps": [
+      "Precursor protein is in excess, mutant, or poorly cleared",
+      "Partial unfolding exposes hydrophobic segments",
+      "Monomers assemble into soluble oligomers",
+      "Oligomers stack into cross-beta fibrils",
+      "Serum amyloid P and glycosaminoglycans coat the fibrils",
+      "Protease-resistant deposits accumulate outside cells"
+     ],
+     "caption": "Deposits grow when production of misfolded protein exceeds clearance. Soluble precursors and oligomers can also be directly toxic, as AL light chains are to cardiac myocytes."
+    },
+    {
+     "type": "p",
+     "text": "Deposits damage organs mainly by physical means. They are laid down between cells, along basement membranes, and in vessel walls, where they compress parenchymal cells into atrophy, stiffen tissue, and weaken small vessels. In the kidney they collect in the mesangium and along glomerular capillary loops; in the heart, between myocytes; in the liver, in the space of Disse; and in the spleen, in follicles or the red pulp. Affected organs are often enlarged, firm, and waxy."
+    },
+    {
+     "type": "h",
+     "text": "Recognizing amyloid in tissue"
+    },
+    {
+     "type": "p",
+     "text": "On hematoxylin and eosin (H&E) staining, amyloid is pink, amorphous, glassy extracellular material that can be confused with collagen or other hyaline deposits. Congo red dye binds along the ordered fibrils. In ordinary light the deposits look red to pink; under polarized light the aligned dye gives apple-green birefringence, and this finding defines amyloid. Because the stain does not reveal the precursor, the protein is then typed by immunohistochemistry or, most reliably, by mass spectrometry, and the type defines the disease."
+    },
+    {
+     "type": "table",
+     "title": "Where to biopsy for amyloid",
+     "cols": [
+      "Site",
+      "Advantage",
+      "Limitation"
+     ],
+     "rows": [
+      [
+       "Abdominal fat pad aspirate",
+       "Simple and low risk; samples small vessels in systemic disease",
+       "Can miss deposits, more often in ATTR than AL; a negative result does not exclude amyloid"
+      ],
+      [
+       "Bone marrow, minor salivary gland, or rectal biopsy",
+       "Easily reached tissue; marrow also shows the plasma cell clone in AL",
+       "Moderate sensitivity"
+      ],
+      [
+       "Affected organ (kidney, heart, liver, nerve)",
+       "Highest yield; proves that organ is involved",
+       "Invasive; fragile vessels raise bleeding risk"
+      ]
+     ],
+     "caption": "A screening site is tried first in suspected systemic disease; an organ biopsy is used when screening is negative but suspicion remains."
+    },
+    {
+     "type": "stop",
+     "predict": "A glomerulus contains pink acellular material on H&E. It looks faintly red with Congo red but shows no green color under polarized light. Can you call it amyloid?",
+     "explain": "No. Many hyaline deposits are pink on H&E, and red color alone is not specific. Apple-green birefringence arises only when dye is aligned along ordered cross-beta fibrils, so it is the required finding.",
+     "check": "Compare with the paragraph on recognizing amyloid in tissue."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-15-05-C02",
+   "obj": "IM-15-E.2",
+   "title": "Primary (AL) amyloidosis",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Primary amyloidosis, or AL (amyloid light chain) amyloidosis, arises from a plasma cell dyscrasia: a clone of plasma cells that secretes a monoclonal immunoglobulin light chain in excess of heavy chain. Whole free light chains, or N-terminal fragments containing the variable region, misfold and form fibrils. Lambda light chains are involved about three times as often as kappa. The clone is usually small, with only modest marrow plasmacytosis, and most patients do not have multiple myeloma; conversely, about 5% to 15% of patients with myeloma develop AL amyloid. Because free light chains reach every tissue through the blood, AL is systemic and characteristically involves the heart, kidney, nerves, soft tissues, and vessel walls."
+    },
+    {
+     "type": "flow",
+     "title": "Pathogenesis of AL amyloidosis",
+     "steps": [
+      "Clonal plasma cells expand in the bone marrow",
+      "Excess free monoclonal light chain enters plasma (usually lambda)",
+      "Variable region fragments misfold and aggregate",
+      "Fibrils deposit in organs and vessel walls throughout the body",
+      "Stiff heart, leaky glomeruli, compressed nerves, fragile vessels"
+     ],
+     "caption": "The clone may be too small to cause myeloma, yet its light chain alone is enough to produce systemic amyloid."
+    },
+    {
+     "type": "p",
+     "text": "The clone is found with serum and urine protein electrophoresis with immunofixation and the serum free light chain assay; free light chains in urine are Bence Jones proteins. The normal serum kappa to lambda ratio is about 0.26 to 1.65, so a low ratio with a raised lambda level points to a lambda clone. A monoclonal protein does not prove AL, because monoclonal gammopathy is common in older adults who may have transthyretin amyloid instead, so the deposit itself must be typed."
+    },
+    {
+     "type": "table",
+     "title": "AL amyloidosis: findings explained by mechanism",
+     "cols": [
+      "Site",
+      "Finding",
+      "Mechanism"
+     ],
+     "rows": [
+      [
+       "Heart",
+       "Restrictive cardiomyopathy: heart failure with preserved ejection fraction, low-voltage QRS, AV block, atrial fibrillation",
+       "Interstitial deposits stiffen the ventricles and replace myocytes and conduction tissue"
+      ],
+      [
+       "Kidney",
+       "Nephrotic syndrome: proteinuria above about 3.5 g/day, hypoalbuminemia, edema, hyperlipidemia",
+       "Mesangial and capillary loop deposits disrupt the glomerular filtration barrier"
+      ],
+      [
+       "Tongue",
+       "Macroglossia, with tooth indentations along the lateral borders",
+       "Deposits enlarge the tongue muscle and stroma"
+      ],
+      [
+       "Skin and small vessels",
+       "Periorbital purpura after coughing or straining; easy bruising",
+       "Deposits make vessel walls fragile; factor X binding to fibrils can add an acquired factor X deficiency"
+      ],
+      [
+       "Wrist",
+       "Carpal tunnel syndrome",
+       "Deposits in the flexor retinaculum and tendon sheaths compress the median nerve"
+      ],
+      [
+       "Peripheral and autonomic nerves",
+       "Symmetric painful sensory neuropathy; orthostatic hypotension, gastrointestinal dysmotility",
+       "Deposits in nerves and their vessels injure small fibers first"
+      ],
+      [
+       "Liver",
+       "Hepatomegaly with raised alkaline phosphatase",
+       "Deposits fill the space of Disse"
+      ]
+     ],
+     "caption": "Most findings follow from stiffness, compression, or vessel fragility; the heart and kidney determine outcome."
+    },
+    {
+     "type": "p",
+     "text": "The heart decides survival in AL. Deposits between myocytes thicken the ventricular walls, but this is infiltration, not hypertrophy: working muscle is unchanged or lost, so the ECG shows low QRS voltage while the echocardiogram shows thick walls. The stiff ventricle fills poorly, so filling pressures and jugular venous pressure rise, the atria enlarge, and stroke volume falls even while ejection fraction is preserved early. Infiltration of the conduction system explains AV block and atrial arrhythmias."
+    },
+    {
+     "type": "example",
+     "title": "Thick walls with low voltage",
+     "text": "A 62-year-old woman has dyspnea and edema. Echocardiography shows a 16 mm left ventricular wall (normal up to about 11 mm) with preserved ejection fraction, yet QRS voltage is low. Urine protein is 6 g/day, and she has periorbital purpura. Step 1: hypertensive hypertrophy adds muscle and raises voltage, so thick walls with low voltage mean the wall is thickened by something that is not muscle, an infiltrate. Step 2: heart, glomeruli, and small vessels together suggest a circulating precursor, the pattern of a light chain. Step 3: confirm amyloid with Congo red on a fat pad aspirate and find the clone; a low kappa to lambda ratio supports AL. Wild-type transthyretin amyloid would not explain the nephrotic syndrome."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-15-05-C03",
+   "obj": "IM-15-E.3",
+   "title": "Secondary (AA) amyloidosis",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Serum amyloid A (SAA) is an acute-phase apolipoprotein that travels with high-density lipoprotein. When IL-6, IL-1, and TNF signal inflammation, hepatocytes raise SAA synthesis, and plasma levels can climb up to about 1,000-fold within a day or two. Normally the excess is cleared once inflammation settles. When inflammation persists for years, SAA stays high, and incomplete breakdown by macrophage proteases leaves an N-terminal fragment of about 76 amino acids, the AA protein, which forms fibrils. Secondary (reactive systemic) amyloidosis is therefore a complication of another disease, and its risk tracks how high and how long SAA stays elevated."
+    },
+    {
+     "type": "flow",
+     "title": "From chronic inflammation to nephrotic syndrome",
+     "steps": [
+      "Persistent inflammation: RA, IBD, chronic infection, or FMF",
+      "Macrophages release IL-1, IL-6, and TNF",
+      "Hepatocytes sustain high serum amyloid A production",
+      "Incomplete proteolysis leaves the N-terminal AA fragment",
+      "AA fibrils deposit in kidney, liver, spleen, and adrenals",
+      "Glomerular deposits cause proteinuria and nephrotic syndrome"
+     ],
+     "caption": "The cytokines that drive the underlying disease are the same ones that drive SAA production, so uncontrolled inflammation feeds amyloid formation."
+    },
+    {
+     "type": "table",
+     "title": "Settings of AA amyloidosis",
+     "cols": [
+      "Category",
+      "Examples",
+      "Why SAA stays high"
+     ],
+     "rows": [
+      [
+       "Chronic inflammatory arthritis",
+       "Rheumatoid arthritis, ankylosing spondylitis, juvenile idiopathic arthritis",
+       "Continuous cytokine production in inflamed synovium"
+      ],
+      [
+       "Inflammatory bowel disease",
+       "Crohn disease more often than ulcerative colitis",
+       "Chronic transmural inflammation"
+      ],
+      [
+       "Chronic infection",
+       "Tuberculosis, bronchiectasis, chronic osteomyelitis, skin abscesses from injection drug use",
+       "Unresolved infection sustains the acute-phase response"
+      ],
+      [
+       "Autoinflammatory disease",
+       "Familial Mediterranean fever and other periodic fever syndromes",
+       "Inflammasome overactivity releases IL-1 in repeated attacks"
+      ],
+      [
+       "Some tumors",
+       "Renal cell carcinoma, Hodgkin lymphoma",
+       "Tumor-associated cytokines"
+      ]
+     ],
+     "caption": "Any disease that sustains the acute-phase response for years can lead to AA amyloid."
+    },
+    {
+     "type": "p",
+     "text": "Familial Mediterranean fever (FMF) is an autosomal recessive autoinflammatory disease most common in people of Sephardic Jewish, Armenian, Turkish, and Arab ancestry. The MEFV gene encodes pyrin, and disease-causing mutations allow inappropriate activation of the pyrin inflammasome, which activates caspase-1 and releases IL-1 beta. Patients have attacks of fever lasting about 1 to 3 days with sterile serositis (peritonitis causing severe abdominal pain, pleuritis), monoarthritis, and an erysipelas-like rash on the lower legs, separated by symptom-free intervals. SAA rises with each attack and often stays raised between attacks, so AA amyloid of the kidney is the main long-term threat. Because the inflammation comes from innate immunity, with no autoantibodies or autoreactive T cells, FMF is autoinflammatory rather than autoimmune."
+    },
+    {
+     "type": "p",
+     "text": "The kidney is the dominant target of AA amyloid. Deposits in the mesangium and along glomerular capillary walls damage the filtration barrier, causing proteinuria that often reaches the nephrotic range, followed by progressive loss of filtration as glomeruli are replaced. The kidneys are often normal in size or enlarged, though long-standing disease shrinks them. The liver, spleen, adrenal glands, and gut are also involved, but clinically important heart disease is uncommon and macroglossia is characteristic of AL rather than AA, which helps separate the two."
+    },
+    {
+     "type": "table",
+     "title": "AL compared with AA amyloidosis",
+     "cols": [
+      "Feature",
+      "AL (primary)",
+      "AA (secondary)"
+     ],
+     "rows": [
+      [
+       "Precursor",
+       "Monoclonal immunoglobulin light chain",
+       "Serum amyloid A"
+      ],
+      [
+       "Key laboratory clue",
+       "Abnormal free light chain ratio; monoclonal band on immunofixation",
+       "Persistently raised CRP and SAA; known inflammatory disease"
+      ],
+      [
+       "Heart",
+       "Common; main cause of death",
+       "Uncommon"
+      ],
+      [
+       "Kidney",
+       "Nephrotic syndrome common",
+       "Main organ; nephrotic syndrome and kidney failure"
+      ],
+      [
+       "Distinctive findings",
+       "Macroglossia, periorbital purpura, carpal tunnel syndrome, neuropathy",
+       "Findings of the underlying disease"
+      ]
+     ],
+     "caption": "Both are systemic and cause nephrotic syndrome; precursor and organ pattern separate them."
+    },
+    {
+     "type": "stop",
+     "predict": "A man with 15 years of poorly controlled rheumatoid arthritis develops edema and 6 g/day of proteinuria. His serum free light chain ratio is normal and immunofixation shows no monoclonal band. What protein is in his glomeruli?",
+     "explain": "AA protein from serum amyloid A. Years of IL-1, IL-6, and TNF drive hepatic SAA, and the kidney is the main AA target. No light chain clone argues against AL.",
+     "check": "Compare with the AA pathogenesis flow and the AL versus AA table."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-15-05-C04",
+   "obj": "IM-15-E.4",
+   "title": "Other amyloid proteins and their settings",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Each amyloid type is named A followed by an abbreviation of its precursor. Systemic types circulate and deposit in many organs; localized types are made and deposited in one tissue."
+    },
+    {
+     "type": "table",
+     "title": "Amyloid proteins and their settings",
+     "cols": [
+      "Type",
+      "Precursor",
+      "Setting",
+      "Main deposits and findings"
+     ],
+     "rows": [
+      [
+       "AL",
+       "Immunoglobulin light chain",
+       "Plasma cell dyscrasia, sometimes multiple myeloma",
+       "Heart, kidney, tongue, nerves, skin vessels"
+      ],
+      [
+       "AA",
+       "Serum amyloid A",
+       "Chronic inflammation, FMF",
+       "Kidney, liver, spleen, adrenals"
+      ],
+      [
+       "Abeta2M",
+       "Beta2-microglobulin",
+       "Long-term dialysis",
+       "Synovium, tendons, bone"
+      ],
+      [
+       "ATTR, wild type",
+       "Normal transthyretin",
+       "Older adults, mostly men over 70",
+       "Heart; carpal tunnel syndrome"
+      ],
+      [
+       "ATTR, hereditary",
+       "Mutant transthyretin",
+       "Autosomal dominant mutations",
+       "Peripheral and autonomic nerves, heart"
+      ],
+      [
+       "Abeta",
+       "Amyloid precursor protein",
+       "Alzheimer disease, Down syndrome",
+       "Neuritic plaques; cerebral vessel walls"
+      ],
+      [
+       "ACal",
+       "Calcitonin (procalcitonin)",
+       "Medullary thyroid carcinoma",
+       "Tumor stroma"
+      ],
+      [
+       "AIAPP",
+       "Amylin (islet amyloid polypeptide)",
+       "Type 2 diabetes",
+       "Pancreatic islets"
+      ]
+     ],
+     "caption": "AL, AA, Abeta2M, and ATTR are systemic; Abeta, ACal, and AIAPP are localized."
+    },
+    {
+     "type": "p",
+     "text": "Beta2-microglobulin is the invariant light chain of MHC class I and is shed from all nucleated cells. At about 12 kDa it is freely filtered and is normally reabsorbed and catabolized by the proximal tubule. In kidney failure it accumulates, and conventional dialysis membranes remove it poorly, so after years of dialysis it forms Abeta2M amyloid with a strong affinity for joints and tendons, causing carpal tunnel syndrome, shoulder pain, destructive arthropathy, and bone cysts."
+    },
+    {
+     "type": "p",
+     "text": "Transthyretin is made by the liver and circulates as a tetramer that carries thyroxine and retinol-binding protein, which gives it its name (an older term is prealbumin). Amyloid forms when the tetramer dissociates into monomers that misfold, the rate-limiting step shown below. In wild-type ATTR amyloidosis, normal transthyretin deposits in the hearts of older adults, often after years of bilateral carpal tunnel syndrome. In hereditary ATTR amyloidosis a point mutation destabilizes the tetramer: Val30Met classically causes familial amyloid polyneuropathy with autonomic failure, while Val122Ile, carried by about 3% to 4% of Black Americans, mainly causes late-onset cardiomyopathy. ATTR has no monoclonal protein and rarely causes nephrotic syndrome."
+    },
+    {
+     "type": "flow",
+     "title": "Transthyretin amyloid formation",
+     "steps": [
+      "Liver secretes transthyretin as a stable tetramer",
+      "Aging or a point mutation destabilizes the tetramer",
+      "Tetramer dissociates into monomers",
+      "Monomers partly unfold and aggregate",
+      "Fibrils deposit in heart, ligaments, and nerves"
+     ],
+     "caption": "Tetramer dissociation is the rate-limiting step, so anything that destabilizes the tetramer speeds amyloid formation."
+    },
+    {
+     "type": "p",
+     "text": "Abeta is a 40 to 42 amino acid peptide cut from amyloid precursor protein (APP), a membrane protein encoded on chromosome 21, by sequential beta-secretase and gamma-secretase cleavage; Abeta42 aggregates most readily. It forms the cores of extracellular neuritic plaques in Alzheimer disease and deposits in cortical and leptomeningeal vessels as cerebral amyloid angiopathy, a cause of lobar hemorrhage in older adults. An extra copy of APP explains early Alzheimer disease in Down syndrome. Neurofibrillary tangles are intracellular aggregates of hyperphosphorylated tau, a separate lesion. Endocrine amyloid comes from a cell's own secretory product: calcitonin from the C cells of medullary thyroid carcinoma forms amyloid in the tumor stroma, and amylin, co-secreted with insulin by beta cells, deposits in islets in type 2 diabetes, where it is associated with beta cell loss."
+    },
+    {
+     "type": "example",
+     "title": "Three patients with carpal tunnel syndrome",
+     "text": "Three patients have carpal tunnel syndrome with apple-green birefringent deposits in the flexor retinaculum. Patient 1 has been on hemodialysis for 9 years: failed renal clearance of beta2-microglobulin points to Abeta2M amyloid. Patient 2 is a 78-year-old man who later develops heart failure with thick ventricular walls, low voltage, and no monoclonal protein: aging destabilizes normal transthyretin, so this is wild-type ATTR. Patient 3, a 58-year-old woman with macroglossia, nephrotic syndrome, and a high lambda free light chain, has AL amyloid. The stain is identical in all three; the setting and protein typing identify the disease."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Amyloidosis links biochemistry to pathology through one idea: any protein that is overproduced, destabilized, or poorly cleared can escape protein quality control and fold into the same cross-beta fibril. Immunology supplies the two commonest precursors. A plasma cell clone that would otherwise be a harmless monoclonal gammopathy causes AL amyloid through the physical behavior of its light chain, and the innate cytokines IL-1, IL-6, and TNF that drive rheumatoid arthritis, Crohn disease, chronic infection, and familial Mediterranean fever also drive the hepatic SAA that becomes AA amyloid. Renal physiology explains Abeta2M amyloid, because the proximal tubule normally disposes of beta2-microglobulin."
+  },
+  {
+   "type": "p",
+   "text": "The stain unifies the diagnosis but does not separate the diseases. Congo red with apple-green birefringence proves amyloid; the organ pattern and the precursor decide the type. This matters because the same restrictive cardiomyopathy can come from AL or ATTR, and a monoclonal protein in an older patient can be incidental. The limit of pattern recognition is overlap, so board reasoning should move from the setting to the likely precursor and then to the test that confirms it."
+  }
+ ],
+ "summary": [
+  "Amyloid is an extracellular deposit of insoluble cross-beta-pleated sheet fibrils that resist proteolysis and damage organs by compression, stiffening, and vessel fragility.",
+  "Congo red stains amyloid red; apple-green birefringence under polarized light is the defining finding, and the precursor is then typed by immunohistochemistry or mass spectrometry.",
+  "Abdominal fat pad aspirate is the simple first biopsy in systemic disease, but a negative result does not exclude amyloid; organ biopsy has the highest yield.",
+  "AL amyloid comes from monoclonal free light chains (lambda more than kappa) of a plasma cell dyscrasia; most patients do not have overt multiple myeloma.",
+  "AL predicts restrictive cardiomyopathy with thick walls and low ECG voltage, nephrotic syndrome, macroglossia, periorbital purpura, carpal tunnel syndrome, and neuropathy.",
+  "AA amyloid comes from serum amyloid A, an acute-phase protein driven by IL-1, IL-6, and TNF in years of RA, IBD, chronic infection, or familial Mediterranean fever.",
+  "The kidney is the main target of AA amyloid, presenting as proteinuria and nephrotic syndrome; the heart is rarely significant.",
+  "Familial Mediterranean fever is an autosomal recessive pyrin (MEFV) inflammasome disorder with IL-1 driven fever and serositis, and AA amyloid is its main long-term risk.",
+  "Beta2-microglobulin amyloid follows long-term dialysis; transthyretin amyloid is wild type in the aging heart or hereditary in nerves and heart.",
+  "Localized amyloids come from local products: Abeta in Alzheimer plaques and vessels, calcitonin in medullary thyroid carcinoma, and amylin in type 2 diabetic islets."
+ ],
+ "sources": [
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Diseases of the Immune System, section on amyloidosis"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "The Heart, section on restrictive cardiomyopathy and cardiac amyloidosis"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "The Central Nervous System, section on Alzheimer disease"
+  },
+  {
+   "book": "Abbas, Cellular and Molecular Immunology",
+   "where": "Innate immunity, inflammasomes and the acute-phase response"
+  },
+  {
+   "book": "Lippincott Illustrated Reviews: Biochemistry",
+   "where": "Structure of Proteins, protein misfolding and amyloid"
+  }
+ ],
+ "verify": [
+  "The number of known human amyloid precursor proteins is given as about 30 in older texts and more than 35 in current nomenclature lists; this chapter says more than 30.",
+  "The lambda to kappa ratio in AL amyloidosis (about 3 to 1) and the fraction of myeloma patients who develop AL (about 5% to 15%) vary between sources.",
+  "The normal serum free kappa to lambda ratio of about 0.26 to 1.65 is the widely used assay range; laboratories and kidney failure adjust it.",
+  "Reported sensitivity of abdominal fat pad aspirate differs widely by amyloid type and laboratory; confirm whether NABNE expects a specific figure.",
+  "The Val122Ile transthyretin carrier frequency of about 3% to 4% in Black Americans comes from population studies; confirm the figure if it is tested.",
+  "Confirm whether NABNE Part I expects the current amyloid nomenclature (AL, AA, ATTR, Abeta2M, Abeta, ACal, AIAPP) or older terms such as senile systemic amyloidosis.",
+  "Requested new diagram name for a future revision: congo-red-polarized (amyloid in ordinary light beside the same field under polarized light).",
+  "Transthyretin variants use the older numbering (Val30Met, Val122Ile); current names are V50M and V142I. Confirm which NABNE uses."
+ ]
+}

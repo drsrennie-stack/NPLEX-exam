@@ -1,0 +1,648 @@
+{
+ "unit": "IM-5",
+ "chapter_id": "NPLEX-P1-IMMU-05",
+ "topic_id": "NPLEX-P1-IMMU-05-01",
+ "title": "Humoral and Cell-Mediated Immunity",
+ "subject": "Immunological System (IMMU)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter explains the two effector arms of adaptive immunity. Humoral immunity is carried by antibodies: how they are built, what each isotype does, and how helper T cells turn a low-affinity IgM response into high-affinity, class-switched antibody and memory. Cell-mediated immunity is carried by T cells: how helper subsets direct macrophages, eosinophils, and neutrophils, and how cytotoxic T cells and NK cells kill infected or abnormal cells. Board questions present a serology pattern, an antibody curve, or a pattern of infections and ask you to name the missing molecule, cell, or pathway. Each topic here is taught by mechanism so those patterns can be reasoned out rather than memorized.",
+  "prerequisites": [
+   "Innate recognition, antigen-presenting cells, and costimulation (IM-13)",
+   "MHC class I and class II structure and antigen processing pathways (IM-3)",
+   "Lymph node and spleen architecture: follicles, germinal centers, marginal zone (IM-2, IM-8)",
+   "V(D)J recombination and generation of receptor diversity (IM-12)",
+   "Intrinsic and extrinsic pathways of apoptosis and the caspase cascade"
+  ],
+  "connections": [
+   {
+    "to": "Complement (IM-7)",
+    "how": "IgM and IgG bound to antigen recruit C1q through their Fc regions and start the classical pathway."
+   },
+   {
+    "to": "Cell and cytokine signaling (IM-6)",
+    "how": "The cytokines that define helper subsets also drive inflammation, fever, and the acute phase response."
+   },
+   {
+    "to": "Congenital and acquired immunodeficiency (IM-15-A, IM-15-B)",
+    "how": "Defects in CD40L, FOXP3, STAT3, perforin, or CD4 cells produce infection patterns predicted by the functions taught here."
+   },
+   {
+    "to": "Hypersensitivity diseases (IM-15-C)",
+    "how": "IgE and Th2 cells drive type I reactions, IgG and IgM drive types II and III, and Th1 and CD8 cells drive type IV."
+   },
+   {
+    "to": "Reproductive physiology and the newborn",
+    "how": "Placental transfer of maternal IgG and secretory IgA in breast milk give the infant passive protection, and maternal IgG explains hemolytic disease of the newborn."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Immunoglobulin isotype",
+    "def": "The antibody class (IgM, IgG, IgA, IgE, IgD) set by the constant region of the heavy chain."
+   },
+   {
+    "term": "Complementarity-determining region (CDR)",
+    "def": "One of three hypervariable loops in each variable domain that together form the antigen-binding site."
+   },
+   {
+    "term": "Opsonization",
+    "def": "Coating of a particle by antibody or complement so that phagocytes bind it through Fc or complement receptors and ingest it."
+   },
+   {
+    "term": "Class switch recombination",
+    "def": "DNA recombination that joins the same VDJ exon to a different heavy chain constant gene, changing isotype but not specificity."
+   },
+   {
+    "term": "Somatic hypermutation",
+    "def": "Point mutation of rearranged variable region genes in germinal center B cells, the raw material for affinity maturation."
+   },
+   {
+    "term": "Affinity maturation",
+    "def": "The rise in average antibody affinity over a response as B cells with better-binding receptors are selected in germinal centers."
+   },
+   {
+    "term": "T follicular helper (Tfh) cell",
+    "def": "A CD4 T cell that migrates into B cell follicles and supplies CD40L and cytokines such as IL-21 to germinal center B cells."
+   },
+   {
+    "term": "Avidity",
+    "def": "The total binding strength of a multivalent antibody, which for pentameric IgM greatly exceeds the affinity of a single binding site."
+   },
+   {
+    "term": "Perforin",
+    "def": "A pore-forming protein released from cytotoxic granules that lets granzymes enter the target cell."
+   },
+   {
+    "term": "Antibody-dependent cell-mediated cytotoxicity (ADCC)",
+    "def": "Killing of an IgG-coated target by NK cells that bind the antibody through the Fc receptor CD16."
+   },
+   {
+    "term": "Titer",
+    "def": "The highest dilution of a serum that still gives a positive antibody reaction, a semiquantitative measure of antibody amount."
+   },
+   {
+    "term": "Passive immunity",
+    "def": "Protection from preformed antibody made by another person or animal, immediate in onset but without memory."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-IMMU-05-01-C01",
+   "obj": "IM-5.1",
+   "title": "Immunoglobulin structure: Fab binds, Fc acts",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "An immunoglobulin monomer (IgG, about 150 kDa) is built from two identical heavy chains and two identical light chains joined by disulfide bonds into a Y shape. Each light chain is either kappa or lambda, never both in one molecule, because each B cell expresses a single productively rearranged light chain gene (allelic and light chain isotype exclusion). Each chain is folded into repeating immunoglobulin domains of about 110 amino acids: a light chain has one variable (VL) and one constant (CL) domain, and a heavy chain has one variable (VH) and three constant domains (IgG, IgA, IgD) or four (IgM, IgE)."
+    },
+    {
+     "type": "p",
+     "text": "Within each variable domain, three hypervariable loops called complementarity-determining regions (CDR1 to CDR3) sit between more conserved framework regions. The six CDRs from VH and VL come together at the tip of each arm to form the antigen-binding site. CDR3 is the most variable because it is encoded at the joins created by V(D)J recombination, where nucleotides are added and removed. Because each antibody has two identical arms, an IgG monomer is bivalent."
+    },
+    {
+     "type": "table",
+     "title": "Regions of the immunoglobulin molecule",
+     "cols": [
+      "Region",
+      "Composition",
+      "Function"
+     ],
+     "rows": [
+      [
+       "Fab (fragment antigen binding)",
+       "Whole light chain plus VH and CH1 of the heavy chain",
+       "Binds antigen; Fab alone can neutralize but cannot recruit effector functions"
+      ],
+      [
+       "Hypervariable regions (CDRs)",
+       "Three loops in each VH and VL domain",
+       "Contact the epitope and set specificity"
+      ],
+      [
+       "Hinge",
+       "Proline-rich segment between CH1 and CH2 (IgG, IgA, IgD)",
+       "Flexibility, so both arms can reach epitopes at different spacings"
+      ],
+      [
+       "Fc (fragment crystallizable)",
+       "Paired heavy chain constant domains below the hinge",
+       "Defines isotype; binds C1q, Fc receptors, and FcRn"
+      ]
+     ],
+     "caption": "Papain cleaves above the hinge disulfides and releases two Fab fragments and one Fc; pepsin cleaves below them and leaves one bivalent F(ab')2."
+    },
+    {
+     "type": "p",
+     "text": "The Fc region is what makes binding useful. Antibody bound to a surface brings several Fc regions close together, and that clustering is the signal. C1q, the first component of the classical complement pathway, must bind at least two Fc regions at once (in IgG the CH2 domain; in IgM the CH3 domain), which is why a single soluble IgG does not activate complement but antigen-bound IgG does. Fc gamma receptors on macrophages and neutrophils bind IgG-coated particles and trigger phagocytosis (opsonization), CD16 on NK cells triggers ADCC, and FcεRI on mast cells holds IgE. The neonatal Fc receptor (FcRn) binds the IgG Fc and carries IgG across the placenta and rescues IgG taken up by endothelial cells, returning it to the blood instead of lysosomes, which gives IgG its long half-life."
+    },
+    {
+     "type": "p",
+     "text": "Each B cell first makes a membrane form of its antibody (the B cell receptor, with a transmembrane tail) and, after differentiating into a plasma cell, the secreted form; the switch is made by alternative RNA processing at the 3' end of the heavy chain transcript. Antigenic variants of antibodies are classified as isotypes (heavy chain class), allotypes (inherited allelic differences in constant regions), and idiotypes (the unique shape of one antibody's binding site). A plasma cell clone that overproduces one antibody yields a monoclonal protein, and excess free light chains filtered into urine are Bence Jones proteins."
+    },
+    {
+     "type": "stop",
+     "predict": "A patient's antibody against a toxin is digested with papain. Will the Fab fragments still neutralize the toxin, and will they fix complement?",
+     "explain": "Fab keeps the complete antigen-binding site, so it still binds and blocks the toxin. It has lost the Fc, so it cannot bind C1q or Fc receptors, and complement fixation and opsonization are lost.",
+     "check": "Compare with the table of regions and the paragraph on Fc clustering."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-05-01-C02",
+   "obj": "IM-5.2",
+   "title": "The five isotypes and what each does",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "All five isotypes can carry the same variable region; they differ in the heavy chain constant region (mu, gamma, alpha, epsilon, delta), and that difference decides size, location, half-life, and which effector systems the antibody can engage. A naive mature B cell coexpresses membrane IgM and IgD from one transcript by alternative splicing, because the C-mu and C-delta genes lie next to each other. All other isotypes require class switch recombination (C03)."
+    },
+    {
+     "type": "table",
+     "title": "Comparison of the immunoglobulin isotypes",
+     "cols": [
+      "Isotype",
+      "Form in body",
+      "Approximate adult serum level",
+      "Distinctive functions"
+     ],
+     "rows": [
+      [
+       "IgM",
+       "Pentamer with J chain (10 binding sites); monomer on naive B cells",
+       "About 0.4 to 2.3 g/L",
+       "First antibody of a primary response; strongest classical complement activator; best agglutinator; stays in blood"
+      ],
+      [
+       "IgG",
+       "Monomer; subclasses IgG1 to IgG4",
+       "About 7 to 16 g/L (about 75% of serum Ig)",
+       "Crosses placenta via FcRn; opsonizes, neutralizes, fixes complement (IgG3 and IgG1 best); ADCC; half-life about 3 weeks"
+      ],
+      [
+       "IgA",
+       "Monomer in serum; dimer with J chain and secretory component in secretions",
+       "About 0.7 to 4 g/L",
+       "Mucosal neutralization in gut, airway, tears, saliva, breast milk; does not activate the classical pathway; largest daily production"
+      ],
+      [
+       "IgE",
+       "Monomer, mostly bound to FcεRI",
+       "Trace (nanogram per mL range)",
+       "Arms mast cells and basophils; immediate hypersensitivity; helminth defense with eosinophils"
+      ],
+      [
+       "IgD",
+       "Monomer on naive B cells",
+       "Trace",
+       "Antigen receptor with IgM on naive B cells; serum role unclear"
+      ]
+     ],
+     "caption": "Serum reference ranges vary by laboratory and age; values are approximate adult ranges."
+    },
+    {
+     "type": "p",
+     "text": "IgM's ten binding sites give it high avidity, which compensates for the low affinity typical of an early, unmutated response. One pentamer bound to a surface presents several Fc regions together, so a single IgM molecule can activate C1q, whereas IgG needs two molecules side by side. Its size (about 900 kDa) keeps IgM largely intravascular and prevents placental transfer, so IgM in cord blood was made by the fetus."
+    },
+    {
+     "type": "p",
+     "text": "IgG is the dominant antibody of secondary responses and tissue fluids. FcRn transfers it across the syncytiotrophoblast, mainly in the third trimester, so preterm infants receive less. The same transport explains how maternal IgG anti-RhD causes hemolytic disease of the fetus and newborn, while naturally occurring anti-A and anti-B, mostly IgM, usually do not. IgG2 is the main subclass made against polysaccharide capsules, and IgG4 fixes complement poorly."
+    },
+    {
+     "type": "flow",
+     "title": "How secretory IgA reaches the mucosal lumen",
+     "steps": [
+      "Lamina propria plasma cell secretes dimeric IgA with J chain",
+      "Polymeric Ig receptor binds dimer on basolateral epithelial surface",
+      "Vesicle transcytoses the complex across the epithelial cell",
+      "Receptor is cleaved at the apical surface",
+      "Secretory component stays attached and resists luminal proteases",
+      "Secretory IgA neutralizes microbes and toxins without causing inflammation"
+     ],
+     "caption": "The J chain is required for binding to the polymeric Ig receptor; the retained secretory component is a fragment of that receptor."
+    },
+    {
+     "type": "p",
+     "text": "Some pathogens (Neisseria, Haemophilus influenzae, Streptococcus pneumoniae) secrete IgA1 proteases that cleave its hinge. Selective IgA deficiency is the most common primary immunodeficiency; most patients are well, some have sinopulmonary and gastrointestinal infections, and those who form anti-IgA antibodies can react to IgA in transfused blood products. IgE circulates at very low levels but is held on mast cells for weeks by the high-affinity receptor FcεRI; antigen crosslinking two bound IgE molecules triggers degranulation (C04, IM-15-C)."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-05-01-C03",
+   "obj": "IM-5.3",
+   "title": "T dependent and T independent B cell activation",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "A naive B cell recognizes intact antigen through its B cell receptor (BCR), which signals through Ig-alpha and Ig-beta; C3d on the antigen binds the coreceptor CR2 (CD21) and lowers the activation threshold. For a protein antigen this is not enough to produce class-switched, high-affinity antibody without help from a CD4 T cell that recognizes the same antigen."
+    },
+    {
+     "type": "p",
+     "text": "The link is antigen presentation by the B cell itself. The B cell internalizes the antigen bound to its BCR, degrades it in endosomes, and displays peptides on MHC class II. A CD4 T cell primed by a dendritic cell against one of those peptides meets the B cell at the follicle edge (linked recognition: the B cell and T cell epitopes differ but lie on the same antigen). The T cell expresses CD40 ligand (CD40L, CD154), which binds CD40 on the B cell and activates NF-kappa-B, inducing proliferation and activation-induced cytidine deaminase (AID). Some activated T cells become T follicular helper (Tfh) cells, which enter the follicle (CXCR5) and secrete IL-21."
+    },
+    {
+     "type": "flow",
+     "title": "T dependent B cell response",
+     "steps": [
+      "BCR binds and internalizes protein antigen",
+      "B cell presents antigen peptide on MHC class II",
+      "Primed CD4 T cell recognizes peptide at follicle edge",
+      "CD40L binds CD40; cytokines direct the switch",
+      "Early IgM plasma cells form; others seed a germinal center",
+      "Dark zone: proliferation and somatic hypermutation via AID",
+      "Light zone: selection on follicular dendritic cells and Tfh help",
+      "Output: long-lived plasma cells and memory B cells"
+     ],
+     "caption": "Selected B cells may return to the dark zone for further rounds of mutation."
+    },
+    {
+     "type": "p",
+     "text": "AID deaminates cytidine to uridine in DNA. In switch regions upstream of each constant gene this leads to double-strand breaks and class switch recombination: the intervening DNA is deleted, the VDJ exon is joined to a downstream constant gene, and the change is irreversible. Cytokines decide which switch region is opened: in humans IL-4 (with IL-13) directs IgE and IgG4, TGF-beta directs IgA, and IFN-gamma favors opsonizing, complement-fixing IgG subclasses. In variable genes the same enzyme causes somatic hypermutation. Follicular dendritic cells display antigen as immune complexes; B cells whose mutated receptors bind best capture the most antigen, present the most peptide to Tfh cells, and survive, while the rest die by apoptosis (affinity maturation)."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: reading an immunoglobulin profile",
+     "text": "A 2-year-old boy has recurrent otitis media and Pneumocystis jirovecii pneumonia. IgM is high; IgG, IgA, and IgE are very low; B cell numbers are normal. B cells develop and make IgM, so what fails is switching, which needs CD40 signaling to induce AID. Pneumocystis also points to a T cell side defect, because CD40L on T cells also activates macrophages and dendritic cells through their CD40. A boy with both features most likely has X-linked CD40L deficiency (hyper-IgM syndrome). AID deficiency gives the same immunoglobulin pattern with enlarged lymph nodes but no opportunistic infections, because T cell to macrophage help is intact."
+    },
+    {
+     "type": "table",
+     "title": "T dependent versus T independent responses",
+     "cols": [
+      "Feature",
+      "T dependent (protein)",
+      "T independent (polysaccharide, TI-2)"
+     ],
+     "rows": [
+      [
+       "Antigen",
+       "Proteins, peptides",
+       "Repeating polysaccharides (bacterial capsules), some lipids and nucleic acids"
+      ],
+      [
+       "Main B cells",
+       "Follicular B cells",
+       "Marginal zone B cells (spleen) and B-1 cells"
+      ],
+      [
+       "T cell help",
+       "Required (CD40L, cytokines)",
+       "Not used; extensive BCR crosslinking substitutes"
+      ],
+      [
+       "Isotypes",
+       "Switched (IgG, IgA, IgE)",
+       "Mostly IgM, limited switching (IgG2 in humans)"
+      ],
+      [
+       "Affinity maturation and memory",
+       "Yes",
+       "Little or none"
+      ],
+      [
+       "Infants under about 2 years",
+       "Respond",
+       "Respond poorly (immature marginal zone)"
+      ]
+     ],
+     "caption": "At high doses, TI-1 antigens such as LPS activate B cells polyclonally."
+    },
+    {
+     "type": "p",
+     "text": "Polysaccharides yield no peptides for MHC, so they recruit no T cell help. The splenic marginal zone is the main site of the response, which is why asplenia predisposes to overwhelming infection by encapsulated organisms. A conjugate vaccine couples the polysaccharide to a protein carrier: a polysaccharide-specific B cell internalizes the conjugate and presents carrier peptides to T cells, producing switched IgG and memory even in infants."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-05-01-C04",
+   "obj": "IM-5.4",
+   "title": "Helper T cell subsets and regulatory T cells",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "A naive CD4 T cell activated by a dendritic cell (peptide on MHC class II plus B7 to CD28 costimulation) can become one of several effector subsets. Which one it becomes depends mainly on the cytokines present at activation, and those depend on the microbe: the pattern recognition receptors a dendritic cell engages decide whether it secretes IL-12, IL-6 and IL-1, or neither. Each polarizing cytokine signals through a STAT protein that induces a master transcription factor, and that factor turns on the subset's cytokine genes and its own positive feedback while repressing the other programs."
+    },
+    {
+     "type": "table",
+     "title": "CD4 T cell subsets",
+     "cols": [
+      "Subset",
+      "Induced by (STAT; master factor)",
+      "Signature cytokines",
+      "Main effects and targets"
+     ],
+     "rows": [
+      [
+       "Th1",
+       "IL-12 and IFN-gamma (STAT4, STAT1; T-bet)",
+       "IFN-gamma (also IL-2, TNF)",
+       "Activates macrophages to kill ingested microbes; favors opsonizing IgG; intracellular bacteria such as mycobacteria; granulomas and delayed-type hypersensitivity"
+      ],
+      [
+       "Th2",
+       "IL-4 (STAT6; GATA-3)",
+       "IL-4, IL-5, IL-13",
+       "IL-4 and IL-13 switch to IgE; IL-5 makes and activates eosinophils; IL-13 increases mucus and gut motility; helminths; allergy and asthma"
+      ],
+      [
+       "Th17",
+       "TGF-beta with IL-6 or IL-1, sustained by IL-23 (STAT3; ROR-gamma-t)",
+       "IL-17A, IL-17F, IL-22",
+       "Epithelial chemokines and G-CSF recruit neutrophils; IL-22 boosts antimicrobial peptides and barrier; extracellular bacteria and fungi such as Staphylococcus aureus and Candida"
+      ],
+      [
+       "Regulatory T cell (Treg)",
+       "Thymic selection, or TGF-beta with IL-2 in the periphery (STAT5; FOXP3)",
+       "IL-10, TGF-beta",
+       "Suppresses effector T cells and antigen-presenting cells; maintains self tolerance"
+      ]
+     ],
+     "caption": "Tfh cells (BCL-6, IL-21) are a further subset that helps B cells (C03)."
+    },
+    {
+     "type": "cycle",
+     "title": "The Th1 and macrophage amplification loop",
+     "steps": [
+      "Macrophage or dendritic cell ingests intracellular microbe",
+      "Phagocyte secretes IL-12",
+      "Naive CD4 T cell becomes Th1 (T-bet)",
+      "Th1 releases IFN-gamma and expresses CD40L",
+      "Macrophage increases reactive oxygen species, nitric oxide, lysosomal killing, and IL-12"
+     ],
+     "caption": "The loop repeats until the microbe is cleared; when it cannot be cleared, chronic activation forms a granuloma."
+    },
+    {
+     "type": "p",
+     "text": "Cross-regulation makes responses polarized. IFN-gamma inhibits Th2 development, and IL-4 inhibits Th1 development, so a response tends to lock into one pattern. Leprosy illustrates the stakes: a strong Th1 response gives tuberculoid leprosy with few bacilli and well-formed granulomas, while a Th2-dominated response gives lepromatous leprosy with abundant bacilli in poorly activated macrophages. Inherited defects in the IL-12 receptor or IFN-gamma receptor (Mendelian susceptibility to mycobacterial disease) cause disseminated infection with weakly virulent mycobacteria and Salmonella, which shows that the IL-12 to IFN-gamma loop is the essential defense against intracellular bacteria."
+    },
+    {
+     "type": "p",
+     "text": "Th1 and Th17 both fight bacteria but by different effector cells. Th1 arms macrophages against microbes already inside them; Th17 brings neutrophils to skin and mucosal surfaces for extracellular bacteria and fungi. Loss of Th17 function produces chronic mucocutaneous candidiasis and staphylococcal abscesses, as in autosomal dominant hyper-IgE syndrome from STAT3 loss-of-function mutations. TGF-beta participates in both Treg and Th17 induction; IL-6 from an inflamed site tips naive cells toward Th17 rather than Treg."
+    },
+    {
+     "type": "p",
+     "text": "Regulatory T cells are CD4 and CD25 (the high-affinity IL-2 receptor alpha chain) positive and depend on FOXP3. They suppress through IL-10 and TGF-beta, by consuming IL-2, and through CTLA-4, which removes B7 from antigen-presenting cells and so deprives effector cells of costimulation. Loss of FOXP3 causes IPEX (immune dysregulation, polyendocrinopathy, enteropathy, X-linked): infant boys develop autoimmune enteropathy with diarrhea, early type 1 diabetes, and eczematous dermatitis."
+    },
+    {
+     "type": "stop",
+     "predict": "A child has disseminated infection after BCG vaccination but handles Candida and Staphylococcus normally. Which signaling axis is defective, and which subset is spared?",
+     "explain": "The IL-12 to IFN-gamma axis is defective, so Th1-driven macrophage activation fails and mycobacteria survive inside macrophages. Th17 function, which recruits neutrophils against Candida and Staphylococcus, is intact.",
+     "check": "Compare with the subset table and the paragraph contrasting Th1 and Th17."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-05-01-C05",
+   "obj": "IM-5.5",
+   "title": "How cytotoxic T cells and NK cells kill",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Cytotoxic CD8 T cells (CTLs) recognize foreign peptides on MHC class I, which almost every nucleated cell expresses, so they can find virus-infected and malignant cells anywhere in the body. Naive CD8 cells are activated by dendritic cells that present the antigen on class I, including antigen acquired from other cells (cross-presentation), and CD4 help through CD40 on the dendritic cell strengthens activation and memory. Natural killer (NK) cells are innate lymphocytes (CD56 positive, CD3 negative) that kill without prior sensitization."
+    },
+    {
+     "type": "p",
+     "text": "Both cell types kill by making the target undergo apoptosis. When a CTL recognizes its target, LFA-1 binds ICAM-1 to form a tight immunological synapse, and the microtubule organizing center turns toward the target so that lytic granules are released only into that narrow cleft. This directed release spares neighboring healthy cells, and one CTL can detach and kill several targets in sequence."
+    },
+    {
+     "type": "flow",
+     "title": "Perforin and granzyme killing",
+     "steps": [
+      "T cell receptor recognizes peptide on MHC class I",
+      "Synapse forms; granules move to the contact zone",
+      "Perforin polymerizes into pores in target membrane",
+      "Granzymes enter the target cytoplasm",
+      "Granzyme B activates caspase-3 and cleaves BID",
+      "Truncated BID opens mitochondria; cytochrome c activates caspase-9",
+      "Executioner caspases dismantle the cell; DNA fragments"
+     ],
+     "caption": "Granzyme B engages both the executioner caspases directly and the mitochondrial (intrinsic) pathway."
+    },
+    {
+     "type": "flow",
+     "title": "Fas ligand killing",
+     "steps": [
+      "Fas ligand on killer cell binds Fas (CD95) on target",
+      "Clustered Fas recruits the adaptor FADD",
+      "FADD recruits procaspase-8 into the death-inducing signaling complex",
+      "Active caspase-8 activates caspase-3 and caspase-7",
+      "Target cell undergoes apoptosis"
+     ],
+     "caption": "This is the extrinsic pathway; caspase-8 can also cleave BID to amplify the signal through mitochondria."
+    },
+    {
+     "type": "p",
+     "text": "Apoptosis matters because the target membrane stays intact long enough for the cell to shrink, fragment into membrane-bound bodies, and expose phosphatidylserine, so macrophages remove it without releasing its contents. Intracellular viruses are destroyed with little inflammation, in contrast to necrosis. The Fas pathway also limits immune responses by deleting repeatedly activated lymphocytes; mutations in Fas cause autoimmune lymphoproliferative syndrome, with lymphadenopathy, splenomegaly, autoimmune cytopenias, and increased double-negative (CD4 negative, CD8 negative) T cells. Loss of perforin, or of granule trafficking (Chediak-Higashi syndrome), causes hemophagocytic lymphohistiocytosis because infected cells and activated antigen-presenting cells are not eliminated and macrophages remain continuously activated."
+    },
+    {
+     "type": "table",
+     "title": "CD8 cytotoxic T cells versus NK cells",
+     "cols": [
+      "Feature",
+      "CD8 cytotoxic T cell",
+      "NK cell"
+     ],
+     "rows": [
+      [
+       "Immunity",
+       "Adaptive; clonal, needs priming (days)",
+       "Innate; acts within hours"
+      ],
+      [
+       "Recognition",
+       "Specific peptide on MHC class I",
+       "Balance of activating (NKG2D binds stress ligands) and inhibitory (KIR, CD94-NKG2A bind class I) receptors"
+      ],
+      [
+       "Response to lost MHC class I",
+       "Cannot see the target",
+       "Inhibition removed; target is killed (missing self)"
+      ],
+      [
+       "Antibody-guided killing",
+       "No",
+       "Yes, ADCC through CD16 binding IgG"
+      ],
+      [
+       "Killing mechanisms",
+       "Perforin and granzymes; Fas ligand",
+       "Perforin and granzymes; Fas ligand and TRAIL"
+      ],
+      [
+       "Activated by",
+       "Antigen, costimulation, IL-2, CD4 help",
+       "IL-12, IL-15, type I interferons"
+      ]
+     ],
+     "caption": "Both cells also secrete IFN-gamma, which activates macrophages and increases MHC class I expression."
+    },
+    {
+     "type": "p",
+     "text": "The two systems cover each other's gaps. Many viruses (for example cytomegalovirus) and tumors reduce MHC class I to escape CTLs, but losing class I removes the inhibitory signal that NK cells read, so the cell becomes an NK target. This is why NK cell deficiency presents with severe herpesvirus infections."
+    },
+    {
+     "type": "stop",
+     "predict": "A tumor cell stops expressing MHC class I. How does that change its susceptibility to CD8 T cells and to NK cells?",
+     "explain": "CD8 T cells can no longer recognize it because they require peptide on class I. NK cells lose inhibition through KIR and CD94-NKG2A, and if activating ligands such as stress-induced NKG2D ligands are present, they kill it.",
+     "check": "Compare with the CD8 versus NK table."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-IMMU-05-01-C06",
+   "obj": "IM-5.6",
+   "title": "Primary and secondary antibody responses; active and passive immunity",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Antibody response curves plot serum titer, usually on a logarithmic scale, against time after exposure. In a primary response the lag phase lasts about a week, because the few naive B and T cells specific for the antigen must be found, activated, and expanded. IgM appears first, from early plasma cells formed before germinal centers mature, and IgG follows as class switching proceeds, typically peaking around 2 weeks. Peak titer is modest, affinity is low at first, and titers decline within weeks as short-lived plasma cells die."
+    },
+    {
+     "type": "p",
+     "text": "The primary response leaves memory B cells that are more numerous than the original naive clone, mostly class-switched, and of higher affinity, together with long-lived plasma cells in bone marrow that keep secreting antibody. On re-exposure the lag is only a few days, the response is dominated by IgG (or IgA or IgE, depending on earlier switching), peak titer is much higher, often by an order of magnitude or more, affinity is higher still, and antibody persists longer. This requires T dependent antigens; plain polysaccharides give similar IgM responses each time."
+    },
+    {
+     "type": "table",
+     "title": "Primary versus secondary antibody response",
+     "cols": [
+      "Feature",
+      "Primary",
+      "Secondary"
+     ],
+     "rows": [
+      [
+       "Responding cells",
+       "Naive B cells (few)",
+       "Memory B cells (many)"
+      ],
+      [
+       "Lag phase",
+       "About 5 to 10 days",
+       "About 1 to 3 days"
+      ],
+      [
+       "Main isotype",
+       "IgM first, then IgG",
+       "Mostly IgG"
+      ],
+      [
+       "Peak titer",
+       "Lower",
+       "Much higher"
+      ],
+      [
+       "Average affinity",
+       "Lower",
+       "Higher (affinity maturation)"
+      ],
+      [
+       "Duration",
+       "Shorter",
+       "Longer"
+      ]
+     ],
+     "caption": "Lag times are approximate and vary with antigen, dose, adjuvant, and route."
+    },
+    {
+     "type": "p",
+     "text": "These kinetics are the basis of serologic diagnosis. Pathogen-specific IgM indicates current or recent infection; IgG alone indicates past infection or immunization. Because IgG may already be present, recent infection is shown by a fourfold or greater rise in IgG titer between acute and convalescent samples taken about 2 to 4 weeks apart."
+    },
+    {
+     "type": "table",
+     "title": "Active versus passive immunity",
+     "cols": [
+      "Type",
+      "Natural example",
+      "Artificial example",
+      "Onset and duration",
+      "Memory"
+     ],
+     "rows": [
+      [
+       "Active",
+       "Infection",
+       "Vaccination (toxoid, inactivated, live attenuated, conjugate)",
+       "Slow onset (days to weeks); long-lasting",
+       "Yes"
+      ],
+      [
+       "Passive",
+       "Maternal IgG across placenta; secretory IgA in breast milk",
+       "Pooled immune globulin, antitoxin, monoclonal antibody",
+       "Immediate; lasts weeks to months, set by antibody half-life",
+       "No"
+      ]
+     ],
+     "caption": "Passive antibody from animal sources can provoke antibodies against the foreign protein and immune complex serum sickness (type III hypersensitivity)."
+    },
+    {
+     "type": "p",
+     "text": "Passive antibody protects without activating the recipient's lymphocytes, so it decays with its half-life and leaves no memory. Maternal IgG is the clearest example. A term newborn has IgG levels close to the mother's, but this IgG declines with a half-life of about 3 weeks while the infant's own production rises slowly, so total IgG reaches a physiologic low at about 3 to 6 months. Infants with X-linked agammaglobulinemia, who had normal maternal IgG at birth, therefore begin to have recurrent infections with encapsulated bacteria after about 6 months of age."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: newborn serology",
+     "text": "A newborn with microcephaly and periventricular calcifications has positive cytomegalovirus IgG and IgM in serum. The IgG may be the mother's, transferred by FcRn, and proves only that the mother was infected at some time. IgM cannot cross the placenta, so the IgM was made by the fetus and points to intrauterine infection. Had the infant been IgG positive and IgM negative, the result would not distinguish maternal antibody from fetal infection; a falling IgG titer over the first months would indicate maternal antibody decaying, whereas persistent or rising IgG would indicate the infant's own response. Direct detection of the virus is used to confirm, because IgM tests can give false negative or false positive results."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Structure, cells, and genes form one chain of reasoning. V(D)J recombination in the bone marrow builds the CDRs; lymphoid architecture places follicular B cells next to T cell zones and marginal zone B cells in the splenic filter; and AID, CD40L, cytokine receptors, and FOXP3 decide what each response produces. Microbiology supplies the selective pressure: capsules defeat T dependent help, IgA proteases attack mucosal antibody, and herpesviruses remove MHC class I, while pathology shows each defect as a predictable infection pattern or autoimmune disease."
+  },
+  {
+   "type": "p",
+   "text": "Most effector functions require complement, phagocytes, or mast cells, so antibody alone neutralizes but rarely kills and should be read together with IM-7 and IM-6. The subset scheme is a model: helper cells show plasticity, mixed responses are common, and human cytokine-to-isotype rules differ from the mouse data in which many were first described. Serum immunoglobulin ranges vary with age and laboratory, so pediatric values must be judged against age-specific references."
+  }
+ ],
+ "summary": [
+  "Two heavy and two light chains form each monomer; six CDRs at the Fab tip bind antigen, and the Fc sets the isotype and binds C1q, Fc receptors, and FcRn.",
+  "IgM is a pentamer, appears first, and activates complement most strongly; IgG is the main serum and secondary antibody, opsonizes, and crosses the placenta via FcRn.",
+  "Secretory IgA is a J chain dimer carried across epithelium by the polymeric Ig receptor; IgE arms mast cells through FcεRI; IgD is a naive B cell receptor.",
+  "T dependent responses need linked recognition, CD40L to CD40 signaling, and cytokines that induce AID for class switching and somatic hypermutation in germinal centers.",
+  "Polysaccharides give T independent, mostly IgM responses with little memory and are weak before about age 2; protein conjugation adds T cell help.",
+  "IL-12 drives Th1 and IFN-gamma activates macrophages; IL-4 drives Th2, and IL-4, IL-5, and IL-13 promote IgE, eosinophils, and mucus.",
+  "Th17 cells use IL-17 and IL-22 to recruit neutrophils and protect barriers against extracellular bacteria and fungi; FOXP3 Tregs suppress through IL-10, TGF-beta, IL-2 consumption, and CTLA-4.",
+  "CTLs and NK cells kill by perforin and granzymes and by Fas ligand to Fas, both producing caspase-driven apoptosis without inflammation; NK cells kill cells lacking MHC class I.",
+  "A secondary response has a shorter lag, more IgG, higher titer and affinity, and longer persistence than a primary response.",
+  "Active immunity is slow and leaves memory; passive immunity such as maternal IgG is immediate, wanes over about 6 months, and leaves no memory."
+ ],
+ "sources": [
+  {
+   "book": "Abbas, Cellular and Molecular Immunology",
+   "where": "Antibodies and Antigens; B Cell Activation and Antibody Production; Effector Mechanisms of Humoral Immunity"
+  },
+  {
+   "book": "Abbas, Cellular and Molecular Immunology",
+   "where": "Differentiation and Functions of CD4+ Effector T Cells; Differentiation and Functions of CD8+ Effector T Cells"
+  },
+  {
+   "book": "Jawetz, Melnick, and Adelberg's Medical Microbiology",
+   "where": "Immunology section: antibodies, cell-mediated immunity, and serologic diagnosis"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Diseases of the Immune System; Cell Injury, Cell Death, and Adaptations"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Resistance of the Body to Infection: II. Immunity and Allergy"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Disorders of the Immune System"
+  }
+ ],
+ "verify": [
+  "Adult serum immunoglobulin reference ranges (IgG about 7 to 16 g/L, IgA about 0.7 to 4 g/L, IgM about 0.4 to 2.3 g/L) vary by laboratory; confirm the values NABNE uses if any are tested.",
+  "Primary and secondary lag times and the size of the secondary titer increase are approximate and differ between texts.",
+  "Human cytokine to isotype assignments (IL-4 and IL-13 to IgE and IgG4, TGF-beta to IgA, IFN-gamma to IgG subclasses) are partly derived from mouse data; confirm the simplified scheme NABNE expects.",
+  "Some review sources list IL-6 and TGF-beta as the Th17 inducers and IL-23 as a maintenance factor, while others list IL-1, IL-6, and IL-23 for human cells; this chapter gives both.",
+  "Confirm whether NABNE Part I expects named syndromes such as IPEX, autoimmune lymphoproliferative syndrome, and Mendelian susceptibility to mycobacterial disease, or only the mechanisms.",
+  "Requested new diagram names for a future revision: ig-structure (IgG with heavy and light chains, CDRs, hinge, Fab, Fc, papain and pepsin sites, with IgM pentamer and secretory IgA dimer) and antibody-response-curve (primary and secondary IgM and IgG titers on a log scale)."
+ ]
+}
