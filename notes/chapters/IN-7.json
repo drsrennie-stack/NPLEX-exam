@@ -101,7 +101,7 @@
     },
     {
      "type": "p",
-     "text": "Two brakes sit on this switch. The CDK inhibitor p16, encoded by CDKN2A, binds CDK4 and CDK6 and keeps Rb unphosphorylated. The second brake responds to damage: ultraviolet lesions stall replication and transcription, activating the kinases ATR and ATM, which phosphorylate p53 and release it from MDM2-mediated degradation. Accumulated p53 transcribes CDKN1A, whose product p21 inhibits cyclin-CDK complexes broadly and arrests the cell in G1 long enough for repair. If damage is excessive, p53 instead transcribes BAX and PUMA and the cell dies by apoptosis, which is what the apoptotic sunburn cells of an acute burn represent."
+     "text": "Two brakes sit on this switch. The CDK inhibitor p16, encoded by CDKN2A, binds CDK4 and CDK6 and keeps Rb unphosphorylated. The second brake responds to damage: ultraviolet lesions stall replication forks and transcription, activating chiefly the kinase ATR, with ATM contributing when breaks form, and these kinases phosphorylate p53 and release it from MDM2-mediated degradation. Accumulated p53 transcribes CDKN1A, whose product p21 inhibits cyclin-CDK complexes broadly and arrests the cell in G1 long enough for repair. If damage is excessive, p53 instead transcribes BAX and PUMA and the cell dies by apoptosis, which is what the apoptotic sunburn cells of an acute burn represent."
     },
     {
      "type": "table",
@@ -186,7 +186,7 @@
       "XPC complex or stalled RNA polymerase II detects the lesion",
       "TFIIH, with the XPB and XPD helicases, opens the duplex",
       "XPA verifies the damage and stabilizes the opened bubble",
-      "XPG cuts on one side and XPF with ERCC1 on the other",
+      "XPG cuts 3 prime to the lesion and XPF with ERCC1 cuts 5 prime",
       "A 25 to 30 base oligonucleotide carrying the lesion is released",
       "DNA polymerase fills the gap using the intact strand as template",
       "DNA ligase seals the remaining nick"
@@ -195,11 +195,11 @@
     },
     {
      "type": "p",
-     "text": "Xeroderma pigmentosum is autosomal recessive loss of one of these components, so carriers are clinically normal and affected children inherit a mutant allele from each parent. The consequence is cumulative. Every sun exposure leaves dimers that persist in every cell of the epidermis, and when replication forks reach them the cell must use error-prone translesion polymerases, so UV-signature mutations accumulate far faster than normal. The resulting mutation rate affects all exposed cell types, which is why xeroderma pigmentosum produces basal cell carcinoma, squamous cell carcinoma, and melanoma together rather than one tumor type."
+     "text": "Xeroderma pigmentosum is autosomal recessive loss of one of these components, so carriers are clinically normal and affected children inherit a mutant allele from each parent. The consequence is cumulative. Every sun exposure leaves dimers that persist in epidermal cells instead of being excised, and when replication forks reach them the cell must use error-prone translesion polymerases, so UV-signature mutations accumulate far faster than normal. Because the mutation rate rises in every exposed cell type, the disease produces basal cell carcinoma, squamous cell carcinoma, and melanoma together rather than one tumor type."
     },
     {
      "type": "p",
-     "text": "The clinical picture follows the mechanism in sequence. Infants burn severely or blister after minimal sun. Freckle-like pigmented macules appear on exposed skin in the first years of life, which is abnormal at that age and in that density, and they alternate with hypopigmented atrophic areas and telangiectasia, giving the poikilodermatous appearance that names the disorder. Dry skin follows chronic epidermal damage. Skin cancers appear in childhood, commonly before age 10, and the age of onset is advanced by roughly fifty years compared with the general population. The cornea and conjunctiva are affected because they are exposed and unpigmented, giving photophobia, keratitis, and scarring. A subset of complementation groups, including XPA and XPD, also develop progressive neurologic degeneration with hearing loss, ataxia, and cognitive decline, attributed to failure of transcription-coupled repair of oxidative lesions in long-lived neurons that cannot be replaced."
+     "text": "The clinical picture follows the mechanism in sequence. Infants burn severely or blister after minimal sun. Freckle-like pigmented macules appear on exposed skin in the first years of life, abnormal at that age and density, alternating with hypopigmented atrophic areas and telangiectasia, which gives the poikilodermatous appearance that names the disorder. Dry skin follows chronic epidermal damage. Skin cancers appear in childhood, commonly before age 10, roughly fifty years earlier than in the general population. The cornea and conjunctiva are affected because they are exposed and unpigmented, giving photophobia, keratitis, and scarring. A subset of complementation groups, including XPA and XPD, also develop progressive neurologic degeneration with hearing loss, ataxia, and cognitive decline, attributed to failure of transcription-coupled repair of oxidative lesions in neurons that cannot be replaced."
     },
     {
      "type": "table",
@@ -232,15 +232,15 @@
       ],
       [
        "Nonhomologous end joining",
-       "Double-strand breaks, including those in receptor gene rearrangement",
-       "Ataxia-telangiectasia and related radiosensitivity syndromes"
+       "Double-strand breaks, including those in antigen receptor gene rearrangement",
+       "DNA ligase IV and Artemis deficiency, with radiosensitive immunodeficiency; ataxia-telangiectasia instead reflects defective ATM damage signaling"
       ]
      ],
      "caption": "Matching the lesion to its pathway predicts the tissue and the tumor: only nucleotide excision repair removes ultraviolet dimers, so only its loss gives childhood skin cancer."
     },
     {
      "type": "p",
-     "text": "Two contrasts clarify the mechanism. In albinism melanin synthesis fails but repair is intact, so burning and skin cancer risk rise moderately and tumors appear in adulthood. In xeroderma pigmentosum pigmentation is present, even increased, but the damage that does occur is never repaired, which is far more mutagenic. The variant form of the disease is instructive in the other direction: nucleotide excision repair is normal and the defect lies in polymerase eta, the translesion polymerase that copies accurately past a dimer, so the phenotype is milder and later in onset."
+     "text": "Two contrasts clarify the mechanism. In albinism melanin synthesis fails but repair is intact, so burning is severe and squamous cell carcinoma becomes common in sun-exposed skin, yet the tumors appear in adulthood rather than childhood. In xeroderma pigmentosum pigmentation is present, even increased, but the damage that does occur is not excised, which is far more mutagenic. The variant form of the disease is instructive in the other direction: nucleotide excision repair is normal and the defect lies in polymerase eta, encoded by POLH, the translesion polymerase that copies past a dimer with relatively few errors, so the phenotype is milder and later in onset."
     }
    ]
   },
@@ -251,7 +251,7 @@
    "blocks": [
     {
      "type": "p",
-     "text": "Each common skin tumor is held open by a specific stuck signal. Basal cell carcinoma depends on the hedgehog pathway, in which the receptor PTCH1 inhibits the transducer Smoothened until hedgehog ligand relieves that inhibition. When both PTCH1 alleles are lost, Smoothened signals continuously, GLI transcription factors enter the nucleus, and basal keratinocytes proliferate without a ligand. A minority of tumors instead carry activating Smoothened mutations, which gives the same result and shows that the pathway, not the particular gene, is what matters."
+     "text": "Each common skin tumor keeps proliferating because one signaling pathway is stuck in the on position. Basal cell carcinoma depends on the hedgehog pathway, in which the receptor PTCH1 inhibits the transducer Smoothened until hedgehog ligand relieves that inhibition. When both PTCH1 alleles are lost, Smoothened signals continuously, GLI transcription factors enter the nucleus, and basal keratinocytes proliferate without a ligand. A minority of tumors instead carry activating Smoothened mutations, which gives the same result and shows that the pathway, not the particular gene, is what matters."
     },
     {
      "type": "flow",
@@ -416,7 +416,11 @@
     },
     {
      "type": "p",
-     "text": "NF1 lies on chromosome 17 and encodes neurofibromin, a GTPase-activating protein for RAS. RAS is active when bound to GTP and inactive after hydrolysis to GDP, and intrinsic hydrolysis is slow, so neurofibromin is what returns RAS to the off state. Losing it leaves RAS-GTP elevated and the MAPK and mTOR pathways tonically stimulated in neural crest derived cells. The result is proliferation of Schwann cells, fibroblasts, and melanocytes. Cutaneous neurofibromas are soft, skin colored, and sessile or pedunculated, and they appear and increase around puberty and in pregnancy; plexiform neurofibromas are larger, involve nerve trunks, are present early, and carry a risk of transformation into malignant peripheral nerve sheath tumor. Pigmented signs are the earliest: six or more café-au-lait macules, flat and uniformly light brown, exceeding 5 mm before puberty or 15 mm after it, and freckling in the axilla and groin, where sun exposure cannot explain it. Lisch nodules of the iris, optic pathway glioma, sphenoid wing dysplasia, tibial pseudarthrosis, and learning disability complete the picture, and hypertension should raise the question of pheochromocytoma or renal artery stenosis."
+     "text": "NF1 lies on chromosome 17 and encodes neurofibromin, a GTPase-activating protein for RAS. RAS is active when bound to GTP and inactive after hydrolysis to GDP, and intrinsic hydrolysis is slow, so neurofibromin is what returns RAS to the off state. Losing it leaves RAS-GTP elevated and the MAPK and mTOR pathways tonically stimulated in neural crest derived cells. The result is proliferation of Schwann cells, fibroblasts, and melanocytes."
+    },
+    {
+     "type": "p",
+     "text": "Cutaneous neurofibromas are soft, skin colored, and sessile or pedunculated, and they appear and increase around puberty and in pregnancy; plexiform neurofibromas are larger, involve nerve trunks, are present early, and carry a risk of transformation into malignant peripheral nerve sheath tumor. Pigmented signs are the earliest: six or more café-au-lait macules, flat and uniformly light brown, exceeding 5 mm before puberty or 15 mm after it, and freckling in the axilla and groin, where sun exposure cannot explain it. Lisch nodules of the iris, optic pathway glioma, sphenoid wing dysplasia, tibial pseudarthrosis, and learning disability complete the picture, and hypertension should raise the question of pheochromocytoma or renal artery stenosis."
     },
     {
      "type": "flow",
@@ -433,7 +437,11 @@
     },
     {
      "type": "p",
-     "text": "Tuberous sclerosis arises from mutation in TSC1, encoding hamartin, or TSC2, encoding tuberin. The two proteins form a complex in which tuberin acts as a GTPase-activating protein for Rheb, the small GTPase that activates mTORC1, and hamartin stabilizes tuberin. Loss of either leaves Rheb GTP-bound and mTORC1 constitutively active, so cells increase protein synthesis, enlarge, and proliferate regardless of nutrient and growth factor status. Because mTORC1 regulates cell size as well as number, the lesions are hamartomas of disorganized native tissue rather than carcinomas. Cutaneous findings follow a predictable order: hypomelanotic ash-leaf macules are present at birth or in infancy and are easiest to see under a Wood lamp, especially in fair skin; facial angiofibromas appear over the nose and cheeks in childhood; a shagreen patch of thickened leathery skin develops over the lower back; and periungual fibromas emerge around the nails near adolescence. Internally there are cortical tubers with seizures that often begin as infantile spasms, subependymal giant cell astrocytoma, cardiac rhabdomyoma that may be detected prenatally and often regresses, renal angiomyolipoma, and pulmonary lymphangioleiomyomatosis in women."
+     "text": "Tuberous sclerosis arises from mutation in TSC1, encoding hamartin, or TSC2, encoding tuberin. The two proteins form a complex in which tuberin acts as a GTPase-activating protein for Rheb, the small GTPase that activates mTORC1, and hamartin stabilizes tuberin. Loss of either leaves Rheb GTP-bound and mTORC1 constitutively active, so cells increase protein synthesis, enlarge, and proliferate regardless of nutrient and growth factor status. Because mTORC1 regulates cell size as well as number, the lesions are hamartomas of disorganized native tissue rather than carcinomas."
+    },
+    {
+     "type": "p",
+     "text": "Cutaneous findings in tuberous sclerosis follow a predictable order: hypomelanotic ash-leaf macules are present at birth or in infancy and are easiest to see under a Wood lamp, especially in fair skin; facial angiofibromas appear over the nose and cheeks in childhood; a shagreen patch of thickened leathery skin develops over the lower back; and periungual fibromas emerge around the nails near adolescence. Internally there are cortical tubers with seizures that often begin as infantile spasms, subependymal giant cell astrocytoma, cardiac rhabdomyoma that may be detected prenatally and often regresses, renal angiomyolipoma, and pulmonary lymphangioleiomyomatosis in women."
     },
     {
      "type": "table",
@@ -486,7 +494,7 @@
    "blocks": [
     {
      "type": "p",
-     "text": "The stratum corneum works because the corneocytes are internally rigid and externally glued together until shedding is scheduled. Two different genetic defects break these two requirements and both present as ichthyosis, meaning visible scale."
+     "text": "The stratum corneum works because each corneocyte is internally rigid and because the cells stay cemented together until enzymes at the surface release them. Two genetic defects break these requirements separately, and both present as ichthyosis, meaning persistent visible scale."
     },
     {
      "type": "p",
@@ -511,7 +519,11 @@
     },
     {
      "type": "p",
-     "text": "X-linked ichthyosis is a defect of shedding rather than of corneocyte structure. Steroid sulfatase, encoded by STS on the short arm of the X chromosome, removes the sulfate group from cholesterol sulfate in the intercellular lipid of the stratum corneum. Cholesterol sulfate helps hold corneocytes together, so its desulfation is a necessary signal for orderly desquamation. Without the enzyme it accumulates, corneocytes stay adherent, and retention hyperkeratosis builds up as large, dark brown, polygonal adherent scale on the trunk, neck, and extensor limbs, usually within the first months of life in a male. Asymptomatic comma-shaped corneal opacities occur in affected males and carrier mothers, and cryptorchidism is more common. The placenta uses the same enzyme to desulfate fetal dehydroepiandrosterone sulfate on the route to estriol, so maternal serum estriol is low in a pregnancy carrying an affected fetus, and labor may be delayed or prolonged. Because STS sits near other genes, a larger contiguous deletion can add Kallmann syndrome, chondrodysplasia punctata, or intellectual disability."
+     "text": "X-linked ichthyosis is a defect of shedding rather than of corneocyte structure. Steroid sulfatase, encoded by STS on the short arm of the X chromosome, removes the sulfate group from cholesterol sulfate in the intercellular lipid of the stratum corneum. Cholesterol sulfate helps hold corneocytes together, so its desulfation is a necessary signal for orderly desquamation. Without the enzyme it accumulates, corneocytes stay adherent, and retention hyperkeratosis builds up as large, dark brown, polygonal adherent scale on the trunk, neck, and extensor limbs, usually within the first months of life in a male."
+    },
+    {
+     "type": "p",
+     "text": "Asymptomatic comma-shaped corneal opacities occur in affected males and carrier mothers, and cryptorchidism is more common. The placenta uses the same enzyme to desulfate fetal dehydroepiandrosterone sulfate on the route to estriol, so maternal serum estriol is low in a pregnancy carrying an affected fetus, and labor may be delayed or prolonged. A larger contiguous deletion of neighboring genes can add Kallmann syndrome, chondrodysplasia punctata, or intellectual disability."
     },
     {
      "type": "table",
@@ -649,6 +661,7 @@
   "The share of NF1 cases arising from new mutation (about half) and of tuberous sclerosis cases that are sporadic (about two thirds) differ slightly between sources.",
   "The median age of first skin cancer in xeroderma pigmentosum is given as about 8 to 9 years in registry data, and the advancement of onset relative to the general population as about 50 years; confirm the figures NABNE expects.",
   "The excised oligonucleotide in nucleotide excision repair is described as about 25 to 30 nucleotides; some texts give 27 to 29 or simply a short patch.",
+  "The ultraviolet B waveband is given as 290 to 320 nm in most dermatology and pathology texts and as 280 to 315 nm in photobiology conventions; this chapter uses the former.",
   "Café-au-lait macule size criteria for NF1 (over 5 mm before puberty, over 15 mm after) come from clinical diagnostic criteria that have been revised; confirm whether NABNE Part I tests the numeric thresholds.",
   "The population carrier frequency used in the worked example (1 in 300) is illustrative only and is not a published frequency for any specific xeroderma pigmentosum gene.",
   "Whether NABNE Part I expects eponyms such as Gorlin syndrome, Lisch nodules, shagreen patch, Crowe sign, and De Sanctis-Cacchione syndrome, or only the descriptive findings, should be confirmed.",
