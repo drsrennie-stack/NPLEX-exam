@@ -1,0 +1,724 @@
+{
+  "unit": "HE-4",
+  "chapter_id": "NPLEX-P1-HEME-04",
+  "topic_id": "NPLEX-P1-HEME-04-01",
+  "title": "Hematopoietic Growth Factors and Hemostasis",
+  "subject": "Hematology (HEME)",
+  "version": "1.0",
+  "author": "Dr. Sharilyn Rennie",
+  "brand": "MedMasters Collaborative",
+  "overview": {
+    "intro": "This chapter explains how growth factors steer marrow progenitors toward each blood cell line, then how the body stops bleeding and keeps the resulting clot local. It covers the platelet plug, the coagulation cascade, the natural anticoagulants and fibrinolysis, the laboratory tests that localize a bleeding disorder, and the Virchow triad for venous thrombosis. Board questions typically give a platelet count, PT, PTT, and mixing study result and ask you to name the defective step, or describe a patient with a clot and ask which arm of the triad is responsible. Knowing which molecule binds which receptor, and which factors each test measures, lets you reason through these questions rather than memorize patterns.",
+    "prerequisites": [
+      "Hematopoiesis from stem cell to each mature lineage (HE-1)",
+      "Platelet structure and alpha and dense granule contents (HE-1)",
+      "Erythropoietin regulation by renal oxygen sensing (HE-2)",
+      "Cytokine receptor signaling through JAK-STAT and G protein coupled receptors",
+      "Arachidonic acid metabolism by cyclooxygenase"
+    ],
+    "connections": [
+      {
+        "to": "Hemoglobin and hematologic biochemistry (HE-5)",
+        "how": "Vitamin K dependent gamma-carboxylation and hepatic protein synthesis connect clotting to liver and nutritional biochemistry."
+      },
+      {
+        "to": "Clotting abnormalities (HE-9-C)",
+        "how": "Hemophilia, von Willebrand disease, immune thrombocytopenia, DIC, and inherited thrombophilias are failures of the steps taught here."
+      },
+      {
+        "to": "Pulmonary embolism (respiratory pathology)",
+        "how": "Most pulmonary emboli arise from deep vein thrombi in the legs that form through the Virchow triad."
+      },
+      {
+        "to": "Ischemic heart disease and stroke (cardiovascular pathology)",
+        "how": "Arterial thrombosis on a ruptured plaque is driven mainly by platelet adhesion and aggregation under high shear."
+      },
+      {
+        "to": "Chronic kidney disease and myeloproliferative neoplasms",
+        "how": "Erythropoietin deficiency explains renal anemia, and constitutive JAK2 signaling explains growth factor independent overproduction of blood cells."
+      }
+    ],
+    "terms": [
+      {
+        "term": "Colony-stimulating factor",
+        "def": "A glycoprotein cytokine that promotes survival, proliferation, and maturation of a hematopoietic progenitor line, such as G-CSF for neutrophils."
+      },
+      {
+        "term": "Thrombopoietin",
+        "def": "The main growth factor for megakaryocytes, made mostly by the liver and cleared by binding to its receptor (MPL) on platelets and megakaryocytes."
+      },
+      {
+        "term": "Primary hemostasis",
+        "def": "Formation of the initial platelet plug through adhesion, activation, and aggregation of platelets."
+      },
+      {
+        "term": "Secondary hemostasis",
+        "def": "Generation of thrombin by the coagulation factor cascade and conversion of fibrinogen to a cross-linked fibrin mesh that stabilizes the platelet plug."
+      },
+      {
+        "term": "Von Willebrand factor",
+        "def": "A large multimeric glycoprotein from endothelium and megakaryocytes that tethers platelets to exposed collagen through GpIb and carries and protects factor VIII in plasma."
+      },
+      {
+        "term": "Tenase and prothrombinase",
+        "def": "Membrane-bound enzyme complexes on activated platelets: IXa with VIIIa activates factor X (tenase), and Xa with Va converts prothrombin to thrombin (prothrombinase)."
+      },
+      {
+        "term": "Prothrombin time (PT)",
+        "def": "The clotting time of plasma after addition of tissue factor, phospholipid, and calcium; it measures factor VII and the common pathway."
+      },
+      {
+        "term": "Activated partial thromboplastin time (PTT)",
+        "def": "The clotting time of plasma after addition of a contact activator, phospholipid, and calcium; it measures the contact (intrinsic) and common pathways."
+      },
+      {
+        "term": "Antithrombin",
+        "def": "A hepatic serine protease inhibitor (serpin) that inactivates thrombin, factor Xa, and other activated factors, greatly accelerated by heparin or heparan sulfate."
+      },
+      {
+        "term": "Plasmin",
+        "def": "The serine protease formed from plasminogen by tPA or urokinase that digests fibrin and fibrinogen."
+      },
+      {
+        "term": "D-dimer",
+        "def": "A fibrin degradation fragment containing two D domains joined by a factor XIIIa cross-link, so it appears only when cross-linked fibrin is broken down."
+      },
+      {
+        "term": "Mixing study",
+        "def": "Repeating a prolonged PT or PTT on a 1:1 mix of patient and normal plasma to separate a factor deficiency (corrects) from an inhibitor (does not correct)."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "comp": "NPLEX-P1-HEME-04-01-C01",
+      "obj": "HE-4.1",
+      "title": "Growth factors that drive each blood cell lineage",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Marrow output can change many times over within days, and it can change for one lineage without the others. This selectivity comes from hematopoietic growth factors, glycoprotein cytokines that act on progenitors carrying their receptors. Early multipotent progenitors respond to broad factors, stem cell factor (kit ligand, acting on the c-KIT receptor) and IL-3, while committed progenitors depend on one dominant factor. So a single factor can raise one cell count alone."
+        },
+        {
+          "type": "p",
+          "text": "Most of these receptors lack their own kinase activity and signal through associated Janus kinases (JAK) and STAT transcription factors. The main effect at physiologic levels is survival: without the factor, committed progenitors undergo apoptosis, and with it they proliferate and mature. The erythropoietin and thrombopoietin receptors both use JAK2, so the acquired JAK2 V617F mutation, which switches JAK2 on without ligand, causes growth factor independent overproduction in polycythemia vera, essential thrombocythemia, and primary myelofibrosis. In polycythemia vera the expanded red cell mass suppresses the kidney, so erythropoietin is low."
+        },
+        {
+          "type": "table",
+          "title": "Growth factors by lineage",
+          "cols": [
+            "Factor",
+            "Main source",
+            "Target lineage",
+            "Regulation and clinical link"
+          ],
+          "rows": [
+            [
+              "Erythropoietin (EPO)",
+              "Peritubular interstitial cells of the renal cortex; a little from liver",
+              "Erythroid progenitors (CFU-E, proerythroblasts)",
+              "Rises with tissue hypoxia through HIF; low in chronic kidney disease, giving normocytic anemia"
+            ],
+            [
+              "Thrombopoietin (TPO)",
+              "Liver, at a fairly constant rate",
+              "Megakaryocytes; also supports stem cells",
+              "Free level set by uptake on platelet MPL receptors; rises when platelets fall"
+            ],
+            [
+              "G-CSF",
+              "Macrophages, endothelium, fibroblasts",
+              "Neutrophil progenitors",
+              "Rises in bacterial infection; also releases neutrophils from marrow"
+            ],
+            [
+              "GM-CSF",
+              "T cells, macrophages, endothelium",
+              "Granulocyte and monocyte progenitors",
+              "Broader than G-CSF; also activates mature neutrophils and macrophages"
+            ],
+            [
+              "M-CSF",
+              "Macrophages, endothelium, stromal cells",
+              "Monocytes and macrophages; osteoclast precursors",
+              "Needed for osteoclast formation with RANKL"
+            ],
+            [
+              "IL-5",
+              "Th2 cells, type 2 innate lymphoid cells, mast cells",
+              "Eosinophils",
+              "Raised in parasitic and allergic disease, giving eosinophilia"
+            ],
+            [
+              "IL-3 and stem cell factor",
+              "T cells (IL-3); marrow stroma (SCF)",
+              "Early multipotent progenitors; mast cells (SCF)",
+              "Act early and on several lines at once"
+            ]
+          ],
+          "caption": "Committed progenitors depend on one dominant factor; early progenitors respond to broad factors."
+        },
+        {
+          "type": "p",
+          "text": "Erythropoietin and thrombopoietin are regulated in opposite ways. Erythropoietin output is set at the source: when renal oxygen delivery falls, hypoxia-inducible factor (HIF) escapes oxygen-dependent degradation and turns on the EPO gene, and the reticulocyte count rises within several days. Thrombopoietin output is fairly constant, and the free level is set by removal. Platelets and megakaryocytes bind and internalize TPO through MPL, so a low platelet mass leaves more free TPO to stimulate megakaryocytes, and a high mass clears it. Inflammation adds a second input, because IL-6 increases hepatic TPO synthesis, which helps explain reactive thrombocytosis. Severe liver disease lowers TPO and contributes to thrombocytopenia."
+        },
+        {
+          "type": "cycle",
+          "title": "Platelet mass regulates free thrombopoietin",
+          "steps": [
+            "Liver releases TPO at a steady rate",
+            "Platelets and megakaryocytes bind and remove TPO",
+            "Platelet count falls, so less TPO is removed",
+            "Free TPO rises and stimulates megakaryocytes",
+            "Platelet production increases",
+            "Larger platelet mass clears more TPO again"
+          ],
+          "caption": "Removal by the target cells, not changes in synthesis, is the main control of free thrombopoietin."
+        },
+        {
+          "type": "p",
+          "text": "Neutrophil production follows a similar demand signal. Bacterial products and IL-17 from T cells raise G-CSF, which speeds neutrophil production, shortens marrow transit, and releases stored neutrophils, producing neutrophilia with a left shift. GM-CSF supports both granulocyte and monocyte lines, so its effect is broader. IL-5, mainly from Th2 cells, is the dominant eosinophil factor, which links eosinophilia to helminth infection, asthma, and other type 2 responses."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-HEME-04-01-C02",
+      "obj": "HE-4.2",
+      "title": "Primary hemostasis: forming the platelet plug",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Intact endothelium keeps platelets quiet by releasing prostacyclin (PGI2) and nitric oxide, which raise platelet cAMP and cGMP, and by hiding the procoagulant subendothelium. When a vessel is cut, three events follow within seconds to minutes: vasoconstriction, platelet adhesion and activation, and platelet aggregation. The soft plug that results seals small breaks and becomes the surface for coagulation."
+        },
+        {
+          "type": "p",
+          "text": "Vasoconstriction is brief. It comes from a local neural reflex, from endothelin released by injured endothelium, and from thromboxane A2 and serotonin released by platelets. It slows flow but cannot stop bleeding alone."
+        },
+        {
+          "type": "p",
+          "text": "Adhesion depends on von Willebrand factor (vWF), a large multimer secreted by endothelium (from Weibel-Palade bodies) and stored in platelet alpha granules. Under the high shear stress of arterioles and small arteries, plasma vWF binds exposed subendothelial collagen and unfolds, exposing a site that binds platelet glycoprotein Ib (GpIb, part of the GpIb-IX-V complex). This tether slows platelets enough for direct collagen receptors (GpVI and the integrin alpha2beta1) to bind firmly and signal. Large vWF multimers are the most effective, which is why their loss impairs adhesion most."
+        },
+        {
+          "type": "p",
+          "text": "Activation changes the platelet from a disc to a spiky sphere and triggers degranulation. Dense granules release ADP, calcium, and serotonin, and alpha granules release vWF, fibrinogen, and factor V. Phospholipase A2 frees arachidonic acid, which cyclooxygenase-1 (COX-1) converts to thromboxane A2, a vasoconstrictor and platelet agonist. ADP acting on P2Y12, thromboxane A2, and thrombin acting on protease-activated receptors recruit nearby platelets. Activated platelets also expose phosphatidylserine on their outer membrane, which later anchors the clotting factor complexes."
+        },
+        {
+          "type": "p",
+          "text": "Aggregation requires GpIIb/IIIa (integrin alphaIIb beta3). On resting platelets it has low affinity, and agonist signaling switches it into a high-affinity form (inside-out signaling). Fibrinogen is a symmetric dimer, so one molecule can bind GpIIb/IIIa on two platelets at once and link them; under high shear, vWF can also bridge GpIIb/IIIa receptors. Aspirin acetylates COX-1 irreversibly, and because platelets have no nucleus to make new enzyme, thromboxane A2 production stays low for the platelet life span of about 7 to 10 days."
+        },
+        {
+          "type": "flow",
+          "title": "Steps of primary hemostasis",
+          "steps": [
+            "Injury exposes collagen; reflex and endothelin cause vasoconstriction",
+            "vWF binds collagen and platelet GpIb (adhesion)",
+            "Platelets change shape and release ADP, calcium, serotonin",
+            "COX-1 makes thromboxane A2 from arachidonic acid",
+            "ADP (P2Y12) and thromboxane A2 activate GpIIb/IIIa",
+            "Fibrinogen links GpIIb/IIIa on neighboring platelets (aggregation)"
+          ],
+          "caption": "Each step depends on the one before it; a defect at any step causes a platelet-type bleeding pattern."
+        },
+        {
+          "type": "table",
+          "title": "Defects of primary hemostasis by step",
+          "cols": [
+            "Step lost",
+            "Disorder",
+            "Key laboratory clue"
+          ],
+          "rows": [
+            [
+              "Adhesion: vWF",
+              "Von Willebrand disease (most common inherited bleeding disorder)",
+              "Low vWF activity; ristocetin aggregation reduced and corrected by adding normal plasma; PTT may be prolonged"
+            ],
+            [
+              "Adhesion: GpIb",
+              "Bernard-Soulier syndrome (autosomal recessive)",
+              "Giant platelets, mild thrombocytopenia; ristocetin aggregation absent and not corrected by normal plasma"
+            ],
+            [
+              "Activation: COX-1",
+              "Aspirin effect",
+              "Arachidonic acid induced aggregation absent; count normal"
+            ],
+            [
+              "Aggregation: GpIIb/IIIa",
+              "Glanzmann thrombasthenia (autosomal recessive)",
+              "No aggregation to ADP, collagen, or thrombin; ristocetin agglutination normal; count and size normal"
+            ],
+            [
+              "Many steps",
+              "Uremia",
+              "Prolonged bleeding time with a normal count"
+            ]
+          ],
+          "caption": "Ristocetin makes vWF bind GpIb in vitro, so it tests the adhesion step specifically."
+        },
+        {
+          "type": "p",
+          "text": "Because platelets act in the first minutes and in small vessels, defects of primary hemostasis cause immediate bleeding from skin and mucosa: petechiae, easy bruising, gum bleeding, nosebleeds, and heavy menstrual bleeding. The PT is normal because the clotting factors are intact."
+        },
+        {
+          "type": "stop",
+          "predict": "A patient has mucosal bleeding, a normal platelet count, and platelets that fail to aggregate with ristocetin. How would you tell von Willebrand disease from Bernard-Soulier syndrome?",
+          "explain": "Add normal plasma. In von Willebrand disease the platelets are normal and the plasma lacks vWF, so supplying vWF restores agglutination. In Bernard-Soulier syndrome the platelet lacks GpIb, so added vWF has nothing to bind. Giant platelets also point to Bernard-Soulier.",
+          "check": "The adhesion rows of the defects table."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-HEME-04-01-C03",
+      "obj": "HE-4.3",
+      "title": "Secondary hemostasis: the coagulation cascade and what PT and PTT measure",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Secondary hemostasis reinforces the fragile platelet plug with fibrin through a series of proteolytic activations. Most factors circulate as inactive protease precursors (zymogens), and each active enzyme cleaves the next, amplifying a small trigger. Factors II, VII, IX, and X (and the anticoagulant proteins C and S) are vitamin K dependent: gamma-glutamyl carboxylase adds carboxyl groups to their glutamate residues, and these gamma-carboxyglutamate residues bind calcium, which lets the factors attach to phosphatidylserine on activated platelets. Without vitamin K, or when warfarin blocks vitamin K epoxide reductase, these factors cannot bind membranes and do not work."
+        },
+        {
+          "type": "h",
+          "text": "How clotting starts in the body"
+        },
+        {
+          "type": "p",
+          "text": "In the body, clotting begins with tissue factor (TF) on fibroblasts and other cells outside the vessel, which normally never meet blood. At injury, TF binds factor VIIa, and the TF-VIIa complex activates factors X and IX. The small amount of Xa formed, with factor Va, converts a little prothrombin (II) to thrombin. Tissue factor pathway inhibitor soon shuts down TF-VIIa, so sustained clotting depends on the IXa-VIIIa route. That trace of thrombin is the key amplifier: it activates platelets, factor V, factor VIII (releasing it from vWF), and factor XI. Then IXa with VIIIa (tenase) and Xa with Va (prothrombinase) assemble on the activated platelet surface with calcium, and thrombin generation rises sharply. This is why hemophilia A and B bleed despite an intact TF-VIIa step."
+        },
+        {
+          "type": "flow",
+          "title": "From tissue factor to a cross-linked clot",
+          "steps": [
+            "Injury exposes tissue factor, which binds VIIa",
+            "TF-VIIa activates X and IX",
+            "Xa with Va makes a little thrombin",
+            "Thrombin activates platelets, V, VIII, XI, and XIII",
+            "IXa-VIIIa and Xa-Va on platelets produce a thrombin burst",
+            "Thrombin cleaves fibrinogen; fibrin monomers polymerize",
+            "XIIIa cross-links fibrin into a stable clot"
+          ],
+          "caption": "Initiation by TF-VIIa, amplification by thrombin, propagation on platelets."
+        },
+        {
+          "type": "p",
+          "text": "Thrombin removes fibrinopeptides A and B from fibrinogen, and the fibrin monomers polymerize into a loose mesh. Factor XIIIa, a transglutaminase activated by thrombin, covalently cross-links fibrin, making the clot stable and resistant to plasmin. Factor XIII deficiency leaves PT and PTT normal, because those tests end when fibrin first forms, but causes delayed and umbilical stump bleeding."
+        },
+        {
+          "type": "h",
+          "text": "The laboratory pathways"
+        },
+        {
+          "type": "p",
+          "text": "The extrinsic and intrinsic pathways describe the two laboratory tests, not two separate systems in the body. The PT adds tissue factor and calcium to plasma, so it depends on factor VII and the common pathway (X, V, II, fibrinogen). The INR standardizes the PT between laboratories. The PTT adds a negatively charged surface, which activates factor XII with prekallikrein and high molecular weight kininogen, so it depends on XII, XI, IX, VIII, and the common pathway. Deficiency of factor XII, prekallikrein, or high molecular weight kininogen prolongs the PTT but does not cause bleeding, because the contact step is not needed for hemostasis. Factor XI deficiency causes only mild bleeding after injury."
+        },
+        {
+          "type": "table",
+          "title": "What each screening test measures",
+          "cols": [
+            "Test",
+            "Factors measured",
+            "Isolated prolongation suggests",
+            "Typical reference range"
+          ],
+          "rows": [
+            [
+              "PT and INR",
+              "VII, X, V, II, fibrinogen",
+              "Factor VII deficiency, early vitamin K deficiency, early liver disease",
+              "PT about 11 to 13.5 s; INR about 0.8 to 1.2"
+            ],
+            [
+              "PTT",
+              "XII, XI, IX, VIII, X, V, II, fibrinogen (plus prekallikrein and HMWK)",
+              "Hemophilia A (VIII) or B (IX), XI or XII deficiency, heparin, lupus anticoagulant",
+              "About 25 to 35 s"
+            ],
+            [
+              "Neither prolonged",
+              "Not tested: XIII, platelets, vWF (usually)",
+              "Factor XIII deficiency or a platelet disorder",
+              "Not applicable"
+            ]
+          ],
+          "caption": "Both prolonged points to the common pathway or several factors. Ranges vary with reagent and laboratory."
+        },
+        {
+          "type": "stop",
+          "predict": "A patient on a poor diet with fat malabsorption has a prolonged PT but a normal PTT. Why does the PT become abnormal first?",
+          "explain": "All four vitamin K dependent factors fall, but factor VII has the shortest half-life (about 4 to 6 hours) and is measured only by the PT, so the PT lengthens before the PTT.",
+          "check": "The vitamin K paragraph and the test table."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-HEME-04-01-C04",
+      "obj": "HE-4.4",
+      "title": "Natural anticoagulants and fibrinolysis",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Thrombin generation is explosive, so the system needs equally strong brakes to keep a clot at the injury and stop it spreading along healthy vessel. The brakes act at three levels: inhibiting the active enzymes, removing the cofactors that drive amplification, and shutting down initiation. Fibrinolysis then removes fibrin once the vessel has healed. Normal endothelium carries most of these brakes, which is why clotting stays confined to the site where endothelium is lost."
+        },
+        {
+          "type": "table",
+          "title": "The brakes on clotting",
+          "cols": [
+            "Regulator",
+            "Source",
+            "Target",
+            "Effect of deficiency"
+          ],
+          "rows": [
+            [
+              "Antithrombin",
+              "Liver",
+              "Thrombin, Xa, and also IXa, XIa, XIIa",
+              "Venous thrombosis; heparin works poorly"
+            ],
+            [
+              "Thrombomodulin",
+              "Endothelial surface",
+              "Binds thrombin and redirects it to activate protein C",
+              "Loss with endothelial damage favors thrombosis"
+            ],
+            [
+              "Protein C",
+              "Liver (vitamin K dependent)",
+              "Activated form cleaves Va and VIIIa",
+              "Venous thrombosis; severe neonatal form causes purpura fulminans"
+            ],
+            [
+              "Protein S",
+              "Liver (vitamin K dependent); endothelium",
+              "Cofactor for activated protein C",
+              "Venous thrombosis"
+            ],
+            [
+              "Tissue factor pathway inhibitor",
+              "Endothelium",
+              "Xa, then the TF-VIIa-Xa complex",
+              "No common inherited deficiency; loss would leave initiation unchecked"
+            ],
+            [
+              "Plasmin (from plasminogen)",
+              "Liver makes plasminogen; activated on fibrin",
+              "Fibrin, fibrinogen, factors V and VIII",
+              "Impaired clot removal"
+            ]
+          ],
+          "caption": "Enzyme inhibitors, cofactor destruction, and initiation blockade act together with fibrinolysis."
+        },
+        {
+          "type": "p",
+          "text": "Antithrombin is a serine protease inhibitor (serpin) that forms a stable complex with thrombin and factor Xa. On its own it acts slowly. Heparan sulfate on endothelium, or heparin given as a drug, binds antithrombin and changes its shape, speeding inhibition about a thousandfold, so clotting factors that drift onto healthy endothelium are inactivated quickly. Inherited antithrombin deficiency causes venous thrombosis, and nephrotic syndrome can produce acquired deficiency because antithrombin is lost in the urine."
+        },
+        {
+          "type": "p",
+          "text": "The protein C pathway turns thrombin from a procoagulant into an anticoagulant. When thrombin reaches intact endothelium and binds thrombomodulin, it can no longer cleave fibrinogen or activate platelets well; instead the complex activates protein C, a step enhanced by the endothelial protein C receptor. Activated protein C, with protein S as its cofactor, cleaves factors Va and VIIIa, dismantling the prothrombinase and tenase complexes. Factor V Leiden is a point mutation (Arg506Gln) at the cleavage site in factor V, so factor Va resists inactivation and thrombin generation continues. Protein C has a short half-life, so when warfarin is started, protein C falls before most procoagulant factors, briefly favoring clotting; this underlies warfarin-induced skin necrosis in protein C deficiency."
+        },
+        {
+          "type": "flow",
+          "title": "Protein C pathway",
+          "steps": [
+            "Thrombin binds thrombomodulin on intact endothelium",
+            "Thrombin-thrombomodulin activates protein C",
+            "Activated protein C binds protein S",
+            "The complex cleaves Va and VIIIa",
+            "Tenase and prothrombinase lose their cofactors",
+            "Thrombin generation slows; clotting stays local"
+          ],
+          "caption": "Factor V Leiden blocks the cleavage step, so factor Va keeps working."
+        },
+        {
+          "type": "p",
+          "text": "Tissue factor pathway inhibitor (TFPI) works by feedback. It first binds factor Xa, and the TFPI-Xa pair then inhibits the TF-VIIa complex. Initiation therefore shuts itself down once some Xa has formed, which is why continued clotting depends on factors VIII and IX."
+        },
+        {
+          "type": "h",
+          "text": "Fibrinolysis, fibrin degradation products, and D-dimer"
+        },
+        {
+          "type": "p",
+          "text": "Endothelial cells release tissue plasminogen activator (tPA) slowly over days. Fibrin binds both tPA and plasminogen, which raises tPA activity many times, so plasmin forms on the clot rather than free in plasma. Free plasmin is quickly inactivated by alpha2-antiplasmin, and plasminogen activator inhibitor-1 (PAI-1) restrains tPA. Plasmin cleaves fibrin and fibrinogen into fibrin degradation products (FDPs). Only cross-linked fibrin, joined by factor XIIIa between D domains, yields D-dimer, so a raised D-dimer shows that a clot formed and is being broken down. D-dimer rises in deep vein thrombosis, pulmonary embolism, and DIC, but also after surgery, in pregnancy, cancer, and older age, so it is sensitive but not specific. A normal value helps exclude venous thrombosis in a low-probability patient."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-HEME-04-01-C05",
+      "obj": "HE-4.5",
+      "title": "Using laboratory tests to localize a bleeding disorder",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Each screening test examines one part of hemostasis, so together they localize a bleeding disorder. The platelet count asks whether there are enough platelets (normal about 150,000 to 400,000/microL). The bleeding time, or its modern replacement the platelet function analyzer, asks whether platelets and vWF can form a plug. The PT and PTT test the clotting factors, fibrinogen (normal about 200 to 400 mg/dL) shows whether the substrate is present or being consumed, and the mixing study separates a missing factor from an inhibitor."
+        },
+        {
+          "type": "p",
+          "text": "The bleeding pattern points the same way. Platelet and vWF disorders cause immediate mucocutaneous bleeding with petechiae. Clotting factor disorders cause delayed, deep bleeding into joints (hemarthrosis) and muscles, or renewed bleeding hours after surgery, because the plug is never reinforced by fibrin. Spontaneous bleeding from thrombocytopenia is uncommon until the count falls below about 20,000/microL."
+        },
+        {
+          "type": "table",
+          "title": "Localizing a bleeding disorder",
+          "cols": [
+            "Disorder",
+            "Platelets",
+            "Bleeding time",
+            "PT",
+            "PTT",
+            "Other clue"
+          ],
+          "rows": [
+            [
+              "Immune thrombocytopenia",
+              "Low",
+              "Prolonged",
+              "Normal",
+              "Normal",
+              "Large platelets; otherwise normal smear"
+            ],
+            [
+              "Platelet function defect (aspirin, uremia)",
+              "Normal",
+              "Prolonged",
+              "Normal",
+              "Normal",
+              "Abnormal aggregation studies"
+            ],
+            [
+              "Von Willebrand disease",
+              "Normal",
+              "Prolonged",
+              "Normal",
+              "Normal or prolonged",
+              "Low vWF activity; factor VIII may be low"
+            ],
+            [
+              "Hemophilia A or B",
+              "Normal",
+              "Normal",
+              "Normal",
+              "Prolonged",
+              "Corrects with mixing; low VIII or IX"
+            ],
+            [
+              "Acquired factor VIII inhibitor",
+              "Normal",
+              "Normal",
+              "Normal",
+              "Prolonged",
+              "Does not correct, especially after incubation"
+            ],
+            [
+              "Vitamin K deficiency or warfarin",
+              "Normal",
+              "Normal",
+              "Prolonged first",
+              "Normal or prolonged",
+              "Factor VII falls first"
+            ],
+            [
+              "Liver disease",
+              "Normal or low",
+              "Normal or prolonged",
+              "Prolonged",
+              "Normal or prolonged",
+              "Factor VIII normal or high"
+            ],
+            [
+              "Disseminated intravascular coagulation",
+              "Low",
+              "Prolonged",
+              "Prolonged",
+              "Prolonged",
+              "Low fibrinogen, high D-dimer, schistocytes"
+            ]
+          ],
+          "caption": "Platelet disorders change the count or bleeding time; factor disorders change the PT or PTT."
+        },
+        {
+          "type": "p",
+          "text": "In von Willebrand disease the PTT may be prolonged because vWF carries factor VIII and protects it from clearance, so low vWF lowers factor VIII. In liver disease, factor VIII is normal or high because it is made largely by endothelial cells, including liver sinusoidal endothelium, whereas the other factors are made by hepatocytes. Normal or high factor VIII therefore helps separate liver disease from DIC, where factor VIII is consumed."
+        },
+        {
+          "type": "p",
+          "text": "In the mixing study, patient plasma is mixed 1:1 with normal plasma and the prolonged test is repeated. Any deficient factor rises to at least about 50% of normal, enough to normalize the time, so correction means deficiency. An inhibitor also acts on the factors in the added plasma, so the time stays long. Acquired factor VIII antibodies act slowly, so the mix may correct at first and prolong again after incubation at 37 °C (98.6 °F) for 1 to 2 hours. Lupus anticoagulant, an antiphospholipid antibody, prolongs the PTT in the tube by interfering with phospholipid-dependent reactions, yet causes thrombosis rather than bleeding in the body. Heparin also prevents correction."
+        },
+        {
+          "type": "example",
+          "title": "Reading a mixing study",
+          "text": "A 30-year-old woman with two miscarriages has an isolated PTT of 52 s (reference about 25 to 35 s), normal PT, and normal platelets. The 1:1 mix gives 50 s immediately. Step 1: the PT is normal, so VII and the common pathway are intact; the problem lies in XII, XI, IX, or VIII. Step 2: if a factor were missing, normal plasma would restore it to about 50% and the PTT would correct. It did not, so an inhibitor is present. Step 3: no bleeding, pregnancy loss, and immediate failure to correct favor lupus anticoagulant over a factor VIII antibody, which bleeds and often prolongs only after incubation. Heparin must be excluded."
+        },
+        {
+          "type": "flow",
+          "title": "How DIC produces both clotting and bleeding",
+          "steps": [
+            "Sepsis, obstetric emergency, cancer, or trauma releases tissue factor",
+            "Widespread thrombin generation forms microthrombi",
+            "Platelets, fibrinogen, V, and VIII are consumed",
+            "Plasmin digests the fibrin, raising D-dimer",
+            "Low platelets and factors prolong PT and PTT",
+            "Bleeding from venipuncture sites and mucosa; organ ischemia"
+          ],
+          "caption": "Fibrin strands in small vessels shear red cells into schistocytes."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-HEME-04-01-C06",
+      "obj": "HE-4.6",
+      "title": "Virchow triad and venous thrombosis",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A thrombus is a clot that forms inside an intact vessel during life. Virchow triad names the three conditions that favor it: stasis or turbulence of blood flow, endothelial injury, and hypercoagulability. Any one can be enough, but most thromboses involve two or three. Arterial thrombi form under high shear, usually on a ruptured atherosclerotic plaque, and are rich in platelets (pale). Venous thrombi form in slow flow, are rich in red cells and fibrin (red), and are driven mainly by stasis and hypercoagulability."
+        },
+        {
+          "type": "p",
+          "text": "Stasis matters because flowing blood dilutes activated factors and brings fresh inhibitors, and because slow flow lets platelets contact the endothelium. Deep vein thrombi usually begin in the valve pockets of the calf veins, where flow is slowest, and the endothelium there becomes hypoxic and expresses adhesion molecules and procoagulant activity. Immobility, long travel, and paralysis remove the calf muscle pump; heart failure and atrial fibrillation slow flow in the venous system and atria. Endothelial injury exposes subendothelial collagen and tissue factor and removes thrombomodulin, heparan sulfate, prostacyclin, and nitric oxide."
+        },
+        {
+          "type": "table",
+          "title": "Risk factors for venous thrombosis by arm of the triad",
+          "cols": [
+            "Risk factor",
+            "Stasis",
+            "Endothelial injury",
+            "Hypercoagulability"
+          ],
+          "rows": [
+            [
+              "Immobility, long travel, paralysis",
+              "Loss of calf muscle pump",
+              "No",
+              "No"
+            ],
+            [
+              "Major surgery, especially hip and knee",
+              "Bed rest",
+              "Vessel damage",
+              "Tissue factor release"
+            ],
+            [
+              "Pregnancy and postpartum",
+              "Uterus compresses pelvic veins; venodilation",
+              "Delivery",
+              "More fibrinogen, VII, VIII, vWF; less protein S"
+            ],
+            [
+              "Estrogen therapy or combined oral contraceptives",
+              "No",
+              "No",
+              "More hepatic clotting factors; less protein S and antithrombin"
+            ],
+            [
+              "Malignancy",
+              "Immobility, tumor compression",
+              "Tumor invasion, catheters",
+              "Tumor tissue factor and mucins"
+            ],
+            [
+              "Heart failure",
+              "Low cardiac output, venous congestion",
+              "No",
+              "No"
+            ]
+          ],
+          "caption": "Surgery, pregnancy, and malignancy act on more than one arm at once, which is why their risk is high."
+        },
+        {
+          "type": "p",
+          "text": "Hypercoagulability means a shift in the balance between procoagulant and anticoagulant proteins. Estrogen raises hepatic synthesis of fibrinogen and factors VII, VIII, and X, and lowers protein S, producing an acquired resistance to activated protein C. Pregnancy adds these changes to stasis from the enlarged uterus and progesterone-related venodilation, and the risk peaks in the weeks after delivery. Tumors, especially pancreatic, lung, and gastrointestinal adenocarcinomas, express tissue factor and release mucins that activate clotting, which can cause migratory superficial thrombophlebitis (Trousseau syndrome)."
+        },
+        {
+          "type": "table",
+          "title": "Common inherited and acquired thrombophilias",
+          "cols": [
+            "Condition",
+            "Mechanism"
+          ],
+          "rows": [
+            [
+              "Factor V Leiden",
+              "Factor Va resists cleavage by activated protein C; most common inherited thrombophilia in people of European descent"
+            ],
+            [
+              "Prothrombin G20210A",
+              "Gene variant raises plasma prothrombin levels"
+            ],
+            [
+              "Antithrombin, protein C, or protein S deficiency",
+              "Loss of a natural anticoagulant"
+            ],
+            [
+              "Antiphospholipid syndrome (acquired)",
+              "Antibodies to phospholipid-binding proteins promote arterial and venous thrombosis and pregnancy loss"
+            ]
+          ],
+          "caption": "Inherited thrombophilia mostly adds hypercoagulability; clots usually appear when a second trigger, such as surgery or estrogen, is added."
+        },
+        {
+          "type": "example",
+          "title": "Counting the arms of the triad",
+          "text": "A 34-year-old woman with factor V Leiden takes a combined oral contraceptive and develops a swollen left calf two weeks after a cesarean delivery. Hypercoagulability comes from three sources: factor Va that resists activated protein C, estrogen raising clotting factors and lowering protein S, and the postpartum state. Stasis comes from post-operative bed rest and pelvic venous compression late in pregnancy. Endothelial injury comes from surgery on pelvic vessels. All three arms are active, and her inherited defect has met two acquired triggers at once. The likely thrombus began in a deep calf vein valve pocket and can extend proximally, which is the usual source of pulmonary emboli."
+        }
+      ]
+    }
+  ],
+  "integration": [
+    {
+      "type": "p",
+      "text": "Hemostasis draws on every Part I discipline. Biochemistry supplies vitamin K dependent gamma-carboxylation, serine protease and serpin chemistry, and the COX-1 pathway that makes thromboxane A2. Anatomy and histology explain why the endothelium is anticoagulant while the subendothelium is procoagulant, and why venous valve pockets in the calf are where deep vein thrombi start. Physiology adds shear-dependent platelet adhesion and growth factor feedback, such as thrombopoietin cleared by the platelet mass and erythropoietin set by renal oxygen sensing. Pathology then reads each disease as a failure of one step: too little (hemophilia, von Willebrand disease), too much (factor V Leiden), or both at once (DIC)."
+    },
+    {
+      "type": "p",
+      "text": "Immunology and microbiology enter through inflammation. Bacterial endotoxin induces tissue factor on monocytes and endothelium and suppresses thrombomodulin, which links sepsis to DIC, and IL-6 raises fibrinogen and thrombopoietin as acute phase responses. Antibodies can attack platelets (immune thrombocytopenia), factor VIII (acquired inhibitors), or phospholipid-binding proteins (antiphospholipid syndrome). The laboratory tests have limits: PT and PTT measure plasma clotting time in a tube, not bleeding risk in the body, so factor XII deficiency and lupus anticoagulant prolong the PTT without bleeding, and factor XIII deficiency bleeds with normal tests."
+    }
+  ],
+  "summary": [
+    "Committed progenitors depend on one dominant growth factor: EPO for red cells, TPO for megakaryocytes, G-CSF for neutrophils, GM-CSF for granulocytes and monocytes, and IL-5 for eosinophils; most signal through JAK-STAT.",
+    "EPO is regulated at its source by renal hypoxia and HIF, while free TPO is regulated by uptake on the platelet mass.",
+    "Primary hemostasis is vasoconstriction, adhesion (vWF bridging collagen to GpIb), activation (ADP, thromboxane A2 by COX-1), and aggregation (fibrinogen bridging GpIIb/IIIa).",
+    "In the body, TF-VIIa starts clotting, a trace of thrombin amplifies it, and tenase (IXa-VIIIa) and prothrombinase (Xa-Va) on platelets propagate it; XIIIa cross-links fibrin.",
+    "PT measures VII and the common pathway; PTT measures XII, XI, IX, VIII, and the common pathway; factor VII has the shortest half-life, so vitamin K deficiency prolongs the PT first.",
+    "Antithrombin inhibits thrombin and Xa (heparin accelerates it), activated protein C with protein S cleaves Va and VIIIa, and TFPI shuts down TF-VIIa once Xa forms.",
+    "Plasmin forms on fibrin from tPA and plasminogen; D-dimer comes only from cross-linked fibrin and is sensitive but not specific.",
+    "Platelet defects cause immediate mucocutaneous bleeding; factor defects cause delayed deep bleeding into joints and muscles.",
+    "A prolonged time that corrects with mixing means a deficiency; one that does not correct means an inhibitor such as lupus anticoagulant, a factor VIII antibody, or heparin.",
+    "Virchow triad is stasis, endothelial injury, and hypercoagulability; surgery, pregnancy, and malignancy act on more than one arm at once."
+  ],
+  "sources": [
+    {
+      "book": "Guyton and Hall Textbook of Medical Physiology",
+      "where": "Hemostasis and Blood Coagulation"
+    },
+    {
+      "book": "Boron and Boulpaep Medical Physiology",
+      "where": "Blood, section on hemostasis and fibrinolysis"
+    },
+    {
+      "book": "Robbins and Cotran Pathologic Basis of Disease",
+      "where": "Hemodynamic Disorders, Thromboembolic Disease, and Shock"
+    },
+    {
+      "book": "Robbins and Cotran Pathologic Basis of Disease",
+      "where": "Red Blood Cell and Bleeding Disorders"
+    },
+    {
+      "book": "Lippincott Illustrated Reviews: Biochemistry",
+      "where": "Vitamins, section on vitamin K"
+    },
+    {
+      "book": "Lange Pathophysiology of Disease",
+      "where": "Blood Disorders"
+    }
+  ],
+  "verify": [
+    "Reference ranges for PT (about 11 to 13.5 s), INR (about 0.8 to 1.2), PTT (about 25 to 35 s), fibrinogen (about 200 to 400 mg/dL), and platelet count (about 150,000 to 400,000/microL) vary by laboratory and reagent; confirm the values NABNE uses.",
+    "The bleeding time has largely been replaced in practice by the platelet function analyzer; confirm whether NABNE Part I still expects bleeding time in interpretation questions. Its normal range is quoted from about 2 to 9 minutes depending on method.",
+    "The platelet count below which spontaneous bleeding becomes likely is quoted as about 10,000 to 20,000/microL in different sources.",
+    "The factor VII half-life is quoted from about 3 to 6 hours; confirm the value expected.",
+    "Confirm whether NABNE expects the eponyms Bernard-Soulier, Glanzmann, Trousseau, and Weibel-Palade, and whether the cell-based model of coagulation or the classic cascade is the expected framework.",
+    "The approximate thousandfold acceleration of antithrombin by heparin is quoted from about 1,000 to 4,000 times depending on the target enzyme.",
+    "Requested new diagram names for a future revision: coagulation-cascade (extrinsic, intrinsic, and common pathways with PT and PTT brackets) and platelet-plug (vWF, GpIb, GpIIb/IIIa, and fibrinogen at a vessel wall)."
+  ]
+}

@@ -1,0 +1,580 @@
+{
+ "unit": "IN-13-G",
+ "chapter_id": "NPLEX-P1-INTG-13",
+ "topic_id": "NPLEX-P1-INTG-13-07",
+ "title": "Malignant Skin Neoplasms",
+ "subject": "Integumentary System (INTG)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter explains how ultraviolet radiation and loss of immune surveillance turn normal keratinocytes and melanocytes into the three common skin cancers, and how a clonal T cell population produces cutaneous lymphoma. It covers the hedgehog pathway in basal cell carcinoma, ultraviolet mutagenesis and repair failure in squamous cell carcinoma, the growth phases and depth of melanoma, and the staging of mycosis fungoides. Board questions give a lesion description, a biopsy finding, or a risk history and ask for the tumor, its molecular driver, or its likelihood of spreading. Reasoning from mechanism to appearance, rather than memorizing lesion lists, is what makes those questions answerable.",
+  "prerequisites": [
+   "Normal epidermal layers, keratinocyte maturation, desmosomes, and the basement membrane (IN-1, IN-2)",
+   "Melanocyte biology: melanosome transfer, tyrosinase, and eumelanin versus pheomelanin (IN-3)",
+   "DNA damage and repair, especially nucleotide excision repair and the p53 damage response",
+   "Core oncogenesis concepts: proto-oncogene activation, tumor suppressor loss, clonal evolution, invasion, and metastasis",
+   "T cell subsets, memory T cell homing, and tumor immune surveillance (IM-4, IM-9)"
+  ],
+  "connections": [
+   {
+    "to": "Benign and premalignant skin lesions (IN-13-F)",
+    "how": "Actinic keratosis, seborrheic keratosis, and benign nevi are the lesions these cancers must be distinguished from, and actinic keratosis is the direct precursor of squamous cell carcinoma."
+   },
+   {
+    "to": "Immunology and transplant medicine (IM-9, IM-13)",
+    "how": "T cell immune surveillance normally clears mutant keratinocyte clones, so pharmacologic immunosuppression produces a sharp, dose-related rise in squamous cell carcinoma."
+   },
+   {
+    "to": "Microbiology and virology",
+    "how": "Human papillomavirus E6 and E7 proteins inactivate p53 and Rb, giving a viral route to the same cell cycle escape that ultraviolet mutation causes."
+   },
+   {
+    "to": "Genetics and inherited cancer syndromes",
+    "how": "Germline PTCH1 loss (Gorlin syndrome), CDKN2A loss (familial melanoma), and nucleotide excision repair defects (xeroderma pigmentosum) each compress decades of sporadic risk into childhood or early adult life."
+   },
+   {
+    "to": "Hematopathology (HE-9)",
+    "how": "Mycosis fungoides is a peripheral T cell lymphoma that happens to home to skin, so its staging, transformation, and leukemic phase follow lymphoma rules rather than carcinoma rules."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Peripheral palisading",
+    "def": "Alignment of tumor cells into an orderly row at the outer edge of a basaloid nest, imitating the normal epidermal basal layer."
+   },
+   {
+    "term": "Retraction cleft",
+    "def": "A gap between a basaloid tumor nest and its surrounding stroma, produced during tissue processing because the tumor and its specialized stroma separate readily."
+   },
+   {
+    "term": "Cyclobutane pyrimidine dimer",
+    "def": "A covalent link between two adjacent pyrimidine bases formed directly by ultraviolet B photons, the principal premutagenic lesion in sun-exposed skin."
+   },
+   {
+    "term": "Keratin pearl",
+    "def": "A rounded whorl of concentrically layered keratinized cells within a squamous tumor, evidence that the tumor retains squamous differentiation."
+   },
+   {
+    "term": "Intercellular bridge",
+    "def": "A light-microscopic image of desmosomal attachment between adjacent squamous cells, seen as fine spines across the intercellular space."
+   },
+   {
+    "term": "Carcinoma in situ",
+    "def": "Full-thickness epithelial atypia that has not breached the basement membrane, so it has no access to dermal vessels or lymphatics."
+   },
+   {
+    "term": "Marjolin ulcer",
+    "def": "Squamous cell carcinoma arising in a chronic burn scar, long-standing ulcer, or draining sinus tract."
+   },
+   {
+    "term": "Radial growth phase",
+    "def": "The stage in which melanoma cells spread horizontally within the epidermis and papillary dermis without forming an expansile dermal mass."
+   },
+   {
+    "term": "Vertical growth phase",
+    "def": "The stage in which a melanoma clone grows as an expanding nodule into the dermis, gaining access to lymphatics and blood vessels."
+   },
+   {
+    "term": "Breslow thickness",
+    "def": "The depth in millimeters from the top of the granular layer to the deepest invasive tumor cell, the strongest prognostic measure in localized melanoma."
+   },
+   {
+    "term": "Epidermotropism",
+    "def": "The tendency of malignant skin-homing T cells to migrate into and persist within the epidermis."
+   },
+   {
+    "term": "Pautrier microabscess",
+    "def": "A discrete intraepidermal cluster of atypical lymphocytes with folded (cerebriform) nuclei, characteristic of mycosis fungoides."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-INTG-13-07-C01",
+   "obj": "IN-13-G.1",
+   "title": "Basal cell carcinoma: hedgehog activation, appearance, and local behavior",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Basal cell carcinoma is the most common cancer in humans, and it is a disease of chronically sun-exposed skin in lightly pigmented people. About four out of five arise on the head and neck, with the nose, inner canthus, and upper lip favored. The tumor cells resemble immature basal keratinocytes and arise from basal cells and from stem cells of the hair follicle, which is why the lesion does not occur on true mucosa or on palms and soles, where follicles are absent."
+    },
+    {
+     "type": "p",
+     "text": "The driving lesion is constitutive activation of the hedgehog signaling pathway, present in nearly every case. PTCH1, on chromosome 9q, encodes a receptor whose job is inhibitory: in the absence of hedgehog ligand, PTCH1 holds the transmembrane protein smoothened (SMO) silent. Ultraviolet mutation that inactivates PTCH1, or an activating mutation in SMO, releases that restraint, so GLI transcription factors move to the nucleus and drive proliferation genes continuously without any ligand. Germline loss of one PTCH1 allele produces Gorlin syndrome (nevoid basal cell carcinoma syndrome), in which numerous basal cell carcinomas appear in the second and third decades alongside odontogenic keratocysts, palmar and plantar pits, and medulloblastoma. TP53 mutation is a frequent second hit."
+    },
+    {
+     "type": "flow",
+     "title": "Hedgehog pathway release in basal cell carcinoma",
+     "steps": [
+      "Normally PTCH1 holds SMO inactive without hedgehog ligand",
+      "UVB mutation inactivates PTCH1, or SMO is activated",
+      "SMO signals with no ligand present",
+      "GLI transcription factors enter the nucleus",
+      "Continuous proliferation of basal-type keratinocytes",
+      "Basaloid nests expand and invade adjacent tissue"
+     ],
+     "caption": "Loss of an inhibitor, not gain of a growth signal, is what switches this pathway on. Germline PTCH1 loss (Gorlin syndrome) starts the sequence one step ahead."
+    },
+    {
+     "type": "p",
+     "text": "The nodular form, about two thirds of cases, is a translucent or pearly papule crossed by fine dilated vessels (telangiectasias) with a rolled, elevated border. Central necrosis and ulceration leave a crater with a raised rim, historically called a rodent ulcer. Superficial basal cell carcinoma appears as a thin erythematous scaly patch on the trunk and can be mistaken for eczema or psoriasis. The morpheaform or infiltrative pattern is a firm indurated plaque whose true edges extend well beyond what is visible, so it recurs more often and may track along nerves."
+    },
+    {
+     "type": "p",
+     "text": "Histologically, nests and cords of small, uniform, dark basaloid cells descend from the epidermis; the outermost cells line up in a palisade, imitating the normal basal layer, and retraction clefts separate the nest from its mucinous stroma. Mitoses are present but the cells show little pleomorphism."
+    },
+    {
+     "type": "p",
+     "text": "Basal cell carcinoma invades and destroys locally, eroding cartilage, bone, and orbital structures when neglected, yet metastasis is exceptional, usually quoted at well under 0.1 percent of cases. The usual explanation is dependence on its induced stroma: the tumor requires the specialized fibrovascular stroma it recruits in order to grow, so cells that reach blood or lymph rarely establish elsewhere. Morbidity therefore comes from local destruction at anatomically delicate sites rather than from distant disease."
+    },
+    {
+     "type": "stop",
+     "predict": "A patient has dozens of basal cell carcinomas by age 25, plus jaw cysts and small pits on the palms. Which gene is mutated in the germline, and why do the tumors appear so early?",
+     "explain": "Every cell already carries one inactivated copy of the pathway's inhibitor, so a single somatic hit, rather than two, is enough to release signaling in any sun-exposed keratinocyte.",
+     "check": "Compare your answer with the paragraph on PTCH1 and the hedgehog flow figure."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-INTG-13-07-C02",
+   "obj": "IN-13-G.2",
+   "title": "Squamous cell carcinoma: ultraviolet mutagenesis, immune escape, and site selection",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Cutaneous squamous cell carcinoma is the second most common skin cancer, and its risk tracks cumulative lifetime ultraviolet dose rather than the episodic sunburn pattern that matters for melanoma. The mechanism starts with photochemistry. Ultraviolet B (about 290 to 320 nm) is absorbed directly by DNA and joins adjacent pyrimidines into cyclobutane pyrimidine dimers. If nucleotide excision repair removes them before replication, nothing follows; if replication comes first, the polymerase misreads the lesion and inserts the characteristic C to T and CC to TT substitutions at dipyrimidine sites. Ultraviolet A penetrates deeper and acts mainly through reactive oxygen species."
+    },
+    {
+     "type": "p",
+     "text": "Mutations accumulate in a defined order. TP53 is hit early, which is why actinic keratosis, the partial-thickness dysplastic lesion that precedes invasive carcinoma, already carries p53 mutant clones; NOTCH and CDKN2A loss follow. Losing p53 removes the damage checkpoint, so the next ultraviolet injury is replicated instead of repaired or deleted by apoptosis. That stepwise logic explains the clinical sequence of sun damage, actinic keratosis, carcinoma in situ, and invasive carcinoma over years to decades."
+    },
+    {
+     "type": "flow",
+     "title": "From photon to invasive squamous cell carcinoma",
+     "steps": [
+      "UVB forms pyrimidine dimers in keratinocyte DNA",
+      "Nucleotide excision repair fails or is overwhelmed",
+      "Replication makes the C to T mutation permanent, TP53 hit early",
+      "Checkpoint and apoptosis lost, dysplastic clone expands (actinic keratosis)",
+      "Further hits, NOTCH and CDKN2A loss, full-thickness atypia in situ",
+      "Basement membrane breached, invasion into dermis"
+     ],
+     "caption": "Each step needs the one before it, so interrupting repair, checkpoints, or immune clearance accelerates the whole chain."
+    },
+    {
+     "type": "p",
+     "text": "Anything that raises the mutational load, blocks repair, or removes immune clearance multiplies risk. Xeroderma pigmentosum, an autosomal recessive failure of nucleotide excision repair, leaves dimers unrepaired, so affected children develop multiple skin cancers, melanoma among them, in the first two decades. Solid organ transplant recipients lose the T cell surveillance that normally eliminates mutant and virus-infected keratinocytes: their squamous cell carcinoma incidence rises many times over, the tumor becomes more common than basal cell carcinoma, and lesions behave more aggressively. Beta human papillomavirus types persist under that same immunosuppression, while mucosal types including HPV 16 and 18 drive anogenital and periungual carcinoma, where E6 degrades p53 and E7 inactivates Rb."
+    },
+    {
+     "type": "table",
+     "title": "Risk factors for cutaneous squamous cell carcinoma and the mechanism of each",
+     "cols": [
+      "Risk factor",
+      "Mechanism",
+      "Clinical signature"
+     ],
+     "rows": [
+      [
+       "Cumulative ultraviolet exposure",
+       "Pyrimidine dimers, early TP53 mutation",
+       "Bald scalp, dorsal hands, lower lip"
+      ],
+      [
+       "Actinic keratosis",
+       "Established p53 mutant dysplastic clone",
+       "Rough scaly macule, direct precursor"
+      ],
+      [
+       "Transplant immunosuppression",
+       "Loss of T cell surveillance and viral control",
+       "Multiple fast tumors, squamous exceeds basal cell"
+      ],
+      [
+       "Human papillomavirus",
+       "E6 degrades p53, E7 inactivates Rb",
+       "Anogenital, periungual, verrucous lesions"
+      ],
+      [
+       "Chronic arsenic exposure",
+       "Oxidative damage, impaired repair",
+       "Well water, palmar keratoses, in situ lesions"
+      ],
+      [
+       "Xeroderma pigmentosum",
+       "Defective nucleotide excision repair",
+       "Photosensitivity, multiple cancers in childhood"
+      ],
+      [
+       "Chronic scars, ulcers, sinus tracts",
+       "Decades of inflammation-driven proliferation",
+       "Marjolin ulcer in burn scar or sinus"
+      ],
+      [
+       "Ionizing radiation, tar and soot, smoking",
+       "Direct and chemical mutagenesis",
+       "Radiation fields, occupational exposure, lip"
+      ]
+     ],
+     "caption": "Every entry acts by one of three routes: more DNA damage, less repair, or less immune clearance."
+    },
+    {
+     "type": "p",
+     "text": "Site selection follows ultraviolet dose and anatomy. The lower lip projects forward and is held nearly horizontal to the sun, its vermilion epithelium is thin and lightly pigmented, and the upper lip is shaded by the nose. Add tobacco contact and chronic actinic cheilitis, and the lower lip becomes the classic squamous site while the shaded upper lip and inner canthus favor basal cell carcinoma. The scalp vertex, helix of the ear, and dorsal forearms follow the same logic of maximum exposure."
+    },
+    {
+     "type": "p",
+     "text": "Marjolin ulcer deserves separate attention because its stimulus is not ultraviolet light but decades of wound repair: persistent inflammation, repeated keratinocyte proliferation, scar lymphatic obliteration, and relative local immune isolation. A long-stable burn scar or chronic ulcer that begins to grow, indurate, or exceed its old margins should be read as carcinoma arising in the scar."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-INTG-13-07-C03",
+   "obj": "IN-13-G.3",
+   "title": "Recognizing squamous cell carcinoma and separating it from Bowen disease and keratoacanthoma",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Invasive cutaneous squamous cell carcinoma presents as a firm, scaly, crusted, or ulcerated nodule or plaque on sun-damaged skin, often tender, with an indurated base that feels fixed to surrounding tissue. The usual history is rapid enlargement or a nonhealing ulcer in a field of actinic damage. A thick conical keratin spike (cutaneous horn) may sit on top, and since about a quarter of horns overlie a carcinoma, the base rather than the horn is diagnostic."
+    },
+    {
+     "type": "p",
+     "text": "Histology reflects the tumor's attempt to continue squamous differentiation. Irregular nests and tongues of atypical keratinocytes extend through the basement membrane into the dermis, and within them cells enlarge, acquire abundant eosinophilic cytoplasm, and layer concentrically around central keratin to form keratin pearls. The fine spines crossing the space between adjacent cells, the intercellular bridges, are desmosomes seen at the light microscope and confirm squamous lineage. Poorly differentiated tumors lose keratinization, become spindled, and may need cytokeratin staining to separate them from sarcoma or melanoma."
+    },
+    {
+     "type": "table",
+     "title": "Squamous proliferations compared",
+     "cols": [
+      "Lesion",
+      "Depth of atypia",
+      "Appearance",
+      "Key distinguishing feature"
+     ],
+     "rows": [
+      [
+       "Actinic keratosis",
+       "Partial thickness, lower epidermis",
+       "Rough gritty macule, better felt than seen",
+       "Parakeratosis alternating with orthokeratosis"
+      ],
+      [
+       "Bowen disease (in situ)",
+       "Full thickness, basement membrane intact",
+       "Sharply marginated red scaly plaque",
+       "No dermal invasion, so no metastatic capacity"
+      ],
+      [
+       "Keratoacanthoma",
+       "Atypia present, architecture symmetric",
+       "Dome nodule with central keratin plug",
+       "Weeks of growth then involution, symmetric cup"
+      ],
+      [
+       "Invasive squamous cell carcinoma",
+       "Through basement membrane into dermis",
+       "Indurated scaly or ulcerated nodule, fixed base",
+       "Keratin pearls, intercellular bridges, invasive nests"
+      ]
+     ],
+     "caption": "Invasion through the basement membrane, not the degree of cytologic atypia, is what separates in situ from invasive disease and creates metastatic potential."
+    },
+    {
+     "type": "p",
+     "text": "Bowen disease is squamous cell carcinoma in situ: full-thickness atypia with disordered maturation and mitoses at all levels, but an intact basement membrane, so the lesion has no access to dermal lymphatics or vessels until it invades. It arises on sun-exposed skin and also on covered skin, where arsenic exposure and human papillomavirus are the more likely causes. On the glans penis the same in situ lesion is called erythroplasia of Queyrat and appears as a velvety red plaque."
+    },
+    {
+     "type": "p",
+     "text": "Keratoacanthoma is the classic look-alike, because its cells can be indistinguishable from well-differentiated carcinoma on a small sample. The distinction rests on architecture and tempo rather than cytology, and a shave biopsy may capture neither. Since some lesions diagnosed this way prove to be carcinoma, it is now widely regarded as a well-differentiated squamous variant rather than a reliably benign entity."
+    },
+    {
+     "type": "p",
+     "text": "Metastatic risk is low overall but higher than for basal cell carcinoma: low single digits of percent for ordinary sun-induced tumors on the trunk and limbs, and substantially higher for tumors of the lip and ear, those over about 2 cm wide or about 2 mm deep, poorly differentiated or perineurally invasive tumors, recurrent tumors, carcinoma in a scar or chronic ulcer, and any tumor in an immunosuppressed patient. Spread is lymphatic to regional nodes first, then hematogenous. Squamous cell carcinoma is far less dependent than basal cell carcinoma on a recruited stroma, so detached cells survive at distant sites."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: reading two lip lesions",
+     "text": "Two patients present with lip lesions. The first is a pearly papule with fine telangiectasias and a rolled border on the upper lip of a 70 year old gardener. The second is a 1.5 cm indurated ulcer with a keratotic rim on the lower lip of a 68 year old former pipe smoker, with a firm submental node. The upper lip sits in the shadow of the nose and favors basal cell carcinoma, whose pearly translucency comes from thin tumor over an induced vascular stroma and whose nodal spread would be very unusual. The lower lip takes direct sun on thin vermilion epithelium, so the second lesion is squamous cell carcinoma, with keratin production explaining the crust and dermal lymphatic access explaining the node."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-INTG-13-07-C04",
+   "obj": "IN-13-G.4",
+   "title": "Melanoma: risk factors and the clinicopathologic subtypes",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Melanoma is a malignancy of melanocytes, the neural crest derived pigment cells of the epidermal basal layer, mucosa, uvea, and meninges. It accounts for a small minority of skin cancers but most skin cancer deaths, because unlike the keratinocyte cancers it metastasizes readily once it acquires the capacity. Its risk profile differs from squamous cell carcinoma in one way worth holding onto: what matters most is intense intermittent exposure, meaning blistering sunburns, especially in childhood and adolescence, rather than total lifetime dose."
+    },
+    {
+     "type": "p",
+     "text": "Host factors multiply that exposure risk. Fair skin that burns rather than tans (Fitzpatrick types I and II), red or blond hair, light eyes, and freckling all reflect a pheomelanin-predominant pigment phenotype that absorbs ultraviolet poorly and itself generates reactive oxygen species; melanin at low concentration gives little photoprotection. A high total nevus count and the presence of clinically atypical or dysplastic nevi mark both melanocyte proliferative tendency and past exposure, and dysplastic nevi are markers of risk far more often than they are direct precursors. A first degree family history raises risk roughly twofold. Germline CDKN2A mutation, which eliminates the p16 brake on CDK4 and cyclin D, causes familial melanoma with multiple primaries and an associated risk of pancreatic cancer, and xeroderma pigmentosum raises melanoma risk alongside the keratinocyte cancers."
+    },
+    {
+     "type": "p",
+     "text": "Somatic drivers sort by site and exposure pattern. Melanomas on intermittently exposed trunk and limb skin, in younger patients and sometimes arising in a nevus, frequently carry BRAF V600E, which activates the MAP kinase pathway; about half of cutaneous melanomas are BRAF mutant and most of the rest carry NRAS mutations. Tumors on chronically sun-damaged head and neck skin in older patients more often carry NF1 or other non-V600E drivers and show the highest mutational burden of any common tumor. Acral and mucosal melanomas arise where ultraviolet barely reaches, show few ultraviolet signature mutations, and are enriched for KIT alterations, which is why their incidence is similar across skin colors while cutaneous melanoma incidence is not."
+    },
+    {
+     "type": "table",
+     "title": "Melanoma subtypes by site, exposure pattern, and behavior",
+     "cols": [
+      "Subtype",
+      "Typical site and patient",
+      "Ultraviolet relationship",
+      "Growth behavior"
+     ],
+     "rows": [
+      [
+       "Superficial spreading",
+       "Trunk in men, legs in women, middle age; most common",
+       "Intermittent intense",
+       "Long radial phase, often thin if caught early"
+      ],
+      [
+       "Nodular",
+       "Any site, often trunk or head and neck",
+       "Intermittent",
+       "Vertical growth from the outset, thick at diagnosis"
+      ],
+      [
+       "Lentigo maligna",
+       "Cheek, nose, temple of older sun-damaged adults",
+       "Chronic cumulative",
+       "Very long in situ phase; invasive form is lentigo maligna melanoma"
+      ],
+      [
+       "Acral lentiginous",
+       "Palms, soles, nail beds; all skin colors",
+       "Not ultraviolet driven",
+       "Long radial phase but diagnosed late, so thick"
+      ],
+      [
+       "Mucosal, including genital",
+       "Oral, sinonasal, anorectal, vulvar, penile mucosa",
+       "Not ultraviolet driven",
+       "Often multifocal and advanced, poorest prognosis"
+      ]
+     ],
+     "caption": "Subtype predicts site and tempo, not inherent lethality: once thickness and ulceration are accounted for, outcome follows depth rather than subtype name."
+    },
+    {
+     "type": "p",
+     "text": "Clinical recognition uses the ABCDE features: asymmetry, border irregularity or notching, color variation within one lesion, diameter greater than about 6 mm, and evolution, meaning documented change in size, shape, color, or symptoms. Evolution carries the most weight because it reports active clonal growth, and the ugly duckling observation, a lesion that does not resemble the patient's other nevi, catches tumors that fail the other criteria. Subungual melanoma presents as a longitudinal pigmented nail band with pigment extending onto the adjacent cuticle and proximal nail fold, which distinguishes it from trauma or benign melanonychia. Amelanotic melanoma, which has lost pigment production, is a pink or skin-colored nodule and is a classic missed diagnosis."
+    },
+    {
+     "type": "stop",
+     "predict": "Why do acral and mucosal melanoma occur at similar rates in people with deeply and lightly pigmented skin, while superficial spreading melanoma does not?",
+     "explain": "Trace which risk factor each subtype depends on, and ask whether epidermal melanin can modify that factor at the site in question.",
+     "check": "Compare your reasoning with the paragraph on somatic drivers by site and the subtype table."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-INTG-13-07-C05",
+   "obj": "IN-13-G.5",
+   "title": "Growth phases, Breslow thickness, and melanocytic immunostains",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Melanoma progression is best understood as two biologically different phases rather than a steady increase in size. In the radial growth phase, malignant melanocytes proliferate within the epidermis and spread laterally, with single cells or small nests dropping into the papillary dermis but forming no expansile mass. These cells remain dependent on the epidermal environment and on keratinocyte-derived signals, so they have essentially no metastatic capacity, and a melanoma confined to this phase is cured by complete excision."
+    },
+    {
+     "type": "p",
+     "text": "The vertical growth phase begins when one clone acquires the ability to proliferate as a mass within the dermis. This requires loss of keratinocyte dependence, a switch from E-cadherin to N-cadherin that lets the cell engage dermal fibroblasts and endothelium, matrix metalloproteinase secretion, and recruitment of new vessels. The clinical correlate is a nodule arising within a previously flat pigmented lesion. Because the dermis holds the lymphatic plexuses and vessels the epidermis lacks, a tumor reaching it gains both routes of spread: nodal spread usually comes first, which is why the regional nodal basin is sampled for staging, and hematogenous spread reaches lung, liver, brain, bone, and, characteristically, skin and small bowel."
+    },
+    {
+     "type": "flow",
+     "title": "Radial to vertical growth and the acquisition of metastatic capacity",
+     "steps": [
+      "Atypical melanocytes proliferate along the basal layer, in situ",
+      "Radial phase: lateral spread, single cells in papillary dermis, no mass",
+      "One clone loses keratinocyte dependence, E-cadherin to N-cadherin switch",
+      "Vertical phase: expansile dermal nodule with its own stroma and vessels",
+      "Tumor reaches dermal lymphatics and blood vessels",
+      "Regional nodal spread, then hematogenous spread"
+     ],
+     "caption": "Metastatic capacity is acquired at a specific step, not accumulated gradually with lesion diameter."
+    },
+    {
+     "type": "p",
+     "text": "Breslow thickness quantifies how far the vertical phase has progressed. It is measured with an ocular micrometer in millimeters from the top of the granular layer to the deepest invasive tumor cell, and from the base of an ulcer when the epidermis is lost. It is the strongest prognostic variable in localized melanoma because it is a direct proxy for how much contact the tumor has had with dermal lymphatics and vessels, and it sets T classification at 1.0, 2.0, and 4.0 mm. Ulceration independently worsens prognosis at every thickness, and a high dermal mitotic rate also predicts worse outcome. Clark level, the deepest anatomic layer reached, correlates with outcome but is less reproducible."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: two lesions of the same diameter",
+     "text": "Two pigmented lesions are each 9 mm across. Lesion A is a flat, irregularly pigmented macule with atypical melanocytes along the basal layer and a few single cells in the papillary dermis, Breslow 0.3 mm, no ulceration. Lesion B is a smooth dark nodule, Breslow 3.2 mm, with surface ulceration. Diameter is identical, so it carries no prognostic information. Lesion A is still in radial growth, with no expansile dermal mass and no meaningful access to lymphatics, so complete excision is very likely curative. Lesion B is well into vertical growth, and ulceration marks outgrowth of its blood supply, so nodal and distant spread are both substantial possibilities."
+    },
+    {
+     "type": "p",
+     "text": "Immunohistochemistry confirms melanocytic lineage when a tumor is amelanotic, spindled, or poorly differentiated. The principle is to pair a sensitive marker with a specific one: S-100 is highly sensitive but also stains Schwann and Langerhans cells, so a negative result argues strongly against melanoma while a positive one is not diagnostic by itself, whereas HMB-45 and Melan-A detect melanosomal proteins and are considerably more specific."
+    },
+    {
+     "type": "table",
+     "title": "Melanocytic immunostains",
+     "cols": [
+      "Stain",
+      "Target",
+      "Strength",
+      "Limitation"
+     ],
+     "rows": [
+      [
+       "S-100",
+       "Calcium-binding protein family",
+       "High sensitivity, useful screen",
+       "Also positive in nerve sheath and Langerhans cell tumors"
+      ],
+      [
+       "HMB-45",
+       "gp100 premelanosomal glycoprotein",
+       "Good specificity for melanocytes",
+       "Often negative in desmoplastic melanoma"
+      ],
+      [
+       "Melan-A (MART-1)",
+       "Melanosome membrane protein",
+       "Good specificity, stains most melanomas",
+       "Also marks steroidogenic cells"
+      ],
+      [
+       "SOX10",
+       "Neural crest transcription factor",
+       "Nuclear, retained in spindled tumors",
+       "Also positive in nerve sheath tumors"
+      ]
+     ],
+     "caption": "Pair a sensitive marker with a specific one when pigment is absent."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-INTG-13-07-C06",
+   "obj": "IN-13-G.6",
+   "title": "Mycosis fungoides and Sézary syndrome: cutaneous T cell lymphoma",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Mycosis fungoides is the most common cutaneous T cell lymphoma and the one malignant skin tumor in this chapter that arises from an immune cell rather than from a keratinocyte or a melanocyte. The malignant population is a clone of mature CD4 positive memory helper T cells that carry skin-homing receptors, chiefly cutaneous lymphocyte antigen and the chemokine receptors CCR4 and CCR10, whose ligands are produced constitutively by dermal endothelium and keratinocytes. That receptor profile explains the disease's defining behavior: the clone keeps returning to and persisting in the skin rather than filling nodes and marrow, which is the reverse of most lymphomas. It presents in older adults, is somewhat more common in men, and is frequently mistaken for eczema, psoriasis, or tinea for years before diagnosis, partly because early biopsies are often nonspecific."
+    },
+    {
+     "type": "p",
+     "text": "Progression occurs in three clinical stages over years to decades. Patch stage lesions are flat, scaly, often itchy erythematous patches with a predilection for sun-protected areas such as the buttocks, lower trunk, and upper thighs, a distribution that distinguishes them from the photodistributed keratinocyte cancers. Plaque stage lesions become infiltrated, well demarcated, and sometimes annular. Tumor stage brings nodules that may ulcerate, and at this point extracutaneous spread to nodes, liver, spleen, and lung becomes likely. Large cell transformation, in which the small cerebriform clone converts to a high-grade large cell lymphoma, marks a sharp change in behavior."
+    },
+    {
+     "type": "flow",
+     "title": "Stages of mycosis fungoides",
+     "steps": [
+      "Clonal skin-homing CD4 T cells enter the epidermis",
+      "Patch stage: scaly itchy patches on sun-protected skin",
+      "Plaque stage: infiltrated demarcated plaques, Pautrier microabscesses",
+      "Tumor stage: ulcerating nodules, nodal and visceral spread",
+      "Large cell transformation or leukemic Sézary phase"
+     ],
+     "caption": "Stage reflects how far the clone has escaped its dependence on the epidermal environment."
+    },
+    {
+     "type": "p",
+     "text": "The histologic hallmarks follow directly from epidermotropism. Atypical lymphocytes with enlarged, hyperchromatic, deeply folded nuclei, described as cerebriform, form a band-like infiltrate in the upper dermis and migrate into the epidermis as single cells and as discrete intraepidermal clusters, the Pautrier microabscesses. Unlike the spongiotic dermatitis it mimics, there is little intercellular edema around these cells. Immunophenotype is typically CD3 positive, CD4 positive, CD8 negative, with characteristic loss of CD7 and often CD26; clonality is confirmed by T cell receptor gene rearrangement studies, which matter because reactive dermatoses can look similar."
+    },
+    {
+     "type": "p",
+     "text": "Sézary syndrome is the leukemic, erythrodermic variant, best regarded as a related entity rather than simply the end stage of mycosis fungoides. It presents with generalized exfoliative erythroderma involving nearly the whole skin surface, intense pruritus, lymphadenopathy, often palmoplantar hyperkeratosis and nail dystrophy, and circulating malignant cells with the same cerebriform nuclei, the Sézary cells, usually defined as at least 1,000 per microliter with a demonstrable clone. Confluent erythroderma has systemic consequences that are pure physiology: cutaneous vasodilation across the entire surface increases insensible water loss and radiant and convective heat loss, so these patients feel cold and shiver even when core temperature is normal or slightly raised, high-output cardiac failure can follow the large shunt, and transepidermal protein and fluid loss plus barrier breakdown allows hypoalbuminemia and Staphylococcus aureus sepsis."
+    },
+    {
+     "type": "table",
+     "title": "Mycosis fungoides compared with Sézary syndrome",
+     "cols": [
+      "Feature",
+      "Mycosis fungoides",
+      "Sézary syndrome"
+     ],
+     "rows": [
+      [
+       "Skin involvement",
+       "Discrete patches, plaques, then tumors",
+       "Generalized erythroderma of nearly the whole surface"
+      ],
+      [
+       "Blood involvement",
+       "Absent or minimal",
+       "At least about 1,000 Sézary cells per microliter with a clone"
+      ],
+      [
+       "Nodes",
+       "Late, in tumor stage",
+       "Lymphadenopathy typical at presentation"
+      ],
+      [
+       "Cell",
+       "Cerebriform CD4 T cell, often CD7 negative",
+       "Same cerebriform CD4 phenotype, circulating"
+      ],
+      [
+       "Course",
+       "Indolent for years in early stages",
+       "Aggressive, with systemic consequences of erythroderma"
+      ]
+     ],
+     "caption": "Both share one malignant cell type; what differs is whether the clone stays confined to skin or circulates."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "These four tumors make one coherent argument about carcinogenesis in an organ that is deliberately exposed to a mutagen. Anatomy and histology supply the cells of origin and predict the lesion: basal keratinocytes and follicular stem cells produce palisaded basaloid nests and spare palms, soles, and mucosa; differentiating keratinocytes produce keratin pearls and intercellular bridges; neural crest derived melanocytes produce pigmented lesions wherever they reside, including mucosa and nail beds; and skin-homing memory T cells produce an epidermotropic lymphoma. Biochemistry and genetics supply the drivers, and each follows a different logic: loss of an inhibitor in the hedgehog pathway, stepwise accumulation of ultraviolet signature mutations beginning with TP53, and MAP kinase activation with loss of the p16 brake on the cell cycle. Immunology supplies the third variable, since T cell surveillance normally eliminates mutant and virus-infected keratinocyte clones, which is why transplant immunosuppression raises squamous cell carcinoma incidence sharply and changes its behavior."
+  },
+  {
+   "type": "p",
+   "text": "Pathophysiology then explains why three tumors with the same ultraviolet cause behave so differently. Metastatic potential is not proportional to how abnormal cells look but to whether the tumor can grow independently of its original environment: basal cell carcinoma remains stroma-dependent and almost never metastasizes, squamous cell carcinoma is less dependent and spreads through lymphatics at a rate set by site, size, depth, differentiation, and host immunity, and melanoma acquires independence at an identifiable step, the vertical growth phase, which is why a millimeter measurement outperforms every descriptive feature in localized disease. The limits of these rules are worth stating plainly. Risk factors give probabilities, not diagnoses, so biopsy decides; small samples can be genuinely ambiguous, particularly keratoacanthoma against well-differentiated squamous cell carcinoma and early mycosis fungoides against a reactive dermatitis; and a single immunostain never establishes lineage on its own."
+  }
+ ],
+ "summary": [
+  "Basal cell carcinoma is the most common human cancer: ultraviolet damage releases hedgehog signaling by inactivating PTCH1 or activating SMO, giving pearly telangiectatic papules with rolled borders and palisaded basaloid nests that invade locally but almost never metastasize.",
+  "Germline PTCH1 loss causes Gorlin syndrome, with numerous early basal cell carcinomas, odontogenic keratocysts, palmar and plantar pits, and medulloblastoma.",
+  "Squamous cell carcinoma risk follows cumulative ultraviolet dose: pyrimidine dimers that escape nucleotide excision repair fix C to T mutations, TP53 is hit early, and actinic keratosis is the dysplastic precursor.",
+  "Defective repair (xeroderma pigmentosum), lost immune surveillance (transplant immunosuppression), persistent human papillomavirus, arsenic, and chronic scars or ulcers (Marjolin ulcer) all accelerate that same sequence.",
+  "The lower lip takes direct sun on thin vermilion epithelium and favors squamous cell carcinoma, while the nose-shaded upper lip and inner canthus favor basal cell carcinoma.",
+  "Keratin pearls and intercellular bridges identify squamous differentiation; Bowen disease is full-thickness atypia with an intact basement membrane and no metastatic capacity, and keratoacanthoma is a symmetric crateriform nodule that grows in weeks and may regress.",
+  "Melanoma risk is driven by intense intermittent ultraviolet exposure, fair pheomelanin-predominant skin, many or dysplastic nevi, family history, CDKN2A loss, and xeroderma pigmentosum; BRAF V600E predominates on intermittently exposed skin while acral and mucosal tumors are not ultraviolet driven and favor KIT alterations.",
+  "Radial growth spreads laterally and cannot metastasize; vertical growth creates an expansile dermal nodule that reaches lymphatics and vessels, so Breslow thickness, with ulceration and mitotic rate, carries the prognosis in localized disease.",
+  "S-100 is the sensitive melanocytic marker, while HMB-45 and Melan-A are the specific ones, with SOX10 useful in spindled and desmoplastic tumors.",
+  "Mycosis fungoides is a clonal skin-homing CD4 T cell lymphoma progressing from patch to plaque to tumor with cerebriform cells in Pautrier microabscesses, and Sézary syndrome is its erythrodermic leukemic form with circulating Sézary cells."
+ ],
+ "sources": [
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "The Skin, tumors of the epidermis and melanocytic tumors"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Neoplasia, carcinogenesis and the molecular basis of cancer"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Neoplasia; and the section on skin disorders"
+  },
+  {
+   "book": "Junqueira Basic Histology",
+   "where": "Skin, epidermis and its cells"
+  },
+  {
+   "book": "Abbas Cellular and Molecular Immunology",
+   "where": "Immunity to tumors; T cell migration and tissue homing"
+  }
+ ],
+ "verify": [
+  "Reported metastatic rates differ by source and population: basal cell carcinoma is usually given as well under 0.1 percent, and cutaneous squamous cell carcinoma in the low single digits of percent overall. Confirm whether NABNE expects specific figures.",
+  "The magnitude of increased squamous cell carcinoma risk after solid organ transplantation is quoted from roughly 60 to over 100 fold in different series; this chapter states it as many times higher rather than giving one number.",
+  "The share of cutaneous melanomas carrying BRAF V600E is commonly given as about 40 to 60 percent; this chapter says about half.",
+  "Melanoma T classification thickness cutoffs follow current AJCC staging (1.0, 2.0, and 4.0 mm, with a 0.8 mm subdivision within T1). Confirm the edition and the level of staging detail NABNE expects, since older review material uses different cutoffs.",
+  "Mitotic rate was removed as a formal T1 staging criterion in AJCC eighth edition while remaining prognostic; verify how the exam frames it.",
+  "The Sézary cell threshold of at least 1,000 per microliter with a demonstrable clone follows current classification criteria; some review texts state the diagnosis without a numeric cutoff.",
+  "Whether keratoacanthoma should be classified as a distinct benign entity or as a well-differentiated variant of squamous cell carcinoma is genuinely unsettled; confirm which position NABNE materials take.",
+  "The proportion of cutaneous horns overlying a malignancy is quoted from about 15 to 40 percent in different series; this chapter says about a quarter.",
+  "Confirm whether the eponyms Gorlin syndrome, Bowen disease, erythroplasia of Queyrat, Marjolin ulcer, Pautrier microabscess, Sézary syndrome, Breslow thickness, and Clark level are expected, or only the descriptive terms.",
+  "Requested new diagram names for a future revision: skin-cancer-sites (a face and body schematic marking the characteristic sites of basal cell carcinoma, squamous cell carcinoma, and the melanoma subtypes), melanoma-depth (a skin cross-section showing where Breslow thickness is measured and the radial versus vertical growth patterns), and scc-progression (actinic keratosis, in situ, and invasive squamous cell carcinoma side by side in cross-section).",
+  "The twofold figure for melanoma risk with a first degree family history, and the ABCDE diameter cutoff of about 6 mm, are the commonly taught values; confirm what NABNE uses."
+ ]
+}

@@ -1,0 +1,827 @@
+{
+ "unit": "HE-9-C",
+ "chapter_id": "NPLEX-P1-HEME-09",
+ "topic_id": "NPLEX-P1-HEME-09-03",
+ "title": "Clotting Abnormalities: Bleeding and Thrombotic Disorders",
+ "subject": "Hematopoietic System (HEME)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter applies normal hemostasis to the disorders that make blood clot too little or too much: disseminated intravascular coagulation (DIC), the hemophilias, immune thrombocytopenic purpura (ITP), von Willebrand disease, vitamin K deficiency, liver failure, inherited platelet defects, inherited thrombophilias, and hematologic paraneoplastic syndromes. Board questions usually give a bleeding pattern with a platelet count, prothrombin time (PT), partial thromboplastin time (PTT), and perhaps a mixing study, and ask which step of hemostasis has failed. If you can place each defect in primary hemostasis, secondary hemostasis, or natural anticoagulation, the lab pattern and the clinical picture follow from the mechanism.",
+  "prerequisites": [
+   "Primary hemostasis: platelet adhesion through GpIb and von Willebrand factor, activation, and aggregation through GpIIb/IIIa and fibrinogen",
+   "Secondary hemostasis: tissue factor initiation, the tenase and prothrombinase complexes, thrombin, fibrin, and factor XIII crosslinking",
+   "Natural anticoagulants (antithrombin, protein C and protein S, tissue factor pathway inhibitor) and fibrinolysis by plasmin",
+   "What the PT, PTT, platelet count, and bleeding time measure",
+   "X-linked recessive and autosomal inheritance patterns"
+  ],
+  "connections": [
+   {
+    "to": "Immunology",
+    "how": "ITP, acquired factor VIII inhibitors, and thymoma-associated red cell aplasia are autoimmune diseases explained by antibody-mediated (type II) or T-cell-mediated injury."
+   },
+   {
+    "to": "Microbiology",
+    "how": "Gram-negative sepsis and meningococcemia are classic triggers of DIC, and gut bacteria supply part of the body's vitamin K."
+   },
+   {
+    "to": "Gastrointestinal and hepatic disease",
+    "how": "Fat malabsorption causes vitamin K deficiency, and cirrhosis lowers clotting factor synthesis and thrombopoietin while portal hypertension sequesters platelets in the spleen."
+   },
+   {
+    "to": "Renal disease",
+    "how": "Uremia impairs platelet function, nephrotic syndrome wastes antithrombin in urine, and renal cell carcinoma can secrete erythropoietin."
+   },
+   {
+    "to": "Obstetrics and oncology",
+    "how": "Placental abruption, amniotic fluid embolism, acute promyelocytic leukemia, and mucin-secreting adenocarcinomas release procoagulants that start DIC or migratory thrombosis."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Primary hemostasis",
+    "def": "Formation of the platelet plug through platelet adhesion, activation, and aggregation within seconds of vessel injury."
+   },
+   {
+    "term": "Secondary hemostasis",
+    "def": "Generation of thrombin and a crosslinked fibrin mesh by the coagulation factors, which stabilizes the platelet plug."
+   },
+   {
+    "term": "Prothrombin time (PT)",
+    "def": "Clotting time of plasma after adding tissue factor and phospholipid, sensitive to factors VII, X, V, II, and fibrinogen."
+   },
+   {
+    "term": "Partial thromboplastin time (PTT)",
+    "def": "Clotting time of plasma after a contact activator and phospholipid, sensitive to factors XII, XI, IX, VIII, X, V, II, and fibrinogen."
+   },
+   {
+    "term": "Mixing study",
+    "def": "Repeat of a prolonged PT or PTT after mixing patient plasma 1:1 with normal plasma, to separate a factor deficiency (corrects) from an inhibitor (does not correct)."
+   },
+   {
+    "term": "D-dimer",
+    "def": "A degradation product of fibrin that has been crosslinked by factor XIIIa and then cleaved by plasmin, so it shows that clot formed and was broken down."
+   },
+   {
+    "term": "Schistocyte",
+    "def": "A fragmented red cell sheared by fibrin strands or abnormal surfaces in small vessels, the marker of microangiopathic hemolysis."
+   },
+   {
+    "term": "Ristocetin cofactor activity",
+    "def": "A functional assay of von Willebrand factor that measures how well patient plasma makes normal platelets agglutinate through GpIb in the presence of ristocetin."
+   },
+   {
+    "term": "Gamma-carboxylation",
+    "def": "Vitamin K-dependent addition of a second carboxyl group to glutamate residues, which lets factors II, VII, IX, X and proteins C and S bind calcium and phospholipid."
+   },
+   {
+    "term": "Thrombophilia",
+    "def": "An inherited or acquired tendency to thrombosis, usually from loss of a natural anticoagulant or gain of procoagulant function."
+   },
+   {
+    "term": "Paraneoplastic syndrome",
+    "def": "A disorder caused by a tumor's secreted products or by the immune response to it, rather than by local growth or metastasis."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-HEME-09-03-C01",
+   "obj": "HE-9-C.1",
+   "title": "DIC: triggers and the laboratory pattern of consumption",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Normal coagulation is local. Tissue factor (TF) is exposed only where a vessel is injured, thrombin forms on activated platelets at that site, and antithrombin, the protein C system, and tissue factor pathway inhibitor stop thrombin from spreading. Disseminated intravascular coagulation (DIC) is what happens when procoagulant stimulus enters or arises throughout the circulation and overwhelms these controls. DIC is never a primary disease; it is always secondary to an underlying trigger."
+    },
+    {
+     "type": "p",
+     "text": "Most triggers work by adding tissue factor or a TF-like activator to blood, or by injuring endothelium so that it loses its anticoagulant surface. In sepsis, endotoxin and cytokines (TNF and IL-1) make monocytes and endothelial cells express TF, lower endothelial thrombomodulin so less protein C is activated, and raise plasminogen activator inhibitor 1. Obstetric tissue is rich in TF, which is why placental abruption and amniotic fluid embolism start DIC abruptly. Acute promyelocytic leukemia (APL) cells carry procoagulant and fibrinolysis-promoting material in their granules, so bleeding often dominates. Mucin from adenocarcinomas of the pancreas, lung, stomach, and prostate can activate factor X directly and tends to cause a slower, chronic, more thrombotic form."
+    },
+    {
+     "type": "table",
+     "title": "Major triggers of DIC and how they start it",
+     "cols": [
+      "Trigger",
+      "Main procoagulant mechanism",
+      "Typical course"
+     ],
+     "rows": [
+      [
+       "Sepsis (most common, especially gram-negative and meningococcal)",
+       "Endotoxin and cytokines induce TF; thrombomodulin falls; fibrinolysis is suppressed",
+       "Acute"
+      ],
+      [
+       "Major trauma, burns, crush injury, head injury",
+       "Release of TF from damaged tissue (brain is very rich in TF); endothelial injury",
+       "Acute"
+      ],
+      [
+       "Placental abruption, amniotic fluid embolism, retained dead fetus",
+       "TF-rich placental tissue or amniotic fluid enters maternal blood",
+       "Acute (retained fetus can be chronic)"
+      ],
+      [
+       "Acute promyelocytic leukemia",
+       "Granule procoagulants plus enhanced fibrinolysis",
+       "Acute, bleeding predominant"
+      ],
+      [
+       "Mucin-secreting adenocarcinoma",
+       "Mucin and tumor TF activate factor X and coagulation",
+       "Chronic, thrombosis predominant"
+      ]
+     ],
+     "caption": "Every trigger adds procoagulant activity to the whole circulation, either by supplying tissue factor or by stripping endothelium of its anticoagulant function."
+    },
+    {
+     "type": "flow",
+     "title": "From trigger to the DIC laboratory pattern",
+     "steps": [
+      "Trigger exposes tissue factor or injures endothelium",
+      "Thrombin forms throughout the circulation",
+      "Fibrin microthrombi deposit in small vessels",
+      "Platelets, fibrinogen, and factors V and VIII are consumed",
+      "Plasmin lyses crosslinked fibrin, releasing D-dimer",
+      "Red cells shear on fibrin strands into schistocytes"
+     ],
+     "caption": "Each laboratory abnormality in DIC is a footprint of one step: consumption lowers platelets and factors, fibrinolysis raises D-dimer, and microthrombi fragment red cells."
+    },
+    {
+     "type": "p",
+     "text": "The laboratory pattern follows directly. Platelets fall below the reference range of about 150,000 to 400,000/µL because they are incorporated into microthrombi. PT and PTT prolong because factors, especially V and VIII and fibrinogen, are used up faster than the liver can replace them. Fibrinogen falls below about 200 mg/dL (2 g/L), although because fibrinogen is an acute phase reactant, a value in the normal range in a septic patient can still represent a large drop. D-dimer is high because it can be produced only when thrombin has formed crosslinked fibrin and plasmin has then cleaved it. A peripheral smear shows schistocytes, the evidence of microangiopathic hemolysis. Serial values matter more than any single value: falling platelets and fibrinogen with rising D-dimer confirm ongoing consumption."
+    },
+    {
+     "type": "p",
+     "text": "In chronic DIC from cancer, synthesis can keep pace with consumption. Platelets and PT may be near normal while D-dimer is high, and the patient presents with venous thrombosis rather than bleeding (see C10)."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-HEME-09-03-C02",
+   "obj": "HE-9-C.2",
+   "title": "DIC: why patients clot and bleed at the same time",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "DIC has two clinical faces that come from one process. Fibrin microthrombi block arterioles and capillaries and cause ischemic organ injury, while the same clotting uses up platelets and factors and activates plasmin, which leaves too little hemostatic capacity to seal everyday vascular breaks. The balance between the two depends on the trigger and its speed: acute obstetric and APL-related DIC tend to bleed, and chronic cancer-related DIC tends to clot."
+    },
+    {
+     "type": "table",
+     "title": "Organ injury from microthrombi",
+     "cols": [
+      "Organ",
+      "Mechanism",
+      "Manifestation"
+     ],
+     "rows": [
+      [
+       "Kidney",
+       "Glomerular and cortical capillary thrombi",
+       "Oliguria, acute kidney injury, rarely bilateral cortical necrosis"
+      ],
+      [
+       "Lung",
+       "Alveolar capillary thrombi and endothelial injury",
+       "Hypoxemia, acute respiratory distress syndrome"
+      ],
+      [
+       "Brain",
+       "Microinfarcts and small hemorrhages",
+       "Confusion, delirium, seizures, coma"
+      ],
+      [
+       "Adrenal glands",
+       "Thrombosis with hemorrhagic infarction",
+       "Adrenal hemorrhage and acute adrenal insufficiency (Waterhouse-Friderichsen syndrome in meningococcemia)"
+      ],
+      [
+       "Skin",
+       "Dermal vessel thrombosis",
+       "Purpura, acral cyanosis, and in severe cases purpura fulminans with skin necrosis"
+      ]
+     ],
+     "caption": "Organs with dense microcirculation, especially kidney, lung, and brain, are the most vulnerable to fibrin microthrombi."
+    },
+    {
+     "type": "p",
+     "text": "Bleeding has three causes that act together. Thrombocytopenia removes the platelet plug, so petechiae, purpura, and mucosal bleeding appear. Low fibrinogen and factors V and VIII mean that whatever plug forms cannot be stabilized by fibrin. Fibrin and fibrinogen degradation products also interfere with fibrin polymerization and platelet aggregation, so the remaining clots are weak. The characteristic sign is oozing from sites that should have sealed: venipuncture and intravenous catheter sites, surgical wounds, and mucosa of the gums, nose, gastrointestinal tract, and urinary tract."
+    },
+    {
+     "type": "cycle",
+     "title": "The self-amplifying loop of acute DIC",
+     "steps": [
+      "Widespread thrombin generation forms microthrombi",
+      "Ischemia injures endothelium and organs",
+      "Injured tissue and endothelium release more tissue factor",
+      "Consumption and fibrinolysis deplete hemostatic capacity",
+      "Bleeding, shock, and hypoperfusion worsen tissue injury"
+     ],
+     "caption": "Organ ischemia and shock feed further tissue factor exposure, which is why DIC can accelerate once it starts and why removing the trigger is central to stopping it."
+    },
+    {
+     "type": "p",
+     "text": "The adrenal link is a classic board item. In fulminant meningococcemia, endotoxin-driven DIC causes bilateral adrenal hemorrhage, and loss of cortisol and aldosterone adds refractory hypotension to septic shock."
+    },
+    {
+     "type": "stop",
+     "predict": "A woman develops a placental abruption, then oozes from her intravenous site, becomes oliguric, and has platelets of 45,000/µL with fibrinogen of 90 mg/dL. Would you expect D-dimer and factor VIII to be high or low?",
+     "explain": "D-dimer is high because fibrin is being formed and lysed throughout the circulation; factor VIII is low because it is consumed along with fibrinogen and factor V. Oliguria reflects renal microthrombi, while oozing reflects consumption.",
+     "check": "Compare with the DIC flow in C01 and the bleeding mechanisms in this section."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-HEME-09-03-C03",
+   "obj": "HE-9-C.3",
+   "title": "Hemophilia A and B and the acquired factor VIII inhibitor",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Factors VIIIa and IXa assemble on the activated platelet surface as the intrinsic tenase complex, which generates most of the factor Xa, and therefore most of the thrombin, during the amplification phase of coagulation. Tissue factor and factor VIIa start clotting but are quickly shut down by tissue factor pathway inhibitor, so without VIII or IX the burst of thrombin needed for a firm fibrin clot never happens. The platelet plug forms normally, then fails because it is not reinforced by fibrin."
+    },
+    {
+     "type": "p",
+     "text": "Hemophilia A (factor VIII deficiency, about 1 in 5,000 male births) and hemophilia B (factor IX deficiency, about one fifth as common) are both X-linked recessive, so nearly all patients are male, and each son of a carrier mother has a 50% chance of being affected. About one third of cases arise from new mutations, so a negative family history does not exclude the diagnosis. The two diseases are clinically identical and are separated only by specific factor assays."
+    },
+    {
+     "type": "p",
+     "text": "Severity tracks residual factor activity. Severe disease (below 1% of normal) causes spontaneous bleeding into joints (hemarthroses, especially knees, elbows, and ankles) and deep muscles such as the iliopsoas, and repeated joint bleeding leads to synovial iron deposition, synovitis, and a destructive arthropathy. Bleeding after surgery or dental extraction is typically delayed, because the initial platelet plug holds for a while before it breaks down. Petechiae are not a feature, since platelet function is intact."
+    },
+    {
+     "type": "table",
+     "title": "Separating isolated PTT prolongations",
+     "cols": [
+      "Finding",
+      "Hemophilia A or B",
+      "Acquired factor VIII inhibitor",
+      "Lupus anticoagulant"
+     ],
+     "rows": [
+      [
+       "Who",
+       "Males from childhood; X-linked",
+       "Older adults, postpartum women, autoimmune disease or malignancy; either sex",
+       "Antiphospholipid syndrome, systemic lupus erythematosus (SLE)"
+      ],
+      [
+       "PT, platelets, bleeding time",
+       "Normal",
+       "Normal",
+       "PT usually normal; platelets normal or mildly low"
+      ],
+      [
+       "Mixing study",
+       "Corrects",
+       "Fails to correct, especially after incubation",
+       "Fails to correct"
+      ],
+      [
+       "Clinical problem",
+       "Hemarthroses and deep muscle bleeds",
+       "Large soft tissue bruises and muscle bleeds; hemarthroses less common",
+       "Thrombosis, not bleeding"
+      ]
+     ],
+     "caption": "An isolated prolonged PTT with a normal PT points to the intrinsic pathway; the mixing study decides between a missing factor and an antibody."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: reading a mixing study",
+     "text": "A 72-year-old woman with no prior bleeding history has large bruises on her arms and thigh. PT is normal and PTT is 68 s (reference about 25 to 35 s). Step 1: an isolated PTT means a problem in factors XII, XI, IX, or VIII, or an inhibitor. Step 2: her plasma is mixed 1:1 with normal plasma. If she lacked a factor, the normal plasma would supply at least 50% activity, which is enough to normalize the PTT. Step 3: her mix is nearly normal at first but prolongs again after 1 to 2 hours at 37 °C (98.6 °F). That time and temperature dependence is typical of an autoantibody against factor VIII, which slowly neutralizes the factor VIII in the added normal plasma. Her age, sex, and new onset also fit acquired hemophilia, not the inherited disease."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-HEME-09-03-C04",
+   "obj": "HE-9-C.4",
+   "title": "Immune thrombocytopenic purpura",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Immune thrombocytopenic purpura (ITP) is antibody-mediated destruction of otherwise normal platelets. IgG autoantibodies, most often against the GpIIb/IIIa complex and less often GpIb/IX, coat platelets. Splenic macrophages bind the Fc portion of the bound IgG through Fc gamma receptors and phagocytose the platelets, a type II hypersensitivity reaction. The spleen is both the main site of destruction and an important site of autoantibody production, and the antibodies can also impair platelet production by megakaryocytes."
+    },
+    {
+     "type": "flow",
+     "title": "Pathogenesis of ITP",
+     "steps": [
+      "Loss of tolerance produces IgG against GpIIb/IIIa",
+      "Antibody coats circulating platelets",
+      "Splenic macrophages remove coated platelets via Fc receptors",
+      "Platelet count falls, survival shortens to hours or days",
+      "Marrow responds with more megakaryocytes and larger platelets",
+      "Petechiae and mucosal bleeding with normal PT and PTT"
+     ],
+     "caption": "ITP is a destruction disorder: the marrow is normal and responds, which is why megakaryocytes increase rather than decrease."
+    },
+    {
+     "type": "p",
+     "text": "Because the defect lies outside the marrow, the marrow shows normal or increased megakaryocytes, and the smear shows a low count with some large, young platelets and no other abnormal cells. Coagulation factors are untouched, so PT and PTT are normal, while the bleeding time is prolonged by the low count. The spleen is not enlarged, and palpable splenomegaly should suggest another diagnosis such as lymphoma or hypersplenism. ITP is a diagnosis of exclusion: drugs, HIV, hepatitis C, pseudothrombocytopenia from EDTA clumping, and thrombotic microangiopathies must be ruled out."
+    },
+    {
+     "type": "table",
+     "title": "Acute childhood ITP versus chronic adult ITP",
+     "cols": [
+      "Feature",
+      "Acute (childhood)",
+      "Chronic (adult)"
+     ],
+     "rows": [
+      [
+       "Typical patient",
+       "Child, boys and girls equally",
+       "Woman of reproductive age (roughly 3:1 female)"
+      ],
+      [
+       "Onset",
+       "Abrupt, about 1 to 3 weeks after a viral infection or vaccination",
+       "Insidious, often found on a routine count"
+      ],
+      [
+       "Associations",
+       "Antibody probably arises in response to the virus",
+       "Primary, or secondary to SLE, HIV, hepatitis C, chronic lymphocytic leukemia, or H. pylori"
+      ],
+      [
+       "Course",
+       "Self-limited; most remit within about 6 months",
+       "Persistent, with relapses"
+      ]
+     ],
+     "caption": "Both forms share the same laboratory picture: isolated thrombocytopenia, normal PT and PTT, and normal or increased marrow megakaryocytes."
+    },
+    {
+     "type": "p",
+     "text": "Bleeding reflects the count. Petechiae, purpura, epistaxis, gum bleeding, and heavy menses appear first, and the risk of spontaneous bleeding rises sharply below about 20,000/µL, with intracranial hemorrhage the most serious complication. Because the autoantibody is IgG, it crosses the placenta, so a newborn of a mother with ITP can have transient thrombocytopenia that resolves as the maternal antibody is cleared."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-HEME-09-03-C05",
+   "obj": "HE-9-C.5",
+   "title": "Von Willebrand disease",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Von Willebrand factor (vWF) is a large multimeric glycoprotein made by endothelial cells, which store it in Weibel-Palade bodies, and by megakaryocytes, which package it in platelet alpha granules. It has two jobs. First, at sites of injury it binds exposed subendothelial collagen and tethers platelets through their GpIb receptor, which is essential under the high shear stress of arterioles and capillaries; the largest multimers are the most effective. Second, in plasma it binds and carries factor VIII, protecting it from rapid clearance and proteolysis."
+    },
+    {
+     "type": "p",
+     "text": "Von Willebrand disease (vWD) is the most common inherited bleeding disorder. Loss of the adhesion function gives a platelet-type bleeding pattern: easy bruising, epistaxis, gum bleeding, heavy menstrual bleeding, and prolonged bleeding after dental work or surgery. Platelets are present in normal numbers but cannot stick, so the count is normal and the bleeding time (or a platelet function analyzer closure time) is prolonged. Loss of the carrier function shortens factor VIII survival, so factor VIII falls and the PTT may be prolonged; the PT is normal because factor VIII is not in the extrinsic pathway."
+    },
+    {
+     "type": "p",
+     "text": "Ristocetin is an antibiotic that makes vWF bind platelet GpIb in vitro. Ristocetin cofactor activity therefore measures how well the patient's vWF can agglutinate normal platelets, and it is low in nearly all forms of vWD (type 2N, a defect only in factor VIII binding, is the exception). This also separates vWD from Bernard-Soulier syndrome (C08): in both, ristocetin fails to agglutinate the patient's platelets, but in vWD adding normal plasma corrects the defect because the missing part is plasma vWF, whereas in Bernard-Soulier it does not because the platelets lack GpIb."
+    },
+    {
+     "type": "table",
+     "title": "Main types of von Willebrand disease",
+     "cols": [
+      "Type",
+      "Defect",
+      "Inheritance",
+      "Laboratory clue"
+     ],
+     "rows": [
+      [
+       "Type 1 (most common, about 70% or more)",
+       "Partial quantitative deficiency of normal vWF",
+       "Autosomal dominant",
+       "vWF antigen and activity reduced in parallel; factor VIII normal or mildly low"
+      ],
+      [
+       "Type 2",
+       "Qualitative defect (for example loss of large multimers)",
+       "Mostly autosomal dominant",
+       "Activity reduced more than antigen"
+      ],
+      [
+       "Type 3",
+       "Near-total absence of vWF",
+       "Autosomal recessive",
+       "Very low factor VIII; prolonged PTT; hemophilia-like joint bleeds possible"
+      ]
+     ],
+     "caption": "The more vWF is lost, the more factor VIII falls, so severe type 3 disease adds deep factor-type bleeding to the mucosal pattern."
+    },
+    {
+     "type": "p",
+     "text": "vWF levels vary within the same person. They are about 25% lower in people with blood group O, and they rise with estrogen, pregnancy, stress, exercise, and inflammation, since vWF behaves as an acute phase reactant. A normal result during pregnancy or illness therefore does not exclude mild type 1 disease."
+    },
+    {
+     "type": "stop",
+     "predict": "A 16-year-old girl has had heavy periods since menarche and bled for a day after a tooth extraction. Platelets are 260,000/µL, PT is normal, and PTT is mildly prolonged. Which single defect explains both the mucosal bleeding and the PTT?",
+     "explain": "Reduced vWF impairs platelet adhesion through GpIb, causing mucosal bleeding with a normal count, and the loss of vWF as a carrier shortens factor VIII survival, prolonging the PTT. Ristocetin cofactor activity would be low.",
+     "check": "Compare with the two functions of vWF at the start of this section."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-HEME-09-03-C06",
+   "obj": "HE-9-C.6",
+   "title": "Vitamin K deficiency and why the PT prolongs first",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Factors II, VII, IX, and X and the anticoagulant proteins C and S are made in the liver with several glutamate residues near their amino terminus. The enzyme gamma-glutamyl carboxylase converts these to gamma-carboxyglutamate (Gla), and it needs reduced vitamin K (the hydroquinone) as a cofactor. Each reaction oxidizes vitamin K to its epoxide, which vitamin K epoxide reductase (VKOR) recycles back to the active form. The Gla residues bind calcium, which bridges the factors to the negatively charged phosphatidylserine on activated platelets, where the tenase and prothrombinase complexes assemble. Without vitamin K the liver still secretes the proteins, but they cannot bind calcium and are nearly inactive."
+    },
+    {
+     "type": "flow",
+     "title": "Vitamin K cycle and factor activation",
+     "steps": [
+      "Reduced vitamin K activates gamma-glutamyl carboxylase in hepatocytes",
+      "Glutamates on II, VII, IX, X, C, S become Gla",
+      "Vitamin K is oxidized to vitamin K epoxide",
+      "VKOR regenerates reduced vitamin K for reuse",
+      "Gla domains bind calcium and platelet phospholipid",
+      "Functional factors assemble tenase and prothrombinase complexes"
+     ],
+     "caption": "Deficiency of vitamin K, or blockade of VKOR, leaves the factors uncarboxylated and unable to bind calcium-phospholipid surfaces."
+    },
+    {
+     "type": "p",
+     "text": "Body stores of vitamin K are small and turn over quickly, so deficiency appears within days to weeks when supply stops. Dietary vitamin K1 (phylloquinone) comes from green leafy vegetables, and vitamin K2 (menaquinones) is made by intestinal bacteria. Both are fat soluble and need bile salts and micelles for absorption."
+    },
+    {
+     "type": "table",
+     "title": "Causes of vitamin K deficiency",
+     "cols": [
+      "Cause",
+      "Mechanism"
+     ],
+     "rows": [
+      [
+       "Newborn not given vitamin K at birth",
+       "Poor placental transfer, sterile gut, low vitamin K in breast milk, immature liver; vitamin K deficiency bleeding of the newborn"
+      ],
+      [
+       "Fat malabsorption",
+       "Biliary obstruction, cholestasis, cystic fibrosis, celiac disease, and short bowel impair micelle-dependent absorption"
+      ],
+      [
+       "Prolonged broad-spectrum antibiotics",
+       "Loss of menaquinone-producing gut flora, mattering most when intake is also poor"
+      ],
+      [
+       "Poor intake",
+       "Malnutrition, prolonged fasting, critically ill or parenterally fed patients, alcohol use disorder"
+      ]
+     ],
+     "caption": "Hospitalized patients who are not eating and are on antibiotics are a classic adult setting; the newborn is the classic pediatric setting."
+    },
+    {
+     "type": "p",
+     "text": "The PT prolongs first because of half-life. As carboxylated factors are cleared and replaced by inactive ones, each falls at the rate set by its plasma half-life: factor VII about 4 to 6 hours, IX about 24 hours, X about 40 hours, and prothrombin about 60 hours. Factor VII is the only vitamin K-dependent factor measured by the PT but not the PTT, so the PT rises within a day or two while the PTT is still normal. The PTT prolongs later as IX, X, and II fall. Platelets, fibrinogen, and factor VIII are not vitamin K dependent and stay normal. Protein C has a short half-life too (about 8 hours), close to that of factor VII."
+    },
+    {
+     "type": "p",
+     "text": "Newborn vitamin K deficiency bleeding classically appears in the first week of life as bleeding from the umbilical stump, gastrointestinal tract, skin, or circumcision site, and a later form in breast-fed infants with unrecognized malabsorption can present weeks later with intracranial hemorrhage."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-HEME-09-03-C07",
+   "obj": "HE-9-C.7",
+   "title": "Liver failure versus vitamin K deficiency (and DIC)",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Vitamin K deficiency is a single, selective defect: the liver is healthy but cannot carboxylate four factors. Liver failure is a global synthetic failure, so it lowers almost every coagulation protein the hepatocyte makes, including fibrinogen and factor V, which are not vitamin K dependent. Both prolong the PT, so the question is always which additional findings are present."
+    },
+    {
+     "type": "p",
+     "text": "Several features of liver failure have specific mechanisms. Fibrinogen falls once synthetic loss is advanced, and the fibrinogen made may be structurally abnormal (dysfibrinogenemia). Platelets fall because portal hypertension enlarges the spleen, which sequesters platelets, and because the liver makes most of the body's thrombopoietin. Factor VIII, by contrast, is normal or high. It is produced mainly by endothelial cells, including liver sinusoidal endothelium and endothelium outside the liver, its level rises with vWF, and its clearance is reduced in liver disease. Factor V, which is made by hepatocytes and is not vitamin K dependent, is low in liver failure and normal in vitamin K deficiency."
+    },
+    {
+     "type": "table",
+     "title": "Comparing the three common acquired coagulopathies",
+     "cols": [
+      "Test",
+      "Vitamin K deficiency",
+      "Liver failure",
+      "DIC"
+     ],
+     "rows": [
+      [
+       "PT",
+       "Prolonged (first)",
+       "Prolonged",
+       "Prolonged"
+      ],
+      [
+       "PTT",
+       "Normal or prolonged",
+       "Prolonged",
+       "Prolonged"
+      ],
+      [
+       "Platelets",
+       "Normal",
+       "Low (sequestration, low thrombopoietin)",
+       "Low (consumption)"
+      ],
+      [
+       "Fibrinogen",
+       "Normal",
+       "Low or normal",
+       "Low"
+      ],
+      [
+       "Factor V",
+       "Normal",
+       "Low",
+       "Low"
+      ],
+      [
+       "Factor VIII",
+       "Normal",
+       "Normal or high",
+       "Low"
+      ],
+      [
+       "D-dimer",
+       "Normal",
+       "Normal or mildly high",
+       "High"
+      ],
+      [
+       "PT after parenteral vitamin K",
+       "Corrects within about a day",
+       "Little or no change",
+       "Little or no change"
+      ]
+     ],
+     "caption": "Factor V separates vitamin K deficiency from liver failure, and factor VIII separates liver failure from DIC."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: one prolonged PT, three explanations",
+     "text": "Three patients each have a PT of 22 s (reference about 11 to 13.5 s). Patient A had obstructive jaundice for three weeks: platelets 240,000/µL, fibrinogen 310 mg/dL, factor V normal. Only vitamin K-dependent factors are low, so this is malabsorption of vitamin K, and the PT corrects with parenteral vitamin K. Patient B has cirrhosis with splenomegaly: platelets 70,000/µL, fibrinogen 130 mg/dL, factor V low, factor VIII high. Global synthetic failure plus sequestration explains it, and factor VIII made outside hepatocytes stays high. Patient C is septic: platelets 60,000/µL, fibrinogen 110 mg/dL, D-dimer very high, factor VIII low. Factor VIII is consumed, which points to DIC rather than liver failure."
+    },
+    {
+     "type": "p",
+     "text": "Liver failure also lowers antithrombin, protein C, and protein S, so hemostasis is rebalanced rather than simply impaired. The prolonged PT does not mean these patients are protected from thrombosis; portal vein thrombosis and venous thromboembolism still occur."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-HEME-09-03-C08",
+   "obj": "HE-9-C.8",
+   "title": "Qualitative platelet disorders: Bernard-Soulier, Glanzmann, and uremia",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Primary hemostasis requires three platelet steps. In adhesion, the GpIb-IX-V complex binds vWF on exposed collagen. In activation, platelets change shape, release ADP and thromboxane A2 from their granules and membranes, and switch GpIIb/IIIa (integrin alpha IIb beta 3) into a high-affinity state. In aggregation, activated GpIIb/IIIa binds fibrinogen, which bridges neighboring platelets. Qualitative disorders block one of these steps, so they cause mucocutaneous bleeding and a prolonged bleeding time even when the platelet count is normal or near normal."
+    },
+    {
+     "type": "p",
+     "text": "Bernard-Soulier syndrome is an autosomal recessive deficiency of GpIb-IX-V, so platelets cannot adhere to vWF. Because GpIb also links the platelet membrane to its cytoskeleton and is needed for normal platelet formation, the platelets are giant (often near the size of a red cell) and mildly reduced in number. Ristocetin cannot agglutinate them, and unlike vWD, adding normal plasma does not help."
+    },
+    {
+     "type": "p",
+     "text": "Glanzmann thrombasthenia is an autosomal recessive deficiency or dysfunction of GpIIb/IIIa. Platelets adhere and activate normally but cannot bind fibrinogen, so they do not aggregate in response to ADP, collagen, epinephrine, or thrombin. Platelet count and size are normal, and on a fingerstick smear the platelets lie singly rather than in the usual small clumps. Ristocetin agglutination is normal because GpIb and vWF are intact. GpIIb/IIIa is also the usual target of the autoantibodies in ITP (C04), which illustrates the difference between losing the receptor and losing the platelets that carry it."
+    },
+    {
+     "type": "table",
+     "title": "Qualitative platelet disorders compared",
+     "cols": [
+      "Feature",
+      "Bernard-Soulier syndrome",
+      "Glanzmann thrombasthenia",
+      "Uremic platelet dysfunction"
+     ],
+     "rows": [
+      [
+       "Defective step",
+       "Adhesion",
+       "Aggregation",
+       "Adhesion and aggregation"
+      ],
+      [
+       "Molecular basis",
+       "GpIb-IX-V deficiency",
+       "GpIIb/IIIa deficiency",
+       "Retained uremic toxins, more nitric oxide, less thromboxane A2"
+      ],
+      [
+       "Inheritance",
+       "Autosomal recessive",
+       "Autosomal recessive",
+       "Acquired (advanced kidney disease)"
+      ],
+      [
+       "Platelet count and size",
+       "Mildly low, giant platelets",
+       "Normal count and size",
+       "Normal or mildly low, normal size"
+      ],
+      [
+       "Ristocetin",
+       "Abnormal, not corrected by normal plasma",
+       "Normal",
+       "Variable"
+      ],
+      [
+       "ADP, collagen, epinephrine",
+       "Normal aggregation",
+       "Absent aggregation",
+       "Reduced aggregation"
+      ]
+     ],
+     "caption": "All three cause mucocutaneous bleeding with a prolonged bleeding time and normal PT and PTT."
+    },
+    {
+     "type": "p",
+     "text": "In uremia, retained nitrogenous compounds such as guanidinosuccinic acid increase nitric oxide production and impair platelet granule release, thromboxane A2 generation, and GpIIb/IIIa activation, so both adhesion and aggregation weaken. Anemia adds to the defect, because fewer red cells in the center of the stream push fewer platelets toward the vessel wall. The result is bruising and mucosal and gastrointestinal bleeding with a normal count and normal PT and PTT. Aspirin is the classic acquired comparison: it irreversibly acetylates cyclooxygenase 1, blocking thromboxane A2 for the platelet's lifespan of about 7 to 10 days."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-HEME-09-03-C09",
+   "obj": "HE-9-C.9",
+   "title": "Inherited thrombophilias: antithrombin, protein C, protein S, and homocysteine",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Thrombin formation is normally limited by two main brakes. Antithrombin is a serine protease inhibitor that inactivates thrombin and factor Xa, and to a lesser degree IXa and XIa; heparan sulfate on endothelium, like heparin, accelerates it about a thousandfold. The protein C system works differently: thrombin bound to endothelial thrombomodulin activates protein C, and activated protein C, with protein S as its cofactor, cleaves and inactivates factors Va and VIIIa, removing the cofactors that drive prothrombinase and tenase. Losing either brake lets each burst of thrombin grow larger and last longer."
+    },
+    {
+     "type": "flow",
+     "title": "The protein C anticoagulant pathway",
+     "steps": [
+      "Thrombin binds thrombomodulin on intact endothelium",
+      "Thrombin-thrombomodulin activates protein C",
+      "Activated protein C binds its cofactor protein S",
+      "The complex cleaves factors Va and VIIIa",
+      "Tenase and prothrombinase slow, thrombin generation falls"
+     ],
+     "caption": "Thrombin switches from procoagulant to anticoagulant when it binds thrombomodulin, a negative feedback that fails in protein C or protein S deficiency."
+    },
+    {
+     "type": "p",
+     "text": "These deficiencies cause mainly venous thromboembolism (deep vein thrombosis and pulmonary embolism) because in slow venous flow the brakes on thrombin matter more than platelet adhesion. Heterozygous deficiencies of antithrombin, protein C, or protein S are autosomal dominant; antithrombin deficiency carries the highest risk of the three. Acquired deficiency is common and must be excluded: antithrombin is lost in the urine in nephrotic syndrome and consumed in DIC, and all three fall in liver disease. Free protein S falls in pregnancy and with estrogen. Homozygous protein C deficiency causes neonatal purpura fulminans, and the short half-life of protein C explains warfarin-induced skin necrosis in heterozygotes, since protein C activity falls before factors II and X."
+    },
+    {
+     "type": "p",
+     "text": "Hyperhomocysteinemia differs because it raises both venous and arterial risk. Homocysteine is remethylated to methionine by a folate- and B12-dependent enzyme or converted to cystathionine by B6-dependent cystathionine beta-synthase, so deficiency of folate, B12, or B6, chronic kidney disease, or inherited cystathionine beta-synthase deficiency (homocystinuria) raises it. Excess homocysteine injures endothelium through oxidative stress and impairs its anticoagulant functions."
+    },
+    {
+     "type": "table",
+     "title": "Inherited thrombophilias in this chapter",
+     "cols": [
+      "Disorder",
+      "Lost function",
+      "Distinctive clue"
+     ],
+     "rows": [
+      [
+       "Antithrombin deficiency",
+       "Inactivation of thrombin and Xa",
+       "Reduced heparin effect; acquired in nephrotic syndrome"
+      ],
+      [
+       "Protein C deficiency",
+       "Inactivation of Va and VIIIa",
+       "Warfarin skin necrosis; neonatal purpura fulminans if homozygous"
+      ],
+      [
+       "Protein S deficiency",
+       "Cofactor for activated protein C",
+       "Free protein S also low in pregnancy and with estrogen"
+      ],
+      [
+       "Hyperhomocysteinemia",
+       "Endothelial integrity",
+       "Arterial and venous clots; low folate, B12, or B6; homocystinuria"
+      ]
+     ],
+     "caption": "Factor V Leiden and the prothrombin gene mutation, the most common inherited thrombophilias, are covered in HE-6."
+    },
+    {
+     "type": "p",
+     "text": "Suspect an inherited thrombophilia when venous thrombosis occurs at a young age (commonly cited as before about 45 to 50 years), recurs, appears without a provoking factor, appears at an unusual site (cerebral venous sinuses, mesenteric, portal, or hepatic veins), or runs in first-degree relatives."
+    },
+    {
+     "type": "stop",
+     "predict": "A 28-year-old man with a mesenteric vein thrombosis has a strong family history of clots. Which part of the coagulation system is most likely defective, and why is the clot venous rather than arterial?",
+     "explain": "A natural anticoagulant, antithrombin, protein C, or protein S, is likely deficient, so thrombin generation is not shut off. In slow venous flow, unchecked thrombin and fibrin formation drives thrombosis, whereas arterial clots depend more on platelets and endothelial injury.",
+     "check": "Compare with the protein C flow and the clues for inherited thrombophilia in this section."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-HEME-09-03-C10",
+   "obj": "HE-9-C.10",
+   "title": "Hematologic paraneoplastic syndromes",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Some cancers change the blood without invading it, through procoagulants, hormones, or an immune response. Three patterns are tested often, and each has a clear mechanism."
+    },
+    {
+     "type": "p",
+     "text": "Migratory thrombophlebitis (Trousseau syndrome) is recurrent superficial or deep venous thrombosis that appears in one site, resolves, and reappears elsewhere. It is classically linked to pancreatic adenocarcinoma and also to lung, stomach, and other mucin-secreting adenocarcinomas. Tumor cells express tissue factor and release mucin and other procoagulants that can activate factor X, producing the chronic, low-grade DIC described in C01, in which thrombosis outweighs bleeding. The same hypercoagulable state can deposit sterile fibrin-platelet vegetations on heart valves (nonbacterial thrombotic endocarditis), which can embolize. Unexplained or migratory venous thrombosis in an older adult should raise suspicion of an occult cancer."
+    },
+    {
+     "type": "p",
+     "text": "Paraneoplastic erythrocytosis results from inappropriate erythropoietin (EPO) secretion by the tumor. Renal cell carcinoma is the classic example: loss of the VHL tumor suppressor stabilizes hypoxia-inducible factor, which turns on EPO transcription even with normal oxygen delivery. Hepatocellular carcinoma, cerebellar hemangioblastoma, and uterine leiomyoma can do the same. The pattern is a raised hematocrit with high EPO and normal arterial oxygen saturation, which separates it from hypoxic secondary polycythemia (low saturation) and from polycythemia vera (low EPO, JAK2 mutation)."
+    },
+    {
+     "type": "p",
+     "text": "Pure red cell aplasia is selective failure of erythropoiesis associated with thymoma. Autoreactive T cells or IgG autoantibodies, probably reflecting disordered T cell development within the thymoma, suppress erythroid progenitors. The result is a normocytic anemia with very low reticulocytes and a marrow nearly devoid of erythroid precursors, while white cells, platelets, and megakaryocytes are normal. The same tumor can cause myasthenia gravis. Parvovirus B19, which infects erythroid progenitors, is the main alternative cause."
+    },
+    {
+     "type": "table",
+     "title": "Hematologic paraneoplastic syndromes",
+     "cols": [
+      "Syndrome",
+      "Classic tumors",
+      "Mechanism",
+      "Key findings"
+     ],
+     "rows": [
+      [
+       "Trousseau syndrome",
+       "Pancreatic and other mucin-secreting adenocarcinomas",
+       "Tumor tissue factor and mucin activate coagulation",
+       "Migratory venous thrombosis, high D-dimer"
+      ],
+      [
+       "Erythrocytosis",
+       "Renal cell and hepatocellular carcinoma",
+       "Ectopic, hypoxia-independent EPO",
+       "High hematocrit, high EPO, normal oxygen saturation"
+      ],
+      [
+       "Pure red cell aplasia",
+       "Thymoma",
+       "Autoimmune suppression of erythroid progenitors",
+       "Anemia, reticulocytopenia, absent marrow erythroid precursors"
+      ]
+     ],
+     "caption": "Each syndrome is explained by a tumor product (procoagulant or hormone) or by tumor-driven autoimmunity."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Every disorder in this chapter fits one map of hemostasis. Anatomy and cell biology supply the players: endothelium makes vWF, thrombomodulin, and much of factor VIII, hepatocytes make most factors and thrombopoietin, megakaryocytes make platelets, and the spleen stores and clears them. Biochemistry explains vitamin K-dependent gamma-carboxylation and the homocysteine pathways, and immunology explains ITP, acquired factor VIII inhibitors, and thymoma-associated red cell aplasia as autoimmune injury. Microbiology and obstetrics supply DIC triggers, and pathology links the resulting microthrombi to injury in kidney, lung, brain, and adrenal glands."
+  },
+  {
+   "type": "p",
+   "text": "The reasoning for any case is the same. Platelet count and bleeding pattern place the defect in primary hemostasis; PT, PTT, and the mixing study place it in the factors; fibrinogen, D-dimer, factor V, and factor VIII separate consumption from failed synthesis; and a clot in a young patient points to a lost anticoagulant. The limits are real: reference ranges differ between laboratories, vWF and fibrinogen are acute phase reactants that can hide a deficiency, and a prolonged PT in liver disease measures procoagulant loss without measuring the parallel loss of anticoagulants."
+  }
+ ],
+ "summary": [
+  "Platelet and vWF defects cause mucocutaneous bleeding with a prolonged bleeding time; factor defects cause deep, delayed bleeding with normal bleeding time.",
+  "DIC is systemic thrombin generation from tissue factor or endothelial injury; it gives low platelets and fibrinogen, prolonged PT and PTT, high D-dimer, and schistocytes.",
+  "In DIC, microthrombi injure kidney, lung, brain, and adrenals while consumption and fibrinolysis cause oozing from venipuncture sites and mucosa.",
+  "Hemophilia A (VIII) and B (IX) are X-linked, cause hemarthroses and muscle bleeds, and show an isolated prolonged PTT that corrects on mixing; an acquired VIII inhibitor does not correct.",
+  "ITP is IgG against GpIIb/IIIa with splenic destruction: isolated thrombocytopenia, normal PT and PTT, increased megakaryocytes, no splenomegaly; acute in children after viral illness, chronic in adult women.",
+  "vWF mediates adhesion through GpIb and carries factor VIII, so vWD gives mucosal bleeding, normal count, prolonged bleeding time, normal or prolonged PTT, and low ristocetin cofactor activity.",
+  "Vitamin K is needed to carboxylate II, VII, IX, X, C, and S; factor VII has the shortest half-life, so the PT prolongs first.",
+  "Liver failure lowers fibrinogen, factor V, and platelets but keeps factor VIII normal or high; DIC lowers factor VIII.",
+  "Bernard-Soulier (GpIb, giant platelets) blocks adhesion, Glanzmann (GpIIb/IIIa) blocks aggregation, and uremic toxins impair both with a normal count.",
+  "Antithrombin, protein C, and protein S deficiency and hyperhomocysteinemia promote thrombosis; tumors cause Trousseau syndrome, EPO-driven erythrocytosis, and thymoma-linked red cell aplasia."
+ ],
+ "sources": [
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Diseases of White Blood Cells, Lymph Nodes, Spleen, and Thymus; Red Blood Cell and Bleeding Disorders"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Hemodynamic Disorders, Thromboembolic Disease, and Shock"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Hemostasis and Blood Coagulation"
+  },
+  {
+   "book": "Lippincott Illustrated Reviews: Biochemistry",
+   "where": "Blood Clotting; Vitamins (vitamin K, folate, and B12)"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Blood Disorders: disorders of hemostasis"
+  },
+  {
+   "book": "Abbas Cellular and Molecular Immunology",
+   "where": "Hypersensitivity disorders: antibody-mediated diseases"
+  }
+ ],
+ "verify": [
+  "Reference ranges for platelets (about 150,000 to 400,000/µL, some labs to 450,000), fibrinogen (about 200 to 400 mg/dL), PT (about 11 to 13.5 s), and PTT (about 25 to 35 s) vary between laboratories; confirm the values NABNE uses.",
+  "Factor half-lives (VII about 4 to 6 h, protein C about 8 h, IX about 24 h, X about 40 h, II about 60 h) are consensus approximations that differ slightly between texts.",
+  "Incidence figures (hemophilia A about 1 in 5,000 male births, hemophilia B about one fifth as common, about one third of hemophilia from new mutations, type 1 vWD about 70% or more of cases) vary by source.",
+  "The platelet count below which spontaneous bleeding risk rises in ITP is given variously as 10,000 to 30,000/µL; this chapter uses about 20,000/µL.",
+  "The age cutoff for suspecting inherited thrombophilia (about 45 to 50 years) is a commonly cited guide, not a fixed criterion.",
+  "Specific uremic toxins (guanidinosuccinic acid) and the relative contributions of NO, thromboxane, and anemia to uremic bleeding are described differently across sources.",
+  "Confirm whether NABNE Part I expects the eponyms Waterhouse-Friderichsen, Bernard-Soulier, Glanzmann, and Trousseau, and the vWD type classification, or only the descriptive terms.",
+  "Requested new diagram names for a future revision: coagulation-cascade (extrinsic, intrinsic, and common pathways with PT and PTT coverage marked) and platelet-plug (adhesion via GpIb-vWF, activation, aggregation via GpIIb/IIIa-fibrinogen)."
+ ]
+}

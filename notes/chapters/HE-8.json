@@ -1,0 +1,556 @@
+{
+  "unit": "HE-8",
+  "chapter_id": "NPLEX-P1-HEME-08",
+  "topic_id": "NPLEX-P1-HEME-08-01",
+  "title": "Blood-Borne Pathogens and the Red Cell",
+  "subject": "Hematology (HEME)",
+  "version": "1.0",
+  "author": "Dr. Sharilyn Rennie",
+  "brand": "MedMasters Collaborative",
+  "overview": {
+    "intro": "This chapter follows the organisms that use blood, and especially the red cell, as habitat: Plasmodium species, Babesia microti, the schistosomes that live in venous plexuses, and parvovirus B19, which attacks the erythroid progenitor rather than the mature cell. The teaching logic runs from life cycle to host receptor to tissue injury, because board questions are usually built that way: a travel or exposure history, a blood smear or serology, and a mechanism to name. Red cell genetics belongs here as well, since sickle trait, G6PD deficiency, thalassemia trait, and the Duffy-negative phenotype are the clearest examples of pathogen pressure shaping the human genome.",
+    "prerequisites": [
+      "Normal erythropoiesis, from burst-forming unit through reticulocyte, and the role of erythropoietin",
+      "Red cell membrane proteins, glycolysis, and the hexose monophosphate shunt with glutathione reduction",
+      "Hemoglobin structure, the globin gene clusters, and the switch from fetal to adult hemoglobin",
+      "Mechanisms of intravascular versus extravascular hemolysis and the laboratory pattern of each",
+      "Basic virology of nonenveloped DNA viruses and the elements of innate and adaptive antiparasitic immunity"
+    ],
+    "connections": [
+      {
+        "to": "Hemoglobin biochemistry and hematologic genetics (HE-5, HE-6)",
+        "how": "The same mutations that cause sickle cell disease, G6PD deficiency, and thalassemia are the ones selected by falciparum malaria, so the genetics and the microbiology explain each other."
+      },
+      {
+        "to": "Immune responses in hematologic disease (HE-7)",
+        "how": "Cytokine release, splenic macrophage activity, and antibody-dependent clearance determine how much of malarial and babesial anemia is parasite lysis and how much is host response."
+      },
+      {
+        "to": "Spleen and reticuloendothelial anatomy",
+        "how": "Splenic cords and sinusoids are the filter that removes rigid and antibody-coated red cells, which is why splenectomy worsens babesiosis and why the spleen enlarges in chronic malaria."
+      },
+      {
+        "to": "Hepatic and portal pathology (GI chapters)",
+        "how": "Schistosome eggs embolized to portal radicles produce granulomatous periportal fibrosis and portal hypertension with preserved hepatocyte function."
+      },
+      {
+        "to": "Renal and urinary tract pathology (UR chapters)",
+        "how": "Schistosoma haematobium eggs in the bladder wall cause chronic inflammation, metaplasia, and squamous cell carcinoma, and malarial hemoglobinuria injures tubules."
+      }
+    ],
+    "terms": [
+      {
+        "term": "Sporozoite",
+        "def": "The slender infective stage of Plasmodium injected in mosquito saliva that travels in blood to hepatocytes."
+      },
+      {
+        "term": "Schizogony",
+        "def": "Asexual multiple fission in which a parasite nucleus divides repeatedly inside a host cell and the cell then ruptures to release merozoites."
+      },
+      {
+        "term": "Hypnozoite",
+        "def": "A dormant intrahepatic form of Plasmodium vivax and Plasmodium ovale that can reactivate weeks to months later and cause relapse."
+      },
+      {
+        "term": "Recrudescence",
+        "def": "Return of symptoms from persistent low-level blood-stage parasites, as opposed to relapse from liver forms or reinfection from a new bite."
+      },
+      {
+        "term": "Gametocyte",
+        "def": "The sexual blood stage of Plasmodium that is infective to the mosquito but does not multiply in the human host."
+      },
+      {
+        "term": "Parasitized red cell sequestration",
+        "def": "Adherence of infected red cells to microvascular endothelium, removing them from the circulating smear and obstructing capillary flow."
+      },
+      {
+        "term": "PfEMP1",
+        "def": "Plasmodium falciparum erythrocyte membrane protein 1, a variable adhesive protein exported to knobs on the infected red cell surface."
+      },
+      {
+        "term": "Antigenic variation",
+        "def": "Sequential expression of different versions of a surface protein from a multigene family, so antibody against one version does not clear the next."
+      },
+      {
+        "term": "Duffy antigen (Fy)",
+        "def": "A chemokine receptor on the red cell membrane, coded by ACKR1, that serves as the invasion receptor for Plasmodium vivax."
+      },
+      {
+        "term": "Maltese cross",
+        "def": "A tetrad of Babesia merozoites inside one red cell, arranged as four joined bodies, seen on Giemsa-stained smear."
+      },
+      {
+        "term": "Cercaria",
+        "def": "The free-swimming, fork-tailed larval schistosome released from a snail that penetrates intact human skin."
+      },
+      {
+        "term": "Transient aplastic crisis",
+        "def": "An abrupt fall in hemoglobin with reticulocytopenia when erythropoiesis halts in a patient whose red cell survival is already short."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "comp": "NPLEX-P1-HEME-08-01-C01",
+      "obj": "HE-8.1",
+      "title": "The Plasmodium life cycle and the origin of relapse",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Plasmodium is an apicomplexan protozoan with an obligate two-host cycle. The female Anopheles mosquito is the definitive host, where sexual reproduction occurs, and the human is the intermediate host, where the parasite multiplies asexually. Only the female takes blood, for the protein her eggs require, so only the female transmits infection."
+        },
+        {
+          "type": "p",
+          "text": "Sporozoites enter the dermis with saliva, reach the bloodstream, and are cleared from plasma within about an hour, a fraction of them entering hepatocytes while the rest are destroyed. There the parasite undergoes exoerythrocytic schizogony, producing thousands of merozoites from a single sporozoite. This liver phase is clinically silent and sets the incubation period, roughly one to two weeks for Plasmodium falciparum and somewhat longer for the others. Rupture of the hepatic schizont releases merozoites into sinusoidal blood."
+        },
+        {
+          "type": "flow",
+          "title": "From mosquito bite to the first fever",
+          "steps": [
+            "Infected female Anopheles injects sporozoites with saliva",
+            "Sporozoites travel in blood to hepatocytes",
+            "Exoerythrocytic schizogony: thousands of merozoites per sporozoite",
+            "Hepatic schizont ruptures; merozoites enter the blood",
+            "Merozoites invade red cells; trophozoite then blood schizont",
+            "Red cell ruptures; merozoites invade new red cells",
+            "Synchronized rupture and cytokine release produce paroxysmal fever"
+          ],
+          "caption": "The liver phase sets the incubation period; the erythrocytic phase explains fever and anemia."
+        },
+        {
+          "type": "p",
+          "text": "In the red cell the merozoite becomes a ring-form trophozoite, digests hemoglobin in a food vacuole, and leaves hemozoin pigment behind. It then divides into a blood schizont holding merozoites, and the cell ruptures, releasing them to invade again. Each erythrocytic cycle takes about 48 hours in Plasmodium vivax, Plasmodium ovale, and Plasmodium falciparum and about 72 hours in Plasmodium malariae, giving tertian and quartan fever periodicity when broods are synchronized. Falciparum is often asynchronous, so its fever may be continuous or irregular."
+        },
+        {
+          "type": "p",
+          "text": "A minority of merozoites commit instead to the sexual line and become male and female gametocytes, which do not divide in humans and cause no symptoms but are the stage the mosquito must ingest. In the midgut the gametes fuse, the zygote becomes a motile ookinete that crosses the gut wall, and the resulting oocyst produces sporozoites that migrate to the salivary glands."
+        },
+        {
+          "type": "table",
+          "title": "Species differences that drive the clinical picture",
+          "cols": [
+            "Feature",
+            "P. falciparum",
+            "P. vivax and P. ovale",
+            "P. malariae"
+          ],
+          "rows": [
+            [
+              "Erythrocytic cycle",
+              "About 48 h, often asynchronous",
+              "About 48 h (tertian)",
+              "About 72 h (quartan)"
+            ],
+            [
+              "Red cells invaded",
+              "All ages, no limit",
+              "Reticulocytes and young cells",
+              "Senescent cells"
+            ],
+            [
+              "Usual parasitemia",
+              "May exceed 10%",
+              "Usually under 2%",
+              "Low"
+            ],
+            [
+              "Liver dormancy",
+              "None",
+              "Hypnozoites present",
+              "None"
+            ],
+            [
+              "Late disease without new bites",
+              "Recrudescence over weeks",
+              "Relapse months to years later",
+              "Recrudescence for years; nephrotic syndrome"
+            ]
+          ],
+          "caption": "Cell-age preference caps parasitemia in every species except falciparum, the lethal one."
+        },
+        {
+          "type": "p",
+          "text": "Plasmodium vivax and Plasmodium ovale differ from the rest in forming hypnozoites, dormant uninucleate forms that persist in hepatocytes after the primary attack resolves. Weeks to months later a hypnozoite resumes schizogony and seeds the blood again, producing true relapse in a patient who has left the endemic area and whose blood had cleared. Relapse is distinct from recrudescence, where blood-stage parasites were never fully eliminated and expand again, and from reinfection by a new bite. A febrile illness months after travel is therefore still malaria until proven otherwise."
+        },
+        {
+          "type": "p",
+          "text": "Blood-stage parasites also transmit without a mosquito, by transfusion, shared needles, or transplacental passage, because the infective unit is a parasitized red cell. Such infections skip the liver, so transfusion-transmitted vivax does not relapse."
+        },
+        {
+          "type": "stop",
+          "predict": "A traveler treated for vivax malaria in Thailand is well for four months, then has the same fevers with no further travel. Where did the parasites come from, and why was the smear negative in between?",
+          "explain": "From hypnozoites in hepatocytes. Dormant liver forms carry no red cell parasites, so smear and symptoms both clear until a hypnozoite resumes schizogony and reseeds the blood.",
+          "check": "The relapse paragraph and the hypnozoite row of the species table."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-HEME-08-01-C02",
+      "obj": "HE-8.2",
+      "title": "Why Plasmodium falciparum is the lethal species",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Falciparum virulence comes from three linked properties: it invades red cells of any age, it hides mature stages in the microvasculature, and it changes the surface protein that holds them there faster than antibody can follow."
+        },
+        {
+          "type": "p",
+          "text": "Invasion depends on receptor use. Falciparum merozoites bind sialic acid residues on glycophorins A, B, and C and can also use sialic acid independent pathways, and none of these receptors is restricted to young cells. Because the whole red cell mass is available, parasitemia can rise through several percent to above ten percent in a few cycles. Vivax, by contrast, needs reticulocytes, which are roughly one percent of circulating cells, so its parasitemia is self-limited even when fever is severe."
+        },
+        {
+          "type": "p",
+          "text": "The resulting anemia outruns the marrow and exceeds the number of cells actually parasitized. Schizont rupture destroys infected cells directly, complement fragments and parasite material deposited on uninfected cells mark those for splenic clearance, and inflammatory cytokines, chiefly tumor necrosis factor, suppress erythropoiesis. Hemoglobin digestion within the parasite releases free heme, and massive intravascular lysis can give hemoglobinuria dark enough to be called blackwater fever, with pigment nephropathy and acute tubular injury."
+        },
+        {
+          "type": "p",
+          "text": "The second property is sequestration. From about 12 to 16 hours into its 48 hour cycle, as the ring matures into a trophozoite, the falciparum-infected cell exports PfEMP1, Plasmodium falciparum erythrocyte membrane protein 1, to electron-dense knobs on its own membrane. PfEMP1 binds endothelial receptors, including CD36, intercellular adhesion molecule 1 on brain endothelium, and endothelial protein C receptor, and in placental infection chondroitin sulfate A. Infected cells also adhere to uninfected cells (rosetting) and to each other. Mature forms therefore leave the circulating blood, which is why the falciparum smear shows mainly delicate rings, sometimes more than one per cell, with banana-shaped gametocytes and scarce schizonts, and why peripheral parasitemia understates the true burden."
+        },
+        {
+          "type": "flow",
+          "title": "How adherence becomes organ failure",
+          "steps": [
+            "Infected cell exports PfEMP1 to surface knobs",
+            "PfEMP1 binds CD36, ICAM-1, or EPCR on endothelium",
+            "Infected and uninfected cells aggregate; cells stiffen",
+            "Capillary flow slows and obstructs",
+            "Local hypoxia and anaerobic glycolysis: lactic acidosis",
+            "Endothelial activation, cytokine release, loss of protein C signaling",
+            "Cerebral malaria, respiratory distress, or placental insufficiency"
+          ],
+          "caption": "Sequestration explains coma with no meningitis, lactic acidosis out of proportion to anemia, and low birth weight in placental malaria."
+        },
+        {
+          "type": "p",
+          "text": "Sequestration also explains why the clinical syndrome depends on where the cells stick. Binding to ICAM-1 and endothelial protein C receptor in cerebral vessels gives impaired consciousness and seizures with hypoxic and hemorrhagic injury but little inflammatory infiltrate, while chondroitin sulfate A binding in placental vessels gives intervillositis, fetal growth restriction, and maternal anemia. Hypoglycemia is common, driven by parasite glucose consumption and host anaerobic metabolism."
+        },
+        {
+          "type": "p",
+          "text": "The third property is immune evasion. PfEMP1 is encoded by a family of about 60 var genes per parasite genome, of which only one is transcribed at a time. Switching, which is epigenetic rather than a change in DNA sequence, presents a new adhesive variant that existing antibody does not recognize, prolonging infection and allowing repeat infections with different variants. Protective immunity in endemic areas therefore accumulates slowly across many infections and reduces severe disease long before it reduces parasitemia. Adherence also evades the spleen, since a cell held on endothelium never passes through the splenic cords."
+        },
+        {
+          "type": "example",
+          "title": "Reading a severe falciparum case",
+          "text": "A traveler has a temperature of 39.5 C (103.1 F), is confused, and has a lactate of 6 mmol/L, glucose of 45 mg/dL, hemoglobin of 7 g/dL, and only 3% rings on the smear. The low parasitemia does not reassure: mature sequestered forms are absent from the smear, so the circulating count understates the burden. Confusion with a normal cerebrospinal fluid fits ICAM-1 and EPCR adhesion in cerebral microvessels, lactate reflects obstructed capillary flow rather than anemia alone, and hypoglycemia reflects parasite consumption plus anaerobic host metabolism."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-HEME-08-01-C03",
+      "obj": "HE-8.3",
+      "title": "Red cell polymorphisms that blunt malaria",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Falciparum malaria has been the strongest recent selective pressure on the human genome, and the evidence is a set of red cell variants that are common exactly where transmission is or was intense. Each is a balanced polymorphism: the heterozygote or carrier gains protection, while the homozygote pays a hematologic price. The protection is against severe and fatal disease more than against infection itself."
+        },
+        {
+          "type": "p",
+          "text": "Sickle cell trait (HbAS) is the clearest case. Carriers are clinically well, because polymerization needs a high proportion of hemoglobin S, yet their risk of severe or cerebral malaria falls by roughly 90%. Several mechanisms act together. Parasitized AS cells sickle preferentially in the low oxygen tension of the microvasculature and are removed by the spleen; parasite growth is impaired in the acidic, potassium-poor, dehydrated interior of a sickled cell; knob formation and PfEMP1 display are abnormal, so adherence is weaker; and heme oxygenase 1 induction with mild chronic hemolysis dampens the inflammatory response that produces cerebral disease. Hemoglobin C and hemoglobin E protect by related effects on parasite growth and on knob-mediated adherence, with the largest reported reduction in homozygous hemoglobin C."
+        },
+        {
+          "type": "p",
+          "text": "Glucose-6-phosphate dehydrogenase deficiency acts through redox chemistry. G6PD is the rate-limiting enzyme of the hexose monophosphate shunt and the red cell's only source of NADPH, which keeps glutathione reduced. The intraerythrocytic parasite generates oxidant stress as it digests hemoglobin, and in a deficient cell that stress is poorly buffered, so the cell is damaged and cleared early, cutting parasite multiplication. The X-linked inheritance matters: heterozygous females are mosaics after X inactivation, carrying both deficient and normal cells, which appears to give protection with less hemolytic risk than in deficient males."
+        },
+        {
+          "type": "p",
+          "text": "Thalassemia trait reduces globin chain output, giving small, hypochromic cells with less hemoglobin to digest, altered surface antigen display that favors antibody binding and splenic removal, and reduced rosetting. Protection is modest and is best documented against severe disease. Hereditary ovalocytosis and certain glycophorin C variants work differently again, by disturbing the membrane skeleton or the invasion receptor itself."
+        },
+        {
+          "type": "table",
+          "title": "Protective variants and their mechanisms",
+          "cols": [
+            "Variant",
+            "Protective mechanism",
+            "Stage affected",
+            "Cost to the homozygote or deficient state"
+          ],
+          "rows": [
+            [
+              "Sickle trait (HbAS)",
+              "Sickling of infected cells, poor parasite growth, weak knob adherence, HO-1 induction",
+              "Intraerythrocytic growth and sequestration",
+              "Sickle cell disease in HbSS"
+            ],
+            [
+              "G6PD deficiency",
+              "Unbuffered parasite-generated oxidant stress; early clearance of infected cells",
+              "Intraerythrocytic growth",
+              "Oxidant-triggered hemolysis in deficient males"
+            ],
+            [
+              "Alpha or beta thalassemia trait",
+              "Less hemoglobin per cell, altered antigen display, reduced rosetting",
+              "Growth and adherence",
+              "Severe anemia in homozygous states"
+            ],
+            [
+              "Duffy negative (FyFy)",
+              "Absent invasion receptor for P. vivax",
+              "Red cell invasion, blocked at entry",
+              "None; benign phenotype"
+            ]
+          ],
+          "caption": "Only the Duffy-negative phenotype blocks invasion outright, and it is species-specific to vivax."
+        },
+        {
+          "type": "p",
+          "text": "Duffy negativity is a different kind of protection. Plasmodium vivax merozoites use the Duffy binding protein to engage the Duffy antigen receptor for chemokines, encoded by ACKR1, and that interaction forms the tight junction required for entry. A promoter mutation that abolishes Duffy expression on erythrocytes, while sparing other tissues, is near fixation in much of sub-Saharan West and Central Africa, and those red cells resist vivax invasion almost completely. Vivax malaria is correspondingly rare in Duffy-negative populations, although occasional cases through alternative receptors are now described, which is why the resistance is best taught as near complete rather than absolute. The phenotype has no hematologic cost, and it does not protect against falciparum, which uses glycophorins instead."
+        },
+        {
+          "type": "stop",
+          "predict": "Why does the Duffy-negative phenotype eliminate vivax from a population while sickle trait only reduces falciparum deaths?",
+          "explain": "Duffy negativity removes the receptor the parasite must bind to enter the cell, so invasion fails at the first step. Sickle trait allows invasion and only makes the intracellular environment and the adhesive surface less favorable, so infection still occurs and only severity falls.",
+          "check": "The Duffy paragraph against the sickle trait mechanisms in the same section."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-HEME-08-01-C04",
+      "obj": "HE-8.4",
+      "title": "Babesia microti: tick transmission, ring forms, and coinfection",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Babesia microti is a piroplasm, an apicomplexan related to Plasmodium but with an important simplification: it has no liver phase. Sporozoites inoculated by the tick invade red cells directly, so there is no exoerythrocytic schizogony, no hypnozoite, and no true relapse from a tissue reservoir."
+        },
+        {
+          "type": "p",
+          "text": "The vector is the nymphal stage of Ixodes scapularis, the same deer tick that transmits Lyme disease in the northeastern and upper midwestern United States. White-footed mice are the reservoir and deer maintain the adult ticks. Transmission requires prolonged attachment, usually more than a day, and the nymph is poppy-seed sized, so most patients never recall the bite. Incubation after a tick bite runs about one to four weeks. Because the infective form is an intraerythrocytic parasite, Babesia is also transmitted by transfusion of red cells, and rarely by platelet units carrying residual red cells, where incubation is longer, up to several months, and transplacentally. Transfusion-transmitted babesiosis is a recognized blood supply concern precisely because carriers are often asymptomatic and the organism survives refrigerated storage."
+        },
+        {
+          "type": "p",
+          "text": "Inside the red cell the parasite grows and divides by binary fission rather than schizogony, producing two or four merozoites that escape and invade new cells. Lysis is therefore unsynchronized, which is why babesiosis gives sustained or irregular fever with drenching sweats rather than the periodic paroxysms of malaria. Hemolysis is largely intravascular with some splenic clearance, so the laboratory picture combines anemia, elevated lactate dehydrogenase and indirect bilirubin, low haptoglobin, reticulocytosis, and often thrombocytopenia and elevated transaminases."
+        },
+        {
+          "type": "table",
+          "title": "Distinguishing Babesia from Plasmodium falciparum on a smear",
+          "cols": [
+            "Feature",
+            "Babesia microti",
+            "P. falciparum"
+          ],
+          "rows": [
+            [
+              "Pigment",
+              "No hemozoin pigment",
+              "Hemozoin present in older forms"
+            ],
+            [
+              "Characteristic forms",
+              "Pleomorphic rings, tetrads (Maltese cross)",
+              "Delicate rings, banana-shaped gametocytes"
+            ],
+            [
+              "Extracellular forms",
+              "Merozoites may lie outside cells",
+              "Rare outside cells"
+            ],
+            [
+              "Multiplication",
+              "Binary fission, asynchronous",
+              "Schizogony, often synchronized broods"
+            ],
+            [
+              "Exposure history",
+              "Ixodes bite or transfusion; no travel needed",
+              "Travel to an endemic region"
+            ]
+          ],
+          "caption": "The absence of pigment and the presence of tetrads are the most reliable morphologic clues on Giemsa stain."
+        },
+        {
+          "type": "p",
+          "text": "The tetrad of four merozoites joined within one red cell, described as a Maltese cross, is the pathognomonic finding, although it is uncommon at low parasitemia. Rings may be multiple per cell and vary in size and shape, and because merozoites can lie free in plasma, extracellular organisms do not exclude babesiosis. Low parasitemia is easily missed, so molecular and serologic testing supplements the smear when exposure is likely."
+        },
+        {
+          "type": "p",
+          "text": "Severity is governed by the host rather than by parasite variation. The spleen is the main defense, since it removes rigid and antibody-coated infected cells, so asplenic patients, people over about 50, and those with impaired cell-mediated immunity can reach parasitemias above 10% with severe hemolysis, disseminated intravascular coagulation, and acute respiratory distress or renal failure. In healthy younger adults infection is often mild or silent."
+        },
+        {
+          "type": "p",
+          "text": "Coinfection with Borrelia burgdorferi, the Lyme spirochete, follows from the shared vector: a single nymph may carry both, and patients may acquire both at once. Coinfection presents as Lyme disease with unusually prominent hemolytic features, so the erythema migrans rash and arthralgia appear alongside anemia, thrombocytopenia, and elevated lactate dehydrogenase, a combination that Lyme disease alone does not explain. Anaplasma phagocytophilum shares the same vector. When one tick delivers several organisms the clinical picture is additive, so unexplained hemolysis in a patient with Lyme disease points back to the red cells themselves."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-HEME-08-01-C05",
+      "obj": "HE-8.5",
+      "title": "The Schistosoma life cycle and where the adults live",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Schistosomes are blood flukes, trematodes that live as adults inside human veins. Unlike other flukes they are not hermaphroditic: the sexes are separate, and the slender female lies permanently in the ventral gynecophoral canal of the thicker male. They feed on blood and can survive for years, so the disease is driven by continuous egg output rather than by the worms themselves."
+        },
+        {
+          "type": "flow",
+          "title": "Schistosoma life cycle",
+          "steps": [
+            "Eggs reach fresh water in human stool or urine",
+            "Egg hatches; ciliated miracidium swims",
+            "Miracidium penetrates the specific snail intermediate host",
+            "Asexual multiplication in snail sporocysts",
+            "Fork-tailed cercariae emerge into the water",
+            "Cercaria penetrates intact human skin; becomes a schistosomulum",
+            "Migration via venous blood, lungs, and liver to adulthood",
+            "Paired adults in mesenteric or vesical venules shed eggs"
+          ],
+          "caption": "Humans acquire infection through skin contact with fresh water, not by ingestion, and the snail is obligatory."
+        },
+        {
+          "type": "p",
+          "text": "The intermediate host is a specific freshwater snail, which anchors the geography of each species: Biomphalaria for Schistosoma mansoni in Africa, the Middle East, and South America, Oncomelania for Schistosoma japonicum in East Asia, and Bulinus for Schistosoma haematobium in Africa and the Middle East. Inside the snail a single miracidium multiplies asexually, so one egg yields many cercariae, which is the amplification step in the cycle. Cercariae penetrate intact skin using proteolytic secretions, shed their forked tails, and become schistosomula. They travel in venous blood to the right heart and lungs, then reach the hepatic portal system, mature, pair, and migrate against portal flow to their final venules."
+        },
+        {
+          "type": "p",
+          "text": "Location determines the disease. Schistosoma mansoni and Schistosoma japonicum occupy the inferior and superior mesenteric venules respectively, so eggs enter the gut wall and the portal circulation. Schistosoma haematobium occupies the vesical and pelvic venous plexus, so eggs enter the bladder wall and the urine. Japonicum lays the largest number of eggs per day, which accounts for its heavier hepatic and occasional central nervous system involvement."
+        },
+        {
+          "type": "table",
+          "title": "Species, vein, and target organ",
+          "cols": [
+            "Species",
+            "Snail host",
+            "Adult location",
+            "Eggs appear in",
+            "Egg spine",
+            "Principal pathology"
+          ],
+          "rows": [
+            [
+              "S. mansoni",
+              "Biomphalaria",
+              "Inferior mesenteric venules",
+              "Stool",
+              "Large lateral spine",
+              "Colonic polyps, periportal fibrosis, portal hypertension"
+            ],
+            [
+              "S. japonicum",
+              "Oncomelania",
+              "Superior mesenteric venules",
+              "Stool",
+              "Small lateral knob",
+              "Heavy hepatic fibrosis; eggs may embolize to brain"
+            ],
+            [
+              "S. haematobium",
+              "Bulinus",
+              "Vesical and pelvic plexus",
+              "Urine",
+              "Terminal spine",
+              "Hematuria, bladder fibrosis, squamous cell carcinoma"
+            ]
+          ],
+          "caption": "Egg morphology and the specimen in which eggs appear identify the species and predict the organ injured."
+        },
+        {
+          "type": "p",
+          "text": "Injury is immunologic and comes from eggs, not worms. Adults coat themselves with host antigens and remain largely invisible to immune attack, but eggs trapped in tissue release soluble antigens that drive a T helper 2 response, with eosinophils, interleukin 4, interleukin 5, and interleukin 13, and a granuloma forms around each egg. Repeated granulomas heal by fibrosis. In the liver, eggs embolized through portal radicles produce the characteristic pipestem periportal fibrosis, which obstructs presinusoidal flow and causes portal hypertension with esophageal varices and splenomegaly while hepatocellular function stays relatively preserved. In the bladder, chronic granulomatous inflammation causes hematuria, calcification, obstructive uropathy, and squamous metaplasia that predisposes to squamous cell carcinoma. Acute reactions mark earlier stages: cercarial penetration can give a pruritic papular rash, and the onset of egg laying can give an acute serum sickness like illness with fever, eosinophilia, and hepatosplenomegaly."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-HEME-08-01-C06",
+      "obj": "HE-8.6",
+      "title": "Parvovirus B19 and the erythroid progenitor",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Parvovirus B19 is a small nonenveloped virus with a single-stranded linear DNA genome. Having no envelope makes it resistant to lipid solvents, detergents, and drying, so it survives on surfaces and in solvent-detergent treated plasma derivatives. Transmission is mainly respiratory, with vertical and transfusion routes as well."
+        },
+        {
+          "type": "p",
+          "text": "Tissue targeting follows from one receptor. The virus binds the P antigen, a glycosphingolipid also called globoside, which is expressed on erythroid progenitors as well as on megakaryocytes, placental cells, and endothelium. Its dependence on host DNA polymerase means it can replicate only in cells in S phase, and the rapidly dividing erythroid colony-forming and burst-forming units are ideal. Infection lyses these progenitors, producing giant pronormoblasts with inclusion bearing nuclei in the marrow. The rare individuals who lack P antigen are naturally resistant."
+        },
+        {
+          "type": "flow",
+          "title": "From infection to the hematologic consequence",
+          "steps": [
+            "Respiratory inoculation; viremia in about 1 week",
+            "Virus binds P antigen on erythroid progenitors",
+            "Replication requires S phase; progenitors are lysed",
+            "Erythropoiesis halts for about 7 to 10 days",
+            "Reticulocytes disappear from the blood",
+            "Normal red cell lifespan buffers the pause: mild drop only",
+            "Antibody clears viremia; rash and arthralgia follow"
+          ],
+          "caption": "The hematologic result is set by how long the patient's red cells live, not by how severe the viral infection is."
+        },
+        {
+          "type": "p",
+          "text": "In a healthy person the pause in production is harmless. Red cells survive about 120 days, so losing ten days of output drops hemoglobin by only about one gram per deciliter. The illness is then dominated by immune complex phenomena that begin as antibody appears: erythema infectiosum, or fifth disease, with the slapped cheek rash and a lacy reticular rash on the limbs in children, and symmetric polyarthralgia, more often in adults. Because those features are immune mediated and viremia has already fallen, patients are most contagious before the rash and no longer infectious once it appears."
+        },
+        {
+          "type": "p",
+          "text": "In a patient with a chronic hemolytic anemia the same ten day pause is dangerous. When red cells survive only 10 to 20 days, as in sickle cell disease, hereditary spherocytosis, thalassemia, or an autoimmune hemolytic anemia, survival depends on continuous compensatory erythropoiesis at several times the normal rate. Stopping production removes that compensation, and hemoglobin falls steeply over days. This is transient aplastic crisis, and its signature is severe anemia with an inappropriately low reticulocyte count, which separates it from splenic sequestration or an accelerated hemolytic episode, where reticulocytes are high. It resolves once antibody clears the viremia and the marrow recovers with a brisk reticulocytosis. Patients who cannot make neutralizing antibody develop chronic pure red cell aplasia instead."
+        },
+        {
+          "type": "example",
+          "title": "Separating aplastic crisis from a hemolytic episode",
+          "text": "A child with hereditary spherocytosis has a hemoglobin of 5 g/dL, down from a baseline of 11, with a reticulocyte count of 0.2% and a bilirubin no higher than his usual value. Accelerated hemolysis would raise both the reticulocyte count and the bilirubin, so the low reticulocyte count points to failed production rather than accelerated destruction. In a patient whose spherocytes survive about two weeks, an arrest of erythropoiesis for about ten days accounts for the whole fall, and parvovirus B19 infection of erythroid progenitors is the mechanism."
+        },
+        {
+          "type": "p",
+          "text": "Fetal infection combines the same marrow effect with two aggravating factors: a shorter fetal red cell lifespan with a far higher erythropoietic rate, and viral injury to myocardium, which also bears P antigen. Severe anemia causes high output cardiac failure, and the result is generalized edema, ascites, and pleural effusions, that is, nonimmune hydrops fetalis, with fetal loss the other possible outcome. Risk is highest with infection in the first and second trimesters. Calling it nonimmune separates it mechanistically from hydrops of Rh alloimmunization, where maternal antibody destroys fetal red cells."
+        }
+      ]
+    }
+  ],
+  "integration": [
+    {
+      "type": "p",
+      "text": "Each organism in this chapter is understood through a receptor and a host cell. Plasmodium vivax needs Duffy, falciparum uses glycophorins and then displays PfEMP1 for endothelial adherence, Schistosoma needs a specific snail and then a particular venous bed, and parvovirus B19 needs P antigen on a dividing erythroid progenitor. Change the receptor and the disease disappears, which is the clearest demonstration in microbiology that tropism and pathology are the same question. The same logic connects to genetics: malaria selected sickle trait, G6PD deficiency, thalassemia trait, and Duffy negativity, so the hemoglobinopathy and enzymopathy chapters describe the price a population paid for that protection."
+    },
+    {
+      "type": "p",
+      "text": "The injury mechanisms also divide cleanly along immunologic lines. Falciparum kills by mechanical obstruction and cytokine-driven inflammation, so the lesion is vascular and the smear may understate it. Schistosomiasis injures through a T helper 2 granulomatous response to eggs, so the lesion is fibrotic and progressive long after exposure ends. Babesia depends on splenic function rather than on antigenic variation, so the host history predicts severity. Parvovirus B19 produces no injury of its own that matters in a normal host and becomes lethal only when it interacts with an existing shortened red cell lifespan. Interpreting a laboratory result requires knowing which of these mechanisms is at work, and the limit worth stating is that smears, serology, and egg counts each miss early or low-burden infection, so exposure history remains part of the reasoning."
+    }
+  ],
+  "summary": [
+    "Plasmodium sporozoites undergo silent liver schizogony that sets the incubation period, then an erythrocytic cycle of about 48 hours (72 in P. malariae) whose synchronized rupture causes paroxysmal fever; gametocytes infect the mosquito but do not multiply in humans.",
+    "Relapse comes from hypnozoites of P. vivax and P. ovale in hepatocytes, recrudescence from persistent blood-stage parasites, and reinfection from a new bite.",
+    "P. falciparum invades red cells of all ages, so parasitemia can exceed 10%, while vivax is limited to reticulocytes and malariae to senescent cells.",
+    "PfEMP1 on knobs binds CD36, ICAM-1, EPCR, and placental chondroitin sulfate A, sequestering mature forms, obstructing capillaries, and producing cerebral malaria, lactic acidosis, and placental insufficiency; epigenetic switching among about 60 var genes evades antibody.",
+    "Sickle trait, G6PD deficiency, and thalassemia trait reduce severe malaria by impairing intracellular parasite growth, adherence, and survival of infected cells, while Duffy negativity blocks vivax invasion at the receptor itself.",
+    "Babesia microti has no liver stage, is transmitted by Ixodes scapularis nymphs and by transfusion, divides by binary fission into pleomorphic rings and Maltese cross tetrads without pigment, and is severe in asplenic and older patients.",
+    "Shared vector means Babesia and Borrelia burgdorferi coinfection, presenting as Lyme disease plus unexplained hemolytic anemia and thrombocytopenia.",
+    "Schistosome cercariae from freshwater snails penetrate skin; adults live in mesenteric venules (S. mansoni, S. japonicum) or the vesical plexus (S. haematobium), and the eggs, not the worms, drive granulomatous fibrosis.",
+    "Schistosomal periportal pipestem fibrosis causes presinusoidal portal hypertension with preserved hepatocyte function, and S. haematobium bladder injury predisposes to squamous cell carcinoma.",
+    "Parvovirus B19 uses P antigen to infect S-phase erythroid progenitors, pausing erythropoiesis for about 7 to 10 days: trivial in a normal host, transient aplastic crisis with reticulocytopenia in chronic hemolysis, chronic red cell aplasia without antibody, and nonimmune hydrops fetalis in utero."
+  ],
+  "sources": [
+    {
+      "book": "Jawetz, Melnick and Adelberg's Medical Microbiology",
+      "where": "Medical Parasitology: blood and tissue protozoa; Trematodes; Parvoviruses"
+    },
+    {
+      "book": "Robbins and Cotran Pathologic Basis of Disease",
+      "where": "Infectious Diseases: parasitic infections; Red Blood Cell and Bleeding Disorders"
+    },
+    {
+      "book": "Abbas, Cellular and Molecular Immunology",
+      "where": "Immunity to Microbes, immune evasion and immunity to parasites"
+    },
+    {
+      "book": "Lange Pathophysiology of Disease",
+      "where": "Infectious Diseases; Blood Disorders"
+    },
+    {
+      "book": "Guyton and Hall Textbook of Medical Physiology",
+      "where": "Red Blood Cells, Anemia, and Polycythemia"
+    }
+  ],
+  "verify": [
+    "The reduction in severe malaria risk with sickle cell trait is usually quoted as about 90%, with published estimates ranging from roughly 70% to over 90%; confirm the figure NABNE expects.",
+    "The degree of protection attributed to G6PD deficiency, and whether it applies mainly to heterozygous females or also to deficient males, differs between sources and remains debated.",
+    "The number of var genes per P. falciparum genome is commonly given as about 60; some sources state 50 to 60.",
+    "The timing of PfEMP1 knob expression and the start of sequestration is given here as about 12 to 16 hours into the 48 hour cycle; sources describe this as the late ring to early trophozoite stage without a single agreed hour.",
+    "The size of the protective effect of hemoglobin C (strongest in the homozygote) and of hemoglobin E is reported less consistently than that of sickle trait.",
+    "Occasional Plasmodium vivax infection of Duffy-negative red cells is now reported, so resistance is stated here as near complete rather than absolute; confirm how current NABNE material words this.",
+    "Incubation periods given here (about 1 to 4 weeks for tick-transmitted babesiosis, up to several months after transfusion) vary modestly between references.",
+    "Thresholds for severe babesiosis parasitemia and the age cutoff for increased risk (about 50 years) are approximate and vary by source.",
+    "Egg output figures for Schistosoma japonicum relative to S. mansoni vary widely between references and are given here only as a comparison, not a number.",
+    "Whether NABNE Part I expects the eponyms and descriptive terms used here (Maltese cross, pipestem fibrosis, slapped cheek rash, fifth disease, blackwater fever) or only mechanistic descriptions.",
+    "Requested new diagram names for a future revision: plasmodium-life-cycle (mosquito, liver, erythrocytic and gametocyte stages in one schematic) and schistosome-life-cycle (snail, cercaria, venous migration, egg deposition)."
+  ]
+}

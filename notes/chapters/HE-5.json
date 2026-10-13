@@ -1,0 +1,833 @@
+{
+  "unit": "HE-5",
+  "chapter_id": "NPLEX-P1-HEME-05",
+  "topic_id": "NPLEX-P1-HEME-05-01",
+  "title": "Hemoglobin and Hematologic Biochemistry",
+  "subject": "Hematologic System (HEME)",
+  "version": "1.0",
+  "author": "Dr. Sharilyn Rennie",
+  "brand": "MedMasters Collaborative",
+  "overview": {
+    "intro": "This chapter covers the biochemistry that keeps red cells working and blood clotting where it should: heme synthesis and the porphyrias, hemoglobin structure and oxygen binding, methemoglobin and carbon monoxide, red cell energy and antioxidant pathways, vitamin B12 and folate, and vitamin K. Board questions usually describe a patient and a lab pattern and ask you to locate the block in a pathway, predict which way the oxygen dissociation curve moves, or name the missing vitamin or enzyme from a marker such as urine porphobilinogen or methylmalonic acid. If you can follow each pathway from substrate to product and say what accumulates when a step fails, you can reason through most of these questions.",
+    "prerequisites": [
+      "Glycolysis, the citric acid cycle, and the role of NAD+, NADH, and NADPH",
+      "Enzyme kinetics, allosteric regulation, and feedback repression",
+      "Erythropoiesis and red cell structure (HE-1, HE-3)",
+      "Partial pressure, PaO2, and gas exchange (PU-7, PU-8)",
+      "Overview of the coagulation cascade and platelet activation (HE-4)"
+    ],
+    "connections": [
+      {
+        "to": "Blood gas transport (PU-8)",
+        "how": "The oxygen dissociation curve and its shifts determine how much of the oxygen loaded in the lungs is actually delivered to tissue."
+      },
+      {
+        "to": "Diseases of blood cell lysis (HE-9-B)",
+        "how": "Pyruvate kinase and G6PD deficiency are the classic enzyme causes of hemolytic anemia, and their smear findings follow from the pathway defects taught here."
+      },
+      {
+        "to": "Diseases of blood cell production (HE-9-A)",
+        "how": "Sideroblastic, lead-induced, and megaloblastic anemias are failures of heme synthesis or DNA synthesis in erythroid precursors."
+      },
+      {
+        "to": "Clotting abnormalities (HE-9-C)",
+        "how": "Vitamin K deficiency and antagonism lower factors II, VII, IX, and X and proteins C and S, which explains the PT pattern and early hypercoagulability."
+      },
+      {
+        "to": "Metabolic and nutritional neurological diseases (NE-20-D)",
+        "how": "Acute porphyria and subacute combined degeneration from B12 deficiency are biochemical causes of neuropathy and spinal cord disease."
+      }
+    ],
+    "terms": [
+      {
+        "term": "Porphyrin",
+        "def": "A ring of four pyrrole units joined by methene bridges; with iron in its center it forms heme."
+      },
+      {
+        "term": "Porphyria",
+        "def": "A disorder caused by partial deficiency of a heme synthetic enzyme, in which intermediates before the block accumulate and cause neurovisceral or skin disease."
+      },
+      {
+        "term": "Rate-limiting enzyme",
+        "def": "The slowest, most regulated step of a pathway, whose activity sets overall flux; in heme synthesis this is ALA synthase."
+      },
+      {
+        "term": "Cooperativity",
+        "def": "The property by which O2 binding at one heme of hemoglobin raises the O2 affinity of the remaining hemes, producing a sigmoid binding curve."
+      },
+      {
+        "term": "P50",
+        "def": "The PO2 at which hemoglobin is 50% saturated, about 26 to 27 mmHg for adult blood; a higher P50 means lower affinity."
+      },
+      {
+        "term": "Bohr effect",
+        "def": "The decrease in hemoglobin O2 affinity caused by H+ and CO2, which favors O2 unloading in metabolically active tissue."
+      },
+      {
+        "term": "Methemoglobin",
+        "def": "Hemoglobin whose heme iron has been oxidized from ferrous (Fe2+) to ferric (Fe3+), which cannot bind O2."
+      },
+      {
+        "term": "Reduced glutathione (GSH)",
+        "def": "A thiol-containing tripeptide that donates electrons to glutathione peroxidase to detoxify hydrogen peroxide; it is kept reduced by NADPH."
+      },
+      {
+        "term": "Folate trap",
+        "def": "Accumulation of folate as N5-methyl-tetrahydrofolate when B12-dependent methionine synthase fails, starving thymidylate synthesis of usable folate."
+      },
+      {
+        "term": "Gamma-carboxyglutamate (Gla)",
+        "def": "A glutamate residue carrying a second carboxyl group, added by vitamin K dependent carboxylation, which binds Ca2+ and lets clotting proteins attach to phospholipid membranes."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "comp": "NPLEX-P1-HEME-05-01-C01",
+      "obj": "HE-5.1",
+      "title": "Heme synthesis and its regulation",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Heme is iron held in the center of a porphyrin ring. It is the O2-binding group of hemoglobin and myoglobin and the redox center of cytochromes, including the cytochrome P450 enzymes. Nearly all nucleated cells make heme, but about 85% is made by erythroid precursors in the marrow and most of the rest by the liver. Mature red cells cannot make heme because they have lost their mitochondria, where the pathway begins and ends."
+        },
+        {
+          "type": "p",
+          "text": "The first step, in the mitochondrial matrix, condenses glycine with succinyl-CoA to form delta-aminolevulinic acid (ALA), releasing CO2. Its enzyme, ALA synthase, is rate limiting and requires pyridoxal phosphate, the active form of vitamin B6, which binds glycine as a Schiff base. Succinyl-CoA comes from the citric acid cycle, which is why the pathway starts inside the mitochondrion; each heme uses eight glycines and eight succinyl-CoA."
+        },
+        {
+          "type": "p",
+          "text": "ALA moves to the cytosol, where ALA dehydratase, a zinc enzyme, joins two ALA into the single pyrrole porphobilinogen (PBG). Four PBG are linked into a linear chain, the chain is closed into a ring, and side chains are trimmed to form coproporphyrinogen III. This returns to the mitochondrion to be oxidized to protoporphyrin IX, and ferrochelatase, on the matrix side of the inner membrane, inserts ferrous iron (Fe2+). Uroporphyrinogen, coproporphyrinogen, and protoporphyrinogen are colorless porphyrinogens; when they oxidize to porphyrins, the rings absorb light, which matters in the porphyrias."
+        },
+        {
+          "type": "table",
+          "title": "Steps of heme synthesis",
+          "cols": [
+            "Step",
+            "Enzyme",
+            "Site",
+            "Disorder when the step fails"
+          ],
+          "rows": [
+            [
+              "Glycine + succinyl-CoA to ALA",
+              "ALA synthase (B6 dependent, rate limiting)",
+              "Mitochondrion",
+              "X-linked sideroblastic anemia (ALAS2); B6 deficiency"
+            ],
+            [
+              "2 ALA to porphobilinogen",
+              "ALA dehydratase (zinc enzyme)",
+              "Cytosol",
+              "Lead inhibition; ALA rises"
+            ],
+            [
+              "4 PBG to hydroxymethylbilane",
+              "PBG deaminase",
+              "Cytosol",
+              "Acute intermittent porphyria"
+            ],
+            [
+              "Hydroxymethylbilane to uroporphyrinogen III",
+              "Uroporphyrinogen III synthase",
+              "Cytosol",
+              "Congenital erythropoietic porphyria"
+            ],
+            [
+              "Uroporphyrinogen III to coproporphyrinogen III",
+              "Uroporphyrinogen decarboxylase",
+              "Cytosol",
+              "Porphyria cutanea tarda"
+            ],
+            [
+              "Coproporphyrinogen III to protoporphyrin IX",
+              "Coproporphyrinogen and protoporphyrinogen oxidases",
+              "Mitochondrion",
+              "Hereditary coproporphyria; variegate porphyria"
+            ],
+            [
+              "Protoporphyrin IX + Fe2+ to heme",
+              "Ferrochelatase",
+              "Mitochondrion",
+              "Lead inhibition; erythropoietic protoporphyria"
+            ]
+          ],
+          "caption": "The first enzyme and the last three are mitochondrial; the middle four are cytosolic. Intermediates before a deficient enzyme accumulate."
+        },
+        {
+          "type": "p",
+          "text": "Regulation differs by tissue. In the liver, ALA synthase 1 (ALAS1) follows demand: free heme represses its synthesis and blocks its import into mitochondria, so production matches use, and glucose and insulin also suppress it, so fasting raises it. Drugs that induce cytochrome P450 enzymes create new apoproteins that take up heme, which lifts the repression, as shown below. In erythroid cells, ALA synthase 2 (ALAS2) is encoded on the X chromosome and is controlled mainly by iron supply through an iron-responsive element in its mRNA, so marrow heme output follows iron delivery."
+        },
+        {
+          "type": "cycle",
+          "title": "Heme feedback on hepatic ALA synthase",
+          "steps": [
+            "Inducing drug raises cytochrome P450 apoprotein synthesis",
+            "New apoproteins take up free heme",
+            "Free heme pool in the hepatocyte falls",
+            "Repression of ALAS1 is lifted",
+            "ALA synthesis and pathway flux rise",
+            "Heme pool recovers and represses ALAS1 again"
+          ],
+          "caption": "Negative feedback keeps hepatic heme supply matched to demand; the same loop drives attacks of acute porphyria when a downstream enzyme is deficient."
+        },
+        {
+          "type": "p",
+          "text": "When erythroid heme synthesis fails, iron delivered to mitochondria cannot be used and accumulates in mitochondria that encircle the nucleus, seen as ringed sideroblasts on Prussian blue stain, and the anemia is usually microcytic. Causes include ALAS2 mutations, B6 deficiency (for example from isoniazid, which depletes pyridoxal phosphate), alcohol, copper deficiency, and lead. Lead displaces zinc from ALA dehydratase and inhibits ferrochelatase, so urine ALA rises and zinc is inserted into protoporphyrin in place of iron, raising zinc protoporphyrin. Lead also inhibits pyrimidine 5'-nucleotidase, leaving undegraded ribosomal RNA that appears as basophilic stippling."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-HEME-05-01-C02",
+      "obj": "HE-5.2",
+      "title": "Acute intermittent porphyria and porphyria cutanea tarda",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "In a porphyria, partial loss of one enzyme makes the intermediates before it accumulate, while heme output stays near normal at baseline. The intermediate decides the symptoms. ALA and PBG, formed before the ring closes, are neurotoxic but do not absorb light, so blocks at or before PBG deaminase cause neurovisceral attacks without skin disease. Porphyrinogens formed after ring closure oxidize to porphyrins, which absorb visible light strongly near 400 nm and are phototoxic, so later blocks cause skin disease."
+        },
+        {
+          "type": "h",
+          "text": "Acute intermittent porphyria"
+        },
+        {
+          "type": "p",
+          "text": "Acute intermittent porphyria (AIP) is an autosomal dominant deficiency of PBG deaminase (hydroxymethylbilane synthase) with about 50% residual activity, and most carriers never have symptoms. An attack occurs when hepatic ALAS1 is induced, so that increased flux meets the bottleneck and ALA and PBG pour out of the liver. Triggers include P450-inducing drugs such as barbiturates, alcohol, fasting or low carbohydrate intake, and progesterone, which explains attacks in the luteal phase and their rarity before puberty. How ALA and PBG injure nerves is not settled; direct ALA toxicity (ALA resembles GABA) and heme deficiency in neurons are both proposed."
+        },
+        {
+          "type": "p",
+          "text": "Autonomic neuropathy causes severe, poorly localized abdominal pain with little tenderness, vomiting, constipation, tachycardia, and hypertension. Motor neuropathy can progress to weakness and respiratory failure, and anxiety, confusion, or psychosis are common. Hyponatremia is frequent, partly from inappropriate ADH secretion. Urine PBG is markedly raised during an attack, and urine darkens to red-brown on standing as PBG polymerizes and oxidizes."
+        },
+        {
+          "type": "h",
+          "text": "Porphyria cutanea tarda"
+        },
+        {
+          "type": "p",
+          "text": "Porphyria cutanea tarda (PCT), the most common porphyria, results from reduced hepatic uroporphyrinogen decarboxylase (UROD) activity. Most cases are sporadic and the rest carry a heterozygous UROD mutation, but in both, disease appears only when hepatic activity falls below about 20% to 25% of normal. Iron drives that fall, because iron-dependent oxidation in hepatocytes turns uroporphyrinogen into a UROD inhibitor. Hepatitis C, alcohol, hemochromatosis (HFE) mutations, estrogens, HIV, and smoking all promote this."
+        },
+        {
+          "type": "p",
+          "text": "Uroporphyrin and related porphyrins accumulate in liver, plasma, and skin. Light excites them in the dermis, and the reactive oxygen species formed damage the dermal-epidermal junction, causing fragile skin and subepidermal blisters on the backs of the hands and other sun-exposed areas that heal with scars and milia, along with facial hypertrichosis and hyperpigmentation. ALA and PBG are normal, so there are no neurovisceral attacks, and urine is red-brown and fluoresces pink-orange under ultraviolet (Wood) light. Variegate porphyria and hereditary coproporphyria block later steps but also raise ALA and PBG during attacks, so they can cause both blistering and acute attacks."
+        },
+        {
+          "type": "table",
+          "title": "Acute intermittent porphyria versus porphyria cutanea tarda",
+          "cols": [
+            "Feature",
+            "Acute intermittent porphyria",
+            "Porphyria cutanea tarda"
+          ],
+          "rows": [
+            [
+              "Deficient enzyme",
+              "PBG deaminase (about 50% activity)",
+              "Hepatic uroporphyrinogen decarboxylase (under about 25%)"
+            ],
+            [
+              "Inheritance",
+              "Autosomal dominant, low penetrance",
+              "Mostly acquired; some heterozygous UROD mutations"
+            ],
+            [
+              "What accumulates",
+              "ALA and PBG (not light absorbing)",
+              "Uroporphyrin and heptacarboxyl porphyrin"
+            ],
+            [
+              "Nervous system",
+              "Abdominal pain, neuropathy, psychiatric symptoms, hyponatremia",
+              "Not affected"
+            ],
+            [
+              "Skin",
+              "No photosensitivity",
+              "Blistering, fragility, milia, hypertrichosis"
+            ],
+            [
+              "Key urine finding",
+              "High PBG; darkens on standing",
+              "High uroporphyrin; pink-orange fluorescence"
+            ],
+            [
+              "Precipitants",
+              "P450-inducing drugs, alcohol, fasting, progesterone",
+              "Iron, hepatitis C, alcohol, estrogens, HIV, smoking"
+            ]
+          ],
+          "caption": "Neurovisceral disease follows accumulation of ALA and PBG; skin disease follows accumulation of photoreactive porphyrins."
+        },
+        {
+          "type": "stop",
+          "predict": "A patient in an attack of acute intermittent porphyria spends the afternoon in bright sun. Will blisters form?",
+          "explain": "No. The block is before ring closure, so the accumulating compounds are ALA and PBG, which do not absorb visible light. Phototoxicity requires porphyrins formed after uroporphyrinogen.",
+          "check": "The opening paragraph on which intermediates absorb light."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-HEME-05-01-C03",
+      "obj": "HE-5.3",
+      "title": "Hemoglobin structure, cooperative binding, and curve shifts",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Hemoglobin is a tetramer of two alpha chains and two non-alpha chains. Each chain holds one heme whose ferrous iron is bound to a histidine of the globin (the proximal histidine) and can bind one O2, so a tetramer carries up to four O2, and each gram of hemoglobin binds about 1.34 mL O2 when fully saturated. The alpha genes lie on chromosome 16 and the beta-like genes (epsilon, gamma, delta, beta) on chromosome 11, switched on in developmental order."
+        },
+        {
+          "type": "table",
+          "title": "Normal hemoglobins",
+          "cols": [
+            "Hemoglobin",
+            "Chains",
+            "Share of adult hemoglobin",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "HbA",
+              "Two alpha, two beta",
+              "About 95% to 97%",
+              "Main adult form"
+            ],
+            [
+              "HbA2",
+              "Two alpha, two delta",
+              "About 2% to 3.5%",
+              "Raised in beta thalassemia trait"
+            ],
+            [
+              "HbF",
+              "Two alpha, two gamma",
+              "Under about 1%",
+              "About 60% to 80% at birth; replaced by HbA over the first 6 to 12 months; higher O2 affinity"
+            ]
+          ],
+          "caption": "Every normal postnatal hemoglobin contains alpha chains, so alpha chain defects affect all three."
+        },
+        {
+          "type": "p",
+          "text": "Deoxyhemoglobin is held in the tense (T) state by salt bridges between subunits and has low O2 affinity. When O2 binds, the iron moves into the plane of the heme ring and pulls the proximal histidine and its helix, breaking salt bridges and shifting the whole tetramer toward the relaxed (R) state, so each O2 bound raises the affinity of the remaining sites. This positive cooperativity gives a sigmoid curve. Hemoglobin is about 97% saturated at an arterial PO2 near 100 mmHg, about 75% at the mixed venous PO2 of 40 mmHg, and unloads steeply at the lower PO2 of active muscle. Myoglobin, a single chain, has a hyperbolic, high-affinity curve suited to storing O2 in muscle."
+        },
+        {
+          "type": "p",
+          "text": "The P50, the PO2 at 50% saturation, is about 26 to 27 mmHg in adult blood. A right shift raises P50, lowering affinity and favoring unloading; a left shift lowers P50, favoring loading but holding O2 back from tissue."
+        },
+        {
+          "type": "p",
+          "text": "2,3-Bisphosphoglycerate (2,3-BPG), made in red cells from the glycolytic intermediate 1,3-BPG, binds positively charged residues in the central cavity between the two beta chains of deoxyhemoglobin and stabilizes the T state. It rises over hours to days in chronic hypoxia, such as at altitude, in chronic anemia, and in lung disease. H+ protonates histidine residues that form T-state salt bridges, and CO2 binds terminal amino groups as carbamino compounds, so acidic, CO2-rich tissue lowers affinity (the Bohr effect); heat also weakens binding. All of these rise in working muscle, so unloading increases where demand is greatest."
+        },
+        {
+          "type": "p",
+          "text": "In the gamma chain, a serine replaces a positively charged histidine at the 2,3-BPG binding site, so HbF binds 2,3-BPG poorly, stays closer to the R state, and has a P50 of about 19 mmHg. Fetal blood can therefore take O2 from maternal HbA across the placenta. Carbon monoxide and methemoglobin shift the curve left by holding the remaining sites of a tetramer in the R state (next section)."
+        },
+        {
+          "type": "table",
+          "title": "Shifts of the oxygen dissociation curve",
+          "cols": [
+            "Change",
+            "Direction",
+            "Mechanism"
+          ],
+          "rows": [
+            [
+              "Higher 2,3-BPG (altitude, chronic anemia)",
+              "Right",
+              "Stabilizes the T state"
+            ],
+            [
+              "Higher H+ (lower pH)",
+              "Right",
+              "Stabilizes the T state (Bohr effect)"
+            ],
+            [
+              "Higher CO2",
+              "Right",
+              "Carbamino groups stabilize the T state"
+            ],
+            [
+              "Higher temperature (fever, exercise)",
+              "Right",
+              "O2 binding releases heat, so heat lowers affinity"
+            ],
+            [
+              "HbF",
+              "Left",
+              "Gamma chains bind 2,3-BPG poorly"
+            ],
+            [
+              "Carbon monoxide",
+              "Left",
+              "Holds remaining sites in the R state"
+            ],
+            [
+              "Methemoglobin",
+              "Left",
+              "Holds remaining sites in the R state"
+            ],
+            [
+              "Alkalosis, hypothermia, low 2,3-BPG (stored blood)",
+              "Left",
+              "Favor the R state"
+            ]
+          ],
+          "caption": "Right shifts favor unloading in tissue; left shifts favor loading but impair delivery."
+        },
+        {
+          "type": "stop",
+          "predict": "A climber spends two weeks at high altitude. Which way does 2,3-BPG move, which way does the curve shift, and why does this help?",
+          "explain": "2,3-BPG rises, shifting the curve to the right, so more O2 is released at a given tissue PO2. Respiratory alkalosis from hyperventilation partly offsets the shift.",
+          "check": "The paragraph on 2,3-BPG, the Bohr effect, and the shift table."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-HEME-05-01-C04",
+      "obj": "HE-5.4",
+      "title": "Methemoglobin and carbon monoxide: low O2 delivery with a normal PaO2",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Arterial O2 content is the O2 bound to hemoglobin (1.34 x Hb x SaO2) plus the O2 dissolved in plasma (0.003 x PaO2), in mL O2 per dL. With hemoglobin 15 g/dL and SaO2 98%, content is about 20 mL/dL, of which dissolved O2 is only 0.3 mL/dL. PaO2 measures only the dissolved fraction, so it reflects alveolar gas and lung exchange, not how much hemoglobin can carry. When hemoglobin is disabled and the lungs are normal, PaO2 stays normal while content and delivery fall."
+        },
+        {
+          "type": "h",
+          "text": "Methemoglobin"
+        },
+        {
+          "type": "p",
+          "text": "Methemoglobin contains ferric (Fe3+) heme, which cannot bind O2, and the oxidized subunits push the remaining ferrous subunits of the same tetramer toward the R state, so the curve shifts left and the O2 still carried is released less readily. Heme iron oxidizes spontaneously at a low rate each day, and NADH-cytochrome b5 reductase, using NADH from glycolysis, reduces it back, keeping methemoglobin at about 1% or less of total hemoglobin. An NADPH-dependent reductase normally contributes little."
+        },
+        {
+          "type": "p",
+          "text": "Congenital methemoglobinemia is usually autosomal recessive cytochrome b5 reductase deficiency; when limited to red cells (type I) it causes lifelong cyanosis with few symptoms, and when generalized (type II) it also causes severe neurologic impairment. Acquired disease is far more common and occurs when an oxidant outpaces the reductase: nitrites (contaminated well water in infants, amyl nitrite), dapsone, benzocaine and other topical anesthetics, primaquine, and aniline dyes. Young infants are vulnerable because their reductase activity is low."
+        },
+        {
+          "type": "p",
+          "text": "Cyanosis appears at about 1.5 g/dL methemoglobin (roughly 10%), far less than the 5 g/dL of deoxyhemoglobin that produces cyanosis in hypoxemia, because methemoglobin is dark. Blood is chocolate brown and does not redden in air, and headache and dyspnea appear above about 20% to 30%. Supplemental O2 raises PaO2 but does not correct the cyanosis, because the defect is in hemoglobin, not the lungs."
+        },
+        {
+          "type": "h",
+          "text": "Carbon monoxide"
+        },
+        {
+          "type": "p",
+          "text": "Carbon monoxide (CO), produced by incomplete combustion, binds heme about 200 to 250 times more avidly than O2, so a small inspired fraction forms large amounts of carboxyhemoglobin (COHb). This lowers content and, by holding the other sites of each tetramer in the R state, shifts the curve left and makes it less sigmoid. CO also binds cytochrome c oxidase, impairing mitochondrial O2 use. Patients are not cyanotic because COHb is red. COHb is normally under about 3% in nonsmokers and up to about 10% in heavy smokers."
+        },
+        {
+          "type": "p",
+          "text": "Pulse oximeters compare light absorbance at two wavelengths (about 660 and 940 nm). COHb absorbs like oxyhemoglobin at 660 nm, so the reading is falsely normal. Methemoglobin absorbs both wavelengths about equally, which drives the reading toward about 85% whatever the true saturation. Blood gas analyzers that calculate saturation from PaO2 are also falsely normal; co-oximetry, which measures absorbance at several wavelengths, reports the true fractions."
+        },
+        {
+          "type": "table",
+          "title": "Telling the causes of low O2 delivery apart",
+          "cols": [
+            "Condition",
+            "PaO2",
+            "True saturation (co-oximetry)",
+            "Pulse oximetry",
+            "O2 content",
+            "Curve"
+          ],
+          "rows": [
+            [
+              "Hypoxemia from lung disease",
+              "Low",
+              "Low",
+              "Low (accurate)",
+              "Low",
+              "Normal position"
+            ],
+            [
+              "Anemia",
+              "Normal",
+              "Normal",
+              "Normal",
+              "Low",
+              "Normal or right (higher 2,3-BPG)"
+            ],
+            [
+              "Carbon monoxide poisoning",
+              "Normal",
+              "Low",
+              "Falsely normal",
+              "Low",
+              "Left"
+            ],
+            [
+              "Methemoglobinemia",
+              "Normal",
+              "Low",
+              "About 85%",
+              "Low",
+              "Left"
+            ]
+          ],
+          "caption": "A normal PaO2 rules out a gas exchange problem, not a hemoglobin problem."
+        },
+        {
+          "type": "example",
+          "title": "Why 50% COHb is worse than halving hemoglobin",
+          "text": "Normal content is about 20 mL/dL. Patient A has anemia with hemoglobin 7.5 g/dL: 1.34 x 7.5 x 0.98 + 0.3, about 10 mL/dL. Patient B has hemoglobin 15 g/dL but 50% COHb, leaving about half the sites for O2: 1.34 x 15 x 0.49 + 0.3, also about 10 mL/dL. The contents match, yet B is far sicker. In A, the remaining hemoglobin has a normal or right-shifted curve and unloads freely. In B, the left shift means tissue PO2 must fall much lower before the remaining O2 is released, and CO also inhibits cytochrome c oxidase."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-HEME-05-01-C05",
+      "obj": "HE-5.5",
+      "title": "Red cell energy and antioxidant metabolism",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Mature red cells have no nucleus, ribosomes, or mitochondria. Without mitochondria they cannot run the citric acid cycle, oxidative phosphorylation, or fatty acid oxidation, so they depend entirely on glucose, which enters through insulin-independent GLUT1 transporters. About 90% of that glucose passes through anaerobic glycolysis to lactate, and the remainder enters the pentose phosphate pathway. Reducing pyruvate to lactate regenerates the NAD+ that glycolysis needs to continue. Without ribosomes the cell cannot replace an unstable enzyme, so activity declines with cell age."
+        },
+        {
+          "type": "table",
+          "title": "What red cell glucose metabolism provides",
+          "cols": [
+            "Product",
+            "Source",
+            "Used for"
+          ],
+          "rows": [
+            [
+              "ATP",
+              "Glycolysis",
+              "Ion pumps, membrane upkeep, glutathione synthesis"
+            ],
+            [
+              "NADH",
+              "Glyceraldehyde-3-phosphate dehydrogenase",
+              "Cytochrome b5 reductase (methemoglobin reduction)"
+            ],
+            [
+              "2,3-BPG",
+              "Bisphosphoglycerate mutase shunt from 1,3-BPG",
+              "Lowers O2 affinity; bypasses an ATP-producing step"
+            ],
+            [
+              "NADPH",
+              "Pentose phosphate pathway (G6PD and 6-phosphogluconate dehydrogenase)",
+              "Glutathione reductase"
+            ]
+          ],
+          "caption": "Glycolysis supplies energy and NADH; the pentose phosphate pathway is the only red cell source of NADPH."
+        },
+        {
+          "type": "p",
+          "text": "ATP keeps the cell deformable enough to pass through capillaries and splenic cords narrower than itself. The Na+/K+-ATPase holds volume, a Ca2+ pump keeps cytosolic Ca2+ low, and an ATP-dependent flippase keeps phosphatidylserine on the inner leaflet, where its exposure would mark the cell for removal by macrophages."
+        },
+        {
+          "type": "p",
+          "text": "Pyruvate kinase deficiency, usually autosomal recessive, is the most common glycolytic enzyme defect causing hemolysis. ATP falls, the pumps fail, and cells lose K+ and water, becoming dehydrated, rigid, and spiculated; splenic macrophages remove them, so hemolysis is chronic and extravascular, with jaundice, splenomegaly, and pigment gallstones. Intermediates above the block accumulate, including 2,3-BPG, which shifts the curve right, so patients often tolerate their anemia better than the hemoglobin level suggests."
+        },
+        {
+          "type": "p",
+          "text": "Red cells face constant oxidant stress because they carry O2 at high concentration and hemoglobin autoxidation releases superoxide, which becomes hydrogen peroxide. Glucose-6-phosphate dehydrogenase (G6PD), the rate-limiting enzyme of the pentose phosphate pathway, and the next dehydrogenase each reduce NADP+ to NADPH. Glutathione reductase uses NADPH to keep glutathione reduced (GSH), and glutathione peroxidase, a selenium enzyme, uses GSH to reduce hydrogen peroxide to water."
+        },
+        {
+          "type": "p",
+          "text": "G6PD deficiency is X-linked, so it is expressed mainly in males, and it is the most common human enzyme deficiency, frequent where malaria was endemic because it gives partial protection against Plasmodium falciparum. In the common African A- variant the enzyme is unstable, so only older cells are deficient and hemolysis tends to be self-limited; Mediterranean variants have very low activity in cells of all ages and cause more severe hemolysis, including favism. Between exposures most patients are not anemic."
+        },
+        {
+          "type": "flow",
+          "title": "Oxidant hemolysis in G6PD deficiency",
+          "steps": [
+            "Oxidant stress: infection, fava beans, dapsone, primaquine, sulfonamides",
+            "Too little NADPH; reduced glutathione is depleted",
+            "Hydrogen peroxide oxidizes hemoglobin and membrane proteins",
+            "Denatured hemoglobin precipitates as Heinz bodies on the membrane",
+            "Damaged membranes rupture in vessels: intravascular hemolysis",
+            "Splenic macrophages remove Heinz bodies, leaving bite cells",
+            "Rigid damaged cells are destroyed: extravascular hemolysis"
+          ],
+          "caption": "Hemolysis typically begins 1 to 3 days after exposure, with hemoglobinuria, back pain, and jaundice."
+        },
+        {
+          "type": "p",
+          "text": "Heinz bodies need a supravital stain, while bite cells appear on a routine smear. Because the most deficient old cells lyse first, G6PD activity measured just after an episode can be falsely normal."
+        },
+        {
+          "type": "table",
+          "title": "Pyruvate kinase versus G6PD deficiency",
+          "cols": [
+            "Feature",
+            "Pyruvate kinase deficiency",
+            "G6PD deficiency"
+          ],
+          "rows": [
+            [
+              "Inheritance",
+              "Autosomal recessive",
+              "X-linked"
+            ],
+            [
+              "Pathway",
+              "Glycolysis",
+              "Pentose phosphate pathway"
+            ],
+            [
+              "Product lost",
+              "ATP",
+              "NADPH, then reduced glutathione"
+            ],
+            [
+              "Site of hemolysis",
+              "Extravascular",
+              "Intravascular and extravascular"
+            ],
+            [
+              "Smear",
+              "Spiculated, dehydrated cells",
+              "Heinz bodies, bite cells, blister cells"
+            ],
+            [
+              "2,3-BPG and curve",
+              "Raised; right shift",
+              "Not characteristically changed"
+            ]
+          ],
+          "caption": "The lost product predicts the pattern of hemolysis."
+        },
+        {
+          "type": "stop",
+          "predict": "Why does G6PD deficiency damage red cells but rarely harm hepatocytes, which carry the same mutant enzyme?",
+          "explain": "Hepatocytes have other NADPH sources, such as malic enzyme, and can make new G6PD. Red cells have neither, so an unstable enzyme leaves them without NADPH.",
+          "check": "The opening paragraph and the products table."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-HEME-05-01-C06",
+      "obj": "HE-5.6",
+      "title": "Vitamin B12 and folate in DNA synthesis and methylation",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Folate works in cells as tetrahydrofolate (THF), which accepts one-carbon units, mainly from serine, and donates them for purine synthesis, thymidylate synthesis, and methionine regeneration. Thymidylate synthase transfers a carbon from N5,N10-methylene-THF to deoxyuridine monophosphate (dUMP), forming deoxythymidine monophosphate (dTMP); the folate leaves as dihydrofolate (DHF), which dihydrofolate reductase must reduce back to THF. Methotrexate blocks dihydrofolate reductase and 5-fluorouracil blocks thymidylate synthase, each stopping DNA synthesis."
+        },
+        {
+          "type": "cycle",
+          "title": "Folate in thymidylate synthesis",
+          "steps": [
+            "THF accepts a carbon from serine, forming methylene-THF",
+            "Thymidylate synthase converts dUMP to dTMP",
+            "Folate is released as dihydrofolate (DHF)",
+            "Dihydrofolate reductase uses NADPH to regenerate THF"
+          ],
+          "caption": "Each dTMP made consumes one methylene-THF, so DNA synthesis needs continuous folate recycling."
+        },
+        {
+          "type": "p",
+          "text": "Vitamin B12 (cobalamin) is a cofactor for only two human enzymes. Methionine synthase, using methylcobalamin, transfers the methyl group of N5-methyl-THF to homocysteine, forming methionine and freeing THF; methionine then forms S-adenosylmethionine (SAM), the main methyl donor. Methylmalonyl-CoA mutase, using adenosylcobalamin in mitochondria, converts methylmalonyl-CoA to succinyl-CoA, the route by which propionyl-CoA from odd-chain fatty acids and from valine, isoleucine, methionine, and threonine enters the citric acid cycle."
+        },
+        {
+          "type": "p",
+          "text": "Methylenetetrahydrofolate reductase (MTHFR) converts methylene-THF to methyl-THF in an effectively irreversible reaction, and methionine synthase is the only enzyme that removes that methyl group. In B12 deficiency, folate therefore accumulates as unusable methyl-THF, as shown below. This explains why the two deficiencies produce identical blood findings, and why large amounts of folic acid, which dihydrofolate reductase converts to THF without passing through methyl-THF, can correct the anemia of B12 deficiency while neurologic damage continues."
+        },
+        {
+          "type": "flow",
+          "title": "The folate trap in B12 deficiency",
+          "steps": [
+            "B12 deficiency halts methionine synthase",
+            "Methyl-THF cannot give up its methyl group",
+            "Folate is trapped as methyl-THF; homocysteine rises",
+            "Methylene-THF for thymidylate synthase runs short",
+            "dTMP falls; uracil enters DNA and DNA synthesis stalls",
+            "Megaloblastic, ineffective erythropoiesis"
+          ],
+          "caption": "Total folate may be normal or high, yet the cell cannot use it for DNA synthesis."
+        },
+        {
+          "type": "p",
+          "text": "When dTMP is scarce, DNA polymerase inserts uracil in place of thymine, and repeated repair fragments the DNA. Replication stalls while RNA and protein synthesis continue, so nuclei stay large and immature while the cytoplasm matures, the asynchrony that defines megaloblasts. Many precursors die in the marrow (ineffective erythropoiesis), raising LDH and indirect bilirubin. Blood shows macrocytes (MCV over 100 fL), hypersegmented neutrophils, and often low white cell and platelet counts, because every dividing marrow line is affected."
+        },
+        {
+          "type": "p",
+          "text": "Only B12 deficiency damages myelin, causing subacute combined degeneration: loss of the dorsal columns (vibration and position sense, positive Romberg sign) and lateral corticospinal tracts (spastic weakness, extensor plantar responses), with peripheral neuropathy and cognitive change, sometimes without anemia. The mechanism is not settled; reduced SAM for myelin methylation and abnormal fatty acids built from excess methylmalonyl-CoA and propionyl-CoA are both proposed. Liver B12 stores last about 3 to 5 years, while folate stores last about 3 to 4 months, so folate deficiency appears much sooner after intake falls."
+        },
+        {
+          "type": "table",
+          "title": "Laboratory distinction of B12 and folate deficiency",
+          "cols": [
+            "Finding",
+            "B12 deficiency",
+            "Folate deficiency"
+          ],
+          "rows": [
+            [
+              "Macrocytosis and hypersegmented neutrophils",
+              "Yes",
+              "Yes"
+            ],
+            [
+              "Homocysteine (normal about 5 to 15 µmol/L)",
+              "High",
+              "High"
+            ],
+            [
+              "Methylmalonic acid (normal under about 0.4 µmol/L)",
+              "High",
+              "Normal"
+            ],
+            [
+              "Neurologic disease",
+              "Yes (dorsal columns, corticospinal tracts, nerves)",
+              "No"
+            ],
+            [
+              "Time to deficiency after intake stops",
+              "Years",
+              "Months"
+            ]
+          ],
+          "caption": "Homocysteine tracks methionine synthase (both vitamins); methylmalonic acid tracks the mutase (B12 only)."
+        },
+        {
+          "type": "example",
+          "title": "Reading homocysteine and methylmalonic acid",
+          "text": "A patient has MCV 112 fL, hypersegmented neutrophils, and a borderline serum B12. Homocysteine is 28 µmol/L and methylmalonic acid is 1.1 µmol/L. Step 1: a raised homocysteine shows methionine synthase is failing, which fits either deficiency. Step 2: a raised methylmalonic acid shows the mutase is also failing, and only B12 serves the mutase, so this is B12 deficiency. Step 3: had methylmalonic acid been normal with high homocysteine, folate deficiency would be likely. Kidney failure raises both markers, so renal function must be known first."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-HEME-05-01-C07",
+      "obj": "HE-5.7",
+      "title": "Vitamin K dependent gamma-carboxylation",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Vitamin K occurs as phylloquinone (K1) from green plants and menaquinones (K2) made by intestinal bacteria. It is fat soluble, so its absorption needs bile and pancreatic lipase, and body stores are small. In the endoplasmic reticulum of hepatocytes, gamma-glutamyl carboxylase adds a second carboxyl group to the gamma carbon of specific glutamate residues near the amino terminus of factors II, VII, IX, and X and proteins C and S, forming gamma-carboxyglutamate (Gla). The reaction uses reduced vitamin K (the hydroquinone), O2, and CO2, and leaves vitamin K as its 2,3-epoxide."
+        },
+        {
+          "type": "cycle",
+          "title": "The vitamin K cycle",
+          "steps": [
+            "Reduced vitamin K (hydroquinone) binds gamma-glutamyl carboxylase",
+            "Glutamate residues become Gla; vitamin K becomes epoxide",
+            "VKORC1 reduces the epoxide to vitamin K quinone",
+            "The quinone is reduced back to the hydroquinone"
+          ],
+          "caption": "Vitamin K epoxide reductase (VKORC1) lets each vitamin K molecule be reused many times; warfarin inhibits VKORC1."
+        },
+        {
+          "type": "p",
+          "text": "Because the vitamin is recycled, inhibiting vitamin K epoxide reductase (VKORC1), as warfarin does, depletes reduced vitamin K just as dietary lack does. The liver then secretes undercarboxylated factors (proteins induced by vitamin K absence, or PIVKAs) that circulate but are nearly inactive."
+        },
+        {
+          "type": "p",
+          "text": "Calcium is the reason Gla matters. The two adjacent carboxyl groups of each Gla residue chelate Ca2+, and a Gla domain holds about 9 to 12 of them. Bound Ca2+ folds the domain so that hydrophobic residues emerge and Ca2+ bridges the negative carboxylates to the negatively charged head groups of phosphatidylserine. Resting platelets keep phosphatidylserine on the inner leaflet with an ATP-dependent flippase; activation by thrombin and collagen opens a Ca2+-activated scramblase that exposes it on the outer surface. The tenase (IXa with VIIIa) and prothrombinase (Xa with Va) complexes therefore assemble on activated platelets at the injury, concentrating enzyme and substrate and speeding thrombin generation by several orders of magnitude while keeping clotting local."
+        },
+        {
+          "type": "p",
+          "text": "For the same reason, citrate and EDTA in blood tubes chelate Ca2+ and prevent clotting, and the PT and aPTT add back Ca2+ and phospholipid."
+        },
+        {
+          "type": "table",
+          "title": "Vitamin K dependent clotting proteins",
+          "cols": [
+            "Protein",
+            "Role",
+            "Approximate plasma half-life"
+          ],
+          "rows": [
+            [
+              "Factor VII",
+              "With tissue factor, starts the extrinsic pathway",
+              "4 to 6 hours"
+            ],
+            [
+              "Protein C",
+              "Activated protein C inactivates Va and VIIIa",
+              "About 8 hours"
+            ],
+            [
+              "Factor IX",
+              "Forms tenase with VIIIa",
+              "About 24 hours"
+            ],
+            [
+              "Factor X",
+              "Forms prothrombinase with Va",
+              "About 40 hours"
+            ],
+            [
+              "Protein S",
+              "Cofactor for activated protein C",
+              "About 40 hours"
+            ],
+            [
+              "Factor II (prothrombin)",
+              "Precursor of thrombin",
+              "About 60 to 72 hours"
+            ]
+          ],
+          "caption": "Short half-lives fall first when carboxylation stops, so factor VII and protein C drop within a day."
+        },
+        {
+          "type": "p",
+          "text": "Because the anticoagulant proteins C and S are also Gla proteins, loss of carboxylation lowers both sides of the balance, and the half-lives decide the net effect. The PT, which depends on factor VII, prolongs first, and the aPTT follows as IX, X, and II fall; platelet count and platelet function are normal. Early loss of protein C before factors II and X decline explains the brief hypercoagulable state, and occasional skin necrosis, when warfarin is started."
+        },
+        {
+          "type": "p",
+          "text": "Deficiency occurs in newborns (poor placental transfer, a sterile gut, little vitamin K in breast milk, and an immature liver), with fat malabsorption (biliary obstruction, cystic fibrosis, celiac disease), and with prolonged broad-spectrum antibiotics combined with poor intake. Liver failure also prolongs the PT, but it lowers factor V, which is not vitamin K dependent; a low factor V points to hepatocellular disease rather than vitamin K deficiency."
+        }
+      ]
+    }
+  ],
+  "integration": [
+    {
+      "type": "p",
+      "text": "One theme runs through this chapter: the red cell is a cell without mitochondria or ribosomes, so its survival depends on a few pathways it cannot repair. Glycolysis supplies ATP for deformability and NADH for methemoglobin reduction, the pentose phosphate pathway supplies NADPH for glutathione, and the precursors that built the cell needed mitochondria for heme and folate and B12 for DNA. A single enzyme loss in any of these produces a recognizable pattern: microcytosis with ringed sideroblasts, a porphyria, chronic or episodic hemolysis, cyanosis with a normal PaO2, or megaloblastic change. Pathology links each pattern to its cause: lead in sideroblastic anemia, iron and hepatitis C in PCT, oxidant drugs in G6PD deficiency, and autoimmune gastritis in B12 deficiency."
+    },
+    {
+      "type": "p",
+      "text": "The same biochemistry reaches beyond blood. Hemoglobin affinity links to respiratory physiology and acid-base balance, B12 to myelin and spinal cord disease, and vitamin K to liver function, fat absorption, and gut flora. The limits matter as much as the rules: PaO2 and pulse oximetry can both look normal in serious poisoning, enzyme assays can be falsely normal after hemolysis, homocysteine and methylmalonic acid rise in renal failure, and reference values vary between laboratories, so each finding is read with the rest of the picture."
+    }
+  ],
+  "summary": [
+    "Heme synthesis starts and ends in mitochondria; ALA synthase (B6 dependent) is rate limiting, and free heme represses the hepatic form.",
+    "Lead inhibits ALA dehydratase and ferrochelatase, raising ALA and zinc protoporphyrin; failed erythroid heme synthesis leaves ringed sideroblasts.",
+    "Blocks before ring closure (AIP, PBG deaminase) cause neurovisceral attacks with high urine PBG; blocks after it (PCT, UROD) cause photosensitive blistering.",
+    "AIP attacks follow ALAS1 induction by drugs, alcohol, fasting, or progesterone; PCT expression depends on iron, hepatitis C, and alcohol suppressing hepatic UROD.",
+    "Cooperative T to R transition gives the sigmoid curve; 2,3-BPG, H+, CO2, and heat shift it right, while HbF, CO, methemoglobin, and alkalosis shift it left.",
+    "Methemoglobin and carbon monoxide lower O2 content and left-shift the curve with a normal PaO2; pulse oximetry is falsely normal in CO and fixed near 85% in methemoglobinemia.",
+    "Red cells rely on glycolysis for ATP and NADH and on the pentose phosphate pathway for NADPH; pyruvate kinase deficiency causes chronic extravascular hemolysis with high 2,3-BPG.",
+    "G6PD deficiency leaves glutathione unreduced, so oxidant stress produces Heinz bodies, bite cells, and episodic hemolysis.",
+    "Folate supplies methylene-THF for thymidylate; B12 deficiency traps folate as methyl-THF, so both cause megaloblastic anemia with high homocysteine, but only B12 deficiency raises methylmalonic acid and damages myelin.",
+    "Vitamin K dependent carboxylation creates Gla residues that bind Ca2+ to phosphatidylserine on activated platelets; factor VII and protein C fall first, so the PT prolongs first."
+  ],
+  "sources": [
+    {
+      "book": "Lippincott Illustrated Reviews: Biochemistry",
+      "where": "Heme metabolism and porphyrias; pentose phosphate pathway and NADPH; folic acid, vitamin B12, and vitamin K"
+    },
+    {
+      "book": "Guyton and Hall Textbook of Medical Physiology",
+      "where": "Transport of Oxygen and Carbon Dioxide in Blood and Tissue Fluids; Red Blood Cells, Anemia, and Polycythemia; Hemostasis and Blood Coagulation"
+    },
+    {
+      "book": "Boron and Boulpaep Medical Physiology",
+      "where": "Oxygen and carbon dioxide transport in blood"
+    },
+    {
+      "book": "Robbins and Cotran Pathologic Basis of Disease",
+      "where": "Red blood cell and bleeding disorders"
+    },
+    {
+      "book": "Lange Pathophysiology of Disease",
+      "where": "Blood disorders"
+    }
+  ],
+  "verify": [
+    "Share of heme made in marrow versus liver (about 85% erythroid) varies between sources.",
+    "The hepatic UROD activity threshold for PCT (about 20% to 25%) and the ALA as GABA mimic hypothesis for AIP neurotoxicity are stated as current consensus but are not uniform across texts.",
+    "Normal hemoglobin fractions (HbA2 about 2% to 3.5%, HbF under about 1%, HbF at birth about 60% to 80%) and the age by which HbF reaches adult levels vary by source and laboratory.",
+    "P50 values (adult about 26 to 27 mmHg, HbF about 19 mmHg) are approximate; confirm the figures NABNE expects.",
+    "Methemoglobin symptom thresholds (cyanosis near 10%, symptoms above about 20% to 30%) and normal COHb levels in smokers are approximate and differ between toxicology sources.",
+    "Reference ranges for homocysteine (about 5 to 15 µmol/L) and methylmalonic acid (under about 0.4 µmol/L) are laboratory dependent.",
+    "Plasma half-lives of the vitamin K dependent proteins, especially protein S, are quoted differently between texts.",
+    "Confirm whether NABNE Part I expects the terms PIVKA, VKORC1, and Rapoport-Luebering shunt or only the descriptive terms.",
+    "Requested new diagram names for a future revision: oxygen-dissociation-curve (normal, right-shifted, left-shifted, and HbF curves with P50 marked) and heme-synthesis-pathway (mitochondrial and cytosolic steps with enzyme blocks)."
+  ]
+}

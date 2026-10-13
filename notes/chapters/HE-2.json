@@ -1,0 +1,733 @@
+{
+ "unit": "HE-2",
+ "chapter_id": "NPLEX-P1-HEME-02",
+ "topic_id": "NPLEX-P1-HEME-02-01",
+ "title": "Blood Cells and Plasma",
+ "subject": "Hematology (HEME)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter covers what blood is made of and what each part does: the proteins and electrolytes of plasma, albumin and the Starling forces that keep fluid in the vessels, the red cell as a gas transport machine, the erythropoietin loop that sets red cell mass, the complete blood count, the jobs of each white cell, and the ABO and Rh systems. Board questions rarely ask for a value alone. They give a CBC, an edematous patient, a polycythemic patient, or a transfusion and ask you to explain the mechanism or predict the next finding, so each section is built around the reasoning behind the numbers.",
+  "prerequisites": [
+   "Body fluid compartments and the capillary wall as a semipermeable barrier",
+   "Hemoglobin structure, the oxygen dissociation curve, and the Bohr effect",
+   "Glycolysis and the pentose phosphate pathway",
+   "Overview of hematopoiesis and the myeloid and lymphoid lineages (HE-1)",
+   "Antibody classes, especially IgM and IgG, and complement activation"
+  ],
+  "connections": [
+   {
+    "to": "Renal physiology",
+    "how": "The kidney senses oxygen delivery and makes erythropoietin, and nephrotic syndrome is the classic cause of edema from albumin loss."
+   },
+   {
+    "to": "Respiratory physiology",
+    "how": "Red cell carbonic anhydrase and band 3 carry most CO2 to the lungs as bicarbonate, linking red cells to ventilation and acid-base balance."
+   },
+   {
+    "to": "Gastrointestinal and liver physiology",
+    "how": "The liver makes albumin, fibrinogen, and most other plasma proteins, so cirrhosis lowers oncotic pressure and prolongs clotting tests."
+   },
+   {
+    "to": "Immunology",
+    "how": "Leukocyte functions and the IgM and IgG antibodies of the ABO and Rh systems apply innate and adaptive immunity to the blood."
+   },
+   {
+    "to": "Anemias and hemolysis (later HE units)",
+    "how": "The CBC framework built here is the entry point for every specific anemia and hemolytic disorder."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Plasma",
+    "def": "The fluid portion of unclotted blood, obtained by centrifuging blood drawn into an anticoagulant, which keeps fibrinogen and all clotting factors."
+   },
+   {
+    "term": "Serum",
+    "def": "The fluid left after blood has clotted, which lacks fibrinogen and the clotting factors consumed in clotting."
+   },
+   {
+    "term": "Oncotic pressure",
+    "def": "The osmotic pressure exerted by plasma proteins that cannot easily cross the capillary wall, which draws fluid into the capillary."
+   },
+   {
+    "term": "Starling forces",
+    "def": "The hydrostatic and oncotic pressures inside and outside a capillary whose balance sets net fluid filtration."
+   },
+   {
+    "term": "Chloride shift",
+    "def": "Exchange of red cell bicarbonate for plasma chloride through band 3 as CO2 is loaded in tissues, reversed in the lungs."
+   },
+   {
+    "term": "Erythropoietin (EPO)",
+    "def": "A glycoprotein hormone, made mainly by renal peritubular interstitial cells in response to hypoxia, that drives red cell production."
+   },
+   {
+    "term": "Hypoxia-inducible factor (HIF)",
+    "def": "A transcription factor whose alpha subunit is degraded in normal oxygen and stabilized in hypoxia, switching on the EPO gene."
+   },
+   {
+    "term": "Mean corpuscular volume (MCV)",
+    "def": "The average volume of a red cell in femtoliters, used to classify anemia as microcytic, normocytic, or macrocytic."
+   },
+   {
+    "term": "Red cell distribution width (RDW)",
+    "def": "A measure of variation in red cell size; a high value means the cells are of mixed sizes."
+   },
+   {
+    "term": "Reticulocyte",
+    "def": "A young red cell, released from marrow about one day before full maturity, that still contains residual ribosomal RNA."
+   },
+   {
+    "term": "Left shift",
+    "def": "An increase in immature neutrophils (bands and sometimes metamyelocytes) in blood as the marrow releases cells early, typically in bacterial infection."
+   },
+   {
+    "term": "Isohemagglutinins",
+    "def": "The naturally occurring anti-A and anti-B antibodies, mostly IgM, present in people who lack the corresponding antigen."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-HEME-02-01-C01",
+   "obj": "HE-2.1",
+   "title": "Composition of plasma and the difference between plasma and serum",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Blood is about 7% of body weight, roughly 5 L in an adult, and when it is centrifuged it separates into red cells at the bottom (the hematocrit, about 40 to 45%), a thin buffy coat of white cells and platelets, and plasma on top (about 55%). Plasma is the extracellular fluid of the blood. It is about 92% water, and its solutes are electrolytes, proteins, nutrients, hormones, dissolved gases, and wastes such as urea and creatinine."
+    },
+    {
+     "type": "p",
+     "text": "Electrolytes make up most of the osmotically active particles. Sodium and its accompanying anions (chloride and bicarbonate) account for most of the plasma osmolality of about 275 to 295 mOsm/kg, so plasma sodium is the main determinant of water movement between plasma and cells. Plasma proteins contribute only about 1 mOsm/kg, yet because they stay in the vessel they generate the oncotic pressure that holds fluid in the circulation (C02)."
+    },
+    {
+     "type": "p",
+     "text": "Total plasma protein is about 6 to 8 g/dL. Albumin, about 3.5 to 5 g/dL, is the most abundant. The globulins are a mixed group separated by electrophoresis: alpha-1 (for example alpha-1 antitrypsin), alpha-2 (haptoglobin, ceruloplasmin, alpha-2 macroglobulin), beta (transferrin, complement C3, LDL with its apolipoprotein B), and gamma (immunoglobulins). Fibrinogen, about 200 to 400 mg/dL, is the soluble precursor of fibrin. The liver makes albumin, fibrinogen, and most globulins; immunoglobulins are the main exception, coming from plasma cells. This is why liver failure lowers albumin and clotting factors while immunoglobulins are often high."
+    },
+    {
+     "type": "table",
+     "title": "Main components of plasma",
+     "cols": [
+      "Component",
+      "Approximate adult value",
+      "Main role"
+     ],
+     "rows": [
+      [
+       "Water",
+       "About 92% of plasma",
+       "Solvent; carries heat and solutes"
+      ],
+      [
+       "Sodium",
+       "135 to 145 mmol/L",
+       "Main determinant of plasma osmolality and ECF volume"
+      ],
+      [
+       "Potassium",
+       "3.5 to 5.0 mmol/L",
+       "Sets resting membrane potential"
+      ],
+      [
+       "Chloride",
+       "About 98 to 106 mmol/L",
+       "Main anion; exchanges with bicarbonate in red cells"
+      ],
+      [
+       "Bicarbonate",
+       "22 to 28 mmol/L",
+       "Main extracellular buffer; carries most CO2"
+      ],
+      [
+       "Calcium (total)",
+       "About 8.5 to 10.5 mg/dL",
+       "About half ionized (active), about 40% protein bound"
+      ],
+      [
+       "Albumin",
+       "3.5 to 5.0 g/dL",
+       "Oncotic pressure; transport"
+      ],
+      [
+       "Globulins",
+       "About 2 to 3.5 g/dL",
+       "Transport, protease inhibition, complement, antibodies"
+      ],
+      [
+       "Fibrinogen",
+       "About 200 to 400 mg/dL",
+       "Converted to fibrin in clotting; acute phase reactant"
+      ]
+     ],
+     "caption": "Reference ranges vary slightly by laboratory. Proteins are few in number of particles but dominate oncotic pressure."
+    },
+    {
+     "type": "h",
+     "text": "Plasma versus serum"
+    },
+    {
+     "type": "p",
+     "text": "Plasma is obtained from blood drawn into an anticoagulant tube and centrifuged before it can clot. Citrate and EDTA work by binding calcium, which several clotting steps require, and heparin works by enhancing antithrombin. Serum is the fluid squeezed out after blood clots in a plain tube. Clotting converts fibrinogen to insoluble fibrin and largely consumes prothrombin and factors V, VIII, and XIII, so serum is plasma minus fibrinogen and those factors. Clotting also activates platelets, which release potassium and serotonin, so serum potassium runs slightly higher than plasma potassium."
+    },
+    {
+     "type": "p",
+     "text": "These differences decide which sample a test uses. Clotting tests (PT and PTT) need citrated plasma, because the factors must still be present and calcium can be added back to start the reaction. Serum protein electrophoresis uses serum so that fibrinogen does not appear as an extra band near the beta and gamma region, where it could be mistaken for a monoclonal protein."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-HEME-02-01-C02",
+   "obj": "HE-2.2",
+   "title": "Albumin: oncotic pressure, transport, and edema",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Albumin is a small (about 66 kDa), highly negatively charged protein made only by the liver, with a half-life of about 3 weeks. Because it is abundant and crosses the normal capillary wall poorly, it supplies about 75 to 80% of the plasma oncotic pressure of about 25 to 28 mmHg."
+    },
+    {
+     "type": "h",
+     "text": "Transport"
+    },
+    {
+     "type": "p",
+     "text": "Albumin carries unconjugated bilirubin from splenic macrophages to the liver; this bilirubin is insoluble in water, so binding keeps it in plasma and out of tissues. When binding sites are saturated or a competing ligand such as a sulfonamide displaces it in a newborn, free unconjugated bilirubin can cross into the brain (kernicterus). Albumin also carries free (nonesterified) fatty acids released from adipose tissue to muscle and liver, along with many hormones and drugs."
+    },
+    {
+     "type": "p",
+     "text": "About 40% of plasma calcium is protein bound, mostly to albumin; about 50% is ionized and about 10% is complexed with anions. Only ionized calcium is physiologically active and regulated by parathyroid hormone. In hypoalbuminemia, total calcium falls but ionized calcium stays normal, so there are no symptoms of hypocalcemia. Alkalosis does the reverse: fewer H+ ions compete for binding sites on albumin, more calcium binds, and ionized calcium falls even though total calcium is unchanged, which explains tingling and tetany during hyperventilation."
+    },
+    {
+     "type": "h",
+     "text": "Starling forces and edema"
+    },
+    {
+     "type": "p",
+     "text": "Fluid movement across a capillary follows the Starling relationship: net filtration equals Kf times [(Pc minus Pi) minus sigma (pi c minus pi i)], where Pc and Pi are capillary and interstitial hydrostatic pressures, pi c and pi i the capillary and interstitial oncotic pressures, sigma the reflection coefficient for protein, and Kf the filtration coefficient. Normally a small net outward filtration is returned by lymphatics. When albumin falls, pi c falls, the inward force weakens, and filtration rises. Lymph flow can increase several fold and interstitial protein is washed out, which buffers the change, but once filtration exceeds these safety factors, fluid accumulates as pitting edema, often generalized (anasarca) and with ascites or pleural effusions."
+    },
+    {
+     "type": "flow",
+     "title": "From low albumin to edema",
+     "steps": [
+      "Albumin loss or underproduction",
+      "Plasma oncotic pressure falls",
+      "Inward oncotic force weakens; net filtration rises",
+      "Lymph flow rises; interstitial protein washes out",
+      "Safety factors exceeded",
+      "Interstitial fluid accumulates: pitting edema, effusions"
+     ],
+     "caption": "Lymphatic and interstitial safety factors delay edema until albumin falls well below normal."
+    },
+    {
+     "type": "p",
+     "text": "Albumin falls when it is lost in urine (nephrotic syndrome, proteinuria above 3.5 g/day) or through the gut (protein-losing enteropathy), or when the liver cannot make it (cirrhosis, where portal hypertension also raises splanchnic hydrostatic pressure and favors ascites) or lacks amino acids (kwashiorkor). Inflammation lowers it too, because albumin is a negative acute phase reactant."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: how much does low albumin change filtration?",
+     "text": "Use illustrative values for a capillary midpoint: Pc 25 mmHg, Pi 0 mmHg, pi c 25 mmHg, pi i 5 mmHg, sigma close to 1. Net pressure is (25 minus 0) minus (25 minus 5) = 5 mmHg outward. Now albumin falls by about half in nephrotic syndrome, and pi c drops to about 15 mmHg. Net pressure becomes (25 minus 0) minus (15 minus 5) = 15 mmHg outward, three times the original. Hydrostatic pressure never changed; the edema is purely oncotic."
+    },
+    {
+     "type": "stop",
+     "predict": "A patient has a total calcium of 7.6 mg/dL with an albumin of 2.0 g/dL and no symptoms. What would the ionized calcium most likely be?",
+     "explain": "Normal, because the drop is in albumin-bound calcium, not the regulated ionized fraction, so parathyroid hormone has nothing to correct.",
+     "check": "Compare with the paragraph on calcium binding and the effect of alkalosis."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-HEME-02-01-C03",
+   "obj": "HE-2.3",
+   "title": "Red cell design for oxygen and carbon dioxide transport",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The mature red cell is a biconcave disc about 7.5 to 8 micrometers across and about 2 micrometers thick at the rim, with a volume (MCV) of about 90 fL. It is little more than a membrane bag of hemoglobin, which makes up about a third of its contents by weight (MCHC about 34 g/dL). Each feature of its design serves gas transport, and each has a cost."
+    },
+    {
+     "type": "table",
+     "title": "Red cell features and what they achieve",
+     "cols": [
+      "Feature",
+      "Functional advantage",
+      "Consequence or cost"
+     ],
+     "rows": [
+      [
+       "Biconcave disc",
+       "Large surface area for its volume; no point is far from the membrane, so gases diffuse quickly",
+       "Surplus membrane lets it fold through splenic slits and capillaries narrower than itself, but only while the skeleton stays flexible"
+      ],
+      [
+       "Flexible spectrin skeleton",
+       "Deformability without rupture",
+       "Loss of membrane (spherocytes) or rigid hemoglobin (sickle cells) leads to splenic trapping"
+      ],
+      [
+       "No nucleus or ribosomes",
+       "More space for hemoglobin",
+       "Cannot make new proteins or repair; lifespan about 120 days"
+      ],
+      [
+       "No mitochondria",
+       "Does not consume the oxygen it carries",
+       "ATP comes only from anaerobic glycolysis; enzyme defects (pyruvate kinase) cause hemolysis"
+      ],
+      [
+       "Glycolytic side pathways",
+       "Rapoport-Luebering shunt makes 2,3-BPG; pentose phosphate pathway makes NADPH",
+       "2,3-BPG lowers Hb oxygen affinity; NADPH keeps glutathione reduced (fails in G6PD deficiency)"
+      ],
+      [
+       "Carbonic anhydrase and band 3",
+       "Fast conversion of CO2 to bicarbonate and its export to plasma",
+       "Most CO2 travels as plasma bicarbonate"
+      ]
+     ],
+     "caption": "The red cell trades self-maintenance for maximal hemoglobin carriage and rapid gas exchange."
+    },
+    {
+     "type": "h",
+     "text": "Carbon dioxide transport and the chloride shift"
+    },
+    {
+     "type": "p",
+     "text": "Tissues produce CO2, which diffuses into the red cell. Carbonic anhydrase (mainly isoform II) speeds the reaction of CO2 with water to carbonic acid many thousand fold, and carbonic acid dissociates into H+ and bicarbonate. Without the enzyme this reaction would take far longer than the roughly one second a red cell spends in a capillary. Plasma has very little carbonic anhydrase, which is why the conversion happens inside the cell."
+    },
+    {
+     "type": "p",
+     "text": "Two steps keep the reaction running forward. Deoxygenated hemoglobin is a better buffer than oxyhemoglobin and binds the H+, so releasing O2 in tissues helps the blood take up CO2 (the Haldane effect), while the H+ and CO2 lower hemoglobin's oxygen affinity and help unload O2 (the Bohr effect). Bicarbonate leaves the cell through band 3, an anion exchanger, in exchange for chloride entering, the chloride shift. Venous red cells therefore contain more chloride and, having gained osmotically active particles, more water, so they are slightly larger than arterial red cells. In the lungs every step reverses: bicarbonate re-enters in exchange for chloride, is converted back to CO2, and CO2 is exhaled."
+    },
+    {
+     "type": "flow",
+     "title": "CO2 loading in a systemic capillary",
+     "steps": [
+      "Tissue CO2 diffuses into the red cell",
+      "Carbonic anhydrase: CO2 plus H2O to H2CO3",
+      "H2CO3 dissociates to H+ and HCO3-",
+      "Deoxyhemoglobin buffers H+ (Haldane effect)",
+      "Band 3 exports HCO3- in exchange for Cl- (chloride shift)",
+      "HCO3- carried in plasma to the lungs, where the steps reverse"
+     ],
+     "caption": "About 70% of CO2 travels as bicarbonate, about 20% as carbamino compounds on hemoglobin, and about 10% dissolved."
+    },
+    {
+     "type": "p",
+     "text": "The design explains several clinical findings. Hereditary spherocytosis cells have lost membrane, so they are less deformable and are destroyed in the spleen, and because the same hemoglobin sits in a smaller cell, MCHC is high. Because red cells depend wholly on glycolysis and the pentose phosphate pathway, deficiencies of pyruvate kinase or G6PD shorten their survival, a link developed in the hemolytic anemia units."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-HEME-02-01-C04",
+   "obj": "HE-2.4",
+   "title": "Erythropoietin and the oxygen-sensing loop",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Red cell mass is regulated by oxygen delivery, not by red cell number itself. About 90% of erythropoietin (EPO) comes from fibroblast-like peritubular interstitial cells in the renal cortex and outer medulla, and about 10% from the liver, which is the main source in the fetus. The kidney is well suited as the sensor: its blood flow is high relative to its metabolic need, and its oxygen use is tied to sodium reabsorption, so tissue oxygen tension there reflects the oxygen content of arterial blood rather than changes in renal blood flow."
+    },
+    {
+     "type": "h",
+     "text": "Molecular mechanism"
+    },
+    {
+     "type": "p",
+     "text": "In normal oxygen, prolyl hydroxylase enzymes use O2 to hydroxylate hypoxia-inducible factor alpha (HIF-alpha, mainly HIF-2 alpha for EPO). The von Hippel-Lindau (VHL) protein recognizes the hydroxylated HIF-alpha and targets it for proteasomal destruction. In hypoxia, hydroxylation fails, HIF-alpha accumulates, pairs with HIF-beta in the nucleus, and turns on the EPO gene. EPO binds its receptor on late erythroid progenitors (CFU-E) and early erythroblasts, activating JAK2 and STAT5, which prevents apoptosis and lets more cells mature. EPO rises within hours of hypoxia, reticulocytes increase within about 3 to 5 days, and hemoglobin rises over weeks."
+    },
+    {
+     "type": "cycle",
+     "title": "Erythropoietin feedback loop",
+     "steps": [
+      "Low O2 delivery (anemia, hypoxemia)",
+      "Renal interstitial cells: HIF-alpha stabilized",
+      "EPO secreted",
+      "Marrow: erythroid progenitors survive, mature",
+      "Red cell mass and O2 content rise",
+      "Renal O2 restored; HIF degraded, EPO falls"
+     ],
+     "caption": "Negative feedback on oxygen delivery to the kidney. EPO responds to O2 content, so anemia and hypoxemia are equally strong signals."
+    },
+    {
+     "type": "h",
+     "text": "Predicting EPO in disease"
+    },
+    {
+     "type": "p",
+     "text": "The rule is that EPO tracks renal oxygen supply unless the producing cells are lost or a mutation bypasses the hormone. In chronic kidney disease, fibrosis destroys the peritubular interstitial cells, so EPO is inappropriately low for the degree of anemia and the result is a normocytic, normochromic anemia with a low reticulocyte count. At high altitude, low inspired PO2 lowers arterial saturation, EPO rises, and red cell mass increases over weeks (secondary polycythemia); EPO peaks within the first days and then falls partway back as oxygen delivery improves. In polycythemia vera, a myeloproliferative neoplasm, an acquired JAK2 V617F mutation in about 95% of cases leaves JAK2 switched on, so progenitors proliferate without EPO. The extra red cells raise oxygen delivery, and feedback suppresses EPO to low levels."
+    },
+    {
+     "type": "table",
+     "title": "Predicting EPO from the mechanism",
+     "cols": [
+      "Condition",
+      "Arterial O2 saturation",
+      "EPO",
+      "Red cell mass"
+     ],
+     "rows": [
+      [
+       "Chronic kidney disease",
+       "Normal",
+       "Low for degree of anemia",
+       "Low (anemia)"
+      ],
+      [
+       "High altitude",
+       "Low",
+       "High",
+       "High (secondary)"
+      ],
+      [
+       "Chronic lung disease or cyanotic heart disease",
+       "Low",
+       "High",
+       "High (secondary)"
+      ],
+      [
+       "EPO-secreting tumor (renal cell carcinoma, hepatocellular carcinoma, hemangioblastoma)",
+       "Normal",
+       "High (inappropriate)",
+       "High (secondary)"
+      ],
+      [
+       "Polycythemia vera",
+       "Normal",
+       "Low",
+       "High (primary)"
+      ],
+      [
+       "Dehydration (relative polycythemia)",
+       "Normal",
+       "Normal",
+       "Normal; hematocrit high only because plasma volume is low"
+      ]
+     ],
+     "caption": "Measuring saturation and EPO separates primary, secondary, and relative causes of a high hematocrit."
+    },
+    {
+     "type": "stop",
+     "predict": "A smoker with a hematocrit of 56% has a normal measured arterial saturation and a high EPO. What category of polycythemia is this, and what lesion should you suspect?",
+     "explain": "Secondary polycythemia with inappropriate EPO, because saturation is normal yet EPO is high; this suggests an EPO-secreting tumor such as renal cell carcinoma. (Carboxyhemoglobin can also raise EPO while pulse oximetry reads normal; CO-oximetry separates the two.)",
+     "check": "Compare with the EPO table and the rule that EPO tracks oxygen delivery."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-HEME-02-01-C05",
+   "obj": "HE-2.5",
+   "title": "Reading the CBC to classify anemia",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Anemia is a reduced hemoglobin concentration, below about 13.5 g/dL in men and 12 g/dL in women. Classification uses two questions: what size and hemoglobin content are the cells (the indices), and is the marrow responding (the reticulocyte count)."
+    },
+    {
+     "type": "table",
+     "title": "CBC indices",
+     "cols": [
+      "Index",
+      "How it is derived",
+      "Approximate adult range",
+      "What it tells you"
+     ],
+     "rows": [
+      [
+       "Hemoglobin",
+       "Measured",
+       "Men 13.5 to 17.5 g/dL; women 12 to 16 g/dL",
+       "Defines anemia"
+      ],
+      [
+       "Hematocrit",
+       "MCV times RBC (millions/microL) divided by 10",
+       "Men 41 to 53%; women 36 to 46%",
+       "Red cell share of blood volume"
+      ],
+      [
+       "MCV",
+       "Hct times 10 divided by RBC (millions/microL)",
+       "80 to 100 fL",
+       "Cell size: microcytic, normocytic, macrocytic"
+      ],
+      [
+       "MCH",
+       "Hb times 10 divided by RBC",
+       "About 27 to 33 pg",
+       "Hemoglobin per cell"
+      ],
+      [
+       "MCHC",
+       "Hb divided by Hct, times 100",
+       "32 to 36 g/dL",
+       "Hemoglobin concentration; low in iron deficiency, high in spherocytosis"
+      ],
+      [
+       "RDW",
+       "Variation in cell size",
+       "About 11.5 to 14.5%",
+       "High when cells are of mixed sizes"
+      ],
+      [
+       "Reticulocytes",
+       "Percent of red cells",
+       "About 0.5 to 2.5%",
+       "Marrow output"
+      ]
+     ],
+     "caption": "Ranges vary by laboratory; a mixed population can average to a normal MCV."
+    },
+    {
+     "type": "p",
+     "text": "Microcytosis (MCV below 80 fL) means hemoglobin synthesis failed, because the developing cell keeps dividing until it reaches a set hemoglobin concentration, so a shortage of iron, heme, or globin means extra divisions and smaller, paler cells. Causes include iron deficiency, thalassemia, some anemia of chronic disease, and sideroblastic anemia (including lead poisoning). Macrocytosis (MCV above 100 fL) is megaloblastic when DNA synthesis lags behind cytoplasmic growth (vitamin B12 or folate deficiency), or nonmegaloblastic with alcohol, liver disease, hypothyroidism, or a high reticulocyte count, since reticulocytes are larger than mature cells. Normocytic anemia includes acute blood loss, hemolysis, chronic kidney disease, anemia of chronic disease, and marrow failure."
+    },
+    {
+     "type": "p",
+     "text": "RDW refines the picture. It rises in iron deficiency as new small cells mix with older normal ones, and it is usually normal in thalassemia trait, where every cell is uniformly small and the red cell count is normal or high."
+    },
+    {
+     "type": "h",
+     "text": "Is the marrow responding?"
+    },
+    {
+     "type": "p",
+     "text": "The reticulocyte percentage overstates marrow output in anemia, because the denominator (total red cells) is low and severe anemia releases reticulocytes early, so they stay in blood longer. The corrected reticulocyte count equals the percentage times the patient's hematocrit divided by 45. The reticulocyte production index (RPI) then divides by the maturation time in blood: about 1 day at a hematocrit of 36 to 45%, 1.5 at 26 to 35%, 2 at 16 to 25%, and 2.5 at 15% or less. An RPI above about 2 to 3 indicates an appropriate marrow response, pointing to hemolysis or blood loss; an RPI below 2 indicates underproduction. Hemolysis is supported by high LDH, high unconjugated bilirubin, and low haptoglobin, each released or consumed when red cells break down."
+    },
+    {
+     "type": "flow",
+     "title": "Classifying an anemia from the CBC",
+     "steps": [
+      "Confirm low hemoglobin",
+      "MCV: under 80, 80 to 100, or over 100 fL",
+      "Microcytic: check RDW and iron studies",
+      "Macrocytic: check smear for megaloblastic changes, B12, folate",
+      "Normocytic: calculate corrected reticulocytes and RPI",
+      "RPI above 2 to 3: hemolysis or blood loss",
+      "RPI below 2: underproduction"
+     ],
+     "caption": "Size points to the failed step; the RPI separates loss or destruction from underproduction."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: interpreting a CBC",
+     "text": "A 32-year-old woman has hemoglobin 8.4 g/dL, hematocrit 28%, RBC 3.9 million/microL, RDW 17%, and reticulocytes 1.0%. MCV is 28 times 10 divided by 3.9, about 72 fL, so the anemia is microcytic. MCHC is 8.4 divided by 28, times 100, which is 30 g/dL, so the cells are hypochromic. The corrected reticulocyte count is 1.0 times 28/45, about 0.6%, and at a hematocrit of 28% (the 26 to 35% band) the maturation factor is 1.5, so the RPI is about 0.4: underproduction. A high RDW and a low red cell count favor iron deficiency over thalassemia trait. Low ferritin would confirm it."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-HEME-02-01-C06",
+   "obj": "HE-2.6",
+   "title": "White cell functions and what a raised count means",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The normal white cell count is about 4,500 to 11,000 per microliter. The differential shows which cell line has changed, and each change reflects a cytokine signal: granulocyte colony-stimulating factor (G-CSF) and IL-1 for neutrophils, IL-5 for eosinophils, and antigen-driven expansion for lymphocytes. Absolute counts (percentage times total white count) are more reliable than percentages, because a fall in one line raises the percentage of the others."
+    },
+    {
+     "type": "table",
+     "title": "Leukocytes: structure, function, and causes of increase",
+     "cols": [
+      "Cell (share of WBC)",
+      "Key features",
+      "Main function",
+      "Raised in"
+     ],
+     "rows": [
+      [
+       "Neutrophil (about 40 to 70%)",
+       "3 to 5 lobed nucleus; myeloperoxidase and lysozyme granules; circulates about 6 to 8 hours",
+       "Phagocytosis and killing of bacteria and fungi via NADPH oxidase respiratory burst",
+       "Bacterial infection, tissue necrosis, glucocorticoids, catecholamines and stress"
+      ],
+      [
+       "Lymphocyte (about 20 to 40%)",
+       "Round nucleus, scant cytoplasm; B, T, and NK cells",
+       "Antibody (B), cell-mediated immunity and help (T), killing of infected cells (NK)",
+       "Viral infection (EBV, CMV), pertussis, CLL"
+      ],
+      [
+       "Monocyte (about 2 to 8%)",
+       "Large, kidney-shaped nucleus; becomes macrophage in tissue",
+       "Phagocytosis, antigen presentation, IL-1 and TNF release",
+       "Chronic infection (tuberculosis, endocarditis), recovery from infection"
+      ],
+      [
+       "Eosinophil (about 1 to 4%)",
+       "Bilobed nucleus; granules with major basic protein",
+       "Kill helminths with granule proteins; modulate allergic inflammation",
+       "Helminths (tissue invasive), allergy and asthma, adrenal insufficiency"
+      ],
+      [
+       "Basophil (under 1%)",
+       "Dense granules with histamine and heparin; IgE receptor (FcepsilonRI)",
+       "Release histamine and leukotrienes in allergic reactions",
+       "Myeloproliferative neoplasms, especially CML"
+      ]
+     ],
+     "caption": "Percentages are approximate adult values; rows are in order of frequency."
+    },
+    {
+     "type": "h",
+     "text": "Neutrophilia and bacterial infection"
+    },
+    {
+     "type": "p",
+     "text": "Bacteria trigger macrophages to release IL-1, TNF, and G-CSF, which stimulate marrow production and release of stored neutrophils. Early release brings immature band forms into blood, a left shift, and the cells may show toxic granulation and Dohle bodies. Not every neutrophilia is infection. About half of blood neutrophils normally adhere to vessel walls (the marginated pool); glucocorticoids and catecholamines reduce adhesion, so cells move into the circulating pool and the count rises within hours without a left shift. Glucocorticoids at the same time lower eosinophils and lymphocytes."
+    },
+    {
+     "type": "h",
+     "text": "Eosinophilia and lymphocytosis"
+    },
+    {
+     "type": "p",
+     "text": "Helminths are too large to be engulfed, so Th2 cells release IL-4 (driving IgE) and IL-5 (driving eosinophil production). IgE coats the worm, and eosinophils bind and degranulate onto it, releasing major basic protein (antibody-dependent cell-mediated cytotoxicity). Tissue-invasive helminths cause the strongest eosinophilia; protozoa usually do not. Allergy and asthma use the same Th2 pathway. Lack of cortisol in adrenal insufficiency removes the normal suppression of eosinophils, so counts rise."
+    },
+    {
+     "type": "p",
+     "text": "Viruses live inside cells, where antibodies cannot reach them, so the response depends on cytotoxic T cells and NK cells, which expand and produce lymphocytosis. In infectious mononucleosis the large reactive atypical lymphocytes are mainly CD8 T cells responding to EBV-infected B cells. Pertussis is the classic bacterial exception: pertussis toxin blocks lymphocyte homing out of blood, producing a marked lymphocytosis."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-HEME-02-01-C07",
+   "obj": "HE-2.7",
+   "title": "ABO and Rh blood groups and transfusion compatibility",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "ABO antigens are carbohydrates on red cell membrane glycoproteins and glycolipids, also found on many other tissues and in secretions. All three start from the H antigen, an oligosaccharide ending in fucose. The A allele encodes a transferase that adds N-acetylgalactosamine to H, the B allele one that adds galactose, and the O allele encodes an inactive enzyme, so group O cells carry unmodified H. A and B are codominant and O is recessive."
+    },
+    {
+     "type": "p",
+     "text": "People make antibodies against whichever of A and B they lack. These isohemagglutinins appear in the first months of life without exposure to foreign red cells, because gut bacteria carry carbohydrate antigens that resemble A and B. They are mainly IgM, a pentamer that agglutinates red cells and activates complement efficiently. Group O people also make IgG anti-A and anti-B, which can cross the placenta and cause usually mild ABO hemolytic disease of the newborn."
+    },
+    {
+     "type": "p",
+     "text": "The Rh system is a set of membrane proteins, of which the D antigen is the most immunogenic; Rh positive means D positive, which is true of most people. Anti-D is not naturally occurring. An Rh-negative person forms it only after exposure to D-positive red cells by transfusion or pregnancy, and it is IgG, which crosses the placenta and causes hemolytic disease of the fetus and newborn in a later D-positive pregnancy."
+    },
+    {
+     "type": "table",
+     "title": "ABO groups and compatible donors",
+     "cols": [
+      "Recipient group",
+      "Antigens on red cells",
+      "Antibodies in plasma",
+      "Compatible red cells",
+      "Compatible plasma"
+     ],
+     "rows": [
+      [
+       "O",
+       "None (H only)",
+       "Anti-A and anti-B",
+       "O only",
+       "O, A, B, AB"
+      ],
+      [
+       "A",
+       "A",
+       "Anti-B",
+       "A, O",
+       "A, AB"
+      ],
+      [
+       "B",
+       "B",
+       "Anti-A",
+       "B, O",
+       "B, AB"
+      ],
+      [
+       "AB",
+       "A and B",
+       "None",
+       "AB, A, B, O",
+       "AB only"
+      ]
+     ],
+     "caption": "Red cells: the donor's antigens must not meet the recipient's antibodies. Plasma: the donor's antibodies must not meet the recipient's antigens. O negative is the universal red cell donor; AB is the universal plasma donor."
+    },
+    {
+     "type": "p",
+     "text": "Compatibility follows from asking whose antibodies meet whose antigens. For red cells the danger is the recipient's antibodies attacking donor cells, so donor cells must lack any antigen the recipient has antibodies against; for Rh, a D-negative recipient should receive D-negative red cells to avoid sensitization. For plasma the logic reverses, because the plasma carries the donor's antibodies; Rh type does not matter for plasma since it contains no red cells and anti-D is not preformed."
+    },
+    {
+     "type": "flow",
+     "title": "Mechanism of an ABO-incompatible red cell transfusion",
+     "steps": [
+      "Group A cells given to a group O recipient",
+      "Recipient IgM anti-A binds donor cells",
+      "Complement fixed through to the membrane attack complex",
+      "Intravascular hemolysis: hemoglobinemia, hemoglobinuria",
+      "Fever, hypotension, back pain; DIC and acute kidney injury may follow"
+     ],
+     "caption": "IgM and complement lyse cells inside vessels within minutes, unlike IgG anti-D, which causes slower extravascular removal by splenic macrophages."
+    },
+    {
+     "type": "stop",
+     "predict": "A group AB, Rh-negative patient needs red cells and plasma. Which groups can she receive?",
+     "explain": "Red cells: any ABO group (she has no anti-A or anti-B) but Rh negative, so AB, A, B, or O negative. Plasma: only AB, because any other plasma contains anti-A, anti-B, or both against her cells.",
+     "check": "Compare with the ABO table and the paragraph on whose antibodies meet whose antigens."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Anatomy and biochemistry explain the parts. The liver builds albumin and most clotting and transport proteins, the kidney houses the oxygen sensor, and the red cell shows how losing organelles concentrates a cell on one job while leaving it dependent on glycolysis, the pentose phosphate pathway, and a flexible membrane skeleton. Respiratory and acid-base physiology meet in carbonic anhydrase and band 3, and immunology supplies the Th2, cytotoxic T cell, and IgM and IgG reasoning behind white cell changes and transfusion reactions."
+  },
+  {
+   "type": "p",
+   "text": "Pathology then follows each mechanism to its failure: hypoalbuminemia to edema, renal fibrosis to EPO-deficient anemia, a JAK2 mutation to EPO-independent polycythemia, and preformed IgM to intravascular hemolysis. The limits matter too. CBC indices are averages, so mixed deficiencies can give a normal MCV, reference ranges differ by laboratory, age, sex, and altitude, and a white cell differential suggests a category of cause rather than a diagnosis, so each pattern is read together with the history and the smear."
+  }
+ ],
+ "summary": [
+  "Plasma is unclotted blood's fluid with all clotting factors; serum is plasma minus fibrinogen and consumed factors, with slightly higher potassium.",
+  "Albumin provides about 75 to 80% of plasma oncotic pressure and carries unconjugated bilirubin, fatty acids, and about 40% of plasma calcium.",
+  "Hypoalbuminemia lowers total but not ionized calcium; alkalosis lowers ionized calcium by increasing binding to albumin.",
+  "Low albumin lowers capillary oncotic pressure, raises net filtration, and causes edema once lymphatic safety factors are exceeded.",
+  "The red cell lacks nucleus and mitochondria, relies on glycolysis, and uses carbonic anhydrase and band 3 to carry most CO2 as plasma bicarbonate.",
+  "Hypoxia stabilizes HIF-alpha in renal peritubular interstitial cells and raises EPO; EPO is low in CKD, high at altitude, and suppressed in polycythemia vera.",
+  "MCV identifies the failed step (hemoglobin synthesis versus DNA synthesis); the RPI separates hemolysis or blood loss from underproduction.",
+  "Neutrophilia with left shift suggests bacterial infection; eosinophilia suggests helminths or allergy; lymphocytosis suggests viral infection or pertussis.",
+  "ABO antibodies are naturally occurring IgM causing intravascular hemolysis; anti-D is acquired IgG causing hemolytic disease of the newborn.",
+  "O negative is the universal red cell donor; AB is the universal plasma donor."
+ ],
+ "sources": [
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Red Blood Cells, Anemia, and Polycythemia; Resistance of the Body to Infection: Leukocytes; Blood Types, Transfusion"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "The Microcirculation and Lymphatic System: Capillary Fluid Exchange"
+  },
+  {
+   "book": "Boron and Boulpaep Medical Physiology",
+   "where": "Blood; Transport of Oxygen and Carbon Dioxide in the Blood"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Red Blood Cell and Bleeding Disorders; Diseases of White Blood Cells, Lymph Nodes, Spleen, and Thymus"
+  },
+  {
+   "book": "Lippincott Illustrated Reviews: Biochemistry",
+   "where": "Red cell metabolism and plasma proteins"
+  },
+  {
+   "book": "Abbas Cellular and Molecular Immunology",
+   "where": "Transplantation Immunology (blood transfusion and ABO antigens)"
+  }
+ ],
+ "verify": [
+  "Reference ranges for hemoglobin, hematocrit, RDW, reticulocytes, and the white cell differential vary among laboratories and texts; confirm the values NABNE provides on its reference sheet.",
+  "The RPI cutoff for an adequate marrow response is given as above 2 in some sources and above 3 in others; confirm which NABNE uses.",
+  "The share of plasma oncotic pressure attributed to albumin (about 65 to 80%) and the value of plasma oncotic pressure (about 25 to 28 mmHg) differ between sources.",
+  "The time course of EPO after ascent to altitude (early peak, partial return toward baseline) is described differently across physiology texts.",
+  "Fractions of CO2 transported as bicarbonate, carbamino compounds, and dissolved gas are given as about 60 to 70%, 20 to 30%, and 5 to 10% in different sources.",
+  "Confirm whether NABNE expects the eponyms Haldane effect, Bohr effect, Rapoport-Luebering shunt, and Dohle bodies, or only descriptive terms.",
+  "Requested new diagram names for a future revision: starling-capillary (hydrostatic and oncotic forces along a capillary with lymph return) and co2-transport-rbc (carbonic anhydrase, band 3, and chloride shift in a red cell)."
+ ]
+}

@@ -1,0 +1,1053 @@
+{
+  "unit": "HE-9-B",
+  "chapter_id": "NPLEX-P1-HEME-09",
+  "topic_id": "NPLEX-P1-HEME-09-02",
+  "title": "Diseases of Blood Cell Lysis",
+  "subject": "Hematopoietic System (HEME)",
+  "version": "1.0",
+  "overview": {
+    "intro": "This chapter covers anemias caused by red cells being destroyed before the end of their normal 120-day lifespan, along with the spleen disorders that decide where much of that destruction happens. It moves from hemoglobin defects (sickle cell disease, beta thalassemia) through enzyme defects (G6PD and pyruvate kinase deficiency), membrane defects (hereditary spherocytosis and elliptocytosis), antibody and complement injury (hemolytic disease of the newborn, PNH), and mechanical injury (TTP, HUS, valve hemolysis). Board questions usually give a smear finding, a lab pattern, or a complication and ask you to name the defect and the site of destruction. Once you can explain why a cell is lysed and where, most findings follow.",
+    "prerequisites": [
+      "Hemoglobin structure, oxygen binding, and the switch from fetal (gamma) to adult (beta) globin chains (HE-5, HE-6)",
+      "Red cell metabolism: glycolysis for ATP and the pentose phosphate pathway for NADPH (HE-5)",
+      "Heme breakdown to unconjugated bilirubin and hepatic conjugation by UGT1A1 (HE-3)",
+      "Red cell membrane and cytoskeleton: lipid bilayer, spectrin, ankyrin, band 3",
+      "Complement pathways, IgG and IgM antibodies, and splenic anatomy (HE-7)"
+    ],
+    "connections": [
+      {
+        "to": "Hemoglobin biochemistry and hematologic genetics (HE-5, HE-6)",
+        "how": "The molecular lesions of HbS, thalassemia, G6PD, and pyruvate kinase deficiency taught there produce the diseases described here."
+      },
+      {
+        "to": "Immune responses in hematologic disease (HE-7)",
+        "how": "Autoimmune hemolysis, transfusion reactions, and asplenic infection share the antibody, complement, and splenic mechanisms used in this chapter."
+      },
+      {
+        "to": "Diseases of blood cell production (HE-9-A)",
+        "how": "Reticulocyte count and marrow cellularity separate destruction from underproduction, and chronic urinary iron loss links hemolysis to iron deficiency."
+      },
+      {
+        "to": "Clotting abnormalities (HE-9-C)",
+        "how": "TTP, HUS, and DIC all consume platelets and fragment red cells, but only DIC prolongs the PT and PTT."
+      },
+      {
+        "to": "Hepatobiliary and renal pathology",
+        "how": "Unconjugated bilirubin from hemolysis forms pigment gallstones and causes kernicterus, while free hemoglobin and Shiga toxin injure the kidney."
+      }
+    ],
+    "terms": [
+      {
+        "term": "Hemolysis",
+        "def": "Premature destruction of red cells, either by macrophages (extravascular) or within the circulation (intravascular)."
+      },
+      {
+        "term": "Reticulocyte",
+        "def": "A young red cell released from the marrow within the last day or so; its count rises when the marrow responds to red cell loss."
+      },
+      {
+        "term": "Haptoglobin",
+        "def": "A plasma protein that binds free hemoglobin and is cleared with it by the liver, so its level falls in hemolysis."
+      },
+      {
+        "term": "Ineffective erythropoiesis",
+        "def": "Death of red cell precursors inside the marrow before they mature, so marrow activity is high but reticulocyte output is low."
+      },
+      {
+        "term": "Spherocyte",
+        "def": "A small, round red cell without central pallor that has lost membrane surface area relative to its volume."
+      },
+      {
+        "term": "Schistocyte",
+        "def": "A fragmented red cell (helmet cell, triangle) produced by shear or by passage through fibrin and platelet strands."
+      },
+      {
+        "term": "Heinz body",
+        "def": "A clump of oxidized, denatured hemoglobin attached to the inner membrane, seen only with a supravital stain."
+      },
+      {
+        "term": "Direct antiglobulin test (DAT)",
+        "def": "The direct Coombs test, which detects IgG or complement already bound to a person's red cells."
+      },
+      {
+        "term": "Indirect antiglobulin test (IAT)",
+        "def": "The indirect Coombs test, which detects free red cell antibodies in a person's serum."
+      },
+      {
+        "term": "Hydrops fetalis",
+        "def": "Abnormal fluid accumulation in two or more fetal compartments, such as skin edema, ascites, and pleural or pericardial effusion."
+      },
+      {
+        "term": "Thrombotic microangiopathy",
+        "def": "Platelet-rich thrombi in small vessels causing thrombocytopenia, fragmentation hemolysis, and organ ischemia."
+      },
+      {
+        "term": "Hypersplenism",
+        "def": "Cytopenias caused by pooling and destruction of blood cells in an enlarged spleen while the marrow stays active."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "comp": "NPLEX-P1-HEME-09-02-C01",
+      "obj": "HE-9-B.1",
+      "title": "Sickle cell disease: vaso-occlusion and hemolysis",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Every hemolytic anemia shares a core pattern: the marrow responds with reticulocytes, broken cells release lactate dehydrogenase (LDH), heme is converted to unconjugated (indirect) bilirubin, and haptoglobin falls as it binds free hemoglobin. Where the cell dies adds a second layer, summarized below and used throughout this chapter."
+        },
+        {
+          "type": "table",
+          "title": "Extravascular versus intravascular hemolysis",
+          "cols": [
+            "Feature",
+            "Extravascular",
+            "Intravascular"
+          ],
+          "rows": [
+            [
+              "Site",
+              "Macrophages of spleen (and liver)",
+              "Inside blood vessels"
+            ],
+            [
+              "Typical causes",
+              "Sickle cell, thalassemia, spherocytosis, warm (IgG) autoimmune hemolysis",
+              "G6PD crisis, PNH, TTP, valve shear"
+            ],
+            [
+              "Haptoglobin",
+              "Low",
+              "Very low or absent"
+            ],
+            [
+              "Unconjugated bilirubin and gallstones",
+              "High; pigment stones common with chronic disease",
+              "High"
+            ],
+            [
+              "Free plasma hemoglobin, hemoglobinuria, hemosiderinuria",
+              "Absent",
+              "Present"
+            ],
+            [
+              "Spleen",
+              "Often enlarged (work hypertrophy)",
+              "Usually normal size"
+            ]
+          ],
+          "caption": "Both raise reticulocytes and LDH; many diseases mix the two sites."
+        },
+        {
+          "type": "p",
+          "text": "Sickle cell disease is autosomal recessive. A point mutation in the beta globin gene (HBB) replaces glutamate with valine at position 6, producing HbS. When HbS gives up oxygen, the valine fits a hydrophobic pocket on a neighboring molecule and the molecules stack into long polymers that bend the cell into a rigid sickle. Polymerization takes a short delay, so most cells clear the capillaries first; anything that raises the deoxygenated fraction or HbS concentration, or slows transit, tips the balance. Hypoxia, acidosis (which favors the deoxy state), and dehydration (which concentrates HbS) promote sickling. HbF does not enter the polymer, so infants are protected until gamma chain production falls at about 6 months."
+        },
+        {
+          "type": "cycle",
+          "title": "The sickling cycle",
+          "steps": [
+            "Hypoxia, acidosis, or dehydration in a vascular bed",
+            "Deoxygenated HbS polymerizes; cells sickle and stiffen",
+            "Rigid, adherent cells obstruct small vessels",
+            "Downstream ischemia and infarction",
+            "Local hypoxia and acidosis increase"
+          ],
+          "caption": "Occlusion worsens the conditions that caused it, which is why crises are self-amplifying."
+        },
+        {
+          "type": "p",
+          "text": "Repeated sickling damages the membrane, so cells are removed early in the spleen (extravascular hemolysis, with an intravascular share). Red cell survival falls to roughly 10 to 20 days. Free hemoglobin scavenges nitric oxide, adding vasoconstriction and endothelial activation."
+        },
+        {
+          "type": "table",
+          "title": "Complications of sickle cell disease",
+          "cols": [
+            "Complication",
+            "Mechanism",
+            "Typical setting"
+          ],
+          "rows": [
+            [
+              "Dactylitis",
+              "Infarction of marrow in small bones of hands and feet",
+              "Painful swollen hands and feet in infants"
+            ],
+            [
+              "Acute chest syndrome",
+              "Pulmonary sickling after infection, marrow fat embolism, or hypoventilation",
+              "Chest pain, fever, hypoxemia, new infiltrate; leading adult cause of death"
+            ],
+            [
+              "Stroke",
+              "Intimal hyperplasia of distal internal carotid and middle cerebral arteries",
+              "Ischemic stroke, mainly in children"
+            ],
+            [
+              "Splenic sequestration, then autoinfarction",
+              "Pooling of sickled cells, then repeated infarcts and fibrosis",
+              "Functional asplenia early; Howell-Jolly bodies; encapsulated organism sepsis"
+            ],
+            [
+              "Salmonella osteomyelitis",
+              "Infarcted bone, gut microinfarcts admitting bacteria, poor splenic clearance",
+              "Classic association; Staphylococcus aureus also common"
+            ],
+            [
+              "Renal papillary necrosis",
+              "Hypoxic, acidic, hypertonic medulla favors sickling",
+              "Hematuria, poor urine concentration; also in trait"
+            ],
+            [
+              "Priapism",
+              "Sickling in corpora cavernosa blocks venous outflow",
+              "Painful ischemic erection"
+            ],
+            [
+              "Pigment gallstones",
+              "Chronic hemolysis raises bilirubin in bile",
+              "Black stones, even in childhood"
+            ],
+            [
+              "Aplastic crisis",
+              "Parvovirus B19 infects erythroid progenitors (P antigen)",
+              "Sudden anemia, reticulocytes near zero"
+            ]
+          ],
+          "caption": "Occlusion explains the infarcts; hemolysis explains gallstones and marrow-arrest vulnerability."
+        },
+        {
+          "type": "p",
+          "text": "Aplastic crisis shows why red cell survival matters. Parvovirus stops red cell production for about a week, which a normal person with 120-day cells barely notices, but a patient whose cells live 10 to 20 days loses a large share of red cell mass. Sickle cell trait (about 40% HbS) causes no anemia, yet the renal medulla is harsh enough to cause hematuria, impaired concentration, and papillary necrosis."
+        },
+        {
+          "type": "stop",
+          "predict": "A 6-year-old with sickle cell disease has a fever and his hemoglobin falls from 8 to 4 g/dL over 3 days. The reticulocyte count is 0.2% and the spleen is not palpable. What is happening?",
+          "explain": "Parvovirus B19 has halted erythropoiesis, and short red cell survival turns a brief arrest into severe anemia. Sequestration would give a high reticulocyte count and an enlarging spleen.",
+          "check": "Compare with the aplastic crisis and splenic sequestration rows of the complications table."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-HEME-09-02-C02",
+      "obj": "HE-9-B.2",
+      "title": "Beta thalassemia: ineffective erythropoiesis and iron overload",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Normal adult hemoglobin is about 95 to 98% HbA (alpha2 beta2), about 2 to 3.5% HbA2 (alpha2 delta2), and under about 1% HbF (alpha2 gamma2). Beta thalassemia is usually caused by point mutations in HBB on chromosome 11, affecting the promoter, splice sites, or creating stop codons. These either abolish beta chain synthesis (beta0) or reduce it (beta+). Alpha thalassemia, by contrast, is mostly due to gene deletions (HE-6.2)."
+        },
+        {
+          "type": "p",
+          "text": "In beta thalassemia major (beta0 or severe beta+ on both alleles), the harm comes from the unpaired alpha chains rather than from the missing beta chains alone. Free alpha chains are insoluble, precipitate in developing erythroblasts, damage the membrane, and trigger apoptosis inside the marrow. This is ineffective erythropoiesis: the marrow is crowded with precursors, yet few reticulocytes leave it. The cells that do escape are microcytic, hypochromic, and carry inclusions, so the spleen removes them early as well. Symptoms begin at about 6 months, when HbF production has largely switched off."
+        },
+        {
+          "type": "flow",
+          "title": "From missing beta chains to iron overload",
+          "steps": [
+            "Little or no beta globin synthesis",
+            "Excess alpha chains precipitate in erythroblasts",
+            "Precursors die in the marrow (ineffective erythropoiesis)",
+            "Severe anemia drives high erythropoietin",
+            "Marrow expands; extramedullary hematopoiesis in liver and spleen",
+            "Erythroferrone from erythroblasts suppresses hepcidin",
+            "Gut iron absorption rises; transfusion iron adds more",
+            "Iron deposits in heart, liver, and endocrine glands"
+          ],
+          "caption": "Anemia, bone changes, organomegaly, and iron overload all follow from precursor death in the marrow."
+        },
+        {
+          "type": "p",
+          "text": "Marrow expansion widens the diploic space and thins the cortex, giving the crew-cut (hair-on-end) skull on radiographs, maxillary overgrowth with dental malocclusion, and pathologic fractures. Extramedullary hematopoiesis in the liver and spleen, together with splenic work hypertrophy from clearing abnormal cells, produces hepatosplenomegaly. The body has no regulated route to excrete iron, so iron from increased absorption and transfusions accumulates; cardiac iron (cardiomyopathy and arrhythmia) is a major cause of death, and liver fibrosis, diabetes, hypogonadism, and growth failure follow. The smear shows marked microcytosis, target cells, and nucleated red cells."
+        },
+        {
+          "type": "table",
+          "title": "Reading hemoglobin electrophoresis in microcytosis",
+          "cols": [
+            "Condition",
+            "HbA",
+            "HbA2",
+            "HbF",
+            "Other clues"
+          ],
+          "rows": [
+            [
+              "Normal adult",
+              "About 95 to 98%",
+              "About 2 to 3.5%",
+              "Under about 1%",
+              "Normal indices"
+            ],
+            [
+              "Beta thalassemia minor",
+              "Slightly reduced",
+              "Above about 3.5%",
+              "Normal or mildly raised",
+              "Mild anemia, very low MCV, normal or high RBC count, normal ferritin"
+            ],
+            [
+              "Beta thalassemia major (beta0)",
+              "Absent",
+              "Variable, often raised",
+              "Most of the hemoglobin",
+              "Severe anemia from about 6 months, nucleated red cells"
+            ],
+            [
+              "Iron deficiency",
+              "Normal proportion",
+              "Normal or low",
+              "Normal",
+              "Low ferritin, high RDW, RBC count reduced"
+            ]
+          ],
+          "caption": "A raised HbA2 with normal iron studies marks beta thalassemia minor."
+        },
+        {
+          "type": "p",
+          "text": "In beta thalassemia minor, one gene still works, so beta chain output is about halved. Some spare alpha chains pair with delta chains, which raises HbA2 above about 3.5%, the diagnostic marker. Coexisting iron deficiency lowers HbA2 and can hide the diagnosis until iron is restored."
+        },
+        {
+          "type": "example",
+          "title": "Worked example: microcytosis without iron deficiency",
+          "text": "A 24-year-old woman of Mediterranean descent has hemoglobin 11.0 g/dL, MCV 63 fL, and RBC count 5.8 million/µL; ferritin is normal. Step 1: the MCV is far lower than the mild anemia would predict, and the RBC count is high, so the marrow is making many small cells rather than too few cells. Step 2: normal ferritin excludes iron deficiency. Step 3: electrophoresis shows HbA2 5.2% and HbF 2%. Raised HbA2 indicates reduced beta chain output with spare alpha chains pairing with delta. Diagnosis: beta thalassemia minor."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-HEME-09-02-C03",
+      "obj": "HE-9-B.3",
+      "title": "G6PD deficiency: oxidant hemolysis",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Red cells have no mitochondria, so the pentose phosphate pathway is their only source of NADPH. Glucose-6-phosphate dehydrogenase (G6PD) catalyzes its first, rate-limiting step. Glutathione reductase uses NADPH to keep glutathione in its reduced form (GSH), and glutathione peroxidase uses GSH to convert hydrogen peroxide to water. Without enough G6PD, an oxidant load overwhelms this defense."
+        },
+        {
+          "type": "p",
+          "text": "Unopposed hydrogen peroxide then oxidizes hemoglobin and membrane proteins. Oxidized hemoglobin denatures and precipitates as Heinz bodies attached to the inner membrane, and the damaged, rigid cells lyse in the circulation (mainly intravascular hemolysis). Splenic macrophages pluck Heinz bodies from surviving cells, leaving bite cells (an extravascular share)."
+        },
+        {
+          "type": "p",
+          "text": "G6PD deficiency is X-linked recessive, so hemizygous males are affected; heterozygous females vary because of random X inactivation. It is most common in people of African, Mediterranean, Middle Eastern, and Asian ancestry, reflecting partial protection against Plasmodium falciparum malaria. The common African variant (G6PD A minus) is an unstable enzyme that is adequate in young cells but runs out in older ones, so hemolysis is moderate and self-limited. The Mediterranean variant has very low activity in cells of all ages, so episodes are severe and favism occurs."
+        },
+        {
+          "type": "table",
+          "title": "Common triggers and why they cause oxidant injury",
+          "cols": [
+            "Trigger",
+            "Source of oxidant stress"
+          ],
+          "rows": [
+            [
+              "Infection (most common trigger)",
+              "Reactive oxygen species released by activated phagocytes"
+            ],
+            [
+              "Fava beans",
+              "Divicine and isouramil, derived from vicine and convicine, generate oxidants (favism, mainly Mediterranean variant)"
+            ],
+            [
+              "Sulfonamides, dapsone, primaquine, nitrofurantoin",
+              "Drugs or metabolites that produce hydrogen peroxide or redox cycle"
+            ]
+          ],
+          "caption": "Drugs appear here only as oxidant triggers that explain the mechanism."
+        },
+        {
+          "type": "p",
+          "text": "Between episodes, blood counts and the smear are usually normal. One to three days after exposure, the patient develops sudden anemia, back or abdominal pain, dark urine from hemoglobinuria, and jaundice. Heinz bodies are invisible on a routine Wright stain and need a supravital stain such as crystal violet or new methylene blue. Bite cells (cells missing a semicircular piece of their edge) and blister cells appear on the routine smear. The DAT is negative. An enzyme assay done during an episode can be falsely normal, because the oldest, most deficient cells have already lysed and reticulocytes carry more enzyme; repeating it weeks later avoids this error. G6PD deficiency is also an important cause of neonatal jaundice."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-HEME-09-02-C04",
+      "obj": "HE-9-B.4",
+      "title": "Hereditary spherocytosis: membrane loss and splenic trapping",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The red cell membrane is a lipid bilayer held to an underlying spectrin cytoskeleton. Vertical linkages tie the bilayer to the skeleton: ankyrin binds beta spectrin to band 3, the anion exchanger, and protein 4.2 stabilizes this link. Horizontal linkages join spectrin dimers into tetramers and attach them to actin and protein 4.1, which lets the skeleton stretch and recoil. A normal cell has spare surface area, so it can fold through openings far narrower than its 7 to 8 µm diameter."
+        },
+        {
+          "type": "p",
+          "text": "Hereditary spherocytosis is autosomal dominant in about 75% of cases and is the most common inherited hemolytic anemia in people of Northern European ancestry. Defects in ankyrin (the most common), band 3, spectrin, or protein 4.2 weaken the vertical links. Lipid that is not anchored buds off as microvesicles, so the cell loses surface area while keeping most of its volume and becomes a sphere, the shape with the least surface for its volume. To return from the splenic cords to the sinuses, a red cell must squeeze through slits in the sinus wall a few micrometers wide. Spherocytes cannot deform enough, so they are held in the cords, where low glucose and acid conditions strip more membrane, and macrophages engulf them."
+        },
+        {
+          "type": "table",
+          "title": "Findings in hereditary spherocytosis and their causes",
+          "cols": [
+            "Finding",
+            "Mechanism"
+          ],
+          "rows": [
+            [
+              "Spherocytes without central pallor",
+              "Reduced surface area for volume"
+            ],
+            [
+              "MCHC high (above about 36 g/dL)",
+              "Cell dehydration and loss of membrane concentrate hemoglobin"
+            ],
+            [
+              "MCV normal or slightly low",
+              "Volume is largely preserved"
+            ],
+            [
+              "Reticulocytosis, jaundice",
+              "Marrow response; heme converted to unconjugated bilirubin"
+            ],
+            [
+              "Splenomegaly",
+              "Work hypertrophy of red pulp clearing trapped cells"
+            ],
+            [
+              "Pigment gallstones",
+              "Chronic high bilirubin excretion into bile"
+            ],
+            [
+              "Increased osmotic fragility",
+              "No spare surface, so cells lyse at higher saline concentrations as water enters"
+            ],
+            [
+              "Reduced eosin-5-maleimide (EMA) binding",
+              "Less band 3 and related proteins for the dye to bind on flow cytometry"
+            ],
+            [
+              "Negative DAT",
+              "The defect is intrinsic, not antibody coating"
+            ],
+            [
+              "Aplastic crisis with parvovirus B19",
+              "Short red cell survival, as in sickle cell disease"
+            ]
+          ],
+          "caption": "The table links each lab result to membrane loss or splenic destruction."
+        },
+        {
+          "type": "p",
+          "text": "The DAT is the key distinction from warm autoimmune hemolytic anemia, which also produces spherocytes, because there macrophages nibble IgG-coated membrane (HE-7.1). A positive family history and a negative DAT point to hereditary spherocytosis. Spherocytes persist after the spleen is removed, yet red cell survival improves, which confirms that the spleen is the site of destruction rather than the cause of the shape change."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-HEME-09-02-C05",
+      "obj": "HE-9-B.5",
+      "title": "Rh and ABO hemolytic disease of the fetus and newborn",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The Rh D antigen is a membrane protein on red cells; people who are D negative usually lack the RHD gene entirely. Unlike anti-A and anti-B, anti-D does not form naturally, because no common environmental antigen mimics D. It forms only after exposure to D-positive red cells, through transfusion or pregnancy."
+        },
+        {
+          "type": "p",
+          "text": "Fetal red cells enter the maternal circulation in small amounts during pregnancy and in larger amounts at delivery, miscarriage, abortion, ectopic pregnancy, abdominal trauma, or invasive procedures. In a D-negative mother carrying a D-positive fetus, this first exposure produces a primary response that is slow and begins with IgM, which cannot cross the placenta, so the first child is usually spared. The response leaves memory B cells. In a later D-positive pregnancy, even a small bleed provokes a rapid secondary response of high-affinity IgG, mainly IgG1 and IgG3, which the neonatal Fc receptor (FcRn) on the syncytiotrophoblast actively carries into the fetus."
+        },
+        {
+          "type": "flow",
+          "title": "Rh sensitization and fetal hemolysis",
+          "steps": [
+            "D-negative mother carries a D-positive fetus",
+            "Fetal red cells enter her blood, mostly at delivery",
+            "Primary response forms memory B cells",
+            "Next D-positive fetus triggers a rapid IgG anti-D response",
+            "IgG crosses the placenta through FcRn",
+            "Fetal red cells coated with IgG are destroyed in the fetal spleen"
+          ],
+          "caption": "Disease usually appears in the second or later D-positive pregnancy."
+        },
+        {
+          "type": "p",
+          "text": "Destruction of antibody-coated cells in the fetal spleen causes anemia, and the anemia drives erythropoietin. The fetus responds with extramedullary hematopoiesis in the liver and spleen, giving hepatosplenomegaly and large numbers of circulating nucleated red cells, the erythroblastosis that gave the disease its name. In severe disease, two forces combine to cause hydrops fetalis. Severe anemia produces high-output cardiac failure and raised venous pressure, and a liver crowded with hematopoietic tissue makes less albumin, lowering plasma oncotic pressure. Fluid leaves the vessels into the skin, peritoneum, pleura, and pericardium, and the fetus may die in utero. Before birth the placenta clears bilirubin into the mother, so the fetus is anemic but not markedly jaundiced. Antibodies to other antigens, notably Kell, can cause similar disease."
+        },
+        {
+          "type": "table",
+          "title": "Rh versus ABO hemolytic disease",
+          "cols": [
+            "Feature",
+            "Rh (anti-D)",
+            "ABO"
+          ],
+          "rows": [
+            [
+              "Typical mother and infant",
+              "D-negative mother, D-positive infant",
+              "Group O mother, group A or B infant"
+            ],
+            [
+              "Antibody",
+              "Immune IgG anti-D after prior sensitization",
+              "Naturally occurring IgG anti-A or anti-B"
+            ],
+            [
+              "First pregnancy affected",
+              "Rarely",
+              "Often"
+            ],
+            [
+              "Antigen on fetal red cells",
+              "Fully expressed",
+              "Weakly expressed"
+            ],
+            [
+              "Severity",
+              "Can be severe: anemia, hydrops, fetal death",
+              "Usually mild: early jaundice, mild anemia"
+            ],
+            [
+              "DAT on infant",
+              "Strongly positive",
+              "Often weakly positive"
+            ],
+            [
+              "Smear",
+              "Many nucleated red cells",
+              "Spherocytes"
+            ]
+          ],
+          "caption": "ABO disease is more common; Rh disease is more dangerous."
+        },
+        {
+          "type": "p",
+          "text": "ABO disease affects infants of group O mothers because group O people make a larger IgG component of anti-A and anti-B than group A or B people, and this IgG can cross the placenta in a first pregnancy. It stays mild because A and B antigens are weakly developed on fetal red cells, and A and B substances on other fetal tissues and in body fluids absorb much of the antibody. ABO incompatibility also partly protects against Rh sensitization, because the mother's anti-A or anti-B clears incompatible fetal cells before the D antigen can be recognized."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-HEME-09-02-C06",
+      "obj": "HE-9-B.6",
+      "title": "Coombs testing and neonatal bilirubin",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "IgG molecules attached to red cells are too small to bridge neighboring cells, so IgG-coated cells do not agglutinate on their own. Antihuman globulin (Coombs reagent) binds IgG or complement on one cell and links it to the next, producing visible clumping. The two antiglobulin tests ask different questions."
+        },
+        {
+          "type": "table",
+          "title": "Direct and indirect antiglobulin tests",
+          "cols": [
+            "Feature",
+            "Direct (DAT)",
+            "Indirect (IAT)"
+          ],
+          "rows": [
+            [
+              "Question asked",
+              "Are this person's red cells already coated with antibody or complement?",
+              "Does this person's serum contain free antibody against red cell antigens?"
+            ],
+            [
+              "Sample",
+              "Patient red cells, washed, plus antiglobulin",
+              "Patient serum incubated with reagent red cells of known antigens, then antiglobulin"
+            ],
+            [
+              "Tested in hemolytic disease",
+              "Infant (cord blood)",
+              "Mother"
+            ],
+            [
+              "Positive result means",
+              "Maternal IgG is bound to the infant's red cells",
+              "Mother is sensitized; titer reflects antibody level"
+            ]
+          ],
+          "caption": "Direct tests the cells; indirect tests the serum."
+        },
+        {
+          "type": "example",
+          "title": "Worked example: interpreting Coombs results",
+          "text": "A D-negative woman in her second pregnancy has a positive IAT with anti-D, and the titer rises across pregnancy. Her infant is D positive, the cord DAT is strongly positive, and cord hemoglobin is 10 g/dL. Step 1: the positive IAT shows free anti-D in the mother, so she was sensitized earlier, most likely by her first pregnancy. Step 2: the positive infant DAT shows that this IgG crossed the placenta and coated fetal cells. Step 3: low hemoglobin confirms active hemolysis. If the infant had been D negative, the DAT would be negative and the baby unaffected, despite the mother's antibody."
+        },
+        {
+          "type": "p",
+          "text": "Before birth, unconjugated bilirubin from fetal hemolysis is lipid soluble, crosses the placenta, and is conjugated by the mother's liver, so cord bilirubin is only modestly raised. Clamping the cord removes this route. Maternal IgG persists in the infant for weeks (half-life about 3 weeks), so hemolysis continues, while the newborn liver has low UGT1A1 activity for the first days of life. Unconjugated bilirubin therefore climbs quickly, and jaundice within the first 24 hours is always pathologic. Continued hemolysis can also cause a late anemia several weeks after birth."
+        },
+        {
+          "type": "flow",
+          "title": "From birth to kernicterus",
+          "steps": [
+            "Placental clearance of bilirubin ends at birth",
+            "Maternal IgG keeps destroying infant red cells",
+            "Heme load yields large amounts of unconjugated bilirubin",
+            "Immature UGT1A1 cannot conjugate enough",
+            "Albumin binding sites saturate; free bilirubin rises",
+            "Free bilirubin crosses the blood-brain barrier",
+            "Deposits in basal ganglia and brainstem nuclei: kernicterus"
+          ],
+          "caption": "Only unbound unconjugated bilirubin enters the brain."
+        },
+        {
+          "type": "p",
+          "text": "Kernicterus is staining and injury of the globus pallidus, subthalamic nucleus, hippocampus, cerebellum, and brainstem nuclei, including oculomotor and auditory nuclei. Acute bilirubin encephalopathy causes lethargy, hypotonia, and a high-pitched cry, followed by hypertonia and arching (opisthotonus). Survivors may have athetoid cerebral palsy, sensorineural hearing loss, upward gaze palsy, and dental enamel dysplasia. Risk rises with prematurity, acidosis, low albumin, sepsis, and drugs that displace bilirubin from albumin, such as sulfonamides and ceftriaxone. Conjugated bilirubin is water soluble and does not cause kernicterus."
+        },
+        {
+          "type": "stop",
+          "predict": "A group O, D-positive mother delivers a group A infant who is jaundiced at 18 hours. Predict the infant DAT, the mother's IAT for anti-D, and the smear.",
+          "explain": "This is ABO disease: the infant DAT is weakly positive from IgG anti-A, the mother has no anti-D because she is D positive, and the smear shows spherocytes. Early jaundice reflects continuing hemolysis once placental clearance stops.",
+          "check": "Compare with the Rh versus ABO table and the antiglobulin test table."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-HEME-09-02-C07",
+      "obj": "HE-9-B.7",
+      "title": "Paroxysmal nocturnal hemoglobinuria",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Many surface proteins are attached to the outer membrane by a glycosylphosphatidylinositol (GPI) anchor built in the endoplasmic reticulum. PIGA, an X-linked gene, encodes a subunit of the enzyme for the first step of anchor synthesis. In paroxysmal nocturnal hemoglobinuria (PNH), an acquired somatic PIGA mutation arises in a hematopoietic stem cell. Because only one active X chromosome is present in both sexes, a single mutation removes all GPI-anchored proteins from every descendant: red cells, granulocytes, monocytes, platelets, and some lymphocytes. PNH is therefore an acquired clonal disorder, not an inherited one."
+        },
+        {
+          "type": "p",
+          "text": "Two lost proteins explain the hemolysis. CD55 (decay-accelerating factor) speeds the breakdown of C3 and C5 convertases on the cell surface. CD59 (membrane inhibitor of reactive lysis) binds C8 and C9 and blocks assembly of the membrane attack complex (MAC); its loss matters most. The alternative pathway deposits C3b on cells continuously at a low rate, and without these regulators the MAC punches holes in red cells inside vessels. Hemolysis worsens with infection, surgery, or exertion. The name reflects dark urine on waking, classically attributed to mild respiratory acidosis during sleep enhancing complement activity, but many patients do not show a nocturnal pattern."
+        },
+        {
+          "type": "table",
+          "title": "Manifestations of PNH and their mechanisms",
+          "cols": [
+            "Manifestation",
+            "Mechanism"
+          ],
+          "rows": [
+            [
+              "Intravascular hemolysis: high LDH, absent haptoglobin, hemoglobinuria, hemosiderinuria",
+              "MAC lysis of red cells lacking CD59; DAT negative because no antibody is involved"
+            ],
+            [
+              "Iron deficiency",
+              "Chronic iron loss in urine as hemoglobin and hemosiderin"
+            ],
+            [
+              "Venous thrombosis: hepatic vein (Budd-Chiari), portal, mesenteric, cerebral sinus",
+              "Complement-activated platelets, procoagulant microparticles, and nitric oxide depletion; the leading cause of death"
+            ],
+            [
+              "Abdominal pain, esophageal spasm, erectile dysfunction",
+              "Nitric oxide depletion causes smooth muscle contraction"
+            ],
+            [
+              "Cytopenias",
+              "Underlying marrow failure; PNH often arises with aplastic anemia because the GPI-deficient clone escapes immune attack on the marrow"
+            ],
+            [
+              "Later evolution",
+              "Myelodysplastic syndrome or acute myeloid leukemia in a minority"
+            ]
+          ],
+          "caption": "Thrombosis at unusual venous sites with hemolysis and cytopenias should raise suspicion of PNH."
+        },
+        {
+          "type": "p",
+          "text": "Diagnosis rests on flow cytometry showing absent CD55 and CD59 on red cells and granulocytes. Fluorescent aerolysin (FLAER), which binds the GPI anchor itself, is used on white cells. Granulocytes give a more reliable clone size than red cells, because PNH red cells are continually destroyed and transfused cells dilute them."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-HEME-09-02-C08",
+      "obj": "HE-9-B.8",
+      "title": "Pyruvate kinase deficiency and hereditary elliptocytosis",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Without mitochondria, red cells make all their ATP by glycolysis. Pyruvate kinase (PK) catalyzes the last step, converting phosphoenolpyruvate to pyruvate and generating ATP. PK deficiency is autosomal recessive (PKLR gene, red cell isozyme) and is the most common glycolytic enzyme defect that causes hemolysis. Low ATP starves the Na+/K+ ATPase and the Ca2+ pump, so the cell loses potassium and water, gains calcium, and becomes dehydrated and rigid. Spiculated cells (echinocytes) appear on the smear, and the spleen removes the stiff cells, so hemolysis is extravascular and chronic from birth, with neonatal jaundice, splenomegaly, and pigment gallstones."
+        },
+        {
+          "type": "p",
+          "text": "The block also causes glycolytic intermediates upstream of PK to accumulate, including 2,3-bisphosphoglycerate (2,3-BPG). Higher 2,3-BPG shifts the oxygen dissociation curve to the right, so hemoglobin unloads more oxygen to tissue, and patients tolerate a given hemoglobin level better than expected. G6PD deficiency differs in timing: counts are normal between oxidant episodes rather than continuously hemolytic."
+        },
+        {
+          "type": "p",
+          "text": "Hereditary elliptocytosis is usually autosomal dominant and results from defects in horizontal skeletal interactions, most often alpha or beta spectrin mutations that impair joining of spectrin dimers into tetramers, or protein 4.1 defects. The skeleton cannot recover its shape after the cell is stretched in the circulation, so cells become permanently oval or elongated. Most people with the trait have many elliptocytes but little or no hemolysis. Homozygous or compound heterozygous forms cause more severe hemolysis, and hereditary pyropoikilocytosis, the most severe form, shows fragments and microspherocytes. Elliptocytosis is common in regions with endemic malaria."
+        },
+        {
+          "type": "table",
+          "title": "Inherited intrinsic red cell defects compared",
+          "cols": [
+            "Disorder",
+            "Inheritance",
+            "Defect",
+            "Smear",
+            "Hemolysis pattern"
+          ],
+          "rows": [
+            [
+              "Hereditary spherocytosis",
+              "Mostly autosomal dominant",
+              "Vertical links: ankyrin, band 3, spectrin, protein 4.2",
+              "Spherocytes",
+              "Chronic, extravascular; high MCHC"
+            ],
+            [
+              "Hereditary elliptocytosis",
+              "Mostly autosomal dominant",
+              "Horizontal links: spectrin tetramer formation, protein 4.1",
+              "Elliptocytes",
+              "Usually mild or none"
+            ],
+            [
+              "Pyruvate kinase deficiency",
+              "Autosomal recessive",
+              "Glycolysis: low ATP, pump failure",
+              "Echinocytes",
+              "Chronic, extravascular; high 2,3-BPG"
+            ],
+            [
+              "G6PD deficiency",
+              "X-linked recessive",
+              "Pentose phosphate pathway: low NADPH",
+              "Bite cells; Heinz bodies with supravital stain",
+              "Episodic after oxidant stress, mainly intravascular"
+            ]
+          ],
+          "caption": "All four have a negative DAT; inheritance, smear, and timing separate them."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-HEME-09-02-C09",
+      "obj": "HE-9-B.9",
+      "title": "Thrombotic microangiopathies: TTP and HUS",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Thrombotic thrombocytopenic purpura (TTP) and hemolytic uremic syndrome (HUS) are thrombotic microangiopathies: platelet-rich thrombi form in arterioles and capillaries. Platelets are consumed, causing thrombocytopenia. Red cells forced through partly blocked vessels under high shear are torn into schistocytes, giving microangiopathic hemolytic anemia with high LDH, low haptoglobin, and reticulocytosis. Because the thrombi are built from platelets and the coagulation cascade is not broadly activated, the PT, PTT, and fibrinogen stay normal. That single point separates both conditions from disseminated intravascular coagulation (DIC)."
+        },
+        {
+          "type": "p",
+          "text": "In TTP the defect is in von Willebrand factor (vWF) processing. Endothelial cells secrete vWF as ultralarge multimers, which bind platelets most avidly. The plasma metalloprotease ADAMTS13 normally cleaves these multimers into smaller forms as soon as shear stress unfolds them. Most adult TTP is acquired, caused by an IgG autoantibody that inhibits ADAMTS13; a rarer congenital form results from ADAMTS13 mutations. Persisting ultralarge multimers bind platelet glycoprotein Ib spontaneously, and microthrombi form widely, especially in the brain, heart, and kidney. Patients show hemolysis, severe thrombocytopenia, neurologic signs (confusion, headache, stroke, seizures), fever, and usually milder renal injury; only a minority show all five features. ADAMTS13 activity is typically below 10%."
+        },
+        {
+          "type": "flow",
+          "title": "Pathogenesis of TTP",
+          "steps": [
+            "Autoantibody or mutation reduces ADAMTS13 activity",
+            "Ultralarge vWF multimers persist on endothelium and in plasma",
+            "Platelets bind spontaneously through glycoprotein Ib",
+            "Platelet-rich microthrombi form in small vessels",
+            "Platelet consumption causes thrombocytopenia",
+            "Shear fragments red cells into schistocytes",
+            "Ischemia of brain, heart, and kidney"
+          ],
+          "caption": "The coagulation cascade is not the driver, so clotting times stay normal."
+        },
+        {
+          "type": "p",
+          "text": "Typical HUS follows infection with Shiga toxin-producing Escherichia coli, classically O157:H7 from undercooked ground beef or contaminated produce, or Shigella dysenteriae type 1. It mainly affects young children about a week after bloody diarrhea. Shiga toxin enters the blood and binds globotriaosylceramide (Gb3), which is abundant on glomerular endothelium. After entry, its A subunit removes an adenine from 28S ribosomal RNA of the 60S subunit, halting protein synthesis. Injured endothelium swells and detaches, exposes a prothrombotic surface, and seeds glomerular thrombi, producing acute kidney injury. The triad is microangiopathic hemolytic anemia, thrombocytopenia, and acute kidney injury, with normal ADAMTS13 activity. Atypical HUS arises from inherited defects in complement regulators such as factor H."
+        },
+        {
+          "type": "table",
+          "title": "TTP, HUS, and DIC compared",
+          "cols": [
+            "Feature",
+            "TTP",
+            "Typical HUS",
+            "DIC"
+          ],
+          "rows": [
+            [
+              "Primary defect",
+              "ADAMTS13 deficiency, ultralarge vWF",
+              "Shiga toxin injury to renal endothelium",
+              "Systemic activation of coagulation"
+            ],
+            [
+              "Typical patient",
+              "Adult, often a woman",
+              "Child after bloody diarrhea",
+              "Sepsis, trauma, obstetric or malignant disease"
+            ],
+            [
+              "Dominant organ",
+              "Brain",
+              "Kidney",
+              "Multiple; bleeding and thrombosis"
+            ],
+            [
+              "Schistocytes and thrombocytopenia",
+              "Yes",
+              "Yes",
+              "Yes"
+            ],
+            [
+              "PT and PTT",
+              "Normal",
+              "Normal",
+              "Prolonged"
+            ],
+            [
+              "Fibrinogen",
+              "Normal",
+              "Normal",
+              "Low"
+            ],
+            [
+              "D-dimer",
+              "Normal or mildly raised",
+              "Normal or mildly raised",
+              "Markedly raised"
+            ],
+            [
+              "ADAMTS13 activity",
+              "Below about 10%",
+              "Normal or modestly reduced",
+              "Not diagnostic"
+            ]
+          ],
+          "caption": "Normal clotting times and fibrinogen separate thrombotic microangiopathy from DIC."
+        },
+        {
+          "type": "stop",
+          "predict": "A septic patient has schistocytes, platelets of 25,000/µL, a prolonged PT and PTT, and low fibrinogen. Is this TTP?",
+          "explain": "No. Prolonged clotting times and low fibrinogen show consumption of clotting factors, which points to DIC. TTP and HUS consume platelets but spare the coagulation factors.",
+          "check": "Compare with the PT, PTT, and fibrinogen rows of the comparison table."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-HEME-09-02-C10",
+      "obj": "HE-9-B.10",
+      "title": "Mechanical hemolysis and secondary iron deficiency",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A normal red cell deforms easily, but it cannot survive repeated exposure to very high shear. Mechanical prosthetic heart valves, especially with a paravalvular leak or dysfunction, and severe aortic stenosis create high-velocity turbulent jets that tear the membrane. The fragments circulate as schistocytes (helmet cells and triangles), some reseal as small spherocytes, and many cells rupture outright inside the vessel. Mechanical valves cause more hemolysis than bioprosthetic (tissue) valves. Mild compensated hemolysis is common, and worsening hemolysis can be a sign of valve dysfunction."
+        },
+        {
+          "type": "p",
+          "text": "The lab picture is intravascular hemolysis: high LDH, absent haptoglobin, raised unconjugated bilirubin, reticulocytosis, and a negative DAT. Unlike TTP, the platelet count is normal and there are no organ microthrombi, because the injury comes from flow at a single site, not from platelet aggregation."
+        },
+        {
+          "type": "p",
+          "text": "In extravascular hemolysis, macrophages recover iron from heme and return it to the marrow. In intravascular hemolysis, once haptoglobin is saturated, hemoglobin splits into dimers small enough to cross the glomerular filter. Proximal tubule cells reabsorb and degrade them, storing the iron as ferritin and hemosiderin, and are later shed into the urine. Hemosiderinuria, shown by a Prussian blue stain of the urine sediment, appears several days after hemolysis begins and persists afterward. Over months, urinary iron loss exceeds dietary absorption. Ferritin falls, the MCV drifts downward, and the marrow loses the iron it needs to compensate, which deepens the anemia. The result is a mixed picture of schistocytes and high LDH together with microcytosis and low ferritin, a pattern also seen in PNH."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-HEME-09-02-C11",
+      "obj": "HE-9-B.11",
+      "title": "Splenic rupture, infarct, abscess, and the post-splenectomy blood",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The red pulp filters blood slowly through cords lined by macrophages, which remove old and damaged red cells and pluck inclusions from cells without destroying them (pitting). The white pulp, especially marginal zone B cells, produces IgM against polysaccharide capsules. The spleen also holds about one third of the body's platelets. Branches of the splenic artery are end arteries, so blocking one infarcts the segment it supplies. The spleen lies under the left ninth to eleventh ribs and touches the diaphragm."
+        },
+        {
+          "type": "table",
+          "title": "Structural disorders of the spleen",
+          "cols": [
+            "Disorder",
+            "Common causes",
+            "Mechanism",
+            "Clinical clues"
+          ],
+          "rows": [
+            [
+              "Rupture",
+              "Blunt abdominal trauma (most common); infectious mononucleosis; malaria",
+              "Enlarged spleen has a stretched, thin capsule and soft, infiltrated pulp",
+              "Left upper quadrant pain, left shoulder pain (Kehr sign), hemoperitoneum, hypovolemic shock"
+            ],
+            [
+              "Infarct",
+              "Sickle cell disease; emboli from the left heart (atrial fibrillation, endocarditis, mural thrombus); massive splenomegaly",
+              "Occlusion of an end artery gives a pale, wedge-shaped, subcapsular infarct",
+              "Left upper quadrant pain, often pleuritic; may be silent"
+            ],
+            [
+              "Abscess",
+              "Septic emboli from infective endocarditis (most common); infected infarct, as in sickle cell disease; immunosuppression",
+              "Bacteria seed devitalized or ischemic tissue",
+              "Fever, left upper quadrant pain, leukocytosis, left pleural effusion"
+            ]
+          ],
+          "caption": "Diaphragmatic irritation refers pain to the left shoulder through the phrenic nerve (C3 to C5)."
+        },
+        {
+          "type": "p",
+          "text": "In infectious mononucleosis caused by Epstein-Barr virus, reactive lymphocytes infiltrate the pulp, the capsule, and the trabeculae, so the spleen becomes large, soft, and fragile. Rupture can follow trivial trauma or occur spontaneously, mostly in the first 3 to 4 weeks of illness."
+        },
+        {
+          "type": "p",
+          "text": "After splenectomy, or with functional asplenia from sickle cell autoinfarction, nothing pits inclusions or trims excess membrane, so cells the spleen normally cleans or removes stay in circulation. The loss of the splenic platelet pool raises the platelet count, and the risk of infection with encapsulated organisms rises (HE-7.7)."
+        },
+        {
+          "type": "table",
+          "title": "Blood findings after splenectomy",
+          "cols": [
+            "Finding",
+            "Why it appears"
+          ],
+          "rows": [
+            [
+              "Howell-Jolly bodies",
+              "Nuclear (DNA) remnants are no longer pitted"
+            ],
+            [
+              "Pappenheimer bodies",
+              "Iron-containing granules are no longer removed"
+            ],
+            [
+              "Target cells",
+              "Excess membrane is not trimmed"
+            ],
+            [
+              "Acanthocytes and nucleated red cells",
+              "Abnormal cells are no longer culled"
+            ],
+            [
+              "Thrombocytosis",
+              "Platelets normally held in the spleen remain in circulation; often marked and early"
+            ],
+            [
+              "Leukocytosis and lymphocytosis",
+              "Loss of splenic sequestration"
+            ]
+          ],
+          "caption": "The same smear appears in functional asplenia."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-HEME-09-02-C12",
+      "obj": "HE-9-B.12",
+      "title": "Hypersplenism versus marrow failure",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Hypersplenism is defined by four features: splenomegaly, a reduction in one or more blood cell lines, a normal or hypercellular marrow, and correction of the cytopenias when the spleen is removed. The marrow is working; the cells are being held back or destroyed after release."
+        },
+        {
+          "type": "p",
+          "text": "The most common setting is cirrhosis, where portal hypertension backs pressure up the splenic vein and causes congestive splenomegaly. Two mechanisms then produce the cytopenias. First, an enlarged red pulp with slow flow pools far more blood than usual; the normal spleen holds about one third of platelets, and a massively enlarged spleen can hold most of them. Second, macrophage hyperplasia increases destruction of cells that pass slowly through the cords. Expansion of plasma volume adds a dilutional effect. Cytopenias are usually moderate, with thrombocytopenia most common, followed by leukopenia and then anemia. Pooled platelets remain functional and can be mobilized, so bleeding is less than the count suggests."
+        },
+        {
+          "type": "table",
+          "title": "Causes of hypersplenism",
+          "cols": [
+            "Category",
+            "Examples"
+          ],
+          "rows": [
+            [
+              "Congestive",
+              "Cirrhosis with portal hypertension, portal or splenic vein thrombosis"
+            ],
+            [
+              "Infiltrative",
+              "Gaucher disease, myelofibrosis, lymphoma, hairy cell leukemia, chronic myeloid leukemia, amyloidosis"
+            ],
+            [
+              "Infectious and inflammatory",
+              "Malaria, visceral leishmaniasis, Felty syndrome (rheumatoid arthritis)"
+            ],
+            [
+              "Work hypertrophy",
+              "Chronic hemolysis, such as hereditary spherocytosis and thalassemia"
+            ]
+          ],
+          "caption": "Any process that enlarges the spleen can cause hypersplenism."
+        },
+        {
+          "type": "table",
+          "title": "Hypersplenism versus marrow failure",
+          "cols": [
+            "Feature",
+            "Hypersplenism",
+            "Marrow failure (for example aplastic anemia)"
+          ],
+          "rows": [
+            [
+              "Spleen",
+              "Enlarged",
+              "Not enlarged; splenomegaly argues against aplastic anemia"
+            ],
+            [
+              "Marrow cellularity",
+              "Normal or increased",
+              "Markedly reduced, replaced by fat"
+            ],
+            [
+              "Reticulocyte response",
+              "Present",
+              "Low"
+            ],
+            [
+              "Severity of cytopenias",
+              "Usually moderate",
+              "Often severe"
+            ],
+            [
+              "Effect of splenectomy",
+              "Counts improve",
+              "No improvement"
+            ]
+          ],
+          "caption": "Marrow cellularity and spleen size are the two decisive findings."
+        },
+        {
+          "type": "p",
+          "text": "The distinction can blur when one disease both enlarges the spleen and damages the marrow. Myelofibrosis, hairy cell leukemia, and lymphoma infiltrate both organs, so cytopenias reflect splenic pooling and marrow replacement together. In those cases the marrow biopsy shows fibrosis or infiltration rather than simple hypocellularity or hyperplasia."
+        }
+      ]
+    }
+  ],
+  "integration": [
+    {
+      "type": "p",
+      "text": "Each disease in this chapter fits one question: what makes this red cell die early, and where? Biochemistry explains the enzyme defects, because red cells without mitochondria depend on glycolysis for ATP and the pentose phosphate pathway for NADPH. Genetics explains the hemoglobinopathies and membrane disorders, and their inheritance patterns are frequently tested (X-linked G6PD, autosomal dominant spherocytosis, autosomal recessive sickle cell and PK deficiency). Immunology explains hemolytic disease of the newborn through IgG transport by FcRn, and PNH through loss of complement regulators. Microbiology enters through parvovirus B19, Salmonella, Shiga toxin, and encapsulated organisms after asplenia."
+    },
+    {
+      "type": "p",
+      "text": "Pathology ties these together through the site of destruction. Extravascular hemolysis enlarges the spleen, forms pigment gallstones, and conserves iron; intravascular hemolysis empties haptoglobin, spills hemoglobin into urine, and can cause iron deficiency. The limits matter: many diseases mix both sites, a single smear can mislead (spherocytes occur in both spherocytosis and warm autoimmune hemolysis), and enzyme assays or electrophoresis can be distorted by reticulocytosis, transfusion, or coexisting iron deficiency, so results are read alongside the clinical setting."
+    }
+  ],
+  "summary": [
+    "All hemolysis raises reticulocytes, LDH, and unconjugated bilirubin and lowers haptoglobin; intravascular hemolysis adds hemoglobinuria and hemosiderinuria.",
+    "HbS (glutamate to valine at beta 6) polymerizes when deoxygenated; occlusion causes dactylitis, acute chest syndrome, stroke, priapism, papillary necrosis, and splenic autoinfarction, while short red cell survival allows parvovirus aplastic crisis.",
+    "In beta thalassemia major, precipitated alpha chains kill erythroblasts; marrow expansion, extramedullary hematopoiesis, and hepcidin suppression explain the skull changes, hepatosplenomegaly, and iron overload.",
+    "Beta thalassemia minor shows mild microcytic anemia, a high RBC count, normal ferritin, and HbA2 above about 3.5%.",
+    "G6PD deficiency (X-linked) lowers NADPH and reduced glutathione, so oxidant triggers cause episodic, mainly intravascular hemolysis with Heinz bodies and bite cells.",
+    "Hereditary spherocytosis (vertical link defects) causes membrane loss, splenic trapping, high MCHC, increased osmotic fragility, reduced EMA binding, and a negative DAT.",
+    "Rh disease needs prior sensitization and IgG anti-D crossing by FcRn, causing anemia, erythroblastosis, and hydrops; ABO disease in infants of group O mothers is common but mild.",
+    "A positive infant DAT and maternal IAT confirm antibody-mediated hemolysis; unconjugated bilirubin rises after birth and free bilirubin causes kernicterus.",
+    "PNH is an acquired PIGA mutation removing CD55 and CD59, causing complement-mediated intravascular hemolysis, venous thrombosis, and cytopenias diagnosed by flow cytometry.",
+    "TTP (ADAMTS13 deficiency) and HUS (Shiga toxin) cause schistocytes and thrombocytopenia with normal PT and PTT; hypersplenism causes cytopenias with a cellular marrow and splenomegaly."
+  ],
+  "sources": [
+    {
+      "book": "Robbins and Cotran Pathologic Basis of Disease",
+      "where": "Red Blood Cell and Bleeding Disorders"
+    },
+    {
+      "book": "Robbins and Cotran Pathologic Basis of Disease",
+      "where": "Diseases of White Blood Cells, Lymph Nodes, Spleen, and Thymus, section on the spleen"
+    },
+    {
+      "book": "Guyton and Hall Textbook of Medical Physiology",
+      "where": "Red Blood Cells, Anemia, and Polycythemia; Blood Types, Transfusion, Tissue and Organ Transplantation"
+    },
+    {
+      "book": "Lippincott Illustrated Reviews: Biochemistry",
+      "where": "Pentose Phosphate Pathway and NADPH; Glycolysis; Globular Proteins (hemoglobinopathies)"
+    },
+    {
+      "book": "Lange Pathophysiology of Disease",
+      "where": "Blood Disorders"
+    },
+    {
+      "book": "Jawetz, Melnick and Adelberg's Medical Microbiology",
+      "where": "Enteric Gram-negative rods (Enterobacteriaceae), Shiga toxin-producing Escherichia coli"
+    }
+  ],
+  "verify": [
+    "The HbA2 cutoff for beta thalassemia minor is given as above about 3.5% here; laboratories use thresholds from about 3.3% to 4%.",
+    "Sources differ on whether Salmonella or Staphylococcus aureus is the most common cause of osteomyelitis in sickle cell disease; this chapter calls Salmonella the classic association and S. aureus common. Confirm the answer NABNE expects.",
+    "The link between nocturnal hemolysis in PNH and respiratory acidosis during sleep is the classic textbook explanation but is debated; confirm NABNE emphasis.",
+    "The ADAMTS13 activity threshold for TTP (below about 10%) follows common consensus; some sources use slightly different cutoffs.",
+    "The fraction of platelets pooled in the spleen (about one third normally, up to most of the platelet mass in massive splenomegaly) varies among references.",
+    "Red cell survival in sickle cell disease is quoted from about 10 to 20 days in most sources; some give a wider range.",
+    "Confirm whether NABNE expects the eponyms Kehr sign, Felty syndrome, and Howell-Jolly and Pappenheimer bodies, or only the descriptive terms.",
+    "Confirm whether NABNE Part I expects FLAER and EMA binding by name or only flow cytometry for CD55 and CD59 and osmotic fragility.",
+    "Requested new diagram names for a future revision: rbc-smear-panel (sickle cell, target cell, spherocyte, schistocyte, bite cell, elliptocyte, Howell-Jolly body side by side) and hemolysis-sites (spleen versus intravascular pathways for hemoglobin, bilirubin, haptoglobin, and urine iron)."
+  ]
+}

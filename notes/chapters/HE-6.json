@@ -1,0 +1,705 @@
+{
+ "unit": "HE-6",
+ "chapter_id": "NPLEX-P1-HEME-06",
+ "topic_id": "NPLEX-P1-HEME-06-01",
+ "title": "Hematologic Genetics",
+ "subject": "Hematologic System (HEME)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter explains how single gene changes produce inherited blood disease and how acquired mutations and translocations drive blood cancers. It covers sickle hemoglobin, the alpha and beta thalassemias, inheritance patterns and offspring risk, the BCR-ABL1 and JAK2 V617F driver mutations, the classic lymphoma and leukemia translocations, Fanconi anemia, and inherited thrombophilia. Board questions give a mutation, a pedigree, a karyotype, or a set of findings and ask you to predict the protein defect, the disease severity, or a child's risk. If you can trace each lesion from gene to protein to cell behavior, you can answer most of them.",
+  "prerequisites": [
+   "Hemoglobin structure, the oxygen dissociation curve, the Bohr effect, and 2,3-BPG",
+   "Gene structure: promoter, exons, introns, splice sites, and untranslated regions",
+   "Mendelian inheritance and X inactivation (lyonization)",
+   "Cell cycle control by cyclins, CDKs, and RB, and apoptosis by the BCL2 family",
+   "The coagulation cascade and the protein C anticoagulant pathway"
+  ],
+  "connections": [
+   {
+    "to": "Red cell disorders and hemolytic anemias",
+    "how": "Sickle cell disease, thalassemia, G6PD deficiency, and hereditary spherocytosis are the genetic causes of hemolysis and microcytosis seen in anemia questions."
+   },
+   {
+    "to": "Hemostasis and coagulation",
+    "how": "Hemophilia, von Willebrand disease, factor V Leiden, and prothrombin G20210A are the main inherited causes of bleeding and clotting disorders."
+   },
+   {
+    "to": "Myeloid and lymphoid neoplasms",
+    "how": "Driver mutations and translocations define CML, polycythemia vera, Burkitt, follicular, and mantle cell lymphoma, and acute promyelocytic leukemia."
+   },
+   {
+    "to": "Immunology: B cell development",
+    "how": "RAG-mediated recombination and class switching at the immunoglobulin heavy chain locus create the double-strand breaks that lymphoma translocations exploit."
+   },
+   {
+    "to": "Renal physiology",
+    "how": "The hypoxic, hypertonic, acidic renal medulla is where sickle trait shows itself, causing hematuria and loss of concentrating ability."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Point mutation",
+    "def": "A change in a single nucleotide, such as the A to T change in codon 6 of beta globin that produces HbS."
+   },
+   {
+    "term": "Polymerization delay time",
+    "def": "The lag between deoxygenation of HbS and fiber formation, which shortens very steeply as HbS concentration rises."
+   },
+   {
+    "term": "Chain imbalance",
+    "def": "Unequal production of alpha and non-alpha globin chains, leaving unpaired chains that form abnormal tetramers or precipitate."
+   },
+   {
+    "term": "Ineffective erythropoiesis",
+    "def": "Death of erythroid precursors inside the marrow before they mature, despite marrow expansion."
+   },
+   {
+    "term": "Lyonization",
+    "def": "Random inactivation of one X chromosome in each female cell, which can leave a heterozygous carrier symptomatic when skewed."
+   },
+   {
+    "term": "Philadelphia chromosome",
+    "def": "The shortened chromosome 22 produced by t(9;22), carrying the BCR-ABL1 fusion gene."
+   },
+   {
+    "term": "Constitutive kinase",
+    "def": "A kinase that signals continuously without its normal activating ligand."
+   },
+   {
+    "term": "Pseudokinase domain",
+    "def": "A kinase-like region without catalytic activity; in JAK2 (JH2) it holds the active kinase domain in check."
+   },
+   {
+    "term": "Enhancer hijacking",
+    "def": "Overexpression of an intact gene after a translocation places it next to a strong foreign enhancer, such as the immunoglobulin heavy chain enhancer."
+   },
+   {
+    "term": "Interstrand crosslink",
+    "def": "A covalent bond joining the two strands of DNA, which blocks strand separation for replication and transcription."
+   },
+   {
+    "term": "Activated protein C resistance",
+    "def": "Slowed inactivation of factor Va by activated protein C, most often caused by factor V Leiden."
+   },
+   {
+    "term": "Thrombophilia",
+    "def": "An inherited or acquired tendency to form venous or arterial thrombi."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-HEME-06-01-C01",
+   "obj": "HE-6.1",
+   "title": "Sickle hemoglobin: from one amino acid to vaso-occlusion",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Adult hemoglobin A (HbA) is a tetramer of two alpha and two beta chains. The beta globin gene lies on chromosome 11. In sickle hemoglobin (HbS), a single A to T substitution changes codon 6 from GAG to GTG, replacing glutamate with valine. Glutamate is charged and faces the solvent; valine is hydrophobic. HbS therefore carries less negative charge and migrates more slowly than HbA toward the anode on alkaline electrophoresis."
+    },
+    {
+     "type": "p",
+     "text": "The valine creates a sticky patch on the outside of the beta chain. In the deoxygenated (T) conformation, this patch fits a hydrophobic pocket, formed by phenylalanine 85 and leucine 88, on the beta chain of a neighboring tetramer. Deoxy HbS molecules then stack into long, 14-strand fibers that bend the cell into a rigid sickle. In the oxygenated (R) conformation the pocket is not exposed, so oxy HbS does not polymerize, and early reoxygenation can melt the polymer. Repeated cycles damage the membrane, cause K+ and water loss, and leave irreversibly sickled cells."
+    },
+    {
+     "type": "p",
+     "text": "Whether a cell sickles is a race between two times. Polymer forms only after a delay, and that delay shortens very steeply as the concentration of deoxy HbS inside the cell rises. If the delay is longer than the time a cell spends in the capillaries, it reaches the lungs and reoxygenates before fibers form. Anything that raises the fraction of HbS that is deoxygenated, raises the HbS concentration, or slows transit tips the race toward sickling."
+    },
+    {
+     "type": "table",
+     "title": "What changes sickling, and why",
+     "cols": [
+      "Factor",
+      "Effect",
+      "Mechanism"
+     ],
+     "rows": [
+      [
+       "Hypoxia (altitude, lung disease, exertion)",
+       "More",
+       "More HbS is in the deoxy, polymerizing form"
+      ],
+      [
+       "Acidosis",
+       "More",
+       "Bohr effect lowers O2 affinity, so more HbS is deoxygenated at a given PO2"
+      ],
+      [
+       "High 2,3-BPG",
+       "More",
+       "Stabilizes the deoxy (T) state"
+      ],
+      [
+       "Dehydration, high MCHC",
+       "More",
+       "Higher intracellular HbS concentration shortens the delay time"
+      ],
+      [
+       "Cold, infection, inflammation",
+       "More",
+       "Vasoconstriction, stasis, and endothelial adhesion slow transit"
+      ],
+      [
+       "High HbF",
+       "Less",
+       "Gamma chains lack the contact sites, so HbF and alpha2-beta-S-gamma hybrids are excluded from the polymer and dilute HbS"
+      ],
+      [
+       "Coinherited alpha thalassemia",
+       "Less",
+       "Lower MCHC reduces HbS concentration in each cell"
+      ]
+     ],
+     "caption": "Every factor acts by changing how much deoxy HbS is present, how concentrated it is, or how long the cell stays in low-oxygen tissue."
+    },
+    {
+     "type": "cycle",
+     "title": "The sickling loop",
+     "steps": [
+      "Red cell enters a low-oxygen capillary",
+      "Deoxy HbS polymerizes; cell sickles and stiffens",
+      "Sickled and adherent cells obstruct small vessels",
+      "Downstream tissue becomes hypoxic and acidotic",
+      "More HbS deoxygenates in nearby cells",
+      "Sickling spreads to more cells"
+     ],
+     "caption": "Vaso-occlusion produces the hypoxia and acidosis that drive further sickling, which explains painful crises and infarcts."
+    },
+    {
+     "type": "p",
+     "text": "Newborns with sickle cell disease (HbSS) are protected because about 60 to 80% of their hemoglobin at birth is HbF; symptoms such as dactylitis appear after about 6 months as gamma chain production falls. Sickled cells are removed early by the spleen and also rupture in the circulation, so patients have chronic hemolytic anemia with a high reticulocyte count, and released hemoglobin scavenges nitric oxide, favoring vasoconstriction. Repeated splenic infarction ends in autosplenectomy."
+    },
+    {
+     "type": "p",
+     "text": "In sickle trait (HbAS), each cell holds only about 40% HbS, so the delay time is long and sickling needs an extreme setting. The renal medulla provides one: low PO2, high osmolality that dehydrates red cells, and low pH. Sickling in the vasa recta causes hematuria, papillary necrosis, and loss of concentrating ability (isosthenuria)."
+    },
+    {
+     "type": "stop",
+     "predict": "A child with HbSS becomes dehydrated during a febrile illness. Predict the effect on sickling, and explain why a high HbF level would have the opposite effect.",
+     "explain": "Dehydration raises MCHC, and fever and infection add acidosis and stasis, so the delay time shortens and sickling rises. HbF and HbS-HbF hybrid tetramers are excluded from the polymer and dilute HbS in each cell, so the delay time lengthens and fewer cells sickle.",
+     "check": "The table of factors and the delay time paragraph."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-HEME-06-01-C02",
+   "obj": "HE-6.2",
+   "title": "Alpha and beta thalassemia: gene dosage and chain imbalance",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Thalassemias are quantitative defects: the globin made is normal, but too little of one chain is produced. Disease comes from two problems at once, too little hemoglobin (microcytic, hypochromic cells) and an excess of the partner chain, which forms abnormal tetramers or precipitates. Which chain is in excess determines whether the cells die in the marrow or in the circulation."
+    },
+    {
+     "type": "h",
+     "text": "Alpha thalassemia: counting deleted genes"
+    },
+    {
+     "type": "p",
+     "text": "Each chromosome 16 carries two alpha globin genes (HBA1 and HBA2), so a normal person has four. Alpha thalassemia is usually caused by large deletions removing whole genes, and severity steps up with each gene lost. Excess gamma chains in the fetus form Hb Barts (gamma4), and excess beta chains after birth form HbH (beta4). Both tetramers bind O2 with very high affinity and show no cooperativity or Bohr effect, so they deliver almost no oxygen to tissue."
+    },
+    {
+     "type": "table",
+     "title": "Alpha globin genes deleted and the resulting disorder",
+     "cols": [
+      "Genes deleted",
+      "Genotype",
+      "Disorder",
+      "Findings"
+     ],
+     "rows": [
+      [
+       "1 of 4",
+       "-α/αα",
+       "Silent carrier",
+       "Normal blood count; detected only by DNA testing"
+      ],
+      [
+       "2 of 4",
+       "--/αα (cis) or -α/-α (trans)",
+       "Alpha thalassemia trait",
+       "Mild microcytosis, little or no anemia, normal HbA2"
+      ],
+      [
+       "3 of 4",
+       "--/-α",
+       "HbH disease",
+       "Moderate hemolytic anemia, splenomegaly, HbH inclusions on supravital stain"
+      ],
+      [
+       "4 of 4",
+       "--/--",
+       "Hb Barts hydrops fetalis",
+       "Severe fetal hypoxia, heart failure, and edema; usually fatal in utero or at birth"
+      ]
+     ],
+     "caption": "Severity rises with each gene lost. The cis pattern is common in Southeast Asian ancestry and can pass a chromosome with no alpha genes to a child; the trans pattern, common in African ancestry, cannot."
+    },
+    {
+     "type": "p",
+     "text": "Because beta4 tetramers are soluble, HbH disease is mainly a hemolytic disorder: HbH oxidizes and precipitates in older red cells, which the spleen removes. Hydropic fetuses survive into the third trimester only because embryonic Hb Portland (zeta2-gamma2) needs no alpha chains."
+    },
+    {
+     "type": "h",
+     "text": "Beta thalassemia: point mutations and precipitating alpha chains"
+    },
+    {
+     "type": "p",
+     "text": "There is one beta globin gene per chromosome 11, and beta thalassemia is usually caused by point mutations rather than deletions. Promoter mutations reduce transcription, splice site mutations prevent correct removal of introns or create aberrant splice sites, and nonsense or frameshift mutations produce unstable mRNA or truncated chain. An allele that makes some beta chain is beta+; one that makes none is beta0."
+    },
+    {
+     "type": "p",
+     "text": "Beta thalassemia minor (one abnormal allele) causes microcytosis with mild or no anemia, a normal or high red cell count, and HbA2 (alpha2-delta2) above about 3.5% (normal about 2 to 3.5%), because the delta chains pair with the surplus alpha chains. Beta thalassemia major (both alleles severely affected) appears at about 6 to 9 months, when the switch from gamma to beta chains removes the partner that kept alpha chains paired before birth; HbF stays high because gamma chains still pair with alpha chains."
+    },
+    {
+     "type": "flow",
+     "title": "How beta thalassemia major damages the marrow and beyond",
+     "steps": [
+      "Little or no beta chain is made",
+      "Free alpha chains precipitate in erythroid precursors",
+      "Membrane damage kills precursors in the marrow",
+      "Severe anemia drives erythropoietin and marrow expansion",
+      "Skull and facial bone widening; extramedullary hematopoiesis",
+      "Suppressed hepcidin increases iron absorption and overload"
+     ],
+     "caption": "Free alpha chains are insoluble, so beta thalassemia major is dominated by ineffective erythropoiesis, whereas soluble HbH in alpha thalassemia mainly causes hemolysis."
+    },
+    {
+     "type": "example",
+     "title": "Can two parents with alpha thalassemia trait have a hydropic fetus?",
+     "text": "Both parents have mild microcytosis, normal iron studies, and normal HbA2, so each has two deleted alpha genes. If both carry the cis pattern (--/αα), each passes a --/ chromosome half the time, so each pregnancy has a 1 in 4 chance of --/-- (Hb Barts hydrops fetalis). If either parent has the trans pattern (-α/-α), that parent always passes a chromosome with one gene, so no child can lack all four genes; the worst outcome is HbH disease (--/-α), possible only if the other parent is cis."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-HEME-06-01-C03",
+   "obj": "HE-6.3",
+   "title": "Inheritance patterns and offspring risk",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The inheritance pattern of a blood disorder follows from where the gene lies and how much normal protein a person needs. Genes on the X chromosome give X-linked patterns. Autosomal disorders are recessive when one normal copy makes enough functional product, and dominant when half the normal amount is not enough or a mutant protein interferes with the normal one (dominant negative effect)."
+    },
+    {
+     "type": "table",
+     "title": "Inheritance of the major hereditary blood disorders",
+     "cols": [
+      "Disorder",
+      "Gene and product",
+      "Inheritance",
+      "Why this pattern"
+     ],
+     "rows": [
+      [
+       "Hemophilia A",
+       "F8, factor VIII (Xq28)",
+       "X-linked recessive",
+       "Males are hemizygous; about one third of cases are new mutations"
+      ],
+      [
+       "Hemophilia B",
+       "F9, factor IX (Xq27)",
+       "X-linked recessive",
+       "Same as hemophilia A; the two are clinically indistinguishable"
+      ],
+      [
+       "G6PD deficiency",
+       "G6PD (Xq28)",
+       "X-linked recessive",
+       "Heterozygous females are red cell mosaics from lyonization"
+      ],
+      [
+       "Sickle cell disease",
+       "HBB, beta globin (chromosome 11)",
+       "Autosomal recessive",
+       "One normal allele gives enough HbA to prevent disease"
+      ],
+      [
+       "Alpha and beta thalassemia",
+       "HBA1 and HBA2 (16); HBB (11)",
+       "Autosomal recessive",
+       "Severity depends on the number of affected genes"
+      ],
+      [
+       "Hereditary spherocytosis (most)",
+       "Ankyrin, spectrin, band 3, protein 4.2",
+       "Autosomal dominant (about 75%)",
+       "Half the normal membrane protein cannot hold the skeleton together"
+      ],
+      [
+       "von Willebrand disease (types 1 and 2)",
+       "VWF (chromosome 12)",
+       "Autosomal dominant",
+       "Partial deficiency or mutant subunits disrupt multimers; type 3 is autosomal recessive"
+      ]
+     ],
+     "caption": "Exceptions: some hereditary spherocytosis is autosomal recessive or de novo, and type 3 and type 2N von Willebrand disease are recessive."
+    },
+    {
+     "type": "p",
+     "text": "For an X-linked recessive disorder, a carrier mother passes the mutant X to half her children, so each son has a 50% chance of being affected and each daughter a 50% chance of being a carrier. An affected father passes his X to every daughter and his Y to every son, so all daughters are obligate carriers and no son is affected; male to male transmission excludes X linkage. Carrier females usually have enough normal protein, but skewed X inactivation can leave a carrier with low factor VIII or a G6PD-deficient red cell population."
+    },
+    {
+     "type": "p",
+     "text": "For an autosomal recessive disorder, two carrier parents have a 25% chance with each pregnancy of an affected child, 50% of a carrier, and 25% of a noncarrier. An unaffected sibling of an affected child cannot be the affected genotype, so the chance that the sibling is a carrier is 2 in 3, not 1 in 2. For an autosomal dominant disorder, each child of a heterozygous parent has a 50% risk regardless of sex, although variable expressivity and incomplete penetrance, marked in type 1 von Willebrand disease, mean an affected relative may have few symptoms."
+    },
+    {
+     "type": "example",
+     "title": "Offspring risk for sickle cell disease",
+     "text": "A healthy woman's brother has sickle cell disease, so both her parents are carriers. She is unaffected, which removes the HbSS possibility, leaving AA, AS, and SA in equal proportion: her chance of being a carrier is 2/3. Her partner has documented sickle trait (carrier probability 1). An affected child requires both parents to be carriers and both to pass S: 2/3 x 1 x 1/4 = 1/6. If her own testing shows trait, the risk becomes 1 x 1 x 1/4 = 1/4."
+    },
+    {
+     "type": "stop",
+     "predict": "A man with hemophilia A and a woman who is not a carrier have a son and a daughter. What is each child's risk of hemophilia, and what is the risk for the daughter's future sons?",
+     "explain": "Neither child is affected: the son receives his father's Y, and the daughter receives his mutant X and is an obligate carrier. Each of the daughter's sons has a 50% risk.",
+     "check": "The X-linked paragraph."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-HEME-06-01-C04",
+   "obj": "HE-6.4",
+   "title": "Driver kinases in myeloproliferative neoplasms: BCR-ABL1 and JAK2 V617F",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Normal blood cell production is matched to demand because growth factor receptors signal through tyrosine kinases only when their ligand binds. Myeloproliferative neoplasms arise when an acquired mutation in a hematopoietic stem cell leaves one of these kinases switched on. Because the mutation is in a stem cell, all myeloid lines can expand, and the cells still mature, unlike acute leukemia."
+    },
+    {
+     "type": "h",
+     "text": "CML and the Philadelphia chromosome"
+    },
+    {
+     "type": "p",
+     "text": "In chronic myeloid leukemia (CML), a reciprocal translocation, t(9;22)(q34;q11), moves the ABL1 gene from chromosome 9 into the BCR gene on chromosome 22. The shortened chromosome 22 is the Philadelphia chromosome, and it carries a BCR-ABL1 fusion gene that in CML usually encodes a 210 kDa protein. ABL1 is a normally tightly regulated tyrosine kinase. The BCR portion contributes a coiled-coil domain that makes the fusion protein oligomerize, so the kinase domains phosphorylate one another and stay active without any signal."
+    },
+    {
+     "type": "flow",
+     "title": "From t(9;22) to CML",
+     "steps": [
+      "t(9;22) joins BCR to ABL1 in a stem cell",
+      "BCR coiled-coil oligomerizes the fusion protein",
+      "ABL1 kinase autophosphorylates and stays active",
+      "RAS-MAPK, PI3K-AKT, and STAT5 signal continuously",
+      "Growth factor independent proliferation and less apoptosis",
+      "Granulocytes at all stages expand; marrow and spleen enlarge"
+     ],
+     "caption": "Additional mutations later block differentiation and cause blast crisis."
+    },
+    {
+     "type": "p",
+     "text": "The blood shows marked leukocytosis with granulocytes at every stage of maturation, prominent basophils and eosinophils, often thrombocytosis, and splenomegaly from extramedullary hematopoiesis. Low leukocyte alkaline phosphatase and the BCR-ABL1 fusion separate CML from a reactive leukemoid reaction. The disease depends on this single kinase, which is why an ATP-site inhibitor such as imatinib suppresses the clone; the same fusion, usually as a smaller 190 kDa protein, occurs in some acute lymphoblastic leukemias."
+    },
+    {
+     "type": "h",
+     "text": "Polycythemia vera and JAK2 V617F"
+    },
+    {
+     "type": "p",
+     "text": "JAK2 is the cytoplasmic tyrosine kinase attached to the erythropoietin, thrombopoietin (MPL), and G-CSF receptors. It has an active kinase domain (JH1) and an inactive pseudokinase domain (JH2) that restrains it. The V617F mutation, a valine to phenylalanine change in JH2, removes this restraint, so JAK2 phosphorylates STAT5 and activates downstream pathways with little or no erythropoietin. Erythroid progenitors become independent of, or hypersensitive to, the hormone."
+    },
+    {
+     "type": "p",
+     "text": "JAK2 V617F is present in about 95% of polycythemia vera, and most of the rest carry JAK2 exon 12 mutations; it is also found in about half of essential thrombocythemia and primary myelofibrosis. Red cell mass rises, often with granulocytes and platelets, while normal oxygen sensing in the kidney suppresses erythropoietin. A low serum erythropoietin therefore separates polycythemia vera from secondary polycythemia caused by hypoxia or an erythropoietin-secreting tumor. Increased blood viscosity and platelet activation cause thrombosis, headache, and erythromelalgia; basophil and mast cell histamine causes pruritus after warm bathing; and high cell turnover raises uric acid."
+    },
+    {
+     "type": "table",
+     "title": "CML and polycythemia vera compared",
+     "cols": [
+      "Feature",
+      "CML",
+      "Polycythemia vera"
+     ],
+     "rows": [
+      [
+       "Lesion",
+       "t(9;22) BCR-ABL1 fusion",
+       "JAK2 V617F point mutation"
+      ],
+      [
+       "Kinase",
+       "ABL1, activated by BCR oligomerization",
+       "JAK2, released from JH2 autoinhibition"
+      ],
+      [
+       "Dominant line",
+       "Granulocytes at all stages, basophilia",
+       "Red cells, often platelets and granulocytes"
+      ],
+      [
+       "Hormone level",
+       "Not a defining feature",
+       "Erythropoietin low"
+      ],
+      [
+       "Typical complications",
+       "Blast crisis",
+       "Thrombosis; late myelofibrosis or AML"
+      ]
+     ],
+     "caption": "Both are clonal stem cell disorders in which a constitutive kinase replaces growth factor control."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-HEME-06-01-C05",
+   "obj": "HE-6.5",
+   "title": "Translocations that deregulate MYC, BCL2, cyclin D1, and RARA",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "B cells deliberately break their own DNA. RAG enzymes cut and rejoin V, D, and J segments, and activation-induced cytidine deaminase (AID) starts the DNA lesions of class switching and somatic hypermutation. When these breaks are joined to a break on another chromosome, a translocation results. Many lymphoma translocations therefore involve the immunoglobulin heavy chain locus (IGH) on chromosome 14q32."
+    },
+    {
+     "type": "p",
+     "text": "Translocations act in two ways. In enhancer hijacking, an intact gene moves next to the IGH enhancer, which is highly active in B cells, and is overexpressed; the protein itself is normal. In a gene fusion, the breaks fall within two genes and create a new chimeric protein, as with BCR-ABL1 and PML-RARA."
+    },
+    {
+     "type": "table",
+     "title": "Classic translocations and their consequences",
+     "cols": [
+      "Translocation",
+      "Tumor",
+      "Gene and mechanism",
+      "Normal role of the gene",
+      "Behavior"
+     ],
+     "rows": [
+      [
+       "t(8;14)(q24;q32)",
+       "Burkitt lymphoma",
+       "MYC driven by IGH enhancer",
+       "Transcription factor for growth, ribosome synthesis, and glycolysis",
+       "Very fast proliferation, nearly 100% of cells cycling; starry sky from macrophages clearing apoptotic cells"
+      ],
+      [
+       "t(14;18)(q32;q21)",
+       "Follicular lymphoma",
+       "BCL2 driven by IGH enhancer",
+       "Blocks mitochondrial apoptosis",
+       "Cells accumulate slowly; indolent; BCL2 protein in germinal centers, unlike reactive follicles"
+      ],
+      [
+       "t(11;14)(q13;q32)",
+       "Mantle cell lymphoma",
+       "CCND1 (cyclin D1) driven by IGH enhancer",
+       "Activates CDK4 and CDK6 to phosphorylate RB",
+       "Cells pass the G1 checkpoint; usually CD5 positive"
+      ],
+      [
+       "t(15;17)(q24;q21)",
+       "Acute promyelocytic leukemia",
+       "PML-RARA fusion protein",
+       "RARA is the retinoic acid receptor that drives myeloid differentiation genes",
+       "Maturation arrest at promyelocytes; Auer rods; DIC"
+      ]
+     ],
+     "caption": "Three are enhancer hijacking in B cells; the fourth is a fusion protein in a myeloid cell. In Burkitt variants, MYC joins the kappa (chromosome 2) or lambda (chromosome 22) light chain locus instead."
+    },
+    {
+     "type": "p",
+     "text": "The three B cell lymphomas show how gene function sets pace. MYC drives cells into continuous growth and division, so Burkitt lymphoma doubles rapidly. BCL2 does not increase division at all; it prevents the apoptosis that normally removes germinal center B cells, so follicular lymphoma grows slowly by accumulation, and further mutations, often in MYC, can transform it to an aggressive lymphoma. Cyclin D1 sits between the two, pushing cells from G1 into S phase by inactivating RB and releasing E2F."
+    },
+    {
+     "type": "p",
+     "text": "In acute promyelocytic leukemia, PML-RARA binds retinoic acid response elements and recruits corepressor and histone deacetylase complexes that physiologic retinoic acid cannot release, so promyelocytes cannot mature. Pharmacologic all-trans retinoic acid releases the corepressors and degrades the fusion protein, and the cells differentiate, which confirms the mechanism. The abnormal promyelocytes release tissue factor and express annexin II, which promotes fibrinolysis, explaining the disseminated intravascular coagulation that makes this leukemia dangerous at presentation."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-HEME-06-01-C06",
+   "obj": "HE-6.6",
+   "title": "Fanconi anemia: failed crosslink repair and marrow failure",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "An interstrand crosslink covalently ties the two DNA strands together, so the helix cannot be unwound for replication or transcription. Crosslinks come from chemotherapy agents such as mitomycin C, but also from normal metabolism, mainly reactive aldehydes such as formaldehyde and acetaldehyde. The Fanconi anemia pathway repairs them."
+    },
+    {
+     "type": "p",
+     "text": "More than 20 FANC genes are known. Most are inherited as autosomal recessive traits; FANCB is X-linked, and a rare form (RAD51) is dominant. When a replication fork stalls at a crosslink, the Fanconi core complex monoubiquitinates the FANCD2 and FANCI pair. This recruits nucleases that cut the crosslink out of one strand, translesion polymerases that copy past the lesion, and homologous recombination proteins that rebuild the broken fork. Several of these downstream proteins are breast cancer genes: FANCD1 is BRCA2 and FANCN is PALB2."
+    },
+    {
+     "type": "flow",
+     "title": "From an unrepaired crosslink to marrow failure and cancer",
+     "steps": [
+      "Aldehydes create DNA interstrand crosslinks",
+      "Replication forks stall at the crosslink",
+      "No FANCD2 monoubiquitination, so repair fails",
+      "Breaks persist; p53 drives arrest or apoptosis",
+      "Hematopoietic stem cells are progressively lost",
+      "Surviving cells accumulate mutations: MDS and AML"
+     ],
+     "caption": "The same genomic instability produces marrow failure, chromosome breakage, and cancer."
+    },
+    {
+     "type": "p",
+     "text": "Hematopoietic stem cells divide throughout life and are especially sensitive to aldehyde damage, so the marrow fails progressively, usually in childhood. Macrocytosis and raised HbF often appear before the counts fall, reflecting stressed erythropoiesis, and pancytopenia follows. Defective repair during embryonic growth explains the developmental anomalies: short stature, absent or hypoplastic thumbs and radii (radial ray defects), cafe-au-lait spots and other pigment changes, microcephaly, and kidney malformations. A substantial minority of patients have no physical anomalies, so normal appearance does not exclude the disease."
+    },
+    {
+     "type": "p",
+     "text": "Diagnosis rests on the defect itself: cultured lymphocytes exposed to diepoxybutane or mitomycin C show many more chromosome breaks and radial figures than normal cells. Persistent DNA damage also selects for cells that escape control, so patients have a very high risk of myelodysplastic syndrome and AML, and of squamous cell carcinoma of the head and neck and anogenital region in young adulthood."
+    },
+    {
+     "type": "table",
+     "title": "Fanconi anemia and related congenital conditions",
+     "cols": [
+      "Condition",
+      "Defect",
+      "Blood findings",
+      "Limb findings"
+     ],
+     "rows": [
+      [
+       "Fanconi anemia",
+       "Interstrand crosslink repair",
+       "Progressive pancytopenia; MDS and AML",
+       "Absent or hypoplastic thumbs and radii"
+      ],
+      [
+       "Thrombocytopenia absent radius (TAR)",
+       "RBM8A",
+       "Thrombocytopenia only, present at birth and improving with age",
+       "Absent radii with thumbs present"
+      ],
+      [
+       "Diamond-Blackfan anemia",
+       "Ribosomal protein genes (often RPS19)",
+       "Pure red cell aplasia, macrocytic",
+       "Thumb anomalies, including triphalangeal thumbs"
+      ]
+     ],
+     "caption": "Thumbs present with absent radii suggests TAR; a red cell-only failure suggests Diamond-Blackfan; failure of all lines with chromosome fragility indicates Fanconi anemia."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-HEME-06-01-C07",
+   "obj": "HE-6.7",
+   "title": "Inherited thrombophilia: factor V Leiden and prothrombin G20210A",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Thrombin generation is normally limited by its own feedback. Thrombin binds thrombomodulin on intact endothelium and activates protein C. Activated protein C (APC), with protein S as cofactor, cleaves and inactivates factor Va and factor VIIIa, shutting down the prothrombinase and tenase complexes. Inherited thrombophilia results either from a procoagulant that resists this control or is overproduced (gain of function) or from loss of an anticoagulant."
+    },
+    {
+     "type": "p",
+     "text": "Factor V Leiden is a single base change (G1691A) that replaces arginine 506 with glutamine. Arg506 is the first site APC cleaves in factor Va, so Leiden Va is inactivated about ten times more slowly, and prothrombinase keeps making thrombin. Intact factor V cleaved by APC also helps APC inactivate factor VIIIa, a function the Leiden protein performs poorly. Factor V Leiden is the most common inherited thrombophilia in people of European ancestry, carried by about 5%. Heterozygotes have a several-fold increase in venous thrombosis risk, and homozygotes a much higher one."
+    },
+    {
+     "type": "flow",
+     "title": "How factor V Leiden prolongs thrombin generation",
+     "steps": [
+      "Thrombin and thrombomodulin activate protein C",
+      "APC and protein S attack factor Va",
+      "Arg506 is replaced, so the first cleavage fails",
+      "Factor Va persists in the prothrombinase complex",
+      "More thrombin and fibrin form at each stimulus",
+      "Venous thrombosis risk rises several-fold"
+     ],
+     "caption": "The protein clots normally; it simply resists being turned off."
+    },
+    {
+     "type": "p",
+     "text": "Prothrombin G20210A is a G to A change in the 3' untranslated region of the prothrombin gene. It does not alter the protein. It makes processing of the mRNA 3' end more efficient, so more mRNA accumulates and plasma prothrombin is about 30% higher, giving more substrate for thrombin generation. It is found in about 2% of people of European ancestry and roughly doubles to triples venous thrombosis risk."
+    },
+    {
+     "type": "table",
+     "title": "Inherited thrombophilias by mechanism",
+     "cols": [
+      "Condition",
+      "Mechanism",
+      "Laboratory clue"
+     ],
+     "rows": [
+      [
+       "Factor V Leiden",
+       "Gain of function: Va resists APC",
+       "Abnormal APC resistance assay; genetic test"
+      ],
+      [
+       "Prothrombin G20210A",
+       "Gain of function: more prothrombin",
+       "Genetic test; PT normal"
+      ],
+      [
+       "Protein C or S deficiency",
+       "Loss of anticoagulant: Va and VIIIa not inactivated",
+       "Low protein C or S activity"
+      ],
+      [
+       "Antithrombin deficiency",
+       "Loss of anticoagulant: thrombin and Xa not neutralized",
+       "Low antithrombin activity"
+      ]
+     ],
+     "caption": "All increase venous more than arterial thrombosis; the two gain-of-function variants are far more common than the deficiencies."
+    },
+    {
+     "type": "p",
+     "text": "Both variants add procoagulant activity rather than remove a factor, so the PT and aPTT, which detect factor deficiencies, are normal. Thrombosis is mainly venous: deep vein thrombosis, pulmonary embolism, and less common sites such as cerebral veins. Because these variants add a constant risk, a clot usually needs a second hit from Virchow triad. Estrogen and pregnancy raise clotting factor levels and cause acquired APC resistance, and surgery and immobility add stasis and endothelial injury, so the risks multiply rather than add."
+    },
+    {
+     "type": "stop",
+     "predict": "A 24-year-old woman develops a deep vein thrombosis three months after starting an estrogen-containing contraceptive. Her PT and aPTT are normal, and adding APC to her plasma prolongs the aPTT much less than in control plasma. What is the likely defect, and why are routine clotting times normal?",
+     "explain": "Factor V Leiden: her factor Va resists APC, so APC cannot prolong clotting normally. The PT and aPTT measure how fast clotting proceeds when factors are present, and none is missing, so they are normal; estrogen added a second hit.",
+     "check": "The factor V Leiden paragraph and the final paragraph on second hits."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Molecular biology links every disorder in this chapter. A missense change alters protein shape (HbS, factor V Leiden, JAK2 V617F), deletions and splice or promoter mutations change gene dosage (alpha and beta thalassemia), a noncoding change raises expression (prothrombin G20210A), and translocations either hijack an enhancer or create a fusion kinase or transcription factor. Immunology explains why IGH is so often involved, since B cells break their own DNA during V(D)J recombination and class switching, and DNA repair biology connects Fanconi anemia to BRCA2 and to cancer predisposition."
+  },
+  {
+   "type": "p",
+   "text": "Physiology and pathology then explain the presentation. Sickling follows oxygen transport rules (Bohr effect, 2,3-BPG, transit time), thalassemia severity follows chain balance, and thrombophilia follows the protein C feedback loop and Virchow triad. Population genetics adds context: sickle trait, thalassemia, and G6PD deficiency are common where falciparum malaria was endemic because carriers resist severe malaria. Genotype does not fully predict phenotype, since HbF level, coinherited alpha thalassemia, X inactivation, penetrance, and environmental triggers all modify severity."
+  }
+ ],
+ "summary": [
+  "HbS has valine for glutamate at beta 6; the hydrophobic patch binds a neighboring deoxy tetramer, so deoxy HbS polymerizes and cells sickle.",
+  "Hypoxia, acidosis, high 2,3-BPG, dehydration, and stasis increase sickling; HbF and coinherited alpha thalassemia decrease it.",
+  "Sickle trait cells hold about 40% HbS and sickle mainly in the hypoxic, hypertonic, acidic renal medulla.",
+  "Alpha thalassemia is usually deletional: one gene lost is silent, two trait, three HbH disease (beta4), four Hb Barts hydrops (gamma4); cis deletions allow hydrops in offspring.",
+  "Beta thalassemia is usually caused by point mutations (promoter, splice site, nonsense); minor has HbA2 above about 3.5%, and major causes ineffective erythropoiesis from precipitated alpha chains after about 6 months.",
+  "Hemophilia A and B and G6PD deficiency are X-linked recessive; sickle cell disease and thalassemias autosomal recessive; most hereditary spherocytosis and von Willebrand disease autosomal dominant.",
+  "An unaffected sibling of a child with an autosomal recessive disease has a 2/3 chance of being a carrier.",
+  "BCR-ABL1 from t(9;22) is an oligomerized, constitutive tyrosine kinase in CML; JAK2 V617F releases JAK2 from its pseudokinase brake in polycythemia vera, with low erythropoietin.",
+  "IGH translocations overexpress MYC (Burkitt, rapid), BCL2 (follicular, blocked apoptosis), or cyclin D1 (mantle cell); PML-RARA blocks differentiation in APL.",
+  "Fanconi anemia is failed crosslink repair causing marrow failure, radial ray defects, chromosome fragility, and AML; factor V Leiden resists APC and prothrombin G20210A raises prothrombin, both with normal PT and aPTT."
+ ],
+ "sources": [
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Diseases of White Blood Cells, Lymph Nodes, Spleen, and Thymus"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Red Blood Cell and Bleeding Disorders"
+  },
+  {
+   "book": "Lippincott Illustrated Reviews: Biochemistry",
+   "where": "Globular proteins: hemoglobinopathies"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Red Blood Cells, Anemia, and Polycythemia; Hemostasis and Blood Coagulation"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Blood Disorders; Neoplasia"
+  }
+ ],
+ "verify": [
+  "Relative risks for factor V Leiden (heterozygous and homozygous) and prothrombin G20210A, and their carrier frequencies, vary between studies; values here are approximate.",
+  "The proportion of polycythemia vera, essential thrombocythemia, and primary myelofibrosis carrying JAK2 V617F differs slightly between sources (about 95% and about 50 to 60%).",
+  "The number of known FANC genes keeps growing (over 20); confirm the figure and any named genes NABNE expects.",
+  "Percentages for HbF at birth, HbS in sickle trait, and the HbA2 cutoff for beta thalassemia trait vary slightly between laboratories and texts.",
+  "Leukocyte alkaline phosphatase is now rarely measured; confirm whether NABNE still tests it as a CML versus leukemoid reaction distinction.",
+  "Imatinib and all-trans retinoic acid appear only to explain mechanism; confirm Part I expects no treatment detail for CML or APL."
+ ]
+}

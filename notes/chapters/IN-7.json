@@ -1,0 +1,658 @@
+{
+ "unit": "IN-7",
+ "chapter_id": "NPLEX-P1-INTG-07",
+ "topic_id": "NPLEX-P1-INTG-07-01",
+ "title": "Skin Genetics",
+ "subject": "Integumentary System (INTG)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "Skin is the organ where genetics can be seen. Every division of the basal layer copies DNA that ultraviolet light has already damaged, so the genes that govern the cell cycle, DNA repair, and growth signaling determine which keratinocytes survive and which become tumors. Inherited defects in the same pathways, and in the structural and pigment genes that build the barrier, produce disorders recognizable on the skin surface. This chapter covers the G1 to S checkpoint, nucleotide excision repair, the driver mutations behind basal cell carcinoma and melanoma, pedigree reasoning and recurrence risk, the neurocutaneous syndromes, the barrier genes of ichthyosis, and the melanocortin switch that sets pigment type.",
+  "prerequisites": [
+   "Epidermal layers, keratinocyte maturation, and the keratohyalin granules of the granular layer (IN-1)",
+   "Melanocyte biology and the tyrosinase pathway from tyrosine to eumelanin (IN-5)",
+   "Ultraviolet photochemistry and reactive oxygen species in skin (IN-6)",
+   "Mendelian inheritance patterns, Punnett squares, and the two-hit model of tumor suppressor loss",
+   "Receptor signaling through Gs, cAMP, protein kinase A, and the RAS to MAPK cascade"
+  ],
+  "connections": [
+   {
+    "to": "Cell adaptation, injury, and neoplasia (IN-8)",
+    "how": "The checkpoint and repair genes taught here are the molecular basis of the dysplasia to carcinoma sequence described there as tissue change."
+   },
+   {
+    "to": "Malignant and premalignant skin lesions (IN-13-F, IN-13-G)",
+    "how": "Each gene in this chapter predicts a lesion's histology, distribution on sun-exposed skin, and behavior, which is how board questions connect a mutation to a biopsy description."
+   },
+   {
+    "to": "Neurology and neuroembryology",
+    "how": "NF1 and tuberous sclerosis affect neural crest and neuroepithelial derivatives together, so the same mutation yields skin macules, nerve sheath tumors, cortical tubers, and seizures."
+   },
+   {
+    "to": "Endocrine and reproductive physiology",
+    "how": "Placental steroid sulfatase is the same enzyme missing in X-linked ichthyosis, so the deficiency lowers maternal estriol during the pregnancy that carries an affected male."
+   },
+   {
+    "to": "Immunology and allergy",
+    "how": "Filaggrin loss leaves a leaky barrier that admits allergens, which starts the sensitization underlying atopic dermatitis and the rest of the atopic march."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Restriction point",
+    "def": "The point late in G1 beyond which a cell completes the division cycle without further growth factor stimulation."
+   },
+   {
+    "term": "Cyclin-dependent kinase (CDK)",
+    "def": "A kinase that is inactive alone and becomes active when bound by its cyclin partner, then phosphorylates the substrates that move the cycle forward."
+   },
+   {
+    "term": "Tumor suppressor gene",
+    "def": "A gene whose normal product restrains proliferation or preserves genomic integrity, so both copies must be lost before function fails."
+   },
+   {
+    "term": "Oncogene",
+    "def": "A mutated gene whose product signals growth constitutively, so a single gain-of-function allele is enough to alter cell behavior."
+   },
+   {
+    "term": "Pyrimidine dimer",
+    "def": "A covalent link between two adjacent pyrimidines on the same DNA strand formed directly by ultraviolet B photons, most often a cyclobutane ring between two thymines."
+   },
+   {
+    "term": "UV-signature mutation",
+    "def": "A C to T change, or a tandem CC to TT change, at a site of two adjacent pyrimidines, the fingerprint of an unrepaired ultraviolet lesion."
+   },
+   {
+    "term": "Nucleotide excision repair",
+    "def": "The repair pathway that recognizes bulky helix-distorting lesions, excises a short oligonucleotide containing the damage, and resynthesizes the gap."
+   },
+   {
+    "term": "Oncogene-induced senescence",
+    "def": "Permanent growth arrest triggered when a strong growth signal activates checkpoint proteins, the reason a BRAF-mutant nevus stops growing."
+   },
+   {
+    "term": "Hamartoma",
+    "def": "A benign overgrowth of tissue native to the site, disorganized in architecture but not invasive."
+   },
+   {
+    "term": "Recurrence risk",
+    "def": "The probability that a specified future pregnancy of a given couple produces an affected child."
+   },
+   {
+    "term": "Natural moisturizing factor",
+    "def": "The mixture of amino acids and their derivatives, including urocanic acid and pyrrolidone carboxylic acid, produced by filaggrin breakdown, which holds water in the stratum corneum."
+   },
+   {
+    "term": "Eumelanin and pheomelanin",
+    "def": "The two melanin types: eumelanin is brown to black and absorbs ultraviolet light well, while pheomelanin is red to yellow, contains cysteine, and absorbs poorly."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-INTG-07-01-C01",
+   "obj": "IN-7.1",
+   "title": "The G1 to S checkpoint and UV-signature TP53 mutation",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "A keratinocyte decides whether to divide late in G1, at the restriction point. Growth factor signaling induces cyclin D, which binds CDK4 and CDK6 and phosphorylates the retinoblastoma protein (Rb). Unphosphorylated Rb holds the transcription factor E2F inactive, so the cell stays in G1. Partial phosphorylation releases enough E2F to transcribe cyclin E, and cyclin E with CDK2 completes the job. Because E2F drives its own activating cyclin, commitment to S phase becomes irreversible."
+    },
+    {
+     "type": "p",
+     "text": "Two brakes sit on this switch. The CDK inhibitor p16, encoded by CDKN2A, binds CDK4 and CDK6 and keeps Rb unphosphorylated. The second brake responds to damage: ultraviolet lesions stall replication and transcription, activating the kinases ATR and ATM, which phosphorylate p53 and release it from MDM2-mediated degradation. Accumulated p53 transcribes CDKN1A, whose product p21 inhibits cyclin-CDK complexes broadly and arrests the cell in G1 long enough for repair. If damage is excessive, p53 instead transcribes BAX and PUMA and the cell dies by apoptosis, which is what the apoptotic sunburn cells of an acute burn represent."
+    },
+    {
+     "type": "table",
+     "title": "Control of the G1 to S checkpoint",
+     "cols": [
+      "Protein",
+      "Normal action",
+      "Effect of loss or gain"
+     ],
+     "rows": [
+      [
+       "Cyclin D with CDK4 and CDK6",
+       "Phosphorylates Rb, releasing E2F",
+       "Gain speeds entry into S phase"
+      ],
+      [
+       "Rb",
+       "Sequesters E2F in G1",
+       "Loss removes the restriction point"
+      ],
+      [
+       "p16 (CDKN2A)",
+       "Inhibits CDK4 and CDK6",
+       "Loss leaves the brake off"
+      ],
+      [
+       "p53 (TP53)",
+       "Induces p21 or apoptosis after damage",
+       "Loss lets damaged cells replicate and survive"
+      ],
+      [
+       "p21 (CDKN1A)",
+       "Inhibits cyclin-CDK complexes",
+       "Loss shortens the time for repair"
+      ]
+     ],
+     "caption": "The cyclins push and p16, p53, and p21 restrain; skin tumors arise when a push is stuck on or a restraint is lost."
+    },
+    {
+     "type": "p",
+     "text": "Ultraviolet B photons, roughly 290 to 320 nm, are absorbed directly by DNA and fuse adjacent pyrimidines into cyclobutane dimers and related photoproducts. Cytosine inside such a dimer deaminates far faster than normal, becoming uracil or, if it was methylated, thymine. A polymerase reading the altered template inserts adenine, so replication fixes the change as a C to T substitution, or CC to TT when both members of the dimer were cytosines. That is the UV signature, and its presence in a tumor identifies sunlight as the mutagen. Ultraviolet A penetrates deeper but damages mainly through reactive oxygen species."
+    },
+    {
+     "type": "p",
+     "text": "TP53 is among the earliest genes mutated in sun-exposed epidermis, and UV-signature mutations in it appear in clinically normal sun-damaged skin, in actinic keratosis, and in cutaneous squamous cell carcinoma. Without p53, a keratinocyte carrying unrepaired damage neither arrests nor dies, so it survives further sun exposure and accumulates mutations while its neighbors are removed. The surviving clone expands laterally into a field of atypia, seen clinically as rough scaly patches on the face, scalp, ears, and forearms and histologically as atypia confined to the lower epidermis. Further mutations, often in CDKN2A, NOTCH1, or RAS, make the atypia full thickness and then invasive."
+    },
+    {
+     "type": "flow",
+     "title": "From ultraviolet photon to squamous cell carcinoma",
+     "steps": [
+      "UVB fuses adjacent pyrimidines into a cyclobutane dimer",
+      "Cytosine in the dimer deaminates before repair",
+      "Replication fixes the change as a C to T mutation",
+      "TP53 is inactivated; arrest and apoptosis are lost",
+      "The mutant keratinocyte clone survives further sun and expands",
+      "Field atypia appears as actinic keratosis",
+      "Added mutations give full-thickness atypia, then invasion"
+     ],
+     "caption": "Each step needs the previous one, which is why the sequence takes years of cumulative exposure rather than one burn."
+    },
+    {
+     "type": "stop",
+     "predict": "Two keratinocytes receive identical ultraviolet damage, one with intact TP53 and one without. Why does only the second found a tumor clone?",
+     "explain": "The first arrests in G1 through p21 and repairs the lesion, or dies by apoptosis, so its damaged genome never reaches a daughter cell. The second replicates past the lesion, survives, and passes every new mutation on.",
+     "check": "The checkpoint table and the explanation of the UV signature above it."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-INTG-07-01-C02",
+   "obj": "IN-7.2",
+   "title": "Nucleotide excision repair and xeroderma pigmentosum",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "A pyrimidine dimer is not a wrong base but a physical distortion of the helix, so neither mismatch repair nor base excision repair can handle it. Nucleotide excision repair is the pathway for bulky helix-distorting lesions. It works in two modes that differ only in how the lesion is found: global genome repair, in which the XPC complex surveys the whole genome, and transcription-coupled repair, in which RNA polymerase II stalling on the transcribed strand recruits the CSA and CSB proteins. Both converge on the same machinery."
+    },
+    {
+     "type": "flow",
+     "title": "Steps of nucleotide excision repair",
+     "steps": [
+      "XPC complex or stalled RNA polymerase II detects the lesion",
+      "TFIIH, with the XPB and XPD helicases, opens the duplex",
+      "XPA verifies the damage and stabilizes the opened bubble",
+      "XPG cuts on one side and XPF with ERCC1 on the other",
+      "A 25 to 30 base oligonucleotide carrying the lesion is released",
+      "DNA polymerase fills the gap using the intact strand as template",
+      "DNA ligase seals the remaining nick"
+     ],
+     "caption": "Repair is error free because the undamaged complementary strand supplies the template; the protein names correspond to the XP complementation groups."
+    },
+    {
+     "type": "p",
+     "text": "Xeroderma pigmentosum is autosomal recessive loss of one of these components, so carriers are clinically normal and affected children inherit a mutant allele from each parent. The consequence is cumulative. Every sun exposure leaves dimers that persist in every cell of the epidermis, and when replication forks reach them the cell must use error-prone translesion polymerases, so UV-signature mutations accumulate far faster than normal. The resulting mutation rate affects all exposed cell types, which is why xeroderma pigmentosum produces basal cell carcinoma, squamous cell carcinoma, and melanoma together rather than one tumor type."
+    },
+    {
+     "type": "p",
+     "text": "The clinical picture follows the mechanism in sequence. Infants burn severely or blister after minimal sun. Freckle-like pigmented macules appear on exposed skin in the first years of life, which is abnormal at that age and in that density, and they alternate with hypopigmented atrophic areas and telangiectasia, giving the poikilodermatous appearance that names the disorder. Dry skin follows chronic epidermal damage. Skin cancers appear in childhood, commonly before age 10, and the age of onset is advanced by roughly fifty years compared with the general population. The cornea and conjunctiva are affected because they are exposed and unpigmented, giving photophobia, keratitis, and scarring. A subset of complementation groups, including XPA and XPD, also develop progressive neurologic degeneration with hearing loss, ataxia, and cognitive decline, attributed to failure of transcription-coupled repair of oxidative lesions in long-lived neurons that cannot be replaced."
+    },
+    {
+     "type": "table",
+     "title": "Repair pathways and the diseases that follow their loss",
+     "cols": [
+      "Pathway",
+      "Lesion repaired",
+      "Representative disease"
+     ],
+     "rows": [
+      [
+       "Nucleotide excision repair",
+       "Bulky distortions: pyrimidine dimers, chemical adducts",
+       "Xeroderma pigmentosum; Cockayne syndrome and trichothiodystrophy from other defects in the same proteins"
+      ],
+      [
+       "Base excision repair",
+       "Single damaged or deaminated bases, oxidized guanine",
+       "MUTYH-associated polyposis"
+      ],
+      [
+       "Mismatch repair",
+       "Base mispairs and small loops left by replication",
+       "Lynch syndrome"
+      ],
+      [
+       "Homologous recombination",
+       "Double-strand breaks",
+       "Hereditary breast and ovarian cancer (BRCA1, BRCA2)"
+      ],
+      [
+       "Nonhomologous end joining",
+       "Double-strand breaks, including those in receptor gene rearrangement",
+       "Ataxia-telangiectasia and related radiosensitivity syndromes"
+      ]
+     ],
+     "caption": "Matching the lesion to its pathway predicts the tissue and the tumor: only nucleotide excision repair removes ultraviolet dimers, so only its loss gives childhood skin cancer."
+    },
+    {
+     "type": "p",
+     "text": "Two contrasts clarify the mechanism. In albinism melanin synthesis fails but repair is intact, so burning and skin cancer risk rise moderately and tumors appear in adulthood. In xeroderma pigmentosum pigmentation is present, even increased, but the damage that does occur is never repaired, which is far more mutagenic. The variant form of the disease is instructive in the other direction: nucleotide excision repair is normal and the defect lies in polymerase eta, the translesion polymerase that copies accurately past a dimer, so the phenotype is milder and later in onset."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-INTG-07-01-C03",
+   "obj": "IN-7.3",
+   "title": "Driver mutations in basal cell carcinoma, nevi, and melanoma",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Each common skin tumor is held open by a specific stuck signal. Basal cell carcinoma depends on the hedgehog pathway, in which the receptor PTCH1 inhibits the transducer Smoothened until hedgehog ligand relieves that inhibition. When both PTCH1 alleles are lost, Smoothened signals continuously, GLI transcription factors enter the nucleus, and basal keratinocytes proliferate without a ligand. A minority of tumors instead carry activating Smoothened mutations, which gives the same result and shows that the pathway, not the particular gene, is what matters."
+    },
+    {
+     "type": "flow",
+     "title": "Hedgehog signaling in basal cell carcinoma",
+     "steps": [
+      "Both PTCH1 alleles are lost, somatically or germline plus one hit",
+      "Smoothened is released from PTCH1 inhibition",
+      "Suppressor of fused no longer holds GLI in the cytoplasm",
+      "GLI enters the nucleus and transcribes proliferation genes",
+      "Basal cells proliferate as nests with peripheral palisading"
+     ],
+     "caption": "Loss of an inhibitory receptor, not gain of a ligand, is what switches the pathway on."
+    },
+    {
+     "type": "p",
+     "text": "Gorlin syndrome, also called nevoid basal cell carcinoma syndrome, is a germline PTCH1 mutation inherited in an autosomal dominant pattern. Because every cell already carries one mutant allele, a single somatic hit completes the loss, so basal cell carcinomas appear by the second and third decades, in large numbers, and on skin that is not heavily sun exposed. The syndrome also brings odontogenic keratocysts of the jaw, palmar and plantar pits, calcification of the falx cerebri, macrocephaly, rib and vertebral anomalies, and a raised risk of medulloblastoma, which reflects the role of hedgehog signaling in cerebellar development."
+    },
+    {
+     "type": "p",
+     "text": "Melanocytic lesions follow the RAS to MAPK cascade. The BRAF V600E substitution locks the kinase in its active conformation and drives MEK and ERK without upstream input. It is present in most acquired nevi, which makes an important point: a single activating oncogene is not sufficient for cancer. Strong continuous ERK signaling induces p16 and triggers oncogene-induced senescence, so the melanocytes stop dividing and the lesion stays a small stable nevus for decades. Melanoma requires escape from that arrest, most often through CDKN2A loss, then TERT promoter mutations that restore telomerase, with PTEN or TP53 loss in advanced lesions. NRAS mutations activate the same cascade one step upstream, accounting for a smaller share of melanomas and for many large congenital nevi, and the two are essentially mutually exclusive in one tumor because either alone saturates the pathway."
+    },
+    {
+     "type": "table",
+     "title": "Drivers, pathways, and the tumors they produce",
+     "cols": [
+      "Gene",
+      "Pathway effect",
+      "Tumor association",
+      "Class"
+     ],
+     "rows": [
+      [
+       "PTCH1",
+       "Loss frees Smoothened; GLI stays on",
+       "Basal cell carcinoma; Gorlin syndrome if germline",
+       "Suppressor, two hits"
+      ],
+      [
+       "TP53",
+       "Loss removes G1 arrest and apoptosis",
+       "Actinic keratosis, squamous cell carcinoma",
+       "Suppressor, two hits"
+      ],
+      [
+       "BRAF V600E",
+       "Constitutive MEK and ERK activity",
+       "Most acquired nevi; about half of melanomas",
+       "Oncogene, one hit"
+      ],
+      [
+       "NRAS",
+       "GTP-locked RAS, same cascade",
+       "A minority of melanomas; large congenital nevi",
+       "Oncogene, one hit"
+      ],
+      [
+       "CDKN2A (p16)",
+       "Loss releases CDK4 and CDK6 from restraint",
+       "Familial melanoma if germline; nevus progression if somatic",
+       "Suppressor, two hits"
+      ],
+      [
+       "KIT",
+       "Activated receptor tyrosine kinase",
+       "Acral and mucosal melanoma",
+       "Oncogene, one hit"
+      ]
+     ],
+     "caption": "Oncogenes act as a stuck accelerator and need one allele; tumor suppressors are brakes and need both alleles lost, which a germline mutation half completes in every cell."
+    },
+    {
+     "type": "p",
+     "text": "Germline CDKN2A mutation is the commonest cause of familial melanoma. The locus encodes two proteins from overlapping reading frames: p16, which inhibits CDK4 and CDK6, and p14ARF, which stabilizes p53 by inhibiting MDM2, so one mutation can disable both the Rb arm and the p53 arm of checkpoint control. Carriers show many clinically atypical nevi, develop melanoma young and often at more than one site, and carry a raised risk of pancreatic adenocarcinoma, which is why melanoma plus pancreatic cancer in a family suggests this syndrome. Rare families instead carry an activating CDK4 mutation at the site where p16 would bind, reaching the same phenotype from the opposite direction."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-INTG-07-01-C04",
+   "obj": "IN-7.4",
+   "title": "Reading pedigrees of skin disorders and calculating recurrence risk",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "A pedigree is read by asking how many working copies of the gene a person needs. In an autosomal dominant disorder one mutant allele is enough, so the trait appears in every generation, affects both sexes about equally, and can pass from father to son. The risk to each child of an affected heterozygote is one in two, independent of earlier outcomes. NF1, tuberous sclerosis, and epidermolysis bullosa simplex, which follows dominant negative mutations in keratin 5 or keratin 14, all behave this way."
+    },
+    {
+     "type": "p",
+     "text": "Two features of dominant disorders complicate the pedigree. A high rate of new mutation means the first affected person often has unaffected parents, so about half of NF1 cases and most tuberous sclerosis cases are sporadic, which does not change the 50 percent risk to that person's own children. Variable expressivity means severity differs widely within one family, so a parent may be recognized as affected only on careful examination."
+    },
+    {
+     "type": "p",
+     "text": "In an autosomal recessive disorder both alleles must be mutant, as in oculocutaneous albinism and xeroderma pigmentosum. Carriers are unaffected, so the trait skips generations and appears in siblings rather than parents, and consanguinity raises the chance that both parents carry the same rare allele. One derived figure is worth memorizing: an unaffected sibling of an affected child cannot be homozygous mutant, so two of the three remaining genotypes are carrier, giving a risk of two in three."
+    },
+    {
+     "type": "p",
+     "text": "X-linked recessive disorders such as X-linked ichthyosis affect males almost exclusively, because a male has one X chromosome and no second copy to compensate. There is no male to male transmission, since an affected father gives his sons a Y, but he gives his X to every daughter, so all his daughters are obligate carriers. Affected males therefore appear in a pattern that travels through unaffected women, classically as affected maternal uncles."
+    },
+    {
+     "type": "table",
+     "title": "Inheritance patterns and recurrence risk in skin disease",
+     "cols": [
+      "Pattern",
+      "Skin examples",
+      "Parental genotypes",
+      "Risk for each pregnancy"
+     ],
+     "rows": [
+      [
+       "Autosomal dominant",
+       "NF1, tuberous sclerosis, epidermolysis bullosa simplex, Gorlin syndrome",
+       "One affected heterozygote, one unaffected",
+       "50 percent affected, either sex"
+      ],
+      [
+       "Autosomal recessive",
+       "Albinism, xeroderma pigmentosum",
+       "Both unaffected carriers",
+       "25 percent affected, 50 percent carriers"
+      ],
+      [
+       "Autosomal recessive",
+       "Albinism, xeroderma pigmentosum",
+       "One affected, one carrier",
+       "50 percent affected, 50 percent carriers"
+      ],
+      [
+       "X-linked recessive",
+       "X-linked ichthyosis",
+       "Carrier mother, unaffected father",
+       "Half of sons affected, half of daughters carriers"
+      ],
+      [
+       "X-linked recessive",
+       "X-linked ichthyosis",
+       "Affected father, noncarrier mother",
+       "No affected children; all daughters carriers"
+      ]
+     ],
+     "caption": "The pattern names the genotypes, and the genotypes give the risk; the risk is the same for every pregnancy regardless of earlier children."
+    },
+    {
+     "type": "example",
+     "title": "Carrier risk for the healthy sibling of a child with xeroderma pigmentosum",
+     "text": "A couple has a son with xeroderma pigmentosum and a healthy daughter. Both parents must be carriers, so each child had a 1 in 4 chance of being affected, 1 in 2 of being a carrier, and 1 in 4 of inheriting two normal alleles. Being unaffected eliminates the first outcome, leaving three equally likely genotypes of which two are carrier, so the daughter's carrier risk is 2 in 3. If her partner comes from a population in which 1 person in 300 carries a mutant allele in the same gene, the chance of an affected child is 2 divided by 3, times 1 divided by 300, times 1 divided by 4, or about 1 in 1,800."
+    },
+    {
+     "type": "stop",
+     "predict": "A man with X-linked ichthyosis and an unrelated woman have two sons and two daughters. How many are affected, and how many can pass the condition on?",
+     "explain": "None of the four is affected. Each son received his father's Y and his mother's normal X, so he cannot transmit the allele. Each daughter received her father's mutant X and her mother's normal X, so both are unaffected obligate carriers who will pass the allele to half of their children.",
+     "check": "The X-linked rows of the recurrence risk table."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-INTG-07-01-C05",
+   "obj": "IN-7.5",
+   "title": "Neurofibromatosis type 1 and tuberous sclerosis: losing a brake on growth signaling",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Both neurocutaneous syndromes are autosomal dominant tumor suppressor disorders in which the lost protein normally switches a growth pathway off. Each cell inherits one mutant allele, and a somatic second hit in a susceptible cell releases the pathway locally, which is why lesions are multiple, scattered, and appear progressively with age rather than being present everywhere at birth."
+    },
+    {
+     "type": "p",
+     "text": "NF1 lies on chromosome 17 and encodes neurofibromin, a GTPase-activating protein for RAS. RAS is active when bound to GTP and inactive after hydrolysis to GDP, and intrinsic hydrolysis is slow, so neurofibromin is what returns RAS to the off state. Losing it leaves RAS-GTP elevated and the MAPK and mTOR pathways tonically stimulated in neural crest derived cells. The result is proliferation of Schwann cells, fibroblasts, and melanocytes. Cutaneous neurofibromas are soft, skin colored, and sessile or pedunculated, and they appear and increase around puberty and in pregnancy; plexiform neurofibromas are larger, involve nerve trunks, are present early, and carry a risk of transformation into malignant peripheral nerve sheath tumor. Pigmented signs are the earliest: six or more café-au-lait macules, flat and uniformly light brown, exceeding 5 mm before puberty or 15 mm after it, and freckling in the axilla and groin, where sun exposure cannot explain it. Lisch nodules of the iris, optic pathway glioma, sphenoid wing dysplasia, tibial pseudarthrosis, and learning disability complete the picture, and hypertension should raise the question of pheochromocytoma or renal artery stenosis."
+    },
+    {
+     "type": "flow",
+     "title": "Why neurofibromin loss produces tumors",
+     "steps": [
+      "A growth factor loads RAS with GTP",
+      "Neurofibromin normally accelerates GTP hydrolysis",
+      "Both NF1 alleles are lost in a Schwann cell",
+      "RAS-GTP persists; MAPK and mTOR signaling continue",
+      "The cell proliferates with its fibroblasts and mast cells",
+      "A neurofibroma forms along the nerve"
+     ],
+     "caption": "The mutation does not create a signal; it prevents an existing signal from being turned off."
+    },
+    {
+     "type": "p",
+     "text": "Tuberous sclerosis arises from mutation in TSC1, encoding hamartin, or TSC2, encoding tuberin. The two proteins form a complex in which tuberin acts as a GTPase-activating protein for Rheb, the small GTPase that activates mTORC1, and hamartin stabilizes tuberin. Loss of either leaves Rheb GTP-bound and mTORC1 constitutively active, so cells increase protein synthesis, enlarge, and proliferate regardless of nutrient and growth factor status. Because mTORC1 regulates cell size as well as number, the lesions are hamartomas of disorganized native tissue rather than carcinomas. Cutaneous findings follow a predictable order: hypomelanotic ash-leaf macules are present at birth or in infancy and are easiest to see under a Wood lamp, especially in fair skin; facial angiofibromas appear over the nose and cheeks in childhood; a shagreen patch of thickened leathery skin develops over the lower back; and periungual fibromas emerge around the nails near adolescence. Internally there are cortical tubers with seizures that often begin as infantile spasms, subependymal giant cell astrocytoma, cardiac rhabdomyoma that may be detected prenatally and often regresses, renal angiomyolipoma, and pulmonary lymphangioleiomyomatosis in women."
+    },
+    {
+     "type": "table",
+     "title": "NF1 compared with tuberous sclerosis",
+     "cols": [
+      "Feature",
+      "Neurofibromatosis type 1",
+      "Tuberous sclerosis"
+     ],
+     "rows": [
+      [
+       "Gene and product",
+       "NF1 on chromosome 17; neurofibromin",
+       "TSC1 hamartin, TSC2 tuberin"
+      ],
+      [
+       "Molecular role",
+       "GTPase-activating protein that turns RAS off",
+       "Complex that turns Rheb and therefore mTORC1 off"
+      ],
+      [
+       "Pigment lesion",
+       "Café-au-lait macules and axillary freckling: more melanin",
+       "Ash-leaf macules: less melanin"
+      ],
+      [
+       "Other skin lesions",
+       "Cutaneous and plexiform neurofibromas",
+       "Facial angiofibromas, shagreen patch, periungual fibromas"
+      ],
+      [
+       "Eye finding",
+       "Lisch nodules of the iris; optic glioma",
+       "Retinal astrocytic hamartoma"
+      ],
+      [
+       "Major systemic lesions",
+       "Malignant peripheral nerve sheath tumor, pheochromocytoma, scoliosis",
+       "Cortical tubers and seizures, cardiac rhabdomyoma, renal angiomyolipoma"
+      ]
+     ],
+     "caption": "Both are dominant with a somatic second hit, so the pigment finding distinguishes them at the bedside: extra pigment in NF1, missing pigment in tuberous sclerosis."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-INTG-07-01-C06",
+   "obj": "IN-7.6",
+   "title": "Barrier genes: filaggrin and steroid sulfatase",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The stratum corneum works because the corneocytes are internally rigid and externally glued together until shedding is scheduled. Two different genetic defects break these two requirements and both present as ichthyosis, meaning visible scale."
+    },
+    {
+     "type": "p",
+     "text": "Filaggrin, encoded by FLG on chromosome 1, is made as the large precursor profilaggrin stored in the keratohyalin granules that define the granular layer. During terminal differentiation profilaggrin is dephosphorylated and cleaved into filaggrin monomers that aggregate keratin filaments into tight bundles, flattening the cell into a mechanically strong corneocyte. Filaggrin is then degraded further into free amino acids and their derivatives, including pyrrolidone carboxylic acid and urocanic acid, which make up natural moisturizing factor. This mixture is hygroscopic, so it holds water in the stratum corneum, and it is acidic, so it maintains the surface pH at which the desquamation enzymes and antimicrobial peptides work properly."
+    },
+    {
+     "type": "p",
+     "text": "Loss-of-function FLG mutations therefore cause three problems at once: weaker corneocytes, a drier stratum corneum, and a less acidic surface. Ichthyosis vulgaris is the result, with fine white scale most obvious on the extensor legs, sparing of the moist flexures, palmar hyperlinearity, keratosis pilaris, and a reduced or absent granular layer on biopsy. Inheritance is semidominant, since heterozygotes have mild disease and homozygotes more severe disease, so the pedigree can look dominant with incomplete penetrance. The same alleles are the strongest known genetic risk factor for atopic dermatitis, because a leaky barrier lets water escape and lets allergens, haptens, and Staphylococcus aureus products reach antigen presenting cells. That exposure drives type 2 helper T cell sensitization, and the resulting inflammation suppresses filaggrin further, making atopic dermatitis a self-reinforcing barrier and immune problem rather than a purely immune one."
+    },
+    {
+     "type": "flow",
+     "title": "Filaggrin loss to atopic sensitization",
+     "steps": [
+      "Loss-of-function FLG alleles reduce filaggrin and natural moisturizing factor",
+      "Corneocytes weaken; the stratum corneum dries and its pH rises",
+      "Transepidermal water loss rises and the barrier becomes permeable",
+      "Allergens and microbial products reach Langerhans cells",
+      "Type 2 helper T cell responses and IgE develop",
+      "Interleukin 4 and 13 further suppress filaggrin, worsening the barrier"
+     ],
+     "caption": "A structural gene defect initiates an immune disease, and the immune response then deepens the structural defect."
+    },
+    {
+     "type": "p",
+     "text": "X-linked ichthyosis is a defect of shedding rather than of corneocyte structure. Steroid sulfatase, encoded by STS on the short arm of the X chromosome, removes the sulfate group from cholesterol sulfate in the intercellular lipid of the stratum corneum. Cholesterol sulfate helps hold corneocytes together, so its desulfation is a necessary signal for orderly desquamation. Without the enzyme it accumulates, corneocytes stay adherent, and retention hyperkeratosis builds up as large, dark brown, polygonal adherent scale on the trunk, neck, and extensor limbs, usually within the first months of life in a male. Asymptomatic comma-shaped corneal opacities occur in affected males and carrier mothers, and cryptorchidism is more common. The placenta uses the same enzyme to desulfate fetal dehydroepiandrosterone sulfate on the route to estriol, so maternal serum estriol is low in a pregnancy carrying an affected fetus, and labor may be delayed or prolonged. Because STS sits near other genes, a larger contiguous deletion can add Kallmann syndrome, chondrodysplasia punctata, or intellectual disability."
+    },
+    {
+     "type": "table",
+     "title": "Ichthyosis vulgaris compared with X-linked ichthyosis",
+     "cols": [
+      "Feature",
+      "Ichthyosis vulgaris (FLG)",
+      "X-linked ichthyosis (STS)"
+     ],
+     "rows": [
+      [
+       "Defect",
+       "Reduced filaggrin and natural moisturizing factor",
+       "Steroid sulfatase deficiency with cholesterol sulfate retention"
+      ],
+      [
+       "Mechanism of scale",
+       "Weak dry corneocytes and impaired barrier",
+       "Failure of corneocytes to separate and shed"
+      ],
+      [
+       "Inheritance",
+       "Semidominant; both sexes",
+       "X-linked recessive; males affected"
+      ],
+      [
+       "Scale",
+       "Fine and white, extensor legs, flexures spared",
+       "Large, dark brown, polygonal and adherent; flexures may be involved"
+      ],
+      [
+       "Associated findings",
+       "Palmar hyperlinearity, keratosis pilaris, atopic dermatitis and asthma",
+       "Corneal opacities, cryptorchidism, low maternal estriol in the pregnancy"
+      ],
+      [
+       "Granular layer",
+       "Reduced or absent",
+       "Normal or slightly thickened"
+      ]
+     ],
+     "caption": "Fine white scale that spares the flexures in either sex points to filaggrin; large dark adherent scale in a male points to steroid sulfatase."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-INTG-07-01-C07",
+   "obj": "IN-7.7",
+   "title": "MC1R and the eumelanin to pheomelanin switch",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Melanocytes make two chemically different pigments from one starting material. Tyrosinase oxidizes tyrosine to dopaquinone in both cases, and what follows depends on the availability of cysteine. If cysteine or glutathione adds to dopaquinone, the product is cysteinyldopa and the pathway runs to pheomelanin, a red to yellow sulfur containing polymer. If it does not, dopaquinone cyclizes and polymerizes to eumelanin, which absorbs ultraviolet light broadly and quenches radicals. The switch is set by signaling, not by a separate enzyme."
+    },
+    {
+     "type": "p",
+     "text": "The melanocortin 1 receptor (MC1R) on the melanocyte surface is a G protein coupled receptor that signals through Gs. Its ligand, alpha melanocyte stimulating hormone, is produced locally by keratinocytes from proopiomelanocortin, and ultraviolet exposure increases that production through p53, which links the checkpoint pathway of the first section to tanning. Receptor occupancy raises cAMP, protein kinase A phosphorylates CREB, and CREB induces the transcription factor MITF, the master regulator of the melanocyte. MITF raises tyrosinase, tyrosinase-related protein 1, and dopachrome tautomerase, and that higher enzyme activity consumes dopaquinone quickly enough to outcompete cysteine addition, so synthesis shifts toward eumelanin. Agouti signaling protein opposes alpha MSH at the receptor, and when MC1R signaling is low, cAMP falls, MITF-driven enzyme output drops, and the pathway drifts toward pheomelanin."
+    },
+    {
+     "type": "flow",
+     "title": "The melanocortin pigment switch",
+     "steps": [
+      "Ultraviolet damage stabilizes p53 in keratinocytes",
+      "Keratinocytes transcribe proopiomelanocortin and release alpha MSH",
+      "Alpha MSH binds MC1R; Gs raises cAMP",
+      "Protein kinase A phosphorylates CREB, which induces MITF",
+      "MITF raises tyrosinase and related enzymes",
+      "Dopaquinone is consumed as eumelanin and transferred to keratinocytes",
+      "Eumelanin caps over nuclei and absorbs further ultraviolet light"
+     ],
+     "caption": "A keratinocyte damage signal recruits a neighboring cell type to supply protection, which is why tanning is delayed by days."
+    },
+    {
+     "type": "p",
+     "text": "Common MC1R loss-of-function variants reduce receptor signaling. Homozygotes and compound heterozygotes for the strong variants show the red hair phenotype: red or auburn hair, fair skin that burns rather than tans, dense freckling, and high lifetime melanoma and keratinocyte cancer risk. Three mechanisms combine. Pheomelanin absorbs ultraviolet light poorly, so more photons reach keratinocyte and melanocyte DNA. Pheomelanin synthesis also consumes cysteine and glutathione, and the pigment itself generates reactive oxygen species under ultraviolet light, so the melanocyte suffers oxidative damage even without direct absorption. Finally, MC1R signaling normally supports nucleotide excision repair and antioxidant defense, so a weak receptor leaves cells both more exposed and less able to repair. The last point is why risk in variant carriers exceeds what skin color alone predicts, and why the variants add risk even in people who tan reasonably well."
+    },
+    {
+     "type": "example",
+     "title": "Distinguishing three causes of a pale, poorly tanning patient",
+     "text": "Consider three patients who all burn easily. In oculocutaneous albinism type 1 tyrosinase itself is defective, so melanocytes are present in normal numbers but make almost no pigment of either type, and nystagmus, iris transillumination, and foveal hypoplasia follow from absent pigment in the developing eye. In the MC1R variant red hair phenotype the enzymes work and the switch is set wrong, so pigment is made but it is pheomelanin, giving red hair and freckles with normal vision. In vitiligo the genes are normal and melanocytes have been destroyed by autoimmune attack, so depigmentation is patchy with sharp borders."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "This chapter is one mechanism applied to many diseases. A growth pathway must be switched on when tissue is needed and off otherwise, and DNA must be copied faithfully. Oncogenes such as BRAF, NRAS, and KIT jam the switch on, so a single allele changes the cell, while tumor suppressors such as TP53, PTCH1, CDKN2A, NF1, TSC1, and TSC2 are the off switches, so both alleles must fail and a germline mutation simply means the first failure is already present in every cell. That accounting explains the clinical pattern of each syndrome: early onset, multiple lesions, and bilateral or scattered distribution when the mutation is inherited, and single late lesions on the most sun-exposed skin when it is somatic. The repair genes sit upstream of all of it, since a repair defect raises the rate at which both oncogene and tumor suppressor mutations appear, which is why xeroderma pigmentosum produces every ultraviolet related skin cancer at once."
+  },
+  {
+   "type": "p",
+   "text": "The chapter also shows how far one gene product reaches across disciplines. Steroid sulfatase explains dermatologic scale, an obstetric estriol value, and prolonged labor. Filaggrin explains a histologic finding, a mechanical property of the corneocyte, and the start of an immunologic disease, with cytokines then feeding back on the structural gene. MC1R connects the p53 damage response to endocrine signaling, pigment chemistry, oxidative stress, and DNA repair capacity. Two limits are worth stating. Genotype rarely predicts severity precisely, since variable expressivity, modifier genes, mosaicism, and cumulative exposure all intervene, so a mutation establishes risk rather than outcome. And the presence of a driver mutation is not equivalent to cancer, as BRAF V600E in an ordinary nevus demonstrates, because checkpoint responses such as oncogene-induced senescence still restrain a cell whose growth pathway is switched on."
+  }
+ ],
+ "summary": [
+  "Cyclin D with CDK4 and CDK6 phosphorylates Rb to release E2F at the restriction point, while p16 blocks those kinases and p53 acting through p21 arrests the damaged cell or removes it by apoptosis.",
+  "Ultraviolet B creates pyrimidine dimers whose cytosines deaminate, producing C to T and CC to TT signature mutations; TP53 inactivation by this mechanism is the earliest step toward actinic keratosis and squamous cell carcinoma.",
+  "Nucleotide excision repair recognizes the distortion, opens the helix with TFIIH, cuts on both sides, and resynthesizes the gap; its autosomal recessive failure in xeroderma pigmentosum gives extreme photosensitivity, childhood freckling, and all three major skin cancers before adolescence.",
+  "PTCH1 loss frees Smoothened so hedgehog and GLI signaling drives basal cell carcinoma, and germline PTCH1 produces Gorlin syndrome with early multiple tumors, jaw keratocysts, palmar pits, and falx calcification.",
+  "BRAF V600E is present in most ordinary nevi because oncogene-induced senescence arrests them; melanoma requires escape from that arrest, typically through CDKN2A loss, and germline CDKN2A causes familial melanoma with dysplastic nevi and pancreatic cancer risk.",
+  "Autosomal dominant disorders give a 50 percent recurrence risk per pregnancy with frequent new mutations, autosomal recessive disorders give 25 percent with a two in three carrier risk for an unaffected sibling, and X-linked recessive disorders give no male to male transmission and obligate carrier daughters of an affected father.",
+  "Neurofibromin is a RAS GTPase-activating protein on chromosome 17, so NF1 leaves RAS active and produces café-au-lait macules, axillary freckling, and neurofibromas; hamartin and tuberin inhibit mTORC1, so tuberous sclerosis leaves mTOR active and produces ash-leaf macules, facial angiofibromas, and hamartomas of brain, heart, and kidney.",
+  "Filaggrin bundles keratin and breaks down into natural moisturizing factor, so loss-of-function FLG alleles cause ichthyosis vulgaris with fine scale sparing the flexures and are the main genetic risk factor for atopic dermatitis.",
+  "Steroid sulfatase deficiency lets cholesterol sulfate accumulate so corneocytes cannot separate, producing large dark adherent scale in males with corneal opacities and low maternal estriol during the pregnancy.",
+  "Alpha MSH acting through MC1R raises cAMP and MITF-driven tyrosinase to favor eumelanin, so loss-of-function MC1R variants shift synthesis to pheomelanin and raise melanoma risk through poor ultraviolet absorption, oxidative damage, and reduced repair capacity."
+ ],
+ "sources": [
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Neoplasia, sections on cell cycle regulation, oncogenes, tumor suppressor genes, and DNA repair defects"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "The Skin, sections on disorders of pigmentation and melanocytes and on epidermal tumors"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Genetic Disorders, sections on autosomal dominant, autosomal recessive, and X-linked inheritance"
+  },
+  {
+   "book": "Lippincott Illustrated Reviews: Biochemistry",
+   "where": "DNA repair and the repair of ultraviolet damage"
+  },
+  {
+   "book": "Junqueira's Basic Histology",
+   "where": "Skin, sections on the epidermis, keratinization, and melanocytes"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Neoplasia; Genetic Disease"
+  }
+ ],
+ "verify": [
+  "The proportion of cutaneous melanomas carrying BRAF V600E is quoted from about 40 to 60 percent and the proportion of acquired nevi from about 70 to 90 percent; this chapter uses about half and most respectively.",
+  "The share of NF1 cases arising from new mutation (about half) and of tuberous sclerosis cases that are sporadic (about two thirds) differ slightly between sources.",
+  "The median age of first skin cancer in xeroderma pigmentosum is given as about 8 to 9 years in registry data, and the advancement of onset relative to the general population as about 50 years; confirm the figures NABNE expects.",
+  "The excised oligonucleotide in nucleotide excision repair is described as about 25 to 30 nucleotides; some texts give 27 to 29 or simply a short patch.",
+  "Café-au-lait macule size criteria for NF1 (over 5 mm before puberty, over 15 mm after) come from clinical diagnostic criteria that have been revised; confirm whether NABNE Part I tests the numeric thresholds.",
+  "The population carrier frequency used in the worked example (1 in 300) is illustrative only and is not a published frequency for any specific xeroderma pigmentosum gene.",
+  "Whether NABNE Part I expects eponyms such as Gorlin syndrome, Lisch nodules, shagreen patch, Crowe sign, and De Sanctis-Cacchione syndrome, or only the descriptive findings, should be confirmed.",
+  "The contribution of reduced nucleotide excision repair capacity (as distinct from pigment type) to melanoma risk in MC1R variant carriers is supported by experimental work but the relative weight of the two mechanisms is not settled.",
+  "Requested new diagram names for a future revision: g1-s-checkpoint (growth factor through cyclin D, CDK4 and CDK6, Rb, E2F, with p16, p53, and p21 shown as inhibitors), ner-steps (lesion recognition, TFIIH unwinding, dual incision, gap filling, ligation), pedigree-trio (autosomal dominant, autosomal recessive, and X-linked recessive pedigrees with recurrence risks labeled), and melanin-switch (dopaquinone branching to eumelanin or to cysteinyldopa and pheomelanin)."
+ ]
+}

@@ -1,0 +1,883 @@
+{
+ "unit": "IN-10",
+ "chapter_id": "NPLEX-P1-INTG-10",
+ "topic_id": "NPLEX-P1-INTG-10-01",
+ "title": "Skin Trauma and Wound Healing",
+ "subject": "Integumentary System (INTG)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "Skin repairs itself in a fixed order: a clot, an inflammatory cleanup, a vascular and fibroblastic rebuild, and months of quiet remodeling that converts granulation tissue into scar. This chapter follows that sequence cell by cell and molecule by molecule, then uses it to explain why a sutured wound and an open one heal differently, why infection, ischemia, diabetes, glucocorticoids, and vitamin C or zinc deficiency stall repair, and how scars become hypertrophic, keloidal, or contracted. It closes with the injuries that test the same machinery under extreme load: burns, electrical and lightning current, ionizing radiation, sustained pressure, auricular hematoma, and brown recluse envenomation.",
+  "prerequisites": [
+   "Layers of the epidermis and dermis, adnexal structures, and the dermal-epidermal junction (IN-1)",
+   "Acute inflammation: vascular changes, leukocyte margination, and chemotaxis",
+   "Platelet activation, the coagulation cascade, and fibrinolysis",
+   "Collagen synthesis, hydroxylation, and cross-linking, and the roles of vitamin C, copper, and zinc (IN-5)",
+   "Cell cycle control and the radiosensitivity of rapidly dividing tissue"
+  ],
+  "connections": [
+   {
+    "to": "Immunology and inflammation (IM units)",
+    "how": "Neutrophil then macrophage recruitment, and the switch of macrophages toward a growth-factor-secreting phenotype, is the same program that governs resolution versus fibrosis anywhere in the body."
+   },
+   {
+    "to": "Renal physiology and pathology (RENL units)",
+    "how": "Rhabdomyolysis after electrical injury or prolonged pressure delivers filtered myoglobin to the tubules, which explains pigmented casts and acute kidney injury."
+   },
+   {
+    "to": "Cardiovascular physiology (CARD units)",
+    "how": "Burn shock is a distributive and hypovolemic problem driven by capillary leak, and electrical current reaches the heart during its vulnerable period to cause fibrillation."
+   },
+   {
+    "to": "Endocrine and metabolic physiology (ENDO units)",
+    "how": "The catecholamine, cortisol, and glucagon surge after a large burn produces the hypermetabolic, protein-catabolic state, and hyperglycemia in diabetes impairs leukocyte function and microvascular flow."
+   },
+   {
+    "to": "Neoplasia and skin cancer (IN-12, IN-13)",
+    "how": "Chronic unstable burn scars and irradiated skin accumulate mutations and give rise to squamous cell carcinoma, basal cell carcinoma, and angiosarcoma years after the injury."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Granulation tissue",
+    "def": "The pink, soft, moist repair tissue of proliferating fibroblasts, new capillaries, and loose type III collagen matrix that fills a tissue defect."
+   },
+   {
+    "term": "Myofibroblast",
+    "def": "A fibroblast that expresses alpha smooth muscle actin and generates the contractile force that shrinks an open wound."
+   },
+   {
+    "term": "Angiogenesis",
+    "def": "Formation of new capillaries from existing vessels, driven in wounds mainly by vascular endothelial growth factor (VEGF) released under hypoxic and macrophage-derived signals."
+   },
+   {
+    "term": "Re-epithelialization",
+    "def": "Migration and proliferation of keratinocytes from the wound margins and residual adnexa to restore a continuous epidermal barrier."
+   },
+   {
+    "term": "Matrix metalloproteinase (MMP)",
+    "def": "A zinc-dependent protease that degrades collagen and other matrix proteins, allowing cell migration during repair and collagen turnover during remodeling."
+   },
+   {
+    "term": "Primary intention",
+    "def": "Healing of a clean, approximated wound with minimal granulation tissue and a thin linear scar."
+   },
+   {
+    "term": "Secondary intention",
+    "def": "Healing of an open defect by abundant granulation tissue, wound contraction, and a larger scar."
+   },
+   {
+    "term": "Eschar",
+    "def": "Adherent, avascular, denatured tissue covering a deep burn or necrotic wound, impenetrable to leukocytes and systemically delivered agents."
+   },
+   {
+    "term": "Keloid",
+    "def": "An abnormal scar of disorganized type I and type III collagen that grows beyond the original wound borders and recurs after excision."
+   },
+   {
+    "term": "Contracture",
+    "def": "A fixed deformity and loss of joint motion produced by excessive and persistent wound contraction and scar shortening."
+   },
+   {
+    "term": "Dehiscence",
+    "def": "Separation of a surgical wound because mechanical load exceeds the tensile strength of the immature scar."
+   },
+   {
+    "term": "Obliterative endarteritis",
+    "def": "Progressive intimal thickening and luminal narrowing of small arteries after radiation injury, producing chronic ischemia, fibrosis, and poor healing."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-INTG-10-01-C01",
+   "obj": "IN-10.1",
+   "title": "The four phases of cutaneous wound healing",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Repair of a full-thickness skin wound runs through four phases: hemostasis, inflammation, proliferation, and remodeling. They overlap in time but not in sequence, and each produces the signals that recruit the cells of the next, so a block at any step stalls everything downstream."
+    },
+    {
+     "type": "p",
+     "text": "Hemostasis begins within seconds. Transected vessels constrict, platelets adhere to exposed subendothelial collagen and von Willebrand factor, aggregate, and degranulate, and the coagulation cascade converts fibrinogen to a fibrin mesh. The clot does two jobs: it stops bleeding and becomes the provisional scaffold that migrating cells crawl through. Platelet alpha granules release platelet-derived growth factor (PDGF) and transforming growth factor beta (TGF-beta), the first chemotactic and fibrogenic signals of repair."
+    },
+    {
+     "type": "p",
+     "text": "Inflammation dominates the first three days. Neutrophils arrive within 6 to 24 hours and debride the wound by phagocytosis and by releasing proteases and reactive oxygen species. Monocyte-derived macrophages predominate by about day 3. The macrophage is the pivotal cell of repair: it completes debridement, including clearance of apoptotic neutrophils, then shifts to a reparative phenotype secreting PDGF, TGF-beta, fibroblast growth factor, and VEGF. Macrophage-depleted wounds form no granulation tissue, and wounds with persistent neutrophilic inflammation, as in chronic infection, stay stuck in this phase."
+    },
+    {
+     "type": "p",
+     "text": "Proliferation runs from about day 3 to week 3. Fibroblasts migrate along the fibrin scaffold, proliferate under PDGF and FGF, and deposit a loose provisional matrix of fibronectin, hyaluronan, proteoglycans, and type III collagen. VEGF, released in response to hypoxia and macrophage signals, drives capillary sprouting, and the immature leakiness of those vessels is why granulation tissue is edematous. Keratinocytes at the margins lose their anchorage, migrate across the moist wound bed, then proliferate to restore the barrier. Myofibroblasts appear and begin to contract the defect."
+    },
+    {
+     "type": "p",
+     "text": "Remodeling takes weeks to more than a year. Zinc-dependent matrix metalloproteinases, held in check by tissue inhibitors of metalloproteinases, degrade the provisional matrix while fibroblasts replace type III collagen with thicker, cross-linked type I collagen aligned along lines of stress. Capillaries regress and the scar pales. Tensile strength tracks this chemistry rather than the appearance of the wound: about 10 percent of normal skin at one week, rising steeply over the next two months, then plateauing at about 70 to 80 percent by three months. Full strength never returns because the original basket-weave collagen architecture and the adnexa are not rebuilt."
+    },
+    {
+     "type": "flow",
+     "title": "Sequence of cutaneous wound healing",
+     "steps": [
+      "Hemostasis: platelet plug and fibrin clot; PDGF and TGF-beta released",
+      "Neutrophils enter within 6 to 24 hours and debride",
+      "Macrophages predominate by day 3; secrete PDGF, TGF-beta, FGF, VEGF",
+      "Fibroblasts lay down type III collagen; VEGF drives new capillaries",
+      "Keratinocytes re-epithelialize; myofibroblasts contract the defect",
+      "MMPs remodel matrix; cross-linked type I collagen replaces type III"
+     ],
+     "caption": "Each phase generates the signals that recruit the cells of the next, so repair is a chain."
+    },
+    {
+     "type": "table",
+     "title": "Phases of healing: timing, cells, and products",
+     "cols": [
+      "Phase",
+      "Timing",
+      "Dominant cells",
+      "Key mediators",
+      "Matrix and outcome"
+     ],
+     "rows": [
+      [
+       "Hemostasis",
+       "Seconds to minutes",
+       "Platelets",
+       "PDGF, TGF-beta, thromboxane A2",
+       "Fibrin clot as scaffold"
+      ],
+      [
+       "Inflammation",
+       "Day 1 to day 3",
+       "Neutrophils, then macrophages",
+       "IL-1, TNF, chemokines, complement",
+       "Debridement; wound still weak"
+      ],
+      [
+       "Proliferation",
+       "Day 3 to week 3",
+       "Fibroblasts, endothelium, keratinocytes, myofibroblasts",
+       "VEGF, FGF, PDGF, TGF-beta",
+       "Granulation tissue, type III collagen"
+      ],
+      [
+       "Remodeling",
+       "Week 3 to over a year",
+       "Fibroblasts",
+       "MMPs and their inhibitors",
+       "Cross-linked type I collagen, 70 to 80 percent strength"
+      ]
+     ],
+     "caption": "Questions often give a day or week since injury and ask for the dominant cell, collagen type, or expected strength."
+    },
+    {
+     "type": "stop",
+     "predict": "A wound is 8 days old and the surface looks closed, yet its tensile strength is far below normal. Why does appearance mislead?",
+     "explain": "Why does strength lag epithelial closure by weeks to months?",
+     "check": "Compare the proliferation and remodeling rows of the phase table with the collagen types in the remodeling paragraph."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-INTG-10-01-C02",
+   "obj": "IN-10.2",
+   "title": "Primary versus secondary intention, and what delays healing",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The same four phases run in every wound, but the size of the defect decides how much of each is required. In healing by primary intention the edges of a clean, narrow wound are approximated, so a small clot bridges the gap, epithelium closes a short distance within 24 to 48 hours, granulation tissue is scant, and a thin linear scar results. In healing by secondary intention a large defect must be filled, so inflammation is more intense and prolonged, granulation tissue is abundant, and myofibroblast contraction shrinks an open wound to a fraction of its original area. Contraction is useful because it reduces the volume to fill and the surface to re-epithelialize, but the same force produces disabling contractures across joints, palms, and the anterior neck."
+    },
+    {
+     "type": "table",
+     "title": "Primary versus secondary intention",
+     "cols": [
+      "Feature",
+      "Primary intention",
+      "Secondary intention"
+     ],
+     "rows": [
+      [
+       "Wound",
+       "Clean, narrow, edges approximated",
+       "Large defect, open, often contaminated"
+      ],
+      [
+       "Inflammatory phase",
+       "Brief and limited",
+       "Intense and prolonged"
+      ],
+      [
+       "Granulation tissue",
+       "Minimal",
+       "Abundant"
+      ],
+      [
+       "Wound contraction",
+       "Negligible",
+       "Marked, myofibroblast driven"
+      ],
+      [
+       "Re-epithelialization",
+       "Across a narrow gap, 24 to 48 hours",
+       "Across a wide bed, slow"
+      ],
+      [
+       "Scar",
+       "Thin and linear",
+       "Large, with risk of contracture"
+      ]
+     ],
+     "caption": "Defect size, not a difference in biology, accounts for every entry here."
+    },
+    {
+     "type": "p",
+     "text": "Healing fails when any one of its requirements is withdrawn: blood flow, oxygen, nutrient substrate, intact leukocyte function, a clean bed, and mechanical quiet. Infection is the most common local cause of delay, because persistent bacterial products keep neutrophils arriving and their proteases and oxidants degrade matrix as fast as fibroblasts lay it down. Ischemia, from arterial disease, venous hypertension, or pressure, limits the oxygen that hydroxylation, leukocyte oxidative killing, and fibroblast proliferation all require."
+    },
+    {
+     "type": "p",
+     "text": "Diabetes mellitus impairs healing on several fronts at once: microangiopathy and endothelial dysfunction reduce perfusion, hyperglycemia impairs neutrophil chemotaxis and phagocytosis, advanced glycation end products stiffen matrix, and sensory neuropathy removes the pain that would force the patient off an injured foot. Glucocorticoids suppress macrophage function and inhibit fibroblast proliferation and collagen transcription, so scars are weak and prone to dehiscence. Malnutrition withholds the amino acids for collagen and the substrate for cell division."
+    },
+    {
+     "type": "p",
+     "text": "Two micronutrients are tested repeatedly. Vitamin C (ascorbate) keeps the iron of prolyl and lysyl hydroxylase in the ferrous state, so without it proline and lysine residues are not hydroxylated, the triple helix is unstable, and cross-linking is poor; scurvy therefore causes friable gums, perifollicular hemorrhage, fragile vessels, and wounds that reopen. Zinc is a cofactor for matrix metalloproteinases and for DNA and RNA polymerases, so deficiency slows epithelialization and remodeling. Foreign bodies and necrotic debris sustain inflammation and shelter organisms, and repeated motion disrupts immature matrix."
+    },
+    {
+     "type": "table",
+     "title": "Impediments to healing and their mechanisms",
+     "cols": [
+      "Factor",
+      "Mechanism of delay"
+     ],
+     "rows": [
+      [
+       "Infection",
+       "Persistent neutrophilic inflammation; proteases degrade new matrix"
+      ],
+      [
+       "Ischemia or venous hypertension",
+       "Low oxygen limits hydroxylation and leukocyte killing"
+      ],
+      [
+       "Diabetes mellitus",
+       "Microangiopathy, impaired neutrophils, glycated matrix, neuropathy"
+      ],
+      [
+       "Glucocorticoids",
+       "Suppressed macrophages, less collagen synthesis; weak scars"
+      ],
+      [
+       "Malnutrition",
+       "Too little amino acid substrate for collagen"
+      ],
+      [
+       "Vitamin C deficiency",
+       "Hydroxylases inactive; unstable, poorly cross-linked collagen"
+      ],
+      [
+       "Zinc deficiency",
+       "MMPs and polymerases impaired; slow epithelialization"
+      ],
+      [
+       "Foreign body or necrotic tissue",
+       "Nidus for persistent inflammation and infection"
+      ],
+      [
+       "Motion, tension, or pressure",
+       "Mechanical disruption of immature matrix"
+      ]
+     ],
+     "caption": "Each factor removes one requirement of repair, the level at which questions are written."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: two wounds, one deficiency",
+     "text": "A man with a three month diet of refined grains and no fresh produce has a 10 day old sutured forearm laceration that has reopened, bleeding gums, and perifollicular hemorrhages. Work backward: bleeding gums and perifollicular hemorrhage point to fragile vessel walls, and vessel walls and scar share one dependence, hydroxylated and cross-linked collagen. Without ascorbate, prolyl and lysyl hydroxylase lose their ferrous iron, so procollagen cannot form a stable triple helix. Granulation tissue still forms, because inflammation and angiogenesis are intact, but it has no tensile strength, so a wound that looked closed splits under load."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-INTG-10-01-C03",
+   "obj": "IN-10.3",
+   "title": "Abnormal scars and failures of wound repair",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Repair can fail by producing too little matrix or too much. Too little, or too late, gives dehiscence and ulceration; too much gives hypertrophic scars, keloids, and contractures. The distinction rests on how much collagen is made, how it is organized, and whether the process respects the original wound boundary."
+    },
+    {
+     "type": "p",
+     "text": "A hypertrophic scar is a raised scar in which collagen synthesis, mainly type III, continues beyond the point at which it should have slowed. The excess collagen lies in bundles oriented roughly parallel to the skin surface, the lesion stays within the borders of the original wound, it usually appears within a month or two of injury, and it often flattens and softens over months to years. Hypertrophic scars favor sites of high mechanical tension, such as the sternum, shoulder, and across joints."
+    },
+    {
+     "type": "p",
+     "text": "A keloid is a true overgrowth of scar that extends beyond the wound borders into clinically uninvolved skin, which is the single most reliable distinguishing feature. Histologically the collagen is disorganized and nodular, with thick haphazard bundles of both type I and type III collagen, and there is little or no normal fibrillar orientation. Keloids arise most often on the earlobes, chest, shoulders, and upper back, are far more common in people with darker skin and show familial clustering, may continue to enlarge for years, and recur when excised because the surgery itself is another wound. The underlying abnormality is sustained fibroblast activity with excessive TGF-beta signaling and reduced matrix degradation, not simple inflammation."
+    },
+    {
+     "type": "table",
+     "title": "Hypertrophic scar versus keloid",
+     "cols": [
+      "Feature",
+      "Hypertrophic scar",
+      "Keloid"
+     ],
+     "rows": [
+      [
+       "Extent",
+       "Confined within the original wound borders",
+       "Extends beyond the wound into normal skin"
+      ],
+      [
+       "Collagen",
+       "Excess type III in parallel bundles",
+       "Disorganized, nodular type I and type III"
+      ],
+      [
+       "Onset",
+       "Within weeks to a couple of months",
+       "May begin months later and enlarge for years"
+      ],
+      [
+       "Natural course",
+       "Often regresses and flattens",
+       "Persists and recurs after excision"
+      ],
+      [
+       "Typical sites",
+       "High tension sites: sternum, shoulder, over joints",
+       "Earlobes, chest, shoulders, upper back"
+      ],
+      [
+       "Predisposition",
+       "Tension, delayed closure, burns",
+       "Darker skin, family history, younger age"
+      ]
+     ],
+     "caption": "Crossing the wound border and recurrence after excision are the two discriminators to rely on."
+    },
+    {
+     "type": "p",
+     "text": "Exuberant granulation tissue, sometimes called proud flesh, is granulation tissue that proliferates above the level of the surrounding skin. Because keratinocytes migrate across a surface rather than climbing a mound, the raised tissue mechanically blocks re-epithelialization and the wound stays open and friable. Its histology is ordinary granulation tissue, which distinguishes it from a true neoplasm."
+    },
+    {
+     "type": "p",
+     "text": "Dehiscence is mechanical failure of the wound, most often an abdominal incision in the first one to two weeks, when tensile strength is still a small fraction of normal. Any rise in intra-abdominal pressure from coughing, vomiting, or ileus, combined with obesity, malnutrition, glucocorticoids, or infection, can exceed what the immature matrix can hold. Contracture is the opposite problem: myofibroblast contraction and scar shortening continue past the point of usefulness, fixing a joint in flexion or distorting an orifice. Contractures are characteristic after deep burns and on palms, soles, and the anterior neck, where skin is anchored over moving structures."
+    },
+    {
+     "type": "table",
+     "title": "Wound complications at a glance",
+     "cols": [
+      "Problem",
+      "Underlying defect",
+      "Characteristic finding"
+     ],
+     "rows": [
+      [
+       "Hypertrophic scar",
+       "Continued type III collagen deposition",
+       "Raised scar within the wound borders, may regress"
+      ],
+      [
+       "Keloid",
+       "Sustained fibroblast and TGF-beta activity, reduced degradation",
+       "Scar extending past the border, recurs after excision"
+      ],
+      [
+       "Exuberant granulation tissue",
+       "Overgrown granulation tissue",
+       "Friable tissue above skin level preventing epithelial closure"
+      ],
+      [
+       "Dehiscence",
+       "Load exceeding an immature scar",
+       "Wound separation at 1 to 2 weeks, often abdominal"
+      ],
+      [
+       "Contracture",
+       "Excessive, persistent myofibroblast contraction",
+       "Fixed deformity or restricted joint motion after deep burns"
+      ],
+      [
+       "Chronic ulceration",
+       "Repair stalled in the inflammatory phase",
+       "Nonhealing wound with ischemia, infection, or pressure"
+      ]
+     ],
+     "caption": "Deficient repair produces ulceration and dehiscence; excessive repair produces hypertrophic scars, keloids, and contractures."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-INTG-10-01-C04",
+   "obj": "IN-10.4",
+   "title": "Burn depth, burned surface area, and systemic consequences",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "A burn denatures protein in proportion to temperature and contact time. Injury begins at skin temperatures of roughly 44 degrees Celsius (111 degrees Fahrenheit) sustained for hours, while water at about 60 degrees Celsius (140 degrees Fahrenheit) causes full-thickness injury in seconds. Depth is judged clinically by three findings that each report on a specific structure: blisters indicate separation at or below the dermal-epidermal junction, blanching on pressure indicates a perfused dermal capillary bed, and preserved sensation indicates surviving dermal nerve endings. A burn that neither blanches nor hurts has lost the dermal plexus and the nerve endings with it."
+    },
+    {
+     "type": "table",
+     "title": "Burn depth by structure, appearance, and healing",
+     "cols": [
+      "Depth",
+      "Layers injured",
+      "Appearance and blanching",
+      "Sensation",
+      "Healing"
+     ],
+     "rows": [
+      [
+       "Superficial",
+       "Epidermis only",
+       "Red, dry, no blisters, blanches",
+       "Painful",
+       "3 to 7 days, no scar"
+      ],
+      [
+       "Superficial partial-thickness",
+       "Epidermis and papillary dermis",
+       "Blisters, moist, pink, blanches briskly",
+       "Very painful",
+       "2 to 3 weeks, minimal scar"
+      ],
+      [
+       "Deep partial-thickness",
+       "Into reticular dermis",
+       "Blisters, white or mottled, blanches poorly",
+       "Reduced, pressure felt",
+       "Over 3 weeks, scars, often grafted"
+      ],
+      [
+       "Full-thickness",
+       "Entire dermis or deeper",
+       "White, leathery, or charred eschar; no blanching",
+       "Painless",
+       "Only from margins; needs grafting"
+      ]
+     ],
+     "caption": "Blisters, blanching, and sensation each map onto a dermal structure, which is why they grade depth."
+    },
+    {
+     "type": "p",
+     "text": "Burned surface area is estimated by the rule of nines, and only partial-thickness and full-thickness burns are counted, because superficial epidermal burns do not produce the capillary leak that drives fluid loss. Children have proportionally larger heads and smaller legs, so pediatric charts shift roughly 9 percentage points from the legs to the head in infancy."
+    },
+    {
+     "type": "table",
+     "title": "Rule of nines, adult",
+     "cols": [
+      "Region",
+      "Percent of total body surface"
+     ],
+     "rows": [
+      [
+       "Head and neck",
+       "9"
+      ],
+      [
+       "Each upper limb",
+       "9 (4.5 front, 4.5 back)"
+      ],
+      [
+       "Anterior trunk",
+       "18"
+      ],
+      [
+       "Posterior trunk",
+       "18"
+      ],
+      [
+       "Each lower limb",
+       "18 (9 front, 9 back)"
+      ],
+      [
+       "Perineum",
+       "1"
+      ]
+     ],
+     "caption": "Count only partial-thickness and full-thickness area; the patient's palm is about 1 percent."
+    },
+    {
+     "type": "p",
+     "text": "Large burns cause systemic disease. Thermal injury releases histamine, prostaglandins, bradykinin, and cytokines, and once roughly 20 percent of the body surface is involved, capillary permeability rises in uninjured tissue as well. Plasma and protein shift into the interstitium over the first 24 to 48 hours, so intravascular volume falls while hematocrit rises, producing hypovolemic burn shock with low cardiac output and oliguria. Loss of the barrier plus avascular eschar then creates a culture medium that neither leukocytes nor bloodborne agents reach well, and Pseudomonas aeruginosa is the classic cause of invasive burn wound sepsis, recognizable as a green-blue, sweet-smelling exudate with dark wound discoloration."
+    },
+    {
+     "type": "p",
+     "text": "From about the third day a hypermetabolic state follows: catecholamines, cortisol, and glucagon raise resting energy expenditure sharply, drive muscle proteolysis and lipolysis, and cause hyperglycemia and nitrogen loss. Inhalation injury is suspected with facial burns, singed nasal hairs, soot in the oropharynx, hoarseness, or a fire in an enclosed space; it injures the airway thermally above the glottis and chemically below it, and carbon monoxide and hydrogen cyanide block oxygen carriage and mitochondrial cytochrome oxidase respectively, so arterial oxygen tension and ordinary pulse oximetry can look normal while tissue is hypoxic. Late consequences are contractures across joints and, after years of a chronically unstable burn scar, squamous cell carcinoma arising in it, known as a Marjolin ulcer."
+    },
+    {
+     "type": "flow",
+     "title": "Pathogenesis of burn shock",
+     "steps": [
+      "Thermal injury releases histamine, prostaglandins, bradykinin, cytokines",
+      "Capillary permeability rises locally and, in large burns, systemically",
+      "Plasma and protein shift into the interstitium over 24 to 48 hours",
+      "Intravascular volume falls while hematocrit rises",
+      "Cardiac output and renal perfusion fall: hypovolemic shock, oliguria"
+     ],
+     "caption": "Fluid is lost from the vascular space, not from the body, which is why hematocrit rises."
+    },
+    {
+     "type": "stop",
+     "predict": "One forearm has blisters that blanch briskly; the other is white, leathery, and painless. Which is deeper, and which needs grafting?",
+     "explain": "Which dermal structures must be gone to abolish both blanching and pain?",
+     "check": "The blanching and sensation columns of the burn depth table."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-INTG-10-01-C05",
+   "obj": "IN-10.5",
+   "title": "Electrical injury and lightning strike",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Electrical injury is thermal injury distributed by electrical resistance rather than by surface contact. Heat produced in a tissue rises with the square of the current and with the resistance of that tissue, so the tissues that resist most and the sites where current is most concentrated are damaged most. Dry intact skin, especially thick palmar and plantar keratin, resists strongly and takes the brunt of local heating at the contact points, which is why entry and exit wounds are often small, dry, charred craters out of all proportion to the damage inside."
+    },
+    {
+     "type": "p",
+     "text": "Once past the stratum corneum, current travels preferentially through nerve, blood vessel, and muscle, which contain water and electrolytes and conduct well, while bone resists strongly and heats intensely, cooking the deep muscle that surrounds it. The limb therefore behaves like a cable with a hot core: superficially viable skin can overlie extensive necrosis of deep muscle and nerve. Because current density is highest where the cross-sectional area is smallest, injury is greatest at the wrist, elbow, and ankle. Swelling within fascial compartments then raises interstitial pressure above capillary pressure and produces compartment syndrome, which adds ischemic necrosis to the thermal necrosis."
+    },
+    {
+     "type": "p",
+     "text": "Necrotic muscle releases myoglobin, creatine kinase, potassium, and phosphate into the circulation. Myoglobin is a small protein that is freely filtered; in the acidic tubular fluid of a volume-depleted patient it precipitates with Tamm-Horsfall protein to form obstructing pigmented casts, and its heme iron catalyzes free radical injury of tubular epithelium, giving acute tubular necrosis. The urine is dark and tests positive for blood on dipstick (which detects heme) while microscopy shows no red cells, a discrepancy that is the diagnostic clue. Hyperkalemia from lysed muscle and hypocalcemia from calcium deposition in damaged muscle follow."
+    },
+    {
+     "type": "flow",
+     "title": "From current to acute kidney injury",
+     "steps": [
+      "Current follows low-resistance nerve, vessel, and muscle; bone heats intensely",
+      "Deep muscle necrosis with compartment swelling and added ischemia",
+      "Myoglobin, creatine kinase, potassium, phosphate released into blood",
+      "Filtered myoglobin precipitates as pigmented casts in acidic tubular fluid",
+      "Heme iron generates free radicals and injures tubular cells",
+      "Acute tubular necrosis: dark urine, heme-positive dipstick, no red cells"
+     ],
+     "caption": "Rhabdomyolysis explains the kidney injury, the hyperkalemia, and the dipstick and microscopy discrepancy."
+    },
+    {
+     "type": "p",
+     "text": "Current crossing the thorax reaches the heart. Alternating household current at 50 to 60 hertz is especially dangerous for two reasons: it repeatedly re-stimulates the myocardium until a stimulus lands in the vulnerable period of repolarization and initiates ventricular fibrillation, and it causes tetanic contraction of forearm flexors that locks the hand onto the conductor and prolongs exposure. Lightning and high voltage direct current instead deliver a single massive countershock that depolarizes the whole myocardium at once, producing asystole; the sinus node often resumes a rhythm spontaneously, so death after lightning is more often prolonged respiratory arrest from medullary stunning and tetanic paralysis of the respiratory muscles than failure of the heart. Survivors may show Lichtenberg figures, transient branching fern-like markings that reflect current tracking in skin and superficial vessels rather than true burns, and that fade within about 24 to 48 hours. Keraunoparalysis, a temporary flaccid paralysis with cold, pulseless, mottled limbs from vasospasm, also resolves."
+    },
+    {
+     "type": "table",
+     "title": "Alternating current, high voltage direct current, and lightning",
+     "cols": [
+      "Feature",
+      "Household alternating current",
+      "Lightning"
+     ],
+     "rows": [
+      [
+       "Exposure",
+       "Prolonged; tetany locks the hand to the source",
+       "Instantaneous, milliseconds"
+      ],
+      [
+       "Typical arrhythmia",
+       "Ventricular fibrillation",
+       "Asystole, often with spontaneous return of rhythm"
+      ],
+      [
+       "Main cause of death",
+       "Fibrillation",
+       "Prolonged respiratory arrest after the heart restarts"
+      ],
+      [
+       "Skin injury",
+       "Small entry and exit burns, deep muscle necrosis",
+       "Superficial, often with Lichtenberg figures"
+      ],
+      [
+       "Characteristic sequelae",
+       "Rhabdomyolysis, compartment syndrome, cataracts, neuropathy",
+       "Keraunoparalysis, tympanic rupture, cataracts"
+      ]
+     ],
+     "caption": "Duration and waveform, not voltage alone, determine whether the heart fibrillates or arrests."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-INTG-10-01-C06",
+   "obj": "IN-10.6",
+   "title": "Radiation injury to skin",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Ionizing radiation injures cells by damaging DNA, and it does so by two routes. Direct action is ionization of the DNA molecule itself, which matters most for densely ionizing particles such as alpha particles and neutrons. Indirect action, which accounts for roughly two thirds of the damage from x-rays and gamma rays, is radiolysis of intracellular water into hydroxyl radicals and other reactive oxygen species that then attack the sugar-phosphate backbone and bases. The decisive lesion is the double-strand break, because a single-strand break can be repaired from the intact complementary strand while double-strand breaks require error-prone repair and, when misrepaired, leave chromosomal deletions and translocations. Oxygen fixes radical damage before it can be chemically reversed, so well-oxygenated tissue is more radiosensitive than hypoxic tissue."
+    },
+    {
+     "type": "p",
+     "text": "Cells that divide rapidly show injury first, because an unrepaired double-strand break is lethal mainly at mitosis. In skin this means the basal keratinocytes of the epidermis, the matrix cells of hair follicles, and vascular endothelium. The acute reaction therefore reflects loss of the proliferating basal layer rather than immediate cell death at the surface."
+    },
+    {
+     "type": "flow",
+     "title": "How ionizing radiation injures skin",
+     "steps": [
+      "Photon or particle energy deposited in tissue",
+      "Direct ionization of DNA plus radiolysis of water to hydroxyl radicals",
+      "Single and double-strand DNA breaks; oxygen fixes the damage",
+      "Unrepaired double-strand breaks kill dividing basal keratinocytes at mitosis",
+      "Loss of the basal layer: erythema, then desquamation",
+      "Misrepaired breaks persist in survivors as mutations and later malignancy"
+     ],
+     "caption": "The same lesion that causes acute desquamation causes the late cancers, differing only in whether the cell dies or survives with mutation."
+    },
+    {
+     "type": "p",
+     "text": "Acute radiation dermatitis evolves over days to weeks in a dose-dependent sequence. A transient erythema may appear within hours from vascular permeability, followed after about two weeks by a sustained erythema as basal cells fail to replace the epidermis. Higher doses produce dry desquamation (scaling with intact barrier) and then moist desquamation, in which the epidermis is lost entirely and serous exudate weeps from a denuded dermis. Epilation accompanies this because follicular matrix cells are equally sensitive. The highest doses cause dermal necrosis and ulceration that will not heal."
+    },
+    {
+     "type": "p",
+     "text": "Chronic radiation changes appear months to years later and are dominated by vascular and fibroblastic consequences rather than by keratinocyte loss. Endothelial injury and fibrosis thicken and narrow the lumens of small arteries, a process called obliterative endarteritis, which makes the field chronically ischemic. The clinical picture is atrophic, thin, shiny skin with loss of adnexa and of normal pigment pattern, telangiectasias, dermal and subcutaneous fibrosis that may bind skin to deeper tissue, and poikiloderma with mottled hyper- and hypopigmentation. The ischemia and the depleted stem cell pool together explain why irradiated skin heals badly after any later trauma or surgery."
+    },
+    {
+     "type": "p",
+     "text": "Late neoplasia reflects the mutations retained in surviving cells, after latency measured in years to decades. Basal cell and squamous cell carcinoma arise in previously irradiated skin, often within chronic radiation dermatitis, and angiosarcoma can arise in the radiation field, classically in the chest wall or breast after therapeutic irradiation. Radiation-associated sarcomas are uncommon but are an important reason that a new nodule in an old radiation field is taken seriously."
+    },
+    {
+     "type": "table",
+     "title": "Acute versus chronic radiation skin injury",
+     "cols": [
+      "Feature",
+      "Acute radiation dermatitis",
+      "Chronic radiation injury"
+     ],
+     "rows": [
+      [
+       "Timing",
+       "Hours to weeks after exposure",
+       "Months to years, progressive"
+      ],
+      [
+       "Target",
+       "Proliferating basal keratinocytes and follicular matrix",
+       "Small vessels, fibroblasts, residual stem cells"
+      ],
+      [
+       "Findings",
+       "Erythema, epilation, dry then moist desquamation, ulceration",
+       "Atrophy, telangiectasia, fibrosis, poikiloderma, adnexal loss"
+      ],
+      [
+       "Vascular change",
+       "Increased permeability, dilated vessels",
+       "Obliterative endarteritis with chronic ischemia"
+      ],
+      [
+       "Healing",
+       "Recovers if basal stem cells survive",
+       "Poor; later wounds and surgery heal badly"
+      ],
+      [
+       "Late risk",
+       "Not applicable",
+       "Basal cell and squamous cell carcinoma, angiosarcoma in the field"
+      ]
+     ],
+     "caption": "Acute injury is a proliferation problem; chronic injury is a vascular and fibrotic one."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-INTG-10-01-C07",
+   "obj": "IN-10.7",
+   "title": "Pressure injury and auricular hematoma",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "A pressure injury (decubitus ulcer) is localized ischemic necrosis from sustained loading of soft tissue over a bony prominence. Capillary flow stops when external pressure exceeds the pressure inside the capillary, roughly 32 millimeters of mercury at the arteriolar end and lower at the venous end, and a seated or recumbent patient easily generates several times that over the sacrum, ischial tuberosities, greater trochanters, heels, and occiput. Healthy people shift position constantly in response to the discomfort of ischemia; a patient who is immobile, sedated, paralyzed, or insensate does not, so the ischemia becomes continuous. Magnitude and duration trade off against each other: high pressure injures quickly, lower pressure over hours."
+    },
+    {
+     "type": "p",
+     "text": "Pressure alone is not the whole mechanism. Shear, generated when skin is held by friction while the skeleton slides beneath it, as when a patient is dragged up in bed or slides down a raised head of bed, angulates and tears the perforating vessels that supply skin from below. Moisture from incontinence or perspiration macerates the stratum corneum and lowers its resistance to friction, and reperfusion after each ischemic episode adds free radical injury. Because muscle has a higher metabolic rate and lower ischemic tolerance than skin, and because pressure is greatest at the bone interface and dissipates toward the surface, the necrosis is cone-shaped with its base deep: what is visible at the surface is the apex of a much larger lesion."
+    },
+    {
+     "type": "table",
+     "title": "Pressure injury stages",
+     "cols": [
+      "Stage",
+      "Findings",
+      "Interpretation"
+     ],
+     "rows": [
+      [
+       "Stage 1",
+       "Intact skin with localized nonblanchable erythema",
+       "Capillary bed damaged, epidermis intact"
+      ],
+      [
+       "Stage 2",
+       "Partial-thickness loss exposing viable dermis, or a serum-filled blister",
+       "Epidermis and upper dermis only"
+      ],
+      [
+       "Stage 3",
+       "Full-thickness loss with visible fat; no fascia, muscle, tendon, or bone",
+       "Loss through the dermis"
+      ],
+      [
+       "Stage 4",
+       "Full-thickness loss exposing fascia, muscle, tendon, cartilage, or bone",
+       "Deep extension; osteomyelitis risk"
+      ],
+      [
+       "Unstageable",
+       "Base obscured by slough or eschar",
+       "Depth cannot be judged yet"
+      ],
+      [
+       "Deep tissue injury",
+       "Persistent deep red, maroon, or purple discoloration, or blood-filled blister",
+       "Deep injury under intact skin"
+      ]
+     ],
+     "caption": "Staging names the deepest tissue visibly involved, so a lesion cannot be staged while eschar hides its base."
+    },
+    {
+     "type": "p",
+     "text": "Auricular hematoma illustrates the same principle of a tissue cut off from its blood supply, but by a different route. The cartilage of the auricle is avascular and depends entirely on diffusion of nutrients from the vessels of the overlying perichondrium, to which it is normally tightly apposed. Blunt shearing trauma, typical of wrestling, boxing, and rugby, tears the perichondrial vessels and the resulting hematoma lifts the perichondrium off the cartilage. Diffusion distance now exceeds what cartilage can tolerate, so the separated cartilage becomes ischemic and undergoes necrosis, while the collected blood is an excellent culture medium and perichondritis or chondritis may follow, most often with Pseudomonas aeruginosa. The repair response produces fibrosis along with disorganized new cartilage from surviving perichondrial chondroblasts, and the healed auricle is thickened, lumpy, and permanently distorted: cauliflower ear."
+    },
+    {
+     "type": "flow",
+     "title": "Auricular hematoma to cauliflower ear",
+     "steps": [
+      "Blunt shear tears perichondrial vessels of the auricle",
+      "Hematoma collects and separates perichondrium from cartilage",
+      "Avascular cartilage loses its only nutrient source by diffusion",
+      "Cartilage necrosis, sometimes with secondary infection",
+      "Fibrosis plus disorganized new cartilage from perichondrium",
+      "Thickened, irregular, permanently deformed auricle"
+     ],
+     "caption": "The lesion is a diffusion barrier, which is why early evacuation of the hematoma and reapposition of the perichondrium prevents deformity."
+    },
+    {
+     "type": "stop",
+     "predict": "A bedbound patient has a 3 centimeter area of intact but nonblanchable maroon discoloration over the sacrum. Why might the tissue underneath be far more extensively damaged than this appearance suggests?",
+     "explain": "Why is the necrosis cone-shaped with its base at the bone?",
+     "check": "Re-read the paragraph on shear and the relative ischemic tolerance of muscle and skin, then the deep tissue injury row of the staging table."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-INTG-10-01-C08",
+   "obj": "IN-10.8",
+   "title": "Brown recluse envenomation and dermonecrosis",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The brown recluse spider (Loxosceles reclusa) produces a bite that is painless at first yet can progress over days to a necrotic skin ulcer, which makes the mechanism worth understanding: the damage comes from an enzyme in the venom and from the host inflammatory response it provokes, not from mechanical injury or from infection."
+    },
+    {
+     "type": "p",
+     "text": "The principal toxin is sphingomyelinase D, a phospholipase that cleaves the choline head group from sphingomyelin in cell membranes to yield ceramide 1-phosphate and choline. Sphingomyelin is abundant in the outer leaflet of endothelial cell and erythrocyte membranes, so the enzyme both destabilizes those membranes directly and generates bioactive lipid mediators. Two consequences follow. First, altered endothelial membranes activate complement and expose a prothrombotic surface, so platelets aggregate and small dermal vessels thrombose. Second, the venom is a powerful chemoattractant: massive neutrophil influx releases proteases and reactive oxygen species into tissue whose blood supply is already failing. Experimental depletion of neutrophils markedly reduces the necrosis, which establishes that much of the lesion is host-mediated rather than purely toxin-mediated."
+    },
+    {
+     "type": "p",
+     "text": "The evolution of the lesion follows that mechanism. The bite itself is often unnoticed. Within hours there is local pain, pruritus, and erythema; by 24 to 72 hours a characteristic red, white, and blue appearance may develop, in which an outer ring of erythema (inflammation) surrounds a pale blanched ring (vasoconstriction and ischemia) around a dusky violaceous center (thrombosis and early necrosis). The center sinks below the surrounding skin, becomes a firm eschar over the following week, and sloughs to leave an ulcer that heals slowly by secondary intention with a depressed scar. Gravity-dependent spread of the venom gives some lesions an irregular, downward-extending shape. Because many conditions produce a necrotic ulcer, a confident diagnosis requires the spider, and community-acquired methicillin-resistant Staphylococcus aureus infection is the usual alternative to consider."
+    },
+    {
+     "type": "p",
+     "text": "Systemic loxoscelism is uncommon and occurs mainly in children. The same sphingomyelinase D acting on erythrocyte membranes, together with complement activation, causes intravascular hemolysis with hemoglobinuria, and this can be accompanied by fever, rash, disseminated intravascular coagulation, thrombocytopenia, and acute kidney injury from pigment nephropathy. The important contrast is with the other medically significant North American spider: the black widow (Latrodectus), whose alpha-latrotoxin triggers massive presynaptic release of acetylcholine and norepinephrine and therefore causes painful muscle cramping, rigidity, and autonomic signs with no local necrosis at all."
+    },
+    {
+     "type": "table",
+     "title": "Brown recluse versus black widow envenomation",
+     "cols": [
+      "Feature",
+      "Brown recluse (Loxosceles)",
+      "Black widow (Latrodectus)"
+     ],
+     "rows": [
+      [
+       "Toxin",
+       "Sphingomyelinase D",
+       "Alpha-latrotoxin"
+      ],
+      [
+       "Mechanism",
+       "Membrane lysis, complement, thrombosis, neutrophil influx",
+       "Pore formation at the presynaptic terminal with massive neurotransmitter release"
+      ],
+      [
+       "Local findings",
+       "Initially painless, then red, white, and blue lesion with central necrotic ulcer",
+       "Immediate pain and a target lesion without necrosis"
+      ],
+      [
+       "Systemic findings",
+       "Rare hemolysis, hemoglobinuria, disseminated intravascular coagulation",
+       "Muscle cramps and rigidity, hypertension, diaphoresis, tachycardia"
+      ],
+      [
+       "Course",
+       "Ulcer evolves over days and heals slowly with a scar",
+       "Symptoms peak in hours and resolve over 1 to 3 days"
+      ]
+     ],
+     "caption": "One venom destroys membranes, the other exhausts synapses, which is why only one leaves an ulcer."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Every injury in this chapter is read through the same four-phase repair program, which makes the chapter a good test of whether a mechanism has been understood rather than memorized. Histology and cell biology supply the actors: platelets and the fibrin scaffold, neutrophils, the macrophage as the pivotal signaling cell, fibroblasts and myofibroblasts, endothelium, and keratinocytes migrating from margins and residual adnexa. Biochemistry supplies the rate-limiting chemistry: hydroxylation of proline and lysine needs ascorbate and ferrous iron, cross-linking needs copper-dependent lysyl oxidase, and remodeling needs zinc-dependent metalloproteinases, which is why deficiency states show up as weak scars and dehiscence rather than as absent granulation tissue. Pathology supplies the two directions of failure, deficient repair as ulceration and dehiscence and excessive repair as hypertrophic scars, keloids, and contractures, and immunology explains why a wound stuck in persistent neutrophilic inflammation never reaches the proliferative phase."
+  },
+  {
+   "type": "p",
+   "text": "The traumatic injuries then stress one requirement each, and the systemic consequences follow from physiology. Burns remove the barrier and, above roughly a fifth of the body surface, open capillaries everywhere, so plasma leaves the vascular space and hematocrit rises as blood pressure falls, with eschar providing a culture medium that leukocytes and bloodborne agents cannot reach. Electrical injury and prolonged pressure destroy muscle, and renal physiology explains the rest: filtered myoglobin, acidic tubular fluid, pigmented casts, and heme-catalyzed oxidant injury. Radiation and ultraviolet light converge on DNA double-strand breaks, linking acute desquamation to carcinomas and angiosarcoma decades later. The limits are worth stating plainly: burn depth and pressure injury stage are clinical judgments that frequently change as a wound declares itself, blanching and sensation can be unreliable in a swollen or anesthetized limb, a necrotic ulcer is not diagnostic of a recluse bite without the spider, and quoted timelines for each healing phase are averages that shift with wound size, perfusion, infection, and age."
+  }
+ ],
+ "summary": [
+  "Healing runs hemostasis, inflammation, proliferation, remodeling; platelet PDGF and TGF-beta start it and the macrophage, dominant by about day 3, is its pivotal signaling cell.",
+  "Granulation tissue is fibroblasts, VEGF-driven capillaries, and type III collagen; remodeling replaces type III with cross-linked type I, so strength is about 10 percent at one week and plateaus at about 70 to 80 percent by three months.",
+  "Primary and secondary intention differ only by defect size: secondary intention requires far more granulation tissue and myofibroblast contraction, which also creates contractures.",
+  "Healing stalls when any requirement is withdrawn: infection (most common local cause), ischemia, diabetes, glucocorticoids, malnutrition, vitamin C (hydroxylase cofactor), zinc (MMP cofactor), foreign body, or motion.",
+  "A hypertrophic scar stays within the wound borders and may regress; a keloid of disorganized type I and III collagen grows past the borders, favors earlobes and darker skin, and recurs after excision.",
+  "Burn depth is graded by blisters, blanching, and sensation: a painless, nonblanching, leathery burn is full-thickness and heals only from the margins.",
+  "Only partial-thickness and full-thickness burns count toward surface area; the adult rule of nines is 9 head and neck, 9 each arm, 18 front trunk, 18 back trunk, 18 each leg, 1 perineum.",
+  "Large burns cause capillary leak with hypovolemic shock and rising hematocrit over 24 to 48 hours, Pseudomonas wound sepsis, a catecholamine and cortisol driven hypermetabolic state, and later contractures or Marjolin ulcer.",
+  "Current follows low-resistance nerve, vessel, and muscle, so small entry and exit wounds hide deep necrosis, rhabdomyolysis, and myoglobinuric kidney injury; alternating current causes fibrillation while lightning causes asystole with respiratory arrest and transient Lichtenberg figures.",
+  "Radiation kills dividing basal keratinocytes through double-strand breaks (mostly via hydroxyl radicals), giving acute erythema and desquamation, then chronic atrophy, telangiectasia, fibrosis, and obliterative endarteritis, with later carcinoma or angiosarcoma; pressure above about 32 millimeters of mercury plus shear gives deep, cone-shaped ischemic ulcers, an auricular hematoma starves avascular cartilage of perichondrial diffusion, and brown recluse sphingomyelinase D produces thrombosis, neutrophil influx, and a central necrotic ulcer."
+ ],
+ "sources": [
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Tissue Renewal, Regeneration, and Repair: cutaneous wound healing and pathologic aspects of repair"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Environmental and Nutritional Diseases: injury by physical agents, thermal, electrical, and radiation injury"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "The Microcirculation and Lymphatic System: capillary fluid exchange and edema"
+  },
+  {
+   "book": "Junqueira's Basic Histology",
+   "where": "Skin; Connective Tissue; Cartilage"
+  },
+  {
+   "book": "Lippincott Illustrated Reviews: Biochemistry",
+   "where": "Collagen, fibrous proteins of the extracellular matrix, and vitamin C"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Disorders of the Skin; Renal Disease, acute kidney injury"
+  }
+ ],
+ "verify": [
+  "Phase timelines (neutrophils 6 to 24 hours, macrophages predominant by about day 3, proliferation day 3 to week 3) are consensus averages; individual texts shift each boundary by a day or two, and wound size and perfusion shift them further.",
+  "Final scar tensile strength is quoted as about 70 to 80 percent of normal skin by three months in Robbins; some sources give up to about 80 percent or state the plateau at a different interval. Confirm the figure NABNE expects.",
+  "The proportion of x-ray and gamma radiation damage attributable to indirect (hydroxyl radical) action is commonly given as about two thirds, but radiobiology texts quote values from roughly 60 to 70 percent.",
+  "Capillary closing pressure for pressure injury is given here as about 32 millimeters of mercury, a widely cited figure from arteriolar capillary pressure; values from about 12 to 32 millimeters of mercury appear depending on whether the arteriolar or venular end is meant.",
+  "Burn temperature thresholds (injury at about 44 degrees Celsius, which is 111 degrees Fahrenheit, sustained; full-thickness in seconds at about 60 degrees Celsius, which is 140 degrees Fahrenheit) come from classic thermal injury data; confirm whether specific thresholds are tested.",
+  "Pressure injury staging here follows the current four-stage system plus unstageable and deep tissue injury. Confirm which staging terminology and definitions NABNE uses, since older terminology (grades, or stage 1 to 4 only) still appears in review material.",
+  "The surface area threshold at which capillary leak becomes systemic is given here as roughly 20 percent of body surface; sources quote 15 to 30 percent.",
+  "Pediatric rule of nines adjustments vary by chart and by age; only the direction of the adjustment (larger head, smaller legs) is stated here rather than specific pediatric percentages.",
+  "Confirm whether Part I expects the eponyms Marjolin ulcer, Lichtenberg figures, keraunoparalysis, and Tamm-Horsfall protein, or only the descriptive mechanisms.",
+  "Requested new diagram names for a future revision: wound-healing-timeline (phases, dominant cells, collagen type, and tensile strength on one time axis), burn-depth-cross-section (labeled epidermis, papillary and reticular dermis with the four burn depths), rule-of-nines-figure (adult body surface percentages), and pressure-injury-stages (cross-sectional depth for stages 1 to 4)."
+ ]
+}

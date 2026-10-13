@@ -1,0 +1,697 @@
+{
+ "unit": "IN-3",
+ "chapter_id": "NPLEX-P1-INTG-03",
+ "topic_id": "NPLEX-P1-INTG-03-01",
+ "title": "Membrane Transport and Membrane Potential",
+ "subject": "Integumentary System (INTG)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter explains how the plasma membrane is built, how solutes and water cross it, and how ion gradients across it create the resting membrane potential. These ideas sit underneath nearly every system: cell swelling in hypoxic injury, glucose absorption and glucosuria, the effect of potassium on nerve, muscle, and the ECG, and the salty sweat and thick mucus of cystic fibrosis. Board questions usually change one variable, such as a pump, a channel, an ion concentration, or the solution around a cell, and ask you to predict cell volume, membrane potential, or excitability. If you can reason from gradients, permeability, and effective solute, you can answer them without memorizing each case.",
+  "prerequisites": [
+   "Structure of fatty acids (saturated and cis unsaturated), phospholipids, and cholesterol",
+   "Concentration units: mmol/L, mOsm/L, and mOsm/kg, and base 10 logarithms",
+   "Basic electricity: charge, voltage, current, and the idea of a driving force",
+   "ATP production by glycolysis and oxidative phosphorylation",
+   "Histology of the eccrine sweat gland (IN-1)"
+  ],
+  "connections": [
+   {
+    "to": "Cell adaptation and injury (IN-8)",
+    "how": "Failure of the Na+/K+-ATPase when ATP falls is the mechanism of cellular swelling, the first sign of reversible hypoxic injury."
+   },
+   {
+    "to": "Skin layers and adnexa (IN-1)",
+    "how": "Eccrine duct reabsorption of NaCl through CFTR and ENaC explains why sweat is hypotonic and why it is salty in cystic fibrosis."
+   },
+   {
+    "to": "Cardiac muscle contraction (CV-5)",
+    "how": "Extracellular K+ and the Na+/Ca2+ exchanger link the resting potential and the Na+ gradient to cardiac excitability, ECG changes, and contractility."
+   },
+   {
+    "to": "Renal reabsorption (UR-6)",
+    "how": "SGLT2 and SGLT1 in the proximal tubule are saturable carriers, so glucose appears in the urine once their transport maximum is exceeded."
+   },
+   {
+    "to": "Digestion and absorption (GI-6)",
+    "how": "Enterocytes absorb glucose and galactose by Na+-coupled SGLT1 and release them by GLUT2, a model of secondary active transport."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Amphipathic",
+    "def": "Having both a water-attracting (polar) region and a water-repelling (nonpolar) region, as phospholipids and cholesterol do."
+   },
+   {
+    "term": "Glycocalyx",
+    "def": "The carbohydrate coat on the outer cell surface formed by the sugar chains of glycoproteins, glycolipids, and proteoglycans."
+   },
+   {
+    "term": "Transport maximum (Tmax)",
+    "def": "The highest rate a carrier-mediated process can reach once every carrier is occupied, which makes the process saturable."
+   },
+   {
+    "term": "Secondary active transport",
+    "def": "Uphill movement of one solute powered by the downhill movement of another ion, usually Na+, whose gradient was built by an ATPase."
+   },
+   {
+    "term": "Electrogenic",
+    "def": "Describes a transporter that moves net charge across the membrane in each cycle and therefore directly changes membrane voltage."
+   },
+   {
+    "term": "Osmolality",
+    "def": "The number of osmoles of all dissolved particles per kilogram of water; osmolarity is the same count per liter of solution."
+   },
+   {
+    "term": "Tonicity",
+    "def": "The effect of a solution on cell volume, determined only by the solutes that cannot cross the cell membrane."
+   },
+   {
+    "term": "Effective osmole",
+    "def": "A solute that stays on one side of the membrane (reflection coefficient near 1) and therefore exerts a lasting osmotic pull on water."
+   },
+   {
+    "term": "Equilibrium (Nernst) potential",
+    "def": "The membrane voltage at which the electrical force on an ion exactly balances its concentration gradient, so its net flux is zero."
+   },
+   {
+    "term": "Resting membrane potential",
+    "def": "The steady voltage of the cell interior relative to the outside in an unstimulated cell, set mainly by K+ permeability and the K+ gradient."
+   },
+   {
+    "term": "Gibbs-Donnan effect",
+    "def": "The uneven distribution of diffusible ions and the extra osmotic load that result when impermeant charged molecules are trapped on one side of a membrane."
+   },
+   {
+    "term": "Inactivation gate",
+    "def": "The part of a voltage-gated Na+ channel that closes during sustained depolarization and reopens only after the membrane repolarizes."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-INTG-03-01-C01",
+   "obj": "IN-3.1",
+   "title": "Plasma membrane components and membrane fluidity",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The plasma membrane is a lipid bilayer about 7.5 to 10 nm thick with proteins set into it. Phospholipids are amphipathic: a polar head group attached to two fatty acid tails. In water they assemble spontaneously into a bilayer, heads facing the cytosol and the extracellular fluid and tails forming a hydrophobic core. That core is the barrier. Small nonpolar molecules such as O2, CO2, and steroids dissolve through it, small uncharged polar molecules cross slowly, and ions and larger polar molecules such as glucose essentially cannot cross without a protein."
+    },
+    {
+     "type": "p",
+     "text": "The two leaflets differ. Phosphatidylcholine and sphingomyelin predominate in the outer leaflet, while phosphatidylserine, phosphatidylethanolamine, and phosphatidylinositol lie mainly in the inner leaflet, an asymmetry maintained by ATP-dependent flippases that return aminophospholipids to the inner leaflet. Phosphatidylserine exposed on the outer surface signals phagocytes to remove an apoptotic cell, and inner leaflet phosphatidylinositol, once phosphorylated to phosphatidylinositol 4,5-bisphosphate (PIP2), is the substrate that phospholipase C cleaves into the second messengers IP3 and diacylglycerol."
+    },
+    {
+     "type": "p",
+     "text": "Integral proteins cross the bilayer, usually as alpha helices of about 20 hydrophobic amino acids, and can be removed only with detergents that dissolve the lipid; they form channels, carriers, pumps, receptors, and adhesion molecules. Peripheral proteins attach to lipid heads or integral proteins by ionic and hydrogen bonds; on the cytoplasmic side many link the membrane to the cytoskeleton, such as spectrin and ankyrin in red cells. The glycocalyx, built from the sugar chains of glycoproteins, glycolipids, and proteoglycans, lies only on the outer surface. Sialic acid and sulfated sugars give it a net negative charge, and its sugars serve as recognition and adhesion sites, including the ABO blood group antigens."
+    },
+    {
+     "type": "p",
+     "text": "Fluidity describes how freely lipids and proteins move sideways within a leaflet; movement between leaflets is rare without enzymes. It depends on how tightly the tails pack. A cis double bond puts a fixed kink in a tail, so unsaturated tails cannot pack closely and fluidity rises. Shorter tails make fewer van der Waals contacts and also raise fluidity, while long saturated tails pack tightly and order the membrane. Cholesterol acts as a buffer rather than a one-way stiffener. Its rigid ring system lies beside the upper part of the tails: at body temperature it restrains tail motion, lowering fluidity and permeability to small water-soluble molecules, and at low temperature it wedges the tails apart and prevents them from freezing into a gel. Fluidity therefore stays nearly constant over a range of temperatures."
+    },
+    {
+     "type": "table",
+     "title": "Plasma membrane components",
+     "cols": [
+      "Component",
+      "Structure",
+      "Main role",
+      "Exam link"
+     ],
+     "rows": [
+      [
+       "Phospholipids",
+       "Polar head, two fatty acid tails; asymmetric leaflets",
+       "Barrier to ions and polar solutes",
+       "Outer phosphatidylserine marks apoptotic cells"
+      ],
+      [
+       "Cholesterol",
+       "Rigid steroid rings with a small polar hydroxyl group",
+       "Buffers fluidity; lowers permeability",
+       "Excess red cell membrane cholesterol in severe liver disease produces spur cells (acanthocytes)"
+      ],
+      [
+       "Integral proteins",
+       "Span the bilayer; detergent needed to remove",
+       "Channels, carriers, pumps, receptors",
+       "Targets of most transport defects, such as CFTR (C07)"
+      ],
+      [
+       "Peripheral proteins",
+       "Bound to the surface by ionic and hydrogen bonds",
+       "Cytoskeletal links, enzymes, signaling",
+       "Spectrin and ankyrin defects in hereditary spherocytosis"
+      ],
+      [
+       "GPI-anchored proteins",
+       "Outer proteins tethered by a glycolipid anchor",
+       "Enzymes, receptors, complement regulators",
+       "Lost CD55 and CD59 in paroxysmal nocturnal hemoglobinuria"
+      ],
+      [
+       "Glycocalyx",
+       "Sugar chains on outer glycoproteins, glycolipids, proteoglycans",
+       "Negative surface charge, recognition, adhesion",
+       "ABO blood group antigens"
+      ]
+     ],
+     "caption": "Each component, its structure, and the clinical example most often used to test it."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-INTG-03-01-C02",
+   "obj": "IN-3.2",
+   "title": "Mechanisms of membrane transport",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Solutes cross the membrane through the lipid itself, through a channel, on a carrier, or inside a vesicle. Two questions classify every mechanism. Does the solute move down its electrochemical gradient (passive) or against it (active)? If active, is the energy taken directly from ATP or borrowed from another ion's gradient?"
+    },
+    {
+     "type": "p",
+     "text": "Simple diffusion is net movement down a gradient without binding to a carrier. Its rate follows Fick's law: flux equals permeability times membrane area times the concentration difference, and permeability rises with lipid solubility and falls with molecular size and membrane thickness. Because no binding sites fill up, the rate rises in a straight line with the gradient and never saturates. O2, CO2, and lipid-soluble drugs cross this way. Diffusion through open ion channels, which are selective and gated by voltage, ligand, or stretch, is also unsaturated over the physiological range."
+    },
+    {
+     "type": "p",
+     "text": "Facilitated diffusion uses a carrier that binds the solute on one side, changes shape, and releases it on the other. It moves solute only down its gradient and needs no metabolic energy, but there are a limited number of carriers, each with a finite cycling rate, so the rate approaches a maximum (Vmax, or Tmax in the kidney) as concentration rises. Carriers are also specific (D-glucose but not L-glucose) and open to competition by similar molecules. The GLUT family shows how carrier properties fit tissue roles: GLUT1 gives steady uptake into red cells and across the blood-brain barrier, GLUT2 has a high Km so that liver and pancreatic beta cell uptake tracks blood glucose, and insulin moves GLUT4 into the membrane of skeletal muscle and adipocytes."
+    },
+    {
+     "type": "p",
+     "text": "Primary active transport hydrolyzes ATP at the transporter itself to move a solute uphill: the Na+/K+-ATPase, the plasma membrane and sarcoplasmic reticulum Ca2+-ATPases, and the gastric H+/K+-ATPase. Secondary active transport couples the downhill entry of Na+ to the uphill movement of another solute. In cotransport (symport) both move the same way, as when SGLT1 carries 2 Na+ with 1 glucose or galactose into the enterocyte. In countertransport (antiport) they move in opposite directions, as with the Na+/H+ exchanger and the Na+/Ca2+ exchanger (3 Na+ in for 1 Ca2+ out). The carrier hydrolyzes no ATP, but it fails whenever the Na+/K+-ATPase fails. Both active forms are saturable: glucose appears in the urine when plasma glucose exceeds about 180 to 200 mg/dL (10 to 11 mmol/L) because proximal tubule SGLT2 and SGLT1 are then working at capacity."
+    },
+    {
+     "type": "p",
+     "text": "Vesicular transport moves fluid, macromolecules, and particles and needs ATP. Pinocytosis takes in extracellular fluid, phagocytosis engulfs particles such as bacteria, and receptor-mediated endocytosis concentrates ligands in clathrin-coated pits, as when LDL receptors take up LDL. Exocytosis releases vesicle contents, usually triggered by a rise in cytosolic Ca2+."
+    },
+    {
+     "type": "table",
+     "title": "Membrane transport compared",
+     "cols": [
+      "Mechanism",
+      "Energy source",
+      "Direction",
+      "Saturable",
+      "Example"
+     ],
+     "rows": [
+      [
+       "Simple diffusion",
+       "None (the gradient itself)",
+       "Down gradient",
+       "No",
+       "O2 and CO2 across the lipid"
+      ],
+      [
+       "Facilitated diffusion",
+       "None",
+       "Down gradient",
+       "Yes",
+       "GLUT1 in red cells; GLUT4 in muscle and fat"
+      ],
+      [
+       "Primary active",
+       "ATP hydrolyzed by the transporter",
+       "Against gradient",
+       "Yes",
+       "Na+/K+-ATPase (3 Na+ out, 2 K+ in)"
+      ],
+      [
+       "Secondary active",
+       "Na+ gradient built by the Na+/K+-ATPase",
+       "Against gradient for the coupled solute",
+       "Yes",
+       "SGLT1 (2 Na+ with 1 glucose); Na+/Ca2+ exchanger"
+      ],
+      [
+       "Endocytosis",
+       "ATP",
+       "Into the cell in vesicles",
+       "Yes when receptor-mediated",
+       "LDL receptor in clathrin-coated pits"
+      ]
+     ],
+     "caption": "Carrier-mediated and receptor-mediated processes saturate because the number of binding sites is limited; simple diffusion does not."
+    },
+    {
+     "type": "flow",
+     "title": "Glucose absorption across the enterocyte",
+     "steps": [
+      "Basolateral Na+/K+-ATPase pumps Na+ out, keeping cell Na+ low",
+      "Apical SGLT1 carries 2 Na+ and 1 glucose into the cell",
+      "Glucose rises inside the cell above its plasma level",
+      "Basolateral GLUT2 releases glucose by facilitated diffusion",
+      "Glucose enters portal blood"
+     ],
+     "caption": "Primary active, secondary active, and facilitated transport working in series across one epithelial cell."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-INTG-03-01-C03",
+   "obj": "IN-3.3",
+   "title": "The Na+/K+-ATPase, cell volume, and hypoxic cell swelling",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The Na+/K+-ATPase is a P-type ATPase. Its alpha subunit carries the ion binding sites, the ATP site, and an extracellular site where cardiac glycosides bind; its beta subunit is needed for assembly and delivery to the membrane. Each cycle hydrolyzes one ATP and moves 3 Na+ out and 2 K+ in, both against their gradients, so it exports one net positive charge and is electrogenic. It keeps intracellular Na+ near 10 to 15 mmol/L and K+ near 140 mmol/L, and it consumes a large share of a cell's resting ATP, especially in neurons."
+    },
+    {
+     "type": "p",
+     "text": "The pump is also the cell's volume regulator. Cells contain impermeant anionic proteins and organic phosphates that draw in cations and water (the Gibbs-Donnan effect, C05). The membrane leaks Na+ slowly, and by expelling Na+ as fast as it enters, the pump makes Na+ behave as if it were an impermeant extracellular solute that balances the pull of the trapped anions. This is the pump-leak model of steady cell volume."
+    },
+    {
+     "type": "p",
+     "text": "When the pump stops, the consequences unfold at different speeds. Its small electrogenic contribution disappears at once, so the membrane depolarizes (becomes less negative) by a few millivolts. Over minutes, Na+ leaks in and K+ leaks out down gradients that are no longer restored, Cl- enters as the interior becomes less negative, and water follows the net gain of solute, so the cell swells. As the K+ gradient runs down, E(K) becomes less negative and the membrane depolarizes further, first raising and then lowering excitability (C06). Partial inhibition by a cardiac glycoside such as digoxin shows a milder form in cardiac myocytes: higher intracellular Na+ weakens the gradient that drives Ca2+ out through the Na+/Ca2+ exchanger, more Ca2+ is stored and released by the sarcoplasmic reticulum, and contractility rises. Digoxin competes with K+ at its binding site, which is why hypokalemia increases its binding."
+    },
+    {
+     "type": "table",
+     "title": "Predicted effects of stopping the Na+/K+-ATPase",
+     "cols": [
+      "Variable",
+      "Change",
+      "Reason"
+     ],
+     "rows": [
+      [
+       "Intracellular Na+",
+       "Rises",
+       "Na+ leak continues without removal"
+      ],
+      [
+       "Intracellular K+",
+       "Falls",
+       "K+ leaks out and is not pumped back"
+      ],
+      [
+       "Cell volume",
+       "Increases",
+       "Na+ and Cl- gain draws water in"
+      ],
+      [
+       "Membrane potential",
+       "Depolarizes",
+       "Loss of electrogenic current, then a smaller K+ gradient"
+      ],
+      [
+       "Intracellular Ca2+",
+       "Rises",
+       "Weaker Na+ gradient slows Ca2+ extrusion by the Na+/Ca2+ exchanger"
+      ]
+     ],
+     "caption": "The same pattern follows a pump inhibitor, cold, or a lack of ATP."
+    },
+    {
+     "type": "p",
+     "text": "Hypoxic injury reaches the same chain by removing ATP instead of blocking the pump. Without oxygen, oxidative phosphorylation stops, ATP falls, the pump slows, and Na+ and water enter. Anaerobic glycolysis briefly supplies ATP but depletes glycogen and produces lactic acid, lowering intracellular pH and clumping nuclear chromatin, and ribosomes detach from the rough endoplasmic reticulum, so protein synthesis falls. Under the microscope this is cellular swelling, or hydropic change: enlarged, pale cells with small clear vacuoles of distended endoplasmic reticulum. It is the earliest change of reversible injury and resolves if oxygen returns. Sustained Ca2+ influx, severe mitochondrial damage, and loss of membrane integrity mark the move toward irreversible injury."
+    },
+    {
+     "type": "flow",
+     "title": "Hypoxic cell swelling",
+     "steps": [
+      "Hypoxia halts oxidative phosphorylation; ATP falls",
+      "Na+/K+-ATPase slows",
+      "Na+ accumulates inside; K+ leaks out",
+      "Water follows the gained solute into the cell",
+      "Hydropic swelling, membrane blebs, swollen mitochondria, dilated ER",
+      "Reversible if oxygen and ATP are restored"
+     ],
+     "caption": "The causal chain from ATP depletion to the first visible sign of reversible cell injury."
+    },
+    {
+     "type": "stop",
+     "predict": "Red cells stored for transfusion at 4 °C (39 °F) have almost no Na+/K+-ATPase activity. Predict their intracellular K+, the K+ concentration of the surrounding fluid, and their volume.",
+     "explain": "With the pump stopped by cold, K+ leaks out and Na+ leaks in, so cell K+ falls, the K+ of the storage fluid rises, and Na+, Cl-, and water entry swell the cells.",
+     "check": "Compare your answer with the table of predicted effects of stopping the pump."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-INTG-03-01-C04",
+   "obj": "IN-3.4",
+   "title": "Osmosis, osmolarity, and tonicity",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Osmosis is net diffusion of water across a membrane that is more permeable to water than to solute, from the side with fewer solute particles toward the side with more. Water crosses the lipid bilayer slowly and crosses much faster through aquaporin channels. The pressure needed to stop osmosis is the osmotic pressure, which by the van't Hoff relation is proportional to the concentration of osmotically active particles. At body temperature each 1 mOsm/L difference corresponds to about 19.3 mmHg, so even small solute differences move large amounts of water."
+    },
+    {
+     "type": "p",
+     "text": "Osmolarity is osmoles per liter of solution, and osmolality is osmoles per kilogram of water; in body fluids they are nearly equal, and laboratories measure osmolality by freezing point depression. Both count every dissolved particle, so 1 mmol of NaCl gives close to 2 mOsm because it dissociates. Normal plasma osmolality is about 285 to 295 mOsm/kg and can be estimated as 2 x Na+ (mmol/L) + glucose/18 + BUN/2.8, with glucose and BUN in mg/dL."
+    },
+    {
+     "type": "p",
+     "text": "Tonicity is a different question: what will this solution do to cell volume? Only effective osmoles count, meaning solutes that cannot cross the cell membrane (reflection coefficient near 1). Water moves until the effective osmolality inside and outside is equal, and cells hold about 290 mOsm/kg of effectively impermeant solute, mostly K+ with its anions. A solution with the same effective osmolality is isotonic, one with less is hypotonic and swells cells, and one with more is hypertonic and shrinks them. Because cells behave approximately as osmometers, their water volume changes in inverse proportion to the effective osmolality around them."
+    },
+    {
+     "type": "p",
+     "text": "A permeant solute adds to osmolarity but not to tonicity. Urea crosses most cell membranes quickly, through the lipid and through urea transporters, so its reflection coefficient is near 0: it reaches the same concentration inside and outside and exerts no lasting pull. Na+ with its accompanying anions sits at the other extreme, with a coefficient near 1. An isosmotic urea solution therefore acts like pure water for a red cell: urea diffuses in, water follows, and the cell swells and lyses. In the body, a high BUN in renal failure raises measured osmolality without shrinking cells, and ethanol behaves the same way. By contrast, a rise in plasma Na+, or in glucose when insulin action is lacking, draws water out of cells, which is why hyperglycemia lowers plasma Na+ by dilution."
+    },
+    {
+     "type": "table",
+     "title": "Cell volume in different solutions",
+     "cols": [
+      "Solution",
+      "Osmolarity",
+      "Effective osmolality vs cell",
+      "Water movement",
+      "Cell volume"
+     ],
+     "rows": [
+      [
+       "0.9% NaCl",
+       "About 308 mOsm/L calculated (behaves as about 286)",
+       "Equal",
+       "None",
+       "No change"
+      ],
+      [
+       "0.45% NaCl",
+       "About 154 mOsm/L",
+       "Lower",
+       "Into cell",
+       "Swells"
+      ],
+      [
+       "3% NaCl",
+       "About 1,026 mOsm/L",
+       "Higher",
+       "Out of cell",
+       "Shrinks"
+      ],
+      [
+       "300 mOsm/L urea",
+       "Isosmotic",
+       "Lower (urea enters the cell)",
+       "Into cell",
+       "Swells and lyses"
+      ],
+      [
+       "150 mOsm/L NaCl plus 150 mOsm/L urea",
+       "Isosmotic",
+       "Lower (only the NaCl counts)",
+       "Into cell",
+       "Swells, as in 0.45% NaCl"
+      ]
+     ],
+     "caption": "Osmolarity counts all particles; tonicity, and therefore cell volume, depends only on the solutes that stay outside."
+    },
+    {
+     "type": "example",
+     "title": "Isosmotic is not the same as isotonic",
+     "text": "A red cell with an effective osmolality of 290 mOsm/kg is placed in a solution of 150 mOsm/L NaCl plus 150 mOsm/L urea. Step 1: total osmolarity is 300 mOsm/L, so the solution is isosmotic. Step 2: urea crosses the membrane and equalizes, so it contributes nothing to tonicity; the effective osmolality outside is 150. Step 3: water enters until the inside also reaches about 150, which requires the cell water to nearly double (290/150 is about 1.9). Step 4: a red cell has a fixed surface area and can swell only until it becomes a sphere, so it lyses before reaching that volume. The solution is isosmotic but hypotonic."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-INTG-03-01-C05",
+   "obj": "IN-3.5",
+   "title": "Equilibrium potentials and the resting membrane potential",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "If a membrane is permeable to one ion only, that ion diffuses down its concentration gradient and carries charge with it, building a voltage that opposes further movement. The equilibrium (Nernst) potential is the voltage at which the electrical force exactly balances the chemical force, so net flux stops. Only a tiny number of ions must cross to create this voltage, so bulk concentrations are essentially unchanged."
+    },
+    {
+     "type": "p",
+     "text": "At 37 °C (98.6 °F) the Nernst equation simplifies to E = (61/z) x log10([ion]out/[ion]in) in millivolts, where z is the valence and E is the inside relative to the outside. A cation concentrated outside has a positive E, one concentrated inside a negative E, and for an anion the sign flips because z is negative. A tenfold gradient gives about 61 mV for a monovalent ion and about 30 mV for a divalent ion."
+    },
+    {
+     "type": "table",
+     "title": "Typical concentrations and equilibrium potentials",
+     "cols": [
+      "Ion",
+      "Outside (mmol/L)",
+      "Inside (mmol/L)",
+      "Equilibrium potential"
+     ],
+     "rows": [
+      [
+       "K+",
+       "4",
+       "140",
+       "About -94 mV"
+      ],
+      [
+       "Na+",
+       "142",
+       "14",
+       "About +61 mV"
+      ],
+      [
+       "Cl-",
+       "About 105",
+       "About 5 to 10 (varies by cell)",
+       "About -60 to -80 mV"
+      ],
+      [
+       "Ca2+ (ionized)",
+       "About 1.2",
+       "About 0.0001",
+       "About +120 to +130 mV"
+      ]
+     ],
+     "caption": "Values follow Guyton for a large nerve fiber; intracellular Cl- and therefore E(Cl) vary between cell types."
+    },
+    {
+     "type": "p",
+     "text": "Real membranes pass several ions, so the potential is a weighted compromise given by the Goldman equation: Vm = 61 x log10[(PK[K]out + PNa[Na]out + PCl[Cl]in) / (PK[K]in + PNa[Na]in + PCl[Cl]out)], where P is permeability. The Cl- terms are inverted because Cl- is negative. The potential lies closest to the equilibrium potential of the most permeable ion and changes whenever permeability changes, not only when concentrations change. That is the basis of the action potential, in which a surge of Na+ permeability pulls Vm toward E(Na)."
+    },
+    {
+     "type": "p",
+     "text": "At rest, K+ leak channels (two-pore domain and inward rectifier) are open, and K+ permeability is about 100 times Na+ permeability in Guyton's large nerve fiber. The potential therefore sits near E(K), pulled slightly positive by the Na+ leak. This is a steady state, not an equilibrium: the leaks continue, and only the pump keeps the gradients from running down. Guyton builds the value in steps: K+ diffusion alone gives about -94 mV, the Na+ leak brings it to about -86 mV, and the electrogenic pump adds about -4 mV, totaling about -90 mV. Typical resting values are about -70 mV in many neurons and about -90 mV in skeletal and ventricular muscle. In many cells Cl- distributes passively, so E(Cl) lies near Vm and Cl- follows the potential rather than setting it."
+    },
+    {
+     "type": "p",
+     "text": "The Gibbs-Donnan effect explains a further constraint. Proteins and organic phosphates are trapped inside and mostly negatively charged at body pH. To keep electroneutrality they hold extra diffusible cations inside and push diffusible anions out, until the products of the diffusible ion concentrations are equal on both sides ([K+]in x [Cl-]in = [K+]out x [Cl-]out). The result is a small inside-negative Donnan potential and more osmotically active particles inside than outside, so water would keep entering until the cell burst. The Na+/K+-ATPase prevents this by keeping Na+ effectively outside (C03)."
+    },
+    {
+     "type": "example",
+     "title": "Calculating E(K) and seeing why extracellular K+ matters",
+     "text": "With K+ of 4 mmol/L outside and 140 inside, the ratio is 4/140 = 0.029, whose log10 is about -1.54; multiplied by 61 this gives E(K) of about -94 mV. Now raise extracellular K+ to 7 mmol/L. The ratio becomes 7/140 = 0.05, log10 about -1.30, and E(K) about -79 mV. A rise of only 3 mmol/L outside moves E(K) about 15 mV toward zero, and because the resting potential tracks E(K), the cell depolarizes by a similar amount. A 3 mmol/L fall inside, from 140 to 137, would change E(K) by less than 1 mV."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-INTG-03-01-C06",
+   "obj": "IN-3.6",
+   "title": "Potassium, resting potential, and excitability",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Because resting K+ permeability is high, the resting potential tracks E(K), and E(K) is far more sensitive to extracellular than intracellular K+. Intracellular K+ is about 140 mmol/L, while plasma K+ is normally only about 3.5 to 5.0 mmol/L, so a change of a few mmol/L outside alters the ratio greatly (C05 example). Only about 2% of total body K+ is extracellular, so shifts between cells and plasma can change plasma K+ quickly."
+    },
+    {
+     "type": "p",
+     "text": "In hyperkalemia the K+ gradient shrinks, E(K) becomes less negative, and the resting membrane depolarizes. A small depolarization brings the membrane closer to threshold, which is the voltage at which inward Na+ current first exceeds outward K+ current and depolarization becomes self-sustaining, so excitability may rise briefly. Sustained depolarization does the opposite because of how voltage-gated Na+ channels behave. Each has an activation gate that opens quickly on depolarization and an inactivation gate that closes more slowly and stays closed while the membrane remains depolarized; it reopens only after the membrane repolarizes to a sufficiently negative voltage. In a chronically depolarized cell a growing fraction of Na+ channels is therefore inactivated. Fewer available channels give a slower, smaller upstroke, slower conduction, and finally failure to fire, so skeletal muscle weakens and can become paralyzed even though the voltage sits closer to threshold."
+    },
+    {
+     "type": "p",
+     "text": "In the heart, the slower phase 0 upstroke widens the QRS, and slowed atrial conduction flattens the P wave. High extracellular K+ also increases the conductance of several K+ channels, so repolarization speeds up and T waves become tall and peaked. At severe levels the QRS merges into the T wave in a sine wave pattern before ventricular fibrillation or asystole."
+    },
+    {
+     "type": "p",
+     "text": "Hypokalemia works the other way: the gradient is larger, E(K) is more negative, and the membrane hyperpolarizes, so a larger stimulus is needed to reach threshold. Skeletal muscle weakness and cramps and smooth muscle hypomotility with ileus follow. In the heart, low extracellular K+ reduces K+ channel conductance, which delays repolarization: T waves flatten, U waves become prominent, and early and delayed afterdepolarizations make ectopic beats more likely. When K+ conductance falls far enough, cardiac cells can paradoxically depolarize, an exception to the simple Goldman prediction. Extracellular Ca2+ acts by a separate mechanism: it binds negative charges near Na+ channels and shifts their opening to more depolarized voltages, so hypocalcemia lowers the threshold and causes tetany without changing the resting potential much."
+    },
+    {
+     "type": "table",
+     "title": "Hyperkalemia and hypokalemia compared",
+     "cols": [
+      "Feature",
+      "Hyperkalemia (above about 5.0 mmol/L)",
+      "Hypokalemia (below about 3.5 mmol/L)"
+     ],
+     "rows": [
+      [
+       "E(K)",
+       "Less negative",
+       "More negative"
+      ],
+      [
+       "Resting potential",
+       "Depolarized",
+       "Hyperpolarized (paradoxical depolarization if severe in heart)"
+      ],
+      [
+       "Na+ channel availability",
+       "Reduced by inactivation",
+       "Normal or increased"
+      ],
+      [
+       "Nerve and skeletal muscle",
+       "Brief hyperexcitability, then weakness and paralysis",
+       "Weakness, cramps; ileus in smooth muscle"
+      ],
+      [
+       "Cardiac repolarization",
+       "Faster (higher K+ conductance)",
+       "Slower (lower K+ conductance)"
+      ],
+      [
+       "ECG",
+       "Peaked T, flat P, wide QRS, sine wave",
+       "Flat T, prominent U waves, ectopic beats"
+      ]
+     ],
+     "caption": "Both extremes reduce excitability of nerve and skeletal muscle, by different mechanisms."
+    },
+    {
+     "type": "flow",
+     "title": "Sustained hyperkalemia to weakness",
+     "steps": [
+      "Extracellular K+ rises",
+      "E(K) becomes less negative",
+      "Resting membrane depolarizes",
+      "Na+ channel inactivation gates close and stay closed",
+      "Fewer Na+ channels available to open",
+      "Slower upstroke, slowed conduction, failure to fire",
+      "Muscle weakness, wide QRS, arrhythmia"
+     ],
+     "caption": "Why a membrane closer to threshold becomes less excitable, not more."
+    },
+    {
+     "type": "stop",
+     "predict": "Plasma K+ rises from 4 to 8 mmol/L over a day. Predict the resting potential of a skeletal muscle fiber, the number of Na+ channels available to open, and muscle strength.",
+     "explain": "E(K) and the resting potential become less negative; sustained depolarization keeps inactivation gates closed, so fewer Na+ channels are available, action potentials fail, and strength falls.",
+     "check": "Compare with the paragraph on inactivation gates and the hyperkalemia flow."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-INTG-03-01-C07",
+   "obj": "IN-3.7",
+   "title": "CFTR in the sweat duct and the airway",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "CFTR (cystic fibrosis transmembrane conductance regulator) is encoded on chromosome 7 and belongs to the ATP-binding cassette (ABC) transporter family, but it works as an anion channel. It opens when cAMP-dependent protein kinase A phosphorylates its regulatory domain and ATP binds its nucleotide-binding domains. It conducts Cl- and HCO3- and also regulates other transporters, notably the epithelial Na+ channel (ENaC). As a channel it does not choose a direction: Cl- moves down its electrochemical gradient, which points inward in an absorbing epithelium and outward in a secreting one."
+    },
+    {
+     "type": "p",
+     "text": "The eccrine sweat gland has two parts. The secretory coil makes a primary fluid nearly isotonic with plasma; on cholinergic stimulation its Cl- secretion relies largely on Ca2+-activated Cl- channels, so people with cystic fibrosis (CF) produce a fairly normal volume of sweat. In the duct, cells reabsorb Cl- through apical CFTR and Na+ through ENaC, and because the duct is relatively impermeable to water, salt is removed without water and the sweat reaching the skin is hypotonic. In CF, Cl- cannot be reabsorbed. Na+ reabsorption also falls, because the retained Cl- leaves the lumen more negative and because ENaC activity in the duct depends on working CFTR, so the sweat stays salty. A sweat chloride of 60 mmol/L or higher supports CF, 30 to 59 mmol/L is intermediate, and below 30 mmol/L makes CF unlikely. Heavy sweating can deplete salt, producing hyponatremic, hypochloremic dehydration with metabolic alkalosis."
+    },
+    {
+     "type": "p",
+     "text": "In the airway the same channel secretes. Basolateral Na+-K+-2Cl- cotransporters, powered by the Na+ gradient, load the cell with Cl-, and apical CFTR lets it flow into the lumen; Na+ follows between the cells and water follows the salt. This keeps the periciliary liquid deep enough for cilia to beat. In CF, Cl- and HCO3- secretion fail and ENaC-mediated Na+ absorption increases, so salt and water are drawn out of the airway surface liquid. Mucus becomes dehydrated, acidic, and poorly expanded, cilia are flattened, and clearance fails. Retained mucus is colonized, commonly first by Staphylococcus aureus and Haemophilus influenzae and later by mucoid Pseudomonas aeruginosa, and neutrophil-driven inflammation leads to bronchiectasis. The abnormally negative nasal potential difference in CF reflects this excess Na+ absorption."
+    },
+    {
+     "type": "table",
+     "title": "One channel, opposite jobs",
+     "cols": [
+      "Feature",
+      "Sweat duct",
+      "Airway epithelium"
+     ],
+     "rows": [
+      [
+       "Normal CFTR role",
+       "Cl- reabsorption from lumen",
+       "Cl- and HCO3- secretion into lumen"
+      ],
+      [
+       "ENaC in CF",
+       "Decreased",
+       "Increased"
+      ],
+      [
+       "Water movement",
+       "Little; duct is water-tight",
+       "Follows salt across the epithelium"
+      ],
+      [
+       "Result in CF",
+       "Salty sweat; salt depletion with heavy sweating",
+       "Dehydrated mucus, infection, bronchiectasis"
+      ],
+      [
+       "Measured finding",
+       "Sweat chloride 60 mmol/L or higher",
+       "More negative nasal potential difference"
+      ]
+     ],
+     "caption": "Loss of CFTR raises salt in sweat but removes water from airway mucus."
+    },
+    {
+     "type": "p",
+     "text": "The same failure of secretion plugs other ducts: the pancreas (exocrine insufficiency with fat malabsorption and deficient vitamins A, D, E, and K), the newborn ileum (meconium ileus), bile ductules (focal biliary cirrhosis), and the vas deferens, which is absent on both sides in nearly all affected males. CF is autosomal recessive. The most common mutation, F508del, misfolds the protein, which is retained in the endoplasmic reticulum and degraded, so little CFTR reaches the membrane."
+    },
+    {
+     "type": "flow",
+     "title": "Cystic fibrosis airway disease",
+     "steps": [
+      "CFTR mutation such as F508del; protein degraded",
+      "Airway cells cannot secrete Cl- and HCO3-",
+      "ENaC Na+ absorption increases",
+      "Airway surface liquid depleted; mucus dehydrates",
+      "Mucociliary clearance fails",
+      "Chronic infection and neutrophil inflammation cause bronchiectasis"
+     ],
+     "caption": "From a misfolded channel to structural airway damage."
+    },
+    {
+     "type": "stop",
+     "predict": "A child with CF receives a cholinergic stimulus to the skin. Predict the volume of sweat and its chloride concentration compared with a healthy child.",
+     "explain": "Volume is near normal because the coil secretes through Ca2+-activated Cl- channels, but chloride is high because the duct cannot reabsorb Cl- through CFTR.",
+     "check": "Reread the sweat gland paragraph and the sweat duct column of the table."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Membrane transport links every Part I discipline through one principle: the ion gradients that the Na+/K+-ATPase builds are the energy supply for volume control, nutrient uptake, and electrical signaling. Biochemistry explains why fatty acid saturation and cholesterol change fluidity and why hypoxia removes the ATP that powers the pump. Physiology turns gradients into numbers with the Nernst and Goldman equations and predicts cell volume from effective osmoles. Pathology reads the same chain backward, from hydropic swelling to pump failure, and from a wide QRS to K+-driven Na+ channel inactivation. Genetics and microbiology meet in cystic fibrosis, where a misfolded channel changes salt movement in opposite directions in two epithelia and leaves the airway open to chronic infection."
+  },
+  {
+   "type": "p",
+   "text": "The limits matter. The Goldman equation assumes steady permeabilities, so it cannot predict paradoxical depolarization when K+ conductance itself falls in severe hypokalemia. Cells are not perfect osmometers, because part of their volume is solid and many regulate volume actively over minutes to hours. Reference values for intracellular ions, resting potentials, and sweat chloride vary between sources and cell types, so learn the direction of each change and the reasoning rather than a single number."
+  }
+ ],
+ "summary": [
+  "Cis double bonds and short fatty acid tails increase membrane fluidity; cholesterol buffers fluidity, lowering it when warm and preventing gel formation when cold.",
+  "Simple diffusion is not saturable; facilitated diffusion and primary and secondary active transport use a limited number of carriers and saturate at a maximum rate.",
+  "SGLT1 and SGLT2 use no ATP themselves but depend on the Na+ gradient built by the Na+/K+-ATPase; GLUT carriers move glucose only down its gradient.",
+  "The Na+/K+-ATPase moves 3 Na+ out and 2 K+ in per ATP; stopping it raises cell Na+, swells the cell, and depolarizes the membrane.",
+  "ATP loss in hypoxia stops the pump, and Na+ and water entry produces hydropic swelling, the earliest sign of reversible injury.",
+  "Osmolarity counts all particles; tonicity counts only effective osmoles, so urea raises osmolarity but not tonicity, and isosmotic urea lyses red cells.",
+  "E = (61/z) x log(out/in); E(K) is about -94 mV and E(Na) about +61 mV, and the resting potential lies near E(K) because resting K+ permeability is highest.",
+  "Trapped intracellular anions (Gibbs-Donnan effect) would swell the cell; the pump prevents this by keeping Na+ effectively outside.",
+  "Hyperkalemia depolarizes and, if sustained, inactivates Na+ channels, lowering excitability; hypokalemia hyperpolarizes and slows cardiac repolarization.",
+  "CFTR reabsorbs Cl- in the sweat duct and secretes Cl- in the airway, so CF gives sweat chloride of 60 mmol/L or higher and dehydrated airway mucus."
+ ],
+ "sources": [
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Transport of Substances Through Cell Membranes"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Membrane Potentials and Action Potentials"
+  },
+  {
+   "book": "Boron and Boulpaep Medical Physiology",
+   "where": "Transport of solutes and water; electrophysiology of the cell membrane"
+  },
+  {
+   "book": "Lippincott Illustrated Reviews: Biochemistry",
+   "where": "Phospholipid and cholesterol structure and membrane lipids"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Cell injury and cell death; cystic fibrosis in genetic and pediatric diseases"
+  }
+ ],
+ "verify": [
+  "The Nernst constant at 37 °C (98.6 °F) is given as 61 mV in Guyton and as 61.5 or about 62 mV elsewhere; calculated equilibrium potentials differ by about 1 mV.",
+  "Resting potentials, the K+ to Na+ permeability ratio, and intracellular Cl- vary between sources and cell types; the values here follow Guyton's large nerve fiber.",
+  "Sweat chloride cutoffs (60 mmol/L or higher supports CF, 30 to 59 intermediate, below 30 unlikely) follow current Cystic Fibrosis Foundation consensus; confirm the values NABNE uses.",
+  "The renal threshold for glucose is quoted from about 180 to 200 mg/dL depending on the source.",
+  "The calculated osmolarity of 0.9% NaCl is about 308 mOsm/L, but its measured osmolality is about 286 mOsm/kg because NaCl does not fully dissociate; sources differ in which value they cite.",
+  "Paradoxical depolarization of cardiac cells in severe hypokalemia is described in Boron and Boulpaep and the electrophysiology literature; confirm whether NABNE tests it.",
+  "The order of airway colonization in CF (Staphylococcus aureus and Haemophilus influenzae early, Pseudomonas aeruginosa later) is the usual teaching pattern but varies by patient and region.",
+  "No membrane schematics exist in the diagram list. Requested new diagram names: membrane-bilayer (phospholipid leaflets, cholesterol, integral and peripheral proteins, glycocalyx) and membrane-potential-scale (E(K), resting potential, threshold, and E(Na) on one voltage line with the shifts in hyperkalemia and hypokalemia)."
+ ]
+}

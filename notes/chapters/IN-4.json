@@ -1,0 +1,712 @@
+{
+ "unit": "IN-4",
+ "chapter_id": "NPLEX-P1-INTG-04",
+ "topic_id": "NPLEX-P1-INTG-04-01",
+ "title": "Thermoregulation",
+ "subject": "Integumentary System (INTG)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter explains how the hypothalamus holds core temperature near its set point by balancing heat loss through the skin against heat conservation and production, and what happens when that balance fails. It covers the hypothalamic controller, the physics of heat loss, cold defenses including brown fat, fever, heat illness, malignant hyperthermia, hypothermia, and cold injury. Board questions turn on a few distinctions: whether the set point has moved (fever) or the controller is overwhelmed (hyperthermia), whether thermoregulation still works (heat exhaustion) or has failed (heat stroke), and which route of heat loss remains when the environment is hotter than the skin.",
+  "prerequisites": [
+   "Sympathetic adrenergic and cholinergic receptors and their second messengers (NE-9)",
+   "Chemiosmotic coupling of electron transport to ATP synthase",
+   "Skeletal muscle excitation-contraction coupling, DHP receptor, RYR1, and SERCA (MS-7)",
+   "Innate immune recognition, cytokines, and the cyclooxygenase pathway (IM-6, IM-13)",
+   "Cardiac action potential and the normal ECG (CV-7)"
+  ],
+  "connections": [
+   {
+    "to": "Hypothalamic and limbic function (NE-12)",
+    "how": "The preoptic and posterior hypothalamic nuclei that set and defend core temperature sit beside the centers for thirst, feeding, and pituitary control, so one lesion often disturbs several of these."
+   },
+   {
+    "to": "Skin layers and adnexa (IN-1)",
+    "how": "Eccrine sweat glands, arrector pili muscles, dermal arteriovenous anastomoses, and subcutaneous fat are the effectors and insulation this chapter puts to work."
+   },
+   {
+    "to": "Muscle contraction (MS-7)",
+    "how": "Shivering, malignant hyperthermia, and exertional rhabdomyolysis are all explained by how skeletal muscle handles Ca2+ and ATP."
+   },
+   {
+    "to": "Cell and cytokine signaling (IM-6)",
+    "how": "IL-1, IL-6, and TNF-alpha released in infection and injury reset the hypothalamic set point through PGE2."
+   },
+   {
+    "to": "Conduction system and ECG (CV-7)",
+    "how": "Cooling slows pacemaker and conduction currents, producing bradycardia, interval prolongation, Osborn waves, and fibrillation."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Core temperature",
+    "def": "Temperature of the deep tissues (brain, thoracic and abdominal organs), held near about 37 °C (98.6 °F) while skin temperature varies."
+   },
+   {
+    "term": "Set point",
+    "def": "The core temperature the hypothalamus defends; signals above it trigger heat loss and signals below it trigger heat conservation and production."
+   },
+   {
+    "term": "Preoptic area",
+    "def": "Anterior hypothalamic region containing warm-sensitive neurons; it acts as the heat loss center."
+   },
+   {
+    "term": "Evaporative heat loss",
+    "def": "Heat removed as water changes to vapor on skin and airways, about 0.58 kcal per gram, requiring a water vapor pressure gradient rather than a temperature gradient."
+   },
+   {
+    "term": "Nonshivering thermogenesis",
+    "def": "Heat production without muscle contraction, mainly by sympathetic activation of UCP1 in brown fat."
+   },
+   {
+    "term": "UCP1 (thermogenin)",
+    "def": "Inner mitochondrial membrane protein of brown adipocytes that lets protons re-enter the matrix without passing through ATP synthase, releasing the gradient as heat."
+   },
+   {
+    "term": "Endogenous pyrogen",
+    "def": "A host cytokine, chiefly IL-1, IL-6, or TNF-alpha, that raises the hypothalamic set point."
+   },
+   {
+    "term": "Fever",
+    "def": "A regulated rise in core temperature caused by an increase in the set point."
+   },
+   {
+    "term": "Hyperthermia",
+    "def": "A rise in core temperature with an unchanged set point, because heat gain or production exceeds heat loss."
+   },
+   {
+    "term": "Heat stroke",
+    "def": "Core temperature above 40 °C (104 °F) with central nervous system dysfunction."
+   },
+   {
+    "term": "Malignant hyperthermia",
+    "def": "Inherited skeletal muscle hypermetabolic crisis, usually from an RYR1 mutation, triggered by volatile anesthetics or succinylcholine."
+   },
+   {
+    "term": "Osborn (J) wave",
+    "def": "A positive deflection at the junction of the QRS complex and ST segment that appears and grows as core temperature falls."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-INTG-04-01-C01",
+   "obj": "IN-4.1",
+   "title": "The hypothalamic thermostat",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Core temperature stays within about 0.6 °C (1 °F) of its set point across a wide range of environments, while skin temperature rises and falls with the surroundings. Oral core temperature averages about 37 °C (98.6 °F), with a daily rhythm that is lowest in the early morning and highest in the late afternoon; rectal readings run a few tenths of a degree higher. The controller is the hypothalamus, which works as a negative feedback thermostat: it compares sensed temperature with the set point and drives heat loss or heat gain to cancel the difference."
+    },
+    {
+     "type": "p",
+     "text": "Two sets of sensors feed it. Core sensing occurs mainly in the preoptic and anterior hypothalamus, where warm-sensitive neurons increase their firing as the temperature of the blood perfusing them rises; they outnumber cold-sensitive neurons there by about three to one. Deep receptors in the spinal cord, abdominal viscera, and great veins add core information. Skin thermoreceptors, mostly cold receptors (several times more numerous than warm receptors), are free nerve endings with temperature-gated TRP channels such as TRPM8 for cooling. Their signals reach the posterior hypothalamus, which integrates them with the preoptic signals. Skin input lets the body respond before the core changes, so stepping into cold air triggers vasoconstriction and shivering while core temperature is still normal."
+    },
+    {
+     "type": "p",
+     "text": "The effector side is divided. The preoptic and anterior hypothalamus is the heat loss center: when sensed temperature exceeds the set point, it withdraws sympathetic vasoconstrictor tone to the skin, activates active cutaneous vasodilation, and drives sweating through sympathetic cholinergic fibers acting on M3 receptors of eccrine glands. It also inhibits the heat production centers. The posterior hypothalamus is the heat conservation and production center: when temperature falls below the set point, it drives sympathetic cutaneous vasoconstriction, piloerection, shivering from the primary motor center for shivering in its dorsomedial portion, and sympathetic and thyroid driven thermogenesis. Behavioral responses, such as seeking shelter or adding clothing, are the most powerful of all and depend on conscious perception of comfort."
+    },
+    {
+     "type": "cycle",
+     "title": "Negative feedback against a rise in core temperature",
+     "steps": [
+      "Core temperature rises above the set point",
+      "Preoptic warm-sensitive neurons fire faster",
+      "Skin vasodilation and sweating increase",
+      "Heat loss exceeds heat production",
+      "Core temperature falls toward the set point",
+      "Warm-sensitive firing returns to baseline"
+     ],
+     "caption": "The same loop runs in reverse in the cold, with reduced warm-sensitive firing releasing posterior hypothalamic vasoconstriction and shivering."
+    },
+    {
+     "type": "table",
+     "title": "Hypothalamic regions in temperature control",
+     "cols": [
+      "Region",
+      "Main role",
+      "Responses driven",
+      "Effect of a lesion"
+     ],
+     "rows": [
+      [
+       "Preoptic and anterior hypothalamus",
+       "Core sensing; heat loss center",
+       "Cutaneous vasodilation, sweating, inhibition of heat production",
+       "Hyperthermia in a warm environment, because heat cannot be shed"
+      ],
+      [
+       "Posterior hypothalamus",
+       "Integrates skin and core input; heat conservation and production center",
+       "Cutaneous vasoconstriction, piloerection, shivering, thermogenesis",
+       "Poikilothermia: core temperature drifts toward ambient, most dangerously in the cold"
+      ]
+     ],
+     "caption": "Each region controls one half of the response, so the lesion site predicts which extreme the patient cannot tolerate."
+    },
+    {
+     "type": "p",
+     "text": "Because the halves are anatomically separate, lesions are predictable. Anterior damage from stroke, trauma, tumor, or surgery removes heat loss and produces hyperthermia. A posterior lesion destroys the heat conservation centers and also interrupts descending pathways from the anterior region, so the patient becomes poikilothermic. A high cervical cord transection cuts hypothalamic control of sympathetic vasomotor tone and sweating below the lesion, impairing defense in both heat and cold."
+    },
+    {
+     "type": "stop",
+     "predict": "A patient recovering from surgery for a craniopharyngioma that damaged the posterior hypothalamus is placed in a cool room. What happens to core temperature, and why?",
+     "explain": "Core temperature falls toward room temperature, because the posterior centers that trigger vasoconstriction and shivering are gone and descending heat loss pathways are also interrupted, leaving poikilothermia.",
+     "check": "Compare with the table of hypothalamic regions and the paragraph on lesions."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-INTG-04-01-C02",
+   "obj": "IN-4.2",
+   "title": "Routes of heat loss",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Blood carries core heat to the skin, so skin blood flow sets how fast heat reaches the surface. Skin flow ranges from nearly zero to about 30% of cardiac output, much of it through arteriovenous anastomoses (direct shunts from arterioles to venules) in the hands, feet, ears, and nose. Once heat reaches the skin, four physical routes remove it. At rest in a comfortable room, about 60% of heat loss is by radiation, 15% by conduction to air with convection, 3% by conduction to objects, and 22% by evaporation (Guyton and Hall)."
+    },
+    {
+     "type": "p",
+     "text": "Radiation is the emission of infrared energy from the skin to cooler surfaces that are not in contact. It works in both directions, so the body also absorbs radiant heat from the sun and hot surfaces. Conduction is direct transfer of heat between surfaces in contact, such as skin and a cold bench or the thin layer of air touching the skin; once that air layer warms, conduction stops unless the layer is replaced. Convection is that replacement: moving air or water carries the warmed layer away, so wind and immersion multiply heat loss. Water conducts heat far better than air, so immersion cools much faster than air at the same temperature."
+    },
+    {
+     "type": "p",
+     "text": "Evaporation works differently. Converting water to vapor absorbs its latent heat, about 0.58 kcal per gram, so it cools the skin even when the surroundings are warmer than the body. Insensible loss through skin and airways (about 600 to 700 mL per day) runs continuously, and sweating adds a regulated route."
+    },
+    {
+     "type": "table",
+     "title": "The four routes of heat loss",
+     "cols": [
+      "Route",
+      "Physical basis",
+      "Driving gradient",
+      "When it fails or reverses"
+     ],
+     "rows": [
+      [
+       "Radiation",
+       "Infrared emission to surfaces not in contact",
+       "Skin warmer than surrounding surfaces",
+       "Reverses in sun or near hot surfaces"
+      ],
+      [
+       "Conduction",
+       "Direct transfer between touching surfaces",
+       "Skin warmer than the object or air in contact",
+       "Reverses in hot air or water"
+      ],
+      [
+       "Convection",
+       "Moving air or water replaces the warmed layer",
+       "Skin warmer than the moving fluid",
+       "Adds heat when air or water is hotter than skin"
+      ],
+      [
+       "Evaporation",
+       "Latent heat of vaporization, about 0.58 kcal per gram",
+       "Water vapor pressure at wet skin higher than in air",
+       "Fails in high humidity or when sweating is impaired"
+      ]
+     ],
+     "caption": "Only evaporation is independent of the temperature gradient, so it is the only route left in a hot environment."
+    },
+    {
+     "type": "p",
+     "text": "This leads to the key prediction. Radiation, conduction, and convection move heat from warmer to cooler. When ambient temperature, or the temperature of radiating surroundings, exceeds skin temperature (about 33 °C (91.4 °F) in comfortable conditions and up to about 35 °C (95 °F) in the heat), those three routes add heat to the body, and evaporation of sweat becomes the only way to lose heat. High humidity shrinks the vapor pressure gradient, so sweat accumulates and drips off without evaporating; it removes no heat, yet the water and salt are still lost from plasma. Anything that impairs sweating, such as anticholinergic drugs, extensive scarring or burns, ectodermal dysplasia, or dehydration, removes the last route. Acclimatization over about one to six weeks roughly doubles maximal sweat rate, and aldosterone lowers sweat NaCl so less salt is lost per liter."
+    },
+    {
+     "type": "example",
+     "title": "Why a humid day overheats a runner",
+     "text": "A 70 kg runner produces about 800 kcal per hour in air hotter than the skin, so evaporation must remove all of it. Evaporating 1.4 L of sweat removes about 800 kcal (1,400 g times 0.58 kcal), so in dry air 1.4 L per hour keeps balance. In very humid air, suppose only half evaporates: about 400 kcal per hour is stored. Tissue needs about 0.83 kcal per kg per °C, or about 58 kcal per °C for this runner, so core temperature climbs about 7 °C per hour and reaches heat stroke range within about 30 minutes, while the full 1.4 L is still lost from plasma."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-INTG-04-01-C03",
+   "obj": "IN-4.3",
+   "title": "Heat conservation and heat production",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "In the cold, the posterior hypothalamus first reduces heat loss and then increases heat production. Sympathetic norepinephrine acting on alpha-adrenergic receptors constricts cutaneous arterioles and closes arteriovenous anastomoses. Warm blood stays in the core, and skin and subcutaneous fat become an insulating shell. In the limbs, deep arteries run beside their accompanying veins, so cooled venous blood is rewarmed by arterial blood (countercurrent exchange) and heat returns to the core. Piloerection (arrector pili contraction through alpha-1 receptors) traps air in furred mammals but adds little in humans."
+    },
+    {
+     "type": "p",
+     "text": "When conservation is not enough, the primary motor center for shivering in the dorsomedial posterior hypothalamus, normally inhibited by the anterior heat center, sends descending signals to spinal motor neurons. Tone rises, then agonist and antagonist muscles contract rhythmically. Because almost no external work is done, nearly all the ATP energy used appears as heat, and maximal shivering can raise heat production about four to five fold. Shivering depends on glycogen, glucose, and oxygen, and it fails when fuel runs out or when the core cools enough to depress the controller (C07)."
+    },
+    {
+     "type": "p",
+     "text": "Nonshivering (chemical) thermogenesis takes place mainly in brown adipose tissue. Sympathetic norepinephrine acts on beta-3 receptors of brown adipocytes, and Gs, cAMP, and protein kinase A activate hormone-sensitive lipase. The released fatty acids serve both as fuel for beta oxidation and as activators of UCP1 (thermogenin) in the inner mitochondrial membrane. UCP1 gives protons a path back into the matrix that bypasses ATP synthase, so the energy of the proton gradient is released as heat. With the gradient continuously dissipated, electron transport is no longer held back by ADP availability and runs at a high rate. Brown adipocytes have many small lipid droplets, abundant cytochrome-rich mitochondria (the brown color), dense capillaries, and direct sympathetic innervation. Sympathetic stimulation also induces type 2 deiodinase in brown fat, raising local T3, which increases UCP1 expression."
+    },
+    {
+     "type": "flow",
+     "title": "Nonshivering thermogenesis in brown fat",
+     "steps": [
+      "Cold sensed; sympathetic outflow increases",
+      "Norepinephrine binds beta-3 receptors on brown adipocytes",
+      "Gs, cAMP, and PKA activate hormone-sensitive lipase",
+      "Free fatty acids are released from lipid droplets",
+      "Fatty acids activate UCP1 and fuel beta oxidation",
+      "Protons re-enter the matrix, bypassing ATP synthase",
+      "Proton gradient energy is released as heat"
+     ],
+     "caption": "Uncoupling converts oxidative energy to heat instead of ATP."
+    },
+    {
+     "type": "p",
+     "text": "Thyroid hormone acts more slowly. Prolonged cold increases thyrotropin-releasing hormone (TRH) and therefore thyroid-stimulating hormone (TSH) and thyroid hormone output, and triiodothyronine (T3) raises basal metabolic rate by increasing Na+/K+ ATPase activity, mitochondrial oxidative capacity, and catecholamine sensitivity. The effect builds over days to weeks, supporting acclimatization, and explains cold intolerance in hypothyroidism and heat intolerance in hyperthyroidism."
+    },
+    {
+     "type": "p",
+     "text": "Neonates depend on brown fat. They have a high surface area to mass ratio, little subcutaneous fat for insulation, and a limited ability to shiver, so they lose heat quickly and lack the adult's main production route. Brown fat, which accumulates in late gestation between the scapulae, in the neck and axillae, and around the kidneys, adrenals, and great vessels, can roughly double an infant's heat production, whereas chemical thermogenesis raises adult heat production only about 10 to 15%. Preterm infants have less brown fat and glycogen and cool fastest, and cold stress raises oxygen and glucose use, risking hypoxemia, hypoglycemia, and metabolic acidosis."
+    },
+    {
+     "type": "table",
+     "title": "Responses to cold",
+     "cols": [
+      "Response",
+      "Effector and receptor",
+      "Speed and size"
+     ],
+     "rows": [
+      [
+       "Cutaneous vasoconstriction",
+       "Sympathetic NE on alpha receptors of skin arterioles and AV anastomoses",
+       "Seconds; first line"
+      ],
+      [
+       "Piloerection",
+       "Sympathetic NE on alpha-1 receptors of arrector pili",
+       "Immediate; minor in humans"
+      ],
+      [
+       "Shivering",
+       "Posterior hypothalamic motor center to somatic motor neurons",
+       "Minutes; up to about 4 to 5 fold heat production"
+      ],
+      [
+       "Nonshivering thermogenesis",
+       "Sympathetic NE on beta-3 receptors of brown fat; UCP1 uncoupling",
+       "Minutes; major in neonates, small in adults"
+      ],
+      [
+       "Thyroid hormone",
+       "TRH, TSH, and T3 raising basal metabolic rate",
+       "Days to weeks; acclimatization"
+      ]
+     ],
+     "caption": "Heat conservation acts first; heat production adds as cold persists."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-INTG-04-01-C04",
+   "obj": "IN-4.4",
+   "title": "Fever and hyperthermia",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Fever is a regulated rise in core temperature caused by an upward shift of the hypothalamic set point. It begins with exogenous pyrogens, microbial products such as lipopolysaccharide (LPS) of gram-negative bacteria, lipoteichoic acid, and other pathogen-associated molecular patterns. These bind pattern recognition receptors, for example LPS on TLR4 with CD14, on macrophages and other innate cells, which then release the endogenous pyrogens IL-1, IL-6, and TNF-alpha. Tissue injury, malignancy, and autoimmune disease release the same cytokines."
+    },
+    {
+     "type": "p",
+     "text": "These cytokines do not freely cross the blood-brain barrier. They act on the endothelium of brain vessels and on the organum vasculosum of the lamina terminalis (OVLT), a circumventricular organ beside the preoptic area whose capillaries are fenestrated. There they induce cyclooxygenase-2 (COX-2), and the prostaglandin E2 (PGE2) produced acts on EP3 receptors of preoptic neurons, reducing warm-sensitive neuron firing. The controller now reads a normal blood temperature as too cold. Cytokines do not heat the body directly; they change the reference value, and the body's own heat conservation and production then raise core temperature."
+    },
+    {
+     "type": "flow",
+     "title": "Pathogenesis of fever",
+     "steps": [
+      "Microbial products bind Toll-like receptors on macrophages",
+      "Macrophages release IL-1, IL-6, and TNF-alpha",
+      "Cytokines act at the OVLT and brain endothelium",
+      "COX-2 induction increases PGE2 synthesis",
+      "PGE2 on preoptic EP3 receptors raises the set point",
+      "Vasoconstriction and shivering raise core temperature to the new set point"
+     ],
+     "caption": "Fever is produced by the normal cold defenses responding to a higher target."
+    },
+    {
+     "type": "p",
+     "text": "The phases follow from the moving set point. If the set point rises to 39 °C (102.2 °F), a core temperature of 37 °C (98.6 °F) is now below target, so the posterior hypothalamus drives skin vasoconstriction (pale skin), shivering (chills or rigors), and the feeling of cold, until core temperature reaches the new value. During the plateau, heat loss and production balance at the higher level. When the cytokine stimulus ends, or when cyclooxygenase inhibition by nonsteroidal anti-inflammatory drugs or acetaminophen lowers PGE2 synthesis, the set point falls. Core temperature is now above target, so the anterior hypothalamus drives sweating and cutaneous vasodilation (the flush or crisis). Fever itself is usually self-limited and rarely exceeds about 41 °C (105.8 °F), and each 1 °C of fever raises metabolic rate and oxygen consumption by roughly 10 to 13%, with matching rises in heart rate and ventilation."
+    },
+    {
+     "type": "p",
+     "text": "Hyperthermia is an elevated core temperature with an unchanged set point. Heat gain or production exceeds heat loss, so the controller is overwhelmed or bypassed while still trying to cool: the skin is usually flushed and sweating is maximal unless sweating itself is blocked. Causes fall into three groups: excess environmental heat (heat stroke), excess production (malignant hyperthermia, thyroid storm, sympathomimetic drugs such as cocaine and amphetamines, prolonged seizures, serotonin syndrome, neuroleptic malignant syndrome), and impaired loss (anticholinergic drugs, anterior hypothalamic lesions). Because PGE2 did not raise the set point, blocking PGE2 synthesis does not lower the temperature."
+    },
+    {
+     "type": "table",
+     "title": "Fever compared with hyperthermia",
+     "cols": [
+      "Feature",
+      "Fever",
+      "Hyperthermia"
+     ],
+     "rows": [
+      [
+       "Set point",
+       "Raised by PGE2",
+       "Unchanged"
+      ],
+      [
+       "Cause",
+       "Endogenous pyrogens (IL-1, IL-6, TNF-alpha)",
+       "Heat gain or production exceeds loss, or loss is impaired"
+      ],
+      [
+       "Hypothalamic response while temperature rises",
+       "Conserves and produces heat: vasoconstriction, chills, rigors",
+       "Tries to lose heat: vasodilation, sweating (if possible)"
+      ],
+      [
+       "Usual ceiling",
+       "Rarely above about 41 °C (105.8 °F)",
+       "No regulated ceiling; can exceed 42 °C (107.6 °F)"
+      ],
+      [
+       "Effect of COX inhibition",
+       "Lowers temperature",
+       "No effect"
+      ]
+     ],
+     "caption": "The question to ask is whether the hypothalamus is trying to warm or to cool the body."
+    },
+    {
+     "type": "stop",
+     "predict": "A patient's temperature is 39.5 °C (103.1 °F) and still rising. The skin is cold and pale, and the patient is shaking under blankets. Is this fever or hyperthermia?",
+     "explain": "Fever. The hypothalamus is actively conserving and producing heat, which means the set point is above the current core temperature. In hyperthermia the controller would be driving vasodilation and sweating.",
+     "check": "Compare with the paragraph on fever phases and the fever compared with hyperthermia table."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-INTG-04-01-C05",
+   "obj": "IN-4.5",
+   "title": "Heat exhaustion and heat stroke",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Heat exhaustion is mainly a circulatory failure, with thermoregulation still working. Sweating depletes water and NaCl, and cutaneous vasodilation diverts a large share of cardiac output to the skin, so venous return, stroke volume, and blood pressure fall. Core temperature is raised but usually below 40 °C (104 °F), mental status is normal, and the person sweats heavily with weakness, headache, nausea, tachycardia, and orthostatic hypotension. The controller is intact; the circulation cannot supply both skin and organs."
+    },
+    {
+     "type": "p",
+     "text": "Heat stroke is a core temperature above 40 °C (104 °F) with central nervous system dysfunction, such as confusion, delirium, ataxia, seizures, or coma. The CNS finding defines the diagnosis because the brain is the most heat sensitive organ. Heat at these levels denatures proteins, destabilizes membranes, and uncouples oxidative phosphorylation. A systemic inflammatory response amplifies the damage: blood shunted to the skin leaves the splanchnic bed ischemic, the gut barrier leaks endotoxin, and cytokines together with heat-injured endothelium activate coagulation."
+    },
+    {
+     "type": "table",
+     "title": "Heat exhaustion, classic heat stroke, and exertional heat stroke",
+     "cols": [
+      "Feature",
+      "Heat exhaustion",
+      "Classic heat stroke",
+      "Exertional heat stroke"
+     ],
+     "rows": [
+      [
+       "Core temperature",
+       "Usually 37 to 40 °C (98.6 to 104 °F)",
+       "Above 40 °C (104 °F)",
+       "Above 40 °C (104 °F)"
+      ],
+      [
+       "Mental status",
+       "Normal",
+       "Altered",
+       "Altered"
+      ],
+      [
+       "Who",
+       "Anyone in heat with volume loss",
+       "Older adults, infants, chronically ill",
+       "Young healthy athletes, soldiers, laborers"
+      ],
+      [
+       "Onset",
+       "Hours",
+       "Days, during heat waves",
+       "Hours of exertion"
+      ],
+      [
+       "Main mechanism",
+       "Volume depletion and skin vasodilation",
+       "Impaired heat loss and reserve",
+       "Heat production exceeds loss"
+      ],
+      [
+       "Skin",
+       "Moist, heavy sweating",
+       "Often hot and dry",
+       "Sweating often persists"
+      ],
+      [
+       "Rhabdomyolysis, acute kidney injury (AKI), disseminated intravascular coagulation (DIC)",
+       "Absent",
+       "Possible, less common",
+       "Common and often severe"
+      ]
+     ],
+     "caption": "CNS dysfunction, not a single temperature reading, separates heat stroke from heat exhaustion."
+    },
+    {
+     "type": "p",
+     "text": "Classic heat stroke overwhelms people with reduced reserve: impaired thirst and mobility, limited ability to raise cardiac output, and drugs that block sweating (anticholinergics, many antipsychotics) or deplete volume (diuretics). Exertional heat stroke occurs in healthy people because muscle produces heat faster than it can be shed, especially in humid heat (C02); sweating often persists, so moist skin does not exclude it."
+    },
+    {
+     "type": "p",
+     "text": "The complications follow from cell injury. Rhabdomyolysis is breakdown of skeletal muscle membranes from heat and ATP depletion, releasing creatine kinase, myoglobin, K+, phosphate, and urate. Filtered myoglobin forms casts with uromodulin (Tamm-Horsfall protein) in acidic tubular fluid and its heme iron injures proximal tubules, while volume depletion lowers glomerular filtration, producing acute kidney injury. Urine is dark and dipstick positive for blood with few red cells, because the test detects heme. DIC follows endothelial injury and tissue factor exposure: consumption of platelets and clotting factors gives low platelets, prolonged prothrombin time (PT) and activated partial thromboplastin time (aPTT), low fibrinogen, and high D-dimer, with both bleeding and microthrombi. Hyperkalemia follows muscle lysis and AKI, and hepatocellular injury raises aminotransferases."
+    },
+    {
+     "type": "flow",
+     "title": "From heat stroke to multiorgan injury",
+     "steps": [
+      "Heat gain exceeds heat loss",
+      "Core temperature rises above 40 °C (104 °F)",
+      "Proteins denature; neurons fail, causing CNS dysfunction",
+      "Splanchnic ischemia lets gut endotoxin enter blood",
+      "Cytokines and endothelial injury trigger DIC",
+      "Muscle lysis releases myoglobin, K+, and CK",
+      "Myoglobin casts and heme toxicity cause AKI"
+     ],
+     "caption": "Direct heat injury and systemic inflammation act together to damage brain, kidney, liver, and the clotting system."
+    },
+    {
+     "type": "example",
+     "title": "Reading the laboratory picture in exertional heat stroke",
+     "text": "A 22-year-old runner collapses late in a summer race, confused, with wet skin and a rectal temperature of 41.2 °C (106.2 °F). CK is very high, K+ is 6.1 mmol/L (reference about 3.5 to 5.0), creatinine is rising, urine is cola colored and heme positive, platelets are low, and PT is prolonged. Confusion above 40 °C (104 °F) defines heat stroke rather than heat exhaustion, and wet skin fits the exertional form. Massive CK with heme-positive urine means rhabdomyolysis, which explains the hyperkalemia and AKI. Low platelets with a prolonged PT point to DIC."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-INTG-04-01-C06",
+   "obj": "IN-4.6",
+   "title": "Malignant hyperthermia",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Malignant hyperthermia is a pharmacogenetic disorder of skeletal muscle. In most susceptible families it is inherited as an autosomal dominant trait caused by mutations in RYR1 on chromosome 19, which encodes the ryanodine receptor type 1, the Ca2+ release channel of the sarcoplasmic reticulum (SR). A minority of cases involve CACNA1S, which encodes the alpha-1 subunit of the dihydropyridine (DHP) receptor. Carriers usually have normal muscle function until they are exposed to a triggering drug. RYR1 mutations also cause central core disease, a congenital myopathy whose patients carry the same susceptibility."
+    },
+    {
+     "type": "p",
+     "text": "Normal excitation-contraction coupling explains the defect. An action potential in the T tubule changes the conformation of the voltage-sensing DHP receptor, which is mechanically linked to RYR1 and opens it. Ca2+ leaves the SR, binds troponin C, and allows cross-bridge cycling. Relaxation requires SERCA, the SR Ca2+ ATPase, to pump Ca2+ back into the SR, and both cross-bridge cycling and SERCA use ATP. The mutant RYR1 channel is hypersensitive: volatile halogenated anesthetics (halothane, isoflurane, sevoflurane, desflurane) and the depolarizing neuromuscular blocker succinylcholine make it open readily and stay open, so cytosolic Ca2+ rises without control."
+    },
+    {
+     "type": "flow",
+     "title": "Malignant hyperthermia cascade",
+     "steps": [
+      "Volatile anesthetic or succinylcholine reaches muscle",
+      "Mutant RYR1 opens and stays open",
+      "Sarcoplasmic reticulum Ca2+ floods the cytosol",
+      "Sustained contraction and continuous SERCA pumping",
+      "Huge ATP use raises CO2, O2 use, and heat",
+      "Oxygen supply falls behind; lactate accumulates",
+      "ATP depletion breaks membranes: K+, myoglobin, CK leak"
+     ],
+     "caption": "Every clinical sign traces back to uncontrolled Ca2+ release and the ATP it consumes."
+    },
+    {
+     "type": "p",
+     "text": "The signs follow in order. Sustained Ca2+ causes sustained contraction, seen as generalized rigidity or as masseter spasm right after succinylcholine. Cross-bridge cycling and SERCA pumping consume ATP at a huge rate, so aerobic metabolism increases CO2 production and oxygen consumption. End-tidal CO2 therefore rises even though ventilation has not changed (hypercarbia), which is usually one of the earliest signs, together with sympathetically driven tachycardia. As oxygen delivery falls behind demand, glycolysis produces lactate, adding metabolic acidosis to the respiratory acidosis. ATP depletion then disrupts the sarcolemma, releasing K+ (hyperkalemia and arrhythmias), myoglobin, and CK, with the same renal consequences as exertional rhabdomyolysis (C05). Core temperature rise is often a later sign, because heat accumulates only as hypermetabolism continues."
+    },
+    {
+     "type": "p",
+     "text": "Malignant hyperthermia is hyperthermia with a normal set point: heat is generated in muscle faster than it can be lost, and the hypothalamus plays no causal role. It must be distinguished from other hypermetabolic states with rigidity and high temperature."
+    },
+    {
+     "type": "table",
+     "title": "Malignant hyperthermia compared with related syndromes",
+     "cols": [
+      "Feature",
+      "Malignant hyperthermia",
+      "Neuroleptic malignant syndrome",
+      "Serotonin syndrome"
+     ],
+     "rows": [
+      [
+       "Cause",
+       "RYR1 (or CACNA1S) mutation plus volatile anesthetic or succinylcholine",
+       "Dopamine D2 receptor blockade (or withdrawal of dopaminergic drugs)",
+       "Excess serotonergic activity from one or more serotonergic drugs"
+      ],
+      [
+       "Site of the defect",
+       "Skeletal muscle SR Ca2+ release",
+       "Central dopamine pathways",
+       "Central and peripheral serotonin receptors"
+      ],
+      [
+       "Onset",
+       "Minutes to hours after exposure",
+       "Days",
+       "Hours"
+      ],
+      [
+       "Neuromuscular findings",
+       "Generalized rigidity, masseter spasm",
+       "Lead pipe rigidity, slowed reflexes",
+       "Clonus and hyperreflexia, worse in the legs"
+      ],
+      [
+       "Typical early clue",
+       "Rising end-tidal CO2 under anesthesia",
+       "Altered mental status and rigidity",
+       "Agitation, tremor, diarrhea, mydriasis"
+      ]
+     ],
+     "caption": "All three can cause hyperthermia and rhabdomyolysis; the trigger, tempo, and reflex pattern separate them."
+    },
+    {
+     "type": "stop",
+     "predict": "During anesthesia, end-tidal CO2 rises steadily although minute ventilation is unchanged and temperature is still normal. What is the mechanism?",
+     "explain": "Uncontrolled Ca2+ release drives cross-bridge cycling and SERCA pumping, so muscle ATP use and aerobic CO2 production rise at once. Heat accumulates more slowly, so temperature rises later.",
+     "check": "Compare with the paragraph on the order of signs and the cascade figure."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-INTG-04-01-C07",
+   "obj": "IN-4.7",
+   "title": "Hypothermia and cold injury",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Hypothermia is a core temperature below 35 °C (95 °F). It results from heat loss that exceeds production, especially with immersion or wind; from reduced heat production (hypothyroidism, hypoglycemia, adrenal insufficiency, malnutrition); from impaired regulation (hypothalamic lesions, sedatives, and ethanol, which dilates skin vessels and blunts shivering and judgment); and from the limited reserve of infants and older adults. Cold slows every temperature-dependent process, so enzyme reactions, ion pumps, channel gating, and nerve conduction all slow as core temperature falls."
+    },
+    {
+     "type": "table",
+     "title": "Stages of hypothermia",
+     "cols": [
+      "Stage",
+      "Core temperature",
+      "Main findings and mechanism"
+     ],
+     "rows": [
+      [
+       "Mild",
+       "32 to 35 °C (89.6 to 95 °F)",
+       "Maximal shivering, tachycardia, tachypnea, cold diuresis, confusion, ataxia; defenses still active"
+      ],
+      [
+       "Moderate",
+       "28 to 32 °C (82.4 to 89.6 °F)",
+       "Shivering stops, bradycardia, atrial fibrillation, Osborn waves, hypoventilation, falling consciousness"
+      ],
+      [
+       "Severe",
+       "Below 28 °C (82.4 °F)",
+       "Coma, hypotension, apnea, high risk of ventricular fibrillation and asystole"
+      ]
+     ],
+     "caption": "Loss of shivering marks the change from a defended state to passive cooling."
+    },
+    {
+     "type": "p",
+     "text": "Below about 32 °C (89.6 °F), shivering fails and the hypothalamic controller itself is depressed, so heat production drops when it is most needed and cooling speeds up. Bradycardia comes from slowed phase 4 depolarization in the SA node and is not vagally mediated. PR, QRS, and QT intervals lengthen as conduction and repolarization slow. The Osborn (J) wave is a positive deflection at the junction of the QRS complex and ST segment whose amplitude grows as temperature falls; it is attributed to a cold-enhanced transient outward K+ current (Ito) in epicardium more than endocardium, which creates a transmural voltage gradient in early repolarization. The cold myocardium becomes irritable: atrial fibrillation is common in moderate hypothermia, and ventricular fibrillation becomes likely below about 28 °C (82.4 °F), sometimes triggered by handling the patient."
+    },
+    {
+     "type": "p",
+     "text": "Other findings follow the same logic. Cold diuresis occurs because peripheral vasoconstriction shifts blood volume centrally, which suppresses antidiuretic hormone (ADH) release, and cold impairs tubular concentrating ability. The oxyhemoglobin dissociation curve shifts left, so hemoglobin releases oxygen less readily. Clotting enzymes slow, causing a coagulopathy that routine PT and aPTT may miss because the tests are run at 37 °C (98.6 °F)."
+    },
+    {
+     "type": "p",
+     "text": "Frostbite is freezing of tissue. Ice forms first in extracellular fluid, which becomes hyperosmolar and draws water out of cells, so they shrink and suffer electrolyte injury; rapid freezing can also form intracellular ice that ruptures membranes. Much of the damage follows rewarming: injured endothelium, release of thromboxane A2 and prostaglandin F2-alpha, platelet aggregation, and microvascular thrombosis cause progressive dermal ischemia, much like ischemia-reperfusion injury. Fingers, toes, nose, and ears are most exposed because cold-induced vasoconstriction (C03) sacrifices them to protect the core. Superficial frostbite gives erythema and clear blisters; deep frostbite gives hemorrhagic blisters and then dry gangrene."
+    },
+    {
+     "type": "p",
+     "text": "Perniosis (chilblains) is a nonfreezing injury. Damp cold above freezing causes prolonged vasospasm of small cutaneous vessels, local hypoxia, and a perivascular lymphocytic inflammatory reaction, producing itchy or burning, tender red to violet papules on the fingers and toes hours after exposure that resolve over one to a few weeks."
+    },
+    {
+     "type": "table",
+     "title": "Frostbite compared with perniosis",
+     "cols": [
+      "Feature",
+      "Frostbite",
+      "Perniosis (chilblains)"
+     ],
+     "rows": [
+      [
+       "Exposure",
+       "Tissue temperature below freezing",
+       "Damp cold above freezing"
+      ],
+      [
+       "Primary mechanism",
+       "Ice crystals and cell dehydration, then endothelial injury and thrombosis on rewarming",
+       "Vasospasm of small vessels with perivascular lymphocytic inflammation"
+      ],
+      [
+       "Lesions",
+       "Numb, pale or waxy tissue, blisters, then necrosis and gangrene when deep",
+       "Itchy or burning red to violet papules on fingers and toes"
+      ],
+      [
+       "Course",
+       "Tissue loss possible; demarcation over weeks",
+       "Usually resolves without tissue loss"
+      ]
+     ],
+     "caption": "Ice and thrombosis define frostbite; inflammation without freezing defines perniosis."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Thermoregulation ties several disciplines into one control system. Anatomy places the controller in the hypothalamus and the effectors in the skin: eccrine glands with cholinergic sympathetic innervation, arteriovenous anastomoses, arrector pili muscles, and subcutaneous fat. Biochemistry explains heat production, because shivering, malignant hyperthermia, and brown fat all generate heat by spending the energy of ATP or of the proton gradient without doing external work. Immunology explains fever through IL-1, IL-6, TNF-alpha, and PGE2, linking the innate response to the hypothalamus."
+  },
+  {
+   "type": "p",
+   "text": "Pathology follows from which part fails. Fever is a normal controller with a raised target; hyperthermia is a normal target with an overwhelmed controller; heat stroke, malignant hyperthermia, and hypothermia injure tissue directly through protein denaturation, ATP depletion, or slowed membrane function. The same downstream injuries, rhabdomyolysis, AKI, DIC, and arrhythmias, recur across these states, so reasoning from mechanism transfers from one question to the next. Temperature thresholds are conventions that vary slightly between sources, so findings such as mental status, sweating, and shivering should be weighed together with the number."
+  }
+ ],
+ "summary": [
+  "The preoptic (anterior) hypothalamus senses core temperature and drives heat loss; the posterior hypothalamus integrates skin input and drives heat conservation and production.",
+  "Anterior hypothalamic lesions cause hyperthermia; posterior lesions cause poikilothermia.",
+  "Radiation, conduction, and convection need skin warmer than the environment; evaporation (about 0.58 kcal per gram) needs only a water vapor gradient.",
+  "When ambient temperature exceeds skin temperature, sweat evaporation is the only route of heat loss, and high humidity defeats it.",
+  "Cold defenses are vasoconstriction, piloerection, shivering (up to about 4 to 5 fold heat production), brown fat UCP1 uncoupling via beta-3 receptors, and slower thyroid driven increases in metabolic rate.",
+  "Neonates rely on brown fat because they have high surface area to mass, little insulation, and poor shivering.",
+  "In fever, IL-1, IL-6, and TNF-alpha induce COX-2 and PGE2, which raises the set point; in hyperthermia the set point is unchanged and COX inhibition has no effect.",
+  "Heat stroke is core temperature above 40 °C (104 °F) with CNS dysfunction; classic is slow in vulnerable people, exertional is fast in healthy people and causes rhabdomyolysis, AKI, and DIC.",
+  "Malignant hyperthermia is uncontrolled RYR1 Ca2+ release after volatile anesthetics or succinylcholine; rising end-tidal CO2 and rigidity precede the temperature rise.",
+  "Hypothermia is core temperature below 35 °C (95 °F); shivering stops below about 32 °C (89.6 °F), bradycardia and Osborn waves appear, and VF risk rises below about 28 °C (82.4 °F); frostbite freezes tissue, perniosis does not."
+ ],
+ "sources": [
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Body Temperature Regulation and Fever"
+  },
+  {
+   "book": "Boron and Boulpaep Medical Physiology",
+   "where": "Regulation of body temperature"
+  },
+  {
+   "book": "Lippincott Illustrated Reviews: Biochemistry",
+   "where": "Bioenergetics and oxidative phosphorylation, uncoupling proteins"
+  },
+  {
+   "book": "Abbas, Cellular and Molecular Immunology",
+   "where": "Innate immunity, cytokines of inflammation and their systemic effects"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Environmental and nutritional diseases, injury by physical agents (thermal injury, hyperthermia, hypothermia)"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Fever and disorders of temperature regulation"
+  }
+ ],
+ "verify": [
+  "The heat loss percentages at rest (about 60% radiation, 15% conduction to air and convection, 3% conduction to objects, 22% evaporation) are Guyton and Hall estimates; other texts give somewhat different splits.",
+  "Hypothermia staging cutoffs (32 °C (89.6 °F) and 28 °C (82.4 °F)) follow common clinical convention; some systems use different thresholds or stage by clinical signs, and the temperature at which shivering stops is quoted from about 30 to 32 °C (86 to 89.6 °F).",
+  "The upper limit of heat exhaustion (below 40 °C (104 °F)) and the heat stroke threshold (above 40 °C (104 °F), sometimes 40.5 °C (104.9 °F)) vary slightly between sources; confirm the values NABNE uses.",
+  "The fever ceiling of about 41 °C (105.8 °F) is a consensus approximation.",
+  "Brown fat raising infant heat production about 100% versus about 10 to 15% in adults is from Guyton and Hall; other sources describe the neonatal figure differently.",
+  "The time course of perniosis (lesions appearing hours after exposure and resolving over one to a few weeks) is from dermatology references; confirm whether NABNE expects specific timing.",
+  "The worked example uses a body specific heat of about 0.83 kcal per kg per °C and an assumed metabolic rate of about 800 kcal per hour; both are approximations chosen to illustrate the relationship.",
+  "Confirm whether NABNE Part I expects the eponym Osborn wave and the term OVLT, or only the descriptive terms.",
+  "The transient outward K+ current explanation of the Osborn wave is the prevailing electrophysiologic account rather than a settled fact, and some texts describe only the waveform.",
+  "Requested new diagram names for a future revision: thermoregulation-loop (hypothalamic controller with skin and core sensors and effectors) and fever-curve (set point and core temperature over chill, plateau, and flush phases)."
+ ]
+}

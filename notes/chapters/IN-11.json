@@ -1,0 +1,706 @@
+{
+  "unit": "IN-11",
+  "chapter_id": "NPLEX-P1-INTG-11",
+  "topic_id": "NPLEX-P1-INTG-11-01",
+  "title": "Immune Responses in Skin Disease",
+  "subject": "Integumentary System (INTG)",
+  "version": "1.0",
+  "author": "Dr. Sharilyn Rennie",
+  "brand": "MedMasters Collaborative",
+  "overview": {
+    "intro": "The skin is an immune organ as much as a barrier. Keratinocytes, mast cells, and Langerhans cells sense microbial and physical danger, start acute inflammation, and carry antigen to regional lymph nodes to prime naive T cells. This chapter follows that response forward: how inflammation resolves, suppurates, or becomes chronic and granulomatous, how the four hypersensitivity types produce distinct skin lesions on distinct timetables, how autoimmune disease writes itself on the skin, and how cytotoxic lymphocytes and vaccines handle cells that display foreign or mutant peptide. Board questions give a lesion, a time course, or an immunofluorescence pattern and ask which mechanism produced it.",
+    "prerequisites": [
+      "Epidermal layers, keratinocyte differentiation, and the dermal-epidermal junction (IN-1, IN-2)",
+      "Innate immunity: pattern recognition receptors, NF-kB signaling, complement activation and C5a",
+      "Antigen presentation on MHC class I and class II, costimulation, and naive T cell priming (IM-5, IM-6)",
+      "Helper T cell subsets and their signature cytokines (IM-7)",
+      "Acute and chronic inflammation, necrosis patterns, and repair by granulation tissue"
+    ],
+    "connections": [
+      {
+        "to": "Immunology hypersensitivity chapters (IM-11, IM-12)",
+        "how": "The skin is where all four hypersensitivity types can be seen and timed, so cutaneous lesions become the readable form of the general mechanisms."
+      },
+      {
+        "to": "Cutaneous infections (IN-9, IN-10)",
+        "how": "Whether an organism produces pus, a granuloma, or a toxin-mediated rash follows directly from which immune pathway it triggers."
+      },
+      {
+        "to": "Respiratory and musculoskeletal pathology",
+        "how": "Sarcoidosis, tuberculosis, dermatomyositis, and systemic sclerosis present in skin and lung or muscle together, so the skin finding points to the systemic disease."
+      },
+      {
+        "to": "Hematology and leukocyte disorders (HE-4)",
+        "how": "Leukocyte adhesion deficiency and other neutrophil defects explain skin infections without pus and delayed wound healing."
+      },
+      {
+        "to": "Neoplasia and skin cancer (IN-13)",
+        "how": "Tumor immunosurveillance and its escape mechanisms explain why immunosuppressed patients accumulate cutaneous squamous cell carcinomas."
+      }
+    ],
+    "terms": [
+      {
+        "term": "Pattern recognition receptor",
+        "def": "A germline-encoded receptor, such as a Toll-like receptor, that binds conserved molecular patterns shared by classes of microbes."
+      },
+      {
+        "term": "Antimicrobial peptide",
+        "def": "A small cationic peptide, such as a beta-defensin or cathelicidin, that disrupts microbial membranes at the epithelial surface."
+      },
+      {
+        "term": "Langerhans cell",
+        "def": "The dendritic cell of the epidermis, identified by CD1a, langerin, and Birbeck granules, that captures antigen and carries it to lymph nodes."
+      },
+      {
+        "term": "Margination",
+        "def": "Slowing of blood flow in dilated inflamed vessels that lets leukocytes leave the axial stream and contact the endothelium."
+      },
+      {
+        "term": "Chemotaxis",
+        "def": "Directed leukocyte migration along a concentration gradient of a chemoattractant such as C5a, LTB4, or IL-8."
+      },
+      {
+        "term": "Abscess",
+        "def": "A localized collection of pus formed when neutrophil enzymes liquefy tissue and granulation tissue walls the cavity off."
+      },
+      {
+        "term": "Granuloma",
+        "def": "A compact aggregate of activated epithelioid macrophages, often with giant cells and a lymphocyte rim, that walls off an agent macrophages cannot digest."
+      },
+      {
+        "term": "Caseous necrosis",
+        "def": "Granuloma center necrosis with a crumbly amorphous appearance, combining coagulative and liquefactive features, classic for tuberculosis."
+      },
+      {
+        "term": "Interface dermatitis",
+        "def": "A histologic pattern of lymphocytes and keratinocyte apoptosis concentrated at the dermal-epidermal junction."
+      },
+      {
+        "term": "Immune complex",
+        "def": "An antigen-antibody aggregate that can deposit in vessel walls or basement membranes and activate complement."
+      },
+      {
+        "term": "Acantholysis",
+        "def": "Loss of adhesion between keratinocytes, producing an intraepidermal blister, as when autoantibodies bind desmoglein."
+      },
+      {
+        "term": "Immune checkpoint",
+        "def": "An inhibitory receptor and ligand pair, such as PD-1 and PD-L1, that dampens activated T cell responses."
+      },
+      {
+        "term": "Virus-like particle",
+        "def": "A self-assembled capsid protein shell containing no viral genome, used as a vaccine antigen that mimics virion surface structure."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "comp": "NPLEX-P1-INTG-11-01-C01",
+      "obj": "IN-11.1",
+      "title": "Innate defense in the skin and Langerhans cell priming of naive T cells",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Intact skin defends mechanically and chemically before any immune cell is involved. The cornified layer is a dry, tightly cross-linked barrier, surface lipids and sweat keep the pH at roughly 5, and resident commensals occupy the niches a pathogen would use. Immune defense begins when that barrier is breached, and the first responder is the keratinocyte itself."
+        },
+        {
+          "type": "p",
+          "text": "Keratinocytes express Toll-like receptors, the best known being TLR2 for gram-positive cell wall components such as peptidoglycan and lipoteichoic acid and TLR4 for lipopolysaccharide. Ligand binding activates NF-kB, which drives transcription of IL-1 and TNF and of antimicrobial peptides. IL-1 and TNF act locally on dermal endothelium to raise adhesion molecule expression and systemically on the hypothalamus to produce fever. The antimicrobial peptides, chiefly beta-defensins and the cathelicidin LL-37, are cationic and insert into anionic microbial membranes, so they kill bacteria and fungi directly and also recruit leukocytes. Their output rises sharply in wounded skin, which is one reason minor wounds usually do not become infected."
+        },
+        {
+          "type": "p",
+          "text": "Mast cells sit along dermal vessels and in the perifollicular connective tissue, loaded with preformed histamine, heparin, tryptase, and TNF. They degranulate within seconds to minutes in response to IgE cross-linking, complement products C3a and C5a, substance P, physical trauma, or heat, and they then synthesize prostaglandin D2 and leukotrienes. Because they are prepositioned at vessels, they convert a chemical alarm into increased blood flow and permeability faster than any recruited cell could."
+        },
+        {
+          "type": "p",
+          "text": "Langerhans cells form a dendritic network in the suprabasal epidermis, about 2 to 4 percent of epidermal cells, and are recognized by CD1a, langerin (CD207), and tennis-racket Birbeck granules on electron microscopy. They sample antigen through dendrites that reach between keratinocytes. Naive T cells do not patrol skin; they circulate through lymph nodes, so antigen must be carried to them. Keratinocyte IL-1 and TNF plus the Toll-like receptor signal mature the Langerhans cell: it loses its adhesion to keratinocytes, upregulates CCR7, and follows the chemokines CCL19 and CCL21 into afferent lymphatics and the regional node paracortex. There it presents peptide on MHC class II to CD4 cells and, through cross-presentation, on MHC class I to CD8 cells, and supplies the second signal through B7 (CD80 and CD86) binding CD28. Without that costimulation the T cell becomes anergic rather than activated, which is how harmless skin antigens are normally tolerated. Primed effector T cells then acquire skin-homing receptors, chiefly cutaneous lymphocyte antigen and CCR4, and return to the dermis."
+        },
+        {
+          "type": "flow",
+          "title": "Langerhans cell antigen capture and T cell priming",
+          "steps": [
+            "Barrier breach; keratinocyte Toll-like receptors activate NF-kB",
+            "IL-1 and TNF released; Langerhans cell captures antigen",
+            "Langerhans cell matures, upregulates CCR7 and B7",
+            "Migration in afferent lymphatics to regional node paracortex",
+            "Peptide on MHC plus B7 to CD28 primes the naive T cell",
+            "Effector T cells express skin-homing receptors and return to dermis"
+          ],
+          "caption": "The afferent limb of cutaneous adaptive immunity: antigen moves to the node because naive T cells cannot come to the skin."
+        },
+        {
+          "type": "table",
+          "title": "Innate sentinels of the skin",
+          "cols": [
+            "Cell",
+            "Sensing",
+            "Main output",
+            "Speed"
+          ],
+          "rows": [
+            [
+              "Keratinocyte",
+              "TLR2, TLR4, injury",
+              "IL-1, TNF, beta-defensins, LL-37",
+              "Minutes to hours (transcription needed)"
+            ],
+            [
+              "Mast cell",
+              "IgE cross-linking, C3a and C5a, substance P, trauma, heat",
+              "Histamine, tryptase, TNF, PGD2, leukotrienes",
+              "Seconds to minutes (preformed granules)"
+            ],
+            [
+              "Langerhans cell",
+              "Antigen capture plus keratinocyte cytokines",
+              "Antigen presentation with B7 costimulation in the node",
+              "Hours to days"
+            ],
+            [
+              "Dermal macrophage",
+              "Opsonins, TLRs",
+              "Phagocytosis, IL-12, debris clearance",
+              "Hours"
+            ]
+          ],
+          "caption": "Response speed tracks whether the mediator is preformed, transcribed, or requires cell migration."
+        },
+        {
+          "type": "stop",
+          "predict": "A patient on a drug that blocks CCR7 signaling is sensitized to a new contact allergen. Will allergic contact dermatitis develop normally?",
+          "explain": "Decide which limb of the response the drug interrupts and whether antigen can still reach naive T cells.",
+          "check": "Compare with the Langerhans cell priming flow in this section and with the sensitization phase in C04."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-INTG-11-01-C02",
+      "obj": "IN-11.2",
+      "title": "Acute inflammation, the leukocyte adhesion cascade, and leukocyte adhesion deficiency",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Acute inflammation has a vascular phase and a cellular phase. In the vascular phase, histamine, bradykinin, prostaglandins, and nitric oxide dilate arterioles, which raises local blood flow and produces redness and heat. The same mediators act on postcapillary venules, where endothelial cells contract and pull apart at their junctions, so interendothelial gaps open. Plasma proteins escape, tissue oncotic pressure rises, and protein-rich exudate accumulates as the swelling of the response. Fluid loss concentrates red cells and slows flow (stasis), which lets leukocytes leave the axial stream and run along the endothelium, that is, marginate. Venules rather than capillaries or arterioles leak, because their endothelium responds to these mediators and their wall is thin enough to cross."
+        },
+        {
+          "type": "p",
+          "text": "The cellular phase is a fixed sequence of adhesion steps, each using a different receptor pair, which is why a single molecular defect can halt it. Histamine and thrombin cause immediate surface display of preformed P-selectin from Weibel-Palade bodies, while IL-1 and TNF induce E-selectin over several hours. Selectins bind sialylated carbohydrate ligands such as sialyl Lewis X on neutrophils with low affinity and fast off-rates, so the cell tethers, detaches, and tethers again: it rolls. Rolling brings the leukocyte into contact with chemokines, including IL-8, immobilized on endothelial glycosaminoglycans. Chemokine receptor signaling triggers a conformational change in the beta-2 integrins LFA-1 (CD11a and CD18) and Mac-1 (CD11b and CD18) to a high-affinity state; these then bind ICAM-1, which IL-1 and TNF have upregulated, and the cell stops. The arrested leukocyte squeezes between endothelial cells using homophilic PECAM-1 (CD31) interactions, crosses the basement membrane with the help of secreted collagenases, and then migrates up a gradient of chemoattractants: C5a, leukotriene B4, IL-8, and bacterial formylated peptides such as f-Met-Leu-Phe. Neutrophils dominate the first 6 to 24 hours and monocytes the next 24 to 48, because neutrophils are short lived and the later chemokine profile favors monocytes."
+        },
+        {
+          "type": "flow",
+          "title": "The leukocyte adhesion cascade",
+          "steps": [
+            "Mediators dilate arterioles and open venular endothelial gaps",
+            "Stasis and margination bring leukocytes to the wall",
+            "P-selectin and E-selectin bind sialyl Lewis X; rolling",
+            "Endothelial chemokines switch beta-2 integrins to high affinity",
+            "LFA-1 and Mac-1 bind ICAM-1; firm adhesion",
+            "PECAM-1 guides transmigration across the venule wall",
+            "Chemotaxis toward C5a, LTB4, IL-8, bacterial peptides"
+          ],
+          "caption": "Each step uses its own receptor pair, so the cascade can be interrupted at a defined molecular point."
+        },
+        {
+          "type": "table",
+          "title": "Adhesion molecules by step",
+          "cols": [
+            "Step",
+            "Endothelial molecule",
+            "Leukocyte molecule",
+            "Induced by"
+          ],
+          "rows": [
+            [
+              "Rolling, immediate",
+              "P-selectin (preformed)",
+              "Sialyl Lewis X",
+              "Histamine, thrombin"
+            ],
+            [
+              "Rolling, delayed",
+              "E-selectin",
+              "Sialyl Lewis X",
+              "IL-1, TNF (hours)"
+            ],
+            [
+              "Naive lymphocyte rolling in nodes",
+              "Peripheral node addressin on high endothelial venules",
+              "L-selectin",
+              "Constitutive"
+            ],
+            [
+              "Firm adhesion",
+              "ICAM-1 (and VCAM-1 for VLA-4)",
+              "LFA-1 and Mac-1 (CD18 beta-2 integrins)",
+              "IL-1, TNF"
+            ],
+            [
+              "Transmigration",
+              "PECAM-1",
+              "PECAM-1",
+              "Constitutive"
+            ]
+          ],
+          "caption": "Note that leukocyte L-selectin is used for lymphocyte entry into nodes, while endothelial selectins drive rolling at inflamed tissue."
+        },
+        {
+          "type": "example",
+          "title": "Reading leukocyte adhesion deficiency type 1",
+          "text": "A newborn has an umbilical cord stump still attached at four weeks, recurrent skin and soft tissue infections with no pus and little erythema, poorly healing wounds, and a blood neutrophil count of 55,000 per microliter. The defect is in ITGB2, which encodes CD18, the beta chain shared by LFA-1 and Mac-1. Rolling is intact, so neutrophils still slow at the vessel wall, but they cannot convert that to firm adhesion, cannot transmigrate, and so accumulate in blood: the high count is the mirror image of the missing tissue infiltrate. Pus is dead neutrophils, so without neutrophil egress there is no pus. Delayed cord separation and poor healing follow because leukocyte proteases and growth factors normally remodel that tissue. Contrast Chediak-Higashi syndrome, where neutrophils arrive but cannot fuse granules with phagosomes, and chronic granulomatous disease, where they arrive and ingest but cannot generate superoxide."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-INTG-11-01-C03",
+      "obj": "IN-11.3",
+      "title": "Outcomes of acute inflammation and granuloma formation",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Which of three outcomes follows acute inflammation depends on whether the stimulus is cleared and how much tissue architecture survives. Resolution occurs when the injurious agent is removed quickly and the extracellular matrix is intact: mediators are degraded, venular leak stops, neutrophils undergo apoptosis and are phagocytosed by macrophages, edema drains into lymphatics, and macrophages switch to a reparative program that produces IL-10 and TGF-beta along with lipid mediators such as lipoxins and resolvins that actively stop recruitment. Resolution is therefore a programmed event, not simply the fading of a stimulus."
+        },
+        {
+          "type": "p",
+          "text": "Suppuration gives an abscess. Pyogenic organisms, Staphylococcus aureus above all, recruit an intense neutrophil infiltrate whose lysosomal proteases and reactive oxygen species digest both microbes and host tissue, producing liquefactive necrosis. The resulting cavity of pus is surrounded by a pyogenic membrane of granulation tissue, which contains the infection but also keeps antibodies, complement, and phagocytes from penetrating well, so abscesses persist until drained and heal by scar."
+        },
+        {
+          "type": "p",
+          "text": "Chronic inflammation develops when the agent persists, as with a foreign body, a poorly degradable organism, or an ongoing autoimmune stimulus. The infiltrate shifts to macrophages, lymphocytes, and plasma cells, and tissue injury, repair, angiogenesis, and fibrosis proceed at the same time rather than in sequence, which is why chronic lesions show scarring alongside active inflammation."
+        },
+        {
+          "type": "p",
+          "text": "Granulomatous inflammation is a specific form of chronic inflammation driven by a self-reinforcing loop between macrophages and Th1 cells. A macrophage ingests an agent it cannot destroy, presents its peptides on MHC class II, and secretes IL-12. IL-12 and STAT4 signaling commit naive CD4 cells to the Th1 lineage through T-bet, and Th1 cells secrete IFN-gamma. IFN-gamma is the classic macrophage-activating cytokine: it increases phagolysosomal killing, MHC expression, and nitric oxide synthesis, and converts macrophages into large pale epithelioid cells that fuse into multinucleated giant cells. TNF from the activated macrophages maintains the aggregate, which is why TNF inhibitors can reactivate latent tuberculosis. A granuloma walls off what cannot be cleared, at the cost of local tissue destruction and fibrosis."
+        },
+        {
+          "type": "cycle",
+          "title": "The macrophage and Th1 loop that builds a granuloma",
+          "steps": [
+            "Macrophage ingests an indigestible agent",
+            "Antigen on MHC class II plus IL-12 release",
+            "Naive CD4 cell commits to Th1 (T-bet, STAT4)",
+            "Th1 cell secretes IFN-gamma",
+            "Macrophage becomes epithelioid, fuses into giant cells",
+            "TNF sustains the aggregate and more IL-12 is made, feeding the loop"
+          ],
+          "caption": "A positive feedback loop: macrophage IL-12 makes Th1 cells, and Th1 IFN-gamma makes activated macrophages."
+        },
+        {
+          "type": "table",
+          "title": "Caseating and noncaseating granulomas",
+          "cols": [
+            "Feature",
+            "Caseating",
+            "Noncaseating"
+          ],
+          "rows": [
+            [
+              "Center",
+              "Caseous necrosis, crumbly and amorphous",
+              "No central necrosis"
+            ],
+            [
+              "Typical causes",
+              "Tuberculosis, Histoplasma, Coccidioides, Blastomyces",
+              "Sarcoidosis, Crohn disease, berylliosis, foreign body, cat-scratch (suppurative center)"
+            ],
+            [
+              "Mechanism of necrosis",
+              "Hypoxia plus mycobacterial lipid and TNF-driven host cell death",
+              "Agent contained without extensive cell death"
+            ],
+            [
+              "Useful stains and findings",
+              "Acid-fast bacilli, methenamine silver for fungi",
+              "Asteroid or Schaumann bodies in sarcoidosis; polarizable material in foreign body"
+            ],
+            [
+              "Skin presentation",
+              "Lupus vulgaris, scrofuloderma, deep fungal infection",
+              "Sarcoid plaques, lupus pernio, granuloma annulare pattern lesions"
+            ]
+          ],
+          "caption": "Caseation is the discriminator; a granuloma is not a diagnosis until organisms are sought and excluded."
+        },
+        {
+          "type": "p",
+          "text": "Two cautions matter for board reasoning. First, the name of the immunodeficiency is misleading: in chronic granulomatous disease granulomas form because NADPH oxidase failure leaves catalase-positive organisms undigested, not because granuloma formation is exaggerated. Second, foreign body granulomas form around suture, talc, or keratin without requiring T cell help, so giant cells may appear with little lymphocytic rim."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-INTG-11-01-C04",
+      "obj": "IN-11.4",
+      "title": "The four hypersensitivity types as skin reactions",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Hypersensitivity is immune injury to the host from a response that is normal in kind. The skin displays all four types, and because each uses a different effector, each has a characteristic latency. Timing is the most useful discriminator."
+        },
+        {
+          "type": "p",
+          "text": "Type I is IgE mediated. First exposure drives Th2 help and IL-4 dependent class switching to IgE, which binds FcepsilonRI on mast cells; re-exposure cross-links that IgE and degranulation follows within minutes. Histamine at H1 receptors opens venular gaps, so fluid in the superficial dermis makes a wheal while a deeper leak makes angioedema. A late phase at 4 to 12 hours, from newly synthesized leukotrienes and recruited eosinophils, explains lesions that return after the first wheal fades."
+        },
+        {
+          "type": "p",
+          "text": "Type II is injury by IgG or IgM bound to a fixed tissue antigen, and in skin those antigens are adhesion molecules, so the lesion is a blister. Pemphigus vulgaris antibodies disable desmosomes by binding desmoglein 3 and 1, keratinocytes separate (acantholysis), and the blister is intraepidermal and flaccid. Bullous pemphigoid antibodies bind BP180 and BP230 in hemidesmosomes at the lamina lucida, so the whole epidermis lifts off as a tense subepidermal bulla. Neither needs cell lysis: the antibody blocks adhesion and recruits complement and proteases."
+        },
+        {
+          "type": "p",
+          "text": "Type III is immune complex disease. With antigen and antibody in roughly comparable amounts, complexes precipitate in vessel walls, fix complement, generate C5a, and recruit neutrophils whose enzymes destroy the wall. Locally that is the Arthus reaction at 4 to 12 hours; systemically, deposits in small dermal vessels give leukocytoclastic vasculitis with palpable purpura, fibrinoid necrosis, and neutrophil nuclear dust, and complement consumption lowers serum C3 and C4."
+        },
+        {
+          "type": "p",
+          "text": "Type IV needs no antibody. A small reactive molecule such as nickel ion or urushiol acts as a hapten, binds skin protein, and is carried by Langerhans cells to the node to prime T cells. On re-exposure those effector T cells return to skin and release IFN-gamma, while CD8 cells kill keratinocytes directly. Recruitment takes time, so the reaction peaks at 48 to 72 hours with spongiotic dermatitis, and the tuberculin reaction is firm induration rather than a soft wheal because the swelling is cellular infiltrate."
+        },
+        {
+          "type": "table",
+          "title": "Hypersensitivity types in the skin",
+          "cols": [
+            "Type",
+            "Effector",
+            "Key mediators",
+            "Skin example",
+            "Onset after exposure"
+          ],
+          "rows": [
+            [
+              "I",
+              "IgE on mast cells",
+              "Histamine, leukotrienes C4 D4 E4, tryptase, PGD2",
+              "Urticaria, angioedema, anaphylaxis",
+              "Minutes; late phase 4 to 12 hours"
+            ],
+            [
+              "II",
+              "IgG against fixed antigen",
+              "Complement, proteases, loss of adhesion",
+              "Pemphigus vulgaris (desmoglein), bullous pemphigoid (BP180, BP230)",
+              "Follows titer; days to weeks"
+            ],
+            [
+              "III",
+              "Antigen-antibody complexes",
+              "C3a and C5a, neutrophil enzymes, fibrinoid necrosis",
+              "Arthus reaction, leukocytoclastic vasculitis",
+              "Arthus 4 to 12 hours; serum sickness 7 to 14 days"
+            ],
+            [
+              "IV",
+              "Sensitized T cells and macrophages",
+              "IFN-gamma, TNF, CD8 cytotoxicity",
+              "Allergic contact dermatitis, tuberculin reaction",
+              "48 to 72 hours"
+            ]
+          ],
+          "caption": "Mediator class sets the latency: preformed granules in minutes, complement and neutrophils in hours, cell recruitment in days."
+        },
+        {
+          "type": "table",
+          "title": "Distinguishing confusable skin lesions",
+          "cols": [
+            "Pair",
+            "Discriminator"
+          ],
+          "rows": [
+            [
+              "Urticarial wheal and tuberculin induration",
+              "Soft plasma edema in minutes versus firm cellular infiltrate at 48 to 72 hours"
+            ],
+            [
+              "Pemphigus vulgaris and bullous pemphigoid",
+              "Intraepidermal flaccid blister with mucosal disease and net-like IgG versus subepidermal tense blister with linear junctional IgG"
+            ],
+            [
+              "Allergic and irritant contact dermatitis",
+              "Allergic needs prior sensitization and spreads past the contact area; irritant is dose-dependent toxicity with sharp borders on first exposure"
+            ],
+            [
+              "Palpable purpura and thrombocytopenic petechiae",
+              "Raised from vessel wall inflammation versus flat and noninflammatory"
+            ],
+            [
+              "Histaminergic and hereditary angioedema",
+              "Pruritic with wheals versus nonpruritic without urticaria and with low C4"
+            ]
+          ],
+          "caption": "Each discriminator traces back to the mediator and the anatomic plane of the lesion."
+        },
+        {
+          "type": "stop",
+          "predict": "A patient develops firm, indurated, nonpruritic plaques 60 hours after using a new topical product, with no wheals at any point. Which hypersensitivity type is this?",
+          "explain": "Use the latency and texture of the lesion to name the effector, then predict the infiltrate.",
+          "check": "Compare with the hypersensitivity table above."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-INTG-11-01-C05",
+      "obj": "IN-11.5",
+      "title": "Autoimmune skin findings and the diseases they signal",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Connective tissue diseases are visible in skin because their targets, nuclear antigens, basement membrane zones, small vessels, and fibroblasts, are all accessible there. Lesion plus biopsy pattern plus antibody narrows the diagnosis far better than any one of the three."
+        },
+        {
+          "type": "p",
+          "text": "In systemic lupus erythematosus, ultraviolet light induces keratinocyte apoptosis and translocates nuclear antigens including Ro/SSA to the cell surface and into apoptotic blebs. Impaired clearance of that debris allows autoantibody binding, and the resulting complexes fix complement along the dermal-epidermal junction. The acute lesion is a photosensitive malar erythema across the cheeks and nasal bridge that characteristically spares the nasolabial folds, since those creases are shaded. Biopsy shows interface dermatitis: a lymphocytic infiltrate at the junction with vacuolar change and apoptotic basal keratinocytes, plus epidermal atrophy and dermal mucin. Direct immunofluorescence shows a granular band of IgG, IgM, and C3 along the junction, often called the lupus band, granular because it marks deposited immune complexes rather than antibody bound to one linear structure. Discoid lesions are deeper and follicular, with dense perifollicular inflammation and follicular plugging; because the inflammation destroys the follicle and its stem cell reservoir, discoid lesions scar and cause permanent alopecia and dyspigmentation, while acute malar lesions do not."
+        },
+        {
+          "type": "p",
+          "text": "Dermatomyositis is a complement-mediated microangiopathy. Antibody and complement deposit on endothelium of skin and muscle capillaries, membrane attack complex forms, capillaries drop out, and the resulting ischemia explains both the rash and the perifascicular muscle atrophy seen in muscle biopsy. The skin findings are Gottron papules, violaceous flat-topped papules over the knuckles and other extensor bony prominences, and a heliotrope rash, a violaceous periorbital discoloration with lid edema, alongside a shawl sign and photodistributed poikiloderma. Weakness is proximal and symmetric, with elevated creatine kinase, and adult-onset disease carries a clearly increased risk of occult internal malignancy, so the rash is a reason to look for systemic disease. Polymyositis shares the muscle picture without the characteristic skin lesions, and its muscle biopsy shows CD8 T cell invasion of nonnecrotic fibers rather than perifascicular ischemia."
+        },
+        {
+          "type": "p",
+          "text": "Systemic sclerosis combines small-vessel endothelial injury with fibroblast activation. Endothelial damage plus vasospasm produces Raynaud phenomenon, usually the earliest symptom, and TGF-beta and connective tissue growth factor drive fibroblasts to deposit excess type I collagen in the dermis. Clinically the skin becomes thick and bound down, fingers become tapered and immobile (sclerodactyly), the mouth aperture narrows, and the face loses expressive folds. Antibody subsets map to extent and organ risk. Anticentromere marks limited cutaneous disease, the CREST pattern of calcinosis, Raynaud, esophageal dysmotility, sclerodactyly, and telangiectasia, with pulmonary arterial hypertension as the feared complication. Anti-Scl-70 (antitopoisomerase I) and anti-RNA polymerase III mark diffuse disease, the first with interstitial lung fibrosis and both with scleroderma renal crisis. Antinuclear antibody is sensitive here but not specific, so the subset antibody carries the information."
+        },
+        {
+          "type": "table",
+          "title": "Autoimmune skin findings, histology, and antibodies",
+          "cols": [
+            "Disease",
+            "Skin finding",
+            "Biopsy or immunofluorescence",
+            "Antibodies"
+          ],
+          "rows": [
+            [
+              "Systemic lupus erythematosus",
+              "Malar rash sparing nasolabial folds; scarring discoid plaques with follicular plugging",
+              "Interface dermatitis; granular junctional IgG, IgM, C3",
+              "ANA, anti-dsDNA, anti-Smith, anti-Ro/SSA (subacute cutaneous and neonatal lupus)"
+            ],
+            [
+              "Dermatomyositis",
+              "Gottron papules, heliotrope rash, shawl sign; proximal weakness",
+              "Interface change with dermal mucin; perifascicular atrophy and capillary loss in muscle",
+              "ANA, anti-Mi-2, anti-Jo-1, anti-TIF1-gamma (malignancy association)"
+            ],
+            [
+              "Limited systemic sclerosis (CREST)",
+              "Sclerodactyly, telangiectasia, calcinosis, Raynaud",
+              "Dermal collagen thickening with loss of adnexa",
+              "Anticentromere"
+            ],
+            [
+              "Diffuse systemic sclerosis",
+              "Widespread truncal and proximal skin thickening, Raynaud",
+              "Dense dermal and subcutaneous fibrosis",
+              "Anti-Scl-70 (topoisomerase I), anti-RNA polymerase III"
+            ]
+          ],
+          "caption": "Pattern plus antibody, not the rash alone, identifies the disease and predicts the organ at risk."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-INTG-11-01-C06",
+      "obj": "IN-11.6",
+      "title": "Tumor immunity, immune escape, and skin cancer in transplant recipients",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Tumor cells become immune targets when they display peptides the immune system has not learned to tolerate. These come from mutated proteins (neoantigens), from oncogenic viral proteins such as HPV E6 and E7 or Merkel cell polyomavirus large T antigen, and from reexpressed embryonic or testis antigens. Ultraviolet radiation gives cutaneous tumors a high mutational burden, so sun-exposed skin cancers are unusually antigenic, which is both why immunosurveillance matters there and why checkpoint blockade works well in melanoma."
+        },
+        {
+          "type": "p",
+          "text": "Two killers do the work, and they read opposite signals. CD8 cytotoxic T cells require peptide presented on MHC class I, recognized through a T cell receptor with CD8 as coreceptor; after priming by dendritic cells that cross-present tumor antigen, they kill through perforin and granzyme delivery and through Fas ligand, both of which activate caspases and apoptosis. Natural killer cells have no antigen-specific receptor. They integrate activating signals from stress-induced ligands such as MICA and MICB binding NKG2D against inhibitory signals from killer cell immunoglobulin-like receptors that recognize self MHC class I. Normal MHC class I expression therefore restrains NK cells, and its loss releases them, which is the missing self principle. NK cells also kill antibody-coated cells through CD16, which is antibody-dependent cellular cytotoxicity."
+        },
+        {
+          "type": "p",
+          "text": "Tumor escape exploits exactly these requirements. Loss or downregulation of MHC class I, through beta-2 microglobulin mutation or defective antigen processing with loss of TAP transporters, hides the tumor from CD8 cells. Expression of PD-L1, often induced by the IFN-gamma that infiltrating T cells themselves produce, engages PD-1 on activated T cells and delivers an inhibitory signal that blunts their receptor signaling: an adaptive resistance in which the attack triggers its own brake. Tumors also secrete TGF-beta and IL-10, recruit regulatory T cells and myeloid-derived suppressor cells, and simply stop expressing the antigens that the strongest clones recognize, which is antigenic drift under immune pressure."
+        },
+        {
+          "type": "flow",
+          "title": "Why a tumor that loses MHC class I is not safe",
+          "steps": [
+            "Tumor displays neoantigen peptide on MHC class I",
+            "CD8 T cells recognize it and kill through perforin and granzyme",
+            "Tumor variant loses MHC class I and escapes CD8 recognition",
+            "KIR inhibitory signal to NK cells is lost (missing self)",
+            "NKG2D sees stress ligands MICA and MICB without inhibition",
+            "NK cells kill the MHC class I negative variant"
+          ],
+          "caption": "The opposite MHC requirements of CD8 and NK cells make escape from one arm an opening for the other."
+        },
+        {
+          "type": "p",
+          "text": "Organ transplant recipients show what happens when this surveillance is removed. Lifelong immunosuppression, particularly calcineurin inhibitors and azathioprine, suppresses T cell activation and therefore the CD8 response to ultraviolet-mutated keratinocytes and to human papillomavirus-infected cells. Cutaneous squamous cell carcinoma incidence rises many times over, the tumors are more numerous, arise earlier, behave more aggressively, and metastasize more often, and the usual ratio reverses so that squamous cell carcinomas outnumber basal cell carcinomas. Two mechanisms beyond immunosuppression add to the effect: azathioprine metabolites incorporate 6-thioguanine into DNA, which absorbs ultraviolet A and generates reactive oxygen species, and calcineurin inhibitors have direct effects on keratinocyte DNA repair and TGF-beta signaling. Squamous cell carcinoma is affected more than basal cell carcinoma, consistent with its stronger dependence on viral cofactors and on immune control of mutated keratinocytes."
+        },
+        {
+          "type": "table",
+          "title": "CD8 T cells and NK cells compared",
+          "cols": [
+            "Feature",
+            "CD8 cytotoxic T cell",
+            "Natural killer cell"
+          ],
+          "rows": [
+            [
+              "Target recognition",
+              "Specific peptide on MHC class I",
+              "Balance of activating and inhibitory receptors, no peptide specificity"
+            ],
+            [
+              "Effect of MHC class I loss on target",
+              "Escapes killing",
+              "Becomes more susceptible (missing self)"
+            ],
+            [
+              "Priming required",
+              "Yes, by dendritic cell with costimulation",
+              "No, acts immediately; IL-12 and IL-15 enhance"
+            ],
+            [
+              "Killing machinery",
+              "Perforin and granzyme, Fas ligand",
+              "Perforin and granzyme, Fas ligand, CD16-mediated ADCC"
+            ],
+            [
+              "Memory",
+              "Yes, long-lived antigen-specific memory",
+              "Limited, mostly innate with some adaptive-like features"
+            ]
+          ],
+          "caption": "The complementary MHC logic of the two cell types is the basis of most tumor immunology questions."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-INTG-11-01-C07",
+      "obj": "IN-11.7",
+      "title": "Vaccine immunology: virus-like particles, live attenuated vaccines, and reactions to boosters",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A vaccine produces immunologic memory without the disease, and the response depends on where the antigen ends up inside a cell. Exogenous protein taken up by a dendritic cell loads on MHC class II and primes CD4 helper T cells that support class switching and affinity maturation, yielding high-affinity IgG and memory B cells. Protein made in the cytosol of an infected cell is processed by the proteasome, loads on MHC class I, and primes CD8 cytotoxic T cells as well. That one rule predicts what each platform yields."
+        },
+        {
+          "type": "p",
+          "text": "The human papillomavirus vaccine is recombinant L1 major capsid protein made in yeast or insect cells. L1 self-assembles into virus-like particles that reproduce the geometry of the virion surface but contain no viral DNA, so they cannot replicate, infect, or transform a cell. Their repeating conformational epitopes sit in a dense ordered array, which cross-links B cell receptors strongly and, with adjuvant and CD4 help, drives durable neutralizing IgG. That antibody keeps L1 from binding heparan sulfate proteoglycans and entering basal keratinocytes, so infection is blocked at entry. The vaccine is prophylactic for that reason: it cannot clear established infection, in which E6 and E7 are expressed intracellularly and out of antibody reach."
+        },
+        {
+          "type": "p",
+          "text": "Live attenuated varicella vaccine uses the Oka strain, passaged until it replicates poorly in human tissue. Because it does replicate, it makes viral protein inside host cells, so antigen reaches both the MHC class II and the MHC class I pathway. The result is antibody plus CD4 and CD8 memory, which matters for a virus that becomes latent in dorsal root ganglia, since cell-mediated immunity is what holds it latent. Replication also explains why a mild vesicular rash can follow vaccination and why the vaccine is contraindicated in significant immunosuppression and in pregnancy."
+        },
+        {
+          "type": "table",
+          "title": "Vaccine platforms and the immunity they produce",
+          "cols": [
+            "Platform",
+            "Example",
+            "Antigen route",
+            "Immunity produced",
+            "Main limitation"
+          ],
+          "rows": [
+            [
+              "Virus-like particle (recombinant subunit)",
+              "HPV L1 vaccine",
+              "Exogenous, MHC class II",
+              "Strong neutralizing IgG; little CD8 response",
+              "Prophylactic only; needs adjuvant and a series"
+            ],
+            [
+              "Live attenuated",
+              "Varicella (Oka strain), MMR",
+              "Replicates intracellularly, MHC class I and II",
+              "Antibody plus CD4 and CD8 memory; often long lasting",
+              "Contraindicated in immunosuppression and pregnancy; mild rash possible"
+            ],
+            [
+              "Toxoid",
+              "Tetanus and diphtheria toxoid",
+              "Exogenous, MHC class II",
+              "Neutralizing antitoxin IgG",
+              "Needs boosters; repeat doses risk local reactions"
+            ],
+            [
+              "Inactivated whole organism",
+              "Hepatitis A, inactivated polio",
+              "Exogenous, MHC class II",
+              "IgG, no cytotoxic T cell priming",
+              "Boosters needed; weaker mucosal immunity"
+            ]
+          ],
+          "caption": "Whether a vaccine primes CD8 cells depends on whether its antigen is made inside the host cell."
+        },
+        {
+          "type": "p",
+          "text": "An Arthus reaction after a toxoid booster is the predictable consequence of giving antigen to someone who already carries a high circulating antitoxin IgG titer. Antigen injected into the dermis and subcutis meets antibody diffusing from local vessels, complexes form near equivalence in and around the vessel walls, classical complement activation produces C3a and C5a, and recruited neutrophils injure the vessel. The reaction is local, peaks at about 4 to 12 hours with painful induration and edema over a wide area of the limb, and resolves over days. It is type III rather than an allergy to the vaccine, reflecting too much pre-existing immunity rather than too little, which is why the toxoid booster interval is deliberately long. Distinguish it from type I urticaria within minutes and from a type IV adjuvant reaction at 48 to 72 hours."
+        },
+        {
+          "type": "flow",
+          "title": "Arthus reaction after a booster in a highly immune person",
+          "steps": [
+            "Toxoid antigen injected into dermis and subcutis",
+            "High-titer IgG diffuses from local vessels",
+            "Immune complexes form near equivalence in and around vessel walls",
+            "Classical complement activation generates C3a and C5a",
+            "Neutrophils recruited; enzymes and reactive oxygen injure the vessel",
+            "Painful edematous, sometimes hemorrhagic swelling at 4 to 12 hours",
+            "Complexes cleared; resolution over days"
+          ],
+          "caption": "The time course places the reaction: minutes means IgE, hours means immune complexes, days means T cells."
+        }
+      ]
+    }
+  ],
+  "integration": [
+    {
+      "type": "p",
+      "text": "Anatomy and histology decide what a cutaneous immune lesion looks like. The plane of injury is the diagnosis: separation between keratinocytes gives a flaccid intraepidermal blister, separation at the lamina lucida gives a tense subepidermal one, inflammation concentrated at the junction gives interface dermatitis with scarring only when it reaches the follicle, and fluid in the superficial dermis gives a wheal while fluid in the lower dermis and subcutis gives angioedema. Because postcapillary venules are the vessels that respond to inflammatory mediators, both edema and immune complex vasculitis are centered there, which is why palpable purpura is a small-vessel lesion of dependent skin."
+    },
+    {
+      "type": "p",
+      "text": "Physiology, biochemistry, microbiology, and pathology converge on the same point: the mediator class sets the time course, and the time course is the exam's most reliable clue. Preformed mast cell granules act in minutes, complement and neutrophil recruitment in hours, and T cell recruitment and macrophage activation in days, which is why the tuberculin reaction is indurated at 48 to 72 hours while urticaria is soft at 10 minutes. The same cytokines reappear in different roles, so a mechanism learned once pays off repeatedly: IL-1 and TNF induce the endothelial adhesion molecules that make an infiltrate possible, TNF also holds a granuloma together, IFN-gamma activates macrophages and simultaneously induces tumor PD-L1, and IL-12 commits Th1 cells whose IFN-gamma feeds the loop. The limits are worth stating plainly: hypersensitivity classification is a teaching framework and real diseases often combine types, a granuloma identifies a pattern rather than a cause, antinuclear antibody positivity is common in healthy people and only the subset antibody carries diagnostic weight, and biopsy and immunofluorescence findings are probabilistic patterns read in clinical context."
+    }
+  ],
+  "summary": [
+    "Keratinocytes sense microbes through TLR2 and TLR4, signal through NF-kB, and release IL-1, TNF, beta-defensins, and cathelicidin LL-37; perivascular mast cells convert that alarm into vasodilation and venular leak within minutes.",
+    "Naive T cells cannot enter skin, so Langerhans cells capture antigen, upregulate CCR7, migrate to the regional node, and prime T cells with peptide on MHC plus B7 to CD28; without costimulation the T cell becomes anergic.",
+    "Leukocyte recruitment is a fixed sequence of receptor pairs: selectins and sialyl Lewis X for rolling, chemokine-activated CD18 integrins binding ICAM-1 for firm adhesion, PECAM-1 for transmigration, then chemotaxis toward C5a, LTB4, and IL-8.",
+    "Leukocyte adhesion deficiency type 1 is a CD18 defect: rolling persists but adhesion fails, so blood neutrophils are very high while tissue shows infections without pus, poor healing, and delayed umbilical cord separation.",
+    "Acute inflammation resolves when the agent is cleared and matrix is intact, suppurates into an abscess when pyogenic organisms drive liquefactive necrosis, and becomes chronic when the agent persists, with injury, repair, and fibrosis proceeding together.",
+    "Granulomas are built by a feedback loop: macrophage IL-12 commits Th1 cells, Th1 IFN-gamma converts macrophages into epithelioid and giant cells, and TNF sustains the aggregate; caseation points to tuberculosis or deep fungi, absence of caseation to sarcoidosis, Crohn disease, or foreign body.",
+    "Hypersensitivity timing names the mechanism: minutes for IgE urticaria and angioedema, 4 to 12 hours for the Arthus reaction and days to weeks for antibody-mediated blistering, 48 to 72 hours for contact dermatitis and the tuberculin reaction.",
+    "Pemphigus vulgaris targets desmoglein and gives flaccid intraepidermal bullae with net-like IgG; bullous pemphigoid targets BP180 and BP230 and gives tense subepidermal bullae with a linear junctional band.",
+    "Lupus shows interface dermatitis with a granular junctional immunofluorescence band and scars only in discoid lesions; dermatomyositis is a complement-mediated microangiopathy with Gottron papules and heliotrope rash; systemic sclerosis maps to anticentromere in limited disease and anti-Scl-70 in diffuse disease with lung fibrosis.",
+    "CD8 cells need MHC class I and NK cells are inhibited by it, so MHC loss trades one killer for the other, while PD-L1 expression brakes activated T cells; removing T cell surveillance in transplant recipients produces many aggressive cutaneous squamous cell carcinomas that outnumber basal cell carcinomas."
+  ],
+  "sources": [
+    {
+      "book": "Robbins and Cotran Pathologic Basis of Disease",
+      "where": "Inflammation and Repair; Diseases of the Immune System; Neoplasia"
+    },
+    {
+      "book": "Abbas, Cellular and Molecular Immunology",
+      "where": "Innate immunity; Immune-mediated hypersensitivity; Immunity to tumors; Vaccination"
+    },
+    {
+      "book": "Robbins and Cotran Pathologic Basis of Disease",
+      "where": "The Skin"
+    },
+    {
+      "book": "Junqueira Basic Histology",
+      "where": "Skin"
+    },
+    {
+      "book": "Jawetz Medical Microbiology",
+      "where": "Immunization; Papillomaviruses; Herpesviruses"
+    },
+    {
+      "book": "Lange Pathophysiology of Disease",
+      "where": "Inflammation; Diseases of the immune system"
+    }
+  ],
+  "verify": [
+    "Request a diagram name for the leukocyte adhesion cascade along a venule (rolling, firm adhesion, transmigration, chemotaxis), since no approved schematic name fits it.",
+    "Request a diagram name for a labeled granuloma cross-section (epithelioid macrophages, Langhans giant cell, lymphocyte rim, caseous center).",
+    "Request a diagram name for skin blister planes (intraepidermal acantholytic versus subepidermal junctional) to support the pemphigus and pemphigoid contrast.",
+    "Confirm against current NABNE Part I content outline how much vaccine immunology is in scope for Biomedical Science, since schedules and products border on Part II clinical material.",
+    "Standardized cutoffs for a positive tuberculin reaction are clinical thresholds that vary by risk group and are management content; confirm whether the Part I outline expects any numeric cutoff.",
+    "Relative incidence figures for squamous cell carcinoma in transplant recipients vary widely between sources and registries, so the chapter states the direction of the effect rather than a multiplier; verify whether a specific figure is expected.",
+    "Langerhans cell density as a percentage of epidermal cells is cited differently across histology texts (roughly 2 to 8 percent); the chapter uses the lower consensus range."
+  ]
+}
