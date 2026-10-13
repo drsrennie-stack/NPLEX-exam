@@ -1,0 +1,652 @@
+{
+  "unit": "UR-11",
+  "chapter_id": "NPLEX-P1-RENL-11",
+  "topic_id": "NPLEX-P1-RENL-11-01",
+  "title": "Urinary Pathogens and Infection-Related Kidney Disease",
+  "subject": "Renal and Urinary System (RENL)",
+  "version": "1.0",
+  "overview": {
+    "intro": "This chapter covers the organisms that infect the urinary tract and the ways infection injures the kidney. It explains how uropathogenic Escherichia coli ascends and attaches, why other organisms appear in particular hosts, how Proteus builds struvite stones, how to read a urinalysis by mechanism, how gonorrhea and chlamydia cause urethritis, which infections cause which glomerular lesions, and how tuberculosis and Schistosoma haematobium damage the urinary tract. Board questions usually give a host, a urinalysis, a culture clue, or a biopsy pattern and ask you to name the organism or explain the finding, so the focus is on virulence factors, laboratory identification, and immune mechanisms.",
+    "prerequisites": [
+      "Gram stain, bacterial cell wall structure, and basic culture media (MacConkey, blood agar)",
+      "Anatomy of the urethra, bladder, ureters, renal pelvis, and calyces",
+      "Glomerular filtration barrier and the nephritic versus nephrotic patterns",
+      "Complement pathways and type III (immune complex) hypersensitivity",
+      "Granuloma formation and cell-mediated immunity"
+    ],
+    "connections": [
+      {
+        "to": "Renal pathology (glomerular and tubulointerstitial disease)",
+        "how": "Pyelonephritis, poststreptococcal glomerulonephritis, membranous nephropathy, membranoproliferative glomerulonephritis, and FSGS reappear there as lesion patterns; this chapter supplies the infectious causes."
+      },
+      {
+        "to": "Kidney stones",
+        "how": "Struvite calculi are the stone type caused directly by infection, and they contrast with calcium, uric acid, and cystine stones that form in acidic or normal urine."
+      },
+      {
+        "to": "Reproductive system pathogens",
+        "how": "Gonorrhea and chlamydia that cause urethritis also ascend to cause epididymitis, cervicitis, and pelvic inflammatory disease."
+      },
+      {
+        "to": "Immunology",
+        "how": "Antigenic variation, IgA protease, complement consumption, cryoglobulins, and granulomas are general immune mechanisms seen here in a urinary setting."
+      },
+      {
+        "to": "Respiratory pathogens (tuberculosis)",
+        "how": "Renal tuberculosis is seeded through the blood during lung infection and reactivates years later."
+      }
+    ],
+    "terms": [
+      {
+        "term": "Uropathogenic E. coli (UPEC)",
+        "def": "Strains of E. coli carrying adhesins and other virulence genes that let them colonize and invade the urinary tract."
+      },
+      {
+        "term": "Fimbriae (pili)",
+        "def": "Hairlike surface protein fibers whose tip adhesins bind specific host cell receptors."
+      },
+      {
+        "term": "Cystitis",
+        "def": "Infection and inflammation of the bladder, causing dysuria, frequency, urgency, and suprapubic pain."
+      },
+      {
+        "term": "Pyelonephritis",
+        "def": "Infection of the renal pelvis and parenchyma, usually by ascent from the bladder, causing fever and flank pain."
+      },
+      {
+        "term": "Urease",
+        "def": "A bacterial enzyme that hydrolyzes urea to ammonia and carbon dioxide."
+      },
+      {
+        "term": "Struvite",
+        "def": "Magnesium ammonium phosphate, a crystal that precipitates in alkaline urine and forms infection stones."
+      },
+      {
+        "term": "Pyuria",
+        "def": "White blood cells, mainly neutrophils, in the urine above the normal number."
+      },
+      {
+        "term": "Sterile pyuria",
+        "def": "Pyuria with no growth on routine urine culture."
+      },
+      {
+        "term": "Elementary body",
+        "def": "The small, metabolically inactive, infectious extracellular form of Chlamydia."
+      },
+      {
+        "term": "Reticulate body",
+        "def": "The larger, metabolically active, intracellular form of Chlamydia that divides by binary fission."
+      },
+      {
+        "term": "Cryoglobulins",
+        "def": "Immunoglobulins that precipitate in the cold and redissolve on warming, and that can deposit in vessels and glomeruli."
+      },
+      {
+        "term": "Caseating granuloma",
+        "def": "A granuloma with central cheeselike necrosis, typical of Mycobacterium tuberculosis."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "comp": "NPLEX-P1-RENL-11-01-C01",
+      "obj": "UR-11.1",
+      "title": "Uropathogenic Escherichia coli and fimbrial adhesion",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Escherichia coli is a gram-negative, facultatively anaerobic rod that ferments lactose, so it forms pink colonies on MacConkey agar. It causes most urinary tract infections (UTIs), about 75 to 95% of uncomplicated community cystitis. The infecting strain is almost always the patient's own fecal flora, which colonizes the perineum and periurethral area and then ascends the urethra. The female urethra is short (about 4 cm) and close to the anus, which is why UTIs are far more common in women; intercourse, catheters, obstruction, and vesicoureteral reflux add further risk."
+        },
+        {
+          "type": "p",
+          "text": "The urinary tract normally clears bacteria. Voiding washes them out, urine has a high urea concentration and often a low pH, the urothelium is coated with a protective glycosaminoglycan layer, and uromodulin (Tamm-Horsfall protein) secreted by the thick ascending limb binds bacterial adhesins and acts as a decoy. To cause disease, a strain must attach firmly enough to resist the flow of urine. Uropathogenic strains (UPEC) do this with fimbriae, and the receptor each fimbria binds decides where in the tract the infection settles."
+        },
+        {
+          "type": "table",
+          "title": "The two key E. coli fimbriae",
+          "cols": [
+            "Feature",
+            "Type 1 fimbriae",
+            "P fimbriae"
+          ],
+          "rows": [
+            [
+              "Tip adhesin",
+              "FimH",
+              "PapG"
+            ],
+            [
+              "Host receptor",
+              "Mannose residues on uroplakins of bladder umbrella cells",
+              "Gal-Gal (galactose alpha 1,4 galactose) on P blood group glycolipids of upper tract and renal epithelium"
+            ],
+            [
+              "Adhesion blocked by mannose",
+              "Yes (mannose sensitive)",
+              "No (mannose resistant)"
+            ],
+            [
+              "Disease linked",
+              "Cystitis",
+              "Pyelonephritis and urosepsis"
+            ]
+          ],
+          "caption": "Type 1 fimbriae anchor E. coli in the bladder; P fimbriae let it attach in the upper tract and kidney."
+        },
+        {
+          "type": "p",
+          "text": "Type 1 fimbriae do more than attach. FimH binding triggers uptake into superficial umbrella cells, where bacteria multiply as intracellular communities shielded from antibodies and neutrophils, and can persist in quiescent reservoirs that seed recurrent cystitis. P fimbriae bind receptors that are dense on renal epithelium, so P-fimbriated strains are overrepresented in pyelonephritis. Other UPEC factors include alpha hemolysin (a pore-forming toxin), siderophores such as aerobactin that capture iron, a polysaccharide (K) capsule that resists phagocytosis, and lipopolysaccharide (LPS), whose lipid A drives fever and the neutrophil response."
+        },
+        {
+          "type": "flow",
+          "title": "From fecal flora to pyelonephritis",
+          "steps": [
+            "Fecal E. coli colonizes the periurethral area",
+            "Ascends the urethra into bladder urine",
+            "Type 1 fimbriae bind mannosylated uroplakins: cystitis",
+            "Reflux or obstruction carries bacteria up the ureter",
+            "P fimbriae bind Gal-Gal receptors on renal epithelium",
+            "Neutrophils fill tubules and interstitium: pyelonephritis"
+          ],
+          "caption": "Ascending infection. Each level of the tract requires its own adhesin, and stasis or reflux helps bacteria climb."
+        },
+        {
+          "type": "p",
+          "text": "The manifestations follow the level of infection. Cystitis inflames the bladder mucosa and irritates its sensory nerves, giving dysuria, frequency, urgency, and suprapubic pain without fever. Pyelonephritis is a parenchymal infection: neutrophils fill the tubules and interstitium while glomeruli are relatively spared, LPS triggers cytokine release with fever, and stretching of the renal capsule causes flank pain and costovertebral angle tenderness. Neutrophils packed inside tubules are molded into white blood cell casts (C04). Hematogenous seeding of the kidney is much less common and suggests organisms such as Staphylococcus aureus."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-RENL-11-01-C02",
+      "obj": "UR-11.2",
+      "title": "Other urinary pathogens and their host settings",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Most of the remaining urinary pathogens are predicted by the host. Young, otherwise healthy women get E. coli and Staphylococcus saprophyticus. Patients with catheters, recent instrumentation, hospital stays, structural abnormalities, or repeated antibiotic exposure get Klebsiella, Enterococcus, Pseudomonas, Proteus (C03), and other resistant gram-negative rods. Recognizing each organism depends on a few laboratory features tied to its structure."
+        },
+        {
+          "type": "p",
+          "text": "Staphylococcus saprophyticus is a gram-positive coccus in clusters, catalase positive (like all staphylococci) and coagulase negative. It is the second most common cause of cystitis in young sexually active women. It is separated from the other common coagulase-negative species, Staphylococcus epidermidis, by novobiocin resistance: S. saprophyticus grows up to a novobiocin disk, while S. epidermidis is inhibited. Surface adhesins bind uroepithelium; it produces urease but does not reduce nitrate."
+        },
+        {
+          "type": "p",
+          "text": "Klebsiella pneumoniae is a nonmotile, lactose-fermenting gram-negative rod with a thick polysaccharide capsule. The capsule blocks complement deposition and phagocytosis and makes colonies large and mucoid. It causes UTIs mainly in hospitalized, catheterized, and diabetic patients, and it is weakly urease positive."
+        },
+        {
+          "type": "p",
+          "text": "Enterococcus faecalis and Enterococcus faecium are gram-positive cocci in pairs and short chains that carry the Lancefield group D antigen. They are catalase negative and tolerate harsh conditions, growing in 40% bile and 6.5% NaCl. They are normal gut flora that cause UTIs after instrumentation and in hospital, partly because their penicillin-binding proteins have low affinity for cephalosporins, so cephalosporin use selects for them. They do not reduce nitrate, so the nitrite test is negative."
+        },
+        {
+          "type": "p",
+          "text": "Pseudomonas aeruginosa is an aerobic, non-lactose-fermenting, oxidase-positive gram-negative rod that produces the blue-green pigment pyocyanin and a grapelike odor. Its exopolysaccharides, including alginate, form biofilm on catheter surfaces, where bacteria are protected from host defenses and antimicrobials, making it a classic catheter-associated pathogen."
+        },
+        {
+          "type": "table",
+          "title": "Distinguishing the common urinary pathogens",
+          "cols": [
+            "Organism",
+            "Gram stain and lab clues",
+            "Key virulence feature",
+            "Typical host"
+          ],
+          "rows": [
+            [
+              "Escherichia coli",
+              "Gram-negative rod, lactose fermenter, oxidase negative",
+              "Type 1 and P fimbriae, LPS, capsule",
+              "Most community UTIs"
+            ],
+            [
+              "Staphylococcus saprophyticus",
+              "Gram-positive cocci in clusters, catalase positive, coagulase negative, novobiocin resistant",
+              "Urothelial adhesins, urease",
+              "Young sexually active women"
+            ],
+            [
+              "Klebsiella pneumoniae",
+              "Gram-negative rod, lactose fermenter, mucoid, nonmotile",
+              "Polysaccharide capsule",
+              "Hospital, catheter, diabetes"
+            ],
+            [
+              "Proteus mirabilis",
+              "Gram-negative rod, non-lactose fermenter, swarming",
+              "Urease, flagella",
+              "Recurrent UTI, struvite stones"
+            ],
+            [
+              "Enterococcus species",
+              "Gram-positive cocci in pairs and chains, catalase negative, bile and salt tolerant, nitrite negative",
+              "Hardiness, intrinsic cephalosporin resistance",
+              "Instrumentation, hospital"
+            ],
+            [
+              "Pseudomonas aeruginosa",
+              "Gram-negative rod, non-lactose fermenter, oxidase positive, blue-green pigment",
+              "Alginate biofilm",
+              "Indwelling catheters"
+            ]
+          ],
+          "caption": "Lactose fermentation, oxidase, catalase, coagulase, and novobiocin separate the organisms; the host setting narrows the list before any test is run."
+        },
+        {
+          "type": "stop",
+          "predict": "A 21-year-old woman has dysuria and frequency. Urinalysis shows pyuria with a negative nitrite, and culture grows catalase-positive, coagulase-negative cocci. What single disk test identifies the organism, and why was the nitrite negative?",
+          "explain": "Novobiocin resistance identifies Staphylococcus saprophyticus rather than S. epidermidis. Nitrite was negative because this gram-positive organism does not reduce nitrate to nitrite.",
+          "check": "The S. saprophyticus paragraph in this section."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-RENL-11-01-C03",
+      "obj": "UR-11.3",
+      "title": "Proteus mirabilis, urease, and struvite stones",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Proteus mirabilis is a gram-negative rod that does not ferment lactose (pale colonies on MacConkey agar) and produces hydrogen sulfide. Its two defining features are abundant urease and vigorous motility from many peritrichous flagella. It causes a minority of community UTIs but is overrepresented in complicated, recurrent, and catheter-associated infection, and it is the classic cause of infection stones."
+        },
+        {
+          "type": "p",
+          "text": "Urease hydrolyzes urea, which is present in urine at high concentration, into two molecules of ammonia and one of carbon dioxide. Ammonia (NH3) takes up hydrogen ions to form ammonium (NH4+), consuming free protons and raising urine pH, often above about 7.2. In alkaline urine, the fraction of phosphate in the trivalent form (PO4 3-) rises, and ammonium is now abundant. Magnesium, ammonium, and phosphate combine and exceed their solubility, so magnesium ammonium phosphate (struvite) precipitates, usually together with calcium phosphate (carbonate apatite). Struvite crystals look like coffin lids on urine microscopy."
+        },
+        {
+          "type": "flow",
+          "title": "How urease builds a struvite stone",
+          "steps": [
+            "Proteus urease splits urea into NH3 and CO2",
+            "NH3 binds H+ to form NH4+",
+            "Urine pH rises, often above about 7.2",
+            "More phosphate is trivalent PO4 3-; NH4+ is abundant",
+            "Mg2+, NH4+, and PO4 3- precipitate as struvite",
+            "Crystals grow around bacteria into a staghorn calculus"
+          ],
+          "caption": "Infection drives stone formation through chemistry: urease alkalinizes urine until struvite becomes insoluble."
+        },
+        {
+          "type": "p",
+          "text": "Struvite stones can grow quickly and branch to fill the renal pelvis and several calyces, forming a staghorn calculus. Bacteria live inside the stone matrix and biofilm, where host defenses and drugs reach them poorly, so infection persists and stones regrow from any fragment left behind. The stone obstructs urine flow, which in turn promotes further infection and can lead to chronic pyelonephritis or xanthogranulomatous pyelonephritis. Ammonia is also directly toxic to the urothelium and damages its protective glycosaminoglycan layer. Because struvite stones follow infection, they are more common in women and in people with catheters, neurogenic bladder, or urinary diversion."
+        },
+        {
+          "type": "p",
+          "text": "Other urease producers can do the same: Klebsiella, Staphylococcus saprophyticus, Morganella, Providencia, and Ureaplasma urealyticum. E. coli rarely produces urease, so a stone with persistently alkaline urine points away from it. A contrast is useful: uric acid and cystine stones form in acidic urine, and calcium oxalate forms largely independently of urine pH, whereas struvite and calcium phosphate form in alkaline urine."
+        },
+        {
+          "type": "p",
+          "text": "In the laboratory, Proteus swarms. Its flagella let it spread across the surface of blood agar in thin concentric waves rather than forming discrete colonies, and this swarming pattern, with a non-lactose-fermenting, urease-positive, hydrogen sulfide-producing rod, identifies it. The same motility helps it ascend the ureters and spread along catheters."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-RENL-11-01-C04",
+      "obj": "UR-11.4",
+      "title": "Reading the urinalysis in infection",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A urinalysis has a chemical part (the dipstick) and a microscopic part. Each finding reports a different event: neutrophils have entered the urine, bacteria with a particular enzyme have been in the bladder for some hours, or inflammation is occurring inside the renal tubules. Reading the pattern rather than any single result is what places the infection and suggests the organism."
+        },
+        {
+          "type": "p",
+          "text": "Leukocyte esterase is an enzyme from neutrophil granules. A positive pad means neutrophils, intact or lysed, are present, which is pyuria; on microscopy this corresponds to more than about 10 white cells per microliter of uncentrifuged urine or more than about 5 per high-power field of spun sediment. Pyuria shows inflammation but not its cause or level."
+        },
+        {
+          "type": "p",
+          "text": "Nitrite is not normally in urine. Dietary nitrate is filtered and excreted, and Enterobacterales such as E. coli, Klebsiella, and Proteus carry nitrate reductase, which converts it to nitrite. The conversion takes time, about 4 hours of urine sitting in the bladder. A positive nitrite is therefore quite specific for bacteriuria with these gram-negative rods, but its sensitivity is limited. It is negative with organisms that lack the enzyme (Enterococcus and Staphylococcus saprophyticus), often negative with Pseudomonas, and falsely negative with frequent voiding, dilute urine, or low dietary nitrate. A negative nitrite never excludes UTI."
+        },
+        {
+          "type": "p",
+          "text": "Casts form only in the tubules, where uromodulin (Tamm-Horsfall protein) gels and molds whatever cells are in the lumen. White blood cell casts therefore place neutrophils inside the kidney, as in pyelonephritis (or acute interstitial nephritis), and distinguish it from cystitis, in which white cells come from the bladder and no casts form. Red blood cell casts point instead to glomerular bleeding, as in glomerulonephritis (C06). Bacteria on microscopy and many squamous epithelial cells must be interpreted together: squamous cells suggest the sample was contaminated by perineal or vaginal flora."
+        },
+        {
+          "type": "p",
+          "text": "Sterile pyuria means pyuria with no growth on routine culture. The organism is present but does not grow on standard media, or no organism is involved. Infectious causes include Chlamydia trachomatis (obligate intracellular), Neisseria gonorrhoeae (fastidious, needs enriched selective media), Mycoplasma genitalium, and Mycobacterium tuberculosis (slow growing, needs mycobacterial culture). Noninfectious causes include interstitial nephritis, stones, and recent antibiotic use. Culture confirms UTI: the classic threshold for a clean-catch midstream sample is 100,000 colony-forming units per mL, with lower counts accepted in symptomatic patients and catheter samples."
+        },
+        {
+          "type": "table",
+          "title": "Expected urinalysis patterns",
+          "cols": [
+            "Condition",
+            "Leukocyte esterase",
+            "Nitrite",
+            "WBC casts",
+            "Routine culture"
+          ],
+          "rows": [
+            [
+              "E. coli cystitis",
+              "Positive",
+              "Usually positive",
+              "Absent",
+              "Grows E. coli"
+            ],
+            [
+              "E. coli pyelonephritis",
+              "Positive",
+              "Usually positive",
+              "Present",
+              "Grows E. coli"
+            ],
+            [
+              "Enterococcus or S. saprophyticus cystitis",
+              "Positive",
+              "Negative",
+              "Absent",
+              "Grows organism"
+            ],
+            [
+              "Chlamydial or gonococcal urethritis",
+              "Often positive",
+              "Negative",
+              "Absent",
+              "No growth (sterile pyuria)"
+            ],
+            [
+              "Renal tuberculosis",
+              "Positive",
+              "Negative",
+              "Usually absent",
+              "No growth (sterile pyuria); acid urine"
+            ]
+          ],
+          "caption": "Leukocyte esterase marks neutrophils, nitrite marks nitrate-reducing gram-negative rods, casts mark the kidney, and a negative routine culture with pyuria points to organisms that need special methods."
+        },
+        {
+          "type": "example",
+          "title": "Placing an infection from the urinalysis",
+          "text": "A 30-year-old woman has fever of 39 C (102.2 F), right flank pain, and costovertebral angle tenderness. Dipstick: leukocyte esterase positive, nitrite positive, pH 6. Microscopy: many neutrophils, white cell casts, few squamous cells. Leukocyte esterase shows pyuria. Positive nitrite shows a nitrate-reducing gram-negative rod has been in the bladder for hours. The casts place neutrophils inside the tubules, so this is pyelonephritis, not cystitis, and few squamous cells argue against contamination. Acidic pH makes a urease producer less likely. The best answer is E. coli, very likely carrying P fimbriae. If the pH had been 8 with coffin-lid crystals, Proteus would be the leading choice."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-RENL-11-01-C05",
+      "obj": "UR-11.5",
+      "title": "Gonococcal and chlamydial urethritis",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Urethritis is inflammation of the urethra, usually sexually transmitted, causing dysuria and urethral discharge. It is divided into gonococcal and nongonococcal urethritis; Chlamydia trachomatis is the most common nongonococcal cause, and Mycoplasma genitalium, Ureaplasma, and Trichomonas vaginalis cause others. The two main organisms differ in structure, and those differences explain both the symptoms and the testing."
+        },
+        {
+          "type": "p",
+          "text": "Neisseria gonorrhoeae is a gram-negative diplococcus with flattened adjacent sides (kidney bean pairs). It is oxidase positive, ferments glucose but not maltose (unlike N. meningitidis), lacks a polysaccharide capsule, and is fastidious, needing enriched, selective media such as Thayer-Martin agar with added CO2. Type IV pili attach it to columnar epithelium of the urethra and cervix. The pilin gene recombines with silent gene copies, so the pilus antigens keep changing (antigenic variation), and Opa proteins switch on and off (phase variation). Antibodies raised against one variant fail against the next, so immunity does not last, reinfection is common, and no vaccine exists. IgA1 protease cleaves IgA at the hinge region, removing the main mucosal antibody, and lipooligosaccharide provokes an intense neutrophil response. In men this produces purulent discharge and dysuria about 2 to 7 days after exposure; Gram stain of the discharge shows diplococci inside neutrophils. Infection in women is often asymptomatic and can ascend to cause pelvic inflammatory disease. People with terminal complement deficiency (C5 to C9) are prone to disseminated infection."
+        },
+        {
+          "type": "p",
+          "text": "Chlamydia trachomatis is an obligate intracellular bacterium that depends on host cell ATP. Its envelope lacks a conventional peptidoglycan layer, its rigidity coming instead from disulfide cross-linked outer membrane proteins, so it does not stain on Gram stain. It alternates between two forms (figure below). Serovars D to K infect columnar epithelium of the urethra, cervix, and conjunctiva; A to C cause trachoma, and L1 to L3 cause lymphogranuloma venereum. Because it multiplies quietly inside cells and provokes milder inflammation, chlamydia causes scant watery or mucoid discharge or none at all, has a longer incubation of about 1 to 3 weeks, and often ascends unnoticed to cause epididymitis or pelvic inflammatory disease. Coinfection with gonorrhea is common."
+        },
+        {
+          "type": "cycle",
+          "title": "Chlamydia developmental cycle",
+          "steps": [
+            "Elementary body attaches to columnar epithelial cell",
+            "Enters by endocytosis; blocks phagolysosome fusion",
+            "Converts to reticulate body inside an inclusion",
+            "Reticulate bodies divide by binary fission using host ATP",
+            "Reticulate bodies condense back into elementary bodies",
+            "Cell ruptures or extrudes inclusion, releasing elementary bodies"
+          ],
+          "caption": "The small elementary body survives outside cells and infects; the larger reticulate body replicates. The cycle takes about 2 to 3 days."
+        },
+        {
+          "type": "table",
+          "title": "Gonorrhea and chlamydia compared",
+          "cols": [
+            "Feature",
+            "Neisseria gonorrhoeae",
+            "Chlamydia trachomatis D to K"
+          ],
+          "rows": [
+            [
+              "Organism",
+              "Gram-negative diplococcus, extracellular and within neutrophils",
+              "Obligate intracellular bacterium"
+            ],
+            [
+              "Key virulence",
+              "Pili with antigenic variation, Opa proteins, IgA1 protease, lipooligosaccharide",
+              "Elementary and reticulate bodies, inhibition of phagolysosome fusion"
+            ],
+            [
+              "Incubation",
+              "About 2 to 7 days",
+              "About 1 to 3 weeks"
+            ],
+            [
+              "Discharge",
+              "Purulent, often copious",
+              "Scant, watery, or absent"
+            ],
+            [
+              "Gram stain of discharge",
+              "Intracellular gram-negative diplococci",
+              "Neutrophils without organisms"
+            ],
+            [
+              "Routine urine culture",
+              "No growth",
+              "No growth"
+            ],
+            [
+              "Preferred diagnosis",
+              "Nucleic acid amplification test (NAAT)",
+              "Nucleic acid amplification test (NAAT)"
+            ]
+          ],
+          "caption": "Both give urethritis with sterile pyuria; the discharge, Gram stain, and timing differ."
+        },
+        {
+          "type": "p",
+          "text": "Diagnosis of both relies on nucleic acid amplification testing (NAAT), which amplifies organism DNA or RNA and is the most sensitive method. Suitable samples are first-catch urine (the first portion of the stream, which carries urethral cells) in men and a vaginal or endocervical swab in women, and one sample is usually tested for both organisms."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-RENL-11-01-C06",
+      "obj": "UR-11.6",
+      "title": "Infections that cause glomerular disease",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Infection can injure the glomerulus without any organism reaching it. Microbial antigens and the antibodies against them form immune complexes, either in the circulation or in situ in the glomerulus. Where the complexes lodge predicts the lesion. Subendothelial and mesangial deposits lie on the blood side of the basement membrane, attract neutrophils and macrophages, and produce a nephritic picture (hematuria, red cell casts, hypertension, reduced filtration). Subepithelial deposits sit beyond the basement membrane, away from circulating leukocytes; in membranous nephropathy they injure podocytes through complement membrane attack and cause nephrotic-range proteinuria, whereas the larger subepithelial humps of poststreptococcal disease form during an acute exudative nephritis. A virus can also damage podocytes directly."
+        },
+        {
+          "type": "p",
+          "text": "Poststreptococcal glomerulonephritis (PSGN) follows infection with nephritogenic strains of group A Streptococcus (Streptococcus pyogenes), about 1 to 3 weeks after pharyngitis or 3 to 6 weeks after impetigo. The delay is the time needed to make antibody. Streptococcal antigens (the leading candidates are the cationic proteinase SpeB and nephritis-associated plasmin receptor) deposit in the glomerulus and combine with antibody, activating complement mainly through the alternative pathway, so serum C3 falls while C4 is usually normal. Glomeruli are enlarged and hypercellular with neutrophils; immunofluorescence shows granular IgG and C3; electron microscopy shows subepithelial humps. Typically a child develops cola-colored urine, periorbital edema, and hypertension. Elevated antistreptolysin O titers support a throat source and anti-DNase B a skin source. Most children recover fully, and C3 normalizes within about 6 to 8 weeks. Unlike rheumatic fever, PSGN follows skin as well as throat infection."
+        },
+        {
+          "type": "flow",
+          "title": "Poststreptococcal glomerulonephritis",
+          "steps": [
+            "Pharyngitis or impetigo with nephritogenic group A strain",
+            "Latent period of 1 to 6 weeks while antibody forms",
+            "Streptococcal antigen and antibody deposit in glomeruli",
+            "Complement activation, mainly alternative pathway; low C3",
+            "Neutrophil influx and endocapillary proliferation",
+            "Hematuria, red cell casts, edema, hypertension, oliguria"
+          ],
+          "caption": "A type III hypersensitivity reaction: the kidney is injured by immune complexes and complement, not by the bacteria themselves."
+        },
+        {
+          "type": "p",
+          "text": "Chronic hepatitis B causes membranous nephropathy, especially in children. Hepatitis B antigens (often HBeAg) form subepithelial complexes, the basement membrane thickens with spikes on silver stain, and the patient is nephrotic. Hepatitis B surface antigen complexes can instead deposit in medium-sized arteries, producing polyarteritis nodosa. Chronic hepatitis C drives clonal B cells to make cryoglobulins (mixed cryoglobulinemia: a monoclonal IgM rheumatoid factor bound to polyclonal IgG and viral antigen). These deposit beneath the endothelium and activate the classical pathway, lowering C4 more than C3, and cause membranoproliferative glomerulonephritis (MPGN) with mesangial interposition and a double-contoured (tram track) basement membrane, often with palpable purpura and arthralgia. HIV infects glomerular epithelial cells, which dedifferentiate and proliferate while the capillary tuft collapses: collapsing focal segmental glomerulosclerosis (HIV-associated nephropathy), with heavy proteinuria, enlarged echogenic kidneys, and rapid loss of function, seen mainly in people of African ancestry carrying APOL1 risk variants."
+        },
+        {
+          "type": "table",
+          "title": "Infections and their glomerular lesions",
+          "cols": [
+            "Infection",
+            "Lesion",
+            "Deposit or mechanism",
+            "Complement",
+            "Main picture"
+          ],
+          "rows": [
+            [
+              "Group A Streptococcus",
+              "Poststreptococcal GN",
+              "Subepithelial humps; granular IgG and C3",
+              "Low C3, normal C4",
+              "Nephritic"
+            ],
+            [
+              "Hepatitis B",
+              "Membranous nephropathy",
+              "Subepithelial immune complexes; GBM spikes",
+              "Usually normal",
+              "Nephrotic"
+            ],
+            [
+              "Hepatitis C",
+              "MPGN with mixed cryoglobulinemia",
+              "Subendothelial cryoglobulin complexes; tram track GBM",
+              "Low C4 and often low C3",
+              "Mixed nephritic and nephrotic"
+            ],
+            [
+              "HIV",
+              "Collapsing FSGS (HIVAN)",
+              "Direct podocyte infection and proliferation",
+              "Normal",
+              "Nephrotic, rapid progression"
+            ]
+          ],
+          "caption": "Deposit location and complement pattern let you work backward from a biopsy or lab panel to the infection."
+        },
+        {
+          "type": "stop",
+          "predict": "Two patients are nephritic. One has low C3 with normal C4 three weeks after a sore throat; the other has low C4, palpable purpura, and positive cryoglobulins. Which complement pathway is consumed in each, and which infection is behind each?",
+          "explain": "The first is poststreptococcal GN, consuming complement mainly through the alternative pathway. The second is hepatitis C with cryoglobulinemic MPGN; IgM rheumatoid factor and IgG complexes activate the classical pathway, which uses up C4.",
+          "check": "The PSGN and hepatitis C paragraphs and the comparison table."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-RENL-11-01-C07",
+      "obj": "UR-11.7",
+      "title": "Renal tuberculosis and urinary schistosomiasis",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Renal tuberculosis is not an ascending infection. During primary pulmonary infection, Mycobacterium tuberculosis spreads through the blood and seeds well-perfused organs, including the renal cortex. Cell-mediated immunity contains the bacilli: macrophages activated by interferon gamma from CD4 Th1 cells form granulomas, and the centers undergo caseous necrosis. The lesions can stay dormant for years and reactivate, often with no active lung disease."
+        },
+        {
+          "type": "p",
+          "text": "Reactivated lesions enlarge into the medulla and papillae, cause papillary necrosis, and rupture into the calyces. Bacilli then travel down the collecting system, so ulceration and fibrosis follow the urine: calyceal deformity, ureteral strictures with hydronephrosis, and a small contracted bladder; in men, spread to the epididymis and prostate. Advanced disease can leave a nonfunctioning calcified kidney. Urine shows pyuria and often hematuria, usually with acidic pH, but routine culture is negative because the bacilli grow only on mycobacterial media over weeks. This is the classic sterile pyuria. Diagnosis uses acid-fast staining, mycobacterial culture of several early morning urine samples, and NAAT."
+        },
+        {
+          "type": "p",
+          "text": "Schistosoma haematobium is a blood fluke (trematode) found mainly in Africa and the Middle East. Unlike other flukes, the sexes are separate, and the adult male holds the female in a groove along its body. The species is defined by its location: adults live in the vesical venous plexus around the bladder, whereas Schistosoma mansoni and Schistosoma japonicum live in mesenteric veins and injure the gut and liver."
+        },
+        {
+          "type": "cycle",
+          "title": "Schistosoma haematobium life cycle",
+          "steps": [
+            "Terminal-spined eggs pass in urine into fresh water",
+            "Eggs hatch into ciliated miracidia",
+            "Miracidia infect freshwater snails (Bulinus)",
+            "Snails release fork-tailed cercariae",
+            "Cercariae penetrate intact human skin",
+            "Larvae travel by blood through lungs to the liver",
+            "Paired adults migrate to the vesical venous plexus",
+            "Females lay eggs that cross the bladder wall"
+          ],
+          "caption": "Humans are the definitive host where adults mate; the snail is the intermediate host where the parasite multiplies asexually. Infection follows wading or swimming in contaminated fresh water."
+        },
+        {
+          "type": "p",
+          "text": "Disease comes from the eggs, not the adult worms, which evade immunity. Each egg carries a terminal spine and secretes enzymes as it works through the bladder wall into the urine. Many eggs become trapped in tissue, where their antigens provoke Th2-driven granulomas rich in eosinophils, which explains blood eosinophilia. The granulomas ulcerate the mucosa, causing painless terminal hematuria, then heal by fibrosis and calcification. Fibrosis of the bladder and lower ureters leads to obstruction, hydronephrosis, and secondary bacterial infection. Years of inflammation drive squamous metaplasia of the urothelium, and with chronic irritation, oxidative DNA damage, and nitrosamines from secondary infection, this progresses to squamous cell carcinoma of the bladder, in contrast to the urothelial carcinoma typical elsewhere. Diagnosis is by finding terminal-spined eggs in urine."
+        },
+        {
+          "type": "table",
+          "title": "Renal tuberculosis and Schistosoma haematobium",
+          "cols": [
+            "Feature",
+            "Renal tuberculosis",
+            "Schistosoma haematobium"
+          ],
+          "rows": [
+            [
+              "Route to urinary tract",
+              "Hematogenous from lung",
+              "Skin penetration, then venous migration to bladder plexus"
+            ],
+            [
+              "Tissue reaction",
+              "Caseating granulomas (Th1, macrophages)",
+              "Egg granulomas with eosinophils (Th2), fibrosis, calcification"
+            ],
+            [
+              "Urine",
+              "Sterile pyuria, hematuria, acid pH",
+              "Hematuria, terminal-spined eggs"
+            ],
+            [
+              "Late complications",
+              "Strictures, contracted bladder, calcified kidney",
+              "Obstruction, hydronephrosis, squamous cell carcinoma of bladder"
+            ]
+          ],
+          "caption": "Both are chronic granulomatous diseases that scar the urinary tract, but they arrive by different routes and leave different clues in the urine."
+        }
+      ]
+    }
+  ],
+  "integration": [
+    {
+      "type": "p",
+      "text": "Most urinary infection is a contest between adhesion and flow. Anatomy (a short female urethra, reflux, obstruction, catheters) decides whether bacteria can reach and stay in the tract, microbiology decides which adhesins, enzymes, and capsules a given organism brings, and the host response decides the findings: neutrophils give leukocyte esterase and, inside tubules, white cell casts, while granulomatous immunity in tuberculosis and schistosomiasis produces scarring instead of pus. The urinalysis is the bridge, because each result is a mechanistic report on where inflammation is and what kind of organism is present."
+    },
+    {
+      "type": "p",
+      "text": "Infection also injures the kidney indirectly. Poststreptococcal GN, hepatitis B membranous nephropathy, and hepatitis C cryoglobulinemic MPGN are immune complex diseases whose biopsy appearance depends on where the complexes lodge and which complement pathway they activate, while HIV injures podocytes directly. The limits matter: these patterns are typical, not exclusive. Membranous nephropathy is more often primary (autoantibody to the podocyte phospholipase A2 receptor) than viral, MPGN has many noninfectious causes, and a nitrite-negative urine or a sterile culture does not exclude infection."
+    }
+  ],
+  "summary": [
+    "Uropathogenic E. coli from the patient's own fecal flora ascends the urethra; type 1 fimbriae bind mannosylated uroplakins (cystitis) and P fimbriae bind Gal-Gal receptors (pyelonephritis).",
+    "Staphylococcus saprophyticus is the novobiocin-resistant, coagulase-negative cause of cystitis in young sexually active women; Klebsiella has a mucoid capsule, Enterococcus is a hardy gram-positive, and Pseudomonas forms catheter biofilm.",
+    "Proteus urease turns urea into ammonia, alkalinizes urine, and precipitates magnesium ammonium phosphate as staghorn calculi that shelter bacteria; swarming on blood agar identifies it.",
+    "Leukocyte esterase marks neutrophils; nitrite marks nitrate-reducing gram-negative rods and is negative with Enterococcus and S. saprophyticus; WBC casts place infection in the kidney.",
+    "Sterile pyuria points to organisms that do not grow on routine media: Chlamydia, gonococcus, and Mycobacterium tuberculosis.",
+    "Gonococcal pilus antigenic variation and IgA1 protease prevent lasting immunity; chlamydia alternates between the infectious elementary body and the replicating reticulate body, and NAAT diagnoses both.",
+    "Poststreptococcal GN is an immune complex nephritis after a latent period with low C3; hepatitis B causes membranous nephropathy, hepatitis C causes cryoglobulinemic MPGN with low C4, and HIV causes collapsing FSGS.",
+    "Renal tuberculosis is blood-borne, forms caseating granulomas, and scars the collecting system; Schistosoma haematobium eggs cause hematuria, fibrosis, and squamous cell carcinoma of the bladder."
+  ],
+  "sources": [
+    {
+      "book": "Jawetz, Melnick, and Adelberg's Medical Microbiology",
+      "where": "Enteric gram-negative rods; Pseudomonads"
+    },
+    {
+      "book": "Jawetz, Melnick, and Adelberg's Medical Microbiology",
+      "where": "The Staphylococci; The Streptococci, Enterococci, and Related Genera"
+    },
+    {
+      "book": "Jawetz, Melnick, and Adelberg's Medical Microbiology",
+      "where": "Neisseriae, chlamydiae, mycobacteria, and medical parasitology (schistosomes)"
+    },
+    {
+      "book": "Robbins and Cotran Pathologic Basis of Disease",
+      "where": "The Kidney: glomerular diseases, pyelonephritis, and urolithiasis"
+    },
+    {
+      "book": "Robbins and Cotran Pathologic Basis of Disease",
+      "where": "The Lower Urinary Tract and Male Genital System: schistosomiasis and bladder carcinoma"
+    },
+    {
+      "book": "Abbas, Cellular and Molecular Immunology",
+      "where": "Hypersensitivity; Immunity to Microbes"
+    }
+  ],
+  "verify": [
+    "The share of community cystitis caused by E. coli is quoted from about 75% to 95% in different sources; confirm the figure NABNE uses.",
+    "Pyuria thresholds (about 10 WBC per microliter uncentrifuged, about 5 per high-power field spun) and culture thresholds (100,000 CFU/mL classic; lower counts in symptomatic women and catheter samples) vary between laboratories and guidelines.",
+    "The bladder dwell time needed for a positive nitrite (about 4 hours) and the statement that Pseudomonas often gives a negative nitrite are standard teaching but vary by source.",
+    "The urine pH above which struvite precipitates is quoted as about 7.2 in most texts; some give 7.0 or 7.5.",
+    "Latent periods for poststreptococcal GN (1 to 3 weeks after pharyngitis, 3 to 6 weeks after impetigo) and time for C3 to normalize (about 6 to 8 weeks) differ slightly among sources.",
+    "Confirm whether NABNE Part I expects the nephritogenic antigen names (SpeB, nephritis-associated plasmin receptor), the adhesin names FimH and PapG, and the APOL1 association with HIV-associated nephropathy, or only the general mechanisms.",
+    "Incubation periods for gonorrhea (about 2 to 7 days) and chlamydia (about 1 to 3 weeks) are approximate and vary among references.",
+    "Requested new diagram names for a future revision: schistosoma-life-cycle (snail and human hosts with egg, miracidium, cercaria, and adult stages) and chlamydia-cycle (elementary and reticulate bodies within an inclusion)."
+  ]
+}

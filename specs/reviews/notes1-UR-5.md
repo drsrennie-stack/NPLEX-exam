@@ -1,0 +1,26 @@
+# Review log: notes/chapters/UR-5.json (Phase 1)
+
+- C04 autoregulation paragraph: range changed from "about 80 and 180 mm Hg" to Guyton and Hall's "about 75 and 160 mm Hg", with a note that some texts extend the upper limit to about 180 mm Hg; summary line changed to match.
+- C05 vasa recta paragraph: the 1 to 2% figure now applies to the inner medullary vasa recta, which matches the 90% cortical share in C01; removed the inline "(Guyton and Hall)" citation.
+- C01 opening paragraph: added that the medulla receives the remaining 10% or so, so the two figures agree.
+- C02 look-alikes paragraph: renal vein thrombosis congestion is now explained by continued arterial inflow against blocked outflow. The old reason, intrarenal venous anastomoses, does not explain congestion when the main renal vein is blocked.
+- C05 papillary necrosis causes: "long-term NSAID use" corrected to "long-term use of analgesic mixtures and NSAIDs", and the prostaglandin mechanism marked as partial. The classic lesion follows phenacetin-containing mixtures.
+- C06 renal cell carcinoma paragraph: a right-sided varicocele now requires IVC obstruction where the right testicular vein drains, instead of any obstruction of the IVC.
+- C01 series-beds paragraph: cut the restating sentence "Each bed is suited to its job by its position in the series."
+- C03 drug paragraph: cut the lead-in "Drug effects confirm this physiology." to offset added words.
+- Integration paragraph 2: shortened the caveat about numbers, which the verify list already covers.
+- Verify: rewrote the autoregulatory range item (the chapter now uses Guyton and Hall; other sources give up to 180 or 200 mm Hg) and the medullary flow item (inner medulla versus whole medulla).
+- Confirmed against Moore, Guyton and Hall, Boron and Boulpaep, Robbins, and Lippincott, with no change needed:
+  - the vascular sequence and end-artery anatomy
+  - the infarct morphology and atheroemboli
+  - the glomerular (60 mm Hg) and peritubular (13 mm Hg) pressures, which are already in verify
+  - the afferent and efferent table and the mediator table
+  - the worked filtration fraction arithmetic (0.19, 0.24, 0.19)
+  - the myogenic mechanism, the NKCC2, ATP, adenosine and A1 TGF loop, and the low-NaCl NO, prostaglandin and renin arm
+  - countercurrent exchange, the oxygen shunt, and the HbS polymerization table
+  - hyposthenuria in sickle cell trait
+  - the left renal vein course and tributaries, and the nutcracker phenomenon
+  - the varicocele worked example
+- Each section covers its full competency text. Drug mentions (NSAIDs, angiotensin II blockade, loop diuretics) explain mechanisms only. All 3 STOP prompts can be answered from their sections, and each check points to the right place. Cross-referenced unit IDs exist in the registry. Sources are real chapter titles or plain section names. There are no dashes, italics, or banned phrases.
+- Length: 4677 words before review, 4676 after (not lengthened).
+- Checker: 0 errors, 0 warnings.

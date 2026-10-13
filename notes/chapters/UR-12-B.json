@@ -1,0 +1,603 @@
+{
+ "unit": "UR-12-B",
+ "chapter_id": "NPLEX-P1-RENL-12",
+ "topic_id": "NPLEX-P1-RENL-12-02",
+ "title": "Tubulointerstitial Disease: Acute Tubular Necrosis and Fanconi Syndrome",
+ "subject": "Renal and Urinary System (RENL)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter explains how the renal tubule fails. Acute tubular necrosis (ATN) is the most common cause of intrinsic acute kidney injury, and it follows either loss of perfusion or direct toxic injury to tubular cells. Fanconi syndrome is a generalized failure of proximal tubule transport that spills glucose, amino acids, phosphate, and bicarbonate into the urine. Board questions give a setting (shock, crush injury, a new drug, a child with rickets) and a urine or serum pattern, then ask for the segment, the mechanism, the phase, or the cause. If you can explain why the outer medulla is vulnerable and why proximal transporters fail together, the lab patterns follow.",
+  "prerequisites": [
+   "Nephron segments and their transporters, especially the proximal tubule and thick ascending limb (UR-2, UR-6)",
+   "Renal blood flow, medullary oxygen supply, and tubuloglomerular feedback (UR-5)",
+   "Renal handling of sodium, potassium, phosphate, and bicarbonate (UR-6, UR-7)",
+   "Anion gap and the classification of metabolic acidosis (UR-7)",
+   "Cell injury from ATP depletion and oxidative stress (general pathology)"
+  ],
+  "connections": [
+   {
+    "to": "Glomerular diseases (UR-12-A)",
+    "how": "Prerenal azotemia, ATN, and glomerular disease are separated by urine sediment, FENa, and the BUN to creatinine ratio."
+   },
+   {
+    "to": "Renal circulation (UR-5)",
+    "how": "Countercurrent oxygen exchange in the vasa recta keeps the outer medulla hypoxic, which is why its segments die first in ischemia."
+   },
+   {
+    "to": "Acid-base and potassium regulation (UR-7)",
+    "how": "ATN produces an anion gap acidosis with hyperkalemia, while Fanconi syndrome produces a normal anion gap acidosis with potassium wasting."
+   },
+   {
+    "to": "Cardiovascular conduction (CV-7)",
+    "how": "Hyperkalemia from oliguric ATN depolarizes cardiac cells, giving peaked T waves, a wide QRS, and fatal arrhythmias."
+   },
+   {
+    "to": "Urinary genetics and biochemistry (UR-8, UR-9)",
+    "how": "Cystinosis, Wilson disease, and ethylene glycol metabolism link inborn errors and toxic metabolites to tubular failure."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Acute kidney injury (AKI)",
+    "def": "An abrupt fall in GFR over hours to days, recognized by a rising serum creatinine, a falling urine output, or both."
+   },
+   {
+    "term": "Acute tubular necrosis (ATN)",
+    "def": "Acute kidney injury caused by injury and death of tubular epithelial cells, from ischemia or nephrotoxins."
+   },
+   {
+    "term": "Oliguria",
+    "def": "Urine output below about 400 mL/day in an adult (or below about 0.5 mL/kg/h), too little to excrete the daily solute load."
+   },
+   {
+    "term": "Muddy brown granular cast",
+    "def": "A pigmented cast of degenerating tubular cells and debris in a uromodulin matrix, characteristic of ATN."
+   },
+   {
+    "term": "Uromodulin (Tamm-Horsfall protein)",
+    "def": "A glycoprotein secreted by the thick ascending limb that forms the matrix of all urinary casts."
+   },
+   {
+    "term": "Fractional excretion of sodium (FENa)",
+    "def": "The percentage of filtered sodium that appears in the urine, calculated as (urine Na x plasma creatinine) / (plasma Na x urine creatinine) x 100."
+   },
+   {
+    "term": "Tubuloglomerular feedback",
+    "def": "Afferent arteriolar constriction triggered when the macula densa senses increased NaCl delivery, lowering GFR of that nephron."
+   },
+   {
+    "term": "Tubulorrhexis",
+    "def": "Rupture of the tubular basement membrane, typical of ischemic rather than toxic tubular necrosis."
+   },
+   {
+    "term": "Rhabdomyolysis",
+    "def": "Breakdown of skeletal muscle that releases myoglobin, potassium, phosphate, urate, and creatine kinase into plasma."
+   },
+   {
+    "term": "Fanconi syndrome",
+    "def": "Generalized proximal tubule dysfunction with urinary loss of glucose, amino acids, phosphate, bicarbonate, urate, and low-molecular-weight proteins."
+   },
+   {
+    "term": "Proximal (type 2) renal tubular acidosis",
+    "def": "Normal anion gap metabolic acidosis caused by a lowered proximal threshold for bicarbonate reabsorption."
+   },
+   {
+    "term": "Cystinosis",
+    "def": "Autosomal recessive lysosomal storage disease caused by loss of the cystine transporter cystinosin, the most common inherited cause of Fanconi syndrome in children."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-RENL-12-02-C01",
+   "obj": "UR-12-B.1",
+   "title": "Ischemic and nephrotoxic acute tubular necrosis",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "ATN is acute kidney injury caused by damage to tubular epithelial cells. Despite the name, much of the injury is sublethal: many cells lose function and detach without dying, which is why the lesion can recover completely. The two causes are ischemia (shock, sepsis, hemorrhage, or a prolonged prerenal state) and nephrotoxins, which reach the tubule through filtration and uptake."
+    },
+    {
+     "type": "h",
+     "text": "Why the injury concentrates in two segments"
+    },
+    {
+     "type": "p",
+     "text": "The straight part of the proximal tubule (the S3 segment) and the medullary thick ascending limb both lie in the outer medulla. Countercurrent exchange in the vasa recta lets oxygen diffuse from descending to ascending vessels, so oxygen tension in this region is low even in health. Both segments also carry heavy ATP-dependent transport: the proximal tubule reabsorbs about two thirds of filtered sodium and relies on oxidative phosphorylation with little glycolytic reserve, and the thick ascending limb drives NaCl uptake through the Na-K-2Cl cotransporter powered by basolateral Na/K-ATPase. High demand with marginal supply means these cells fail first when perfusion falls. The proximal tubule is also the main target of toxins because it takes up filtered substances by endocytosis and organic ion transporters."
+    },
+    {
+     "type": "flow",
+     "title": "From ischemia to a falling GFR",
+     "steps": [
+      "Renal blood flow falls in shock or sepsis",
+      "ATP falls in S3 and thick ascending limb cells",
+      "Cytoskeleton breaks down; Na/K-ATPase moves to apical membrane",
+      "Cells lose integrin attachment and slough into lumen",
+      "Debris and uromodulin form casts that obstruct tubules",
+      "Filtrate leaks back across denuded tubular wall",
+      "More NaCl at macula densa constricts afferent arterioles",
+      "GFR falls; oliguria and azotemia follow"
+     ],
+     "caption": "Loss of polarity stops vectorial sodium transport; obstruction, back leak, and vasoconstriction together lower GFR. Endothelial injury and inflammation add further vasoconstriction."
+    },
+    {
+     "type": "p",
+     "text": "GFR falls by three linked mechanisms. Casts raise intratubular pressure and oppose filtration. Filtrate leaks back into the interstitium through the bare basement membrane. Because injured proximal cells reabsorb less sodium, more NaCl reaches the macula densa, and tubuloglomerular feedback constricts the afferent arteriole. Endothelial injury favors endothelin over nitric oxide, adding vasoconstriction."
+    },
+    {
+     "type": "table",
+     "title": "Ischemic versus nephrotoxic ATN",
+     "cols": [
+      "Feature",
+      "Ischemic",
+      "Nephrotoxic"
+     ],
+     "rows": [
+      [
+       "Typical setting",
+       "Shock, sepsis, hemorrhage, major surgery, prolonged prerenal state",
+       "Pigments, aminoglycosides, contrast, cisplatin, ethylene glycol"
+      ],
+      [
+       "Distribution",
+       "Patchy, focal necrosis at many points along the nephron, with skip areas",
+       "More extensive and continuous, mainly in the proximal tubule"
+      ],
+      [
+       "Basement membrane",
+       "Often ruptured (tubulorrhexis)",
+       "Usually intact"
+      ],
+      [
+       "Regeneration",
+       "Slower where the basement membrane is lost",
+       "Usually orderly along the intact scaffold"
+      ],
+      [
+       "Urine sediment",
+       "Muddy brown granular casts, tubular epithelial cells",
+       "Same, plus agent clues (pigment casts, oxalate crystals)"
+      ]
+     ],
+     "caption": "Both forms share the cast and the high FENa; the difference lies in the pattern of necrosis and the integrity of the basement membrane."
+    },
+    {
+     "type": "p",
+     "text": "Sloughed cells and debris become trapped in uromodulin secreted by the thick ascending limb, forming pigmented, muddy brown granular casts in the distal tubule and collecting duct. Their appearance in the sediment is direct evidence of tubular injury, which separates ATN from prerenal azotemia, where the sediment is bland or shows only hyaline casts. Red cell casts point to glomerulonephritis and white cell casts to interstitial inflammation or pyelonephritis, so the cast type localizes the lesion."
+    },
+    {
+     "type": "stop",
+     "predict": "If hypotension lowered oxygen delivery to the whole kidney equally, why would the glomeruli and cortical collecting ducts survive while the S3 segment dies?",
+     "explain": "Survival depends on the balance of oxygen supply and demand. The S3 segment and medullary thick ascending limb sit in the hypoxic outer medulla and spend large amounts of ATP on transport; glomeruli filter passively and cortical segments have richer oxygen supply and lower demand.",
+     "check": "The paragraph on why injury concentrates in two segments."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RENL-12-02-C02",
+   "obj": "UR-12-B.2",
+   "title": "The three phases of acute tubular necrosis",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "ATN follows the life cycle of the tubular cell: injury, a period while the tubule is denuded, and regeneration. Each phase has a characteristic urine output and electrolyte pattern because each reflects how much filtration and tubular transport remain."
+    },
+    {
+     "type": "table",
+     "title": "Phases of ATN",
+     "cols": [
+      "Phase",
+      "Approximate duration",
+      "Urine output",
+      "Main problems and mechanism"
+     ],
+     "rows": [
+      [
+       "Initiation",
+       "About 36 hours",
+       "Begins to fall",
+       "The ischemic or toxic insult; GFR starts to drop and creatinine begins to rise"
+      ],
+      [
+       "Maintenance",
+       "Days to a few weeks (often 1 to 3 weeks)",
+       "Oliguria, or normal volume in nonoliguric ATN",
+       "Low GFR: rising BUN and creatinine, hyperkalemia, anion gap metabolic acidosis, volume overload, hyperphosphatemia, uremia"
+      ],
+      [
+       "Recovery",
+       "Days to weeks",
+       "Rising, often polyuric (up to about 3 L/day)",
+       "Regenerating tubules cannot yet reabsorb: loss of water, sodium, and potassium; hypokalemia and volume depletion; susceptibility to infection"
+      ]
+     ],
+     "caption": "Hyperkalemia belongs to maintenance and hypokalemia to recovery. Creatinine lags behind GFR, so it keeps rising early in recovery."
+    },
+    {
+     "type": "h",
+     "text": "Maintenance: why each abnormality appears"
+    },
+    {
+     "type": "p",
+     "text": "With GFR low and the tubules obstructed, the kidney cannot excrete its daily load of potassium, acid, salt, and water. Potassium accumulates because filtration and distal flow are low, and acidosis shifts potassium out of cells in exchange for hydrogen ions; tissue breakdown in sepsis or crush injury adds more. Hyperkalemia (above 5.0 mEq/L; reference about 3.5 to 5.0 mEq/L) is the most dangerous abnormality. It speeds repolarization (peaked T waves) and partially depolarizes cardiac cells, inactivating fast Na+ channels so conduction slows (widened QRS) and risking ventricular fibrillation or asystole."
+    },
+    {
+     "type": "p",
+     "text": "Metabolic acidosis arises because the injured kidney excretes too little ammonium and titratable acid and retains sulfate, phosphate, and other unmeasured anions, so the anion gap rises. Retained sodium and water expand extracellular volume, causing edema, hypertension, and pulmonary edema. Retained phosphate lowers ionized calcium, and urea and other nitrogenous wastes accumulate (azotemia), producing uremic symptoms if the phase is prolonged."
+    },
+    {
+     "type": "flow",
+     "title": "Recovery phase polyuria",
+     "steps": [
+      "Surviving cells proliferate and reline the basement membrane",
+      "GFR returns before transport capacity matures",
+      "Retained urea is filtered and acts as an osmotic diuretic",
+      "Medullary solute gradient has washed out",
+      "Immature cells reabsorb little sodium, water, or potassium",
+      "Polyuria with sodium and potassium loss"
+     ],
+     "caption": "Filtration recovers faster than tubular reabsorption, so a large filtered load passes through a tubule that cannot yet reclaim it."
+    },
+    {
+     "type": "p",
+     "text": "Nonoliguric ATN, common with aminoglycosides and some other nephrotoxins, still lowers GFR, but enough tubular reabsorption is lost that urine volume stays normal. It generally reflects less severe injury. Normal urine volume therefore does not exclude ATN; the rising creatinine and the sediment establish it."
+    },
+    {
+     "type": "table",
+     "title": "Prerenal azotemia versus ATN",
+     "cols": [
+      "Finding",
+      "Prerenal azotemia",
+      "ATN"
+     ],
+     "rows": [
+      [
+       "FENa",
+       "Below 1%",
+       "Above 2%"
+      ],
+      [
+       "Urine sodium",
+       "Below about 20 mEq/L",
+       "Above about 40 mEq/L"
+      ],
+      [
+       "Urine osmolality",
+       "Above about 500 mOsm/kg",
+       "About 300 to 350 mOsm/kg (near plasma)"
+      ],
+      [
+       "BUN to creatinine ratio",
+       "Above about 20:1",
+       "Below about 15:1"
+      ],
+      [
+       "Sediment",
+       "Bland or hyaline casts",
+       "Muddy brown granular casts, tubular cells"
+      ]
+     ],
+     "caption": "Intact prerenal tubules avidly reabsorb sodium, water, and urea; necrotic tubules cannot, so urine approaches plasma in concentration."
+    },
+    {
+     "type": "example",
+     "title": "Calculating and interpreting FENa",
+     "text": "A man becomes oliguric two days after septic shock. Plasma sodium is 135 mEq/L, plasma creatinine 4.0 mg/dL, urine sodium 60 mEq/L, and urine creatinine 40 mg/dL. FENa = (urine Na x plasma creatinine) / (plasma Na x urine creatinine) x 100 = (60 x 4.0) / (135 x 40) x 100 = 240 / 5400 x 100, or about 4.4%. A value above 2% means the tubules are wasting sodium despite low perfusion, so this is ATN, not prerenal azotemia. Had the tubules been intact, aldosterone and angiotensin II would have driven FENa below 1%. Note that a loop or thiazide diuretic raises FENa on its own, and early pigment or contrast injury can give a low FENa, so the value is read with the sediment."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RENL-12-02-C03",
+   "obj": "UR-12-B.3",
+   "title": "Nephrotoxic causes and the heme pigment dipstick",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Nephrotoxins injure the proximal tubule because it concentrates filtered substances: it reabsorbs most of the filtrate, takes up proteins and cationic drugs by megalin-mediated endocytosis, and secretes organic ions through basolateral transporters."
+    },
+    {
+     "type": "table",
+     "title": "Nephrotoxins that cause ATN",
+     "cols": [
+      "Toxin",
+      "Setting",
+      "Mechanism of tubular injury",
+      "Clue"
+     ],
+     "rows": [
+      [
+       "Myoglobin",
+       "Rhabdomyolysis: crush injury, extreme exertion, seizures, immobilization, some drugs",
+       "Heme iron oxidant injury, obstructing pigment casts, and nitric oxide scavenging with vasoconstriction",
+       "Dark urine, dipstick blood with few RBCs, very high CK"
+      ],
+      [
+       "Hemoglobin",
+       "Intravascular hemolysis, such as an ABO-incompatible transfusion",
+       "Same heme mechanisms once haptoglobin is saturated",
+       "Pink plasma, low haptoglobin, high LDH, dipstick blood with few RBCs"
+      ],
+      [
+       "Aminoglycosides",
+       "Antibiotic courses, worse with volume depletion or kidney disease",
+       "Megalin uptake into proximal cells and accumulation in lysosomes, which rupture",
+       "Onset after about 5 to 7 days, often nonoliguric, magnesium and potassium wasting"
+      ],
+      [
+       "Iodinated contrast",
+       "Imaging; highest risk with diabetic nephropathy, chronic kidney disease, or volume depletion",
+       "Medullary vasoconstriction and hypoxia plus direct tubular toxicity",
+       "Creatinine rises within 24 to 48 hours, peaks at about 3 to 5 days"
+      ],
+      [
+       "Cisplatin",
+       "Chemotherapy",
+       "Organic cation uptake into S3 cells; DNA and oxidant injury",
+       "Hypomagnesemia from tubular magnesium wasting"
+      ],
+      [
+       "Ethylene glycol",
+       "Antifreeze ingestion",
+       "Alcohol dehydrogenase begins its oxidation to glycolic acid and oxalate; oxalate precipitates as calcium oxalate in tubules",
+       "High anion gap acidosis, high osmolal gap, envelope or needle-shaped crystals, low calcium"
+      ]
+     ],
+     "caption": "Drugs appear here only as causes of tubular injury."
+    },
+    {
+     "type": "h",
+     "text": "Pigment nephropathy"
+    },
+    {
+     "type": "p",
+     "text": "Myoglobin is a small monomer (about 17 kDa) that circulates largely unbound, so it is filtered and cleared quickly and plasma stays clear. Hemoglobin is normally bound to haptoglobin, which keeps it out of the filtrate; once haptoglobin is saturated, free hemoglobin dissociates into dimers small enough to be filtered, and the plasma turns pink. Both pigments injure the tubule the same way. Heme iron catalyzes free radical formation and lipid peroxidation in proximal cells, heme precipitates with uromodulin in acidic, concentrated urine to form obstructing casts, and free heme scavenges nitric oxide, constricting renal vessels. Volume depletion from fluid sequestered in injured muscle adds an ischemic component."
+    },
+    {
+     "type": "p",
+     "text": "Rhabdomyolysis also releases intracellular contents: potassium, phosphate, urate, organic acids, and creatine kinase (CK), which is typically more than five times the upper reference limit and often far higher. Early hypocalcemia occurs because calcium phosphate deposits in damaged muscle; calcium may later rise above normal as these deposits mobilize during recovery."
+    },
+    {
+     "type": "flow",
+     "title": "Rhabdomyolysis to a heme-positive dipstick",
+     "steps": [
+      "Muscle injury releases myoglobin, potassium, phosphate, and CK",
+      "Myoglobin is freely filtered at the glomerulus",
+      "Heme iron injures proximal tubule cells",
+      "Pigment casts obstruct; nitric oxide loss constricts vessels",
+      "Urine is red-brown; dipstick reads heme",
+      "Microscopy shows few or no red cells"
+     ],
+     "caption": "The dipstick reacts to heme, not intact cells."
+    },
+    {
+     "type": "p",
+     "text": "The dipstick blood pad uses the peroxidase-like activity of heme to oxidize a chromogen. It cannot tell whether heme comes from intact red cells, free hemoglobin, or myoglobin. Microscopy settles the question: hematuria shows red cells (3 or more per high-power field), whereas pigmenturia shows few or none. Plasma color then separates the two pigments."
+    },
+    {
+     "type": "table",
+     "title": "Interpreting a dipstick positive for blood",
+     "cols": [
+      "Source",
+      "RBCs on microscopy",
+      "Plasma",
+      "Supporting findings"
+     ],
+     "rows": [
+      [
+       "Hematuria",
+       "Present",
+       "Clear",
+       "Red cell casts if glomerular"
+      ],
+      [
+       "Hemoglobinuria",
+       "Few or none",
+       "Pink",
+       "Low haptoglobin, high LDH and indirect bilirubin"
+      ],
+      [
+       "Myoglobinuria",
+       "Few or none",
+       "Clear",
+       "Very high CK, hyperkalemia, hyperphosphatemia"
+      ]
+     ],
+     "caption": "Microscopy separates cells from pigment; plasma color separates hemoglobin from myoglobin."
+    },
+    {
+     "type": "stop",
+     "predict": "A runner collapses after a race with cola-colored urine. The dipstick is 3+ for blood but microscopy shows 0 to 2 RBCs per high-power field, and the plasma is clear. What pigment is present and why is the plasma not pink?",
+     "explain": "Myoglobin. The dipstick detects heme, not cells. Small, poorly bound myoglobin is filtered and cleared before it can color plasma; free hemoglobin beyond haptoglobin capacity accumulates and turns plasma pink.",
+     "check": "The pigment nephropathy paragraphs and the dipstick table."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RENL-12-02-C04",
+   "obj": "UR-12-B.4",
+   "title": "Fanconi syndrome: generalized proximal tubule failure",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Fanconi syndrome is generalized dysfunction of the proximal tubule, the segment that reclaims nearly all filtered glucose and amino acids, most filtered phosphate, and about 80% of filtered bicarbonate. Its transporters share two requirements. Most are sodium-coupled secondary active transporters driven by the low intracellular sodium that basolateral Na/K-ATPase creates, and that pump depends on ATP from the cell's abundant mitochondria. The tubule also recycles filtered low-molecular-weight proteins through megalin and cubilin endocytosis. Anything that depletes ATP, damages mitochondria, or clogs the lysosomal and endocytic system therefore disables many transporters at once."
+    },
+    {
+     "type": "table",
+     "title": "What the proximal tubule loses and the consequence",
+     "cols": [
+      "Substance lost",
+      "Normal transport",
+      "Consequence"
+     ],
+     "rows": [
+      [
+       "Glucose",
+       "SGLT2 and SGLT1 with sodium",
+       "Glucosuria with normal plasma glucose"
+      ],
+      [
+       "Amino acids",
+       "Sodium-coupled amino acid transporters",
+       "Generalized aminoaciduria"
+      ],
+      [
+       "Phosphate",
+       "NaPi-IIa cotransport",
+       "Hypophosphatemia; rickets in children, osteomalacia in adults"
+      ],
+      [
+       "Bicarbonate",
+       "Apical Na+/H+ exchange (NHE3) with carbonic anhydrase",
+       "Proximal (type 2) RTA, normal anion gap acidosis"
+      ],
+      [
+       "Urate",
+       "Proximal urate reabsorption",
+       "Hypouricemia"
+      ],
+      [
+       "Low-molecular-weight proteins",
+       "Megalin and cubilin endocytosis",
+       "Tubular proteinuria (for example beta-2 microglobulin)"
+      ],
+      [
+       "Water and potassium (indirectly)",
+       "Proximal solute reabsorption; distal sodium delivery",
+       "Polyuria, dehydration, hypokalemia"
+      ]
+     ],
+     "caption": "Isolated losses suggest a single transporter defect instead."
+    },
+    {
+     "type": "p",
+     "text": "Glucose spills despite normal plasma glucose because the tubule's maximum reabsorptive capacity has fallen. In diabetes mellitus the tubule is normal and glucose appears only when the filtered load exceeds the renal threshold of about 180 to 200 mg/dL."
+    },
+    {
+     "type": "p",
+     "text": "Bicarbonate loss explains the acidosis. When the proximal threshold falls, filtered bicarbonate above it escapes into the urine and serum bicarbonate declines, usually settling at about 12 to 20 mEq/L (reference about 22 to 28 mEq/L). Once the filtered load drops below the new threshold, the intact distal nephron can acidify the urine below pH 5.5. Chloride is retained in place of bicarbonate, so the acidosis is hyperchloremic with a normal anion gap. Potassium is wasted because extra sodium and bicarbonate reach the collecting duct, raising flow and lumen negativity, and aldosterone released in response to volume loss increases secretion further."
+    },
+    {
+     "type": "flow",
+     "title": "From proximal injury to bone disease",
+     "steps": [
+      "Toxin, crystal, or metabolite injures proximal cells",
+      "ATP and sodium-coupled transport fail",
+      "Phosphate is lost in urine",
+      "Proximal 1-alpha-hydroxylase fails; calcitriol low or inappropriately normal",
+      "Chronic acidosis releases bone buffer",
+      "Rickets in children, osteomalacia in adults"
+     ],
+     "caption": "Phosphate wasting, low calcitriol, and acidosis together impair bone mineralization."
+    },
+    {
+     "type": "table",
+     "title": "Causes of Fanconi syndrome",
+     "cols": [
+      "Category",
+      "Cause",
+      "Mechanism"
+     ],
+     "rows": [
+      [
+       "Inherited",
+       "Cystinosis (autosomal recessive, CTNS gene)",
+       "Cystine accumulates and crystallizes in lysosomes; most common inherited cause in children"
+      ],
+      [
+       "Inherited",
+       "Wilson disease",
+       "Copper accumulates in proximal tubule cells"
+      ],
+      [
+       "Inherited",
+       "Galactosemia, hereditary fructose intolerance, tyrosinemia type 1",
+       "Accumulated metabolites impair proximal cell energy metabolism"
+      ],
+      [
+       "Acquired",
+       "Multiple myeloma",
+       "Filtered light chains are endocytosed and crystallize in proximal cells"
+      ],
+      [
+       "Acquired",
+       "Heavy metals (lead, cadmium, mercury)",
+       "Mitochondrial and transporter injury"
+      ],
+      [
+       "Acquired",
+       "Drugs (tenofovir, ifosfamide, outdated tetracycline)",
+       "Mitochondrial toxicity or toxic degradation products"
+      ]
+     ],
+     "caption": "Child: think inborn error, especially cystinosis. Adult: think myeloma, heavy metals, or drugs."
+    },
+    {
+     "type": "example",
+     "title": "Reading a Fanconi pattern",
+     "text": "A 2-year-old has growth failure, polyuria, and bowed legs. Plasma glucose is 85 mg/dL but urine glucose is positive. Serum sodium is 138, chloride 112, and bicarbonate 15 mEq/L, so the anion gap is 138 minus (112 + 15) = 11, which is normal (reference about 8 to 12). Serum phosphate and potassium are low, urine amino acids are increased, and a morning urine pH is 5.2. Glucosuria with normal plasma glucose and aminoaciduria point to the proximal tubule. A normal anion gap acidosis with acidic urine at steady state fits proximal RTA, because the distal nephron still acidifies once bicarbonate falls below the lowered threshold. Phosphate wasting explains the rickets, and cystinosis is the leading cause at this age."
+    },
+    {
+     "type": "p",
+     "text": "Single-transporter disorders must be kept apart. Familial renal glucosuria (SGLT2 defect) spills only glucose, cystinuria loses only cystine and the dibasic amino acids and forms stones, and Hartnup disease loses only neutral amino acids; generalized proximal failure requires the combination."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Anatomy and physiology explain where the tubule fails. Countercurrent oxygen exchange that serves concentration also leaves the outer medulla hypoxic, so the S3 segment and thick ascending limb die first in ischemia, and the proximal tubule's endocytic and secretory machinery makes it the target of filtered toxins, light chains, and metals. Biochemistry links the two conditions: both disable energy-dependent sodium-coupled transport in tubular cells, acutely and often with cell death in ATN, chronically and usually without it in Fanconi syndrome. Ethylene glycol metabolism, lysosomal cystine storage, and copper accumulation link toxic and inborn chemistry to the same cell."
+  },
+  {
+   "type": "p",
+   "text": "Pathology and the laboratory tie mechanism to diagnosis. Casts show where injury occurred, FENa shows whether tubules still reclaim sodium, the anion gap separates retained acid (ATN) from lost bicarbonate (Fanconi), and the dipstick with microscopy separates cells from pigment. These tests have limits: FENa can mislead with diuretics or early pigment injury, creatinine lags behind GFR, and dipstick heme never identifies its source."
+  }
+ ],
+ "summary": [
+  "ATN is the most common cause of intrinsic acute kidney injury, caused by ischemia or nephrotoxins.",
+  "The S3 proximal tubule and medullary thick ascending limb are most vulnerable because they combine heavy ATP-dependent transport with low outer medullary oxygen.",
+  "GFR falls through cast obstruction, back leak of filtrate, and afferent constriction from tubuloglomerular feedback; muddy brown granular casts are the signature.",
+  "Ischemic ATN is patchy with basement membrane rupture; nephrotoxic ATN is more continuous along the proximal tubule with the basement membrane intact.",
+  "ATN has FENa above 2%, urine osmolality near plasma, and a BUN to creatinine ratio below about 15; prerenal azotemia has FENa below 1%.",
+  "Maintenance phase brings oliguria, hyperkalemia (the main lethal threat), anion gap acidosis, and volume overload; recovery brings polyuria with sodium, potassium, and water loss.",
+  "Heme pigments give a dipstick positive for blood without red cells; plasma is clear in myoglobinuria and pink in hemoglobinuria.",
+  "Aminoglycoside injury appears after about a week and is often nonoliguric; contrast raises creatinine within 1 to 2 days; cisplatin wastes magnesium; ethylene glycol leaves calcium oxalate crystals.",
+  "Fanconi syndrome is generalized proximal failure: glucosuria with normal plasma glucose, aminoaciduria, phosphaturia, and bicarbonaturia with a normal anion gap proximal RTA.",
+  "Cystinosis is the leading inherited cause of Fanconi syndrome in children; myeloma light chains, heavy metals, and drugs such as tenofovir cause it in adults."
+ ],
+ "sources": [
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "The Kidney, section on acute tubular injury"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Renal tubular reabsorption and secretion; acute kidney injury and chronic kidney disease"
+  },
+  {
+   "book": "Boron and Boulpaep Medical Physiology",
+   "where": "Transport of organic solutes and acid-base handling by the proximal tubule"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Renal Disease, acute kidney injury"
+  },
+  {
+   "book": "Lippincott Illustrated Reviews: Biochemistry",
+   "where": "Metabolism of monosaccharides and amino acids (galactosemia, fructose intolerance, tyrosinemia)"
+  }
+ ],
+ "verify": [
+  "Durations of the ATN phases (initiation about 36 hours, maintenance often 1 to 3 weeks) follow Robbins; other sources give wider ranges. Confirm the values NABNE uses.",
+  "Prerenal versus ATN cutoffs (FENa below 1% versus above 2%, urine sodium below 20 versus above 40 mEq/L, urine osmolality above 500 mOsm/kg, BUN to creatinine above 20 versus below 15) vary slightly among sources.",
+  "The proportion of ATN that is nonoliguric is quoted from about one third to one half in different texts; this chapter states only that it is common with nephrotoxins.",
+  "The CK threshold for rhabdomyolysis (more than 5 times the upper reference limit) is a common consensus definition; some sources use other cutoffs.",
+  "The renal threshold for glucose is quoted as about 180 to 200 mg/dL; Guyton and Hall give about 200 mg/dL.",
+  "The serum bicarbonate range typical of proximal RTA (about 12 to 20 mEq/L) varies among sources.",
+  "The microscopic hematuria cutoff (3 or more RBCs per high-power field) follows common urology guidance; confirm the cutoff NABNE expects.",
+  "Confirm whether NABNE expects transporter names (SGLT2, NaPi-IIa, NHE3, megalin, cubilin, CTNS) or only the descriptive functions.",
+  "Requested new diagram name for a future revision: nephron-injury-map (nephron with the S3 segment and medullary thick ascending limb shaded, cast obstruction, and back leak shown)."
+ ]
+}

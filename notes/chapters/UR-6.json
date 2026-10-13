@@ -1,0 +1,745 @@
+{
+  "unit": "UR-6",
+  "chapter_id": "NPLEX-P1-RENL-06",
+  "topic_id": "NPLEX-P1-RENL-06-01",
+  "title": "Filtration, Reabsorption, Secretion, and Micturition",
+  "subject": "Renal and Urinary System (RENL)",
+  "version": "1.0",
+  "author": "Dr. Sharilyn Rennie",
+  "brand": "MedMasters Collaborative",
+  "overview": {
+    "intro": "This chapter follows plasma through the nephron and urine out of the body. It explains how Starling forces set the glomerular filtration rate (GFR), how clearance measures renal function, how the proximal tubule and thick ascending limb do the bulk of reabsorption, and how aldosterone, antidiuretic hormone (ADH), and parathyroid hormone (PTH) make the final adjustments. It then covers urine concentration, body fluid shifts, and the neural control of the bladder. Board questions in this area are mostly calculations and predictions: work a clearance, predict a GFR change, sort out polyuria or hyponatremia, or place a neurologic lesion from the bladder pattern.",
+    "prerequisites": [
+      "Starling forces across capillary walls and the meaning of oncotic pressure (CV-11)",
+      "Nephron segments, juxtaglomerular apparatus, and tubular cell types (UR-2)",
+      "Renal blood flow and afferent and efferent arteriolar control (UR-5)",
+      "Osmosis, osmolality, and primary and secondary active transport",
+      "Autonomic receptors and G protein signaling (NE-9)"
+    ],
+    "connections": [
+      {
+        "to": "Renal circulation (UR-5)",
+        "how": "Afferent and efferent arteriolar tone sets glomerular capillary pressure and plasma flow, the two variables that most often change GFR."
+      },
+      {
+        "to": "Kidney in acid-base and blood pressure control (UR-7)",
+        "how": "Proximal bicarbonate reclamation, aldosterone, and the renin-angiotensin system described here are the effectors of acid-base and blood pressure regulation."
+      },
+      {
+        "to": "Hypothalamic and limbic function (NE-12)",
+        "how": "Hypothalamic osmoreceptors, thirst, and ADH release from the posterior pituitary link plasma osmolality to collecting duct water permeability."
+      },
+      {
+        "to": "Obstructive urinary diseases (UR-12-C)",
+        "how": "Raised Bowman space pressure explains why obstruction lowers GFR, and bladder outlet failure explains retention and overflow."
+      },
+      {
+        "to": "Autonomic nervous system (NE-9)",
+        "how": "Bladder storage and voiding are opposite sympathetic and parasympathetic states coordinated by the pons."
+      }
+    ],
+    "terms": [
+      {
+        "term": "Glomerular filtration rate (GFR)",
+        "def": "The volume of plasma filtered into Bowman space per minute by both kidneys, normally about 125 mL/min (about 180 L/day)."
+      },
+      {
+        "term": "Net filtration pressure",
+        "def": "Glomerular capillary hydrostatic pressure minus Bowman space hydrostatic pressure minus glomerular capillary oncotic pressure."
+      },
+      {
+        "term": "Filtration coefficient (Kf)",
+        "def": "The product of glomerular capillary permeability and surface area, which converts net filtration pressure into GFR."
+      },
+      {
+        "term": "Clearance",
+        "def": "The volume of plasma completely cleared of a substance per minute, calculated as urine concentration times urine flow divided by plasma concentration."
+      },
+      {
+        "term": "Effective renal plasma flow (ERPF)",
+        "def": "Renal plasma flow estimated from para-aminohippurate (PAH) clearance, about 600 mL/min, roughly 10 percent below true renal plasma flow (about 650 mL/min)."
+      },
+      {
+        "term": "Filtration fraction",
+        "def": "The fraction of renal plasma flow that is filtered, GFR divided by renal plasma flow, normally about 0.2."
+      },
+      {
+        "term": "Transport maximum (Tm)",
+        "def": "The highest rate at which a carrier-mediated system can reabsorb or secrete a solute once all carriers are saturated."
+      },
+      {
+        "term": "Countercurrent multiplication",
+        "def": "The process by which the loop of Henle turns a small transverse osmotic difference into a large corticomedullary gradient through opposite flow in its two limbs."
+      },
+      {
+        "term": "Effective osmole",
+        "def": "A solute that cannot freely cross cell membranes, such as Na+ or glucose without insulin, and therefore moves water between compartments."
+      },
+      {
+        "term": "Pontine micturition center",
+        "def": "A brainstem nucleus that switches the bladder from storage to voiding by coordinating detrusor contraction with sphincter relaxation."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "comp": "NPLEX-P1-RENL-06-01-C01",
+      "obj": "UR-6.1",
+      "title": "Starling forces and the glomerular filtration rate",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Filtration across the glomerular capillary is governed by the same Starling forces as any capillary, but in humans the balance favors filtration along the whole capillary length. Glomerular capillary hydrostatic pressure (PGC, about 60 mm Hg) pushes fluid out. Bowman space hydrostatic pressure (PBS, about 18 mm Hg) and glomerular capillary oncotic pressure (piGC, about 32 mm Hg on average) oppose it. The oncotic pressure of the filtrate is near zero because normal filtrate is almost protein free, so the net filtration pressure is about 60 minus 18 minus 32, or about 10 mm Hg."
+        },
+        {
+          "type": "p",
+          "text": "GFR equals Kf times net filtration pressure. The glomerular Kf is very high because the fenestrated endothelium, basement membrane, and podocyte slit diaphragms form a large, permeable surface, so a small net pressure produces about 125 mL/min. Because filtration removes protein-free fluid, plasma proteins become more concentrated along the capillary, and piGC rises from about 28 to about 36 mm Hg. Higher plasma flow slows that rise and keeps net filtration pressure positive over more of the capillary, which is why GFR rises with renal plasma flow even when PGC is unchanged."
+        },
+        {
+          "type": "p",
+          "text": "Arteriolar tone sets PGC. Afferent constriction lowers both PGC and plasma flow, so GFR falls. Efferent constriction, the main action of angiotensin II, raises PGC and GFR while lowering plasma flow, so filtration fraction rises; very strong efferent constriction eventually lowers GFR because oncotic pressure climbs steeply. Myogenic contraction of the afferent arteriole and tubuloglomerular feedback keep GFR nearly constant over a mean arterial pressure of about 75 to 160 mm Hg."
+        },
+        {
+          "type": "cycle",
+          "title": "Tubuloglomerular feedback",
+          "steps": [
+            "GFR rises",
+            "More NaCl reaches the macula densa",
+            "Macula densa releases adenosine and ATP",
+            "Afferent arteriole constricts",
+            "PGC and GFR fall back toward normal"
+          ],
+          "caption": "The macula densa senses NaCl delivery in the thick ascending limb and adjusts afferent tone of its own nephron."
+        },
+        {
+          "type": "table",
+          "title": "Predicting GFR from the Starling terms",
+          "cols": [
+            "Condition",
+            "Term changed",
+            "GFR",
+            "Mechanism"
+          ],
+          "rows": [
+            [
+              "Ureteral obstruction",
+              "PBS rises",
+              "Falls",
+              "Urine backs up into the tubules and Bowman space and opposes filtration"
+            ],
+            [
+              "Hypoalbuminemia",
+              "piGC falls",
+              "Tends to rise",
+              "Less oncotic opposition; in nephrotic syndrome a lower Kf often offsets this"
+            ],
+            [
+              "Dehydration or hypovolemia",
+              "piGC rises; plasma flow and PGC fall",
+              "Falls",
+              "Proteins concentrate and sympathetic afferent constriction lowers flow; angiotensin II efferent constriction limits the fall and raises filtration fraction"
+            ],
+            [
+              "Afferent constriction",
+              "PGC and plasma flow fall",
+              "Falls",
+              "Less pressure and flow reach the glomerulus"
+            ],
+            [
+              "Efferent constriction (moderate)",
+              "PGC rises; plasma flow falls",
+              "Rises",
+              "Pressure builds behind the efferent arteriole"
+            ]
+          ],
+          "caption": "Each condition shifts one or more terms of the Starling equation; the direction of GFR follows from which term moves."
+        },
+        {
+          "type": "p",
+          "text": "In dehydration the fall in GFR raises plasma urea and creatinine. Because slow tubular flow also increases passive urea reabsorption, the blood urea nitrogen (BUN) to creatinine ratio typically exceeds about 20 to 1 in this prerenal state, a mechanistic clue that the kidney itself is intact."
+        },
+        {
+          "type": "stop",
+          "predict": "What happens to GFR and filtration fraction when angiotensin II levels rise during mild volume depletion?",
+          "explain": "Efferent constriction raises PGC, so GFR is preserved or falls only slightly, while renal plasma flow falls. Filtration fraction (GFR divided by plasma flow) therefore rises, which also raises peritubular oncotic pressure and favors proximal reabsorption.",
+          "check": "The paragraph on arteriolar tone and the dehydration row of the table."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-RENL-06-01-C02",
+      "obj": "UR-6.2",
+      "title": "Clearance, GFR, renal plasma flow, and filtration fraction",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Clearance (C) is the volume of plasma per minute that would have to be completely emptied of a substance to supply the amount appearing in the urine. It is calculated as C = (U x V) / P, where U is urine concentration, V is urine flow rate, and P is plasma concentration. The product U x V is the excretion rate, and dividing it by P converts an amount per minute into a plasma volume per minute."
+        },
+        {
+          "type": "p",
+          "text": "A substance that is freely filtered and neither reabsorbed, secreted, nor metabolized by the tubules has a clearance equal to GFR, because every milliliter filtered is cleared and no other milliliter is. Inulin, a fructose polymer, meets these conditions and is the reference standard. Creatinine, made at a fairly steady rate from muscle creatine, is used clinically; a small amount is secreted by the proximal tubule, so creatinine clearance slightly overestimates GFR. At steady state, plasma creatinine varies inversely with GFR: halving GFR roughly doubles plasma creatinine, so early losses of GFR cause only small rises in creatinine."
+        },
+        {
+          "type": "p",
+          "text": "Para-aminohippurate (PAH) is filtered and then secreted by proximal tubule organic anion transporters so efficiently that about 90 percent is removed in one pass at low plasma levels. Its clearance therefore approximates renal plasma flow, called effective renal plasma flow (ERPF, about 600 mL/min) because some blood perfuses tissue without secreting tubules. True renal plasma flow, about 650 mL/min, is ERPF divided by the PAH extraction ratio, and renal blood flow is renal plasma flow divided by (1 minus hematocrit). Filtration fraction is GFR divided by renal plasma flow, about 125/650, or roughly 0.2."
+        },
+        {
+          "type": "p",
+          "text": "Comparing a clearance with GFR shows net tubular handling. Filtered load is GFR x P. If the clearance is below GFR, less appeared in urine than was filtered, so the tubules reabsorbed it (net reabsorption equals filtered load minus excretion). If the clearance is above GFR, the tubules added it (net secretion). Glucose clearance is normally zero, but once plasma glucose exceeds a threshold of about 200 mg/dL some nephrons saturate their carriers and glucose appears in urine; full saturation (Tm) is reached at a higher level, and the gradual curve between them is called splay."
+        },
+        {
+          "type": "table",
+          "title": "Clearance compared with GFR",
+          "cols": [
+            "Substance",
+            "Tubular handling",
+            "Clearance relative to GFR"
+          ],
+          "rows": [
+            [
+              "Inulin",
+              "Filtered only",
+              "Equal to GFR"
+            ],
+            [
+              "Creatinine",
+              "Filtered, slightly secreted",
+              "Slightly above GFR"
+            ],
+            [
+              "PAH",
+              "Filtered and strongly secreted",
+              "Far above GFR, about ERPF"
+            ],
+            [
+              "Urea",
+              "Filtered, partly reabsorbed",
+              "Below GFR, about half"
+            ],
+            [
+              "Na+",
+              "Filtered, more than 99 percent reabsorbed",
+              "Far below GFR"
+            ],
+            [
+              "Glucose (normal plasma level)",
+              "Filtered, completely reabsorbed",
+              "Zero"
+            ]
+          ],
+          "caption": "The ratio of a clearance to GFR tells whether the tubules reabsorb or secrete a substance overall."
+        },
+        {
+          "type": "example",
+          "title": "Working a clearance problem",
+          "text": "Plasma inulin is 1 mg/mL, urine inulin 125 mg/mL, and urine flow 1 mL/min, so GFR = (125 x 1)/1 = 125 mL/min. Plasma PAH is 0.02 mg/mL and urine PAH 13 mg/mL, so ERPF = (13 x 1)/0.02 = 650 mL/min. Taking ERPF as renal plasma flow, filtration fraction = 125/650, about 0.19. With a hematocrit of 0.45, renal blood flow is about 650/0.55, or 1,180 mL/min. Substance X has plasma 2 mg/mL and urine 100 mg/mL: clearance = 100 mL/min, below GFR, so X is reabsorbed. Filtered load is 125 x 2 = 250 mg/min, excretion is 100 mg/min, and net reabsorption is 150 mg/min."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-RENL-06-01-C03",
+      "obj": "UR-6.3",
+      "title": "Proximal tubule and thick ascending limb transport",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Nearly all tubular reabsorption is powered by the basolateral Na+/K+-ATPase, which keeps intracellular Na+ low and the cell interior negative. Apical carriers then use the inward Na+ gradient to move other solutes by secondary active transport. The proximal tubule is a leaky, high-capacity epithelium rich in mitochondria and brush border, and it reabsorbs about two thirds of filtered Na+, water, K+, and Cl-, about 80 percent of filtered bicarbonate, most filtered phosphate, and nearly all filtered glucose and amino acids."
+        },
+        {
+          "type": "p",
+          "text": "Glucose enters through the Na+-glucose cotransporter SGLT2 in the early proximal tubule and SGLT1 later, then leaves across the basolateral membrane through GLUT2 by facilitated diffusion. Amino acids use similar Na+-coupled carriers. The apical Na+/H+ exchanger (NHE3) secretes H+, which combines with filtered bicarbonate; luminal carbonic anhydrase converts the carbonic acid to CO2 and water, CO2 enters the cell, and intracellular carbonic anhydrase regenerates bicarbonate, which exits with Na+ into blood. Water follows the reabsorbed solute through aquaporin-1 and between cells, so proximal reabsorption is isosmotic and tubular fluid stays at about 300 mOsm/kg. The proximal tubule also secretes organic anions and cations, including PAH, urate, and many drugs."
+        },
+        {
+          "type": "p",
+          "text": "Generalized proximal tubule failure (Fanconi syndrome, from causes such as cystinosis, light chains in multiple myeloma, or heavy metals) shows the segment's roles by their loss: glucose in urine with normal plasma glucose, aminoaciduria, phosphaturia, and bicarbonate wasting with proximal renal tubular acidosis."
+        },
+        {
+          "type": "p",
+          "text": "The thick ascending limb reabsorbs about 25 percent of filtered Na+ through the apical Na+/K+/2Cl- cotransporter (NKCC2) but is impermeable to water, so it dilutes tubular fluid to about 100 mOsm/kg and builds the medullary gradient. Most of the K+ taken up leaks back into the lumen through ROMK channels while Cl- exits basolaterally, which leaves the lumen positive. That voltage drives Ca2+ and Mg2+ between the cells through tight junction claudins. The thick ascending limb reabsorbs about 25 percent of filtered Ca2+ and is the main site of Mg2+ reabsorption."
+        },
+        {
+          "type": "flow",
+          "title": "Paracellular cation reabsorption in the thick ascending limb",
+          "steps": [
+            "NKCC2 brings in Na+, K+, and 2 Cl-",
+            "Na+/K+-ATPase moves Na+ out to blood",
+            "Cl- exits through basolateral Cl- channels",
+            "K+ recycles to the lumen through ROMK",
+            "Lumen becomes positive relative to blood",
+            "Ca2+ and Mg2+ move between cells into blood"
+          ],
+          "caption": "Blocking NKCC2 or ROMK removes the positive lumen, so Ca2+ and Mg2+ are lost along with NaCl."
+        },
+        {
+          "type": "table",
+          "title": "Proximal tubule compared with thick ascending limb",
+          "cols": [
+            "Feature",
+            "Proximal tubule",
+            "Thick ascending limb"
+          ],
+          "rows": [
+            [
+              "Share of filtered Na+",
+              "About 65 percent",
+              "About 25 percent"
+            ],
+            [
+              "Main apical Na+ entry",
+              "NHE3, SGLT2, Na+-coupled carriers",
+              "NKCC2"
+            ],
+            [
+              "Water permeability",
+              "High (aquaporin-1)",
+              "Impermeable"
+            ],
+            [
+              "Fluid leaving the segment",
+              "About 300 mOsm/kg (isosmotic)",
+              "About 100 mOsm/kg (dilute)"
+            ],
+            [
+              "Special solutes",
+              "Glucose, amino acids, bicarbonate, phosphate",
+              "Paracellular Ca2+ and Mg2+"
+            ],
+            [
+              "Loss-of-function disorder",
+              "Fanconi syndrome",
+              "Bartter syndrome"
+            ]
+          ],
+          "caption": "Bulk isosmotic reabsorption happens proximally; the water-tight thick ascending limb separates salt from water."
+        },
+        {
+          "type": "p",
+          "text": "Bartter syndrome, inherited loss of NKCC2, ROMK, or the basolateral Cl- channel, reproduces loop diuretic action: salt wasting with low or normal blood pressure, high renin and aldosterone, hypokalemia and metabolic alkalosis from increased distal Na+ delivery under aldosterone, and hypercalciuria."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-RENL-06-01-C04",
+      "obj": "UR-6.4",
+      "title": "Hormonal control in the distal nephron: aldosterone, ADH, and PTH",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "By the time fluid reaches the distal convoluted tubule, about 90 percent of filtered Na+ and about 80 percent of filtered water have been reabsorbed. The distal nephron handles small fractions, but it is where hormones set final excretion, so modest changes there decide Na+, K+, water, and Ca2+ balance."
+        },
+        {
+          "type": "h",
+          "text": "Aldosterone and the principal cell"
+        },
+        {
+          "type": "p",
+          "text": "Aldosterone, released from the zona glomerulosa in response to angiotensin II and to a rise in plasma K+, is a steroid that binds the intracellular mineralocorticoid receptor in principal cells of the late distal tubule and collecting duct. The hormone-receptor complex increases transcription of genes that add open ENaC channels to the luminal membrane, more Na+/K+-ATPase to the basolateral membrane, and more ROMK channels. Na+ entering through ENaC without an accompanying anion makes the lumen negative, and that voltage, together with high intracellular K+ from the pump, drives K+ secretion through ROMK. Aldosterone also stimulates H+ secretion by alpha-intercalated cells. Cortisol binds the same receptor with equal affinity, but the enzyme 11-beta-hydroxysteroid dehydrogenase type 2 converts it to inactive cortisone in these cells; inhibiting the enzyme (for example by glycyrrhetinic acid in licorice) lets cortisol act as a mineralocorticoid."
+        },
+        {
+          "type": "p",
+          "text": "The mechanism predicts the disorders. Aldosterone excess gives Na+ retention with hypertension, hypokalemia, and metabolic alkalosis; edema is usually absent because pressure natriuresis and natriuretic peptides limit volume gain (aldosterone escape). Aldosterone deficiency gives Na+ wasting, hyperkalemia, and a mild metabolic acidosis. Blocking ENaC with amiloride removes the lumen-negative voltage and so reduces K+ secretion, and gain-of-function ENaC mutations (Liddle syndrome) mimic aldosterone excess with low renin and low aldosterone."
+        },
+        {
+          "type": "h",
+          "text": "ADH and aquaporin-2"
+        },
+        {
+          "type": "flow",
+          "title": "ADH action on the collecting duct",
+          "steps": [
+            "Plasma osmolality rises or blood volume falls",
+            "Hypothalamic neurons release ADH from the posterior pituitary",
+            "ADH binds V2 receptors on principal cells",
+            "Gs activates adenylyl cyclase; cAMP activates protein kinase A",
+            "Aquaporin-2 vesicles fuse with the luminal membrane",
+            "Water exits through basolateral aquaporin-3 and aquaporin-4 into the hypertonic interstitium"
+          ],
+          "caption": "ADH controls water permeability only; the medullary gradient supplies the driving force."
+        },
+        {
+          "type": "p",
+          "text": "Osmoreceptors respond to a change in plasma osmolality of about 1 percent, whereas a volume or pressure stimulus must be considerably larger (on the order of 10 percent or more) but then produces strong ADH release that can override osmotic control. With sustained ADH, aquaporin-2 synthesis also rises, and in the inner medullary collecting duct ADH increases urea transporter activity."
+        },
+        {
+          "type": "h",
+          "text": "PTH and distal calcium reabsorption"
+        },
+        {
+          "type": "p",
+          "text": "In the distal convoluted tubule, Ca2+ enters across the luminal membrane through TRPV5 channels, binds calbindin in the cytosol, and leaves through the basolateral Na+/Ca2+ exchanger and Ca2+-ATPase. PTH, acting through its Gs-coupled receptor, increases this transcellular pathway and so lowers urinary Ca2+. In the proximal tubule PTH reduces Na+-phosphate cotransporters, causing phosphaturia, and stimulates 1-alpha-hydroxylase to form calcitriol. Thiazide block of the distal NaCl cotransporter also lowers urinary Ca2+, because lower intracellular Na+ speeds basolateral Na+/Ca2+ exchange."
+        },
+        {
+          "type": "table",
+          "title": "Distal nephron hormones",
+          "cols": [
+            "Hormone",
+            "Main stimulus",
+            "Receptor and signal",
+            "Transport effect"
+          ],
+          "rows": [
+            [
+              "Aldosterone",
+              "Angiotensin II, high plasma K+",
+              "Mineralocorticoid receptor, gene transcription",
+              "More ENaC and Na+/K+-ATPase; Na+ reabsorption and K+ and H+ secretion"
+            ],
+            [
+              "ADH",
+              "High plasma osmolality, low blood volume",
+              "V2 receptor, Gs, cAMP, protein kinase A",
+              "Aquaporin-2 insertion; water reabsorption; urea transport in inner medulla"
+            ],
+            [
+              "PTH",
+              "Low plasma ionized Ca2+",
+              "PTH receptor, Gs, cAMP",
+              "More distal Ca2+ reabsorption; less proximal phosphate reabsorption"
+            ]
+          ],
+          "caption": "Each hormone changes the number or activity of specific transporters in a specific cell."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-RENL-06-01-C05",
+      "obj": "UR-6.5",
+      "title": "Urine concentration and the disorders of water balance",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "To excrete concentrated urine, the kidney needs a hypertonic medullary interstitium and ADH to let collecting duct water equilibrate with it. The loop of Henle builds the gradient by countercurrent multiplication. The thick ascending limb pumps NaCl out without water and can create about a 200 mOsm/kg difference between its lumen and the interstitium at any level. Water then leaves the water-permeable descending limb, concentrating its fluid, and because flow carries that concentrated fluid around the bend into the ascending limb, the single step is repeated and stacked along the loop."
+        },
+        {
+          "type": "flow",
+          "title": "Countercurrent multiplication",
+          "steps": [
+            "Thick ascending limb pumps NaCl into the interstitium without water",
+            "Interstitial osmolality rises around the loop",
+            "Water leaves the descending limb; its fluid concentrates",
+            "Concentrated fluid flows around the bend into the ascending limb",
+            "More NaCl is pumped out at a higher starting osmolality",
+            "Repetition builds a gradient of about 300 to 1,200 mOsm/kg"
+          ],
+          "caption": "The gradient runs from cortex to papilla; longer loops of juxtamedullary nephrons build the deepest part."
+        },
+        {
+          "type": "p",
+          "text": "Urea adds a large share of the inner medullary osmolality. The cortical and outer medullary collecting ducts are urea impermeable, so urea concentrates as water is removed, and ADH-regulated urea transporters in the inner medullary collecting duct then let it diffuse into the interstitium. The vasa recta preserve the gradient because they are also hairpin loops with low flow: solute entering the descending vessel leaves the ascending one (countercurrent exchange)."
+        },
+        {
+          "type": "p",
+          "text": "Fluid leaving the thick ascending limb is hypotonic (about 100 mOsm/kg) whether or not ADH is present. With maximal ADH, collecting duct fluid equilibrates with the papilla and urine reaches about 1,200 mOsm/kg; without ADH action, further solute reabsorption makes urine as dilute as about 50 mOsm/kg. Because a typical diet requires excreting about 600 mOsm of solute daily, the minimum obligatory urine volume is about 0.5 L/day."
+        },
+        {
+          "type": "table",
+          "title": "Polyuria and hyponatremia by mechanism",
+          "cols": [
+            "Condition",
+            "Defect",
+            "Serum Na+",
+            "Urine osmolality",
+            "Water deprivation",
+            "Desmopressin"
+          ],
+          "rows": [
+            [
+              "Central diabetes insipidus",
+              "Too little ADH released (pituitary surgery, trauma, tumor, idiopathic)",
+              "High-normal or high",
+              "Low",
+              "Urine stays dilute",
+              "Urine concentrates"
+            ],
+            [
+              "Nephrogenic diabetes insipidus",
+              "Collecting duct does not respond (lithium, hypercalcemia, hypokalemia, V2 receptor or aquaporin-2 mutation)",
+              "High-normal or high",
+              "Low",
+              "Urine stays dilute",
+              "Little or no rise"
+            ],
+            [
+              "Primary polydipsia",
+              "Excess water intake suppresses ADH",
+              "Low-normal or low",
+              "Low",
+              "Urine concentrates",
+              "Little further rise; endogenous ADH is already acting"
+            ],
+            [
+              "SIADH",
+              "ADH released despite low osmolality (small cell lung carcinoma, CNS disease, lung disease, some drugs)",
+              "Low",
+              "Inappropriately high",
+              "Not performed; diagnosis rests on low serum osmolality with urine osmolality above about 100 mOsm/kg",
+              "Not performed; ADH effect is already present"
+            ]
+          ],
+          "caption": "Water deprivation tests whether the kidney can concentrate; desmopressin, a V2-selective ADH analog, tests whether the kidney responds to ADH."
+        },
+        {
+          "type": "p",
+          "text": "In SIADH, water retention expands volume slightly, which suppresses renin and aldosterone and raises natriuretic peptides, so urine Na+ stays above about 40 mEq/L and the patient appears euvolemic rather than edematous. In primary polydipsia, chronic high urine flow washes urea and NaCl out of the medulla, so maximal concentration may be blunted even though ADH and its receptor are normal."
+        },
+        {
+          "type": "stop",
+          "predict": "A patient with polyuria has a serum Na+ of 146 mEq/L. After water deprivation, urine osmolality stays at 150 mOsm/kg; after desmopressin it rises to 480 mOsm/kg. Where is the defect?",
+          "explain": "The kidney cannot concentrate without help but responds well to exogenous V2 stimulation, so the collecting duct is normal and ADH is missing: central diabetes insipidus.",
+          "check": "The table of water balance disorders and the role of ADH in the collecting duct."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-RENL-06-01-C06",
+      "obj": "UR-6.6",
+      "title": "Body fluid compartments and fluid shifts",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Total body water is about 60 percent of body weight in a lean adult man (less in women, older adults, and people with more adipose tissue). About two thirds is intracellular fluid (ICF) and one third extracellular fluid (ECF); ECF is about three quarters interstitial fluid and one quarter plasma. Plasma osmolality is normally about 285 to 295 mOsm/kg and can be estimated as 2 x [Na+] + glucose/18 + BUN/2.8, with glucose and BUN in mg/dL."
+        },
+        {
+          "type": "p",
+          "text": "Two rules predict every shift. First, water crosses cell membranes freely, so ICF and ECF always reach the same osmolality. Second, Na+ is held outside cells by the Na+/K+-ATPase and K+ inside, so NaCl added to the ECF stays there and only water crosses into or out of cells. Urea crosses membranes and is therefore an ineffective osmole: it raises measured osmolality without moving water. Glucose is effective when insulin is lacking, so marked hyperglycemia pulls water out of cells and lowers serum Na+ by dilution."
+        },
+        {
+          "type": "table",
+          "title": "Fluid gain and loss",
+          "cols": [
+            "Change",
+            "Example",
+            "ECF volume",
+            "ICF volume",
+            "Osmolality"
+          ],
+          "rows": [
+            [
+              "Isotonic gain",
+              "0.9 percent saline infusion",
+              "Up",
+              "No change",
+              "No change"
+            ],
+            [
+              "Isotonic loss",
+              "Hemorrhage, diarrhea",
+              "Down",
+              "No change",
+              "No change"
+            ],
+            [
+              "Hypertonic gain",
+              "Hypertonic saline, high salt intake",
+              "Up",
+              "Down",
+              "Up"
+            ],
+            [
+              "Hypotonic loss (water loss)",
+              "Sweating, diabetes insipidus, poor water intake",
+              "Down",
+              "Down",
+              "Up"
+            ],
+            [
+              "Hypotonic gain (water gain)",
+              "SIADH, excess water intake",
+              "Up",
+              "Up",
+              "Down"
+            ],
+            [
+              "Hypertonic loss (salt loss exceeds water loss)",
+              "Adrenal insufficiency",
+              "Down",
+              "Up",
+              "Down"
+            ]
+          ],
+          "caption": "Only a change in ECF osmolality moves water across cell membranes."
+        },
+        {
+          "type": "p",
+          "text": "These shifts separate terms that are often blurred. Dehydration in the strict sense is loss of water in excess of Na+: osmolality and serum Na+ rise, cells shrink, thirst and ADH are stimulated, and brain cell shrinkage causes confusion and, if severe, can tear bridging veins. Hypovolemia is loss of ECF volume, mainly Na+ with water; osmolality may be normal, and the signs are those of low effective circulating volume: tachycardia, orthostatic hypotension, flat neck veins, and a prerenal fall in GFR."
+        },
+        {
+          "type": "p",
+          "text": "Volume overload is an excess of total body Na+ that expands the ECF, as in heart failure, cirrhosis, nephrotic syndrome, or renal failure. Expansion of the interstitial compartment appears as edema and pulmonary congestion. When low effective arterial volume drives nonosmotic ADH release, water is retained in excess of Na+ and hyponatremia follows. Low ECF osmolality swells brain cells, giving headache, confusion, and seizures; brain cells adapt over about 48 hours by exporting K+ and organic osmolytes, which is why rapid correction of chronic hyponatremia can shrink them and cause osmotic demyelination."
+        },
+        {
+          "type": "example",
+          "title": "Distributing a water load",
+          "text": "A 70 kg man has total body water of 42 L (ICF 28 L, ECF 14 L) at 290 mOsm/kg, so total body osmoles are 42 x 290 = 12,180 mOsm. He drinks 2 L of water that is retained. New total water is 44 L, so new osmolality is 12,180/44, about 277 mOsm/kg. Osmoles in each space are unchanged: ICF = (28 x 290)/277, about 29.3 L, and ECF = (14 x 290)/277, about 14.7 L. Pure water distributes in proportion to the compartments, about two thirds into cells. By contrast, 2 L of isotonic saline would stay entirely in the ECF."
+        },
+        {
+          "type": "stop",
+          "predict": "After several days of severe watery diarrhea treated only with plain water, what happens to ECF volume, ICF volume, and serum Na+?",
+          "explain": "The diarrhea causes isotonic loss and shrinks the ECF. Replacing it with water, retained under volume-driven ADH, lowers osmolality, so water shifts into cells: ECF remains contracted, ICF expands, and serum Na+ falls.",
+          "check": "The two rules for water movement and the table of fluid gain and loss."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-RENL-06-01-C07",
+      "obj": "UR-6.7",
+      "title": "The micturition reflex and neurogenic bladder",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The bladder wall is the detrusor, a smooth muscle syncytium. At the bladder neck the smooth muscle internal sphincter is under involuntary control, and below it the striated external urethral sphincter is under voluntary control. Storage and voiding are opposite states, and the nervous system must switch between them while keeping the detrusor and sphincters coordinated."
+        },
+        {
+          "type": "table",
+          "title": "Nerves of the bladder",
+          "cols": [
+            "Pathway",
+            "Origin",
+            "Receptor",
+            "Action"
+          ],
+          "rows": [
+            [
+              "Sympathetic (hypogastric nerve)",
+              "About T11 to L2",
+              "Beta-3 on detrusor; alpha-1 on bladder neck",
+              "Relaxes detrusor, closes internal sphincter: storage"
+            ],
+            [
+              "Parasympathetic (pelvic splanchnic nerves)",
+              "S2 to S4",
+              "M3 muscarinic on detrusor",
+              "Contracts detrusor: voiding"
+            ],
+            [
+              "Somatic (pudendal nerve)",
+              "S2 to S4 (Onuf nucleus)",
+              "Nicotinic on external sphincter",
+              "Keeps external sphincter closed: continence"
+            ],
+            [
+              "Afferent (mainly pelvic nerve)",
+              "Stretch receptors in bladder wall",
+              "Not applicable",
+              "Signals filling to sacral cord and pons"
+            ]
+          ],
+          "caption": "Sympathetic and somatic output store urine; parasympathetic output empties the bladder."
+        },
+        {
+          "type": "p",
+          "text": "During filling the bladder accommodates volume at low pressure because smooth muscle shows stress relaxation as it stretches and sympathetic beta-3 tone keeps the detrusor relaxed. A first urge is usually felt at about 150 mL, and a strong urge at roughly 300 to 400 mL. Stretch afferents enter the sacral cord and ascend to the periaqueductal gray and the pontine micturition center. The frontal cortex inhibits the pons until voiding is appropriate."
+        },
+        {
+          "type": "flow",
+          "title": "Micturition reflex",
+          "steps": [
+            "Bladder stretch afferents fire through the pelvic nerve",
+            "Signals ascend to the pontine micturition center",
+            "Cortex releases its inhibition of the pons",
+            "Pons inhibits sympathetic and pudendal output; sphincters relax",
+            "Sacral parasympathetic neurons release acetylcholine on M3 receptors",
+            "Detrusor contracts and the bladder empties"
+          ],
+          "caption": "The pons makes detrusor contraction and sphincter relaxation happen together."
+        },
+        {
+          "type": "p",
+          "text": "Lesion level predicts the bladder. Damage above the pons, as in frontal lobe stroke or dementia, removes cortical inhibition: the reflex is intact and coordinated but triggered early, giving urge incontinence. A spinal cord lesion between the pons and the sacral segments first produces spinal shock with an areflexic bladder and retention. As the sacral reflex recovers without pontine control, a reflex spastic bladder develops: small capacity, involuntary reflex emptying, and detrusor-sphincter dyssynergia, in which the external sphincter contracts while the detrusor contracts. The high pressures that result cause incomplete emptying, vesicoureteral reflux, and hydronephrosis. With lesions above about T6, bladder distention can trigger autonomic dysreflexia, a massive sympathetic discharge below the lesion with severe hypertension and reflex bradycardia."
+        },
+        {
+          "type": "p",
+          "text": "A lesion of the sacral cord, cauda equina, or pelvic nerves destroys the reflex arc itself. The detrusor cannot contract and the bladder becomes flaccid and overdistended, emptying only by overflow dribbling, usually with saddle anesthesia and reduced anal tone. Afferent loss alone, as in diabetic autonomic neuropathy, also produces a large, insensate bladder with overflow."
+        },
+        {
+          "type": "table",
+          "title": "Bladder pattern by lesion level",
+          "cols": [
+            "Lesion",
+            "Bladder",
+            "Main finding"
+          ],
+          "rows": [
+            [
+              "Above the pons (cortex)",
+              "Uninhibited, coordinated",
+              "Urge incontinence"
+            ],
+            [
+              "Spinal cord above the sacral segments",
+              "Reflex spastic, small capacity",
+              "Reflex emptying with detrusor-sphincter dyssynergia"
+            ],
+            [
+              "Sacral cord, cauda equina, or pelvic nerves",
+              "Flaccid, large capacity",
+              "Retention with overflow incontinence"
+            ]
+          ],
+          "caption": "An upper motor neuron pattern above the sacral cord and a lower motor neuron pattern at it."
+        }
+      ]
+    }
+  ],
+  "integration": [
+    {
+      "type": "p",
+      "text": "Structure explains function throughout this chapter. The fenestrated glomerular filter with its large surface gives a high Kf, so GFR follows small pressure changes; the brush border and mitochondria of the proximal tubule support bulk isosmotic transport; the water-tight thick ascending limb and hairpin loops of juxtamedullary nephrons make concentration possible; and the sacral and pontine wiring of the bladder decides what each spinal lesion does. Biochemistry appears in the Na+/K+-ATPase that powers nearly every transporter, in carbonic anhydrase chemistry for bicarbonate, and in steroid receptor transcription for aldosterone."
+    },
+    {
+      "type": "p",
+      "text": "Pathology tests the same mechanisms from the other side. Single transporter mutations (Bartter, Liddle, nephrogenic diabetes insipidus from V2 receptor or aquaporin-2 defects) behave like drug blockade or activation of that transporter, and ectopic ADH from small cell lung carcinoma links oncology to hyponatremia. Measured values have limits: creatinine clearance overestimates GFR, and plasma creatinine rises late in early kidney disease."
+    }
+  ],
+  "summary": [
+    "Net filtration pressure is PGC minus PBS minus piGC (about 60 minus 18 minus 32 mm Hg); GFR is Kf times net filtration pressure, about 125 mL/min.",
+    "Ureteral obstruction lowers GFR by raising Bowman space pressure; hypoalbuminemia tends to raise it by lowering oncotic pressure; dehydration lowers it through higher oncotic pressure and lower renal flow.",
+    "Clearance is UV/P; inulin clearance equals GFR, creatinine slightly overestimates it, and PAH clearance equals effective renal plasma flow (about 600 mL/min, about 90 percent of true plasma flow).",
+    "Filtration fraction is GFR divided by renal plasma flow, about 0.2; clearance below GFR means net reabsorption and above GFR means net secretion.",
+    "The proximal tubule reabsorbs about two thirds of filtered Na+ and water isosmotically, nearly all glucose and amino acids, and most bicarbonate through Na+/H+ exchange.",
+    "The thick ascending limb reabsorbs about 25 percent of Na+ through NKCC2, is water impermeable, and uses a lumen-positive voltage from K+ recycling to reabsorb Ca2+ and Mg2+ between cells.",
+    "Aldosterone adds ENaC and Na+/K+-ATPase in principal cells, increasing Na+ reabsorption and K+ secretion; ADH inserts aquaporin-2 through V2, cAMP, and protein kinase A; PTH increases distal Ca2+ reabsorption.",
+    "Countercurrent multiplication and urea recycling build a 300 to 1,200 mOsm/kg medullary gradient that ADH lets the collecting duct use.",
+    "Central diabetes insipidus responds to desmopressin, nephrogenic does not, primary polydipsia concentrates with water deprivation, and SIADH shows low serum Na+ with inappropriately concentrated urine.",
+    "Only changes in ECF osmolality move water into or out of cells; a suprasacral cord lesion gives a spastic dyssynergic bladder and a sacral lesion a flaccid overflow bladder."
+  ],
+  "sources": [
+    {
+      "book": "Guyton and Hall Textbook of Medical Physiology",
+      "where": "Glomerular Filtration, Renal Blood Flow, and Their Control"
+    },
+    {
+      "book": "Guyton and Hall Textbook of Medical Physiology",
+      "where": "Renal Tubular Reabsorption and Secretion"
+    },
+    {
+      "book": "Guyton and Hall Textbook of Medical Physiology",
+      "where": "Concentration and Dilution of Urine; Regulation of Extracellular Fluid Osmolarity and Sodium Concentration"
+    },
+    {
+      "book": "Boron and Boulpaep Medical Physiology",
+      "where": "The urinary system: glomerular filtration, transport of sodium, chloride, and water, and urine concentration"
+    },
+    {
+      "book": "Guyton and Hall Textbook of Medical Physiology",
+      "where": "The Body Fluid Compartments: Extracellular and Intracellular Fluids; Edema, and the section on micturition"
+    },
+    {
+      "book": "Lange Pathophysiology of Disease",
+      "where": "Renal disease and disorders of the hypothalamus and pituitary gland"
+    }
+  ],
+  "verify": [
+    "Starling values (PGC about 60, PBS about 18, piGC about 32 mm Hg) follow Guyton and Hall; other texts give PGC near 45 to 50 mm Hg with correspondingly different opposing pressures. Confirm which set NABNE uses.",
+    "ERPF is given as about 600 mL/min and true renal plasma flow as about 650 mL/min (Guyton and Hall); some board sources quote ERPF near 650 mL/min. Confirm the value NABNE uses.",
+    "The blood volume loss needed to trigger nonosmotic ADH release is quoted from about 5 to 25 percent across texts; the chapter says about 10 percent or more.",
+    "The renal glucose threshold is quoted from about 180 to 200 mg/dL and the glucose Tm at about 375 mg/min; confirm the values NABNE expects.",
+    "The autoregulatory range of mean arterial pressure (about 75 to 160 mm Hg here) varies between sources (often 80 to 180 mm Hg).",
+    "The SIADH urine osmolality criterion (above about 100 mOsm/kg) is a common consensus value; confirm the cutoff NABNE expects.",
+    "The prerenal BUN to creatinine ratio cutoff (above about 20 to 1) and the SIADH urine Na+ cutoff (above about 40 mEq/L) are common consensus values but differ slightly among texts.",
+    "Criteria for interpreting desmopressin response in the water deprivation test (for example a rise in urine osmolality above about 50 percent in central diabetes insipidus) vary, and partial forms overlap; the chapter states only the direction of change.",
+    "The spinal origin of bladder sympathetic fibers is given as about T11 to L2 here; some sources give T10 to L2.",
+    "Confirm whether NABNE Part I expects the eponyms Fanconi, Bartter, Liddle, and Onuf nucleus, or only the descriptive terms.",
+    "Requested new diagram names for a future revision: nephron-transport-map (segments with their main transporters and hormone sites) and countercurrent-loop (loop of Henle with interstitial osmolality values from cortex to papilla)."
+  ]
+}

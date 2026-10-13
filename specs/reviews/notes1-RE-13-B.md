@@ -1,0 +1,14 @@
+# Review log: notes/chapters/RE-13-B.json (Phase 1)
+
+- C06 orchitis table: renamed the row "Main long-term risk" to "Main complication" (abscess and infarction are acute complications, not long-term risks).
+- C06 mumps paragraph: replaced "Leydig cells are relatively spared, so testosterone is usually preserved" with "Leydig cells are more resistant than germ cells, so testosterone is less often reduced" (series disagree on long-term Leydig function; the original overstated sparing).
+- Overview connections: relabeled "Hepatobiliary and gynecologic neoplasia" to "Hepatobiliary disease and gynecologic neoplasia" (Fitz-Hugh-Curtis perihepatitis is not a neoplasm).
+- Verify: added that reports differ on Leydig cell and testosterone loss after mumps orchitis to the existing mumps item.
+- Verify: changed the lichen sclerosus carcinoma risk from "about 2% to 5%" to "quoted variously, up to about 5%" (published figures range lower than 2%).
+- C01 diabetes paragraph: merged the "deserves emphasis" sentence into the next sentence (repeated the risk factor table) to offset added words.
+- C04 worked example: cut the closing sentence on age and parity (already stated in the section) to offset added words.
+- C08 opening paragraph and C05 opening paragraph: tightened one sentence each with no change in meaning, to offset added words.
+- All other facts checked and confirmed against Robbins, Jawetz, Junqueira, Abbas, Lange Pathophysiology of Disease, and First Aid-level consensus: balanitis organisms and risk mechanisms, phimosis and paraphimosis, cervical epithelia and ectropion, Chlamydia and gonococcal cell biology, trichomonal and HSV cervicitis, endometriosis sites, diagnostic triad, origin theories, aromatase and PGE2, symptom mechanisms, adenomyosis and leiomyoma features (MED12), acute endometritis risk factors, organisms and 38.0°C (100.4°F) fever threshold, plasma cells and CD138 in chronic endometritis, mumps orchitis timing and pathology, epididymo-orchitis routes and age split, PID organisms, menses and IUD risk, gonococcal ciliated-cell injury and chlamydial HSP60 immunopathology, CDC-derived findings including 38.3°C (101°F), salpingitis complications, ampullary ectopic, Fitz-Hugh-Curtis route, phrenic C3 to C5 referral and violin-string adhesions, vaginal pH 3.8 to 4.5, candidalysin and Th17 defense, KOH findings and C. glabrata, lichen sclerosus histology, sparing of vagina, and the HPV-independent TP53 and differentiated VIN pathway.
+- Each section teaches its full competency; no treatment content; STOP prompts answerable from their sections with correct check targets; sources are real chapter titles or plain section names from allowed books; no dashes, italics, or banned phrases.
+- Length: 6033 words before review, 6028 after (not lengthened).
+- Checker: 0 errors, 0 warnings.

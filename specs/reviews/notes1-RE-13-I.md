@@ -1,0 +1,11 @@
+# Review log: notes/chapters/RE-13-I.json (Phase 1)
+
+- Overview connection (connective tissue disorders): Marfan syndrome is a fibrillin defect, not a collagen defect; now reads "Abnormal collagen (Ehlers-Danlos) or fibrillin (Marfan)".
+- C02 risk factor paragraph: replaced "Inherited collagen defects such as Ehlers-Danlos and Marfan syndromes" with "Inherited connective tissue disorders (Ehlers-Danlos, Marfan)" for the same reason; "removes apical support" changed to "disrupts apical support" (hysterectomy divides the cardinal and uterosacral attachments rather than removing all apical support).
+- Overview prerequisites: corrected unit cross-references to the registry (vulva and perineal pouch anatomy is RE-4, not RE-1; urogenital sinus development is RE-1; estrogen effects are RE-7, not RE-4).
+- C01 anatomy paragraph: Bartholin gland position made precise per Moore (at the posterior ends of the vestibular bulbs, not simply posterior to them).
+- C03 rectocele paragraph: enterocele after hysterectomy is a herniation of the peritoneal cul-de-sac behind the vagina; removed "rectouterine pouch", which no longer exists once the uterus is removed.
+- C03 worked example: cut the closing restatement sentence (repeats the section's opening paragraph) to offset added words and bring the section back under the length warning.
+- All other facts checked and confirmed against Moore, Langman, Robbins, Lange Pathophysiology of Disease, and Guyton and Hall: Bartholin homology with bulbourethral glands, urogenital sinus origin, duct opening lateral to the hymen, cyst and abscess mechanism and microbiology, postmenopausal biopsy rationale, Skene cyst location, levator ani parts, DeLancey levels table, childbirth injury flow, estrogen and collagen, cystocele residual urine and occult stress incontinence, urethral hypermobility mechanism and flow, urge versus stress incontinence, rectocele splinting. Each section teaches its full competency; no treatment content; STOP prompts answerable with correct check targets; sources are real chapter or section names; verify list is honest; no dashes, italics, or banned phrases.
+- Length: 2938 words before review, 2921 after (not lengthened).
+- Checker: 0 errors, 0 warnings.

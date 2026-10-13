@@ -1,0 +1,705 @@
+{
+ "unit": "UR-7",
+ "chapter_id": "NPLEX-P1-RENL-07",
+ "topic_id": "NPLEX-P1-RENL-07-01",
+ "title": "Kidney in Acid-Base and Blood Pressure Control",
+ "subject": "Renal and Urinary System (RENL)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter explains how the kidney holds plasma pH and arterial pressure steady over days to weeks. It covers bicarbonate reclamation and new bicarbonate generation, blood gas interpretation and compensation, the anion gap, the renal tubular acidoses, vomiting alkalosis, the renin-angiotensin-aldosterone system and its counterweight atrial natriuretic peptide, and pressure natriuresis. Board questions usually give a blood gas or an electrolyte panel and ask you to name the disorder, judge compensation, find the cause, or explain hypertension with low potassium. Most answers follow from one idea: the kidney trades Na+ for H+ and K+ in predictable ways, and volume needs often override pH needs.",
+  "prerequisites": [
+   "Henderson-Hasselbalch equation and the bicarbonate buffer system",
+   "Nephron segments and their transporters: proximal tubule, thick ascending limb, principal and intercalated cells (UR-6)",
+   "Glomerular filtration, filtration fraction, and peritubular capillary forces (UR-6)",
+   "Effective circulating volume, ECF volume, and osmolality (UR-6)",
+   "G protein receptor signaling (Gs, Gq, cAMP, cGMP) and steroid hormone receptors"
+  ],
+  "connections": [
+   {
+    "to": "Respiratory physiology",
+    "how": "The lungs set PaCO2 within minutes, so every metabolic disorder has a respiratory compensation and every respiratory disorder a renal one."
+   },
+   {
+    "to": "Endocrine system: adrenal cortex",
+    "how": "Aldosterone from the zona glomerulosa links the renin-angiotensin system to K+ and H+ secretion, so adrenal disease appears as acid-base and K+ disorders."
+   },
+   {
+    "to": "Cardiovascular system: blood pressure regulation",
+    "how": "Baroreflexes buffer pressure moment to moment, but pressure natriuresis by the kidney sets the long-term level and explains most forms of hypertension."
+   },
+   {
+    "to": "Biochemistry: amino acid and energy metabolism",
+    "how": "Glutamine breakdown makes ammonium and new bicarbonate, and lactate, ketoacids, and toxic alcohol metabolites are the acids that open the anion gap."
+   },
+   {
+    "to": "Gastrointestinal system",
+    "how": "Vomiting removes HCl and diarrhea removes HCO3-, giving the two most common gut-driven acid-base disorders."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Nonvolatile acid",
+    "def": "Acid produced by metabolism that cannot be exhaled as CO2, mainly sulfuric acid from sulfur amino acids, about 1 mEq/kg per day in adults on a typical diet."
+   },
+   {
+    "term": "Titratable acid",
+    "def": "H+ excreted bound to filtered urinary buffers, chiefly phosphate, measured by titrating urine back to plasma pH."
+   },
+   {
+    "term": "Net acid excretion",
+    "def": "Titratable acid plus ammonium minus any urinary bicarbonate; it equals the new bicarbonate the kidney adds to blood."
+   },
+   {
+    "term": "Compensation",
+    "def": "The secondary change in PaCO2 or HCO3- that moves pH back toward normal without fully correcting it."
+   },
+   {
+    "term": "Mixed disturbance",
+    "def": "Two or more primary acid-base disorders present at the same time, recognized when compensation falls outside its expected range."
+   },
+   {
+    "term": "Anion gap",
+    "def": "Plasma Na+ minus the sum of Cl- and HCO3-, an estimate of unmeasured anions, mostly albumin."
+   },
+   {
+    "term": "Renal tubular acidosis (RTA)",
+    "def": "A normal anion gap metabolic acidosis caused by a tubular defect in reclaiming HCO3- or excreting H+, with near-normal GFR."
+   },
+   {
+    "term": "Paradoxical aciduria",
+    "def": "Excretion of acidic urine during metabolic alkalosis because volume and K+ depletion drive H+ secretion."
+   },
+   {
+    "term": "Juxtaglomerular apparatus",
+    "def": "The renin-secreting granular cells of the afferent arteriole, the macula densa of the thick ascending limb, and extraglomerular mesangial cells at the vascular pole."
+   },
+   {
+    "term": "Pressure natriuresis",
+    "def": "The rise in renal Na+ and water excretion that follows a rise in arterial pressure."
+   },
+   {
+    "term": "Aldosterone escape",
+    "def": "The return of Na+ excretion to match intake despite continued aldosterone excess, which limits volume gain and prevents edema."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-RENL-07-01-C01",
+   "obj": "UR-7.1",
+   "title": "Reclaiming filtered bicarbonate and making new bicarbonate",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Metabolism adds nonvolatile acid to the body every day, about 1 mEq/kg (roughly 50 to 100 mEq in an adult). Plasma HCO3- buffers it immediately, so each H+ consumes one HCO3-. The kidney has two separate jobs: it must first reclaim essentially all the HCO3- that is filtered, and then it must make new HCO3- equal to the acid produced. Only the second job corrects an acid load."
+    },
+    {
+     "type": "h",
+     "text": "Reclamation in the proximal tubule"
+    },
+    {
+     "type": "p",
+     "text": "At a GFR of 180 L/day and a plasma HCO3- of 24 mEq/L, about 4,300 mEq of HCO3- is filtered daily. The proximal tubule reclaims about 80%, the thick ascending limb about 10 to 15%, and the distal nephron the rest, so normal urine contains almost none. Filtered HCO3- cannot cross the apical membrane directly. Instead, the Na+/H+ exchanger (NHE3), driven by the low intracellular Na+ that the basolateral Na+/K+-ATPase creates, secretes H+ into the lumen, where it reconverts HCO3- to CO2 and water."
+    },
+    {
+     "type": "flow",
+     "title": "Proximal reclamation of filtered HCO3-",
+     "steps": [
+      "NHE3 secretes H+ into the lumen in exchange for Na+",
+      "H+ combines with filtered HCO3- to form H2CO3",
+      "Brush border carbonic anhydrase forms CO2 and water",
+      "CO2 diffuses into the tubule cell",
+      "Cytosolic carbonic anhydrase re-forms H+ and HCO3-",
+      "HCO3- exits to blood with Na+; H+ is secreted again"
+     ],
+     "caption": "The secreted H+ is consumed in the lumen, so this step recovers filtered base but adds no new HCO3- and excretes no acid."
+    },
+    {
+     "type": "p",
+     "text": "Blocking carbonic anhydrase, as acetazolamide does, shows why the enzyme matters: luminal H2CO3 accumulates, H+ secretion stalls, and HCO3- with Na+ and K+ spills into the urine, producing a mild proximal acidosis."
+    },
+    {
+     "type": "h",
+     "text": "New bicarbonate: titratable acid and ammonium"
+    },
+    {
+     "type": "p",
+     "text": "New HCO3- is made whenever secreted H+ leaves in the urine on a buffer other than HCO3-. Urine pH cannot fall much below about 4.5, so free H+ carries almost nothing; buffers are essential. Filtered HPO4 2- (pKa about 6.8) accepts H+ to become H2PO4-, which is titratable acid. Its amount is fixed by the filtered phosphate load, so it cannot rise much in acidosis."
+    },
+    {
+     "type": "p",
+     "text": "Ammonium is the adaptable route. Proximal cells take up glutamine and split it into 2 NH4+ and alpha-ketoglutarate, whose metabolism yields 2 new HCO3-. NH4+ is secreted by NHE3, reabsorbed in the thick ascending limb in place of K+ on the Na+-K+-2Cl- cotransporter, and builds up in the medullary interstitium. NH3 then diffuses into the collecting duct, where H+ secreted by alpha-intercalated cells (via the H+-ATPase and H+/K+-ATPase) traps it as NH4+. The HCO3- counts as new only if NH4+ is excreted, because NH4+ returned to the liver is made into urea, a process that consumes HCO3-. Acidosis and hypokalemia stimulate ammoniagenesis; hyperkalemia suppresses it."
+    },
+    {
+     "type": "table",
+     "title": "Two renal tasks in acid-base balance",
+     "cols": [
+      "Feature",
+      "HCO3- reclamation",
+      "New HCO3- generation"
+     ],
+     "rows": [
+      [
+       "Main site",
+       "Proximal tubule",
+       "Proximal tubule (ammoniagenesis) and alpha-intercalated cells"
+      ],
+      [
+       "Fate of secreted H+",
+       "Consumed in the lumen as CO2 and water",
+       "Excreted bound to phosphate or as NH4+"
+      ],
+      [
+       "Net effect on body base",
+       "Prevents loss; adds none",
+       "Adds 1 HCO3- per H+ excreted"
+      ],
+      [
+       "Typical daily amount",
+       "About 4,300 mEq reclaimed",
+       "About 50 to 100 mEq: titratable acid about 20 to 30, NH4+ about 30 to 50"
+      ],
+      [
+       "Response to chronic acidosis",
+       "Proximal H+ secretion increases",
+       "NH4+ excretion can rise several-fold, to a few hundred mEq/day"
+      ]
+     ],
+     "caption": "Net acid excretion (titratable acid plus NH4+ minus urinary HCO3-) equals the new HCO3- returned to blood."
+    },
+    {
+     "type": "stop",
+     "predict": "In chronic metabolic acidosis, which urinary component rises the most, titratable acid or ammonium, and why?",
+     "explain": "Ammonium. Titratable acid is limited by the filtered phosphate load, while glutamine uptake and ammoniagenesis are induced by acidosis and can increase several-fold over days.",
+     "check": "The ammonium paragraph and the last row of the table."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RENL-07-01-C02",
+   "obj": "UR-7.2",
+   "title": "Interpreting arterial blood gases and compensation",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The Henderson-Hasselbalch equation, pH = 6.1 + log [HCO3- / (0.03 x PaCO2)], shows that pH depends on the ratio of HCO3- to dissolved CO2, not on either value alone. With HCO3- 24 mEq/L and PaCO2 40 mm Hg the ratio is 20 to 1 and pH is 7.40. Normal arterial values are pH 7.35 to 7.45, PaCO2 35 to 45 mm Hg, and HCO3- about 22 to 26 mEq/L."
+    },
+    {
+     "type": "p",
+     "text": "A primary metabolic disorder changes HCO3-; a primary respiratory disorder changes PaCO2. Compensation changes the other variable in the same direction, which restores the ratio partly. It is driven by the pH deviation itself, so it never fully normalizes pH and never overshoots."
+    },
+    {
+     "type": "flow",
+     "title": "Reading a blood gas",
+     "steps": [
+      "Check pH: below 7.35 acidemia, above 7.45 alkalemia",
+      "Find the variable that explains the pH change",
+      "HCO3- moved with pH: primary metabolic",
+      "PaCO2 moved opposite to pH: primary respiratory",
+      "Compare compensation with its expected range",
+      "Outside the range: a second primary disorder",
+      "In metabolic acidosis, calculate the anion gap"
+     ],
+     "caption": "Applying the steps in order prevents mistaking a compensation for a primary disorder."
+    },
+    {
+     "type": "p",
+     "text": "The lungs compensate within minutes to hours because chemoreceptors change ventilation as soon as pH changes. Winters formula predicts the PaCO2 in metabolic acidosis: 1.5 x HCO3- + 8, plus or minus 2. Respiratory compensation for metabolic alkalosis is weaker, because hypoventilation is limited by falling PaO2."
+    },
+    {
+     "type": "p",
+     "text": "Compensation for a respiratory disorder has two phases. In acute respiratory acidosis, HCO3- rises only slightly, because non-bicarbonate buffers, mainly hemoglobin and proteins, take up H+ from the hydrated CO2. Over 3 to 5 days, the high PaCO2 increases tubular H+ secretion and ammoniagenesis, the kidney adds new HCO3-, and the rise becomes about three to four times larger. The reverse occurs in respiratory alkalosis. Comparing measured HCO3- with the acute and chronic expectations therefore indicates how long a respiratory disorder has been present."
+    },
+    {
+     "type": "table",
+     "title": "Primary disorders and expected compensation",
+     "cols": [
+      "Disorder",
+      "pH",
+      "Primary change",
+      "Expected compensation"
+     ],
+     "rows": [
+      [
+       "Metabolic acidosis",
+       "Low",
+       "HCO3- down",
+       "PaCO2 = 1.5 x HCO3- + 8, plus or minus 2"
+      ],
+      [
+       "Metabolic alkalosis",
+       "High",
+       "HCO3- up",
+       "PaCO2 up about 0.7 mm Hg per 1 mEq/L rise in HCO3-"
+      ],
+      [
+       "Acute respiratory acidosis",
+       "Low",
+       "PaCO2 up",
+       "HCO3- up about 1 per 10 mm Hg rise"
+      ],
+      [
+       "Chronic respiratory acidosis",
+       "Low, nearer normal",
+       "PaCO2 up",
+       "HCO3- up about 3.5 per 10 mm Hg rise"
+      ],
+      [
+       "Acute respiratory alkalosis",
+       "High",
+       "PaCO2 down",
+       "HCO3- down about 2 per 10 mm Hg fall"
+      ],
+      [
+       "Chronic respiratory alkalosis",
+       "High, nearer normal",
+       "PaCO2 down",
+       "HCO3- down about 4 to 5 per 10 mm Hg fall"
+      ]
+     ],
+     "caption": "Values are consensus approximations; a measured value clearly outside the range indicates a second primary process."
+    },
+    {
+     "type": "p",
+     "text": "Mixed disturbances are recognized in three ways: compensation outside the expected range, PaCO2 and HCO3- moving in opposite directions (for example both acidosis types, with high PaCO2 and low HCO3-), or a normal pH with clearly abnormal PaCO2 and HCO3-. Salicylate toxicity in adults is the classic mixed respiratory alkalosis and high anion gap metabolic acidosis."
+    },
+    {
+     "type": "example",
+     "title": "A metabolic acidosis with inadequate ventilation",
+     "text": "A patient with diabetic ketoacidosis who has received a sedative has pH 7.20, PaCO2 32 mm Hg, and HCO3- 12 mEq/L. The pH is low and HCO3- is low, so the primary disorder is metabolic acidosis. Winters formula predicts PaCO2 = 1.5 x 12 + 8 = 26, range 24 to 28 mm Hg. The measured 32 is higher than expected, so ventilation is not compensating fully and a concurrent respiratory acidosis is present. Check the ratio: 0.03 x 32 = 0.96, and 12 / 0.96 = 12.5, whose log is about 1.10, so pH is about 7.20, consistent with the gas. Had PaCO2 been 20, a concurrent respiratory alkalosis would be present instead."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RENL-07-01-C03",
+   "obj": "UR-7.3",
+   "title": "The anion gap and the causes of metabolic acidosis",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Plasma is electrically neutral, but routine panels measure only some ions. The anion gap, Na+ minus (Cl- + HCO3-), estimates the unmeasured anions, mostly albumin with smaller amounts of phosphate, sulfate, and organic anions. The normal range is about 8 to 12 mEq/L, though it depends on the laboratory method. Because albumin carries most of the gap, each 1 g/dL fall in albumin below about 4 g/dL lowers the expected gap by about 2.5 mEq/L, and hypoalbuminemia can hide an added acid."
+    },
+    {
+     "type": "p",
+     "text": "The gap separates metabolic acidoses by mechanism. When an acid HA is added, its H+ is buffered by HCO3-, which falls, while its anion A- stays in plasma as an unmeasured anion, so the gap rises and Cl- stays normal. When HCO3- itself is lost from the gut or kidney, or not regenerated, the kidney retains Cl- with Na+ to keep neutrality, so Cl- rises and the gap stays normal (hyperchloremic acidosis)."
+    },
+    {
+     "type": "table",
+     "title": "High anion gap metabolic acidosis",
+     "cols": [
+      "Cause",
+      "Acid that accumulates",
+      "Mechanism and distinguishing findings"
+     ],
+     "rows": [
+      [
+       "Lactic acidosis",
+       "L-lactate",
+       "Anaerobic glycolysis in shock or hypoxia (type A) or impaired lactate clearance or mitochondrial function (type B)"
+      ],
+      [
+       "Ketoacidosis",
+       "Beta-hydroxybutyrate, acetoacetate",
+       "Low insulin with high glucagon drives hepatic fatty acid oxidation (diabetic, alcoholic, starvation)"
+      ],
+      [
+       "Uremia",
+       "Sulfate, phosphate, urate, organic anions",
+       "Retained when GFR falls very low; earlier kidney disease gives a normal gap from low NH4+ excretion"
+      ],
+      [
+       "Methanol",
+       "Formic acid",
+       "Alcohol dehydrogenase forms formaldehyde, and aldehyde dehydrogenase forms formate; formate injures the retina and optic nerve; high osmolal gap"
+      ],
+      [
+       "Ethylene glycol",
+       "Glycolic and oxalic acids",
+       "Calcium oxalate crystals in urine and tubules cause acute kidney injury; hypocalcemia; high osmolal gap"
+      ],
+      [
+       "Salicylates",
+       "Salicylic acid, lactate, ketoacids",
+       "Uncoupled oxidative phosphorylation; early direct respiratory center stimulation causes respiratory alkalosis"
+      ]
+     ],
+     "caption": "Propylene glycol, iron, and isoniazid are less common causes. The osmolal gap (measured minus calculated osmolality, normally under about 10 mOsm/kg) is high in toxic alcohol ingestion before the alcohol is fully metabolized."
+    },
+    {
+     "type": "p",
+     "text": "Normal gap acidosis has two main sources. Diarrhea removes HCO3- secreted by pancreatic and intestinal cells, along with K+, so hypokalemia is common. Renal tubular acidosis (C04) and early chronic kidney disease fail to reclaim HCO3- or to excrete NH4+. Carbonic anhydrase inhibition and large volumes of saline also produce a hyperchloremic acidosis."
+    },
+    {
+     "type": "p",
+     "text": "The urine anion gap, urine Na+ + K+ minus Cl-, distinguishes gut from renal causes. NH4+ is excreted with Cl-, so when the kidney responds appropriately to diarrhea, urine Cl- exceeds Na+ + K+ and the gap is negative. In distal and type 4 RTA, NH4+ excretion is low and the urine gap is positive."
+    },
+    {
+     "type": "p",
+     "text": "In a high gap acidosis, comparing the rise in the gap with the fall in HCO3- (the delta ratio) reveals a hidden second disorder. A rise in gap much larger than the fall in HCO3- means HCO3- was also being added, as in vomiting, whereas a fall in HCO3- much larger than the rise in gap means a normal gap acidosis coexists."
+    },
+    {
+     "type": "example",
+     "title": "A gap that rises more than HCO3- falls",
+     "text": "A patient with diabetic ketoacidosis has vomited for two days. Na+ is 136, Cl- 90, and HCO3- 16 mEq/L; albumin is normal. The anion gap is 136 - (90 + 16) = 30 mEq/L, high, so an unmeasured acid has been added. Taking 12 as the upper normal gap and 24 as normal HCO3-, the gap rose by 18 while HCO3- fell by only 8. If ketoacids alone were acting, HCO3- should have fallen by roughly the same 18, to about 6. The extra HCO3- comes from a concurrent metabolic alkalosis, which the low Cl- from vomiting supports."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RENL-07-01-C04",
+   "obj": "UR-7.4",
+   "title": "Renal tubular acidosis types 1, 2, and 4",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Renal tubular acidosis (RTA) is a normal anion gap metabolic acidosis in which the tubule fails at one of the two tasks in C01 while GFR is preserved. Asking which task failed, and where, predicts the urine pH, the plasma K+, and the associated findings."
+    },
+    {
+     "type": "h",
+     "text": "Type 1 (distal)"
+    },
+    {
+     "type": "p",
+     "text": "Alpha-intercalated cells cannot secrete enough H+, because of a defective H+-ATPase or basolateral Cl-/HCO3- exchanger, autoimmune injury (Sjogren syndrome, systemic lupus erythematosus), or back-leak of secreted H+ through a damaged membrane (amphotericin B). The collecting duct cannot lower urine pH, so urine pH stays above 5.5 even in severe acidemia, little NH3 is trapped as NH4+, and plasma HCO3- may fall very low. Hypokalemia follows because Na+ reabsorbed by principal cells is balanced by K+ secretion instead of H+, and mild volume loss raises aldosterone. Calcium phosphate stones and nephrocalcinosis have three causes: bone buffering of acid raises urinary calcium, acidosis increases proximal citrate reabsorption so urinary citrate, a calcium chelator, falls, and alkaline urine favors calcium phosphate precipitation."
+    },
+    {
+     "type": "h",
+     "text": "Type 2 (proximal)"
+    },
+    {
+     "type": "p",
+     "text": "The proximal tubule reclaims HCO3- poorly, lowering the plasma level at which HCO3- appears in urine. HCO3- is wasted until plasma HCO3- falls to that new threshold, often about 15 to 20 mEq/L, after which the filtered load is small enough to be reclaimed and the intact distal nephron acidifies urine below 5.5. The acidosis is therefore self-limited. Hypokalemia results from high delivery of Na+ and HCO3- to the distal nephron together with aldosterone from volume loss. The defect may be isolated (carbonic anhydrase inhibitors) or part of Fanconi syndrome, generalized proximal failure that also wastes glucose, amino acids, phosphate, and urate. Causes include light chains in multiple myeloma, cystinosis, Wilson disease, lead, and some drugs such as tenofovir and ifosfamide. Phosphate loss causes rickets or osteomalacia, while citrate excretion is preserved, so stones are uncommon."
+    },
+    {
+     "type": "h",
+     "text": "Type 4 (hyperkalemic)"
+    },
+    {
+     "type": "p",
+     "text": "Aldosterone deficiency or resistance reduces Na+ reabsorption and K+ secretion, so K+ rises. Hyperkalemia suppresses proximal ammoniagenesis, and less aldosterone means less H+-ATPase activity, so NH4+ excretion falls. The cells can still acidify urine below 5.5, but there is little buffer to carry acid. The classic setting is hyporeninemic hypoaldosteronism in diabetic nephropathy; adrenal insufficiency and drugs that block the renin-angiotensin system, the mineralocorticoid receptor, or ENaC (for example spironolactone at the receptor and trimethoprim at ENaC) produce the same physiology. The acidosis is usually mild."
+    },
+    {
+     "type": "table",
+     "title": "Comparing the renal tubular acidoses",
+     "cols": [
+      "Feature",
+      "Type 1 (distal)",
+      "Type 2 (proximal)",
+      "Type 4"
+     ],
+     "rows": [
+      [
+       "Defect",
+       "Distal H+ secretion",
+       "Proximal HCO3- reclamation",
+       "Aldosterone deficiency or resistance"
+      ],
+      [
+       "Urine pH in acidemia",
+       "Above 5.5",
+       "Below 5.5 once HCO3- is low; high during wasting",
+       "Usually below 5.5"
+      ],
+      [
+       "Plasma K+",
+       "Low",
+       "Low",
+       "High"
+      ],
+      [
+       "Plasma HCO3-",
+       "Can be below 10 mEq/L",
+       "Often about 15 to 20 mEq/L",
+       "Often above 17 mEq/L"
+      ],
+      [
+       "Urine anion gap",
+       "Positive",
+       "Variable",
+       "Positive"
+      ],
+      [
+       "Associations",
+       "Calcium phosphate stones, nephrocalcinosis, autoimmune disease, amphotericin B",
+       "Fanconi syndrome, myeloma, rickets or osteomalacia",
+       "Diabetic nephropathy, adrenal insufficiency, drugs blocking aldosterone"
+      ]
+     ],
+     "caption": "Types 1 and 2 cause hypokalemia; type 4 is the RTA with hyperkalemia. Type 3, a rare mixed form from carbonic anhydrase II deficiency with osteopetrosis, is omitted."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RENL-07-01-C05",
+   "obj": "UR-7.5",
+   "title": "Vomiting and hypochloremic metabolic alkalosis",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Metabolic alkalosis needs two processes: one that generates extra HCO3- and one that stops the kidney from excreting it. Normally the kidney can excrete a large HCO3- load quickly, so persistent alkalosis always means the kidney is being forced to reclaim HCO3-."
+    },
+    {
+     "type": "p",
+     "text": "Generation in vomiting begins in the parietal cell. Each H+ secreted into the stomach is matched by one HCO3- released to blood (the alkaline tide). Normally pancreatic HCO3- later neutralizes that acid in the duodenum, so the net effect is zero. Vomiting removes the HCl, so the matching HCO3- stays in blood and Cl- is lost."
+    },
+    {
+     "type": "p",
+     "text": "Maintenance comes from the kidney's response to the losses. Volume depletion lowers GFR, which lowers the filtered HCO3- load, and raises angiotensin II, which stimulates proximal Na+/H+ exchange. Aldosterone increases Na+ reabsorption through ENaC in principal cells, making the lumen more negative and favoring K+ secretion, and also stimulates the H+-ATPase of alpha-intercalated cells. Chloride depletion matters independently: beta-intercalated cells excrete HCO3- through the apical Cl-/HCO3- exchanger pendrin, which needs luminal Cl-. Hypokalemia adds further: H+ shifts into cells, and H+/K+-ATPase activity and ammoniagenesis rise."
+    },
+    {
+     "type": "flow",
+     "title": "From vomiting to maintained alkalosis",
+     "steps": [
+      "Vomiting removes HCl, Na+, and water",
+      "Parietal cell HCO3- stays in blood",
+      "Volume loss raises angiotensin II and aldosterone",
+      "Low luminal Cl- blocks distal HCO3- secretion",
+      "Kidney reclaims HCO3-; secretes K+ and H+",
+      "Hypochloremic, hypokalemic alkalosis with acidic urine"
+     ],
+     "caption": "Generation is in the stomach; maintenance is in the kidney."
+    },
+    {
+     "type": "p",
+     "text": "Most K+ is lost in urine, not vomitus, because gastric fluid contains only about 5 to 10 mEq/L of K+. Early on, filtered HCO3- exceeds what the tubule can reclaim, so some HCO3- reaches the urine with Na+ and K+, and urine pH is alkaline. As volume depletion deepens, the kidney reclaims all filtered HCO3- and secretes H+ to save Na+, so urine becomes acidic despite alkalemia, the paradoxical aciduria. Throughout, urine Cl- is low (often below about 20 mEq/L), which marks a chloride-responsive alkalosis. The ventilatory response is hypoventilation, raising PaCO2 about 0.7 mm Hg per 1 mEq/L rise in HCO3-."
+    },
+    {
+     "type": "p",
+     "text": "Urine Cl- separates this pattern from mineralocorticoid excess (C07) and ongoing diuretic use, in which urine Cl- is high because Cl- is not being conserved."
+    },
+    {
+     "type": "stop",
+     "predict": "In a patient who has been vomiting for several days, why would the urine pH be acidic despite a plasma pH of 7.52?",
+     "explain": "Volume depletion and aldosterone make Na+ retention the kidney's priority. Proximal Na+/H+ exchange and distal Na+ reabsorption require H+ and K+ secretion, low luminal Cl- blocks HCO3- excretion, and hypokalemia further stimulates H+ secretion.",
+     "check": "The maintenance paragraph and the flow."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RENL-07-01-C06",
+   "obj": "UR-7.6",
+   "title": "The renin-angiotensin-aldosterone system and atrial natriuretic peptide",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Renin release is the rate-limiting step of the system. Renin is stored in granular juxtaglomerular cells, modified smooth muscle in the wall of the afferent arteriole. Three inputs release it, and each signals low effective circulating volume. First, falling perfusion pressure reduces stretch of the afferent arteriole, which the juxtaglomerular cells sense directly. Second, the macula densa, specialized cells at the end of the thick ascending limb, senses less NaCl through its Na+-K+-2Cl- cotransporter and signals renin release through prostaglandin E2 and nitric oxide; high NaCl does the reverse through adenosine, which also constricts the afferent arteriole (tubuloglomerular feedback). Third, renal sympathetic nerves act on beta-1 receptors, raising cAMP in juxtaglomerular cells."
+    },
+    {
+     "type": "flow",
+     "title": "Renin, angiotensin, and aldosterone",
+     "steps": [
+      "Low perfusion, low macula densa NaCl, or beta-1 input",
+      "Juxtaglomerular cells release renin",
+      "Renin cleaves liver angiotensinogen to angiotensin I",
+      "ACE, mainly in lung endothelium, forms angiotensin II",
+      "Angiotensin II acts on AT1 receptors",
+      "Aldosterone and ADH release; thirst",
+      "Na+ and water retention restore volume and pressure"
+     ],
+     "caption": "Angiotensin II also inhibits renin release, a short negative feedback loop."
+    },
+    {
+     "type": "p",
+     "text": "Angiotensin II, acting on Gq-coupled AT1 receptors, restores volume and pressure in several ways. It constricts systemic arterioles. In the kidney it constricts the efferent arteriole more than the afferent at physiological levels, which supports GFR when perfusion is low and raises filtration fraction; the resulting lower hydrostatic and higher oncotic pressure in peritubular capillaries increases proximal reabsorption. It also stimulates NHE3 directly, which is why volume depletion favors HCO3- reclamation (C05). It stimulates aldosterone from the zona glomerulosa, ADH from the posterior pituitary, thirst, and sympathetic transmission. ACE also inactivates bradykinin."
+    },
+    {
+     "type": "p",
+     "text": "Aldosterone, released in response to angiotensin II and to high plasma K+, binds cytosolic mineralocorticoid receptors in principal cells and increases ENaC, ROMK K+ channels, and Na+/K+-ATPase. Na+ reabsorption makes the lumen negative, which drives K+ secretion from principal cells and supports H+ secretion from alpha-intercalated cells."
+    },
+    {
+     "type": "p",
+     "text": "Atrial natriuretic peptide (ANP) is released by atrial myocytes when they are stretched by high volume and acts through a guanylyl cyclase receptor that raises cGMP. Its actions oppose those of angiotensin II at nearly every level, but it is weaker, so it limits volume expansion rather than driving large changes. Brain natriuretic peptide, released mainly by ventricular myocytes, acts similarly."
+    },
+    {
+     "type": "table",
+     "title": "Opposing actions of angiotensin II and ANP",
+     "cols": [
+      "Target",
+      "Angiotensin II",
+      "ANP"
+     ],
+     "rows": [
+      [
+       "Stimulus",
+       "Low volume or pressure",
+       "Atrial stretch from high volume"
+      ],
+      [
+       "Receptor and messenger",
+       "AT1, Gq, IP3 and Ca2+",
+       "Guanylyl cyclase receptor, cGMP"
+      ],
+      [
+       "Arterioles",
+       "Constriction",
+       "Dilation"
+      ],
+      [
+       "GFR",
+       "Preserved by efferent constriction",
+       "Raised by afferent dilation and efferent constriction"
+      ],
+      [
+       "Tubular Na+",
+       "More proximal reabsorption; aldosterone increases distal reabsorption",
+       "Less collecting duct reabsorption"
+      ],
+      [
+       "Renin and aldosterone",
+       "Aldosterone stimulated; renin inhibited by feedback",
+       "Both inhibited"
+      ],
+      [
+       "ADH and thirst",
+       "Stimulated",
+       "Inhibited"
+      ]
+     ],
+     "caption": "Angiotensin II conserves salt and water; ANP promotes natriuresis and diuresis."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-RENL-07-01-C07",
+   "obj": "UR-7.7",
+   "title": "Pressure natriuresis and primary hyperaldosteronism",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Baroreceptor reflexes correct pressure within seconds but reset to a new level within one to two days, so they cannot set long-term pressure. The kidney can. When arterial pressure rises, Na+ and water excretion rise (pressure natriuresis and pressure diuresis). Higher pressure is transmitted to peritubular capillaries and the renal interstitium, which reduces proximal reabsorption and moves NHE3 and other transporters away from the brush border; medullary blood flow rises and reduces the medullary gradient; and renin and angiotensin II fall."
+    },
+    {
+     "type": "cycle",
+     "title": "Pressure natriuresis as long-term feedback",
+     "steps": [
+      "Arterial pressure rises above the set point",
+      "Renal Na+ and water excretion exceed intake",
+      "ECF and blood volume fall",
+      "Venous return and cardiac output fall",
+      "Arterial pressure returns toward the set point"
+     ],
+     "caption": "Excretion exceeds intake until pressure returns to the level where they are equal."
+    },
+    {
+     "type": "p",
+     "text": "The long-term pressure therefore sits where the renal output curve, plotting Na+ excretion against pressure, crosses the line of salt intake. Because the kidney keeps adjusting until output equals intake, this feedback returns pressure fully to that point, unlike reflexes. It follows that sustained hypertension requires the renal output curve to shift toward higher pressures, so that balance is reached only at a higher pressure. Anything that increases tubular Na+ reabsorption or reduces nephron function produces that shift, and if the renin-angiotensin system cannot be suppressed, pressure becomes salt sensitive."
+    },
+    {
+     "type": "h",
+     "text": "Primary hyperaldosteronism"
+    },
+    {
+     "type": "p",
+     "text": "In primary hyperaldosteronism, the adrenal cortex secretes aldosterone autonomously, from an aldosterone-producing adenoma (Conn syndrome) or bilateral zona glomerulosa hyperplasia. Excess ENaC activity retains Na+ and shifts the renal output curve, so pressure rises. The expanded volume and high pressure suppress renin, so the hallmark is high aldosterone with low renin. The same lumen-negative potential drives K+ secretion, causing hypokalemia with weakness and polyuria from impaired concentrating ability, and H+ secretion plus hypokalemia-driven ammoniagenesis generate metabolic alkalosis with high urine Cl-. Plasma Na+ is normal to high-normal."
+    },
+    {
+     "type": "p",
+     "text": "Edema does not develop. After a modest rise in extracellular volume, higher pressure and ANP raise Na+ delivery beyond the aldosterone-sensitive segment until excretion again matches intake (aldosterone escape), yet K+ wasting continues because distal Na+ delivery remains high."
+    },
+    {
+     "type": "table",
+     "title": "Hypertension with hypokalemia: renin and aldosterone patterns",
+     "cols": [
+      "Condition",
+      "Mechanism",
+      "Renin",
+      "Aldosterone"
+     ],
+     "rows": [
+      [
+       "Primary hyperaldosteronism",
+       "Autonomous adrenal aldosterone",
+       "Low",
+       "High"
+      ],
+      [
+       "Renovascular hypertension",
+       "Renal artery stenosis lowers perfusion, releasing renin",
+       "High",
+       "High"
+      ],
+      [
+       "Liddle syndrome",
+       "Gain-of-function ENaC mutation",
+       "Low",
+       "Low"
+      ],
+      [
+       "Apparent mineralocorticoid excess or licorice",
+       "Deficient or inhibited 11-beta-hydroxysteroid dehydrogenase type 2 lets cortisol activate mineralocorticoid receptors",
+       "Low",
+       "Low"
+      ]
+     ],
+     "caption": "Measuring renin and aldosterone together locates the source of mineralocorticoid activity."
+    },
+    {
+     "type": "stop",
+     "predict": "A patient with an aldosterone-producing adenoma has gained only a modest amount of extracellular fluid. Why does volume stop rising while K+ loss continues?",
+     "explain": "The rise in pressure and ANP increases Na+ excretion through pressure natriuresis until output equals intake. More Na+ then reaches the collecting duct, where aldosterone still drives Na+ reabsorption in exchange for K+ secretion.",
+     "check": "The pressure natriuresis cycle and the aldosterone escape paragraph."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Acid-base and blood pressure control share one set of renal transporters, which is why their disorders travel together. Angiotensin II drives proximal Na+/H+ exchange, and aldosterone couples distal Na+ reabsorption to K+ and H+ secretion, so states of high aldosterone produce hypokalemic alkalosis and states of low aldosterone produce hyperkalemic acidosis. Biochemistry supplies the acids (lactate from anaerobic glycolysis, ketoacids from unopposed fatty acid oxidation, formate and oxalate from alcohol dehydrogenase metabolism) and the buffer, ammonium from glutamine. The lungs and kidneys share compensation, on a time scale of hours for one and days for the other."
+  },
+  {
+   "type": "p",
+   "text": "Pathology places these ideas in disease: autoimmune injury to intercalated cells, light chain injury to proximal cells in myeloma, diabetic nephropathy with hyporeninemic hypoaldosteronism, and adrenal adenomas. The formulas in this chapter are approximations, and a lab value must be read in its clinical setting. A normal pH or a normal anion gap does not exclude a disorder; hypoalbuminemia and mixed disturbances can hide one."
+  }
+ ],
+ "summary": [
+  "The proximal tubule reclaims about 80% of filtered HCO3- through NHE3 and carbonic anhydrase, but reclamation adds no new base.",
+  "New HCO3- is made only when H+ is excreted as titratable acid (mainly phosphate) or as NH4+ from glutamine; ammonium is the adaptable route.",
+  "pH depends on the HCO3- to PaCO2 ratio; compensation moves the second variable in the same direction but never fully corrects pH.",
+  "Winters formula (PaCO2 = 1.5 x HCO3- + 8, plus or minus 2) tests respiratory compensation; chronic renal compensation is several times larger than acute.",
+  "Anion gap = Na+ - (Cl- + HCO3-); an added acid raises it, while HCO3- loss from gut or kidney gives a normal gap, hyperchloremic acidosis.",
+  "Type 1 RTA: distal H+ secretion fails, urine pH above 5.5, hypokalemia, calcium phosphate stones. Type 2: proximal HCO3- wasting, hypokalemia, often Fanconi. Type 4: hypoaldosteronism, hyperkalemia, low NH4+.",
+  "Vomiting generates alkalosis by removing HCl; volume, Cl-, and K+ depletion maintain it, with low urine Cl- and paradoxical aciduria.",
+  "Renin release responds to low afferent arteriolar pressure, low macula densa NaCl, and beta-1 input; angiotensin II and aldosterone retain Na+, and ANP opposes them.",
+  "Pressure natriuresis sets long-term arterial pressure; hypertension requires the renal output curve to shift to higher pressures.",
+  "Primary hyperaldosteronism: hypertension, hypokalemia, metabolic alkalosis, high aldosterone, low renin, and no edema because of aldosterone escape."
+ ],
+ "sources": [
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Acid-Base Regulation"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Role of the kidneys in long-term control of arterial pressure and hypertension"
+  },
+  {
+   "book": "Boron and Boulpaep Medical Physiology",
+   "where": "Renal transport of acids and bases; integration of salt and water balance"
+  },
+  {
+   "book": "Lippincott Illustrated Reviews: Biochemistry",
+   "where": "Disposal of nitrogen: glutamine and ammonia metabolism"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "The Kidney; The Endocrine System, adrenal cortex"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Renal disease; disorders of the adrenal cortex"
+  }
+ ],
+ "verify": [
+  "Normal arterial HCO3- is given as 22 to 26 mEq/L here; some sources use 22 to 28 (serum total CO2). Confirm the range NABNE uses.",
+  "The normal anion gap varies with analyzer (older references 8 to 16, current ion-selective methods about 3 to 11). This chapter uses about 8 to 12; confirm the NABNE reference.",
+  "Compensation coefficients (chronic respiratory acidosis 3.5 versus 4 per 10 mm Hg; chronic respiratory alkalosis 4 to 5 per 10) differ slightly between sources.",
+  "Daily titratable acid and ammonium amounts, and the maximal ammonium excretion in chronic acidosis, vary among physiology texts; values here are approximate.",
+  "Delta ratio cutoffs are taught differently (some use below 1 and above 2); the chapter states the principle without fixed cutoffs.",
+  "The urine Cl- threshold for chloride-responsive alkalosis is given as 10, 20, or 25 mEq/L in different sources.",
+  "Recent series find that most patients with primary hyperaldosteronism are normokalemic and that bilateral hyperplasia is more common than adenoma; confirm whether NABNE still expects hypokalemia as a defining feature.",
+  "Confirm whether NABNE expects the eponym Conn syndrome and the exam mnemonics for anion gap causes (not used here).",
+  "Requested new diagram names for a future revision: proximal-hco3-cell (proximal tubule cell with NHE3, carbonic anhydrase, and basolateral HCO3- exit) and renal-function-curve (Na+ output versus arterial pressure crossed by the intake line)."
+ ]
+}

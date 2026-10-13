@@ -155,9 +155,9 @@
     },
     {
      "type": "stop",
-     "predict": "A patient on methotrexate eats a folate-rich diet. Will thymidylate synthesis recover?",
-     "explain": "No. Thymidylate synthase converts THF to DHF with every dTMP it makes, and only DHFR can regenerate THF. With DHFR blocked, dietary folic acid also cannot be reduced, so the folate pool collapses into DHF.",
-     "check": "The thymidylate synthase paragraph and the folate cycle."
+     "predict": "A patient on methotrexate takes high-dose folic acid supplements. Will thymidylate synthesis recover?",
+     "explain": "No. Folic acid is the oxidized form and needs DHFR to become THF, and thymidylate synthase turns THF into DHF with every dTMP it makes. With DHFR blocked, neither supplement nor recycled folate can be reduced, so the folate pool collapses into DHF.",
+     "check": "The first two paragraphs and the folate cycle."
     }
    ]
   },
@@ -259,7 +259,7 @@
     {
      "type": "example",
      "title": "Reading pregnancy iron studies",
-     "text": "At 26 weeks, hemoglobin is 10.4 g/dL, MCV 88 fL, ferritin 9 ng/mL, transferrin saturation 10%, and TIBC high. The normal MCV first suggests dilution, but ferritin of 9 ng/mL means stores are empty. MCV has not yet fallen because microcytes are only beginning to enter a circulation of older normocytic cells, and the normal pregnancy rise in MCV masks the change. The high TIBC adds nothing, since estrogen raises it in all pregnancies. The diagnosis is early iron deficiency. If ferritin had been 60 ng/mL with the same hemoglobin and MCV, the picture would fit dilution. A low MCV with normal ferritin would point instead to thalassemia trait."
+     "text": "At 26 weeks, hemoglobin is 10.4 g/dL, MCV 88 fL, ferritin 9 ng/mL, transferrin saturation 10%, and TIBC high. The normal MCV first suggests dilution, but ferritin of 9 ng/mL means stores are empty. MCV has not yet fallen because microcytes are only beginning to enter a circulation of older normocytic cells, and the normal pregnancy rise in MCV masks the change. The high TIBC adds nothing, since estrogen raises it in all pregnancies. The diagnosis is early iron deficiency. If ferritin had been 60 ng/mL with the same hemoglobin and MCV, the picture would fit dilution. A low MCV with normal ferritin would point instead to another cause, such as thalassemia trait."
     }
    ]
   },
@@ -270,7 +270,7 @@
    "blocks": [
     {
      "type": "p",
-     "text": "Lactose (galactose beta-1,4 glucose) is made in the Golgi lumen of mammary alveolar cells. Glucose enters the cell through GLUT1, and part of it is converted to UDP-glucose and then, by UDP-galactose 4-epimerase, to UDP-galactose, so the gland makes its own galactose and does not need dietary galactose. Both substrates move into the Golgi."
+     "text": "Lactose (galactose beta-1,4 glucose) is made in the Golgi lumen of mammary alveolar cells. Glucose enters the cell through GLUT1, and part of it is converted to UDP-glucose and then, by UDP-galactose 4-epimerase, to UDP-galactose, so the gland needs no dietary galactose. Both substrates move into the Golgi."
     },
     {
      "type": "p",
@@ -278,7 +278,7 @@
     },
     {
      "type": "p",
-     "text": "Lactose cannot cross the Golgi or secretory vesicle membranes, so it holds water osmotically inside the vesicles. Lactose is the main osmole of milk and sets milk volume: water follows it, so milk stays isosmotic with plasma and lactose concentration changes little as volume rises or falls."
+     "text": "Lactose cannot cross the Golgi or secretory vesicle membranes, so it holds water osmotically inside the vesicles. Lactose is therefore the main osmole of milk and sets its volume, so milk stays isosmotic with plasma and lactose concentration changes little as volume rises or falls."
     },
     {
      "type": "table",
@@ -344,7 +344,7 @@
    "blocks": [
     {
      "type": "p",
-     "text": "Glucose is the main fuel of the fetus, which makes little of its own. It crosses the syncytiotrophoblast by facilitated diffusion through GLUT1 on both the maternal-facing microvillous membrane and the fetal-facing basal membrane. The process is carrier-mediated and saturable but needs no energy, so the flux depends on the concentration gradient, and fetal glucose runs at about 70 to 80% of maternal glucose. Whatever the mother's glucose does, the fetus's follows. Maternal insulin, a peptide hormone with no transport route across the placenta, stays on the maternal side."
+     "text": "Glucose is the main fuel of the fetus, which makes little of its own. It crosses the syncytiotrophoblast by facilitated diffusion through GLUT1 on both the maternal-facing microvillous membrane and the fetal-facing basal membrane. The process is carrier-mediated and saturable but needs no energy, so the flux depends on the concentration gradient, and fetal glucose runs at about 70 to 80% of maternal glucose. Maternal insulin, a peptide hormone with no transport route across the placenta, stays on the maternal side."
     },
     {
      "type": "p",
@@ -431,7 +431,7 @@
        "Isotretinoin or high-dose preformed vitamin A in early pregnancy"
       ]
      ],
-     "caption": "Beta-carotene is not teratogenic because its conversion to retinol is regulated."
+     "caption": "Zinc deficiency removes function; retinoid excess adds signaling at the wrong time and place."
     },
     {
      "type": "p",
@@ -450,7 +450,7 @@
     },
     {
      "type": "p",
-     "text": "Leptin is the main signal. Adipocytes secrete it in proportion to fat mass, and it also drops quickly with an acute energy deficit. GnRH neurons lack leptin receptors, so leptin acts through arcuate nucleus neurons, including kisspeptin neurons that stimulate GnRH release. Low leptin, together with high ghrelin, raised cortisol (CRH inhibits GnRH), low insulin and IGF-1, and low T3, slows GnRH pulse frequency and amplitude. People with congenital leptin deficiency have hypogonadotropic hypogonadism that leptin replacement reverses, which shows the signal is necessary."
+     "text": "Leptin is the main signal. Adipocytes secrete it in proportion to fat mass, and it also drops quickly with an acute energy deficit. GnRH neurons lack leptin receptors, so leptin acts on upstream hypothalamic neurons, largely in the arcuate nucleus, that in turn regulate the kisspeptin neurons driving GnRH release. Low leptin, together with high ghrelin, raised cortisol (CRH inhibits GnRH), low insulin and IGF-1, and low T3, slows GnRH pulse frequency and amplitude. People with congenital leptin deficiency have hypogonadotropic hypogonadism that leptin replacement reverses, which shows the signal is necessary."
     },
     {
      "type": "flow",
@@ -498,7 +498,7 @@
       ],
       [
        "Primary ovarian insufficiency",
-       "High FSH",
+       "High, FSH especially",
        "Low",
        "Ovary fails to respond"
       ],
@@ -520,7 +520,7 @@
    "blocks": [
     {
      "type": "p",
-     "text": "Steroid-producing cells store very little hormone, so output depends on how fast cholesterol reaches the first enzyme. Gonads and placenta can make cholesterol from acetyl-CoA through HMG-CoA reductase, but in humans most of their substrate comes from circulating LDL. LDL binds the LDL receptor through apolipoprotein B-100, enters by clathrin-mediated endocytosis, and is delivered to lysosomes, where acid lipase frees cholesterol. HDL cholesterol taken up through scavenger receptor B1 contributes, especially in the corpus luteum. Cholesterol not used at once is stored as cholesteryl ester in lipid droplets and released by a hormone-sensitive cholesteryl ester hydrolase."
+     "text": "Steroid-producing cells store very little hormone, so output depends on how fast cholesterol reaches the first enzyme. Gonads and placenta can make cholesterol from acetyl-CoA through HMG-CoA reductase, but in humans most of their substrate comes from circulating LDL. LDL binds the LDL receptor through apolipoprotein B-100, enters by clathrin-mediated endocytosis, and is delivered to lysosomes, where acid lipase frees cholesterol. HDL cholesterol taken up through scavenger receptor B1 contributes a smaller share. Cholesterol not used at once is stored as cholesteryl ester in lipid droplets and released by a hormone-sensitive cholesteryl ester hydrolase."
     },
     {
      "type": "flow",
@@ -565,13 +565,13 @@
       ],
       [
        "Corpus luteum",
-       "LDL and HDL after vessels invade",
+       "Mainly LDL, available once vessels invade",
        "Progesterone and estradiol"
       ],
       [
        "Placenta",
        "Maternal LDL",
-       "Progesterone; estriol only with fetal DHEA-S"
+       "Progesterone; estrogens only from fetal (and maternal) DHEA-S"
       ]
      ],
      "caption": "Access to blood-borne LDL explains why granulosa cells make large amounts of progesterone only after luteinization."
@@ -596,7 +596,7 @@
  "integration": [
   {
    "type": "p",
-   "text": "Each nutrient in this chapter acts through a mechanism taught in another discipline. Folate and iron are biochemistry and hematology applied to pregnancy, and the same thymidylate and heme pathways explain megaloblastic and microcytic anemia anywhere. Folate and retinoic acid act at defined windows of embryology, neurulation in weeks 3 and 4 and neural crest migration during organogenesis, so the defects they cause are predictable from timing. Glucose transfer and fetal insulin connect placental physiology to endocrine pathology, and secretory IgA in milk links lactation to mucosal immunology."
+   "text": "Each nutrient in this chapter acts through a mechanism taught in another discipline. Folate and iron are biochemistry and hematology applied to pregnancy. Folate and retinoic acid act at defined windows of embryology, neurulation in weeks 3 and 4 and neural crest migration during organogenesis, so the defects they cause are predictable from timing. Glucose transfer and fetal insulin connect placental physiology to endocrine pathology, and secretory IgA in milk links lactation to mucosal immunology."
   },
   {
    "type": "p",
@@ -604,7 +604,7 @@
   }
  ],
  "summary": [
-  "Folate, reduced by DHFR to THF, supplies the methyl for dTMP and carbons 2 and 8 of purines; thymidylate synthase oxidizes folate to DHF each time it acts.",
+  "Folate, reduced by DHFR to THF, supplies the one-carbon unit for dTMP and carbons 2 and 8 of purines; thymidylate synthase oxidizes folate to DHF each time it acts.",
   "Thymidylate shortage causes uracil misincorporation and strand breaks in dividing cells, and the neural tube must close by about day 28, so folate must be adequate at conception.",
   "Pregnancy needs about 1 g of extra iron; plasma volume rises about 40 to 50% and red cell mass about 20 to 30%, causing dilutional anemia.",
   "Ferritin separates iron deficiency (low) from dilution (normal); TIBC rises in all pregnancies, and MCV falls only after stores are gone.",
@@ -638,7 +638,7 @@
   },
   {
    "book": "Lange Pathophysiology of Disease",
-   "where": "Disorders of the female reproductive tract; disorders of pregnancy"
+   "where": "Disorders of the Female Reproductive Tract; Disorders of the Endocrine Pancreas"
   }
  ],
  "verify": [
