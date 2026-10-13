@@ -42,3 +42,7 @@ You add verified YouTube videos to study units that have an empty "videos" list.
 ## Ninja Nerd top-up (immunology and pathology)
 - Ninja Nerd has strong immunology and pathology lectures (for example its Immunology series, hepatitis, and Clinical Medicine disease lectures). For each assigned unit that has no Ninja Nerd video, search for the matching Ninja Nerd lecture and add 1 or 2 if they meet the quality bar and are verified by oEmbed. Keep the unit at 5 videos or fewer; do not remove good existing videos.
 - Up to 2 searches per unit. Also fill any assigned unit whose list is empty.
+
+## Fourth pass (last 8 empty units)
+- For units still empty after all earlier passes, other reputable medical education channels are allowed, for example JJ Medicine, Medscape, Lecturio Medical, Physeo, Dirty Medicine, MedCram, Zero to Finals, AMBOSS, or a university medical school channel. Set "channel" to the exact oEmbed author_name.
+- Still apply the Quality bar: full teaching videos only, no question-bank promos, no quiz videos, no Shorts.
