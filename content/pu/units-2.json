@@ -1,0 +1,1677 @@
+[
+  {
+    "id": "PU-8",
+    "summary": "How the blood carries oxygen and carbon dioxide, what shifts the oxyhemoglobin curve, and how to read a blood gas when breathing is the problem. Exam cases turn on O2 content math, carbon monoxide and methemoglobin traps, and judging whether renal compensation is the expected amount.",
+    "notes": [
+      {
+        "h": "Oxygen content",
+        "points": [
+          "CaO2 = (1.34 x Hb x SaO2) + (0.003 x PaO2), in mL O2 per dL of blood.",
+          "Normal: Hb 15 g/dL, SaO2 0.98, PaO2 95 mmHg gives about 20 mL O2/dL; dissolved O2 adds only about 0.3 of that.",
+          "PaO2 is the pressure of dissolved O2; it sets SaO2 but says nothing about how much hemoglobin there is.",
+          "Anemia: PaO2 and SaO2 normal, content low (Hb 7.5 g/dL halves content to about 10 mL/dL).",
+          "Polycythemia: PaO2 and SaO2 normal, content high.",
+          "O2 delivery = cardiac output x CaO2, so low content can be partly offset by a higher cardiac output."
+        ]
+      },
+      {
+        "h": "The dissociation curve",
+        "points": [
+          "Sigmoid shape comes from cooperative binding: each O2 that binds makes the next bind more easily.",
+          "T (tense) state is deoxyhemoglobin with low O2 affinity; R (relaxed) state is oxyhemoglobin with high affinity.",
+          "P50 (PO2 at 50 percent saturation) is about 27 mmHg; a right shift raises P50, a left shift lowers it.",
+          "Right shift (easier unloading): more H+ (lower pH), more CO2, higher temperature, more 2,3-BPG, exercise.",
+          "Left shift (tighter binding): fetal hemoglobin, carbon monoxide, methemoglobin, alkalosis, low temperature, low 2,3-BPG.",
+          "The flat top keeps saturation near 90 percent until PaO2 drops below about 60 mmHg; the steep part sits at tissue PO2 levels."
+        ]
+      },
+      {
+        "h": "Carbon dioxide transport",
+        "points": [
+          "About 70 percent travels as bicarbonate, about 20 to 25 percent as carbaminohemoglobin, and about 5 to 10 percent dissolved.",
+          "In red cells, carbonic anhydrase makes CO2 + H2O into H2CO3, which splits into H+ and HCO3-.",
+          "HCO3- leaves the red cell in exchange for Cl- through band 3 (the chloride shift); the reverse happens in the lungs.",
+          "H+ is buffered by deoxyhemoglobin, which is a better buffer than oxyhemoglobin."
+        ]
+      },
+      {
+        "h": "Bohr and Haldane effects",
+        "points": [
+          "Bohr effect (tissues): high CO2 and H+ lower hemoglobin O2 affinity, so O2 unloads where metabolism is high.",
+          "Haldane effect (lungs): oxygenation of hemoglobin lowers its affinity for CO2 and H+, so CO2 is released into the alveoli.",
+          "In tissues the two work together: unloading O2 makes deoxyhemoglobin, which picks up more CO2 and H+."
+        ]
+      },
+      {
+        "h": "Carbon monoxide and methemoglobin",
+        "points": [
+          "CO binds hemoglobin with about 200 times the affinity of O2, takes up binding sites, and shifts the curve left.",
+          "In CO poisoning PaO2 is normal (dissolved O2 is unaffected), true SaO2 and content are low, and standard pulse oximetry reads falsely normal.",
+          "Methemoglobin has ferric (Fe3+) iron that cannot carry O2, and it left-shifts the remaining ferrous hemes.",
+          "Methemoglobinemia gives chocolate-colored blood and cyanosis that does not improve with O2; pulse oximetry tends to read about 85 percent.",
+          "Common causes of methemoglobinemia: nitrites, dapsone, benzocaine and other topical anesthetics.",
+          "Co-oximetry measures carboxyhemoglobin and methemoglobin directly and is the test that settles both."
+        ]
+      },
+      {
+        "h": "Respiratory acid-base",
+        "points": [
+          "Normal: pH 7.35 to 7.45, PaCO2 35 to 45 mmHg, HCO3- 22 to 26 mEq/L.",
+          "Respiratory acidosis (hypoventilation): HCO3- rises about 1 mEq/L per 10 mmHg PaCO2 acutely and 3 to 4 mEq/L chronically.",
+          "Respiratory alkalosis (hyperventilation): HCO3- falls about 2 mEq/L per 10 mmHg acutely and 4 to 5 mEq/L chronically.",
+          "Renal compensation takes 3 to 5 days, which is why acute and chronic values differ.",
+          "If the measured HCO3- is clearly off the expected value, a second (metabolic) disorder is present."
+        ]
+      }
+    ],
+    "charts": [
+      {
+        "title": "What happens to the oxygen numbers",
+        "cols": [
+          "Condition",
+          "PaO2",
+          "True SaO2",
+          "Pulse oximeter reading",
+          "O2 content"
+        ],
+        "rows": [
+          [
+            "Anemia",
+            "Normal",
+            "Normal",
+            "Normal",
+            "Low"
+          ],
+          [
+            "Polycythemia",
+            "Normal",
+            "Normal",
+            "Normal",
+            "High"
+          ],
+          [
+            "Carbon monoxide poisoning",
+            "Normal",
+            "Low",
+            "Falsely normal",
+            "Low"
+          ],
+          [
+            "Methemoglobinemia",
+            "Normal",
+            "Low",
+            "About 85 percent",
+            "Low"
+          ],
+          [
+            "Hypoventilation or high altitude",
+            "Low",
+            "Low",
+            "Low",
+            "Low"
+          ]
+        ]
+      },
+      {
+        "title": "Expected compensation in respiratory disorders",
+        "cols": [
+          "Disorder",
+          "Change in HCO3- per 10 mmHg change in PaCO2",
+          "Worked example",
+          "pH in the example"
+        ],
+        "rows": [
+          [
+            "Acute respiratory acidosis",
+            "Up about 1 mEq/L",
+            "PaCO2 60 mmHg, HCO3- 26 mEq/L",
+            "About 7.26"
+          ],
+          [
+            "Chronic respiratory acidosis",
+            "Up 3 to 4 mEq/L",
+            "PaCO2 60 mmHg, HCO3- 31 mEq/L",
+            "About 7.34"
+          ],
+          [
+            "Acute respiratory alkalosis",
+            "Down about 2 mEq/L",
+            "PaCO2 30 mmHg, HCO3- 22 mEq/L",
+            "About 7.49"
+          ],
+          [
+            "Chronic respiratory alkalosis",
+            "Down 4 to 5 mEq/L",
+            "PaCO2 30 mmHg, HCO3- 19 to 20 mEq/L",
+            "About 7.44"
+          ]
+        ]
+      }
+    ],
+    "tricks": [
+      {
+        "kind": "mnemonic",
+        "label": "CADET, face Right",
+        "text": "Right shift factors: CO2, Acid (H+), 2,3-DPG (2,3-BPG), Exercise, Temperature."
+      },
+      {
+        "kind": "trick",
+        "label": "Pressure, saturation, content",
+        "text": "Ask three separate questions: Is PaO2 low (lungs)? Is SaO2 low (lungs or abnormal hemoglobin)? Is content low (any of these, or too little hemoglobin)? Anemia only fails the third."
+      },
+      {
+        "kind": "trick",
+        "label": "Which gas pushes which",
+        "text": "Bohr: CO2 and H+ push O2 off hemoglobin in the tissues. Haldane: O2 pushes CO2 and H+ off hemoglobin in the lungs."
+      }
+    ],
+    "highYield": [
+      "Anemia lowers O2 content with a normal PaO2 and normal SaO2.",
+      "CO poisoning: normal PaO2, falsely normal pulse oximetry, low true saturation, left-shifted curve.",
+      "Chocolate-colored blood with cyanosis that does not respond to O2 means methemoglobinemia.",
+      "Fetal hemoglobin binds 2,3-BPG poorly, so its curve sits to the left of adult hemoglobin.",
+      "About 70 percent of CO2 is carried as bicarbonate made by red cell carbonic anhydrase.",
+      "The chloride shift swaps HCO3- for Cl- through band 3, so venous red cells hold more chloride.",
+      "Chronic respiratory acidosis raises HCO3- 3 to 4 mEq/L per 10 mmHg PaCO2; acute raises it only about 1."
+    ],
+    "pitfalls": [
+      "PaO2 measures dissolved O2, so it stays normal in anemia, CO poisoning, and methemoglobinemia.",
+      "CO and methemoglobin both shift the curve left; they do not make the remaining hemoglobin release O2 more easily.",
+      "Bohr and Haldane are easy to swap: Bohr changes O2 binding, Haldane changes CO2 binding.",
+      "A PaCO2 of 60 mmHg with HCO3- of 20 mEq/L is not compensation; HCO3- should be up, so a metabolic acidosis is also present."
+    ],
+    "dumps": [
+      {
+        "t": "Oxyhemoglobin curve",
+        "p": "Draw the oxyhemoglobin dissociation curve with PO2 on the x axis and saturation on the y axis. Mark P50, then draw a right-shifted and a left-shifted curve and list what causes each.",
+        "l": [
+          "Sigmoid shape from cooperative binding",
+          "P50 at about 27 mmHg",
+          "Arterial point near PO2 100 mmHg, about 97 to 98 percent saturated",
+          "Mixed venous point near PO2 40 mmHg, about 75 percent saturated",
+          "Right shift: CO2, H+, 2,3-BPG, exercise, temperature",
+          "Left shift: fetal hemoglobin, CO, methemoglobin, alkalosis, cold",
+          "T state low affinity, R state high affinity"
+        ]
+      },
+      {
+        "t": "CO2 from tissue to lung",
+        "p": "Draw a red cell in a tissue capillary and a red cell in a pulmonary capillary. Trace what happens to CO2 in each, including carbonic anhydrase, the chloride shift, and the Bohr and Haldane effects.",
+        "l": [
+          "CO2 enters the red cell and carbonic anhydrase makes H2CO3",
+          "H2CO3 splits into H+ and HCO3-",
+          "HCO3- exits in exchange for Cl- through band 3",
+          "H+ buffered by deoxyhemoglobin; Bohr effect unloads O2",
+          "Some CO2 binds hemoglobin as carbaminohemoglobin",
+          "In the lung, oxygenation releases H+ and CO2 (Haldane effect)",
+          "HCO3- re-enters, Cl- leaves, CO2 is re-formed and exhaled",
+          "Rough shares: about 70 percent bicarbonate, 20 to 25 percent carbamino, 5 to 10 percent dissolved"
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "book": "Guyton and Hall Textbook of Medical Physiology",
+        "where": "Transport of Oxygen and Carbon Dioxide in Blood and Tissue Fluids"
+      },
+      {
+        "book": "Guyton and Hall Textbook of Medical Physiology",
+        "where": "Acid-Base Regulation"
+      },
+      {
+        "book": "Lippincott Illustrated Reviews: Biochemistry",
+        "where": "Globular Proteins"
+      }
+    ],
+    "videos": [],
+    "related": [
+      "PU-7",
+      "PU-11",
+      "PU-6"
+    ]
+  },
+  {
+    "id": "PU-9",
+    "summary": "The molecules that keep the lung working: surfactant, elastin, mucus, the antiprotease shield, and the antioxidant enzymes, plus the vitamins that support them. Questions link a biochemical failure to a lung disease, such as elastase winning over alpha-1 antitrypsin in emphysema or delayed surfactant in infants of diabetic mothers.",
+    "notes": [
+      {
+        "h": "Surfactant",
+        "points": [
+          "Made by type II pneumocytes and stored in lamellar bodies.",
+          "Main lipid is dipalmitoylphosphatidylcholine (DPPC, a lecithin); phosphatidylglycerol is a smaller but important part.",
+          "Surfactant proteins: SP-B and SP-C (hydrophobic) spread the film; SP-A and SP-D are collectins that also act as opsonins.",
+          "Lowers surface tension most in small alveoli, keeping them open at end expiration.",
+          "Fetal cortisol and thyroid hormone increase synthesis, which is why antenatal corticosteroids speed lung maturity.",
+          "Fetal hyperinsulinemia (maternal diabetes) slows synthesis, so these infants get respiratory distress at a later gestational age.",
+          "Maturity markers in amniotic fluid: lecithin to sphingomyelin ratio above 2.0 and phosphatidylglycerol present."
+        ]
+      },
+      {
+        "h": "Proteases and antiproteases",
+        "points": [
+          "Neutrophil elastase can digest alveolar wall elastin; alpha-1 antitrypsin (a serpin made in the liver) inhibits it.",
+          "Cigarette smoke recruits neutrophils and macrophages, which release elastase and matrix metalloproteinases.",
+          "Oxidants in smoke oxidize a methionine in the reactive site of alpha-1 antitrypsin and inactivate it.",
+          "More protease plus less antiprotease tips the balance toward alveolar wall destruction (emphysema)."
+        ]
+      },
+      {
+        "h": "Elastin and collagen",
+        "points": [
+          "Elastin is rich in glycine, proline, and lysine; desmosine cross-links let it stretch and recoil.",
+          "Lysyl oxidase, a copper-dependent enzyme, makes these cross-links (and collagen cross-links).",
+          "Elastin loss in emphysema raises compliance and lowers recoil, so air is trapped.",
+          "Collagen deposition in fibrosis lowers compliance and raises recoil, so lung volumes shrink."
+        ]
+      },
+      {
+        "h": "Vitamins",
+        "points": [
+          "Retinoic acid keeps respiratory epithelium differentiated as ciliated and mucus-secreting cells.",
+          "Vitamin A deficiency causes squamous (keratinizing) metaplasia, loss of cilia and goblet cells, and more respiratory infections.",
+          "Cystic fibrosis blocks pancreatic enzyme release, fats are poorly absorbed, and fat-soluble vitamins A, D, E, and K run low.",
+          "Results: night blindness (A), rickets or osteomalacia (D), hemolysis and neuropathy (E), bleeding (K)."
+        ]
+      },
+      {
+        "h": "Oxidant injury",
+        "points": [
+          "High inspired O2 and cigarette smoke generate superoxide, hydrogen peroxide, and hydroxyl radicals.",
+          "These damage membrane lipids, proteins, and DNA in alveolar epithelium and capillary endothelium.",
+          "Superoxide dismutase turns superoxide into hydrogen peroxide; catalase turns hydrogen peroxide into water and O2.",
+          "Glutathione peroxidase uses selenium and reduced glutathione to clear peroxides; NADPH regenerates glutathione.",
+          "Prolonged high FiO2 causes diffuse alveolar damage in adults and adds to bronchopulmonary dysplasia in neonates."
+        ]
+      },
+      {
+        "h": "Mucus",
+        "points": [
+          "Mucins are large glycoproteins with heavy O-linked glycosylation on serine and threonine, added in the Golgi.",
+          "Secreted by goblet cells in the epithelium and by submucosal glands.",
+          "Chronic bronchitis: submucosal gland hyperplasia (Reid index above 0.4) and goblet cell increase make excess mucus.",
+          "Cystic fibrosis: too little water in the airway surface liquid makes mucus thick and hard for cilia to move."
+        ]
+      }
+    ],
+    "charts": [
+      {
+        "title": "Lung molecules and the diseases that follow when they fail",
+        "cols": [
+          "Molecule",
+          "Made by",
+          "Job",
+          "Disease when it fails"
+        ],
+        "rows": [
+          [
+            "Surfactant (DPPC, SP-A to SP-D)",
+            "Type II pneumocytes",
+            "Lowers surface tension",
+            "Neonatal respiratory distress syndrome"
+          ],
+          [
+            "Alpha-1 antitrypsin",
+            "Hepatocytes",
+            "Inhibits neutrophil elastase",
+            "Panacinar emphysema"
+          ],
+          [
+            "Elastin",
+            "Fibroblasts, cross-linked by lysyl oxidase",
+            "Elastic recoil",
+            "Emphysema (loss), poor recoil"
+          ],
+          [
+            "Collagen",
+            "Fibroblasts and myofibroblasts",
+            "Tensile strength",
+            "Fibrosis when excess, low compliance"
+          ],
+          [
+            "Mucins",
+            "Goblet cells, submucosal glands",
+            "Trap particles for clearance",
+            "Chronic bronchitis, cystic fibrosis plugging"
+          ],
+          [
+            "Glutathione peroxidase",
+            "Most cells, needs selenium",
+            "Clears peroxides",
+            "Oxidant lung injury"
+          ]
+        ]
+      },
+      {
+        "title": "Antioxidant enzymes",
+        "cols": [
+          "Enzyme",
+          "Reaction",
+          "Cofactor"
+        ],
+        "rows": [
+          [
+            "Superoxide dismutase",
+            "Superoxide to hydrogen peroxide",
+            "Copper and zinc (cytosol), manganese (mitochondria)"
+          ],
+          [
+            "Catalase",
+            "Hydrogen peroxide to water and O2",
+            "Heme iron"
+          ],
+          [
+            "Glutathione peroxidase",
+            "Hydrogen peroxide and lipid peroxides to water and alcohols",
+            "Selenium"
+          ],
+          [
+            "Glutathione reductase",
+            "Regenerates reduced glutathione",
+            "FAD (riboflavin) and NADPH"
+          ]
+        ]
+      }
+    ],
+    "tricks": [
+      {
+        "kind": "trick",
+        "label": "Steroids speed, insulin slows",
+        "text": "Cortisol and thyroid hormone push surfactant production forward. Insulin from the infant of a diabetic mother holds it back."
+      },
+      {
+        "kind": "trick",
+        "label": "Floppy versus stiff",
+        "text": "Lose elastin and the lung is floppy (high compliance, emphysema). Add collagen and it is stiff (low compliance, fibrosis)."
+      },
+      {
+        "kind": "mnemonic",
+        "label": "ADEK",
+        "text": "The fat-soluble vitamins A, D, E, and K, which run low whenever fat absorption fails, as in cystic fibrosis."
+      }
+    ],
+    "highYield": [
+      "DPPC (lecithin) is the main surfactant lipid; an L/S ratio above 2.0 signals lung maturity.",
+      "Antenatal corticosteroids are given before preterm birth to increase surfactant.",
+      "Smoke both recruits elastase-releasing cells and oxidizes alpha-1 antitrypsin.",
+      "Lysyl oxidase needs copper to cross-link elastin and collagen.",
+      "Vitamin A deficiency causes squamous metaplasia of airway epithelium and more respiratory infections.",
+      "Selenium is the cofactor for glutathione peroxidase.",
+      "Reid index above 0.4 means submucosal gland hyperplasia of chronic bronchitis."
+    ],
+    "pitfalls": [
+      "Maternal diabetes delays surfactant through fetal insulin, even in a term-sized infant.",
+      "SP-A and SP-D are immune opsonins; SP-B and SP-C do most of the surface tension work.",
+      "Emphysema raises compliance; fibrosis lowers it. Both lower DLCO.",
+      "Catalase and glutathione peroxidase both remove hydrogen peroxide; only glutathione peroxidase needs selenium."
+    ],
+    "dumps": [
+      {
+        "t": "Protease and antiprotease balance",
+        "p": "Draw an alveolar wall with a neutrophil releasing elastase and alpha-1 antitrypsin blocking it. Add what cigarette smoke does to each side.",
+        "l": [
+          "Neutrophil elastase digests elastin in alveolar walls",
+          "Alpha-1 antitrypsin from the liver inhibits elastase",
+          "Smoke recruits neutrophils and macrophages",
+          "Macrophages release matrix metalloproteinases",
+          "Smoke oxidants inactivate alpha-1 antitrypsin",
+          "Net result: alveolar wall loss and emphysema",
+          "Loss of elastin raises compliance and lowers recoil"
+        ]
+      },
+      {
+        "t": "Surfactant from cell to alveolus",
+        "p": "Draw a type II pneumocyte releasing surfactant into an alveolus. Label the components, the hormones that raise and lower production, and the tests of fetal lung maturity.",
+        "l": [
+          "Lamellar bodies store surfactant",
+          "DPPC is the main lipid; phosphatidylglycerol also present",
+          "SP-B and SP-C spread the film; SP-A and SP-D opsonize",
+          "Lowers surface tension, keeps small alveoli open",
+          "Cortisol and thyroid hormone increase production",
+          "Fetal insulin decreases production",
+          "L/S ratio above 2.0 and phosphatidylglycerol indicate maturity"
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "book": "Lippincott Illustrated Reviews: Biochemistry",
+        "where": "Fibrous Proteins"
+      },
+      {
+        "book": "Lippincott Illustrated Reviews: Biochemistry",
+        "where": "Phospholipid, Glycosphingolipid, and Eicosanoid Metabolism"
+      },
+      {
+        "book": "Lippincott Illustrated Reviews: Biochemistry",
+        "where": "Glycoproteins"
+      },
+      {
+        "book": "Robbins and Cotran Pathologic Basis of Disease",
+        "where": "The Lung (section on obstructive lung diseases)"
+      }
+    ],
+    "videos": [],
+    "related": [
+      "PU-10",
+      "PU-14-B4",
+      "PU-14-A1",
+      "PU-14-G1"
+    ]
+  },
+  {
+    "id": "PU-10",
+    "summary": "The single-gene lung diseases (cystic fibrosis, alpha-1 antitrypsin deficiency, primary ciliary dyskinesia) and the cell cycle genes that tobacco damages in lung cancer. Exam questions ask you to connect the mutation to the protein defect and then to the organ findings.",
+    "notes": [
+      {
+        "h": "Cystic fibrosis",
+        "points": [
+          "Autosomal recessive; CFTR gene on chromosome 7; carrier frequency about 1 in 25 in people of Northern European descent.",
+          "CFTR is an ATP-gated chloride channel in the ABC transporter family; it also restrains sodium uptake through ENaC.",
+          "F508 deletion (the most common allele) makes a misfolded protein that is held in the ER, ubiquitinated, and destroyed by the proteasome.",
+          "Airways: less chloride secretion and more sodium absorption pull water out, leaving thick, dehydrated mucus.",
+          "Sweat glands: chloride cannot be reabsorbed, so sweat chloride is high (60 mmol/L or more is diagnostic).",
+          "Other findings: meconium ileus, pancreatic insufficiency, male infertility from absent vas deferens, recurrent Staphylococcus aureus and Pseudomonas infections."
+        ]
+      },
+      {
+        "h": "Alpha-1 antitrypsin deficiency",
+        "points": [
+          "SERPINA1 gene on chromosome 14; alleles are codominant (PiMM normal, PiMZ intermediate, PiZZ severe).",
+          "The Z protein misfolds and polymerizes in the hepatocyte ER, so little reaches the blood.",
+          "Lung: unopposed elastase causes panacinar emphysema, worst in the lower lobes, often before age 45 in smokers.",
+          "Liver: retained protein injures hepatocytes and causes hepatitis and cirrhosis.",
+          "Liver biopsy shows PAS-positive, diastase-resistant globules in hepatocytes."
+        ]
+      },
+      {
+        "h": "Primary ciliary dyskinesia",
+        "points": [
+          "Autosomal recessive defects of dynein arms make cilia immotile or poorly beating.",
+          "Mucociliary clearance fails: chronic sinusitis, otitis media, recurrent pneumonia, bronchiectasis.",
+          "Sperm flagella share the same axoneme, so men are infertile; women have reduced fertility and more ectopic pregnancy.",
+          "Embryonic nodal cilia set left-right orientation; without them sidedness is random, so about half have situs inversus.",
+          "Kartagener syndrome is the triad of situs inversus, chronic sinusitis, and bronchiectasis."
+        ]
+      },
+      {
+        "h": "Cell cycle brakes and tobacco",
+        "points": [
+          "Rb binds E2F and blocks the G1 to S transition; cyclin D with CDK4 and CDK6 phosphorylates Rb to release E2F.",
+          "p53 senses DNA damage and induces p21, which inhibits CDKs and holds the cell in G1 for repair or apoptosis.",
+          "Benzo[a]pyrene is activated by cytochrome P450 to a diol epoxide that binds guanine and forms DNA adducts.",
+          "Unrepaired adducts cause G to T transversions, including in TP53 hot spots, which removes the G1 brake."
+        ]
+      },
+      {
+        "h": "Driver mutations in lung cancer",
+        "points": [
+          "Adenocarcinoma: activating EGFR mutations, ALK rearrangements (EML4-ALK), and KRAS mutations.",
+          "EGFR mutations are most common in nonsmokers, women, and people of East Asian ancestry.",
+          "KRAS mutations are more common in smokers; KRAS and EGFR mutations rarely occur in the same tumor.",
+          "Small cell carcinoma: loss of TP53 and RB1 in nearly all tumors.",
+          "EGFR and ALK changes matter because targeted kinase inhibitors exist for them."
+        ]
+      }
+    ],
+    "charts": [
+      {
+        "title": "Genetic lung diseases",
+        "cols": [
+          "Disease",
+          "Gene and inheritance",
+          "Protein defect",
+          "Lung finding",
+          "Other organs"
+        ],
+        "rows": [
+          [
+            "Cystic fibrosis",
+            "CFTR, chromosome 7, autosomal recessive",
+            "Misfolded chloride channel degraded by proteasome (F508 deletion)",
+            "Thick mucus, bronchiectasis, Pseudomonas",
+            "Pancreatic insufficiency, meconium ileus, high sweat chloride, male infertility"
+          ],
+          [
+            "Alpha-1 antitrypsin deficiency",
+            "SERPINA1, chromosome 14, codominant",
+            "Misfolded protein trapped in hepatocyte ER",
+            "Panacinar emphysema, lower lobes",
+            "Cirrhosis with PAS-positive globules"
+          ],
+          [
+            "Primary ciliary dyskinesia",
+            "Dynein arm genes, autosomal recessive",
+            "Immotile cilia",
+            "Bronchiectasis, recurrent pneumonia",
+            "Sinusitis, otitis, infertility, situs inversus in about half"
+          ]
+        ]
+      },
+      {
+        "title": "Lung cancer drivers",
+        "cols": [
+          "Tumor",
+          "Common alteration",
+          "Who gets it"
+        ],
+        "rows": [
+          [
+            "Adenocarcinoma",
+            "EGFR activating mutation",
+            "Nonsmokers, women, East Asian ancestry"
+          ],
+          [
+            "Adenocarcinoma",
+            "ALK rearrangement (EML4-ALK)",
+            "Younger nonsmokers"
+          ],
+          [
+            "Adenocarcinoma",
+            "KRAS mutation",
+            "Smokers"
+          ],
+          [
+            "Small cell carcinoma",
+            "TP53 and RB1 loss",
+            "Heavy smokers"
+          ]
+        ]
+      }
+    ],
+    "tricks": [
+      {
+        "kind": "trick",
+        "label": "Same misfolding story, two endings",
+        "text": "Both CF and alpha-1 antitrypsin deficiency start with a protein that misfolds in the ER. CFTR is destroyed, so the channel is missing. The Z protein piles up, so the liver is injured and the lung is unprotected."
+      },
+      {
+        "kind": "trick",
+        "label": "Cilia do three jobs",
+        "text": "Clear mucus, move sperm, and set left from right in the embryo. Lose dynein and all three fail: bronchiectasis, infertility, and situs inversus."
+      },
+      {
+        "kind": "trick",
+        "label": "Small cell loses both brakes",
+        "text": "Small cell carcinoma knocks out both G1 brakes, TP53 and RB1, which fits its fast growth."
+      }
+    ],
+    "highYield": [
+      "F508 deletion in CFTR causes a folding defect; the protein never reaches the membrane.",
+      "Sweat chloride of 60 mmol/L or more confirms cystic fibrosis.",
+      "PiZZ alpha-1 antitrypsin deficiency gives lower lobe panacinar emphysema plus cirrhosis.",
+      "PAS-positive, diastase-resistant hepatocyte globules point to alpha-1 antitrypsin deficiency.",
+      "Situs inversus with bronchiectasis and sinusitis is Kartagener syndrome.",
+      "Benzo[a]pyrene adducts cause G to T transversions in TP53.",
+      "EGFR-mutant adenocarcinoma is the classic lung cancer in a woman who never smoked."
+    ],
+    "pitfalls": [
+      "Smoking-related emphysema is centriacinar and upper lobe; alpha-1 antitrypsin deficiency is panacinar and lower lobe.",
+      "Alpha-1 antitrypsin alleles are codominant, so PiMZ carriers have intermediate levels.",
+      "In CF the sweat chloride is high because reabsorption fails; in the airway the problem is too little secretion.",
+      "Only about half of patients with primary ciliary dyskinesia have situs inversus, so normal anatomy does not exclude it."
+    ],
+    "dumps": [
+      {
+        "t": "CFTR from gene to symptoms",
+        "p": "Trace cystic fibrosis from the gene to the bedside. Start with the CFTR gene, show what F508 deletion does to the protein in the cell, then branch to airway, pancreas, sweat gland, and reproductive tract findings.",
+        "l": [
+          "Autosomal recessive, CFTR on chromosome 7",
+          "F508 deletion causes misfolding in the ER",
+          "Misfolded protein ubiquitinated and degraded by the proteasome",
+          "Airway: low chloride secretion, high sodium uptake, dehydrated mucus",
+          "Bronchiectasis with Staphylococcus aureus and Pseudomonas",
+          "Pancreas: duct plugging, fat malabsorption, ADEK deficiency",
+          "Sweat chloride 60 mmol/L or more",
+          "Male infertility from absent vas deferens"
+        ]
+      },
+      {
+        "t": "G1 checkpoint and tobacco",
+        "p": "Draw the G1 to S checkpoint with Rb, E2F, cyclin D with CDK4/6, p53, and p21. Then show where benzo[a]pyrene damage enters and what happens when TP53 is mutated.",
+        "l": [
+          "Rb bound to E2F blocks S phase entry",
+          "Cyclin D with CDK4/6 phosphorylates Rb and frees E2F",
+          "DNA damage activates p53",
+          "p53 induces p21, which inhibits CDKs",
+          "Arrest allows repair or leads to apoptosis",
+          "Benzo[a]pyrene diol epoxide forms guanine adducts",
+          "G to T transversions inactivate TP53, removing the brake"
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "book": "Robbins Basic Pathology",
+        "where": "Genetic and Pediatric Diseases (section on cystic fibrosis)"
+      },
+      {
+        "book": "Robbins and Cotran Pathologic Basis of Disease",
+        "where": "Neoplasia"
+      },
+      {
+        "book": "Robbins and Cotran Pathologic Basis of Disease",
+        "where": "The Lung"
+      }
+    ],
+    "videos": [],
+    "related": [
+      "PU-14-G1",
+      "PU-14-B4",
+      "PU-14-B2",
+      "PU-14-F",
+      "PU-9"
+    ]
+  },
+  {
+    "id": "PU-11",
+    "summary": "Why the body needs oxygen at all: O2 is the last electron acceptor that lets mitochondria make most ATP. This unit covers what happens when O2 delivery or use fails (lactic acidosis, cyanide and CO), the respiratory quotient, 2,3-BPG, and the energy cost of breathing in emphysema.",
+    "notes": [
+      {
+        "h": "Oxygen and ATP",
+        "points": [
+          "Complex IV (cytochrome c oxidase) passes electrons to O2, making water.",
+          "Electron flow pumps protons out of the matrix; ATP synthase uses that gradient to make ATP.",
+          "Full oxidation of glucose yields about 30 to 32 ATP; glycolysis alone yields 2.",
+          "Without O2, NADH builds up and the electron transport chain stops.",
+          "Lactate dehydrogenase turns pyruvate into lactate to regenerate NAD+ so glycolysis can continue.",
+          "Result: lactic acidosis, an anion gap metabolic acidosis (lactate normally below about 2 mmol/L)."
+        ]
+      },
+      {
+        "h": "Cyanide and carbon monoxide",
+        "points": [
+          "Smoke from burning plastics, foam, wool, and silk releases hydrogen cyanide; any fire releases CO.",
+          "Cyanide binds the ferric iron of cytochrome a3 in complex IV and stops O2 use.",
+          "CO also binds complex IV in addition to its effect on hemoglobin.",
+          "PaO2 stays normal because O2 still reaches the blood; cells cannot use it, so lactate rises.",
+          "In cyanide poisoning tissues extract little O2, so venous O2 saturation is high and venous blood looks bright red.",
+          "Hydroxocobalamin binds cyanide to form cyanocobalamin; sodium thiosulfate helps rhodanese convert cyanide to thiocyanate."
+        ]
+      },
+      {
+        "h": "Respiratory quotient",
+        "points": [
+          "RQ = CO2 produced divided by O2 consumed.",
+          "Carbohydrate 1.0 (glucose + 6 O2 makes 6 CO2), fat about 0.7, protein about 0.8; a mixed diet is about 0.8.",
+          "Example: VCO2 200 mL/min and VO2 250 mL/min gives RQ 0.8.",
+          "Heavy carbohydrate feeding raises CO2 production, and RQ above 1.0 means net fat synthesis.",
+          "More CO2 means more ventilation needed, a problem for patients with COPD or those weaning from a ventilator."
+        ]
+      },
+      {
+        "h": "2,3-BPG",
+        "points": [
+          "Made in red cells by a side path of glycolysis: bisphosphoglycerate mutase converts 1,3-BPG to 2,3-BPG.",
+          "The shunt skips the phosphoglycerate kinase step, so the red cell gives up one ATP for each molecule routed through it.",
+          "2,3-BPG binds the central cavity of deoxyhemoglobin, stabilizes the T state, and shifts the curve right.",
+          "High altitude: hypoxia and respiratory alkalosis stimulate glycolysis, raising 2,3-BPG within hours to days.",
+          "Pyruvate kinase deficiency backs up glycolytic intermediates, raising 2,3-BPG and improving O2 unloading despite anemia.",
+          "Hexokinase deficiency and stored blood lower 2,3-BPG and shift the curve left."
+        ]
+      },
+      {
+        "h": "Work of breathing in emphysema",
+        "points": [
+          "Normally breathing uses only a few percent of total O2 consumption.",
+          "In severe emphysema, air trapping and a flattened diaphragm make each breath cost far more energy.",
+          "Resting energy expenditure rises while dyspnea and early fullness cut food intake.",
+          "Result: weight loss and muscle wasting, and a low body mass index predicts worse survival."
+        ]
+      }
+    ],
+    "charts": [
+      {
+        "title": "Respiratory quotient by fuel",
+        "cols": [
+          "Fuel",
+          "RQ",
+          "Effect on CO2 load"
+        ],
+        "rows": [
+          [
+            "Fat",
+            "About 0.7",
+            "Lowest CO2 per O2 used"
+          ],
+          [
+            "Protein",
+            "About 0.8",
+            "Intermediate"
+          ],
+          [
+            "Carbohydrate",
+            "1.0",
+            "Highest of the three"
+          ],
+          [
+            "Net fat synthesis from excess carbohydrate",
+            "Above 1.0",
+            "CO2 production rises further"
+          ]
+        ]
+      },
+      {
+        "title": "When cells run short of usable oxygen",
+        "cols": [
+          "Cause",
+          "PaO2",
+          "Arterial O2 content",
+          "Venous O2 saturation",
+          "Lactate"
+        ],
+        "rows": [
+          [
+            "Hypoxemia (lung disease)",
+            "Low",
+            "Low",
+            "Low",
+            "High if severe"
+          ],
+          [
+            "Severe anemia",
+            "Normal",
+            "Low",
+            "Low",
+            "High if severe"
+          ],
+          [
+            "Carbon monoxide",
+            "Normal",
+            "Low",
+            "Low",
+            "High"
+          ],
+          [
+            "Cyanide",
+            "Normal",
+            "Normal",
+            "High",
+            "High"
+          ]
+        ]
+      }
+    ],
+    "tricks": [
+      {
+        "kind": "trick",
+        "label": "Cyanide leaves the oxygen in the veins",
+        "text": "If the tissues cannot use O2, the blood comes back almost as full as it left. High venous saturation plus lactic acidosis points to cyanide."
+      },
+      {
+        "kind": "trick",
+        "label": "RQ counts carbon versus oxygen",
+        "text": "Carbohydrate already carries a lot of oxygen in its structure, so it needs less inhaled O2 per CO2 made (RQ 1.0). Fat is mostly carbon and hydrogen, so it needs more O2 (RQ 0.7)."
+      },
+      {
+        "kind": "trick",
+        "label": "Blocks below raise BPG",
+        "text": "A glycolytic block below the 2,3-BPG shunt (pyruvate kinase) raises it; a block above the shunt (hexokinase) lowers it."
+      }
+    ],
+    "highYield": [
+      "O2 is the final electron acceptor at complex IV; without it, cells switch to lactate production.",
+      "Cyanide: normal PaO2, high venous O2 saturation, lactic acidosis.",
+      "Smoke inhalation can cause both CO and cyanide poisoning; hydroxocobalamin is the cyanide antidote of choice.",
+      "RQ is 1.0 for carbohydrate, about 0.7 for fat, and about 0.8 for protein.",
+      "High carbohydrate feeding raises CO2 production and ventilatory demand.",
+      "Pyruvate kinase deficiency and high altitude raise 2,3-BPG and shift the curve right.",
+      "Weight loss in severe emphysema reflects the high energy cost of breathing."
+    ],
+    "pitfalls": [
+      "Cyanide and CO both leave PaO2 normal; CO lowers O2 content while cyanide does not.",
+      "Lactic acidosis is a metabolic acidosis with a high anion gap, even though the root problem is O2 delivery or use.",
+      "Fetal red cells contain 2,3-BPG; the left shift comes from gamma chains that bind it poorly.",
+      "An RQ above 1.0 means net lipogenesis; it cannot come from burning carbohydrate alone."
+    ],
+    "dumps": [
+      {
+        "t": "Electron transport and its poisons",
+        "p": "Draw the electron transport chain from NADH to O2 with complexes I to IV and ATP synthase. Mark where cyanide and CO act, and show what happens to pyruvate when the chain stops.",
+        "l": [
+          "NADH donates electrons at complex I; FADH2 at complex II",
+          "Electrons pass through coenzyme Q and cytochrome c",
+          "Complex IV passes electrons to O2, making water",
+          "Proton gradient drives ATP synthase",
+          "Cyanide and CO bind cytochrome a3 in complex IV",
+          "NADH builds up when the chain stops",
+          "Pyruvate becomes lactate to regenerate NAD+, causing lactic acidosis"
+        ]
+      },
+      {
+        "t": "The 2,3-BPG shunt",
+        "p": "Draw red cell glycolysis from glucose to pyruvate, including the side path that makes 2,3-BPG. Mark where pyruvate kinase deficiency and hexokinase deficiency act and what each does to the oxyhemoglobin curve.",
+        "l": [
+          "Glucose to glucose-6-phosphate by hexokinase",
+          "1,3-BPG to 2,3-BPG by bisphosphoglycerate mutase",
+          "2,3-BPG returns to the pathway as 3-phosphoglycerate",
+          "Shunt costs one ATP per molecule routed through it",
+          "2,3-BPG stabilizes deoxyhemoglobin (T state)",
+          "Pyruvate kinase deficiency raises 2,3-BPG, right shift",
+          "Hexokinase deficiency lowers 2,3-BPG, left shift"
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "book": "Lippincott Illustrated Reviews: Biochemistry",
+        "where": "Bioenergetics and Oxidative Phosphorylation"
+      },
+      {
+        "book": "Lippincott Illustrated Reviews: Biochemistry",
+        "where": "Glycolysis"
+      },
+      {
+        "book": "Guyton and Hall Textbook of Medical Physiology",
+        "where": "Aviation, High Altitude, and Space Physiology"
+      }
+    ],
+    "videos": [],
+    "related": [
+      "PU-8",
+      "PU-7",
+      "PU-14-B4"
+    ]
+  },
+  {
+    "id": "PU-12",
+    "summary": "How the lung defends itself and how immune responses cause lung disease. Exam questions link a disease to its hypersensitivity type and key cytokine: IgE and Th2 in asthma, Th1 and TNF-alpha in granulomas, anti-GBM antibodies in Goodpasture syndrome, and conjugate vaccines that recruit T cell help.",
+    "notes": [
+      {
+        "h": "Innate lung defenses",
+        "points": [
+          "Nose traps large particles (above about 10 micrometers); smaller ones stick to airway mucus and ride the mucociliary escalator up to be coughed or swallowed.",
+          "Secretory IgA (a dimer with J chain and secretory component) blocks microbe attachment on mucosa.",
+          "Alveolar macrophages clear microbes and particles small enough to reach the alveoli (about 1 to 5 micrometers).",
+          "Surfactant proteins A and D bind microbes and act as opsonins for macrophages.",
+          "Smoking paralyzes cilia and impairs macrophages; alcohol blunts cough and gag reflexes and raises aspiration risk; ciliary defects stop clearance."
+        ]
+      },
+      {
+        "h": "Allergic asthma (type I)",
+        "points": [
+          "Dendritic cells present allergen and drive Th2 cells.",
+          "IL-4 drives B cell class switching to IgE; IL-5 recruits and activates eosinophils; IL-13 drives mucus production and airway hyperreactivity.",
+          "IgE coats mast cells through FcεRI; re-exposure cross-links IgE and triggers degranulation.",
+          "Early phase (minutes): histamine, prostaglandin D2, and leukotrienes C4, D4, and E4 cause bronchoconstriction, mucus, and leak.",
+          "Late phase (about 4 to 8 hours): eosinophils and Th2 cells arrive; major basic protein injures epithelium; sputum may show Charcot-Leyden crystals."
+        ]
+      },
+      {
+        "h": "Granulomas (type IV)",
+        "points": [
+          "Macrophages make IL-12, which drives Th1 cells.",
+          "Th1 cells make IFN-gamma, which activates macrophages into epithelioid cells and giant cells.",
+          "TNF-alpha holds the granuloma together.",
+          "TNF-alpha blockers can let latent tuberculosis reactivate, so patients are screened first.",
+          "Tuberculosis granulomas caseate; sarcoidosis granulomas do not."
+        ]
+      },
+      {
+        "h": "Hypersensitivity pneumonitis",
+        "points": [
+          "Repeated inhalation of organic antigens: thermophilic actinomycetes in moldy hay (farmer lung), bird proteins.",
+          "Type III (precipitating IgG immune complexes) and type IV (T cell) reactions in the interstitium and small airways.",
+          "Histology: lymphocytic interstitial infiltrate with poorly formed noncaseating granulomas.",
+          "Acute episodes bring fever, cough, and dyspnea 4 to 6 hours after exposure; chronic exposure causes fibrosis.",
+          "Unlike asthma: no IgE, no eosinophilia, restrictive pattern, reduced DLCO."
+        ]
+      },
+      {
+        "h": "Lung and kidney together",
+        "points": [
+          "Goodpasture syndrome: type II hypersensitivity; IgG against the alpha-3 chain of type IV collagen.",
+          "Goodpasture causes pulmonary hemorrhage (hemoptysis) and rapidly progressive glomerulonephritis with linear IgG on immunofluorescence.",
+          "Granulomatosis with polyangiitis: PR3-ANCA (c-ANCA), necrotizing granulomatous vasculitis.",
+          "It hits the upper airway (sinusitis, nasal ulcers, saddle nose), lungs (cavitating nodules), and kidneys (pauci-immune crescentic glomerulonephritis)."
+        ]
+      },
+      {
+        "h": "Vaccines for respiratory pathogens",
+        "points": [
+          "Toxoids (diphtheria, tetanus) are inactivated toxins that induce neutralizing IgG antitoxin.",
+          "Acellular pertussis vaccine contains pertussis toxoid plus adhesins such as filamentous hemagglutinin and pertactin.",
+          "Plain polysaccharides are T cell independent: mostly IgM, little memory, weak response under age 2.",
+          "Conjugate vaccines (Hib, pneumococcal) link polysaccharide to a protein so B cells present carrier peptides to helper T cells.",
+          "T cell help gives class switching to IgG, affinity maturation, memory, and protection in infants."
+        ]
+      },
+      {
+        "h": "Lung cancer and immunity",
+        "points": [
+          "Tumors lower MHC class I to hide from CD8 T cells.",
+          "Tumors express PD-L1, which binds PD-1 on T cells and switches them off; anti-PD-1 and anti-PD-L1 drugs block this.",
+          "Small cell carcinoma shares antigens with neurons, so antibodies against the tumor also hit nerves.",
+          "Anti-Hu: paraneoplastic encephalomyelitis and sensory neuronopathy.",
+          "Anti-voltage-gated calcium channel: Lambert-Eaton syndrome, proximal weakness that improves with repeated effort."
+        ]
+      }
+    ],
+    "charts": [
+      {
+        "title": "Hypersensitivity in lung disease",
+        "cols": [
+          "Type",
+          "Mechanism",
+          "Lung example",
+          "Key clue"
+        ],
+        "rows": [
+          [
+            "I (immediate)",
+            "IgE on mast cells, Th2 cytokines",
+            "Allergic asthma, allergic rhinitis",
+            "Wheeze within minutes, eosinophils, high IgE"
+          ],
+          [
+            "II (antibody to fixed antigen)",
+            "IgG against tissue antigen",
+            "Goodpasture syndrome",
+            "Linear IgG on basement membrane, hemoptysis, hematuria"
+          ],
+          [
+            "III (immune complex)",
+            "Antigen and IgG complexes, complement",
+            "Hypersensitivity pneumonitis (acute)",
+            "Precipitating antibodies, fever hours after exposure"
+          ],
+          [
+            "IV (delayed, T cell)",
+            "Th1 cells, IFN-gamma, TNF-alpha",
+            "Tuberculosis, sarcoidosis, berylliosis, hypersensitivity pneumonitis",
+            "Granulomas"
+          ]
+        ]
+      },
+      {
+        "title": "Polysaccharide versus conjugate vaccine",
+        "cols": [
+          "Feature",
+          "Plain polysaccharide",
+          "Polysaccharide-protein conjugate"
+        ],
+        "rows": [
+          [
+            "T cell help",
+            "No (T cell independent)",
+            "Yes (T cell dependent)"
+          ],
+          [
+            "Main antibody",
+            "IgM",
+            "IgG after class switching"
+          ],
+          [
+            "Memory",
+            "Little",
+            "Yes"
+          ],
+          [
+            "Works under age 2",
+            "Poorly",
+            "Yes"
+          ],
+          [
+            "Examples",
+            "Older pneumococcal polysaccharide vaccine",
+            "Hib, pneumococcal conjugate"
+          ]
+        ]
+      }
+    ],
+    "tricks": [
+      {
+        "kind": "mnemonic",
+        "label": "ACID",
+        "text": "Hypersensitivity types I to IV: Anaphylactic and Atopic (I), antibody-mediated Cytotoxic (II), Immune complex (III), Delayed cell-mediated (IV)."
+      },
+      {
+        "kind": "trick",
+        "label": "4, 5, 13 in order",
+        "text": "IL-4 makes IgE, IL-5 brings eosinophils, IL-13 makes mucus. The Th2 story of asthma in three numbers."
+      },
+      {
+        "kind": "trick",
+        "label": "Conjugate means a T cell is involved",
+        "text": "Sugar alone gets a B cell response only. Hook it to a protein and helper T cells join, which brings IgG and memory."
+      }
+    ],
+    "highYield": [
+      "Secretory IgA and surfactant proteins A and D are first-line lung defenses.",
+      "IL-4 drives IgE class switching; IL-5 drives eosinophils.",
+      "TNF-alpha blockade can reactivate latent tuberculosis.",
+      "Farmer lung is hypersensitivity pneumonitis from thermophilic actinomycetes in moldy hay.",
+      "Goodpasture: anti-type IV collagen, linear IgG, hemoptysis plus glomerulonephritis.",
+      "Granulomatosis with polyangiitis: PR3-ANCA with sinus, lung, and kidney disease.",
+      "Conjugate vaccines protect infants because they recruit helper T cells.",
+      "Lambert-Eaton syndrome with small cell carcinoma comes from antibodies to presynaptic calcium channels."
+    ],
+    "pitfalls": [
+      "Hypersensitivity pneumonitis is restrictive and lymphocytic; asthma is obstructive and eosinophilic.",
+      "Goodpasture shows linear IgG; granulomatosis with polyangiitis is pauci-immune with little immunoglobulin deposit.",
+      "Sarcoidosis granulomas do not caseate; tuberculosis granulomas usually do.",
+      "Toxoid vaccines neutralize the toxin; a vaccinated person can still carry the bacterium."
+    ],
+    "dumps": [
+      {
+        "t": "Allergic asthma, start to finish",
+        "p": "Draw the steps of allergic asthma from first exposure to the late phase. Include the dendritic cell, Th2 cell, B cell, mast cell, and eosinophil, and label the cytokines and mediators.",
+        "l": [
+          "Dendritic cell presents allergen to naive CD4 T cell",
+          "Th2 differentiation",
+          "IL-4 class switches B cells to IgE",
+          "IgE binds FcεRI on mast cells",
+          "Re-exposure cross-links IgE and causes degranulation",
+          "Early phase: histamine, leukotrienes, prostaglandin D2, bronchoconstriction",
+          "IL-5 recruits eosinophils in the late phase",
+          "IL-13 increases mucus and airway hyperreactivity"
+        ]
+      },
+      {
+        "t": "Building a granuloma",
+        "p": "Draw a granuloma forming around Mycobacterium tuberculosis. Label the macrophage, Th1 cell, epithelioid cells, giant cell, and the cytokines, then show what happens when TNF-alpha is blocked.",
+        "l": [
+          "Macrophage ingests the organism and makes IL-12",
+          "IL-12 drives Th1 differentiation",
+          "Th1 cells make IFN-gamma",
+          "IFN-gamma activates macrophages into epithelioid cells",
+          "Epithelioid cells fuse into multinucleated giant cells",
+          "TNF-alpha maintains the granuloma",
+          "TNF-alpha blockade breaks the granuloma and reactivates TB"
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "book": "Abbas, Basic Immunology",
+        "where": "Hypersensitivity"
+      },
+      {
+        "book": "Abbas, Basic Immunology",
+        "where": "Immunity to Tumors"
+      },
+      {
+        "book": "Robbins and Cotran Pathologic Basis of Disease",
+        "where": "Diseases of the Immune System"
+      },
+      {
+        "book": "Robbins and Cotran Pathologic Basis of Disease",
+        "where": "The Lung"
+      }
+    ],
+    "videos": [],
+    "related": [
+      "PU-13",
+      "PU-14-B1",
+      "PU-14-A4",
+      "PU-14-H9",
+      "PU-14-F8"
+    ]
+  },
+  {
+    "id": "PU-13",
+    "summary": "The bacteria, viruses, and fungi behind lung infections, with the lab features and virulence factors that identify each. Exam questions pair a host or exposure clue with an organism, then ask about its toxin, capsule, culture needs, or how it evades immunity.",
+    "notes": [
+      {
+        "h": "Streptococcus pneumoniae",
+        "points": [
+          "Gram-positive lancet-shaped diplococci; alpha-hemolytic (partial, green).",
+          "Optochin sensitive and bile soluble, which separates it from viridans streptococci.",
+          "Polysaccharide capsule is the main virulence factor; IgA protease and pneumolysin add to it.",
+          "Most common cause of community-acquired pneumonia and of lobar pneumonia; rust-colored sputum.",
+          "Asplenia raises risk of severe infection with encapsulated organisms like this one."
+        ]
+      },
+      {
+        "h": "Gram-negative lung pathogens",
+        "points": [
+          "Haemophilus influenzae: small coccobacillus, needs factor X (hemin) and factor V (NAD+), grows on chocolate agar.",
+          "H. influenzae type b capsule causes invasive disease; nontypeable strains cause otitis, sinusitis, and COPD flares.",
+          "Klebsiella pneumoniae: lactose-fermenting rod with a thick mucoid capsule; alcoholics and aspiration; currant jelly sputum, abscesses.",
+          "Pseudomonas aeruginosa: oxidase-positive, non-lactose-fermenting aerobic rod; blue-green pigment; cystic fibrosis and ventilated patients.",
+          "Legionella pneumophila: stains poorly with Gram stain; grows on buffered charcoal yeast extract agar with iron and cysteine.",
+          "Legionella spreads from contaminated water (cooling towers, plumbing), not person to person; hyponatremia and diarrhea are clues; urine antigen test."
+        ]
+      },
+      {
+        "h": "Toxin-driven infections",
+        "points": [
+          "Corynebacterium diphtheriae: gram-positive club-shaped rods; the toxin gene comes from a prophage (lysogenic conversion).",
+          "Diphtheria toxin ADP-ribosylates elongation factor 2 and stops protein synthesis, killing cells.",
+          "Clinical result: gray pseudomembrane in the pharynx, bull neck, myocarditis, and cranial nerve palsies.",
+          "Bordetella pertussis: gram-negative coccobacillus; pertussis toxin ADP-ribosylates Gi, so Gi cannot inhibit adenylyl cyclase and cAMP rises.",
+          "Clinical result: catarrhal stage, then paroxysmal cough with inspiratory whoop and post-tussive vomiting, plus marked lymphocytosis."
+        ]
+      },
+      {
+        "h": "Mycobacterium tuberculosis",
+        "points": [
+          "Acid-fast because of mycolic acids in a waxy cell wall; obligate aerobe; slow growing.",
+          "Cord factor (trehalose dimycolate) activates macrophages and drives TNF-alpha release and granulomas.",
+          "Sulfatides help block phagosome and lysosome fusion, so the organism survives inside macrophages.",
+          "Spread by airborne droplet nuclei small enough to reach the alveoli.",
+          "Primary infection: Ghon focus in the lower part of the upper lobe or upper part of the lower lobe; reactivation favors the apices."
+        ]
+      },
+      {
+        "h": "Respiratory viruses",
+        "points": [
+          "Influenza: orthomyxovirus with 8 segments of negative-sense RNA; hemagglutinin binds sialic acid, neuraminidase releases new virions.",
+          "Antigenic drift (point mutations) causes yearly epidemics; antigenic shift (segment reassortment, influenza A) causes pandemics.",
+          "Influenza is often followed by bacterial pneumonia from Staphylococcus aureus, S. pneumoniae, or H. influenzae.",
+          "Respiratory syncytial virus: nonsegmented negative-sense RNA pneumovirus (formerly grouped with paramyxoviruses).",
+          "RSV F protein fuses cells into syncytia; RSV is the top cause of bronchiolitis in infants.",
+          "Coronaviruses: enveloped, positive-sense single-stranded RNA; SARS-CoV-2 spike protein binds ACE2."
+        ]
+      },
+      {
+        "h": "Fungi",
+        "points": [
+          "Dimorphic fungi grow as molds at room temperature and as yeasts (or spherules) at body temperature, 37 °C (98.6 °F).",
+          "Histoplasma: Ohio and Mississippi river valleys, bird and bat droppings; small yeasts inside macrophages.",
+          "Blastomyces: Great Lakes and Ohio and Mississippi basins; large yeast with a thick wall and broad-based bud; skin and bone spread.",
+          "Coccidioides: southwestern United States desert dust; spherules filled with endospores; erythema nodosum and arthralgias.",
+          "Aspergillus: septate hyphae branching at acute angles (about 45 degrees); invasive disease with neutropenia.",
+          "Pneumocystis jirovecii: cysts on methenamine silver stain; diffuse interstitial pneumonia when CD4 count is below 200 cells/mm3."
+        ]
+      }
+    ],
+    "charts": [
+      {
+        "title": "Bacterial lung pathogens",
+        "cols": [
+          "Organism",
+          "Gram stain and shape",
+          "Key lab feature",
+          "Classic host or setting",
+          "Main virulence factor"
+        ],
+        "rows": [
+          [
+            "Streptococcus pneumoniae",
+            "Positive diplococci",
+            "Optochin sensitive, bile soluble",
+            "Community-acquired lobar pneumonia",
+            "Polysaccharide capsule"
+          ],
+          [
+            "Haemophilus influenzae",
+            "Negative coccobacillus",
+            "Needs factors X and V",
+            "Unvaccinated children, COPD",
+            "Type b capsule"
+          ],
+          [
+            "Klebsiella pneumoniae",
+            "Negative rod",
+            "Lactose fermenter, mucoid",
+            "Alcoholics, aspiration",
+            "Thick capsule"
+          ],
+          [
+            "Pseudomonas aeruginosa",
+            "Negative rod",
+            "Oxidase positive, blue-green pigment",
+            "Cystic fibrosis, ventilators",
+            "Exotoxin A, biofilm"
+          ],
+          [
+            "Legionella pneumophila",
+            "Negative rod, stains poorly",
+            "Charcoal yeast extract agar",
+            "Contaminated water, older smokers",
+            "Survives in macrophages"
+          ],
+          [
+            "Corynebacterium diphtheriae",
+            "Positive club-shaped rod",
+            "Black colonies on tellurite agar",
+            "Unvaccinated people",
+            "Diphtheria toxin (EF-2)"
+          ],
+          [
+            "Bordetella pertussis",
+            "Negative coccobacillus",
+            "Bordet-Gengou or Regan-Lowe agar",
+            "Infants, waning immunity",
+            "Pertussis toxin (Gi)"
+          ],
+          [
+            "Mycobacterium tuberculosis",
+            "Acid-fast rod",
+            "Lowenstein-Jensen agar, slow growth",
+            "Close contacts, HIV, crowding",
+            "Cord factor, sulfatides"
+          ]
+        ]
+      },
+      {
+        "title": "Lung fungi",
+        "cols": [
+          "Fungus",
+          "Where or who",
+          "Tissue form",
+          "Clue"
+        ],
+        "rows": [
+          [
+            "Histoplasma capsulatum",
+            "Ohio and Mississippi valleys, bird and bat droppings, caves",
+            "Small yeasts inside macrophages",
+            "Can mimic tuberculosis"
+          ],
+          [
+            "Blastomyces dermatitidis",
+            "Great Lakes, Ohio and Mississippi basins",
+            "Large yeast, broad-based bud, thick wall",
+            "Skin and bone lesions"
+          ],
+          [
+            "Coccidioides immitis",
+            "Southwestern United States deserts",
+            "Spherules with endospores",
+            "Erythema nodosum, dust exposure"
+          ],
+          [
+            "Aspergillus fumigatus",
+            "Neutropenia, steroids, old lung cavities",
+            "Septate hyphae, acute-angle branching",
+            "Fungus ball, angioinvasion"
+          ],
+          [
+            "Pneumocystis jirovecii",
+            "HIV with CD4 below 200 cells/mm3",
+            "Cysts on methenamine silver stain",
+            "Bilateral interstitial infiltrates"
+          ]
+        ]
+      }
+    ],
+    "tricks": [
+      {
+        "kind": "mnemonic",
+        "label": "Mold in the cold, yeast in the heat",
+        "text": "Dimorphic fungi grow as molds in the environment and as yeasts (Coccidioides as spherules) at body temperature."
+      },
+      {
+        "kind": "trick",
+        "label": "Two toxins, two targets",
+        "text": "Diphtheria hits EF-2 and stops protein synthesis. Pertussis hits Gi and raises cAMP. Both work by ADP-ribosylation."
+      },
+      {
+        "kind": "trick",
+        "label": "Drift versus shift",
+        "text": "Drift: small point mutations in hemagglutinin and neuraminidase, so yearly epidemics. Shift: a whole gene segment swapped between strains, so pandemics."
+      }
+    ],
+    "highYield": [
+      "Optochin sensitive, bile soluble, alpha-hemolytic diplococci: Streptococcus pneumoniae.",
+      "H. influenzae needs factors X and V; Legionella needs charcoal yeast extract agar.",
+      "Diphtheria toxin is prophage-encoded and inactivates EF-2.",
+      "Pertussis toxin inactivates Gi, raises cAMP, and causes lymphocytosis.",
+      "Cord factor and sulfatides let M. tuberculosis survive inside macrophages.",
+      "Influenza antigenic shift needs segment reassortment and occurs only in influenza A.",
+      "SARS-CoV-2 spike protein binds ACE2.",
+      "Pneumocystis appears when CD4 count falls below 200 cells/mm3; Aspergillus invades with neutropenia."
+    ],
+    "pitfalls": [
+      "Viridans streptococci are also alpha-hemolytic but are optochin resistant and bile insoluble.",
+      "Aspergillus has septate hyphae with acute angles; Mucor has broad nonseptate hyphae with wide angles.",
+      "Blastomyces yeast has a broad-based bud; Cryptococcus has a narrow-based bud and a thick capsule.",
+      "RSV is negative-sense RNA; coronaviruses are positive-sense RNA."
+    ],
+    "dumps": [
+      {
+        "t": "Pneumonia organism table",
+        "p": "Make a table of six bacterial causes of pneumonia: S. pneumoniae, H. influenzae, Klebsiella, Pseudomonas, Legionella, and M. tuberculosis. For each, write the Gram stain, one lab test, the classic patient, and one virulence factor.",
+        "l": [
+          "S. pneumoniae: gram-positive diplococci, optochin sensitive, capsule",
+          "H. influenzae: needs X and V factors, type b capsule",
+          "Klebsiella: mucoid capsule, alcoholics, currant jelly sputum",
+          "Pseudomonas: oxidase positive, cystic fibrosis and ventilators",
+          "Legionella: charcoal yeast extract agar, contaminated water, hyponatremia",
+          "M. tuberculosis: acid-fast, cord factor, droplet nuclei",
+          "Lobar pneumonia most often S. pneumoniae"
+        ]
+      },
+      {
+        "t": "Two ADP-ribosylating toxins",
+        "p": "Draw a host cell and show where diphtheria toxin and pertussis toxin act. Trace each from its target to the clinical picture.",
+        "l": [
+          "Both are A-B toxins that ADP-ribosylate a host protein",
+          "Diphtheria toxin gene carried by a prophage",
+          "Diphtheria: EF-2 inactivated, protein synthesis stops, cells die",
+          "Diphtheria picture: pseudomembrane, bull neck, myocarditis, nerve palsies",
+          "Pertussis: Gi inactivated, adenylyl cyclase unchecked, cAMP rises",
+          "Pertussis picture: paroxysmal cough with whoop, post-tussive vomiting",
+          "Pertussis causes marked lymphocytosis"
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "book": "Jawetz, Melnick, and Adelberg's Medical Microbiology",
+        "where": "section on the streptococci"
+      },
+      {
+        "book": "Jawetz, Melnick, and Adelberg's Medical Microbiology",
+        "where": "section on mycobacteria"
+      },
+      {
+        "book": "Jawetz, Melnick, and Adelberg's Medical Microbiology",
+        "where": "section on medical mycology"
+      },
+      {
+        "book": "Robbins and Cotran Pathologic Basis of Disease",
+        "where": "The Lung (section on pulmonary infections)"
+      }
+    ],
+    "videos": [],
+    "related": [
+      "PU-14-H",
+      "PU-12",
+      "PU-14-H9",
+      "PU-14-H4",
+      "PU-14-H7"
+    ]
+  },
+  {
+    "id": "PU-14-A",
+    "summary": "Restrictive lung diseases keep the lungs from filling: surfactant failure in newborns, diffuse alveolar damage in ARDS, scarring in idiopathic pulmonary fibrosis and the pneumoconioses, and granulomas in sarcoidosis. Exam questions ask you to match an exposure, histology, or lab pattern to the disease and to separate lung-tissue causes from chest wall and muscle causes.",
+    "notes": [
+      {
+        "h": "Neonatal respiratory distress syndrome",
+        "points": [
+          "Surfactant deficiency; risk rises with prematurity, maternal diabetes, cesarean delivery without labor, and male sex.",
+          "High surface tension collapses alveoli at end expiration (atelectasis), causing shunt, hypoxemia, and hyaline membranes (fibrin and dead cells).",
+          "Signs within hours of birth: tachypnea, grunting, nasal flaring, retractions; ground-glass X-ray with air bronchograms.",
+          "Hypoxemia keeps the ductus arteriosus open (patent ductus arteriosus).",
+          "O2 and ventilation can cause bronchopulmonary dysplasia and retinopathy of prematurity."
+        ]
+      },
+      {
+        "h": "Acute respiratory distress syndrome",
+        "points": [
+          "Diffuse alveolar damage after sepsis (most common), pneumonia, aspiration, trauma, or pancreatitis.",
+          "Macrophage cytokines recruit neutrophils, which release proteases and oxidants and break the capillary and epithelial barrier.",
+          "Protein-rich fluid floods alveoli and hyaline membranes form.",
+          "Criteria: onset within 1 week, bilateral infiltrates, edema not explained by heart failure, PaO2/FiO2 of 300 or less.",
+          "Example: PaO2 75 mmHg on FiO2 0.5 gives a ratio of 150 (moderate ARDS); hypoxemia responds poorly to O2 because of shunt."
+        ]
+      },
+      {
+        "h": "Idiopathic pulmonary fibrosis",
+        "points": [
+          "Older adults, more often men and smokers; repeated alveolar epithelial injury with abnormal repair.",
+          "TGF-beta drives fibroblasts and myofibroblasts to lay down collagen.",
+          "Usual interstitial pneumonia pattern: patchy subpleural and basal scar of different ages, fibroblastic foci, and honeycomb cysts at end stage.",
+          "Dry cough, slowly worsening dyspnea, fine bibasilar inspiratory crackles, clubbing.",
+          "Spirometry: low FVC and TLC, FEV1/FVC normal or high; DLCO reduced."
+        ]
+      },
+      {
+        "h": "Pneumoconioses",
+        "points": [
+          "Coal workers: upper lobes; coal macules and nodules, sometimes progressive massive fibrosis.",
+          "Silicosis (sandblasting, quarrying, foundries): upper lobe nodules, eggshell calcified hilar nodes, and higher tuberculosis risk because silica injures macrophages.",
+          "Asbestosis (shipyards, insulation, roofing, plumbing): lower lobes, ferruginous bodies (iron-coated fibers).",
+          "Asbestos also causes calcified pleural plaques, bronchogenic carcinoma (the most common cancer), and mesothelioma.",
+          "Berylliosis (aerospace, electronics): type IV reaction with noncaseating granulomas that mimic sarcoidosis."
+        ]
+      },
+      {
+        "h": "Sarcoidosis",
+        "points": [
+          "Noncaseating granulomas in many organs from a Th1 response to an unknown antigen.",
+          "Bilateral hilar lymphadenopathy is the classic X-ray finding, with or without interstitial lung disease.",
+          "Serum ACE is often elevated (made by granuloma cells).",
+          "Granuloma macrophages have 1-alpha-hydroxylase, make calcitriol, and cause hypercalcemia and hypercalciuria.",
+          "More common in Black women; usual onset age 20 to 40; eyes (uveitis), skin, and heart can be involved.",
+          "Lofgren syndrome: erythema nodosum, bilateral hilar lymphadenopathy, arthritis (often ankles), and fever; usually resolves."
+        ]
+      },
+      {
+        "h": "Intrinsic versus extrapulmonary restriction",
+        "points": [
+          "Intrinsic (lung tissue scar or fluid): low TLC, low DLCO, wide A-a gradient.",
+          "Extrapulmonary: obesity, kyphoscoliosis, neuromuscular weakness (ALS, myasthenia gravis, Guillain-Barre syndrome).",
+          "The alveolar membrane is normal, so DLCO is usually normal; hypoventilation raises PaCO2 with a normal A-a gradient."
+        ]
+      },
+      {
+        "h": "Other interstitial and occupational diseases",
+        "points": [
+          "Desquamative interstitial pneumonia: smokers; alveoli filled with pigmented macrophages; improves when smoking stops.",
+          "Nonspecific interstitial pneumonia: uniform interstitial inflammation and fibrosis (all the same age); linked to connective tissue disease.",
+          "Cryptogenic organizing pneumonia: polypoid plugs of loose fibroblast tissue (Masson bodies) in small airways and alveoli; responds to steroids.",
+          "Byssinosis: cotton dust, chest tightness on the first workday of the week; bagassosis: moldy sugarcane, a hypersensitivity pneumonitis.",
+          "Silo-filler disease: nitrogen dioxide from fresh silage causes pulmonary edema and later bronchiolitis obliterans.",
+          "Drug-induced fibrosis: bleomycin, amiodarone, busulfan, methotrexate (also nitrofurantoin); the drug history separates it from IPF."
+        ]
+      }
+    ],
+    "charts": [
+      {
+        "title": "Restrictive conditions in this unit",
+        "cols": [
+          "Condition",
+          "Cause or risk factors",
+          "Key mechanism",
+          "Classic findings",
+          "Complications"
+        ],
+        "rows": [
+          [
+            "Neonatal respiratory distress syndrome",
+            "Prematurity, maternal diabetes, cesarean without labor",
+            "Surfactant deficiency, alveolar collapse",
+            "Grunting, retractions, ground-glass X-ray, hyaline membranes",
+            "Patent ductus arteriosus, bronchopulmonary dysplasia, retinopathy of prematurity"
+          ],
+          [
+            "Acute respiratory distress syndrome",
+            "Sepsis, pneumonia, aspiration, trauma, pancreatitis",
+            "Neutrophil-mediated capillary leak, diffuse alveolar damage",
+            "Bilateral infiltrates, PaO2/FiO2 of 300 or less, hyaline membranes",
+            "Refractory hypoxemia, fibrosis"
+          ],
+          [
+            "Idiopathic pulmonary fibrosis",
+            "Older age, smoking, male sex",
+            "Repeated epithelial injury, TGF-beta driven fibrosis",
+            "Clubbing, bibasilar crackles, UIP pattern, honeycombing",
+            "Pulmonary hypertension, cor pulmonale, lung cancer"
+          ],
+          [
+            "Coal workers pneumoconiosis",
+            "Coal dust",
+            "Macrophage-laden coal dust",
+            "Upper lobe macules and nodules",
+            "Progressive massive fibrosis"
+          ],
+          [
+            "Silicosis",
+            "Sandblasting, quarrying, foundries",
+            "Silica injures macrophages, fibrosis",
+            "Upper lobe nodules, eggshell calcified hilar nodes",
+            "Tuberculosis, lung cancer"
+          ],
+          [
+            "Asbestosis",
+            "Shipyards, insulation, roofing, plumbing",
+            "Fiber-driven interstitial fibrosis",
+            "Lower lobe fibrosis, ferruginous bodies, pleural plaques",
+            "Bronchogenic carcinoma, mesothelioma"
+          ],
+          [
+            "Berylliosis",
+            "Aerospace and electronics work",
+            "Type IV hypersensitivity",
+            "Noncaseating granulomas, hilar nodes",
+            "Fibrosis"
+          ],
+          [
+            "Sarcoidosis",
+            "Black women, age 20 to 40",
+            "Th1 response, noncaseating granulomas",
+            "Bilateral hilar lymphadenopathy, high ACE, hypercalcemia",
+            "Uveitis, heart block, fibrosis"
+          ]
+        ]
+      },
+      {
+        "title": "Pulmonary function in restriction",
+        "cols": [
+          "Measure",
+          "Intrinsic (fibrosis)",
+          "Extrapulmonary (obesity, kyphoscoliosis, weakness)"
+        ],
+        "rows": [
+          [
+            "TLC",
+            "Low",
+            "Low"
+          ],
+          [
+            "FEV1/FVC",
+            "Normal or high",
+            "Normal or high"
+          ],
+          [
+            "DLCO",
+            "Low",
+            "Usually normal"
+          ],
+          [
+            "A-a gradient",
+            "Wide",
+            "Normal"
+          ],
+          [
+            "PaCO2",
+            "Normal or low",
+            "High if hypoventilating"
+          ]
+        ]
+      },
+      {
+        "title": "Interstitial pneumonia patterns",
+        "cols": [
+          "Pattern",
+          "Who",
+          "Histology"
+        ],
+        "rows": [
+          [
+            "Usual interstitial pneumonia (IPF)",
+            "Older adults, smokers",
+            "Patchy subpleural fibrosis of different ages, fibroblastic foci, honeycombing"
+          ],
+          [
+            "Nonspecific interstitial pneumonia",
+            "Connective tissue disease",
+            "Uniform inflammation and fibrosis of the same age"
+          ],
+          [
+            "Desquamative interstitial pneumonia",
+            "Smokers",
+            "Pigmented macrophages filling alveoli"
+          ],
+          [
+            "Cryptogenic organizing pneumonia",
+            "After infection, drugs, or idiopathic",
+            "Polypoid fibroblast plugs (Masson bodies)"
+          ]
+        ]
+      }
+    ],
+    "tricks": [
+      {
+        "kind": "trick",
+        "label": "Asbestos sits low",
+        "text": "Asbestosis hits the lower lobes; coal and silica hit the upper lobes. Think of asbestos fibers sinking to the bottom."
+      },
+      {
+        "kind": "trick",
+        "label": "Check DLCO to find the problem",
+        "text": "Restriction with a low DLCO means the lung tissue is sick. Restriction with a normal DLCO means the chest wall or muscles are the problem."
+      },
+      {
+        "kind": "trick",
+        "label": "Same age or mixed ages",
+        "text": "UIP looks like scars of many ages side by side. NSIP looks like everything happened at once."
+      }
+    ],
+    "highYield": [
+      "Infants of diabetic mothers get respiratory distress because fetal insulin delays surfactant.",
+      "ARDS: PaO2/FiO2 of 300 or less with bilateral infiltrates not explained by heart failure.",
+      "IPF: TGF-beta driven fibrosis, UIP pattern, clubbing, restrictive spirometry, low DLCO.",
+      "Silicosis raises tuberculosis risk and shows eggshell calcification of hilar nodes.",
+      "Ferruginous bodies and pleural plaques mean asbestos exposure.",
+      "Sarcoidosis hypercalcemia comes from macrophage 1-alpha-hydroxylase.",
+      "Lofgren syndrome: erythema nodosum, hilar nodes, arthritis, fever, good prognosis.",
+      "Bleomycin and amiodarone are classic causes of drug-induced pulmonary fibrosis."
+    ],
+    "pitfalls": [
+      "Neonatal RDS is surfactant deficiency; ARDS is diffuse alveolar damage with leak. Both show hyaline membranes.",
+      "Berylliosis granulomas look like sarcoidosis; ask about aerospace or electronics work.",
+      "Mesothelioma is the cancer most specific to asbestos, yet bronchogenic carcinoma is more common in asbestos workers.",
+      "Obesity and neuromuscular weakness cause restriction with a normal DLCO and a normal A-a gradient.",
+      "Byssinosis behaves like asthma (obstructive); bagassosis is a hypersensitivity pneumonitis."
+    ],
+    "dumps": [
+      {
+        "t": "Pneumoconiosis table",
+        "p": "Make a table of coal workers pneumoconiosis, silicosis, asbestosis, and berylliosis. For each, write the job, the lobe affected, the key finding, and the main complication.",
+        "l": [
+          "Coal: miners, upper lobes, coal macules",
+          "Coal complication: progressive massive fibrosis",
+          "Silica: sandblasting and quarrying, upper lobes, eggshell calcified hilar nodes",
+          "Silicosis raises tuberculosis risk",
+          "Asbestos: shipyards and insulation, lower lobes, ferruginous bodies, pleural plaques",
+          "Asbestos complications: bronchogenic carcinoma and mesothelioma",
+          "Beryllium: aerospace, noncaseating granulomas like sarcoidosis"
+        ]
+      },
+      {
+        "t": "Neonatal RDS versus ARDS",
+        "p": "Draw two alveoli side by side, one from a premature newborn with RDS and one from an adult with ARDS. Label what goes wrong in each, then list causes and complications under each drawing.",
+        "l": [
+          "Newborn: low surfactant, collapsed alveolus",
+          "Newborn causes: prematurity, maternal diabetes, cesarean without labor",
+          "Adult: neutrophils damage capillary and epithelium, protein-rich fluid floods alveolus",
+          "Adult causes: sepsis, pneumonia, aspiration, trauma, pancreatitis",
+          "Both show hyaline membranes",
+          "ARDS criterion: PaO2/FiO2 of 300 or less, not explained by heart failure",
+          "Newborn complications: patent ductus, bronchopulmonary dysplasia, retinopathy of prematurity",
+          "Adult complication: later interstitial fibrosis"
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "book": "Robbins and Cotran Pathologic Basis of Disease",
+        "where": "The Lung (sections on acute lung injury and chronic diffuse interstitial diseases)"
+      },
+      {
+        "book": "Robbins Basic Pathology",
+        "where": "Genetic and Pediatric Diseases (section on neonatal respiratory distress syndrome)"
+      },
+      {
+        "book": "Lange: Pathophysiology of Disease (McPhee and Hammer)",
+        "where": "Pulmonary Disease"
+      },
+      {
+        "book": "Guyton and Hall Textbook of Medical Physiology",
+        "where": "Respiratory Insufficiency: Pathophysiology, Diagnosis, Oxygen Therapy"
+      }
+    ],
+    "videos": [],
+    "related": [
+      "PU-9",
+      "PU-12",
+      "PU-6",
+      "PU-14-D4",
+      "PU-14-F5"
+    ]
+  }
+]

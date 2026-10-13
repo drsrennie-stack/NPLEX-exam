@@ -1,0 +1,1595 @@
+[
+  {
+    "id": "HE-C11",
+    "system": "HE",
+    "dx": "G6PD deficiency with acute hemolysis after eating fava beans",
+    "codes": [
+      "HE-9-B1"
+    ],
+    "case": "A 22-year-old man comes to the emergency department because of fatigue, low back pain, and dark urine that began 1 day after he ate a large meal of fresh fava beans. Temperature is 37.2 °C (99.0 °F), pulse is 108/min, respirations are 18/min, and blood pressure is 118/70 mm Hg. Physical examination shows pallor and scleral icterus without splenomegaly. Laboratory studies show hemoglobin 8.1 g/dL (13.5 to 17.5), reticulocytes 7% (0.5 to 1.5), lactate dehydrogenase 760 U/L (140 to 280), haptoglobin under 10 mg/dL (30 to 200), and indirect bilirubin 3.6 mg/dL (0.2 to 0.8). The direct antiglobulin test is negative. Urine dipstick is positive for blood, but no red cells are seen on microscopy. Red cell G6PD activity measured 3 months later is low. Diagnosis: acute hemolysis from glucose-6-phosphate dehydrogenase (G6PD) deficiency triggered by fava beans.",
+    "questions": [
+      {
+        "id": "HE-C11-Q1",
+        "stem": "His peripheral blood smear shows many red cells with semicircular pieces missing from their edges. Which of the following best explains the formation of these cells?",
+        "options": [
+          "Fibrin strands in small vessels slice red cells into fragments",
+          "Splenic macrophages remove IgG-coated patches of membrane",
+          "Splenic macrophages remove clumps of denatured hemoglobin",
+          "Weak spectrin anchoring lets membrane bleb off as microvesicles"
+        ],
+        "answer": 2,
+        "sea": "X",
+        "comp": "HE-9-B1",
+        "obj": "HE-9-B.3",
+        "dok": 3,
+        "approach": [
+          "Missing semicircular pieces describe bite cells.",
+          "Oxidant stress in G6PD deficiency denatures hemoglobin, which precipitates and attaches to the membrane as Heinz bodies.",
+          "Splenic macrophages pluck out the Heinz bodies with a piece of membrane, leaving the bite."
+        ],
+        "why": "Without enough G6PD, red cells cannot protect hemoglobin from oxidants such as the products of fava beans. Oxidized hemoglobin denatures and clumps into Heinz bodies, which bind the inner membrane. Many of these cells lyse in the circulation, which is why he has hemoglobinuria and a very low haptoglobin. Others pass through the spleen, where macrophages remove the Heinz body and the membrane over it, leaving bite cells. Heinz bodies are seen with a supravital stain such as crystal violet, while bite cells show on the routine Wright stain.",
+        "whyNot": [
+          "Fibrin strands in small vessels shear red cells into schistocytes in microangiopathic hemolysis, as in TTP, HUS, or DIC. Schistocytes are irregular fragments, and nothing here suggests vessel injury.",
+          "Partial removal of IgG-coated membrane makes spherocytes in warm autoimmune hemolytic anemia. His direct antiglobulin test is negative.",
+          "Correct.",
+          "Weak links between spectrin, ankyrin, and band 3 cause membrane loss and spherocytes in hereditary spherocytosis, a chronic disorder that does not flare after fava beans."
+        ],
+        "study": {
+          "topics": [
+            "Heinz bodies and bite cells",
+            "Red cell morphology in hemolysis"
+          ],
+          "comps": [
+            "HE-9-B1",
+            "HE-3"
+          ]
+        }
+      },
+      {
+        "id": "HE-C11-Q2",
+        "stem": "Fava beans contain compounds that generate hydrogen peroxide inside red cells. Which of the following is the most direct biochemical consequence of his enzyme defect that leaves his red cells unable to handle this oxidant load?",
+        "options": [
+          "Less NADPH to regenerate reduced glutathione",
+          "Less ATP to power the sodium-potassium ATPase",
+          "Less NADH to reduce methemoglobin to hemoglobin",
+          "Less 2,3-bisphosphoglycerate to unload oxygen"
+        ],
+        "answer": 0,
+        "sea": "B",
+        "comp": "HE-5",
+        "obj": "HE-5.5",
+        "dok": 3,
+        "approach": [
+          "G6PD catalyzes the first step of the pentose phosphate pathway, which makes NADPH.",
+          "Mature red cells have no mitochondria, so this pathway is their only source of NADPH.",
+          "Glutathione reductase uses NADPH to keep glutathione reduced, and reduced glutathione detoxifies hydrogen peroxide."
+        ],
+        "why": "G6PD converts glucose-6-phosphate to 6-phosphogluconolactone and reduces NADP+ to NADPH. Red cells lack mitochondria and other NADPH-producing routes, so they depend on this step. NADPH lets glutathione reductase regenerate reduced glutathione, which glutathione peroxidase uses to remove hydrogen peroxide. When NADPH runs short, peroxide oxidizes hemoglobin and membrane proteins, and the cells hemolyze. Between oxidant exposures, the small amount of NADPH is usually enough, so most patients have no anemia at baseline.",
+        "whyNot": [
+          "Correct.",
+          "ATP for the sodium-potassium pump comes from glycolysis. ATP loss is the problem in pyruvate kinase deficiency, which causes chronic hemolysis that does not depend on oxidant exposure.",
+          "NADH from the glyceraldehyde-3-phosphate dehydrogenase step of glycolysis feeds cytochrome b5 reductase, which reduces methemoglobin. A defect there causes methemoglobinemia with cyanosis, not hemolysis.",
+          "2,3-BPG is made in the Rapoport-Luebering shunt of glycolysis. It is low in hexokinase deficiency and high in pyruvate kinase deficiency, and it affects oxygen unloading rather than oxidant defense."
+        ],
+        "study": {
+          "topics": [
+            "Pentose phosphate pathway in red cells",
+            "Glutathione and NADPH"
+          ],
+          "comps": [
+            "HE-5",
+            "HE-9-B1"
+          ]
+        }
+      },
+      {
+        "id": "HE-C11-Q3",
+        "stem": "His grandparents lived in a region where Plasmodium falciparum malaria was once common. Which of the following best explains why G6PD deficiency alleles are frequent in such regions?",
+        "options": [
+          "Parasitized cells sickle at low oxygen tension and are removed",
+          "Red cells lack the Duffy antigen that merozoites need for entry",
+          "Red cells lack the glycophorin receptor for merozoite binding",
+          "Parasitized cells suffer oxidant damage and are cleared early"
+        ],
+        "answer": 3,
+        "sea": "M",
+        "comp": "HE-8",
+        "obj": "HE-8.3",
+        "dok": 2,
+        "approach": [
+          "Malaria selects for red cell traits that limit parasite growth.",
+          "A growing parasite adds oxidant stress to the red cell it lives in.",
+          "A G6PD-deficient red cell cannot handle that stress, so it is damaged and removed before the parasite multiplies well."
+        ],
+        "why": "Plasmodium falciparum digests hemoglobin and generates reactive oxygen species inside the red cell. In G6PD deficiency the infected cell has little NADPH to neutralize these oxidants, so it is damaged and recognized by phagocytes earlier in the parasite cycle. This lowers parasite burden and the risk of severe malaria, which gave carriers a survival advantage. Sickle cell trait and thalassemia trait were selected in malarial regions in the same way.",
+        "whyNot": [
+          "Sickling of parasitized cells at low oxygen tension, with early splenic removal, is how sickle cell trait protects against severe falciparum malaria.",
+          "Lack of the Duffy antigen protects against Plasmodium vivax, which uses it to enter red cells. It is common in people of West African descent and does not affect falciparum.",
+          "Glycophorins are red cell surface proteins used by falciparum merozoites, but G6PD deficiency does not remove them.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Red cell traits that protect against malaria",
+            "G6PD deficiency epidemiology"
+          ],
+          "comps": [
+            "HE-8",
+            "HE-9-E2"
+          ]
+        }
+      },
+      {
+        "id": "HE-C11-Q4",
+        "stem": "A 7-year-old girl seen in the same clinic has lifelong mild jaundice, splenomegaly, and anemia that does not worsen after she eats fava beans or takes oxidant drugs. Her direct antiglobulin test is negative, the smear shows no spherocytes, elliptocytes, or bite cells, and her red cell 2,3-bisphosphoglycerate is increased. Both parents are healthy. Which of the following best explains her hemolysis?",
+        "options": [
+          "Low NADPH leaves hemoglobin open to oxidation",
+          "Low ATP leaves red cells rigid and trapped in the spleen",
+          "Complement lyses red cells lacking GPI-anchored proteins",
+          "Spectrin defects make red cells elliptical and fragile"
+        ],
+        "answer": 1,
+        "sea": "X",
+        "comp": "HE-9-B1",
+        "obj": "HE-9-B.8",
+        "dok": 2,
+        "approach": [
+          "Chronic hemolysis without oxidant triggers, normal morphology, and healthy parents suggests an autosomal recessive glycolytic enzyme defect.",
+          "High 2,3-BPG points to a block below the 2,3-BPG shunt, at pyruvate kinase.",
+          "Without ATP, red cells lose cations and water, become rigid, and are removed in the spleen."
+        ],
+        "why": "Pyruvate kinase catalyzes the last ATP-generating step of glycolysis, which red cells rely on for all their ATP. When it is deficient, intermediates above the block build up, including 2,3-BPG, and ATP falls. The sodium-potassium pump fails, the cells lose potassium and water, and they become dehydrated and rigid. The spleen traps these cells, so the hemolysis is chronic, extravascular, and associated with splenomegaly. The disease is autosomal recessive, which fits healthy parents. The high 2,3-BPG shifts the oxygen curve to the right, so patients often tolerate their anemia well.",
+        "whyNot": [
+          "Low NADPH is the problem in G6PD deficiency, which causes episodes of hemolysis after oxidant triggers and shows bite cells. Her anemia is steady and unrelated to triggers.",
+          "Correct.",
+          "Complement lysis of cells lacking CD55 and CD59 is paroxysmal nocturnal hemoglobinuria, an acquired disorder with intravascular hemolysis, usually in adults.",
+          "Spectrin defects that make red cells elliptical cause hereditary elliptocytosis, usually autosomal dominant. Her smear shows no elliptocytes."
+        ],
+        "study": {
+          "topics": [
+            "Pyruvate kinase deficiency",
+            "Hereditary elliptocytosis"
+          ],
+          "comps": [
+            "HE-9-B1",
+            "HE-5"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "HE-C12",
+    "system": "HE",
+    "dx": "Hemolytic disease of the newborn from maternal anti-D",
+    "codes": [
+      "HE-9-B2"
+    ],
+    "case": "A male newborn is evaluated in the nursery 6 hours after a vaginal delivery at 38 weeks' gestation because of jaundice. His 29-year-old mother is blood group O, Rh(D)-negative. Her first child, who is Rh(D)-positive, was born 3 years ago in a setting where she did not receive anti-D immune globulin. An antibody screen at 28 weeks in this pregnancy detected anti-D. Physical examination of the infant shows pallor, jaundice, and hepatosplenomegaly. Laboratory studies show hemoglobin 10.8 g/dL (14 to 22), reticulocytes 14% (3 to 7), and cord blood total bilirubin 4.2 mg/dL (under 2), almost all unconjugated. The infant is blood group O, Rh(D)-positive, and his direct antiglobulin test is positive. Diagnosis: hemolytic disease of the newborn due to maternal anti-D.",
+    "questions": [
+      {
+        "id": "HE-C12-Q1",
+        "stem": "Which of the following is the most likely source of the antibody destroying this infant's red cells?",
+        "options": [
+          "IgG anti-D made after an earlier Rh-positive delivery",
+          "Naturally occurring IgM anti-D that rises with each pregnancy",
+          "IgG anti-A and anti-B that group O mothers naturally make",
+          "Antibodies the fetus made against maternal Rh-negative cells"
+        ],
+        "answer": 0,
+        "sea": "X",
+        "comp": "HE-9-B2",
+        "obj": "HE-9-B.5",
+        "dok": 3,
+        "approach": [
+          "Rh-negative people do not have natural anti-D, so she must have been sensitized.",
+          "Fetal Rh-positive cells entered her circulation at her first delivery, and without anti-D immune globulin she made anti-D.",
+          "In this pregnancy, memory B cells produced IgG anti-D, which crossed the placenta and coated fetal red cells."
+        ],
+        "why": "Rh-negative women make anti-D only after exposure to Rh-positive red cells, usually from fetal-maternal hemorrhage at delivery. The first response is mostly IgM and too late to harm that baby. In the next Rh-positive pregnancy, a fast IgG response occurs, and IgG crosses the placenta through neonatal Fc receptors. Fetal red cells coated with IgG are destroyed in the fetal spleen, causing anemia and, in severe cases, hydrops fetalis. Anti-D immune globulin given after delivery clears fetal cells before she can be sensitized.",
+        "whyNot": [
+          "Correct.",
+          "Anti-D is not naturally occurring. The clinically important naturally occurring antibodies are anti-A and anti-B, and IgM does not cross the placenta.",
+          "Group O mothers do make IgG anti-A and anti-B that can cause ABO hemolytic disease, usually milder than Rh disease and possible even in a first pregnancy. This infant is group O, so he has no A or B antigen to target.",
+          "The fetal immune system does not mount an antibody response against maternal red cells, and that would not hemolyze the infant's own cells."
+        ],
+        "study": {
+          "topics": [
+            "Rh alloimmunization",
+            "ABO versus Rh hemolytic disease"
+          ],
+          "comps": [
+            "HE-9-B2",
+            "HE-2"
+          ]
+        }
+      },
+      {
+        "id": "HE-C12-Q2",
+        "stem": "By 18 hours of age, his total serum bilirubin has risen to 14 mg/dL, almost all unconjugated. Which of the following best explains why the bilirubin is rising much faster now than before birth?",
+        "options": [
+          "Hepatic glucuronosyltransferase activity falls after delivery",
+          "Breast milk inhibits conjugation of bilirubin in the liver",
+          "Biliary obstruction blocks excretion of conjugated bilirubin",
+          "Bilirubin no longer crosses the placenta to the mother"
+        ],
+        "answer": 3,
+        "sea": "X",
+        "comp": "HE-9-B2",
+        "obj": "HE-9-B.6",
+        "dok": 3,
+        "approach": [
+          "A positive direct antiglobulin test shows maternal IgG on his red cells, so hemolysis continues after birth.",
+          "Before birth, unconjugated bilirubin crossed the placenta and was cleared by the mother's liver.",
+          "After birth, his immature liver must clear it alone, so unconjugated bilirubin climbs and kernicterus becomes a risk."
+        ],
+        "why": "Maternal IgG anti-D stays in the infant's blood for weeks and keeps destroying his red cells. In the fetus, unconjugated bilirubin crosses the placenta and the mother's liver conjugates and excretes it, so cord bilirubin is only modestly raised. After birth the newborn liver, which has low UDP-glucuronosyltransferase activity, cannot keep up. Unconjugated bilirubin that exceeds albumin binding can enter the brain and deposit in the basal ganglia, causing kernicterus. That is why these infants need close bilirubin monitoring, phototherapy, and sometimes exchange transfusion.",
+        "whyNot": [
+          "Newborn glucuronosyltransferase activity is low at birth and rises over the following weeks. It does not fall after delivery.",
+          "Breast milk jaundice appears after the first week of life and is mild. It does not explain a rapid rise on the first day.",
+          "Biliary obstruction raises conjugated bilirubin. His bilirubin is almost all unconjugated.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Neonatal bilirubin handling",
+            "Coombs tests in hemolytic disease"
+          ],
+          "comps": [
+            "HE-9-B2",
+            "HE-3"
+          ]
+        }
+      },
+      {
+        "id": "HE-C12-Q3",
+        "stem": "An exchange transfusion is planned. Which of the following red cell units is most appropriate for this infant?",
+        "options": [
+          "Group O, Rh-positive red cells",
+          "Group O, Rh-negative red cells",
+          "Group AB, Rh-negative red cells",
+          "Group A, Rh-negative red cells"
+        ],
+        "answer": 1,
+        "sea": "P",
+        "comp": "HE-2",
+        "obj": "HE-2.7",
+        "dok": 2,
+        "approach": [
+          "The infant's plasma contains maternal IgG anti-D and the mother's IgG anti-A and anti-B.",
+          "Donor cells must lack D antigen or the maternal anti-D will destroy them.",
+          "Donor cells must also lack A and B antigens, since the infant is group O and carries maternal anti-A and anti-B."
+        ],
+        "why": "Red cells given to a patient must lack any antigen that the patient's plasma can attack. This infant's plasma holds maternal anti-D that crossed the placenta, plus maternal IgG anti-A and anti-B, since his mother is group O. Newborns do not make their own anti-A and anti-B until a few months of age. Group O red cells have no A or B antigen, and Rh-negative cells have no D antigen, so group O, Rh-negative cells will survive. The units are also crossmatched against the mother's plasma because it contains the offending antibody.",
+        "whyNot": [
+          "Rh-positive cells carry D antigen, so the maternal anti-D still in his blood would destroy them.",
+          "Correct.",
+          "Group AB cells carry A and B antigens and would be attacked by the maternal anti-A and anti-B in this infant's plasma. Group AB plasma, on the other hand, is the universal plasma donor.",
+          "Group A cells would be attacked by the maternal anti-A in his plasma. Group A cells would be suitable only for a group A or AB recipient."
+        ],
+        "study": {
+          "topics": [
+            "ABO and Rh compatibility",
+            "Red cell versus plasma donors"
+          ],
+          "comps": [
+            "HE-2",
+            "HE-9-B2"
+          ]
+        }
+      },
+      {
+        "id": "HE-C12-Q4",
+        "stem": "Ceftriaxone is avoided in this infant because it can raise the risk of bilirubin entering the brain. Which of the following best explains this effect?",
+        "options": [
+          "It inhibits heme oxygenase in splenic macrophages",
+          "It inhibits biliverdin reductase in splenic macrophages",
+          "It displaces unconjugated bilirubin from albumin",
+          "It blocks secretion of conjugated bilirubin into bile"
+        ],
+        "answer": 2,
+        "sea": "B",
+        "comp": "HE-3",
+        "obj": "HE-3.2",
+        "dok": 2,
+        "approach": [
+          "Heme from destroyed red cells is turned into biliverdin and then unconjugated bilirubin in macrophages.",
+          "Unconjugated bilirubin is water-insoluble and travels to the liver bound to albumin.",
+          "Drugs that compete for albumin binding raise free bilirubin, the form that crosses the blood-brain barrier."
+        ],
+        "why": "Macrophages break heme down with heme oxygenase to biliverdin, carbon monoxide, and iron, and biliverdin reductase converts biliverdin to unconjugated bilirubin. This lipid-soluble bilirubin is carried bound to albumin to the liver, where UDP-glucuronosyltransferase conjugates it for excretion into bile. In the gut, bacteria convert it to urobilinogen, which becomes stercobilin in stool and urobilin in urine. Only the small unbound fraction of unconjugated bilirubin can cross into the brain. Ceftriaxone and sulfonamides compete for albumin binding sites, raising free bilirubin and the risk of kernicterus in a jaundiced newborn.",
+        "whyNot": [
+          "Blocking heme oxygenase would reduce bilirubin production, which would lower the risk of brain injury.",
+          "Blocking biliverdin reductase would leave biliverdin, which is not neurotoxic like unconjugated bilirubin.",
+          "Correct.",
+          "Blocking biliary secretion would raise conjugated bilirubin. Conjugated bilirubin is water-soluble and does not cross the blood-brain barrier."
+        ],
+        "study": {
+          "topics": [
+            "Heme catabolism",
+            "Bilirubin transport and kernicterus"
+          ],
+          "comps": [
+            "HE-3",
+            "HE-9-B2"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "HE-C13",
+    "system": "HE",
+    "dx": "Paroxysmal nocturnal hemoglobinuria with hepatic vein thrombosis",
+    "codes": [
+      "HE-9-B1"
+    ],
+    "case": "A 34-year-old woman comes to the physician because of 2 weeks of right upper quadrant pain and increasing abdominal girth. For several months she has had fatigue and episodes of dark urine that are most noticeable in the morning. Temperature is 37.0 °C (98.6 °F), pulse is 96/min, respirations are 16/min, and blood pressure is 112/70 mm Hg. Physical examination shows tender hepatomegaly and shifting dullness. Laboratory studies show hemoglobin 8.9 g/dL (12 to 16), reticulocytes 5% (0.5 to 1.5), leukocytes 3,100/µL (4,500 to 11,000), platelets 92,000/µL (150,000 to 400,000), lactate dehydrogenase 1,450 U/L (140 to 280), and indirect bilirubin 2.4 mg/dL (0.2 to 0.8). Doppler ultrasonography shows occlusion of the hepatic veins. Flow cytometry shows red cells and granulocytes lacking CD55 and CD59. Diagnosis: paroxysmal nocturnal hemoglobinuria complicated by hepatic vein thrombosis (Budd-Chiari syndrome).",
+    "questions": [
+      {
+        "id": "HE-C13-Q1",
+        "stem": "Sequencing of her marrow cells shows an acquired mutation in PIGA. Which of the following best explains how this mutation leads to her hemolysis?",
+        "options": [
+          "IgM autoantibodies fix complement on red cells in the cold",
+          "Loss of plasma C1 inhibitor allows unchecked classical pathway activity",
+          "Mutant factor H fails to bind red cell surface sialic acid",
+          "Complement regulators cannot be anchored to the cell membrane"
+        ],
+        "answer": 3,
+        "sea": "M",
+        "comp": "HE-9-B",
+        "obj": "HE-9-B.7",
+        "dok": 3,
+        "approach": [
+          "PIGA encodes an enzyme needed to build the glycosylphosphatidylinositol (GPI) anchor.",
+          "CD55 (decay-accelerating factor) and CD59 (which blocks membrane attack complex formation) are GPI-anchored.",
+          "Without them, red cells cannot shut down complement that is always being activated at a low rate, so they lyse in the vessels."
+        ],
+        "why": "PIGA is an X-linked gene needed for the first step of GPI anchor synthesis. A somatic mutation in a stem cell gives rise to clones of blood cells with no GPI-anchored proteins. CD55 normally speeds the breakdown of C3 and C5 convertases, and CD59 prevents the membrane attack complex from forming, so their loss leaves red cells exposed to the alternative pathway, which runs at a low level all the time. The result is intravascular hemolysis, hemoglobinuria, and release of free hemoglobin. Flow cytometry for CD55, CD59, or the FLAER reagent detects the abnormal clone.",
+        "whyNot": [
+          "Cold IgM autoantibodies that fix complement cause cold agglutinin disease, often after Mycoplasma infection or with lymphoma. Their direct antiglobulin test is positive for C3, and PIGA is normal.",
+          "Deficiency of C1 inhibitor causes hereditary angioedema, with bradykinin-mediated swelling, not hemolysis.",
+          "Factor H defects allow complement attack on endothelium in atypical hemolytic uremic syndrome. Factor H is a plasma protein and does not depend on PIGA.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Paroxysmal nocturnal hemoglobinuria",
+            "Complement regulatory proteins"
+          ],
+          "comps": [
+            "HE-9-B1",
+            "HE-7"
+          ]
+        }
+      },
+      {
+        "id": "HE-C13-Q2",
+        "stem": "Which of the following additional laboratory findings is most likely in this patient?",
+        "options": [
+          "Many spherocytes on the peripheral smear",
+          "Hemosiderin in urinary epithelial cells",
+          "Bilirubin on urine dipstick testing",
+          "Positive direct antiglobulin test"
+        ],
+        "answer": 1,
+        "sea": "X",
+        "comp": "HE-3",
+        "obj": "HE-3.3",
+        "dok": 3,
+        "approach": [
+          "Complement lysis in PNH happens inside blood vessels.",
+          "Free hemoglobin is filtered by the kidney, and tubular cells absorb it and store the iron as hemosiderin.",
+          "These iron-laden cells shed into the urine, so chronic intravascular hemolysis gives hemosiderinuria."
+        ],
+        "why": "Intravascular hemolysis releases hemoglobin into plasma. Haptoglobin binds it and is quickly used up, LDH rises, and once haptoglobin is gone, free hemoglobin passes into the urine. Renal tubular cells take up some of this hemoglobin and convert its iron to hemosiderin, which appears in shed cells within several days. Chronic hemosiderinuria can cause iron deficiency in PNH. Extravascular hemolysis in the spleen, by contrast, gives spherocytes and splenomegaly, without hemoglobinuria or hemosiderinuria.",
+        "whyNot": [
+          "Spherocytes come from partial removal of membrane in the spleen, as in hereditary spherocytosis or warm autoimmune hemolysis. They point to extravascular hemolysis.",
+          "Correct.",
+          "Urine bilirubin is conjugated bilirubin, which appears in hepatitis or biliary obstruction. Unconjugated bilirubin from hemolysis is bound to albumin and is not filtered.",
+          "The direct antiglobulin test is negative in PNH because no antibody is involved. A positive result indicates immune hemolysis."
+        ],
+        "study": {
+          "topics": [
+            "Intravascular versus extravascular hemolysis",
+            "Hemosiderinuria"
+          ],
+          "comps": [
+            "HE-3",
+            "HE-9-B1"
+          ]
+        }
+      },
+      {
+        "id": "HE-C13-Q3",
+        "stem": "Repeat flow cytometry shows that CD59 is also missing from her monocytes, platelets, and a subset of lymphocytes. The PIGA mutation most likely arose in which of the following cells?",
+        "options": [
+          "Hematopoietic stem cell",
+          "Common myeloid progenitor",
+          "Megakaryocyte-erythroid progenitor",
+          "Granulocyte-monocyte progenitor"
+        ],
+        "answer": 0,
+        "sea": "A",
+        "comp": "HE-1",
+        "obj": "HE-1.2",
+        "dok": 2,
+        "approach": [
+          "Find the lowest cell that gives rise to every affected lineage.",
+          "Red cells, granulocytes, monocytes, and platelets come from the common myeloid progenitor, but lymphocytes come from the common lymphoid progenitor.",
+          "Only the hematopoietic stem cell produces both myeloid and lymphoid cells."
+        ],
+        "why": "Hematopoiesis starts with the self-renewing hematopoietic stem cell, which gives rise to the common myeloid progenitor and the common lymphoid progenitor. The myeloid progenitor makes the megakaryocyte-erythroid progenitor (platelets and red cells) and the granulocyte-monocyte progenitor (neutrophils, eosinophils, basophils, and monocytes). The lymphoid progenitor makes B cells, T cells, and NK cells. A defect found in both lymphoid and myeloid cells must start in the stem cell. This also explains the pancytopenia and the link between PNH and aplastic anemia, which both involve the stem cell compartment.",
+        "whyNot": [
+          "Correct.",
+          "A mutation in the common myeloid progenitor would affect red cells, platelets, granulocytes, and monocytes but would spare lymphocytes.",
+          "A mutation in the megakaryocyte-erythroid progenitor would affect only red cells and platelets.",
+          "A mutation in the granulocyte-monocyte progenitor would affect only granulocytes and monocytes."
+        ],
+        "study": {
+          "topics": [
+            "Hematopoietic lineages",
+            "Clonal stem cell disorders"
+          ],
+          "comps": [
+            "HE-1",
+            "HE-9-A1"
+          ]
+        }
+      },
+      {
+        "id": "HE-C13-Q4",
+        "stem": "After recovery she asks about starting a combined estrogen-progestin oral contraceptive. Which of the following effects of estrogen would most add to her risk of another venous thrombosis?",
+        "options": [
+          "Increased hepatic synthesis of antithrombin III",
+          "Decreased hepatic synthesis of fibrinogen and factor VII",
+          "Increased hepatic synthesis of clotting factors",
+          "Decreased platelet surface expression of GpIIb/IIIa"
+        ],
+        "answer": 2,
+        "sea": "X",
+        "comp": "HE-4",
+        "obj": "HE-4.6",
+        "dok": 2,
+        "approach": [
+          "Virchow triad lists stasis, endothelial injury, and hypercoagulability.",
+          "PNH already makes her blood hypercoagulable.",
+          "Estrogen adds to this by raising liver production of clotting factors and lowering natural anticoagulants."
+        ],
+        "why": "Virchow triad explains venous thrombosis as stasis, endothelial injury, or hypercoagulability. Estrogen acts on the liver to raise fibrinogen and factors II, VII, VIII, and X, and it lowers protein S and causes acquired resistance to activated protein C. This is the same hypercoagulable effect seen in pregnancy. Immobility and surgery add stasis, surgery adds endothelial injury, and malignancy adds procoagulant release. A patient with PNH and a prior thrombosis already carries a high risk, so estrogen-containing contraception is generally avoided.",
+        "whyNot": [
+          "Estrogen tends to lower antithrombin, and more antithrombin would reduce, not raise, clotting risk.",
+          "Estrogen raises fibrinogen and factor VII. Lower levels would reduce thrombosis risk.",
+          "Correct.",
+          "Less GpIIb/IIIa would impair platelet aggregation and cause bleeding, as in Glanzmann thrombasthenia."
+        ],
+        "study": {
+          "topics": [
+            "Virchow triad",
+            "Estrogen and venous thrombosis"
+          ],
+          "comps": [
+            "HE-4",
+            "HE-9-B1"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "HE-C14",
+    "system": "HE",
+    "dx": "Thrombotic thrombocytopenic purpura from acquired ADAMTS13 autoantibodies",
+    "codes": [
+      "HE-9-B",
+      "HE-9-C"
+    ],
+    "case": "A 42-year-old man is brought to the emergency department because of 3 days of fatigue, headache, and new confusion. He has no diarrhea. Temperature is 37.9 °C (100.2 °F), pulse is 104/min, respirations are 18/min, and blood pressure is 136/84 mm Hg. Physical examination shows scattered petechiae on the legs and mild disorientation without focal deficits. Laboratory studies show hemoglobin 7.6 g/dL (13.5 to 17.5), platelets 14,000/µL (150,000 to 400,000), lactate dehydrogenase 1,900 U/L (140 to 280), haptoglobin under 10 mg/dL (30 to 200), creatinine 1.4 mg/dL (0.7 to 1.3), and normal prothrombin and partial thromboplastin times. The direct antiglobulin test is negative. The peripheral smear shows many fragmented red cells. ADAMTS13 activity is under 5% (60 to 130), and an inhibitory IgG antibody is detected. Diagnosis: immune thrombotic thrombocytopenic purpura.",
+    "questions": [
+      {
+        "id": "HE-C14-Q1",
+        "stem": "Which of the following features best distinguishes his disorder from hemolytic uremic syndrome caused by Escherichia coli O157:H7?",
+        "options": [
+          "Normal PT and PTT despite severe thrombocytopenia",
+          "Persistence of ultralarge von Willebrand multimers",
+          "Schistocytes from shearing in occluded small vessels",
+          "Consumption of clotting factors and fibrinogen"
+        ],
+        "answer": 1,
+        "sea": "X",
+        "comp": "HE-9-B",
+        "obj": "HE-9-B.9",
+        "dok": 3,
+        "approach": [
+          "Both TTP and HUS are thrombotic microangiopathies with schistocytes, thrombocytopenia, and normal PT and PTT.",
+          "The difference is the trigger: ADAMTS13 deficiency in TTP, and Shiga toxin injury to renal endothelium in HUS.",
+          "Low ADAMTS13 means ultralarge von Willebrand factor multimers are never cut down."
+        ],
+        "why": "ADAMTS13 is a plasma protease that cleaves ultralarge von Willebrand factor multimers as they are released from endothelium. When an autoantibody blocks it, these sticky multimers persist and bind platelets under high shear, forming platelet-rich microthrombi throughout the body, especially in the brain. In HUS, Shiga toxin from E. coli O157:H7 binds globotriaosylceramide (Gb3) on renal endothelial cells and injures them, so ADAMTS13 is normal and kidney failure dominates. Both disorders consume platelets and shear red cells, but neither activates the clotting cascade enough to prolong the PT and PTT.",
+        "whyNot": [
+          "Normal PT and PTT with low platelets occurs in both TTP and HUS, so it does not separate them. It does separate both from DIC.",
+          "Correct.",
+          "Schistocytes form in both disorders as red cells are cut by microthrombi in small vessels.",
+          "Consumption of clotting factors and fibrinogen is typical of DIC. It is absent in both TTP and HUS."
+        ],
+        "study": {
+          "topics": [
+            "TTP versus HUS",
+            "ADAMTS13 and von Willebrand factor"
+          ],
+          "comps": [
+            "HE-9-B",
+            "HE-9-C"
+          ]
+        }
+      },
+      {
+        "id": "HE-C14-Q2",
+        "stem": "On his Wright-stained smear, some small fragments must be classified as schistocytes or as platelets. Which of the following features identifies a fragment as a schistocyte?",
+        "options": [
+          "Purple granular center within a pale blue rim",
+          "Dark purple nucleus with scant pale blue cytoplasm",
+          "Pink-red color, no granules, and sharp angular edges",
+          "Bluish-gray color, no granules, and size larger than mature red cells"
+        ],
+        "answer": 2,
+        "sea": "A",
+        "comp": "HE-1",
+        "obj": "HE-1.1",
+        "dok": 2,
+        "approach": [
+          "A schistocyte is a piece of a red cell, so it keeps the color of red cells.",
+          "Red cells stain pink-red with eosin from hemoglobin and have no nucleus or granules.",
+          "Platelets are small with purple granules in the center and a pale rim."
+        ],
+        "why": "On a Wright stain, normal red cells are 7 to 8 µm, pink-red, anucleate disks with central pallor. Schistocytes are fragments of these cells, so they keep the pink-red color but have sharp angles, points, or helmet shapes. Platelets are 2 to 3 µm, anucleate, with a purple granular center (granulomere) and a pale blue rim (hyalomere). Lymphocytes have a round dark nucleus with little cytoplasm, and neutrophils have 3 to 5 lobes with faint lilac granules. Separating schistocytes from platelets matters, because counting fragments as platelets can falsely raise the automated platelet count.",
+        "whyNot": [
+          "A purple granular center with a pale rim describes a platelet.",
+          "A dark nucleus with scant blue cytoplasm describes a small lymphocyte or a nucleated red cell. Schistocytes have no nucleus.",
+          "Correct.",
+          "Large bluish-gray cells without granules are polychromatophilic red cells (reticulocytes), which show active marrow response to hemolysis."
+        ],
+        "study": {
+          "topics": [
+            "Peripheral smear cell identification",
+            "Schistocytes"
+          ],
+          "comps": [
+            "HE-1",
+            "HE-9-B"
+          ]
+        }
+      },
+      {
+        "id": "HE-C14-Q3",
+        "stem": "Endothelial Weibel-Palade bodies are one source of the von Willebrand factor that builds up in this disorder. Which of the following platelet structures also stores and releases von Willebrand factor?",
+        "options": [
+          "Dense granules",
+          "Lysosomal granules",
+          "Open canalicular system",
+          "Alpha granules"
+        ],
+        "answer": 3,
+        "sea": "A",
+        "comp": "HE-1",
+        "obj": "HE-1.6",
+        "dok": 2,
+        "approach": [
+          "Platelets get their stored proteins from megakaryocytes, which package them into granules before the cytoplasm fragments into platelets.",
+          "Platelet granules come in two main types, alpha and dense.",
+          "Large proteins such as von Willebrand factor and fibrinogen are stored in alpha granules, while dense granules hold small molecules."
+        ],
+        "why": "Platelets form when megakaryocytes in the marrow extend cytoplasmic processes into sinusoids and shed fragments. Each platelet carries granules made by the megakaryocyte. Alpha granules are the most numerous and hold proteins, including von Willebrand factor, fibrinogen, factor V, platelet factor 4, and platelet-derived growth factor. Dense granules hold ADP, calcium, and serotonin. Both granule types release their contents when platelets are activated.",
+        "whyNot": [
+          "Dense granules store small molecules, ADP, calcium, and serotonin, which recruit and activate more platelets.",
+          "Platelet lysosomes contain acid hydrolases and do not store von Willebrand factor.",
+          "The open canalicular system is a network of membrane channels that connects the platelet interior to the surface. It is a route for release, not a storage site.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Platelet granule contents",
+            "Megakaryocytes and platelet formation"
+          ],
+          "comps": [
+            "HE-1",
+            "HE-4"
+          ]
+        }
+      },
+      {
+        "id": "HE-C14-Q4",
+        "stem": "Under the high shear stress of arterioles, the ultralarge von Willebrand factor multimers in his plasma capture platelets. Which of the following platelet receptors mediates this initial binding?",
+        "options": [
+          "Glycoprotein Ib",
+          "Glycoprotein IIb/IIIa",
+          "P2Y12 ADP receptor",
+          "Glycoprotein VI"
+        ],
+        "answer": 0,
+        "sea": "P",
+        "comp": "HE-4",
+        "obj": "HE-4.2",
+        "dok": 2,
+        "approach": [
+          "Primary hemostasis has two platelet steps, adhesion and aggregation.",
+          "Adhesion under shear depends on von Willebrand factor binding a specific platelet receptor.",
+          "That receptor is glycoprotein Ib, part of the GpIb-IX-V complex."
+        ],
+        "why": "When a vessel is injured, von Willebrand factor binds exposed subendothelial collagen and unfolds under shear, exposing its A1 domain. Platelet glycoprotein Ib binds this site and tethers the platelet. The platelet then becomes activated, releases ADP and thromboxane A2, and changes its GpIIb/IIIa receptors so they bind fibrinogen and link platelets together. In TTP, ultralarge multimers are especially adhesive, so under high shear they bind GpIb without any vessel injury and build platelet-rich microthrombi.",
+        "whyNot": [
+          "Correct.",
+          "GpIIb/IIIa binds fibrinogen and links platelets during aggregation, after adhesion and activation. It is the receptor missing in Glanzmann thrombasthenia.",
+          "P2Y12 is the receptor through which released ADP activates more platelets. It is the target of clopidogrel.",
+          "Glycoprotein VI binds collagen directly and helps activate platelets. It does not bind von Willebrand factor."
+        ],
+        "study": {
+          "topics": [
+            "Platelet adhesion",
+            "Primary hemostasis"
+          ],
+          "comps": [
+            "HE-4",
+            "HE-9-C4"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "HE-C15",
+    "system": "HE",
+    "dx": "Hepatosplenic schistosomiasis (Schistosoma mansoni) with hypersplenism",
+    "codes": [
+      "HE-9-E3"
+    ],
+    "case": "A 33-year-old woman comes to the emergency department after vomiting bright red blood. She grew up in a rural area of northeastern Brazil, where she often bathed and washed clothes in local streams, and moved to the United States 4 years ago. Temperature is 36.9 °C (98.4 °F), pulse is 112/min, respirations are 18/min, and blood pressure is 98/62 mm Hg. Physical examination shows the spleen 8 cm below the left costal margin, a firm left hepatic lobe, and no jaundice or spider angiomata. Laboratory studies show hemoglobin 9.4 g/dL (12 to 16), leukocytes 3,400/µL (4,500 to 11,000) with 16% eosinophils (1 to 4), platelets 62,000/µL (150,000 to 400,000), albumin 4.0 g/dL (3.5 to 5.5), and INR 1.0. Endoscopy shows large esophageal varices. Ultrasonography shows thick periportal fibrosis. Stool examination shows eggs with a prominent lateral spine. Diagnosis: hepatosplenic schistosomiasis due to Schistosoma mansoni with portal hypertension and hypersplenism.",
+    "questions": [
+      {
+        "id": "HE-C15-Q1",
+        "stem": "Which of the following best explains her portal hypertension with preserved hepatic synthetic function?",
+        "options": [
+          "Sinusoidal distortion by regenerative cirrhotic nodules",
+          "Postsinusoidal block from occlusion of the hepatic veins",
+          "Presinusoidal fibrosis from granulomas around trapped eggs",
+          "Prehepatic block from thrombosis of the splenic vein alone"
+        ],
+        "answer": 2,
+        "sea": "X",
+        "comp": "HE-9-E3",
+        "obj": "HE-9-E.4",
+        "dok": 3,
+        "approach": [
+          "Eggs laid in mesenteric veins are swept by portal flow into the liver, where they lodge in small portal vein branches.",
+          "Egg antigens trigger granulomas with eosinophils, which heal by fibrosis around portal tracts (pipestem fibrosis).",
+          "The block lies before the sinusoids, so hepatocytes are spared and albumin and INR stay normal."
+        ],
+        "why": "Schistosoma mansoni adults live in mesenteric venules and release eggs, many of which travel to the liver and lodge in presinusoidal portal venules. A CD4 T helper 2 response forms granulomas rich in eosinophils and macrophages around each egg, and the healing scar thickens the portal tracts into pipestem fibrosis. Portal pressure rises, causing splenomegaly and varices, while the liver cells themselves keep working. Schistosoma haematobium lives in the vesical venous plexus instead, and its eggs cause hematuria, bladder fibrosis, and squamous cell carcinoma of the bladder.",
+        "whyNot": [
+          "Cirrhosis distorts the sinusoids and usually reduces synthetic function, causing low albumin and a high INR. Her albumin and INR are normal and she has no stigmata of chronic liver disease.",
+          "Hepatic vein occlusion (Budd-Chiari syndrome) causes tender hepatomegaly and ascites. Ultrasonography would show the obstructed hepatic veins, not periportal fibrosis.",
+          "Correct.",
+          "Isolated splenic vein thrombosis causes left-sided portal hypertension with gastric varices. It does not cause periportal fibrosis of the liver."
+        ],
+        "study": {
+          "topics": [
+            "Schistosomal liver disease",
+            "Presinusoidal portal hypertension"
+          ],
+          "comps": [
+            "HE-9-E3",
+            "HE-8"
+          ]
+        }
+      },
+      {
+        "id": "HE-C15-Q2",
+        "stem": "In which of the following sites do the adult worms most likely live, allowing their eggs to reach both her liver and her stool?",
+        "options": [
+          "Mesenteric venules draining the bowel",
+          "Vesical venous plexus around the bladder",
+          "Intrahepatic bile ducts and gallbladder",
+          "Lymphatic channels in the bowel wall"
+        ],
+        "answer": 0,
+        "sea": "M",
+        "comp": "HE-8",
+        "obj": "HE-8.5",
+        "dok": 2,
+        "approach": [
+          "Her stream exposure fits cercariae from freshwater snails penetrating her skin.",
+          "Schistosomula migrate to the portal system and mature, and S. mansoni pairs settle in mesenteric venules.",
+          "Eggs pass through the bowel wall into stool or flow back with portal blood to the liver."
+        ],
+        "why": "The Schistosoma life cycle needs a freshwater snail as intermediate host. Snails release free-swimming cercariae that penetrate human skin, lose their tails, and travel through the lungs to the portal venous system. Adult male and female worms pair and move to their final venules: mesenteric veins for S. mansoni and S. japonicum, and the vesical venous plexus for S. haematobium. Eggs either cross the bowel wall to leave in stool or are carried by portal blood to the liver, where they cause granulomas. Eggs that reach fresh water hatch into miracidia, which infect snails and complete the cycle.",
+        "whyNot": [
+          "Correct.",
+          "The vesical venous plexus is home to S. haematobium, whose terminal-spined eggs appear in urine and cause bladder disease.",
+          "Bile ducts are home to the liver flukes Clonorchis and Opisthorchis, which are acquired by eating raw freshwater fish.",
+          "Schistosomes live in veins. Filarial worms such as Wuchereria bancrofti live in lymphatics."
+        ],
+        "study": {
+          "topics": [
+            "Schistosoma life cycle",
+            "Species and their sites"
+          ],
+          "comps": [
+            "HE-8",
+            "HE-9-E3"
+          ]
+        }
+      },
+      {
+        "id": "HE-C15-Q3",
+        "stem": "A bone marrow examination is done to evaluate her low blood counts. Which of the following findings is most likely?",
+        "options": [
+          "Hypocellular marrow replaced mainly by fat",
+          "Cellular marrow with all lineages present",
+          "Fibrotic marrow with a dry tap on aspiration",
+          "Marrow replaced by sheets of immature blasts"
+        ],
+        "answer": 1,
+        "sea": "X",
+        "comp": "HE-9-B",
+        "obj": "HE-9-B.12",
+        "dok": 3,
+        "approach": [
+          "Pancytopenia with massive splenomegaly from portal hypertension suggests hypersplenism.",
+          "In hypersplenism, an enlarged spleen pools and removes blood cells that the marrow made normally.",
+          "The marrow responds to this loss, so it is cellular with all lineages present."
+        ],
+        "why": "An enlarged, congested spleen holds a large share of the circulating platelets and also traps red and white cells. This lowers all three counts in the blood, although the marrow keeps making cells, and often more than usual. A marrow examination therefore shows normal or increased cellularity with normal maturation of all lineages. Marrow failure, by contrast, shows empty or replaced marrow and usually no splenomegaly. Treating the portal hypertension or removing the spleen corrects cytopenias from hypersplenism.",
+        "whyNot": [
+          "A fatty, hypocellular marrow means marrow failure, as in aplastic anemia, which does not cause splenomegaly.",
+          "Correct.",
+          "A fibrotic marrow with a dry tap suggests primary myelofibrosis, which also gives a large spleen, but from extramedullary hematopoiesis, with teardrop cells on the smear.",
+          "Sheets of blasts indicate acute leukemia, which would show blasts in the blood and does not fit her long exposure history and liver findings."
+        ],
+        "study": {
+          "topics": [
+            "Hypersplenism",
+            "Marrow failure versus peripheral destruction"
+          ],
+          "comps": [
+            "HE-9-B",
+            "HE-9-A1"
+          ]
+        }
+      },
+      {
+        "id": "HE-C15-Q4",
+        "stem": "Her eosinophil count is increased. Which of the following best describes how these cells damage schistosome larvae?",
+        "options": [
+          "Engulfing larvae and killing them inside phagolysosomes",
+          "Releasing histamine from granules armed with IgE",
+          "Presenting worm antigens to naive T cells in lymph nodes",
+          "Degranulating onto antibody-coated larvae"
+        ],
+        "answer": 3,
+        "sea": "P",
+        "comp": "HE-2",
+        "obj": "HE-2.6",
+        "dok": 2,
+        "approach": [
+          "Helminths are too large to be phagocytosed.",
+          "Eosinophils bind antibody (IgE or IgG) coating the larval surface.",
+          "They then release toxic granule proteins such as major basic protein onto the larva."
+        ],
+        "why": "Eosinophils have bilobed nuclei and large orange-red granules containing major basic protein, eosinophil cationic protein, and eosinophil peroxidase. A T helper 2 response to helminths raises IL-5, which increases eosinophil production, and IgE and IgG coat the parasite surface. Eosinophils bind these antibodies through Fc receptors and release their granule proteins directly onto the larva, a form of antibody-dependent cellular cytotoxicity. This is why eosinophilia suggests parasitic or allergic disease, while neutrophilia suggests bacterial infection and lymphocytosis suggests viral infection.",
+        "whyNot": [
+          "Phagocytic killing in phagolysosomes is how neutrophils and macrophages kill bacteria. Larvae are far too large to engulf.",
+          "Histamine release from IgE-armed granules is the role of basophils and mast cells, which drive allergic reactions.",
+          "Presenting antigen to naive T cells in lymph nodes is the role of dendritic cells.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Eosinophil function",
+            "Leukocyte responses to infection"
+          ],
+          "comps": [
+            "HE-2",
+            "HE-7"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "HE-C16",
+    "system": "HE",
+    "dx": "Acute promyelocytic leukemia with disseminated intravascular coagulation",
+    "codes": [
+      "HE-9-D1",
+      "HE-9-C1"
+    ],
+    "case": "A 47-year-old man comes to the emergency department because of 1 week of bleeding gums, nosebleeds, and easy bruising. Temperature is 37.4 °C (99.3 °F), pulse is 98/min, respirations are 16/min, and blood pressure is 124/76 mm Hg. Physical examination shows gingival oozing, scattered petechiae, and large ecchymoses on the arms. There is no lymphadenopathy or splenomegaly. Laboratory studies show hemoglobin 8.4 g/dL (13.5 to 17.5), leukocytes 1,900/µL (4,500 to 11,000), and platelets 21,000/µL (150,000 to 400,000). The peripheral smear shows abnormal promyelocytes with dense azurophilic granules, and some cells contain bundles of Auer rods. A bone marrow aspirate shows 80% abnormal promyelocytes that are strongly myeloperoxidase-positive. Diagnosis: acute promyelocytic leukemia with disseminated intravascular coagulation.",
+    "questions": [
+      {
+        "id": "HE-C16-Q1",
+        "stem": "Which of the following best explains why this subtype of acute myeloid leukemia so often presents with disseminated intravascular coagulation?",
+        "options": [
+          "Promyelocyte contents activate both clotting and fibrinolysis",
+          "Leukemic infiltration of the liver halts clotting factor synthesis",
+          "Leukemic cells secrete autoantibodies that neutralize factor VIII",
+          "Leukostasis from extreme blast counts causes vascular stasis"
+        ],
+        "answer": 0,
+        "sea": "X",
+        "comp": "HE-9-D1",
+        "obj": "HE-9-D.2",
+        "dok": 3,
+        "approach": [
+          "Acute promyelocytic leukemia is the AML subtype with heavily granulated promyelocytes and Auer rods.",
+          "These cells express tissue factor and other procoagulants, which drive widespread thrombin generation.",
+          "They also express annexin II, which increases plasmin generation, so fibrinolysis is excessive too."
+        ],
+        "why": "AML is defined by at least 20% myeloid blasts or blast equivalents in the marrow, and Auer rods are myeloperoxidase-positive crystallized granules. Abnormal promyelocytes in APL carry tissue factor and other procoagulants that activate the coagulation cascade throughout the circulation, consuming platelets and clotting factors. They also express annexin II, which speeds plasminogen activation and adds hyperfibrinolysis. The result is severe bleeding, which is the main cause of early death in APL. Chemotherapy that lyses these cells can worsen DIC, which is one reason differentiation therapy is used.",
+        "whyNot": [
+          "Correct.",
+          "Liver infiltration severe enough to stop factor synthesis is rare in AML and would not explain the typical sudden, consumptive coagulopathy of APL.",
+          "Autoantibodies to factor VIII cause acquired hemophilia, with an isolated prolonged PTT. Leukemic myeloid cells do not secrete antibodies.",
+          "Leukostasis occurs with very high blast counts, often over 100,000/µL. APL often presents with a low white count, as here, and leukostasis causes ischemia rather than DIC."
+        ],
+        "study": {
+          "topics": [
+            "Acute promyelocytic leukemia",
+            "AML features and risk factors"
+          ],
+          "comps": [
+            "HE-9-D1",
+            "HE-9-C1"
+          ]
+        }
+      },
+      {
+        "id": "HE-C16-Q2",
+        "stem": "Which of the following sets of coagulation results is most likely in this patient?",
+        "options": [
+          "Normal PT, prolonged PTT, normal fibrinogen, normal D-dimer",
+          "Prolonged PT, normal PTT, normal fibrinogen, normal D-dimer",
+          "Normal PT and PTT, normal fibrinogen, increased D-dimer",
+          "Prolonged PT and PTT, low fibrinogen, increased D-dimer"
+        ],
+        "answer": 3,
+        "sea": "X",
+        "comp": "HE-9-C1",
+        "obj": "HE-9-C.1",
+        "dok": 3,
+        "approach": [
+          "DIC means unregulated thrombin generation throughout the circulation.",
+          "Clotting factors and fibrinogen are used up, so PT and PTT both prolong and fibrinogen falls.",
+          "Plasmin breaks down the cross-linked fibrin that forms, so D-dimer rises."
+        ],
+        "why": "In DIC, a trigger such as sepsis, trauma, placental abruption, amniotic fluid embolism, APL, or mucin-secreting adenocarcinoma activates coagulation throughout the body. Platelets and factors are consumed faster than they are made, so the platelet count drops and both PT and PTT prolong. Fibrinogen is converted to fibrin, so fibrinogen falls. Fibrinolysis of the fibrin produces fibrin degradation products and D-dimer, which rise. Red cells sheared by fibrin strands in small vessels appear as schistocytes.",
+        "whyNot": [
+          "An isolated prolonged PTT with normal fibrinogen and D-dimer suggests a deficiency in the intrinsic pathway, such as hemophilia, or von Willebrand disease.",
+          "An isolated prolonged PT is the early pattern of vitamin K deficiency or warfarin use, because factor VII falls first.",
+          "A high D-dimer with normal clotting times fits a localized clot such as deep vein thrombosis or pulmonary embolism, without factor consumption.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "DIC laboratory findings",
+            "Causes of DIC"
+          ],
+          "comps": [
+            "HE-9-C1",
+            "HE-4"
+          ]
+        }
+      },
+      {
+        "id": "HE-C16-Q3",
+        "stem": "Cytogenetic analysis shows t(15;17). He is started on all-trans retinoic acid. Which of the following best explains how this drug induces remission?",
+        "options": [
+          "It blocks BCL2 so tumor cells undergo apoptosis",
+          "It inhibits the constitutively active BCR-ABL kinase",
+          "It lifts the PML-RARA block so promyelocytes mature",
+          "It lowers MYC transcription so cells stop dividing"
+        ],
+        "answer": 2,
+        "sea": "B",
+        "comp": "HE-6",
+        "obj": "HE-6.5",
+        "dok": 2,
+        "approach": [
+          "t(15;17) fuses PML on chromosome 15 with the retinoic acid receptor alpha gene (RARA) on chromosome 17.",
+          "The PML-RARA fusion protein represses genes needed for myeloid maturation, so cells stay stuck at the promyelocyte stage.",
+          "High doses of retinoic acid bind the fusion receptor, release the repression, and let the cells differentiate into neutrophils."
+        ],
+        "why": "In APL, PML-RARA acts as a transcriptional repressor that recruits corepressors and blocks myeloid differentiation at the promyelocyte stage. Pharmacologic doses of all-trans retinoic acid bind the fusion receptor, release the corepressors, and promote its degradation. The leukemic promyelocytes then mature into neutrophils and die normally, which also reduces the procoagulant burden. Arsenic trioxide also targets PML-RARA for degradation. This is the main example of treating a translocation by reversing a differentiation block.",
+        "whyNot": [
+          "BCL2 overexpression from t(14;18) blocks apoptosis in follicular lymphoma. Retinoic acid does not act on BCL2.",
+          "BCR-ABL comes from t(9;22) in chronic myeloid leukemia and is targeted by imatinib.",
+          "Correct.",
+          "MYC overexpression from t(8;14) drives proliferation in Burkitt lymphoma. Retinoic acid does not act on MYC."
+        ],
+        "study": {
+          "topics": [
+            "Translocations in leukemia and lymphoma",
+            "PML-RARA"
+          ],
+          "comps": [
+            "HE-6",
+            "HE-9-D1"
+          ]
+        }
+      },
+      {
+        "id": "HE-C16-Q4",
+        "stem": "Tissue factor on his leukemic cells starts coagulation by binding a plasma factor. Which of the following names that factor and the screening test most affected by its deficiency?",
+        "options": [
+          "Factor XII, measured by the PTT",
+          "Factor VII, measured by the PT",
+          "Factor XI, measured by the PTT",
+          "Factor XIII, measured by the PT"
+        ],
+        "answer": 1,
+        "sea": "P",
+        "comp": "HE-4",
+        "obj": "HE-4.3",
+        "dok": 2,
+        "approach": [
+          "Tissue factor starts the extrinsic pathway.",
+          "Tissue factor binds factor VII, and the complex activates factor X (and factor IX).",
+          "The PT starts clotting with tissue factor, so it reflects factor VII and the common pathway."
+        ],
+        "why": "The extrinsic pathway begins when tissue factor binds factor VII to form the tissue factor-VIIa complex, which activates factor X and some factor IX. The intrinsic (contact) pathway begins with factor XII and runs through XI, IX, and VIII. Both pathways meet at factor X in the common pathway, where Xa with factor V turns prothrombin into thrombin, and thrombin turns fibrinogen into fibrin. Factor XIIIa then cross-links the fibrin. The PT tests the extrinsic and common pathways, the PTT tests the intrinsic and common pathways, and neither test detects factor XIII deficiency.",
+        "whyNot": [
+          "Factor XII starts the contact pathway, which the PTT measures. Factor XII deficiency prolongs the PTT but does not cause bleeding.",
+          "Correct.",
+          "Factor XI belongs to the intrinsic pathway, which the PTT measures. Tissue factor does not bind it.",
+          "Factor XIII cross-links fibrin after it forms. Its deficiency causes bleeding with a normal PT and PTT."
+        ],
+        "study": {
+          "topics": [
+            "Coagulation cascade",
+            "PT and PTT"
+          ],
+          "comps": [
+            "HE-4",
+            "HE-9-C1"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "HE-C17",
+    "system": "HE",
+    "dx": "Hemophilia A with hemarthrosis",
+    "codes": [
+      "HE-9-C2"
+    ],
+    "case": "A 2-year-old boy is brought to the physician because of a swollen, warm right knee and refusal to walk since a minor fall the day before. He bled for 2 days after a lip laceration at 14 months of age. His mother's brother had repeated joint bleeds as a child. His mother, father, and 5-year-old sister are healthy. Temperature is 37.0 °C (98.6 °F), pulse is 118/min, respirations are 26/min, and blood pressure is 96/58 mm Hg. Physical examination shows a tense, tender right knee effusion and a large hematoma on the left thigh. Laboratory studies show hemoglobin 10.6 g/dL (11 to 14), prothrombin time 12 seconds (11 to 13.5), partial thromboplastin time 72 seconds (25 to 35), and factor VIII activity 2% (50 to 150). Diagnosis: hemophilia A with hemarthrosis.",
+    "questions": [
+      {
+        "id": "HE-C17-Q1",
+        "stem": "Before the factor assay was resulted, a 1:1 mixing study with normal pooled plasma was performed. Which of the following results was most likely?",
+        "options": [
+          "PTT fails to correct either at once or after incubation",
+          "PTT corrects at once but prolongs again after incubation",
+          "PT and PTT both prolong only after 2 hours of incubation",
+          "PTT corrects at once and stays normal after incubation"
+        ],
+        "answer": 3,
+        "sea": "X",
+        "comp": "HE-9-C2",
+        "obj": "HE-9-C.3",
+        "dok": 3,
+        "approach": [
+          "Normal plasma supplies about 50% of every factor, which is enough to normalize the PTT if a factor is simply missing.",
+          "An inherited deficiency has no antibody, so the correction holds after incubation.",
+          "An acquired factor VIII inhibitor corrects at first but slowly destroys the added factor VIII, so the PTT prolongs again after incubation."
+        ],
+        "why": "Hemophilia A (factor VIII) and hemophilia B (factor IX) are X-linked deficiencies of the intrinsic pathway that cause hemarthroses and deep muscle bleeds, with a normal PT and an isolated prolonged PTT. Mixing the patient's plasma with normal plasma replaces the missing factor, so the PTT corrects and stays corrected. An acquired factor VIII inhibitor, seen in older adults, postpartum women, or autoimmune disease, is an IgG autoantibody that inactivates factor VIII over time, giving a time-dependent failure of correction. A factor assay then tells hemophilia A from B, since the clinical picture is the same.",
+        "whyNot": [
+          "Failure to correct at once is typical of a lupus anticoagulant, which binds the phospholipid in the test reagent.",
+          "Correction that is lost after incubation is the pattern of an acquired factor VIII inhibitor, a time-dependent antibody.",
+          "A defect limited to the intrinsic pathway leaves the PT normal, so the PT would not change on mixing.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Mixing studies",
+            "Hemophilia A versus acquired factor VIII inhibitor"
+          ],
+          "comps": [
+            "HE-9-C2",
+            "HE-4"
+          ]
+        }
+      },
+      {
+        "id": "HE-C17-Q2",
+        "stem": "Which of the following best explains why his factor VIII deficiency prolongs the PTT but leaves the PT normal?",
+        "options": [
+          "Factor VIII activates factor VII, a step the PTT alone measures",
+          "Factor VIIIa aids IXa in activating X, which the PT bypasses",
+          "Factor VIII cross-links fibrin, a step the PTT alone measures",
+          "Factor VIII is consumed by tissue factor in the PT reagent"
+        ],
+        "answer": 1,
+        "sea": "P",
+        "comp": "HE-4",
+        "obj": "HE-4.3",
+        "dok": 3,
+        "approach": [
+          "The PTT starts clotting through contact activation and runs through factors XII, XI, IX, and VIII.",
+          "Factor VIIIa is the cofactor for factor IXa in the tenase complex that activates factor X.",
+          "The PT reagent supplies tissue factor, which with factor VIIa activates factor X directly, skipping factor VIII."
+        ],
+        "why": "In the intrinsic pathway, factor IXa and its cofactor VIIIa assemble on a phospholipid surface with calcium to form the tenase complex, which activates factor X. The PTT test depends on this step, so low factor VIII prolongs it. The PT test adds tissue factor, which with factor VIIa activates factor X without needing factors IX or VIII. In the body, tissue factor-VIIa makes only a small amount of thrombin, and the tenase complex is needed to amplify it on platelets. This is why hemophilia causes serious bleeding even though the extrinsic pathway is intact.",
+        "whyNot": [
+          "Factor VIII does not activate factor VII. Factor VII belongs to the extrinsic pathway, which the PT measures.",
+          "Correct.",
+          "Fibrin is cross-linked by factor XIIIa, and neither the PT nor the PTT detects that step.",
+          "Factor VIII is not consumed in the PT reagent. Its level is simply irrelevant to the PT."
+        ],
+        "study": {
+          "topics": [
+            "Tenase complex",
+            "Intrinsic versus extrinsic pathway"
+          ],
+          "comps": [
+            "HE-4",
+            "HE-9-C2"
+          ]
+        }
+      },
+      {
+        "id": "HE-C17-Q3",
+        "stem": "Which of the following additional laboratory results is most likely in this patient?",
+        "options": [
+          "Normal platelet count and normal bleeding time",
+          "Normal platelet count and prolonged bleeding time",
+          "Low platelet count and prolonged bleeding time",
+          "Low platelet count and normal bleeding time"
+        ],
+        "answer": 0,
+        "sea": "P",
+        "comp": "HE-4",
+        "obj": "HE-4.5",
+        "dok": 2,
+        "approach": [
+          "Platelet count and bleeding time test primary hemostasis, the platelet plug.",
+          "PT, PTT, and the mixing study test secondary hemostasis, the clotting factors.",
+          "His defect is in a clotting factor, so his platelet plug forms normally."
+        ],
+        "why": "Bleeding disorders can be sorted by which step fails. Platelet number problems lower the platelet count, and platelet function or von Willebrand factor problems prolong the bleeding time with a normal count; both cause mucosal and skin bleeding. Clotting factor deficiencies prolong the PT, the PTT, or both, and a mixing study separates a missing factor from an inhibitor. Consumption, as in DIC, lowers platelets and fibrinogen and prolongs both clotting times. In hemophilia, the platelet plug forms normally but is not stabilized by fibrin, so small cuts stop at first and then rebleed, and deep bleeds into joints and muscles are typical.",
+        "whyNot": [
+          "Correct.",
+          "A prolonged bleeding time with a normal platelet count points to a platelet function defect or von Willebrand disease.",
+          "A low platelet count with a prolonged bleeding time fits thrombocytopenia, as in immune thrombocytopenic purpura, which causes petechiae and mucosal bleeding.",
+          "A low platelet count with a normal bleeding time is unlikely unless the drop is mild. Either way, hemophilia does not lower the platelet count."
+        ],
+        "study": {
+          "topics": [
+            "Interpreting bleeding tests",
+            "Primary versus secondary hemostasis"
+          ],
+          "comps": [
+            "HE-4",
+            "HE-9-C3"
+          ]
+        }
+      },
+      {
+        "id": "HE-C17-Q4",
+        "stem": "His sister plans to have children with a man who does not have hemophilia. What is the probability that her first son will have hemophilia A?",
+        "options": [
+          "0%",
+          "12.5%",
+          "25%",
+          "50%"
+        ],
+        "answer": 2,
+        "sea": "B",
+        "comp": "HE-6",
+        "obj": "HE-6.3",
+        "dok": 3,
+        "approach": [
+          "Hemophilia A is X-linked recessive.",
+          "His mother has an affected son and an affected brother, so she is an obligate carrier.",
+          "His sister has a 1/2 chance of being a carrier, and a carrier's son has a 1/2 chance of being affected, so 1/2 times 1/2 is 1/4."
+        ],
+        "why": "In X-linked recessive disorders, affected males pass the gene to all daughters and to no sons, and carrier females pass it to half of their children. The boy's mother must be a carrier because both her son and her brother are affected. Their father is unaffected, so the sister got a normal X from him and has a 50% chance of having received the mutant X from her mother. If she is a carrier, each son has a 50% chance of hemophilia. Multiplying these gives 25%. Hemophilia B and G6PD deficiency follow the same pattern, while sickle cell disease and thalassemias are autosomal recessive and most hereditary spherocytosis and von Willebrand disease are autosomal dominant.",
+        "whyNot": [
+          "A 0% risk would apply only if the sister were known not to be a carrier, which carrier testing could show.",
+          "12.5% (1/2 times 1/2 times 1/2) would be the risk for a son of the sister's daughter, not for the sister's own son.",
+          "Correct.",
+          "50% is the risk for a son of a known carrier. The sister is only a possible carrier."
+        ],
+        "study": {
+          "topics": [
+            "X-linked recessive inheritance",
+            "Carrier risk calculation"
+          ],
+          "comps": [
+            "HE-6",
+            "HE-9-C2"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "HE-C18",
+    "system": "HE",
+    "dx": "Von Willebrand disease type 1 with heavy menstrual bleeding",
+    "codes": [
+      "HE-9-C4"
+    ],
+    "case": "A 16-year-old girl comes to the physician because of heavy menstrual periods since menarche at age 12. She changes pads every hour on the heaviest days and also has frequent nosebleeds and gum bleeding after brushing. Her mother has a similar history. Temperature is 36.8 °C (98.2 °F), pulse is 92/min, respirations are 14/min, and blood pressure is 108/66 mm Hg. Physical examination shows pallor and a few bruises on the shins. Laboratory studies show hemoglobin 10.1 g/dL (12 to 16), mean corpuscular volume 74 fL (80 to 100), ferritin 6 ng/mL (15 to 150), platelets 255,000/µL (150,000 to 400,000), prothrombin time 12 seconds (11 to 13.5), partial thromboplastin time 39 seconds (25 to 35), von Willebrand factor antigen 34% (50 to 150), ristocetin cofactor activity 31% (50 to 150), and factor VIII activity 44% (50 to 150). Diagnosis: von Willebrand disease type 1.",
+    "questions": [
+      {
+        "id": "HE-C18-Q1",
+        "stem": "Which of the following best explains her mildly prolonged partial thromboplastin time?",
+        "options": [
+          "Low von Willebrand factor impairs platelet binding to fibrinogen",
+          "Low von Willebrand factor shortens the half-life of factor VIII",
+          "Low von Willebrand factor reduces hepatic synthesis of factor IX",
+          "Low von Willebrand factor blocks contact activation of factor XII"
+        ],
+        "answer": 1,
+        "sea": "X",
+        "comp": "HE-9-C4",
+        "obj": "HE-9-C.5",
+        "dok": 3,
+        "approach": [
+          "Von Willebrand factor has two jobs: it links platelets to collagen and it carries factor VIII in plasma.",
+          "Bound factor VIII is protected from breakdown, so low von Willebrand factor leaves less factor VIII.",
+          "Factor VIII is in the intrinsic pathway, so its fall can prolong the PTT."
+        ],
+        "why": "Von Willebrand factor binds exposed collagen and platelet GpIb, so its deficiency weakens platelet adhesion and causes mucosal bleeding, a prolonged bleeding time, and a normal platelet count. It also binds and stabilizes factor VIII in plasma. When von Willebrand factor is low, factor VIII is cleared faster, and its level falls with it. If factor VIII drops enough, the PTT prolongs, while the PT stays normal. Ristocetin cofactor activity, which measures von Willebrand factor binding to GpIb, is low in most types.",
+        "whyNot": [
+          "Platelets bind fibrinogen through GpIIb/IIIa during aggregation. That step does not need von Willebrand factor and is not measured by the PTT.",
+          "Correct.",
+          "Factor IX is made in the liver and does not depend on von Willebrand factor for synthesis or survival.",
+          "Contact activation of factor XII does not involve von Willebrand factor."
+        ],
+        "study": {
+          "topics": [
+            "Von Willebrand factor functions",
+            "Laboratory findings in von Willebrand disease"
+          ],
+          "comps": [
+            "HE-9-C4",
+            "HE-4"
+          ]
+        }
+      },
+      {
+        "id": "HE-C18-Q2",
+        "stem": "Her ristocetin-induced platelet aggregation is decreased. The same abnormal result would also be expected in which of the following disorders?",
+        "options": [
+          "Bernard-Soulier syndrome",
+          "Glanzmann thrombasthenia",
+          "Hemophilia A",
+          "Aspirin-induced platelet dysfunction"
+        ],
+        "answer": 0,
+        "sea": "X",
+        "comp": "HE-9-C",
+        "obj": "HE-9-C.8",
+        "dok": 3,
+        "approach": [
+          "Ristocetin makes von Willebrand factor bind platelet GpIb, causing platelets to clump.",
+          "The test is abnormal when either von Willebrand factor or GpIb is lacking.",
+          "GpIb deficiency is Bernard-Soulier syndrome, which also shows large platelets and a low platelet count."
+        ],
+        "why": "Ristocetin-induced aggregation tests the link between von Willebrand factor and GpIb, the adhesion step. In Bernard-Soulier syndrome, an autosomal recessive lack of GpIb, the test stays abnormal even when normal plasma is added, and platelets are large and reduced in number. In Glanzmann thrombasthenia, GpIIb/IIIa is missing, so platelets do not aggregate with ADP, collagen, or epinephrine, but ristocetin agglutination is normal and platelets look normal. Uremia causes an acquired platelet dysfunction from retained toxins that impairs adhesion and aggregation, and it improves with dialysis or desmopressin.",
+        "whyNot": [
+          "Correct.",
+          "Glanzmann thrombasthenia lacks GpIIb/IIIa, so aggregation with ADP and collagen fails while ristocetin agglutination is normal.",
+          "Hemophilia A is a clotting factor deficiency, and platelet adhesion and aggregation are normal.",
+          "Aspirin blocks thromboxane A2 production and reduces aggregation with arachidonic acid and collagen, but ristocetin agglutination does not depend on thromboxane."
+        ],
+        "study": {
+          "topics": [
+            "Bernard-Soulier syndrome versus Glanzmann thrombasthenia",
+            "Platelet function tests"
+          ],
+          "comps": [
+            "HE-9-C",
+            "HE-4"
+          ]
+        }
+      },
+      {
+        "id": "HE-C18-Q3",
+        "stem": "After platelets adhere at a site of injury and release ADP and thromboxane A2, which of the following directly links neighboring platelets into an aggregate?",
+        "options": [
+          "Von Willebrand factor bridging collagen to GpIb",
+          "Factor XIIIa cross-linking strands of fibrin",
+          "Fibrinogen bridging activated GpIIb/IIIa receptors",
+          "Thromboxane A2 binding platelet GpIa/IIa receptors"
+        ],
+        "answer": 2,
+        "sea": "P",
+        "comp": "HE-4",
+        "obj": "HE-4.2",
+        "dok": 2,
+        "approach": [
+          "Primary hemostasis runs in order: vasoconstriction, adhesion, activation, and aggregation.",
+          "ADP and thromboxane A2 activate platelets, which changes GpIIb/IIIa into a form that binds fibrinogen.",
+          "Each fibrinogen molecule can bind GpIIb/IIIa on two platelets, linking them together."
+        ],
+        "why": "After injury, reflex vasoconstriction slows blood flow. Von Willebrand factor then attaches platelets to exposed collagen through GpIb. The adherent platelets activate, change shape, and release ADP from dense granules and newly made thromboxane A2, which recruit and activate more platelets. Activation switches on GpIIb/IIIa, and fibrinogen bridges these receptors on adjacent platelets to build the platelet plug. Secondary hemostasis then forms fibrin around the plug, and factor XIIIa cross-links it.",
+        "whyNot": [
+          "Von Willebrand factor bridging collagen to GpIb is adhesion, the first platelet step. It anchors platelets to the wall rather than linking them to each other.",
+          "Factor XIIIa cross-links fibrin in secondary hemostasis, which stabilizes the clot after the platelet plug has formed.",
+          "Correct.",
+          "Thromboxane A2 acts on its own G protein-coupled receptor to activate platelets. GpIa/IIa is a collagen receptor."
+        ],
+        "study": {
+          "topics": [
+            "Platelet aggregation",
+            "Primary hemostasis steps"
+          ],
+          "comps": [
+            "HE-4",
+            "HE-9-C4"
+          ]
+        }
+      },
+      {
+        "id": "HE-C18-Q4",
+        "stem": "Her cousin has similar mucosal bleeding but normal von Willebrand studies. Electron microscopy shows that his platelets lack dense granules. Release of which of the following would be reduced when his platelets are activated?",
+        "options": [
+          "Fibrinogen and von Willebrand factor",
+          "Platelet factor 4 and platelet-derived growth factor",
+          "Factor V and thrombospondin",
+          "ADP and serotonin"
+        ],
+        "answer": 3,
+        "sea": "A",
+        "comp": "HE-1",
+        "obj": "HE-1.6",
+        "dok": 2,
+        "approach": [
+          "Platelets have two main granule types, alpha and dense.",
+          "Alpha granules hold large proteins, and dense granules hold small molecules.",
+          "Dense granules contain ADP, calcium, and serotonin, so their absence reduces release of these."
+        ],
+        "why": "Platelets bud off from megakaryocyte cytoplasm and carry granules packaged by the megakaryocyte. Dense granules store ADP, calcium, and serotonin, which recruit more platelets and support clotting on the platelet surface. Alpha granules store proteins, including von Willebrand factor, fibrinogen, factor V, thrombospondin, platelet factor 4, and platelet-derived growth factor. Without dense granules, released ADP is low, so secondary aggregation is weak and mucosal bleeding results.",
+        "whyNot": [
+          "Fibrinogen and von Willebrand factor are stored in alpha granules.",
+          "Platelet factor 4 and platelet-derived growth factor are alpha granule proteins.",
+          "Factor V and thrombospondin are also alpha granule proteins.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Platelet dense granules",
+            "Platelet storage pool disease"
+          ],
+          "comps": [
+            "HE-1",
+            "HE-4"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "HE-C19",
+    "system": "HE",
+    "dx": "Vitamin K deficiency bleeding in a newborn who did not receive prophylaxis",
+    "codes": [
+      "HE-9-C5"
+    ],
+    "case": "A 4-day-old girl is brought to the emergency department because of oozing from the umbilical stump and two black, tarry stools. She was born at home at term after an uncomplicated pregnancy, and her parents declined all newborn injections. She is exclusively breastfed. Temperature is 36.9 °C (98.4 °F), pulse is 156/min, respirations are 44/min, and blood pressure is 70/42 mm Hg. Physical examination shows oozing at the umbilical stump and a few bruises on the back. The liver is not enlarged, and she is not jaundiced. Laboratory studies show hemoglobin 12.8 g/dL (14.5 to 22.5), prothrombin time 42 seconds (reference for age about 10 to 16), and partial thromboplastin time 88 seconds (reference for age about 31 to 55). Bleeding stops within hours of intravenous vitamin K. Diagnosis: vitamin K deficiency bleeding of the newborn.",
+    "questions": [
+      {
+        "id": "HE-C19-Q1",
+        "stem": "When vitamin K deficiency develops gradually, the PT prolongs before the PTT. Which of the following vitamin K-dependent factors has the shortest plasma half-life and therefore falls first?",
+        "options": [
+          "Factor II (prothrombin)",
+          "Factor VII",
+          "Factor IX",
+          "Factor X"
+        ],
+        "answer": 1,
+        "sea": "X",
+        "comp": "HE-9-C5",
+        "obj": "HE-9-C.6",
+        "dok": 2,
+        "approach": [
+          "The PT is the first test to prolong, so the first factor to fall must be one the PT measures but the PTT does not.",
+          "Factor VII is the only vitamin K-dependent factor in the extrinsic pathway alone.",
+          "Its half-life is about 4 to 6 hours, the shortest of the vitamin K-dependent procoagulants."
+        ],
+        "why": "Factors II, VII, IX, and X need vitamin K for activity. When new synthesis stops, each factor falls at a rate set by its half-life. Factor VII falls within hours, so the PT prolongs first. Factors IX, X, and prothrombin fall more slowly, and once they drop the PTT prolongs too, as in this infant. Newborns are at risk because little vitamin K crosses the placenta, breast milk has little vitamin K, and the gut is not yet colonized by bacteria that make it. In older patients, fat malabsorption, long courses of broad-spectrum antibiotics, and poor intake are the usual causes.",
+        "whyNot": [
+          "Prothrombin (factor II) has the longest half-life, about 2 to 3 days, so it falls last.",
+          "Correct.",
+          "Factor IX is measured by the PTT, and its half-life is longer than that of factor VII.",
+          "Factor X has a half-life of about 1.5 to 2 days and is measured by both the PT and the PTT."
+        ],
+        "study": {
+          "topics": [
+            "Vitamin K deficiency",
+            "Half-lives of clotting factors"
+          ],
+          "comps": [
+            "HE-9-C5",
+            "HE-5"
+          ]
+        }
+      },
+      {
+        "id": "HE-C19-Q2",
+        "stem": "Which of the following results would best distinguish her coagulopathy from that caused by severe neonatal liver failure?",
+        "options": [
+          "Prolonged prothrombin time",
+          "Prolonged partial thromboplastin time",
+          "Normal factor VIII activity",
+          "Normal platelet count"
+        ],
+        "answer": 3,
+        "sea": "X",
+        "comp": "HE-9-C5",
+        "obj": "HE-9-C.7",
+        "dok": 3,
+        "approach": [
+          "Both vitamin K deficiency and liver failure lower factors II, VII, IX, and X, so both prolong the PT and the PTT.",
+          "Factor VIII is made largely by endothelial cells, so it stays normal in vitamin K deficiency and normal or high in liver failure.",
+          "Liver failure also lowers platelets and fibrinogen, while vitamin K deficiency leaves them normal."
+        ],
+        "why": "Severe liver failure reduces synthesis of almost all clotting factors, including fibrinogen and factor V, which do not need vitamin K. Platelets are also low from splenic sequestration and reduced thrombopoietin made by the liver. Factor VIII is normal or even high because endothelial cells produce it. Vitamin K deficiency affects only factors II, VII, IX, and X and proteins C and S, so the platelet count and fibrinogen are normal and the PT corrects quickly after vitamin K, as it did here. A failing liver does not respond to vitamin K.",
+        "whyNot": [
+          "A prolonged PT occurs in both disorders because both lower factor VII.",
+          "A prolonged PTT occurs in both once factors IX, X, and II fall.",
+          "Normal factor VIII is expected in both, since factor VIII is made by endothelial cells.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Coagulopathy of liver disease",
+            "Vitamin K deficiency labs"
+          ],
+          "comps": [
+            "HE-9-C",
+            "HE-9-C5"
+          ]
+        }
+      },
+      {
+        "id": "HE-C19-Q3",
+        "stem": "The vitamin K-dependent factors made by her liver were released into plasma but could not bind to activated platelet membranes. Which of the following best explains this defect?",
+        "options": [
+          "They lacked gamma-carboxyglutamate residues to bind calcium",
+          "They lacked hydroxylysine residues needed for cross-linking",
+          "They lacked sialic acid residues needed for receptor binding",
+          "They lacked the GPI anchor that holds proteins on membranes"
+        ],
+        "answer": 0,
+        "sea": "B",
+        "comp": "HE-5",
+        "obj": "HE-5.7",
+        "dok": 2,
+        "approach": [
+          "Vitamin K is the cofactor for gamma-glutamyl carboxylase in the liver.",
+          "This enzyme adds a second carboxyl group to glutamate residues on factors II, VII, IX, and X and proteins C and S.",
+          "These gamma-carboxyglutamate residues bind calcium, which bridges the factors to phosphatidylserine on activated platelets."
+        ],
+        "why": "Gamma-glutamyl carboxylase uses reduced vitamin K (hydroquinone) to convert glutamate residues in the Gla domain to gamma-carboxyglutamate. In the process vitamin K becomes an epoxide, and vitamin K epoxide reductase, the target of warfarin, regenerates it. The paired carboxyl groups chelate calcium, which lets the factors bind phosphatidylserine exposed on activated platelets. Assembly on this surface speeds factor activation many thousandfold. Without vitamin K, the liver releases undercarboxylated factors that cannot bind the membrane and so are nearly inactive.",
+        "whyNot": [
+          "Correct.",
+          "Hydroxylysine depends on vitamin C and is needed for collagen cross-linking. A lack causes scurvy with fragile vessels.",
+          "Sialic acid is a sugar on many glycoproteins. It is not how clotting factors bind platelet phospholipid.",
+          "GPI anchors hold proteins such as CD55 and CD59 to cell membranes. Clotting factors are soluble plasma proteins without GPI anchors."
+        ],
+        "study": {
+          "topics": [
+            "Gamma-carboxylation",
+            "Vitamin K cycle"
+          ],
+          "comps": [
+            "HE-5",
+            "HE-9-C5"
+          ]
+        }
+      },
+      {
+        "id": "HE-C19-Q4",
+        "stem": "Which of the following pairs of results would best support a factor deficiency rather than consumption of clotting factors as the cause of her bleeding?",
+        "options": [
+          "Low fibrinogen and increased D-dimer",
+          "Normal fibrinogen and increased D-dimer",
+          "Normal fibrinogen and normal D-dimer",
+          "Low fibrinogen and normal D-dimer"
+        ],
+        "answer": 2,
+        "sea": "P",
+        "comp": "HE-4",
+        "obj": "HE-4.5",
+        "dok": 3,
+        "approach": [
+          "Both PT and PTT are prolonged, which can mean low factors from poor synthesis or from consumption.",
+          "Consumption, as in DIC, uses up fibrinogen and forms fibrin that plasmin breaks into D-dimer.",
+          "A synthesis problem limited to vitamin K-dependent factors leaves fibrinogen and D-dimer normal."
+        ],
+        "why": "A prolonged PT and PTT can come from low factor production, a circulating inhibitor, or consumption. Fibrinogen and D-dimer help decide. In DIC, fibrinogen falls, D-dimer rises, and platelets drop. With vitamin K deficiency, fibrinogen is not vitamin K-dependent and no excess fibrin is formed, so both stay normal. A mixing study that corrects the PT and PTT would further confirm a factor deficiency rather than an inhibitor.",
+        "whyNot": [
+          "Low fibrinogen with high D-dimer is the pattern of consumption in DIC.",
+          "Normal fibrinogen with high D-dimer suggests a localized clot, such as venous thrombosis, without systemic consumption.",
+          "Correct.",
+          "Low fibrinogen with normal D-dimer suggests reduced fibrinogen production, as in liver failure or congenital hypofibrinogenemia, without consumption."
+        ],
+        "study": {
+          "topics": [
+            "Localizing a bleeding disorder",
+            "DIC versus factor deficiency"
+          ],
+          "comps": [
+            "HE-4",
+            "HE-9-C1"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "HE-C20",
+    "system": "HE",
+    "dx": "Heterozygous factor V Leiden with postpartum deep vein thrombosis",
+    "codes": [
+      "HE-6",
+      "HE-9-C"
+    ],
+    "case": "A 31-year-old woman comes to the emergency department because of pain and swelling of her left leg for 2 days. She had a cesarean delivery 3 weeks ago. Her mother had a pulmonary embolism at age 45. She does not smoke. Temperature is 37.1 °C (98.8 °F), pulse is 92/min, respirations are 16/min, and blood pressure is 122/78 mm Hg. Physical examination shows a warm, tender left calf that measures 4 cm more in circumference than the right. Platelets are 310,000/µL (150,000 to 400,000), prothrombin time is 12 seconds (11 to 13.5), and partial thromboplastin time is 30 seconds (25 to 35). Duplex ultrasonography shows an occlusive thrombus in the left femoral and popliteal veins. Genetic testing shows that she is heterozygous for factor V Leiden (R506Q). Diagnosis: postpartum deep vein thrombosis in a woman heterozygous for factor V Leiden.",
+    "questions": [
+      {
+        "id": "HE-C20-Q1",
+        "stem": "Which of the following best explains how her mutation promotes venous thrombosis?",
+        "options": [
+          "Factor Va resists cleavage by activated protein C",
+          "Prothrombin levels rise from a 3' untranslated region variant",
+          "Antithrombin fails to bind heparan sulfate on endothelium",
+          "Low protein S leaves activated protein C with little activity"
+        ],
+        "answer": 0,
+        "sea": "B",
+        "comp": "HE-6",
+        "obj": "HE-6.7",
+        "dok": 2,
+        "approach": [
+          "Activated protein C normally shuts down clotting by cleaving factors Va and VIIIa.",
+          "Factor V Leiden replaces arginine 506, the cleavage site for activated protein C, with glutamine.",
+          "Factor Va then stays active longer and keeps making thrombin."
+        ],
+        "why": "Factor V Leiden is a point mutation (R506Q) at the main site where activated protein C cuts factor Va. The mutant factor Va is inactivated about ten times more slowly, so the prothrombinase complex keeps generating thrombin. It is the most common inherited thrombophilia in people of European descent, and heterozygotes have several times the normal risk of venous thrombosis. The risk multiplies with other factors such as pregnancy, the postpartum period, surgery, or estrogen. The prothrombin G20210A mutation, a different variant, raises prothrombin levels.",
+        "whyNot": [
+          "Correct.",
+          "A variant in the 3' untranslated region that raises prothrombin levels is the prothrombin G20210A mutation, the second most common inherited thrombophilia.",
+          "Failure of antithrombin activity is antithrombin deficiency, which causes heparin resistance.",
+          "Low protein S is protein S deficiency. Her mutation is in factor V itself, which leaves protein C and protein S levels normal."
+        ],
+        "study": {
+          "topics": [
+            "Factor V Leiden",
+            "Prothrombin G20210A"
+          ],
+          "comps": [
+            "HE-6",
+            "HE-4"
+          ]
+        }
+      },
+      {
+        "id": "HE-C20-Q2",
+        "stem": "A different patient with a first deep vein thrombosis at age 24 needs unusually high doses of unfractionated heparin to prolong the PTT. Deficiency of which of the following is most likely?",
+        "options": [
+          "Protein C",
+          "Protein S",
+          "Antithrombin",
+          "Tissue plasminogen activator"
+        ],
+        "answer": 2,
+        "sea": "X",
+        "comp": "HE-9-C",
+        "obj": "HE-9-C.9",
+        "dok": 3,
+        "approach": [
+          "Heparin works by binding antithrombin and greatly speeding its inhibition of thrombin and factor Xa.",
+          "If antithrombin is low, heparin has little to act on, so the PTT does not prolong as expected.",
+          "A clot at a young age plus heparin resistance points to inherited antithrombin deficiency."
+        ],
+        "why": "Antithrombin is a serine protease inhibitor that neutralizes thrombin, factor Xa, and other activated factors, and heparin speeds this about a thousandfold. Inherited antithrombin deficiency, usually autosomal dominant, causes venous thrombosis and resistance to heparin. Protein C and protein S deficiencies also cause venous clots and raise the risk of warfarin-induced skin necrosis, but heparin works normally. Hyperhomocysteinemia injures endothelium and raises both venous and arterial risk. A clot before about age 50, recurrent clots, clots in unusual sites such as cerebral or mesenteric veins, or a strong family history suggest an inherited thrombophilia.",
+        "whyNot": [
+          "Protein C deficiency causes venous thrombosis and warfarin-induced skin necrosis, but heparin works normally.",
+          "Protein S is the cofactor for activated protein C. Its deficiency causes venous thrombosis without heparin resistance.",
+          "Correct.",
+          "Low tissue plasminogen activator would slow fibrinolysis, but heparin would still work normally through antithrombin."
+        ],
+        "study": {
+          "topics": [
+            "Inherited thrombophilias",
+            "Antithrombin and heparin"
+          ],
+          "comps": [
+            "HE-9-C",
+            "HE-4"
+          ]
+        }
+      },
+      {
+        "id": "HE-C20-Q3",
+        "stem": "Her D-dimer is markedly increased. Which of the following best explains the presence of this fragment in her plasma?",
+        "options": [
+          "Plasmin degraded circulating fibrinogen",
+          "Thrombin cleaved fibrinopeptides from fibrinogen",
+          "Activated protein C degraded factors Va and VIIIa",
+          "Plasmin degraded cross-linked fibrin in the clot"
+        ],
+        "answer": 3,
+        "sea": "P",
+        "comp": "HE-4",
+        "obj": "HE-4.4",
+        "dok": 2,
+        "approach": [
+          "D-dimer contains two D domains joined by a covalent cross-link.",
+          "Only factor XIIIa makes that cross-link, and only within fibrin.",
+          "When plasmin breaks down cross-linked fibrin, D-dimer is released, so its presence shows that a clot formed and is being lysed."
+        ],
+        "why": "Tissue plasminogen activator from endothelium binds fibrin and converts plasminogen to plasmin on the clot. Plasmin cuts fibrin into fibrin degradation products, and pieces that keep the factor XIIIa cross-link between adjacent D domains are D-dimer. Plasmin acting on fibrinogen alone makes degradation products but no D-dimer, because fibrinogen is not cross-linked. Other natural brakes on clotting work earlier: antithrombin inhibits thrombin and Xa, thrombomodulin turns thrombin into an activator of protein C, and tissue factor pathway inhibitor blocks tissue factor-VIIa.",
+        "whyNot": [
+          "Plasmin breakdown of fibrinogen makes fibrinogen degradation products but no D-dimer, because fibrinogen has no cross-links.",
+          "Thrombin releases fibrinopeptides A and B when it converts fibrinogen to fibrin. These are not D-dimer.",
+          "Activated protein C inactivates factors Va and VIIIa, which limits thrombin generation but does not produce fibrin fragments.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Fibrinolysis and D-dimer",
+            "Natural anticoagulants"
+          ],
+          "comps": [
+            "HE-4",
+            "HE-9-C1"
+          ]
+        }
+      },
+      {
+        "id": "HE-C20-Q4",
+        "stem": "Her thrombophilia workup also includes tests for antiphospholipid antibodies, which can prolong the PTT in the laboratory yet cause clots in patients. Which of the following best explains this paradox?",
+        "options": [
+          "They inhibit factor VIII in the tube but spare it in the body",
+          "They block reagent phospholipid but activate cells in vivo",
+          "They consume clotting factors in vivo, which prolongs the PTT",
+          "They cause thrombocytopenia that triggers excess factor synthesis"
+        ],
+        "answer": 1,
+        "sea": "M",
+        "comp": "HE-7",
+        "obj": "HE-7.5",
+        "dok": 3,
+        "approach": [
+          "Antiphospholipid antibodies bind proteins attached to phospholipid, mainly beta2 glycoprotein I.",
+          "In the test tube they tie up the phospholipid that the PTT reagent needs, so clotting is slower.",
+          "In the body they activate endothelium, platelets, monocytes, and complement, which promotes clotting."
+        ],
+        "why": "Antiphospholipid antibodies include lupus anticoagulant, anticardiolipin, and anti-beta2 glycoprotein I antibodies. In vitro, they bind the phospholipid-protein complexes the PTT reagent supplies, so the PTT prolongs and does not correct on mixing. In vivo, binding of beta2 glycoprotein I on cell surfaces activates endothelial cells to express tissue factor and adhesion molecules, activates platelets, and triggers complement. This causes venous and arterial thrombosis and placental injury with pregnancy loss. The syndrome can be primary or occur with systemic lupus erythematosus.",
+        "whyNot": [
+          "An antibody that inhibits factor VIII causes acquired hemophilia, with bleeding rather than clotting.",
+          "Correct.",
+          "Consumption of clotting factors causes DIC-like bleeding, and it is not how these antibodies prolong the PTT.",
+          "Antiphospholipid syndrome can cause mild thrombocytopenia, but low platelets do not trigger excess factor synthesis or clotting."
+        ],
+        "study": {
+          "topics": [
+            "Antiphospholipid syndrome",
+            "Lupus anticoagulant paradox"
+          ],
+          "comps": [
+            "HE-7",
+            "HE-9-C"
+          ]
+        }
+      }
+    ]
+  }
+]

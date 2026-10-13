@@ -1,0 +1,1595 @@
+[
+ {
+  "id": "IN-C11",
+  "system": "IN",
+  "dx": "Oculocutaneous albinism type 1 (tyrosinase-negative)",
+  "codes": [
+   "IN-13-E1"
+  ],
+  "case": "An 8-year-old girl is brought to the pediatric genetics clinic for evaluation of lifelong pale skin and poor vision. She has had nystagmus since early infancy and burns after brief sun exposure. Her parents and her 12-year-old brother have normal pigmentation and vision. Temperature is 36.8 °C (98.2 °F), pulse is 88/min, respirations are 18/min, and blood pressure is 100/64 mm Hg. Physical examination shows white hair and eyebrows, pink-white skin without pigmented nevi, gray-blue irides that transilluminate, and horizontal pendular nystagmus. Best-corrected visual acuity is 20/200 in each eye. Molecular testing shows two different loss-of-function variants in the tyrosinase gene (TYR), one inherited from each parent. Diagnosis: oculocutaneous albinism type 1A (tyrosinase-negative).",
+  "questions": [
+   {
+    "id": "IN-C11-Q1",
+    "stem": "Her parents ask about her brother. What is the probability that her unaffected brother is a heterozygous carrier of a TYR variant?",
+    "options": [
+     "1/4",
+     "1/2",
+     "2/3",
+     "3/4"
+    ],
+    "answer": 2,
+    "sea": "B",
+    "comp": "IN-13-E1",
+    "obj": "IN-13-E.1",
+    "dok": 3,
+    "approach": [
+     "Unaffected parents with an affected child and two variants, one from each parent, point to autosomal recessive inheritance with both parents as carriers.",
+     "A carrier by carrier cross gives 1 affected, 2 carriers, and 1 noncarrier out of 4.",
+     "The brother is unaffected, so remove the affected outcome: 2 of the remaining 3 are carriers."
+    ],
+    "why": "Oculocutaneous albinism type 1 is autosomal recessive, so each parent carries one nonworking TYR allele. Each child has a 1 in 4 chance of two mutant alleles, a 2 in 4 chance of one, and a 1 in 4 chance of none. Because the brother is known to be unaffected, only three outcomes remain, and two of them are carriers, so his risk is 2/3. This conditional step is a favorite exam trap.",
+    "whyNot": [
+     "One in four is the chance that any child of two carriers is affected. It is the wrong number for an unaffected sibling.",
+     "One in two is the chance that a child of two carriers is a carrier before you know the child's phenotype. Here you already know he is unaffected, which removes one outcome.",
+     "Correct.",
+     "Three in four is the chance that a child of two carriers is unaffected. It is not the chance of being a carrier."
+    ],
+    "study": {
+     "topics": [
+      "Autosomal recessive inheritance",
+      "Carrier risk in unaffected siblings"
+     ],
+     "comps": [
+      "IN-13-E1",
+      "IN-7"
+     ]
+    }
+   },
+   {
+    "id": "IN-C11-Q2",
+    "stem": "A 5-year-old boy is brought to the same clinic because of recurrent staphylococcal skin abscesses. Physical examination shows silvery-gray hair, light skin, and decreased sensation in both feet. Which of the following is most likely to be found on his peripheral blood smear?",
+    "options": [
+     "Giant cytoplasmic granules in neutrophils",
+     "Hypersegmented nuclei in many neutrophils",
+     "Bilobed nuclei in nearly all neutrophils",
+     "Basophilic stippling of red blood cells"
+    ],
+    "answer": 0,
+    "sea": "B",
+    "comp": "IN-13-E",
+    "obj": "IN-13-E.2",
+    "dok": 3,
+    "approach": [
+     "Partial albinism plus recurrent pyogenic infections plus peripheral neuropathy is the triad of Chediak-Higashi syndrome.",
+     "The defect is in LYST, a lysosomal trafficking regulator, so lysosomes and related granules fuse abnormally into giant granules.",
+     "In neutrophils this shows as giant granules, and the cells kill bacteria poorly."
+    ],
+    "why": "Chediak-Higashi syndrome is an autosomal recessive defect in the lysosomal trafficking regulator (LYST). Lysosome-related organelles fuse into giant granules, which are easy to see in neutrophils. Melanosomes clump too, so pigment is diluted and hair looks silvery, but this is partial albinism. Poor phagolysosome function causes recurrent pyogenic infections, and neuropathy develops over time. The girl in the case has complete loss of melanin with normal immune function. X-linked ocular albinism differs again: the eyes are affected while skin and hair are near normal.",
+    "whyNot": [
+     "Correct.",
+     "Hypersegmented neutrophils (6 or more lobes) point to vitamin B12 or folate deficiency. They do not cause pigment dilution or pyogenic infections.",
+     "Bilobed neutrophil nuclei are the Pelger-Huet anomaly, a benign inherited finding with normal neutrophil function.",
+     "Basophilic stippling of red cells is seen in lead poisoning and some thalassemias. Lead can cause neuropathy, but it does not lighten hair or cause recurrent abscesses."
+    ],
+    "study": {
+     "topics": [
+      "Chediak-Higashi syndrome",
+      "Forms of albinism"
+     ],
+     "comps": [
+      "IN-13-E1",
+      "IN-2"
+     ]
+    }
+   },
+   {
+    "id": "IN-C11-Q3",
+    "stem": "Her mother asks whether her daughter's condition is the same as that of a nephew who was born with a white forelock and stable, sharply bordered white patches on the forehead and abdomen, with normal vision. The nephew's white patches are most likely explained by which of the following?",
+    "options": [
+     "Normal melanocytes with absent tyrosinase activity",
+     "Postnatal T cell destruction of mature melanocytes",
+     "Defective transport of melanosomes within melanocytes",
+     "Failed migration of neural crest melanoblasts"
+    ],
+    "answer": 3,
+    "sea": "A",
+    "comp": "IN-2",
+    "obj": "IN-2.5",
+    "dok": 2,
+    "approach": [
+     "A white forelock and white patches present at birth that never change suggest piebaldism.",
+     "Melanocytes come from neural crest melanoblasts that must migrate to the skin during embryonic life.",
+     "In piebaldism (often a KIT mutation) melanoblasts fail to migrate or survive in those areas, so the patches have no melanocytes at all."
+    ],
+    "why": "Melanoblasts arise from the neural crest and travel through the dermis to settle in the epidermis and hair bulbs. In piebaldism, usually caused by a dominant KIT mutation, melanoblasts do not migrate into or survive in certain areas, typically the forehead, central trunk, and limbs. Those patches lack melanocytes from birth and stay stable. In albinism the melanocytes reach every site in normal numbers, but they cannot make melanin, so the whole body is affected.",
+    "whyNot": [
+     "Normal melanocyte numbers with no tyrosinase activity is the girl's condition. It affects all skin, hair, and eyes, not separate patches present at birth.",
+     "T cell destruction of melanocytes is vitiligo. Vitiligo begins after birth and the patches usually spread over time.",
+     "Defective melanosome transport inside melanocytes occurs in Griscelli syndrome, which causes diffuse silvery hair, not a white forelock with stable patches.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Neural crest origin of melanocytes",
+      "Piebaldism versus albinism"
+     ],
+     "comps": [
+      "IN-2",
+      "IN-13-E1"
+     ]
+    }
+   },
+   {
+    "id": "IN-C11-Q4",
+    "stem": "Her 36-year-old father develops sharply demarcated, milk-white macules on the backs of his hands and around his mouth over 6 months. The macules have no scale. Which of the following findings is most likely?",
+    "options": [
+     "Yellow-green Wood lamp fluorescence and yeast forms on KOH",
+     "Chalk-white Wood lamp accentuation, no melanocytes on biopsy",
+     "Faint Wood lamp accentuation and normal melanocytes on biopsy",
+     "Septate hyphae on a KOH preparation from the lesion border"
+    ],
+    "answer": 1,
+    "sea": "X",
+    "comp": "IN-13-A2",
+    "obj": "IN-13-A.4",
+    "dok": 3,
+    "approach": [
+     "New, sharply demarcated, milk-white macules without scale on the hands and around the mouth in an adult suggest vitiligo.",
+     "Vitiligo removes the melanocytes completely, so the skin has no melanin at all.",
+     "Skin with no melanin glows bright chalk-white under Wood lamp, and a biopsy shows no melanocytes."
+    ],
+    "why": "Vitiligo is an acquired loss of melanocytes. Because no melanin remains, the macules look milk-white and are sharply accentuated under Wood lamp, and a biopsy with melanocyte stains shows no melanocytes in the basal layer. Its typical sites are around the mouth and eyes and on the hands. This also separates it from his daughter's albinism, in which melanocytes are present in normal numbers. Hypopigmented conditions that keep some melanin, such as postinflammatory hypopigmentation, show only faint accentuation.",
+    "whyNot": [
+     "Yellow-green fluorescence and yeasts with short hyphae on KOH describe tinea versicolor. Those macules are usually on the upper trunk and have a fine scale.",
+     "Correct.",
+     "Faint accentuation with melanocytes still present fits postinflammatory hypopigmentation, where melanin is reduced but the melanocytes remain.",
+     "Septate hyphae on KOH mean a dermatophyte, as in tinea corporis, which forms scaly annular plaques with an active border."
+    ],
+    "study": {
+     "topics": [
+      "Wood lamp examination",
+      "Hypopigmented versus depigmented lesions"
+     ],
+     "comps": [
+      "IN-13-A2",
+      "IN-12"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "IN-C12",
+  "system": "IN",
+  "dx": "Vitiligo with autoimmune primary adrenal insufficiency (Addison disease)",
+  "codes": [
+   "IN-13-A2"
+  ],
+  "case": "A 30-year-old man comes to the endocrinology clinic because of 4 months of fatigue, a 5-kg (11-lb) weight loss, salt craving, and lightheadedness on standing. He has had white patches on his hands and face for 3 years. Temperature is 36.6 °C (97.9 °F), pulse is 98/min, respirations are 16/min, and blood pressure is 94/58 mm Hg supine and 80/50 mm Hg standing. Physical examination shows diffuse brown hyperpigmentation, darkest in the palmar creases, knuckles, and buccal mucosa, and sharply demarcated depigmented macules on the dorsal hands and around the eyes. Serum studies show sodium 128 mEq/L (135 to 145), potassium 5.8 mEq/L (3.5 to 5.0), glucose 66 mg/dL (70 to 100), 8 AM cortisol 2 µg/dL (5 to 25), and ACTH 620 pg/mL (10 to 60). Antibodies to 21-hydroxylase are present. Diagnosis: vitiligo with autoimmune primary adrenal insufficiency.",
+  "questions": [
+   {
+    "id": "IN-C12-Q1",
+    "stem": "A new depigmented macule has appeared along a healed scratch on his forearm. Which of the following best explains the loss of pigment in his macules?",
+    "options": [
+     "Reduced tyrosinase activity in intact melanocytes",
+     "Cytotoxic T cell destruction of epidermal melanocytes",
+     "Inhibition of tyrosinase by a fungal dicarboxylic acid",
+     "Loss of melanin from keratinocytes after inflammation"
+    ],
+    "answer": 1,
+    "sea": "M",
+    "comp": "IN-13-A2",
+    "obj": "IN-13-A.3",
+    "dok": 2,
+    "approach": [
+     "A new lesion at a site of trauma is the Koebner phenomenon, which vitiligo shows.",
+     "Vitiligo is autoimmune, and he already has one autoimmune endocrine disease.",
+     "The effector cells are CD8 cytotoxic T cells that recognize melanocyte antigens and kill the melanocytes."
+    ],
+    "why": "In vitiligo, CD8 cytotoxic T cells recognize melanocyte proteins such as tyrosinase and kill the melanocytes, helped by interferon-gamma signaling. With no melanocytes left, the skin is depigmented, and trauma can trigger new lesions (Koebner phenomenon). Vitiligo clusters with other organ-specific autoimmune diseases, especially autoimmune thyroid disease, type 1 diabetes, and autoimmune adrenal insufficiency, as in this patient.",
+    "whyNot": [
+     "Intact melanocytes that cannot make melanin describe albinism, which is present from birth and affects the whole body.",
+     "Correct.",
+     "Azelaic acid from Malassezia inhibits tyrosinase in tinea versicolor, which causes scaly macules on the trunk, not a Koebner response on the hands.",
+     "Postinflammatory hypopigmentation follows an earlier rash in the same spot, keeps its melanocytes, and is only partly lightened."
+    ],
+    "study": {
+     "topics": [
+      "Vitiligo pathogenesis",
+      "Koebner phenomenon"
+     ],
+     "comps": [
+      "IN-13-A2",
+      "IN-11"
+     ]
+    }
+   },
+   {
+    "id": "IN-C12-Q2",
+    "stem": "His hyperpigmentation would be absent if his adrenal insufficiency were caused by a pituitary adenoma. Which of the following best explains this difference?",
+    "options": [
+     "Low aldosterone increases melanosome transfer to keratinocytes",
+     "Low cortisol removes inhibition of melanocyte tyrosinase",
+     "High renin activates angiotensin receptors on melanocytes",
+     "High POMC-derived peptides stimulate melanocortin 1 receptors"
+    ],
+    "answer": 3,
+    "sea": "P",
+    "comp": "IN-13-A",
+    "obj": "IN-13-A.6",
+    "dok": 3,
+    "approach": [
+     "Low cortisol removes negative feedback, so the pituitary raises production of POMC, the precursor of ACTH.",
+     "POMC is cleaved into ACTH and alpha-MSH, and both can bind the melanocortin 1 receptor on melanocytes.",
+     "In pituitary disease ACTH and POMC are low, so the stimulus for melanin is missing."
+    ],
+    "why": "In primary adrenal insufficiency the adrenal gland fails, cortisol falls, and the pituitary responds by making much more POMC. POMC is cut into ACTH and melanocyte-stimulating hormone, and both activate the melanocortin 1 receptor on melanocytes, which increases melanin synthesis. The darkening shows first in creases, knuckles, scars, and mucosa. In secondary adrenal insufficiency the pituitary is the problem, so ACTH and POMC peptides are low and the skin does not darken. His vitiligo macules stay white because they have no melanocytes to respond.",
+    "whyNot": [
+     "Aldosterone does not control melanosome transfer. Low aldosterone explains his hyperkalemia, hyponatremia, and salt craving.",
+     "Cortisol does not directly regulate tyrosinase. Low cortisol is shared by primary and secondary disease, so it cannot explain the difference.",
+     "Renin is high in primary adrenal insufficiency, but angiotensin does not drive melanin synthesis.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "POMC processing",
+      "Primary versus secondary adrenal insufficiency"
+     ],
+     "comps": [
+      "IN-13-A",
+      "IN-7"
+     ]
+    }
+   },
+   {
+    "id": "IN-C12-Q3",
+    "stem": "His depigmented macules sunburn easily, whereas his normally pigmented skin tans. Fair-skinned, red-haired people, whose melanocytes make mainly pheomelanin rather than eumelanin, also burn easily. Which of the following best explains why pheomelanin protects poorly against ultraviolet light?",
+    "options": [
+     "It generates reactive oxygen species when exposed to UV light",
+     "It is synthesized by melanocytes that lack tyrosinase activity",
+     "It cannot be transferred from melanocytes to keratinocytes",
+     "It is deposited only in keratinocytes of the stratum corneum"
+    ],
+    "answer": 0,
+    "sea": "B",
+    "comp": "IN-6",
+    "obj": "IN-6.3",
+    "dok": 3,
+    "approach": [
+     "Melanin protects by absorbing UV light and by quenching free radicals, so it acts as an antioxidant.",
+     "Eumelanin (brown-black) does both well and is chemically stable.",
+     "Pheomelanin (red-yellow) contains sulfur from cysteine and acts as a photosensitizer, producing reactive oxygen species under UV."
+    ],
+    "why": "Eumelanin absorbs a broad band of UV and visible light and scavenges free radicals, so it protects DNA in basal keratinocytes. Pheomelanin is made when cysteine joins the melanin pathway, giving sulfur-containing units that absorb less UV and generate reactive oxygen species when irradiated. Making pheomelanin also uses up cysteine and glutathione, an important skin antioxidant. Other non-vitamin antioxidants in skin include ubiquinol (coenzyme Q10) and dietary carotenoids such as lycopene, but none of them replaces the shielding of eumelanin.",
+    "whyNot": [
+     "Correct.",
+     "Pheomelanin synthesis also starts with tyrosinase. Melanocytes that lack tyrosinase make no melanin of either type.",
+     "Pheomelanin is packaged in melanosomes and transferred to keratinocytes in the same way as eumelanin.",
+     "Both types of melanin are carried in melanosomes in basal and lower epidermal keratinocytes, where they shield the nuclei."
+    ],
+    "study": {
+     "topics": [
+      "Eumelanin versus pheomelanin",
+      "Skin antioxidants"
+     ],
+     "comps": [
+      "IN-6",
+      "IN-7"
+     ]
+    }
+   },
+   {
+    "id": "IN-C12-Q4",
+    "stem": "A punch biopsy of hyperpigmented skin from a palmar crease is examined. The brown pigment is most likely to show which of the following features?",
+    "options": [
+     "Prussian blue-positive granules in dermal macrophages",
+     "Golden-brown perinuclear granules from lipid peroxidation",
+     "Fontana-Masson-positive granules in basal keratinocytes",
+     "Black exogenous particles within dermal macrophages"
+    ],
+    "answer": 2,
+    "sea": "X",
+    "comp": "IN-8",
+    "obj": "IN-8.5",
+    "dok": 2,
+    "approach": [
+     "His hyperpigmentation comes from ACTH and MSH stimulating melanocytes, so the pigment is melanin.",
+     "Melanin made by melanocytes is passed to basal keratinocytes, where it caps the nucleus.",
+     "Melanin reduces silver salts, so it stains black with Fontana-Masson, and it is Prussian blue negative."
+    ],
+    "why": "Hormonal hyperpigmentation increases melanin, an endogenous pigment, in the basal layer. Melanin reduces silver, so Fontana-Masson stains it black, and it does not contain iron. Hemosiderin is the main brown pigment that must be told apart from melanin, and Prussian blue stains it blue. Lipofuscin is a yellow-brown residue of lipid peroxidation inside lysosomes. Carbon and tattoo ink are exogenous pigments held by macrophages.",
+    "whyNot": [
+     "Prussian blue stains hemosiderin, the iron pigment left after bleeding, as in old bruises or stasis dermatitis.",
+     "Golden-brown perinuclear granules from lipid peroxidation are lipofuscin, the wear-and-tear pigment of aging, long-lived cells.",
+     "Correct.",
+     "Black exogenous particles in dermal macrophages are tattoo pigment. Inhaled carbon causes the same picture in the lung (anthracosis), not in palmar skin."
+    ],
+    "study": {
+     "topics": [
+      "Endogenous and exogenous pigments",
+      "Special stains for pigment"
+     ],
+     "comps": [
+      "IN-8",
+      "IN-13-A"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "IN-C13",
+  "system": "IN",
+  "dx": "Classic Ehlers-Danlos syndrome",
+  "codes": [
+   "IN-13-E2"
+  ],
+  "case": "A 17-year-old girl comes to the physician for a sports physical before joining a gymnastics team. She bruises easily, has had three shoulder dislocations, and says cuts on her knees healed as wide, thin scars. Her mother has similar skin. Temperature is 36.7 °C (98.1 °F), pulse is 66/min, respirations are 14/min, and blood pressure is 110/70 mm Hg. Height is 163 cm (5 ft 4 in). Physical examination shows soft, velvety skin that stretches 4 cm from the forearm and snaps back, wide atrophic scars over both knees and the forehead, and bruises on the shins. She can bend each thumb to touch the forearm and hyperextends both elbows. Sclerae are white, and the lenses are in normal position. Echocardiography shows a normal aortic root. Genetic testing shows a heterozygous COL5A1 variant. Diagnosis: classic Ehlers-Danlos syndrome.",
+  "questions": [
+   {
+    "id": "IN-C13-Q1",
+    "stem": "The protein encoded by the mutated gene has which of the following main roles in normal dermis?",
+    "options": [
+     "Forming the anchoring fibrils beneath the basal lamina",
+     "Forming the sheet network of the lamina densa",
+     "Hydroxylating lysine residues to allow cross-linking",
+     "Regulating the diameter of type I collagen fibrils"
+    ],
+    "answer": 3,
+    "sea": "B",
+    "comp": "IN-13-E2",
+    "obj": "IN-13-E.3",
+    "dok": 2,
+    "approach": [
+     "COL5A1 encodes a chain of type V collagen.",
+     "Type V collagen is a minor fibrillar collagen that co-assembles with type I collagen.",
+     "It sets the size and shape of type I fibrils, so its loss gives large, irregular fibrils and weak, stretchy skin."
+    ],
+    "why": "Classic Ehlers-Danlos syndrome is usually caused by dominant COL5A1 or COL5A2 variants. Type V collagen sits inside type I collagen fibrils and controls how they start and how thick they become. With too little working type V collagen, dermal fibrils are irregular and large, often looking like cauliflowers on electron microscopy. The skin stretches too far, tears easily, and heals with wide atrophic scars. Other types map to other proteins: vascular type to type III collagen and kyphoscoliotic type to lysyl hydroxylase.",
+    "whyNot": [
+     "Anchoring fibrils are type VII collagen. Its loss causes dystrophic epidermolysis bullosa, with blisters below the lamina densa.",
+     "The lamina densa network is type IV collagen, the target in Alport and Goodpasture syndromes.",
+     "Lysine hydroxylation is done by lysyl hydroxylase. Its deficiency causes the kyphoscoliotic type of Ehlers-Danlos syndrome.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Collagen types and their locations",
+      "Classic Ehlers-Danlos syndrome"
+     ],
+     "comps": [
+      "IN-13-E2",
+      "IN-5"
+     ]
+    }
+   },
+   {
+    "id": "IN-C13-Q2",
+    "stem": "Her 26-year-old cousin has thin, translucent skin with visible veins, extensive bruising, and only mild joint laxity, and is diagnosed with a different type of this disorder. This cousin is at greatest risk for which of the following?",
+    "options": [
+     "Recurrent long bone fractures after minor trauma",
+     "Spontaneous rupture of a medium-sized artery",
+     "Severe kyphoscoliosis present from infancy",
+     "Progressive conductive hearing loss"
+    ],
+    "answer": 1,
+    "sea": "X",
+    "comp": "IN-13-E2",
+    "obj": "IN-13-E.4",
+    "dok": 3,
+    "approach": [
+     "Thin, translucent skin with visible veins and easy bruising, with little joint laxity, points to the vascular type of Ehlers-Danlos syndrome.",
+     "The vascular type is caused by COL3A1 variants that reduce type III collagen.",
+     "Type III collagen is abundant in arteries, bowel, and uterus, so these walls can rupture."
+    ],
+    "why": "Vascular Ehlers-Danlos syndrome comes from defects in type III collagen, which gives strength to the walls of arteries, hollow organs, and the pregnant uterus. Patients have thin, translucent skin and bruise easily, while joint laxity is often limited to small joints. The danger is spontaneous rupture or dissection of medium-sized arteries, perforation of the bowel (often the sigmoid colon), and uterine rupture in pregnancy. Berry aneurysms can also occur. It is the most life-threatening form of the disorder.",
+    "whyNot": [
+     "Fractures after minor trauma point to osteogenesis imperfecta, a type I collagen disorder, not to fragile vessels.",
+     "Correct.",
+     "Severe kyphoscoliosis from infancy, with low muscle tone, is the kyphoscoliotic type, caused by lysyl hydroxylase deficiency.",
+     "Conductive hearing loss from abnormal ossicles is a feature of osteogenesis imperfecta."
+    ],
+    "study": {
+     "topics": [
+      "Vascular Ehlers-Danlos syndrome",
+      "Type III collagen"
+     ],
+     "comps": [
+      "IN-13-E2",
+      "IN-5"
+     ]
+    }
+   },
+   {
+    "id": "IN-C13-Q3",
+    "stem": "A 16-year-old teammate is 188 cm (6 ft 2 in) tall, has an arm span greater than her height, hypermobile joints, and upward displacement of both lenses. Echocardiography shows aortic root dilation. A defect in which of the following is most likely?",
+    "options": [
+     "Type I collagen of bone and sclera",
+     "Type III collagen of vessel walls",
+     "Fibrillin-1 of microfibrils",
+     "Type V collagen of dermal fibrils"
+    ],
+    "answer": 2,
+    "sea": "B",
+    "comp": "IN-13-E",
+    "obj": "IN-13-E.5",
+    "dok": 2,
+    "approach": [
+     "Tall stature, long arms, lens displacement, and aortic root dilation together suggest Marfan syndrome.",
+     "Marfan syndrome is caused by FBN1 variants that affect fibrillin-1.",
+     "Fibrillin-1 forms microfibrils that support elastic fibers and hold TGF-beta in reserve, which explains the eye, skeletal, and aortic findings."
+    ],
+    "why": "Marfan syndrome is an autosomal dominant defect in fibrillin-1, a glycoprotein that forms the microfibril scaffold of elastic fibers. The suspensory ligaments of the lens are made of these microfibrils, so the lenses slip, usually upward. Weak elastic fibers in the aortic media lead to aortic root dilation and dissection, and extra TGF-beta signaling adds to the problem. Joint hypermobility is shared with Ehlers-Danlos syndrome, so the defective protein and the other findings separate them.",
+    "whyNot": [
+     "Type I collagen defects cause osteogenesis imperfecta, with fractures, blue sclerae, and hearing loss, not tall stature with lens displacement.",
+     "Type III collagen defects cause vascular Ehlers-Danlos syndrome, with arterial and bowel rupture but no lens displacement or tall stature.",
+     "Correct.",
+     "Type V collagen defects cause classic Ehlers-Danlos syndrome, as in the patient, with stretchy skin and atrophic scars but normal height and lenses."
+    ],
+    "study": {
+     "topics": [
+      "Marfan syndrome",
+      "Osteogenesis imperfecta"
+     ],
+     "comps": [
+      "IN-13-E",
+      "IN-5"
+     ]
+    }
+   },
+   {
+    "id": "IN-C13-Q4",
+    "stem": "Electron microscopy of her skin shows enlarged, irregular collagen fibrils. The defect most affects the dermal layer that gives skin most of its tensile strength. Which of the following best describes this layer?",
+    "options": [
+     "Dense irregular connective tissue with thick collagen bundles",
+     "Loose connective tissue with fine collagen and Meissner corpuscles",
+     "Adipose lobules divided by septa containing Pacinian corpuscles",
+     "Type IV collagen sheet just beneath the basal keratinocytes"
+    ],
+    "answer": 0,
+    "sea": "A",
+    "comp": "IN-1",
+    "obj": "IN-1.5",
+    "dok": 2,
+    "approach": [
+     "The layer that resists stretching is the one with the most and thickest collagen.",
+     "That is the reticular dermis, the thick layer below the papillary dermis.",
+     "Match it to its histology: dense irregular connective tissue with coarse collagen bundles running in many directions."
+    ],
+    "why": "The dermis has two layers. The thin papillary dermis is loose connective tissue with fine collagen, capillary loops, and Meissner corpuscles for light touch. The much thicker reticular dermis is dense irregular connective tissue with large bundles of type I collagen and elastic fibers, and it gives skin its strength. Below it, the hypodermis is fat with fibrous septa, and Pacinian corpuscles for vibration sit in the deep dermis and subcutis. Free nerve endings reach into the epidermis.",
+    "whyNot": [
+     "Correct.",
+     "Loose connective tissue with fine collagen and Meissner corpuscles is the papillary dermis, the thin layer in the dermal papillae.",
+     "Fat lobules with fibrous septa and Pacinian corpuscles describe the hypodermis (subcutis), which cushions and insulates.",
+     "A type IV collagen sheet under the basal cells is the lamina densa of the basement membrane, not a dermal layer."
+    ],
+    "study": {
+     "topics": [
+      "Layers of the dermis",
+      "Cutaneous sensory receptors"
+     ],
+     "comps": [
+      "IN-1",
+      "IN-13-E2"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "IN-C14",
+  "system": "IN",
+  "dx": "Invasive cutaneous squamous cell carcinoma arising in actinic keratosis in a kidney transplant recipient",
+  "codes": [
+   "IN-13-F1",
+   "IN-13-G2"
+  ],
+  "case": "A 64-year-old man comes to the transplant clinic because of a growing, tender lump on the back of his left hand. He received a deceased-donor kidney transplant 12 years ago and takes tacrolimus, mycophenolate, and prednisone. He worked outdoors as a roofer for 30 years. Temperature is 36.9 °C (98.4 °F), pulse is 74/min, respirations are 14/min, and blood pressure is 136/82 mm Hg. Physical examination shows fair skin with many rough, scaly, pink papules that feel like sandpaper on the scalp, forehead, ears, and dorsal hands. On the left hand, one of these lesions has become a 1.5-cm indurated, hyperkeratotic nodule with central ulceration. Excisional biopsy shows atypical keratinocytes forming keratin pearls and invading the reticular dermis. Diagnosis: invasive squamous cell carcinoma arising in an actinic keratosis.",
+  "questions": [
+   {
+    "id": "IN-C14-Q1",
+    "stem": "A shave biopsy of one of the rough, scaly papules on his forehead shows no dermal invasion. Which of the following additional findings is most likely?",
+    "options": [
+     "Atypia of lower epidermal keratinocytes with parakeratosis",
+     "Full-thickness keratinocyte atypia over an intact basement membrane",
+     "Nests of basaloid cells with peripheral palisading",
+     "Uniform basaloid cells with keratin-filled horn cysts"
+    ],
+    "answer": 0,
+    "sea": "X",
+    "comp": "IN-13-F1",
+    "obj": "IN-13-F.1",
+    "dok": 2,
+    "approach": [
+     "Rough, sandpaper-like scaly papules on sun-exposed skin of an older fair-skinned man are actinic keratoses.",
+     "Actinic keratosis is UV-induced dysplasia that starts in the basal and lower epidermal keratinocytes.",
+     "Expect lower epidermal atypia, overlying parakeratosis, and solar elastosis in the dermis."
+    ],
+    "why": "Actinic keratosis is a dysplasia of keratinocytes caused by years of UV exposure. The atypia begins in the basal layer and involves the lower part of the epidermis, while the stratum corneum keeps its nuclei (parakeratosis), which is why the lesion feels rough. The dermis below usually shows solar elastosis, a sign of chronic sun damage. Most actinic keratoses do not progress, but some become squamous cell carcinoma, and the risk is much higher in transplant recipients.",
+    "whyNot": [
+     "Correct.",
+     "Atypia through the full thickness of the epidermis is squamous cell carcinoma in situ (Bowen disease), a step further along than a typical actinic keratosis.",
+     "Basaloid nests with peripheral palisading are basal cell carcinoma, which usually forms a pearly papule.",
+     "Uniform basaloid cells with horn cysts and no atypia are seborrheic keratosis, a benign stuck-on lesion."
+    ],
+    "study": {
+     "topics": [
+      "Actinic keratosis histology",
+      "Dysplasia to carcinoma sequence"
+     ],
+     "comps": [
+      "IN-13-F1",
+      "IN-8"
+     ]
+    }
+   },
+   {
+    "id": "IN-C14-Q2",
+    "stem": "His 68-year-old brother, who has never taken immunosuppressive drugs, also has several cutaneous squamous cell carcinomas, along with many hard keratotic papules on his palms and soles. Both brothers drank water from the same rural well throughout childhood. Which of the following exposures most likely contributed?",
+    "options": [
+     "Vinyl chloride",
+     "Aromatic amines",
+     "Inorganic arsenic",
+     "Airborne asbestos fibers"
+    ],
+    "answer": 2,
+    "sea": "X",
+    "comp": "IN-13-G2",
+    "obj": "IN-13-G.2",
+    "dok": 2,
+    "approach": [
+     "Squamous cell carcinomas plus keratoses of the palms and soles in someone without immunosuppression suggest a systemic carcinogen.",
+     "A shared rural well water source points to an ingested contaminant.",
+     "Chronic arsenic ingestion causes palmar and plantar keratoses, Bowen disease, and squamous cell carcinoma."
+    ],
+    "why": "Long-term arsenic in drinking water is a known cause of skin cancer. It causes punctate keratoses on the palms and soles, squamous cell carcinoma in situ, invasive squamous cell carcinoma, and basal cell carcinoma, including on skin that sees little sun. Other risk factors for squamous cell carcinoma are cumulative UV exposure, actinic keratosis, transplant immunosuppression, HPV, xeroderma pigmentosum, and chronic scars or ulcers (Marjolin ulcer). Sun-exposed skin and the lower lip, which faces the sun more than the upper lip, are favored sites.",
+    "whyNot": [
+     "Vinyl chloride exposure in plastics manufacturing causes angiosarcoma of the liver, not skin cancer with palmar keratoses.",
+     "Aromatic amines from dye and rubber work and from smoking cause urothelial carcinoma of the bladder.",
+     "Correct.",
+     "Asbestos causes mesothelioma, lung cancer, and pleural plaques, not skin cancer."
+    ],
+    "study": {
+     "topics": [
+      "Risk factors for squamous cell carcinoma",
+      "Arsenic toxicity"
+     ],
+     "comps": [
+      "IN-13-G2",
+      "IN-10"
+     ]
+    }
+   },
+   {
+    "id": "IN-C14-Q3",
+    "stem": "Which of the following best explains why his immunosuppressive regimen has increased his risk of this cancer?",
+    "options": [
+     "Reduced complement deposition on tumor cell membranes",
+     "Reduced IL-2-driven expansion of CD8 cytotoxic T cells",
+     "Reduced eosinophil killing of antibody-coated tumor cells",
+     "Reduced neutrophil oxidative burst directed at tumor cells"
+    ],
+    "answer": 1,
+    "sea": "M",
+    "comp": "IN-11",
+    "obj": "IN-11.6",
+    "dok": 3,
+    "approach": [
+     "Tacrolimus is a calcineurin inhibitor that blocks NFAT activation and IL-2 production in T cells.",
+     "Without IL-2, CD8 T cells cannot expand to kill keratinocytes that carry UV-induced mutant proteins.",
+     "Loss of this surveillance lets many dysplastic clones grow, so transplant recipients get many squamous cell carcinomas."
+    ],
+    "why": "Cytotoxic CD8 T cells recognize mutant peptides shown on MHC class I and kill tumor cells, and NK cells kill tumor cells that hide by dropping MHC class I. Tumors can also escape by expressing PD-L1, which turns T cells off. Tacrolimus and similar drugs block IL-2 production, so the T cell arm of this surveillance is weakened. Organ transplant recipients therefore develop squamous cell carcinoma at many times the usual rate, often in large numbers, and the tumors behave more aggressively. Oncogenic HPV types may add to the risk in these patients.",
+    "whyNot": [
+     "Complement plays little part in clearing solid tumors, and his drugs do not mainly target complement.",
+     "Correct.",
+     "Eosinophil antibody-dependent killing is aimed at helminths, not at UV-damaged keratinocytes.",
+     "The neutrophil respiratory burst kills bacteria and fungi. Loss of it causes infections, as in chronic granulomatous disease, not skin cancer."
+    ],
+    "study": {
+     "topics": [
+      "Tumor immunosurveillance",
+      "Calcineurin inhibitors"
+     ],
+     "comps": [
+      "IN-11",
+      "IN-13-G2"
+     ]
+    }
+   },
+   {
+    "id": "IN-C14-Q4",
+    "stem": "Sequencing of the tumor shows many C-to-T substitutions, including tandem CC-to-TT changes, at adjacent pyrimidines in TP53. Which of the following most likely caused these mutations?",
+    "options": [
+     "UVA light forming 8-oxoguanine through oxidation",
+     "Ionizing radiation causing double-strand breaks",
+     "Benzo[a]pyrene forming bulky guanine adducts",
+     "UVB light forming cyclobutane pyrimidine dimers"
+    ],
+    "answer": 3,
+    "sea": "B",
+    "comp": "IN-6",
+    "obj": "IN-6.4",
+    "dok": 3,
+    "approach": [
+     "C-to-T and CC-to-TT changes at adjacent pyrimidines are the UV signature mutation.",
+     "UVB is absorbed directly by DNA and links neighboring pyrimidines into cyclobutane pyrimidine dimers.",
+     "If the dimers are not repaired by nucleotide excision repair, replication puts in the wrong base, giving the signature."
+    ],
+    "why": "UVB is absorbed directly by DNA and joins neighboring pyrimidines into cyclobutane pyrimidine dimers and 6-4 photoproducts. Nucleotide excision repair normally removes them, but unrepaired lesions produce C-to-T and CC-to-TT changes, often in TP53. UVB is also the main cause of sunburn. UVA penetrates into the dermis and harms DNA mainly through reactive oxygen species, and it drives photoaging by inducing matrix metalloproteinases that break down collagen, leaving solar elastosis.",
+    "whyNot": [
+     "UVA penetrates deeper and damages DNA mostly through oxidation. 8-oxoguanine leads to G-to-T transversions, not CC-to-TT changes.",
+     "Ionizing radiation causes strand breaks, deletions, and rearrangements rather than tandem changes at pyrimidine pairs.",
+     "Benzo[a]pyrene from tobacco smoke binds guanine and leads mainly to G-to-T transversions, as in lung cancer.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "UVB versus UVA injury",
+      "Nucleotide excision repair"
+     ],
+     "comps": [
+      "IN-6",
+      "IN-7"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "IN-C15",
+  "system": "IN",
+  "dx": "Superficial spreading melanoma in a patient with multiple dysplastic nevi",
+  "codes": [
+   "IN-13-F2",
+   "IN-13-G3"
+  ],
+  "case": "A 38-year-old woman comes to the dermatology clinic because a mole on her upper back has grown and darkened over 6 months. Her mother had melanoma diagnosed at age 42. She has fair skin, freckles, and brown hair. Physical examination shows more than 60 nevi; about 15 of them are 6 to 9 mm with irregular, fuzzy borders and mixed tan and brown color. The changing lesion is an 11-mm asymmetric plaque with a notched border, areas of brown, black, and blue-gray, and a 3-mm raised nodule. Excision shows atypical melanocytes spreading singly and in nests through all levels of the epidermis, and a dermal nodule of atypical melanocytes with mitoses. Breslow thickness is 1.6 mm. Diagnosis: superficial spreading melanoma in a patient with multiple dysplastic nevi.",
+  "questions": [
+   {
+    "id": "IN-C15-Q1",
+    "stem": "A biopsy of one of her 7-mm nevi with fuzzy borders is most likely to show which of the following?",
+    "options": [
+     "Uniform nests of small melanocytes that mature with depth",
+     "Spindle and epithelioid melanocytes with Kamino bodies",
+     "Architectural disorder with random melanocyte atypia",
+     "Atypical melanocytes in sheets invading the reticular dermis"
+    ],
+    "answer": 2,
+    "sea": "X",
+    "comp": "IN-13-F2",
+    "obj": "IN-13-F.2",
+    "dok": 2,
+    "approach": [
+     "Nevi larger than 6 mm with irregular borders and mixed color in a patient with many moles and a family history of melanoma are dysplastic nevi.",
+     "Dysplastic nevi are defined on biopsy by architectural disorder, such as bridging of nests between rete ridges, plus cytologic atypia.",
+     "The atypia is random and mild to moderate, which separates them from melanoma."
+    ],
+    "why": "Dysplastic nevi are larger than common nevi (often over 5 to 6 mm), with irregular borders and uneven color. On biopsy they show disordered architecture, such as nests that bridge between rete ridges and dermal fibrosis, with scattered atypical melanocytes. One dysplastic nevus rarely becomes melanoma, but many of them mark a person at high risk, especially with a family history. Familial melanoma is often linked to germline CDKN2A mutations that remove p16, a brake on the cell cycle.",
+    "whyNot": [
+     "Uniform small nests that become smaller and more mature with depth describe an ordinary acquired nevus, which is usually under 6 mm with a smooth border.",
+     "Large spindle and epithelioid cells with eosinophilic Kamino bodies describe a Spitz nevus, typically a pink papule in a child.",
+     "Correct.",
+     "Sheets of atypical melanocytes invading the reticular dermis are invasive melanoma, not a stable nevus."
+    ],
+    "study": {
+     "topics": [
+      "Dysplastic nevus histology",
+      "Familial melanoma"
+     ],
+     "comps": [
+      "IN-13-F2",
+      "IN-7"
+     ]
+    }
+   },
+   {
+    "id": "IN-C15-Q2",
+    "stem": "Which of the following features of the excised tumor best predicts her risk of metastasis?",
+    "options": [
+     "Diameter of the lesion on the skin surface",
+     "Number of colors seen within the lesion",
+     "Extent of pagetoid spread in the epidermis",
+     "Depth of invasion from the granular layer"
+    ],
+    "answer": 3,
+    "sea": "X",
+    "comp": "IN-13-G3",
+    "obj": "IN-13-G.5",
+    "dok": 3,
+    "approach": [
+     "Her raised nodule means the tumor has entered the vertical growth phase.",
+     "Vertical growth carries tumor cells into the dermis, near lymphatics and blood vessels, so it allows metastasis.",
+     "The deeper the invasion, the higher the risk, which is measured as Breslow thickness."
+    ],
+    "why": "Melanoma first grows outward within the epidermis and superficial dermis (radial growth phase), where metastasis is unlikely. Clones that gain the ability to grow downward form a dermal nodule (vertical growth phase) and can reach lymphatics and vessels. Breslow thickness, measured in millimeters from the granular layer to the deepest tumor cell, is the strongest predictor of outcome for localized melanoma. Melanocytic origin can be confirmed with immunostains such as S-100, HMB-45, and Melan-A.",
+    "whyNot": [
+     "Surface diameter reflects radial growth, which spreads along the epidermis and carries little risk of metastasis.",
+     "Color variation helps raise suspicion of melanoma clinically, but it does not measure how deep the tumor reaches.",
+     "Pagetoid spread is part of the radial growth phase and helps diagnose melanoma, but it occurs within the epidermis.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Radial and vertical growth phases",
+      "Breslow thickness"
+     ],
+     "comps": [
+      "IN-13-G3",
+      "IN-8"
+     ]
+    }
+   },
+   {
+    "id": "IN-C15-Q3",
+    "stem": "Her 34-year-old sister has red hair, many freckles, and skin that burns and never tans. She carries loss-of-function variants in the gene for the melanocyte receptor that binds alpha-melanocyte-stimulating hormone. Which of the following best explains her pigmentation?",
+    "options": [
+     "Low cAMP lowers MITF and tyrosinase, favoring pheomelanin",
+     "Absent tyrosinase activity prevents synthesis of all melanin",
+     "Failed neural crest migration reduces melanocyte numbers",
+     "High cAMP increases eumelanin but blocks melanosome transfer"
+    ],
+    "answer": 0,
+    "sea": "B",
+    "comp": "IN-7",
+    "obj": "IN-7.7",
+    "dok": 3,
+    "approach": [
+     "The receptor that binds alpha-MSH on melanocytes is MC1R, a Gs-coupled receptor.",
+     "MC1R signaling raises cAMP, which increases MITF and tyrosinase expression and switches synthesis toward eumelanin.",
+     "With loss of function, cAMP stays low and melanocytes make mostly red-yellow pheomelanin, which protects poorly against UV."
+    ],
+    "why": "MC1R is a Gs-coupled receptor on melanocytes. When alpha-MSH binds it, cAMP rises, protein kinase A activates the transcription factor MITF, and tyrosinase and related enzymes increase, favoring brown-black eumelanin. Loss-of-function MC1R variants keep cAMP low, so melanocytes make mostly pheomelanin. The result is red hair, freckles, and fair skin that burns, and these variants raise melanoma risk.",
+    "whyNot": [
+     "Correct.",
+     "Absent tyrosinase activity is oculocutaneous albinism type 1, with white hair and no pigment of either type. Red hair needs pheomelanin, which still needs tyrosinase.",
+     "Failed migration of melanoblasts causes piebaldism, with white patches lacking melanocytes, not red hair and freckles.",
+     "Loss of receptor function lowers cAMP. High cAMP would push melanocytes toward eumelanin and darker skin."
+    ],
+    "study": {
+     "topics": [
+      "MC1R signaling",
+      "Regulation of melanogenesis"
+     ],
+     "comps": [
+      "IN-7",
+      "IN-6"
+     ]
+    }
+   },
+   {
+    "id": "IN-C15-Q4",
+    "stem": "The malignant cells in her tumor share their embryologic origin with which of the following cells?",
+    "options": [
+     "Keratinocytes of the epidermis",
+     "Schwann cells of peripheral nerves",
+     "Fiber cells of the lens",
+     "Cells of the retinal pigment epithelium"
+    ],
+    "answer": 1,
+    "sea": "A",
+    "comp": "IN-2",
+    "obj": "IN-2.1",
+    "dok": 2,
+    "approach": [
+     "Melanoma is a tumor of melanocytes.",
+     "Melanocytes arise from the neural crest, which separates from the folding neural tube.",
+     "Choose the other neural crest derivative, the Schwann cell."
+    ],
+    "why": "Ectoderm splits into three lines. Surface ectoderm forms the epidermis, hair, nails, skin and mammary glands, lens, anterior pituitary, and tooth enamel. Neuroectoderm from the neural tube forms the brain, spinal cord, retina and retinal pigment epithelium, and posterior pituitary. Neural crest forms melanocytes, Schwann cells, sensory and autonomic ganglia, adrenal medulla, and much of the face's connective tissue. Melanoma and schwannoma therefore share a neural crest origin, and both often stain for S-100.",
+    "whyNot": [
+     "Keratinocytes come from surface ectoderm, which also forms hair, nails, and skin glands. They give rise to basal and squamous cell carcinomas.",
+     "Correct.",
+     "The lens comes from surface ectoderm, which forms the lens placode.",
+     "The retinal pigment epithelium is pigmented but comes from neuroectoderm (the outer layer of the optic cup), like the neural retina."
+    ],
+    "study": {
+     "topics": [
+      "Ectoderm derivatives",
+      "Neural crest derivatives"
+     ],
+     "comps": [
+      "IN-2",
+      "IN-13-G3"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "IN-C16",
+  "system": "IN",
+  "dx": "Eruptive seborrheic keratoses (Leser-Trélat sign) with gastric adenocarcinoma",
+  "codes": [
+   "IN-13-F3"
+  ],
+  "case": "A 68-year-old man comes to the physician because many itchy brown spots have appeared on his chest and back over the past 3 months. He also reports early satiety, epigastric pain, and a 7-kg (15-lb) weight loss. Temperature is 36.8 °C (98.2 °F), pulse is 84/min, respirations are 16/min, and blood pressure is 128/76 mm Hg. Physical examination shows more than 40 tan to dark brown, waxy, sharply bordered papules and plaques on the trunk that look stuck on to the skin. Hemoglobin is 10.4 g/dL (13.5 to 17.5). Upper endoscopy shows a 4-cm ulcerated mass in the gastric antrum, and biopsy shows invasive adenocarcinoma. Diagnosis: eruptive seborrheic keratoses (sign of Leser-Trélat) with gastric adenocarcinoma.",
+  "questions": [
+   {
+    "id": "IN-C16-Q1",
+    "stem": "A shave biopsy of one skin lesion shows a sharply bordered proliferation of uniform basaloid cells with keratin-filled horn cysts and no atypia. Activating mutations in which of the following genes are most common in such lesions?",
+    "options": [
+     "BRAF, a serine-threonine kinase",
+     "FGFR3, a receptor tyrosine kinase",
+     "KIT, a receptor tyrosine kinase",
+     "CTNNB1, which encodes beta-catenin"
+    ],
+    "answer": 1,
+    "sea": "B",
+    "comp": "IN-13-F3",
+    "obj": "IN-13-F.3",
+    "dok": 2,
+    "approach": [
+     "Uniform basaloid cells with horn cysts and no atypia in a waxy stuck-on lesion is a seborrheic keratosis.",
+     "Seborrheic keratosis is a benign clonal proliferation of epidermal keratinocytes.",
+     "Sporadic lesions most often carry activating FGFR3 mutations that drive keratinocyte growth."
+    ],
+    "why": "Seborrheic keratoses are benign epidermal tumors of older adults. They look waxy and stuck on, and on biopsy show basaloid keratinocytes with keratin-filled horn cysts and no atypia. Many carry activating mutations in FGFR3, a receptor tyrosine kinase, showing that they are true clonal neoplasms. Single lesions are harmless, but a sudden eruption of many lesions is the sign of Leser-Trélat, which can signal an internal cancer, most often gastric adenocarcinoma.",
+    "whyNot": [
+     "Activating BRAF mutations, especially V600E, are typical of melanocytic nevi and many melanomas.",
+     "Correct.",
+     "Activating KIT mutations occur in gastrointestinal stromal tumors, mastocytosis, and some acral and mucosal melanomas. Loss-of-function KIT variants cause piebaldism.",
+     "Activating CTNNB1 mutations that stabilize beta-catenin are found in pilomatricoma, a hair matrix tumor with shadow cells."
+    ],
+    "study": {
+     "topics": [
+      "Seborrheic keratosis",
+      "Growth factor receptor mutations"
+     ],
+     "comps": [
+      "IN-13-F3",
+      "IN-7"
+     ]
+    }
+   },
+   {
+    "id": "IN-C16-Q2",
+    "stem": "Which of the following additional skin findings is most likely to develop in association with his malignancy?",
+    "options": [
+     "Velvety hyperpigmented plaques in the axillae",
+     "Erosive stomatitis with polymorphous blistering",
+     "Necrolytic migratory erythema of the groin",
+     "Episodic facial flushing with telangiectasias"
+    ],
+    "answer": 0,
+    "sea": "X",
+    "comp": "IN-13-F3",
+    "obj": "IN-13-F.4",
+    "dok": 3,
+    "approach": [
+     "Sudden eruptive seborrheic keratoses with gastric cancer is a paraneoplastic pattern.",
+     "Gastric adenocarcinoma is thought to release growth factors, such as TGF-alpha, that stimulate epidermal growth.",
+     "The skin sign most tied to gastric adenocarcinoma, often with Leser-Trélat, is malignant acanthosis nigricans."
+    ],
+    "why": "Acanthosis nigricans is thick, velvety, darkened skin in body folds such as the axillae and neck. Most cases come from insulin resistance and obesity, but sudden, widespread acanthosis nigricans in an older, thin adult suggests cancer, most often gastric adenocarcinoma, and it often appears with the Leser-Trélat sign. Tumor growth factors acting on epidermal receptors are thought to drive both. Other paraneoplastic skin signs include dermatomyositis with ovarian, lung, and gastrointestinal cancers and paraneoplastic pemphigus with lymphoma.",
+    "whyNot": [
+     "Correct.",
+     "Painful erosive stomatitis with varied blisters is paraneoplastic pemphigus, which is linked mainly to non-Hodgkin lymphoma and chronic lymphocytic leukemia.",
+     "Necrolytic migratory erythema in the groin and perineum is the classic sign of a glucagonoma of the pancreas.",
+     "Episodic flushing with telangiectasias is carcinoid syndrome, usually from a small bowel neuroendocrine tumor with liver metastases."
+    ],
+    "study": {
+     "topics": [
+      "Paraneoplastic skin signs",
+      "Acanthosis nigricans"
+     ],
+     "comps": [
+      "IN-13-F3",
+      "IN-11"
+     ]
+    }
+   },
+   {
+    "id": "IN-C16-Q3",
+    "stem": "Five months later he develops red-purple scaly papules over the knuckles and has difficulty climbing stairs and rising from a chair. Serum creatine kinase is 3,400 U/L (40 to 300). Which of the following additional findings is most likely?",
+    "options": [
+     "Thick skin of the fingers with anticentromere antibodies",
+     "Scarring plaques with follicular plugging on the ears",
+     "Erythema of the cheeks that spares the nasolabial folds",
+     "Lilac discoloration of the upper eyelids"
+    ],
+    "answer": 3,
+    "sea": "M",
+    "comp": "IN-11",
+    "obj": "IN-11.5",
+    "dok": 2,
+    "approach": [
+     "Scaly papules over the knuckles are Gottron papules.",
+     "Gottron papules with proximal muscle weakness and high creatine kinase indicate dermatomyositis, which can be paraneoplastic in older adults.",
+     "The other classic skin sign of dermatomyositis is the heliotrope rash on the upper eyelids."
+    ],
+    "why": "Dermatomyositis is an autoimmune disease of skin and muscle. Its skin signs are Gottron papules over the knuckles and a lilac (heliotrope) rash of the upper eyelids, often with eyelid swelling. Proximal weakness and a high creatine kinase reflect muscle inflammation. In older adults it can be paraneoplastic, with ovarian, lung, and gastrointestinal cancers among the most common, so new dermatomyositis calls for a cancer search. Lupus causes interface dermatitis with immune deposits at the dermal-epidermal junction, and systemic sclerosis causes sclerodactyly.",
+    "whyNot": [
+     "Thickened finger skin (sclerodactyly) with anticentromere antibodies is limited systemic sclerosis (CREST), which does not cause Gottron papules or a high creatine kinase.",
+     "Scarring plaques with follicular plugging on the ears and face are discoid lupus.",
+     "A malar rash sparing the nasolabial folds is the photosensitive rash of systemic lupus erythematosus.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Dermatomyositis",
+      "Autoimmune skin findings"
+     ],
+     "comps": [
+      "IN-11",
+      "IN-13-F3"
+     ]
+    }
+   },
+   {
+    "id": "IN-C16-Q4",
+    "stem": "The gastric biopsy shows cells with pleomorphic nuclei and many mitoses. Which of the following features is the most reliable evidence that a tumor is malignant?",
+    "options": [
+     "Marked nuclear pleomorphism",
+     "Numerous mitotic figures",
+     "Spread to a distant site",
+     "Rapid growth over weeks"
+    ],
+    "answer": 2,
+    "sea": "X",
+    "comp": "IN-8",
+    "obj": "IN-8.7",
+    "dok": 3,
+    "approach": [
+     "List the features that suggest malignancy: anaplasia, rapid growth, local invasion, and metastasis.",
+     "Most of these features can also show up in benign or reactive lesions.",
+     "Metastasis, spread to a site not connected to the primary tumor, occurs only with malignant tumors."
+    ],
+    "why": "Benign and malignant tumors differ in differentiation, growth rate, local invasion, and metastasis. Anaplasia (pleomorphism, high nuclear to cytoplasmic ratio, atypical mitoses) and fast growth favor cancer but can be seen in benign or reactive lesions. Invasion is strong evidence, and metastasis is the one finding that proves a tumor is malignant. His gastric tumor is an adenocarcinoma (a malignant tumor of glandular epithelium), while his seborrheic keratoses are benign despite their sudden appearance. Grade describes how differentiated a tumor is, and stage describes how far it has spread.",
+    "whyNot": [
+     "Pleomorphism is common in cancers, but it also appears in dysplasia and in some benign tumors, so it does not prove malignancy alone.",
+     "Many mitoses show rapid cell division, which can also occur in benign tumors, healing tissue, and hyperplasia.",
+     "Correct.",
+     "Rapid growth is not specific. His eruptive seborrheic keratoses grew quickly and are benign."
+    ],
+    "study": {
+     "topics": [
+      "Benign versus malignant tumors",
+      "Grade and stage"
+     ],
+     "comps": [
+      "IN-8",
+      "IN-13-F3"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "IN-C17",
+  "system": "IN",
+  "dx": "Basal cell carcinoma of the scalp after childhood irradiation for tinea capitis",
+  "codes": [
+   "IN-13-G1"
+  ],
+  "case": "A 70-year-old woman comes to the dermatology clinic because of a sore on her scalp that bleeds when she combs her hair. At age 4 she received X-ray treatment of the scalp for ringworm. Temperature is 36.7 °C (98.1 °F), pulse is 72/min, respirations are 14/min, and blood pressure is 134/80 mm Hg. Physical examination shows a 1.4-cm pearly papule on the vertex with a rolled border, branching telangiectasias, and a central ulcer. The surrounding scalp skin is thin, shiny, and hairless, with fine telangiectasias. There is no cervical lymphadenopathy. Biopsy shows nests of basaloid cells with peripheral palisading and clefts between the nests and the surrounding stroma. Diagnosis: basal cell carcinoma of the scalp after childhood scalp irradiation for tinea capitis.",
+  "questions": [
+   {
+    "id": "IN-C17-Q1",
+    "stem": "If untreated, this tumor is most likely to follow which of the following courses?",
+    "options": [
+     "Early spread to the occipital and cervical lymph nodes",
+     "Hematogenous spread to the lungs within a few months",
+     "Spontaneous regression after a few weeks of rapid growth",
+     "Slow local destruction with very rare metastasis"
+    ],
+    "answer": 3,
+    "sea": "X",
+    "comp": "IN-13-G1",
+    "obj": "IN-13-G.1",
+    "dok": 2,
+    "approach": [
+     "A pearly papule with rolled border and telangiectasias, with basaloid nests and peripheral palisading, is basal cell carcinoma.",
+     "Basal cell carcinoma grows slowly and invades local tissue, and it can erode deeply if neglected.",
+     "Its cells depend on the surrounding stroma, which helps explain why metastasis is very rare."
+    ],
+    "why": "Basal cell carcinoma is the most common skin cancer. It arises from basal keratinocytes, driven by UV and other DNA damage and by activated hedgehog signaling. It grows slowly and invades locally, and neglected tumors can destroy skin, cartilage, and even bone (rodent ulcer), but metastasis is very rare. Its look is a pearly papule with rolled borders and telangiectasias, sometimes with central ulceration.",
+    "whyNot": [
+     "Early lymph node spread is more typical of melanoma, Merkel cell carcinoma, and high-risk squamous cell carcinoma.",
+     "Early spread to the lungs through the blood is typical of aggressive tumors such as melanoma or angiosarcoma.",
+     "Rapid growth over weeks followed by regression is the pattern of keratoacanthoma, a squamous lesion with a central keratin plug.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Basal cell carcinoma behavior",
+      "Skin cancer comparison"
+     ],
+     "comps": [
+      "IN-13-G1",
+      "IN-8"
+     ]
+    }
+   },
+   {
+    "id": "IN-C17-Q2",
+    "stem": "Sequencing of the tumor shows loss of both copies of a gene that encodes the receptor for a secreted developmental signaling protein. Which of the following is the most likely molecular consequence?",
+    "options": [
+     "Constitutive BRAF kinase activity in the MAPK pathway",
+     "Unchecked CDK4 activity with hyperphosphorylated Rb",
+     "Unrestrained smoothened signaling with GLI activation",
+     "Stabilized beta-catenin entering the nucleus"
+    ],
+    "answer": 2,
+    "sea": "B",
+    "comp": "IN-7",
+    "obj": "IN-7.3",
+    "dok": 3,
+    "approach": [
+     "The tumor suppressor most often lost in basal cell carcinoma is PTCH1, the receptor for sonic hedgehog.",
+     "Unbound PTCH1 normally holds back smoothened.",
+     "Losing both PTCH1 copies frees smoothened, which activates GLI transcription factors and drives growth."
+    ],
+    "why": "PTCH1 encodes Patched, the receptor for sonic hedgehog. Without ligand, Patched blocks smoothened, keeping the pathway off. When both PTCH1 copies are lost, smoothened is always active and GLI transcription factors turn on growth genes. Most sporadic basal cell carcinomas carry this change, and germline PTCH1 mutations cause Gorlin syndrome (nevoid basal cell carcinoma syndrome), with many basal cell carcinomas starting young.",
+    "whyNot": [
+     "Constitutive BRAF activity comes from activating BRAF mutations, typical of nevi and melanoma, not from loss of a receptor gene.",
+     "Unchecked CDK4 activity follows loss of CDKN2A (p16), the gene behind familial melanoma.",
+     "Correct.",
+     "Stabilized beta-catenin follows loss of APC or activating CTNNB1 mutations, as in colorectal cancer and pilomatricoma."
+    ],
+    "study": {
+     "topics": [
+      "Hedgehog signaling",
+      "Gorlin syndrome"
+     ],
+     "comps": [
+      "IN-7",
+      "IN-13-G1"
+     ]
+    }
+   },
+   {
+    "id": "IN-C17-Q3",
+    "stem": "Biopsy of the thin, hairless scalp skin beside the tumor shows dermal fibrosis, loss of hair follicles, scattered enlarged atypical fibroblasts, and small arteries with thickened walls and narrowed lumens. Which of the following best explains these changes?",
+    "options": [
+     "Acute radiation dermatitis from a recent exposure",
+     "Late radiation injury with obliterative endarteritis",
+     "Photoaging with metalloproteinase breakdown of collagen",
+     "Hypertrophic scarring after a thermal burn"
+    ],
+    "answer": 1,
+    "sea": "X",
+    "comp": "IN-10",
+    "obj": "IN-10.6",
+    "dok": 2,
+    "approach": [
+     "She had scalp irradiation in childhood, and the skin is thin, shiny, hairless, and telangiectatic.",
+     "Ionizing radiation damages DNA directly and through hydroxyl radicals from water, killing dividing cells and injuring vessels.",
+     "Late effects include fibrosis, atypical radiation fibroblasts, obliterative endarteritis, and later cancers in the field."
+    ],
+    "why": "Ionizing radiation breaks DNA directly and through free radicals made from water. Early effects in skin, within days to weeks, are erythema and desquamation. Months to years later, damage to small arteries narrows their lumens (obliterative endarteritis), so the tissue becomes ischemic, atrophic, and fibrotic, with telangiectasias and atypical fibroblasts. Hair follicles are lost, causing permanent alopecia. Irradiated skin carries a higher risk of later basal cell carcinoma, squamous cell carcinoma, and angiosarcoma.",
+    "whyNot": [
+     "Acute radiation dermatitis appears within weeks of exposure as erythema and desquamation. Her exposure was decades ago.",
+     "Correct.",
+     "Photoaging shows solar elastosis with thin, damaged collagen, but it does not cause atypical fibroblasts or narrowed arteries.",
+     "A hypertrophic burn scar is raised and has thick collagen bundles, without radiation-type atypical fibroblasts or vascular narrowing, and she has no burn history."
+    ],
+    "study": {
+     "topics": [
+      "Radiation injury to skin",
+      "Ionizing radiation and DNA damage"
+     ],
+     "comps": [
+      "IN-10",
+      "IN-13-G1"
+     ]
+    }
+   },
+   {
+    "id": "IN-C17-Q4",
+    "stem": "Which of the following best describes the organism that most likely caused her childhood scalp infection?",
+    "options": [
+     "Mold with septate hyphae that digests keratin",
+     "Yeast that forms pseudohyphae in moist skin folds",
+     "Lipophilic yeast that forms short hyphae in sebum",
+     "Mold with broad nonseptate hyphae that invades vessels"
+    ],
+    "answer": 0,
+    "sea": "M",
+    "comp": "IN-12",
+    "obj": "IN-12.3",
+    "dok": 2,
+    "approach": [
+     "Ringworm of the scalp is tinea capitis.",
+     "Tinea is caused by dermatophytes such as Trichophyton and Microsporum.",
+     "Dermatophytes are molds with septate hyphae that use keratinases to live in stratum corneum, hair, and nails."
+    ],
+    "why": "Dermatophytes (Trichophyton, Microsporum, and Epidermophyton) are molds that live only in keratinized tissue. They make keratinases that let them digest stratum corneum, hair, and nails, and they rarely invade living tissue. In tinea capitis they invade the hair shaft, causing scaly patches with broken hairs and sometimes a boggy kerion. A KOH preparation shows branching septate hyphae. Before griseofulvin became available in the late 1950s, scalp X-ray treatment was used to remove infected hair, which is why some adults now have radiation-related tumors.",
+    "whyNot": [
+     "Correct.",
+     "Pseudohyphae in moist skin folds describe Candida, which infects intertriginous skin and mucosa rather than hair shafts.",
+     "A lipophilic yeast with short hyphae is Malassezia, which causes tinea versicolor (spaghetti and meatballs on KOH), not scalp ringworm.",
+     "Broad nonseptate hyphae invading vessels describe Mucor and Rhizopus, which cause rhinocerebral infection in diabetic ketoacidosis."
+    ],
+    "study": {
+     "topics": [
+      "Dermatophytes",
+      "KOH preparation findings"
+     ],
+     "comps": [
+      "IN-12",
+      "IN-13-H10"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "IN-C18",
+  "system": "IN",
+  "dx": "Inflammatory acne vulgaris with polycystic ovary syndrome",
+  "codes": [
+   "IN-13-H1"
+  ],
+  "case": "A 17-year-old girl comes to the adolescent clinic because of worsening acne over 2 years. She has 4 or 5 menstrual periods a year and dark hair growing on her chin and lower abdomen. Temperature is 36.8 °C (98.2 °F), pulse is 76/min, respirations are 14/min, and blood pressure is 118/74 mm Hg. Body mass index is 31 kg/m2. Physical examination shows open and closed comedones, inflammatory papules, pustules, and three tender nodules on the face, chest, and upper back. Serum total testosterone is 82 ng/dL (15 to 70); 17-hydroxyprogesterone and prolactin are within the reference ranges. The LH to FSH ratio is 3:1. Pelvic ultrasonography shows enlarged ovaries with many peripheral follicles. Diagnosis: inflammatory acne vulgaris with polycystic ovary syndrome.",
+  "questions": [
+   {
+    "id": "IN-C18-Q1",
+    "stem": "Her high androgen levels worsen her acne mainly through which of the following effects in the pilosebaceous unit?",
+    "options": [
+     "Sebaceous gland enlargement with greater sebum output",
+     "Increased apocrine sweat secretion into the follicle",
+     "Loss of cohesion between follicular keratinocytes",
+     "Direct stimulation of bacterial growth in the follicle"
+    ],
+    "answer": 0,
+    "sea": "P",
+    "comp": "IN-13-H1",
+    "obj": "IN-13-H.1",
+    "dok": 2,
+    "approach": [
+     "Polycystic ovary syndrome raises ovarian androgen production, as her testosterone shows.",
+     "Sebocytes have androgen receptors and convert testosterone to dihydrotestosterone.",
+     "Androgen signaling enlarges sebaceous glands and increases sebum, one of the four steps of acne."
+    ],
+    "why": "Acne develops in four steps: abnormal keratinization plugs the follicle (microcomedo), androgens increase sebum, Cutibacterium acnes grows in the sebum-rich plug, and inflammation follows. Androgens act on sebocytes, which convert testosterone to dihydrotestosterone and respond by enlarging and making more sebum. Conditions with high androgens, such as polycystic ovary syndrome, and drugs such as glucocorticoids and anabolic steroids, worsen acne. Comedones are noninflammatory, while papules, pustules, and nodules show inflammation.",
+    "whyNot": [
+     "Correct.",
+     "Apocrine glands open into hair follicles in the axillae and groin, but their sweat does not drive acne on the face and trunk.",
+     "Acne involves the opposite: follicular keratinocytes stick together and build up, plugging the follicle as a microcomedo.",
+     "Androgens do not act on bacteria. Cutibacterium acnes grows more because there is more sebum for it to feed on."
+    ],
+    "study": {
+     "topics": [
+      "Steps in acne pathogenesis",
+      "Hyperandrogenism in polycystic ovary syndrome"
+     ],
+     "comps": [
+      "IN-13-H1",
+      "IN-5"
+     ]
+    }
+   },
+   {
+    "id": "IN-C18-Q2",
+    "stem": "Gram stain of material from a pustule shows gram-positive rods, and the organism grows best under anaerobic conditions. Which of the following activities of this organism most directly promotes the inflammatory lesions?",
+    "options": [
+     "Exfoliative toxin cleavage of desmoglein 1",
+     "Lipase release of free fatty acids from sebum triglycerides",
+     "Superantigen cross-linking of MHC class II and T cell receptors",
+     "Coagulase conversion of fibrinogen to fibrin around the organism"
+    ],
+    "answer": 1,
+    "sea": "M",
+    "comp": "IN-12",
+    "obj": "IN-12.7",
+    "dok": 3,
+    "approach": [
+     "A gram-positive anaerobic rod in an acne pustule is Cutibacterium acnes.",
+     "C. acnes lives on sebum and makes lipases that split triglycerides into free fatty acids.",
+     "Free fatty acids irritate the follicle wall, and C. acnes also activates TLR2 on monocytes, releasing IL-1, IL-8, and TNF-alpha."
+    ],
+    "why": "Cutibacterium acnes is a gram-positive anaerobic rod that grows in the oxygen-poor, sebum-filled follicle. Its lipases break sebum triglycerides into free fatty acids, which are irritating and help rupture the follicle wall. The bacteria also activate TLR2 on monocytes and neutrophils, which release IL-1, IL-8, and TNF-alpha and draw in more inflammatory cells. This turns comedones into papules, pustules, and nodules. Hot tub folliculitis is a different follicular infection, caused by the gram-negative, oxidase-positive Pseudomonas aeruginosa.",
+    "whyNot": [
+     "Exfoliative toxins that cleave desmoglein 1 come from Staphylococcus aureus and cause bullous impetigo and staphylococcal scalded skin syndrome.",
+     "Correct.",
+     "Superantigens that bridge MHC class II and T cell receptors come from S. aureus and Streptococcus pyogenes and cause toxic shock syndrome.",
+     "Coagulase is a S. aureus enzyme that helps wall off abscesses. The organism here is an anaerobic gram-positive rod."
+    ],
+    "study": {
+     "topics": [
+      "Cutibacterium acnes",
+      "TLR2 in innate immunity"
+     ],
+     "comps": [
+      "IN-12",
+      "IN-13-H1"
+     ]
+    }
+   },
+   {
+    "id": "IN-C18-Q3",
+    "stem": "Which of the following pairs of lipids is most characteristic of the secretion her enlarged glands produce in excess?",
+    "options": [
+     "Ceramides and free cholesterol",
+     "Glucosylceramides and phospholipids",
+     "Squalene and wax esters",
+     "Phosphatidylcholine and sphingomyelin"
+    ],
+    "answer": 2,
+    "sea": "B",
+    "comp": "IN-5",
+    "obj": "IN-5.6",
+    "dok": 2,
+    "approach": [
+     "Androgens enlarge her sebaceous glands, so the secretion in excess is sebum.",
+     "Sebum is mostly triglycerides, with wax esters and squalene that are made almost only by sebaceous glands.",
+     "Separate sebum lipids from the barrier lipids of the stratum corneum, which come from lamellar bodies."
+    ],
+    "why": "Skin makes two different lipid mixtures. Sebaceous glands secrete sebum, made of triglycerides (about half), wax esters, and squalene, with small amounts of cholesterol. Wax esters and squalene are typical of human sebum and are hardly made elsewhere in the body. The stratum corneum barrier is a different mixture of ceramides, cholesterol, and free fatty acids released from lamellar bodies of the granular layer. The dermis contains glycosaminoglycans such as hyaluronic acid and dermatan sulfate, which hold water rather than forming a lipid barrier.",
+    "whyNot": [
+     "Ceramides, cholesterol, and free fatty acids form the lipid barrier between corneocytes in the stratum corneum.",
+     "Glucosylceramides and phospholipids are packed into lamellar bodies in the granular layer and are processed into the stratum corneum barrier lipids.",
+     "Correct.",
+     "Phosphatidylcholine and sphingomyelin are major lipids of cell membranes, not of sebum."
+    ],
+    "study": {
+     "topics": [
+      "Sebum composition",
+      "Stratum corneum lipid barrier"
+     ],
+     "comps": [
+      "IN-5",
+      "IN-1"
+     ]
+    }
+   },
+   {
+    "id": "IN-C18-Q4",
+    "stem": "At age 22 years, she returns with recurrent painful deep nodules in both axillae and the groin that rupture, drain, and heal with sinus tracts and rope-like scars. She smokes 10 cigarettes daily. Which of the following is the primary process in this condition?",
+    "options": [
+     "Primary bacterial infection of apocrine sweat glands",
+     "Autoimmune destruction of eccrine sweat glands",
+     "Superficial staphylococcal infection of follicle openings",
+     "Occlusion and rupture of terminal hair follicles"
+    ],
+    "answer": 3,
+    "sea": "X",
+    "comp": "IN-13-C",
+    "obj": "IN-13-C.7",
+    "dok": 3,
+    "approach": [
+     "Recurrent deep painful nodules, sinus tracts, and rope-like scars in the axillae and groin are hidradenitis suppurativa.",
+     "The disease starts with follicular hyperkeratosis that plugs terminal hair follicles.",
+     "The plugged follicle dilates and ruptures, spilling keratin and bacteria into the dermis and setting off chronic inflammation."
+    ],
+    "why": "Hidradenitis suppurativa is a chronic inflammatory disease of follicles in the axillary, inguinal, perineal, and inframammary skin. The follicle becomes plugged with keratin, dilates, and ruptures, and its contents trigger a strong immune reaction. Repeated cycles form painful nodules, abscesses, draining sinus tracts, and rope-like scars. Obesity and smoking are the main modifiable risk factors, and it shares a follicular occlusion mechanism with severe nodular acne.",
+    "whyNot": [
+     "This condition was once thought to start as an apocrine gland infection, but apocrine involvement is secondary, and bacteria colonize lesions after the follicle ruptures.",
+     "Eccrine glands are not targeted by an autoimmune attack in this condition, and eccrine loss would cause reduced sweating, not nodules.",
+     "Superficial staphylococcal infection of follicle openings is folliculitis, which forms small pustules and heals without sinus tracts.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Hidradenitis suppurativa",
+      "Follicular occlusion disorders"
+     ],
+     "comps": [
+      "IN-13-C",
+      "IN-13-H1"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "IN-C19",
+  "system": "IN",
+  "dx": "Candidal diaper dermatitis",
+  "codes": [
+   "IN-13-H2"
+  ],
+  "case": "A 7-month-old boy is brought to the pediatric clinic because of a red rash in the diaper area for 5 days that has not improved with a barrier cream. Ten days ago he completed a course of amoxicillin for acute otitis media. He is breastfed, eats pureed foods, and is growing normally. Temperature is 36.9 °C (98.4 °F), pulse is 122/min, and respirations are 30/min. Physical examination shows bright, beefy red plaques on the lower abdomen, genitals, and inner thighs that extend deep into the inguinal folds, with scattered satellite papules and pustules beyond the border. White plaques on the buccal mucosa leave a red base when scraped. A KOH preparation from a satellite pustule shows budding yeast cells and pseudohyphae. Diagnosis: candidal diaper dermatitis.",
+  "questions": [
+   {
+    "id": "IN-C19-Q1",
+    "stem": "Which of the following findings best distinguishes his rash from irritant contact diaper dermatitis?",
+    "options": [
+     "Erythema of the convex buttock surfaces",
+     "Onset after long contact with wet diapers",
+     "Involvement of the inguinal skin folds",
+     "Burning discomfort during diaper changes"
+    ],
+    "answer": 2,
+    "sea": "M",
+    "comp": "IN-13-H2",
+    "obj": "IN-13-H.2",
+    "dok": 2,
+    "approach": [
+     "Irritant diaper dermatitis comes from urine and stool touching the skin.",
+     "Skin folds are protected from contact, so irritant dermatitis spares the creases.",
+     "Candida thrives in warm, moist folds, so it involves the creases and adds satellite pustules."
+    ],
+    "why": "Irritant diaper dermatitis affects the convex skin that touches the wet diaper, such as the buttocks, genitals, and lower abdomen, and spares the deep folds. Candidal diaper dermatitis involves the folds, where moisture is trapped, and shows beefy red plaques with satellite papules and pustules. Thrush in the mouth often comes with it. Persistent or severe mucocutaneous candidiasis should prompt a search for host problems such as diabetes, steroid use, or defects in T cell immunity.",
+    "whyNot": [
+     "Erythema of the convex surfaces is the typical pattern of irritant dermatitis, and Candida can involve these areas too, so it does not separate them.",
+     "Prolonged wet diaper contact sets the stage for both, since moisture irritates skin and also helps Candida grow.",
+     "Correct.",
+     "Both types of diaper dermatitis can sting and burn, so discomfort does not tell them apart."
+    ],
+    "study": {
+     "topics": [
+      "Diaper dermatitis types",
+      "Cutaneous candidiasis"
+     ],
+     "comps": [
+      "IN-13-H2",
+      "IN-12"
+     ]
+    }
+   },
+   {
+    "id": "IN-C19-Q2",
+    "stem": "Which of the following best explains how his recent antibiotic course predisposed him to this infection?",
+    "options": [
+     "Loss of commensal bacteria that compete with Candida",
+     "Drug-induced neutropenia that reduced yeast killing",
+     "Suppression of Th17 responses to fungal antigens",
+     "Direct stimulation of germ tube formation by the drug"
+    ],
+    "answer": 0,
+    "sea": "M",
+    "comp": "IN-12",
+    "obj": "IN-12.4",
+    "dok": 2,
+    "approach": [
+     "Candida albicans is a normal commensal of the mouth, gut, and perineal skin.",
+     "Normal bacteria limit Candida by competing for nutrients and attachment sites.",
+     "A broad-spectrum antibiotic kills those bacteria, so Candida overgrows and causes thrush and diaper dermatitis."
+    ],
+    "why": "Candida albicans is a dimorphic fungus that lives as a commensal on mucosa and skin. It appears as budding yeast and, when invading, as pseudohyphae and true hyphae, and it forms germ tubes in serum at 37 °C (98.6 °F). Overgrowth needs a change in the host, such as moisture, antibiotics that remove competing bacteria, diabetes, glucocorticoids, or defects in T cells (mucocutaneous disease) or neutrophils (invasive disease). In this infant the antibiotic course plus a moist diaper area allowed mucocutaneous infection.",
+    "whyNot": [
+     "Correct.",
+     "Amoxicillin rarely causes neutropenia, and his normal course with no fever or other infections gives no sign of it.",
+     "Defective Th17 responses (for example from STAT3 or AIRE defects) cause chronic mucocutaneous candidiasis. Amoxicillin does not suppress Th17 cells.",
+     "Germ tubes form when Candida switches to hyphae in response to body temperature and serum, not to antibiotics."
+    ],
+    "study": {
+     "topics": [
+      "Candida albicans",
+      "Host defenses against fungi"
+     ],
+     "comps": [
+      "IN-12",
+      "IN-13-H2"
+     ]
+    }
+   },
+   {
+    "id": "IN-C19-Q3",
+    "stem": "An 8-month-old girl is brought to the same clinic because of diarrhea, patchy hair loss, and irritability that began after she was switched from breast milk to formula 4 weeks ago. Physical examination shows sharply bordered, crusted, red plaques around the mouth and anus and on the hands and feet. The plaques are colonized by Candida. Serum alkaline phosphatase is 70 U/L (150 to 420). Deficiency of which of the following is most likely?",
+    "options": [
+     "Biotin",
+     "Zinc",
+     "Riboflavin",
+     "Essential fatty acids"
+    ],
+    "answer": 1,
+    "sea": "B",
+    "comp": "IN-5",
+    "obj": "IN-5.4",
+    "dok": 3,
+    "approach": [
+     "Periorificial and acral dermatitis, alopecia, and diarrhea form the triad of acrodermatitis enteropathica.",
+     "Symptoms starting after weaning from breast milk fit the inherited zinc absorption defect, which breast milk partly masks.",
+     "Alkaline phosphatase is a zinc-dependent enzyme, so a low value supports zinc deficiency."
+    ],
+    "why": "Zinc is needed for cell division, wound healing, and many enzymes, including alkaline phosphatase. In acrodermatitis enteropathica, inherited defects in the intestinal zinc transporter (SLC39A4) cause symptoms once the infant stops breastfeeding. The rash is crusted and sharply bordered around the mouth, anus, and on the hands and feet, and it is often colonized by Candida, so it can be mistaken for candidiasis. Diarrhea, hair loss, irritability, and poor healing complete the picture, and zinc supplements reverse it.",
+    "whyNot": [
+     "Biotin deficiency can cause periorificial dermatitis and hair loss, but it does not lower alkaline phosphatase, and it tends to bring hypotonia and seizures rather than acral plaques with diarrhea.",
+     "Correct.",
+     "Riboflavin deficiency causes angular cheilitis, glossitis, and seborrheic-like dermatitis, without acral plaques or diarrhea.",
+     "Essential fatty acid deficiency causes a generalized dry, scaly dermatitis and poor growth, not crusted periorificial and acral plaques."
+    ],
+    "study": {
+     "topics": [
+      "Acrodermatitis enteropathica",
+      "Nutritional deficiency dermatoses"
+     ],
+     "comps": [
+      "IN-5",
+      "IN-13-H2"
+     ]
+    }
+   },
+   {
+    "id": "IN-C19-Q4",
+    "stem": "The boy also has greasy, yellow scale on the scalp vertex and fine scaling in the eyebrows and nasolabial folds. These findings are most likely an inflammatory response to which of the following?",
+    "options": [
+     "A dimorphic yeast forming pseudohyphae in moist skin",
+     "A dermatophyte that invades the hair shaft",
+     "A gram-positive coccus releasing exfoliative toxin",
+     "A lipophilic yeast living on sebum-rich skin"
+    ],
+    "answer": 3,
+    "sea": "X",
+    "comp": "IN-13-B",
+    "obj": "IN-13-B.8",
+    "dok": 2,
+    "approach": [
+     "Greasy yellow scale on the scalp in an infant is cradle cap, a form of seborrheic dermatitis.",
+     "Seborrheic dermatitis affects sebum-rich areas: scalp, eyebrows, nasolabial folds, and behind the ears.",
+     "It is an inflammatory response to Malassezia, a lipophilic yeast that feeds on sebum."
+    ],
+    "why": "Seborrheic dermatitis is inflammation in sebaceous areas, driven by the response to Malassezia, a yeast that needs lipid to grow. In infants, sebaceous glands are active for a few months because of maternal androgens, and cradle cap appears as greasy yellow scale on the scalp. In adults it involves the scalp (dandruff), eyebrows, and nasolabial folds. Severe or widespread disease in adults suggests HIV infection or Parkinson disease.",
+    "whyNot": [
+     "Candida is the dimorphic yeast causing his diaper rash, but it lives in moist folds and does not cause greasy scalp and eyebrow scale.",
+     "Dermatophytes that invade the hair shaft cause tinea capitis, with patchy hair loss and broken hairs, which is uncommon in infants and does not involve eyebrows and nasolabial folds.",
+     "A gram-positive coccus with exfoliative toxin is S. aureus, which causes bullous impetigo or scalded skin syndrome with blisters and erosions.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Seborrheic dermatitis",
+      "Malassezia"
+     ],
+     "comps": [
+      "IN-13-B",
+      "IN-12"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "IN-C20",
+  "system": "IN",
+  "dx": "Streptococcal cellulitis of the leg entering through tinea pedis fissures",
+  "codes": [
+   "IN-13-H3",
+   "IN-13-H10"
+  ],
+  "case": "A 58-year-old man with type 2 diabetes mellitus comes to the emergency department because of 3 days of spreading redness, warmth, and swelling of his left lower leg with chills. Temperature is 38.9 °C (102.0 °F), pulse is 106/min, respirations are 18/min, and blood pressure is 132/78 mm Hg. Physical examination shows tender, warm, swollen erythema over the anterior left shin with indistinct borders and no fluctuance or crepitus. The skin between the fourth and fifth left toes is macerated, scaly, and fissured. Leukocyte count is 14,200/mm3 (4,500 to 11,000) with 84% neutrophils, random serum glucose is 262 mg/dL (under 140), and hemoglobin A1c is 9.4% (under 5.7). A KOH preparation of the toe web scale shows branching septate hyphae. Diagnosis: nonpurulent cellulitis of the left leg, most likely streptococcal, entering through fissures of tinea pedis.",
+  "questions": [
+   {
+    "id": "IN-C20-Q1",
+    "stem": "The indistinct border of his erythema reflects infection centered at which of the following levels?",
+    "options": [
+     "Upper dermis and superficial lymphatics",
+     "Deep dermis and subcutaneous fat",
+     "Subcorneal epidermis and follicle openings",
+     "Deep fascia overlying skeletal muscle"
+    ],
+    "answer": 1,
+    "sea": "A",
+    "comp": "IN-13-H3",
+    "obj": "IN-13-H.3",
+    "dok": 2,
+    "approach": [
+     "The border of skin redness depends on how deep the infection lies.",
+     "Deep infection in the dermis and subcutaneous fat spreads in loose tissue and fades gradually into normal skin.",
+     "Superficial dermal infection with lymphatic involvement gives a raised, sharp edge, as in erysipelas."
+    ],
+    "why": "Cellulitis involves the deep dermis and subcutaneous fat, so the redness is flat and fades into normal skin with no clear edge. It is usually caused by beta-hemolytic streptococci, with Staphylococcus aureus more likely when there is pus or an abscess. Erysipelas sits higher, in the upper dermis and superficial lymphatics, and gives a raised, sharply bordered, bright red plaque, nearly always from Streptococcus pyogenes. Both usually enter through a break in the skin, such as toe web fissures, wounds, or ulcers.",
+    "whyNot": [
+     "Infection of the upper dermis and superficial lymphatics is erysipelas, which forms a raised, sharply demarcated, bright red plaque.",
+     "Correct.",
+     "Infection just under the stratum corneum is impetigo, with honey-colored crusts or blisters, and infection of follicle openings is folliculitis.",
+     "Infection spreading along the deep fascia is necrotizing fasciitis, with pain out of proportion to the findings, rapid spread, and sometimes crepitus."
+    ],
+    "study": {
+     "topics": [
+      "Cellulitis versus erysipelas",
+      "Depth of skin infections"
+     ],
+     "comps": [
+      "IN-13-H3",
+      "IN-1"
+     ]
+    }
+   },
+   {
+    "id": "IN-C20-Q2",
+    "stem": "The organism in his toe webs belongs to the same group as the organism that causes which of the following conditions?",
+    "options": [
+     "Tinea versicolor",
+     "Erythrasma",
+     "Pityriasis rosea",
+     "Tinea cruris"
+    ],
+    "answer": 3,
+    "sea": "X",
+    "comp": "IN-13-H10",
+    "obj": "IN-13-H.10",
+    "dok": 2,
+    "approach": [
+     "Septate branching hyphae in macerated toe webs indicate tinea pedis, a dermatophyte infection.",
+     "Dermatophyte infections are named by site: capitis, corporis, cruris, pedis, barbae, and unguium.",
+     "Tinea cruris, in the groin, is caused by the same dermatophytes and often spreads from the feet."
+    ],
+    "why": "Dermatophytes such as Trichophyton rubrum cause tinea at different sites: scalp (capitis, sometimes with kerion and hair loss), body (corporis, annular plaques with a scaly border and central clearing), groin (cruris), feet (pedis), beard (barbae), and nails (unguium, or onychomycosis). The feet often seed the groin and nails in the same person. Tinea versicolor is the exception to the naming, because it is caused by Malassezia yeast, not a dermatophyte. Fissured tinea pedis is a common entry point for streptococcal cellulitis of the leg.",
+    "whyNot": [
+     "Tinea versicolor carries the tinea name but is caused by Malassezia, a lipophilic yeast, not a dermatophyte.",
+     "Erythrasma is a bacterial infection of skin folds by Corynebacterium minutissimum, which glows coral-red under Wood lamp.",
+     "Pityriasis rosea is a self-limited rash probably linked to human herpesvirus 6 or 7 reactivation, with a herald patch, not a fungal infection.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Classification of tinea",
+      "Tinea versicolor"
+     ],
+     "comps": [
+      "IN-13-H10",
+      "IN-12"
+     ]
+    }
+   },
+   {
+    "id": "IN-C20-Q3",
+    "stem": "Which of the following effects of chronic hyperglycemia most directly increases his risk of bacterial skin infection?",
+    "options": [
+     "Impaired neutrophil chemotaxis and phagocytosis",
+     "Loss of activity of terminal complement components",
+     "Selective deficiency of secretory IgA",
+     "Depletion of circulating CD4 T cells"
+    ],
+    "answer": 0,
+    "sea": "M",
+    "comp": "IN-9",
+    "obj": "IN-9.4",
+    "dok": 3,
+    "approach": [
+     "His hemoglobin A1c of 9.4% shows long-standing poor glucose control.",
+     "High glucose impairs neutrophil adherence, chemotaxis, phagocytosis, and killing, and diabetes also causes neuropathy and poor blood flow.",
+     "Combined with broken skin from tinea pedis, this raises the risk of streptococcal and staphylococcal skin infection."
+    ],
+    "why": "Poorly controlled diabetes weakens the innate defenses that clear bacteria from skin. High glucose impairs neutrophil movement, phagocytosis, and oxidative killing, while neuropathy hides small injuries and vascular disease slows healing. The host context predicts the organism. Fissured toe webs, venous insufficiency, and lymphedema favor beta-hemolytic streptococci. Injection drug use favors S. aureus, including MRSA. Neutropenia adds gram-negative rods such as Pseudomonas, and T cell deficiency adds viral and fungal infections.",
+    "whyNot": [
+     "Correct.",
+     "Terminal complement deficiency (C5 to C9) causes recurrent Neisseria infections, and it is not caused by diabetes.",
+     "Selective IgA deficiency is a congenital defect linked to sinopulmonary and gastrointestinal infections, not to diabetes.",
+     "CD4 T cell depletion is the hallmark of HIV infection and causes opportunistic infections, while poorly controlled diabetes mainly affects neutrophils."
+    ],
+    "study": {
+     "topics": [
+      "Diabetes and infection risk",
+      "Predicting organisms from host factors"
+     ],
+     "comps": [
+      "IN-9",
+      "IN-13-H3"
+     ]
+    }
+   },
+   {
+    "id": "IN-C20-Q4",
+    "stem": "Which of the following best explains his elevated temperature?",
+    "options": [
+     "Impaired heat loss with an unchanged hypothalamic set point",
+     "Bacterial toxin acting directly on skeletal muscle",
+     "Cytokine-induced PGE2 raising the hypothalamic set point",
+     "Sympathetic surge from pain raising metabolic rate"
+    ],
+    "answer": 2,
+    "sea": "P",
+    "comp": "IN-4",
+    "obj": "IN-4.4",
+    "dok": 2,
+    "approach": [
+     "Bacterial infection activates macrophages to release IL-1, IL-6, and TNF-alpha.",
+     "These cytokines induce COX-2 in the hypothalamus, which makes PGE2.",
+     "PGE2 raises the hypothalamic set point, so the body conserves and makes heat until core temperature reaches the new set point."
+    ],
+    "why": "In fever, pyrogenic cytokines (IL-1, IL-6, and TNF-alpha) from macrophages reach the preoptic hypothalamus and induce COX-2, which makes PGE2. PGE2 raises the temperature set point, so the body constricts skin vessels and shivers, which explains his chills, until the core matches the new set point. Antipyretics such as NSAIDs and acetaminophen work by blocking PGE2 production. In hyperthermia the set point stays normal, and temperature rises because heat production or gain exceeds heat loss.",
+    "whyNot": [
+     "Impaired heat loss or excess heat production with a normal set point is hyperthermia, as in heat stroke or malignant hyperthermia, and antipyretics do not help.",
+     "Bacterial products act mainly by stimulating immune cells to release cytokines, not by heating muscle directly.",
+     "Correct.",
+     "Pain can raise heart rate and metabolic rate slightly, but it does not reset the thermostat to produce a fever of 38.9 °C (102.0 °F)."
+    ],
+    "study": {
+     "topics": [
+      "Fever mechanism",
+      "Fever versus hyperthermia"
+     ],
+     "comps": [
+      "IN-4",
+      "IN-13-H3"
+     ]
+    }
+   }
+  ]
+ }
+]

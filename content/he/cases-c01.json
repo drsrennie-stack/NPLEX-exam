@@ -1,0 +1,1589 @@
+[
+  {
+    "id": "HE-C01",
+    "system": "HE",
+    "dx": "Lead poisoning with microcytic anemia",
+    "codes": [
+      "HE-9-A1"
+    ],
+    "case": "A 36-year-old man comes to the physician because of a 2-month history of fatigue, intermittent crampy abdominal pain, and constipation. For the past year, he has worked at a plant that recycles lead-acid batteries. Vital signs are within normal limits. Physical examination shows pallor and weakness of wrist extension on the right. Laboratory studies show a hemoglobin concentration of 10.4 g/dL (13.5 to 17.5), MCV of 71 fL (80 to 100), and reticulocyte count of 0.8% (0.5 to 2.5). A peripheral blood smear shows hypochromic, microcytic erythrocytes with coarse basophilic stippling. Blood lead concentration is 68 µg/dL (less than 5), and erythrocyte zinc protoporphyrin concentration is markedly increased. Diagnosis: lead poisoning with microcytic anemia.",
+    "questions": [
+      {
+        "id": "HE-C01-Q1",
+        "stem": "A bone marrow aspirate stained with Prussian blue shows erythroid precursors with iron-laden mitochondria forming a ring around the nucleus. Inhibition of which of the following enzymes best explains both this finding and the increased zinc protoporphyrin concentration?",
+        "options": [
+          "Aminolevulinate synthase 2",
+          "Aminolevulinate dehydratase",
+          "Ferrochelatase",
+          "Uroporphyrinogen decarboxylase"
+        ],
+        "answer": 2,
+        "sea": "X",
+        "comp": "HE-9-A1",
+        "obj": "HE-9-A.3",
+        "dok": 3,
+        "approach": [
+          "Ringed sideroblasts mean iron reaches the mitochondria of erythroid precursors but is not built into heme.",
+          "High zinc protoporphyrin means protoporphyrin IX is present but received zinc in place of iron.",
+          "The mitochondrial enzyme that inserts ferrous iron into protoporphyrin IX is ferrochelatase, and lead inhibits it."
+        ],
+        "why": "Ferrochelatase is the last enzyme of heme synthesis. It works in the mitochondria and inserts ferrous iron into protoporphyrin IX. When lead blocks it, iron piles up in the mitochondria that sit around the nucleus, which gives ringed sideroblasts, and the unused protoporphyrin takes up zinc instead, so zinc protoporphyrin rises. Lead also inhibits ALA dehydratase, and it inhibits pyrimidine 5'-nucleotidase, which leaves clumps of ribosomal RNA in the cell and causes basophilic stippling.",
+        "whyNot": [
+          "ALAS2 is the erythroid form of the first enzyme of heme synthesis. X-linked ALAS2 mutations and pyridoxine deficiency (for example from isoniazid) cause sideroblastic anemia, but protoporphyrin is low because little is made.",
+          "Lead does inhibit ALA dehydratase, which raises urinary ALA. This is an early cytosolic step, so blocking it alone would lower protoporphyrin, not raise it.",
+          "Correct.",
+          "Uroporphyrinogen decarboxylase deficiency causes porphyria cutanea tarda, with blistering skin and high urine uroporphyrin. It does not cause ringed sideroblasts or high zinc protoporphyrin."
+        ],
+        "study": {
+          "topics": [
+            "Sideroblastic anemia",
+            "Lead poisoning"
+          ],
+          "comps": [
+            "HE-9-A1",
+            "HE-5"
+          ]
+        }
+      },
+      {
+        "id": "HE-C01-Q2",
+        "stem": "A 27-year-old coworker has a normal blood lead concentration. His hemoglobin concentration is 12.1 g/dL (13.5 to 17.5), MCV is 63 fL (80 to 100), and erythrocyte count is 6.2 million/mm3 (4.3 to 5.9). Serum ferritin concentration is 140 ng/mL (20 to 250), serum iron concentration is 95 µg/dL (50 to 170), and total iron-binding capacity is 310 µg/dL (250 to 400). A peripheral blood smear shows target cells. Which of the following is the most likely cause of the coworker's anemia?",
+        "options": [
+          "Thalassemia trait",
+          "Iron deficiency anemia",
+          "Anemia of chronic disease",
+          "Sideroblastic anemia"
+        ],
+        "answer": 0,
+        "sea": "P",
+        "comp": "HE-9-A1",
+        "obj": "HE-9-A.2",
+        "dok": 3,
+        "approach": [
+          "Microcytosis with normal ferritin, serum iron, and TIBC rules out iron deficiency, iron trapping, and iron overload.",
+          "A high red cell count with a very low MCV and only mild anemia points to reduced globin chain production, where the marrow makes many small cells.",
+          "Target cells complete the picture of thalassemia trait."
+        ],
+        "why": "Thalassemia trait lowers globin chain output, so each red cell holds less hemoglobin and is small. Iron supply is normal, so ferritin, serum iron, and TIBC are normal. The marrow keeps making cells, so the erythrocyte count is normal or high and the anemia is mild for how low the MCV is. Target cells form because the membrane is large compared with the small amount of hemoglobin inside.",
+        "whyNot": [
+          "Correct.",
+          "Iron deficiency gives low ferritin, high TIBC, and low transferrin saturation, and the erythrocyte count is usually low.",
+          "In anemia of chronic disease, IL-6 raises hepcidin, which traps iron in macrophages. Ferritin is high, TIBC is low, and serum iron is low. The MCV is usually normal or only mildly low.",
+          "Sideroblastic anemia shows high serum iron, high ferritin, and ringed sideroblasts in the marrow."
+        ],
+        "study": {
+          "topics": [
+            "Iron studies in microcytic anemia",
+            "Thalassemia trait"
+          ],
+          "comps": [
+            "HE-9-A1",
+            "HE-9-B1"
+          ]
+        }
+      },
+      {
+        "id": "HE-C01-Q3",
+        "stem": "Urine studies show a markedly increased concentration of delta-aminolevulinic acid (ALA). In which of the following cell compartments, and from which substrates, is this compound normally made?",
+        "options": [
+          "Cytosol, from glycine and succinyl-CoA",
+          "Cytosol, from two molecules of porphobilinogen",
+          "Mitochondria, from two molecules of porphobilinogen",
+          "Mitochondria, from glycine and succinyl-CoA"
+        ],
+        "answer": 3,
+        "sea": "B",
+        "comp": "HE-5",
+        "obj": "HE-5.1",
+        "dok": 2,
+        "approach": [
+          "Lead blocks ALA dehydratase, the step after ALA, so ALA builds up and spills into the urine.",
+          "ALA is made by the first and rate-limiting enzyme, ALA synthase.",
+          "ALA synthase works in the mitochondria, joins glycine to succinyl-CoA, and needs pyridoxal phosphate (vitamin B6)."
+        ],
+        "why": "Heme synthesis starts in the mitochondria, where ALA synthase joins glycine and succinyl-CoA to form ALA, using vitamin B6 as a cofactor. ALA moves to the cytosol, where ALA dehydratase joins two ALA molecules into porphobilinogen, and the middle steps continue there. The last steps return to the mitochondria, ending with ferrochelatase. Heme feeds back to repress ALA synthase, the rate-limiting enzyme, so heme levels control the whole pathway.",
+        "whyNot": [
+          "The substrates are right, but ALA synthase is a mitochondrial enzyme. Succinyl-CoA comes from the citric acid cycle inside the mitochondria.",
+          "Porphobilinogen is made from ALA, not the reverse. Two ALA molecules combine in the cytosol to form one porphobilinogen.",
+          "Porphobilinogen is a downstream product, and the step that forms it takes place in the cytosol.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Heme synthesis pathway",
+            "ALA synthase regulation"
+          ],
+          "comps": [
+            "HE-5",
+            "HE-9-A1"
+          ]
+        }
+      },
+      {
+        "id": "HE-C01-Q4",
+        "stem": "His 31-year-old sister, who has no lead exposure, is brought to the emergency department because of severe diffuse abdominal pain, confusion, and dark urine 1 week after she began a very low-calorie diet. The abdomen is soft without guarding. Her skin is normal. Urine porphobilinogen concentration is markedly increased. Deficiency of which of the following enzymes most likely explains her findings?",
+        "options": [
+          "Uroporphyrinogen decarboxylase",
+          "Porphobilinogen deaminase",
+          "Ferrochelatase",
+          "Aminolevulinate dehydratase"
+        ],
+        "answer": 1,
+        "sea": "B",
+        "comp": "HE-5",
+        "obj": "HE-5.2",
+        "dok": 3,
+        "approach": [
+          "Abdominal pain with a benign abdominal examination, mental status change, and normal skin point to an acute porphyria.",
+          "High urine porphobilinogen means the block is at the enzyme that uses porphobilinogen.",
+          "Fasting induces hepatic ALA synthase, which pushes more precursor into the block and sets off an attack."
+        ],
+        "why": "Acute intermittent porphyria is an autosomal dominant partial deficiency of porphobilinogen deaminase (hydroxymethylbilane synthase). ALA and porphobilinogen build up and are neurotoxic, which causes abdominal pain, neuropathy, and psychiatric symptoms. The skin is spared because the block comes before the light-absorbing porphyrins form. Attacks follow anything that induces hepatic ALA synthase, such as fasting, alcohol, and drugs that induce cytochrome P450. Porphyria cutanea tarda is the contrast: uroporphyrinogen decarboxylase deficiency, blistering of sun-exposed skin, and a link to hepatitis C.",
+        "whyNot": [
+          "Uroporphyrinogen decarboxylase deficiency causes porphyria cutanea tarda, with blistering of sun-exposed skin and high urine uroporphyrin, not acute neurovisceral attacks.",
+          "Correct.",
+          "Ferrochelatase deficiency causes erythropoietic protoporphyria, with painful skin soon after sun exposure. Urine porphobilinogen is normal.",
+          "ALA dehydratase is the enzyme lead inhibits. Blocking it raises ALA but not porphobilinogen, because porphobilinogen is the product of that step."
+        ],
+        "study": {
+          "topics": [
+            "Acute intermittent porphyria",
+            "Porphyria cutanea tarda"
+          ],
+          "comps": [
+            "HE-5"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "HE-C02",
+    "system": "HE",
+    "dx": "Iron deficiency anemia from chronic intravascular hemolysis of a mechanical aortic valve",
+    "codes": [
+      "HE-9-A1",
+      "HE-9-B1"
+    ],
+    "case": "A 68-year-old man comes to the physician because of a 4-month history of fatigue and shortness of breath with exertion. Nine years ago, his aortic valve was replaced with a mechanical prosthesis. Temperature is 36.8 °C (98.2 °F), pulse is 92/min, respirations are 16/min, and blood pressure is 134/70 mm Hg. Laboratory studies show a hemoglobin concentration of 9.2 g/dL (13.5 to 17.5), MCV of 74 fL (80 to 100), reticulocyte count of 4.2% (0.5 to 2.5), serum LDH of 640 U/L (140 to 280), haptoglobin of less than 10 mg/dL (30 to 200), and ferritin of 7 ng/mL (20 to 250). A peripheral blood smear shows schistocytes. Urine hemosiderin is present. Three stool tests for occult blood are negative. Diagnosis: iron deficiency anemia from chronic intravascular hemolysis caused by a mechanical aortic valve.",
+    "questions": [
+      {
+        "id": "HE-C02-Q1",
+        "stem": "Which of the following best explains his low serum ferritin concentration?",
+        "options": [
+          "Iron trapped in splenic macrophages after phagocytosis",
+          "Urinary loss of hemoglobin and hemosiderin",
+          "Hepcidin-mediated block of duodenal iron absorption",
+          "Iron consumed by a hyperactive erythroid marrow"
+        ],
+        "answer": 1,
+        "sea": "X",
+        "comp": "HE-9-B",
+        "obj": "HE-9-B.10",
+        "dok": 3,
+        "approach": [
+          "Schistocytes, high LDH, absent haptoglobin, and urine hemosiderin mean red cells are breaking open inside the vessels.",
+          "Free hemoglobin saturates haptoglobin, is filtered by the glomerulus, and is taken up by tubular cells, which later shed into the urine as hemosiderin.",
+          "Iron that leaves in the urine is lost from the body, so over months the stores run out."
+        ],
+        "why": "Turbulent, high-velocity flow across a mechanical valve shears red cells, so they lyse in the circulation. Free hemoglobin first binds haptoglobin, and once haptoglobin is used up, hemoglobin dimers pass the glomerulus. Tubular cells take up the iron, store it as hemosiderin, and slough into the urine. These losses are small each day but never stop, so iron stores fall and the anemia becomes microcytic. In extravascular hemolysis, by contrast, the iron stays in macrophages and is reused.",
+        "whyNot": [
+          "Iron from red cells eaten by splenic macrophages stays in the body and is recycled, so extravascular hemolysis does not empty iron stores.",
+          "Correct.",
+          "High hepcidin blocks absorption in anemia of chronic disease, but ferritin is then high. In iron deficiency, hepcidin is low.",
+          "An active marrow uses iron, but that iron returns to the pool when the cells die. Without a route of loss, increased production alone does not empty stores."
+        ],
+        "study": {
+          "topics": [
+            "Intravascular hemolysis",
+            "Mechanical hemolytic anemia"
+          ],
+          "comps": [
+            "HE-9-B",
+            "HE-3"
+          ]
+        }
+      },
+      {
+        "id": "HE-C02-Q2",
+        "stem": "Before attributing the anemia to the valve, his physician wants to confirm that iron stores are depleted. Which of the following additional serum findings are most likely?",
+        "options": [
+          "Low TIBC and low transferrin saturation",
+          "High TIBC and high transferrin saturation",
+          "Low TIBC and high transferrin saturation",
+          "High TIBC and low transferrin saturation"
+        ],
+        "answer": 3,
+        "sea": "X",
+        "comp": "HE-9-A1",
+        "obj": "HE-9-A.1",
+        "dok": 2,
+        "approach": [
+          "A ferritin concentration of 7 ng/mL means iron stores are empty.",
+          "When stores are low, the liver makes more transferrin, so TIBC rises.",
+          "Little iron is available to load the extra transferrin, so transferrin saturation falls."
+        ],
+        "why": "Iron deficiency has a typical pattern: low ferritin, low serum iron, high TIBC, low transferrin saturation, high RDW, and small, pale cells. TIBC is an indirect measure of transferrin, which the liver makes more of when iron is scarce. In older men and postmenopausal women, the usual cause is chronic gastrointestinal blood loss, so that must be excluded first. Other causes are heavy menses, pregnancy, poor intake, and poor absorption, as in celiac disease. In this patient the loss is urinary, from valve hemolysis.",
+        "whyNot": [
+          "Low TIBC with low saturation is the anemia of chronic disease pattern, where hepcidin traps iron and ferritin is high.",
+          "High saturation means plenty of circulating iron, which cannot happen when stores are empty.",
+          "Low TIBC with high saturation fits iron overload, as in hereditary hemochromatosis or sideroblastic anemia.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Iron deficiency anemia",
+            "Interpreting iron studies"
+          ],
+          "comps": [
+            "HE-9-A1",
+            "HE-3"
+          ]
+        }
+      },
+      {
+        "id": "HE-C02-Q3",
+        "stem": "He is treated with oral ferrous sulfate, and his hemoglobin concentration rises. A woman with anemia of chronic disease from rheumatoid arthritis takes the same dose but absorbs little iron. Which of the following best explains why he absorbs iron well?",
+        "options": [
+          "Low hepcidin, so ferroportin keeps exporting iron",
+          "High hepcidin, so DMT1 imports more ferrous iron",
+          "Low hepcidin, so DMT1 imports more ferric iron",
+          "High transferrin saturation pulling iron from enterocytes"
+        ],
+        "answer": 0,
+        "sea": "B",
+        "comp": "HE-3",
+        "obj": "HE-3.4",
+        "dok": 3,
+        "approach": [
+          "Duodenal enterocytes take up ferrous iron through DMT1 on the apical side and release it through ferroportin on the basolateral side.",
+          "Hepcidin from the liver binds ferroportin and causes it to be internalized and degraded.",
+          "Iron deficiency suppresses hepcidin, while IL-6 in inflammation raises it, so absorption is high in him and low in her."
+        ],
+        "why": "Dietary ferric iron is reduced to ferrous iron at the brush border and enters the enterocyte through DMT1. Ferroportin exports it into plasma, where transferrin carries it to the marrow, and iron that is not exported stays in the cell as ferritin and is lost when the cell sheds. Hepcidin controls the whole system by degrading ferroportin on enterocytes and macrophages. In iron deficiency, hepcidin is low, so ferroportin stays active and absorption rises. In inflammation, IL-6 raises hepcidin, so both gut absorption and release from macrophages fall.",
+        "whyNot": [
+          "Correct.",
+          "DMT1 does carry ferrous iron, but high hepcidin lowers absorption by degrading ferroportin. High hepcidin is the problem in the woman with arthritis, not in him.",
+          "Hepcidin is low in him, but DMT1 carries ferrous iron, not ferric iron. Ferric iron must first be reduced at the brush border by duodenal cytochrome b.",
+          "His transferrin saturation is low, not high. Low saturation reflects the deficit and does not by itself move iron across the cell."
+        ],
+        "study": {
+          "topics": [
+            "Iron absorption and hepcidin",
+            "Anemia of chronic disease"
+          ],
+          "comps": [
+            "HE-3",
+            "HE-9-A1"
+          ]
+        }
+      },
+      {
+        "id": "HE-C02-Q4",
+        "stem": "Laboratory studies 3 years ago, before his iron stores fell, showed a hemoglobin concentration of 11.4 g/dL, MCV of 93 fL, reticulocyte count of 6%, and undetectable haptoglobin. At that time, which of the following best classified his anemia?",
+        "options": [
+          "Microcytic anemia from red cell destruction",
+          "Normocytic anemia from reduced marrow output",
+          "Normocytic anemia from red cell destruction",
+          "Macrocytic anemia from reduced marrow output"
+        ],
+        "answer": 2,
+        "sea": "P",
+        "comp": "HE-2",
+        "obj": "HE-2.5",
+        "dok": 2,
+        "approach": [
+          "Use MCV first: 80 to 100 fL is normocytic, so 93 fL is normocytic.",
+          "Then use the reticulocyte count: a high count with anemia means the marrow is responding and cells are being destroyed or lost.",
+          "Undetectable haptoglobin points to destruction (hemolysis) rather than bleeding."
+        ],
+        "why": "Anemias are sorted two ways. MCV gives cell size: below 80 fL is microcytic, 80 to 100 fL is normocytic, and above 100 fL is macrocytic. The reticulocyte count shows the marrow response: it is low in underproduction and high in hemolysis or after bleeding. His early anemia was normocytic with a high reticulocyte count and absent haptoglobin, which is hemolysis with iron still available. As urinary iron loss emptied his stores, his cells became small and the picture changed to iron deficiency.",
+        "whyNot": [
+          "His MCV was 93 fL, in the normal range. Microcytosis came later, after his iron stores were gone.",
+          "Reduced marrow output gives a low reticulocyte count. His was high.",
+          "Correct.",
+          "His MCV was not above 100 fL, and his marrow output was increased. A very high reticulocyte count can raise the MCV slightly because reticulocytes are larger than mature cells."
+        ],
+        "study": {
+          "topics": [
+            "Anemia classification by MCV",
+            "Reticulocyte count"
+          ],
+          "comps": [
+            "HE-2",
+            "HE-9-B"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "HE-C03",
+    "system": "HE",
+    "dx": "Pernicious anemia with subacute combined degeneration of the spinal cord",
+    "codes": [
+      "HE-9-A1"
+    ],
+    "case": "A 61-year-old woman comes to the physician because of a 6-month history of fatigue, tingling in both feet, and unsteadiness when walking in the dark. She has Hashimoto thyroiditis treated with levothyroxine. She has never had abdominal surgery and eats a mixed diet. Vital signs are within normal limits. Examination shows pallor and a smooth, beefy-red tongue. Vibration and joint position sense are decreased in both lower extremities, and the Romberg sign is present. Laboratory studies show a hemoglobin concentration of 8.6 g/dL (12.0 to 16.0), MCV of 117 fL (80 to 100), reticulocyte count of 0.4% (0.5 to 2.5), and serum vitamin B12 concentration of 105 pg/mL (200 to 900). A peripheral blood smear shows macro-ovalocytes and hypersegmented neutrophils. Antibodies to intrinsic factor are present. Diagnosis: pernicious anemia with subacute combined degeneration of the spinal cord.",
+    "questions": [
+      {
+        "id": "HE-C03-Q1",
+        "stem": "Endoscopic biopsy specimens show atrophy of the mucosa of the gastric body and fundus with loss of parietal cells and intestinal metaplasia. Which of the following most directly causes her vitamin B12 deficiency?",
+        "options": [
+          "Lack of intrinsic factor for terminal ileal uptake",
+          "Lack of pancreatic proteases to free B12 from haptocorrin",
+          "Uptake of dietary B12 by an intestinal tapeworm",
+          "Loss of absorptive surface in the terminal ileum"
+        ],
+        "answer": 0,
+        "sea": "X",
+        "comp": "HE-9-A1",
+        "obj": "HE-9-A.4",
+        "dok": 2,
+        "approach": [
+          "Antibodies to intrinsic factor and atrophy of the body and fundus point to autoimmune gastritis, which destroys parietal cells.",
+          "Parietal cells make intrinsic factor as well as acid.",
+          "B12 is absorbed only when bound to intrinsic factor at receptors in the terminal ileum."
+        ],
+        "why": "In the stomach, B12 is released from food and binds haptocorrin. Pancreatic proteases free it in the duodenum, and it then binds intrinsic factor from parietal cells. The B12 and intrinsic factor complex is taken up by cubilin receptors in the terminal ileum. In pernicious anemia, autoimmune destruction of parietal cells and antibodies that block intrinsic factor prevent this uptake. Ileal resection or Crohn disease and the fish tapeworm Dibothriocephalus latus cause the same deficiency at other points in the pathway.",
+        "whyNot": [
+          "Correct.",
+          "Pancreatic insufficiency can leave B12 bound to haptocorrin and lower absorption, but her lesion is in the stomach and her antibodies target intrinsic factor.",
+          "Dibothriocephalus (formerly Diphyllobothrium) latus, acquired from raw freshwater fish, competes for B12 in the gut. It does not explain gastric atrophy or intrinsic factor antibodies.",
+          "Ileal resection or Crohn disease removes the absorptive site. She has had no surgery, and her disease is in the stomach."
+        ],
+        "study": {
+          "topics": [
+            "Vitamin B12 absorption",
+            "Pernicious anemia"
+          ],
+          "comps": [
+            "HE-9-A1",
+            "HE-5"
+          ]
+        }
+      },
+      {
+        "id": "HE-C03-Q2",
+        "stem": "Which of the following combinations of serum concentrations is most likely in this patient?",
+        "options": [
+          "Normal methylmalonic acid, normal homocysteine",
+          "Normal methylmalonic acid, high homocysteine",
+          "High methylmalonic acid, high homocysteine",
+          "High methylmalonic acid, normal homocysteine"
+        ],
+        "answer": 2,
+        "sea": "B",
+        "comp": "HE-5",
+        "obj": "HE-5.6",
+        "dok": 3,
+        "approach": [
+          "B12 is a cofactor for two enzymes: methionine synthase and methylmalonyl-CoA mutase.",
+          "Folate is needed only for the methionine synthase reaction, which turns homocysteine into methionine.",
+          "So both deficiencies raise homocysteine, but only B12 deficiency also raises methylmalonic acid."
+        ],
+        "why": "Methionine synthase uses B12 to move a methyl group from 5-methyltetrahydrofolate to homocysteine, which makes methionine and frees tetrahydrofolate. Without B12 or folate, homocysteine rises and less folate is available to make thymidine, so DNA synthesis slows and cells become megaloblastic. Methylmalonyl-CoA mutase uses B12 alone to turn methylmalonyl-CoA into succinyl-CoA. In B12 deficiency, methylmalonic acid builds up, and abnormal fatty acids may be built into myelin, which helps explain nerve damage that folate deficiency does not cause.",
+        "whyNot": [
+          "Normal levels of both would argue against a true cellular deficiency of either vitamin.",
+          "High homocysteine with normal methylmalonic acid is the folate deficiency pattern.",
+          "Correct.",
+          "Methionine synthase needs B12, so B12 deficiency raises homocysteine as well as methylmalonic acid. A normal homocysteine would not be expected."
+        ],
+        "study": {
+          "topics": [
+            "B12 and folate enzymes",
+            "Methylmalonic acid and homocysteine"
+          ],
+          "comps": [
+            "HE-5",
+            "HE-9-A1"
+          ]
+        }
+      },
+      {
+        "id": "HE-C03-Q3",
+        "stem": "A bone marrow aspirate shows a hypercellular marrow with large erythroid precursors. Late-stage precursors have pink, hemoglobin-filled cytoplasm but large nuclei with fine, open chromatin. Which of the following best explains the appearance of these precursors?",
+        "options": [
+          "Hemoglobin synthesis lagging behind nuclear maturation",
+          "Nuclear maturation lagging behind hemoglobin synthesis",
+          "Early nuclear extrusion before hemoglobin accumulates",
+          "Ribosomal RNA retained after nuclear extrusion"
+        ],
+        "answer": 1,
+        "sea": "A",
+        "comp": "HE-1",
+        "obj": "HE-1.4",
+        "dok": 3,
+        "approach": [
+          "Normal erythroid maturation runs from proerythroblast to orthochromatic erythroblast: the nucleus shrinks and condenses while hemoglobin fills the cytoplasm, and then the nucleus is extruded.",
+          "Here the cytoplasm has matured (pink and full of hemoglobin) while the nucleus still looks young.",
+          "B12 deficiency slows DNA synthesis but not RNA and protein synthesis, so the nucleus falls behind."
+        ],
+        "why": "As erythroid cells mature, they get smaller, the nucleus condenses and is pushed out, and hemoglobin builds up until the cytoplasm turns from blue to pink. The cell leaves the marrow as a reticulocyte that still has some ribosomal RNA, which it loses in about a day in the blood. In B12 or folate deficiency, DNA synthesis is slow, so nuclei stay large and immature while hemoglobin synthesis goes on. Many of these megaloblasts die in the marrow, which is why the marrow is full but the reticulocyte count is low. A high reticulocyte count would instead mean the marrow is responding well, as after bleeding or hemolysis.",
+        "whyNot": [
+          "A cytoplasm that lags behind the nucleus is the pattern of iron deficiency, where hemoglobin synthesis is limited and cells are small.",
+          "Correct.",
+          "Nuclear extrusion needs a small, condensed nucleus. These nuclei are large and open, so extrusion is delayed, not early.",
+          "Retained ribosomal RNA gives reticulocytes their blue-gray color, or causes basophilic stippling when it clumps. It does not explain large, immature nuclei in marrow precursors."
+        ],
+        "study": {
+          "topics": [
+            "Erythroid maturation",
+            "Megaloblastic change"
+          ],
+          "comps": [
+            "HE-1",
+            "HE-9-A1"
+          ]
+        }
+      },
+      {
+        "id": "HE-C03-Q4",
+        "stem": "Her antibodies to parietal cells and intrinsic factor cause disease through the same type of hypersensitivity reaction as which of the following?",
+        "options": [
+          "Anaphylaxis to plasma in IgA deficiency",
+          "Mixed cryoglobulinemia with vasculitis",
+          "Serum sickness after antitoxin infusion",
+          "Hemolytic disease of the newborn"
+        ],
+        "answer": 3,
+        "sea": "M",
+        "comp": "HE-7",
+        "obj": "HE-7.2",
+        "dok": 2,
+        "approach": [
+          "Pernicious anemia is caused by antibodies against antigens on a cell or a specific tissue protein, which makes it a type II reaction.",
+          "Find the other choice in which antibody binds an antigen fixed on cells.",
+          "In hemolytic disease of the newborn, maternal IgG binds antigens on fetal red cells."
+        ],
+        "why": "Type II hypersensitivity is antibody directed against antigens on cells or in tissue, which causes cell destruction, inflammation, or loss of function. In pernicious anemia, antibodies target the parietal cell proton pump and block intrinsic factor, along with T cell injury to the gastric glands. Hemolytic disease of the newborn, acute hemolytic transfusion reactions, and autoimmune hemolytic anemia are the hematologic type II reactions. Type III reactions, such as cryoglobulinemia and serum sickness, come from circulating immune complexes that deposit in vessel walls.",
+        "whyNot": [
+          "Anaphylaxis in IgA-deficient patients is classed as a type I reaction. The patient's anti-IgA antibodies react with IgA in donor plasma within minutes.",
+          "Cryoglobulins are immune complexes that precipitate in the cold and deposit in small vessels. This is a type III reaction, often linked to hepatitis C.",
+          "Serum sickness is a type III reaction caused by immune complexes against a foreign protein, with fever, rash, and joint pain 1 to 2 weeks after exposure.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Hypersensitivity types",
+            "Autoimmune gastritis"
+          ],
+          "comps": [
+            "HE-7",
+            "HE-9-A1"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "HE-C04",
+    "system": "HE",
+    "dx": "Hereditary spherocytosis with parvovirus B19 aplastic crisis",
+    "codes": [
+      "HE-9-B1"
+    ],
+    "case": "An 8-year-old boy is brought to the physician because of a 3-day history of fatigue and pallor. He had fever and a runny nose 1 week ago, and his younger sister recently had a bright red rash on both cheeks. He has had jaundice with past infections, and his father had a splenectomy as a teenager. Temperature is 37.2 °C (99.0 °F), pulse is 124/min, respirations are 22/min, and blood pressure is 98/58 mm Hg. Examination shows pallor, scleral icterus, and splenomegaly. Laboratory studies show a hemoglobin concentration of 5.0 g/dL (11.5 to 15.5), MCHC of 37.8 g/dL (32 to 36), and reticulocyte count of 0.2% (0.5 to 2.5). A peripheral blood smear shows many small, round erythrocytes without central pallor. A direct antiglobulin (Coombs) test is negative. Diagnosis: hereditary spherocytosis with parvovirus B19 aplastic crisis.",
+    "questions": [
+      {
+        "id": "HE-C04-Q1",
+        "stem": "Which of the following best explains the shape of his erythrocytes and his high MCHC?",
+        "options": [
+          "IgG coating with partial phagocytosis by macrophages",
+          "Oxidative precipitation of hemoglobin as inclusions",
+          "Polymerization of hemoglobin when deoxygenated",
+          "Membrane loss from weak cytoskeletal anchoring"
+        ],
+        "answer": 3,
+        "sea": "X",
+        "comp": "HE-9-B1",
+        "obj": "HE-9-B.4",
+        "dok": 3,
+        "approach": [
+          "A negative Coombs test excludes antibody-coated cells, and a father who needed splenectomy points to an inherited membrane defect.",
+          "Defects in ankyrin, spectrin, band 3, or protein 4.2 weaken the links between the lipid bilayer and the cytoskeleton.",
+          "Unsupported membrane is lost as small vesicles, so the cell keeps its hemoglobin but loses surface and becomes a dense sphere."
+        ],
+        "why": "In hereditary spherocytosis, usually autosomal dominant, a defect in ankyrin, spectrin, band 3, or protein 4.2 weakens the vertical links between the membrane and the spectrin skeleton. Bits of membrane bleb off, so surface area falls while hemoglobin content stays the same, and the cells become dense spheres with a high MCHC and no central pallor. Spheres cannot bend through the splenic cords, so they are trapped and eaten, which causes splenomegaly, jaundice, and pigment gallstones. Increased osmotic fragility or reduced eosin-5-maleimide (EMA) binding on flow cytometry confirms the diagnosis.",
+        "whyNot": [
+          "Warm autoimmune hemolytic anemia also makes spherocytes, through partial phagocytosis of IgG-coated cells, but the direct Coombs test would be positive.",
+          "Oxidative precipitation of hemoglobin forms Heinz bodies and bite cells in G6PD deficiency.",
+          "Polymerization of deoxygenated hemoglobin produces sickle cells, not spherocytes.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Hereditary spherocytosis",
+            "Red cell membrane skeleton"
+          ],
+          "comps": [
+            "HE-9-B1",
+            "HE-2"
+          ]
+        }
+      },
+      {
+        "id": "HE-C04-Q2",
+        "stem": "Which of the following characteristics of the causal agent best explains the sudden fall in his reticulocyte count?",
+        "options": [
+          "Enveloped DNA virus binding CD21 on mature B cells",
+          "Nonenveloped DNA virus binding P antigen on erythroid cells",
+          "Enveloped RNA virus binding CD4 on helper T lymphocytes",
+          "Nonenveloped RNA virus binding ICAM-1 on respiratory epithelium"
+        ],
+        "answer": 1,
+        "sea": "M",
+        "comp": "HE-8",
+        "obj": "HE-8.6",
+        "dok": 3,
+        "approach": [
+          "A cold-like illness in him and a red rash on his sister's cheeks point to parvovirus B19 (erythema infectiosum).",
+          "Parvovirus B19 is a small, nonenveloped, single-stranded DNA virus that enters cells through the P antigen (globoside) on erythroid progenitors.",
+          "It kills these progenitors and stops red cell production for about a week, which matters greatly when red cells survive only days to weeks."
+        ],
+        "why": "Parvovirus B19 replicates in dividing erythroid progenitors, which carry its receptor, the P blood group antigen. Infection halts red cell production for about a week. A healthy person barely notices, because red cells live about 120 days. In chronic hemolysis, such as spherocytosis or sickle cell disease, red cells live only days to weeks, so a short pause causes a sharp fall in hemoglobin with almost no reticulocytes, called transient aplastic crisis. In a fetus, the same block can cause severe anemia, heart failure, and hydrops fetalis.",
+        "whyNot": [
+          "Epstein-Barr virus is an enveloped DNA virus that binds CD21 on B cells and causes mononucleosis, not erythroid failure.",
+          "Correct.",
+          "HIV is an enveloped RNA virus that binds CD4. It can cause cytopenias over time, but not a sudden halt in red cell production after a cold.",
+          "Rhinovirus is a nonenveloped RNA virus that binds ICAM-1 and causes the common cold without marrow effects."
+        ],
+        "study": {
+          "topics": [
+            "Parvovirus B19",
+            "Transient aplastic crisis"
+          ],
+          "comps": [
+            "HE-8",
+            "HE-9-B1"
+          ]
+        }
+      },
+      {
+        "id": "HE-C04-Q3",
+        "stem": "Most of the carbon dioxide that his red cells pick up in systemic capillaries is carried to the lungs by which of the following mechanisms?",
+        "options": [
+          "Binding of CO2 to the ferrous iron of heme groups",
+          "Simple diffusion of dissolved CO2 into the plasma",
+          "Carbonic anhydrase and the chloride shift",
+          "Carbamino binding of CO2 to plasma proteins"
+        ],
+        "answer": 2,
+        "sea": "P",
+        "comp": "HE-2",
+        "obj": "HE-2.3",
+        "dok": 2,
+        "approach": [
+          "About 70% of CO2 travels as bicarbonate, about 20% bound to hemoglobin as carbamino compounds, and about 10% dissolved.",
+          "Red cells contain carbonic anhydrase, which turns CO2 and water into carbonic acid that splits into H+ and bicarbonate.",
+          "Band 3 exchanges bicarbonate out of the cell for chloride (the chloride shift), so most CO2 rides in plasma as bicarbonate."
+        ],
+        "why": "Red cells are built for gas transport. The biconcave shape gives a large surface for diffusion and lets the cell bend through capillaries, and having no nucleus or mitochondria leaves room for hemoglobin and means the cell uses none of the oxygen it carries. Carbonic anhydrase inside the cell converts CO2 to bicarbonate, and band 3 (anion exchanger 1) moves bicarbonate into plasma in exchange for chloride. Deoxyhemoglobin buffers the H+ that is released, which also helps unload oxygen in the tissues.",
+        "whyNot": [
+          "CO2 does not bind heme iron. It binds the amino ends of globin chains as carbaminohemoglobin, which carries a smaller share. Carbon monoxide is the gas that binds heme iron.",
+          "Dissolved CO2 carries only about 10% of the total.",
+          "Correct.",
+          "Carbamino compounds form mainly with hemoglobin inside red cells, not with plasma proteins, and they carry a minority of CO2."
+        ],
+        "study": {
+          "topics": [
+            "Carbon dioxide transport",
+            "Red cell structure and function"
+          ],
+          "comps": [
+            "HE-2",
+            "HE-5"
+          ]
+        }
+      },
+      {
+        "id": "HE-C04-Q4",
+        "stem": "Over the next 2 years, his family does not fill his prescription for folic acid. At a follow-up visit, he takes no medications and eats fruit and vegetables daily. His hemoglobin concentration is 7.8 g/dL (11.5 to 15.5), MCV is 104 fL (80 to 100), and reticulocyte count is 1.2% (0.5 to 2.5). Neutrophils with six nuclear lobes are seen. Serum folate concentration is low, and serum vitamin B12 concentration is within the reference range. Which of the following best explains his folate deficiency?",
+        "options": [
+          "Folate demand of a hyperactive marrow",
+          "Methyl-folate trapping from vitamin B12 deficiency",
+          "Inhibition of dihydrofolate reductase by a drug",
+          "Poor dietary intake of folate-rich foods"
+        ],
+        "answer": 0,
+        "sea": "X",
+        "comp": "HE-9-A1",
+        "obj": "HE-9-A.5",
+        "dok": 3,
+        "approach": [
+          "A high MCV with hypersegmented neutrophils, low folate, and normal B12 means megaloblastic anemia from folate deficiency.",
+          "He eats a good diet and takes no drugs, so look at demand.",
+          "Chronic hemolysis keeps the marrow making several times the normal number of red cells, and every new cell needs folate for DNA synthesis."
+        ],
+        "why": "Folate stores last only about 3 to 4 months, so deficiency develops quickly when demand rises. Chronic hemolytic anemias, pregnancy, and other states of rapid cell turnover increase folate use, which is why patients with spherocytosis or sickle cell disease take folic acid. Other causes are poor intake, alcohol use, and drugs such as methotrexate. Macrocytosis from reticulocytosis alone, liver disease, or alcohol is nonmegaloblastic: neutrophils are not hypersegmented, and folate and B12 are normal.",
+        "whyNot": [
+          "Correct.",
+          "Methyl-folate trapping happens when B12 is low, because methionine synthase cannot free tetrahydrofolate. His B12 is normal.",
+          "Methotrexate and trimethoprim inhibit dihydrofolate reductase, but he takes no medications.",
+          "Poor intake is a common cause, especially with alcohol use disorder, but he eats fruit and vegetables daily."
+        ],
+        "study": {
+          "topics": [
+            "Folate deficiency",
+            "Megaloblastic versus nonmegaloblastic macrocytosis"
+          ],
+          "comps": [
+            "HE-9-A1",
+            "HE-5"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "HE-C05",
+    "system": "HE",
+    "dx": "Acquired aplastic anemia",
+    "codes": [
+      "HE-9-A1"
+    ],
+    "case": "A 23-year-old man comes to the emergency department because of a 2-week history of easy bruising, bleeding gums, and fatigue, and 1 day of fever. Three months ago, he had acute hepatitis with negative tests for hepatitis A, B, and C viruses. He takes no medications. Temperature is 38.6 °C (101.5 °F), pulse is 112/min, respirations are 18/min, and blood pressure is 112/68 mm Hg. Examination shows pallor, petechiae on the legs, and scattered ecchymoses, with no lymphadenopathy or splenomegaly. Laboratory studies show a hemoglobin concentration of 7.0 g/dL (13.5 to 17.5), absolute neutrophil count of 250/mm3 (1,500 to 8,000), platelet count of 11,000/mm3 (150,000 to 400,000), and reticulocyte count of 0.1% (0.5 to 2.5). Bone marrow biopsy shows less than 10% cellularity, mostly fat, without fibrosis or abnormal cells. Diagnosis: acquired aplastic anemia.",
+    "questions": [
+      {
+        "id": "HE-C05-Q1",
+        "stem": "Treatment with antithymocyte globulin and cyclosporine is followed by a gradual rise in all of his blood counts. Which of the following mechanisms best explains his disorder?",
+        "options": [
+          "Clonal dysplastic hematopoiesis with ineffective maturation",
+          "Marrow fibrosis driven by megakaryocyte growth factors",
+          "Cytotoxic T cell injury to hematopoietic stem cells",
+          "Splenic sequestration of circulating blood cells"
+        ],
+        "answer": 2,
+        "sea": "X",
+        "comp": "HE-9-A1",
+        "obj": "HE-9-A.6",
+        "dok": 3,
+        "approach": [
+          "Pancytopenia with an empty, fatty marrow and no splenomegaly means stem cell failure.",
+          "Seronegative hepatitis is a known trigger, along with drugs, benzene, radiation, and inherited Fanconi anemia.",
+          "Recovery with drugs that suppress T cells shows that activated cytotoxic T cells were destroying the stem cells."
+        ],
+        "why": "Most acquired aplastic anemia is immune mediated. Activated cytotoxic T cells, often after a trigger such as hepatitis or a drug, release interferon gamma and TNF and destroy hematopoietic stem cells. All three lines fall, the reticulocyte count is very low, and the marrow is replaced by fat. The spleen is not enlarged, which helps separate aplastic anemia from cytopenias caused by sequestration or infiltration. Immunosuppression with antithymocyte globulin and cyclosporine works in many patients, and stem cell transplant can cure it.",
+        "whyNot": [
+          "Clonal, ineffective hematopoiesis is myelodysplastic syndrome, which usually shows a hypercellular marrow with dysplastic cells.",
+          "Fibrosis driven by megakaryocyte growth factors is primary myelofibrosis, with a dry tap, teardrop cells, and a large spleen.",
+          "Correct.",
+          "Sequestration (hypersplenism) needs an enlarged spleen and leaves the marrow cellular. His spleen is normal and his marrow is empty."
+        ],
+        "study": {
+          "topics": [
+            "Aplastic anemia",
+            "Causes of pancytopenia"
+          ],
+          "comps": [
+            "HE-9-A1",
+            "HE-9-D"
+          ]
+        }
+      },
+      {
+        "id": "HE-C05-Q2",
+        "stem": "A 6-year-old girl seen in the same clinic has pancytopenia, short stature, café-au-lait spots, and absent thumbs. Her lymphocytes show many chromosome breaks after exposure to diepoxybutane. Which of the following defects most likely underlies her marrow failure?",
+        "options": [
+          "Defective nucleotide excision of pyrimidine dimers",
+          "Defective mismatch repair of replication errors",
+          "Telomere shortening from telomerase mutations",
+          "Defective repair of DNA interstrand crosslinks"
+        ],
+        "answer": 3,
+        "sea": "B",
+        "comp": "HE-6",
+        "obj": "HE-6.6",
+        "dok": 2,
+        "approach": [
+          "Congenital marrow failure with short stature and thumb and radial anomalies points to Fanconi anemia.",
+          "Increased breakage after a DNA crosslinking agent (diepoxybutane or mitomycin C) is the diagnostic test.",
+          "The Fanconi anemia proteins work together to repair interstrand crosslinks."
+        ],
+        "why": "Fanconi anemia is usually autosomal recessive and is caused by mutations in any of the FANC genes, whose proteins repair DNA interstrand crosslinks. Without this repair, dividing cells accumulate DNA damage, and hematopoietic stem cells are lost over childhood, which leads to marrow failure. Patients often have short stature, thumb and radial anomalies, and skin pigment changes. Their genomic instability raises the risk of acute myeloid leukemia and of squamous cell cancers of the head and neck.",
+        "whyNot": [
+          "Defective nucleotide excision repair of pyrimidine dimers is xeroderma pigmentosum, with sun sensitivity and skin cancers.",
+          "Defective mismatch repair causes Lynch syndrome, with colorectal and endometrial cancer, not congenital marrow failure.",
+          "Telomerase mutations cause dyskeratosis congenita, another inherited marrow failure, but with nail dystrophy, oral leukoplakia, and lacy skin pigment, and without crosslink-induced breakage.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Fanconi anemia",
+            "DNA repair defects"
+          ],
+          "comps": [
+            "HE-6",
+            "HE-9-A1"
+          ]
+        }
+      },
+      {
+        "id": "HE-C05-Q3",
+        "stem": "A 45-year-old woman receives high-dose chemotherapy that abruptly stops production in her bone marrow. Complete blood counts are obtained daily over the next 4 weeks, with no bleeding or transfusions. Which of the following sequences of decline is most likely?",
+        "options": [
+          "Neutrophils first, then platelets, then erythrocytes",
+          "Erythrocytes first, then platelets, then neutrophils",
+          "Platelets first, then erythrocytes, then neutrophils",
+          "Platelets first, then neutrophils, then erythrocytes"
+        ],
+        "answer": 0,
+        "sea": "P",
+        "comp": "HE-3",
+        "obj": "HE-3.5",
+        "dok": 3,
+        "approach": [
+          "When production stops, each cell type falls at a rate set by how long it lives in the blood.",
+          "Neutrophils circulate for only hours, platelets for about 7 to 10 days, and red cells for about 120 days.",
+          "So neutropenia appears first, thrombocytopenia next, and anemia last."
+        ],
+        "why": "Blood counts reflect a balance between production and removal. Neutrophils stay in the blood for only several hours before moving into tissues, so a stop in production causes neutropenia within days. Platelets survive about 7 to 10 days, so they fall next. Red cells live about 120 days, so anemia develops slowly unless there is also bleeding or hemolysis. This is why fever from infection and bleeding from low platelets are often the first signs of sudden marrow failure, as after chemotherapy.",
+        "whyNot": [
+          "Correct.",
+          "Red cells live the longest, so they fall last, not first.",
+          "Neutrophils have the shortest life span in the blood, so they fall first, and red cells have the longest, so they fall last.",
+          "Platelets live about 7 to 10 days, much longer than neutrophils, so they cannot fall before neutrophils."
+        ],
+        "study": {
+          "topics": [
+            "Blood cell life spans",
+            "Marrow failure timeline"
+          ],
+          "comps": [
+            "HE-3",
+            "HE-9-A1"
+          ]
+        }
+      },
+      {
+        "id": "HE-C05-Q4",
+        "stem": "A 71-year-old woman also has pancytopenia. She received cyclophosphamide and radiation therapy for breast cancer 6 years ago. A bone marrow biopsy shows a hypercellular marrow with ringed sideroblasts, neutrophils with bilobed nuclei and sparse granules, and blasts making up 6% of nucleated cells. Which of the following is the most likely diagnosis?",
+        "options": [
+          "Acute myeloid leukemia",
+          "Myelodysplastic syndrome",
+          "Acquired aplastic anemia",
+          "Vitamin B12 deficiency anemia"
+        ],
+        "answer": 1,
+        "sea": "X",
+        "comp": "HE-9-D",
+        "obj": "HE-9-D.11",
+        "dok": 2,
+        "approach": [
+          "Pancytopenia with a hypercellular marrow means ineffective production, not stem cell loss.",
+          "Dysplastic cells (pseudo-Pelger-Huet neutrophils and ringed sideroblasts) after an alkylating agent and radiation point to a clonal disorder.",
+          "Blasts are increased but below 20%, which fits myelodysplastic syndrome rather than acute myeloid leukemia."
+        ],
+        "why": "Myelodysplastic syndromes are clonal stem cell disorders of older adults, or of people treated years earlier with alkylating agents or radiation. The marrow is usually full, but the cells mature abnormally and many die before release, so the blood shows cytopenias. Typical dysplastic changes are bilobed, hypogranular neutrophils (pseudo-Pelger-Huet cells), ringed sideroblasts, and abnormal megakaryocytes. Blasts are below 20%, and the disease can progress to acute myeloid leukemia.",
+        "whyNot": [
+          "Acute myeloid leukemia needs blasts of at least 20% in most cases. Her blasts are 6%, although she is at risk of progressing to it.",
+          "Correct.",
+          "Aplastic anemia has an empty, fatty marrow without dysplasia. Her marrow is hypercellular.",
+          "B12 deficiency gives a hypercellular marrow, but neutrophils are hypersegmented, not bilobed, and blasts and ringed sideroblasts are not increased."
+        ],
+        "study": {
+          "topics": [
+            "Myelodysplastic syndromes",
+            "Therapy-related myeloid neoplasms"
+          ],
+          "comps": [
+            "HE-9-D",
+            "HE-9-D1"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "HE-C06",
+    "system": "HE",
+    "dx": "Polycythemia vera with Budd-Chiari syndrome",
+    "codes": [
+      "HE-9-A2"
+    ],
+    "case": "A 54-year-old woman is brought to the emergency department because of a 3-day history of right upper quadrant abdominal pain and increasing abdominal girth. For 1 year, she has had headaches and itching after warm showers. She does not smoke. Temperature is 37.0 °C (98.6 °F), pulse is 96/min, respirations are 16/min, and blood pressure is 148/88 mm Hg. Oxygen saturation is 97% on room air. Examination shows facial plethora, tender hepatomegaly, shifting dullness, and splenomegaly. Laboratory studies show a hemoglobin concentration of 19.6 g/dL (12.0 to 16.0), hematocrit of 59% (36 to 46), leukocyte count of 14,200/mm3 (4,500 to 11,000), platelet count of 640,000/mm3 (150,000 to 400,000), and serum erythropoietin concentration of 1.8 mU/mL (4 to 24). Doppler ultrasonography shows thrombosis of the hepatic veins. A JAK2 V617F mutation is detected. Diagnosis: polycythemia vera with Budd-Chiari syndrome.",
+    "questions": [
+      {
+        "id": "HE-C06-Q1",
+        "stem": "A 63-year-old man has a hematocrit of 57% (41 to 53). His oxygen saturation is 98% on room air, and a CT scan shows a 6-cm mass in the left kidney. Compared with the patient in the case, which of the following sets of findings is most likely in this man?",
+        "options": [
+          "Low erythropoietin and a JAK2 V617F mutation",
+          "High erythropoietin, normal oxygen saturation",
+          "High erythropoietin, low arterial oxygen saturation",
+          "Normal red cell mass with reduced plasma volume"
+        ],
+        "answer": 1,
+        "sea": "X",
+        "comp": "HE-9-A2",
+        "obj": "HE-9-A.7",
+        "dok": 3,
+        "approach": [
+          "A renal mass with polycythemia suggests renal cell carcinoma secreting erythropoietin.",
+          "Tumor erythropoietin is made without any hypoxic signal, so it is inappropriately high while oxygen saturation is normal.",
+          "In polycythemia vera, a JAK2-mutant clone grows on its own, so erythropoietin is low."
+        ],
+        "why": "Polycythemia is sorted by erythropoietin and oxygen status. In polycythemia vera, a JAK2 V617F clone makes red cells without erythropoietin, and the high red cell mass suppresses erythropoietin to low levels. Secondary polycythemia has high erythropoietin. It is appropriate when tissue oxygen is low (high altitude, lung disease, smoking with carbon monoxide) and inappropriate when a tumor such as renal cell or hepatocellular carcinoma makes it. Relative polycythemia comes from a low plasma volume, as in dehydration, with a normal red cell mass.",
+        "whyNot": [
+          "Low erythropoietin with a JAK2 mutation is polycythemia vera, the patient in the case, not a tumor making erythropoietin.",
+          "Correct.",
+          "High erythropoietin with low oxygen saturation is the appropriate response to hypoxia, as in chronic lung disease or high altitude. His saturation is normal.",
+          "A normal red cell mass with low plasma volume is relative polycythemia from dehydration, which does not fit a hormone-secreting renal mass."
+        ],
+        "study": {
+          "topics": [
+            "Polycythemia vera versus secondary polycythemia",
+            "Paraneoplastic erythropoietin"
+          ],
+          "comps": [
+            "HE-9-A2",
+            "HE-2"
+          ]
+        }
+      },
+      {
+        "id": "HE-C06-Q2",
+        "stem": "Eight months later, she has sudden severe pain, redness, and swelling of the right first metatarsophalangeal joint. Joint fluid shows needle-shaped, negatively birefringent crystals. Which of the following best explains this complication?",
+        "options": [
+          "Purine overproduction from rapid cell turnover",
+          "Platelet-mediated microvascular occlusion of the toe",
+          "Reduced urate excretion from hepatic congestion",
+          "Septic embolism from an infected hepatic thrombus"
+        ],
+        "answer": 0,
+        "sea": "X",
+        "comp": "HE-9-A2",
+        "obj": "HE-9-A.8",
+        "dok": 2,
+        "approach": [
+          "Needle-shaped, negatively birefringent crystals are monosodium urate, so this is gout.",
+          "Polycythemia vera expands all three myeloid lines, and the large number of cells being made and destroyed breaks down a large amount of nucleic acid.",
+          "Purine breakdown produces uric acid, which raises serum urate."
+        ],
+        "why": "The complications of polycythemia vera follow from three features. Hyperviscosity and clonal platelets cause thrombosis, such as stroke, myocardial infarction, Budd-Chiari syndrome, and erythromelalgia (burning, red hands or feet from platelet plugs in small vessels). High cell turnover raises uric acid and causes gout. Over years, the marrow can scar and progress to myelofibrosis (spent phase), and some patients develop acute myeloid leukemia.",
+        "whyNot": [
+          "Correct.",
+          "Platelet plugs in small vessels cause erythromelalgia, a burning red extremity, but they do not produce urate crystals in joint fluid.",
+          "The liver does not excrete urate, and her renal function is not described as impaired. The problem is overproduction.",
+          "A septic joint would show bacteria and many neutrophils, not urate crystals, and infected hepatic vein thrombi are not a feature of this disease."
+        ],
+        "study": {
+          "topics": [
+            "Complications of polycythemia vera",
+            "Secondary gout"
+          ],
+          "comps": [
+            "HE-9-A2"
+          ]
+        }
+      },
+      {
+        "id": "HE-C06-Q3",
+        "stem": "Which of the following best explains her low serum erythropoietin concentration?",
+        "options": [
+          "Hepatocytes suppressed by hepatic venous outflow obstruction",
+          "Renal juxtaglomerular cells suppressed by high blood volume",
+          "Renal peritubular cells injured by microvascular thrombi",
+          "Renal peritubular cells sensing high oxygen delivery"
+        ],
+        "answer": 3,
+        "sea": "P",
+        "comp": "HE-2",
+        "obj": "HE-2.4",
+        "dok": 3,
+        "approach": [
+          "Erythropoietin is made mainly by peritubular interstitial cells of the renal cortex, with a small hepatic share.",
+          "These cells sense oxygen through HIF: when oxygen delivery falls, HIF escapes degradation and turns on the erythropoietin gene.",
+          "Her red cell mass is high, so oxygen delivery to the kidney is high and erythropoietin is switched off, while the JAK2-mutant clone keeps growing without it."
+        ],
+        "why": "Erythropoietin production follows tissue oxygen, not the red cell count itself. Peritubular interstitial cells in the renal cortex sense oxygen through hypoxia-inducible factor, which is broken down when oxygen is plentiful. Erythropoietin is high at high altitude and in hypoxic lung disease. It is low in chronic kidney disease because the producing cells are lost, and low in polycythemia vera because the high red cell mass delivers plenty of oxygen while the clone grows without the hormone.",
+        "whyNot": [
+          "The liver makes only a small share of erythropoietin after birth, so hepatic vein thrombosis cannot explain a level this low. Her low level reflects renal suppression.",
+          "Juxtaglomerular cells make renin, not erythropoietin.",
+          "Nothing suggests renal infarction, and her low erythropoietin is explained by normal suppression of healthy cells.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Erythropoietin regulation",
+            "Hypoxia-inducible factor"
+          ],
+          "comps": [
+            "HE-2",
+            "HE-9-A2"
+          ]
+        }
+      },
+      {
+        "id": "HE-C06-Q4",
+        "stem": "Her husband comes to the emergency department in winter because of headache, dizziness, and nausea that began after he ran a gas heater in a closed garage. His PaO2 is 96 mm Hg (75 to 100), and pulse oximetry reads 98%. Carboxyhemoglobin is 22% (less than 3). Which of the following best explains his reduced oxygen delivery to tissues despite a normal PaO2?",
+        "options": [
+          "Oxidation of heme iron to the ferric state",
+          "Low dissolved oxygen limiting hemoglobin loading",
+          "Less oxygen content and a left-shifted curve",
+          "A right-shifted curve that impairs oxygen loading"
+        ],
+        "answer": 2,
+        "sea": "B",
+        "comp": "HE-5",
+        "obj": "HE-5.4",
+        "dok": 3,
+        "approach": [
+          "PaO2 measures dissolved oxygen, which is normal because his lungs work normally.",
+          "Carbon monoxide binds heme with about 200 times the affinity of oxygen, so fewer sites carry oxygen and oxygen content falls.",
+          "CO on some sites makes the remaining sites hold oxygen more tightly, shifting the curve left, so less oxygen is released in tissues."
+        ],
+        "why": "Oxygen content depends mostly on hemoglobin saturation, not PaO2. Carbon monoxide occupies heme sites, so content falls even though PaO2 stays normal, and standard pulse oximetry reads carboxyhemoglobin as oxyhemoglobin, so the saturation looks falsely normal. CO also shifts the dissociation curve to the left, which further reduces unloading. Methemoglobin acts in a similar way: ferric iron cannot carry oxygen and the curve shifts left. Methemoglobinemia can be congenital (cytochrome b5 reductase deficiency) or acquired from nitrites, dapsone, or benzocaine.",
+        "whyNot": [
+          "Oxidation of heme iron to the ferric state is methemoglobinemia, caused by nitrites, dapsone, or benzocaine. His history and carboxyhemoglobin level point to carbon monoxide.",
+          "His PaO2 is normal, so dissolved oxygen and loading in the lungs are not the problem.",
+          "Correct.",
+          "Carbon monoxide shifts the curve to the left, not the right. A right shift would actually help unloading in tissues."
+        ],
+        "study": {
+          "topics": [
+            "Carbon monoxide poisoning",
+            "Methemoglobinemia"
+          ],
+          "comps": [
+            "HE-5"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "HE-C07",
+    "system": "HE",
+    "dx": "Splenic rupture after blunt trauma during infectious mononucleosis",
+    "codes": [
+      "HE-9-B",
+      "HE-7"
+    ],
+    "case": "A 19-year-old man is brought to the emergency department 40 minutes after he was tackled during a football game. He has left upper quadrant pain that spreads to the left shoulder. Ten days ago, he was diagnosed with infectious mononucleosis after 1 week of fever, sore throat, and fatigue; a heterophile antibody test was positive. Temperature is 37.6 °C (99.7 °F), pulse is 128/min, respirations are 24/min, and blood pressure is 86/52 mm Hg. Examination shows posterior cervical lymphadenopathy and left upper quadrant tenderness with guarding. A peripheral blood smear shows many large lymphocytes with abundant cytoplasm that wraps around adjacent erythrocytes. A CT scan shows a splenic laceration with hemoperitoneum, and an emergency splenectomy is done. Diagnosis: traumatic splenic rupture during infectious mononucleosis.",
+    "questions": [
+      {
+        "id": "HE-C07-Q1",
+        "stem": "A peripheral blood smear obtained 3 weeks after surgery is most likely to show which of the following?",
+        "options": [
+          "Erythrocytes with small round nuclear remnants",
+          "Fragmented erythrocytes with sharp angular edges",
+          "Teardrop erythrocytes with circulating nucleated cells",
+          "Erythrocytes with diffuse coarse blue granules"
+        ],
+        "answer": 0,
+        "sea": "X",
+        "comp": "HE-9-B",
+        "obj": "HE-9-B.11",
+        "dok": 2,
+        "approach": [
+          "The spleen normally removes inclusions from red cells as they squeeze through the cords (pitting).",
+          "Without a spleen, small DNA remnants left after nuclear extrusion stay in circulating red cells.",
+          "These are Howell-Jolly bodies, and target cells and thrombocytosis are also common after splenectomy."
+        ],
+        "why": "The red pulp filters the blood: red cells must squeeze from the cords into the sinusoids, and macrophages remove old cells and pluck out inclusions. After splenectomy, Howell-Jolly bodies (nuclear remnants), target cells, and sometimes Heinz bodies and acanthocytes appear, and the platelet count rises because the spleen normally holds about a third of platelets. The spleen can rupture after blunt trauma, especially when enlarged by mononucleosis. It can also infarct in sickle cell disease or from emboli, and septic emboli from endocarditis can cause a splenic abscess.",
+        "whyNot": [
+          "Correct.",
+          "Schistocytes come from mechanical damage, as in microangiopathy or prosthetic valves, not from loss of the spleen.",
+          "Teardrop cells with nucleated cells (a leukoerythroblastic picture) point to marrow fibrosis or infiltration.",
+          "Diffuse coarse blue granules are basophilic stippling, from retained ribosomal RNA in lead poisoning or thalassemia."
+        ],
+        "study": {
+          "topics": [
+            "Post-splenectomy blood smear",
+            "Splenic rupture"
+          ],
+          "comps": [
+            "HE-9-B",
+            "HE-1"
+          ]
+        }
+      },
+      {
+        "id": "HE-C07-Q2",
+        "stem": "Flow cytometry of the large atypical lymphocytes on his smear would most likely identify which of the following cells?",
+        "options": [
+          "B cells infected through the CD21 receptor",
+          "CD56-positive natural killer cells",
+          "Plasma cells secreting heterophile antibody",
+          "CD8 T cells reacting to infected B cells"
+        ],
+        "answer": 3,
+        "sea": "M",
+        "comp": "HE-7",
+        "obj": "HE-7.6",
+        "dok": 3,
+        "approach": [
+          "Epstein-Barr virus enters B cells through CD21, the receptor for complement C3d.",
+          "Infected B cells multiply and present viral antigens, which drives a large cytotoxic T cell response.",
+          "The atypical lymphocytes (Downey cells) are mostly these activated CD8 T cells."
+        ],
+        "why": "Epstein-Barr virus infects pharyngeal epithelium and B cells, entering B cells through CD21. Infected B cells proliferate and make polyclonal antibodies, including the heterophile antibodies detected by the monospot test. Cytotoxic CD8 T cells expand to control the infection, and they appear in the blood as large atypical lymphocytes and enlarge the nodes, liver, and spleen. When T cell control is weak or the B cells acquire other changes, EBV contributes to Burkitt lymphoma, Hodgkin lymphoma, and lymphomas in people who are immunosuppressed.",
+        "whyNot": [
+          "EBV does infect B cells through CD21, but infected B cells are a small fraction of blood lymphocytes. The atypical cells are the T cells reacting to them.",
+          "Natural killer cells do respond to EBV, but they are not the main atypical lymphocyte population.",
+          "Infected B cells make heterophile antibody, but plasma cells are rarely seen in the blood and do not look like these cells.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Epstein-Barr virus",
+            "Atypical lymphocytes"
+          ],
+          "comps": [
+            "HE-7",
+            "HE-9-D2"
+          ]
+        }
+      },
+      {
+        "id": "HE-C07-Q3",
+        "stem": "On arrival, before intravenous fluids are given, his hemoglobin concentration is 14.1 g/dL (13.5 to 17.5). Which of the following best explains this value?",
+        "options": [
+          "Red cells released from the contracting spleen",
+          "Hemoconcentration from vomiting and fever",
+          "Loss of plasma and red cells in equal proportion",
+          "Rapid erythropoietin-driven reticulocyte release"
+        ],
+        "answer": 2,
+        "sea": "P",
+        "comp": "HE-9-A",
+        "obj": "HE-9-A.9",
+        "dok": 3,
+        "approach": [
+          "In acute hemorrhage, whole blood is lost, so plasma and red cells leave together.",
+          "The concentration of hemoglobin in the blood that remains is unchanged at first.",
+          "Hemoglobin falls only as fluid moves from the interstitium into vessels, or as IV fluids are given, over hours to days."
+        ],
+        "why": "Hemoglobin is a concentration, so it does not reflect acute blood loss until plasma volume is restored. Over the next hours to about 2 to 3 days, interstitial fluid shifts into the vessels and dilutes the remaining red cells. Erythropoietin rises, and the reticulocyte count increases after about 3 to 5 days, peaking at about 1 week. Iron stores are normal after a single bleed, but slow, chronic blood loss drains iron and leads to iron deficiency anemia.",
+        "whyNot": [
+          "The human spleen holds few red cells, and his spleen has ruptured.",
+          "Nothing suggests vomiting, and a low-grade fever does not concentrate the blood enough to explain the finding.",
+          "Correct.",
+          "Erythropoietin raises the reticulocyte count only after several days, not within the first hour."
+        ],
+        "study": {
+          "topics": [
+            "Acute blood loss",
+            "Reticulocyte response"
+          ],
+          "comps": [
+            "HE-9-A",
+            "HE-2"
+          ]
+        }
+      },
+      {
+        "id": "HE-C07-Q4",
+        "stem": "An enlarged posterior cervical lymph node was biopsied before his injury. Expansion of which of the following regions of the node is most consistent with the predominant lymphocyte response seen on his smear?",
+        "options": [
+          "Cortical follicles with germinal centers",
+          "Paracortex deep to the follicles",
+          "Medullary cords with plasma cells",
+          "Subcapsular and medullary sinuses"
+        ],
+        "answer": 1,
+        "sea": "A",
+        "comp": "HE-1",
+        "obj": "HE-1.7",
+        "dok": 3,
+        "approach": [
+          "The predominant response in mononucleosis is a large expansion of activated T cells.",
+          "In the lymph node, T cells live in the paracortex, between and below the B cell follicles, where high endothelial venules bring them in.",
+          "So the T cell response expands the paracortex."
+        ],
+        "why": "Each lymph node has B cell follicles in the outer cortex, a T cell paracortex beneath them, and a medulla of cords (plasma cells and macrophages) and sinuses that drain lymph. In the spleen, T cells sit in the periarteriolar lymphoid sheath, B cells in the follicles and marginal zone, and the red pulp cords and sinusoids filter red cells. In mononucleosis, the T cell response expands the nodal paracortex with immunoblasts. The same reaction infiltrates the spleen and stretches its thin capsule, which is why it can rupture with minor trauma.",
+        "whyNot": [
+          "Follicles with germinal centers are B cell areas. Follicular hyperplasia can occur, but it does not reflect the T cell response that dominates his smear.",
+          "Correct.",
+          "Medullary cords hold plasma cells and macrophages, which are not the dominant reacting cells here.",
+          "Sinuses carry lymph and contain macrophages, and expanded sinuses (sinus histiocytosis) are typical of nodes draining tumors."
+        ],
+        "study": {
+          "topics": [
+            "Lymph node structure",
+            "Spleen structure"
+          ],
+          "comps": [
+            "HE-1",
+            "HE-7"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "HE-C08",
+    "system": "HE",
+    "dx": "Chronic myeloid leukemia, chronic phase",
+    "codes": [
+      "HE-9-D1"
+    ],
+    "case": "A 47-year-old woman comes to the physician because of a 3-month history of fatigue, night sweats, early satiety, and a dragging sensation in the left upper abdomen. Temperature is 37.1 °C (98.8 °F), pulse is 88/min, respirations are 14/min, and blood pressure is 124/76 mm Hg. Examination shows a firm, nontender spleen palpable 12 cm below the left costal margin. Laboratory studies show a hemoglobin concentration of 10.8 g/dL (12.0 to 16.0), leukocyte count of 172,000/mm3 (4,500 to 11,000), and platelet count of 520,000/mm3 (150,000 to 400,000). A peripheral blood smear shows granulocytes at every stage of maturation, with many myelocytes and segmented neutrophils, 7% basophils (0 to 1), and 2% blasts. Fluorescence in situ hybridization detects a BCR-ABL1 fusion gene. Diagnosis: chronic myeloid leukemia, chronic phase.",
+    "questions": [
+      {
+        "id": "HE-C08-Q1",
+        "stem": "Four years later, despite treatment, she has fever, bone pain, and worsening anemia. Which of the following findings would best indicate that her disease has entered blast crisis?",
+        "options": [
+          "Basophils making up 7% of blood leukocytes",
+          "Granulocytes present at every stage of maturation",
+          "Platelet count above 450,000/mm3",
+          "Blasts making up 30% of marrow cells"
+        ],
+        "answer": 3,
+        "sea": "X",
+        "comp": "HE-9-D1",
+        "obj": "HE-9-D.4",
+        "dok": 2,
+        "approach": [
+          "Chronic phase CML shows a full range of maturing granulocytes, basophilia, and few blasts.",
+          "Progression means the clone loses the ability to mature, so blasts increase.",
+          "Blasts of at least 20% in blood or marrow define blast crisis, which behaves like acute leukemia."
+        ],
+        "why": "CML has a chronic phase that lasts years, in which the clone still matures, so the blood shows neutrophils at every stage, basophilia, and often thrombocytosis. Without effective treatment, more mutations build up and the disease can pass through an accelerated phase with rising blasts and basophils. It then reaches blast crisis, with at least 20% blasts in blood or marrow. Blast crisis is myeloid in about two thirds of patients and lymphoid in about one third, and it behaves like acute leukemia.",
+        "whyNot": [
+          "Basophilia of this degree is already present in chronic phase, as it was at her diagnosis.",
+          "A full range of maturing granulocytes is the chronic phase picture, not blast crisis.",
+          "Thrombocytosis is common in chronic phase and was present at diagnosis.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Phases of CML",
+            "Blast crisis"
+          ],
+          "comps": [
+            "HE-9-D1",
+            "HE-6"
+          ]
+        }
+      },
+      {
+        "id": "HE-C08-Q2",
+        "stem": "The fusion gene detected in her cells drives granulocyte proliferation by which of the following mechanisms?",
+        "options": [
+          "Overexpression of an antiapoptotic mitochondrial protein",
+          "Loss of a cell cycle checkpoint tumor suppressor",
+          "Constitutive cytoplasmic tyrosine kinase activity",
+          "Fusion transcription factor blocking differentiation"
+        ],
+        "answer": 2,
+        "sea": "B",
+        "comp": "HE-6",
+        "obj": "HE-6.4",
+        "dok": 2,
+        "approach": [
+          "BCR-ABL1 forms from t(9;22), the Philadelphia chromosome, which joins BCR on chromosome 22 to ABL1 on chromosome 9.",
+          "ABL1 is a tyrosine kinase that is normally tightly regulated.",
+          "The fusion protein is always active, so growth signals stay on without growth factors, and maturation still proceeds."
+        ],
+        "why": "The BCR-ABL1 fusion protein is a tyrosine kinase that is always switched on. It activates RAS, JAK-STAT, and PI3K pathways, so myeloid progenitors grow and survive without normal growth factor control, while their ability to mature is kept. That is why the blood fills with maturing granulocytes. Imatinib and related drugs block the kinase. A similar idea applies to polycythemia vera, where JAK2 V617F keeps JAK2 signaling on without erythropoietin.",
+        "whyNot": [
+          "Overexpression of the antiapoptotic protein BCL2 follows t(14;18) in follicular lymphoma.",
+          "Loss of a tumor suppressor such as TP53 or RB is a different mechanism and is not caused by t(9;22).",
+          "Correct.",
+          "A fusion transcription factor that blocks maturation is PML-RARA from t(15;17) in acute promyelocytic leukemia. CML cells still mature."
+        ],
+        "study": {
+          "topics": [
+            "BCR-ABL1",
+            "Tyrosine kinase oncogenes"
+          ],
+          "comps": [
+            "HE-6",
+            "HE-9-D1"
+          ]
+        }
+      },
+      {
+        "id": "HE-C08-Q3",
+        "stem": "Before the genetic result was available, a leukemoid reaction to severe infection was considered. Which of the following additional findings would most strongly favor chronic myeloid leukemia?",
+        "options": [
+          "Toxic granulation and Döhle bodies in neutrophils",
+          "Low leukocyte alkaline phosphatase score",
+          "High leukocyte alkaline phosphatase score",
+          "Neutrophilia with increased band forms"
+        ],
+        "answer": 1,
+        "sea": "X",
+        "comp": "HE-9-A",
+        "obj": "HE-9-A.11",
+        "dok": 3,
+        "approach": [
+          "Both conditions can cause a very high leukocyte count with immature granulocytes in the blood.",
+          "In a leukemoid reaction, normal neutrophils are activated and rich in leukocyte alkaline phosphatase (LAP).",
+          "CML neutrophils come from the malignant clone and have low LAP activity."
+        ],
+        "why": "A leukemoid reaction is a benign, very high neutrophil count, often above 50,000/mm3, in response to severe infection, inflammation, or tumors. The neutrophils are activated, so they show toxic granulation, Döhle bodies, and a high LAP score, and there is a left shift with many bands. CML shows a low LAP score, basophilia, and often eosinophilia and splenomegaly. The BCR-ABL1 fusion gene confirms CML.",
+        "whyNot": [
+          "Toxic granulation and Döhle bodies are signs of activated neutrophils in infection and favor a leukemoid reaction.",
+          "Correct.",
+          "A high LAP score favors a leukemoid reaction. It can also be high in polycythemia vera.",
+          "A left shift with many bands occurs in both conditions and does not separate them."
+        ],
+        "study": {
+          "topics": [
+            "Leukemoid reaction",
+            "Leukocyte alkaline phosphatase"
+          ],
+          "comps": [
+            "HE-9-A",
+            "HE-9-D1"
+          ]
+        }
+      },
+      {
+        "id": "HE-C08-Q4",
+        "stem": "Her smear shows two peaks among the granulocytes: segmented neutrophils and a precursor that has a round nucleus, contains both primary (azurophilic) and secondary (specific) granules, and is the last stage still able to divide. Which of the following cells is this precursor?",
+        "options": [
+          "Myelocyte",
+          "Promyelocyte",
+          "Metamyelocyte",
+          "Band neutrophil"
+        ],
+        "answer": 0,
+        "sea": "A",
+        "comp": "HE-1",
+        "obj": "HE-1.5",
+        "dok": 2,
+        "approach": [
+          "Granulocytes mature from myeloblast to promyelocyte, myelocyte, metamyelocyte, band, and segmented neutrophil.",
+          "Promyelocytes have only primary granules. Specific granules first appear in the myelocyte.",
+          "The myelocyte is the last stage that divides. From the metamyelocyte on, the cells only mature."
+        ],
+        "why": "In granulocyte maturation, the myeloblast has fine chromatin and nucleoli and few or no granules. The promyelocyte makes primary (azurophilic) granules, and the myelocyte begins making specific granules and is the last stage that can divide. The metamyelocyte has an indented nucleus, the band has a curved, unsegmented nucleus, and the mature neutrophil has three to five lobes. A left shift means more bands and earlier forms in the blood, as in infection. CML often shows peaks of myelocytes and segmented neutrophils.",
+        "whyNot": [
+          "Correct.",
+          "Promyelocytes contain only primary granules. Specific granules have not yet formed.",
+          "Metamyelocytes have an indented, bean-shaped nucleus and can no longer divide.",
+          "Band neutrophils have a curved, unsegmented nucleus and do not divide."
+        ],
+        "study": {
+          "topics": [
+            "Granulocyte maturation",
+            "Left shift"
+          ],
+          "comps": [
+            "HE-1",
+            "HE-9-D1"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "HE-C09",
+    "system": "HE",
+    "dx": "Sickle cell anemia with acute chest syndrome and functional asplenia",
+    "codes": [
+      "HE-9-B1"
+    ],
+    "case": "A 14-year-old girl with sickle cell anemia (HbSS) is brought to the emergency department because of a 1-day history of fever, cough, and right-sided chest pain. Temperature is 38.9 °C (102.0 °F), pulse is 118/min, respirations are 30/min, and blood pressure is 108/64 mm Hg. Oxygen saturation is 89% on room air. Crackles are heard over the right lower lung field. No spleen is palpable. Laboratory studies show a hemoglobin concentration of 6.4 g/dL (12.0 to 16.0; her baseline is 8.0) and reticulocyte count of 12% (0.5 to 2.5). A peripheral blood smear shows sickled erythrocytes, target cells, and Howell-Jolly bodies. A chest x-ray shows a new infiltrate in the right lower lobe. Diagnosis: sickle cell anemia with acute chest syndrome and functional asplenia.",
+    "questions": [
+      {
+        "id": "HE-C09-Q1",
+        "stem": "Her disease results from substitution of valine for glutamate at position 6 of the beta globin chain. Which of the following conditions during this illness most promotes polymerization of her hemoglobin?",
+        "options": [
+          "Respiratory alkalosis from rapid breathing",
+          "Hypoxemia from the consolidated lung",
+          "Dilution of red cell contents by hypotonic fluids",
+          "A higher proportion of fetal hemoglobin"
+        ],
+        "answer": 1,
+        "sea": "B",
+        "comp": "HE-6",
+        "obj": "HE-6.1",
+        "dok": 3,
+        "approach": [
+          "The valine at position 6 creates a hydrophobic patch that fits into a pocket on a neighboring HbS molecule, but only when the hemoglobin is deoxygenated.",
+          "Anything that raises the fraction or concentration of deoxygenated HbS speeds polymerization.",
+          "Her lung consolidation lowers oxygen saturation, which raises deoxy-HbS and drives more sickling in the lung, a vicious cycle."
+        ],
+        "why": "HbS polymerizes into long fibers when it gives up oxygen, which distorts and stiffens red cells. Hypoxia, acidosis, fever, and high 2,3-BPG increase the deoxygenated fraction. Dehydration raises the concentration of HbS inside the cell. Fetal hemoglobin does not join the polymer and dilutes HbS, so a high HbF level protects. In acute chest syndrome, infection or fat emboli cause hypoxemia, which causes more sickling and vaso-occlusion in the lung.",
+        "whyNot": [
+          "Alkalosis shifts the dissociation curve to the left, so more hemoglobin stays oxygenated and sickling falls.",
+          "Correct.",
+          "Hypotonic fluid swells the cells and lowers the HbS concentration, which slows polymerization.",
+          "Fetal hemoglobin does not take part in the polymer and dilutes HbS, so a higher proportion reduces sickling."
+        ],
+        "study": {
+          "topics": [
+            "HbS polymerization",
+            "Factors that promote sickling"
+          ],
+          "comps": [
+            "HE-6",
+            "HE-9-B1"
+          ]
+        }
+      },
+      {
+        "id": "HE-C09-Q2",
+        "stem": "Two years later, she has painless gross hematuria and passes a small piece of tissue in her urine. Which of the following best explains this complication?",
+        "options": [
+          "Immune complex deposition in glomeruli",
+          "Calcium oxalate stones from enteric hyperoxaluria",
+          "Medullary sickling with papillary ischemia",
+          "Urothelial carcinoma of the renal pelvis"
+        ],
+        "answer": 2,
+        "sea": "X",
+        "comp": "HE-9-B1",
+        "obj": "HE-9-B.1",
+        "dok": 3,
+        "approach": [
+          "The renal medulla has low oxygen tension, high osmolality, and low pH, which all favor sickling.",
+          "Sickled cells block the vasa recta that supply the papillae, causing ischemic necrosis.",
+          "A sloughed papilla passes in the urine with painless hematuria."
+        ],
+        "why": "Sickle cell disease causes damage through vaso-occlusion and through hemolysis. Vaso-occlusion explains dactylitis, acute chest syndrome, stroke, splenic autoinfarction, priapism, and renal papillary necrosis. The renal medulla is the most sickling-prone site in the body, so even people with sickle cell trait can have hematuria and papillary necrosis. Chronic hemolysis leads to pigment gallstones and to aplastic crisis with parvovirus B19. Bone infarcts make Salmonella osteomyelitis more likely.",
+        "whyNot": [
+          "Immune complex glomerulonephritis gives hematuria with red cell casts and proteinuria, not sloughed tissue.",
+          "Calcium oxalate stones usually cause colicky pain, and enteric hyperoxaluria needs fat malabsorption.",
+          "Correct.",
+          "Urothelial carcinoma is rare at her age, and a tumor fragment would not be the expected cause in sickle cell disease."
+        ],
+        "study": {
+          "topics": [
+            "Complications of sickle cell disease",
+            "Renal papillary necrosis"
+          ],
+          "comps": [
+            "HE-9-B1"
+          ]
+        }
+      },
+      {
+        "id": "HE-C09-Q3",
+        "stem": "Which of the following best explains why she is at increased risk of sepsis from Streptococcus pneumoniae?",
+        "options": [
+          "Loss of splenic IgM and macrophage clearance",
+          "Inherited deficiency of terminal complement components",
+          "Impaired neutrophil killing from chronic hemolysis",
+          "Defective T cell help from repeated transfusions"
+        ],
+        "answer": 0,
+        "sea": "M",
+        "comp": "HE-7",
+        "obj": "HE-7.7",
+        "dok": 3,
+        "approach": [
+          "Howell-Jolly bodies and a nonpalpable spleen show she has lost splenic function from repeated infarcts.",
+          "Polysaccharide capsules resist phagocytosis unless the bacteria are coated with antibody and complement.",
+          "The spleen makes early IgM against capsules (marginal zone B cells) and its macrophages clear opsonized bacteria from the blood."
+        ],
+        "why": "Encapsulated bacteria, such as Streptococcus pneumoniae, Haemophilus influenzae type b, and Neisseria meningitidis, escape phagocytosis unless antibody and complement coat them. The spleen supplies both: marginal zone B cells make rapid IgM against capsular polysaccharides, and splenic macrophages remove opsonized bacteria from blood. In sickle cell anemia, repeated infarcts destroy splenic function in early childhood. Vaccines against these organisms create opsonizing antibodies to the capsule before exposure, and conjugate vaccines add T cell help so infants respond.",
+        "whyNot": [
+          "Correct.",
+          "Terminal complement deficiency raises the risk of Neisseria infections, not pneumococcal sepsis in asplenia.",
+          "Chronic hemolysis does not impair neutrophil killing. Defective neutrophil killing is seen in chronic granulomatous disease.",
+          "Transfusions do not destroy T cell help. Her risk comes from loss of the spleen."
+        ],
+        "study": {
+          "topics": [
+            "Asplenia and encapsulated bacteria",
+            "Vaccines in asplenia"
+          ],
+          "comps": [
+            "HE-7",
+            "HE-9-B1"
+          ]
+        }
+      },
+      {
+        "id": "HE-C09-Q4",
+        "stem": "She is started on hydroxyurea, which increases the proportion of her hemoglobin that is fetal hemoglobin. Compared with hemoglobin A, fetal hemoglobin has which of the following?",
+        "options": [
+          "Two alpha and two delta chains, and increased oxygen affinity",
+          "Two alpha and two gamma chains, and decreased oxygen affinity",
+          "Four gamma chains, and increased oxygen affinity",
+          "Two alpha and two gamma chains, and increased oxygen affinity"
+        ],
+        "answer": 3,
+        "sea": "B",
+        "comp": "HE-5",
+        "obj": "HE-5.3",
+        "dok": 3,
+        "approach": [
+          "Adult hemoglobin A is two alpha and two beta chains. Hemoglobin A2 is two alpha and two delta chains. Fetal hemoglobin is two alpha and two gamma chains.",
+          "Gamma chains bind 2,3-BPG poorly, and 2,3-BPG normally lowers oxygen affinity.",
+          "So fetal hemoglobin has higher oxygen affinity, and its dissociation curve is shifted to the left."
+        ],
+        "why": "Hemoglobin binds oxygen cooperatively: each oxygen that binds makes the next one bind more easily, which gives the sigmoid curve. 2,3-BPG, H+, CO2, and higher temperature lower affinity and shift the curve to the right, which helps unloading in active tissues. Fetal hemoglobin and carbon monoxide shift the curve to the left. The left shift lets the fetus draw oxygen from maternal blood. In sickle cell disease, gamma chains cannot join the HbS polymer, so more HbF means less sickling.",
+        "whyNot": [
+          "Two alpha and two delta chains form hemoglobin A2, a minor adult hemoglobin, not fetal hemoglobin.",
+          "The chain makeup is right, but fetal hemoglobin binds oxygen more tightly than hemoglobin A, not less.",
+          "Four gamma chains form hemoglobin Barts, seen in alpha thalassemia when no alpha chains are made.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Hemoglobin types",
+            "Oxygen dissociation curve"
+          ],
+          "comps": [
+            "HE-5",
+            "HE-6"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "HE-C10",
+    "system": "HE",
+    "dx": "Transfusion-dependent beta thalassemia major",
+    "codes": [
+      "HE-9-B1"
+    ],
+    "case": "A 7-year-old boy is brought to the physician for a scheduled visit. He was diagnosed with beta thalassemia major at 9 months of age and has received red cell transfusions every 3 to 4 weeks since then. He is short for his age. Vital signs are within normal limits. Examination shows frontal bossing, prominent maxillae, and hepatosplenomegaly. Laboratory studies before transfusion show a hemoglobin concentration of 8.1 g/dL (11.5 to 15.5) and a serum ferritin concentration of 3,400 ng/mL (7 to 140). A peripheral blood smear shows microcytic, hypochromic erythrocytes, target cells, and nucleated red cells. A skull x-ray shows a hair-on-end (crew-cut) pattern. Diagnosis: transfusion-dependent beta thalassemia major.",
+    "questions": [
+      {
+        "id": "HE-C10-Q1",
+        "stem": "Which of the following best explains the ineffective erythropoiesis that drives his skeletal changes?",
+        "options": [
+          "Polymerization of deoxygenated hemoglobin",
+          "Antibody-mediated lysis of erythroid precursors",
+          "Precipitation of excess unpaired alpha chains",
+          "Deficiency of renal erythropoietin production"
+        ],
+        "answer": 2,
+        "sea": "X",
+        "comp": "HE-9-B1",
+        "obj": "HE-9-B.2",
+        "dok": 3,
+        "approach": [
+          "In beta thalassemia major, little or no beta globin is made, but alpha chains are made normally.",
+          "Unpaired alpha chains are unstable and precipitate inside erythroid precursors, damaging their membranes.",
+          "Most precursors die in the marrow, so anemia drives erythropoietin up, and the marrow expands into the skull and facial bones."
+        ],
+        "why": "Excess alpha chains precipitate in developing red cells, and most die in the marrow (ineffective erythropoiesis), while the few that escape are destroyed in the spleen. Severe anemia raises erythropoietin, so the marrow expands and thins the bones, which gives the crew-cut skull and maxillary overgrowth, and blood is made in the liver and spleen. Ineffective erythropoiesis lowers hepcidin, so gut iron absorption rises, and with transfusions this causes iron overload in the heart, liver, and endocrine glands. In beta thalassemia minor, the anemia is mild, and electrophoresis shows increased HbA2 (above about 3.5%).",
+        "whyNot": [
+          "Polymerization of deoxygenated hemoglobin is the mechanism of sickle cell disease.",
+          "Antibodies are not part of thalassemia. Antibody-mediated destruction of red cells is immune hemolysis.",
+          "Correct.",
+          "Erythropoietin is high, not low, in thalassemia major. The kidney responds normally to the anemia."
+        ],
+        "study": {
+          "topics": [
+            "Beta thalassemia major",
+            "Ineffective erythropoiesis"
+          ],
+          "comps": [
+            "HE-9-B1",
+            "HE-3"
+          ]
+        }
+      },
+      {
+        "id": "HE-C10-Q2",
+        "stem": "A liver biopsy specimen shows clusters of erythroid precursors and megakaryocytes in the hepatic sinusoids. Which of the following developmental sequences of hematopoietic sites best explains why blood cells are being made in his liver and spleen?",
+        "options": [
+          "Yolk sac, then liver and spleen, then bone marrow",
+          "Yolk sac, then bone marrow, then liver and spleen",
+          "Liver and spleen, then yolk sac, then bone marrow",
+          "Bone marrow, then yolk sac, then liver and spleen"
+        ],
+        "answer": 0,
+        "sea": "A",
+        "comp": "HE-1",
+        "obj": "HE-1.3",
+        "dok": 2,
+        "approach": [
+          "Blood formation begins in the yolk sac in the third week of development.",
+          "The liver, helped by the spleen, becomes the main site for most of fetal life, and the bone marrow takes over late in gestation.",
+          "When the marrow cannot meet demand after birth, the liver and spleen can resume their fetal role (extramedullary hematopoiesis)."
+        ],
+        "why": "Hematopoiesis moves through three sites: the yolk sac in the first weeks, the liver (with the spleen) from about the second month, and the bone marrow from about the fifth to seventh month on. After birth the marrow normally makes all blood cells. When the marrow is overwhelmed by ineffective erythropoiesis, as in beta thalassemia major, or replaced by fibrosis, as in primary myelofibrosis, the liver and spleen make blood again. This extramedullary hematopoiesis enlarges both organs.",
+        "whyNot": [
+          "Correct.",
+          "The liver and spleen come before the marrow, not after it. The marrow is the last site to take over.",
+          "The yolk sac is the first site, not the second.",
+          "The bone marrow is the final site, not the first."
+        ],
+        "study": {
+          "topics": [
+            "Sites of hematopoiesis",
+            "Extramedullary hematopoiesis"
+          ],
+          "comps": [
+            "HE-1",
+            "HE-9-B1"
+          ]
+        }
+      },
+      {
+        "id": "HE-C10-Q3",
+        "stem": "Forty minutes into a routine transfusion, he develops chills and a temperature of 38.7 °C (101.7 °F) from a baseline of 36.9 °C (98.4 °F). Pulse is 104/min, and blood pressure is 102/64 mm Hg, unchanged from before the transfusion. He has no dyspnea, rash, or back pain. Repeat typing confirms ABO compatibility, the direct antiglobulin test is negative, and his plasma and urine show no free hemoglobin. A Gram stain of the unit shows no organisms. Which of the following best explains this reaction?",
+        "options": [
+          "Recipient IgM binding donor ABO antigens",
+          "Donor antibodies against recipient leukocyte antigens",
+          "Recipient anti-IgA antibodies reacting with donor plasma",
+          "Cytokines from donor leukocytes in the stored unit"
+        ],
+        "answer": 3,
+        "sea": "M",
+        "comp": "HE-7",
+        "obj": "HE-7.3",
+        "dok": 3,
+        "approach": [
+          "Fever and chills with stable blood pressure and no signs of hemolysis, lung injury, or allergy point to a febrile nonhemolytic reaction.",
+          "These are common in patients who receive many transfusions.",
+          "They are caused by cytokines released from white cells in the stored unit, or by recipient antibodies to donor white cells, and leukoreduction prevents most of them."
+        ],
+        "why": "Transfusion reactions are sorted by timing and findings. Acute hemolytic reactions occur within minutes from preformed recipient IgM against donor ABO antigens, with fever, back pain, hypotension, and hemoglobinuria. Febrile nonhemolytic reactions cause fever and chills within hours from cytokines made by donor leukocytes during storage. Anaphylaxis from anti-IgA in IgA-deficient patients causes hypotension and wheezing within minutes. TRALI causes respiratory distress within 6 hours, septic reactions cause fever with shock, and delayed hemolytic reactions appear days later.",
+        "whyNot": [
+          "ABO-incompatible transfusion causes intravascular hemolysis with free hemoglobin, back pain, and often hypotension. His tests show no hemolysis.",
+          "Donor antibodies against recipient leukocytes cause TRALI, with acute respiratory distress and pulmonary edema. He has no dyspnea.",
+          "Anti-IgA reactions cause anaphylaxis with hypotension, wheezing, or urticaria, not isolated fever.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Transfusion reactions",
+            "Febrile nonhemolytic reaction"
+          ],
+          "comps": [
+            "HE-7"
+          ]
+        }
+      },
+      {
+        "id": "HE-C10-Q4",
+        "stem": "His mother's cousin has a moderate microcytic hemolytic anemia with splenomegaly. Supravital staining of her erythrocytes shows inclusions formed by tetramers of beta globin chains. Which of the following genotypes most likely explains her disorder?",
+        "options": [
+          "Deletion of two alpha globin genes",
+          "Deletion of three alpha globin genes",
+          "Deletion of four alpha globin genes",
+          "Point mutation at a beta globin splice site"
+        ],
+        "answer": 1,
+        "sea": "B",
+        "comp": "HE-6",
+        "obj": "HE-6.2",
+        "dok": 3,
+        "approach": [
+          "Tetramers of beta chains are hemoglobin H, which forms only when alpha chains are very scarce.",
+          "There are four alpha globin genes, two on each chromosome 16.",
+          "Loss of three genes leaves too little alpha chain, so excess beta chains form HbH, which precipitates and causes hemolysis."
+        ],
+        "why": "Alpha thalassemia is usually caused by gene deletions, and severity follows the number of genes lost. One deletion is a silent carrier, two cause alpha thalassemia trait with mild microcytosis, three cause HbH disease with moderate hemolytic anemia, and four cause Hb Barts (four gamma chains) with hydrops fetalis. Beta thalassemia is usually caused by point mutations, often at splice sites or in the promoter, which reduce or abolish beta chain output.",
+        "whyNot": [
+          "Two deletions cause alpha thalassemia trait, with mild microcytosis and no HbH inclusions.",
+          "Correct.",
+          "Loss of all four genes causes Hb Barts hydrops fetalis, which is usually fatal before or soon after birth.",
+          "A beta globin splice site mutation causes beta thalassemia, in which alpha chains are in excess, not beta chains."
+        ],
+        "study": {
+          "topics": [
+            "Alpha thalassemia genetics",
+            "Hemoglobin H disease"
+          ],
+          "comps": [
+            "HE-6",
+            "HE-9-B1"
+          ]
+        }
+      }
+    ]
+  }
+]

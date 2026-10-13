@@ -1,0 +1,1593 @@
+[
+ {
+  "id": "EN-C31",
+  "system": "EN",
+  "dx": "Secondary hyperparathyroidism in chronic kidney disease",
+  "codes": [
+   "EN-12-A2"
+  ],
+  "case": "A 61-year-old woman with chronic kidney disease from hypertensive nephrosclerosis comes to the physician because of diffuse bone pain and itching for 6 months. Her estimated glomerular filtration rate is 19 mL/min/1.73 m2. Laboratory studies show serum calcium 8.3 mg/dL (8.5 to 10.5), phosphate 6.4 mg/dL (2.5 to 4.5), albumin 3.9 g/dL (3.5 to 5.0), alkaline phosphatase 210 U/L (40 to 120), intact PTH 420 pg/mL (10 to 65), and 25-hydroxyvitamin D 36 ng/mL (30 to 100). Serum 1,25-dihydroxyvitamin D is below the reference range. X-rays of the hands show subperiosteal bone resorption along the radial sides of the middle phalanges. The diagnosis is secondary hyperparathyroidism due to chronic kidney disease.",
+  "questions": [
+   {
+    "id": "EN-C31-Q1",
+    "stem": "Three years later, she receives a kidney transplant, and graft function is normal. Six months after transplantation, serum calcium is 11.3 mg/dL, phosphate is 2.3 mg/dL, and intact PTH is 365 pg/mL. Which of the following best explains these findings?",
+    "options": [
+     "Calcitriol overproduction by the transplanted kidney",
+     "Autonomous PTH secretion by hyperplastic glands",
+     "Persistent phosphate retention by the transplanted kidney",
+     "Ectopic PTH-related peptide secretion by a malignancy"
+    ],
+    "answer": 1,
+    "sea": "X",
+    "comp": "EN-12-A2",
+    "obj": "EN-12-A.6",
+    "dok": 3,
+    "approach": [
+     "Note the new pattern: high calcium, low phosphate, and a PTH that is still very high after the kidney problem was fixed.",
+     "Normal parathyroid glands would lower PTH once calcium is high, so these glands no longer respond to feedback.",
+     "Years of stimulation in CKD made the glands hyperplastic, and they now secrete PTH on their own. This is tertiary hyperparathyroidism."
+    ],
+    "why": "In CKD, phosphate retention, low calcitriol, and low calcium stimulate the parathyroid glands for years. The glands become hyperplastic, sometimes nodular, and they express fewer calcium-sensing and vitamin D receptors. After transplantation the original stimulus is gone, but the enlarged glands keep secreting PTH regardless of calcium. High PTH with high calcium after long-standing secondary hyperparathyroidism is tertiary hyperparathyroidism. The low phosphate reflects PTH-driven phosphate excretion by the healthy graft.",
+    "whyNot": [
+     "A working graft does make calcitriol, but calcitriol raises calcium and suppresses PTH. It cannot explain a PTH this high alongside hypercalcemia.",
+     "Correct.",
+     "Her phosphate is now low. A healthy graft exposed to high PTH excretes phosphate, which is what the labs show.",
+     "PTH-related peptide from a tumor raises calcium, and the high calcium then suppresses the patient's own PTH. Intact PTH would be low, as in humoral hypercalcemia of malignancy."
+    ],
+    "study": {
+     "topics": [
+      "Secondary versus tertiary hyperparathyroidism",
+      "Renal osteodystrophy"
+     ],
+     "comps": [
+      "EN-12-A2",
+      "EN-5"
+     ]
+    }
+   },
+   {
+    "id": "EN-C31-Q2",
+    "stem": "Her physician wants to correct her deficiency of active vitamin D hormone. Which of the following forms of vitamin D would be most effective, given her kidney disease?",
+    "options": [
+     "Cholecalciferol",
+     "Ergocalciferol",
+     "Calcifediol",
+     "Calcitriol"
+    ],
+    "answer": 3,
+    "sea": "B",
+    "comp": "EN-7",
+    "obj": "EN-7.4",
+    "dok": 2,
+    "approach": [
+     "Her 25-hydroxyvitamin D is normal but her 1,25-dihydroxyvitamin D is low, so the block is at the kidney step.",
+     "The 1-alpha-hydroxylase that makes the active hormone sits in proximal tubule cells, which are lost in advanced CKD.",
+     "Only a form that already carries the 1-alpha hydroxyl group bypasses that step. Calcitriol is 1,25-dihydroxyvitamin D itself."
+    ],
+    "why": "Vitamin D3 (cholecalciferol) is made in skin when UVB light converts 7-dehydrocholesterol, and vitamin D2 (ergocalciferol) comes from plant and fungal sources. The liver adds a 25-hydroxyl group to make calcifediol, the main storage form. The kidney then adds the 1-alpha hydroxyl group, a step stimulated by PTH and low phosphate and suppressed by FGF23. In advanced CKD, proximal tubule mass is lost and phosphate retention raises FGF23, so this last step fails. Every precursor still needs the kidney, so calcitriol is the form that works.",
+    "whyNot": [
+     "Cholecalciferol still needs both liver and kidney hydroxylation. It would raise her 25-hydroxyvitamin D, which is already normal, without fixing the kidney block. It is the right choice for simple vitamin D deficiency.",
+     "Ergocalciferol is the plant and fungal form of vitamin D. It also needs 25- and 1-alpha hydroxylation, so it meets the same kidney block.",
+     "Calcifediol is already 25-hydroxylated, but it still needs renal 1-alpha-hydroxylase to become the active hormone.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Vitamin D activation steps",
+      "Vitamin D in chronic kidney disease"
+     ],
+     "comps": [
+      "EN-7",
+      "EN-12-A2"
+     ]
+    }
+   },
+   {
+    "id": "EN-C31-Q3",
+    "stem": "Her serum calcium is only slightly below the reference range despite her low calcitriol, partly because of the bone resorption seen on her x-rays. Which of the following best explains how her elevated PTH increases bone resorption?",
+    "options": [
+     "Increased RANKL expression by osteoblasts",
+     "Binding of PTH to receptors on osteoclasts",
+     "Increased osteoprotegerin release by osteoblasts",
+     "Increased calcitonin secretion acting on osteoclasts"
+    ],
+    "answer": 0,
+    "sea": "P",
+    "comp": "EN-5",
+    "obj": "EN-5.3",
+    "dok": 2,
+    "approach": [
+     "Bone resorption is carried out by osteoclasts, so ask which cell PTH actually acts on.",
+     "PTH receptors (PTH1R) are on osteoblasts and osteocytes. Osteoclasts do not have them.",
+     "PTH makes these cells express more RANKL and less osteoprotegerin, so more osteoclasts form and become active."
+    ],
+    "why": "PTH binds PTH1R, a Gs-coupled receptor on osteoblasts and osteocytes. Continuously high PTH makes these cells increase RANKL and decrease osteoprotegerin, the decoy receptor that normally blocks RANKL. RANKL binds RANK on osteoclast precursors and drives their maturation, so resorption rises and calcium and phosphate are released. In the kidney, PTH also increases distal tubule calcium reabsorption, reduces proximal tubule phosphate reabsorption, and stimulates 1-alpha-hydroxylase. In CKD this bone resorption helps hold serum calcium near normal at the cost of the skeleton (osteitis fibrosa cystica, part of renal osteodystrophy).",
+    "whyNot": [
+     "Correct.",
+     "Osteoclasts lack PTH receptors. PTH acts on them only indirectly, through signals from osteoblasts.",
+     "Osteoprotegerin blocks RANKL and reduces resorption. PTH lowers osteoprotegerin release.",
+     "Calcitonin from thyroid C cells inhibits osteoclasts and lowers calcium. It opposes PTH and is not raised by it."
+    ],
+    "study": {
+     "topics": [
+      "PTH actions on bone and kidney",
+      "RANKL and osteoprotegerin"
+     ],
+     "comps": [
+      "EN-5",
+      "EN-12-A2"
+     ]
+    }
+   },
+   {
+    "id": "EN-C31-Q4",
+    "stem": "She later undergoes subtotal parathyroidectomy. The surgeon dissects to find both inferior glands on the posterior surface of the lower thyroid poles, close to the tracheoesophageal groove. After surgery her voice is hoarse, and laryngoscopy shows the left vocal fold fixed near the midline. Which of the following structures was most likely injured?",
+    "options": [
+     "External branch of the superior laryngeal nerve",
+     "Internal branch of the superior laryngeal nerve",
+     "Left recurrent laryngeal nerve",
+     "Left ansa cervicalis"
+    ],
+    "answer": 2,
+    "sea": "A",
+    "comp": "EN-3",
+    "obj": "EN-3.3",
+    "dok": 2,
+    "approach": [
+     "Place the glands: four on the posterior thyroid lobes, with the inferior pair near the lower poles where the inferior thyroid artery enters.",
+     "The recurrent laryngeal nerve climbs in the tracheoesophageal groove right through this area.",
+     "Hoarseness with a fixed vocal fold means loss of the intrinsic laryngeal muscles, which the recurrent laryngeal nerve supplies."
+    ],
+    "why": "The superior parathyroid glands sit in a fairly constant spot on the posterior upper thyroid lobes near the cricothyroid junction. The inferior glands are more variable. They usually lie near the lower poles, close to the inferior thyroid artery and the recurrent laryngeal nerve, but they can be found anywhere along their descent path. Because the surgeon must search and dissect in this area, the nerve is at risk. The recurrent laryngeal nerve supplies every intrinsic laryngeal muscle except the cricothyroid, so injury leaves the vocal fold fixed and the voice hoarse.",
+    "whyNot": [
+     "The external branch of the superior laryngeal nerve runs with the superior thyroid artery near the upper pole and supplies the cricothyroid. Injury reduces pitch range but does not fix the vocal fold.",
+     "The internal branch of the superior laryngeal nerve carries sensation from the larynx above the vocal folds. Injury blunts the cough reflex but leaves the folds moving.",
+     "Correct.",
+     "The ansa cervicalis supplies the infrahyoid strap muscles. It has no role in moving the vocal folds."
+    ],
+    "study": {
+     "topics": [
+      "Location of the parathyroid glands",
+      "Recurrent laryngeal nerve relations"
+     ],
+     "comps": [
+      "EN-3",
+      "EN-1"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "EN-C32",
+  "system": "EN",
+  "dx": "DiGeorge syndrome with neonatal hypocalcemic tetany",
+  "codes": [
+   "EN-12-B3"
+  ],
+  "case": "A 4-day-old boy in the neonatal intensive care unit has repeated episodes of rhythmic jerking of the arms and legs. He was born at term after an uncomplicated pregnancy. Examination shows low-set ears, a short philtrum, and a harsh systolic murmur. Echocardiography shows truncus arteriosus. A chest x-ray shows no thymic shadow. Laboratory studies show serum total calcium 6.2 mg/dL (8.5 to 10.5), phosphate 10.1 mg/dL (4.5 to 9.0), magnesium 2.0 mg/dL (1.7 to 2.4), and intact PTH 3 pg/mL (10 to 65). Fluorescence in situ hybridization shows a deletion at chromosome 22q11.2. The diagnosis is DiGeorge syndrome with hypocalcemia from hypoparathyroidism.",
+  "questions": [
+   {
+    "id": "EN-C32-Q1",
+    "stem": "Which of the following findings in peripheral blood is most likely in this infant?",
+    "options": [
+     "Low B cell count with normal T cell count",
+     "Low T and B cell counts with absent adenosine deaminase",
+     "Normal lymphocyte counts with low serum IgA",
+     "Low T cell count with normal B cell count"
+    ],
+    "answer": 3,
+    "sea": "A",
+    "comp": "EN-1",
+    "obj": "EN-1.5",
+    "dok": 3,
+    "approach": [
+     "Link the findings: hypocalcemia from missing parathyroids, a conotruncal heart defect, facial changes, and no thymic shadow all point to the 22q11.2 deletion.",
+     "The thymus and inferior parathyroids come from the third pharyngeal pouch, and the superior parathyroids from the fourth.",
+     "With little or no thymus, T cells cannot mature, but B cells develop in the bone marrow and are unaffected."
+    ],
+    "why": "In the 22q11.2 deletion (TBX1 is a key gene in the deleted region), the third and fourth pharyngeal pouches and the neural crest cells that migrate into the pharyngeal arches develop poorly. The third pouch forms the thymus and inferior parathyroids, and the fourth forms the superior parathyroids. Loss of parathyroid tissue causes low PTH and hypocalcemic tetany in the first days of life. Thymic hypoplasia leaves T cell precursors from the marrow with nowhere to mature, so T cell counts are low while B cell counts stay normal. Antibody responses that need T cell help may still be weak.",
+    "whyNot": [
+     "Low B cells with normal T cells fits X-linked (Bruton) agammaglobulinemia, a BTK defect in B cell maturation. The thymus is normal in that disorder.",
+     "Loss of both T and B cells with absent adenosine deaminase is a form of severe combined immunodeficiency. It does not cause hypoparathyroidism or heart defects.",
+     "Selective IgA deficiency has normal lymphocyte counts. It is not linked to pharyngeal pouch defects.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "22q11.2 deletion syndrome",
+      "Thymus development and T cell maturation"
+     ],
+     "comps": [
+      "EN-1",
+      "EN-12-B3"
+     ]
+    }
+   },
+   {
+    "id": "EN-C32-Q2",
+    "stem": "Which of the following structures normally develops from the same pharyngeal pouch as the thymus?",
+    "options": [
+     "Inferior parathyroid glands",
+     "Superior parathyroid glands",
+     "Palatine tonsils",
+     "Parafollicular C cells"
+    ],
+    "answer": 0,
+    "sea": "A",
+    "comp": "EN-1",
+    "obj": "EN-1.2",
+    "dok": 2,
+    "approach": [
+     "Recall that the thymus comes from the third pharyngeal pouch.",
+     "The third pouch has a dorsal part that becomes the inferior parathyroids and a ventral part that becomes the thymus.",
+     "As the thymus descends into the chest, it pulls these glands down with it, so they end up below the glands from the fourth pouch."
+    ],
+    "why": "Each pharyngeal pouch is lined by endoderm. The second pouch forms the lining of the palatine tonsil. The third pouch forms the thymus and the inferior parathyroid glands, and the fourth pouch forms the superior parathyroid glands. The ultimobranchial body, near the fourth pouch, is invaded by neural crest cells that become parafollicular C cells. Because third pouch derivatives migrate farther, the inferior parathyroids end up lower than the superior ones and may stop anywhere along the thymic path, including the anterior mediastinum within or near the thymus.",
+    "whyNot": [
+     "Correct.",
+     "The superior parathyroid glands come from the fourth pouch. Their shorter migration explains their more constant position.",
+     "The palatine tonsils develop from the second pharyngeal pouch.",
+     "Parafollicular C cells come from neural crest cells that enter the ultimobranchial body, near the fourth pouch. They make calcitonin, not PTH."
+    ],
+    "study": {
+     "topics": [
+      "Pharyngeal pouch derivatives",
+      "Ectopic parathyroid glands"
+     ],
+     "comps": [
+      "EN-1",
+      "EN-3"
+     ]
+    }
+   },
+   {
+    "id": "EN-C32-Q3",
+    "stem": "An electrocardiogram is obtained. Which of the following findings is most likely?",
+    "options": [
+     "Peaked T waves",
+     "Shortened QT interval",
+     "Prolonged QT interval",
+     "Prominent U waves"
+    ],
+    "answer": 2,
+    "sea": "X",
+    "comp": "EN-12-B3",
+    "obj": "EN-12-B.6",
+    "dok": 2,
+    "approach": [
+     "Identify the electrolyte problem: very low calcium, high phosphate, and low PTH.",
+     "Low extracellular calcium lengthens the plateau (phase 2) of the ventricular action potential.",
+     "A longer plateau lengthens the ST segment, so the QT interval is prolonged."
+    ],
+    "why": "Without PTH, there is less bone resorption, less distal tubule calcium reabsorption, less calcitriol, and less phosphate excretion, so calcium falls and phosphate rises. Low ionized calcium makes nerves and muscle more excitable, causing tetany, seizures, perioral numbness, and Chvostek and Trousseau signs. In the heart, low extracellular calcium lengthens the plateau of the ventricular action potential. On the ECG this shows as a long ST segment and a prolonged QT interval, which raises the risk of torsades de pointes.",
+    "whyNot": [
+     "Peaked T waves are an early sign of hyperkalemia.",
+     "A short QT interval is seen with hypercalcemia, the opposite problem.",
+     "Correct.",
+     "Prominent U waves point to hypokalemia. His abnormality is in calcium."
+    ],
+    "study": {
+     "topics": [
+      "ECG changes in calcium and potassium disorders",
+      "Signs of hypocalcemia"
+     ],
+     "comps": [
+      "EN-12-B3",
+      "EN-5"
+     ]
+    }
+   },
+   {
+    "id": "EN-C32-Q4",
+    "stem": "In a healthy newborn, a fall in serum ionized calcium increases PTH secretion within minutes. Which of the following mechanisms produces this response?",
+    "options": [
+     "Reduced calcitonin release from thyroid parafollicular cells",
+     "Reduced calcium-sensing receptor activation on chief cells",
+     "Increased renal production of 1,25-dihydroxyvitamin D",
+     "Opening of voltage-gated calcium channels in the chief cells"
+    ],
+    "answer": 1,
+    "sea": "P",
+    "comp": "EN-5",
+    "obj": "EN-5.3",
+    "dok": 2,
+    "approach": [
+     "PTH secretion is controlled minute to minute by ionized calcium itself.",
+     "Chief cells carry the calcium-sensing receptor, a G protein-coupled receptor that suppresses PTH release when calcium binds it.",
+     "When calcium falls, the receptor is less active, so the brake on PTH secretion lifts. In chief cells, low calcium, not high calcium, triggers secretion."
+    ],
+    "why": "The calcium-sensing receptor on parathyroid chief cells is a G protein-coupled receptor. When ionized calcium is high, it activates the receptor, which suppresses PTH release and PTH gene expression. When calcium falls, receptor activity drops and stored PTH is released within minutes. PTH then raises calcium by increasing bone resorption, distal tubule calcium reabsorption, and renal 1-alpha-hydroxylase activity, and it increases phosphate excretion in the proximal tubule. Calcitonin from C cells has the opposite, weaker effect. This infant lacks parathyroid tissue, so the signal has no gland to act on.",
+    "whyNot": [
+     "Calcitonin from C cells lowers calcium by inhibiting osteoclasts. It does not control PTH release.",
+     "Correct.",
+     "Calcitriol is made in response to PTH, over hours, and it suppresses PTH gene expression. It is a downstream effect, not the trigger.",
+     "In most secretory cells, calcium entry triggers release, but chief cells work the other way: higher calcium suppresses PTH. Calcium entry cannot explain secretion that is triggered by falling calcium."
+    ],
+    "study": {
+     "topics": [
+      "Calcium-sensing receptor",
+      "Calcium homeostasis"
+     ],
+     "comps": [
+      "EN-5",
+      "EN-6"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "EN-C33",
+  "system": "EN",
+  "dx": "Pseudohypoparathyroidism type 1a",
+  "codes": [
+   "EN-12-B3"
+  ],
+  "case": "A 9-year-old girl is brought to the physician because of muscle cramps and tingling around her mouth for 2 months. She is at the 3rd percentile for height and above the 95th percentile for weight. Examination shows a round face and short fourth and fifth fingers; when she makes a fist, the fourth and fifth knuckles are not visible. Firm subcutaneous nodules on both forearms are ossified on x-ray. Tapping over the facial nerve causes twitching of the upper lip. Laboratory studies show serum calcium 7.1 mg/dL (8.5 to 10.5), phosphate 7.0 mg/dL (4.0 to 5.6), albumin 4.2 g/dL (3.5 to 5.0), magnesium 2.0 mg/dL (1.7 to 2.2), and creatinine 0.5 mg/dL (0.3 to 0.7). Genetic testing shows an inactivating GNAS mutation on the maternally inherited allele. The diagnosis is pseudohypoparathyroidism type 1a.",
+  "questions": [
+   {
+    "id": "EN-C33-Q1",
+    "stem": "Which of the following additional laboratory findings would best distinguish this patient's condition from hypoparathyroidism caused by parathyroid gland failure?",
+    "options": [
+     "Elevated serum PTH concentration",
+     "Low serum 1,25-dihydroxyvitamin D concentration",
+     "Low serum ionized calcium concentration",
+     "Low urinary phosphate excretion"
+    ],
+    "answer": 0,
+    "sea": "X",
+    "comp": "EN-12-B3",
+    "obj": "EN-12-B.7",
+    "dok": 2,
+    "approach": [
+     "List what both disorders share: low calcium, high phosphate, low calcitriol, and reduced phosphate excretion, because PTH action is missing in both.",
+     "The difference is where the problem lies. In gland failure, PTH is low. In pseudohypoparathyroidism, the glands are normal and the target tissues do not respond.",
+     "With end-organ resistance, low calcium keeps stimulating the glands, so PTH is high."
+    ],
+    "why": "Pseudohypoparathyroidism type 1a is end-organ resistance to PTH caused by an inactivating mutation in GNAS, the gene for the Gs alpha subunit. Kidney cells cannot raise cAMP in response to PTH, so the chemistry looks like hypoparathyroidism. The parathyroid glands sense the low calcium and secrete more PTH, so serum PTH is high. In true hypoparathyroidism (surgical, autoimmune, DiGeorge syndrome, or severe hypomagnesemia), PTH is low or inappropriately normal. Albright hereditary osteodystrophy (short stature, round face, obesity, short fourth and fifth metacarpals, subcutaneous ossification) also points to type 1a.",
+    "whyNot": [
+     "Correct.",
+     "Calcitriol is low in both, because PTH cannot stimulate renal 1-alpha-hydroxylase in either one.",
+     "Low ionized calcium is present in both disorders and cannot separate them.",
+     "Phosphate excretion is low in both, since PTH-driven phosphate excretion is missing in both."
+    ],
+    "study": {
+     "topics": [
+      "Pseudohypoparathyroidism",
+      "Albright hereditary osteodystrophy"
+     ],
+     "comps": [
+      "EN-12-B3",
+      "EN-9"
+     ]
+    }
+   },
+   {
+    "id": "EN-C33-Q2",
+    "stem": "Testing of other endocrine axes is planned. This patient is most likely to show end-organ resistance to which of the following hormones?",
+    "options": [
+     "Growth hormone",
+     "Insulin",
+     "Thyrotropin",
+     "Aldosterone"
+    ],
+    "answer": 2,
+    "sea": "P",
+    "comp": "EN-6",
+    "obj": "EN-6.1",
+    "dok": 2,
+    "approach": [
+     "The mutated gene, GNAS, encodes the Gs alpha subunit, so hormones that signal through Gs and cAMP are affected.",
+     "Sort the options by pathway: TSH uses Gs, insulin uses a receptor tyrosine kinase, growth hormone uses JAK/STAT, and aldosterone uses an intracellular receptor.",
+     "Only TSH depends on Gs, so it is the hormone most likely to show resistance."
+    ],
+    "why": "Hormones that signal through Gs and cAMP include ACTH, TSH, LH, FSH, PTH, and glucagon. In pseudohypoparathyroidism type 1a, Gs alpha activity is reduced most in tissues that mainly express the maternal GNAS allele, such as the renal proximal tubule, thyroid, gonads, and pituitary. Children with type 1a therefore often have mild TSH resistance (high TSH with low or normal T4) and may also show resistance to gonadotropins and GHRH. Hormones that use other pathways, such as receptor tyrosine kinases, JAK/STAT, or intracellular receptors, are unaffected.",
+    "whyNot": [
+     "Growth hormone signals through JAK2 and STAT proteins, not Gs. Short stature in this condition comes from early growth plate closure and GHRH resistance.",
+     "Insulin acts through an intrinsic tyrosine kinase receptor and is unaffected by loss of Gs alpha. Her obesity is part of the GNAS phenotype.",
+     "Correct.",
+     "Aldosterone is a steroid that binds an intracellular mineralocorticoid receptor acting on DNA. It does not use cAMP."
+    ],
+    "study": {
+     "topics": [
+      "Hormone signaling pathways",
+      "Gs protein and cAMP"
+     ],
+     "comps": [
+      "EN-6",
+      "EN-12-B3"
+     ]
+    }
+   },
+   {
+    "id": "EN-C33-Q3",
+    "stem": "Her serum 25-hydroxyvitamin D concentration is normal, but her 1,25-dihydroxyvitamin D concentration is low. Which of the following best explains this pattern?",
+    "options": [
+     "Reduced UVB conversion of 7-dehydrocholesterol in the skin",
+     "Failed PTH stimulation of renal 1-alpha-hydroxylase",
+     "Deficient hepatic 25-hydroxylation of cholecalciferol",
+     "Loss of functioning nephrons from chronic kidney disease"
+    ],
+    "answer": 1,
+    "sea": "B",
+    "comp": "EN-7",
+    "obj": "EN-7.4",
+    "dok": 2,
+    "approach": [
+     "A normal 25-hydroxyvitamin D shows that the skin and liver steps are working.",
+     "The block is at the last step, renal 1-alpha-hydroxylation in the proximal tubule.",
+     "That enzyme is induced by PTH through Gs and cAMP. With Gs alpha loss in the proximal tubule, the PTH signal fails, and her high phosphate suppresses the enzyme further."
+    ],
+    "why": "Vitamin D3 forms in skin when UVB converts 7-dehydrocholesterol, the liver adds a 25-hydroxyl group, and proximal tubule cells add the 1-alpha hydroxyl group to make calcitriol. PTH and low phosphate stimulate 1-alpha-hydroxylase, while high phosphate, FGF23, and calcitriol itself suppress it. In this patient, PTH cannot raise cAMP in the proximal tubule, so the enzyme is not induced despite high PTH. Her normal creatinine shows that nephron mass is intact, so the problem is signaling rather than lost kidney tissue.",
+    "whyNot": [
+     "Poor sun exposure lowers 25-hydroxyvitamin D, the storage form. Her 25-hydroxyvitamin D is normal.",
+     "Correct.",
+     "Liver failure would lower 25-hydroxyvitamin D. A normal level shows that hepatic 25-hydroxylation is working.",
+     "CKD lowers calcitriol by destroying proximal tubule mass, but her creatinine is normal for her age."
+    ],
+    "study": {
+     "topics": [
+      "Vitamin D activation",
+      "Regulation of 1-alpha-hydroxylase"
+     ],
+     "comps": [
+      "EN-7",
+      "EN-5"
+     ]
+    }
+   },
+   {
+    "id": "EN-C33-Q4",
+    "stem": "If a parathyroid gland from this patient were examined microscopically, which of the following findings would be most likely?",
+    "options": [
+     "Atrophy of chief cells with fatty replacement",
+     "Lymphocytic infiltration with loss of chief cells",
+     "Oxyphil cell adenoma with a rim of normal gland",
+     "Diffuse hyperplasia of chief cells"
+    ],
+    "answer": 3,
+    "sea": "A",
+    "comp": "EN-2",
+    "obj": "EN-2.4",
+    "dok": 2,
+    "approach": [
+     "Chief cells are the PTH-secreting cells of the parathyroid. Oxyphil cells are larger, mitochondria-rich cells with no clear secretory role.",
+     "Here the glands themselves are normal but are constantly stimulated by low calcium.",
+     "Chronic stimulation of an endocrine gland causes hyperplasia of the responding cells, so chief cells increase in number."
+    ],
+    "why": "The parathyroid gland has two main cell types. Chief cells are small, numerous cells with central nuclei and pale to clear cytoplasm, and they secrete PTH. Oxyphil cells are larger, with granular eosinophilic cytoplasm packed with mitochondria; they become more common with age, and their role is unclear. In pseudohypoparathyroidism, low calcium stimulates the glands continuously, as in secondary hyperparathyroidism from vitamin D deficiency or CKD. The result is diffuse chief cell hyperplasia with high PTH output.",
+    "whyNot": [
+     "Atrophy follows long suppression of PTH, as with chronic high calcium. Her glands are being stimulated, not suppressed.",
+     "Lymphocytic destruction of chief cells is the picture of autoimmune hypoparathyroidism, which causes low PTH.",
+     "An adenoma is a clonal tumor that causes primary hyperparathyroidism with high calcium. Her calcium is low.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Parathyroid histology",
+      "Parathyroid hyperplasia"
+     ],
+     "comps": [
+      "EN-2",
+      "EN-12-B3"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "EN-C34",
+  "system": "EN",
+  "dx": "Hypocalcemia from hypomagnesemia in alcohol use disorder",
+  "codes": [
+   "EN-12-B3"
+  ],
+  "case": "A 52-year-old man with alcohol use disorder is brought to the emergency department because of muscle cramps and painful spasms of his hands for 2 days. He drinks about 12 beers daily and has had chronic diarrhea with greasy stools for 1 year. Temperature is 36.8 °C (98.2 °F), pulse is 96/min, respirations are 16/min, and blood pressure is 128/82 mm Hg. Tapping anterior to the ear causes twitching of the upper lip. Laboratory studies show serum calcium 6.9 mg/dL (8.5 to 10.5), albumin 3.8 g/dL (3.5 to 5.0), magnesium 0.7 mg/dL (1.7 to 2.2), phosphate 2.9 mg/dL (2.5 to 4.5), and intact PTH 14 pg/mL (10 to 65). CT of the abdomen shows pancreatic calcifications. He receives intravenous calcium gluconate, but his calcium falls again within hours. The diagnosis is hypocalcemia due to hypomagnesemia.",
+  "questions": [
+   {
+    "id": "EN-C34-Q1",
+    "stem": "Which of the following best explains why intravenous calcium alone did not correct this patient's hypocalcemia?",
+    "options": [
+     "Excess renal calcium loss driven by high PTH",
+     "Calcium deposition in the calcified pancreas",
+     "Impaired PTH release caused by magnesium deficiency",
+     "Calcitonin release triggered by the calcium infusion"
+    ],
+    "answer": 2,
+    "sea": "B",
+    "comp": "EN-7",
+    "obj": "EN-7.5",
+    "dok": 3,
+    "approach": [
+     "Notice the mismatch: severe hypocalcemia with a PTH in the low-normal range. Healthy glands would push PTH far above the range.",
+     "The other striking value is a very low magnesium, from poor intake, alcohol-induced urinary loss, and malabsorption.",
+     "Severe magnesium deficiency blunts PTH release and makes bone and kidney resistant to PTH, so calcium will not hold until magnesium is replaced."
+    ],
+    "why": "Magnesium is needed both for normal PTH secretion and for PTH action on its targets. When magnesium is very low, chief cells release too little PTH despite hypocalcemia, and kidney and bone respond poorly to the PTH that is present. Intravenous calcium raises serum calcium briefly, but without an adequate PTH response the level falls again. Once magnesium is replaced, PTH secretion rises quickly and end-organ response recovers over several days, so calcium corrects. Alcohol use disorder causes hypomagnesemia through poor intake, increased urinary loss, diarrhea, and fat malabsorption.",
+    "whyNot": [
+     "His PTH is low-normal, not high, and PTH actually reduces urinary calcium loss.",
+     "Chronic calcific pancreatitis does not take up large amounts of calcium from the blood. Calcium binding by fat necrosis lowers calcium mainly in acute pancreatitis.",
+     "Correct.",
+     "Calcitonin has only a small, short-lived effect on serum calcium in adults and cannot explain persistent hypocalcemia."
+    ],
+    "study": {
+     "topics": [
+      "Magnesium and PTH",
+      "Causes of hypocalcemia"
+     ],
+     "comps": [
+      "EN-7",
+      "EN-12-B3"
+     ]
+    }
+   },
+   {
+    "id": "EN-C34-Q2",
+    "stem": "When a blood pressure cuff on his arm is inflated above systolic pressure for 3 minutes, his wrist and fingers flex and his thumb adducts. Which of the following best explains this response?",
+    "options": [
+     "Decreased acetylcholine release at the neuromuscular junction",
+     "Lower depolarization threshold of peripheral nerve axons",
+     "Increased calcium release from the muscle sarcoplasmic reticulum",
+     "Reduced sodium channel activity in motor neuron membranes"
+    ],
+    "answer": 1,
+    "sea": "X",
+    "comp": "EN-12-B3",
+    "obj": "EN-12-B.6",
+    "dok": 2,
+    "approach": [
+     "Recognize Trousseau sign: carpal spasm when arm ischemia is added to low calcium.",
+     "Extracellular calcium normally stabilizes nerve membranes by making voltage-gated sodium channels harder to open.",
+     "When ionized calcium falls, sodium channels open closer to the resting potential, so axons fire on their own and the muscles contract."
+    ],
+    "why": "Low ionized calcium raises nerve excitability. Calcium ions at the outer surface of the membrane normally make it harder for voltage-gated sodium channels to open. With less calcium, the firing threshold moves closer to the resting potential, so peripheral nerves fire spontaneously or with very little stimulus. This causes paresthesias, perioral numbness, Chvostek sign (facial twitching when the facial nerve is tapped), and Trousseau sign (carpal spasm with cuff ischemia). Hypoparathyroidism from any cause, including severe hypomagnesemia, produces these signs along with QT prolongation.",
+    "whyNot": [
+     "Low calcium does reduce acetylcholine release at the junction, but that would weaken contraction rather than cause spasm.",
+     "Correct.",
+     "Sarcoplasmic reticulum calcium release is triggered by the muscle action potential. Low serum calcium does not increase it directly.",
+     "Low calcium makes sodium channels easier to open, which increases activity. Reduced sodium channel activity would lower excitability."
+    ],
+    "study": {
+     "topics": [
+      "Trousseau and Chvostek signs",
+      "Calcium and nerve excitability"
+     ],
+     "comps": [
+      "EN-12-B3",
+      "EN-5"
+     ]
+    }
+   },
+   {
+    "id": "EN-C34-Q3",
+    "stem": "Severe magnesium deficiency also makes renal tubule cells resistant to PTH. Binding of PTH to its renal receptor normally triggers which of the following signaling steps?",
+    "options": [
+     "Autophosphorylation of receptor tyrosine residues",
+     "Phosphorylation of STAT proteins by JAK kinases",
+     "Binding of the hormone-receptor complex to DNA",
+     "Gs activation of adenylyl cyclase to form cAMP"
+    ],
+    "answer": 3,
+    "sea": "P",
+    "comp": "EN-6",
+    "obj": "EN-6.1",
+    "dok": 2,
+    "approach": [
+     "PTH is a peptide hormone, so it acts at a cell-surface receptor.",
+     "Its receptor, PTH1R, is a G protein-coupled receptor that signals mainly through Gs, adenylyl cyclase, cAMP, and protein kinase A.",
+     "Adenylyl cyclase uses magnesium-bound ATP, and magnesium is also needed for G protein function, which helps explain why low magnesium blunts PTH action."
+    ],
+    "why": "Hormones that work through Gs and cAMP include PTH, ACTH, TSH, LH, FSH, and glucagon. When PTH binds PTH1R on renal tubule cells, Gs activates adenylyl cyclase, cAMP rises, and protein kinase A changes transporter activity. Phosphate reabsorption in the proximal tubule falls, calcium reabsorption in the distal tubule rises, and 1-alpha-hydroxylase is induced. Magnesium is a cofactor for adenylyl cyclase, so severe deficiency weakens this response.",
+    "whyNot": [
+     "Receptor tyrosine kinase autophosphorylation is how insulin and IGF-1 signal.",
+     "JAK/STAT signaling is used by growth hormone and prolactin.",
+     "Steroid and thyroid hormones bind intracellular receptors that act on DNA. PTH is a peptide and does not cross the membrane.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Hormone signaling pathways",
+      "PTH receptor signaling"
+     ],
+     "comps": [
+      "EN-6",
+      "EN-5"
+     ]
+    }
+   },
+   {
+    "id": "EN-C34-Q4",
+    "stem": "Five years later, he develops diabetes mellitus from progressive chronic pancreatitis. After starting insulin, he has frequent episodes of severe hypoglycemia. Loss of which of the following islet cell types, along with beta cells, best explains this tendency?",
+    "options": [
+     "Alpha cells",
+     "Delta cells",
+     "PP cells",
+     "Epsilon cells"
+    ],
+    "answer": 0,
+    "sea": "A",
+    "comp": "EN-2",
+    "obj": "EN-2.4",
+    "dok": 2,
+    "approach": [
+     "Diabetes from chronic pancreatitis comes from destruction of whole islets, not only beta cells.",
+     "The islet hormone that protects against hypoglycemia is glucagon, which drives hepatic glycogenolysis and gluconeogenesis.",
+     "Glucagon comes from alpha cells, so losing them removes the main fast defense against insulin-induced hypoglycemia."
+    ],
+    "why": "Islets contain beta cells (insulin, the majority), alpha cells (glucagon), delta cells (somatostatin), and small numbers of PP and epsilon cells. In type 1 diabetes, the immune attack targets beta cells and alpha cells survive. In chronic pancreatitis, fibrosis destroys islets as a whole, so alpha cells are lost as well. Without glucagon, the liver responds poorly when glucose falls, so insulin therapy more easily causes severe hypoglycemia. Ongoing alcohol use and poor food intake add to the risk.",
+    "whyNot": [
+     "Correct.",
+     "Delta cells secrete somatostatin, which inhibits both insulin and glucagon release. Losing them would not weaken the defense against hypoglycemia.",
+     "PP cells secrete pancreatic polypeptide, which affects pancreatic exocrine secretion and appetite. It has no major role in raising glucose.",
+     "Epsilon cells secrete ghrelin and are very few in adult islets. Their loss does not explain severe hypoglycemia."
+    ],
+    "study": {
+     "topics": [
+      "Islet cell types and hormones",
+      "Diabetes from pancreatic disease"
+     ],
+     "comps": [
+      "EN-2",
+      "EN-12-D1"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "EN-C35",
+  "system": "EN",
+  "dx": "Diabetic ketoacidosis in new-onset type 1 diabetes",
+  "codes": [
+   "EN-12-D1"
+  ],
+  "case": "A 14-year-old girl is brought to the emergency department because of vomiting and abdominal pain for 1 day. Over the past 3 weeks, she has had increased thirst, frequent urination, and a 4-kg weight loss. Temperature is 37.1 °C (98.8 °F), pulse is 122/min, respirations are 30/min and deep, and blood pressure is 98/62 mm Hg. Her mucous membranes are dry, and her breath has a fruity odor. Laboratory studies show glucose 512 mg/dL (70 to 99), Na+ 131 mEq/L (135 to 145), K+ 5.9 mEq/L (3.5 to 5.0), Cl- 95 mEq/L (98 to 106), HCO3- 8 mEq/L (22 to 28), and beta-hydroxybutyrate 6.4 mmol/L (less than 0.6). Arterial pH is 7.11 (7.35 to 7.45). The diagnosis is diabetic ketoacidosis from new-onset type 1 diabetes.",
+  "questions": [
+   {
+    "id": "EN-C35-Q1",
+    "stem": "Her total body potassium is most likely depleted. Which of the following best explains her elevated serum potassium concentration?",
+    "options": [
+     "Reduced renal potassium excretion from volume depletion",
+     "Shift of potassium out of cells from insulin deficiency",
+     "Potassium release from hemolysis of red blood cells",
+     "Hyporeninemic hypoaldosteronism from kidney damage"
+    ],
+    "answer": 1,
+    "sea": "X",
+    "comp": "EN-12-D1",
+    "obj": "EN-12-D.3",
+    "dok": 3,
+    "approach": [
+     "Separate the serum level from body stores: vomiting and osmotic diuresis have drained her potassium, yet the serum value is high.",
+     "Insulin normally drives potassium into cells by stimulating the Na+/K+-ATPase. Without insulin, potassium stays outside cells.",
+     "High plasma osmolality also pulls water out of cells, and potassium follows. Once insulin is given, serum potassium will fall quickly."
+    ],
+    "why": "In DKA, total body potassium is low because of urinary loss from osmotic diuresis and secondary hyperaldosteronism, plus vomiting. Serum potassium is often normal or high because insulin deficiency removes the main stimulus for cellular potassium uptake through the Na+/K+-ATPase, and hyperosmolality moves water and potassium out of cells. Acidosis may add to the shift. The anion gap here is 28 mEq/L (8 to 12) from keto acids. Hyperosmolar hyperglycemic state differs: some insulin remains, ketosis is minimal, glucose and osmolality are usually much higher, and altered mental status dominates.",
+    "whyNot": [
+     "Osmotic diuresis increases urinary potassium loss in DKA, which is why total body potassium falls. The kidneys are not retaining potassium here.",
+     "Correct.",
+     "Hemolysis in a damaged sample can falsely raise potassium, but nothing here suggests it, and the high value is expected in DKA.",
+     "Hyporeninemic hypoaldosteronism occurs with long-standing diabetic kidney disease in older adults. She has new-onset diabetes and is volume depleted, which raises renin and aldosterone."
+    ],
+    "study": {
+     "topics": [
+      "Potassium in diabetic ketoacidosis",
+      "DKA versus hyperosmolar hyperglycemic state"
+     ],
+     "comps": [
+      "EN-12-D1",
+      "EN-7"
+     ]
+    }
+   },
+   {
+    "id": "EN-C35-Q2",
+    "stem": "Which of the following hepatic changes most directly allows the fatty acids released from her adipose tissue to be converted into the ketone bodies measured in her serum?",
+    "options": [
+     "Increased hepatic malonyl-CoA stimulating fatty acid synthesis",
+     "Inhibition of hormone-sensitive lipase in adipose tissue",
+     "Increased oxaloacetate drawing acetyl-CoA into the citric acid cycle",
+     "Relief of carnitine palmitoyltransferase I inhibition"
+    ],
+    "answer": 3,
+    "sea": "B",
+    "comp": "EN-7",
+    "obj": "EN-7.2",
+    "dok": 3,
+    "approach": [
+     "Without insulin and with high glucagon, adipose lipolysis floods the liver with fatty acids.",
+     "To be oxidized, long-chain fatty acids must enter mitochondria through carnitine palmitoyltransferase I (CPT-1), which malonyl-CoA normally inhibits.",
+     "Glucagon inactivates acetyl-CoA carboxylase, so malonyl-CoA falls and CPT-1 opens. Beta-oxidation then makes more acetyl-CoA than the citric acid cycle can use, and the excess becomes ketone bodies."
+    ],
+    "why": "Insulin deficiency with glucagon excess activates hormone-sensitive lipase and releases free fatty acids. In the liver, glucagon lowers malonyl-CoA by inhibiting acetyl-CoA carboxylase, which removes the brake on CPT-1 and speeds fatty acid entry into mitochondria. Beta-oxidation produces large amounts of acetyl-CoA, while oxaloacetate is diverted into gluconeogenesis. The excess acetyl-CoA is converted through HMG-CoA to acetoacetate, which is reduced to beta-hydroxybutyrate. These keto acids consume bicarbonate and raise the anion gap.",
+    "whyNot": [
+     "Malonyl-CoA rises in the fed, insulin-rich state and blocks fatty acid oxidation. In DKA it falls.",
+     "Hormone-sensitive lipase is activated, not inhibited, when insulin is absent. Its activity supplies the fatty acids for ketogenesis.",
+     "Oxaloacetate is drawn off for gluconeogenesis in DKA. Low oxaloacetate is one reason acetyl-CoA is diverted into ketone bodies.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Ketone body synthesis",
+      "Regulation of fatty acid oxidation"
+     ],
+     "comps": [
+      "EN-7",
+      "EN-12-D1"
+     ]
+    }
+   },
+   {
+    "id": "EN-C35-Q3",
+    "stem": "Serum antibodies against glutamic acid decarboxylase (GAD65) and insulin are present. Which of the following is mainly responsible for the loss of her beta cells?",
+    "options": [
+     "Cytotoxic CD8+ T cell killing of beta cells",
+     "Complement lysis directed by GAD65 antibodies",
+     "Amyloid deposition derived from islet amylin",
+     "Fibrosis of islets from recurrent pancreatitis"
+    ],
+    "answer": 0,
+    "sea": "M",
+    "comp": "EN-10",
+    "obj": "EN-10.3",
+    "dok": 2,
+    "approach": [
+     "Antibodies to GAD65, insulin, IA-2, and ZnT8 confirm autoimmune diabetes, but they mark the disease rather than cause it.",
+     "GAD65 and the other target antigens are inside the cell, out of reach of antibodies in living cells.",
+     "The damage is done by T cells. Islets show insulitis, and CD8+ cytotoxic T cells kill beta cells with help from CD4+ T cells and macrophages."
+    ],
+    "why": "Type 1 diabetes is a T cell-mediated autoimmune disease linked to HLA-DR3 and DR4. Autoreactive CD4+ T cells recognize beta cell antigens and help CD8+ T cells, which kill beta cells directly through perforin, granzymes, and Fas ligand. The islets show a lymphocytic infiltrate called insulitis. Autoantibodies to GAD65, insulin, IA-2, and ZnT8 appear months to years before symptoms and are used to confirm the diagnosis and estimate risk. Latent autoimmune diabetes in adults (LADA, sometimes called type 1.5) has the same antibodies but a slower course that can be mistaken for type 2 diabetes.",
+    "whyNot": [
+     "Correct.",
+     "GAD65 is an intracellular enzyme, so antibodies to it are markers of the immune attack rather than its cause.",
+     "Islet amyloid derived from amylin is a feature of type 2 diabetes.",
+     "Islet loss from fibrosis occurs in chronic pancreatitis, usually in adults with repeated pancreatic injury such as from alcohol."
+    ],
+    "study": {
+     "topics": [
+      "Immunopathogenesis of type 1 diabetes",
+      "Diabetes autoantibodies and LADA"
+     ],
+     "comps": [
+      "EN-10",
+      "EN-12-D1"
+     ]
+    }
+   },
+   {
+    "id": "EN-C35-Q4",
+    "stem": "Compared with an adult who has type 2 diabetes and similar hyperglycemia, which of the following best explains why this patient developed ketoacidosis?",
+    "options": [
+     "Peripheral insulin resistance in skeletal muscle",
+     "Amyloid deposition within pancreatic islets",
+     "Lack of residual insulin to restrain lipolysis",
+     "Excess hepatic extraction of portal insulin"
+    ],
+    "answer": 2,
+    "sea": "X",
+    "comp": "EN-12-D1",
+    "obj": "EN-12-D.1",
+    "dok": 3,
+    "approach": [
+     "Small amounts of insulin strongly suppress adipose lipolysis and hepatic ketogenesis, so ketoacidosis needs a very low insulin level.",
+     "In type 2 diabetes, beta cells still release insulin, often in large amounts, so ketosis is usually prevented even when glucose is high.",
+     "In type 1 diabetes, autoimmune destruction leaves almost no insulin, so lipolysis and ketogenesis run unchecked."
+    ],
+    "why": "Type 1 diabetes is autoimmune beta cell loss that leads to absolute insulin deficiency. It usually starts in childhood or young adulthood and is prone to ketoacidosis. Type 2 diabetes combines insulin resistance with progressive beta cell dysfunction and islet amyloid, and it is linked to obesity and family history. Adipose lipolysis is suppressed by much lower insulin levels than are needed to drive glucose uptake into muscle, so the residual insulin in type 2 diabetes usually holds ketone production down. Severe decompensation in type 2 diabetes more often takes the form of hyperosmolar hyperglycemic state.",
+    "whyNot": [
+     "Insulin resistance in muscle raises glucose but does not drive ketosis, because the insulin that is present still restrains lipolysis. It is the main defect in type 2 diabetes.",
+     "Islet amyloid is a feature of type 2 diabetes, which is less prone to ketoacidosis.",
+     "Correct.",
+     "The liver normally removes a large share of portal insulin on its first pass in everyone. This does not set type 1 diabetes apart."
+    ],
+    "study": {
+     "topics": [
+      "Type 1 versus type 2 diabetes",
+      "Why ketoacidosis occurs in type 1 diabetes"
+     ],
+     "comps": [
+      "EN-12-D1",
+      "EN-7"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "EN-C36",
+  "system": "EN",
+  "dx": "Type 2 diabetes with metabolic syndrome",
+  "codes": [
+   "EN-12-D1"
+  ],
+  "case": "A 47-year-old man comes to the physician for a health maintenance examination. He has no symptoms. His father and his identical twin brother have type 2 diabetes. He is 178 cm tall and weighs 112 kg; BMI is 35 kg/m2, and waist circumference is 118 cm. Temperature is 36.8 °C (98.2 °F), pulse is 78/min, respirations are 14/min, and blood pressure is 142/90 mm Hg. Examination shows hyperpigmented, velvety plaques on the back of the neck and in both axillae. Fasting laboratory studies show glucose 141 mg/dL (70 to 99), hemoglobin A1c 7.2% (4.0 to 5.6), triglycerides 262 mg/dL (less than 150), and HDL cholesterol 33 mg/dL (40 or greater). A repeat fasting glucose 2 weeks later is 137 mg/dL. The diagnosis is type 2 diabetes mellitus with metabolic syndrome.",
+  "questions": [
+   {
+    "id": "EN-C36-Q1",
+    "stem": "Which of the following best explains the skin lesions on his neck and axillae?",
+    "options": [
+     "Excess ACTH stimulating melanocortin receptors on melanocytes",
+     "Deposition of advanced glycation end products in dermis",
+     "Superficial Malassezia infection of the stratum corneum",
+     "Insulin acting on keratinocyte IGF-1 receptors"
+    ],
+    "answer": 3,
+    "sea": "X",
+    "comp": "EN-12-D1",
+    "obj": "EN-12-D.6",
+    "dok": 2,
+    "approach": [
+     "Recognize the lesion: velvety, hyperpigmented plaques in skin folds are acanthosis nigricans.",
+     "In this setting it signals insulin resistance with compensatory hyperinsulinemia.",
+     "At high levels, insulin also binds IGF-1 receptors on keratinocytes and dermal fibroblasts and drives their growth, thickening the skin."
+    ],
+    "why": "Acanthosis nigricans is thickened, papillomatous, hyperkeratotic skin in flexural areas such as the neck and axillae. The dark color comes mainly from the thickened keratin layer rather than extra melanin. Insulin resistance makes beta cells secrete more insulin, and at high levels insulin stimulates IGF-1 receptors in the skin. It is a skin sign of the same insulin resistance that drives metabolic syndrome. Any three of five criteria define the syndrome: a large waist (over 102 cm in men), triglycerides of 150 mg/dL or more, HDL below 40 mg/dL in men, blood pressure of 130/85 mm Hg or more, and fasting glucose of 100 mg/dL or more. This man meets all five.",
+    "whyNot": [
+     "Excess ACTH darkens skin diffusely, especially palmar creases and mucosa, as in Addison disease. It does not cause thick velvety plaques.",
+     "Glycation end products stiffen collagen and vessel walls in long-standing diabetes. They do not cause thickened pigmented plaques in skin folds.",
+     "Malassezia causes tinea versicolor, with flat, finely scaling patches of altered color on the trunk. The skin is not thick or velvety.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Acanthosis nigricans",
+      "Metabolic syndrome criteria"
+     ],
+     "comps": [
+      "EN-12-D1",
+      "EN-7"
+     ]
+    }
+   },
+   {
+    "id": "EN-C36-Q2",
+    "stem": "Which of the following best describes the pattern of appetite-regulating hormones most likely contributing to his obesity?",
+    "options": [
+     "High leptin with reduced hypothalamic response",
+     "Low leptin from deficient adipocyte secretion",
+     "High fasting ghrelin secreted by the gastric fundus",
+     "Increased leptin signaling at arcuate neurons"
+    ],
+    "answer": 0,
+    "sea": "B",
+    "comp": "EN-7",
+    "obj": "EN-7.6",
+    "dok": 2,
+    "approach": [
+     "Adipocytes release leptin in proportion to fat mass, so a man with a BMI of 35 has a high leptin level.",
+     "If leptin worked normally, that level would suppress appetite through the arcuate nucleus.",
+     "Continued weight gain despite high leptin means the hypothalamus is resistant to it."
+    ],
+    "why": "Leptin from adipocytes acts on the arcuate nucleus of the hypothalamus. It stimulates POMC neurons, which reduce appetite, and inhibits NPY/AgRP neurons, which increase appetite. Ghrelin from the gastric fundus does the reverse: it rises before meals and stimulates NPY/AgRP neurons. In common obesity, leptin levels are high but the hypothalamic response is blunted, which is called leptin resistance, and fasting ghrelin is usually lower than normal. Visceral fat releases free fatty acids and inflammatory cytokines that add to insulin resistance.",
+    "whyNot": [
+     "Correct.",
+     "Low leptin from a leptin gene mutation causes severe early-onset obesity, but it is rare. Most obese adults have high leptin.",
+     "Fasting ghrelin is usually lower than normal in people with obesity.",
+     "Increased leptin signaling would reduce appetite and favor weight loss. In common obesity, signaling is reduced despite high leptin."
+    ],
+    "study": {
+     "topics": [
+      "Leptin and ghrelin",
+      "Hypothalamic control of appetite"
+     ],
+     "comps": [
+      "EN-7",
+      "EN-12-D1"
+     ]
+    }
+   },
+   {
+    "id": "EN-C36-Q3",
+    "stem": "Compared with type 1 diabetes, which of the following best describes the inheritance of this patient's form of diabetes?",
+    "options": [
+     "Lower monozygotic twin concordance, with HLA-DR3 and DR4 linkage",
+     "Autosomal dominant inheritance through a single glucokinase gene",
+     "Higher monozygotic twin concordance, with polygenic inheritance",
+     "Maternal mitochondrial inheritance of a single tRNA mutation"
+    ],
+    "answer": 2,
+    "sea": "B",
+    "comp": "EN-9",
+    "obj": "EN-9.3",
+    "dok": 2,
+    "approach": [
+     "Use the family history: his father and identical twin are both affected, which suggests a strong inherited component.",
+     "Type 2 diabetes is polygenic, and identical twins show much higher concordance than in type 1 diabetes.",
+     "Type 1 diabetes has the HLA-DR3 and DR4 links but lower twin concordance, because environmental triggers play a larger role."
+    ],
+    "why": "Board review sources teach that concordance in identical twins is higher for type 2 diabetes than for type 1 diabetes, even though type 1 has the stronger single-region (HLA) association. Type 2 risk comes from many genes, each with a small effect on insulin secretion or action, combined with obesity and inactivity. Type 1 risk is concentrated in the HLA region (DR3 and DR4), but many people with these alleles never develop the disease. Maturity-onset diabetes of the young is autosomal dominant, caused by single-gene mutations such as glucokinase or HNF1A, and usually starts before age 25 in lean people.",
+    "whyNot": [
+     "Lower twin concordance with HLA-DR3 and DR4 linkage describes type 1 diabetes. Type 2 diabetes shows higher concordance and no strong HLA link.",
+     "Single-gene autosomal dominant inheritance through glucokinase or HNF1A is maturity-onset diabetes of the young. It usually appears in lean young people, not in an obese 47-year-old with metabolic syndrome.",
+     "Correct.",
+     "Mitochondrial diabetes is rare, passes only through the mother, and is often paired with deafness. His father is affected, which does not fit maternal inheritance."
+    ],
+    "study": {
+     "topics": [
+      "Genetics of diabetes types",
+      "Maturity-onset diabetes of the young"
+     ],
+     "comps": [
+      "EN-9",
+      "EN-12-D1"
+     ]
+    }
+   },
+   {
+    "id": "EN-C36-Q4",
+    "stem": "In a healthy person, an oral glucose load releases more insulin than an intravenous glucose infusion that produces the same plasma glucose concentrations. Which of the following best explains this difference?",
+    "options": [
+     "Ghrelin release from the stomach stimulating beta cells",
+     "GLP-1 and GIP release from intestinal endocrine cells",
+     "Glucose entry into beta cells through SGLT1",
+     "Somatostatin release from gastric D cells"
+    ],
+    "answer": 1,
+    "sea": "P",
+    "comp": "EN-5",
+    "obj": "EN-5.5",
+    "dok": 2,
+    "approach": [
+     "The plasma glucose is matched, so the extra insulin must come from a signal created by glucose passing through the gut.",
+     "Glucose in the intestinal lumen stimulates K cells to release GIP and L cells to release GLP-1.",
+     "These incretins act on beta cell receptors that raise cAMP, which amplifies glucose-stimulated insulin release."
+    ],
+    "why": "Beta cells take up glucose through GLUT2, and glucokinase phosphorylates it. Glucose metabolism raises the ATP to ADP ratio, which closes ATP-sensitive potassium channels, depolarizes the cell, opens voltage-gated calcium channels, and triggers insulin exocytosis. Incretins amplify this signal: GIP from duodenal and jejunal K cells and GLP-1 from ileal and colonic L cells act through Gs-coupled receptors on beta cells. This incretin effect accounts for a large share of insulin release after a meal, and it is reduced in type 2 diabetes.",
+    "whyNot": [
+     "Ghrelin rises before meals and tends to inhibit insulin secretion.",
+     "Correct.",
+     "Beta cells take up glucose through GLUT2, not SGLT1. SGLT1 absorbs glucose in the small intestine.",
+     "Somatostatin inhibits insulin release, so it would reduce the response."
+    ],
+    "study": {
+     "topics": [
+      "Insulin secretion in the beta cell",
+      "Incretin effect"
+     ],
+     "comps": [
+      "EN-5",
+      "EN-12-D1"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "EN-C37",
+  "system": "EN",
+  "dx": "Diabetic nephropathy and peripheral neuropathy in longstanding type 2 diabetes",
+  "codes": [
+   "EN-12-D1"
+  ],
+  "case": "A 66-year-old woman comes to the physician because of burning pain and numbness in both feet for 1 year and swelling of her ankles for 2 months. She has had type 2 diabetes for 18 years. Temperature is 36.7 °C (98.1 °F), pulse is 74/min, respirations are 14/min, and blood pressure is 148/88 mm Hg. Examination shows pitting edema of both ankles. Sensation to pinprick and vibration is decreased in both feet in a stocking distribution, and ankle reflexes are absent. Funduscopy shows microaneurysms and dot-blot hemorrhages. Laboratory studies show hemoglobin A1c 8.4% (4.0 to 5.6), creatinine 1.6 mg/dL (0.6 to 1.1), and urine albumin-to-creatinine ratio 640 mg/g (less than 30). The diagnosis is diabetic nephropathy with distal symmetric polyneuropathy.",
+  "questions": [
+   {
+    "id": "EN-C37-Q1",
+    "stem": "A kidney biopsy is most likely to show which of the following?",
+    "options": [
+     "Subepithelial immune deposits with basement membrane spikes",
+     "Crescents of proliferating parietal epithelial cells",
+     "Nodular mesangial sclerosis with basement membrane thickening",
+     "Isolated podocyte foot process effacement on electron microscopy"
+    ],
+    "answer": 2,
+    "sea": "X",
+    "comp": "EN-12-D1",
+    "obj": "EN-12-D.5",
+    "dok": 2,
+    "approach": [
+     "Link the findings: long-standing diabetes, retinopathy, and heavy albuminuria point to diabetic nephropathy.",
+     "The earliest change is thickening of the glomerular basement membrane, followed by expansion of mesangial matrix.",
+     "Advanced disease shows nodular glomerulosclerosis (Kimmelstiel-Wilson nodules) and hyaline arteriolosclerosis of both afferent and efferent arterioles."
+    ],
+    "why": "Chronic hyperglycemia glycates basement membrane and mesangial proteins and drives growth factors such as TGF-beta. The glomerular basement membrane thickens, the mesangial matrix expands, and in many patients round, PAS-positive Kimmelstiel-Wilson nodules form. Hyaline arteriolosclerosis affects both afferent and efferent arterioles. Albuminuria appears early and can progress to nephrotic-range proteinuria with falling GFR. The same microvascular disease causes retinopathy, and diabetes also causes autonomic neuropathy with gastroparesis and peripheral vascular disease with foot ulcers.",
+    "whyNot": [
+     "Subepithelial deposits with spikes are the picture of membranous nephropathy, often from anti-PLA2R antibodies. Diabetes does not cause immune deposits.",
+     "Crescents mark rapidly progressive glomerulonephritis, with kidney function falling over days to weeks.",
+     "Correct.",
+     "Foot process effacement with otherwise normal glomeruli is minimal change disease. Diabetic kidneys show obvious changes on light microscopy."
+    ],
+    "study": {
+     "topics": [
+      "Diabetic nephropathy pathology",
+      "Chronic complications of diabetes"
+     ],
+     "comps": [
+      "EN-12-D1",
+      "EN-7"
+     ]
+    }
+   },
+   {
+    "id": "EN-C37-Q2",
+    "stem": "Her neuropathy is partly caused by accumulation of an osmotically active sugar alcohol in Schwann cells. Which of the following enzymes forms this metabolite?",
+    "options": [
+     "Sorbitol dehydrogenase",
+     "Aldose reductase",
+     "Glucose-6-phosphate dehydrogenase",
+     "Hexokinase"
+    ],
+    "answer": 1,
+    "sea": "B",
+    "comp": "EN-12-D1",
+    "obj": "EN-12-D.4",
+    "dok": 2,
+    "approach": [
+     "Schwann cells take up glucose without needing insulin, so their glucose rises with blood glucose.",
+     "Extra glucose enters the polyol pathway, where aldose reductase reduces glucose to sorbitol using NADPH.",
+     "Sorbitol crosses membranes poorly, and these cells have little sorbitol dehydrogenase, so sorbitol builds up and draws in water."
+    ],
+    "why": "The polyol pathway has two steps. Aldose reductase converts glucose to sorbitol using NADPH, and sorbitol dehydrogenase converts sorbitol to fructose. Schwann cells, the lens, the retina, and the kidney have aldose reductase but little sorbitol dehydrogenase, so sorbitol accumulates during hyperglycemia. Sorbitol causes osmotic injury, and NADPH use reduces regeneration of glutathione, which increases oxidative stress. Together with nonenzymatic glycation (advanced glycation end products), this helps explain neuropathy, cataracts, and vascular damage in diabetes.",
+    "whyNot": [
+     "Sorbitol dehydrogenase removes sorbitol by converting it to fructose. Low activity of this enzyme in nerve and lens is why sorbitol builds up.",
+     "Correct.",
+     "Glucose-6-phosphate dehydrogenase makes NADPH in the pentose phosphate pathway. It does not make sorbitol.",
+     "Hexokinase phosphorylates glucose to start glycolysis. Its product is not the sugar alcohol of the polyol pathway."
+    ],
+    "study": {
+     "topics": [
+      "Polyol pathway",
+      "Mechanisms of diabetic neuropathy"
+     ],
+     "comps": [
+      "EN-12-D1",
+      "EN-7"
+     ]
+    }
+   },
+   {
+    "id": "EN-C37-Q3",
+    "stem": "Six weeks after this visit, she receives 3 units of packed red blood cells for an acute gastrointestinal hemorrhage. Her daily glucose readings do not change. Two weeks later, hemoglobin A1c is measured again. Compared with its value without the transfusion, which of the following is most likely?",
+    "options": [
+     "Falsely high, since stored donor cells are heavily glycated",
+     "Unchanged, since HbA1c reflects only the most recent 2 weeks",
+     "Falsely high, since bleeding leaves mainly older red cells behind",
+     "Falsely low, since donor cells were exposed to less glucose"
+    ],
+    "answer": 3,
+    "sea": "P",
+    "comp": "EN-12-D1",
+    "obj": "EN-12-D.2",
+    "dok": 3,
+    "approach": [
+     "HbA1c forms when glucose attaches to hemoglobin without an enzyme, at a rate set by the glucose level the red cell is exposed to.",
+     "Red cells live about 120 days, so HbA1c reflects about the past 3 months, weighted toward recent weeks.",
+     "Donor cells from a person with normal glucose carry little HbA1c, and new red cells made after bleeding have had little time to glycate, so her HbA1c will read low."
+    ],
+    "why": "Glucose binds the N-terminal valine of the hemoglobin beta chain nonenzymatically and rearranges into stable HbA1c. Because this depends on glucose level and time, HbA1c reflects average glucose over the red cell lifespan, about 3 months. Anything that adds young or donor red cells, such as transfusion, hemolysis, or recovery from blood loss, lowers HbA1c without any change in glycemia. Diabetes is diagnosed by HbA1c of 6.5% or more, fasting glucose of 126 mg/dL or more, 2-hour oral glucose tolerance test glucose of 200 mg/dL or more, or random glucose of 200 mg/dL or more with symptoms. When red cell lifespan is altered, glucose-based tests are more reliable.",
+    "whyNot": [
+     "Stored donor blood carries the donor's own HbA1c, which is usually normal. It does not raise her value.",
+     "HbA1c reflects about 3 months of glucose, not 2 weeks. Fructosamine is the marker that covers about 2 to 3 weeks.",
+     "Blood loss removes red cells of all ages, and the marrow then releases young cells. This lowers HbA1c.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "HbA1c and red cell lifespan",
+      "Diagnostic criteria for diabetes"
+     ],
+     "comps": [
+      "EN-12-D1",
+      "EN-7"
+     ]
+    }
+   },
+   {
+    "id": "EN-C37-Q4",
+    "stem": "Islets are most densely concentrated in the body and tail of the pancreas. From which of the following embryonic structures does this part of the pancreas develop?",
+    "options": [
+     "Dorsal pancreatic bud of foregut endoderm",
+     "Ventral pancreatic bud of foregut endoderm",
+     "Neural crest cells of the vagal region",
+     "Splanchnic mesoderm of the dorsal mesentery"
+    ],
+    "answer": 0,
+    "sea": "A",
+    "comp": "EN-1",
+    "obj": "EN-1.6",
+    "dok": 2,
+    "approach": [
+     "The pancreas forms from two endodermal outgrowths of the foregut at the level of the duodenum: a dorsal bud and a ventral bud.",
+     "The ventral bud rotates with the bile duct and fuses below and behind the dorsal bud, forming the uncinate process and lower head.",
+     "The dorsal bud forms the upper head, neck, body, and tail, so the islet-rich tail comes from the dorsal bud."
+    ],
+    "why": "Both the exocrine acini and the endocrine islets come from foregut endoderm. Endocrine progenitor cells arise from the developing duct epithelium and cluster into islets. The ventral bud gives rise to the uncinate process and lower part of the head, and the dorsal bud forms the rest of the gland. Islets are found throughout the pancreas but are most dense in the body and tail, which come from the dorsal bud.",
+    "whyNot": [
+     "Correct.",
+     "The ventral bud forms the uncinate process and lower part of the head. It does not form the body or tail.",
+     "Neural crest gives rise to the adrenal medulla, C cells, and enteric neurons. Islet cells are endodermal.",
+     "Splanchnic mesoderm forms the connective tissue and vessels of the pancreas, not its epithelial islet cells."
+    ],
+    "study": {
+     "topics": [
+      "Pancreas development",
+      "Origin of islet cells"
+     ],
+     "comps": [
+      "EN-1",
+      "EN-2"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "EN-C38",
+  "system": "EN",
+  "dx": "Insulinoma in MEN1",
+  "codes": [
+   "EN-12-G2",
+   "EN-12-G6"
+  ],
+  "case": "A 34-year-old woman comes to the physician because of episodes of sweating, palpitations, and confusion over the past 4 months. They occur before breakfast or after exercise and resolve when she eats. She has gained 6 kg during this time. Her brother had a parathyroid tumor removed at age 30. During a supervised fast, she becomes confused after 14 hours, and her plasma glucose is 38 mg/dL (70 to 99). At that time, serum insulin is 22 µU/mL (expected less than 3 during hypoglycemia), C-peptide is 2.9 ng/mL (expected less than 0.6 during hypoglycemia), and a sulfonylurea screen is negative. Her symptoms resolve after intravenous dextrose. CT shows a 1.5-cm mass in the pancreatic head. Genetic testing shows a germline MEN1 mutation. The diagnosis is insulinoma in multiple endocrine neoplasia type 1.",
+  "questions": [
+   {
+    "id": "EN-C38-Q1",
+    "stem": "Which of the following additional findings is most likely at the time of her hypoglycemia during the fast?",
+    "options": [
+     "Low serum beta-hydroxybutyrate",
+     "High serum free fatty acids",
+     "Positive urine ketones on dipstick",
+     "Undetectable serum proinsulin"
+    ],
+    "answer": 0,
+    "sea": "X",
+    "comp": "EN-12-G2",
+    "obj": "EN-12-G.3",
+    "dok": 3,
+    "approach": [
+     "During a normal fast, insulin falls, which releases fatty acids from fat and lets the liver make ketones.",
+     "Here insulin stays high despite low glucose, so it keeps blocking lipolysis and ketogenesis.",
+     "The result is hypoglycemia with low beta-hydroxybutyrate and low free fatty acids, which points to insulin as the cause."
+    ],
+    "why": "An insulinoma is a beta cell tumor that secretes insulin regardless of glucose. Whipple triad is symptoms of hypoglycemia, a documented low glucose, and relief when glucose is raised. During a supervised fast, the diagnostic pattern is low glucose with inappropriately high insulin, C-peptide, and proinsulin. Because insulin inhibits hormone-sensitive lipase and hepatic fatty acid oxidation, beta-hydroxybutyrate stays low. In fasting hypoglycemia that is not driven by insulin, such as prolonged starvation, ketones are high.",
+    "whyNot": [
+     "Correct.",
+     "Free fatty acids rise when insulin falls during a normal fast. High insulin keeps lipolysis switched off, so they stay low.",
+     "Urine ketones appear when insulin is low and fat is being burned. Her insulin is high, so ketogenesis is suppressed.",
+     "Insulinomas usually release extra proinsulin because tumor cells process it incompletely, so proinsulin is high."
+    ],
+    "study": {
+     "topics": [
+      "Whipple triad",
+      "Supervised fast in hypoglycemia"
+     ],
+     "comps": [
+      "EN-12-G2",
+      "EN-7"
+     ]
+    }
+   },
+   {
+    "id": "EN-C38-Q2",
+    "stem": "Before her diagnosis, several causes of fasting hypoglycemia were considered. Which of the following causes would have shown low serum insulin and low C-peptide concentrations at the time of hypoglycemia?",
+    "options": [
+     "Sulfonylurea ingestion",
+     "Meglitinide ingestion",
+     "Acute liver failure",
+     "Surreptitious insulin injection"
+    ],
+    "answer": 2,
+    "sea": "P",
+    "comp": "EN-12-G2",
+    "obj": "EN-12-G.4",
+    "dok": 3,
+    "approach": [
+     "Sort the causes by whether insulin drives the hypoglycemia.",
+     "Sulfonylureas and meglitinides make beta cells release insulin, so insulin and C-peptide are both high. Injected insulin raises insulin but suppresses C-peptide.",
+     "Liver failure causes hypoglycemia because the liver cannot make glucose, so the beta cells respond normally and shut off insulin."
+    ],
+    "why": "During fasting, the liver keeps glucose normal first through glycogenolysis and then through gluconeogenesis. In acute liver failure both are impaired, so glucose falls even though insulin and C-peptide are appropriately suppressed. Sepsis also causes hypoglycemia without excess insulin, by increasing glucose use and impairing hepatic glucose output. Insulinoma and insulin secretagogues raise both insulin and C-peptide, while injected insulin raises insulin with low C-peptide.",
+    "whyNot": [
+     "Sulfonylureas close beta cell K-ATP channels and release endogenous insulin, so insulin and C-peptide are both high. A drug screen separates this from insulinoma.",
+     "Meglitinides also close K-ATP channels and give the same high insulin and C-peptide pattern as sulfonylureas.",
+     "Correct.",
+     "Injected insulin raises serum insulin but suppresses the patient's own beta cells, so C-peptide is low while insulin is high."
+    ],
+    "study": {
+     "topics": [
+      "Causes of hypoglycemia",
+      "Hepatic glucose production"
+     ],
+     "comps": [
+      "EN-12-G2",
+      "EN-7"
+     ]
+    }
+   },
+   {
+    "id": "EN-C38-Q3",
+    "stem": "Screening for other tumors associated with her genetic syndrome is planned. Which of the following findings is most likely to be present?",
+    "options": [
+     "Elevated serum calcitonin concentration",
+     "Elevated serum calcium concentration",
+     "Elevated plasma metanephrine concentration",
+     "Elevated serum alpha-fetoprotein concentration"
+    ],
+    "answer": 1,
+    "sea": "X",
+    "comp": "EN-12-G6",
+    "obj": "EN-12-G.15",
+    "dok": 2,
+    "approach": [
+     "Identify the syndrome: insulinoma, a brother with a parathyroid tumor, and a germline MEN1 mutation.",
+     "MEN1 tumors are the 3 Ps: parathyroid, pituitary, and pancreatic endocrine tumors.",
+     "Primary hyperparathyroidism is the most common and usually earliest feature, so hypercalcemia is the most likely finding."
+    ],
+    "why": "MEN1 is autosomal dominant and caused by loss of the tumor suppressor menin. Parathyroid hyperplasia or adenomas develop in nearly all carriers and cause hypercalcemia with high PTH. Pancreatic and duodenal neuroendocrine tumors (gastrinoma, insulinoma, and others) and pituitary adenomas (often prolactinoma) are the other main tumors. MEN2A (RET mutation) combines medullary thyroid carcinoma, pheochromocytoma, and parathyroid hyperplasia. MEN2B has medullary thyroid carcinoma, pheochromocytoma, mucosal neuromas, and a marfanoid habitus, without parathyroid disease.",
+    "whyNot": [
+     "High calcitonin signals medullary thyroid carcinoma, a feature of MEN2A and MEN2B, which are caused by RET mutations.",
+     "Correct.",
+     "High metanephrines point to pheochromocytoma, which belongs to MEN2.",
+     "Alpha-fetoprotein is a marker for hepatocellular carcinoma and yolk sac tumors. It is not part of MEN1 screening."
+    ],
+    "study": {
+     "topics": [
+      "Multiple endocrine neoplasia syndromes",
+      "Primary hyperparathyroidism"
+     ],
+     "comps": [
+      "EN-12-G6",
+      "EN-12-A2"
+     ]
+    }
+   },
+   {
+    "id": "EN-C38-Q4",
+    "stem": "Which of the following best explains why her serum C-peptide concentration helps exclude injected insulin as the cause of her hypoglycemia?",
+    "options": [
+     "C-peptide is cleared mainly by the liver on its first pass",
+     "C-peptide stays bound to insulin by disulfide bonds",
+     "C-peptide is cut from proinsulin in the rough endoplasmic reticulum",
+     "C-peptide is released with insulin in equal molar amounts"
+    ],
+    "answer": 3,
+    "sea": "B",
+    "comp": "EN-8",
+    "obj": "EN-8.4",
+    "dok": 2,
+    "approach": [
+     "Follow insulin synthesis: preproinsulin loses its signal peptide in the rough ER to become proinsulin.",
+     "In secretory granules, prohormone convertases cut out C-peptide, leaving the A and B chains joined by disulfide bonds.",
+     "Insulin and C-peptide are released together in equal molar amounts. Injected insulin contains no C-peptide and suppresses her own beta cells, so a high C-peptide means the insulin is her own."
+    ],
+    "why": "Preproinsulin is made on ribosomes of the rough ER, where its signal peptide is removed to form proinsulin. Proinsulin folds, forms disulfide bonds, and moves through the Golgi into secretory granules, where prohormone convertases remove the connecting C-peptide. Each insulin molecule released is matched by one C-peptide molecule. Pharmaceutical insulin has no C-peptide, so exogenous insulin gives high insulin with low C-peptide. Insulinoma and sulfonylurea use both give high insulin and high C-peptide, and a drug screen separates them. The liver removes much of secreted insulin on first pass, while C-peptide is cleared mainly by the kidney.",
+    "whyNot": [
+     "The liver clears much of secreted insulin on its first pass. C-peptide is cleared mainly by the kidney.",
+     "The disulfide bonds hold the A and B chains of insulin together. C-peptide is cut away and released as a separate peptide.",
+     "The rough ER removes the signal peptide to make proinsulin. C-peptide is cut out later, inside secretory granules.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Insulin synthesis and processing",
+      "C-peptide in the evaluation of hypoglycemia"
+     ],
+     "comps": [
+      "EN-8",
+      "EN-12-G2"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "EN-C39",
+  "system": "EN",
+  "dx": "Glucagonoma",
+  "codes": [
+   "EN-12-G2"
+  ],
+  "case": "A 58-year-old man comes to the physician because of a painful, itchy rash for 3 months and a 9-kg weight loss. Temperature is 37.0 °C (98.6 °F), pulse is 84/min, respirations are 14/min, and blood pressure is 124/76 mm Hg. Examination shows red, scaling plaques with crusted, blistering edges that spread outward on the groin, buttocks, and legs. His tongue is smooth and red. Laboratory studies show fasting glucose 214 mg/dL (70 to 99), hemoglobin 10.6 g/dL (13.5 to 17.5), and plasma glucagon 1,200 pg/mL (50 to 150). CT shows a 4.5-cm mass in the tail of the pancreas. The diagnosis is glucagonoma.",
+  "questions": [
+   {
+    "id": "EN-C39-Q1",
+    "stem": "Somatostatinoma can also cause diabetes and weight loss. Which of the following findings in this patient best distinguishes his tumor from a somatostatinoma?",
+    "options": [
+     "Elevated fasting plasma glucose",
+     "Necrolytic migratory erythema",
+     "Unintended loss of body weight",
+     "Large tumor size at diagnosis"
+    ],
+    "answer": 1,
+    "sea": "X",
+    "comp": "EN-12-G2",
+    "obj": "EN-12-G.5",
+    "dok": 2,
+    "approach": [
+     "List what both tumors share: diabetes (glucagon raises glucose output, somatostatin blocks insulin release), weight loss, and large size when found.",
+     "Somatostatinoma adds gallstones, steatorrhea, and achlorhydria, because somatostatin blocks CCK, pancreatic enzyme secretion, and gastrin.",
+     "Glucagonoma adds necrolytic migratory erythema, a spreading, blistering rash, so the rash is the distinguishing finding."
+    ],
+    "why": "Glucagonoma is an alpha cell tumor. Its classic features are diabetes or glucose intolerance, weight loss, necrolytic migratory erythema, anemia, glossitis, and venous thrombosis. The rash is linked to the very low plasma amino acid levels that excess glucagon causes. Somatostatinoma, a delta cell tumor, inhibits many gut and pancreatic hormones and causes diabetes, gallstones, steatorrhea, and achlorhydria. Both share hyperglycemia and weight loss, so those findings cannot separate them.",
+    "whyNot": [
+     "Fasting hyperglycemia occurs with both tumors. Glucagon raises hepatic glucose output, and somatostatin suppresses insulin release.",
+     "Correct.",
+     "Weight loss occurs with both tumors, from catabolism in glucagonoma and malabsorption in somatostatinoma.",
+     "Both tumors are usually large when found because their early symptoms are vague. Size does not separate them."
+    ],
+    "study": {
+     "topics": [
+      "Pancreatic neuroendocrine tumors",
+      "Necrolytic migratory erythema"
+     ],
+     "comps": [
+      "EN-12-G2",
+      "EN-2"
+     ]
+    }
+   },
+   {
+    "id": "EN-C39-Q2",
+    "stem": "His plasma amino acid concentrations are markedly decreased. Which of the following effects of the tumor's hormone best explains this finding?",
+    "options": [
+     "Increased fatty acid synthesis in the liver",
+     "Increased GLUT4-mediated glucose uptake",
+     "Increased hepatic glycogen synthesis",
+     "Increased hepatic gluconeogenesis"
+    ],
+    "answer": 3,
+    "sea": "B",
+    "comp": "EN-7",
+    "obj": "EN-7.1",
+    "dok": 2,
+    "approach": [
+     "The tumor makes glucagon, the main hormone of the fasting state.",
+     "Glucagon drives the liver to make new glucose, and amino acids such as alanine are a major carbon source for gluconeogenesis.",
+     "With very high glucagon, the liver pulls amino acids out of the blood continuously, so plasma levels fall and muscle protein is broken down to supply them."
+    ],
+    "why": "Insulin and glucagon have opposite effects on fuel use. Insulin, the fed-state hormone, increases GLUT4 glucose uptake in muscle and fat, glycogen synthesis, glycolysis, fatty acid synthesis, and protein synthesis. Glucagon, the fasting hormone, acts mainly on the liver to increase glycogenolysis, gluconeogenesis, and ketogenesis. In glucagonoma, constant gluconeogenesis uses up amino acids, which lowers plasma amino acid levels, wastes muscle, and contributes to weight loss and the rash.",
+    "whyNot": [
+     "Fatty acid synthesis in the liver is an insulin effect. Glucagon inhibits it.",
+     "GLUT4 glucose uptake into muscle and fat is stimulated by insulin. Glucagon has no direct effect on GLUT4.",
+     "Glycogen synthesis is an insulin effect. Glucagon breaks glycogen down.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Insulin versus glucagon effects",
+      "Gluconeogenesis substrates"
+     ],
+     "comps": [
+      "EN-7",
+      "EN-12-G2"
+     ]
+    }
+   },
+   {
+    "id": "EN-C39-Q3",
+    "stem": "His symptoms are treated with octreotide, a long-acting analog of an islet hormone that inhibits secretion of glucagon, insulin, and many gut hormones. In normal islets, this hormone is secreted by which of the following cell types?",
+    "options": [
+     "Delta cells",
+     "Alpha cells",
+     "Beta cells",
+     "PP cells"
+    ],
+    "answer": 0,
+    "sea": "A",
+    "comp": "EN-2",
+    "obj": "EN-2.4",
+    "dok": 2,
+    "approach": [
+     "Name the hormone: octreotide is a somatostatin analog.",
+     "Somatostatin inhibits glucagon, insulin, and many gut hormones, which is why it controls the rash and other effects of glucagon excess.",
+     "Within the islet, somatostatin is made by delta cells."
+    ],
+    "why": "Islets contain beta cells (insulin, the most numerous), alpha cells (glucagon), delta cells (somatostatin), and a few PP cells (pancreatic polypeptide). Somatostatin from delta cells acts locally to inhibit release of both insulin and glucagon, and it also inhibits many gut hormones. Octreotide copies this effect and lasts much longer than natural somatostatin, so it lowers glucagon output from the tumor and often improves the rash. A tumor of delta cells themselves is a somatostatinoma.",
+    "whyNot": [
+     "Correct.",
+     "Alpha cells make glucagon, the hormone this tumor overproduces. Octreotide suppresses their secretion rather than copying their hormone.",
+     "Beta cells make insulin. Insulin does inhibit glucagon release inside the islet, but octreotide lowers insulin secretion too, so it does not mimic insulin.",
+     "PP cells make pancreatic polypeptide, which affects pancreatic exocrine secretion and appetite. It does not broadly inhibit islet and gut hormones."
+    ],
+    "study": {
+     "topics": [
+      "Islet cell types and hormones",
+      "Somatostatin actions"
+     ],
+     "comps": [
+      "EN-2",
+      "EN-12-G2"
+     ]
+    }
+   },
+   {
+    "id": "EN-C39-Q4",
+    "stem": "The hormone secreted by this tumor in the pancreatic tail first reaches which of the following capillary beds at its highest concentration?",
+    "options": [
+     "Pulmonary alveolar capillaries",
+     "Renal glomerular capillaries",
+     "Hepatic sinusoids",
+     "Splenic red pulp sinusoids"
+    ],
+    "answer": 2,
+    "sea": "P",
+    "comp": "EN-4",
+    "obj": "EN-4.5",
+    "dok": 2,
+    "approach": [
+     "Veins from the pancreatic body and tail drain into the splenic vein.",
+     "The splenic vein joins the superior mesenteric vein behind the pancreatic neck to form the hepatic portal vein.",
+     "Portal blood flows through the liver sinusoids before it reaches the systemic circulation, so the liver sees the highest hormone levels."
+    ],
+    "why": "Pancreatic venous blood drains into the portal system: the body and tail into the splenic vein, and the head into pancreaticoduodenal veins that join the superior mesenteric and portal veins. All of it passes through hepatic sinusoids before entering the inferior vena cava. This suits the physiology, because the liver is the main target of both insulin and glucagon. The liver also removes about half of secreted insulin on its first pass, so portal insulin levels are much higher than peripheral levels. For the same reason, glucagon measured in a peripheral vein understates what the liver receives.",
+    "whyNot": [
+     "Pancreatic hormones reach the lungs only after passing through the liver, the inferior vena cava, and the right heart.",
+     "The kidneys receive pancreatic hormones from systemic arterial blood, after hepatic passage. Pancreatic veins do not drain into the renal veins.",
+     "Correct.",
+     "The splenic vein carries pancreatic venous blood away from the spleen toward the portal vein. Pancreatic hormones do not enter the splenic sinusoids directly."
+    ],
+    "study": {
+     "topics": [
+      "Portal venous drainage of the pancreas",
+      "Hepatic first-pass extraction of insulin"
+     ],
+     "comps": [
+      "EN-4",
+      "EN-3"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "EN-C40",
+  "system": "EN",
+  "dx": "Androgen insensitivity syndrome",
+  "codes": [
+   "EN-9"
+  ],
+  "case": "A 16-year-old girl is brought to the physician because she has never had a menstrual period. Breast development began at age 11 and is now complete. She is 172 cm tall. Axillary and pubic hair are sparse. The external genitalia are female, and the vagina is short and ends blindly. Pelvic ultrasonography shows no uterus or ovaries, and bilateral inguinal masses are found to be testes. Karyotype is 46,XY. Serum testosterone is 640 ng/dL (adult male 300 to 1000; adult female 15 to 70), and serum LH is 26 mIU/mL (adult male 2 to 12). The diagnosis is complete androgen insensitivity syndrome.",
+  "questions": [
+   {
+    "id": "EN-C40-Q1",
+    "stem": "Which of the following findings in this patient best distinguishes her condition from 5-alpha-reductase deficiency?",
+    "options": [
+     "46,XY karyotype with bilateral testes",
+     "Absent uterus and fallopian tubes",
+     "Serum testosterone in the adult male range",
+     "Female genitalia and breast development"
+    ],
+    "answer": 3,
+    "sea": "B",
+    "comp": "EN-9",
+    "obj": "EN-9.5",
+    "dok": 3,
+    "approach": [
+     "List what both conditions share: a 46,XY karyotype, testes, normal or high testosterone, and no uterus, because Sertoli cells still make anti-Mullerian hormone.",
+     "In 5-alpha-reductase deficiency, testosterone still acts on a normal androgen receptor, so the body virilizes at puberty with little breast growth.",
+     "In androgen insensitivity, no tissue responds to androgens, so the external genitalia are female, and testosterone converted to estradiol produces breasts."
+    ],
+    "why": "Androgen insensitivity syndrome is an X-linked defect in the androgen receptor. The testes make testosterone and anti-Mullerian hormone normally, so Mullerian structures regress, but neither testosterone nor DHT can act. The external genitalia develop as female, Wolffian structures regress, and body hair is sparse. At puberty, aromatase converts the high testosterone to estradiol, which drives breast development. In 5-alpha-reductase deficiency, DHT is low, so the external genitalia are ambiguous at birth, but testosterone acts on the normal receptor and causes marked virilization at puberty without breast growth.",
+    "whyNot": [
+     "Both conditions have a 46,XY karyotype and testes, so this finding cannot separate them.",
+     "Both conditions lack a uterus, because Sertoli cells in both make anti-Mullerian hormone.",
+     "Testosterone is normal to high in both conditions. In 5-alpha-reductase deficiency, the testosterone to DHT ratio is high.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Androgen insensitivity syndrome",
+      "5-alpha-reductase deficiency"
+     ],
+     "comps": [
+      "EN-9",
+      "EN-6"
+     ]
+    }
+   },
+   {
+    "id": "EN-C40-Q2",
+    "stem": "Which of the following best explains the combination of elevated serum testosterone and elevated LH in this patient?",
+    "options": [
+     "Primary failure of testosterone synthesis by Leydig cells",
+     "Deficient hypothalamic GnRH secretion",
+     "Absent androgen feedback at hypothalamus and pituitary",
+     "Estradiol suppression of pituitary gonadotroph secretion"
+    ],
+    "answer": 2,
+    "sea": "P",
+    "comp": "EN-6",
+    "obj": "EN-6.3",
+    "dok": 3,
+    "approach": [
+     "Use feedback logic: when the target hormone and its trophic hormone are both high, the problem is not too little target hormone.",
+     "Testosterone normally suppresses GnRH and LH through androgen receptors in the hypothalamus and pituitary.",
+     "If those receptors cannot respond, the brain reads testosterone as missing and keeps LH high, which drives the testes to make more testosterone."
+    ],
+    "why": "Paired hormone levels localize endocrine disorders. Low target hormone with high trophic hormone means target gland failure, such as primary hypogonadism. Low target hormone with low or normal trophic hormone means pituitary or hypothalamic failure. High target hormone with low trophic hormone means the target gland is secreting on its own. High target hormone with high trophic hormone means either a tumor secreting the trophic hormone or resistance to feedback. Here the androgen receptor defect affects the hypothalamus and pituitary too, so LH and testosterone both rise.",
+    "whyNot": [
+     "Primary testicular failure would cause low testosterone with high LH. Her testosterone is high.",
+     "Low GnRH would lower LH, and testosterone would then fall too.",
+     "Correct.",
+     "Estradiol suppresses LH release. If estradiol were controlling the axis, LH would be low."
+    ],
+    "study": {
+     "topics": [
+      "Negative feedback in endocrine axes",
+      "Hypothalamic-pituitary-gonadal axis"
+     ],
+     "comps": [
+      "EN-6",
+      "EN-9"
+     ]
+    }
+   },
+   {
+    "id": "EN-C40-Q3",
+    "stem": "In a hematoxylin and eosin section of her pituitary gland, the cells that secrete her elevated trophic hormone would most likely appear as which of the following?",
+    "options": [
+     "Basophilic cells in the anterior lobe",
+     "Acidophilic cells in the anterior lobe",
+     "Chromophobe cells in the anterior lobe",
+     "Pituicytes among axons of the posterior lobe"
+    ],
+    "answer": 0,
+    "sea": "A",
+    "comp": "EN-2",
+    "obj": "EN-2.3",
+    "dok": 2,
+    "approach": [
+     "Identify the hormone: her LH is high, and LH is made by gonadotrophs.",
+     "Sort anterior pituitary cells by staining: acidophils make GH and prolactin, basophils make FSH, LH, ACTH, and TSH, and chromophobes stain poorly.",
+     "Gonadotrophs are therefore basophils in the anterior lobe."
+    ],
+    "why": "The anterior pituitary (adenohypophysis) contains acidophils, basophils, and chromophobes. Acidophils make GH (somatotrophs) and prolactin (lactotrophs). Basophils make FSH and LH (gonadotrophs), TSH (thyrotrophs), and ACTH (corticotrophs); the mnemonic B-FLAT links basophils to FSH, LH, ACTH, and TSH. Chromophobes have few granules and include degranulated cells and stem cells. The posterior pituitary has no hormone-making cells. It holds axon terminals of hypothalamic neurons, their swollen storage endings (Herring bodies), and supporting pituicytes.",
+    "whyNot": [
+     "Correct.",
+     "Acidophils secrete growth hormone and prolactin, not LH.",
+     "Chromophobes contain few hormone granules and stain weakly. They are not the main LH-secreting cells.",
+     "Pituicytes are glial support cells of the posterior lobe. The posterior lobe releases ADH and oxytocin made in the hypothalamus."
+    ],
+    "study": {
+     "topics": [
+      "Pituitary histology",
+      "Anterior pituitary cell types"
+     ],
+     "comps": [
+      "EN-2",
+      "EN-1"
+     ]
+    }
+   },
+   {
+    "id": "EN-C40-Q4",
+    "stem": "Androgen effects on target tissues develop over hours to days rather than seconds. Which of the following mechanisms of the receptor that is defective in this patient explains this slow onset?",
+    "options": [
+     "Activating adenylyl cyclase through a stimulatory G protein",
+     "Binding hormone response elements to alter transcription",
+     "Phosphorylating tyrosine residues on intracellular substrates",
+     "Recruiting JAK kinases that phosphorylate STAT proteins"
+    ],
+    "answer": 1,
+    "sea": "B",
+    "comp": "EN-9",
+    "obj": "EN-9.7",
+    "dok": 2,
+    "approach": [
+     "Testosterone and DHT are steroids, so they are lipid soluble and cross the plasma membrane.",
+     "The androgen receptor sits in the cytoplasm bound to heat shock proteins. Hormone binding releases them, and the receptor dimerizes and moves into the nucleus.",
+     "There it binds hormone response elements in DNA and changes transcription. Making new mRNA and protein takes hours, which explains the slow onset."
+    ],
+    "why": "Steroid hormones, calcitriol, and thyroid hormone act through intracellular receptors that are ligand-activated transcription factors. Each receptor has a hormone-binding domain and a zinc finger DNA-binding domain. Steroid receptors usually bind DNA as homodimers, while the thyroid hormone receptor pairs with the retinoid X receptor. Because their effects need new mRNA and protein, they begin over hours and last longer than the seconds-to-minutes effects of peptide hormones that act through second messengers. In androgen insensitivity, mutations in the hormone-binding or DNA-binding domain block this process in every target tissue.",
+    "whyNot": [
+     "Gs activation of adenylyl cyclase is used by peptide hormones such as LH, TSH, and PTH, and it acts within seconds to minutes.",
+     "Correct.",
+     "Tyrosine kinase activity is how the insulin and IGF-1 receptors signal.",
+     "JAK/STAT signaling is used by growth hormone and prolactin receptors."
+    ],
+    "study": {
+     "topics": [
+      "Intracellular hormone receptors",
+      "Androgen receptor"
+     ],
+     "comps": [
+      "EN-9",
+      "EN-6"
+     ]
+    }
+   }
+  ]
+ }
+]

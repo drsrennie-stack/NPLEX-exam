@@ -1,0 +1,1579 @@
+[
+ {
+  "id": "IM-C31",
+  "system": "IM",
+  "dx": "Influenza A with secondary Staphylococcus aureus pneumonia",
+  "codes": [
+   "IM-15-F3"
+  ],
+  "case": "A 67-year-old woman comes to the emergency department in January because of a 2-day history of fever, productive cough, and shortness of breath. Nine days ago she had the abrupt onset of fever, headache, diffuse myalgias, and a dry cough, and these symptoms had begun to improve by day 5. Temperature is 39.3 °C (102.7 °F), pulse is 118/min, respirations are 28/min, and blood pressure is 102/64 mm Hg. Oxygen saturation is 88% on room air. Crackles are heard over both lower lung fields. Leukocyte count is 18,600/mm3 (normal 4,500 to 11,000) with 88% neutrophils. Chest x-ray shows bilateral patchy consolidation with several thin-walled cavities. Nasopharyngeal RT-PCR detects influenza A (H3N2). Sputum Gram stain shows gram-positive cocci in clusters, and culture grows Staphylococcus aureus. Diagnosis: influenza A with secondary S aureus pneumonia.",
+  "questions": [
+   {
+    "id": "IM-C31-Q1",
+    "stem": "Which of the following best explains why the bacterial pneumonia developed as she was recovering from the viral illness?",
+    "options": [
+     "Viral suppression of neutrophil production in the bone marrow",
+     "Loss of ciliated airway epithelium and mucociliary clearance",
+     "Aspiration of oropharyngeal anaerobes during sleep",
+     "Antibody-mediated lysis of alveolar macrophages"
+    ],
+    "answer": 1,
+    "sea": "X",
+    "comp": "IM-15-F3",
+    "obj": "IM-15-F.3",
+    "dok": 3,
+    "approach": [
+     "Notice the two-phase course: she improved from influenza, then got worse again with high fever and a productive cough.",
+     "That pattern points to a secondary bacterial pneumonia, classically S aureus or S pneumoniae.",
+     "Ask what influenza does to the airway: it kills the ciliated columnar cells that clear bacteria."
+    ],
+    "why": "Influenza virus infects and kills the ciliated columnar cells of the trachea and bronchi. The mucociliary escalator stops working, and the bare basement membrane gives S aureus and S pneumoniae a place to attach and grow. Viral neuraminidase can also expose bacterial binding sites on the airway surface. The classic story is a patient who starts to recover from influenza and then gets worse again, as she did. S aureus pneumonia after influenza is often necrotizing, which explains the cavities.",
+    "whyNot": [
+     "Influenza does not suppress the marrow in this way. Her neutrophil count is high, which shows the marrow is responding normally.",
+     "Correct.",
+     "Aspiration happens with reduced consciousness or poor swallowing and causes anaerobic, often foul-smelling infection in dependent lung segments. Her illness followed a typical influenza course and grew S aureus.",
+     "Influenza does not cause antibodies that lyse macrophages. Macrophage function can be dampened after influenza, but not by antibody-mediated lysis."
+    ],
+    "study": {
+     "topics": [
+      "Complications of influenza",
+      "Secondary bacterial pneumonia"
+     ],
+     "comps": [
+      "IM-15-F3",
+      "IM-14"
+     ]
+    }
+   },
+   {
+    "id": "IM-C31-Q2",
+    "stem": "She received the seasonal influenza vaccine 14 months ago. Sequencing shows that the hemagglutinin of her H3N2 strain differs from that of the earlier vaccine strain by several single amino acid substitutions in its antibody-binding sites. Which of the following genetic mechanisms most likely produced this change?",
+    "options": [
+     "Reassortment of genome segments between two influenza strains",
+     "Phenotypic mixing of envelope proteins during coinfection",
+     "Recombination of viral DNA integrated into host chromosomes",
+     "Point mutations by the viral RNA-dependent RNA polymerase"
+    ],
+    "answer": 3,
+    "sea": "B",
+    "comp": "IM-14",
+    "obj": "IM-14.3",
+    "dok": 2,
+    "approach": [
+     "Note the clues: same subtype (H3N2), a few single amino acid changes.",
+     "Small, stepwise changes within one subtype are antigenic drift.",
+     "Link drift to its cause: copying errors by an RNA polymerase that lacks proofreading."
+    ],
+    "why": "Influenza A has a segmented, negative-sense RNA genome that is copied by its own RNA-dependent RNA polymerase. This enzyme has no proofreading, so point mutations build up. Mutations that change the antibody-binding sites on hemagglutinin and neuraminidase are selected because they escape existing immunity. This gradual change is antigenic drift. The subtype stays the same, and drift is why the vaccine is updated every year and seasonal epidemics keep coming back.",
+    "whyNot": [
+     "Reassortment is antigenic shift. When two strains infect one cell, whole genome segments swap, which can give an entirely new hemagglutinin or neuraminidase subtype. Shift causes pandemics, and it changes the subtype instead of making a few amino acid substitutions.",
+     "Phenotypic mixing puts one virus's surface proteins around another virus's genome during coinfection. The genome is unchanged, so the change is lost in the next generation.",
+     "Influenza is an RNA virus that replicates without a DNA stage and never integrates into host chromosomes. Integration is a feature of retroviruses such as HIV.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Antigenic drift and shift",
+      "Influenza virus structure"
+     ],
+     "comps": [
+      "IM-14",
+      "IM-15-F3"
+     ]
+    }
+   },
+   {
+    "id": "IM-C31-Q3",
+    "stem": "Early in her infection, plasmacytoid dendritic cells in the airway took up influenza virions into endosomes and released large amounts of interferon-alpha. Which of the following receptors most likely detected the viral genome in these cells?",
+    "options": [
+     "Toll-like receptor 4 with CD14",
+     "Toll-like receptor 5",
+     "Toll-like receptor 7",
+     "Toll-like receptor 9"
+    ],
+    "answer": 2,
+    "sea": "M",
+    "comp": "IM-6",
+    "obj": "IM-6.1",
+    "dok": 2,
+    "approach": [
+     "Identify the viral genome: influenza has single-stranded RNA.",
+     "Recall which pattern recognition receptors sit in endosomes and sense nucleic acids: TLR3, 7, 8, and 9.",
+     "Match single-stranded RNA to TLR7, the main sensor in plasmacytoid dendritic cells."
+    ],
+    "why": "Influenza has a single-stranded RNA genome. Inside endosomes, TLR7 (and TLR8 in humans) binds single-stranded RNA. Plasmacytoid dendritic cells carry high levels of TLR7 and respond by making large amounts of type I interferon, which puts nearby cells into an antiviral state. Keeping these nucleic acid sensors in endosomes lets them sample material taken up from outside the cell, which helps avoid reacting to the cell's own RNA.",
+    "whyNot": [
+     "TLR4 with CD14 binds lipopolysaccharide from gram-negative bacteria at the cell surface. It drives the cytokine storm of gram-negative sepsis.",
+     "TLR5 binds flagellin, the protein of bacterial flagella, at the cell surface. Viruses have no flagellin.",
+     "Correct.",
+     "TLR9 is also in endosomes, but it binds unmethylated CpG DNA from bacteria and DNA viruses such as herpesviruses. Influenza has an RNA genome."
+    ],
+    "study": {
+     "topics": [
+      "Toll-like receptors",
+      "Type I interferon"
+     ],
+     "comps": [
+      "IM-6",
+      "IM-13"
+     ]
+    }
+   },
+   {
+    "id": "IM-C31-Q4",
+    "stem": "Influenza nucleoprotein is made in the cytosol of her infected bronchial epithelial cells, and these same cells then display peptides from it to CD8 T cells. Which of the following steps is required for these peptides to reach the molecules that display them?",
+    "options": [
+     "Transport into the endoplasmic reticulum by TAP",
+     "Exchange for CLIP in an endosome catalyzed by HLA-DM",
+     "Degradation within acidified endolysosomes",
+     "Uptake of the protein by phagocytosis"
+    ],
+    "answer": 0,
+    "sea": "M",
+    "comp": "IM-3",
+    "obj": "IM-3.2",
+    "dok": 2,
+    "approach": [
+     "Classify the antigen: a viral protein made inside the cell is an endogenous antigen.",
+     "Endogenous antigens are presented on MHC class I to CD8 T cells.",
+     "Trace the class I path: proteasome, TAP into the endoplasmic reticulum, loading onto class I."
+    ],
+    "why": "Viral proteins made inside a cell are presented on MHC class I. The proteasome cuts them into peptides in the cytosol. TAP (transporter associated with antigen processing) pumps the peptides into the endoplasmic reticulum, where they load onto newly made class I molecules (a heavy chain with beta2-microglobulin). The complex travels to the cell surface, and CD8 T cells that recognize it kill the infected cell. Without TAP, class I molecules stay empty and unstable, and few reach the surface.",
+    "whyNot": [
+     "Correct.",
+     "HLA-DM removes CLIP so class II molecules can load peptides from proteins taken up from outside the cell. That path leads to CD4 T cells.",
+     "Acidified endolysosomes digest proteins taken up from outside the cell for class II presentation. Proteins made in the cytosol are cut by the proteasome.",
+     "Phagocytosis brings in outside antigen, mainly for class II presentation by antigen-presenting cells. Her epithelial cells made the nucleoprotein themselves."
+    ],
+    "study": {
+     "topics": [
+      "MHC class I antigen processing",
+      "TAP transporter"
+     ],
+     "comps": [
+      "IM-3",
+      "IM-5"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "IM-C32",
+  "system": "IM",
+  "dx": "Measles pneumonia in a child with kwashiorkor and vitamin A deficiency",
+  "codes": [
+   "IM-15-F4"
+  ],
+  "case": "A 3-year-old girl is brought to a clinic in a displacement camp during a measles outbreak because of 6 days of fever, cough, runny nose, and red eyes, and 2 days of rapid breathing. A red rash began at the hairline 3 days ago and spread downward. Her diet has been mostly maize porridge for months, and she is unvaccinated. Temperature is 39.4 °C (102.9 °F), pulse is 150/min, respirations are 54/min, and oxygen saturation is 88% on room air. Physical examination shows a confluent maculopapular rash, dry conjunctivae with foamy gray patches, sparse depigmented hair, pitting edema of the feet and legs, a protuberant abdomen with hepatomegaly, and diffuse crackles. Serum albumin is 1.9 g/dL (normal 3.5 to 5.5), and serum retinol is 0.35 µmol/L (deficiency below 0.70). Diagnosis: measles pneumonia in a child with kwashiorkor and vitamin A deficiency.",
+  "questions": [
+   {
+    "id": "IM-C32-Q1",
+    "stem": "She recovers. At age 11 years, she develops declining school performance, personality change, and repetitive myoclonic jerks, followed by progressive dementia. EEG shows periodic high-voltage complexes, and cerebrospinal fluid shows a markedly increased titer of antimeasles antibodies. Which of the following best explains this condition?",
+    "options": [
+     "Autoimmune demyelination triggered by measles virus antigens",
+     "Accumulation of a misfolded host prion protein",
+     "Persistent infection by a defective measles virus in neurons",
+     "Reactivation of latent JC virus in oligodendrocytes"
+    ],
+    "answer": 2,
+    "sea": "X",
+    "comp": "IM-15-F4",
+    "obj": "IM-15-F.4",
+    "dok": 3,
+    "approach": [
+     "Note the timing: a slowly progressive neurologic decline years after measles.",
+     "High antimeasles antibody in the CSF means measles antigen is still present in the brain.",
+     "Name the late complication: subacute sclerosing panencephalitis, from persistent defective virus."
+    ],
+    "why": "This is subacute sclerosing panencephalitis (SSPE). It appears about 7 to 10 years after measles, most often when infection happened early in childhood. Mutant measles virus persists in neurons and glia. Mutations in the matrix protein and other envelope genes block assembly of complete virions, so the virus spreads from cell to cell and escapes clearance. The brain keeps making antibody against it, which is why CSF antimeasles antibody is so high. Measles vaccination prevents SSPE.",
+    "whyNot": [
+     "Acute disseminated encephalomyelitis is an autoimmune demyelinating illness that can follow measles, but it begins days to weeks after the rash, not years later.",
+     "Prion disease such as Creutzfeldt-Jakob disease also causes myoclonus and periodic EEG complexes, but it is not linked to measles and does not raise antimeasles antibody in the CSF.",
+     "Correct.",
+     "JC virus reactivation causes progressive multifocal leukoencephalopathy in people with severe immunosuppression. It does not raise antimeasles antibody."
+    ],
+    "study": {
+     "topics": [
+      "Complications of measles",
+      "Subacute sclerosing panencephalitis"
+     ],
+     "comps": [
+      "IM-15-F4",
+      "IM-14"
+     ]
+    }
+   },
+   {
+    "id": "IM-C32-Q2",
+    "stem": "A nasopharyngeal specimen from the child is inoculated into cell culture. Within days, many cells merge into large multinucleated cells containing dozens of nuclei. Which of the following viral proteins directly causes this effect?",
+    "options": [
+     "Fusion glycoprotein",
+     "Hemagglutinin glycoprotein",
+     "Neuraminidase glycoprotein",
+     "Matrix protein"
+    ],
+    "answer": 0,
+    "sea": "M",
+    "comp": "IM-14",
+    "obj": "IM-14.4",
+    "dok": 2,
+    "approach": [
+     "Recognize the effect: multinucleated cells formed by fusion are syncytia.",
+     "Recall that paramyxoviruses carry an F (fusion) protein active at neutral pH.",
+     "F protein on the infected cell surface fuses it with neighboring cells."
+    ],
+    "why": "Measles virus is an enveloped, nonsegmented, negative-sense RNA paramyxovirus spread by respiratory droplets. Its hemagglutinin binds the cell receptor, and its fusion (F) protein then merges the viral envelope with the cell membrane at neutral pH. F protein displayed on the surface of infected cells also fuses them with neighboring cells, forming syncytia. In tissue these appear as multinucleated giant cells, such as Warthin-Finkeldey cells in lymphoid tissue and the giant cells of measles pneumonia.",
+    "whyNot": [
+     "Correct.",
+     "Hemagglutinin attaches the virus to its cell receptors (CD150 on immune cells and nectin-4 on epithelial cells) and triggers the fusion protein, but it does not merge membranes itself.",
+     "Measles virus has no neuraminidase. Mumps virus has a combined hemagglutinin-neuraminidase protein, and influenza has a separate neuraminidase that releases new virions.",
+     "Matrix protein lines the inside of the envelope and organizes assembly and budding. It does not fuse cells."
+    ],
+    "study": {
+     "topics": [
+      "Paramyxovirus structure",
+      "Syncytia and giant cells"
+     ],
+     "comps": [
+      "IM-14",
+      "IM-15-F4"
+     ]
+    }
+   },
+   {
+    "id": "IM-C32-Q3",
+    "stem": "Which of the following changes in her respiratory tract best explains why vitamin A deficiency makes her measles more severe?",
+    "options": [
+     "Goblet cell hyperplasia with mucus hypersecretion",
+     "Impaired hydroxylation of collagen in the airway wall",
+     "Absent dynein arms in the cilia of airway cells",
+     "Keratinizing squamous metaplasia of airway lining"
+    ],
+    "answer": 3,
+    "sea": "B",
+    "comp": "IM-10",
+    "obj": "IM-10.6",
+    "dok": 2,
+    "approach": [
+     "Recall the role of retinoic acid: it controls differentiation of epithelial cells.",
+     "Without it, specialized mucus-secreting ciliated epithelium turns into keratinizing squamous epithelium.",
+     "Link the loss of mucociliary clearance to more severe pneumonia."
+    ],
+    "why": "Retinoic acid, the active form of vitamin A, binds nuclear receptors that guide epithelial differentiation. Without it, the ciliated, mucus-secreting columnar epithelium of the airways is replaced by keratinizing squamous epithelium. Mucociliary clearance fails, so measles pneumonia and secondary bacterial infections are more severe. The same change in the conjunctiva causes xerophthalmia and Bitot spots. Measles also lowers vitamin A levels further, and the WHO recommends vitamin A for children with measles because it lowers mortality.",
+    "whyNot": [
+     "Goblet cell hyperplasia follows chronic irritation such as smoking and chronic bronchitis. Vitamin A deficiency reduces goblet cells.",
+     "Collagen hydroxylation needs vitamin C. Its deficiency causes scurvy, with bleeding gums and poor wound healing.",
+     "Absent dynein arms describe primary ciliary dyskinesia (Kartagener syndrome), an inherited disorder, not a nutritional one.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Vitamin A and epithelial differentiation",
+      "Vitamin A in measles"
+     ],
+     "comps": [
+      "IM-10",
+      "IM-15-F4"
+     ]
+    }
+   },
+   {
+    "id": "IM-C32-Q4",
+    "stem": "During her evaluation, a tuberculin skin test and a Candida skin test are placed. At 72 hours, neither shows any induration. Which of the following best explains these results?",
+    "options": [
+     "Loss of B cells from bone marrow failure",
+     "Thymic atrophy with impaired T cell function",
+     "Deficiency of terminal complement components",
+     "Absence of mast cells in the dermis"
+    ],
+    "answer": 1,
+    "sea": "B",
+    "comp": "IM-10",
+    "obj": "IM-10.7",
+    "dok": 2,
+    "approach": [
+     "Recognize the test: recall antigen skin tests measure delayed-type (type IV) hypersensitivity.",
+     "No response to common antigens such as Candida means anergy, a failure of T cell immunity.",
+     "Link protein-energy malnutrition to thymic atrophy and weak cell-mediated immunity."
+    ],
+    "why": "Skin tests with recall antigens measure delayed-type (type IV) hypersensitivity, which needs memory CD4 Th1 cells and macrophages. Loss of these reactions is called anergy. Protein-energy malnutrition is the most common cause of acquired immunodeficiency in the world. It shrinks the thymus, lowers T cell numbers and function, and weakens cell-mediated immunity, so infections such as measles and tuberculosis are more severe. Measles itself also suppresses cell-mediated immunity for weeks, which adds to her risk.",
+    "whyNot": [
+     "B cells make antibody. Skin test reactions read at 48 to 72 hours are driven by T cells and macrophages, not antibody.",
+     "Correct.",
+     "Deficiency of C5 to C9 raises the risk of recurrent Neisseria infections. Complement does not drive delayed skin test reactions.",
+     "Mast cells drive immediate (type I) reactions, a wheal and flare within minutes. Delayed reactions do not depend on mast cells."
+    ],
+    "study": {
+     "topics": [
+      "Malnutrition and immunity",
+      "Delayed-type hypersensitivity"
+     ],
+     "comps": [
+      "IM-10",
+      "IM-13"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "IM-C33",
+  "system": "IM",
+  "dx": "Infectious mononucleosis complicated by splenic rupture",
+  "codes": [
+   "IM-15-F5"
+  ],
+  "case": "A 17-year-old boy comes to the physician because of 8 days of sore throat, fever, and fatigue. Temperature is 38.6 °C (101.5 °F), pulse is 96/min, respirations are 16/min, and blood pressure is 118/70 mm Hg. Physical examination shows enlarged tonsils with gray-white exudate, tender posterior cervical lymphadenopathy, and a spleen tip palpable 3 cm below the left costal margin. Leukocyte count is 15,200/mm3 (normal 4,500 to 11,000) with 62% lymphocytes, many of them atypical. Serum ALT is 118 U/L (normal 10 to 40). A heterophile antibody test is positive. Four days later, he is brought to the emergency department after being struck in the abdomen during a basketball game. He has left upper quadrant pain that radiates to the left shoulder. Pulse is 128/min and blood pressure is 86/52 mm Hg. Ultrasonography shows free intraperitoneal fluid. Diagnosis: infectious mononucleosis complicated by splenic rupture.",
+  "questions": [
+   {
+    "id": "IM-C33-Q1",
+    "stem": "Which of the following best describes the atypical lymphocytes in his blood?",
+    "options": [
+     "CD8 T cells responding to infected B cells",
+     "B cells transformed by the virus they carry",
+     "Plasma cells secreting heterophile antibody",
+     "Monocytes activated by viral infection"
+    ],
+    "answer": 0,
+    "sea": "M",
+    "comp": "IM-15-F5",
+    "obj": "IM-15-F.5",
+    "dok": 2,
+    "approach": [
+     "Identify the virus: EBV, which infects B cells through CD21.",
+     "Ask how the body controls infected B cells: a huge cytotoxic T cell response.",
+     "Those activated CD8 T cells are the atypical lymphocytes (Downey cells)."
+    ],
+    "why": "EBV infects B cells through CD21 and drives them to proliferate. The host answers with a large expansion of cytotoxic CD8 T cells that recognize EBV antigens on the infected B cells. These activated T cells are the atypical lymphocytes: large cells with abundant pale blue cytoplasm that scallops around neighboring red cells. This T cell response causes most of the symptoms and enlarges the lymph nodes, tonsils, liver, and spleen. Giving amoxicillin during the illness often triggers a diffuse rash.",
+    "whyNot": [
+     "Correct.",
+     "Infected B cells are present, but they are few in the blood. The large atypical cells are the T cells that attack them.",
+     "Heterophile antibodies are IgM made by polyclonally activated B cells, but plasma cells are rare in blood and are not the atypical lymphocytes.",
+     "Monocytes are not the atypical cells. The name mononucleosis refers to the many mononuclear cells in the blood, which are mostly activated T cells."
+    ],
+    "study": {
+     "topics": [
+      "Atypical lymphocytes",
+      "EBV and B cells"
+     ],
+     "comps": [
+      "IM-15-F5",
+      "IM-14"
+     ]
+    }
+   },
+   {
+    "id": "IM-C33-Q2",
+    "stem": "Which of the following best explains why his spleen ruptured after minor trauma?",
+    "options": [
+     "Infarction of the spleen from sickled red cells",
+     "Amyloid deposits stiffening the walls of splenic arterioles",
+     "Lymphocytic infiltration of a thin, stretched capsule",
+     "Abscess formation from septic emboli to the spleen"
+    ],
+    "answer": 2,
+    "sea": "X",
+    "comp": "IM-15-F5",
+    "obj": "IM-15-F.6",
+    "dok": 3,
+    "approach": [
+     "Connect the illness to the organ: mononucleosis causes rapid splenic enlargement.",
+     "Recall what happens to the capsule: it is stretched thin and infiltrated by lymphocytes.",
+     "An enlarged spleen below the rib margin is exposed, so mild trauma can tear it."
+    ],
+    "why": "In mononucleosis the spleen enlarges quickly as activated lymphocytes fill the red and white pulp. Lymphocytes also infiltrate the capsule and trabeculae, which become thin and weak. The enlarged spleen extends below the protection of the ribs, so even mild trauma can rupture it, most often in the first 3 weeks of illness. Patients are told to avoid contact sports for at least 3 to 4 weeks. Other EBV complications include hepatitis, autoimmune hemolytic anemia, and EBV-linked cancers such as Burkitt lymphoma, Hodgkin lymphoma, and nasopharyngeal carcinoma.",
+    "whyNot": [
+     "Infarction from sickled red cells occurs in sickle cell disease and leaves a small, scarred spleen (autosplenectomy), not a swollen one.",
+     "Amyloidosis can enlarge the spleen, but nothing in his history suggests a chronic disease that produces amyloid, and his spleen enlarged over days.",
+     "Correct.",
+     "Septic emboli from endocarditis can cause a splenic abscess with fever and a cavity on imaging. His illness and laboratory findings point to EBV."
+    ],
+    "study": {
+     "topics": [
+      "Complications of EBV infection",
+      "Splenic rupture in mononucleosis"
+     ],
+     "comps": [
+      "IM-15-F5"
+     ]
+    }
+   },
+   {
+    "id": "IM-C33-Q3",
+    "stem": "Biopsy of an enlarged tonsil shows scattered infected B cells with condensed chromatin, fragmented nuclei, and intact plasma membranes, each in contact with a CD8 T cell, and no surrounding neutrophils. Which of the following mechanisms most likely caused these changes in the B cells?",
+    "options": [
+     "Insertion of the C5b-9 membrane attack complex",
+     "Caspase activation by granzymes",
+     "Hypochlorous acid formed by myeloperoxidase",
+     "Lysosomal enzyme release after ATP depletion"
+    ],
+    "answer": 1,
+    "sea": "B",
+    "comp": "IM-5",
+    "obj": "IM-5.5",
+    "dok": 3,
+    "approach": [
+     "Read the morphology: condensed chromatin, nuclear fragments, intact membrane, and no inflammation mean apoptosis.",
+     "Identify the killer: a CD8 T cell in contact with each target.",
+     "Recall how cytotoxic T cells trigger apoptosis: perforin lets granzymes in, and granzymes activate caspases."
+    ],
+    "why": "The changes are apoptosis. Cytotoxic CD8 T cells, and NK cells, release perforin, which forms pores in the target cell membrane, and granzymes, which are serine proteases that pass through the pores. Granzyme B cleaves and activates caspases, which take the cell apart from the inside without spilling its contents, so no inflammation follows. CD8 T cells can also trigger apoptosis when their Fas ligand binds Fas on the target, which activates caspase-8.",
+    "whyNot": [
+     "The membrane attack complex punches holes in membranes and causes lysis. It mainly kills Neisseria and other bacteria, and lysed cells do not keep an intact membrane.",
+     "Correct.",
+     "Neutrophils make hypochlorous acid in the respiratory burst to kill ingested microbes. No neutrophils are present, and T cells do not kill this way.",
+     "ATP depletion with lysosomal enzyme release causes necrosis, with cell swelling, ruptured membranes, and inflammation."
+    ],
+    "study": {
+     "topics": [
+      "Perforin and granzymes",
+      "Apoptosis pathways"
+     ],
+     "comps": [
+      "IM-5",
+      "IM-3"
+     ]
+    }
+   },
+   {
+    "id": "IM-C33-Q4",
+    "stem": "Before his CD8 T cell response developed, NK cells killed some B cells in which lytic viral replication had reduced surface MHC class I. Which of the following best explains how the NK cells identified these targets?",
+    "options": [
+     "TCR recognition of viral peptide bound to class I",
+     "CD4 binding to viral peptide on MHC class II",
+     "Rearranged receptors specific for viral antigens",
+     "Absent inhibitory signal from self class I"
+    ],
+    "answer": 3,
+    "sea": "M",
+    "comp": "IM-3",
+    "obj": "IM-3.5",
+    "dok": 2,
+    "approach": [
+     "Note the key change in the target: less MHC class I on the surface.",
+     "Recall that NK cells carry inhibitory receptors that bind self class I.",
+     "Loss of class I removes the brake, so activating signals win and the NK cell kills."
+    ],
+    "why": "NK cells carry inhibitory receptors, such as killer-cell immunoglobulin-like receptors, that bind self MHC class I. A normal cell sends this signal and is spared. Many viruses, including EBV during lytic replication, and many tumors lower class I to hide from CD8 T cells. These cells then fail to deliver the inhibitory signal, activating receptors on the NK cell take over, and the NK cell releases perforin and granzymes. This is missing self recognition. NK cells need no prior sensitization and act within days of infection.",
+    "whyNot": [
+     "This is how CD8 T cells recognize targets. It needs class I on the target, which these cells have lost.",
+     "CD4 is a coreceptor on helper T cells, which do not directly kill infected cells. NK cells do not recognize peptides on class II.",
+     "Rearranged antigen-specific receptors belong to T and B cells. NK cells use germline-encoded receptors and are part of innate immunity.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "NK cells and missing self",
+      "MHC class I"
+     ],
+     "comps": [
+      "IM-3",
+      "IM-13"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "IM-C34",
+  "system": "IM",
+  "dx": "Mumps parotitis with orchitis",
+  "codes": [
+   "IM-15-F6"
+  ],
+  "case": "A 23-year-old man comes to the emergency department because of a 1-day history of severe pain and swelling of the right testis. Six days ago he developed fever and painful swelling on both sides of the face in front of the ears. He did not receive childhood vaccinations, and a mumps outbreak has been reported at his university. Temperature is 39.1 °C (102.4 °F), pulse is 104/min, respirations are 16/min, and blood pressure is 124/76 mm Hg. Both parotid glands are enlarged and tender. The right testis is swollen and very tender, and the overlying scrotal skin is red. The cremasteric reflex is present. Doppler ultrasonography shows increased blood flow to the right testis. Serum amylase is 286 U/L (normal 25 to 125). Serum mumps IgM is positive. Diagnosis: mumps parotitis with orchitis.",
+  "questions": [
+   {
+    "id": "IM-C34-Q1",
+    "stem": "Which of the following best explains why this complication can lead to atrophy of the affected testis?",
+    "options": [
+     "Twisting of the spermatic cord around the swollen testis",
+     "Thrombosis of the testicular artery from viral vasculitis",
+     "Destruction of Leydig cells by antisperm antibodies",
+     "Edema confined by the inelastic tunica albuginea"
+    ],
+    "answer": 3,
+    "sea": "X",
+    "comp": "IM-15-F6",
+    "obj": "IM-15-F.7",
+    "dok": 3,
+    "approach": [
+     "Identify the complication: mumps orchitis in a postpubertal man.",
+     "Recall the anatomy: the testis is wrapped in a tough, inelastic capsule, the tunica albuginea.",
+     "Swelling inside a rigid capsule raises pressure, cuts tubular blood flow, and causes pressure necrosis."
+    ],
+    "why": "Mumps virus reaches glandular tissue through the blood, and after puberty the testis is a common target. The inflamed seminiferous tubules swell, but the testis is enclosed by the tunica albuginea, a dense, inelastic fibrous capsule. Pressure inside the testis rises, blood flow to the tubules falls, and germ cells die from pressure necrosis. Up to about half of affected testes later shrink. Orchitis is usually on one side, so sterility is uncommon. Other mumps complications are aseptic meningitis and pancreatitis.",
+    "whyNot": [
+     "Torsion twists the cord and cuts off blood flow, so Doppler shows reduced flow and the cremasteric reflex is usually absent. He has increased flow and an intact reflex.",
+     "Mumps does not cause a vasculitis that clots the testicular artery. His Doppler study shows increased blood flow.",
+     "Antisperm antibodies target sperm, not Leydig cells, and they do not explain shrinkage of the testis.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Complications of mumps",
+      "Mumps orchitis"
+     ],
+     "comps": [
+      "IM-15-F6"
+     ]
+    }
+   },
+   {
+    "id": "IM-C34-Q2",
+    "stem": "Public health officials offer vaccination to unvaccinated contacts on campus but advise against it for a contact who takes tacrolimus after a kidney transplant. Which of the following properties of this vaccine explains both its strong cytotoxic T cell response and this precaution?",
+    "options": [
+     "Conjugation of a polysaccharide to a protein carrier",
+     "Replication of the weakened virus in host cells",
+     "Formaldehyde inactivation that preserves surface antigens",
+     "Use of a toxin treated to remove its toxicity"
+    ],
+    "answer": 1,
+    "sea": "M",
+    "comp": "IM-13",
+    "obj": "IM-13.4",
+    "dok": 3,
+    "approach": [
+     "Identify the vaccine: MMR, a live attenuated vaccine.",
+     "Live virus makes its proteins inside host cells, so they reach MHC class I and CD8 T cells.",
+     "The same ability to replicate makes it unsafe when cell-mediated immunity is suppressed."
+    ],
+    "why": "MMR is a live attenuated vaccine. The weakened virus replicates inside host cells, so its proteins are made in the cytosol and presented on MHC class I to CD8 T cells, while the virus particles also drive strong antibody production. One or two doses give long-lasting cellular and humoral immunity. Because the virus can still replicate, it can cause serious disease in people with weak cell-mediated immunity, so live vaccines are avoided in severe immunodeficiency, in transplant recipients taking immunosuppressive drugs, and in pregnancy.",
+    "whyNot": [
+     "Conjugate vaccines (Hib, pneumococcal, meningococcal) link a polysaccharide to a protein so T cells help B cells make IgG. They contain nothing alive and are safe in immunosuppression.",
+     "Correct.",
+     "Inactivated vaccines, such as injected polio and hepatitis A vaccines, cannot replicate. They mainly induce antibody and are safe in immunosuppressed patients.",
+     "Toxoid vaccines (tetanus, diphtheria) contain inactivated toxin and induce antitoxin antibody. They do not replicate."
+    ],
+    "study": {
+     "topics": [
+      "Live attenuated vaccines",
+      "Comparison of vaccine types"
+     ],
+     "comps": [
+      "IM-13",
+      "IM-5"
+     ]
+    }
+   },
+   {
+    "id": "IM-C34-Q3",
+    "stem": "Ultrasonography 3 months later, after the swelling has resolved, shows a 1.5-cm solid hypoechoic mass in the left testis. Orchiectomy shows a seminoma. To which of the following lymph node groups does this tumor most likely spread first?",
+    "options": [
+     "Lumbar (para-aortic) nodes",
+     "Superficial inguinal nodes",
+     "Internal iliac nodes",
+     "External iliac nodes"
+    ],
+    "answer": 0,
+    "sea": "A",
+    "comp": "IM-4",
+    "obj": "IM-4.3",
+    "dok": 3,
+    "approach": [
+     "Recall where the testis forms: on the posterior abdominal wall near the kidney.",
+     "As it descends, it brings its vessels and lymphatics with it in the spermatic cord.",
+     "So testicular lymph drains to the lumbar (para-aortic) nodes near the renal veins, not to the groin."
+    ],
+    "why": "The testis develops on the posterior abdominal wall and descends into the scrotum, bringing its vessels and lymphatics with it. Its lymph vessels run with the testicular vessels in the spermatic cord to the lumbar (para-aortic) nodes at about the level of the renal veins. The scrotal skin forms locally and drains to the superficial inguinal nodes. So testicular cancer spreads first to retroperitoneal nodes, while cancer of the scrotal skin spreads first to the groin.",
+    "whyNot": [
+     "Correct.",
+     "Superficial inguinal nodes drain the scrotal skin, perineum, anal canal below the pectinate line, and lower limb. Testicular cancer reaches them only if it invades the scrotum or the scrotum has had surgery.",
+     "Internal iliac nodes drain pelvic organs such as the prostate, bladder base, cervix, and the anal canal above the pectinate line.",
+     "External iliac nodes receive lymph from the deep inguinal nodes and parts of the bladder and uterus. The testis bypasses them because its lymphatics run with the testicular vessels."
+    ],
+    "study": {
+     "topics": [
+      "Lymphatic drainage of the testis",
+      "Testis versus scrotum drainage"
+     ],
+     "comps": [
+      "IM-4"
+     ]
+    }
+   },
+   {
+    "id": "IM-C34-Q4",
+    "stem": "Mumps virions carry their own RNA-dependent RNA polymerase into the cells they infect, and purified genomic RNA alone cannot start an infection. Which of the following features of the viral genome explains these findings?",
+    "options": [
+     "Positive-sense single-stranded RNA",
+     "Double-stranded linear DNA",
+     "Negative-sense single-stranded RNA",
+     "Single-stranded linear DNA"
+    ],
+    "answer": 2,
+    "sea": "M",
+    "comp": "IM-14",
+    "obj": "IM-14.4",
+    "dok": 2,
+    "approach": [
+     "Ask why a virus must bring its own RNA-dependent RNA polymerase: host cells have no enzyme that copies RNA from RNA.",
+     "Purified RNA that cannot start infection means the genome cannot be read directly by ribosomes.",
+     "Both point to a negative-sense RNA genome, as in all paramyxoviruses."
+    ],
+    "why": "Mumps virus is an enveloped paramyxovirus with one nonsegmented, negative-sense RNA strand. A negative-sense genome is the complement of mRNA, so ribosomes cannot read it. The virus must bring its own RNA-dependent RNA polymerase to copy the genome into mRNA, and naked genomic RNA cannot start infection. Mumps spreads by respiratory droplets and saliva, replicates in the upper airway and nearby lymph nodes, and then reaches the parotid glands, testes, pancreas, and meninges through the blood.",
+    "whyNot": [
+     "Positive-sense RNA works directly as mRNA, so these viruses (such as polio and hepatitis C virus) do not need to carry a polymerase, and their purified RNA is infectious.",
+     "DNA viruses do not need an RNA-dependent RNA polymerase. Their genes are transcribed from DNA, usually by host RNA polymerase II in the nucleus.",
+     "Correct.",
+     "Single-stranded DNA viruses, such as parvovirus B19, are copied into double-stranded DNA by host enzymes. They do not use an RNA-dependent RNA polymerase."
+    ],
+    "study": {
+     "topics": [
+      "Negative-sense RNA viruses",
+      "Paramyxoviruses"
+     ],
+     "comps": [
+      "IM-14",
+      "IM-15-F6"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "IM-C35",
+  "system": "IM",
+  "dx": "Roseola infantum with a febrile seizure",
+  "codes": [
+   "IM-15-F7"
+  ],
+  "case": "A 13-month-old boy is brought to the physician because of a rash that appeared this morning. For the past 3 days he has had fever up to 40.0 °C (104.0 °F) with irritability but no cough, runny nose, or diarrhea. Yesterday, during a rapid rise in temperature, he had a generalized tonic-clonic seizure that lasted 2 minutes, with full recovery within an hour. The fever resolved overnight. He attends day care, and his vaccinations are up to date. Temperature is now 37.0 °C (98.6 °F), pulse is 118/min, and respirations are 28/min. He is alert and playful. Physical examination shows a pink, blanching maculopapular rash on the trunk and neck, mild cervical lymphadenopathy, and a supple neck. Neurologic examination shows no abnormalities. Diagnosis: roseola infantum with a simple febrile seizure.",
+  "questions": [
+   {
+    "id": "IM-C35-Q1",
+    "stem": "His 4-month-old cousin, who spends each day with him, remains well. This illness is rare in infants younger than 6 months. Which of the following best explains this age pattern?",
+    "options": [
+     "Absent viral entry receptors on infant T cells",
+     "Transplacental maternal IgG against the virus",
+     "Antiviral IgM made by the infant's own B cells",
+     "Inability of infant cells to support viral latency"
+    ],
+    "answer": 1,
+    "sea": "M",
+    "comp": "IM-15-F7",
+    "obj": "IM-15-F.8",
+    "dok": 3,
+    "approach": [
+     "Identify the illness: roseola, caused by HHV-6, spread by saliva from people who already carry it.",
+     "Nearly all mothers have been infected and carry IgG against the virus.",
+     "That IgG crosses the placenta and protects the infant until it wanes after about 6 months."
+    ],
+    "why": "Roseola is caused by HHV-6, mostly HHV-6B, and less often HHV-7. Nearly all adults carry the virus and shed it in saliva, so infants are exposed early. In the first months of life, maternal IgG that crossed the placenta protects them. As that antibody fades after about 6 months, infection follows, so most children are infected between 6 months and 2 years. The illness shows 3 to 5 days of high fever, then a pink rash on the trunk as the fever breaks, and the rapid fever raises the risk of febrile seizures.",
+    "whyNot": [
+     "Cells that HHV-6 can infect are present from birth, and congenital HHV-6 infection occurs, so lack of receptors does not explain the age pattern.",
+     "Correct.",
+     "An infant makes IgM only after being infected. A 4-month-old who is protected without ever having been ill is relying on antibody from the mother.",
+     "HHV-6 becomes latent after infection at any age. Latency does not explain why young infants escape the illness."
+    ],
+    "study": {
+     "topics": [
+      "Roseola infantum",
+      "Passive maternal antibody"
+     ],
+     "comps": [
+      "IM-15-F7",
+      "IM-5"
+     ]
+    }
+   },
+   {
+    "id": "IM-C35-Q2",
+    "stem": "Which of the following best describes the virus that most likely caused his illness?",
+    "options": [
+     "Enveloped dsDNA virus that enters B cells through CD21",
+     "Nonenveloped ssDNA virus that infects erythroid precursors",
+     "Enveloped RNA virus that forms syncytia in respiratory epithelium",
+     "Enveloped dsDNA virus that infects CD4 T cells"
+    ],
+    "answer": 3,
+    "sea": "M",
+    "comp": "IM-14",
+    "obj": "IM-14.5",
+    "dok": 2,
+    "approach": [
+     "Use the pattern: high fever for days, then a truncal rash as the fever breaks, in a child under 2 means roseola.",
+     "Name the cause: HHV-6, a herpesvirus.",
+     "Recall its features: enveloped dsDNA, lifelong latency, replication in CD4 T cells, spread by saliva."
+    ],
+    "why": "Roseola is caused by human herpesvirus 6, mostly HHV-6B, and less often HHV-7. Like all herpesviruses, HHV-6 is an enveloped, double-stranded DNA virus that stays latent for life after the first infection. It replicates mainly in CD4 T cells and is shed in saliva, which is how it passes from older children and adults to infants. Reactivation can cause disease in transplant recipients.",
+    "whyNot": [
+     "This describes Epstein-Barr virus, which causes infectious mononucleosis in adolescents. EBV is also spread by saliva, but it does not cause roseola.",
+     "This describes parvovirus B19, which causes erythema infectiosum (slapped cheek rash) and can halt red cell production.",
+     "This describes measles virus, a paramyxovirus. Measles causes cough, coryza, conjunctivitis, and a rash that appears while the fever is still high.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Human herpesvirus 6",
+      "Herpesvirus family features"
+     ],
+     "comps": [
+      "IM-14",
+      "IM-15-F7"
+     ]
+    }
+   },
+   {
+    "id": "IM-C35-Q3",
+    "stem": "During the first hour of each fever spike, his hands and feet were cool and pale and he shivered, even as his core temperature rose. Which of the following best explains these findings?",
+    "options": [
+     "Direct stimulation of skeletal muscle by viral toxins",
+     "Excess thyroid hormone increasing metabolic heat",
+     "Raised hypothalamic set point from prostaglandin E2",
+     "Failure of sweat gland function from viral injury"
+    ],
+    "answer": 2,
+    "sea": "P",
+    "comp": "IM-6",
+    "obj": "IM-6.3",
+    "dok": 2,
+    "approach": [
+     "Notice that he acts as if he is cold while his temperature is rising.",
+     "That means the hypothalamic set point has been raised above his current temperature.",
+     "Link the raised set point to cytokines (IL-1, IL-6, TNF-alpha) that induce prostaglandin E2."
+    ],
+    "why": "During infection, immune cells release IL-1, IL-6, and TNF-alpha. These cytokines act near the hypothalamus to induce COX-2, which makes prostaglandin E2. PGE2 raises the hypothalamic set point. The body now senses its normal temperature as too cold, so it conserves and makes heat: skin vessels constrict, giving cool, pale hands and feet, and muscles shiver until core temperature reaches the new set point. When the set point falls, he flushes and sweats. The same cytokines drive the acute phase response, raising CRP, fibrinogen, and ferritin.",
+    "whyNot": [
+     "Viruses do not make toxins that stimulate muscle. Shivering is a reflex controlled by the hypothalamus.",
+     "Fever from infection is not caused by thyroid hormone. Hyperthyroidism raises heat production but causes warm, sweaty skin, not cold hands and shivering.",
+     "Correct.",
+     "Roseola does not damage sweat glands. During the rising phase of fever, the hypothalamus turns sweating off because the body is trying to keep heat."
+    ],
+    "study": {
+     "topics": [
+      "Mechanism of fever",
+      "Acute phase response"
+     ],
+     "comps": [
+      "IM-6"
+     ]
+    }
+   },
+   {
+    "id": "IM-C35-Q4",
+    "stem": "His parents give ibuprofen, which inhibits cyclooxygenase. Arachidonic acid released from his cell membranes can still be converted to which of the following mediators?",
+    "options": [
+     "Leukotriene B4, a neutrophil chemoattractant",
+     "Prostaglandin E2, a mediator of fever and pain",
+     "Thromboxane A2, a platelet aggregator",
+     "Prostacyclin, a platelet aggregation inhibitor"
+    ],
+    "answer": 0,
+    "sea": "B",
+    "comp": "IM-10",
+    "obj": "IM-10.4",
+    "dok": 2,
+    "approach": [
+     "Split arachidonic acid metabolism into its two main branches: cyclooxygenase and 5-lipoxygenase.",
+     "Prostaglandins, prostacyclin, and thromboxane all come from cyclooxygenase, so ibuprofen blocks them.",
+     "Leukotrienes come from 5-lipoxygenase, which ibuprofen does not block."
+    ],
+    "why": "Phospholipase A2 releases arachidonic acid from membrane phospholipids. Cyclooxygenase (COX-1 and COX-2) converts it to prostaglandins, prostacyclin, and thromboxane, so ibuprofen lowers all of these. 5-Lipoxygenase is a separate enzyme that converts arachidonic acid to leukotrienes. LTB4 draws neutrophils, and LTC4, LTD4, and LTE4 constrict bronchi and increase vascular permeability. Blocking COX leaves this pathway running and can shift more substrate into it, which is one reason NSAIDs can trigger bronchospasm in aspirin-exacerbated respiratory disease.",
+    "whyNot": [
+     "Correct.",
+     "PGE2 is made by cyclooxygenase. Lowering it is how ibuprofen reduces his fever and pain.",
+     "Thromboxane A2 is made by cyclooxygenase in platelets. Its loss is why NSAIDs impair platelet aggregation.",
+     "Prostacyclin is made by cyclooxygenase in endothelial cells, so ibuprofen lowers it as well."
+    ],
+    "study": {
+     "topics": [
+      "Arachidonic acid pathways",
+      "Leukotrienes"
+     ],
+     "comps": [
+      "IM-10",
+      "IM-6"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "IM-C36",
+  "system": "IM",
+  "dx": "Congenital rubella syndrome",
+  "codes": [
+   "IM-15-F8"
+  ],
+  "case": "A female newborn is evaluated shortly after birth at 38 weeks' gestation. Her 24-year-old mother received no prenatal care and was never vaccinated. At about 9 weeks' gestation, the mother had a mild illness with low-grade fever, a pink rash that began on the face and spread to the trunk, enlarged tender nodes behind the ears, and aching finger joints. Birth weight is 2,150 g (small for gestational age). Physical examination shows bilateral white pupillary reflexes, a continuous machinery-like murmur below the left clavicle, hepatosplenomegaly, and scattered blue-purple papules and macules on the skin. She fails the newborn hearing screen in both ears. Platelet count is 46,000/mm3 (normal 150,000 to 450,000). Echocardiography shows a patent ductus arteriosus. Serologic studies are pending. Diagnosis: congenital rubella syndrome.",
+  "questions": [
+   {
+    "id": "IM-C36-Q1",
+    "stem": "Which of the following best explains why maternal infection at 9 weeks' gestation caused these malformations, whereas infection after 20 weeks usually does not?",
+    "options": [
+     "Maternal antibodies attacking fetal organ antigens",
+     "Teratogenic effect of the mother's mild fever",
+     "Viral inhibition of cell division during organogenesis",
+     "Placental impermeability to the virus in early pregnancy"
+    ],
+    "answer": 2,
+    "sea": "X",
+    "comp": "IM-15-F8",
+    "obj": "IM-15-F.9",
+    "dok": 3,
+    "approach": [
+     "Recall the timing of organogenesis: about weeks 3 to 8, with eyes, ears, and heart finishing soon after.",
+     "Rubella infects fetal cells, slows their division, and damages small vessels.",
+     "Damage during organ formation produces malformations, while later infection finds organs already built."
+    ],
+    "why": "Rubella virus reaches the fetus through maternal viremia and infection of the placenta. In fetal cells it slows cell division, causes apoptosis, and damages small vessels in developing organs. The harm is greatest while organs are forming, so infection in the first 11 weeks carries a risk of defects of up to about 90%. After about 20 weeks, defects are rare. The classic findings are cataracts, sensorineural deafness, and heart defects such as patent ductus arteriosus. The blue-purple blueberry muffin lesions are spots of extramedullary hematopoiesis in the skin.",
+    "whyNot": [
+     "The defects come from the virus infecting fetal cells. Maternal IgG against rubella protects the fetus, which is why infants of immune mothers are rarely affected.",
+     "High fever early in pregnancy is linked to neural tube defects, but her fever was low grade, and fever does not produce this pattern of eye, ear, and heart defects.",
+     "Correct.",
+     "The placenta does not block rubella early in pregnancy. Early infection is the most dangerous, because organs are still forming."
+    ],
+    "study": {
+     "topics": [
+      "Congenital rubella syndrome",
+      "Timing of teratogenic infection"
+     ],
+     "comps": [
+      "IM-15-F8"
+     ]
+    }
+   },
+   {
+    "id": "IM-C36-Q2",
+    "stem": "Which of the following serologic results at birth would best confirm that she was infected before birth?",
+    "options": [
+     "Rubella-specific IgM in the infant's serum",
+     "Rubella-specific IgG in the infant's serum",
+     "Low-avidity rubella IgG in the mother's serum",
+     "Rising rubella IgG titer in the mother's serum"
+    ],
+    "answer": 0,
+    "sea": "M",
+    "comp": "IM-5",
+    "obj": "IM-5.6",
+    "dok": 3,
+    "approach": [
+     "Ask which antibodies in a newborn could have come from the mother: only IgG crosses the placenta.",
+     "IgM is the first antibody of a primary response and cannot cross the placenta.",
+     "So rubella IgM in the newborn must have been made by the fetus in response to its own infection."
+    ],
+    "why": "IgG is the only antibody that crosses the placenta, carried by the neonatal Fc receptor. Rubella IgG in a newborn may simply be the mother's antibody, which fades over 6 to 12 months. IgM is a large pentamer that cannot cross the placenta, and it is the first antibody made in a primary response. Rubella IgM in the infant must have been made by the fetus's own B cells, which proves fetal infection. Tests on the mother can date her infection but cannot prove that the fetus was infected.",
+    "whyNot": [
+     "Correct.",
+     "IgG in the newborn can come from the mother across the placenta, so a positive result at birth does not prove fetal infection.",
+     "Low-avidity IgG shows the mother's infection was recent, which helps date her illness, but it does not show whether the fetus was infected.",
+     "A rising maternal titer shows active or recent infection in the mother, not in the fetus."
+    ],
+    "study": {
+     "topics": [
+      "Primary antibody response",
+      "Placental transfer of IgG"
+     ],
+     "comps": [
+      "IM-5",
+      "IM-15-F8"
+     ]
+    }
+   },
+   {
+    "id": "IM-C36-Q3",
+    "stem": "The mother's illness included enlarged nodes behind her ears. An isolated infection at which of the following sites would most likely also enlarge this node group?",
+    "options": [
+     "Skin of the lower lip and chin",
+     "Ulnar side of the hand and forearm",
+     "Skin of the lateral chest wall",
+     "Scalp above and behind the ear"
+    ],
+    "answer": 3,
+    "sea": "A",
+    "comp": "IM-4",
+    "obj": "IM-4.2",
+    "dok": 2,
+    "approach": [
+     "Name the node group: nodes behind the ear are the mastoid (retroauricular) nodes.",
+     "Recall their territory: the scalp above and behind the ear and the back of the auricle.",
+     "Pick the site inside that territory."
+    ],
+    "why": "The nodes behind the ear are the mastoid (retroauricular) nodes. They drain the scalp above and behind the ear, the back of the auricle, and part of the external acoustic meatus, and they empty into the deep cervical nodes. Scalp infections such as infected lice bites or tinea capitis often enlarge them. In rubella, the virus spreads through lymphoid tissue widely, but the postauricular, posterior cervical, and suboccipital nodes enlarge most noticeably.",
+    "whyNot": [
+     "The lower lip and chin drain to the submental nodes under the chin.",
+     "The ulnar side of the hand and forearm drains to the epitrochlear nodes above the medial epicondyle.",
+     "The lateral chest wall drains to the axillary nodes.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Head and neck lymph node groups",
+      "Lymphadenopathy by site"
+     ],
+     "comps": [
+      "IM-4",
+      "IM-15-F8"
+     ]
+    }
+   },
+   {
+    "id": "IM-C36-Q4",
+    "stem": "The mother acquired rubella from a coworker. Which of the following sequences best describes how the virus reached the fetus?",
+    "options": [
+     "Mosquito bite, then viremia that seeded the placenta",
+     "Respiratory droplets, then viremia that seeded the placenta",
+     "Fecal-oral spread, then ascending infection through the cervix",
+     "Sexual contact, then infection during passage through the birth canal"
+    ],
+    "answer": 1,
+    "sea": "M",
+    "comp": "IM-14",
+    "obj": "IM-14.4",
+    "dok": 2,
+    "approach": [
+     "Recall how rubella spreads between people: respiratory droplets.",
+     "It replicates in the nasopharynx and nearby nodes, then enters the blood.",
+     "During viremia it infects the placenta and crosses to the fetus."
+    ],
+    "why": "Rubella virus is an enveloped, positive-sense single-stranded RNA virus, formerly classed as a togavirus. It spreads by respiratory droplets, replicates in the nasopharynx and nearby lymph nodes (which is why the nodes behind the ears enlarge), and then enters the blood. During this viremia it infects the placenta and crosses to the fetus. Infants with congenital rubella can shed virus in urine and throat secretions for months and can infect others.",
+    "whyNot": [
+     "Many viruses once grouped with rubella as togaviruses, such as the alphaviruses, are spread by mosquitoes, but rubella spreads person to person by respiratory droplets.",
+     "Correct.",
+     "Fecal-oral spread fits hepatitis A virus and enteroviruses. Ascending infection through the cervix is how bacteria such as group B streptococci reach the amniotic fluid.",
+     "Infection in the birth canal is how herpes simplex virus reaches newborns. It cannot explain malformations that formed in the first trimester."
+    ],
+    "study": {
+     "topics": [
+      "Rubella virus transmission",
+      "Congenital infections"
+     ],
+     "comps": [
+      "IM-14",
+      "IM-15-F8"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "IM-C37",
+  "system": "IM",
+  "dx": "Scarlet fever after streptococcal pharyngitis",
+  "codes": [
+   "IM-15-F9"
+  ],
+  "case": "A 7-year-old girl is brought to the physician because of a 2-day history of sore throat, fever, headache, and vomiting, and a rash that appeared this morning. She has no cough or runny nose. Temperature is 39.2 °C (102.6 °F), pulse is 120/min, and respirations are 22/min. The tonsils are red and swollen with patches of exudate, and the anterior cervical nodes are enlarged and tender. The tongue is red with prominent papillae. The face is flushed except around the mouth. A fine, red, blanching rash with a rough texture covers the neck, chest, and trunk, with linear red streaks in the antecubital and axillary folds. A rapid antigen detection test of a throat swab is positive for group A streptococcus. Diagnosis: scarlet fever.",
+  "questions": [
+   {
+    "id": "IM-C37-Q1",
+    "stem": "She receives a 10-day course of amoxicillin started on the day of diagnosis. This treatment most reliably prevents which of the following complications?",
+    "options": [
+     "Acute rheumatic fever",
+     "Poststreptococcal glomerulonephritis",
+     "Immune thrombocytopenic purpura",
+     "Guillain-Barre syndrome"
+    ],
+    "answer": 0,
+    "sea": "X",
+    "comp": "IM-15-F9",
+    "obj": "IM-15-F.10",
+    "dok": 3,
+    "approach": [
+     "List the two classic nonsuppurative complications of group A strep: rheumatic fever and glomerulonephritis.",
+     "Recall their mechanisms: rheumatic fever from cross-reacting antibodies, PSGN from immune complexes.",
+     "Only rheumatic fever is prevented by prompt antibiotic treatment of the throat infection."
+    ],
+    "why": "Acute rheumatic fever follows group A strep pharyngitis by about 2 to 4 weeks. Antibodies against M protein cross-react with heart, joint, and brain antigens (molecular mimicry). Treating the throat infection with penicillin or amoxicillin within about 9 days of symptom onset clears the organism before a strong cross-reacting response develops, and it prevents most cases. Poststreptococcal glomerulonephritis, which can follow throat or skin infection, is caused by immune complexes and is not reliably prevented by antibiotics. After scarlet fever, the skin of the hands and feet often peels about a week later.",
+    "whyNot": [
+     "Correct.",
+     "PSGN appears 1 to 3 weeks after strep throat or 3 to 6 weeks after impetigo, with dark urine, edema, hypertension, and low C3. Antibiotic treatment does not reliably prevent it.",
+     "Immune thrombocytopenic purpura in children usually follows a viral infection and is caused by antiplatelet antibodies. It is not a complication of strep throat that antibiotics prevent.",
+     "Guillain-Barre syndrome is linked most often to Campylobacter jejuni enteritis through molecular mimicry with nerve gangliosides, not to strep pharyngitis."
+    ],
+    "study": {
+     "topics": [
+      "Complications of group A strep",
+      "Prevention of rheumatic fever"
+     ],
+     "comps": [
+      "IM-15-F9",
+      "IM-13"
+     ]
+    }
+   },
+   {
+    "id": "IM-C37-Q2",
+    "stem": "A throat culture grows small colonies surrounded by complete clearing on sheep blood agar. Gram stain shows gram-positive cocci in chains, and the catalase test is negative. Which of the following additional results best identifies the organism that caused her illness?",
+    "options": [
+     "Growth inhibited by an optochin disk",
+     "Hippurate hydrolysis with a positive CAMP test",
+     "Growth inhibited by a bacitracin disk",
+     "Growth in 6.5% sodium chloride and on bile esculin"
+    ],
+    "answer": 2,
+    "sea": "M",
+    "comp": "IM-14",
+    "obj": "IM-14.6",
+    "dok": 2,
+    "approach": [
+     "Read the culture: complete (beta) hemolysis, cocci in chains, catalase negative means a beta-hemolytic streptococcus.",
+     "The two main beta-hemolytic streptococci are group A and group B.",
+     "Group A is bacitracin sensitive, and group B is bacitracin resistant."
+    ],
+    "why": "Complete (beta) hemolysis, gram-positive cocci in chains, and a negative catalase test identify a beta-hemolytic streptococcus. Group A (S pyogenes) is separated from group B (S agalactiae) by bacitracin: group A is sensitive and group B is resistant. Group A is also PYR positive. S pyogenes causes pharyngitis and scarlet fever through its M protein, which resists phagocytosis, and its pyrogenic exotoxins.",
+    "whyNot": [
+     "Optochin sensitivity identifies S pneumoniae, which is alpha-hemolytic and appears as lancet-shaped diplococci.",
+     "Hippurate hydrolysis and a positive CAMP test identify group B streptococcus, a cause of neonatal sepsis and meningitis that is resistant to bacitracin.",
+     "Correct.",
+     "Growth in 6.5% salt and on bile esculin identifies Enterococcus, which is usually not beta-hemolytic and causes urinary tract infections and endocarditis."
+    ],
+    "study": {
+     "topics": [
+      "Identification of streptococci",
+      "Streptococcus pyogenes"
+     ],
+     "comps": [
+      "IM-14"
+     ]
+    }
+   },
+   {
+    "id": "IM-C37-Q3",
+    "stem": "Her rash is caused by streptococcal pyrogenic exotoxins. The same family of toxins can cause streptococcal toxic shock syndrome. Which of the following best describes how these toxins activate so many T cells?",
+    "options": [
+     "Being processed into peptides presented on class II",
+     "Bridging class II to TCR V-beta outside the groove",
+     "Cross-linking IgE bound to mast cells in the dermis",
+     "Binding CD28 on T cells in place of B7 molecules"
+    ],
+    "answer": 1,
+    "sea": "M",
+    "comp": "IM-6",
+    "obj": "IM-6.7",
+    "dok": 3,
+    "approach": [
+     "Name the toxin class: pyrogenic exotoxins are superantigens.",
+     "Recall how superantigens bind: unprocessed, to the outside of MHC class II and the V-beta region of the TCR.",
+     "This links any T cell with that V-beta family, so a large fraction of all T cells fire at once."
+    ],
+    "why": "Streptococcal pyrogenic exotoxins, like S aureus TSST-1, are superantigens. They are not processed. They clamp the outside of an MHC class II molecule on an antigen-presenting cell to the V-beta region of a T cell receptor, whatever peptide sits in the groove. Every T cell with a matching V-beta family is activated, up to about 20% of all T cells instead of the usual tiny fraction. The resulting flood of IL-2, IFN-gamma, and TNF causes fever and rash, and in toxic shock, capillary leak, shock, and organ failure.",
+    "whyNot": [
+     "Normal protein antigens are processed and presented as peptides in the class II groove. This activates only the rare T cells whose receptor fits that peptide.",
+     "Correct.",
+     "Cross-linking IgE on mast cells causes immediate hypersensitivity such as hives and anaphylaxis, not activation of large numbers of T cells.",
+     "CD28 binding B7 provides the second signal for T cell activation. Superantigens act at the T cell receptor, not by replacing B7."
+    ],
+    "study": {
+     "topics": [
+      "Superantigens",
+      "Toxic shock syndrome"
+     ],
+     "comps": [
+      "IM-6",
+      "IM-14"
+     ]
+    }
+   },
+   {
+    "id": "IM-C37-Q4",
+    "stem": "Two weeks later, her 6-year-old classmate has a few days of low-grade fever and runny nose. After these symptoms resolve, bright red cheeks appear, followed by a lacelike pink rash on the arms that fades and returns with warm baths. Which of the following is the most likely cause of the classmate's rash?",
+    "options": [
+     "Human herpesvirus 6",
+     "Rubella virus",
+     "Streptococcus pyogenes",
+     "Parvovirus B19"
+    ],
+    "answer": 3,
+    "sea": "M",
+    "comp": "IM-15-F1",
+    "obj": "IM-15-F.12",
+    "dok": 3,
+    "approach": [
+     "Note the timing: the rash appears after the mild febrile illness has ended.",
+     "Note the pattern: slapped cheeks, then a lacy, reticular rash on the limbs that recurs with heat.",
+     "This is erythema infectiosum, caused by parvovirus B19."
+    ],
+    "why": "Erythema infectiosum (fifth disease) from parvovirus B19 begins with a mild prodrome of fever and coryza. Several days later, when the child already feels well, bright red cheeks appear, followed by a lacy, reticular rash on the limbs that can fade and return for weeks with heat, sunlight, or exercise. The rash is immune mediated, so the child is no longer contagious once it appears. By contrast, scarlet fever and measles rashes appear while the child is febrile, and the roseola rash appears just as a high fever breaks.",
+    "whyNot": [
+     "Roseola from HHV-6 affects children under about 2 years, with 3 to 5 days of high fever and a truncal rash as the fever breaks. It does not cause red cheeks followed by a lacy limb rash.",
+     "Rubella causes a mild pink rash that spreads from the face to the trunk over a day and fades in about 3 days, with enlarged nodes behind the ears.",
+     "Scarlet fever comes with fever and sore throat at the same time as a sandpaper rash with circumoral pallor and Pastia lines. The rash is not lacy and does not come and go.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Childhood exanthems",
+      "Erythema infectiosum"
+     ],
+     "comps": [
+      "IM-15-F1",
+      "IM-14"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "IM-C38",
+  "system": "IM",
+  "dx": "Abetalipoproteinemia",
+  "codes": [
+   "IM-11"
+  ],
+  "case": "A 6-year-old boy is brought to the physician because of an unsteady gait that has worsened over the past year. Since infancy he has had large, pale, foul-smelling stools, and his weight has stayed below the 3rd percentile. His parents are first cousins. Physical examination shows a wide-based gait, absent knee and ankle reflexes, and decreased vibration and position sense in the feet. Hemoglobin is 11.2 g/dL (normal 11.5 to 14.5), total cholesterol is 42 mg/dL (normal 100 to 170), triglycerides are 6 mg/dL (normal 30 to 100), and INR is 1.6 (normal 0.9 to 1.1). A peripheral blood smear shows many red cells with irregular spiky projections. Duodenal biopsy shows normal villi with enterocytes filled with clear lipid droplets. Genetic testing shows biallelic pathogenic variants in MTTP. Diagnosis: abetalipoproteinemia.",
+  "questions": [
+   {
+    "id": "IM-C38-Q1",
+    "stem": "Deficiency of which of the following vitamins best explains his neurologic findings?",
+    "options": [
+     "Vitamin A",
+     "Vitamin D",
+     "Vitamin B12",
+     "Vitamin E"
+    ],
+    "answer": 3,
+    "sea": "X",
+    "comp": "IM-11",
+    "obj": "IM-11.3",
+    "dok": 3,
+    "approach": [
+     "Link the defect to its result: no MTP means no chylomicrons or VLDL, so fat and fat-soluble vitamins are not absorbed or carried.",
+     "Match the neurologic picture: ataxia, areflexia, and loss of vibration and position sense mean damage to the spinocerebellar tracts, posterior columns, and peripheral nerves.",
+     "That pattern is the hallmark of vitamin E deficiency."
+    ],
+    "why": "Without microsomal triglyceride transfer protein (MTP), enterocytes cannot load triglyceride onto apoB-48, so no chylomicrons form, and the liver cannot make VLDL or LDL. Fat stays trapped in enterocytes, and fat-soluble vitamins are poorly absorbed and poorly carried in plasma. Vitamin E, the main antioxidant in cell membranes, falls very low. Its loss damages long axons in the posterior columns, spinocerebellar tracts, and peripheral nerves, causing ataxia, absent reflexes, and loss of vibration and position sense. The spiky red cells (acanthocytes) reflect abnormal membrane lipids, and the high INR reflects vitamin K deficiency.",
+    "whyNot": [
+     "Vitamin A deficiency causes night blindness, xerophthalmia, and dry skin. It does not cause ataxia or loss of vibration and position sense.",
+     "Vitamin D deficiency causes rickets with bone pain and deformity, and low calcium can cause tetany, but not this sensory ataxia.",
+     "B12 deficiency can damage the posterior columns, but B12 is water soluble and is absorbed with intrinsic factor in the ileum, so a failure to make chylomicrons does not cause it.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Abetalipoproteinemia",
+      "Vitamin E deficiency"
+     ],
+     "comps": [
+      "IM-11"
+     ]
+    }
+   },
+   {
+    "id": "IM-C38-Q2",
+    "stem": "A 9-year-old girl at the same clinic has had recurrent acute pancreatitis and eruptive xanthomas. Her plasma is milky after an overnight fast, and fasting triglycerides are 2,400 mg/dL (normal 30 to 100). Lipoprotein lipase activity in her post-heparin plasma is low but becomes normal when a small amount of plasma from a healthy donor is added. Which of the following is the most likely cause of her disorder?",
+    "options": [
+     "Deficiency of microsomal triglyceride transfer protein",
+     "Deficiency of apolipoprotein C-II",
+     "Deficiency of the LDL receptor",
+     "Homozygosity for apolipoprotein E2"
+    ],
+    "answer": 1,
+    "sea": "B",
+    "comp": "IM-11",
+    "obj": "IM-11.2",
+    "dok": 3,
+    "approach": [
+     "Recognize fasting chylomicronemia: milky fasting plasma, very high triglycerides, eruptive xanthomas, and pancreatitis.",
+     "This means chylomicrons are not being broken down by lipoprotein lipase.",
+     "Donor plasma restores activity, so the enzyme is present but its plasma activator, apoC-II, is missing."
+    ],
+    "why": "After chylomicrons enter the blood, they pick up apoC-II and apoE from HDL. ApoC-II activates lipoprotein lipase on the capillary endothelium of muscle and adipose tissue, which frees fatty acids from triglyceride for uptake. The smaller remnants are then cleared by the liver through apoE binding. Without apoC-II, the enzyme is present but inactive, so chylomicrons persist after fasting and triglycerides become very high (familial chylomicronemia). Adding normal plasma supplies apoC-II and restores activity, which points to the activator rather than the enzyme.",
+    "whyNot": [
+     "MTP deficiency is the boy's disorder. It prevents chylomicron and VLDL formation, so triglycerides are very low, not high.",
+     "Correct.",
+     "LDL receptor deficiency (familial hypercholesterolemia) raises LDL cholesterol and causes tendon xanthomas and early coronary disease. Chylomicrons clear normally.",
+     "ApoE2 homozygosity slows hepatic uptake of chylomicron and VLDL remnants (dysbetalipoproteinemia), with palmar xanthomas. Lipoprotein lipase activity is normal."
+    ],
+    "study": {
+     "topics": [
+      "Chylomicron metabolism",
+      "Familial chylomicronemia"
+     ],
+     "comps": [
+      "IM-11"
+     ]
+    }
+   },
+   {
+    "id": "IM-C38-Q3",
+    "stem": "Although his lacteals carry no chylomicrons, lymph continues to flow from his intestine through the thoracic duct. Which of the following functions of this lymph cannot be performed by any other route?",
+    "options": [
+     "Return of filtered plasma protein to the blood",
+     "Delivery of absorbed amino acids to the liver",
+     "Transport of absorbed glucose to the liver",
+     "Removal of carbon dioxide from the intestinal wall"
+    ],
+    "answer": 0,
+    "sea": "P",
+    "comp": "IM-9",
+    "obj": "IM-9.2",
+    "dok": 2,
+    "approach": [
+     "Recall that capillaries leak a small amount of plasma protein into the tissues every day.",
+     "Blood capillaries cannot take that protein back against its gradient.",
+     "Lymph is the only route that returns it to the blood."
+    ],
+    "why": "Each day, blood capillaries filter a small amount of plasma protein into the interstitium. They cannot reabsorb it, so the lymphatics are the only route back to the blood. Lymph is interstitial fluid that carries this protein and lymphocytes, plus chylomicrons in the intestine after a fatty meal. If lymph flow stopped, protein would build up in the tissues, raise interstitial oncotic pressure, and cause edema. His intestinal lymph lacks chylomicrons but still returns protein and lymphocytes.",
+    "whyNot": [
+     "Correct.",
+     "Amino acids enter the capillaries of the villi and reach the liver in the portal vein.",
+     "Glucose and other monosaccharides are absorbed into the villous capillaries and carried in portal blood.",
+     "Carbon dioxide diffuses freely into capillary blood and leaves in venous blood."
+    ],
+    "study": {
+     "topics": [
+      "Lymph composition",
+      "Lymph return of protein"
+     ],
+     "comps": [
+      "IM-9"
+     ]
+    }
+   },
+   {
+    "id": "IM-C38-Q4",
+    "stem": "Lymph from the liver normally has a protein concentration of about 6 g/dL, compared with about 2 g/dL in lymph from most peripheral tissues such as skeletal muscle. Which of the following features of hepatic capillaries best explains this difference?",
+    "options": [
+     "Continuous endothelium with tight junctions",
+     "Higher hydrostatic pressure in the sinusoids",
+     "Discontinuous endothelium with large gaps",
+     "Thicker basement membrane around sinusoids"
+    ],
+    "answer": 2,
+    "sea": "P",
+    "comp": "IM-11",
+    "obj": "IM-11.4",
+    "dok": 2,
+    "approach": [
+     "Lymph protein reflects how much protein leaks out of the capillaries in that organ.",
+     "Compare capillary types: continuous in muscle, fenestrated in the intestine, sinusoidal in the liver.",
+     "The sinusoidal wall has large gaps, so protein passes almost freely."
+    ],
+    "why": "Hepatic sinusoids have a discontinuous endothelium with large openings and almost no basement membrane, so plasma proteins pass nearly freely into the space of Disse. Liver interstitial fluid, and the lymph made from it, therefore has a protein content close to that of plasma. Intestinal capillaries are fenestrated and leak more protein than muscle capillaries, giving intermediate values. Skeletal muscle has continuous capillaries with tight junctions that hold back most protein. The liver and intestines together make about two thirds of all lymph.",
+    "whyNot": [
+     "Continuous endothelium with tight junctions is the muscle pattern, which holds protein in the blood. It explains the low value in muscle lymph.",
+     "Pressure in the hepatic sinusoids is normally low, only a few mm Hg. Protein leaks because of the gaps in the wall, not high pressure.",
+     "Correct.",
+     "Hepatic sinusoids have little or no basement membrane. A thicker barrier would lower protein leak."
+    ],
+    "study": {
+     "topics": [
+      "Capillary types",
+      "Regional lymph protein content"
+     ],
+     "comps": [
+      "IM-11",
+      "IM-9"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "IM-C39",
+  "system": "IM",
+  "dx": "Gastric adenocarcinoma with a left supraclavicular (Virchow) node and chylothorax from thoracic duct obstruction",
+  "codes": [
+   "IM-4"
+  ],
+  "case": "A 63-year-old man comes to the physician because of 4 months of early satiety, epigastric pain, and a 9-kg (20-lb) weight loss, and 2 weeks of worsening shortness of breath. Pulse is 98/min, respirations are 24/min, and blood pressure is 128/78 mm Hg. Physical examination shows a firm, nontender, fixed 2-cm lymph node in the left supraclavicular fossa. There is dullness to percussion and decreased breath sounds over the lower half of the left hemithorax. Hemoglobin is 10.1 g/dL (normal 13.5 to 17.5). Upper endoscopy shows an ulcerated mass on the lesser curvature of the stomach, and biopsy shows adenocarcinoma. CT shows enlarged celiac and posterior mediastinal nodes compressing the thoracic duct. Thoracentesis yields milky white fluid that stays opaque after centrifugation. Diagnosis: gastric adenocarcinoma with a left supraclavicular (Virchow) node and chylothorax from thoracic duct obstruction.",
+  "questions": [
+   {
+    "id": "IM-C39-Q1",
+    "stem": "Which of the following best explains why metastasis from this tumor appears in the left supraclavicular region?",
+    "options": [
+     "Gastric lymph draining directly into the right lymphatic duct",
+     "Thoracic duct ending at the left venous angle",
+     "Tumor cells traveling upward along the left phrenic nerve",
+     "Portal venous blood carrying tumor cells to the left subclavian vein"
+    ],
+    "answer": 1,
+    "sea": "A",
+    "comp": "IM-4",
+    "obj": "IM-4.4",
+    "dok": 2,
+    "approach": [
+     "Trace gastric lymph: celiac nodes, intestinal trunk, cisterna chyli, thoracic duct.",
+     "Recall where the thoracic duct ends: the junction of the left internal jugular and left subclavian veins.",
+     "Tumor cells moving up the duct lodge in the left supraclavicular nodes beside that junction."
+    ],
+    "why": "Lymph from the stomach drains to the celiac nodes, then through the intestinal trunk to the cisterna chyli and the thoracic duct. The thoracic duct rises through the posterior mediastinum and ends at the junction of the left internal jugular and left subclavian veins (the left venous angle). Tumor cells moving up the duct, or backing up when it is blocked, lodge in the left supraclavicular nodes next to its end. A hard, enlarged Virchow node therefore suggests cancer of the abdomen or thorax, most classically the stomach.",
+    "whyNot": [
+     "The right lymphatic duct drains only the right side of the head and neck, the right upper limb, and the right thorax. Abdominal lymph does not reach it.",
+     "Correct.",
+     "Tumors do not spread along the phrenic nerve to the neck. Irritation of the diaphragm causes referred shoulder pain, not nodal metastasis.",
+     "Portal blood goes to the liver, so blood-borne spread of gastric cancer reaches the liver first. Neck nodes are reached by lymph, not venous blood."
+    ],
+    "study": {
+     "topics": [
+      "Virchow node",
+      "Thoracic duct anatomy"
+     ],
+     "comps": [
+      "IM-4"
+     ]
+    }
+   },
+   {
+    "id": "IM-C39-Q2",
+    "stem": "If the tumor completely blocked flow through the thoracic duct, lymph from which of the following regions would continue to drain normally?",
+    "options": [
+     "Right lower limb",
+     "Left lower limb",
+     "Small intestine",
+     "Right upper limb"
+    ],
+    "answer": 3,
+    "sea": "A",
+    "comp": "IM-4",
+    "obj": "IM-4.1",
+    "dok": 2,
+    "approach": [
+     "Divide the body by lymphatic duct, not by side alone.",
+     "The thoracic duct drains both lower limbs, the pelvis, the abdomen, and the left upper body.",
+     "The right lymphatic duct drains only the right upper limb, right head and neck, and right thorax."
+    ],
+    "why": "The thoracic duct begins at the cisterna chyli and drains both lower limbs, the pelvis, the abdomen including the gut, the left side of the thorax, the left upper limb, and the left side of the head and neck, which is about three quarters of the body. The right lymphatic duct, or the separate right lymph trunks, drains only the right upper limb, the right side of the head and neck, and the right side of the thorax into the right venous angle. So the right upper limb keeps its normal drainage.",
+    "whyNot": [
+     "Both lower limbs drain through the lumbar trunks to the cisterna chyli and the thoracic duct. The right leg does not drain to the right lymphatic duct.",
+     "The left lower limb drains through the left lumbar trunk into the cisterna chyli and the thoracic duct.",
+     "Intestinal lymph passes through the intestinal trunk to the cisterna chyli and the thoracic duct. Its blocked flow is the source of his chylothorax.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Thoracic duct territory",
+      "Right lymphatic duct territory"
+     ],
+     "comps": [
+      "IM-4"
+     ]
+    }
+   },
+   {
+    "id": "IM-C39-Q3",
+    "stem": "Which of the following additional pleural fluid findings would best confirm that this effusion is chyle?",
+    "options": [
+     "Cholesterol above 200 mg/dL with cholesterol crystals",
+     "Neutrophil predominance with a pH below 7.20",
+     "Triglyceride above 110 mg/dL with chylomicrons",
+     "Hematocrit more than half of the blood hematocrit"
+    ],
+    "answer": 2,
+    "sea": "X",
+    "comp": "IM-4",
+    "obj": "IM-4.5",
+    "dok": 3,
+    "approach": [
+     "Note the clue: milky fluid that stays opaque after centrifugation, so the cloudiness is from lipid, not cells.",
+     "Separate the two milky lipid effusions: chylothorax (triglyceride and chylomicrons) and pseudochylothorax (cholesterol).",
+     "A blocked thoracic duct leaks chyle, so expect high triglyceride with chylomicrons."
+    ],
+    "why": "Chyle is intestinal lymph rich in chylomicrons, which make it milky. A pleural triglyceride above 110 mg/dL, or chylomicrons found on lipoprotein analysis, confirms a chylothorax, and the fluid is usually lymphocyte predominant. Chylothorax follows injury to the thoracic duct from surgery or trauma, or obstruction by tumor, most often lymphoma. The duct crosses from right to left in the posterior mediastinum at about T4 to T6, so damage below that level tends to cause a right-sided effusion and damage above it a left-sided one.",
+    "whyNot": [
+     "High cholesterol with cholesterol crystals defines a pseudochylothorax, a milky effusion that forms in a long-standing pleural effusion, such as in rheumatoid arthritis or old tuberculosis. Triglyceride is low and chylomicrons are absent.",
+     "Neutrophils with a low pH suggest an empyema. Pus can look milky, but it clears when spun because the cloudiness comes from cells.",
+     "Correct.",
+     "A pleural hematocrit above half that of blood defines a hemothorax."
+    ],
+    "study": {
+     "topics": [
+      "Chylothorax",
+      "Pleural fluid analysis"
+     ],
+     "comps": [
+      "IM-4",
+      "IM-9"
+     ]
+    }
+   },
+   {
+    "id": "IM-C39-Q4",
+    "stem": "To reduce chyle flow, he is given a diet in which most fat comes from medium-chain triglycerides. Which of the following best explains why this diet lowers thoracic duct flow?",
+    "options": [
+     "Their fatty acids pass into portal blood bound to albumin",
+     "They are packaged in enterocytes with apoB-100 instead of apoB-48",
+     "They cause relaxation of lacteal smooth muscle",
+     "They remain stored in enterocytes as cytoplasmic lipid droplets"
+    ],
+    "answer": 0,
+    "sea": "B",
+    "comp": "IM-11",
+    "obj": "IM-11.1",
+    "dok": 3,
+    "approach": [
+     "Recall how long-chain fat is absorbed: re-esterified to triglyceride and packaged with apoB-48 into chylomicrons.",
+     "Chylomicrons are too large for blood capillaries, so they enter lacteals and the thoracic duct.",
+     "Medium-chain fatty acids skip packaging and go straight into portal blood, so less fat enters the lymph."
+    ],
+    "why": "Long-chain fatty acids are rebuilt into triglyceride in the smooth endoplasmic reticulum of the enterocyte. Microsomal triglyceride transfer protein then loads the triglyceride onto apoB-48 to form chylomicrons. These particles are too large to enter blood capillaries, so they enter the lacteals and travel through the thoracic duct, bypassing the liver until they reach the blood. Medium-chain fatty acids (about 6 to 12 carbons) are more water soluble. They cross the enterocyte without being packaged and enter portal blood bound to albumin. With fewer chylomicrons, chyle flow falls and the leak slows.",
+    "whyNot": [
+     "Correct.",
+     "ApoB-100 is made by the liver for VLDL. Enterocytes make apoB-48 by editing the same mRNA, and any chylomicrons they still make carry apoB-48.",
+     "Medium-chain triglycerides act by changing the route of absorption, not by acting on lymphatic smooth muscle.",
+     "Fat stays in enterocytes when chylomicrons cannot be made, as in abetalipoproteinemia. Medium-chain fatty acids leave the cell readily."
+    ],
+    "study": {
+     "topics": [
+      "Chylomicron assembly",
+      "Medium-chain triglycerides"
+     ],
+     "comps": [
+      "IM-11",
+      "IM-9"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "IM-C40",
+  "system": "IM",
+  "dx": "Upper limb lymphedema after mastectomy with axillary node dissection for breast cancer",
+  "codes": [
+   "IM-9",
+   "IM-4"
+  ],
+  "case": "A 57-year-old woman comes to the physician because of progressive swelling and heaviness of her left arm over the past year. Two years ago, she underwent a left modified radical mastectomy with axillary lymph node dissection, followed by radiation to the axilla, for invasive ductal carcinoma in the upper outer quadrant of the left breast. Four of 15 axillary nodes contained tumor. Vital signs are within normal limits. The circumferences of the left upper arm and forearm are 5 cm larger than on the right, and the hand and fingers are swollen. The skin of the forearm is thickened and firm, and finger pressure leaves no pit. There is no erythema, warmth, or venous distention. Duplex ultrasonography shows no venous thrombosis. Diagnosis: lymphedema of the left upper limb after mastectomy with axillary node dissection.",
+  "questions": [
+   {
+    "id": "IM-C40-Q1",
+    "stem": "Her tumor arose in the upper outer quadrant. A tumor of the same size in the medial quadrants of the breast would be more likely than hers to spread first to which of the following node groups?",
+    "options": [
+     "Pectoral axillary nodes",
+     "Apical axillary nodes",
+     "Parasternal nodes",
+     "Supraclavicular nodes"
+    ],
+    "answer": 2,
+    "sea": "A",
+    "comp": "IM-4",
+    "obj": "IM-4.3",
+    "dok": 3,
+    "approach": [
+     "Recall the two main drainage routes of the breast: axillary and parasternal.",
+     "Lateral quadrants drain mainly to the axilla, beginning with the pectoral group.",
+     "Medial quadrants send much of their lymph to the parasternal nodes along the internal thoracic vessels."
+    ],
+    "why": "More than three quarters of breast lymph, especially from the lateral quadrants, drains to the axillary nodes, first to the pectoral (anterior) group. Most of the rest, especially from the medial quadrants, drains to the parasternal nodes along the internal thoracic vessels. Medial tumors are therefore more likely to involve parasternal nodes, which axillary surgery does not reach. Some lymph also crosses to the opposite breast or passes toward the abdominal wall.",
+    "whyNot": [
+     "The pectoral nodes are the first stop for lymph from the lateral breast, which is why her tumor was staged by axillary dissection.",
+     "Apical axillary nodes receive lymph only after it passes through the other axillary groups. They are a later stop, not the first.",
+     "Correct.",
+     "Supraclavicular nodes receive breast lymph only after it has passed through the axillary nodes, later in the course of spread."
+    ],
+    "study": {
+     "topics": [
+      "Lymphatic drainage of the breast",
+      "Nodal spread of breast cancer"
+     ],
+     "comps": [
+      "IM-4"
+     ]
+    }
+   },
+   {
+    "id": "IM-C40-Q2",
+    "stem": "Which of the following best explains why her swelling no longer pits with pressure?",
+    "options": [
+     "Trapped protein driving fibrosis and fat deposition",
+     "Low plasma oncotic pressure from reduced albumin synthesis",
+     "High capillary hydrostatic pressure from venous obstruction",
+     "Glycosaminoglycan accumulation from thyroid hormone deficiency"
+    ],
+    "answer": 0,
+    "sea": "X",
+    "comp": "IM-9",
+    "obj": "IM-9.4",
+    "dok": 3,
+    "approach": [
+     "Identify the cause: surgery and radiation destroyed the lymph channels that drain the arm.",
+     "Without lymph flow, filtered protein stays in the tissue and holds water there.",
+     "Over months the protein-rich fluid causes inflammation, fibrosis, and fat deposition, so the tissue becomes firm and no longer pits."
+    ],
+    "why": "Axillary dissection and radiation remove and scar the lymph channels that drain the arm. Filtered plasma protein can no longer return to the blood, so it builds up in the interstitium, raises interstitial oncotic pressure, and holds water in the tissue. Early lymphedema pits. Over months, the protein-rich fluid triggers chronic inflammation, fibroblast activity, and fat deposition, so the skin and subcutaneous tissue become thick and firm and no longer pit. Other causes of lymphedema include Wuchereria bancrofti filariasis, Milroy disease (FLT4 mutation), and the cystic hygroma of Turner syndrome.",
+    "whyNot": [
+     "Correct.",
+     "Low albumin, as in cirrhosis or nephrotic syndrome, causes soft, pitting edema in both legs and around the eyes, not swelling of one arm.",
+     "Venous obstruction raises capillary pressure and causes pitting edema, often with distended veins. Her ultrasound shows no thrombosis.",
+     "Hypothyroidism causes myxedema, a nonpitting swelling from glycosaminoglycan buildup, but it is generalized, not limited to the arm on the side of surgery."
+    ],
+    "study": {
+     "topics": [
+      "Lymphedema",
+      "Mechanisms of edema"
+     ],
+     "comps": [
+      "IM-9"
+     ]
+    }
+   },
+   {
+    "id": "IM-C40-Q3",
+    "stem": "Three years later, a nodule recurs in her chest wall. Biopsy shows tumor cells with normal MHC class I expression and strong PD-L1 expression, surrounded by many CD8 T cells that are not killing them. Which of the following best explains the tumor's escape from these T cells?",
+    "options": [
+     "Loss of class I preventing recognition by CD8 T cells",
+     "Fas ligand on T cells binding Fas on tumor cells",
+     "Tumor antigen presented only on MHC class II",
+     "PD-L1 delivering an inhibitory signal through PD-1"
+    ],
+    "answer": 3,
+    "sea": "M",
+    "comp": "IM-13",
+    "obj": "IM-13.3",
+    "dok": 3,
+    "approach": [
+     "Recall how CD8 T cells kill tumors: they recognize tumor peptides on MHC class I.",
+     "Class I is normal here, so recognition is possible.",
+     "PD-L1 on the tumor binds PD-1 on the T cells and switches them off."
+    ],
+    "why": "CD8 T cells recognize tumor peptides on MHC class I and kill the tumor cell, and NK cells kill tumor cells that lose class I. Tumors escape either by losing class I or by switching off the T cells. Here class I is normal, so the T cells can see the tumor. But the tumor expresses PD-L1, which binds PD-1 on activated T cells and sends an inhibitory signal that stops killing and cytokine release. Checkpoint inhibitor drugs that block PD-1 or PD-L1 remove this brake.",
+    "whyNot": [
+     "Loss of class I does hide tumors from CD8 T cells, but this biopsy shows normal class I. Tumors that lose class I also become targets for NK cells.",
+     "Fas ligand on T cells binding Fas on a target triggers apoptosis of the tumor cell. It is a way of killing, not a way of escape.",
+     "Antigen shown only on class II would be seen by CD4 helper T cells. This tumor expresses class I, so CD8 T cells can recognize it.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Antitumor immunity",
+      "Immune checkpoints"
+     ],
+     "comps": [
+      "IM-13",
+      "IM-3"
+     ]
+    }
+   },
+   {
+    "id": "IM-C40-Q4",
+    "stem": "Her physical therapist prescribes repeated arm exercises performed while she wears a compression sleeve. Which of the following mechanisms most directly moves lymph toward the trunk during these exercises?",
+    "options": [
+     "Reabsorption of interstitial protein into venous capillaries",
+     "Muscle compression of lymphatic vessels with one-way valves",
+     "Relaxation of smooth muscle in collecting lymphatic walls",
+     "Backflow of lymph into dermal lymphatic capillaries"
+    ],
+    "answer": 1,
+    "sea": "P",
+    "comp": "IM-9",
+    "obj": "IM-9.3",
+    "dok": 2,
+    "approach": [
+     "Recall what moves lymph: lymphatic smooth muscle contraction and external compression, with valves keeping flow one way.",
+     "Exercise adds external compression from contracting skeletal muscle.",
+     "Valves let the squeezed lymph move only toward the trunk."
+    ],
+    "why": "Collecting lymphatics are divided by valves into short segments (lymphangions). Their smooth muscle contracts when the segment fills and stretches, pushing lymph forward. External compression from contracting skeletal muscle, pulsing arteries, and breathing squeezes the vessels too, and the valves let lymph move only toward the trunk. Exercise in a compression sleeve adds external pumping and limits fluid buildup. In a normal limb, a rise in interstitial fluid pressure also increases lymph flow, until the vessels reach their maximum capacity.",
+    "whyNot": [
+     "Venous capillaries reabsorb water but very little protein. Protein returns to the blood almost only through lymph.",
+     "Correct.",
+     "Lymphatic smooth muscle helps move lymph by contracting, not relaxing. Relaxation would slow flow.",
+     "Dermal backflow is a sign of blocked lymph channels seen on imaging of lymphedema. It reflects failure of forward flow."
+    ],
+    "study": {
+     "topics": [
+      "Lymph propulsion",
+      "Lymphedema management"
+     ],
+     "comps": [
+      "IM-9"
+     ]
+    }
+   }
+  ]
+ }
+]

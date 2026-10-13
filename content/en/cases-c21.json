@@ -1,0 +1,1574 @@
+[
+ {
+  "id": "EN-C21",
+  "system": "EN",
+  "dx": "Pheochromocytoma",
+  "codes": [
+   "EN-12-G6",
+   "EN-12-G1"
+  ],
+  "case": "A 38-year-old woman comes to the physician because of episodes of pounding headache, palpitations, and drenching sweats during the past 5 months. Each episode lasts 10 to 20 minutes. During an episode in the office, her temperature is 37.2 °C (99.0 °F), pulse is 124/min, respirations are 18/min, and blood pressure is 196/114 mm Hg. Between episodes, her blood pressure is 148/94 mm Hg. Fasting serum glucose is 132 mg/dL (reference, 70 to 99 mg/dL). Plasma free metanephrines are 6 times the upper reference limit. CT scan of the abdomen shows a 4-cm right adrenal mass. Diagnosis: pheochromocytoma.",
+  "questions": [
+   {
+    "id": "EN-C21-Q1",
+    "stem": "Her father underwent thyroidectomy at age 42 years for a calcitonin-secreting thyroid carcinoma, and her sister has hypercalcemia. Genetic testing of this patient is most likely to show which of the following germline mutations?",
+    "options": [
+     "Loss-of-function mutation in MEN1",
+     "Gain-of-function mutation in RET",
+     "Loss-of-function mutation in VHL",
+     "Loss-of-function mutation in NF1"
+    ],
+    "answer": 1,
+    "sea": "X",
+    "comp": "EN-12-G6",
+    "obj": "EN-12-G.16",
+    "dok": 3,
+    "approach": [
+     "A calcitonin-secreting thyroid carcinoma is medullary thyroid carcinoma.",
+     "Pheochromocytoma plus medullary thyroid carcinoma plus hyperparathyroidism in one family is MEN2A.",
+     "MEN2A and MEN2B are caused by activating (gain-of-function) mutations of the RET proto-oncogene."
+    ],
+    "why": "Pheochromocytoma is a tumor of chromaffin cells. About a quarter or more of cases are hereditary. The family history here (medullary thyroid carcinoma in her father, hypercalcemia in her sister) fits MEN2A: medullary thyroid carcinoma, pheochromocytoma, and parathyroid hyperplasia. MEN2 is caused by a gain-of-function mutation in RET, a receptor tyrosine kinase, inherited as autosomal dominant.",
+    "whyNot": [
+     "MEN1 (menin, a tumor suppressor) causes parathyroid, pituitary, and pancreatic endocrine tumors. It does not cause medullary thyroid carcinoma or pheochromocytoma.",
+     "Correct.",
+     "Von Hippel-Lindau disease causes pheochromocytoma with hemangioblastomas and clear cell renal carcinoma, but not medullary thyroid carcinoma.",
+     "Neurofibromatosis type 1 causes pheochromocytoma with neurofibromas and cafe-au-lait macules, but not medullary thyroid carcinoma."
+    ],
+    "study": {
+     "topics": [
+      "Hereditary syndromes with pheochromocytoma",
+      "MEN1 versus MEN2"
+     ],
+     "comps": [
+      "EN-12-G6",
+      "EN-12-G5"
+     ]
+    }
+   },
+   {
+    "id": "EN-C21-Q2",
+    "stem": "Plasma free metanephrines were measured instead of plasma catecholamines. Which of the following best explains why metanephrines are the more sensitive test for this tumor?",
+    "options": [
+     "They are precursors that accumulate upstream of tyrosine hydroxylase",
+     "They are formed by monoamine oxidase in sympathetic nerve terminals",
+     "They are released into plasma only during hypertensive episodes",
+     "They are formed continuously by COMT inside the tumor cells"
+    ],
+    "answer": 3,
+    "sea": "B",
+    "comp": "EN-8",
+    "obj": "EN-8.3",
+    "dok": 3,
+    "approach": [
+     "Recall the pathway: tyrosine to DOPA (tyrosine hydroxylase), dopamine (DOPA decarboxylase), norepinephrine (dopamine beta-hydroxylase), epinephrine (PNMT).",
+     "Metanephrine and normetanephrine are the O-methylated products of COMT acting on epinephrine and norepinephrine.",
+     "Tumor cells contain COMT and make metanephrines all the time, while catecholamine release is episodic."
+    ],
+    "why": "Catecholamines are released from the tumor in bursts and have a half-life of only minutes, so a single plasma catecholamine level can be normal between attacks. Pheochromocytoma cells also contain COMT, which converts the catecholamines stored in the cell to metanephrines. This leaks out steadily, independent of the episodes, so plasma free or urine fractionated metanephrines are raised almost all the time. Further breakdown by MAO and COMT yields vanillylmandelic acid.",
+    "whyNot": [
+     "Metanephrines are breakdown products, not precursors. Tyrosine hydroxylase is the first and rate-limiting step, converting tyrosine to DOPA.",
+     "MAO in nerve terminals deaminates norepinephrine to deaminated metabolites. Metanephrines require O-methylation by COMT.",
+     "Episodic release describes catecholamines. Metanephrines stay raised between episodes, which is why they are the better test.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Catecholamine synthesis and breakdown",
+      "Testing for pheochromocytoma"
+     ],
+     "comps": [
+      "EN-8",
+      "EN-12-G6"
+     ]
+    }
+   },
+   {
+    "id": "EN-C21-Q3",
+    "stem": "Analysis of the resected tumor shows that it secretes mainly epinephrine. Which of the following features of normal adrenal blood flow allows chromaffin cells of the adrenal medulla to synthesize epinephrine?",
+    "options": [
+     "Cortisol-rich blood flows from the cortex into medullary sinusoids",
+     "The medulla is supplied only by arterioles that bypass the cortex",
+     "Medullary venous blood drains directly into the inferior vena cava",
+     "Aldosterone from the zona glomerulosa induces dopamine beta-hydroxylase"
+    ],
+    "answer": 0,
+    "sea": "A",
+    "comp": "EN-4",
+    "obj": "EN-4.3",
+    "dok": 3,
+    "approach": [
+     "Converting norepinephrine to epinephrine needs PNMT.",
+     "PNMT is induced by high local cortisol concentrations.",
+     "Blood from the capsular plexus passes through cortical sinusoids into the medulla, delivering cortisol-rich blood to chromaffin cells."
+    ],
+    "why": "The adrenal gland is supplied by superior adrenal arteries (from the inferior phrenic artery), middle adrenal arteries (from the aorta), and inferior adrenal arteries (from the renal artery). These form a capsular plexus. Most blood then runs through cortical sinusoids toward the medulla, picking up cortisol on the way. This high cortisol concentration induces PNMT in chromaffin cells, which methylates norepinephrine to epinephrine. Extra-adrenal paragangliomas lack this cortisol supply and usually secrete norepinephrine.",
+    "whyNot": [
+     "Correct.",
+     "The medulla has a dual supply: some medullary arterioles run straight through, but much of its blood arrives after passing through the cortex.",
+     "The right adrenal vein does drain into the inferior vena cava (the left drains into the left renal vein), but venous outflow does not control medullary enzyme expression.",
+     "Dopamine beta-hydroxylase makes norepinephrine from dopamine. Aldosterone does not regulate medullary enzymes; cortisol induces PNMT."
+    ],
+    "study": {
+     "topics": [
+      "Adrenal blood supply and drainage",
+      "Cortisol induction of PNMT"
+     ],
+     "comps": [
+      "EN-4",
+      "EN-8"
+     ]
+    }
+   },
+   {
+    "id": "EN-C21-Q4",
+    "stem": "Epinephrine raises her blood glucose within minutes, mainly by stimulating hepatic glycogenolysis. Which of the following hormones raises blood glucose on the same rapid time scale, mainly by the same hepatic mechanism?",
+    "options": [
+     "Cortisol",
+     "Growth hormone",
+     "Glucagon",
+     "Triiodothyronine"
+    ],
+    "answer": 2,
+    "sea": "P",
+    "comp": "EN-5",
+    "obj": "EN-5.6",
+    "dok": 2,
+    "approach": [
+     "Sort counterregulatory hormones into fast (minutes) and slow (hours).",
+     "Glucagon and epinephrine act within minutes through cAMP signaling, starting with glycogenolysis.",
+     "Cortisol and growth hormone act over hours by changing gene expression and reducing insulin sensitivity."
+    ],
+    "why": "When glucose falls, glucagon and epinephrine are the first line of defense. Both activate hepatic glycogen phosphorylase within minutes and later support gluconeogenesis. Cortisol and growth hormone act more slowly: cortisol induces gluconeogenic enzymes and growth hormone antagonizes insulin action, effects that take hours. That is why a patient lacking cortisol or GH can still correct acute hypoglycemia but becomes hypoglycemic during prolonged fasting.",
+    "whyNot": [
+     "Cortisol raises glucose over hours by inducing gluconeogenic enzymes such as PEPCK and supplying amino acids from muscle.",
+     "Growth hormone raises glucose slowly by antagonizing insulin and promoting lipolysis, not by rapid glycogenolysis.",
+     "Correct.",
+     "Thyroid hormone increases metabolic rate and glucose turnover over days. It is not a rapid counterregulatory hormone."
+    ],
+    "study": {
+     "topics": [
+      "Glucose counterregulation"
+     ],
+     "comps": [
+      "EN-5",
+      "EN-7"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "EN-C22",
+  "system": "EN",
+  "dx": "Neuroblastoma of the adrenal medulla",
+  "codes": [
+   "EN-12-G1"
+  ],
+  "case": "A 2-year-old boy is brought to the physician because of a swollen abdomen, poor appetite, and a 1-kg weight loss over 2 months. His temperature is 37.9 °C (100.2 °F), pulse is 128/min, respirations are 28/min, and blood pressure is 118/76 mm Hg. Examination shows a firm, nodular left upper quadrant mass that extends across the midline. CT scan shows a 9-cm left suprarenal mass with stippled calcifications. Urine homovanillic acid and vanillylmandelic acid concentrations are increased. Biopsy shows sheets of small round blue cells, some arranged around central fibrillary material in Homer Wright rosettes. Diagnosis: neuroblastoma of the left adrenal medulla.",
+  "questions": [
+   {
+    "id": "EN-C22-Q1",
+    "stem": "Molecular studies of the tumor are performed. Which of the following findings is most strongly associated with aggressive behavior and a poor prognosis in this tumor?",
+    "options": [
+     "Translocation t(11;22) forming EWSR1-FLI1",
+     "Deletion of WT1 on chromosome 11p13",
+     "Amplification of the MYCN oncogene",
+     "Biallelic loss of RB1 on chromosome 13q14"
+    ],
+    "answer": 2,
+    "sea": "X",
+    "comp": "EN-12-G1",
+    "obj": "EN-12-G.2",
+    "dok": 2,
+    "approach": [
+     "Identify the tumor as neuroblastoma: small round blue cells, Homer Wright rosettes, raised HVA and VMA in a toddler.",
+     "Recall the key molecular marker of neuroblastoma: amplification of MYCN (N-MYC).",
+     "MYCN amplification predicts rapid growth and a poor outcome."
+    ],
+    "why": "Neuroblastoma is the most common extracranial solid tumor of young children and most often arises in the adrenal medulla. Amplification of the MYCN oncogene, often seen as double minutes or homogeneously staining regions, is present in about a quarter of cases and is the strongest single marker of aggressive disease. Other prognostic factors include age over 18 months, high stage, and unfavorable histology. Some children present with opsoclonus-myoclonus as a paraneoplastic sign.",
+    "whyNot": [
+     "The EWSR1-FLI1 fusion from t(11;22) defines Ewing sarcoma, another small round blue cell tumor, usually in bone.",
+     "WT1 deletion is linked to Wilms tumor, a kidney tumor of the same age group that rarely crosses the midline and does not raise HVA or VMA.",
+     "Correct.",
+     "Biallelic RB1 loss causes retinoblastoma, which forms Flexner-Wintersteiner rosettes in the eye."
+    ],
+    "study": {
+     "topics": [
+      "Neuroblastoma features and prognosis",
+      "Small round blue cell tumors"
+     ],
+     "comps": [
+      "EN-12-G1"
+     ]
+    }
+   },
+   {
+    "id": "EN-C22-Q2",
+    "stem": "Many tumors of this type arise outside the adrenal gland, along the paravertebral sympathetic chain. Which of the following best explains why the tumor can arise at both sites?",
+    "options": [
+     "Both derive from neural crest cells",
+     "Both derive from intermediate mesoderm",
+     "Both derive from foregut endoderm",
+     "Both derive from surface ectoderm"
+    ],
+    "answer": 0,
+    "sea": "A",
+    "comp": "EN-1",
+    "obj": "EN-1.4",
+    "dok": 3,
+    "approach": [
+     "Neuroblastoma is a tumor of primitive sympathetic neuroblasts.",
+     "Chromaffin cells of the adrenal medulla are modified postganglionic sympathetic neurons.",
+     "Both adrenal medulla and sympathetic ganglia come from neural crest, so the tumor can arise anywhere along that lineage."
+    ],
+    "why": "Neural crest cells migrate ventrally to form sympathetic chain ganglia, and some invade the developing adrenal gland to form the medulla. The adrenal cortex has a different origin, from mesoderm (coelomic epithelium near the gonadal ridge). Because neuroblastoma and pheochromocytoma are tumors of neural crest-derived sympathoadrenal cells, they arise in the medulla or along the sympathetic chain, never from the cortex itself.",
+    "whyNot": [
+     "Correct.",
+     "Mesoderm forms the adrenal cortex, which gives rise to adrenocortical adenomas and carcinomas, not neuroblastoma.",
+     "Foregut endoderm forms thyroid follicular cells, parathyroids, and pancreatic islets, not sympathetic tissue.",
+     "Surface ectoderm forms the epidermis, the lens, and (as oral ectoderm) Rathke pouch. Sympathetic ganglia and the adrenal medulla come from neural crest."
+    ],
+    "study": {
+     "topics": [
+      "Adrenal embryology",
+      "Neural crest derivatives"
+     ],
+     "comps": [
+      "EN-1",
+      "EN-2"
+     ]
+    }
+   },
+   {
+    "id": "EN-C22-Q3",
+    "stem": "His urine homovanillic acid concentration is increased. Homovanillic acid is formed by MAO and COMT acting on the product of which of the following enzymes?",
+    "options": [
+     "Tyrosine hydroxylase",
+     "Dopamine beta-hydroxylase",
+     "Phenylethanolamine N-methyltransferase",
+     "DOPA decarboxylase"
+    ],
+    "answer": 3,
+    "sea": "B",
+    "comp": "EN-8",
+    "obj": "EN-8.3",
+    "dok": 2,
+    "approach": [
+     "Homovanillic acid (HVA) is the end product of dopamine breakdown; VMA comes from norepinephrine and epinephrine.",
+     "Dopamine is made from L-DOPA by DOPA decarboxylase (aromatic L-amino acid decarboxylase).",
+     "So the enzyme whose product feeds HVA is DOPA decarboxylase."
+    ],
+    "why": "In the catecholamine pathway, tyrosine hydroxylase makes L-DOPA, DOPA decarboxylase makes dopamine, dopamine beta-hydroxylase makes norepinephrine, and PNMT makes epinephrine. Dopamine is broken down by MAO and COMT to homovanillic acid, while norepinephrine and epinephrine are broken down to vanillylmandelic acid. Neuroblastoma cells release a lot of dopamine, so both HVA and VMA are typically raised in the urine.",
+    "whyNot": [
+     "Tyrosine hydroxylase makes L-DOPA, the rate-limiting step. L-DOPA must first be decarboxylated to dopamine before it becomes HVA.",
+     "Dopamine beta-hydroxylase makes norepinephrine, whose breakdown products are normetanephrine and VMA.",
+     "PNMT makes epinephrine, which is broken down to metanephrine and VMA.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Catecholamine metabolites HVA and VMA"
+     ],
+     "comps": [
+      "EN-8",
+      "EN-12-G1"
+     ]
+    }
+   },
+   {
+    "id": "EN-C22-Q4",
+    "stem": "Small round blue cell tumors of childhood can look alike on routine stains. Which of the following immunohistochemical stains is most likely to be positive in this tumor?",
+    "options": [
+     "Myogenin",
+     "Synaptophysin",
+     "Leukocyte common antigen (CD45)",
+     "Pan-cytokeratin"
+    ],
+    "answer": 1,
+    "sea": "A",
+    "comp": "EN-2",
+    "obj": "EN-2.5",
+    "dok": 3,
+    "approach": [
+     "Neuroblastoma comes from neural crest-derived neuroendocrine precursors.",
+     "Neuroendocrine cells contain synaptic-like vesicles and dense-core granules.",
+     "Synaptophysin (vesicle protein) and chromogranin (granule protein) mark neuroendocrine differentiation."
+    ],
+    "why": "Endocrine cells that store hormones or amines in secretory granules, such as chromaffin cells, C cells, and islet cells, express neuroendocrine proteins. Synaptophysin is a membrane protein of small synaptic-like vesicles, and chromogranin A is found in dense-core granules. Tumors derived from these cells, including neuroblastoma, pheochromocytoma, carcinoid tumors, and small cell carcinoma, stain for these markers. This helps separate neuroblastoma from other small round blue cell tumors.",
+    "whyNot": [
+     "Myogenin marks skeletal muscle differentiation and is positive in rhabdomyosarcoma.",
+     "Correct.",
+     "CD45 marks leukocytes and is positive in lymphoma and leukemia.",
+     "Cytokeratins mark epithelial cells and are positive in carcinomas, not in neuroblastoma."
+    ],
+    "study": {
+     "topics": [
+      "Neuroendocrine markers",
+      "Small round blue cell tumors"
+     ],
+     "comps": [
+      "EN-2",
+      "EN-12-G1"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "EN-C23",
+  "system": "EN",
+  "dx": "Prolactinoma (pituitary microadenoma)",
+  "codes": [
+   "EN-12-G4"
+  ],
+  "case": "A 29-year-old woman comes to the physician because she has had no menstrual periods for 8 months and has noticed a milky discharge from both nipples. She and her husband have been trying to conceive for 1 year. She takes no medications. Her temperature is 36.8 °C (98.2 °F), pulse is 72/min, respirations are 14/min, and blood pressure is 114/72 mm Hg. White nipple discharge is expressible bilaterally. Visual fields are full. A urine pregnancy test is negative. Serum prolactin is 168 ng/mL (reference, under 25 ng/mL), and TSH is 2.1 μU/mL (reference, 0.5 to 4.5 μU/mL). MRI shows a 7-mm pituitary lesion. Diagnosis: prolactinoma (pituitary microadenoma).",
+  "questions": [
+   {
+    "id": "EN-C23-Q1",
+    "stem": "A 46-year-old man is found to have a 2.4-cm prolactin-secreting pituitary adenoma. Prolactinomas in men are more often macroadenomas at diagnosis than those in premenopausal women. Which of the following best explains this difference?",
+    "options": [
+     "Decreased libido is subtle, delaying diagnosis",
+     "Estrogen in women restrains lactotroph adenoma growth",
+     "Lactotroph adenomas in men are usually nonsecretory",
+     "Galactorrhea never occurs in men with hyperprolactinemia"
+    ],
+    "answer": 0,
+    "sea": "X",
+    "comp": "EN-12-G4",
+    "obj": "EN-12-G.7",
+    "dok": 2,
+    "approach": [
+     "Pituitary adenomas are classed by size (microadenoma under 1 cm, macroadenoma 1 cm or more) and by hormone.",
+     "In premenopausal women, amenorrhea and galactorrhea are obvious early, so tumors are found small.",
+     "In men, decreased libido and erectile dysfunction are easy to overlook, so the tumor grows until mass effects appear."
+    ],
+    "why": "Prolactinoma is the most common functioning pituitary adenoma. In women of reproductive age it causes galactorrhea, amenorrhea, and infertility, which bring patients to care while the tumor is still a microadenoma, as in this patient. In men and postmenopausal women, the hormonal signs are subtle, so the tumor is often found later as a macroadenoma causing headache or visual field loss.",
+    "whyNot": [
+     "Correct.",
+     "Estrogen stimulates lactotrophs; that is why prolactinomas can enlarge during pregnancy.",
+     "Prolactinomas in men secrete prolactin, often in very high amounts.",
+     "Men with hyperprolactinemia can develop galactorrhea, though it is less common than in women."
+    ],
+    "study": {
+     "topics": [
+      "Pituitary adenoma classification",
+      "Prolactinoma presentation"
+     ],
+     "comps": [
+      "EN-12-G4",
+      "EN-6"
+     ]
+    }
+   },
+   {
+    "id": "EN-C23-Q2",
+    "stem": "Before the MRI, her physician measured TSH because primary hypothyroidism can also cause hyperprolactinemia. Which of the following best explains how primary hypothyroidism raises serum prolactin?",
+    "options": [
+     "TSH stimulation of lactotroph secretion",
+     "CRH stimulation of lactotroph secretion",
+     "TRH stimulation of lactotroph secretion",
+     "GnRH stimulation of lactotroph secretion"
+    ],
+    "answer": 2,
+    "sea": "P",
+    "comp": "EN-6",
+    "obj": "EN-6.7",
+    "dok": 2,
+    "approach": [
+     "In primary hypothyroidism, low thyroid hormone removes negative feedback on the hypothalamus.",
+     "TRH secretion rises.",
+     "TRH stimulates lactotrophs as well as thyrotrophs, so prolactin rises."
+    ],
+    "why": "Prolactin is the only anterior pituitary hormone under dominant inhibitory control: hypothalamic dopamine acting on D2 receptors keeps it low. TRH is a stimulator of prolactin release. When primary hypothyroidism raises TRH, both TSH and prolactin increase, and galactorrhea and menstrual changes can follow. Checking TSH avoids mistaking this for a prolactinoma.",
+    "whyNot": [
+     "TSH acts on thyroid follicular cells. Lactotrophs do not respond to TSH.",
+     "CRH drives ACTH release from corticotrophs and is not the link between hypothyroidism and prolactin.",
+     "Correct.",
+     "GnRH acts on gonadotrophs to release LH and FSH. It does not raise prolactin."
+    ],
+    "study": {
+     "topics": [
+      "Regulation of prolactin secretion"
+     ],
+     "comps": [
+      "EN-6",
+      "EN-5"
+     ]
+    }
+   },
+   {
+    "id": "EN-C23-Q3",
+    "stem": "Which of the following sets of serum findings is most likely in this patient?",
+    "options": [
+     "High LH, high FSH, low estradiol",
+     "Low LH, low FSH, low estradiol",
+     "High LH, low FSH, high estradiol",
+     "Normal LH, normal FSH, high estradiol"
+    ],
+    "answer": 1,
+    "sea": "B",
+    "comp": "EN-9",
+    "obj": "EN-9.6",
+    "dok": 3,
+    "approach": [
+     "High prolactin suppresses pulsatile GnRH release from the hypothalamus.",
+     "Less GnRH means less LH and FSH: a central (secondary) cause of hypogonadism.",
+     "Without gonadotropin drive, the ovary makes little estradiol."
+    ],
+    "why": "Hyperprolactinemia causes hypogonadotropic (secondary) hypogonadism. LH and FSH are low or inappropriately normal and estradiol is low, giving amenorrhea and infertility. Kallmann syndrome produces the same pattern through failed migration of GnRH neurons. Primary gonadal failure, such as Turner syndrome or Klinefelter syndrome (47,XXY), gives the opposite pattern: high LH and FSH from loss of sex steroid and inhibin feedback.",
+    "whyNot": [
+     "High gonadotropins with low sex steroids mean primary gonadal failure, such as premature ovarian insufficiency or Klinefelter syndrome.",
+     "Correct.",
+     "A raised LH with low FSH does not fit gonadotropin suppression; a high LH-to-FSH ratio suggests polycystic ovary syndrome.",
+     "High estradiol with normal gonadotropins would not cause amenorrhea through gonadotropin loss."
+    ],
+    "study": {
+     "topics": [
+      "Primary versus secondary hypogonadism",
+      "Prolactin and GnRH"
+     ],
+     "comps": [
+      "EN-9",
+      "EN-6"
+     ]
+    }
+   },
+   {
+    "id": "EN-C23-Q4",
+    "stem": "Prolactin causes her galactorrhea by binding receptors on mammary alveolar epithelial cells. The prolactin receptor signals through the same pathway as the receptor for which of the following hormones?",
+    "options": [
+     "Insulin",
+     "Oxytocin",
+     "Thyroid-stimulating hormone",
+     "Growth hormone"
+    ],
+    "answer": 3,
+    "sea": "P",
+    "comp": "EN-6",
+    "obj": "EN-6.1",
+    "dok": 2,
+    "approach": [
+     "Prolactin is a single-chain peptide hormone in the same family as growth hormone.",
+     "Its receptor is a cytokine-type receptor with no intrinsic kinase; it activates associated JAK2 kinase, which phosphorylates STAT proteins.",
+     "Growth hormone uses the same JAK/STAT pathway."
+    ],
+    "why": "Hormones fall into groups by signaling pathway. Gs and cAMP: ACTH, TSH, LH, FSH, PTH, glucagon. Gq and IP3-calcium: GnRH, TRH, oxytocin. Intrinsic tyrosine kinase: insulin and IGF-1. JAK/STAT (cytokine receptor family): growth hormone and prolactin. Intracellular receptors: steroids, thyroid hormone, and calcitriol. Prolactin binding activates JAK2 and STAT5, which drive milk protein genes in the breast.",
+    "whyNot": [
+     "The insulin receptor has intrinsic tyrosine kinase activity and signals through IRS proteins, not JAK/STAT.",
+     "Oxytocin acts through a Gq-coupled receptor that raises IP3 and intracellular calcium.",
+     "TSH acts through a Gs-coupled receptor that raises cAMP.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Hormone signaling pathways"
+     ],
+     "comps": [
+      "EN-6"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "EN-C24",
+  "system": "EN",
+  "dx": "Acromegaly from a somatotroph pituitary adenoma",
+  "codes": [
+   "EN-12-A3",
+   "EN-12-G4"
+  ],
+  "case": "A 47-year-old man comes to the physician because his rings no longer fit and his shoe size has increased over the past 3 years. He also reports headaches, excessive sweating, and snoring. His temperature is 37.0 °C (98.6 °F), pulse is 84/min, respirations are 16/min, and blood pressure is 154/96 mm Hg. Examination shows coarse facial features, frontal bossing, prognathism with widely spaced lower teeth, macroglossia, and large, thick hands. Fasting serum glucose is 121 mg/dL (reference, 70 to 99 mg/dL). MRI shows a 1.6-cm pituitary macroadenoma. Diagnosis: acromegaly from a growth hormone-secreting somatotroph adenoma.",
+  "questions": [
+   {
+    "id": "EN-C24-Q1",
+    "stem": "If the same adenoma had begun secreting excess growth hormone when he was 11 years old, which of the following would most likely have been the main additional feature?",
+    "options": [
+     "Premature fusion of the epiphyseal plates",
+     "Excessive linear growth of long bones",
+     "Short stature from IGF-1 receptor downregulation",
+     "Isolated enlargement of the hands and jaw"
+    ],
+    "answer": 1,
+    "sea": "X",
+    "comp": "EN-12-A3",
+    "obj": "EN-12-A.7",
+    "dok": 3,
+    "approach": [
+     "At age 11, the epiphyseal growth plates are still open.",
+     "IGF-1 drives chondrocyte proliferation at open growth plates, lengthening long bones.",
+     "GH excess before epiphyseal closure causes gigantism (very tall stature); after closure, bones can only widen, causing acromegaly."
+    ],
+    "why": "The effect of growth hormone excess depends on whether the epiphyses are open. Before closure, IGF-1 stimulates the growth plates and the child grows very tall (gigantism), often with some acral features as well. After closure, bones and soft tissue thicken instead: coarse face, prognathism, large hands and feet, and macroglossia. Acromegaly also causes insulin resistance and cardiovascular disease, including hypertension and cardiomyopathy, a leading cause of its excess mortality.",
+    "whyNot": [
+     "GH and IGF-1 excess do not close the growth plates early. Early closure is caused by sex steroid excess, as in precocious puberty.",
+     "Correct.",
+     "Excess GH raises IGF-1 and promotes growth. Short stature from GH resistance occurs in Laron syndrome, a GH receptor defect.",
+     "Isolated acral and jaw enlargement is the adult pattern, seen after the epiphyses have fused."
+    ],
+    "study": {
+     "topics": [
+      "Gigantism versus acromegaly"
+     ],
+     "comps": [
+      "EN-12-A3",
+      "EN-6"
+     ]
+    }
+   },
+   {
+    "id": "EN-C24-Q2",
+    "stem": "Serum IGF-1 and a 75-g oral glucose tolerance test are ordered. The age-adjusted IGF-1 reference range is 80 to 250 ng/mL, and growth hormone normally falls below 1 ng/mL after the glucose load. Which of the following sets of results would confirm the diagnosis?",
+    "options": [
+     "IGF-1 45 ng/mL; GH nadir 6.2 ng/mL",
+     "IGF-1 160 ng/mL; GH nadir 0.4 ng/mL",
+     "IGF-1 610 ng/mL; GH nadir 0.3 ng/mL",
+     "IGF-1 610 ng/mL; GH nadir 3.8 ng/mL"
+    ],
+    "answer": 3,
+    "sea": "X",
+    "comp": "EN-12-A3",
+    "obj": "EN-12-A.8",
+    "dok": 3,
+    "approach": [
+     "GH is secreted in pulses, so a single random GH level is unreliable; IGF-1 reflects average GH secretion over the day.",
+     "Hyperglycemia normally suppresses GH. An adenoma secretes GH autonomously, so GH fails to fall.",
+     "Confirmation needs both a raised IGF-1 and failure of GH suppression after glucose."
+    ],
+    "why": "IGF-1 is made by the liver in response to GH, circulates bound to binding proteins, and has a long half-life, so it is a stable screen for GH excess. The oral glucose tolerance test is the confirmatory test: in healthy people glucose suppresses GH below about 1 ng/mL, but a somatotroph adenoma keeps secreting. A raised IGF-1 with a GH nadir of 3.8 ng/mL confirms acromegaly, and MRI then locates the adenoma.",
+    "whyNot": [
+     "Low IGF-1 with high GH suggests GH resistance, such as Laron syndrome, malnutrition, or liver failure.",
+     "Normal IGF-1 with normal GH suppression excludes GH excess.",
+     "Raised IGF-1 with normal suppression does not confirm acromegaly; it can occur in puberty or pregnancy and needs repeat testing.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Laboratory confirmation of acromegaly"
+     ],
+     "comps": [
+      "EN-12-A3",
+      "EN-6"
+     ]
+    }
+   },
+   {
+    "id": "EN-C24-Q3",
+    "stem": "Which of the following best explains his fasting hyperglycemia?",
+    "options": [
+     "IGF-1 stimulation of hepatic gluconeogenesis",
+     "GH-induced autoimmune loss of beta cells",
+     "Direct GH antagonism of insulin action",
+     "IGF-1 blockade of insulin receptors"
+    ],
+    "answer": 2,
+    "sea": "P",
+    "comp": "EN-6",
+    "obj": "EN-6.5",
+    "dok": 2,
+    "approach": [
+     "Split GH effects into direct effects on tissues and indirect effects through IGF-1.",
+     "Direct GH effects are metabolic: lipolysis and opposing insulin (diabetogenic).",
+     "IGF-1 effects are growth effects and are insulin-like, so they do not explain hyperglycemia."
+    ],
+    "why": "GH acts directly on liver, muscle, and fat to raise blood glucose. It increases hepatic glucose output, reduces glucose uptake in muscle, and promotes lipolysis, and the released free fatty acids worsen insulin resistance. This is why acromegaly often causes glucose intolerance or diabetes. Its growth effects, such as linear growth and protein synthesis, come mostly through hepatic IGF-1. GH release is stimulated by GHRH, sleep, exercise, and hypoglycemia, and inhibited by somatostatin and IGF-1.",
+    "whyNot": [
+     "IGF-1 has insulin-like effects and tends to lower blood glucose.",
+     "GH does not cause autoimmune beta cell destruction; that is type 1 diabetes.",
+     "Correct.",
+     "IGF-1 can weakly activate the insulin receptor. It does not block it."
+    ],
+    "study": {
+     "topics": [
+      "Direct and indirect actions of GH"
+     ],
+     "comps": [
+      "EN-6",
+      "EN-12-A3"
+     ]
+    }
+   },
+   {
+    "id": "EN-C24-Q4",
+    "stem": "Histologic examination of the resected adenoma shows cells resembling normal somatotrophs. On hematoxylin and eosin staining, normal somatotrophs share their staining property with which of the following cell types?",
+    "options": [
+     "Acidophilic lactotrophs",
+     "Basophilic corticotrophs",
+     "Basophilic thyrotrophs",
+     "Pituicytes of the neurohypophysis"
+    ],
+    "answer": 0,
+    "sea": "A",
+    "comp": "EN-2",
+    "obj": "EN-2.3",
+    "dok": 2,
+    "approach": [
+     "Anterior pituitary cells are sorted by H and E staining into acidophils, basophils, and chromophobes.",
+     "Acidophils make the simple protein hormones GH and prolactin.",
+     "So somatotrophs group with lactotrophs."
+    ],
+    "why": "Acidophils secrete growth hormone (somatotrophs) and prolactin (lactotrophs). Basophils secrete the glycoprotein hormones FSH, LH, and TSH, plus ACTH (a mnemonic is B-FLAT: Basophils make FSH, LH, ACTH, TSH). Chromophobes stain weakly. Some adenomas contain mammosomatotrophs that make both GH and prolactin, which reflects this shared lineage. The posterior pituitary contains pituicytes and the axon terminals of hypothalamic neurons (Herring bodies), not hormone-secreting epithelial cells.",
+    "whyNot": [
+     "Correct.",
+     "Corticotrophs are basophils that make ACTH from POMC.",
+     "Thyrotrophs are basophils that make the glycoprotein TSH.",
+     "Pituicytes are glial cells of the posterior pituitary and do not secrete GH or other anterior lobe hormones."
+    ],
+    "study": {
+     "topics": [
+      "Pituitary histology"
+     ],
+     "comps": [
+      "EN-2",
+      "EN-3"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "EN-C25",
+  "system": "EN",
+  "dx": "Pituitary apoplexy in a nonfunctioning macroadenoma",
+  "codes": [
+   "EN-12-G4",
+   "EN-12-B4"
+  ],
+  "case": "A 61-year-old man is brought to the emergency department 3 hours after the sudden onset of the worst headache of his life, with vomiting and double vision. For 1 year he has had trouble seeing cars approaching from either side while driving. His temperature is 37.4 °C (99.3 °F), pulse is 112/min, respirations are 20/min, and blood pressure is 86/54 mm Hg. Examination shows right ptosis, a dilated right pupil, and a right eye that rests down and out. Visual field testing shows bitemporal hemianopia. Serum sodium is 128 mEq/L (reference, 136 to 145 mEq/L), and serum glucose is 64 mg/dL (reference, 70 to 99 mg/dL). MRI shows a 2.8-cm sellar mass with suprasellar extension and acute hemorrhage. Diagnosis: pituitary apoplexy in a nonfunctioning macroadenoma.",
+  "questions": [
+   {
+    "id": "EN-C25-Q1",
+    "stem": "Which of the following acute hormone deficiencies most likely accounts for his hypotension, hypoglycemia, and hyponatremia?",
+    "options": [
+     "Thyroid-stimulating hormone",
+     "Adrenocorticotropic hormone",
+     "Antidiuretic hormone",
+     "Growth hormone"
+    ],
+    "answer": 1,
+    "sea": "X",
+    "comp": "EN-12-F",
+    "obj": "EN-12-F.3",
+    "dok": 3,
+    "approach": [
+     "Pituitary apoplexy is sudden hemorrhage or infarction of an adenoma that destroys the remaining gland.",
+     "Loss of ACTH means loss of cortisol within hours to days, and cortisol is needed for vascular tone and gluconeogenesis.",
+     "Cortisol deficiency also increases ADH release and impairs free water excretion, causing hyponatremia."
+    ],
+    "why": "In apoplexy, the expanding hemorrhage raises pressure in the sella. It causes sudden severe headache, visual loss from chiasm compression, and ophthalmoplegia from compression of cranial nerves III, IV, and VI in the cavernous sinus. The most dangerous result is acute secondary adrenal insufficiency. Without ACTH, cortisol falls, causing hypotension, hypoglycemia, and hyponatremia, and treatment with glucocorticoids is urgent. Hyperkalemia is uncommon because aldosterone is controlled mainly by angiotensin II and potassium.",
+    "whyNot": [
+     "Thyroxine has a half-life of about a week, so loss of TSH causes hypothyroidism slowly, not acute shock.",
+     "Correct.",
+     "ADH deficiency would cause polyuria and a tendency to hypernatremia, the opposite of his sodium.",
+     "GH deficiency can contribute to fasting hypoglycemia in children, but it does not cause shock or hyponatremia."
+    ],
+    "study": {
+     "topics": [
+      "Pituitary apoplexy",
+      "Secondary adrenal insufficiency"
+     ],
+     "comps": [
+      "EN-12-F",
+      "EN-12-B2"
+     ]
+    }
+   },
+   {
+    "id": "EN-C25-Q2",
+    "stem": "Six months before this event, his serum prolactin was 42 ng/mL (reference, 2 to 18 ng/mL). Which of the following best explains this earlier prolactin elevation?",
+    "options": [
+     "Stalk compression blocking dopamine delivery",
+     "Prolactin secretion by the adenoma cells",
+     "Reduced renal clearance of prolactin",
+     "Increased TRH release from hypothalamic compression"
+    ],
+    "answer": 0,
+    "sea": "X",
+    "comp": "EN-12-G4",
+    "obj": "EN-12-G.8",
+    "dok": 3,
+    "approach": [
+     "The tumor is a nonfunctioning macroadenoma, so it does not make prolactin itself.",
+     "Prolactin is held down by dopamine carried from the hypothalamus through the stalk portal vessels.",
+     "A large mass that compresses the stalk cuts off dopamine, so normal lactotrophs release more prolactin (the stalk effect)."
+    ],
+    "why": "A nonfunctioning macroadenoma causes problems by mass effect. It compresses the optic chiasm (bitemporal hemianopia), stretches the dura (headache), crushes normal pituitary tissue (hypopituitarism), and compresses the stalk. Stalk compression interrupts dopamine delivery to lactotrophs and produces mild hyperprolactinemia, usually under about 100 ng/mL. This must be distinguished from a macroprolactinoma, where prolactin is usually far higher.",
+    "whyNot": [
+     "Correct.",
+     "A prolactin-secreting macroadenoma usually produces prolactin well above 100 to 200 ng/mL; this tumor is nonfunctioning.",
+     "Renal failure can raise prolactin modestly, but nothing suggests kidney disease, and the stalk effect explains the finding.",
+     "Compression of the hypothalamus reduces releasing hormones; it does not cause a surge in TRH."
+    ],
+    "study": {
+     "topics": [
+      "Mass effects of pituitary macroadenoma",
+      "Stalk effect"
+     ],
+     "comps": [
+      "EN-12-G4",
+      "EN-6"
+     ]
+    }
+   },
+   {
+    "id": "EN-C25-Q3",
+    "stem": "His right ptosis, dilated right pupil, and down-and-out right eye are best explained by extension of the hemorrhage into which of the following structures?",
+    "options": [
+     "Optic chiasm above the sella",
+     "Floor of the third ventricle",
+     "Sphenoid sinus below the sella",
+     "Right cavernous sinus"
+    ],
+    "answer": 3,
+    "sea": "A",
+    "comp": "EN-3",
+    "obj": "EN-3.4",
+    "dok": 2,
+    "approach": [
+     "Ptosis, a dilated pupil, and a down-and-out eye mean an oculomotor nerve (CN III) palsy.",
+     "The pituitary sits in the sella turcica, with the cavernous sinuses on each side.",
+     "CN III runs in the lateral wall of the cavernous sinus, so lateral expansion of the tumor compresses it."
+    ],
+    "why": "The pituitary lies in the sella turcica, roofed by the diaphragma sellae. The optic chiasm lies just above, so upward growth causes bitemporal hemianopia by compressing crossing nasal retinal fibers. The cavernous sinuses lie on each side and contain the internal carotid artery and CN VI, with CN III, CN IV, V1, and V2 in the lateral wall. Sudden lateral expansion in apoplexy can therefore cause ophthalmoplegia, most often from CN III palsy.",
+    "whyNot": [
+     "Chiasm compression explains his bitemporal hemianopia but does not affect eye movement or pupil size.",
+     "Pressure on the third ventricle floor and hypothalamus can cause hydrocephalus or hypothalamic dysfunction, not CN III palsy.",
+     "Downward extension into the sphenoid sinus causes no cranial nerve palsy; the sinus is the surgical route to the pituitary.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Relations of the sella turcica",
+      "Cavernous sinus contents"
+     ],
+     "comps": [
+      "EN-3",
+      "EN-12-F"
+     ]
+    }
+   },
+   {
+    "id": "EN-C25-Q4",
+    "stem": "Six weeks after surgical decompression, an intravenous CRH stimulation test is performed. Neither ACTH nor cortisol rises. Which of the following best explains this result?",
+    "options": [
+     "Loss of CRH neurons in the paraventricular nucleus",
+     "Loss of somatostatin tone on corticotrophs",
+     "Destroyed corticotrophs in the anterior lobe",
+     "Adrenal cortical resistance to ACTH"
+    ],
+    "answer": 2,
+    "sea": "P",
+    "comp": "EN-5",
+    "obj": "EN-5.1",
+    "dok": 3,
+    "approach": [
+     "Match the releasing hormone to its target: CRH stimulates corticotrophs to release ACTH.",
+     "Giving CRH bypasses the hypothalamus and tests the pituitary directly.",
+     "No ACTH response means the corticotrophs themselves are gone."
+    ],
+    "why": "Each hypothalamic hormone has an anterior pituitary target: TRH to thyrotrophs (TSH, and prolactin), CRH to corticotrophs (ACTH), GnRH to gonadotrophs (LH and FSH), GHRH to somatotrophs (GH), somatostatin inhibiting GH and TSH, and dopamine inhibiting prolactin. A releasing hormone test separates a pituitary lesion (no response) from a hypothalamic one (response present). The hemorrhage destroyed his corticotrophs. If the pituitary stalk were cut instead, prolactin would rise while other anterior hormones fell, and diabetes insipidus could follow.",
+    "whyNot": [
+     "With a hypothalamic lesion, the corticotrophs are intact and exogenous CRH would still raise ACTH.",
+     "Somatostatin inhibits GH and TSH release. Losing it would not block an ACTH response to CRH.",
+     "Correct.",
+     "Adrenal resistance to ACTH would leave ACTH high and rising after CRH, with only cortisol failing to rise."
+    ],
+    "study": {
+     "topics": [
+      "Hypothalamic releasing hormones and targets",
+      "Stimulation testing of the pituitary"
+     ],
+     "comps": [
+      "EN-5",
+      "EN-12-B4"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "EN-C26",
+  "system": "EN",
+  "dx": "Sheehan syndrome after postpartum hemorrhage",
+  "codes": [
+   "EN-12-F1",
+   "EN-12-B4"
+  ],
+  "case": "A 31-year-old woman comes to the physician 4 months after the vaginal delivery of her second child. Delivery was complicated by uterine atony with blood loss of about 2.5 L, hypotension, and transfusion of 6 units of packed red blood cells. Since then she has had fatigue, lightheadedness on standing, cold intolerance, and no menstrual periods. Her temperature is 36.1 °C (97.0 °F), pulse is 56/min, respirations are 14/min, and blood pressure is 94/58 mm Hg. Axillary and pubic hair are sparse. Serum sodium is 131 mEq/L (reference, 136 to 145 mEq/L), fasting glucose is 63 mg/dL (reference, 70 to 99 mg/dL), and 8 AM serum cortisol is 2.1 μg/dL (reference, 5 to 25 μg/dL). Diagnosis: Sheehan syndrome.",
+  "questions": [
+   {
+    "id": "EN-C26-Q1",
+    "stem": "Which of the following made her anterior pituitary especially vulnerable to ischemic injury during the hemorrhage?",
+    "options": [
+     "Autoimmune lymphocytic infiltration of the anterior lobe",
+     "Hemorrhage into a silent pituitary adenoma",
+     "Enlargement of the gland from lactotroph hyperplasia",
+     "Venous congestion from cavernous sinus thrombosis"
+    ],
+    "answer": 2,
+    "sea": "X",
+    "comp": "EN-12-F1",
+    "obj": "EN-12-F.1",
+    "dok": 2,
+    "approach": [
+     "During pregnancy, estrogen causes lactotroph hyperplasia, and the anterior pituitary nearly doubles in size.",
+     "Its blood supply does not increase to match, so the enlarged gland sits at the edge of adequate perfusion.",
+     "Severe hemorrhage with hypotension then causes ischemic necrosis of the anterior lobe."
+    ],
+    "why": "Sheehan syndrome is ischemic necrosis of the anterior pituitary after severe postpartum hemorrhage and shock. The pregnant gland is large and metabolically active because of lactotroph hyperplasia, but it still depends mainly on low-pressure portal blood, so a fall in blood pressure starves it. The posterior pituitary has a direct arterial supply from the inferior hypophyseal arteries and is usually spared, so diabetes insipidus is uncommon.",
+    "whyNot": [
+     "Lymphocytic hypophysitis does occur around pregnancy, but it is an autoimmune inflammation, unrelated to hemorrhage and ischemia.",
+     "Bleeding into an adenoma is pituitary apoplexy. Nothing suggests a prior adenoma, and her injury followed systemic shock.",
+     "Correct.",
+     "Cavernous sinus thrombosis causes ophthalmoplegia and proptosis and does not explain necrosis after hemorrhagic shock."
+    ],
+    "study": {
+     "topics": [
+      "Pathogenesis of Sheehan syndrome"
+     ],
+     "comps": [
+      "EN-12-F1",
+      "EN-4"
+     ]
+    }
+   },
+   {
+    "id": "EN-C26-Q2",
+    "stem": "Which of the following additional findings is most likely to have been present soon after delivery?",
+    "options": [
+     "Hyperpigmented palmar creases",
+     "Polyuria with dilute urine",
+     "Persistent galactorrhea",
+     "Inability to breastfeed"
+    ],
+    "answer": 3,
+    "sea": "P",
+    "comp": "EN-12-F1",
+    "obj": "EN-12-F.2",
+    "dok": 2,
+    "approach": [
+     "Anterior pituitary necrosis removes prolactin, ACTH, TSH, LH, FSH, and GH.",
+     "Lactotrophs are abundant and were working hardest after delivery, so prolactin loss shows first.",
+     "Without prolactin, milk production fails, often the earliest sign."
+    ],
+    "why": "The presentation of Sheehan syndrome follows from the hormones lost. Low prolactin causes failure of lactation. Low LH and FSH cause amenorrhea and, with low adrenal androgens, loss of axillary and pubic hair. Low TSH causes hypothyroidism (fatigue, cold intolerance, bradycardia). Low ACTH causes secondary adrenal insufficiency (hypotension, hypoglycemia, hyponatremia), as in this patient.",
+    "whyNot": [
+     "Hyperpigmentation comes from high ACTH in primary adrenal failure. In Sheehan syndrome ACTH is low, so skin is pale.",
+     "Diabetes insipidus is uncommon because the posterior pituitary keeps its direct arterial supply.",
+     "Galactorrhea requires prolactin; her lactotrophs have been destroyed.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Clinical features of Sheehan syndrome"
+     ],
+     "comps": [
+      "EN-12-F1",
+      "EN-12-B4"
+     ]
+    }
+   },
+   {
+    "id": "EN-C26-Q3",
+    "stem": "MRI 1 year later shows the sella turcica filled with cerebrospinal fluid and a thin rim of pituitary tissue along its floor. The same appearance can occur in people with no prior pituitary injury. In that primary form, which of the following is the cause?",
+    "options": [
+     "Arachnoid herniation through a defective diaphragma",
+     "Rathke cleft cyst expanding within the pars intermedia",
+     "Ischemic necrosis after a hypotensive episode",
+     "Autoimmune hypophysitis causing gland atrophy"
+    ],
+    "answer": 0,
+    "sea": "X",
+    "comp": "EN-12-B4",
+    "obj": "EN-12-B.8",
+    "dok": 2,
+    "approach": [
+     "A CSF-filled sella with a flattened gland is an empty sella.",
+     "Secondary empty sella follows destruction or shrinkage of the gland, as after Sheehan necrosis, surgery, or radiation.",
+     "Primary empty sella occurs when arachnoid and CSF herniate through an incomplete diaphragma sellae and press the gland flat."
+    ],
+    "why": "Hypopituitarism has several causes: nonfunctioning macroadenomas, Sheehan necrosis, pituitary apoplexy, surgery, and radiation. Any of these can leave an empty sella once the damaged tissue shrinks (secondary empty sella). Primary empty sella syndrome is different: a defect in the diaphragma sellae lets the arachnoid and CSF pulsations push into the sella and flatten the gland. It is common in obese women and in people with raised intracranial pressure, and pituitary function is often normal.",
+    "whyNot": [
+     "Correct.",
+     "A Rathke cleft cyst is a fluid-filled mass within the sella; it expands the gland region rather than leaving an empty sella.",
+     "Ischemic necrosis after hypotension is the secondary form seen in this patient, not the primary form.",
+     "Hypophysitis can end in atrophy and a secondary empty sella; it is not the cause of the primary form."
+    ],
+    "study": {
+     "topics": [
+      "Causes of hypopituitarism",
+      "Empty sella syndrome"
+     ],
+     "comps": [
+      "EN-12-B4",
+      "EN-3"
+     ]
+    }
+   },
+   {
+    "id": "EN-C26-Q4",
+    "stem": "Which of the following features of the anterior lobe's blood supply best explains why it infarcted while her posterior lobe was spared?",
+    "options": [
+     "It receives direct arterial blood from superior hypophyseal arteries",
+     "It receives most of its blood through low-pressure portal veins",
+     "It drains its venous blood into the cavernous sinuses",
+     "It receives direct arterial blood from inferior hypophyseal arteries"
+    ],
+    "answer": 1,
+    "sea": "A",
+    "comp": "EN-4",
+    "obj": "EN-4.2",
+    "dok": 3,
+    "approach": [
+     "Trace the portal system: superior hypophyseal arteries form a capillary plexus in the median eminence, which drains into long portal veins down the stalk.",
+     "These veins feed a second capillary bed in the anterior lobe, so the anterior lobe gets mostly venous, low-pressure blood.",
+     "The posterior lobe gets arterial blood directly from the inferior hypophyseal arteries, so it tolerates hypotension better."
+    ],
+    "why": "The hypothalamo-hypophyseal portal system carries releasing hormones from the median eminence to the anterior lobe. The same design means the anterior lobe receives blood that has already passed through one capillary bed, at low pressure. When systemic pressure falls, flow through this portal circuit drops sharply and the anterior lobe infarcts. The posterior lobe, fed directly by inferior hypophyseal arteries, usually survives.",
+    "whyNot": [
+     "The superior hypophyseal arteries mainly supply the median eminence and upper stalk; the anterior lobe receives little direct arterial blood.",
+     "Correct.",
+     "Both lobes drain into the cavernous sinuses, so venous drainage does not explain why only one infarcted.",
+     "The inferior hypophyseal arteries supply the posterior lobe, which explains its sparing, not the anterior lobe's injury."
+    ],
+    "study": {
+     "topics": [
+      "Hypothalamo-hypophyseal portal system"
+     ],
+     "comps": [
+      "EN-4",
+      "EN-12-F1"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "EN-C27",
+  "system": "EN",
+  "dx": "Craniopharyngioma with growth failure",
+  "codes": [
+   "EN-12-G4",
+   "EN-12-B4"
+  ],
+  "case": "A 9-year-old girl is brought to the physician because of headaches for 1 year and frequently bumping into doorframes. Her height has fallen from the 50th percentile to below the 5th percentile over 2 years. Her temperature is 36.9 °C (98.4 °F), pulse is 76/min, respirations are 18/min, and blood pressure is 102/64 mm Hg. Visual field testing shows bitemporal hemianopia. Funduscopic examination shows bilateral optic disc pallor. CT scan of the head shows a 3-cm suprasellar mass with cystic areas and calcifications. At surgery, the cyst contains thick, dark brown fluid resembling machine oil. Diagnosis: craniopharyngioma.",
+  "questions": [
+   {
+    "id": "EN-C27-Q1",
+    "stem": "Which of the following additional findings is most likely in this patient?",
+    "options": [
+     "Polyuria with dilute urine",
+     "Galactorrhea with very high prolactin",
+     "Hyperpigmentation of the gums and skin",
+     "Weight loss with heat intolerance"
+    ],
+    "answer": 0,
+    "sea": "X",
+    "comp": "EN-12-G4",
+    "obj": "EN-12-G.9",
+    "dok": 2,
+    "approach": [
+     "Craniopharyngioma sits above the sella and presses on the hypothalamus, stalk, and optic chiasm.",
+     "ADH is made in the hypothalamus and carried down the stalk; damage there causes central diabetes insipidus.",
+     "The result is polyuria with dilute urine."
+    ],
+    "why": "Craniopharyngioma is a benign but locally aggressive suprasellar tumor from Rathke pouch remnants. It has a peak in childhood and a second peak in older adults. It is often cystic and calcified, with oily fluid rich in cholesterol. It causes headache and hydrocephalus, bitemporal hemianopia from chiasm compression, and endocrine deficits: GH deficiency with growth failure, delayed puberty, hypothyroidism, and central diabetes insipidus from hypothalamic or stalk damage.",
+    "whyNot": [
+     "Correct.",
+     "Stalk compression can mildly raise prolactin, but very high prolactin points to a prolactinoma, and galactorrhea is rare in a prepubertal girl.",
+     "Hyperpigmentation requires high ACTH, as in primary adrenal failure. A suprasellar tumor lowers ACTH.",
+     "Heat intolerance and weight loss mean hyperthyroidism. A suprasellar mass tends to cause central hypothyroidism instead."
+    ],
+    "study": {
+     "topics": [
+      "Craniopharyngioma presentation"
+     ],
+     "comps": [
+      "EN-12-G4",
+      "EN-12-B1"
+     ]
+    }
+   },
+   {
+    "id": "EN-C27-Q2",
+    "stem": "This tumor arises from remnants of an embryonic structure that also forms part of the normal pituitary. Which of the following describes that structure?",
+    "options": [
+     "Downgrowth of the diencephalon forming the infundibulum",
+     "Outpouching of oral ectoderm from the roof of the stomodeum",
+     "Endodermal diverticulum at the foramen cecum of the tongue",
+     "Neural crest cells migrating into the third pharyngeal pouch"
+    ],
+    "answer": 1,
+    "sea": "A",
+    "comp": "EN-1",
+    "obj": "EN-1.3",
+    "dok": 2,
+    "approach": [
+     "Craniopharyngioma comes from Rathke pouch remnants.",
+     "Rathke pouch is an upgrowth of oral ectoderm from the roof of the primitive mouth (stomodeum).",
+     "Rathke pouch forms the anterior pituitary; the infundibulum forms the posterior pituitary."
+    ],
+    "why": "The pituitary has two embryonic sources. Rathke pouch, an outpouching of oral ectoderm, grows upward and forms the adenohypophysis (anterior lobe). The infundibulum, a downgrowth of the diencephalon (neuroectoderm), forms the stalk and posterior lobe. Rathke pouch normally loses its connection to the mouth, but epithelial remnants along its path can later give rise to craniopharyngioma, which is why the tumor contains squamous epithelium.",
+    "whyNot": [
+     "The infundibulum forms the posterior pituitary and stalk, which are neural tissue and do not give rise to craniopharyngioma.",
+     "Correct.",
+     "The diverticulum at the foramen cecum forms the thyroid gland; its remnants cause thyroglossal duct cysts.",
+     "The third pharyngeal pouch is endoderm that forms the inferior parathyroids and thymus. Neural crest cells reaching the ultimobranchial body form thyroid C cells, not pituitary tissue."
+    ],
+    "study": {
+     "topics": [
+      "Pituitary embryology"
+     ],
+     "comps": [
+      "EN-1",
+      "EN-12-G4"
+     ]
+    }
+   },
+   {
+    "id": "EN-C27-Q3",
+    "stem": "Before surgery, which of the following sets of findings best fits the cause of her growth failure?",
+    "options": [
+     "Normal IGF-1, normal GH response, normal bone age",
+     "Low IGF-1, high GH response, delayed bone age",
+     "Normal IGF-1, normal GH response, delayed bone age",
+     "Low IGF-1, low GH response, delayed bone age"
+    ],
+    "answer": 3,
+    "sea": "X",
+    "comp": "EN-12-B",
+    "obj": "EN-12-B.14",
+    "dok": 3,
+    "approach": [
+     "Her growth slowed and crossed percentiles after a tumor appeared near the pituitary, suggesting acquired GH deficiency.",
+     "In GH deficiency, both GH secretion and hepatic IGF-1 are low.",
+     "GH deficiency (and any accompanying central hypothyroidism) slows skeletal maturation, so bone age is delayed."
+    ],
+    "why": "Short stature is sorted with IGF-1, stimulated GH, and bone age. GH deficiency: low GH response, low IGF-1, delayed bone age. GH receptor defects (Laron syndrome): high GH, low IGF-1. Constitutional growth delay: normal GH, delayed bone age, late puberty, and normal adult height. Familial short stature: normal GH and bone age that matches chronologic age. A child who falls off her growth curve with a sellar mass has acquired GH deficiency.",
+    "whyNot": [
+     "This is familial short stature: a short child growing at a normal rate with normal bone age, not one falling across percentiles.",
+     "High GH with low IGF-1 is GH resistance, as in Laron syndrome, a GH receptor defect.",
+     "This is constitutional growth delay, a normal variant without a fall across percentiles or a pituitary mass.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Causes of short stature"
+     ],
+     "comps": [
+      "EN-12-B",
+      "EN-6"
+     ]
+    }
+   },
+   {
+    "id": "EN-C27-Q4",
+    "stem": "To test her GH reserve, she is given a stimulus that normally raises GH secretion. Which of the following normally stimulates GH release from the anterior pituitary?",
+    "options": [
+     "Hyperglycemia after an oral glucose load",
+     "Raised circulating IGF-1 levels",
+     "Insulin-induced hypoglycemia",
+     "Elevated plasma free fatty acids"
+    ],
+    "answer": 2,
+    "sea": "P",
+    "comp": "EN-6",
+    "obj": "EN-6.5",
+    "dok": 2,
+    "approach": [
+     "GH is a counterregulatory hormone that helps defend blood glucose.",
+     "A fall in glucose increases GHRH and decreases somatostatin, so GH rises.",
+     "High glucose, IGF-1, and free fatty acids all feed back to suppress GH."
+    ],
+    "why": "GH secretion is driven by GHRH and inhibited by somatostatin. It rises with deep sleep, exercise, stress, fasting, and hypoglycemia, and falls with hyperglycemia, raised free fatty acids, and IGF-1 feedback on the hypothalamus and pituitary. Provocative tests for GH deficiency use stimuli such as insulin-induced hypoglycemia, arginine, or glucagon. A low peak GH response supports GH deficiency.",
+    "whyNot": [
+     "Hyperglycemia suppresses GH; that is the basis of the glucose suppression test for acromegaly.",
+     "IGF-1 inhibits GH release by negative feedback.",
+     "Correct.",
+     "Free fatty acids suppress GH release, part of the feedback loop that limits GH-driven lipolysis."
+    ],
+    "study": {
+     "topics": [
+      "Regulation of GH secretion"
+     ],
+     "comps": [
+      "EN-6",
+      "EN-5"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "EN-C28",
+  "system": "EN",
+  "dx": "Central diabetes insipidus from hypothalamic Langerhans cell histiocytosis",
+  "codes": [
+   "EN-12-B1",
+   "EN-12-B4"
+  ],
+  "case": "A 5-year-old boy is brought to the physician because of excessive thirst and urination for 2 months. He has been waking at night to drink. He also has a tender swelling on his scalp. His temperature is 37.1 °C (98.8 °F), pulse is 104/min, respirations are 22/min, and blood pressure is 98/60 mm Hg. Serum sodium is 147 mEq/L (reference, 136 to 145 mEq/L), serum osmolality is 302 mOsm/kg H2O (reference, 275 to 295 mOsm/kg H2O), serum glucose is 88 mg/dL (reference, 70 to 99 mg/dL), and urine osmolality is 110 mOsm/kg H2O. A skull x-ray shows a punched-out lytic lesion. MRI shows a thickened pituitary stalk and loss of the normal posterior pituitary bright spot. Biopsy of the skull lesion shows Langerhans cells that are positive for CD1a. Diagnosis: central diabetes insipidus from Langerhans cell histiocytosis.",
+  "questions": [
+   {
+    "id": "EN-C28-Q1",
+    "stem": "His 14-year-old cousin has polyuria and dilute urine while taking lithium for bipolar disorder. Which of the following best distinguishes the cousin's disorder from this patient's disorder?",
+    "options": [
+     "Serum sodium is low in the cousin and high in this patient",
+     "Urine osmolality is high in the cousin and low in this patient",
+     "Plasma ADH is low in the cousin and high in this patient",
+     "Plasma ADH is high in the cousin and low in this patient"
+    ],
+    "answer": 3,
+    "sea": "X",
+    "comp": "EN-12-B1",
+    "obj": "EN-12-B.1",
+    "dok": 3,
+    "approach": [
+     "Lithium causes nephrogenic diabetes insipidus by impairing aquaporin-2 expression in collecting duct principal cells.",
+     "In nephrogenic DI, the hypothalamus senses high osmolality and releases plenty of ADH, but the kidney cannot respond.",
+     "In central DI, the defect is ADH deficiency, so plasma ADH is low."
+    ],
+    "why": "Central and nephrogenic diabetes insipidus both cause polyuria with dilute urine and a tendency to hypernatremia when water intake is limited. Central DI is ADH deficiency from head trauma, surgery, tumors, or infiltrative disease such as Langerhans cell histiocytosis. Nephrogenic DI is resistance to ADH from V2 receptor or aquaporin-2 defects, lithium, hypercalcemia, or hypokalemia, and ADH (or its marker copeptin) is high. The ADH level separates them.",
+    "whyNot": [
+     "Both forms of diabetes insipidus tend toward high-normal or high sodium; low sodium is not expected in lithium-induced DI.",
+     "Urine is dilute in both disorders.",
+     "This reverses the pattern. Low ADH is the defect in central DI.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Central versus nephrogenic diabetes insipidus"
+     ],
+     "comps": [
+      "EN-12-B1",
+      "EN-5"
+     ]
+    }
+   },
+   {
+    "id": "EN-C28-Q2",
+    "stem": "Over the next year, the infiltrate destroys the TRH-secreting neurons of the hypothalamus. Which of the following sets of thyroid test results is then most likely?",
+    "options": [
+     "Low free T4 and markedly raised TSH",
+     "Low free T4 and low-normal TSH",
+     "High free T4 and suppressed TSH",
+     "Normal free T4 and mildly raised TSH"
+    ],
+    "answer": 1,
+    "sea": "X",
+    "comp": "EN-12-B4",
+    "obj": "EN-12-B.9",
+    "dok": 3,
+    "approach": [
+     "Without TRH, thyrotrophs lose their main stimulus.",
+     "TSH falls or stays inappropriately normal, and the thyroid makes less T4.",
+     "Central hypothyroidism gives low free T4 without the high TSH of primary hypothyroidism."
+    ],
+    "why": "Hypothalamic lesions such as craniopharyngioma, infiltrative disease (Langerhans cell histiocytosis, sarcoidosis), and radiation cause deficiency of releasing hormones. The anterior pituitary is intact but understimulated, so TSH, ACTH, LH, FSH, and GH output fall. Diabetes insipidus is common because ADH neurons live in the hypothalamus. Prolactin may rise mildly because dopamine no longer reaches lactotrophs. A low free T4 with a low or normal TSH is the thyroid signature of central disease.",
+    "whyNot": [
+     "Low T4 with high TSH is primary hypothyroidism, such as Hashimoto thyroiditis.",
+     "Correct.",
+     "High T4 with suppressed TSH is primary hyperthyroidism, such as Graves disease.",
+     "Normal T4 with mildly raised TSH is subclinical primary hypothyroidism."
+    ],
+    "study": {
+     "topics": [
+      "Hypothalamic lesions and hypopituitarism",
+      "Central hypothyroidism"
+     ],
+     "comps": [
+      "EN-12-B4",
+      "EN-5"
+     ]
+    }
+   },
+   {
+    "id": "EN-C28-Q3",
+    "stem": "A supervised water deprivation test is performed. After 6 hours, his urine osmolality is 125 mOsm/kg H2O and his serum sodium has risen to 149 mEq/L. Desmopressin is then given. Which of the following urine osmolalities 2 hours later is most likely?",
+    "options": [
+     "65 mOsm/kg H2O",
+     "135 mOsm/kg H2O",
+     "450 mOsm/kg H2O",
+     "1,150 mOsm/kg H2O"
+    ],
+    "answer": 2,
+    "sea": "P",
+    "comp": "EN-12-B1",
+    "obj": "EN-12-B.2",
+    "dok": 3,
+    "approach": [
+     "Water deprivation should concentrate the urine. His stays dilute, so he has diabetes insipidus.",
+     "In central DI, the kidney can still respond to ADH, so desmopressin raises urine osmolality by more than 50 percent.",
+     "Chronic polyuria washes out the medullary gradient, so the rise is large but falls short of maximal concentration."
+    ],
+    "why": "The water deprivation test separates three causes of polyuria. In primary polydipsia, urine concentrates during deprivation and changes little after desmopressin. In central DI, urine stays dilute during deprivation and then concentrates sharply after desmopressin, often by more than 50 percent. In nephrogenic DI, urine stays dilute after both steps, rising less than about 10 percent. Because long-standing polyuria washes out medullary solute, even central DI rarely reaches near-maximal urine osmolality right away.",
+    "whyNot": [
+     "Desmopressin increases water reabsorption, so it cannot make urine more dilute than before.",
+     "A rise of less than 10 percent after desmopressin means nephrogenic DI.",
+     "Correct.",
+     "Near-maximal concentration is unlikely right away because chronic polyuria has washed out the medullary gradient."
+    ],
+    "study": {
+     "topics": [
+      "Water deprivation test"
+     ],
+     "comps": [
+      "EN-12-B1",
+      "EN-5"
+     ]
+    }
+   },
+   {
+    "id": "EN-C28-Q4",
+    "stem": "The posterior lobe itself is not infiltrated. Which of the following best explains why disease limited to the hypothalamus and pituitary stalk causes ADH deficiency?",
+    "options": [
+     "ADH is made in hypothalamic nuclei and moves down axons",
+     "ADH is made by pituicytes and stored in Herring bodies",
+     "ADH is made in the anterior lobe and released into portal veins",
+     "ADH is made in hypothalamic nuclei and carried in portal veins"
+    ],
+    "answer": 0,
+    "sea": "B",
+    "comp": "EN-8",
+    "obj": "EN-8.5",
+    "dok": 3,
+    "approach": [
+     "ADH and oxytocin are synthesized in neurons of the supraoptic and paraventricular nuclei.",
+     "They are packaged with carrier proteins called neurophysins and transported down axons in the stalk.",
+     "The posterior lobe only stores and releases them, so cutting or infiltrating the stalk stops delivery."
+    ],
+    "why": "ADH is made as a larger precursor (preprovasopressin) in magnocellular neurons of the supraoptic and paraventricular nuclei. The precursor is cleaved into ADH, neurophysin II, and copeptin inside granules that travel down the axons of the hypothalamo-hypophyseal tract. The hormone is stored in swollen axon terminals (Herring bodies) in the posterior lobe and released into blood when osmolality rises. The normal T1 bright spot on MRI reflects these stored granules; its loss here shows that ADH is no longer arriving.",
+    "whyNot": [
+     "Correct.",
+     "Pituicytes are supporting glial cells. Herring bodies are axon terminals of hypothalamic neurons, not pituicyte products.",
+     "The anterior lobe makes ACTH, TSH, LH, FSH, GH, and prolactin, not ADH.",
+     "Portal veins carry releasing hormones to the anterior lobe. ADH reaches the posterior lobe inside axons."
+    ],
+    "study": {
+     "topics": [
+      "Synthesis and transport of ADH and oxytocin"
+     ],
+     "comps": [
+      "EN-8",
+      "EN-2"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "EN-C29",
+  "system": "EN",
+  "dx": "SIADH from small cell lung carcinoma",
+  "codes": [
+   "EN-12-A",
+   "EN-12-G"
+  ],
+  "case": "A 66-year-old man is brought to the physician by his wife because of increasing confusion and nausea for 1 week. He has smoked 1.5 packs of cigarettes daily for 45 years and takes no medications. His temperature is 36.9 °C (98.4 °F), pulse is 82/min, respirations are 16/min, and blood pressure is 128/78 mm Hg without orthostatic change. Mucous membranes are moist, jugular venous pressure is normal, and there is no edema. Serum sodium is 121 mEq/L (reference, 136 to 145 mEq/L), serum osmolality is 252 mOsm/kg H2O (reference, 275 to 295 mOsm/kg H2O), urine osmolality is 480 mOsm/kg H2O, and urine sodium is 52 mEq/L. TSH and morning cortisol are normal. CT scan of the chest shows a large central hilar mass. Biopsy shows small cell carcinoma. Diagnosis: SIADH from small cell lung carcinoma.",
+  "questions": [
+   {
+    "id": "EN-C29-Q1",
+    "stem": "Which of the following best explains why his urine sodium concentration is high despite his hyponatremia?",
+    "options": [
+     "Primary aldosterone deficiency causing renal salt wasting",
+     "Proximal tubule injury from tumor-derived toxins",
+     "Water retention expands volume and induces natriuresis",
+     "ADH directly blocks sodium channels in collecting ducts"
+    ],
+    "answer": 2,
+    "sea": "P",
+    "comp": "EN-12-A",
+    "obj": "EN-12-A.11",
+    "dok": 3,
+    "approach": [
+     "Euvolemic hyponatremia with urine more concentrated than plasma means ADH is acting inappropriately.",
+     "Retained water slightly expands the extracellular volume.",
+     "The kidney responds as it would to any volume expansion: renin and aldosterone fall, natriuretic peptides rise, and sodium is excreted."
+    ],
+    "why": "In SIADH, ADH is released despite low plasma osmolality. Retained water dilutes sodium, and the mild volume expansion suppresses the renin-angiotensin-aldosterone system and raises atrial natriuretic peptide, so urine sodium stays above about 30 to 40 mEq/L. Because the extra water is spread through all body compartments, edema does not develop and the patient looks euvolemic. Causes include small cell lung carcinoma, CNS disease, lung disease, and drugs. Hypothyroidism and adrenal insufficiency must be excluded first.",
+    "whyNot": [
+     "Primary adrenal failure causes salt wasting with hypotension and hyperkalemia; his blood pressure and cortisol are normal.",
+     "Tumor products do not cause proximal tubule salt wasting in this setting, and that would not explain the concentrated urine.",
+     "Correct.",
+     "ADH acts through V2 receptors to insert aquaporin-2 water channels. It does not block sodium channels; it modestly increases sodium reabsorption."
+    ],
+    "study": {
+     "topics": [
+      "SIADH laboratory pattern"
+     ],
+     "comps": [
+      "EN-12-A",
+      "EN-5"
+     ]
+    }
+   },
+   {
+    "id": "EN-C29-Q2",
+    "stem": "Three months later, he has proximal muscle weakness, leg edema, serum potassium of 2.8 mEq/L (reference, 3.5 to 5.0 mEq/L), and fasting glucose of 214 mg/dL (reference, 70 to 99 mg/dL). His blood pressure is 168/98 mm Hg. Which of the following is the most likely cause of these new findings?",
+    "options": [
+     "Ectopic ACTH secretion by the tumor",
+     "PTH-related peptide secretion by the tumor",
+     "Autoantibodies to presynaptic calcium channels",
+     "Metastatic destruction of both adrenal glands"
+    ],
+    "answer": 0,
+    "sea": "X",
+    "comp": "EN-12-G",
+    "obj": "EN-12-G.17",
+    "dok": 3,
+    "approach": [
+     "Hypokalemia, hyperglycemia, hypertension, edema, and proximal weakness point to cortisol excess.",
+     "Small cell carcinoma is a neuroendocrine tumor that can secrete ACTH as well as ADH.",
+     "Ectopic ACTH levels are often very high, so mineralocorticoid effects of cortisol (hypokalemia, hypertension) are prominent and develop quickly."
+    ],
+    "why": "Small cell lung carcinoma is the classic source of ectopic ACTH and ADH. Ectopic ACTH drives adrenal cortisol to levels that overwhelm 11-beta-hydroxysteroid dehydrogenase type 2 in the kidney, so cortisol acts on mineralocorticoid receptors and causes hypokalemia and hypertension. Hypercalcemia of malignancy is a different paraneoplastic syndrome, caused by PTH-related peptide from squamous cell lung carcinoma or renal cell carcinoma, with suppressed PTH.",
+    "whyNot": [
+     "Correct.",
+     "PTH-related peptide causes hypercalcemia and is typical of squamous cell lung carcinoma and renal cell carcinoma, not this picture.",
+     "Lambert-Eaton syndrome causes proximal weakness with small cell carcinoma, but it does not cause hypokalemia, hyperglycemia, or hypertension.",
+     "Bilateral adrenal destruction would cause adrenal insufficiency with hypotension, hyperkalemia, and hypoglycemia."
+    ],
+    "study": {
+     "topics": [
+      "Endocrine paraneoplastic syndromes"
+     ],
+     "comps": [
+      "EN-12-G",
+      "EN-12-A1"
+     ]
+    }
+   },
+   {
+    "id": "EN-C29-Q3",
+    "stem": "In a healthy person, a fall in plasma osmolality to his level would stop ADH release almost completely. Which of the following sensors normally mediates this response?",
+    "options": [
+     "Carotid sinus baroreceptors sensing low volume",
+     "Osmoreceptors in the anterior hypothalamus",
+     "Macula densa cells sensing low tubular sodium",
+     "Atrial stretch receptors in the left atrium"
+    ],
+    "answer": 1,
+    "sea": "P",
+    "comp": "EN-5",
+    "obj": "EN-5.2",
+    "dok": 2,
+    "approach": [
+     "ADH is controlled by two inputs: plasma osmolality and effective blood volume.",
+     "Osmolality is the sensitive minute-to-minute controller; a change of about 1 to 2 percent alters ADH release.",
+     "Osmoreceptors in the anterior hypothalamus near the third ventricle sense this and signal the supraoptic and paraventricular neurons."
+    ],
+    "why": "Hypothalamic osmoreceptors shrink when plasma osmolality rises and swell when it falls. Low osmolality silences ADH release so that dilute urine is excreted. Baroreceptors in the carotid sinus, aortic arch, and atria stimulate ADH when volume falls by about 10 percent or more. ADH binds V2 receptors on collecting duct principal cells, raises cAMP, and inserts aquaporin-2 channels into the luminal membrane. In SIADH, the tumor releases ADH regardless of these controls.",
+    "whyNot": [
+     "Baroreceptors increase ADH when blood volume falls; his volume is normal and they respond only to larger changes.",
+     "Correct.",
+     "The macula densa senses tubular sodium chloride and controls renin release and glomerular filtration, not ADH.",
+     "Atrial stretch receptors respond to volume, and atrial stretch suppresses ADH; they do not sense osmolality."
+    ],
+    "study": {
+     "topics": [
+      "Control of ADH release"
+     ],
+     "comps": [
+      "EN-5",
+      "EN-8"
+     ]
+    }
+   },
+   {
+    "id": "EN-C29-Q4",
+    "stem": "The tumor cells stain for chromogranin A and synaptophysin, markers of neuroendocrine cells. Normal neuroendocrine cells come from several germ layers. Which of the following normal endocrine cells is derived from neural crest?",
+    "options": [
+     "Thyroid follicular cells",
+     "Pancreatic beta cells",
+     "Parathyroid chief cells",
+     "Thyroid C cells"
+    ],
+    "answer": 3,
+    "sea": "A",
+    "comp": "EN-2",
+    "obj": "EN-2.5",
+    "dok": 2,
+    "approach": [
+     "Sort endocrine cells by origin: neural crest, endoderm, or ectoderm.",
+     "Neural crest gives chromaffin cells of the adrenal medulla and the parafollicular C cells of the thyroid.",
+     "Endoderm gives thyroid follicular cells, parathyroid cells, and islet cells."
+    ],
+    "why": "Endocrine cells come from different germ layers. Neural crest: adrenal chromaffin cells and thyroid C cells (via the ultimobranchial body). Endoderm: thyroid follicular cells, parathyroid chief cells, and pancreatic islet cells. Ectoderm: the adenohypophysis from Rathke pouch. Despite these different origins, cells that store hormones in secretory granules share neuroendocrine markers such as chromogranin and synaptophysin, and so do the tumors that arise from them.",
+    "whyNot": [
+     "Thyroid follicular cells come from the endodermal thyroid diverticulum at the foramen cecum.",
+     "Islet cells, including beta cells, come from foregut endoderm of the pancreatic buds.",
+     "Parathyroid chief cells come from the endoderm of the third and fourth pharyngeal pouches.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Embryonic origin of endocrine cells"
+     ],
+     "comps": [
+      "EN-2",
+      "EN-1"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "EN-C30",
+  "system": "EN",
+  "dx": "Primary hyperparathyroidism from a parathyroid adenoma",
+  "codes": [
+   "EN-12-A2",
+   "EN-12-G3"
+  ],
+  "case": "A 57-year-old woman comes to the physician because of fatigue, constipation, and aching in her legs for 6 months. Two months ago she passed a calcium oxalate kidney stone. Her temperature is 36.7 °C (98.1 °F), pulse is 78/min, respirations are 14/min, and blood pressure is 138/84 mm Hg. Serum calcium is 11.6 mg/dL (reference, 8.5 to 10.2 mg/dL), phosphate is 2.1 mg/dL (reference, 2.5 to 4.5 mg/dL), and intact PTH is 128 pg/mL (reference, 10 to 65 pg/mL). Twenty-four-hour urine calcium is 340 mg (reference, 100 to 300 mg). A sestamibi scan shows a single focus of uptake below the lower pole of the right thyroid lobe. Diagnosis: primary hyperparathyroidism from a parathyroid adenoma.",
+  "questions": [
+   {
+    "id": "EN-C30-Q1",
+    "stem": "A radiograph shows a lytic lesion of the mandible. Biopsy shows fibrous tissue with many osteoclast-type giant cells and hemosiderin-laden macrophages. Which of the following best explains this lesion?",
+    "options": [
+     "Metastatic carcinoma secreting PTH-related peptide",
+     "PTH-driven resorption with bleeding and fibrous repair",
+     "Defective mineralization of newly formed osteoid",
+     "Giant cell tumor arising from neoplastic stromal cells"
+    ],
+    "answer": 1,
+    "sea": "X",
+    "comp": "EN-12-A2",
+    "obj": "EN-12-A.5",
+    "dok": 3,
+    "approach": [
+     "High PTH increases osteoclast activity (indirectly, through RANKL from osteoblasts).",
+     "Severe resorption causes microfractures and bleeding; macrophages take up the blood (hemosiderin) and fibrous tissue fills in.",
+     "The result is a brown tumor, part of osteitis fibrosa cystica. It is a reactive lesion."
+    ],
+    "why": "Primary hyperparathyroidism, usually from a single adenoma, causes hypercalcemia, hypophosphatemia, and high PTH. Its effects are summarized as stones (kidney stones), bones (bone pain, osteitis fibrosa cystica), groans (constipation, abdominal pain), and psychiatric overtones. In bone, PTH drives osteoclastic resorption. Early radiographic signs are subperiosteal resorption on the radial side of the middle phalanges. In severe disease, hemorrhage and repair produce brown tumors, named for their hemosiderin color.",
+    "whyNot": [
+     "PTH-related peptide from a carcinoma would suppress PTH. Her PTH is high, and the lesion lacks tumor cells.",
+     "Correct.",
+     "Defective mineralization is osteomalacia, usually from vitamin D deficiency, with low or normal calcium.",
+     "Giant cell tumor of bone is a true neoplasm, typically at the ends of long bones, and is not caused by PTH excess."
+    ],
+    "study": {
+     "topics": [
+      "Osteitis fibrosa cystica and brown tumors"
+     ],
+     "comps": [
+      "EN-12-A2",
+      "EN-5"
+     ]
+    }
+   },
+   {
+    "id": "EN-C30-Q2",
+    "stem": "Her 34-year-old brother is found to have serum calcium of 10.9 mg/dL, intact PTH of 68 pg/mL, and 24-hour urine calcium of 45 mg (reference ranges as above). He has never had kidney stones. Which of the following best explains his findings?",
+    "options": [
+     "Gain-of-function calcium-sensing receptor mutation",
+     "Loss-of-function mutation in the MEN1 gene",
+     "PTH-related peptide from an occult tumor",
+     "Loss-of-function calcium-sensing receptor mutation"
+    ],
+    "answer": 3,
+    "sea": "B",
+    "comp": "EN-12-A2",
+    "obj": "EN-12-A.12",
+    "dok": 3,
+    "approach": [
+     "Mild hypercalcemia with mildly raised PTH could be primary hyperparathyroidism, but his urine calcium is low.",
+     "The calcium-sensing receptor on parathyroid and kidney cells sets the calcium level that turns off PTH and controls renal calcium excretion.",
+     "An inactivating mutation raises that set point: PTH is not suppressed, and the kidney reabsorbs calcium avidly, giving familial hypocalciuric hypercalcemia."
+    ],
+    "why": "Familial hypocalciuric hypercalcemia (FHH) is usually autosomal dominant and caused by heterozygous loss-of-function mutations in the calcium-sensing receptor gene (CASR). The parathyroid needs a higher calcium level to suppress PTH, and the thick ascending limb reabsorbs more calcium, so urine calcium is low. Calcium is mildly raised, PTH is normal or mildly raised, and complications are rare. A calcium-to-creatinine clearance ratio under about 0.01 favors FHH, and parathyroid surgery does not help.",
+    "whyNot": [
+     "Activating calcium-sensing receptor mutations lower the set point, causing hypocalcemia with low PTH and relatively high urine calcium.",
+     "MEN1 causes multigland primary hyperparathyroidism with high urine calcium and stones, not low urine calcium.",
+     "PTH-related peptide would suppress his own PTH, and hypercalcemia of malignancy is usually more severe.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Familial hypocalciuric hypercalcemia",
+      "Calcium-sensing receptor"
+     ],
+     "comps": [
+      "EN-12-A2",
+      "EN-5"
+     ]
+    }
+   },
+   {
+    "id": "EN-C30-Q3",
+    "stem": "Which of the following actions of PTH best explains her serum phosphate concentration?",
+    "options": [
+     "Increased phosphate deposition in bone matrix",
+     "Decreased intestinal phosphate absorption",
+     "Less phosphate reabsorbed in the proximal tubule",
+     "Increased phosphate secretion in the distal tubule"
+    ],
+    "answer": 2,
+    "sea": "P",
+    "comp": "EN-5",
+    "obj": "EN-5.3",
+    "dok": 2,
+    "approach": [
+     "Her phosphate is low while PTH is high.",
+     "PTH removes sodium-phosphate cotransporters (NaPi-IIa) from the proximal tubule luminal membrane.",
+     "Less phosphate is reabsorbed, so more is lost in urine and serum phosphate falls."
+    ],
+    "why": "Low ionized calcium is sensed by the calcium-sensing receptor and increases PTH release. PTH raises calcium in three ways: it promotes bone resorption, increases calcium reabsorption in the distal tubule, and stimulates renal 1-alpha-hydroxylase to make calcitriol, which increases intestinal calcium and phosphate absorption. It also causes phosphaturia by reducing proximal tubule phosphate reabsorption, which is why PTH excess gives hypophosphatemia. Calcitonin from thyroid C cells opposes PTH by inhibiting osteoclasts, but its role in adults is minor.",
+    "whyNot": [
+     "PTH increases bone resorption, releasing phosphate from bone; it does not drive phosphate into bone.",
+     "PTH increases calcitriol, which raises intestinal phosphate absorption.",
+     "Correct.",
+     "The kidney handles phosphate by filtration and proximal reabsorption; distal tubular secretion of phosphate is not the mechanism."
+    ],
+    "study": {
+     "topics": [
+      "Renal actions of PTH",
+      "Calcium and phosphate homeostasis"
+     ],
+     "comps": [
+      "EN-5",
+      "EN-12-A2"
+     ]
+    }
+   },
+   {
+    "id": "EN-C30-Q4",
+    "stem": "Which of the following cell types makes up most of the resected adenoma and secretes the hormone causing her hypercalcemia?",
+    "options": [
+     "Chief cells with pale cytoplasm",
+     "Oxyphil cells packed with mitochondria",
+     "Parafollicular cells with calcitonin granules",
+     "Follicular cells lining colloid"
+    ],
+    "answer": 0,
+    "sea": "A",
+    "comp": "EN-2",
+    "obj": "EN-2.4",
+    "dok": 2,
+    "approach": [
+     "Her hypercalcemia is driven by PTH.",
+     "Within the parathyroid, PTH is made by chief cells.",
+     "Chief cells are small polygonal cells with pale-staining cytoplasm; oxyphil cells are larger and pink because they are packed with mitochondria."
+    ],
+    "why": "The parathyroid contains chief cells, which synthesize and secrete PTH, and oxyphil cells, which appear after puberty, increase with age, and have abundant eosinophilic cytoplasm from many mitochondria. Most parathyroid adenomas are composed mainly of chief cells. In the pancreas, by comparison, islet alpha cells make glucagon, beta cells make insulin, and delta cells make somatostatin.",
+    "whyNot": [
+     "Correct.",
+     "Oxyphil cells are a minority population and are not the main PTH-secreting cell; oxyphil adenomas exist but are uncommon.",
+     "Parafollicular C cells are in the thyroid and secrete calcitonin, which lowers calcium.",
+     "Thyroid follicular cells make thyroid hormone and have no role in calcium regulation."
+    ],
+    "study": {
+     "topics": [
+      "Parathyroid histology"
+     ],
+     "comps": [
+      "EN-2",
+      "EN-12-G3"
+     ]
+    }
+   }
+  ]
+ }
+]
