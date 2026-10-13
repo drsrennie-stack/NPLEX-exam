@@ -70,6 +70,7 @@ Write JSON only (UTF-8, valid, no comments, no trailing commas). Validate it you
 ```
 
 Rules for study units:
+- Your notes, charts, and high-yield lines must teach every competency in the unit's "objectives" list in nplex-competencies.js. Those competencies are what the questions test.
 - Brief. Students will not read paragraphs. Bullets of one line each, 3 to 7 notes sections, 12 to 35 bullets total.
 - At least one chart per unit where a comparison or sequence exists (most units). Charts must be accurate and complete for what they claim to show.
 - Tricks: 2 to 4. Use well-established mnemonics where they exist (for example the classic ones taught in First Aid). If you create an original memory aid, set "kind": "trick" and make sure it is correct. Never present an invented mnemonic as a standard one.
@@ -105,6 +106,7 @@ Rules for study units:
       "answer": 2,
       "sea": "A",
       "comp": "CV-8",
+      "obj": "CV-8.2",
       "dok": 2,
       "approach": ["Step 1 of how to work it", "Step 2", "Step 3 (2 to 4 steps)"],
       "why": "Why the correct answer is correct, teaching the concept (2 to 5 sentences).",
@@ -119,7 +121,8 @@ Rules for cases and questions:
 - NPLEX format: the case summary states the diagnosis. The four questions ask about the biomedical science around it: anatomy and blood supply, normal physiology, biochemistry and genetics, organisms and immunology, pathogenesis, complications. Each question should be answerable from the case summary plus its own stem.
 - USMLE depth means two-step reasoning: the student must connect a finding to a mechanism, structure, or consequence, not just recall a label. Pure one-line recall ("Which wave is ventricular depolarization?") is not allowed. DOK 2 or 3 only; aim for about half and half.
 - "sea" is one of A (Anatomy), P (Physiology), B (Biochemistry and Genetics), M (Microbiology and Immunology), X (Pathology). Each case should mix at least three SEAs across its four questions.
-- "comp" is the single best-fitting code from specs/cv-units.json: a numbered competency (CV-8) or a condition code (CV-18-C3). Use numbered competencies for normal structure, function, biochemistry, genetics, immunology, and microbiology questions; use condition codes for pathogenesis, risk factors, complications, and clinical features of the listed disease.
+- "obj" is the single specific competency the question tests, from the "objectives" lists in nplex-competencies.js (for example GI-6.3). It must belong to the unit named in "comp" (a condition code like GI-13-C2 belongs to unit GI-13-C). If you were given target competencies, test exactly those.
+- "comp" is the single best-fitting code from nplex-competencies.js (specs/cv-units.json shows the format): a numbered competency (CV-8) or a condition code (CV-18-C3). Use numbered competencies for normal structure, function, biochemistry, genetics, immunology, and microbiology questions; use condition codes for pathogenesis, risk factors, complications, and clinical features of the listed disease.
 - Options: four, homogeneous (all the same kind of thing), similar length (the correct answer must NOT be the longest option; check this), no "all of the above", "none of the above", or "both A and B". No negative stems ("NOT", "EXCEPT", "LEAST"). No grammatical or word-repetition clues pointing to the key.
 - "answer" is the 0-based index of the correct option. Spread correct positions evenly across your file: within each case of four questions use each position at most twice, and across your whole file each of 0, 1, 2, 3 should be within two of an even share. No runs of three of the same position in a row.
 - "whyNot" has exactly four entries aligned with "options"; the entry at the answer index is exactly "Correct." Each wrong-option entry says why it is wrong here and, where useful, the situation in which it would be the right answer.
@@ -130,8 +133,8 @@ Rules for cases and questions:
 
 ## File naming
 
-- Study units: `content/cv/units-<writer>.json` as a JSON array of study unit objects.
-- Cases: `content/cv/cases-<writer>.json` as a JSON array of case objects.
+- Study units: `content/<sys>/units-<writer>.json` (sys = lowercase system code, e.g. content/gi/) as a JSON array of study unit objects.
+- Cases: `content/<sys>/cases-<writer>.json` as a JSON array of case objects.
 - Batch 1 rebuild: `content/batch1/<cv|gi>.json` as a JSON array of case objects, with an extra field on each question: "from": [original Q# numbers it replaces or keeps].
 
 ## Self-check before finishing

@@ -7,6 +7,15 @@ import json, re, sys, os, collections
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
+OBJ_UNIT = {}
+
+
+def unit_of(code):
+    import re as _re
+    m = _re.match(r'^([A-Z]{2}-\d+-[A-Z])\d+$', code or '')
+    return m.group(1) if m else code
+
+
 def load_codes():
     src = open(os.path.join(ROOT, "nplex-competencies.js"), encoding="utf-8").read()
     arr = src[src.index("window.NPLEX_COMPETENCIES = ") + len("window.NPLEX_COMPETENCIES = "):].rstrip().rstrip(";")
@@ -14,6 +23,8 @@ def load_codes():
     codes = set()
     for c in comps:
         codes.add(c["id"])
+        for o in c.get("objectives", []):
+            OBJ_UNIT[o["id"]] = c["id"]
         for x in c.get("conditions", []):
             codes.add(x["code"])
     return codes, {c["id"] for c in comps}
@@ -132,6 +143,13 @@ def check_case(c, err, warn, positions):
         seas.add(q.get("sea"))
         if q.get("comp") not in CODES:
             err(f"{qi}: unknown comp {q.get('comp')}")
+        ob = q.get("obj")
+        if not ob:
+            err(f"{qi}: missing obj (competency id like GI-6.3)")
+        elif ob not in OBJ_UNIT:
+            err(f"{qi}: unknown obj {ob}")
+        elif OBJ_UNIT[ob] != unit_of(q.get("comp")):
+            err(f"{qi}: obj {ob} belongs to {OBJ_UNIT[ob]} but comp is {q.get('comp')}")
         if q.get("dok") not in (2, 3):
             err(f"{qi}: dok must be 2 or 3")
         if not (2 <= len(q.get("approach", [])) <= 4):

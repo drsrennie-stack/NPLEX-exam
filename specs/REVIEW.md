@@ -11,15 +11,16 @@ For each question:
 3. Check every fact and number in the case, stem, why, whyNot, and approach. Lab values must have units and, where a student must judge them, reference ranges. Fix errors; remove claims you cannot confirm.
 4. Apply the exam-writer voice to the case summary, stem, and options (NBME/NPLEX style: "comes to the physician because of", "Physical examination shows", "Which of the following is the most likely..."). Keep explanations in the plain teaching voice.
 5. Confirm whyNot[answer] is exactly "Correct." and each other entry explains that specific option.
-6. Confirm "sea", "comp", "dok" tags fit. Fix mis-tags.
+6. Confirm "sea", "comp", "obj", "dok" tags fit. The question must actually test its "obj" competency (look it up in nplex-competencies.js); if it does not, rewrite the question so it does (do not retag to dodge the target).
 Do not rewrite good items for taste. Do not change the number of cases or questions. Do not worry about answer-letter balance (a build step re-randomizes positions later), but never refer to an option by its letter or position anywhere in the text.
 
 ## For study-unit files
 1. Check every note bullet, chart cell, high-yield line, pitfall, trick, and brain dump key point for accuracy. Fix or remove anything wrong or unconfirmable.
 2. Mnemonics marked "mnemonic" must be well-established ones, correctly expanded. Anything original must be "kind": "trick".
 3. References: book must be one of those listed in SPEC.md; "where" must be a chapter title you are confident exists in a recent edition, or a plain section/topic name. No chapter or page numbers.
-4. Videos: re-verify EVERY video by fetching https://www.youtube.com/oembed?url=<the video url>&format=json with WebFetch. Keep it only if it returns successfully, the "author_name" is the stated channel (Ninja Nerd, Khan Academy / Khan Academy Medicine, Armando Hasudungan, Dr. Najeeb Lectures), and the title matches. Correct the title to the exact oEmbed title. Remove any that fail. If the fetch tool is rate-limited, retry once after other work; if it still fails, keep only links whose ID you have independently seen in a search result for that title.
+4. Videos: if "videos" is empty, leave it empty (a later pass adds them). Otherwise re-verify EVERY video by fetching https://www.youtube.com/oembed?url=<the video url>&format=json with WebFetch. Keep it only if it returns successfully, the "author_name" is the stated channel (Ninja Nerd, Khan Academy / Khan Academy Medicine, Armando Hasudungan, Dr. Najeeb Lectures), and the title matches. Correct the title to the exact oEmbed title. Remove any that fail. If the fetch tool is rate-limited, retry once after other work; if it still fails, keep only links whose ID you have independently seen in a search result for that title.
 5. Plain student language in notes; brief bullets.
+6. Coverage: the notes, charts, and high-yield lines must teach every competency in the unit's "objectives" list in nplex-competencies.js. Add what is missing.
 
 ## How to edit
 Edit the JSON file in place. If you use a script, give it a unique name inside your own folder (for example /tmp/claude-0/-home-claude/196c237b-c04d-5344-9a45-41a08c1a519e/scratchpad/review-<yourfile>/fix.py). Never write or run a generically named script such as build.py, and never touch any file except your assigned one and your review log.
@@ -28,3 +29,5 @@ Afterward run: cd /home/claude/nplex-part1 && python3 tools/check_content.py <yo
 
 ## Review log
 Write specs/reviews/<your file name without .json>.md listing every change: item id, what was wrong, what you changed. Start it with a one-line verdict and counts (keys changed, items rewritten, facts corrected, videos removed).
+
+Reply to the person who started you with ONE line only: the verdict line and the checker's error count.

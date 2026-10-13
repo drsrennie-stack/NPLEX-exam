@@ -68,13 +68,30 @@ def collect(pattern):
 
 
 def main():
-    units = {u["id"]: u for u in collect("content/*/units-*.json")}
+    only = None
+    for a in sys.argv[1:]:
+        if a.startswith("--only="):
+            only = set(x.strip().upper() for x in a.split("=", 1)[1].split(",") if x.strip())
 
-    cases = [c for c in collect("content/*/cases-*.json") if valid_case(c)]
+    def ok_sys(pid):
+        return only is None or pid.split("-")[0] in only
+
+    units = {u["id"]: u for u in collect("content/*/units-*.json") if ok_sys(u["id"])}
+
+    # Balance answer letters per source file with a seed from the file name, so a file's
+    # keys stay the same when other files are added later.
+    import zlib
+    cases = []
+    for path in sorted(glob.glob(os.path.join(ROOT, "content/*/cases-*.json"))):
+        if "/batch1/" in path:
+            continue
+        part = [c for c in load(path) if isinstance(c, dict) and "id" in c and valid_case(c) and ok_sys(c["id"])]
+        if not part:
+            continue
+        balance(part, seed=zlib.crc32(os.path.relpath(path, ROOT).encode()))
+        seen = {c["id"] for c in cases}
+        cases.extend(c for c in part if c["id"] not in seen)
     diag = [c for c in collect("content/batch1/*.json") if valid_case(c)]
-
-    if cases:
-        balance(cases, seed=2026)
     if diag:
         balance(diag, seed=2027)
 
