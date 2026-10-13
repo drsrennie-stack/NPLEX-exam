@@ -1,0 +1,678 @@
+{
+ "unit": "EN-9",
+ "chapter_id": "NPLEX-P1-ENDO-09",
+ "topic_id": "NPLEX-P1-ENDO-09-01",
+ "title": "Endocrine Genetics",
+ "subject": "Endocrine System (ENDO)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter covers the genetic basis of endocrine disease: inherited tumor syndromes, recessive enzyme defects, the genetics of the diabetes types, driver mutations in thyroid cancer, disorders of sex development, and hypogonadism. It closes with how steroid and thyroid hormones act as ligand-activated transcription factors. Board questions usually give a pedigree, a karyotype with hormone levels, or a tumor with its mutation and ask for the gene, the mode of inheritance, or the mechanism. If you can say whether a mutation removes or adds function, which cells express the gene, and how feedback shifts the trophic hormones, you can reason through most of them.",
+  "prerequisites": [
+   "Mendelian inheritance patterns and pedigree analysis",
+   "Tumor suppressor genes, proto-oncogenes, and the two-hit hypothesis",
+   "Adrenal steroid synthesis pathways and the hypothalamic-pituitary-adrenal axis",
+   "Hypothalamic-pituitary-gonadal axis and male sexual differentiation",
+   "Receptor tyrosine kinase and MAP kinase signaling"
+  ],
+  "connections": [
+   {
+    "to": "Adrenal physiology and pathology",
+    "how": "Congenital adrenal hyperplasia shows how an enzyme block and loss of cortisol feedback reshape the whole steroid pathway."
+   },
+   {
+    "to": "Thyroid and parathyroid pathology",
+    "how": "Medullary thyroid carcinoma, pheochromocytoma, and parathyroid hyperplasia are the tumors through which MEN syndromes present."
+   },
+   {
+    "to": "Endocrine pancreas and diabetes",
+    "how": "The genetics of type 1, type 2, and monogenic diabetes reflect autoimmunity, polygenic beta cell dysfunction, and single-gene glucose sensing defects."
+   },
+   {
+    "to": "Reproductive system and embryology",
+    "how": "Androgen insensitivity, 5-alpha-reductase deficiency, and Kallmann syndrome map onto the separate hormonal signals that build the male reproductive tract."
+   },
+   {
+    "to": "Immunology",
+    "how": "HLA class II alleles that present islet peptides set much of the inherited risk for type 1 diabetes."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Tumor suppressor gene",
+    "def": "A gene whose product restrains cell proliferation, so both alleles must be inactivated in a cell before a tumor forms."
+   },
+   {
+    "term": "Proto-oncogene",
+    "def": "A normal growth-promoting gene that becomes an oncogene when a gain-of-function mutation makes its product overactive."
+   },
+   {
+    "term": "Loss of heterozygosity",
+    "def": "Loss of the remaining normal allele in a cell that inherited one mutant allele, often by deletion or mitotic recombination."
+   },
+   {
+    "term": "Penetrance",
+    "def": "The proportion of people carrying a pathogenic genotype who show the phenotype."
+   },
+   {
+    "term": "Compound heterozygote",
+    "def": "A person with two different pathogenic alleles at the same locus, one on each chromosome."
+   },
+   {
+    "term": "Gene conversion",
+    "def": "Nonreciprocal transfer of sequence from one DNA segment to a similar one, such as from a pseudogene to its functional gene."
+   },
+   {
+    "term": "Polygenic trait",
+    "def": "A trait shaped by many genetic variants of small effect acting together with environmental factors."
+   },
+   {
+    "term": "Concordance",
+    "def": "The proportion of twin pairs in which both twins have a trait when at least one has it."
+   },
+   {
+    "term": "Hypergonadotropic hypogonadism",
+    "def": "Low gonadal hormone output from gonadal failure, with high LH and FSH because negative feedback is lost."
+   },
+   {
+    "term": "Hypogonadotropic hypogonadism",
+    "def": "Low gonadal hormone output because the hypothalamus or pituitary fails to supply GnRH, LH, or FSH."
+   },
+   {
+    "term": "Hormone response element",
+    "def": "A short DNA sequence near a target gene to which a hormone-receptor complex binds to change transcription."
+   },
+   {
+    "term": "Nuclear receptor",
+    "def": "A ligand-activated transcription factor with a zinc finger DNA-binding domain and a ligand-binding domain."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-ENDO-09-01-C01",
+   "obj": "EN-9.1",
+   "title": "MEN1 and MEN2: tumor suppressor loss versus proto-oncogene activation",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Multiple endocrine neoplasia (MEN) syndromes cause tumors or hyperplasia in several endocrine glands of the same person, usually at a younger age and in more than one site than sporadic tumors. The two main forms arise from opposite kinds of mutation, and that difference explains how each one behaves inside a cell."
+    },
+    {
+     "type": "p",
+     "text": "MEN1 is caused by loss-of-function mutations in the MEN1 gene on chromosome 11q13, which encodes menin. Menin is a nuclear scaffold protein that, among other actions, helps a histone methyltransferase complex keep the cyclin-dependent kinase inhibitors p27 and p18 switched on, so it restrains proliferation in parathyroid, pancreatic islet, and anterior pituitary cells. One normal copy is enough to do this. A person with MEN1 inherits one mutant allele in every cell, but a gland cell becomes neoplastic only after a second, somatic hit removes the normal allele, most often by loss of heterozygosity. Because every cell already carries the first hit, second hits occur often, which is why tumors are multiple, multiglandular, and early."
+    },
+    {
+     "type": "flow",
+     "title": "Two-hit tumorigenesis in MEN1",
+     "steps": [
+      "First hit: mutant MEN1 allele inherited in every cell",
+      "Remaining normal allele still makes enough menin",
+      "Second hit in one gland cell: loss of heterozygosity",
+      "No menin; p27 and p18 expression falls",
+      "Clonal proliferation forms a tumor"
+     ],
+     "caption": "Recessive at the level of the cell, dominant at the level of the family."
+    },
+    {
+     "type": "p",
+     "text": "MEN2 is caused by gain-of-function mutations in the RET proto-oncogene on chromosome 10q11, which encodes a receptor tyrosine kinase for glial cell line-derived neurotrophic factor (GDNF) family ligands. RET is expressed in neural crest derivatives, including thyroid parafollicular C cells and adrenal chromaffin cells. In MEN2A, most mutations replace a cysteine in the extracellular domain (codon 634 is the most common), leaving an unpaired cysteine that forms disulfide-linked dimers without ligand. In MEN2B, a kinase domain mutation (usually M918T) activates the receptor and alters its substrates. A single mutant allele signals continuously, so no second hit is needed; the result is C cell hyperplasia progressing to medullary carcinoma in nearly all carriers. By contrast, loss-of-function RET mutations cause Hirschsprung disease, because enteric neural crest cells need RET signaling to colonize the gut."
+    },
+    {
+     "type": "p",
+     "text": "Both syndromes are autosomal dominant: each child of a carrier has a 50% chance of inheriting the mutation, and penetrance is high. MEN1 therefore shows that dominant inheritance in a pedigree does not require a dominant mechanism in the cell; it requires only that one inherited allele makes disease very likely."
+    },
+    {
+     "type": "table",
+     "title": "MEN1 compared with MEN2A and MEN2B",
+     "cols": [
+      "Feature",
+      "MEN1",
+      "MEN2A",
+      "MEN2B"
+     ],
+     "rows": [
+      [
+       "Gene and type",
+       "MEN1, tumor suppressor (menin)",
+       "RET, proto-oncogene",
+       "RET, proto-oncogene"
+      ],
+      [
+       "Mutation",
+       "Loss of function; second hit needed",
+       "Gain of function, usually extracellular cysteine",
+       "Gain of function, kinase domain (M918T)"
+      ],
+      [
+       "Main lesions",
+       "Parathyroid hyperplasia, pancreatic neuroendocrine tumors (gastrinoma, insulinoma), pituitary adenoma (often prolactinoma)",
+       "Medullary thyroid carcinoma, pheochromocytoma, parathyroid hyperplasia",
+       "Medullary thyroid carcinoma, pheochromocytoma, mucosal neuromas, marfanoid habitus"
+      ],
+      [
+       "Inheritance",
+       "Autosomal dominant",
+       "Autosomal dominant",
+       "Autosomal dominant"
+      ]
+     ],
+     "caption": "MEN2B lacks hyperparathyroidism, and its medullary carcinoma tends to appear earliest and behave most aggressively."
+    },
+    {
+     "type": "stop",
+     "predict": "Tumor DNA from a parathyroid adenoma in a woman with MEN1 is compared with her blood DNA. What difference at 11q13 would you expect?",
+     "explain": "Blood DNA is heterozygous, with one mutant and one normal MEN1 allele. Tumor DNA has lost the normal allele (loss of heterozygosity), so only the mutant allele remains, showing the second hit.",
+     "check": "The two-hit flow and the paragraph on menin."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-09-01-C02",
+   "obj": "EN-9.2",
+   "title": "Congenital adrenal hyperplasia: autosomal recessive enzyme deficiency",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Congenital adrenal hyperplasia (CAH) is a group of inherited defects in the enzymes of adrenal cortisol synthesis. Like most enzyme deficiencies, it is autosomal recessive, because a heterozygote's single working allele makes enough enzyme to keep the pathway running. Disease appears only when both alleles are defective, either as the same mutation (homozygous) or, more often, as two different mutations (compound heterozygous); the milder allele largely sets the severity."
+    },
+    {
+     "type": "p",
+     "text": "About 90 to 95% of CAH is 21-hydroxylase deficiency, caused by mutations in CYP21A2 on chromosome 6p21.3 within the HLA class III region. CYP21A2 lies next to a highly similar but nonfunctional pseudogene, CYP21A1P. Misalignment during meiosis allows unequal crossing over, which deletes or fuses the genes, and gene conversion, which copies disabling pseudogene sequence into the active gene. These two events account for most pathogenic alleles, which explains why the disease is relatively common: the classic form occurs in about 1 in 15,000 births, and the milder nonclassic form is considerably more frequent."
+    },
+    {
+     "type": "p",
+     "text": "21-hydroxylase converts progesterone to 11-deoxycorticosterone and 17-hydroxyprogesterone to 11-deoxycortisol. When it fails, cortisol falls, loss of cortisol feedback raises ACTH, and chronic ACTH stimulation enlarges the adrenal cortex. Precursors that cannot be hydroxylated at carbon 21 accumulate and are diverted through 17,20-lyase into adrenal androgens. Aldosterone synthesis also fails in the salt-wasting form, which makes up about three-quarters of classic cases."
+    },
+    {
+     "type": "flow",
+     "title": "From CYP21A2 deficiency to the CAH phenotype",
+     "steps": [
+      "Both CYP21A2 alleles defective",
+      "Cortisol (and often aldosterone) synthesis falls",
+      "Lost feedback raises CRH and ACTH",
+      "ACTH drives adrenal cortical hyperplasia",
+      "17-hydroxyprogesterone accumulates",
+      "Shunting to DHEA, androstenedione, and testosterone"
+     ],
+     "caption": "A raised 17-hydroxyprogesterone is the biochemical marker of 21-hydroxylase deficiency."
+    },
+    {
+     "type": "p",
+     "text": "The manifestations follow from this shunt. A 46,XX fetus is exposed to adrenal androgens during the period of external genital development, so she is born with ambiguous genitalia (clitoral enlargement, labioscrotal fusion) but with normal ovaries and uterus, because she has no testes and no anti-Mullerian hormone. A 46,XY infant looks normal at birth; in the salt-wasting form, aldosterone deficiency causes hyponatremia, hyperkalemia, volume depletion, and hypotension in the first weeks of life. Later, androgen excess causes early pubic hair, rapid growth, and advanced bone age in both sexes."
+    },
+    {
+     "type": "table",
+     "title": "Distinguishing the main CAH enzyme defects",
+     "cols": [
+      "Enzyme (gene)",
+      "Mineralocorticoid effect",
+      "Blood pressure",
+      "Androgens",
+      "46,XX genitalia"
+     ],
+     "rows": [
+      [
+       "21-hydroxylase (CYP21A2)",
+       "Aldosterone low in salt-wasting form",
+       "Low or normal",
+       "High",
+       "Virilized"
+      ],
+      [
+       "11-beta-hydroxylase (CYP11B1)",
+       "11-deoxycorticosterone accumulates",
+       "High",
+       "High",
+       "Virilized"
+      ],
+      [
+       "17-alpha-hydroxylase (CYP17A1)",
+       "11-deoxycorticosterone accumulates",
+       "High",
+       "Low",
+       "Female; 46,XY undervirilized"
+      ]
+     ],
+     "caption": "All three are autosomal recessive and all raise ACTH; the substrate that accumulates determines blood pressure and virilization."
+    },
+    {
+     "type": "example",
+     "title": "Recurrence and carrier risks in a CAH family",
+     "text": "Two unaffected parents have a child with classic 21-hydroxylase deficiency, so each parent must be a carrier. For each pregnancy the risks are 1/4 affected, 1/2 carrier, and 1/4 noncarrier. An unaffected older sibling cannot be the affected genotype, so only three outcomes remain: carrier (2 of 3) or noncarrier (1 of 3). Her risk of being a carrier is therefore 2/3, not 1/2. If she later has children with an unrelated partner whose carrier risk is about 1/60, the chance their child is affected is 2/3 x 1/60 x 1/4, or about 1 in 360."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-09-01-C03",
+   "obj": "EN-9.3",
+   "title": "Genetics of type 1 diabetes, type 2 diabetes, and MODY",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The three forms of diabetes differ not only in mechanism but in genetic architecture: type 1 is an autoimmune disease with a strong HLA component, type 2 is polygenic and heavily shaped by environment, and maturity-onset diabetes of the young (MODY) is a single-gene disorder of the beta cell."
+    },
+    {
+     "type": "p",
+     "text": "Type 1 diabetes results from T cell-mediated destruction of beta cells. The HLA region on chromosome 6p21 accounts for roughly half of its inherited risk. The highest-risk haplotypes are HLA-DR3 and HLA-DR4, inherited together with the class II alleles DQ2 and DQ8, and DR3/DR4 heterozygotes carry the greatest risk. These class II molecules have peptide-binding grooves that present islet antigens, such as insulin peptides, in a way that favors activation of autoreactive CD4 T cells. Other genes add smaller effects, including the insulin gene promoter region, PTPN22, and CTLA4, which influence thymic selection and T cell activation. Because an environmental trigger and stochastic immune events are also needed, monozygotic twin concordance is only about 30 to 50%."
+    },
+    {
+     "type": "p",
+     "text": "Type 2 diabetes has no HLA association. It arises from insulin resistance plus beta cell failure, and genome-wide studies have found many common variants of small effect, most of which impair insulin secretion rather than insulin action; TCF7L2 has the largest single effect among common variants. The combined genetic contribution is nevertheless larger than in type 1, so monozygotic twin concordance is higher, roughly 70% or more, with obesity and inactivity unmasking the susceptibility."
+    },
+    {
+     "type": "p",
+     "text": "MODY is autosomal dominant: onset usually before age 25, in nonobese people, with no islet autoantibodies and no tendency to ketosis, and with diabetes in successive generations. Glucokinase (GCK) MODY comes from heterozygous loss of function of glucokinase, the beta cell hexokinase whose low affinity for glucose makes it the glucose sensor that couples blood glucose to insulin release. With half the enzyme, the beta cell needs a higher glucose concentration to secrete insulin, so the set point rises. The result is mild, stable fasting hyperglycemia, about 5.5 to 8 mmol/L (100 to 145 mg/dL), that rarely progresses or causes microvascular complications. HNF1A MODY affects a transcription factor needed for beta cell gene expression; it causes progressive secretory failure, and because HNF1A also regulates proximal tubule glucose transport, glycosuria can appear at lower blood glucose than normal."
+    },
+    {
+     "type": "table",
+     "title": "Genetic comparison of the main diabetes types",
+     "cols": [
+      "Feature",
+      "Type 1",
+      "Type 2",
+      "MODY"
+     ],
+     "rows": [
+      [
+       "Genetic architecture",
+       "Polygenic, dominated by HLA class II",
+       "Polygenic, many small-effect variants",
+       "Monogenic"
+      ],
+      [
+       "Key loci",
+       "HLA-DR3/DQ2, HLA-DR4/DQ8",
+       "TCF7L2 and many others; no HLA link",
+       "GCK, HNF1A (also HNF4A and others)"
+      ],
+      [
+       "Inheritance",
+       "Complex",
+       "Complex, strong family clustering",
+       "Autosomal dominant"
+      ],
+      [
+       "Monozygotic twin concordance",
+       "About 30 to 50%",
+       "About 70% or more",
+       "Near 100% if the mutation is shared"
+      ],
+      [
+       "Autoantibodies",
+       "Present",
+       "Absent",
+       "Absent"
+      ]
+     ],
+     "caption": "Higher twin concordance in type 2 diabetes reflects a larger total genetic contribution, not a single major gene."
+    },
+    {
+     "type": "stop",
+     "predict": "A child has homozygous inactivating GCK mutations. Would the phenotype resemble GCK MODY?",
+     "explain": "No. With no glucokinase, the beta cell cannot sense glucose and secretes little insulin, so the child has permanent neonatal diabetes. Heterozygotes keep half the enzyme and only shift the set point. Conversely, activating GCK mutations lower the set point and cause hyperinsulinemic hypoglycemia.",
+     "check": "The glucokinase paragraph."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-09-01-C04",
+   "obj": "EN-9.4",
+   "title": "Driver mutations in thyroid carcinoma",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Three of the four major thyroid carcinomas arise from follicular epithelial cells (papillary, follicular, and anaplastic), and one arises from parafollicular C cells (medullary). The driver mutations follow this cellular origin. Most follicular cell cancers are driven by a single activating lesion in the receptor tyrosine kinase, RAS, RAF, MEK, ERK (MAP kinase) pathway or in the PI3K-AKT pathway, while medullary carcinoma is driven by RET, the receptor that C cells normally express."
+    },
+    {
+     "type": "flow",
+     "title": "MAP kinase pathway activation in papillary carcinoma",
+     "steps": [
+      "RET/PTC fusion: RET kinase signals without ligand",
+      "RAS-GTP activates RAF",
+      "BRAF V600E: RAF active without upstream signal",
+      "MEK phosphorylates ERK",
+      "ERK enters nucleus; growth genes transcribed",
+      "Follicular cell proliferation and dedifferentiation"
+     ],
+     "caption": "Activation at any one level is enough, so these drivers rarely occur together in one tumor."
+    },
+    {
+     "type": "p",
+     "text": "Papillary carcinoma, the most common type, is usually driven by the BRAF V600E point mutation (in roughly 40 to 60% of tumors) or by a RET/PTC rearrangement. In V600E, glutamate replaces valine in the kinase activation loop, mimicking the phosphorylation that normally switches RAF on, so the kinase is constitutively active. RET/PTC forms when a rearrangement, usually an inversion within chromosome 10, fuses the RET kinase domain to the promoter and dimerization region of a gene that is always expressed in follicular cells, so a kinase normally silent in these cells is produced and active without ligand. Ionizing radiation causes the double-strand breaks that create such fusions, which is why RET/PTC is especially frequent in papillary cancers of children exposed to radiation. BRAF V600E tumors tend to lose expression of genes for iodide handling, including the sodium-iodide symporter."
+    },
+    {
+     "type": "p",
+     "text": "Follicular carcinoma is associated with activating RAS point mutations (NRAS most often) and with the PAX8-PPARG fusion from a t(2;3)(q13;p25) translocation, each found in roughly a third to a half of tumors and largely mutually exclusive. PAX8 is a thyroid transcription factor, and the fusion protein is thought to interfere with normal PPAR-gamma function. Follicular carcinoma is defined by capsular or vascular invasion rather than nuclear features, and it spreads mainly through the blood, whereas papillary carcinoma spreads through lymphatics."
+    },
+    {
+     "type": "p",
+     "text": "Medullary carcinoma carries RET point mutations: germline in MEN2 and familial medullary carcinoma (about a quarter of cases), and somatic in many sporadic tumors. The tumor secretes calcitonin, and amyloid in its stroma is derived from calcitonin. Anaplastic carcinoma usually arises from a preexisting papillary or follicular tumor that already carries BRAF or RAS and then loses TP53, removing a checkpoint and allowing rapid dedifferentiated growth."
+    },
+    {
+     "type": "table",
+     "title": "Thyroid carcinoma types and characteristic mutations",
+     "cols": [
+      "Type",
+      "Cell of origin",
+      "Characteristic mutations",
+      "Pathway"
+     ],
+     "rows": [
+      [
+       "Papillary",
+       "Follicular",
+       "BRAF V600E; RET/PTC rearrangement (radiation)",
+       "MAP kinase"
+      ],
+      [
+       "Follicular",
+       "Follicular",
+       "RAS point mutation; PAX8-PPARG t(2;3)",
+       "MAP kinase and PI3K-AKT (RAS); transcriptional (fusion)"
+      ],
+      [
+       "Medullary",
+       "Parafollicular C cell",
+       "RET point mutation, germline or somatic",
+       "Receptor tyrosine kinase"
+      ],
+      [
+       "Anaplastic",
+       "Follicular",
+       "TP53 loss added to BRAF or RAS",
+       "Loss of checkpoint control"
+      ]
+     ],
+     "caption": "RET appears twice: rearranged in papillary carcinoma, point-mutated in medullary carcinoma."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-09-01-C05",
+   "obj": "EN-9.5",
+   "title": "Androgen insensitivity syndrome and 5-alpha-reductase deficiency",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Male sexual differentiation in a 46,XY fetus depends on three separate signals from the testis. Anti-Mullerian hormone (AMH) from Sertoli cells makes the Mullerian ducts regress, so no uterus, fallopian tubes, or upper vagina form. Testosterone from Leydig cells, acting on the androgen receptor, maintains the Wolffian ducts as epididymis, vas deferens, and seminal vesicles. Dihydrotestosterone (DHT), made from testosterone by type 2 5-alpha-reductase in genital tissue, binds the same receptor with higher affinity and masculinizes the external genitalia and prostate. A defect in the receptor or in the enzyme removes different combinations of these signals."
+    },
+    {
+     "type": "p",
+     "text": "Androgen insensitivity syndrome (AIS) is caused by mutations in the androgen receptor gene on Xq12, so it is X-linked recessive: a carrier mother passes it to half of her 46,XY children, and her 46,XX children are unaffected but may be carriers. In complete AIS, testes form and secrete AMH, so there is no uterus and only a short, blind-ending vagina derived from the urogenital sinus. Neither testosterone nor DHT can act, so Wolffian structures regress and the external genitalia are female. Because the hypothalamus and pituitary also cannot sense androgen, negative feedback fails and LH rises, driving testosterone to normal or high male levels. Aromatization of this testosterone to estradiol, unopposed by androgen action, produces breast development at puberty, while pubic and axillary hair, which depend on androgen, are sparse. Testes may lie in the labia, inguinal canals, or abdomen, and carry an increased risk of germ cell neoplasia."
+    },
+    {
+     "type": "p",
+     "text": "5-alpha-reductase deficiency is caused by autosomal recessive mutations in SRD5A2. The phenotype appears only in 46,XY individuals, since 46,XX homozygotes have no testosterone-dependent development to disrupt. Testosterone and the androgen receptor are normal, so Wolffian ducts develop and the testes descend partly or fully, and AMH removes the Mullerian ducts. DHT is low, so the external genitalia at birth are ambiguous or predominantly female, with a small phallus, bifid scrotum, perineal hypospadias, and a blind vaginal pouch. At puberty, testosterone rises to adult male levels and, acting directly on the receptor (with help from the type 1 isoenzyme), produces phallic growth, muscle mass, and a deeper voice. Prostate growth, facial and body hair, and male-pattern hair loss, which depend more heavily on DHT, remain limited. The testosterone to DHT ratio is high."
+    },
+    {
+     "type": "table",
+     "title": "AIS compared with 5-alpha-reductase deficiency (both 46,XY with testes)",
+     "cols": [
+      "Feature",
+      "Complete AIS",
+      "5-alpha-reductase deficiency"
+     ],
+     "rows": [
+      [
+       "Gene and inheritance",
+       "Androgen receptor, X-linked recessive",
+       "SRD5A2, autosomal recessive"
+      ],
+      [
+       "Uterus and upper vagina",
+       "Absent (AMH acts)",
+       "Absent (AMH acts)"
+      ],
+      [
+       "Wolffian structures",
+       "Absent or rudimentary",
+       "Present"
+      ],
+      [
+       "External genitalia at birth",
+       "Female",
+       "Ambiguous or mostly female"
+      ],
+      [
+       "Puberty",
+       "Breasts develop; sparse pubic hair; no virilization",
+       "Virilization; no breast development"
+      ],
+      [
+       "Testosterone",
+       "Normal to high",
+       "Normal male"
+      ],
+      [
+       "LH",
+       "High",
+       "Normal or mildly high"
+      ],
+      [
+       "DHT",
+       "Normal or high",
+       "Low; testosterone to DHT ratio high"
+      ]
+     ],
+     "caption": "The receptor defect blocks every androgen action and feedback; the enzyme defect removes only DHT."
+    },
+    {
+     "type": "example",
+     "title": "Reading the hormones in a 46,XY girl",
+     "text": "A 16-year-old with female external genitalia and primary amenorrhea has a 46,XY karyotype, no uterus on ultrasound, and gonads in the inguinal canals. Testosterone is in the high male range and LH is high. A high LH with high testosterone means the hypothalamus is not sensing androgen, which points to a receptor defect rather than an enzyme defect. Absent uterus means AMH was secreted, so the gonads are testes. Breast development with sparse pubic hair fits estrogen action without androgen action. The diagnosis is complete AIS. In 5-alpha-reductase deficiency, LH would be near normal because testosterone feedback works, and puberty would bring virilization, not breasts."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-09-01-C06",
+   "obj": "EN-9.6",
+   "title": "Primary versus secondary hypogonadism: Klinefelter and Kallmann syndromes",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Hypogonadism means inadequate production of gametes, sex steroids, or both. The level of the defect is located by the gonadotropins. When the gonad fails (primary or hypergonadotropic hypogonadism), the low testosterone and low inhibin B remove negative feedback, and LH and FSH rise. When the hypothalamus or pituitary fails (secondary or hypogonadotropic hypogonadism), LH and FSH are low or inappropriately normal despite low sex steroids."
+    },
+    {
+     "type": "cycle",
+     "title": "Male hypothalamic-pituitary-gonadal feedback",
+     "steps": [
+      "Pulsatile GnRH from the hypothalamus",
+      "LH and FSH from anterior pituitary gonadotropes",
+      "LH: Leydig testosterone; FSH: Sertoli inhibin B and spermatogenesis",
+      "Testosterone and inhibin B suppress GnRH, LH, and FSH"
+     ],
+     "caption": "Klinefelter breaks the loop at the testis; Kallmann breaks it at GnRH."
+    },
+    {
+     "type": "p",
+     "text": "Klinefelter syndrome, 47,XXY, is the most common genetic cause of male hypogonadism, at about 1 in 600 male births. It results from meiotic nondisjunction in either parent; some patients are 46,XY/47,XXY mosaics with milder features. The extra X is largely inactivated and forms a Barr body, but genes that escape inactivation are overexpressed. Seminiferous tubules undergo progressive hyalinization and fibrosis, so the testes are small and firm, sperm are usually absent, and loss of Sertoli cell inhibin B raises FSH. Leydig cell function also declines, so testosterone is low or low-normal and LH rises. The relatively high estradiol to testosterone ratio, partly from increased aromatization, causes gynecomastia. Tall stature with long legs reflects delayed epiphyseal closure from low androgen and an extra copy of SHOX, a growth gene that escapes X inactivation. Risks of breast cancer and mediastinal germ cell tumors are increased."
+    },
+    {
+     "type": "p",
+     "text": "Kallmann syndrome combines hypogonadotropic hypogonadism with anosmia or hyposmia. GnRH neurons arise in the olfactory placode and migrate along olfactory and terminal nerve axons through the cribriform plate into the forebrain and hypothalamus. When olfactory axons fail to reach the forebrain, the olfactory bulbs are hypoplastic or absent and the GnRH neurons are stranded outside the brain. Without GnRH, LH and FSH stay low, the gonads remain unstimulated, and puberty is delayed or absent with eunuchoid proportions. The pituitary itself is normal. In boys, external genitalia are male because placental hCG drives early differentiation, but micropenis and cryptorchidism are common because late fetal growth depends on fetal LH. Genes include X-linked ANOS1 (encoding the adhesion protein anosmin-1) and autosomal dominant FGFR1, among others."
+    },
+    {
+     "type": "table",
+     "title": "Distinguishing primary and secondary hypogonadism",
+     "cols": [
+      "Feature",
+      "Klinefelter (primary)",
+      "Kallmann (secondary)"
+     ],
+     "rows": [
+      [
+       "Defect",
+       "Testis: tubule fibrosis, Leydig dysfunction",
+       "Hypothalamus: no GnRH neurons in place"
+      ],
+      [
+       "Genetics",
+       "47,XXY from nondisjunction; not usually inherited",
+       "ANOS1 (X-linked), FGFR1 (autosomal dominant), others"
+      ],
+      [
+       "LH and FSH",
+       "High",
+       "Low or inappropriately normal"
+      ],
+      [
+       "Testosterone",
+       "Low or low-normal",
+       "Low"
+      ],
+      [
+       "Testes",
+       "Small and firm",
+       "Small, prepubertal, soft"
+      ],
+      [
+       "Distinguishing features",
+       "Gynecomastia, tall stature, Barr body",
+       "Anosmia, absent olfactory bulbs"
+      ]
+     ],
+     "caption": "Both cause infertility and delayed or incomplete virilization; gonadotropins and smell separate them."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-09-01-C07",
+   "obj": "EN-9.7",
+   "title": "Intracellular receptors: steroid and thyroid hormones as transcription factors",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Steroid hormones (cortisol, aldosterone, androgens, estrogens, progesterone), calcitriol, and thyroid hormone are lipophilic. They travel bound to plasma proteins such as thyroxine-binding globulin, corticosteroid-binding globulin, sex hormone-binding globulin, and albumin, and only the small free fraction enters cells. Steroids cross the membrane by diffusion; thyroid hormone needs membrane transporters such as MCT8. Inside, they bind members of the nuclear receptor superfamily, which share a central zinc finger DNA-binding domain, a C-terminal ligand-binding domain, and activation regions that recruit coregulator proteins."
+    },
+    {
+     "type": "p",
+     "text": "Steroid receptors such as the glucocorticoid, mineralocorticoid, and androgen receptors sit in the cytoplasm without ligand, held in an inactive complex with heat shock proteins such as hsp90 (estrogen and progesterone receptors are mainly nuclear). Hormone binding releases the chaperones, and the receptors form homodimers, enter the nucleus, and bind hormone response elements, usually two six-base half-sites arranged as an inverted repeat. The bound receptor recruits coactivators with histone acetyltransferase activity, opening chromatin so RNA polymerase II can transcribe the target gene."
+    },
+    {
+     "type": "flow",
+     "title": "Steroid hormone action through a cytoplasmic receptor",
+     "steps": [
+      "Free steroid diffuses into the cell",
+      "Binds receptor; heat shock proteins released",
+      "Receptor dimerizes and enters the nucleus",
+      "Dimer binds hormone response element",
+      "Coactivators acetylate histones; transcription starts",
+      "mRNA translated; new protein changes cell function"
+     ],
+     "caption": "Each step after binding takes time, so the response develops over hours."
+    },
+    {
+     "type": "p",
+     "text": "The thyroid hormone receptor works differently. It is already in the nucleus and bound to DNA without hormone, as a heterodimer with the retinoid X receptor (RXR), at thyroid response elements made of two direct repeats spaced by four bases. Unliganded, the heterodimer binds corepressors that recruit histone deacetylases and silences target genes. T3, which binds the receptor with about ten times the affinity of T4 and comes mostly from deiodination of T4 outside the thyroid, displaces the corepressors and recruits coactivators. The vitamin D receptor, retinoic acid receptor, and PPARs also partner with RXR."
+    },
+    {
+     "type": "p",
+     "text": "Because these hormones act by changing which proteins a cell makes, their effects begin after a latent period of about 30 minutes to hours and last long after hormone levels fall, aided by long plasma half-lives (about a week for T4). Peptide hormones and catecholamines act on surface receptors that generate second messengers and modify existing proteins within seconds to minutes. Some steroids also have rapid nongenomic membrane actions, but the classic effects are genomic. Receptor mutations produce hormone resistance with high hormone levels: androgen insensitivity (C05), thyroid hormone resistance from THRB mutations with high T4 and T3 and unsuppressed TSH, and hereditary vitamin D-resistant rickets."
+    },
+    {
+     "type": "table",
+     "title": "Surface versus intracellular hormone receptors",
+     "cols": [
+      "Feature",
+      "Peptide hormones and catecholamines",
+      "Steroid and thyroid hormones"
+     ],
+     "rows": [
+      [
+       "Solubility and transport",
+       "Water soluble; mostly free in plasma",
+       "Lipophilic; mostly protein bound"
+      ],
+      [
+       "Receptor location",
+       "Plasma membrane",
+       "Cytoplasm (most steroids) or nucleus (thyroid, estrogen)"
+      ],
+      [
+       "Mechanism",
+       "Second messengers modify existing proteins",
+       "Receptor acts as transcription factor at a response element"
+      ],
+      [
+       "Onset and duration",
+       "Seconds to minutes; brief",
+       "About 30 minutes to hours or days; prolonged"
+      ],
+      [
+       "Plasma half-life",
+       "Minutes",
+       "About an hour (cortisol) to about a week (T4)"
+      ]
+     ],
+     "caption": "Synthesis of new mRNA and protein explains the slower, longer actions of intracellular receptor hormones."
+    },
+    {
+     "type": "stop",
+     "predict": "A patient has a mutant thyroid hormone receptor that cannot bind T3 but still binds DNA and RXR. Would target genes be expressed normally, below normal, or not at all?",
+     "explain": "Below normal or silenced. The mutant receptor stays on the response element with its corepressors, actively repressing the gene, and can also block the normal receptor from the same element, so the defect behaves as dominant negative.",
+     "check": "The thyroid receptor paragraph on corepressors and RXR."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Genetics in this chapter is read through tissue biology. Whether a mutation removes or adds function predicts inheritance at the cellular level (two hits for MEN1, one for RET), while expression pattern predicts which organs suffer: RET in neural crest derivatives such as C cells, chromaffin cells, and enteric neurons; menin in endocrine cells that depend on it to restrain growth; the androgen receptor everywhere testosterone and DHT act. Anatomy and embryology explain the rest, from Wolffian and Mullerian development in disorders of sex development to the olfactory migration route of GnRH neurons in Kallmann syndrome."
+  },
+  {
+   "type": "p",
+   "text": "Feedback physiology turns these genotypes into laboratory patterns: a block below the feedback signal raises the trophic hormone (ACTH in CAH, LH in AIS and Klinefelter syndrome), while a hypothalamic defect leaves it low. Immunology explains the HLA link in type 1 diabetes, and receptor biochemistry explains why steroid and thyroid hormone actions are slow, prolonged, and abolished by receptor mutations. Population figures such as mutation frequencies and twin concordances vary among series, so they are best remembered as approximate patterns."
+  }
+ ],
+ "summary": [
+  "MEN1 is a loss-of-function tumor suppressor (menin) that needs a second somatic hit; MEN2 is a gain-of-function RET receptor tyrosine kinase that needs only one allele. Both are autosomal dominant.",
+  "MEN1 affects parathyroid, pancreatic islet, and pituitary; MEN2A adds medullary carcinoma and pheochromocytoma to parathyroid hyperplasia; MEN2B adds mucosal neuromas and marfanoid habitus without hyperparathyroidism.",
+  "CAH is autosomal recessive because one working allele makes enough enzyme; 90 to 95% is CYP21A2 deficiency, with most mutations from pseudogene recombination in the HLA region.",
+  "21-hydroxylase deficiency lowers cortisol and aldosterone, raises ACTH and 17-hydroxyprogesterone, and shunts precursors to androgens, virilizing 46,XX fetuses.",
+  "Type 1 diabetes is linked to HLA-DR3/DQ2 and DR4/DQ8; type 2 is polygenic with no HLA link and higher monozygotic concordance; MODY is autosomal dominant, and GCK MODY raises the beta cell glucose set point.",
+  "Papillary carcinoma: BRAF V600E or RET/PTC; follicular: RAS or PAX8-PPARG; medullary: RET point mutation; anaplastic adds TP53 loss.",
+  "Complete AIS is an X-linked androgen receptor defect: 46,XY, testes, no uterus, female genitalia, breasts, high testosterone and LH.",
+  "5-alpha-reductase deficiency lowers DHT with normal testosterone and receptor: ambiguous genitalia at birth, Wolffian structures present, virilization at puberty.",
+  "Primary hypogonadism (Klinefelter 47,XXY) has high LH and FSH; secondary hypogonadism (Kallmann, failed GnRH neuron migration with anosmia) has low LH and FSH.",
+  "Steroid and thyroid hormones bind nuclear receptors that act as transcription factors at response elements; the thyroid receptor pairs with RXR, and gene transcription explains their slower onset."
+ ],
+ "sources": [
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "The Endocrine System: thyroid neoplasms, multiple endocrine neoplasia syndromes, diabetes mellitus"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Neoplasia: tumor suppressor genes and oncogenes"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Introduction to Endocrinology; Adrenocortical Hormones; Reproductive and Hormonal Functions of the Male"
+  },
+  {
+   "book": "Boron and Boulpaep Medical Physiology",
+   "where": "Endocrine regulation and nuclear receptors; sexual differentiation"
+  },
+  {
+   "book": "Langman's Medical Embryology",
+   "where": "Urogenital system, development of the genital ducts and external genitalia"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Disorders of the Adrenal Cortex; Disorders of the Male Reproductive Tract"
+  }
+ ],
+ "verify": [
+  "Frequencies of BRAF V600E and RET/PTC in papillary carcinoma, and of RAS and PAX8-PPARG in follicular carcinoma, vary widely among series and populations; values here are stated as approximate ranges.",
+  "Monozygotic twin concordance figures for type 1 (about 30 to 50%) and type 2 diabetes (about 70% or more, up to 90% in some texts) differ between sources; confirm the figures NABNE expects.",
+  "Confirm whether NABNE uses the older numbered MODY names (MODY2 for GCK, MODY3 for HNF1A) or gene-based names.",
+  "Classic CAH incidence (about 1 in 15,000) and carrier frequency (about 1 in 60) vary by population; the worked example uses these approximate values.",
+  "The proportion of medullary thyroid carcinoma that is hereditary is quoted from about 20 to 30%; this chapter uses about a quarter.",
+  "Klinefelter prevalence is quoted from about 1 in 500 to 1 in 1,000 male births; this chapter uses about 1 in 600.",
+  "Confirm whether NABNE Part I expects specific RET codons (634, M918T), menin target genes (p27, p18), or the MCT8 transporter, or only the broader mechanisms.",
+  "Requested new diagram names for a future revision: adrenal-steroidogenesis (pathway with 21-, 11-beta-, and 17-alpha-hydroxylase blocks) and male-sex-differentiation (AMH, testosterone, and DHT targets)."
+ ]
+}

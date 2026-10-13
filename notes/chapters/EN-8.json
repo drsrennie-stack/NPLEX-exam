@@ -1,0 +1,659 @@
+{
+ "unit": "EN-8",
+ "chapter_id": "NPLEX-P1-ENDO-08",
+ "topic_id": "NPLEX-P1-ENDO-08-01",
+ "title": "Hormone Synthesis and Degradation",
+ "subject": "Endocrine System (ENDO)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter follows five hormone families from raw material to inactivation: thyroid hormone built on thyroglobulin, adrenal steroids built from cholesterol, catecholamines built from tyrosine, insulin cut from a single-chain precursor, and the posterior pituitary peptides carried down axons. It closes with 11-beta-hydroxysteroid dehydrogenase type 2, an enzyme that decides which steroid reaches a receptor. Board questions name a blocked enzyme, a missing transporter, or an unusual lab pattern and ask what accumulates, what falls, and how the patient presents. If you know where each step happens and which enzyme controls it, you can predict those answers instead of memorizing them.",
+  "prerequisites": [
+   "Tyrosine metabolism and the role of tetrahydrobiopterin, pyridoxal phosphate, and S-adenosylmethionine",
+   "Cholesterol sources (LDL receptor uptake, de novo synthesis, stored esters) and the steroid nucleus",
+   "The secretory pathway: rough ER, Golgi, secretory granules, and regulated exocytosis",
+   "Gs, cAMP, and protein kinase A signaling",
+   "Gross and microscopic structure of the thyroid, adrenal, pancreatic islets, and pituitary (EN-2, EN-3)"
+  ],
+  "connections": [
+   {
+    "to": "Endocrine organ function and control (EN-5)",
+    "how": "TSH, ACTH, angiotensin II, plasma osmolality, and glucose act on the specific synthetic steps described here."
+   },
+   {
+    "to": "Hormone action, transport, and feedback (EN-6)",
+    "how": "Binding proteins, receptor specificity, and negative feedback explain why a synthetic block raises ACTH or TSH and enlarges the gland."
+   },
+   {
+    "to": "Endocrine genetics (EN-9)",
+    "how": "Congenital adrenal hyperplasia, Pendred syndrome, apparent mineralocorticoid excess, and familial central diabetes insipidus are single-gene defects in these pathways."
+   },
+   {
+    "to": "Diseases of endocrine hyperfunction and neoplasms (EN-12-A, EN-12-G)",
+    "how": "Pheochromocytoma, insulinoma, and ectopic ACTH are diagnosed by the metabolites and processing products taught here."
+   },
+   {
+    "to": "Renal physiology",
+    "how": "Mineralocorticoid receptor activation in the collecting duct links steroid metabolism to sodium balance, potassium, and acid-base status."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Organification",
+    "def": "Covalent attachment of oxidized iodine to tyrosine residues of thyroglobulin by thyroid peroxidase, forming MIT and DIT."
+   },
+   {
+    "term": "Coupling",
+    "def": "The thyroid peroxidase reaction that joins two iodotyrosines within thyroglobulin to form T4 (DIT plus DIT) or T3 (MIT plus DIT)."
+   },
+   {
+    "term": "Deiodinase",
+    "def": "A selenoprotein enzyme that removes iodine from thyroid hormones, activating T4 to T3 or inactivating T4 and T3."
+   },
+   {
+    "term": "StAR protein",
+    "def": "Steroidogenic acute regulatory protein, which moves cholesterol from the outer to the inner mitochondrial membrane; the rate-limiting step of steroid synthesis."
+   },
+   {
+    "term": "Congenital adrenal hyperplasia",
+    "def": "Inherited deficiency of a cortisol-synthesizing enzyme in which low cortisol raises ACTH, enlarging the adrenals and diverting precursors into open pathways."
+   },
+   {
+    "term": "PNMT",
+    "def": "Phenylethanolamine N-methyltransferase, the cytosolic enzyme that methylates norepinephrine to epinephrine and is induced by high local cortisol."
+   },
+   {
+    "term": "Metanephrines",
+    "def": "Metanephrine and normetanephrine, the COMT products of epinephrine and norepinephrine, measured to detect pheochromocytoma."
+   },
+   {
+    "term": "C-peptide",
+    "def": "The connecting segment removed from proinsulin and secreted in equimolar amounts with insulin, used as a marker of endogenous insulin secretion."
+   },
+   {
+    "term": "Neurophysin",
+    "def": "A carrier protein cleaved from the same precursor as ADH (neurophysin II) or oxytocin (neurophysin I) that helps package the hormone into granules."
+   },
+   {
+    "term": "11-beta-HSD2",
+    "def": "11-beta-hydroxysteroid dehydrogenase type 2, which oxidizes cortisol to inactive cortisone in aldosterone-target cells."
+   },
+   {
+    "term": "Apparent mineralocorticoid excess",
+    "def": "Mineralocorticoid-type hypertension and hypokalemia with low renin and low aldosterone caused by cortisol acting on the mineralocorticoid receptor."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-ENDO-08-01-C01",
+   "obj": "EN-8.1",
+   "title": "Thyroid hormone synthesis, release, activation, and breakdown",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Each thyroid follicle is a sphere of follicular cells surrounding colloid, which is mostly thyroglobulin, a large glycoprotein made on the rough ER and secreted into the lumen. The basolateral surface faces capillaries and the apical surface faces colloid. Thyroid hormone is assembled on thyroglobulin at the apical cell and colloid interface and stored in the colloid, which holds enough hormone for about 2 to 3 months."
+    },
+    {
+     "type": "flow",
+     "title": "Thyroid hormone synthesis and release",
+     "steps": [
+      "NIS brings 2 Na+ and 1 iodide in basolaterally",
+      "Pendrin moves iodide across the apical membrane into colloid",
+      "DUOX2 generates hydrogen peroxide at the apical surface",
+      "TPO oxidizes iodide and iodinates thyroglobulin tyrosines (MIT, DIT)",
+      "TPO couples DIT plus DIT to T4, MIT plus DIT to T3",
+      "TSH stimulates endocytosis of iodinated colloid",
+      "Lysosomal proteases free T4 and T3 into the blood",
+      "Iodotyrosine deiodinase recycles iodide from leftover MIT and DIT"
+     ],
+     "caption": "Uptake is basolateral, iodination and coupling are apical, and release requires reuptake and digestion of the stored thyroglobulin."
+    },
+    {
+     "type": "p",
+     "text": "The sodium-iodide symporter (NIS) is secondary active transport: it uses the Na+ gradient created by the Na+/K+-ATPase to concentrate iodide about 30 times above plasma. Perchlorate and thiocyanate compete for NIS. Pendrin, an apical anion exchanger, then moves iodide into the colloid; its loss causes Pendred syndrome, a goiter with sensorineural deafness."
+    },
+    {
+     "type": "p",
+     "text": "Thyroid peroxidase (TPO), an apical membrane enzyme, uses hydrogen peroxide to oxidize iodide to a reactive form and attach it to tyrosine residues of thyroglobulin, producing monoiodotyrosine (MIT) and diiodotyrosine (DIT). The same enzyme then couples iodotyrosines still bound to thyroglobulin. Thionamide drugs illustrate the mechanism by inhibiting TPO, and antibodies against TPO are the serologic marker of Hashimoto thyroiditis. A large iodide load transiently inhibits organification (the Wolff-Chaikoff effect) until NIS is downregulated and synthesis escapes."
+    },
+    {
+     "type": "p",
+     "text": "TSH, acting through Gs and cAMP, increases every step: NIS, TPO, and thyroglobulin expression, hydrogen peroxide generation, colloid endocytosis, and follicular cell growth. About 90% of secreted hormone is T4. Iodotyrosine deiodinase, a separate enzyme from the thyroid hormone deiodinases, recycles iodide from MIT and DIT (adult requirement about 150 micrograms per day)."
+    },
+    {
+     "type": "table",
+     "title": "Deiodinases: activation and inactivation",
+     "cols": [
+      "Enzyme",
+      "Main reaction",
+      "Main sites",
+      "Significance"
+     ],
+     "rows": [
+      [
+       "Type 1 (D1)",
+       "Outer ring (5 prime) deiodination, T4 to T3; also clears reverse T3",
+       "Liver, kidney, thyroid",
+       "Supplies plasma T3; inhibited by propylthiouracil"
+      ],
+      [
+       "Type 2 (D2)",
+       "Outer ring deiodination, T4 to T3 inside the cell",
+       "Pituitary, brain, brown fat, muscle",
+       "Sets intracellular T3; pituitary D2 lets T4 suppress TSH"
+      ],
+      [
+       "Type 3 (D3)",
+       "Inner ring deiodination, T4 to reverse T3 and T3 to T2",
+       "Placenta, brain, fetal tissues",
+       "Inactivates hormone; protects the fetus from excess"
+      ]
+     ],
+     "caption": "About 80% of circulating T3 comes from peripheral conversion of T4, not from the thyroid."
+    },
+    {
+     "type": "p",
+     "text": "Because T4 and T3 travel mostly bound to thyroxine-binding globulin, transthyretin, and albumin, they are degraded slowly: the half-life of T4 is about 6 to 7 days and of T3 about 1 day. Degradation proceeds by deiodination and by hepatic glucuronidation and sulfation with biliary excretion. When any synthetic step fails (iodine deficiency, TPO or thyroglobulin defects), T4 falls, TSH rises, and the gland enlarges into a goiter."
+    },
+    {
+     "type": "stop",
+     "predict": "A child has a goiter, high TSH, and high radioiodine uptake at 2 hours, but most of the trapped radioiodine leaves the gland when perchlorate is given. Which step is defective?",
+     "explain": "Organification (TPO, its hydrogen peroxide supply, or pendrin). NIS works, so iodide is trapped, but it stays as free iodide that perchlorate displaces instead of being bound to thyroglobulin.",
+     "check": "The separation between basolateral uptake and apical organification."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-08-01-C02",
+   "obj": "EN-8.2",
+   "title": "Adrenal steroid synthesis and enzyme blocks",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "All adrenal steroids come from cholesterol, taken up mainly as LDL and stored as cholesterol esters. ACTH, through the melanocortin 2 receptor, Gs, and cAMP, frees cholesterol from esters and activates StAR protein, which moves it to the inner mitochondrial membrane. This transfer is rate limiting. There, side-chain cleavage enzyme (CYP11A1, desmolase) converts cholesterol to pregnenolone, the parent of every steroid. Later steps alternate between smooth ER and mitochondria. Over days, ACTH also increases enzyme expression and adrenal size."
+    },
+    {
+     "type": "table",
+     "title": "Adrenal zones: enzymes and products",
+     "cols": [
+      "Zone",
+      "Pathway after pregnenolone",
+      "Key enzyme feature",
+      "Main regulator"
+     ],
+     "rows": [
+      [
+       "Glomerulosa",
+       "Progesterone, 11-deoxycorticosterone (21-hydroxylase), corticosterone, aldosterone",
+       "Lacks 17-alpha-hydroxylase; has aldosterone synthase (CYP11B2)",
+       "Angiotensin II and plasma K+"
+      ],
+      [
+       "Fasciculata",
+       "17-hydroxyprogesterone (17-alpha-hydroxylase), 11-deoxycortisol (21-hydroxylase), cortisol (11-beta-hydroxylase, CYP11B1)",
+       "Full cortisol pathway",
+       "ACTH"
+      ],
+      [
+       "Reticularis",
+       "17-hydroxypregnenolone to DHEA, then DHEA sulfate and androstenedione",
+       "High 17,20-lyase activity of CYP17A1",
+       "ACTH"
+      ]
+     ],
+     "caption": "3-beta-hydroxysteroid dehydrogenase converts pregnenolone and its derivatives to the progesterone series. CYP17A1 carries both 17-alpha-hydroxylase and 17,20-lyase activity."
+    },
+    {
+     "type": "p",
+     "text": "Cortisol is the only adrenal product that feeds back on CRH and ACTH. Any block on the cortisol pathway therefore raises ACTH, which drives more cholesterol in and enlarges both glands (congenital adrenal hyperplasia). Precursors accumulate above the block and spill into any branch that remains open. To predict the result, ask three questions: Is cortisol made? Is a salt-retaining steroid (aldosterone or 11-deoxycorticosterone) made in excess or lacking? Can precursors reach 17,20-lyase to form androgens?"
+    },
+    {
+     "type": "cycle",
+     "title": "Why an enzyme block amplifies itself",
+     "steps": [
+      "Enzyme block lowers cortisol",
+      "Less negative feedback on hypothalamus and pituitary",
+      "CRH and ACTH rise",
+      "ACTH drives StAR, enzyme expression, and adrenal growth",
+      "More precursor builds up above the block and spills into open branches",
+      "Cortisol stays low, so ACTH stays high"
+     ],
+     "caption": "Rising ACTH cannot overcome the block; it only increases precursor flow toward the pathways still open."
+    },
+    {
+     "type": "table",
+     "title": "Enzyme blocks: what accumulates and what falls",
+     "cols": [
+      "Deficient step",
+      "Accumulates",
+      "Deficient",
+      "Blood pressure, K+, renin",
+      "Sexual development"
+     ],
+     "rows": [
+      [
+       "StAR or side-chain cleavage",
+       "Cholesterol esters in lipid-laden cells (lipoid hyperplasia, typical of StAR loss)",
+       "All adrenal and gonadal steroids",
+       "Salt wasting, high K+, high renin",
+       "46,XY undervirilized; 46,XX normal at birth"
+      ],
+      [
+       "21-hydroxylase (about 90% of CAH)",
+       "17-hydroxyprogesterone, progesterone, androgens",
+       "Cortisol; aldosterone in the salt-wasting form",
+       "Salt-wasting form: low BP, high K+, high renin",
+       "46,XX virilized; early pubic hair and growth in both sexes"
+      ],
+      [
+       "11-beta-hydroxylase",
+       "11-deoxycortisol, 11-deoxycorticosterone, androgens",
+       "Cortisol, corticosterone, aldosterone",
+       "High BP, low K+, low renin",
+       "46,XX virilized; early virilization in both sexes"
+      ],
+      [
+       "17-alpha-hydroxylase",
+       "11-deoxycorticosterone, corticosterone, progesterone",
+       "Cortisol, androgens, estrogens",
+       "High BP, low K+, low renin, low aldosterone",
+       "46,XY undervirilized; 46,XX absent puberty and primary amenorrhea"
+      ]
+     ],
+     "caption": "ACTH is high in all four. 11-deoxycorticosterone is a mineralocorticoid; its excess suppresses renin and therefore aldosterone."
+    },
+    {
+     "type": "p",
+     "text": "In 21-hydroxylase deficiency, both cortisol and aldosterone synthesis are impaired, so precursors flow to androgens; in the salt-wasting form, newborns can present in the first weeks with hyponatremia, hyperkalemia, and shock, and 17-hydroxyprogesterone is the newborn screening marker. In 17-alpha-hydroxylase deficiency, adrenal crisis is uncommon because corticosterone, produced in excess, has weak glucocorticoid activity. Hepatic reduction and conjugation then inactivate steroids for urinary excretion; cortisol, about 90% bound to cortisol-binding globulin and albumin, has a half-life of about 60 to 90 minutes, and aldosterone, weakly bound, about 20 minutes."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: locating the block",
+     "text": "A 4-year-old girl has pubic hair, an enlarged clitoris, blood pressure 128/84 mm Hg, and K+ 3.1 mEq/L (reference about 3.5 to 5.0). Step 1: androgens are high, so precursors reach 17,20-lyase and 17-alpha-hydroxylase works, which excludes 17-alpha-hydroxylase deficiency. Step 2: hypertension with hypokalemia means excess salt-retaining steroid, which rules out 21-hydroxylase deficiency, where mineralocorticoid is lacking. Step 3: a block after 21-hydroxylation but before cortisol makes 11-deoxycortisol and 11-deoxycorticosterone pile up; the latter acts on the mineralocorticoid receptor and suppresses renin. The answer is 11-beta-hydroxylase deficiency, confirmed by high 11-deoxycortisol with low renin and low aldosterone."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-08-01-C03",
+   "obj": "EN-8.3",
+   "title": "Catecholamine synthesis, degradation, and pheochromocytoma testing",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Catecholamines are made from tyrosine in adrenal medullary chromaffin cells, sympathetic postganglionic neurons, and dopaminergic neurons. Each enzyme needs a cofactor, and the first step sets the overall rate. Tyrosine hydroxylase is inhibited by its catecholamine products, which compete with its cofactor tetrahydrobiopterin, and it is activated by phosphorylation when the cell is stimulated, so output tracks demand."
+    },
+    {
+     "type": "flow",
+     "title": "Catecholamine synthesis",
+     "steps": [
+      "Tyrosine hydroxylase: tyrosine to L-DOPA (rate limiting, tetrahydrobiopterin)",
+      "DOPA decarboxylase: L-DOPA to dopamine (pyridoxal phosphate)",
+      "VMAT pumps dopamine into the vesicle",
+      "Dopamine beta-hydroxylase: dopamine to norepinephrine (ascorbate, copper)",
+      "Norepinephrine leaks to the cytosol in chromaffin cells",
+      "PNMT: norepinephrine to epinephrine (S-adenosylmethionine)",
+      "Epinephrine is repackaged into granules for release"
+     ],
+     "caption": "Dopamine neurons stop after step 2, noradrenergic neurons after step 4, and adrenal chromaffin cells continue to epinephrine."
+    },
+    {
+     "type": "p",
+     "text": "PNMT is expressed in the adrenal medulla because medullary capillaries receive blood that has just passed through the cortex, carrying cortisol at concentrations far above systemic levels, and cortisol induces PNMT. The medulla therefore secretes about 80% epinephrine and 20% norepinephrine. Extra-adrenal paragangliomas lack this cortisol exposure and usually secrete norepinephrine, so a tumor producing mainly epinephrine is likely adrenal."
+    },
+    {
+     "type": "p",
+     "text": "Catecholamine action at the synapse ends mainly by reuptake. Degradation uses two enzymes. Monoamine oxidase (MAO), on the outer mitochondrial membrane, deaminates amines inside neurons. Catechol-O-methyltransferase (COMT) transfers a methyl group from S-adenosylmethionine, mainly in liver, kidney, and chromaffin cells, converting epinephrine to metanephrine and norepinephrine to normetanephrine. Whichever enzyme acts first, the other follows, and hepatic metabolism ends in vanillylmandelic acid (VMA). Dopamine ends as homovanillic acid (HVA)."
+    },
+    {
+     "type": "table",
+     "title": "Metabolites and what they report",
+     "cols": [
+      "Metabolite",
+      "Parent",
+      "Formed by",
+      "Clinical use"
+     ],
+     "rows": [
+      [
+       "Metanephrine",
+       "Epinephrine",
+       "COMT",
+       "Plasma free or urine fractionated: most sensitive pheochromocytoma test"
+      ],
+      [
+       "Normetanephrine",
+       "Norepinephrine",
+       "COMT",
+       "Same; dominant in paragangliomas"
+      ],
+      [
+       "Vanillylmandelic acid",
+       "Epinephrine and norepinephrine",
+       "COMT and MAO",
+       "Less sensitive for pheochromocytoma; raised in neuroblastoma"
+      ],
+      [
+       "Homovanillic acid",
+       "Dopamine",
+       "COMT and MAO",
+       "Raised in neuroblastoma"
+      ]
+     ],
+     "caption": "Metanephrines measure continuous intratumoral metabolism; parent catecholamines and VMA reflect episodic release."
+    },
+    {
+     "type": "p",
+     "text": "Pheochromocytoma cells contain membrane-bound COMT. Catecholamines leak continuously from tumor granules into the cytosol and are methylated to metanephrines, which diffuse into the blood whether or not the tumor is secreting at that moment. Paroxysms of headache, sweating, palpitations, and hypertension reflect episodic catecholamine bursts, but metanephrines stay elevated between them, which is why plasma free metanephrines or 24-hour urine fractionated metanephrines are the most sensitive tests and a normal result makes the diagnosis unlikely. Drugs that block reuptake or MAO raise catecholamine metabolites and can cause false positives."
+    },
+    {
+     "type": "stop",
+     "predict": "A tumor secretes large amounts of norepinephrine but almost no epinephrine, and it lies beside the aortic bifurcation. Why does it make norepinephrine only?",
+     "explain": "It is an extra-adrenal paraganglioma. Without cortisol-rich portal blood from the adrenal cortex, PNMT is not induced, so synthesis stops at norepinephrine and normetanephrine dominates the metabolite profile.",
+     "check": "The paragraph on PNMT induction by cortisol."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-08-01-C04",
+   "obj": "EN-8.4",
+   "title": "Insulin processing and C-peptide in hypoglycemia",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Insulin is made as a single chain and finished as two. The single chain lets the molecule fold and form its disulfide bonds correctly; cutting out the connecting segment afterward leaves the A and B chains linked by those bonds."
+    },
+    {
+     "type": "table",
+     "title": "From gene product to secreted insulin",
+     "cols": [
+      "Stage",
+      "Location",
+      "Event"
+     ],
+     "rows": [
+      [
+       "Preproinsulin",
+       "Rough ER",
+       "Signal peptide directs the chain into the ER lumen and is removed"
+      ],
+      [
+       "Proinsulin",
+       "ER lumen",
+       "Chain folds (B chain, C-peptide, A chain); two interchain and one intrachain disulfide bonds form"
+      ],
+      [
+       "Sorting",
+       "Golgi to immature granule",
+       "Proinsulin is packaged into secretory granules"
+      ],
+      [
+       "Cleavage",
+       "Maturing granule",
+       "Prohormone convertases (PC1/3, PC2) cut at paired basic residues; carboxypeptidase E trims the ends"
+      ],
+      [
+       "Storage",
+       "Mature granule",
+       "Insulin (21-residue A chain, 30-residue B chain) crystallizes with zinc; free C-peptide stays in the granule"
+      ],
+      [
+       "Secretion",
+       "Plasma membrane",
+       "Glucose metabolism raises ATP, which closes ATP-sensitive K+ channels; depolarization opens Ca2+ channels; granules undergo exocytosis"
+      ]
+     ],
+     "caption": "Each granule releases insulin and C-peptide in equal molar amounts, plus a small amount of unprocessed proinsulin."
+    },
+    {
+     "type": "p",
+     "text": "Insulin and C-peptide leave the beta cell together but are cleared differently. Insulin enters the portal vein, and the liver removes about half of it on first pass; the remainder has a plasma half-life of about 5 minutes. C-peptide is barely extracted by the liver, is cleared mainly by the kidney, and has a half-life of about 30 minutes. Peripheral C-peptide therefore exceeds insulin on a molar basis and is a steadier measure of beta cell secretion. Renal failure raises C-peptide, which matters when interpreting it."
+    },
+    {
+     "type": "p",
+     "text": "Hypoglycemia is evaluated during a documented episode, ideally meeting the Whipple triad: symptoms, a low plasma glucose (in nondiabetic adults usually below about 55 mg/dL, 3.0 mmol/L), and relief when glucose is raised. Normally, falling glucose turns insulin secretion almost off. Measurable insulin at that moment is inappropriate, and C-peptide shows where it came from. Pharmaceutical insulin contains no C-peptide, and injected insulin suppresses the patient's own beta cells, so C-peptide falls."
+    },
+    {
+     "type": "table",
+     "title": "Insulin, C-peptide, and proinsulin during hypoglycemia",
+     "cols": [
+      "Cause",
+      "Insulin",
+      "C-peptide",
+      "Proinsulin",
+      "Deciding clue"
+     ],
+     "rows": [
+      [
+       "Insulinoma",
+       "High",
+       "High",
+       "High",
+       "Insulin secretagogue screen negative"
+      ],
+      [
+       "Sulfonylurea or meglitinide ingestion",
+       "High",
+       "High",
+       "High",
+       "Insulin secretagogue screen positive"
+      ],
+      [
+       "Injected insulin",
+       "High",
+       "Low",
+       "Low",
+       "Insulin to C-peptide molar ratio well above 1"
+      ],
+      [
+       "Non-insulin causes (fasting with liver failure, adrenal insufficiency, sepsis)",
+       "Low",
+       "Low",
+       "Low",
+       "Insulin appropriately suppressed"
+      ]
+     ],
+     "caption": "High C-peptide means the patient's own beta cells are secreting; low C-peptide with high insulin means the insulin came from outside."
+    },
+    {
+     "type": "p",
+     "text": "Sulfonylureas and meglitinides bind the SUR1 subunit of the beta cell ATP-sensitive K+ channel and close it regardless of glucose, so they reproduce the biochemistry of an insulinoma exactly; only a drug screen separates them. Insulinoma cells often release granules before processing is complete, which is why proinsulin is a sensitive marker of tumor secretion."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: reading the hypoglycemia panel",
+     "text": "A 34-year-old nurse is found confused with plasma glucose 38 mg/dL (2.1 mmol/L). Insulin is markedly elevated, C-peptide is below the detection limit, proinsulin is low, and the sulfonylurea screen is negative. Step 1: insulin should be nearly zero at this glucose, so hypoglycemia is insulin mediated. Step 2: endogenous secretion would raise C-peptide in equal molar amounts, but C-peptide is suppressed, so the beta cells are switched off. Step 3: the only source of insulin without C-peptide is administered insulin. An insulinoma or sulfonylurea would have raised both. Exogenous insulin is the cause."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-08-01-C05",
+   "obj": "EN-8.5",
+   "title": "ADH and oxytocin: hypothalamic synthesis and posterior pituitary release",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "ADH (arginine vasopressin) and oxytocin are nine-amino-acid peptides that differ at only two positions. Both are made by large magnocellular neurons in the supraoptic and paraventricular nuclei of the hypothalamus. Each nucleus contains both cell types, but the supraoptic nucleus is the main source of ADH and the paraventricular nucleus of oxytocin. The posterior pituitary (neurohypophysis) is neural tissue made of their axon terminals and pituicytes; it stores and releases these hormones but does not synthesize them."
+    },
+    {
+     "type": "flow",
+     "title": "From cell body to bloodstream",
+     "steps": [
+      "Precursor made on rough ER of magnocellular neurons",
+      "ADH precursor: signal peptide, ADH, neurophysin II, copeptin",
+      "Oxytocin precursor: signal peptide, oxytocin, neurophysin I",
+      "Golgi packages precursor into neurosecretory granules",
+      "Fast axonal transport down the hypothalamo-hypophyseal tract",
+      "Precursor cleaved within granules during transport",
+      "Granules stored in terminals and swellings (Herring bodies)",
+      "Action potential opens Ca2+ channels; exocytosis into capillaries"
+     ],
+     "caption": "Hormone, its neurophysin, and (for ADH) copeptin are released together in equal molar amounts."
+    },
+    {
+     "type": "p",
+     "text": "Neurophysin binds its hormone inside the granule and helps package it. Dominant mutations in the AVP gene, many in the neurophysin II region, produce a misfolded precursor that is retained in the ER and gradually kills magnocellular neurons, causing familial central diabetes insipidus that appears in childhood rather than at birth. Copeptin is stable in plasma, so it can serve as a surrogate measure of ADH release."
+    },
+    {
+     "type": "p",
+     "text": "Release follows electrical activity of the cell bodies. ADH neurons fire in response to rising plasma osmolality, detected by osmoreceptors in circumventricular organs, and to a substantial fall in blood volume or pressure signaled by baroreceptors. Oxytocin neurons respond to suckling and to stretch of the cervix during labor. A separate population of smaller parvocellular paraventricular neurons sends ADH to the median eminence, where it enters the portal circulation and potentiates CRH stimulation of ACTH."
+    },
+    {
+     "type": "p",
+     "text": "Circulating ADH is not protein bound and has a plasma half-life of only minutes, cleared mainly by liver and kidney. In pregnancy, a placental aminopeptidase (vasopressinase) degrades ADH and oxytocin, which can unmask or cause transient diabetes insipidus. The site of a lesion decides its effect. Removing only the posterior lobe usually causes transient diabetes insipidus, because cut axons in the stalk and median eminence soon release ADH again. A hypothalamic or high stalk lesion that destroys most magnocellular cell bodies causes permanent central diabetes insipidus. Stalk section can produce a triphasic sequence: diabetes insipidus, then unregulated ADH leak from degenerating terminals with water retention, then permanent diabetes insipidus."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-08-01-C06",
+   "obj": "EN-8.6",
+   "title": "11-beta-HSD2, receptor protection, and licorice",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The mineralocorticoid receptor binds cortisol and aldosterone with about equal affinity, yet free cortisol in plasma is at least 100 times more concentrated than free aldosterone. If nothing intervened, cortisol would occupy nearly every receptor and aldosterone could not regulate sodium. Specificity is supplied by an enzyme, not by the receptor."
+    },
+    {
+     "type": "p",
+     "text": "11-beta-hydroxysteroid dehydrogenase type 2 (11-beta-HSD2) is an NAD+-dependent enzyme located beside the receptor in aldosterone-target epithelia: principal cells of the late distal nephron and collecting duct, colon, and salivary and sweat ducts. It oxidizes cortisol to cortisone, which does not bind the receptor, so aldosterone becomes the effective ligand. The placenta uses the same enzyme to shield the fetus from maternal cortisol. The type 1 isoform, in liver and adipose tissue, runs mainly in the opposite direction, regenerating cortisol from cortisone."
+    },
+    {
+     "type": "flow",
+     "title": "Licorice and apparent mineralocorticoid excess",
+     "steps": [
+      "Glycyrrhetinic acid from licorice inhibits renal 11-beta-HSD2",
+      "Cortisol is no longer converted to cortisone",
+      "Cortisol occupies and activates mineralocorticoid receptors",
+      "ENaC and Na+/K+-ATPase activity rise; Na+ is retained",
+      "Lumen-negative potential drives K+ and H+ secretion",
+      "Volume expands; renin and aldosterone fall",
+      "Hypertension, hypokalemia, and metabolic alkalosis"
+     ],
+     "caption": "Plasma cortisol stays normal; the defect is local loss of cortisol inactivation in the kidney."
+    },
+    {
+     "type": "p",
+     "text": "The resulting pattern follows from receptor physiology. Activated receptors increase ENaC and Na+/K+-ATPase in principal cells, so Na+ reabsorption makes the lumen more negative and drives K+ secretion through ROMK channels, while intercalated cells secrete more H+. Edema is usually absent because, once volume expands, higher renal perfusion pressure and natriuretic peptides increase Na+ excretion (mineralocorticoid escape), leaving hypertension and hypokalemia as the main signs."
+    },
+    {
+     "type": "p",
+     "text": "Glycyrrhizin in licorice root (Glycyrrhiza glabra) is hydrolyzed by gut bacteria to glycyrrhetinic acid, the active inhibitor. Deglycyrrhizinated licorice lacks this compound and does not have the effect. The same mechanism appears in two other settings. Inherited loss of 11-beta-HSD2 (apparent mineralocorticoid excess, autosomal recessive) causes severe low-renin hypertension in children. Very high cortisol, as with ectopic ACTH secretion, saturates the enzyme, which is why that form of Cushing syndrome commonly causes hypokalemia. Urinary cortisol to cortisone metabolite ratios rise in all three because conversion is reduced."
+    },
+    {
+     "type": "table",
+     "title": "Low-renin hypertension with hypokalemia: telling the causes apart",
+     "cols": [
+      "Cause",
+      "Renin",
+      "Aldosterone",
+      "Cortisol",
+      "Mechanism"
+     ],
+     "rows": [
+      [
+       "Primary hyperaldosteronism",
+       "Low",
+       "High",
+       "Normal",
+       "Autonomous aldosterone secretion"
+      ],
+      [
+       "Licorice or inherited 11-beta-HSD2 loss",
+       "Low",
+       "Low",
+       "Normal",
+       "Cortisol reaches the mineralocorticoid receptor"
+      ],
+      [
+       "Ectopic ACTH",
+       "Low",
+       "Low or normal",
+       "Very high",
+       "Cortisol saturates 11-beta-HSD2"
+      ],
+      [
+       "11-beta- or 17-alpha-hydroxylase deficiency",
+       "Low",
+       "Low",
+       "Low",
+       "11-deoxycorticosterone excess (C02)"
+      ],
+      [
+       "Liddle syndrome",
+       "Low",
+       "Low",
+       "Normal",
+       "Gain-of-function ENaC, independent of the receptor"
+      ]
+     ],
+     "caption": "A high aldosterone separates primary hyperaldosteronism from every mimic; among the low-aldosterone causes, cortisol level and history separate the rest."
+    },
+    {
+     "type": "stop",
+     "predict": "A patient with hypertension and K+ 2.9 mEq/L has low renin. What aldosterone level would you expect if the cause is daily licorice tea rather than an adrenal adenoma?",
+     "explain": "Low. Cortisol is activating the mineralocorticoid receptor, so volume expansion suppresses renin and, through low angiotensin II, aldosterone. An adenoma would show high aldosterone despite low renin.",
+     "check": "The comparison table of low-renin hypertension."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Biochemistry and anatomy explain where each hormone is finished. Thyroid hormone is completed at the apical membrane because TPO and its hydrogen peroxide source sit there; epinephrine is made in the adrenal medulla because the cortex drains cortisol into it and cortisol induces PNMT; insulin is finished in the granule because the convertases work there; and ADH is finished in transit because it is cleaved inside granules moving down axons. Cofactors connect the pathways to nutrition: iodine for thyroid hormone, tetrahydrobiopterin, pyridoxal phosphate, ascorbate, and copper for catecholamines, and selenium for the deiodinases."
+  },
+  {
+   "type": "p",
+   "text": "Pathology and genetics apply one rule across the chapter: a block raises what lies upstream and lowers what lies downstream, and feedback amplifies the upstream rise. This explains goiter in dyshormonogenesis, adrenal hyperplasia with predictable precursor patterns in CAH, and the metabolite patterns used to recognize pheochromocytoma and insulin-mediated hypoglycemia. The rule has limits. Laboratory patterns overlap (sulfonylurea and insulinoma), metabolic clearance changes measured values (C-peptide in renal failure), and drugs and diet can mimic disease (licorice), so each pattern is interpreted with the clinical setting."
+  }
+ ],
+ "summary": [
+  "NIS traps iodide basolaterally using the Na+ gradient; TPO, using hydrogen peroxide, organifies iodide onto thyroglobulin and couples DIT plus DIT to T4 and MIT plus DIT to T3.",
+  "TSH stimulates every thyroid step, including colloid endocytosis and lysosomal release; the thyroid secretes mostly T4, and peripheral D1 and D2 make most circulating and intracellular T3, while D3 inactivates.",
+  "StAR transfer of cholesterol into mitochondria is rate limiting; side-chain cleavage makes pregnenolone, and each adrenal zone's product depends on which enzymes it expresses.",
+  "A cortisol pathway block raises ACTH and pushes precursors into open branches: 21-hydroxylase deficiency gives salt wasting with virilization, 11-beta-hydroxylase deficiency gives hypertension with virilization, and 17-alpha-hydroxylase deficiency gives hypertension with absent sex steroids.",
+  "Tyrosine hydroxylase is rate limiting for catecholamines; cortisol arriving from the cortex induces PNMT, so epinephrine is made mainly in the adrenal medulla.",
+  "COMT makes metanephrines and, with MAO, VMA; continuous intratumoral metabolism makes plasma free or urine fractionated metanephrines the most sensitive test for pheochromocytoma.",
+  "Proinsulin is cleaved in the granule to insulin and C-peptide, released in equal molar amounts; high insulin with high C-peptide means endogenous secretion (insulinoma or secretagogue), and high insulin with low C-peptide means injected insulin.",
+  "ADH and oxytocin are made in supraoptic and paraventricular neurons with their neurophysins, cleaved during axonal transport, and stored and released from the posterior pituitary, which does not synthesize them.",
+  "11-beta-HSD2 converts cortisol to cortisone to protect the mineralocorticoid receptor; licorice inhibits it, producing hypertension, hypokalemia, and metabolic alkalosis with low renin and low aldosterone."
+ ],
+ "sources": [
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Thyroid Metabolic Hormones"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Adrenocortical Hormones"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Insulin, Glucagon, and Diabetes Mellitus"
+  },
+  {
+   "book": "Boron and Boulpaep Medical Physiology",
+   "where": "Endocrine sections on the hypothalamus and pituitary, adrenal gland, and thyroid gland"
+  },
+  {
+   "book": "Lippincott Illustrated Reviews: Biochemistry",
+   "where": "Amino acid conversion to specialized products (catecholamines) and steroid hormone synthesis"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "The Endocrine System"
+  }
+ ],
+ "verify": [
+  "The thyroid iodide concentration ratio (about 30 times plasma, Guyton and Hall) and the colloid reserve of about 2 to 3 months are textbook approximations that vary between sources.",
+  "Thyroid secretory fraction (about 90% T4) and the share of circulating T3 from peripheral conversion (about 80%) are quoted slightly differently across references.",
+  "Hypoglycemia evaluation thresholds (glucose below about 55 mg/dL, 3.0 mmol/L, with inappropriately measurable insulin, C-peptide, and proinsulin) follow Endocrine Society criteria; confirm the exact cutoffs NABNE expects.",
+  "Some insulin analogs are not detected by every insulin immunoassay, so an injected analog can produce low measured insulin with low C-peptide; confirm whether NABNE tests this nuance.",
+  "Half-lives given as approximate (insulin about 5 minutes, C-peptide about 30 minutes, cortisol about 60 to 90 minutes, aldosterone about 20 minutes, T4 about 6 to 7 days, T3 about 1 day, ADH minutes) differ modestly between texts.",
+  "The fraction of CAH due to 21-hydroxylase deficiency is quoted from about 90% to 95%.",
+  "The free cortisol to free aldosterone ratio at the mineralocorticoid receptor is quoted from about 100 to 1,000 depending on the source and whether total or free levels are compared.",
+  "Confirm whether NABNE expects gene names (CYP11A1, CYP17A1, CYP21A2, CYP11B1, CYP11B2) and eponyms (Wolff-Chaikoff, Pendred, Herring bodies, Whipple triad, Liddle) or only the descriptive terms.",
+  "Requested new diagram names for a future revision: thyroid-follicle-cell (basolateral NIS, apical pendrin, DUOX2, TPO, colloid endocytosis) and adrenal-steroid-map (three zone columns with enzymes on each arrow)."
+ ]
+}

@@ -1,0 +1,670 @@
+{
+ "unit": "EN-6",
+ "chapter_id": "NPLEX-P1-ENDO-06",
+ "topic_id": "NPLEX-P1-ENDO-06-01",
+ "title": "Hormone Action, Transport, and Feedback",
+ "subject": "Endocrine System (ENDO)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter explains how hormones reach their targets, how they signal once they arrive, and how negative feedback keeps each axis stable. It covers receptor classes and second messengers, plasma binding proteins and the free hormone principle, feedback logic for localizing a lesion from paired lab values, and the actions and regulation of thyroid hormone, growth hormone, cortisol, and prolactin. Board questions often give two hormone levels and ask where the problem lies, or name a hormone and ask which messenger it uses. Reasoning from receptor class, free hormone, and feedback direction answers most of them.",
+  "prerequisites": [
+   "G protein coupled receptor structure and the GTPase cycle",
+   "Lipid solubility and membrane transport of small molecules",
+   "Hypothalamic nuclei and the hypophyseal portal system",
+   "Hepatic plasma protein synthesis",
+   "Gene transcription: promoters, response elements, and transcription factors"
+  ],
+  "connections": [
+   {
+    "to": "Endocrine organ function and control (EN-5)",
+    "how": "The portal circulation and pituitary stalk explain why releasing and inhibiting hormones control the anterior pituitary and why stalk damage raises prolactin."
+   },
+   {
+    "to": "Hormone synthesis and degradation (EN-8)",
+    "how": "The hormones whose actions are taught here are made by the biosynthetic pathways covered in the gland chapters."
+   },
+   {
+    "to": "Microbiology",
+    "how": "Cholera toxin locks Gs on and pertussis toxin blocks Gi, showing the same G protein switches that hormones use."
+   },
+   {
+    "to": "Immunology",
+    "how": "Cortisol suppresses cytokine genes and shifts leukocyte counts, which links stress physiology to infection risk."
+   },
+   {
+    "to": "Reproductive physiology",
+    "how": "Pulsatile GnRH drives LH and FSH, so anything that disrupts GnRH pulses, such as high prolactin, causes hypogonadism."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Second messenger",
+    "def": "An intracellular signal, such as cAMP, IP3, calcium, or DAG, generated when a hormone binds a surface receptor."
+   },
+   {
+    "term": "Hormone response element",
+    "def": "A DNA sequence near a target gene to which a hormone-receptor complex binds to change transcription."
+   },
+   {
+    "term": "Free hormone",
+    "def": "The small fraction of a hormone not bound to plasma proteins, which is the fraction that enters cells, acts, and is sensed by feedback."
+   },
+   {
+    "term": "Thyroxine-binding globulin (TBG)",
+    "def": "A hepatic glycoprotein that carries most circulating T4 and T3 and whose level changes total but not free hormone."
+   },
+   {
+    "term": "Cortisol-binding globulin (CBG)",
+    "def": "A hepatic glycoprotein, also called transcortin, that carries most circulating cortisol."
+   },
+   {
+    "term": "Trophic hormone",
+    "def": "A pituitary hormone, such as TSH or ACTH, that stimulates a target endocrine gland to secrete and grow."
+   },
+   {
+    "term": "Negative feedback",
+    "def": "Inhibition of hypothalamic and pituitary secretion by the hormone the axis produces, which keeps that hormone near a set point."
+   },
+   {
+    "term": "Primary disorder",
+    "def": "A disorder of the target gland itself, in which the target hormone and its trophic hormone move in opposite directions."
+   },
+   {
+    "term": "Deiodinase",
+    "def": "A selenium-containing enzyme that removes iodine from thyroid hormones, activating T4 to T3 or inactivating it."
+   },
+   {
+    "term": "Insulin-like growth factor 1 (IGF-1)",
+    "def": "A peptide made mainly by the liver under GH stimulation that mediates most of the growth-promoting actions of GH."
+   },
+   {
+    "term": "Permissive action",
+    "def": "An effect by which one hormone, without acting strongly itself, allows another hormone to produce its full response."
+   },
+   {
+    "term": "Circadian rhythm",
+    "def": "A roughly 24-hour cycle of secretion set by the suprachiasmatic nucleus, as in the morning peak of ACTH and cortisol."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-ENDO-06-01-C01",
+   "obj": "EN-6.1",
+   "title": "Hormone receptors and signaling pathways",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "A hormone's chemistry decides where its receptor sits. Peptide hormones and catecholamines are water soluble, cannot cross the lipid bilayer, and bind surface receptors that generate second messengers within seconds to minutes. Steroids and calcitriol are lipid soluble and diffuse into the cell; thyroid hormone, although an amine, enters through membrane transporters (such as MCT8). Both groups bind intracellular receptors that act as transcription factors, so their effects develop over hours to days."
+    },
+    {
+     "type": "h",
+     "text": "G protein coupled receptors"
+    },
+    {
+     "type": "p",
+     "text": "These receptors have seven membrane-spanning segments and couple to a heterotrimeric G protein. Hormone binding makes the alpha subunit exchange GDP for GTP and separate from the beta-gamma dimer; the signal ends when the alpha subunit hydrolyzes its GTP. Gs stimulates adenylyl cyclase, as shown below. Gq activates phospholipase C, which cleaves membrane PIP2 into IP3, which releases calcium from the endoplasmic reticulum, and DAG, which with calcium activates protein kinase C. Gi inhibits adenylyl cyclase and lowers cAMP, which is how dopamine at D2 receptors and somatostatin suppress pituitary secretion."
+    },
+    {
+     "type": "flow",
+     "title": "Gs and cAMP signaling",
+     "steps": [
+      "Hormone binds a Gs-coupled receptor",
+      "Gs alpha releases GDP, binds GTP, separates",
+      "Adenylyl cyclase converts ATP to cAMP",
+      "cAMP activates protein kinase A",
+      "Protein kinase A phosphorylates enzymes, channels, and CREB",
+      "GTP hydrolysis and phosphodiesterase end the signal"
+     ],
+     "caption": "Each step amplifies the signal, so a few hormone molecules change many target proteins."
+    },
+    {
+     "type": "h",
+     "text": "Receptor tyrosine kinases and JAK/STAT"
+    },
+    {
+     "type": "p",
+     "text": "The insulin and IGF-1 receptors are preformed dimers with a kinase domain in their own beta subunits. Ligand binding triggers autophosphorylation, then phosphorylation of insulin receptor substrate (IRS) proteins, which activate the PI3K and Akt pathway (glucose uptake, glycogen and protein synthesis) and the Ras and MAP kinase pathway (growth). GH and prolactin receptors belong to the cytokine receptor family and have no kinase of their own; the receptor exists as a dimer, and hormone binding changes its shape so that the associated Janus kinase 2 (JAK2) molecules activate each other and the receptor, which phosphorylates STAT proteins that dimerize and enter the nucleus."
+    },
+    {
+     "type": "table",
+     "title": "Hormone signaling pathways",
+     "cols": [
+      "Pathway",
+      "Hormones",
+      "Key mechanism"
+     ],
+     "rows": [
+      [
+       "Gs, cAMP",
+       "ACTH, TSH, LH, FSH, PTH, glucagon; also CRH, GHRH, calcitonin, hCG, ADH at V2",
+       "Protein kinase A phosphorylation"
+      ],
+      [
+       "Gq, IP3 and calcium",
+       "GnRH, TRH, oxytocin; also ADH at V1, angiotensin II",
+       "Phospholipase C; IP3 releases calcium, DAG activates protein kinase C"
+      ],
+      [
+       "Gi, lower cAMP",
+       "Dopamine (D2), somatostatin",
+       "Inhibits adenylyl cyclase"
+      ],
+      [
+       "Intrinsic tyrosine kinase",
+       "Insulin, IGF-1",
+       "Autophosphorylation, IRS, PI3K and Akt, MAP kinase"
+      ],
+      [
+       "JAK/STAT",
+       "GH, prolactin",
+       "Receptor-associated JAK2 phosphorylates STAT"
+      ],
+      [
+       "Intracellular receptor",
+       "Cortisol, aldosterone, sex steroids, thyroid hormone, calcitriol",
+       "Hormone-receptor complex binds response elements on DNA"
+      ]
+     ],
+     "caption": "Some hormones also use a second pathway (PTH and TSH can activate Gq); the table lists the main one tested."
+    },
+    {
+     "type": "p",
+     "text": "Intracellular receptors share a ligand-binding domain and a zinc finger DNA-binding domain. Glucocorticoid, mineralocorticoid, and androgen receptors wait in the cytoplasm bound to heat shock proteins and move to the nucleus when hormone binds. Thyroid hormone and vitamin D receptors already sit on DNA as heterodimers with the retinoid X receptor; unliganded thyroid receptor actively represses its genes, and T3 converts it to an activator."
+    },
+    {
+     "type": "p",
+     "text": "Defects in these switches cause disease that follows the pathway, not the gland. Loss-of-function mutation of the Gs alpha gene (GNAS) in pseudohypoparathyroidism type 1a causes resistance to PTH and often to TSH and gonadotropins, because all use Gs. Mosaic activating GNAS mutation in McCune-Albright syndrome causes autonomous function of cAMP-driven tissues."
+    },
+    {
+     "type": "stop",
+     "predict": "A child has high PTH, low calcium, high phosphate, and mildly high TSH. Why might both hormones fail?",
+     "explain": "PTH and TSH both signal through Gs. A loss-of-function GNAS mutation blunts cAMP generation in both target tissues, so the glands secrete more hormone without effect. This is end-organ resistance, not gland failure.",
+     "check": "The Gs row of the signaling table and the GNAS paragraph."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-06-01-C02",
+   "obj": "EN-6.2",
+   "title": "Plasma transport and the free hormone principle",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Lipid-soluble hormones dissolve poorly in plasma, so most of each travels bound to proteins made by the liver. Binding creates a circulating reservoir, protects the hormone from filtration and metabolism, and so lengthens its half-life. Peptide hormones are mostly unbound and are cleared within minutes; T4, mostly bound, has a half-life of about 7 days, and T3 about 1 day."
+    },
+    {
+     "type": "table",
+     "title": "Plasma binding of thyroid hormone and cortisol",
+     "cols": [
+      "Hormone",
+      "Main carriers",
+      "Free fraction",
+      "Half-life"
+     ],
+     "rows": [
+      [
+       "T4",
+       "TBG (about 70%), transthyretin, albumin",
+       "About 0.03%",
+       "About 7 days"
+      ],
+      [
+       "T3",
+       "TBG (most), albumin",
+       "About 0.3%",
+       "About 1 day"
+      ],
+      [
+       "Cortisol",
+       "CBG (about 80 to 90%), albumin",
+       "About 5 to 10%",
+       "About 60 to 90 minutes"
+      ]
+     ],
+     "caption": "TBG binds T4 more tightly than T3, so T3 has a larger free fraction and acts faster."
+    },
+    {
+     "type": "p",
+     "text": "Only free hormone crosses membranes, binds receptors, and is sensed by the hypothalamus and pituitary. Bound hormone is in rapid equilibrium with the free pool and replaces free hormone as cells take it up, but it is not directly active. The feedback system therefore regulates free hormone, not total hormone, and total levels can change widely while the patient's hormone status stays normal."
+    },
+    {
+     "type": "cycle",
+     "title": "Adjustment to a rise in TBG",
+     "steps": [
+      "Estrogen raises hepatic TBG synthesis and slows its clearance",
+      "Extra TBG binds T4; free T4 dips briefly",
+      "Pituitary senses less free T4; TSH rises",
+      "Thyroid secretes more T4 until new TBG fills",
+      "Free T4 restored; TSH returns to normal"
+     ],
+     "caption": "The new steady state has a higher total T4 with normal free T4 and TSH."
+    },
+    {
+     "type": "p",
+     "text": "Pregnancy, oral estrogen, and hepatitis raise TBG, so total T4 and T3 rise while free T4 and TSH stay normal and the patient is euthyroid. Androgens, glucocorticoids, nephrotic syndrome (urinary protein loss), and severe liver disease lower TBG and total T4, again with normal free T4. Estrogen raises CBG in the same way, so total cortisol rises in pregnancy or with oral contraceptives without features of cortisol excess. In the first trimester, hCG weakly stimulates the TSH receptor, so TSH can be slightly low; this is a separate effect from TBG."
+    },
+    {
+     "type": "example",
+     "title": "A pregnant patient with high total T4",
+     "text": "At 20 weeks of pregnancy a woman has total T4 of 15 micrograms/dL (reference about 5 to 12), free T4 of 1.2 ng/dL (about 0.8 to 1.8), and TSH of 1.8 mU/L (about 0.4 to 4.0). Step 1: free T4 is normal, so tissues receive normal hormone. Step 2: TSH is normal, so the pituitary also senses normal free hormone; a primary thyroid disorder would move TSH opposite to free T4. Step 3: the raised total must be extra bound hormone. Estrogen has raised TBG, and the thyroid has filled it. She is euthyroid. The error to avoid is judging thyroid status from total T4."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-06-01-C03",
+   "obj": "EN-6.3",
+   "title": "Localizing endocrine disorders by feedback logic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Each classic axis has three levels: a hypothalamic releasing hormone (TRH, CRH, GnRH, GHRH), a pituitary trophic hormone (TSH, ACTH, LH and FSH, GH), and a target hormone (T4, cortisol, sex steroids, or hepatic IGF-1). The target hormone feeds back to inhibit both higher levels, so in health the trophic hormone moves opposite to any change in free target hormone. That fixed relationship is what lets a pair of values locate a lesion."
+    },
+    {
+     "type": "p",
+     "text": "In a primary disorder, the target gland itself fails or secretes autonomously. Its hormone changes first, and an intact pituitary responds in the opposite direction: low free T4 with high TSH, or high cortisol with suppressed ACTH. In a secondary (pituitary) or tertiary (hypothalamic) disorder, the trophic signal changes first and the target hormone follows in the same direction: low cortisol with low ACTH, or high cortisol with high ACTH. A trophic hormone in the normal range is inappropriate when the target hormone is clearly low, so it still counts as low."
+    },
+    {
+     "type": "table",
+     "title": "Localizing by feedback",
+     "cols": [
+      "Pattern",
+      "Site",
+      "Example"
+     ],
+     "rows": [
+      [
+       "Low free T4, high TSH",
+       "Thyroid (primary)",
+       "Hashimoto thyroiditis"
+      ],
+      [
+       "Low free T4, low or normal TSH",
+       "Pituitary or hypothalamus",
+       "Sheehan syndrome, pituitary tumor"
+      ],
+      [
+       "High free T4, low TSH",
+       "Thyroid (primary) or exogenous",
+       "Graves disease, toxic nodule"
+      ],
+      [
+       "High free T4, high or normal TSH",
+       "Pituitary (rare)",
+       "TSH-secreting adenoma"
+      ],
+      [
+       "High cortisol, low ACTH",
+       "Adrenal or exogenous",
+       "Adrenal adenoma, glucocorticoid use"
+      ],
+      [
+       "High cortisol, high ACTH",
+       "Pituitary or ectopic source",
+       "Cushing disease, small cell lung cancer"
+      ],
+      [
+       "Low cortisol, high ACTH",
+       "Adrenal (primary)",
+       "Addison disease"
+      ],
+      [
+       "Low cortisol, low ACTH",
+       "Pituitary or hypothalamus",
+       "Withdrawal after long glucocorticoid use"
+      ]
+     ],
+     "caption": "Opposite directions point to the target gland; the same direction points above it."
+    },
+    {
+     "type": "p",
+     "text": "Two further steps refine the answer. A releasing-hormone stimulation test separates pituitary from hypothalamic failure: a pituitary that cannot respond shows no rise, while a pituitary deprived only of its releasing hormone still responds. When cortisol and ACTH are both high, the high-dose dexamethasone suppression test separates a pituitary adenoma, whose corticotrophs still partly obey glucocorticoid feedback, from an ectopic ACTH tumor, which usually does not. Exogenous hormone mimics a primary disorder of excess and suppresses the patient's own gland; after long glucocorticoid treatment the suppressed axis, and atrophic adrenal cortex, take months to recover."
+    },
+    {
+     "type": "example",
+     "title": "Locating hypercortisolism",
+     "text": "A patient has central obesity and striae. Late-night salivary cortisol is high, consistent with cortisol excess. Case A: ACTH is undetectable. Cortisol is high and ACTH low, opposite directions, so the source is the adrenal or an ingested glucocorticoid; the pituitary is responding normally to feedback. Case B: ACTH is high. Same direction, so excess ACTH drives both adrenals. High-dose dexamethasone lowers cortisol by more than half: the pituitary adenoma still senses feedback, so this is Cushing disease. Case C: ACTH is very high and dexamethasone has no effect, pointing to ectopic ACTH, as from small cell lung carcinoma."
+    },
+    {
+     "type": "stop",
+     "predict": "A patient has low free T4 and a TSH of 2.0 mU/L (normal range). Is the thyroid the problem?",
+     "explain": "Probably not. With low free T4, an intact pituitary should raise TSH well above normal. A normal TSH is inappropriately low, which points to pituitary or hypothalamic failure.",
+     "check": "The paragraph on inappropriately normal trophic hormone and the feedback table."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-06-01-C04",
+   "obj": "EN-6.4",
+   "title": "Thyroid hormone actions and peripheral activation",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The thyroid secretes mostly T4 (about 90%), which is largely a prohormone. About 80% of circulating T3, the form that binds the nuclear receptor with roughly ten times greater affinity, is made in peripheral tissues by deiodinases, selenium-containing enzymes that remove one iodine. Which deiodinase acts decides whether T4 is activated or inactivated, so tissues can set their own thyroid status within limits."
+    },
+    {
+     "type": "table",
+     "title": "The deiodinases",
+     "cols": [
+      "Enzyme",
+      "Main sites",
+      "Reaction",
+      "Role"
+     ],
+     "rows": [
+      [
+       "Type 1 (D1)",
+       "Liver, kidney, thyroid",
+       "T4 to T3 (outer ring)",
+       "Contributes plasma T3"
+      ],
+      [
+       "Type 2 (D2)",
+       "Pituitary, brain, brown fat, muscle",
+       "T4 to T3 (outer ring)",
+       "Local T3, including the T3 that feeds back on thyrotrophs"
+      ],
+      [
+       "Type 3 (D3)",
+       "Placenta, brain, fetal tissues",
+       "T4 to reverse T3; T3 to T2 (inner ring)",
+       "Inactivation"
+      ]
+     ],
+     "caption": "Fasting and severe illness reduce T4 to T3 conversion and favor reverse T3, lowering T3 without true hypothyroidism."
+    },
+    {
+     "type": "p",
+     "text": "Inside the nucleus, T3 binds the thyroid hormone receptor, which sits on thyroid response elements as a heterodimer with the retinoid X receptor. Binding releases corepressors and recruits coactivators, so effects build over hours to days, which is why symptoms lag behind changes in hormone levels."
+    },
+    {
+     "type": "flow",
+     "title": "From T4 to a metabolic effect",
+     "steps": [
+      "Thyroid releases mostly T4",
+      "Transporters carry T4 into target cells",
+      "Deiodinase removes one outer-ring iodine, forming T3",
+      "T3 binds nuclear receptor on response elements",
+      "Transcription of Na/K-ATPase, beta-1 receptor, and other genes changes",
+      "Oxygen use, heat production, and heart rate rise"
+     ],
+     "caption": "Activation happens mostly in target tissues, not in the gland."
+    },
+    {
+     "type": "p",
+     "text": "Metabolic actions follow from gene induction. T3 increases Na/K-ATPase synthesis, and pumping ions consumes ATP; it also increases mitochondrial number and enzymes of oxidative metabolism. The result is higher basal metabolic rate, oxygen consumption, and heat production, explaining heat intolerance, weight loss, and warm skin in hyperthyroidism, and cold intolerance and weight gain in hypothyroidism. T3 also increases LDL receptors, so hypothyroidism raises LDL cholesterol."
+    },
+    {
+     "type": "p",
+     "text": "In the heart, T3 increases beta-1 adrenergic receptor number, SERCA2 (faster calcium reuptake), and alpha myosin heavy chain, while lowering phospholamban. Heart rate, contractility, and relaxation speed rise, and peripheral vasodilation from heat production raises cardiac output and pulse pressure. Thyrotoxic tachycardia therefore reflects direct T3 effects on cardiac genes and heightened catecholamine sensitivity, while catecholamine levels are normal or low."
+    },
+    {
+     "type": "p",
+     "text": "Thyroid hormone is required for growth and development. It works with GH and IGF-1 at the growth plate and promotes skeletal maturation, so childhood hypothyroidism causes short stature with delayed bone age. In the fetal and neonatal brain it drives neuronal migration, synapse formation, and myelination; the fetal thyroid begins making hormone at about 10 to 12 weeks, but the fetus depends heavily on maternal T4 until mid-gestation. Untreated congenital hypothyroidism causes irreversible intellectual disability, which is why newborn screening exists."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-06-01-C05",
+   "obj": "EN-6.5",
+   "title": "Growth hormone, IGF-1, and their regulation",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "GH is a peptide from somatotrophs of the anterior pituitary. It acts at two levels: direct metabolic actions through its own JAK2-coupled receptor on fat, muscle, and liver, and growth actions mainly through IGF-1, which the liver makes under GH stimulation and which tissues such as bone also make locally. Most circulating IGF-1 travels bound to IGF-binding protein 3, which gives it a long half-life."
+    },
+    {
+     "type": "table",
+     "title": "Direct and indirect actions of GH",
+     "cols": [
+      "Action",
+      "Mediator",
+      "Mechanism and result"
+     ],
+     "rows": [
+      [
+       "Lipolysis",
+       "GH directly",
+       "Activates adipocyte lipolysis; free fatty acids rise and become fuel"
+      ],
+      [
+       "Insulin antagonism",
+       "GH directly",
+       "Less glucose uptake in muscle and fat, more hepatic glucose output; blood glucose rises"
+      ],
+      [
+       "Linear growth",
+       "IGF-1",
+       "Chondrocyte proliferation at the epiphyseal growth plate"
+      ],
+      [
+       "Protein synthesis",
+       "IGF-1 (and GH)",
+       "Amino acid uptake and protein synthesis; lean mass and organ growth"
+      ]
+     ],
+     "caption": "The direct actions spare glucose and protein during fasting; the IGF-1 actions build tissue when nutrition is adequate."
+    },
+    {
+     "type": "p",
+     "text": "The direct actions explain why GH is called diabetogenic: in acromegaly, insulin resistance commonly causes glucose intolerance or diabetes. The split between GH and IGF-1 also explains Laron syndrome, in which a defective GH receptor gives high GH with low IGF-1 and short stature. Before epiphyseal closure, GH excess causes gigantism; after closure, bones cannot lengthen, and acromegaly enlarges hands, feet, jaw, and soft tissues."
+    },
+    {
+     "type": "cycle",
+     "title": "Regulation of GH secretion",
+     "steps": [
+      "Hypothalamus releases GHRH; somatostatin falls",
+      "Somatotrophs secrete GH in pulses",
+      "Liver makes IGF-1",
+      "IGF-1 inhibits somatotrophs and stimulates somatostatin release",
+      "GH secretion falls until IGF-1 declines"
+     ],
+     "caption": "IGF-1 feeds back on both the pituitary and the hypothalamus; GH also inhibits its own release."
+    },
+    {
+     "type": "p",
+     "text": "GHRH acts through Gs and cAMP to stimulate synthesis and release, and somatostatin acts through Gi to inhibit release. Ghrelin from the stomach also stimulates GH. Secretion is pulsatile, with the largest pulses in slow-wave sleep early in the night, and rises with exercise, fasting, stress, and puberty, when sex steroids amplify pulses. Hypoglycemia is a strong stimulus because GH is a counterregulatory hormone that raises glucose; hyperglycemia and high free fatty acids suppress it, and obesity, glucocorticoid excess, and aging reduce it."
+    },
+    {
+     "type": "p",
+     "text": "These rules shape testing. A single GH level is uninterpretable because of pulses, so IGF-1, which is steady through the day, screens for GH excess. In a healthy person an oral glucose load suppresses GH; failure to suppress confirms autonomous secretion in acromegaly. For deficiency, provocative stimuli that should raise GH, such as insulin-induced hypoglycemia, test the reserve."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-06-01-C06",
+   "obj": "EN-6.6",
+   "title": "Cortisol actions and the circadian rhythm of the HPA axis",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Cortisol, the main glucocorticoid, is made in the zona fasciculata under ACTH stimulation. It binds the cytoplasmic glucocorticoid receptor, which moves to the nucleus and changes transcription in nearly every tissue. Its overall purpose is to keep glucose available and blood pressure maintained during fasting and stress while restraining inflammation. Its metabolic effects complement glucagon: cortisol increases the amount of gluconeogenic enzyme and supplies amino acid substrate from muscle, while glucagon acutely activates the pathway through cAMP. This is why cortisol deficiency causes fasting hypoglycemia even when glucagon is normal."
+    },
+    {
+     "type": "table",
+     "title": "Actions of cortisol",
+     "cols": [
+      "Action",
+      "Mechanism",
+      "Consequence of excess"
+     ],
+     "rows": [
+      [
+       "Gluconeogenesis",
+       "Induces hepatic PEPCK and glucose-6-phosphatase; increases hepatic glycogen",
+       "Hyperglycemia, insulin resistance"
+      ],
+      [
+       "Proteolysis",
+       "Breaks down muscle protein, supplying amino acids to the liver",
+       "Proximal muscle weakness and wasting"
+      ],
+      [
+       "Lipolysis",
+       "Permissive for catecholamine and GH lipolysis; redistributes fat",
+       "Central obesity, thin limbs"
+      ],
+      [
+       "Anti-inflammatory, immunosuppressive",
+       "Inhibits NF-kB; induces annexin A1, which inhibits phospholipase A2; reduces COX-2, IL-1, IL-2, TNF",
+       "Infection risk, lymphopenia, eosinopenia, neutrophilia"
+      ],
+      [
+       "Permissive vasoconstriction",
+       "Maintains vascular adrenergic receptor expression and catecholamine response",
+       "Hypertension (with mineralocorticoid effect)"
+      ],
+      [
+       "Reduced collagen synthesis",
+       "Inhibits fibroblasts and osteoblasts",
+       "Thin skin, striae, bruising, poor healing, osteoporosis"
+      ]
+     ],
+     "caption": "The same actions in deficiency produce hypoglycemia, hypotension, and poor stress tolerance."
+    },
+    {
+     "type": "p",
+     "text": "The anti-inflammatory effect works at several points. Blocking phospholipase A2 and COX-2 limits arachidonic acid supply to prostaglandins and leukotrienes, and inhibiting NF-kB lowers cytokine and adhesion molecule genes. Lymphocyte counts fall by redistribution and apoptosis, eosinophils fall, and neutrophils rise because they leave the marrow faster and demarginate from vessel walls."
+    },
+    {
+     "type": "p",
+     "text": "Permissive action means cortisol allows catecholamines to constrict vessels effectively. Without it, vascular tone falls, so adrenal insufficiency causes hypotension that responds poorly to pressors, and adrenal crisis can cause shock during stress. Cortisol also induces PNMT in the adrenal medulla, linking it to epinephrine synthesis."
+    },
+    {
+     "type": "flow",
+     "title": "Circadian drive of the HPA axis",
+     "steps": [
+      "Suprachiasmatic nucleus entrained by light",
+      "CRH pulse amplitude rises in late sleep",
+      "ACTH and cortisol peak around waking",
+      "Cortisol falls through the day",
+      "Nadir near midnight, then cycle repeats"
+     ],
+     "caption": "Stress overrides the rhythm at any time; cortisol feeds back on CRH and ACTH throughout."
+    },
+    {
+     "type": "p",
+     "text": "Because ACTH and cortisol pulses follow this rhythm, morning cortisol is therefore used to screen for deficiency, while the loss of the late-night nadir is one of the earliest signs of Cushing syndrome, detected by late-night salivary cortisol."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-06-01-C07",
+   "obj": "EN-6.7",
+   "title": "Prolactin regulation and hyperprolactinemic hypogonadism",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Prolactin is the one anterior pituitary hormone whose dominant hypothalamic control is inhibitory. Dopamine from tuberoinfundibular neurons of the arcuate nucleus travels in portal blood to lactotroph D2 receptors, which couple to Gi, lower cAMP, and suppress prolactin synthesis and release. Prolactin raises dopamine release (short-loop feedback), keeping its own level low outside pregnancy and lactation. Its main action is milk synthesis in a breast prepared by estrogen and progesterone; the high levels of those steroids in pregnancy block lactation until they fall after delivery."
+    },
+    {
+     "type": "p",
+     "text": "Stimuli act mostly by relieving this brake or adding drive. TRH stimulates lactotrophs through Gq, which is why primary hypothyroidism, with high TRH, can raise prolactin and cause galactorrhea. Estrogen causes lactotroph hyperplasia during pregnancy, and suckling inhibits dopamine release to sustain milk production. Because the control is inhibitory, cutting the pituitary stalk lowers every other anterior pituitary hormone but raises prolactin; a nonfunctioning macroadenoma that compresses the stalk mildly raises prolactin for the same reason. Kidney failure raises prolactin by reducing clearance."
+    },
+    {
+     "type": "table",
+     "title": "Causes of hyperprolactinemia by mechanism",
+     "cols": [
+      "Mechanism",
+      "Examples"
+     ],
+     "rows": [
+      [
+       "Autonomous secretion",
+       "Prolactinoma"
+      ],
+      [
+       "Loss of dopamine reaching lactotrophs",
+       "Stalk compression or section, D2 antagonists (antipsychotics, metoclopramide), dopamine-depleting drugs such as reserpine"
+      ],
+      [
+       "Excess stimulation",
+       "High TRH in primary hypothyroidism, pregnancy (estrogen), suckling, nipple or chest wall stimulation"
+      ],
+      [
+       "Reduced clearance",
+       "Chronic kidney disease"
+      ]
+     ],
+     "caption": "Prolactinomas usually give the highest levels; stalk compression usually gives only modest elevation."
+    },
+    {
+     "type": "flow",
+     "title": "How hyperprolactinemia causes hypogonadism",
+     "steps": [
+      "Prolactin rises",
+      "Hypothalamic kisspeptin and GnRH pulses are suppressed",
+      "LH and FSH fall",
+      "Ovarian estrogen or testicular testosterone falls",
+      "Anovulation, amenorrhea, infertility, low libido, erectile dysfunction"
+     ],
+     "caption": "This is hypogonadotropic hypogonadism: gonadal hormones and gonadotropins are both low."
+    },
+    {
+     "type": "p",
+     "text": "Hyperprolactinemia shuts down the gonadal axis at the hypothalamus. Pulsatile GnRH, which the pituitary requires to secrete LH and FSH, is suppressed, largely by prolactin acting on kisspeptin neurons. Women develop oligomenorrhea or amenorrhea, infertility, and galactorrhea; men develop low libido, erectile dysfunction, and infertility, and present later, often with larger tumors and visual field loss. Low estrogen or testosterone also reduces bone density. Lactational amenorrhea is the physiologic version of the same mechanism. The feedback pattern, low sex steroid with low gonadotropins, places the problem above the gonad, consistent with C03."
+    },
+    {
+     "type": "stop",
+     "predict": "After head trauma that transects the pituitary stalk, which anterior pituitary hormone rises while the others fall?",
+     "explain": "Prolactin. The others depend on stimulatory releasing hormones that no longer reach the pituitary, but prolactin is held down by dopamine, so loss of portal dopamine releases it.",
+     "check": "The first two paragraphs of this section."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Biochemistry and pharmacology meet in the receptor classes: the same Gs, Gi, and Gq switches serve neurotransmitters and hormones, so bacterial toxins (cholera toxin activating Gs, pertussis toxin blocking Gi) and GNAS mutations alter whole groups of hormones at once. The liver links to endocrinology through binding proteins and IGF-1, so liver disease, nephrotic syndrome, and estrogen change total hormone levels, and malnutrition lowers IGF-1 even when GH is high. Immunology connects through cortisol, whose suppression of cytokines and lymphocytes explains infection risk in cortisol excess."
+  },
+  {
+   "type": "p",
+   "text": "Pathology follows from feedback. Nearly every endocrine disease is a disorder of excess or deficiency at one level of an axis, and the direction of the trophic and target pair locates it. The logic has limits: binding protein changes alter total but not free levels, nonthyroidal illness lowers T3 without true hypothyroidism, assays and reference ranges vary, and hormones with pulsatile or circadian secretion (GH, ACTH, cortisol) must be measured at the right time or by a stable surrogate such as IGF-1."
+  }
+ ],
+ "summary": [
+  "Peptide hormones use surface receptors and second messengers; steroids, thyroid hormone, and calcitriol use intracellular receptors that change transcription over hours.",
+  "Gs raises cAMP (ACTH, TSH, LH, FSH, PTH, glucagon); Gq raises IP3 and calcium (GnRH, TRH, oxytocin); insulin and IGF-1 use intrinsic tyrosine kinases; GH and prolactin use JAK/STAT.",
+  "Only free hormone acts and feeds back; raised TBG in pregnancy raises total T4 with normal free T4 and TSH.",
+  "Target and trophic hormones moving in opposite directions localize a disorder to the gland; moving together places it in the pituitary or hypothalamus.",
+  "Peripheral deiodinases convert T4 to more active T3; T3 raises metabolic rate through Na/K-ATPase, upregulates cardiac beta-1 receptors, and is needed for bone growth and brain maturation.",
+  "GH directly causes lipolysis and insulin antagonism; IGF-1 from the liver mediates linear growth and protein synthesis.",
+  "GH rises with GHRH, ghrelin, deep sleep, exercise, and hypoglycemia, and falls with somatostatin, IGF-1, and hyperglycemia.",
+  "Cortisol promotes gluconeogenesis, proteolysis, and lipolysis, suppresses inflammation and collagen synthesis, permits catecholamine vasoconstriction, and peaks around waking.",
+  "Tonic dopamine inhibits prolactin and TRH stimulates it; high prolactin suppresses GnRH and causes hypogonadotropic hypogonadism."
+ ],
+ "sources": [
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Introduction to Endocrinology"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Pituitary Hormones and Their Control by the Hypothalamus; Thyroid Metabolic Hormones; Adrenocortical Hormones"
+  },
+  {
+   "book": "Boron and Boulpaep Medical Physiology",
+   "where": "Endocrine regulation and signal transduction; the hypothalamic-pituitary axes"
+  },
+  {
+   "book": "Lippincott Illustrated Reviews: Biochemistry",
+   "where": "Hormonal regulation and signal transduction"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Disorders of the Hypothalamus and Pituitary Gland; Thyroid Disease; Disorders of the Adrenal Cortex"
+  }
+ ],
+ "verify": [
+  "Binding fractions and half-lives (TBG about 70% of T4, free T4 about 0.03%, free T3 about 0.3%, free cortisol about 5 to 10%) differ slightly among texts; values are given as approximate.",
+  "Reference ranges in the worked example (total T4 about 5 to 12 micrograms/dL, free T4 about 0.8 to 1.8 ng/dL, TSH about 0.4 to 4.0 mU/L) vary by laboratory and trimester; confirm the ranges NABNE supplies on the exam.",
+  "Some hormones signal through more than one pathway (for example PTH and TSH through both Gs and Gq); confirm that NABNE uses the primary-pathway classification in this chapter.",
+  "The high-dose dexamethasone suppression test is now often replaced by CRH stimulation testing and inferior petrosal sinus sampling; confirm which tests NABNE expects for localizing ACTH-dependent Cushing syndrome.",
+  "The role of kisspeptin neurons in prolactin suppression of GnRH is the current consensus mechanism but is described differently in older texts.",
+  "Confirm whether NABNE expects the names of the individual deiodinases (D1, D2, D3) or only the T4 to T3 conversion.",
+  "Requested new diagram name for a future revision: feedback-axis (hypothalamus, pituitary, and target gland with negative feedback arrows and primary versus secondary lesion sites)."
+ ]
+}

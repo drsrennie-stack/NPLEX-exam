@@ -1,0 +1,472 @@
+{
+ "unit": "EN-12-C",
+ "chapter_id": "NPLEX-P1-ENDO-12",
+ "topic_id": "NPLEX-P1-ENDO-12-03",
+ "title": "Inflammatory Diseases of the Thyroid",
+ "subject": "Endocrine System (ENDO)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter covers the inflammatory diseases of the thyroid: Hashimoto thyroiditis, subacute granulomatous (de Quervain) thyroiditis, painless and postpartum thyroiditis, and Riedel thyroiditis. Each disease is traced from its immune or inflammatory mechanism to the findings it produces in the gland, the blood, the radioiodine scan, and the biopsy. Board questions usually describe how the gland feels, a set of thyroid function tests, an uptake result, or a histology description, then ask for the disease or its next phase. Two questions solve most of them: is the gland making new hormone or leaking stored hormone, and is the follicular cell mass lost for good or able to regenerate?",
+  "prerequisites": [
+   "Thyroid follicle structure, follicular cells, colloid, and C cells (EN-2)",
+   "Thyroid hormone synthesis: iodide trapping by the sodium-iodide symporter, organification by thyroid peroxidase, and storage on thyroglobulin (EN-8)",
+   "The hypothalamic-pituitary-thyroid axis and negative feedback by T4 and T3 (EN-5, EN-6)",
+   "Self-tolerance, T cell effector mechanisms, and germinal center B cell responses (EN-10)",
+   "Patterns of chronic inflammation, including granulomatous inflammation and fibrosis"
+  ],
+  "connections": [
+   {
+    "to": "Immune responses in endocrine disease (EN-10)",
+    "how": "Hashimoto thyroiditis is the model of organ-specific, T cell driven autoimmunity, with anti-TPO and anti-thyroglobulin antibodies serving as markers."
+   },
+   {
+    "to": "Diseases of endocrine hyperfunction (EN-12-A)",
+    "how": "Graves disease and toxic nodular goiter are thyrotoxic with high radioiodine uptake, the key contrast with the low uptake of destructive thyroiditis."
+   },
+   {
+    "to": "Diseases of endocrine hypofunction (EN-12-B)",
+    "how": "Hashimoto thyroiditis is the main cause of the primary hypothyroidism whose clinical features and test patterns are taught there."
+   },
+   {
+    "to": "Endocrine neoplasms (EN-12-G)",
+    "how": "Primary thyroid B cell lymphoma arises in Hashimoto thyroiditis, and Riedel thyroiditis can mimic anaplastic carcinoma."
+   },
+   {
+    "to": "Endocrine pathogens (EN-11)",
+    "how": "Viral upper respiratory infections precede subacute granulomatous thyroiditis, linking microbiology to a self-limited thyroid disease."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Thyrotoxicosis",
+    "def": "The clinical state produced by excess circulating thyroid hormone from any source; hyperthyroidism strictly means excess hormone production by the thyroid itself."
+   },
+   {
+    "term": "Destructive thyroiditis",
+    "def": "Thyroid inflammation that ruptures follicles and releases preformed hormone, causing thyrotoxicosis without any increase in hormone synthesis."
+   },
+   {
+    "term": "Radioactive iodine uptake (RAIU)",
+    "def": "The fraction of an administered radioiodine dose taken up by the thyroid over a set time, usually 24 hours, which reflects iodide trapping and active hormone synthesis."
+   },
+   {
+    "term": "Anti-TPO antibodies",
+    "def": "Autoantibodies against thyroid peroxidase, the enzyme that oxidizes iodide and couples iodotyrosines, and the most sensitive serologic marker of autoimmune thyroid disease."
+   },
+   {
+    "term": "Hürthle cell",
+    "def": "A follicular cell with abundant pink, granular cytoplasm packed with mitochondria (oncocytic or oxyphil change), typical of Hashimoto thyroiditis."
+   },
+   {
+    "term": "Germinal center",
+    "def": "The central region of a secondary lymphoid follicle where antigen-stimulated B cells proliferate, undergo affinity maturation, and class switch."
+   },
+   {
+    "term": "Hashitoxicosis",
+    "def": "Transient thyrotoxicosis early in Hashimoto thyroiditis, usually from release of stored hormone by injured follicles."
+   },
+   {
+    "term": "Subclinical hypothyroidism",
+    "def": "A raised TSH with free T4 still within the reference range, reflecting a gland that keeps up only under extra TSH drive."
+   },
+   {
+    "term": "Granuloma",
+    "def": "A focus of chronic inflammation made of activated macrophages (epithelioid cells), often with multinucleated giant cells, surrounded by lymphocytes."
+   },
+   {
+    "term": "IgG4-related disease",
+    "def": "A fibroinflammatory disorder with many IgG4-positive plasma cells, storiform fibrosis, and obliterative phlebitis that can involve the thyroid, pancreas, bile ducts, retroperitoneum, and orbit."
+   },
+   {
+    "term": "Postpartum thyroiditis",
+    "def": "Painless autoimmune destructive thyroiditis arising within the first year after delivery, when immune activity rebounds after pregnancy."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-ENDO-12-03-C01",
+   "obj": "EN-12-C.1",
+   "title": "Hashimoto thyroiditis: autoimmune pathogenesis and histology",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Hashimoto thyroiditis (chronic lymphocytic thyroiditis) is autoimmune destruction of thyroid follicular cells. It is the most common cause of hypothyroidism wherever dietary iodine is adequate; worldwide, iodine deficiency still causes more. The typical patient is a woman between about 45 and 65 years old with a painless, firm, symmetrically enlarged goiter, and women are affected roughly 10 times as often as men. Risk is also higher in Down syndrome and Turner syndrome."
+    },
+    {
+     "type": "p",
+     "text": "The disease begins with a failure of self-tolerance to thyroid antigens, chiefly thyroid peroxidase (TPO) and thyroglobulin. Susceptibility is polygenic. Variants of CTLA4 and PTPN22, genes that normally restrain T cell activation, and certain HLA alleles raise risk, and poorly defined environmental triggers act on that background. Once tolerance fails, autoreactive T cells enter the gland and destroy it."
+    },
+    {
+     "type": "flow",
+     "title": "Pathogenesis of Hashimoto thyroiditis",
+     "steps": [
+      "Genetic risk (CTLA4, PTPN22, HLA) plus environmental triggers",
+      "Loss of tolerance to TPO and thyroglobulin",
+      "CD4 T cells activate; Th1 cells release interferon-gamma",
+      "CD8 T cells kill follicular cells; activated macrophages add injury",
+      "B cells form germinal centers; anti-TPO and anti-thyroglobulin produced",
+      "Follicular cell mass shrinks; TSH rises; free T4 eventually falls"
+     ],
+     "caption": "Cell-mediated killing destroys the follicles; the antibodies mainly mark the autoimmune response."
+    },
+    {
+     "type": "p",
+     "text": "Injury is mainly cell mediated. CD8 cytotoxic T cells kill follicular cells with perforin and granzymes, and interferon-gamma from Th1 cells activates macrophages that damage follicles further. Antibody-dependent cell-mediated cytotoxicity contributes less. Anti-TPO antibodies are found in about 90% of patients and anti-thyroglobulin antibodies in fewer; both are better markers of disease than causes of it. Some patients also make TSH receptor blocking antibodies, which silence the surviving cells."
+    },
+    {
+     "type": "p",
+     "text": "The goiter is painless because the process is slow and does not stretch the capsule acutely. The gland is diffusely enlarged, pale, and rubbery with an intact capsule; its bulk comes from the lymphoid infiltrate plus TSH-driven growth of the remaining epithelium. Years of destruction and fibrosis can later shrink it to a small atrophic gland."
+    },
+    {
+     "type": "table",
+     "title": "Histology of Hashimoto thyroiditis",
+     "cols": [
+      "Finding",
+      "What you see",
+      "Why it forms"
+     ],
+     "rows": [
+      [
+       "Lymphoid infiltrate",
+       "Lymphocytes and plasma cells with well-formed germinal centers",
+       "Antigen-driven B cell responses inside a gland that normally has no lymphoid follicles"
+      ],
+      [
+       "Atrophic follicles",
+       "Small follicles with scant colloid",
+       "Follicular cells are destroyed and make less hormone and thyroglobulin"
+      ],
+      [
+       "Hürthle cells",
+       "Large cells with abundant pink, granular cytoplasm",
+       "Surviving injured follicular cells accumulate mitochondria (oncocytic metaplasia)"
+      ],
+      [
+       "Fibrosis",
+       "Variable interstitial fibrosis confined within the capsule",
+       "Repair after chronic injury"
+      ]
+     ],
+     "caption": "Germinal centers plus Hürthle cells identify Hashimoto; granulomas around colloid or fibrosis beyond the capsule point elsewhere."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-12-03-C02",
+   "obj": "EN-12-C.2",
+   "title": "Course of Hashimoto thyroiditis, associated autoimmunity, and lymphoma risk",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The course of Hashimoto thyroiditis follows the number of working follicular cells. Early on, antibodies are present but thyroid function is normal, because a small rise in TSH pushes the surviving cells to work harder. As destruction outpaces that compensation, TSH rises above its reference range (about 0.4 to 4.0 mIU/L) while free T4 stays normal (about 0.8 to 1.8 ng/dL), which is subclinical hypothyroidism. Overt hypothyroidism follows when free T4 falls. Among people with subclinical hypothyroidism and anti-TPO antibodies, about 4% a year progress to overt disease."
+    },
+    {
+     "type": "flow",
+     "title": "Course of Hashimoto thyroiditis",
+     "steps": [
+      "Euthyroid: antibodies present, TSH and free T4 normal",
+      "Possible hashitoxicosis: injured follicles leak stored hormone",
+      "Subclinical hypothyroidism: TSH high, free T4 normal",
+      "Overt hypothyroidism: TSH high, free T4 low",
+      "Permanent: ongoing attack and fibrosis prevent regeneration"
+     ],
+     "caption": "Not every patient passes through hashitoxicosis, but the end point is lasting primary hypothyroidism."
+    },
+    {
+     "type": "p",
+     "text": "Hashitoxicosis is a brief thyrotoxic phase when injured follicles release stored hormone. Because the gland is not making extra hormone, radioiodine uptake is usually low, which separates it from Graves disease, where TSH receptor stimulating antibodies drive synthesis and uptake is high. A few patients carry both stimulating and blocking antibodies, so the two diseases can overlap. The later hypothyroidism is permanent because the autoimmune attack continues and lost follicular cells are replaced by lymphoid tissue and fibrosis instead of new epithelium."
+    },
+    {
+     "type": "p",
+     "text": "Patients often have other autoimmune diseases, because the same genetic variants (HLA, CTLA4, PTPN22) weaken tolerance in several organs. Classic companions are type 1 diabetes, autoimmune adrenalitis (Addison disease; the combination forms autoimmune polyglandular syndrome type 2), autoimmune gastritis with pernicious anemia, celiac disease, vitiligo, Sjögren syndrome, systemic lupus erythematosus, rheumatoid arthritis, and myasthenia gravis."
+    },
+    {
+     "type": "p",
+     "text": "Hashimoto thyroiditis also raises the risk of primary thyroid lymphoma, most of which arise in a background of the disease. The normal thyroid has no organized lymphoid tissue; Hashimoto creates it, and years of antigen-driven B cell proliferation in germinal centers give repeated chances for mutations, the same logic as gastric MALT lymphoma after Helicobacter pylori gastritis. Most cases are diffuse large B cell lymphoma or extranodal marginal zone (MALT) lymphoma. The typical presentation is an older woman with long-standing Hashimoto whose thyroid enlarges rapidly and painlessly, sometimes with dysphagia, dyspnea, or hoarseness from compression. Anaplastic carcinoma presents similarly, so tissue diagnosis is needed. The absolute risk remains low."
+    },
+    {
+     "type": "stop",
+     "predict": "Why is the hypothyroidism of Hashimoto thyroiditis permanent while the hypothyroid phase of subacute thyroiditis usually resolves?",
+     "explain": "In Hashimoto the immune attack never switches off, so follicular cells keep dying and are replaced by lymphoid tissue and fibrosis. In subacute thyroiditis the trigger is a passing viral illness; once inflammation subsides, surviving follicular epithelium regenerates and refills its stores.",
+     "check": "The course flow above and the recovery phase in EN-12-C.4."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-12-03-C03",
+   "obj": "EN-12-C.3",
+   "title": "Subacute granulomatous (de Quervain) thyroiditis: recognition and low uptake",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Subacute granulomatous (de Quervain) thyroiditis is the most common cause of a painful thyroid. It affects mainly women aged about 30 to 50, several times more often than men, and typically begins a few weeks after a viral upper respiratory infection. Coxsackievirus, mumps, measles, adenovirus, and influenza have been implicated, and cases cluster seasonally. A strong association with HLA-B35 suggests that viral antigens, or thyroid antigens altered by viral injury, are presented to cytotoxic T cells that damage follicles. Because the trigger is temporary, the response is self-limited."
+    },
+    {
+     "type": "p",
+     "text": "Each feature has a mechanism. Acute inflammation and edema stretch the thyroid capsule, producing anterior neck pain that radiates to the jaw, ear, or throat and worsens with swallowing or turning the head; the gland is firm and exquisitely tender, sometimes on one side first. Circulating cytokines (IL-1, IL-6, TNF) cause fever, malaise, and myalgia, and IL-6 drives hepatic acute phase proteins, so the ESR is markedly raised, often above 50 mm/h (reference roughly 0 to 20 mm/h), and CRP is high."
+    },
+    {
+     "type": "p",
+     "text": "Histology is patchy, with areas at different stages. Early lesions show disrupted follicles with neutrophils, sometimes forming microabscesses. Later, lymphocytes, plasma cells, and macrophages predominate, and granulomas form in which multinucleated giant cells surround or engulf pools and fragments of colloid spilled from ruptured follicles. Healing leaves little fibrosis."
+    },
+    {
+     "type": "flow",
+     "title": "Why thyrotoxicosis comes with low radioiodine uptake",
+     "steps": [
+      "Inflamed follicles rupture and release stored T4 and T3",
+      "Free T4 and T3 rise; thyrotoxic symptoms appear",
+      "Negative feedback suppresses pituitary TSH",
+      "Without TSH, iodide trapping by the symporter falls",
+      "Damaged follicular cells cannot trap or organify iodide",
+      "24-hour radioiodine uptake is low, often under 5%"
+     ],
+     "caption": "The gland is leaking hormone, not making it, so the scan is nearly blank while the patient is thyrotoxic."
+    },
+    {
+     "type": "p",
+     "text": "This leaking-versus-making distinction is the core of the diagnosis. In Graves disease, stimulating antibodies keep the gland synthesizing hormone, so uptake is high and diffuse. Two further clues support destruction: serum thyroglobulin is high because it spills from ruptured follicles, and the T4 to T3 ratio is higher because stored hormone is mostly T4, whereas a stimulated gland releases proportionally more T3. Ingestion of exogenous thyroid hormone also gives thyrotoxicosis with low uptake, but thyroglobulin is low because the gland is suppressed and intact."
+    },
+    {
+     "type": "stop",
+     "predict": "A thyrotoxic patient has a tender gland, but the 24-hour radioiodine uptake is 35%. Does this fit subacute thyroiditis?",
+     "explain": "No. A thyrotoxic patient with subacute thyroiditis has suppressed TSH and damaged follicles, so uptake should be very low. Normal or high uptake during thyrotoxicosis means the gland is synthesizing hormone, as in Graves disease or a toxic nodule.",
+     "check": "The low uptake flow and the comparison with Graves disease."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-12-03-C04",
+   "obj": "EN-12-C.4",
+   "title": "The self-limited course of subacute thyroiditis",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The course of subacute thyroiditis is set by two things: the pool of stored hormone and the population of follicular cells. The thyroid normally stores enough hormone in colloid to supply the body for about two to three months. Inflammation empties that store into the blood over a few weeks, but it does not destroy the follicular cells permanently, so the gland can rebuild once the trigger has passed."
+    },
+    {
+     "type": "table",
+     "title": "Phases of subacute thyroiditis",
+     "cols": [
+      "Phase",
+      "Typical timing",
+      "Free T4",
+      "TSH",
+      "Radioiodine uptake",
+      "Mechanism"
+     ],
+     "rows": [
+      [
+       "Thyrotoxic",
+       "First about 3 to 6 weeks",
+       "High",
+       "Suppressed",
+       "Low",
+       "Ruptured follicles release stored hormone; TSH falls"
+      ],
+      [
+       "Transition",
+       "Brief",
+       "Normal",
+       "Low or normal",
+       "Low",
+       "Stores are spent; suppressed thyrotrophs recover slowly"
+      ],
+      [
+       "Hypothyroid (not in all)",
+       "Weeks to a few months",
+       "Low",
+       "High",
+       "Low at first, may exceed normal",
+       "Little stored hormone; rising TSH drives regenerating follicles"
+      ],
+      [
+       "Recovery",
+       "Most by about 6 to 12 months",
+       "Normal",
+       "Normal",
+       "Normal",
+       "Follicles regenerate and refill colloid"
+      ]
+     ],
+     "caption": "Free T4 and TSH move in opposite directions in each phase; uptake recovers only when TSH returns and follicles rebuild."
+    },
+    {
+     "type": "p",
+     "text": "The thyrotoxic phase lasts only as long as stored hormone keeps leaking. Released T4 is cleared with a half-life of about 6 to 7 days and T3 in about a day, so once release stops, levels fall within weeks. Pain, tenderness, fever, and the raised ESR fade over the same period as the inflammation settles. TSH may stay low for a short time after free T4 normalizes, because pituitary thyrotrophs recover slowly from weeks of suppression."
+    },
+    {
+     "type": "p",
+     "text": "Many patients then pass through a hypothyroid phase. The colloid is empty and the injured follicles are still rebuilding, so output falls below need and TSH rises. That TSH rise is useful: it stimulates the regenerating epithelium, and uptake can briefly exceed normal while the gland refills its stores. Thyroid function returns to normal in most patients within about a year, and recurrence is uncommon. A small minority, roughly 5 to 15% in most series, are left with permanent hypothyroidism because too many follicles were lost."
+    },
+    {
+     "type": "flow",
+     "title": "Course of subacute granulomatous thyroiditis",
+     "steps": [
+      "Viral upper respiratory infection, then painful thyroid",
+      "Thyrotoxic phase: high free T4, low TSH, low uptake",
+      "Stores exhausted; inflammation and pain subside",
+      "Hypothyroid phase: low free T4, high TSH",
+      "TSH drives regenerating follicles to refill colloid",
+      "Most recover normal function within about a year"
+     ],
+     "caption": "The disease is self-limited because the trigger passes and follicular cells regenerate."
+    },
+    {
+     "type": "example",
+     "title": "Reading one patient across three visits",
+     "text": "A 42-year-old woman has a tender thyroid three weeks after a cold. Visit 1: free T4 3.1 ng/dL (reference about 0.8 to 1.8), TSH under 0.01 mIU/L, ESR 88 mm/h, 24-hour uptake 2%. High T4 with suppressed TSH and a near-blank scan means leaked stored hormone, the thyrotoxic phase. Visit 2, ten weeks later: pain gone, free T4 0.6 ng/dL, TSH 14 mIU/L. Stores are empty and follicles are rebuilding, so this is the transient hypothyroid phase, not new Hashimoto disease; the high TSH is driving recovery. Visit 3, eight months after onset: free T4 1.2 ng/dL, TSH 2.0 mIU/L, so function has recovered. Had TSH remained high at that visit, the most likely explanation would be permanent hypothyroidism from excessive follicle loss."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-12-03-C05",
+   "obj": "EN-12-C.5",
+   "title": "Painless, postpartum, and Riedel thyroiditis compared with Hashimoto and subacute thyroiditis",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Painless (silent, or subacute lymphocytic) thyroiditis is an autoimmune destructive thyroiditis. Lymphocytes disrupt follicles and release stored hormone, so it follows the same thyrotoxic, hypothyroid, and recovery course as subacute thyroiditis, with low uptake in the thyrotoxic phase. The differences come from the type of inflammation: without the acute, granulomatous injury of de Quervain disease, the gland is painless, nontender, and normal sized or slightly enlarged, and the ESR is normal or only mildly raised. Anti-TPO antibodies are common. Histology shows lymphocytic infiltrates, sometimes with germinal centers, and follicle disruption, but not the prominent fibrosis and Hürthle cell change of Hashimoto, nor granulomas. The same destructive pattern can follow certain drugs, such as amiodarone, lithium, interferon-alpha, and immune checkpoint inhibitors."
+    },
+    {
+     "type": "p",
+     "text": "Postpartum thyroiditis is painless thyroiditis arising within a year after delivery. It affects roughly 5 to 10% of women, most often those with anti-TPO antibodies before or early in pregnancy and those with type 1 diabetes. During pregnancy, maternal immune responses are damped to tolerate the fetus and antibody titers fall; after delivery, immunity rebounds and unmasks pre-existing thyroid autoimmunity. A thyrotoxic phase typically appears about 1 to 4 months postpartum and a hypothyroid phase about 4 to 8 months postpartum, though either can occur alone. It often recurs after later pregnancies, and a substantial minority develop permanent hypothyroidism over the following years."
+    },
+    {
+     "type": "p",
+     "text": "Riedel thyroiditis is rare and works differently. Dense fibrous tissue replaces the gland and extends through the capsule into the strap muscles, trachea, esophagus, and sometimes the recurrent laryngeal nerve and parathyroid glands. Most cases are now regarded as IgG4-related disease: lymphoplasmacytic infiltrates rich in IgG4-positive plasma cells, storiform fibrosis, and obliterative phlebitis, with cytokines such as TGF-beta activating fibroblasts. The result is a rock-hard, woody, painless gland fixed to surrounding structures. Compression causes dysphagia, dyspnea or stridor, and hoarseness; hypothyroidism appears if enough gland is replaced, and hypocalcemia if the parathyroids are encased. Because a hard, fixed, compressive mass also suggests anaplastic carcinoma, biopsy is needed, and it shows fibrosis without malignant cells. Riedel thyroiditis may coexist with other fibrosing disorders, including retroperitoneal fibrosis, sclerosing cholangitis, autoimmune pancreatitis, and orbital pseudotumor. In the fibrous variant of Hashimoto thyroiditis, by contrast, the fibrosis stays within the capsule."
+    },
+    {
+     "type": "table",
+     "title": "Distinguishing the four thyroiditides",
+     "cols": [
+      "Feature",
+      "Hashimoto",
+      "Subacute granulomatous",
+      "Painless or postpartum",
+      "Riedel"
+     ],
+     "rows": [
+      [
+       "Mechanism",
+       "T cell autoimmune destruction",
+       "Post-viral T cell injury (HLA-B35)",
+       "Autoimmune lymphocytic destruction",
+       "IgG4-related fibroinflammation"
+      ],
+      [
+       "Gland on exam",
+       "Painless, firm, rubbery goiter",
+       "Painful, exquisitely tender",
+       "Painless, nontender, normal sized or mildly enlarged",
+       "Rock-hard, fixed, painless"
+      ],
+      [
+       "ESR",
+       "Normal",
+       "Markedly raised",
+       "Normal or mildly raised",
+       "Normal or mildly raised"
+      ],
+      [
+       "Uptake if thyrotoxic",
+       "Low (hashitoxicosis)",
+       "Low",
+       "Low",
+       "Not thyrotoxic"
+      ],
+      [
+       "Long-term function",
+       "Permanent hypothyroidism",
+       "Usually recovers",
+       "Usually recovers; may recur",
+       "Euthyroid or hypothyroid"
+      ],
+      [
+       "Antibodies",
+       "Anti-TPO in about 90%",
+       "Usually absent or low titer",
+       "Anti-TPO common",
+       "Anti-TPO in some"
+      ],
+      [
+       "Histology",
+       "Germinal centers, atrophic follicles, Hürthle cells",
+       "Granulomas with giant cells around colloid",
+       "Lymphocytes; no granulomas, little fibrosis, few Hürthle cells",
+       "Dense fibrosis beyond the capsule, IgG4 plasma cells"
+      ]
+     ],
+     "caption": "Pain and ESR separate subacute from painless thyroiditis; the capsule separates Riedel from fibrous Hashimoto; germinal centers with Hürthle cells mark Hashimoto."
+    },
+    {
+     "type": "stop",
+     "predict": "Three months after delivery, a woman has palpitations, a suppressed TSH, high free T4, and a painless, nontender gland. What result separates postpartum thyroiditis from postpartum Graves disease?",
+     "explain": "TSH receptor stimulating antibodies: absent in postpartum thyroiditis, which leaks stored hormone, and present in Graves disease, which synthesizes new hormone. Uptake would be low versus high, but radioiodine is avoided during breastfeeding, so the antibody test usually decides. Pain and ESR do not help, because both disorders are painless.",
+     "check": "The comparison table and the leaking-versus-making distinction in EN-12-C.3."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Histology and physiology explain the laboratory patterns. The follicle stores weeks of hormone in colloid, and iodide trapping depends on TSH, so any process that ruptures follicles produces thyrotoxicosis with suppressed TSH and a low uptake, whatever the cause of the inflammation. Whether function recovers depends on whether follicular cells survive: they regenerate after a passing viral or postpartum injury, but not under the continuous autoimmune attack of Hashimoto disease or after replacement by fibrosis in Riedel disease. Immunology supplies the triggers. Hashimoto thyroiditis is T cell mediated autoimmunity with marker antibodies, Graves disease is antibody mediated stimulation, postpartum thyroiditis reflects immune rebound after pregnancy, subacute thyroiditis links a viral infection to an HLA-restricted T cell response, and Riedel thyroiditis belongs to the IgG4-related fibroinflammatory diseases."
+  },
+  {
+   "type": "p",
+   "text": "Pathology sorts these diseases by inflammatory pattern: lymphocytic with germinal centers (Hashimoto, painless thyroiditis), granulomatous around colloid (subacute), and fibrosing beyond the capsule (Riedel). Chronic antigen stimulation of acquired lymphoid tissue explains why Hashimoto thyroiditis predisposes to lymphoma, as Sjögren syndrome does in salivary glands and Helicobacter pylori gastritis does in the stomach. These categories overlap at the edges: some patients with Hashimoto lack detectable antibodies, and painless thyroiditis lies on a spectrum with Hashimoto."
+  }
+ ],
+ "summary": [
+  "Hashimoto thyroiditis is T cell mediated destruction of follicular cells after loss of tolerance to TPO and thyroglobulin; anti-TPO antibodies are markers present in about 90%.",
+  "Hashimoto histology shows lymphoid follicles with germinal centers, atrophic follicles, and mitochondria-rich Hürthle cells; the goiter is painless, firm, and diffuse.",
+  "Hashimoto may begin with brief hashitoxicosis (low uptake), then moves through subclinical to permanent overt hypothyroidism because the attack never stops.",
+  "Hashimoto clusters with other autoimmune diseases and raises the risk of primary thyroid B cell lymphoma, which presents as rapid painless enlargement.",
+  "Subacute (de Quervain) thyroiditis follows a viral illness and causes a painful, tender gland, fever, and a markedly raised ESR, with granulomas and giant cells around colloid.",
+  "Destructive thyroiditis leaks stored hormone: thyrotoxicosis with suppressed TSH, high thyroglobulin, and low radioiodine uptake, unlike the high uptake of Graves disease.",
+  "Subacute thyroiditis is self-limited: thyrotoxic for weeks, often transiently hypothyroid, then normal in most patients as follicles regenerate.",
+  "Painless and postpartum thyroiditis follow the same course with low uptake but are autoimmune, nontender, and anti-TPO associated; postpartum disease recurs with later pregnancies.",
+  "Riedel thyroiditis is IgG4-related fibrosis extending beyond the capsule, producing a rock-hard fixed gland that compresses neck structures and mimics anaplastic carcinoma."
+ ],
+ "sources": [
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "The Endocrine System, section on thyroiditis"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Thyroid Metabolic Hormones"
+  },
+  {
+   "book": "Abbas, Cellular and Molecular Immunology",
+   "where": "Immunologic Tolerance and Autoimmunity"
+  },
+  {
+   "book": "Junqueira's Basic Histology",
+   "where": "Endocrine Glands, thyroid gland"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Thyroid Disease"
+  },
+  {
+   "book": "Boron and Boulpaep Medical Physiology",
+   "where": "The Thyroid Gland"
+  }
+ ],
+ "verify": [
+  "Epidemiology varies between sources: female to male ratio for Hashimoto (about 10 to 1 here, up to 20 to 1 in some texts), peak ages, and the claim that subacute thyroiditis is the most common cause of a painful thyroid.",
+  "Reference ranges differ by laboratory: TSH about 0.4 to 4.0 mIU/L, free T4 about 0.8 to 1.8 ng/dL, ESR about 0 to 20 mm/h (higher with age and in women), and normal 24-hour radioiodine uptake about 10 to 30% depending on dietary iodine. Confirm the values NABNE supplies or expects.",
+  "Anti-TPO prevalence in Hashimoto (about 90%) and the annual progression rate from antibody-positive subclinical to overt hypothyroidism (about 4%, from the Whickham survey) are approximate.",
+  "HLA associations are reported inconsistently (HLA-DR3 and DR5 for Hashimoto; HLA-B35 for subacute thyroiditis); confirm whether NABNE tests specific alleles.",
+  "The relative risk of thyroid lymphoma in Hashimoto and the split between diffuse large B cell and MALT lymphoma vary between series; an association between Hashimoto and papillary carcinoma is debated and is not stated here.",
+  "Durations of subacute thyroiditis phases, the proportion with a hypothyroid phase, and the rate of permanent hypothyroidism (about 5 to 15%) vary between series.",
+  "Postpartum thyroiditis prevalence (about 5 to 10%), phase timing, and the proportion later developing permanent hypothyroidism differ between populations.",
+  "Most but not all Riedel thyroiditis is classified as IgG4-related disease, and an IgG4-related variant of Hashimoto thyroiditis is also described; confirm the classification NABNE uses.",
+  "Current WHO terminology replaces Hürthle cell with oncocytic cell; confirm which term and which eponyms (de Quervain, Riedel, Hashimoto) NABNE uses.",
+  "Requested new diagram name for a future revision: thyroiditis-timeline (free T4, TSH, and radioiodine uptake plotted across the thyrotoxic, hypothyroid, and recovery phases)."
+ ]
+}

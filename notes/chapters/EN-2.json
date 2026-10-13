@@ -1,0 +1,573 @@
+{
+ "unit": "EN-2",
+ "chapter_id": "NPLEX-P1-ENDO-02",
+ "topic_id": "NPLEX-P1-ENDO-02-01",
+ "title": "Endocrine Histology and Derivations",
+ "subject": "Endocrine System (ENDO)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter covers the microscopic structure of the thyroid, adrenal, pituitary, parathyroid, and endocrine pancreas, the hormone each cell type makes, and the germ layer each cell type comes from. Histology is a direct readout of physiology: cell height, lipid content, granule staining, and blood flow all reflect what a cell synthesizes and how hard it is being driven. Board items usually describe a slide or a tumor and ask for the hormone, the controlling signal, the disease, or the immunostain. If you can explain why a stimulated thyroid cell grows tall, why the fasciculata looks foamy, why basophils stain blue, and why a pheochromocytoma and a carcinoid tumor share stains, you can reason through most of these questions.",
+  "prerequisites": [
+   "Germ layers, pharyngeal pouches, and neural crest migration (EN-1)",
+   "Hormone classes (peptide, glycoprotein, steroid, amine) and how each is stored and secreted",
+   "Basic stains: hematoxylin and eosin (H&E), periodic acid-Schiff (PAS), and immunohistochemistry",
+   "Hypothalamic-pituitary axes and negative feedback",
+   "G protein signaling through Gs, Gq, and cAMP"
+  ],
+  "connections": [
+   {
+    "to": "Endocrine embryology (EN-1)",
+    "how": "The pouch, foregut, Rathke pouch, and neural crest origins described there explain the derivations grouped in C05."
+   },
+   {
+    "to": "Endocrine organ function and control (EN-5)",
+    "how": "The controlling signals named here (TSH, ACTH, angiotensin II, ionized Ca2+, glucose) are the regulators whose feedback loops EN-5 develops."
+   },
+   {
+    "to": "Hormone synthesis and degradation (EN-8)",
+    "how": "Enzyme expression in each cell, such as aldosterone synthase in the glomerulosa or PNMT in chromaffin cells, decides the hormone that cell can make."
+   },
+   {
+    "to": "Immune responses in endocrine disease (EN-10)",
+    "how": "Graves disease, Hashimoto thyroiditis, and type 1 diabetes each leave a characteristic histologic pattern produced by autoantibodies or T cells."
+   },
+   {
+    "to": "Endocrine neoplasms (EN-12-G)",
+    "how": "Cell of origin and neuroendocrine markers identify medullary thyroid carcinoma, pheochromocytoma, pituitary adenomas, and pancreatic neuroendocrine tumors."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Colloid",
+    "def": "The protein-rich material filling the thyroid follicle lumen, consisting mainly of iodinated thyroglobulin."
+   },
+   {
+    "term": "Parafollicular C cell",
+    "def": "A thyroid cell outside the follicle lumen that secretes calcitonin in response to rising plasma Ca2+."
+   },
+   {
+    "term": "Spongiocyte",
+    "def": "A zona fasciculata cell whose cytoplasm looks pale and foamy because lipid droplets of cholesteryl ester are dissolved during routine processing."
+   },
+   {
+    "term": "Chromaffin cell",
+    "def": "An adrenal medullary catecholamine-secreting cell, a modified postganglionic sympathetic neuron without an axon, named for the brown color its granules turn with chromium salts."
+   },
+   {
+    "term": "Acidophil and basophil",
+    "def": "Anterior pituitary cells whose secretory granules stain with acidic dyes such as eosin (GH, prolactin) or with basic dyes and PAS (FSH, LH, ACTH, TSH)."
+   },
+   {
+    "term": "Chromophobe",
+    "def": "An anterior pituitary cell with few stainable granules, such as a degranulated secretory cell or a nonsecretory support or progenitor cell."
+   },
+   {
+    "term": "Herring body",
+    "def": "A swollen segment or terminal of a hypothalamic axon in the posterior pituitary, packed with granules of ADH or oxytocin."
+   },
+   {
+    "term": "Pituicyte",
+    "def": "A glial cell of the posterior pituitary that supports the neurosecretory axons and secretes no hormone."
+   },
+   {
+    "term": "Oxyphil cell",
+    "def": "A large parathyroid cell with deeply eosinophilic cytoplasm packed with mitochondria and no established secretory function."
+   },
+   {
+    "term": "Neuroendocrine cell",
+    "def": "A cell that stores amine or peptide hormones in dense-core granules and expresses neuron-like secretory proteins such as chromogranin A and synaptophysin."
+   },
+   {
+    "term": "Chromogranin A",
+    "def": "A protein of the dense-core granule matrix that is secreted with the hormone and serves as an immunostain and serum marker of neuroendocrine cells."
+   },
+   {
+    "term": "Synaptophysin",
+    "def": "A membrane glycoprotein of small synaptic-like vesicles found in neurons and neuroendocrine cells."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-ENDO-02-01-C01",
+   "obj": "EN-2.1",
+   "title": "Thyroid follicles, C cells, and the stimulated gland",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The thyroid is built from follicles: spheres lined by a single layer of follicular cells resting on a basement membrane and surrounding colloid, which is stored thyroglobulin. A dense network of fenestrated capillaries surrounds each follicle. The thyroid is the only endocrine gland that stores large amounts of hormone outside its cells, enough for about 2 to 3 months of normal secretion."
+    },
+    {
+     "type": "p",
+     "text": "Follicular cells are polarized. The basal surface faces the capillaries and carries the TSH receptor and the sodium-iodide symporter (NIS); the apical surface bears microvilli facing the colloid and carries pendrin and thyroid peroxidase (TPO). Thyroglobulin is made on rough endoplasmic reticulum and exocytosed into the lumen, iodinated at the apical surface, and later taken back into the cell for processing, so synthesis runs outward and release runs inward."
+    },
+    {
+     "type": "flow",
+     "title": "Thyroid hormone synthesis and release in the follicle",
+     "steps": [
+      "NIS cotransports iodide with Na+ across the basal membrane",
+      "Pendrin moves iodide across the apical membrane into colloid",
+      "TPO oxidizes iodide and iodinates thyroglobulin tyrosines (MIT, DIT)",
+      "TPO couples DIT plus DIT to T4, MIT plus DIT to T3",
+      "TSH drives apical endocytosis of iodinated colloid",
+      "Lysosomes cleave thyroglobulin; T4 and T3 enter capillaries"
+     ],
+     "caption": "Iodination happens in the colloid at the apical surface; hormone release requires the colloid to be taken back into the cell."
+    },
+    {
+     "type": "p",
+     "text": "TSH acts mainly through Gs and cAMP (and at higher concentrations through Gq) to speed every step above, and it is also trophic, causing follicular cell hypertrophy and hyperplasia. Cell height and colloid volume therefore show how hard the gland is being driven. A resting gland has large follicles lined by flat to cuboidal cells and filled with dense colloid. A stimulated gland has small follicles lined by tall columnar cells, with scant pale colloid whose edge looks scalloped where it is being resorbed."
+    },
+    {
+     "type": "table",
+     "title": "Reading follicular activity",
+     "cols": [
+      "Feature",
+      "Resting or suppressed",
+      "Stimulated (TSH or TSH receptor antibody)"
+     ],
+     "rows": [
+      [
+       "Follicular cell shape",
+       "Flat to cuboidal",
+       "Tall columnar, crowded"
+      ],
+      [
+       "Follicle size",
+       "Large",
+       "Small, sometimes with infoldings"
+      ],
+      [
+       "Colloid",
+       "Abundant, dense",
+       "Scant, pale"
+      ],
+      [
+       "Colloid edge",
+       "Smooth",
+       "Scalloped from active resorption"
+      ],
+      [
+       "Example",
+       "Iodine-replete gland with suppressed TSH",
+       "Graves disease, TSH-secreting adenoma"
+      ]
+     ],
+     "caption": "Histology shows the degree of stimulation, not its source; serum TSH distinguishes TSH-driven from antibody-driven stimulation."
+    },
+    {
+     "type": "p",
+     "text": "In Graves disease, IgG autoantibodies that stimulate the TSH receptor (thyroid-stimulating immunoglobulins) mimic TSH but escape feedback. The gland enlarges diffusely, with tall columnar cells crowded into small papillae that project into the lumen; unlike papillary carcinoma, these papillae lack fibrovascular cores. Colloid is pale and scalloped, and lymphoid infiltrates, mainly T cells and sometimes with germinal centers, lie between follicles. The contrast with Hashimoto thyroiditis is useful: there, follicles are small and atrophic, lined by eosinophilic Hürthle cells, within dense lymphoid tissue with germinal centers."
+    },
+    {
+     "type": "p",
+     "text": "Parafollicular C cells are larger, paler cells that sit inside the follicular basement membrane without touching the colloid, or in small clusters between follicles. They are concentrated in the middle to upper parts of the lateral lobes, where the ultimobranchial body fused with the thyroid. They secrete calcitonin when plasma Ca2+ rises, which inhibits osteoclasts. They are hard to see on H&E and are identified with a calcitonin immunostain; they are the cell of origin of medullary thyroid carcinoma (C05)."
+    },
+    {
+     "type": "stop",
+     "predict": "A thyroid biopsy shows tall columnar follicular cells and scant scalloped colloid, but serum TSH is undetectable. What is driving the gland?",
+     "explain": "A stimulator other than TSH. Thyroid-stimulating immunoglobulins activate the TSH receptor, raise T4 and T3, and suppress pituitary TSH through feedback, yet the gland keeps the stimulated appearance because the antibody is not regulated.",
+     "check": "The follicular activity table and the Graves disease paragraph."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-02-01-C02",
+   "obj": "EN-2.2",
+   "title": "Adrenal cortex zones and the medulla",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The adrenal gland has a capsule, a cortex making up about 80 to 90% of its mass, and a central medulla. Blood from capsular arteries flows inward through sinusoids between cortical cords and drains into medullary veins, so the medulla is bathed in cortisol-rich blood. Cortical cells have the steroid-secreting phenotype: abundant smooth endoplasmic reticulum, mitochondria with tubular cristae, and lipid droplets of cholesteryl ester. Steroids diffuse out as they are made rather than being stored in granules, so cortical histology reflects synthetic capacity."
+    },
+    {
+     "type": "table",
+     "title": "Adrenal layers from capsule to center",
+     "cols": [
+      "Layer",
+      "Histology",
+      "Key enzyme feature",
+      "Main product",
+      "Main control"
+     ],
+     "rows": [
+      [
+       "Zona glomerulosa (about 15% of cortex)",
+       "Thin subcapsular layer; cells in rounded clusters and arches; few lipid droplets",
+       "Aldosterone synthase (CYP11B2); no 17-alpha-hydroxylase",
+       "Aldosterone",
+       "Angiotensin II and plasma K+; ACTH minor"
+      ],
+      [
+       "Zona fasciculata (about 75%)",
+       "Thickest layer; long straight cords one to two cells wide between sinusoids; pale foamy spongiocytes",
+       "17-alpha-hydroxylase and 11-beta-hydroxylase (CYP11B1)",
+       "Cortisol",
+       "ACTH"
+      ],
+      [
+       "Zona reticularis (about 10%)",
+       "Branching cords of smaller, more eosinophilic cells, often with lipofuscin",
+       "17,20-lyase activity of CYP17 high",
+       "DHEA, DHEA sulfate, androstenedione; some cortisol",
+       "ACTH"
+      ],
+      [
+       "Medulla",
+       "Clusters of large, finely granular basophilic chromaffin cells around capillaries and venules; scattered ganglion cells",
+       "PNMT in most cells",
+       "Epinephrine (about 80%) and norepinephrine",
+       "Sympathetic preganglionic fibers (acetylcholine on nicotinic receptors)"
+      ]
+     ],
+     "caption": "Each zone makes a different steroid because each expresses a different set of enzymes and receptors."
+    },
+    {
+     "type": "p",
+     "text": "Zonation is enzymatic. Without 17-alpha-hydroxylase, the glomerulosa channels pregnenolone toward progesterone, deoxycorticosterone, and corticosterone, and only it has aldosterone synthase to finish aldosterone. The fasciculata and reticularis express 17-alpha-hydroxylase, so they make cortisol and androgens, and they depend on ACTH, acting on the melanocortin 2 receptor, for both secretion and growth."
+    },
+    {
+     "type": "p",
+     "text": "This trophic dependence explains adrenal pathology. ACTH excess from a pituitary adenoma or ectopic source causes bilateral hyperplasia of the fasciculata and reticularis. A cortisol-secreting adrenal adenoma suppresses ACTH, so the inner cortex of the adjacent and opposite gland atrophies, and long-term exogenous glucocorticoid does the same to both glands. The glomerulosa is spared in both cases because the renin-angiotensin system controls it, which is why secondary adrenal insufficiency lacks the salt wasting and hyperkalemia of primary adrenal destruction, where all zones are lost."
+    },
+    {
+     "type": "flow",
+     "title": "Why the medulla makes mostly epinephrine",
+     "steps": [
+      "Capsular arteries feed sinusoids running from cortex toward medulla",
+      "Sinusoidal blood collects high cortisol from the fasciculata",
+      "Cortisol induces PNMT in chromaffin cells",
+      "PNMT methylates norepinephrine to epinephrine",
+      "Preganglionic acetylcholine activates nicotinic receptors on chromaffin cells",
+      "Granules release mostly epinephrine into medullary veins"
+     ],
+     "caption": "Extra-adrenal paraganglia lack this cortisol-rich blood, so paragangliomas usually secrete norepinephrine rather than epinephrine."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: reading the adrenals in Cushing syndrome",
+     "text": "Two patients have cortisol excess. In patient A both adrenals are enlarged, with thick fasciculata and reticularis. In patient B one adrenal contains a yellow cortical nodule, and the remaining cortex of that gland and the opposite gland is thin. Start with ACTH. Both inner zones grow only under ACTH, so bilateral enlargement in A means ACTH is high, from a pituitary corticotroph adenoma or an ectopic source such as small cell lung carcinoma. In B the nodule makes cortisol on its own, feedback suppresses ACTH, and the ACTH-dependent cortex elsewhere atrophies. The nodule is yellow for the same reason the fasciculata is pale: its cells are full of cholesteryl ester. In both patients the glomerulosa looks normal because it answers to angiotensin II, not ACTH."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-02-01-C03",
+   "obj": "EN-2.3",
+   "title": "Anterior pituitary cells and the posterior pituitary",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The pituitary has two parts with different origins and different histology. The adenohypophysis (pars distalis, pars intermedia, and pars tuberalis) is glandular epithelium from Rathke pouch. Its cells form cords and clusters among fenestrated sinusoidal capillaries of the hypophyseal portal system, which bring hypothalamic releasing and inhibiting hormones from the median eminence. The neurohypophysis (pars nervosa and infundibular stalk) is an extension of the hypothalamus and looks like nervous tissue."
+    },
+    {
+     "type": "p",
+     "text": "On H&E, anterior pituitary cells are grouped by granule staining, which reflects the chemistry of the stored hormone. GH and prolactin are nonglycosylated polypeptides that bind acidic dyes, so somatotrophs and lactotrophs are acidophils. TSH, FSH, and LH are glycoproteins, and ACTH is cleaved from proopiomelanocortin (POMC), a glycosylated precursor, so their cells bind basic dyes and are PAS positive; the familiar B-FLAT grouping (basophils: FSH, LH, ACTH, TSH) captures this. Chromophobes, roughly half the cells, have few stainable granules and include degranulated secretory cells and nonsecretory folliculostellate cells. Modern classification identifies each cell by immunostaining for its hormone."
+    },
+    {
+     "type": "table",
+     "title": "Anterior pituitary cell types",
+     "cols": [
+      "Cell",
+      "Hormone",
+      "H&E staining",
+      "Approximate share of secretory cells"
+     ],
+     "rows": [
+      [
+       "Somatotroph",
+       "GH",
+       "Acidophil",
+       "About 50%"
+      ],
+      [
+       "Lactotroph",
+       "Prolactin",
+       "Acidophil",
+       "About 15 to 25%; increases in pregnancy"
+      ],
+      [
+       "Corticotroph",
+       "ACTH (from POMC)",
+       "Basophil, PAS positive",
+       "About 15 to 20%"
+      ],
+      [
+       "Gonadotroph",
+       "FSH, LH",
+       "Basophil, PAS positive",
+       "About 10%"
+      ],
+      [
+       "Thyrotroph",
+       "TSH",
+       "Basophil, PAS positive",
+       "About 5%"
+      ]
+     ],
+     "caption": "Acidophils make the simple protein hormones; basophils make the glycoprotein hormones and ACTH."
+    },
+    {
+     "type": "p",
+     "text": "Two staining changes have mechanistic explanations. Estrogen in pregnancy drives lactotroph hyperplasia that roughly doubles pituitary size, which helps explain the gland's vulnerability to ischemic necrosis after obstetric hemorrhage. Sustained glucocorticoid excess causes Crooke hyaline change, in which suppressed corticotrophs accumulate a pale, homogeneous ring of keratin filaments in place of their granules."
+    },
+    {
+     "type": "p",
+     "text": "The posterior pituitary contains no hormone-synthesizing cells. It consists of unmyelinated axons of magnocellular neurons from the supraoptic and paraventricular nuclei, glial pituicytes, and fenestrated capillaries. ADH (made mainly in supraoptic neurons) and oxytocin (mainly paraventricular) are synthesized in the cell bodies, packaged with their carrier proteins, the neurophysins, and transported down the axons. Herring bodies are eosinophilic swellings of those axons and terminals filled with neurosecretory granules."
+    },
+    {
+     "type": "flow",
+     "title": "ADH from hypothalamus to blood",
+     "steps": [
+      "Supraoptic neurons synthesize ADH with neurophysin II",
+      "Granules travel down axons through the infundibular stalk",
+      "Granules are stored in terminals and Herring bodies",
+      "Rising osmolality fires action potentials; Ca2+ enters terminals",
+      "Exocytosis releases ADH into fenestrated capillaries"
+     ],
+     "caption": "The posterior lobe is a storage and release site; the hormone is made in the hypothalamus."
+    },
+    {
+     "type": "p",
+     "text": "Because the hormone is made above the lobe, the level of injury predicts the outcome. Loss of the posterior lobe alone often causes only transient central diabetes insipidus, since the cut axons in the stalk and median eminence can reorganize and release ADH there. Destruction of the hypothalamic nuclei or a high stalk section that kills most magnocellular neurons causes permanent deficiency."
+    },
+    {
+     "type": "stop",
+     "predict": "A tumor confined to the posterior lobe destroys it completely. Will ADH deficiency be permanent?",
+     "explain": "Usually not. ADH-producing cell bodies in the hypothalamus survive, and their axons can release ADH from the stalk and median eminence, so diabetes insipidus is often transient. Permanent deficiency requires loss of most supraoptic and paraventricular neurons.",
+     "check": "The posterior pituitary paragraphs and the ADH flow."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-02-01-C04",
+   "obj": "EN-2.4",
+   "title": "Parathyroid chief and oxyphil cells and the islet cells",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Each parathyroid gland is a small, encapsulated mass of cell cords and clusters wrapped around a rich capillary network, with fat cells in the stroma that become more numerous with age. Chief cells are the most numerous: small polygonal cells with a central round nucleus and pale to lightly eosinophilic cytoplasm containing glycogen, lipid, and small secretory granules of PTH. Oxyphil cells are larger, with a smaller dark nucleus and deeply eosinophilic, granular cytoplasm packed with mitochondria. They appear in later childhood, increase with age, and have no established secretory role; they may be altered chief cells."
+    },
+    {
+     "type": "p",
+     "text": "Chief cells need no pituitary trophic hormone. They sense extracellular ionized Ca2+ directly through the calcium-sensing receptor (CaSR), a G protein-coupled receptor. Activation by rising Ca2+ inhibits PTH release within seconds, reduces PTH gene expression, and over weeks restrains chief cell proliferation; calcitriol acting on the vitamin D receptor also suppresses PTH gene transcription. Chief cell mass therefore tracks calcium demand. Chronic hypocalcemia, as in chronic kidney disease or vitamin D deficiency, drives hyperplasia of all four glands (secondary hyperparathyroidism), whereas a single autonomous adenoma raises Ca2+ and leaves the other glands normal or suppressed."
+    },
+    {
+     "type": "cycle",
+     "title": "Calcium-sensing feedback on the chief cell",
+     "steps": [
+      "Ionized Ca2+ falls",
+      "Less CaSR activation on chief cells",
+      "PTH secretion rises",
+      "Bone resorption, renal Ca2+ reabsorption, and calcitriol synthesis increase",
+      "Ionized Ca2+ rises and CaSR activation restrains PTH"
+     ],
+     "caption": "The same receptor sets both minute-to-minute secretion and long-term chief cell growth."
+    },
+    {
+     "type": "p",
+     "text": "The islets of Langerhans, about one million in a human pancreas and about 1 to 2% of its mass, appear as pale, richly vascular clusters among darker basophilic acini whose color comes from the rough endoplasmic reticulum of enzyme-secreting cells. Islet cell types look alike on H&E and are identified by immunostaining for their hormones; by electron microscopy beta cell granules have a crystalline core of zinc-insulin surrounded by a clear halo. In rodents beta cells form a central core with a mantle of other cells, but human islets are more intermingled, with cells arranged along capillaries."
+    },
+    {
+     "type": "table",
+     "title": "Parathyroid and islet endocrine cells",
+     "cols": [
+      "Cell",
+      "Appearance or share",
+      "Product",
+      "Main regulator"
+     ],
+     "rows": [
+      [
+       "Parathyroid chief cell",
+       "Small, pale to lightly eosinophilic; most numerous",
+       "PTH",
+       "Low ionized Ca2+ through the CaSR"
+      ],
+      [
+       "Parathyroid oxyphil cell",
+       "Large, deeply eosinophilic, mitochondria rich; increases with age",
+       "No established hormone",
+       "Not known"
+      ],
+      [
+       "Beta cell",
+       "Most numerous islet cell, about 60 to 70%",
+       "Insulin, with amylin (IAPP)",
+       "Rising glucose"
+      ],
+      [
+       "Alpha cell",
+       "About 20%",
+       "Glucagon",
+       "Falling glucose and rising amino acids; restrained by insulin and somatostatin"
+      ],
+      [
+       "Delta cell",
+       "About 5 to 10%",
+       "Somatostatin",
+       "Rising glucose and amino acids; inhibits alpha and beta cells locally"
+      ],
+      [
+       "PP cell",
+       "Few; most common in islets of the posterior head (ventral bud)",
+       "Pancreatic polypeptide",
+       "Meals and vagal input"
+      ]
+     ],
+     "caption": "Chief cells answer directly to calcium; islet cells answer to glucose and to each other."
+    },
+    {
+     "type": "p",
+     "text": "Islet cells also regulate one another through local (paracrine) signals: insulin and zinc released with it restrain alpha cells, and somatostatin inhibits both alpha and beta cells. Islet histology records disease. In type 1 diabetes, T cell infiltration of islets (insulitis) destroys beta cells, leaving small islets composed of alpha, delta, and PP cells. In type 2 diabetes, amylin co-secreted with insulin can deposit as islet amyloid. Each cell type can also give rise to a functioning tumor, most often an insulinoma."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-02-01-C05",
+   "obj": "EN-2.5",
+   "title": "Derivation of endocrine cells and neuroendocrine staining",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Each endocrine cell type comes from a specific germ layer, and that origin predicts which cells share tumor types, inherited syndromes, and immunostains. The pattern is easiest to remember by tissue type: epithelial glands that bud from the gut tube are endoderm, the two cell types that migrate into other organs to secrete amines or calcitonin are neural crest, the pituitary is ectoderm from two sources, and the steroid-making adrenal cortex is mesoderm."
+    },
+    {
+     "type": "table",
+     "title": "Germ layer origin of endocrine cells",
+     "cols": [
+      "Cell or tissue",
+      "Germ layer",
+      "Embryonic source"
+     ],
+     "rows": [
+      [
+       "Thyroid follicular cells",
+       "Endoderm",
+       "Thyroid diverticulum from the pharyngeal floor at the foramen cecum"
+      ],
+      [
+       "Thyroid C cells",
+       "Neural crest (standard teaching)",
+       "Ultimobranchial body from the fourth pouch, which fuses with the thyroid"
+      ],
+      [
+       "Inferior parathyroids",
+       "Endoderm",
+       "Third pharyngeal pouch, with the thymus"
+      ],
+      [
+       "Superior parathyroids",
+       "Endoderm",
+       "Fourth pharyngeal pouch"
+      ],
+      [
+       "Pancreatic islet cells",
+       "Endoderm",
+       "Dorsal and ventral pancreatic buds of the foregut"
+      ],
+      [
+       "Adenohypophysis",
+       "Ectoderm (oral)",
+       "Rathke pouch from the roof of the stomodeum"
+      ],
+      [
+       "Neurohypophysis",
+       "Ectoderm (neuroectoderm)",
+       "Infundibulum of the diencephalon"
+      ],
+      [
+       "Adrenal cortex",
+       "Mesoderm",
+       "Coelomic epithelium near the urogenital ridge"
+      ],
+      [
+       "Adrenal chromaffin cells",
+       "Neural crest",
+       "Sympathoadrenal cells that invade the fetal cortex"
+      ]
+     ],
+     "caption": "Only the chromaffin cells and C cells of these glands come from neural crest."
+    },
+    {
+     "type": "p",
+     "text": "Neuroendocrine cells are defined by a secretory program shared with neurons, not by origin. They store amine or peptide hormones in dense-core granules whose matrix contains chromogranin A, and they carry small synaptic-like vesicles whose membrane contains synaptophysin. Chromaffin cells, C cells, and paraganglia are neural crest; islet cells, gut enteroendocrine cells, and pulmonary neuroendocrine cells are endoderm. An older view grouped all of these as neural crest derivatives, but lineage studies showed that gut and islet neuroendocrine cells arise from endoderm. A positive chromogranin or synaptophysin stain therefore shows neuroendocrine differentiation, and the specific hormone or the site tells you the cell of origin."
+    },
+    {
+     "type": "p",
+     "text": "Tumors that stain for chromogranin and synaptophysin include pheochromocytoma and paraganglioma (nests of chromaffin cells rimmed by S100-positive sustentacular cells), medullary thyroid carcinoma (calcitonin positive, often with amyloid formed from calcitonin), neuroblastoma, pancreatic neuroendocrine tumors, well-differentiated neuroendocrine (carcinoid) tumors of gut and lung, and small cell lung carcinoma, which has few dense-core granules and so often stains more consistently for synaptophysin than for chromogranin. Tumors of follicular cells (thyroglobulin positive) and of adrenal cortex (steroidogenic, not neuroendocrine) are chromogranin negative, although adrenocortical tumors can stain for synaptophysin."
+    },
+    {
+     "type": "p",
+     "text": "Origin predicts much, though not all, of the inherited syndromes. In multiple endocrine neoplasia type 2 (MEN2), an activating germline RET mutation affects neural crest derivatives and causes medullary thyroid carcinoma and pheochromocytoma; MEN2A also includes parathyroid hyperplasia even though the parathyroids are endodermal. MEN1, from loss of the tumor suppressor menin, involves parathyroid, pancreatic islet, and pituitary cells, which come from two different germ layers."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: naming a tumor from its stains",
+     "text": "A thyroid nodule shows nests of polygonal and spindle cells in a stroma containing amyloid. The cells stain for chromogranin, synaptophysin, and calcitonin, and are negative for thyroglobulin. Chromogranin and synaptophysin establish a neuroendocrine tumor but not its origin. Calcitonin identifies the C cell, and absent thyroglobulin excludes a follicular cell tumor, so this is medullary thyroid carcinoma. The amyloid is built from calcitonin, and serum calcitonin is a marker of tumor burden. Because C cells and chromaffin cells are both neural crest derivatives targeted by RET mutations, the finding raises the question of MEN2 and an associated pheochromocytoma."
+    },
+    {
+     "type": "stop",
+     "predict": "A pancreatic tumor stains strongly for chromogranin A and synaptophysin. Does that show it arose from neural crest?",
+     "explain": "No. Islet cells are endoderm, yet they use the same dense-core granule and synaptic-like vesicle proteins as neural crest cells. The stains show neuroendocrine differentiation; the hormone made (insulin, glucagon, gastrin) and the location identify the cell of origin.",
+     "check": "The derivation table and the neuroendocrine paragraph."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Histology, biochemistry, and physiology describe the same cells. A cell's appearance follows from what it makes: steroid cells are full of smooth endoplasmic reticulum and lipid because they synthesize hormone on demand from cholesterol, peptide and amine cells are full of granules because they store hormone for regulated release, and the thyroid stores its hormone as colloid outside the cells. The regulator that drives each cell is also its growth signal, so TSH, ACTH, and low Ca2+ each enlarge their target tissue, and loss of the signal shrinks it."
+  },
+  {
+   "type": "p",
+   "text": "Embryology and immunology add the rest. Germ layer origin groups cells into tumor families and inherited syndromes, and the shared neuroendocrine program explains why chromogranin and synaptophysin mark tumors from both neural crest and endoderm. Autoimmunity leaves distinct patterns: stimulating antibodies make the thyroid look overactive in Graves disease, while T cell destruction leaves atrophic follicles in Hashimoto thyroiditis and alpha and delta cell islets in type 1 diabetes. The limits matter as well: H&E cannot identify most individual hormone-secreting cells, cell proportions vary with age, physiologic state, and source, and immunostaining for the hormone itself is the definitive identification."
+  }
+ ],
+ "summary": [
+  "Thyroid follicles store hormone as colloid; tall columnar cells with scant scalloped colloid mean strong TSH receptor stimulation, as in Graves disease, while flat cells with abundant colloid mean rest.",
+  "C cells lie outside the follicle lumen, secrete calcitonin, come from the ultimobranchial body, and give rise to medullary thyroid carcinoma.",
+  "Adrenal glomerulosa, fasciculata, and reticularis make aldosterone, cortisol, and androgens because of their enzyme sets; ACTH drives the inner two zones, angiotensin II and K+ the glomerulosa.",
+  "Cortisol-rich sinusoidal blood induces PNMT, so the adrenal medulla secretes mostly epinephrine, while extra-adrenal paragangliomas usually secrete norepinephrine.",
+  "Acidophils make GH and prolactin; PAS-positive basophils make FSH, LH, ACTH, and TSH; chromophobes have few granules.",
+  "The posterior pituitary holds axons of supraoptic and paraventricular neurons, pituicytes, and Herring bodies; it stores ADH and oxytocin but makes neither.",
+  "Parathyroid chief cells secrete PTH under direct CaSR control; oxyphil cells are large mitochondria-rich cells with no established hormone.",
+  "Islet beta cells (insulin) are most numerous, alpha cells make glucagon, delta cells make somatostatin, and type 1 diabetes leaves islets of alpha and delta cells.",
+  "Chromaffin cells and C cells are neural crest; follicular cells, parathyroids, and islets are endoderm; the adenohypophysis is oral ectoderm; the adrenal cortex is mesoderm.",
+  "Chromogranin and synaptophysin mark neuroendocrine differentiation from either neural crest or endoderm; the hormone and site identify the cell of origin."
+ ],
+ "sources": [
+  {
+   "book": "Junqueira's Basic Histology",
+   "where": "Endocrine Glands"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "The Endocrine System"
+  },
+  {
+   "book": "Langman's Medical Embryology",
+   "where": "Head and Neck (pharyngeal pouches and thyroid); Central Nervous System (hypophysis)"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Adrenocortical Hormones; Thyroid Metabolic Hormones"
+  },
+  {
+   "book": "Boron and Boulpaep Medical Physiology",
+   "where": "Endocrine system sections on the adrenal gland and the parathyroid glands"
+  }
+ ],
+ "verify": [
+  "Cell proportions (adrenal zones about 15, 75, and 10%; pituitary somatotrophs about 50%; islet beta cells about 60 to 70%) vary between histology and physiology texts and are given as approximate.",
+  "Thyroid C cells are taught as neural crest derivatives; lineage tracing in mice has suggested an endodermal origin. Confirm that NABNE still expects neural crest.",
+  "Some sources place the ultimobranchial body in a fifth pharyngeal pouch or a ventral part of the fourth pouch; this chapter uses the fourth pouch.",
+  "The age at which parathyroid oxyphil cells first appear is given variously as early childhood, about age 7, or puberty; the chapter says later childhood.",
+  "The pituitary is said to enlarge up to about twice its size in pregnancy; confirm the figure if tested.",
+  "Confirm whether NABNE Part I expects the eponyms Herring bodies, Crooke hyaline change, and Hürthle cells, and the B-FLAT grouping, or only descriptive terms.",
+  "Confirm whether NABNE expects transcription factor based pituitary cell lineages (PIT1, TPIT, SF1) used in current tumor classification; this chapter uses hormone immunostaining only.",
+  "Requested new diagram names for a future revision: thyroid-follicle (resting and stimulated follicles with a C cell), adrenal-zones (capsule to medulla with products), and pituitary-lobes (anterior cell types, posterior axons, and Herring bodies)."
+ ]
+}

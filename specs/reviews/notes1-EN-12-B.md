@@ -1,0 +1,12 @@
+# Review log: notes/chapters/EN-12-B.json (Phase 1 notes)
+
+- Overview intro: removed the "added from the USMLE outline" clause (an outside syllabus reference, not chapter content); listed nonthyroidal illness and short stature plainly.
+- C03 (fact): changed "women, who depend on the adrenal for most of their androgen" to "depend on adrenal precursors for much of their androgen". In women, adrenal DHEA and androstenedione supply a large share of androgen through peripheral conversion, but "most" overstated it.
+- C07 STOP (logic): the prompt had two siblings inheriting the same GNAS mutation from different parents, which is implausible. Rewrote it as two unrelated children with an inactivating GNAS mutation. The answer is unchanged.
+- C08 (competency wording): empty sella now says the arachnoid and its CSF-filled subarachnoid space herniate through the defective diaphragma sellae, to match the competency ("arachnoid herniation").
+- C13 table (fact): reverse T3 in primary and central hypothyroidism changed from "Low" to "Low or normal". Reverse T3 is often in the normal range in hypothyroidism.
+- Length: trimmed C12 ("This explains why most affected newborns look normal at birth.") and C14 ("Other causes include") to offset the added words. The checker word count went from 6858 to 6857, so the chapter is not longer.
+- Verified with no change: ADH/V2/aquaporin pathway, DI causes (including lithium via ENaC), water deprivation logic and worked example arithmetic, APS-1 and APS-2 components, aldosterone and cortisol mechanisms, adrenal vascular anatomy, Waterhouse-Friderichsen, cosyntropin timing in secondary disease, hypocalcemia sodium-channel threshold effect, Chvostek and Trousseau signs, phase 2/QT effect, albumin correction, calcium and phosphate ranges, GNAS imprinting and the type 1a/1b/pseudopseudo table, hypopituitarism causes and order of loss, stalk effect, craniopharyngioma features, iodine requirement, mechanisms of hypothyroid signs, TSH/free T4 ranges and patterns, hypothyroid hyperprolactinemia, thyroid embryology and congenital causes, deiodinase types and tissues, GH/IGF-1 axis and the short stature table, and source chapter titles.
+- Scope: no treatment content found. Desmopressin and antithyroid drugs appear only as test or mechanism.
+- Checker: 0 errors, 0 warnings. No en or em dashes.
+- Verify list: unchanged (already honest); nothing new moved to verify.

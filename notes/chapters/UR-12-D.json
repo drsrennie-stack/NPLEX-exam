@@ -97,7 +97,7 @@
    "blocks": [
     {
      "type": "p",
-     "text": "The renal interstitium is the connective tissue space between tubules and peritubular capillaries. Inflammation there injures tubules and compresses peritubular blood flow, so tubular function and glomerular filtration rate (GFR) fall even though the glomeruli themselves are normal. Acute interstitial nephritis (AIN) has several causes, including infection and systemic immune diseases, but drugs are the most common cause in adults."
+     "text": "The renal interstitium is the connective tissue space between tubules and peritubular capillaries. Inflammation there injures tubules and compresses peritubular blood flow, so tubular function and glomerular filtration rate (GFR) fall even though the glomeruli themselves are normal. Drugs are the most common cause of acute interstitial nephritis (AIN) in adults; infections and systemic immune diseases cause most of the rest."
     },
     {
      "type": "h",
@@ -165,7 +165,7 @@
     },
     {
      "type": "p",
-     "text": "Systemic hypersensitivity produces fever, a maculopapular rash, and blood eosinophilia, but the full triad appears in only a minority of patients, and NSAID-induced AIN often lacks all three. The renal findings follow from where the inflammation sits. Leukocytes cross into the tubule lumen, giving sterile pyuria, and become trapped in Tamm-Horsfall protein to form WBC casts, which place the inflammation inside the kidney. Injured tubules fail to reclaim filtered low molecular weight protein, giving mild proteinuria, and may cause microscopic hematuria, sodium wasting, hyperkalemia, or a normal anion gap acidosis. Edema can enlarge the kidneys. Urine eosinophils are neither sensitive nor specific. Creatinine usually returns toward baseline over weeks once the drug is stopped; prolonged exposure leaves interstitial fibrosis and chronic kidney disease."
+     "text": "Systemic hypersensitivity produces fever, a maculopapular rash, and blood eosinophilia, but the full triad appears in only a minority of patients, and NSAID-induced AIN, which may appear only after months of use, often lacks all three. Leukocytes cross into the tubule lumen, giving sterile pyuria, and become trapped in Tamm-Horsfall protein to form WBC casts, which place the inflammation inside the kidney. Microscopic hematuria is common. Injured tubules fail to reclaim filtered low molecular weight protein, giving mild proteinuria, and may waste sodium or cause hyperkalemia or a normal anion gap acidosis. Edema can enlarge the kidneys. Urine eosinophils are neither sensitive nor specific. Creatinine usually returns toward baseline over weeks once the drug is stopped; prolonged exposure leaves interstitial fibrosis and chronic kidney disease."
     },
     {
      "type": "table",
@@ -199,7 +199,7 @@
        "Glomerulonephritis",
        "Negative",
        "Dysmorphic RBCs and RBC casts",
-       "Hypertension, edema, active sediment"
+       "Hypertension and edema"
       ]
      ],
      "caption": "WBC casts localize inflammation to the kidney; RBC casts localize bleeding to the glomerulus."
@@ -207,7 +207,7 @@
     {
      "type": "stop",
      "predict": "A patient has pyuria and WBC casts, a negative culture, and no rash or eosinophilia, and has taken an NSAID daily for 4 months. Can this be AIN?",
-     "explain": "Yes. AIN is defined by interstitial inflammation, not by the systemic triad. NSAID-induced AIN often begins after months and usually lacks fever, rash, and eosinophilia, and it may be accompanied by nephrotic-range proteinuria from a minimal change lesion.",
+     "explain": "Yes. AIN is defined by interstitial inflammation, not by the systemic triad, and NSAID-induced AIN often appears after months without fever, rash, or eosinophilia, sometimes with minimal change proteinuria.",
      "check": "The paragraph on manifestations and the NSAID exception in the histology paragraph."
     }
    ]
@@ -219,7 +219,7 @@
    "blocks": [
     {
      "type": "p",
-     "text": "The renal papilla is the tip of a medullary pyramid, where collecting ducts empty into a minor calyx. Its only blood supply is the vasa recta, long hairpin capillaries that descend from efferent arterioles of juxtamedullary glomeruli. Medullary flow is a small fraction of renal blood flow and moves slowly, which preserves the countercurrent concentration gradient but leaves the papilla hypoxic and hypertonic even in health. Medullary interstitial cells make vasodilating prostaglandins (PGE2 and PGI2) that help sustain this flow, especially when renal perfusion falls."
+     "text": "The renal papilla is the tip of a medullary pyramid, where collecting ducts empty into a minor calyx. Its only blood supply is the vasa recta, long hairpin capillaries that descend from efferent arterioles of juxtamedullary glomeruli. Medullary flow is a small fraction of renal blood flow and moves slowly, which preserves the countercurrent concentration gradient but leaves the papilla hypoxic and hypertonic even in health. Medullary interstitial cells make vasodilating prostaglandins, mainly PGE2, that help sustain this flow, especially when renal perfusion falls."
     },
     {
      "type": "h",
@@ -227,7 +227,7 @@
     },
     {
      "type": "p",
-     "text": "Analgesic nephropathy follows years of heavy use of combination analgesics, classically phenacetin with aspirin and caffeine. Phenacetin is metabolized to acetaminophen, which the countercurrent system concentrates in the papilla. There its oxidative metabolites injure cells. Aspirin adds two insults: it depletes glutathione, the main defense against those metabolites, and it inhibits cyclooxygenase, removing prostaglandin vasodilation from an already marginal circulation. The combination is therefore more damaging than either drug alone. The papillae die first; the cortex that drains through each necrotic papilla then undergoes tubular atrophy and interstitial fibrosis, giving chronic tubulointerstitial nephritis."
+     "text": "Analgesic nephropathy follows years of heavy use of combination analgesics, classically phenacetin with aspirin and caffeine. Phenacetin is metabolized to acetaminophen, which the countercurrent system concentrates in the papilla. There its reactive metabolites exhaust glutathione and cause oxidative injury. Aspirin inhibits cyclooxygenase, removing prostaglandin vasodilation from an already marginal circulation. The combination is therefore more damaging than either drug alone. The papillae die first; the cortex that drains through each necrotic papilla then undergoes tubular atrophy and interstitial fibrosis, giving chronic tubulointerstitial nephritis."
     },
     {
      "type": "flow",
@@ -235,7 +235,7 @@
      "steps": [
       "Years of combination analgesic use",
       "Acetaminophen concentrated in the papilla by countercurrent",
-      "Aspirin depletes glutathione; oxidative injury proceeds",
+      "Reactive metabolites exhaust glutathione; oxidative injury",
       "Aspirin blocks prostaglandin vasodilation; papillary ischemia",
       "Papillary necrosis",
       "Overlying cortex atrophies and scars"
@@ -284,7 +284,7 @@
     {
      "type": "example",
      "title": "Hematuria in sickle cell trait",
-     "text": "A 22-year-old man with sickle cell trait has painless gross hematuria and passes a small piece of tissue. His first morning urine is dilute. Step 1: in sickle cell trait less than half of each red cell's hemoglobin is hemoglobin S, so sickling elsewhere needs extreme conditions. Step 2: the papilla is the exception; low oxygen tension, high osmolality, and low pH there promote polymerization of hemoglobin S. Step 3: sickled cells occlude the slow vasa recta, so the papillary tip infarcts and can slough, causing bleeding. Step 4: vasa recta loss also dissipates the medullary gradient, so the urine cannot be concentrated even before papillae slough. The same medullary conditions explain papillary necrosis from analgesics and diabetes."
+     "text": "A 22-year-old man with sickle cell trait has painless gross hematuria and passes a small piece of tissue. His first morning urine is dilute. Step 1: in sickle cell trait less than half of each red cell's hemoglobin is hemoglobin S, so sickling elsewhere needs extreme conditions. Step 2: the papilla is the exception; low oxygen tension, high osmolality, and low pH there promote polymerization of hemoglobin S. Step 3: sickled cells occlude the slow vasa recta, so the papillary tip infarcts and can slough, causing bleeding. Step 4: vasa recta loss also dissipates the medullary gradient, so the urine cannot be concentrated even before papillae slough. The same slow, hypoxic medullary circulation is why analgesics and diabetes also target the papilla."
     }
    ]
   },
@@ -407,7 +407,7 @@
     },
     {
      "type": "p",
-     "text": "Patients present with flank pain, fever, malaise, weight loss, a palpable mass, and a history of recurrent urinary infection, often with anemia and leukocytosis. Imaging shows an enlarged kidney that does not function, with a stone and a mass. Each of these features can also be explained by renal cell carcinoma, which is why the lesion is a classic mimic. The resemblance extends to the microscope, where pale foamy macrophages can look like the clear cells of clear cell renal cell carcinoma. Immunohistochemistry separates them: macrophages express the histiocyte marker CD68, whereas carcinoma cells express epithelial markers such as cytokeratin and PAX8. Malakoplakia, another macrophage disorder of the urinary tract linked to defective bacterial killing, is distinguished by Michaelis-Gutmann bodies, which xanthogranulomatous pyelonephritis lacks."
+     "text": "Patients present with flank pain, fever, malaise, weight loss, a palpable mass, and a history of recurrent urinary infection, often with anemia and leukocytosis. Imaging shows an enlarged kidney that does not function, with a stone and a mass. Renal cell carcinoma can produce every one of these features, so the lesion is a classic mimic. The resemblance extends to the microscope, where pale foamy macrophages can look like the clear cells of clear cell renal cell carcinoma. Immunohistochemistry separates them: macrophages express the histiocyte marker CD68, whereas carcinoma cells express epithelial markers such as cytokeratin and PAX8. Malakoplakia, another macrophage disorder of the urinary tract linked to defective bacterial killing, is distinguished by Michaelis-Gutmann bodies, which xanthogranulomatous pyelonephritis lacks."
     },
     {
      "type": "table",
@@ -475,7 +475,7 @@
     },
     {
      "type": "p",
-     "text": "Patients fall into two broad groups at cystoscopy. A minority have Hunner lesions, reddened mucosal areas with small vessels radiating toward a central scar, which may crack and bleed when the bladder is distended. Biopsies from this group show chronic inflammation with lymphocytes and plasma cells, granulation tissue, and increased mast cells in the detrusor, and advanced cases develop transmural fibrosis and a small, contracted bladder. The larger group has a normal-looking bladder or only petechial hemorrhages after distention, a nonspecific finding."
+     "text": "Patients fall into two broad groups at cystoscopy. A minority have Hunner lesions (formerly Hunner ulcers), reddened mucosal areas with small vessels radiating toward a central scar, which may crack and bleed when the bladder is distended. Biopsies from this group show chronic inflammation with lymphocytes and plasma cells, granulation tissue, and increased mast cells in the detrusor, and advanced cases develop transmural fibrosis and a small, contracted bladder. The larger group has a normal-looking bladder or only petechial hemorrhages after distention, a nonspecific finding."
     },
     {
      "type": "p",
@@ -527,7 +527,7 @@
   },
   {
    "type": "p",
-   "text": "Pathology ties them together as tubulointerstitial disease: inflammation between tubules produces pyuria, WBC casts, tubular proteinuria, and polyuria rather than the RBC casts and heavy proteinuria of glomerular disease, until secondary glomerulosclerosis develops late. The limits matter. The hypersensitivity triad is often absent, thyroidization is not specific, foamy cells can mimic carcinoma, and interstitial cystitis has no confirmatory test, so each diagnosis rests on the full pattern rather than a single finding."
+   "text": "Pathology ties them together as tubulointerstitial disease: inflammation between tubules produces pyuria, WBC casts, tubular proteinuria, and polyuria rather than the RBC casts and heavy proteinuria of glomerular disease, until secondary glomerulosclerosis develops late. The hypersensitivity triad is often absent, thyroidization is not specific, foamy cells can mimic carcinoma, and interstitial cystitis has no confirmatory test, so each diagnosis rests on the full pattern rather than a single finding."
   }
  ],
  "summary": [
@@ -537,7 +537,7 @@
   "The papilla is the most poorly perfused part of the kidney, which is why it dies first from analgesics, diabetes, sickle cell disease or trait, severe pyelonephritis, and obstruction.",
   "Analgesic nephropathy combines concentrated acetaminophen metabolites, glutathione depletion, and loss of prostaglandin vasodilation, and it raises the risk of urothelial carcinoma of the renal pelvis.",
   "Chronic pyelonephritis arises from reflux or obstruction with recurrent infection and produces coarse, asymmetric scars over blunted calyces, worst at the poles in reflux.",
-  "Thyroidization (dilated tubules filled with eosinophilic casts) with calyceal deformity is the classic histology; hypertension, polyuria, and secondary FSGS follow.",
+  "Thyroidization (dilated tubules filled with eosinophilic casts) with calyceal deformity is the classic pattern; hypertension, polyuria, and secondary FSGS follow.",
   "Xanthogranulomatous pyelonephritis is unilateral destruction by foamy macrophages behind an obstructing stone, usually with Proteus, and mimics clear cell renal cell carcinoma.",
   "Interstitial cystitis is chronic bladder pain that rises with filling, with urgency, frequency, and negative cultures, mostly in women; a minority have Hunner lesions, and it is a diagnosis of exclusion."
  ],
@@ -571,6 +571,7 @@
   "Onset of drug-induced AIN is given as about 2 weeks (Robbins gives an average near 15 days with a wide range); NSAID cases can begin after months. Confirm the timing NABNE expects.",
   "The proportion of AIN patients with the full triad of fever, rash, and eosinophilia is quoted from about 5% to 10% in some sources and higher in older series; this chapter states only that it is a minority.",
   "Phenacetin has been withdrawn in many countries; confirm whether NABNE expects phenacetin by name and whether it tests analgesic nephropathy from single-agent NSAIDs or acetaminophen, where the evidence is less consistent.",
+  "Some sources add salicylate-induced glutathione depletion in analgesic nephropathy; this chapter states only aspirin's prostaglandin inhibition.",
   "The proportion of interstitial cystitis patients with Hunner lesions varies widely among series (roughly 5% to 50% depending on population and definition); confirm the figure NABNE uses, if any.",
   "Symptom-duration criteria for interstitial cystitis (for example more than 6 weeks in some guidelines and 6 months in others) differ between organizations.",
   "Confirm whether NABNE expects the eponyms Hunner lesion, Tamm-Horsfall protein (uromodulin), and Michaelis-Gutmann bodies, or only the descriptive terms.",

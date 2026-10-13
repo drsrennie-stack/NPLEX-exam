@@ -1,0 +1,580 @@
+{
+ "unit": "EN-5",
+ "chapter_id": "NPLEX-P1-ENDO-05",
+ "topic_id": "NPLEX-P1-ENDO-05-01",
+ "title": "Endocrine Organ Function and Control",
+ "subject": "Endocrine System (ENDO)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter explains what switches the major hormones on and off and what each one does at its target. It covers hypothalamic control of the anterior pituitary and the effect of cutting the pituitary stalk, ADH control of water balance, PTH and calcium, aldosterone and potassium, the steps of glucose-stimulated insulin secretion, and the hormones that defend blood glucose. Board questions usually give a lab pattern or a lesion and ask you to predict the hormone change or name the cell, receptor, or channel responsible. If you can trace each hormone from its stimulus to its cellular action, you can reason through the electrolyte, glucose, and pituitary questions in this area.",
+  "prerequisites": [
+   "G protein signaling (Gs, Gi, Gq), cAMP, protein kinase A, and intracellular steroid receptors",
+   "Nephron segments and the medullary osmotic gradient",
+   "Membrane potential, K+ channels, and voltage-gated Ca2+ channels",
+   "Glycogen metabolism, gluconeogenesis, and the fed and fasting states",
+   "Anatomy and blood supply of the hypothalamus and pituitary (EN-3, EN-4)"
+  ],
+  "connections": [
+   {
+    "to": "Hormone action, transport, and feedback (EN-6)",
+    "how": "The feedback loops in this chapter are what let a pair of lab values locate a disorder at the hypothalamus, pituitary, or target gland."
+   },
+   {
+    "to": "Renal physiology",
+    "how": "ADH and aldosterone both act on collecting duct principal cells, one controlling water and the other sodium and potassium."
+   },
+   {
+    "to": "Endocrine biochemistry (EN-7)",
+    "how": "Insulin, glucagon, and epinephrine act by phosphorylating the enzymes of glycogen metabolism and gluconeogenesis."
+   },
+   {
+    "to": "Endocrine hyperfunction and hypofunction (EN-12-A, EN-12-B)",
+    "how": "SIADH, diabetes insipidus, hyperparathyroidism, hyperaldosteronism, and hypopituitarism are failures of the control systems taught here."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Hypophyseal portal system",
+    "def": "Capillaries in the median eminence drained by veins in the pituitary stalk into a second capillary bed in the anterior pituitary."
+   },
+   {
+    "term": "Stalk effect",
+    "def": "Rise in prolactin when a lesion interrupts dopamine delivery from the hypothalamus to the lactotrophs."
+   },
+   {
+    "term": "Effective osmole",
+    "def": "A solute that cannot freely cross cell membranes and therefore moves water between compartments, such as sodium or glucose."
+   },
+   {
+    "term": "Aquaporin-2",
+    "def": "Water channel stored in vesicles in collecting duct principal cells and inserted into the luminal membrane in response to ADH."
+   },
+   {
+    "term": "Calcium-sensing receptor",
+    "def": "G protein coupled receptor on parathyroid chief cells and thick ascending limb cells that is activated by extracellular ionized calcium."
+   },
+   {
+    "term": "RANKL",
+    "def": "Osteoblast surface protein that binds RANK on osteoclast precursors and drives osteoclast formation and activity."
+   },
+   {
+    "term": "Calcitriol",
+    "def": "1,25-dihydroxyvitamin D, the active vitamin D hormone made by 1-alpha-hydroxylase in the proximal tubule."
+   },
+   {
+    "term": "ENaC",
+    "def": "Epithelial sodium channel in the luminal membrane of collecting duct principal cells, increased by aldosterone."
+   },
+   {
+    "term": "Glucokinase",
+    "def": "Hexokinase IV of liver and beta cells, with low glucose affinity and no product inhibition, which lets it act as a glucose sensor."
+   },
+   {
+    "term": "K-ATP channel",
+    "def": "ATP-sensitive K+ channel of the beta cell, built from Kir6.2 and SUR1 subunits, that closes when the ATP to ADP ratio rises."
+   },
+   {
+    "term": "Incretin effect",
+    "def": "The greater insulin response to oral glucose than to intravenous glucose producing the same blood glucose, caused by gut hormones."
+   },
+   {
+    "term": "Counterregulation",
+    "def": "The hormonal responses that prevent or correct a fall in blood glucose."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-ENDO-05-01-C01",
+   "obj": "EN-5.1",
+   "title": "Hypothalamic control of the anterior pituitary and pituitary stalk section",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The hypothalamus controls the anterior pituitary (adenohypophysis) through blood rather than nerves. Small neurons in the paraventricular, arcuate, and nearby nuclei release peptides and dopamine into the primary capillary plexus of the median eminence, supplied by the superior hypophyseal arteries. Portal veins in the pituitary stalk carry this blood to a second capillary bed in the anterior lobe, so the hypothalamic hormones reach their target cells at high concentration before they are diluted in the general circulation. The posterior pituitary (neurohypophysis) works differently: it is made of axons from the supraoptic and paraventricular nuclei that release ADH and oxytocin directly into its capillaries."
+    },
+    {
+     "type": "p",
+     "text": "Four hypothalamic hormones are stimulatory. TRH, CRH, GnRH, and GHRH each drive a main target cell, so TSH, ACTH, LH, FSH, and GH all depend on continuous hypothalamic input. GnRH must arrive in pulses; continuous exposure downregulates its receptor and suppresses LH and FSH. Two hormones inhibit. Somatostatin restrains GH and, to a lesser degree, TSH. Dopamine from the tuberoinfundibular neurons of the arcuate nucleus acts on D2 receptors (Gi, lowering cAMP) on lactotrophs and is the dominant control of prolactin, which makes prolactin the only anterior pituitary hormone held mainly under tonic inhibition. TRH also stimulates lactotrophs, which is why primary hypothyroidism, with high TRH, can raise prolactin."
+    },
+    {
+     "type": "table",
+     "title": "Hypothalamic hormones and their anterior pituitary targets",
+     "cols": [
+      "Hypothalamic hormone",
+      "Main source",
+      "Receptor signal",
+      "Target cell",
+      "Effect",
+      "After stalk section"
+     ],
+     "rows": [
+      [
+       "TRH",
+       "Paraventricular nucleus",
+       "Gq",
+       "Thyrotrophs (also lactotrophs)",
+       "Raises TSH (and prolactin)",
+       "TSH falls"
+      ],
+      [
+       "CRH",
+       "Paraventricular nucleus",
+       "Gs",
+       "Corticotrophs",
+       "Raises ACTH",
+       "ACTH falls"
+      ],
+      [
+       "GnRH",
+       "Preoptic area and arcuate nucleus",
+       "Gq",
+       "Gonadotrophs",
+       "Raises LH and FSH when pulsatile",
+       "LH and FSH fall"
+      ],
+      [
+       "GHRH",
+       "Arcuate nucleus",
+       "Gs",
+       "Somatotrophs",
+       "Raises GH",
+       "GH falls"
+      ],
+      [
+       "Somatostatin",
+       "Periventricular nucleus",
+       "Gi",
+       "Somatotrophs and thyrotrophs",
+       "Lowers GH and TSH",
+       "Inhibition lost, but outweighed by loss of GHRH and TRH"
+      ],
+      [
+       "Dopamine",
+       "Arcuate nucleus (tuberoinfundibular)",
+       "Gi (D2)",
+       "Lactotrophs",
+       "Lowers prolactin",
+       "Prolactin rises"
+      ]
+     ],
+     "caption": "After stalk section every anterior pituitary hormone falls except prolactin, which escapes dopamine inhibition."
+    },
+    {
+     "type": "p",
+     "text": "Pituitary stalk section, from trauma, surgery, or a mass compressing the stalk, interrupts portal flow. TSH, ACTH, LH, FSH, and GH fall, followed by their target hormones: secondary hypothyroidism, low cortisol, hypogonadism, and low IGF-1. Prolactin rises because the lactotrophs are freed from dopamine, usually only modestly. Aldosterone is largely preserved because angiotensin II and potassium, not ACTH, are its main controls (C04)."
+    },
+    {
+     "type": "p",
+     "text": "Section also cuts the supraoptic and paraventricular axons, so ADH can no longer reach the posterior lobe and central diabetes insipidus follows, with large volumes of dilute urine. The classic course is triphasic: diabetes insipidus within a day or two as the axons stop conducting, then several days of unregulated ADH release with water retention as the cut terminals degenerate and leak stored hormone, then permanent diabetes insipidus if enough cell bodies die. A cut close to the hypothalamus kills more neurons and makes permanent diabetes insipidus more likely; after a low cut, surviving axons can release ADH from the stump and median eminence."
+    },
+    {
+     "type": "example",
+     "title": "Predicting the lab pattern after stalk section",
+     "text": "A man's pituitary stalk is transected in a car crash. Work hormone by hormone. TSH, ACTH, LH, FSH, and GH all need a stimulatory releasing hormone, so all fall, and free T4, cortisol, testosterone, and IGF-1 fall with them. Prolactin is held down by dopamine, so losing portal blood raises it. Aldosterone stays near normal because angiotensin II and potassium still drive the zona glomerulosa, so he does not develop hyperkalemia. ADH axons are cut, so within a day or two he passes several liters of dilute urine and his serum sodium rises if he cannot drink enough. About a week later his sodium may fall as degenerating terminals release stored ADH, before diabetes insipidus returns."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-05-01-C02",
+   "obj": "EN-5.2",
+   "title": "Control and renal action of ADH",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "ADH (arginine vasopressin) is made in large neurons of the supraoptic and paraventricular nuclei as a prohormone with its carrier protein neurophysin II, transported down the axons, and released from the posterior pituitary when the neurons fire. Its job is to set free water excretion by the kidney so that plasma osmolality stays near about 285 mOsm/kg (reference about 275 to 295 mOsm/kg)."
+    },
+    {
+     "type": "h",
+     "text": "Osmotic control"
+    },
+    {
+     "type": "p",
+     "text": "Osmoreceptors are neurons in the organum vasculosum of the lamina terminalis and the subfornical organ, circumventricular organs that lack a blood brain barrier and so sense plasma directly. When effective osmolality rises, water leaves these cells, they shrink, stretch-inactivated cation channels open, and they signal the ADH neurons and the thirst center. Above a threshold near 280 mOsm/kg, plasma ADH rises in proportion to osmolality, and a change of about 1% is enough to alter release. Only effective osmoles shrink the osmoreceptors. Sodium and its anions, glucose in insulin deficiency, and mannitol stimulate ADH, but urea crosses cell membranes freely and is a weak stimulus even though it raises measured osmolality."
+    },
+    {
+     "type": "h",
+     "text": "Volume and pressure control"
+    },
+    {
+     "type": "p",
+     "text": "Stretch receptors in the atria and great veins and arterial baroreceptors in the carotid sinus and aortic arch tonically inhibit ADH release through vagal and glossopharyngeal afferents to the nucleus tractus solitarius. A fall in blood volume or pressure removes this inhibition. This pathway is insensitive, needing roughly a 5% to 10% fall, but once triggered it raises ADH far above the levels osmolality produces, and it lowers the osmotic threshold. That is why volume wins when the two signals conflict: a hypovolemic patient keeps releasing ADH and retains water even while hyponatremic. Nausea, pain, stress, angiotensin II, and hypoglycemia also stimulate ADH, and ethanol inhibits it."
+    },
+    {
+     "type": "flow",
+     "title": "From stimulus to concentrated urine",
+     "steps": [
+      "Plasma osmolality rises or blood volume falls",
+      "Osmoreceptors fire; baroreceptor inhibition is removed",
+      "ADH released from posterior pituitary",
+      "ADH binds V2 receptors on principal cells (Gs, cAMP, PKA)",
+      "PKA phosphorylates aquaporin-2; vesicles fuse with luminal membrane",
+      "Water exits to blood through basolateral aquaporin-3 and aquaporin-4",
+      "Urine concentrates; plasma osmolality falls toward normal"
+     ],
+     "caption": "Water moves only if the medullary interstitium is hypertonic; ADH supplies the permeability, and the loop of Henle supplies the gradient."
+    },
+    {
+     "type": "p",
+     "text": "Without ADH the luminal membrane of the principal cell is nearly impermeable to water, so dilute fluid leaving the thick ascending limb passes through and urine osmolality can fall to about 50 mOsm/kg. With maximal ADH, collecting duct fluid equilibrates with the medullary interstitium and urine reaches about 1200 mOsm/kg. Sustained ADH also increases aquaporin-2 synthesis, inserts urea transporters in the inner medullary collecting duct, and stimulates NKCC2 in the thick ascending limb, which together maintain the medullary gradient. At higher concentrations ADH acts on V1 receptors (Gq) on vascular smooth muscle to cause vasoconstriction."
+    },
+    {
+     "type": "p",
+     "text": "Absent ADH release (central diabetes insipidus) or absent renal response (nephrogenic diabetes insipidus, from V2 or aquaporin-2 mutations, lithium, hypercalcemia, or hypokalemia) produces polyuria of dilute urine and a tendency to hypernatremia. Only the central form concentrates urine after exogenous ADH, because the receptor pathway is intact. ADH release unchecked by osmolality (SIADH) produces inappropriately concentrated urine and dilutional hyponatremia."
+    },
+    {
+     "type": "stop",
+     "predict": "Two patients each have a plasma osmolality of 310 mOsm/kg. In one the cause is hypernatremia; in the other it is a high blood urea from kidney failure. Which one has strong thirst and high ADH?",
+     "explain": "The hypernatremic patient. Sodium is an effective osmole that pulls water out of osmoreceptor cells and shrinks them; urea enters cells as easily as it leaves, so it raises measured osmolality without shrinking the receptors.",
+     "check": "Osmotic control: the paragraph on effective osmoles."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-05-01-C03",
+   "obj": "EN-5.3",
+   "title": "Calcium homeostasis: PTH, calcitriol, and calcitonin",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Total serum calcium is about 8.5 to 10.5 mg/dL (about 2.1 to 2.6 mmol/L). About 45% is ionized, about 40% is bound to albumin, and the rest is complexed with anions such as citrate and phosphate. Only ionized calcium (about 4.5 to 5.3 mg/dL, or 1.1 to 1.3 mmol/L) is sensed by the parathyroid and controls nerve and muscle excitability. Low albumin lowers total calcium without changing the ionized fraction. Alkalosis removes H+ from albumin, exposing negative sites that bind more calcium, so acute hyperventilation lowers ionized calcium and can cause tetany."
+    },
+    {
+     "type": "p",
+     "text": "Parathyroid chief cells carry the calcium-sensing receptor, a G protein coupled receptor (Gq and Gi) activated by ionized calcium. Activation suppresses PTH secretion and PTH gene transcription. The relation is a steep inverse sigmoid curve, so a small fall in ionized calcium releases stored PTH within minutes. Severe hypomagnesemia impairs both PTH secretion and PTH action, causing hypocalcemia that persists while magnesium stays low."
+    },
+    {
+     "type": "table",
+     "title": "Actions of PTH",
+     "cols": [
+      "Site",
+      "Mechanism",
+      "Result"
+     ],
+     "rows": [
+      [
+       "Bone",
+       "PTH1 receptor on osteoblasts raises RANKL and lowers osteoprotegerin, activating osteoclasts",
+       "Calcium and phosphate released into blood"
+      ],
+      [
+       "Distal convoluted tubule",
+       "More luminal TRPV5 calcium channels and basolateral calcium extrusion",
+       "More calcium reabsorbed"
+      ],
+      [
+       "Proximal tubule",
+       "Removes sodium-phosphate cotransporters (NaPi-IIa, NaPi-IIc) from the luminal membrane",
+       "Phosphate excreted in urine"
+      ],
+      [
+       "Proximal tubule",
+       "Induces 1-alpha-hydroxylase, converting 25-hydroxyvitamin D to calcitriol",
+       "Gut calcium and phosphate absorption rises over a day or more"
+      ]
+     ],
+     "caption": "PTH acts on osteoclasts only indirectly, through osteoblasts. The kidney responds within minutes, osteoclastic bone resorption builds over hours to days, and gut absorption through calcitriol is slowest."
+    },
+    {
+     "type": "cycle",
+     "title": "Calcium feedback loop",
+     "steps": [
+      "Ionized calcium falls",
+      "Calcium-sensing receptor on chief cells less active",
+      "PTH secretion rises",
+      "Bone resorption and distal calcium reabsorption increase",
+      "Calcitriol rises and gut absorbs more calcium",
+      "Ionized calcium rises and suppresses PTH"
+     ],
+     "caption": "Calcitriol also suppresses PTH gene transcription, adding a second negative feedback signal."
+    },
+    {
+     "type": "p",
+     "text": "Phosphate wasting is built into PTH action. Bone resorption releases calcium and phosphate together; if the phosphate were retained, it would complex with calcium and blunt the rise in free calcium. By blocking proximal phosphate reabsorption, PTH raises serum calcium and lowers serum phosphate. Calcitriol, acting on the gut, raises both. FGF23 from osteocytes adds phosphate control by promoting phosphaturia and inhibiting 1-alpha-hydroxylase."
+    },
+    {
+     "type": "p",
+     "text": "Calcitonin from the parafollicular C cells of the thyroid is released when calcium rises. It binds receptors on osteoclasts (mainly Gs, cAMP), which retract and stop resorbing bone, and it mildly increases renal calcium excretion. Its role in adult calcium balance is minor: serum calcium stays normal after total thyroidectomy and in medullary thyroid carcinoma, despite absent or very high calcitonin."
+    },
+    {
+     "type": "p",
+     "text": "In primary hyperparathyroidism, calcium is high, phosphate low, and PTH high or inappropriately normal. Urinary calcium is often high, because the filtered calcium load exceeds the increase in distal reabsorption. In hypoparathyroidism calcium is low and phosphate high. An inactivating calcium-sensing receptor mutation (familial hypocalciuric hypercalcemia) raises the set point, giving mild hypercalcemia with low urinary calcium, because the same receptor in the thick ascending limb no longer limits calcium reabsorption."
+    },
+    {
+     "type": "example",
+     "title": "Correcting total calcium for albumin",
+     "text": "A malnourished patient has total calcium 7.6 mg/dL and albumin 2.0 g/dL, with no tetany. Each 1 g/dL fall in albumin below 4.0 g/dL lowers total calcium by about 0.8 mg/dL, because less calcium is bound. Corrected calcium = 7.6 + 0.8 x (4.0 minus 2.0) = 9.2 mg/dL, which is normal. The ionized fraction, the part the calcium-sensing receptor detects, is probably normal, so PTH should not be raised and there are no symptoms. The correction is only an estimate; when the result matters, measure ionized calcium directly."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-05-01-C04",
+   "obj": "EN-5.4",
+   "title": "Regulation and collecting duct actions of aldosterone",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Aldosterone is made only in the zona glomerulosa, the one adrenal cortical zone that expresses aldosterone synthase (CYP11B2). Two signals control it. Angiotensin II binds AT1 receptors (Gq), raising intracellular calcium and increasing both the early steps of steroid synthesis and aldosterone synthase. A rise in serum potassium acts directly: glomerulosa cell membrane potential is set mainly by K+ conductance, so a small increase in extracellular K+ depolarizes the cell, opens voltage-gated Ca2+ channels, and stimulates synthesis. This gives the body a potassium feedback loop that works independently of volume. ACTH raises aldosterone only briefly, which is why aldosterone is preserved in pituitary failure but lost when the adrenal cortex itself is destroyed."
+    },
+    {
+     "type": "table",
+     "title": "Regulators of aldosterone secretion",
+     "cols": [
+      "Regulator",
+      "Signal in glomerulosa cell",
+      "Effect",
+      "Consequence"
+     ],
+     "rows": [
+      [
+       "Angiotensin II",
+       "AT1 receptor, Gq, Ca2+",
+       "Strong stimulation",
+       "Aldosterone rises when renal perfusion or volume falls"
+      ],
+      [
+       "High serum K+",
+       "Depolarization, Ca2+ influx",
+       "Strong stimulation",
+       "K+ feedback loop separate from volume"
+      ],
+      [
+       "ACTH",
+       "MC2 receptor, Gs, cAMP",
+       "Small, transient stimulation",
+       "Aldosterone near normal in secondary adrenal insufficiency"
+      ],
+      [
+       "ANP",
+       "Natriuretic peptide receptor, cGMP",
+       "Inhibition",
+       "Volume expansion lowers aldosterone"
+      ]
+     ],
+     "caption": "Angiotensin II and potassium are the main controls; ACTH is a minor one."
+    },
+    {
+     "type": "flow",
+     "title": "Aldosterone action in the collecting duct",
+     "steps": [
+      "Aldosterone enters principal cell and binds mineralocorticoid receptor",
+      "Receptor complex enters nucleus; SGK1 and other genes induced",
+      "More luminal ENaC channels and basolateral Na+/K+-ATPase pumps",
+      "Na+ reabsorbed; lumen becomes electrically negative",
+      "K+ secreted through luminal ROMK channels",
+      "Alpha intercalated cells secrete more H+",
+      "Net: Na+ retained; K+ and H+ lost in urine"
+     ],
+     "caption": "The lumen-negative voltage created by sodium reabsorption links sodium retention to potassium and hydrogen ion loss."
+    },
+    {
+     "type": "p",
+     "text": "The mineralocorticoid receptor is an intracellular receptor that acts as a transcription factor. Cortisol binds it as well as aldosterone does and circulates at much higher concentration, so principal cells express 11-beta-hydroxysteroid dehydrogenase type 2, which converts cortisol to inactive cortisone and leaves the receptor to aldosterone. Inhibiting this enzyme, as glycyrrhetinic acid in licorice does, lets cortisol act as a mineralocorticoid."
+    },
+    {
+     "type": "p",
+     "text": "Aldosterone induces SGK1, a kinase that phosphorylates the ubiquitin ligase Nedd4-2 and so prevents ENaC from being removed from the luminal membrane. It also increases Na+/K+-ATPase, which pumps 3 Na+ out and 2 K+ into the cell across the basolateral membrane, keeping intracellular Na+ low and K+ high. Na+ then enters through ENaC down its gradient. Because Na+ is reabsorbed faster than anions follow, the lumen becomes negative, and this voltage drives K+ out of the cell through ROMK channels. Potassium secretion also rises with distal Na+ delivery and tubular flow."
+    },
+    {
+     "type": "p",
+     "text": "Alpha intercalated cells secrete H+ into the lumen through an apical H+-ATPase and H+/K+-ATPase and return new bicarbonate to the blood through a basolateral Cl-/HCO3- exchanger (AE1). Aldosterone stimulates the H+-ATPase directly, and the lumen-negative voltage makes H+ secretion easier."
+    },
+    {
+     "type": "p",
+     "text": "Primary hyperaldosteronism therefore causes hypertension, hypokalemia, and metabolic alkalosis with low renin. Edema is usually absent because of aldosterone escape: after a few days, pressure natriuresis and ANP raise sodium excretion, while the potassium and hydrogen ion losses continue. Aldosterone deficiency causes the reverse: hyperkalemia, a mild non-anion-gap metabolic acidosis (type 4 renal tubular acidosis), and, in primary adrenal failure, salt wasting and hypotension."
+    },
+    {
+     "type": "stop",
+     "predict": "Compare serum potassium and acid-base status in a patient with autoimmune destruction of both adrenal glands and in a patient with isolated ACTH deficiency.",
+     "explain": "Adrenal destruction removes aldosterone, so K+ and H+ secretion fall and hyperkalemia with metabolic acidosis follows. In ACTH deficiency the zona glomerulosa still responds to angiotensin II and potassium, so aldosterone, potassium, and pH stay near normal; only cortisol is lost.",
+     "check": "Regulators of aldosterone secretion table and the potassium and H+ secretion paragraphs."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-05-01-C05",
+   "obj": "EN-5.5",
+   "title": "Glucose-stimulated insulin secretion and the incretin effect",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The beta cell couples blood glucose to insulin release through its own metabolism. Glucose enters through high-capacity, low-affinity transporters (GLUT2 is the classic answer; human beta cells also rely on GLUT1), so intracellular glucose follows plasma glucose and transport is not the limiting step. The sensor is glucokinase (hexokinase IV), which has a half-saturating glucose concentration of about 8 mmol/L (about 145 mg/dL) and is not inhibited by its product. Its activity therefore rises in step with glucose across the physiological range, and glycolytic flux and ATP production rise with it."
+    },
+    {
+     "type": "flow",
+     "title": "Glucose-stimulated insulin secretion",
+     "steps": [
+      "Glucose enters beta cell through GLUT transporters",
+      "Glucokinase phosphorylates glucose in proportion to blood glucose",
+      "Glycolysis and oxidative phosphorylation raise the ATP to ADP ratio",
+      "ATP closes K-ATP channels (Kir6.2 with SUR1)",
+      "Less K+ efflux depolarizes the membrane",
+      "Voltage-gated L-type Ca2+ channels open; Ca2+ enters",
+      "Ca2+ triggers granule exocytosis: insulin and C-peptide released"
+     ],
+     "caption": "Each step follows from the one before: metabolism sets ATP, ATP sets membrane voltage, and voltage sets calcium entry."
+    },
+    {
+     "type": "p",
+     "text": "The K-ATP channel is the link between metabolism and voltage. At low glucose it is open, holding the membrane near about -70 mV. ATP binding to the Kir6.2 pore closes it, while MgADP acting on SUR1 opens it, so the ATP to ADP ratio sets its activity. Drugs show the mechanism: sulfonylureas bind SUR1 and close the channel, releasing insulin even when glucose is low, and diazoxide opens it and blocks release. Gene defects show it too: activating K-ATP mutations cause neonatal diabetes, inactivating mutations cause congenital hyperinsulinism, and heterozygous glucokinase loss raises the set point and causes mild, stable fasting hyperglycemia (GCK MODY)."
+    },
+    {
+     "type": "p",
+     "text": "Release is biphasic: a first phase lasting about 10 minutes from granules already docked at the membrane, then a sustained second phase from recruited granules. Loss of first-phase secretion is an early defect in type 2 diabetes. Proinsulin is cleaved in the granule, so insulin and C-peptide are released in equal amounts, and C-peptide measures the body's own insulin secretion. Acetylcholine (M3, during the cephalic phase), amino acids such as arginine, and beta2 stimulation increase release; somatostatin and sympathetic alpha2 stimulation inhibit it."
+    },
+    {
+     "type": "h",
+     "text": "The incretin effect"
+    },
+    {
+     "type": "p",
+     "text": "Oral glucose releases more insulin than an intravenous infusion that produces the same blood glucose curve. This difference, the incretin effect, accounts for about 50% to 70% of the insulin response to an oral glucose load in healthy people. Nutrients in the lumen release GIP from K cells of the duodenum and proximal jejunum and GLP-1 from L cells of the distal ileum and colon. Both bind Gs-coupled receptors on beta cells and raise cAMP, which through protein kinase A and Epac2 increases granule recruitment and the calcium sensitivity of exocytosis."
+    },
+    {
+     "type": "p",
+     "text": "Incretins amplify secretion but do not trigger it. At low glucose the K-ATP channels stay open and the membrane stays polarized, so extra cAMP has little effect; the incretin action is glucose dependent. GLP-1 also suppresses glucagon, slows gastric emptying, and promotes satiety. Dipeptidyl peptidase-4 (DPP-4) inactivates both hormones within minutes. The incretin effect is reduced in type 2 diabetes, largely because beta cells respond poorly to GIP."
+    },
+    {
+     "type": "stop",
+     "predict": "Blood glucose is 60 mg/dL (3.3 mmol/L). What happens to insulin release if a drug closes K-ATP channels, and what happens if GLP-1 is raised instead?",
+     "explain": "Closing K-ATP channels bypasses the glucose sensor, so the cell depolarizes and releases insulin despite hypoglycemia. GLP-1 only amplifies a calcium signal that already exists; with the channels open and the membrane polarized, it adds little insulin.",
+     "check": "The K-ATP channel paragraph and the incretin paragraphs."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-05-01-C06",
+   "obj": "EN-5.6",
+   "title": "Glucose counterregulation in fasting and hypoglycemia",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The brain uses glucose as its main fuel and cannot store it, so blood glucose is held at about 70 to 99 mg/dL (3.9 to 5.5 mmol/L) during fasting. Counterregulation is a hierarchy of responses that switch on as glucose falls. The first defense is a fall in insulin; glucagon and epinephrine then provide rapid correction, while cortisol and growth hormone (GH) support glucose production over hours."
+    },
+    {
+     "type": "flow",
+     "title": "Glycemic thresholds for counterregulation",
+     "steps": [
+      "About 80 to 85 mg/dL: insulin secretion falls",
+      "About 65 to 70 mg/dL: glucagon and epinephrine rise",
+      "About 65 to 70 mg/dL: cortisol and GH rise, acting over hours",
+      "About 50 to 55 mg/dL: autonomic warning symptoms appear",
+      "Below about 50 mg/dL: cognitive impairment, then seizures and coma"
+     ],
+     "caption": "Approximate arterialized venous glucose thresholds in healthy people (1 mmol/L = 18 mg/dL). Hormones respond before symptoms, so normal people rarely notice mild falls."
+    },
+    {
+     "type": "table",
+     "title": "Counterregulatory hormones",
+     "cols": [
+      "Hormone",
+      "Onset",
+      "Signal",
+      "Main glucose-raising actions"
+     ],
+     "rows": [
+      [
+       "Glucagon",
+       "Minutes",
+       "Glucagon receptor, Gs, cAMP, PKA",
+       "Hepatic glycogenolysis, then gluconeogenesis and ketogenesis; little effect on muscle"
+      ],
+      [
+       "Epinephrine",
+       "Minutes",
+       "Beta2 and alpha1 (liver), beta (fat), alpha2 (islets)",
+       "Hepatic glycogenolysis and gluconeogenesis; lipolysis; muscle glycogenolysis supplies lactate; inhibits insulin release"
+      ],
+      [
+       "Cortisol",
+       "Hours",
+       "Glucocorticoid receptor, gene transcription",
+       "Induces gluconeogenic enzymes; muscle proteolysis supplies amino acids; less peripheral glucose uptake; permissive for glucagon and epinephrine"
+      ],
+      [
+       "Growth hormone",
+       "Hours",
+       "GH receptor, JAK2 and STAT",
+       "Lipolysis; fatty acids reduce muscle glucose uptake and spare glucose"
+      ]
+     ],
+     "caption": "The fast hormones change the activity of existing enzymes; the slow hormones change how much enzyme and substrate exist."
+    },
+    {
+     "type": "p",
+     "text": "The difference in speed comes from mechanism. Glucagon and epinephrine raise hepatic cAMP, and protein kinase A phosphorylates enzymes that already exist: phosphorylase kinase and glycogen phosphorylase are activated, glycogen synthase is inhibited, and the bifunctional enzyme lowers fructose-2,6-bisphosphate, which slows glycolysis and favors gluconeogenesis. Glucose output rises within minutes. Cortisol and GH act through gene transcription and protein synthesis, so their effects take hours, but they sustain glucose production by providing gluconeogenic enzymes and substrate. Deficiency of cortisol or GH therefore causes fasting hypoglycemia, as in adrenal insufficiency and hypopituitarism, especially in children."
+    },
+    {
+     "type": "p",
+     "text": "In the postabsorptive state, falling insulin and a modest rise in glucagon let hepatic glycogenolysis supply most glucose. As liver glycogen runs low over about the first day, gluconeogenesis from lactate, alanine, and glycerol takes over. Low insulin also releases fatty acids from fat; muscle and liver burn them, and glucagon promotes hepatic ketogenesis by lowering malonyl-CoA. In prolonged fasting the brain takes up ketones, which reduces the need to break down muscle protein, and the kidney contributes more gluconeogenesis."
+    },
+    {
+     "type": "p",
+     "text": "Epinephrine and sympathetic activation produce the autonomic warning symptoms of hypoglycemia: tremor, palpitations, and anxiety (adrenergic), and sweating and hunger (cholinergic). Neuroglycopenic symptoms such as confusion and abnormal behavior reflect brain glucose lack. In long-standing type 1 diabetes the glucagon response to hypoglycemia is lost, leaving epinephrine as the key defense. Repeated hypoglycemia then lowers the threshold for epinephrine release as well, so warning symptoms appear late or not at all (hypoglycemia unawareness)."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Anatomy and physiology meet in the hypothalamus and pituitary: the portal circulation explains why stalk lesions raise prolactin while lowering the other anterior pituitary hormones, and the separate axonal path to the posterior lobe explains diabetes insipidus after the same injury. The collecting duct principal cell links two systems, receiving ADH through a Gs receptor that controls water and aldosterone through a nuclear receptor that controls sodium and potassium, which is why water and sodium disorders are read together."
+  },
+  {
+   "type": "p",
+   "text": "Biochemistry and pathology complete the picture. The beta cell uses glucokinase and ATP as a sensor, so a single gene defect in glucokinase or the K-ATP channel shifts the glucose set point, while autoimmune destruction of beta cells in type 1 diabetes eventually removes the fall in intra-islet insulin that is thought to signal alpha cells to release glucagon during hypoglycemia. Each hormone in this chapter is judged against its controlling signal: a PTH level means little without the ionized calcium, aldosterone without renin and potassium, ADH without plasma osmolality and volume, and insulin without the simultaneous glucose."
+  }
+ ],
+ "summary": [
+  "TRH, CRH, GnRH, and GHRH stimulate; somatostatin inhibits GH and TSH; dopamine on D2 receptors is the main control of prolactin.",
+  "Stalk section lowers TSH, ACTH, LH, FSH, and GH, raises prolactin, spares aldosterone, and causes diabetes insipidus that can follow a triphasic course.",
+  "Osmoreceptors respond to about a 1% rise in effective osmolality; baroreceptor input needs a larger fall in volume but overrides osmotic control.",
+  "ADH acts on V2 receptors (Gs, cAMP, PKA) to insert aquaporin-2 into principal cell luminal membranes; V1 receptors (Gq) cause vasoconstriction.",
+  "Low ionized calcium releases PTH through the calcium-sensing receptor; PTH resorbs bone through osteoblast RANKL, reabsorbs calcium distally, excretes phosphate proximally, and makes calcitriol.",
+  "PTH raises calcium and lowers phosphate; calcitriol raises both; calcitonin lowers calcium but matters little in adults.",
+  "Aldosterone is driven by angiotensin II and hyperkalemia, with a minor ACTH effect, and increases ENaC and Na+/K+-ATPase, causing K+ secretion by principal cells and H+ secretion by alpha intercalated cells.",
+  "Insulin release follows glucose entry, glucokinase, rising ATP, K-ATP closure, depolarization, Ca2+ influx, and exocytosis.",
+  "GLP-1 and GIP raise beta cell cAMP and amplify glucose-driven insulin release, explaining why oral glucose releases more insulin than intravenous glucose.",
+  "Falling insulin is the first defense against hypoglycemia; glucagon and epinephrine act within minutes, while cortisol and GH act over hours through gene expression."
+ ],
+ "sources": [
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Pituitary Hormones and Their Control by the Hypothalamus"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Parathyroid Hormone, Calcitonin, Calcium and Phosphate Metabolism, Vitamin D, Bone, and Teeth"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Insulin, Glucagon, and Diabetes Mellitus; Adrenocortical Hormones"
+  },
+  {
+   "book": "Boron and Boulpaep Medical Physiology",
+   "where": "Endocrine regulation of the hypothalamus and pituitary, calcium and phosphate, and the endocrine pancreas"
+  },
+  {
+   "book": "Lippincott Illustrated Reviews: Biochemistry",
+   "where": "Metabolic effects of insulin and glucagon; the feed and fast cycle"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Disorders of the hypothalamus and pituitary gland; disorders of the parathyroids and calcium metabolism"
+  }
+ ],
+ "verify": [
+  "The competency names GLUT2 as the beta cell glucose transporter, the standard board answer; human beta cells express mainly GLUT1 with less GLUT2. Confirm how NABNE frames this.",
+  "Glucokinase half-saturation is quoted from about 7 to 10 mmol/L in different sources; about 8 mmol/L is used here.",
+  "Glycemic thresholds for insulin suppression, counterregulatory hormone release, symptoms, and cognitive impairment follow the commonly cited Cryer values and differ slightly between sources; confirm the values NABNE expects.",
+  "The incretin effect is quoted as about 50% to 70% of the oral glucose insulin response; figures vary by study.",
+  "The osmotic threshold for ADH release (about 280 mOsm/kg) and the volume loss needed to trigger baroreceptor release (about 5% to 10%) vary among sources.",
+  "Ionized calcium reference ranges and the albumin correction factor of 0.8 mg/dL per 1 g/dL are laboratory dependent; confirm whether NABNE uses the corrected calcium formula.",
+  "The timing of liver glycogen depletion in fasting is given in sources from about 12 to 48 hours; this chapter says about the first day.",
+  "The triphasic response after stalk section and the size of the prolactin rise (stalk effect) vary with the level and completeness of the lesion; confirm the expected depth.",
+  "Confirm whether NABNE expects the specific transporter and channel names TRPV5, NaPi-IIa, SGK1, Nedd4-2, and Epac2, or only the processes they carry out.",
+  "Requested new diagram names for a future revision: hypothalamic-pituitary-portal (portal circulation and posterior lobe axons) and beta-cell-secretion (insulin secretion steps in one cell)."
+ ]
+}

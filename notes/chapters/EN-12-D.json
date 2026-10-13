@@ -1,0 +1,648 @@
+{
+ "unit": "EN-12-D",
+ "chapter_id": "NPLEX-P1-ENDO-12",
+ "topic_id": "NPLEX-P1-ENDO-12-04",
+ "title": "Diabetes Mellitus and Metabolic Syndrome",
+ "subject": "Endocrine System (ENDO)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter explains diabetes mellitus as a disease of too little insulin, too little insulin effect, or both. It contrasts autoimmune type 1 with insulin-resistant type 2 diabetes, explains how the diagnostic tests and HbA1c work, separates diabetic ketoacidosis from hyperosmolar hyperglycemic state, and traces how chronic hyperglycemia injures vessels, nerves, kidneys, eyes, and lenses. It ends with metabolic syndrome and its skin marker, acanthosis nigricans. Board questions usually give a patient, a set of laboratory values, or a biopsy and ask you to name the type, the crisis, or the mechanism behind a complication. If you can explain why residual insulin prevents ketosis and why insulin-independent tissues are the ones damaged, most questions follow.",
+  "prerequisites": [
+   "Actions of insulin and glucagon in the fed and fasting states, including GLUT4 translocation (EN-7)",
+   "Glucose-stimulated insulin secretion and counterregulatory hormones (EN-5)",
+   "Ketogenesis, malonyl-CoA, and carnitine palmitoyltransferase I (EN-7)",
+   "Anion gap metabolic acidosis and respiratory compensation",
+   "Arteriosclerosis patterns and atherosclerosis (CV-18-I)"
+  ],
+  "connections": [
+   {
+    "to": "Immune responses in endocrine disease (EN-10)",
+    "how": "Type 1 diabetes is a T cell mediated autoimmune disease whose islet autoantibodies and LADA variant are taught in detail there."
+   },
+   {
+    "to": "Endocrine genetics (EN-9)",
+    "how": "HLA class II risk in type 1, polygenic risk in type 2, and monogenic MODY explain why the types run differently in families."
+   },
+   {
+    "to": "Vascular conditions (CV-18-I)",
+    "how": "Hyaline arteriolosclerosis and accelerated atherosclerosis are the vascular lesions behind most chronic diabetic complications."
+   },
+   {
+    "to": "Renal physiology and acid-base",
+    "how": "The renal glucose threshold, osmotic diuresis, the anion gap, and potassium shifts explain the symptoms and laboratory pattern of hyperglycemic crises."
+   },
+   {
+    "to": "Microbiology",
+    "how": "Impaired neutrophil function and tissue ischemia explain foot infections, osteomyelitis, and rhinocerebral mucormycosis in ketoacidosis."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Insulitis",
+    "def": "A lymphocytic infiltrate confined to the pancreatic islets, the histologic sign of autoimmune beta cell destruction in type 1 diabetes."
+   },
+   {
+    "term": "Amylin (islet amyloid polypeptide)",
+    "def": "A peptide cosecreted with insulin by beta cells that deposits as amyloid in the islets in type 2 diabetes."
+   },
+   {
+    "term": "C-peptide",
+    "def": "The connecting peptide cleaved from proinsulin in equal amounts with insulin, used to measure endogenous insulin secretion."
+   },
+   {
+    "term": "HbA1c",
+    "def": "Hemoglobin with glucose attached nonenzymatically to the N-terminal valine of the beta chain, reflecting average glucose over about 3 months."
+   },
+   {
+    "term": "Anion gap",
+    "def": "Serum Na+ minus the sum of Cl- and HCO3-, normally about 8 to 12 mEq/L, which widens when an acid adds unmeasured anions."
+   },
+   {
+    "term": "Kussmaul respiration",
+    "def": "Slow, deep breathing driven by severe metabolic acidosis that lowers arterial PCO2 as respiratory compensation."
+   },
+   {
+    "term": "Effective serum osmolality",
+    "def": "The osmolality that moves water across cell membranes, estimated as 2 times Na+ plus glucose divided by 18 (mg/dL), normally about 275 to 295 mOsm/kg."
+   },
+   {
+    "term": "Advanced glycation end products (AGEs)",
+    "def": "Irreversible adducts formed by slow nonenzymatic reactions of glucose with long-lived proteins such as collagen."
+   },
+   {
+    "term": "Polyol pathway",
+    "def": "Reduction of glucose to sorbitol by aldose reductase using NADPH, followed by oxidation of sorbitol to fructose by sorbitol dehydrogenase."
+   },
+   {
+    "term": "Hyaline arteriolosclerosis",
+    "def": "Homogeneous pink thickening of arteriolar walls from leaked plasma proteins and excess basement membrane matrix, narrowing the lumen."
+   },
+   {
+    "term": "Kimmelstiel-Wilson nodule",
+    "def": "A PAS-positive, acellular nodule of mesangial matrix in the glomerulus, characteristic of diabetic nodular glomerulosclerosis."
+   },
+   {
+    "term": "Acanthosis nigricans",
+    "def": "Velvety, hyperpigmented, thickened skin in body folds, most often a marker of hyperinsulinemia from insulin resistance."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-ENDO-12-04-C01",
+   "obj": "EN-12-D.1",
+   "title": "Type 1 versus type 2 diabetes",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Diabetes mellitus is chronic hyperglycemia caused by defective insulin secretion, defective insulin action, or both. Insulin is the only glucose-lowering hormone: it moves GLUT4 transporters into muscle and adipocyte membranes, suppresses hepatic glycogenolysis and gluconeogenesis, and inhibits lipolysis. The two main types differ in which failure comes first, and that difference predicts age at onset, body habitus, ketosis risk, and islet histology."
+    },
+    {
+     "type": "p",
+     "text": "Type 1 diabetes is T cell mediated autoimmune destruction of beta cells (EN-10). Risk is tied mainly to the HLA class II haplotypes HLA-DR3 and HLA-DR4, which present beta cell peptides to CD4 T cells that help CD8 T cells kill beta cells, producing insulitis. Autoantibodies to GAD65, insulin, IA-2, and ZnT8 mark the attack and may appear years earlier. Because islet reserve is large, hyperglycemia appears only after most beta cell mass is lost, often abruptly when an infection raises insulin demand. Alpha cells survive, so glucagon is unopposed. Insulin and C-peptide are very low, the deficiency is absolute, and the patient is ketosis prone."
+    },
+    {
+     "type": "p",
+     "text": "Type 2 diabetes begins with insulin resistance in muscle, liver, and fat. Visceral fat releases free fatty acids and inflammatory adipokines such as TNF-alpha and secretes less adiponectin. Fatty acid metabolites such as diacylglycerol accumulate in muscle and liver and activate serine kinases that phosphorylate insulin receptor substrate 1 (IRS-1) on serine, blunting the insulin signal. Beta cells compensate by secreting more insulin, so glucose stays normal for years. Diabetes appears when beta cells can no longer keep up, a process summarized below."
+    },
+    {
+     "type": "flow",
+     "title": "From insulin resistance to type 2 diabetes",
+     "steps": [
+      "Visceral obesity raises free fatty acids and adipokines",
+      "Serine phosphorylation of IRS-1 blunts insulin signaling",
+      "Muscle takes up less glucose; liver keeps releasing glucose",
+      "Beta cells compensate with hyperinsulinemia; glucose stays normal",
+      "Glucotoxicity, lipotoxicity, and amylin amyloid injure beta cells",
+      "Insulin falls short of demand; hyperglycemia appears"
+     ],
+     "caption": "Loss of first-phase insulin release is an early sign of beta cell dysfunction; insulin levels are high early and fall later."
+    },
+    {
+     "type": "p",
+     "text": "Ketosis depends on how much insulin remains. Far less insulin is needed to restrain lipolysis and hepatic ketogenesis than to drive glucose into muscle, so the relative deficiency of type 2 usually protects against ketoacidosis, whereas type 1 has no reserve. Genetic risk in type 2 is polygenic yet stronger than in type 1, with higher concordance in identical twins; obesity, inactivity, and age unmask it. The categories overlap: latent autoimmune diabetes in adults (LADA) is slowly progressive autoimmune diabetes, obese adolescents now develop type 2 diabetes, maturity-onset diabetes of the young (MODY) is an autosomal dominant defect in beta cell secretion (EN-9), and severe stress can provoke ketoacidosis in type 2."
+    },
+    {
+     "type": "table",
+     "title": "Type 1 versus type 2 diabetes",
+     "cols": [
+      "Feature",
+      "Type 1",
+      "Type 2"
+     ],
+     "rows": [
+      [
+       "Primary defect",
+       "Autoimmune beta cell destruction",
+       "Insulin resistance plus progressive beta cell dysfunction"
+      ],
+      [
+       "Insulin and C-peptide",
+       "Very low or absent (absolute deficiency)",
+       "High early, relatively low later"
+      ],
+      [
+       "Typical onset and habitus",
+       "Childhood or young adult, thin, often abrupt",
+       "Usually adult, obese (visceral fat), gradual"
+      ],
+      [
+       "Genetics",
+       "HLA-DR3, HLA-DR4; lower twin concordance",
+       "Polygenic; strong family history; higher twin concordance"
+      ],
+      [
+       "Islet histology",
+       "Insulitis, then loss of beta cells",
+       "Amyloid from amylin; beta cell mass reduced later"
+      ],
+      [
+       "Islet autoantibodies",
+       "GAD65, insulin, IA-2, ZnT8",
+       "Absent"
+      ],
+      [
+       "Typical acute crisis",
+       "Diabetic ketoacidosis",
+       "Hyperosmolar hyperglycemic state"
+      ]
+     ],
+     "caption": "The amount of insulin left explains most of the clinical differences, including which crisis occurs."
+    },
+    {
+     "type": "stop",
+     "predict": "A thin 35-year-old with new hyperglycemia has GAD65 antibodies and a low C-peptide but no ketones. Which form of diabetes is this, and why is there no ketosis yet?",
+     "explain": "LADA, an autoimmune diabetes that destroys beta cells slowly. Enough insulin remains to restrain lipolysis and ketogenesis, so ketosis is absent for now, but beta cell loss will progress toward absolute deficiency.",
+     "check": "The paragraph on residual insulin and ketosis."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-12-04-C02",
+   "obj": "EN-12-D.2",
+   "title": "Diagnostic criteria and the meaning of HbA1c",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The diagnostic cutoffs mark the glucose levels at which the risk of microvascular disease, especially retinopathy, begins to rise in population studies. Each test reaches the same diagnosis by a different route. Fasting plasma glucose (no caloric intake for at least 8 hours) reflects overnight hepatic glucose output, set by basal insulin and glucagon. The 2-hour value of a 75 g oral glucose tolerance test (OGTT) reflects the ability to dispose of a glucose load through insulin secretion and muscle uptake, so it detects isolated postprandial hyperglycemia that a fasting test misses. HbA1c integrates glycemia over months."
+    },
+    {
+     "type": "table",
+     "title": "Diagnostic thresholds (plasma glucose)",
+     "cols": [
+      "Test",
+      "Normal",
+      "Prediabetes",
+      "Diabetes"
+     ],
+     "rows": [
+      [
+       "Fasting glucose",
+       "Under 100 mg/dL",
+       "100 to 125 mg/dL",
+       "126 mg/dL (7.0 mmol/L) or more"
+      ],
+      [
+       "2-hour 75 g OGTT",
+       "Under 140 mg/dL",
+       "140 to 199 mg/dL",
+       "200 mg/dL (11.1 mmol/L) or more"
+      ],
+      [
+       "HbA1c",
+       "Under 5.7%",
+       "5.7% to 6.4%",
+       "6.5% or more"
+      ],
+      [
+       "Random glucose",
+       "Not used",
+       "Not used",
+       "200 mg/dL or more with classic symptoms"
+      ]
+     ],
+     "caption": "Without unequivocal hyperglycemia, diagnosis requires two abnormal results, from the same sample or from two samples. A random value of 200 mg/dL or more with classic symptoms needs no confirmation."
+    },
+    {
+     "type": "p",
+     "text": "The classic symptoms follow from the renal threshold. The proximal tubule reabsorbs filtered glucose through SGLT2 and SGLT1 up to a transport maximum, and glucose begins to spill into the urine at a plasma level of about 180 to 200 mg/dL. Unreabsorbed glucose holds water in the tubule, producing polyuria and thirst, while calorie loss and breakdown of fat and muscle cause weight loss despite increased appetite."
+    },
+    {
+     "type": "p",
+     "text": "Glucose enters red cells through GLUT1 without insulin and binds nonenzymatically to the N-terminal valine of the hemoglobin beta chain. The first adduct, a Schiff base, is reversible; it rearranges to a stable ketoamine (Amadori product) that lasts for the life of the cell. The fraction of glycated hemoglobin therefore rises with the average glucose the cells have seen. Red cells survive about 120 days, so HbA1c reflects roughly the past 3 months, weighted toward recent weeks because younger cells are more numerous. An HbA1c of 6.5% corresponds to an average glucose of about 140 mg/dL, and each 1% adds about 29 mg/dL."
+    },
+    {
+     "type": "table",
+     "title": "When HbA1c misleads",
+     "cols": [
+      "Direction",
+      "Mechanism",
+      "Examples"
+     ],
+     "rows": [
+      [
+       "Falsely low",
+       "Shorter red cell survival or younger cell population",
+       "Hemolysis (spherocytosis, sickle cell disease), acute blood loss, recent transfusion, reticulocytosis during recovery from iron deficiency, pregnancy"
+      ],
+      [
+       "Falsely high",
+       "Older red cell population",
+       "Untreated iron deficiency anemia, asplenia"
+      ],
+      [
+       "Assay dependent",
+       "Abnormal hemoglobin interferes with some methods",
+       "HbS, HbC, and other hemoglobin variants"
+      ]
+     ],
+     "caption": "HbA1c assumes normal red cell lifespan; glucose measurements do not."
+    },
+    {
+     "type": "example",
+     "title": "Discordant glucose and HbA1c",
+     "text": "A 34-year-old with hereditary spherocytosis has fasting glucose of 138 and 141 mg/dL on two days and an HbA1c of 5.6%. Two fasting values of 126 mg/dL or more establish diabetes. The HbA1c is falsely reassuring: chronic hemolysis shortens red cell survival, so each cell has less time to accumulate glucose and the circulating population is younger. Glucose values, or fructosamine (glycated serum proteins, mainly albumin, reflecting about 2 to 3 weeks), should be used in place of HbA1c in this patient."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-12-04-C03",
+   "obj": "EN-12-D.3",
+   "title": "Diabetic ketoacidosis versus hyperosmolar hyperglycemic state",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Both crises combine insulin deficiency with excess counterregulatory hormones (glucagon, catecholamines, cortisol, growth hormone), usually triggered by infection, missed insulin, myocardial infarction, or new-onset diabetes. Glucose rises from increased hepatic output and reduced uptake, and the osmotic diuresis loses water, sodium, potassium, phosphate, and magnesium. The difference is whether insulin is absent or merely insufficient. Ketogenesis is covered in EN-7."
+    },
+    {
+     "type": "flow",
+     "title": "How absent insulin produces ketoacidosis",
+     "steps": [
+      "No insulin; high glucagon and catecholamines",
+      "Hormone-sensitive lipase releases fatty acids from fat",
+      "Low hepatic malonyl-CoA releases inhibition of CPT I",
+      "Beta-oxidation floods hepatic mitochondria with acetyl-CoA",
+      "Liver makes acetoacetate and beta-hydroxybutyrate",
+      "Ketoacids consume bicarbonate: anion gap acidosis"
+     ],
+     "caption": "In HHS, residual insulin keeps lipolysis and CPT I restrained, so this sequence stops at its first steps."
+    },
+    {
+     "type": "p",
+     "text": "Ketoacids are almost fully dissociated at body pH. Bicarbonate buffers the hydrogen ions and the ketoanions remain unmeasured, so the anion gap widens. Acidemia stimulates peripheral and central chemoreceptors, producing Kussmaul respiration that lowers arterial PCO2. Acetone, formed by spontaneous decarboxylation of acetoacetate, gives fruity breath; abdominal pain and vomiting are common. The nitroprusside test detects acetoacetate and acetone but not beta-hydroxybutyrate, the main ketone in DKA, so it underestimates ketosis and may rise during recovery as beta-hydroxybutyrate is converted back to acetoacetate."
+    },
+    {
+     "type": "p",
+     "text": "Serum potassium is often normal or high at presentation although total body potassium is depleted. Without insulin, the Na+/K+-ATPase moves less potassium into cells, and hyperosmolality draws water out of cells, carrying potassium with it. Meanwhile osmotic diuresis, vomiting, and aldosterone released by volume loss waste potassium in urine. Measured sodium is diluted by water drawn out of cells, falling about 1.6 mEq/L for each 100 mg/dL of glucose above 100 mg/dL."
+    },
+    {
+     "type": "p",
+     "text": "HHS usually occurs in older patients with type 2 diabetes. With no acidosis to prompt early care, osmotic diuresis continues for days, often in a patient with impaired thirst or poor access to water. Glucose often exceeds 600 mg/dL and effective osmolality exceeds 320 mOsm/kg. Water leaves brain cells, so confusion, focal deficits, seizures, and coma track osmolality. Brain cells adapt by accumulating intracellular osmolytes, so a rapid fall in plasma osmolality draws water into them; this is the mechanism of cerebral edema, seen mainly in children with DKA. Mixed DKA and HHS presentations are common."
+    },
+    {
+     "type": "table",
+     "title": "DKA versus HHS",
+     "cols": [
+      "Feature",
+      "Diabetic ketoacidosis",
+      "Hyperosmolar hyperglycemic state"
+     ],
+     "rows": [
+      [
+       "Usual patient",
+       "Type 1, often young",
+       "Type 2, often older"
+      ],
+      [
+       "Glucose",
+       "Usually over 250 mg/dL",
+       "Often over 600 mg/dL"
+      ],
+      [
+       "Arterial pH and bicarbonate",
+       "pH under 7.30; bicarbonate 18 mEq/L or less",
+       "pH over 7.30; bicarbonate over 18 mEq/L"
+      ],
+      [
+       "Anion gap and ketones",
+       "High gap; large ketones",
+       "Normal or slightly raised gap; little ketosis"
+      ],
+      [
+       "Effective osmolality",
+       "Variable, often under 320 mOsm/kg",
+       "Over 320 mOsm/kg"
+      ],
+      [
+       "Breathing",
+       "Kussmaul respiration, fruity breath",
+       "Normal pattern"
+      ],
+      [
+       "Mental status",
+       "Alert to stuporous",
+       "Often confusion, seizures, or coma"
+      ],
+      [
+       "Serum potassium",
+       "Normal or high; total body low",
+       "Normal or high; total body low"
+      ]
+     ],
+     "caption": "Classic consensus thresholds."
+    },
+    {
+     "type": "example",
+     "title": "Reading DKA laboratory values",
+     "text": "A 19-year-old has glucose 540 mg/dL, Na+ 130, Cl- 95, HCO3- 8 mEq/L, K+ 5.6 mEq/L, pH 7.12, and PCO2 20 mm Hg. Anion gap is 130 minus 103, or 27 mEq/L: a high gap acidosis. Expected PCO2 (Winter formula) is 1.5 times 8 plus 8, or 20 plus or minus 2, so Kussmaul breathing compensates fully. Corrected sodium is 130 plus 1.6 times 4.4, about 137 mEq/L, so water loss is large. Effective osmolality is 2 times 130 plus 540 divided by 18, or 290 mOsm/kg, well below HHS range."
+    },
+    {
+     "type": "stop",
+     "predict": "The patient above has a serum K+ of 5.6 mEq/L. Why can he become hypokalemic within hours as his metabolism normalizes?",
+     "explain": "The high value reflects potassium held outside cells by insulin lack and hyperosmolality. Urinary losses have depleted total body potassium, so when insulin action returns, potassium moves into cells and the deficit appears.",
+     "check": "The potassium paragraph."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-12-04-C04",
+   "obj": "EN-12-D.4",
+   "title": "How chronic hyperglycemia injures tissue: glycation and the polyol pathway",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The tissues damaged by chronic hyperglycemia share one feature: they take up glucose without insulin, mainly through GLUT1 (endothelium, retina, lens, mesangial cells, Schwann cells, and neurons), so their internal glucose rises with plasma glucose. Muscle and fat, which depend on insulin for GLUT4 uptake, are spared. Four pathways turn the excess glucose into injury: nonenzymatic glycation, the polyol pathway, activation of protein kinase C by diacylglycerol made from glycolytic intermediates, and the hexosamine pathway. The first two are the ones most often tested."
+    },
+    {
+     "type": "h",
+     "text": "Advanced glycation end products"
+    },
+    {
+     "type": "p",
+     "text": "Glucose reacts with free amino groups of proteins by the same chemistry that forms HbA1c. On long-lived proteins such as collagen, further slow reactions over months produce irreversible AGEs. These act directly and through a receptor, as shown below. Directly, they cross-link collagen in vessel walls and basement membranes, making them stiff and resistant to breakdown, and the glycated matrix traps circulating proteins: albumin in capillary basement membranes and LDL in the arterial intima. Through the receptor for AGEs (RAGE) on endothelial cells, macrophages, and mesangial cells, they activate NF-kB, generate reactive oxygen species, and release growth factors: TGF-beta increases matrix synthesis, VEGF increases permeability, and PAI-1 favors thrombosis."
+    },
+    {
+     "type": "flow",
+     "title": "From glycated protein to vessel injury",
+     "steps": [
+      "Glucose binds protein amino groups (Schiff base)",
+      "Rearrangement to a stable Amadori product",
+      "Slow reactions on collagen form irreversible AGEs",
+      "Cross-links trap albumin and LDL in vessel walls",
+      "RAGE signaling: oxidative stress, TGF-beta, VEGF, PAI-1",
+      "Thick, leaky basement membranes and narrowed vessels"
+     ],
+     "caption": "The same lesion develops in glomeruli, retinal capillaries, and the vasa nervorum."
+    },
+    {
+     "type": "p",
+     "text": "Hyaline arteriolosclerosis results when injured endothelium lets plasma proteins seep into arteriolar walls while smooth muscle cells lay down excess basement membrane matrix. The wall becomes homogeneous, pink, and glassy, the lumen narrows, and the tissue downstream becomes ischemic. Aging and benign hypertension cause similar lesions, but in diabetes they are more widespread and involve the renal efferent as well as the afferent arteriole. Atherosclerosis in large arteries is accelerated because glycated and AGE-trapped LDL is oxidized more readily and taken up by macrophage scavenger receptors, endothelial nitric oxide production falls, diabetic dyslipidemia adds atherogenic lipoproteins, and raised PAI-1 with more reactive platelets favors thrombosis (CV-18-I)."
+    },
+    {
+     "type": "h",
+     "text": "The polyol pathway"
+    },
+    {
+     "type": "p",
+     "text": "Aldose reductase reduces glucose to sorbitol, using NADPH; sorbitol dehydrogenase then oxidizes sorbitol to fructose. The lens, retina, and Schwann cells have aldose reductase but little sorbitol dehydrogenase activity, so sorbitol accumulates. Sorbitol is polar and cannot leave the cell, so it draws in water and causes osmotic injury. Using up NADPH also deprives glutathione reductase of the cofactor it needs to regenerate reduced glutathione, so oxidative stress rises. In lens fibers, swelling and oxidized, aggregated crystallins produce cataracts; osmotic shifts in the lens also explain blurred vision when glucose swings. In peripheral nerves, sorbitol accumulation, depletion of myo-inositol with reduced Na+/K+-ATPase activity, oxidative stress, and narrowing of the vasa nervorum cause axonal degeneration and segmental demyelination, longest fibers first."
+    },
+    {
+     "type": "table",
+     "title": "Mechanism to lesion",
+     "cols": [
+      "Mechanism",
+      "Key step",
+      "Main lesions"
+     ],
+     "rows": [
+      [
+       "Nonenzymatic glycation",
+       "AGEs cross-link matrix; RAGE signaling",
+       "Basement membrane thickening, hyaline arteriolosclerosis, accelerated atherosclerosis"
+      ],
+      [
+       "Polyol pathway",
+       "Sorbitol traps water; NADPH depleted",
+       "Cataracts, peripheral neuropathy, retinal pericyte loss"
+      ],
+      [
+       "Protein kinase C activation",
+       "Diacylglycerol from glycolytic intermediates",
+       "VEGF, TGF-beta, and PAI-1 production; vascular leak and matrix expansion"
+      ]
+     ],
+     "caption": "Several pathways usually act together in the same tissue."
+    },
+    {
+     "type": "stop",
+     "predict": "At the same plasma glucose, why do Schwann cells accumulate sorbitol while skeletal muscle cells do not?",
+     "explain": "Schwann cells take up glucose through insulin-independent GLUT1, so their glucose rises with plasma glucose and excess is shunted to sorbitol. Muscle depends on insulin-regulated GLUT4, which is reduced in diabetes, so its internal glucose does not rise in the same way.",
+     "check": "The opening paragraph on insulin-independent uptake."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-12-04-C05",
+   "obj": "EN-12-D.5",
+   "title": "Chronic complications by organ",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Chronic complications are microvascular (kidney, retina, nerve), driven mainly by the duration and degree of hyperglycemia, or macrovascular (coronary, cerebral, and peripheral arteries), driven by hyperglycemia together with dyslipidemia, hypertension, and insulin resistance. Macrovascular disease, especially myocardial infarction, is the leading cause of death in diabetes. To predict the lesion in an organ, find the basement membrane, small vessel, or long axon that the mechanisms in C04 damage."
+    },
+    {
+     "type": "p",
+     "text": "In the kidney, afferent arteriolar dilation and efferent hyalinosis first raise glomerular capillary pressure and GFR (hyperfiltration). The earliest structural change is diffuse thickening of the glomerular basement membrane (GBM). Mesangial matrix then expands diffusely and may form PAS-positive, acellular nodules at the periphery of the glomerular tuft, the Kimmelstiel-Wilson lesion of nodular glomerulosclerosis. Loss of negatively charged heparan sulfate and podocyte injury let albumin cross the filter. Moderately increased albuminuria (urine albumin to creatinine ratio 30 to 300 mg/g) is the earliest clinical sign and progresses to overt, sometimes nephrotic range, proteinuria and falling GFR."
+    },
+    {
+     "type": "p",
+     "text": "In the retina, early loss of capillary pericytes weakens the vessel wall, producing microaneurysms, and leaky endothelium causes hemorrhages, hard exudates, and macular edema. Capillary closure then makes the retina ischemic, and ischemic retina releases VEGF, which drives proliferative retinopathy. Neuropathy is length dependent, so symptoms begin in the toes. Autonomic neuropathy with loss of vagal input and of the interstitial cells of Cajal slows gastric emptying (gastroparesis). Foot ulcers arise when neuropathy, ischemia, and infection combine, as shown below. Peripheral artery disease in diabetes favors the tibial and peroneal arteries below the knee, and medial calcification can make leg arteries noncompressible, so the ankle-brachial index may read falsely normal or high."
+    },
+    {
+     "type": "table",
+     "title": "Chronic complications by organ",
+     "cols": [
+      "Organ",
+      "Lesion",
+      "Manifestations"
+     ],
+     "rows": [
+      [
+       "Kidney",
+       "GBM thickening, mesangial expansion, Kimmelstiel-Wilson nodules, afferent and efferent hyaline arteriolosclerosis",
+       "Albuminuria, then proteinuria, hypertension, chronic kidney disease; also papillary necrosis and pyelonephritis"
+      ],
+      [
+       "Retina, nonproliferative",
+       "Pericyte loss, microaneurysms, leaky capillaries, capillary closure",
+       "Dot-blot hemorrhages, hard exudates, cotton wool spots, macular edema"
+      ],
+      [
+       "Retina, proliferative",
+       "VEGF-driven neovascularization",
+       "Vitreous hemorrhage, tractional retinal detachment, neovascular glaucoma"
+      ],
+      [
+       "Peripheral nerves",
+       "Axonal degeneration, segmental demyelination, vasa nervorum disease",
+       "Stocking-glove loss of pain, temperature, and vibration; burning pain; lost ankle reflexes"
+      ],
+      [
+       "Autonomic nerves",
+       "Loss of vagal and sympathetic fibers",
+       "Gastroparesis (early satiety, nausea, erratic glucose), orthostatic hypotension, fixed resting tachycardia, erectile dysfunction, neurogenic bladder, painless ischemia"
+      ],
+      [
+       "Cranial nerves",
+       "Ischemic infarction of the nerve core",
+       "Oculomotor palsy that spares the pupil, because pupillary fibers run on the surface"
+      ],
+      [
+       "Large arteries",
+       "Accelerated atherosclerosis, medial calcification",
+       "Myocardial infarction, stroke, claudication, gangrene"
+      ]
+     ],
+     "caption": "Microvascular lesions follow glycemic exposure; macrovascular lesions add the lipid and blood pressure effects of insulin resistance."
+    },
+    {
+     "type": "flow",
+     "title": "How a diabetic foot ulcer forms",
+     "steps": [
+      "Sensory neuropathy: injuries go unnoticed",
+      "Motor neuropathy: claw toes and high-pressure points",
+      "Autonomic neuropathy: dry, cracked skin",
+      "Repeated trauma ulcerates skin over metatarsal heads",
+      "Tibial artery disease limits oxygen delivery and healing",
+      "Impaired neutrophil function: infection, osteomyelitis, gangrene"
+     ],
+     "caption": "Neuropathy starts the ulcer; ischemia and infection keep it from healing."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-ENDO-12-04-C06",
+   "obj": "EN-12-D.6",
+   "title": "Metabolic syndrome and acanthosis nigricans",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Metabolic syndrome is a cluster of risk factors that share insulin resistance as a common cause and that together raise the risk of type 2 diabetes and atherosclerotic cardiovascular disease. Under the widely used harmonized definition, any three of the five components below establish the diagnosis, and drug treatment for a component counts as meeting it."
+    },
+    {
+     "type": "table",
+     "title": "Components of metabolic syndrome (any three)",
+     "cols": [
+      "Component",
+      "Cutoff"
+     ],
+     "rows": [
+      [
+       "Abdominal obesity",
+       "Waist over 102 cm (40 in) in men, over 88 cm (35 in) in women (US cutoffs; lower for Asian populations)"
+      ],
+      [
+       "Triglycerides",
+       "150 mg/dL or more"
+      ],
+      [
+       "HDL cholesterol",
+       "Under 40 mg/dL in men, under 50 mg/dL in women"
+      ],
+      [
+       "Blood pressure",
+       "130 mm Hg systolic or more, or 85 mm Hg diastolic or more"
+      ],
+      [
+       "Fasting glucose",
+       "100 mg/dL or more"
+      ]
+     ],
+     "caption": "Waist circumference cutoffs vary by population and by defining organization."
+    },
+    {
+     "type": "p",
+     "text": "Visceral adipocytes are more lipolytic and less responsive to the antilipolytic effect of insulin than subcutaneous fat, and they drain directly into the portal vein. The liver therefore receives a large load of free fatty acids, which it re-esterifies into triglyceride, stores (hepatic steatosis), and exports in VLDL. Cholesteryl ester transfer protein exchanges VLDL triglyceride for HDL cholesteryl ester, and triglyceride-rich HDL is hydrolyzed by hepatic lipase and cleared faster, so HDL falls; the same exchange produces small, dense LDL. Hepatic insulin resistance leaves glucose output unsuppressed, raising fasting glucose. Compensatory hyperinsulinemia increases renal tubular sodium reabsorption and sympathetic activity, while resistant endothelium makes less nitric oxide, so blood pressure rises."
+    },
+    {
+     "type": "flow",
+     "title": "How insulin resistance produces the components",
+     "steps": [
+      "Visceral fat resists insulin's antilipolytic effect",
+      "Portal free fatty acid flow to the liver rises",
+      "Liver secretes more VLDL: high triglycerides",
+      "Lipid exchange and faster clearance: low HDL",
+      "Hyperinsulinemia: renal sodium retention, sympathetic activation",
+      "Unsuppressed hepatic glucose output: raised fasting glucose"
+     ],
+     "caption": "Low adiponectin, raised PAI-1, and inflammatory cytokines add prothrombotic and proinflammatory risk."
+    },
+    {
+     "type": "p",
+     "text": "Acanthosis nigricans is velvety, hyperpigmented, thickened skin in the back and sides of the neck, axillae, and groin. Very high insulin concentrations bind and activate IGF-1 receptors on keratinocytes and dermal fibroblasts, stimulating their growth. Histology shows hyperkeratosis and papillomatosis with little increase in melanocytes, so the dark color comes mainly from thickened epidermis. It appears with obesity, type 2 diabetes, and polycystic ovary syndrome, where hyperinsulinemia also stimulates ovarian androgen production. A sudden, extensive eruption in an older adult who is not obese suggests malignant acanthosis nigricans, most often with gastric adenocarcinoma, in which tumor-derived growth factors rather than insulin stimulate the skin."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Diabetes ties the Part I disciplines together through one hormone. Physiology and biochemistry explain the acute disease: insulin lack changes the glucagon to insulin ratio, which turns on hepatic glucose output, lipolysis, and ketogenesis, while the kidney's glucose threshold converts hyperglycemia into osmotic diuresis and electrolyte loss. Immunology and genetics separate the types: HLA class II linked T cell destruction in type 1, polygenic insulin resistance with amyloid-laden islets in type 2. Pathology explains the chronic disease through glycation and the polyol pathway acting in insulin-independent tissues. The same polyol chemistry explains the infant cataracts of galactosemia, in which aldose reductase converts galactose to galactitol."
+  },
+  {
+   "type": "p",
+   "text": "Microbiology completes the picture. Hyperglycemia impairs neutrophil chemotaxis and phagocytosis, and ischemic, insensate feet admit polymicrobial infection and osteomyelitis; in ketoacidosis, Mucor and Rhizopus thrive on high glucose and acidic conditions, causing rhinocerebral mucormycosis. The limits matter: glucose and HbA1c thresholds are population cutoffs rather than biological boundaries, HbA1c depends on red cell survival, and many patients do not fit neatly into one type."
+  }
+ ],
+ "summary": [
+  "Type 1 diabetes is T cell mediated beta cell destruction linked to HLA-DR3 and HLA-DR4, with insulitis, islet autoantibodies, absolute insulin deficiency, and ketosis.",
+  "Type 2 diabetes is insulin resistance from visceral obesity followed by beta cell failure, with islet amyloid from amylin and relatively preserved insulin.",
+  "Residual insulin prevents ketosis because restraining lipolysis and ketogenesis needs far less insulin than driving glucose into muscle.",
+  "Diabetes is fasting glucose 126 mg/dL or more, 2-hour OGTT 200 mg/dL or more, HbA1c 6.5% or more, or random glucose 200 mg/dL or more with symptoms.",
+  "HbA1c is nonenzymatic glycation of hemoglobin over the 120-day red cell life; hemolysis and blood loss make it falsely low.",
+  "DKA is an anion gap ketoacidosis with Kussmaul breathing and high serum but low total body potassium; HHS is extreme hyperglycemia and hyperosmolality with altered mental status and little ketosis.",
+  "Insulin-independent tissues (lens, nerve, retina, kidney, endothelium) are injured by AGEs and by sorbitol accumulation with NADPH depletion.",
+  "AGEs and protein leak produce basement membrane thickening, hyaline arteriolosclerosis, and accelerated atherosclerosis.",
+  "Diabetic nephropathy progresses from hyperfiltration and GBM thickening to Kimmelstiel-Wilson nodules and albuminuria; retinopathy progresses from microaneurysms to VEGF-driven neovascularization.",
+  "Metabolic syndrome is any three of abdominal obesity, high triglycerides, low HDL, hypertension, and raised fasting glucose; acanthosis nigricans marks hyperinsulinemia."
+ ],
+ "sources": [
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "The Endocrine System, section on diabetes mellitus"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Insulin, Glucagon, and Diabetes Mellitus"
+  },
+  {
+   "book": "Boron and Boulpaep Medical Physiology",
+   "where": "The Endocrine Pancreas"
+  },
+  {
+   "book": "Lippincott Illustrated Reviews: Biochemistry",
+   "where": "Diabetes Mellitus; Metabolic Effects of Insulin and Glucagon"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Disorders of the Endocrine Pancreas"
+  },
+  {
+   "book": "Abbas, Cellular and Molecular Immunology",
+   "where": "Immunologic Tolerance and Autoimmunity"
+  }
+ ],
+ "verify": [
+  "The diagnostic and prediabetes thresholds follow the American Diabetes Association Standards of Care; confirm that NABNE uses the same values and the HbA1c prediabetes range of 5.7% to 6.4%.",
+  "DKA and HHS criteria here are the classic consensus values (DKA glucose over 250 mg/dL, pH under 7.30, bicarbonate 18 mEq/L or less; HHS glucose over 600 mg/dL, osmolality over 320 mOsm/kg). A 2024 international consensus revised some thresholds, including a lower glucose criterion for DKA; confirm which set NABNE expects.",
+  "Euglycemic DKA (ketoacidosis with near-normal glucose, described in pregnancy, starvation, and with SGLT2 inhibitors) is not covered as a separate topic; confirm whether NABNE Part I tests it.",
+  "The sodium correction factor is given as 1.6 mEq/L per 100 mg/dL of glucose; some sources use 2.4 mEq/L, especially at very high glucose.",
+  "The fraction of beta cells lost before type 1 diabetes becomes symptomatic is quoted from about 70% to over 90% in different sources, so the chapter says only that most beta cell mass is lost.",
+  "Twin concordance figures for type 1 and type 2 diabetes vary widely between studies; the chapter gives only the direction (higher in type 2).",
+  "Metabolic syndrome criteria follow the harmonized definition; IDF and older NCEP ATP III criteria differ in whether abdominal obesity is required and in waist cutoffs.",
+  "The renal glucose threshold is quoted as about 180 to 200 mg/dL; individual values vary and fall in pregnancy.",
+  "Requested new diagram names for a future revision: dm-glomerulus (normal glomerulus beside diabetic glomerulus with GBM thickening and Kimmelstiel-Wilson nodules) and polyol-pathway (glucose to sorbitol to fructose with NADPH and NAD+ cofactors)."
+ ]
+}
