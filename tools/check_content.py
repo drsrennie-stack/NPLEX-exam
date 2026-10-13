@@ -84,6 +84,24 @@ def check_unit(u, err, warn):
         url = v.get("url", "")
         if not re.match(r"^https://(www\.)?(youtube\.com/watch\?v=[\w-]{11}|youtu\.be/[\w-]{11}|www\.khanacademy\.org/)", url):
             warn(f"{w}: unusual video url {url}")
+    for n in u.get("notes", []):
+        if "why" in n and not (15 <= len(n["why"].split()) <= 110):
+            warn(f"{w}: notes '{n.get('h')}' why has {len(n['why'].split())} words (want about 30 to 90)")
+    for f in u.get("flows", []):
+        st = f.get("steps", [])
+        if not f.get("title") or not (3 <= len(st) <= 7):
+            err(f"{w}: flow '{f.get('title')}' needs a title and 3 to 7 steps")
+        for x in st:
+            if len(x.split()) > 18:
+                warn(f"{w}: flow step too long: {x[:50]}")
+    for g in u.get("figures", []):
+        for k in ["src", "alt", "caption", "credit", "link", "license"]:
+            if not g.get(k):
+                err(f"{w}: figure missing {k}")
+        if not re.match(r"^https://upload\.wikimedia\.org/", g.get("src", "")):
+            err(f"{w}: figure src must be an upload.wikimedia.org URL")
+        if not re.match(r"^(CC0|Public domain|CC BY(-SA)? \d\.\d)", g.get("license", "")):
+            err(f"{w}: figure license not allowed: {g.get('license')}")
     for r in u.get("refs", []):
         if re.search(r"\b(ch(apter)?\.?\s*\d+|p\.?\s*\d+|page \d+)", r.get("where", ""), re.I):
             err(f"{w}: reference uses a chapter or page number: {r.get('where')}")

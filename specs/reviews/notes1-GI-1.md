@@ -1,0 +1,13 @@
+# Review log: notes/chapters/GI-1.json (Phase 1 notes)
+- C01: corrected visceral pain pathway; distal sigmoid colon and rectum pain fibers travel with pelvic splanchnic nerves (S2 to S4), not sympathetic splanchnics.
+- C01: cut gallbladder add-on from the appendicitis worked example to hold length.
+- C02: corrected malrotation with volvulus timing from "usually first weeks" to most often first month, can occur at any age.
+- C03: corrected esophageal muscle description (striated upper, smooth lower, mixed zone; vagus supplies both, smooth part via enteric plexus).
+- C03: made polyhydramnios mechanism precise (swallowed fluid cannot reach the intestine; swallowing itself is not blocked).
+- C04: removed loose causal claim linking week 12 bile secretion to meconium color.
+- C06: removed sentence on abdominal distension that repeated the worked example.
+- C06: table column renamed Imaging and each cell names the study (plain film, upper GI contrast study, contrast enema); Hirschsprung transition zone is a contrast enema finding, not a plain film finding.
+- Integration: cut sentence repeating C01 blood supply and watershed content.
+- verify: added that the level of the pelvic pain line varies between sources.
+- Checked and confirmed without change: gut borders, arteries, parasympathetic supply, midgut limbs and 270 degree rotation timing, Ladd bands, omphalocele and gastroschisis, TEF forms and frequencies, hepatic diverticulum and pancreatic bud derivatives, annular pancreas, pancreas divisum, GDNF/RET, EDNRB/EDN3/SOX10, Hirschsprung epidemiology and biopsy, duodenal atresia findings. STOP prompts answerable; sources real; no treatment content.
+- Checker: 0 errors, 0 warnings; total words 4840 (was 4841).

@@ -1,0 +1,24 @@
+# Review log: notes/chapters/CV-9.json (Phase 1)
+
+- C01 descending thoracic paragraph: added the subcostal arteries to the branch list (competency asks for descending thoracic branches).
+- C01 arch paragraph: brachiocephalic trunk now names its two terminal branches (right subclavian, right common carotid).
+- C01 arch paragraph: removed the carotid bifurcation shear stress clause (off competency) to hold length.
+- C01 abdominal aorta table: added the median sacral artery (branch list was incomplete).
+- C01 levels paragraph: "atherosclerotic and infrarenal" shortened to "infrarenal" (etiology belongs in CV-18-I).
+- C02 ICA paragraph: corrected "its middle meningeal branch"; the middle meningeal artery arises from the maxillary branch of the external carotid, not directly from it.
+- C02 opening paragraph: cut the brain oxygen sentence (repeats C06).
+- C03 lower limb paragraph: corrected "The fibular artery supplies the lateral compartment"; the lateral compartment has no artery of its own and is supplied by perforating anterior tibial and fibular branches (Moore).
+- C03 lower limb paragraph: added the popliteal division into anterior and posterior tibial arteries and the fibular origin from the posterior tibial (competency lists these vessels; anterior tibial was missing).
+- C03 lower limb paragraph: "posterior knee dislocation" generalized to "knee dislocation" (anterior and posterior both injure the popliteal artery).
+- C03 pulse table: femoral row now states it continues the external iliac and is felt at the midinguinal point (external iliac was missing); posterior tibial row corrected to begin at the lower border of popliteus (tibiofibular trunk wording removed).
+- C03 PAD paragraph: "ankle-brachial index well below 1" made precise as "below about 0.9".
+- C03 STOP explain: corrected claudication site for iliac obstruction to thigh and calf, plus buttock with common iliac involvement (was "hip and thigh first").
+- C04 venous paragraph: right varicocele differential now includes a retroperitoneal mass; opening sentence tightened.
+- C04 anastomosis table: umbilical systemic vein specified as superficial epigastric; caption clarified that anorectal varices differ from hemorrhoids.
+- C05 border zone paragraph: removed selective neuronal vulnerability sentence (global ischemia, not watershed mechanism; off competency).
+- C06 opening paragraph: vague sentence made specific (kidneys and gut use flow for filtration and processing; heart extracts most oxygen); removed postprandial flow clause.
+- C06 hemorrhage flow caption: removed the inaccurate claim that the constricted beds are all low extraction (resting muscle is near body average).
+- Summary line 9: "kidney has the lowest O2 extraction" corrected, since skin is lower; now "extracts little O2".
+- Overview intro and integration: cut a filler sentence each to keep length at or below the original (4,448 words).
+- All other facts, levels, tables, flows, worked examples (subclavian steal, Fick arithmetic: kidney 16.5 mL/min at 7.5%, heart 31.5 mL/min at 70%) checked and confirmed; STOP prompts answerable and check targets correct; sources are real titles; verify list honest; no dashes, italics, or banned phrases.
+- Checker: 0 errors, 0 warnings.
