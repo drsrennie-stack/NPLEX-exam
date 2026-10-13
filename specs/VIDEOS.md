@@ -23,3 +23,9 @@ You add verified YouTube videos to study units that have an empty "videos" list.
 - Edit the JSON in place, only the "videos" arrays. If you use a script, keep it in /tmp/claude-0/-home-claude/196c237b-c04d-5344-9a45-41a08c1a519e/scratchpad/videos-<sys>-<n>/ with a unique name.
 - Run `python3 tools/check_content.py <your file>` and fix every ERROR.
 - Reply with ONE line only: file, units filled, units still empty, total videos added.
+
+## Second pass (search budget is tight)
+- Only fill units whose "videos" list is still empty, in the files you are given.
+- First look for already verified videos in other units: grep content/*/units-*.json for the topic. If one is clearly on this unit's topic, reuse it (copy channel, title, url exactly). This costs no searches.
+- Search budget: at most 2 WebSearch calls per empty unit in your files, total. Make each search count (for example "Ninja Nerd renal tubular acidosis", then "Armando Hasudungan OR Khan Academy renal tubular acidosis"). Aim for 1 to 3 verified videos per unit.
+- Still verify every new video with the oEmbed fetch.
