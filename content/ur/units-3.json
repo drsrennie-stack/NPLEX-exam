@@ -13,7 +13,8 @@
           "Histology: interstitial edema with lymphocytes, macrophages, and eosinophils; tubulitis; some drugs give small non-necrotizing granulomas; glomeruli are spared.",
           "NSAIDs can cause AIN together with nephrotic-range proteinuria (minimal change pattern) and often without fever or rash.",
           "Usually recovers over weeks once the drug is stopped; delay allows interstitial fibrosis."
-        ]
+        ],
+        "why": "Many of these drugs act as haptens: they bind tubular or interstitial proteins, become immunogenic, and sensitize T cells, which drive a delayed (type IV) reaction that recruits macrophages and eosinophils. The infiltrate and edema sit between the tubules, so tubular function and GFR fall while glomeruli stay normal, which is why the urine shows white cells and WBC casts instead of red cell casts. NSAIDs can also injure podocytes (a minimal change pattern) and blunt the systemic signs of hypersensitivity. Stopping the drug removes the antigen, but an infiltrate left in place organizes into interstitial fibrosis."
       },
       {
         "h": "Analgesic nephropathy and papillary necrosis",
@@ -25,7 +26,8 @@
           "A sloughed papilla can pass down the ureter, causing colic and gross hematuria, or obstruct it.",
           "Long-term phenacetin use raises the risk of urothelial carcinoma of the renal pelvis.",
           "Other causes of papillary necrosis: diabetes mellitus, sickle cell disease or trait, severe acute pyelonephritis, and urinary obstruction."
-        ]
+        ],
+        "why": "The inner medulla and papillary tip are fed only by the long, slow-flowing vasa recta, so their oxygen supply is marginal even in health. Medullary blood flow depends on vasodilating prostaglandins (PGE2 and PGI2); aspirin removes that support, and after aspirin depletes glutathione, phenacetin's metabolite acetaminophen, which concentrates in the medulla, causes oxidative injury. The papillae die first, the cortex that drains through them atrophies and scars, and loss of the medullary interstitium destroys the countercurrent gradient, so concentrating ability fails early."
       },
       {
         "h": "Chronic pyelonephritis",
@@ -36,7 +38,8 @@
           "Histology: interstitial fibrosis, chronic inflammation (lymphocytes, plasma cells), and atrophic dilated tubules filled with pink hyaline casts that look like thyroid follicles (thyroidization).",
           "Clinical: hypertension, polyuria and nocturia from lost concentrating ability, slowly progressive chronic kidney disease; WBC casts during flares.",
           "Scarred kidneys can develop secondary focal segmental glomerulosclerosis with proteinuria."
-        ]
+        ],
+        "why": "Compound papillae at the poles have wide, flat duct openings that do not close under pressure, so refluxed infected urine enters the parenchyma there (intrarenal reflux). Each bout of infection destroys papillae and the tubules that drain into them; the overlying cortex contracts into a scar and the calyx beneath it blunts, which is why the scars sit over deformed calyces, unlike the smooth scars of vascular disease. Obstructed tubules dilate and fill with protein casts (thyroidization), and loss of medulla causes polyuria. Remaining nephrons hyperfilter, which drives secondary FSGS."
       },
       {
         "h": "Xanthogranulomatous pyelonephritis",
@@ -45,7 +48,8 @@
           "Typical setting: an obstructing stone (often staghorn) with Proteus or E. coli infection.",
           "The kidney fills with yellow nodules of lipid-laden foamy macrophages, plus plasma cells, neutrophils, and giant cells.",
           "Presents as an enlarged nonfunctioning kidney with a mass on imaging, so it can mimic renal cell carcinoma; the foamy cells can resemble clear tumor cells."
-        ]
+        ],
+        "why": "Chronic obstruction stops drainage, so bacteria persist and the inflammation never resolves. Macrophages in the destroyed tissue fill with lipid and become foamy xanthoma cells, which give the yellow nodules. The process replaces the parenchyma and can extend into the perinephric fat, so the kidney is enlarged and nonfunctioning, and the pale lipid-rich cells explain why the lesion can be mistaken for clear cell renal cell carcinoma on imaging and on histology."
       },
       {
         "h": "Interstitial cystitis (bladder pain syndrome)",
@@ -54,7 +58,8 @@
           "Most often in women; pain typically worsens as the bladder fills and eases after voiding.",
           "A diagnosis of exclusion: rule out infection, stones, and bladder cancer first.",
           "Cystoscopy shows Hunner lesions (red ulcerated patches) in some patients."
-        ]
+        ],
+        "why": "The cause is not known; leading ideas include a defective glycosaminoglycan layer on the urothelium, mast cell activation, and sensitized bladder sensory nerves. If urine solutes such as potassium cross a leaky urothelial barrier, they can irritate the nerves beneath it, which fits pain that rises as the bladder stretches during filling and eases after it empties. No single test proves the disease, so the diagnosis rests on typical symptoms after infection, stones, and cancer have been excluded."
       }
     ],
     "charts": [
@@ -218,6 +223,40 @@
       "UR-12-H1",
       "UR-12-C2",
       "UR-12-F5"
+    ],
+    "flows": [
+      {
+        "title": "Drug-induced acute interstitial nephritis",
+        "steps": [
+          "New drug started, such as a penicillin, NSAID, or proton pump inhibitor",
+          "Drug binds tubular or interstitial proteins and acts as a hapten",
+          "Sensitized T cells recruit macrophages and eosinophils (type IV reaction)",
+          "Interstitial edema and tubulitis impair tubular function",
+          "GFR falls; pyuria and WBC casts appear",
+          "Drug stopped: recovery; drug continued: interstitial fibrosis"
+        ]
+      },
+      {
+        "title": "Analgesic nephropathy",
+        "steps": [
+          "Years of heavy combination analgesic use",
+          "Aspirin blocks vasodilating prostaglandins in the medulla",
+          "Phenacetin metabolites cause oxidative injury in the poorly perfused papillae",
+          "Papillary necrosis",
+          "Overlying cortex atrophies and scars (chronic interstitial nephritis)",
+          "Lost concentrating ability and slowly rising creatinine"
+        ]
+      },
+      {
+        "title": "Reflux nephropathy (chronic pyelonephritis)",
+        "steps": [
+          "Vesicoureteral reflux carries infected bladder urine to the renal pelvis",
+          "Urine enters polar compound papillae (intrarenal reflux)",
+          "Acute pyelonephritis destroys papillae and tubules",
+          "Cortex contracts into a scar over a blunted calyx",
+          "Hypertension, polyuria, and progressive chronic kidney disease"
+        ]
+      }
     ]
   },
   {
@@ -232,7 +271,8 @@
           "Hematuria in childhood, then proteinuria and progression to end-stage renal disease in young adulthood.",
           "Extrarenal: sensorineural hearing loss and eye lesions, especially anterior lenticonus.",
           "Electron microscopy: GBM thinned in places and thickened and split in others, giving a basket-weave look."
-        ]
+        ],
+        "why": "In the mature GBM, type IV collagen alpha 3, 4, and 5 chains must assemble together into one triple helix network, so a defect in any one chain prevents the whole network from forming. The embryonic alpha 1 and alpha 2 network persists instead, and it is less durable, so the GBM thins, splits, and leaks red cells early and protein later as glomeruli scar. The same alpha 3, 4, 5 network is found in the cochlea and lens capsule, explaining hearing loss and lenticonus. X-linked COL4A5 disease leaves hemizygous males with no normal chain, while carrier females have milder disease."
       },
       {
         "h": "Autosomal dominant polycystic kidney disease (ADPKD)",
@@ -242,7 +282,8 @@
           "Bilaterally enlarged lumpy kidneys, flank pain, hematuria, stones, infected cysts, hypertension, progressive renal failure.",
           "Hypertension comes from cysts compressing vessels, causing local ischemia and renin release.",
           "Extrarenal: liver cysts (most common), berry aneurysms with risk of subarachnoid hemorrhage, mitral valve prolapse, colonic diverticula."
-        ]
+        ],
+        "why": "Polycystin-1 and polycystin-2 form a complex on the primary cilium of tubular cells that senses urine flow and lets calcium into the cell. Loss of this signal lowers intracellular calcium and raises cAMP, which drives epithelial proliferation and chloride-driven fluid secretion into the lumen, so a tubule segment balloons into a cyst that detaches and keeps enlarging. A second hit in the normal allele of individual cells explains why cysts arise focally and grow over decades. Polycystins are also expressed in vascular smooth muscle and bile duct epithelium, which links the disease to berry aneurysms and liver cysts."
       },
       {
         "h": "Other cystic kidney diseases",
@@ -252,7 +293,8 @@
           "Multicystic dysplastic kidney: abnormal metanephric development, often with ureteral atresia; usually one side, sporadic, and not inherited.",
           "Dysplastic kidney contains cysts plus immature tubules, undifferentiated mesenchyme, and sometimes cartilage; the other kidney compensates.",
           "Acquired cystic disease: many cysts in kidneys of patients on long-term dialysis, with a higher risk of renal cell carcinoma."
-        ]
+        ],
+        "why": "In ARPKD, fibrocystin, a ciliary protein of collecting duct and bile duct epithelium, is missing, so collecting ducts dilate into radially arranged cysts and the portal bile ducts develop abnormally, leading to congenital hepatic fibrosis. Severe kidney disease means little fetal urine, which is why the most affected infants have oligohydramnios. Multicystic dysplasia is a failure of development instead of a gene defect: when the ureteric bud is atretic, the metanephric mesenchyme is not properly induced and forms disorganized tissue with cysts and cartilage. Acquired cysts arise in end-stage kidneys on long-term dialysis, and their epithelium can transform into renal cell carcinoma."
       },
       {
         "h": "Renal agenesis",
@@ -263,7 +305,8 @@
           "Potter sequence: pulmonary hypoplasia (the cause of death), flat face with low-set ears and small chin, limb deformities such as clubfeet.",
           "Unilateral agenesis is usually silent; the single kidney undergoes compensatory hypertrophy.",
           "Unilateral agenesis can come with genital tract anomalies on the same side, because the ureteric bud grows out of the mesonephric duct, next to the paramesonephric duct."
-        ]
+        ],
+        "why": "The kidney forms only when the ureteric bud and metanephric mesenchyme induce each other: the bud branches into collecting ducts, calyces, and pelvis, and the mesenchyme forms nephrons from glomerulus to distal convoluted tubule. Without either partner, no kidney forms. From about the second trimester fetal urine is the main source of amniotic fluid, so bilateral absence leaves too little; the uterine wall then compresses the face and limbs, and the cramped chest and lack of fluid stop normal lung growth. One healthy kidney can do the work of two, so unilateral agenesis is often found by chance."
       },
       {
         "h": "Vesicoureteral reflux (VUR)",
@@ -274,7 +317,8 @@
           "Repeated infection plus intrarenal reflux causes reflux nephropathy: polar scars, hypertension, and chronic kidney disease.",
           "Voiding cystourethrogram (VCUG) is the diagnostic study and grades the reflux.",
           "Often familial; mild primary reflux often resolves as the child grows and the intravesical ureter lengthens."
-        ]
+        ],
+        "why": "Normally the distal ureter tunnels obliquely through the detrusor, so rising bladder pressure presses the intramural segment flat against the muscle and seals it like a flap valve. A short intravesical tunnel, or a bladder that generates abnormally high pressure, defeats this valve, and urine flows backward during voiding. Refluxed urine drains back into the bladder afterward, leaving residual urine, and it delivers bladder bacteria to the renal pelvis; where it enters compound papillae, infection reaches the parenchyma and heals as scar. As the child grows, the intramural tunnel lengthens and mild reflux often stops."
       }
     ],
     "charts": [
@@ -440,6 +484,40 @@
       "UR-12-H1",
       "UR-12-A",
       "CV-18-I1"
+    ],
+    "flows": [
+      {
+        "title": "Potter sequence from bilateral renal agenesis",
+        "steps": [
+          "Ureteric bud fails to form or induce metanephric mesenchyme",
+          "No kidneys, so no fetal urine",
+          "Oligohydramnios from about the second trimester",
+          "Uterine compression of the fetus and restricted lung growth",
+          "Pulmonary hypoplasia, flat facies, and limb deformities",
+          "Respiratory failure after birth"
+        ]
+      },
+      {
+        "title": "Cyst formation in ADPKD",
+        "steps": [
+          "Germline PKD1 or PKD2 mutation, then a second hit in one tubular cell",
+          "Loss of ciliary polycystin signaling lowers intracellular calcium",
+          "cAMP rises, driving cell proliferation and fluid secretion",
+          "Tubule segment dilates into a cyst and detaches",
+          "Enlarging cysts compress parenchyma and vessels",
+          "Hypertension and progressive renal failure"
+        ]
+      },
+      {
+        "title": "Alport syndrome",
+        "steps": [
+          "COL4A5 mutation (X-linked) or COL4A3 or COL4A4 mutation",
+          "Alpha 3, 4, 5 collagen network fails to assemble in the GBM",
+          "GBM thins and splits (basket-weave pattern)",
+          "Hematuria in childhood, then proteinuria",
+          "Glomerulosclerosis and end-stage renal disease in young adulthood"
+        ]
+      }
     ]
   },
   {
@@ -455,7 +533,8 @@
           "Triad: microangiopathic hemolytic anemia with schistocytes, thrombocytopenia from platelet consumption, and acute kidney injury.",
           "Hemolysis labs: high LDH, high indirect bilirubin, low haptoglobin, negative direct Coombs test; PT and aPTT are normal, unlike DIC.",
           "TTP: deficient ADAMTS13 (usually an autoantibody) leaves ultra-large von Willebrand factor multimers that clump platelets; mostly adults, more neurologic signs, milder renal injury."
-        ]
+        ],
+        "why": "Shiga toxin crosses the inflamed colon into the blood, binds the glycolipid Gb3, which glomerular endothelium expresses in large amounts, and removes an adenine from 28S ribosomal RNA, stopping protein synthesis. Damaged endothelium becomes prothrombotic and activates platelets, so platelet-fibrin thrombi narrow small vessels; red cells are sheared as they pass (schistocytes) and platelets are used up. Clotting factors are not consumed systemically, so PT and aPTT stay normal, unlike DIC. In TTP, uncleaved von Willebrand factor multimers build platelet-rich thrombi throughout the circulation, including the brain."
       },
       {
         "h": "Hypertensive nephrosclerosis",
@@ -466,7 +545,8 @@
           "Malignant hypertension (very high pressure, often above 180/120 mm Hg, with organ damage) causes hyperplastic onion-skin arteriolosclerosis.",
           "Malignant hypertension also causes fibrinoid necrosis of arterioles and pinpoint cortical hemorrhages, the flea-bitten kidney.",
           "Malignant hypertension presents with acute kidney injury, hematuria, proteinuria, headache, and papilledema; ischemia drives more renin, which raises pressure further."
-        ]
+        ],
+        "why": "In long-standing hypertension, pressure and endothelial injury let plasma proteins seep into the arteriolar wall and basement membrane material builds up, producing hyaline arteriolosclerosis. The lumen narrows slowly, so nephrons drop out patchily by ischemia, leaving symmetric small kidneys with a fine granular surface. In malignant hypertension the pressure rise is abrupt and severe: smooth muscle cells proliferate and lay down concentric layers of basement membrane (onion skin), and necrotic arteriolar walls rupture into pinpoint hemorrhages. The ischemic kidney releases renin, which raises pressure further in a self-reinforcing loop."
       },
       {
         "h": "Renal artery stenosis",
@@ -476,7 +556,8 @@
           "Low perfusion pressure at the juxtaglomerular cells raises renin, angiotensin II, and aldosterone, so hypertension follows (sometimes with hypokalemia).",
           "Clues: an abdominal or flank bruit, resistant hypertension, a rise in creatinine after starting an ACE inhibitor.",
           "The poorly perfused kidney shrinks from ischemic atrophy, while the other kidney faces high pressure and develops nephrosclerosis."
-        ]
+        ],
+        "why": "Juxtaglomerular cells in the afferent arteriole act as baroreceptors; when a stenosis lowers pressure downstream, they release renin, and angiotensin II and aldosterone raise systemic pressure, with aldosterone also wasting potassium. In the affected kidney, angiotensin II constricts the efferent arteriole, which holds glomerular capillary pressure and GFR up; an ACE inhibitor removes this support, so GFR falls, most sharply with bilateral stenosis or a solitary kidney. Turbulent flow through the narrowed lumen produces the bruit, and the opposite kidney, exposed to high pressure, develops arteriolosclerosis."
       },
       {
         "h": "Renal infarction",
@@ -485,7 +566,8 @@
           "Most come from emboli: left atrial thrombus in atrial fibrillation, mural thrombus after myocardial infarction, endocarditis vegetations; less often local thrombosis.",
           "Pale, wedge-shaped coagulative infarct with its base at the capsule and its tip toward the hilum; it heals as a V-shaped depressed scar.",
           "Clinical: sudden flank pain, hematuria, and a raised serum LDH."
-        ]
+        ],
+        "why": "Each segmental and interlobar artery supplies its territory without useful anastomoses, so occlusion kills the whole fan-shaped region it feeds, giving a wedge whose base is the capsule. The kidney is a solid organ with a single arterial supply, so the tissue dies by coagulative necrosis and looks pale instead of hemorrhagic. Dying tubular cells release LDH into the blood and the injured tissue bleeds into the urine. Most emboli come from the left heart because the kidneys receive about 20 percent of cardiac output directly from the aorta."
       },
       {
         "h": "Sickle cell nephropathy",
@@ -496,7 +578,8 @@
           "Loss of the medullary concentration gradient leaves urine fixed near plasma osmolality (isosthenuria), causing polyuria, nocturia, and dehydration risk.",
           "Hematuria is common, in sickle cell disease and in sickle cell trait.",
           "Sickle cell trait is also linked to renal medullary carcinoma, a rare aggressive tumor of young people."
-        ]
+        ],
+        "why": "HbS polymerizes only when deoxygenated, and the rate of polymerization climbs steeply with HbS concentration. Blood in the vasa recta moves slowly through an inner medulla with low oxygen tension, high osmolality that dehydrates red cells, and low pH that shifts the oxygen curve to the right, so every condition that favors sickling is present at once. Occluded vasa recta destroy the medullary interstitium and the loops of Henle that build the countercurrent gradient, so the urine cannot be concentrated much above plasma. Trait carriers have enough HbS to sickle under these extreme conditions, so hematuria and isosthenuria can occur without anemia."
       },
       {
         "h": "Renal vein thrombosis",
@@ -505,7 +588,8 @@
           "Nephrotic syndrome is hypercoagulable because antithrombin is lost in the urine and the liver makes more clotting factors.",
           "Findings: flank pain, hematuria, an enlarged swollen kidney, worsening proteinuria or renal function.",
           "Left renal vein thrombosis can cause a left varicocele because the left gonadal vein drains into the left renal vein."
-        ]
+        ],
+        "why": "Nephrotic syndrome leaks small anticoagulant proteins, especially antithrombin, into the urine, while the liver responds to low plasma oncotic pressure by making more proteins, including fibrinogen and other clotting factors. Membranous nephropathy carries the highest risk among nephrotic diseases. A clot in the renal vein raises back pressure in the kidney, so it swells, filtration falls, and congested glomerular capillaries leak more blood and protein. The left gonadal vein drains into the left renal vein, so blockage there raises pressure in the left pampiniform plexus."
       }
     ],
     "charts": [
@@ -700,6 +784,39 @@
       "UR-12-D",
       "HE-9-B1",
       "UR-12-G1"
+    ],
+    "flows": [
+      {
+        "title": "Typical hemolytic uremic syndrome",
+        "steps": [
+          "Ingestion of Shiga toxin-producing E. coli O157:H7",
+          "Bloody diarrhea; toxin absorbed into the blood",
+          "Toxin binds Gb3 on glomerular endothelium and stops protein synthesis",
+          "Injured endothelium activates platelets and forms microthrombi",
+          "Red cells shear into schistocytes; platelets are consumed",
+          "Glomerular ischemia causes acute kidney injury"
+        ]
+      },
+      {
+        "title": "Renovascular hypertension",
+        "steps": [
+          "Renal artery stenosis from atherosclerosis or fibromuscular dysplasia",
+          "Lower perfusion pressure at the juxtaglomerular cells",
+          "Renin converts angiotensinogen to angiotensin I",
+          "ACE forms angiotensin II, which constricts arterioles and releases aldosterone",
+          "Vasoconstriction and sodium retention raise blood pressure"
+        ]
+      },
+      {
+        "title": "Sickle cell nephropathy",
+        "steps": [
+          "Renal medulla is hypoxic, hypertonic, and acidic",
+          "HbS deoxygenates and polymerizes; red cells sickle",
+          "Sickled cells occlude the vasa recta",
+          "Medullary microinfarcts and papillary necrosis",
+          "Countercurrent gradient lost: isosthenuria and polyuria"
+        ]
+      }
     ]
   },
   {
@@ -715,7 +832,8 @@
           "Micro: cells with clear cytoplasm filled with lipid and glycogen, in nests separated by a rich network of thin-walled vessels.",
           "Risk factors: smoking (the strongest), obesity, hypertension, acquired cystic disease of long-term dialysis, von Hippel-Lindau disease.",
           "Tends to grow into the renal vein and up the inferior vena cava, sometimes to the right heart."
-        ]
+        ],
+        "why": "The VHL protein is part of a ubiquitin ligase that tags HIF-alpha for proteasomal destruction when oxygen is present. With both VHL alleles inactivated (one often by loss of 3p), HIF accumulates as if the cell were hypoxic and switches on VEGF, PDGF, TGF-alpha, and glucose transporter genes, which explains the dense network of delicate vessels and the growth drive. The cells store lipid and glycogen that dissolve during tissue processing, leaving clear cytoplasm, and the lipid gives the yellow cut surface. The tumor's habit of growing into veins explains renal vein and caval extension."
       },
       {
         "h": "How renal cell carcinoma presents",
@@ -725,7 +843,8 @@
           "Paraneoplastic hormones: erythropoietin (polycythemia), PTHrP (hypercalcemia), renin (hypertension), sometimes ACTH (Cushing syndrome).",
           "Spreads through the blood to lung (round cannonball nodules) and bone (lytic lesions), often before local symptoms appear.",
           "A new left varicocele that does not empty when the man lies down suggests tumor blocking the left renal vein, where the left gonadal vein drains."
-        ]
+        ],
+        "why": "The kidney sits in the retroperitoneum, which has room for a mass to expand, so the classic triad appears only with large tumors and many are found incidentally. Tumor cells derived from tubular epithelium can secrete hormones the kidney normally makes, such as erythropoietin and renin, and can also make ectopic PTHrP or ACTH. Early invasion of the renal vein gives blood-borne spread to lung and bone before local symptoms appear. Tumor in the left renal vein blocks drainage of the left gonadal vein, which is why a left varicocele that persists when supine is a warning sign."
       },
       {
         "h": "Other renal cell tumors",
@@ -733,7 +852,8 @@
           "Papillary carcinoma: second most common, often multifocal; trisomy 7 and 17; papillae with fibrovascular cores holding foamy macrophages.",
           "Chromophobe carcinoma: from intercalated cells of the collecting duct; pale cells with distinct cell borders and a halo around the nucleus; better prognosis.",
           "Oncocytoma: benign tumor from intercalated cells; large pink cells packed with mitochondria; brown tumor with a central stellate scar."
-        ]
+        ],
+        "why": "The subtypes differ in their genetics and in the cells they resemble, which is why they look different under the microscope. Papillary carcinoma gains chromosomes 7 and 17, and hereditary cases carry activating MET mutations, so its growth signal differs from the VHL and HIF pathway of clear cell tumors. Chromophobe carcinoma and oncocytoma both come from intercalated cells of the collecting duct, so they can resemble each other on biopsy; in oncocytoma, cytoplasm packed with mitochondria gives the pink cells and the brown color. Oncocytoma is benign and chromophobe carcinoma has a good prognosis."
       },
       {
         "h": "Wilms tumor (nephroblastoma)",
@@ -745,7 +865,8 @@
           "WAGR: deletion at 11p13 causing Wilms tumor, aniridia, genitourinary anomalies, and developmental delay.",
           "Denys-Drash: WT1 mutation with early nephrotic syndrome (diffuse mesangial sclerosis), gonadal dysgenesis, and Wilms tumor.",
           "Beckwith-Wiedemann: macroglossia, organomegaly, hemihyperplasia, omphalocele, neonatal hypoglycemia, and risk of Wilms tumor and hepatoblastoma."
-        ]
+        ],
+        "why": "Wilms tumor often arises from nephrogenic rests, persistent embryonic metanephric tissue that never finished differentiating, so the tumor recapitulates kidney development: blastema, stroma, and attempts at tubules and glomeruli. WT1 encodes a transcription factor needed for normal kidney and gonad development, which is why its loss links tumor risk to genitourinary anomalies; the dominant-negative WT1 mutations of Denys-Drash also damage podocytes. At 11p15.5, loss of imprinting of IGF2 drives the overgrowth of Beckwith-Wiedemann syndrome. WAGR adds aniridia because the 11p13 deletion also removes the neighboring PAX6 gene."
       },
       {
         "h": "Bladder and collecting system tumors",
@@ -757,7 +878,8 @@
           "Risk factors: smoking (most important), aromatic amines from dye, rubber, and leather industries, cyclophosphamide, phenacetin.",
           "Squamous cell carcinoma: chronic irritation from Schistosoma haematobium eggs, long-term catheters, or stones causes squamous metaplasia that turns malignant.",
           "Adenocarcinoma: arises from urachal remnants at the bladder dome or in bladder exstrophy."
-        ]
+        ],
+        "why": "Urothelium lines the renal pelvis, ureters, bladder, and proximal urethra, and carcinogens concentrated in urine bathe all of it, so tumors are multifocal and recur at new sites (a field effect). Tobacco and aromatic amines are metabolized to reactive compounds that reach the bladder in urine, and cyclophosphamide yields acrolein, which also injures urothelium. Low grade papillary tumors often carry FGFR3 mutations and stay superficial, while flat carcinoma in situ usually has TP53 loss and invades early. Chronic irritation from Schistosoma eggs or stones causes squamous metaplasia, which can progress to squamous cell carcinoma."
       }
     ],
     "charts": [
@@ -942,6 +1064,38 @@
       "UR-12-D1",
       "UR-12-F",
       "NE-20-F3"
+    ],
+    "flows": [
+      {
+        "title": "Clear cell renal cell carcinoma",
+        "steps": [
+          "Both VHL alleles inactivated (often 3p loss) in a proximal tubule cell",
+          "HIF-alpha escapes degradation and accumulates",
+          "HIF switches on VEGF, PDGF, TGF-alpha, and glucose transporter genes",
+          "Angiogenesis and proliferation form a highly vascular tumor",
+          "Tumor invades the renal vein and spreads to lung and bone"
+        ]
+      },
+      {
+        "title": "Urothelial carcinoma field effect",
+        "steps": [
+          "Smoking or aromatic amine exposure",
+          "Carcinogenic metabolites are excreted into urine",
+          "Urine bathes the entire urothelium",
+          "Mutations accumulate at many mucosal sites",
+          "Multifocal tumors that recur at new sites; painless gross hematuria"
+        ]
+      },
+      {
+        "title": "Schistosomal squamous cell carcinoma of the bladder",
+        "steps": [
+          "Schistosoma haematobium eggs lodge in the bladder wall",
+          "Chronic granulomatous inflammation and fibrosis",
+          "Squamous metaplasia of the urothelium",
+          "Dysplasia of the metaplastic epithelium",
+          "Invasive squamous cell carcinoma"
+        ]
+      }
     ]
   },
   {
@@ -956,7 +1110,8 @@
           "Other organisms: Staphylococcus saprophyticus (young sexually active women), Proteus and Klebsiella, Enterococcus, and hospital gram-negative rods.",
           "Proteus makes urease, which splits urea to ammonia, makes urine alkaline, and favors struvite stones.",
           "Hematogenous spread to the kidney is less common and is seen with bacteremia such as Staphylococcus aureus."
-        ]
+        ],
+        "why": "Infection depends on bacteria reaching the bladder and holding on against the flushing of urine. Uropathogenic E. coli use type 1 fimbriae to attach to bladder urothelium and P fimbriae, which bind globoside receptors on upper tract urothelium, to resist urine flow and ascend the ureter. Proteus urease makes ammonia, which alkalinizes urine so magnesium ammonium phosphate precipitates as struvite, and the stone shelters bacteria from antibiotics. Hematogenous seeding requires bacteremia, so it involves organisms that circulate in blood, such as S. aureus."
       },
       {
         "h": "Cystitis",
@@ -966,7 +1121,8 @@
           "No fever, no flank pain, and no WBC casts, because the kidney is not involved.",
           "Urine: pyuria, positive leukocyte esterase, and a positive nitrite test with most gram-negative rods.",
           "Enterococcus and S. saprophyticus usually do not convert nitrate to nitrite, so the nitrite test can be negative."
-        ]
+        ],
+        "why": "The female urethra is short and opens near the perineum, so fecal flora have a short climb, and intercourse pushes bacteria toward the bladder. Anything that leaves residual urine, such as obstruction, or provides a foreign surface, such as a catheter, defeats the bladder's main defense, regular complete emptying. Leukocyte esterase comes from neutrophils, so it marks pyuria, while nitrite appears only when bacteria with nitrate reductase, mainly gram-negative enteric rods, sit in the bladder long enough to convert dietary nitrate. Infection confined to the bladder mucosa forms no tubular casts and usually causes no fever."
       },
       {
         "h": "Acute pyelonephritis",
@@ -977,7 +1133,8 @@
           "Histology: patchy neutrophilic inflammation of the interstitium with neutrophils filling tubules; glomeruli are spared early.",
           "Complications: papillary necrosis (diabetes, obstruction), pyonephrosis (pus filling a blocked collecting system), perinephric abscess, and sepsis.",
           "Repeated episodes with reflux or obstruction lead to chronic pyelonephritis."
-        ]
+        ],
+        "why": "Bacteria reach the pelvis by ascending the ureter, which reflux, obstruction, and the ureteral dilation of pregnancy all make easier. In the kidney, neutrophils pour into the interstitium and tubular lumens, and neutrophils packed in a tubule with Tamm-Horsfall protein (uromodulin) leave as WBC casts, which place the infection in the kidney. Parenchymal inflammation releases cytokines that cause fever and stretches the renal capsule, causing flank and costovertebral angle pain. In diabetes or obstruction, swelling and poor flow at the papillae cause papillary necrosis, and pus trapped behind a blockage forms pyonephrosis."
       },
       {
         "h": "Urethritis",
@@ -988,7 +1145,8 @@
           "Chlamydia is an obligate intracellular organism not seen on Gram stain; discharge is scant and watery, and many infections cause no symptoms.",
           "Nucleic acid amplification testing detects both; coinfection is common.",
           "Gonococcal pili change their antigens, so infection does not leave lasting immunity and reinfection is common."
-        ]
+        ],
+        "why": "Gonococci attach to columnar urethral epithelium by pili, invade it, and trigger a strong neutrophil response, which is why the discharge is purulent and Gram stain shows diplococci inside neutrophils. Chlamydia lives inside host cells as a reticulate body and spreads as the elementary body, so it is not seen on Gram stain and provokes a milder, often silent response. Gonococcal pilin genes recombine to change surface antigens (antigenic variation), so antibodies from one infection do not protect against the next. Shared sexual exposure explains frequent coinfection."
       },
       {
         "h": "Complications of urethritis",
@@ -997,7 +1155,8 @@
           "Women: cervicitis and pelvic inflammatory disease, leading to infertility, ectopic pregnancy, and perihepatitis (Fitz-Hugh-Curtis syndrome).",
           "Chlamydia can trigger reactive arthritis: arthritis, urethritis, and conjunctivitis, often in HLA-B27 positive people.",
           "Disseminated gonococcal infection causes septic arthritis, tenosynovitis, and pustular skin lesions."
-        ]
+        ],
+        "why": "Untreated urethral infection ascends along continuous mucosa: in men through the ductus deferens to the epididymis, and in women from the cervix through the endometrium to the fallopian tubes. Tubal inflammation heals with scarring that blocks or narrows the tubes, causing infertility and ectopic pregnancy, and spread from the tubes to the liver capsule causes perihepatitis. Reactive arthritis is a sterile immune reaction after infection, in which bacterial antigens and HLA-B27 shape the T cell response. Gonococci that reach the blood seed joints, tendon sheaths, and skin."
       }
     ],
     "charts": [
@@ -1178,6 +1337,39 @@
       "RE-13-K3",
       "RE-13-K4",
       "MS-13-B7"
+    ],
+    "flows": [
+      {
+        "title": "Ascending urinary tract infection",
+        "steps": [
+          "Fecal E. coli colonize the periurethral area",
+          "Bacteria ascend the urethra into the bladder",
+          "Type 1 fimbriae attach to bladder urothelium: cystitis",
+          "Reflux or obstruction helps bacteria ascend the ureter",
+          "P fimbriae help bacteria bind the upper tract and kidney",
+          "Neutrophilic interstitial inflammation: fever, flank pain, WBC casts"
+        ]
+      },
+      {
+        "title": "Struvite stone formation",
+        "steps": [
+          "Proteus infection of the urinary tract",
+          "Urease splits urea into ammonia and carbon dioxide",
+          "Ammonia raises urine pH",
+          "Magnesium ammonium phosphate precipitates as struvite",
+          "Staghorn stone shelters bacteria and keeps the infection going"
+        ]
+      },
+      {
+        "title": "Pelvic inflammatory disease from urethritis or cervicitis",
+        "steps": [
+          "Untreated N. gonorrhoeae or C. trachomatis cervicitis",
+          "Infection ascends through the endometrium to the fallopian tubes",
+          "Salpingitis",
+          "Tubal inflammation heals with scarring and narrowing",
+          "Infertility and ectopic pregnancy"
+        ]
+      }
     ]
   }
 ]

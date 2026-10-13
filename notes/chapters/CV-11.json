@@ -1,0 +1,661 @@
+{
+ "unit": "CV-11",
+ "chapter_id": "NPLEX-P1-CARD-11",
+ "topic_id": "NPLEX-P1-CARD-11-01",
+ "title": "Hemodynamics and Blood Flow Regulation",
+ "subject": "Cardiovascular System (CARD)",
+ "version": "1.0",
+ "overview": {
+  "intro": "This chapter covers the physics of blood flow and how the body adjusts it: pressure, flow, and resistance with Poiseuille's law; series and parallel resistance; velocity and turbulence; arterial compliance and pulse pressure; the Starling forces and edema; and the local, neural, and hormonal control of arteriolar tone in each major organ. Part I questions here are prediction questions. A stem changes one variable, such as radius, hematocrit, albumin, or arterial stiffness, and asks what happens to resistance, flow, pulse pressure, or tissue fluid. Treat each equation as a cause and effect statement and you can reason to findings such as a carotid bruit, ankle edema, or a wide pulse pressure in an older patient.",
+  "prerequisites": [
+   "Cardiac output, stroke volume, and mean arterial pressure calculations (CV-6)",
+   "Histology of elastic arteries, muscular arteries, arterioles, capillaries, and veins (CV-2)",
+   "Osmosis, oncotic (colloid osmotic) pressure, and the composition of plasma proteins",
+   "Smooth muscle contraction: Ca2+, calmodulin, myosin light chain kinase, and myosin light chain phosphatase",
+   "G protein signaling (Gq, Gs, Gi) and the second messengers IP3, cAMP, and cGMP"
+  ],
+  "connections": [
+   {
+    "to": "Cardiac cycle and its regulation (CV-6)",
+    "how": "The baroreceptor reflex and the renin-angiotensin-aldosterone system act on the arteriolar resistance and venous capacitance described here to hold mean arterial pressure steady."
+   },
+   {
+    "to": "Coronary circulation (CV-8)",
+    "how": "Metabolic control of coronary flow is the clearest example of local regulation, and coronary stenosis applies Poiseuille's law to ischemia."
+   },
+   {
+    "to": "Lymphatic vessels (CV-10)",
+    "how": "Lymph returns the net capillary filtrate and leaked protein, so lymphatic failure is one of the four routes to edema."
+   },
+   {
+    "to": "Exercise and the cardiovascular system (CV-12)",
+    "how": "Redistribution of cardiac output during exercise is the parallel circuit principle in action, driven by metabolic dilation in muscle and sympathetic constriction elsewhere."
+   },
+   {
+    "to": "Vascular pathology (CV-18-I)",
+    "how": "Atherosclerosis, arterial stiffening, and venous insufficiency change radius, compliance, and capillary pressure, which links each disease to the physics in this chapter."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Resistance (R)",
+    "def": "The opposition to flow within a vessel or bed, equal to the pressure difference across it divided by the flow through it."
+   },
+   {
+    "term": "Total peripheral resistance (TPR)",
+    "def": "The combined resistance of the entire systemic circulation, also called systemic vascular resistance."
+   },
+   {
+    "term": "Poiseuille's law",
+    "def": "The relation for steady laminar flow in a rigid tube stating that resistance equals 8 times viscosity times length divided by pi times radius to the fourth power."
+   },
+   {
+    "term": "Viscosity",
+    "def": "The internal friction of a fluid that resists sliding of one layer over another; in blood it depends mainly on hematocrit."
+   },
+   {
+    "term": "Reynolds number",
+    "def": "A dimensionless value, density times velocity times diameter divided by viscosity, that predicts when laminar flow will become turbulent."
+   },
+   {
+    "term": "Compliance",
+    "def": "The change in volume of a vessel per unit change in pressure; its reciprocal is stiffness."
+   },
+   {
+    "term": "Pulse pressure",
+    "def": "Systolic pressure minus diastolic pressure, set mainly by stroke volume and arterial compliance."
+   },
+   {
+    "term": "Starling forces",
+    "def": "The hydrostatic and oncotic pressures in the capillary and the interstitium that together determine net fluid movement across the capillary wall."
+   },
+   {
+    "term": "Oncotic pressure",
+    "def": "The osmotic pressure exerted by proteins, mainly albumin, that cannot freely cross the capillary wall."
+   },
+   {
+    "term": "Autoregulation",
+    "def": "The intrinsic ability of an organ to keep its blood flow nearly constant over a range of perfusion pressures."
+   },
+   {
+    "term": "Myogenic response",
+    "def": "Contraction of vascular smooth muscle in response to stretch, and relaxation when stretch decreases."
+   },
+   {
+    "term": "Hypoxic pulmonary vasoconstriction",
+    "def": "Constriction of small pulmonary arteries in response to low alveolar PO2, which diverts blood toward better ventilated lung."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-CARD-11-01-C01",
+   "obj": "CV-11.1",
+   "title": "Pressure, flow, resistance, and Poiseuille's law",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Blood flows because of a pressure difference between two points: Q = ΔP / R, the hydraulic form of Ohm's law. Resistance is never measured directly; it is calculated as ΔP / Q. For the systemic circulation the driving pressure is mean arterial pressure (MAP) minus right atrial pressure (near 0 mmHg), the flow is cardiac output (CO), and the resistance is total peripheral resistance (TPR), so MAP = CO x TPR. Pressure can rise only if CO or TPR rises, and a fall in one must be offset by the other to hold pressure steady. With a MAP of about 93 mmHg and a CO of about 5 L/min, TPR is about 18 to 19 mmHg per L/min."
+    },
+    {
+     "type": "h",
+     "text": "Poiseuille's law"
+    },
+    {
+     "type": "p",
+     "text": "For steady laminar flow of a uniform fluid in a rigid tube, R = 8ηL / (πr⁴), where η is viscosity, L is length, and r is radius. Resistance rises in direct proportion to viscosity and length and in inverse proportion to the fourth power of radius. The fourth power arises because laminar flow has a parabolic velocity profile: a wider vessel has both a larger area (r²) and a larger central core far from the slowing effect of the wall, so velocity in that core rises too. Halving the radius raises resistance 16-fold, while a radius increase of only about 19% doubles flow (1.19 to the fourth power is about 2). This is why arterioles control flow so powerfully: doubling flow to one muscle by pressure would need a doubled arterial gradient that would also double flow everywhere else, whereas a 19% local dilation does it alone. Length is fixed in the adult, but it explains why long diffuse disease resists more than a short lesion of the same caliber."
+    },
+    {
+     "type": "h",
+     "text": "Viscosity"
+    },
+    {
+     "type": "p",
+     "text": "Whole blood at a hematocrit of about 40 to 45% is roughly 3 to 4 times as viscous as water, and hematocrit is the main determinant. The relation is steep: a hematocrit of 60 to 70% can raise viscosity two to three times. In polycythemia, flow can fall more than O2 content rises, so O2 delivery drops and sluggish flow favors thrombosis. Large plasma proteins (IgM paraprotein in Waldenström macroglobulinemia, high fibrinogen), rigid sickled cells, and extreme leukocytosis also raise viscosity. Blood is non-Newtonian: at low flow red cells form rouleaux and viscosity rises, while in vessels below about 0.3 mm a cell-poor plasma layer at the wall lowers apparent viscosity (the Fåhræus-Lindqvist effect)."
+    },
+    {
+     "type": "table",
+     "title": "Predicting the effect of a single change (pressure gradient held constant)",
+     "cols": [
+      "Change",
+      "Effect on resistance",
+      "Effect on flow",
+      "Physiologic or clinical example"
+     ],
+     "rows": [
+      [
+       "Radius halved",
+       "Increases 16-fold",
+       "Falls to 1/16",
+       "Arteriolar constriction by sympathetic alpha-1 stimulation; severe focal stenosis"
+      ],
+      [
+       "Radius doubled",
+       "Falls to 1/16",
+       "Increases 16-fold",
+       "Metabolic dilation of muscle arterioles during exercise"
+      ],
+      [
+       "Radius increased about 19%",
+       "Halves",
+       "Doubles",
+       "Small dilation of a coronary arteriole when myocardial O2 demand rises"
+      ],
+      [
+       "Viscosity doubled",
+       "Doubles",
+       "Halves",
+       "Severe polycythemia or hyperviscosity (anemia does the reverse)"
+      ],
+      [
+       "Length doubled",
+       "Doubles",
+       "Halves",
+       "Long diffuse arterial disease compared with a short focal lesion"
+      ],
+      [
+       "Pressure gradient doubled",
+       "Unchanged (in a rigid tube)",
+       "Doubles",
+       "Only true for a rigid tube; living vessels distend or constrict, see below"
+      ]
+     ],
+     "caption": "Radius dominates because it is raised to the fourth power. Viscosity, length, and pressure gradient change flow only in direct proportion."
+    },
+    {
+     "type": "p",
+     "text": "Poiseuille's law assumes rigid tubes, laminar flow, and a Newtonian fluid. Passive vessels distend as pressure rises, so flow rises more than in proportion; autoregulating vessels constrict, so flow stays constant (C06); turbulence needs a larger gradient for the same flow (C03). Use the law for direction and relative size of change."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-11-01-C02",
+   "obj": "CV-11.2",
+   "title": "Series and parallel resistance and the role of arterioles",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "In series, the same flow passes through each segment, resistances add (R total = R1 + R2 + ..., so 10 and 20 units give 30), and the segment with the highest resistance takes the largest pressure drop because ΔP = Q x R. The systemic segments from aorta to veins are in series, and the pulmonary and systemic circuits are in series with each other, so the two ventricles must have equal average outputs. In parallel, every branch sees the same pressure difference, flows add, and conductances (1/R) add: 1 / R total = 1 / R1 + 1 / R2 + .... Total parallel resistance is lower than the smallest branch, and n identical branches give R / n. For example, branches of 10, 20, and 20 units give 1/10 + 1/20 + 1/20 = 0.2, a total of 5 units; removing the 10-unit branch (as with an amputation) raises it to 10. Adding a parallel path, such as an arteriovenous fistula or the placenta, lowers TPR."
+    },
+    {
+     "type": "h",
+     "text": "Why arterioles set TPR"
+    },
+    {
+     "type": "p",
+     "text": "Each capillary is narrower than an arteriole, but billions of capillaries in parallel give a moderate combined resistance, and they have no smooth muscle. Arterioles are fewer, narrow, and have thick smooth muscle relative to their lumen, so they hold the largest share of systemic resistance and are its main adjustable part. With the small arteries just upstream, they produce the steepest pressure drop, from about 85 to 90 mmHg to about 30 to 35 mmHg, which also damps the arterial pulse so capillary flow is nearly steady. Terminal arterioles and precapillary sphincters decide how many capillaries are open."
+    },
+    {
+     "type": "table",
+     "title": "Pressure, area, velocity, and volume along the systemic circuit",
+     "cols": [
+      "Segment",
+      "Mean pressure",
+      "Share of resistance",
+      "Total cross-sectional area",
+      "Share of blood volume"
+     ],
+     "rows": [
+      [
+       "Aorta and large arteries",
+       "About 95 to 100 mmHg, pulsatile",
+       "Small",
+       "Aorta about 2.5 cm²",
+       "About 13% (all systemic arteries)"
+      ],
+      [
+       "Small arteries and arterioles",
+       "Falls from about 85 to 90 to about 30 to 35 mmHg",
+       "Largest; arterioles dominate",
+       "Arterioles about 40 cm²",
+       "About 7% with capillaries"
+      ],
+      [
+       "Capillaries",
+       "About 30 to 35 mmHg arterial end, 10 to 15 venous end",
+       "Moderate (many in parallel)",
+       "About 2,500 cm²",
+       "Included above"
+      ],
+      [
+       "Venules and veins",
+       "About 10 to 15 mmHg, near 0 at the right atrium",
+       "Small",
+       "Venules about 250 cm²; venae cavae about 8 cm²",
+       "About 64% (systemic veins)"
+      ]
+     ],
+     "caption": "Approximate resting supine values (Guyton and Hall); the heart holds about 7% and the lungs about 9% of blood volume. Velocity (C03) mirrors total area."
+    },
+    {
+     "type": "p",
+     "text": "Because systemic organs branch from the aorta in parallel, each receives nearly the same arterial pressure, and its flow equals MAP divided by its own resistance. With MAP held steady by the baroreceptor reflex (CV-6), an organ raises its flow by dilating its own arterioles without starving the others. A few beds lie deliberately in series: gut and spleen to liver through the portal vein, glomerular to peritubular capillaries, and hypothalamus to anterior pituitary. In each, raised downstream resistance raises upstream capillary pressure, which is how portal hypertension develops."
+    },
+    {
+     "type": "flow",
+     "title": "Opening a parallel bed: what happens to TPR, MAP, and other organs",
+     "steps": [
+      "One large bed dilates, such as exercising muscle",
+      "TPR falls",
+      "MAP would fall if CO were unchanged",
+      "Baroreceptors raise sympathetic output",
+      "CO rises; gut, kidney, and inactive muscle constrict",
+      "MAP is defended and flow shifts to the dilated bed"
+     ],
+     "caption": "Each organ sets its own resistance, while the baroreceptor reflex holds the common driving pressure."
+    },
+    {
+     "type": "stop",
+     "predict": "A large forearm arteriovenous fistula is created. Predict the change in TPR, cardiac output, and diastolic pressure.",
+     "explain": "The fistula is a low-resistance parallel path, so TPR falls. Cardiac output rises to hold MAP, and fast diastolic runoff lowers diastolic pressure and widens pulse pressure. A very large fistula can cause high-output heart failure.",
+     "check": "Compare with the parallel rule and the flow figure on opening a parallel bed."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-11-01-C03",
+   "obj": "CV-11.3",
+   "title": "Velocity, cross-sectional area, and turbulence",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Flow (Q, volume per time) and velocity (v, distance per time) are linked by cross-sectional area: v = Q / A. Because the same cardiac output passes through every level of the series circuit, velocity at each level varies inversely with the total cross-sectional area at that level. Mean velocity is about 33 cm/s in the aorta and about 0.3 mm/s in the capillaries, whose combined area is about 1,000 times larger. Capillary velocity is lowest because there are so many capillaries in parallel, and the 1 to 3 seconds each red cell spends in a systemic capillary allow diffusion. Velocity rises again in the veins but stays below aortic values because the venae cavae together are larger than the aorta."
+    },
+    {
+     "type": "p",
+     "text": "Locally, the continuity principle means a narrowed segment of an artery or valve must carry the same flow through a smaller area, so velocity rises. Doppler measures that velocity, and the simplified Bernoulli relation (gradient in mmHg is about 4 times peak velocity in m/s squared) estimates the pressure gradient across a stenotic valve."
+    },
+    {
+     "type": "h",
+     "text": "Laminar and turbulent flow"
+    },
+    {
+     "type": "p",
+     "text": "Laminar flow moves in silent concentric layers. Turbulent flow forms eddies, wastes energy, needs more pressure for the same flow (effectively raising resistance), and vibrates the wall, producing a murmur, a bruit, or a palpable thrill. The Reynolds number, Re = ρvD / η (density, velocity, diameter, viscosity), predicts turbulence, which appears above about 2,000 in a straight smooth tube and at lower values at branches, curves, and abrupt changes in caliber. Density barely varies, so velocity, diameter, and viscosity are the clinical variables. In a stenosis, halving the radius cuts area to one-quarter, so velocity rises 4-fold while diameter halves, and Re doubles; the jet then breaks into eddies as it enters the wider vessel beyond. When a stenosis becomes critical, flow, velocity, and Re fall, and the bruit can soften or vanish, so a quiet carotid does not exclude severe stenosis."
+    },
+    {
+     "type": "table",
+     "title": "Factors that favor turbulence and their clinical correlates",
+     "cols": [
+      "Factor",
+      "Effect on Reynolds number",
+      "Clinical example"
+     ],
+     "rows": [
+      [
+       "High velocity",
+       "Raises Re",
+       "Flow murmurs in pregnancy, fever, hyperthyroidism, exercise, anemia"
+      ],
+      [
+       "Low viscosity",
+       "Raises Re",
+       "Anemia, which also raises cardiac output"
+      ],
+      [
+       "Large diameter",
+       "Raises Re",
+       "Proximal aorta in rapid ejection; dilated aortic root"
+      ],
+      [
+       "Stenosis",
+       "High-velocity jet and abrupt change in caliber",
+       "Carotid, renal, femoral bruits; aortic stenosis murmur"
+      ],
+      [
+       "High to low pressure connection",
+       "Very high velocity",
+       "Continuous bruit over an arteriovenous fistula; ventricular septal defect"
+      ],
+      [
+       "Cuff compression",
+       "Narrowed segment with a jet",
+       "Korotkoff sounds"
+      ],
+      [
+       "High viscosity",
+       "Lowers Re",
+       "Polycythemia tends to abolish flow murmurs"
+      ]
+     ],
+     "caption": "Anemia acts on velocity and viscosity at once, which makes it the classic cause of a flow murmur across normal valves."
+    },
+    {
+     "type": "flow",
+     "title": "From anemia to a flow murmur",
+     "steps": [
+      "Hemoglobin and hematocrit fall",
+      "Viscosity falls and resistance falls",
+      "Low O2 content dilates arterioles, so TPR falls further",
+      "Cardiac output and stroke volume rise",
+      "Ejection velocity through normal valves rises",
+      "Higher velocity and lower viscosity raise Re",
+      "Soft systolic flow murmur across normal valves"
+     ],
+     "caption": "The same reasoning explains flow murmurs in pregnancy, fever, and hyperthyroidism."
+    },
+    {
+     "type": "p",
+     "text": "Korotkoff sounds use turbulence deliberately. Just below systolic pressure, blood spurts through the partly compressed brachial artery at each peak and the first tapping sound marks systolic pressure; once cuff pressure falls below diastolic pressure, flow is laminar throughout and the disappearance of sound (phase V) marks diastolic pressure. Disturbed, oscillating flow at branch points and bifurcation walls gives low shear stress, which reduces endothelial nitric oxide and favors atherosclerosis, whereas steady laminar high shear keeps the endothelium quiescent and antithrombotic. Jets beyond a stenotic valve can cause post-stenotic dilation."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-11-01-C04",
+   "obj": "CV-11.4",
+   "title": "Arterial compliance, pulse pressure, and isolated systolic hypertension",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Compliance is C = ΔV / ΔP; stiffness (elastance) is its reciprocal. Systemic veins are about 24 times as compliant as the corresponding arteries (about 8 times as distensible with about 3 times the volume), which is why they hold most of the blood. The elastin-rich large arteries stretch during ejection to store part of the stroke volume and recoil during diastole to push it onward. This reservoir (Windkessel) function turns pulsatile output into near-continuous capillary flow, keeps diastolic pressure from falling to zero, and lowers the peak pressure the ventricle must generate."
+    },
+    {
+     "type": "p",
+     "text": "Pulse pressure, systolic minus diastolic (normally about 40 mmHg), is roughly proportional to stroke volume divided by arterial compliance. Diastolic pressure depends on how fast stored volume runs off, governed by the time constant R x C: low resistance, low compliance, or a long diastole lets pressure fall lower. At resting heart rates MAP is about diastolic pressure plus one-third of pulse pressure, an estimate that loses accuracy at fast rates when systole takes a larger share of the cycle."
+    },
+    {
+     "type": "table",
+     "title": "What widens or narrows pulse pressure",
+     "cols": [
+      "Condition",
+      "Mechanism",
+      "Effect on pulse pressure"
+     ],
+     "rows": [
+      [
+       "Aortic stiffening with age",
+       "Low compliance: higher systolic, lower diastolic",
+       "Wide"
+      ],
+      [
+       "Aortic regurgitation",
+       "Large stroke volume plus diastolic backflow into the ventricle",
+       "Very wide"
+      ],
+      [
+       "Hyperthyroidism, anemia, fever, pregnancy",
+       "Larger stroke volume and lower TPR",
+       "Wide"
+      ],
+      [
+       "Arteriovenous fistula, early vasodilatory sepsis",
+       "Low TPR, rapid diastolic runoff",
+       "Wide"
+      ],
+      [
+       "Exercise",
+       "Larger, faster stroke volume",
+       "Wide (mainly higher systolic)"
+      ],
+      [
+       "Hemorrhage, aortic stenosis, tamponade, severe heart failure",
+       "Small stroke volume (reflex constriction holds diastolic pressure in hemorrhage)",
+       "Narrow"
+      ]
+     ],
+     "caption": "Larger stroke volume, stiffer arteries, or faster runoff widen pulse pressure; a small stroke volume narrows it."
+    },
+    {
+     "type": "h",
+     "text": "Aging and isolated systolic hypertension"
+    },
+    {
+     "type": "p",
+     "text": "With age, elastin fragments, collagen increases and is cross-linked by advanced glycation end products, and the media may calcify; hypertension, diabetes, and chronic kidney disease accelerate this. A stiff aorta stores little of each stroke volume, so systolic pressure rises and fast runoff lets diastolic pressure fall. Faster pulse wave velocity returns the reflected wave in late systole, augmenting the systolic peak instead of supporting diastole. Diastolic pressure levels off or falls after about age 50 to 60, producing isolated systolic hypertension, the most common form in older adults (systolic 130 mmHg or higher with diastolic below 80 mmHg in the 2017 ACC/AHA guideline; 140 and 90 mmHg in others). The wider pulsatile pressure reaches the low-resistance brain and kidney, contributing to lacunar infarcts, white matter disease, and declining renal function, and stiffness rises with stretch, so hypertension and stiffening reinforce each other."
+    },
+    {
+     "type": "flow",
+     "title": "From aortic stiffening to isolated systolic hypertension",
+     "steps": [
+      "Elastin fragments; glycation cross-links collagen in the aortic media",
+      "Compliance falls and pulse wave velocity rises",
+      "Higher systolic peak, augmented by late-systolic reflected waves",
+      "Less stored volume, so diastolic pressure falls",
+      "Wide pulse pressure: isolated systolic hypertension",
+      "Higher afterload drives concentric left ventricular hypertrophy",
+      "Lower diastolic pressure reduces coronary perfusion of the subendocardium"
+     ],
+     "caption": "Left ventricular coronary flow occurs mainly in diastole (CV-8), so a low diastolic pressure matters more than its size suggests."
+    },
+    {
+     "type": "example",
+     "title": "Predicting the blood pressure pattern from stroke volume and compliance",
+     "text": "Two people share a stroke volume of 70 mL, heart rate, and TPR. Person A is 25; person B is 80, with aortic compliance halved. Pulse pressure is roughly stroke volume divided by compliance, so the same 70 mL produces about twice the rise in pressure: 40 mmHg in A becomes about 80 mmHg in B. The runoff time constant (R x C) is also halved in B, so pressure falls faster and further before the next beat. MAP is set by CO and TPR, which are unchanged, so MAP stays about 93 mmHg. A pressure of about 120/80 mmHg in A therefore becomes something like 150/65 mmHg in B. Stiffening alone raises systolic pressure, lowers diastolic pressure, and widens pulse pressure without changing mean pressure."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-11-01-C05",
+   "obj": "CV-11.5",
+   "title": "Starling forces, lymph, and the mechanisms of edema",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Small solutes cross the capillary wall freely, so water movement is set by hydrostatic pressure and by the oncotic pressure of poorly permeant proteins, chiefly albumin. Net filtration Jv = Kf x [(Pc - Pi) - σ(πc - πi)]. Capillary hydrostatic pressure (Pc) pushes fluid out: about 30 mmHg at the arterial end and 10 mmHg at the venous end in Guyton and Hall's teaching values. Interstitial pressure (Pi) is about -3 mmHg in loose tissue, so it adds to filtration. Plasma oncotic pressure (πc, about 28 mmHg, about 80% from albumin) pulls fluid in; interstitial oncotic pressure (πi, about 8 mmHg) pulls it out. The reflection coefficient σ is near 1 in continuous capillaries and low in hepatic sinusoids; Kf is high in glomeruli and low in the brain."
+    },
+    {
+     "type": "p",
+     "text": "With these values the net pressure is (30 + 3) - (28 - 8) = +13 mmHg at the arterial end and (10 + 3) - 20 = -7 mmHg at the venous end. Filtration slightly exceeds reabsorption, and lymph returns the excess and leaked protein, about 2 to 3 L per day (CV-10). In the revised glycocalyx model most capillaries filter along their whole length; both models predict edema identically."
+    },
+    {
+     "type": "h",
+     "text": "Mechanisms of edema"
+    },
+    {
+     "type": "p",
+     "text": "Edema appears when filtration exceeds lymphatic removal, and each cause acts on one Starling term. In cirrhosis, portal hypertension raises splanchnic Pc while low albumin lowers πc, so ascites forms readily. In heart failure, raised venous pressure is the direct cause, and reduced effective arterial volume activates the renin-angiotensin-aldosterone system and ADH, whose Na+ and water retention raises venous pressure further. Left failure causes pulmonary edema; right failure causes dependent edema, ascites, and hepatic congestion."
+    },
+    {
+     "type": "table",
+     "title": "Mechanisms of edema",
+     "cols": [
+      "Mechanism",
+      "Starling term changed",
+      "Examples",
+      "Character of fluid"
+     ],
+     "rows": [
+      [
+       "Raised capillary hydrostatic pressure",
+       "Pc up",
+       "Heart failure, deep vein thrombosis, portal hypertension, renal volume overload, prolonged standing, dihydropyridine arteriolar dilation",
+       "Transudate, pitting"
+      ],
+      [
+       "Low plasma oncotic pressure",
+       "πc down",
+       "Nephrotic syndrome, cirrhosis, protein malnutrition (kwashiorkor), protein-losing enteropathy",
+       "Transudate, pitting, generalized and periorbital"
+      ],
+      [
+       "Increased permeability",
+       "Kf up, σ down, πi up",
+       "Inflammation, burns, sepsis, ARDS, angioedema",
+       "Exudate, localized in inflammation"
+      ],
+      [
+       "Lymphatic obstruction",
+       "Removal fails; πi rises",
+       "Node dissection or radiation, tumor, filariasis (Wuchereria bancrofti)",
+       "Protein rich; nonpitting once fibrosed"
+      ]
+     ],
+     "caption": "Transudates have specific gravity below about 1.012 and exudates above about 1.020, so the fluid points to the mechanism."
+    },
+    {
+     "type": "p",
+     "text": "Three safety factors delay edema: negative interstitial pressure rises quickly and opposes filtration, lymph flow increases many-fold, and lymph washes out interstitial protein, lowering πi. Guyton and Hall estimate these allow Pc to rise about 17 mmHg before significant edema. Above a Pi of about 0 mmHg the interstitium becomes highly compliant and large volumes accumulate."
+    },
+    {
+     "type": "example",
+     "title": "Working through hypoalbuminemia with the Starling equation",
+     "text": "In nephrotic syndrome, suppose plasma oncotic pressure falls from 28 to 16 mmHg. At the arterial end, net outward pressure rises from 33 - 20 = 13 mmHg to 33 - (16 - 8) = 25 mmHg. At the venous end, -7 mmHg (reabsorption) becomes 13 - 8 = +5 mmHg (filtration). Every capillary is affected, so edema is generalized, appearing first where tissue pressure is low (periorbital, scrotal) and in dependent areas. Washout of interstitial protein blunts the change at first, which is why oncotic pressure must fall substantially before edema appears. The wall is intact, so the fluid is a transudate. In a burn, by contrast, protein enters the interstitium, the oncotic difference collapses locally, and the result is a localized high-protein exudate."
+    },
+    {
+     "type": "stop",
+     "predict": "Arm swelling follows axillary node dissection. Which Starling term changes, and why does the swelling stop pitting?",
+     "explain": "Capillary forces are normal at first, but filtrate and protein cannot leave, so πi rises and draws more fluid out. Chronic protein-rich fluid drives fibrosis and fat deposition, and fibrosed tissue no longer pits.",
+     "check": "Compare with the lymphatic obstruction row of the edema table."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-11-01-C06",
+   "obj": "CV-11.6",
+   "title": "Control of arteriolar tone and regional blood flow",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Arteriolar tone is sustained partial contraction of smooth muscle. Contraction follows a rise in cytosolic Ca2+, which binds calmodulin and activates myosin light chain kinase; relaxation follows a fall in Ca2+ or activation of myosin light chain phosphatase. Constrictors act through Gq receptors (IP3 releases Ca2+) or by depolarization that opens L-type Ca2+ channels; dilators raise cGMP or cAMP or open K+ channels, hyperpolarizing the cell."
+    },
+    {
+     "type": "p",
+     "text": "Metabolic control: adenosine, CO2, H+, K+, lactate, phosphate, and low PO2 accumulate when activity rises or flow falls short and dilate arterioles, partly by opening K+ channels. Flow washes them out, a negative feedback that produces active hyperemia and reactive hyperemia (a surge after occlusion proportional to its duration). Myogenic control (Bayliss response): stretch opens mechanosensitive cation channels, depolarizes the muscle, opens L-type Ca2+ channels, and constricts the arteriole. Together these give autoregulation over a MAP of roughly 60 to 70 up to 150 to 160 mmHg in brain and kidney; chronic hypertension shifts the range upward, so a drop a normotensive person tolerates can cause hypoperfusion. The kidney adds tubuloglomerular feedback."
+    },
+    {
+     "type": "p",
+     "text": "Endothelial control: shear stress and agonists (acetylcholine, bradykinin, histamine, substance P) activate eNOS, and the NO pathway below relaxes the muscle; dilation spreads to feeding arteries (flow-mediated dilation). Prostacyclin raises cAMP, hyperpolarizing factors matter in small arterioles, and endothelin-1 constricts through ETA receptors. With damaged endothelium, acetylcholine constricts through smooth muscle muscarinic receptors. Neural control: sympathetic norepinephrine on alpha-1 (Gq) receptors sets basal tone; its withdrawal is the main neural dilator, as systemic arterioles lack parasympathetic supply. Hormonal control: angiotensin II (AT1) and high-dose vasopressin (V1) constrict through Gq; epinephrine dilates muscle and liver arterioles through beta-2 (Gs) at physiologic levels and constricts through alpha-1 at high levels; natriuretic peptides raise cGMP; histamine and bradykinin dilate through NO and open venular gaps that cause inflammatory edema."
+    },
+    {
+     "type": "flow",
+     "title": "Nitric oxide pathway from endothelium to smooth muscle",
+     "steps": [
+      "Shear stress or acetylcholine and bradykinin act on endothelium",
+      "Ca2+-calmodulin and phosphorylation activate eNOS",
+      "eNOS converts L-arginine to NO and citrulline",
+      "NO activates soluble guanylyl cyclase in smooth muscle",
+      "cGMP rises and activates protein kinase G",
+      "Ca2+ falls; myosin light chain phosphatase activates",
+      "Myosin light chains dephosphorylate; arteriole dilates"
+     ],
+     "caption": "Nitrates release NO inside smooth muscle, bypassing eNOS, so they work even with endothelial dysfunction."
+    },
+    {
+     "type": "h",
+     "text": "Dominant control in each bed"
+    },
+    {
+     "type": "p",
+     "text": "The heart extracts about 70 to 75% of arterial O2 at rest, so more demand needs more flow, and metabolic dilation overrides alpha-1 constriction. Cerebral flow follows PaCO2: CO2 crosses the blood-brain barrier and lowers perivascular pH, so flow roughly doubles from 40 to 80 mmHg and hyperventilation constricts; plasma H+ crosses slowly. In exercising muscle, metabolites and NO override sympathetic tone (functional sympatholysis) and flow rises about 20-fold. Skin flow serves heat loss, so skin is pale and cool in hemorrhage. Pulmonary resistance falls passively as cardiac output rises, by recruitment and distension, and low alveolar PO2 inhibits O2-sensitive K+ channels, depolarizing and constricting smooth muscle to divert blood to ventilated alveoli; global hypoxia causes pulmonary hypertension (CV-15)."
+    },
+    {
+     "type": "table",
+     "title": "Main control of flow by vascular bed",
+     "cols": [
+      "Bed",
+      "Dominant control",
+      "Hypoxia",
+      "Sympathetic effect"
+     ],
+     "rows": [
+      [
+       "Coronary",
+       "Metabolites (adenosine, NO, low O2)",
+       "Dilation",
+       "Alpha-1 effect overridden by metabolism"
+      ],
+      [
+       "Cerebral",
+       "PaCO2 (through pH) and autoregulation",
+       "Dilation below a PaO2 of about 50 mmHg",
+       "Minor"
+      ],
+      [
+       "Skeletal muscle",
+       "Sympathetic at rest; metabolites in exercise",
+       "Dilation",
+       "Strong at rest; overridden in active muscle"
+      ],
+      [
+       "Skin",
+       "Sympathetic thermoregulation",
+       "Little role",
+       "Strong, especially arteriovenous anastomoses"
+      ],
+      [
+       "Pulmonary",
+       "Hypoxic vasoconstriction; recruitment and distension",
+       "Constriction",
+       "Minor"
+      ],
+      [
+       "Kidney",
+       "Myogenic and tubuloglomerular feedback",
+       "Minor",
+       "Constriction when strong"
+      ]
+     ],
+     "caption": "Heart and brain rely on local control and escape sympathetic constriction; skin, gut, kidney, and resting muscle do not."
+    },
+    {
+     "type": "stop",
+     "predict": "Why does a hyperventilating patient in a panic attack feel lightheaded?",
+     "explain": "Low PaCO2 raises perivascular pH and constricts cerebral arterioles, so cerebral flow falls despite normal arterial pressure.",
+     "check": "Compare with the cerebral sentences and bed table."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Structure sets the coefficients. Elastic arteries supply the compliance behind pulse pressure, muscular arterioles supply the adjustable radius that Poiseuille's law makes dominant, and capillary type sets Kf and σ: tight brain capillaries, fenestrated glomeruli, and discontinuous hepatic sinusoids. Biochemistry supplies the signals (NO and cGMP, adenosine from ATP breakdown, Gq and Gs receptors converging on myosin light chain phosphorylation) and the aging of the wall through glycation, which links diabetes to stiffening."
+  },
+  {
+   "type": "p",
+   "text": "Pathology applies the same physics. Inflammatory mediators dilate arterioles and open venular gaps to produce a protein-rich exudate, and sepsis does this body-wide, lowering TPR and diastolic pressure. Plaques form where shear is low, raise resistance by the fourth power, and generate bruits. The equations predict direction and relative size; textbook values vary, so answer from the relationships."
+  }
+ ],
+ "summary": [
+  "Q = ΔP / R; for the whole body MAP is approximately CO x TPR.",
+  "Poiseuille's law makes radius dominant: halving radius raises resistance 16-fold, and a 19% wider radius doubles flow; hematocrit sets viscosity.",
+  "Series resistances add and parallel conductances add, so adding a parallel bed lowers TPR; arterioles hold the largest, adjustable share of resistance.",
+  "Velocity equals flow divided by total area, so it is lowest in capillaries; stenosis raises local velocity and the Reynolds number.",
+  "High velocity and low viscosity favor turbulence, so anemia causes flow murmurs; critical stenoses can lose their bruit.",
+  "Pulse pressure rises with stroke volume and falling compliance; fast runoff (low TPR, aortic regurgitation) lowers diastolic pressure.",
+  "Aortic stiffening with early wave reflection produces isolated systolic hypertension with unchanged MAP.",
+  "Jv = Kf x [(Pc - Pi) - σ(πc - πi)]; edema comes from high Pc, low πc, high permeability (exudate), or lymphatic obstruction.",
+  "Metabolic, myogenic, and endothelial controls match flow to need; sympathetic and hormonal controls defend arterial pressure.",
+  "Coronary flow follows metabolism, cerebral flow follows PaCO2, skin and resting muscle follow sympathetic tone, and pulmonary vessels constrict to hypoxia."
+ ],
+ "sources": [
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Overview of the Circulation; Biophysics of Pressure, Flow, and Resistance"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Vascular Distensibility and Functions of the Arterial and Venous Systems"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "The Microcirculation and Lymphatic System: Capillary Fluid Exchange, Interstitial Fluid, and Lymph Flow; Local and Humoral Control of Tissue Blood Flow"
+  },
+  {
+   "book": "Boron and Boulpaep Medical Physiology",
+   "where": "Cardiovascular system sections on arteries and veins, the microcirculation, and special circulations"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Hemodynamic Disorders, Thromboembolism, and Shock (section on edema)"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Cardiovascular Disorders: Vascular Disease"
+  }
+ ],
+ "verify": [
+  "The share of total peripheral resistance attributed to arterioles is quoted differently across sources (roughly half to about two-thirds, depending on whether small arteries are included); the chapter states only that arterioles have the largest share.",
+  "Teaching values for capillary pressures and Starling forces (Pc about 30 and 10 mmHg, Pi about -3 mmHg, πc about 28 mmHg, πi about 8 mmHg) follow Guyton and Hall; other texts use different numbers. Confirm which set NABNE items assume.",
+  "Cross-sectional areas, velocities, and blood volume distribution (veins about 64%) follow Guyton and Hall and are approximate.",
+  "The critical Reynolds number of about 2,000 applies to straight smooth tubes; values quoted for blood vessels at branches are lower and vary between sources.",
+  "Isolated systolic hypertension thresholds differ by guideline (130/below 80 mmHg in the 2017 ACC/AHA guideline, 140/below 90 mmHg in others); confirm which NABNE uses.",
+  "Autoregulatory ranges for cerebral and renal flow are quoted from about 50 to 70 mmHg at the lower limit and about 150 to 175 mmHg at the upper limit; the chapter gives an approximate range.",
+  "The size of the cerebral flow response to PaCO2 (roughly doubling from 40 to 80 mmHg) and the PaO2 threshold for hypoxic cerebral dilation (about 50 mmHg) are approximate consensus values.",
+  "The edema safety factor of about 17 mmHg is Guyton and Hall's estimate and is not universally quoted.",
+  "The glycocalyx (revised Starling) model is presented as a refinement; confirm whether NABNE Part I expects only the classic model.",
+  "The molecular O2 sensor for hypoxic pulmonary vasoconstriction (K+ channel inhibition versus mitochondrial reactive oxygen species signaling) remains debated; the chapter presents the leading model.",
+  "Confirm whether NABNE expects the eponyms Bayliss effect, Fåhræus-Lindqvist effect, and Windkessel, or only the descriptive terms.",
+  "Requested new diagram names for a future revision: pressure-area-velocity (pressure, total cross-sectional area, and velocity plotted across vessel segments) and starling-capillary (capillary with the four Starling forces and lymphatic drainage)."
+ ]
+}

@@ -3,77 +3,227 @@
     "id": "GI-7",
     "summary": "How the end products of digestion (monosaccharides, amino acids and small peptides, fatty acids and monoglycerides, vitamins, and minerals) cross the intestinal wall, where each is absorbed, and how bile acids recycle. The exam asks you to predict what goes wrong when a transporter is missing, a gut segment is diseased or removed, or a toxin turns on secretion.",
     "notes": [
-      {"h": "Carbohydrates", "points": [
-        "Only monosaccharides are absorbed; brush border lactase, sucrase-isomaltase, and maltase finish digestion.",
-        "SGLT1 (apical) moves glucose and galactose in with 2 Na+ (secondary active transport).",
-        "GLUT5 (apical) lets fructose in by facilitated diffusion, no sodium needed.",
-        "GLUT2 (basolateral) carries all three monosaccharides out to portal blood.",
-        "Oral rehydration solution: glucose pulls Na+ in through SGLT1, and water follows osmotically.",
-        "SGLT1 keeps working in cholera because the toxin does not block it, so ORS still works."
-      ]},
-      {"h": "Proteins", "points": [
-        "Enteropeptidase (enterokinase) activates trypsinogen; trypsin activates the other pancreatic proteases.",
-        "Free amino acids enter enterocytes on several Na+-linked carriers grouped by amino acid class.",
-        "Dipeptides and tripeptides enter on PepT1 with H+, then cytosolic peptidases split them.",
-        "Hartnup disease: autosomal recessive defect of the neutral amino acid transporter in gut and proximal tubule.",
-        "Lost tryptophan means less niacin made, so pellagra-like rash, diarrhea, and ataxia appear; urine shows neutral aminoaciduria.",
-        "Dipeptide uptake on PepT1 is spared, which is why patients still absorb some tryptophan."
-      ]},
-      {"h": "Fats", "points": [
-        "Pancreatic lipase plus colipase splits triglyceride into 2-monoglyceride and free fatty acids.",
-        "Bile acids form micelles that carry these products to the brush border.",
-        "In the enterocyte smooth ER, they are re-esterified to triglyceride.",
-        "MTP loads triglyceride onto apoB-48 to make chylomicrons, which exit into lacteals and the thoracic duct.",
-        "Short and medium chain fatty acids skip chylomicrons and go straight to portal blood.",
-        "Abetalipoproteinemia (autosomal recessive MTP defect): no chylomicrons or VLDL, fat-filled enterocytes, steatorrhea.",
-        "Abetalipoproteinemia also gives acanthocytes and vitamin E deficiency with ataxia and retinal degeneration."
-      ]},
-      {"h": "Where things are absorbed", "points": [
-        "Duodenum: iron (Fe2+ on DMT1) and active calcium uptake.",
-        "Jejunum: folate and most sugars, amino acids, and fats.",
-        "Terminal ileum: vitamin B12 bound to intrinsic factor, and bile acids.",
-        "Duodenal disease (celiac disease) causes iron deficiency first.",
-        "Ileal resection or Crohn ileitis causes B12 deficiency and bile acid loss."
-      ]},
-      {"h": "Enterohepatic circulation", "points": [
-        "About 95% of bile acids are reabsorbed in the terminal ileum by the apical Na+-bile acid cotransporter (ASBT).",
-        "Bile acids return in portal blood and the liver re-secretes them; the pool cycles several times a day.",
-        "Short ileal loss (under about 100 cm): bile acids reach the colon and cause watery bile acid diarrhea.",
-        "Long ileal loss (over about 100 cm): the pool runs out and steatorrhea follows.",
-        "Fewer bile acids per unit of cholesterol in bile lets cholesterol crystallize, so cholesterol gallstones form."
-      ]},
-      {"h": "Three kinds of diarrhea", "points": [
-        "Secretory: cholera toxin ADP-ribosylates Gs, cAMP rises, PKA opens CFTR, and Cl- with water pours out.",
-        "Osmotic: unabsorbed solute (lactose in lactase deficiency) holds water in the lumen.",
-        "Inflammatory: mucosal damage with blood, leukocytes, and often fever (invasive bacteria, IBD).",
-        "Stool osmotic gap = 290 minus 2 x (stool Na+ plus K+), in mOsm/kg.",
-        "Gap below about 50 means secretory; gap above about 100 to 125 means osmotic.",
-        "Fasting stops osmotic diarrhea; secretory diarrhea continues."
-      ]}
+      {
+        "h": "Carbohydrates",
+        "points": [
+          "Only monosaccharides are absorbed; brush border lactase, sucrase-isomaltase, and maltase finish digestion.",
+          "SGLT1 (apical) moves glucose and galactose in with 2 Na+ (secondary active transport).",
+          "GLUT5 (apical) lets fructose in by facilitated diffusion, no sodium needed.",
+          "GLUT2 (basolateral) carries all three monosaccharides out to portal blood.",
+          "Oral rehydration solution: glucose pulls Na+ in through SGLT1, and water follows osmotically.",
+          "SGLT1 keeps working in cholera because the toxin does not block it, so ORS still works."
+        ],
+        "why": "The basolateral Na+/K+-ATPase keeps intracellular Na+ low, and SGLT1 uses that inward Na+ gradient to pull glucose and galactose into the enterocyte against their gradient, which is why the process is called secondary active transport. Fructose moves only down its concentration gradient through GLUT5, so its uptake is slower and saturates when large amounts are eaten. Because Na+ and glucose enter together, the absorbed solute raises osmolality in the lateral intercellular spaces and water follows. Cholera toxin drives Cl- secretion through CFTR but leaves this Na+-glucose coupling intact, so oral rehydration solution can keep pace with the losses."
+      },
+      {
+        "h": "Proteins",
+        "points": [
+          "Enteropeptidase (enterokinase) activates trypsinogen; trypsin activates the other pancreatic proteases.",
+          "Free amino acids enter enterocytes on several Na+-linked carriers grouped by amino acid class.",
+          "Dipeptides and tripeptides enter on PepT1 with H+, then cytosolic peptidases split them.",
+          "Hartnup disease: autosomal recessive defect of the neutral amino acid transporter in gut and proximal tubule.",
+          "Lost tryptophan means less niacin made, so pellagra-like rash, diarrhea, and ataxia appear; urine shows neutral aminoaciduria.",
+          "Dipeptide uptake on PepT1 is spared, which is why patients still absorb some tryptophan."
+        ],
+        "why": "Enteropeptidase on the duodenal brush border triggers the whole protease cascade, so its congenital absence causes protein malabsorption despite a normal pancreas. PepT1 is driven by an H+ gradient that the apical Na+/H+ exchanger maintains. In Hartnup disease only the free neutral amino acid carrier (B0AT1, gene SLC6A19) fails, in both gut and proximal tubule, so neutral amino acids spill into urine. Tryptophan is a precursor for part of the body's niacin, so pellagra-like signs appear when dietary niacin is marginal; peptide-bound tryptophan taken up through PepT1 keeps many patients well."
+      },
+      {
+        "h": "Fats",
+        "points": [
+          "Pancreatic lipase plus colipase splits triglyceride into 2-monoglyceride and free fatty acids.",
+          "Bile acids form micelles that carry these products to the brush border.",
+          "In the enterocyte smooth ER, they are re-esterified to triglyceride.",
+          "MTP loads triglyceride onto apoB-48 to make chylomicrons, which exit into lacteals and the thoracic duct.",
+          "Short and medium chain fatty acids skip chylomicrons and go straight to portal blood.",
+          "Abetalipoproteinemia (autosomal recessive MTP defect): no chylomicrons or VLDL, fat-filled enterocytes, steatorrhea.",
+          "Abetalipoproteinemia also gives acanthocytes and vitamin E deficiency with ataxia and retinal degeneration."
+        ],
+        "why": "Triglyceride does not dissolve in water, so lipolysis happens at the oil-water interface, where colipase anchors lipase against the inhibitory effect of bile salts. Micelles carry fatty acids and monoglycerides across the unstirred water layer beside the brush border, delivering them to the apical membrane for uptake. Inside the cell, triglyceride must be packaged with apoB-48 by MTP to leave as a chylomicron, and the liver uses MTP to package VLDL; without it, fat is trapped in enterocytes and no apoB-containing lipoproteins are made. Vitamin E travels with these lipoproteins, so its deficiency produces the neurologic signs, while abnormal red cell membrane lipids produce acanthocytes."
+      },
+      {
+        "h": "Where things are absorbed",
+        "points": [
+          "Duodenum: iron (Fe2+ on DMT1) and active calcium uptake.",
+          "Jejunum: folate and most sugars, amino acids, and fats.",
+          "Terminal ileum: vitamin B12 bound to intrinsic factor, and bile acids.",
+          "Duodenal disease (celiac disease) causes iron deficiency first.",
+          "Ileal resection or Crohn ileitis causes B12 deficiency and bile acid loss."
+        ],
+        "why": "Each nutrient is absorbed where its carrier is concentrated, so the site of disease predicts the deficiency. DMT1 for iron and the active calcium pathway (TRPV6 channels and calbindin, induced by calcitriol) are concentrated in the duodenum, which is also the segment celiac disease damages most, so iron deficiency anemia is often its first sign. Cubilin, the receptor for the intrinsic factor-B12 complex, and ASBT for bile acids are confined to the terminal ileum, so ileal disease removes both functions together. The ileum can adapt to take over bulk absorption after jejunal loss, but no other segment can replace ileal B12 and bile acid uptake."
+      },
+      {
+        "h": "Enterohepatic circulation",
+        "points": [
+          "About 95% of bile acids are reabsorbed in the terminal ileum by the apical Na+-bile acid cotransporter (ASBT).",
+          "Bile acids return in portal blood and the liver re-secretes them; the pool cycles several times a day.",
+          "Short ileal loss (under about 100 cm): bile acids reach the colon and cause watery bile acid diarrhea.",
+          "Long ileal loss (over about 100 cm): the pool runs out and steatorrhea follows.",
+          "Fewer bile acids per unit of cholesterol in bile lets cholesterol crystallize, so cholesterol gallstones form."
+        ],
+        "why": "Hepatic synthesis of new bile acids from cholesterol, limited by 7-alpha-hydroxylase, replaces only a small part of the pool each day, so the pool depends on ileal recycling. After a short ileal resection, unabsorbed dihydroxy bile acids (chenodeoxycholic and deoxycholic acid) reach the colon and stimulate colonocyte Cl- and water secretion, while increased liver synthesis still keeps enough bile acid for micelles. After a long resection, losses exceed the liver's maximal synthesis, the pool falls below the concentration needed to form micelles, and fat malabsorption follows. Bile then carries too few bile acids to keep cholesterol in solution, so it becomes supersaturated and stones form."
+      },
+      {
+        "h": "Three kinds of diarrhea",
+        "points": [
+          "Secretory: cholera toxin ADP-ribosylates Gs, cAMP rises, PKA opens CFTR, and Cl- with water pours out.",
+          "Osmotic: unabsorbed solute (lactose in lactase deficiency) holds water in the lumen.",
+          "Inflammatory: mucosal damage with blood, leukocytes, and often fever (invasive bacteria, IBD).",
+          "Stool osmotic gap = 290 minus 2 x (stool Na+ plus K+), in mOsm/kg.",
+          "Gap below about 50 means secretory; gap above about 100 to 125 means osmotic.",
+          "Fasting stops osmotic diarrhea; secretory diarrhea continues."
+        ],
+        "why": "Stool water is in osmotic equilibrium with plasma, about 290 mOsm/kg, so the gap measures how much stool osmolality comes from something other than Na+, K+, and their anions. In secretory diarrhea, electrolytes secreted through CFTR or left behind by blocked NaCl absorption account for nearly all of it, so the gap is small. In osmotic diarrhea, a nonabsorbed solute such as lactose, magnesium, or sorbitol fills the gap, and because that solute comes from what is eaten, the diarrhea stops with fasting. Inflammatory diarrhea adds exudate and loses absorptive surface, which is why blood, fecal leukocytes, and fever define it."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Cholera toxin to secretory diarrhea",
+        "steps": [
+          "Cholera toxin B subunit binds GM1 ganglioside on enterocytes.",
+          "The A subunit ADP-ribosylates Gs alpha, blocking its GTPase activity.",
+          "Adenylyl cyclase stays on and intracellular cAMP rises.",
+          "Protein kinase A phosphorylates and opens CFTR in crypt cells.",
+          "Cl- is secreted; Na+ and water follow into the lumen.",
+          "Large-volume rice-water stool causes isotonic volume depletion."
+        ]
+      },
+      {
+        "title": "Dietary fat from lumen to blood",
+        "steps": [
+          "Pancreatic lipase with colipase splits triglyceride into 2-monoglyceride and fatty acids.",
+          "Bile acid micelles carry the products to the brush border.",
+          "Smooth ER in the enterocyte re-esterifies them into triglyceride.",
+          "MTP loads triglyceride onto apoB-48, forming chylomicrons.",
+          "Chylomicrons leave the cell by exocytosis into lacteals.",
+          "Thoracic duct lymph empties into the left subclavian and internal jugular junction."
+        ]
+      },
+      {
+        "title": "Enterohepatic circulation of bile acids",
+        "steps": [
+          "Hepatocytes make bile acids from cholesterol and conjugate them with glycine or taurine.",
+          "Bile acids are secreted in bile and form micelles in the small bowel.",
+          "ASBT in the terminal ileum reabsorbs about 95% with Na+.",
+          "Portal blood returns bile acids to the liver.",
+          "Hepatocytes take them up and secrete them into bile again."
+        ]
+      }
     ],
     "charts": [
-      {"title": "Monosaccharide transporters", "cols": ["Transporter", "Membrane", "Carries", "Mechanism"], "rows": [
-        ["SGLT1", "Apical", "Glucose, galactose", "Secondary active, with 2 Na+"],
-        ["GLUT5", "Apical", "Fructose", "Facilitated diffusion"],
-        ["GLUT2", "Basolateral", "Glucose, galactose, fructose", "Facilitated diffusion to blood"]
-      ]},
-      {"title": "Absorption sites and what happens when they fail", "cols": ["Nutrient", "Main site", "Deficiency after loss"], "rows": [
-        ["Iron", "Duodenum", "Microcytic anemia"],
-        ["Calcium", "Duodenum", "Low bone mineral, secondary hyperparathyroidism"],
-        ["Folate", "Jejunum", "Megaloblastic anemia with normal methylmalonic acid"],
-        ["Vitamin B12", "Terminal ileum", "Megaloblastic anemia with neuropathy"],
-        ["Bile acids", "Terminal ileum", "Bile acid diarrhea, then steatorrhea and fat-soluble vitamin loss"]
-      ]},
-      {"title": "Diarrhea types", "cols": ["Type", "Classic cause", "Stool osmotic gap", "With fasting", "Stool findings"], "rows": [
-        ["Secretory", "Cholera toxin, ETEC, VIPoma", "Low (under about 50 mOsm/kg)", "Continues", "Large volume, watery"],
-        ["Osmotic", "Lactase deficiency, laxatives", "High (over about 100 to 125 mOsm/kg)", "Stops", "Acidic stool in lactose intolerance"],
-        ["Inflammatory", "Shigella, Campylobacter, IBD", "Variable", "Often continues", "Blood, leukocytes, mucus"]
-      ]}
+      {
+        "title": "Monosaccharide transporters",
+        "cols": [
+          "Transporter",
+          "Membrane",
+          "Carries",
+          "Mechanism"
+        ],
+        "rows": [
+          [
+            "SGLT1",
+            "Apical",
+            "Glucose, galactose",
+            "Secondary active, with 2 Na+"
+          ],
+          [
+            "GLUT5",
+            "Apical",
+            "Fructose",
+            "Facilitated diffusion"
+          ],
+          [
+            "GLUT2",
+            "Basolateral",
+            "Glucose, galactose, fructose",
+            "Facilitated diffusion to blood"
+          ]
+        ]
+      },
+      {
+        "title": "Absorption sites and what happens when they fail",
+        "cols": [
+          "Nutrient",
+          "Main site",
+          "Deficiency after loss"
+        ],
+        "rows": [
+          [
+            "Iron",
+            "Duodenum",
+            "Microcytic anemia"
+          ],
+          [
+            "Calcium",
+            "Duodenum",
+            "Low bone mineral, secondary hyperparathyroidism"
+          ],
+          [
+            "Folate",
+            "Jejunum",
+            "Megaloblastic anemia with normal methylmalonic acid"
+          ],
+          [
+            "Vitamin B12",
+            "Terminal ileum",
+            "Megaloblastic anemia with neuropathy"
+          ],
+          [
+            "Bile acids",
+            "Terminal ileum",
+            "Bile acid diarrhea, then steatorrhea and fat-soluble vitamin loss"
+          ]
+        ]
+      },
+      {
+        "title": "Diarrhea types",
+        "cols": [
+          "Type",
+          "Classic cause",
+          "Stool osmotic gap",
+          "With fasting",
+          "Stool findings"
+        ],
+        "rows": [
+          [
+            "Secretory",
+            "Cholera toxin, ETEC, VIPoma",
+            "Low (under about 50 mOsm/kg)",
+            "Continues",
+            "Large volume, watery"
+          ],
+          [
+            "Osmotic",
+            "Lactase deficiency, laxatives",
+            "High (over about 100 to 125 mOsm/kg)",
+            "Stops",
+            "Acidic stool in lactose intolerance"
+          ],
+          [
+            "Inflammatory",
+            "Shigella, Campylobacter, IBD",
+            "Variable",
+            "Often continues",
+            "Blood, leukocytes, mucus"
+          ]
+        ]
+      }
     ],
     "tricks": [
-      {"kind": "mnemonic", "label": "Iron Fist, Bro", "text": "Iron in the duodenum, Folate in the jejunum, B12 in the ileum, going down the gut in order."},
-      {"kind": "trick", "label": "Ride the sodium", "text": "Glucose and sodium enter together on SGLT1, so giving both drags water in. That is the whole logic of oral rehydration."},
-      {"kind": "trick", "label": "Fast them", "text": "If the diarrhea stops when the patient stops eating, the cause is something in the food (osmotic). If it keeps going, the gut is secreting."}
+      {
+        "kind": "mnemonic",
+        "label": "Iron Fist, Bro",
+        "text": "Iron in the duodenum, Folate in the jejunum, B12 in the ileum, going down the gut in order."
+      },
+      {
+        "kind": "trick",
+        "label": "Ride the sodium",
+        "text": "Glucose and sodium enter together on SGLT1, so giving both drags water in. That is the whole logic of oral rehydration."
+      },
+      {
+        "kind": "trick",
+        "label": "Fast them",
+        "text": "If the diarrhea stops when the patient stops eating, the cause is something in the food (osmotic). If it keeps going, the gut is secreting."
+      }
     ],
     "highYield": [
       "Cholera toxin raises cAMP and opens CFTR; SGLT1 still works, so oral rehydration with glucose and sodium saves lives.",
@@ -90,119 +240,318 @@
       "Lactase deficiency stool is acidic with a high osmotic gap; cholera stool has a low gap."
     ],
     "dumps": [
-      {"t": "Enterocyte transport map", "p": "Draw one enterocyte with its apical and basolateral sides. Show how glucose, galactose, fructose, amino acids, dipeptides, and fatty acids get in and out, labeling each transporter.", "l": [
-        "SGLT1 apical with 2 Na+ for glucose and galactose",
-        "GLUT5 apical for fructose",
-        "GLUT2 basolateral exit for all monosaccharides",
-        "Na+/K+-ATPase basolateral keeps intracellular Na+ low",
-        "Na+-linked amino acid carriers and H+-linked PepT1 for di- and tripeptides",
-        "Micelles deliver monoglyceride and fatty acids; re-esterified in smooth ER",
-        "Chylomicrons with apoB-48 leave into the lacteal"
-      ]},
-      {"t": "Ileal resection consequences", "p": "A patient loses 120 cm of terminal ileum. Make a flowchart from the resection to every deficiency and complication that follows.", "l": [
-        "Loss of intrinsic factor-B12 uptake leads to B12 deficiency",
-        "Megaloblastic anemia with high methylmalonic acid and neuropathy",
-        "Bile acids not reabsorbed, so the pool shrinks",
-        "Micelles fail, causing steatorrhea",
-        "Fat-soluble vitamin A, D, E, K deficiency",
-        "Bile supersaturated with cholesterol, so cholesterol gallstones",
-        "Calcium bound by fat frees oxalate, so oxalate kidney stones"
-      ]}
+      {
+        "t": "Enterocyte transport map",
+        "p": "Draw one enterocyte with its apical and basolateral sides. Show how glucose, galactose, fructose, amino acids, dipeptides, and fatty acids get in and out, labeling each transporter.",
+        "l": [
+          "SGLT1 apical with 2 Na+ for glucose and galactose",
+          "GLUT5 apical for fructose",
+          "GLUT2 basolateral exit for all monosaccharides",
+          "Na+/K+-ATPase basolateral keeps intracellular Na+ low",
+          "Na+-linked amino acid carriers and H+-linked PepT1 for di- and tripeptides",
+          "Micelles deliver monoglyceride and fatty acids; re-esterified in smooth ER",
+          "Chylomicrons with apoB-48 leave into the lacteal"
+        ]
+      },
+      {
+        "t": "Ileal resection consequences",
+        "p": "A patient loses 120 cm of terminal ileum. Make a flowchart from the resection to every deficiency and complication that follows.",
+        "l": [
+          "Loss of intrinsic factor-B12 uptake leads to B12 deficiency",
+          "Megaloblastic anemia with high methylmalonic acid and neuropathy",
+          "Bile acids not reabsorbed, so the pool shrinks",
+          "Micelles fail, causing steatorrhea",
+          "Fat-soluble vitamin A, D, E, K deficiency",
+          "Bile supersaturated with cholesterol, so cholesterol gallstones",
+          "Calcium bound by fat frees oxalate, so oxalate kidney stones"
+        ]
+      }
     ],
     "refs": [
-      {"book": "Guyton and Hall Textbook of Medical Physiology", "where": "Digestion and Absorption in the Gastrointestinal Tract"},
-      {"book": "Robbins and Cotran Pathologic Basis of Disease", "where": "Section on malabsorption and diarrhea"},
-      {"book": "Lippincott Illustrated Reviews: Biochemistry", "where": "Section on digestion and absorption of dietary lipids"}
+      {
+        "book": "Guyton and Hall Textbook of Medical Physiology",
+        "where": "Digestion and Absorption in the Gastrointestinal Tract"
+      },
+      {
+        "book": "Robbins and Cotran Pathologic Basis of Disease",
+        "where": "Section on malabsorption and diarrhea"
+      },
+      {
+        "book": "Lippincott Illustrated Reviews: Biochemistry",
+        "where": "Section on digestion and absorption of dietary lipids"
+      }
     ],
     "videos": [
-      {"channel": "Ninja Nerd", "title": "Gastrointestinal | Digestion & Absorption of Carbohydrates", "url": "https://www.youtube.com/watch?v=BXXxtEW5v3o"},
-      {"channel": "Ninja Nerd", "title": "Gastrointestinal | Digestion & Absorption of Lipids", "url": "https://www.youtube.com/watch?v=ja-MWkFNvDg"},
-      {"channel": "Ninja Nerd", "title": "Diarrhea | Clinical Medicine", "url": "https://www.youtube.com/watch?v=7ylgYbLCEA0"},
-      {"channel": "Ninja Nerd", "title": "Malabsorption | Clinical Medicine", "url": "https://www.youtube.com/watch?v=kx1UgaqpYkc"}
+      {
+        "channel": "Ninja Nerd",
+        "title": "Gastrointestinal | Digestion & Absorption of Carbohydrates",
+        "url": "https://www.youtube.com/watch?v=BXXxtEW5v3o"
+      },
+      {
+        "channel": "Ninja Nerd",
+        "title": "Gastrointestinal | Digestion & Absorption of Lipids",
+        "url": "https://www.youtube.com/watch?v=ja-MWkFNvDg"
+      },
+      {
+        "channel": "Ninja Nerd",
+        "title": "Diarrhea | Clinical Medicine",
+        "url": "https://www.youtube.com/watch?v=7ylgYbLCEA0"
+      },
+      {
+        "channel": "Ninja Nerd",
+        "title": "Malabsorption | Clinical Medicine",
+        "url": "https://www.youtube.com/watch?v=kx1UgaqpYkc"
+      }
     ],
-    "related": ["GI-6", "GI-8", "GI-13-E4", "GI-13-D2", "GI-12"]
+    "related": [
+      "GI-6",
+      "GI-8",
+      "GI-13-E4",
+      "GI-13-D2",
+      "GI-12"
+    ]
   },
   {
     "id": "GI-8",
     "summary": "What the body must get from food (essential amino acids, essential fatty acids, vitamins, and minerals), what each vitamin does as a cofactor, and how the liver keeps energy flowing between meals. Questions give you a deficiency or toxicity picture and ask you to name the missing cofactor, the blocked enzyme, or the lab that tells two deficiencies apart.",
     "notes": [
-      {"h": "Essential nutrients and malnutrition", "points": [
-        "Essential amino acids: phenylalanine, valine, threonine, tryptophan, isoleucine, methionine, histidine, leucine, lysine.",
-        "Essential fatty acids: linoleic acid (omega-6) and alpha-linolenic acid (omega-3); lack causes scaly dermatitis and poor healing.",
-        "Kwashiorkor: protein lack with enough calories; low albumin gives edema and ascites.",
-        "Kwashiorkor fatty liver: too little apolipoprotein to export VLDL from hepatocytes.",
-        "Marasmus: total calorie lack; muscle wasting and lost subcutaneous fat, no edema."
-      ]},
-      {"h": "Fat-soluble vitamins", "points": [
-        "Fat malabsorption (pancreatic insufficiency, cholestasis, celiac disease) drops vitamins A, D, E, and K together.",
-        "A: night blindness, dry eyes with Bitot spots, follicular hyperkeratosis.",
-        "D: osteomalacia in adults, rickets in children; low calcium and phosphate, high PTH and alkaline phosphatase.",
-        "E: antioxidant loss gives hemolytic anemia, spinocerebellar ataxia, posterior column loss, and neuropathy.",
-        "K: no gamma-carboxylation of factors II, VII, IX, X and proteins C and S; PT prolongs first because factor VII has the shortest half-life."
-      ]},
-      {"h": "Vitamin B12 and folate", "points": [
-        "Acid and pepsin free B12 from food protein; it binds haptocorrin (R binder) from saliva.",
-        "Pancreatic proteases digest haptocorrin in the duodenum, freeing B12 to bind intrinsic factor.",
-        "The IF-B12 complex is taken up in the terminal ileum; transcobalamin carries it in blood; liver stores last years.",
-        "B12 is a cofactor for methionine synthase and methylmalonyl-CoA mutase.",
-        "B12 deficiency: homocysteine high and methylmalonic acid high, with subacute combined degeneration.",
-        "Folate deficiency: homocysteine high, methylmalonic acid normal, no neurologic findings."
-      ]},
-      {"h": "Water-soluble vitamin cofactors", "points": [
-        "Thiamine (B1) as TPP: pyruvate dehydrogenase, alpha-ketoglutarate dehydrogenase, transketolase, branched-chain ketoacid dehydrogenase.",
-        "Thiamine lack: Wernicke encephalopathy (confusion, ophthalmoplegia, ataxia), dry beriberi (neuropathy), wet beriberi (high-output heart failure).",
-        "Niacin (B3) makes NAD+ and NADP+; lack gives pellagra: dermatitis, diarrhea, dementia.",
-        "Pyridoxine (B6) as PLP: ALA synthase (sideroblastic anemia), glutamate decarboxylase for GABA (seizures), transaminases.",
-        "Vitamin C: cofactor for prolyl and lysyl hydroxylase; scurvy gives bleeding gums, perifollicular hemorrhage, corkscrew hairs, poor wound healing."
-      ]},
-      {"h": "Fed and fasting energy", "points": [
-        "Fed: insulin drives glycogen synthesis, glycolysis, and fat synthesis in the liver.",
-        "Early fasting: glucagon drives hepatic glycogenolysis; liver glycogen is largely used up within about 24 hours.",
-        "Gluconeogenesis uses alanine (glucose-alanine cycle), lactate (Cori cycle), and glycerol from fat breakdown.",
-        "Even-chain fatty acids cannot make net glucose; acetyl-CoA cannot be turned back into pyruvate.",
-        "Prolonged fasting: liver makes acetoacetate and beta-hydroxybutyrate from fatty acid acetyl-CoA; the brain shifts to ketones over days.",
-        "The liver cannot use ketones because it lacks succinyl-CoA:acetoacetate CoA transferase (thiophorase)."
-      ]},
-      {"h": "Minerals and toxicity", "points": [
-        "Iron deficiency: microcytic hypochromic anemia, low ferritin, high TIBC.",
-        "Zinc deficiency: poor wound healing, dysgeusia, alopecia, hypogonadism, acrodermatitis around mouth and on hands and feet.",
-        "Copper deficiency: anemia, neutropenia, and a B12-like myelopathy with ataxia.",
-        "Excess zinc induces enterocyte metallothionein, which traps copper; gastric bypass also causes copper deficiency.",
-        "Vitamin A toxicity: raised intracranial pressure (pseudotumor cerebri), liver injury, dry skin, hair loss; it is a strong teratogen.",
-        "Vitamin D toxicity: hypercalcemia, hypercalciuria, kidney stones, with suppressed PTH."
-      ]}
+      {
+        "h": "Essential nutrients and malnutrition",
+        "points": [
+          "Essential amino acids: phenylalanine, valine, threonine, tryptophan, isoleucine, methionine, histidine, leucine, lysine.",
+          "Essential fatty acids: linoleic acid (omega-6) and alpha-linolenic acid (omega-3); lack causes scaly dermatitis and poor healing.",
+          "Kwashiorkor: protein lack with enough calories; low albumin gives edema and ascites.",
+          "Kwashiorkor fatty liver: too little apolipoprotein to export VLDL from hepatocytes.",
+          "Marasmus: total calorie lack; muscle wasting and lost subcutaneous fat, no edema."
+        ],
+        "why": "Humans cannot build the carbon skeletons of the essential amino acids and cannot place double bonds beyond carbon 9 of a fatty acid chain, so linoleic and alpha-linolenic acids must come from food. Linoleic acid supplies arachidonic acid for eicosanoids and the lipids of the epidermal water barrier, which explains the scaly dermatitis of deficiency. In kwashiorkor, a low amino acid supply limits hepatic synthesis of albumin and apolipoprotein B, so plasma oncotic pressure falls (edema) and triglyceride cannot leave the liver as VLDL (fatty liver). In marasmus, the body breaks down muscle and fat for energy, which keeps serum albumin closer to normal and spares the patient edema."
+      },
+      {
+        "h": "Fat-soluble vitamins",
+        "points": [
+          "Fat malabsorption (pancreatic insufficiency, cholestasis, celiac disease) drops vitamins A, D, E, and K together.",
+          "A: night blindness, dry eyes with Bitot spots, follicular hyperkeratosis.",
+          "D: osteomalacia in adults, rickets in children; low calcium and phosphate, high PTH and alkaline phosphatase.",
+          "E: antioxidant loss gives hemolytic anemia, spinocerebellar ataxia, posterior column loss, and neuropathy.",
+          "K: no gamma-carboxylation of factors II, VII, IX, X and proteins C and S; PT prolongs first because factor VII has the shortest half-life."
+        ],
+        "why": "Vitamins A, D, E, and K need micelles and chylomicrons, so any fat malabsorption lowers all four together. Retinal forms rhodopsin in rods and retinoic acid directs epithelial differentiation, so night blindness comes with keratinizing metaplasia of conjunctiva and skin. Reduced vitamin K is the cofactor for gamma-glutamyl carboxylase, which adds the carboxyl groups that let clotting factors bind Ca2+ and phospholipid; factor VII has a half-life of about 6 hours, so the PT prolongs before the PTT. In vitamin D deficiency, poor calcium absorption raises PTH, which holds serum calcium near normal at the cost of phosphate wasting and poorly mineralized osteoid."
+      },
+      {
+        "h": "Vitamin B12 and folate",
+        "points": [
+          "Acid and pepsin free B12 from food protein; it binds haptocorrin (R binder) from saliva.",
+          "Pancreatic proteases digest haptocorrin in the duodenum, freeing B12 to bind intrinsic factor.",
+          "The IF-B12 complex is taken up in the terminal ileum; transcobalamin carries it in blood; liver stores last years.",
+          "B12 is a cofactor for methionine synthase and methylmalonyl-CoA mutase.",
+          "B12 deficiency: homocysteine high and methylmalonic acid high, with subacute combined degeneration.",
+          "Folate deficiency: homocysteine high, methylmalonic acid normal, no neurologic findings."
+        ],
+        "why": "B12 absorption needs every step in order (acid release, haptocorrin protection, pancreatic protease release, intrinsic factor binding, and ileal uptake), so gastric, pancreatic, or ileal disease can each cause deficiency. Methionine synthase uses methylcobalamin to move a methyl group from N5-methyl-THF to homocysteine, so a lack of either B12 or folate raises homocysteine and slows thymidine and DNA synthesis, giving megaloblastic anemia. Methylmalonyl-CoA mutase needs only B12 (as adenosylcobalamin), so methylmalonic acid rises in B12 deficiency alone. The myelin damage of B12 deficiency, linked to the methylmalonyl-CoA block and impaired methylation, affects the dorsal columns and lateral corticospinal tracts (subacute combined degeneration)."
+      },
+      {
+        "h": "Water-soluble vitamin cofactors",
+        "points": [
+          "Thiamine (B1) as TPP: pyruvate dehydrogenase, alpha-ketoglutarate dehydrogenase, transketolase, branched-chain ketoacid dehydrogenase.",
+          "Thiamine lack: Wernicke encephalopathy (confusion, ophthalmoplegia, ataxia), dry beriberi (neuropathy), wet beriberi (high-output heart failure).",
+          "Niacin (B3) makes NAD+ and NADP+; lack gives pellagra: dermatitis, diarrhea, dementia.",
+          "Pyridoxine (B6) as PLP: ALA synthase (sideroblastic anemia), glutamate decarboxylase for GABA (seizures), transaminases.",
+          "Vitamin C: cofactor for prolyl and lysyl hydroxylase; scurvy gives bleeding gums, perifollicular hemorrhage, corkscrew hairs, poor wound healing."
+        ],
+        "why": "TPP is the cofactor for oxidative decarboxylation of alpha-keto acids, so thiamine deficiency blocks pyruvate entry into the TCA cycle and starves glucose-dependent neurons and heart muscle of ATP; glucose given without thiamine can precipitate Wernicke encephalopathy. Niacin-derived NAD+ carries electrons in many redox reactions, so high-turnover tissues (skin, gut, brain) fail first in pellagra. PLP is required by ALA synthase for the first step of heme synthesis and by glutamate decarboxylase to make GABA, so B6 deficiency gives sideroblastic anemia and seizures. Vitamin C keeps the iron of prolyl and lysyl hydroxylase reduced; without hydroxylation, collagen triple helices are unstable and vessels and wounds fail."
+      },
+      {
+        "h": "Fed and fasting energy",
+        "points": [
+          "Fed: insulin drives glycogen synthesis, glycolysis, and fat synthesis in the liver.",
+          "Early fasting: glucagon drives hepatic glycogenolysis; liver glycogen is largely used up within about 24 hours.",
+          "Gluconeogenesis uses alanine (glucose-alanine cycle), lactate (Cori cycle), and glycerol from fat breakdown.",
+          "Even-chain fatty acids cannot make net glucose; acetyl-CoA cannot be turned back into pyruvate.",
+          "Prolonged fasting: liver makes acetoacetate and beta-hydroxybutyrate from fatty acid acetyl-CoA; the brain shifts to ketones over days.",
+          "The liver cannot use ketones because it lacks succinyl-CoA:acetoacetate CoA transferase (thiophorase)."
+        ],
+        "why": "Glucagon raises cAMP and protein kinase A in hepatocytes, which activates glycogen phosphorylase, inhibits glycogen synthase, and lowers fructose-2,6-bisphosphate so gluconeogenesis wins over glycolysis; insulin reverses each of these switches. Gluconeogenesis needs a carbon source that can become pyruvate, oxaloacetate, or dihydroxyacetone phosphate, and because pyruvate dehydrogenase is irreversible, acetyl-CoA from even-chain fatty acids cannot supply net glucose. In prolonged fasting, beta-oxidation floods the liver with acetyl-CoA while oxaloacetate is drawn off for gluconeogenesis, so acetyl-CoA is converted to ketone bodies. Brain and muscle oxidize ketones using thiophorase, which the liver lacks, and the brain's switch to ketones lowers the need to break down muscle protein for glucose."
+      },
+      {
+        "h": "Minerals and toxicity",
+        "points": [
+          "Iron deficiency: microcytic hypochromic anemia, low ferritin, high TIBC.",
+          "Zinc deficiency: poor wound healing, dysgeusia, alopecia, hypogonadism, acrodermatitis around mouth and on hands and feet.",
+          "Copper deficiency: anemia, neutropenia, and a B12-like myelopathy with ataxia.",
+          "Excess zinc induces enterocyte metallothionein, which traps copper; gastric bypass also causes copper deficiency.",
+          "Vitamin A toxicity: raised intracranial pressure (pseudotumor cerebri), liver injury, dry skin, hair loss; it is a strong teratogen.",
+          "Vitamin D toxicity: hypercalcemia, hypercalciuria, kidney stones, with suppressed PTH."
+        ],
+        "why": "Low iron stores lower ferritin, the storage protein, while the liver makes more transferrin, raising TIBC; too little iron for heme lowers hemoglobin per cell, giving small, pale red cells. Zinc induces enterocyte metallothionein, which binds copper tightly and holds it until the cell is shed. Copper deficiency impairs copper enzymes such as ceruloplasmin and hephaestin, which oxidize iron so it can be exported, explaining the anemia. Vitamins A and D are stored in fat and liver and are poorly excreted, so excess builds up; too much vitamin D increases gut calcium absorption and bone resorption, and the high calcium suppresses PTH."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Vitamin B12 from food to tissue",
+        "steps": [
+          "Gastric acid and pepsin release B12 from food protein.",
+          "Free B12 binds haptocorrin (R binder) in the stomach.",
+          "Pancreatic proteases digest haptocorrin in the duodenum.",
+          "Released B12 binds intrinsic factor made by parietal cells.",
+          "Cubilin receptors in the terminal ileum take up the IF-B12 complex.",
+          "Transcobalamin carries B12 in blood to the liver and other tissues."
+        ]
+      },
+      {
+        "title": "Fuel use from fed state to prolonged fasting",
+        "steps": [
+          "Fed: insulin drives liver glycogen, glycolysis, and fat synthesis.",
+          "Early fasting: glucagon drives hepatic glycogenolysis.",
+          "Liver glycogen is largely used up within about 24 hours.",
+          "Gluconeogenesis from alanine, lactate, and glycerol maintains blood glucose.",
+          "Fatty acid oxidation supplies acetyl-CoA, which the liver turns into ketone bodies.",
+          "Over days the brain shifts to ketones, sparing muscle protein."
+        ]
+      }
     ],
     "charts": [
-      {"title": "Vitamin deficiencies by cofactor role", "cols": ["Vitamin", "Active form or role", "Deficiency findings"], "rows": [
-        ["A (retinol)", "Retinal in rhodopsin; epithelial differentiation", "Night blindness, Bitot spots, xerophthalmia"],
-        ["D", "Calcitriol raises gut calcium and phosphate uptake", "Rickets, osteomalacia"],
-        ["E", "Antioxidant in cell membranes", "Hemolytic anemia, ataxia, neuropathy"],
-        ["K", "Gamma-carboxylation of II, VII, IX, X, C, S", "Bleeding, prolonged PT"],
-        ["B1 (thiamine)", "TPP for dehydrogenases and transketolase", "Wernicke encephalopathy, beriberi"],
-        ["B3 (niacin)", "NAD+ and NADP+", "Pellagra"],
-        ["B6 (pyridoxine)", "PLP for ALA synthase, transaminases, GABA synthesis", "Sideroblastic anemia, seizures, neuropathy"],
-        ["B9 (folate)", "THF carries one-carbon units", "Megaloblastic anemia, high homocysteine only"],
-        ["B12 (cobalamin)", "Methionine synthase, methylmalonyl-CoA mutase", "Megaloblastic anemia, high homocysteine and MMA, neuropathy"],
-        ["C (ascorbate)", "Prolyl and lysyl hydroxylase", "Scurvy"]
-      ]},
-      {"title": "Kwashiorkor and marasmus", "cols": ["Feature", "Kwashiorkor", "Marasmus"], "rows": [
-        ["Main lack", "Protein", "Total calories"],
-        ["Edema", "Yes, from low albumin", "No"],
-        ["Liver", "Fatty, enlarged", "Usually normal"],
-        ["Muscle and fat", "Some muscle loss, fat partly kept", "Severe wasting of both"]
-      ]},
-      {"title": "Fuel sources across a fast", "cols": ["Phase", "Main hormone", "Main glucose or fuel source"], "rows": [
-        ["Fed", "Insulin", "Dietary glucose; liver stores glycogen and makes fat"],
-        ["Early fast (hours)", "Glucagon", "Hepatic glycogenolysis"],
-        ["Fast past about a day", "Glucagon, cortisol", "Gluconeogenesis from alanine, lactate, glycerol"],
-        ["Prolonged fast (days to weeks)", "Glucagon", "Ketone bodies for brain; less muscle protein breakdown"]
-      ]}
+      {
+        "title": "Vitamin deficiencies by cofactor role",
+        "cols": [
+          "Vitamin",
+          "Active form or role",
+          "Deficiency findings"
+        ],
+        "rows": [
+          [
+            "A (retinol)",
+            "Retinal in rhodopsin; epithelial differentiation",
+            "Night blindness, Bitot spots, xerophthalmia"
+          ],
+          [
+            "D",
+            "Calcitriol raises gut calcium and phosphate uptake",
+            "Rickets, osteomalacia"
+          ],
+          [
+            "E",
+            "Antioxidant in cell membranes",
+            "Hemolytic anemia, ataxia, neuropathy"
+          ],
+          [
+            "K",
+            "Gamma-carboxylation of II, VII, IX, X, C, S",
+            "Bleeding, prolonged PT"
+          ],
+          [
+            "B1 (thiamine)",
+            "TPP for dehydrogenases and transketolase",
+            "Wernicke encephalopathy, beriberi"
+          ],
+          [
+            "B3 (niacin)",
+            "NAD+ and NADP+",
+            "Pellagra"
+          ],
+          [
+            "B6 (pyridoxine)",
+            "PLP for ALA synthase, transaminases, GABA synthesis",
+            "Sideroblastic anemia, seizures, neuropathy"
+          ],
+          [
+            "B9 (folate)",
+            "THF carries one-carbon units",
+            "Megaloblastic anemia, high homocysteine only"
+          ],
+          [
+            "B12 (cobalamin)",
+            "Methionine synthase, methylmalonyl-CoA mutase",
+            "Megaloblastic anemia, high homocysteine and MMA, neuropathy"
+          ],
+          [
+            "C (ascorbate)",
+            "Prolyl and lysyl hydroxylase",
+            "Scurvy"
+          ]
+        ]
+      },
+      {
+        "title": "Kwashiorkor and marasmus",
+        "cols": [
+          "Feature",
+          "Kwashiorkor",
+          "Marasmus"
+        ],
+        "rows": [
+          [
+            "Main lack",
+            "Protein",
+            "Total calories"
+          ],
+          [
+            "Edema",
+            "Yes, from low albumin",
+            "No"
+          ],
+          [
+            "Liver",
+            "Fatty, enlarged",
+            "Usually normal"
+          ],
+          [
+            "Muscle and fat",
+            "Some muscle loss, fat partly kept",
+            "Severe wasting of both"
+          ]
+        ]
+      },
+      {
+        "title": "Fuel sources across a fast",
+        "cols": [
+          "Phase",
+          "Main hormone",
+          "Main glucose or fuel source"
+        ],
+        "rows": [
+          [
+            "Fed",
+            "Insulin",
+            "Dietary glucose; liver stores glycogen and makes fat"
+          ],
+          [
+            "Early fast (hours)",
+            "Glucagon",
+            "Hepatic glycogenolysis"
+          ],
+          [
+            "Fast past about a day",
+            "Glucagon, cortisol",
+            "Gluconeogenesis from alanine, lactate, glycerol"
+          ],
+          [
+            "Prolonged fast (days to weeks)",
+            "Glucagon",
+            "Ketone bodies for brain; less muscle protein breakdown"
+          ]
+        ]
+      }
     ],
     "tricks": [
-      {"kind": "mnemonic", "label": "PVT TIM HaLL", "text": "Phenylalanine, Valine, Threonine, Tryptophan, Isoleucine, Methionine, Histidine, Leucine, Lysine: the essential amino acids."},
-      {"kind": "mnemonic", "label": "Kwashiorkor is a protein-poor MEAL", "text": "Malnutrition, Edema, Anemia, Liver (fatty)."},
-      {"kind": "mnemonic", "label": "The 3 Ds of pellagra", "text": "Dermatitis (sun-exposed skin), Diarrhea, Dementia; untreated it can lead to death."},
-      {"kind": "trick", "label": "B12 needs two jobs done", "text": "B12 runs two enzymes, so both products back up (homocysteine and MMA). Folate runs only the methionine synthase step, so only homocysteine rises."}
+      {
+        "kind": "mnemonic",
+        "label": "PVT TIM HaLL",
+        "text": "Phenylalanine, Valine, Threonine, Tryptophan, Isoleucine, Methionine, Histidine, Leucine, Lysine: the essential amino acids."
+      },
+      {
+        "kind": "mnemonic",
+        "label": "Kwashiorkor is a protein-poor MEAL",
+        "text": "Malnutrition, Edema, Anemia, Liver (fatty)."
+      },
+      {
+        "kind": "mnemonic",
+        "label": "The 3 Ds of pellagra",
+        "text": "Dermatitis (sun-exposed skin), Diarrhea, Dementia; untreated it can lead to death."
+      },
+      {
+        "kind": "trick",
+        "label": "B12 needs two jobs done",
+        "text": "B12 runs two enzymes, so both products back up (homocysteine and MMA). Folate runs only the methionine synthase step, so only homocysteine rises."
+      }
     ],
     "highYield": [
       "Give thiamine before glucose in a malnourished patient with alcohol use disorder to avoid triggering Wernicke encephalopathy.",
@@ -219,109 +568,291 @@
       "Ketones are made in the liver but used by brain, heart, and muscle; red cells and liver cannot use them."
     ],
     "dumps": [
-      {"t": "Vitamin B12 path", "p": "Draw the path of vitamin B12 from a bite of meat to a cell in bone marrow. Label each binding protein and the organ that makes it.", "l": [
-        "Acid and pepsin in the stomach release B12 from food protein",
-        "Haptocorrin (R binder) from saliva binds B12 in the stomach",
-        "Intrinsic factor comes from gastric parietal cells",
-        "Pancreatic proteases cleave haptocorrin in the duodenum",
-        "B12 transfers to intrinsic factor",
-        "IF-B12 taken up in the terminal ileum",
-        "Transcobalamin carries B12 in blood; liver stores last years",
-        "Name one cause of failure at each step (pernicious anemia, pancreatic insufficiency, ileal resection)"
-      ]},
-      {"t": "Fasting timeline", "p": "Draw a timeline from a meal through 3 weeks of fasting. Under each phase, write the main hormone, the main source of blood glucose, and the main fuel used by the brain.", "l": [
-        "Fed: insulin, dietary glucose, glycogen and fat storage",
-        "Hours after the meal: glucagon and hepatic glycogenolysis",
-        "Liver glycogen largely gone within about 24 hours",
-        "Gluconeogenesis from alanine, lactate, and glycerol",
-        "Even-chain fatty acids cannot give net glucose",
-        "Liver makes ketones from fatty acids but cannot use them (no thiophorase)",
-        "Brain adapts to ketones over days, sparing muscle protein"
-      ]}
+      {
+        "t": "Vitamin B12 path",
+        "p": "Draw the path of vitamin B12 from a bite of meat to a cell in bone marrow. Label each binding protein and the organ that makes it.",
+        "l": [
+          "Acid and pepsin in the stomach release B12 from food protein",
+          "Haptocorrin (R binder) from saliva binds B12 in the stomach",
+          "Intrinsic factor comes from gastric parietal cells",
+          "Pancreatic proteases cleave haptocorrin in the duodenum",
+          "B12 transfers to intrinsic factor",
+          "IF-B12 taken up in the terminal ileum",
+          "Transcobalamin carries B12 in blood; liver stores last years",
+          "Name one cause of failure at each step (pernicious anemia, pancreatic insufficiency, ileal resection)"
+        ]
+      },
+      {
+        "t": "Fasting timeline",
+        "p": "Draw a timeline from a meal through 3 weeks of fasting. Under each phase, write the main hormone, the main source of blood glucose, and the main fuel used by the brain.",
+        "l": [
+          "Fed: insulin, dietary glucose, glycogen and fat storage",
+          "Hours after the meal: glucagon and hepatic glycogenolysis",
+          "Liver glycogen largely gone within about 24 hours",
+          "Gluconeogenesis from alanine, lactate, and glycerol",
+          "Even-chain fatty acids cannot give net glucose",
+          "Liver makes ketones from fatty acids but cannot use them (no thiophorase)",
+          "Brain adapts to ketones over days, sparing muscle protein"
+        ]
+      }
     ],
     "refs": [
-      {"book": "Lippincott Illustrated Reviews: Biochemistry", "where": "Section on vitamins"},
-      {"book": "Lippincott Illustrated Reviews: Biochemistry", "where": "Section on the feed/fast cycle"},
-      {"book": "Robbins and Cotran Pathologic Basis of Disease", "where": "Environmental and Nutritional Diseases"}
+      {
+        "book": "Lippincott Illustrated Reviews: Biochemistry",
+        "where": "Section on vitamins"
+      },
+      {
+        "book": "Lippincott Illustrated Reviews: Biochemistry",
+        "where": "Section on the feed/fast cycle"
+      },
+      {
+        "book": "Robbins and Cotran Pathologic Basis of Disease",
+        "where": "Environmental and Nutritional Diseases"
+      }
     ],
     "videos": [
-      {"channel": "Armando Hasudungan", "title": "Vitamin B12 Digestion and Absorption & Pernicious Anaemia", "url": "https://www.youtube.com/watch?v=aww5NiahRb8"},
-      {"channel": "Ninja Nerd", "title": "Metabolism | Gluconeogenesis", "url": "https://www.youtube.com/watch?v=YpV96faQOZc"},
-      {"channel": "Ninja Nerd", "title": "Metabolism | Ketone Metabolism", "url": "https://www.youtube.com/watch?v=BlR9DkUAUkI"}
+      {
+        "channel": "Armando Hasudungan",
+        "title": "Vitamin B12 Digestion and Absorption & Pernicious Anaemia",
+        "url": "https://www.youtube.com/watch?v=aww5NiahRb8"
+      },
+      {
+        "channel": "Ninja Nerd",
+        "title": "Metabolism | Gluconeogenesis",
+        "url": "https://www.youtube.com/watch?v=YpV96faQOZc"
+      },
+      {
+        "channel": "Ninja Nerd",
+        "title": "Metabolism | Ketone Metabolism",
+        "url": "https://www.youtube.com/watch?v=BlR9DkUAUkI"
+      }
     ],
-    "related": ["GI-7", "GI-13-E", "HE-9-A1", "HE-9-C5"]
+    "related": [
+      "GI-7",
+      "GI-13-E",
+      "HE-9-A1",
+      "HE-9-C5"
+    ]
   },
   {
     "id": "GI-9",
     "summary": "The liver's work beyond digestion: clearing bilirubin, transforming drugs and toxins, making albumin and clotting factors, and turning ammonia into urea, along with how saliva protects teeth and how the gallbladder concentrates bile. Questions hand you a jaundice lab panel, an overdose, or a failing liver and ask which step broke.",
     "notes": [
-      {"h": "Bilirubin pathway", "points": [
-        "Macrophages (mainly spleen) break down heme: heme oxygenase makes biliverdin, CO, and iron.",
-        "Biliverdin reductase makes unconjugated bilirubin, which is fat-soluble and rides on albumin.",
-        "Hepatocytes take it up and UGT1A1 conjugates it with glucuronic acid, making it water-soluble.",
-        "MRP2 pumps conjugated bilirubin into the canaliculus; this ATP-dependent step is rate-limiting.",
-        "Gut bacteria turn it into urobilinogen; most becomes stercobilin (brown stool).",
-        "Some urobilinogen is reabsorbed; a little is excreted in urine, where it oxidizes to yellow urobilin."
-      ]},
-      {"h": "Reading jaundice labs", "points": [
-        "Only conjugated bilirubin can appear in urine; unconjugated is bound to albumin.",
-        "Hemolysis: unconjugated rises, no urine bilirubin, urine urobilinogen goes up.",
-        "Obstruction: conjugated rises, dark urine bilirubin, pale stool, urine urobilinogen low or absent.",
-        "Hepatocellular injury: both fractions rise, urine bilirubin present, urobilinogen normal or high.",
-        "Gilbert syndrome (mild UGT1A1 reduction) and Crigler-Najjar (absent or very low UGT1A1) raise unconjugated bilirubin.",
-        "Dubin-Johnson (MRP2 defect, black liver) and Rotor syndrome raise conjugated bilirubin."
-      ]},
-      {"h": "Drug and toxin metabolism", "points": [
-        "Phase I: cytochrome P450 oxidation, reduction, or hydrolysis in smooth ER; products can be more reactive.",
-        "Phase II: conjugation (glucuronidation, sulfation, glutathione, acetylation) makes a polar product to excrete.",
-        "Acetaminophen is mostly glucuronidated and sulfated; a small fraction goes through CYP2E1 to NAPQI.",
-        "Glutathione normally neutralizes NAPQI; in overdose glutathione runs out and NAPQI binds cell proteins.",
-        "Injury is centrilobular (zone 3) because zone 3 has the most CYP2E1 and the least oxygen.",
-        "N-acetylcysteine replenishes glutathione; chronic alcohol use raises risk by inducing CYP2E1 and lowering glutathione.",
-        "Carbon tetrachloride: CYP450 makes the trichloromethyl radical, which causes lipid peroxidation, fatty change, and centrilobular necrosis."
-      ]},
-      {"h": "Synthesis and ammonia", "points": [
-        "Liver makes albumin, most clotting factors, and proteins C and S.",
-        "PT prolongs early in liver failure because factor VII has a half-life of about 6 hours.",
-        "Albumin falls more slowly (half-life about 3 weeks) and causes edema and ascites.",
-        "The urea cycle in hepatocytes turns ammonia into urea; CPS I is the first committed step.",
-        "Liver failure or portosystemic shunting lets ammonia rise, causing hepatic encephalopathy with asterixis.",
-        "Factor VIII is made by endothelium, so it stays normal in liver disease."
-      ]},
-      {"h": "Saliva and gallbladder", "points": [
-        "Saliva bicarbonate buffers plaque acid; calcium and phosphate remineralize early enamel lesions.",
-        "Saliva defenses: secretory IgA, lysozyme (cleaves peptidoglycan), lactoferrin (binds iron).",
-        "Low salivary flow (Sjogren syndrome, anticholinergics, head and neck radiation) leads to rampant caries.",
-        "The gallbladder absorbs Na+ actively; Cl- and water follow, concentrating bile about 5-fold, up to about 20-fold.",
-        "CCK from duodenal I cells (after fat and protein) contracts the gallbladder and relaxes the sphincter of Oddi.",
-        "Stasis (fasting, TPN, pregnancy, rapid weight loss) plus concentrated bile lets cholesterol crystals nucleate into stones."
-      ]}
+      {
+        "h": "Bilirubin pathway",
+        "points": [
+          "Macrophages (mainly spleen) break down heme: heme oxygenase makes biliverdin, CO, and iron.",
+          "Biliverdin reductase makes unconjugated bilirubin, which is fat-soluble and rides on albumin.",
+          "Hepatocytes take it up and UGT1A1 conjugates it with glucuronic acid, making it water-soluble.",
+          "MRP2 pumps conjugated bilirubin into the canaliculus; this ATP-dependent step is rate-limiting.",
+          "Gut bacteria turn it into urobilinogen; most becomes stercobilin (brown stool).",
+          "Some urobilinogen is reabsorbed; a little is excreted in urine, where it oxidizes to yellow urobilin."
+        ],
+        "why": "Heme oxygenase opens the porphyrin ring, releasing iron for reuse and carbon monoxide, and biliverdin reductase converts green biliverdin to yellow bilirubin. Unconjugated bilirubin is hydrophobic, so it travels bound to albumin and is not filtered by the glomerulus; glucuronidation by UGT1A1 adds polar sugar groups that make it water-soluble. Canalicular export by MRP2 is the slowest step, so in diffuse hepatocellular injury conjugated bilirubin backs up into blood. In the gut, bacteria deconjugate and reduce bilirubin to urobilinogen; most is oxidized to stercobilin, which colors stool, and some is reabsorbed, with a small fraction excreted by the kidney."
+      },
+      {
+        "h": "Reading jaundice labs",
+        "points": [
+          "Only conjugated bilirubin can appear in urine; unconjugated is bound to albumin.",
+          "Hemolysis: unconjugated rises, no urine bilirubin, urine urobilinogen goes up.",
+          "Obstruction: conjugated rises, dark urine bilirubin, pale stool, urine urobilinogen low or absent.",
+          "Hepatocellular injury: both fractions rise, urine bilirubin present, urobilinogen normal or high.",
+          "Gilbert syndrome (mild UGT1A1 reduction) and Crigler-Najjar (absent or very low UGT1A1) raise unconjugated bilirubin.",
+          "Dubin-Johnson (MRP2 defect, black liver) and Rotor syndrome raise conjugated bilirubin."
+        ],
+        "why": "Urine findings follow solubility: only conjugated bilirubin is water-soluble and loosely enough bound to albumin to pass the glomerulus, so bilirubinuria means conjugated hyperbilirubinemia. Urine urobilinogen depends on how much bilirubin reaches the gut; hemolysis delivers more and raises it, while complete obstruction delivers none, so stool turns pale and urine urobilinogen disappears. Gilbert and Crigler-Najjar act at the conjugation step, so unconjugated bilirubin rises while other liver tests stay normal, and Gilbert worsens with fasting, stress, or illness. Dubin-Johnson (failed MRP2 export) and Rotor (failed hepatic reuptake of conjugated bilirubin by OATP1B1 and OATP1B3) raise conjugated bilirubin while alkaline phosphatase stays normal."
+      },
+      {
+        "h": "Drug and toxin metabolism",
+        "points": [
+          "Phase I: cytochrome P450 oxidation, reduction, or hydrolysis in smooth ER; products can be more reactive.",
+          "Phase II: conjugation (glucuronidation, sulfation, glutathione, acetylation) makes a polar product to excrete.",
+          "Acetaminophen is mostly glucuronidated and sulfated; a small fraction goes through CYP2E1 to NAPQI.",
+          "Glutathione normally neutralizes NAPQI; in overdose glutathione runs out and NAPQI binds cell proteins.",
+          "Injury is centrilobular (zone 3) because zone 3 has the most CYP2E1 and the least oxygen.",
+          "N-acetylcysteine replenishes glutathione; chronic alcohol use raises risk by inducing CYP2E1 and lowering glutathione.",
+          "Carbon tetrachloride: CYP450 makes the trichloromethyl radical, which causes lipid peroxidation, fatty change, and centrilobular necrosis."
+        ],
+        "why": "Phase I adds or exposes a reactive group, and phase II attaches a polar molecule to it so the product can leave in bile or urine. At therapeutic doses, glucuronidation and sulfation handle most acetaminophen, but in overdose these pathways saturate, more drug flows through CYP2E1 to NAPQI, and glutathione is used up faster than it is made. Free NAPQI then binds cysteine groups on cell proteins, especially mitochondrial proteins, causing oxidative stress and necrosis in zone 3, where CYP2E1 is richest and oxygen is lowest. N-acetylcysteine supplies cysteine for new glutathione; chronic alcohol use induces CYP2E1 and lowers glutathione, lowering the toxic dose."
+      },
+      {
+        "h": "Synthesis and ammonia",
+        "points": [
+          "Liver makes albumin, most clotting factors, and proteins C and S.",
+          "PT prolongs early in liver failure because factor VII has a half-life of about 6 hours.",
+          "Albumin falls more slowly (half-life about 3 weeks) and causes edema and ascites.",
+          "The urea cycle in hepatocytes turns ammonia into urea; CPS I is the first committed step.",
+          "Liver failure or portosystemic shunting lets ammonia rise, causing hepatic encephalopathy with asterixis.",
+          "Factor VIII is made by endothelium, so it stays normal in liver disease."
+        ],
+        "why": "In liver failure, plasma proteins fall in order of half-life, so the PT (factor VII, about 6 hours) rises within a day while albumin (about 3 weeks) falls only with longer disease. Factor VIII comes from endothelial cells, so it stays normal or high in liver failure and falls in DIC, where it is consumed. Ammonia from gut bacteria and amino acid breakdown normally reaches the liver in portal blood and enters the urea cycle; when hepatocyte mass falls or portosystemic shunts bypass the liver, ammonia reaches the brain. Astrocytes detoxify it by making glutamine from glutamate, and the glutamine swells them osmotically and disturbs neurotransmission."
+      },
+      {
+        "h": "Saliva and gallbladder",
+        "points": [
+          "Saliva bicarbonate buffers plaque acid; calcium and phosphate remineralize early enamel lesions.",
+          "Saliva defenses: secretory IgA, lysozyme (cleaves peptidoglycan), lactoferrin (binds iron).",
+          "Low salivary flow (Sjogren syndrome, anticholinergics, head and neck radiation) leads to rampant caries.",
+          "The gallbladder absorbs Na+ actively; Cl- and water follow, concentrating bile about 5-fold, up to about 20-fold.",
+          "CCK from duodenal I cells (after fat and protein) contracts the gallbladder and relaxes the sphincter of Oddi.",
+          "Stasis (fasting, TPN, pregnancy, rapid weight loss) plus concentrated bile lets cholesterol crystals nucleate into stones."
+        ],
+        "why": "Bicarbonate in saliva neutralizes the acid that plaque bacteria make from sugar, and saliva supersaturated with calcium and phosphate drives remineralization of enamel when the pH recovers. Lysozyme, lactoferrin, and secretory IgA limit bacterial growth and adhesion, so loss of flow removes both the chemical and the antimicrobial defense, and caries spread quickly. The gallbladder epithelium pumps Na+ out through the Na+/K+-ATPase, Cl- and water follow, and bile acids, cholesterol, and bilirubin stay behind and become concentrated. When emptying slows, cholesterol in supersaturated bile has time to nucleate, and mucin from the gallbladder wall traps the crystals into sludge and stones."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Bilirubin from heme to stool and urine",
+        "steps": [
+          "Macrophage heme oxygenase converts heme to biliverdin, iron, and CO.",
+          "Biliverdin reductase makes unconjugated bilirubin, carried on albumin.",
+          "Hepatocytes take it up, and UGT1A1 conjugates it with glucuronic acid.",
+          "MRP2 pumps conjugated bilirubin into the canaliculus and bile.",
+          "Gut bacteria deconjugate and reduce it to urobilinogen.",
+          "Most becomes stercobilin in stool; a little leaves in urine as urobilin."
+        ]
+      },
+      {
+        "title": "Acetaminophen overdose to liver necrosis",
+        "steps": [
+          "Overdose saturates the glucuronidation and sulfation pathways.",
+          "More drug is oxidized by CYP2E1 to the reactive metabolite NAPQI.",
+          "NAPQI is conjugated with glutathione until hepatic glutathione is depleted.",
+          "Free NAPQI binds cysteine groups on cell proteins, especially in mitochondria.",
+          "Oxidative stress and mitochondrial failure cause centrilobular (zone 3) necrosis."
+        ]
+      },
+      {
+        "title": "Hepatic encephalopathy",
+        "steps": [
+          "Gut bacteria and amino acid breakdown produce ammonia that enters portal blood.",
+          "Cirrhosis lowers urea cycle capacity, and portosystemic shunts bypass the liver.",
+          "Ammonia reaches the systemic circulation and crosses the blood-brain barrier.",
+          "Astrocyte glutamine synthetase combines ammonia with glutamate to make glutamine.",
+          "Glutamine buildup swells astrocytes and disturbs neurotransmission.",
+          "Confusion, asterixis, and eventually coma develop."
+        ]
+      }
     ],
     "charts": [
-      {"title": "Jaundice by mechanism", "cols": ["Type", "Serum bilirubin", "Urine bilirubin", "Urine urobilinogen", "Stool"], "rows": [
-        ["Hemolytic (prehepatic)", "Unconjugated high", "Absent", "Increased", "Normal or dark"],
-        ["Hepatocellular", "Both high", "Present", "Normal or increased", "Normal or pale"],
-        ["Obstructive (posthepatic)", "Conjugated high", "Present (dark urine)", "Decreased or absent", "Pale, clay-colored"]
-      ]},
-      {"title": "Inherited hyperbilirubinemias", "cols": ["Syndrome", "Defect", "Bilirubin type", "Key feature"], "rows": [
-        ["Gilbert", "Mildly reduced UGT1A1", "Unconjugated", "Mild jaundice with fasting, stress, illness"],
-        ["Crigler-Najjar type I", "Absent UGT1A1", "Unconjugated", "Kernicterus in infancy"],
-        ["Dubin-Johnson", "MRP2 defect", "Conjugated", "Black liver"],
-        ["Rotor", "Impaired hepatic uptake and storage", "Conjugated", "Normal liver color, milder"]
-      ]},
-      {"title": "Liver failure findings and their cause", "cols": ["Finding", "Lost function"], "rows": [
-        ["Prolonged PT, bleeding", "Clotting factor synthesis"],
-        ["Edema, ascites", "Albumin synthesis"],
-        ["Confusion, asterixis", "Urea cycle disposal of ammonia"],
-        ["Hypoglycemia", "Glycogenolysis and gluconeogenesis"],
-        ["Jaundice", "Bilirubin conjugation and excretion"],
-        ["Gynecomastia, spider angiomas", "Estrogen breakdown"]
-      ]}
+      {
+        "title": "Jaundice by mechanism",
+        "cols": [
+          "Type",
+          "Serum bilirubin",
+          "Urine bilirubin",
+          "Urine urobilinogen",
+          "Stool"
+        ],
+        "rows": [
+          [
+            "Hemolytic (prehepatic)",
+            "Unconjugated high",
+            "Absent",
+            "Increased",
+            "Normal or dark"
+          ],
+          [
+            "Hepatocellular",
+            "Both high",
+            "Present",
+            "Normal or increased",
+            "Normal or pale"
+          ],
+          [
+            "Obstructive (posthepatic)",
+            "Conjugated high",
+            "Present (dark urine)",
+            "Decreased or absent",
+            "Pale, clay-colored"
+          ]
+        ]
+      },
+      {
+        "title": "Inherited hyperbilirubinemias",
+        "cols": [
+          "Syndrome",
+          "Defect",
+          "Bilirubin type",
+          "Key feature"
+        ],
+        "rows": [
+          [
+            "Gilbert",
+            "Mildly reduced UGT1A1",
+            "Unconjugated",
+            "Mild jaundice with fasting, stress, illness"
+          ],
+          [
+            "Crigler-Najjar type I",
+            "Absent UGT1A1",
+            "Unconjugated",
+            "Kernicterus in infancy"
+          ],
+          [
+            "Dubin-Johnson",
+            "MRP2 defect",
+            "Conjugated",
+            "Black liver"
+          ],
+          [
+            "Rotor",
+            "Impaired hepatic uptake and storage",
+            "Conjugated",
+            "Normal liver color, milder"
+          ]
+        ]
+      },
+      {
+        "title": "Liver failure findings and their cause",
+        "cols": [
+          "Finding",
+          "Lost function"
+        ],
+        "rows": [
+          [
+            "Prolonged PT, bleeding",
+            "Clotting factor synthesis"
+          ],
+          [
+            "Edema, ascites",
+            "Albumin synthesis"
+          ],
+          [
+            "Confusion, asterixis",
+            "Urea cycle disposal of ammonia"
+          ],
+          [
+            "Hypoglycemia",
+            "Glycogenolysis and gluconeogenesis"
+          ],
+          [
+            "Jaundice",
+            "Bilirubin conjugation and excretion"
+          ],
+          [
+            "Gynecomastia, spider angiomas",
+            "Estrogen breakdown"
+          ]
+        ]
+      }
     ],
     "tricks": [
-      {"kind": "trick", "label": "Only the conjugated pees", "text": "Unconjugated bilirubin is stuck to albumin and cannot be filtered. If there is bilirubin in the urine, the conjugated fraction is up."},
-      {"kind": "trick", "label": "Follow the urobilinogen", "text": "More heme in means more urobilinogen out (hemolysis). A blocked duct means nothing reaches the gut, so urobilinogen vanishes and the stool turns pale."},
-      {"kind": "trick", "label": "Zone 3 takes the hit", "text": "Zone 3 sits by the central vein, gets the least oxygen, and holds the most CYP2E1. Toxins activated by P450 (acetaminophen, CCl4) and ischemia all injure zone 3 first."}
+      {
+        "kind": "trick",
+        "label": "Only the conjugated pees",
+        "text": "Unconjugated bilirubin is stuck to albumin and cannot be filtered. If there is bilirubin in the urine, the conjugated fraction is up."
+      },
+      {
+        "kind": "trick",
+        "label": "Follow the urobilinogen",
+        "text": "More heme in means more urobilinogen out (hemolysis). A blocked duct means nothing reaches the gut, so urobilinogen vanishes and the stool turns pale."
+      },
+      {
+        "kind": "trick",
+        "label": "Zone 3 takes the hit",
+        "text": "Zone 3 sits by the central vein, gets the least oxygen, and holds the most CYP2E1. Toxins activated by P450 (acetaminophen, CCl4) and ischemia all injure zone 3 first."
+      }
     ],
     "highYield": [
       "Acetaminophen overdose: glutathione depletion, NAPQI, centrilobular necrosis; treat with N-acetylcysteine.",
@@ -338,105 +869,283 @@
       "Gilbert syndrome is unconjugated; Dubin-Johnson and Rotor are conjugated."
     ],
     "dumps": [
-      {"t": "Bilirubin from red cell to stool", "p": "Draw the path of bilirubin from an old red cell in the spleen to the stool and urine. Label every enzyme, carrier, and site.", "l": [
-        "Heme oxygenase makes biliverdin, CO, and iron",
-        "Biliverdin reductase makes unconjugated bilirubin",
-        "Albumin carries unconjugated bilirubin in blood",
-        "UGT1A1 conjugates with glucuronic acid in the hepatocyte",
-        "MRP2 excretes into bile (rate-limiting)",
-        "Gut bacteria make urobilinogen; most becomes stercobilin",
-        "Some urobilinogen reabsorbed, a little excreted in urine as urobilin"
-      ]},
-      {"t": "Acetaminophen overdose", "p": "Draw a hepatocyte and show the three routes acetaminophen takes at a normal dose, then redraw it after an overdose. Mark where N-acetylcysteine acts.", "l": [
-        "Most of a normal dose is glucuronidated and sulfated (phase II)",
-        "A small fraction goes through CYP2E1 to NAPQI (phase I)",
-        "Glutathione conjugates NAPQI to a safe product",
-        "In overdose, phase II routes saturate and more NAPQI forms",
-        "Glutathione runs out; NAPQI binds proteins and kills cells",
-        "Zone 3 centrilobular necrosis",
-        "N-acetylcysteine restores glutathione"
-      ]}
+      {
+        "t": "Bilirubin from red cell to stool",
+        "p": "Draw the path of bilirubin from an old red cell in the spleen to the stool and urine. Label every enzyme, carrier, and site.",
+        "l": [
+          "Heme oxygenase makes biliverdin, CO, and iron",
+          "Biliverdin reductase makes unconjugated bilirubin",
+          "Albumin carries unconjugated bilirubin in blood",
+          "UGT1A1 conjugates with glucuronic acid in the hepatocyte",
+          "MRP2 excretes into bile (rate-limiting)",
+          "Gut bacteria make urobilinogen; most becomes stercobilin",
+          "Some urobilinogen reabsorbed, a little excreted in urine as urobilin"
+        ]
+      },
+      {
+        "t": "Acetaminophen overdose",
+        "p": "Draw a hepatocyte and show the three routes acetaminophen takes at a normal dose, then redraw it after an overdose. Mark where N-acetylcysteine acts.",
+        "l": [
+          "Most of a normal dose is glucuronidated and sulfated (phase II)",
+          "A small fraction goes through CYP2E1 to NAPQI (phase I)",
+          "Glutathione conjugates NAPQI to a safe product",
+          "In overdose, phase II routes saturate and more NAPQI forms",
+          "Glutathione runs out; NAPQI binds proteins and kills cells",
+          "Zone 3 centrilobular necrosis",
+          "N-acetylcysteine restores glutathione"
+        ]
+      }
     ],
     "refs": [
-      {"book": "Robbins and Cotran Pathologic Basis of Disease", "where": "Liver and Gallbladder"},
-      {"book": "Robbins and Cotran Pathologic Basis of Disease", "where": "Section on chemical (toxic) injury in cell injury"},
-      {"book": "Guyton and Hall Textbook of Medical Physiology", "where": "Secretory Functions of the Alimentary Tract"},
-      {"book": "Lippincott Illustrated Reviews: Biochemistry", "where": "Section on heme degradation and bilirubin"}
+      {
+        "book": "Robbins and Cotran Pathologic Basis of Disease",
+        "where": "Liver and Gallbladder"
+      },
+      {
+        "book": "Robbins and Cotran Pathologic Basis of Disease",
+        "where": "Section on chemical (toxic) injury in cell injury"
+      },
+      {
+        "book": "Guyton and Hall Textbook of Medical Physiology",
+        "where": "Secretory Functions of the Alimentary Tract"
+      },
+      {
+        "book": "Lippincott Illustrated Reviews: Biochemistry",
+        "where": "Section on heme degradation and bilirubin"
+      }
     ],
     "videos": [
-      {"channel": "Armando Hasudungan", "title": "Bilirubin Metabolism - unconjugated and conjugated bilirubin", "url": "https://www.youtube.com/watch?v=_-JFqnBYmzc"},
-      {"channel": "Ninja Nerd", "title": "Gastrointestinal | Liver Metabolism, Protein Synthesis & Storage", "url": "https://www.youtube.com/watch?v=wRkanE05ICo"},
-      {"channel": "Ninja Nerd", "title": "Gastrointestinal | Bile Synthesis", "url": "https://www.youtube.com/watch?v=-L4i_2EHWQU"}
+      {
+        "channel": "Armando Hasudungan",
+        "title": "Bilirubin Metabolism - unconjugated and conjugated bilirubin",
+        "url": "https://www.youtube.com/watch?v=_-JFqnBYmzc"
+      },
+      {
+        "channel": "Ninja Nerd",
+        "title": "Gastrointestinal | Liver Metabolism, Protein Synthesis & Storage",
+        "url": "https://www.youtube.com/watch?v=wRkanE05ICo"
+      },
+      {
+        "channel": "Ninja Nerd",
+        "title": "Gastrointestinal | Bile Synthesis",
+        "url": "https://www.youtube.com/watch?v=-L4i_2EHWQU"
+      }
     ],
-    "related": ["GI-13-C1", "GI-13-C2", "GI-13-C3", "GI-13-D2", "GI-13-A"]
+    "related": [
+      "GI-13-C1",
+      "GI-13-C2",
+      "GI-13-C3",
+      "GI-13-D2",
+      "GI-13-A"
+    ]
   },
   {
     "id": "GI-10",
     "summary": "Single-gene diseases that damage the liver, pancreas, and colon: iron and copper overload, alpha-1 antitrypsin deficiency, cystic fibrosis, and the inherited colon cancer and polyposis syndromes. Questions give you the gene or inheritance pattern and ask for the mechanism and the organs that pay for it, or give you the findings and ask for the gene.",
     "notes": [
-      {"h": "Hereditary hemochromatosis", "points": [
-        "Autosomal recessive; most often homozygous HFE C282Y (chromosome 6).",
-        "Faulty iron sensing keeps hepcidin inappropriately low.",
-        "Low hepcidin leaves ferroportin active, so the gut absorbs too much iron for years.",
-        "Labs: high transferrin saturation and ferritin; liver iron stains with Prussian blue.",
-        "Iron free radicals cause cirrhosis, diabetes, skin bronzing, cardiomyopathy, arthropathy, and hypogonadism.",
-        "Cirrhosis carries a high risk of hepatocellular carcinoma; women present later because of menstrual iron loss."
-      ]},
-      {"h": "Wilson disease", "points": [
-        "Autosomal recessive ATP7B mutation (chromosome 13), a hepatocyte copper-transporting ATPase.",
-        "Copper is not loaded onto ceruloplasmin and not excreted into bile, so it builds up in the liver.",
-        "Spillover copper reaches brain (basal ganglia), cornea (Kayser-Fleischer rings), and kidney.",
-        "Labs: low serum ceruloplasmin, high urinary copper, high liver copper; may have Coombs-negative hemolysis.",
-        "Presents in children and young adults with hepatitis, cirrhosis, or acute liver failure, plus tremor, parkinsonism, or psychiatric change."
-      ]},
-      {"h": "Alpha-1 antitrypsin deficiency", "points": [
-        "SERPINA1 gene, codominant alleles; PiMM is normal, PiZZ is severe.",
-        "The Z protein misfolds and polymerizes in the hepatocyte ER instead of being secreted.",
-        "Retained protein shows as PAS-positive, diastase-resistant globules; it causes neonatal hepatitis, cirrhosis, and HCC.",
-        "Low serum levels leave neutrophil elastase unopposed, causing panacinar emphysema at the lung bases, worse with smoking."
-      ]},
-      {"h": "Colorectal cancer pathways", "points": [
-        "Chromosomal instability (adenoma to carcinoma): APC loss, then KRAS activation, then TP53 loss.",
-        "APC loss frees beta-catenin, which turns on Wnt target genes and starts the adenoma.",
-        "Microsatellite instability: mismatch repair genes (MLH1, MSH2, MSH6, PMS2) fail, so repeats mutate.",
-        "Lynch syndrome is a germline mismatch repair mutation, autosomal dominant, with few polyps.",
-        "Lynch cancers tend to be right-sided and early; endometrial, ovarian, and gastric cancers also rise.",
-        "Sporadic MSI cancers usually come from MLH1 promoter hypermethylation."
-      ]},
-      {"h": "Polyposis syndromes", "points": [
-        "FAP: autosomal dominant APC (chromosome 5q), hundreds to thousands of adenomas, near-certain cancer without colectomy.",
-        "Gardner syndrome: FAP plus osteomas, desmoid tumors, epidermoid cysts, and extra teeth.",
-        "Turcot syndrome: polyposis plus a brain tumor (medulloblastoma or glioma).",
-        "MUTYH-associated polyposis: autosomal recessive base excision repair defect, tens to hundreds of adenomas.",
-        "Peutz-Jeghers: autosomal dominant STK11, hamartomatous polyps, dark spots on lips and buccal mucosa, intussusception, raised cancer risk."
-      ]},
-      {"h": "Cystic fibrosis in the gut", "points": [
-        "Autosomal recessive CFTR (chromosome 7); the common F508del protein misfolds and is degraded.",
-        "CFTR is a Cl- channel opened by cAMP and protein kinase A; without it, Cl- and bicarbonate secretion fall and secretions thicken.",
-        "Newborn: meconium ileus from thick meconium blocking the distal ileum.",
-        "Pancreatic ducts plug, acini are destroyed, and exocrine insufficiency causes steatorrhea and A, D, E, K deficiency.",
-        "Inspissated bile causes focal biliary cirrhosis; sweat chloride is high because the sweat duct cannot reabsorb Cl-."
-      ]}
+      {
+        "h": "Hereditary hemochromatosis",
+        "points": [
+          "Autosomal recessive; most often homozygous HFE C282Y (chromosome 6).",
+          "Faulty iron sensing keeps hepcidin inappropriately low.",
+          "Low hepcidin leaves ferroportin active, so the gut absorbs too much iron for years.",
+          "Labs: high transferrin saturation and ferritin; liver iron stains with Prussian blue.",
+          "Iron free radicals cause cirrhosis, diabetes, skin bronzing, cardiomyopathy, arthropathy, and hypogonadism.",
+          "Cirrhosis carries a high risk of hepatocellular carcinoma; women present later because of menstrual iron loss."
+        ],
+        "why": "HFE normally helps the hepatocyte sense iron loaded on transferrin and respond by making hepcidin; the C282Y change breaks a disulfide bond, so HFE cannot bind beta-2 microglobulin or reach the cell surface. Hepcidin normally binds ferroportin and causes its internalization and degradation, so low hepcidin leaves ferroportin on duodenal enterocytes and macrophages, and iron keeps entering plasma. Once transferrin is saturated, non-transferrin-bound iron enters parenchymal cells of the liver, pancreas, heart, joints, and pituitary, where Fenton chemistry makes hydroxyl radicals that peroxidize lipids and stimulate fibrosis. Macrophages keep exporting iron in this disease, so they hold relatively little iron, unlike the macrophage-heavy pattern of transfusion overload."
+      },
+      {
+        "h": "Wilson disease",
+        "points": [
+          "Autosomal recessive ATP7B mutation (chromosome 13), a hepatocyte copper-transporting ATPase.",
+          "Copper is not loaded onto ceruloplasmin and not excreted into bile, so it builds up in the liver.",
+          "Spillover copper reaches brain (basal ganglia), cornea (Kayser-Fleischer rings), and kidney.",
+          "Labs: low serum ceruloplasmin, high urinary copper, high liver copper; may have Coombs-negative hemolysis.",
+          "Presents in children and young adults with hepatitis, cirrhosis, or acute liver failure, plus tremor, parkinsonism, or psychiatric change."
+        ],
+        "why": "ATP7B sits in the trans-Golgi of hepatocytes, where it loads copper onto apoceruloplasmin and, when copper is high, moves it into vesicles for biliary excretion, the main route of copper elimination. Without it, apoceruloplasmin is secreted without copper and degraded quickly, so serum ceruloplasmin is low, and copper builds up in hepatocytes and damages them through oxidative injury to mitochondria. When hepatocytes die, free copper is released into blood, which can cause Coombs-negative hemolysis and lets copper deposit in the basal ganglia, in Descemet membrane of the cornea, and in renal tubules, raising urinary copper."
+      },
+      {
+        "h": "Alpha-1 antitrypsin deficiency",
+        "points": [
+          "SERPINA1 gene, codominant alleles; PiMM is normal, PiZZ is severe.",
+          "The Z protein misfolds and polymerizes in the hepatocyte ER instead of being secreted.",
+          "Retained protein shows as PAS-positive, diastase-resistant globules; it causes neonatal hepatitis, cirrhosis, and HCC.",
+          "Low serum levels leave neutrophil elastase unopposed, causing panacinar emphysema at the lung bases, worse with smoking."
+        ],
+        "why": "Alpha-1 antitrypsin is a serine protease inhibitor made mainly by hepatocytes, and its main target is neutrophil elastase in the lung. The Z mutation (Glu342Lys) lets molecules link into long polymers in the ER, so one defect has two effects: a toxic gain of function in the liver, where retained polymers injure hepatocytes, and a loss of function in the lung, where too little circulating protein leaves elastase unchecked. Because the alleles are codominant, each allele makes its own product, so PiMZ heterozygotes have intermediate serum levels. Smoking worsens lung disease by oxidizing the remaining antitrypsin and recruiting more neutrophils."
+      },
+      {
+        "h": "Colorectal cancer pathways",
+        "points": [
+          "Chromosomal instability (adenoma to carcinoma): APC loss, then KRAS activation, then TP53 loss.",
+          "APC loss frees beta-catenin, which turns on Wnt target genes and starts the adenoma.",
+          "Microsatellite instability: mismatch repair genes (MLH1, MSH2, MSH6, PMS2) fail, so repeats mutate.",
+          "Lynch syndrome is a germline mismatch repair mutation, autosomal dominant, with few polyps.",
+          "Lynch cancers tend to be right-sided and early; endometrial, ovarian, and gastric cancers also rise.",
+          "Sporadic MSI cancers usually come from MLH1 promoter hypermethylation."
+        ],
+        "why": "APC is part of the complex that marks beta-catenin for degradation, so APC loss lets beta-catenin enter the nucleus and switch on MYC and cyclin D1, forming an adenoma. KRAS activation then gives growth-factor-independent signaling that enlarges the adenoma, and TP53 loss removes the G1 checkpoint and the apoptotic response to DNA damage, marking the step to carcinoma. With defective mismatch repair, replication slippage errors at microsatellites go uncorrected, so frameshifts pile up in genes with short repeats such as TGFBR2. In Lynch syndrome the germline mutation is the first hit and a somatic second hit inactivates repair, giving early cancers from relatively few adenomas."
+      },
+      {
+        "h": "Polyposis syndromes",
+        "points": [
+          "FAP: autosomal dominant APC (chromosome 5q), hundreds to thousands of adenomas, near-certain cancer without colectomy.",
+          "Gardner syndrome: FAP plus osteomas, desmoid tumors, epidermoid cysts, and extra teeth.",
+          "Turcot syndrome: polyposis plus a brain tumor (medulloblastoma or glioma).",
+          "MUTYH-associated polyposis: autosomal recessive base excision repair defect, tens to hundreds of adenomas.",
+          "Peutz-Jeghers: autosomal dominant STK11, hamartomatous polyps, dark spots on lips and buccal mucosa, intussusception, raised cancer risk."
+        ],
+        "why": "In FAP every colonic cell carries one mutant APC allele, so a single somatic hit in any crypt starts an adenoma (Knudson two-hit model), which explains the huge polyp count and near-certain cancer without colectomy. Turcot syndrome pairs colon tumors with medulloblastoma (APC) or glioma (mismatch repair genes). MUTYH removes adenine mispaired with 8-oxoguanine; without it, G:C to T:A transversions accumulate in APC and KRAS, and both alleles must be lost, so inheritance is recessive. Peutz-Jeghers hamartomas, with branching smooth muscle, follow loss of the STK11 (LKB1) kinase that restrains mTOR signaling."
+      },
+      {
+        "h": "Cystic fibrosis in the gut",
+        "points": [
+          "Autosomal recessive CFTR (chromosome 7); the common F508del protein misfolds and is degraded.",
+          "CFTR is a Cl- channel opened by cAMP and protein kinase A; without it, Cl- and bicarbonate secretion fall and secretions thicken.",
+          "Newborn: meconium ileus from thick meconium blocking the distal ileum.",
+          "Pancreatic ducts plug, acini are destroyed, and exocrine insufficiency causes steatorrhea and A, D, E, K deficiency.",
+          "Inspissated bile causes focal biliary cirrhosis; sweat chloride is high because the sweat duct cannot reabsorb Cl-."
+        ],
+        "why": "F508del is a folding defect: the ER recognizes the protein as misfolded and sends it for degradation, so little CFTR reaches the apical membrane. In epithelia that rely on CFTR, failed Cl- and bicarbonate secretion means less water follows into the lumen, so secretions stay thick and acidic, plug pancreatic ductules, and lead to acinar destruction and fibrosis. In the sweat duct, CFTR works in the opposite direction and reabsorbs Cl-, so sweat stays salty, which is the basis of the sweat chloride test. Meconium ileus results from dehydrated, protein-rich meconium sticking in the distal ileum before birth."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Hereditary hemochromatosis",
+        "steps": [
+          "Homozygous HFE C282Y impairs hepatocyte iron sensing.",
+          "Hepcidin production stays inappropriately low.",
+          "Ferroportin stays active on duodenal enterocytes and macrophages.",
+          "Gut iron absorption and release into plasma stay high for years.",
+          "Transferrin saturates; free iron loads liver, pancreas, heart, joints, and pituitary.",
+          "Hydroxyl radicals cause cell injury, fibrosis, cirrhosis, and diabetes."
+        ]
+      },
+      {
+        "title": "Adenoma to carcinoma sequence",
+        "steps": [
+          "Colonic epithelium loses APC function (germline in FAP, somatic in sporadic cancer).",
+          "Beta-catenin accumulates and turns on Wnt target genes, forming an early adenoma.",
+          "KRAS activation drives growth into a larger adenoma.",
+          "TP53 loss removes the DNA damage checkpoint and apoptosis.",
+          "The adenoma becomes an invasive adenocarcinoma."
+        ]
+      },
+      {
+        "title": "Cystic fibrosis pancreatic insufficiency",
+        "steps": [
+          "CFTR F508del misfolds in the ER and is degraded.",
+          "Little CFTR reaches the apical membrane of pancreatic duct cells.",
+          "Cl- and bicarbonate secretion fall, so less water enters the duct.",
+          "Thick, acidic secretions plug the pancreatic ductules.",
+          "Acini are destroyed and replaced by fibrosis and fat.",
+          "Loss of lipase causes steatorrhea and vitamin A, D, E, K deficiency."
+        ]
+      }
     ],
     "charts": [
-      {"title": "Inherited liver diseases", "cols": ["Disease", "Gene and inheritance", "Mechanism", "Key findings"], "rows": [
-        ["Hemochromatosis", "HFE C282Y, autosomal recessive", "Low hepcidin, excess iron absorption", "Cirrhosis, diabetes, bronze skin, cardiomyopathy, high transferrin saturation"],
-        ["Wilson disease", "ATP7B, autosomal recessive", "No biliary copper excretion or ceruloplasmin loading", "Low ceruloplasmin, Kayser-Fleischer rings, basal ganglia signs, hepatitis"],
-        ["Alpha-1 antitrypsin deficiency", "SERPINA1 PiZZ, codominant", "Misfolded protein trapped in ER; low serum level", "PAS-positive globules, cirrhosis, panacinar emphysema"]
-      ]},
-      {"title": "Hereditary colorectal syndromes", "cols": ["Syndrome", "Gene", "Inheritance", "Polyps", "Extra features"], "rows": [
-        ["FAP", "APC", "Autosomal dominant", "Hundreds to thousands of adenomas", "Cancer by about age 40 without colectomy"],
-        ["Gardner", "APC", "Autosomal dominant", "Many adenomas", "Osteomas, desmoids, epidermoid cysts, dental anomalies"],
-        ["Turcot", "APC or mismatch repair", "Depends on the gene", "Adenomas", "Medulloblastoma or glioma"],
-        ["MUTYH-associated polyposis", "MUTYH", "Autosomal recessive", "Tens to hundreds of adenomas", "Base excision repair defect"],
-        ["Lynch", "MLH1, MSH2, MSH6, PMS2", "Autosomal dominant", "Few", "Right-sided cancer, endometrial and ovarian cancer"],
-        ["Peutz-Jeghers", "STK11", "Autosomal dominant", "Hamartomas, mostly small bowel", "Mucocutaneous pigmentation, intussusception"]
-      ]}
+      {
+        "title": "Inherited liver diseases",
+        "cols": [
+          "Disease",
+          "Gene and inheritance",
+          "Mechanism",
+          "Key findings"
+        ],
+        "rows": [
+          [
+            "Hemochromatosis",
+            "HFE C282Y, autosomal recessive",
+            "Low hepcidin, excess iron absorption",
+            "Cirrhosis, diabetes, bronze skin, cardiomyopathy, high transferrin saturation"
+          ],
+          [
+            "Wilson disease",
+            "ATP7B, autosomal recessive",
+            "No biliary copper excretion or ceruloplasmin loading",
+            "Low ceruloplasmin, Kayser-Fleischer rings, basal ganglia signs, hepatitis"
+          ],
+          [
+            "Alpha-1 antitrypsin deficiency",
+            "SERPINA1 PiZZ, codominant",
+            "Misfolded protein trapped in ER; low serum level",
+            "PAS-positive globules, cirrhosis, panacinar emphysema"
+          ]
+        ]
+      },
+      {
+        "title": "Hereditary colorectal syndromes",
+        "cols": [
+          "Syndrome",
+          "Gene",
+          "Inheritance",
+          "Polyps",
+          "Extra features"
+        ],
+        "rows": [
+          [
+            "FAP",
+            "APC",
+            "Autosomal dominant",
+            "Hundreds to thousands of adenomas",
+            "Cancer by about age 40 without colectomy"
+          ],
+          [
+            "Gardner",
+            "APC",
+            "Autosomal dominant",
+            "Many adenomas",
+            "Osteomas, desmoids, epidermoid cysts, dental anomalies"
+          ],
+          [
+            "Turcot",
+            "APC or mismatch repair",
+            "Depends on the gene",
+            "Adenomas",
+            "Medulloblastoma or glioma"
+          ],
+          [
+            "MUTYH-associated polyposis",
+            "MUTYH",
+            "Autosomal recessive",
+            "Tens to hundreds of adenomas",
+            "Base excision repair defect"
+          ],
+          [
+            "Lynch",
+            "MLH1, MSH2, MSH6, PMS2",
+            "Autosomal dominant",
+            "Few",
+            "Right-sided cancer, endometrial and ovarian cancer"
+          ],
+          [
+            "Peutz-Jeghers",
+            "STK11",
+            "Autosomal dominant",
+            "Hamartomas, mostly small bowel",
+            "Mucocutaneous pigmentation, intussusception"
+          ]
+        ]
+      }
     ],
     "tricks": [
-      {"kind": "trick", "label": "Iron is absorbed, copper is excreted", "text": "Hemochromatosis is a problem of taking in too much (gut absorption, hepcidin). Wilson disease is a problem of getting rid of too little (bile excretion, ATP7B)."},
-      {"kind": "trick", "label": "AKP in order", "text": "Walk the adenoma to carcinoma sequence as A, K, P: APC first (polyp starts), KRAS next (polyp grows), p53 last (cancer)."},
-      {"kind": "trick", "label": "Amsterdam 3-2-1", "text": "Suspect Lynch syndrome when 3 relatives have Lynch cancers, across 2 generations, with 1 diagnosed before age 50."}
+      {
+        "kind": "trick",
+        "label": "Iron is absorbed, copper is excreted",
+        "text": "Hemochromatosis is a problem of taking in too much (gut absorption, hepcidin). Wilson disease is a problem of getting rid of too little (bile excretion, ATP7B)."
+      },
+      {
+        "kind": "trick",
+        "label": "AKP in order",
+        "text": "Walk the adenoma to carcinoma sequence as A, K, P: APC first (polyp starts), KRAS next (polyp grows), p53 last (cancer)."
+      },
+      {
+        "kind": "trick",
+        "label": "Amsterdam 3-2-1",
+        "text": "Suspect Lynch syndrome when 3 relatives have Lynch cancers, across 2 generations, with 1 diagnosed before age 50."
+      }
     ],
     "highYield": [
       "Hemochromatosis: high transferrin saturation is the best first screen; phlebotomy is the treatment.",
@@ -453,104 +1162,271 @@
       "Peutz-Jeghers polyps are hamartomas, yet cancer risk still rises in the gut and other organs."
     ],
     "dumps": [
-      {"t": "Iron and copper overload side by side", "p": "Draw a hepatocyte for hemochromatosis and a second one for Wilson disease. Show where the metal comes in, where it should leave, and where the defect is. List the organs damaged by each.", "l": [
-        "Hemochromatosis: HFE C282Y, autosomal recessive",
-        "Low hepcidin keeps ferroportin active, so gut absorbs excess iron",
-        "Iron damages liver, pancreas, heart, joints, skin, pituitary",
-        "Wilson: ATP7B, autosomal recessive",
-        "Copper not put into ceruloplasmin and not excreted into bile",
-        "Copper spills to brain basal ganglia, cornea, kidney",
-        "Labs: high transferrin saturation versus low ceruloplasmin"
-      ]},
-      {"t": "Two roads to colon cancer", "p": "Draw two parallel flowcharts, one for the adenoma to carcinoma pathway and one for the mismatch repair pathway. Name the genes at each step and the inherited syndrome tied to each road.", "l": [
-        "APC loss raises beta-catenin and starts the adenoma",
-        "KRAS activation drives growth",
-        "TP53 loss allows invasion and carcinoma",
-        "FAP is germline APC",
-        "Mismatch repair genes MLH1, MSH2 lost",
-        "Microsatellite instability in repeat sequences",
-        "Lynch syndrome is germline mismatch repair, autosomal dominant",
-        "Sporadic MSI comes from MLH1 promoter methylation"
-      ]}
+      {
+        "t": "Iron and copper overload side by side",
+        "p": "Draw a hepatocyte for hemochromatosis and a second one for Wilson disease. Show where the metal comes in, where it should leave, and where the defect is. List the organs damaged by each.",
+        "l": [
+          "Hemochromatosis: HFE C282Y, autosomal recessive",
+          "Low hepcidin keeps ferroportin active, so gut absorbs excess iron",
+          "Iron damages liver, pancreas, heart, joints, skin, pituitary",
+          "Wilson: ATP7B, autosomal recessive",
+          "Copper not put into ceruloplasmin and not excreted into bile",
+          "Copper spills to brain basal ganglia, cornea, kidney",
+          "Labs: high transferrin saturation versus low ceruloplasmin"
+        ]
+      },
+      {
+        "t": "Two roads to colon cancer",
+        "p": "Draw two parallel flowcharts, one for the adenoma to carcinoma pathway and one for the mismatch repair pathway. Name the genes at each step and the inherited syndrome tied to each road.",
+        "l": [
+          "APC loss raises beta-catenin and starts the adenoma",
+          "KRAS activation drives growth",
+          "TP53 loss allows invasion and carcinoma",
+          "FAP is germline APC",
+          "Mismatch repair genes MLH1, MSH2 lost",
+          "Microsatellite instability in repeat sequences",
+          "Lynch syndrome is germline mismatch repair, autosomal dominant",
+          "Sporadic MSI comes from MLH1 promoter methylation"
+        ]
+      }
     ],
     "refs": [
-      {"book": "Robbins and Cotran Pathologic Basis of Disease", "where": "Liver and Gallbladder"},
-      {"book": "Robbins and Cotran Pathologic Basis of Disease", "where": "Section on colonic polyps and neoplastic disease"},
-      {"book": "Robbins and Cotran Pathologic Basis of Disease", "where": "Genetic Disorders"}
+      {
+        "book": "Robbins and Cotran Pathologic Basis of Disease",
+        "where": "Liver and Gallbladder"
+      },
+      {
+        "book": "Robbins and Cotran Pathologic Basis of Disease",
+        "where": "Section on colonic polyps and neoplastic disease"
+      },
+      {
+        "book": "Robbins and Cotran Pathologic Basis of Disease",
+        "where": "Genetic Disorders"
+      }
     ],
     "videos": [
-      {"channel": "Armando Hasudungan", "title": "Haemochromatosis (Iron Overload) - iron physiology, causes and pathophysiology", "url": "https://www.youtube.com/watch?v=hbs_GaWX5PI"},
-      {"channel": "Ninja Nerd", "title": "Colorectal Cancer | Clinical Medicine", "url": "https://www.youtube.com/watch?v=HjIQy8FycKA"},
-      {"channel": "Armando Hasudungan", "title": "Liver Cirrhosis", "url": "https://www.youtube.com/watch?v=f-Fxlsb2dtQ"}
+      {
+        "channel": "Armando Hasudungan",
+        "title": "Haemochromatosis (Iron Overload) - iron physiology, causes and pathophysiology",
+        "url": "https://www.youtube.com/watch?v=hbs_GaWX5PI"
+      },
+      {
+        "channel": "Ninja Nerd",
+        "title": "Colorectal Cancer | Clinical Medicine",
+        "url": "https://www.youtube.com/watch?v=HjIQy8FycKA"
+      },
+      {
+        "channel": "Armando Hasudungan",
+        "title": "Liver Cirrhosis",
+        "url": "https://www.youtube.com/watch?v=f-Fxlsb2dtQ"
+      }
     ],
-    "related": ["GI-13-C2", "GI-13-K4", "GI-13-K7", "GI-13-B", "GI-8"]
+    "related": [
+      "GI-13-C2",
+      "GI-13-K4",
+      "GI-13-K7",
+      "GI-13-B",
+      "GI-8"
+    ]
   },
   {
     "id": "GI-11",
     "summary": "How the gut immune system tolerates food and flora but still fights pathogens, and how that balance fails in celiac disease, Crohn disease, autoimmune liver and stomach disease, MALT lymphoma, and hepatitis B. Questions ask which cell, antibody, HLA type, or immune mechanism explains the damage, and how to read hepatitis B serology.",
     "notes": [
-      {"h": "Mucosal immunity", "points": [
-        "M cells over Peyer patches (ileum) sample luminal antigen and hand it to dendritic cells.",
-        "TGF-beta in the gut drives B cells to switch to IgA; lamina propria plasma cells make dimeric IgA with a J chain.",
-        "The polymeric Ig receptor carries dimeric IgA across the epithelium; its cleaved piece stays on as secretory component.",
-        "Secretory IgA blocks microbe attachment without activating much complement or inflammation.",
-        "Oral tolerance: regulatory T cells (IL-10, TGF-beta) and anergy keep reactions to food and flora quiet.",
-        "Selective IgA deficiency: most common primary immunodeficiency; often silent, but recurrent sinopulmonary and GI infections (Giardia) occur."
-      ]},
-      {"h": "Celiac disease", "points": [
-        "Gliadin (from gluten) resists digestion; tissue transglutaminase deamidates its glutamines to glutamate.",
-        "Deamidated gliadin binds HLA-DQ2 or DQ8 tightly and activates CD4 T cells, which release IFN-gamma.",
-        "Epithelial IL-15 activates intraepithelial CD8 T cells that kill enterocytes.",
-        "Biopsy: villous atrophy, crypt hyperplasia, intraepithelial lymphocytes, worst in the duodenum.",
-        "Serology: IgA anti-tissue transglutaminase and anti-endomysial antibodies; check total IgA because IgA deficiency gives false negatives.",
-        "Associations: dermatitis herpetiformis, type 1 diabetes, and enteropathy-associated T-cell lymphoma."
-      ]},
-      {"h": "Crohn disease", "points": [
-        "NOD2 is a cytosolic sensor of bacterial peptidoglycan (muramyl dipeptide) in Paneth cells and monocytes.",
-        "NOD2 variants impair handling of commensal bacteria, which then breach the mucosa.",
-        "Th1 (IFN-gamma) and Th17 (IL-17, sustained by IL-23) responses drive the inflammation.",
-        "Result: transmural inflammation, noncaseating granulomas, skip lesions, fistulas, and strictures."
-      ]},
-      {"h": "Autoimmune gut and liver disease", "points": [
-        "Autoimmune gastritis: antibodies to parietal cells (H+/K+-ATPase) and intrinsic factor; T cells destroy the body and fundus.",
-        "Autoimmune gastritis gives achlorhydria, high gastrin, and pernicious anemia.",
-        "Autoimmune hepatitis type 1: ANA and anti-smooth muscle antibodies; type 2 (often children): anti-LKM1.",
-        "Primary biliary cholangitis: antimitochondrial antibodies, middle-aged women, destruction of small intrahepatic bile ducts."
-      ]},
-      {"h": "MALT lymphoma", "points": [
-        "Chronic H. pylori gastritis builds lymphoid tissue in a stomach that normally has little.",
-        "H. pylori-specific T cells keep stimulating B cells until a monoclonal marginal zone lymphoma emerges.",
-        "Early tumors still depend on that T cell help, so eradicating H. pylori can make them regress.",
-        "Tumors with t(11;18) usually no longer respond to eradication."
-      ]},
-      {"h": "Hepatitis B immunity", "points": [
-        "HBV itself barely harms hepatocytes; CD8 cytotoxic T cells kill infected cells displaying viral peptides on MHC class I.",
-        "A strong T cell response causes acute hepatitis and clearance; a weak one allows chronic infection.",
-        "Infection at birth becomes chronic about 90% of the time; adult infection only about 5%.",
-        "HBsAg-antibody immune complexes cause polyarteritis nodosa and membranous nephropathy (type III hypersensitivity).",
-        "The vaccine is recombinant HBsAg only, so a vaccinated person makes anti-HBs but never anti-HBc."
-      ]}
+      {
+        "h": "Mucosal immunity",
+        "points": [
+          "M cells over Peyer patches (ileum) sample luminal antigen and hand it to dendritic cells.",
+          "TGF-beta in the gut drives B cells to switch to IgA; lamina propria plasma cells make dimeric IgA with a J chain.",
+          "The polymeric Ig receptor carries dimeric IgA across the epithelium; its cleaved piece stays on as secretory component.",
+          "Secretory IgA blocks microbe attachment without activating much complement or inflammation.",
+          "Oral tolerance: regulatory T cells (IL-10, TGF-beta) and anergy keep reactions to food and flora quiet.",
+          "Selective IgA deficiency: most common primary immunodeficiency; often silent, but recurrent sinopulmonary and GI infections (Giardia) occur."
+        ],
+        "why": "The gut relies on IgA, which neutralizes microbes and blocks adhesion but fixes complement poorly, so defense causes little inflammation. Antigen enters through M cells, which transcytose particles to dendritic cells in the Peyer patch dome; TGF-beta, retinoic acid from gut dendritic cells, and T cell help then switch B cells to IgA and imprint gut homing. Dimeric IgA binds pIgR on the basolateral epithelial surface, crosses the cell in vesicles, and is released when pIgR is cleaved, leaving secretory component attached to protect IgA from proteases. In selective IgA deficiency, pIgR can still transport pentameric IgM, so many patients have no symptoms."
+      },
+      {
+        "h": "Celiac disease",
+        "points": [
+          "Gliadin (from gluten) resists digestion; tissue transglutaminase deamidates its glutamines to glutamate.",
+          "Deamidated gliadin binds HLA-DQ2 or DQ8 tightly and activates CD4 T cells, which release IFN-gamma.",
+          "Epithelial IL-15 activates intraepithelial CD8 T cells that kill enterocytes.",
+          "Biopsy: villous atrophy, crypt hyperplasia, intraepithelial lymphocytes, worst in the duodenum.",
+          "Serology: IgA anti-tissue transglutaminase and anti-endomysial antibodies; check total IgA because IgA deficiency gives false negatives.",
+          "Associations: dermatitis herpetiformis, type 1 diabetes, and enteropathy-associated T-cell lymphoma."
+        ],
+        "why": "Gliadin is rich in proline and glutamine, so gut proteases leave long immunogenic peptides intact. Tissue transglutaminase converts glutamine to negatively charged glutamate, which fits the binding pockets of HLA-DQ2 and DQ8, so people with these alleles present gliadin strongly to CD4 T cells. tTG also cross-links itself to gliadin, so gliadin-specific T cells help tTG-specific B cells, which explains IgA antibodies against a self protein. Damage concentrates in the proximal small bowel, where gluten exposure is highest, so loss of villi there causes iron, folate, and fat malabsorption."
+      },
+      {
+        "h": "Crohn disease",
+        "points": [
+          "NOD2 is a cytosolic sensor of bacterial peptidoglycan (muramyl dipeptide) in Paneth cells and monocytes.",
+          "NOD2 variants impair handling of commensal bacteria, which then breach the mucosa.",
+          "Th1 (IFN-gamma) and Th17 (IL-17, sustained by IL-23) responses drive the inflammation.",
+          "Result: transmural inflammation, noncaseating granulomas, skip lesions, fistulas, and strictures."
+        ],
+        "why": "In Paneth cells, NOD2 signaling supports antimicrobial defensin secretion and autophagy, and risk variants weaken this, so bacteria cross the mucosa and persist in macrophages. Persistent bacterial antigen drives macrophages and dendritic cells to make IL-12 and IL-23, which polarize Th1 and Th17 cells, and IFN-gamma activates macrophages that organize into granulomas. Because this cell-mediated response involves the whole bowel wall, inflammation is transmural, which leads to fibrosis and strictures and to fistulas that tunnel into neighboring structures. Skip lesions reflect patchy foci of this response that can appear anywhere from mouth to anus."
+      },
+      {
+        "h": "Autoimmune gut and liver disease",
+        "points": [
+          "Autoimmune gastritis: antibodies to parietal cells (H+/K+-ATPase) and intrinsic factor; T cells destroy the body and fundus.",
+          "Autoimmune gastritis gives achlorhydria, high gastrin, and pernicious anemia.",
+          "Autoimmune hepatitis type 1: ANA and anti-smooth muscle antibodies; type 2 (often children): anti-LKM1.",
+          "Primary biliary cholangitis: antimitochondrial antibodies, middle-aged women, destruction of small intrahepatic bile ducts."
+        ],
+        "why": "In autoimmune gastritis, CD4 T cells target the H+/K+-ATPase of parietal cells, which are found in the body and fundus, so the antrum is spared. Loss of acid removes negative feedback on antral G cells, so gastrin rises and drives ECL cell hyperplasia, while loss of intrinsic factor causes B12 deficiency only after years because liver stores are large. In primary biliary cholangitis, antimitochondrial antibodies target the E2 subunit of the pyruvate dehydrogenase complex, and T cell attack on small intrahepatic bile ducts causes cholestasis with high alkaline phosphatase. Autoimmune hepatitis targets hepatocytes themselves, so aminotransferases rise more than alkaline phosphatase, and serum IgG is high."
+      },
+      {
+        "h": "MALT lymphoma",
+        "points": [
+          "Chronic H. pylori gastritis builds lymphoid tissue in a stomach that normally has little.",
+          "H. pylori-specific T cells keep stimulating B cells until a monoclonal marginal zone lymphoma emerges.",
+          "Early tumors still depend on that T cell help, so eradicating H. pylori can make them regress.",
+          "Tumors with t(11;18) usually no longer respond to eradication."
+        ],
+        "why": "Normal gastric mucosa has little organized lymphoid tissue, so chronic H. pylori infection must first create it. B cells in this acquired tissue proliferate in response to CD40 ligand and cytokines from H. pylori-specific T cells, and over time one B cell clone gains a growth advantage and expands. Because early clones still depend on this antigen-driven T cell help, killing the bacterium removes the stimulus and many tumors regress. The t(11;18) translocation makes an API2-MALT1 fusion protein that switches on NF-kappa-B by itself, so the clone no longer needs T cell help and does not respond to eradication."
+      },
+      {
+        "h": "Hepatitis B immunity",
+        "points": [
+          "HBV itself barely harms hepatocytes; CD8 cytotoxic T cells kill infected cells displaying viral peptides on MHC class I.",
+          "A strong T cell response causes acute hepatitis and clearance; a weak one allows chronic infection.",
+          "Infection at birth becomes chronic about 90% of the time; adult infection only about 5%.",
+          "HBsAg-antibody immune complexes cause polyarteritis nodosa and membranous nephropathy (type III hypersensitivity).",
+          "The vaccine is recombinant HBsAg only, so a vaccinated person makes anti-HBs but never anti-HBc."
+        ],
+        "why": "Viral peptides on MHC class I mark infected hepatocytes for CD8 T cells, so liver injury tracks the strength of the immune response, and an immunosuppressed host can carry a high viral load with little inflammation. Newborns infected at birth have tolerant, immature T cell responses, which is why most fail to clear the virus, while most adults mount a strong response and clear it. Complexes of viral antigen and antibody deposit in vessel walls and glomeruli and activate complement, causing polyarteritis nodosa or membranous nephropathy. Because the vaccine contains only HBsAg, anti-HBc marks past natural infection, while anti-HBs alone marks vaccination."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Making secretory IgA",
+        "steps": [
+          "M cells carry luminal antigen to dendritic cells in Peyer patches.",
+          "Dendritic cells present antigen to T cells, which help antigen-specific B cells.",
+          "TGF-beta drives B cell class switching to IgA.",
+          "IgA B cells home to the lamina propria and become plasma cells.",
+          "Plasma cells secrete dimeric IgA joined by a J chain.",
+          "pIgR carries dimeric IgA across the epithelium; its cleaved piece stays as secretory component."
+        ]
+      },
+      {
+        "title": "Celiac disease",
+        "steps": [
+          "Gliadin peptides from gluten resist digestion by gut proteases.",
+          "Tissue transglutaminase deamidates gliadin glutamines to glutamate.",
+          "Deamidated peptides bind HLA-DQ2 or DQ8 on antigen-presenting cells.",
+          "Gliadin-specific CD4 T cells release IFN-gamma and drive mucosal inflammation.",
+          "IL-15 activates intraepithelial CD8 T cells that kill enterocytes.",
+          "Villous atrophy and crypt hyperplasia cause malabsorption."
+        ]
+      },
+      {
+        "title": "H. pylori to gastric MALT lymphoma",
+        "steps": [
+          "Chronic H. pylori infection induces lymphoid follicles in gastric mucosa.",
+          "H. pylori-specific T cells keep stimulating B cells in these follicles.",
+          "One B cell clone gains a growth advantage and expands.",
+          "A monoclonal marginal zone (MALT) lymphoma forms, still dependent on T cell help.",
+          "A t(11;18) translocation makes growth independent, so eradication no longer works."
+        ]
+      }
     ],
     "charts": [
-      {"title": "Hepatitis B serology", "cols": ["State", "HBsAg", "Anti-HBc", "Anti-HBs"], "rows": [
-        ["Vaccinated", "Negative", "Negative", "Positive"],
-        ["Resolved infection", "Negative", "Positive (IgG)", "Positive"],
-        ["Acute infection", "Positive", "Positive (IgM)", "Negative"],
-        ["Window period", "Negative", "Positive (IgM)", "Negative"],
-        ["Chronic infection", "Positive over 6 months", "Positive (IgG)", "Negative"]
-      ]},
-      {"title": "Autoantibodies in GI disease", "cols": ["Disease", "Autoantibody", "Target or note"], "rows": [
-        ["Celiac disease", "IgA anti-tissue transglutaminase, anti-endomysial", "Tissue transglutaminase"],
-        ["Autoimmune gastritis", "Anti-parietal cell, anti-intrinsic factor", "H+/K+-ATPase; intrinsic factor"],
-        ["Autoimmune hepatitis type 1", "ANA, anti-smooth muscle", "Smooth muscle antibody targets actin"],
-        ["Autoimmune hepatitis type 2", "Anti-LKM1", "CYP2D6"],
-        ["Primary biliary cholangitis", "Antimitochondrial", "Pyruvate dehydrogenase E2 subunit"]
-      ]}
+      {
+        "title": "Hepatitis B serology",
+        "cols": [
+          "State",
+          "HBsAg",
+          "Anti-HBc",
+          "Anti-HBs"
+        ],
+        "rows": [
+          [
+            "Vaccinated",
+            "Negative",
+            "Negative",
+            "Positive"
+          ],
+          [
+            "Resolved infection",
+            "Negative",
+            "Positive (IgG)",
+            "Positive"
+          ],
+          [
+            "Acute infection",
+            "Positive",
+            "Positive (IgM)",
+            "Negative"
+          ],
+          [
+            "Window period",
+            "Negative",
+            "Positive (IgM)",
+            "Negative"
+          ],
+          [
+            "Chronic infection",
+            "Positive over 6 months",
+            "Positive (IgG)",
+            "Negative"
+          ]
+        ]
+      },
+      {
+        "title": "Autoantibodies in GI disease",
+        "cols": [
+          "Disease",
+          "Autoantibody",
+          "Target or note"
+        ],
+        "rows": [
+          [
+            "Celiac disease",
+            "IgA anti-tissue transglutaminase, anti-endomysial",
+            "Tissue transglutaminase"
+          ],
+          [
+            "Autoimmune gastritis",
+            "Anti-parietal cell, anti-intrinsic factor",
+            "H+/K+-ATPase; intrinsic factor"
+          ],
+          [
+            "Autoimmune hepatitis type 1",
+            "ANA, anti-smooth muscle",
+            "Smooth muscle antibody targets actin"
+          ],
+          [
+            "Autoimmune hepatitis type 2",
+            "Anti-LKM1",
+            "CYP2D6"
+          ],
+          [
+            "Primary biliary cholangitis",
+            "Antimitochondrial",
+            "Pyruvate dehydrogenase E2 subunit"
+          ]
+        ]
+      }
     ],
     "tricks": [
-      {"kind": "trick", "label": "Core means caught", "text": "Anti-HBc only appears after real infection because the vaccine has no core protein. Anti-HBs alone means vaccine; anti-HBs plus anti-HBc means recovered from infection."},
-      {"kind": "trick", "label": "The enzyme makes the antigen and the target", "text": "In celiac disease tissue transglutaminase does both jobs: it modifies gliadin so DQ2 or DQ8 can present it, and it becomes the antibody target used in testing."},
-      {"kind": "trick", "label": "MALT lymphoma still listens", "text": "Early gastric MALT lymphoma still needs H. pylori-driven T cell help to grow. Take away the bug and the help disappears, so antibiotics can cure an early lymphoma."}
+      {
+        "kind": "trick",
+        "label": "Core means caught",
+        "text": "Anti-HBc only appears after real infection because the vaccine has no core protein. Anti-HBs alone means vaccine; anti-HBs plus anti-HBc means recovered from infection."
+      },
+      {
+        "kind": "trick",
+        "label": "The enzyme makes the antigen and the target",
+        "text": "In celiac disease tissue transglutaminase does both jobs: it modifies gliadin so DQ2 or DQ8 can present it, and it becomes the antibody target used in testing."
+      },
+      {
+        "kind": "trick",
+        "label": "MALT lymphoma still listens",
+        "text": "Early gastric MALT lymphoma still needs H. pylori-driven T cell help to grow. Take away the bug and the help disappears, so antibiotics can cure an early lymphoma."
+      }
     ],
     "highYield": [
       "Celiac disease is tied to HLA-DQ2 and DQ8; screen with IgA anti-tTG and check total IgA.",
@@ -567,117 +1443,343 @@
       "Crohn granulomas are noncaseating; caseating granulomas suggest tuberculosis."
     ],
     "dumps": [
-      {"t": "Secretory IgA on the move", "p": "Draw the intestinal lining over a Peyer patch. Show how an antigen is sampled and how secretory IgA is made and delivered to the lumen. Label each cell and molecule.", "l": [
-        "M cell transports antigen across the epithelium",
-        "Dendritic cell presents antigen to T cells in the Peyer patch",
-        "TGF-beta drives B cell class switching to IgA",
-        "Plasma cell in lamina propria makes dimeric IgA joined by J chain",
-        "Polymeric Ig receptor binds IgA on the basolateral side and carries it across",
-        "Cleavage leaves secretory component attached in the lumen",
-        "Secretory IgA blocks microbial attachment"
-      ]},
-      {"t": "Celiac disease mechanism", "p": "Draw a flowchart from eating bread to villous atrophy in celiac disease. Mark where the HLA molecule, the enzyme, and each T cell type act, and where the test antibodies come from.", "l": [
-        "Gliadin resists digestion",
-        "Tissue transglutaminase deamidates gliadin",
-        "HLA-DQ2 or DQ8 presents deamidated gliadin",
-        "CD4 T cells release IFN-gamma",
-        "IL-15 activates intraepithelial CD8 T cells that kill enterocytes",
-        "Villous atrophy, crypt hyperplasia, intraepithelial lymphocytes",
-        "IgA anti-tTG and anti-endomysial antibodies appear",
-        "Gluten-free diet reverses the lesion"
-      ]}
+      {
+        "t": "Secretory IgA on the move",
+        "p": "Draw the intestinal lining over a Peyer patch. Show how an antigen is sampled and how secretory IgA is made and delivered to the lumen. Label each cell and molecule.",
+        "l": [
+          "M cell transports antigen across the epithelium",
+          "Dendritic cell presents antigen to T cells in the Peyer patch",
+          "TGF-beta drives B cell class switching to IgA",
+          "Plasma cell in lamina propria makes dimeric IgA joined by J chain",
+          "Polymeric Ig receptor binds IgA on the basolateral side and carries it across",
+          "Cleavage leaves secretory component attached in the lumen",
+          "Secretory IgA blocks microbial attachment"
+        ]
+      },
+      {
+        "t": "Celiac disease mechanism",
+        "p": "Draw a flowchart from eating bread to villous atrophy in celiac disease. Mark where the HLA molecule, the enzyme, and each T cell type act, and where the test antibodies come from.",
+        "l": [
+          "Gliadin resists digestion",
+          "Tissue transglutaminase deamidates gliadin",
+          "HLA-DQ2 or DQ8 presents deamidated gliadin",
+          "CD4 T cells release IFN-gamma",
+          "IL-15 activates intraepithelial CD8 T cells that kill enterocytes",
+          "Villous atrophy, crypt hyperplasia, intraepithelial lymphocytes",
+          "IgA anti-tTG and anti-endomysial antibodies appear",
+          "Gluten-free diet reverses the lesion"
+        ]
+      }
     ],
     "refs": [
-      {"book": "Abbas, Basic Immunology", "where": "Section on mucosal immunity and secretory IgA"},
-      {"book": "Abbas, Basic Immunology", "where": "Section on immunological tolerance and autoimmunity"},
-      {"book": "Robbins and Cotran Pathologic Basis of Disease", "where": "Section on the gastrointestinal tract"},
-      {"book": "Robbins and Cotran Pathologic Basis of Disease", "where": "Liver and Gallbladder"}
+      {
+        "book": "Abbas, Basic Immunology",
+        "where": "Section on mucosal immunity and secretory IgA"
+      },
+      {
+        "book": "Abbas, Basic Immunology",
+        "where": "Section on immunological tolerance and autoimmunity"
+      },
+      {
+        "book": "Robbins and Cotran Pathologic Basis of Disease",
+        "where": "Section on the gastrointestinal tract"
+      },
+      {
+        "book": "Robbins and Cotran Pathologic Basis of Disease",
+        "where": "Liver and Gallbladder"
+      }
     ],
     "videos": [
-      {"channel": "Armando Hasudungan", "title": "Coeliac (Celiac) Disease - Overview (signs and symptoms, pathophysiology, diagnosis, treatment)", "url": "https://www.youtube.com/watch?v=Hxd0msD954I"},
-      {"channel": "Armando Hasudungan", "title": "Inflammatory Bowel Disease - Pathophysiology and Complications", "url": "https://www.youtube.com/watch?v=chSyQPKsNk4"},
-      {"channel": "Ninja Nerd", "title": "Inflammatory Bowel Disease (IBD) | Clinical Medicine", "url": "https://www.youtube.com/watch?v=PBZZ_Cu64aQ"},
-      {"channel": "Ninja Nerd", "title": "Hepatitis B | Clinical Medicine", "url": "https://www.youtube.com/watch?v=e-P-L0oGXgo"}
+      {
+        "channel": "Armando Hasudungan",
+        "title": "Coeliac (Celiac) Disease - Overview (signs and symptoms, pathophysiology, diagnosis, treatment)",
+        "url": "https://www.youtube.com/watch?v=Hxd0msD954I"
+      },
+      {
+        "channel": "Armando Hasudungan",
+        "title": "Inflammatory Bowel Disease - Pathophysiology and Complications",
+        "url": "https://www.youtube.com/watch?v=chSyQPKsNk4"
+      },
+      {
+        "channel": "Ninja Nerd",
+        "title": "Inflammatory Bowel Disease (IBD) | Clinical Medicine",
+        "url": "https://www.youtube.com/watch?v=PBZZ_Cu64aQ"
+      },
+      {
+        "channel": "Ninja Nerd",
+        "title": "Hepatitis B | Clinical Medicine",
+        "url": "https://www.youtube.com/watch?v=e-P-L0oGXgo"
+      }
     ],
-    "related": ["GI-13-E2", "GI-13-G9", "GI-13-G7", "GI-13-L7", "IM-15-A3", "IM-15-C3"]
+    "related": [
+      "GI-13-E2",
+      "GI-13-G9",
+      "GI-13-G7",
+      "GI-13-L7",
+      "IM-15-A3",
+      "IM-15-C3"
+    ]
   },
   {
     "id": "GI-12",
     "summary": "The bacteria, viruses, and parasites that cause diarrhea, gastritis, and hepatitis, organized by how they cause disease: preformed toxin, secretory toxin, invasion, villus damage, or immune injury. Questions give you the food, the timing, the stool, or a lab clue and ask for the organism or its virulence factor.",
     "notes": [
-      {"h": "Toxin-mediated", "points": [
-        "Staphylococcus aureus: preformed heat-stable enterotoxin in mayonnaise salads, custards, and meats; vomiting within about 1 to 6 hours.",
-        "Bacillus cereus emetic toxin: preformed in reheated fried rice; vomiting within about 1 to 6 hours.",
-        "Cholera toxin ADP-ribosylates Gs, locking adenylyl cyclase on; cAMP rises and rice-water stool follows.",
-        "ETEC heat-labile toxin works like cholera toxin (cAMP); its heat-stable toxin raises cGMP; classic traveler's diarrhea.",
-        "Clostridioides difficile: spore-forming gram-positive anaerobe; toxins A and B glucosylate Rho GTPases and kill colonocytes.",
-        "C. difficile follows antibiotics (clindamycin, fluoroquinolones, cephalosporins) and forms pseudomembranes."
-      ]},
-      {"h": "Invasive bacteria", "points": [
-        "Shigella: nonmotile, no H2S, infectious dose as low as about 10 to 100 organisms; invades M cells and spreads cell to cell.",
-        "Salmonella: motile, H2S-producing, needs a large dose (acid sensitive); poultry, eggs, reptiles.",
-        "Salmonella Typhi causes typhoid fever with rose spots and can persist in the gallbladder.",
-        "Campylobacter jejuni: comma or S-shaped, grows at 42 °C (107.6 °F), from undercooked poultry; linked to Guillain-Barre syndrome.",
-        "Yersinia enterocolitica: pork and unpasteurized milk; mesenteric adenitis and ileitis mimic appendicitis.",
-        "EHEC O157:H7: Shiga toxin inactivates the 60S ribosome; bloody diarrhea from undercooked beef; hemolytic uremic syndrome.",
-        "Listeria monocytogenes: deli meats and soft cheese, grows in the cold; listeriolysin O and ActA actin tails for cell-to-cell spread."
-      ]},
-      {"h": "Enteric viruses", "points": [
-        "Rotavirus: reovirus, segmented double-stranded RNA, nonenveloped; destroys villus tip cells in infants and young children.",
-        "Norovirus: calicivirus, single-stranded RNA, nonenveloped; outbreaks on cruise ships and in nursing homes, low infectious dose.",
-        "Coxsackievirus and echovirus: picornaviruses (single-stranded RNA), fecal-oral, peak in summer and fall."
-      ]},
-      {"h": "Hepatitis viruses", "points": [
-        "HAV: picornavirus, fecal-oral, acute only, never chronic.",
-        "HBV: hepadnavirus with partially double-stranded DNA; it replicates through an RNA intermediate using reverse transcriptase.",
-        "HCV: flavivirus; error-prone RNA polymerase gives high antigenic variation, so no vaccine and frequent chronic infection.",
-        "HDV: defective RNA virus that needs HBsAg as its envelope; superinfection of an HBV carrier is the most severe.",
-        "HEV: fecal-oral from contaminated water; fulminant hepatitis with high mortality in pregnancy."
-      ]},
-      {"h": "Helicobacter pylori", "points": [
-        "Curved, flagellated, microaerophilic gram-negative rod; urease, catalase, and oxidase positive.",
-        "Urease splits urea to ammonia, buffering acid around the organism in the antral mucus.",
-        "Causes chronic gastritis, duodenal and gastric ulcers, gastric adenocarcinoma, and MALT lymphoma.",
-        "Active infection tests: urea breath test and stool antigen (both used for test of cure); biopsy with rapid urease test or histology.",
-        "Serology stays positive after cure, so it cannot confirm eradication."
-      ]},
-      {"h": "Intestinal parasites", "points": [
-        "Giardia: cysts in untreated water (campers); trophozoites stick to villi and cause foul, fatty diarrhea without blood.",
-        "Entamoeba histolytica: trophozoites with ingested red cells; flask-shaped colon ulcers, bloody diarrhea, liver abscess.",
-        "Cryptosporidium: acid-fast oocysts, chlorine resistant; severe watery diarrhea in advanced HIV, self-limited otherwise.",
-        "Cyclospora (contaminated produce) and Cystoisospora also have acid-fast oocysts.",
-        "Strongyloides: larvae penetrate skin, migrate through lungs, and live in the duodenum; autoinfection lets it persist for decades.",
-        "Corticosteroids or HTLV-1 trigger Strongyloides hyperinfection with gram-negative sepsis."
-      ]}
+      {
+        "h": "Toxin-mediated",
+        "points": [
+          "Staphylococcus aureus: preformed heat-stable enterotoxin in mayonnaise salads, custards, and meats; vomiting within about 1 to 6 hours.",
+          "Bacillus cereus emetic toxin: preformed in reheated fried rice; vomiting within about 1 to 6 hours.",
+          "Cholera toxin ADP-ribosylates Gs, locking adenylyl cyclase on; cAMP rises and rice-water stool follows.",
+          "ETEC heat-labile toxin works like cholera toxin (cAMP); its heat-stable toxin raises cGMP; classic traveler's diarrhea.",
+          "Clostridioides difficile: spore-forming gram-positive anaerobe; toxins A and B glucosylate Rho GTPases and kill colonocytes.",
+          "C. difficile follows antibiotics (clindamycin, fluoroquinolones, cephalosporins) and forms pseudomembranes."
+        ],
+        "why": "Preformed toxins act within hours because no growth in the host is needed; S. aureus enterotoxin and B. cereus cereulide survive reheating and trigger vomiting through vagal pathways. Small bowel toxins act through second messengers: cholera toxin and ETEC LT keep Gs active (raising cAMP), ETEC ST activates guanylyl cyclase C (raising cGMP), and both messengers open CFTR, giving watery diarrhea without mucosal damage. C. difficile toxins inactivate Rho GTPases and collapse the actin cytoskeleton, so colonocytes round up and die, and pseudomembranes of fibrin, mucus, and neutrophils form. Antibiotics clear the colonic flora that normally keep C. difficile spores from germinating."
+      },
+      {
+        "h": "Invasive bacteria",
+        "points": [
+          "Shigella: nonmotile, no H2S, infectious dose as low as about 10 to 100 organisms; invades M cells and spreads cell to cell.",
+          "Salmonella: motile, H2S-producing, needs a large dose (acid sensitive); poultry, eggs, reptiles.",
+          "Salmonella Typhi causes typhoid fever with rose spots and can persist in the gallbladder.",
+          "Campylobacter jejuni: comma or S-shaped, grows at 42 °C (107.6 °F), from undercooked poultry; linked to Guillain-Barre syndrome.",
+          "Yersinia enterocolitica: pork and unpasteurized milk; mesenteric adenitis and ileitis mimic appendicitis.",
+          "EHEC O157:H7: Shiga toxin inactivates the 60S ribosome; bloody diarrhea from undercooked beef; hemolytic uremic syndrome.",
+          "Listeria monocytogenes: deli meats and soft cheese, grows in the cold; listeriolysin O and ActA actin tails for cell-to-cell spread."
+        ],
+        "why": "Invasive organisms damage the mucosa directly, so stool contains blood and leukocytes and fever is common. Shigella survives stomach acid well, so very few organisms reach the colon, where it enters through M cells, escapes into the cytoplasm, and spreads cell to cell by actin polymerization, causing ulcers with little bacteremia. Salmonella is acid-sensitive, so infection needs a large dose or reduced gastric acid; S. Typhi survives inside macrophages, spreads through lymphatics to the reticuloendothelial system, and seeds the gallbladder. Campylobacter lipooligosaccharide resembles peripheral nerve gangliosides, so antibodies against it can cross-react and cause Guillain-Barre syndrome by molecular mimicry."
+      },
+      {
+        "h": "Enteric viruses",
+        "points": [
+          "Rotavirus: reovirus, segmented double-stranded RNA, nonenveloped; destroys villus tip cells in infants and young children.",
+          "Norovirus: calicivirus, single-stranded RNA, nonenveloped; outbreaks on cruise ships and in nursing homes, low infectious dose.",
+          "Coxsackievirus and echovirus: picornaviruses (single-stranded RNA), fecal-oral, peak in summer and fall."
+        ],
+        "why": "Rotavirus infects mature enterocytes at the villus tips, so absorptive cells and brush border disaccharidases are lost while secretory crypt cells remain, and its NSP4 protein acts as an enterotoxin that raises intracellular calcium and drives secretion. Lacking an envelope, these viruses resist stomach acid, bile, drying, and many disinfectants, which is why they spread so well by the fecal-oral route. Norovirus infects with only a few particles, is shed in huge numbers, and leaves short-lived, strain-specific immunity, so outbreaks recur in closed settings. Enteroviruses replicate first in the pharynx and gut lymphoid tissue, then spread through the blood to target organs such as the meninges, heart, and skin."
+      },
+      {
+        "h": "Hepatitis viruses",
+        "points": [
+          "HAV: picornavirus, fecal-oral, acute only, never chronic.",
+          "HBV: hepadnavirus with partially double-stranded DNA; it replicates through an RNA intermediate using reverse transcriptase.",
+          "HCV: flavivirus; error-prone RNA polymerase gives high antigenic variation, so no vaccine and frequent chronic infection.",
+          "HDV: defective RNA virus that needs HBsAg as its envelope; superinfection of an HBV carrier is the most severe.",
+          "HEV: fecal-oral from contaminated water; fulminant hepatitis with high mortality in pregnancy."
+        ],
+        "why": "HAV and HEV are nonenveloped and spread fecal-orally, and the immune system usually clears them, although HEV can become chronic in immunosuppressed patients such as transplant recipients. HBV converts its partial DNA genome into covalently closed circular DNA in the nucleus, a stable template for pregenomic RNA and reverse transcription, so the virus is hard to eliminate. HCV's RNA-dependent RNA polymerase lacks proofreading, so variants with changed envelope proteins keep escaping antibody, which explains chronic infection and the lack of a vaccine. HDV copies its RNA genome with host RNA polymerase but can form infectious particles only when HBV supplies HBsAg, so it occurs only with HBV."
+      },
+      {
+        "h": "Helicobacter pylori",
+        "points": [
+          "Curved, flagellated, microaerophilic gram-negative rod; urease, catalase, and oxidase positive.",
+          "Urease splits urea to ammonia, buffering acid around the organism in the antral mucus.",
+          "Causes chronic gastritis, duodenal and gastric ulcers, gastric adenocarcinoma, and MALT lymphoma.",
+          "Active infection tests: urea breath test and stool antigen (both used for test of cure); biopsy with rapid urease test or histology.",
+          "Serology stays positive after cure, so it cannot confirm eradication."
+        ],
+        "why": "Urease makes ammonia that neutralizes acid around the organism, and flagella carry it into the mucus layer, where adhesins bind it to the epithelium. Antral-predominant gastritis reduces somatostatin from D cells, so gastrin and acid rise and duodenal ulcers form, while gastritis that spreads to the body causes atrophy, intestinal metaplasia, and a higher risk of adenocarcinoma. The urea breath test uses urease directly: living organisms split labeled urea into labeled CO2 that is exhaled, so the test detects only current infection. Antibodies persist after eradication, so serology shows past exposure and cannot confirm cure."
+      },
+      {
+        "h": "Intestinal parasites",
+        "points": [
+          "Giardia: cysts in untreated water (campers); trophozoites stick to villi and cause foul, fatty diarrhea without blood.",
+          "Entamoeba histolytica: trophozoites with ingested red cells; flask-shaped colon ulcers, bloody diarrhea, liver abscess.",
+          "Cryptosporidium: acid-fast oocysts, chlorine resistant; severe watery diarrhea in advanced HIV, self-limited otherwise.",
+          "Cyclospora (contaminated produce) and Cystoisospora also have acid-fast oocysts.",
+          "Strongyloides: larvae penetrate skin, migrate through lungs, and live in the duodenum; autoinfection lets it persist for decades.",
+          "Corticosteroids or HTLV-1 trigger Strongyloides hyperinfection with gram-negative sepsis."
+        ],
+        "why": "Giardia trophozoites attach to the small bowel brush border with a ventral disc and injure microvilli without invading, so diarrhea is fatty and nonbloody. E. histolytica invades with an adherence lectin, cysteine proteases, and pore-forming amoebapores, making ulcers that widen beneath the surface (flask shape) and reaching the liver by the portal vein. T cell immunity clears Cryptosporidium, so severe watery diarrhea persists mainly with low CD4 counts. Strongyloides larvae can mature to the infective filariform stage inside the gut and reinvade, and when corticosteroids suppress the Th2 response, larvae multiply and carry gut bacteria into the blood."
+      }
+    ],
+    "flows": [
+      {
+        "title": "H. pylori to duodenal ulcer",
+        "steps": [
+          "H. pylori colonizes antral mucus, protected by urease-generated ammonia.",
+          "Antral gastritis reduces somatostatin release from D cells.",
+          "Less somatostatin inhibition raises gastrin release from G cells.",
+          "Gastrin increases parietal cell acid secretion.",
+          "Excess acid causes gastric metaplasia in the duodenum, which H. pylori colonizes.",
+          "Inflammation and acid injury produce a duodenal ulcer."
+        ]
+      },
+      {
+        "title": "EHEC to hemolytic uremic syndrome",
+        "steps": [
+          "EHEC O157:H7 from undercooked beef attaches to colonic epithelium.",
+          "Shiga toxin damages colonic vessels, causing bloody diarrhea.",
+          "Toxin enters blood and binds Gb3 receptors on glomerular endothelium.",
+          "Toxin removes an adenine from 28S rRNA, halting protein synthesis.",
+          "Injured endothelium triggers platelet microthrombi in small vessels.",
+          "Microangiopathic hemolytic anemia, thrombocytopenia, and acute kidney injury follow."
+        ]
+      },
+      {
+        "title": "Strongyloides life cycle and autoinfection",
+        "steps": [
+          "Filariform larvae in soil penetrate intact skin.",
+          "Larvae travel in blood to the lungs and ascend the airways.",
+          "Swallowed larvae mature into adult females in the duodenal mucosa.",
+          "Eggs hatch in the mucosa, releasing rhabditiform larvae into the lumen.",
+          "Some larvae become filariform in the gut and reinvade (autoinfection)."
+        ]
+      }
     ],
     "charts": [
-      {"title": "Toxin-mediated GI infections", "cols": ["Organism", "Toxin and mechanism", "Typical source", "Onset and stool"], "rows": [
-        ["Staphylococcus aureus", "Preformed heat-stable enterotoxin", "Mayonnaise salads, custards, meats", "About 1 to 6 hours; vomiting predominant"],
-        ["Bacillus cereus (emetic)", "Preformed heat-stable cereulide", "Reheated fried rice", "About 1 to 6 hours; vomiting"],
-        ["Vibrio cholerae", "Cholera toxin activates Gs, raises cAMP", "Contaminated water, shellfish", "Rice-water stool, massive volume"],
-        ["ETEC", "Heat-labile toxin raises cAMP; heat-stable toxin raises cGMP", "Food and water in travel", "Watery diarrhea"],
-        ["Clostridioides difficile", "Toxins A and B inactivate Rho GTPases", "Recent antibiotics, hospitals", "Watery diarrhea, pseudomembranes"]
-      ]},
-      {"title": "Invasive enteric bacteria", "cols": ["Organism", "Key lab or structural clue", "Source", "Classic complication"], "rows": [
-        ["Shigella", "Nonmotile, no H2S, very low infectious dose", "Person to person, daycare", "Bloody dysentery; HUS with S. dysenteriae"],
-        ["Salmonella (nontyphoidal)", "Motile, H2S producing", "Poultry, eggs, reptiles", "Bacteremia, osteomyelitis in sickle cell disease"],
-        ["Campylobacter jejuni", "Comma or S-shaped, grows at 42 °C (107.6 °F)", "Undercooked poultry, raw milk", "Guillain-Barre syndrome, reactive arthritis"],
-        ["Yersinia enterocolitica", "Grows in the cold", "Pork, raw milk", "Pseudoappendicitis from mesenteric adenitis"],
-        ["EHEC O157:H7", "Shiga toxin, does not ferment sorbitol", "Undercooked beef, produce", "Hemolytic uremic syndrome"],
-        ["Listeria monocytogenes", "Gram-positive rod, tumbling motility, actin tails", "Deli meats, soft cheese", "Meningitis in newborns, elderly; fetal infection"]
-      ]},
-      {"title": "Hepatitis viruses", "cols": ["Virus", "Family and genome", "Spread", "Chronic?", "Key point"], "rows": [
-        ["HAV", "Picornavirus, ssRNA", "Fecal-oral", "No", "Travel, shellfish"],
-        ["HBV", "Hepadnavirus, partially dsDNA", "Blood, sex, birth", "Yes", "Reverse transcriptase; HCC risk"],
-        ["HCV", "Flavivirus, ssRNA", "Blood", "Yes, most cases", "High antigenic variation, no vaccine"],
-        ["HDV", "Deltavirus, defective ssRNA", "Blood, sex", "Yes", "Needs HBsAg to make particles"],
-        ["HEV", "Hepevirus, ssRNA", "Fecal-oral, water", "No in healthy hosts", "Severe in pregnancy"]
-      ]}
+      {
+        "title": "Toxin-mediated GI infections",
+        "cols": [
+          "Organism",
+          "Toxin and mechanism",
+          "Typical source",
+          "Onset and stool"
+        ],
+        "rows": [
+          [
+            "Staphylococcus aureus",
+            "Preformed heat-stable enterotoxin",
+            "Mayonnaise salads, custards, meats",
+            "About 1 to 6 hours; vomiting predominant"
+          ],
+          [
+            "Bacillus cereus (emetic)",
+            "Preformed heat-stable cereulide",
+            "Reheated fried rice",
+            "About 1 to 6 hours; vomiting"
+          ],
+          [
+            "Vibrio cholerae",
+            "Cholera toxin activates Gs, raises cAMP",
+            "Contaminated water, shellfish",
+            "Rice-water stool, massive volume"
+          ],
+          [
+            "ETEC",
+            "Heat-labile toxin raises cAMP; heat-stable toxin raises cGMP",
+            "Food and water in travel",
+            "Watery diarrhea"
+          ],
+          [
+            "Clostridioides difficile",
+            "Toxins A and B inactivate Rho GTPases",
+            "Recent antibiotics, hospitals",
+            "Watery diarrhea, pseudomembranes"
+          ]
+        ]
+      },
+      {
+        "title": "Invasive enteric bacteria",
+        "cols": [
+          "Organism",
+          "Key lab or structural clue",
+          "Source",
+          "Classic complication"
+        ],
+        "rows": [
+          [
+            "Shigella",
+            "Nonmotile, no H2S, very low infectious dose",
+            "Person to person, daycare",
+            "Bloody dysentery; HUS with S. dysenteriae"
+          ],
+          [
+            "Salmonella (nontyphoidal)",
+            "Motile, H2S producing",
+            "Poultry, eggs, reptiles",
+            "Bacteremia, osteomyelitis in sickle cell disease"
+          ],
+          [
+            "Campylobacter jejuni",
+            "Comma or S-shaped, grows at 42 °C (107.6 °F)",
+            "Undercooked poultry, raw milk",
+            "Guillain-Barre syndrome, reactive arthritis"
+          ],
+          [
+            "Yersinia enterocolitica",
+            "Grows in the cold",
+            "Pork, raw milk",
+            "Pseudoappendicitis from mesenteric adenitis"
+          ],
+          [
+            "EHEC O157:H7",
+            "Shiga toxin, does not ferment sorbitol",
+            "Undercooked beef, produce",
+            "Hemolytic uremic syndrome"
+          ],
+          [
+            "Listeria monocytogenes",
+            "Gram-positive rod, tumbling motility, actin tails",
+            "Deli meats, soft cheese",
+            "Meningitis in newborns, elderly; fetal infection"
+          ]
+        ]
+      },
+      {
+        "title": "Hepatitis viruses",
+        "cols": [
+          "Virus",
+          "Family and genome",
+          "Spread",
+          "Chronic?",
+          "Key point"
+        ],
+        "rows": [
+          [
+            "HAV",
+            "Picornavirus, ssRNA",
+            "Fecal-oral",
+            "No",
+            "Travel, shellfish"
+          ],
+          [
+            "HBV",
+            "Hepadnavirus, partially dsDNA",
+            "Blood, sex, birth",
+            "Yes",
+            "Reverse transcriptase; HCC risk"
+          ],
+          [
+            "HCV",
+            "Flavivirus, ssRNA",
+            "Blood",
+            "Yes, most cases",
+            "High antigenic variation, no vaccine"
+          ],
+          [
+            "HDV",
+            "Deltavirus, defective ssRNA",
+            "Blood, sex",
+            "Yes",
+            "Needs HBsAg to make particles"
+          ],
+          [
+            "HEV",
+            "Hepevirus, ssRNA",
+            "Fecal-oral, water",
+            "No in healthy hosts",
+            "Severe in pregnancy"
+          ]
+        ]
+      }
     ],
     "tricks": [
-      {"kind": "mnemonic", "label": "The vowels hit your bowels", "text": "Hepatitis A and E spread by the fecal-oral route; B, C, and D spread through blood and body fluids."},
-      {"kind": "trick", "label": "Count the hours", "text": "Vomiting within about 6 hours of eating means the toxin was already in the food (S. aureus, B. cereus). Symptoms a day or more later mean the organism had to grow in the gut first."},
-      {"kind": "trick", "label": "Acid-fast in the stool", "text": "Acid-fast oocysts in diarrhea point to the coccidia: Cryptosporidium, Cyclospora, and Cystoisospora, especially in advanced HIV."}
+      {
+        "kind": "mnemonic",
+        "label": "The vowels hit your bowels",
+        "text": "Hepatitis A and E spread by the fecal-oral route; B, C, and D spread through blood and body fluids."
+      },
+      {
+        "kind": "trick",
+        "label": "Count the hours",
+        "text": "Vomiting within about 6 hours of eating means the toxin was already in the food (S. aureus, B. cereus). Symptoms a day or more later mean the organism had to grow in the gut first."
+      },
+      {
+        "kind": "trick",
+        "label": "Acid-fast in the stool",
+        "text": "Acid-fast oocysts in diarrhea point to the coccidia: Cryptosporidium, Cyclospora, and Cystoisospora, especially in advanced HIV."
+      }
     ],
     "highYield": [
       "EHEC O157:H7 plus bloody diarrhea, then anemia, low platelets, and kidney failure means hemolytic uremic syndrome.",
@@ -694,36 +1796,76 @@
       "HBV is a DNA virus but uses reverse transcriptase; do not file it with the RNA hepatitis viruses."
     ],
     "dumps": [
-      {"t": "Diarrhea by mechanism", "p": "Build a comparison table on blank paper with rows for preformed toxin, secretory toxin, cytotoxin, invasive bacteria, virus, and parasite. For each row, name two organisms, the onset, and whether the stool is watery or bloody.", "l": [
-        "Preformed toxin: S. aureus, B. cereus; onset about 1 to 6 hours; vomiting",
-        "Secretory toxin: V. cholerae, ETEC; cAMP rise; watery",
-        "Cytotoxin: C. difficile, EHEC; colon damage",
-        "Invasive: Shigella, Campylobacter, Salmonella; bloody with fever",
-        "Viral: rotavirus in infants, norovirus in outbreaks; watery",
-        "Parasite: Giardia fatty and nonbloody, Entamoeba bloody",
-        "EHEC links to hemolytic uremic syndrome"
-      ]},
-      {"t": "Hepatitis virus map", "p": "Draw five boxes, one for each hepatitis virus. In each, write the genome type, the virus family, how it spreads, whether it becomes chronic, and one fact the exam loves.", "l": [
-        "HAV picornavirus, fecal-oral, never chronic",
-        "HBV hepadnavirus, partially dsDNA, reverse transcriptase",
-        "HCV flavivirus, high antigenic variation, often chronic",
-        "HDV defective, requires HBsAg",
-        "HEV fecal-oral, severe in pregnancy",
-        "A and E spread fecal-oral; B, C, D spread by blood and body fluids",
-        "HBV and HCV raise hepatocellular carcinoma risk"
-      ]}
+      {
+        "t": "Diarrhea by mechanism",
+        "p": "Build a comparison table on blank paper with rows for preformed toxin, secretory toxin, cytotoxin, invasive bacteria, virus, and parasite. For each row, name two organisms, the onset, and whether the stool is watery or bloody.",
+        "l": [
+          "Preformed toxin: S. aureus, B. cereus; onset about 1 to 6 hours; vomiting",
+          "Secretory toxin: V. cholerae, ETEC; cAMP rise; watery",
+          "Cytotoxin: C. difficile, EHEC; colon damage",
+          "Invasive: Shigella, Campylobacter, Salmonella; bloody with fever",
+          "Viral: rotavirus in infants, norovirus in outbreaks; watery",
+          "Parasite: Giardia fatty and nonbloody, Entamoeba bloody",
+          "EHEC links to hemolytic uremic syndrome"
+        ]
+      },
+      {
+        "t": "Hepatitis virus map",
+        "p": "Draw five boxes, one for each hepatitis virus. In each, write the genome type, the virus family, how it spreads, whether it becomes chronic, and one fact the exam loves.",
+        "l": [
+          "HAV picornavirus, fecal-oral, never chronic",
+          "HBV hepadnavirus, partially dsDNA, reverse transcriptase",
+          "HCV flavivirus, high antigenic variation, often chronic",
+          "HDV defective, requires HBsAg",
+          "HEV fecal-oral, severe in pregnancy",
+          "A and E spread fecal-oral; B, C, D spread by blood and body fluids",
+          "HBV and HCV raise hepatocellular carcinoma risk"
+        ]
+      }
     ],
     "refs": [
-      {"book": "Jawetz, Melnick, and Adelberg's Medical Microbiology", "where": "Section on enteric gram-negative rods (Enterobacteriaceae)"},
-      {"book": "Jawetz, Melnick, and Adelberg's Medical Microbiology", "where": "Hepatitis Viruses"},
-      {"book": "Jawetz, Melnick, and Adelberg's Medical Microbiology", "where": "Section on intestinal protozoa and nematodes"}
+      {
+        "book": "Jawetz, Melnick, and Adelberg's Medical Microbiology",
+        "where": "Section on enteric gram-negative rods (Enterobacteriaceae)"
+      },
+      {
+        "book": "Jawetz, Melnick, and Adelberg's Medical Microbiology",
+        "where": "Hepatitis Viruses"
+      },
+      {
+        "book": "Jawetz, Melnick, and Adelberg's Medical Microbiology",
+        "where": "Section on intestinal protozoa and nematodes"
+      }
     ],
     "videos": [
-      {"channel": "Armando Hasudungan", "title": "Microbiology - Helicobacter Pylori (Ulcer)", "url": "https://www.youtube.com/watch?v=y-shOXdsJeA"},
-      {"channel": "Ninja Nerd", "title": "Hepatitis | Pathophysiology of Viral Hepatitis", "url": "https://www.youtube.com/watch?v=R4OG0wHkPcM"},
-      {"channel": "Ninja Nerd", "title": "Hepatitis | Diagnosis of Viral Hepatitis", "url": "https://www.youtube.com/watch?v=B0pFnLbo6eM"},
-      {"channel": "Ninja Nerd", "title": "Case Study #16: Clostridium Difficile | C. Diff", "url": "https://www.youtube.com/watch?v=Nn34qoj1hh0"}
+      {
+        "channel": "Armando Hasudungan",
+        "title": "Microbiology - Helicobacter Pylori (Ulcer)",
+        "url": "https://www.youtube.com/watch?v=y-shOXdsJeA"
+      },
+      {
+        "channel": "Ninja Nerd",
+        "title": "Hepatitis | Pathophysiology of Viral Hepatitis",
+        "url": "https://www.youtube.com/watch?v=R4OG0wHkPcM"
+      },
+      {
+        "channel": "Ninja Nerd",
+        "title": "Hepatitis | Diagnosis of Viral Hepatitis",
+        "url": "https://www.youtube.com/watch?v=B0pFnLbo6eM"
+      },
+      {
+        "channel": "Ninja Nerd",
+        "title": "Case Study #16: Clostridium Difficile | C. Diff",
+        "url": "https://www.youtube.com/watch?v=Nn34qoj1hh0"
+      }
     ],
-    "related": ["GI-13-L1", "GI-13-L3", "GI-13-L7", "GI-13-G7", "GI-13-G5", "GI-11"]
+    "related": [
+      "GI-13-L1",
+      "GI-13-L3",
+      "GI-13-L7",
+      "GI-13-G7",
+      "GI-13-G5",
+      "GI-11"
+    ]
   }
 ]

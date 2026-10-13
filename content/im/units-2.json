@@ -13,7 +13,8 @@
           "Negative selection (medulla): thymocytes that bind self peptide-MHC too strongly die by apoptosis or become FOXP3+ regulatory T cells.",
           "AIRE lets medullary epithelial cells express tissue antigens (insulin, thyroid, parathyroid, adrenal proteins) so self-reactive cells can be deleted.",
           "Most thymocytes never leave the thymus; only a small fraction exit as mature single positive naive T cells."
-        ]
+        ],
+        "why": "Positive selection tests whether a randomly rearranged TCR can recognize self MHC at all; thymocytes that cannot engage MHC receive no survival signal and die by neglect. The MHC class the TCR engages sets the lineage, because CD8 binds class I and CD4 binds class II, so the matching coreceptor is kept. Negative selection then removes cells that bind self peptide too strongly, and AIRE extends this to organ-specific proteins by switching on peripheral tissue genes in medullary epithelium. When AIRE fails, T cells reactive to parathyroid, adrenal, and other endocrine antigens escape into the periphery."
       },
       {
         "h": "Spleen: the blood filter",
@@ -24,7 +25,8 @@
           "Marginal zone B cells and macrophages trap blood-borne antigen and make fast IgM against bacterial polysaccharide capsules.",
           "Splenic macrophages clear bacteria coated with IgG or C3b, which matters most for encapsulated bacteria.",
           "About one third of the body's platelets are held in the spleen."
-        ]
+        ],
+        "why": "The red pulp is an open circulation: blood leaves arterial capillaries into the cords and must squeeze through narrow slits between endothelial cells to re-enter the venous sinuses. Red cells that have lost deformability with age, or that carry rigid inclusions, are held back and either phagocytosed whole or pitted. Polysaccharide capsules resist direct phagocytosis, so clearance depends on opsonization by IgM, IgG, and C3b in the slow, macrophage-rich splenic flow, and marginal zone B cells supply rapid T-independent IgM against these capsules."
       },
       {
         "h": "No spleen: what you see",
@@ -33,7 +35,8 @@
           "Thrombocytosis after splenectomy because the splenic platelet pool is gone.",
           "Overwhelming sepsis from encapsulated bacteria: S pneumoniae, H influenzae type b, N meningitidis.",
           "Sickle cell disease: repeated splenic infarcts cause functional asplenia in early childhood (autosplenectomy)."
-        ]
+        ],
+        "why": "Each finding after splenectomy is a lost splenic function. Without pitting and membrane remodeling, red cells keep nuclear remnants (Howell-Jolly bodies) and excess membrane (target cells), and the platelets normally pooled in the spleen stay in circulation, raising the count. Loss of marginal zone IgM and splenic macrophage clearance leaves encapsulated bacteria in the blood, so sepsis can become overwhelming within hours. In sickle cell disease, sickled cells occlude the slow splenic circulation, causing repeated infarcts and fibrosis."
       },
       {
         "h": "Lymph nodes: where naive cells meet antigen",
@@ -44,7 +47,8 @@
           "Dendritic cells pick up antigen in tissue, switch on CCR7, and travel in afferent lymph to the node.",
           "Lymphocytes that find no antigen leave through efferent lymph, drawn out by sphingosine 1-phosphate (S1P).",
           "Activated effector T cells lose L-selectin and CCR7, so they home to inflamed tissue instead of nodes."
-        ]
+        ],
+        "why": "Homing is a multistep adhesion cascade: L-selectin binding peripheral node addressin lets naive cells roll on HEVs, CCL19 and CCL21 acting on CCR7 switch the integrin LFA-1 to a high-affinity state, and LFA-1 binding ICAM-1 arrests the cell so it can cross into the node. Mature dendritic cells use the same CCR7 signal to reach the T cell zone, so rare antigen-specific naive cells and their antigen meet in one place. Exit follows the S1P gradient, which is high in lymph and blood; recently activated T cells express CD69, which internalizes the S1P receptor and holds them in the node while they proliferate."
       },
       {
         "h": "Cortisol and the blood count",
@@ -54,7 +58,8 @@
           "Neutrophilia: neutrophils demarginate from vessel walls (less adhesion), and marrow release rises.",
           "Thymic atrophy and shrinkage of lymphoid tissue (stress involution of the thymus).",
           "Seen with severe stress, Cushing syndrome, and glucocorticoid treatment."
-        ]
+        ],
+        "why": "Glucocorticoids act through cytoplasmic receptors that change gene transcription in leukocytes. They induce apoptosis of lymphocytes and eosinophils and shift lymphocytes out of the blood into marrow and lymphoid tissue, lowering blood counts within hours. Neutrophils rise mainly because glucocorticoids reduce adhesion molecule expression, releasing the marginated pool into the circulating pool, and because marrow release increases. Cortical double positive thymocytes are highly sensitive to glucocorticoid-induced apoptosis, which is why stress shrinks the thymus."
       }
     ],
     "charts": [
@@ -255,6 +260,41 @@
       "IM-2",
       "IM-12",
       "IM-14"
+    ],
+    "flows": [
+      {
+        "title": "Thymic T cell development",
+        "steps": [
+          "Bone marrow lymphoid progenitor enters the thymus at the corticomedullary junction",
+          "Double negative thymocyte in the outer cortex rearranges the TCR beta chain",
+          "TCR alpha rearranges and the cell becomes CD4+ CD8+ double positive",
+          "Positive selection on cortical epithelial self MHC; nonbinders die by neglect",
+          "Cell keeps CD4 if it binds class II, CD8 if class I",
+          "Negative selection in the medulla on AIRE-driven self antigens deletes strong binders",
+          "Mature single positive naive T cell leaves the thymus"
+        ]
+      },
+      {
+        "title": "Naive lymphocyte homing through a lymph node",
+        "steps": [
+          "Naive lymphocyte rolls on a high endothelial venule as L-selectin binds addressin",
+          "CCL19 and CCL21 bind CCR7, activating the integrin LFA-1",
+          "LFA-1 binds ICAM-1 and the cell arrests firmly",
+          "Lymphocyte crosses the HEV wall into the node",
+          "It scans dendritic cells that carried antigen in through afferent lymph",
+          "Without its antigen, it follows the S1P gradient out in efferent lymph"
+        ]
+      },
+      {
+        "title": "Asplenia to overwhelming sepsis",
+        "steps": [
+          "Spleen removed, or infarcted by sickling in sickle cell disease",
+          "Marginal zone IgM and splenic macrophage clearance are lost",
+          "Encapsulated bacteria (S pneumoniae, Hib, N meningitidis) are not removed from blood",
+          "Bacteria multiply rapidly in the bloodstream",
+          "Septic shock with DIC, sometimes within hours"
+        ]
+      }
     ]
   },
   {
@@ -268,7 +308,8 @@
           "Filtration out of capillaries is slightly greater than reabsorption into them.",
           "The leftover fluid, about 2 to 3 L per day, enters lymphatic capillaries and becomes lymph.",
           "Interstitial pressure is normally slightly negative in loose tissue (about -3 mmHg in subcutaneous tissue)."
-        ]
+        ],
+        "why": "Net filtration follows the Starling equation: fluid moves out when capillary hydrostatic pressure plus interstitial oncotic pressure exceeds plasma oncotic pressure plus interstitial hydrostatic pressure. Across the whole body the outward forces win slightly, so a small volume stays in the interstitium every minute. In loose tissue the slightly negative interstitial pressure adds a small outward pull, and lymphatics must remove the excess continuously to keep the tissue from swelling."
       },
       {
         "h": "What lymph contains",
@@ -279,7 +320,8 @@
           "Chyle: milky intestinal lymph full of chylomicrons after a fatty meal.",
           "Lymph is the only route back to the blood for filtered protein, because protein cannot be reabsorbed into capillaries against its gradient.",
           "Without lymph flow, interstitial protein builds up, interstitial oncotic pressure rises, and edema follows."
-        ]
+        ],
+        "why": "Capillary walls let a small amount of albumin and other plasma protein escape, and once in the interstitium that protein cannot diffuse back because plasma protein concentration is higher and the endothelium restricts protein passage. Lymphatic capillaries have open overlapping junctions that take up fluid and protein together in bulk, so lymph is the only return path. When lymph flow fails, interstitial protein accumulates, interstitial oncotic pressure rises, and more fluid is drawn out of capillaries, which keeps the edema going. Chylomicrons are too large to cross blood capillary walls, so intestinal lymph also carries absorbed fat."
       },
       {
         "h": "What moves lymph",
@@ -290,7 +332,8 @@
           "External squeezing helps: skeletal muscle contraction, arterial pulsation, and body movement.",
           "Inspiration lowers intrathoracic pressure and draws thoracic duct lymph toward the left venous angle.",
           "Rising interstitial pressure (from about -3 up to about 0 to +2 mmHg) can raise lymph flow about 20 fold before it levels off."
-        ]
+        ],
+        "why": "Most lymph propulsion comes from an intrinsic pump: stretch of a filled lymphangion triggers its smooth muscle to contract, and valves at each end send that output only toward the veins. When interstitial pressure rises, anchoring filaments pull the endothelial flaps of lymphatic capillaries open, more fluid enters, and the stretched lymphangions pump harder, so flow rises steeply. Above about 0 to +2 mmHg, tissue pressure also compresses the larger lymphatics from outside, so flow levels off. Extrinsic compression and the inspiratory fall in thoracic pressure add to the intrinsic pump."
       },
       {
         "h": "Lymphedema",
@@ -302,7 +345,8 @@
           "W bancrofti: mosquito-borne nematode whose adult worms live in lymphatics, causing elephantiasis and hydrocele.",
           "Milroy disease: autosomal dominant FLT4 (VEGFR3) mutation, congenital lower limb lymphedema.",
           "Turner syndrome (45,X): cystic hygroma of the neck in the fetus, webbed neck, and hand and foot lymphedema at birth."
-        ]
+        ],
+        "why": "Lymphedema is a failure on the drainage side, with normal filtration but poor removal of fluid and protein. The retained protein keeps interstitial oncotic pressure high, and chronic stasis drives inflammation, fibroblast activation, and fat deposition, converting soft pitting edema into firm nonpitting tissue; stagnant protein-rich fluid also favors recurrent cellulitis. Surgery, radiation, and adult filarial worms damage existing vessels, whereas FLT4 (VEGFR3) mutations impair VEGF-C driven lymphatic development. In Turner syndrome the jugular lymph sacs fail to drain into the venous system, so lymph collects as a cystic hygroma in the neck."
       }
     ],
     "charts": [
@@ -498,6 +542,30 @@
       "IM-11",
       "CV-10",
       "CV-11"
+    ],
+    "flows": [
+      {
+        "title": "Lymph formation and return",
+        "steps": [
+          "Net capillary filtration leaves fluid and some protein in the interstitium",
+          "Rising interstitial pressure pulls lymphatic capillary flaps open via anchoring filaments",
+          "Fluid and protein enter lymphatic capillaries as lymph",
+          "Stretched lymphangions contract; valves force one-way flow",
+          "Lymph passes through regional lymph nodes",
+          "Thoracic duct or right lymphatic duct empties into a venous angle"
+        ]
+      },
+      {
+        "title": "Pathogenesis of lymphedema",
+        "steps": [
+          "Lymphatics removed, irradiated, blocked by filarial worms, or malformed",
+          "Filtered fluid and protein cannot leave the interstitium",
+          "Interstitial protein and oncotic pressure rise, drawing out more fluid",
+          "Protein-rich pitting edema develops",
+          "Chronic stasis drives inflammation, fibrosis, and fat deposition",
+          "Firm nonpitting swelling with thickened skin and recurrent cellulitis"
+        ]
+      }
     ]
   },
   {
@@ -512,7 +580,8 @@
           "Superoxide dismutase converts superoxide to hydrogen peroxide (H2O2).",
           "Myeloperoxidase (in neutrophil granules) combines H2O2 with chloride to make hypochlorous acid (HOCl, bleach).",
           "Chronic granulomatous disease (CGD): NADPH oxidase defect, most often X-linked (CYBB, gp91phox), some autosomal recessive."
-        ]
+        ],
+        "why": "The respiratory burst turns oxygen into microbicidal oxidants in a fixed order, and each enzyme needs the product of the step before it. NADPH supplies the electrons that NADPH oxidase transfers to O2, so severe G6PD deficiency can impair the burst. In CGD the first oxidative step fails, so the phagocyte makes no superoxide or H2O2 of its own. Defects further down, such as myeloperoxidase deficiency, spare superoxide and H2O2 production and are usually mild, because H2O2 alone still kills many organisms."
       },
       {
         "h": "CGD infections and tests",
@@ -522,7 +591,8 @@
           "Uncleared organisms are walled off in granulomas (lymph nodes, liver, lung, skin).",
           "Dihydrorhodamine (DHR) flow test: normal cells fluoresce after stimulation; CGD cells show little or no fluorescence.",
           "Nitroblue tetrazolium (NBT): normal cells reduce the yellow dye to blue; CGD cells stay yellow."
-        ]
+        ],
+        "why": "CGD phagocytes still contain myeloperoxidase, so they can make HOCl if a microbe donates H2O2 into the phagosome. Catalase-negative organisms such as streptococci leave their H2O2 for the phagocyte to use, while catalase-positive organisms break it down, removing the only substrate and surviving inside the cell. Persistent intracellular organisms keep macrophages activated, which builds granulomas. Both screening tests read out the missing oxidant production: DHR is oxidized to fluorescent rhodamine and NBT is reduced to blue formazan only when the phagocyte generates reactive oxygen species."
       },
       {
         "h": "ADA deficiency SCID",
@@ -531,7 +601,8 @@
           "Without ADA, deoxyadenosine builds up and lymphocytes phosphorylate it to dATP.",
           "dATP inhibits ribonucleotide reductase, so no deoxynucleotides are made for DNA.",
           "Dividing lymphocytes die: T, B, and NK cells are all low (autosomal recessive SCID)."
-        ]
+        ],
+        "why": "Lymphocytes are especially vulnerable to ADA loss because they have high deoxycytidine kinase activity, which traps deoxyadenosine as dATP, and relatively low activity of the nucleotidases that would dephosphorylate it. dATP is an allosteric inhibitor of ribonucleotide reductase, the enzyme that supplies all four deoxyribonucleotides, so DNA synthesis stops in proliferating lymphoid precursors. Deoxyadenosine also inactivates S-adenosylhomocysteine hydrolase, adding to lymphocyte death. Because the toxicity is metabolic and acts on every developing lymphocyte, T, B, and NK cells fall together."
       },
       {
         "h": "Arachidonic acid products",
@@ -541,7 +612,8 @@
           "Thromboxane A2 (platelets) causes platelet aggregation and vasoconstriction; PGI2 (endothelium) does the opposite.",
           "5-lipoxygenase makes LTB4, a strong neutrophil chemoattractant.",
           "LTC4, LTD4, LTE4 (cysteinyl leukotrienes) cause bronchoconstriction and raise vascular permeability."
-        ]
+        ],
+        "why": "All eicosanoids start from arachidonic acid released by phospholipase A2, so glucocorticoids, which act partly by inducing annexin A1 (lipocortin), reduce both prostaglandins and leukotrienes, while NSAIDs block only the cyclooxygenase branch. PGE2 raises the hypothalamic temperature set point and sensitizes nociceptors, which explains fever and pain. The balance between platelet thromboxane A2 and endothelial PGI2 controls aggregation and vascular tone, and low-dose aspirin tips it toward PGI2 because anucleate platelets cannot make new COX for the rest of their life span."
       },
       {
         "h": "Vitamin D and granulomas",
@@ -550,7 +622,8 @@
           "They convert 25-hydroxyvitamin D to calcitriol, which raises gut calcium absorption: hypercalcemia, hypercalciuria, low PTH.",
           "Toll-like receptor signals in macrophages induce the vitamin D receptor and 1-alpha-hydroxylase.",
           "Calcitriol inside macrophages induces cathelicidin (LL-37), an antimicrobial peptide active against M tuberculosis."
-        ]
+        ],
+        "why": "Renal 1-alpha-hydroxylase is tightly regulated, induced by PTH and low phosphate and suppressed by calcitriol and FGF23, but the macrophage enzyme is driven by interferon-gamma and Toll-like receptor signals and escapes this feedback. Activated granuloma macrophages therefore keep making calcitriol, which raises intestinal calcium absorption and bone resorption, and the resulting hypercalcemia suppresses PTH. The same pathway serves host defense: TLR2/1 activation by mycobacterial lipoprotein induces the vitamin D receptor and 1-alpha-hydroxylase, and locally made calcitriol drives transcription of cathelicidin inside the macrophage."
       },
       {
         "h": "Nutrition and immunity",
@@ -562,7 +635,8 @@
           "Protein-energy malnutrition is the most common cause of acquired immunodeficiency worldwide.",
           "Malnutrition shrinks the thymus and weakens cell-mediated immunity (poor delayed skin test responses, low CD4 counts).",
           "Marasmus: calorie deficit with severe wasting and no edema. Kwashiorkor: protein deficit with edema, fatty liver, and skin changes."
-        ]
+        ],
+        "why": "Zinc is a cofactor for many enzymes and zinc finger transcription factors and is required for thymulin, a thymic hormone that supports T cell maturation, so deficiency hits rapidly dividing lymphoid tissue and epithelium first. Retinoic acid, acting on nuclear receptors, maintains mucus-secreting columnar epithelium; without it the epithelium undergoes keratinizing squamous metaplasia and loses its barrier, and mucosal T cell and IgA responses weaken. Measles itself lowers serum vitamin A, so the two worsen each other. Protein-energy malnutrition deprives the thymus and proliferating lymphocytes of the amino acids and energy they need, which explains thymic atrophy and weak cell-mediated immunity."
       }
     ],
     "charts": [
@@ -773,6 +847,41 @@
       "IM-12",
       "IM-15-A4",
       "IM-15-C4"
+    ],
+    "flows": [
+      {
+        "title": "Respiratory burst",
+        "steps": [
+          "Pentose phosphate pathway (G6PD step) generates NADPH",
+          "Phagosome NADPH oxidase passes electrons from NADPH to O2",
+          "Superoxide forms inside the phagosome",
+          "Superoxide dismutase converts superoxide to H2O2",
+          "Myeloperoxidase combines H2O2 with chloride to form HOCl",
+          "Oxidants kill the ingested microbe"
+        ]
+      },
+      {
+        "title": "ADA deficiency to SCID",
+        "steps": [
+          "Adenosine deaminase is absent in purine salvage",
+          "Deoxyadenosine accumulates",
+          "Lymphocyte kinases phosphorylate it to dATP",
+          "dATP inhibits ribonucleotide reductase",
+          "Deoxyribonucleotides for DNA synthesis run out",
+          "Developing T, B, and NK cells die: autosomal recessive SCID"
+        ]
+      },
+      {
+        "title": "Hypercalcemia in sarcoidosis",
+        "steps": [
+          "Interferon-gamma activates granuloma macrophages",
+          "Macrophages express 1-alpha-hydroxylase outside PTH control",
+          "25-hydroxyvitamin D is converted to calcitriol",
+          "Calcitriol raises intestinal calcium absorption and bone resorption",
+          "Hypercalcemia and hypercalciuria develop",
+          "High calcium suppresses PTH secretion"
+        ]
+      }
     ]
   },
   {
@@ -787,7 +896,8 @@
           "ApoB-48 comes from the apoB gene; intestinal mRNA editing creates an early stop codon, so the protein is about 48% of apoB-100.",
           "Microsomal triglyceride transfer protein (MTP) loads triglyceride onto apoB-48 in the ER.",
           "The chylomicron passes through the Golgi and is released from the basolateral side."
-        ]
+        ],
+        "why": "Triglyceride cannot cross membranes intact, so pancreatic lipase splits it in the lumen and the enterocyte rebuilds it in the smooth ER. Neutral lipid must then be wrapped in an amphipathic shell to travel in water, and apoB-48 is the structural protein of that shell. MTP transfers lipid onto apoB as it is made; without MTP, apoB is degraded and no particle forms. Intestinal APOBEC-1 deaminates one cytidine to uridine in apoB mRNA, turning a glutamine codon (CAA) into a stop codon (UAA), which is why the intestine makes apoB-48 and the liver makes full-length apoB-100."
       },
       {
         "h": "Into the lymph",
@@ -797,7 +907,8 @@
           "This route bypasses the liver, so dietary fat reaches muscle and adipose tissue first.",
           "Short and medium chain fatty acids skip chylomicrons and go straight to portal blood.",
           "Intestinal lymph full of chylomicrons is milky (chyle)."
-        ]
+        ],
+        "why": "Chylomicrons are too large to cross the basement membrane of villus blood capillaries, whereas lacteals have loose overlapping junctions that admit them. After the thoracic duct empties at the junction of the left subclavian and internal jugular veins, the first capillary beds that dietary triglyceride meets are in peripheral tissues, so muscle and adipose tissue get first access before the liver. Short and medium chain fatty acids are soluble enough to diffuse into portal blood bound to albumin, without being packaged."
       },
       {
         "h": "Breaking down a chylomicron",
@@ -808,7 +919,8 @@
           "Insulin raises adipose LPL after a meal.",
           "The smaller remnant keeps apoE and is taken up by the liver through apoE binding to hepatic receptors (LDL receptor and LRP1).",
           "LPL or apoC-II deficiency: chylomicrons stay in plasma (very high triglyceride, pancreatitis, eruptive xanthomas)."
-        ]
+        ],
+        "why": "Newly secreted chylomicrons cannot be hydrolyzed until HDL transfers apoC-II, the required cofactor for lipoprotein lipase. LPL sits on the luminal surface of capillary endothelium, held by heparan sulfate and GPIHBP1, so triglyceride is hydrolyzed inside the capillary and fatty acids enter the adjacent tissue. Insulin increases adipose LPL after a meal, directing fat to storage. As triglyceride is removed, apoC-II returns to HDL and the smaller remnant is cleared by apoE-mediated hepatic uptake; a block at LPL or apoC-II therefore leaves intact chylomicrons in plasma."
       },
       {
         "h": "Abetalipoproteinemia",
@@ -818,7 +930,8 @@
           "Fat stays trapped in enterocytes (lipid-laden, foamy cells on biopsy) and steatorrhea starts in infancy.",
           "Altered red cell membrane lipids produce acanthocytes.",
           "Fat-soluble vitamin deficiency, mostly vitamin E: spinocerebellar ataxia and retinitis pigmentosa."
-        ]
+        ],
+        "why": "Every apoB-containing lipoprotein needs MTP for assembly, so its loss blocks chylomicron secretion in the gut and VLDL secretion in the liver, and LDL never forms because it is derived from VLDL. Dietary fat enters enterocytes but cannot leave, producing lipid-filled villus cells and steatorrhea. Vitamin E is absorbed in chylomicrons and redistributed by the liver on VLDL, so its deficiency is profound and causes oxidative damage to long axons in the dorsal columns and spinocerebellar tracts and to the retina. The abnormal plasma lipid environment changes the red cell membrane bilayer, producing spiky acanthocytes."
       },
       {
         "h": "Why lymph protein differs by organ",
@@ -827,7 +940,8 @@
           "Intestinal capillaries are fenestrated; intestinal lymph protein is about 3 to 4 g/dL.",
           "Skeletal muscle capillaries are continuous with tight junctions; lymph protein is about 2 g/dL.",
           "Liver and gut supply most of the protein in thoracic duct lymph."
-        ]
+        ],
+        "why": "Lymph protein mirrors how much protein escapes the capillary bed that the lymph drains. Hepatic sinusoids have wide open fenestrations and almost no basement membrane, so fluid in the space of Disse has nearly plasma protein levels. Fenestrated intestinal capillaries leak more protein than continuous muscle capillaries, where tight junctions restrict passage and only small amounts cross by transcytosis and rare large pores. Because liver and gut make so much protein-rich lymph, they dominate the protein load carried by the thoracic duct."
       }
     ],
     "charts": [
@@ -984,6 +1098,40 @@
       "IM-4",
       "GI-7",
       "CV-13"
+    ],
+    "flows": [
+      {
+        "title": "Chylomicron assembly and transport",
+        "steps": [
+          "Micelles deliver 2-monoglyceride and fatty acids to the enterocyte",
+          "Smooth ER re-esterifies them into triglyceride",
+          "MTP loads triglyceride onto apoB-48",
+          "Chylomicron passes through the Golgi and is secreted basolaterally",
+          "It enters a lacteal, then the cisterna chyli and thoracic duct",
+          "Thoracic duct empties into blood at the left venous angle"
+        ]
+      },
+      {
+        "title": "Chylomicron breakdown",
+        "steps": [
+          "HDL transfers apoC-II and apoE to the chylomicron",
+          "ApoC-II activates lipoprotein lipase on capillary endothelium",
+          "LPL hydrolyzes triglyceride to fatty acids and glycerol",
+          "Muscle oxidizes the fatty acids; adipose tissue stores them",
+          "ApoE on the remnant binds hepatic LDL receptor and LRP1",
+          "Liver takes up the remnant by endocytosis"
+        ]
+      },
+      {
+        "title": "Abetalipoproteinemia",
+        "steps": [
+          "Autosomal recessive loss of MTP",
+          "ApoB-48 and apoB-100 cannot be loaded with lipid and are degraded",
+          "No chylomicrons, VLDL, or LDL are secreted",
+          "Fat stays trapped in enterocytes; steatorrhea begins in infancy",
+          "Vitamin E deficiency damages spinocerebellar tracts, dorsal columns, and retina"
+        ]
+      }
     ]
   },
   {
@@ -998,7 +1146,8 @@
           "Nonhomologous end joining repairs the cuts (Artemis opens the hairpin ends).",
           "TdT adds random N nucleotides at the joints, giving junctional diversity.",
           "RAG deficiency: no receptors, so no T or B cells; NK cells need no rearranged receptor and are preserved."
-        ]
+        ],
+        "why": "RAG1 and RAG2 recognize recombination signal sequences flanking each gene segment, cut the DNA, and seal the coding ends into hairpins, and the same machinery serves both B and T cell receptor loci. Artemis opens the hairpins, often off center, adding P nucleotides, and TdT adds untemplated N nucleotides before nonhomologous end joining ligates the ends, which makes the CDR3 region highly variable. A lymphocyte that cannot complete rearrangement never receives the pre-receptor survival signal, so RAG or Artemis loss halts both T and B development, while NK cells use germline-encoded receptors and develop normally. Artemis defects also cause radiosensitivity, because the same repair pathway fixes radiation-induced breaks."
       },
       {
         "h": "SCID types by lymphocyte profile",
@@ -1009,7 +1158,8 @@
           "ADA deficiency: T, B, and NK cells all absent.",
           "T cell receptor excision circles (TRECs) are DNA circles cut out during TCR rearrangement; low TRECs on newborn screening flag SCID.",
           "All SCID: absent thymic shadow, thrush, chronic diarrhea, Pneumocystis pneumonia, and danger from live vaccines."
-        ]
+        ],
+        "why": "The SCID profile follows the defective molecule. The common gamma chain is shared by several cytokine receptors; IL-7 drives T cell precursor expansion and IL-15 drives NK development, so IL2RG or JAK3 loss removes T and NK cells but spares B cell numbers in humans. ADA deficiency poisons all lymphocytes through dATP, and RAG deficiency removes every cell that needs a rearranged receptor. TRECs are excised DNA circles that are not copied when a T cell divides, so they mark recent thymic output, and any SCID genotype with little new T cell production gives very low TRECs."
       },
       {
         "h": "Wiskott-Aldrich syndrome",
@@ -1019,7 +1169,8 @@
           "Immunoglobulins: low IgM, high IgA and IgE, IgG often normal.",
           "Higher risk of autoimmunity and B cell lymphoma.",
           "Carrier mother and unaffected father: each son has a 50% chance of being affected; each daughter a 50% chance of being a carrier."
-        ]
+        ],
+        "why": "WASp links surface receptor signals to actin polymerization through the Arp2/3 complex, so blood cells that must reshape their cytoskeleton fail: T cells form poor immune synapses, platelets are small and cleared early, and leukocyte migration is impaired. Antibody responses to polysaccharide antigens are especially weak, which fits the low IgM and the poor protection against encapsulated bacteria. A carrier mother passes either her mutant or her normal X to each child with equal probability; sons have no second X to compensate, while daughters also receive their father's normal X."
       },
       {
         "h": "Hyper-IgM syndrome",
@@ -1029,7 +1180,8 @@
           "Result: normal or high IgM with low IgG, IgA, and IgE.",
           "CD40L also activates macrophages and dendritic cells, so cell-mediated defense is weak too.",
           "Infections: Pneumocystis jirovecii pneumonia, Cryptosporidium diarrhea, and recurrent sinopulmonary bacterial infections."
-        ]
+        ],
+        "why": "Class switch recombination needs a contact signal: CD40L on an activated CD4 T cell binds CD40 on the B cell, which together with cytokines induces activation-induced cytidine deaminase (AID) and germinal center formation. Without CD40L, B cells still make IgM, the default isotype, but cannot switch to IgG, IgA, or IgE or form high-affinity memory. The same CD40L signal licenses macrophages and dendritic cells to make IL-12 and kill intracellular organisms, so the defect is combined, which explains Pneumocystis and Cryptosporidium infections that are rare in pure antibody deficiencies."
       },
       {
         "h": "Tolerance genes",
@@ -1038,7 +1190,8 @@
           "APS-1 classic triad: chronic mucocutaneous candidiasis, hypoparathyroidism, and primary adrenal insufficiency.",
           "FOXP3 (X-linked) is the master transcription factor of regulatory T cells.",
           "FOXP3 loss causes IPEX: immune dysregulation, polyendocrinopathy (neonatal type 1 diabetes, thyroiditis), enteropathy with severe diarrhea, X-linked."
-        ]
+        ],
+        "why": "AIRE and FOXP3 guard tolerance at two different checkpoints. AIRE acts in central tolerance, so its loss lets T cells reactive to parathyroid, adrenal, and other tissue antigens leave the thymus; patients also make neutralizing autoantibodies against IL-17 and IL-22, which explains the chronic mucocutaneous candidiasis. FOXP3 programs regulatory T cells, which suppress self-reactive cells in the periphery through IL-10, TGF-beta, CTLA-4, and IL-2 consumption, so its loss produces early, multiorgan autoimmunity in male infants."
       },
       {
         "h": "Fas and lymphocyte death",
@@ -1047,7 +1200,8 @@
           "This ends clonal expansion after an infection and deletes self-reactive lymphocytes in the periphery.",
           "Autoimmune lymphoproliferative syndrome (ALPS), usually from FAS mutation: chronic lymphadenopathy, splenomegaly, autoimmune cytopenias.",
           "ALPS labs: more CD4- CD8- (double negative) alpha-beta T cells in blood; higher lymphoma risk."
-        ]
+        ],
+        "why": "Repeated antigen stimulation raises Fas and Fas ligand on activated lymphocytes, and Fas trimerization recruits the adaptor FADD and procaspase 8, starting the extrinsic caspase cascade that shrinks a clone once it is no longer needed. When Fas signaling fails, activated and self-reactive lymphocytes accumulate in nodes and spleen, and autoantibody-producing clones escape deletion, causing autoimmune hemolytic anemia and thrombocytopenia. Double negative alpha-beta T cells build up in blood and lymphoid tissue and serve as the diagnostic marker."
       }
     ],
     "charts": [
@@ -1247,6 +1401,39 @@
       "IM-10",
       "IM-15-A",
       "IM-15-A4"
+    ],
+    "flows": [
+      {
+        "title": "V(D)J recombination",
+        "steps": [
+          "RAG1 and RAG2 bind recombination signal sequences beside gene segments",
+          "RAG cuts the DNA and seals coding ends into hairpins",
+          "Artemis opens the hairpins",
+          "TdT adds random N nucleotides to the open ends",
+          "Nonhomologous end joining ligates the rearranged segments",
+          "The rearranged receptor gene is transcribed"
+        ]
+      },
+      {
+        "title": "CD40L deficiency to hyper-IgM syndrome",
+        "steps": [
+          "X-linked mutation in CD40 ligand on activated CD4 T cells",
+          "T cell cannot engage CD40 on the B cell",
+          "AID is not induced; no class switching or germinal centers",
+          "IgM normal or high; IgG, IgA, and IgE low",
+          "Recurrent sinopulmonary bacterial infections from too little IgG"
+        ]
+      },
+      {
+        "title": "Fas-mediated end of a clonal response",
+        "steps": [
+          "Repeated antigen stimulation raises Fas and Fas ligand on lymphocytes",
+          "Fas ligand binding clusters Fas, recruiting FADD and procaspase 8",
+          "Caspase 8 activates executioner caspases 3 and 7",
+          "Activated and self-reactive lymphocytes die by apoptosis",
+          "The expanded clone shrinks back once antigen is cleared"
+        ]
+      }
     ]
   },
   {
@@ -1261,7 +1448,8 @@
           "Innate cells and proteins: neutrophils, macrophages, NK cells, dendritic cells, complement. Response in minutes to hours, no memory.",
           "Adaptive: T and B cells with rearranged receptors, clonal expansion over days, and memory.",
           "Innate signals (cytokines, B7 on dendritic cells) are needed to start an adaptive response."
-        ]
+        ],
+        "why": "Innate receptors are germline encoded, so every cell of a type carries the same receptors aimed at structures microbes cannot easily change, such as LPS or flagellin, and the response can start at once. Adaptive receptors are generated randomly by gene rearrangement, so any one specificity is rare; responding clones must proliferate for days, and some persist as memory cells that respond faster the next time. Innate recognition also decides whether adaptive immunity starts, because TLR signaling makes dendritic cells raise B7 and secrete cytokines, supplying the costimulation and polarizing signals naive T cells need."
       },
       {
         "h": "Activating a T cell",
@@ -1272,7 +1460,8 @@
           "CTLA-4 binds B7 more tightly than CD28 does and shuts activation down; Tregs express it constantly.",
           "PD-1 on activated T cells binds PD-L1 or PD-L2 and dampens T cell signaling.",
           "Antibodies that block CTLA-4 or PD-1 release this brake, boosting antitumor T cells and causing autoimmune side effects."
-        ]
+        ],
+        "why": "Two signals let the immune system separate a threat from harmless self antigen: signal 1 gives specificity, and signal 2 confirms that innate sensors have detected danger. Without CD28 signaling the T cell makes too little IL-2 and fails to raise survival proteins, so it becomes anergic. CTLA-4 is induced after activation and outcompetes CD28 for B7, acting as an early brake mainly in lymphoid tissue, while PD-1 recruits the phosphatase SHP-2 to dampen TCR and CD28 signaling mainly in peripheral tissues. Checkpoint inhibitors remove these brakes, which explains both tumor responses and immune-related colitis, hepatitis, and endocrinopathies."
       },
       {
         "h": "Immunity to tumors",
@@ -1282,7 +1471,8 @@
           "NK cells kill cells that lose MHC class I (missing self) or express stress ligands.",
           "Escape: loss of MHC class I or beta-2 microglobulin hides tumors from CD8 T cells.",
           "Escape: PD-L1 on tumor cells switches off PD-1+ T cells; tumors also recruit Tregs and secrete TGF-beta."
-        ]
+        ],
+        "why": "Most tumor cells are poor antigen-presenting cells, so dendritic cells must take up dying tumor cells and cross-present their peptides on MHC class I to prime naive CD8 T cells in draining nodes. Primed cytotoxic T cells then kill tumor cells displaying the same peptide-MHC through perforin and granzymes. NK cell inhibitory receptors read MHC class I, so a tumor that drops MHC class I to evade CD8 T cells removes the signal that restrains NK killing. Tumors that grow are the ones selected for escape, through antigen loss, beta-2 microglobulin mutation, PD-L1 expression, or an immunosuppressive microenvironment."
       },
       {
         "h": "Vaccines",
@@ -1293,7 +1483,8 @@
           "Subunit or recombinant (hepatitis B surface antigen, HPV): a single protein, safe in immunodeficiency.",
           "Toxoid (tetanus, diphtheria): inactivated toxin that raises neutralizing antibody.",
           "Conjugate (Hib, pneumococcal, meningococcal): capsule linked to a protein carrier turns a T-independent response into a T-dependent one, so infants under 2 years respond and form memory."
-        ]
+        ],
+        "why": "Live attenuated organisms replicate inside host cells, so their proteins enter the MHC class I pathway and induce CD8 T cells along with antibody, but replication can cause disease when T cell immunity is weak. Inactivated, subunit, and toxoid vaccines are taken up as exogenous protein and presented mainly on MHC class II, producing mostly antibody and needing boosters. Polysaccharide cannot be presented on MHC, so alone it triggers only T-independent responses that are weak before age 2; linking it to a protein lets a polysaccharide-specific B cell present carrier peptides to a helper T cell and gain class switching and memory."
       },
       {
         "h": "Why autoimmunity happens",
@@ -1303,7 +1494,8 @@
           "HLA susceptibility: HLA-B27 (ankylosing spondylitis), HLA-DR3 and DR4 (type 1 diabetes), HLA-DR4 (rheumatoid arthritis), HLA-DQ2 and DQ8 (celiac disease).",
           "Molecular mimicry: group A strep M protein cross-reacts with cardiac myosin and valve tissue, causing rheumatic fever.",
           "Molecular mimicry: Campylobacter jejuni lipooligosaccharide resembles nerve gangliosides, causing Guillain-Barre syndrome."
-        ]
+        ],
+        "why": "Tolerance has layers: central deletion in thymus and marrow removes most strongly self-reactive cells, and anergy, Treg suppression, and Fas-mediated deletion control those that escape. Autoimmunity usually needs both a genetic susceptibility and an environmental trigger. HLA alleles matter because their peptide-binding grooves determine which self peptides are presented, for example HLA-DQ2 and DQ8 binding deamidated gliadin peptides with high affinity. In molecular mimicry, an infection generates T or B cells against a microbial epitope that resembles a self structure, and the inflammation of the infection supplies the costimulation that breaks tolerance to the shared target."
       },
       {
         "h": "Hypersensitivity",
@@ -1312,7 +1504,8 @@
           "Type II: IgG or IgM bind antigens on cells or matrix; complement, phagocytosis, or receptor blocking or stimulation.",
           "Type III: antigen-antibody complexes deposit in vessels, glomeruli, and joints; complement and neutrophils damage tissue; low C3.",
           "Type IV: T cells, no antibody; CD4 Th1 cells activate macrophages or CD8 cells kill directly; peaks at 48 to 72 hours."
-        ]
+        ],
+        "why": "Type I is fast because mast cells are already coated with IgE from earlier sensitization, so cross-linking releases preformed histamine within minutes, followed by newly made leukotrienes and a late phase hours later. Types II and III both use IgG or IgM, and the location of the antigen separates them: antibody bound to a fixed cell or matrix antigen damages that site, while circulating complexes deposit where filtration and turbulence are high and consume complement. Type IV is slow because antigen-specific T cells must be recruited and make cytokines before macrophages are activated, so reactions peak at 48 to 72 hours."
       }
     ],
     "charts": [
@@ -1534,6 +1727,40 @@
       "IM-6",
       "IM-15-C",
       "IM-15-D2"
+    ],
+    "flows": [
+      {
+        "title": "Naive T cell activation",
+        "steps": [
+          "Dendritic cell TLRs detect microbial patterns while it captures antigen",
+          "Dendritic cell raises B7 and CCR7 and migrates to a lymph node",
+          "TCR binds peptide on MHC, with CD4 or CD8 (signal 1)",
+          "CD28 on the T cell binds B7 (signal 2)",
+          "T cell secretes IL-2 and proliferates (clonal expansion)",
+          "Effector and memory T cells differentiate"
+        ]
+      },
+      {
+        "title": "Type I hypersensitivity",
+        "steps": [
+          "First exposure: Th2 cells drive B cell switching to IgE through IL-4",
+          "IgE binds high-affinity Fc receptors on mast cells and basophils",
+          "Re-exposure: allergen cross-links the bound IgE",
+          "Mast cells degranulate and release histamine within minutes",
+          "Newly made leukotrienes and prostaglandins prolong the reaction",
+          "Late phase hours later: eosinophils and Th2 cells are recruited"
+        ]
+      },
+      {
+        "title": "Rheumatic fever by molecular mimicry",
+        "steps": [
+          "Group A streptococcal pharyngitis",
+          "Antibodies and T cells form against streptococcal M protein",
+          "They cross-react with cardiac myosin and valve antigens",
+          "Pancarditis, mainly mitral valvulitis, about 2 to 4 weeks later",
+          "Repeated attacks scar valves, causing chronic rheumatic heart disease"
+        ]
+      }
     ]
   },
   {
@@ -1549,7 +1776,8 @@
           "Chronic hemolysis (sickle cell disease, hereditary spherocytosis): transient aplastic crisis.",
           "Spread by respiratory droplets, blood products, and across the placenta; fetal infection can cause severe anemia and hydrops fetalis.",
           "The slapped cheek rash of fifth disease appears with the antibody response, after the infectious phase."
-        ]
+        ],
+        "why": "Parvovirus B19 has a tiny genome and no DNA polymerase, so it needs host cells in S phase, and its receptor P antigen is abundant on erythroid progenitors. Infection lyses these progenitors and halts red cell output for about a week. Normal red cells live about 120 days, so a week without production barely lowers hemoglobin, but when hemolysis shortens red cell survival the same pause causes a sudden fall in hemoglobin with very low reticulocytes. The fetus has a rapidly expanding red cell mass and short red cell survival, so infection can cause severe anemia, high-output heart failure, and hydrops."
       },
       {
         "h": "Haemophilus influenzae type b",
@@ -1559,7 +1787,8 @@
           "IgA protease cleaves mucosal IgA and helps colonization.",
           "Grows on chocolate agar, which supplies factor X (hemin) and factor V (NAD+).",
           "Causes meningitis, epiglottitis, pneumonia, and septic arthritis in unvaccinated children; the vaccine is PRP conjugated to a protein."
-        ]
+        ],
+        "why": "The PRP capsule blocks complement deposition and phagocyte binding, so clearance depends on anticapsular antibody, complement, and the spleen. Maternal IgG protects young infants, and children make little anti-PRP antibody until later childhood because polysaccharide responses mature slowly, which is why invasive disease peaked under about 2 years of age before vaccination. H influenzae cannot make heme or NAD+, so blood agar must be heated into chocolate agar to release both factors from lysed red cells. IgA protease cleaves secretory IgA1, helping the organism colonize the nasopharynx before invasion."
       },
       {
         "h": "Influenza",
@@ -1569,7 +1798,8 @@
           "Neuraminidase cleaves sialic acid so new virions can leave the cell.",
           "Antigenic drift: point mutations in HA and NA cause yearly epidemics.",
           "Antigenic shift: two strains swap gene segments (reassortment) to make a new HA or NA subtype; pandemics, influenza A only."
-        ]
+        ],
+        "why": "Hemagglutinin attaches to sialic acid on respiratory epithelium, the virus enters by endocytosis, and the acidic endosome triggers hemagglutinin to fuse the viral and endosomal membranes. Neuraminidase acts at the end of the cycle, cutting sialic acid from the cell surface and from new virions so they do not stay bound or clump; it is the target of oseltamivir and zanamivir. The viral RNA polymerase lacks proofreading, so point mutations accumulate in HA and NA and gradually escape existing antibody (drift). A segmented genome lets two influenza A strains infecting one cell package mixed segments, producing an HA or NA subtype to which few people are immune (shift)."
       },
       {
         "h": "Measles, mumps, rubella",
@@ -1580,7 +1810,8 @@
           "Mumps: parotitis, orchitis, and aseptic meningitis.",
           "Rubella: enveloped positive-sense single-stranded RNA virus (formerly classed as a togavirus); mild rash and postauricular lymphadenopathy.",
           "All three spread by respiratory droplets; measles is also airborne and extremely contagious."
-        ]
+        ],
+        "why": "Paramyxovirus F protein fuses the viral envelope with the host plasma membrane at neutral pH, and when expressed on infected cells it fuses neighboring cells into multinucleated syncytia. Measles infects immune cells through SLAM (CD150) and later epithelium through nectin-4, which explains both the lymphoid Warthin-Finkeldey cells and the transient immunosuppression that sets up secondary bacterial pneumonia. Rubella is a positive-sense RNA virus whose genome can be translated directly, and transplacental infection in early pregnancy disrupts organogenesis."
       },
       {
         "h": "EBV, HHV-6, and HHV-7",
@@ -1589,7 +1820,8 @@
           "EBV enters B cells through CD21 (complement receptor 2) and stays latent in memory B cells.",
           "Atypical lymphocytes in mononucleosis are reactive CD8 T cells; heterophile antibodies come from polyclonal B cell activation.",
           "HHV-6 and HHV-7 infect CD4 T cells and cause roseola infantum: high fever for days, then rash as the fever breaks."
-        ]
+        ],
+        "why": "Herpesviruses persist as a circular episome in the nucleus and express few proteins during latency, which is how they hide for life and reactivate later. EBV gp350 binds CD21 on B cells, and latent EBV proteins drive B cell proliferation; the host controls these infected cells with a large expansion of CD8 T cells, which appear in blood as atypical lymphocytes. Heterophile antibodies are IgM made by polyclonal B cell activation that agglutinate horse or sheep red cells, the basis of the Monospot test. In roseola, the rash appears as the fever falls, coinciding with the immune response."
       },
       {
         "h": "Streptococcus pyogenes (group A)",
@@ -1598,7 +1830,8 @@
           "M protein blocks phagocytosis and complement deposition; it is also the mimicry antigen in rheumatic fever.",
           "Streptococcal pyrogenic exotoxins are superantigens: they link MHC class II to the TCR beta chain outside the peptide groove and activate huge numbers of T cells.",
           "Scarlet fever: sandpaper rash, strawberry tongue, circumoral pallor, later desquamation; superantigens can also cause streptococcal toxic shock."
-        ]
+        ],
+        "why": "M protein binds host complement regulators such as factor H, limiting C3b deposition on the bacterium, so phagocytes clear S pyogenes efficiently only when type-specific anti-M antibody is present. Superantigens skip antigen processing and bind outside the peptide groove to MHC class II and the variable region of the TCR beta chain, so they activate every T cell that uses a matching V beta, up to about 20 percent of all T cells. The resulting cytokine surge (IL-2, TNF, interferon-gamma) produces fever and the diffuse erythematous rash of scarlet fever and, when severe, capillary leak and shock."
       },
       {
         "h": "Toxoplasma gondii",
@@ -1608,7 +1841,8 @@
           "Humans are infected by sporulated oocysts (soil, litter, produce) or by tissue cysts with bradyzoites in undercooked meat.",
           "Tachyzoites multiply fast and spread; immunity forces them into tissue cysts (bradyzoites) in brain, muscle, and retina.",
           "Primary infection in pregnancy: tachyzoites cross the placenta, causing chorioretinitis, hydrocephalus, and intracranial calcifications."
-        ]
+        ],
+        "why": "Toxoplasma switches between a fast-dividing stage and a dormant stage depending on host immunity. Tachyzoites invade almost any nucleated cell and spread during acute infection; interferon-gamma from T cells and NK cells then drives them into slowly dividing bradyzoites inside tissue cysts, which persist for life and can reactivate if CD4 immunity fails. Only cats support the sexual cycle in intestinal epithelium, and their oocysts need 1 to 5 days outside the host to sporulate, so litter changed daily carries little risk. Fetal infection requires tachyzoites in maternal blood, so it follows primary infection during pregnancy in an immunocompetent mother."
       }
     ],
     "charts": [
@@ -1840,6 +2074,40 @@
       "IM-13",
       "IM-8",
       "IM-15-F10"
+    ],
+    "flows": [
+      {
+        "title": "Parvovirus B19 aplastic crisis",
+        "steps": [
+          "Parvovirus B19 spreads by respiratory droplets",
+          "Virus binds P antigen on erythroid progenitors in the marrow",
+          "Infected progenitors lyse; red cell production stops for about a week",
+          "Reticulocyte count falls to near zero",
+          "With chronic hemolysis, hemoglobin drops sharply (transient aplastic crisis)"
+        ]
+      },
+      {
+        "title": "Influenza replication cycle",
+        "steps": [
+          "Hemagglutinin binds sialic acid on airway epithelium",
+          "Virus enters the cell by endocytosis",
+          "Acidic endosome triggers hemagglutinin to fuse envelope and endosomal membrane",
+          "Segmented RNA enters the nucleus for transcription and replication",
+          "New virions bud from the cell surface",
+          "Neuraminidase cleaves sialic acid and releases the virions"
+        ]
+      },
+      {
+        "title": "Toxoplasma gondii life cycle",
+        "steps": [
+          "Sexual reproduction in cat intestinal epithelium",
+          "Cat sheds unsporulated oocysts in feces",
+          "Oocysts sporulate in the environment in 1 to 5 days",
+          "Human ingests sporulated oocysts or tissue cysts in undercooked meat",
+          "Tachyzoites multiply and spread through the body",
+          "Immunity converts them to bradyzoite tissue cysts in brain, muscle, retina"
+        ]
+      }
     ]
   }
 ]

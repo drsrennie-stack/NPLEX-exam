@@ -12,7 +12,8 @@
           "Epaxial myotome forms the deep back muscles (erector spinae), supplied by dorsal rami.",
           "Hypaxial myotome forms limb and body wall muscles, supplied by ventral rami.",
           "Each segment keeps its own spinal nerve, which is the basis of dermatomes and myotomes."
-        ]
+        ],
+        "why": "Somites form because a segmentation clock of oscillating Notch, Wnt, and FGF signaling pinches off paraxial mesoderm into blocks at regular intervals, which is why vertebrae, back muscles, and spinal nerves are segmental. Sonic hedgehog from the notochord and floor plate drives the ventromedial somite to become sclerotome, while Wnt signals from the dorsal neural tube and surface ectoderm keep the dorsolateral part as dermomyotome. Each myotome is entered by the spinal nerve of its own segment, which splits into a dorsal ramus to the epaxial part and a ventral ramus to the hypaxial part."
       },
       {
         "h": "Vertebrae and discs",
@@ -22,7 +23,8 @@
           "The spinal nerve exits at the level of the disc, and each myotome bridges two vertebrae so muscles can move the spine.",
           "Notochord persists between bodies as the nucleus pulposus; the annulus fibrosus forms from sclerotome cells.",
           "A notochord remnant can give rise to a chordoma (often sacral or clival)."
-        ]
+        ],
+        "why": "Resegmentation lets muscles move the spine. If each vertebra came from one whole sclerotome, each myotome would attach to a single bone; splitting each sclerotome and fusing neighboring halves places each vertebral body between two myotomes, so every muscle segment spans an intervertebral joint. The intersegmental arteries, which first ran between somites, therefore cross the middle of the new vertebral body. The notochord regresses inside the vertebral bodies but expands between them as the nucleus pulposus, so notochordal rests along the axis, especially at its ends (clivus and sacrum), explain where chordomas arise."
       },
       {
         "h": "Limb buds and patterning",
@@ -34,7 +36,8 @@
           "Extra Shh activity on the anterior side gives mirror digits and preaxial polydactyly.",
           "HOX genes set the identity of each segment; HOXD13 mutation causes synpolydactyly.",
           "Thalidomide during limb bud formation (about days 24 to 36 after fertilization) causes phocomelia, with hands or feet attached close to the trunk."
-        ]
+        ],
+        "why": "Limb outgrowth is a loop between two layers: lateral plate mesoderm induces the overlying ectoderm to form the AER, and AER FGFs keep the mesenchyme beneath it dividing, so proximal segments are laid down first and distal ones last. That is why removing the AER early leaves only a stump, while removing it late loses only the digits. The ZPA sets digit identity with a sonic hedgehog gradient, and cells exposed to more Shh for longer become posterior digits, so a second anterior Shh source produces mirror-image extra digits. Thalidomide damages limbs only when taken during this outgrowth window."
       },
       {
         "h": "Limb rotation",
@@ -43,7 +46,8 @@
           "Upper limb: extensors end up posterior and the thumb lateral.",
           "Lower limb: extensors end up anterior, flexors posterior, and the big toe medial.",
           "Medial rotation twists lower limb dermatomes into a spiral (L4 medial leg, L5 dorsum of foot, S1 lateral foot)."
-        ]
+        ],
+        "why": "Both limbs start with the same layout: flexor muscles on the ventral surface and the thumb and big toe on the cranial (preaxial) border. The upper limb then rotates laterally so the elbow points back, and the lower limb rotates medially so the knee points forward, which places knee extensors anteriorly and elbow extensors posteriorly. Dermatomes are already laid down before rotation, so the medial twist of the lower limb carries them into a spiral down the leg. The preaxial digit keeps its place on the original cranial border, which is why the thumb ends up lateral and the big toe medial."
       },
       {
         "h": "Bone and joint formation",
@@ -53,7 +57,8 @@
           "Primary ossification centers appear in the diaphysis of most long bones by about week 12; secondary centers form in the epiphyses, mostly after birth.",
           "Clavicle is the first bone to start ossifying (about week 5 to 6).",
           "Joints form from interzone mesenchyme between bone models; synovial joints form when the interzone cavitates into a joint cavity."
-        ]
+        ],
+        "why": "In intramembranous ossification, mesenchymal cells condense, switch on RUNX2, and become osteoblasts directly, so no cartilage step is needed; this is how the clavicle begins ossifying so early. Endochondral bone uses a cartilage model that can grow in length: chondrocytes in the model hypertrophy, calcify their matrix, and release VEGF, which draws in vessels carrying osteoprogenitors and osteoclast precursors. Joints arise where interzone cells (marked by GDF5) stop making cartilage, and fetal movement is needed for the interzone to cavitate, which is why prolonged lack of fetal movement can leave stiff or fused joints (arthrogryposis)."
       }
     ],
     "charts": [
@@ -260,6 +265,41 @@
       "MS-6",
       "MS-9",
       "MS-3"
+    ],
+    "flows": [
+      {
+        "title": "Somite to adult derivatives",
+        "steps": [
+          "Paraxial mesoderm segments into paired somites starting about day 20.",
+          "Notochord sonic hedgehog turns ventromedial somite cells into sclerotome.",
+          "Sclerotome surrounds the notochord and neural tube to form vertebrae and ribs.",
+          "Dorsolateral dermomyotome splits into dermatome and myotome.",
+          "Epaxial myotome forms deep back muscles, supplied by dorsal rami.",
+          "Hypaxial myotome forms limb and body wall muscles, supplied by ventral rami."
+        ]
+      },
+      {
+        "title": "Limb bud outgrowth and patterning",
+        "steps": [
+          "Lateral plate mesoderm proliferates at limb levels in week 4.",
+          "Limb mesoderm induces the overlying ectoderm to form the apical ectodermal ridge.",
+          "AER FGFs keep the mesenchyme dividing, building the limb proximal to distal.",
+          "Posterior ZPA secretes sonic hedgehog, setting digit identity anterior to posterior.",
+          "In weeks 7 to 8 the upper limb rotates laterally, the lower medially."
+        ]
+      },
+      {
+        "title": "Endochondral ossification of a long bone",
+        "steps": [
+          "Mesenchyme condenses into a hyaline cartilage model covered by perichondrium.",
+          "Midshaft perichondrium becomes periosteum and lays down a bone collar.",
+          "Central chondrocytes hypertrophy, calcify their matrix, and die.",
+          "Periosteal bud vessels invade, bringing osteoprogenitors and osteoclast precursors.",
+          "Primary ossification center forms in the diaphysis, by about week 12.",
+          "Secondary centers form in the epiphyses, mostly after birth.",
+          "Growth plates between them lengthen the bone until they fuse after puberty."
+        ]
+      }
     ]
   },
   {
@@ -274,7 +314,8 @@
           "I band holds thin filaments only and shortens.",
           "H zone holds thick filaments only and shortens; the M line sits in its center and links thick filaments.",
           "Z lines move closer together because filaments slide past each other; no filament changes length."
-        ]
+        ],
+        "why": "The sliding filament model explains every band change: thick and thin filaments keep a fixed length, so only regions defined by overlap can change. The A band is the length of the thick filament itself and stays constant, while the I band and H zone are the non-overlapping portions, so they narrow as thin filaments are pulled toward the M line. Z lines come closer because myosin heads on each half of the bipolar thick filament pull their actin toward the center of the sarcomere."
       },
       {
         "h": "Three muscle types",
@@ -285,7 +326,8 @@
           "Intercalated discs join cardiac cells: gap junctions for electrical spread, desmosomes and fascia adherens for mechanical strength.",
           "Smooth: fusiform cells with one central nucleus, no striations, dense bodies anchor actin (Z line equivalent).",
           "Smooth muscle uses caveolae instead of a T tubule system and can divide (hyperplasia)."
-        ]
+        ],
+        "why": "Each muscle type is built around how it triggers and coordinates contraction. Skeletal fibers are huge syncytia, so T tubules at every A to I junction (triads) carry the action potential deep into the fiber for near-simultaneous calcium release, and repair relies on satellite cells because the fiber nuclei no longer divide. Cardiac cells must contract as a unit yet stay separate cells, so gap junctions in intercalated discs spread depolarization while desmosomes and fascia adherens keep cells from pulling apart. Smooth muscle cells are small enough that caveolae and a sparse SR suffice, and dense bodies let actin pull from many points across the cell."
       },
       {
         "h": "Bone structure",
@@ -295,7 +337,8 @@
           "Osteocytes sit in lacunae and touch each other through canaliculi joined by gap junctions.",
           "Spongy (cancellous) bone is a lattice of trabeculae with marrow in the spaces; no osteons.",
           "Woven bone has random collagen and is weak (fetal bone, fracture callus, Paget disease); lamellar bone has organized layers and replaces it."
-        ]
+        ],
+        "why": "Compact bone is organized so every osteocyte stays close to a blood supply, because mineralized matrix blocks diffusion. Nutrients pass from Haversian vessels through canaliculi and osteocyte gap junctions, and Volkmann canals link those vessels to the periosteum and marrow. Trabecular bone is thin enough to be fed from the marrow directly, so it needs no osteons and has a large surface area, which is why it turns over faster and loses mass first in osteoporosis. Woven bone is laid down fast with random collagen, trading strength for speed, and is later remodeled into lamellar bone whose layers alternate fiber direction to resist load."
       },
       {
         "h": "Bone cells",
@@ -305,7 +348,8 @@
           "Osteocytes are osteoblasts trapped in matrix; they sense load and secrete FGF23 (phosphate loss in urine) and sclerostin.",
           "Osteoclasts come from the monocyte and macrophage line, fuse into multinucleated cells, and need M-CSF and RANKL.",
           "Osteoclast ruffled border pumps acid (H+ made by carbonic anhydrase II) and releases cathepsin K into Howship lacunae."
-        ]
+        ],
+        "why": "Bone formation and resorption are coupled because the osteoblast lineage controls the osteoclast. Osteoblasts and osteocytes express RANKL, which binds RANK on osteoclast precursors and, with M-CSF, drives their fusion and activation; OPG is a decoy receptor that soaks up RANKL and blocks this step. PTH acts on osteoblast receptors to raise RANKL relative to OPG, which is how continuous high PTH causes bone loss even though osteoclasts lack PTH receptors. Osteoclasts dissolve mineral by pumping H+ into the sealed Howship lacuna and then digest the exposed collagen with cathepsin K, so carbonic anhydrase II deficiency blocks resorption and causes osteopetrosis."
       },
       {
         "h": "Growth plate and joints",
@@ -316,7 +360,8 @@
           "Fibrous joints: sutures, syndesmoses (distal tibiofibular), gomphoses (tooth in socket).",
           "Cartilaginous joints: synchondroses use hyaline cartilage (growth plate, first sternocostal joint); symphyses use fibrocartilage (pubic symphysis, intervertebral disc).",
           "Synovial joints: avascular articular hyaline cartilage with no perichondrium; synoviocytes make hyaluronan and lubricin for synovial fluid."
-        ]
+        ],
+        "why": "Bone lengthens as chondrocytes divide in the proliferative zone and swell in the hypertrophic zone, after which the matrix calcifies, vessels invade, and bone replaces cartilage on the metaphyseal side. FGFR3 signaling normally brakes chondrocyte proliferation, so a gain-of-function mutation shortens bones made by endochondral growth but spares intramembranous bone such as the skull vault, giving a relatively large head. In rickets, low phosphate keeps hypertrophic chondrocytes from undergoing apoptosis and the matrix fails to mineralize, so cartilage piles up and the plate widens. Articular cartilage has no perichondrium or blood supply, so it relies on synovial fluid for nutrition and heals poorly."
       }
     ],
     "charts": [
@@ -551,6 +596,29 @@
       "MS-13-A2",
       "MS-9",
       "MS-1"
+    ],
+    "flows": [
+      {
+        "title": "Bone remodeling",
+        "steps": [
+          "PTH or local signals raise RANKL on osteoblast lineage cells.",
+          "RANKL binds RANK on monocyte-macrophage precursors, with M-CSF support.",
+          "Precursors fuse into multinucleated osteoclasts that seal onto bone.",
+          "Ruffled border secretes H+ and cathepsin K, digging a Howship lacuna.",
+          "Osteoblasts fill the cavity with type I collagen osteoid.",
+          "Osteoid mineralizes with hydroxyapatite; trapped osteoblasts become osteocytes."
+        ]
+      },
+      {
+        "title": "Growth plate, epiphysis to diaphysis",
+        "steps": [
+          "Reserve zone: resting chondrocytes supply new cells.",
+          "Proliferative zone: chondrocytes divide in columns (slowed by FGFR3 in achondroplasia).",
+          "Hypertrophic zone: chondrocytes enlarge and secrete type X collagen and VEGF.",
+          "Calcification zone: matrix mineralizes and chondrocytes die (fails in rickets).",
+          "Ossification zone: vessels invade and osteoblasts lay bone on calcified cartilage."
+        ]
+      }
     ]
   },
   {
@@ -565,7 +633,8 @@
           "Axis (C2) has the dens, the pivot for head rotation at the atlantoaxial joint.",
           "Thoracic: costal facets on bodies and transverse processes for ribs; long downward spines; ribs limit motion.",
           "Lumbar: large kidney-shaped bodies for weight bearing; sagittal facets favor flexion and extension."
-        ]
+        ],
+        "why": "Each region's shape follows its job. Cervical vertebrae carry little weight and allow the most motion, the transverse foramina protect the vertebral arteries on their way to the brainstem, and the atlas lost its body to the axis, where it became the dens and forms the pivot for rotation. Thoracic vertebrae articulate with ribs and have coronally oriented facets, so they allow rotation but little flexion and extension. Lumbar bodies are large because load rises down the column, and their sagittal facets block rotation while allowing flexion and extension."
       },
       {
         "h": "Spinal curves",
@@ -575,7 +644,8 @@
           "Scoliosis is lateral curvature plus vertebral rotation; adolescent idiopathic scoliosis is most common in girls.",
           "Excess kyphosis can follow osteoporotic compression fractures.",
           "Severe thoracic scoliosis stiffens the chest wall, causing restrictive lung disease (low TLC and vital capacity, normal or high FEV1/FVC)."
-        ]
+        ],
+        "why": "The primary curves are the original C-shaped flexion of the fetus, which persists in the thorax and sacrum where it enlarges the thoracic cavity and pelvis. Secondary lordoses form when muscles extend the spine against gravity, first to hold up the head and then to stand, which places the center of gravity over the hips. Scoliosis is a three-dimensional deformity in which the vertebrae rotate as they bend sideways and carry the ribs with them, giving a rib hump on forward bending. In severe thoracic curves the stiff chest wall limits lung expansion while the airways stay open, which is why the pattern is restrictive."
       },
       {
         "h": "Skull foramina and pterion",
@@ -586,7 +656,8 @@
           "Foramen magnum: medulla, vertebral arteries, spinal roots of CN XI.",
           "Pterion is where frontal, parietal, temporal, and sphenoid bones meet; it is thin.",
           "The anterior branch of the middle meningeal artery runs deep to the pterion, so a fracture there causes an epidural hematoma."
-        ]
+        ],
+        "why": "The foramina make sense if you follow each nerve to its target: the nerves to the orbit (III, IV, V1, VI) all pass through the superior orbital fissure, V2 runs forward to the maxilla through the rotundum, and V3 drops through the ovale to the infratemporal fossa and mandible. The pterion is thin because four bones meet there, and the middle meningeal artery, which enters through the foramen spinosum, runs just inside it. A torn artery bleeds at arterial pressure between dura and skull, producing an epidural hematoma."
       },
       {
         "h": "Upper limb bones",
@@ -599,7 +670,8 @@
           "Medial epicondyle: ulnar nerve. Supracondylar fracture: median nerve and brachial artery.",
           "Scaphoid is the most fractured carpal (snuffbox tenderness); its blood enters distally, so the proximal pole can undergo avascular necrosis.",
           "Lunate is the most dislocated carpal and can compress the median nerve."
-        ]
+        ],
+        "why": "Fracture sites predict nerve injuries because nerves lie directly on bone at those points: the axillary nerve wraps the surgical neck, the radial nerve lies in the radial groove of the shaft, and the ulnar nerve passes behind the medial epicondyle. A fall on the outstretched hand drives force through the scaphoid, the carpal that bridges the two carpal rows. Because the scaphoid's blood supply enters distally and flows backward toward the proximal pole, a fracture through the waist can cut off the proximal fragment, leading to nonunion and avascular necrosis."
       },
       {
         "h": "Lower limb bones",
@@ -610,7 +682,8 @@
           "Fibular neck fracture injures the common fibular nerve: foot drop, weak eversion, numb dorsum of foot.",
           "Foot has medial longitudinal, lateral longitudinal, and transverse arches.",
           "Medial longitudinal arch is held by the spring ligament, tibialis posterior tendon, and plantar aponeurosis; collapse gives flat foot (pes planus)."
-        ]
+        ],
+        "why": "In adults the femoral head gets most of its blood from retinacular branches of the medial circumflex femoral artery, which run up the neck inside the capsule, so a displaced intracapsular neck fracture can tear them and cause avascular necrosis. The common fibular nerve winds superficially around the fibular neck, where it is easily injured, and its deep and superficial branches supply the dorsiflexors, the evertors, and the skin of the dorsum of the foot. When the tibialis posterior tendon or spring ligament fails, the talar head sinks and the medial arch flattens."
       }
     ],
     "charts": [
@@ -826,6 +899,38 @@
       "MS-4",
       "MS-13-H1",
       "MS-13-E4"
+    ],
+    "flows": [
+      {
+        "title": "Femoral neck fracture to avascular necrosis",
+        "steps": [
+          "A fall fractures the femoral neck, often in an older adult with osteoporosis.",
+          "Displaced intracapsular fracture tears retinacular branches of the medial circumflex femoral artery.",
+          "Blood flow to the femoral head is lost.",
+          "Osteocytes in the femoral head die (avascular necrosis).",
+          "Dead subchondral bone collapses, causing hip pain and secondary osteoarthritis."
+        ]
+      },
+      {
+        "title": "Pterion fracture to epidural hematoma",
+        "steps": [
+          "A blow to the side of the head fractures the thin pterion.",
+          "Bone edge tears the anterior branch of the middle meningeal artery.",
+          "Arterial blood strips dura from the inner skull, filling the epidural space.",
+          "Lens-shaped hematoma enlarges, limited by dural attachments at the sutures.",
+          "Rising intracranial pressure causes uncal herniation and ipsilateral CN III compression."
+        ]
+      },
+      {
+        "title": "Scaphoid fracture to avascular necrosis",
+        "steps": [
+          "A fall on an outstretched, dorsiflexed hand loads the scaphoid.",
+          "Fracture through the waist causes snuffbox tenderness; early X-rays may look normal.",
+          "Fracture interrupts blood flowing from the distal to the proximal pole.",
+          "Proximal pole loses its blood supply and undergoes avascular necrosis.",
+          "Nonunion and wrist osteoarthritis can follow."
+        ]
+      }
     ]
   },
   {
@@ -841,7 +946,8 @@
           "Ball and socket: shoulder, hip (movement in all axes).",
           "Saddle: first carpometacarpal joint (thumb opposition). Condyloid: wrist, metacarpophalangeal joints.",
           "Plane: acromioclavicular and intercarpal joints (gliding)."
-        ]
+        ],
+        "why": "Joint type follows from what fills the space between the bones. Fibrous tissue or cartilage binding the bones directly allows little or no motion, while a fluid-filled synovial cavity frees the surfaces to move, so every freely movable joint is synovial. Among synovial joints, the shape of the articular surfaces sets the number of axes: a hinge or pivot allows one, condyloid and saddle joints allow two, and a ball and socket allows three. The saddle shape of the first carpometacarpal joint is what lets the thumb oppose."
       },
       {
         "h": "Joint innervation",
@@ -850,7 +956,8 @@
           "Joint nerves carry proprioception (position sense) and nociception (pain).",
           "The hip is supplied by the femoral, obturator, and sciatic nerves; the obturator and femoral nerves also supply the knee region.",
           "Hip disease (for example slipped capital femoral epiphysis) can therefore present as knee pain."
-        ]
+        ],
+        "why": "Hilton law works because nerves to the muscles crossing a joint send articular branches into its capsule and cutaneous branches to the overlying skin, so all three share the same nerves and spinal segments. Articular branches carry proprioceptive signals from capsular mechanoreceptors, which reflexly adjust muscle tone to protect the joint, and nociceptive fibers that respond to capsular stretch and inflammation. Because the brain localizes pain along the shared nerve, pain from an inflamed hip carried by the obturator or femoral nerve can be felt in the thigh and knee, so a child with knee pain needs a hip exam."
       },
       {
         "h": "Shoulder",
@@ -860,7 +967,8 @@
           "Anterior dislocation is most common, usually with the arm abducted and externally rotated.",
           "The axillary nerve wraps the surgical neck and is stretched in anterior dislocation.",
           "Axillary nerve injury: weak abduction past about 15 degrees (deltoid), weak lateral rotation (teres minor), numb skin over the lower deltoid."
-        ]
+        ],
+        "why": "The shoulder trades stability for mobility: the shallow glenoid covers only a small part of the humeral head, so the joint depends on the rotator cuff pressing the head into the socket. With the arm abducted and externally rotated, the head is levered forward against the weak anteroinferior capsule, which is why most dislocations are anterior. The displaced head stretches the axillary nerve where it runs below the joint and around the surgical neck, so deltoid and teres minor strength and skin over the lower deltoid should be checked before and after reduction."
       },
       {
         "h": "Knee",
@@ -870,7 +978,8 @@
           "MCL resists valgus stress (blow to the outside of the knee); LCL resists varus stress.",
           "Medial meniscus is attached to the MCL and capsule, so it moves less and tears more often.",
           "Classic unhappy triad from a lateral blow: ACL, MCL, and medial meniscus."
-        ]
+        ],
+        "why": "The cruciates are named for their tibial attachments, and each stops the tibia from sliding toward the side of its attachment: the ACL resists anterior translation and the PCL resists posterior translation, which the anterior and posterior drawer tests check. Each collateral ligament resists forces that would open the joint on its own side, so a valgus blow from the lateral side stretches the medial structures. The medial meniscus is anchored to the deep MCL and capsule, so it cannot slide away from compressive and twisting forces and tears more often than the more mobile lateral meniscus."
       },
       {
         "h": "Temporomandibular joint",
@@ -880,7 +989,8 @@
           "Lateral pterygoid pulls the condyle and disc forward to open and protrude the jaw.",
           "Innervated by the auriculotemporal and masseteric branches of CN V3.",
           "Anterior disc displacement: on opening, the condyle snaps forward under the displaced disc and clicks; jaw pain and limited opening can follow."
-        ]
+        ],
+        "why": "Wide opening needs two motions: hinge rotation of the condyle under the disc in the lower compartment, then forward gliding of the disc and condyle together onto the articular eminence in the upper compartment, powered by the lateral pterygoid. The disc normally rides with the condyle; if it slips anteriorly, the condyle must jump over its thick posterior band during opening, which makes the click. If the disc cannot be recaptured, it blocks forward gliding and limits opening (closed lock). Because the auriculotemporal nerve supplies both the joint and part of the ear region, TMJ pain is often felt as ear pain."
       }
     ],
     "charts": [
@@ -1059,6 +1169,28 @@
       "MS-5",
       "MS-13-H1",
       "MS-13-E1"
+    ],
+    "flows": [
+      {
+        "title": "Anterior shoulder dislocation",
+        "steps": [
+          "Force is applied with the arm abducted and externally rotated.",
+          "Humeral head is levered forward through the weak anteroinferior capsule.",
+          "Head comes to rest below the coracoid process.",
+          "Axillary nerve is stretched around the surgical neck.",
+          "Weak abduction (deltoid) and numb skin over the lower deltoid follow."
+        ]
+      },
+      {
+        "title": "Opening the jaw at the TMJ",
+        "steps": [
+          "Suprahyoid muscles, including the digastric, begin depressing the mandible.",
+          "Condyle rotates under the disc in the lower compartment (hinge).",
+          "Lateral pterygoid pulls the condyle and disc forward together.",
+          "Disc and condyle glide onto the articular eminence in the upper compartment.",
+          "Mouth reaches full opening."
+        ]
+      }
     ]
   },
   {
@@ -1073,7 +1205,8 @@
           "Teres minor: lateral rotation; axillary nerve.",
           "Subscapularis: medial rotation; upper and lower subscapular nerves.",
           "Supraspinatus is injured most often, from impingement under the acromion; test with the empty can test."
-        ]
+        ],
+        "why": "At the start of abduction the deltoid pulls mostly upward and would drive the humeral head into the acromion, so the supraspinatus presses the head into the glenoid and starts the motion until the deltoid gains leverage. Supraspinatus is injured most because its tendon passes through the narrow subacromial space, where overhead use pinches it between the humeral head and the coracoacromial arch. Knowing the nerves localizes lesions: suprascapular nerve injury at the scapular notch weakens both abduction initiation and lateral rotation, while axillary nerve injury spares the supraspinatus."
       },
       {
         "h": "Upper limb nerve injuries",
@@ -1084,7 +1217,8 @@
           "Median at the elbow: also loses lateral finger flexors, so a fist shows the hand of benediction.",
           "Ulnar: claw hand (4th and 5th digits) and weak finger abduction and adduction (interossei).",
           "Long thoracic: serratus anterior paralysis gives a winged scapula; injured in axillary surgery."
-        ]
+        ],
+        "why": "The radial nerve supplies the posterior compartments of the arm and forearm, so its loss leaves the wrist and fingers unable to extend, and midshaft lesions usually spare the triceps because its branches arise higher. The median nerve supplies the thenar muscles, and its palmar cutaneous branch leaves above the carpal tunnel, which is why carpal tunnel syndrome spares palm sensation. Ulnar clawing reflects loss of the medial lumbricals and interossei, which normally flex the MCP joints and extend the IP joints, so the unopposed long extensors and flexors hyperextend the MCP joints and flex the IP joints of the 4th and 5th fingers."
       },
       {
         "h": "Lower limb nerve injuries",
@@ -1095,7 +1229,8 @@
           "Inferior gluteal: weak gluteus maximus, trouble rising from a chair or climbing stairs.",
           "Common fibular: foot drop, steppage gait, weak eversion, numb dorsum of foot.",
           "Tibial: weak plantarflexion, inversion, and toe flexion; numb sole."
-        ]
+        ],
+        "why": "Lower limb deficits follow compartments: the femoral nerve supplies the anterior thigh (knee extensors), the obturator the medial thigh (adductors), the tibial nerve the posterior leg and sole (plantarflexors and toe flexors), and the common fibular the anterior and lateral leg (dorsiflexors and evertors). The gluteus medius and minimus abduct the hip and hold the pelvis level when the opposite foot leaves the ground, so their paralysis lets the unsupported side drop. Foot drop produces a steppage gait because the patient must lift the knee high for the toes to clear the ground."
       },
       {
         "h": "Head and neck",
@@ -1105,7 +1240,8 @@
           "Muscles of facial expression: CN VII.",
           "All tongue muscles are CN XII except palatoglossus (CN X); a CN XII lesion makes the tongue deviate toward the injured side.",
           "Sternocleidomastoid (turns the head to the opposite side) and trapezius (shrugs the shoulder): CN XI."
-        ]
+        ],
+        "why": "Pharyngeal arch muscles keep the nerve of their arch, so first arch muscles of mastication are supplied by V3 and second arch muscles of facial expression by VII. Tongue muscles come from occipital somites and migrate forward with the hypoglossal nerve, which is why CN XII supplies them, while palatoglossus is supplied with the palate muscles by the vagus. Each genioglossus pushes the tongue forward and toward the opposite side, so when one side is paralyzed the intact side pushes the protruded tongue toward the weak side."
       },
       {
         "h": "Trunk",
@@ -1114,7 +1250,8 @@
           "Diaphragm is the main muscle of inspiration; phrenic nerve C3 to C5.",
           "Abdominal wall (external oblique, internal oblique, transversus abdominis, rectus abdominis): thoracoabdominal nerves (T7 to T11), subcostal nerve (T12), and L1 branches.",
           "Levator ani (puborectalis, pubococcygeus, iliococcygeus) forms the pelvic floor and supports pelvic organs; puborectalis helps fecal continence."
-        ]
+        ],
+        "why": "The phrenic nerve comes from C3 to C5 because the diaphragm's muscle precursors arise at cervical levels and descend, carrying their nerve with them. This is why a cord injury above C3 stops spontaneous breathing and why diaphragmatic irritation refers pain to the shoulder through the supraclavicular nerves (C3 and C4). The abdominal wall is supplied by continuations of the lower intercostal nerves, so its muscles and skin follow a segmental pattern (T10 at the umbilicus). Puborectalis slings the anorectal junction forward, keeping the anorectal angle that supports fecal continence."
       }
     ],
     "charts": [
@@ -1309,6 +1446,29 @@
       "MS-4",
       "MS-10",
       "MS-13-H1"
+    ],
+    "flows": [
+      {
+        "title": "Carpal tunnel syndrome",
+        "steps": [
+          "Tenosynovitis or fluid retention raises pressure inside the carpal tunnel.",
+          "Median nerve is compressed beneath the flexor retinaculum.",
+          "Ischemia and focal demyelination slow conduction across the wrist.",
+          "Numbness and tingling in the lateral three and a half fingers, worse at night.",
+          "Palm sensation is spared because the palmar cutaneous branch passes above the retinaculum.",
+          "Late: thenar atrophy and weak thumb opposition."
+        ]
+      },
+      {
+        "title": "Superior gluteal nerve injury to Trendelenburg sign",
+        "steps": [
+          "Injury, such as a misplaced gluteal injection, damages the superior gluteal nerve.",
+          "Gluteus medius and minimus lose their motor supply.",
+          "Patient stands on the affected leg and lifts the opposite foot.",
+          "Weak hip abductors cannot hold the pelvis level over the stance hip.",
+          "Pelvis drops on the unsupported side: positive Trendelenburg sign."
+        ]
+      }
     ]
   },
   {
@@ -1322,7 +1482,8 @@
           "Vertebrae and ribs come from sclerotome (paraxial mesoderm).",
           "Most of the face and the pharyngeal arch cartilages come from neural crest mesenchyme.",
           "Skeletal muscle itself comes from somite myotomes, so a limb's muscles and its tendons have different origins."
-        ]
+        ],
+        "why": "Muscle and its connective tissue come from different sources and meet only after migration. Lateral plate mesoderm builds the limb skeleton and tendons and also lays down the connective tissue framework that guides incoming myoblasts into individual muscles. The face and pharyngeal arch skeleton are built largely by neural crest cells, which is why neural crest disorders such as Treacher Collins syndrome cause craniofacial bone defects while the limbs are normal."
       },
       {
         "h": "Collagen types",
@@ -1331,7 +1492,8 @@
           "Type II: hyaline cartilage, nucleus pulposus, vitreous humor.",
           "Type III: reticular fibers, blood vessels, skin, early granulation tissue.",
           "Type IV: basement membrane (network, not fibrils)."
-        ]
+        ],
+        "why": "Each collagen type matches the main load a tissue carries. Type I forms thick, heavily cross-linked fibrils that resist tension, so it dominates bone, tendon, and ligament, while type II forms thinner fibrils that trap proteoglycans in cartilage that must resist compression. Type III forms fine, flexible reticular networks in distensible tissues and is laid down first in wound healing before stronger type I replaces it. Type IV does not form fibrils at all; it assembles into a sheetlike mesh that supports and filters at basement membranes."
       },
       {
         "h": "Collagen synthesis",
@@ -1342,7 +1504,8 @@
           "Three chains wind into a triple helix (procollagen), lined up by disulfide bonds between their C-terminal propeptides, and are secreted.",
           "Outside the cell: procollagen peptidases cut off the end propeptides to make tropocollagen.",
           "Lysyl oxidase (needs copper) forms covalent cross-links between tropocollagen molecules in the fibril."
-        ]
+        ],
+        "why": "Glycine must sit at every third position because only its tiny side chain fits in the center of the tightly wound triple helix, which is why a single glycine substitution can distort the whole molecule. Hydroxyproline stabilizes the helix through hydrogen bonds, and the hydroxylases need ascorbate to keep their iron in the ferrous (Fe2+) state, so vitamin C deficiency yields unstable chains that are degraded. Removing the propeptides outside the cell lets tropocollagen self-assemble into fibrils, where lysyl oxidase, a copper enzyme, converts lysine side chains to reactive aldehydes that form the cross-links giving tensile strength."
       },
       {
         "h": "Defects by step",
@@ -1350,7 +1513,8 @@
           "Scurvy: no vitamin C, poor hydroxylation, weak triple helix; bleeding gums, perifollicular hemorrhage, poor wound healing.",
           "Osteogenesis imperfecta: COL1A1 or COL1A2 mutation (often glycine substitution) gives too little or faulty type I collagen; fragile bones, blue sclerae, hearing loss.",
           "Menkes disease: X-linked ATP7A mutation blocks copper transport, so lysyl oxidase cannot cross-link; kinky hair, hypotonia, neurodegeneration."
-        ]
+        ],
+        "why": "Locating the defect on the synthesis pathway predicts the phenotype. Scurvy blocks hydroxylation, so collagen is weak everywhere, but signs appear first where collagen turns over quickly or supports small vessels, such as gums and skin capillaries. In severe osteogenesis imperfecta, a glycine-substituted chain acts in a dominant negative way because one abnormal chain spoils the whole triple helix, while the mild form comes from making half the normal amount; the sclera looks blue because thin collagen lets the underlying choroid show through. Menkes disease starves many copper enzymes at once, so cross-linking fails along with copper-dependent enzymes in the brain."
       },
       {
         "h": "Cartilage, tendon, and elastic fibers",
@@ -1362,7 +1526,8 @@
           "Elastic fibers have an elastin core laid on fibrillin-1 microfibrils; elastin is cross-linked by desmosine.",
           "Elastic fibers fill the ligamentum flavum (yellow ligament), which recoils when the spine straightens.",
           "Fibrillin-1 binds latent TGF-beta; in Marfan syndrome (FBN1 mutation) TGF-beta is released and overactive."
-        ]
+        ],
+        "why": "Cartilage resists compression by osmotic swelling: the fixed negative charges on aggrecan's GAG chains draw in cations and water, and the type II collagen mesh restrains that swelling, so the tissue acts like a pressurized cushion. With no blood vessels, cartilage and tendon depend on diffusion and repair slowly. Elastic fibers stretch and recoil because elastin's flexible chains are tied together by desmosine cross-links. Fibrillin-1 normally holds TGF-beta in a latent form, so in Marfan syndrome the elastic scaffold is weak and freed TGF-beta signaling contributes to aortic root dilation."
       }
     ],
     "charts": [
@@ -1536,6 +1701,30 @@
       "MS-13-A3",
       "MS-13-D1",
       "MS-13-D3"
+    ],
+    "flows": [
+      {
+        "title": "Collagen synthesis",
+        "steps": [
+          "RER ribosomes make pro-alpha chains with repeating Gly-X-Y sequences.",
+          "Proline and lysine are hydroxylated (vitamin C, iron); some hydroxylysines are glycosylated.",
+          "Three chains align by C-terminal disulfides and wind into a procollagen triple helix.",
+          "Procollagen passes through the Golgi and is secreted.",
+          "Procollagen peptidases cut off the terminal propeptides, forming tropocollagen.",
+          "Tropocollagen molecules self-assemble into fibrils.",
+          "Lysyl oxidase (copper) cross-links the fibrils, giving tensile strength."
+        ]
+      },
+      {
+        "title": "Marfan syndrome pathogenesis",
+        "steps": [
+          "Autosomal dominant FBN1 mutation produces defective fibrillin-1.",
+          "Microfibrils that scaffold elastic fibers are weak and reduced.",
+          "Latent TGF-beta is released from the matrix and signals excessively.",
+          "Aortic media shows cystic medial degeneration with fragmented elastic fibers.",
+          "Aortic root dilates, raising the risk of aortic regurgitation and dissection."
+        ]
+      }
     ]
   },
   {
@@ -1551,7 +1740,8 @@
           "Skeletal muscle does not need calcium entry from outside the cell to contract.",
           "Calcium binds troponin C, which moves tropomyosin off the myosin binding sites on actin.",
           "SERCA pumps calcium back into the SR (uses ATP), and the muscle relaxes."
-        ]
+        ],
+        "why": "Skeletal muscle links voltage to calcium release through a direct protein connection: the DHPR in the T tubule acts as a voltage sensor whose shape change physically opens RyR1, so release does not depend on calcium entering the cell. Calcium binding to troponin C shifts troponin I and tropomyosin, exposing the myosin binding sites on actin, and force lasts only until SERCA clears the calcium. In malignant hyperthermia, a mutant RyR1 opened by volatile anesthetics or succinylcholine leaks calcium uncontrollably, driving sustained contraction, ATP consumption, and heat production."
       },
       {
         "h": "Cross-bridge cycle",
@@ -1561,7 +1751,8 @@
           "ATP hydrolysis cocks the head; ADP and phosphate stay bound.",
           "Head binds actin; phosphate release drives the power stroke; then ADP leaves.",
           "Rigor mortis: without ATP, myosin cannot detach from actin, so muscles lock a few hours after death."
-        ]
+        ],
+        "why": "Each step of the cycle is set by what nucleotide the myosin head holds: with none, myosin binds actin tightly; ATP lowers that affinity so the head lets go; and hydrolysis stores energy by cocking the head. Phosphate release after rebinding triggers the power stroke, so ATP energy is spent on detachment and re-cocking, and the stroke itself uses the energy stored at hydrolysis. That is why ATP depletion freezes heads in the attached rigor state, producing rigor mortis until proteins break down."
       },
       {
         "h": "Grading skeletal force",
@@ -1572,7 +1763,8 @@
           "At high firing rates twitches fuse into tetanus, the maximal sustained force.",
           "Length-tension: active force is greatest at the resting sarcomere length with optimal actin-myosin overlap; too stretched or too short lowers force.",
           "Force-velocity: the heavier the load, the slower the shortening; velocity is maximal at zero load and zero at maximal (isometric) force."
-        ]
+        ],
+        "why": "The nervous system grades force by recruiting more and larger motor units and by firing each unit faster. Small motor neurons have high input resistance, so the same synaptic current brings them to threshold first, which is why slow, fatigue-resistant units handle fine and sustained tasks and large fast units join only for strong efforts. Because a twitch outlasts its action potential, repeated stimuli arrive before calcium is cleared and add force until the twitches fuse. Length-tension and force-velocity both reflect cross-bridges: force depends on how many heads can reach actin, and fast shortening leaves fewer heads attached at any moment."
       },
       {
         "h": "Cardiac muscle",
@@ -1583,7 +1775,8 @@
           "Sympathetic beta-1 stimulation raises cAMP and activates protein kinase A.",
           "PKA phosphorylates L-type channels (more calcium entry) and phospholamban.",
           "Phosphorylated phospholamban stops inhibiting SERCA2, so the SR refills faster: faster relaxation and stronger next beat."
-        ]
+        ],
+        "why": "Cardiac contraction depends on trigger calcium from outside the cell, so the amount entering through L-type channels during the plateau sets how much the SR releases and therefore the strength of the beat. The long plateau keeps sodium channels inactivated through most of contraction, so a new action potential cannot start until the muscle is relaxing, which prevents tetany that would stop the heart from filling. Sympathetic stimulation strengthens contraction and speeds relaxation (lusitropy) through PKA phosphorylation of L-type channels and phospholamban, which increases calcium entry and SR loading."
       },
       {
         "h": "Smooth muscle",
@@ -1594,7 +1787,8 @@
           "Myosin light chain phosphatase removes the phosphate and causes relaxation.",
           "Latch state: dephosphorylated myosin stays attached and cycles slowly, holding tone with little ATP.",
           "Nitric oxide activates guanylyl cyclase; cGMP activates protein kinase G, lowers calcium, and activates the phosphatase, causing relaxation."
-        ]
+        ],
+        "why": "Smooth muscle has no troponin, so calcium works on the myosin side through calmodulin and MLCK, and the force at any moment reflects the balance between MLCK and myosin light chain phosphatase. Because the phosphatase can be inhibited independently of calcium (for example by Rho kinase), tone can rise without more calcium, which is called calcium sensitization. Nitric oxide relaxes vessels by raising cGMP, which activates protein kinase G to lower cytosolic calcium and activate the phosphatase; nitrates and PDE5 inhibitors act through this pathway."
       },
       {
         "h": "Fiber types and training",
@@ -1603,7 +1797,8 @@
           "Type II: fast, glycolytic, white, large glycogen stores, high force, fatigable.",
           "Endurance training raises mitochondria, capillaries, and oxidative enzymes.",
           "Resistance training enlarges type II fibers by adding myofibrils (hypertrophy)."
-        ]
+        ],
+        "why": "Fiber type is set mainly by the motor neuron: slow motor neurons firing steadily at low rates produce type I fibers, and fast neurons firing in brief bursts produce type II fibers. Type I fibers rely on oxidative phosphorylation, so they need myoglobin, mitochondria, and capillaries, which make them red and fatigue resistant; type II fibers rely on stored glycogen and glycolysis for rapid ATP, so they produce high force but fatigue quickly. Training mainly changes existing fibers: endurance work drives mitochondrial biogenesis (through PGC-1 alpha), and resistance work enlarges fibers by adding myofibrils."
       }
     ],
     "charts": [
@@ -1829,6 +2024,42 @@
       "MS-10",
       "MS-13-D2",
       "MS-9"
+    ],
+    "flows": [
+      {
+        "title": "Skeletal excitation-contraction coupling",
+        "steps": [
+          "ACh at the motor end plate triggers a sarcolemmal action potential.",
+          "The action potential travels down the T tubules.",
+          "DHPR voltage sensor changes shape and mechanically opens RyR1.",
+          "The SR releases calcium into the cytosol.",
+          "Calcium binds troponin C; tropomyosin uncovers myosin binding sites on actin.",
+          "Cross-bridge cycling generates force.",
+          "SERCA pumps calcium back into the SR, and the fiber relaxes."
+        ]
+      },
+      {
+        "title": "Cross-bridge cycle",
+        "steps": [
+          "Rigor: myosin head bound to actin with no nucleotide.",
+          "ATP binds myosin, which detaches from actin.",
+          "ATP hydrolysis cocks the head; ADP and phosphate stay bound.",
+          "Cocked head binds a new site farther along actin.",
+          "Phosphate release triggers the power stroke.",
+          "ADP leaves, returning the head to the rigor state."
+        ]
+      },
+      {
+        "title": "Smooth muscle contraction and relaxation",
+        "steps": [
+          "Calcium rises through L-type channels or IP3-triggered SR release.",
+          "Calcium binds calmodulin.",
+          "Calcium-calmodulin activates myosin light chain kinase.",
+          "MLCK phosphorylates the myosin regulatory light chain.",
+          "Phosphorylated myosin cycles on actin and the cell contracts.",
+          "Myosin light chain phosphatase removes the phosphate, and the cell relaxes."
+        ]
+      }
     ]
   }
 ]

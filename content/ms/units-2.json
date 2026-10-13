@@ -12,7 +12,8 @@
           "Serum 25-hydroxyvitamin D measures status: long half-life (weeks), loosely regulated, reflects skin plus diet supply",
           "Calcitriol has a half-life of hours and is tightly controlled, so it can look normal even in deficiency",
           "1-alpha-hydroxylase is turned up by PTH and low phosphate, and turned down by FGF23 and calcitriol itself"
-        ]
+        ],
+        "why": "Vitamin D is a prohormone that needs two hydroxylations before it can bind the vitamin D receptor, a nuclear receptor that changes gene transcription. The liver step is driven by substrate supply and is barely regulated, so 25-hydroxyvitamin D rises and falls with intake and sun exposure and is the right test of body stores. The kidney step is the control point, switched on by PTH and low phosphate and switched off by FGF23 and calcitriol. In deficiency, the rise in PTH drives 1-alpha-hydroxylase hard, which is why calcitriol can stay normal or even high while stores run low."
       },
       {
         "h": "Calcium and phosphate hormones",
@@ -24,7 +25,8 @@
           "Calcitonin from thyroid C cells inhibits osteoclasts; minor role in adult calcium balance",
           "FGF23 from osteocytes rises with high phosphate or calcitriol, causes phosphaturia, and suppresses 1-alpha-hydroxylase",
           "Osteoprotegerin (OPG) from osteoblasts is a decoy receptor that binds RANKL and limits osteoclast activation"
-        ]
+        ],
+        "why": "PTH raises serum calcium within minutes through the kidney and over hours to days through bone, and in bone it works indirectly because osteoclasts lack the PTH receptor. Osteoblasts relay the signal: more RANKL and less OPG means more RANK activation on osteoclast precursors. PTH makes the kidney excrete phosphate so that calcium released from bone does not precipitate with phosphate. FGF23 is the phosphate-lowering counterweight, removing phosphate through the kidney and cutting calcitriol so the gut absorbs less."
       },
       {
         "h": "Muscle fuel and exercise",
@@ -34,7 +36,8 @@
           "Longer effort: oxidative metabolism of glucose, then a rising share from fatty acid beta-oxidation",
           "Cori cycle: muscle lactate goes to the liver, becomes glucose by gluconeogenesis, and returns to muscle (net cost 4 ATP)",
           "Creatinine forms nonenzymatically from creatine and phosphocreatine at a steady daily rate, so it tracks muscle mass"
-        ]
+        ],
+        "why": "Each energy system trades speed for capacity. Phosphocreatine regenerates ATP in a single enzymatic step, so it is the fastest source but runs out within about 10 seconds of maximal effort. Anaerobic glycolysis yields only 2 ATP per glucose (3 per glucose unit taken from glycogen) but runs fast without oxygen, regenerating NAD+ by reducing pyruvate to lactate, while oxidative phosphorylation yields far more ATP and dominates sustained exercise. In the Cori cycle the liver spends 6 ATP to rebuild one glucose from 2 lactate while muscle gains only 2, giving the net cost of 4 ATP."
       },
       {
         "h": "Metabolic myopathies",
@@ -44,7 +47,8 @@
           "McArdle second wind: after about 10 minutes, blood flow brings glucose and fatty acids and the patient can continue",
           "Carnitine shuttle: CPT I on the outer membrane, translocase, CPT II on the inner membrane move long-chain fatty acids into mitochondria",
           "CPT II deficiency: weakness, muscle pain, and rhabdomyolysis with myoglobinuria after prolonged exercise, fasting, cold, or illness"
-        ]
+        ],
+        "why": "The timing of symptoms points to the defective pathway. Brief intense exercise depends on muscle glycogenolysis, so loss of myophosphorylase leaves the fiber without fuel early, and during ischemic forearm exercise lactate fails to rise while ammonia still rises. Prolonged exercise, fasting, and cold depend on long-chain fatty acid oxidation, so CPT II deficiency fails late, after glycogen is used up. In both disorders the ATP-starved fiber cannot run its ion pumps or keep its membrane intact, so it breaks down and releases CK and myoglobin."
       },
       {
         "h": "Minerals and cofactors",
@@ -54,7 +58,8 @@
           "Copper is the cofactor for lysyl oxidase, which cross-links collagen and elastin",
           "Vitamin K drives gamma-carboxylation of glutamate on osteocalcin so it can bind calcium in bone matrix",
           "Vitamin C drives prolyl and lysyl hydroxylation of collagen (see scurvy)"
-        ]
+        ],
+        "why": "Bone strength depends on a correctly built, cross-linked collagen scaffold and on mineral deposited onto it. Vitamin C and copper both act on collagen after translation: hydroxylation of proline stabilizes the triple helix through hydrogen bonds, and lysyl oxidase forms covalent cross-links between collagen molecules outside the cell. Severe hypomagnesemia impairs PTH release and causes end-organ resistance to PTH, so calcium stays low until magnesium is restored. Vitamin K-dependent carboxylation adds a second carboxyl group to glutamate residues, creating the calcium-binding sites osteocalcin needs to bind hydroxyapatite."
       }
     ],
     "charts": [
@@ -288,6 +293,41 @@
       "MS-13-A2",
       "MS-13-A3",
       "MS-13-E2"
+    ],
+    "flows": [
+      {
+        "title": "Vitamin D activation",
+        "steps": [
+          "UVB in the skin converts 7-dehydrocholesterol to cholecalciferol (vitamin D3)",
+          "Vitamin D-binding protein carries it to the liver",
+          "Hepatic 25-hydroxylase forms 25-hydroxyvitamin D (calcidiol)",
+          "Proximal tubule 1-alpha-hydroxylase, stimulated by PTH, forms calcitriol",
+          "Calcitriol binds the nuclear vitamin D receptor in gut, bone, and kidney",
+          "Intestinal calcium and phosphate absorption rise"
+        ]
+      },
+      {
+        "title": "Response to low serum calcium",
+        "steps": [
+          "Ionized calcium falls",
+          "Less calcium-sensing receptor signaling on chief cells increases PTH release",
+          "PTH increases distal tubule calcium reabsorption and proximal phosphate excretion",
+          "PTH raises osteoblast RANKL, so osteoclasts resorb bone",
+          "PTH stimulates renal 1-alpha-hydroxylase; calcitriol raises gut calcium absorption",
+          "Serum calcium returns to normal and PTH secretion falls"
+        ]
+      },
+      {
+        "title": "McArdle disease during intense exercise",
+        "steps": [
+          "Myophosphorylase deficiency blocks muscle glycogen breakdown",
+          "Brief intense exercise cannot be fueled by glycogenolysis and glycolysis",
+          "Little pyruvate forms, so blood lactate fails to rise",
+          "ATP falls and ion pumps fail, causing cramps and contracture",
+          "Fibers break down, releasing CK and myoglobin into the blood",
+          "Myoglobinuria gives dark urine and risks acute kidney injury"
+        ]
+      }
     ]
   },
   {
@@ -301,7 +341,8 @@
           "RUNX2 haploinsufficiency (autosomal dominant) causes cleidocranial dysplasia: absent or small clavicles, open fontanelles, delayed suture closure, extra teeth",
           "SOX9 drives chondrocyte differentiation from mesenchyme",
           "HOX genes give each body segment its identity along the head to tail axis; mutations put structures in the wrong place (for example HOXD13 synpolydactyly)"
-        ]
+        ],
+        "why": "Transcription factors sit at the top of differentiation cascades, so losing one copy can change a whole tissue. RUNX2 turns mesenchymal cells into osteoblasts; with half the normal dose, membranous bones such as the clavicle and skull vault ossify poorly, and tooth development is disturbed as well. SOX9 acts on the cartilage path, and its haploinsufficiency causes campomelic dysplasia. HOX genes are expressed in a nested order along the body axis, so a mutation changes the positional identity of a segment while the tissue types stay normal."
       },
       {
         "h": "Achondroplasia and osteogenesis imperfecta",
@@ -312,7 +353,8 @@
           "Type I collagen is two alpha-1 chains (COL1A1) and one alpha-2 chain (COL1A2), with glycine at every third residue",
           "Glycine substitution: the bad chain enters many triple helices (3 of 4 when COL1A1 is hit) and spoils them (dominant negative), giving severe OI types II to IV",
           "Null allele: no bad chain is made, only half the normal amount of collagen, giving mild OI type I (blue sclerae, fractures, hearing loss)"
-        ]
+        ],
+        "why": "FGFR3 signaling normally restrains chondrocyte proliferation and hypertrophy, so a constitutively active receptor shortens bones that grow through a cartilage model. Membranous ossification skips the cartilage stage, which is why the skull vault and trunk width are spared. In osteogenesis imperfecta the severity depends on what reaches the triple helix: a mutant chain that is made and incorporated spoils every helix it enters, while a null allele only lowers the amount of normal collagen. Glycine is required at every third position because it is the only residue small enough to fit in the crowded center of the helix."
       },
       {
         "h": "Dystrophin and the reading frame",
@@ -322,7 +364,8 @@
           "In-frame deletion leaves a shorter, partly working dystrophin: Becker, later onset, slower course",
           "Severity follows the reading frame, regardless of deletion size",
           "Dystrophin anchors actin to the dystroglycan complex and extracellular matrix; without it the sarcolemma tears with contraction"
-        ]
+        ],
+        "why": "The genetic code is read in triplets, so a deletion whose size is not a multiple of three shifts every downstream codon and soon creates a premature stop codon. The faulty transcript is destroyed by nonsense-mediated decay, and no functional dystrophin is made, giving Duchenne. An in-frame deletion removes part of the central rod domain but keeps the ends that bind actin and the dystroglycan complex, so a shorter working protein gives Becker. Without that link, contraction tears the sarcolemma, calcium floods in, and fibers necrose and are replaced by fat and fibrous tissue."
       },
       {
         "h": "Repeat expansion and mitochondrial disease",
@@ -333,7 +376,8 @@
           "Mitochondrial DNA comes only from the mother: all children of an affected mother can be affected, none from an affected father",
           "Heteroplasmy: cells carry a mix of normal and mutant mtDNA, so severity varies widely within a family",
           "Ragged red fibers on modified Gomori trichrome are clumps of abnormal mitochondria under the sarcolemma (MERRF, MELAS)"
-        ]
+        ],
+        "why": "In myotonic dystrophy, the expanded CUG repeat in DMPK RNA stays in the nucleus and traps splicing regulators such as muscleblind-like proteins. Many transcripts then keep fetal splice forms; mis-splicing of the muscle chloride channel ClC-1 lowers chloride conductance and causes myotonia, and insulin receptor mis-splicing causes insulin resistance. Mitochondria are inherited through the oocyte and segregate at random during cell division, so the share of mutant mtDNA differs between tissues and between siblings. Disease appears when that share passes a threshold, which happens first in high-energy tissues such as muscle and brain."
       },
       {
         "h": "Sarcoma genetics",
@@ -341,7 +385,8 @@
           "RB1 (13q14) controls the G1 to S checkpoint; a germline RB1 mutation (hereditary retinoblastoma) raises osteosarcoma risk",
           "Germline TP53 loss (Li-Fraumeni syndrome) causes sarcomas, breast cancer, brain tumors, leukemia, and adrenocortical carcinoma at young ages",
           "Ewing sarcoma: t(11;22) fuses EWSR1 to FLI1, making an abnormal transcription factor"
-        ]
+        ],
+        "why": "Tumor suppressors follow Knudson's two-hit model: a person who inherits one mutant RB1 or TP53 allele needs only one somatic hit to lose the gene, which explains early, multiple, and varied tumors. Hypophosphorylated RB binds E2F and holds the cell in G1, so losing RB frees cells to enter S phase. p53 arrests the cycle or triggers apoptosis after DNA damage, so its loss lets damaged cells keep dividing. Ewing sarcoma works through a gain of function instead: the translocation creates EWS-FLI1, an abnormal transcription factor that switches on a growth program."
       }
     ],
     "charts": [
@@ -549,6 +594,40 @@
       "MS-13-D3",
       "MS-13-F2",
       "MS-13-F4"
+    ],
+    "flows": [
+      {
+        "title": "Frameshift deletion to Duchenne muscular dystrophy",
+        "steps": [
+          "Out-of-frame deletion in the DMD gene",
+          "Downstream codons shift and a premature stop codon appears",
+          "Transcript is degraded and no functional dystrophin is made",
+          "Actin is no longer anchored to the dystroglycan complex",
+          "Contraction tears the sarcolemma and calcium enters the fiber",
+          "Fibers necrose and are replaced by fat and fibrous tissue"
+        ]
+      },
+      {
+        "title": "Dominant-negative osteogenesis imperfecta",
+        "steps": [
+          "Missense mutation replaces a glycine in a COL1A1 triple-helix repeat",
+          "Mutant pro-alpha-1 chains are made alongside normal chains",
+          "Mutant chains enter about 3 of 4 triple helices",
+          "Helix folding is delayed; abnormal collagen is overmodified or degraded",
+          "Bone matrix is deficient and brittle",
+          "Severe OI with multiple fractures and deformity"
+        ]
+      },
+      {
+        "title": "Myotonic dystrophy type 1",
+        "steps": [
+          "CTG repeat expands in the 3' untranslated region of DMPK",
+          "Expanded CUG RNA forms foci in the nucleus",
+          "Foci trap muscleblind-like splicing proteins",
+          "Fetal splice forms persist, including of the ClC-1 chloride channel",
+          "Low chloride conductance causes repetitive firing: myotonia"
+        ]
+      }
     ]
   },
   {
@@ -563,7 +642,8 @@
           "Acetylcholine binds postsynaptic nicotinic receptors, ligand-gated cation channels, producing the end plate potential",
           "The end plate potential normally exceeds threshold by a wide safety margin and fires a muscle action potential",
           "Acetylcholinesterase in the cleft splits acetylcholine into acetate and choline, ending the signal"
-        ]
+        ],
+        "why": "Each step is a separate drug and disease target, which is why junction disorders can be sorted by where they act. Calcium entry through P/Q-type channels couples the nerve action potential to vesicle fusion, so anything that cuts calcium entry cuts the number of quanta released. The nicotinic receptor is a nonselective cation channel, and net inward sodium current depolarizes the end plate. Normal release is several times more than needed to reach threshold, so weakness appears only when release or receptor number falls below that reserve."
       },
       {
         "h": "Junction disorders",
@@ -573,7 +653,8 @@
           "Lambert-Eaton: proximal limb weakness that improves with repeated effort, low reflexes, dry mouth and other autonomic signs",
           "Myasthenia gravis: antibodies against postsynaptic acetylcholine receptors block them and cause complement damage",
           "Myasthenia gravis: weakness worsens with use and late in the day, ptosis and diplopia, normal reflexes and pupils, thymus abnormalities"
-        ]
+        ],
+        "why": "Response to repeated activity separates presynaptic from postsynaptic disease. In Lambert-Eaton syndrome, repeated firing lets calcium build up in the terminal, so release rises and strength briefly improves, seen as an incremental response to high-frequency nerve stimulation. In myasthenia gravis, release falls normally with repeated firing, and with fewer receptors the end plate potential drops below threshold, so fatigue grows with use. Botulinum toxin blocks acetylcholine release at autonomic cholinergic synapses too, causing dilated pupils and dry mouth, while myasthenia antibodies target only the muscle-type nicotinic receptor, so pupils stay normal."
       },
       {
         "h": "Spindles, tendon organs, and reflexes",
@@ -584,7 +665,8 @@
           "Golgi tendon organs lie in series at the muscle-tendon junction and sense tension",
           "Ib afferents act through inhibitory interneurons to relax the same muscle under high tension",
           "Reflex roots: biceps C5 to C6, triceps C7, patellar L4, Achilles S1"
-        ]
+        ],
+        "why": "The spindle and the tendon organ report different things because of how they are mounted. Lying in parallel with extrafusal fibers, the spindle is stretched when the muscle lengthens and goes slack when it shortens, so gamma motor neurons shorten the intrafusal fibers to keep it reporting during contraction (alpha-gamma coactivation). Lying in series with the tendon, the Golgi tendon organ is loaded by active tension, and its Ib input inhibits the same muscle (autogenic inhibition). A tendon reflex therefore tests the sensory nerve, root, cord segment, motor neuron, and muscle in one maneuver."
       },
       {
         "h": "Neurogenic versus myopathic weakness",
@@ -594,7 +676,8 @@
           "Spinal muscular atrophy: SMN1 deletion, anterior horn cell loss, floppy infant with tongue fasciculations",
           "Myopathic: proximal weakness, high CK, reflexes kept until late",
           "Type II fiber atrophy with normal CK points to disuse or corticosteroids"
-        ]
+        ],
+        "why": "Losing a motor neuron denervates all of its muscle fibers at once, so atrophic fibers appear in groups, and surviving neurons sprout to adopt orphaned fibers and convert them to their own fiber type, which produces fiber type grouping. Fasciculations are spontaneous firing of a whole motor unit from an irritable lower motor neuron. In myopathy the fiber membrane itself is damaged, so CK leaks into the blood, and reflexes persist until much of the muscle is lost. Glucocorticoids are catabolic and atrophy fast type II fibers without necrosis, so CK stays normal."
       },
       {
         "h": "Electrolytes and excitability",
@@ -604,7 +687,8 @@
           "Trousseau sign: a blood pressure cuff inflated above systolic for 3 minutes causes carpal spasm",
           "Hypokalemia hyperpolarizes the membrane, so threshold is harder to reach: weakness and cramps",
           "Hyperkalemia depolarizes the membrane and inactivates sodium channels: weakness and cardiac arrhythmias"
-        ]
+        ],
+        "why": "Extracellular calcium binds negative charges on the outer face of sodium channels; when calcium falls, less charge is screened, so channels open at a more negative voltage and threshold moves closer to the resting potential. Nerves then fire on their own, which is why low calcium causes tetany even though muscle contraction needs calcium. Potassium sets the resting potential: low extracellular potassium hyperpolarizes the cell and moves it away from threshold. High potassium depolarizes the cell, and sustained depolarization keeps sodium channel inactivation gates closed, so fewer channels are available and excitability falls."
       }
     ],
     "charts": [
@@ -872,6 +956,39 @@
       "MS-8",
       "MS-11",
       "MS-13-D2"
+    ],
+    "flows": [
+      {
+        "title": "Neuromuscular transmission",
+        "steps": [
+          "Motor nerve action potential reaches the terminal",
+          "P/Q-type voltage-gated calcium channels open and calcium enters",
+          "SNARE proteins fuse vesicles and acetylcholine is released",
+          "Acetylcholine binds nicotinic receptors, producing the end plate potential",
+          "Muscle action potential spreads along the sarcolemma into T tubules",
+          "Dihydropyridine receptors trigger ryanodine receptor calcium release from sarcoplasmic reticulum",
+          "Calcium binds troponin C and cross-bridge cycling begins"
+        ]
+      },
+      {
+        "title": "Myasthenia gravis",
+        "steps": [
+          "IgG antibodies bind postsynaptic nicotinic acetylcholine receptors",
+          "Receptors are blocked, internalized, and damaged by complement",
+          "Fewer receptors lower the end plate potential",
+          "With repeated firing, release declines and potentials fall below threshold",
+          "Fatigable weakness: ptosis, diplopia, worse late in the day"
+        ]
+      },
+      {
+        "title": "Stretch reflex",
+        "steps": [
+          "Tendon tap stretches the muscle and its spindles",
+          "Ia afferents fire and enter the spinal cord through the dorsal root",
+          "Ia fibers synapse directly on alpha motor neurons to the same muscle",
+          "Alpha motor neurons fire and the muscle contracts"
+        ]
+      }
     ]
   },
   {
@@ -887,7 +1004,8 @@
           "TNF, IL-1, and IL-6 inflame the synovium and cause systemic symptoms",
           "Pannus (proliferating synovium with inflammatory cells and granulation tissue) erodes cartilage",
           "RANKL from T cells and synovial fibroblasts activates osteoclasts, giving marginal erosions and periarticular osteopenia"
-        ]
+        ],
+        "why": "Rheumatoid arthritis starts when a genetic background meets an environmental trigger. Smoking promotes citrullination of proteins in the lung, and HLA-DR4 shared-epitope molecules present citrullinated peptides well, so CD4 T cells are activated and help B cells make anti-CCP antibodies. In the joint, TNF and IL-1 stimulate synovial fibroblasts and chondrocytes to release matrix metalloproteinases that degrade cartilage, while RANKL draws osteoclasts into bone at the margins where synovium meets bare bone. IL-6 drives the hepatic acute phase response, which raises CRP and ESR and contributes to fatigue and anemia of inflammation."
       },
       {
         "h": "Rheumatoid arthritis clinical picture",
@@ -897,7 +1015,8 @@
           "Ulnar deviation, swan neck (PIP hyperextension, DIP flexion), boutonniere (PIP flexion, DIP hyperextension)",
           "Rheumatoid nodules: central fibrinoid necrosis ringed by palisading histiocytes",
           "Felty syndrome: rheumatoid arthritis, splenomegaly, and neutropenia with recurrent infections"
-        ]
+        ],
+        "why": "The deformities are mechanical results of long-standing synovitis. Chronic swelling stretches and weakens capsules, ligaments, and tendon sheaths, so tendons slip off their normal line of pull and joints sublux, which at the MCP joints draws the fingers toward the ulnar side. Swan neck and boutonniere deformities follow imbalance in the finger extensor mechanism once the volar plate, central slip, or lateral bands are damaged. Morning stiffness lasting over an hour reflects active synovial inflammation and separates RA from the brief stiffness of osteoarthritis."
       },
       {
         "h": "Other connective tissue diseases",
@@ -905,7 +1024,8 @@
           "SLE arthritis is nonerosive; hand deformities can be correctable (Jaccoud arthropathy)",
           "Systemic sclerosis: sclerodactyly, calcinosis, flexion contractures, Raynaud phenomenon",
           "Mixed connective tissue disease: overlap of SLE, scleroderma, and myositis features with high anti-U1 RNP"
-        ]
+        ],
+        "why": "Each disease targets a different tissue, which explains its joint picture. In SLE, synovitis is driven by immune complexes and is far less proliferative than in RA, so pannus does not form and bone is not eroded, and lax ligaments give deformities that can be pushed back into place. In systemic sclerosis, fibroblasts lay down excess collagen in the skin and around joints, and small arteries show intimal proliferation and vasospasm, giving tight skin, contractures, and Raynaud phenomenon. Mixed connective tissue disease is defined by high-titer anti-U1 RNP, which is why its overlap features travel with that antibody."
       },
       {
         "h": "Hypersensitivity in joints and muscle",
@@ -914,7 +1034,8 @@
           "Type II: Lambert-Eaton, where antibodies made against tumor calcium channels cross-react with nerve terminals",
           "Type III (immune complex): SLE arthritis and nephritis",
           "Type IV (T cell): polymyositis, with CD8 T cells killing muscle fibers"
-        ]
+        ],
+        "why": "The hypersensitivity type is defined by the effector mechanism, whatever the organ. In type II, antibody binds an antigen fixed in tissue and either destroys cells through complement and phagocytes or changes their function, as when Lambert-Eaton antibodies block calcium channels. In type III, antigen-antibody complexes deposit in vessel walls, synovium, and glomeruli, where complement activation draws in neutrophils. Type IV needs no antibody: sensitized T cells cause the injury, as CD8 T cells do when they kill muscle fibers that express MHC class I in polymyositis."
       },
       {
         "h": "Innate inflammation and infection-related arthritis",
@@ -924,7 +1045,8 @@
           "Reactive arthritis: HLA-B27 linked sterile arthritis 1 to 4 weeks after enteric or Chlamydia infection",
           "Parvovirus B19 and rubella infection: symmetric small joint arthritis in adults, mostly women, that mimics rheumatoid arthritis",
           "Rubella vaccination: transient arthralgia or arthritis, most often in adult women"
-        ]
+        ],
+        "why": "Gout shows innate immunity acting without antigen specificity: phagocytosed urate crystals are danger signals that assemble the NLRP3 inflammasome, and caspase-1 cleaves pro-IL-1 beta into its active form. IL-1 beta activates endothelium and draws in neutrophils, which take up more crystals and amplify the flare. Articular cartilage has no blood supply and little capacity to repair, so bacterial and neutrophil enzymes in septic arthritis cause permanent damage within days, which makes it an emergency. Reactive arthritis is sterile on culture, and the inflammation follows the host response to the earlier bacterial infection in an HLA-B27 background."
       }
     ],
     "charts": [
@@ -1159,6 +1281,30 @@
       "MS-13-B7",
       "MS-13-E1",
       "MS-13-G1"
+    ],
+    "flows": [
+      {
+        "title": "Rheumatoid arthritis pathogenesis",
+        "steps": [
+          "Environmental triggers such as smoking increase protein citrullination",
+          "HLA-DR4 shared-epitope molecules present citrullinated peptides to CD4 T cells",
+          "T cells help B cells make anti-CCP antibodies and rheumatoid factor",
+          "TNF, IL-1, and IL-6 drive synovial proliferation into pannus",
+          "Metalloproteinases degrade cartilage and RANKL activates osteoclasts",
+          "Marginal erosions, periarticular osteopenia, and joint deformity"
+        ]
+      },
+      {
+        "title": "Acute gout flare",
+        "steps": [
+          "Urate exceeds its solubility and monosodium urate crystals form in the joint",
+          "Macrophages phagocytose the crystals",
+          "NLRP3 inflammasome activates caspase-1",
+          "Caspase-1 cleaves pro-IL-1 beta into active IL-1 beta",
+          "IL-1 beta recruits neutrophils, which take up crystals and amplify inflammation",
+          "Hot, red, swollen joint, classically the first MTP"
+        ]
+      }
     ]
   },
   {
@@ -1173,7 +1319,8 @@
           "Surface adhesins bind collagen, fibronectin, and fibrinogen in bone and joint tissue",
           "Biofilm on hardware and prostheses shields bacteria from antibodies and antibiotics",
           "Most common cause of osteomyelitis and septic arthritis; in children it seeds the metaphysis of long bones"
-        ]
+        ],
+        "why": "S. aureus succeeds in bone by sticking to matrix and evading opsonization. Its adhesins bind collagen, fibronectin, and fibrinogen exposed in bone and joints, and protein A binds IgG by the Fc end, so the antibody faces the wrong way and phagocytes cannot grab it. In children the metaphysis is seeded because capillary loops beneath the growth plate open into sinusoids where blood flow is slow. On hardware, bacteria grow slowly inside a biofilm matrix that antibodies and antibiotics penetrate poorly, so cure usually requires removing the device."
       },
       {
         "h": "Neisseria gonorrhoeae",
@@ -1183,7 +1330,8 @@
           "IgA protease cleaves mucosal IgA",
           "Disseminated infection in sexually active young adults: tenosynovitis, pustular skin lesions, migratory polyarthralgia",
           "Or a purulent monoarthritis, often the knee; terminal complement (C5 to C9) deficiency raises risk"
-        ]
+        ],
+        "why": "Gonococcal virulence centers on escaping adaptive immunity. Pili and opacity proteins undergo antigenic and phase variation by gene recombination, so antibodies against one variant miss the next, and reinfection is common. Killing of Neisseria depends heavily on the membrane attack complex, which is why C5 to C9 deficiency predisposes to disseminated disease. During bacteremia, organisms reach tendon sheaths, skin, and joints to give the arthritis-dermatitis syndrome, and in other patients bacteria settle in one joint and cause purulent arthritis."
       },
       {
         "h": "Clostridium perfringens and Streptococcus pyogenes",
@@ -1194,7 +1342,8 @@
           "S. pyogenes: beta-hemolytic gram-positive cocci in chains, catalase negative, bacitracin sensitive",
           "M protein resists phagocytosis and complement; hyaluronidase and streptokinase help spread along fascial planes",
           "Pyrogenic exotoxins act as superantigens, linking MHC II to T cell receptors outside the peptide groove and causing toxic shock"
-        ]
+        ],
+        "why": "Both organisms destroy tissue mainly through secreted products. Alpha toxin hydrolyzes lecithin in cell membranes, killing muscle cells, red cells, and endothelium, and the dead tissue extends the anaerobic environment the organism needs, so infection spreads rapidly. S. pyogenes M protein binds complement regulators such as factor H to resist opsonization, and hyaluronidase and streptokinase break down connective tissue matrix and fibrin so infection tracks along fascia. Superantigens skip antigen processing and activate a large fraction of T cells (up to about 20 percent), producing a cytokine storm with shock."
       },
       {
         "h": "Borrelia burgdorferi",
@@ -1204,7 +1353,8 @@
           "Transmission usually needs about 36 hours or more of tick attachment",
           "Deer feed adult ticks and keep the tick population going but are not the bacterial reservoir",
           "Late Lyme disease: intermittent or persistent arthritis of large joints, most often the knee"
-        ]
+        ],
+        "why": "The transmission rules follow the tick life cycle. Borrelia is rarely passed through tick eggs, so larvae acquire it from their first blood meal on infected mice and carry it into the nymph stage. Nymphs are tiny and feed in late spring and summer, often unnoticed, which makes them the main vector to people. Spirochetes in the tick midgut must multiply and migrate to the salivary glands after feeding begins, so the risk is low if the tick is removed within about 36 hours."
       },
       {
         "h": "Mycobacterium tuberculosis in the spine",
@@ -1213,7 +1363,8 @@
           "Caseating granulomas destroy the anterior vertebral body, spread to the disc and next vertebra, and collapse them",
           "Collapse makes an angular kyphosis (gibbus deformity)",
           "Pus can track along the psoas sheath to form a psoas abscess with groin or hip pain"
-        ]
+        ],
+        "why": "Vertebral bodies are rich in red marrow with a dense arterial supply, so blood-borne bacilli lodge in the anterior body near the endplate. Caseating granulomas destroy bone and spread beneath the anterior longitudinal ligament and across the disc space to the next vertebra, and the weakened anterior column collapses into a wedge. Because the posterior elements stay intact, collapse angles the spine forward into a sharp gibbus. The psoas arises from the lumbar vertebral bodies and discs, so a cold abscess can track down its sheath to the groin."
       }
     ],
     "charts": [
@@ -1413,6 +1564,39 @@
       "MS-13-G2",
       "MS-13-G3",
       "MS-13-G4"
+    ],
+    "flows": [
+      {
+        "title": "Acute hematogenous osteomyelitis in a child",
+        "steps": [
+          "Transient Staphylococcus aureus bacteremia",
+          "Bacteria lodge in slow-flowing metaphyseal sinusoids",
+          "Neutrophils and bacterial enzymes form pus and raise intraosseous pressure",
+          "Pressure and thrombosis cut the blood supply, leaving dead bone (sequestrum)",
+          "Pus lifts the periosteum, which lays down new bone (involucrum)"
+        ]
+      },
+      {
+        "title": "Gas gangrene",
+        "steps": [
+          "Deep, contaminated wound with devitalized, poorly oxygenated tissue",
+          "Clostridium perfringens spores germinate in the anaerobic tissue",
+          "Alpha toxin (lecithinase) destroys muscle cell and red cell membranes",
+          "Necrotic tissue extends the anaerobic zone and spread accelerates",
+          "Fermentation gas causes crepitus; hemolysis and shock follow"
+        ]
+      },
+      {
+        "title": "Lyme disease transmission",
+        "steps": [
+          "Larval Ixodes tick feeds on an infected white-footed mouse",
+          "Larva molts into an infected nymph",
+          "Nymph attaches to a person and begins feeding",
+          "Spirochetes multiply and move from tick midgut to salivary glands",
+          "Spirochetes enter the skin and spread outward as erythema migrans",
+          "Blood spread later reaches joints, heart, and nerves"
+        ]
+      }
     ]
   },
   {
@@ -1426,7 +1610,8 @@
           "Cause is usually vitamin D deficiency; phosphate loss (renal wasting) does the same",
           "Before the growth plates close it is rickets (growth plate and bone); after they close it is osteomalacia (bone only)",
           "Low vitamin D lowers gut calcium uptake, PTH rises, PTH wastes phosphate, and low phosphate stalls mineralization"
-        ]
+        ],
+        "why": "Mineralization needs an adequate calcium-phosphate product at the osteoid surface plus osteoblast alkaline phosphatase, which breaks down pyrophosphate, an inhibitor of crystal formation. Vitamin D deficiency lowers that product in two ways: less calcium and phosphate are absorbed, and the secondary hyperparathyroidism that follows wastes phosphate in the urine. Osteoblasts keep laying down osteoid, so unmineralized seams widen. In a growing child, hypertrophic chondrocytes in the growth plate also fail to calcify and to undergo apoptosis, so the plate widens and the metaphysis flares."
       },
       {
         "h": "Risk factors for vitamin D deficiency",
@@ -1436,7 +1621,8 @@
           "Fat malabsorption: celiac disease, Crohn disease, cystic fibrosis, cholestasis, bariatric surgery",
           "Liver disease (less 25-hydroxylation) and chronic kidney disease (less 1-alpha-hydroxylation)",
           "Anticonvulsants such as phenytoin, phenobarbital, and carbamazepine speed vitamin D breakdown"
-        ]
+        ],
+        "why": "Each risk factor removes one step of supply or activation. Melanin, sunscreen, clothing, and high latitude reduce the UVB that reaches 7-dehydrocholesterol in the skin. Vitamin D is fat soluble and is absorbed in micelles, so any cause of fat malabsorption lowers dietary uptake. Liver and kidney disease reduce the two hydroxylation steps, and enzyme-inducing anticonvulsants increase hepatic cytochrome P450 breakdown of vitamin D to inactive metabolites."
       },
       {
         "h": "Osteomalacia",
@@ -1444,7 +1630,8 @@
           "Diffuse bone pain and tenderness, proximal muscle weakness, waddling gait, fractures",
           "Looser zones (pseudofractures): thin lucent bands across the cortex at the femoral neck, pubic rami, ribs, and scapula",
           "Labs: calcium low or normal, phosphate low, alkaline phosphatase high, PTH high, 25-hydroxyvitamin D low"
-        ]
+        ],
+        "why": "Osteomalacia softens bone without necessarily reducing its amount, so the skeleton bends and cracks under load. Looser zones are insufficiency fractures filled with unmineralized osteoid, which is why they appear at high-stress sites and run perpendicular to the cortex. Alkaline phosphatase rises because osteoblasts are highly active, and the lab pattern follows from secondary hyperparathyroidism: PTH holds calcium near normal at the cost of low phosphate. Proximal weakness reflects the role of vitamin D and phosphate in normal muscle function."
       },
       {
         "h": "Rickets",
@@ -1454,7 +1641,8 @@
           "Bowed legs (genu varum) once walking, widened wrists, delayed teeth",
           "Radiograph: widened, cupped, frayed metaphyses with a wide growth plate",
           "X-linked hypophosphatemic rickets: excess FGF23 wastes phosphate; vitamin D level normal, calcitriol inappropriately low"
-        ]
+        ],
+        "why": "Rickets is the growth plate form of the same defect, so findings cluster where bone grows fastest. Unmineralized cartilage and osteoid pile up at the metaphysis, which widens the wrists and costochondral junctions and produces the cupped, frayed edge on radiographs. Soft bone bends under load, so the legs bow once the child walks and the infant skull yields to pressure. In X-linked hypophosphatemia, a PHEX mutation raises FGF23, which wastes phosphate in the urine and blocks 1-alpha-hydroxylase, so calcitriol stays low despite hypophosphatemia that would normally raise it."
       },
       {
         "h": "Scurvy",
@@ -1464,7 +1652,8 @@
           "Perifollicular hemorrhage, corkscrew hairs, swollen bleeding gums, easy bruising, hemarthrosis, poor wound healing",
           "Children: painful subperiosteal hemorrhage, refusal to walk, and leg tenderness",
           "Risks: diets without fruit and vegetables, alcohol use disorder, older adults living alone, very restricted diets"
-        ]
+        ],
+        "why": "Prolyl and lysyl hydroxylases are iron-containing enzymes that need ascorbate to keep their iron in the ferrous state. Hydroxyproline forms hydrogen bonds that hold the triple helix together at body temperature, so underhydroxylated procollagen is unstable and is degraded instead of secreted, and too little hydroxylysine leaves fewer cross-links. Vessel walls and their supporting tissue weaken, so capillaries bleed into skin, gums, joints, and beneath the periosteum. Collagen is also the framework of osteoid, so in children new bone formation slows."
       }
     ],
     "charts": [
@@ -1644,6 +1833,40 @@
       "MS-8",
       "MS-13-E",
       "MS-13-E2"
+    ],
+    "flows": [
+      {
+        "title": "Vitamin D deficiency to defective mineralization",
+        "steps": [
+          "Low vitamin D from poor sun exposure, diet, or absorption",
+          "Less calcitriol reduces intestinal calcium and phosphate absorption",
+          "Low ionized calcium raises PTH (secondary hyperparathyroidism)",
+          "PTH restores calcium but increases urinary phosphate loss",
+          "Low calcium-phosphate product prevents osteoid mineralization",
+          "Rickets in children, osteomalacia in adults"
+        ]
+      },
+      {
+        "title": "X-linked hypophosphatemic rickets",
+        "steps": [
+          "Loss-of-function PHEX mutation",
+          "FGF23 levels rise",
+          "FGF23 causes renal phosphate wasting and suppresses calcitriol synthesis",
+          "Chronic hypophosphatemia impairs mineralization",
+          "Rickets or osteomalacia with normal calcium and normal 25-hydroxyvitamin D"
+        ]
+      },
+      {
+        "title": "Scurvy",
+        "steps": [
+          "Dietary vitamin C deficiency",
+          "Prolyl and lysyl hydroxylases cannot keep their iron reduced",
+          "Procollagen is underhydroxylated and forms unstable triple helices",
+          "Unstable procollagen is degraded, leaving little cross-linked collagen",
+          "Capillaries and connective tissue become fragile",
+          "Perifollicular and gum bleeding, poor wound healing, subperiosteal hemorrhage"
+        ]
+      }
     ]
   },
   {
@@ -1660,7 +1883,8 @@
           "Reactive arthritis: HLA-B27, 1 to 4 weeks after Chlamydia trachomatis or Shigella, Salmonella, Yersinia, Campylobacter; joint fluid sterile",
           "Reactive arthritis: asymmetric leg arthritis, conjunctivitis, urethritis, enthesitis, keratoderma blennorrhagicum",
           "Psoriatic arthritis: DIP involvement, dactylitis (sausage digits), nail pitting, pencil-in-cup deformity; axial disease linked to HLA-B27"
-        ]
+        ],
+        "why": "HLA-B27 links these diseases, and their shared target is the enthesis, where tendon, ligament, or capsule inserts into bone. Enthesitis is followed by new bone formation, so inflamed ligament attachments ossify into syndesmophytes and the spine fuses, unlike the erosive, bone-losing course of RA. Inflammatory back pain improves with movement and worsens with rest, which separates it from mechanical back pain. Gut and genitourinary infections can trigger the same joint and eye inflammation in susceptible people, which is the basis of reactive arthritis."
       },
       {
         "h": "Gout and pseudogout",
@@ -1671,7 +1895,8 @@
           "Acute gout: hot, red first MTP (podagra) after alcohol or a purine-rich meal",
           "Chronic gout: tophi, punched-out erosions with overhanging edges, uric acid kidney stones",
           "Pseudogout: calcium pyrophosphate crystals in the knee or wrist, chondrocalcinosis; linked to hyperparathyroidism and hemochromatosis"
-        ]
+        ],
+        "why": "Humans lack uricase, so urate is the end product of purine breakdown and serum levels sit close to their solubility limit; crystals form when concentration rises or temperature falls, as in the cool first MTP joint. About two thirds of urate is excreted by the kidney, so reduced filtration, or drugs and organic acids that cut tubular urate excretion (diuretics, low-dose aspirin, and lactate from alcohol), raises the level. Overproduction comes from high cell turnover or failed purine salvage: without HGPRT, hypoxanthine and guanine are degraded and unused PRPP drives more de novo purine synthesis. Pseudogout crystals are rhomboid and positively birefringent, while urate crystals are needle-shaped and negatively birefringent."
       },
       {
         "h": "Myositis and polymyalgia rheumatica",
@@ -1682,7 +1907,8 @@
           "Polymyalgia rheumatica: adults over 50 with shoulder and hip girdle pain and stiffness, high ESR, normal CK and strength",
           "PMR travels with giant cell arteritis; new headache, jaw claudication, or visual change signals risk of vision loss",
           "Steroid myopathy: proximal weakness with normal CK and type II fiber atrophy without inflammation"
-        ]
+        ],
+        "why": "The inflammatory myopathies differ in what the immune system attacks. In dermatomyositis, complement injures endomysial capillaries, and capillary loss starves fibers at the edge of each fascicle, producing perifascicular atrophy; in polymyositis, muscle fibers express MHC class I and CD8 T cells kill them directly. Both destroy fibers and release CK, whereas PMR inflames bursae and synovium around the shoulders and hips and leaves muscle intact, so CK and strength are normal while ESR is high. PMR and giant cell arteritis share an IL-6-driven inflammatory picture and often occur in the same patient."
       },
       {
         "h": "Bursitis and tendinopathy",
@@ -1694,7 +1920,8 @@
           "Supraspinatus impingement: painful arc from about 60 to 120 degrees of abduction",
           "De Quervain tenosynovitis: abductor pollicis longus and extensor pollicis brevis, positive Finkelstein test",
           "Plantar fasciitis: heel pain with first morning steps; fluoroquinolones raise Achilles tendinopathy and rupture risk"
-        ]
+        ],
+        "why": "Bursae are synovial-lined sacs that reduce friction, so repeated pressure inflames them, and the superficial bursae over the knee and elbow lie close to skin breaks where bacteria enter. Chronic tendinopathy is a failed healing response with few inflammatory cells: repeated microtears outpace repair, leaving disorganized collagen, increased ground substance, and ingrowth of vessels and nerves. Impingement pain is felt mid-arc because the supraspinatus tendon passes under the acromion and coracoacromial arch between about 60 and 120 degrees of abduction. Fluoroquinolones appear to injure tenocytes and tendon matrix, which raises the risk of Achilles tendinopathy and rupture."
       },
       {
         "h": "Fibromyalgia, JIA, and other soft tissue",
@@ -1705,7 +1932,8 @@
           "Oligoarticular JIA: young girls, ANA positive, silent anterior uveitis; systemic JIA: daily spiking fever and salmon-colored rash",
           "Adhesive capsulitis: capsular inflammation and fibrosis, loss of both active and passive shoulder motion, linked to diabetes",
           "Ganglion cyst: myxoid degeneration near a joint capsule or tendon sheath, often dorsal wrist, no true lining"
-        ]
+        ],
+        "why": "Fibromyalgia is a disorder of pain processing in which central sensitization amplifies signals from normal tissue, so pain is widespread while ESR, CRP, and CK stay normal. Oligoarticular JIA links ANA positivity to chronic anterior uveitis that causes no pain or redness, so children need regular slit-lamp screening to prevent vision loss. In adhesive capsulitis, the capsule thickens and contracts, mechanically limiting passive as well as active motion, which separates it from rotator cuff disease where passive motion is preserved. A ganglion is filled with mucinous fluid and walled by compressed connective tissue with no synovial lining, which makes it a pseudocyst."
       }
     ],
     "charts": [
@@ -2068,6 +2296,28 @@
       "MS-12",
       "MS-13-E1",
       "MS-13-G1"
+    ],
+    "flows": [
+      {
+        "title": "Lesch-Nyhan syndrome to gout",
+        "steps": [
+          "HGPRT deficiency blocks salvage of hypoxanthine and guanine",
+          "Unused PRPP accumulates and drives de novo purine synthesis",
+          "Excess purines are degraded by xanthine oxidase to uric acid",
+          "Uric acid overproduction causes hyperuricemia",
+          "Gout and urate stones, with self-mutilation and dystonia"
+        ]
+      },
+      {
+        "title": "Ankylosing spondylitis progression",
+        "steps": [
+          "Enthesitis at sacroiliac joints and vertebral ligament insertions",
+          "Inflammation erodes bone at the enthesis",
+          "Repair lays down fibrous tissue that ossifies",
+          "Syndesmophytes bridge adjacent vertebrae",
+          "Fused, rigid bamboo spine that fractures easily"
+        ]
+      }
     ]
   }
 ]

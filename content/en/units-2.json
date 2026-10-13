@@ -12,7 +12,8 @@
           "TPO also couples them: DIT plus DIT makes T4, and MIT plus DIT makes T3.",
           "For release, TSH drives endocytosis of colloid; lysosomal proteases cleave thyroglobulin and free T4 (most of the output) and some T3.",
           "Leftover MIT and DIT are deiodinated so the iodide is reused; peripheral 5'-deiodinase turns T4 into the more active T3."
-        ]
+        ],
+        "why": "Iodide is concentrated against its gradient by secondary active transport: NIS rides the sodium gradient set up by the Na-K-ATPase, which is why TSH raises uptake and perchlorate competitively blocks it. Organification and coupling happen at the apical surface where cell meets colloid, so hormone is built on a protein scaffold (thyroglobulin) and stored outside the cell, giving a reserve that lasts weeks to months. TPO is the step blocked by thionamides such as methimazole and propylthiouracil, and recycling of MIT and DIT by iodotyrosine deiodinase conserves scarce iodine."
       },
       {
         "h": "Adrenal steroid synthesis",
@@ -23,7 +24,8 @@
           "Zona fasciculata uses 17-alpha-hydroxylase: 17-hydroxyprogesterone, then 11-deoxycortisol (21-hydroxylase), then cortisol (11-beta-hydroxylase).",
           "Zona reticularis uses 17,20-lyase to make DHEA and androstenedione.",
           "Block rule: substrates above a blocked enzyme pile up and spill into the pathways that are still open, and low cortisol raises ACTH, which drives even more flow."
-        ]
+        ],
+        "why": "All three zones start from the same cholesterol to pregnenolone step, and each zone's product depends on which enzymes it expresses: the glomerulosa has aldosterone synthase under angiotensin II and potassium control, while the fasciculata and reticularis express 17-alpha-hydroxylase under ACTH control. Cortisol is the only product that feeds back on ACTH, so any block on the cortisol path raises ACTH, enlarges both adrenals, and pushes precursors into whatever branch is still open. That is how 21-hydroxylase deficiency diverts 17-hydroxyprogesterone into androgens, and how 11-beta-hydroxylase deficiency causes hypertension through buildup of 11-deoxycorticosterone, a mineralocorticoid."
       },
       {
         "h": "Catecholamine synthesis and breakdown",
@@ -33,7 +35,8 @@
           "PNMT adds a methyl group from S-adenosylmethionine to make epinephrine; cortisol arriving through the adrenal portal flow from cortex to medulla induces PNMT.",
           "COMT converts epinephrine and norepinephrine to metanephrine and normetanephrine; MAO then makes vanillylmandelic acid (VMA). Dopamine breaks down to homovanillic acid (HVA).",
           "Pheochromocytoma cells metabolize catecholamines to metanephrines continuously, so plasma free or urine fractionated metanephrines are the most sensitive tests even when catecholamine release is episodic."
-        ]
+        ],
+        "why": "Each synthetic step needs a cofactor (tetrahydrobiopterin, pyridoxal phosphate, ascorbate and copper), so cofactor deficiency can lower catecholamine output. Norepinephrine is made inside vesicles, but PNMT works in the cytosol, and its expression needs the very high cortisol that reaches the medulla through the intra-adrenal portal flow, which is why epinephrine is made mainly in the adrenal medulla. Breakdown can run through COMT and MAO in either order, with VMA as the shared end product, and tumor cells convert stored catecholamines to metanephrines without pause, so metanephrines give a steadier signal than the episodically released hormones."
       },
       {
         "h": "Insulin processing and C-peptide",
@@ -42,7 +45,8 @@
           "In secretory granules, prohormone convertases cut out C-peptide, leaving insulin (A and B chains joined by two disulfide bonds).",
           "Insulin and C-peptide are released in equal molar amounts; the liver clears much of the insulin on first pass, while C-peptide is cleared by the kidney and lasts longer.",
           "Pharmaceutical insulin contains no C-peptide, so high insulin with low C-peptide means injected insulin."
-        ]
+        ],
+        "why": "Proinsulin is a single chain so that it can fold correctly and form its disulfide bonds; cutting out the C-peptide afterward leaves the A and B chains locked together. Cleavage releases one C-peptide for every insulin molecule, so C-peptide measures the beta cell's own secretion. In hypoglycemia, high insulin with high C-peptide means the beta cell is secreting (insulinoma or a sulfonylurea, told apart by a drug screen), while high insulin with low C-peptide means the insulin was injected and endogenous secretion is suppressed."
       },
       {
         "h": "ADH and oxytocin",
@@ -50,7 +54,8 @@
           "Both are made in magnocellular neurons of the supraoptic nucleus (mainly ADH) and paraventricular nucleus (mainly oxytocin).",
           "Each is made as a larger precursor that includes its carrier protein, neurophysin; the pair travels down the axons of the hypothalamo-hypophyseal tract by axonal transport.",
           "They are stored in axon terminals in the posterior pituitary and released by calcium-triggered exocytosis when the neurons fire. The posterior pituitary stores these hormones but does not make them."
-        ]
+        ],
+        "why": "ADH and oxytocin are neurosecretory: they are made in hypothalamic cell bodies, so the posterior pituitary is neural tissue that only stores and releases them. The precursor is cleaved inside the secretory granule during axonal transport, and neurophysin helps package the hormone into granules. This is why a hypothalamic or high stalk lesion causes lasting central diabetes insipidus, while removing the posterior lobe alone usually causes only transient diabetes insipidus, because ADH can still be released from axon endings higher in the stalk."
       },
       {
         "h": "11-beta-HSD2 and licorice",
@@ -59,7 +64,8 @@
           "11-beta-hydroxysteroid dehydrogenase type 2 in collecting duct cells converts cortisol to cortisone, which does not bind the receptor, so aldosterone stays the main signal.",
           "Glycyrrhetinic acid in licorice inhibits this enzyme; cortisol then activates the receptor, causing sodium retention, hypertension, hypokalemia, and metabolic alkalosis with low renin and low aldosterone.",
           "The same pattern appears with inherited loss of the enzyme (apparent mineralocorticoid excess) and when huge cortisol levels overwhelm it, as with ectopic ACTH."
-        ]
+        ],
+        "why": "The mineralocorticoid receptor cannot tell cortisol from aldosterone, so specificity comes from an enzyme in the target cell rather than from the receptor. 11-beta-HSD2 sits beside the receptor in aldosterone-target epithelia and oxidizes cortisol to inactive cortisone, which lets the far less abundant aldosterone control sodium reabsorption through ENaC and the Na-K-ATPase. When the enzyme is blocked or saturated, cortisol acts as a mineralocorticoid: volume expands, renin and aldosterone are suppressed, and potassium and hydrogen ion are lost in the urine."
       }
     ],
     "charts": [
@@ -232,6 +238,40 @@
       "EN-12-A1",
       "EN-12-G2",
       "EN-12-G6"
+    ],
+    "flows": [
+      {
+        "title": "Thyroid hormone synthesis and release",
+        "steps": [
+          "NIS pulls iodide into the follicular cell using the sodium gradient",
+          "Pendrin moves iodide across the apical membrane into the colloid",
+          "TPO oxidizes iodide and iodinates thyroglobulin tyrosines, forming MIT and DIT",
+          "TPO couples DIT plus DIT to T4 and MIT plus DIT to T3",
+          "TSH triggers endocytosis of iodinated thyroglobulin from the colloid",
+          "Lysosomal proteolysis frees T4 and T3, which enter the blood"
+        ]
+      },
+      {
+        "title": "Cortisol synthesis in the zona fasciculata",
+        "steps": [
+          "ACTH raises cAMP, and StAR moves cholesterol into mitochondria",
+          "Side-chain cleavage enzyme converts cholesterol to pregnenolone",
+          "3-beta-HSD and 17-alpha-hydroxylase convert pregnenolone to 17-hydroxyprogesterone",
+          "21-hydroxylase converts 17-hydroxyprogesterone to 11-deoxycortisol",
+          "11-beta-hydroxylase converts 11-deoxycortisol to cortisol"
+        ]
+      },
+      {
+        "title": "Catecholamine synthesis and breakdown",
+        "steps": [
+          "Tyrosine hydroxylase converts tyrosine to L-DOPA (rate-limiting step)",
+          "DOPA decarboxylase converts L-DOPA to dopamine",
+          "Dopamine beta-hydroxylase converts dopamine to norepinephrine inside vesicles",
+          "PNMT, induced by cortisol, methylates norepinephrine to epinephrine",
+          "COMT converts epinephrine and norepinephrine to metanephrine and normetanephrine",
+          "MAO and aldehyde dehydrogenase convert these to vanillylmandelic acid"
+        ]
+      }
     ]
   },
   {
@@ -246,7 +286,8 @@
           "MEN2A and MEN2B: gain-of-function mutation in the RET proto-oncogene, a receptor tyrosine kinase. One mutant copy is enough to drive growth.",
           "Both are autosomal dominant: each child of an affected parent has a 50 percent chance of inheriting the mutation.",
           "RET carriers are offered early prophylactic thyroidectomy because medullary thyroid carcinoma develops in nearly all of them."
-        ]
+        ],
+        "why": "MEN1 follows the two-hit model: the inherited mutation is in every cell, but menin normally restrains cell proliferation, so a gland cell becomes a tumor only after its second allele is lost, often by loss of heterozygosity. RET works the other way: one activating mutation lets the receptor tyrosine kinase signal without its ligand, so one allele is enough at the cellular level. Both disorders look autosomal dominant in families because a single inherited mutant allele gives a very high lifetime tumor risk, even though MEN1 behaves recessively inside the tumor cell."
       },
       {
         "h": "Congenital adrenal hyperplasia and diabetes",
@@ -257,7 +298,8 @@
           "Type 2 diabetes is polygenic, with no HLA link, and has higher monozygotic twin concordance than type 1.",
           "MODY is monogenic and autosomal dominant: young onset, not obese, no autoantibodies, not ketosis prone.",
           "Glucokinase MODY resets the beta cell glucose sensor higher, giving mild, stable fasting hyperglycemia; HNF1A MODY (a common type) worsens over time."
-        ]
+        ],
+        "why": "Enzyme deficiencies are usually autosomal recessive because one working allele makes enough enzyme; CYP21A2 lies next to a nonfunctional pseudogene in the HLA class III region, and gene conversion or deletion between them causes most mutations. In type 1 diabetes, the HLA class II molecules linked to DR3 and DR4 (DQ2 and DQ8) present islet peptides in a way that favors activation of autoreactive CD4 T cells. Type 2 diabetes reflects many genes affecting insulin secretion and action plus obesity, while MODY comes from a single dominant beta cell gene such as glucokinase, the glucose sensor that sets the threshold for insulin release."
       },
       {
         "h": "Thyroid cancer mutations",
@@ -266,7 +308,8 @@
           "Follicular carcinoma: RAS point mutations or PAX8-PPARG fusion.",
           "Medullary carcinoma: RET point mutations, germline in MEN2 and familial cases, somatic in many sporadic tumors.",
           "Anaplastic carcinoma often adds TP53 loss on top of an earlier BRAF or RAS mutation."
-        ]
+        ],
+        "why": "BRAF and RET/PTC both act on the MAP kinase pathway (receptor tyrosine kinase, RAS, RAF, MEK, ERK), so either one alone can drive papillary carcinoma, and they are rarely found together. RET/PTC forms when ionizing radiation breaks DNA and fuses the RET kinase domain to a partner gene that is always expressed, which is why radiation-related papillary cancers in children carry it. Follicular carcinoma grows through RAS or PAX8-PPARG, and later loss of TP53 removes a key brake and allows progression to anaplastic carcinoma. Medullary carcinoma arises from parafollicular C cells, which normally express RET, so activating RET mutations target exactly these cells."
       },
       {
         "h": "Sex development and gonadal axis",
@@ -276,7 +319,8 @@
           "5-alpha-reductase deficiency: autosomal recessive, 46,XY, low DHT with normal testosterone; ambiguous external genitalia at birth, normal Wolffian structures, and virilization at puberty when testosterone rises.",
           "Klinefelter syndrome 47,XXY (meiotic nondisjunction): small firm testes, infertility, gynecomastia, tall stature; low testosterone with high LH and FSH (primary hypogonadism).",
           "Kallmann syndrome: GnRH neurons fail to migrate from the olfactory placode with the olfactory neurons, giving anosmia with low GnRH, low LH and FSH, and delayed puberty (secondary hypogonadism)."
-        ]
+        ],
+        "why": "Male development needs three separate signals: AMH from Sertoli cells regresses the Mullerian ducts, testosterone from Leydig cells keeps the Wolffian ducts, and DHT made by 5-alpha-reductase masculinizes the external genitalia and prostate. Androgen insensitivity blocks the receptor that both testosterone and DHT use, so only AMH acts, and loss of androgen feedback raises LH and testosterone. In 5-alpha-reductase deficiency the receptor works, so the pubertal surge of testosterone can virilize the body even with little DHT. In hypogonadism, gonadotropins locate the defect: high LH and FSH mean the gonad failed, and low LH and FSH mean the hypothalamus or pituitary failed."
       },
       {
         "h": "Intracellular hormone receptors",
@@ -285,7 +329,8 @@
           "Steroid receptors such as the glucocorticoid receptor wait in the cytoplasm bound to heat shock proteins; hormone binding releases them so the receptor can dimerize and move to the nucleus.",
           "The thyroid hormone receptor sits on DNA in the nucleus as a heterodimer with the retinoid X receptor; T3 binding swaps corepressors for coactivators.",
           "The receptor's zinc finger domain binds a hormone response element and turns genes on or off, so effects take hours to days and last longer than the seconds-to-minutes effects of peptide hormones acting through second messengers."
-        ]
+        ],
+        "why": "Lipophilic hormones cross the membrane and act through nuclear receptors, a family of ligand-activated transcription factors with a ligand-binding domain and a zinc finger DNA-binding domain. The response requires transcription and then translation of new proteins, so onset takes hours, and effects outlast the hormone level because the new proteins persist. Peptide hormones cannot cross the membrane, so they bind surface receptors and change the activity of existing proteins through second messengers such as cAMP, IP3, and calcium within seconds to minutes."
       }
     ],
     "charts": [
@@ -480,6 +525,39 @@
       "EN-12-D1",
       "EN-12-G5",
       "EN-12-G6"
+    ],
+    "flows": [
+      {
+        "title": "Tumor formation in MEN1 (two-hit model)",
+        "steps": [
+          "A germline loss-of-function MEN1 mutation is present in every cell",
+          "The remaining normal allele still makes enough menin to restrain growth",
+          "A second hit inactivates the normal allele in one endocrine cell",
+          "Loss of menin releases growth control in that cell",
+          "Clonal expansion forms a parathyroid, pituitary, or pancreatic islet tumor"
+        ]
+      },
+      {
+        "title": "Androgen insensitivity in a 46,XY fetus",
+        "steps": [
+          "SRY directs the gonads to develop as testes",
+          "Sertoli cell AMH regresses the Mullerian ducts, so there is no uterus",
+          "Leydig cells make testosterone, but the androgen receptor cannot respond",
+          "Wolffian ducts regress and the external genitalia develop as female",
+          "Absent androgen feedback raises LH and testosterone",
+          "At puberty, aromatized testosterone causes breast development"
+        ]
+      },
+      {
+        "title": "Steroid hormone action on a target cell",
+        "steps": [
+          "The lipid-soluble hormone diffuses across the plasma membrane",
+          "It binds its cytoplasmic receptor, releasing heat shock proteins",
+          "The receptor dimerizes and moves into the nucleus",
+          "Zinc fingers bind the hormone response element in DNA",
+          "Target gene transcription changes, and new proteins are made over hours"
+        ]
+      }
     ]
   },
   {
@@ -494,7 +572,8 @@
           "TSH falls by negative feedback while T4 and T3 stay high, because the antibody does not respond to feedback.",
           "Orbital fibroblasts and fat also express the TSH receptor; T cells and cytokines drive glycosaminoglycan buildup and swelling of orbital fat and extraocular muscles (ophthalmopathy).",
           "IgG crosses the placenta, so a baby of a mother with Graves can have transient thyrotoxicosis that fades over weeks to a few months as maternal IgG is cleared. This can happen even after the mother's thyroid was removed."
-        ]
+        ],
+        "why": "Thyroid-stimulating immunoglobulins mimic TSH at its G protein-coupled receptor, so the follicular cell responds as it would to TSH, with more iodide uptake, hormone synthesis, and growth. The stimulus bypasses the pituitary, so high T4 and T3 suppress TSH yet output does not fall, giving low TSH, high free T4, and diffusely increased radioiodine uptake. The same receptor on orbital fibroblasts explains the eye disease, and because the antibody is IgG it crosses the placenta through the neonatal Fc receptor and stimulates the fetal thyroid until it is cleared after birth."
       },
       {
         "h": "Hashimoto thyroiditis",
@@ -502,7 +581,8 @@
           "Mainly T cell mediated: CD8 cytotoxic T cells kill follicular cells, and CD4 Th1 cells release interferon-gamma that activates macrophages.",
           "Antibodies against thyroid peroxidase (most sensitive) and thyroglobulin are the diagnostic markers and add antibody-dependent cell killing.",
           "Chronic lymphoid stimulation in the gland forms germinal centers and raises the risk of primary thyroid B cell lymphoma (extranodal marginal zone (MALT) or diffuse large B cell type)."
-        ]
+        ],
+        "why": "Hashimoto disease starts with loss of tolerance to thyroid antigens, and the injury is done mainly by cells (a type IV hypersensitivity pattern): CD8 T cells kill follicular cells and Th1 cytokines recruit and activate macrophages. Anti-TPO and anti-thyroglobulin antibodies reflect the attack and support the diagnosis, but they are not the main cause of injury. Ongoing antigen stimulation builds lymphoid follicles with germinal centers inside the gland, and constant B cell proliferation there raises the chance of a mutation that produces a clonal B cell lymphoma."
       },
       {
         "h": "Type 1 diabetes and LADA",
@@ -511,7 +591,8 @@
           "Autoantibodies to GAD65, insulin, IA-2, and ZnT8 appear years before symptoms; they are markers of the attack, and having more of them predicts higher risk.",
           "Symptoms begin after most beta cell mass is gone.",
           "LADA (type 1.5) is slowly progressive autoimmune diabetes in adults: GAD65 antibody positive, at first managed without insulin, often mistaken for type 2, with C-peptide falling over time."
-        ]
+        ],
+        "why": "Type 1 diabetes is driven by T cells: autoreactive CD4 T cells that escaped tolerance help CD8 T cells kill beta cells, which is why alpha cells and glucagon output remain. Autoantibodies to GAD65, insulin, IA-2, and ZnT8 arise as beta cell proteins are exposed during the attack, so they mark the process years before hyperglycemia without causing the injury themselves. Hyperglycemia appears only when the remaining beta cell mass can no longer meet insulin demand, and in LADA the same attack moves more slowly, so C-peptide is preserved early and falls over years."
       },
       {
         "h": "Autoimmune polyendocrine syndromes",
@@ -520,7 +601,8 @@
           "APS-1: autosomal recessive AIRE mutation; childhood chronic mucocutaneous candidiasis, hypoparathyroidism, and Addison disease.",
           "The candidiasis in APS-1 comes from autoantibodies that neutralize IL-17 and IL-22, cytokines needed for mucosal defense against Candida.",
           "APS-2: Addison disease with autoimmune thyroid disease, type 1 diabetes, or both; adult onset, more common in women, polygenic with HLA-DR3 and DR4."
-        ]
+        ],
+        "why": "AIRE makes medullary thymic epithelial cells express tissue-restricted proteins such as insulin and adrenal enzymes, so T cells that react to them are deleted before they leave the thymus. Without AIRE these self-reactive T cells escape and attack several endocrine glands at once, which is why APS-1 begins in childhood and follows a single-gene recessive pattern. APS-2 has no single central defect; it reflects shared HLA risk alleles, so it appears in adults and clusters with type 1 diabetes and autoimmune thyroid disease."
       },
       {
         "h": "Cytokines, cortisol, and vaccines",
@@ -532,7 +614,8 @@
           "Plain polysaccharide capsule is a T cell independent antigen: mostly IgM, little class switching, weak memory, and a poor response in children under 2 years.",
           "Conjugating the polysaccharide to a protein carrier lets the B cell present carrier peptides on MHC II to helper T cells, giving CD40L help, class switching to IgG, affinity maturation, and memory, even in infants.",
           "Meningococcal conjugate vaccines prevent invasive disease and so prevent Waterhouse-Friderichsen syndrome."
-        ]
+        ],
+        "why": "The HPA axis works as negative feedback on inflammation: cytokines raise cortisol, and cortisol blocks NF-kB, which shuts off transcription of those same cytokines, and induces annexin A1, which cuts arachidonic acid release and so lowers prostaglandins and leukotrienes. Polysaccharides cannot be loaded onto MHC II, so a plain capsule vaccine activates B cells without T cell help. Linking the polysaccharide to a protein lets the polysaccharide-specific B cell take up the conjugate and present carrier peptides, recruiting helper T cells that drive germinal center class switching, affinity maturation, and memory."
       }
     ],
     "charts": [
@@ -724,6 +807,38 @@
       "EN-12-C1",
       "EN-12-D1",
       "EN-12-H2"
+    ],
+    "flows": [
+      {
+        "title": "Graves disease pathogenesis",
+        "steps": [
+          "Loss of tolerance produces IgG antibodies against the TSH receptor",
+          "The antibodies bind and activate the TSH receptor on follicular cells",
+          "Gs and cAMP signaling increase hormone synthesis and follicular growth",
+          "T4 and T3 rise, and TSH falls by negative feedback",
+          "Antibody stimulation continues despite low TSH, sustaining thyrotoxicosis"
+        ]
+      },
+      {
+        "title": "Progression of type 1 diabetes",
+        "steps": [
+          "Genetic risk (HLA-DR3, DR4) plus loss of tolerance to beta cell antigens",
+          "Autoreactive T cells infiltrate the islets (insulitis)",
+          "CD8 T cells progressively destroy beta cells and spare alpha cells",
+          "Insulin secretion and C-peptide fall as beta cell mass shrinks",
+          "Hyperglycemia appears when remaining insulin can no longer meet demand"
+        ]
+      },
+      {
+        "title": "How a conjugate vaccine creates memory",
+        "steps": [
+          "A B cell receptor binds the capsular polysaccharide of the conjugate",
+          "The B cell internalizes the conjugate and processes the protein carrier",
+          "Carrier peptides are presented on MHC II to helper T cells",
+          "T cell CD40L and cytokines activate the B cell",
+          "Germinal center reaction gives class switching to IgG, affinity maturation, and memory"
+        ]
+      }
     ]
   },
   {
@@ -738,7 +853,8 @@
           "Virulence: polysaccharide capsule (blocks phagocytosis, defines serogroups), pili for attachment, IgA protease, and lipooligosaccharide (LOS) endotoxin.",
           "The bacteria shed LOS-rich membrane blebs, so endotoxin levels in blood can be very high.",
           "Higher risk with terminal complement (C5 to C9) deficiency and asplenia."
-        ]
+        ],
+        "why": "Each virulence factor matches a step of invasion: pili attach to nasopharyngeal epithelium, IgA protease cleaves mucosal IgA, and the polysaccharide capsule resists phagocytosis once the organism reaches the blood. Clearance of Neisseria in blood depends on antibody plus complement assembling the membrane attack complex, so terminal complement deficiency predisposes to recurrent neisserial infection. LOS lacks the long O antigen chains of LPS but keeps lipid A, the toxic part, and constant release of membrane blebs makes meningococcemia one of the most endotoxin-heavy infections."
       },
       {
         "h": "From endotoxin to adrenal hemorrhage",
@@ -748,7 +864,8 @@
           "The adrenal has a rich arterial plexus draining into a limited venous outflow, so it is prone to hemorrhagic infarction when vessels clot and bleed.",
           "Bilateral adrenal hemorrhage causes acute adrenal insufficiency and shock that does not respond to fluids, with a petechial or purpuric rash.",
           "Other organisms that can cause it: Streptococcus pneumoniae, Haemophilus influenzae, Pseudomonas, and staphylococci."
-        ]
+        ],
+        "why": "Lipid A binds TLR4 (with CD14 and MD-2) and activates NF-kB, producing a cytokine surge that causes vasodilation, capillary leak, and tissue factor expression on endothelium and monocytes. Tissue factor sets off coagulation throughout the microcirculation, so platelets and clotting factors are consumed while small vessels clot, and bleeding follows in organs with fragile vascular beds. The adrenal is vulnerable because many small arteries feed a sinusoidal bed that drains through a single adrenal vein, so thrombosis there causes hemorrhagic infarction of both glands, and the sudden loss of cortisol worsens septic shock."
       },
       {
         "h": "Thyroid infections",
@@ -758,7 +875,8 @@
           "In children, repeated left-sided infection points to a pyriform sinus fistula, a pharyngeal pouch remnant that lets bacteria track from the pharynx to the thyroid.",
           "Subacute granulomatous thyroiditis follows a viral upper respiratory infection; coxsackievirus and mumps are among the viruses implicated.",
           "Coxsackievirus is a nonenveloped positive-sense RNA picornavirus; mumps is an enveloped negative-sense RNA paramyxovirus spread by droplets."
-        ]
+        ],
+        "why": "The thyroid resists infection because of its capsule, rich blood and lymph supply, and high iodine content, so acute suppurative thyroiditis usually needs an anatomic route or a weakened host. A pyriform sinus fistula is a remnant of the third or fourth pharyngeal pouch running from the pyriform sinus toward the thyroid, and it occurs mostly on the left, so pharyngeal bacteria seed the left lobe again and again. Subacute thyroiditis is a different process: a viral infection triggers follicular injury in susceptible people (strongly linked to HLA-B35), so the gland becomes inflamed and granulomatous rather than filled with pus."
       },
       {
         "h": "Infectious adrenalitis",
@@ -767,7 +885,8 @@
           "Mycobacterium tuberculosis: acid-fast rod (mycolic acid wall) that forms caseating granulomas destroying cortex and medulla; healed glands often calcify.",
           "Histoplasma capsulatum: dimorphic fungus from bird and bat droppings in the Ohio and Mississippi River valleys; small yeasts inside macrophages; disseminated disease often enlarges both adrenals.",
           "Cytomegalovirus in AIDS: the most common adrenal infection at autopsy; cells show large intranuclear owl's eye inclusions."
-        ]
+        ],
+        "why": "The adrenal cortex has a large reserve, so cortisol and aldosterone fall only when most of both glands is destroyed, which is why infections that spread through the blood and seed both glands cause Addison disease. Tuberculosis and histoplasmosis survive inside macrophages and provoke granulomatous inflammation that replaces the cortex, while cytomegalovirus infects adrenal cells directly in advanced AIDS, usually with CD4 counts below 50 cells per microliter. These infections also involve the medulla, so imaging can show enlarged glands early and calcified glands after healing, unlike autoimmune adrenalitis, which leaves small glands and spares the medulla."
       }
     ],
     "charts": [
@@ -920,6 +1039,39 @@
       "EN-12-C2",
       "EN-12-H1",
       "EN-12-H2"
+    ],
+    "flows": [
+      {
+        "title": "Meningococcemia to Waterhouse-Friderichsen syndrome",
+        "steps": [
+          "N. meningitidis colonizes the nasopharynx and invades the bloodstream",
+          "The capsule resists phagocytosis, so bacteria multiply and shed LOS blebs",
+          "Lipid A binds TLR4, releasing TNF-alpha, IL-1, and IL-6",
+          "Endothelial injury and tissue factor expression trigger DIC",
+          "Thrombosis and bleeding cause bilateral adrenal hemorrhagic infarction",
+          "Acute adrenal insufficiency worsens septic shock"
+        ]
+      },
+      {
+        "title": "Acute suppurative thyroiditis from a pyriform sinus fistula",
+        "steps": [
+          "A third or fourth pharyngeal pouch remnant persists as a fistula",
+          "The tract runs from the left pyriform sinus toward the thyroid",
+          "Pharyngeal bacteria track down the tract, often after an upper respiratory infection",
+          "Bacteria seed the left thyroid lobe and form an abscess",
+          "Infection recurs until the tract is removed or closed"
+        ]
+      },
+      {
+        "title": "Tuberculous Addison disease",
+        "steps": [
+          "Blood-borne M. tuberculosis seeds both adrenal glands",
+          "Macrophages and T cells form caseating granulomas",
+          "Granulomas replace the cortex and medulla",
+          "Loss of about 90 percent of the cortex lowers cortisol and aldosterone",
+          "Low cortisol raises ACTH, causing hyperpigmentation"
+        ]
+      }
     ]
   },
   {
@@ -936,7 +1088,8 @@
           "High-dose dexamethasone suppresses a pituitary adenoma (some feedback is kept) but not ectopic ACTH.",
           "Protein breakdown causes proximal muscle weakness, thin skin, wide purple striae, bruising, osteoporosis, and poor wound healing; fat redistribution causes central obesity, moon facies, and a dorsocervical fat pad.",
           "Gluconeogenesis and insulin resistance cause hyperglycemia; hypertension comes partly from cortisol acting on mineralocorticoid receptors."
-        ]
+        ],
+        "why": "Cortisol excess is confirmed by showing loss of normal regulation (no late-night trough, no suppression by low-dose dexamethasone) and localized by asking whether ACTH is driving it. A corticotroph adenoma keeps feedback with a raised set point, so high-dose dexamethasone still suppresses it, while ectopic ACTH and adrenal tumors do not respond. The clinical picture follows cortisol's catabolic and gluconeogenic actions: protein breakdown weakens muscle, skin, and bone, insulin resistance raises glucose and favors truncal fat, and cortisol spilling past 11-beta-HSD2 contributes mineralocorticoid effects."
       },
       {
         "h": "Hyperaldosteronism",
@@ -945,7 +1098,8 @@
           "Findings: hypertension, hypokalemia, and metabolic alkalosis (potassium and hydrogen ion loss in the collecting duct), with high aldosterone and suppressed renin.",
           "No edema, because of aldosterone escape (pressure natriuresis and natriuretic peptides).",
           "Secondary: high renin drives aldosterone, as in renal artery stenosis, heart failure, cirrhosis, nephrotic syndrome, or diuretic use."
-        ]
+        ],
+        "why": "Aldosterone increases ENaC channels and Na-K-ATPase in principal cells, so sodium reabsorption makes the lumen more negative, which drives potassium secretion from principal cells and hydrogen ion secretion from alpha-intercalated cells. In primary disease the extra volume suppresses renin, so a high aldosterone to renin ratio is the screening clue; in secondary disease, low effective arterial volume or renal hypoperfusion raises renin first, so both are high. Volume does not keep expanding because pressure natriuresis and natriuretic peptides cause sodium escape, while potassium wasting continues, which is why hypokalemia without edema is the classic picture."
       },
       {
         "h": "Parathyroid and calcium",
@@ -957,7 +1111,8 @@
           "In vitamin D deficiency, calcium is low or normal, phosphate is low, and PTH is high.",
           "Renal osteodystrophy is the bone disease of CKD; tertiary hyperparathyroidism is autonomous PTH secretion with hypercalcemia after long secondary stimulation, often seen after kidney transplant.",
           "Familial hypocalciuric hypercalcemia: autosomal dominant inactivating calcium-sensing receptor mutation; mild hypercalcemia, normal or mildly raised PTH, very low urine calcium, usually no symptoms, and surgery does not help."
-        ]
+        ],
+        "why": "PTH raises blood calcium by activating osteoclasts through RANKL on osteoblasts, increasing distal tubule calcium reabsorption, and stimulating renal 1-alpha-hydroxylase to make calcitriol, while it reduces proximal tubule phosphate reabsorption. In primary disease the gland escapes calcium feedback, so calcium rises and phosphate falls together, and the high filtered calcium load causes stones and polyuria. In CKD the kidney cannot excrete phosphate or make calcitriol, so PTH rises as an appropriate response, and years of stimulation can produce autonomous glands (tertiary disease). In familial hypocalciuric hypercalcemia the calcium-sensing receptor reads calcium as low in parathyroid and kidney, so PTH is not suppressed and the kidney retains calcium."
       },
       {
         "h": "GH excess",
@@ -967,7 +1122,8 @@
           "Acromegaly: coarse facial features, frontal bossing, prognathism, enlarged hands and feet, macroglossia, sweating, carpal tunnel syndrome, and sleep apnea.",
           "GH opposes insulin, causing insulin resistance and diabetes; cardiomyopathy and hypertension are the leading cause of death.",
           "Diagnosis: raised IGF-1, then confirmation by failure of GH to suppress after an oral glucose load."
-        ]
+        ],
+        "why": "GH acts directly and through IGF-1, made mainly in the liver: IGF-1 drives growth of cartilage, bone, and soft tissue, while direct GH effects increase lipolysis and hepatic glucose output and oppose insulin. Whether excess causes gigantism or acromegaly depends on the epiphyseal growth plates, since open plates allow linear growth and closed plates leave only periosteal and soft tissue growth. Normal somatotrophs are suppressed by an oral glucose load, so persistent GH after glucose shows autonomous secretion, and IGF-1 is a useful screen because its long half-life smooths out pulsatile GH release."
       },
       {
         "h": "Hyperthyroidism",
@@ -976,7 +1132,8 @@
           "T3 raises Na-K-ATPase activity and metabolic rate (heat intolerance, sweating, weight loss with good appetite) and increases beta-adrenergic receptors in the heart (tachycardia, atrial fibrillation, tremor).",
           "Excess thyroid hormone speeds bone turnover and causes bone loss.",
           "Thyroid storm: fever, tachyarrhythmia, delirium, vomiting, and heart failure, triggered by stress such as infection, surgery, or delivery; it can be fatal."
-        ]
+        ],
+        "why": "T3 acts on nuclear receptors to increase Na-K-ATPase, mitochondrial enzymes, and beta-1 adrenergic receptors, so the body burns more ATP, makes more heat, and responds more strongly to normal catecholamine levels. That added sensitivity explains the tremor, tachycardia, and atrial fibrillation and is why beta blockers relieve symptoms quickly. Graves disease and toxic multinodular goiter both cause high-uptake thyrotoxicosis, but Graves is antibody stimulation of the whole gland, while toxic multinodular goiter is autonomous nodules (often with activating TSH receptor mutations) that suppress the rest of the gland. Thyroid storm occurs when a stressor pushes this high-output state into failure of temperature regulation and cardiac compensation."
       },
       {
         "h": "SIADH and precocious puberty",
@@ -985,7 +1142,8 @@
           "SIADH labs: hyponatremia with low serum osmolality, urine osmolality inappropriately high, urine sodium high, and normal volume status.",
           "Central precocious puberty: early GnRH activation with pubertal LH and FSH.",
           "Peripheral precocious puberty: sex steroids from congenital adrenal hyperplasia, McCune-Albright syndrome (activating GNAS mutation), or a tumor; LH and FSH are suppressed."
-        ]
+        ],
+        "why": "In SIADH, ADH keeps aquaporin-2 channels in the collecting duct regardless of serum osmolality, so free water is retained and sodium is diluted. The small rise in volume triggers natriuretic peptides and pressure natriuresis, so the kidney keeps excreting sodium and the patient stays clinically euvolemic, which is why urine sodium is high. In precocious puberty, LH and FSH reveal the source: central puberty is the normal axis switched on early, while peripheral puberty comes from sex steroids made without GnRH, and those steroids suppress gonadotropins by negative feedback."
       }
     ],
     "charts": [
@@ -1245,6 +1403,37 @@
       "EN-12-B",
       "EN-12-G3",
       "EN-12-G4"
+    ],
+    "flows": [
+      {
+        "title": "Cushing disease",
+        "steps": [
+          "A corticotroph pituitary adenoma secretes ACTH with a raised feedback set point",
+          "ACTH drives bilateral adrenal hyperplasia and cortisol excess",
+          "Cortisol increases protein breakdown, gluconeogenesis, and insulin resistance",
+          "Muscle weakness, striae, osteoporosis, hyperglycemia, and central obesity develop"
+        ]
+      },
+      {
+        "title": "Primary hyperaldosteronism",
+        "steps": [
+          "An adrenal adenoma or bilateral hyperplasia secretes aldosterone independent of renin",
+          "Principal cells reabsorb more sodium through ENaC",
+          "The lumen-negative potential drives potassium and hydrogen ion secretion",
+          "Hypokalemia and metabolic alkalosis develop",
+          "Sodium retention expands volume, raises blood pressure, and suppresses renin"
+        ]
+      },
+      {
+        "title": "Secondary hyperparathyroidism in chronic kidney disease",
+        "steps": [
+          "Falling GFR causes phosphate retention",
+          "FGF23 rises and renal 1-alpha-hydroxylase activity falls",
+          "Low calcitriol reduces gut calcium absorption, and serum calcium falls",
+          "Low calcium, high phosphate, and low calcitriol stimulate PTH secretion",
+          "Parathyroid hyperplasia and high bone turnover cause renal osteodystrophy"
+        ]
+      }
     ]
   },
   {
@@ -1257,7 +1446,8 @@
           "Central: too little ADH, from head trauma, pituitary or hypothalamic surgery, tumors such as craniopharyngioma, or infiltrative disease.",
           "Nephrogenic: the kidney does not respond to ADH, from V2 receptor (X-linked) or aquaporin-2 defects, lithium, hypercalcemia, or hypokalemia.",
           "Both cause polyuria with dilute urine and thirst; serum sodium rises (hypernatremia) only when the patient cannot drink enough."
-        ]
+        ],
+        "why": "ADH binds V2 receptors on collecting duct principal cells, raises cAMP, and inserts aquaporin-2 channels so water can follow the medullary gradient. Without ADH (central) or without a working V2 receptor or aquaporin-2 (nephrogenic, including lithium, hypercalcemia, and hypokalemia, which impair aquaporin-2), the collecting duct stays impermeable to water and large volumes of dilute urine are lost. Thirst normally replaces the water, so sodium stays near normal unless intake is limited. The water deprivation test separates the causes: urine concentrates with dehydration alone in primary polydipsia, only after desmopressin in central diabetes insipidus, and not at all in nephrogenic diabetes insipidus."
       },
       {
         "h": "Adrenal insufficiency",
@@ -1269,7 +1459,8 @@
           "Adrenal crisis: stress in a patient with chronic insufficiency, sudden stop of long-term glucocorticoids, or bilateral adrenal hemorrhage (anticoagulation, DIC, Waterhouse-Friderichsen syndrome).",
           "Cortisol is needed for vessels to respond to catecholamines, so crisis causes shock that does not respond well to fluids and pressors.",
           "Secondary: low ACTH from pituitary disease or suppression by exogenous glucocorticoids; no hyperpigmentation and no hyperkalemia because renin and angiotensin II still drive aldosterone."
-        ]
+        ],
+        "why": "In primary disease the gland itself fails, so cortisol and aldosterone fall together and the pituitary makes more POMC, whose cleavage yields ACTH and alpha-MSH; both activate the melanocortin 1 receptor on melanocytes. Loss of aldosterone causes renal sodium wasting with potassium and hydrogen ion retention, so volume and blood pressure fall and potassium rises. In secondary disease ACTH is low, so there is no hyperpigmentation, and the zona glomerulosa is still driven by angiotensin II and potassium, so aldosterone and potassium stay near normal. Cortisol is permissive for vascular responses to catecholamines, which is why crisis presents as shock that responds poorly to fluids and pressors."
       },
       {
         "h": "Hypoparathyroidism",
@@ -1279,7 +1470,8 @@
           "Low calcium makes nerves fire too easily: perioral and fingertip numbness, muscle cramps, carpopedal spasm, tetany, laryngospasm, and seizures.",
           "Chvostek sign is facial twitching when the facial nerve is tapped; Trousseau sign is carpal spasm after a blood pressure cuff is inflated above systolic pressure. The ECG shows a long QT interval.",
           "Pseudohypoparathyroidism type 1a: maternally inherited inactivating GNAS mutation causes PTH resistance; calcium is low and phosphate high, but PTH is high. Patients have Albright hereditary osteodystrophy (short stature, round face, short fourth and fifth metacarpals)."
-        ]
+        ],
+        "why": "Without PTH the kidney loses calcium and keeps phosphate, calcitriol production falls, and bone releases less calcium, so serum calcium drops while phosphate rises. Low extracellular calcium lowers the threshold for opening voltage-gated sodium channels in nerve membranes, so nerves fire spontaneously, causing numbness, carpopedal spasm, and the Chvostek and Trousseau signs. Low calcium also prolongs the plateau (phase 2) of the ventricular action potential, lengthening the QT interval. Magnesium is needed for PTH release and action, so severe hypomagnesemia causes functional hypoparathyroidism, while in pseudohypoparathyroidism the defective Gs alpha subunit blocks PTH signaling, so PTH is high but cannot act."
       },
       {
         "h": "Hypopituitarism and hypothalamic lesions",
@@ -1289,7 +1481,8 @@
           "Primary empty sella: arachnoid and CSF herniate through a defective diaphragma sellae and flatten the pituitary; function is usually normal, but it can cause hypopituitarism or mild hyperprolactinemia.",
           "Hypothalamic lesions (craniopharyngioma, sarcoidosis, Langerhans cell histiocytosis, radiation) lower releasing hormones, so anterior pituitary output falls.",
           "They also cause central diabetes insipidus, and prolactin rises because dopamine no longer reaches the lactotrophs."
-        ]
+        ],
+        "why": "The anterior pituitary depends on hypothalamic releasing hormones carried in the hypophyseal portal veins, so damage to the gland, the stalk, or the hypothalamus all reduce its output. Prolactin is the exception because dopamine holds it down, so stalk or hypothalamic damage raises prolactin while other hormones fall. Macroadenomas, apoplexy, and Sheehan necrosis destroy tissue directly; in Sheehan syndrome the gland, enlarged in pregnancy and fed by low-pressure portal blood, infarcts when postpartum hemorrhage causes hypotension. The posterior pituitary is an extension of the hypothalamus, so diabetes insipidus points to a hypothalamic or high stalk lesion rather than a pituitary adenoma."
       },
       {
         "h": "Hypothyroidism",
@@ -1300,7 +1493,8 @@
           "In primary hypothyroidism, high TRH stimulates lactotrophs, raising prolactin; this can cause galactorrhea, menstrual disturbance, and infertility.",
           "Congenital hypothyroidism: thyroid dysgenesis (most common), dyshormonogenesis, or maternal iodine deficiency; babies show lethargy, prolonged jaundice, large tongue, umbilical hernia, and intellectual disability if untreated.",
           "Euthyroid sick syndrome: severe illness reduces peripheral T4 to T3 conversion, giving low T3, high reverse T3, and usually normal TSH."
-        ]
+        ],
+        "why": "Low thyroid hormone removes negative feedback, so TRH and TSH rise and TSH-driven hyperplasia enlarges the gland; years of uneven stimulation leave nodules of differing sensitivity, turning a diffuse goiter into a multinodular one. Thyroid hormone sets the basal metabolic rate, beta-adrenergic responsiveness, and LDL receptor expression, so deficiency lowers heat production, slows the heart and bowel, and raises LDL, while slower glycosaminoglycan breakdown causes nonpitting myxedema. In euthyroid sick syndrome, illness and fasting reduce type 1 deiodinase activity, which lowers conversion of T4 to T3 and slows clearance of reverse T3, so T3 falls and reverse T3 rises without true thyroid disease."
       }
     ],
     "charts": [
@@ -1590,6 +1784,38 @@
       "EN-12-C1",
       "EN-12-F1",
       "EN-12-H2"
+    ],
+    "flows": [
+      {
+        "title": "Primary adrenal insufficiency and hyperpigmentation",
+        "steps": [
+          "Autoimmune, infectious, or metastatic disease destroys the adrenal cortex",
+          "Cortisol and aldosterone fall together",
+          "Loss of cortisol feedback raises pituitary POMC production",
+          "POMC cleavage releases more ACTH and alpha-MSH",
+          "Melanocortin 1 receptor activation on melanocytes causes hyperpigmentation"
+        ]
+      },
+      {
+        "title": "Iodine deficiency goiter",
+        "steps": [
+          "Low dietary iodine limits thyroid hormone synthesis",
+          "Falling T4 and T3 reduce negative feedback",
+          "TRH and TSH secretion rise",
+          "TSH drives follicular hypertrophy and hyperplasia, giving a diffuse goiter",
+          "Repeated cycles of stimulation and involution form a multinodular goiter"
+        ]
+      },
+      {
+        "title": "Central diabetes insipidus",
+        "steps": [
+          "Trauma, surgery, or tumor damages hypothalamic neurons or the pituitary stalk",
+          "ADH secretion falls",
+          "Without V2 signaling, aquaporin-2 is not inserted in the collecting duct",
+          "Large volumes of dilute urine are excreted",
+          "Thirst rises, and hypernatremia develops if water intake is limited"
+        ]
+      }
     ]
   },
   {
@@ -1606,7 +1832,8 @@
           "The usual course is a slow slide through subclinical hypothyroidism (high TSH, normal free T4) to permanent hypothyroidism.",
           "It travels with other autoimmune diseases: type 1 diabetes, pernicious anemia, Addison disease, celiac disease, and vitiligo.",
           "It raises the risk of primary thyroid B cell lymphoma, which shows up as a rapidly enlarging thyroid in a patient with known Hashimoto."
-        ]
+        ],
+        "why": "Hashimoto thyroiditis follows a breakdown of self-tolerance, with genetic risk (HLA, CTLA4, and PTPN22 variants among others) plus environmental triggers, so autoreactive T cells reach the thyroid and destroy follicles by cytotoxic killing, Fas-mediated apoptosis, and macrophage activation. The early, brief thyrotoxicosis is release of stored hormone from damaged follicles, and the later hypothyroidism reflects loss of follicular cell mass, with TSH rising first as the gland struggles to keep up. Surviving follicular cells change into mitochondria-rich Hurthle cells, and chronic B cell stimulation in germinal centers explains the lymphoma risk."
       },
       {
         "h": "Subacute granulomatous (de Quervain) thyroiditis",
@@ -1616,7 +1843,8 @@
           "Damaged follicles leak stored hormone, so T4 is high and TSH is low, but radioiodine uptake is low because the gland is not making new hormone.",
           "Histology: follicle destruction with neutrophils early, then lymphocytes and macrophages, and granulomas with multinucleated giant cells around pools of colloid.",
           "Course: thyrotoxic phase for weeks, often a transient hypothyroid phase as stores run out, then recovery to normal function in most patients within months."
-        ]
+        ],
+        "why": "Subacute thyroiditis is a destructive thyroiditis: a viral infection, likely triggering a T cell response in people who carry HLA-B35, breaks follicles open and releases preformed hormone into the blood. TSH falls, so the remaining follicular cells stop trapping iodine, which is why radioiodine uptake is low despite high T4, the key difference from Graves disease. Colloid spilled into the interstitium draws macrophages and multinucleated giant cells that form granulomas, and once stores run out a temporary hypothyroid phase follows until the follicles regenerate."
       },
       {
         "h": "Painless and Riedel thyroiditis",
@@ -1626,7 +1854,8 @@
           "Histology of painless thyroiditis shows lymphocytes without the fibrosis and Hurthle cells of Hashimoto.",
           "Riedel thyroiditis: IgG4-related dense fibrosis that extends beyond the capsule into neck structures, giving a rock-hard, fixed, painless thyroid.",
           "Riedel can compress the trachea, esophagus, or recurrent laryngeal nerve and mimic anaplastic carcinoma; it may occur with other fibrosing diseases such as retroperitoneal fibrosis."
-        ]
+        ],
+        "why": "Painless and postpartum thyroiditis are destructive like subacute thyroiditis, so they follow the same thyrotoxic, hypothyroid, and recovery course with low radioiodine uptake, but the cause is autoimmune lymphocytic inflammation without granulomas or pain. Postpartum timing reflects the rebound of immune activity after the immune tolerance of pregnancy wanes. Riedel thyroiditis is a different process: IgG4-producing plasma cells and activated fibroblasts lay down dense collagen that crosses the capsule, so the gland becomes hard and fixed and compresses neck structures, which is why it can mimic an invasive carcinoma."
       }
     ],
     "charts": [
@@ -1763,6 +1992,28 @@
       "EN-12-A4",
       "EN-12-B5",
       "EN-12-H1"
+    ],
+    "flows": [
+      {
+        "title": "Course of Hashimoto thyroiditis",
+        "steps": [
+          "Loss of tolerance to thyroid antigens such as TPO and thyroglobulin",
+          "CD4 and CD8 T cells infiltrate the gland and destroy follicular cells",
+          "Damaged follicles may leak stored hormone, causing brief hashitoxicosis",
+          "Shrinking follicular mass raises TSH with normal free T4 (subclinical)",
+          "Continued destruction causes overt hypothyroidism with low free T4"
+        ]
+      },
+      {
+        "title": "Course of subacute granulomatous thyroiditis",
+        "steps": [
+          "A viral upper respiratory infection precedes thyroid inflammation",
+          "Follicles rupture and release stored T4 and T3",
+          "Thyrotoxic phase: high T4, low TSH, and low radioiodine uptake",
+          "Hormone stores run out, giving a transient hypothyroid phase",
+          "Follicles regenerate, and most patients return to normal function"
+        ]
+      }
     ]
   }
 ]

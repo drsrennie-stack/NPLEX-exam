@@ -13,7 +13,8 @@
           "Deficiency of terminal complement (C5 to C9) raises the risk of repeated Neisseria infection.",
           "Haemophilus influenzae type b: gram-negative coccobacillus with a polyribosylribitol phosphate (PRP) capsule; needs factors X (hematin) and V (NAD) to grow.",
           "Hib conjugate vaccine links PRP to a protein so infants make a T-cell-dependent antibody response; Hib meningitis is now mainly seen in unvaccinated children."
-        ]
+        ],
+        "why": "All three organisms colonize the nasopharynx, enter the blood, and must survive there long enough to seed the meninges, and the polysaccharide capsule makes that possible by blocking opsonization and phagocytosis. The spleen clears poorly opsonized encapsulated bacteria, so asplenia raises the risk from all three. Neisseria is killed mainly by the membrane attack complex, which is why terminal complement deficiency predisposes to it in particular. Plain polysaccharide is a T-cell-independent antigen that infants under about 2 years answer poorly, so conjugating it to a protein recruits helper T cells, class switching, and memory."
       },
       {
         "h": "Neonatal meningitis",
@@ -23,7 +24,8 @@
           "Listeria monocytogenes: gram-positive rod, tumbling motility, grows in the refrigerator; found in unpasteurized dairy and deli meats.",
           "Listeria lives inside cells: listeriolysin O lets it escape the phagosome, and ActA builds actin tails that push it into the next cell without meeting antibody.",
           "Listeria crosses the placenta and targets neonates, pregnant women, older adults, and people with weak cell-mediated immunity."
-        ]
+        ],
+        "why": "Newborns have low complement, immature neutrophils, and little antibody beyond maternal IgG, so they are vulnerable to organisms met in the birth canal or across the placenta. Group B strep and K1 E. coli are extracellular and rely on sialic acid-rich capsules to evade complement and reach the meninges through the blood. Listeria lives inside cells, out of reach of antibody, so clearing it depends on cell-mediated immunity (Th1 cells and activated macrophages). This explains why pregnancy, extremes of age, and steroid or transplant immunosuppression raise the risk of listeriosis."
       },
       {
         "h": "Clostridial neurotoxins",
@@ -33,7 +35,8 @@
           "Botulism signs: diplopia, ptosis, dysphagia, dilated pupils, then descending weakness. Adults eat preformed toxin in canned food; infants swallow spores (honey) that make toxin in the gut.",
           "Tetanospasmin from Clostridium tetani spores in a wound enters motor nerve terminals and travels retrograde to the spinal cord.",
           "There it blocks GABA and glycine release from inhibitory interneurons (Renshaw cells), so motor neurons fire unchecked: trismus, risus sardonicus, opisthotonos, spastic paralysis."
-        ]
+        ],
+        "why": "Transmitter release needs SNARE proteins (synaptobrevin on the vesicle, SNAP-25 and syntaxin on the membrane) to zip together after calcium enters the terminal. Both toxins cleave SNAREs, so the clinical picture depends on which neuron the toxin ends up in. Botulinum toxin stays at peripheral cholinergic terminals, so acetylcholine release fails at the neuromuscular junction and parasympathetic synapses, giving flaccid weakness and dilated pupils. Tetanospasmin is carried back to the spinal cord and silences inhibitory interneurons, so motor neurons lose their brake and muscles lock in spasm."
       },
       {
         "h": "Neurotropic viruses",
@@ -44,7 +47,8 @@
           "Enteroviruses (coxsackievirus, echovirus, poliovirus): nonenveloped positive-sense picornaviruses spread fecal-oral, mostly summer and fall; the top cause of viral (aseptic) meningitis.",
           "West Nile virus: enveloped positive-sense flavivirus; Culex mosquitoes carry it from bird reservoirs; humans and horses are dead-end hosts.",
           "Rabies: bullet-shaped, enveloped, negative-sense rhabdovirus; binds the nicotinic acetylcholine receptor at the bite site and climbs to the CNS by retrograde (dynein) axonal transport. Negri bodies sit in Purkinje and hippocampal neurons."
-        ]
+        ],
+        "why": "A neurotropic virus needs a receptor that lets it enter neural cells and a route to reach them. Herpesviruses and rabies use axonal transport, entering at a peripheral site and moving along nerves to ganglia or the CNS; HSV-1 encephalitis characteristically targets the medial temporal and orbitofrontal lobes, which is why temporal lobe signs and seizures dominate. Enteroviruses and West Nile virus instead reach the CNS through viremia after gut or mosquito-bite entry. JC virus causes disease only when cellular immunity fails, and its lysis of oligodendrocytes produces the multifocal demyelination of PML."
       },
       {
         "h": "Fungi, spirochetes, and leprosy",
@@ -55,6 +59,41 @@
           "Treponema pallidum: thin spirochete too narrow to see on Gram stain; darkfield shows it in a chancre; VDRL and RPR detect nonspecific anticardiolipin antibody; FTA-ABS detects specific antibody and stays positive for life.",
           "Borrelia burgdorferi: spirochete spread by Ixodes ticks (white-footed mouse reservoir, deer host); causes facial palsy and lymphocytic meningitis.",
           "Mycobacterium leprae: acid-fast, cannot be grown in culture, prefers cooler sites (skin, nose, peripheral nerves) and invades Schwann cells; armadillos are a US reservoir."
+        ],
+        "why": "Each organism's lab clue follows from its structure: the cryptococcal capsule excludes India ink, sheds antigen into CSF, and impairs phagocytosis, so disease appears once CD4 T cells fall. In ketoacidosis, acid pH releases iron from transferrin, and Mucorales use that iron and glucose to grow, then invade vessel walls and cause thrombosis and necrosis. Treponema is too thin to resolve by ordinary light microscopy, so diagnosis relies on darkfield or serology. Mycobacterium leprae grows best below core temperature, about 27 to 30 °C (81 to 86 °F), which explains its preference for skin, nose, and superficial nerves."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Bacterial meningitis from nasopharynx to CSF",
+        "steps": [
+          "Bacteria colonize the nasopharyngeal mucosa",
+          "They cross the mucosa and enter the bloodstream",
+          "Capsule resists complement and phagocytosis, sustaining bacteremia",
+          "Bacteria cross the blood-brain barrier into the subarachnoid space",
+          "Bacterial cell wall components trigger cytokines and neutrophil influx into CSF",
+          "Inflammation raises CSF protein, lowers CSF glucose, and causes cerebral edema"
+        ]
+      },
+      {
+        "title": "Tetanus from wound to spasm",
+        "steps": [
+          "Spores germinate in an anaerobic wound and release tetanospasmin",
+          "Toxin binds motor nerve terminals and is taken up by endocytosis",
+          "Retrograde axonal transport carries toxin to the spinal cord",
+          "Toxin enters inhibitory interneurons and cleaves synaptobrevin",
+          "GABA and glycine release stops, so motor neurons fire unchecked",
+          "Sustained spasm: trismus, risus sardonicus, opisthotonos"
+        ]
+      },
+      {
+        "title": "Rabies from bite to brain",
+        "steps": [
+          "Virus replicates in muscle near the bite",
+          "It binds nicotinic acetylcholine receptors at the neuromuscular junction",
+          "It enters peripheral nerve and moves by retrograde dynein transport",
+          "It reaches the spinal cord and brain and infects neurons",
+          "Encephalitis with Negri bodies: agitation, hydrophobia, then coma and death"
         ]
       }
     ],
@@ -298,7 +337,8 @@
           "TIA: brief focal deficit, usually gone within an hour, with no infarct on imaging; a warning sign for stroke.",
           "Shared risk factors: hypertension (the strongest), atrial fibrillation, diabetes, smoking, dyslipidemia.",
           "Noncontrast CT comes first because fresh blood is bright on CT right away, while early ischemia may not show for hours; hemorrhage must be excluded before clot-dissolving therapy."
-        ]
+        ],
+        "why": "Neurons store almost no glucose or oxygen, so tissue beyond a blocked artery stops working within seconds and starts to die within minutes. Thrombosis builds on an existing plaque, while an embolus arrives suddenly and lodges distally; when it fragments, blood returns to ischemia-damaged vessels and leaks, which is why embolic infarcts often turn hemorrhagic. Lacunes come from a different process: chronic hypertension thickens the walls of small penetrating arteries (hyaline arteriolosclerosis) until they close. Because these arteries feed densely packed deep tracts, a tiny infarct can produce a pure motor or pure sensory stroke."
       },
       {
         "h": "What an infarct looks like over time",
@@ -307,7 +347,8 @@
           "About 1 to 3 days: neutrophils enter.",
           "From about day 3 to weeks: macrophages (microglia) eat the debris.",
           "Weeks to months: reactive astrocytes form gliosis around a fluid-filled cyst, the end result of liquefactive necrosis."
-        ]
+        ],
+        "why": "Brain tissue is rich in lipid and lysosomal enzymes and has little collagen to hold its shape, so digestion by microglia and macrophages liquefies the infarct instead of preserving its outline, as happens in the heart. The timeline follows the sequence of injury: ATP failure first damages neurons (red neurons), dying tissue then releases chemokines that recruit neutrophils, and macrophages follow to clear lipid-rich myelin and become foamy. The brain parenchyma has few fibroblasts, so astrocytes wall off the resulting cavity with glial fibers instead of collagen scar."
       },
       {
         "h": "Global hypoxic-ischemic injury",
@@ -315,7 +356,8 @@
           "Cardiac arrest, shock, drowning, or carbon monoxide cut oxygen to the whole brain; glutamate excitotoxicity and calcium influx kill neurons.",
           "Most vulnerable neurons: hippocampal CA1 pyramidal cells, cerebellar Purkinje cells, and neocortical pyramidal cells (laminar necrosis in layers 3, 5, and 6).",
           "Severe hypotension causes watershed infarcts in border zones between arterial territories, such as between the ACA and MCA (proximal arm and shoulder weakness)."
-        ]
+        ],
+        "why": "When perfusion fails, ATP runs out, the Na+/K+ ATPase stops, and neurons depolarize and release glutamate. Glutamate overstimulates NMDA receptors, calcium floods in, and calcium activates proteases, phospholipases, and free radical production that destroy the cell. Neurons with heavy glutamate input and high metabolic demand, such as CA1 pyramidal cells and Purkinje cells, die first. Watershed zones sit at the far ends of two arterial trees, where perfusion pressure is lowest, so a fall in systemic pressure starves them before other regions."
       },
       {
         "h": "Intracranial hemorrhage",
@@ -327,7 +369,8 @@
           "Hypertensive intraparenchymal hemorrhage: Charcot-Bouchard microaneurysms burst in the basal ganglia (putamen), thalamus, pons, and cerebellum.",
           "Cerebral amyloid angiopathy: beta-amyloid in walls of cortical vessels causes recurrent lobar hemorrhage in older adults.",
           "Arteriovenous malformation: tangled arteries drain straight into veins with no capillary bed; causes hemorrhage and seizures in young adults."
-        ]
+        ],
+        "why": "Each bleed's shape and speed come from the space it fills: the middle meningeal artery bleeds at arterial pressure between bone and dura, which is fixed at sutures, so the clot is lens-shaped and expands fast. Bridging veins bleed at low pressure into the subdural space, which sutures do not limit, so a crescent collects slowly. Aneurysms form where the media is thin at circle of Willis branch points, and rupture fills the CSF with arterial blood whose breakdown later causes vasospasm and blocks CSF absorption. Chronic hypertension weakens small deep arteries, so hypertensive bleeds occur in the same deep sites as lacunes."
       },
       {
         "h": "Other vessel lesions",
@@ -338,6 +381,40 @@
           "Hypertensive encephalopathy and PRES: severe hypertension overwhelms autoregulation, the blood-brain barrier leaks, and vasogenic edema forms, mainly in posterior (parieto-occipital) white matter; headache, confusion, vision loss, seizures; usually reversible.",
           "Spinal cord supply: one anterior spinal artery (front two-thirds of the cord) and two posterior spinal arteries (dorsal columns); the artery of Adamkiewicz feeds the lower cord.",
           "Anterior spinal artery syndrome after aortic surgery or dissection: paralysis and loss of pain and temperature below the lesion, bladder loss, with vibration and position sense spared."
+        ],
+        "why": "In each of these lesions the injury follows the vessel territory or pressure gradient that is disrupted. In dissection, blood enters the wall through an intimal tear, narrowing the lumen and shedding emboli, and a carotid wall hematoma stretches the sympathetic fibers that run on the artery, producing Horner syndrome. Venous sinus thrombosis raises upstream venous and capillary pressure, so vessels rupture into hemorrhagic infarcts that do not match arterial territories. The single anterior spinal artery has poor collateral supply in the thoracic cord, so loss of radicular feeders during aortic surgery infarcts the ventral cord and spares the dorsal columns."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Ischemic neuronal injury",
+        "steps": [
+          "Arterial occlusion stops oxygen and glucose delivery",
+          "ATP falls and the Na+/K+ ATPase fails",
+          "Neurons depolarize and release excess glutamate",
+          "NMDA receptor activation floods neurons with calcium",
+          "Calcium activates proteases, phospholipases, and free radical injury",
+          "Neurons die; red neurons appear at about 12 to 24 hours"
+        ]
+      },
+      {
+        "title": "Berry aneurysm rupture and its aftermath",
+        "steps": [
+          "Thin media at a circle of Willis branch point weakens the wall",
+          "Hemodynamic stress balloons the wall into a saccular aneurysm",
+          "Rupture releases arterial blood into the subarachnoid space",
+          "Sudden worst headache, neck stiffness, xanthochromic CSF",
+          "About days 3 to 14: vasospasm causes delayed ischemic infarcts"
+        ]
+      },
+      {
+        "title": "Epidural hematoma",
+        "steps": [
+          "Temporal bone fracture tears the middle meningeal artery",
+          "Arterial blood strips dura from bone, stopping at sutures",
+          "Brief loss of consciousness, often followed by a lucid interval",
+          "Expanding biconvex clot raises pressure and pushes the uncus medially",
+          "CN III and brainstem compression; death without prompt evacuation"
         ]
       }
     ],
@@ -581,7 +658,8 @@
           "Gross: narrow gyri, wide sulci, and enlarged ventricles (hydrocephalus ex vacuo), worst in the hippocampus and temporal lobes.",
           "Micro: neuritic plaques, neurofibrillary tangles, amyloid angiopathy; loss of cholinergic neurons in the nucleus basalis of Meynert.",
           "Course: short-term memory loss first, then language and visuospatial problems, then full dependence."
-        ]
+        ],
+        "why": "Amyloid precursor protein can be cut by alpha secretase, which prevents amyloid beta, or by beta then gamma secretase, which releases aggregation-prone amyloid beta 42. An extra APP copy in trisomy 21, and presenilin mutations that shift gamma secretase toward the longer peptide, raise amyloid beta and bring disease on early. Tau normally stabilizes axonal microtubules; when hyperphosphorylated it detaches and aggregates, and axonal transport fails, which is why tangle burden tracks with neuron loss and dementia. Loss of the cholinergic nucleus basalis lowers cortical acetylcholine, the basis for cholinesterase inhibitor therapy."
       },
       {
         "h": "Other dementias and cognitive decline",
@@ -591,7 +669,8 @@
           "Progressive supranuclear palsy: tau disease with vertical gaze palsy, axial rigidity, and early backward falls.",
           "Vascular dementia: stepwise decline after multiple infarcts or diffuse small vessel disease, with hypertension and diabetes as risks.",
           "Mild cognitive impairment: measurable decline beyond normal aging, with daily function still intact."
-        ]
+        ],
+        "why": "Each of these dementias is defined by the protein that aggregates and the region where it collects. In Lewy body dementia, alpha-synuclein in cortical neurons disrupts attention and visual processing early, whereas in Parkinson disease it begins in the brainstem, so motor signs precede dementia by years. Tau or TDP-43 in frontotemporal dementia concentrates in the frontal and anterior temporal lobes, which govern behavior and language, so personality change comes before memory loss. In PSP, tau in the midbrain damages vertical gaze centers, and vascular dementia reflects the summed loss from separate infarcts, which explains its stepwise course."
       },
       {
         "h": "Motor neuron and movement disorders",
@@ -605,7 +684,8 @@
           "Friedreich ataxia: autosomal recessive GAA expansion in frataxin; mitochondrial iron builds up and damages dorsal columns, spinocerebellar and corticospinal tracts.",
           "Friedreich extras: hypertrophic cardiomyopathy (main cause of death), diabetes, kyphoscoliosis, pes cavus.",
           "Essential tremor: often familial, postural and action tremor of hands, head, or voice that may ease with alcohol. Cervical dystonia: sustained neck muscle contraction twisting the head (torticollis)."
-        ]
+        ],
+        "why": "ALS kills both upper motor neurons, whose loss removes descending inhibition and causes spasticity and hyperreflexia, and lower motor neurons, whose loss denervates muscle and causes atrophy and fasciculations. Parkinson disease removes nigral dopamine from the striatum, which weakens the direct pathway and strengthens the indirect pathway, so the thalamus is more inhibited and movement becomes slow and small. Early Huntington disease kills striatal GABAergic neurons of the indirect pathway, so the thalamus is disinhibited and extra movements (chorea) appear. In trinucleotide repeat diseases, longer repeats cause earlier and more severe disease, which is the basis of anticipation."
       },
       {
         "h": "Demyelinating disease",
@@ -617,6 +697,38 @@
           "Transverse myelitis: inflammation across one cord segment, after infection or with MS; bilateral weakness, a sensory level, and bladder dysfunction.",
           "Guillain-Barre: after infection (Campylobacter jejuni, viruses), immune attack on peripheral myelin and roots; ascending symmetric flaccid weakness with lost reflexes.",
           "Guillain-Barre complications: respiratory failure from diaphragm weakness and autonomic instability (arrhythmias, blood pressure swings); CSF has high protein with normal cell count."
+        ],
+        "why": "Myelin lets the impulse jump between nodes of Ranvier, so losing it slows or blocks conduction; heat speeds sodium channel inactivation and makes block in a demyelinated segment more likely, which explains Uhthoff phenomenon. CNS myelin is made by oligodendrocytes and peripheral myelin by Schwann cells, so MS, ADEM, and transverse myelitis affect brain and cord while Guillain-Barre affects roots and peripheral nerves. After Campylobacter infection, bacterial lipooligosaccharide resembles nerve gangliosides, and cross-reacting antibodies attack the nerve (molecular mimicry). Inflamed roots leak protein into CSF without many cells entering, giving high protein with a normal cell count."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Amyloid beta production",
+        "steps": [
+          "Amyloid precursor protein spans the neuronal membrane",
+          "Beta secretase cleaves APP outside the membrane",
+          "Gamma secretase cuts within the membrane, releasing amyloid beta",
+          "Amyloid beta 42 aggregates into extracellular neuritic plaques"
+        ]
+      },
+      {
+        "title": "Parkinson disease circuit failure",
+        "steps": [
+          "Dopaminergic neurons of the substantia nigra pars compacta die",
+          "Dopamine delivered to the striatum falls",
+          "Direct (D1) pathway weakens and indirect (D2) pathway strengthens",
+          "Globus pallidus internus inhibits the thalamus more",
+          "Thalamocortical drive falls, so movement becomes slow and small"
+        ]
+      },
+      {
+        "title": "Guillain-Barre syndrome",
+        "steps": [
+          "Campylobacter jejuni or viral infection a few weeks earlier",
+          "Microbial antigens resemble peripheral nerve gangliosides (molecular mimicry)",
+          "Antibodies and macrophages attack myelin or axons of roots and nerves",
+          "Conduction slows or blocks: ascending flaccid weakness with lost reflexes",
+          "Spread to phrenic and autonomic fibers: respiratory failure, autonomic instability"
         ]
       }
     ],
@@ -862,7 +974,8 @@
           "Cytotoxic edema: ischemia or hypoxia stops the Na+/K+ ATPase, sodium and water enter cells, and the cells swell.",
           "Interstitial edema: in obstructive hydrocephalus, CSF is pushed across the ependyma into periventricular white matter.",
           "Because the skull is a fixed box, added volume of brain, blood, or CSF quickly raises intracranial pressure."
-        ]
+        ],
+        "why": "The edema types differ in where the water sits. In vasogenic edema, tight junctions of the blood-brain barrier open, so plasma fluid escapes into the extracellular space and spreads along loosely packed white matter tracts; corticosteroids reduce it around tumors by tightening the barrier. In cytotoxic edema the barrier is intact, but ATP failure stops the Na+/K+ ATPase, so sodium and water move into cells in both gray and white matter. By the Monro-Kellie doctrine, a rise in one intracranial volume must be offset by a fall in another, and once CSF and venous blood have been displaced, pressure climbs steeply."
       },
       {
         "h": "Raised pressure and herniation",
@@ -872,7 +985,8 @@
           "Subfalcine herniation: cingulate gyrus slides under the falx and can compress the anterior cerebral artery.",
           "Uncal herniation: medial temporal lobe compresses CN III (dilated pupil on the same side), the posterior cerebral artery, and the cerebral peduncle; brainstem stretching causes Duret hemorrhages.",
           "Tonsillar herniation: cerebellar tonsils push through the foramen magnum and compress the medulla, stopping breathing."
-        ]
+        ],
+        "why": "Cerebral perfusion pressure equals mean arterial pressure minus intracranial pressure, so as ICP rises, brain perfusion falls unless systemic pressure rises with it. The Cushing reflex is that compensation: brainstem ischemia triggers sympathetic hypertension, baroreceptors respond by slowing the heart, and medullary compression disturbs the breathing pattern. Herniation signs follow from the structures beside each opening. The uncus presses on CN III, whose superficial parasympathetic pupil fibers fail first and leave a fixed, dilated pupil, and the tonsils compress the medullary respiratory centers."
       },
       {
         "h": "Hydrocephalus types",
@@ -882,7 +996,8 @@
           "Hydrocephalus ex vacuo: ventricles look large only because brain tissue has been lost (Alzheimer, Huntington, other atrophy); pressure is normal.",
           "In infants the skull sutures are open, so raised pressure enlarges the head; a bulging fontanelle and downward gaze (sunset eyes) may appear.",
           "Chiari II: cerebellar vermis and tonsils herniate through the foramen magnum with a lumbosacral myelomeningocele. Dandy-Walker: absent or small vermis with a cystic fourth ventricle."
-        ]
+        ],
+        "why": "CSF is made mostly by the choroid plexus and flows from the lateral ventricles through the foramina of Monro, third ventricle, cerebral aqueduct, and fourth ventricle, then out to the subarachnoid space and into the dural sinuses through arachnoid granulations. A block along the ventricular path enlarges only the ventricles upstream, which is how imaging locates the obstruction; aqueductal stenosis enlarges the lateral and third ventricles but spares the fourth. Scarred granulations enlarge all ventricles because flow continues but absorption fails. Before the sutures fuse, the skull expands, so head circumference rises."
       },
       {
         "h": "Normal pressure hydrocephalus",
@@ -890,7 +1005,8 @@
           "Older adults; enlarged ventricles with opening pressure that is not consistently high.",
           "Stretched periventricular fibers cause urinary incontinence, a broad shuffling magnetic gait, and dementia.",
           "Symptoms, especially gait, may improve after removing CSF by lumbar puncture, which predicts benefit from a shunt."
-        ]
+        ],
+        "why": "In NPH, CSF absorption is impaired and the ventricles slowly enlarge while pressure stays within or near the normal range most of the time. The enlarged lateral ventricles stretch the periventricular white matter, including descending fibers to the legs and pathways from the frontal lobe that inhibit the bladder, so gait and bladder control fail early along with frontal-subcortical cognition. Removing CSF reduces this stretch, and a gait response to a large-volume tap predicts which patients will benefit from a shunt."
       },
       {
         "h": "Idiopathic intracranial hypertension",
@@ -900,6 +1016,38 @@
           "Imaging is normal (no mass, no hydrocephalus); opening pressure is high, above about 25 cm H2O (normal about 10 to 20), with normal CSF content.",
           "Associations: excess vitamin A and tetracyclines.",
           "The main complication is permanent vision loss from optic nerve damage."
+        ],
+        "why": "IIH raises ICP with no mass and no hydrocephalus, and its cause is not fully understood; impaired CSF outflow and venous sinus narrowing are both implicated. Pressure transmitted along the optic nerve sheath blocks axoplasmic flow at the optic disc, which produces papilledema, and prolonged swelling kills optic nerve axons, which causes permanent vision loss. The abducens nerve has a long intracranial course and is stretched by raised pressure, so a CN VI palsy appears without a lesion of the nerve itself (a false localizing sign)."
+      }
+    ],
+    "flows": [
+      {
+        "title": "CSF flow path",
+        "steps": [
+          "Choroid plexus secretes CSF into the lateral ventricles",
+          "Interventricular foramina of Monro lead to the third ventricle",
+          "Cerebral aqueduct leads to the fourth ventricle",
+          "Foramina of Luschka and Magendie open into the subarachnoid space",
+          "Arachnoid granulations absorb CSF into the dural venous sinuses"
+        ]
+      },
+      {
+        "title": "Rising ICP to Cushing triad",
+        "steps": [
+          "Rising intracranial pressure lowers cerebral perfusion pressure",
+          "Brainstem ischemia triggers sympathetic discharge and hypertension",
+          "Baroreceptors sense the high pressure and slow the heart",
+          "Medullary compression disrupts the breathing pattern"
+        ]
+      },
+      {
+        "title": "Uncal herniation",
+        "steps": [
+          "Expanding supratentorial mass shifts brain toward the tentorial notch",
+          "Medial temporal lobe (uncus) herniates over the tentorial edge",
+          "Ipsilateral CN III compression: fixed, dilated pupil",
+          "Cerebral peduncle compression, usually causing contralateral hemiparesis",
+          "Brainstem displacement tears paramedian vessels (Duret hemorrhages), then coma"
         ]
       }
     ],
@@ -1098,7 +1246,8 @@
           "Precipitants: GI bleeding (a protein load), infection, high protein intake, constipation, hypokalemia, and sedatives.",
           "Hypokalemia raises kidney ammonia production.",
           "Findings: confusion, day-night reversal, asterixis (flapping hands with wrists extended), and coma in severe cases."
-        ]
+        ],
+        "why": "Ammonia made by gut bacteria and enterocytes normally travels in the portal vein to the liver, where the urea cycle converts it to urea. With liver failure or portosystemic shunting, ammonia reaches the brain, and astrocytes, which lack a urea cycle, detoxify it with glutamine synthetase. Glutamine is osmotically active, so astrocytes swell and fail, and neurotransmission shifts toward inhibition. Precipitants either add nitrogen (blood in the gut, protein), increase ammonia production (hypokalemia raises renal ammoniagenesis, and alkalosis favors uncharged NH3, which crosses membranes), or add sedation."
       },
       {
         "h": "Peripheral neuropathy patterns",
@@ -1107,7 +1256,8 @@
           "Mononeuropathy: one nerve, from compression (carpal tunnel) or ischemia (diabetic CN III palsy).",
           "Mononeuritis multiplex: several named nerves in a patchy pattern, from vasculitis (polyarteritis nodosa) or leprosy.",
           "Axonal injury lowers signal amplitude on nerve conduction and recovers slowly; demyelinating injury slows conduction velocity."
-        ]
+        ],
+        "why": "The pattern of a neuropathy points to its mechanism. Metabolic and toxic insults reduce the energy and transport supply of every axon, and the longest axons fail first because they have the most membrane to maintain and the longest transport distance, giving a stocking-glove pattern. Ischemia of the vasa nervorum in vasculitis damages one nerve at a time at random sites, producing mononeuritis multiplex. Nerve conduction studies separate the two basic injuries: losing axons reduces the number of fibers firing, so amplitude falls, while losing myelin slows saltatory conduction, so velocity falls."
       },
       {
         "h": "Diabetic neuropathy",
@@ -1118,7 +1268,8 @@
           "Autonomic loss: gastroparesis, orthostatic hypotension, erectile dysfunction, and bladder retention.",
           "Painless pressure injuries cause neuropathic foot ulcers under the metatarsal heads.",
           "Pupil-sparing CN III palsy: ischemia hits the core of the nerve, while the outer pupillary fibers keep their blood supply."
-        ]
+        ],
+        "why": "Schwann cells take up glucose without insulin, so in hyperglycemia aldose reductase converts the excess to sorbitol, which is trapped and draws in water. The reaction consumes NADPH, which is also needed to regenerate glutathione, so oxidative stress rises. Glycation end products and thickened endoneurial capillaries reduce nerve blood flow, which damages the longest sensory and autonomic fibers first. In CN III, the parasympathetic pupil fibers run on the outside of the nerve and receive blood from surface vessels, so diabetic ischemia of the core spares the pupil, while compression from an aneurysm does not."
       },
       {
         "h": "Vitamin B12 deficiency",
@@ -1127,7 +1278,8 @@
           "B12 is needed for methionine synthase and methylmalonyl-CoA mutase; methylmalonic acid and homocysteine rise.",
           "Subacute combined degeneration hits the dorsal columns (lost vibration and position sense, positive Romberg sign) and lateral corticospinal tracts (spasticity, Babinski sign).",
           "Peripheral neuropathy and dementia can occur, even without anemia."
-        ]
+        ],
+        "why": "B12 is a cofactor for two enzymes. Methionine synthase uses methylcobalamin to remethylate homocysteine and regenerate tetrahydrofolate for DNA synthesis, so deficiency causes megaloblastic anemia and high homocysteine. Methylmalonyl-CoA mutase uses adenosylcobalamin to make succinyl-CoA; when it fails, methylmalonic acid rises and abnormal fatty acids are thought to enter myelin, which explains why neurologic damage occurs in B12 deficiency but not folate deficiency. Folate can correct the anemia but not the myelin injury, so folate alone can mask B12 deficiency while the cord degenerates."
       },
       {
         "h": "Thiamine, myelin, and inherited neuropathy",
@@ -1138,6 +1290,40 @@
           "Osmotic demyelination: chronic hyponatremia corrected too fast (more than about 8 to 10 mEq/L in 24 hours) shrinks brain cells and destroys myelin in the central pons.",
           "Osmotic demyelination signs appear days later: quadriparesis, dysarthria, dysphagia, and possible locked-in syndrome.",
           "Charcot-Marie-Tooth: inherited motor and sensory neuropathy, most often autosomal dominant PMP22 duplication; distal weakness, foot drop, pes cavus, hammer toes."
+        ],
+        "why": "Thiamine pyrophosphate is needed to move carbon from pyruvate into the TCA cycle, so without it the brain, which depends on glucose oxidation, cannot make enough ATP, and a glucose load pushes more flux into the blocked step. The mammillary bodies and periaqueductal and medial thalamic regions have the highest thiamine-dependent turnover and are damaged first. In chronic hyponatremia, brain cells have shed organic osmolytes to avoid swelling; rapid correction pulls water out faster than osmolytes return, and the shrinkage injures oligodendrocytes in the central pons. PMP22 duplication disrupts peripheral myelin, so conduction slows and the longest nerves fail first."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Hepatic encephalopathy",
+        "steps": [
+          "Gut bacteria produce ammonia from protein and urea",
+          "Cirrhosis or portosystemic shunting lets ammonia bypass hepatic urea synthesis",
+          "Ammonia crosses the blood-brain barrier",
+          "Astrocytes combine ammonia with glutamate to form glutamine",
+          "Glutamine accumulates and astrocytes swell",
+          "Confusion and asterixis, progressing to coma when severe"
+        ]
+      },
+      {
+        "title": "Diabetic neuropathy through the polyol pathway",
+        "steps": [
+          "Hyperglycemia raises glucose inside Schwann cells by insulin-independent uptake",
+          "Aldose reductase reduces glucose to sorbitol, consuming NADPH",
+          "Sorbitol accumulates and NADPH loss limits glutathione regeneration",
+          "Osmotic and oxidative stress injure Schwann cells and axons",
+          "Longest fibers fail first: stocking-glove sensory loss"
+        ]
+      },
+      {
+        "title": "Osmotic demyelination",
+        "steps": [
+          "In chronic hyponatremia, brain cells shed organic osmolytes to limit swelling",
+          "Sodium is corrected too fast (more than about 8 to 10 mEq/L in 24 hours)",
+          "Water leaves brain cells faster than osmolytes can be restored",
+          "Cells shrink and oligodendrocytes in the central pons are injured",
+          "Days later: quadriparesis, dysarthria, dysphagia, possible locked-in state"
         ]
       }
     ],
@@ -1333,7 +1519,8 @@
           "Associated: duodenal atresia, atrioventricular septal defect, and higher leukemia risk.",
           "Fragile X: CGG expansion in FMR1 leads to hypermethylation and silencing; the most common inherited cause of intellectual disability.",
           "Fragile X findings: autism features, long face, large jaw and ears, macroorchidism after puberty."
-        ]
+        ],
+        "why": "Trisomy 21 usually results from maternal meiotic nondisjunction, which rises with maternal age, and the extra chromosome changes development in many organs. One of its genes is APP, so lifelong extra amyloid beta production leads to Alzheimer pathology in most adults with Down syndrome by about age 40. Defective endocardial cushions explain the atrioventricular septal defect, and ligament laxity explains atlantoaxial instability. In fragile X, a CGG expansion beyond about 200 repeats causes methylation of the FMR1 promoter and silences FMRP, an RNA-binding protein that regulates protein synthesis at synapses."
       },
       {
         "h": "Leukodystrophies",
@@ -1341,7 +1528,8 @@
           "X-linked adrenoleukodystrophy: ABCD1 defect blocks very long chain fatty acid entry into peroxisomes for oxidation; they build up in white matter and the adrenal cortex; boys with behavior change, vision loss, and adrenal insufficiency.",
           "Metachromatic leukodystrophy: autosomal recessive arylsulfatase A deficiency; sulfatides build up and destroy central and peripheral myelin.",
           "Krabbe disease: autosomal recessive galactocerebrosidase deficiency; psychosine kills myelin-forming cells; multinucleated globoid cells; infants with irritability, spasticity, and neuropathy."
-        ]
+        ],
+        "why": "Myelin is a lipid-rich membrane that is built and turned over continuously, so defects in lipid breakdown injure the cells that make it. In adrenoleukodystrophy, very long chain fatty acids cannot enter peroxisomes for beta oxidation and accumulate in myelin and adrenal cortex, which is why white matter loss comes with adrenal insufficiency. Metachromatic leukodystrophy and Krabbe disease are lysosomal: missing arylsulfatase A leaves sulfatides in myelin, and missing galactocerebrosidase lets psychosine build up, which is toxic to oligodendrocytes and Schwann cells. Because both myelinating cell types are affected, central and peripheral myelin are lost together."
       },
       {
         "h": "Amino acid and urea cycle disorders",
@@ -1351,7 +1539,8 @@
           "Maternal PKU: high phenylalanine in an untreated mother causes microcephaly, intellectual disability, and heart defects in the baby.",
           "Maple syrup urine disease: branched-chain alpha-ketoacid dehydrogenase deficiency; leucine, isoleucine, and valine build up; sweet urine odor, poor feeding, seizures in the newborn.",
           "OTC deficiency: X-linked; carbamoyl phosphate spills into pyrimidine synthesis, so orotic acid rises; hyperammonemia causes vomiting, lethargy, and cerebral edema in newborn boys."
-        ]
+        ],
+        "why": "In PKU, phenylalanine cannot be hydroxylated to tyrosine, so it builds up and is diverted to phenylketones, while tyrosine products such as melanin fall. High phenylalanine competes with other large neutral amino acids for transport across the blood-brain barrier, which disrupts brain protein and neurotransmitter synthesis during development. Maple syrup urine disease blocks the second step of branched-chain amino acid breakdown, so leucine and the alpha-ketoacids accumulate and are neurotoxic. In OTC deficiency, carbamoyl phosphate cannot enter the urea cycle, so ammonia rises and the excess carbamoyl phosphate feeds pyrimidine synthesis, producing orotic acid without megaloblastic anemia."
       },
       {
         "h": "Lysosomal storage and porphyria",
@@ -1362,7 +1551,8 @@
           "Gaucher: glucocerebrosidase deficiency; type 1 spares the brain, types 2 and 3 are neuronopathic.",
           "Hurler: alpha-L-iduronidase deficiency with corneal clouding; Hunter: X-linked iduronate-2-sulfatase deficiency, milder, no corneal clouding.",
           "Acute intermittent porphyria: autosomal dominant porphobilinogen deaminase deficiency; abdominal pain, neuropathy, psychiatric symptoms, high urine porphobilinogen; triggered by alcohol, fasting, and CYP450 inducers."
-        ]
+        ],
+        "why": "Each lysosomal enzyme removes one sugar or group from a complex molecule, so a single missing enzyme traps its substrate in the cells that turn that molecule over. Neurons are rich in gangliosides, so hexosaminidase A deficiency fills them with GM2 and causes neurodegeneration; the macula looks cherry-red because lipid-laden ganglion cells surround the fovea, which has none. Gaucher and Niemann-Pick substrates are also handled by macrophages, so those cells swell in the liver, spleen, and marrow. In AIP, triggers increase hepatic ALA synthase activity, and with porphobilinogen deaminase deficient, ALA and porphobilinogen accumulate and are neurotoxic."
       },
       {
         "h": "Wilson disease and congenital microcephaly",
@@ -1370,6 +1560,29 @@
           "Wilson disease: autosomal recessive ATP7B mutation; copper is not excreted into bile or loaded onto ceruloplasmin, so serum ceruloplasmin is low.",
           "Copper in the basal ganglia causes tremor, dystonia, and psychiatric change; copper in Descemet membrane makes Kayser-Fleischer rings; liver disease from hepatitis to cirrhosis.",
           "Congenital microcephaly: Zika, CMV, rubella, and toxoplasma infection in pregnancy, fetal alcohol syndrome, and maternal PKU."
+        ],
+        "why": "ATP7B is a copper-transporting ATPase in hepatocytes that loads copper onto ceruloplasmin and moves excess copper into bile. When it fails, copper accumulates in the liver first, then spills into the blood as free copper and deposits in the basal ganglia, cornea, and kidney, where it drives oxidative injury. Serum ceruloplasmin is low because the copper-free protein is unstable and degraded quickly. Congenital infections and teratogens cause microcephaly by killing neural progenitor cells or slowing their division while the cortex is being built."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Phenylketonuria",
+        "steps": [
+          "Phenylalanine hydroxylase or its cofactor BH4 is deficient",
+          "Phenylalanine cannot be converted to tyrosine and accumulates",
+          "Less tyrosine means less melanin: fair skin and hair",
+          "Excess phenylalanine forms phenylketones excreted in urine (musty odor)",
+          "High phenylalanine impairs brain development: intellectual disability, seizures"
+        ]
+      },
+      {
+        "title": "Copper overload in Wilson disease",
+        "steps": [
+          "ATP7B mutation impairs copper transport in hepatocytes",
+          "Copper is not excreted into bile or loaded onto ceruloplasmin",
+          "Copper accumulates in hepatocytes: hepatitis, then cirrhosis",
+          "Free copper spills into the blood",
+          "Copper deposits in basal ganglia, cornea (Kayser-Fleischer rings), and kidney"
         ]
       }
     ],

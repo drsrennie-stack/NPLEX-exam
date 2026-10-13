@@ -1,0 +1,815 @@
+{
+ "unit": "CV-18-H",
+ "chapter_id": "NPLEX-P1-CARD-18",
+ "topic_id": "NPLEX-P1-CARD-18-08",
+ "title": "Hemodynamic Disorders: Thrombosis, Embolism, Infarction, Hemorrhage, Edema, and Shock",
+ "subject": "Cardiovascular System (CARD)",
+ "version": "1.0",
+ "overview": {
+  "intro": "This chapter covers the general pathology of blood flow: how thrombi form, where emboli travel, why dead tissue looks pale or red, how bleeding and edema develop, and how circulatory failure becomes shock and then multiorgan failure. These processes link into chains. A deep vein thrombus becomes a pulmonary embolus, a mural thrombus becomes a stroke or renal infarct, and septic shock produces acute tubular necrosis, ARDS, and DIC. A few principles explain nearly everything here: the balance of procoagulant and anticoagulant forces, Starling forces at the capillary, and the relationship mean arterial pressure equals cardiac output times systemic vascular resistance.",
+  "prerequisites": [
+   "Platelet adhesion and aggregation, the coagulation cascade, the natural anticoagulants (antithrombin, protein C, protein S), and fibrinolysis",
+   "Starling forces and lymphatic return at the capillary (CV-11.5, CV-10.3)",
+   "Flow, pressure, and resistance, and the baroreceptor reflex (CV-11)",
+   "Reversible and irreversible cell injury and the patterns of necrosis",
+   "Innate immune recognition of microbes by Toll-like receptors and the actions of TNF and IL-1"
+  ],
+  "connections": [
+   {
+    "to": "Ischemic heart disease (CV-18-C)",
+    "how": "Coronary thrombosis on a disrupted plaque is the arterial thrombus of this chapter, and the myocardial infarct is its white, coagulative infarct."
+   },
+   {
+    "to": "Congestive heart failure (CV-18-B)",
+    "how": "Raised venous pressure and renal sodium retention in heart failure explain transudative edema, and pump failure is the core of cardiogenic shock."
+   },
+   {
+    "to": "Pericardial disease (CV-18-F) and heart and lung interactions (CV-15)",
+    "how": "Tamponade and massive pulmonary embolism are the main causes of obstructive shock, and pulmonary embolism disturbs ventilation and perfusion matching."
+   },
+   {
+    "to": "Hematology",
+    "how": "Inherited and acquired hypercoagulable states, platelet and factor disorders behind petechiae and hematomas, and DIC all rest on the hemostatic balance taught here."
+   },
+   {
+    "to": "Immunology and microbiology (CV-16, CV-17)",
+    "how": "Endotoxin signaling through TLR4 and the cytokine storm of TNF and IL-1 connect bacterial infection to septic shock."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Thrombus",
+    "def": "A solid mass of platelets, fibrin, and trapped blood cells formed inside a vessel or heart chamber in living, flowing blood."
+   },
+   {
+    "term": "Virchow triad",
+    "def": "The three influences that promote thrombosis: endothelial injury, abnormal blood flow (stasis or turbulence), and hypercoagulability."
+   },
+   {
+    "term": "Lines of Zahn",
+    "def": "Alternating pale layers of platelets and fibrin and dark layers of red cells, laid down in flowing blood, that mark a thrombus formed before death."
+   },
+   {
+    "term": "Embolus",
+    "def": "A detached solid, liquid, or gaseous mass carried in the blood to a site distant from its origin, where it lodges and blocks the vessel."
+   },
+   {
+    "term": "Infarct",
+    "def": "An area of ischemic necrosis caused by blocked arterial supply or, less often, blocked venous drainage."
+   },
+   {
+    "term": "Hypercoagulability",
+    "def": "Any change in the blood, inherited or acquired, that tips the balance toward thrombus formation; also called thrombophilia."
+   },
+   {
+    "term": "Transudate",
+    "def": "Protein-poor, cell-poor fluid that leaves vessels with intact walls because of high hydrostatic or low oncotic pressure."
+   },
+   {
+    "term": "Exudate",
+    "def": "Protein-rich, often cell-rich fluid that leaves vessels whose permeability has been increased by inflammation."
+   },
+   {
+    "term": "Shock",
+    "def": "Widespread tissue hypoperfusion in which oxygen delivery falls below metabolic demand, from low cardiac output or low effective circulating volume."
+   },
+   {
+    "term": "Pulmonary capillary wedge pressure",
+    "def": "Pressure measured with a balloon catheter wedged in a pulmonary artery branch; it approximates left atrial pressure and so left ventricular filling pressure."
+   },
+   {
+    "term": "Multiorgan dysfunction syndrome",
+    "def": "Progressive failure of two or more organ systems after shock, sepsis, or severe injury, driven by hypoperfusion and systemic inflammation."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-CARD-18-08-C01",
+   "obj": "CV-18-H.1",
+   "title": "Thrombosis: Virchow triad, arterial and venous thrombi, and their fates",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Normal endothelium keeps blood fluid. It expresses thrombomodulin and heparan sulfate, releases nitric oxide and prostacyclin, and makes tissue plasminogen activator. A thrombus forms when this balance tips toward clotting, and the Virchow triad names the three ways it tips. Each limb can act alone, but most thrombi need two or more."
+    },
+    {
+     "type": "table",
+     "title": "Virchow triad",
+     "cols": [
+      "Limb",
+      "Mechanism",
+      "Typical settings"
+     ],
+     "rows": [
+      [
+       "Endothelial injury or dysfunction",
+       "Exposes collagen and von Willebrand factor for platelet adhesion and tissue factor to start coagulation; activated endothelium also loses its anticoagulant surface",
+       "Ruptured atherosclerotic plaque, myocardial infarction (endocardium), vasculitis, valve injury, hypertension, smoking"
+      ],
+      [
+       "Abnormal flow (stasis or turbulence)",
+       "Disrupts laminar flow so platelets contact the wall; stops activated factors from being washed away and diluted; delays inflow of inhibitors; turbulence also injures endothelium",
+       "Immobility and venous stasis, atrial fibrillation, ventricular aneurysm, dilated chambers, aortic aneurysm, hyperviscosity, sickle cell disease"
+      ],
+      [
+       "Hypercoagulability",
+       "More procoagulant activity or less anticoagulant or fibrinolytic activity in the blood itself",
+       "Inherited and acquired thrombophilias (section C02)"
+      ]
+     ],
+     "caption": "Endothelial injury dominates in the heart and arteries; stasis dominates in veins."
+    },
+    {
+     "type": "p",
+     "text": "Flow decides the composition of the thrombus. In fast arterial flow, platelets adhering to an injured surface are the first step, and fibrin binds them together; the result is a pale gray, platelet-rich thrombus firmly attached to the wall. Arterial thrombi usually start on a ruptured plaque in coronary, cerebral, or femoral arteries and grow back toward the heart from their point of attachment. In slow venous flow, coagulation proceeds in nearly stagnant blood and traps large numbers of red cells, giving a soft red thrombus (red or stasis thrombus). Venous thrombi grow in the direction of flow, toward the heart, so a long loosely attached tail can break off. Most form in the deep veins of the leg, and those above the knee (popliteal, femoral, and iliac) are the main source of pulmonary emboli. Mural thrombi form on the wall of a heart chamber or the aorta, and vegetations are thrombi on valves."
+    },
+    {
+     "type": "p",
+     "text": "Lines of Zahn are alternating pale bands of platelets and fibrin and dark bands of red cells. They form only when layers are laid down in moving blood, so they identify a thrombus formed during life. They are most obvious in thrombi of the heart and aorta and fainter in veins. A postmortem clot lacks lines of Zahn and is not attached to the wall; it is gelatinous, dark red where red cells settled, and yellow above (\"chicken fat\"), because cells sedimented in still blood."
+    },
+    {
+     "type": "table",
+     "title": "Fates of a thrombus",
+     "cols": [
+      "Fate",
+      "What happens",
+      "Consequence"
+     ],
+     "rows": [
+      [
+       "Propagation",
+       "More platelets and fibrin accumulate",
+       "Occlusion of the vessel or a longer, less stable thrombus"
+      ],
+      [
+       "Embolization",
+       "Part or all of the thrombus breaks off",
+       "Blocks a distant vessel (section C03)"
+      ],
+      [
+       "Dissolution",
+       "Plasmin degrades fibrin in a recent thrombus",
+       "Thrombus disappears; older, cross-linked thrombi resist lysis"
+      ],
+      [
+       "Organization",
+       "Endothelial cells, smooth muscle cells, and fibroblasts grow in; the thrombus becomes granulation tissue then scar",
+       "Thrombus is incorporated into the wall as a fibrous thickening"
+      ],
+      [
+       "Recanalization",
+       "New capillary channels form through the organized thrombus",
+       "Partial restoration of flow"
+      ]
+     ],
+     "caption": "Thrombi can also become infected, producing a septic thrombus or a mycotic aneurysm."
+    },
+    {
+     "type": "stop",
+     "predict": "At autopsy a soft red clot fills the femoral vein. It lifts out easily, has no layering, and has a yellow upper portion. Did it cause the pulmonary embolus found in the lung?",
+     "explain": "Probably not. A clot with no attachment, no lines of Zahn, and a chicken-fat layer formed after death in still blood; the thrombus that embolized formed in life and would show layering.",
+     "check": "The paragraph on lines of Zahn and postmortem clots."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-18-08-C02",
+   "obj": "CV-18-H.2",
+   "title": "Hypercoagulable states: inherited and acquired",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Hypercoagulability is the blood limb of the Virchow triad. Thrombin is the central enzyme: it converts fibrinogen to fibrin and activates platelets and factors V, VIII, and XI. Three brakes restrain it. Antithrombin inactivates thrombin and factor Xa (and other serine protease factors), and heparan sulfate on the endothelium greatly speeds this reaction. Protein C is activated when thrombin binds thrombomodulin on the endothelium, and activated protein C, with protein S as its cofactor, cleaves and inactivates factors Va and VIIIa. Plasmin dissolves fibrin. Inherited thrombophilias either add procoagulant activity or remove one of these brakes."
+    },
+    {
+     "type": "table",
+     "title": "Inherited hypercoagulable states",
+     "cols": [
+      "Disorder",
+      "Defect",
+      "Mechanism of thrombosis",
+      "Notes"
+     ],
+     "rows": [
+      [
+       "Factor V Leiden",
+       "Point mutation in factor V (arginine 506 to glutamine), autosomal dominant",
+       "Factor Va resists cleavage by activated protein C (activated protein C resistance), so thrombin generation continues",
+       "Most common inherited cause; heterozygous in about 2 to 15% of people of European descent; risk about 5-fold in heterozygotes and about 50-fold in homozygotes"
+      ],
+      [
+       "Prothrombin G20210A",
+       "Mutation in the 3' untranslated region of the prothrombin gene",
+       "Higher plasma prothrombin levels",
+       "Second most common; about 1 to 2% of the population"
+      ],
+      [
+       "Antithrombin deficiency",
+       "Reduced or defective antithrombin",
+       "Thrombin and factor Xa are not inactivated",
+       "Heparin works by enhancing antithrombin, so its effect is blunted"
+      ],
+      [
+       "Protein C or S deficiency",
+       "Reduced or defective protein C or its cofactor protein S",
+       "Factors Va and VIIIa are not inactivated",
+       "Homozygous protein C deficiency causes neonatal purpura fulminans"
+      ]
+     ],
+     "caption": "All four mainly cause venous thrombosis. They are suspected when thrombosis occurs before about age 50, recurs, appears in unusual sites (cerebral sinuses, mesenteric or hepatic veins), or runs in the family."
+    },
+    {
+     "type": "p",
+     "text": "Protein C has a short half-life, which explains warfarin-induced skin necrosis. Warfarin blocks vitamin K-dependent synthesis of factors II, VII, IX, and X and of proteins C and S. Protein C and factor VII fall first, before factors II, IX, and X, so in the first days of treatment a person with low protein C becomes transiently more hypercoagulable, and dermal microvessels thrombose. Mild hyperhomocysteinemia is another inherited or acquired risk; homocysteine injures endothelium and promotes both arterial and venous thrombosis."
+    },
+    {
+     "type": "p",
+     "text": "Acquired states are far more common, and most act through more than one limb of the triad. Antiphospholipid syndrome is an autoimmune disorder in which antibodies bind phospholipid-binding proteins, mainly beta2-glycoprotein I, and activate platelets, endothelium, and complement. It causes both arterial and venous thrombosis and recurrent pregnancy loss, and it may be primary or secondary to systemic lupus erythematosus. A paradox is typical: the lupus anticoagulant prolongs the partial thromboplastin time in the test tube, because the antibodies interfere with the phospholipid in the assay, while the patient clots in vivo. Anticardiolipin antibodies can give a false-positive nontreponemal syphilis test."
+    },
+    {
+     "type": "table",
+     "title": "Acquired hypercoagulable states",
+     "cols": [
+      "Setting",
+      "Main mechanism"
+     ],
+     "rows": [
+      [
+       "Antiphospholipid syndrome",
+       "Antibodies to beta2-glycoprotein I activate platelets, endothelium, and complement"
+      ],
+      [
+       "Cancer",
+       "Tumor tissue factor and mucin (adenocarcinomas of pancreas, lung, and gut) activate coagulation; migratory thrombophlebitis (Trousseau syndrome); also immobility and surgery"
+      ],
+      [
+       "Pregnancy and the postpartum period",
+       "Higher hepatic synthesis of fibrinogen and other factors, lower protein S, compression of pelvic veins by the uterus"
+      ],
+      [
+       "Estrogen (oral contraceptives, hormone therapy)",
+       "Higher hepatic synthesis of coagulation factors and lower antithrombin; risk multiplied by smoking or factor V Leiden"
+      ],
+      [
+       "Immobility and prolonged travel",
+       "Venous stasis without the calf muscle pump"
+      ],
+      [
+       "Surgery and trauma",
+       "Tissue factor release and endothelial injury plus postoperative immobility; orthopedic surgery of the hip and knee carries the highest risk"
+      ],
+      [
+       "Others",
+       "Nephrotic syndrome (urinary loss of antithrombin), heparin-induced thrombocytopenia (antibodies to heparin and platelet factor 4 activate platelets), myeloproliferative neoplasms, obesity, smoking, older age"
+      ]
+     ],
+     "caption": "Acquired states often coexist with an inherited trait, which is why a first thrombosis may appear only during pregnancy, estrogen use, or after surgery."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-18-08-C03",
+   "obj": "CV-18-H.3",
+   "title": "Embolism: thromboemboli, fat, amniotic fluid, and gas",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "An embolus travels until it reaches a vessel too narrow to pass, so its source predicts its destination. Material entering systemic veins passes through the right heart to the pulmonary arteries. Material from the left heart, aorta, or large arteries lodges in systemic arteries. A venous embolus reaches the systemic circulation only through a right-to-left opening such as a patent foramen ovale or atrial septal defect (paradoxical embolism). The great majority of emboli are dislodged thrombi (thromboemboli)."
+    },
+    {
+     "type": "flow",
+     "title": "From deep vein thrombosis to pulmonary embolism",
+     "steps": [
+      "Stasis, injury, or hypercoagulability in deep leg veins",
+      "Red thrombus propagates toward the heart",
+      "Thrombus fragment detaches",
+      "Passes through the right atrium and ventricle",
+      "Lodges in a pulmonary artery branch",
+      "Perfusion lost; ventilation of that lung continues"
+     ],
+     "caption": "More than 95% of pulmonary emboli arise from deep vein thrombi of the leg, most from veins above the knee."
+    },
+    {
+     "type": "p",
+     "text": "The effect of a pulmonary embolus depends on its size and on the state of the circulation. Most are small and clinically silent; they organize and are incorporated into the vessel wall. Obstruction of more than about 60% of the pulmonary circulation, as by a saddle embolus at the bifurcation of the main pulmonary artery, causes acute right heart failure (acute cor pulmonale), circulatory collapse, and sudden death. Emboli in medium-sized arteries usually cause hemorrhage but not infarction, because bronchial arteries keep supplying lung tissue; infarction follows when left heart failure has already impaired bronchial flow. Repeated small emboli can cause pulmonary hypertension. Embolized lung is ventilated but not perfused, so dead space rises, and blood diverted to the remaining lung causes ventilation and perfusion mismatch, hypoxemia, and hyperventilation with low PaCO2."
+    },
+    {
+     "type": "p",
+     "text": "Systemic thromboemboli come from intracardiac mural thrombi in about 80% of cases: about two-thirds of these form over a left ventricular infarct and about a quarter in a dilated, fibrillating left atrium. The rest come from aortic aneurysms, ulcerated plaques, valve vegetations, and paradoxical emboli. About 75% lodge in the lower limbs and about 10% in the brain; the intestines, kidneys, spleen, and upper limbs make up the rest. Because these organs are supplied by end arteries, the usual result is infarction."
+    },
+    {
+     "type": "table",
+     "title": "Nonthrombotic emboli",
+     "cols": [
+      "Type",
+      "Setting",
+      "Mechanism",
+      "Findings"
+     ],
+     "rows": [
+      [
+       "Fat and marrow",
+       "Long-bone or pelvic fracture; less often soft tissue trauma or burns",
+       "Fat globules block microvessels; free fatty acids released from them injure endothelium over the next days; platelets adhere to fat and are consumed",
+       "Fat embolism syndrome 1 to 3 days after injury in a small minority of those with fat in the lungs: hypoxemia, tachypnea, neurologic change, petechial rash, thrombocytopenia"
+      ],
+      [
+       "Amniotic fluid",
+       "Labor and the immediate postpartum period",
+       "Fluid enters maternal veins through tears in membranes or uterine veins, triggering an anaphylactoid reaction and activating coagulation",
+       "Sudden dyspnea, cyanosis, shock, seizures, then DIC; fetal squames, lanugo hair, vernix fat, and mucin in maternal pulmonary vessels"
+      ],
+      [
+       "Gas (air)",
+       "Chest wall injury, obstetric procedures, opened venous lines",
+       "Bubbles coalesce and obstruct flow; usually more than about 100 mL is needed for symptoms",
+       "Sudden collapse, ischemia of the target organ"
+      ],
+      [
+       "Gas (nitrogen): decompression sickness",
+       "Rapid ascent by divers or rapid decompression in flight",
+       "Nitrogen dissolved under high pressure comes out of solution as bubbles",
+       "Joint and muscle pain (the bends), respiratory distress (the chokes); chronic caisson disease causes ischemic necrosis of the femoral head, tibia, and humerus"
+      ],
+      [
+       "Atheroembolism",
+       "Manipulation of an atherosclerotic aorta (catheterization, surgery)",
+       "Cholesterol crystals and plaque debris lodge in small arteries",
+       "Renal failure, livedo reticularis, digital ischemia; cholesterol clefts in arterioles"
+      ]
+     ],
+     "caption": "Septic emboli (from infected vegetations) and tumor emboli also occur and carry their infection or tumor to the site where they lodge."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-18-08-C04",
+   "obj": "CV-18-H.4",
+   "title": "Infarction: white and red infarcts, necrosis pattern, and infarct size",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "An infarct is ischemic necrosis caused by loss of blood flow. Nearly all infarcts follow arterial occlusion by thrombosis or embolism; less common causes are vasospasm, external compression, torsion, rupture, and venous outflow obstruction. Infarcts in solid organs are usually wedge-shaped, with the occluded vessel at the apex and the organ surface at the base, where a fibrinous exudate often covers the overlying serosa. Two separate questions describe every infarct: how much blood it contains (white or red) and how the dead tissue breaks down (coagulative or liquefactive)."
+    },
+    {
+     "type": "table",
+     "title": "White versus red infarcts",
+     "cols": [
+      "Feature",
+      "White (pale, anemic) infarct",
+      "Red (hemorrhagic) infarct"
+     ],
+     "rows": [
+      [
+       "Cause",
+       "Arterial occlusion",
+       "Venous occlusion, or arterial occlusion where blood can still enter"
+      ],
+      [
+       "Tissue",
+       "Solid, dense organs with end-arterial supply",
+       "Loose tissue, dual-supply organs, previously congested tissue, reperfused tissue"
+      ],
+      [
+       "Why",
+       "No alternative inflow, and dense tissue limits seepage of blood into the necrotic area",
+       "Blood from a second supply, from backed-up venous drainage, or from restored flow enters damaged vessels and leaks into the necrotic area"
+      ],
+      [
+       "Examples",
+       "Heart, kidney, spleen",
+       "Lung (pulmonary and bronchial arteries), small intestine (rich anastomoses), testis or ovary after torsion, brain after embolus lysis, heart after reperfusion"
+      ]
+     ],
+     "caption": "Infarcts caused by infected emboli (septic infarcts) become abscesses."
+    },
+    {
+     "type": "p",
+     "text": "The necrosis pattern depends on the tissue, not on the color. In almost every organ, ischemia denatures structural proteins and lytic enzymes alike, so cell outlines and tissue architecture persist for days while nuclei disappear: this is coagulative necrosis. Neutrophils then arrive at the border, macrophages remove debris, and granulation tissue is replaced by a scar. The brain is the exception. It has little collagen framework, and its lipid-rich tissue is digested by released lysosomal enzymes and cleared by microglia, so an infarct liquefies (liquefactive necrosis) and leaves a fluid-filled cavity rather than a scar. A brain infarct can therefore be red and liquefactive, and a reperfused myocardial infarct red and coagulative."
+    },
+    {
+     "type": "p",
+     "text": "Coagulative necrosis follows a predictable time course that dates an infarct. Cell death is not visible by light microscopy for the first several hours; nuclear loss and eosinophilic cytoplasm appear over about 4 to 12 hours, neutrophils infiltrate the border within the first 1 to 2 days, and macrophages and granulation tissue follow over the next week or two. The margin of a recent infarct is often hyperemic. The infarcted area is replaced by scar over weeks, whereas a brain infarct leaves a cyst lined by reactive astrocytes."
+    },
+    {
+     "type": "table",
+     "title": "Factors that decide whether and how large an infarct forms",
+     "cols": [
+      "Factor",
+      "Effect"
+     ],
+     "rows": [
+      [
+       "Anatomy of the blood supply",
+       "Dual supply (lung, liver, hand and forearm) or rich anastomoses protect; end arteries (kidney, spleen) do not"
+      ],
+      [
+       "Rate of occlusion",
+       "Slow narrowing allows collateral vessels to enlarge, as in chronic coronary disease; sudden occlusion does not"
+      ],
+      [
+       "Vulnerability to hypoxia",
+       "Neurons die after about 3 to 4 minutes, myocytes after about 20 to 30 minutes, fibroblasts survive many hours"
+      ],
+      [
+       "Oxygen content of blood",
+       "Anemia, hypoxemia, or heart failure enlarge an infarct and can cause one after a partial occlusion"
+      ]
+     ],
+     "caption": "These factors explain why the same occlusion may cause no damage in one person and a large infarct in another."
+    },
+    {
+     "type": "stop",
+     "predict": "A patient with chronic left heart failure develops a medium-sized pulmonary embolus. A second patient with a normal heart has an embolus of the same size. Which one infarcts, and what color is the infarct?",
+     "explain": "The patient in heart failure. Bronchial arterial flow normally keeps lung tissue alive, but congestion and reduced output impair it; when infarction occurs it is red, because blood still enters from the bronchial circulation and congested veins.",
+     "check": "The white versus red table and the factors table."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-18-08-C05",
+   "obj": "CV-18-H.5",
+   "title": "Hemorrhage: patterns in tissue and effects by volume and site",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Hemorrhage is escape of blood from a vessel. Its pattern in the skin and mucosa points to the defect behind it. Pinpoint bleeds come from capillaries and venules that are normally sealed by platelets, so they suggest a platelet or small-vessel problem. Large, deep bleeds into muscles, joints, and soft tissue follow minor injury when the fibrin clot that should stabilize the platelet plug cannot form, so they suggest a coagulation factor deficiency."
+    },
+    {
+     "type": "table",
+     "title": "Hemorrhage into tissues",
+     "cols": [
+      "Term",
+      "Size and form",
+      "Typical causes"
+     ],
+     "rows": [
+      [
+       "Petechiae",
+       "1 to 2 mm pinpoint hemorrhages in skin, mucosa, or serosa; do not blanch",
+       "Thrombocytopenia, platelet dysfunction, raised intravascular pressure, loss of vessel wall support (scurvy)"
+      ],
+      [
+       "Purpura",
+       "3 mm or larger, up to about 1 cm",
+       "The causes of petechiae, plus vasculitis, trauma, and vascular fragility; palpable purpura suggests small-vessel vasculitis"
+      ],
+      [
+       "Ecchymosis",
+       "Larger, flat subcutaneous hemorrhage (a bruise), usually over 1 to 2 cm",
+       "Trauma, worsened by any bleeding disorder"
+      ],
+      [
+       "Hematoma",
+       "A collected mass of blood within tissue, raised or space-occupying",
+       "Trauma, factor deficiencies such as hemophilia, ruptured vessel or aneurysm"
+      ]
+     ],
+     "caption": "Bleeding into body cavities is named for the site: hemothorax, hemopericardium, hemoperitoneum, hemarthrosis."
+    },
+    {
+     "type": "p",
+     "text": "A bruise changes color as macrophages break down hemoglobin. It begins red-blue from hemoglobin, turns blue-green as heme is converted to biliverdin and then bilirubin, and ends golden-brown from hemosiderin. A large hematoma can raise serum unconjugated bilirubin as it is resorbed."
+    },
+    {
+     "type": "h",
+     "text": "Volume and rate"
+    },
+    {
+     "type": "p",
+     "text": "Blood volume is about 70 mL/kg in adults, about 5 L in a 70 kg person. Rapid loss of up to about 10 to 15% is tolerated with little change. Beyond that, the baroreceptor reflex raises heart rate and constricts arterioles and veins, and the pulse pressure narrows. When acute loss exceeds about 20% of blood volume, these compensations begin to fail and hypovolemic (hemorrhagic) shock develops; losses of about 40% are immediately life-threatening. Slow or recurrent external loss, as from a bleeding peptic ulcer or heavy menstruation, depletes iron and causes iron deficiency anemia, whereas blood shed into tissues or body cavities is broken down and its iron reused."
+    },
+    {
+     "type": "example",
+     "title": "Why the hematocrit is normal right after a large hemorrhage",
+     "text": "A man loses 1.5 L of blood from a stab wound and arrives within 30 minutes, pale and tachycardic. His hematocrit is 44%. He has lost whole blood, cells and plasma in the same proportion, so the concentration of red cells in what remains is unchanged even though total red cell mass has fallen by about 30%. Over the next hours, lower capillary hydrostatic pressure draws interstitial fluid into the vessels (transcapillary refill), and the kidney retains sodium and water through renin, angiotensin II, aldosterone, and ADH. This cell-free volume dilutes the remaining red cells, and the hematocrit falls over the following day. An early normal hematocrit therefore does not exclude severe acute blood loss."
+    },
+    {
+     "type": "p",
+     "text": "Site can matter more than volume. A small hemorrhage inside the rigid skull raises intracranial pressure and can cause herniation. A modest but rapid collection of blood in the pericardium causes tamponade, because the stiff pericardial sac cannot stretch quickly. Retroperitoneal bleeding from a ruptured aortic aneurysm can hide liters of blood without external signs."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-18-08-C06",
+   "obj": "CV-18-H.6",
+   "title": "Edema: transudate, exudate, and lymphedema",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Edema is excess fluid in the interstitium. Normally capillaries filter slightly more fluid than they reabsorb, and lymphatics return the excess (CV-11.5). Edema appears when filtration exceeds lymphatic capacity, which happens through four mechanisms: raised capillary hydrostatic pressure, lowered plasma oncotic pressure, increased capillary permeability, and lymphatic obstruction. Renal sodium and water retention adds to the first two by expanding plasma volume. Which mechanism operates decides what the fluid contains."
+    },
+    {
+     "type": "table",
+     "title": "Mechanisms of edema",
+     "cols": [
+      "Mechanism",
+      "Examples",
+      "Fluid"
+     ],
+     "rows": [
+      [
+       "Raised hydrostatic pressure",
+       "Heart failure, deep vein thrombosis or venous obstruction, portal hypertension (ascites), volume overload in renal failure",
+       "Transudate"
+      ],
+      [
+       "Lowered plasma oncotic pressure",
+       "Nephrotic syndrome (albumin loss), cirrhosis (low synthesis), protein malnutrition (kwashiorkor), protein-losing enteropathy",
+       "Transudate"
+      ],
+      [
+       "Sodium and water retention",
+       "Renal failure, activation of the renin, angiotensin, and aldosterone system in heart failure",
+       "Transudate"
+      ],
+      [
+       "Increased permeability",
+       "Acute inflammation, burns, ARDS, anaphylaxis",
+       "Exudate"
+      ],
+      [
+       "Lymphatic obstruction",
+       "Filariasis (Wuchereria bancrofti), tumor, lymph node dissection or radiation, congenital lymphatic hypoplasia",
+       "Protein-rich lymph"
+      ]
+     ],
+     "caption": "Transudates arise when vessel walls are intact; exudates when inflammation has opened them."
+    },
+    {
+     "type": "p",
+     "text": "A transudate forms when the vessel wall is intact but the forces are out of balance, so water and small solutes cross while protein stays behind. It is clear, with low protein and a specific gravity below about 1.012. An exudate forms when inflammatory mediators such as histamine, bradykinin, and leukotrienes contract endothelial cells and open gaps between them, or when the endothelium is directly injured. Protein, fibrinogen, and white cells then leave the vessel, giving cloudy fluid with high protein and a specific gravity above about 1.020. For pleural fluid, Light criteria apply the same idea: a fluid-to-serum protein ratio above 0.5, a fluid-to-serum LDH ratio above 0.6, or fluid LDH above two-thirds of the upper limit of normal for serum marks an exudate."
+    },
+    {
+     "type": "cycle",
+     "title": "Edema in heart failure",
+     "steps": [
+      "Cardiac output falls",
+      "Renal perfusion falls; renin rises",
+      "Angiotensin II and aldosterone retain sodium and water",
+      "Plasma volume and venous pressure rise",
+      "Capillary hydrostatic pressure rises; edema forms",
+      "Failing heart is further overloaded"
+     ],
+     "caption": "Renal retention, meant to restore perfusion, raises venous pressure and worsens edema in a failing heart."
+    },
+    {
+     "type": "p",
+     "text": "Ordinary edema pits because the excess fluid is free in the interstitium: firm pressure pushes it aside, and the dent fills slowly. It collects where hydrostatic pressure is highest (legs when standing, sacrum when lying), and in nephrotic syndrome it appears first in loose tissue such as the eyelids. Lymphedema begins soft but becomes nonpitting. The retained lymph is rich in protein, which stimulates fibroblasts and adipose deposition, so the skin and subcutaneous tissue thicken and harden; over years this produces elephantiasis, and in breast cancer blocked dermal lymphatics give the dimpled peau d'orange skin. Myxedema of hypothyroidism is also nonpitting, for a different reason: glycosaminoglycans bind water in the dermis."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-18-08-C07",
+   "obj": "CV-18-H.7",
+   "title": "Classification of shock and its hemodynamic profiles",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Shock is widespread tissue hypoperfusion. Mean arterial pressure equals cardiac output times systemic vascular resistance (SVR), and cardiac output depends on venous return, so perfusion fails when the volume, the pump, the path through the heart, or vascular tone fails. The classification names the failing part. Three measurements identify it: cardiac output, SVR, and pulmonary capillary wedge pressure (PCWP), which approximates left ventricular filling pressure. The key is to decide which change is the primary problem and which is the reflex response."
+    },
+    {
+     "type": "table",
+     "title": "Hemodynamic profiles of shock",
+     "cols": [
+      "Type",
+      "Primary problem",
+      "Cardiac output",
+      "SVR",
+      "PCWP",
+      "Skin"
+     ],
+     "rows": [
+      [
+       "Hypovolemic",
+       "Loss of blood or fluid (hemorrhage, burns, vomiting, diarrhea)",
+       "Decreased",
+       "Increased (reflex)",
+       "Decreased",
+       "Cold, clammy"
+      ],
+      [
+       "Cardiogenic",
+       "Pump failure (myocardial infarction, myocarditis, arrhythmia, acute valve rupture)",
+       "Decreased",
+       "Increased (reflex)",
+       "Increased",
+       "Cold, clammy"
+      ],
+      [
+       "Obstructive",
+       "Block to filling or outflow (tamponade, massive pulmonary embolism, tension pneumothorax)",
+       "Decreased",
+       "Increased (reflex)",
+       "Increased in tamponade (equal diastolic pressures); normal or low in pulmonary embolism",
+       "Cold, clammy"
+      ],
+      [
+       "Septic (distributive)",
+       "Vasodilation and capillary leak from the host response to infection",
+       "Increased or normal early; may fall late",
+       "Decreased",
+       "Decreased or normal",
+       "Warm, flushed early"
+      ],
+      [
+       "Anaphylactic (distributive)",
+       "Mast cell and basophil release of histamine and other mediators, usually IgE-mediated",
+       "Usually decreased by vasodilation and leak, may be normal",
+       "Decreased",
+       "Decreased",
+       "Warm, flushed, urticaria, angioedema"
+      ],
+      [
+       "Neurogenic (distributive)",
+       "Loss of sympathetic tone after spinal cord injury (usually above about T6)",
+       "Decreased",
+       "Decreased",
+       "Decreased",
+       "Warm, dry; bradycardia"
+      ]
+     ],
+     "caption": "Low-output shock raises SVR as a reflex; distributive shock lowers SVR as the primary defect. Central venous pressure follows PCWP except in right-sided obstruction (pulmonary embolism), where it rises while PCWP stays normal or low."
+    },
+    {
+     "type": "p",
+     "text": "In hypovolemic shock, reduced venous return lowers filling pressures and stroke volume; the baroreceptor reflex responds with tachycardia and intense arteriolar constriction, so SVR is high and the skin is cold and pale. Cardiogenic shock shares low output and high SVR, but the failing ventricle cannot empty, so blood backs up and PCWP rises, causing pulmonary edema. Obstructive shock also has low output with reflex vasoconstriction. In tamponade, fluid around the heart limits filling of all chambers, and diastolic pressures in the atria, ventricles, and PCWP rise and equalize. In massive pulmonary embolism, the right ventricle cannot push blood through the lungs, so central venous pressure rises while the left ventricle is underfilled and PCWP is normal or low."
+    },
+    {
+     "type": "p",
+     "text": "Distributive shock begins in the vessels. Arterioles dilate and SVR falls, venous capacitance rises, and in sepsis and anaphylaxis capillaries leak. In septic shock with adequate volume, the low resistance and reflex tachycardia raise cardiac output (hyperdynamic or warm shock), yet tissues remain hypoxic because flow is maldistributed and mitochondrial oxygen use is impaired; mixed venous oxygen saturation is therefore normal or high, unlike the low value of low-output shock. Neurogenic shock differs in one sign: cut sympathetic pathways cannot raise heart rate, and unopposed vagal tone causes bradycardia with warm, dry skin."
+    },
+    {
+     "type": "example",
+     "title": "Reading a hemodynamic profile",
+     "text": "Typical normal values are cardiac output about 4 to 8 L/min, SVR about 800 to 1,200 dyn·s/cm5, and PCWP about 6 to 12 mmHg. Patient A: cardiac output 2.5 L/min, SVR 1,800, PCWP 26 mmHg. Output is low, so the high SVR is a reflex; the high wedge pressure means the left ventricle is full but not emptying. This is cardiogenic shock. Patient B: cardiac output 2.8 L/min, SVR 1,700, PCWP 4 mmHg. Output is low with reflex vasoconstriction, but the ventricle is empty, which points to hypovolemic shock. Patient C: cardiac output 8.5 L/min, SVR 450, PCWP 8 mmHg. Resistance is the primary defect and output has risen to compensate, which fits early septic shock."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-18-08-C08",
+   "obj": "CV-18-H.8",
+   "title": "Stages of shock, septic shock mediators, and multiorgan dysfunction",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Shock passes through three stages. In the nonprogressive (compensated) stage, baroreceptor reflexes, catecholamines, the renin, angiotensin, and aldosterone system, and ADH raise heart rate, constrict arterioles in skin, gut, and kidney, and retain salt and water. Autoregulation keeps coronary and cerebral flow nearly normal, so the patient has tachycardia, cool pale skin (except in early sepsis), and reduced urine output, but blood pressure may be near normal."
+    },
+    {
+     "type": "p",
+     "text": "In the progressive stage, perfusion is inadequate despite these reflexes. Cells shift to anaerobic glycolysis, and lactate accumulates, causing a high anion gap metabolic acidosis with serum lactate above the normal of about 2 mmol/L. Acidosis blunts arteriolar responses to sympathetic stimulation while venules stay constricted, so blood pools and leaks in capillary beds, and it depresses contractility. Patients become confused, oliguric, and hypotensive."
+    },
+    {
+     "type": "cycle",
+     "title": "Positive feedback in progressive shock",
+     "steps": [
+      "Cardiac output and arterial pressure fall",
+      "Tissue hypoxia; lactic acidosis",
+      "Arterioles dilate; blood pools in capillaries",
+      "Capillary leak; venous return falls",
+      "Acidosis depresses the myocardium",
+      "Cardiac output falls further"
+     ],
+     "caption": "Once each fall in flow causes a further fall, shock worsens even if the original insult stops."
+    },
+    {
+     "type": "p",
+     "text": "In the irreversible stage, restoring hemodynamics no longer saves the patient. ATP is depleted, lysosomal enzymes leak from injured cells, the myocardium fails, and ischemic bowel lets bacteria and endotoxin enter the blood, adding sepsis to the original insult."
+    },
+    {
+     "type": "h",
+     "text": "Septic shock mediators"
+    },
+    {
+     "type": "p",
+     "text": "Septic shock is caused by the host response, not by bacteria directly. Lipopolysaccharide (endotoxin) of gram-negative bacteria, whose lipid A is the toxic portion, binds LPS-binding protein, CD14, and TLR4 on macrophages, neutrophils, and endothelium; gram-positive wall components signal through TLR2, and superantigens activate T cells nonspecifically. NF-kappa B then drives release of TNF and IL-1, which induce IL-6 and chemokines, while microbial products activate complement to generate C3a and C5a. Inducible nitric oxide synthase in endothelium and smooth muscle produces large amounts of nitric oxide, which relaxes vascular smooth muscle through cGMP and lowers SVR. TNF and IL-1 also loosen endothelial junctions and depress myocardial contraction."
+    },
+    {
+     "type": "flow",
+     "title": "From endotoxin to septic shock",
+     "steps": [
+      "Endotoxin binds CD14 and TLR4 on macrophages and endothelium",
+      "NF-kappa B activation; TNF and IL-1 released",
+      "Inducible NO synthase; nitric oxide relaxes vascular smooth muscle",
+      "Endothelial leak; tissue factor up, protein C activation down",
+      "Low SVR, hypovolemia, microthrombi, myocardial depression",
+      "Hypoperfusion and multiorgan dysfunction"
+     ],
+     "caption": "Vasodilation, leak, and clotting arise from the same cytokine-activated endothelium."
+    },
+    {
+     "type": "p",
+     "text": "Cytokines also push coagulation toward clotting: they induce tissue factor, reduce thrombomodulin so less protein C is activated, and raise plasminogen activator inhibitor-1, suppressing fibrinolysis. Microthrombi and consumption of platelets and factors lead to disseminated intravascular coagulation (DIC)."
+    },
+    {
+     "type": "table",
+     "title": "Multiorgan dysfunction after shock",
+     "cols": [
+      "Organ",
+      "Lesion",
+      "Mechanism and findings"
+     ],
+     "rows": [
+      [
+       "Kidney",
+       "Acute tubular necrosis",
+       "Proximal straight tubule and thick ascending limb in the outer medulla have high energy demand and little oxygen; oliguria, rising creatinine, muddy brown granular casts"
+      ],
+      [
+       "Lung",
+       "ARDS (diffuse alveolar damage)",
+       "Neutrophil and cytokine injury to endothelium and type I pneumocytes; protein-rich edema, hyaline membranes, hypoxemia with normal left atrial pressure"
+      ],
+      [
+       "Blood",
+       "DIC",
+       "Microthrombi consume platelets and factors: low platelets and fibrinogen, long PT and PTT, high D-dimer, schistocytes"
+      ],
+      [
+       "Liver",
+       "Ischemic hepatitis (shock liver)",
+       "Centrilobular (zone 3) necrosis; very high aminotransferases"
+      ],
+      [
+       "Gut, brain, heart",
+       "Mucosal necrosis; encephalopathy; subendocardial necrosis",
+       "Areas perfused last fail first; gut injury allows bacterial translocation"
+      ],
+      [
+       "Adrenal",
+       "Hemorrhagic necrosis",
+       "Bilateral adrenal hemorrhage in meningococcal sepsis (Waterhouse-Friderichsen syndrome)"
+      ]
+     ],
+     "caption": "Each organ fails where its blood supply is weakest relative to its metabolic demand."
+    },
+    {
+     "type": "stop",
+     "predict": "A patient in septic shock has a cardiac output of 9 L/min, yet her lactate keeps rising. How can tissues be hypoxic when flow is high?",
+     "explain": "Dilated, maldistributed beds and microthrombi divert flow from nutrient capillaries, leak widens diffusion distances, and cytokines and nitric oxide impair mitochondrial oxygen use, so oxygen reaches and is used by cells poorly.",
+     "check": "The distributive shock paragraph in section C07 and the mediators in this section."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "These disorders form chains that cross organ systems. Anatomy decides consequences: end arteries make kidney and spleen infarcts pale and wedge-shaped, the dual supply of the lung makes pulmonary infarction uncommon, and a patent foramen ovale lets a leg vein thrombus cause a stroke. Biochemistry and genetics explain who clots: a single amino acid change in factor V removes a brake on thrombin, and vitamin K-dependent proteins with different half-lives explain warfarin skin necrosis. Physiology explains edema and shock through Starling forces and the relationship of pressure, output, and resistance."
+  },
+  {
+   "type": "p",
+   "text": "Immunology and microbiology link infection to circulatory failure through TLR4, TNF, IL-1, and nitric oxide, and the same activated endothelium causes vasodilation, leak, and DIC. Pathology then shows the end result in each organ. The categories overlap in practice: septic shock often has a hypovolemic component from leak and a cardiogenic component from myocardial depression, and hemodynamic profiles shift over time, so a single measurement must be read against the clinical course."
+  }
+ ],
+ "summary": [
+  "Virchow triad: endothelial injury, abnormal flow, and hypercoagulability; injury dominates in arteries, stasis in veins.",
+  "Arterial thrombi are pale and platelet-rich and grow back toward the heart; venous thrombi are red and grow toward the heart with flow; lines of Zahn mark a thrombus formed in life.",
+  "Factor V Leiden causes activated protein C resistance; antithrombin and protein C or S deficiencies remove brakes on thrombin; antiphospholipid antibodies prolong the PTT in vitro but cause arterial and venous thrombosis.",
+  "Venous emboli go to the lungs; mural thrombi from a left ventricular infarct or fibrillating left atrium embolize mostly to the legs and brain; venous emboli reach the systemic side only through a right-to-left shunt.",
+  "Fat embolism syndrome follows long-bone fracture by 1 to 3 days with hypoxemia, neurologic change, and petechiae; amniotic fluid embolism causes shock and DIC with fetal squames in maternal lung vessels.",
+  "White infarcts occur in solid end-arterial organs; red infarcts need blood entering dead tissue (dual supply, loose tissue, venous occlusion, reperfusion); necrosis is coagulative everywhere except the brain.",
+  "Petechiae and purpura point to platelet or small-vessel defects; hematomas and hemarthroses point to factor defects; acute loss above about 20% of blood volume causes hypovolemic shock.",
+  "Transudates come from hydrostatic or oncotic imbalance across an intact wall; exudates come from inflammatory leak; protein-rich lymph causes fibrosis and nonpitting lymphedema.",
+  "Low-output shock (hypovolemic, cardiogenic, obstructive) has reflex high SVR; distributive shock has primary low SVR; PCWP is high in cardiogenic shock and tamponade and low in hypovolemic and distributive shock.",
+  "Shock progresses from compensated to progressive with lactic acidosis to irreversible; endotoxin, TNF, IL-1, and nitric oxide drive septic vasodilation, leak, and DIC, leading to ATN, ARDS, and multiorgan failure."
+ ],
+ "sources": [
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Hemodynamic Disorders, Thromboembolic Disease, and Shock"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "The Microcirculation and Lymphatic System: capillary fluid exchange, interstitial fluid, and lymph flow; Circulatory Shock; Hemostasis and Blood Coagulation"
+  },
+  {
+   "book": "Boron and Boulpaep Medical Physiology",
+   "where": "The microcirculation; integrated control of the cardiovascular system (response to hemorrhage)"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Blood disorders (hemostasis and thrombosis); cardiovascular disorders (shock)"
+  },
+  {
+   "book": "Abbas Cellular and Molecular Immunology",
+   "where": "Innate immunity: Toll-like receptors, inflammatory cytokines, and septic shock"
+  },
+  {
+   "book": "Jawetz, Melnick and Adelberg's Medical Microbiology",
+   "where": "Pathogenesis of bacterial infection: endotoxins of gram-negative bacteria"
+  }
+ ],
+ "verify": [
+  "Hemorrhage thresholds (little change below about 10 to 15% loss, shock above about 20%, life-threatening near 40%) follow the trauma class system and Robbins; sources quote slightly different cutoffs, so confirm the values NABNE expects.",
+  "Embolism statistics (more than 95% of pulmonary emboli from leg veins, about 80% of systemic emboli from intracardiac mural thrombi, about 75% lodging in the legs and 10% in the brain, more than about 60% obstruction for sudden death, more than about 100 mL of air for symptoms) are from Robbins and vary between editions.",
+  "Factor V Leiden carrier frequency (about 2 to 15% in people of European descent) and relative risks (about 5-fold heterozygous, 50-fold homozygous), and prothrombin G20210A frequency (about 1 to 2%), vary by population and source.",
+  "Mortality figures for fat embolism syndrome and amniotic fluid embolism differ widely between older and newer series and were deliberately left out.",
+  "Normal hemodynamic values used in the worked example (cardiac output about 4 to 8 L/min, SVR about 800 to 1,200 dyn·s/cm5, PCWP about 6 to 12 mmHg) vary slightly by reference.",
+  "Hemodynamic profile of anaphylactic shock is taught differently: some board tables group it with septic shock as high output, while physiology sources describe low output from leak and venous pooling. Confirm the NABNE convention.",
+  "Sepsis definitions changed with Sepsis-3 (2016), which defines septic shock by vasopressor need to keep mean arterial pressure at 65 mmHg or more and lactate above 2 mmol/L despite adequate fluid; confirm whether NABNE uses Sepsis-3 or the older SIRS-based definitions.",
+  "Petechiae and purpura size cutoffs (1 to 2 mm; 3 mm to about 1 cm) and the ecchymosis threshold (over 1 to 2 cm) differ slightly between sources.",
+  "Requested new diagram names for a future revision: thrombus-types (arterial pale thrombus with lines of Zahn beside a red venous thrombus and a postmortem clot) and starling-capillary (hydrostatic and oncotic forces along a capillary with lymphatic return)."
+ ]
+}

@@ -12,7 +12,8 @@
           "The open ends are the neuropores: the anterior (cranial) neuropore closes about day 25, the posterior (caudal) neuropore about day 28.",
           "Neural crest cells peel off the crests of the folds as they fuse and migrate widely.",
           "The notochord later persists only as the nucleus pulposus of the intervertebral discs."
-        ]
+        ],
+        "why": "The notochord secretes noggin and chordin, which block BMP4 in the overlying ectoderm, and ectoderm with BMP4 blocked defaults to a neural fate, so the neural plate forms only above the notochord. Sonic hedgehog from the notochord and floor plate then sets up ventral motor regions, while BMPs from the roof plate set up dorsal sensory regions. Fusion starts in the middle and proceeds toward both ends, so the neuropores close last, which is why most neural tube defects sit at the cranial or lumbosacral end."
       },
       {
         "h": "Brain vesicles",
@@ -21,7 +22,8 @@
           "By week 5 the prosencephalon splits into telencephalon and diencephalon, and the rhombencephalon into metencephalon and myelencephalon (five secondary vesicles).",
           "The lumen of the tube becomes the ventricles, and the caudal tube becomes the spinal cord with its central canal.",
           "The retina grows out of the diencephalon as the optic vesicle, so it is CNS tissue."
-        ]
+        ],
+        "why": "Each vesicle keeps its share of the tube lumen, so the adult ventricle in a region tells you which vesicle made it: telencephalon gives the lateral ventricles, diencephalon the third ventricle, mesencephalon the cerebral aqueduct, and rhombencephalon the fourth ventricle. The aqueduct is the narrowest point of this system, which is why aqueductal stenosis is a classic cause of congenital obstructive hydrocephalus. Because the optic vesicle grows out of the diencephalon, the optic nerve is a CNS tract myelinated by oligodendrocytes, so multiple sclerosis can cause optic neuritis."
       },
       {
         "h": "Who makes which cells",
@@ -29,7 +31,8 @@
           "Neuroectoderm (the tube itself): CNS neurons, astrocytes, oligodendrocytes, ependymal cells, retina, posterior pituitary, pineal gland.",
           "Neural crest: dorsal root and cranial sensory ganglia, autonomic ganglia, Schwann cells, adrenal medulla chromaffin cells, melanocytes.",
           "Mesoderm: microglia (from the monocyte and macrophage line)."
-        ]
+        ],
+        "why": "Cell origin predicts where disease appears. Neural crest cells undergo an epithelial to mesenchymal transition at the fold crests and migrate, so crest disorders show up far from the neural tube: neuroblastoma and pheochromocytoma in the adrenal medulla, melanoma in the skin, and Hirschsprung disease when crest cells fail to reach the distal colon. Microglia come from yolk sac macrophage precursors (mesoderm) that colonize the CNS, which is why they behave as phagocytes and antigen-presenting cells."
       },
       {
         "h": "Neural tube defects",
@@ -41,7 +44,8 @@
           "Open defects leak alpha-fetoprotein (AFP), raising maternal serum and amniotic fluid AFP; amniotic fluid acetylcholinesterase is also high.",
           "Skin-covered defects such as spina bifida occulta leave AFP normal.",
           "Risk factors: low folate around conception, valproate, maternal diabetes. Folic acid 0.4 mg daily for all, 4 mg daily after a prior affected pregnancy."
-        ]
+        ],
+        "why": "Severity depends on how much neural tissue is left exposed. When the tube fails to close, the surrounding mesoderm cannot complete the vertebral arch or skull vault, and in open defects fetal AFP and acetylcholinesterase from exposed neural tissue leak into the amniotic fluid, and AFP then reaches maternal serum. Folate supplies one-carbon units for thymidine and purine synthesis, so deficiency slows DNA synthesis in the rapidly dividing neural folds in week 4, often before a woman knows she is pregnant."
       },
       {
         "h": "Holoprosencephaly",
@@ -49,7 +53,8 @@
           "The prosencephalon fails to divide into two hemispheres in weeks 5 to 6.",
           "Linked to sonic hedgehog (SHH) pathway defects, trisomy 13 (Patau syndrome), and fetal alcohol exposure.",
           "Face and forebrain share midline signals, so the face shows midline defects: cyclopia, closely set eyes, cleft lip and palate, single central incisor."
-        ]
+        ],
+        "why": "Sonic hedgehog from the prechordal plate and ventral forebrain defines the midline, and that midline signal is needed both to split the forebrain into two hemispheres and to divide the single eye field and shape the central face. When SHH signaling fails, the forebrain stays as one ventricle and the face loses midline tissue, so the severity of the facial defect tends to match the severity of the brain defect. SHH must be modified by cholesterol to work, which is why Smith-Lemli-Opitz syndrome (a cholesterol synthesis defect) can also cause holoprosencephaly."
       },
       {
         "h": "Posterior fossa malformations",
@@ -58,6 +63,30 @@
           "Chiari I is strongly linked to a cervical syrinx (syringomyelia).",
           "Chiari II: the cerebellar vermis and medulla herniate through the foramen magnum, with a lumbosacral myelomeningocele and obstructive hydrocephalus.",
           "Dandy-Walker: the vermis fails to form or stays very small, and the fourth ventricle balloons into a cyst filling an enlarged posterior fossa, often with hydrocephalus."
+        ],
+        "why": "These three malformations differ in the size of the posterior fossa and in how they disturb CSF flow. In Chiari II the posterior fossa is small, so the vermis and medulla are forced down through the foramen magnum and block fourth ventricle outflow, causing hydrocephalus. In Chiari I, tonsils crowding the foramen magnum disturb normal CSF pulsation between the skull and spinal canal, which is thought to push fluid into the cord and form a syrinx. In Dandy-Walker the posterior fossa is enlarged around a cystic fourth ventricle, the opposite of both Chiari forms."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Neurulation and neuropore closure",
+        "steps": [
+          "Notochord releases noggin and chordin, blocking BMP4 in the overlying ectoderm.",
+          "Ectoderm thickens into the neural plate in week 3.",
+          "Plate edges rise as neural folds around the neural groove.",
+          "Folds fuse in the midline near the future neck, then zip toward both ends.",
+          "Neural crest cells detach from the fold crests and migrate.",
+          "Anterior neuropore closes about day 25; posterior neuropore about day 28."
+        ]
+      },
+      {
+        "title": "Open neural tube defect to raised AFP",
+        "steps": [
+          "Low periconceptional folate slows DNA synthesis in dividing neural fold cells.",
+          "Posterior neuropore fails to close by about day 28.",
+          "Vertebral arches cannot form over the open tube, leaving neural tissue exposed.",
+          "Fetal AFP and acetylcholinesterase leak into the amniotic fluid.",
+          "AFP reaches maternal blood, raising maternal serum AFP."
         ]
       }
     ],
@@ -270,7 +299,8 @@
           "Multipolar neurons (one axon, many dendrites): motor neurons and most CNS neurons.",
           "Pseudounipolar neurons: one process that splits into a peripheral and a central branch; found in dorsal root ganglia and most cranial sensory ganglia.",
           "Bipolar neurons: one dendrite and one axon; found in the retina, olfactory epithelium, and the spiral and vestibular ganglia."
-        ]
+        ],
+        "why": "Nissl substance is rough ER and ribosomes, so it sits where proteins are made, in the soma and proximal dendrites; the axon has no ribosomes and depends on axonal transport from the soma, which is why the hillock looks pale on a Nissl stain. The axon initial segment has the highest density of voltage-gated sodium channels and the lowest threshold, so it is where summed synaptic input becomes an action potential. In a pseudounipolar sensory neuron the impulse runs straight from the peripheral branch into the central branch without passing through the soma."
       },
       {
         "h": "Peripheral nerve wrappings",
@@ -279,7 +309,8 @@
           "Perineurium: layers of flat epithelioid cells joined by tight junctions around each fascicle; this is the blood-nerve barrier.",
           "Epineurium: dense connective tissue around the whole nerve, carrying its blood vessels.",
           "Surgeons rejoin the perineurium when repairing a cut nerve so fascicles line up."
-        ]
+        ],
+        "why": "Each layer has a separate job. Perineurial cells joined by tight junctions wrap every fascicle and limit what reaches the axons from tissue fluid, so they act as the peripheral counterpart of the blood-brain barrier. The epineurium cushions the nerve and carries the vasa nervorum, which is why ischemic neuropathies such as diabetic mononeuropathy reflect disease of these vessels. After a crush injury the connective tissue tubes stay intact and guide regrowth, so crush injuries recover better than complete transections."
       },
       {
         "h": "Myelin makers",
@@ -290,7 +321,8 @@
           "Nodes of Ranvier between internodes hold dense sodium channels, allowing fast saltatory conduction.",
           "Guillain-Barré syndrome: immune attack on Schwann cell myelin, often after Campylobacter jejuni infection.",
           "Multiple sclerosis: autoimmune loss of oligodendrocyte myelin. PML: JC virus kills oligodendrocytes in immunosuppressed patients."
-        ]
+        ],
+        "why": "Myelin raises membrane resistance and lowers capacitance along the internode, so current spreads passively and quickly to the next node, where clustered sodium channels regenerate the action potential (saltatory conduction). Loss of myelin lets current leak away, slowing or blocking conduction, which causes weakness and sensory loss with reduced conduction velocity. Because one oligodendrocyte myelinates many axons, losing a single cell in MS or PML demyelinates many axons at once. The immune target separates the diseases: Schwann cell myelin in Guillain-Barré (molecular mimicry after Campylobacter), CNS myelin in MS."
       },
       {
         "h": "Other glia",
@@ -298,7 +330,8 @@
           "Astrocytes (GFAP positive): foot processes on capillaries support the blood-brain barrier, buffer extracellular potassium, take up glutamate, and form the glial scar after injury.",
           "Microglia: resident CNS macrophages; in HIV encephalitis they form microglial nodules and multinucleated giant cells.",
           "Ependymal cells: ciliated cuboidal to columnar cells lining the ventricles and central canal; modified ependyma of the choroid plexus makes CSF."
-        ]
+        ],
+        "why": "Astrocytes keep the neuronal environment stable. Their foot processes induce and support endothelial tight junctions, and their uptake of extracellular potassium (spatial buffering) and glutamate prevents excess depolarization and excitotoxicity after intense firing. After injury they proliferate and fill the area with GFAP-rich processes, so gliosis is the CNS form of scarring, since the brain parenchyma has almost no fibroblasts. Microglia express CD4 and chemokine coreceptors, so HIV infects them and fuses them into multinucleated giant cells."
       },
       {
         "h": "Axon injury and repair",
@@ -307,7 +340,8 @@
           "Central chromatolysis in the cell body: the soma swells, the nucleus moves to the edge, and Nissl substance disperses as the cell ramps up protein synthesis.",
           "PNS regrowth: Schwann cells line up in tubes (bands of Büngner) that guide the regrowing axon at about 1 mm per day.",
           "CNS axons rarely regrow: oligodendrocytes make no guide tubes, CNS myelin contains growth inhibitors, and astrocytes form a glial scar."
-        ]
+        ],
+        "why": "The soma makes nearly all of the neuron's proteins, so a cut axon segment separated from it degenerates, and Schwann cells and macrophages clear the myelin (Wallerian degeneration). The soma shifts to making repair and growth proteins, so its rough ER disperses and the nucleus moves to the edge (central chromatolysis). Denervated Schwann cells proliferate, release growth factors, and form bands of Büngner, and regrowth at about 1 mm per day lets clinicians estimate recovery time from the distance to the target. CNS repair fails because oligodendrocyte myelin carries growth inhibitors such as Nogo and the astrocytic scar blocks growth."
       },
       {
         "h": "Red neurons",
@@ -316,6 +350,40 @@
           "Look: shrunken cell body, intensely eosinophilic cytoplasm, pyknotic nucleus, loss of Nissl substance.",
           "Most vulnerable neurons: hippocampal CA1 pyramidal cells, cerebellar Purkinje cells, and neocortical pyramidal neurons.",
           "Later stages after an infarct: neutrophils, then macrophages over several days, then reactive gliosis and a cystic space over weeks."
+        ],
+        "why": "Neurons rely almost entirely on oxidative phosphorylation and store little glycogen, so ischemia quickly stops the Na/K ATPase. The neuron depolarizes and releases glutamate, which opens NMDA receptors and floods neurons with calcium (excitotoxicity), and calcium-activated enzymes then damage proteins, membranes, and mitochondria. The dying cell shrinks with condensed eosinophilic cytoplasm and a pyknotic nucleus, the light-microscopic sign of irreversible injury. Neurons with heavy glutamate input, such as CA1 pyramidal cells and Purkinje cells, die first in global hypoxia."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Peripheral axon injury and regrowth",
+        "steps": [
+          "Axon is cut, separating the distal segment from the cell body.",
+          "Distal axon and myelin degenerate; macrophages clear the debris (Wallerian degeneration).",
+          "Cell body undergoes central chromatolysis and makes growth proteins.",
+          "Schwann cells proliferate and line up as bands of Büngner.",
+          "Proximal axon sprouts and regrows along the tubes about 1 mm per day.",
+          "Axon reaches its target and Schwann cells remyelinate it."
+        ]
+      },
+      {
+        "title": "Hypoxic neuronal injury",
+        "steps": [
+          "Ischemia stops oxidative phosphorylation, and ATP falls.",
+          "Na/K ATPase fails; the neuron depolarizes and releases glutamate.",
+          "Glutamate opens NMDA receptors, and calcium floods the neuron.",
+          "Calcium-activated enzymes damage proteins, membranes, and mitochondria.",
+          "Red neurons appear about 12 to 24 hours after the insult.",
+          "Neutrophils, then macrophages, then reactive gliosis follow."
+        ]
+      },
+      {
+        "title": "Saltatory conduction",
+        "steps": [
+          "Action potential opens dense sodium channels at a node of Ranvier.",
+          "Current spreads passively and quickly along the myelinated internode.",
+          "Next node reaches threshold and fires a new action potential.",
+          "Impulse jumps node to node, raising conduction velocity."
         ]
       }
     ],
@@ -519,7 +587,8 @@
           "Primary visual cortex: banks of the calcarine sulcus in the occipital lobe; lesion gives a contralateral homonymous hemianopia.",
           "Primary auditory cortex: transverse gyri of the superior temporal gyrus; one-sided lesion causes little hearing loss because each ear projects to both sides.",
           "Broca area (dominant inferior frontal gyrus): lesion gives nonfluent speech with good comprehension. Wernicke area (dominant posterior superior temporal gyrus): fluent speech that makes no sense, with poor comprehension."
-        ]
+        ],
+        "why": "Primary cortices are laid out as body and field maps, so the site of a lesion predicts what is lost, and the arterial territory predicts the site. The ACA supplies the medial surface where the leg is represented, while the MCA supplies the lateral surface with the face, arm, and the language areas of the dominant hemisphere. Broca area plans the motor program for speech and Wernicke area links sounds to meaning, so a frontal lesion breaks speech output while comprehension stays intact, and a temporal lesion breaks comprehension while speech stays fluent."
       },
       {
         "h": "Basal ganglia",
@@ -530,7 +599,8 @@
           "Parkinson disease: loss of nigral dopamine neurons (Lewy bodies with alpha-synuclein) leaves the indirect pathway dominant, giving too little movement.",
           "Huntington disease: early loss of GABA neurons in the caudate (indirect pathway) leaves the thalamus released, giving chorea; CAG repeat in HTT on chromosome 4.",
           "Subthalamic nucleus lesion (often a small stroke): contralateral hemiballismus."
-        ]
+        ],
+        "why": "The internal globus pallidus (GPi) tonically inhibits the motor thalamus, and movement happens when the striatum releases that brake. The direct pathway removes GPi inhibition, while the indirect pathway strengthens it through the excitatory subthalamic nucleus. Dopamine favors movement by exciting D1 striatal neurons and inhibiting D2 neurons, so dopamine loss in Parkinson disease tightens the brake (bradykinesia, rigidity), while early loss of indirect pathway neurons in Huntington disease loosens it (chorea). A subthalamic lesion removes the drive to the GPi, releasing the thalamus and producing flinging hemiballismus."
       },
       {
         "h": "Cerebellum",
@@ -540,7 +610,8 @@
           "Vermis (midline) lesion: truncal ataxia and a wide-based gait; alcohol damages the anterior vermis.",
           "Hemisphere lesion: ipsilateral limb ataxia, intention tremor, dysmetria, dysdiadochokinesia, and falling toward the lesion side.",
           "Signs are ipsilateral because cerebellar output crosses to the opposite cortex, and the corticospinal tract crosses back."
-        ]
+        ],
+        "why": "The cerebellum receives a copy of the motor command from the cortex through the pontine nuclei and feedback from muscles and joints through the spinocerebellar tracts, and sends corrections out through the deep nuclei. The vermis works with medial descending systems that control the trunk, while each hemisphere works with the lateral corticospinal system for the limbs, which explains truncal versus limb ataxia. Hemisphere output crosses in the superior cerebellar peduncle to the opposite thalamus and cortex, and the corticospinal tract crosses back in the medulla, so the double crossing leaves signs on the side of the lesion."
       },
       {
         "h": "Thalamus",
@@ -548,7 +619,8 @@
           "Relay station: almost all sensation except smell passes through it to the cortex.",
           "Thalamic infarct: contralateral loss of all body sensation.",
           "Weeks to months later some patients develop thalamic pain syndrome (Dejerine-Roussy): burning contralateral pain set off by light touch."
-        ]
+        ],
+        "why": "Each relay nucleus receives one kind of input and projects to one cortical area, so a thalamic lesion mimics a lesion of the matching cortex. VPL receives the medial lemniscus and spinothalamic tract carrying the opposite side of the body, so an infarct there (often in a thalamogeniculate branch of the posterior cerebral artery) removes all modalities on the contralateral side. Thalamic pain syndrome is neuropathic pain: surviving neurons in the damaged pathway are thought to become abnormally excitable, so light touch is felt as burning pain (allodynia)."
       },
       {
         "h": "Brainstem and spinal cord",
@@ -558,7 +630,8 @@
           "White columns: dorsal (fasciculus gracilis for legs, cuneatus for arms), lateral (lateral corticospinal tract), and anterolateral (spinothalamic tract).",
           "Enlargements: cervical (about C4 to T1) for the arm plexus and lumbosacral (about L2 to S3) for the leg plexus.",
           "The cord ends as the conus medullaris near L1 to L2 in adults; roots below form the cauda equina."
-        ]
+        ],
+        "why": "Cranial nerve nuclei are arranged roughly in numerical order down the brainstem, so the cranial nerves involved locate a brainstem lesion to its level, while long tract signs place it in the brainstem itself. In the cord, gray matter expands where many limb muscles and skin regions need neurons, which forms the cervical and lumbosacral enlargements. The vertebral column grows longer than the cord during fetal and childhood growth, so the adult cord ends near L1 to L2 and lower roots descend as the cauda equina, which lets a needle below L2 enter CSF without striking the cord."
       },
       {
         "h": "Consciousness",
@@ -567,6 +640,40 @@
           "Coma comes from ARAS damage or from dysfunction of both hemispheres; one damaged hemisphere alone does not cause coma.",
           "Delirium: acute, fluctuating loss of attention, often from infection, drugs, or metabolic upset, and usually reversible.",
           "Brain death: irreversible loss of all brain and brainstem function: coma, no brainstem reflexes, and apnea with a high PaCO2; spinal reflexes may remain."
+        ],
+        "why": "Arousal depends on cholinergic, noradrenergic, serotonergic, and other projections from the upper pontine and midbrain reticular formation that activate the thalamus and cortex of both hemispheres. To cause coma a lesion must hit this small brainstem core or both hemispheres; a large one-sided lesion does so only when swelling compresses the brainstem or the other hemisphere. Delirium is a brain-wide disturbance of attention from a reversible cause, so it fluctuates and clears when the cause is treated. In brain death, failed medullary respiratory centers explain apnea despite a PaCO2 high enough to drive breathing."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Direct basal ganglia pathway",
+        "steps": [
+          "Cortex excites striatal neurons with glutamate.",
+          "Dopamine from the substantia nigra pars compacta boosts these neurons through D1 receptors.",
+          "Striatum inhibits the internal globus pallidus with GABA.",
+          "Less pallidal output releases the motor thalamus from inhibition.",
+          "Thalamus excites motor cortex, and movement increases."
+        ]
+      },
+      {
+        "title": "Indirect basal ganglia pathway",
+        "steps": [
+          "Cortex excites D2 striatal neurons; dopamine normally inhibits these neurons.",
+          "Striatum inhibits the external globus pallidus.",
+          "Less external pallidal inhibition releases the subthalamic nucleus.",
+          "Subthalamic nucleus excites the internal globus pallidus with glutamate.",
+          "Internal pallidus inhibits the thalamus, and movement decreases."
+        ]
+      },
+      {
+        "title": "Cerebellar hemisphere output loop",
+        "steps": [
+          "Purkinje cells of the hemisphere inhibit the dentate nucleus.",
+          "Dentate output leaves through the superior cerebellar peduncle and crosses.",
+          "Fibers reach the contralateral ventrolateral (VL) thalamic nucleus.",
+          "VL thalamus projects to the motor cortex on that side.",
+          "Corticospinal tract crosses back in the medullary pyramids.",
+          "Corrections reach limbs on the same side as the cerebellar hemisphere."
         ]
       }
     ],
@@ -790,7 +897,8 @@
           "Arachnoid: thin, avascular, pressed against the dura; pia: clings to the brain surface and follows every sulcus.",
           "Epidural space: potential space in the skull, real space in the spinal canal (fat and veins).",
           "Subdural space: potential space between dura and arachnoid. Subarachnoid space: real space with CSF and the large cerebral arteries."
-        ]
+        ],
+        "why": "In the skull the dura is fused to the inner periosteum, so the epidural space opens only when blood strips the dura off the bone, while in the spinal canal the dura hangs free and a real epidural space holds fat and veins. Dura and arachnoid are joined only by a weak layer of border cells, so blood from torn bridging veins easily splits them apart. The subarachnoid space holds CSF and the major arteries of the circle of Willis, which is why a ruptured aneurysm bleeds into CSF and blood shows up on lumbar puncture."
       },
       {
         "h": "Bleeds by space",
@@ -798,7 +906,8 @@
           "Epidural hematoma: a skull fracture at the pterion tears the middle meningeal artery; lens-shaped clot that stops at sutures; lucid interval, then rapid decline.",
           "Subdural hematoma: torn bridging veins between cortex and dural sinuses; crescent clot that crosses sutures; elderly, alcohol use, infant shaking.",
           "Spontaneous subarachnoid hemorrhage: usually a ruptured berry aneurysm (most often anterior communicating artery); sudden worst headache of life; xanthochromic CSF; vasospasm about 3 to 10 days later."
-        ]
+        ],
+        "why": "The bleeding source sets the speed and shape of the clot. Arterial blood from the middle meningeal artery is under high pressure, strips the dura from bone quickly, and stops at sutures where the dura is firmly attached, giving a lens shape and rapid decline. Venous blood from bridging veins collects slowly and spreads across sutures, and brain atrophy in older adults and in chronic alcohol use stretches these veins so minor trauma tears them. After subarachnoid hemorrhage, breakdown products of blood around the arteries trigger vasospasm, which causes delayed ischemia."
       },
       {
         "h": "Dural folds and herniation",
@@ -808,7 +917,8 @@
           "Uncal herniation: medial temporal lobe slides through the tentorial notch and presses on CN III (dilated, fixed pupil first, then down and out eye), the posterior cerebral artery (contralateral hemianopia), and the cerebral peduncle.",
           "Compressing the ipsilateral peduncle gives contralateral weakness; pushing the opposite peduncle against the tentorium (Kernohan notch) gives ipsilateral weakness.",
           "Tonsillar herniation: cerebellar tonsils through the foramen magnum compress the medulla, stopping breathing and circulation."
-        ]
+        ],
+        "why": "The skull cannot expand, so a growing mass raises pressure and pushes brain from the higher-pressure compartment through the rigid openings in the dural folds. The structure at each opening determines the signs: the cingulate gyrus pinches the ACA under the falx, the uncus at the tentorial notch meets CN III, the PCA, and the midbrain, and the tonsils at the foramen magnum press on the medulla. Parasympathetic pupillary fibers run on the outside of CN III, so the pupil dilates before eye movements fail. The medulla holds the respiratory and cardiovascular centers, so tonsillar herniation is quickly fatal."
       },
       {
         "h": "Cisterns, CSF flow, and lumbar puncture",
@@ -819,7 +929,8 @@
           "Arachnoid granulations return CSF to the superior sagittal sinus.",
           "The lumbar cistern runs from the conus (L1 to L2) to S2 and holds the cauda equina; puncture at L3 to L4 or L4 to L5, using the iliac crest line (about L4).",
           "Needle path: skin, supraspinous and interspinous ligaments, ligamentum flavum, epidural space, dura, arachnoid, subarachnoid space."
-        ]
+        ],
+        "why": "Choroid plexus epithelium secretes CSF actively, pumping sodium into the ventricles with the Na/K ATPase so water follows, and the fluid moves one way from the lateral ventricles to the subarachnoid space and out through arachnoid granulations into venous blood. Production stays nearly constant, so any block raises pressure upstream: a block inside the ventricular system causes noncommunicating hydrocephalus, while failed absorption at the granulations after meningitis or subarachnoid hemorrhage causes communicating hydrocephalus. A lumbar puncture below L2 is safe because the lumbar cistern holds only floating nerve roots that slide away from the needle."
       },
       {
         "h": "Blood-brain and blood-CSF barriers",
@@ -828,7 +939,8 @@
           "Lipid-soluble molecules cross freely; glucose (GLUT1) and amino acids need carriers. L-dopa crosses; dopamine does not.",
           "Blood-CSF barrier: choroid plexus capillaries are leaky, so the barrier is the tight junctions of the choroid epithelium.",
           "Circumventricular organs have no barrier so they can sample or secrete into blood: area postrema (vomiting), posterior pituitary, OVLT, subfornical organ, median eminence."
-        ]
+        ],
+        "why": "Endothelial tight junctions and very little transcytosis force most substances to cross through endothelial cell membranes instead of between cells. That makes lipid solubility the main predictor of entry, while polar nutrients such as glucose need dedicated carriers; L-dopa crosses on the large neutral amino acid transporter, and dopamine has no carrier. Circumventricular organs have fenestrated capillaries so they can sample blood or release hormones into it; the area postrema detects circulating toxins and triggers vomiting."
       },
       {
         "h": "Reading the CSF",
@@ -837,6 +949,40 @@
           "Low glucose means organisms or inflammatory cells are using it: bacterial, fungal, or tuberculous meningitis.",
           "Neutrophils point to bacteria; lymphocytes point to viral, fungal, or tuberculous causes.",
           "Guillain-Barré: high protein with a normal cell count (albuminocytologic dissociation)."
+        ],
+        "why": "Each CSF value reflects a process. Bacteria and neutrophils consume glucose and inflammation impairs its transport into CSF, so glucose falls well below its usual share of blood glucose, while inflamed meninges leak protein and raise pressure. Viral meningitis recruits lymphocytes but does not consume much glucose, so glucose stays normal, whereas fungal and tuberculous meningitis recruit lymphocytes and also lower glucose and raise protein strongly. In Guillain-Barré, inflamed nerve roots leak protein into CSF without adding cells, giving high protein with a normal cell count."
+      }
+    ],
+    "flows": [
+      {
+        "title": "CSF circulation",
+        "steps": [
+          "Choroid plexus in the lateral ventricles secretes CSF.",
+          "CSF passes through the foramina of Monro to the third ventricle.",
+          "Cerebral aqueduct carries CSF to the fourth ventricle.",
+          "Foramina of Luschka and Magendie open into the subarachnoid space.",
+          "CSF circulates around the brain and spinal cord.",
+          "Arachnoid granulations return CSF to the superior sagittal sinus."
+        ]
+      },
+      {
+        "title": "Epidural hematoma",
+        "steps": [
+          "Blow to the side of the head fractures the thin pterion.",
+          "Fracture tears the middle meningeal artery.",
+          "Arterial blood strips dura off the skull, stopping at sutures.",
+          "Patient may be lucid while the clot enlarges.",
+          "Rising pressure causes uncal herniation and rapid decline."
+        ]
+      },
+      {
+        "title": "Uncal herniation",
+        "steps": [
+          "Expanding supratentorial mass pushes the medial temporal lobe downward.",
+          "Uncus herniates through the tentorial notch.",
+          "Compression of outer CN III parasympathetic fibers dilates the ipsilateral pupil.",
+          "Further CN III compression causes ptosis and a down and out eye.",
+          "Midbrain compression disrupts the reticular activating system, causing coma."
         ]
       }
     ],
@@ -1050,7 +1196,8 @@
           "Free nerve endings carry pain and temperature over thin Aδ fibers (sharp pain, cold) and unmyelinated C fibers (burning pain, warmth).",
           "Muscle spindles lie parallel to muscle fibers and sense length and its rate of change (Ia and II afferents); gamma motor neurons keep them taut.",
           "Golgi tendon organs lie in series at the muscle-tendon junction and sense tension (Ib afferents)."
-        ]
+        ],
+        "why": "Adaptation depends on receptor structure. The layered capsule of a Pacinian corpuscle passes only rapid changes to the nerve ending, so it detects vibration and goes silent during steady pressure, while Merkel discs and Ruffini endings keep firing to report sustained pressure and stretch. Fiber diameter and myelination set conduction speed, so Aδ fibers bring the first sharp, well-localized pain and slower C fibers bring the later dull, burning pain. Spindles lie in parallel with muscle fibers and sense stretch, while tendon organs lie in series and sense tension, so active contraction strongly fires tendon organs."
       },
       {
         "h": "The two big sensory tracts",
@@ -1061,7 +1208,8 @@
           "It rises in the contralateral anterolateral cord to VPL, then to the postcentral gyrus.",
           "Cord lesion on one side: same-side loss of vibration and position below, opposite-side loss of pain and temperature starting one or two segments below.",
           "Lesion above the lower medulla: all sensory loss is contralateral because both tracts have crossed."
-        ]
+        ],
+        "why": "Both pathways use three neurons and end in the postcentral gyrus, but they cross at different levels. Dorsal column fibers stay on the same side in the cord and cross in the lower medulla, while spinothalamic fibers cross within one or two segments of entry. This difference lets one cord lesion split the sensory loss between the two sides, and it explains why a lesion above the medulla, such as a thalamic or cortical stroke, puts all sensory loss on the opposite side."
       },
       {
         "h": "Hemisection and syrinx",
@@ -1070,7 +1218,8 @@
           "At the lesion level: ipsilateral loss of all sensation and lower motor neuron signs; a lesion above T1 can add an ipsilateral Horner syndrome.",
           "Syringomyelia: a fluid cavity in the central cervical cord cuts the crossing spinothalamic fibers on both sides.",
           "Result: bilateral cape-like loss of pain and temperature over the shoulders and arms, with touch preserved; a growing syrinx adds hand muscle wasting."
-        ]
+        ],
+        "why": "A hemisection cuts every tract on one side, and each tract's crossing point predicts the side of loss: corticospinal and dorsal column fibers have not yet crossed, so their loss is ipsilateral, while spinothalamic fibers have already crossed, so pain and temperature loss is contralateral. A syrinx starts in the center of the cord, where pain and temperature fibers from both sides cross in the anterior white commissure, so it removes pain and temperature over the affected segments while sparing the dorsal columns. As it expands into the ventral horns it destroys lower motor neurons to the hand muscles."
       },
       {
         "h": "Spinal reflexes",
@@ -1080,7 +1229,8 @@
           "Golgi tendon organ reflex: high tension fires Ib afferents, which act through an inhibitory interneuron to relax the same muscle.",
           "Withdrawal reflex: a painful stimulus flexes the injured limb through several interneurons; the crossed extensor reflex stiffens the opposite limb to bear weight.",
           "Reflex roots: biceps C5, triceps C7, patellar L4, Achilles S1."
-        ]
+        ],
+        "why": "The stretch reflex is a negative feedback loop that holds muscle length steady, and testing it checks the afferent, the cord segment, and the efferent at a known root level. Upper motor neuron lesions remove descending inhibition, so reflexes become brisk, while root or lower motor neuron lesions break the arc and reflexes are lost. The Golgi tendon organ reflex protects the muscle and tendon from excessive force, and the withdrawal and crossed extensor reflexes use multisynaptic interneuron circuits so one limb pulls away while the other supports the body's weight."
       },
       {
         "h": "Referred pain",
@@ -1088,7 +1238,8 @@
           "Visceral and skin afferents from the same spinal segment converge on the same dorsal horn neurons, so the brain blames the skin.",
           "Heart (T1 to T4): pain felt in the chest, left arm, and jaw.",
           "Diaphragm (phrenic nerve C3 to C5): pain felt at the shoulder tip."
-        ]
+        ],
+        "why": "Visceral afferents are few, enter the cord with the sympathetic nerves at the segments that served the organ during development, and converge on the same dorsal horn projection neurons that carry skin input from those dermatomes. The brain is used to reading activity in those neurons as skin input, so it projects visceral pain onto the matching dermatomes. Cardiac afferents enter at T1 to T4, the segments that supply the chest wall and the medial arm, and the diaphragm is supplied by the phrenic nerve from C3 to C5, the segments that supply the skin over the shoulder."
       },
       {
         "h": "Pain control and neuropathic pain",
@@ -1097,7 +1248,8 @@
           "Descending control: the periaqueductal gray drives the rostral medulla (serotonin) and locus coeruleus (norepinephrine) to inhibit dorsal horn pain neurons.",
           "Endogenous opioids (enkephalins, endorphins, dynorphins) cut transmitter release presynaptically and hyperpolarize the postsynaptic neuron.",
           "Neuropathic pain comes from damage to the nervous system itself: postherpetic neuralgia, phantom limb pain, thalamic pain syndrome."
-        ]
+        ],
+        "why": "Pain signals are turned up or down in the dorsal horn before they reach the brain. Large Aβ touch fibers activate inhibitory interneurons in the substantia gelatinosa that reduce firing of pain projection neurons, which is gate control. The periaqueductal gray, activated by endogenous opioids and higher centers, drives descending serotonin and norepinephrine fibers that inhibit dorsal horn neurons, while opioid receptors close presynaptic calcium channels and open postsynaptic potassium channels. Neuropathic pain differs because injured nerves and central neurons fire spontaneously and become sensitized, so pain occurs without ongoing tissue damage."
       },
       {
         "h": "Headaches",
@@ -1105,6 +1257,40 @@
           "Migraine: often unilateral, pulsating, 4 to 72 hours, with nausea and light sensitivity; trigeminovascular activation releases CGRP; aura comes from cortical spreading depression.",
           "Cluster headache: severe periorbital pain for 15 to 180 minutes with same-side tearing, runny nose, and sometimes ptosis and miosis; more common in men.",
           "Tension headache: bilateral band-like pressure, no nausea, not worse with activity."
+        ],
+        "why": "In migraine, activated trigeminal fibers release CGRP and substance P around meningeal vessels, causing vasodilation and neurogenic inflammation, and sensitized trigeminal pathways turn normal arterial pulsation into throbbing pain. Aura comes from cortical spreading depression, a slow wave of neuronal depolarization followed by suppressed activity that moves across the cortex at about 3 mm per minute, so visual symptoms spread gradually. Cluster headache activates the trigeminal pain pathway together with a reflex outflow through CN VII parasympathetic fibers, which explains the tearing and runny nose on the same side."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Dorsal column medial lemniscus pathway",
+        "steps": [
+          "Fine touch or vibration activates large myelinated fibers from dorsal root ganglion neurons.",
+          "Axons ascend on the same side in fasciculus gracilis or cuneatus.",
+          "They synapse in nucleus gracilis or cuneatus in the lower medulla.",
+          "Second neurons cross as internal arcuate fibers and ascend as the medial lemniscus.",
+          "They synapse in the VPL nucleus of the thalamus.",
+          "Third neurons project to the postcentral gyrus."
+        ]
+      },
+      {
+        "title": "Spinothalamic pathway",
+        "steps": [
+          "Pain or temperature activates free nerve endings on Aδ or C fibers.",
+          "First neuron enters the cord and synapses in the dorsal horn.",
+          "Second neuron crosses in the anterior white commissure within one or two segments.",
+          "It ascends in the contralateral anterolateral column.",
+          "It synapses in the VPL nucleus, which projects to the postcentral gyrus."
+        ]
+      },
+      {
+        "title": "Monosynaptic stretch reflex",
+        "steps": [
+          "Tendon tap stretches the muscle and its spindles.",
+          "Ia afferents fire and enter the cord through the dorsal root.",
+          "Ia afferents synapse directly on alpha motor neurons of the same muscle.",
+          "Ia inhibitory interneurons relax the antagonist muscle at the same time.",
+          "Stretched muscle contracts, producing the reflex jerk."
         ]
       }
     ],
@@ -1347,7 +1533,8 @@
           "So each optic tract carries the opposite visual field to the lateral geniculate nucleus (LGN).",
           "Optic radiations: the Meyer loop runs through the temporal lobe carrying the upper field; the parietal radiations carry the lower field.",
           "Both end on the banks of the calcarine sulcus; the macula is at the occipital pole, which has a dual blood supply."
-        ]
+        ],
+        "why": "Fiber position predicts the field defect. Because only nasal fibers cross at the chiasm, any lesion behind the chiasm affects the same half of the field in both eyes (homonymous), while a midline chiasm lesion such as a pituitary adenoma hits the crossing nasal fibers and causes bitemporal hemianopia. Upper field fibers loop forward into the temporal lobe (Meyer loop), so a temporal lesion gives a contralateral upper quadrantanopia and a parietal lesion a lower one. The occipital pole receives blood from both the posterior and middle cerebral arteries, so a PCA infarct often spares the macula."
       },
       {
         "h": "Pupils",
@@ -1358,7 +1545,8 @@
           "Anisocoria from disease is an efferent problem: a large pupil from CN III palsy, a small one from Horner syndrome. A small difference can also be a harmless normal variant.",
           "Compressive CN III lesions (aneurysm, uncal herniation) hit the outer pupillary fibers first; diabetic CN III palsy usually spares the pupil.",
           "Argyll Robertson pupil (neurosyphilis): small, irregular pupils that constrict to near focus but not to light."
-        ]
+        ],
+        "why": "Each pretectal nucleus projects to both Edinger-Westphal nuclei, so light in either eye sends the efferent signal to both pupils. An afferent lesion of the optic nerve therefore never makes the pupils unequal; it shows only as a weaker response of both pupils when the damaged eye is lit, while an efferent lesion (CN III or sympathetic) produces anisocoria. Pupillary fibers lie on the surface of CN III and are supplied by pial vessels, so compression affects them early, while diabetic microvascular infarction damages the core of the nerve and spares them."
       },
       {
         "h": "Phototransduction",
@@ -1368,7 +1556,8 @@
           "Transducin activates phosphodiesterase, cGMP falls, the channels close, and the cell hyperpolarizes, cutting glutamate release.",
           "Retinal comes from vitamin A, so deficiency hits rods first: night blindness, then dry eye, Bitot spots, and corneal damage.",
           "Rods: periphery, dim light, one pigment. Cones: fovea, color (three opsins), sharp detail."
-        ]
+        ],
+        "why": "Photoreceptors are depolarized in the dark and hyperpolarize to light. Rhodopsin is a G protein coupled receptor, and each light-activated molecule activates many transducin and phosphodiesterase molecules, so the cascade amplifies a single photon into a measurable fall in cGMP. Bleached all-trans retinal is recycled back to 11-cis retinal through the retinal pigment epithelium, which needs a steady supply of vitamin A; rods carry dim-light vision, so deficiency first shows as night blindness. Vitamin A also maintains specialized epithelia, which explains the later dry, keratinized conjunctiva and cornea."
       },
       {
         "h": "Aqueous humor and tears",
@@ -1377,7 +1566,8 @@
           "It drains at the iridocorneal angle through the trabecular meshwork into the canal of Schlemm; blocked outflow raises pressure (glaucoma).",
           "Tear film: outer lipid layer (meibomian glands), middle watery layer (lacrimal gland), inner mucin layer (conjunctival goblet cells).",
           "Lacrimal gland parasympathetics: CN VII, greater petrosal nerve, pterygopalatine ganglion, then to the gland."
-        ]
+        ],
+        "why": "Aqueous humor nourishes the avascular lens and cornea, and intraocular pressure reflects the balance between its secretion and its outflow. The ciliary epithelium secretes it actively, using carbonic anhydrase and the Na/K ATPase to move ions so water follows. Outflow passes through the narrow iridocorneal angle, so an iris bowing forward can close the angle suddenly (acute angle-closure glaucoma), while slowly rising resistance in the trabecular meshwork causes open-angle glaucoma. Each tear layer has its own source, so meibomian gland dysfunction causes evaporative dry eye while lacrimal gland failure reduces tear volume."
       },
       {
         "h": "Hearing",
@@ -1386,7 +1576,8 @@
           "Endolymph in the scala media is potassium rich; when stereocilia bend, potassium flows in and depolarizes the hair cell.",
           "Tonotopy: the narrow, stiff base hears high pitch; the wide, floppy apex hears low pitch. Noise and age damage the base first.",
           "Weber and Rinne separate conductive loss (outer or middle ear) from sensorineural loss (cochlea or CN VIII)."
-        ]
+        ],
+        "why": "The middle ear overcomes an impedance mismatch: sound in air would mostly reflect off fluid, so the large tympanic membrane focusing force onto the small oval window, plus the ossicle lever, raises pressure enough to move cochlear fluid. Endolymph is rich in potassium and sits at about +80 mV (the endocochlear potential made by the stria vascularis), so opening hair cell channels lets potassium flow in and depolarize the cell. The basilar membrane changes in width and stiffness along its length, so each frequency peaks at one place. In conductive loss, Weber lateralizes to the affected ear, partly because room noise is blocked."
       },
       {
         "h": "Balance",
@@ -1396,7 +1587,8 @@
           "Vestibulo-ocular reflex: turning the head moves the eyes the same amount the other way to keep the image steady.",
           "One-sided vestibular loss unbalances the input, causing vertigo and nystagmus with the fast phase away from the bad side.",
           "Motion sickness comes from conflict between vestibular, visual, and body position signals."
-        ]
+        ],
+        "why": "Vestibular hair cells fire at a resting rate, and bending toward the kinocilium increases firing while bending away decreases it, so each side reports motion as a change from baseline. The brain compares the two sides, so when one labyrinth fails, the healthy side's resting input is read as constant head rotation toward the healthy side. The vestibulo-ocular reflex then drives the eyes slowly toward the damaged side, and a corrective fast phase beats away from it, which is the nystagmus. Canals respond to rotation because endolymph lags behind the moving duct, while otoliths add mass that responds to linear forces."
       },
       {
         "h": "Taste and smell",
@@ -1404,6 +1596,40 @@
           "Taste: anterior two thirds via CN VII (chorda tympani), posterior third via CN IX, to the nucleus solitarius, then VPM, then the gustatory cortex.",
           "Smell: olfactory receptor neurons send axons through the cribriform plate to the olfactory bulb, then to olfactory cortex with no thalamic relay.",
           "Cribriform plate fracture tears these axons, causing anosmia and sometimes CSF leaking from the nose."
+        ],
+        "why": "Taste fibers in CN VII, IX, and X converge on the nucleus solitarius, which relays through VPM to the gustatory cortex in the insula, so taste follows the usual thalamic relay rule. Smell is the exception: olfactory bulb output reaches the piriform cortex and amygdala directly, which helps explain the close link between odors, emotion, and memory. Olfactory receptor neurons send thin unmyelinated axons through the small holes of the cribriform plate, so shearing at the plate during head trauma tears them and causes anosmia."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Phototransduction in a rod",
+        "steps": [
+          "Light isomerizes 11-cis retinal to all-trans retinal in rhodopsin.",
+          "Activated rhodopsin activates the G protein transducin.",
+          "Transducin activates cGMP phosphodiesterase.",
+          "cGMP falls, closing cGMP-gated sodium channels.",
+          "Rod hyperpolarizes and releases less glutamate onto bipolar cells."
+        ]
+      },
+      {
+        "title": "Pupillary light reflex",
+        "steps": [
+          "Light activates retinal ganglion cells, which send signals in CN II.",
+          "Fibers leave the optic tract for the pretectal nuclei of the midbrain.",
+          "Each pretectal nucleus projects to both Edinger-Westphal nuclei.",
+          "Preganglionic parasympathetic fibers travel in CN III to the ciliary ganglion.",
+          "Short ciliary nerves contract the pupillary sphincter; both pupils constrict."
+        ]
+      },
+      {
+        "title": "Sound transduction",
+        "steps": [
+          "Sound vibrates the tympanic membrane.",
+          "Malleus, incus, and stapes concentrate the force onto the oval window.",
+          "Pressure wave in cochlear fluid moves the basilar membrane at a frequency-specific place.",
+          "Inner hair cell stereocilia bend against the tectorial membrane.",
+          "Potassium from endolymph enters, depolarizing the hair cell, which releases glutamate.",
+          "Spiral ganglion neurons carry the signal in CN VIII to the cochlear nuclei."
         ]
       }
     ],

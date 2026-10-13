@@ -1,0 +1,759 @@
+{
+ "unit": "GI-12",
+ "chapter_id": "NPLEX-P1-GAST-12",
+ "topic_id": "NPLEX-P1-GAST-12-01",
+ "title": "Gastrointestinal Pathogens",
+ "subject": "Gastrointestinal System (GAST)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter covers the bacteria, viruses, and parasites that infect the stomach, intestine, and liver, organized by mechanism of disease: a toxin already present in food, a toxin that switches on intestinal secretion, a cytotoxin that kills colonocytes, invasion of the mucosa, destruction of villus cells, or immune injury to hepatocytes. The mechanism predicts the clinical picture, including how quickly illness begins, whether stool is watery, fatty, or bloody, and which complications follow. Board questions usually supply an exposure, an incubation period, a stool finding, or a laboratory clue and ask for the organism, its virulence factor, or the test that detects active infection.",
+  "prerequisites": [
+   "Small intestinal and colonic epithelium, crypts, villi, and Peyer patches (GI histology)",
+   "Intestinal electrolyte transport: CFTR chloride secretion and sodium-coupled absorption (GI-7)",
+   "G protein signaling: Gs, adenylyl cyclase, cAMP, guanylyl cyclase, and cGMP",
+   "Bacterial structure, gram staining, AB toxin architecture, and secretion systems",
+   "Virus classification by genome type, envelope, and replication strategy"
+  ],
+  "connections": [
+   {
+    "to": "Gut immunity (GI-11)",
+    "how": "Secretory IgA, Th2 responses, and CD4 T cell counts explain why IgA deficiency favors Giardia, advanced HIV favors the coccidia, and corticosteroids unleash Strongyloides."
+   },
+   {
+    "to": "Inflammatory and peptic disease (GI-13-G)",
+    "how": "Helicobacter pylori is the leading cause of chronic gastritis and peptic ulceration through its effects on gastrin and acid secretion."
+   },
+   {
+    "to": "Infectious GI diseases (GI-13-L)",
+    "how": "The syndromes described there (dysentery, traveler's diarrhea, liver abscess, acute hepatitis) are the clinical expression of the organism biology taught here."
+   },
+   {
+    "to": "GI neoplasms (GI-13-K)",
+    "how": "Chronic hepatitis B and C lead to hepatocellular carcinoma, and H. pylori leads to gastric adenocarcinoma and gastric MALT lymphoma."
+   },
+   {
+    "to": "Renal and hematologic pathology",
+    "how": "Shiga toxin injures glomerular endothelium, producing the hemolytic uremic syndrome triad of hemolysis, thrombocytopenia, and acute kidney injury."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Preformed toxin",
+    "def": "A toxin produced in food before ingestion, so illness begins within hours and does not require the organism to infect the host."
+   },
+   {
+    "term": "Enterotoxin",
+    "def": "A toxin acting on intestinal epithelium to cause fluid and electrolyte secretion, usually without killing the cell."
+   },
+   {
+    "term": "AB toxin",
+    "def": "A toxin with a binding subunit that attaches to a host receptor and an active subunit that enters the cell and modifies a target protein."
+   },
+   {
+    "term": "ADP-ribosylation",
+    "def": "Enzymatic transfer of an ADP-ribose group from NAD+ onto a host protein, changing that protein's activity."
+   },
+   {
+    "term": "Dysentery",
+    "def": "Frequent small-volume stools with blood and mucus, cramping, and tenesmus, caused by inflammatory destruction of colonic mucosa."
+   },
+   {
+    "term": "Infectious dose",
+    "def": "The number of organisms required to establish infection, set largely by how well the organism survives gastric acid."
+   },
+   {
+    "term": "M cell",
+    "def": "A specialized epithelial cell overlying Peyer patches that samples luminal particles and delivers them to underlying lymphoid tissue."
+   },
+   {
+    "term": "Pseudomembrane",
+    "def": "An adherent plaque of fibrin, mucus, neutrophils, and necrotic epithelium on injured colonic mucosa, characteristic of Clostridioides difficile colitis."
+   },
+   {
+    "term": "Hemolytic uremic syndrome",
+    "def": "Microangiopathic hemolytic anemia, thrombocytopenia, and acute kidney injury caused by endothelial injury and microvascular thrombi."
+   },
+   {
+    "term": "Covalently closed circular DNA",
+    "def": "The stable episomal form of the hepatitis B genome in the hepatocyte nucleus that serves as template for all viral transcripts."
+   },
+   {
+    "term": "Acid-fast oocyst",
+    "def": "The thick-walled infective stage of coccidian parasites, which retains carbol fuchsin on modified acid-fast staining of stool."
+   },
+   {
+    "term": "Autoinfection",
+    "def": "Completion of the Strongyloides life cycle within a single host, as larvae mature in the bowel and reinvade without leaving the body."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-GAST-12-01-C01",
+   "obj": "GI-12.1",
+   "title": "Toxin-mediated diarrhea and vomiting",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Toxin-mediated illness divides into three mechanisms, and the incubation period separates them. A toxin already present in food acts as soon as it is absorbed, so vomiting begins within about 1 to 6 hours. A secretory enterotoxin requires the organism to reach the small intestine and multiply, so watery diarrhea appears after about a day. A cytotoxin kills colonocytes and produces inflammatory colitis over several days."
+    },
+    {
+     "type": "p",
+     "text": "Staphylococcus aureus and the emetic form of Bacillus cereus illness both follow ingestion of heat-stable toxin, so reheating the food does not protect: the bacteria die and the toxin survives. Staphylococcal enterotoxins stimulate vagal afferents in the gut, and vomiting is driven through those afferents rather than by mucosal destruction, so illness is brief, usually under 24 hours, with little fever. Cereulide, the emetic toxin of B. cereus, acts the same way and is classically linked to rice dishes, while a separate heat-labile B. cereus enterotoxin produced in the intestine causes watery diarrhea about 8 to 16 hours after exposure."
+    },
+    {
+     "type": "h",
+     "text": "Secretory toxins act through cyclic nucleotides"
+    },
+    {
+     "type": "p",
+     "text": "Vibrio cholerae is a curved, motile, oxidase-positive gram-negative rod that is readily killed by gastric acid, so a large inoculum or hypochlorhydria favors infection, and it does not invade. Cholera toxin ADP-ribosylates the alpha subunit of Gs, blocking its GTPase activity so that adenylyl cyclase remains active. Rising cAMP activates protein kinase A, which opens CFTR in crypt cells and inhibits brush border sodium and chloride absorption, so chloride moves into the lumen and sodium and water follow. The stool is isotonic, voluminous, and free of blood or leukocytes, the rice-water appearance. Glucose-coupled sodium absorption through SGLT1 is untouched, which is the physiologic basis of oral rehydration."
+    },
+    {
+     "type": "p",
+     "text": "Enterotoxigenic Escherichia coli, the usual cause of traveler's diarrhea, makes a heat-labile toxin that works like cholera toxin and raises cAMP, and a heat-stable toxin that activates guanylyl cyclase C, the receptor for the endogenous peptide guanylin, raising cGMP. Both second messengers open the same chloride channel, so the stool is watery for the same reason."
+    },
+    {
+     "type": "flow",
+     "title": "Cholera toxin to isotonic fluid loss",
+     "steps": [
+      "B subunit binds GM1 ganglioside on the enterocyte",
+      "A subunit ADP-ribosylates Gs alpha",
+      "Adenylyl cyclase stays active, cAMP rises",
+      "Protein kinase A opens CFTR, blocks Na+ absorption",
+      "Chloride secretion draws Na+ and water into the lumen",
+      "Isotonic rice-water stool, hypovolemia, metabolic acidosis"
+     ],
+     "caption": "The epithelium stays intact, so stool contains no blood or leukocytes and recovery is complete once secretion stops."
+    },
+    {
+     "type": "p",
+     "text": "Clostridioides difficile is a spore-forming anaerobic gram-positive rod whose spores resist drying and alcohol. Disease requires two conditions: loss of the colonic flora that normally suppress germination, typically after antibiotic exposure, and a strain carrying toxin genes. Toxins A and B glucosylate Rho family GTPases and collapse the actin cytoskeleton, so colonocytes round up, tight junctions open, and cells die, while interleukin 8 recruits neutrophils and plaques of fibrin, mucus, and necrotic debris form pseudomembranes. Testing detects the toxin gene by nucleic acid amplification or toxin itself by immunoassay, because a positive gene test in someone without diarrhea reflects colonization rather than disease."
+    },
+    {
+     "type": "table",
+     "title": "Toxin-mediated gastrointestinal illness",
+     "cols": [
+      "Organism",
+      "Toxin and mechanism",
+      "Typical exposure",
+      "Onset and stool"
+     ],
+     "rows": [
+      [
+       "Staphylococcus aureus",
+       "Preformed heat-stable enterotoxin, vagal emetic pathway",
+       "Protein-rich foods held unrefrigerated",
+       "About 1 to 6 hours, vomiting, little fever"
+      ],
+      [
+       "Bacillus cereus, emetic",
+       "Preformed heat-stable cereulide",
+       "Rice dishes",
+       "About 1 to 6 hours, vomiting"
+      ],
+      [
+       "Bacillus cereus, diarrheal",
+       "Heat-labile enterotoxin made in the gut",
+       "Meats, sauces, vegetables",
+       "About 8 to 16 hours, watery"
+      ],
+      [
+       "Vibrio cholerae",
+       "Cholera toxin raises cAMP",
+       "Contaminated water, shellfish",
+       "Massive isotonic rice-water stool"
+      ],
+      [
+       "Enterotoxigenic E. coli",
+       "Heat-labile raises cAMP, heat-stable raises cGMP",
+       "Food and water during travel",
+       "Watery, afebrile, over days"
+      ],
+      [
+       "Clostridioides difficile",
+       "Toxins A and B kill colonocytes",
+       "Recent antibiotics, health care",
+       "Inflammatory diarrhea, pseudomembranes"
+      ]
+     ],
+     "caption": "Incubation time separates preformed toxin from toxin made in the host, and only the cytotoxins destroy epithelium."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-GAST-12-01-C02",
+   "obj": "GI-12.2",
+   "title": "Invasive enteric bacteria: Shigella, Salmonella, and Campylobacter",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Invasive organisms enter and destroy mucosa, so the host responds with fever, cramping, and stool containing blood and leukocytes. Fecal leukocytes or a positive fecal lactoferrin therefore point toward this group and away from the secretory toxins. The three classic invaders are separated by laboratory phenotype, by the dose required, and by their characteristic complications."
+    },
+    {
+     "type": "p",
+     "text": "Shigella species are nonmotile, lactose nonfermenting gram-negative rods that do not produce hydrogen sulfide. They tolerate gastric acid well, so as few as about 10 to 100 organisms can infect, which explains person-to-person spread in households and child care settings. Shigella crosses the colonic epithelium through M cells, escapes its vacuole into the cytoplasm, and polymerizes host actin to drive itself into adjacent cells, spreading laterally while shielded from antibody. Infected macrophages die by pyroptosis after inflammasome activation, releasing interleukin 1 beta and amplifying inflammation. The result is superficial ulceration of the distal colon with dysentery, while bacteremia is uncommon. Shigella dysenteriae type 1 also produces Shiga toxin and can therefore cause hemolytic uremic syndrome."
+    },
+    {
+     "type": "p",
+     "text": "Salmonella species are motile and produce hydrogen sulfide, which blackens the butt of triple sugar iron agar, and they are acid sensitive, so a much larger dose is required and reduced gastric acidity raises risk. A type III secretion system injects effectors that cause membrane ruffling and bacterial uptake, and the organism then survives inside a modified vacuole in macrophages. Nontyphoidal serotypes from poultry, eggs, and reptiles cause gastroenteritis that can be followed by bacteremia and seeding of bone, a pattern seen in sickle cell disease. Salmonella Typhi carries a Vi capsule, is restricted to humans, and spreads from intestinal lymphoid tissue through lymphatics and blood to liver, spleen, and marrow, producing enteric fever with rising fever, abdominal pain, rose spots, and ulceration over Peyer patches. It can persist in the gallbladder, especially with gallstones, creating a chronic carrier state."
+    },
+    {
+     "type": "p",
+     "text": "Campylobacter jejuni is a comma-shaped or S-shaped, motile, oxidase-positive gram-negative rod that is microaerophilic and grows at 42 degrees C (107.6 degrees F), a property used for selective isolation. Acquired from undercooked poultry and unpasteurized milk, it invades the ileum and colon and causes fever, periumbilical cramping that can mimic appendicitis, and bloody diarrhea. Its lipooligosaccharide carries sugar structures resembling peripheral nerve gangliosides, so antibodies against the organism can cross-react with axonal membranes and produce Guillain-Barre syndrome by molecular mimicry, usually one to three weeks after the diarrhea. Reactive arthritis is a second postinfectious complication, most often in HLA-B27 positive people."
+    },
+    {
+     "type": "table",
+     "title": "Distinguishing the classic invasive enteric bacteria",
+     "cols": [
+      "Feature",
+      "Shigella",
+      "Salmonella",
+      "Campylobacter jejuni"
+     ],
+     "rows": [
+      [
+       "Motility",
+       "Nonmotile",
+       "Motile",
+       "Motile, single polar flagellum"
+      ],
+      [
+       "Hydrogen sulfide",
+       "Not produced",
+       "Produced",
+       "Not an enteric fermenter"
+      ],
+      [
+       "Shape or growth clue",
+       "Straight rod",
+       "Straight rod",
+       "Comma or S shaped, grows at 42 degrees C (107.6 degrees F)"
+      ],
+      [
+       "Infectious dose",
+       "Very low, about 10 to 100",
+       "High, acid sensitive",
+       "Intermediate"
+      ],
+      [
+       "Usual exposure",
+       "Person to person, child care",
+       "Poultry, eggs, reptiles",
+       "Undercooked poultry, raw milk"
+      ],
+      [
+       "Depth reached",
+       "Distal colon mucosa, rarely blood",
+       "Mucosa then macrophages, can be bacteremic",
+       "Ileum and colon mucosa"
+      ],
+      [
+       "Classic complication",
+       "Dysentery, HUS with S. dysenteriae type 1",
+       "Osteomyelitis, gallbladder carriage with S. Typhi",
+       "Guillain-Barre syndrome, reactive arthritis"
+      ]
+     ],
+     "caption": "Motility and hydrogen sulfide separate Shigella from Salmonella on one agar slant, while shape and growth temperature identify Campylobacter."
+    },
+    {
+     "type": "flow",
+     "title": "How Shigella produces dysentery with few organisms",
+     "steps": [
+      "Acid tolerance lets a small dose reach the colon",
+      "Uptake through M cells over colonic lymphoid tissue",
+      "Escape from the vacuole into the cytoplasm",
+      "Actin-based motility carries it cell to cell",
+      "Macrophage pyroptosis releases interleukin 1 beta",
+      "Neutrophilic ulceration, blood and mucus in small stools"
+     ],
+     "caption": "Intracellular spread keeps the organism away from antibody, so mucosal destruction is extensive while bloodstream invasion is rare."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-GAST-12-01-C03",
+   "obj": "GI-12.3",
+   "title": "Yersinia enterocolitica, enterohemorrhagic E. coli, and Listeria monocytogenes",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "These three favor the distal small bowel, but each causes disease differently: regional lymphadenitis, a toxin reaching the circulation, and intracellular spread beyond the gut."
+    },
+    {
+     "type": "p",
+     "text": "Yersinia enterocolitica is a gram-negative coccobacillus with bipolar staining that multiplies near 4 degrees C (39.2 degrees F), so refrigeration does not protect and cold enrichment is used to recover it. Exposure is classically undercooked pork or raw milk. It invades the terminal ileum through M cells and multiplies in mesenteric lymph nodes, so fever, right lower quadrant pain, and tender nodes mimic appendicitis, a picture called pseudoappendicitis. Growth depends on iron acquisition, so iron overload and chelation raise the risk of severe infection."
+    },
+    {
+     "type": "p",
+     "text": "Enterohemorrhagic Escherichia coli, usually serotype O157:H7, comes from undercooked ground beef and contaminated produce, and is recognized because it does not ferment sorbitol. It adheres to colonic epithelium with intimin and effaces the microvilli without invading, so fever is often absent and fecal leukocytes modest even when stool is grossly bloody. Its Shiga toxin, encoded by a lysogenic bacteriophage, binds globotriaosylceramide (Gb3) and cleaves one adenine from the 28S ribosomal RNA of the 60S subunit, halting protein synthesis and killing the cell. Gb3 sits on colonic and glomerular endothelium, so absorbed toxin injures the kidney: damaged endothelium nucleates platelet microthrombi, red cells fragment passing them, platelets are consumed, and filtration falls. The resulting hemolytic uremic syndrome appears about 5 to 10 days after the diarrhea begins."
+    },
+    {
+     "type": "flow",
+     "title": "From Shiga toxin to hemolytic uremic syndrome",
+     "steps": [
+      "Adherent EHEC effaces colonic microvilli without invading",
+      "Shiga toxin damages colonic vessels, stool turns bloody",
+      "Absorbed toxin binds Gb3 on glomerular endothelium",
+      "Depurination of 28S rRNA stops protein synthesis",
+      "Injured endothelium triggers platelet microthrombi",
+      "Schistocytes, thrombocytopenia, rising creatinine"
+     ],
+     "caption": "Kidney injury comes from circulating toxin, not bacteria, so blood cultures are negative while the film is abnormal."
+    },
+    {
+     "type": "p",
+     "text": "Listeria monocytogenes is a facultatively intracellular, catalase-positive gram-positive rod with tumbling motility at about 25 degrees C (77 degrees F). Like Yersinia it grows in the cold, so refrigerated ready-to-eat foods are the usual source. Internalins trigger uptake by enterocytes, listeriolysin O perforates the vacuolar membrane so the organism reaches the cytoplasm, and ActA nucleates host actin into a tail that pushes it into the neighboring cell. Because it never crosses an extracellular space, antibody is largely ineffective and cell-mediated immunity is required. Healthy adults usually have a self-limited febrile gastroenteritis, but in neonates, pregnancy, and impaired T cell function it crosses the placenta or blood brain barrier, causing fetal infection, fetal loss, and meningitis."
+    },
+    {
+     "type": "table",
+     "title": "Three distal small bowel pathogens compared",
+     "cols": [
+      "Feature",
+      "Yersinia enterocolitica",
+      "EHEC O157:H7",
+      "Listeria monocytogenes"
+     ],
+     "rows": [
+      [
+       "Gram reaction",
+       "Gram-negative coccobacillus",
+       "Gram-negative rod",
+       "Gram-positive rod"
+      ],
+      [
+       "Growth clue",
+       "Grows near 4 degrees C (39.2 degrees F)",
+       "Does not ferment sorbitol",
+       "Cold growth, tumbling at 25 degrees C (77 degrees F)"
+      ],
+      [
+       "Key virulence factor",
+       "M cell invasion, iron acquisition",
+       "Intimin plus phage-encoded Shiga toxin",
+       "Listeriolysin O and ActA"
+      ],
+      [
+       "Mucosal behavior",
+       "Invades ileum and nodes",
+       "Adheres and effaces, no invasion",
+       "Invades, spreads cell to cell"
+      ],
+      [
+       "Fever and stool",
+       "Fever, inflammatory stool",
+       "Often afebrile, bloody",
+       "Fever, mild gastroenteritis"
+      ],
+      [
+       "Characteristic outcome",
+       "Pseudoappendicitis",
+       "Hemolytic uremic syndrome",
+       "Meningitis, fetal infection"
+      ]
+     ],
+     "caption": "All three tolerate cold storage, but mucosal behavior and the compartment reached set the syndrome."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: two causes of bloody diarrhea",
+     "text": "A 4 year old has 4 days of bloody diarrhea with little fever, then becomes pale with a creatinine of 1.8 mg/dL, platelets of 60,000 per microliter, and schistocytes on the film. Another child has fever to 39 degrees C (102.2 degrees F) and small bloody stools full of leukocytes. The first is toxin acting at a distance: EHEC adheres without invading, so fever is slight, and absorbed Shiga toxin injures glomerular endothelium days later. The second is invasion, with Shigella destroying colonic epithelium and driving a febrile neutrophilic response. Shiga toxin also comes from Shigella dysenteriae type 1, so invasion and fever make the distinction, not the toxin."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-GAST-12-01-C04",
+   "obj": "GI-12.4",
+   "title": "Viral enteritis: rotavirus, norovirus, and the enteroviruses",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The viruses that cause enteritis are all nonenveloped, and that single structural fact explains their epidemiology. Without a lipid envelope they survive gastric acid, bile, drying on surfaces, and alcohol-based disinfection, so they spread efficiently by the fecal-oral route. They injure the small intestine rather than the colon, so stool is watery and contains neither blood nor leukocytes."
+    },
+    {
+     "type": "p",
+     "text": "Rotavirus is a reovirus with a segmented double-stranded RNA genome and a double-layered capsid. It infects mature enterocytes at the villus tips while sparing crypt cells, which produces diarrhea by two mechanisms at once. Loss of absorptive cells removes the brush border disaccharidases, so sugars remain in the lumen and hold water osmotically, while the surviving crypt cells continue to secrete. The viral protein NSP4 acts as an enterotoxin, raising intracellular calcium to stimulate chloride secretion and also activating enteric nerves. Disease is most severe between about 6 and 24 months of age, after maternal antibody wanes, and the combination of vomiting with large-volume stool makes dehydration the main risk. Reinfection occurs because immunity is partial, but later episodes are milder."
+    },
+    {
+     "type": "flow",
+     "title": "Rotavirus injury to the villus",
+     "steps": [
+      "Virus infects mature enterocytes at villus tips",
+      "Absorptive surface and disaccharidases are lost",
+      "Unabsorbed sugars retain water in the lumen",
+      "Crypt cells survive and keep secreting",
+      "NSP4 raises intracellular calcium and chloride secretion",
+      "Osmotic plus secretory watery diarrhea with vomiting"
+     ],
+     "caption": "Two mechanisms operate together, which is why diarrhea continues even when oral intake is reduced."
+    },
+    {
+     "type": "p",
+     "text": "Norovirus is a calicivirus with a positive-sense single-stranded RNA genome. A few dozen particles can infect, shedding is enormous, and the virus persists on surfaces and in foods such as shellfish and uncooked produce, so outbreaks sweep through cruise ships, dormitories, and long term care facilities. Attachment depends on histo-blood group antigens on gut epithelium, and people lacking a functional FUT2 secretor enzyme resist the common strains. Immunity is strain specific and short lived, so reinfection is the rule. Illness lasts about 1 to 3 days with vomiting at least as prominent as diarrhea, reflecting both small bowel injury and delayed gastric emptying."
+    },
+    {
+     "type": "p",
+     "text": "Coxsackieviruses and echoviruses are picornaviruses with positive-sense single-stranded RNA genomes, transmitted fecal-orally with a peak in summer and early fall. For the gastrointestinal tract they matter mainly as a route of entry: they replicate in the pharynx and intestinal lymphoid tissue, then enter the bloodstream and seed other organs, causing aseptic meningitis, myocarditis and pericarditis, hand foot and mouth disease, herpangina, and pleurodynia. Diarrhea, when present, is mild."
+    },
+    {
+     "type": "table",
+     "title": "Viral causes of enteritis",
+     "cols": [
+      "Virus",
+      "Family and genome",
+      "Who is affected",
+      "Mechanism and course"
+     ],
+     "rows": [
+      [
+       "Rotavirus",
+       "Reovirus, segmented double-stranded RNA",
+       "Infants about 6 to 24 months",
+       "Villus tip cell loss plus NSP4 enterotoxin, several days of watery stool"
+      ],
+      [
+       "Norovirus",
+       "Calicivirus, single-stranded RNA",
+       "All ages, closed-setting outbreaks",
+       "Very low infectious dose, brief strain-specific immunity, 1 to 3 days"
+      ],
+      [
+       "Coxsackievirus, echovirus",
+       "Picornavirus, single-stranded RNA",
+       "Children, summer and fall",
+       "Gut is the entry site, then viremia to meninges, heart, skin"
+      ]
+     ],
+     "caption": "All are nonenveloped and resist acid and disinfection, but only rotavirus and norovirus are major diarrheal pathogens."
+    },
+    {
+     "type": "stop",
+     "predict": "Why does rotavirus diarrhea persist for days even after the virus is controlled, and why does it worsen with milk feeding?",
+     "explain": "The villus tip cells carrying the disaccharidases must be replaced by cells migrating up from the crypts, which takes days. Until then lactose is not hydrolyzed, remains in the lumen, and holds water osmotically.",
+     "check": "The villus injury flow and the mechanism column of the viral table."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-GAST-12-01-C05",
+   "obj": "GI-12.5",
+   "title": "The hepatitis viruses: genomes, transmission, and chronicity",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Five unrelated viruses share one target, the hepatocyte, and therefore produce a similar acute illness: malaise, anorexia, nausea, right upper quadrant discomfort, then jaundice with dark urine, raised aminotransferases, and a tender liver. The decisive biology is which of them can persist. Hepatocyte injury is largely immune mediated, since cytotoxic CD8 T cells kill hepatocytes displaying viral peptides, so a vigorous response clears the virus and causes a symptomatic icteric illness while a weak response permits persistence with milder initial symptoms. That is why perinatal hepatitis B infection, acquired when the immune system tolerates the virus, is usually silent and almost always chronic, whereas adult infection is usually symptomatic and usually resolves."
+    },
+    {
+     "type": "p",
+     "text": "Hepatitis A virus is a nonenveloped picornavirus with a positive-sense single-stranded RNA genome, so it survives in water and shellfish and spreads fecal-orally. It never becomes chronic, and severity rises with age at infection: young children are often asymptomatic while adults have a longer icteric illness. Hepatitis E virus is also nonenveloped, single-stranded RNA, and waterborne, and it behaves like hepatitis A with two differences: mortality is high in the third trimester of pregnancy, and it can persist in organ transplant recipients and others with suppressed T cell function."
+    },
+    {
+     "type": "p",
+     "text": "Hepatitis B virus is a hepadnavirus with a partially double-stranded circular DNA genome and an envelope carrying surface antigen. After entry the genome is repaired in the nucleus into covalently closed circular DNA, a stable episome transcribed into pregenomic RNA, and the viral polymerase then reverse transcribes that RNA back into DNA inside new capsids, so a DNA virus depends on reverse transcription. Because the episome is neither degraded nor targeted by immune clearance, infection can reactivate when immunity falls. Viral DNA fragments also integrate into host chromosomes, which contributes to carcinogenesis, so hepatocellular carcinoma can arise even without cirrhosis."
+    },
+    {
+     "type": "p",
+     "text": "Hepatitis D virus is a defective agent with a small circular RNA genome and a single protein, delta antigen. It replicates using host RNA polymerase but cannot assemble an infectious particle unless hepatitis B supplies surface antigen as an envelope, so it occurs only with hepatitis B. Hepatitis C virus is an enveloped flavivirus whose RNA-dependent RNA polymerase lacks proofreading, so each person carries a swarm of related variants. Hypervariable envelope regions change faster than neutralizing antibody can be produced, which explains both the absence of a vaccine and persistence in most infections, with slow progression through fibrosis to cirrhosis and then a rising risk of carcinoma."
+    },
+    {
+     "type": "flow",
+     "title": "Why hepatitis B persists",
+     "steps": [
+      "Virion delivers partial DNA genome to the hepatocyte nucleus",
+      "Genome completed into covalently closed circular DNA",
+      "Transcription yields pregenomic RNA and viral proteins",
+      "Reverse transcriptase copies pregenomic RNA into DNA",
+      "Episomal template is not degraded or cleared",
+      "Reactivation possible whenever T cell control weakens"
+     ],
+     "caption": "The stable nuclear episome, not continued cell entry, is what makes elimination difficult and reactivation possible."
+    },
+    {
+     "type": "table",
+     "title": "Comparing the hepatitis viruses",
+     "cols": [
+      "Virus",
+      "Family and genome",
+      "Transmission",
+      "Chronic infection",
+      "Distinctive point"
+     ],
+     "rows": [
+      [
+       "HAV",
+       "Picornavirus, single-stranded RNA, nonenveloped",
+       "Fecal-oral, water and shellfish",
+       "Never",
+       "Worse with increasing age at infection"
+      ],
+      [
+       "HBV",
+       "Hepadnavirus, partially double-stranded DNA, enveloped",
+       "Blood, sexual, perinatal",
+       "Yes, about 90% perinatal, under 5% adult",
+       "Reverse transcription, stable episome, carcinoma without cirrhosis"
+      ],
+      [
+       "HCV",
+       "Flavivirus, single-stranded RNA, enveloped",
+       "Blood",
+       "Yes, in most infections",
+       "Envelope variation, no vaccine"
+      ],
+      [
+       "HDV",
+       "Deltavirus, circular single-stranded RNA, defective",
+       "Blood and sexual, only with HBV",
+       "Yes, with HBV",
+       "Requires hepatitis B surface antigen"
+      ],
+      [
+       "HEV",
+       "Hepevirus, single-stranded RNA, nonenveloped",
+       "Fecal-oral water, zoonotic meat",
+       "Only with suppressed immunity",
+       "High mortality in third trimester"
+      ]
+     ],
+     "caption": "The enveloped bloodborne viruses are the ones that persist, with hepatitis E the exception in immunosuppressed hosts. Hepatitis B serology is developed in GI-11."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-GAST-12-01-C06",
+   "obj": "GI-12.6",
+   "title": "Helicobacter pylori: survival in acid and detection of active infection",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Helicobacter pylori is a curved or spiral, flagellated, microaerophilic gram-negative rod that lives in the mucus layer over gastric epithelium rather than in the lumen. It is urease, catalase, and oxidase positive. Urease hydrolyzes urea into ammonia and carbon dioxide, and the ammonia buffers acid in the immediate surroundings, which allows the organism to cross the acidic lumen and establish itself. Flagella drive it through viscous mucus toward the epithelial surface, where adhesins such as BabA bind blood group antigens. Two further factors drive injury: the vacuolating cytotoxin VacA, which forms anion channels in host membranes and impairs T cell responses, and CagA, injected by a type IV secretion system, which disrupts the cytoskeleton and tight junctions and induces interleukin 8, recruiting neutrophils."
+    },
+    {
+     "type": "p",
+     "text": "Where the gastritis sits determines the disease. Antral-predominant gastritis destroys somatostatin-producing D cells, and because somatostatin normally restrains gastrin release from G cells, losing it raises gastrin and parietal cell acid output. Excess acid reaching the duodenum causes gastric metaplasia there, which H. pylori colonizes, and acid plus inflammation produces a duodenal ulcer. Body-predominant gastritis has the opposite effect: inflammation of acid-producing mucosa leads to atrophy and hypochlorhydria, and chronic inflammation, atrophy, intestinal metaplasia, and dysplasia lead to gastric adenocarcinoma. Persistent antigenic stimulation of gastric lymphoid tissue can also drive a clonal B cell proliferation, a gastric MALT lymphoma that may regress when the organism is eliminated."
+    },
+    {
+     "type": "cycle",
+     "title": "Antral gastritis to duodenal ulcer",
+     "steps": [
+      "H. pylori colonizes antral mucus, protected by urease-derived ammonia",
+      "Antral inflammation destroys somatostatin-producing D cells",
+      "Loss of somatostatin inhibition raises gastrin from G cells",
+      "Gastrin drives parietal cell acid secretion",
+      "Acid load causes duodenal gastric metaplasia, which is colonized",
+      "Further inflammation sustains colonization and ulceration"
+     ],
+     "caption": "The loop sustains itself because the acid produced by the infection creates new surface for the organism to colonize."
+    },
+    {
+     "type": "p",
+     "text": "Detection separates active infection from past exposure. The urea breath test exploits urease directly: labeled urea is swallowed, living organisms split it, and labeled carbon dioxide appears in the breath. The stool antigen test detects antigen being shed. Both indicate current infection and can serve as tests of cure. Endoscopic biopsy allows a rapid urease test, histology, and culture, and histology adds information about atrophy, metaplasia, and lymphoid proliferation. Anything that suppresses the organism lowers urease activity and antigen shedding, so proton pump inhibitors, bismuth, and antibiotics cause false negative results and are withheld before testing. Serum antibody persists long after the organism is gone, so serology indicates exposure and cannot confirm eradication."
+    },
+    {
+     "type": "table",
+     "title": "Tests for Helicobacter pylori",
+     "cols": [
+      "Test",
+      "What it detects",
+      "Active infection only",
+      "Main limitation"
+     ],
+     "rows": [
+      [
+       "Urea breath test",
+       "Urease activity of live organisms",
+       "Yes",
+       "False negative with acid suppression or antimicrobials"
+      ],
+      [
+       "Stool antigen",
+       "Shed bacterial antigen",
+       "Yes",
+       "Same drug effect"
+      ],
+      [
+       "Biopsy rapid urease test",
+       "Urease in tissue",
+       "Yes",
+       "Needs endoscopy, sampling error"
+      ],
+      [
+       "Biopsy histology",
+       "Organisms plus mucosal changes",
+       "Yes",
+       "Needs endoscopy, observer dependent"
+      ],
+      [
+       "Serum antibody",
+       "IgG against H. pylori",
+       "No",
+       "Stays positive after cure"
+      ]
+     ],
+     "caption": "Four of the five tests depend on live organisms or their products, so acid suppression and antimicrobials must be accounted for."
+    },
+    {
+     "type": "stop",
+     "predict": "A treated patient returns 8 weeks later: serology is still positive but the stool antigen test is negative. Was the infection eliminated?",
+     "explain": "Most likely yes. Antibody persists for months to years, so serology says nothing about current status, while a negative stool antigen, with drugs stopped beforehand, means antigen is no longer being shed.",
+     "check": "The stool antigen and serology rows of the test table."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-GAST-12-01-C07",
+   "obj": "GI-12.7",
+   "title": "Intestinal parasites: protozoa, coccidia, and Strongyloides",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Intestinal parasites separate by whether they invade: noninvasive organisms blunt the absorptive surface and cause fatty nonbloody stool, invasive organisms ulcerate the colon and can reach the liver, and the coccidia live inside epithelial cells under CD4 T cell control, so severity tracks cellular immunity."
+    },
+    {
+     "type": "p",
+     "text": "Giardia duodenalis is swallowed as a cyst from untreated surface water, and the cyst wall resists usual chlorination. Trophozoites attach to the duodenal and jejunal brush border with a ventral adhesive disc without entering the cell, and attachment with the inflammatory response shortens microvilli and lowers disaccharidase and lipase activity, so stool is greasy. Secretory IgA is central to clearance, so IgA deficiency brings recurrent infection, and intermittent shedding makes stool antigen or nucleic acid testing better than microscopy."
+    },
+    {
+     "type": "p",
+     "text": "Entamoeba histolytica trophozoites bind colonic epithelium through a galactose specific lectin, kill cells with amoebapores, and digest matrix with proteases. Lateral extension is easier than downward penetration, so the ulcer is narrow at the surface and wide beneath, the flask-shaped ulcer of the cecum and ascending colon. Trophozoites with ingested red cells mark invasive disease and separate E. histolytica from the identical nonpathogenic Entamoeba dispar. Organisms entering mesenteric venules reach the liver by the portal vein and form a single, usually right sided abscess."
+    },
+    {
+     "type": "p",
+     "text": "The coccidia share acid-fast oocysts in stool. Cryptosporidium oocysts resist chlorine and are infectious when shed, so they survive in treated water; the organism sits inside an enterocyte but outside its cytoplasm, and illness is self-limited in a normal host but profuse at low CD4 counts. Cyclospora oocysts need days outside the host to become infectious, so direct spread does not occur, and Cystoisospora belli causes prolonged diarrhea in advanced HIV infection."
+    },
+    {
+     "type": "p",
+     "text": "Strongyloides stercoralis filariform larvae penetrate intact skin, travel in blood to the lungs, ascend the airways, and are swallowed, maturing into parthenogenetic females in duodenal mucosa. Some of the rhabditiform larvae released into the lumen mature into infective filariform larvae and reinvade through the bowel wall or perianal skin. That autoinfection sustains infection for decades, with intermittent eosinophilia and the migratory rash called larva currens. A Th2 response with eosinophils and IgE normally holds the burden down; corticosteroids suppress it and HTLV-1 shifts the response away from Th2, so larval numbers rise into hyperinfection, migrating larvae carry enteric bacteria into the blood, and eosinophilia often disappears."
+    },
+    {
+     "type": "flow",
+     "title": "Strongyloides autoinfection and hyperinfection",
+     "steps": [
+      "Filariform larvae penetrate skin from soil",
+      "Blood carries larvae to lungs, then they are swallowed",
+      "Adult females mature in duodenal mucosa, laying eggs",
+      "Rhabditiform larvae enter the lumen",
+      "Some become filariform in the gut and reinvade",
+      "Loss of the Th2 response allows dissemination"
+     ],
+     "caption": "Autoinfection explains decades of persistence; loss of eosinophil control explains hyperinfection."
+    },
+    {
+     "type": "table",
+     "title": "Intestinal parasites by mechanism",
+     "cols": [
+      "Organism",
+      "Infective stage and exposure",
+      "Mechanism",
+      "Stool and clinical clue"
+     ],
+     "rows": [
+      [
+       "Giardia duodenalis",
+       "Cyst in untreated water",
+       "Brush border attachment, no invasion",
+       "Greasy nonbloody stool, worse with IgA deficiency"
+      ],
+      [
+       "Entamoeba histolytica",
+       "Cyst in food or water",
+       "Lectin, amoebapores, proteases",
+       "Bloody stool, flask ulcers, liver abscess"
+      ],
+      [
+       "Cryptosporidium",
+       "Chlorine-resistant oocyst",
+       "Intracellular, extracytoplasmic",
+       "Watery, prolonged with low CD4 count"
+      ],
+      [
+       "Cyclospora cayetanensis",
+       "Oocyst on fresh produce",
+       "Small bowel enterocytes",
+       "Relapsing watery stool, no direct spread"
+      ],
+      [
+       "Cystoisospora belli",
+       "Large acid-fast oocyst",
+       "Small bowel enterocytes",
+       "Chronic diarrhea in advanced HIV"
+      ],
+      [
+       "Strongyloides stercoralis",
+       "Filariform larva through skin",
+       "Autoinfection within one host",
+       "Eosinophilia, larva currens, hyperinfection"
+      ]
+     ],
+     "caption": "Acid-fast oocysts group the coccidia, invasion separates Entamoeba from Giardia, skin penetration marks Strongyloides."
+    },
+    {
+     "type": "example",
+     "title": "Worked example: fatty stool versus bloody stool",
+     "text": "Two travelers return with diarrhea. One has three weeks of greasy stools with bloating, no blood and no fever. The other has cramping, small bloody stools, and a tender liver with a single right lobe lesion. The first points to a parasite that attaches to the brush border and blunts microvilli, so fat absorption fails while the mucosa stays intact: Giardia. The second points to one that lyses colonic epithelium and enters portal venules: Entamoeba histolytica."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Microbiology joins physiology at the transport protein. Cholera toxin and the heat-labile toxin of enterotoxigenic E. coli raise cAMP, the heat-stable toxin raises cGMP, and rotavirus NSP4 raises intracellular calcium, yet all three converge on chloride secretion through CFTR with sodium and water following, which is why the stool is isotonic and why glucose-coupled sodium absorption still works and makes oral rehydration effective. Histology explains the rest of the stool findings: injury confined to villus tips removes disaccharidases and produces osmotic diarrhea, injury to colonic epithelium produces blood and leukocytes, and attachment without invasion gives bloody stool with little fever, as in enterohemorrhagic E. coli."
+  },
+  {
+   "type": "p",
+   "text": "Immunology explains who becomes severely ill and which complications occur. Secretory IgA restrains Giardia, CD4 T cells restrain the coccidia, cell-mediated immunity restrains Listeria because it never leaves the cytoplasm, and a Th2 response with eosinophils restrains Strongyloides, so corticosteroids convert a quiet infection into hyperinfection. Immune mechanisms also cause damage: cytotoxic T cells rather than the virus kill hepatocytes in viral hepatitis, antibody raised against Campylobacter lipooligosaccharide cross-reacts with nerve gangliosides in Guillain-Barre syndrome, and chronic antigenic stimulation by H. pylori drives gastric MALT lymphoma. The limits of this reasoning should be stated plainly: incubation periods and infectious doses overlap between organisms, Shiga toxin is produced by both Shigella dysenteriae type 1 and enterohemorrhagic E. coli, and several agents can produce the same stool pattern, so a single clue rarely identifies an organism without the exposure history and a confirmatory test."
+  }
+ ],
+ "summary": [
+  "Onset within about 1 to 6 hours with vomiting means toxin was present in the food; a day or more means the organism had to colonize and secrete toxin in the host.",
+  "Cholera toxin and the heat-labile toxin of ETEC raise cAMP, the heat-stable toxin raises cGMP, and both open CFTR, giving isotonic watery stool with an intact mucosa.",
+  "C. difficile toxins A and B glucosylate Rho GTPases, collapsing the cytoskeleton and producing pseudomembranes; a toxin gene test without diarrhea indicates colonization only.",
+  "Shigella is nonmotile, makes no hydrogen sulfide, and infects at about 10 to 100 organisms by spreading cell to cell with host actin; Salmonella is motile, makes hydrogen sulfide, and needs a large dose because it is acid sensitive.",
+  "Campylobacter jejuni is comma shaped and grows at 42 degrees C (107.6 degrees F), and ganglioside mimicry links it to Guillain-Barre syndrome.",
+  "EHEC adheres without invading, so fever is slight, while absorbed Shiga toxin depurinates 28S rRNA at Gb3-bearing glomerular endothelium and causes hemolytic uremic syndrome.",
+  "Listeria uses listeriolysin O and ActA to spread cell to cell, so control requires cell-mediated immunity and disease strikes neonates, pregnancy, and T cell deficiency.",
+  "Rotavirus destroys villus tip cells and adds the NSP4 enterotoxin, so diarrhea is both osmotic and secretory; norovirus infects at a very low dose with brief strain-specific immunity.",
+  "Hepatitis A and E are nonenveloped and fecal-oral and do not persist in healthy hosts; hepatitis B persists through its nuclear episome and reverse transcription, hepatitis C through envelope variation, and hepatitis D only where hepatitis B supplies surface antigen.",
+  "H. pylori urease buffers acid and drives antral gastritis that raises gastrin and causes duodenal ulcer; urea breath and stool antigen tests detect active infection while serology cannot confirm cure."
+ ],
+ "sources": [
+  {
+   "book": "Jawetz, Melnick, and Adelberg's Medical Microbiology",
+   "where": "Enteric Gram-Negative Rods (Enterobacteriaceae)"
+  },
+  {
+   "book": "Jawetz, Melnick, and Adelberg's Medical Microbiology",
+   "where": "Hepatitis Viruses"
+  },
+  {
+   "book": "Jawetz, Melnick, and Adelberg's Medical Microbiology",
+   "where": "Medical Parasitology, intestinal protozoa and nematodes"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "The Gastrointestinal Tract, infectious enterocolitis; Liver and Gallbladder, viral hepatitis"
+  },
+  {
+   "book": "Abbas, Cellular and Molecular Immunology",
+   "where": "Immunity to Microbes"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Gastrointestinal Disease and Liver Disease"
+  }
+ ],
+ "verify": [
+  "Infectious dose figures vary between sources; Shigella is commonly given as about 10 to 100 organisms and Salmonella as 10,000 or more, but ranges differ by serotype and host. Confirm the values NABNE expects.",
+  "Rates of chronic hepatitis C infection are quoted from about 55% to 85% depending on the cohort; this chapter uses about 75% to 85% from standard texts.",
+  "Mortality of hepatitis E in the third trimester is widely quoted as about 20%, derived from outbreak data in endemic regions, and lower figures appear in other series.",
+  "The interval from EHEC diarrhea to hemolytic uremic syndrome is given as about 5 to 10 days in most sources, with some stating 2 to 14 days.",
+  "Nomenclature changes worth confirming against current NABNE materials: Clostridioides difficile (formerly Clostridium difficile), Giardia duodenalis (also called G. lamblia and G. intestinalis), and Cystoisospora belli (formerly Isospora belli).",
+  "Whether NABNE Part I tests specific virulence factor names (BabA, VacA, CagA, internalin, ActA, NSP4, amoebapores) or only the general mechanism.",
+  "Duration that proton pump inhibitors, bismuth, and antibiotics must be withheld before H. pylori breath or stool antigen testing is a clinical protocol question; the biomedical point taught here is only that suppression causes false negatives.",
+  "Requested new diagram names for a future revision: diarrhea-mechanism-map (preformed toxin, secretory toxin, cytotoxin, invasion, villus injury side by side with onset and stool findings) and villus-vs-crypt (rotavirus and Giardia injury to villus surface against intact crypt secretion)."
+ ]
+}

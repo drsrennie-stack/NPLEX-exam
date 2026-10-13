@@ -1,0 +1,804 @@
+{
+  "unit": "CV-16",
+  "chapter_id": "NPLEX-P1-CARD-16",
+  "topic_id": "NPLEX-P1-CARD-16-01",
+  "title": "Immune Responses in Cardiovascular Disease",
+  "subject": "Cardiovascular System (CARD)",
+  "version": "1.0",
+  "author": "Dr. Sharilyn Rennie",
+  "brand": "MedMasters Collaborative",
+  "overview": {
+    "intro": "This chapter treats the heart and blood vessels as targets of the immune system. It begins with atherosclerosis as chronic inflammation of the arterial intima, then covers rheumatic fever as molecular mimicry, the vasculitides grouped by immune effector, autoimmune disease of the pericardium, valves, and AV node, heart transplant rejection, myocarditis, and two tumors explained by immunity and cytokines (Kaposi sarcoma and atrial myxoma). Board questions give a patient, biopsy, serologic pattern, or time course and ask for the mechanism: preformed antibody, immune complexes, ANCA, T cells and macrophages, or failed immune surveillance. Placing each disease in its hypersensitivity type explains its timing, histology, and complement and antibody findings.",
+    "prerequisites": [
+      "Innate and adaptive immunity: neutrophils, macrophages, dendritic cells, CD4 and CD8 T cells, B cells and antibody classes",
+      "The four hypersensitivity types (I to IV) and the classical, lectin, and alternative complement pathways",
+      "MHC class I and class II antigen presentation and HLA in self versus nonself recognition",
+      "Histology of the arterial wall and heart wall (CV-2) and lipoprotein metabolism with the LDL receptor pathway (CV-13)",
+      "Conduction system anatomy and AV block patterns on the ECG (CV-7)"
+    ],
+    "connections": [
+      {
+        "to": "Ischemic heart disease (CV-18-C)",
+        "how": "Inflammatory thinning of the fibrous cap is the event that converts a stable plaque into the ruptured plaque and thrombus of acute coronary syndromes."
+      },
+      {
+        "to": "Vascular conditions (CV-18-I)",
+        "how": "The vasculitides are classified there by vessel size; this chapter adds the immune mechanism that explains their serology and biopsy findings."
+      },
+      {
+        "to": "Cardiovascular pathogens (CV-17)",
+        "how": "Group A streptococci, coxsackievirus, hepatitis B and C viruses, and HHV-8 are the infectious triggers of the immune diseases taught here."
+      },
+      {
+        "to": "Conduction system and the ECG (CV-7)",
+        "how": "Maternal anti-Ro antibodies injure the fetal AV node, producing complete heart block with a junctional escape rhythm."
+      },
+      {
+        "to": "Primary myocardial diseases (CV-18-E)",
+        "how": "Viral myocarditis is a major acquired cause of dilated cardiomyopathy, and eosinophilic myocarditis can progress to restrictive endomyocardial fibrosis."
+      }
+    ],
+    "terms": [
+      {
+        "term": "Molecular mimicry",
+        "def": "Cross-reaction of antibodies or T cells raised against a microbial antigen with a structurally similar host antigen."
+      },
+      {
+        "term": "Foam cell",
+        "def": "A macrophage (or smooth muscle cell) whose cytoplasm is filled with droplets of cholesteryl ester derived from ingested modified LDL."
+      },
+      {
+        "term": "Scavenger receptor",
+        "def": "A macrophage surface receptor, such as SR-A or CD36, that internalizes oxidized or otherwise modified LDL without feedback inhibition by cell cholesterol."
+      },
+      {
+        "term": "Inflammasome",
+        "def": "A cytoplasmic protein complex (for example NLRP3 with ASC and caspase-1) that cleaves pro-IL-1 beta into active IL-1 beta in response to danger signals."
+      },
+      {
+        "term": "Aschoff body",
+        "def": "The diagnostic lesion of acute rheumatic carditis: a focus of fibrinoid change surrounded by T lymphocytes, plasma cells, and activated macrophages (Anitschkow cells)."
+      },
+      {
+        "term": "Immune complex",
+        "def": "A circulating or locally formed aggregate of antigen and antibody that can deposit in vessel walls and activate complement (type III hypersensitivity)."
+      },
+      {
+        "term": "ANCA",
+        "def": "Antineutrophil cytoplasmic antibodies, autoantibodies against neutrophil granule enzymes, mainly proteinase 3 (PR3) and myeloperoxidase (MPO)."
+      },
+      {
+        "term": "Pauci-immune",
+        "def": "Describes vasculitis or glomerulonephritis in which immunofluorescence shows few or no immunoglobulin and complement deposits, typical of ANCA disease."
+      },
+      {
+        "term": "Allorecognition",
+        "def": "Recognition by recipient T cells of donor HLA molecules, either intact on donor cells (direct) or as processed peptides on recipient antigen-presenting cells (indirect)."
+      },
+      {
+        "term": "C4d",
+        "def": "A stable fragment of complement C4 that binds covalently to tissue where the classical pathway was activated, used as a tissue marker of antibody-mediated injury."
+      },
+      {
+        "term": "Cardiac allograft vasculopathy",
+        "def": "Chronic rejection of a transplanted heart, seen as diffuse concentric intimal thickening of the graft coronary arteries."
+      },
+      {
+        "term": "Latency (viral)",
+        "def": "Persistence of a viral genome in a host cell with expression of only a few viral genes and no production of new virions."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "comp": "NPLEX-P1-CARD-16-01-C01",
+      "obj": "CV-16.1",
+      "title": "Atherosclerosis as chronic inflammation",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Atherosclerosis is a chronic inflammatory and healing response of the intima of large and medium arteries to endothelial injury, sustained by LDL retained in the wall. Inflammation explains how plaques start, grow, and rupture."
+        },
+        {
+          "type": "p",
+          "text": "Healthy endothelium, maintained by laminar shear stress, releases nitric oxide (NO) and prostacyclin and displays few adhesion molecules. High LDL, hypertension, smoking, hyperglycemia, and disturbed flow at branch points cause endothelial dysfunction: the still intact endothelium becomes more permeable to LDL, makes less NO, and activates NF-kappa B. This is why plaques favor the coronary and renal ostia and the carotid and aortic bifurcations."
+        },
+        {
+          "type": "h",
+          "text": "Recruitment and foam cells"
+        },
+        {
+          "type": "p",
+          "text": "NF-kappa B induces selectins, which make leukocytes roll, and vascular cell adhesion molecule 1 (VCAM-1), which binds VLA-4 on monocytes and T cells. Because VCAM-1 is selective for mononuclear cells, early lesions contain monocytes and lymphocytes rather than neutrophils. Monocyte chemoattractant protein 1 (MCP-1) draws them into the intima, where M-CSF turns monocytes into macrophages. The T cells are mainly Th1 cells, whose IFN-gamma activates macrophages."
+        },
+        {
+          "type": "p",
+          "text": "LDL trapped on intimal proteoglycans is oxidized. Oxidized LDL no longer fits the LDL receptor, which the SREBP pathway shuts down when cell cholesterol rises. It enters macrophages instead through scavenger receptors (SR-A, CD36), which are not down-regulated by cell cholesterol, so uptake has no brake. ACAT esterifies the excess cholesterol into droplets, creating foam cells, and efflux to HDL through ABCA1 and ABCG1 is the main exit. Foam cells form the fatty streak, already present in many children."
+        },
+        {
+          "type": "h",
+          "text": "IL-1 beta, CRP, and the fibrous cap"
+        },
+        {
+          "type": "p",
+          "text": "Oxidized LDL acting on Toll-like receptors primes macrophages to make pro-IL-1 beta and NLRP3. Ingested cholesterol crystals then damage lysosomes and trigger the NLRP3 inflammasome, whose caspase-1 releases active IL-1 beta. IL-1 beta recruits more monocytes and induces IL-6, which makes the liver produce CRP, so high-sensitivity CRP reflects plaque inflammation (below 1 mg/L lower risk, 1 to 3 mg/L average, above 3 mg/L higher). The same cytokines accelerate atherosclerosis in rheumatoid arthritis and lupus."
+        },
+        {
+          "type": "p",
+          "text": "PDGF from macrophages, endothelium, and platelets draws medial smooth muscle cells into the intima, and TGF-beta makes them lay down collagen, forming a cap over a necrotic core of lipid, cholesterol clefts, debris, and tissue factor. Inflammation undoes this repair: macrophage matrix metalloproteinases (MMP-1, MMP-8, MMP-13, MMP-9) and cathepsins degrade collagen, Th1 IFN-gamma blocks its synthesis, and smooth muscle cells undergo apoptosis. Rupture usually begins at the macrophage-rich shoulders and exposes tissue factor, and thrombus forms within minutes. A minority of thrombi form over plaque erosion, where endothelium is lost over an intact plaque."
+        },
+        {
+          "type": "flow",
+          "title": "Atheroma formation as a chronic inflammatory response",
+          "steps": [
+            "Endothelial dysfunction from LDL, hypertension, smoking, hyperglycemia, disturbed flow",
+            "NF-kappa B induces selectins, VCAM-1, and MCP-1",
+            "Monocytes and Th1 cells enter the intima",
+            "Retained LDL is oxidized",
+            "Scavenger receptor uptake creates foam cells (fatty streak)",
+            "PDGF and TGF-beta build a smooth muscle and collagen cap",
+            "Metalloproteinases and IFN-gamma thin the cap",
+            "Rupture exposes tissue factor and thrombus forms"
+          ],
+          "caption": "Mononuclear cells start the lesion and macrophage enzymes decide whether it ruptures."
+        },
+        {
+          "type": "table",
+          "title": "Stable versus vulnerable plaque",
+          "cols": [
+            "Feature",
+            "Stable plaque",
+            "Vulnerable plaque"
+          ],
+          "rows": [
+            [
+              "Fibrous cap",
+              "Thick, collagen-rich",
+              "Thin (classically under about 65 micrometers)"
+            ],
+            [
+              "Lipid core",
+              "Small",
+              "Large"
+            ],
+            [
+              "Macrophages and T cells",
+              "Few",
+              "Many, especially at the shoulders"
+            ],
+            [
+              "Smooth muscle cells",
+              "Abundant",
+              "Sparse, apoptotic"
+            ],
+            [
+              "Usual stenosis",
+              "Often severe",
+              "Often only mild to moderate"
+            ],
+            [
+              "Typical result",
+              "Stable angina",
+              "Rupture, thrombosis, acute coronary syndrome"
+            ]
+          ],
+          "caption": "Composition and inflammation, more than size, decide whether a plaque ruptures."
+        },
+        {
+          "type": "stop",
+          "predict": "One coronary plaque narrows the lumen 40% and has a large lipid core under a thin, macrophage-rich cap; another narrows it 85% under a thick collagenous cap. Which is more likely to cause an infarction?",
+          "explain": "The 40% lesion: metalloproteinases and IFN-gamma thin its cap, so it is likely to rupture and expose tissue factor. The 85% lesion more likely causes stable angina.",
+          "check": "Compare with the plaque table."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-CARD-16-01-C02",
+      "obj": "CV-16.2",
+      "title": "Acute rheumatic fever and molecular mimicry",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Acute rheumatic fever (ARF) is an immune-mediated multisystem disease that follows group A streptococcal (Streptococcus pyogenes) pharyngitis, usually in children of about 5 to 15 years, after a latent period of about 2 to 3 weeks. The organism is absent from the heart lesions. Risk is higher with certain HLA class II alleles and rheumatogenic strains. ARF follows throat infection, not impetigo, whereas poststreptococcal glomerulonephritis follows either, because it is caused by immune complexes rather than mimicry."
+        },
+        {
+          "type": "p",
+          "text": "The M protein is an alpha-helical coiled coil like cardiac myosin and tropomyosin, and antibodies to the N-acetylglucosamine of the group A carbohydrate cross-react with valve laminin. Antibodies and T cells raised against these bacterial antigens therefore recognize heart proteins (molecular mimicry). The latent period is the time needed to build this adaptive response. Cross-reactive antibody activates valve endothelium and raises VCAM-1, letting CD4 T cells enter the valve and myocardium and sustain inflammation with IFN-gamma and IL-17. ARF is classed as type II hypersensitivity, but the chronic valve damage is driven largely by T cells."
+        },
+        {
+          "type": "flow",
+          "title": "Rheumatic fever by molecular mimicry",
+          "steps": [
+            "Group A streptococcal pharyngitis in a susceptible child",
+            "Antibodies and T cells form against M protein and group A carbohydrate",
+            "About 2 to 3 weeks later they cross-react with myosin and valve proteins",
+            "Activated valve endothelium admits CD4 T cells",
+            "Pancarditis with Aschoff bodies and verrucae on closure lines",
+            "Repeated attacks heal by fibrosis: chronic mitral stenosis"
+          ],
+          "caption": "Carditis begins after the organism is gone."
+        },
+        {
+          "type": "h",
+          "text": "Pathology and laboratory evidence"
+        },
+        {
+          "type": "p",
+          "text": "The Aschoff body is fibrinoid collagen surrounded by T cells, plasma cells, and Anitschkow cells, activated macrophages with a wavy ribbon of chromatin (caterpillar cells). Aschoff bodies occur in all three layers, so carditis is a pancarditis. Fibrinous pericarditis resolves; myocarditis can cause heart failure and is the main cause of acute death; valvulitis, mitral far more than aortic, leaves small (about 1 to 2 mm) verrucae along the lines of closure. Repeated attacks heal by fibrosis with leaflet thickening, commissural fusion, and short fused chordae, producing fish-mouth mitral stenosis."
+        },
+        {
+          "type": "p",
+          "text": "Throat cultures are often negative by then, so recent infection is shown serologically. Antistreptolysin O (ASO) rises after about one week and peaks at about 3 to 6 weeks; anti-DNase B peaks later and persists longer, which helps when chorea appears late. A rising titer is stronger evidence than a single value."
+        },
+        {
+          "type": "table",
+          "title": "Revised Jones criteria (AHA 2015), low-risk populations",
+          "cols": [
+            "Criterion",
+            "Type",
+            "Mechanism and features"
+          ],
+          "rows": [
+            [
+              "Carditis",
+              "Major",
+              "Pancarditis; new murmur (usually mitral regurgitation) or echocardiographic only"
+            ],
+            [
+              "Polyarthritis",
+              "Major",
+              "Migratory large-joint arthritis that heals without deformity"
+            ],
+            [
+              "Sydenham chorea",
+              "Major",
+              "Antibodies cross-react with basal ganglia neurons; appears months later"
+            ],
+            [
+              "Erythema marginatum",
+              "Major",
+              "Evanescent pink rings with clear centers on trunk and proximal limbs"
+            ],
+            [
+              "Subcutaneous nodules",
+              "Major",
+              "Painless nodules over bony prominences and tendons; linked to carditis"
+            ],
+            [
+              "Polyarthralgia",
+              "Minor",
+              "Joint pain without objective arthritis"
+            ],
+            [
+              "Fever",
+              "Minor",
+              "38.5 degrees C (101.3 degrees F) or higher"
+            ],
+            [
+              "Acute phase reactants",
+              "Minor",
+              "ESR 60 mm/h or higher, or CRP 3.0 mg/dL or higher"
+            ],
+            [
+              "Prolonged PR interval",
+              "Minor",
+              "Inflammation slows AV nodal conduction; not counted if carditis is a major criterion"
+            ]
+          ],
+          "caption": "An initial attack needs evidence of streptococcal infection plus two major, or one major and two minor, criteria. Higher-risk populations use lower thresholds (fever 38.0 degrees C (100.4 degrees F), ESR 30 mm/h, monoarthritis or polyarthralgia as major)."
+        },
+        {
+          "type": "p",
+          "text": "Chorea and indolent carditis may appear after titers fall and can support the diagnosis alone. Recurrences after new streptococcal infections are common, and each adds valve scarring."
+        },
+        {
+          "type": "stop",
+          "predict": "Why does rheumatic fever appear weeks after the sore throat, and why do the valves scar permanently while the joints heal?",
+          "explain": "Cross-reactive antibodies and T cells take about 2 to 3 weeks to develop. Valve inflammation heals by fibrosis, whereas the arthritis is a transient exudative synovitis that does not scar.",
+          "check": "Compare with the mimicry and pathology paragraphs."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-CARD-16-01-C03",
+      "obj": "CV-16.3",
+      "title": "Vasculitis classified by immune mechanism",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Grouping vasculitides by immune mechanism, rather than by vessel size (CV-18-I), explains their serology, complement levels, and immunofluorescence."
+        },
+        {
+          "type": "h",
+          "text": "Immune complex vasculitis (type III)"
+        },
+        {
+          "type": "p",
+          "text": "Small complexes formed in slight antigen excess escape clearance and deposit where flow is turbulent or filtered, as in glomeruli and dermal venules. They activate the classical pathway, and C5a recruits neutrophils whose enzymes and oxidants cause fibrinoid necrosis. Complement may fall, biopsy shows granular immunoglobulin and complement, and nuclear dust from dying neutrophils gives leukocytoclastic vasculitis. In dermal venules this produces palpable purpura: raised, nonblanching lesions on dependent skin."
+        },
+        {
+          "type": "p",
+          "text": "Polyarteritis nodosa (PAN) affects medium and small muscular arteries, in some cases through hepatitis B antigen-antibody complexes. Segmental lesions of different ages and microaneurysms involve renal arteries (infarcts, renin-dependent hypertension, no glomerulonephritis), mesenteric arteries, and vasa nervorum (mononeuritis multiplex), sparing the lungs. IgA vasculitis often follows a respiratory infection in children: complexes of galactose-deficient IgA1 deposit in skin, gut, joints, and mesangium, and because IgA uses the alternative and lectin pathways, complement stays normal. In mixed cryoglobulinemia, usually from hepatitis C driving clonal B cells, IgM rheumatoid factor binds IgG; these complexes precipitate below 37 degrees C (98.6 degrees F) and consume the classical pathway, so C4 is very low."
+        },
+        {
+          "type": "p",
+          "text": "In anti-GBM disease antibody binds fixed type IV collagen, so immunofluorescence is linear."
+        },
+        {
+          "type": "h",
+          "text": "ANCA vasculitis and granulomatous T-cell vasculitis"
+        },
+        {
+          "type": "p",
+          "text": "ANCA are IgG against neutrophil PR3 (c-ANCA, cytoplasmic) or MPO (p-ANCA, perinuclear, because ethanol fixation lets cationic MPO move to the nucleus). Infection, TNF, or C5a primes neutrophils and moves these enzymes to the surface. ANCA bind them by Fab and engage Fc-gamma receptors on the same cell, which then releases oxidants, proteases, and extracellular traps onto endothelium and activates the alternative pathway, generating more C5a. The neutrophil delivers the injury, so lesions are pauci-immune and complement is normal."
+        },
+        {
+          "type": "p",
+          "text": "In giant cell and Takayasu arteritis, adventitial dendritic cells activate CD4 T cells; IFN-gamma recruits macrophages and giant cells to the media around a fragmented internal elastic lamina, and intimal hyperplasia narrows the lumen. There are no deposits, and IL-6 drives a very high ESR and CRP. Giant cell arteritis involves cranial carotid branches and the vertebral arteries: jaw claudication, temporal headache, and blindness from posterior ciliary artery occlusion."
+        },
+        {
+          "type": "table",
+          "title": "Vasculitis by immune mechanism",
+          "cols": [
+            "Disease",
+            "Mechanism",
+            "Marker",
+            "Complement and deposits",
+            "Key features"
+          ],
+          "rows": [
+            [
+              "Polyarteritis nodosa",
+              "Type III",
+              "Hepatitis B in some; ANCA negative",
+              "May be low",
+              "Renal and mesenteric infarcts, mononeuritis multiplex; lungs spared"
+            ],
+            [
+              "IgA vasculitis",
+              "Type III",
+              "IgA1 complexes",
+              "Normal; granular IgA",
+              "Child after URI; purpura, arthralgia, abdominal pain, nephritis"
+            ],
+            [
+              "Cryoglobulinemic vasculitis",
+              "Type III",
+              "IgM rheumatoid factor; hepatitis C",
+              "Very low C4; granular",
+              "Purpura, arthralgia, membranoproliferative GN, neuropathy"
+            ],
+            [
+              "Granulomatosis with polyangiitis",
+              "ANCA",
+              "PR3-ANCA",
+              "Normal; pauci-immune",
+              "Granulomas of sinuses, nose, lungs; crescentic GN"
+            ],
+            [
+              "Microscopic polyangiitis",
+              "ANCA",
+              "MPO-ANCA",
+              "Normal; pauci-immune",
+              "No granulomas; pulmonary hemorrhage; crescentic GN"
+            ],
+            [
+              "Eosinophilic granulomatosis with polyangiitis",
+              "ANCA plus eosinophils (IL-5)",
+              "MPO-ANCA in about 40%",
+              "Pauci-immune",
+              "Asthma, eosinophilia, neuropathy, eosinophilic myocarditis"
+            ],
+            [
+              "Giant cell arteritis",
+              "Type IV granulomatous",
+              "Very high ESR",
+              "No deposits",
+              "Over 50; headache, jaw claudication, vision loss, polymyalgia rheumatica"
+            ],
+            [
+              "Takayasu arteritis",
+              "Type IV granulomatous",
+              "High ESR",
+              "No deposits",
+              "Under 40, often women; weak arm pulses, arm blood pressure difference"
+            ]
+          ],
+          "caption": "Granular deposits mean immune complexes; few or none mean ANCA or T-cell disease."
+        },
+        {
+          "type": "example",
+          "title": "Using complement to identify a vasculitis",
+          "text": "Three adults have palpable purpura and red cell casts. A has very low C4, rheumatoid factor, and hepatitis C. B has normal complement, MPO-ANCA, and hemoptysis. C, aged 19, had a recent cold, normal complement, and IgA deposits. Step 1: A and C have deposited complexes; B has pauci-immune injury. Step 2: low C4 in A means classical pathway consumption by IgM-IgG complexes (mixed cryoglobulinemia); IgA spares C4 (IgA vasculitis in C). Step 3: MPO-ANCA without sinus disease favors microscopic polyangiitis; PR3-ANCA with cavitating nodules would mean GPA."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-CARD-16-01-C04",
+      "obj": "CV-16.4",
+      "title": "Immune-mediated pericardial, valvular, and conduction disease",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Each condition here reaches the heart by a different immune route: antigens exposed by injury (Dressler syndrome), systemic autoimmunity (Libman-Sacks endocarditis), or maternal antibody crossing the placenta (congenital heart block)."
+        },
+        {
+          "type": "h",
+          "text": "Dressler syndrome"
+        },
+        {
+          "type": "p",
+          "text": "Early pericarditis within about 1 to 3 days of a transmural infarct is a local fibrinous reaction to necrosis. Dressler syndrome appears weeks to months later and is autoimmune: necrosis releases sequestered myocardial proteins, antibodies form against them, and immune complexes are thought to deposit on pericardium and pleura. The delay is the time to mount this response. Patients have fever, pleuritic pain relieved by sitting forward, a friction rub, effusions, and high ESR and CRP, with diffuse ST elevation and PR depression rather than regional changes. Post-pericardiotomy syndrome has the same mechanism."
+        },
+        {
+          "type": "h",
+          "text": "Libman-Sacks endocarditis"
+        },
+        {
+          "type": "p",
+          "text": "In lupus, immune complex and complement injury of valve endothelium, aided by antiphospholipid antibodies that promote thrombosis, produces sterile verrucous vegetations of fibrin, platelets, and mononuclear cells, sometimes with hematoxylin bodies. They can sit on either leaflet surface, mitral most often, and heal by fibrosis that causes regurgitation; fragments can embolize to the brain."
+        },
+        {
+          "type": "table",
+          "title": "Distinguishing endocardial vegetations",
+          "cols": [
+            "Feature",
+            "Rheumatic fever",
+            "Libman-Sacks (SLE)",
+            "Infective",
+            "Nonbacterial thrombotic"
+          ],
+          "rows": [
+            [
+              "Cause",
+              "Molecular mimicry",
+              "Immune complexes, antiphospholipid antibodies",
+              "Bacteria or fungi",
+              "Hypercoagulable state, often cancer"
+            ],
+            [
+              "Size",
+              "Small (1 to 2 mm)",
+              "Small to medium (1 to 4 mm)",
+              "Large, friable",
+              "Small to medium"
+            ],
+            [
+              "Location",
+              "Lines of closure",
+              "Either or both surfaces",
+              "Upstream surface of closure line",
+              "Lines of closure"
+            ],
+            [
+              "Organisms",
+              "Absent",
+              "Absent",
+              "Present",
+              "Absent"
+            ],
+            [
+              "Valve outcome",
+              "Fibrosis after repeated attacks",
+              "Fibrosis, regurgitation",
+              "Destruction, perforation, abscess",
+              "Little damage; bland emboli"
+            ]
+          ],
+          "caption": "Only infective vegetations contain organisms; position on the leaflet separates the sterile types."
+        },
+        {
+          "type": "h",
+          "text": "Congenital heart block"
+        },
+        {
+          "type": "p",
+          "text": "In neonatal lupus, maternal IgG against Ro (SSA), often with La (SSB), crosses the placenta on the neonatal Fc receptor from the second trimester. The mother may have lupus or Sjogren syndrome or no symptoms. Antibody binds Ro and La exposed on apoptotic fetal myocytes, and macrophages release TNF and TGF-beta that drive fibrosis and calcification of the AV node at about 18 to 24 weeks. Anti-Ro also inhibits L-type and T-type Ca2+ channels, and since AV nodal cells depolarize by Ca2+ current, conduction slows even before scarring."
+        },
+        {
+          "type": "flow",
+          "title": "Pathogenesis of congenital heart block",
+          "steps": [
+            "Mother has IgG anti-Ro, often with anti-La",
+            "FcRn carries IgG across the placenta from the second trimester",
+            "Antibody binds apoptotic fetal myocytes and inhibits Ca2+ channels",
+            "Macrophages release TNF and TGF-beta",
+            "Fibrosis and calcification replace the AV node",
+            "Permanent complete heart block with a slow escape rhythm"
+          ],
+          "caption": "Maternal antibody starts the injury; fetal fibrosis makes it permanent."
+        },
+        {
+          "type": "p",
+          "text": "The atria beat normally while the ventricles follow a slow escape rhythm, below the normal fetal rate of about 110 to 160 bpm. Risk is about 1 to 2% per anti-Ro positive pregnancy and about 15 to 20% after an affected child. The rash, cytopenias, and hepatitis of neonatal lupus resolve over about 6 to 8 months as maternal IgG is cleared, but the fibrosed AV node cannot regenerate, so the block is permanent."
+        },
+        {
+          "type": "stop",
+          "predict": "A newborn has a ventricular rate of 55 bpm with dissociated P waves at 140 per minute and an annular facial rash; the mother is well. At 8 months the rash has gone but the bradycardia persists. Why?",
+          "explain": "Maternal anti-Ro IgG fibrosed the fetal AV node, causing complete heart block with an escape rhythm. The same antibody caused the rash, which cleared as the IgG was catabolized, but nodal scar cannot regenerate.",
+          "check": "Compare with the congenital heart block flow figure and the last paragraph."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-CARD-16-01-C05",
+      "obj": "CV-16.5",
+      "title": "Heart transplant rejection",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Every nucleated donor cell displays donor HLA. Rejection type is defined by the effector, whose speed sets the timing."
+        },
+        {
+          "type": "p",
+          "text": "In direct allorecognition, recipient T cells recognize intact donor HLA on donor dendritic cells (passenger leukocytes) carried in the graft. Alloreactive T cells are numerous, so this drives the strong early response. In indirect allorecognition, recipient antigen-presenting cells present processed donor HLA peptides on recipient class II molecules. It persists after passenger leukocytes are gone and gives B cells the CD4 help to make donor-specific antibody, so it matters in antibody-mediated and chronic rejection."
+        },
+        {
+          "type": "h",
+          "text": "The four types"
+        },
+        {
+          "type": "p",
+          "text": "Hyperacute rejection, within minutes, is caused by preformed anti-ABO IgM or anti-HLA IgG from prior pregnancy, transfusion, or transplant. Antibody binds endothelium, activates the classical pathway, and small vessels thrombose. ABO matching and crossmatch screening have made it rare."
+        },
+        {
+          "type": "p",
+          "text": "Acute cellular rejection, the most common, occurs mainly in the first year because naive T cells need costimulation, IL-2, and clonal expansion. CD8 T cells kill myocytes with perforin, granzymes, and Fas ligand, and Th1 IFN-gamma activates macrophages and raises graft HLA expression. Endomyocardial biopsy shows perivascular and interstitial lymphocytes with myocyte damage. It is often silent."
+        },
+        {
+          "type": "p",
+          "text": "Antibody-mediated rejection is caused by donor-specific anti-HLA antibody binding capillary endothelium and activating complement. C4d, which binds covalently where C4 was cleaved, marks the capillaries, and biopsy shows swollen endothelium and intravascular macrophages with few interstitial lymphocytes. Widespread microvascular injury causes more hemodynamic compromise than cellular rejection of similar grade."
+        },
+        {
+          "type": "p",
+          "text": "Cardiac allograft vasculopathy (CAV), the chronic form, is diffuse concentric intimal thickening along epicardial and intramyocardial arteries, with an intact internal elastic lamina and little lipid or calcium, unlike focal eccentric atherosclerosis. Immune injury (indirect allorecognition, IFN-gamma, donor-specific antibody) and nonimmune injury (ischemia-reperfusion, cytomegalovirus, hyperlipidemia, hypertension) make endothelium release PDGF and TGF-beta, driving smooth muscle into the intima. Diffuse narrowing leaves no normal reference segment, so angiography underestimates it."
+        },
+        {
+          "type": "p",
+          "text": "The graft is denervated. Without vagal tone the resting rate is the intrinsic SA nodal rate, about 90 to 110 bpm, and exercise raises it slowly through circulating catecholamines. Without sensory afferents, ischemia causes no angina, so CAV presents as heart failure, arrhythmia, silent infarction, or sudden death."
+        },
+        {
+          "type": "table",
+          "title": "Heart transplant rejection by mechanism and timing",
+          "cols": [
+            "Type",
+            "Timing",
+            "Effector",
+            "Hypersensitivity",
+            "Graft findings"
+          ],
+          "rows": [
+            [
+              "Hyperacute",
+              "Minutes to hours",
+              "Preformed anti-ABO or anti-HLA antibody",
+              "II",
+              "Small vessel thrombosis, necrosis"
+            ],
+            [
+              "Acute cellular",
+              "Weeks to months",
+              "CD8 and Th1 T cells",
+              "IV",
+              "Lymphocytes with myocyte damage"
+            ],
+            [
+              "Antibody-mediated",
+              "Days to years",
+              "Donor-specific anti-HLA antibody",
+              "II",
+              "Endothelial swelling, capillary C4d"
+            ],
+            [
+              "Allograft vasculopathy",
+              "Months to years",
+              "T cells, antibody, nonimmune injury",
+              "Mixed",
+              "Diffuse concentric intimal thickening"
+            ]
+          ],
+          "caption": "Preformed antibody acts at once, T cells need weeks to expand, and vessel remodeling takes years."
+        },
+        {
+          "type": "example",
+          "title": "Matching a biopsy to the type of rejection",
+          "text": "Recipient 1, at 3 weeks, has lymphocytes around vessels and between damaged myocytes without C4d. Recipient 2, at 5 months, is hypotensive, with swollen capillary endothelium, intravascular macrophages, strong C4d, and new anti-HLA antibody. Recipient 3, at 6 years, has painless heart failure and smooth diffuse narrowing of all coronary branches. Step 1: recipient 1 has T-cell infiltration timed to clonal expansion, so acute cellular rejection. Step 2: recipient 2 has complement-marked microvascular injury with donor-specific antibody, so antibody-mediated rejection. Step 3: recipient 3 has allograft vasculopathy, painless because the graft is denervated. Graft thrombosis within minutes would instead mean hyperacute rejection."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-CARD-16-01-C06",
+      "obj": "CV-16.6",
+      "title": "Myocarditis: viral, hypersensitivity, and post-vaccine",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Myocarditis is myocardial inflammation with myocyte injury not explained by ischemia. Because biopsy (Dallas criteria: infiltrate with nonischemic myocyte damage) can miss patchy disease, MRI is used; late gadolinium enhancement is subepicardial or midwall, unlike the subendocardial start of infarction. Nonviral infectious causes are taught in CV-17."
+        },
+        {
+          "type": "h",
+          "text": "Viral myocarditis in three phases"
+        },
+        {
+          "type": "p",
+          "text": "Coxsackievirus B is the classic cause; adenovirus, parvovirus B19 (mainly endothelial), HHV-6, influenza, and SARS-CoV-2 are others. Coxsackievirus enters myocytes through the coxsackievirus and adenovirus receptor (CAR) with CD55. In phase 1 (days), viral protease 2A cleaves dystrophin and kills myocytes while type I interferons, NK cells, and macrophages limit spread. In phase 2 (from about 1 to 2 weeks), CD8 T cells kill infected myocytes and CD4 T cells release IFN-gamma and TNF; this clears virus but causes most of the muscle loss, and released myosin with molecular mimicry can trigger autoimmunity. Most patients recover; in phase 3 a minority develop dilated cardiomyopathy from persistent virus or autoimmunity."
+        },
+        {
+          "type": "flow",
+          "title": "From viral infection to dilated cardiomyopathy",
+          "steps": [
+            "Coxsackievirus B enters myocytes through CAR and CD55",
+            "Protease 2A cleaves dystrophin; myocytes die (days)",
+            "Interferons, NK cells, and macrophages limit spread",
+            "CD8 T cells kill infected myocytes (from 1 to 2 weeks)",
+            "Released myosin and mimicry trigger autoimmunity in some",
+            "Persistent inflammation causes fibrosis and remodeling",
+            "Dilated cardiomyopathy in a minority (months to years)"
+          ],
+          "caption": "Immune killing, more than the virus itself, causes most myocyte loss."
+        },
+        {
+          "type": "p",
+          "text": "A viral prodrome often precedes cardiac symptoms. Necrosis raises troponin, myocardial and pericardial inflammation cause chest pain and ST changes outside a single coronary territory, muscle loss causes heart failure, and patchy scar supports reentry, so ventricular arrhythmias and sudden death occur, sometimes in young athletes. Fulminant myocarditis can recover substantially because many myocytes are dysfunctional rather than dead."
+        },
+        {
+          "type": "h",
+          "text": "Other forms"
+        },
+        {
+          "type": "p",
+          "text": "Hypersensitivity myocarditis is a dose-independent type IV drug reaction in which Th2 cytokines such as IL-5 recruit eosinophils, often with rash, fever, and eosinophilia. In hypereosinophilic syndrome and EGPA, eosinophil major basic protein and cationic protein kill myocytes and injure endocardium, leading to endomyocardial fibrosis (Loffler endocarditis). Myocarditis after mRNA COVID-19 vaccination clusters in young males after the second dose, begins within days, and is usually mild; its mechanism is not established."
+        },
+        {
+          "type": "table",
+          "title": "Comparing forms of myocarditis",
+          "cols": [
+            "Form",
+            "Trigger",
+            "Effector and histology",
+            "Course"
+          ],
+          "rows": [
+            [
+              "Viral",
+              "Coxsackievirus B, others",
+              "CD8 T cells; lymphocytes with necrosis",
+              "Most recover; some dilated cardiomyopathy"
+            ],
+            [
+              "Hypersensitivity",
+              "Sulfonamides, beta-lactams, methyldopa, clozapine",
+              "T cells and eosinophils; limited necrosis",
+              "Subsides after exposure ends"
+            ],
+            [
+              "Hypereosinophilic",
+              "Hypereosinophilic syndrome, EGPA, parasites",
+              "Eosinophil granule proteins; necrosis, mural thrombus",
+              "Endomyocardial fibrosis, restrictive physiology"
+            ],
+            [
+              "Giant cell",
+              "Autoimmunity, thymoma",
+              "T cells, giant cells, wide necrosis, no granulomas",
+              "Rapid heart failure, arrhythmias, poor prognosis"
+            ],
+            [
+              "Post mRNA vaccine",
+              "Second dose, young males",
+              "Not established; subepicardial MRI enhancement",
+              "Onset in days, usually self-limited"
+            ]
+          ],
+          "caption": "The effector cell on histology predicts the course."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-CARD-16-01-C07",
+      "obj": "CV-16.7",
+      "title": "Immune surveillance, Kaposi sarcoma, and the cytokines of atrial myxoma",
+      "blocks": [
+        {
+          "type": "h",
+          "text": "Kaposi sarcoma and HHV-8"
+        },
+        {
+          "type": "p",
+          "text": "Kaposi sarcoma (KS) is a low-grade vascular tumor caused by human herpesvirus 8 (HHV-8), a gamma-herpesvirus spread mainly by saliva and also sexually. HHV-8 latently infects spindle cells of lymphatic endothelial type. LANA keeps the viral episome and inhibits p53 and Rb, v-cyclin pairs with CDK6 to drive G1 to S, and v-FLIP activates NF-kappa B and blocks apoptosis. Lytic genes add paracrine growth signals: a viral G protein-coupled receptor induces VEGF, and viral IL-6 signals through gp130 without the IL-6 receptor alpha chain. Lesions are spindle cells with slit-like vascular spaces, extravasated red cells, and hemosiderin, progressing from patches to plaques to nodules in skin, oral mucosa, gut, nodes, and lungs; LANA staining confirms HHV-8. The virus also causes primary effusion lymphoma and multicentric Castleman disease."
+        },
+        {
+          "type": "p",
+          "text": "CD8 T cells and NK cells normally hold HHV-8 in check, and CD8 responses need CD4 help. In AIDS, CD4 loss lets infected cells proliferate, and HIV Tat further stimulates them, so AIDS-associated KS is the most aggressive and AIDS-defining. After transplantation, drugs such as calcineurin inhibitors block T-cell activation. Classic KS (older men of Mediterranean or Eastern European descent) is indolent on the lower legs, and endemic African KS can involve lymph nodes in children. Early lesions depend on viral and cytokine signals, so restoring CD4 counts or reducing immunosuppression often makes them regress, after a possible transient flare from immune reconstitution; advanced monoclonal lesions may not."
+        },
+        {
+          "type": "h",
+          "text": "Atrial myxoma and IL-6"
+        },
+        {
+          "type": "p",
+          "text": "Myxoma is the most common primary cardiac tumor in adults (rhabdomyoma in children; metastases outnumber both). About 90% arise in the atria, roughly 80% in the left atrium, as a pedunculated gelatinous mass on the septum near the fossa ovalis, with stellate cells in a glycosaminoglycan-rich matrix. Most are sporadic in middle-aged women; familial cases in Carney complex (PRKAR1A) are younger, multiple, and accompanied by spotty pigmentation and endocrine tumors."
+        },
+        {
+          "type": "p",
+          "text": "The mass can prolapse into the mitral orifice in diastole, causing positional dyspnea or syncope and a tumor plop, and friable fragments embolize systemically. The systemic picture comes from IL-6 secreted by myxoma cells, and it resolves after removal."
+        },
+        {
+          "type": "flow",
+          "title": "How a myxoma causes constitutional symptoms",
+          "steps": [
+            "Myxoma cells secrete IL-6",
+            "Hypothalamus: COX-2 and PGE2 raise the set point (fever)",
+            "Liver: CRP, fibrinogen (high ESR), and hepcidin (anemia of inflammation)",
+            "B cells: polyclonal hypergammaglobulinemia",
+            "Catabolism and anorexia: weight loss and fatigue"
+          ],
+          "caption": "One cytokine lets a benign tumor mimic infection, vasculitis, or malignancy."
+        }
+      ]
+    }
+  ],
+  "integration": [
+    {
+      "type": "p",
+      "text": "Organize these diseases by immune effector. Antibody against fixed tissue antigen (type II) explains hyperacute and antibody-mediated rejection, anti-GBM disease, and much of rheumatic fever. Immune complexes (type III) explain PAN, IgA vasculitis, cryoglobulinemia, Libman-Sacks lesions, and probably Dressler syndrome, leaving granular deposits and, with classical pathway use, low complement. ANCA disease uses the neutrophil and leaves few deposits. T cells and macrophages (type IV) explain large-vessel arteritis, acute cellular rejection, the immune phase of viral myocarditis, and hypersensitivity myocarditis. Atherosclerosis and allograft vasculopathy share endothelial injury and cytokine-driven intimal smooth muscle growth. Many diseases use more than one effector, as rheumatic carditis and allograft vasculopathy show."
+    },
+    {
+      "type": "p",
+      "text": "The interval after a trigger points to the mechanism: direct infection acts in days, a primary adaptive response in about 1 to 3 weeks, and chronic remodeling over months to years. Anatomy predicts manifestations: inflamed venules leak into purpura, glomeruli produce casts, renal arteries cause renin-dependent hypertension, and a Ca2+-dependent AV node is vulnerable to anti-Ro. IL-1 beta and IL-6 link plaque inflammation to hs-CRP, giant cell arteritis to a very high ESR, and myxoma to fever and anemia."
+    }
+  ],
+  "summary": [
+    "Endothelial dysfunction activates NF-kappa B, and VCAM-1 and MCP-1 recruit monocytes and Th1 cells into the intima.",
+    "Oxidized LDL enters macrophages through scavenger receptors that cholesterol does not down-regulate; cholesterol crystals activate the NLRP3 inflammasome, and IL-1 beta and IL-6 raise CRP.",
+    "Macrophage metalloproteinases degrade cap collagen and IFN-gamma blocks its synthesis, so inflamed, often moderately stenotic plaques rupture.",
+    "Rheumatic fever follows streptococcal pharyngitis by about 2 to 3 weeks through mimicry of M protein and group A carbohydrate; Aschoff bodies define the pancarditis and repeated valvulitis scars into mitral stenosis.",
+    "Immune complex vasculitis leaves granular deposits, with very low C4 in hepatitis C cryoglobulinemia and normal complement in IgA vasculitis; ANCA vasculitis is pauci-immune.",
+    "Giant cell and Takayasu arteritis are granulomatous T-cell diseases of large arteries with IL-6 driven high ESR, separated mainly by age and distribution.",
+    "Dressler syndrome is delayed autoimmune pericarditis; Libman-Sacks vegetations are sterile and sit on either leaflet surface; maternal anti-Ro causes permanent fetal AV node fibrosis while the rest of neonatal lupus resolves.",
+    "Transplant rejection timing follows the effector: preformed antibody in minutes, T cells in weeks to months, donor-specific antibody with capillary C4d, and painless diffuse allograft vasculopathy over years.",
+    "In viral myocarditis CD8 T cells cause most myocyte loss, and persistent virus or autoimmunity can lead to dilated cardiomyopathy; eosinophilic forms cause endomyocardial fibrosis.",
+    "Kaposi sarcoma grows when CD8 control of latent HHV-8 fails and often regresses when immunity returns; atrial myxoma IL-6 causes fever, weight loss, anemia, and a high ESR."
+  ],
+  "sources": [
+    {
+      "book": "Robbins and Cotran Pathologic Basis of Disease",
+      "where": "Blood Vessels (sections on atherosclerosis, vasculitis, and Kaposi sarcoma)"
+    },
+    {
+      "book": "Robbins and Cotran Pathologic Basis of Disease",
+      "where": "The Heart (sections on rheumatic heart disease, endocarditis, myocarditis, cardiac transplantation, and cardiac tumors)"
+    },
+    {
+      "book": "Abbas, Basic Immunology",
+      "where": "Hypersensitivity: Disorders Caused by Immune Responses"
+    },
+    {
+      "book": "Abbas, Basic Immunology",
+      "where": "Section on transplantation immunology and graft rejection"
+    },
+    {
+      "book": "Jawetz, Melnick and Adelberg's Medical Microbiology",
+      "where": "Sections on streptococci, enteroviruses, and herpesviruses"
+    },
+    {
+      "book": "Lange Pathophysiology of Disease",
+      "where": "Cardiovascular Disorders: Vascular Disease"
+    }
+  ],
+  "verify": [
+    "Jones criteria thresholds follow the 2015 American Heart Association revision (fever 38.5 degrees C (101.3 degrees F) and ESR 60 mm per hour in low-risk populations; 38.0 degrees C (100.4 degrees F) and ESR 30 mm per hour in moderate to high-risk populations); confirm which version and risk category NABNE uses.",
+    "The latent period of rheumatic fever is quoted from about 10 days to 5 weeks across sources, with 2 to 3 weeks as the usual figure; confirm the range NABNE expects.",
+    "hs-CRP risk cutpoints (below 1, 1 to 3, above 3 mg/L) are from AHA and CDC consensus; confirm they are current for NABNE.",
+    "The proportion of polyarteritis nodosa linked to hepatitis B (historically up to about a third, lower in vaccinated populations), of GPA with PR3-ANCA, and of EGPA with ANCA (about 40%) varies between sources.",
+    "Anti-GBM disease is classed as type II hypersensitivity in review books but as an immune complex small vessel vasculitis in the 2012 Chapel Hill nomenclature; confirm which framing NABNE uses.",
+    "Timing of Dressler syndrome is quoted variously from about 1 to 8 weeks to several months after infarction, and its mechanism (immune complex deposition) is not firmly proven.",
+    "Risk figures for congenital heart block (about 1 to 2% of anti-Ro positive pregnancies, about 15 to 20% recurrence) and the 18 to 24 week window vary slightly between series.",
+    "The resting heart rate of the denervated transplanted heart (about 90 to 110 bpm) is approximate.",
+    "Lists of drugs causing hypersensitivity myocarditis differ between sources; the drugs named here are examples of mechanism, not a complete list.",
+    "Incidence figures for myocarditis after mRNA COVID-19 vaccination differ by age group, dose, product, and surveillance system, and recommendations have changed over time; numbers were deliberately omitted and should be checked against current data if NABNE tests them.",
+    "The proportions of myxomas in the atria (about 90%) and left atrium (about 80%) and of familial cases are approximate.",
+    "Confirm whether NABNE expects the eponyms Anitschkow cell, Libman-Sacks, Dressler, Henoch-Schonlein, Churg-Strauss, Loffler, and Carney complex, or only descriptive names.",
+    "Requested new diagram names for a future revision: atheroma-anatomy (cross-section of a fibrofatty plaque labeling cap, shoulder, necrotic core, foam cells, and media) and vegetation-comparison (valve leaflets showing the positions of rheumatic, Libman-Sacks, infective, and nonbacterial thrombotic vegetations)."
+  ]
+}

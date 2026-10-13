@@ -373,6 +373,29 @@ label.field{display:block;font-weight:700;margin-bottom:.35rem}
 .fc .front{font-size:clamp(1.15rem,2.6vw,1.45rem);font-weight:800;line-height:1.35}
 .fc .back{font-size:1.05rem;border-top:1px solid var(--line);padding-top:12px;margin-top:4px}
 .fc-note{background:var(--card);border-radius:12px;box-shadow:var(--shadow);padding:14px 18px;margin:0 0 16px}
+
+.nindex .ncols{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px 28px}
+.nindex ol{margin:.2rem 0 .8rem;padding-left:1.3rem}.nindex li{margin:.2rem 0}
+.nsec{margin:14px 0}.nsec h4{margin:1rem 0 .3rem;color:var(--accent);font-size:1rem}
+.nid{margin:0 0 .2rem;font-size:.78rem;font-weight:800;letter-spacing:.06em;color:var(--accent)}
+.ncomp{background:var(--soft);border-radius:10px;padding:10px 12px;margin:.6rem 0 1rem}
+.nlab{color:var(--accent);font-weight:800}
+.nfig{margin:1rem 0;padding:0}.nfig figcaption{font-weight:700;margin-bottom:.4rem}.nfig img{max-width:100%;height:auto;background:#fff;border-radius:8px}
+.nflow{list-style:none;counter-reset:st;padding:0;margin:.4rem 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+.nflow li{counter-increment:st;position:relative;border:2px solid var(--ink);border-radius:10px;padding:10px 10px 10px 40px;background:var(--card);font-weight:600;font-size:.93rem}
+.nflow li::before{content:counter(st);position:absolute;left:10px;top:10px;width:22px;height:22px;border-radius:11px;background:var(--ink);color:var(--card);font-size:.75rem;display:flex;align-items:center;justify-content:center;font-weight:800}
+.nchoices{display:flex;flex-wrap:wrap;gap:8px;margin:.5rem 0}.nchoices .btn{text-align:left;white-space:normal}
+.nbox{margin:1rem 0;background:var(--soft)}.nbox.stop textarea{width:100%;font:inherit;padding:8px;border-radius:8px;border:1px solid var(--line-strong);background:var(--card);color:var(--ink);margin:.3rem 0 .6rem}
+.nterms{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:8px 20px;margin:.6rem 0}.nterms dt{font-weight:800}.nterms dd{margin:0 0 .4rem}
+.ntools{margin:.2rem 0 .4rem}.ntools select{font:inherit;padding:4px 6px;border-radius:8px}
+.ncheck label{display:flex;align-items:flex-start;gap:8px;width:100%;font-weight:500}
+.nterm-index{columns:2 260px;padding-left:1.1rem}
+@media print{
+  .site-header,.site-footer,.main-nav,.nindex,.ntools,.noprint,.row .btn,#ni-h{display:none!important}
+  body.print-one main>*:not(.print-only){display:none!important}
+  .card{box-shadow:none!important;border:none}.nsec{page-break-inside:auto}.nfig,.nbox{page-break-inside:avoid}
+  body{background:#fff;color:#000;font-size:10.5pt}
+}
 </style>
 </head>
 <body>
@@ -416,6 +439,7 @@ label.field{display:block;font-weight:700;margin-bottom:.35rem}
 
 <script src="nplex-competencies.js"></script>
 <script src="nplex-content.js"></script>
+<script src="notes-web/index.js"></script>
 <script>
 (function(){
 'use strict';
@@ -512,7 +536,7 @@ var store = {
   get:function(k){ try{ var v=window.localStorage.getItem(k); return v==null ? (k in mem ? mem[k] : null) : v; }catch(e){ return k in mem ? mem[k] : null; } },
   set:function(k,v){ mem[k]=v; try{ window.localStorage.setItem(k,v); return true; }catch(e){ return false; } }
 };
-function blank(){ return {v:1,units:{},attempts:{},srs:{},sessions:{},history:[],dumps:{},settings:{},cards:{}}; }
+function blank(){ return {v:1,units:{},attempts:{},srs:{},sessions:{},history:[],dumps:{},settings:{},cards:{},noteChecks:{}}; }
 function loadState(){
   var s=null; try{ s=JSON.parse(store.get('nplex-state')||'null'); }catch(e){ s=null; }
   var b=blank(); if(s && typeof s==='object'){ for(var k in b){ if(s[k]!=null) b[k]=s[k]; } }
@@ -895,7 +919,8 @@ VIEW.study = function(arg){
     '<div class="row" style="margin-top:12px"><a class="btn ghost" href="#dumps/'+esc(id)+'">Brain dump before you study</a>'+
     '<button type="button" class="btn acc" data-act="unitpractice" data-unit="'+esc(id)+'">Practice cases for this unit</button>'+
     '<a class="btn ghost" href="#dumps/'+esc(id)+'">Brain dump after you study</a>'+
-    (cardsFor(id).length?'<a class="btn ghost" href="#cards/'+esc(id)+'">Flashcards for this unit</a>':'')+'</div></div>';
+    (cardsFor(id).length?'<a class="btn ghost" href="#cards/'+esc(id)+'">Flashcards for this unit</a>':'')+'</div>'+
+    (NOTES_IDX[id]?'<div class="row" style="margin-top:10px"><a class="btn acc" href="#notes/'+esc(id)+'">Read the full notes</a><span class="note">Complete teaching notes with interactive figures, tables, and checks.</span></div>':'')+'</div>';
   if(u.summary) h+='<p class="lead" style="font-size:1.05rem;max-width:75ch">'+esc(u.summary)+'</p>';
   if((c.objectives||[]).length) h+=sec('s-objs','What should you be able to do?',objHTML(c),true);
 
@@ -1082,6 +1107,132 @@ function planCardHTML(){
   var R=planCalc(P), n=planWeekNow(P,R), w=R.W[n-1];
   var what = !n ? 'Your plan starts '+nice(P.start)+'.' : w ? (w.final?'Full-length exams and mixed review':w.items.map(function(it){ return sysName(it.code)+(it.split?' (part '+it.part+')':''); }).join(', ')) : 'Exam week.';
   return '<div class="card"><p class="eyebrow">Study plan · exam '+nice(P.exam)+'</p><h2>'+(n?'This is week '+n+' of '+R.weeks:'Get ready')+'</h2><p>'+esc(what)+(w&&n?'. About '+r1(w.h)+' hours this week.':'')+'</p><a class="btn ghost" href="#plan">See or change your plan</a></div>';
+}
+
+/* ---------------- comprehensive notes (HTML) ---------------- */
+var NOTES_IDX = window.NPLEX_NOTES_INDEX || {};
+var notesLoading = {};
+function notesFor(u){ return (window.NPLEX_NOTES||{})[u]; }
+function loadNotes(sys, cb){
+  if(window.NPLEX_NOTES && Object.keys(window.NPLEX_NOTES).some(function(k){return k.indexOf(sys+'-')===0;})) return cb();
+  if(notesLoading[sys]) return; notesLoading[sys]=true;
+  var s=document.createElement('script'); s.src='notes-web/'+sys+'.js';
+  s.onload=function(){ notesLoading[sys]=false; cb(); };
+  s.onerror=function(){ notesLoading[sys]=false; main.innerHTML='<div class="head"><h1 tabindex="-1">Notes could not load</h1><p>Check your connection and try again.</p></div>'; };
+  document.head.appendChild(s);
+}
+var nui = {open:{}, hide:{}, order:{}, step:{}, stop:{}, terms:false, tshow:{}};
+function nid(u,s){ return 'n-'+u+'-'+s; }
+function noteTable(u,key,b){
+  var hidden = nui.hide[key]; // column index hidden
+  var h='<div class="ntools"><label class="small" for="hc-'+key+'">Hide a column and recall it:</label> <select id="hc-'+key+'" data-chg="nhide" data-key="'+key+'"><option value="">Show all</option>'+
+    b.cols.map(function(c,i){ return i? '<option value="'+i+'"'+(String(hidden)===String(i)?' selected':'')+'>'+esc(c)+'</option>':''; }).join('')+'</select></div>';
+  h+='<div class="tbl-wrap" role="region" tabindex="0" aria-label="'+esc(b.title)+' (scrolls sideways)"><table><thead><tr>'+b.cols.map(function(c){return '<th scope="col">'+esc(c)+'</th>';}).join('')+'</tr></thead><tbody>'+
+    b.rows.map(function(r,ri){ return '<tr>'+r.map(function(c,ci){
+      if(ci===0) return '<th scope="row">'+esc(c)+'</th>';
+      if(hidden!=null && hidden!=='' && +hidden===ci){ var k=key+'-'+ri; return '<td>'+(nui.tshow[k]?esc(c):'<button type="button" class="btn small ghost reveal" data-act="nreveal" data-k="'+k+'">Show</button>')+'</td>'; }
+      return '<td>'+esc(c)+'</td>'; }).join('')+'</tr>'; }).join('')+'</tbody></table></div>';
+  return h;
+}
+function noteFlow(u,key,b){
+  var st=nui.order[key];
+  var h='<ol class="nflow'+(b.type==='cycle'?' cyc':'')+'">'+b.steps.map(function(s){return '<li>'+esc(s)+'</li>';}).join('')+'</ol>';
+  if(b.type==='cycle') h+='<p class="note">This is a loop: the last step feeds back into the first.</p>';
+  if(!st) return h+'<button type="button" class="btn small ghost" data-act="nordstart" data-key="'+key+'">Put the steps in order</button>';
+  var done=st.picked.length===b.steps.length;
+  h='<p class="note" aria-live="polite">'+(done?(st.miss?'Done, with '+st.miss+' wrong pick'+(st.miss>1?'s':'')+'. Try again until it is clean.':'All in order on the first try.'):'Tap the step that comes next. Step '+(st.picked.length+1)+' of '+b.steps.length+'.')+'</p>';
+  h+='<ol class="nflow">'+st.picked.map(function(i){return '<li>'+esc(b.steps[i])+'</li>';}).join('')+'</ol>';
+  if(!done) h+='<div class="nchoices">'+st.pool.filter(function(i){return st.picked.indexOf(i)<0;}).map(function(i){return '<button type="button" class="btn small ghost" data-act="nordpick" data-key="'+key+'" data-i="'+i+'">'+esc(b.steps[i])+'</button>';}).join('')+'</div>'+(st.last===false?'<p class="err" role="alert">Not that one yet. Think about what has to happen first.</p>':'');
+  h+='<button type="button" class="btn small ghost" data-act="nordstart" data-key="'+key+'">'+(done?'Try again':'Start over')+'</button> <button type="button" class="btn small ghost" data-act="nordend" data-key="'+key+'">Show the answer</button>';
+  return h;
+}
+function noteExample(key,b){
+  var parts=String(b.text).split(/(?<=[.?!])\s+(?=[A-Z0-9])/), n=nui.step[key]==null?parts.length:nui.step[key];
+  var h='<div class="card nbox"><p class="nlab">Worked example: <strong>'+esc(b.title||'')+'</strong></p>'+parts.slice(0,n).map(function(t){return '<p>'+esc(t)+'</p>';}).join('');
+  if(n<parts.length) h+='<button type="button" class="btn small acc" data-act="nstep" data-key="'+key+'" data-n="'+(n+1)+'">Next step ('+n+' of '+parts.length+')</button>';
+  else if(parts.length>1) h+='<button type="button" class="btn small ghost" data-act="nstep" data-key="'+key+'" data-n="1">Work it one step at a time</button>';
+  return h+'</div>';
+}
+function noteStop(key,b){
+  var st=nui.stop[key]||{};
+  var h='<div class="card nbox stop"><p><strong class="nlab">STOP:</strong> Cover the notes above.</p><p><strong class="nlab">PREDICT:</strong> '+esc(b.predict)+'</p>'+
+    '<label class="small" for="sp-'+key+'">Your prediction</label><textarea id="sp-'+key+'" rows="3" data-chg="nstoptxt" data-key="'+key+'">'+esc(st.txt||'')+'</textarea>';
+  if(st.shown) h+='<p><strong class="nlab">EXPLAIN:</strong> '+esc(b.explain)+'</p><p><strong class="nlab">CHECK:</strong> '+esc(b.check)+'</p>';
+  else h+='<button type="button" class="btn small acc" data-act="nstopshow" data-key="'+key+'">Show the explanation</button>';
+  return h+'</div>';
+}
+function noteBlocks(u,si,blocks,cnt){
+  return blocks.map(function(b,bi){
+    var key=u+'-'+si+'-'+bi;
+    if(b.type==='p') return '<p>'+esc(b.text)+'</p>';
+    if(b.type==='h') return '<h4>'+esc(b.text)+'</h4>';
+    if(b.type==='bullets') return '<ul>'+b.items.map(function(t){return '<li>'+esc(t)+'</li>';}).join('')+'</ul>';
+    if(b.type==='table'){ cnt.t++; return '<figure class="nfig" id="'+u+'-tab-'+cnt.t+'"><figcaption><span class="nlab">Table '+cnt.t+'.</span> '+esc(b.title)+'</figcaption>'+noteTable(u,key,b)+(b.caption?'<p class="note">'+esc(b.caption)+'</p>':'')+'</figure>'; }
+    if(b.type==='flow'||b.type==='cycle'||b.type==='diagram'){ cnt.f++; cnt.fig++;
+      var body = b.type==='diagram' ? (b.img?'<img src="'+esc(b.img)+'" alt="'+esc(b.caption||b.name)+'" loading="lazy">':'') : noteFlow(u,key,b);
+      return '<figure class="nfig" id="'+u+'-fig-'+cnt.f+'"><figcaption><span class="nlab">Figure '+cnt.f+'.</span> '+esc(b.title||({'ecg-waveform':'The normal ECG waveform','conduction-pathway':'The cardiac conduction system','pacemaker-ap':'The SA nodal action potential','ventricular-ap':'The ventricular myocyte action potential'})[b.name]||'')+'</figcaption>'+body+(b.caption?'<p class="note">'+esc(b.caption)+'</p>':'')+'</figure>'; }
+    if(b.type==='example') return noteExample(key,b);
+    if(b.type==='stop') return noteStop(key,b);
+    return '';
+  }).join('');
+}
+function noteIndexTerms(d){
+  var terms=(d.overview&&d.overview.terms)||[];
+  return terms.map(function(t){
+    var re=new RegExp('\\b'+t.term.replace(/\s*\(.*?\)\s*/g,'').replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'i'), hit=null;
+    d.sections.some(function(s,i){ if(re.test(JSON.stringify(s.blocks))){ hit=i; return true; } return false; });
+    return {term:t.term, def:t.def, sec:hit};
+  }).sort(function(a,b){return a.term.localeCompare(b.term);});
+}
+VIEW.notes = function(arg){
+  var pp=String(arg||'').split('/'), u=pp[0], target=pp[1]||null;
+  var c=COMP[u]; if(!c||!NOTES_IDX[u]) return '<div class="head"><h1 tabindex="-1">Notes not ready yet</h1><p>'+(c?unitLink(u):'')+'</p></div>';
+  var d=notesFor(u);
+  if(!d){ loadNotes(NOTES_IDX[u], function(){ rerender(); }); return '<div class="head"><h1 tabindex="-1">Loading notes</h1><p class="note">One moment.</p></div>'; }
+  if(target){ scrollTarget=target; var m=/^s(\d+)$/.exec(target); if(m) nui.open[u+'-'+m[1]]=true; }
+  var cnt={t:0,f:0,fig:0}, figs=[], tabs=[];
+  // pre-count for the index
+  var ft=0, tt=0; d.sections.forEach(function(s,si){ s.blocks.forEach(function(b){ if(b.type==='table'){ tt++; tabs.push({n:tt,t:b.title,si:si}); } if(['flow','cycle','diagram'].indexOf(b.type)>=0){ ft++; figs.push({n:ft,t:b.title||b.name,si:si}); } }); });
+  var h='<div class="head noprint-off"><p class="eyebrow">Comprehensive notes · '+esc(d.chapter_id)+'</p><h1 tabindex="-1">'+esc(d.title)+'</h1>'+
+    '<div class="row"><a class="btn ghost small" href="#study/'+esc(u)+'">Back to the study unit</a><button type="button" class="btn ghost small" data-act="nprint" data-what="all">Print this chapter</button>'+(UNITS[u]?'<button type="button" class="btn small acc" data-act="unitpractice" data-unit="'+esc(u)+'">Practice cases</button>':'')+'</div></div>';
+  // Index
+  h+='<nav class="card nindex" aria-labelledby="ni-h"><h2 id="ni-h">Index</h2><div class="ncols"><div><h3 class="small">Competency sections</h3><ol>'+d.sections.map(function(s,si){
+      return '<li><a href="#notes/'+esc(u)+'/s'+si+'">'+esc(s.title)+'</a> <span class="note">'+esc(s.comp.replace(d.topic_id+'-',''))+'</span></li>'; }).join('')+
+    '<li><a href="#notes/'+esc(u)+'/n-integ">Biomedical integration</a></li><li><a href="#notes/'+esc(u)+'/n-sum">Summary and checklist</a></li></ol></div>'+
+    '<div><h3 class="small">Figures</h3><ol>'+figs.map(function(f){return '<li><a href="#notes/'+esc(u)+'/s'+f.si+'">'+esc(f.t)+'</a></li>';}).join('')+'</ol><h3 class="small">Tables</h3><ol>'+tabs.map(function(t){return '<li><a href="#notes/'+esc(u)+'/s'+t.si+'">'+esc(t.t)+'</a></li>';}).join('')+'</ol></div></div></nav>';
+  // Overview
+  var ov=d.overview||{};
+  h+='<section class="card nsec" aria-labelledby="no-h"><h2 id="no-h">Chapter overview</h2><p>'+esc(ov.intro||'')+'</p>'+
+    '<p><strong class="nlab">Before you start:</strong> '+esc((ov.prerequisites||[]).join('; '))+'.</p>'+
+    '<p><strong class="nlab">Connects to:</strong> '+esc((ov.connections||[]).map(function(x){return x.to;}).join('; '))+'.</p>'+
+    '<h3>Key terms</h3><div class="row"><button type="button" class="btn small ghost" data-act="nterms" aria-pressed="'+nui.terms+'">'+(nui.terms?'Show all definitions':'Test yourself: hide the definitions')+'</button></div><dl class="nterms">'+
+    (ov.terms||[]).map(function(t,i){ var k=u+'-t'+i; return '<div><dt>'+esc(t.term)+'</dt><dd>'+(nui.terms&&!nui.tshow[k]?'<button type="button" class="btn small ghost" data-act="nreveal" data-k="'+k+'">Show the definition</button>':esc(t.def))+'</dd></div>'; }).join('')+'</dl></section>';
+  // Sections
+  d.sections.forEach(function(s,si){
+    var key=u+'-'+si, open=!!nui.open[key] || (si===0 && nui.open[key]!==false && !Object.keys(nui.open).some(function(k){return k.indexOf(u+'-')===0;}));
+    var reg=REGT[s.comp]||'';
+    h+='<section class="card nsec" id="s'+si+'" data-sec="'+si+'"><p class="nid">'+esc(s.comp)+' · '+esc(s.obj)+'</p><h2 style="margin:0"><button type="button" class="coll-btn" aria-expanded="'+open+'" aria-controls="sb-'+key+'" data-act="nsec" data-key="'+key+'"><span class="ttl"><span>'+esc(s.title)+'</span></span>'+CHEV+'</button></h2>'+
+      '<div id="sb-'+key+'" class="'+(open?'':'hide')+'"><p class="ncomp"><strong class="nlab">You should be able to:</strong> '+esc(reg)+'</p>'+noteBlocks(u,si,s.blocks,cnt)+
+      '<div class="row noprint"><button type="button" class="btn ghost small" data-act="nprint" data-what="s'+si+'">Print this section</button></div></div></section>';
+  });
+  h+='<section class="card nsec" id="n-integ"><h2>Biomedical integration</h2>'+(d.integration||[]).map(function(b){return b.type==='h'?'<h4>'+esc(b.text)+'</h4>':'<p>'+esc(b.text)+'</p>';}).join('')+'</section>';
+  var chk=(S.noteChecks||{})[u]||{};
+  h+='<section class="card nsec" id="n-sum"><h2>Chapter summary</h2><ul>'+(d.summary||[]).map(function(t){return '<li>'+esc(t)+'</li>';}).join('')+'</ul>'+
+    '<h3>Competency checklist</h3><p class="note">Check a competency only when you can do it from memory. Units you cannot do yet come back sooner in spaced recall.</p><div class="checks ncheck">'+
+    d.sections.map(function(s,si){ var id='nc-'+u+'-'+si; return '<label for="'+id+'"><input type="checkbox" id="'+id+'" data-chg="ncheck" data-unit="'+esc(u)+'" data-comp="'+esc(s.comp)+'"'+(chk[s.comp]?' checked':'')+'><span><strong>'+esc(s.comp.replace(d.topic_id+'-',''))+'</strong> '+esc(REGT[s.comp]||s.title)+'</span></label>'; }).join('')+
+    '</div><div class="row"><button type="button" class="btn acc" data-act="nchecksave" data-unit="'+esc(u)+'">Save my checklist</button><span class="note" id="nc-msg" role="status"></span></div>'+
+    '<h3>Term index</h3><ul class="nterm-index">'+noteIndexTerms(d).map(function(t){return '<li><strong>'+esc(t.term)+'</strong>'+(t.sec!=null?' <a href="#notes/'+esc(u)+'/s'+t.sec+'">'+esc(d.sections[t.sec].title)+'</a>':'')+'</li>';}).join('')+'</ul>'+
+    '<h3>Sources</h3><ul class="small">'+(d.sources||[]).map(function(r){return '<li>'+esc(r.book)+': '+esc(r.where)+'</li>';}).join('')+'</ul></section>';
+  return h;
+};
+var REGT = {}; (COMPS||[]).forEach(function(c){ (c.objectives||[]).forEach(function(o,i){ var m=/^([A-Z]{2})-(\d+)(?:-([A-Z]))?$/.exec(c.id); if(!m) return;
+  var SUBJ={CV:'CARD',GI:'GAST',MS:'MUSC',NE:'NEUR',RE:'REPR',UR:'RENL',EN:'ENDO',IM:'IMMU',PU:'RESP',HE:'HEME',IN:'INTG'};
+  var id='NPLEX-P1-'+SUBJ[m[1]]+'-'+('0'+m[2]).slice(-2)+'-'+('0'+(m[3]?m[3].charCodeAt(0)-64:1)).slice(-2)+'-C'+('0'+(i+1)).slice(-2); REGT[id]=o.t; }); });
+function notesPrint(what){
+  document.body.classList.add('printing'); var tgt=null;
+  if(what!=='all'){ tgt=main.querySelector('[data-sec="'+what.slice(1)+'"]'); if(tgt){ tgt.classList.add('print-only'); document.body.classList.add('print-one'); var b=tgt.querySelector('[id^="sb-"]'); if(b) b.classList.remove('hide'); } }
+  else main.querySelectorAll('[id^="sb-"]').forEach(function(x){x.classList.remove('hide');});
+  setTimeout(function(){ window.print(); setTimeout(function(){ document.body.classList.remove('printing','print-one'); if(tgt) tgt.classList.remove('print-only'); rerender(); },300); },50);
 }
 
 /* brain dumps */
@@ -1613,8 +1764,8 @@ VIEW.diagnostic = function(){
 };
 
 /* ---------------- router ---------------- */
-var NAV_FOR = {path:'path',week:'path',subjects:'subjects',subject:'subjects',predict:'dashboard',plan:'path',study:'path',dumps:'dumps',cards:'cards',practice:'practice',exams:'exams',dashboard:'dashboard',diagnostic:'diagnostic'};
-var TITLES = {path:'Your path',week:'Week',subjects:'Subjects',subject:'Subject',predict:'Predicted result',plan:'Study plan',study:'Study unit',dumps:'Brain dumps',cards:'Flashcards',practice:'Practice',exams:'Full exams',dashboard:'Dashboard',diagnostic:'Diagnostic',take:'Question',results:'Results'};
+var NAV_FOR = {path:'path',week:'path',subjects:'subjects',subject:'subjects',predict:'dashboard',plan:'path',study:'path',notes:'path',dumps:'dumps',cards:'cards',practice:'practice',exams:'exams',dashboard:'dashboard',diagnostic:'diagnostic'};
+var TITLES = {path:'Your path',week:'Week',subjects:'Subjects',subject:'Subject',predict:'Predicted result',plan:'Study plan',study:'Study unit',notes:'Notes',dumps:'Brain dumps',cards:'Flashcards',practice:'Practice',exams:'Full exams',dashboard:'Dashboard',diagnostic:'Diagnostic',take:'Question',results:'Results'};
 var lastRoute='';
 function route(keepFocus){
   var h=decodeURIComponent(location.hash.slice(1))||'path';
@@ -1640,7 +1791,7 @@ function route(keepFocus){
     announce((TITLES[v]||'')+' opened. '+(h1?h1.textContent:''));
     if(v==='dumps' && dumpUI.focus){ var el=document.getElementById('du-'+dumpUI.focus); if(el) el.scrollIntoView(); dumpUI.focus=null; }
   } else if(!first) window.scrollTo(0,y);
-  if(scrollTarget && v==='study'){
+  if(scrollTarget && (v==='study'||v==='notes')){
     var tg=document.getElementById(scrollTarget); scrollTarget=null;
     if(tg){ var pn=tg.closest('.panel'); if(pn && pn.classList.contains('hide')){ pn.classList.remove('hide'); var bt=main.querySelector('[aria-controls="'+pn.id+'"]'); if(bt) bt.setAttribute('aria-expanded','true'); }
       tg.classList.add('flash'); tg.scrollIntoView({block:'start'}); tg.focus({preventScroll:true}); setTimeout(function(){ tg.classList.remove('flash'); },2600); }
@@ -1677,6 +1828,16 @@ function moveTo(ss,i){
   announce('Question '+(ss.cur-part[0]+1)+' of '+(part[1]-part[0]));
 }
 var ACT = {
+  nsec:function(b){ var k=b.getAttribute('data-key'); var open=b.getAttribute('aria-expanded')!=='true'; nui.open[k]=open; rerender(); var x=main.querySelector('[data-key="'+k+'"].coll-btn'); if(x) x.focus(); },
+  nreveal:function(b){ nui.tshow[b.getAttribute('data-k')]=true; rerender(); },
+  nterms:function(){ nui.terms=!nui.terms; nui.tshow={}; rerender(); focusSel('[data-act="nterms"]'); },
+  nordstart:function(b){ var k=b.getAttribute('data-key'); var p=k.split('-'), si=+p[p.length-2], bi=+p[p.length-1], u=p.slice(0,p.length-2).join('-'); var n=notesFor(u).sections[si].blocks[bi].steps.length; var pool=[]; for(var i=0;i<n;i++) pool.push(i); nui.order[k]={pool:shuffle(pool),picked:[],miss:0,last:null}; rerender(); var x=main.querySelector('[data-act="nordpick"][data-key="'+k+'"]'); if(x) x.focus(); },
+  nordpick:function(b){ var k=b.getAttribute('data-key'), i=+b.getAttribute('data-i'), st=nui.order[k]; if(i===st.picked.length){ st.picked.push(i); st.last=true; } else { st.miss++; st.last=false; } rerender(); var x=main.querySelector('[data-act="nordpick"][data-key="'+k+'"]')||main.querySelector('[data-act="nordstart"][data-key="'+k+'"]'); if(x) x.focus(); announce(st.last?'Correct.':'Not yet.'); },
+  nordend:function(b){ delete nui.order[b.getAttribute('data-key')]; rerender(); },
+  nstep:function(b){ nui.step[b.getAttribute('data-key')]=+b.getAttribute('data-n'); rerender(); var x=main.querySelector('[data-act="nstep"][data-key="'+b.getAttribute('data-key')+'"]'); if(x) x.focus(); },
+  nstopshow:function(b){ var k=b.getAttribute('data-key'); nui.stop[k]=nui.stop[k]||{}; nui.stop[k].shown=true; rerender(); },
+  nprint:function(b){ notesPrint(b.getAttribute('data-what')); },
+  nchecksave:function(b){ var u=b.getAttribute('data-unit'), d=notesFor(u), chk=(S.noteChecks[u]=S.noteChecks[u]||{}); var n=d.sections.length, k=d.sections.filter(function(s){return chk[s.comp];}).length; srsUpdate(u, n?k/n:0, k/n>=0.75); save(); var s=S.srs[u], m=document.getElementById('nc-msg'), t='Saved: '+k+' of '+n+' competencies. '+(s&&s.next?'Next review '+nice(s.next)+'.':''); if(m) m.textContent=t; announce(t); },
   plsave:function(){ S.settings.plan=JSON.parse(JSON.stringify(planDraft)); S.settings.plan.made=today(); save(); rerender(); var m=document.getElementById('pl-msg'); if(m) m.textContent='Saved. Your path page now shows this week.'; announce('Plan saved'); },
   fcstart:function(){
     var ids=[]; var us=fcUnit?[fcUnit]:ORDERED.filter(function(c){return c.systemCode===fcSys;}).map(function(c){return c.id;});
@@ -1811,6 +1972,9 @@ function endPart(key){
   finishSession(key);
 }
 var CHG = {
+  nhide:function(t){ nui.hide[t.getAttribute('data-key')]=t.value; nui.tshow={}; rerender(); focusSel('#'+t.id); },
+  nstoptxt:function(t){ var k=t.getAttribute('data-key'); nui.stop[k]=nui.stop[k]||{}; nui.stop[k].txt=t.value; },
+  ncheck:function(t){ var u=t.getAttribute('data-unit'); S.noteChecks=S.noteChecks||{}; (S.noteChecks[u]=S.noteChecks[u]||{})[t.getAttribute('data-comp')]=t.checked; save(); },
   plset:function(t){ planDraft[t.getAttribute('data-k')]=t.value; rerender(); focusSel('#'+t.id); },
   plrate:function(t){ planDraft.rate[t.getAttribute('data-code')]=t.value; rerender(); focusSel('#'+t.id); },
   plorder:function(t){ planDraft.order=t.value; rerender(); focusSel('#'+t.id); },

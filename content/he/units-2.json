@@ -12,7 +12,8 @@
      "Each round of red cell rupture releases parasite products (including hemozoin) that trigger cytokines such as TNF, which cause the fever paroxysm.",
      "Some merozoites become male and female gametocytes. A feeding mosquito takes these up, and sexual reproduction happens in the mosquito gut, ending with new sporozoites in its salivary glands.",
      "P. vivax and P. ovale leave dormant hypnozoites in the liver. These wake weeks to months later and cause relapse even after the blood stage is cleared, so a drug that kills liver stages (primaquine) is needed."
-    ]
+    ],
+    "why": "The cycle splits into asexual multiplication in humans and sexual reproduction in the mosquito, so the mosquito is the definitive host. Symptoms come only from the red cell stage: liver schizogony is silent, and fever follows each synchronized schizont rupture, when released parasite products such as hemozoin and GPI anchors stimulate macrophages to release TNF and IL-1. Hypnozoites are metabolically dormant, so blood-stage drugs such as chloroquine do not kill them, which is why P. vivax and P. ovale need primaquine to prevent relapse."
    },
    {
     "h": "Why P. falciparum is the most dangerous",
@@ -22,7 +23,8 @@
      "Sequestration blocks microvessels in the brain, kidney, lung, and placenta and keeps mature parasites out of the spleen, where they would be cleared.",
      "Because mature stages are stuck in vessels, the peripheral smear shows mostly ring forms and gametocytes.",
      "PfEMP1 is encoded by a family of about 60 var genes. The parasite expresses one at a time and switches, so antibodies made against one version stop working (antigenic variation)."
-    ]
+    ],
+    "why": "Severity comes from two linked traits. Unrestricted red cell invasion removes the ceiling on parasite burden, and PfEMP1-mediated cytoadherence moves mature parasites out of the circulation into the microvasculature, where they block flow and activate endothelium, causing local hypoxia in brain, kidney, and placenta. Sequestration also keeps mature forms away from splenic clearance, and switching among var genes keeps the antibody response one step behind, so the infection persists."
    },
    {
     "h": "Red cell traits that protect against malaria",
@@ -32,7 +34,8 @@
      "Thalassemia trait (alpha or beta): lowers the risk of severe malaria; the proposed mechanisms include reduced parasite growth and stronger immune clearance of infected microcytic cells.",
      "These traits stay common in malaria regions because carriers survive childhood malaria better (balanced selection).",
      "Duffy antigen: P. vivax uses the Duffy antigen (DARC) as its main receptor to enter reticulocytes. Duffy-negative red cells, common in people of West African ancestry, largely resist P. vivax."
-    ]
+    ],
+    "why": "Each trait makes the red cell a poor host or speeds the removal of infected cells before the parasite finishes its cycle. Because the protection falls mainly on severe falciparum malaria, which historically killed many children before reproductive age, carriers left more offspring and these alleles rose in frequency even though homozygotes can have serious disease (heterozygote advantage). Duffy negativity works at an earlier step: it removes the entry receptor itself, so P. vivax largely cannot invade the reticulocyte at all."
    },
    {
     "h": "Babesia microti",
@@ -42,7 +45,8 @@
      "Smear: small ring forms inside red cells and, less often, tetrads shaped like a Maltese cross, which are pathognomonic.",
      "On a blood smear, Babesia shows no hemozoin pigment, no schizonts, and no recognizable gametocytes, which helps separate it from Plasmodium.",
      "The same tick carries Borrelia burgdorferi (Lyme disease) and Anaplasma, so coinfection is common."
-    ]
+    ],
+    "why": "Babesia shares its Ixodes tick vector with Borrelia and Anaplasma because all three cycle through the same small mammal reservoir, the white-footed mouse, so one tick bite can transmit more than one organism. Babesia has no liver stage and divides by budding inside red cells, so it forms no schizonts or gametocytes and leaves no hemozoin. The Maltese cross tetrad is four daughter parasites still joined after division."
    },
    {
     "h": "Schistosoma life cycle",
@@ -52,7 +56,8 @@
      "They become schistosomula, travel through the lungs to the portal circulation, mature, and pair as male and female adults.",
      "Adults live in venules: S. mansoni and S. japonicum in the mesenteric venules, S. haematobium in the vesical (bladder) venous plexus.",
      "Females lay eggs that pass through the bowel or bladder wall. Eggs that get trapped in tissue cause the disease, and adults evade immunity by coating themselves with host antigens."
-    ]
+    ],
+    "why": "Humans are the definitive host because adult worms mate and lay eggs in human veins, while the snail hosts asexual multiplication of the larvae. The venous home of each species decides where eggs travel and so predicts the organ disease: mesenteric species shed eggs into the bowel lumen, and eggs swept back in portal blood lodge in the liver, while S. haematobium sheds eggs through the bladder wall. Adult worms do little direct harm; eggs retained in tissue release antigens that drive granulomatous inflammation and fibrosis."
    },
    {
     "h": "Parvovirus B19",
@@ -62,6 +67,41 @@
      "In a healthy person red cells live about 120 days, so a one week pause barely changes hemoglobin. The child gets fifth disease (slapped cheek rash) and adults may get symmetric arthritis.",
      "In chronic hemolytic anemia (sickle cell disease, hereditary spherocytosis) red cells live only days to weeks, so the pause causes transient aplastic crisis with a sharp fall in hemoglobin and near-zero reticulocytes.",
      "In the fetus, red cells turn over quickly, so infection causes severe anemia, high-output heart failure, and hydrops fetalis."
+    ],
+    "why": "The virus can only replicate in cells in S phase because it relies on host DNA polymerase, and together with its P antigen receptor this targets rapidly dividing erythroid progenitors. Whether the one week stop in red cell production matters depends on red cell lifespan: a normal 120 day lifespan buffers the gap, while the short lifespan in hemolytic disease and the rapid red cell expansion of the fetus do not. The rash and arthritis of fifth disease appear as antibodies form and immune complexes deposit, so a child with the rash is usually no longer contagious."
+   }
+  ],
+  "flows": [
+   {
+    "title": "Plasmodium life cycle in humans",
+    "steps": [
+     "Female Anopheles mosquito injects sporozoites into the blood",
+     "Sporozoites invade hepatocytes and form liver schizonts",
+     "Liver schizonts release merozoites that invade red cells",
+     "Ring form matures to trophozoite, then schizont",
+     "Schizont ruptures, releasing merozoites and triggering cytokine-driven fever",
+     "Some parasites develop into gametocytes taken up by a feeding mosquito"
+    ]
+   },
+   {
+    "title": "Hepatosplenic schistosomiasis (S. mansoni)",
+    "steps": [
+     "Cercariae penetrate skin in fresh water",
+     "Schistosomula migrate through the lungs to the portal circulation",
+     "Adults pair in mesenteric venules and lay eggs",
+     "Eggs swept in portal blood lodge in presinusoidal portal venules",
+     "Th2 granulomas with eosinophils form around eggs, then scar",
+     "Pipestem fibrosis causes presinusoidal portal hypertension and splenomegaly"
+    ]
+   },
+   {
+    "title": "Parvovirus B19 aplastic crisis",
+    "steps": [
+     "Parvovirus B19 binds P antigen on erythroid progenitors",
+     "Virus replicates in dividing progenitors and kills them",
+     "Red cell production stops for about a week",
+     "Short red cell lifespan in chronic hemolysis cannot buffer the gap",
+     "Hemoglobin falls sharply with reticulocytes near zero"
     ]
    }
   ],
@@ -246,7 +286,8 @@
      "Anemia of chronic disease: IL-6 from inflammation makes the liver release hepcidin, which degrades ferroportin. Iron gets trapped in macrophages and gut cells, so ferritin is normal or high and TIBC is low.",
      "Thalassemia trait: iron studies are normal, microcytosis is out of proportion to a mild anemia, the red cell count is normal or high, and target cells appear.",
      "Sideroblastic anemia: heme synthesis fails, so iron builds up in mitochondria. Serum iron and ferritin are high, TIBC is low, and ringed sideroblasts show on Prussian blue stain of marrow."
-    ]
+    ],
+    "why": "Red cell precursors keep dividing until they reach a target hemoglobin concentration, so when hemoglobin synthesis lags they divide an extra time and come out small. Hemoglobin needs iron, protoporphyrin, and globin, so the microcytic differential reduces to iron supply, iron release, heme synthesis, and globin synthesis. Ferritin and TIBC sort the iron problems: true deficiency lowers ferritin and the liver makes more transferrin, while hepcidin in inflammation locks iron in stores, so ferritin stays normal or high and transferrin falls. Thalassemia trait leaves iron handling normal and makes many small cells, so the red cell count stays high."
    },
    {
     "h": "Causes of sideroblastic anemia and lead poisoning",
@@ -257,7 +298,8 @@
      "Lead inhibits ALA dehydratase and ferrochelatase. ALA builds up, and zinc is put into protoporphyrin in place of iron, so zinc protoporphyrin rises.",
      "Lead also inhibits pyrimidine 5' nucleotidase, so ribosomal RNA clumps show as basophilic stippling of red cells.",
      "Other lead clues: abdominal colic, wrist or foot drop in adults, lead lines on gums and long bone metaphyses, and learning problems in children."
-    ]
+    ],
+    "why": "Heme synthesis starts and ends in the mitochondrion: ALA synthase makes ALA there, the middle steps happen in the cytosol, and ferrochelatase inserts iron at the last mitochondrial step. A block after iron delivery leaves iron stuck in the mitochondria that ring the nucleus, which is the ringed sideroblast. Lead hits two enzymes (ALA dehydratase and ferrochelatase), so ALA builds up and zinc takes the place of iron in protoporphyrin, and its block of pyrimidine 5' nucleotidase stops ribosomal RNA breakdown, leaving basophilic stippling."
    },
    {
     "h": "Macrocytic anemias",
@@ -268,7 +310,8 @@
      "Folate deficiency: poor intake (alcohol use, poor diet), pregnancy, chronic hemolysis (high use), and drugs that block dihydrofolate reductase (methotrexate). Homocysteine rises, methylmalonic acid stays normal, and there are no neurologic signs.",
      "Body folate stores last months, while B12 stores last years, so folate deficiency appears much sooner.",
      "Nonmegaloblastic macrocytosis has round macrocytes and no hypersegmented neutrophils: alcohol, liver disease (extra membrane lipid), hypothyroidism, and reticulocytosis (reticulocytes are larger cells)."
-    ]
+    ],
+    "why": "B12 and folate both feed thymidine synthesis. Methyl-THF must hand its methyl group to homocysteine through B12-dependent methionine synthase to regenerate THF, so lack of either vitamin starves thymidylate synthase of its folate cofactor and dTMP production falls. DNA synthesis then lags behind RNA and protein synthesis, nuclei mature late relative to cytoplasm, and the cells grow large while many precursors die in the marrow. B12 is also the cofactor for methylmalonyl-CoA mutase, which is why methylmalonic acid rises only in B12 deficiency and why that test separates the two."
    },
    {
     "h": "Aplastic anemia",
@@ -277,7 +320,8 @@
      "Most cases are autoimmune: cytotoxic T cells attack stem cells. Other causes: drugs (chloramphenicol, alkylating agents), benzene, radiation, viral hepatitis (a seronegative hepatitis), and Fanconi anemia (inherited DNA repair defect with short stature and thumb or radial defects).",
      "Marrow biopsy shows a hypocellular marrow replaced by fat.",
      "No splenomegaly. An enlarged spleen points to another cause such as hypersplenism, leukemia, or myelofibrosis."
-    ]
+    ],
+    "why": "Because the defect is in the multipotent stem cell, every lineage falls together and reticulocytes stay low, which separates it from peripheral destruction. In the immune form, activated cytotoxic T cells and interferon-gamma push stem cells into apoptosis, which is why the disease often responds to immunosuppression. Fat fills the marrow because hematopoietic cells are gone, and the spleen stays normal because there is no infiltration or extramedullary hematopoiesis."
    },
    {
     "h": "Polycythemia",
@@ -288,7 +332,8 @@
      "Secondary polycythemia with appropriate high erythropoietin: tissue hypoxia from lung disease, high altitude, cyanotic heart disease, sleep apnea, or smoking (carbon monoxide).",
      "Secondary polycythemia with inappropriate erythropoietin: tumors that make erythropoietin, mainly renal cell carcinoma and hepatocellular carcinoma. Oxygen saturation is normal.",
      "Relative polycythemia: red cell mass is normal and plasma volume is low (dehydration, diuretics, burns)."
-    ]
+    ],
+    "why": "Erythropoietin is the branch point. Peritubular interstitial cells of the kidney release it when oxygen delivery falls, through stabilization of hypoxia-inducible factor. In PV, JAK2 V617F keeps the JAK-STAT pathway downstream of the erythropoietin receptor switched on, so progenitors grow without the hormone and feedback lowers erythropoietin; JAK2 also signals for the thrombopoietin and G-CSF receptors, which explains the high platelets and white cells. Secondary forms raise erythropoietin appropriately (hypoxia) or inappropriately (tumor secretion with normal oxygen saturation), and relative polycythemia only concentrates a normal red cell mass."
    },
    {
     "h": "Blood loss and white cell changes",
@@ -300,6 +345,40 @@
      "Neutropenia mechanisms: marrow failure or infiltration; drug-induced agranulocytosis (propylthiouracil, methimazole, clozapine, chemotherapy); immune destruction (autoimmune disease, Felty syndrome); and cyclic neutropenia from ELANE (neutrophil elastase) mutations, with drops about every 21 days.",
      "Leukemoid reaction: a marked neutrophilia from infection or inflammation with left shift, toxic granulation, Dohle bodies, and high leukocyte alkaline phosphatase (LAP).",
      "Chronic myeloid leukemia: neutrophilia at all stages plus basophilia, low LAP, and the BCR-ABL1 fusion from t(9;22)."
+    ],
+    "why": "After acute hemorrhage, red cells and plasma are lost together, so hemoglobin concentration lags behind the true loss and falls only as interstitial fluid refills the vessels or fluids are infused. The marrow response needs erythropoietin to rise and progenitors to mature, which takes several days. Neutrophil counts reflect marrow production, a marginated pool along vessel walls, and tissue use, so neutropenia comes from low production or high destruction. A leukemoid reaction is an exaggerated normal response with high LAP, while the clonal neutrophils of CML have low LAP."
+   }
+  ],
+  "flows": [
+   {
+    "title": "Anemia of chronic disease",
+    "steps": [
+     "Inflammation raises IL-6",
+     "IL-6 induces hepcidin synthesis in the liver",
+     "Hepcidin binds ferroportin and triggers its degradation",
+     "Iron stays trapped in macrophages and enterocytes",
+     "Serum iron falls and heme synthesis is limited despite normal or high ferritin"
+    ]
+   },
+   {
+    "title": "Pernicious anemia to megaloblastic anemia",
+    "steps": [
+     "Autoimmune attack destroys gastric parietal cells",
+     "Intrinsic factor production falls",
+     "B12 is not absorbed in the terminal ileum",
+     "Methionine synthase fails, trapping folate as methyl-THF",
+     "Thymidine synthesis falls and DNA synthesis is impaired",
+     "Megaloblastic anemia with hypersegmented neutrophils develops"
+    ]
+   },
+   {
+    "title": "Polycythemia vera",
+    "steps": [
+     "JAK2 V617F makes JAK2 constitutively active",
+     "Erythroid progenitors proliferate without erythropoietin",
+     "Red cell mass rises and erythropoietin falls by feedback",
+     "Blood viscosity rises",
+     "Thrombosis risk increases (stroke, myocardial infarction, Budd-Chiari syndrome)"
     ]
    }
   ],
@@ -547,7 +626,8 @@
      "All hemolysis: high reticulocytes, high LDH, high indirect bilirubin, and low haptoglobin.",
      "Extravascular hemolysis happens in splenic macrophages: splenomegaly, jaundice, and pigment gallstones.",
      "Intravascular hemolysis happens in vessels: free hemoglobin, very low haptoglobin, hemoglobinuria, and hemosiderinuria."
-    ]
+    ],
+    "why": "Each marker reflects a step in red cell breakdown: the marrow responds with reticulocytes, ruptured cells release LDH, macrophages convert heme to unconjugated bilirubin, and haptoglobin binds free hemoglobin and is cleared with it. The site of destruction sets the rest. Splenic macrophage destruction enlarges the spleen and raises the bilirubin load, which forms pigment stones, while hemoglobin released into plasma saturates haptoglobin, passes the glomerulus, and is taken up by tubule cells that store its iron as hemosiderin and later shed it into urine."
    },
    {
     "h": "Sickle cell disease",
@@ -558,7 +638,8 @@
      "Salmonella osteomyelitis is classic in sickle cell disease, though Staphylococcus aureus is still common.",
      "Renal medulla hypoxia causes renal papillary necrosis and inability to concentrate urine; this can happen in sickle cell trait too.",
      "Chronic hemolysis causes pigment gallstones, and parvovirus B19 causes aplastic crisis."
-    ]
+    ],
+    "why": "The valine substitution creates a hydrophobic patch that lets deoxygenated HbS molecules stack into long polymers, which distort the cell, damage its membrane, and make it rigid and sticky. Polymer formation depends on deoxygenation, HbS concentration, and transit time, so hypoxia, acidosis (which favors the deoxy state), and dehydration promote sickling, while HbF does not join the polymer. The renal medulla is hypoxic, acidic, and hypertonic, which is why even sickle cell trait can cause papillary necrosis and loss of concentrating ability."
    },
    {
     "h": "Thalassemia",
@@ -568,7 +649,8 @@
      "Iron overload comes from transfusions and from more gut absorption (hepcidin is suppressed). Heart failure from iron is a major cause of death.",
      "Beta thalassemia minor: mild microcytic anemia, target cells, normal iron studies, and HbA2 above about 3.5% on electrophoresis.",
      "Alpha thalassemia depends on how many of the 4 alpha genes are lost: 3 lost gives HbH disease (beta tetramers) and 4 lost gives Hb Barts and hydrops fetalis."
-    ]
+    ],
+    "why": "Severity tracks the imbalance between chains, because the unpaired chain is toxic. Free alpha chains are insoluble and precipitate in erythroblasts, killing them in the marrow, while excess beta or gamma chains form tetramers (HbH, Hb Barts) with very high oxygen affinity that release little oxygen to tissue. Stressed erythroblasts release erythroferrone, which suppresses hepcidin, so the gut keeps absorbing iron despite overload. Symptoms begin around 6 months because that is when the switch from gamma to beta chain production is mostly complete."
    },
    {
     "h": "Enzyme and membrane defects",
@@ -579,7 +661,8 @@
      "Spherocytosis findings: spherocytes, high MCHC, splenomegaly, pigment gallstones, increased osmotic fragility, reduced eosin-5-maleimide (EMA) binding, and a negative Coombs test.",
      "Pyruvate kinase deficiency (autosomal recessive): red cells cannot make enough ATP by glycolysis, become rigid, and are removed in the spleen.",
      "Hereditary elliptocytosis: spectrin defects make elliptical cells; most patients have mild or no hemolysis."
-    ]
+    ],
+    "why": "Red cells lack mitochondria, so they rely on two cytosolic pathways: glycolysis for ATP and the hexose monophosphate shunt, whose first enzyme, G6PD, makes NADPH to keep glutathione reduced. Losing NADPH leaves hemoglobin open to oxidant attack after a trigger, giving episodic hemolysis, while losing ATP in pyruvate kinase deficiency starves the ion pumps that keep the cell flexible, giving chronic hemolysis. In spherocytosis, weak vertical links between the cytoskeleton and lipid bilayer let membrane bleb off, the cell loses surface area for its volume, and the rigid sphere cannot pass through the splenic cords."
    },
    {
     "h": "PNH, microangiopathy, and mechanical hemolysis",
@@ -590,7 +673,8 @@
      "HUS: Shiga toxin from E. coli O157:H7, usually after bloody diarrhea in a child, injures glomerular endothelium. Acute kidney injury is prominent.",
      "Both TTP and HUS show schistocytes, thrombocytopenia, and normal PT and PTT, which separates them from DIC.",
      "Prosthetic heart valves and severe aortic stenosis shear red cells: schistocytes and intravascular hemolysis. Iron lost in the urine over time causes iron deficiency."
-    ]
+    ],
+    "why": "Red cells normally protect themselves from complement with GPI-anchored CD55 (decay accelerating factor) and CD59 (which blocks assembly of the membrane attack complex), so a clone without GPI anchors is lysed whenever complement activity rises. In TTP and HUS the primary event is platelet microthrombi in small vessels, which use up platelets and shear red cells that squeeze past partly blocked lumens into schistocytes. The coagulation cascade is not consumed, so PT and PTT stay normal, unlike DIC."
    },
    {
     "h": "Hemolytic disease of the newborn",
@@ -600,7 +684,8 @@
      "Before birth the placenta clears fetal bilirubin. After birth the immature newborn liver cannot keep up, so unconjugated bilirubin rises and can cause kernicterus.",
      "Newborn: positive direct Coombs test (IgG on the baby's red cells). Mother: positive indirect Coombs test (anti-D in her serum).",
      "ABO disease: group O mothers make IgG anti-A and anti-B. It can affect a first pregnancy but is milder, because fetal A and B antigens are weakly expressed."
-    ]
+    ],
+    "why": "A first exposure to the D antigen produces a primary response that is mostly IgM, which cannot cross the placenta, so the first pregnancy is usually spared. Later exposure triggers a fast IgG memory response, and the placental Fc receptor (FcRn) carries that IgG to the fetus, where macrophages destroy coated red cells. Severe anemia drives extramedullary hematopoiesis in the fetal liver, which lowers albumin production, and together with high-output heart failure this produces hydrops. ABO disease is milder because A and B antigens are weak on fetal red cells and are also present on other fetal tissues that absorb the antibody."
    },
    {
     "h": "Spleen disorders",
@@ -609,6 +694,39 @@
      "Infarct: sickle cell disease, emboli (endocarditis, atrial fibrillation), and massive splenomegaly. Abscess: septic emboli from infective endocarditis.",
      "After splenectomy: Howell-Jolly bodies, target cells, and thrombocytosis, plus lifelong risk of sepsis from encapsulated bacteria.",
      "Hypersplenism: an enlarged spleen from portal hypertension or infiltrative disease traps and destroys cells, causing cytopenias with a cellular or hypercellular marrow. Aplastic anemia has a fatty marrow and no splenomegaly."
+    ],
+    "why": "The red pulp filters blood through narrow slits in sinusoid walls, where macrophages remove old or rigid cells, red cell inclusions, and opsonized bacteria, and the marginal zone makes antibody against polysaccharide capsules. Without a spleen, nuclear remnants (Howell-Jolly bodies) and excess membrane (target cells) stay in circulation, and the platelets normally pooled in the spleen (about a third of the total) return to the blood. An enlarged spleen does the reverse, pooling and destroying more cells, so cytopenias appear even though the marrow works."
+   }
+  ],
+  "flows": [
+   {
+    "title": "Sickle cell vaso-occlusion",
+    "steps": [
+     "Glutamate to valine substitution at beta globin position 6 forms HbS",
+     "Deoxygenated HbS polymerizes into long fibers",
+     "Red cells become rigid, sickled, and adhesive to endothelium",
+     "Sickled cells occlude small vessels",
+     "Downstream ischemia and infarction cause pain crises and organ damage"
+    ]
+   },
+   {
+    "title": "Rh hemolytic disease of the newborn",
+    "steps": [
+     "Rh-positive fetal cells enter an Rh-negative mother's circulation",
+     "Mother makes anti-D, first IgM, and forms memory B cells",
+     "In a later Rh-positive pregnancy, anti-D IgG crosses the placenta",
+     "Fetal macrophages destroy IgG-coated fetal red cells",
+     "Fetal anemia drives extramedullary hematopoiesis and, if severe, hydrops fetalis"
+    ]
+   },
+   {
+    "title": "Thrombotic thrombocytopenic purpura",
+    "steps": [
+     "An autoantibody inhibits ADAMTS13",
+     "Ultralarge von Willebrand factor multimers persist on endothelium",
+     "Platelets adhere and form microthrombi in small vessels",
+     "Platelets are consumed and red cells shear into schistocytes",
+     "Microvascular ischemia injures the brain and kidney"
     ]
    }
   ],
@@ -833,7 +951,8 @@
      "Clotting factor problems cause deep bleeding: hemarthroses, muscle hematomas, and bleeding that starts hours after surgery.",
      "PT tests the extrinsic and common pathways (factor VII, X, V, II, fibrinogen). PTT tests the intrinsic and common pathways (XII, XI, IX, VIII, X, V, II, fibrinogen).",
      "A mixing study adds normal plasma: correction means a factor is missing; no correction means an inhibitor is present."
-    ]
+    ],
+    "why": "Primary hemostasis builds the platelet plug within seconds and seals small capillary breaks, so its failure shows at once in skin and mucosa. Secondary hemostasis makes the fibrin that stabilizes the plug in larger vessels under pressure, so with a factor deficiency a plug forms and then fails, giving deep and delayed bleeding. The mixing study works because about 50% of normal factor activity is enough to normalize clotting times, while an inhibitor in the patient's plasma also neutralizes the factor in the added normal plasma."
    },
    {
     "h": "DIC",
@@ -843,7 +962,8 @@
      "Labs: low platelets, prolonged PT and PTT, low fibrinogen, high D-dimer, and schistocytes.",
      "Microthrombi injure the kidneys (acute kidney injury), lungs (ARDS), brain (confusion), and adrenals (hemorrhagic adrenal necrosis, as in meningococcemia).",
      "Consumption of platelets and factors causes bleeding at the same time: oozing from IV and venipuncture sites, mucosa, and wounds."
-    ]
+    ],
+    "why": "DIC is a consumption disorder. Thrombin is generated throughout the circulation instead of at one site of injury, so platelets and factors are used faster than the marrow and liver can replace them. Plasmin then breaks down fibrin in the microthrombi, releasing D-dimer and fibrin degradation products that further impair clot formation. The result is microvascular thrombosis that causes organ ischemia and, at the same time, bleeding from depletion."
    },
    {
     "h": "Hemophilia and von Willebrand disease",
@@ -854,7 +974,8 @@
      "Von Willebrand disease is the most common inherited bleeding disorder, usually autosomal dominant.",
      "Von Willebrand factor links platelet GpIb to exposed collagen (adhesion) and carries factor VIII, protecting it from breakdown.",
      "VWD labs: normal platelet count, prolonged bleeding time, normal or prolonged PTT (from low factor VIII), normal PT, and low ristocetin cofactor activity."
-    ]
+    ],
+    "why": "Factors VIIIa and IXa form the intrinsic tenase complex on the activated platelet surface, which makes most of the factor Xa during amplification, so their loss leaves a weak, unstable fibrin clot even though the platelet plug forms normally. von Willebrand factor has two jobs, and VWD can show both defects: it tethers platelets to collagen under high shear, which explains mucosal bleeding, and it protects factor VIII in plasma, which explains why the PTT may prolong. Ristocetin makes VWF bind platelet GpIb in the test tube, so low ristocetin cofactor activity directly measures VWF function."
    },
    {
     "h": "ITP and inherited platelet defects",
@@ -865,7 +986,8 @@
      "Bernard-Soulier syndrome: GpIb deficiency, giant platelets, mild thrombocytopenia, and defective adhesion. Ristocetin does not aggregate platelets.",
      "Glanzmann thrombasthenia: GpIIb/IIIa deficiency, normal platelet count and size, and defective aggregation. Platelets do not clump with ADP or collagen.",
      "Uremia: retained toxins impair platelet adhesion and aggregation, so bleeding time is prolonged with a normal count."
-    ]
+    ],
+    "why": "Adhesion requires GpIb binding von Willebrand factor, and aggregation requires activated GpIIb/IIIa binding fibrinogen between platelets; each inherited disorder removes one receptor and blocks one step. In ITP the marrow is normal and answers destruction by making more megakaryocytes and young, larger platelets, so the count is low while platelet function is preserved. In uremia, retained toxins impair both adhesion and aggregation, so the bleeding time lengthens even though the count is normal."
    },
    {
     "h": "Vitamin K deficiency and liver failure",
@@ -875,7 +997,8 @@
      "Factor VII has the shortest half-life (about 6 hours), so the PT prolongs first. PTT prolongs later as the deficiency deepens.",
      "Vitamin K deficiency: prolonged PT, normal fibrinogen, normal platelets, normal factor VIII.",
      "Liver failure: prolonged PT and PTT, low fibrinogen, and thrombocytopenia (splenic sequestration and low thrombopoietin). Factor VIII stays normal or high because endothelial cells make it."
-    ]
+    ],
+    "why": "Gamma-carboxylation adds a second carboxyl group to glutamate residues, which lets these proteins bind calcium and anchor to phospholipid on activated platelets; without it the liver releases inactive factors. The PT changes first because factor VII has the shortest half-life and acts only in the extrinsic pathway. Liver failure lowers nearly all clotting factors and fibrinogen, but factor VIII is made by endothelial cells, including many outside the liver, and rises as an acute phase reactant, which makes it a useful separator."
    },
    {
     "h": "Thrombophilia and paraneoplastic syndromes",
@@ -886,6 +1009,40 @@
      "Suspect an inherited thrombophilia with a clot at a young age, recurrent clots, clots at unusual sites (cerebral sinus, mesenteric, hepatic veins), or a strong family history.",
      "Trousseau syndrome: migratory superficial thrombophlebitis with pancreatic and other mucin-producing adenocarcinomas.",
      "Erythrocytosis from ectopic erythropoietin: renal cell carcinoma and hepatocellular carcinoma. Pure red cell aplasia: thymoma."
+    ],
+    "why": "The natural anticoagulants act at different points: antithrombin neutralizes thrombin and factor Xa, and activated protein C with its cofactor protein S cleaves factors Va and VIIIa. Losing any of them lets thrombin generation run unchecked, mostly in the low-flow venous system. Warfarin skin necrosis happens because protein C has a short half-life, close to that of factor VII, so it falls before the longer-lived factors II and X and creates a brief prothrombotic window. Cancers promote clotting through tumor procoagulants such as tissue factor and mucin, which explains Trousseau syndrome."
+   }
+  ],
+  "flows": [
+   {
+    "title": "Disseminated intravascular coagulation",
+    "steps": [
+     "Sepsis, trauma, or obstetric injury releases or induces tissue factor",
+     "Thrombin forms throughout the circulation",
+     "Microthrombi deposit in small vessels, causing organ ischemia",
+     "Platelets and clotting factors are consumed",
+     "Fibrinolysis breaks down fibrin and raises D-dimer",
+     "Depleted platelets and factors cause oozing and bleeding"
+    ]
+   },
+   {
+    "title": "Vitamin K and clotting factor activation",
+    "steps": [
+     "Vitamin K epoxide reductase regenerates reduced vitamin K",
+     "Reduced vitamin K drives gamma-glutamyl carboxylase in the liver",
+     "Glutamate residues on factors II, VII, IX, X and proteins C and S are carboxylated",
+     "Carboxylated factors bind calcium and phospholipid surfaces",
+     "Without vitamin K, factor VII falls first and the PT prolongs"
+    ]
+   },
+   {
+    "title": "Immune thrombocytopenic purpura",
+    "steps": [
+     "IgG autoantibodies target platelet GpIIb/IIIa",
+     "Splenic macrophages remove antibody-coated platelets",
+     "Platelet count falls",
+     "Marrow megakaryocytes increase and release large platelets",
+     "Petechiae and mucosal bleeding occur with normal PT and PTT"
     ]
    }
   ],
@@ -1119,7 +1276,8 @@
      "AML: mainly older adults, usually 20% or more marrow blasts. Blasts are myeloperoxidase positive and may contain Auer rods.",
      "AML risks: prior chemotherapy or radiation, benzene, myelodysplastic syndrome, and Down syndrome.",
      "Acute promyelocytic leukemia, t(15;17) PML-RARA: promyelocyte granules set off DIC, which is an emergency."
-    ]
+    ],
+    "why": "Acute leukemias arise from mutations that block differentiation while allowing proliferation, so immature blasts pile up and normal hematopoiesis is crowded out. Lineage markers reveal the cell of origin: TdT marks early lymphoid precursors, while myeloperoxidase and Auer rods (fused primary granules) mark myeloid blasts. In APL, the PML-RARA fusion blocks the retinoic acid signal that promyelocytes need to mature, and their granules release procoagulant and fibrinolytic factors that set off DIC."
    },
    {
     "h": "Chronic leukemias and myeloid neoplasms",
@@ -1131,7 +1289,8 @@
      "Hairy cell leukemia: middle-aged men, B cells with hairlike projections, TRAP and CD11c positive, BRAF V600E, marrow fibrosis giving a dry tap, and massive splenomegaly without lymphadenopathy.",
      "Myelodysplastic syndromes: clonal, ineffective hematopoiesis in older adults or after alkylating agents or radiation. Cytopenias, pseudo-Pelger-Huet neutrophils, ringed sideroblasts, and risk of AML.",
      "Primary myelofibrosis: JAK2, CALR, or MPL mutations; megakaryocytes release growth factors that drive marrow fibrosis. Dry tap, teardrop cells, leukoerythroblastic smear, and massive splenomegaly from extramedullary hematopoiesis."
-    ]
+    ],
+    "why": "Chronic myeloid neoplasms come from mutations that drive growth signaling while leaving differentiation intact, so mature cells accumulate instead of blasts. BCR-ABL1 and the JAK2, CALR, and MPL mutations all keep tyrosine kinase signaling switched on, which drives overproduction. In primary myelofibrosis, megakaryocytes release PDGF and TGF-beta that stimulate fibroblasts to lay down collagen; once the marrow scars, hematopoiesis moves to the spleen and liver, and cells squeezed out through fibrotic marrow appear as teardrop cells beside immature precursors."
    },
    {
     "h": "Hodgkin lymphoma",
@@ -1140,7 +1299,8 @@
      "Spreads in order to neighboring node groups, so it is often localized. Bimodal age (young adults and older adults). Some cases are linked to EBV.",
      "Nodular sclerosis is the most common type and often shows a mediastinal mass in a young adult.",
      "Fever, night sweats, and weight loss (B symptoms) signal worse disease."
-    ]
+    ],
+    "why": "Reed-Sternberg cells come from germinal center B cells that have lost most of their B cell program, and they make up only a small fraction of the tumor. Most of the mass is reactive lymphocytes, eosinophils, macrophages, and fibrosis recruited by their cytokines. Because the disease spreads to adjacent node groups through lymphatics, it is often localized at diagnosis, and cytokines from the tumor and its reactive background, such as IL-6 and TNF, produce the B symptoms."
    },
    {
     "h": "Non-Hodgkin and T cell lymphomas",
@@ -1151,7 +1311,8 @@
      "Mantle cell lymphoma, t(11;14) cyclin D1: CD5 positive, CD23 negative, older men. MALT lymphoma of the stomach is driven by Helicobacter pylori and can regress after eradication.",
      "Adult T cell leukemia/lymphoma: HTLV-1, CD4 T cells, skin lesions, hypercalcemia, and lytic bone lesions.",
      "Mycosis fungoides: skin-homing CD4 T cells in patches and plaques, Pautrier microabscesses in the epidermis. Spread to the blood as Sezary cells (cerebriform nuclei) is Sezary syndrome."
-    ]
+    ],
+    "why": "Many B cell lymphomas carry a translocation that places an oncogene next to an immunoglobulin locus, most often the heavy chain locus on chromosome 14, so the oncogene is driven as strongly as antibody genes in a B cell. The function of the moved gene sets the behavior: BCL2 blocks apoptosis, so follicular lymphoma grows slowly by cell accumulation, while MYC drives cell cycle entry and growth, so Burkitt lymphoma grows very fast. Cyclin D1 in mantle cell lymphoma pushes cells past the G1 to S checkpoint, and early gastric MALT lymphoma still depends on H. pylori-driven T cell help, which is why it can regress after eradication."
    },
    {
     "h": "Plasma cell neoplasms",
@@ -1163,7 +1324,8 @@
      "MGUS: M protein below 3 g/dL, under 10% marrow plasma cells, and no end-organ damage. About 1% per year progress.",
      "Waldenstrom macroglobulinemia: IgM M spike, hyperviscosity (blurred vision, headache, bleeding), lymphadenopathy, and no lytic lesions.",
      "AL amyloidosis: light chains fold into amyloid in kidney (nephrotic syndrome), heart (restrictive cardiomyopathy), tongue, and nerves."
-    ]
+    ],
+    "why": "Myeloma is one plasma cell clone doing its normal job at enormous scale: it makes a single immunoglobulin, so serum shows a narrow M spike while normal polyclonal antibody production is suppressed. Myeloma cells raise RANKL, lower osteoprotegerin, and inhibit osteoblasts through DKK1, so bone is resorbed with no new bone formed, which explains purely lytic lesions and a bone scan that often misses them. Free light chains are small enough to filter, overwhelm proximal tubule reabsorption, and bind Tamm-Horsfall protein to form obstructing casts in the distal nephron."
    },
    {
     "h": "Langerhans cell histiocytosis and tumor lysis syndrome",
@@ -1173,6 +1335,39 @@
      "Tumor lysis syndrome: rapid killing of fast-growing tumors (Burkitt lymphoma, acute leukemias), usually soon after chemotherapy starts.",
      "Dying cells release potassium, phosphate, and nucleic acids (broken down to uric acid). Phosphate binds calcium, so calcium falls.",
      "Result: hyperkalemia (arrhythmias), hyperphosphatemia, hypocalcemia (tetany), hyperuricemia, and acute kidney injury from urate and calcium phosphate crystals."
+    ],
+    "why": "Langerhans cells are antigen-presenting dendritic cells of the epidermis, and LCH cells keep their markers (CD1a, S100, and langerin, which forms Birbeck granules); many cases carry BRAF V600E, which supports a clonal neoplasm. Tumor lysis follows directly from the contents of dying cells: potassium and phosphate pour out, purines are degraded by xanthine oxidase to uric acid, and excess phosphate precipitates with calcium. Uric acid crystallizes in the acidic distal nephron and calcium phosphate deposits in tubules, causing acute kidney injury that worsens the potassium and phosphate retention."
+   }
+  ],
+  "flows": [
+   {
+    "title": "Chronic myeloid leukemia",
+    "steps": [
+     "t(9;22) fuses BCR and ABL1 on the Philadelphia chromosome",
+     "BCR-ABL1 acts as a constitutively active tyrosine kinase",
+     "Myeloid progenitors proliferate with intact maturation",
+     "Neutrophils at all stages, basophilia, and splenomegaly appear",
+     "Additional mutations block maturation, leading to blast crisis"
+    ]
+   },
+   {
+    "title": "Myeloma bone disease",
+    "steps": [
+     "Clonal plasma cells expand in the marrow",
+     "They raise RANKL and lower osteoprotegerin",
+     "Osteoclasts are activated and osteoblasts are inhibited",
+     "Punched-out lytic lesions form",
+     "Bone resorption causes hypercalcemia and pathologic fractures"
+    ]
+   },
+   {
+    "title": "Tumor lysis syndrome",
+    "steps": [
+     "Chemotherapy rapidly kills a fast-growing tumor",
+     "Dying cells release potassium, phosphate, and nucleic acids",
+     "Xanthine oxidase converts purines to uric acid",
+     "Phosphate binds calcium, lowering serum calcium",
+     "Urate and calcium phosphate crystals deposit in tubules, causing acute kidney injury"
     ]
    }
   ],
@@ -1427,7 +1622,8 @@
      "Findings: fever, chills, fatigue, hemolytic anemia (high LDH, high indirect bilirubin, low haptoglobin), and thrombocytopenia.",
      "Severe disease risk: asplenia, older age, and immunosuppression (HIV, cancer, transplant, rituximab).",
      "Severe cases can bring ARDS, DIC, kidney injury, and heart failure."
-    ]
+    ],
+    "why": "Babesia multiplies inside red cells and ruptures them, so the hemolysis markers follow the parasite burden. The spleen is the main defense because it removes infected cells, which is why asplenic patients can reach very high parasitemia and severe disease. High parasite loads drive cytokine release and microvascular injury, which explains ARDS, DIC, and kidney injury in severe cases."
    },
    {
     "h": "Malaria",
@@ -1437,7 +1633,8 @@
      "Red cell rupture and splenic removal of infected and uninfected cells cause hemolytic anemia; the spleen enlarges and thrombocytopenia is common.",
      "P. falciparum complications come from high parasitemia and sequestration: cerebral malaria (confusion, seizures, coma), severe anemia, hypoglycemia, acute kidney injury, hemoglobinuria, and acute respiratory distress.",
      "Falciparum smear: many ring forms, often more than one per cell, and banana-shaped (crescent) gametocytes."
-    ]
+    ],
+    "why": "Fever timing follows the length of the red cell cycle, because a synchronized cohort of schizonts ruptures together and releases parasite products that make macrophages release TNF and IL-1, which raise the hypothalamic set point. Anemia is worse than the number of infected cells suggests because the spleen also removes uninfected cells with altered membranes and inflammation suppresses red cell production. Falciparum complications follow from high parasite load and sequestration, and hypoglycemia reflects parasite glucose use plus impaired hepatic gluconeogenesis."
    },
    {
     "h": "Schistosomiasis",
@@ -1446,7 +1643,8 @@
      "S. mansoni and S. japonicum eggs lodge in portal venules: periportal pipestem fibrosis and presinusoidal portal hypertension with splenomegaly and varices. Liver synthetic function is usually preserved.",
      "S. haematobium eggs lodge in the bladder wall: hematuria, bladder fibrosis and calcification, obstruction, and squamous cell carcinoma of the bladder.",
      "Peripheral eosinophilia is a key clue. Acute infection can cause fever, cough, and eosinophilia a few weeks after exposure (Katayama fever)."
-    ]
+    ],
+    "why": "Eggs secrete antigens through their shells, and the host walls them off with a Th2 granuloma rich in eosinophils and macrophages; IL-13 then drives fibroblasts to lay down collagen, so the damage comes from the host response. In the liver, eggs lodge in presinusoidal portal venules, so portal pressure rises before blood reaches the sinusoids and hepatocytes stay intact, which explains preserved synthetic function. In the bladder, chronic inflammation drives squamous metaplasia of the urothelium, the precursor of squamous cell carcinoma."
    },
    {
     "h": "Aedes-borne and filovirus infections",
@@ -1457,7 +1655,8 @@
      "Zika (flavivirus): usually mild rash, conjunctivitis, and joint pain; infection in pregnancy causes congenital microcephaly. Zika can also spread sexually and has been linked to Guillain-Barre syndrome.",
      "Ebola and Marburg viruses: filamentous, enveloped, negative-sense RNA filoviruses. Fruit bats are the likely reservoir; people catch them through contact with blood or body fluids of an infected person or animal.",
      "Filovirus illness: fever and weakness, then vomiting and diarrhea, then in many patients hemorrhage, DIC, shock, and multiorgan failure."
-    ]
+    ],
+    "why": "Severe dengue is driven by the host immune response. Cross-reactive, non-neutralizing antibodies from a first infection coat a second serotype and carry it into monocytes and macrophages through Fc receptors, which raises viral load and cytokine release. Those cytokines increase endothelial permeability, so plasma leaks into tissues, the hematocrit rises, and shock follows. Filoviruses infect macrophages and dendritic cells early, blunt interferon responses, and trigger cytokine release and tissue factor expression, which explains the progression to vascular leak, DIC, and multiorgan failure."
    },
    {
     "h": "Lymphadenitis and lymphangitis",
@@ -1468,6 +1667,40 @@
      "Acute lymphangitis: Streptococcus pyogenes spreads along lymphatics from a skin wound, causing red streaks toward tender regional nodes, with fever.",
      "Reactive node patterns: follicular hyperplasia (B cell areas; rheumatoid arthritis, early HIV, toxoplasmosis), paracortical hyperplasia (T cell areas; viral infections such as mononucleosis, some drugs), and sinus histiocytosis (macrophages in sinuses; nodes draining a cancer).",
      "Reactive follicles vary in size, have tingible body macrophages, and lack BCL2 in germinal centers. Follicular lymphoma has crowded uniform follicles, effaced architecture, and BCL2 positive germinal centers."
+    ],
+    "why": "Each node filters lymph from a defined drainage area, so an enlarged node points to the site of entry, and the compartment that expands shows which arm of immunity responded: follicles for antibody responses, the paracortex for T cell responses to viruses, and sinuses for material carried in lymph. Y. pestis multiplies in the first draining node and forms the necrotic bubo. Normal germinal center B cells switch off BCL2 so unselected cells die by apoptosis and are eaten by tingible body macrophages, which is why BCL2 positive germinal centers point to follicular lymphoma."
+   }
+  ],
+  "flows": [
+   {
+    "title": "Severe dengue by antibody-dependent enhancement",
+    "steps": [
+     "First dengue infection produces antibodies to that serotype",
+     "Cross-reactive, non-neutralizing antibodies bind a second serotype",
+     "Antibody-virus complexes enter monocytes through Fc receptors",
+     "Viral replication and cytokine release increase",
+     "Endothelial permeability rises, causing plasma leakage and hemoconcentration",
+     "Hypovolemic shock and bleeding follow"
+    ]
+   },
+   {
+    "title": "Urinary schistosomiasis (S. haematobium)",
+    "steps": [
+     "Adults lay eggs in the vesical venous plexus",
+     "Eggs penetrate and lodge in the bladder wall",
+     "Th2 granulomas with eosinophils form around eggs",
+     "Chronic inflammation causes fibrosis, calcification, and hematuria",
+     "Squamous metaplasia progresses to squamous cell carcinoma of the bladder"
+    ]
+   },
+   {
+    "title": "Plague",
+    "steps": [
+     "An infected flea bite inoculates Yersinia pestis",
+     "Bacteria travel through lymphatics to regional nodes",
+     "Multiplication in the node forms a painful, suppurative bubo",
+     "Spread to blood causes septicemic plague with DIC",
+     "Lung seeding causes pneumonic plague with droplet spread"
     ]
    }
   ],

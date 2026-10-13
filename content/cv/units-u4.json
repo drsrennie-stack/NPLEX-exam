@@ -10,7 +10,8 @@
           "Systolic dysfunction: low ejection fraction, eccentric hypertrophy (sarcomeres added in series).",
           "Causes: familial (often autosomal dominant, TTN titin gene most common), alcohol, prior myocarditis, doxorubicin, peripartum, Chagas, thiamine deficiency.",
           "Findings: signs of heart failure, S3, mitral and tricuspid regurgitation from stretched valve rings, balloon-shaped heart on chest X-ray."
-        ]
+        ],
+        "why": "Loss of contractile force, from a defective sarcomere or cytoskeletal protein such as titin or from toxic, inflammatory, or metabolic myocyte injury, lowers stroke volume. The ventricle compensates by dilating and adding sarcomeres in series, but the larger radius raises wall stress by the law of Laplace, which drives further dilation and a falling ejection fraction. Stretching of the mitral and tricuspid annuli pulls the leaflets apart, causing functional regurgitation, and rapid early diastolic inflow that decelerates abruptly in an overfilled ventricle produces an S3."
       },
       {
         "h": "Hypertrophic cardiomyopathy (HCM)",
@@ -20,7 +21,8 @@
           "Diastolic dysfunction; ejection fraction normal or high.",
           "Left ventricular outflow obstruction from systolic anterior motion of the mitral valve against the septum.",
           "Classic exam patient: young athlete with exertional syncope or sudden cardiac death from ventricular arrhythmia."
-        ]
+        ],
+        "why": "Mutant sarcomere proteins make myocytes hypercontractile and disorganized, and the wall thickens with interstitial fibrosis. The thick, stiff ventricle relaxes poorly, so filling depends on high pressure and atrial contraction (diastolic dysfunction) while ejection fraction stays normal or high. In systole, fast flow through the narrowed outflow tract drags the anterior mitral leaflet toward the septum (systolic anterior motion), an obstruction that worsens when the ventricle is smaller (Valsalva, standing) and eases when preload or afterload rises (squatting). Myocyte disarray and fibrosis form a substrate for reentrant ventricular arrhythmias, which explains sudden death during exertion."
       },
       {
         "h": "Restrictive cardiomyopathy (RCM)",
@@ -29,7 +31,8 @@
           "Causes: amyloidosis, sarcoidosis, hemochromatosis, radiation fibrosis, endomyocardial fibrosis, Loeffler endocarditis.",
           "Amyloid clue: low-voltage ECG despite a thick ventricular wall.",
           "Right-sided failure signs dominate: raised JVP, Kussmaul sign, edema, hepatomegaly."
-        ]
+        ],
+        "why": "Infiltration (amyloid fibrils, granulomas, iron) or fibrosis stiffens the ventricular wall, so a small rise in volume causes a steep rise in diastolic pressure. Contraction is relatively preserved, so cavity size and ejection fraction stay near normal, while the high filling pressures back up into both atria, which enlarge, and into the systemic veins, causing raised JVP, hepatomegaly, and edema. In amyloidosis, extracellular protein thickens the wall without adding electrically active myocytes, so the ECG shows low voltage despite a wall that looks hypertrophied on echocardiography."
       },
       {
         "h": "Myocarditis",
@@ -39,7 +42,8 @@
           "Other causes: Chagas disease, Lyme disease, diphtheria toxin, drug hypersensitivity, SLE, giant cell myocarditis.",
           "Viral form shows a lymphocytic infiltrate with myocyte necrosis on biopsy.",
           "Presents after a viral illness with chest pain, dyspnea, arrhythmia, raised troponin; can progress to DCM."
-        ]
+        ],
+        "why": "Cardiotropic viruses such as coxsackie B enter myocytes through the coxsackie-adenovirus receptor and injure them directly, and the cytotoxic T-cell response that clears the virus kills more myocytes. Myocyte necrosis releases troponin, and patchy inflammation and edema disturb conduction and create foci for arrhythmia. If enough myocytes are lost and replaced by fibrosis, or if autoimmunity against cardiac proteins persists, the ventricle remodels into dilated cardiomyopathy."
       },
       {
         "h": "How each one fails",
@@ -47,6 +51,39 @@
           "DCM: weak squeeze (systolic failure).",
           "HCM and RCM: poor filling (diastolic failure) with preserved ejection fraction.",
           "All three cause arrhythmias and can cause sudden death."
+        ],
+        "why": "The three cardiomyopathies differ in which phase of the cardiac cycle fails. In DCM contractility is lost, so end-systolic volume rises and ejection fraction falls. In HCM and RCM contraction is preserved, and a stiff ventricle (from hypertrophy in HCM, from infiltration or fibrosis in RCM) needs high filling pressure to reach a normal end-diastolic volume, which gives heart failure with preserved ejection fraction. In all three, scarred or disorganized myocardium supports reentrant circuits, the basis of ventricular arrhythmia and sudden death."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Outflow obstruction in hypertrophic cardiomyopathy",
+        "steps": [
+          "Autosomal dominant sarcomere mutation, usually MYH7 or MYBPC3",
+          "Asymmetric septal hypertrophy narrows the left ventricular outflow tract",
+          "Fast systolic flow drags the anterior mitral leaflet toward the septum",
+          "Dynamic outflow obstruction with mitral regurgitation",
+          "Lower preload (Valsalva, standing) worsens obstruction and the murmur"
+        ]
+      },
+      {
+        "title": "Progression of dilated cardiomyopathy",
+        "steps": [
+          "Myocyte loss or defective sarcomere proteins lower contractility",
+          "Stroke volume falls; sympathetic and renin-angiotensin activation retain volume",
+          "Chambers dilate as sarcomeres are added in series",
+          "Larger radius raises wall stress (Laplace), further lowering ejection fraction",
+          "Stretched valve rings cause functional mitral and tricuspid regurgitation"
+        ]
+      },
+      {
+        "title": "Viral myocarditis to dilated cardiomyopathy",
+        "steps": [
+          "Coxsackie B enters myocytes through the coxsackie-adenovirus receptor",
+          "Viral replication directly injures myocytes",
+          "Cytotoxic T cells infiltrate and kill infected myocytes",
+          "Necrosis raises troponin; inflammation causes arrhythmia and heart failure",
+          "In some patients, myocyte loss and fibrosis lead to dilated cardiomyopathy"
         ]
       }
     ],
@@ -203,7 +240,8 @@
           "Fibrous outer layer plus a serous sac (parietal and visceral layers).",
           "Normal pericardial fluid is a small volume, about 15 to 50 mL.",
           "The fibrous layer does not stretch quickly, so the rate of fluid build-up matters more than the total amount."
-        ]
+        ],
+        "why": "The fibrous pericardium is dense collagen that behaves like a stiff bag: its pressure-volume curve is flat at first and then rises steeply once its small reserve volume is used up. Fluid that collects slowly gives the sac time to stretch and remodel, so a liter or more can accumulate with little pressure rise. Fluid added over minutes reaches the steep part of the curve, so as little as about 200 mL can compress the heart."
       },
       {
         "h": "Pericarditis",
@@ -213,7 +251,8 @@
           "Sharp chest pain worse lying flat and with inspiration, better sitting up and leaning forward.",
           "Friction rub; ECG shows diffuse ST elevation with PR depression.",
           "Patterns: fibrinous or serous (most common), purulent (bacterial), hemorrhagic (cancer, TB), caseous (TB)."
-        ]
+        ],
+        "why": "Inflammation deposits fibrin and inflammatory cells on the serous layers, and the roughened surfaces rubbing together produce the friction rub. The parietal pericardium is innervated by the phrenic nerve, so movement of the layers with breathing or lying flat worsens the pain, and leaning forward lifts the heart off the posterior pericardium. Inflammation spreads to the superficial epicardial myocardium, producing a current of injury in many leads (diffuse ST elevation that does not follow one coronary territory), and atrial epicardial injury depresses the PR segment. The exudate follows the cause: fibrin with viral, uremic, or post-infarction disease, pus with bacteria, blood with tumor or TB, and caseation with TB."
       },
       {
         "h": "Effusion and tamponade",
@@ -224,7 +263,8 @@
           "Beck triad: hypotension, distended neck veins, distant heart sounds.",
           "Pulsus paradoxus: systolic pressure falls more than 10 mmHg with inspiration.",
           "Diastolic pressures equalize across all four chambers."
-        ]
+        ],
+        "why": "When pericardial pressure exceeds the low diastolic pressures of the chambers, they cannot fill, so stroke volume and blood pressure fall while venous pressure rises (Beck triad). All four chambers sit inside the same tense sac and share its pressure, so diastolic pressures equalize. On inspiration, extra venous return enlarges the right ventricle, which can only expand by pushing the septum into the left ventricle, so left ventricular filling falls and systolic pressure drops more than 10 mmHg (pulsus paradoxus). Fluid dampens sound and electrical signal (muffled sounds, low QRS voltage), and a heart swinging in a large effusion varies QRS amplitude beat to beat (electrical alternans)."
       },
       {
         "h": "Metastatic disease",
@@ -232,7 +272,8 @@
           "Metastases are far more common than primary tumors of the heart and pericardium.",
           "Common sources: lung and breast carcinoma, melanoma, lymphoma, leukemia.",
           "Usually present as a bloody effusion, sometimes with tamponade; malignant cells can be found in the fluid."
-        ]
+        ],
+        "why": "Tumors reach the heart by direct and lymphatic spread from nearby thoracic cancers (lung, breast) and by blood from cancers with wide hematogenous spread (melanoma, lymphoma, leukemia), and the pericardium is the most common cardiac site. Serosal tumor implants are fragile and vascular and obstruct lymphatic drainage, so they produce a bloody exudate that can build up to tamponade. Finding malignant cells on cytology of the fluid confirms the cause."
       },
       {
         "h": "Constrictive pericarditis",
@@ -240,6 +281,39 @@
           "Chronic scarring, sometimes calcified, encases the heart and limits filling.",
           "Worldwide TB is a major cause; in developed countries it often follows viral pericarditis, cardiac surgery, or radiation.",
           "Findings: Kussmaul sign, pericardial knock in early diastole, pericardial calcification on imaging."
+        ],
+        "why": "Healing after pericarditis replaces the pliable sac with thick fibrous tissue that may calcify, forming a rigid shell around the heart. Early diastolic filling is rapid until the ventricles reach the limit of the shell, where filling stops abruptly and produces the pericardial knock. The shell isolates the heart from the fall in intrathoracic pressure on inspiration, so the extra venous return cannot enter the right heart and JVP rises with inspiration (Kussmaul sign). Restrictive cardiomyopathy also limits diastolic filling, but the stiffness lies in an infiltrated or fibrotic myocardium, so it lacks the thickened, calcified pericardium."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Cardiac tamponade",
+        "steps": [
+          "Fluid or blood collects rapidly in the pericardial sac",
+          "Pericardial pressure rises above the chambers' diastolic pressures",
+          "Chambers cannot fill; diastolic pressures equalize in all four",
+          "Stroke volume and cardiac output fall",
+          "Hypotension, distended neck veins, muffled heart sounds (Beck triad)"
+        ]
+      },
+      {
+        "title": "Pulsus paradoxus in tamponade",
+        "steps": [
+          "Inspiration lowers intrathoracic pressure and increases right heart return",
+          "Right ventricle cannot expand outward against the tense pericardium",
+          "Interventricular septum bulges into the left ventricle",
+          "Left ventricular filling and stroke volume fall",
+          "Systolic pressure drops more than 10 mmHg on inspiration"
+        ]
+      },
+      {
+        "title": "Constrictive pericarditis",
+        "steps": [
+          "Pericardial injury from TB, viral pericarditis, surgery, or radiation",
+          "Fibrinous exudate organizes into dense scar that may calcify",
+          "Rigid shell halts diastolic filling after a rapid early inflow",
+          "Abrupt stop in filling produces the pericardial knock",
+          "Systemic venous congestion: raised JVP, Kussmaul sign, hepatomegaly, ascites"
         ]
       }
     ],
@@ -389,7 +463,8 @@
           "Right-to-left shunts (TOF) send blue blood to the body; cyanosis early in life.",
           "Untreated left-to-right shunt raises pulmonary pressure, the shunt reverses, and late cyanosis follows (Eisenmenger syndrome).",
           "Eisenmenger signs: late cyanosis, clubbing, polycythemia, right ventricular hypertrophy."
-        ]
+        ],
+        "why": "Blood crosses a defect toward the side of lower pressure or resistance, and after birth the systemic side is higher, so VSD, ASD, and PDA send oxygenated blood back to the lungs without cyanosis. Chronic high pulmonary flow and pressure injure the pulmonary arterioles, causing medial hypertrophy, intimal proliferation, and eventually plexiform lesions that raise pulmonary vascular resistance. Once right-sided pressure exceeds left-sided pressure, the shunt reverses and deoxygenated blood enters the systemic circulation. The resulting hypoxemia drives erythropoietin release (polycythemia) and clubbing, while the right ventricle hypertrophies against the high afterload."
       },
       {
         "h": "Septal defects",
@@ -400,7 +475,8 @@
           "Ostium primum ASD is an endocardial cushion defect, linked to Down syndrome.",
           "ASD: fixed, widely split S2 and a systolic flow murmur at the left upper sternal border.",
           "ASD allows paradoxical emboli (venous clot crossing to the systemic side)."
-        ]
+        ],
+        "why": "VSD flow is driven by the large systolic pressure difference between the ventricles, so the murmur lasts through systole; a small defect keeps a high gradient and a loud murmur, while a large one equalizes pressures and causes heart failure from pulmonary overcirculation. An ASD shunts because the right ventricle fills more easily, and the low-gradient flow across the defect is silent; the murmur comes from extra flow across the pulmonic valve. S2 split is fixed because right ventricular volume stays high in both phases of respiration. Ostium primum defects come from failed endocardial cushion fusion, hence the link with trisomy 21 and AV valve involvement."
       },
       {
         "h": "Patent ductus arteriosus",
@@ -409,7 +485,8 @@
           "Risk factors: prematurity, congenital rubella.",
           "Continuous machine-like murmur below the left clavicle; bounding pulses, wide pulse pressure.",
           "With Eisenmenger: differential cyanosis, blue clubbed toes with pink fingers."
-        ]
+        ],
+        "why": "In the fetus, low oxygen tension and prostaglandin E2 from the placenta keep the ductus open; after birth, rising arterial oxygen and falling PGE2 (placenta removed, lungs now clearing prostaglandins) contract its smooth muscle. The ductal muscle of premature infants responds less to oxygen, so it often stays open. Aortic pressure exceeds pulmonary pressure in both systole and diastole, so flow is continuous (machine-like murmur), and diastolic runoff into the lungs widens the pulse pressure. After Eisenmenger reversal, deoxygenated blood enters the aorta distal to the left subclavian artery, so the toes become cyanotic while the fingers stay pink."
       },
       {
         "h": "Tetralogy of Fallot",
@@ -419,7 +496,8 @@
           "Associated with 22q11.2 deletion (DiGeorge syndrome).",
           "Degree of right ventricular outflow obstruction sets how blue the child is.",
           "Tet spells improve with squatting (raises systemic resistance, less right-to-left flow); boot-shaped heart on X-ray."
-        ]
+        ],
+        "why": "Anterosuperior displacement of the infundibular septum narrows the right ventricular outflow tract and leaves a malaligned VSD with the aorta overriding it, and the right ventricle hypertrophies from pumping against the obstruction. The higher the outflow resistance, the more deoxygenated blood is diverted across the VSD into the aorta, so cyanosis tracks the severity of the stenosis. Squatting kinks the femoral arteries and raises systemic vascular resistance, which reduces right-to-left shunting and sends more blood to the lungs. Neural crest cells contribute to the outflow septum, which explains the link with 22q11.2 deletion."
       },
       {
         "h": "Bicuspid aortic valve",
@@ -428,6 +506,40 @@
           "Associated with Turner syndrome and coarctation of the aorta.",
           "Valve calcifies early, so aortic stenosis appears decades earlier than in a normal valve.",
           "Also linked to aortic regurgitation, endocarditis, and dilation or dissection of the ascending aorta."
+        ],
+        "why": "Two cusps bend and fold more with each beat and create more turbulent flow than three, so the leaflets undergo earlier dystrophic calcification, and stenosis often appears around age 50 to 60 instead of after age 70 as with a normal valve. The same abnormal leaflets may close poorly (regurgitation), and their damaged surfaces favor endocarditis. The ascending aorta dilates partly from an intrinsic medial abnormality that accompanies the valve defect and partly from the eccentric jet, which raises the risk of aneurysm and dissection."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Eisenmenger syndrome",
+        "steps": [
+          "Left-to-right shunt (VSD, ASD, PDA) overloads the pulmonary circulation",
+          "High flow and pressure injure pulmonary arterioles",
+          "Medial hypertrophy and intimal fibrosis raise pulmonary vascular resistance",
+          "Right ventricle hypertrophies as right-sided pressure rises",
+          "Right pressure exceeds left, and the shunt reverses to right-to-left",
+          "Late cyanosis, clubbing, and polycythemia"
+        ]
+      },
+      {
+        "title": "Tetralogy of Fallot",
+        "steps": [
+          "Neural crest related defect displaces the infundibular septum anterosuperiorly",
+          "Pulmonary infundibular stenosis plus malaligned VSD with overriding aorta",
+          "Right ventricle hypertrophies against the outflow obstruction",
+          "Deoxygenated blood shunts right to left across the VSD into the aorta",
+          "Cyanosis; squatting raises systemic resistance and reduces the shunt"
+        ]
+      },
+      {
+        "title": "Closure of the ductus arteriosus after birth",
+        "steps": [
+          "First breaths expand the lungs and lower pulmonary vascular resistance",
+          "Arterial oxygen rises and constricts ductal smooth muscle",
+          "Placenta is removed and lungs clear prostaglandin E2, so PGE2 falls",
+          "Ductus closes functionally within the first few days",
+          "Fibrosis turns it into the ligamentum arteriosum"
         ]
       }
     ],
@@ -597,7 +709,8 @@
           "Lines of Zahn (layers of platelets and fibrin alternating with red cells) mark a clot formed in flowing blood before death.",
           "Inherited hypercoagulability: factor V Leiden (most common), prothrombin G20210A, antithrombin, protein C or S deficiency.",
           "Fates: propagation, embolization, dissolution, organization and recanalization."
-        ]
+        ],
+        "why": "Endothelial injury exposes subendothelial collagen and tissue factor, abnormal flow brings platelets against the wall and lets activated clotting factors accumulate, and hypercoagulability tips the balance toward fibrin formation. In fast arterial flow, platelets adhere and aggregate first, so arterial thrombi are pale and platelet-rich; in slow venous flow, coagulation proceeds in stagnant blood and traps many red cells, giving a red clot. Lines of Zahn form because layers are laid down in moving blood, which separates an antemortem thrombus from a postmortem clot. Factor V Leiden makes factor Va resistant to cleavage by activated protein C, so thrombin generation continues unchecked."
       },
       {
         "h": "Embolism",
@@ -608,7 +721,8 @@
           "Fat embolism after long-bone fracture: low oxygen, confusion, petechial rash, about 1 to 3 days after injury.",
           "Amniotic fluid embolism: sudden respiratory failure, shock and DIC during or after labor.",
           "Gas embolism includes decompression sickness (nitrogen bubbles on fast ascent)."
-        ]
+        ],
+        "why": "An embolus lodges where the vessel becomes too narrow for it, so its source predicts its destination: venous clots pass through the right heart to the pulmonary arteries, while clots from the left heart or aorta go to systemic arteries. Mural thrombi form over infarcted myocardium or in a fibrillating left atrium because of stasis and endocardial injury. Fat embolism appears 1 to 3 days after fracture because fat globules block microvessels and released free fatty acids injure endothelium, causing hypoxemia, neurologic change, and petechiae. In decompression sickness, nitrogen dissolved under high pressure forms bubbles when pressure falls too fast."
       },
       {
         "h": "Infarction",
@@ -618,7 +732,8 @@
           "Red (hemorrhagic) infarcts: venous occlusion, loose tissue, dual blood supply (lung, small bowel), or reperfusion.",
           "Coagulative necrosis in most organs; liquefactive necrosis in the brain.",
           "Infarcts are often wedge-shaped with the blocked vessel at the apex."
-        ]
+        ],
+        "why": "Solid tissue with one arterial supply has no alternative inflow and little room for blood to seep in, so its infarct is pale. Red infarcts occur where blood can still enter dead tissue: a second arterial supply (lung), blocked venous outflow, loose tissue, or reperfusion of necrotic vessels. In most organs ischemia denatures structural proteins and enzymes alike, preserving cell outlines (coagulative necrosis), while the lipid-rich brain with little supporting stroma is digested by its own enzymes and microglia (liquefactive necrosis). Infarct size depends on how fast the vessel closes, the collateral supply, and the tissue's sensitivity to hypoxia, with neurons dying within minutes and fibroblasts surviving much longer."
       },
       {
         "h": "Hemorrhage and edema",
@@ -627,7 +742,8 @@
           "Acute loss of more than about 20 percent of blood volume can cause hypovolemic shock; chronic loss causes iron deficiency anemia.",
           "Edema forms when Starling forces push fluid out faster than lymphatics remove it.",
           "Transudate (low protein): high hydrostatic pressure or low oncotic pressure. Exudate (high protein): inflammation."
-        ]
+        ],
+        "why": "Net filtration across a capillary depends on the balance of hydrostatic pressure pushing fluid out and plasma oncotic pressure (mainly albumin) holding it in. Heart failure or venous obstruction raises hydrostatic pressure, and liver disease, nephrotic syndrome, or malnutrition lowers oncotic pressure; the filtered fluid is low in protein (transudate). Inflammation widens endothelial gaps so protein and cells leak out (exudate), and lymphatic obstruction leaves protein-rich fluid that induces fibrosis, so lymphedema becomes firm and nonpitting. After acute loss of more than about 20 percent of blood volume, tachycardia and vasoconstriction can no longer maintain perfusion, and hypovolemic shock follows."
       },
       {
         "h": "Shock",
@@ -636,6 +752,40 @@
           "Types: hypovolemic, cardiogenic, obstructive, distributive (septic, anaphylactic, neurogenic).",
           "Stages: nonprogressive (compensated), progressive (lactic acidosis), irreversible.",
           "End-organ damage: acute tubular necrosis, ARDS, DIC, ischemic bowel, multiorgan failure."
+        ],
+        "why": "Shock lowers oxygen delivery below tissue demand, and its type names the failing part: volume (hypovolemic), pump (cardiogenic), filling or outflow block (obstructive), or vascular tone (distributive). In hypovolemic and cardiogenic shock, low cardiac output triggers baroreflex vasoconstriction, so systemic vascular resistance rises; wedge pressure is low with volume loss and high with left ventricular failure. In septic shock, endotoxin triggers TNF, IL-1, and inducible nitric oxide synthase, which dilate vessels, so resistance falls while cardiac output is often high early. Prolonged hypoperfusion causes lactic acidosis, and endothelial injury with tissue factor expression leads to DIC, ARDS, and acute tubular necrosis."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Thrombus to infarct",
+        "steps": [
+          "Virchow triad: endothelial injury, abnormal flow, hypercoagulability",
+          "Thrombus forms and may propagate, dissolve, organize, or embolize",
+          "Embolus lodges in an artery too narrow for it to pass",
+          "Tissue beyond the block becomes ischemic without adequate collateral flow",
+          "Wedge-shaped infarct with its apex at the occluded vessel"
+        ]
+      },
+      {
+        "title": "Stages of hypovolemic shock",
+        "steps": [
+          "Acute blood loss lowers venous return and cardiac output",
+          "Baroreflex sympathetic tachycardia and vasoconstriction; renin-angiotensin retains fluid",
+          "Compensated stage: blood flow to brain and heart maintained",
+          "Progressive stage: anaerobic metabolism, lactic acidosis, arteriolar dilation, pooling",
+          "Irreversible stage: cell and lysosomal membrane damage, organ failure"
+        ]
+      },
+      {
+        "title": "Septic shock",
+        "steps": [
+          "Gram-negative endotoxin (LPS) binds TLR4 on macrophages",
+          "Macrophages release TNF and IL-1; inducible nitric oxide synthase makes NO",
+          "Vasodilation lowers systemic vascular resistance; capillaries leak",
+          "Tissue hypoperfusion forces anaerobic glycolysis and lactic acidosis",
+          "Endothelial tissue factor expression triggers DIC",
+          "Multiorgan failure: acute tubular necrosis, ARDS, liver injury"
         ]
       }
     ],
@@ -881,7 +1031,8 @@
           "Atherosclerosis steps: endothelial injury, LDL entry and oxidation, monocytes become foam-cell macrophages, fatty streak, smooth muscle migration (PDGF), fibrous cap over a necrotic core.",
           "Most affected: abdominal aorta, then coronary, popliteal and carotid arteries.",
           "Modifiable risks: smoking, hypertension, high LDL, diabetes. Fixed: age, male sex, family history."
-        ]
+        ],
+        "why": "Atherosclerosis starts with endothelial dysfunction at branch points where flow is disturbed, which raises permeability and adhesion molecule expression. LDL that enters the intima is oxidized, and macrophages take it up through scavenger receptors that lack feedback control, becoming the foam cells of the fatty streak. Macrophages and platelets release PDGF and other growth factors, so smooth muscle cells migrate from the media into the intima and lay down collagen as a fibrous cap over a lipid-rich necrotic core. In arteriolosclerosis, chronic hypertension and diabetes push plasma proteins into the arteriolar wall (hyaline), while severe hypertension drives concentric smooth muscle and basement membrane proliferation (hyperplastic onion-skinning)."
       },
       {
         "h": "Familial hypercholesterolemia",
@@ -890,7 +1041,8 @@
           "Heterozygotes (about 1 in 250) have LDL often above 190 mg/dL and early coronary disease.",
           "Homozygotes can have LDL above 500 mg/dL and MI in childhood or the teen years.",
           "Tendon xanthomas (Achilles), xanthelasma, and early corneal arcus."
-        ]
+        ],
+        "why": "Hepatic LDL receptors clear LDL from the blood and deliver cholesterol that suppresses SREBP-driven synthesis of HMG-CoA reductase and of more receptors. With fewer working receptors, clearance falls and hepatic synthesis continues, so plasma LDL roughly doubles in heterozygotes and rises several-fold in homozygotes, who have little or no receptor function. Excess LDL is taken up by macrophages in tendons, eyelid skin, and the cornea (xanthomas, xanthelasma, arcus) and in arterial walls, where it accelerates atherosclerosis by decades. Gain-of-function PCSK9 causes the same picture because PCSK9 sends the receptor to lysosomes for degradation."
       },
       {
         "h": "Aneurysm and dissection",
@@ -901,7 +1053,8 @@
           "Aortic dissection: intimal tear lets blood split the media; hypertension is the main risk; also Marfan, bicuspid aortic valve, Turner, cocaine.",
           "Dissection pain is sudden, tearing, radiates to the back; unequal arm pressures; widened mediastinum.",
           "Stanford A involves the ascending aorta; Stanford B does not."
-        ]
+        ],
+        "why": "An aneurysm forms when the media can no longer bear wall stress. In the infrarenal aorta, which has few vasa vasorum, a thick atherosclerotic intima impairs diffusion to the media, and inflammation with matrix metalloproteinases degrades elastin and collagen. Wall tension rises with radius (law of Laplace), so a wider aneurysm is under more stress and expands and ruptures faster. In dissection, an intimal tear lets blood under pressure split a weakened media (hypertensive medial damage, or cystic medial degeneration in Marfan syndrome from defective fibrillin-1), and the false lumen can extend into the pericardium (tamponade), the aortic root (regurgitation), or branch arteries (ischemia)."
       },
       {
         "h": "Peripheral arterial disease",
@@ -910,7 +1063,8 @@
           "Claudication (calf pain with walking that stops with rest), then rest pain, ulcers and gangrene.",
           "Weak pulses, shiny hairless skin, cool feet; ankle-brachial index 0.90 or lower (normal about 1.0 to 1.4).",
           "Leriche syndrome (aortoiliac block): buttock claudication, absent femoral pulses, erectile dysfunction."
-        ]
+        ],
+        "why": "A fixed stenosis may allow enough flow at rest but cannot increase flow when exercising muscle dilates its arterioles, so ischemic pain appears with walking and resolves with rest (claudication). Once the stenosis is severe enough that resting flow is inadequate, rest pain, ulcers, and gangrene follow, and chronic ischemia causes hair loss and thin, shiny skin. The ankle-brachial index compares ankle and arm systolic pressures, and a ratio of 0.90 or lower shows a pressure drop across diseased leg arteries. Leriche syndrome reflects block at the aortic bifurcation, which cuts flow to the buttocks, the femoral arteries, and the internal iliac branches that supply erectile tissue."
       },
       {
         "h": "Veins: DVT, PE, varicose veins",
@@ -919,7 +1073,8 @@
           "PE: sudden dyspnea, pleuritic chest pain, tachycardia, hypoxemia with a raised A-a gradient; saddle embolus can cause sudden death.",
           "Varicose veins: incompetent valves in superficial veins (great saphenous); risks are age, female sex, pregnancy, obesity, long standing.",
           "Chronic venous disease: edema, stasis dermatitis, ulcers near the medial malleolus; superficial varicose veins rarely embolize."
-        ]
+        ],
+        "why": "DVT usually starts in calf veins behind valve cusps, where flow is slow, and can propagate into the popliteal and femoral veins, the source of most significant emboli. A pulmonary embolus creates ventilated but unperfused lung (dead space) and diverts blood to the remaining lung beyond its ventilation, so hypoxemia comes with a raised A-a gradient. Lung infarction is uncommon because the bronchial arteries keep supplying the tissue unless heart or lung disease has compromised that flow. In varicose veins, incompetent valves allow backflow and raise leg venous pressure, causing edema, red cell leakage with hemosiderin staining, stasis dermatitis, and ulcers."
       },
       {
         "h": "Vasospasm and vasculitis",
@@ -929,6 +1084,41 @@
           "Giant cell arteritis: over age 50, women more than men; headache, jaw claudication, scalp tenderness, high ESR; can cause sudden blindness.",
           "Half or so of GCA patients have polymyalgia rheumatica (shoulder and hip girdle stiffness).",
           "Vasculitis is grouped by vessel size: large, medium, small (see chart)."
+        ],
+        "why": "Raynaud color changes follow blood flow: arteriolar spasm blanches the digit (white), stagnant blood deoxygenates (blue), and reactive hyperemia on rewarming brings red. Vasculitis findings follow the size of the vessel inflamed. Large-vessel granulomatous disease (GCA, Takayasu) narrows the aorta and its branches, causing jaw claudication, vision loss from ischemia of the optic nerve, or weak arm pulses; medium-vessel disease (PAN, Kawasaki) causes organ infarcts and aneurysms. Small-vessel disease (ANCA-associated vasculitis, IgA vasculitis) inflames capillaries and venules, giving palpable purpura, glomerulonephritis, and lung hemorrhage."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Atherosclerotic plaque formation",
+        "steps": [
+          "Endothelial dysfunction at branch points raises permeability and adhesion",
+          "LDL enters the intima and is oxidized",
+          "Monocytes become macrophages that take up oxidized LDL as foam cells",
+          "Foam cells accumulate as a fatty streak",
+          "PDGF draws smooth muscle into the intima, where it makes collagen",
+          "Fibrous cap forms over a necrotic lipid core",
+          "Cap rupture exposes the core and triggers thrombosis"
+        ]
+      },
+      {
+        "title": "Deep vein thrombosis to pulmonary embolism",
+        "steps": [
+          "Virchow triad favors thrombus in deep calf veins",
+          "Thrombus propagates into the popliteal and femoral veins",
+          "A fragment travels through the right heart to the pulmonary arteries",
+          "Dead space and V/Q mismatch cause hypoxemia with raised A-a gradient",
+          "Large embolus raises pulmonary resistance and strains the right ventricle"
+        ]
+      },
+      {
+        "title": "Aortic dissection",
+        "steps": [
+          "Hypertension or cystic medial degeneration weakens the aortic media",
+          "Intimal tear lets blood enter the media",
+          "Blood under pressure splits the media, forming a false lumen",
+          "Dissection extends along the aorta and into branch arteries",
+          "Complications: tamponade, aortic regurgitation, stroke, organ or limb ischemia"
         ]
       }
     ],
@@ -1229,7 +1419,8 @@
           "Most occur in the skin of the head and neck; cavernous hemangioma is the most common benign tumor of the liver.",
           "Capillary type: small, thin-walled capillary-sized vessels in skin and mucosa.",
           "Cavernous type: large dilated blood-filled channels; less well circumscribed; does not regress."
-        ]
+        ],
+        "why": "Hemangiomas are benign proliferations of endothelial-lined vessels, and the two main types differ in vessel size and behavior. Capillary hemangiomas are lobules of small, closely packed, thin-walled capillaries, while cavernous hemangiomas are large, dilated vascular channels that are less well circumscribed. The cavernous channels are mature and do not involute, and in the liver they are usually discovered incidentally on imaging; slow flow within them can lead to thrombosis and calcification."
       },
       {
         "h": "Infantile hemangioma",
@@ -1238,7 +1429,8 @@
           "Most regress by about age 7.",
           "Bright red raised lesion, often called a strawberry hemangioma.",
           "GLUT1 positive on staining, which separates it from vascular malformations."
-        ]
+        ],
+        "why": "Infantile hemangioma is a true endothelial neoplasm with a predictable life cycle: rapid proliferation of immature endothelial cells in the first months, a plateau, and then slow involution as lesional cells die by apoptosis and are replaced by fibrofatty tissue. Its endothelial cells express GLUT1, a marker shared with placental vessels. Vascular malformations such as port-wine stains are GLUT1 negative, are present at birth, grow in proportion to the child, and never regress, so the stain separates a lesion that will fade from one that will not."
       },
       {
         "h": "Other benign vascular lesions",
@@ -1246,7 +1438,8 @@
           "Pyogenic granuloma (lobular capillary hemangioma): fast-growing red polyp on skin, gums or mouth that bleeds easily, often after minor trauma.",
           "Pregnancy tumor (granuloma gravidarum) is a pyogenic granuloma of the gingiva during pregnancy.",
           "Cherry hemangiomas are small red papules that increase with age in adults."
-        ]
+        ],
+        "why": "Pyogenic granuloma is a reactive lobular proliferation of capillaries in edematous, inflamed stroma, often set off by minor trauma or by the hormonal changes of pregnancy, which is why it appears on the gums during pregnancy and often regresses after delivery. Its surface is thin and often ulcerated, so it bleeds easily. Cherry hemangiomas are small capillary proliferations that increase with age and have no malignant potential. Bacillary angiomatosis can look similar on the skin, but it is a Bartonella infection in immunocompromised hosts with neutrophils and bacteria on histology, and it resolves with antibiotics."
       },
       {
         "h": "Kaposi sarcoma",
@@ -1257,7 +1450,8 @@
           "HHV-8 latent proteins push cell growth: a viral cyclin D homolog, and LANA, which interferes with p53 and Rb.",
           "Immune suppression lets the infected cells grow; tumors may shrink when immunity improves.",
           "HHV-8 also causes primary effusion lymphoma and multicentric Castleman disease."
-        ]
+        ],
+        "why": "HHV-8 infects endothelial precursor cells and stays latent, expressing proteins that drive proliferation and block cell death. A viral cyclin D homolog pushes cells from G1 into S phase, LANA inhibits p53 and Rb, and viral cytokine homologs such as viral IL-6 promote angiogenesis and growth. Normal T-cell immunity holds infected cells in check, so tumors flourish with HIV infection or transplant immunosuppression and may regress when immunity is restored. The spindle cells form leaky slit-like channels, which explains the purple color and the extravasated red cells and hemosiderin."
       },
       {
         "h": "Four forms of Kaposi sarcoma",
@@ -1266,6 +1460,30 @@
           "Endemic African: children and young adults; children can have aggressive lymph node disease.",
           "Transplant-associated: from immunosuppressive drugs; often regresses when the drugs are reduced.",
           "AIDS-associated: an AIDS-defining illness; spreads widely to skin, mouth, gut, lungs and lymph nodes."
+        ],
+        "why": "The four forms follow the degree of immune suppression and how common HHV-8 infection is in the population. Classic KS arises in older men from regions with high HHV-8 prevalence and mild age-related immune decline, so it is slow and limited to the lower legs. Endemic African KS occurs where HHV-8 infection is common in childhood, and children can develop aggressive lymph node disease. Transplant and AIDS-associated forms come from profound loss of T-cell control, so lesions spread to mucosa and viscera, and they often regress when immunosuppressive drugs are reduced or antiretroviral therapy restores CD4 counts."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Kaposi sarcoma pathogenesis",
+        "steps": [
+          "HHV-8 infects endothelial precursor cells and establishes latency",
+          "Viral cyclin D drives G1 to S; LANA inhibits p53 and Rb",
+          "Viral IL-6 and other viral proteins promote angiogenesis and proliferation",
+          "Immune suppression removes T-cell control of infected cells",
+          "Spindle cells form leaky slit-like vascular spaces",
+          "Lesions progress from patch to plaque to nodule"
+        ]
+      },
+      {
+        "title": "Life cycle of infantile hemangioma",
+        "steps": [
+          "Appears in the first weeks after birth",
+          "GLUT1-positive endothelial cells proliferate rapidly for several months",
+          "Growth plateaus",
+          "Lesional cells die by apoptosis and fibrofatty tissue replaces them",
+          "Most have regressed by about age 7"
         ]
       }
     ],
@@ -1444,7 +1662,8 @@
           "Culture-negative causes: HACEK organisms, Coxiella, Bartonella.",
           "Signs: fever, new murmur, Janeway lesions, Osler nodes, Roth spots, splinter hemorrhages.",
           "Complications: valve destruction, heart failure, septic emboli, glomerulonephritis, mycotic aneurysm."
-        ]
+        ],
+        "why": "Damaged endothelium from rheumatic scarring, congenital defects, or turbulent jets exposes matrix on which platelets and fibrin deposit, forming sterile vegetations that circulating bacteria can colonize. Low-virulence viridans streptococci need this pre-existing nidus and bind it through dextran, while Staphylococcus aureus is virulent enough to invade normal valves, and injection drug use delivers organisms first to the tricuspid valve. Fibrin inside the vegetation shields bacteria from neutrophils, which explains persistent bacteremia and the need for prolonged bactericidal therapy. Fragments embolize downstream of the infected side, and circulating immune complexes deposit in glomeruli and small vessels, causing glomerulonephritis, Osler nodes, and Roth spots."
       },
       {
         "h": "Chagas disease",
@@ -1454,7 +1673,8 @@
           "Also spread by transfusion, transplant, mother to baby, and contaminated food.",
           "Acute: often mild; Romana sign (one swollen eyelid) when entry is through the conjunctiva.",
           "Chronic (in about 20 to 30 percent, years later): dilated cardiomyopathy with conduction block and apical aneurysm, megaesophagus, megacolon."
-        ]
+        ],
+        "why": "Trypomastigotes in bug feces enter through the bite wound or conjunctiva and invade local cells, where they multiply as intracellular amastigotes; Romana sign is the local inflammatory reaction at a conjunctival entry site. Parasites persist in cardiac muscle and enteric ganglia for years. Chronic inflammation and immune-mediated injury cause myocardial fibrosis that involves the conduction system and thins the apex, and destruction of myenteric neurons in the esophagus and colon causes failed peristalsis and dilation (megaesophagus, megacolon)."
       },
       {
         "h": "Lyme disease",
@@ -1463,7 +1683,8 @@
           "Early localized: erythema migrans (expanding bull's-eye rash) plus flu-like illness.",
           "Early disseminated: facial nerve palsy (can be bilateral), meningitis, carditis with AV block.",
           "Late: arthritis of large joints such as the knee, and neurologic disease."
-        ]
+        ],
+        "why": "Borrelia burgdorferi transmission usually requires an Ixodes tick to stay attached for more than about 36 hours. The spirochete first spreads outward in the skin, producing the expanding erythema migrans, and then disseminates through the blood to nerves, meninges, heart, and joints. In the heart it causes lymphocytic inflammation of the conduction tissue, which explains AV block that usually resolves with treatment. Late arthritis reflects persistent spirochete antigens and the host immune response within the synovium."
       },
       {
         "h": "Rocky Mountain spotted fever",
@@ -1473,7 +1694,8 @@
           "Infects endothelial cells, causing vasculitis, leaky vessels, edema and microhemorrhage.",
           "Fever, headache, and a rash that starts at wrists and ankles, spreads to the trunk, and involves palms and soles.",
           "Untreated: shock, pulmonary edema, encephalitis, DIC, death."
-        ]
+        ],
+        "why": "Rickettsia rickettsii enters vascular endothelial cells, multiplies in the cytoplasm, and spreads directly to neighboring cells by actin-based motility, injuring the endothelium as it goes. The resulting vasculitis increases permeability, so plasma leaks into tissue (edema, hypovolemia) and red cells escape (petechial rash). Endothelial damage consumes platelets, causing thrombocytopenia, and in severe cases leads to DIC, noncardiogenic pulmonary edema, and encephalitis."
       },
       {
         "h": "Viral hemorrhagic fevers",
@@ -1483,7 +1705,8 @@
           "Dengue: flavivirus, Aedes mosquito, four serotypes; fever, severe muscle and joint pain, low platelets.",
           "Severe dengue is more likely with a second infection by a different serotype (antibody-dependent enhancement).",
           "Filoviruses (Ebola, Marburg): filamentous negative-sense RNA viruses; spread by body fluids; fruit bats are the likely reservoir; high fatality."
-        ]
+        ],
+        "why": "Hemorrhagic fever viruses infect macrophages, dendritic cells, and endothelium and trigger a massive cytokine release that increases vascular permeability. Tissue factor expressed on infected macrophages activates coagulation and consumes platelets and clotting factors, so patients both bleed and go into shock. Yellow fever targets hepatocytes in the midzonal region of the lobule, the apoptotic hepatocytes appear as Councilman bodies, and failed clotting factor synthesis adds to bleeding (black vomit). In dengue, non-neutralizing antibodies from a first infection bind a different serotype and help it enter Fc receptor-bearing cells, raising viral load and the risk of plasma leakage."
       },
       {
         "h": "Viral myocarditis",
@@ -1492,6 +1715,39 @@
           "Coxsackie B and adenovirus enter myocytes through the coxsackie-adenovirus receptor (CAR).",
           "Injury comes from direct viral damage plus cytotoxic T-cell attack.",
           "Young adult after a cold or GI illness with chest pain, arrhythmia, raised troponin, heart failure."
+        ],
+        "why": "The coxsackie-adenovirus receptor is a tight-junction protein on cardiac myocytes, so these viruses can enter heart muscle and replicate, causing direct cytopathic damage. The immune response adds injury as CD8 cytotoxic T cells destroy infected cells, producing the lymphocytic infiltrate with adjacent myocyte necrosis seen on biopsy. Necrosis releases troponin and disrupts conduction, and ongoing myocyte loss with fibrosis can leave a dilated, poorly contracting ventricle. Symptoms often follow a respiratory or GI illness because the virus first replicates at mucosal sites and then reaches the heart through the blood."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Subacute bacterial endocarditis",
+        "steps": [
+          "Pre-existing valve damage causes turbulent flow and endothelial injury",
+          "Sterile platelet-fibrin deposit forms on the damaged surface",
+          "Transient bacteremia, for example after dental work, seeds viridans streptococci",
+          "Dextran helps bacteria adhere; vegetation grows, shielded from neutrophils",
+          "Valve destruction, septic emboli, immune complex glomerulonephritis"
+        ]
+      },
+      {
+        "title": "Chagas disease",
+        "steps": [
+          "Triatomine bug bites and defecates; trypomastigotes enter wound or conjunctiva",
+          "Parasites multiply in local cells as amastigotes (Romana sign at the eye)",
+          "Bloodstream spread to heart muscle and enteric ganglia",
+          "Years of inflammation cause myocardial fibrosis and myenteric neuron loss",
+          "Dilated cardiomyopathy with conduction block; megaesophagus and megacolon"
+        ]
+      },
+      {
+        "title": "Rocky Mountain spotted fever",
+        "steps": [
+          "Dermacentor tick bite transmits Rickettsia rickettsii",
+          "Bacteria infect and multiply within vascular endothelial cells",
+          "Vasculitis increases permeability, causing edema and petechial rash",
+          "Endothelial damage consumes platelets, causing thrombocytopenia",
+          "Severe cases: shock, pulmonary edema, encephalitis, DIC"
         ]
       }
     ],

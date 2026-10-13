@@ -12,7 +12,8 @@
           "Metaplasia: one mature cell type replaced by another better able to handle stress, by reprogramming stem cells.",
           "Squamous metaplasia of bronchi in smokers; intestinal columnar metaplasia of the esophagus in Barrett esophagus.",
           "Metaplasia and pathologic hyperplasia (endometrial hyperplasia from unopposed estrogen) can progress to dysplasia and carcinoma; benign prostatic hyperplasia does not."
-        ]
+        ],
+        "why": "Hypertrophy and hyperplasia are both answers to increased demand, and which one occurs depends on whether the cell can re-enter the cell cycle: permanent cells such as cardiomyocytes can only enlarge, while labile epithelium can divide. Atrophy is the reverse, where reduced workload, innervation, blood supply, or trophic hormones shift the balance toward protein breakdown. Metaplasia comes from reprogramming of stem or reserve cells, so the new epithelium tolerates the stress but loses the original function, such as ciliated clearance in the bronchus. Persistent stimulation keeps these cells dividing, which creates a field where mutations can accumulate toward dysplasia."
       },
       {
         "h": "How cells are injured",
@@ -24,7 +25,8 @@
           "Reactive oxygen species cause lipid peroxidation of membranes, protein oxidation, and DNA breaks.",
           "Reversible: swelling, fatty change, membrane blebbing, ER dilation, ribosome detachment.",
           "Irreversible: plasma membrane rupture (enzymes such as troponin leak into blood), lysosomal rupture, amorphous mitochondrial densities, pyknosis, karyorrhexis, karyolysis."
-        ]
+        ],
+        "why": "Hypoxia hits oxidative phosphorylation first, so the earliest failures are the ATP-dependent pumps; sodium and water follow, producing cell swelling, the hallmark of reversible injury. The shift to anaerobic glycolysis depletes glycogen and lowers intracellular pH. Injury becomes irreversible when mitochondria cannot restore ATP production and membranes are badly damaged; cytosolic calcium is the amplifier, because it activates degradative enzymes and opens the permeability transition pore that collapses the mitochondrial membrane potential. Membrane rupture is why serum markers such as troponin rise only after irreversible myocyte injury."
       },
       {
         "h": "Apoptosis versus necrosis",
@@ -36,7 +38,8 @@
           "Executioner caspases 3 and 7 finish the job in all three routes.",
           "Apoptosis: cell shrinks, chromatin condenses, apoptotic bodies form and are eaten, membrane stays intact, no inflammation.",
           "Necrosis: cell swells, membrane ruptures, contents leak, inflammation follows."
-        ]
+        ],
+        "why": "Apoptosis is a regulated, energy-requiring program in which caspases dismantle the cell from within, while necrosis is a passive loss of membrane integrity. The intrinsic pathway is controlled at the mitochondrion by the balance of pro-apoptotic BAX and BAK against anti-apoptotic BCL-2, which explains why BCL-2 overexpression (as in follicular lymphoma) lets damaged cells survive. Apoptotic cells keep their membrane intact and flip phosphatidylserine to the outer leaflet as an eat-me signal for macrophages, so nothing leaks and no inflammation follows. Necrotic cells spill intracellular contents that act as danger signals and recruit neutrophils."
       },
       {
         "h": "Pigments and deposits",
@@ -49,7 +52,8 @@
           "Metastatic calcification: in normal tissue when serum calcium or phosphate is high (hyperparathyroidism, chronic kidney disease, vitamin D excess); favors lung, kidney, gastric mucosa, and vessels.",
           "Infiltrates: fat in hepatocytes (steatosis, from alcohol or obesity); cholesterol in macrophages (foam cells in atheromas, skin and tendon xanthomas).",
           "Amyloid: misfolded protein in beta-pleated sheets; Congo red stain shows apple-green birefringence under polarized light."
-        ]
+        ],
+        "why": "Pigments and deposits point to the underlying process. Lipofuscin builds up from peroxidized membrane lipids that lysosomes cannot fully digest, and hemosiderin forms when iron exceeds ferritin storage, as when macrophages break down red cells in a bruise. Calcification is sorted by serum calcium: dystrophic calcification reflects local cell death with normal serum levels, while metastatic calcification reflects a high calcium-phosphate product that precipitates in normal tissue, favoring lung, kidney, and gastric mucosa because these sites lose acid and have a relatively alkaline interstitium. Amyloid shows apple-green birefringence because Congo red aligns along its regular beta-pleated fibrils."
       },
       {
         "h": "Neoplasia",
@@ -60,6 +64,42 @@
           "Dysplasia is disordered growth with loss of orientation; carcinoma in situ is full-thickness dysplasia with an intact basement membrane.",
           "Grade describes how differentiated the cells look; stage (TNM) describes size and spread and predicts outcome better.",
           "Hallmarks include oncogene signaling (BRAF V600E in melanoma), two-hit loss of RB and TP53, BCL-2 overexpression, telomerase, VEGF angiogenesis, invasion, Warburg aerobic glycolysis, and immune evasion (PD-L1)."
+        ],
+        "why": "Neoplasia is clonal growth driven by accumulated mutations that activate oncogenes and inactivate tumor suppressors. Tumor suppressors such as RB and TP53 follow the two-hit model because one normal allele is enough to keep control, so both copies must be lost. Dysplasia and carcinoma in situ are still confined by the basement membrane and cannot metastasize; invasion needs loss of E-cadherin adhesion and matrix metalloproteinases that degrade the basement membrane. Stage predicts outcome better than grade because spread to nodes and distant organs decides whether local treatment can cure the tumor."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Hypoxic cell injury",
+        "steps": [
+          "Hypoxia stops oxidative phosphorylation and ATP falls",
+          "Na+/K+ ATPase fails; sodium and water enter and the cell swells",
+          "Anaerobic glycolysis builds lactate, lowers pH, and clumps chromatin",
+          "Cytosolic calcium rises and activates phospholipases, proteases, and endonucleases",
+          "Mitochondrial permeability transition pore opens and ATP production collapses",
+          "Plasma membrane ruptures, troponin and other contents leak, and necrosis follows"
+        ]
+      },
+      {
+        "title": "Intrinsic apoptosis",
+        "steps": [
+          "DNA damage or loss of survival signals activates BH3-only sensor proteins",
+          "BAX and BAK permeabilize the outer mitochondrial membrane",
+          "Cytochrome c is released into the cytosol",
+          "Cytochrome c binds APAF-1, forming the apoptosome that activates caspase-9",
+          "Caspase-9 activates executioner caspases 3 and 7",
+          "Cell shrinks, DNA fragments, and macrophages eat apoptotic bodies without inflammation"
+        ]
+      },
+      {
+        "title": "Metaplasia to carcinoma",
+        "steps": [
+          "Cigarette smoke chronically injures ciliated bronchial epithelium",
+          "Reserve cells are reprogrammed to make squamous epithelium (metaplasia)",
+          "Persistent injury keeps cells dividing and mutations accumulate",
+          "Dysplasia: atypical cells with loss of orientation",
+          "Carcinoma in situ: full-thickness dysplasia, basement membrane intact",
+          "Invasive squamous cell carcinoma breaches the basement membrane"
         ]
       }
     ],
@@ -287,7 +327,8 @@
           "Cutibacterium acnes: anaerobic gram-positive rod living deep in pilosebaceous units.",
           "Corynebacterium (diphtheroids) in moist areas; Malassezia yeasts in oily, sebaceous areas.",
           "Staphylococcus aureus is carried in the anterior nares by roughly a third of people, a source of later skin infection."
-        ]
+        ],
+        "why": "Each resident organism is adapted to a niche, which explains where it lives: C acnes is an anaerobic lipophile deep in sebum-filled follicles, Malassezia needs external lipids and favors sebaceous areas, and corynebacteria prefer moist folds. S epidermidis is harmless on intact skin but forms biofilm on catheters and prosthetic devices, so it becomes a pathogen once foreign material bypasses the barrier. Nasal carriage of S aureus matters because the carrier's own strain is the usual source of later surgical site and skin infections."
       },
       {
         "h": "How skin resists colonization",
@@ -298,7 +339,8 @@
           "Constant desquamation sheds organisms stuck to surface cells.",
           "Keratinocytes and sweat make antimicrobial peptides: beta-defensins, cathelicidin (LL-37), and dermcidin.",
           "Resident flora compete for nutrients and attachment sites (colonization resistance)."
-        ]
+        ],
+        "why": "Each defense blocks a step an organism needs to establish infection. Dryness and constant shedding prevent stable attachment, the acid mantle and sebum-derived free fatty acids slow the growth of many pathogens, and cationic antimicrobial peptides insert into negatively charged microbial membranes and disrupt them. Resident flora add colonization resistance by occupying binding sites and nutrients. This is why skin infections follow barrier breaks, prolonged moisture, or loss of normal flora after antibiotics."
       },
       {
         "h": "Stages of a skin infection",
@@ -307,7 +349,8 @@
           "Adherence: bacterial adhesins bind fibronectin, collagen, or other matrix proteins.",
           "Colonization and invasion: spreading factors (hyaluronidase, streptokinase, DNases) loosen tissue.",
           "Spread through tissue planes or lymphatics; damage comes from toxins and from the host's own inflammation."
-        ]
+        ],
+        "why": "Intact stratum corneum excludes bacteria, so nearly every skin infection begins at a break that exposes living tissue. Adhesins such as staphylococcal MSCRAMMs and streptococcal F protein bind exposed matrix proteins, and spreading enzymes then degrade hyaluronic acid, fibrin, and DNA in pus so organisms can move through tissue. The depth reached names the disease: epidermis in impetigo, upper dermis and lymphatics in erysipelas, deeper dermis and subcutis in cellulitis, and fascia in necrotizing fasciitis."
       },
       {
         "h": "Toxin-driven skin disease",
@@ -317,7 +360,8 @@
           "Toxin is made at a distant site (nose, umbilicus), so the blisters are sterile; infants and people with kidney failure clear toxin poorly.",
           "Superantigens (TSST-1, streptococcal pyrogenic exotoxins) bind MHC class II and the T cell receptor V-beta region outside the peptide groove.",
           "This activates up to about a fifth of all T cells, releasing a cytokine storm (IL-2, TNF, IFN-gamma) with fever, diffuse red rash, shock, and later desquamation of palms and soles."
-        ]
+        ],
+        "why": "In scalded skin syndrome the bacteria stay at a distant focus and only the toxin reaches the skin through blood, so the blisters are sterile. Desmoglein 1 is the main desmosomal cadherin in the superficial epidermis, while mucosa relies on desmoglein 3, so cleavage splits skin at the granular layer and spares the mouth; pemphigus foliaceus targets the same protein with autoantibodies. Superantigens skip antigen processing and cross-link MHC II to whole families of T cell receptor V-beta chains, so a large fraction of T cells activate at once and the cytokine flood causes capillary leak and shock."
       },
       {
         "h": "Host factors",
@@ -328,6 +372,40 @@
           "Injection drug use: S aureus, including MRSA, abscesses at injection sites.",
           "Neutropenia: Pseudomonas (ecthyma gangrenosum) and molds; pus may be scant.",
           "T cell deficiency (HIV, transplant): severe HSV and VZV, extensive molluscum, mucocutaneous Candida."
+        ],
+        "why": "Each host factor removes a specific defense, which predicts the organism. Diabetes impairs neutrophil chemotaxis and killing, neuropathy delays recognition of wounds, and poor perfusion limits delivery of leukocytes and oxygen, so mixed aerobic and anaerobic foot infections develop. Neutrophils are the main defense against Pseudomonas and molds, while T cells control herpesviruses, poxviruses, and mucocutaneous Candida (Th17 cells in particular for Candida). The infection pattern therefore points to the arm of immunity that is missing."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Staphylococcal scalded skin syndrome",
+        "steps": [
+          "S aureus grows at a distant site such as the umbilicus or nose",
+          "Exfoliative toxins A and B enter the bloodstream",
+          "Poor renal clearance (infants, kidney failure) lets toxin reach widespread skin",
+          "Toxin cleaves desmoglein 1 in the stratum granulosum",
+          "Sterile superficial blisters form; Nikolsky sign positive, mucosa spared"
+        ]
+      },
+      {
+        "title": "Superantigen toxic shock",
+        "steps": [
+          "S aureus releases TSST-1 or S pyogenes releases a pyrogenic exotoxin",
+          "Toxin binds MHC II and T cell receptor V-beta outside the peptide groove",
+          "Up to about a fifth of all T cells activate at once",
+          "Massive release of IL-2, TNF, and IFN-gamma",
+          "Fever, diffuse red rash, capillary leak, and shock",
+          "Desquamation of palms and soles about 1 to 2 weeks later"
+        ]
+      },
+      {
+        "title": "Bacterial skin infection",
+        "steps": [
+          "Breach in the stratum corneum (cut, bite, fissure, catheter)",
+          "Adhesins bind fibronectin, collagen, or other matrix proteins",
+          "Spreading factors (hyaluronidase, streptokinase, DNases) loosen tissue",
+          "Organisms spread through tissue planes or lymphatics",
+          "Toxins and host inflammation cause tissue damage"
         ]
       }
     ],
@@ -514,7 +592,8 @@
           "Proliferation (about day 3 to week 3): granulation tissue of fibroblasts, new capillaries (VEGF), and type III collagen; keratinocytes migrate to cover the gap.",
           "Remodeling (weeks to a year): type III collagen is replaced by type I; zinc-dependent matrix metalloproteinases reshape the matrix.",
           "Strength is about 10 percent of normal at 1 week and plateaus at about 70 to 80 percent by 3 months."
-        ]
+        ],
+        "why": "Each phase sets up the next through signaling molecules. Platelet degranulation releases PDGF and TGF-beta, which recruit inflammatory cells and fibroblasts. Macrophages are the key cell of healing because they clear debris and secrete the growth factors that drive fibroblast proliferation and angiogenesis, so wounds heal poorly without them. Type III collagen is laid down quickly as a provisional matrix, and remodeling replaces it with cross-linked type I collagen, which is why tensile strength keeps rising for months but never fully returns to normal."
       },
       {
         "h": "Primary versus secondary intention",
@@ -525,7 +604,8 @@
           "Vitamin C is a cofactor for prolyl and lysyl hydroxylase; without it collagen cannot form stable triple helices.",
           "Zinc is a cofactor for matrix metalloproteinases and for cell proliferation.",
           "Glucocorticoids blunt inflammation and collagen synthesis, giving weak scars."
-        ]
+        ],
+        "why": "The size of the defect sets how much granulation tissue and contraction are needed. In secondary intention, myofibroblasts (fibroblasts that express smooth muscle actin) pull the edges together, shrinking large defects but risking contractures. Collagen synthesis is the step most vulnerable to deficiency: prolyl and lysyl hydroxylases need vitamin C to keep their iron in the ferrous state, and without hydroxylation the triple helix is unstable and cannot be cross-linked, so scurvy causes poor healing and fragile vessels. Glucocorticoids suppress macrophage function and fibroblast collagen synthesis, giving weak scars."
       },
       {
         "h": "Burn complications",
@@ -536,7 +616,8 @@
           "Hypermetabolism: catecholamines, cortisol, and glucagon raise energy use and break down muscle.",
           "Inhalation injury: facial burns, singed nasal hair, soot, hoarseness; carbon monoxide and cyanide poisoning.",
           "Late: contractures over joints and squamous cell carcinoma in a chronic burn scar (Marjolin ulcer)."
-        ]
+        ],
+        "why": "Thermal injury releases histamine, prostaglandins, and cytokines, and once a burn is large the capillaries leak throughout the body, so plasma moves into the interstitium and hypovolemic shock develops over the first day or two. Loss of the skin barrier plus avascular eschar lets organisms such as Pseudomonas aeruginosa multiply where leukocytes and systemic antibiotics reach poorly. The stress hormone surge raises metabolic rate and drives protein catabolism, and years later chronic injury in an unstable scar can give rise to squamous cell carcinoma."
       },
       {
         "h": "Electrical and radiation injury",
@@ -548,7 +629,8 @@
           "Ionizing radiation breaks DNA directly and, more often, through hydroxyl radicals made from water.",
           "Acute radiation dermatitis: erythema, then dry and moist desquamation; chronic: atrophy, telangiectasia, fibrosis, and obliterative endarteritis.",
           "Years later: basal cell and squamous cell carcinoma, and angiosarcoma in the radiation field."
-        ]
+        ],
+        "why": "Current follows the path of least resistance, and nerves, vessels, and muscle conduct far better than dry skin, so small surface wounds hide extensive deep thermal injury. Necrotic muscle releases myoglobin, potassium, and creatine kinase; myoglobin precipitates in renal tubules and its heme injures tubular cells, causing acute kidney injury. Ionizing radiation does most of its damage indirectly by splitting water into hydroxyl radicals that break DNA, so dividing cells such as basal keratinocytes are hit first, and late obliterative endarteritis explains the chronic fibrosis and poor healing of irradiated skin."
       },
       {
         "h": "Pressure, ear trauma, and spider bites",
@@ -558,6 +640,40 @@
           "Cauliflower ear: blunt trauma causes a hematoma that lifts the perichondrium off cartilage; avascular cartilage loses its blood supply, dies, and is replaced by fibrous tissue and irregular new cartilage.",
           "Brown recluse venom contains sphingomyelinase D, which damages cell membranes and triggers complement, neutrophils, and small-vessel thrombosis.",
           "The bite becomes a red, white, and blue lesion with a central necrotic ulcer; systemic hemolysis is rare."
+        ],
+        "why": "Sustained pressure above capillary closing pressure (about 32 mm Hg) occludes the microcirculation and makes tissue ischemic within hours. Pressure is greatest at the bone interface and muscle tolerates ischemia less than skin, so the injury is often cone-shaped with its widest part deep near the bone. Cartilage has no blood vessels and is fed by diffusion from the perichondrium, so a hematoma that separates the two starves it. Brown recluse sphingomyelinase D drives complement activation, neutrophil influx, and small-vessel thrombosis, which explains the central necrosis surrounded by ischemic and inflamed skin."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Wound healing sequence",
+        "steps": [
+          "Hemostasis: vasoconstriction, platelet plug, fibrin clot; platelets release PDGF and TGF-beta",
+          "Neutrophils arrive within the first day or two",
+          "Macrophages dominate by about day 3, clearing debris and releasing growth factors",
+          "Granulation tissue forms: fibroblasts, VEGF-driven capillaries, type III collagen",
+          "Keratinocytes re-epithelialize and myofibroblasts contract the wound",
+          "Remodeling: type I collagen replaces type III as MMPs reshape the matrix"
+        ]
+      },
+      {
+        "title": "Burn shock",
+        "steps": [
+          "Large burn releases histamine, prostaglandins, and cytokines",
+          "Capillary permeability rises throughout the body",
+          "Plasma shifts into the interstitium over the first 24 to 48 hours",
+          "Intravascular volume falls and hematocrit rises",
+          "Hypovolemic shock with low cardiac output and low urine output"
+        ]
+      },
+      {
+        "title": "Electrical injury to kidney",
+        "steps": [
+          "Current flows along low-resistance nerves, vessels, and muscle",
+          "Heat causes deep muscle necrosis (rhabdomyolysis)",
+          "Necrotic muscle releases myoglobin, potassium, and creatine kinase",
+          "Myoglobin is filtered and precipitates as casts in renal tubules",
+          "Cast obstruction and heme toxicity cause acute kidney injury"
         ]
       }
     ],
@@ -805,7 +921,8 @@
           "Mast cells sit beside dermal vessels and release histamine, TNF, and lipid mediators when triggered.",
           "Langerhans cells (CD1a, langerin, Birbeck granules) catch antigen in the epidermis.",
           "After capture they express CCR7, travel in afferent lymphatics to the regional node, and present peptide on MHC II (and MHC I) with B7 costimulation to prime naive T cells."
-        ]
+        ],
+        "why": "Keratinocytes act as sentinels: Toll-like receptors detect conserved microbial molecules and activate NF-kB, which drives IL-1, TNF, and antimicrobial peptide production. Mast cells beside vessels turn that alarm into increased blood flow and permeability within minutes. Langerhans cells link innate and adaptive immunity, because naive T cells circulate through lymph nodes and need an antigen-presenting cell to bring antigen there; CCR7 steers that migration toward node chemokines, and B7 binding CD28 supplies the second signal that prevents T cell anergy."
       },
       {
         "h": "Acute inflammation steps",
@@ -817,7 +934,8 @@
           "Transmigration through the venule wall uses PECAM-1 (CD31).",
           "Chemotaxis toward C5a, LTB4, IL-8, and bacterial peptides.",
           "Leukocyte adhesion deficiency type 1: CD18 defect, very high blood neutrophils, infections without pus, poor wound healing, delayed umbilical cord separation."
-        ]
+        ],
+        "why": "Leukocyte recruitment is a sequence in which each step uses a different adhesion pair. Selectin binding is weak and transient, so cells roll; chemokines on the endothelium then switch integrins to a high-affinity state so they bind ICAM-1 and stop, and PECAM-1 guides them across the venule wall. Leakage happens mainly in postcapillary venules, where mediators contract endothelial cells and widen the gaps between them. A defect in CD18, the shared beta-2 integrin chain, blocks firm adhesion, so neutrophils stay in the blood and cannot reach tissue to form pus."
       },
       {
         "h": "Outcomes and granulomas",
@@ -827,7 +945,8 @@
           "Chronic inflammation when the cause persists: macrophages, lymphocytes, plasma cells, and fibrosis.",
           "Granuloma: macrophages make IL-12, which drives Th1 cells; Th1 cells make IFN-gamma, which turns macrophages into epithelioid cells and giant cells; TNF keeps it intact.",
           "Caseating granulomas: tuberculosis and some fungi. Noncaseating: sarcoidosis, Crohn disease, foreign bodies."
-        ]
+        ],
+        "why": "The outcome depends on whether the stimulus is cleared. Pyogenic bacteria recruit masses of neutrophils whose enzymes liquefy tissue, producing an abscess. When macrophages cannot digest an agent such as mycobacteria or foreign material, a Th1 loop forms: macrophage IL-12 drives Th1 cells, and their IFN-gamma activates macrophages into epithelioid cells that wall the agent off. TNF maintains the granuloma, which is why TNF inhibitors can reactivate latent tuberculosis."
       },
       {
         "h": "Autoimmune skin signs",
@@ -836,7 +955,8 @@
           "Lupus skin biopsy: interface dermatitis with granular IgG, IgM, and C3 along the dermal-epidermal junction.",
           "Dermatomyositis: Gottron papules over knuckles, heliotrope periorbital rash, proximal muscle weakness, raised cancer risk.",
           "Systemic sclerosis: sclerodactyly and Raynaud; anticentromere in limited (CREST) disease, anti-Scl-70 (topoisomerase I) in diffuse disease with lung fibrosis."
-        ]
+        ],
+        "why": "In lupus, ultraviolet light induces keratinocyte apoptosis that exposes nuclear antigens, autoantibodies bind them, and immune complexes deposit along the basement membrane zone, the basis of the granular band on immunofluorescence. Discoid lesions scar because interface inflammation destroys the hair follicle and its stem cells. Dermatomyositis is a complement-mediated microangiopathy of skin and muscle, and systemic sclerosis combines small-vessel endothelial injury with fibroblast activation that deposits excess collagen, producing Raynaud phenomenon and skin tightening."
       },
       {
         "h": "Tumor immunity and vaccines",
@@ -847,6 +967,41 @@
           "HPV vaccine: recombinant L1 capsid protein self-assembles into virus-like particles with no DNA, inducing neutralizing IgG.",
           "Live attenuated varicella vaccine replicates, so it induces antibody plus CD8 and CD4 T cell immunity.",
           "Toxoid booster given to someone with high antitoxin IgG can cause an Arthus reaction: local immune complexes, complement, neutrophils, painful swelling within hours."
+        ],
+        "why": "Two killers control tumor cells: CD8 T cells need peptide on MHC I, while NK cells are inhibited by MHC I, so a tumor that drops MHC I escapes T cells but becomes an NK target. PD-L1 on tumor cells engages PD-1 on activated T cells and delivers an inhibitory signal (the target of checkpoint inhibitors), and drug suppression of T cells explains skin cancers in transplant recipients. Vaccines follow the same logic: HPV virus-like particles are exogenous antigen presented on MHC II and give mainly antibody, while a live attenuated vaccine makes protein inside cells and also primes CD8 T cells through MHC I."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Leukocyte recruitment",
+        "steps": [
+          "Mediators dilate arterioles and make postcapillary venules leak",
+          "Endothelial E-selectin and P-selectin bind sialyl Lewis X; leukocytes roll",
+          "Chemokines switch beta-2 integrins (LFA-1, Mac-1) to high affinity",
+          "Integrins bind ICAM-1 and the leukocyte adheres firmly",
+          "Leukocyte transmigrates across the venule wall using PECAM-1",
+          "Chemotaxis toward C5a, LTB4, IL-8, and bacterial peptides"
+        ]
+      },
+      {
+        "title": "Granuloma formation",
+        "steps": [
+          "Macrophage engulfs an agent it cannot destroy, such as mycobacteria",
+          "Macrophage presents antigen on MHC II and secretes IL-12",
+          "IL-12 drives CD4 T cells to become Th1 cells",
+          "Th1 cells secrete IFN-gamma",
+          "IFN-gamma activates macrophages into epithelioid cells and multinucleated giant cells",
+          "TNF maintains the granuloma and contains the agent"
+        ]
+      },
+      {
+        "title": "Langerhans cell priming",
+        "steps": [
+          "Langerhans cell captures antigen in the epidermis",
+          "Cell matures and expresses CCR7 and B7 costimulatory molecules",
+          "Cell travels in afferent lymphatics to the regional lymph node",
+          "Peptide on MHC with B7 primes naive T cells",
+          "Effector T cells home back to the skin"
         ]
       }
     ],
@@ -1041,7 +1196,8 @@
           "Panton-Valentine leukocidin forms pores in leukocytes and is linked to necrotic community MRSA abscesses.",
           "Exfoliative toxins cleave desmoglein 1; TSST-1 is a superantigen (toxic shock syndrome).",
           "MRSA carries mecA, which encodes PBP2a, a penicillin-binding protein with low affinity for beta-lactams."
-        ]
+        ],
+        "why": "Each S aureus virulence factor defeats a specific defense. Coagulase converts fibrinogen to fibrin, helping coat the organism and wall off an abscess, and protein A binds IgG by its Fc region so the antibody faces the wrong way and cannot opsonize. Panton-Valentine leukocidin lyses neutrophils, which explains the extensive necrosis of community MRSA abscesses. Methicillin resistance is a change in the drug target: PBP2a keeps cross-linking peptidoglycan in the presence of beta-lactams because they bind it poorly, so standard beta-lactams fail, with ceftaroline as the exception."
       },
       {
         "h": "Streptococcus pyogenes (group A)",
@@ -1051,7 +1207,8 @@
           "Streptolysin O lyses cells and is immunogenic (ASO titer); streptokinase turns plasminogen to plasmin and dissolves fibrin.",
           "Pyrogenic exotoxins are superantigens: scarlet fever and streptococcal toxic shock.",
           "Skin infection by nephritogenic strains can cause glomerulonephritis; rheumatic fever follows only pharyngitis, because the rheumatogenic M types are throat strains."
-        ]
+        ],
+        "why": "Group A strep resists opsonization through M protein, which binds the complement regulator factor H, and through a hyaluronic acid capsule that the immune system treats as self. Streptokinase, hyaluronidase, and DNases help it spread quickly through tissue planes, which fits the diffuse spread of erysipelas and cellulitis. Poststreptococcal disease is immune-mediated: glomerulonephritis follows immune complex deposition in glomeruli after skin or throat infection, while rheumatic fever comes from molecular mimicry between M protein and cardiac antigens and follows only pharyngitis."
       },
       {
         "h": "Fungi in skin",
@@ -1062,7 +1219,8 @@
           "Malassezia KOH prep: short hyphae with round yeasts (spaghetti and meatballs); its azelaic acid inhibits tyrosinase, causing pale spots.",
           "Candida albicans: budding yeast and pseudohyphae; germ tube positive at 37 °C (98.6 °F).",
           "Candida risks: moisture, diabetes, antibiotics that remove competing flora, glucocorticoids; T cell (Th17) defects cause mucocutaneous disease, neutropenia allows invasive disease."
-        ]
+        ],
+        "why": "Dermatophytes depend on keratinases to digest keratin, so they stay in the stratum corneum, hair, and nails and produce scaly, superficial lesions with an advancing border. Malassezia needs lipid and lives in sebum-rich skin of the upper trunk; its azelaic acid inhibits tyrosinase, lowering melanin output, which is why lesions often look lighter after sun exposure. Candida is controlled at mucosal surfaces by Th17 cells (through IL-17 recruitment of neutrophils and antimicrobial peptides) and in tissue by neutrophils, so the specific immune defect predicts whether infection stays mucocutaneous or becomes invasive."
       },
       {
         "h": "Warts, molluscum, and herpes",
@@ -1073,7 +1231,8 @@
           "Molluscum contagiosum: poxvirus, enveloped double-stranded DNA that replicates in the cytoplasm; umbilicated papules with molluscum bodies (large eosinophilic cytoplasmic inclusions).",
           "HSV-1, HSV-2, and VZV: enveloped double-stranded DNA; infect epithelium, travel up sensory axons, and stay latent in ganglia; reactivation gives herpes labialis, genital herpes, or dermatomal zoster.",
           "Tzanck smear of a vesicle base shows multinucleated giant cells in both HSV and VZV."
-        ]
+        ],
+        "why": "HPV infects basal keratinocytes but completes its life cycle only as those cells differentiate, so virions assemble near the surface and koilocytes appear in the upper layers. In high-risk types, E6 targets p53 for ubiquitin-mediated degradation, removing the DNA damage checkpoint and apoptosis, and E7 binds Rb so E2F is free to push the cell into S phase. Herpesviruses escape immunity by staying latent in sensory ganglion neurons, so stress, fever, ultraviolet light, or immunosuppression can reactivate them along that nerve's distribution, and both HSV and VZV produce multinucleated giant cells by cell fusion."
       },
       {
         "h": "Acne and hot tub organisms",
@@ -1082,6 +1241,39 @@
           "C acnes also activates TLR2 on monocytes and keratinocytes, releasing IL-1, IL-8, and IL-12 and drawing in neutrophils.",
           "Pseudomonas aeruginosa: gram-negative rod, oxidase positive, non-lactose fermenter; grows in poorly chlorinated warm water.",
           "Hot tub folliculitis: itchy follicular pustules in areas covered by a swimsuit, a day or two after exposure."
+        ],
+        "why": "Acne begins with androgen-driven sebum production and abnormal keratinization that plugs the follicle, creating the anaerobic, lipid-rich niche C acnes needs. Its lipases release free fatty acids and its TLR2 activation draws in neutrophils, so a comedone becomes an inflamed papule or pustule, especially when the follicle wall ruptures. Pseudomonas tolerates warm water and survives low chlorine levels, and wet, tight fabric holds that water against follicles, which explains the swimsuit distribution of hot tub folliculitis."
+      }
+    ],
+    "flows": [
+      {
+        "title": "High-risk HPV to carcinoma",
+        "steps": [
+          "HPV 16 or 18 enters basal keratinocytes through tiny breaks",
+          "Viral DNA integrates and loses E2, so E6 and E7 expression rises",
+          "E6 sends p53 for degradation; E7 binds Rb and releases E2F",
+          "Cells pass the G1 checkpoint with unrepaired DNA damage",
+          "Mutations accumulate: dysplasia, then squamous cell carcinoma"
+        ]
+      },
+      {
+        "title": "Acne pathogenesis",
+        "steps": [
+          "Androgens enlarge sebaceous glands and raise sebum output",
+          "Abnormal follicular keratinization plugs the follicle (comedone)",
+          "C acnes multiplies in the anaerobic, lipid-rich plug",
+          "Lipases make free fatty acids; TLR2 activation releases IL-1, IL-8, IL-12",
+          "Neutrophils arrive and the follicle wall ruptures into papules and pustules"
+        ]
+      },
+      {
+        "title": "Herpes latency and reactivation",
+        "steps": [
+          "HSV infects skin or mucosal epithelium and forms vesicles",
+          "Virus enters sensory nerve endings and travels up the axon",
+          "Latency in sensory ganglion neurons (trigeminal for HSV-1, sacral for HSV-2)",
+          "Stress, fever, ultraviolet light, or immunosuppression triggers reactivation",
+          "Virus travels down the axon and causes recurrent lesions in that nerve's territory"
         ]
       }
     ],
@@ -1300,7 +1492,8 @@
           "Nevi evolve with age: junctional in children, compound in young adults, intradermal in older adults.",
           "Maturation with depth: superficial cells are larger, nested, and pigmented; deeper cells are smaller, less pigmented, and spindle shaped.",
           "Loss of maturation with depth is a warning sign for melanoma."
-        ]
+        ],
+        "why": "A nevus is a clonal expansion that stops itself. An activating BRAF or NRAS mutation drives MAPK signaling and proliferation, but strong oncogenic signaling also triggers senescence through p16 (CDKN2A), which inhibits CDK4 and keeps Rb active so the cells stop dividing. Melanoma usually needs additional hits, such as CDKN2A loss or TERT promoter mutation, that remove this brake. Nevus cells start at the dermal-epidermal junction and move into the dermis over time, becoming smaller and less pigmented, so failure of this maturation suggests cells that are still proliferating."
       },
       {
         "h": "Benign nevus or melanoma",
@@ -1309,7 +1502,8 @@
           "Melanoma warning signs follow ABCDE: asymmetry, irregular border, color variation, diameter over 6 mm, evolution.",
           "A mole that looks different from the patient's other moles (ugly duckling) deserves a biopsy.",
           "Large congenital melanocytic nevi carry a higher lifetime melanoma risk; small congenital nevi carry little added risk."
-        ]
+        ],
+        "why": "The ABCDE features track the biology of malignant growth. A benign clone grows evenly and then stops, giving symmetry and a single color, while melanoma contains subclones growing at different rates, producing asymmetry, notched borders, mixed colors, and change over time. Melanoma first spreads laterally in a radial growth phase with little metastatic risk, then invades the dermis in a vertical growth phase, and depth of invasion (Breslow thickness) is the strongest predictor of outcome for localized melanoma."
       },
       {
         "h": "Vitiligo",
@@ -1320,7 +1514,8 @@
           "Koebner phenomenon: new patches appear at sites of skin injury.",
           "Biopsy: melanocytes absent from the basal layer.",
           "Linked to autoimmune thyroid disease (most common), type 1 diabetes, pernicious anemia, and Addison disease."
-        ]
+        ],
+        "why": "Vitiligo is an organ-specific autoimmune disease: CD8 T cells recognize melanocyte proteins, and IFN-gamma signaling through JAK-STAT induces the chemokine CXCL10, which recruits more T cells. Because melanocytes are gone, the skin cannot make melanin at all, so patches are milk-white and stand out under Wood lamp; in albinism melanocytes are present but melanin synthesis is defective, so biopsy shows normal melanocyte numbers. Shared autoimmune susceptibility explains the association with thyroid disease and other autoimmune endocrine disorders."
       },
       {
         "h": "Freckles, lentigines, melasma",
@@ -1329,7 +1524,8 @@
           "Lentigo simplex: more melanocytes along the basal layer; does not darken with sun.",
           "Solar lentigines: more basal melanocytes and melanin in chronically sun-exposed skin of older adults; they do not fade.",
           "Melasma: symmetric brown patches on cheeks, forehead, and upper lip with pregnancy or estrogen; sun makes it worse."
-        ]
+        ],
+        "why": "The key distinction is melanocyte number versus melanocyte activity. Freckles have normal melanocyte numbers that respond to ultraviolet light by making and transferring more melanin to keratinocytes, so they darken and fade with the seasons; lentigines have more melanocytes along the basal layer, so they persist. Melasma reflects hormone-sensitive melanocyte activity, with estrogen and progesterone increasing melanogenesis and ultraviolet light amplifying it, which is why it appears in pregnancy or with oral contraceptives."
       },
       {
         "h": "Addison disease and pigment",
@@ -1338,6 +1534,40 @@
           "ACTH and the MSH sequences cut from POMC stimulate melanocortin 1 receptors on melanocytes.",
           "Result: diffuse hyperpigmentation, strongest in palmar creases, gums and buccal mucosa, scars, and sun-exposed skin.",
           "Secondary adrenal insufficiency has low ACTH, so the skin does not darken."
+        ],
+        "why": "POMC is a precursor protein cleaved into ACTH, beta-lipotropin, and other peptides, and ACTH itself contains the alpha-MSH amino acid sequence. ACTH and MSH peptides activate the melanocortin 1 receptor, a Gs-coupled receptor that raises cAMP and drives eumelanin synthesis. In primary adrenal failure, low cortisol no longer suppresses CRH and ACTH, so pigmentation rises; in secondary failure the pituitary is the problem, ACTH is low, and the skin does not darken."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Addison hyperpigmentation",
+        "steps": [
+          "Adrenal cortex is destroyed, most often by autoimmunity, and cortisol falls",
+          "Loss of negative feedback raises CRH and pituitary POMC synthesis",
+          "POMC is cleaved to ACTH, which contains the alpha-MSH sequence",
+          "ACTH and MSH bind melanocortin 1 receptors on melanocytes",
+          "cAMP rises and eumelanin production increases",
+          "Hyperpigmentation of palmar creases, gums, scars, and sun-exposed skin"
+        ]
+      },
+      {
+        "title": "Melanoma progression",
+        "steps": [
+          "Ultraviolet damage and activating BRAF or NRAS mutations drive melanocyte proliferation",
+          "Loss of the p16 brake (CDKN2A) and TERT activation allow continued growth",
+          "Radial growth phase: lateral spread within the epidermis",
+          "Vertical growth phase: invasion into the dermis",
+          "Entry into lymphatics and vessels allows metastasis"
+        ]
+      },
+      {
+        "title": "Vitiligo pathogenesis",
+        "steps": [
+          "CD8 T cells recognize melanocyte proteins in the skin",
+          "T cells release IFN-gamma",
+          "IFN-gamma signals through JAK-STAT and induces CXCL10 in keratinocytes",
+          "CXCL10 recruits more CD8 T cells to the skin",
+          "Melanocytes are destroyed, leaving sharply demarcated depigmented macules"
         ]
       }
     ],
@@ -1550,7 +1780,8 @@
           "Chronic scratching thickens skin into lichenification.",
           "Part of the atopic triad with allergic rhinitis and asthma.",
           "Complications: S aureus colonization and infection, and eczema herpeticum (widespread HSV with punched-out erosions and fever)."
-        ]
+        ],
+        "why": "Atopic dermatitis is a barrier defect and an immune bias that feed each other. Filaggrin helps build the cornified envelope and breaks down into natural moisturizing factor, so its loss raises transepidermal water loss and lets allergens reach Langerhans cells, which favors Th2 sensitization. IL-4 and IL-13 then lower filaggrin and antimicrobial peptide expression, which explains the S aureus colonization and the risk of disseminated HSV. Sensitization through damaged skin can later extend to the airways, the basis of the atopic march."
       },
       {
         "h": "Contact dermatitis",
@@ -1560,7 +1791,8 @@
           "Irritant: direct chemical or physical damage to keratinocytes (soaps, solvents, wet work); no sensitization needed and patch test is negative.",
           "Shape follows exposure: earlobes, wrist, or belly button area from nickel; linear vesicles from plants; hands from wet work.",
           "Histology of both, and of acute eczema: spongiosis (fluid between keratinocytes that stretches their junctions)."
-        ]
+        ],
+        "why": "Allergic contact dermatitis needs a prior sensitization phase: haptens are too small to be immunogenic alone, so they bind self proteins, and Langerhans cells carry the modified proteins to lymph nodes to prime T cells. On re-exposure, memory T cells home to the skin and release cytokines that recruit more inflammatory cells, a process that takes 48 to 72 hours and defines delayed-type hypersensitivity. Irritant dermatitis skips the immune step, so it can occur on first exposure and the patch test is negative."
       },
       {
         "h": "Erythema multiforme and SJS/TEN",
@@ -1571,7 +1803,8 @@
           "Stevens-Johnson syndrome and toxic epidermal necrolysis: drug-triggered CD8 T cell killing causes full-thickness epidermal necrosis.",
           "SJS involves under 10 percent of body surface; TEN over 30 percent; 10 to 30 percent is overlap.",
           "Painful dusky skin, mucosal involvement (usually two or more sites), positive Nikolsky sign; triggers include sulfonamides, anticonvulsants, and allopurinol."
-        ]
+        ],
+        "why": "Both are cytotoxic T cell attacks on keratinocytes, differing in trigger and scale. In erythema multiforme, HSV DNA fragments carried to the skin are thought to drive a localized response, while in SJS/TEN drug-specific CD8 T cells and NK cells release granulysin, perforin, and granzyme B and use Fas ligand to kill keratinocytes widely; certain HLA types raise the risk, such as HLA-B*15:02 with carbamazepine. Full-thickness epidermal death separates the epidermis from the dermis, so the skin sloughs with gentle pressure and the barrier is lost, leading to fluid loss and infection much like a burn."
       },
       {
         "h": "Urticaria and angioedema",
@@ -1581,7 +1814,8 @@
           "Chronic urticaria lasts over 6 weeks; many cases involve IgG autoantibodies to IgE or its receptor.",
           "Angioedema is the same leak in deeper dermis and subcutis: swelling of lips, eyelids, tongue, or airway.",
           "Bradykinin angioedema has no hives and does not respond to antihistamines: hereditary C1 inhibitor deficiency (low C4) or ACE inhibitors."
-        ]
+        ],
+        "why": "Hives and angioedema are the same vascular leak at different depths. Histamine binds H1 receptors on postcapillary venule endothelium and opens gaps for plasma to leak, and because the mediator is cleared quickly each wheal resolves within hours. Bradykinin raises permeability through B2 receptors instead: C1 inhibitor normally restrains kallikrein, so its deficiency raises bradykinin, and ACE (kininase II) normally degrades bradykinin, so ACE inhibitors cause the same swelling. C4 is low in hereditary angioedema because unregulated C1 keeps cleaving it."
       },
       {
         "h": "Other common rashes",
@@ -1590,6 +1824,41 @@
           "Seborrheic dermatitis: inflammatory response to Malassezia in oily areas (scalp, eyebrows, nasolabial folds) with greasy yellow scale; cradle cap in infants; severe in HIV and Parkinson disease.",
           "Aphthous ulcers: painful, shallow oral ulcers with a yellow-gray base and red halo on nonkeratinized mucosa; heal in 1 to 2 weeks.",
           "Recurrent aphthous ulcers point toward Behçet disease, inflammatory bowel disease, or celiac disease."
+        ],
+        "why": "These conditions are recognized by pattern more than by test. Pityriasis rosea is associated with reactivation of HHV-6 and HHV-7, and its oval patches line up along skin cleavage lines. Seborrheic dermatitis tracks sebaceous gland density, because Malassezia feeds on sebum lipids and its byproducts provoke inflammation, which explains its scalp and face distribution and its severity when T cell immunity is low. Recurrent aphthous ulcers reflect T cell-mediated mucosal injury, so frequent or severe ulcers with systemic signs suggest an underlying inflammatory or malabsorptive disease."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Allergic contact dermatitis",
+        "steps": [
+          "Hapten (nickel, urushiol) penetrates skin and binds self proteins",
+          "Langerhans cells carry modified proteins to regional lymph nodes",
+          "Naive T cells are primed and memory T cells form (sensitization)",
+          "On re-exposure, memory T cells home to the skin",
+          "Cytokines recruit inflammatory cells; spongiosis and vesicles form",
+          "Itchy vesicular eruption appears 48 to 72 hours after exposure"
+        ]
+      },
+      {
+        "title": "Hereditary angioedema",
+        "steps": [
+          "C1 inhibitor is deficient or dysfunctional",
+          "Kallikrein is unchecked and cleaves high molecular weight kininogen",
+          "Bradykinin builds up and binds B2 receptors on endothelium",
+          "Vascular permeability rises in deep dermis and subcutis",
+          "Swelling of face, airway, or bowel wall without hives"
+        ]
+      },
+      {
+        "title": "Atopic dermatitis",
+        "steps": [
+          "Filaggrin loss weakens the stratum corneum",
+          "Water escapes and allergens and microbes enter",
+          "Langerhans cells prime a Th2 response",
+          "IL-4 and IL-13 drive IgE and further reduce barrier proteins",
+          "IL-31 drives itch, and scratching damages the barrier further",
+          "S aureus colonization and lichenification develop"
         ]
       }
     ],

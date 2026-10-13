@@ -12,7 +12,8 @@
           "Phagocyte defect (chronic granulomatous disease): catalase-positive organisms such as S aureus, Aspergillus, Serratia, Nocardia.",
           "Terminal complement (C5 to C9) defect: recurrent Neisseria infections.",
           "Antibody defects show up after about 6 months, when maternal IgG fades."
-        ]
+        ],
+        "why": "Each arm of immunity handles a different kind of pathogen, so the infection list points to the broken arm. Opsonizing antibody with complement clears encapsulated bacteria, and neutralizing and mucosal antibody controls enteroviruses and Giardia, while T cells and Th1-activated macrophages handle viruses, fungi, and intracellular organisms. Neutrophil NADPH oxidase is needed to kill catalase-positive organisms, and the membrane attack complex (C5b to C9) is uniquely important for lysing Neisseria. Antibody defects stay hidden early because maternal IgG crosses the placenta and protects the infant for the first months."
       },
       {
         "h": "X-linked agammaglobulinemia (Bruton)",
@@ -23,7 +24,8 @@
           "Tonsils and lymph nodes are small because they lack germinal centers.",
           "Infections: encapsulated bacteria, enteroviral meningoencephalitis, vaccine polio, Giardia.",
           "Avoid live vaccines."
-        ]
+        ],
+        "why": "BTK carries the signal from the pre-B cell receptor, so without it B cell development stops at the pre-B stage in the marrow. No mature B cells means no plasma cells and no germinal centers, which explains both the low levels of every immunoglobulin class and the tiny tonsils and nodes. T cells are intact, so most viral infections are controlled, except enteroviruses, which need neutralizing antibody to clear; this is why echovirus meningoencephalitis and live oral polio vaccine are dangerous. The disease is X-linked recessive, so affected patients are nearly always boys."
       },
       {
         "h": "Common variable immunodeficiency (CVID)",
@@ -33,7 +35,8 @@
           "Onset is often in the 20s to 40s, so a new adult with recurrent pneumonia fits.",
           "Recurrent sinusitis, pneumonia, bronchiectasis, chronic Giardia diarrhea.",
           "Higher risk of autoimmune disease (cytopenias) and lymphoma."
-        ]
+        ],
+        "why": "In CVID, B cells are present but fail at terminal differentiation and class switching, so few plasma cells form and IgG falls along with IgA, IgM, or both. The cause is heterogeneous, with known genes such as TACI explaining only a minority of cases, which is why the disease usually appears in adulthood and diagnosis rests on low immunoglobulins plus a poor vaccine response. Repeated bacterial lower respiratory infections damage bronchial walls and leave permanent bronchiectasis. The same immune dysregulation that blocks antibody production also allows autoimmune cytopenias and raises the risk of lymphoma."
       },
       {
         "h": "Selective IgA deficiency",
@@ -43,7 +46,8 @@
           "Linked to celiac disease and other autoimmune diseases.",
           "Anti-IgA antibodies can cause anaphylaxis after transfusion of blood products that contain IgA.",
           "IgA-based tests (such as IgA anti-tissue transglutaminase) are falsely negative; use IgG-based celiac tests."
-        ]
+        ],
+        "why": "Secretory IgM can partly replace IgA at mucosal surfaces, which is why most people with IgA deficiency have no symptoms. Because the patient has never made IgA, the immune system can treat IgA in donor blood products as foreign and form anti-IgA antibodies, so a later transfusion of IgA-containing plasma can trigger anaphylaxis. Any test that measures an IgA antibody, such as IgA anti-tissue transglutaminase, reads falsely negative because the patient cannot make IgA, so the IgG version of the test must be used."
       },
       {
         "h": "DiGeorge syndrome",
@@ -53,7 +57,8 @@
           "Absent or small parathyroids mean hypocalcemia: tetany or seizures in the newborn.",
           "Conotruncal heart defects: truncus arteriosus, tetralogy of Fallot, interrupted aortic arch.",
           "Abnormal facies and cleft palate."
-        ]
+        ],
+        "why": "The 22q11.2 deletion removes TBX1, a transcription factor needed for normal development of the third and fourth pharyngeal pouches and the pharyngeal arch structures that neural crest cells populate. The third pouch forms the thymus and inferior parathyroids, and the fourth forms the superior parathyroids, so one embryologic defect explains both T cell deficiency and hypocalcemia from low PTH. Neural crest cells also form the aorticopulmonary septum, which explains the conotruncal heart defects. The degree of T cell deficiency depends on how much thymic tissue remains, so most patients have partial rather than complete loss."
       },
       {
         "h": "Severe combined immunodeficiency (SCID)",
@@ -64,7 +69,8 @@
           "Absent thymic shadow on chest x-ray; low TRECs on newborn screening.",
           "Live vaccines (rotavirus, BCG, MMR, varicella) can cause fatal infection.",
           "Nonirradiated blood carries donor T cells that cause graft-versus-host disease; give irradiated products."
-        ]
+        ],
+        "why": "The common gamma chain is shared by the receptors for IL-2, IL-4, IL-7, IL-9, IL-15, and IL-21, and IL-7 signaling is required for T cell development, so IL2RG mutations block T and NK cell development; B cells may be present but cannot make useful antibody without T cell help. In ADA deficiency, deoxyadenosine builds up as dATP, which inhibits ribonucleotide reductase and starves dividing lymphocytes of deoxynucleotides. RAG1 and RAG2 cut DNA for V(D)J recombination, so without them no T or B cell receptors form. TRECs are DNA circles left by T cell receptor rearrangement, so they are low when T cells fail to develop."
       }
     ],
     "charts": [
@@ -227,6 +233,30 @@
       "IM-7",
       "IM-12",
       "IM-15-B"
+    ],
+    "flows": [
+      {
+        "title": "X-linked agammaglobulinemia: from mutation to infection",
+        "steps": [
+          "BTK mutation on the X chromosome",
+          "Pre-B cell receptor signaling fails in the bone marrow",
+          "B cells arrest at the pre-B stage; no mature B cells in blood",
+          "No plasma cells or germinal centers form",
+          "All immunoglobulin classes fall as maternal IgG wanes by about 6 months",
+          "Recurrent infections with encapsulated bacteria and enteroviruses"
+        ]
+      },
+      {
+        "title": "ADA deficiency SCID",
+        "steps": [
+          "Adenosine deaminase deficiency (autosomal recessive)",
+          "Deoxyadenosine accumulates and is phosphorylated to dATP in lymphocytes",
+          "dATP inhibits ribonucleotide reductase",
+          "Lymphocytes cannot make deoxynucleotides for DNA synthesis",
+          "Developing T, B, and NK cells die",
+          "Infant with severe bacterial, viral, fungal, and Pneumocystis infections"
+        ]
+      }
     ]
   },
   {
@@ -241,7 +271,8 @@
           "TNF-alpha inhibitors (infliximab, adalimumab, etanercept): granulomas break down; latent tuberculosis reactivates. Screen for latent TB first.",
           "Rituximab (anti-CD20): depletes B cells; hepatitis B reactivation (and PML from JC virus). Screen for hepatitis B first.",
           "Chemotherapy: neutropenia (ANC below 500 cells per mm3 is severe) leads to gram-negative bacteremia (including Pseudomonas) and Candida or Aspergillus."
-        ]
+        ],
+        "why": "Each drug removes one specific defense, and the infection that follows is the one that defense normally contains. Glucocorticoids inhibit NF-kappaB and AP-1 driven transcription of cytokines such as IL-1, IL-2, and TNF and redistribute lymphocytes out of the blood, so T cell and macrophage function falls broadly. TNF-alpha keeps macrophages activated and holds granulomas together, so blocking it lets latent Mycobacterium tuberculosis escape. Rituximab removes the B cells that help keep hepatitis B suppressed, and severe neutropenia removes the phagocytes that clear gram-negative bacteria and molds."
       },
       {
         "h": "HIV structure and entry",
@@ -252,7 +283,8 @@
           "env: gp160 cut into gp120 (binds CD4 and a coreceptor) and gp41 (fusion).",
           "Coreceptor: CCR5 on macrophages and T cells early; CXCR4 on T cells often later.",
           "CCR5 delta32 homozygotes lack surface CCR5 and resist infection by CCR5-using strains."
-        ]
+        ],
+        "why": "gp120 binds CD4 and then a chemokine coreceptor, which changes the shape of gp41 so it inserts into the host membrane and fuses the viral envelope with the cell. Reverse transcriptase copies the RNA genome into double-stranded DNA, and integrase inserts this provirus into host DNA, which is why infection is lifelong and why each enzyme is a drug target. Protease must cleave the gag and gag-pol polyproteins for new virions to mature and become infectious. Without CCR5 on the cell surface, CCR5-tropic strains, which dominate transmission, cannot enter."
       },
       {
         "h": "Natural history",
@@ -261,7 +293,8 @@
           "Acute retroviral syndrome about 2 to 4 weeks after exposure: fever, sore throat, lymphadenopathy, rash; very high viral load.",
           "Clinical latency: few symptoms for years, but the virus keeps replicating in lymphoid tissue and CD4 counts fall.",
           "AIDS: CD4 below 200 cells per mm3 or any AIDS-defining illness."
-        ]
+        ],
+        "why": "In acute infection the virus replicates unchecked in gut-associated lymphoid tissue, destroying a large share of mucosal CD4 memory T cells and producing a very high viral load, which makes this the most contagious period. CD8 T cells and antibodies then lower the viral load to a set point, and a higher set point predicts faster progression. During clinical latency, ongoing replication, direct cytopathic killing, and chronic immune activation steadily deplete CD4 T cells. Once the count falls below 200 cells per mm3, cell-mediated immunity can no longer contain opportunistic pathogens."
       },
       {
         "h": "Testing",
@@ -270,7 +303,8 @@
           "If positive: HIV-1 and HIV-2 antibody differentiation assay; if that is negative or unclear, HIV-1 RNA (nucleic acid) test.",
           "CD4 count stages immune damage; viral load measures replication and response to therapy.",
           "Infants under 18 months: maternal IgG crosses the placenta, so antibody tests are positive whether or not the baby is infected; use HIV nucleic acid testing."
-        ]
+        ],
+        "why": "p24 antigen appears in blood before antibodies form, so a combined antigen and antibody test closes the window period sooner than an antibody-only test. The differentiation assay confirms antibody and separates HIV-1 from HIV-2; if it is negative or indeterminate after a reactive screen, the patient may have acute infection with p24 present but antibodies not yet formed, which the RNA test detects. In infants, transplacental maternal IgG can persist up to 18 months, so only direct detection of viral nucleic acid shows true infection."
       },
       {
         "h": "Noninfectious AIDS complications",
@@ -280,7 +314,8 @@
           "HIV-associated nephropathy: collapsing FSGS with heavy proteinuria, mostly in patients of African ancestry.",
           "HIV-associated neurocognitive disorder and distal symmetric sensory neuropathy.",
           "Immune reconstitution inflammatory syndrome: weeks after starting antiretroviral therapy, recovering T cells attack existing infections, so the patient gets worse."
-        ]
+        ],
+        "why": "Loss of CD4 T cell help removes the cytotoxic T cell surveillance that normally keeps latent oncogenic herpesviruses in check. HHV-8 drives spindle cells of endothelial origin to proliferate and form leaky slit-like vessels in Kaposi sarcoma, and EBV drives uncontrolled B cell proliferation in primary CNS lymphoma. IRIS shows the opposite problem: antiretroviral therapy restores CD4 T cells, which then mount a strong inflammatory response against antigens of an infection that was already present."
       }
     ],
     "charts": [
@@ -495,6 +530,38 @@
       "IM-15-B2",
       "CV-18-J2",
       "PU-14-H9"
+    ],
+    "flows": [
+      {
+        "title": "HIV life cycle",
+        "steps": [
+          "gp120 binds CD4, then the CCR5 or CXCR4 coreceptor",
+          "gp41 changes shape and fuses the viral envelope with the cell membrane",
+          "Reverse transcriptase copies viral RNA into double-stranded DNA",
+          "Integrase inserts the viral DNA into the host genome as a provirus",
+          "Host machinery transcribes viral RNA and translates viral polyproteins",
+          "Virions bud, and protease cleaves polyproteins to make mature infectious virus"
+        ]
+      },
+      {
+        "title": "From HIV infection to AIDS",
+        "steps": [
+          "Mucosal or blood exposure to HIV",
+          "Acute infection: very high viral load and heavy loss of gut CD4 T cells",
+          "CD8 T cells and antibodies lower viremia to a set point",
+          "Ongoing replication and immune activation deplete CD4 T cells over years",
+          "CD4 count falls below 200 cells per mm3 or an AIDS-defining illness appears"
+        ]
+      },
+      {
+        "title": "HIV testing algorithm",
+        "steps": [
+          "Fourth generation antigen and antibody immunoassay is reactive",
+          "HIV-1 and HIV-2 antibody differentiation assay is run",
+          "If differentiation is negative or indeterminate, test HIV-1 RNA",
+          "Positive RNA with negative differentiation means acute HIV-1 infection"
+        ]
+      }
     ]
   },
   {
@@ -510,7 +577,8 @@
           "Anaphylaxis triggers: peanut and other foods, insect stings, penicillin, latex.",
           "Signs: urticaria, angioedema, wheeze from bronchospasm, hypotension from vasodilation and leaky vessels.",
           "Serum tryptase peaks about 1 to 2 hours after onset and confirms mast cell activation; a normal value does not rule it out."
-        ]
+        ],
+        "why": "Sensitization sets up the reaction: Th2 cytokines IL-4 and IL-13 drive class switching to IgE, which binds the high-affinity FcepsilonRI on mast cells and basophils and stays there. On re-exposure, a multivalent allergen cross-links adjacent IgE molecules and triggers degranulation of preformed histamine and tryptase within minutes. The same signal starts synthesis of leukotrienes, prostaglandin D2, and cytokines such as IL-5, which recruit eosinophils and produce the late phase hours later. Histamine and leukotrienes increase vascular permeability and contract bronchial smooth muscle, which explains hypotension, angioedema, and wheeze."
       },
       {
         "h": "Type II: antibody against cells or matrix",
@@ -521,7 +589,8 @@
           "Goodpasture: antibodies to the alpha3 chain of type IV collagen in glomerular and alveolar basement membranes; hemoptysis, rapidly progressive crescentic GN, linear IgG.",
           "Myasthenia gravis: antibodies to the acetylcholine receptor (or MuSK) block and remove receptors; the muscle cell lives but cannot respond.",
           "Myasthenia: fatigable ptosis, diplopia, proximal weakness; thymic hyperplasia common, thymoma in some."
-        ]
+        ],
+        "why": "In type II reactions, antibody binds antigen fixed on a cell or in a basement membrane and causes damage by opsonization, complement activation, or receptor interference. Warm IgG coats red cells, and splenic macrophages remove pieces of membrane, leaving spherocytes; IgM strongly activates complement, so cold agglutinin disease leaves C3 on red cells. In Goodpasture, antibody to the same collagen in alveolar and glomerular basement membranes fixes complement and recruits neutrophils, giving linear staining. In myasthenia gravis, antibodies block acetylcholine receptors and speed their internalization, so fewer receptors respond to repeated nerve impulses and weakness worsens with use."
       },
       {
         "h": "Type III: immune complexes",
@@ -536,7 +605,8 @@
           "RA: HLA-DR4, antibodies to citrullinated peptides; synovial pannus erodes cartilage and bone.",
           "RA: symmetric MCP, PIP, and wrist joints, DIP spared; rheumatoid factor, anti-CCP, nodules; Felty syndrome is RA plus splenomegaly plus neutropenia.",
           "Serum sickness: about 1 to 2 weeks after foreign protein; fever, urticaria, arthralgia, proteinuria, low complement. Arthus reaction is the local version at an injection site."
-        ]
+        ],
+        "why": "Immune complexes cause injury where they deposit, wherever the original antigen came from, which is why one disease can hit skin, joints, kidneys, and serosa together. Complexes trapped in vessel walls and glomeruli activate complement, C5a draws in neutrophils, and their enzymes cause fibrinoid necrosis. Complement consumption explains the low C3 and C4 in SLE flares and serum sickness and the low C3 in PSGN. In RA, citrullinated self-proteins in a susceptible host (HLA-DR4) drive autoreactive T and B cells, and cytokines such as TNF and IL-6 turn synovium into invasive pannus."
       },
       {
         "h": "Type IV: T cell mediated (delayed)",
@@ -546,7 +616,8 @@
           "Tuberculin skin test: read induration at 48 to 72 hours; a positive test means prior sensitization to mycobacterial antigens.",
           "Sarcoidosis: bilateral hilar lymphadenopathy, high ACE, hypercalcemia (macrophages make calcitriol), uveitis, erythema nodosum.",
           "Lofgren syndrome: erythema nodosum, bilateral hilar adenopathy, and arthritis; usually resolves."
-        ]
+        ],
+        "why": "In type IV reactions the injury comes from T cells, which need time to be recruited and activated, so the response peaks 48 to 72 hours after re-exposure. Antigen-presenting cells make IL-12, which pushes CD4 T cells toward Th1, and Th1 IFN-gamma activates macrophages, which become epithelioid cells and fuse into multinucleated giant cells to wall off antigen they cannot clear. In sarcoidosis, activated granuloma macrophages express 1-alpha-hydroxylase outside the control of PTH, so calcitriol rises and causes hypercalcemia. The tuberculin test is a small local version of the same memory Th1 response to injected mycobacterial protein."
       },
       {
         "h": "Transplant rejection and GVHD",
@@ -555,7 +626,8 @@
           "Acute: weeks to months; host T cells against donor MHC, or donor-specific antibodies.",
           "Chronic: months to years; graft arteriosclerosis, interstitial fibrosis, bronchiolitis obliterans in lung grafts.",
           "Graft-versus-host disease: donor T cells attack host skin (rash), liver (jaundice), and gut (diarrhea)."
-        ]
+        ],
+        "why": "Timing reveals the mechanism. Hyperacute rejection needs preformed antibody, which binds graft endothelium at once, fixes complement, and causes thrombosis within minutes. Acute rejection takes days to weeks because host T cells must recognize donor MHC and expand, and chronic rejection reflects ongoing low-grade immune injury to vessels that thickens the intima and causes ischemic fibrosis. GVHD reverses the direction: immunocompetent donor T cells in a graft such as bone marrow recognize host MHC as foreign and attack the epithelium of skin, liver, and gut."
       }
     ],
     "charts": [
@@ -836,6 +908,39 @@
       "PU-14-A4",
       "PU-14-H9",
       "IM-15-D"
+    ],
+    "flows": [
+      {
+        "title": "Type I hypersensitivity: anaphylaxis",
+        "steps": [
+          "First exposure: Th2 cells release IL-4, and B cells switch to IgE",
+          "IgE binds FcepsilonRI on mast cells and basophils",
+          "Re-exposure: allergen cross-links adjacent bound IgE",
+          "Mast cells degranulate, releasing histamine and tryptase within minutes",
+          "Vasodilation, vascular leak, and bronchospasm cause hypotension, angioedema, and wheeze"
+        ]
+      },
+      {
+        "title": "Poststreptococcal glomerulonephritis",
+        "steps": [
+          "Nephritogenic group A strep infection of throat or skin",
+          "Antibodies form against streptococcal antigens over 1 to 4 weeks",
+          "Immune complexes accumulate in glomeruli as subepithelial humps",
+          "Complexes fix complement, lowering serum C3 and recruiting neutrophils",
+          "Glomerular inflammation causes cola urine, edema, and hypertension"
+        ]
+      },
+      {
+        "title": "Granuloma formation (type IV)",
+        "steps": [
+          "Macrophage engulfs an antigen it cannot clear, such as mycobacteria",
+          "Macrophage presents antigen on MHC class II and secretes IL-12",
+          "CD4 T cells differentiate into Th1 cells",
+          "Th1 cells secrete IFN-gamma, which activates macrophages",
+          "Activated macrophages become epithelioid cells and fuse into giant cells",
+          "TNF-alpha holds the organized granuloma together"
+        ]
+      }
     ]
   },
   {
@@ -851,7 +956,8 @@
           "Raynaud phenomenon is often the first sign.",
           "Esophageal smooth muscle is replaced by fibrosis: dysmotility, reflux, Barrett risk.",
           "Interstitial lung disease is a leading cause of death; pulmonary hypertension also occurs."
-        ]
+        ],
+        "why": "Systemic sclerosis joins three processes: small vessel injury, autoimmunity, and fibrosis. Endothelial damage and intimal proliferation narrow small arteries, which explains Raynaud phenomenon, digital ulcers, and later pulmonary arterial hypertension and renal crisis. Activated T cells and macrophages release TGF-beta and other profibrotic signals that turn fibroblasts into myofibroblasts, which lay down collagen in skin, lung interstitium, and the muscular wall of the gut. In the esophagus, fibrosis replaces smooth muscle in the lower two thirds and weakens the lower sphincter, so peristalsis fails and acid refluxes freely."
       },
       {
         "h": "Diffuse vs limited (CREST)",
@@ -860,7 +966,8 @@
           "Diffuse disease carries the risk of scleroderma renal crisis (sudden severe hypertension and kidney failure).",
           "Limited: skin of fingers, forearms, and face; slower course; anticentromere antibody.",
           "Limited disease shows CREST and late pulmonary arterial hypertension."
-        ]
+        ],
+        "why": "The two forms differ in how far the skin disease spreads, which autoantibody is present, and which organs are at risk, so the antibody helps predict the course. Anti-topoisomerase I goes with rapid diffuse skin disease and interstitial lung disease, and in renal crisis, narrowed renal arterioles lower renal perfusion and drive renin release, causing severe hypertension and acute kidney injury. Anticentromere goes with limited disease, where gradual obliteration of small pulmonary vessels causes pulmonary arterial hypertension years later."
       },
       {
         "h": "Acute rheumatic fever",
@@ -871,7 +978,8 @@
           "Aschoff bodies: foci of inflammation with fibrinoid change, lymphocytes, and Anitschkow cells (caterpillar-shaped nuclei).",
           "Diagnosis: evidence of recent strep (ASO, anti-DNase B, culture) plus two major Jones criteria, or one major and two minor.",
           "Years of repeated attacks scar the mitral valve, causing mitral stenosis with fused commissures."
-        ]
+        ],
+        "why": "Antibodies made against streptococcal M protein cross-react with similar epitopes on cardiac myosin and valve tissue and on basal ganglia neurons, which explains carditis and Sydenham chorea. Only pharyngeal infection triggers this response, which is why impetigo can cause PSGN but not rheumatic fever. Antibodies and cross-reactive T cells inflame all layers of the heart, and as inflamed valves heal they thicken, calcify, and fuse at the commissures. The mitral valve is involved most often, so repeated attacks lead to mitral stenosis."
       },
       {
         "h": "Sjogren syndrome",
@@ -881,7 +989,8 @@
           "Antibodies: anti-Ro (SSA) and anti-La (SSB); rheumatoid factor is often positive.",
           "Often occurs with RA (secondary Sjogren).",
           "Higher risk of marginal zone (MALT) B cell lymphoma; new or persistent parotid enlargement is a warning sign."
-        ]
+        ],
+        "why": "CD4 T cells and B cells infiltrate exocrine glands and destroy acinar and ductal tissue, so tear and saliva production falls. Saliva normally buffers acid and washes away bacteria, which is why dry mouth leads to rampant dental caries. Chronic stimulation of B cells inside the glands, the same activity that produces anti-Ro and anti-La, can select a clonal B cell population, which explains the risk of MALT lymphoma."
       },
       {
         "h": "Neonatal lupus and MCTD",
@@ -892,7 +1001,8 @@
           "The mother may have Sjogren syndrome, SLE, or no symptoms at all.",
           "Mixed connective tissue disease: overlap of SLE, systemic sclerosis, and polymyositis features.",
           "MCTD marker: high-titer anti-U1 RNP; Raynaud and puffy hands are common."
-        ]
+        ],
+        "why": "Maternal IgG anti-Ro is actively carried across the placenta by FcRn, binds fetal cardiac tissue, and causes inflammation and fibrosis of the conduction system around the AV node, usually in the second trimester. Scarred conduction tissue does not regenerate, so the heart block persists after maternal antibody is gone. The rash and cytopenias depend on circulating antibody alone, so they clear as maternal IgG is catabolized over about 6 months. In MCTD, high-titer anti-U1 RNP marks a distinct overlap pattern that helps separate it from SLE or systemic sclerosis alone."
       }
     ],
     "charts": [
@@ -1061,6 +1171,39 @@
       "CV-18-D5",
       "CV-18-I8",
       "IM-15-F"
+    ],
+    "flows": [
+      {
+        "title": "Acute rheumatic fever to mitral stenosis",
+        "steps": [
+          "Untreated group A strep pharyngitis",
+          "Antibodies form against streptococcal M protein",
+          "Antibodies cross-react with cardiac myosin and valve proteins (molecular mimicry)",
+          "Pancarditis with Aschoff bodies about 2 to 4 weeks after pharyngitis",
+          "Repeated attacks scar the mitral valve and fuse its commissures",
+          "Chronic rheumatic mitral stenosis"
+        ]
+      },
+      {
+        "title": "Congenital heart block from anti-Ro",
+        "steps": [
+          "Mother carries anti-Ro (SSA) IgG",
+          "IgG crosses the placenta through FcRn",
+          "Antibody binds fetal cardiac tissue and inflames the conduction system",
+          "Fibrosis destroys the AV node",
+          "Permanent congenital complete heart block with fetal bradycardia"
+        ]
+      },
+      {
+        "title": "Scleroderma renal crisis",
+        "steps": [
+          "Diffuse systemic sclerosis injures renal arteriolar endothelium",
+          "Intimal proliferation narrows interlobular arteries and arterioles",
+          "Low renal perfusion stimulates renin release",
+          "Angiotensin II causes severe hypertension and more vasoconstriction",
+          "Acute kidney injury follows"
+        ]
+      }
     ]
   },
   {
@@ -1075,7 +1218,8 @@
           "H&E: pink, glassy, featureless material.",
           "Congo red stain: apple-green birefringence under polarized light.",
           "Biopsy: abdominal fat pad aspirate is the easy first site; an affected organ (kidney, heart) gives the highest yield."
-        ]
+        ],
+        "why": "Amyloid is a shared shape that many unrelated proteins can adopt. Misfolded proteins stack into cross-beta-pleated sheet fibrils that resist breakdown by proteases, so they accumulate outside cells, press on parenchymal cells, and stiffen tissue. Congo red dye binds in an ordered way along the regular fibril structure, which produces apple-green birefringence under polarized light. Systemic amyloid often involves small vessels throughout the body, so a fat pad aspirate can find it without biopsy of a vital organ."
       },
       {
         "h": "Primary (AL) amyloidosis",
@@ -1087,7 +1231,8 @@
           "Kidney: nephrotic syndrome.",
           "Tongue and skin: macroglossia, periorbital purpura from fragile vessels.",
           "Nerves: carpal tunnel syndrome and peripheral or autonomic neuropathy."
-        ]
+        ],
+        "why": "AL amyloid comes from a clonal plasma cell population whose free light chains, more often lambda, are prone to misfold. Light chains circulate everywhere, so deposits are systemic and reach heart, kidney, nerves, tongue, and vessel walls. In the myocardium, deposits thicken the walls without true muscle hypertrophy and replace electrically active tissue, so the echocardiogram shows thick walls while the ECG shows low voltage, and the stiff ventricle fills poorly, giving restrictive physiology. Amyloid in vessel walls makes them fragile, which is why minor straining causes periorbital purpura."
       },
       {
         "h": "Secondary (AA) amyloidosis",
@@ -1097,7 +1242,8 @@
           "Settings: rheumatoid arthritis, inflammatory bowel disease, chronic infections (tuberculosis, osteomyelitis, bronchiectasis).",
           "Familial Mediterranean fever: MEFV (pyrin) mutation, recurrent fever and serositis, AA amyloid if untreated.",
           "Kidney is hit most: proteinuria, nephrotic syndrome, kidney failure."
-        ]
+        ],
+        "why": "Chronic inflammation keeps IL-1, IL-6, and TNF high, and these cytokines make hepatocytes produce serum amyloid A continuously. Incomplete breakdown of SAA leaves an N-terminal fragment that forms AA fibrils. The kidney is the main target, and glomerular deposits disrupt the filtration barrier, causing proteinuria and nephrotic syndrome. In familial Mediterranean fever, mutant pyrin allows excess inflammasome activity and IL-1 release, which drives repeated inflammatory attacks and keeps SAA high."
       },
       {
         "h": "Other amyloid proteins",
@@ -1108,7 +1254,8 @@
           "A-beta (from amyloid precursor protein): Alzheimer plaques and vessel walls.",
           "Calcitonin: amyloid in the stroma of medullary thyroid carcinoma.",
           "Amylin (islet amyloid polypeptide): pancreatic islets in type 2 diabetes."
-        ]
+        ],
+        "why": "Each amyloid protein reflects a setting in which a normal protein is present in excess or becomes unstable. Beta2-microglobulin, the light chain of MHC class I, is normally filtered and catabolized by the kidney and is poorly removed by dialysis, so it builds up in patients on long-term dialysis. Transthyretin normally circulates as a tetramer that carries thyroxine and retinol-binding protein, and a mutation or aging destabilizes the tetramer into monomers that misfold. Secretory cells and tumors, such as C cells making calcitonin and beta cells making amylin, deposit their own products locally."
       }
     ],
     "charts": [
@@ -1298,6 +1445,39 @@
       "NE-20-I2",
       "IM-15-E1",
       "IM-15-E2"
+    ],
+    "flows": [
+      {
+        "title": "Primary (AL) amyloidosis",
+        "steps": [
+          "Clonal plasma cells proliferate in the bone marrow",
+          "Excess free light chains, more often lambda, enter the blood",
+          "Light chains misfold into beta-pleated sheet fibrils",
+          "Fibrils deposit in heart, kidney, nerves, tongue, and vessel walls",
+          "Restrictive cardiomyopathy, nephrotic syndrome, neuropathy, and macroglossia"
+        ]
+      },
+      {
+        "title": "Secondary (AA) amyloidosis",
+        "steps": [
+          "Chronic inflammation, such as rheumatoid arthritis or chronic osteomyelitis",
+          "Macrophages release IL-1, IL-6, and TNF",
+          "Liver produces serum amyloid A continuously",
+          "Incomplete breakdown of SAA leaves fragments that form AA fibrils",
+          "AA fibrils deposit, mainly in the kidney",
+          "Proteinuria, nephrotic syndrome, and progressive kidney failure"
+        ]
+      },
+      {
+        "title": "Transthyretin amyloidosis",
+        "steps": [
+          "Mutation or aging destabilizes the transthyretin tetramer",
+          "Tetramer dissociates into monomers",
+          "Monomers misfold and assemble into amyloid fibrils",
+          "Fibrils deposit in myocardium and, with mutant TTR, peripheral nerves",
+          "Restrictive cardiomyopathy, with neuropathy in hereditary forms"
+        ]
+      }
     ]
   },
   {
@@ -1315,7 +1495,8 @@
           "Parvovirus B19 infects red cell precursors: aplastic crisis in sickle cell disease or spherocytosis, hydrops fetalis in pregnancy.",
           "Roseola (HHV-6, less often HHV-7): child under 2 with 3 to 5 days of high fever, often 39 to 40 °C (102.2 to 104 °F), then a truncal rash as the fever breaks; febrile seizures.",
           "Scarlet fever (group A strep toxin): sandpaper rash, circumoral pallor, strawberry tongue, Pastia lines, peeling of hands and feet about a week later."
-        ]
+        ],
+        "why": "Rash timing reflects how each organism spreads and how the immune system responds. Measles spreads from the respiratory tract to lymphoid tissue and then by viremia to skin, the rash appears with the T cell response to infected cells, and the virus suppresses immunity for months afterward, which helps explain secondary bacterial pneumonia. Parvovirus B19 enters erythroid progenitors through the P antigen (globoside) and kills them, pausing red cell production for about a week, which matters when red cell survival is short or demand is high, as in hemolytic anemia or the fetus. Scarlet fever comes from streptococcal pyrogenic exotoxins."
       },
       {
         "h": "Haemophilus influenzae",
@@ -1324,7 +1505,8 @@
           "Epiglottitis: high fever, drooling, muffled voice, inspiratory stridor, child sitting forward.",
           "Other invasive Hib disease: meningitis, bacteremia, pneumonia, septic arthritis.",
           "Nontypeable strains (no capsule) cause mucosal infections: otitis media, sinusitis, conjunctivitis."
-        ]
+        ],
+        "why": "The polyribosylribitol phosphate capsule resists phagocytosis and complement, so clearing Hib depends on anticapsular antibody that opsonizes it. Children under about 2 years respond poorly to T-independent polysaccharide antigens, which is why invasive disease peaked in this age group before vaccination. The conjugate vaccine links PRP to a protein carrier, recruiting T cell help to produce a strong IgG memory response in infants. Nontypeable strains lack a capsule, so they rarely invade the bloodstream and instead cause local mucosal infections."
       },
       {
         "h": "Influenza",
@@ -1333,7 +1515,8 @@
           "Primary viral pneumonia: rapid, diffuse infiltrates and hypoxia.",
           "Secondary bacterial pneumonia: patient improves, then worsens; S aureus or S pneumoniae.",
           "Reye syndrome: aspirin given to a child with influenza or varicella causes liver failure (microvesicular fat) and encephalopathy."
-        ]
+        ],
+        "why": "Hemagglutinin binds sialic acid on respiratory epithelium for entry, and neuraminidase cleaves sialic acid to release new virions. The virus kills ciliated epithelial cells, stripping the mucociliary barrier and exposing the basement membrane, so bacteria such as S aureus and S pneumoniae can invade during recovery. The abrupt systemic symptoms come from cytokines such as IL-6 and interferons released in response to infection. In Reye syndrome, salicylate injures hepatic mitochondria, causing microvesicular steatosis, hyperammonemia, and cerebral edema."
       },
       {
         "h": "Mononucleosis and EBV",
@@ -1346,7 +1529,8 @@
           "CMV: heterophile-negative mono, owl's eye intranuclear inclusions in enlarged cells.",
           "Congenital CMV: periventricular calcifications and sensorineural hearing loss.",
           "CMV in transplant and AIDS patients: retinitis, colitis, pneumonitis."
-        ]
+        ],
+        "why": "EBV gp350 binds CD21 (complement receptor 2) on B cells, and infected B cells proliferate; the atypical lymphocytes in blood are mostly CD8 T cells responding to them. Heterophile antibodies are part of a polyclonal IgM response from activated B cells and happen to agglutinate sheep or horse red cells. EBV stays latent in memory B cells, and its latent proteins drive B cell proliferation and block apoptosis, which explains the B cell lymphomas that appear when T cell surveillance fails. CMV infects many cell types, including fibroblasts, endothelium, and monocytes, so it causes heterophile-negative mono and organ disease in immunosuppressed hosts."
       },
       {
         "h": "Mumps and toxoplasmosis",
@@ -1357,7 +1541,8 @@
           "Healthy host: often silent or mono-like lymphadenopathy.",
           "Congenital: chorioretinitis, hydrocephalus, diffuse intracranial calcifications.",
           "AIDS with CD4 below 100: multiple ring-enhancing brain lesions."
-        ]
+        ],
+        "why": "Mumps spreads by viremia to glandular tissue and the meninges, so parotitis, orchitis, pancreatitis, and aseptic meningitis are all parts of one infection. Inflamed parotids release salivary amylase, which raises serum amylase without pancreatic damage, so lipase separates the two. Toxoplasma tachyzoites are controlled by IFN-gamma from T cells and activated macrophages, which forces them into dormant tissue cysts in brain and muscle; when CD4 counts fall below about 100, cysts reactivate and form multiple ring-enhancing brain lesions. A primary infection during pregnancy lets tachyzoites cross the placenta and infect the fetal brain and retina."
       }
     ],
     "charts": [
@@ -1584,6 +1769,39 @@
       "PU-14-C2",
       "HE-9-D2",
       "UR-12-A1"
+    ],
+    "flows": [
+      {
+        "title": "Parvovirus B19 aplastic crisis",
+        "steps": [
+          "Parvovirus B19 binds P antigen on erythroid progenitor cells",
+          "Virus replicates in and kills these progenitors",
+          "Red cell production stops for about a week",
+          "Short red cell survival turns this pause into sudden severe anemia",
+          "Aplastic crisis with low reticulocytes; in the fetus, hydrops fetalis"
+        ]
+      },
+      {
+        "title": "Influenza to secondary bacterial pneumonia",
+        "steps": [
+          "Hemagglutinin binds sialic acid on respiratory epithelial cells",
+          "Virus replicates and kills ciliated epithelial cells",
+          "Mucociliary clearance fails and basement membrane is exposed",
+          "S aureus or S pneumoniae adhere and invade",
+          "Patient improves, then worsens with secondary bacterial pneumonia"
+        ]
+      },
+      {
+        "title": "Toxoplasma reactivation in AIDS",
+        "steps": [
+          "Ingestion of oocysts from cat feces or tissue cysts in undercooked meat",
+          "Tachyzoites spread, then T cell IFN-gamma drives them into tissue cysts",
+          "Bradyzoite cysts persist in brain and muscle for life",
+          "CD4 count falls below about 100 cells per mm3",
+          "Cysts reactivate and release tachyzoites into brain tissue",
+          "Multiple ring-enhancing brain lesions with headache and focal deficits"
+        ]
+      }
     ]
   }
 ]

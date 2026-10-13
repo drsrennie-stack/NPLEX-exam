@@ -1,1502 +1,1732 @@
 [
-  {
-    "id": "NE-13",
-    "summary": "This unit covers how neurons and muscle cells hold a resting voltage, fire action potentials, pass signals across synapses, and conduct them along axons. Exam questions ask you to predict what happens when potassium shifts, when myelin is lost, when the neuromuscular junction is blocked, and when firing becomes abnormally synchronized in a seizure.",
-    "notes": [
-      {
-        "h": "Resting membrane potential",
-        "points": [
-          "The Na+/K+ ATPase pumps 3 Na+ out and 2 K+ in per ATP, which keeps the gradients and adds a few millivolts of negativity.",
-          "At rest the membrane is most permeable to K+ through leak channels, so the resting potential sits close to the K+ equilibrium potential.",
-          "Nernst equation at body temperature: E = (61.5 / z) x log([ion outside] / [ion inside]) in mV. E for K+ is about -90 mV; E for Na+ is about +60 mV.",
-          "Resting potential is about -70 mV in neurons and about -90 mV in skeletal muscle.",
-          "Hyperkalemia shrinks the K+ gradient and depolarizes the cell; a mild rise makes cells easier to fire, but sustained depolarization inactivates Na+ channels and causes weakness and arrhythmias.",
-          "Hypokalemia hyperpolarizes the cell, moving it farther from threshold, which causes weakness or flaccid paralysis."
-        ]
-      },
-      {
-        "h": "Action potential and refractory periods",
-        "points": [
-          "Threshold (about -55 mV in neurons) opens voltage-gated Na+ channels; Na+ rushes in and the upstroke heads toward E for Na+.",
-          "Within about 1 ms the Na+ channel inactivation gate closes, and slower voltage-gated K+ channels open, so K+ leaves and the cell repolarizes.",
-          "K+ channels close slowly, so the membrane briefly dips below the resting potential toward E for K+ (afterhyperpolarization).",
-          "Absolute refractory period: Na+ channels are inactivated, so no stimulus of any size can fire another spike.",
-          "Relative refractory period: some Na+ channels have recovered but K+ conductance is still high, so only a stronger than normal stimulus fires a spike.",
-          "The action potential is all or none and travels without losing size."
-        ]
-      },
-      {
-        "h": "Graded potentials and summation",
-        "points": [
-          "EPSPs are small depolarizations from ligand-gated cation channels (for example AMPA receptors letting Na+ in).",
-          "IPSPs hold the cell below threshold by letting Cl- in (GABA-A, glycine receptors) or K+ out (GABA-B).",
-          "Temporal summation: one synapse fires repeatedly, and each potential adds to the last before it fades.",
-          "Spatial summation: many synapses fire at the same time, and their potentials add together.",
-          "The axon hillock (initial segment) has the densest voltage-gated Na+ channels, so it has the lowest threshold and is where the net sum triggers the spike."
-        ]
-      },
-      {
-        "h": "Conduction velocity and myelin",
-        "points": [
-          "Myelin raises membrane resistance and lowers capacitance, so current spreads farther and faster along the internode.",
-          "Voltage-gated Na+ channels cluster at the nodes of Ranvier, so the spike regenerates only at nodes (saltatory conduction).",
-          "A wider axon has less internal resistance, so it conducts faster. Large myelinated A-alpha fibers are fastest; thin unmyelinated C fibers are slowest.",
-          "Oligodendrocytes myelinate CNS axons (one cell, many axons); Schwann cells myelinate PNS axons (one cell per internode).",
-          "Demyelination lets current leak out across the bare segment, so conduction slows; if too little current reaches the next node, conduction blocks.",
-          "Multiple sclerosis strips CNS myelin; Guillain-Barré syndrome strips peripheral nerve myelin. Heat worsens conduction in demyelinated axons (Uhthoff phenomenon)."
-        ]
-      },
-      {
-        "h": "Neuromuscular junction",
-        "points": [
-          "The nerve action potential opens presynaptic voltage-gated Ca2+ channels (P/Q type), and Ca2+ enters the terminal.",
-          "SNARE proteins (synaptobrevin on the vesicle, syntaxin and SNAP-25 on the membrane) fuse vesicles and release acetylcholine.",
-          "Acetylcholine binds nicotinic receptors (ligand-gated cation channels) on the end plate, producing an end-plate potential that fires the muscle.",
-          "Acetylcholinesterase in the cleft splits acetylcholine into acetate and choline, ending the signal; choline is taken back up."
-        ]
-      },
-      {
-        "h": "Seizures and periodic paralysis",
-        "points": [
-          "A seizure is excessive, synchronous firing of cortical neurons when excitation (glutamate) outweighs inhibition (GABA).",
-          "Focal seizures start in one hemisphere and occur with or without impaired awareness; they can spread to both sides (focal to bilateral tonic-clonic).",
-          "Generalized seizures involve both hemispheres from the start: tonic-clonic (stiffening, then jerking, then postictal confusion) or absence.",
-          "Absence seizures: a child has brief staring spells with no postictal confusion, often triggered by hyperventilation; EEG shows 3 Hz spike-and-wave discharges.",
-          "Febrile seizures occur in children about 6 months to 5 years old with fever of 38 °C (100.4 °F) or higher and no CNS infection; simple ones are brief and generalized and carry a good outlook.",
-          "Hypokalemic periodic paralysis is an inherited (usually autosomal dominant) skeletal muscle Ca2+ or Na+ channel defect causing attacks of flaccid weakness with low serum K+.",
-          "Attacks follow carbohydrate-rich meals (insulin drives K+ into cells) or rest after exercise; potassium is normal between attacks."
-        ]
-      }
+ {
+  "id": "NE-13",
+  "summary": "This unit covers how neurons and muscle cells hold a resting voltage, fire action potentials, pass signals across synapses, and conduct them along axons. Exam questions ask you to predict what happens when potassium shifts, when myelin is lost, when the neuromuscular junction is blocked, and when firing becomes abnormally synchronized in a seizure.",
+  "notes": [
+   {
+    "h": "Resting membrane potential",
+    "points": [
+     "The Na+/K+ ATPase pumps 3 Na+ out and 2 K+ in per ATP, which keeps the gradients and adds a few millivolts of negativity.",
+     "At rest the membrane is most permeable to K+ through leak channels, so the resting potential sits close to the K+ equilibrium potential.",
+     "Nernst equation at body temperature: E = (61.5 / z) x log([ion outside] / [ion inside]) in mV. E for K+ is about -90 mV; E for Na+ is about +60 mV.",
+     "Resting potential is about -70 mV in neurons and about -90 mV in skeletal muscle.",
+     "Hyperkalemia shrinks the K+ gradient and depolarizes the cell; a mild rise makes cells easier to fire, but sustained depolarization inactivates Na+ channels and causes weakness and arrhythmias.",
+     "Hypokalemia hyperpolarizes the cell, moving it farther from threshold, which causes weakness or flaccid paralysis."
     ],
-    "charts": [
-      {
-        "title": "Graded potentials vs action potentials",
-        "cols": [
-          "Feature",
-          "Graded potential (EPSP or IPSP)",
-          "Action potential"
-        ],
-        "rows": [
-          [
-            "Where",
-            "Dendrites and cell body",
-            "Starts at the axon hillock, travels down the axon"
-          ],
-          [
-            "Channels",
-            "Ligand-gated (or sensory) channels",
-            "Voltage-gated Na+ and K+ channels"
-          ],
-          [
-            "Size",
-            "Varies with stimulus strength",
-            "All or none, fixed size"
-          ],
-          [
-            "Direction",
-            "Depolarizing or hyperpolarizing",
-            "Always depolarizing upstroke"
-          ],
-          [
-            "Over distance",
-            "Fades as it spreads",
-            "Regenerates, no loss of size"
-          ],
-          [
-            "Summation",
-            "Yes, temporal and spatial",
-            "No"
-          ],
-          [
-            "Refractory period",
-            "None",
-            "Absolute, then relative"
-          ]
-        ]
-      },
-      {
-        "title": "Disorders of neuromuscular transmission",
-        "cols": [
-          "Disorder",
-          "Target",
-          "Effect on transmission",
-          "Key clinical clues"
-        ],
-        "rows": [
-          [
-            "Botulism",
-            "Botulinum toxin cleaves SNARE proteins",
-            "No acetylcholine release",
-            "Descending flaccid paralysis, ptosis, dilated pupils, dry mouth"
-          ],
-          [
-            "Myasthenia gravis",
-            "Antibodies to postsynaptic nicotinic acetylcholine receptors",
-            "Fewer working receptors, smaller end-plate potentials",
-            "Ptosis and diplopia; weakness worsens with repeated use; improves with acetylcholinesterase inhibitor"
-          ],
-          [
-            "Lambert-Eaton syndrome",
-            "Antibodies to presynaptic P/Q voltage-gated Ca2+ channels",
-            "Less Ca2+ entry, less acetylcholine release",
-            "Proximal weakness that improves with repeated effort, low reflexes, dry mouth; small cell lung cancer"
-          ]
-        ]
-      }
+    "why": "Each ion pulls the membrane toward its own equilibrium potential in proportion to how permeable the membrane is to it, which is what the Goldman equation describes. Because K+ leak conductance dominates at rest, the membrane sits near E for K+, and a small Na+ leak keeps it slightly less negative. The Na+/K+ ATPase matters mainly by maintaining the gradients, since its direct electrogenic share is only a few millivolts. This makes extracellular K+ the main lever on resting potential: raising it makes E for K+ less negative and depolarizes the cell, while lowering it hyperpolarizes the cell."
+   },
+   {
+    "h": "Action potential and refractory periods",
+    "points": [
+     "Threshold (about -55 mV in neurons) opens voltage-gated Na+ channels; Na+ rushes in and the upstroke heads toward E for Na+.",
+     "Within about 1 ms the Na+ channel inactivation gate closes, and slower voltage-gated K+ channels open, so K+ leaves and the cell repolarizes.",
+     "K+ channels close slowly, so the membrane briefly dips below the resting potential toward E for K+ (afterhyperpolarization).",
+     "Absolute refractory period: Na+ channels are inactivated, so no stimulus of any size can fire another spike.",
+     "Relative refractory period: some Na+ channels have recovered but K+ conductance is still high, so only a stronger than normal stimulus fires a spike.",
+     "The action potential is all or none and travels without losing size."
     ],
-    "tricks": [
-      {
-        "kind": "trick",
-        "label": "Resting potential follows potassium",
-        "text": "Whatever ion the membrane is most permeable to pulls the voltage toward its own equilibrium potential. At rest that is K+, so any change in serum K+ moves the resting potential."
-      },
-      {
-        "kind": "trick",
-        "label": "Use it and lose it, or use it and gain it",
-        "text": "Myasthenia gravis weakens with repeated effort as acetylcholine stores run down. Lambert-Eaton improves with repeated effort because Ca2+ builds up in the terminal."
-      },
-      {
-        "kind": "trick",
-        "label": "Thick and wrapped is fast",
-        "text": "Two things speed conduction: a wider axon (less internal resistance) and myelin (current jumps node to node). Remove either and velocity drops."
-      }
+    "why": "The upstroke is a positive feedback loop: depolarization opens voltage-gated Na+ channels, Na+ entry depolarizes further, and more channels open until the membrane approaches E for Na+. Two slower, voltage-triggered events end it: the inactivation gate plugs the Na+ channel, and delayed rectifier K+ channels open and drive the membrane back toward E for K+. Refractoriness comes from the same gates, since inactivated Na+ channels cannot reopen until the membrane repolarizes and they reset. The absolute refractory period caps firing frequency and keeps the impulse moving one way, because the membrane just behind the spike cannot fire again."
+   },
+   {
+    "h": "Graded potentials and summation",
+    "points": [
+     "EPSPs are small depolarizations from ligand-gated cation channels (for example AMPA receptors letting Na+ in).",
+     "IPSPs hold the cell below threshold by letting Cl- in (GABA-A, glycine receptors) or K+ out (GABA-B).",
+     "Temporal summation: one synapse fires repeatedly, and each potential adds to the last before it fades.",
+     "Spatial summation: many synapses fire at the same time, and their potentials add together.",
+     "The axon hillock (initial segment) has the densest voltage-gated Na+ channels, so it has the lowest threshold and is where the net sum triggers the spike."
     ],
-    "highYield": [
-      "Resting potential sits near E for K+ because K+ leak channels dominate at rest.",
-      "Hyperkalemia depolarizes the resting membrane and, if sustained, inactivates Na+ channels and lowers excitability.",
-      "Absolute refractory period comes from Na+ channel inactivation; relative refractory period from lingering K+ efflux.",
-      "The axon hillock fires first because it has the highest density of voltage-gated Na+ channels.",
-      "Demyelination slows conduction or blocks it outright; heat makes demyelinated conduction worse.",
-      "Botulinum toxin cleaves SNARE proteins and blocks acetylcholine release.",
-      "Child with brief staring spells and 3 Hz spike-and-wave on EEG: absence seizures.",
-      "Young man with flaccid weakness after a carbohydrate-heavy meal and low K+: hypokalemic periodic paralysis."
+    "why": "Graded potentials vary in size with stimulus strength and fade with distance, because current leaks across the membrane as it spreads passively (decremental, or electrotonic, conduction). The neuron fires only if the summed voltage reaching the initial segment crosses threshold, so the cell integrates all its excitatory and inhibitory inputs. Opening Cl- channels can inhibit even when it barely changes voltage, because it holds the membrane near E for Cl- and drains away excitatory current (shunting inhibition). For the same reason, synapses close to the axon hillock have more influence than distant dendritic ones."
+   },
+   {
+    "h": "Conduction velocity and myelin",
+    "points": [
+     "Myelin raises membrane resistance and lowers capacitance, so current spreads farther and faster along the internode.",
+     "Voltage-gated Na+ channels cluster at the nodes of Ranvier, so the spike regenerates only at nodes (saltatory conduction).",
+     "A wider axon has less internal resistance, so it conducts faster. Large myelinated A-alpha fibers are fastest; thin unmyelinated C fibers are slowest.",
+     "Oligodendrocytes myelinate CNS axons (one cell, many axons); Schwann cells myelinate PNS axons (one cell per internode).",
+     "Demyelination lets current leak out across the bare segment, so conduction slows; if too little current reaches the next node, conduction blocks.",
+     "Multiple sclerosis strips CNS myelin; Guillain-Barré syndrome strips peripheral nerve myelin. Heat worsens conduction in demyelinated axons (Uhthoff phenomenon)."
     ],
-    "pitfalls": [
-      "A mild K+ rise makes cells easier to fire, but a sustained rise keeps Na+ channels inactivated and causes weakness.",
-      "Absence seizures have no postictal confusion; a staring spell followed by confusion suggests a focal seizure with impaired awareness.",
-      "Myasthenia gravis is a postsynaptic problem; Lambert-Eaton and botulism are presynaptic problems.",
-      "Hypokalemic periodic paralysis shows low K+ only during attacks; a normal K+ between attacks does not rule it out."
+    "why": "Conduction speed depends on how far a depolarizing current spreads before it leaks away (the length constant, lengthened by high membrane resistance and low internal resistance) and how fast the membrane charges (faster with low capacitance). Myelin improves both membrane terms and a wider axon lowers internal resistance, so enough current reaches the next node quickly to bring it to threshold. When myelin is lost, current leaks out and is spent charging the bare internode, and that stretch of axon has few Na+ channels to regenerate the spike. Heat speeds Na+ channel inactivation and shrinks the inward current further, which explains the Uhthoff phenomenon."
+   },
+   {
+    "h": "Neuromuscular junction",
+    "points": [
+     "The nerve action potential opens presynaptic voltage-gated Ca2+ channels (P/Q type), and Ca2+ enters the terminal.",
+     "SNARE proteins (synaptobrevin on the vesicle, syntaxin and SNAP-25 on the membrane) fuse vesicles and release acetylcholine.",
+     "Acetylcholine binds nicotinic receptors (ligand-gated cation channels) on the end plate, producing an end-plate potential that fires the muscle.",
+     "Acetylcholinesterase in the cleft splits acetylcholine into acetate and choline, ending the signal; choline is taken back up."
     ],
-    "dumps": [
-      {
-        "t": "Action potential",
-        "p": "Draw a neuron action potential with voltage on the y-axis and time on the x-axis. Label resting potential, threshold, upstroke, peak, repolarization, afterhyperpolarization, and the absolute and relative refractory periods. Write which channel is responsible for each phase.",
-        "l": [
-          "Resting potential about -70 mV, set mainly by K+ leak channels",
-          "Threshold about -55 mV",
-          "Upstroke from voltage-gated Na+ channel opening and Na+ influx",
-          "Peak approaches E for Na+ (about +60 mV) but does not reach it",
-          "Repolarization from Na+ channel inactivation plus voltage-gated K+ efflux",
-          "Afterhyperpolarization from K+ channels closing slowly, toward E for K+",
-          "Absolute refractory period while Na+ channels are inactivated",
-          "Relative refractory period needs a stronger stimulus"
-        ]
-      },
-      {
-        "t": "The neuromuscular junction",
-        "p": "Draw a motor nerve terminal, the synaptic cleft, and the muscle end plate. Label each step of transmission, then mark where botulinum toxin, myasthenia gravis antibodies, and Lambert-Eaton antibodies act.",
-        "l": [
-          "Action potential opens presynaptic voltage-gated Ca2+ channels",
-          "Ca2+ entry triggers SNARE-mediated vesicle fusion",
-          "Acetylcholine binds postsynaptic nicotinic receptors",
-          "End-plate potential triggers the muscle action potential",
-          "Acetylcholinesterase splits acetylcholine into acetate and choline",
-          "Botulinum toxin cleaves SNARE proteins (presynaptic)",
-          "Lambert-Eaton antibodies block presynaptic Ca2+ channels",
-          "Myasthenia gravis antibodies block postsynaptic acetylcholine receptors"
-        ]
-      }
+    "why": "Each step converts one signal into the next: the spike becomes Ca2+ entry, Ca2+ binding to synaptotagmin triggers SNARE-driven vesicle fusion, and released acetylcholine becomes a cation current at the end plate. The end-plate potential is normally much larger than needed to fire the muscle (a high safety factor), so weakness appears only after much release or many receptors are lost. The step order predicts the lesions: botulinum toxin cleaves SNARE proteins and stops release, Lambert-Eaton antibodies reduce Ca2+ entry, myasthenia gravis antibodies remove receptors, and cholinesterase inhibitors keep acetylcholine in the cleft longer."
+   },
+   {
+    "h": "Seizures and periodic paralysis",
+    "points": [
+     "A seizure is excessive, synchronous firing of cortical neurons when excitation (glutamate) outweighs inhibition (GABA).",
+     "Focal seizures start in one hemisphere and occur with or without impaired awareness; they can spread to both sides (focal to bilateral tonic-clonic).",
+     "Generalized seizures involve both hemispheres from the start: tonic-clonic (stiffening, then jerking, then postictal confusion) or absence.",
+     "Absence seizures: a child has brief staring spells with no postictal confusion, often triggered by hyperventilation; EEG shows 3 Hz spike-and-wave discharges.",
+     "Febrile seizures occur in children about 6 months to 5 years old with fever of 38 °C (100.4 °F) or higher and no CNS infection; simple ones are brief and generalized and carry a good outlook.",
+     "Hypokalemic periodic paralysis is an inherited (usually autosomal dominant) skeletal muscle Ca2+ or Na+ channel defect causing attacks of flaccid weakness with low serum K+.",
+     "Attacks follow carbohydrate-rich meals (insulin drives K+ into cells) or rest after exercise; potassium is normal between attacks."
     ],
-    "refs": [
-      {
-        "book": "Guyton and Hall Textbook of Medical Physiology",
-        "where": "Membrane Potentials and Action Potentials"
-      },
-      {
-        "book": "Guyton and Hall Textbook of Medical Physiology",
-        "where": "Excitation of Skeletal Muscle: Neuromuscular Transmission and Excitation-Contraction Coupling"
-      },
-      {
-        "book": "Robbins and Cotran Pathologic Basis of Disease",
-        "where": "Peripheral Nerves and Skeletal Muscles, section on neuromuscular junction disorders"
-      }
+    "why": "Cortex stays stable because GABA-mediated inhibition balances glutamate drive, so anything that raises excitation, lowers inhibition, or alters ion channel gating can let neurons fire in synchrony. Absence seizures come from thalamocortical circuits, where T-type Ca2+ channels in thalamic neurons produce rhythmic burst firing seen as 3 Hz spike-and-wave on EEG, which is why the T-type Ca2+ channel blocker ethosuximide treats them. In hypokalemic periodic paralysis, insulin shifts K+ into cells, and the mutant channel carries an abnormal inward leak current (gating pore current) that depolarizes the muscle fiber when extracellular K+ is low. The sustained depolarization inactivates Na+ channels, so the fiber cannot fire and becomes flaccid."
+   }
+  ],
+  "charts": [
+   {
+    "title": "Graded potentials vs action potentials",
+    "cols": [
+     "Feature",
+     "Graded potential (EPSP or IPSP)",
+     "Action potential"
     ],
-    "videos": [
-      {
-        "channel": "Ninja Nerd",
-        "title": "Neurology | Resting Membrane, Graded, Action Potentials",
-        "url": "https://www.youtube.com/watch?v=Jk_9IhHVOTk"
-      }
-    ],
-    "related": [
-      "NE-2",
-      "NE-15",
-      "NE-18",
-      "NE-20-B4",
-      "NE-20-B5",
-      "NE-20-G2"
+    "rows": [
+     [
+      "Where",
+      "Dendrites and cell body",
+      "Starts at the axon hillock, travels down the axon"
+     ],
+     [
+      "Channels",
+      "Ligand-gated (or sensory) channels",
+      "Voltage-gated Na+ and K+ channels"
+     ],
+     [
+      "Size",
+      "Varies with stimulus strength",
+      "All or none, fixed size"
+     ],
+     [
+      "Direction",
+      "Depolarizing or hyperpolarizing",
+      "Always depolarizing upstroke"
+     ],
+     [
+      "Over distance",
+      "Fades as it spreads",
+      "Regenerates, no loss of size"
+     ],
+     [
+      "Summation",
+      "Yes, temporal and spatial",
+      "No"
+     ],
+     [
+      "Refractory period",
+      "None",
+      "Absolute, then relative"
+     ]
     ]
-  },
-  {
-    "id": "NE-14",
-    "summary": "The brain runs almost entirely on glucose and needs several vitamins and cofactors to make energy, neurotransmitters, and myelin. This unit links each nutrient or toxin to the enzyme it affects and to the neurologic picture you will see on the exam: Wernicke encephalopathy, subacute combined degeneration, pellagra, hepatic encephalopathy, the sphingolipidoses, and lead poisoning.",
-    "notes": [
-      {
-        "h": "Brain fuel",
-        "points": [
-          "Glucose crosses the blood-brain barrier through GLUT1 on endothelial cells and enters neurons through GLUT3; neither needs insulin.",
-          "The brain stores almost no glycogen and fatty acids are not a meaningful brain fuel, so it needs a steady glucose supply.",
-          "After several days of fasting the liver makes ketone bodies (acetoacetate, beta-hydroxybutyrate), and the brain shifts to using them, sparing glucose and muscle protein.",
-          "Hypoglycemia first causes adrenergic symptoms (sweating, tremor, palpitations, hunger), then neuroglycopenic symptoms (confusion, behavior change, blurred vision, seizures, coma) as glucose falls further."
-        ]
-      },
-      {
-        "h": "Thiamine (vitamin B1)",
-        "points": [
-          "Thiamine pyrophosphate is a cofactor for pyruvate dehydrogenase, alpha-ketoglutarate dehydrogenase, branched-chain ketoacid dehydrogenase, and transketolase.",
-          "Without it, glucose cannot be fully oxidized, so ATP falls in the brain and heart.",
-          "Wernicke encephalopathy: confusion, ophthalmoplegia or nystagmus, and ataxia; lesions in the mammillary bodies, medial thalamus, and periaqueductal gray.",
-          "Korsakoff syndrome adds lasting memory loss with confabulation.",
-          "Dry beriberi is a symmetric peripheral neuropathy with muscle wasting; wet beriberi is high-output heart failure.",
-          "Giving glucose before thiamine pushes more flux through thiamine-dependent enzymes, uses up the last thiamine, and can trigger or worsen Wernicke encephalopathy."
-        ]
-      },
-      {
-        "h": "Vitamin B12 vs folate",
-        "points": [
-          "Methionine synthase (needs B12, uses methyl-THF from folate) converts homocysteine to methionine, so both deficiencies raise homocysteine.",
-          "Methylmalonyl-CoA mutase (needs B12 only) converts methylmalonyl-CoA to succinyl-CoA, so only B12 deficiency raises methylmalonic acid.",
-          "Both cause megaloblastic anemia from impaired DNA synthesis.",
-          "B12 deficiency damages myelin: subacute combined degeneration of the dorsal columns (lost vibration and position sense) and lateral corticospinal tracts (spastic weakness, Babinski sign), plus peripheral neuropathy and cognitive decline.",
-          "Folate deficiency spares the nervous system; giving folate alone can fix the anemia of B12 deficiency while nerve damage keeps progressing."
-        ]
-      },
-      {
-        "h": "Ammonia and the brain",
-        "points": [
-          "The brain has no complete urea cycle; astrocytes clear ammonia with glutamine synthetase (glutamate + NH3 to glutamine).",
-          "Glutamine builds up inside astrocytes and pulls in water, so astrocytes swell and cerebral edema follows.",
-          "Using up glutamate and alpha-ketoglutarate disturbs neurotransmission and slows the TCA cycle.",
-          "Alzheimer type II astrocytes (enlarged, pale nuclei in gray matter) are the hallmark of hyperammonemia, seen in liver failure and Wilson disease.",
-          "Causes: liver failure, portosystemic shunting, and urea cycle defects such as ornithine transcarbamylase deficiency. Signs: asterixis, confusion, somnolence, coma."
-        ]
-      },
-      {
-        "h": "Myelin lipids and lysosomal storage",
-        "points": [
-          "Myelin is about 70 to 80 percent lipid by dry weight, rich in cholesterol, galactocerebroside, sulfatide, and sphingomyelin.",
-          "Sphingolipids are broken down step by step in lysosomes; a missing enzyme lets its substrate build up in neurons or myelin.",
-          "Sphingolipidoses with neuronal storage (Tay-Sachs, Niemann-Pick type A) cause progressive loss of milestones in infancy.",
-          "Leukodystrophies destroy myelin: Krabbe disease and metachromatic leukodystrophy are lysosomal; X-linked adrenoleukodystrophy is a peroxisomal defect with very long chain fatty acid buildup."
-        ]
-      },
-      {
-        "h": "Lead poisoning",
-        "points": [
-          "Lead inhibits ALA dehydratase (ALA builds up) and ferrochelatase (protoporphyrin builds up, measured as zinc protoporphyrin).",
-          "Heme synthesis fails, giving a microcytic anemia with basophilic stippling of red cells.",
-          "Children (old paint chips and dust) get encephalopathy with cerebral edema, learning problems, and developmental delay.",
-          "Adults (batteries, smelting, ammunition) get a peripheral motor neuropathy with wrist drop and foot drop, plus abdominal colic and nephropathy."
-        ]
-      }
+   },
+   {
+    "title": "Disorders of neuromuscular transmission",
+    "cols": [
+     "Disorder",
+     "Target",
+     "Effect on transmission",
+     "Key clinical clues"
     ],
-    "charts": [
-      {
-        "title": "Vitamins and the nervous system",
-        "cols": [
-          "Vitamin",
-          "Active form and key enzymes",
-          "Neurologic findings when deficient",
-          "Clues"
-        ],
-        "rows": [
-          [
-            "B1 (thiamine)",
-            "Thiamine pyrophosphate: pyruvate dehydrogenase, alpha-ketoglutarate dehydrogenase, transketolase",
-            "Wernicke encephalopathy, Korsakoff syndrome, dry beriberi",
-            "Alcohol use disorder, malnutrition; worse if glucose given first"
-          ],
-          [
-            "B3 (niacin)",
-            "NAD+ and NADP+ for redox reactions",
-            "Pellagra: dementia, with dermatitis and diarrhea",
-            "Corn-based diet, Hartnup disease, carcinoid syndrome, isoniazid"
-          ],
-          [
-            "B6 (pyridoxine)",
-            "Pyridoxal phosphate: glutamate decarboxylase, aromatic amino acid decarboxylase, transaminases, ALA synthase",
-            "Seizures (low GABA), peripheral neuropathy",
-            "Isoniazid; sideroblastic anemia"
-          ],
-          [
-            "B12 (cobalamin)",
-            "Methionine synthase, methylmalonyl-CoA mutase",
-            "Subacute combined degeneration, neuropathy, dementia",
-            "High methylmalonic acid and homocysteine, megaloblastic anemia"
-          ],
-          [
-            "Folate",
-            "Tetrahydrofolate carries one-carbon units for methionine and DNA synthesis",
-            "No myelin damage in adults",
-            "High homocysteine, normal methylmalonic acid"
-          ],
-          [
-            "E (tocopherol)",
-            "Antioxidant protecting membrane lipids from peroxidation",
-            "Spinocerebellar ataxia, dorsal column loss, neuropathy",
-            "Fat malabsorption; hemolytic anemia; normal methylmalonic acid"
-          ]
-        ]
-      },
-      {
-        "title": "Lysosomal and peroxisomal disorders that damage the nervous system",
-        "cols": [
-          "Disease",
-          "Deficient enzyme or protein",
-          "Substance that builds up",
-          "Inheritance",
-          "Key findings"
-        ],
-        "rows": [
-          [
-            "Tay-Sachs disease",
-            "Hexosaminidase A",
-            "GM2 ganglioside",
-            "Autosomal recessive",
-            "Neurodegeneration, cherry-red macula, no hepatosplenomegaly"
-          ],
-          [
-            "Niemann-Pick disease type A",
-            "Sphingomyelinase",
-            "Sphingomyelin",
-            "Autosomal recessive",
-            "Neurodegeneration, cherry-red macula, hepatosplenomegaly, foam cells"
-          ],
-          [
-            "Krabbe disease",
-            "Galactocerebrosidase",
-            "Galactocerebroside and psychosine",
-            "Autosomal recessive",
-            "Leukodystrophy, peripheral neuropathy, optic atrophy, globoid cells"
-          ],
-          [
-            "Metachromatic leukodystrophy",
-            "Arylsulfatase A",
-            "Sulfatide (cerebroside sulfate)",
-            "Autosomal recessive",
-            "Central and peripheral demyelination, ataxia, dementia"
-          ],
-          [
-            "Fabry disease",
-            "Alpha-galactosidase A",
-            "Ceramide trihexoside",
-            "X-linked recessive",
-            "Painful peripheral neuropathy, angiokeratomas, kidney and heart disease"
-          ],
-          [
-            "X-linked adrenoleukodystrophy",
-            "ABCD1 peroxisomal transporter",
-            "Very long chain fatty acids",
-            "X-linked recessive",
-            "Demyelination in boys, adrenal insufficiency"
-          ]
-        ]
-      }
-    ],
-    "tricks": [
-      {
-        "kind": "mnemonic",
-        "label": "Think ATP",
-        "text": "Thiamine pyrophosphate enzymes: Alpha-ketoglutarate dehydrogenase, Transketolase, Pyruvate dehydrogenase."
-      },
-      {
-        "kind": "mnemonic",
-        "label": "The 3 Ds of pellagra",
-        "text": "Dermatitis, Diarrhea, Dementia (and death if untreated) from niacin deficiency."
-      },
-      {
-        "kind": "mnemonic",
-        "label": "LEAD",
-        "text": "Lead lines on gums and bones, Encephalopathy and Erythrocyte basophilic stippling, Abdominal colic and sideroblastic Anemia, Drops (wrist and foot)."
-      },
-      {
-        "kind": "trick",
-        "label": "MMA decides B12 vs folate",
-        "text": "Both raise homocysteine. Only B12 runs methylmalonyl-CoA mutase, so a high methylmalonic acid means B12 and means the nerves are at risk."
-      }
-    ],
-    "highYield": [
-      "GLUT1 at the blood-brain barrier and GLUT3 on neurons are insulin independent.",
-      "In prolonged fasting the brain switches to ketone bodies.",
-      "Malnourished patient with confusion, ophthalmoplegia, and ataxia: give thiamine before glucose.",
-      "High methylmalonic acid plus dorsal column and corticospinal signs: B12 deficiency (subacute combined degeneration).",
-      "Isoniazid causes B6 deficiency, which can cause seizures and neuropathy.",
-      "Hyperammonemia swells astrocytes through glutamine buildup; look for Alzheimer type II astrocytes.",
-      "Cherry-red macula with no hepatosplenomegaly: Tay-Sachs; with hepatosplenomegaly: Niemann-Pick.",
-      "Adult battery worker with wrist drop, colic, and basophilic stippling: lead poisoning."
-    ],
-    "pitfalls": [
-      "Vitamin E deficiency mimics B12 deficiency (dorsal columns, ataxia) but has normal methylmalonic acid and no megaloblastic anemia.",
-      "Folate fixes the anemia of B12 deficiency but not the nerve damage, so check B12 before giving folate.",
-      "Alzheimer type II astrocytes are a sign of hyperammonemia and have nothing to do with Alzheimer disease.",
-      "Adrenoleukodystrophy is peroxisomal; Krabbe and metachromatic leukodystrophy are lysosomal."
-    ],
-    "dumps": [
-      {
-        "t": "B12 and folate pathways",
-        "p": "Draw the methionine synthase reaction and the methylmalonyl-CoA mutase reaction. Mark which vitamins each needs, then write which lab values rise in B12 deficiency and in folate deficiency and which one damages myelin.",
-        "l": [
-          "Methionine synthase converts homocysteine to methionine",
-          "It needs B12 and takes a methyl group from methyl-THF (folate)",
-          "Methylmalonyl-CoA mutase converts methylmalonyl-CoA to succinyl-CoA",
-          "Mutase needs B12 only",
-          "B12 deficiency: high homocysteine and high methylmalonic acid",
-          "Folate deficiency: high homocysteine, normal methylmalonic acid",
-          "Both cause megaloblastic anemia",
-          "Only B12 deficiency causes subacute combined degeneration"
-        ]
-      },
-      {
-        "t": "Nutrient and toxin table",
-        "p": "Make a table with four columns (nutrient or toxin, enzyme affected, neurologic result, typical patient) for thiamine, B6, niacin, vitamin E, ammonia, and lead.",
-        "l": [
-          "Thiamine: PDH, alpha-KGDH, transketolase; Wernicke-Korsakoff and dry beriberi; alcohol use disorder",
-          "B6: glutamate decarboxylase; seizures and neuropathy; isoniazid",
-          "Niacin: NAD+; pellagra with dementia; corn diet, Hartnup, carcinoid",
-          "Vitamin E: antioxidant; spinocerebellar ataxia, dorsal column loss; fat malabsorption",
-          "Ammonia: astrocyte glutamine synthetase; astrocyte swelling, asterixis; liver failure, urea cycle defects",
-          "Lead: ALA dehydratase and ferrochelatase; child encephalopathy, adult wrist and foot drop"
-        ]
-      }
-    ],
-    "refs": [
-      {
-        "book": "Lippincott Illustrated Reviews: Biochemistry",
-        "where": "Section on vitamins"
-      },
-      {
-        "book": "Lippincott Illustrated Reviews: Biochemistry",
-        "where": "Section on sphingolipid metabolism and the sphingolipidoses"
-      },
-      {
-        "book": "Robbins and Cotran Pathologic Basis of Disease",
-        "where": "The Central Nervous System, section on metabolic and toxic disorders"
-      }
-    ],
-    "videos": [
-      {
-        "channel": "Ninja Nerd",
-        "title": "Cell Biology | Tay-Sachs, Fabry, Gaucher, Niemann-Pick Disease",
-        "url": "https://www.youtube.com/watch?v=yXLBuy38jQM"
-      },
-      {
-        "channel": "Armando Hasudungan",
-        "title": "Vitamin B12 Digestion and Absorption & Pernicious Anaemia",
-        "url": "https://www.youtube.com/watch?v=aww5NiahRb8"
-      }
-    ],
-    "related": [
-      "NE-15",
-      "NE-20-D1",
-      "NE-20-D3",
-      "NE-20-D4",
-      "NE-20-E2",
-      "NE-20-E4"
+    "rows": [
+     [
+      "Botulism",
+      "Botulinum toxin cleaves SNARE proteins",
+      "No acetylcholine release",
+      "Descending flaccid paralysis, ptosis, dilated pupils, dry mouth"
+     ],
+     [
+      "Myasthenia gravis",
+      "Antibodies to postsynaptic nicotinic acetylcholine receptors",
+      "Fewer working receptors, smaller end-plate potentials",
+      "Ptosis and diplopia; weakness worsens with repeated use; improves with acetylcholinesterase inhibitor"
+     ],
+     [
+      "Lambert-Eaton syndrome",
+      "Antibodies to presynaptic P/Q voltage-gated Ca2+ channels",
+      "Less Ca2+ entry, less acetylcholine release",
+      "Proximal weakness that improves with repeated effort, low reflexes, dry mouth; small cell lung cancer"
+     ]
     ]
-  },
-  {
-    "id": "NE-15",
-    "summary": "Neurotransmitters are built from amino acids and simple precursors by a few key enzymes, then broken down into products you can measure in urine. Exam questions ask you to trace each pathway, name the rate-limiting enzyme or cofactor, link breakdown products to tumors, and match each transmitter to its source nucleus and the diseases that change it.",
-    "notes": [
-      {
-        "h": "Catecholamine synthesis",
-        "points": [
-          "Phenylalanine to tyrosine by phenylalanine hydroxylase (needs BH4).",
-          "Tyrosine to L-DOPA by tyrosine hydroxylase (needs BH4); this is the rate-limiting step.",
-          "L-DOPA to dopamine by aromatic L-amino acid (DOPA) decarboxylase, which needs pyridoxal phosphate (B6).",
-          "Dopamine to norepinephrine by dopamine beta-hydroxylase inside vesicles; it needs vitamin C (and copper).",
-          "Norepinephrine to epinephrine by PNMT, which uses SAM as the methyl donor; cortisol from the adrenal cortex induces PNMT in the adrenal medulla."
-        ]
-      },
-      {
-        "h": "Catecholamine breakdown",
-        "points": [
-          "Most catecholamine action ends by reuptake into the nerve terminal; the rest is broken down by MAO (mitochondria) and COMT (cytosol, mostly liver).",
-          "Dopamine breaks down to homovanillic acid (HVA).",
-          "Norepinephrine breaks down to normetanephrine and vanillylmandelic acid (VMA); epinephrine to metanephrine and VMA.",
-          "Neuroblastoma raises urinary HVA and VMA; pheochromocytoma raises plasma and urine metanephrines."
-        ]
-      },
-      {
-        "h": "Serotonin and melatonin",
-        "points": [
-          "Tryptophan to 5-hydroxytryptophan by tryptophan hydroxylase (needs BH4), the rate-limiting step.",
-          "5-hydroxytryptophan to serotonin by aromatic L-amino acid decarboxylase (B6).",
-          "Brain serotonin comes from the raphe nuclei of the brainstem.",
-          "In the pineal gland serotonin is converted to melatonin; darkness increases melatonin release through a pathway from the suprachiasmatic nucleus.",
-          "MAO breaks serotonin down to 5-hydroxyindoleacetic acid (5-HIAA), which rises in urine in carcinoid syndrome."
-        ]
-      },
-      {
-        "h": "Glutamate, GABA, and glycine",
-        "points": [
-          "Glutamate is the main excitatory transmitter: AMPA receptors pass Na+ for fast EPSPs; NMDA receptors pass Ca2+ once depolarization removes their Mg2+ block.",
-          "GABA is made from glutamate by glutamate decarboxylase, which needs pyridoxal phosphate (B6).",
-          "GABA is the main inhibitory transmitter in the brain (GABA-A is a Cl- channel; GABA-B is G protein coupled and opens K+ channels).",
-          "Glycine is the main inhibitory transmitter in the spinal cord and brainstem and opens Cl- channels.",
-          "Excitotoxicity in ischemia: ATP fails, neurons depolarize, and glutamate reuptake stops, so glutamate floods the synapse.",
-          "Excess NMDA activation lets Ca2+ pour in, which activates proteases, phospholipases, and free radical production and kills the neuron."
-        ]
-      },
-      {
-        "h": "Acetylcholine",
-        "points": [
-          "Choline acetyltransferase joins acetyl-CoA and choline to make acetylcholine in the nerve terminal.",
-          "Acetylcholinesterase in the synaptic cleft splits it into acetate and choline; choline is recycled into the terminal.",
-          "Cholinergic neurons of the nucleus basalis of Meynert project to the cortex and are lost early in Alzheimer disease, lowering cortical acetylcholine."
-        ]
-      }
-    ],
-    "charts": [
-      {
-        "title": "Source nuclei and disease changes",
-        "cols": [
-          "Transmitter",
-          "Main source nucleus",
-          "Location",
-          "Disease changes"
-        ],
-        "rows": [
-          [
-            "Dopamine",
-            "Substantia nigra pars compacta; ventral tegmental area",
-            "Midbrain",
-            "Low in Parkinson disease; high in Huntington disease and schizophrenia"
-          ],
-          [
-            "Norepinephrine",
-            "Locus coeruleus",
-            "Pons",
-            "High in anxiety; low in depression"
-          ],
-          [
-            "Serotonin",
-            "Raphe nuclei",
-            "Brainstem midline",
-            "Low in depression and anxiety"
-          ],
-          [
-            "Acetylcholine",
-            "Nucleus basalis of Meynert",
-            "Basal forebrain",
-            "Low in Alzheimer disease and Huntington disease; high relative to dopamine in Parkinson disease"
-          ],
-          [
-            "GABA",
-            "Nucleus accumbens; striatal medium spiny neurons",
-            "Basal ganglia",
-            "Low in anxiety and Huntington disease"
-          ]
-        ]
-      },
-      {
-        "title": "Synthesis and breakdown at a glance",
-        "cols": [
-          "Transmitter",
-          "Precursor",
-          "Rate-limiting or key enzyme",
-          "Cofactor",
-          "Main breakdown product"
-        ],
-        "rows": [
-          [
-            "Dopamine",
-            "Tyrosine",
-            "Tyrosine hydroxylase",
-            "BH4, then B6",
-            "HVA"
-          ],
-          [
-            "Norepinephrine",
-            "Dopamine",
-            "Dopamine beta-hydroxylase",
-            "Vitamin C, copper",
-            "VMA, normetanephrine"
-          ],
-          [
-            "Epinephrine",
-            "Norepinephrine",
-            "PNMT (induced by cortisol)",
-            "SAM",
-            "VMA, metanephrine"
-          ],
-          [
-            "Serotonin",
-            "Tryptophan",
-            "Tryptophan hydroxylase",
-            "BH4, then B6",
-            "5-HIAA"
-          ],
-          [
-            "GABA",
-            "Glutamate",
-            "Glutamate decarboxylase",
-            "B6",
-            "Succinate (via GABA transaminase)"
-          ],
-          [
-            "Acetylcholine",
-            "Acetyl-CoA and choline",
-            "Choline acetyltransferase",
-            "None special",
-            "Acetate and choline"
-          ]
-        ]
-      }
-    ],
-    "tricks": [
-      {
-        "kind": "trick",
-        "label": "Walk the catecholamine ladder",
-        "text": "Phenylalanine, tyrosine, DOPA, dopamine, norepinephrine, epinephrine. Each rung adds one change: a hydroxyl, a hydroxyl, remove CO2, a hydroxyl, then a methyl."
-      },
-      {
-        "kind": "trick",
-        "label": "Name the breakdown by the parent",
-        "text": "HVA comes from dopamine. VMA and metanephrines come from norepinephrine and epinephrine. 5-HIAA comes from serotonin."
-      },
-      {
-        "kind": "trick",
-        "label": "B6 makes the signals",
-        "text": "Pyridoxal phosphate runs the decarboxylases that make GABA, dopamine, and serotonin. Low B6 means low GABA, which is why deficiency causes seizures."
-      }
-    ],
-    "highYield": [
-      "Tyrosine hydroxylase is rate limiting for catecholamines; tryptophan hydroxylase for serotonin.",
-      "Dopamine beta-hydroxylase needs vitamin C.",
-      "Cortisol induces PNMT, so the adrenal medulla makes mostly epinephrine.",
-      "Child with an abdominal mass and high urinary HVA and VMA: neuroblastoma.",
-      "High urinary 5-HIAA: carcinoid syndrome.",
-      "Glutamate excitotoxicity through NMDA receptors and Ca2+ influx kills neurons after ischemia.",
-      "Parkinson disease: low dopamine from substantia nigra loss. Huntington disease: low GABA and acetylcholine, high dopamine.",
-      "Alzheimer disease: loss of cholinergic neurons in the nucleus basalis of Meynert."
-    ],
-    "pitfalls": [
-      "Tyrosine hydroxylase (catecholamines) and tryptophan hydroxylase (serotonin) are both BH4 dependent; do not mix up their substrates.",
-      "GABA is made from glutamate, so the brain's main inhibitory transmitter comes from its main excitatory one.",
-      "Glycine is the main inhibitory transmitter in the spinal cord; GABA dominates in the brain.",
-      "Neuroblastoma is screened with HVA and VMA; pheochromocytoma is screened with metanephrines."
-    ],
-    "dumps": [
-      {
-        "t": "Catecholamine pathway",
-        "p": "Starting from phenylalanine, draw the pathway to epinephrine. Label each enzyme and cofactor, mark the rate-limiting step, then draw the breakdown arrows to HVA and VMA.",
-        "l": [
-          "Phenylalanine hydroxylase makes tyrosine (BH4)",
-          "Tyrosine hydroxylase makes L-DOPA, rate limiting (BH4)",
-          "DOPA decarboxylase makes dopamine (B6)",
-          "Dopamine beta-hydroxylase makes norepinephrine (vitamin C)",
-          "PNMT makes epinephrine (SAM, induced by cortisol)",
-          "MAO and COMT break down catecholamines",
-          "Dopamine to HVA; norepinephrine and epinephrine to VMA and metanephrines",
-          "High urinary HVA and VMA in neuroblastoma"
-        ]
-      },
-      {
-        "t": "Transmitters and their nuclei",
-        "p": "Draw a sagittal sketch of the brainstem and basal forebrain. Place the substantia nigra, ventral tegmental area, locus coeruleus, raphe nuclei, and nucleus basalis of Meynert, label each with its transmitter, and write one disease linked to each.",
-        "l": [
-          "Substantia nigra (midbrain): dopamine; lost in Parkinson disease",
-          "Ventral tegmental area (midbrain): dopamine to limbic and frontal areas",
-          "Locus coeruleus (pons): norepinephrine",
-          "Raphe nuclei (brainstem midline): serotonin; low in depression",
-          "Nucleus basalis of Meynert (basal forebrain): acetylcholine; lost in Alzheimer disease",
-          "Huntington disease: loss of striatal GABA and acetylcholine neurons"
-        ]
-      }
-    ],
-    "refs": [
-      {
-        "book": "Lippincott Illustrated Reviews: Biochemistry",
-        "where": "Section on amino acids as precursors of specialized products (catecholamines, serotonin)"
-      },
-      {
-        "book": "Guyton and Hall Textbook of Medical Physiology",
-        "where": "Organization of the Nervous System, Basic Functions of Synapses, and Neurotransmitters"
-      },
-      {
-        "book": "Robbins and Cotran Pathologic Basis of Disease",
-        "where": "The Central Nervous System, section on degenerative diseases"
-      }
-    ],
-    "videos": [
-      {
-        "channel": "Khan Academy",
-        "title": "Types of neurotransmitters | Nervous system physiology | NCLEX-RN | Khan Academy",
-        "url": "https://www.youtube.com/watch?v=FXYX_ksRwIk"
-      },
-      {
-        "channel": "Khan Academy",
-        "title": "Neurotransmitter removal | Nervous system physiology | NCLEX-RN | Khan Academy",
-        "url": "https://www.youtube.com/watch?v=FO10z7FX13c"
-      }
-    ],
-    "related": [
-      "NE-13",
-      "NE-14",
-      "NE-20-B1",
-      "NE-20-B3",
-      "NE-20-F3"
+   }
+  ],
+  "tricks": [
+   {
+    "kind": "trick",
+    "label": "Resting potential follows potassium",
+    "text": "Whatever ion the membrane is most permeable to pulls the voltage toward its own equilibrium potential. At rest that is K+, so any change in serum K+ moves the resting potential."
+   },
+   {
+    "kind": "trick",
+    "label": "Use it and lose it, or use it and gain it",
+    "text": "Myasthenia gravis weakens with repeated effort as acetylcholine stores run down. Lambert-Eaton improves with repeated effort because Ca2+ builds up in the terminal."
+   },
+   {
+    "kind": "trick",
+    "label": "Thick and wrapped is fast",
+    "text": "Two things speed conduction: a wider axon (less internal resistance) and myelin (current jumps node to node). Remove either and velocity drops."
+   }
+  ],
+  "highYield": [
+   "Resting potential sits near E for K+ because K+ leak channels dominate at rest.",
+   "Hyperkalemia depolarizes the resting membrane and, if sustained, inactivates Na+ channels and lowers excitability.",
+   "Absolute refractory period comes from Na+ channel inactivation; relative refractory period from lingering K+ efflux.",
+   "The axon hillock fires first because it has the highest density of voltage-gated Na+ channels.",
+   "Demyelination slows conduction or blocks it outright; heat makes demyelinated conduction worse.",
+   "Botulinum toxin cleaves SNARE proteins and blocks acetylcholine release.",
+   "Child with brief staring spells and 3 Hz spike-and-wave on EEG: absence seizures.",
+   "Young man with flaccid weakness after a carbohydrate-heavy meal and low K+: hypokalemic periodic paralysis."
+  ],
+  "pitfalls": [
+   "A mild K+ rise makes cells easier to fire, but a sustained rise keeps Na+ channels inactivated and causes weakness.",
+   "Absence seizures have no postictal confusion; a staring spell followed by confusion suggests a focal seizure with impaired awareness.",
+   "Myasthenia gravis is a postsynaptic problem; Lambert-Eaton and botulism are presynaptic problems.",
+   "Hypokalemic periodic paralysis shows low K+ only during attacks; a normal K+ between attacks does not rule it out."
+  ],
+  "dumps": [
+   {
+    "t": "Action potential",
+    "p": "Draw a neuron action potential with voltage on the y-axis and time on the x-axis. Label resting potential, threshold, upstroke, peak, repolarization, afterhyperpolarization, and the absolute and relative refractory periods. Write which channel is responsible for each phase.",
+    "l": [
+     "Resting potential about -70 mV, set mainly by K+ leak channels",
+     "Threshold about -55 mV",
+     "Upstroke from voltage-gated Na+ channel opening and Na+ influx",
+     "Peak approaches E for Na+ (about +60 mV) but does not reach it",
+     "Repolarization from Na+ channel inactivation plus voltage-gated K+ efflux",
+     "Afterhyperpolarization from K+ channels closing slowly, toward E for K+",
+     "Absolute refractory period while Na+ channels are inactivated",
+     "Relative refractory period needs a stronger stimulus"
     ]
-  },
-  {
-    "id": "NE-16",
-    "summary": "Many neurologic diseases come from a specific kind of genetic error: repeat expansions, extra chromosomes, lost tumor suppressor genes, or amplified oncogenes. Exam questions give you a family history or a set of features and ask for the gene, the inheritance pattern, or the molecular mechanism.",
-    "notes": [
-      {
-        "h": "Trinucleotide repeat expansions",
-        "points": [
-          "A run of three bases grows past a threshold and disrupts the gene or its product.",
-          "Anticipation: repeats grow from one generation to the next, so onset comes earlier and disease is more severe.",
-          "Huntington repeats expand mainly through the father; fragile X expands through the mother, and congenital myotonic dystrophy comes from the mother.",
-          "Fragile X full mutation (more than about 200 CGG repeats) hypermethylates FMR1 and silences it.",
-          "Friedreich ataxia is autosomal recessive, so anticipation is not a feature; the GAA expansion lowers frataxin, a mitochondrial iron protein."
-        ]
-      },
-      {
-        "h": "Down syndrome",
-        "points": [
-          "About 95 percent: meiotic nondisjunction, usually in maternal meiosis I; risk rises with maternal age.",
-          "About 4 percent: Robertsonian translocation (often 14;21); can be inherited from a parent with a balanced translocation and is not tied to maternal age.",
-          "About 1 percent: mosaicism from mitotic nondisjunction after fertilization; features are often milder.",
-          "The APP gene sits on chromosome 21, so an extra copy makes more amyloid-beta; Alzheimer plaques are present by about age 40 and dementia often follows."
-        ]
-      },
-      {
-        "h": "Neurocutaneous syndromes",
-        "points": [
-          "NF1, NF2, tuberous sclerosis, and von Hippel-Lindau are autosomal dominant tumor suppressor disorders: one bad copy is inherited, and a tumor forms when the second copy is lost.",
-          "Neurofibromin is a Ras GTPase-activating protein; losing it leaves Ras switched on.",
-          "Hamartin (TSC1) and tuberin (TSC2) form a complex that normally restrains mTOR; losing either lets mTOR drive cell growth.",
-          "VHL protein normally targets HIF for breakdown; losing it raises HIF, which drives VEGF and erythropoietin.",
-          "Sturge-Weber syndrome is sporadic: a somatic activating GNAQ mutation causes a port-wine stain in the CN V1 area, ipsilateral leptomeningeal angioma, seizures, and glaucoma."
-        ]
-      },
-      {
-        "h": "Spinal muscular atrophy",
-        "points": [
-          "Autosomal recessive loss (usually deletion) of SMN1 on chromosome 5q; SMN2 copy number changes severity.",
-          "Anterior horn motor neurons degenerate, giving pure lower motor neuron signs.",
-          "Severe infantile form (type 1, Werdnig-Hoffmann): floppy infant, tongue fasciculations, areflexia, and respiratory failure; sensation and intellect are normal."
-        ]
-      },
-      {
-        "h": "Driver genes in nervous system tumors",
-        "points": [
-          "Retinoblastoma: both copies of RB1 (chromosome 13q14) are lost (two-hit); Rb normally holds cells in G1 by binding E2F.",
-          "Hereditary retinoblastoma (germline first hit) is often bilateral and early, with later risk of osteosarcoma; sporadic cases are usually unilateral.",
-          "Oligodendroglioma is defined by an IDH1 or IDH2 mutation plus 1p/19q codeletion, which predicts better response to treatment.",
-          "Neuroblastoma with MYCN (N-myc) amplification behaves aggressively and has a poor prognosis.",
-          "Oncogenes need only one activated copy (gain of function); tumor suppressors need both copies lost."
-        ]
-      }
-    ],
-    "charts": [
-      {
-        "title": "Trinucleotide repeat disorders",
-        "cols": [
-          "Disease",
-          "Repeat",
-          "Gene",
-          "Inheritance",
-          "Anticipation",
-          "Key features"
-        ],
-        "rows": [
-          [
-            "Huntington disease",
-            "CAG",
-            "HTT (chromosome 4)",
-            "Autosomal dominant",
-            "Yes, mainly through the father",
-            "Chorea, dementia, psychiatric change, caudate atrophy"
-          ],
-          [
-            "Fragile X syndrome",
-            "CGG",
-            "FMR1 (X chromosome), silenced by hypermethylation",
-            "X-linked dominant",
-            "Yes, expands through the mother",
-            "Intellectual disability, long face, large jaw and ears, macroorchidism"
-          ],
-          [
-            "Myotonic dystrophy type 1",
-            "CTG",
-            "DMPK (chromosome 19)",
-            "Autosomal dominant",
-            "Yes, congenital form through the mother",
-            "Myotonia, distal weakness, cataracts, frontal balding, testicular atrophy, heart block"
-          ],
-          [
-            "Friedreich ataxia",
-            "GAA",
-            "FXN, frataxin (chromosome 9)",
-            "Autosomal recessive",
-            "No",
-            "Progressive ataxia, lost reflexes and position sense, hypertrophic cardiomyopathy, diabetes, scoliosis"
-          ]
-        ]
-      },
-      {
-        "title": "Neurocutaneous syndromes",
-        "cols": [
-          "Syndrome",
-          "Gene and protein",
-          "Chromosome",
-          "Mechanism",
-          "Key nervous system and other findings"
-        ],
-        "rows": [
-          [
-            "NF1",
-            "NF1, neurofibromin",
-            "17",
-            "Tumor suppressor loss; Ras stays active",
-            "Neurofibromas, cafe-au-lait spots, Lisch nodules, axillary freckling, optic glioma, pheochromocytoma"
-          ],
-          [
-            "NF2",
-            "NF2, merlin",
-            "22",
-            "Tumor suppressor loss",
-            "Bilateral vestibular schwannomas, meningiomas, ependymomas, juvenile cataracts"
-          ],
-          [
-            "Tuberous sclerosis",
-            "TSC1 hamartin; TSC2 tuberin",
-            "9 (TSC1); 16 (TSC2)",
-            "Tumor suppressor loss; mTOR active",
-            "Cortical tubers, subependymal nodules, seizures, ash-leaf spots, facial angiofibromas, cardiac rhabdomyoma, renal angiomyolipoma"
-          ],
-          [
-            "von Hippel-Lindau",
-            "VHL",
-            "3",
-            "Tumor suppressor loss; HIF stays high",
-            "Hemangioblastomas of cerebellum, retina, and spinal cord; bilateral renal cell carcinoma; pheochromocytoma"
-          ],
-          [
-            "Sturge-Weber",
-            "GNAQ (activating)",
-            "9 (somatic mutation, not inherited)",
-            "Somatic mosaic gain of function in developing vessels",
-            "Port-wine stain in CN V1 area, leptomeningeal angioma, seizures, glaucoma"
-          ]
-        ]
-      }
-    ],
-    "tricks": [
-      {
-        "kind": "mnemonic",
-        "label": "X-Girlfriend's First Aid Helped Ace My Test",
-        "text": "Fragile X: CGG. Friedreich ataxia: GAA. Huntington disease: CAG. Myotonic dystrophy: CTG."
-      },
-      {
-        "kind": "mnemonic",
-        "label": "Huntington CAG: Caudate has less ACh and GABA",
-        "text": "The CAG repeat in Huntington disease destroys striatal neurons that make acetylcholine and GABA."
-      },
-      {
-        "kind": "trick",
-        "label": "Count the chromosome letters",
-        "text": "NF1 has 17 letters in neurofibromatosis (count them); NF2 is on 22, the number with two 2s; VHL has 3 letters and sits on chromosome 3."
-      }
-    ],
-    "highYield": [
-      "Anticipation is seen in Huntington disease, fragile X, and myotonic dystrophy, but not in autosomal recessive Friedreich ataxia.",
-      "Fragile X silences FMR1 by hypermethylation of an expanded CGG repeat.",
-      "Down syndrome by Robertsonian translocation can recur in a family regardless of maternal age.",
-      "Extra APP on chromosome 21 leads to early-onset Alzheimer disease in Down syndrome.",
-      "Bilateral vestibular schwannomas: NF2 (merlin, chromosome 22).",
-      "Tuberous sclerosis: loss of hamartin or tuberin releases mTOR.",
-      "Floppy infant with tongue fasciculations and absent reflexes: spinal muscular atrophy (SMN1).",
-      "MYCN amplification in neuroblastoma predicts aggressive disease."
-    ],
-    "pitfalls": [
-      "Sturge-Weber is sporadic and caused by an activating mutation, unlike the inherited tumor suppressor syndromes.",
-      "NF1, NF2, tuberous sclerosis, and von Hippel-Lindau are autosomal dominant (many cases are new mutations), yet each tumor still needs a second hit at the cellular level.",
-      "Spinal muscular atrophy causes lower motor neuron signs only; infant botulism also causes a floppy baby but adds constipation, ptosis, and sluggish pupils.",
-      "Huntington disease anticipation comes mainly from the father; myotonic dystrophy congenital disease comes from the mother."
-    ],
-    "dumps": [
-      {
-        "t": "Repeat disorders table",
-        "p": "Build a table for Huntington disease, fragile X syndrome, myotonic dystrophy, and Friedreich ataxia with columns for repeat, gene, inheritance, anticipation, and key features.",
-        "l": [
-          "Huntington: CAG, HTT, autosomal dominant, anticipation",
-          "Fragile X: CGG, FMR1 hypermethylation, X-linked, anticipation",
-          "Myotonic dystrophy: CTG, DMPK, autosomal dominant, anticipation",
-          "Friedreich ataxia: GAA, frataxin, autosomal recessive, no anticipation",
-          "Huntington: chorea, dementia, caudate atrophy",
-          "Fragile X: intellectual disability, macroorchidism, long face",
-          "Myotonic dystrophy: myotonia, cataracts, balding, heart block",
-          "Friedreich: ataxia plus hypertrophic cardiomyopathy"
-        ]
-      },
-      {
-        "t": "Two-hit and growth signals",
-        "p": "Draw a cell with the Ras, mTOR, HIF, and Rb pathways as simple boxes. Mark where neurofibromin, hamartin and tuberin, VHL protein, and Rb act, and write the disease caused when each is lost.",
-        "l": [
-          "Neurofibromin turns off Ras; loss causes NF1",
-          "Hamartin and tuberin restrain mTOR; loss causes tuberous sclerosis",
-          "VHL protein targets HIF for breakdown; loss causes von Hippel-Lindau",
-          "Rb binds E2F and holds cells in G1; loss causes retinoblastoma",
-          "Tumor suppressors need two hits; the first may be inherited",
-          "MYCN is an oncogene; amplification of one gene is enough",
-          "Oligodendroglioma: IDH mutation plus 1p/19q codeletion"
-        ]
-      }
-    ],
-    "refs": [
-      {
-        "book": "Robbins and Cotran Pathologic Basis of Disease",
-        "where": "Genetic Disorders"
-      },
-      {
-        "book": "Robbins and Cotran Pathologic Basis of Disease",
-        "where": "The Central Nervous System, sections on tumors and familial tumor syndromes"
-      },
-      {
-        "book": "Langman's Medical Embryology",
-        "where": "Section on chromosomal abnormalities"
-      }
-    ],
-    "videos": [
-      {
-        "channel": "Osmosis",
-        "title": "Fragile X Syndrome - causes, symptoms, diagnosis, treatment, pathology",
-        "url": "https://www.youtube.com/watch?v=afH4-_xFVmY"
-      }
-    ],
-    "related": [
-      "NE-15",
-      "NE-20-B3",
-      "NE-20-E1",
-      "NE-20-F3",
-      "NE-20-F4",
-      "NE-20-F6"
+   },
+   {
+    "t": "The neuromuscular junction",
+    "p": "Draw a motor nerve terminal, the synaptic cleft, and the muscle end plate. Label each step of transmission, then mark where botulinum toxin, myasthenia gravis antibodies, and Lambert-Eaton antibodies act.",
+    "l": [
+     "Action potential opens presynaptic voltage-gated Ca2+ channels",
+     "Ca2+ entry triggers SNARE-mediated vesicle fusion",
+     "Acetylcholine binds postsynaptic nicotinic receptors",
+     "End-plate potential triggers the muscle action potential",
+     "Acetylcholinesterase splits acetylcholine into acetate and choline",
+     "Botulinum toxin cleaves SNARE proteins (presynaptic)",
+     "Lambert-Eaton antibodies block presynaptic Ca2+ channels",
+     "Myasthenia gravis antibodies block postsynaptic acetylcholine receptors"
     ]
-  },
-  {
-    "id": "NE-17",
-    "summary": "The hypothalamus controls the pituitary in two ways: releasing hormones carried by portal blood to the anterior lobe, and nerve axons that end in the posterior lobe. Exam questions ask you to predict what happens when a tumor, head injury, or surgery damages the chiasm, stalk, or posterior pituitary, and how stress and thyroid hormone change nervous system function.",
-    "notes": [
-      {
-        "h": "Hypothalamus to anterior pituitary",
-        "points": [
-          "Hypothalamic neurons release hormones into capillaries in the median eminence, which lies outside the blood-brain barrier.",
-          "Hypophyseal portal veins carry these hormones down the stalk to a second capillary bed in the anterior pituitary.",
-          "Releasing hormones: TRH, CRH, GnRH (must be pulsatile), and GHRH. Inhibiting hormones: somatostatin (GH, TSH) and dopamine (prolactin).",
-          "Dopamine from the arcuate nucleus tonically inhibits prolactin through D2 receptors, so prolactin is the one hormone that rises when the stalk is cut."
-        ]
-      },
-      {
-        "h": "Posterior pituitary",
-        "points": [
-          "ADH is made mainly in the supraoptic nucleus and oxytocin mainly in the paraventricular nucleus.",
-          "Both travel down axons of the hypothalamo-hypophyseal tract with carrier proteins (neurophysins) and are released into blood in the posterior lobe.",
-          "ADH acts on V2 receptors in the collecting duct to insert aquaporin-2 and reabsorb water; release rises with high plasma osmolality or low blood volume.",
-          "Central diabetes insipidus (head trauma, pituitary surgery, craniopharyngioma): too little ADH, so large volumes of dilute urine with high serum sodium; urine concentrates after desmopressin.",
-          "SIADH (head trauma, meningitis, subarachnoid hemorrhage, CNS tumors, small cell lung cancer): too much ADH, so euvolemic hyponatremia with inappropriately concentrated urine.",
-          "Correcting chronic hyponatremia too fast can cause osmotic demyelination syndrome in the pons."
-        ]
-      },
-      {
-        "h": "Sellar masses",
-        "points": [
-          "The optic chiasm sits just above the pituitary; crossing nasal retinal fibers carry the temporal visual fields.",
-          "Pressing on the middle of the chiasm causes bitemporal hemianopia; a pituitary adenoma pushing up from below affects the upper temporal fields first.",
-          "Pituitary adenoma is the most common sellar mass in adults; prolactinoma is the most common hormone-making type.",
-          "Craniopharyngioma arises from Rathke pouch remnants, is often calcified and cystic, and is the most common sellar tumor in children (a second peak occurs in middle age); it causes visual loss, growth failure, and diabetes insipidus.",
-          "Stalk effect: a nonfunctioning mass blocks dopamine flow, so prolactin rises mildly while other pituitary hormones fall.",
-          "Lateral spread into the cavernous sinus can affect CN III, IV, V1, V2, and VI."
-        ]
-      },
-      {
-        "h": "Stress response",
-        "points": [
-          "Fast arm: the hypothalamus drives sympathetic outflow; preganglionic fibers go straight to adrenal medulla chromaffin cells, which release mostly epinephrine within seconds.",
-          "Slow arm (HPA axis): paraventricular nucleus releases CRH, the anterior pituitary releases ACTH, and the adrenal cortex releases cortisol over minutes to hours.",
-          "Cortisol raises blood glucose, supports vascular tone by keeping catecholamine responses working, suppresses inflammation, and feeds back to inhibit CRH and ACTH.",
-          "Cortisol flows from the cortex into the medulla and induces PNMT, linking the two arms."
-        ]
-      },
-      {
-        "h": "Thyroid hormone and the nervous system",
-        "points": [
-          "Thyroid hormone is needed for neuron growth, synapse formation, and myelination, most critically from late fetal life through the first years.",
-          "Congenital hypothyroidism causes intellectual disability and short stature if untreated; newborn screening allows early treatment that prevents this.",
-          "Hypothyroidism slows the relaxation phase of deep tendon reflexes and causes cognitive slowing and depression.",
-          "Hyperthyroidism causes fine tremor, hyperreflexia, anxiety, and insomnia, partly from increased beta-adrenergic sensitivity."
-        ]
-      }
-    ],
-    "charts": [
-      {
-        "title": "Hypothalamic control of the anterior pituitary",
-        "cols": [
-          "Hypothalamic hormone",
-          "Effect on anterior pituitary",
-          "Notes"
-        ],
-        "rows": [
-          [
-            "TRH",
-            "Increases TSH and prolactin",
-            "Primary hypothyroidism can raise prolactin through high TRH"
-          ],
-          [
-            "CRH",
-            "Increases ACTH",
-            "Drives the HPA stress response"
-          ],
-          [
-            "GnRH",
-            "Increases FSH and LH",
-            "Must be pulsatile; continuous GnRH suppresses FSH and LH"
-          ],
-          [
-            "GHRH",
-            "Increases GH",
-            "GH then drives IGF-1 from the liver"
-          ],
-          [
-            "Somatostatin",
-            "Decreases GH and TSH",
-            "Also made in pancreatic delta cells"
-          ],
-          [
-            "Dopamine",
-            "Decreases prolactin",
-            "Main control of prolactin; dopamine blockers raise prolactin"
-          ]
-        ]
-      },
-      {
-        "title": "Central diabetes insipidus vs SIADH",
-        "cols": [
-          "Feature",
-          "Central diabetes insipidus",
-          "SIADH"
-        ],
-        "rows": [
-          [
-            "ADH",
-            "Too little",
-            "Too much"
-          ],
-          [
-            "Urine",
-            "Large volume, dilute",
-            "Small volume, inappropriately concentrated"
-          ],
-          [
-            "Serum sodium (reference 135 to 145 mEq/L)",
-            "High or high-normal",
-            "Low"
-          ],
-          [
-            "Volume status",
-            "Can become dehydrated",
-            "Euvolemic"
-          ],
-          [
-            "CNS causes",
-            "Head trauma, pituitary surgery, craniopharyngioma",
-            "Head trauma, meningitis, subarachnoid hemorrhage, CNS tumors"
-          ],
-          [
-            "Response to desmopressin",
-            "Urine concentrates",
-            "Not used; restrict water"
-          ]
-        ]
-      }
-    ],
-    "tricks": [
-      {
-        "kind": "trick",
-        "label": "Cut the stalk, prolactin goes up",
-        "text": "Every anterior pituitary hormone needs a hypothalamic push except prolactin, which needs a dopamine brake. Remove the hypothalamus and only prolactin rises."
-      },
-      {
-        "kind": "trick",
-        "label": "SON makes water stay",
-        "text": "Supraoptic nucleus makes ADH, which keeps water in. Paraventricular nucleus makes oxytocin (and CRH)."
-      },
-      {
-        "kind": "trick",
-        "label": "Below pushes up, above pushes down",
-        "text": "A pituitary adenoma presses the chiasm from below and hits upper temporal fields first. A craniopharyngioma often presses from above and can hit lower temporal fields first."
-      }
-    ],
-    "highYield": [
-      "Dopamine is the main inhibitor of prolactin; stalk compression causes mild hyperprolactinemia.",
-      "Pituitary adenoma compressing the chiasm causes bitemporal hemianopia.",
-      "Child with a calcified suprasellar mass, visual loss, and growth failure: craniopharyngioma.",
-      "Polyuria with dilute urine and high sodium after head trauma or pituitary surgery: central diabetes insipidus.",
-      "Hyponatremia with concentrated urine after subarachnoid hemorrhage or meningitis: SIADH.",
-      "ADH comes mainly from the supraoptic nucleus; oxytocin mainly from the paraventricular nucleus.",
-      "Cortisol induces PNMT, so the adrenal medulla makes mostly epinephrine.",
-      "Delayed relaxation of the ankle reflex is a classic sign of hypothyroidism."
-    ],
-    "pitfalls": [
-      "A mildly raised prolactin with a large pituitary mass usually means stalk compression, while a very high prolactin points to a prolactinoma.",
-      "ADH and oxytocin are made in the hypothalamus; the posterior pituitary only stores and releases them.",
-      "Central diabetes insipidus responds to desmopressin; nephrogenic diabetes insipidus does not.",
-      "SIADH patients look euvolemic with a high urine sodium, which separates them from dehydrated patients with low sodium."
-    ],
-    "dumps": [
-      {
-        "t": "Hypothalamus and pituitary",
-        "p": "Draw the hypothalamus, pituitary stalk, anterior and posterior pituitary, and the optic chiasm above them. Show the portal system and the axon tract, label the hormones each lobe receives, and mark where a tumor causes bitemporal hemianopia.",
-        "l": [
-          "Hypothalamic hormones enter capillaries in the median eminence",
-          "Portal veins carry them down the stalk to the anterior pituitary",
-          "TRH, CRH, GnRH, GHRH stimulate; somatostatin and dopamine inhibit",
-          "Supraoptic and paraventricular axons run down the stalk to the posterior pituitary",
-          "ADH and oxytocin are released into blood from the posterior lobe",
-          "The optic chiasm sits above the sella",
-          "Compression of crossing nasal fibers causes bitemporal hemianopia",
-          "Stalk compression blocks dopamine and raises prolactin"
-        ]
-      },
-      {
-        "t": "The stress response",
-        "p": "Draw the two arms of the stress response starting at the hypothalamus: the sympathetic adrenal medulla arm and the HPA axis. Label each hormone, its target, how fast it acts, and the feedback loop.",
-        "l": [
-          "Hypothalamus activates sympathetic preganglionic neurons",
-          "Preganglionic fibers synapse directly on adrenal medulla chromaffin cells",
-          "Adrenal medulla releases mostly epinephrine within seconds",
-          "Paraventricular nucleus releases CRH",
-          "Anterior pituitary releases ACTH",
-          "Adrenal cortex releases cortisol over minutes to hours",
-          "Cortisol feeds back to inhibit CRH and ACTH",
-          "Cortisol induces PNMT in the adrenal medulla"
-        ]
-      }
-    ],
-    "refs": [
-      {
-        "book": "Guyton and Hall Textbook of Medical Physiology",
-        "where": "Pituitary Hormones and Their Control by the Hypothalamus"
-      },
-      {
-        "book": "Guyton and Hall Textbook of Medical Physiology",
-        "where": "Thyroid Metabolic Hormones"
-      },
-      {
-        "book": "Robbins and Cotran Pathologic Basis of Disease",
-        "where": "The Endocrine System, section on the pituitary gland"
-      }
-    ],
-    "videos": [
-      {
-        "channel": "Ninja Nerd",
-        "title": "Endocrinology | Hypothalamus: Posterior Pituitary Connection",
-        "url": "https://www.youtube.com/watch?v=13yGwDAvbQI"
-      }
-    ],
-    "related": [
-      "NE-9",
-      "NE-12",
-      "NE-15",
-      "NE-20-H1"
+   }
+  ],
+  "refs": [
+   {
+    "book": "Guyton and Hall Textbook of Medical Physiology",
+    "where": "Membrane Potentials and Action Potentials"
+   },
+   {
+    "book": "Guyton and Hall Textbook of Medical Physiology",
+    "where": "Excitation of Skeletal Muscle: Neuromuscular Transmission and Excitation-Contraction Coupling"
+   },
+   {
+    "book": "Robbins and Cotran Pathologic Basis of Disease",
+    "where": "Peripheral Nerves and Skeletal Muscles, section on neuromuscular junction disorders"
+   }
+  ],
+  "videos": [
+   {
+    "channel": "Ninja Nerd",
+    "title": "Neurology | Resting Membrane, Graded, Action Potentials",
+    "url": "https://www.youtube.com/watch?v=Jk_9IhHVOTk"
+   }
+  ],
+  "related": [
+   "NE-2",
+   "NE-15",
+   "NE-18",
+   "NE-20-B4",
+   "NE-20-B5",
+   "NE-20-G2"
+  ],
+  "flows": [
+   {
+    "title": "Neuron action potential",
+    "steps": [
+     "Summed EPSPs depolarize the axon initial segment to threshold, about -55 mV.",
+     "Voltage-gated Na+ channels open; Na+ influx drives the upstroke toward E for Na+.",
+     "Na+ channel inactivation gates close, stopping Na+ entry.",
+     "Delayed voltage-gated K+ channels open; K+ efflux repolarizes the membrane.",
+     "Slow K+ channel closing causes brief afterhyperpolarization toward E for K+.",
+     "Na+ channels recover from inactivation as the membrane returns to rest."
     ]
-  },
-  {
-    "id": "NE-18",
-    "summary": "The nervous system is partly shielded from immune attack by the blood-brain barrier, yet many neurologic diseases are immune driven. This unit covers how meningitis inflames the brain, how autoimmunity strips myelin or blocks the neuromuscular junction, how tumors trigger paraneoplastic syndromes, and how vaccines against meningitis and polio build protection.",
-    "notes": [
-      {
-        "h": "Blood-brain barrier and microglia",
-        "points": [
-          "The barrier is built from endothelial tight junctions, a basement membrane, pericytes, and astrocyte foot processes.",
-          "It limits entry of immune cells, antibodies, complement, and many drugs, so normal CSF has very few cells and little complement.",
-          "Microglia are the resident macrophages of the CNS; they come from yolk sac (mesodermal) precursors, phagocytose debris, present antigen, and release cytokines.",
-          "In bacterial meningitis, microglia and macrophages sense bacterial products through toll-like receptors and release IL-1 and TNF-alpha.",
-          "These cytokines activate endothelium, recruit neutrophils, and open the barrier, causing vasogenic edema, raised intracranial pressure, and risk of herniation.",
-          "Typical CSF: many neutrophils, high protein, and low glucose."
-        ]
-      },
-      {
-        "h": "Multiple sclerosis",
-        "points": [
-          "Autoreactive CD4 T cells (Th1 making IFN-gamma, Th17 making IL-17) cross the barrier and attack CNS myelin; macrophages and microglia strip the myelin.",
-          "Strongest genetic link: HLA-DR2. It is most common in women aged 20 to 40.",
-          "CSF shows oligoclonal IgG bands (not present in serum) and a raised IgG index.",
-          "MRI shows white matter plaques around the lateral ventricles (periventricular).",
-          "Common findings: optic neuritis, internuclear ophthalmoplegia, sensory loss, weakness, symptoms that worsen with heat."
-        ]
-      },
-      {
-        "h": "Guillain-Barré syndrome",
-        "points": [
-          "Weeks after Campylobacter jejuni diarrhea, antibodies made against bacterial lipooligosaccharide cross-react with peripheral nerve gangliosides (molecular mimicry).",
-          "Antibodies, complement, and macrophages damage peripheral myelin (or axons in the axonal variant).",
-          "Ascending symmetric weakness, areflexia, autonomic instability, and possible respiratory failure.",
-          "CSF shows high protein with a normal cell count (albuminocytologic dissociation).",
-          "Miller Fisher variant: anti-GQ1b antibodies (GQ1b is rich in the nerves that move the eyes) cause ophthalmoplegia, ataxia, and areflexia."
-        ]
-      },
-      {
-        "h": "Neuromuscular junction autoimmunity",
-        "points": [
-          "Myasthenia gravis is type II hypersensitivity: antibodies to postsynaptic acetylcholine receptors block them, cause their internalization, and fix complement.",
-          "Myasthenia gravis is linked to thymic hyperplasia and thymoma.",
-          "Lambert-Eaton syndrome is type II hypersensitivity against presynaptic P/Q voltage-gated Ca2+ channels, often paraneoplastic with small cell lung cancer.",
-          "MS and acute disseminated encephalomyelitis (ADEM) are T cell-mediated (type IV); ADEM is a single episode of widespread demyelination, usually in a child, after a viral infection or vaccination."
-        ]
-      },
-      {
-        "h": "Paraneoplastic syndromes",
-        "points": [
-          "A tumor expresses a protein also found in neurons; the immune response against the tumor attacks the nervous system too.",
-          "Neurologic symptoms often appear before the cancer is found.",
-          "Anti-Hu: small cell lung cancer, sensory neuronopathy, limbic encephalitis.",
-          "Anti-Yo (Purkinje cell antibody): ovarian or breast cancer, subacute cerebellar degeneration.",
-          "Anti-NMDA receptor encephalitis: young woman with ovarian teratoma, psychiatric symptoms, seizures, abnormal movements, and autonomic instability."
-        ]
-      },
-      {
-        "h": "Vaccines against CNS infection",
-        "points": [
-          "Plain polysaccharide capsules trigger T cell-independent responses: mostly IgM, little memory, and poor responses in children under 2.",
-          "Conjugate vaccines (Hib, pneumococcal, meningococcal) link the polysaccharide to a protein carrier; B cells present carrier peptides to helper T cells.",
-          "T cell help brings class switching to IgG, affinity maturation, and memory, so the vaccine works in infants.",
-          "Inactivated polio vaccine (Salk) is injected and makes serum IgG that stops virus from reaching the CNS, with weak gut IgA.",
-          "Live oral polio vaccine (Sabin) makes both serum IgG and intestinal secretory IgA, blocking gut infection and spread; it rarely reverts and causes paralytic polio."
-        ]
-      }
-    ],
-    "charts": [
-      {
-        "title": "Immune mechanisms in neurologic disease",
-        "cols": [
-          "Disease",
-          "Target",
-          "Main mechanism",
-          "Key clues"
-        ],
-        "rows": [
-          [
-            "Myasthenia gravis",
-            "Postsynaptic acetylcholine receptor",
-            "Type II hypersensitivity (antibody)",
-            "Fatigable ptosis and diplopia; thymic hyperplasia or thymoma"
-          ],
-          [
-            "Lambert-Eaton syndrome",
-            "Presynaptic P/Q voltage-gated Ca2+ channel",
-            "Type II hypersensitivity (antibody)",
-            "Weakness improves with use; small cell lung cancer"
-          ],
-          [
-            "Guillain-Barré syndrome",
-            "Peripheral nerve gangliosides",
-            "Molecular mimicry; antibodies, complement, macrophages",
-            "After Campylobacter jejuni; ascending weakness; high CSF protein, normal cells"
-          ],
-          [
-            "Miller Fisher variant",
-            "GQ1b ganglioside",
-            "Molecular mimicry; antibody",
-            "Ophthalmoplegia, ataxia, areflexia"
-          ],
-          [
-            "Multiple sclerosis",
-            "CNS myelin",
-            "Type IV (Th1 and Th17 T cells)",
-            "HLA-DR2, oligoclonal bands, periventricular plaques"
-          ],
-          [
-            "ADEM",
-            "CNS myelin",
-            "Type IV (T cells)",
-            "Single episode after infection or vaccination, often in children"
-          ]
-        ]
-      },
-      {
-        "title": "Paraneoplastic neurologic syndromes",
-        "cols": [
-          "Antibody",
-          "Usual tumor",
-          "Neurologic syndrome"
-        ],
-        "rows": [
-          [
-            "Anti-Hu",
-            "Small cell lung cancer",
-            "Sensory neuronopathy, limbic encephalitis, encephalomyelitis"
-          ],
-          [
-            "Anti-Yo",
-            "Ovarian or breast cancer",
-            "Subacute cerebellar degeneration"
-          ],
-          [
-            "Anti-NMDA receptor",
-            "Ovarian teratoma",
-            "Psychiatric symptoms, seizures, dyskinesias, autonomic instability"
-          ],
-          [
-            "Anti-P/Q Ca2+ channel",
-            "Small cell lung cancer",
-            "Lambert-Eaton syndrome"
-          ]
-        ]
-      },
-      {
-        "title": "Salk vs Sabin polio vaccine",
-        "cols": [
-          "Feature",
-          "Salk (inactivated, IPV)",
-          "Sabin (live attenuated, OPV)"
-        ],
-        "rows": [
-          [
-            "Route",
-            "Injection",
-            "Oral"
-          ],
-          [
-            "Serum IgG",
-            "Yes",
-            "Yes"
-          ],
-          [
-            "Intestinal secretory IgA",
-            "Weak",
-            "Strong"
-          ],
-          [
-            "Stops gut infection and spread",
-            "Less well",
-            "Yes"
-          ],
-          [
-            "Can revert to cause paralysis",
-            "No",
-            "Rarely"
-          ],
-          [
-            "Safe in immunocompromised people",
-            "Yes",
-            "No"
-          ]
-        ]
-      }
-    ],
-    "tricks": [
-      {
-        "kind": "trick",
-        "label": "Hu is for the lung, Yo is for the ovary",
-        "text": "Anti-Hu goes with small cell lung cancer and sensory loss. Anti-Yo goes with ovarian or breast cancer and cerebellar degeneration."
-      },
-      {
-        "kind": "trick",
-        "label": "GQ1b moves the eyes",
-        "text": "The GQ1b ganglioside is concentrated in the nerves to the eye muscles, so anti-GQ1b gives the eye findings of Miller Fisher syndrome."
-      },
-      {
-        "kind": "trick",
-        "label": "Conjugate means T cell help",
-        "text": "Sugar alone gets IgM and no memory. Add a protein carrier and helper T cells join in, giving IgG, memory, and protection in infants."
-      }
-    ],
-    "highYield": [
-      "IL-1 and TNF-alpha open the blood-brain barrier in bacterial meningitis and cause cerebral edema.",
-      "Microglia are the resident macrophages of the CNS.",
-      "Multiple sclerosis: Th1 and Th17 T cells, HLA-DR2, oligoclonal IgG bands, periventricular plaques.",
-      "Guillain-Barré after Campylobacter jejuni: molecular mimicry with nerve gangliosides; high CSF protein with normal cells.",
-      "Anti-GQ1b: Miller Fisher variant with ophthalmoplegia, ataxia, and areflexia.",
-      "Myasthenia gravis and Lambert-Eaton are type II hypersensitivity; MS and ADEM are T cell-mediated.",
-      "Young woman with psychosis, seizures, and an ovarian teratoma: anti-NMDA receptor encephalitis.",
-      "Conjugate vaccines turn a T cell-independent polysaccharide response into a T cell-dependent one."
-    ],
-    "pitfalls": [
-      "Oligoclonal bands must be in the CSF and absent from serum to point to MS.",
-      "Guillain-Barré has a high CSF protein with a normal cell count; many white cells suggest infection instead.",
-      "Myasthenia gravis weakness worsens with use; Lambert-Eaton weakness improves with use.",
-      "The Sabin vaccine gives gut IgA and stops spread, but it can rarely revert, so only the Salk vaccine is safe for immunocompromised people."
-    ],
-    "dumps": [
-      {
-        "t": "Meningitis and the barrier",
-        "p": "Draw a brain capillary with its tight junctions, basement membrane, pericyte, and astrocyte foot processes, and a microglial cell nearby. Then show step by step how bacteria in the CSF lead to cerebral edema.",
-        "l": [
-          "Endothelial tight junctions form the main barrier",
-          "Basement membrane, pericytes, and astrocyte foot processes support it",
-          "Microglia are resident CNS macrophages",
-          "Bacterial products bind toll-like receptors on microglia and macrophages",
-          "IL-1 and TNF-alpha are released",
-          "Endothelium is activated and neutrophils enter",
-          "Barrier permeability rises, causing vasogenic edema",
-          "Raised intracranial pressure risks herniation"
-        ]
-      },
-      {
-        "t": "Autoimmune and paraneoplastic table",
-        "p": "Make a table for myasthenia gravis, Lambert-Eaton syndrome, Guillain-Barré syndrome, multiple sclerosis, and anti-NMDA receptor encephalitis with columns for target, mechanism, trigger or tumor, and key finding.",
-        "l": [
-          "Myasthenia gravis: postsynaptic acetylcholine receptor, type II, thymus",
-          "Lambert-Eaton: presynaptic Ca2+ channel, type II, small cell lung cancer",
-          "Guillain-Barré: gangliosides, molecular mimicry, Campylobacter jejuni",
-          "Miller Fisher: anti-GQ1b, ophthalmoplegia, ataxia, areflexia",
-          "MS: CNS myelin, Th1 and Th17, HLA-DR2, oligoclonal bands",
-          "Anti-NMDA receptor encephalitis: ovarian teratoma, psychiatric symptoms and seizures"
-        ]
-      }
-    ],
-    "refs": [
-      {
-        "book": "Abbas, Basic Immunology",
-        "where": "Section on hypersensitivity diseases"
-      },
-      {
-        "book": "Abbas, Basic Immunology",
-        "where": "Section on vaccines and T cell-dependent antibody responses"
-      },
-      {
-        "book": "Robbins and Cotran Pathologic Basis of Disease",
-        "where": "The Central Nervous System, sections on infections and demyelinating diseases"
-      },
-      {
-        "book": "Jawetz, Melnick, and Adelberg's Medical Microbiology (a Lange text)",
-        "where": "Section on picornaviruses (poliovirus and polio vaccines)"
-      }
-    ],
-    "videos": [
-      {
-        "channel": "Ninja Nerd",
-        "title": "Multiple Sclerosis | Etiology, Pathophysiology, Types of MS, Clinical Features, Diagnosis, Treatment",
-        "url": "https://www.youtube.com/watch?v=x_136Lk_XPg"
-      },
-      {
-        "channel": "Ninja Nerd",
-        "title": "Musculoskeletal System | Neuromuscular Junction Pathologies: Part 4",
-        "url": "https://www.youtube.com/watch?v=31ri-1Nv61M"
-      }
-    ],
-    "related": [
-      "NE-13",
-      "NE-19",
-      "NE-20-B4",
-      "NE-20-B5",
-      "NE-20-B6",
-      "NE-20-G8",
-      "NE-20-G10"
+   },
+   {
+    "title": "Neuromuscular transmission",
+    "steps": [
+     "The motor nerve action potential reaches the presynaptic terminal.",
+     "P/Q-type voltage-gated Ca2+ channels open and Ca2+ enters the terminal.",
+     "Ca2+ binds synaptotagmin; SNARE proteins fuse vesicles and release acetylcholine.",
+     "Acetylcholine binds nicotinic receptors, opening cation channels at the end plate.",
+     "The end-plate potential triggers a muscle action potential through voltage-gated Na+ channels.",
+     "Acetylcholinesterase splits acetylcholine into acetate and choline, ending the signal."
     ]
-  }
+   },
+   {
+    "title": "Hypokalemic periodic paralysis attack",
+    "steps": [
+     "A carbohydrate-rich meal raises insulin.",
+     "Insulin stimulates the Na+/K+ ATPase, shifting K+ into cells; serum K+ falls.",
+     "The mutant Ca2+ or Na+ channel passes an inward leak current in low K+.",
+     "Muscle fibers depolarize and their Na+ channels inactivate.",
+     "Fibers cannot fire action potentials, producing flaccid weakness."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "NE-14",
+  "summary": "The brain runs almost entirely on glucose and needs several vitamins and cofactors to make energy, neurotransmitters, and myelin. This unit links each nutrient or toxin to the enzyme it affects and to the neurologic picture you will see on the exam: Wernicke encephalopathy, subacute combined degeneration, pellagra, hepatic encephalopathy, the sphingolipidoses, and lead poisoning.",
+  "notes": [
+   {
+    "h": "Brain fuel",
+    "points": [
+     "Glucose crosses the blood-brain barrier through GLUT1 on endothelial cells and enters neurons through GLUT3; neither needs insulin.",
+     "The brain stores almost no glycogen and fatty acids are not a meaningful brain fuel, so it needs a steady glucose supply.",
+     "After several days of fasting the liver makes ketone bodies (acetoacetate, beta-hydroxybutyrate), and the brain shifts to using them, sparing glucose and muscle protein.",
+     "Hypoglycemia first causes adrenergic symptoms (sweating, tremor, palpitations, hunger), then neuroglycopenic symptoms (confusion, behavior change, blurred vision, seizures, coma) as glucose falls further."
+    ],
+    "why": "Neurons rely on oxidizing glucose because brain glycogen stores are tiny and long-chain fatty acids cross the blood-brain barrier poorly and are hardly oxidized by neurons. GLUT1 and GLUT3 are high-affinity, insulin-independent transporters, so brain uptake follows blood glucose regardless of insulin. In prolonged fasting, ketone bodies enter the brain through monocarboxylate transporters and are converted to acetyl-CoA, which lowers the brain's glucose need and spares the muscle protein that would otherwise feed gluconeogenesis. Hypoglycemia symptoms follow thresholds: the sympathoadrenal response produces warning symptoms first, and neuronal energy failure appears as glucose falls lower."
+   },
+   {
+    "h": "Thiamine (vitamin B1)",
+    "points": [
+     "Thiamine pyrophosphate is a cofactor for pyruvate dehydrogenase, alpha-ketoglutarate dehydrogenase, branched-chain ketoacid dehydrogenase, and transketolase.",
+     "Without it, glucose cannot be fully oxidized, so ATP falls in the brain and heart.",
+     "Wernicke encephalopathy: confusion, ophthalmoplegia or nystagmus, and ataxia; lesions in the mammillary bodies, medial thalamus, and periaqueductal gray.",
+     "Korsakoff syndrome adds lasting memory loss with confabulation.",
+     "Dry beriberi is a symmetric peripheral neuropathy with muscle wasting; wet beriberi is high-output heart failure.",
+     "Giving glucose before thiamine pushes more flux through thiamine-dependent enzymes, uses up the last thiamine, and can trigger or worsen Wernicke encephalopathy."
+    ],
+    "why": "Thiamine pyrophosphate carries out oxidative decarboxylation in the dehydrogenase complexes, so without it pyruvate cannot enter the TCA cycle as acetyl-CoA and alpha-ketoglutarate cannot move through the cycle. Tissues that depend on aerobic glucose oxidation, such as neurons and myocardium, lose ATP first, and pyruvate is diverted to lactate. Periventricular regions such as the mammillary bodies, medial thalamus, and ocular motor nuclei are selectively vulnerable, which accounts for the eye signs and memory loss. A glucose load increases flux through these enzymes and uses up the remaining cofactor, which is why thiamine is given first."
+   },
+   {
+    "h": "Vitamin B12 vs folate",
+    "points": [
+     "Methionine synthase (needs B12, uses methyl-THF from folate) converts homocysteine to methionine, so both deficiencies raise homocysteine.",
+     "Methylmalonyl-CoA mutase (needs B12 only) converts methylmalonyl-CoA to succinyl-CoA, so only B12 deficiency raises methylmalonic acid.",
+     "Both cause megaloblastic anemia from impaired DNA synthesis.",
+     "B12 deficiency damages myelin: subacute combined degeneration of the dorsal columns (lost vibration and position sense) and lateral corticospinal tracts (spastic weakness, Babinski sign), plus peripheral neuropathy and cognitive decline.",
+     "Folate deficiency spares the nervous system; giving folate alone can fix the anemia of B12 deficiency while nerve damage keeps progressing."
+    ],
+    "why": "Methionine synthase uses both vitamins, so homocysteine rises in either deficiency, while methylmalonyl-CoA mutase uses only B12, so methylmalonic acid rises only when B12 is low. When methionine synthase stalls, folate is trapped as N5-methyl-THF (the methyl-folate trap), thymidine synthesis falls, and marrow cells enlarge with immature nuclei because DNA replication lags behind cytoplasmic growth. The exact cause of the myelin damage is still debated; leading explanations are reduced S-adenosylmethionine for methylation reactions and abnormal fatty acids built from excess methylmalonyl-CoA and propionyl-CoA. Extra folate bypasses the trap and restores DNA synthesis, which corrects the anemia, while the B12-dependent injury to myelin continues."
+   },
+   {
+    "h": "Ammonia and the brain",
+    "points": [
+     "The brain has no complete urea cycle; astrocytes clear ammonia with glutamine synthetase (glutamate + NH3 to glutamine).",
+     "Glutamine builds up inside astrocytes and pulls in water, so astrocytes swell and cerebral edema follows.",
+     "Using up glutamate and alpha-ketoglutarate disturbs neurotransmission and slows the TCA cycle.",
+     "Alzheimer type II astrocytes (enlarged, pale nuclei in gray matter) are the hallmark of hyperammonemia, seen in liver failure and Wilson disease.",
+     "Causes: liver failure, portosystemic shunting, and urea cycle defects such as ornithine transcarbamylase deficiency. Signs: asterixis, confusion, somnolence, coma."
+    ],
+    "why": "Without a full urea cycle, the brain detoxifies ammonia by adding it to glutamate in astrocytes, which consumes glutamate and the alpha-ketoglutarate it is made from. Glutamine is osmotically active, and by the Trojan horse hypothesis it also enters mitochondria and releases ammonia there, so astrocytes swell and cerebral edema develops. Draining alpha-ketoglutarate slows the TCA cycle and ATP production, and diverting glutamate disturbs the glutamate-glutamine cycle that refills neuronal transmitter. Asterixis and confusion reflect this mix of energy failure, astrocyte swelling, and transmitter imbalance."
+   },
+   {
+    "h": "Myelin lipids and lysosomal storage",
+    "points": [
+     "Myelin is about 70 to 80 percent lipid by dry weight, rich in cholesterol, galactocerebroside, sulfatide, and sphingomyelin.",
+     "Sphingolipids are broken down step by step in lysosomes; a missing enzyme lets its substrate build up in neurons or myelin.",
+     "Sphingolipidoses with neuronal storage (Tay-Sachs, Niemann-Pick type A) cause progressive loss of milestones in infancy.",
+     "Leukodystrophies destroy myelin: Krabbe disease and metachromatic leukodystrophy are lysosomal; X-linked adrenoleukodystrophy is a peroxisomal defect with very long chain fatty acid buildup."
+    ],
+    "why": "Myelin membranes are rich in sphingolipids, and their breakdown in lysosomes removes one sugar or sulfate group at a time, so a single missing hydrolase stalls the pathway at its substrate. Where that substrate normally sits decides the picture: gangliosides and sphingomyelin build up in neuronal cell bodies and cause gray matter disease with lost milestones, while defects in galactocerebroside and sulfatide breakdown mainly injure oligodendrocytes and Schwann cells and destroy white matter. In Krabbe disease, psychosine (galactosylsphingosine) accumulates and is toxic to myelinating cells. In X-linked adrenoleukodystrophy, a defective ABCD1 transporter blocks peroxisomal beta-oxidation, so very long chain fatty acids accumulate in myelin and the adrenal cortex."
+   },
+   {
+    "h": "Lead poisoning",
+    "points": [
+     "Lead inhibits ALA dehydratase (ALA builds up) and ferrochelatase (protoporphyrin builds up, measured as zinc protoporphyrin).",
+     "Heme synthesis fails, giving a microcytic anemia with basophilic stippling of red cells.",
+     "Children (old paint chips and dust) get encephalopathy with cerebral edema, learning problems, and developmental delay.",
+     "Adults (batteries, smelting, ammunition) get a peripheral motor neuropathy with wrist drop and foot drop, plus abdominal colic and nephropathy."
+    ],
+    "why": "Lead binds sulfhydryl groups and displaces zinc in enzymes, which is how it blocks ALA dehydratase and ferrochelatase. With ferrochelatase blocked, less iron is inserted into protoporphyrin and zinc takes its place, so heme falls and a microcytic anemia follows; inhibition of pyrimidine 5'-nucleotidase leaves clumped ribosomal RNA in red cells, seen as basophilic stippling. The developing brain is more vulnerable because lead crosses the immature blood-brain barrier more readily and damages capillary endothelium, producing cerebral edema in children. In adults, lead mainly causes a motor axonal neuropathy that favors the radial and peroneal nerve territories, which is why wrist drop and foot drop appear."
+   }
+  ],
+  "charts": [
+   {
+    "title": "Vitamins and the nervous system",
+    "cols": [
+     "Vitamin",
+     "Active form and key enzymes",
+     "Neurologic findings when deficient",
+     "Clues"
+    ],
+    "rows": [
+     [
+      "B1 (thiamine)",
+      "Thiamine pyrophosphate: pyruvate dehydrogenase, alpha-ketoglutarate dehydrogenase, transketolase",
+      "Wernicke encephalopathy, Korsakoff syndrome, dry beriberi",
+      "Alcohol use disorder, malnutrition; worse if glucose given first"
+     ],
+     [
+      "B3 (niacin)",
+      "NAD+ and NADP+ for redox reactions",
+      "Pellagra: dementia, with dermatitis and diarrhea",
+      "Corn-based diet, Hartnup disease, carcinoid syndrome, isoniazid"
+     ],
+     [
+      "B6 (pyridoxine)",
+      "Pyridoxal phosphate: glutamate decarboxylase, aromatic amino acid decarboxylase, transaminases, ALA synthase",
+      "Seizures (low GABA), peripheral neuropathy",
+      "Isoniazid; sideroblastic anemia"
+     ],
+     [
+      "B12 (cobalamin)",
+      "Methionine synthase, methylmalonyl-CoA mutase",
+      "Subacute combined degeneration, neuropathy, dementia",
+      "High methylmalonic acid and homocysteine, megaloblastic anemia"
+     ],
+     [
+      "Folate",
+      "Tetrahydrofolate carries one-carbon units for methionine and DNA synthesis",
+      "No myelin damage in adults",
+      "High homocysteine, normal methylmalonic acid"
+     ],
+     [
+      "E (tocopherol)",
+      "Antioxidant protecting membrane lipids from peroxidation",
+      "Spinocerebellar ataxia, dorsal column loss, neuropathy",
+      "Fat malabsorption; hemolytic anemia; normal methylmalonic acid"
+     ]
+    ]
+   },
+   {
+    "title": "Lysosomal and peroxisomal disorders that damage the nervous system",
+    "cols": [
+     "Disease",
+     "Deficient enzyme or protein",
+     "Substance that builds up",
+     "Inheritance",
+     "Key findings"
+    ],
+    "rows": [
+     [
+      "Tay-Sachs disease",
+      "Hexosaminidase A",
+      "GM2 ganglioside",
+      "Autosomal recessive",
+      "Neurodegeneration, cherry-red macula, no hepatosplenomegaly"
+     ],
+     [
+      "Niemann-Pick disease type A",
+      "Sphingomyelinase",
+      "Sphingomyelin",
+      "Autosomal recessive",
+      "Neurodegeneration, cherry-red macula, hepatosplenomegaly, foam cells"
+     ],
+     [
+      "Krabbe disease",
+      "Galactocerebrosidase",
+      "Galactocerebroside and psychosine",
+      "Autosomal recessive",
+      "Leukodystrophy, peripheral neuropathy, optic atrophy, globoid cells"
+     ],
+     [
+      "Metachromatic leukodystrophy",
+      "Arylsulfatase A",
+      "Sulfatide (cerebroside sulfate)",
+      "Autosomal recessive",
+      "Central and peripheral demyelination, ataxia, dementia"
+     ],
+     [
+      "Fabry disease",
+      "Alpha-galactosidase A",
+      "Ceramide trihexoside",
+      "X-linked recessive",
+      "Painful peripheral neuropathy, angiokeratomas, kidney and heart disease"
+     ],
+     [
+      "X-linked adrenoleukodystrophy",
+      "ABCD1 peroxisomal transporter",
+      "Very long chain fatty acids",
+      "X-linked recessive",
+      "Demyelination in boys, adrenal insufficiency"
+     ]
+    ]
+   }
+  ],
+  "tricks": [
+   {
+    "kind": "mnemonic",
+    "label": "Think ATP",
+    "text": "Thiamine pyrophosphate enzymes: Alpha-ketoglutarate dehydrogenase, Transketolase, Pyruvate dehydrogenase."
+   },
+   {
+    "kind": "mnemonic",
+    "label": "The 3 Ds of pellagra",
+    "text": "Dermatitis, Diarrhea, Dementia (and death if untreated) from niacin deficiency."
+   },
+   {
+    "kind": "mnemonic",
+    "label": "LEAD",
+    "text": "Lead lines on gums and bones, Encephalopathy and Erythrocyte basophilic stippling, Abdominal colic and sideroblastic Anemia, Drops (wrist and foot)."
+   },
+   {
+    "kind": "trick",
+    "label": "MMA decides B12 vs folate",
+    "text": "Both raise homocysteine. Only B12 runs methylmalonyl-CoA mutase, so a high methylmalonic acid means B12 and means the nerves are at risk."
+   }
+  ],
+  "highYield": [
+   "GLUT1 at the blood-brain barrier and GLUT3 on neurons are insulin independent.",
+   "In prolonged fasting the brain switches to ketone bodies.",
+   "Malnourished patient with confusion, ophthalmoplegia, and ataxia: give thiamine before glucose.",
+   "High methylmalonic acid plus dorsal column and corticospinal signs: B12 deficiency (subacute combined degeneration).",
+   "Isoniazid causes B6 deficiency, which can cause seizures and neuropathy.",
+   "Hyperammonemia swells astrocytes through glutamine buildup; look for Alzheimer type II astrocytes.",
+   "Cherry-red macula with no hepatosplenomegaly: Tay-Sachs; with hepatosplenomegaly: Niemann-Pick.",
+   "Adult battery worker with wrist drop, colic, and basophilic stippling: lead poisoning."
+  ],
+  "pitfalls": [
+   "Vitamin E deficiency mimics B12 deficiency (dorsal columns, ataxia) but has normal methylmalonic acid and no megaloblastic anemia.",
+   "Folate fixes the anemia of B12 deficiency but not the nerve damage, so check B12 before giving folate.",
+   "Alzheimer type II astrocytes are a sign of hyperammonemia and have nothing to do with Alzheimer disease.",
+   "Adrenoleukodystrophy is peroxisomal; Krabbe and metachromatic leukodystrophy are lysosomal."
+  ],
+  "dumps": [
+   {
+    "t": "B12 and folate pathways",
+    "p": "Draw the methionine synthase reaction and the methylmalonyl-CoA mutase reaction. Mark which vitamins each needs, then write which lab values rise in B12 deficiency and in folate deficiency and which one damages myelin.",
+    "l": [
+     "Methionine synthase converts homocysteine to methionine",
+     "It needs B12 and takes a methyl group from methyl-THF (folate)",
+     "Methylmalonyl-CoA mutase converts methylmalonyl-CoA to succinyl-CoA",
+     "Mutase needs B12 only",
+     "B12 deficiency: high homocysteine and high methylmalonic acid",
+     "Folate deficiency: high homocysteine, normal methylmalonic acid",
+     "Both cause megaloblastic anemia",
+     "Only B12 deficiency causes subacute combined degeneration"
+    ]
+   },
+   {
+    "t": "Nutrient and toxin table",
+    "p": "Make a table with four columns (nutrient or toxin, enzyme affected, neurologic result, typical patient) for thiamine, B6, niacin, vitamin E, ammonia, and lead.",
+    "l": [
+     "Thiamine: PDH, alpha-KGDH, transketolase; Wernicke-Korsakoff and dry beriberi; alcohol use disorder",
+     "B6: glutamate decarboxylase; seizures and neuropathy; isoniazid",
+     "Niacin: NAD+; pellagra with dementia; corn diet, Hartnup, carcinoid",
+     "Vitamin E: antioxidant; spinocerebellar ataxia, dorsal column loss; fat malabsorption",
+     "Ammonia: astrocyte glutamine synthetase; astrocyte swelling, asterixis; liver failure, urea cycle defects",
+     "Lead: ALA dehydratase and ferrochelatase; child encephalopathy, adult wrist and foot drop"
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "book": "Lippincott Illustrated Reviews: Biochemistry",
+    "where": "Section on vitamins"
+   },
+   {
+    "book": "Lippincott Illustrated Reviews: Biochemistry",
+    "where": "Section on sphingolipid metabolism and the sphingolipidoses"
+   },
+   {
+    "book": "Robbins and Cotran Pathologic Basis of Disease",
+    "where": "The Central Nervous System, section on metabolic and toxic disorders"
+   }
+  ],
+  "videos": [
+   {
+    "channel": "Ninja Nerd",
+    "title": "Cell Biology | Tay-Sachs, Fabry, Gaucher, Niemann-Pick Disease",
+    "url": "https://www.youtube.com/watch?v=yXLBuy38jQM"
+   },
+   {
+    "channel": "Armando Hasudungan",
+    "title": "Vitamin B12 Digestion and Absorption & Pernicious Anaemia",
+    "url": "https://www.youtube.com/watch?v=aww5NiahRb8"
+   }
+  ],
+  "related": [
+   "NE-15",
+   "NE-20-D1",
+   "NE-20-D3",
+   "NE-20-D4",
+   "NE-20-E2",
+   "NE-20-E4"
+  ],
+  "flows": [
+   {
+    "title": "Thiamine deficiency to Wernicke encephalopathy",
+    "steps": [
+     "Chronic alcohol use or malnutrition depletes thiamine through poor intake and absorption.",
+     "Thiamine pyrophosphate falls, impairing pyruvate and alpha-ketoglutarate dehydrogenase.",
+     "Aerobic glucose oxidation fails; ATP falls and lactate rises in vulnerable neurons.",
+     "Periventricular regions are damaged: mammillary bodies, medial thalamus, periaqueductal gray.",
+     "Confusion, ophthalmoplegia, and ataxia develop."
+    ]
+   },
+   {
+    "title": "Methyl-folate trap in B12 deficiency",
+    "steps": [
+     "B12 deficiency stalls methionine synthase.",
+     "Homocysteine is not remethylated to methionine, so homocysteine rises.",
+     "Folate is trapped as N5-methyl-THF.",
+     "Less N5,N10-methylene-THF is available for thymidylate synthesis.",
+     "DNA synthesis slows while cytoplasm keeps growing, producing megaloblastic anemia."
+    ]
+   },
+   {
+    "title": "Hyperammonemic encephalopathy",
+    "steps": [
+     "Liver failure, portosystemic shunting, or a urea cycle defect leaves ammonia unconverted.",
+     "Blood ammonia rises and enters the brain.",
+     "Astrocyte glutamine synthetase combines glutamate and ammonia into glutamine.",
+     "Glutamine accumulates and draws water in, so astrocytes swell.",
+     "Cerebral edema and depleted glutamate and alpha-ketoglutarate impair neuronal function.",
+     "Asterixis, confusion, somnolence, and coma follow."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "NE-15",
+  "summary": "Neurotransmitters are built from amino acids and simple precursors by a few key enzymes, then broken down into products you can measure in urine. Exam questions ask you to trace each pathway, name the rate-limiting enzyme or cofactor, link breakdown products to tumors, and match each transmitter to its source nucleus and the diseases that change it.",
+  "notes": [
+   {
+    "h": "Catecholamine synthesis",
+    "points": [
+     "Phenylalanine to tyrosine by phenylalanine hydroxylase (needs BH4).",
+     "Tyrosine to L-DOPA by tyrosine hydroxylase (needs BH4); this is the rate-limiting step.",
+     "L-DOPA to dopamine by aromatic L-amino acid (DOPA) decarboxylase, which needs pyridoxal phosphate (B6).",
+     "Dopamine to norepinephrine by dopamine beta-hydroxylase inside vesicles; it needs vitamin C (and copper).",
+     "Norepinephrine to epinephrine by PNMT, which uses SAM as the methyl donor; cortisol from the adrenal cortex induces PNMT in the adrenal medulla."
+    ],
+    "why": "Each step modifies one group on the tyrosine skeleton, and each enzyme's cofactor is a testable link: BH4 for the ring hydroxylation, pyridoxal phosphate for decarboxylation, ascorbate and copper for side-chain hydroxylation, and SAM for methylation. Tyrosine hydroxylase is rate limiting and is feedback inhibited by catecholamines, so output is tightly regulated. Location controls the last steps: dopamine beta-hydroxylase sits inside vesicles, so dopamine must be packaged before it becomes norepinephrine, and PNMT is concentrated in the adrenal medulla, where portal blood from the cortex delivers high local cortisol. This is why epinephrine comes mainly from the adrenal medulla, and why BH4 deficiency lowers dopamine and serotonin together."
+   },
+   {
+    "h": "Catecholamine breakdown",
+    "points": [
+     "Most catecholamine action ends by reuptake into the nerve terminal; the rest is broken down by MAO (mitochondria) and COMT (cytosol, mostly liver).",
+     "Dopamine breaks down to homovanillic acid (HVA).",
+     "Norepinephrine breaks down to normetanephrine and vanillylmandelic acid (VMA); epinephrine to metanephrine and VMA.",
+     "Neuroblastoma raises urinary HVA and VMA; pheochromocytoma raises plasma and urine metanephrines."
+    ],
+    "why": "Reuptake through the norepinephrine and dopamine transporters recycles most transmitter, so blocking reuptake (cocaine, tricyclic antidepressants) prolongs synaptic action. MAO removes the amine group by oxidative deamination and COMT adds a methyl group to a ring hydroxyl; COMT acting first gives metanephrines, and further deamination gives VMA. Pheochromocytoma cells contain COMT and convert catecholamines to metanephrines continuously inside the tumor, so metanephrines stay high even between episodic surges, which makes them the most sensitive test. Neuroblastoma cells make mainly dopamine and norepinephrine, which are broken down to HVA and VMA and appear in the urine."
+   },
+   {
+    "h": "Serotonin and melatonin",
+    "points": [
+     "Tryptophan to 5-hydroxytryptophan by tryptophan hydroxylase (needs BH4), the rate-limiting step.",
+     "5-hydroxytryptophan to serotonin by aromatic L-amino acid decarboxylase (B6).",
+     "Brain serotonin comes from the raphe nuclei of the brainstem.",
+     "In the pineal gland serotonin is converted to melatonin; darkness increases melatonin release through a pathway from the suprachiasmatic nucleus.",
+     "MAO breaks serotonin down to 5-hydroxyindoleacetic acid (5-HIAA), which rises in urine in carcinoid syndrome."
+    ],
+    "why": "Serotonin synthesis mirrors catecholamine synthesis, with a BH4-dependent hydroxylation followed by decarboxylation by the same B6-dependent aromatic L-amino acid decarboxylase. Tryptophan hydroxylase is not normally saturated with substrate, so tryptophan supply affects serotonin output, and tryptophan is also used to make niacin. In the pineal gland, serotonin is acetylated and then methylated to melatonin; in darkness the suprachiasmatic nucleus releases its hold on a sympathetic pathway through the superior cervical ganglion, norepinephrine reaches the pineal, and melatonin rises. Carcinoid tumors divert large amounts of tryptophan to serotonin, which raises urinary 5-HIAA and can cause niacin deficiency (pellagra)."
+   },
+   {
+    "h": "Glutamate, GABA, and glycine",
+    "points": [
+     "Glutamate is the main excitatory transmitter: AMPA receptors pass Na+ for fast EPSPs; NMDA receptors pass Ca2+ once depolarization removes their Mg2+ block.",
+     "GABA is made from glutamate by glutamate decarboxylase, which needs pyridoxal phosphate (B6).",
+     "GABA is the main inhibitory transmitter in the brain (GABA-A is a Cl- channel; GABA-B is G protein coupled and opens K+ channels).",
+     "Glycine is the main inhibitory transmitter in the spinal cord and brainstem and opens Cl- channels.",
+     "Excitotoxicity in ischemia: ATP fails, neurons depolarize, and glutamate reuptake stops, so glutamate floods the synapse.",
+     "Excess NMDA activation lets Ca2+ pour in, which activates proteases, phospholipases, and free radical production and kills the neuron."
+    ],
+    "why": "Neurons recycle glutamate through astrocytes, which take up released glutamate, convert it to glutamine, and return it to neurons, where glutaminase regenerates glutamate. GABA is made from glutamate by glutamate decarboxylase, so B6 deficiency lowers GABA and can cause seizures, classically in infants and with isoniazid use. The NMDA receptor is a coincidence detector: it needs glutamate plus enough depolarization to expel Mg2+, which suits it for learning and also lets Ca2+ overload occur in ischemia. When ATP fails, the Na+ gradient that powers glutamate reuptake collapses, transporters stall or reverse, and extracellular glutamate keeps NMDA channels open until Ca2+-activated enzymes destroy the cell."
+   },
+   {
+    "h": "Acetylcholine",
+    "points": [
+     "Choline acetyltransferase joins acetyl-CoA and choline to make acetylcholine in the nerve terminal.",
+     "Acetylcholinesterase in the synaptic cleft splits it into acetate and choline; choline is recycled into the terminal.",
+     "Cholinergic neurons of the nucleus basalis of Meynert project to the cortex and are lost early in Alzheimer disease, lowering cortical acetylcholine."
+    ],
+    "why": "Choline supply limits acetylcholine synthesis, so high-affinity choline reuptake into the terminal after acetylcholinesterase cleaves the transmitter is the key recycling step. Acetyl-CoA comes from glucose metabolism in the terminal's mitochondria, linking cholinergic function to energy supply. Nucleus basalis neurons supply most cortical acetylcholine, which supports attention and memory, so their early loss in Alzheimer disease lowers cortical choline acetyltransferase activity and is the rationale for cholinesterase inhibitor treatment."
+   }
+  ],
+  "charts": [
+   {
+    "title": "Source nuclei and disease changes",
+    "cols": [
+     "Transmitter",
+     "Main source nucleus",
+     "Location",
+     "Disease changes"
+    ],
+    "rows": [
+     [
+      "Dopamine",
+      "Substantia nigra pars compacta; ventral tegmental area",
+      "Midbrain",
+      "Low in Parkinson disease; high in Huntington disease and schizophrenia"
+     ],
+     [
+      "Norepinephrine",
+      "Locus coeruleus",
+      "Pons",
+      "High in anxiety; low in depression"
+     ],
+     [
+      "Serotonin",
+      "Raphe nuclei",
+      "Brainstem midline",
+      "Low in depression and anxiety"
+     ],
+     [
+      "Acetylcholine",
+      "Nucleus basalis of Meynert",
+      "Basal forebrain",
+      "Low in Alzheimer disease and Huntington disease; high relative to dopamine in Parkinson disease"
+     ],
+     [
+      "GABA",
+      "Nucleus accumbens; striatal medium spiny neurons",
+      "Basal ganglia",
+      "Low in anxiety and Huntington disease"
+     ]
+    ]
+   },
+   {
+    "title": "Synthesis and breakdown at a glance",
+    "cols": [
+     "Transmitter",
+     "Precursor",
+     "Rate-limiting or key enzyme",
+     "Cofactor",
+     "Main breakdown product"
+    ],
+    "rows": [
+     [
+      "Dopamine",
+      "Tyrosine",
+      "Tyrosine hydroxylase",
+      "BH4, then B6",
+      "HVA"
+     ],
+     [
+      "Norepinephrine",
+      "Dopamine",
+      "Dopamine beta-hydroxylase",
+      "Vitamin C, copper",
+      "VMA, normetanephrine"
+     ],
+     [
+      "Epinephrine",
+      "Norepinephrine",
+      "PNMT (induced by cortisol)",
+      "SAM",
+      "VMA, metanephrine"
+     ],
+     [
+      "Serotonin",
+      "Tryptophan",
+      "Tryptophan hydroxylase",
+      "BH4, then B6",
+      "5-HIAA"
+     ],
+     [
+      "GABA",
+      "Glutamate",
+      "Glutamate decarboxylase",
+      "B6",
+      "Succinate (via GABA transaminase)"
+     ],
+     [
+      "Acetylcholine",
+      "Acetyl-CoA and choline",
+      "Choline acetyltransferase",
+      "None special",
+      "Acetate and choline"
+     ]
+    ]
+   }
+  ],
+  "tricks": [
+   {
+    "kind": "trick",
+    "label": "Walk the catecholamine ladder",
+    "text": "Phenylalanine, tyrosine, DOPA, dopamine, norepinephrine, epinephrine. Each rung adds one change: a hydroxyl, a hydroxyl, remove CO2, a hydroxyl, then a methyl."
+   },
+   {
+    "kind": "trick",
+    "label": "Name the breakdown by the parent",
+    "text": "HVA comes from dopamine. VMA and metanephrines come from norepinephrine and epinephrine. 5-HIAA comes from serotonin."
+   },
+   {
+    "kind": "trick",
+    "label": "B6 makes the signals",
+    "text": "Pyridoxal phosphate runs the decarboxylases that make GABA, dopamine, and serotonin. Low B6 means low GABA, which is why deficiency causes seizures."
+   }
+  ],
+  "highYield": [
+   "Tyrosine hydroxylase is rate limiting for catecholamines; tryptophan hydroxylase for serotonin.",
+   "Dopamine beta-hydroxylase needs vitamin C.",
+   "Cortisol induces PNMT, so the adrenal medulla makes mostly epinephrine.",
+   "Child with an abdominal mass and high urinary HVA and VMA: neuroblastoma.",
+   "High urinary 5-HIAA: carcinoid syndrome.",
+   "Glutamate excitotoxicity through NMDA receptors and Ca2+ influx kills neurons after ischemia.",
+   "Parkinson disease: low dopamine from substantia nigra loss. Huntington disease: low GABA and acetylcholine, high dopamine.",
+   "Alzheimer disease: loss of cholinergic neurons in the nucleus basalis of Meynert."
+  ],
+  "pitfalls": [
+   "Tyrosine hydroxylase (catecholamines) and tryptophan hydroxylase (serotonin) are both BH4 dependent; do not mix up their substrates.",
+   "GABA is made from glutamate, so the brain's main inhibitory transmitter comes from its main excitatory one.",
+   "Glycine is the main inhibitory transmitter in the spinal cord; GABA dominates in the brain.",
+   "Neuroblastoma is screened with HVA and VMA; pheochromocytoma is screened with metanephrines."
+  ],
+  "dumps": [
+   {
+    "t": "Catecholamine pathway",
+    "p": "Starting from phenylalanine, draw the pathway to epinephrine. Label each enzyme and cofactor, mark the rate-limiting step, then draw the breakdown arrows to HVA and VMA.",
+    "l": [
+     "Phenylalanine hydroxylase makes tyrosine (BH4)",
+     "Tyrosine hydroxylase makes L-DOPA, rate limiting (BH4)",
+     "DOPA decarboxylase makes dopamine (B6)",
+     "Dopamine beta-hydroxylase makes norepinephrine (vitamin C)",
+     "PNMT makes epinephrine (SAM, induced by cortisol)",
+     "MAO and COMT break down catecholamines",
+     "Dopamine to HVA; norepinephrine and epinephrine to VMA and metanephrines",
+     "High urinary HVA and VMA in neuroblastoma"
+    ]
+   },
+   {
+    "t": "Transmitters and their nuclei",
+    "p": "Draw a sagittal sketch of the brainstem and basal forebrain. Place the substantia nigra, ventral tegmental area, locus coeruleus, raphe nuclei, and nucleus basalis of Meynert, label each with its transmitter, and write one disease linked to each.",
+    "l": [
+     "Substantia nigra (midbrain): dopamine; lost in Parkinson disease",
+     "Ventral tegmental area (midbrain): dopamine to limbic and frontal areas",
+     "Locus coeruleus (pons): norepinephrine",
+     "Raphe nuclei (brainstem midline): serotonin; low in depression",
+     "Nucleus basalis of Meynert (basal forebrain): acetylcholine; lost in Alzheimer disease",
+     "Huntington disease: loss of striatal GABA and acetylcholine neurons"
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "book": "Lippincott Illustrated Reviews: Biochemistry",
+    "where": "Section on amino acids as precursors of specialized products (catecholamines, serotonin)"
+   },
+   {
+    "book": "Guyton and Hall Textbook of Medical Physiology",
+    "where": "Organization of the Nervous System, Basic Functions of Synapses, and Neurotransmitters"
+   },
+   {
+    "book": "Robbins and Cotran Pathologic Basis of Disease",
+    "where": "The Central Nervous System, section on degenerative diseases"
+   }
+  ],
+  "videos": [
+   {
+    "channel": "Khan Academy",
+    "title": "Types of neurotransmitters | Nervous system physiology | NCLEX-RN | Khan Academy",
+    "url": "https://www.youtube.com/watch?v=FXYX_ksRwIk"
+   },
+   {
+    "channel": "Khan Academy",
+    "title": "Neurotransmitter removal | Nervous system physiology | NCLEX-RN | Khan Academy",
+    "url": "https://www.youtube.com/watch?v=FO10z7FX13c"
+   }
+  ],
+  "related": [
+   "NE-13",
+   "NE-14",
+   "NE-20-B1",
+   "NE-20-B3",
+   "NE-20-F3"
+  ],
+  "flows": [
+   {
+    "title": "Catecholamine synthesis",
+    "steps": [
+     "Phenylalanine to tyrosine by phenylalanine hydroxylase (BH4).",
+     "Tyrosine to L-DOPA by tyrosine hydroxylase (BH4), the rate-limiting step.",
+     "L-DOPA to dopamine by aromatic L-amino acid decarboxylase (B6).",
+     "Dopamine to norepinephrine by dopamine beta-hydroxylase in vesicles (vitamin C, copper).",
+     "Norepinephrine to epinephrine by PNMT (SAM), induced by cortisol in the adrenal medulla."
+    ]
+   },
+   {
+    "title": "Serotonin and melatonin synthesis",
+    "steps": [
+     "Tryptophan to 5-hydroxytryptophan by tryptophan hydroxylase (BH4), the rate-limiting step.",
+     "5-hydroxytryptophan to serotonin by aromatic L-amino acid decarboxylase (B6).",
+     "In the pineal gland, serotonin is acetylated to N-acetylserotonin.",
+     "N-acetylserotonin is methylated to melatonin, using SAM as the methyl donor."
+    ]
+   },
+   {
+    "title": "Excitotoxicity in ischemic stroke",
+    "steps": [
+     "Blood flow stops, so oxygen and glucose fall and neuronal ATP is depleted.",
+     "The Na+/K+ ATPase fails and neurons depolarize.",
+     "Glutamate is released, and energy-dependent reuptake fails.",
+     "Glutamate activates AMPA receptors; depolarization removes the NMDA receptor Mg2+ block.",
+     "Ca2+ floods in through NMDA channels.",
+     "Ca2+ activates proteases, phospholipases, and free radical production, killing neurons."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "NE-16",
+  "summary": "Many neurologic diseases come from a specific kind of genetic error: repeat expansions, extra chromosomes, lost tumor suppressor genes, or amplified oncogenes. Exam questions give you a family history or a set of features and ask for the gene, the inheritance pattern, or the molecular mechanism.",
+  "notes": [
+   {
+    "h": "Trinucleotide repeat expansions",
+    "points": [
+     "A run of three bases grows past a threshold and disrupts the gene or its product.",
+     "Anticipation: repeats grow from one generation to the next, so onset comes earlier and disease is more severe.",
+     "Huntington repeats expand mainly through the father; fragile X expands through the mother, and congenital myotonic dystrophy comes from the mother.",
+     "Fragile X full mutation (more than about 200 CGG repeats) hypermethylates FMR1 and silences it.",
+     "Friedreich ataxia is autosomal recessive, so anticipation is not a feature; the GAA expansion lowers frataxin, a mitochondrial iron protein."
+    ],
+    "why": "Long runs of three bases can form hairpins and slip during DNA replication and repair, and longer runs are less stable, so expansion becomes more likely each generation. The effect depends on where the repeat sits: a coding CAG repeat adds a polyglutamine tract that makes a toxic, aggregating protein (Huntington), a CGG repeat in the 5' untranslated region triggers methylation that silences the gene (fragile X), and an intronic GAA repeat blocks transcription (Friedreich). The parent of origin reflects gametogenesis: CAG tracts are unstable in spermatogenesis, while CGG and large CTG expansions occur through the mother. Larger repeats give earlier onset, which is the molecular basis of anticipation."
+   },
+   {
+    "h": "Down syndrome",
+    "points": [
+     "About 95 percent: meiotic nondisjunction, usually in maternal meiosis I; risk rises with maternal age.",
+     "About 4 percent: Robertsonian translocation (often 14;21); can be inherited from a parent with a balanced translocation and is not tied to maternal age.",
+     "About 1 percent: mosaicism from mitotic nondisjunction after fertilization; features are often milder.",
+     "The APP gene sits on chromosome 21, so an extra copy makes more amyloid-beta; Alzheimer plaques are present by about age 40 and dementia often follows."
+    ],
+    "why": "Nondisjunction in maternal meiosis I is thought to rise with age because oocytes stay arrested in prophase I for decades and the cohesion holding homologs together weakens over time. A Robertsonian translocation fuses the long arms of two acrocentric chromosomes; the carrier is balanced, but a gamete can carry the fused chromosome plus a free chromosome 21, giving three copies of 21q. Mosaicism arises after fertilization, so only some cell lines are trisomic, which usually softens the phenotype. Whatever the mechanism, the phenotype comes from gene dosage, and an extra APP copy raises amyloid-beta production enough to cause early Alzheimer pathology."
+   },
+   {
+    "h": "Neurocutaneous syndromes",
+    "points": [
+     "NF1, NF2, tuberous sclerosis, and von Hippel-Lindau are autosomal dominant tumor suppressor disorders: one bad copy is inherited, and a tumor forms when the second copy is lost.",
+     "Neurofibromin is a Ras GTPase-activating protein; losing it leaves Ras switched on.",
+     "Hamartin (TSC1) and tuberin (TSC2) form a complex that normally restrains mTOR; losing either lets mTOR drive cell growth.",
+     "VHL protein normally targets HIF for breakdown; losing it raises HIF, which drives VEGF and erythropoietin.",
+     "Sturge-Weber syndrome is sporadic: a somatic activating GNAQ mutation causes a port-wine stain in the CN V1 area, ipsilateral leptomeningeal angioma, seizures, and glaucoma."
+    ],
+    "why": "These are two-hit disorders: every cell carries one inherited loss-of-function allele, so a tumor forms wherever a somatic second hit removes the remaining copy, which explains multiple lesions in several organs. Each lost protein brakes a growth pathway: neurofibromin speeds GTP hydrolysis by Ras, the hamartin-tuberin complex keeps Rheb inactive and mTOR quiet, and VHL protein tags HIF for ubiquitination and proteasomal breakdown under normal oxygen. Losing VHL makes cells act as if hypoxic, driving VEGF-rich vascular tumors (hemangioblastomas) and sometimes erythrocytosis from erythropoietin. Sturge-Weber differs because its activating GNAQ mutation arises after conception, so only a patch of cells carries it and the disease is not inherited."
+   },
+   {
+    "h": "Spinal muscular atrophy",
+    "points": [
+     "Autosomal recessive loss (usually deletion) of SMN1 on chromosome 5q; SMN2 copy number changes severity.",
+     "Anterior horn motor neurons degenerate, giving pure lower motor neuron signs.",
+     "Severe infantile form (type 1, Werdnig-Hoffmann): floppy infant, tongue fasciculations, areflexia, and respiratory failure; sensation and intellect are normal."
+    ],
+    "why": "SMN protein assembles small nuclear ribonucleoproteins needed for pre-mRNA splicing, and alpha motor neurons are especially dependent on it. SMN2 is nearly identical to SMN1, but a single base change causes exon 7 to be skipped in most SMN2 transcripts, so each copy makes only a small amount of full-length protein. More SMN2 copies therefore mean more functional SMN and a milder, later-onset type. Because only anterior horn cells degenerate, the picture is purely lower motor neuron: hypotonia, fasciculations, and areflexia, with sensation and cognition spared."
+   },
+   {
+    "h": "Driver genes in nervous system tumors",
+    "points": [
+     "Retinoblastoma: both copies of RB1 (chromosome 13q14) are lost (two-hit); Rb normally holds cells in G1 by binding E2F.",
+     "Hereditary retinoblastoma (germline first hit) is often bilateral and early, with later risk of osteosarcoma; sporadic cases are usually unilateral.",
+     "Oligodendroglioma is defined by an IDH1 or IDH2 mutation plus 1p/19q codeletion, which predicts better response to treatment.",
+     "Neuroblastoma with MYCN (N-myc) amplification behaves aggressively and has a poor prognosis.",
+     "Oncogenes need only one activated copy (gain of function); tumor suppressors need both copies lost."
+    ],
+    "why": "RB1 acts recessively at the cell level, so a tumor needs both copies lost; a germline first hit means every retinal cell needs only one more hit, which explains bilateral, early disease and later osteosarcoma. Cyclin D-CDK4/6 normally phosphorylates Rb to release E2F and start S phase, so losing Rb removes this G1 checkpoint. Oncogenes act dominantly, so one gain-of-function event such as MYCN amplification drives proliferation and marks aggressive neuroblastoma. Mutant IDH makes 2-hydroxyglutarate, which inhibits DNA and histone demethylases and reshapes gene expression; IDH-mutant gliomas generally carry a better prognosis than IDH-wildtype tumors."
+   }
+  ],
+  "charts": [
+   {
+    "title": "Trinucleotide repeat disorders",
+    "cols": [
+     "Disease",
+     "Repeat",
+     "Gene",
+     "Inheritance",
+     "Anticipation",
+     "Key features"
+    ],
+    "rows": [
+     [
+      "Huntington disease",
+      "CAG",
+      "HTT (chromosome 4)",
+      "Autosomal dominant",
+      "Yes, mainly through the father",
+      "Chorea, dementia, psychiatric change, caudate atrophy"
+     ],
+     [
+      "Fragile X syndrome",
+      "CGG",
+      "FMR1 (X chromosome), silenced by hypermethylation",
+      "X-linked dominant",
+      "Yes, expands through the mother",
+      "Intellectual disability, long face, large jaw and ears, macroorchidism"
+     ],
+     [
+      "Myotonic dystrophy type 1",
+      "CTG",
+      "DMPK (chromosome 19)",
+      "Autosomal dominant",
+      "Yes, congenital form through the mother",
+      "Myotonia, distal weakness, cataracts, frontal balding, testicular atrophy, heart block"
+     ],
+     [
+      "Friedreich ataxia",
+      "GAA",
+      "FXN, frataxin (chromosome 9)",
+      "Autosomal recessive",
+      "No",
+      "Progressive ataxia, lost reflexes and position sense, hypertrophic cardiomyopathy, diabetes, scoliosis"
+     ]
+    ]
+   },
+   {
+    "title": "Neurocutaneous syndromes",
+    "cols": [
+     "Syndrome",
+     "Gene and protein",
+     "Chromosome",
+     "Mechanism",
+     "Key nervous system and other findings"
+    ],
+    "rows": [
+     [
+      "NF1",
+      "NF1, neurofibromin",
+      "17",
+      "Tumor suppressor loss; Ras stays active",
+      "Neurofibromas, cafe-au-lait spots, Lisch nodules, axillary freckling, optic glioma, pheochromocytoma"
+     ],
+     [
+      "NF2",
+      "NF2, merlin",
+      "22",
+      "Tumor suppressor loss",
+      "Bilateral vestibular schwannomas, meningiomas, ependymomas, juvenile cataracts"
+     ],
+     [
+      "Tuberous sclerosis",
+      "TSC1 hamartin; TSC2 tuberin",
+      "9 (TSC1); 16 (TSC2)",
+      "Tumor suppressor loss; mTOR active",
+      "Cortical tubers, subependymal nodules, seizures, ash-leaf spots, facial angiofibromas, cardiac rhabdomyoma, renal angiomyolipoma"
+     ],
+     [
+      "von Hippel-Lindau",
+      "VHL",
+      "3",
+      "Tumor suppressor loss; HIF stays high",
+      "Hemangioblastomas of cerebellum, retina, and spinal cord; bilateral renal cell carcinoma; pheochromocytoma"
+     ],
+     [
+      "Sturge-Weber",
+      "GNAQ (activating)",
+      "9 (somatic mutation, not inherited)",
+      "Somatic mosaic gain of function in developing vessels",
+      "Port-wine stain in CN V1 area, leptomeningeal angioma, seizures, glaucoma"
+     ]
+    ]
+   }
+  ],
+  "tricks": [
+   {
+    "kind": "mnemonic",
+    "label": "X-Girlfriend's First Aid Helped Ace My Test",
+    "text": "Fragile X: CGG. Friedreich ataxia: GAA. Huntington disease: CAG. Myotonic dystrophy: CTG."
+   },
+   {
+    "kind": "mnemonic",
+    "label": "Huntington CAG: Caudate has less ACh and GABA",
+    "text": "The CAG repeat in Huntington disease destroys striatal neurons that make acetylcholine and GABA."
+   },
+   {
+    "kind": "trick",
+    "label": "Count the chromosome letters",
+    "text": "NF1 has 17 letters in neurofibromatosis (count them); NF2 is on 22, the number with two 2s; VHL has 3 letters and sits on chromosome 3."
+   }
+  ],
+  "highYield": [
+   "Anticipation is seen in Huntington disease, fragile X, and myotonic dystrophy, but not in autosomal recessive Friedreich ataxia.",
+   "Fragile X silences FMR1 by hypermethylation of an expanded CGG repeat.",
+   "Down syndrome by Robertsonian translocation can recur in a family regardless of maternal age.",
+   "Extra APP on chromosome 21 leads to early-onset Alzheimer disease in Down syndrome.",
+   "Bilateral vestibular schwannomas: NF2 (merlin, chromosome 22).",
+   "Tuberous sclerosis: loss of hamartin or tuberin releases mTOR.",
+   "Floppy infant with tongue fasciculations and absent reflexes: spinal muscular atrophy (SMN1).",
+   "MYCN amplification in neuroblastoma predicts aggressive disease."
+  ],
+  "pitfalls": [
+   "Sturge-Weber is sporadic and caused by an activating mutation, unlike the inherited tumor suppressor syndromes.",
+   "NF1, NF2, tuberous sclerosis, and von Hippel-Lindau are autosomal dominant (many cases are new mutations), yet each tumor still needs a second hit at the cellular level.",
+   "Spinal muscular atrophy causes lower motor neuron signs only; infant botulism also causes a floppy baby but adds constipation, ptosis, and sluggish pupils.",
+   "Huntington disease anticipation comes mainly from the father; myotonic dystrophy congenital disease comes from the mother."
+  ],
+  "dumps": [
+   {
+    "t": "Repeat disorders table",
+    "p": "Build a table for Huntington disease, fragile X syndrome, myotonic dystrophy, and Friedreich ataxia with columns for repeat, gene, inheritance, anticipation, and key features.",
+    "l": [
+     "Huntington: CAG, HTT, autosomal dominant, anticipation",
+     "Fragile X: CGG, FMR1 hypermethylation, X-linked, anticipation",
+     "Myotonic dystrophy: CTG, DMPK, autosomal dominant, anticipation",
+     "Friedreich ataxia: GAA, frataxin, autosomal recessive, no anticipation",
+     "Huntington: chorea, dementia, caudate atrophy",
+     "Fragile X: intellectual disability, macroorchidism, long face",
+     "Myotonic dystrophy: myotonia, cataracts, balding, heart block",
+     "Friedreich: ataxia plus hypertrophic cardiomyopathy"
+    ]
+   },
+   {
+    "t": "Two-hit and growth signals",
+    "p": "Draw a cell with the Ras, mTOR, HIF, and Rb pathways as simple boxes. Mark where neurofibromin, hamartin and tuberin, VHL protein, and Rb act, and write the disease caused when each is lost.",
+    "l": [
+     "Neurofibromin turns off Ras; loss causes NF1",
+     "Hamartin and tuberin restrain mTOR; loss causes tuberous sclerosis",
+     "VHL protein targets HIF for breakdown; loss causes von Hippel-Lindau",
+     "Rb binds E2F and holds cells in G1; loss causes retinoblastoma",
+     "Tumor suppressors need two hits; the first may be inherited",
+     "MYCN is an oncogene; amplification of one gene is enough",
+     "Oligodendroglioma: IDH mutation plus 1p/19q codeletion"
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "book": "Robbins and Cotran Pathologic Basis of Disease",
+    "where": "Genetic Disorders"
+   },
+   {
+    "book": "Robbins and Cotran Pathologic Basis of Disease",
+    "where": "The Central Nervous System, sections on tumors and familial tumor syndromes"
+   },
+   {
+    "book": "Langman's Medical Embryology",
+    "where": "Section on chromosomal abnormalities"
+   }
+  ],
+  "videos": [
+   {
+    "channel": "Osmosis",
+    "title": "Fragile X Syndrome - causes, symptoms, diagnosis, treatment, pathology",
+    "url": "https://www.youtube.com/watch?v=afH4-_xFVmY"
+   }
+  ],
+  "related": [
+   "NE-15",
+   "NE-20-B3",
+   "NE-20-E1",
+   "NE-20-F3",
+   "NE-20-F4",
+   "NE-20-F6"
+  ],
+  "flows": [
+   {
+    "title": "Fragile X gene silencing",
+    "steps": [
+     "FMR1 carries a CGG repeat in its 5' untranslated region.",
+     "A premutation (about 55 to 200 repeats) is unstable when passed through the mother.",
+     "The repeat expands to a full mutation of more than about 200 repeats.",
+     "The FMR1 promoter region becomes hypermethylated and transcription stops.",
+     "FMRP is absent, disrupting synaptic protein translation and causing intellectual disability."
+    ]
+   },
+   {
+    "title": "Loss of VHL and tumor growth",
+    "steps": [
+     "In normal oxygen, prolyl hydroxylases hydroxylate HIF-alpha.",
+     "VHL protein binds hydroxylated HIF-alpha and ubiquitinates it for proteasomal breakdown.",
+     "With both VHL copies lost, HIF-alpha accumulates despite normal oxygen.",
+     "HIF drives transcription of VEGF and erythropoietin genes.",
+     "Hemangioblastomas, clear cell renal carcinoma, and sometimes erythrocytosis develop."
+    ]
+   },
+   {
+    "title": "Hereditary retinoblastoma",
+    "steps": [
+     "A germline RB1 mutation is present in every cell (first hit).",
+     "A somatic second hit removes the remaining RB1 allele in a retinal cell.",
+     "Without Rb, E2F is free and the G1 checkpoint is lost.",
+     "Retinal precursor cells proliferate unchecked, forming tumors, often bilateral and early."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "NE-17",
+  "summary": "The hypothalamus controls the pituitary in two ways: releasing hormones carried by portal blood to the anterior lobe, and nerve axons that end in the posterior lobe. Exam questions ask you to predict what happens when a tumor, head injury, or surgery damages the chiasm, stalk, or posterior pituitary, and how stress and thyroid hormone change nervous system function.",
+  "notes": [
+   {
+    "h": "Hypothalamus to anterior pituitary",
+    "points": [
+     "Hypothalamic neurons release hormones into capillaries in the median eminence, which lies outside the blood-brain barrier.",
+     "Hypophyseal portal veins carry these hormones down the stalk to a second capillary bed in the anterior pituitary.",
+     "Releasing hormones: TRH, CRH, GnRH (must be pulsatile), and GHRH. Inhibiting hormones: somatostatin (GH, TSH) and dopamine (prolactin).",
+     "Dopamine from the arcuate nucleus tonically inhibits prolactin through D2 receptors, so prolactin is the one hormone that rises when the stalk is cut."
+    ],
+    "why": "The portal system delivers tiny amounts of hypothalamic hormone to the anterior pituitary at high concentration before they are diluted in the systemic circulation. The median eminence lies outside the blood-brain barrier, so hypothalamic neurons can release peptides directly into its fenestrated capillaries. Most anterior pituitary output depends on stimulation, so stalk or hypothalamic damage lowers those hormones; prolactin is the exception because its main control is tonic dopamine inhibition, which is lost when the stalk is cut. GnRH must be pulsatile because continuous exposure downregulates its receptors on gonadotrophs, which is why continuous GnRH agonists suppress the gonadal axis."
+   },
+   {
+    "h": "Posterior pituitary",
+    "points": [
+     "ADH is made mainly in the supraoptic nucleus and oxytocin mainly in the paraventricular nucleus.",
+     "Both travel down axons of the hypothalamo-hypophyseal tract with carrier proteins (neurophysins) and are released into blood in the posterior lobe.",
+     "ADH acts on V2 receptors in the collecting duct to insert aquaporin-2 and reabsorb water; release rises with high plasma osmolality or low blood volume.",
+     "Central diabetes insipidus (head trauma, pituitary surgery, craniopharyngioma): too little ADH, so large volumes of dilute urine with high serum sodium; urine concentrates after desmopressin.",
+     "SIADH (head trauma, meningitis, subarachnoid hemorrhage, CNS tumors, small cell lung cancer): too much ADH, so euvolemic hyponatremia with inappropriately concentrated urine.",
+     "Correcting chronic hyponatremia too fast can cause osmotic demyelination syndrome in the pons."
+    ],
+    "why": "The posterior pituitary is neural tissue that stores and releases hormones made in hypothalamic cell bodies, so hypothalamic or high stalk damage causes central diabetes insipidus. Osmoreceptors in the anterior hypothalamus sense small rises in plasma osmolality, and baroreceptors signal large volume loss; ADH then binds V2 receptors, raises cAMP, and inserts aquaporin-2 so water follows the medullary gradient. Too little ADH leaves the collecting duct impermeable, so dilute urine is lost and serum sodium climbs, while excess ADH keeps returning water and dilutes serum sodium. In chronic hyponatremia brain cells shed organic osmolytes and regain them slowly, so rapid correction shrinks them and injures myelin, mainly in the pons."
+   },
+   {
+    "h": "Sellar masses",
+    "points": [
+     "The optic chiasm sits just above the pituitary; crossing nasal retinal fibers carry the temporal visual fields.",
+     "Pressing on the middle of the chiasm causes bitemporal hemianopia; a pituitary adenoma pushing up from below affects the upper temporal fields first.",
+     "Pituitary adenoma is the most common sellar mass in adults; prolactinoma is the most common hormone-making type.",
+     "Craniopharyngioma arises from Rathke pouch remnants, is often calcified and cystic, and is the most common sellar tumor in children (a second peak occurs in middle age); it causes visual loss, growth failure, and diabetes insipidus.",
+     "Stalk effect: a nonfunctioning mass blocks dopamine flow, so prolactin rises mildly while other pituitary hormones fall.",
+     "Lateral spread into the cavernous sinus can affect CN III, IV, V1, V2, and VI."
+    ],
+    "why": "Crossing chiasm fibers come from the nasal hemiretinas, which see the temporal fields, so midline compression removes both temporal fields. An adenoma rising from below presses first on the inferior crossing fibers, which come from the inferior nasal retina and serve the upper temporal fields, so those quadrants go first. Craniopharyngioma often presses from above, so it tends to begin with lower temporal loss and can compress the hypothalamus, causing diabetes insipidus and growth failure. A nonfunctioning mass raises prolactin only mildly by blocking dopamine delivery down the stalk, which helps separate stalk effect from a prolactinoma, where prolactin is usually much higher."
+   },
+   {
+    "h": "Stress response",
+    "points": [
+     "Fast arm: the hypothalamus drives sympathetic outflow; preganglionic fibers go straight to adrenal medulla chromaffin cells, which release mostly epinephrine within seconds.",
+     "Slow arm (HPA axis): paraventricular nucleus releases CRH, the anterior pituitary releases ACTH, and the adrenal cortex releases cortisol over minutes to hours.",
+     "Cortisol raises blood glucose, supports vascular tone by keeping catecholamine responses working, suppresses inflammation, and feeds back to inhibit CRH and ACTH.",
+     "Cortisol flows from the cortex into the medulla and induces PNMT, linking the two arms."
+    ],
+    "why": "The two arms run on different time scales because one is neural and one is hormonal: preganglionic sympathetic fibers trigger medullary epinephrine release within seconds, while CRH and ACTH must act in sequence through the blood. Cortisol is made on demand from cholesterol, so its rise lags behind ACTH by minutes. Cortisol is permissive for catecholamines, maintaining adrenergic receptor expression and vascular responsiveness, which is why cortisol deficiency can cause shock that responds poorly to pressors. Negative feedback from cortisol on the paraventricular nucleus and corticotrophs shuts the axis off."
+   },
+   {
+    "h": "Thyroid hormone and the nervous system",
+    "points": [
+     "Thyroid hormone is needed for neuron growth, synapse formation, and myelination, most critically from late fetal life through the first years.",
+     "Congenital hypothyroidism causes intellectual disability and short stature if untreated; newborn screening allows early treatment that prevents this.",
+     "Hypothyroidism slows the relaxation phase of deep tendon reflexes and causes cognitive slowing and depression.",
+     "Hyperthyroidism causes fine tremor, hyperreflexia, anxiety, and insomnia, partly from increased beta-adrenergic sensitivity."
+    ],
+    "why": "T3, made locally from T4 by type 2 deiodinase in glial cells, binds nuclear receptors that switch on genes for neuronal migration, dendrite growth, synapse formation, and myelin protein synthesis. These events have a critical window from late gestation through early childhood, so damage from untreated congenital hypothyroidism cannot be reversed by later treatment, which is why newborn screening matters. In adults, the effects center on metabolic rate and adrenergic tone: excess thyroid hormone raises beta-adrenergic responsiveness and speeds neuromuscular events, causing tremor and brisk reflexes, while deficiency slows muscle relaxation and the relaxation phase of the reflex."
+   }
+  ],
+  "charts": [
+   {
+    "title": "Hypothalamic control of the anterior pituitary",
+    "cols": [
+     "Hypothalamic hormone",
+     "Effect on anterior pituitary",
+     "Notes"
+    ],
+    "rows": [
+     [
+      "TRH",
+      "Increases TSH and prolactin",
+      "Primary hypothyroidism can raise prolactin through high TRH"
+     ],
+     [
+      "CRH",
+      "Increases ACTH",
+      "Drives the HPA stress response"
+     ],
+     [
+      "GnRH",
+      "Increases FSH and LH",
+      "Must be pulsatile; continuous GnRH suppresses FSH and LH"
+     ],
+     [
+      "GHRH",
+      "Increases GH",
+      "GH then drives IGF-1 from the liver"
+     ],
+     [
+      "Somatostatin",
+      "Decreases GH and TSH",
+      "Also made in pancreatic delta cells"
+     ],
+     [
+      "Dopamine",
+      "Decreases prolactin",
+      "Main control of prolactin; dopamine blockers raise prolactin"
+     ]
+    ]
+   },
+   {
+    "title": "Central diabetes insipidus vs SIADH",
+    "cols": [
+     "Feature",
+     "Central diabetes insipidus",
+     "SIADH"
+    ],
+    "rows": [
+     [
+      "ADH",
+      "Too little",
+      "Too much"
+     ],
+     [
+      "Urine",
+      "Large volume, dilute",
+      "Small volume, inappropriately concentrated"
+     ],
+     [
+      "Serum sodium (reference 135 to 145 mEq/L)",
+      "High or high-normal",
+      "Low"
+     ],
+     [
+      "Volume status",
+      "Can become dehydrated",
+      "Euvolemic"
+     ],
+     [
+      "CNS causes",
+      "Head trauma, pituitary surgery, craniopharyngioma",
+      "Head trauma, meningitis, subarachnoid hemorrhage, CNS tumors"
+     ],
+     [
+      "Response to desmopressin",
+      "Urine concentrates",
+      "Not used; restrict water"
+     ]
+    ]
+   }
+  ],
+  "tricks": [
+   {
+    "kind": "trick",
+    "label": "Cut the stalk, prolactin goes up",
+    "text": "Every anterior pituitary hormone needs a hypothalamic push except prolactin, which needs a dopamine brake. Remove the hypothalamus and only prolactin rises."
+   },
+   {
+    "kind": "trick",
+    "label": "SON makes water stay",
+    "text": "Supraoptic nucleus makes ADH, which keeps water in. Paraventricular nucleus makes oxytocin (and CRH)."
+   },
+   {
+    "kind": "trick",
+    "label": "Below pushes up, above pushes down",
+    "text": "A pituitary adenoma presses the chiasm from below and hits upper temporal fields first. A craniopharyngioma often presses from above and can hit lower temporal fields first."
+   }
+  ],
+  "highYield": [
+   "Dopamine is the main inhibitor of prolactin; stalk compression causes mild hyperprolactinemia.",
+   "Pituitary adenoma compressing the chiasm causes bitemporal hemianopia.",
+   "Child with a calcified suprasellar mass, visual loss, and growth failure: craniopharyngioma.",
+   "Polyuria with dilute urine and high sodium after head trauma or pituitary surgery: central diabetes insipidus.",
+   "Hyponatremia with concentrated urine after subarachnoid hemorrhage or meningitis: SIADH.",
+   "ADH comes mainly from the supraoptic nucleus; oxytocin mainly from the paraventricular nucleus.",
+   "Cortisol induces PNMT, so the adrenal medulla makes mostly epinephrine.",
+   "Delayed relaxation of the ankle reflex is a classic sign of hypothyroidism."
+  ],
+  "pitfalls": [
+   "A mildly raised prolactin with a large pituitary mass usually means stalk compression, while a very high prolactin points to a prolactinoma.",
+   "ADH and oxytocin are made in the hypothalamus; the posterior pituitary only stores and releases them.",
+   "Central diabetes insipidus responds to desmopressin; nephrogenic diabetes insipidus does not.",
+   "SIADH patients look euvolemic with a high urine sodium, which separates them from dehydrated patients with low sodium."
+  ],
+  "dumps": [
+   {
+    "t": "Hypothalamus and pituitary",
+    "p": "Draw the hypothalamus, pituitary stalk, anterior and posterior pituitary, and the optic chiasm above them. Show the portal system and the axon tract, label the hormones each lobe receives, and mark where a tumor causes bitemporal hemianopia.",
+    "l": [
+     "Hypothalamic hormones enter capillaries in the median eminence",
+     "Portal veins carry them down the stalk to the anterior pituitary",
+     "TRH, CRH, GnRH, GHRH stimulate; somatostatin and dopamine inhibit",
+     "Supraoptic and paraventricular axons run down the stalk to the posterior pituitary",
+     "ADH and oxytocin are released into blood from the posterior lobe",
+     "The optic chiasm sits above the sella",
+     "Compression of crossing nasal fibers causes bitemporal hemianopia",
+     "Stalk compression blocks dopamine and raises prolactin"
+    ]
+   },
+   {
+    "t": "The stress response",
+    "p": "Draw the two arms of the stress response starting at the hypothalamus: the sympathetic adrenal medulla arm and the HPA axis. Label each hormone, its target, how fast it acts, and the feedback loop.",
+    "l": [
+     "Hypothalamus activates sympathetic preganglionic neurons",
+     "Preganglionic fibers synapse directly on adrenal medulla chromaffin cells",
+     "Adrenal medulla releases mostly epinephrine within seconds",
+     "Paraventricular nucleus releases CRH",
+     "Anterior pituitary releases ACTH",
+     "Adrenal cortex releases cortisol over minutes to hours",
+     "Cortisol feeds back to inhibit CRH and ACTH",
+     "Cortisol induces PNMT in the adrenal medulla"
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "book": "Guyton and Hall Textbook of Medical Physiology",
+    "where": "Pituitary Hormones and Their Control by the Hypothalamus"
+   },
+   {
+    "book": "Guyton and Hall Textbook of Medical Physiology",
+    "where": "Thyroid Metabolic Hormones"
+   },
+   {
+    "book": "Robbins and Cotran Pathologic Basis of Disease",
+    "where": "The Endocrine System, section on the pituitary gland"
+   }
+  ],
+  "videos": [
+   {
+    "channel": "Ninja Nerd",
+    "title": "Endocrinology | Hypothalamus: Posterior Pituitary Connection",
+    "url": "https://www.youtube.com/watch?v=13yGwDAvbQI"
+   }
+  ],
+  "related": [
+   "NE-9",
+   "NE-12",
+   "NE-15",
+   "NE-20-H1"
+  ],
+  "flows": [
+   {
+    "title": "HPA axis",
+    "steps": [
+     "Stress signals activate the paraventricular nucleus of the hypothalamus.",
+     "CRH travels through hypophyseal portal veins to the anterior pituitary.",
+     "Corticotrophs release ACTH, cleaved from POMC, into the systemic circulation.",
+     "ACTH stimulates the zona fasciculata to synthesize cortisol.",
+     "Cortisol raises glucose, supports vascular tone, and suppresses inflammation.",
+     "Cortisol feeds back to inhibit CRH and ACTH release."
+    ]
+   },
+   {
+    "title": "ADH response to high plasma osmolality",
+    "steps": [
+     "Water loss raises plasma osmolality.",
+     "Hypothalamic osmoreceptors stimulate supraoptic and paraventricular neurons.",
+     "ADH travels down axons and is released from the posterior pituitary.",
+     "ADH binds V2 receptors on collecting duct principal cells, raising cAMP.",
+     "Aquaporin-2 channels insert into the apical membrane.",
+     "Water is reabsorbed, urine concentrates, and plasma osmolality falls."
+    ]
+   },
+   {
+    "title": "Pituitary adenoma and the visual field",
+    "steps": [
+     "Nasal retinal fibers carry the temporal visual fields.",
+     "These nasal fibers cross in the optic chiasm.",
+     "A pituitary adenoma grows upward and presses on the chiasm from below.",
+     "Inferior crossing fibers, from the inferior nasal retina, are compressed first.",
+     "Upper temporal field loss appears first, progressing to bitemporal hemianopia."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "NE-18",
+  "summary": "The nervous system is partly shielded from immune attack by the blood-brain barrier, yet many neurologic diseases are immune driven. This unit covers how meningitis inflames the brain, how autoimmunity strips myelin or blocks the neuromuscular junction, how tumors trigger paraneoplastic syndromes, and how vaccines against meningitis and polio build protection.",
+  "notes": [
+   {
+    "h": "Blood-brain barrier and microglia",
+    "points": [
+     "The barrier is built from endothelial tight junctions, a basement membrane, pericytes, and astrocyte foot processes.",
+     "It limits entry of immune cells, antibodies, complement, and many drugs, so normal CSF has very few cells and little complement.",
+     "Microglia are the resident macrophages of the CNS; they come from yolk sac (mesodermal) precursors, phagocytose debris, present antigen, and release cytokines.",
+     "In bacterial meningitis, microglia and macrophages sense bacterial products through toll-like receptors and release IL-1 and TNF-alpha.",
+     "These cytokines activate endothelium, recruit neutrophils, and open the barrier, causing vasogenic edema, raised intracranial pressure, and risk of herniation.",
+     "Typical CSF: many neutrophils, high protein, and low glucose."
+    ],
+    "why": "Tight junctions force molecules to pass through endothelial cells, so only lipid-soluble substances or those with carriers enter easily, and the CNS normally has few antibodies, little complement, and few leukocytes to fight infection. Once bacteria multiply in the subarachnoid space, their cell wall components activate toll-like receptors on microglia and macrophages. The resulting IL-1 and TNF-alpha upregulate endothelial adhesion molecules so neutrophils adhere and migrate in, while barrier breakdown lets water and plasma protein leak out (vasogenic edema). Glucose transport into CSF is impaired and bacteria and leukocytes consume glucose, which explains low CSF glucose alongside high protein."
+   },
+   {
+    "h": "Multiple sclerosis",
+    "points": [
+     "Autoreactive CD4 T cells (Th1 making IFN-gamma, Th17 making IL-17) cross the barrier and attack CNS myelin; macrophages and microglia strip the myelin.",
+     "Strongest genetic link: HLA-DR2. It is most common in women aged 20 to 40.",
+     "CSF shows oligoclonal IgG bands (not present in serum) and a raised IgG index.",
+     "MRI shows white matter plaques around the lateral ventricles (periventricular).",
+     "Common findings: optic neuritis, internuclear ophthalmoplegia, sensory loss, weakness, symptoms that worsen with heat."
+    ],
+    "why": "Peripherally activated CD4 T cells that recognize myelin antigens cross the barrier, are reactivated by antigen-presenting cells in the CNS, and release IFN-gamma and IL-17, which recruit macrophages and activate microglia to strip myelin. HLA-DR2 is a class II molecule that presents peptides to CD4 T cells, which fits a T cell-driven disease. B cells and plasma cells that enter the CNS make IgG locally (intrathecal synthesis), producing oligoclonal bands seen in CSF and absent from serum. Lesions favor periventricular white matter around small veins, and demyelinated segments conduct poorly or block, so heat or exertion can briefly worsen symptoms."
+   },
+   {
+    "h": "Guillain-Barré syndrome",
+    "points": [
+     "Weeks after Campylobacter jejuni diarrhea, antibodies made against bacterial lipooligosaccharide cross-react with peripheral nerve gangliosides (molecular mimicry).",
+     "Antibodies, complement, and macrophages damage peripheral myelin (or axons in the axonal variant).",
+     "Ascending symmetric weakness, areflexia, autonomic instability, and possible respiratory failure.",
+     "CSF shows high protein with a normal cell count (albuminocytologic dissociation).",
+     "Miller Fisher variant: anti-GQ1b antibodies (GQ1b is rich in the nerves that move the eyes) cause ophthalmoplegia, ataxia, and areflexia."
+    ],
+    "why": "Campylobacter lipooligosaccharide carries sugar structures that resemble human gangliosides, so antibodies made against the bacterium also bind peripheral nerve gangliosides (molecular mimicry). Bound antibody fixes complement and recruits macrophages that damage the myelin sheath or, in the axonal form, the axon membrane at the nodes, slowing or blocking conduction. Inflamed spinal nerve roots lie in the subarachnoid space and leak protein into the CSF, while few white cells enter it, so protein rises with a normal cell count. The antibody target predicts the variant: GQ1b is concentrated in the nerves that move the eyes, so anti-GQ1b antibodies cause the ophthalmoplegia of Miller Fisher syndrome."
+   },
+   {
+    "h": "Neuromuscular junction autoimmunity",
+    "points": [
+     "Myasthenia gravis is type II hypersensitivity: antibodies to postsynaptic acetylcholine receptors block them, cause their internalization, and fix complement.",
+     "Myasthenia gravis is linked to thymic hyperplasia and thymoma.",
+     "Lambert-Eaton syndrome is type II hypersensitivity against presynaptic P/Q voltage-gated Ca2+ channels, often paraneoplastic with small cell lung cancer.",
+     "MS and acute disseminated encephalomyelitis (ADEM) are T cell-mediated (type IV); ADEM is a single episode of widespread demyelination, usually in a child, after a viral infection or vaccination."
+    ],
+    "why": "In type II hypersensitivity, antibodies bind a fixed tissue antigen and block it, remove it, or activate complement. In myasthenia gravis, fewer working acetylcholine receptors shrink the safety margin of the end-plate potential; with repeated firing, acetylcholine release normally falls slightly, so end-plate potentials drop below threshold and weakness worsens with use. In Lambert-Eaton syndrome, less Ca2+ enters the terminal and too little acetylcholine is released, but repeated or sustained effort builds up Ca2+ in the terminal and briefly improves release and strength. Thymic myoid cells express the receptor, and the thymus is thought to be where tolerance breaks down, so thymectomy can help."
+   },
+   {
+    "h": "Paraneoplastic syndromes",
+    "points": [
+     "A tumor expresses a protein also found in neurons; the immune response against the tumor attacks the nervous system too.",
+     "Neurologic symptoms often appear before the cancer is found.",
+     "Anti-Hu: small cell lung cancer, sensory neuronopathy, limbic encephalitis.",
+     "Anti-Yo (Purkinje cell antibody): ovarian or breast cancer, subacute cerebellar degeneration.",
+     "Anti-NMDA receptor encephalitis: young woman with ovarian teratoma, psychiatric symptoms, seizures, abnormal movements, and autonomic instability."
+    ],
+    "why": "Tumor cells can express onconeural antigens, proteins normally restricted to neurons, and the immune response against the tumor then targets neurons as well. In syndromes with intracellular targets (anti-Hu, anti-Yo), the antibodies serve mainly as markers and cytotoxic T cells do much of the killing, so neuron loss is often permanent despite treatment. Antibodies against cell surface targets such as the NMDA receptor act directly by causing receptor internalization, so tumor removal and immunotherapy often lead to recovery. The same immune response may keep the tumor small, which is one reason neurologic symptoms often appear before the cancer is found."
+   },
+   {
+    "h": "Vaccines against CNS infection",
+    "points": [
+     "Plain polysaccharide capsules trigger T cell-independent responses: mostly IgM, little memory, and poor responses in children under 2.",
+     "Conjugate vaccines (Hib, pneumococcal, meningococcal) link the polysaccharide to a protein carrier; B cells present carrier peptides to helper T cells.",
+     "T cell help brings class switching to IgG, affinity maturation, and memory, so the vaccine works in infants.",
+     "Inactivated polio vaccine (Salk) is injected and makes serum IgG that stops virus from reaching the CNS, with weak gut IgA.",
+     "Live oral polio vaccine (Sabin) makes both serum IgG and intestinal secretory IgA, blocking gut infection and spread; it rarely reverts and causes paralytic polio."
+    ],
+    "why": "Without T cell help, B cells cross-linked by repeating polysaccharide units make mostly short-lived IgM, and the marginal zone B cells behind this response are immature before about age 2. In a conjugate vaccine, a polysaccharide-specific B cell takes in the whole conjugate and presents carrier peptides on MHC class II to a helper T cell, which signals back through CD40L and cytokines. This linked help produces germinal centers, class switching to IgG, affinity maturation, and memory B cells against the polysaccharide. For polio, injected killed vaccine makes serum IgG that blocks spread to the CNS, while live oral vaccine replicates in the gut and also induces secretory IgA."
+   }
+  ],
+  "charts": [
+   {
+    "title": "Immune mechanisms in neurologic disease",
+    "cols": [
+     "Disease",
+     "Target",
+     "Main mechanism",
+     "Key clues"
+    ],
+    "rows": [
+     [
+      "Myasthenia gravis",
+      "Postsynaptic acetylcholine receptor",
+      "Type II hypersensitivity (antibody)",
+      "Fatigable ptosis and diplopia; thymic hyperplasia or thymoma"
+     ],
+     [
+      "Lambert-Eaton syndrome",
+      "Presynaptic P/Q voltage-gated Ca2+ channel",
+      "Type II hypersensitivity (antibody)",
+      "Weakness improves with use; small cell lung cancer"
+     ],
+     [
+      "Guillain-Barré syndrome",
+      "Peripheral nerve gangliosides",
+      "Molecular mimicry; antibodies, complement, macrophages",
+      "After Campylobacter jejuni; ascending weakness; high CSF protein, normal cells"
+     ],
+     [
+      "Miller Fisher variant",
+      "GQ1b ganglioside",
+      "Molecular mimicry; antibody",
+      "Ophthalmoplegia, ataxia, areflexia"
+     ],
+     [
+      "Multiple sclerosis",
+      "CNS myelin",
+      "Type IV (Th1 and Th17 T cells)",
+      "HLA-DR2, oligoclonal bands, periventricular plaques"
+     ],
+     [
+      "ADEM",
+      "CNS myelin",
+      "Type IV (T cells)",
+      "Single episode after infection or vaccination, often in children"
+     ]
+    ]
+   },
+   {
+    "title": "Paraneoplastic neurologic syndromes",
+    "cols": [
+     "Antibody",
+     "Usual tumor",
+     "Neurologic syndrome"
+    ],
+    "rows": [
+     [
+      "Anti-Hu",
+      "Small cell lung cancer",
+      "Sensory neuronopathy, limbic encephalitis, encephalomyelitis"
+     ],
+     [
+      "Anti-Yo",
+      "Ovarian or breast cancer",
+      "Subacute cerebellar degeneration"
+     ],
+     [
+      "Anti-NMDA receptor",
+      "Ovarian teratoma",
+      "Psychiatric symptoms, seizures, dyskinesias, autonomic instability"
+     ],
+     [
+      "Anti-P/Q Ca2+ channel",
+      "Small cell lung cancer",
+      "Lambert-Eaton syndrome"
+     ]
+    ]
+   },
+   {
+    "title": "Salk vs Sabin polio vaccine",
+    "cols": [
+     "Feature",
+     "Salk (inactivated, IPV)",
+     "Sabin (live attenuated, OPV)"
+    ],
+    "rows": [
+     [
+      "Route",
+      "Injection",
+      "Oral"
+     ],
+     [
+      "Serum IgG",
+      "Yes",
+      "Yes"
+     ],
+     [
+      "Intestinal secretory IgA",
+      "Weak",
+      "Strong"
+     ],
+     [
+      "Stops gut infection and spread",
+      "Less well",
+      "Yes"
+     ],
+     [
+      "Can revert to cause paralysis",
+      "No",
+      "Rarely"
+     ],
+     [
+      "Safe in immunocompromised people",
+      "Yes",
+      "No"
+     ]
+    ]
+   }
+  ],
+  "tricks": [
+   {
+    "kind": "trick",
+    "label": "Hu is for the lung, Yo is for the ovary",
+    "text": "Anti-Hu goes with small cell lung cancer and sensory loss. Anti-Yo goes with ovarian or breast cancer and cerebellar degeneration."
+   },
+   {
+    "kind": "trick",
+    "label": "GQ1b moves the eyes",
+    "text": "The GQ1b ganglioside is concentrated in the nerves to the eye muscles, so anti-GQ1b gives the eye findings of Miller Fisher syndrome."
+   },
+   {
+    "kind": "trick",
+    "label": "Conjugate means T cell help",
+    "text": "Sugar alone gets IgM and no memory. Add a protein carrier and helper T cells join in, giving IgG, memory, and protection in infants."
+   }
+  ],
+  "highYield": [
+   "IL-1 and TNF-alpha open the blood-brain barrier in bacterial meningitis and cause cerebral edema.",
+   "Microglia are the resident macrophages of the CNS.",
+   "Multiple sclerosis: Th1 and Th17 T cells, HLA-DR2, oligoclonal IgG bands, periventricular plaques.",
+   "Guillain-Barré after Campylobacter jejuni: molecular mimicry with nerve gangliosides; high CSF protein with normal cells.",
+   "Anti-GQ1b: Miller Fisher variant with ophthalmoplegia, ataxia, and areflexia.",
+   "Myasthenia gravis and Lambert-Eaton are type II hypersensitivity; MS and ADEM are T cell-mediated.",
+   "Young woman with psychosis, seizures, and an ovarian teratoma: anti-NMDA receptor encephalitis.",
+   "Conjugate vaccines turn a T cell-independent polysaccharide response into a T cell-dependent one."
+  ],
+  "pitfalls": [
+   "Oligoclonal bands must be in the CSF and absent from serum to point to MS.",
+   "Guillain-Barré has a high CSF protein with a normal cell count; many white cells suggest infection instead.",
+   "Myasthenia gravis weakness worsens with use; Lambert-Eaton weakness improves with use.",
+   "The Sabin vaccine gives gut IgA and stops spread, but it can rarely revert, so only the Salk vaccine is safe for immunocompromised people."
+  ],
+  "dumps": [
+   {
+    "t": "Meningitis and the barrier",
+    "p": "Draw a brain capillary with its tight junctions, basement membrane, pericyte, and astrocyte foot processes, and a microglial cell nearby. Then show step by step how bacteria in the CSF lead to cerebral edema.",
+    "l": [
+     "Endothelial tight junctions form the main barrier",
+     "Basement membrane, pericytes, and astrocyte foot processes support it",
+     "Microglia are resident CNS macrophages",
+     "Bacterial products bind toll-like receptors on microglia and macrophages",
+     "IL-1 and TNF-alpha are released",
+     "Endothelium is activated and neutrophils enter",
+     "Barrier permeability rises, causing vasogenic edema",
+     "Raised intracranial pressure risks herniation"
+    ]
+   },
+   {
+    "t": "Autoimmune and paraneoplastic table",
+    "p": "Make a table for myasthenia gravis, Lambert-Eaton syndrome, Guillain-Barré syndrome, multiple sclerosis, and anti-NMDA receptor encephalitis with columns for target, mechanism, trigger or tumor, and key finding.",
+    "l": [
+     "Myasthenia gravis: postsynaptic acetylcholine receptor, type II, thymus",
+     "Lambert-Eaton: presynaptic Ca2+ channel, type II, small cell lung cancer",
+     "Guillain-Barré: gangliosides, molecular mimicry, Campylobacter jejuni",
+     "Miller Fisher: anti-GQ1b, ophthalmoplegia, ataxia, areflexia",
+     "MS: CNS myelin, Th1 and Th17, HLA-DR2, oligoclonal bands",
+     "Anti-NMDA receptor encephalitis: ovarian teratoma, psychiatric symptoms and seizures"
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "book": "Abbas, Basic Immunology",
+    "where": "Section on hypersensitivity diseases"
+   },
+   {
+    "book": "Abbas, Basic Immunology",
+    "where": "Section on vaccines and T cell-dependent antibody responses"
+   },
+   {
+    "book": "Robbins and Cotran Pathologic Basis of Disease",
+    "where": "The Central Nervous System, sections on infections and demyelinating diseases"
+   },
+   {
+    "book": "Jawetz, Melnick, and Adelberg's Medical Microbiology (a Lange text)",
+    "where": "Section on picornaviruses (poliovirus and polio vaccines)"
+   }
+  ],
+  "videos": [
+   {
+    "channel": "Ninja Nerd",
+    "title": "Multiple Sclerosis | Etiology, Pathophysiology, Types of MS, Clinical Features, Diagnosis, Treatment",
+    "url": "https://www.youtube.com/watch?v=x_136Lk_XPg"
+   },
+   {
+    "channel": "Ninja Nerd",
+    "title": "Musculoskeletal System | Neuromuscular Junction Pathologies: Part 4",
+    "url": "https://www.youtube.com/watch?v=31ri-1Nv61M"
+   }
+  ],
+  "related": [
+   "NE-13",
+   "NE-19",
+   "NE-20-B4",
+   "NE-20-B5",
+   "NE-20-B6",
+   "NE-20-G8",
+   "NE-20-G10"
+  ],
+  "flows": [
+   {
+    "title": "Bacterial meningitis",
+    "steps": [
+     "Bacteria colonize the nasopharynx and invade the bloodstream.",
+     "Bacteria cross the blood-brain or blood-CSF barrier into the subarachnoid space.",
+     "Bacterial products activate toll-like receptors on microglia and macrophages.",
+     "IL-1 and TNF-alpha activate endothelium and recruit neutrophils.",
+     "The barrier opens; vasogenic edema raises intracranial pressure.",
+     "Rising intracranial pressure risks brain herniation."
+    ]
+   },
+   {
+    "title": "Myasthenia gravis",
+    "steps": [
+     "Tolerance to acetylcholine receptors breaks down, often with thymic hyperplasia or thymoma.",
+     "IgG autoantibodies bind postsynaptic nicotinic acetylcholine receptors.",
+     "Antibodies block receptors, cross-link them for internalization, and fix complement.",
+     "Fewer receptors shrink the end-plate potential.",
+     "With repeated firing, end-plate potentials fall below threshold, causing fatigable weakness."
+    ]
+   },
+   {
+    "title": "Guillain-Barré syndrome after Campylobacter",
+    "steps": [
+     "Campylobacter jejuni infection triggers antibodies against bacterial lipooligosaccharide.",
+     "These antibodies cross-react with peripheral nerve gangliosides (molecular mimicry).",
+     "Complement and macrophages damage peripheral myelin or the nodal axon membrane.",
+     "Conduction slows or blocks in peripheral nerves and spinal roots.",
+     "Symmetric ascending weakness and areflexia develop over days to weeks."
+    ]
+   }
+  ]
+ }
 ]

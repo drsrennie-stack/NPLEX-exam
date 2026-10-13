@@ -1,0 +1,640 @@
+{
+ "unit": "CV-14",
+ "chapter_id": "NPLEX-P1-CARD-14",
+ "topic_id": "NPLEX-P1-CARD-14-01",
+ "title": "Cardiovascular Genetics",
+ "subject": "Cardiovascular System (CARD)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter explains how single-gene variants and chromosomal changes produce cardiovascular disease, and why one variant can look different from one relative to the next. It covers familial hypercholesterolemia, hypertrophic cardiomyopathy, the heritable aortic disorders, the long QT and Brugada channelopathies, chromosomal and developmental syndromes with characteristic heart defects, neuromuscular and mitochondrial disorders of the myocardium, and the cell biology that makes adult heart muscle grow by hypertrophy and heal by scar. Board items usually describe a family, an ECG, or a set of physical findings and ask for the inheritance pattern, the protein, and the mechanism that links them. A few rules about protein dose, dominant negative effects, penetrance, and energy supply let you reason through unfamiliar variants.",
+  "prerequisites": [
+   "Mendelian inheritance patterns, pedigree analysis, and X inactivation",
+   "Cholesterol synthesis, lipoprotein metabolism, and receptor-mediated endocytosis (CV-13)",
+   "Sarcomere structure and the cross-bridge cycle (CV-5)",
+   "Phases of the ventricular action potential and the ion currents behind them (CV-5, CV-7)",
+   "Development of the endocardial cushions and outflow tract (CV-1)"
+  ],
+  "connections": [
+   {
+    "to": "Cardiovascular biochemistry and nutrition (CV-13)",
+    "how": "The LDL receptor pathway and SREBP feedback taught there are the normal processes that familial hypercholesterolemia disrupts."
+   },
+   {
+    "to": "Conduction system and the ECG (CV-7)",
+    "how": "The early afterdepolarization mechanism of torsades de pointes explained in CV-7 is the final common pathway for every congenital long QT genotype."
+   },
+   {
+    "to": "Cardiovascular embryology (CV-1) and congenital heart conditions (CV-18-G)",
+    "how": "Each chromosomal syndrome damages a specific embryonic structure, such as the endocardial cushions or the neural crest contribution to the outflow tract, which predicts its typical defect."
+   },
+   {
+    "to": "Primary myocardial diseases (CV-18-E)",
+    "how": "Hypertrophic, dilated, and mitochondrial cardiomyopathies have their genetic basis here and their pathology and hemodynamics there."
+   },
+   {
+    "to": "Vascular conditions (CV-18-I)",
+    "how": "Aortic aneurysm and dissection in Marfan, Loeys-Dietz, and vascular Ehlers-Danlos syndromes are the genetic counterparts of medial degeneration in acquired aortic disease."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Penetrance",
+    "def": "The proportion of people carrying a pathogenic genotype who show any sign of the disease."
+   },
+   {
+    "term": "Expressivity",
+    "def": "The range of severity and features among people who do show the disease phenotype."
+   },
+   {
+    "term": "Locus heterogeneity",
+    "def": "The same clinical disorder arising from variants in different genes, as familial hypercholesterolemia does from LDLR, APOB, or PCSK9."
+   },
+   {
+    "term": "Allelic heterogeneity",
+    "def": "Different variants in one gene producing different disorders or severities, as SCN5A gain and loss of function do."
+   },
+   {
+    "term": "Pleiotropy",
+    "def": "One gene affecting several apparently unrelated organs, as FBN1 affects the aorta, the lens, and the skeleton."
+   },
+   {
+    "term": "Haploinsufficiency",
+    "def": "Disease that results because one normal allele cannot make enough protein to maintain normal function."
+   },
+   {
+    "term": "Dominant negative effect",
+    "def": "Disease that results because a mutant protein combines with or interferes with the normal protein made from the other allele."
+   },
+   {
+    "term": "Gene dosage effect",
+    "def": "A graded relation between the number of affected alleles and severity, so homozygotes are more severely affected than heterozygotes."
+   },
+   {
+    "term": "Heteroplasmy",
+    "def": "The presence of both mutant and normal mitochondrial DNA within one cell or tissue, in proportions that can differ between tissues."
+   },
+   {
+    "term": "Myocyte disarray",
+    "def": "Loss of the normal parallel alignment of cardiac myocytes and myofibrils, which instead lie in disorganized whorls; characteristic of hypertrophic cardiomyopathy."
+   },
+   {
+    "term": "Fetal gene program",
+    "def": "Genes normally active in the fetal heart, such as ANP, BNP, and beta-myosin heavy chain, that are switched back on in pathologically stressed adult myocardium."
+   },
+   {
+    "term": "Permanent tissue",
+    "def": "Tissue whose cells have largely left the cell cycle, so lost cells are replaced by scar rather than by new parenchymal cells."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-CARD-14-01-C01",
+   "obj": "CV-14.1",
+   "title": "Familial hypercholesterolemia: LDL receptor genetics, gene dosage, and lost feedback",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Each low-density lipoprotein (LDL) particle carries one apolipoprotein B-100 (apoB-100), the ligand for the LDL receptor. The liver clears about 70% of plasma LDL, so hepatic receptor number sets plasma LDL. The receptor also binds apolipoprotein E on intermediate-density lipoprotein (IDL), so when receptors are scarce, more IDL survives to become LDL and production rises as clearance falls. LDL is internalized in clathrin-coated pits, released in the acidified endosome while the receptor recycles, and hydrolyzed in the lysosome to free cholesterol."
+    },
+    {
+     "type": "p",
+     "text": "Low cholesterol in the endoplasmic reticulum (ER) lets the escort protein SCAP carry SREBP-2 to the Golgi, where proteases release its active fragment. This switches on the genes for HMG-CoA reductase (the rate-limiting enzyme of cholesterol synthesis), the LDL receptor, and PCSK9; high ER cholesterol keeps SREBP-2 anchored by INSIG. PCSK9, secreted by hepatocytes, binds the receptor and sends it to the lysosome instead of recycling it, so PCSK9 activity sets how many trips each receptor makes."
+    },
+    {
+     "type": "p",
+     "text": "Familial hypercholesterolemia (FH) is autosomal dominant, with heterozygotes about 1 in 250. It shows locus heterogeneity: loss-of-function LDLR variants (chromosome 19p, most cases), APOB variants in the receptor-binding region (familial defective apoB-100, usually milder because apoE-mediated IDL clearance is preserved), and gain-of-function PCSK9 variants (rarest). LDLR variants fall into five classes by the step that fails: synthesis, ER to Golgi transport (most common), ligand binding, clustering in coated pits, and recycling."
+    },
+    {
+     "type": "p",
+     "text": "FH shows a gene dosage effect. Heterozygotes have LDL cholesterol about twice normal from birth, usually above about 190 mg/dL (4.9 mmol/L) in untreated adults against a desirable value below about 100 mg/dL (2.6 mmol/L), with normal triglycerides (Fredrickson type IIa). Homozygotes and compound heterozygotes, about 1 in several hundred thousand, are far more severe."
+    },
+    {
+     "type": "table",
+     "title": "Heterozygous versus homozygous familial hypercholesterolemia",
+     "cols": [
+      "Feature",
+      "Heterozygous FH",
+      "Homozygous FH"
+     ],
+     "rows": [
+      [
+       "Functional LDL receptors",
+       "About half of normal",
+       "Little or none"
+      ],
+      [
+       "Total cholesterol",
+       "About 2 to 3 times normal",
+       "About 5 to 6 times normal"
+      ],
+      [
+       "Xanthomas",
+       "Tendon (Achilles, hand extensors) in adulthood; corneal arcus before about 45",
+       "Cutaneous and tendon, often in the first decade; aortic root deposits"
+      ],
+      [
+       "Coronary disease",
+       "Premature, often by the fourth or fifth decade in men",
+       "Childhood or adolescence, often before age 20"
+      ]
+     ],
+     "caption": "Severity tracks the number of working receptor alleles."
+    },
+    {
+     "type": "p",
+     "text": "The hepatocyte is short of cholesterol while plasma is overloaded. Little LDL reaches the ER, so SREBP-2 stays active and synthesis continues, feeding VLDL secretion and future LDL. FH fibroblasts ignore LDL in the medium yet suppress synthesis normally when cholesterol enters by a route that bypasses the receptor, which proves that uptake, not feedback, is defective. For the same reason, lowering hepatic synthesis upregulates the normal allele in a heterozygote but does little in a receptor-negative homozygote. Macrophages take up oxidized LDL through scavenger receptors that are not downregulated, forming the foam cells of xanthomas and plaques (CV-18-C). Loss-of-function PCSK9 variants, the mirror image, give lifelong low LDL and markedly lower coronary risk."
+    },
+    {
+     "type": "flow",
+     "title": "Pathogenesis of familial hypercholesterolemia",
+     "steps": [
+      "LDLR, APOB, or gain-of-function PCSK9 variant",
+      "Fewer working receptor trips at the hepatocyte surface",
+      "Less LDL and IDL cleared; more IDL becomes LDL",
+      "Low ER cholesterol keeps SREBP-2 active and synthesis high",
+      "Plasma LDL high from birth",
+      "Foam cells: xanthomas, arcus, premature atherosclerosis"
+     ],
+     "caption": "Reduced clearance plus continued production keeps LDL high for life, so coronary disease appears decades early."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-14-01-C02",
+   "obj": "CV-14.2",
+   "title": "Hypertrophic cardiomyopathy: sarcomere genes, myocyte disarray, and variable penetrance",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Hypertrophic cardiomyopathy (HCM) is left ventricular thickening not explained by abnormal loading such as hypertension or aortic stenosis. It affects about 1 in 500 adults and in most familial cases is an autosomal dominant disease of the sarcomere. MYH7 (beta-myosin heavy chain) and MYBPC3 (cardiac myosin-binding protein C) account for most genotype-positive cases; troponin T and I, alpha-tropomyosin, the myosin light chains, and cardiac actin are less common. Testing finds a variant in only about a third to a half of patients, so a negative test does not exclude a genetic cause."
+    },
+    {
+     "type": "p",
+     "text": "MYH7 missense variants make a mutant myosin head that is built into the thick filament beside normal myosin, a dominant negative effect. MYBPC3 variants are usually truncating, and nonsense-mediated decay lowers the amount of protein (haploinsufficiency), with later and milder disease on average. Many variants release myosin heads from their energy-saving folded resting state, and thin filament variants raise Ca2+ sensitivity, so the heart is hypercontractile, wastes ATP, and relaxes poorly."
+    },
+    {
+     "type": "flow",
+     "title": "From sarcomere variant to the HCM phenotype",
+     "steps": [
+      "MYH7 dominant negative or MYBPC3 haploinsufficient variant",
+      "More heads cycling or higher Ca2+ sensitivity",
+      "Hypercontractility, high ATP use, impaired relaxation",
+      "Energy deficit activates hypertrophic and fibrotic signaling (C07)",
+      "Hypertrophy, myocyte disarray, fibrosis, small vessel disease",
+      "Stiff, nondilated ventricle with an arrhythmic substrate"
+     ],
+     "caption": "Hypertrophy follows from a faulty motor, so it appears even though load is normal."
+    },
+    {
+     "type": "p",
+     "text": "The ventricle is thick but not dilated, often with asymmetric septal hypertrophy and a small cavity; adult wall thickness of about 15 mm or more is diagnostic, against about 11 mm or less normally. The hallmark is myocyte disarray, with short branched myocytes in whorls, plus interstitial fibrosis and thick-walled intramural arteries. Disarray and patchy fibrosis slow and scatter conduction, supporting reentry."
+    },
+    {
+     "type": "p",
+     "text": "The stiff ventricle fills at high pressure, causing exertional dyspnea and a fourth heart sound, and it depends on atrial contraction, so atrial fibrillation is poorly tolerated. About a third of patients have dynamic outflow obstruction at rest: the septum narrows the outflow tract and flow drags the anterior mitral leaflet toward it (systolic anterior motion), adding mitral regurgitation. Smaller ventricular volume (standing, Valsalva strain) worsens obstruction and the murmur; larger volume or afterload (squatting, leg raising, handgrip) softens it. The aortic stenosis murmur responds oppositely to volume changes. Angina occurs with normal coronaries because demand is high and intramural vessels are narrow. Sudden death from ventricular arrhythmia can be the first event, especially in young athletes. The ECG shows high voltage and deep narrow Q waves from the thick septum."
+    },
+    {
+     "type": "p",
+     "text": "Each child of a carrier has a 50% risk, but relatives with one variant range from sudden death to a normal echocardiogram (variable expressivity and incomplete penetrance). Penetrance is age dependent, with hypertrophy usually appearing in adolescence or early adulthood and, with MYBPC3, sometimes not until middle age, so genotype-positive relatives need repeated evaluation. A second sarcomere variant raises severity, and male sex, hypertension, and modifier genes raise penetrance. Phenocopies include athlete's heart (enlarged cavity, normal relaxation, regression with detraining), hypertensive hypertrophy, Fabry disease (X-linked GLA), Friedreich ataxia, and Noonan syndrome."
+    },
+    {
+     "type": "stop",
+     "predict": "Predict what happens to the systolic murmur of obstructive HCM when a patient moves from squatting to standing, and explain why.",
+     "explain": "The murmur becomes louder. Standing pools blood in the legs, reducing venous return and left ventricular volume. A smaller cavity brings the septum and the anterior mitral leaflet closer during systole, so obstruction and turbulence increase.",
+     "check": "Compare with the paragraph on dynamic outflow obstruction."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-14-01-C03",
+   "obj": "CV-14.3",
+   "title": "Heritable aortic disease: Marfan, Loeys-Dietz, and vascular Ehlers-Danlos syndromes",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The aortic media is built from elastic lamellae with smooth muscle between them, held by collagen and microfibrils. All three disorders here are autosomal dominant, but each damages a different component, which predicts its presentation."
+    },
+    {
+     "type": "p",
+     "text": "Marfan syndrome (about 1 in 5,000, about a quarter de novo) is caused by FBN1 variants on chromosome 15 (15q21). Fibrillin-1 forms microfibrils that scaffold elastin and anchor the lens zonule. Missense variants act as dominant negatives and truncating variants by haploinsufficiency. Microfibrils also sequester latent TGF-beta, so fibrillin deficiency increases TGF-beta signaling, matrix metalloproteinase activity, and matrix loss. The lesion is medial degeneration (elastic fiber fragmentation, smooth muscle loss, proteoglycan pools; the older term cystic medial necrosis is misleading), worst at the aortic root. By Laplace's law, wall tension rises with radius, so dilation feeds further dilation. The stretched annulus causes aortic regurgitation, and myxomatous mitral valves prolapse. Pleiotropy explains upward ectopia lentis, tall stature, arachnodactyly, pectus, scoliosis, and joint laxity. Homocystinuria mimics the habitus but displaces the lens downward and causes thrombosis and intellectual disability."
+    },
+    {
+     "type": "flow",
+     "title": "Marfan syndrome from gene to aortic dissection",
+     "steps": [
+      "FBN1 variant: abnormal or reduced fibrillin-1",
+      "Weak microfibrils and excess TGF-beta signaling",
+      "Medial degeneration of the aortic wall",
+      "Root dilates at the sinuses of Valsalva",
+      "Larger radius raises wall tension (Laplace)",
+      "Aortic regurgitation, then dissection or rupture"
+     ],
+     "caption": "Ascending aortic dissection is the classic cause of death in untreated Marfan syndrome."
+    },
+    {
+     "type": "p",
+     "text": "Loeys-Dietz syndrome is usually caused by TGFBR1 or TGFBR2 variants (also SMAD3, TGFB2, TGFB3). The variants reduce receptor function in cells, yet aortic TGF-beta signaling is paradoxically increased. Aneurysms and dissections occur younger, at smaller diameters, and throughout tortuous arteries."
+    },
+    {
+     "type": "p",
+     "text": "Vascular Ehlers-Danlos syndrome is caused by COL3A1 variants affecting type III collagen, a homotrimer abundant in arteries, bowel, uterus, and skin. Most variants replace a glycine in the Gly-X-Y repeat, which only glycine fits, so the helix misfolds. Medium-sized arteries rupture or dissect without prior aneurysm, and the sigmoid colon and gravid uterus can rupture. Skin is thin and translucent but not markedly hyperextensible, and median survival is about 50 years."
+    },
+    {
+     "type": "table",
+     "title": "Heritable disorders of the arterial wall",
+     "cols": [
+      "Feature",
+      "Marfan",
+      "Loeys-Dietz",
+      "Vascular Ehlers-Danlos"
+     ],
+     "rows": [
+      [
+       "Gene and protein",
+       "FBN1, fibrillin-1",
+       "TGFBR1 or TGFBR2",
+       "COL3A1, type III collagen"
+      ],
+      [
+       "Arterial pattern",
+       "Aortic root dilation, ascending dissection",
+       "Widespread aneurysms, tortuosity, younger and smaller",
+       "Medium artery rupture without aneurysm"
+      ],
+      [
+       "Extravascular clues",
+       "Upward ectopia lentis, tall, arachnodactyly",
+       "Hypertelorism, bifid uvula or cleft palate, craniosynostosis; no ectopia lentis",
+       "Thin skin, bruising, colon and uterine rupture"
+      ]
+     ],
+     "caption": "All three are autosomal dominant; the failing wall component predicts the pattern."
+    },
+    {
+     "type": "example",
+     "title": "Why one bad allele spoils most multimers",
+     "text": "If mutant and normal chains are made equally and combine at random, a type III collagen trimer is fully normal with probability (1/2)^3 = 1/8, so a glycine substitution leaves about 12.5% normal molecules. A null allele makes half as many chains, all normal, so about 50% of the usual collagen is normal. The same reasoning applies to the tetrameric KCNQ1 channel: (1/2)^4 = 1/16, about 6% working channels with a dominant negative subunit, against about 50% with a null allele. This is why dominant negative missense variants are often more severe than null alleles, and why null COL3A1 alleles cause later, milder disease."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-14-01-C04",
+   "obj": "CV-14.4",
+   "title": "Inherited channelopathies: congenital long QT syndrome and Brugada syndrome",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Channelopathies cause sudden death in a structurally normal heart, so diagnosis rests on the ECG, family history, and genetic testing. Phase 3 repolarization depends on the rapid delayed rectifier current IKr (KCNH2, also called hERG) and the slow current IKs (KCNQ1 with KCNE1), finished by IK1. Shared work gives repolarization reserve: losing part of one current may barely lengthen the resting QT but leaves the cell vulnerable to hypokalemia, bradycardia, a sympathetic surge, or an IKr-blocking drug, which explains much incomplete penetrance."
+    },
+    {
+     "type": "diagram",
+     "name": "ventricular-ap",
+     "caption": "Ventricular action potential, phases 0 to 4. Less outward K+ current or a late inward Na+ current prolongs phases 2 and 3 and the QT. In Brugada syndrome, reduced phase 0 Na+ current lets Ito deepen the phase 1 notch in right ventricular epicardium."
+    },
+    {
+     "type": "p",
+     "text": "Congenital long QT syndrome (about 1 in 2,000) leads to early afterdepolarizations and torsades de pointes (CV-7, section C06). IKs is increased by sympathetic stimulation and shortens the action potential during exercise, so LQT1 events occur with exertion. IKr dominates resting repolarization and falls with low extracellular K+, so LQT2 events follow startle and hypokalemia is dangerous. A late Na+ current matters most at slow rates, so LQT3 events occur at rest or in sleep."
+    },
+    {
+     "type": "table",
+     "title": "Main genotypes of congenital long QT syndrome",
+     "cols": [
+      "Type",
+      "Gene and change",
+      "Typical trigger",
+      "T wave"
+     ],
+     "rows": [
+      [
+       "LQT1 (most common)",
+       "KCNQ1, loss of IKs",
+       "Exercise, especially swimming",
+       "Broad-based"
+      ],
+      [
+       "LQT2",
+       "KCNH2, loss of IKr",
+       "Startle, emotion; hypokalemia",
+       "Low, notched or bifid"
+      ],
+      [
+       "LQT3",
+       "SCN5A, gain of function (late Na+ current)",
+       "Rest or sleep",
+       "Late, after a long isoelectric ST"
+      ]
+     ],
+     "caption": "K+ channel genes lose function; the Na+ channel gene gains function."
+    },
+    {
+     "type": "p",
+     "text": "Romano-Ward syndrome is the common autosomal dominant form, with normal hearing. Jervell and Lange-Nielsen syndrome is autosomal recessive, from two abnormal alleles of KCNQ1 or KCNE1, and combines congenital sensorineural deafness with marked QT prolongation (often above 500 ms) and childhood sudden death. The stria vascularis secretes K+ into endolymph through KCNQ1/KCNE1 channels to generate the endocochlear potential; with none, hearing fails. One working allele suffices for the ear, so heterozygous parents hear normally but may have a mildly long QT."
+    },
+    {
+     "type": "p",
+     "text": "Brugada syndrome causes ventricular fibrillation in a normal heart, mostly in men and more often in Southeast Asia. SCN5A loss-of-function variants (autosomal dominant, incomplete penetrance) occur in only about 20% to 25%. The type 1 ECG shows coved ST elevation of at least 2 mm in V1 or V2 into a negative T wave, unmasked by fever (some variant channels inactivate faster when warm), vagal tone, and Na+ channel blockers. Right ventricular outflow epicardium has a large transient outward current (Ito). A weaker upstroke lets Ito pull the membrane below L-type Ca2+ activation, so the epicardial dome is lost while endocardium keeps its plateau; slowed outflow conduction probably contributes."
+    },
+    {
+     "type": "flow",
+     "title": "Brugada syndrome from SCN5A loss to ventricular fibrillation",
+     "steps": [
+      "Reduced peak Na+ current",
+      "Ito deepens the epicardial phase 1 notch",
+      "Epicardial dome lost; endocardium keeps plateau",
+      "Transmural gradient: coved ST elevation in V1 and V2",
+      "Phase 2 reentry gives a closely coupled beat",
+      "Polymorphic VT degenerates to ventricular fibrillation"
+     ],
+     "caption": "Events cluster at rest, in sleep, and with fever; larger male epicardial Ito helps explain male predominance."
+    },
+    {
+     "type": "p",
+     "text": "SCN5A shows allelic heterogeneity: gain of function causes LQT3, while loss of function causes Brugada syndrome and conduction disease, and some variants produce both."
+    },
+    {
+     "type": "stop",
+     "predict": "A 35-year-old man with a Brugada type 1 pattern develops pneumonia with high fever. Does his risk of ventricular fibrillation rise or fall, and why?",
+     "explain": "It rises. Some variant channels inactivate faster when warm, so fever cuts Na+ current further, deepens the Ito notch, and favors loss of the dome and phase 2 reentry.",
+     "check": "Compare with the Brugada paragraph and flow figure."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-14-01-C05",
+   "obj": "CV-14.5",
+   "title": "Chromosomal and developmental syndromes with characteristic heart defects",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Each syndrome's defect reflects the embryonic process it disturbs. The endocardial cushions fuse to divide the atrioventricular canal, close the ostium primum, and form parts of the atrioventricular valves. Neural crest cells build the aorticopulmonary septum that divides the truncus arteriosus (CV-1; defects in CV-18-G)."
+    },
+    {
+     "type": "p",
+     "text": "Down syndrome (trisomy 21) arises about 95% from nondisjunction, mostly maternal meiosis I with advanced maternal age, about 4% from Robertsonian translocation, and about 1% from mosaicism. About 40% to 50% have a heart defect, classically an atrioventricular septal defect (ostium primum defect, inlet ventricular septal defect, common valve) from failed cushion fusion. Large shunts plus a tendency to early pulmonary vascular disease bring pulmonary hypertension sooner."
+    },
+    {
+     "type": "p",
+     "text": "Turner syndrome (45,X in about half, otherwise mosaic or structural X changes) favors left-sided lesions: bicuspid aortic valve in about a fifth to a third, coarctation in about a tenth, and later aortic dilation and dissection. One hypothesis is that fetal jugular lymphedema, which leaves the webbed neck, compresses the ascending aorta and reduces left heart flow. Coarctation causes arm hypertension, weak delayed femoral pulses, and rib notching from collaterals."
+    },
+    {
+     "type": "p",
+     "text": "The 22q11.2 deletion (DiGeorge or velocardiofacial syndrome, about 1 in 4,000) removes about 3 million base pairs, usually de novo but transmitted as autosomal dominant. Loss of one TBX1 copy disturbs the pharyngeal arches and the neural crest, giving conotruncal defects (interrupted aortic arch type B, truncus arteriosus, tetralogy of Fallot, right-sided arch). Third and fourth pouch failure causes thymic hypoplasia with T cell deficiency and parathyroid hypoplasia with hypocalcemia (CATCH-22)."
+    },
+    {
+     "type": "p",
+     "text": "Williams syndrome is a 7q11.23 microdeletion including ELN. Elastin also tells smooth muscle to stop proliferating, so haploinsufficiency thickens the media, causing supravalvular aortic stenosis at the sinotubular junction and peripheral pulmonary and renal artery stenosis. Neighboring genes explain the rest, since an ELN variant alone causes only familial supravalvular aortic stenosis."
+    },
+    {
+     "type": "p",
+     "text": "VACTERL is an association, a nonrandom clustering without a single cause, unlike a syndrome (one cause) or a sequence (a cascade from one defect, such as Potter sequence). It needs at least three features, is usually sporadic with low recurrence, and reflects early mesodermal disturbance. Holt-Oram syndrome (TBX5, septal defects with upper limb anomalies) and Fanconi anemia (radial defects with marrow failure) are single-gene look-alikes."
+    },
+    {
+     "type": "table",
+     "title": "Genetic syndromes and their characteristic cardiovascular lesions",
+     "cols": [
+      "Syndrome",
+      "Genetic basis",
+      "Characteristic lesion",
+      "Other clues"
+     ],
+     "rows": [
+      [
+       "Down",
+       "Trisomy 21",
+       "Atrioventricular septal defect",
+       "Hypotonia, flat face, duodenal atresia"
+      ],
+      [
+       "Turner",
+       "45,X or mosaic",
+       "Bicuspid aortic valve, coarctation",
+       "Short stature, webbed neck, ovarian insufficiency"
+      ],
+      [
+       "22q11.2 deletion",
+       "Microdeletion with TBX1",
+       "Interrupted arch type B, truncus, tetralogy",
+       "Thymic hypoplasia, hypocalcemia, cleft palate"
+      ],
+      [
+       "Williams",
+       "7q11.23 deletion with ELN",
+       "Supravalvular aortic stenosis",
+       "Elfin facies, hypercalcemia, friendly personality"
+      ],
+      [
+       "VACTERL",
+       "Sporadic association",
+       "Ventricular septal defect most often",
+       "Vertebral, anal, tracheoesophageal, renal, radial limb defects"
+      ],
+      [
+       "Noonan",
+       "Autosomal dominant RAS pathway, often PTPN11",
+       "Dysplastic pulmonary valve stenosis, HCM",
+       "Turner-like features, normal karyotype, both sexes"
+      ]
+     ],
+     "caption": "The disturbed developmental process predicts the heart defect."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-14-01-C06",
+   "obj": "CV-14.6",
+   "title": "Muscular dystrophies, Friedreich ataxia, and mitochondrial DNA disease in the heart",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Dystrophin links actin through beta-dystroglycan and alpha-dystroglycan to laminin in the basement membrane, protecting the sarcolemma during contraction. DMD (Xp21) is the largest human gene, so about a third of cases are new variants. Duchenne and Becker dystrophies are X-linked recessive; Duchenne affects about 1 in 3,500 to 5,000 males, and deletions make up about two thirds of variants. By the reading frame rule, in-frame deletions make a shortened, partly functional dystrophin (Becker), and frameshifts create a premature stop with no dystrophin (Duchenne), correct in about 90%."
+    },
+    {
+     "type": "example",
+     "title": "Applying the reading frame rule",
+     "text": "Boy A has lost exons totaling 444 coding nucleotides; Boy B has lost 290. 444 divided by 3 is 148, so 148 codons are removed, the downstream frame is intact, and a shortened dystrophin with both binding ends is made: Becker. 290 divided by 3 leaves a remainder of 2, so the frame shifts, a premature stop appears, the transcript undergoes nonsense-mediated decay, and no dystrophin is made: Duchenne, despite the smaller deletion."
+    },
+    {
+     "type": "p",
+     "text": "Without dystrophin, contraction tears the membrane, Ca2+ enters, and proteases and mitochondrial Ca2+ overload cause necrosis. Creatine kinase is very high, with Gowers sign and calf pseudohypertrophy. Cardiac fibrosis starts subepicardially in the inferolateral left ventricle, producing dilated cardiomyopathy by the late teens, tall R waves in V1, lateral Q waves, and sinus tachycardia. Becker cardiomyopathy can outpace limb weakness. Female carriers can develop cardiomyopathy when random or skewed X inactivation leaves many myocytes expressing only the mutant allele."
+    },
+    {
+     "type": "p",
+     "text": "Friedreich ataxia is autosomal recessive, caused by a GAA repeat expansion in the first intron of FXN (normal up to about 33 repeats; disease about 66 to more than 1,000). The expansion silences transcription, so frataxin, needed for mitochondrial iron-sulfur cluster assembly (aconitase, complexes I to III), is low. Energy failure, mitochondrial iron accumulation, and oxidative damage hit dorsal root ganglia and spinocerebellar tracts, the heart, and beta cells. Cardiomyopathy is concentric hypertrophy without extensive disarray, later fibrosis and dilation, and is the usual cause of death."
+    },
+    {
+     "type": "p",
+     "text": "Mitochondrial DNA (about 16,600 base pairs) encodes 13 respiratory chain subunits, 22 transfer RNAs, and 2 ribosomal RNAs and is maternally inherited. Heteroplasmy, random segregation, and the oocyte bottleneck make mutant fractions vary between tissues and siblings, and disease appears where a tissue's threshold is exceeded, lowest in brain, retina, muscle, and heart. Kearns-Sayre syndrome is a large, usually sporadic mtDNA deletion with onset before 20: progressive external ophthalmoplegia, pigmentary retinopathy, and conduction block, high CSF protein, or ataxia. His-Purkinje block can progress to complete heart block, and muscle shows ragged red fibers."
+    },
+    {
+     "type": "table",
+     "title": "Inherited neuromuscular and mitochondrial disorders that affect the heart",
+     "cols": [
+      "Disorder",
+      "Gene and inheritance",
+      "Cardiac involvement"
+     ],
+     "rows": [
+      [
+       "Duchenne",
+       "DMD, X-linked recessive; no dystrophin",
+       "Dilated cardiomyopathy from inferolateral fibrosis"
+      ],
+      [
+       "Becker",
+       "DMD, X-linked recessive; in-frame, partial dystrophin",
+       "Dilated cardiomyopathy, can exceed limb weakness"
+      ],
+      [
+       "Friedreich ataxia",
+       "FXN GAA expansion, autosomal recessive",
+       "Concentric hypertrophy, later fibrosis and dilation"
+      ],
+      [
+       "Kearns-Sayre",
+       "Large mtDNA deletion, usually sporadic",
+       "Progressive His-Purkinje conduction block"
+      ]
+     ],
+     "caption": "Membrane fragility causes dilation, energy failure causes hypertrophy, and mtDNA deletion favors the conduction system."
+    },
+    {
+     "type": "stop",
+     "predict": "A 30-year-old woman whose son has Duchenne dystrophy has no weakness but develops a dilated, poorly contracting left ventricle. How can a carrier of an X-linked recessive disease develop cardiomyopathy?",
+     "explain": "Random X inactivation leaves some myocytes expressing only the mutant DMD allele. If enough do, through chance or skewed inactivation, those cells are damaged with each contraction and replaced by fibrosis that the heart cannot repair.",
+     "check": "Compare with the carrier sentence and the dystrophin pathogenesis paragraph."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-14-01-C07",
+   "obj": "CV-14.7",
+   "title": "Cardiomyocyte cell cycle exit, hypertrophy, the fetal gene program, and scar",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Fetal cardiomyocytes divide, but around birth they largely leave the cell cycle, and many become polyploid or binucleate. Exit is maintained by low cyclin and cyclin-dependent kinase activity, the inhibitors p21 and p27, and retinoblastoma protein repression of E2F. Carbon-14 dating shows renewal of only about 1% per year in young adults, and no confirmed adult cardiac stem cell rebuilds muscle, so the heart is a permanent tissue. Skeletal muscle regenerates from satellite cells and smooth muscle can divide, but cardiac muscle has no such reserve."
+    },
+    {
+     "type": "p",
+     "text": "By Laplace's law, ventricular wall stress is proportional to pressure times radius divided by twice wall thickness. Pressure overload (hypertension, aortic stenosis) adds sarcomeres in parallel, thickening the wall (concentric hypertrophy), while volume overload (regurgitation) adds sarcomeres in series, enlarging the cavity (eccentric hypertrophy). Both tend to return wall stress to normal. Normal heart weight is about 250 to 300 g in women and 300 to 350 g in men."
+    },
+    {
+     "type": "p",
+     "text": "Stretch is sensed by integrins, Z disc proteins, and stretch-activated channels. Angiotensin II, endothelin-1, and norepinephrine act through Gq, phospholipase C, Ca2+, and protein kinase C; sustained Ca2+ activates calcineurin, which dephosphorylates NFAT so it enters the nucleus and activates hypertrophic genes with GATA4 and MEF2. Exercise hypertrophy uses IGF-1 through PI3K and Akt instead. Pathologic hypertrophy reactivates the fetal gene program: ANP in ventricle, BNP in proportion to stretch, beta-myosin and skeletal alpha-actin up, alpha-myosin and SERCA2a down, and a shift toward glucose use. Slower myosin saves energy, less SERCA2a slows relaxation, and natriuretic peptides raise cGMP to oppose the renin-angiotensin-aldosterone system. BNP below about 100 pg/mL makes heart failure an unlikely cause of acute dyspnea."
+    },
+    {
+     "type": "table",
+     "title": "Physiologic compared with pathologic hypertrophy",
+     "cols": [
+      "Feature",
+      "Physiologic (exercise, pregnancy)",
+      "Pathologic (pressure, volume, infarction)"
+     ],
+     "rows": [
+      [
+       "Signals",
+       "IGF-1, PI3K, Akt",
+       "Gq, calcineurin, NFAT"
+      ],
+      [
+       "Fetal gene program",
+       "Not activated",
+       "ANP, BNP, beta-myosin"
+      ],
+      [
+       "Capillaries and fibrosis",
+       "Capillaries keep pace; no fibrosis",
+       "Capillaries lag; interstitial fibrosis"
+      ],
+      [
+       "Outcome",
+       "Regresses",
+       "May progress to failure"
+      ]
+     ],
+     "caption": "Both enlarge existing myocytes; the signaling route decides the outcome."
+    },
+    {
+     "type": "cycle",
+     "title": "Maladaptive cycle of pathologic hypertrophy",
+     "steps": [
+      "Sustained load raises wall stress",
+      "Myocytes hypertrophy; fetal genes switch on",
+      "Capillaries lag, SERCA2a falls, collagen accumulates",
+      "Ischemia and Ca2+ mishandling kill myocytes",
+      "Survivors are overloaded; the ventricle dilates",
+      "Larger radius raises wall stress again"
+     ],
+     "caption": "Lost myocytes are not replaced, so each turn leaves fewer cells to carry the load."
+    },
+    {
+     "type": "p",
+     "text": "After infarction (stages in CV-18-C), macrophages clear dead tissue and release TGF-beta, converting fibroblasts into contractile myofibroblasts that lay down type III collagen, later replaced by cross-linked type I collagen. The scar is strong but cannot contract or conduct, so survivors hypertrophy and border-zone strands support reentrant ventricular tachycardia (CV-7). Stunned and hibernating myocardium can recover; scar cannot. The same repair follows myocyte loss in dystrophy and Friedreich ataxia."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "A few genetic rules connect this chapter. When disease comes from too little protein (LDL receptor, elastin, myosin-binding protein C), heterozygotes are affected and homozygotes are worse. When a protein is built from repeated subunits (type III collagen, KCNQ1 channels, the thick filament), a dominant negative subunit spoils normal partners. Recessive disease such as Friedreich ataxia or Jervell and Lange-Nielsen syndrome appears when half the protein is enough, and X inactivation and heteroplasmy make severity differ between cells, tissues, and relatives. Penetrance and expressivity vary with modifiers, sex, age, and environment, and a negative test does not exclude disease when only some patients carry a detectable variant, as in HCM and Brugada syndrome."
+  },
+  {
+   "type": "p",
+   "text": "Anatomy, embryology, and biochemistry predict where each disease appears: cushions in Down syndrome, neural crest derivatives in the 22q11.2 deletion, matrix pleiotropy in Marfan and vascular Ehlers-Danlos syndromes, and energy-hungry tissues in Friedreich ataxia and Kearns-Sayre syndrome. Pathology links these to acquired disease, since FH accelerates ordinary atherosclerosis and the 22q11.2 deletion is also a T cell immunodeficiency. Because cardiomyocytes are permanent, every disease here that kills them ends in fibrosis, hypertrophy of survivors, and an arrhythmic substrate."
+  }
+ ],
+ "summary": [
+  "Familial hypercholesterolemia is autosomal dominant with a gene dosage effect: LDLR, APOB, or gain-of-function PCSK9 variants cut receptor-mediated LDL clearance, giving about 2 to 3 times normal cholesterol in heterozygotes and 5 to 6 times in homozygotes.",
+  "In FH, low cholesterol delivery to the hepatocyte keeps SREBP-2 active, so synthesis stays high while plasma LDL is already elevated, and fewer receptors let more IDL become LDL.",
+  "Hypertrophic cardiomyopathy is autosomal dominant, mostly MYH7 (dominant negative) or MYBPC3 (haploinsufficient), with disarray, diastolic dysfunction, age-dependent penetrance, and dynamic obstruction that worsens when ventricular volume falls.",
+  "Marfan (FBN1) causes medial degeneration with excess TGF-beta signaling, aortic root dilation and dissection, and upward ectopia lentis; Loeys-Dietz (TGFBR1 or TGFBR2) causes earlier widespread aneurysms; vascular Ehlers-Danlos (COL3A1) causes rupture of arteries, bowel, and uterus.",
+  "In multimeric proteins such as type III collagen and KCNQ1 channels, a dominant negative subunit spoils most assembled molecules, so missense variants are often worse than null alleles.",
+  "Long QT results from loss of IKs (KCNQ1, exercise) or IKr (KCNH2, startle) or a late Na+ current from SCN5A gain of function (rest); Jervell and Lange-Nielsen syndrome adds deafness because the same channel makes endolymph.",
+  "Brugada syndrome, with SCN5A loss of function in a minority, gives coved ST elevation in V1 and V2 and ventricular fibrillation at rest or with fever through loss of the epicardial dome and phase 2 reentry.",
+  "Down syndrome causes atrioventricular septal defects, Turner syndrome bicuspid valve and coarctation, 22q11.2 deletion conotruncal defects with thymic and parathyroid hypoplasia, Williams syndrome supravalvular aortic stenosis, and VACTERL is a sporadic association.",
+  "Duchenne (out-of-frame) and Becker (in-frame) dystrophies cause dilated cardiomyopathy; Friedreich ataxia causes concentric hypertrophy through iron-sulfur cluster failure; Kearns-Sayre syndrome causes His-Purkinje block.",
+  "Adult cardiomyocytes have left the cell cycle, so load produces hypertrophy with the fetal gene program and lost myocytes are replaced by scar."
+ ],
+ "sources": [
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Genetic Disorders (Mendelian disorders, cytogenetic disorders, and diseases caused by mitochondrial mutations)"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "The Heart (cardiac hypertrophy, cardiomyopathies, congenital heart disease, and arrhythmias)"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Blood Vessels (aneurysms and dissection)"
+  },
+  {
+   "book": "Lippincott Illustrated Reviews: Biochemistry",
+   "where": "Cholesterol, Lipoprotein, and Steroid Metabolism"
+  },
+  {
+   "book": "Langman's Medical Embryology",
+   "where": "Cardiovascular System"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Cardiovascular Disorders: Heart Disease"
+  }
+ ],
+ "verify": [
+  "Prevalence figures vary between sources and populations: heterozygous FH about 1 in 250 (older texts give 1 in 500), homozygous FH on the order of 1 in 300,000 (older texts give 1 in a million), HCM about 1 in 500, Marfan syndrome about 1 in 5,000, congenital long QT about 1 in 2,000, 22q11.2 deletion about 1 in 4,000; confirm the values NABNE expects.",
+  "Cholesterol multiples for heterozygous (about 2 to 3 times) and homozygous (about 5 to 6 times) FH follow Robbins; other sources give LDL cholesterol cutoffs instead.",
+  "The adult HCM wall thickness threshold of about 15 mm and the statement that HCM is a leading cause of sudden death in young athletes follow common consensus; some recent series report autopsy-negative sudden death as more common in athletes.",
+  "The proportions of genotyped long QT cases due to KCNQ1, KCNH2, and SCN5A, the share of Brugada cases with SCN5A variants (about 20% to 25%), and the degree of male predominance in Brugada syndrome differ among references.",
+  "Frequencies of congenital heart disease in Down syndrome (about 40% to 50%) and of bicuspid aortic valve (about a fifth to a third) and coarctation (about a tenth) in Turner syndrome vary by series.",
+  "GAA repeat ranges for Friedreich ataxia (normal up to about 33; disease alleles about 66 to more than 1,000) and the reading frame rule accuracy (about 90%) are approximate and vary between references.",
+  "The cardiomyocyte renewal rate of about 1% per year in young adults comes from carbon-14 dating studies; confirm whether NABNE expects a specific figure.",
+  "The BNP cutoff of about 100 pg/mL for making heart failure unlikely is a commonly cited diagnostic threshold; assay-specific and age-adjusted cutoffs differ.",
+  "Confirm whether NABNE expects the eponyms and mnemonic used here (Romano-Ward, Jervell and Lange-Nielsen, Gowers sign, CATCH-22), and whether Loeys-Dietz forms beyond TGFBR1 and TGFBR2 or the term vascular Ehlers-Danlos syndrome (formerly type IV) are tested.",
+  "Requested new diagram names for a future revision: ldl-receptor-cycle (receptor-mediated endocytosis with SREBP-2 feedback) and brugada-ap (right ventricular epicardial versus endocardial action potentials with loss of the dome)."
+ ]
+}

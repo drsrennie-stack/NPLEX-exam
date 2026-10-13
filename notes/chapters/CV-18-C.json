@@ -1,0 +1,757 @@
+{
+ "unit": "CV-18-C",
+ "chapter_id": "NPLEX-P1-CARD-18",
+ "topic_id": "NPLEX-P1-CARD-18-03",
+ "title": "Ischemic Heart Disease",
+ "subject": "Cardiovascular System (CARD)",
+ "version": "1.0",
+ "overview": {
+  "intro": "Ischemic heart disease is the group of conditions in which coronary blood flow cannot meet the oxygen needs of the myocardium. Coronary atherosclerosis causes more than 90% of cases, and the presentation depends on how fast and how completely flow falls: a fixed narrowing causes exertional angina, a disrupted plaque with a partial thrombus causes unstable angina, an occlusive thrombus causes infarction, and repeated or extensive damage causes chronic ischemic heart disease. This chapter explains each stage by its mechanism so that ECG changes, biomarker patterns, tissue changes, and complications can be predicted rather than memorized. Treatment is a Part II topic; drugs appear only where they reveal a mechanism.",
+  "prerequisites": [
+   "Coronary artery anatomy and dominance (left anterior descending, left circumflex, right coronary, posterior descending arteries)",
+   "Determinants of myocardial oxygen demand and the regulation of coronary blood flow",
+   "Ventricular action potential and the normal 12-lead ECG",
+   "Reversible and irreversible cell injury, coagulative necrosis, and acute inflammation",
+   "Lipoprotein metabolism (LDL, HDL, LDL receptor) and the pathogenesis of atherosclerosis"
+  ],
+  "connections": [
+   {
+    "to": "Atherosclerosis (CV-18-I)",
+    "how": "The plaque that causes most ischemic heart disease is the same lesion studied in arterial disease, and its stability decides whether a patient has stable angina or an acute coronary syndrome."
+   },
+   {
+    "to": "Heart failure (CV-18-B)",
+    "how": "Loss of contracting muscle after infarction and chronic remodeling are the most common causes of heart failure with reduced ejection fraction."
+   },
+   {
+    "to": "Conduction system and ECG (CV-7)",
+    "how": "Injury currents, Q waves, ventricular arrhythmias, and AV block after infarction are applications of normal cardiac electrophysiology."
+   },
+   {
+    "to": "Cell injury and inflammation (general pathology)",
+    "how": "The infarct timeline is a textbook model of coagulative necrosis followed by acute inflammation, macrophage clearance, granulation tissue, and scar."
+   },
+   {
+    "to": "Hemostasis (HE)",
+    "how": "Platelet adhesion through von Willebrand factor and tissue factor driven coagulation convert a ruptured plaque into an occlusive coronary thrombus."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Ischemia",
+    "def": "Inadequate blood flow to a tissue, causing both oxygen deprivation and accumulation of metabolic waste, as opposed to hypoxia alone."
+   },
+   {
+    "term": "Coronary flow reserve",
+    "def": "The ability of coronary flow to rise several fold above its resting value by arteriolar dilation when demand increases."
+   },
+   {
+    "term": "Angina pectoris",
+    "def": "Episodic chest pain or pressure caused by transient myocardial ischemia that is not severe or long enough to kill myocytes."
+   },
+   {
+    "term": "Acute coronary syndrome",
+    "def": "The spectrum of unstable angina, non-ST-elevation myocardial infarction (NSTEMI), and ST-elevation myocardial infarction (STEMI), all usually caused by an acutely disrupted plaque with thrombus."
+   },
+   {
+    "term": "Vulnerable plaque",
+    "def": "An atheroma with a thin fibrous cap, a large lipid-rich necrotic core, and abundant inflammatory cells, which is prone to rupture."
+   },
+   {
+    "term": "Myocardial infarction",
+    "def": "Death of cardiac myocytes caused by prolonged ischemia, demonstrated by a rise of cardiac troponin with evidence of ischemia."
+   },
+   {
+    "term": "Transmural infarct",
+    "def": "An infarct that extends through all or nearly all of the ventricular wall in the territory of one occluded artery."
+   },
+   {
+    "term": "Subendocardial infarct",
+    "def": "An infarct limited to the inner third to half of the ventricular wall, the zone most vulnerable to reduced perfusion."
+   },
+   {
+    "term": "Injury current",
+    "def": "Current that flows between ischemic and normal myocardium because of their different membrane potentials, displacing the ST segment on the ECG."
+   },
+   {
+    "term": "Cardiac troponin",
+    "def": "Regulatory protein of the cardiac thin filament (troponin I or T) whose release into blood is the most specific marker of myocyte necrosis."
+   },
+   {
+    "term": "Stunned myocardium",
+    "def": "Myocardium that stays dysfunctional for hours to days after a brief ischemic episode even though flow has been restored and the cells are alive."
+   },
+   {
+    "term": "Hibernating myocardium",
+    "def": "Living myocardium that reduces its contraction during chronic hypoperfusion and can recover function if flow is restored."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-CARD-18-03-C01",
+   "obj": "CV-18-C.1",
+   "title": "Causes of ischemic heart disease: supply, demand, and coronary atherosclerosis",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The myocardium is almost entirely aerobic and extracts about 70% or more of the oxygen in coronary blood at rest, so it can meet higher demand only by raising flow. Resting coronary flow is about 225 mL/min (about 4 to 5% of cardiac output) and can rise roughly three to four fold in heavy exercise. This reserve comes from dilation of small resistance arterioles in response to local metabolic signals, chiefly adenosine from ATP breakdown, along with low oxygen tension, carbon dioxide, hydrogen ions, and potassium."
+    },
+    {
+     "type": "p",
+     "text": "Demand is set by heart rate, contractility, and ventricular wall stress. By the law of Laplace, wall stress is proportional to pressure times radius divided by wall thickness, so a high afterload or a large chamber raises oxygen use. Ischemia is therefore a mismatch between supply and demand rather than a disease of one artery."
+    },
+    {
+     "type": "p",
+     "text": "The left ventricle is perfused mainly in diastole. Systolic compression of intramural vessels is greatest in the subendocardium, and penetrating branches reach it last, so the subendocardium becomes ischemic first whenever perfusion pressure falls, diastole shortens, or ventricular diastolic pressure rises. The effective driving pressure is approximately aortic diastolic pressure minus left ventricular (LV) end-diastolic pressure."
+    },
+    {
+     "type": "table",
+     "title": "Myocardial oxygen balance and the conditions that disturb it",
+     "cols": [
+      "Determinant",
+      "Effect when disturbed",
+      "Conditions"
+     ],
+     "rows": [
+      [
+       "Perfusion pressure (aortic diastolic minus LV end-diastolic)",
+       "Smaller gradient for subendocardial flow",
+       "Shock, hypotension, aortic regurgitation, stiff hypertrophied ventricle"
+      ],
+      [
+       "Diastolic time",
+       "Less time for LV perfusion",
+       "Tachycardia from any cause, fever, hyperthyroidism, sepsis"
+      ],
+      [
+       "Coronary resistance",
+       "Flow limited once arteriolar reserve is spent",
+       "Fixed stenosis; vasospasm (Prinzmetal, cocaine, amphetamines, ergots); embolism (atrial fibrillation, mural thrombus, endocarditis vegetations, prosthetic valves); vasculitis (Kawasaki aneurysms, polyarteritis nodosa, Takayasu at the ostia)"
+      ],
+      [
+       "Oxygen content",
+       "Less oxygen per mL of flow",
+       "Severe anemia, hypoxemia, carbon monoxide poisoning"
+      ],
+      [
+       "Heart rate and contractility",
+       "More oxygen used per minute; tachycardia also shortens diastole",
+       "Sympathetic surge, tachyarrhythmia, positive inotropes"
+      ],
+      [
+       "Wall stress",
+       "More oxygen used per beat",
+       "Hypertension, aortic stenosis, dilated chamber, hypertrophy with fewer capillaries per myocyte"
+      ]
+     ],
+     "caption": "Most triggers act on several rows at once. Aortic stenosis causes angina with clean coronary arteries because high systolic pressure and hypertrophy raise demand while a long ejection time and high LV diastolic pressure cut subendocardial supply."
+    },
+    {
+     "type": "h",
+     "text": "Coronary atherosclerosis"
+    },
+    {
+     "type": "p",
+     "text": "Atherosclerosis causes more than 90% of ischemic heart disease (its formation is taught with arterial disease, CV-18-I). Endothelial dysfunction lets LDL enter the intima, where it is oxidized. Monocytes enter, become macrophages, and take up oxidized LDL through scavenger receptors, which, unlike the LDL receptor, are not downregulated by cellular cholesterol, so foam cells form. Cytokines and platelet-derived growth factor recruit smooth muscle cells that lay down a collagen cap over a lipid-rich necrotic core."
+    },
+    {
+     "type": "p",
+     "text": "A plaque harms the heart in two ways. A slowly enlarging fixed plaque limits flow reserve and causes stable angina. A vulnerable plaque, with a thin cap, a large lipid core, and many macrophages and T cells, can rupture or erode and seed a thrombus, causing an acute coronary syndrome. Macrophage matrix metalloproteinases degrade cap collagen while interferon gamma from T cells suppresses collagen synthesis by smooth muscle cells, so inflammation weakens the cap from both sides."
+    },
+    {
+     "type": "p",
+     "text": "Risk factors injure the endothelium, raise atherogenic lipoprotein, or amplify inflammation. Nonmodifiable factors are increasing age, male sex (the gap narrows after menopause), and a family history of premature disease; familial hypercholesterolemia (defective LDL receptors) shows how strongly LDL alone drives the disease. The major modifiable factors are high LDL, low HDL (which removes tissue cholesterol by reverse cholesterol transport), hypertension, smoking (oxidant injury and a prothrombotic state), and diabetes (glycation end products and dyslipidemia). Obesity, inactivity, and the metabolic syndrome act largely through these, and lipoprotein(a), chronic kidney disease, hyperhomocysteinemia, and raised C-reactive protein add risk."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-18-03-C02",
+   "obj": "CV-18-C.2",
+   "title": "Angina pectoris: stable, unstable, and Prinzmetal",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Angina pectoris is episodic chest pressure or heaviness from transient ischemia that does not kill myocytes, often radiating to the left arm, neck, or jaw. Ischemic myocytes release adenosine, bradykinin, hydrogen ions, and potassium, which stimulate visceral afferents that travel with the cardiac sympathetic nerves into roughly T1 to T5. The same dorsal horn neurons receive somatic input from the chest wall and inner arm, so the pain is referred there. Within an episode, events follow the ischemic cascade with pain last, so ischemia can be silent, especially when diabetic autonomic neuropathy damages the afferent fibers."
+    },
+    {
+     "type": "flow",
+     "title": "The ischemic cascade",
+     "steps": [
+      "Demand exceeds supply, or supply suddenly falls",
+      "Anaerobic glycolysis; lactate, hydrogen ions, and adenosine accumulate",
+      "Relaxation slows because calcium reuptake needs ATP",
+      "Regional contraction weakens",
+      "ST segment changes from injury currents",
+      "Chest pain from visceral afferent stimulation"
+     ],
+     "caption": "Rest restores balance without necrosis."
+    },
+    {
+     "type": "h",
+     "text": "Stable angina"
+    },
+    {
+     "type": "p",
+     "text": "Stable angina results from a fixed stenosis of about 70% or more. Resistance varies inversely with the fourth power of the radius (Poiseuille), so halving the radius raises segment resistance 16 fold. At rest, downstream arterioles dilate enough to keep flow normal, but this spends the reserve, so flow cannot rise with exertion and the subendocardium becomes ischemic. Pain is predictable and brief and eases with rest. Relief by nitroglycerin is a mechanistic clue: nitric oxide raises cGMP and dilates veins more than arteries, lowering ventricular volume, wall stress, and demand. Narrowing of about 90% or more can limit flow even at rest."
+    },
+    {
+     "type": "h",
+     "text": "Why the ST segment moves"
+    },
+    {
+     "type": "p",
+     "text": "During the ST segment, healthy ventricular cells sit at the same plateau voltage, so the segment is isoelectric. Ischemic cells lose potassium, depolarize partially, and have shorter, lower plateaus, creating an injury current. Subendocardial ischemia points the ST vector toward the cavity, away from surface electrodes, giving ST depression that does not localize the artery. Transmural ischemia points it toward the epicardium, giving ST elevation in the facing leads, which does localize the artery."
+    },
+    {
+     "type": "diagram",
+     "name": "ecg-waveform",
+     "caption": "The ST segment, from the end of QRS to the start of the T wave, is normally isoelectric."
+    },
+    {
+     "type": "h",
+     "text": "Unstable, Prinzmetal, and microvascular angina"
+    },
+    {
+     "type": "p",
+     "text": "Unstable angina is the mildest acute coronary syndrome. A fissured plaque with a nonocclusive platelet thrombus, sometimes with spasm from thromboxane A2 and serotonin, causes rest pain, new severe pain, or crescendo pain. Troponin stays below the upper reference limit, but the thrombus can grow and cause infarction. Prinzmetal (variant) angina is intense spasm of an epicardial artery, with or without plaque, linked to smooth muscle hyperreactivity and reduced endothelial nitric oxide. Attacks come at rest, often at night, in younger patients whose main risk factor is smoking, and can be provoked by cocaine, amphetamines, ergot alkaloids, triptans, and hyperventilation. Microvascular angina causes exertional ischemia with normal epicardial arteries."
+    },
+    {
+     "type": "table",
+     "title": "Stable, unstable, and Prinzmetal angina compared",
+     "cols": [
+      "Feature",
+      "Stable",
+      "Unstable",
+      "Prinzmetal"
+     ],
+     "rows": [
+      [
+       "Lesion",
+       "Fixed stenosis about 70% or more",
+       "Disrupted plaque, nonocclusive thrombus",
+       "Epicardial vasospasm"
+      ],
+      [
+       "Pattern",
+       "Exertional, predictable, relieved by rest",
+       "Rest, new, or crescendo pain",
+       "Spontaneous rest pain, often at night"
+      ],
+      [
+       "Layer ischemic",
+       "Subendocardial",
+       "Usually subendocardial",
+       "Transmural"
+      ],
+      [
+       "ECG during pain",
+       "ST depression",
+       "ST depression, T inversion, or normal",
+       "Transient ST elevation"
+      ],
+      [
+       "Troponin",
+       "Normal",
+       "Normal (separates it from NSTEMI)",
+       "Normal unless infarction occurs"
+      ],
+      [
+       "Main risk",
+       "Gradual progression",
+       "Infarction",
+       "Arrhythmia or infarction"
+      ]
+     ],
+     "caption": "The ischemic layer decides whether the ST segment falls or rises."
+    },
+    {
+     "type": "stop",
+     "predict": "A patient has 30 minutes of chest pain at rest with ST depression. Troponin at presentation and 3 hours later stays below the upper reference limit. Predict the diagnosis and what would make it an infarction.",
+     "explain": "Unstable angina: rest pain with ST depression means subendocardial ischemia from an active plaque, and normal serial troponin means no myocytes died. A troponin rise above the 99th percentile limit would make it an NSTEMI.",
+     "check": "The unstable angina paragraph and the comparison table."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-18-03-C03",
+   "obj": "CV-18-C.3",
+   "title": "Pathogenesis of myocardial infarction: from plaque rupture to necrosis",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Most infarctions begin with rupture of a thin, inflamed fibrous cap; fewer arise from superficial erosion over an intact plaque. Rupture clusters in the early morning and after intense exertion or emotional stress, when an adrenergic surge raises blood pressure, heart rate, and shear stress. Many culprit plaques were only mildly to moderately stenotic, so infarction is often the first sign of coronary disease."
+    },
+    {
+     "type": "flow",
+     "title": "From plaque rupture to transmural infarction",
+     "steps": [
+      "Cap ruptures, exposing collagen and a lipid core rich in tissue factor",
+      "Von Willebrand factor binds platelet glycoprotein Ib; platelets adhere",
+      "ADP and thromboxane A2 recruit platelets; IIb/IIIa binds fibrinogen",
+      "Tissue factor drives thrombin and fibrin; thrombus occludes the artery",
+      "Contraction stops within about 1 to 2 minutes",
+      "Irreversible injury after about 20 to 40 minutes, subendocardium first",
+      "Necrosis spreads toward the epicardium over about 3 to 6 hours"
+     ],
+     "caption": "Collateral flow and reperfusion can stop the wavefront before it becomes transmural."
+    },
+    {
+     "type": "h",
+     "text": "Inside the ischemic myocyte"
+    },
+    {
+     "type": "p",
+     "text": "Without oxygen, oxidative phosphorylation stops and anaerobic glycolysis yields little ATP while generating lactate and hydrogen ions. Contraction fails long before the cell dies, causing the immediate wall motion abnormality. Failure of the sodium-potassium ATPase lets sodium and water enter, so the cell swells, while potassium leaks out, and calcium accumulates as ATP-dependent pumps fail. If flow returns within roughly 20 minutes the injury is reversible, although the cells may stay stunned for hours to days."
+    },
+    {
+     "type": "p",
+     "text": "After about 20 to 40 minutes, sarcolemmal disruption and mitochondrial amorphous densities mark irreversible injury. Calcium floods in, phospholipases and proteases are activated, and troponin, the MB isoenzyme of creatine kinase (CK-MB), and myoglobin leak into blood. The subendocardium dies first and the outer layers, supported by collaterals, survive longest, so salvage is greatest in the first hours."
+    },
+    {
+     "type": "h",
+     "text": "Transmural and subendocardial infarction"
+    },
+    {
+     "type": "p",
+     "text": "A transmural infarct spans the full or nearly full wall in one artery's territory, usually from persistent complete occlusion. It produces ST elevation and later Q waves, making it the typical lesion of ST-elevation MI (STEMI), and because necrosis reaches the epicardium it can cause pericarditis and free wall rupture. A subendocardial infarct involves the inner third to half of the wall, from partial or transient occlusion or global hypoperfusion. It produces ST depression or T inversion, the typical lesion of non-ST-elevation MI (NSTEMI), and rarely ruptures. Both raise troponin, and the electrical and pathologic labels are strongly associated but not identical. In shock or profound hypoxemia, a circumferential subendocardial infarct ignores arterial territories."
+    },
+    {
+     "type": "h",
+     "text": "Reperfusion"
+    },
+    {
+     "type": "p",
+     "text": "Early reperfusion limits infarct size but changes the infarct. Reperfused infarcts are often hemorrhagic, and irreversibly injured myocytes take up a surge of calcium and hypercontract, producing contraction band necrosis with dense eosinophilic cross bands. Reactive oxygen species and calcium opening the mitochondrial permeability transition pore kill some cells that might have survived, which is reperfusion injury."
+    },
+    {
+     "type": "h",
+     "text": "Manifestations explained by mechanism"
+    },
+    {
+     "type": "p",
+     "text": "Pain lasts more than about 20 to 30 minutes and is not relieved by rest because ischemia is sustained. Diaphoresis, pallor, and tachycardia reflect a sympathetic surge. Nausea and bradycardia, especially in inferior infarction, reflect vagal reflexes from the inferior and posterior wall. Dyspnea and crackles reflect raised left atrial pressure from a stiff, weak ventricle. Low-grade fever and leukocytosis reflect the response to necrosis. Silent infarction is more common in older adults and in diabetes with autonomic neuropathy."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-18-03-C04",
+   "obj": "CV-18-C.4",
+   "title": "Localizing the infarct by ECG and interpreting cardiac biomarkers",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The left anterior descending artery (LAD) supplies the anterior LV wall, the apex, and the anterior two thirds of the septum with much of the bundle branches; the left circumflex supplies the lateral wall. The right coronary artery (RCA) supplies the right ventricle, the inferior LV wall, and usually the SA and AV nodes. The posterior descending artery arises from the RCA in about 80% (right dominance), otherwise from the circumflex. The LAD is occluded most often (about 40 to 50%), then the RCA and circumflex."
+    },
+    {
+     "type": "table",
+     "title": "Infarct location, artery, and ECG leads",
+     "cols": [
+      "Region",
+      "Usual artery",
+      "Leads with ST elevation",
+      "Associated findings"
+     ],
+     "rows": [
+      [
+       "Anterior",
+       "LAD (proximal if extensive)",
+       "V1 to V4 (also V5, V6, I, aVL if extensive)",
+       "Largest infarcts; shock, bundle branch block, apical thrombus, aneurysm"
+      ],
+      [
+       "Lateral",
+       "Left circumflex (or LAD diagonal)",
+       "I, aVL, V5, V6",
+       "Reciprocal inferior depression"
+      ],
+      [
+       "Inferior",
+       "RCA in most (circumflex if left dominant)",
+       "II, III, aVF",
+       "Bradycardia, AV block, papillary muscle rupture"
+      ],
+      [
+       "Right ventricular",
+       "Proximal RCA",
+       "V4R, with inferior changes",
+       "Hypotension, clear lungs, raised neck veins"
+      ],
+      [
+       "Posterior",
+       "RCA or circumflex",
+       "None; mirror image is ST depression and tall R in V1 to V3",
+       "With inferior or lateral infarction"
+      ]
+     ],
+     "caption": "ST elevation lead groups localize the artery."
+    },
+    {
+     "type": "p",
+     "text": "Reciprocal ST depression supports infarction over pericarditis, which elevates the ST segment diffusely without reciprocal change. Pathologic Q waves appear because dead myocardium is electrically silent, so an electrode over it records the opposite wall depolarizing away. A pathologic Q wave is commonly at least 40 ms wide or over about one quarter of the R wave height."
+    },
+    {
+     "type": "flow",
+     "title": "ECG evolution in a transmural infarction",
+     "steps": [
+      "Minutes: hyperacute peaked T waves from potassium efflux",
+      "Minutes to hours: ST elevation with reciprocal depression",
+      "Hours to days: pathologic Q waves",
+      "Days: T inversion as the ST segment returns toward baseline",
+      "Weeks onward: Q waves persist; lasting ST elevation suggests aneurysm"
+     ],
+     "caption": "Timing varies, but the order is consistent."
+    },
+    {
+     "type": "p",
+     "text": "Infarction is a rise or fall of cardiac troponin with at least one value above the assay-specific 99th percentile, plus evidence of ischemia. Cardiac isoforms of troponin I and T make them the most specific markers. A small cytosolic pool leaks early and a large myofilament-bound pool is released slowly, explaining long persistence, whereas CK-MB is cytosolic and clears quickly. Myocarditis, pulmonary embolism, sepsis, heart failure, tachyarrhythmia, contusion, and chronic kidney disease also raise troponin, so infarction requires a rise and fall with ischemia."
+    },
+    {
+     "type": "table",
+     "title": "Cardiac biomarkers after myocardial infarction",
+     "cols": [
+      "Marker",
+      "First rise",
+      "Peak",
+      "Normal again",
+      "Use"
+     ],
+     "rows": [
+      [
+       "Troponin I or T",
+       "About 3 to 4 h (earlier with high-sensitivity assays)",
+       "About 24 to 48 h",
+       "About 7 to 10 days (troponin T up to about 14)",
+       "Most specific; too persistent to show early reinfarction"
+      ],
+      [
+       "CK-MB",
+       "About 3 to 6 h",
+       "About 24 h (up to 48 h in some sources)",
+       "About 48 to 72 h",
+       "Less specific; a new rise suggests reinfarction"
+      ],
+      [
+       "Myoglobin",
+       "About 1 to 3 h",
+       "About 6 to 12 h",
+       "About 24 h",
+       "Earliest but nonspecific"
+      ]
+     ],
+     "caption": "Approximate values; the order of rise and clearance is what boards test."
+    },
+    {
+     "type": "example",
+     "title": "Recurrent chest pain on day 4",
+     "text": "On day 4 after an anterior STEMI, chest pain recurs. Troponin is still high from the first infarct, so one value cannot show new necrosis. CK-MB normalized by about 48 to 72 hours, so a new CK-MB rise points to reinfarction. If CK-MB is normal and the pain is pleuritic and positional, fibrinous pericarditis is more likely."
+    },
+    {
+     "type": "stop",
+     "predict": "ST elevation in II, III, and aVF with reciprocal depression, a heart rate of 42 beats/min, and hypotension with clear lungs. Which artery is occluded, and why the slow rate and clear lungs?",
+     "explain": "The RCA. It usually supplies the SA and AV nodes, and inferior infarction triggers vagal reflexes. A proximal occlusion also infarcts the right ventricle, which cannot fill the left heart, so pressure falls while the lungs stay clear.",
+     "check": "The territory table."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-18-03-C05",
+   "obj": "CV-18-C.5",
+   "title": "The morphologic timeline of infarction and healing",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "An infarct heals by the sequence that follows acute injury in a tissue that cannot regenerate: coagulative necrosis, neutrophils, macrophage clearance, granulation tissue, and a collagen scar. Adult myocytes have very little capacity to divide, so dead muscle is replaced by scar. Ischemia and acidosis denature structural proteins and lytic enzymes alike, so dead myocytes keep their outlines for several days while nuclei fade and cytoplasm becomes more eosinophilic. Healing advances from the viable margins inward, so a large infarct heals more slowly and its center lags behind its edges."
+    },
+    {
+     "type": "p",
+     "text": "Several early details are tested often. Wavy fibers appear at the border within hours because contracting living fibers stretch the noncontracting dead ones. Triphenyltetrazolium chloride stains viable muscle brick red through dehydrogenase activity, so an infarct appears as a pale unstained zone after about 2 to 3 hours, before light microscopy shows necrosis. Contraction bands appear at the margins in the first day and throughout reperfused infarcts. Neutrophils arrive near the end of day 1, drawn by chemokines and complement fragments."
+    },
+    {
+     "type": "table",
+     "title": "Morphologic timeline of a myocardial infarct",
+     "cols": [
+      "Time",
+      "Gross",
+      "Light microscopy",
+      "Linked complication"
+     ],
+     "rows": [
+      [
+       "0 to 30 min",
+       "None",
+       "None (reversible changes by electron microscopy)",
+       "Arrhythmia"
+      ],
+      [
+       "30 min to 4 h",
+       "None; pale on tetrazolium stain after about 2 to 3 h",
+       "Usually none; wavy fibers at the border",
+       "Ventricular fibrillation, sudden death"
+      ],
+      [
+       "4 to 24 h",
+       "Occasional dark mottling",
+       "Early coagulative necrosis, edema, hemorrhage, contraction bands, early neutrophils",
+       "Arrhythmia, LV failure, cardiogenic shock"
+      ],
+      [
+       "1 to 3 days",
+       "Mottling, yellow-tan center",
+       "Complete coagulative necrosis, loss of nuclei, brisk neutrophils",
+       "Fibrinous pericarditis"
+      ],
+      [
+       "3 to 7 days",
+       "Hyperemic border, central softening",
+       "Disintegrating myocytes, macrophages at the border",
+       "Free wall, septal, or papillary muscle rupture"
+      ],
+      [
+       "7 to 10 days",
+       "Softest and most yellow, red-tan margins",
+       "Phagocytosis, early granulation tissue at margins",
+       "Rupture risk persists"
+      ],
+      [
+       "10 to 14 days",
+       "Red-gray depressed borders",
+       "Established granulation tissue, new vessels, collagen",
+       "Rupture less likely"
+      ],
+      [
+       "2 to 8 weeks",
+       "Gray-white scar from border inward",
+       "Increasing collagen, decreasing cellularity",
+       "Aneurysm, mural thrombus, Dressler syndrome"
+      ],
+      [
+       "Over 2 months",
+       "Firm white scar",
+       "Dense collagen",
+       "Heart failure, scar-related ventricular tachycardia"
+      ]
+     ],
+     "caption": "Ranges overlap and are approximate; the sequence of necrosis, neutrophils, macrophages, granulation tissue, and scar is constant."
+    },
+    {
+     "type": "p",
+     "text": "Because each stage depends on the one before, the appearance of an infarct dates it, and the strength of the wall at each stage predicts its complications. The wall is weakest after macrophages have removed dead muscle and before collagen has formed, about days 3 to 10, which is the window for rupture. By about 2 months a typical infarct is dense collagen that is strong but cannot contract."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-18-03-C06",
+   "obj": "CV-18-C.6",
+   "title": "Complications of myocardial infarction predicted by timing",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Complications follow from where the infarct is, how much muscle is lost, and how far healing has progressed (see the timeline in the previous section)."
+    },
+    {
+     "type": "h",
+     "text": "First hours to days: arrhythmia and pump failure"
+    },
+    {
+     "type": "p",
+     "text": "Ventricular fibrillation is the main cause of death in the first hours. Ischemic myocytes have a less negative resting potential, slow conduction, and altered refractoriness, so a wavefront can block in one direction and re-enter tissue it has passed, the substrate for reentrant tachycardia and fibrillation; automaticity, triggered activity, local hyperkalemia, and catecholamines add to the instability. Inferior infarcts cause sinus bradycardia and AV block through RCA supply of the nodes and vagal reflexes. Bundle branch block from an anterior septal infarct is more ominous because it reflects extensive necrosis below the AV node."
+    },
+    {
+     "type": "p",
+     "text": "Lost muscle lowers stroke volume and a stiff ventricle raises filling pressure, causing pulmonary congestion; loss of about 40% or more of the LV causes cardiogenic shock. Right ventricular infarction from proximal RCA occlusion causes hypotension, distended neck veins, and clear lungs because the right ventricle cannot deliver blood to the left heart."
+    },
+    {
+     "type": "cycle",
+     "title": "Vicious cycle of cardiogenic shock after large infarction",
+     "steps": [
+      "Loss of about 40% or more of LV muscle",
+      "Stroke volume and cardiac output fall",
+      "Aortic pressure falls; LV diastolic pressure rises",
+      "Coronary perfusion pressure falls",
+      "Ischemia extends into surviving muscle",
+      "Contractility falls further"
+     ],
+     "caption": "Each turn removes more working muscle."
+    },
+    {
+     "type": "h",
+     "text": "Pericarditis, rupture, and thrombus"
+    },
+    {
+     "type": "p",
+     "text": "Over a transmural infarct, a fibrinous or fibrinohemorrhagic pericarditis forms within about 1 to 3 days, with pleuritic positional pain and a friction rub. Rupture occurs mostly at about 3 to 7 days, from day 1 to about 2 weeks or later, when macrophages have removed muscle and collagen has not yet formed. The posteromedial papillary muscle ruptures more often because it usually depends on the posterior descending artery alone, whereas the anterolateral muscle receives both LAD and circumflex branches. Rupture of a whole trunk is often rapidly fatal, and ischemia without rupture causes milder regurgitation. Over a large anterior apical infarct, infarct expansion, stasis, and endocardial injury (Virchow triad) favor a mural thrombus that can embolize to the brain, kidneys, spleen, or limbs."
+    },
+    {
+     "type": "table",
+     "title": "Mechanical complications of infarction",
+     "cols": [
+      "Complication",
+      "Typical infarct and timing",
+      "Mechanism",
+      "Findings"
+     ],
+     "rows": [
+      [
+       "Free wall rupture",
+       "Transmural, often anterolateral, classically a first infarct without hypertrophy or collaterals",
+       "Blood enters the pericardial sac",
+       "Tamponade (hypotension, distended neck veins, muffled heart sounds), pulseless electrical activity, sudden death"
+      ],
+      [
+       "Septal rupture",
+       "Anterior (apical septum) or inferior (basal septum)",
+       "Left-to-right shunt",
+       "New holosystolic murmur at left lower sternal border; oxygen step-up in the right ventricle"
+      ],
+      [
+       "Papillary muscle rupture",
+       "Inferior, posteromedial muscle",
+       "Acute severe mitral regurgitation",
+       "Sudden pulmonary edema and hypotension; apical murmur that may be soft as pressures equalize"
+      ],
+      [
+       "Pseudoaneurysm",
+       "Contained free wall rupture",
+       "Wall is pericardium and thrombus",
+       "Narrow neck; high risk of later rupture"
+      ],
+      [
+       "True aneurysm",
+       "Large anterior apical transmural scar; weeks to months",
+       "Thin scar bulges in systole (dyskinesis)",
+       "Wide neck, rarely ruptures; heart failure, thrombus, ventricular tachycardia, persistent ST elevation"
+      ]
+     ],
+     "caption": "The site that tears decides between tamponade, a shunt, and acute mitral regurgitation."
+    },
+    {
+     "type": "h",
+     "text": "Weeks later: Dressler syndrome"
+    },
+    {
+     "type": "p",
+     "text": "Dressler syndrome (post-myocardial infarction syndrome) is pericarditis several weeks after infarction, often with fever, pleuritis, and effusion. Necrosis exposes sequestered myocardial antigens, and antibodies and immune complexes inflame the pericardium. The delay fits an adaptive immune response, which separates it from the direct fibrinous pericarditis of days 1 to 3."
+    },
+    {
+     "type": "stop",
+     "predict": "Five days after an inferior infarct, a patient abruptly develops severe dyspnea, bilateral crackles, and hypotension. Predict the structural cause and why it appears on day 5.",
+     "explain": "Posteromedial papillary muscle rupture with acute mitral regurgitation. The muscle depends on the posterior descending artery, usually from the RCA, so it infarcts with the inferior wall, and on day 5 dead muscle has been removed before collagen forms.",
+     "check": "The mechanical complications table and the papillary muscle blood supply."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-18-03-C07",
+   "obj": "CV-18-C.7",
+   "title": "Chronic ischemic heart disease (ischemic cardiomyopathy)",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Chronic ischemic heart disease, also called ischemic cardiomyopathy, is progressive heart failure from ischemic myocardial damage. Usually it is the late result of one or more healed infarcts, sometimes silent, plus ongoing ischemia from diffuse atherosclerosis; less often it develops without a recognized infarct. It is one of the most common causes of heart failure with reduced ejection fraction."
+    },
+    {
+     "type": "p",
+     "text": "The heart is enlarged and heavy, with a dilated, hypertrophied left ventricle, gray-white scars in coronary territories, moderate to severe coronary atherosclerosis, and sometimes patchy endocardial fibrosis and mural thrombi. Microscopy shows hypertrophied surviving myocytes, subendocardial myocyte vacuolization (a sign of chronic sublethal ischemia), and interstitial and replacement fibrosis. Regional scars matching coronary territories separate it from other dilated cardiomyopathies, where fibrosis is diffuse and coronary arteries are usually normal."
+    },
+    {
+     "type": "h",
+     "text": "Remodeling"
+    },
+    {
+     "type": "p",
+     "text": "Scar cannot contract, so surviving muscle carries the whole load. Wall stress and neurohormonal activation (sympathetic and renin-angiotensin-aldosterone, RAAS, with angiotensin II and aldosterone promoting fibrosis) drive remodeling: myocytes add sarcomeres in series (eccentric hypertrophy), the chamber enlarges and becomes more spherical, and myocytes continue to die by apoptosis and ischemia. A larger radius raises wall stress at any pressure, so dilation increases demand in a heart with limited supply."
+    },
+    {
+     "type": "cycle",
+     "title": "Remodeling cycle in chronic ischemic heart disease",
+     "steps": [
+      "Infarction and ongoing ischemia reduce contracting muscle",
+      "Stroke volume falls; sympathetic and RAAS activation",
+      "Volume retention and eccentric hypertrophy dilate the LV",
+      "Larger radius raises wall stress and oxygen demand",
+      "Subendocardial ischemia, fibrosis, and myocyte loss worsen",
+      "Contractile function declines further"
+     ],
+     "caption": "Dilation begins as compensation but perpetuates itself by raising the oxygen cost of each beat."
+    },
+    {
+     "type": "example",
+     "title": "The cost of dilation by the law of Laplace",
+     "text": "Wall stress in a roughly spherical ventricle is proportional to pressure times radius divided by twice the wall thickness. Compare a ventricle generating 120 mmHg with a 2.5 cm radius and a 1.0 cm wall to a remodeled one generating 120 mmHg with a 3.5 cm radius and an average wall thinned to 0.8 cm by dilation and scarring. The ratio is (120 x 3.5 / 0.8) divided by (120 x 2.5 / 1.0), or 525 divided by 300, about 1.75. The dilated wall bears about 75% more stress for the same pressure, so it uses more oxygen. Hypertrophy partly offsets this, but adds muscle the narrowed arteries cannot supply."
+    },
+    {
+     "type": "h",
+     "text": "Recoverable myocardium, valves, and rhythm"
+    },
+    {
+     "type": "p",
+     "text": "Not all poorly contracting muscle is dead. Hibernating myocardium reduces contraction to match chronically reduced flow and can recover if flow is restored; repeated stunning may also contribute. Scar is permanent. Dilation pulls the papillary muscles apart and enlarges the mitral annulus, causing functional (secondary) mitral regurgitation, which adds volume load. Fibrosis and hypertrophy stiffen the ventricle and raise filling pressures, and left atrial enlargement predisposes to atrial fibrillation and atrial thrombus."
+    },
+    {
+     "type": "p",
+     "text": "At scar borders, surviving myocyte strands interwoven with collagen conduct slowly, creating fixed reentry circuits for monomorphic ventricular tachycardia that can degenerate into fibrillation. Ischemic heart disease is the most common cause of sudden cardiac death in adults, from a new ischemic event or from an old scar. Patients present with exertional dyspnea, fatigue, orthopnea, and edema; findings include a displaced apical impulse, a third heart sound from rapid filling of a dilated ventricle, an apical murmur of functional mitral regurgitation, and Q waves from old infarcts."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Ischemic heart disease shows how Part I disciplines combine in one patient. Anatomy explains why an inferior infarct involves the AV node, why the posteromedial papillary muscle ruptures, and why LAD infarcts are largest. Physiology explains supply and demand: high resting oxygen extraction, diastolic perfusion, subendocardial compression, and the law of Laplace. Biochemistry explains LDL uptake by scavenger receptors, the path from ATP depletion to calcium overload and necrosis, and troponin's two intracellular pools. Immunology and inflammation run throughout: macrophages and T cells weaken the plaque cap, healing follows neutrophils, macrophages, and fibroblasts, Dressler syndrome is a delayed autoimmune reaction, and Kawasaki disease, a childhood vasculitis of unknown cause, can leave coronary aneurysms. Microbiology contributes embolic infarction from endocarditis vegetations."
+  },
+  {
+   "type": "p",
+   "text": "Pathology ties these together by timing, because necrosis, inflammation, clearance, and repair proceed in a fixed order. The numbers in this chapter (the 70% stenosis threshold, the 20 to 40 minute window, healing day ranges, and biomarker kinetics) are consensus approximations that vary between sources, assays, and patients, and the STEMI with transmural and NSTEMI with subendocardial pairings are associations rather than identities. Board questions reward knowing the order of events and the mechanism behind each."
+  }
+ ],
+ "summary": [
+  "Ischemic heart disease is a mismatch between myocardial oxygen supply and demand; coronary atherosclerosis causes more than 90% of cases.",
+  "The heart extracts most coronary oxygen at rest, so it meets higher demand only by arteriolar dilation; the subendocardium, compressed in systole and perfused last, is most vulnerable.",
+  "Stable angina comes from a fixed stenosis of about 70% or more that exhausts flow reserve with exertion, causing subendocardial ischemia and ST depression.",
+  "Unstable angina is rest or crescendo pain from a disrupted plaque with a nonocclusive thrombus and normal troponin; Prinzmetal angina is transmural vasospasm with transient ST elevation.",
+  "Infarction follows plaque rupture and an occlusive platelet and fibrin thrombus; contraction stops within about 1 to 2 minutes and irreversible injury begins after about 20 to 40 minutes.",
+  "Necrosis spreads from subendocardium to epicardium over about 3 to 6 hours; transmural infarcts usually present as STEMI and subendocardial infarcts as NSTEMI.",
+  "ST elevation localizes the artery: LAD in V1 to V4, left circumflex in I, aVL, V5, V6, and RCA in II, III, aVF.",
+  "Troponin is the most specific marker and stays high about 7 to 10 days; CK-MB normalizes in about 2 to 3 days, so a new CK-MB rise suggests reinfarction.",
+  "Healing runs from coagulative necrosis to neutrophils (1 to 3 days), macrophages (3 to 7 days), granulation tissue, and scar by about 2 months, and complications follow: arrhythmia early, pericarditis at 1 to 3 days, rupture at 3 to 7 days, aneurysm and Dressler syndrome weeks later.",
+  "Chronic ischemic heart disease combines healed scars, hypertrophy, and LV dilation, leading to progressive heart failure, scar-related ventricular arrhythmia, and sudden cardiac death."
+ ],
+ "sources": [
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "The Heart: ischemic heart disease (angina pectoris, myocardial infarction, chronic ischemic heart disease, sudden cardiac death)"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Blood Vessels: atherosclerosis"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Muscle Blood Flow and Cardiac Output During Exercise; the Coronary Circulation and Ischemic Heart Disease"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Cardiovascular Disorders: Heart Disease (coronary artery disease and myocardial infarction)"
+  },
+  {
+   "book": "Boron and Boulpaep Medical Physiology",
+   "where": "Coronary circulation and myocardial oxygen consumption (section on special circulations)"
+  },
+  {
+   "book": "Lippincott Illustrated Reviews: Biochemistry",
+   "where": "Cholesterol, lipoprotein, and steroid metabolism"
+  }
+ ],
+ "verify": [
+  "Numeric thresholds and ranges vary between references: the 70% (some editions 75%) stenosis threshold for exertional angina, about 90% for rest ischemia, the 20 to 40 minute window for irreversible injury, and the 3 to 6 hour completion of the necrotic wavefront.",
+  "Biomarker kinetics differ by assay and source. Troponin first rise (2 to 4 or 3 to 4 hours with conventional assays, earlier with high-sensitivity assays), CK-MB rise (3 to 6 hours in some sources, 2 to 4 in others), and troponin T persistence up to about 14 days should be checked against the values NABNE expects.",
+  "Confirm whether current NABNE items still test CK-MB for reinfarction and whether unstable angina is presented with the classic no-troponin definition, since high-sensitivity troponin assays reclassify many former unstable angina cases as NSTEMI.",
+  "Pathologic Q wave criteria (at least 40 ms wide or deeper than about one quarter of the R wave) vary by guideline; confirm the definition NABNE uses.",
+  "The timing of Dressler syndrome is given as several weeks after infarction; sources range from about 1 to 2 weeks up to a few months, and the syndrome has become uncommon in the reperfusion era.",
+  "Frequencies of artery involvement (LAD about 40 to 50%, RCA about 30 to 40%, circumflex about 15 to 20%) and right dominance (about 80%) are Robbins consensus values; other texts give slightly different figures.",
+  "Diagram request: a coronary-territories schematic (LAD, left circumflex, RCA, posterior descending artery, with the walls and ECG lead groups each supplies) would strengthen section C04 and is not on the current diagram list.",
+  "CK-MB peak timing is given as about 24 hours; Robbins gives a peak at about 24 to 48 hours and other sources about 16 to 24 hours. Confirm the value NABNE expects.",
+  "Time to loss of contraction after coronary occlusion is given as about 1 to 2 minutes (Robbins: less than 2 minutes); some sources say within about 60 seconds."
+ ]
+}

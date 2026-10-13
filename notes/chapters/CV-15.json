@@ -1,0 +1,683 @@
+{
+ "unit": "CV-15",
+ "chapter_id": "NPLEX-P1-CARD-15",
+ "topic_id": "NPLEX-P1-CARD-15-01",
+ "title": "Heart and Lung Interactions",
+ "subject": "Cardiovascular System (CARD)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "The heart and lungs work as one circuit inside the thorax. This chapter covers the low-pressure, low-resistance pulmonary bed and why its resistance falls as flow rises, the opposite responses of pulmonary and systemic vessels to hypoxia, the effect of breathing on venous return and ventricular filling, how left heart disease floods the lung and lung disease loads the right heart, how gravity distributes blood and air, and how shunts and the pulmonary endothelium fit in. Most board questions here are solved with four tools: Ohm's law applied to the pulmonary bed, Starling forces across the pulmonary capillary, intrathoracic pressure acting on the cardiac chambers, and the shape of the oxyhemoglobin dissociation curve.",
+  "prerequisites": [
+   "Pressure, flow, and resistance (Ohm's law and Poiseuille's law) and the series arrangement of the circulation (CV-11)",
+   "Starling forces across the capillary wall and the role of lymphatics (CV-10, CV-11)",
+   "Cardiac cycle, heart sounds, and the Frank-Starling relationship (CV-4, CV-6)",
+   "Pleural pressure, lung compliance, and functional residual capacity (FRC)",
+   "The oxyhemoglobin dissociation curve and oxygen content of blood"
+  ],
+  "connections": [
+   {
+    "to": "Hemodynamics and blood flow regulation (CV-11)",
+    "how": "The pulmonary bed obeys the same pressure, flow, and resistance relationships as the systemic bed, but its local response to hypoxia is reversed."
+   },
+   {
+    "to": "Cardiovascular embryology (CV-1) and congenital heart conditions (CV-18-G)",
+    "how": "Hypoxic pulmonary vasoconstriction keeps fetal pulmonary resistance high until birth, and a left-to-right shunt that remodels the pulmonary bed can later reverse."
+   },
+   {
+    "to": "Congestive heart failure (CV-18-B) and valvular heart diseases (CV-18-D)",
+    "how": "Left ventricular failure and mitral stenosis raise pulmonary capillary pressure and produce pulmonary edema, the main cause of dyspnea in left heart disease."
+   },
+   {
+    "to": "Pericardial disease (CV-18-F)",
+    "how": "Cardiac tamponade exaggerates the normal inspiratory interaction between the ventricles and produces pulsus paradoxus."
+   },
+   {
+    "to": "Respiratory physiology and the renin-angiotensin system",
+    "how": "Ventilation-perfusion matching and shunt explain the blood gases in lung disease, and pulmonary endothelial ACE makes angiotensin II and degrades bradykinin."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Pulmonary vascular resistance (PVR)",
+    "def": "Mean pulmonary artery pressure minus left atrial pressure, divided by cardiac output."
+   },
+   {
+    "term": "Recruitment and distension",
+    "def": "Opening of closed pulmonary capillaries and widening of open ones, the two passive ways PVR falls as flow rises."
+   },
+   {
+    "term": "Alveolar and extra-alveolar vessels",
+    "def": "Capillaries in the alveolar walls, compressed at high lung volume, and larger vessels in the parenchyma, pulled open at high lung volume."
+   },
+   {
+    "term": "Hypoxic pulmonary vasoconstriction (HPV)",
+    "def": "Constriction of small pulmonary arteries and arterioles in response to low alveolar PO2, which diverts blood toward better ventilated lung."
+   },
+   {
+    "term": "Pulmonary hypertension",
+    "def": "A sustained mean pulmonary artery pressure above about 20 mmHg at rest."
+   },
+   {
+    "term": "Ventricular interdependence",
+    "def": "The influence of one ventricle's volume on the filling of the other through the shared septum and the limited space of the pericardium."
+   },
+   {
+    "term": "Pulsus paradoxus",
+    "def": "An inspiratory fall in systolic arterial pressure greater than 10 mmHg, an exaggeration of the normal small inspiratory dip."
+   },
+   {
+    "term": "Pulmonary capillary wedge pressure (PCWP)",
+    "def": "Pressure measured through a catheter wedged in a small pulmonary artery branch, which reflects left atrial pressure."
+   },
+   {
+    "term": "Cor pulmonale",
+    "def": "Right ventricular hypertrophy, dilation, or failure caused by pulmonary hypertension from lung, pulmonary vascular, or ventilatory disease rather than left heart disease."
+   },
+   {
+    "term": "Ventilation-perfusion ratio (V/Q)",
+    "def": "The ratio of alveolar ventilation to capillary blood flow in a lung unit, which sets that unit's alveolar PO2 and PCO2."
+   },
+   {
+    "term": "Shunt",
+    "def": "Blood that reaches the systemic arteries without passing through ventilated alveoli (V/Q of zero)."
+   },
+   {
+    "term": "Angiotensin-converting enzyme (ACE)",
+    "def": "An endothelial peptidase, abundant in the pulmonary capillaries, that converts angiotensin I to angiotensin II and inactivates bradykinin (also called kininase II)."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-CARD-15-01-C01",
+   "obj": "CV-15.1",
+   "title": "Pressure and resistance in the pulmonary and systemic circuits",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The pulmonary and systemic circulations are in series, so both ventricles eject about 5 L/min at rest, and any difference in pressure between the beds reflects a difference in resistance. Pulmonary artery walls are about one third as thick as the aorta's, and pulmonary arterioles have little smooth muscle, whereas systemic arterioles are the main resistance vessels of the body. The pulmonary circuit holds about 450 mL of blood and is highly compliant. Bronchial arteries from the aorta separately supply the airways at systemic pressure with about 1 to 2% of cardiac output."
+    },
+    {
+     "type": "table",
+     "title": "Typical resting pressures and resistance in the two circuits",
+     "cols": [
+      "Measurement",
+      "Pulmonary circuit",
+      "Systemic circuit"
+     ],
+     "rows": [
+      [
+       "Arterial pressure (mean)",
+       "About 25/8 mmHg (mean about 15)",
+       "About 120/80 mmHg (mean about 93)"
+      ],
+      [
+       "Receiving atrium",
+       "Left atrium about 5 mmHg",
+       "Right atrium about 2 mmHg"
+      ],
+      [
+       "Capillary hydrostatic pressure",
+       "About 7 mmHg (some sources about 10)",
+       "About 17 mmHg"
+      ],
+      [
+       "Resistance at 5 L/min",
+       "About 2 Wood units",
+       "About 18 Wood units"
+      ],
+      [
+       "Main resistance site",
+       "Spread across arteries, capillaries, and veins",
+       "Arterioles"
+      ]
+     ],
+     "caption": "With equal flow, a ninefold smaller pressure drop means a ninefold smaller resistance. A Wood unit is 1 mmHg per L/min."
+    },
+    {
+     "type": "p",
+     "text": "Low pressure has two consequences. The thin right ventricle tolerates a sudden rise in afterload poorly (section C04), and a capillary pressure far below the plasma oncotic pressure of about 28 mmHg keeps the alveoli dry. Pulmonary hypertension is now defined as a mean pulmonary artery pressure above about 20 mmHg at rest, against a normal mean of about 15 mmHg."
+    },
+    {
+     "type": "h",
+     "text": "Why pulmonary resistance falls as flow rises"
+    },
+    {
+     "type": "p",
+     "text": "With so little muscle, pulmonary vessel caliber is set mainly by the pressures inside and around the vessels. A small rise in pulmonary artery pressure opens capillaries that were closed or unperfused at rest, mostly in the upper lung (recruitment), which adds parallel channels. It also widens capillaries that are already open (distension), and because resistance varies inversely with the fourth power of the radius, modest widening lowers resistance greatly. Recruitment dominates at low pressure and distension at higher pressure. This spares the right ventricle, limits filtration, and enlarges the gas exchange surface; capillary transit falls from about 0.8 s to about 0.3 s, still enough for oxygen to equilibrate."
+    },
+    {
+     "type": "example",
+     "title": "Calculating PVR at rest and in exercise",
+     "text": "At rest, mean pulmonary artery pressure is about 15 mmHg and left atrial pressure about 5 mmHg, so PVR is (15 minus 5) divided by 5 L/min, or 2 Wood units. In heavy exercise, using illustrative values, cardiac output is 15 L/min, mean pulmonary artery pressure about 22 mmHg, and left atrial pressure about 10 mmHg. PVR is (22 minus 10) divided by 15, or 0.8 Wood units. Flow tripled because resistance fell by more than half; had PVR stayed at 2 Wood units, mean pulmonary artery pressure would have neared 40 mmHg."
+    },
+    {
+     "type": "p",
+     "text": "Lung volume acts on two classes of vessel in opposite directions. Alveolar vessels, the capillaries in the alveolar walls, are stretched and compressed as alveoli expand, so their resistance rises at high lung volume, as in hyperinflation or high positive end-expiratory pressure. Extra-alveolar vessels in the parenchyma are pulled open by radial traction and more negative pleural pressure as the lung expands, and they narrow at low volume, as in atelectasis. Total PVR is therefore lowest near FRC and rises at both extremes."
+    },
+    {
+     "type": "p",
+     "text": "Recruitment and distension are a reserve that disease uses up. When vascular bed is lost to emphysema, emboli, or arterial remodeling, the remaining vessels are already recruited at rest and further flow raises pressure steeply. Pulmonary vascular disease therefore often appears first as pulmonary hypertension and dyspnea during exercise, whereas removal of one healthy lung causes little rise in resting pressure."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-15-01-C02",
+   "obj": "CV-15.2",
+   "title": "Hypoxic pulmonary vasoconstriction and hypoxic pulmonary hypertension",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Blood sent to an unventilated alveolus is wasted, so pulmonary arterioles, unlike systemic ones, constrict when the alveoli they supply become hypoxic. This hypoxic pulmonary vasoconstriction (HPV) is the main local control of pulmonary flow and of V/Q matching. The stimulus is mainly alveolar PO2, which diffuses directly to the small muscular arteries; the response becomes strong below about 70 mmHg and persists in an isolated, denervated lung."
+    },
+    {
+     "type": "h",
+     "text": "Opposite ion channel events in the two beds"
+    },
+    {
+     "type": "p",
+     "text": "In pulmonary artery smooth muscle, hypoxia inhibits the voltage-gated K+ channels (Kv1.5 and Kv2.1) that hold the resting potential negative. The membrane depolarizes, L-type Ca2+ channels open, and Ca2+ entry plus sarcoplasmic reticulum release activates calmodulin and myosin light chain kinase. Rho-kinase inhibits myosin light chain phosphatase and raises Ca2+ sensitivity, and less endothelial nitric oxide and more endothelin-1 add to the constriction. The upstream oxygen sensor is debated; the leading proposal is a change in mitochondrial reactive oxygen species and redox state. Hypoxic systemic arterioles do the reverse: adenosine acts on A2 receptors, falling ATP opens ATP-sensitive K+ (KATP) channels and hyperpolarizes the muscle, and lactate, H+, CO2, nitric oxide, and prostacyclin add to dilation."
+    },
+    {
+     "type": "flow",
+     "title": "Hypoxic pulmonary vasoconstriction",
+     "steps": [
+      "Regional alveolar PO2 falls below about 70 mmHg",
+      "Kv channels in pulmonary artery smooth muscle are inhibited",
+      "Membrane depolarizes and L-type Ca2+ channels open",
+      "Ca2+ and Rho-kinase drive contraction",
+      "Small arteries and arterioles of that region constrict",
+      "Blood is diverted to ventilated lung, preserving V/Q matching"
+     ],
+     "caption": "Low alveolar oxygen is linked to contraction through K+ channel inhibition and Ca2+ entry."
+    },
+    {
+     "type": "table",
+     "title": "Pulmonary versus systemic arteriolar responses",
+     "cols": [
+      "Feature",
+      "Pulmonary arterioles",
+      "Systemic arterioles"
+     ],
+     "rows": [
+      [
+       "Response to local hypoxia",
+       "Constriction",
+       "Dilation"
+      ],
+      [
+       "Key ion channel event",
+       "Kv channels close, membrane depolarizes",
+       "KATP channels open, membrane hyperpolarizes"
+      ],
+      [
+       "Purpose",
+       "Send blood to ventilated alveoli",
+       "Send blood to tissue that needs oxygen"
+      ],
+      [
+       "Response to acidosis and high CO2",
+       "Constriction (strengthens HPV)",
+       "Dilation"
+      ],
+      [
+       "Result of global hypoxia",
+       "Pulmonary hypertension",
+       "Vasodilation, offset by reflex sympathetic tone"
+      ]
+     ],
+     "caption": "The lung loads oxygen and systemic tissues consume it, so the two beds respond in opposite directions."
+    },
+    {
+     "type": "h",
+     "text": "Regional hypoxia helps; global hypoxia harms"
+    },
+    {
+     "type": "p",
+     "text": "When hypoxia is regional, as in lobar pneumonia or atelectasis, HPV diverts blood to healthy lung and limits the shunt, and mean pulmonary artery pressure barely changes because the rest of the bed recruits. In the fetus, HPV in the fluid-filled lung keeps PVR high and sends right ventricular output through the ductus arteriosus. At birth, lung expansion, rising alveolar PO2, and nitric oxide lower PVR sharply; failure of this fall is persistent pulmonary hypertension of the newborn."
+    },
+    {
+     "type": "p",
+     "text": "When hypoxia is global (high altitude, COPD, chronic hypoventilation, advanced interstitial disease), every region constricts at once, PVR rises, and nothing is gained in matching. Hypercapnia and acidosis strengthen the constriction. Uneven HPV on rapid ascent overperfuses less constricted regions at high pressure, the accepted explanation for high-altitude pulmonary edema."
+    },
+    {
+     "type": "p",
+     "text": "Sustained hypoxia also remodels the vessels. Stabilized hypoxia-inducible factors (HIF-1 alpha and HIF-2 alpha) drive medial hypertrophy, muscularization of arterioles that normally lack muscle, and intimal and adventitial fibrosis, adding a fixed component to the reversible constriction. HIF also raises erythropoietin, and the resulting polycythemia raises viscosity and resistance. In COPD, emphysematous loss of capillary bed adds to this, and the mild to moderate pulmonary hypertension leads over years to chronic cor pulmonale (section C04)."
+    },
+    {
+     "type": "stop",
+     "predict": "A patient with COPD develops right lower lobe pneumonia. Another person climbs rapidly to 4,000 m. In which does HPV mainly protect arterial PO2, and in which does it mainly raise pulmonary artery pressure?",
+     "explain": "In pneumonia the hypoxia is regional, so HPV diverts flow to ventilated lung and limits the shunt. At altitude it is global, so every region constricts and PVR rises with no gain in matching.",
+     "check": "Compare with the paragraphs on regional and global hypoxia."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-15-01-C03",
+   "obj": "CV-15.3",
+   "title": "Breathing, venous return, and ventricular filling",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The heart and great veins lie within the pleural (intrathoracic) pressure. A chamber fills according to its transmural pressure, inside minus outside, so a change in pleural pressure changes the filling pressure of every chamber at once. In quiet breathing, pleural pressure is about -5 cmH2O at FRC and about -7.5 cmH2O at end inspiration."
+    },
+    {
+     "type": "p",
+     "text": "Venous return is driven by mean systemic filling pressure (about 7 mmHg) minus right atrial pressure. Spontaneous inspiration lowers right atrial pressure relative to the extrathoracic veins, and the descending diaphragm raises abdominal pressure and pushes blood toward the thorax. Right ventricular filling and stroke volume rise within the same breath. Left ventricular stroke volume falls slightly for three reasons: the expanded pulmonary vessels hold more blood, the fuller right ventricle bows the septum to the left (ventricular interdependence), and the more negative pleural pressure slightly raises left ventricular afterload. The extra right output reaches the left heart a few beats later, in early expiration. The normal inspiratory fall in systolic pressure is less than 10 mmHg."
+    },
+    {
+     "type": "flow",
+     "title": "Inspiration, ventricular output, and S2",
+     "steps": [
+      "Pleural pressure falls",
+      "Venous return and right ventricular stroke volume rise",
+      "Right ventricular ejection lasts longer, delaying P2",
+      "Pulmonary vessels hold more blood; septum bows left",
+      "Left stroke volume falls slightly, so A2 comes slightly earlier",
+      "S2 splits; systolic pressure dips less than 10 mmHg"
+     ],
+     "caption": "One fall in pleural pressure explains physiologic splitting of S2 and the small inspiratory dip in arterial pressure. Expiration reverses each step."
+    },
+    {
+     "type": "p",
+     "text": "P2 is delayed both by the longer right ventricular ejection and by the low impedance of the expanded pulmonary vessels, which lets blood keep moving forward after right ventricular pressure starts to fall. The split is best heard at the left upper sternal border, because P2 is soft. Abnormal splitting follows the same timing logic."
+    },
+    {
+     "type": "table",
+     "title": "Splitting of S2",
+     "cols": [
+      "Pattern",
+      "What is heard",
+      "Mechanism",
+      "Examples"
+     ],
+     "rows": [
+      [
+       "Physiologic",
+       "Split in inspiration only",
+       "Inspiration delays P2, advances A2",
+       "Normal"
+      ],
+      [
+       "Wide",
+       "Split in both phases, wider in inspiration",
+       "Right ventricular emptying delayed",
+       "Right bundle branch block, pulmonic stenosis"
+      ],
+      [
+       "Fixed",
+       "Wide split unchanged by breathing",
+       "Shunt flow falls as venous return rises, keeping right ventricular volume constant",
+       "Atrial septal defect"
+      ],
+      [
+       "Paradoxical",
+       "Split in expiration, single in inspiration",
+       "A2 delayed until after P2",
+       "Left bundle branch block, severe aortic stenosis"
+      ]
+     ],
+     "caption": "Each abnormal pattern is predicted from which ventricle is delayed or volume loaded."
+    },
+    {
+     "type": "h",
+     "text": "Pulsus paradoxus"
+    },
+    {
+     "type": "p",
+     "text": "Pulsus paradoxus, an inspiratory fall in systolic pressure greater than 10 mmHg, exaggerates the normal dip rather than reversing it. In cardiac tamponade, pericardial fluid fixes the total volume of the two ventricles, so inspiratory right ventricular filling pushes the septum into the left ventricle and left stroke volume falls far more than normal; the same compression equalizes diastolic pressures and explains hypotension and distended neck veins. In severe asthma or COPD the pericardium is normal, but very large pleural pressure swings raise right heart filling and left afterload. Massive pulmonary embolism and severe hypovolemia can also produce it. It is less common in constrictive pericarditis, where the rigid pericardium shields the heart and jugular venous pressure rises on inspiration instead of falling."
+    },
+    {
+     "type": "h",
+     "text": "Positive pressure ventilation reverses the pattern"
+    },
+    {
+     "type": "p",
+     "text": "A ventilator raises pleural pressure during inspiration, and positive end-expiratory pressure (PEEP) keeps it raised. Right atrial pressure rises, the gradient for venous return narrows, and cardiac output falls, most of all in hypovolemia, when mean systemic filling pressure is already low. High lung volumes also compress alveolar vessels and can create zone 1 lung (section C05). The higher pressure around the left ventricle lowers its afterload, so in a failing left ventricle with high filling pressures stroke volume may be maintained, while with low filling pressures the loss of preload dominates. The strain phase of a Valsalva maneuver acts the same way, lowering venous return and pulse pressure and triggering a baroreflex rise in heart rate."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-15-01-C04",
+   "obj": "CV-15.4",
+   "title": "When the heart loads the lung and the lung loads the heart: pulmonary edema and cor pulmonale",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "In series, a failing left heart floods the lung, and a diseased lung overloads the right ventricle."
+    },
+    {
+     "type": "h",
+     "text": "Starling forces and the safety margin"
+    },
+    {
+     "type": "p",
+     "text": "In the pulmonary capillary, the outward forces are capillary hydrostatic pressure (about 7 mmHg), a negative interstitial pressure (about -8 mmHg, acting as suction), and a relatively high interstitial oncotic pressure (about 14 mmHg), totaling about 29 mmHg. The inward force is plasma oncotic pressure, about 28 mmHg. Lymphatics carry off the net outward filtration of about 1 mmHg. As capillary pressure rises, increased lymph flow, loss of interstitial suction, and dilution of interstitial protein hold off edema until capillary pressure approaches plasma oncotic pressure, a margin of about 21 mmHg. Beyond that, interstitial edema forms and then the alveoli flood. Low albumin narrows the margin, chronic elevation widens it (lymphatics can enlarge about tenfold, and some patients with mitral stenosis tolerate 40 mmHg), and permeability injury, as in ARDS, causes protein-rich edema at a normal capillary pressure."
+    },
+    {
+     "type": "h",
+     "text": "Left heart failure and mitral stenosis"
+    },
+    {
+     "type": "p",
+     "text": "Left atrial pressure passes back through the valveless pulmonary veins. It rises in left ventricular failure, acute mitral regurgitation, and mitral stenosis, which worsens with anything that shortens diastole (exercise, fever, pregnancy, rapid atrial fibrillation). PCWP estimates left atrial pressure and is normally about 6 to 12 mmHg. In mitral stenosis it exceeds left ventricular diastolic pressure, and in ARDS it is normal despite severe edema. Stiff lungs and juxtacapillary (J) receptor stimulation cause dyspnea, lying flat shifts blood into the thorax (orthopnea), and flooded alveoli give basal crackles and act as shunt. The chest film shows Kerley B lines and upper lobe vessel prominence (cephalization), and chronic congestion leaves hemosiderin-laden macrophages."
+    },
+    {
+     "type": "h",
+     "text": "Cor pulmonale"
+    },
+    {
+     "type": "p",
+     "text": "Cor pulmonale is right ventricular hypertrophy, dilation, or failure from pulmonary hypertension of lung, pulmonary vascular, or ventilatory origin. Right heart failure from left heart disease, the most common cause of right heart failure overall, is excluded."
+    },
+    {
+     "type": "table",
+     "title": "Clinical groups of pulmonary hypertension",
+     "cols": [
+      "Group",
+      "Cause",
+      "Main mechanism",
+      "Cor pulmonale?"
+     ],
+     "rows": [
+      [
+       "1",
+       "Pulmonary arterial hypertension (idiopathic, BMPR2, connective tissue disease)",
+       "Endothelial dysfunction, plexiform lesions",
+       "Yes"
+      ],
+      [
+       "2",
+       "Left heart disease",
+       "Backward transmission of left atrial pressure",
+       "No"
+      ],
+      [
+       "3",
+       "Lung disease or hypoxia (COPD, interstitial disease, sleep apnea)",
+       "Hypoxic constriction, remodeling, loss of capillary bed",
+       "Yes"
+      ],
+      [
+       "4",
+       "Chronic thromboembolism",
+       "Organized clots obstruct arteries",
+       "Yes"
+      ],
+      [
+       "5",
+       "Multifactorial (for example sarcoidosis)",
+       "Mixed",
+       "Depends"
+      ]
+     ],
+     "caption": "Groups 1, 3, and 4 load the right ventricle from the lung side."
+    },
+    {
+     "type": "p",
+     "text": "In chronic cor pulmonale, most often from COPD, the right ventricle meets slowly rising afterload with concentric hypertrophy, since by the law of Laplace a thicker wall lowers wall stress. It later dilates, the tricuspid valve leaks, and systemic venous pressure rises, causing distended jugular veins, a nutmeg liver, and dependent edema. Pulmonary hypertension gives a loud P2 and a parasternal heave, and the ECG shows right axis deviation, a tall R wave in V1, and P pulmonale in lead II."
+    },
+    {
+     "type": "p",
+     "text": "A massive pulmonary embolus acts in minutes. Clot obstructs the bed and platelet thromboxane A2 and serotonin constrict the rest. The thin, unhypertrophied right ventricle cannot generate a mean pressure much above about 40 mmHg, and obstruction of about 60% or more of the circulation typically causes acute failure or sudden death."
+    },
+    {
+     "type": "cycle",
+     "title": "Right ventricular failure spiral in massive pulmonary embolism",
+     "steps": [
+      "Right ventricular afterload rises",
+      "Right ventricle dilates; its output falls",
+      "Septum shifts into the left ventricle",
+      "Left ventricular output and arterial pressure fall",
+      "Right coronary perfusion falls as wall stress stays high",
+      "Right ventricular ischemia weakens contraction further"
+     ],
+     "caption": "Each turn lowers output further, so hypotension in pulmonary embolism signals high mortality."
+    },
+    {
+     "type": "stop",
+     "predict": "A patient with long-standing mitral stenosis develops distended neck veins, hepatomegaly, and ankle edema. Is this cor pulmonale?",
+     "explain": "No. The right ventricle failed from pulmonary hypertension caused by the left heart (group 2).",
+     "check": "Compare with the cor pulmonale definition and table."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-15-01-C05",
+   "obj": "CV-15.5",
+   "title": "Gravity, the lung zones, and ventilation-perfusion ratios",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Because the pulmonary circulation runs at low pressure, the weight of the blood column matters. Pressure rises about 1 cmH2O per centimeter of depth (1 mmHg is about 1.36 cmH2O). The apex lies about 20 cm above the pulmonic valve and the base about 10 cm below it, so with a pulmonary artery pressure of 25/8 mmHg, apical pressure is about 10 mmHg in systole and below zero in diastole, while basal pressure is about 33/16 mmHg. Blood flow per unit volume therefore rises steeply from apex to base."
+    },
+    {
+     "type": "h",
+     "text": "The three zones"
+    },
+    {
+     "type": "p",
+     "text": "Capillaries in the alveolar walls are also exposed to alveolar pressure, which stays near atmospheric during quiet breathing. Comparing arterial (Pa), alveolar (PA), and venous (Pv) pressure divides the upright lung into three zones."
+    },
+    {
+     "type": "table",
+     "title": "Zones of the upright lung",
+     "cols": [
+      "Zone",
+      "Pressure order",
+      "Blood flow",
+      "Driving pressure",
+      "Usual location"
+     ],
+     "rows": [
+      [
+       "1",
+       "PA greater than Pa greater than Pv",
+       "None (alveolar dead space)",
+       "None",
+       "Normally absent; apex with low Pa or high PA"
+      ],
+      [
+       "2",
+       "Pa greater than PA greater than Pv",
+       "Intermittent, mainly in systole",
+       "Pa minus PA",
+       "Upper and middle lung"
+      ],
+      [
+       "3",
+       "Pa greater than Pv greater than PA",
+       "Continuous",
+       "Pa minus Pv",
+       "Lower lung"
+      ]
+     ],
+     "caption": "Moving down the lung, Pa and Pv rise with depth while PA stays constant."
+    },
+    {
+     "type": "p",
+     "text": "In zone 2 the outflow end of the capillary collapses to alveolar pressure, so venous pressure does not affect flow, like a waterfall whose flow does not depend on the drop below it. Zone 1 is normally absent because apical systolic pressure still exceeds alveolar pressure. It appears when pulmonary artery pressure falls (hemorrhage, shock) or alveolar pressure rises (positive pressure ventilation with PEEP). A PEEP of 15 cmH2O, about 11 mmHg, exceeds an apical systolic pressure of 10 mmHg. Zone 1 alveoli are dead space, so arterial PCO2 rises unless ventilation increases. Exercise does the reverse, recruiting apical capillaries and converting zone 2 to zone 3."
+    },
+    {
+     "type": "h",
+     "text": "Ventilation and V/Q from apex to base"
+    },
+    {
+     "type": "p",
+     "text": "Ventilation also rises toward the base, but less steeply. The weight of the lung makes pleural pressure about -10 cmH2O at the apex and about -2.5 cmH2O at the base at FRC, so apical alveoli are more expanded and sit on the flat, less compliant part of the pressure-volume curve, while basal alveoli expand more with each breath. Average V/Q is about 0.8 (alveolar ventilation about 4 L/min over cardiac output about 5 L/min). Because flow rises more steeply than ventilation, V/Q is about 3 at the apex, with alveolar PO2 about 130 mmHg and PCO2 about 28 mmHg, and about 0.6 at the base, with PO2 about 90 mmHg and PCO2 about 42 mmHg."
+    },
+    {
+     "type": "p",
+     "text": "The high apical PO2 is the usual explanation for the upper lobe location of reactivation tuberculosis, since Mycobacterium tuberculosis is an obligate aerobe. The apex contributes little to arterial blood because it receives little flow. High V/Q units cannot make up for low V/Q units in oxygen, because their blood is already nearly saturated on the flat top of the dissociation curve, but they can unload extra CO2, whose curve is nearly linear. V/Q mismatch therefore causes hypoxemia with a normal or low PaCO2, and normal regional mismatch plus the small anatomical shunt produce the normal alveolar-arterial (A-a) PO2 gradient of about 5 to 15 mmHg in young adults."
+    },
+    {
+     "type": "p",
+     "text": "Supine, the apex-to-base differences largely disappear and dependent posterior regions receive more flow. In pulmonary embolism the blocked region becomes dead space, and the diverted blood overperfuses the rest of the lung; these low V/Q regions, with atelectasis and sometimes a right-to-left shunt through a patent foramen ovale, cause the hypoxemia."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-15-01-C06",
+   "obj": "CV-15.6",
+   "title": "Shunt hypoxemia and the nonrespiratory functions of the pulmonary circulation",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "A shunt is blood that reaches the systemic arteries without passing ventilated alveoli (V/Q of zero). Anatomical shunts include right-to-left cardiac connections, pulmonary arteriovenous malformations, and the normal 2% from bronchial and Thebesian veins. Intrapulmonary shunts are perfused alveoli that are collapsed or filled, as in atelectasis, lobar pneumonia, pulmonary edema, and ARDS."
+    },
+    {
+     "type": "p",
+     "text": "Breathing 100% oxygen corrects other causes of hypoxemia but barely corrects shunt. Shunted blood never meets alveolar gas, and blood from ventilated alveoli is already about 97 to 98% saturated, so raising its PO2 adds only dissolved oxygen (0.003 mL/dL per mmHg). Mixing combines oxygen content, not partial pressure, and the steep part of the dissociation curve turns the diluted content into a low PO2. PaCO2 is usually normal or low, because chemoreceptor-driven hyperventilation unloads the extra CO2."
+    },
+    {
+     "type": "example",
+     "title": "A 30% shunt on room air and on 100% oxygen",
+     "text": "Assume hemoglobin 15 g/dL (20.1 mL O2/dL saturated) and an arteriovenous difference of 5 mL/dL. On room air, ventilated blood carries about 19.9 mL/dL. Arterial content (Ca) is 0.7 times 19.9 plus 0.3 times (Ca minus 5), so Ca is about 17.8 mL/dL, a saturation near 88% and a PaO2 near 55 mmHg. On 100% oxygen, alveolar PO2 is about 660 mmHg, so ventilated blood carries 20.1 bound plus about 2.0 dissolved, or 22.1 mL/dL. Ca rises only to about 20.0 mL/dL, and PaO2 to about 100 mmHg, against more than 500 mmHg in a normal lung. That failure to rise identifies a shunt."
+    },
+    {
+     "type": "table",
+     "title": "Mechanisms of arterial hypoxemia",
+     "cols": [
+      "Mechanism",
+      "A-a gradient",
+      "Response to 100% O2",
+      "Example"
+     ],
+     "rows": [
+      [
+       "Low inspired PO2",
+       "Normal",
+       "Corrected",
+       "High altitude"
+      ],
+      [
+       "Hypoventilation",
+       "Normal (PaCO2 high)",
+       "Corrected",
+       "Opioid overdose"
+      ],
+      [
+       "Diffusion limitation",
+       "Increased, worse with exercise",
+       "Corrected",
+       "Interstitial fibrosis"
+      ],
+      [
+       "Low V/Q units",
+       "Increased",
+       "Corrected",
+       "COPD, asthma, pulmonary embolism"
+      ],
+      [
+       "Shunt (V/Q zero)",
+       "Increased",
+       "Little improvement",
+       "Right-to-left cardiac shunt, lobar pneumonia, alveolar edema"
+      ]
+     ],
+     "caption": "Only shunt resists 100% oxygen. Alveolar dead space (V/Q near infinity) wastes ventilation and raises PaCO2 instead."
+    },
+    {
+     "type": "p",
+     "text": "A congenital left-to-right shunt (ventricular or atrial septal defect, patent ductus arteriosus) causes no cyanosis at first. The extra pulmonary flow, and in a ventricular defect or ductus the systemic-level pressure, drives the remodeling described in section C02. If PVR rises above systemic resistance, the shunt reverses (Eisenmenger syndrome), producing late cyanosis, clubbing, and polycythemia, by which time the vessels no longer relax."
+    },
+    {
+     "type": "flow",
+     "title": "Eisenmenger reversal of a left-to-right shunt",
+     "steps": [
+      "Left-to-right shunt raises pulmonary flow and often pressure",
+      "Endothelial injury, medial hypertrophy, and intimal fibrosis follow",
+      "PVR and right-sided pressures rise progressively",
+      "Right-sided pressures exceed left-sided pressures",
+      "Shunt reverses to right-to-left",
+      "Late cyanosis, clubbing, and polycythemia"
+     ],
+     "caption": "The heart lesion remodels the lung vessels, and the lung vessels then reverse the heart lesion."
+    },
+    {
+     "type": "h",
+     "text": "Nonrespiratory functions"
+    },
+    {
+     "type": "p",
+     "text": "The pulmonary endothelium meets the whole cardiac output over an enormous surface. Its angiotensin-converting enzyme (ACE), a zinc peptidase, removes a terminal dipeptide from angiotensin I to form angiotensin II, and as kininase II it inactivates bradykinin. Blocking ACE lets bradykinin accumulate, which explains the dry cough and angioedema of ACE inhibition. In one passage the lung also removes much of the serotonin, prostaglandins E2 and F2 alpha, and leukotrienes and about 30% of norepinephrine, while epinephrine, angiotensin II, and vasopressin pass largely unchanged."
+    },
+    {
+     "type": "p",
+     "text": "The capillaries filter small venous clots, fat, and air. Small emboli rarely infarct, because bronchial arteries keep the tissue alive and endothelial fibrinolysis dissolves clots; infarction is more likely when bronchial flow is also poor, as in left heart failure. A clot crossing a patent foramen ovale, present in about a quarter of adults, is a paradoxical embolism."
+    },
+    {
+     "type": "stop",
+     "predict": "Patients with lobar pneumonia and with pulmonary embolism are both hypoxemic. Predict how each responds to 100% oxygen.",
+     "explain": "Pneumonia is true shunt, so PaO2 rises little. Embolism hypoxemia comes mainly from low V/Q regions, so PaO2 rises substantially unless a patent foramen ovale shunts.",
+     "check": "Compare with the shunt example, the hypoxemia table, and section C05."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Anatomy sets the stage: thin pulmonary arteries with little muscle behave passively, bronchial arteries protect against infarction, and a pericardium of limited volume underlies ventricular interdependence and tamponade. Physiology supplies the four tools: Ohm's law with recruitment and distension, Starling forces with the lymphatic safety margin, transmural pressure in spontaneous and positive pressure breathing, and the oxyhemoglobin curve in V/Q mismatch and shunt. At the molecular level, hypoxia closes Kv channels in pulmonary smooth muscle, opens KATP channels in systemic arterioles, and through HIF links chronic hypoxia to remodeling and polycythemia."
+  },
+  {
+   "type": "p",
+   "text": "Pathology follows the series arrangement. Left heart failure moves upstream as hydrostatic edema and eventually loads the right ventricle, lung disease moves downstream as cor pulmonale, and congenital shunts can remodel the lung until they reverse. These models are simplifications: pressures vary between texts and with posture, the three-zone model ignores variation within horizontal levels, PCWP overestimates left ventricular filling in mitral stenosis, and real patients often combine oxygen-responsive low V/Q regions with shunt that does not respond."
+  }
+ ],
+ "summary": [
+  "The two circuits carry the same flow in series, but the pulmonary pressure drop is about 10 mmHg against about 90 mmHg, so PVR is about one ninth of systemic resistance.",
+  "Rising flow recruits closed capillaries and distends open ones, so PVR falls in exercise; PVR is lowest near FRC.",
+  "Low alveolar PO2 closes Kv channels and depolarizes pulmonary artery smooth muscle, which constricts; systemic arterioles dilate through adenosine and KATP channels.",
+  "Regional HPV preserves V/Q matching, but global hypoxia raises PVR and, through HIF-driven remodeling and polycythemia, causes fixed pulmonary hypertension.",
+  "Spontaneous inspiration raises right heart filling, delays P2, and slightly lowers left stroke volume and systolic pressure; pulsus paradoxus is a fall above 10 mmHg, as in tamponade or severe asthma.",
+  "Positive pressure ventilation lowers venous return and cardiac output, most in hypovolemia, while lowering left ventricular afterload.",
+  "Hydrostatic pulmonary edema appears when capillary pressure exceeds plasma oncotic pressure (about 28 mmHg); permeability edema forms at a normal PCWP.",
+  "Cor pulmonale is right ventricular hypertrophy or failure from lung or pulmonary vascular disease, not from left heart disease; massive embolism can start a fatal ischemic spiral.",
+  "Upright, V/Q falls from about 3 at the apex to about 0.6 at the base, and zone 1 appears only with low arterial or high alveolar pressure.",
+  "Shunt hypoxemia barely improves with 100% oxygen, and pulmonary ACE makes angiotensin II and inactivates bradykinin."
+ ],
+ "sources": [
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Pulmonary Circulation, Pulmonary Edema, Pleural Fluid"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Principles of Gas Exchange; Diffusion of Oxygen and Carbon Dioxide Through the Respiratory Membrane (ventilation-perfusion ratio)"
+  },
+  {
+   "book": "Boron and Boulpaep Medical Physiology",
+   "where": "Respiratory physiology: pulmonary circulation and ventilation-perfusion matching"
+  },
+  {
+   "book": "Moore, Clinically Oriented Anatomy",
+   "where": "Thorax: lungs, pulmonary and bronchial vessels, pericardium"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "The Heart (cor pulmonale) and The Lung (pulmonary edema, embolism, pulmonary hypertension)"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Pulmonary Disease; Cardiovascular Disorders: Heart Disease"
+  }
+ ],
+ "verify": [
+  "Resting pulmonary and systemic pressures (pulmonary artery about 25/8 mmHg, mean about 15; left atrial about 5 mmHg; pulmonary capillary about 7 mmHg in Guyton and Hall versus about 10 mmHg in some respiratory texts) are consensus approximations; confirm the values NABNE expects.",
+  "The hemodynamic definition of pulmonary hypertension changed from a mean pulmonary artery pressure of 25 mmHg or more to above 20 mmHg (6th World Symposium, 2018; ESC/ERS 2022 guidelines), and the PVR threshold from 3 to 2 Wood units; older review materials still use the earlier cutoffs.",
+  "The exercise values in the PVR worked example (cardiac output 15 L/min, mean pulmonary artery pressure about 22 mmHg, left atrial pressure about 10 mmHg) are illustrative and vary between studies.",
+  "The oxygen sensor upstream of Kv channel inhibition in hypoxic pulmonary vasoconstriction remains debated; the threshold of about 70 mmHg alveolar PO2 follows Guyton and Hall.",
+  "Regional V/Q, alveolar PO2, and PCO2 values for apex and base and the apical and basal pleural pressures come from the classic upright lung analysis and differ slightly between texts.",
+  "The explanation for apical localization of reactivation tuberculosis (high PO2, possibly with reduced lymphatic flow) is conventional teaching but not fully established.",
+  "The tolerance of chronic pulmonary capillary pressures of 40 mmHg or more and the roughly tenfold capacity for lymphatic expansion follow Guyton and Hall and vary between sources.",
+  "The proportion of pulmonary circulation obstruction associated with sudden death (about 60% or more, Robbins) and the maximum mean pressure a previously normal right ventricle can generate (about 40 mmHg) are approximate.",
+  "Single-pass pulmonary handling of mediators (about 30% of norepinephrine removed) follows standard respiratory physiology texts; exact percentages differ between sources.",
+  "Oxygen-binding capacity of hemoglobin is given as 1.34 mL O2 per g; some sources use 1.36 or 1.39, which changes the shunt example slightly but not its conclusion.",
+  "The prevalence of patent foramen ovale (roughly 25% of adults) is an autopsy-based approximation.",
+  "Confirm whether NABNE Part I expects the eponyms West zones, Thebesian veins, and Eisenmenger syndrome, or only the descriptive terms.",
+  "Requested new diagram names for a future revision: lung-zones (upright lung showing zones 1 to 3 and V/Q from apex to base) and pvr-lung-volume (U-shaped curve of PVR against lung volume)."
+ ]
+}

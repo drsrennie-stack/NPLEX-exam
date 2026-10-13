@@ -1,0 +1,628 @@
+{
+ "unit": "GI-7",
+ "chapter_id": "NPLEX-P1-GAST-07",
+ "topic_id": "NPLEX-P1-GAST-07-01",
+ "title": "Absorption of the Products of Digestion",
+ "subject": "Gastrointestinal System (GAST)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter follows the end products of digestion across the intestinal wall: monosaccharides, amino acids and small peptides, fats, and the vitamins and minerals that depend on one segment of bowel. It then covers the enterohepatic circulation of bile acids and the three mechanisms of diarrhea. Board questions rarely ask for a transporter name alone. They describe a missing carrier, a diseased or resected segment, or a toxin, and ask you to predict the stool, the deficiency, or the laboratory pattern. If you know which membrane each carrier sits on, what gradient drives it, and where along the gut it is found, you can reason through nearly all of them.",
+  "prerequisites": [
+   "Membrane transport: primary and secondary active transport, facilitated diffusion, and the Na+/K+-ATPase",
+   "Histology of the small intestine: villi, crypts, enterocytes, brush border, and lacteals (GI-2)",
+   "Luminal digestion by pancreatic enzymes and the secretion of bile (GI-6)",
+   "G protein signaling through Gs, adenylyl cyclase, cAMP, and protein kinase A",
+   "Lipoprotein structure and the roles of apoB-48 and apoB-100"
+  ],
+  "connections": [
+   {
+    "to": "Digestive biochemistry and dietary requirements (GI-8)",
+    "how": "Niacin synthesis from tryptophan, fat-soluble vitamin roles, and B12 and folate metabolism explain the deficiencies that follow failed absorption."
+   },
+   {
+    "to": "Deficiency and malabsorption conditions (GI-13-E)",
+    "how": "Celiac disease, ileal Crohn disease, and short bowel syndrome are predicted by where each nutrient is absorbed."
+   },
+   {
+    "to": "Gallbladder diseases (GI-13-D)",
+    "how": "Loss of ileal bile acid recycling shrinks the bile acid pool and favors cholesterol supersaturation of bile."
+   },
+   {
+    "to": "Gastrointestinal pathogens (GI-12)",
+    "how": "Cholera toxin and enterotoxigenic E. coli toxins hijack the crypt cell secretory pathway, while invasive organisms cause inflammatory diarrhea."
+   },
+   {
+    "to": "Renal physiology",
+    "how": "The proximal tubule uses the same sodium-coupled glucose and amino acid carriers, so Hartnup disease and cystinuria affect both gut and kidney."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Secondary active transport",
+    "def": "Uphill movement of one solute driven by the downhill movement of another, usually Na+ or H+, whose gradient is maintained by an ATP-using pump."
+   },
+   {
+    "term": "SGLT1",
+    "def": "The apical sodium-glucose cotransporter of enterocytes that carries glucose or galactose into the cell with two Na+ ions."
+   },
+   {
+    "term": "PepT1",
+    "def": "The apical H+-coupled carrier that absorbs dipeptides and tripeptides."
+   },
+   {
+    "term": "Unstirred water layer",
+    "def": "A thin, poorly mixed layer of fluid next to the brush border that slows diffusion of hydrophobic molecules to the cell surface."
+   },
+   {
+    "term": "Mixed micelle",
+    "def": "A small aggregate of bile acids, phospholipid, monoglycerides, fatty acids, cholesterol, and fat-soluble vitamins that carries lipids across the unstirred layer."
+   },
+   {
+    "term": "Critical micellar concentration",
+    "def": "The bile acid concentration above which bile acids aggregate into micelles."
+   },
+   {
+    "term": "Chylomicron",
+    "def": "The large triglyceride-rich lipoprotein made by enterocytes around apoB-48 and secreted into lymph."
+   },
+   {
+    "term": "Microsomal triglyceride transfer protein (MTP)",
+    "def": "The endoplasmic reticulum protein that loads lipid onto apoB to assemble chylomicrons in the gut and VLDL in the liver."
+   },
+   {
+    "term": "Intrinsic factor",
+    "def": "A glycoprotein secreted by gastric parietal cells that binds vitamin B12 and is required for its uptake in the terminal ileum."
+   },
+   {
+    "term": "Enterohepatic circulation",
+    "def": "The cycle in which bile acids secreted in bile are reabsorbed from the intestine, returned in portal blood, and secreted again by the liver."
+   },
+   {
+    "term": "CFTR",
+    "def": "The cAMP-regulated apical chloride channel through which crypt cells secrete Cl- into the intestinal lumen."
+   },
+   {
+    "term": "Stool osmotic gap",
+    "def": "290 mOsm/kg minus twice the sum of stool Na+ and K+, an estimate of stool osmolality not explained by electrolytes."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-GAST-07-01-C01",
+   "obj": "GI-7.1",
+   "title": "Monosaccharide absorption and the basis of oral rehydration",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Salivary and pancreatic amylase reduce starch to maltose, maltotriose, and limit dextrins, and the brush border enzymes (lactase, sucrase-isomaltase, and maltase-glucoamylase) finish the job, because enterocytes absorb only monosaccharides: glucose, galactose, and fructose. Each sugar must cross two membranes in series, the apical (luminal) membrane and the basolateral membrane that faces the blood, and the carriers on the two sides differ."
+    },
+    {
+     "type": "p",
+     "text": "The basolateral Na+/K+-ATPase pumps three Na+ out for two K+ in, which keeps cytosolic Na+ near 15 mmol/L while luminal Na+ is near 140 mmol/L, and leaves the cell interior negative. SGLT1 on the apical membrane couples the entry of one glucose or galactose molecule to two Na+ ions moving down this electrochemical gradient. The coupling lets the enterocyte take up glucose against its concentration gradient, so absorption continues even when little glucose is left in the lumen. This is secondary active transport: the pump spends the ATP, and SGLT1 spends the gradient. Fructose enters through GLUT5, a facilitated diffusion carrier that needs no Na+ and moves fructose only down its gradient, so fructose uptake is slower and saturable and a large fructose load can reach the colon. All three sugars leave through GLUT2 on the basolateral membrane by facilitated diffusion into portal blood."
+    },
+    {
+     "type": "table",
+     "title": "Monosaccharide carriers of the enterocyte",
+     "cols": [
+      "Carrier",
+      "Membrane",
+      "Substrates",
+      "Mechanism",
+      "Inherited loss"
+     ],
+     "rows": [
+      [
+       "SGLT1",
+       "Apical",
+       "Glucose, galactose",
+       "Secondary active, 2 Na+ per sugar",
+       "Glucose-galactose malabsorption: neonatal osmotic diarrhea, fructose tolerated"
+      ],
+      [
+       "GLUT5",
+       "Apical",
+       "Fructose",
+       "Facilitated diffusion, Na+ independent",
+       "No classic syndrome; limited capacity explains fructose malabsorption"
+      ],
+      [
+       "GLUT2",
+       "Basolateral",
+       "Glucose, galactose, fructose",
+       "Facilitated diffusion to portal blood",
+       "Fanconi-Bickel syndrome (mainly hepatic and renal disease)"
+      ],
+      [
+       "Na+/K+-ATPase",
+       "Basolateral",
+       "3 Na+ out, 2 K+ in",
+       "Primary active (ATP)",
+       "Not applicable; it powers every Na+-coupled carrier"
+      ]
+     ],
+     "caption": "Sugars enter on the apical side by SGLT1 or GLUT5 and leave on the basolateral side by GLUT2; the pump creates the Na+ gradient SGLT1 uses."
+    },
+    {
+     "type": "p",
+     "text": "Water in the small intestine is never pumped; it follows solute. When Na+ and glucose are absorbed together, they raise osmolality in the lateral intercellular spaces below the tight junctions, and water follows across the leaky tight junctions and through the cells. Oral rehydration solution uses this coupling. In cholera, the toxin drives Cl- secretion through CFTR and suppresses the electroneutral NaCl absorption of villus cells (C06), but it does not touch SGLT1. Glucose given with Na+ therefore opens an absorptive route for Na+ that the toxin cannot close, and water absorption follows. Each ingredient is needed: without Na+, SGLT1 cannot move glucose, and without glucose, the main Na+ absorptive pathway left is the one the toxin has inhibited. The proportions also matter, because glucose beyond what SGLT1 can carry stays in the lumen as an osmotic load and adds to the stool volume, so effective solutions keep glucose and Na+ at similar molar concentrations and the total osmolarity at or below that of plasma."
+    },
+    {
+     "type": "p",
+     "text": "Glucose-galactose malabsorption, the autosomal recessive loss of SGLT1, confirms the map: newborns have severe watery diarrhea with glucose, galactose, or lactose, yet tolerate fructose because GLUT5 and GLUT2 still work. Lactase deficiency differs in kind, since it is a failure of digestion: the disaccharide is never split, so the carriers have nothing to absorb."
+    },
+    {
+     "type": "stop",
+     "predict": "Would a solution of fructose and NaCl rehydrate a patient with cholera as well as a solution of glucose and NaCl?",
+     "explain": "No. GLUT5 moves fructose without Na+, so fructose uptake does not carry Na+ or water into the cell. The toxin has suppressed electroneutral NaCl absorption, so only Na+-coupled glucose (or galactose) uptake through SGLT1 restores net Na+ and water absorption.",
+     "check": "The carrier table and the paragraph on oral rehydration."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-GAST-07-01-C02",
+   "obj": "GI-7.2",
+   "title": "Absorption of amino acids and small peptides; Hartnup disease",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Pepsin begins protein digestion in the stomach, but pancreatic proteases do most of the work. Enteropeptidase (enterokinase) on the duodenal brush border converts trypsinogen to trypsin, which activates the other pancreatic zymogens, and brush border peptidases then trim the fragments. What reaches the apical membrane is a mixture of free amino acids and peptides of two or three residues. Larger peptides are not absorbed in nutritionally important amounts."
+    },
+    {
+     "type": "p",
+     "text": "Free amino acids enter on several apical carriers, each serving a class of side chains rather than a single amino acid. Most are cotransporters driven by the same inward Na+ gradient that powers SGLT1, so they are secondary active. The main neutral amino acid carrier is B0AT1 (gene SLC6A19). An important exception is the carrier for cystine and the dibasic amino acids (lysine, arginine, ornithine), which exchanges them for neutral amino acids without Na+; its inherited loss causes cystinuria in kidney and gut. Amino acids then leave across the basolateral membrane on facilitated diffusion and exchange carriers into portal blood."
+    },
+    {
+     "type": "p",
+     "text": "Dipeptides and tripeptides use a separate route. PepT1 is a single broad-specificity carrier coupled to H+ rather than Na+. The apical Na+/H+ exchanger (NHE3) keeps an acidic microclimate at the brush border, and that H+ gradient drives peptide entry, so peptide uptake is still powered indirectly by the Na+ gradient. Cytosolic peptidases split most absorbed peptides, which is why portal blood after a meal carries mainly free amino acids. Because one carrier accepts thousands of different peptides, PepT1 carries a large share of absorbed amino nitrogen and is a backup when a free amino acid carrier fails."
+    },
+    {
+     "type": "table",
+     "title": "Main routes of amino acid and peptide entry",
+     "cols": [
+      "Substrate",
+      "Apical carrier",
+      "Driving force",
+      "Disease when lost"
+     ],
+     "rows": [
+      [
+       "Neutral amino acids (including tryptophan)",
+       "B0AT1",
+       "Na+",
+       "Hartnup disease"
+      ],
+      [
+       "Cystine and dibasic amino acids (lysine, arginine, ornithine)",
+       "b0,+ exchanger (rBAT with b0,+AT)",
+       "Exchange for neutral amino acids, Na+ independent",
+       "Cystinuria (cystine kidney stones)"
+      ],
+      [
+       "Acidic amino acids (glutamate, aspartate)",
+       "EAAT3",
+       "Na+ and H+, with K+ exit",
+       "Dicarboxylic aminoaciduria (rare)"
+      ],
+      [
+       "Proline, hydroxyproline, glycine",
+       "IMINO and PAT1",
+       "Na+ with Cl-, or H+",
+       "Iminoglycinuria (benign, mainly renal)"
+      ],
+      [
+       "Dipeptides and tripeptides",
+       "PepT1",
+       "H+, gradient kept by NHE3",
+       "No known human syndrome"
+      ]
+     ],
+     "caption": "Free amino acids use several class-specific carriers, most Na+-coupled; small peptides share one H+-coupled carrier. The same free amino acid carriers work in the proximal tubule."
+    },
+    {
+     "type": "p",
+     "text": "Hartnup disease is the autosomal recessive loss of B0AT1, which is expressed in both the small intestine and the renal proximal tubule. The renal sign is a neutral aminoaciduria: alanine, serine, threonine, valine, leucine, isoleucine, phenylalanine, tyrosine, tryptophan, histidine, glutamine, and asparagine appear in urine, while proline, glycine, and the dibasic amino acids are normal because they use other carriers. That selective pattern separates Hartnup disease from the generalized aminoaciduria of Fanconi syndrome. Unabsorbed tryptophan reaching the colon is converted by bacteria to indole compounds, which are absorbed and excreted as urinary indican."
+    },
+    {
+     "type": "p",
+     "text": "The clinical findings come from tryptophan, the precursor of part of the body's niacin (NAD+) by the kynurenine pathway, at roughly 60 mg of tryptophan per 1 mg of niacin. With tryptophan lost in urine and poorly absorbed, a marginal dietary niacin intake becomes inadequate and pellagra-like findings appear: photosensitive dermatitis on sun-exposed skin, diarrhea, intermittent cerebellar ataxia, and psychiatric change. Most people with the genotype stay well, because PepT1 still absorbs tryptophan inside peptides and a niacin-adequate diet covers the shortfall; symptoms tend to appear with poor diet, illness, or growth."
+    },
+    {
+     "type": "flow",
+     "title": "From B0AT1 loss to pellagra-like disease",
+     "steps": [
+      "B0AT1 absent in gut and proximal tubule",
+      "Neutral amino acids poorly absorbed and lost in urine",
+      "Less tryptophan enters the kynurenine pathway",
+      "Less niacin (NAD+) synthesized from tryptophan",
+      "Marginal dietary niacin no longer sufficient",
+      "Dermatitis, diarrhea, ataxia, psychiatric change"
+     ],
+     "caption": "Hartnup disease is a transport defect whose symptoms are those of niacin deficiency; peptide uptake by PepT1 limits severity."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-GAST-07-01-C03",
+   "obj": "GI-7.3",
+   "title": "Fat absorption, chylomicron assembly, and abetalipoproteinemia",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Dietary fat is mostly triglyceride, which does not dissolve in water. Bile acids and phospholipid emulsify it into droplets, and pancreatic lipase, anchored at the droplet surface by colipase, removes the fatty acids at positions 1 and 3, leaving 2-monoglyceride and two free fatty acids. Cholesterol esterase and phospholipase A2 digest cholesterol esters and phospholipids."
+    },
+    {
+     "type": "p",
+     "text": "These products are poorly soluble, and the brush border is covered by an unstirred water layer through which hydrophobic molecules diffuse slowly. Above their critical micellar concentration, bile acids form mixed micelles that carry monoglycerides, fatty acids, cholesterol, lysophospholipid, and the fat-soluble vitamins A, D, E, and K across this layer. Micelles are not absorbed intact. In the slightly acidic microclimate at the cell surface, fatty acids become protonated and leave the micelle, entering the cell by diffusion and by membrane proteins such as CD36 for long-chain fatty acids and NPC1L1 for cholesterol. The bile acids stay in the lumen to be reused farther down the gut and are reclaimed in the terminal ileum (C05)."
+    },
+    {
+     "type": "p",
+     "text": "Inside the enterocyte, smooth endoplasmic reticulum rebuilds triglyceride from 2-monoglyceride and fatty acyl-CoA, and cholesterol is re-esterified. Re-esterification keeps free fatty acid and monoglyceride low in the cytosol, preserving the inward gradient. Microsomal triglyceride transfer protein (MTP) then loads triglyceride onto apolipoprotein B-48 to form the chylomicron. ApoB-48 is made only in the intestine: it comes from the same gene as hepatic apoB-100, but intestinal mRNA editing converts a cytidine to uridine and creates a stop codon, so the protein is 48% of full length and lacks the LDL receptor binding region. Chylomicrons pass through the Golgi and are exocytosed basolaterally. They are too large to enter blood capillaries, so they enter the central lacteal through its loose endothelial junctions and travel through the thoracic duct into the venous system at the junction of the left internal jugular and subclavian veins, bypassing the liver on first pass. Medium-chain fatty acids (about 6 to 12 carbons) are more water-soluble, are largely not re-esterified, and pass directly into portal blood bound to albumin."
+    },
+    {
+     "type": "flow",
+     "title": "Dietary triglyceride from lumen to blood",
+     "steps": [
+      "Bile acids emulsify fat; lipase with colipase forms 2-monoglyceride and fatty acids",
+      "Mixed micelles cross the unstirred water layer",
+      "Lipids leave micelles and enter the enterocyte",
+      "Smooth ER re-esterifies them to triglyceride",
+      "MTP loads triglyceride onto apoB-48, forming chylomicrons",
+      "Exocytosis into the lacteal, then thoracic duct lymph",
+      "Entry into blood at the left venous angle"
+     ],
+     "caption": "Long-chain fat needs bile acids, MTP, and apoB-48 to reach the blood; medium-chain fatty acids go straight to portal blood."
+    },
+    {
+     "type": "p",
+     "text": "Abetalipoproteinemia is the autosomal recessive loss of MTP (gene MTTP). Without MTP neither the enterocyte nor the hepatocyte can assemble apoB-containing lipoproteins, so chylomicrons, VLDL, and LDL are essentially absent and plasma cholesterol and triglyceride are very low. Each feature follows from that single defect, as the table shows."
+    },
+    {
+     "type": "table",
+     "title": "Abetalipoproteinemia: each finding and its mechanism",
+     "cols": [
+      "Finding",
+      "Mechanism"
+     ],
+     "rows": [
+      [
+       "Steatorrhea, failure to thrive, lipid-laden enterocytes on biopsy",
+       "Triglyceride enters the enterocyte but cannot leave without chylomicrons"
+      ],
+      [
+       "Very low plasma cholesterol and triglyceride; no apoB",
+       "No chylomicrons from the gut and no VLDL (hence no LDL) from the liver"
+      ],
+      [
+       "Acanthocytes (spiculated red cells)",
+       "Abnormal plasma lipids alter red cell membrane lipid composition"
+      ],
+      [
+       "Ataxia, loss of position and vibration sense, areflexia",
+       "Vitamin E deficiency (spinocerebellar and dorsal column degeneration); vitamin E needs apoB lipoproteins for absorption and delivery"
+      ],
+      [
+       "Pigmentary retinopathy",
+       "Vitamin E and vitamin A deficiency"
+      ],
+      [
+       "Prolonged prothrombin time in some patients",
+       "Vitamin K malabsorption"
+      ]
+     ],
+     "caption": "One missing protein, MTP, explains the gut, blood, and neurologic findings."
+    },
+    {
+     "type": "stop",
+     "predict": "In a child with abetalipoproteinemia, would fat from medium-chain triglycerides be absorbed into the blood?",
+     "explain": "Largely yes. Medium-chain fatty acids enter portal blood bound to albumin without re-esterification or chylomicrons, so they do not need MTP or apoB-48.",
+     "check": "The paragraph on chylomicron assembly and the end of the fat flow figure."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-GAST-07-01-C04",
+   "obj": "GI-7.4",
+   "title": "Where iron, folate, vitamin B12, and bile acids are absorbed",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The whole small intestine absorbs, but several nutrients depend on carriers concentrated in one segment. The duodenum takes up most iron and most actively transported calcium, the duodenum and proximal jejunum take up folate, the jejunum (with the tallest villi and largest surface) absorbs most sugar, amino acid, and fat, and the terminal ileum is the only site of vitamin B12 uptake with intrinsic factor and of active bile acid reabsorption. The ileum can take over bulk absorption after jejunal loss, but no segment can replace ileal B12 and bile acid uptake, so the site of disease predicts the deficiency."
+    },
+    {
+     "type": "p",
+     "text": "Iron absorption is tied to the duodenum by its chemistry. Nonheme iron is mostly ferric (Fe3+) and must be reduced to ferrous (Fe2+) by duodenal cytochrome b and dietary ascorbate before DMT1 (divalent metal transporter 1) carries it in with H+. Gastric acid keeps iron soluble, and the acidic microclimate of the proximal duodenum supplies the H+ for DMT1. Iron leaves through ferroportin, is oxidized by hephaestin, and binds transferrin; hepcidin from the liver degrades ferroportin, so body iron is controlled at this exit step. Active, calcitriol-induced calcium uptake is likewise concentrated in the duodenum, while passive paracellular calcium absorption continues along the jejunum and ileum."
+    },
+    {
+     "type": "p",
+     "text": "Food folate is a polyglutamate. Brush border folate conjugase (glutamate carboxypeptidase II) trims it to the monoglutamate, which the proton-coupled folate transporter carries in best at the slightly acidic pH of the duodenum and proximal jejunum. Vitamin B12 (cobalamin) follows the longest route, shown below, and its final receptor, cubilin with amnionless, is found only on terminal ileal enterocytes. Body stores of about 2 to 5 mg, mostly in the liver, cover daily losses for several years, so B12 deficiency appears long after the ileum is lost."
+    },
+    {
+     "type": "flow",
+     "title": "Vitamin B12 from food to tissues",
+     "steps": [
+      "Acid and pepsin free B12 from food protein",
+      "B12 binds haptocorrin (R binder) in the stomach",
+      "Pancreatic proteases digest haptocorrin in the duodenum",
+      "Freed B12 binds intrinsic factor from parietal cells",
+      "Cubilin-amnionless in terminal ileum endocytoses the complex",
+      "B12 enters blood bound to transcobalamin"
+     ],
+     "caption": "Absorption needs stomach, pancreas, and terminal ileum, so B12 deficiency can start at any of the three."
+    },
+    {
+     "type": "table",
+     "title": "Absorption sites and the deficiencies that follow their loss",
+     "cols": [
+      "Nutrient",
+      "Main site",
+      "Key apical step",
+      "Result of loss"
+     ],
+     "rows": [
+      [
+       "Iron",
+       "Duodenum",
+       "Fe3+ reduced to Fe2+; DMT1 with H+",
+       "Microcytic, hypochromic anemia with low ferritin"
+      ],
+      [
+       "Calcium (active)",
+       "Duodenum",
+       "TRPV6, induced by calcitriol",
+       "Low bone mineral, secondary hyperparathyroidism"
+      ],
+      [
+       "Folate",
+       "Duodenum and proximal jejunum",
+       "Deconjugation, then proton-coupled folate transporter",
+       "Megaloblastic anemia; high homocysteine, normal methylmalonic acid"
+      ],
+      [
+       "Vitamin B12",
+       "Terminal ileum",
+       "Intrinsic factor-B12 taken up by cubilin-amnionless",
+       "Megaloblastic anemia; high homocysteine and methylmalonic acid; neuropathy"
+      ],
+      [
+       "Bile acids",
+       "Terminal ileum",
+       "ASBT with Na+",
+       "Bile acid diarrhea or steatorrhea; fat-soluble vitamin loss (C05)"
+      ]
+     ],
+     "caption": "Proximal disease costs iron, calcium, and folate; ileal disease costs B12 and bile acids."
+    },
+    {
+     "type": "p",
+     "text": "Duodenal disease or bypass, as in celiac disease (most severe proximally) or a gastric bypass that diverts food past it, causes iron deficiency first, often with folate and calcium deficiency. Terminal ileal disease or resection, as in Crohn ileitis, causes B12 deficiency and bile acid loss but spares iron and folate. The two megaloblastic anemias separate biochemically: both deficiencies raise homocysteine, because both vitamins are needed to remethylate it, but only B12 deficiency raises methylmalonic acid, because B12 is the cofactor of methylmalonyl-CoA mutase. When resection removes the ileocecal valve, colonic bacteria can colonize the small bowel, consume B12, and make folate, so serum folate may be normal or high while B12 is low."
+    },
+    {
+     "type": "stop",
+     "predict": "Proximal celiac disease or a 100 cm terminal ileal resection: which causes iron deficiency, and which causes B12 deficiency?",
+     "explain": "Celiac disease causes iron (and often folate) deficiency because DMT1 and folate uptake are proximal. Resection causes B12 deficiency because cubilin-amnionless is only in the terminal ileum.",
+     "check": "The absorption site table and the final paragraph."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-GAST-07-01-C05",
+   "obj": "GI-7.5",
+   "title": "Enterohepatic circulation of bile acids and the effects of ileal loss",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Hepatocytes make the primary bile acids, cholic acid and chenodeoxycholic acid, from cholesterol; the rate-limiting enzyme is cholesterol 7-alpha-hydroxylase (CYP7A1). They are then conjugated with glycine or taurine. Conjugation lowers the pKa, so the bile acids stay ionized at intestinal pH and diffuse back across the jejunal membrane only poorly. That keeps them in the lumen above the critical micellar concentration while fat is absorbed, so their return needs a dedicated carrier in the terminal ileum."
+    },
+    {
+     "type": "p",
+     "text": "The apical sodium-dependent bile acid transporter (ASBT) on terminal ileal enterocytes takes up conjugated bile acids with Na+. They cross the cell and leave through the basolateral organic solute transporter (OST alpha and beta) into portal blood. Hepatocytes extract most of them on first pass with another Na+-coupled carrier, NTCP, and secrete them into bile again. Colonic bacteria convert the fraction that escapes to the secondary bile acids deoxycholic and lithocholic acid, some of which is absorbed passively. Overall about 95% of secreted bile acid is reclaimed. The pool is only about 2 to 4 g but cycles several times a day, so the gut sees far more bile acid than the liver makes, and the roughly 0.5 g lost in stool each day is replaced by new synthesis."
+    },
+    {
+     "type": "cycle",
+     "title": "Enterohepatic circulation of bile acids",
+     "steps": [
+      "Liver makes bile acids from cholesterol and conjugates them",
+      "Bile acids secreted in bile form micelles in the jejunum",
+      "ASBT reabsorbs about 95% in the terminal ileum",
+      "Portal blood returns bile acids to the liver",
+      "NTCP takes them up; FGF19 signal limits new synthesis"
+     ],
+     "caption": "The pool cycles several times daily; synthesis replaces only stool losses."
+    },
+    {
+     "type": "p",
+     "text": "The returning bile acids also regulate synthesis. In ileal enterocytes they activate the nuclear receptor FXR, which induces FGF19; FGF19 reaches the liver in portal blood and represses CYP7A1, and bile acids taken up by hepatocytes suppress CYP7A1 through hepatic FXR as well. When ileal return falls, this brake is released and synthesis rises, but hepatic capacity can increase only a few-fold, so it can make up for moderate losses but not large ones."
+    },
+    {
+     "type": "p",
+     "text": "The effect of ileal disease therefore depends on the amount lost. Excess bile acids entering the colon, especially the dihydroxy bile acids chenodeoxycholic and deoxycholic acid, stimulate colonocyte Cl- and water secretion and speed transit, causing watery diarrhea. Once fecal loss exceeds maximal synthesis, luminal bile acid falls below the critical micellar concentration and micelles fail."
+    },
+    {
+     "type": "table",
+     "title": "Limited versus extensive terminal ileal loss",
+     "cols": [
+      "Feature",
+      "Limited (less than about 100 cm)",
+      "Extensive (more than about 100 cm)"
+     ],
+     "rows": [
+      [
+       "Bile acid pool",
+       "Maintained by increased synthesis",
+       "Depleted; losses exceed maximal synthesis"
+      ],
+      [
+       "Micelle formation",
+       "Adequate",
+       "Inadequate"
+      ],
+      [
+       "Main stool problem",
+       "Watery bile acid diarrhea",
+       "Steatorrhea"
+      ],
+      [
+       "Fat-soluble vitamins",
+       "Usually adequate",
+       "A, D, E, and K deficiency"
+      ]
+     ],
+     "caption": "The 100 cm boundary is approximate: where synthesis can no longer match fecal loss."
+    },
+    {
+     "type": "p",
+     "text": "Gallstones follow from the same shrinking pool. Bile holds cholesterol in solution only within mixed micelles and vesicles of bile acid and phosphatidylcholine. With less bile acid secreted per unit of cholesterol, bile becomes supersaturated, cholesterol crystals nucleate, and cholesterol gallstones form, more readily when gallbladder emptying is slow. With an intact colon, fat malabsorption also causes calcium oxalate kidney stones: unabsorbed fatty acids bind luminal calcium, leaving oxalate free for colonic absorption."
+    },
+    {
+     "type": "example",
+     "title": "Predicting the result of two ileal resections",
+     "text": "Patient A loses 50 cm of terminal ileum; patient B loses 180 cm. Both lose cubilin-bearing ileum, so both risk B12 deficiency once stores run down. In A, fecal bile acid loss rises, FGF19 falls, and CYP7A1 activity increases enough to keep the pool and micelles adequate, so fat is absorbed, but excess bile acids reaching the colon cause watery diarrhea. In B, loss exceeds maximal synthesis, the pool shrinks, micelles fail, and steatorrhea appears with vitamin A, D, E, and K deficiency. B also has the higher risk of cholesterol gallstones and, with an intact colon, oxalate kidney stones."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-GAST-07-01-C06",
+   "obj": "GI-7.6",
+   "title": "Secretory, osmotic, and inflammatory diarrhea",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "About 8 to 9 L of fluid enters the small intestine each day and all but about 100 to 200 mL is absorbed, so a small shift from absorption (villus cells, colonocytes) toward secretion (crypt cells) causes diarrhea. Crypt cells secrete Cl- with three carriers: basolateral NKCC1 loads Na+, K+, and 2 Cl- into the cell, basolateral K+ channels recycle K+ and keep the cell negative, and the apical CFTR channel releases Cl- into the lumen when protein kinase A opens it. Na+ follows through the paracellular pathway and water follows the NaCl."
+    },
+    {
+     "type": "p",
+     "text": "Secretory diarrhea comes from turning this secretion on (and absorption off) by a second messenger inside the epithelial cell. Cholera toxin is the model (figure); it also inhibits villus NaCl absorption but spares SGLT1 (C01). Enterotoxigenic E. coli heat-labile toxin acts the same way; its heat-stable toxin raises cGMP through guanylyl cyclase C, and VIP from a VIPoma raises cAMP. Because the stimulus is inside the cell, not in the food, secretion continues during fasting and electrolytes account for nearly all stool osmolality."
+    },
+    {
+     "type": "flow",
+     "title": "Cholera toxin to secretory diarrhea",
+     "steps": [
+      "B subunit binds GM1 ganglioside on enterocytes",
+      "A subunit ADP-ribosylates Gs alpha, blocking its GTPase",
+      "Adenylyl cyclase stays active and cAMP rises",
+      "Protein kinase A opens CFTR in crypt cells",
+      "Cl- secreted; Na+ and water follow",
+      "Large-volume isotonic stool and volume depletion"
+     ],
+     "caption": "Persistent Gs activation drives Cl- secretion; Na+-glucose cotransport is spared."
+    },
+    {
+     "type": "p",
+     "text": "Osmotic diarrhea comes from a poorly absorbed solute that holds water in the lumen. In lactase deficiency, undigested lactose draws water into the small bowel, and colonic bacteria ferment it to short-chain fatty acids, hydrogen, and carbon dioxide, giving acidic stool (pH below about 6), bloating, and hydrogen in breath. Magnesium salts and sorbitol act the same way. Because the solute comes from what is eaten, the diarrhea stops with fasting, and stool Na+ and K+ are low because the unabsorbed solute, not electrolyte, fills stool osmolality."
+    },
+    {
+     "type": "p",
+     "text": "Inflammatory diarrhea comes from mucosal injury by invasive or cytotoxin-producing organisms (Shigella, Campylobacter, Salmonella, Clostridioides difficile, Entamoeba histolytica) or by inflammatory bowel disease. Damaged epithelium absorbs less, exudes protein, blood, and leukocytes into the lumen, and releases prostaglandins and cytokines that stimulate secretion. Stools contain blood and leukocytes (or raised fecal calprotectin), with fever and tenesmus. Its osmotic gap varies with the mix of mechanisms."
+    },
+    {
+     "type": "p",
+     "text": "The stool osmotic gap separates the first two. As stool passes through the colon, its osmolality equilibrates with plasma at about 290 mOsm/kg. Measured stool osmolality rises after collection as bacteria ferment, so 290 is used. Doubling stool Na+ and K+ accounts for their anions, and the gap is 290 minus 2 times (stool Na+ plus stool K+). A gap below about 50 mOsm/kg means electrolytes explain the stool, which is secretory; a gap above about 100 to 125 mOsm/kg means an unmeasured solute is present, which is osmotic."
+    },
+    {
+     "type": "table",
+     "title": "Distinguishing the three types of diarrhea",
+     "cols": [
+      "Feature",
+      "Secretory",
+      "Osmotic",
+      "Inflammatory"
+     ],
+     "rows": [
+      [
+       "Classic causes",
+       "Cholera, ETEC, VIPoma",
+       "Lactase deficiency, magnesium, sorbitol",
+       "Shigella, Campylobacter, C. difficile, IBD"
+      ],
+      [
+       "Stool osmotic gap",
+       "Below about 50 mOsm/kg",
+       "Above about 100 to 125 mOsm/kg",
+       "Variable"
+      ],
+      [
+       "Effect of fasting",
+       "Continues",
+       "Stops",
+       "Often continues"
+      ],
+      [
+       "Stool features",
+       "Large volume, watery, high Na+",
+       "Watery, low Na+; acidic with lactose",
+       "Blood, leukocytes, mucus; fever"
+      ]
+     ],
+     "caption": "Gap and fasting separate secretory from osmotic; blood and leukocytes mark inflammatory."
+    },
+    {
+     "type": "example",
+     "title": "Calculating the stool osmotic gap",
+     "text": "Stool 1 has Na+ 110 mmol/L and K+ 30 mmol/L. The sum is 140, doubled is 280, and 290 minus 280 gives a gap of 10 mOsm/kg. Electrolytes explain almost all stool osmolality, so the diarrhea is secretory, as in cholera, and will persist during a fast. Stool 2 has Na+ 25 mmol/L and K+ 35 mmol/L. The sum is 60, doubled is 120, and the gap is 170 mOsm/kg, an unmeasured solute such as lactose or magnesium, so the diarrhea is osmotic and should stop with fasting."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Anatomy and histology explain where things happen: villus height, the brush border, and segment-specific carriers place iron and folate uptake proximally and B12 and bile acid uptake in the terminal ileum, and lacteals give long-chain fat a lymphatic route that bypasses the liver. Biochemistry explains why carriers matter: the Na+/K+-ATPase powers nearly every apical uptake step directly or through NHE3, mRNA editing makes apoB-48, and tryptophan feeds niacin synthesis, which is why Hartnup disease looks like pellagra. The same carriers in the proximal tubule explain why Hartnup disease and cystinuria show up in urine."
+  },
+  {
+   "type": "p",
+   "text": "Microbiology and pathology show what happens when the system is pushed. Toxins turn on crypt secretion through cAMP or cGMP, invasive organisms and inflammatory bowel disease destroy absorptive surface, and resection or Crohn disease of the ileum breaks the enterohepatic circulation, leading to diarrhea, steatorrhea, gallstones, and oxalate stones. The limits of these rules matter: the 100 cm resection boundary and the osmotic gap cutoffs are approximate, inflammatory and mixed diarrheas do not fit the gap neatly, and the remaining bowel adapts over months, so findings change with time after injury."
+  }
+ ],
+ "summary": [
+  "SGLT1 moves glucose and galactose in with 2 Na+ (secondary active), GLUT5 lets fructose in by facilitated diffusion, and GLUT2 releases all three to portal blood.",
+  "Oral rehydration works because cholera toxin spares SGLT1, so Na+-coupled glucose uptake restores Na+ and water absorption.",
+  "Free amino acids enter mostly on Na+-coupled class-specific carriers; dipeptides and tripeptides enter on H+-coupled PepT1.",
+  "Hartnup disease is loss of the neutral amino acid carrier B0AT1 in gut and kidney, giving neutral aminoaciduria and pellagra-like findings from low tryptophan-derived niacin.",
+  "Long-chain fat needs micelles, re-esterification, MTP, and apoB-48 to leave the enterocyte as chylomicrons into lacteals; medium-chain fatty acids go directly to portal blood.",
+  "Abetalipoproteinemia (MTP loss) causes steatorrhea, absent apoB lipoproteins, acanthocytes, and vitamin E deficiency with ataxia and retinopathy.",
+  "Iron and active calcium are absorbed in the duodenum, folate in the duodenum and proximal jejunum, and B12 and bile acids only in the terminal ileum.",
+  "About 95% of bile acids are reclaimed by ileal ASBT; limited ileal loss causes bile acid diarrhea, extensive loss causes steatorrhea, and both raise the risk of cholesterol gallstones.",
+  "Secretory diarrhea has a low stool osmotic gap and continues during fasting; osmotic diarrhea has a high gap and stops with fasting; inflammatory diarrhea has blood, leukocytes, and fever."
+ ],
+ "sources": [
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Digestion and Absorption in the Gastrointestinal Tract"
+  },
+  {
+   "book": "Boron and Boulpaep Medical Physiology",
+   "where": "Nutrient digestion and absorption; intestinal fluid and electrolyte movement"
+  },
+  {
+   "book": "Lippincott Illustrated Reviews: Biochemistry",
+   "where": "Metabolism of dietary lipids; digestion of dietary proteins; niacin and Hartnup disease"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "The Gastrointestinal Tract, sections on malabsorption and diarrhea"
+  },
+  {
+   "book": "Jawetz, Melnick and Adelberg's Medical Microbiology",
+   "where": "Vibrio cholerae and cholera toxin"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Gastrointestinal Disease, sections on diarrhea and malabsorption"
+  }
+ ],
+ "verify": [
+  "Stool osmotic gap cutoffs vary between sources (secretory below about 50 mOsm/kg; osmotic above 100 or above 125 mOsm/kg); confirm the values NABNE uses.",
+  "The roughly 100 cm boundary between bile acid diarrhea and steatorrhea after ileal resection is a widely quoted approximation; confirm the figure NABNE expects.",
+  "Bile acid pool size (about 2 to 4 g), cycling frequency (several times a day), daily fecal loss (about 0.5 g), and the maximal increase in hepatic synthesis vary between texts.",
+  "The fraction of absorbed amino nitrogen entering as peptides through PepT1 is not agreed; this chapter states only that it is a large share.",
+  "The tryptophan to niacin conversion ratio of about 60 to 1 is the usual nutritional estimate and may vary with source.",
+  "Gallstones after ileal disease are taught as cholesterol stones, but some studies of Crohn disease find pigment stones from increased bilirubin cycling; confirm which NABNE expects.",
+  "Body B12 stores (about 2 to 5 mg, mostly hepatic) and time to deficiency after loss of absorption (several years) are quoted differently between sources.",
+  "Some research proposes transient apical GLUT2 insertion at high luminal glucose; this chapter uses the standard exam model with GLUT2 on the basolateral membrane only.",
+  "Confirm whether NABNE Part I expects transporter names such as B0AT1, ASBT, NTCP, DMT1, and cubilin-amnionless, or only the functional descriptions.",
+  "Requested new diagram name for a future revision: enterocyte-transport (one enterocyte with apical and basolateral carriers for sugars, amino acids, peptides, and fat)."
+ ]
+}

@@ -13,7 +13,8 @@
           "Type 2 islets show amyloid deposits made of amylin (islet amyloid polypeptide).",
           "Type 2 is tied to obesity (especially visceral fat), inactivity, and family history; twin concordance is higher than in type 1.",
           "Type 1 is ketosis prone; in type 2, the remaining insulin usually holds back lipolysis and ketone production."
-        ]
+        ],
+        "why": "Type 1 diabetes is a cell-mediated autoimmune disease: CD4 T cells recognize beta cell antigens on susceptible HLA class II molecules and help CD8 T cells kill beta cells, and the islet autoantibodies mark that attack rather than cause it. Because islet reserve is large, hyperglycemia appears only after most beta cell mass is gone. In type 2 diabetes, insulin resistance forces beta cells to secrete more, and over years glucotoxicity, lipotoxicity, and amylin deposits wear them down. Ketosis depends on how much insulin remains, because far less insulin is needed to suppress lipolysis than to drive glucose into muscle."
       },
       {
         "h": "Diagnosis and HbA1c",
@@ -24,7 +25,8 @@
           "HbA1c is hemoglobin that glucose has attached to nonenzymatically, so it rises with average glucose.",
           "Red cells live about 120 days, so HbA1c reflects about the last 3 months.",
           "HbA1c reads falsely low when red cells turn over fast (hemolysis, recent blood loss)."
-        ]
+        ],
+        "why": "Glucose enters red cells through GLUT1 without insulin and attaches nonenzymatically to the N-terminal valine of the hemoglobin beta chain, first as a reversible Schiff base and then as a stable Amadori product. HbA1c therefore tracks the average glucose a red cell has seen over its lifespan. Anything that shortens red cell survival lowers the average age of circulating cells, so HbA1c underestimates true glycemia. The diagnostic cutoffs sit where the risk of diabetic retinopathy begins to climb."
       },
       {
         "h": "Acute crises: DKA and HHS",
@@ -35,7 +37,8 @@
           "Serum potassium is often high in DKA because insulin lack and hyperosmolality shift potassium out of cells, yet total body potassium is low from urinary loss.",
           "HHS: usually older type 2 patients; glucose often above 600 mg/dL and osmolality above 320 mOsm/kg cause severe dehydration and confusion or coma.",
           "HHS has little or no ketosis because a small amount of insulin is enough to block ketogenesis."
-        ]
+        ],
+        "why": "Ketogenesis needs a high glucagon to insulin ratio: fatty acids pour out of adipose tissue, and falling hepatic malonyl-CoA lifts its inhibition of carnitine palmitoyltransferase I (CPT I), so fatty acids enter mitochondria for beta-oxidation. The excess acetyl-CoA is turned into ketoacids, whose hydrogen ions consume bicarbonate and leave unmeasured anions that widen the anion gap. In HHS, residual insulin keeps CPT I inhibited, so the main problem becomes prolonged osmotic diuresis with severe water loss and rising osmolality, which shrinks brain cells and clouds consciousness."
       },
       {
         "h": "Why chronic hyperglycemia damages tissue",
@@ -46,7 +49,8 @@
           "Polyol pathway: aldose reductase turns glucose into sorbitol in tissues that take up glucose without insulin (lens, nerves, retina, kidney).",
           "Sorbitol is trapped and pulls in water (osmotic injury); the reaction uses NADPH, leaving less glutathione to fight oxidants.",
           "Results: the polyol pathway gives cataracts (lens) and peripheral neuropathy (Schwann cells and nerves); AGEs and vessel injury speed up atherosclerosis, leading to MI, stroke, and peripheral artery disease."
-        ]
+        ],
+        "why": "Cells that take up glucose without insulin cannot limit their internal glucose, so it rises with blood glucose. In the lens and Schwann cells, aldose reductase reduces the excess to sorbitol, which cannot cross membranes and draws in water, while the NADPH it consumes is no longer available to regenerate reduced glutathione. Slow nonenzymatic glycation of long-lived proteins such as collagen builds AGEs that cross-link matrix and trap plasma proteins, which explains basement membrane thickening and hyaline arteriolosclerosis in the kidney and retina."
       },
       {
         "h": "Metabolic syndrome",
@@ -55,7 +59,8 @@
           "Waist cutoffs (US): over 102 cm (40 in) in men, over 88 cm (35 in) in women.",
           "Insulin resistance is the common thread: visceral fat floods the liver with free fatty acids, so the liver makes more VLDL (high triglycerides, low HDL).",
           "Acanthosis nigricans: velvety dark plaques in the neck folds and axillae; high insulin stimulates IGF-1 receptors on keratinocytes and fibroblasts."
-        ]
+        ],
+        "why": "Visceral fat resists the antilipolytic effect of insulin and drains straight into the portal vein, so the liver receives a large load of free fatty acids and packages them as triglyceride in VLDL. Cholesteryl ester transfer protein then swaps VLDL triglyceride for HDL cholesteryl ester, and the triglyceride-rich HDL is cleared faster, so HDL falls. The compensatory hyperinsulinemia stimulates IGF-1 receptors in skin (acanthosis nigricans) and increases renal sodium reabsorption, which contributes to hypertension."
       }
     ],
     "charts": [
@@ -288,6 +293,40 @@
       "EN-7",
       "EN-10",
       "EN-12-G2"
+    ],
+    "flows": [
+      {
+        "title": "Hyperglycemia to polyuria and polydipsia",
+        "steps": [
+          "Plasma glucose rises above the renal threshold of about 180 mg/dL.",
+          "Filtered glucose exceeds proximal tubule sodium-glucose cotransporter (SGLT) capacity.",
+          "Unabsorbed glucose stays in tubular fluid and holds water osmotically.",
+          "Osmotic diuresis causes polyuria with loss of water, sodium, and potassium.",
+          "Volume depletion and rising plasma osmolality trigger thirst (polydipsia)."
+        ]
+      },
+      {
+        "title": "Pathogenesis of diabetic ketoacidosis",
+        "steps": [
+          "Insulin deficiency with high glucagon.",
+          "Unchecked adipose lipolysis releases free fatty acids to the liver.",
+          "Low malonyl-CoA disinhibits CPT I, so fatty acids enter mitochondria.",
+          "Beta-oxidation floods mitochondria with acetyl-CoA.",
+          "Acetyl-CoA forms acetoacetate and beta-hydroxybutyrate.",
+          "Ketoacids consume bicarbonate, causing anion gap metabolic acidosis.",
+          "Respiratory compensation produces deep, rapid Kussmaul breathing."
+        ]
+      },
+      {
+        "title": "Polyol pathway injury",
+        "steps": [
+          "Hyperglycemia raises glucose inside insulin-independent cells (lens, Schwann cells).",
+          "Aldose reductase reduces glucose to sorbitol, consuming NADPH.",
+          "Sorbitol accumulates because it cannot cross cell membranes.",
+          "Water follows sorbitol into cells, and less NADPH means less reduced glutathione.",
+          "Osmotic and oxidative injury causes cataracts and peripheral neuropathy."
+        ]
+      }
     ]
   },
   {
@@ -302,7 +341,8 @@
           "It stays connected to the tongue by the thyroglossal duct, which normally disappears.",
           "A pyramidal lobe is a normal remnant of the lower end of the duct.",
           "If part of the duct persists, its lining secretes fluid and forms a cyst anywhere along the path."
-        ]
+        ],
+        "why": "The thyroid diverticulum arises from endoderm in the floor of the pharynx at the foramen cecum and descends in the midline, trailing the thyroglossal duct behind it. Because the duct is closely tied to the developing hyoid, the tract usually passes in front of, through, or just behind the middle of the hyoid body. Epithelial remnants anywhere along this tract can keep secreting fluid and form a cyst, so the cyst can sit anywhere in the midline from the tongue base to the thyroid."
       },
       {
         "h": "Clinical picture",
@@ -312,7 +352,8 @@
           "Moves upward with swallowing (tied to the hyoid and larynx) and with tongue protrusion (tract runs to the tongue base).",
           "Lined by respiratory or squamous epithelium; thyroid follicles may sit in the wall.",
           "Complications: infection from mouth bacteria through the tract, abscess, a draining sinus or fistula, and rarely papillary thyroid carcinoma in the cyst."
-        ]
+        ],
+        "why": "The cyst stays tethered to the hyoid and, through the remnant tract, to the foramen cecum, so it rises when the larynx elevates during swallowing and when the tongue is protruded. Its lining, ciliated respiratory-type or squamous epithelium, reflects the duct's endodermal origin, and thyroid follicles can persist in the wall. A tract that stays open to the mouth lets oral flora seed the cyst, and follicular cells in the wall are the source of the rare papillary carcinoma."
       },
       {
         "h": "Lateral look-alike: branchial cleft cyst",
@@ -321,7 +362,8 @@
           "Sits on the lateral neck along the anterior border of the sternocleidomastoid, below the angle of the jaw.",
           "Does not move with swallowing or tongue protrusion.",
           "Can also become infected, often after an upper respiratory infection."
-        ]
+        ],
+        "why": "A branchial cleft cyst comes from the cervical sinus, a lateral pocket that forms when the second pharyngeal arch grows down over the second, third, and fourth clefts and normally closes it off. It lies lateral to the midline structures and has no attachment to the hyoid or the tongue, so it does not move with swallowing or tongue protrusion. Its wall often contains lymphoid tissue that swells during upper respiratory infections, which is why it tends to enlarge or become infected after a cold."
       },
       {
         "h": "Why check the thyroid first",
@@ -330,7 +372,8 @@
           "Removing it would leave the patient permanently hypothyroid.",
           "Neck ultrasound or a thyroid scan confirms a normally placed gland before surgery.",
           "Standard surgery removes the cyst, the whole tract, and the middle of the hyoid body (Sistrunk procedure) to prevent recurrence."
-        ]
+        ],
+        "why": "When descent fails, thyroid tissue can stay at the tongue base (lingual thyroid) or along the duct, and that ectopic tissue may be the patient's only functioning thyroid. Removing it removes all thyroid hormone production and causes permanent hypothyroidism. Recurrence after simple cyst removal comes from epithelial remnants left along a tract that runs through or near the hyoid, which is why the Sistrunk procedure takes the central hyoid body with the whole tract."
       }
     ],
     "charts": [
@@ -459,6 +502,28 @@
       "EN-1",
       "EN-3",
       "EN-12-G5"
+    ],
+    "flows": [
+      {
+        "title": "Thyroid descent and thyroglossal duct cyst",
+        "steps": [
+          "Thyroid diverticulum buds from pharyngeal floor endoderm at the foramen cecum.",
+          "Gland descends in the midline in front of the hyoid and laryngeal cartilages.",
+          "Thyroglossal duct keeps the descending gland connected to the tongue.",
+          "Gland reaches its final position in front of the trachea by about week 7.",
+          "Duct normally involutes and disappears.",
+          "Persistent duct epithelium secretes fluid and forms a midline cyst."
+        ]
+      },
+      {
+        "title": "Infected thyroglossal duct cyst",
+        "steps": [
+          "Remnant tract keeps the cyst connected to the foramen cecum.",
+          "Oral bacteria reach the cyst through the tract.",
+          "Infection forms an abscess with a tender, enlarging midline mass.",
+          "Abscess drains to the skin, leaving a draining sinus or fistula."
+        ]
+      }
     ]
   },
   {
@@ -471,7 +536,8 @@
           "The anterior pituitary gets most of its blood from the hypophyseal portal veins, a low-pressure system fed by the superior hypophyseal arteries.",
           "The posterior pituitary has a direct arterial supply from the inferior hypophyseal arteries, so it is usually spared.",
           "In pregnancy, estrogen-driven lactotroph hyperplasia enlarges the anterior pituitary, raising its oxygen demand without a matching rise in blood supply."
-        ]
+        ],
+        "why": "The anterior pituitary has almost no direct arterial supply: its blood first passes through capillaries in the median eminence and then reaches the gland at low pressure through the long portal veins. When systemic pressure falls, this second capillary bed loses perfusion first, while the posterior lobe, fed directly by the inferior hypophyseal arteries, keeps its flow. In pregnancy, lactotroph hyperplasia enlarges the anterior lobe inside the fixed bony sella, so demand rises while supply does not."
       },
       {
         "h": "Sheehan syndrome (postpartum pituitary necrosis)",
@@ -480,7 +546,8 @@
           "Necrosis must destroy most of the anterior pituitary before symptoms appear.",
           "Onset can be right after delivery or months to years later.",
           "Diabetes insipidus is uncommon because the posterior lobe usually survives."
-        ]
+        ],
+        "why": "Hemorrhagic shock triggers intense sympathetic vasoconstriction, and spasm of the hypophyseal arteries cuts portal flow to the enlarged lobe, causing ischemic necrosis. Each anterior pituitary hormone has large reserve, so clinical deficiency usually appears only after about 75% of the gland is destroyed. The amount of tissue lost varies, which explains why some women fail to lactate right after delivery while others present years later with milder deficits."
       },
       {
         "h": "Predicting the presentation",
@@ -491,7 +558,8 @@
           "Low TSH: cold intolerance, weight gain, constipation, slow reflexes.",
           "Low GH: hypoglycemia tendency and reduced muscle mass.",
           "Loss of axillary and pubic hair from low adrenal and ovarian androgens."
-        ]
+        ],
+        "why": "Each deficit follows from the target gland that loses its trophic hormone. ACTH loss shrinks the zona fasciculata and reticularis, but the zona glomerulosa is driven mainly by angiotensin II and potassium, so aldosterone is preserved and hyperkalemia is uncommon; hyponatremia arises because cortisol deficiency allows ADH release and impairs free water excretion. With no excess POMC there is no extra stimulation of melanocortin 1 receptors on melanocytes, so the skin does not darken as it does in primary adrenal insufficiency."
       },
       {
         "h": "Pituitary apoplexy",
@@ -502,7 +570,8 @@
           "Ophthalmoplegia from compression of the cavernous sinuses beside the sella (CN III, IV, VI).",
           "Acute loss of ACTH causes adrenal crisis with shock and hypoglycemia; glucocorticoids are life-saving.",
           "Triggers include anticoagulation, head trauma, pregnancy, and surgery."
-        ]
+        ],
+        "why": "Adenomas outgrow their blood supply and have fragile vessels, so they can bleed or infarct, and the sudden rise in volume inside the rigid sella pushes tissue upward and sideways. Upward expansion compresses the crossing nasal retinal fibers in the optic chiasm, producing bitemporal field loss, and lateral expansion compresses CN III, IV, and VI as they run through the cavernous sinuses. Blood irritates the meninges, and abrupt loss of ACTH removes cortisol at a time of stress, causing hemodynamic collapse."
       }
     ],
     "charts": [
@@ -662,6 +731,29 @@
       "EN-5",
       "EN-12-B4",
       "EN-12-G4"
+    ],
+    "flows": [
+      {
+        "title": "Pathogenesis of Sheehan syndrome",
+        "steps": [
+          "Pregnancy: lactotroph hyperplasia enlarges the anterior pituitary.",
+          "Severe postpartum hemorrhage causes hypovolemic shock.",
+          "Hypotension and vasospasm cut flow through the low-pressure portal veins.",
+          "Anterior lobe undergoes ischemic necrosis; the posterior lobe is spared.",
+          "Prolactin, gonadotropins, ACTH, TSH, and GH become deficient.",
+          "Failure to lactate, amenorrhea, fatigue, hypotension, and cold intolerance."
+        ]
+      },
+      {
+        "title": "Pituitary apoplexy to adrenal crisis",
+        "steps": [
+          "Hemorrhage or infarction occurs in a pituitary macroadenoma.",
+          "Sudden expansion inside the rigid sella compresses remaining pituitary tissue.",
+          "ACTH secretion stops abruptly.",
+          "Cortisol falls during the stress of the event.",
+          "Adrenal crisis: refractory hypotension, shock, and hypoglycemia."
+        ]
+      }
     ]
   },
   {
@@ -677,7 +769,8 @@
           "Metastases (lung, breast) to the adrenal are more common than primary adrenal carcinoma.",
           "Neuroblastoma: adrenal medulla tumor of children under about 5, from neural crest; N-MYC amplification predicts a worse outcome.",
           "Neuroblastoma shows Homer Wright rosettes, raises urine HVA and VMA, and can cause opsoclonus-myoclonus."
-        ]
+        ],
+        "why": "A cortisol-secreting adenoma makes cortisol on its own, and the excess suppresses CRH and ACTH by negative feedback; without ACTH, the fasciculata and reticularis of all normal adrenal tissue atrophy. Neuroblastoma arises from neural crest-derived sympathetic precursors, so it keeps the catecholamine pathway and excretes the breakdown products HVA (from dopamine) and VMA (from norepinephrine and epinephrine). N-MYC amplification drives proliferation and marks aggressive tumors. Adrenal metastases outnumber primary carcinomas, in part because the adrenals receive a rich blood supply for their size."
       },
       {
         "h": "Pancreatic neuroendocrine tumors and hypoglycemia",
@@ -688,7 +781,8 @@
           "Injected insulin gives high insulin with low C-peptide, because commercial insulin has no C-peptide and it suppresses the patient's own release.",
           "Glucagonoma (alpha cell): hyperglycemia, necrolytic migratory erythema, weight loss.",
           "Somatostatinoma (delta cell): diabetes, gallstones, steatorrhea, achlorhydria, because somatostatin blocks insulin, CCK, pancreatic enzymes, and gastrin."
-        ]
+        ],
+        "why": "Beta cells cleave proinsulin into insulin and C-peptide in equal amounts, so C-peptide is a marker of the patient's own insulin secretion. An insulinoma keeps secreting when glucose is low, when normal beta cells would shut off, so insulin and C-peptide both stay inappropriately high. Injected insulin lowers glucose, which shuts down endogenous secretion, so C-peptide falls. Somatostatinoma findings follow from broad inhibition: less CCK leaves the gallbladder stagnant (stones), less pancreatic enzyme causes steatorrhea, less gastrin and acid causes achlorhydria, and less insulin causes diabetes."
       },
       {
         "h": "Parathyroid and pituitary tumors",
@@ -700,7 +794,8 @@
           "Prolactinoma is the most common functional pituitary adenoma; prolactin suppresses GnRH.",
           "Nonfunctioning macroadenoma: bitemporal hemianopia (crossing nasal fibers in the chiasm), headache, hypopituitarism, mild hyperprolactinemia from stalk compression.",
           "Craniopharyngioma: suprasellar tumor from Rathke pouch, calcified and cystic with oily fluid; causes headache, bitemporal hemianopia, diabetes insipidus, and growth failure in children."
-        ]
+        ],
+        "why": "A parathyroid adenoma is a clonal growth with a raised calcium set point, so it keeps secreting PTH despite hypercalcemia, and the high calcium suppresses the other glands. Prolactin inhibits hypothalamic GnRH pulses, lowering LH and FSH and causing amenorrhea, infertility, and low libido. A nonfunctioning macroadenoma raises prolactin mildly because stalk compression stops hypothalamic dopamine from reaching lactotrophs, removing their tonic inhibition (the stalk effect). Growth upward presses on the chiasm, where the crossing nasal retinal fibers carry the temporal visual fields."
       },
       {
         "h": "Thyroid nodules and cancers",
@@ -712,7 +807,8 @@
           "Anaplastic carcinoma: older adults, rapidly growing invasive mass with dysphagia and hoarseness, TP53 mutations, nearly always fatal.",
           "Euthyroid (nontoxic) diffuse or multinodular goiter: normal TSH, compression causes dysphagia, dyspnea, or stridor.",
           "A cold nodule (no radioiodine uptake) carries a higher cancer risk than a hot nodule, though most cold nodules are still benign."
-        ]
+        ],
+        "why": "Cytology shows only individual cells, and follicular adenoma and carcinoma have the same cells; capsular and vascular invasion are features of tissue architecture, seen only in the excised nodule. Follicular carcinoma invades veins, so it spreads through blood, while papillary carcinoma favors lymphatics and reaches cervical nodes. Medullary carcinoma arises from parafollicular C cells, so it secretes calcitonin, which deposits as amyloid; germline activating RET mutations explain its link to MEN2. A cold nodule does not trap iodine, a sign of lost differentiated follicular function, which is why it carries more cancer risk."
       },
       {
         "h": "Pheochromocytoma and paraneoplastic syndromes",
@@ -723,7 +819,8 @@
           "Associated with MEN2A, MEN2B, von Hippel-Lindau disease, and neurofibromatosis type 1.",
           "Small cell lung carcinoma can secrete ACTH (Cushing syndrome) or ADH (SIADH with hyponatremia).",
           "PTH-related peptide from squamous cell lung carcinoma or renal cell carcinoma causes hypercalcemia with suppressed PTH."
-        ]
+        ],
+        "why": "Pheochromocytoma releases catecholamines in bursts or continuously; alpha-1 stimulation constricts vessels and raises blood pressure, and beta-1 stimulation causes tachycardia and palpitations. Inside the tumor, catechol-O-methyltransferase converts catecholamines to metanephrines, which leak out steadily, so metanephrine levels are more sensitive than episodic catecholamine levels. Paraneoplastic syndromes occur when a tumor makes a hormone its tissue of origin does not normally make; PTHrP binds the PTH receptor and raises calcium, which in turn suppresses the parathyroids, so PTH is low."
       }
     ],
     "charts": [
@@ -978,6 +1075,37 @@
       "EN-12-A1",
       "EN-12-A2",
       "NE-20-F3"
+    ],
+    "flows": [
+      {
+        "title": "Insulinoma to Whipple triad",
+        "steps": [
+          "Beta cell tumor secretes insulin even when glucose is low.",
+          "Insulin suppresses hepatic glucose output and drives uptake into muscle and fat.",
+          "Plasma glucose falls during fasting or exercise.",
+          "Adrenergic symptoms (sweating, tremor, palpitations) and neuroglycopenia (confusion) follow.",
+          "Giving glucose relieves symptoms, completing the Whipple triad."
+        ]
+      },
+      {
+        "title": "Humoral hypercalcemia of malignancy",
+        "steps": [
+          "Squamous cell lung carcinoma secretes PTHrP.",
+          "PTHrP binds the PTH receptor on bone and kidney.",
+          "Osteoclast activation and renal calcium reabsorption raise serum calcium.",
+          "Hypercalcemia suppresses PTH secretion by the normal parathyroids.",
+          "Labs: high calcium, low PTH, high PTHrP."
+        ]
+      },
+      {
+        "title": "Stalk effect in a nonfunctioning macroadenoma",
+        "steps": [
+          "Macroadenoma grows upward and compresses the pituitary stalk.",
+          "Hypothalamic dopamine can no longer reach lactotrophs through the portal veins.",
+          "Lactotrophs lose tonic dopamine inhibition.",
+          "Prolactin rises mildly despite a nonsecreting tumor."
+        ]
+      }
     ]
   },
   {
@@ -994,7 +1122,8 @@
           "Fever, sudden anterior neck pain, a hot, red, tender thyroid lobe, and pain on swallowing.",
           "Thyroid function is usually normal; leukocytosis and raised ESR are common.",
           "Complications: abscess, spread into deep neck spaces or mediastinum, airway compromise, sepsis."
-        ]
+        ],
+        "why": "The thyroid resists infection because it is encapsulated, richly supplied with blood and lymphatics, and high in iodine, which is bactericidal. Infection therefore usually needs a structural route, most often a piriform sinus fistula, a remnant of the third or fourth pharyngeal pouch that runs from the piriform sinus to the thyroid and occurs far more often on the left. The infection is usually focal, so enough normal follicles remain to keep thyroid function normal, which helps separate it from subacute thyroiditis."
       },
       {
         "h": "Waterhouse-Friderichsen syndrome: mechanism",
@@ -1005,7 +1134,8 @@
           "DIC forms microthrombi and consumes platelets and clotting factors, so the adrenals bleed and infarct.",
           "Loss of cortisol removes vascular tone support (cortisol lets vessels respond to catecholamines), so shock does not respond to fluids alone.",
           "Loss of aldosterone adds salt wasting, hyponatremia, and hyperkalemia."
-        ]
+        ],
+        "why": "Meningococci shed lipooligosaccharide in membrane blebs, and its lipid A activates TLR4 on monocytes and endothelium, releasing TNF and IL-1. These cytokines induce tissue factor and impair the protein C and antithrombin systems, tipping the vessel wall toward thrombosis and DIC. The adrenal has a rich arterial inflow but limited venous drainage, so microthrombi and capillary injury produce hemorrhagic infarction. Cortisol normally keeps vascular smooth muscle responsive to catecholamines (a permissive effect), so its sudden loss makes the shock refractory."
       },
       {
         "h": "Waterhouse-Friderichsen syndrome: clinical picture",
@@ -1016,7 +1146,8 @@
           "Labs: low platelets, prolonged PT and PTT, low fibrinogen, high D-dimer.",
           "Risk: terminal complement deficiency (C5 to C9), asplenia, crowded living such as dormitories.",
           "Very high mortality; survival needs antibiotics plus glucocorticoid replacement."
-        ]
+        ],
+        "why": "The petechiae and purpura come from DIC microthrombi and direct endothelial injury by meningococci, so they spread quickly and do not blanch. The labs show consumption: platelets and fibrinogen fall, clotting times lengthen, and fibrin breakdown raises D-dimer. Complement components C5 through C9 form the membrane attack complex, the main defense that lyses Neisseria, so their deficiency predisposes to invasive and recurrent Neisseria infection. The spleen clears opsonized encapsulated bacteria, so asplenia raises the risk as well."
       }
     ],
     "charts": [
@@ -1178,6 +1309,29 @@
       "EN-12-C2",
       "HE-9-C1",
       "NE-20-G8"
+    ],
+    "flows": [
+      {
+        "title": "Pathogenesis of Waterhouse-Friderichsen syndrome",
+        "steps": [
+          "Neisseria meningitidis invades the bloodstream (meningococcemia).",
+          "Lipooligosaccharide triggers massive TNF and IL-1 release.",
+          "Endothelial injury and tissue factor expression trigger DIC.",
+          "Microthrombi and consumed clotting factors cause bilateral adrenal hemorrhage.",
+          "Cortisol and aldosterone are lost abruptly.",
+          "Refractory shock, hypoglycemia, hyponatremia, and hyperkalemia."
+        ]
+      },
+      {
+        "title": "Acute suppurative thyroiditis from a piriform sinus fistula",
+        "steps": [
+          "Piriform sinus fistula persists, usually on the left.",
+          "Oropharyngeal bacteria travel along the tract to the thyroid.",
+          "Neutrophilic infection forms an abscess in one thyroid lobe.",
+          "Fever, painful tender lobe, and pain on swallowing.",
+          "Untreated, infection spreads to deep neck spaces or mediastinum."
+        ]
+      }
     ]
   }
 ]

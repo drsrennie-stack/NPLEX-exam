@@ -11,7 +11,8 @@
           "The carriers saturate. Glucose starts to spill into urine at a plasma level of about 200 mg/dL (renal threshold); all nephrons are saturated at the transport maximum (about 375 mg/min).",
           "Glucose left in the tubule holds water with it (osmotic diuresis): polyuria, thirst, and volume depletion in uncontrolled diabetes.",
           "Glucosuria with normal plasma glucose points to a proximal tubule defect (Fanconi syndrome) or a lower threshold in pregnancy."
-        ]
+        ],
+        "why": "SGLT2 and SGLT1 use the sodium gradient built by the basolateral Na/K-ATPase, so glucose entry is secondary active transport limited by a fixed number of carriers. Nephrons differ in carrier number and filtered load, so some saturate before others (splay), which is why glucose appears in urine at about 200 mg/dL, well before every nephron reaches its transport maximum. Glucose left in the lumen acts as an osmole and holds water and sodium in the tubule, causing polyuria and volume depletion. Glucosuria with a normal plasma glucose therefore means the carriers or their sodium gradient have failed while the filtered load is normal."
       },
       {
         "h": "Three kinds of proteinuria",
@@ -20,7 +21,8 @@
           "Overflow: a normal filter is overwhelmed by small proteins made in excess, such as Bence Jones light chains in multiple myeloma.",
           "Tubular: small proteins (beta-2 microglobulin, light chains) are filtered normally but the proximal tubule fails to reclaim them; usually under 2 g/day.",
           "The dipstick misses most light chains and tubular proteins; urine protein electrophoresis or immunofixation finds them."
-        ]
+        ],
+        "why": "The glomerular wall restricts protein by size and by negative charge, so albumin, which is large and anionic, normally stays in plasma, while small proteins pass the filter and are reclaimed by megalin and cubilin mediated endocytosis in the proximal tubule. Each type of proteinuria breaks one step of this system: the barrier (glomerular), the amount presented to it (overflow), or the reclaiming step (tubular). The dipstick reagent reacts mainly with albumin, so a weak dipstick with a high measured urine protein suggests light chains or tubular proteins."
       },
       {
         "h": "Calcium, phosphate, vitamin D, and magnesium",
@@ -29,7 +31,8 @@
           "1-alpha-hydroxylase is turned up by PTH and low phosphate and turned down by FGF23 and high phosphate.",
           "Calcitriol raises gut absorption of calcium and phosphate.",
           "Low magnesium blocks PTH release and causes PTH resistance, so hypocalcemia will not correct until magnesium is replaced."
-        ]
+        ],
+        "why": "Calcitriol synthesis is the step the kidney controls, so 1-alpha-hydroxylase sits at the center of mineral balance. PTH and low phosphate turn it on to raise gut absorption of calcium and phosphate, while FGF23 from bone turns it off and also reduces proximal phosphate reabsorption, so a phosphate excess is corrected without raising calcitriol. Magnesium is needed both for PTH secretion and for PTH action at its receptor, which is why severe hypomagnesemia causes hypocalcemia with an inappropriately low PTH that corrects only after magnesium is replaced."
       },
       {
         "h": "Potassium shifts and the ECG",
@@ -38,7 +41,8 @@
           "Out of cells (raises serum K): acidosis, cell lysis (rhabdomyolysis, tumor lysis, hemolysis), insulin deficiency, and hyperosmolality (water leaves cells and drags K with it).",
           "Hyperkalemia ECG: peaked T waves, then PR prolongation and loss of P waves, a wide QRS, a sine wave, and ventricular fibrillation.",
           "Hypokalemia ECG: flat T waves, ST depression, and U waves; muscle weakness and arrhythmias."
-        ]
+        ],
+        "why": "About 98 percent of body potassium is inside cells, so a small shift across cell membranes changes serum potassium a great deal. Insulin and beta-2 agonists activate Na/K-ATPase and pull potassium into cells, while in acidosis hydrogen ions enter cells and potassium leaves to keep electrical balance. The ECG follows membrane physiology: high extracellular potassium speeds repolarization (peaked T waves), then partly depolarizes the resting membrane and inactivates fast sodium channels, slowing conduction and widening the QRS. Low potassium hyperpolarizes the resting membrane and delays repolarization, producing U waves and arrhythmia risk."
       },
       {
         "h": "Erythropoietin",
@@ -47,7 +51,8 @@
           "Hypoxia stabilizes HIF, which switches on the EPO gene; EPO keeps red cell precursors alive in the marrow.",
           "Chronic kidney disease: lost EPO-producing tissue gives a normocytic, normochromic anemia.",
           "Renal cell carcinoma can make EPO on its own, giving secondary polycythemia with a high EPO level."
-        ]
+        ],
+        "why": "Under normal oxygen, prolyl hydroxylases modify HIF-alpha so the VHL protein can tag it for proteasomal breakdown. When oxygen delivery falls, hydroxylation stops, HIF accumulates, and it turns on EPO transcription; EPO then prevents apoptosis of erythroid progenitors in the marrow and expands red cell output. The kidney senses oxygen delivery, so both anemia and hypoxemia raise EPO, while loss of the interstitial producer cells in chronic kidney disease gives an anemia with an inappropriately low EPO level."
       },
       {
         "h": "Ethylene glycol and nephrotic lipids",
@@ -58,7 +63,8 @@
           "Blocking alcohol dehydrogenase (fomepizole, or ethanol as a competing substrate) stops toxic acids from forming.",
           "Nephrotic syndrome: the liver makes more lipoproteins in response to low oncotic pressure, and lipoprotein breakdown slows, so cholesterol and LDL rise.",
           "Lipiduria shows as oval fat bodies and fatty casts; their cholesterol esters give a Maltese cross under polarized light."
-        ]
+        ],
+        "why": "Ethylene glycol itself is not very toxic; harm comes from its oxidation by alcohol dehydrogenase and aldehyde dehydrogenase into organic acids. The parent alcohol is an unmeasured osmole early, and as it is converted to acids the osmolal gap falls while the anion gap rises, so the time since ingestion changes the lab picture. Oxalate chelates calcium and precipitates in tubules, explaining hypocalcemia and crystal injury. In nephrotic syndrome, low oncotic pressure stimulates hepatic lipoprotein synthesis and reduced lipoprotein lipase activity slows clearance, so LDL and cholesterol rise and filtered lipid appears in urine."
       }
     ],
     "charts": [
@@ -254,6 +260,40 @@
       "UR-12-B",
       "UR-12-G",
       "EN-12-D"
+    ],
+    "flows": [
+      {
+        "title": "Glucose handling and osmotic diuresis",
+        "steps": [
+          "Glucose is filtered freely at the glomerulus.",
+          "SGLT2 and SGLT1 carry glucose into proximal tubule cells with sodium.",
+          "GLUT2 moves glucose out across the basolateral membrane into blood.",
+          "Plasma glucose above about 200 mg/dL saturates carriers in some nephrons.",
+          "Unreabsorbed glucose holds water in the tubule (osmotic diuresis).",
+          "Polyuria, thirst, and volume depletion follow."
+        ]
+      },
+      {
+        "title": "Hypoxia to erythropoietin",
+        "steps": [
+          "Oxygen delivery to renal interstitial cells falls.",
+          "Prolyl hydroxylation of HIF-alpha stops, so VHL cannot tag it.",
+          "HIF accumulates and switches on the EPO gene.",
+          "EPO reaches the marrow and keeps erythroid progenitors alive.",
+          "Red cell mass rises and oxygen delivery recovers."
+        ]
+      },
+      {
+        "title": "Ethylene glycol poisoning",
+        "steps": [
+          "Ingested ethylene glycol raises the osmolal gap.",
+          "Alcohol dehydrogenase converts it to glycolaldehyde.",
+          "Aldehyde dehydrogenase forms glycolic acid, which causes high anion gap acidosis.",
+          "Glycolic acid is converted to glyoxylic acid, then oxalic acid.",
+          "Oxalate binds calcium, causing hypocalcemia.",
+          "Calcium oxalate crystals injure tubules, causing acute kidney injury."
+        ]
+      }
     ]
   },
   {
@@ -268,7 +308,8 @@
           "ADPKD: both kidneys large and full of cysts in adults, flank pain, hematuria, hypertension, liver cysts, berry aneurysms, mitral valve prolapse.",
           "Autosomal recessive (ARPKD): PKHD1 on chromosome 6 (fibrocystin) causes cysts in infants, oligohydramnios with Potter sequence, and congenital hepatic fibrosis.",
           "Dominant pedigree: every generation, both sexes, father to son passing, each child of an affected parent has a 50 percent risk. Recessive: unaffected carrier parents, each child has a 1 in 4 risk."
-        ]
+        ],
+        "why": "Polycystin-1 and polycystin-2 form a complex on the primary cilium that senses tubular flow and lets calcium into the cell. When the complex fails, intracellular calcium falls and cAMP rises, driving epithelial proliferation and CFTR-mediated chloride and fluid secretion into cysts that slowly enlarge and compress normal nephrons and vessels. Polycystins also work in vascular smooth muscle and connective tissue, which explains berry aneurysms and mitral valve prolapse, while ARPKD's fibrocystin defect affects both tubules and bile ducts, which is why it pairs cystic kidneys with congenital hepatic fibrosis."
       },
       {
         "h": "Type IV collagen disease",
@@ -278,7 +319,8 @@
           "Alport triad: hematuria progressing to kidney failure, sensorineural hearing loss, and eye defects (anterior lenticonus).",
           "Electron microscopy in Alport: a split, layered basket-weave basement membrane with areas of thinning and thickening.",
           "Thin basement membrane disease: heterozygous COL4A3 or COL4A4 mutation, a uniformly thin membrane, persistent microscopic hematuria, usually normal kidney function."
-        ]
+        ],
+        "why": "The mature GBM depends on an alpha-3, alpha-4, alpha-5 triple helix, and a defect in any one chain prevents the network from assembling, so the membrane stays weak and splits under filtration pressure. The same collagen network is in the cochlea and the lens capsule, which is why hearing loss and anterior lenticonus travel with the kidney disease. Because the gene is on the X chromosome in most families, hemizygous males progress to kidney failure, while heterozygous females usually have hematuria with variable progression; heterozygous COL4A3 or COL4A4 defects give the milder thin membrane picture."
       },
       {
         "h": "VHL and clear cell carcinoma",
@@ -287,7 +329,8 @@
           "Loss of both copies stabilizes HIF, which drives VEGF (new vessels), PDGF, and EPO, so clear cell tumors are very vascular.",
           "Sporadic clear cell carcinoma: both hits are somatic (often 3p deletion plus mutation of the other copy), one tumor in an older adult.",
           "VHL syndrome (autosomal dominant): one germline hit, so tumors are early, bilateral, and multiple, with cerebellar and retinal hemangioblastomas and pheochromocytoma."
-        ]
+        ],
+        "why": "Under normal oxygen, HIF-alpha is hydroxylated and the VHL protein, part of an E3 ubiquitin ligase, tags it for proteasomal destruction. Without VHL the cell behaves as if it were hypoxic, so HIF stays active and drives VEGF, PDGF, and EPO, which explains the rich vascularity, the tendency to bleed, and paraneoplastic polycythemia. The two-hit model explains the clinical difference: a germline carrier needs only one somatic event in any kidney cell, so tumors are multiple, bilateral, and early, whereas sporadic tumors need two somatic events in the same cell."
       },
       {
         "h": "Wilms tumor genes",
@@ -296,7 +339,8 @@
           "WAGR (11p13 deletion): Wilms tumor, aniridia (PAX6), genitourinary anomalies, and intellectual disability.",
           "Denys-Drash: WT1 point mutation with early diffuse mesangial sclerosis, nephrotic syndrome, and 46,XY disorder of sex development.",
           "Beckwith-Wiedemann: 11p15 imprinting defect (extra IGF2 expression) with macroglossia, organomegaly, hemihyperplasia, omphalocele, and neonatal hypoglycemia."
-        ]
+        ],
+        "why": "WT1 drives the conversion of metanephric mesenchyme into nephron epithelium and is also required for gonadal development, so its loss links Wilms tumor with genitourinary malformation. The WAGR deletion is large enough to remove PAX6 next to WT1, adding aniridia, while the dominant negative WT1 point mutation in Denys-Drash damages podocytes and gonadal differentiation more severely. Beckwith-Wiedemann works through a separate locus, 11p15, where loss of imprinting gives IGF2 expression from both alleles and global overgrowth, including embryonal tumors such as Wilms tumor and hepatoblastoma."
       },
       {
         "h": "Tuberous sclerosis, cystinuria, Fabry",
@@ -307,7 +351,8 @@
           "Cystine dissolves poorly in acidic urine, so it forms hexagonal crystals and stones; the cyanide-nitroprusside test turns red-purple.",
           "Fabry disease (X-linked recessive): alpha-galactosidase A deficiency builds up globotriaosylceramide in vessels, nerves, sweat glands, and kidney.",
           "Fabry signs: angiokeratomas, burning pain in hands and feet, little sweating, corneal whorls, proteinuria leading to kidney failure, and heart and stroke disease."
-        ]
+        ],
+        "why": "Hamartin and tuberin form a complex that inactivates Rheb, the GTPase that switches on mTORC1, so loss of either protein releases mTOR-driven growth and produces hamartomas in many organs. Cystinuria is a transport defect: the shared dibasic amino acid transporter fails in both the proximal tubule and the gut, and only cystine causes disease because it is the least soluble of the four, especially in acidic urine. Fabry disease is a lysosomal storage disorder in which globotriaosylceramide builds up in endothelium, podocytes, and small nerve fibers, which explains the painful neuropathy, anhidrosis, proteinuria, and early stroke and heart disease."
       }
     ],
     "charts": [
@@ -485,6 +530,38 @@
       "UR-12-G",
       "UR-12-C",
       "UR-10"
+    ],
+    "flows": [
+      {
+        "title": "ADPKD pathogenesis",
+        "steps": [
+          "PKD1 or PKD2 mutation impairs polycystins on the primary cilium.",
+          "Calcium entry into tubular cells falls and cAMP rises.",
+          "Cells proliferate and secrete chloride and fluid into the lumen.",
+          "Cysts enlarge and compress nearby nephrons and vessels.",
+          "Renin release and nephron loss cause hypertension and progressive kidney failure."
+        ]
+      },
+      {
+        "title": "VHL loss to clear cell carcinoma",
+        "steps": [
+          "Both VHL copies on chromosome 3p are lost.",
+          "HIF-alpha escapes ubiquitin tagging and proteasomal breakdown.",
+          "Stable HIF turns on VEGF, PDGF, and EPO genes.",
+          "VEGF builds a dense, fragile network of new vessels.",
+          "A vascular clear cell tumor forms, with hematuria and possible polycythemia."
+        ]
+      },
+      {
+        "title": "Alport syndrome",
+        "steps": [
+          "A COL4A5 mutation (usually X-linked) produces a defective type IV collagen chain.",
+          "The alpha-3, alpha-4, alpha-5 network of the GBM cannot assemble normally.",
+          "The GBM thins, thickens, and splits into layers.",
+          "Red cells leak through, giving persistent hematuria from childhood.",
+          "Proteinuria and glomerulosclerosis progress to kidney failure, earliest in males."
+        ]
+      }
     ]
   },
   {
@@ -498,7 +575,8 @@
           "Goodpasture syndrome: the same antibody hits alveolar basement membrane, giving lung hemorrhage plus glomerulonephritis.",
           "Type III (immune complex): complexes deposit or form in place, giving a granular, lumpy pattern. Examples: poststreptococcal GN, lupus nephritis, IgA nephropathy, membranous nephropathy.",
           "Pauci-immune: little or no immunoglobulin on immunofluorescence; ANCA activate neutrophils that damage vessel walls. Examples: granulomatosis with polyangiitis, microscopic polyangiitis."
-        ]
+        ],
+        "why": "The immunofluorescence pattern reflects where the antigen lives. In anti-GBM disease the antigen is a continuous part of the basement membrane (the noncollagenous domain of the alpha-3 chain), so antibody binds evenly and draws a linear line, and the same epitope in alveolar basement membrane explains pulmonary hemorrhage. Immune complexes are discrete clumps, so they give granular deposits, and subendothelial or mesangial deposits that face the blood recruit leukocytes and cause nephritic inflammation. In pauci-immune disease, ANCA-activated neutrophils release proteases and oxygen radicals in the vessel wall, so injury is severe while little immunoglobulin is left behind."
       },
       {
         "h": "Complement as a sorting test",
@@ -507,7 +585,8 @@
           "Low C3 and C4: lupus nephritis (classical pathway); C4 is also low in cryoglobulinemia.",
           "Normal complement: IgA nephropathy, anti-GBM disease, ANCA vasculitis.",
           "Poststreptococcal C3 returns to normal in about 8 weeks; a C3 that stays low suggests membranoproliferative GN."
-        ]
+        ],
+        "why": "Complement levels show which pathway a disease consumes. IgG immune complexes activate the classical pathway through C1, C4, and C2, so lupus lowers both C4 and C3, whereas poststreptococcal GN and C3-driven membranoproliferative disease activate the alternative pathway, which consumes C3 but spares C4. C3 nephritic factor is an autoantibody that stabilizes the alternative pathway C3 convertase, so C3 stays low for months, which separates it from poststreptococcal disease. IgA nephropathy, anti-GBM disease, and ANCA vasculitis injure the kidney locally without large-scale complement consumption, so serum levels stay normal."
       },
       {
         "h": "Small and medium vessel vasculitis",
@@ -517,7 +596,8 @@
           "Polyarteritis nodosa: medium arteries, ANCA negative, spares glomeruli and lungs; renal artery microaneurysms cause infarcts and renin-driven hypertension; linked to hepatitis B.",
           "IgA vasculitis in children: IgA complexes after an upper respiratory infection cause palpable purpura on buttocks and legs, arthralgia, abdominal pain, and intussusception.",
           "IgA vasculitis kidney lesion: mesangial IgA deposits, the same as IgA nephropathy; platelets are normal."
-        ]
+        ],
+        "why": "Vessel size explains the organ pattern. ANCA vasculitides involve capillaries, venules, and arterioles, so they hit glomeruli and alveolar capillaries; PR3-ANCA disease adds granulomatous inflammation of the upper and lower airway, while MPO-ANCA disease lacks granulomas. Polyarteritis nodosa inflames the walls of medium muscular arteries, so it spares capillary beds such as glomeruli and lungs but weakens and narrows renal arteries, causing aneurysms, infarcts, and renin-mediated hypertension. IgA vasculitis is an immune complex disease of small vessels, and its kidney lesion matches IgA nephropathy because the same galactose-deficient IgA1 complexes deposit in the mesangium."
       },
       {
         "h": "Urinary tract defenses",
@@ -527,7 +607,8 @@
           "Infected urothelial cells shed into urine; uromodulin (Tamm-Horsfall protein) binds E. coli type 1 fimbriae.",
           "Obstruction (stones, prostate enlargement, valves) causes stasis; vesicoureteral reflux carries bladder urine to the kidney.",
           "Catheters bypass the urethra and carry biofilm; pregnancy relaxes and compresses the ureters, so bacteriuria often becomes pyelonephritis."
-        ]
+        ],
+        "why": "The bladder clears bacteria mainly by dilution and complete emptying, so anything that leaves residual urine or slows flow (obstruction, neurogenic bladder, catheters) lets bacteria multiply between voids. The oblique intramural ureter acts as a valve that closes as bladder pressure rises; when that segment is too short, vesicoureteral reflux carries infected bladder urine to the renal pelvis and turns cystitis into pyelonephritis and renal scarring. Uromodulin and shedding of infected urothelial cells reduce bacterial adherence, while progesterone-induced ureteral relaxation and uterine compression in pregnancy slow upper tract drainage."
       },
       {
         "h": "Tumor immunity and the hepatitis B vaccine",
@@ -538,7 +619,8 @@
           "The recombinant hepatitis B surface antigen vaccine induces T cell-dependent IgG anti-HBs.",
           "Anti-HBs alone (anti-HBc negative) means vaccine immunity; anti-HBs with anti-HBc means a past infection that resolved.",
           "Preventing hepatitis B prevents its membranous nephropathy, which comes from viral antigen immune complexes."
-        ]
+        ],
+        "why": "CD8 T cells need tumor peptide on MHC class I to recognize a target, so tumors that lose MHC class I escape T cells but become targets for NK cells, which kill when the inhibitory signal from self MHC is missing. PD-L1 on tumor cells binds PD-1 on activated T cells and delivers an inhibitory signal that leads to T cell exhaustion, the basis of checkpoint inhibitor therapy. The hepatitis B vaccine contains only surface antigen, so vaccinated people make anti-HBs but never anti-HBc, which appears only after exposure to the whole virus."
       }
     ],
     "charts": [
@@ -733,6 +815,29 @@
       "UR-12-H",
       "UR-12-G",
       "UR-11"
+    ],
+    "flows": [
+      {
+        "title": "Poststreptococcal glomerulonephritis",
+        "steps": [
+          "Nephritogenic group A streptococci infect the throat or skin.",
+          "Antibodies form and immune complexes deposit in glomeruli weeks later.",
+          "Complexes activate the alternative complement pathway, lowering serum C3.",
+          "Neutrophils and monocytes inflame and swell the glomerular tuft.",
+          "GFR falls, red cells leak, and sodium and water are retained.",
+          "Cola-colored urine, periorbital edema, and hypertension appear."
+        ]
+      },
+      {
+        "title": "Anti-GBM disease",
+        "steps": [
+          "IgG forms against the alpha-3 chain of type IV collagen.",
+          "Antibody binds the GBM in a linear pattern and fixes complement.",
+          "Neutrophils and macrophages rupture glomerular capillary walls.",
+          "Fibrin enters Bowman space and parietal cells proliferate into crescents.",
+          "Crescents compress the tuft, and kidney function fails over weeks."
+        ]
+      }
     ]
   },
   {
@@ -748,7 +853,8 @@
           "Klebsiella: gram-negative lactose fermenter with a thick polysaccharide capsule that makes mucoid colonies.",
           "Enterococcus: gram-positive cocci in pairs and chains, hardy in bile and salt, common after instrumentation.",
           "Pseudomonas aeruginosa: oxidase-positive, non-lactose-fermenting gram-negative rod that forms biofilm on catheters."
-        ]
+        ],
+        "why": "Most urinary infections start when the patient's own fecal flora colonize the periurethral area and ascend, which is why gut gram-negative rods dominate. Adhesins decide where the organism settles: type 1 fimbriae bind mannosylated uroplakins on bladder cells, while P fimbriae bind the Gal-Gal unit of P blood group glycolipids on renal epithelium, so P-fimbriated strains cause most pyelonephritis. The other organisms reflect the host setting, with S. saprophyticus in young sexually active women and Enterococcus and Pseudomonas after instrumentation or on catheter biofilm."
       },
       {
         "h": "Proteus and struvite",
@@ -757,7 +863,8 @@
           "Ammonia raises urine pH, and magnesium ammonium phosphate (struvite) precipitates.",
           "Struvite grows into staghorn calculi that fill the renal pelvis and calyces and shelter bacteria.",
           "Proteus swarms across blood agar in waves, a clue to its identity in the lab."
-        ]
+        ],
+        "why": "Urease hydrolyzes urea to ammonia and carbon dioxide, and ammonia takes up a proton to become ammonium, which raises urine pH. In alkaline urine more phosphate is in its trivalent form, which combines with magnesium and ammonium and precipitates as struvite, often mixed with calcium phosphate. Bacteria live inside the stone matrix where antibiotics reach poorly, so stones regrow and infection recurs unless every fragment is removed."
       },
       {
         "h": "Reading the urinalysis",
@@ -766,7 +873,8 @@
           "Nitrite forms when Enterobacterales reduce dietary nitrate; gram-positive organisms such as Enterococcus and S. saprophyticus leave it negative.",
           "WBC casts form inside tubules, so they place the infection in the kidney (pyelonephritis).",
           "Sterile pyuria (white cells but a negative routine culture): think urethritis from chlamydia or gonorrhea, or renal tuberculosis."
-        ]
+        ],
+        "why": "Each urinalysis finding marks a different part of the infection. Leukocyte esterase comes from neutrophil granules, so it shows neutrophils are in the urine, while a positive nitrite shows that bacteria carrying nitrate reductase have sat in bladder urine long enough (about 4 hours) to convert nitrate. Casts are molded in the tubule lumen from uromodulin, so white cells trapped in a cast place the inflammation inside the kidney. Sterile pyuria means neutrophils are present but the organism does not grow on routine media, as with intracellular Chlamydia, fastidious gonococci, or slow-growing mycobacteria."
       },
       {
         "h": "Urethritis",
@@ -776,7 +884,8 @@
           "Chlamydia trachomatis serovars D to K: obligate intracellular; the infectious elementary body enters the cell and becomes a reticulate body that divides inside an inclusion.",
           "Chlamydia often causes scant discharge or none, and it is invisible on Gram stain.",
           "Nucleic acid amplification testing of first-catch urine or a swab diagnoses both organisms."
-        ]
+        ],
+        "why": "Gonococcal pili and opacity proteins attach the organism to columnar epithelium, and antigenic and phase variation of pili lets it escape antibodies, which is why reinfection is common and no vaccine exists. IgA protease cleaves secretory IgA at the hinge region, removing the main mucosal antibody defense, and lipooligosaccharide drives the strong neutrophil response that makes the discharge purulent. Chlamydia lacks a classic peptidoglycan cell wall and lives inside host cells, so it does not show on Gram stain and provokes milder, often silent inflammation that can ascend unnoticed."
       },
       {
         "h": "Infection-linked glomerular disease",
@@ -785,7 +894,8 @@
           "Hepatitis B: membranous nephropathy (also polyarteritis nodosa).",
           "Hepatitis C: membranoproliferative GN with mixed cryoglobulinemia and low complement.",
           "HIV: collapsing focal segmental glomerulosclerosis (HIV-associated nephropathy) with heavy proteinuria."
-        ]
+        ],
+        "why": "Each infection injures the glomerulus through a different immune route. In poststreptococcal GN, nephritis appears after a latent period because antibodies must first form and combine with streptococcal antigens. Hepatitis B antigens form subepithelial complexes (membranous nephropathy) or complexes in medium artery walls (polyarteritis nodosa), and hepatitis C drives clonal B cells to make cryoglobulins that deposit beneath the endothelium and consume complement. HIV infects podocytes directly and makes them dedifferentiate and proliferate, collapsing the capillary tuft."
       },
       {
         "h": "Tuberculosis and schistosomiasis",
@@ -794,7 +904,8 @@
           "Schistosoma haematobium: freshwater snails release cercariae that penetrate skin.",
           "Adult worms live in the venules around the bladder; eggs with a terminal spine cross the bladder wall into urine.",
           "Egg granulomas cause hematuria and fibrosis and raise the risk of squamous cell carcinoma of the bladder."
-        ]
+        ],
+        "why": "Renal tuberculosis comes from blood-borne seeding during the lung infection, and cell-mediated immunity walls off bacilli in caseating granulomas that can later reactivate and drain into the collecting system. Mycobacteria do not grow on routine media, so the urine shows white cells with a negative standard culture. Schistosoma haematobium adults live in the venous plexus around the bladder and release eggs that must cross the bladder wall; eggs trapped in tissue trigger granulomatous inflammation and fibrosis, and chronic irritation drives squamous metaplasia, which explains the link to squamous cell carcinoma."
       }
     ],
     "charts": [
@@ -978,6 +1089,40 @@
       "UR-12-A",
       "UR-10",
       "HE-9-E3"
+    ],
+    "flows": [
+      {
+        "title": "Ascending urinary tract infection",
+        "steps": [
+          "Fecal E. coli colonizes the periurethral area.",
+          "Bacteria ascend the urethra into the bladder.",
+          "Type 1 fimbriae bind mannose on urothelium, causing cystitis.",
+          "Reflux or obstruction carries bacteria up the ureter to the pelvis.",
+          "P fimbriae bind renal epithelium and neutrophils invade the interstitium (pyelonephritis).",
+          "White cell casts form in tubules and appear in urine."
+        ]
+      },
+      {
+        "title": "Struvite stone formation",
+        "steps": [
+          "Proteus urease splits urea into ammonia and carbon dioxide.",
+          "Ammonia raises urine pH.",
+          "Magnesium ammonium phosphate (struvite) precipitates in the alkaline urine.",
+          "Crystals and bacteria build a stone that fills the pelvis and calyces.",
+          "Bacteria inside the stone sustain infection and further stone growth."
+        ]
+      },
+      {
+        "title": "Schistosoma haematobium life cycle in the bladder",
+        "steps": [
+          "Freshwater snails release cercariae that penetrate human skin.",
+          "Schistosomula travel in blood and mature in the portal venous system.",
+          "Adult worm pairs migrate to the venous plexus around the bladder.",
+          "Eggs with a terminal spine cross the bladder wall into urine.",
+          "Eggs trapped in tissue cause granulomas, hematuria, and fibrosis.",
+          "Chronic inflammation leads to squamous metaplasia and squamous cell carcinoma."
+        ]
+      }
     ]
   },
   {
@@ -990,7 +1135,8 @@
           "Nephritic: inflammation tears capillary walls, giving hematuria with dysmorphic RBCs and RBC casts, oliguria, azotemia, hypertension, and proteinuria under 3.5 g/day.",
           "Nephrotic: podocyte or membrane damage lets protein through, giving proteinuria over 3.5 g/day, low albumin, edema, hyperlipidemia, and fatty casts.",
           "Nephrotic complications: edema from low oncotic pressure, high lipids from more hepatic lipoprotein synthesis, clots from urinary antithrombin III loss (renal vein thrombosis), infections from immunoglobulin loss."
-        ]
+        ],
+        "why": "The two syndromes differ in which part of the filter is hurt. In nephritic disease, inflammatory cells and complement break the capillary wall, so red cells squeeze through and become dysmorphic, and the inflamed, cell-crowded glomeruli filter less, which lowers GFR and leads to sodium retention and hypertension. In nephrotic disease the podocytes and their slit diaphragms fail with little inflammation, so large amounts of protein pass while few red cells do. The nephrotic complications follow from what is lost in the urine (albumin, antithrombin III, immunoglobulins) and from the liver's compensating rise in lipoprotein synthesis."
       },
       {
         "h": "Nephritic diseases",
@@ -1002,7 +1148,8 @@
           "Lupus nephritis: diffuse proliferative class is most common and most severe, with subendothelial wire-loop deposits and a nephritic picture; membranous class gives nephrotic syndrome.",
           "Lupus labs: low C3 and C4 and anti-dsDNA antibodies, which track nephritis activity.",
           "Membranoproliferative GN: mesangial cells grow into the capillary wall and split the GBM (tram-track); immune complex type links to hepatitis B and C; dense deposit disease links to C3 nephritic factor."
-        ]
+        ],
+        "why": "The nephritic diseases separate by where immune material sits and how fast injury moves. In IgA nephropathy, hematuria comes a day or two after a mucosal infection because galactose-deficient IgA1 and antibodies against it already circulate and deposit in the mesangium, while poststreptococcal GN needs weeks to make new antibodies. Crescents form when breaks in the capillary wall let fibrin into Bowman space, which stimulates parietal epithelial cells and macrophages to proliferate and compress the tuft, so any cause of severe wall injury can produce rapidly progressive GN. In lupus and membranoproliferative GN, subendothelial deposits face the blood, recruit leukocytes, and give a nephritic picture with low complement."
       },
       {
         "h": "Nephrotic diseases",
@@ -1013,7 +1160,8 @@
           "Membranous nephropathy: adults; subepithelial deposits with spike and dome GBM; anti-PLA2R antibodies in primary disease.",
           "Secondary membranous causes: lupus, hepatitis B, solid tumors, and drugs such as NSAIDs; it carries the highest renal vein thrombosis risk.",
           "Amyloidosis: AL (light chains) or AA (chronic inflammation) deposits in the glomerulus; Congo red shows apple-green birefringence under polarized light."
-        ]
+        ],
+        "why": "The nephrotic diseases all converge on podocyte injury by different routes. In minimal change disease a poorly defined circulating factor, likely linked to T cells, effaces foot processes and removes charge selectivity, so mainly albumin is lost and light microscopy looks normal; FSGS is podocyte loss severe enough that bare capillary segments scar. In membranous nephropathy, antibodies to PLA2R on the podocyte surface form subepithelial complexes that activate complement up to the membrane attack complex, and new basement membrane laid down between deposits forms spikes. Amyloid fibrils are beta-pleated sheets that bind Congo red and physically disrupt the filter."
       },
       {
         "h": "Diabetic glomerulosclerosis",
@@ -1022,7 +1170,8 @@
           "Nonenzymatic glycation stiffens and thickens the basement membrane; hyaline arteriolosclerosis hits both afferent and efferent arterioles.",
           "Mesangial matrix expands, first diffusely, then as nodules (Kimmelstiel-Wilson).",
           "Course: microalbuminuria (30 to 300 mg/day), then overt proteinuria, nephrotic range, and kidney failure."
-        ]
+        ],
+        "why": "Hyperglycemia increases sodium-glucose reabsorption in the proximal tubule, lowering sodium delivery to the macula densa, so tubuloglomerular feedback dilates the afferent arteriole while angiotensin II constricts the efferent arteriole; together they raise glomerular pressure and GFR. Advanced glycation end products cross-link collagen and thicken the basement membrane, and hyaline change in the efferent arteriole keeps glomerular pressure high. Sustained pressure and TGF-beta signaling expand mesangial matrix into Kimmelstiel-Wilson nodules, and the failing barrier leaks small amounts of albumin first, then frank proteinuria."
       },
       {
         "h": "Acute kidney injury",
@@ -1030,7 +1179,8 @@
           "Prerenal (low perfusion): BUN to creatinine over 20, FENa under 1 percent, urine osmolality over 500 mOsm/kg; tubules work and hold sodium.",
           "Intrinsic (acute tubular necrosis): BUN to creatinine under 15, FENa over 2 percent, urine osmolality under 350 mOsm/kg; tubules cannot hold sodium or concentrate.",
           "Postrenal (obstruction): early values can look prerenal; with time they look like tubular injury."
-        ]
+        ],
+        "why": "The indices test whether the tubules still work. In prerenal states, angiotensin II and aldosterone push the tubules to save sodium and ADH concentrates the urine, and urea is reabsorbed along with water, so BUN rises more than creatinine and FENa stays below 1 percent. In acute tubular necrosis the injured epithelium can no longer reabsorb sodium, concentrate urine, or reclaim urea preferentially, so FENa rises and urine osmolality approaches that of plasma. Obstruction first behaves like reduced flow with tubular sodium retention, then back pressure damages the tubules and the indices drift toward the intrinsic pattern."
       },
       {
         "h": "Chronic kidney disease",
@@ -1039,7 +1189,8 @@
           "Uremia: fibrinous pericarditis, encephalopathy with asterixis, nausea, and platelet dysfunction with bleeding.",
           "Also hyperkalemia, metabolic acidosis, volume overload with hypertension, normocytic anemia from low EPO, and renal osteodystrophy.",
           "Waxy casts mark advanced chronic disease; kidneys are usually small and scarred."
-        ]
+        ],
+        "why": "As nephrons are lost, each survivor hyperfilters, which holds GFR up for a while but scars the remaining glomeruli, so CKD tends to progress once established. Loss of tubular mass reduces potassium and acid excretion, loss of interstitial cells lowers EPO, and loss of proximal tubule mass lowers calcitriol. Phosphate retention and low calcitriol raise PTH (secondary hyperparathyroidism), which drives renal osteodystrophy, and retained uremic toxins impair platelet function and inflame serosal surfaces such as the pericardium."
       }
     ],
     "charts": [
@@ -1325,6 +1476,30 @@
       "UR-8",
       "UR-12-B",
       "EN-12-D"
+    ],
+    "flows": [
+      {
+        "title": "Diabetic nephropathy",
+        "steps": [
+          "Hyperglycemia increases proximal sodium-glucose reabsorption.",
+          "Less sodium reaches the macula densa, so the afferent arteriole dilates.",
+          "Glomerular pressure and GFR rise (hyperfiltration).",
+          "Glycation thickens the GBM and mesangial matrix expands.",
+          "Microalbuminuria progresses to overt proteinuria.",
+          "Nodular glomerulosclerosis (Kimmelstiel-Wilson) leads to kidney failure."
+        ]
+      },
+      {
+        "title": "Nephrotic syndrome lipid changes",
+        "steps": [
+          "Podocyte injury effaces foot processes.",
+          "More than 3.5 g of protein a day is lost in urine.",
+          "Plasma albumin and oncotic pressure fall.",
+          "The liver increases lipoprotein synthesis.",
+          "Serum cholesterol and LDL rise.",
+          "Filtered lipid appears as oval fat bodies and fatty casts."
+        ]
+      }
     ]
   },
   {
@@ -1340,7 +1515,8 @@
           "Dead cells slough into the lumen and form casts that block flow and raise tubular pressure, lowering GFR.",
           "Filtrate leaks back through the damaged wall, and afferent arteriole constriction lowers filtration further.",
           "Urine: muddy brown granular casts and renal tubular epithelial cells; FENa over 2 percent."
-        ]
+        ],
+        "why": "The straight proximal tubule and medullary thick ascending limb do heavy ATP-dependent transport in a region where oxygen is already low, so they fail first when perfusion drops. ATP depletion disrupts the cytoskeleton and moves Na/K-ATPase away from the basolateral membrane, so cells lose polarity, detach, and slough. GFR then falls through three mechanisms: casts obstruct the lumen and raise tubular pressure, filtrate leaks back across the bare wall, and more sodium reaching the macula densa triggers afferent constriction through tubuloglomerular feedback."
       },
       {
         "h": "Three phases",
@@ -1348,7 +1524,8 @@
           "Initiation (about 36 hours): the insult; urine output starts to fall.",
           "Maintenance (1 to 3 weeks): oliguria, rising BUN and creatinine, hyperkalemia, metabolic acidosis, and volume overload; hyperkalemia is the main danger.",
           "Recovery: tubular cells regrow before they can concentrate urine, so polyuria washes out water, sodium, and potassium (risk of hypokalemia and dehydration)."
-        ]
+        ],
+        "why": "The phases follow the life cycle of the tubular cell. During maintenance GFR is low and the tubules cannot excrete potassium, acid, or water, so hyperkalemia, acidosis, and volume overload build up. In recovery, surviving cells proliferate and reline the tubule, but the new cells are immature with limited transport capacity and the medullary gradient has washed out, so filtrate passes largely unreabsorbed while retained urea acts as an osmotic diuretic."
       },
       {
         "h": "Nephrotoxins",
@@ -1358,7 +1535,8 @@
           "Iodinated contrast constricts renal vessels and injures tubules, worst in diabetes and existing kidney disease.",
           "Cisplatin injures the proximal tubule and wastes magnesium; ethylene glycol leaves calcium oxalate crystals.",
           "Rhabdomyolysis: dipstick positive for blood (heme) but few or no RBCs on microscopy, very high CK, high potassium and phosphate, low calcium early."
-        ]
+        ],
+        "why": "Each toxin reaches the tubule by a different route. Aminoglycosides are filtered and taken up by megalin-mediated endocytosis in the proximal tubule, where they accumulate in lysosomes and injure cells over days, which explains the delayed onset. Myoglobin and hemoglobin are filtered pigments whose heme iron generates oxidant injury, forms casts with uromodulin in acidic urine, and scavenges nitric oxide, causing vasoconstriction. The dipstick detects the peroxidase activity of heme and cannot tell myoglobin from hemoglobin or intact red cells, so a heme-positive dipstick with few red cells on microscopy points to pigment."
       },
       {
         "h": "Fanconi syndrome",
@@ -1368,7 +1546,8 @@
           "Bicarbonate loss gives proximal (type 2) renal tubular acidosis, a normal anion gap metabolic acidosis.",
           "Phosphate loss causes rickets in children and osteomalacia in adults; potassium and uric acid are also lost.",
           "Causes: cystinosis (most common inherited cause in children), Wilson disease, multiple myeloma light chains, heavy metals such as lead, and drugs such as tenofovir and ifosfamide."
-        ]
+        ],
+        "why": "Proximal tubule transporters share two needs: the sodium gradient made by the basolateral Na/K-ATPase and a large ATP supply from abundant mitochondria. Anything that poisons the cell's energy supply or overloads it, such as lysosomal cystine crystals, light chains, heavy metals, or tenofovir, therefore impairs many transporters at once. Bicarbonate wasting lowers the reabsorption threshold, so serum bicarbonate settles at a new lower level where distal acidification still works and urine pH can fall below 5.5 once the filtered load drops."
       }
     ],
     "charts": [
@@ -1529,6 +1708,29 @@
       "UR-8",
       "UR-9",
       "UR-6"
+    ],
+    "flows": [
+      {
+        "title": "Ischemic acute tubular necrosis",
+        "steps": [
+          "Hypotension or sepsis lowers renal blood flow.",
+          "ATP falls in straight proximal tubule and thick ascending limb cells.",
+          "Cells lose polarity, die, and slough into the lumen.",
+          "Debris forms muddy brown granular casts that block tubules.",
+          "Back leak and afferent constriction lower GFR.",
+          "Oliguria, rising creatinine, and hyperkalemia follow."
+        ]
+      },
+      {
+        "title": "Rhabdomyolysis to acute kidney injury",
+        "steps": [
+          "Muscle injury releases myoglobin, potassium, phosphate, and CK.",
+          "Myoglobin is filtered at the glomerulus.",
+          "Heme iron causes oxidant injury to proximal tubule cells.",
+          "Pigment casts block tubules and heme scavenges nitric oxide, constricting vessels.",
+          "Acute tubular necrosis develops; dipstick shows heme with few red cells."
+        ]
+      }
     ]
   },
   {
@@ -1544,7 +1746,8 @@
           "Pregnancy: progesterone relaxes ureteral muscle and the uterus compresses the ureters, more on the right.",
           "Older men: prostatic enlargement (benign hyperplasia or cancer).",
           "Women: pelvic tumors such as cervical cancer; any age: retroperitoneal fibrosis or neurogenic bladder."
-        ]
+        ],
+        "why": "The level of the block decides whether one or both kidneys suffer. Lesions at or below the bladder outlet (posterior urethral valves, prostate enlargement, neurogenic bladder) raise bladder pressure and affect both upper tracts, while a block at the ureteropelvic junction or along one ureter dilates only the kidney above it. The usual cause shifts with age because each stage carries its own anatomic risk, and in pregnancy the right side is affected more because the uterus rotates to the right and compresses the right ureter where it crosses the iliac artery and ovarian vein, while the sigmoid colon cushions the left."
       },
       {
         "h": "How back pressure injures the kidney",
@@ -1553,7 +1756,8 @@
           "Filtration continues at a lower rate and filtrate leaks back into the interstitium.",
           "High pressure compresses medullary vessels; the papillae lose blood flow and atrophy first, so concentrating ability fails early.",
           "With time the cortex thins and scars, leaving a dilated pelvis surrounded by a thin rim of tissue."
-        ]
+        ],
+        "why": "Filtration depends on the hydrostatic pressure difference between glomerular capillaries and Bowman space, so rising pressure in the tubule and capsule directly lowers net filtration pressure. Early on, prostaglandin and nitric oxide mediated afferent dilation partly preserves filtration, but later angiotensin II and thromboxane constrict the vessels and renal blood flow falls. The papillae depend on the low-pressure vasa recta, which collapse first, so medullary injury and loss of concentrating ability come before cortical scarring."
       },
       {
         "h": "One side or both",
@@ -1561,7 +1765,8 @@
           "Unilateral obstruction can stay silent for a long time because the other kidney keeps creatinine normal.",
           "Bilateral obstruction (or bladder outlet block) causes postrenal acute kidney injury with oliguria or anuria.",
           "After relief, postobstructive diuresis washes out retained urea, sodium, and water, and damaged tubules cannot concentrate; watch for dehydration and low potassium."
-        ]
+        ],
+        "why": "Serum creatinine reflects total GFR from both kidneys, so a healthy opposite kidney can compensate and hide a unilateral obstruction until imaging finds it. Bilateral or bladder outlet obstruction removes all filtration reserve, so creatinine and potassium rise quickly. After release, retained urea acts as an osmotic diuretic and injured collecting duct cells respond poorly to ADH and aldosterone, so large volumes of dilute urine carrying sodium and potassium are lost."
       },
       {
         "h": "Stone types",
@@ -1571,7 +1776,8 @@
           "Struvite (magnesium ammonium phosphate): urease-producing bacteria such as Proteus alkalinize urine; forms staghorn calculi.",
           "Uric acid: forms in acidic urine; radiolucent on plain X-ray; seen in gout and tumor lysis.",
           "Cystine: hexagonal crystals in cystinuria, often in children, can form staghorns."
-        ]
+        ],
+        "why": "A stone forms when urine is supersaturated with a salt, and urine pH decides which salts can precipitate. Calcium phosphate and struvite need alkaline urine, so they appear with distal renal tubular acidosis (which cannot acidify urine) and urease-producing infection, while uric acid and cystine dissolve poorly in acidic urine. Enteric hyperoxaluria occurs because malabsorbed fatty acids bind calcium in the gut, leaving oxalate free and soluble for absorption in the colon. Uric acid stones are radiolucent because they contain no calcium."
       },
       {
         "h": "Renal colic and complications",
@@ -1580,7 +1786,8 @@
           "Stones lodge at three narrow points: the ureteropelvic junction, where the ureter crosses the iliac vessels, and the ureterovesical junction (narrowest).",
           "Complications: obstruction, hydronephrosis, and infection above the stone.",
           "An infected obstructed kidney can turn into pyonephrosis and sepsis and needs urgent drainage."
-        ]
+        ],
+        "why": "Renal colic comes from sudden distension of the ureter and collecting system and from waves of smooth muscle peristalsis pushing against the stone, which is why the pain comes in waves. Visceral pain fibers from the kidney and ureter enter the spinal cord at about T10 to L2, so pain is referred along the flank and into the groin as the stone moves down. Stones stop where the lumen narrows, and urine trapped above an obstruction cannot clear bacteria, so infection behind a stone can quickly progress to pyonephrosis and sepsis."
       }
     ],
     "charts": [
@@ -1746,6 +1953,29 @@
       "UR-12-H",
       "UR-12-E",
       "UR-3"
+    ],
+    "flows": [
+      {
+        "title": "Path of urine and stone lodging sites",
+        "steps": [
+          "Collecting ducts empty at the renal papillae into minor calyces.",
+          "Minor calyces join major calyces, which form the renal pelvis.",
+          "The pelvis narrows into the ureter at the ureteropelvic junction.",
+          "The ureter crosses the iliac vessels at the pelvic brim.",
+          "The ureter enters the bladder obliquely at the ureterovesical junction.",
+          "The bladder empties through the urethra."
+        ]
+      },
+      {
+        "title": "Obstruction to hydronephrosis",
+        "steps": [
+          "Obstruction raises pressure in the renal pelvis and tubules.",
+          "Net filtration pressure and GFR fall.",
+          "Medullary vessels are compressed and the papillae become ischemic.",
+          "Concentrating ability is lost early.",
+          "The pelvis dilates and the cortex thins and scars."
+        ]
+      }
     ]
   }
 ]

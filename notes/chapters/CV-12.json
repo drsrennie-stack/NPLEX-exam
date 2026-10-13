@@ -1,0 +1,632 @@
+{
+  "unit": "CV-12",
+  "chapter_id": "NPLEX-P1-CARD-12",
+  "topic_id": "NPLEX-P1-CARD-12-01",
+  "title": "Exercise and the Cardiovascular System",
+  "subject": "Cardiovascular System (CARD)",
+  "version": "1.0",
+  "author": "Dr. Sharilyn Rennie",
+  "brand": "MedMasters Collaborative",
+  "overview": {
+    "intro": "This chapter explains how the circulation meets the demands of exercise, first in a single bout and then after months of training. It covers the neural signals that start the response, uses the Fick principle to predict how heart rate, stroke volume, cardiac output, and O2 extraction change with work, and follows the redistribution of cardiac output among organs. It then contrasts the pressure response to dynamic and static exercise and separates the endurance athlete's heart from hypertrophic cardiomyopathy. Board questions usually ask which variable rises, falls, or stays the same. Three relationships answer nearly all of them: cardiac output equals heart rate times stroke volume, pressure equals flow times resistance, and the Fick equation.",
+    "prerequisites": [
+      "Determinants of cardiac output: heart rate, preload, afterload, contractility, and the Frank-Starling relationship (CV-6)",
+      "Autonomic control of the SA node through M2 and beta-1 receptors (CV-7)",
+      "Pressure, flow, and resistance, including parallel resistances and local metabolic control of blood flow (CV-11)",
+      "The baroreceptor reflex and the medullary cardiovascular centers",
+      "Oxygen content of blood and the oxyhemoglobin dissociation curve"
+    ],
+    "connections": [
+      {
+        "to": "Cardiac cycle and its regulation (CV-6)",
+        "how": "Exercise raises stroke volume through the same preload and contractility mechanisms that shape the pressure-volume loop."
+      },
+      {
+        "to": "Conduction system and the ECG (CV-7)",
+        "how": "Vagal withdrawal and sympathetic drive change heart rate through IKACh channels and the funny current, and the athlete's resting bradycardia reflects the same nodal mechanisms."
+      },
+      {
+        "to": "Hemodynamics and blood flow regulation (CV-11)",
+        "how": "Metabolic vasodilation in parallel muscle beds explains why total peripheral resistance falls while mean arterial pressure rises."
+      },
+      {
+        "to": "Blood distribution to body regions (CV-9) and coronary circulation (CV-8)",
+        "how": "Each organ bed responds according to its balance of local and neural control, and the coronary bed must raise flow because its O2 extraction is already near maximal at rest."
+      },
+      {
+        "to": "Primary myocardial diseases (CV-18-E) and ischemic heart disease (CV-18-C)",
+        "how": "Hypertrophic cardiomyopathy must be distinguished from athlete's heart, and exercise unmasks coronary stenosis because it raises myocardial O2 demand."
+      }
+    ],
+    "terms": [
+      {
+        "term": "Central command",
+        "def": "Feedforward signals from higher brain centers that activate motor units and, in parallel, the medullary cardiovascular centers at the onset of exercise."
+      },
+      {
+        "term": "Exercise pressor reflex",
+        "def": "The reflex rise in sympathetic activity and blood pressure driven by muscle afferents, made up of the mechanoreflex (mainly group III fibers) and the metaboreflex (mainly group IV fibers)."
+      },
+      {
+        "term": "Vagal withdrawal",
+        "def": "A reduction in parasympathetic discharge to the heart that raises heart rate within a beat or two."
+      },
+      {
+        "term": "Fick principle",
+        "def": "For the whole body, O2 uptake (VO2) equals cardiac output times the arteriovenous O2 difference."
+      },
+      {
+        "term": "Arteriovenous O2 difference",
+        "def": "Arterial minus mixed venous O2 content, the O2 removed from each unit of blood, about 5 mL O2/dL at rest."
+      },
+      {
+        "term": "VO2max",
+        "def": "Maximal oxygen uptake, identified by a plateau in VO2 despite further increases in work rate."
+      },
+      {
+        "term": "Functional sympatholysis",
+        "def": "The blunting of sympathetic alpha-adrenergic vasoconstriction in contracting muscle by local metabolites and nitric oxide."
+      },
+      {
+        "term": "Static (isometric) exercise",
+        "def": "Sustained muscle contraction without a change in muscle length, such as a handgrip or a heavy hold."
+      },
+      {
+        "term": "Rate-pressure product",
+        "def": "Heart rate multiplied by systolic pressure, an index of myocardial O2 demand."
+      },
+      {
+        "term": "Eccentric hypertrophy",
+        "def": "Ventricular growth by adding sarcomeres in series, enlarging the cavity with proportional wall thickening; the response to volume load."
+      },
+      {
+        "term": "Concentric hypertrophy",
+        "def": "Ventricular growth by adding sarcomeres in parallel, thickening the wall relative to cavity size; the response to pressure load."
+      },
+      {
+        "term": "Hypertrophic cardiomyopathy (HCM)",
+        "def": "An inherited, usually autosomal dominant sarcomere disease that causes unexplained, often asymmetric, left ventricular hypertrophy with myocyte disarray."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "comp": "NPLEX-P1-CARD-12-01-C01",
+      "obj": "CV-12.1",
+      "title": "Starting the exercise response: central command, muscle reflexes, and the autonomic sequence",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Heart rate rises within the first second of exercise, too fast for circulating metabolites to explain. The nervous system starts it through two inputs to the medullary cardiovascular centers: a feedforward signal from the brain (central command) and feedback from the contracting muscles (the exercise pressor reflex)."
+        },
+        {
+          "type": "h",
+          "text": "Central command"
+        },
+        {
+          "type": "p",
+          "text": "As the motor cortex and subcortical locomotor regions recruit motor units, they signal the medullary centers in parallel. The output scales with the effort commanded rather than the force produced: when muscles are partly weakened by a neuromuscular blocking drug, the same force takes more effort, and heart rate and blood pressure rise more. Central command also explains the anticipatory rise in heart rate before a race. It resets the arterial baroreflex to a higher set point, so the reflex keeps buffering moment-to-moment changes without opposing the rise in pressure."
+        },
+        {
+          "type": "table",
+          "title": "The two arms of the exercise pressor reflex",
+          "cols": [
+            "Feature",
+            "Mechanoreflex",
+            "Metaboreflex"
+          ],
+          "rows": [
+            [
+              "Main afferents",
+              "Group III (thinly myelinated)",
+              "Group IV (unmyelinated C fibers)"
+            ],
+            [
+              "Stimulus",
+              "Stretch and tension of contracting muscle",
+              "H+, lactate, K+, inorganic phosphate, ATP, bradykinin, prostaglandins"
+            ],
+            [
+              "Timing",
+              "First seconds of contraction",
+              "Builds over tens of seconds"
+            ],
+            [
+              "Strongest when",
+              "Contraction begins",
+              "Flow is too low for metabolism (static or ischemic muscle)"
+            ],
+            [
+              "Main effect",
+              "Early heart rate rise, largely by reducing vagal outflow",
+              "Sympathetic activation and a rise in arterial pressure"
+            ]
+          ],
+          "caption": "Both arms converge on the same brainstem centers and interact."
+        },
+        {
+          "type": "p",
+          "text": "The metaboreflex works as an error signal: when flow is inadequate for metabolism, metabolites accumulate and the reflex raises arterial pressure to push blood into the underperfused muscle. If a cuff traps metabolites in the arm at the end of a sustained handgrip, blood pressure stays high while heart rate returns toward baseline, which shows that the heart rate response depends mostly on central command and the mechanoreflex."
+        },
+        {
+          "type": "h",
+          "text": "Why vagal withdrawal comes first"
+        },
+        {
+          "type": "p",
+          "text": "Vagal acetylcholine acts on M2 receptors, and Gi beta-gamma subunits open IKACh channels directly (CV-7). When vagal firing stops, acetylcholinesterase clears acetylcholine within milliseconds, so heart rate rises within one or two beats. Norepinephrine acts through beta-1 receptors, Gs, cAMP, and protein kinase A and is cleared mainly by reuptake, so its effects build and fade over seconds. Vagal withdrawal therefore produces most of the early rise, up to roughly 100 bpm in a young adult. Above that, sympathetic drive raises rate further, increases contractility, and constricts veins and arterioles in inactive tissues."
+        },
+        {
+          "type": "p",
+          "text": "Cardiac output can rise only if venous return rises with it. Sympathetic venoconstriction of the splanchnic and cutaneous veins raises mean systemic filling pressure, the skeletal muscle pump drives blood past venous valves toward the heart, and deeper breathing lowers intrathoracic pressure (the respiratory pump). Greater filling raises stroke volume through the Frank-Starling mechanism."
+        },
+        {
+          "type": "flow",
+          "title": "Cardiovascular response at the onset of exercise",
+          "steps": [
+            "Central command signals medullary centers as motor units are recruited",
+            "Vagal outflow falls; heart rate rises within one or two beats",
+            "Group III mechanoreceptors reinforce the early heart rate rise",
+            "Sympathetic outflow builds over seconds: rate, contractility, venous tone",
+            "Muscle and respiratory pumps raise venous return and preload",
+            "Stroke volume and cardiac output rise as active arterioles dilate",
+            "If flow lags metabolism, group IV afferents trigger the metaboreflex"
+          ],
+          "caption": "Central command starts the response; muscle feedback matches it to the working muscle."
+        },
+        {
+          "type": "p",
+          "text": "A transplanted heart is denervated, so its resting rate sits near the intrinsic SA node rate and barely changes at exercise onset. Cardiac output first rises through the Frank-Starling response, and rate climbs over minutes as circulating catecholamines rise, to a lower peak than normal. Beta-1 blockade blunts the sympathetic part of the rate response but spares vagal withdrawal. In heart failure, an exaggerated exercise pressor reflex adds excess sympathetic vasoconstriction during exercise."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-CARD-12-01-C02",
+      "obj": "CV-12.2",
+      "title": "Graded exercise and the Fick principle",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Oxygen uptake (VO2) rises in proportion to external work. Because O2 is not stored, the Fick principle states that VO2 equals cardiac output times the arteriovenous O2 difference (a-vO2 difference), which is arterial minus mixed venous O2 content. Exercise raises both terms."
+        },
+        {
+          "type": "p",
+          "text": "Arterial O2 content is about 1.34 mL O2 per gram of hemoglobin times hemoglobin concentration times saturation, plus 0.003 mL/dL per mmHg of PO2 dissolved, which gives about 20 mL/dL at a hemoglobin of 15 g/dL and saturation of 98%. Healthy lungs keep this nearly constant during exercise, so the a-vO2 difference widens from the venous side, as mixed venous content falls from about 15 mL/dL (saturation about 75%) to about 4 to 5 mL/dL."
+        },
+        {
+          "type": "p",
+          "text": "Extraction rises for three reasons. Metabolites recruit closed capillaries, enlarging the exchange surface and shortening diffusion distance (section C03). Tissue PO2 falls onto the steep part of the dissociation curve, where a small drop in PO2 releases much O2. Higher PCO2, H+, and temperature in active muscle shift the curve to the right (the Bohr effect for CO2 and H+)."
+        },
+        {
+          "type": "h",
+          "text": "Heart rate, stroke volume, and cardiac output"
+        },
+        {
+          "type": "p",
+          "text": "Heart rate rises almost linearly with work rate. Maximal heart rate falls with age, and 220 minus age is only an estimate (standard deviation about 10 to 12 bpm). Stroke volume rises because end-diastolic volume increases and greater contractility lowers end-systolic volume, raising ejection fraction from about 60% toward 80%. In untrained people it plateaus at about 40% to 60% of VO2max, because shortened diastole limits filling, so further gains in cardiac output come from heart rate; trained endurance athletes may keep raising stroke volume. Cardiac output rises about 5 to 6 L/min for each 1 L/min rise in VO2."
+        },
+        {
+          "type": "table",
+          "title": "Typical values at rest and at maximal exercise (young adult, upright)",
+          "cols": [
+            "Variable",
+            "Rest",
+            "Maximum, untrained",
+            "Maximum, elite endurance athlete"
+          ],
+          "rows": [
+            [
+              "Heart rate",
+              "About 70 bpm (athlete about 50)",
+              "About 195 bpm",
+              "About 185 to 195 bpm"
+            ],
+            [
+              "Stroke volume",
+              "About 70 mL (athlete about 100)",
+              "About 110 mL",
+              "About 160 mL or more"
+            ],
+            [
+              "Cardiac output",
+              "About 5 L/min",
+              "About 20 to 22 L/min",
+              "About 30 to 35 L/min"
+            ],
+            [
+              "Mixed venous O2 content",
+              "About 15 mL/dL",
+              "About 5 mL/dL",
+              "About 3 to 4 mL/dL"
+            ],
+            [
+              "a-vO2 difference",
+              "About 5 mL/dL",
+              "About 15 mL/dL",
+              "About 16 to 17 mL/dL"
+            ],
+            [
+              "VO2",
+              "About 250 mL/min (3.5 mL/kg/min, 1 MET)",
+              "About 3 L/min (35 to 45 mL/kg/min)",
+              "About 5 to 6 L/min (70 to 85 mL/kg/min)"
+            ]
+          ],
+          "caption": "Approximate values for a 70 kg adult; arterial O2 content stays about 20 mL/dL throughout."
+        },
+        {
+          "type": "p",
+          "text": "VO2 rises linearly with work until it plateaus at VO2max. Above the lactate threshold, often about 50% to 60% of VO2max in untrained people, lactate production exceeds clearance, and bicarbonate buffering of the extra H+ releases CO2, so ventilation rises out of proportion to VO2. In healthy people at sea level, VO2max is limited mainly by maximal cardiac output rather than by the lungs or muscle: raising arterial O2 content raises VO2max, and lowering it reduces VO2max. Maximal stroke volume is therefore its main determinant (section C05)."
+        },
+        {
+          "type": "example",
+          "title": "Using the Fick equation",
+          "text": "A 25-year-old untrained man of 75 kg has a resting cardiac output of 70 bpm times 70 mL, about 4.9 L/min, and an a-vO2 difference of 20 minus 15, or 5 mL/dL (50 mL/L), so VO2 is about 245 mL/min. At maximum, 195 bpm times 110 mL gives about 21.5 L/min, and venous content falls to 5 mL/dL, so the difference is 150 mL/L. VO2max is about 3,200 mL/min (43 mL/kg/min): a 4.4-fold rise in flow times a threefold rise in extraction. With anemia (hemoglobin 9 g/dL), arterial content is about 12 mL/dL, so even at a venous content of 4 mL/dL the maximal difference is 80 mL/L. Consuming 2,400 mL/min would then need 30 L/min of cardiac output, so VO2max falls and heart rate is higher at any submaximal load."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-CARD-12-01-C03",
+      "obj": "CV-12.3",
+      "title": "Redistribution of cardiac output during exercise",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Extra cardiac output goes to active muscle, the heart, and, as body temperature rises, the skin. Each bed's flow depends on whether sympathetic vasoconstriction or local metabolic vasodilation wins in its arterioles."
+        },
+        {
+          "type": "table",
+          "title": "Approximate distribution of cardiac output at rest and at maximal exercise",
+          "cols": [
+            "Vascular bed",
+            "Rest (total about 5.8 L/min)",
+            "Maximal exercise (total about 25 L/min)",
+            "Dominant control"
+          ],
+          "rows": [
+            [
+              "Skeletal muscle",
+              "About 1.2 L/min (20%)",
+              "About 22 L/min (about 87%)",
+              "Metabolites and NO"
+            ],
+            [
+              "Coronary",
+              "About 0.25 L/min (4%)",
+              "About 1 L/min (4%)",
+              "Metabolic, mainly adenosine"
+            ],
+            [
+              "Brain",
+              "About 0.75 L/min (13%)",
+              "About 0.75 L/min (3%)",
+              "Autoregulation and PCO2"
+            ],
+            [
+              "Skin",
+              "About 0.5 L/min (9%)",
+              "About 0.6 L/min (higher in heavy submaximal work)",
+              "Hypothalamic thermoregulation"
+            ],
+            [
+              "Splanchnic",
+              "About 1.4 L/min (24%)",
+              "About 0.3 L/min",
+              "Sympathetic constriction"
+            ],
+            [
+              "Kidneys",
+              "About 1.1 L/min (19%)",
+              "About 0.25 L/min",
+              "Sympathetic constriction and angiotensin II"
+            ]
+          ],
+          "caption": "Illustrative classic values; figures vary among sources, but the pattern does not."
+        },
+        {
+          "type": "h",
+          "text": "Active skeletal muscle"
+        },
+        {
+          "type": "p",
+          "text": "Muscle flow rises from about 3 to 4 mL/100 g/min at rest, when arteriolar tone is high and few capillaries are open, to about 50 to 80 mL/100 g/min in strenuous exercise, up to about 15 to 25 times resting. Interstitial K+ from repeated action potentials hyperpolarizes vascular smooth muscle through inward rectifier K+ channels and Na+/K+-ATPase. Adenosine, inorganic phosphate, H+, CO2, and low PO2 add to the dilation, and low PO2 makes red cells release ATP, which stimulates endothelial nitric oxide (NO). Shear stress then releases NO upstream, spreading dilation to feed arteries. Blocking any one mediator only partly reduces it."
+        },
+        {
+          "type": "p",
+          "text": "Sympathetic nerves keep firing, but the same metabolites blunt alpha-adrenergic constriction in active muscle, especially through alpha-2 receptors (functional sympatholysis), so inactive beds constrict while active muscle is protected. Some residual constriction is needed, because the dilating capacity of all muscle exceeds maximal cardiac output. Because beds lie in parallel, their conductances add, so total peripheral resistance (TPR) falls steeply in dynamic exercise even though other beds constrict."
+        },
+        {
+          "type": "flow",
+          "title": "How flow concentrates in working muscle",
+          "steps": [
+            "Sympathetic outflow rises to all vascular beds",
+            "Gut, kidney, and inactive muscle arterioles constrict through alpha receptors",
+            "In active muscle, K+, adenosine, H+, CO2, low PO2, and NO dilate arterioles",
+            "The same metabolites blunt alpha constriction (functional sympatholysis)",
+            "Resistance falls in active muscle and rises in inactive beds",
+            "Parallel beds share one arterial pressure, so flow shifts to active muscle"
+          ],
+          "caption": "Each parallel bed's share depends on its resistance relative to the others."
+        },
+        {
+          "type": "h",
+          "text": "The other organs"
+        },
+        {
+          "type": "p",
+          "text": "The myocardium already extracts about 70% to 75% of delivered O2 at rest, so higher demand must be met by flow, rising about three- to fourfold through mainly adenosine-mediated dilation. A stenosis that is silent at rest therefore causes angina on exertion. Cerebral flow stays nearly constant through autoregulation. Splanchnic and renal flow fall to about one quarter of resting at maximal effort; splanchnic venoconstriction moves reservoir blood centrally, and renal filtration fraction rises because renal blood flow falls more than GFR."
+        },
+        {
+          "type": "p",
+          "text": "Core temperature rises toward 38 to 39 °C (100.4 to 102.2 °F) in sustained heavy exercise. The hypothalamus withdraws cutaneous vasoconstrictor tone and activates sympathetic cholinergic fibers that cause active vasodilation and sweating, carrying heat to the skin. Pooling in compliant skin veins and sweat loss then reduce filling, so in prolonged exercise, especially in heat, stroke volume falls and heart rate drifts upward (cardiovascular drift). At maximal effort skin flow falls again, favoring muscle but limiting heat loss; above 40 °C (104 °F) core temperature reaches the range of exertional heat stroke."
+        },
+        {
+          "type": "stop",
+          "predict": "A person runs at the same speed on a cool day and a hot, humid day. On the hot day, what happens to stroke volume, heart rate, and leg muscle flow?",
+          "explain": "Skin pooling and sweat loss lower stroke volume, so heart rate rises to hold cardiac output, and muscle shares flow with skin, lowering the sustainable workload.",
+          "check": "Compare with the skin blood flow paragraph."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-CARD-12-01-C04",
+      "obj": "CV-12.4",
+      "title": "Blood pressure and resistance in dynamic and static exercise",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Mean arterial pressure (MAP) equals cardiac output times TPR, ignoring the small central venous pressure. Dynamic and static exercise differ because they change resistance in opposite directions."
+        },
+        {
+          "type": "h",
+          "text": "Dynamic exercise"
+        },
+        {
+          "type": "p",
+          "text": "In running, cycling, or swimming, cardiac output rises several-fold while TPR falls, so MAP rises only moderately. Systolic pressure rises progressively, commonly to about 160 to 200 mmHg at peak, because a larger stroke volume is ejected faster. Diastolic pressure stays about the same or falls slightly as blood runs off through dilated muscle beds, so pulse pressure widens. The heart does mainly volume work, and the pressure-volume loop widens more than it rises. Arm exercise at the same VO2 raises heart rate and pressure more than leg exercise, because less muscle dilates while the inactive leg beds stay constricted."
+        },
+        {
+          "type": "h",
+          "text": "Static exercise"
+        },
+        {
+          "type": "p",
+          "text": "A sustained isometric contraction raises intramuscular pressure and compresses the muscle's own vessels, reducing flow above a moderate fraction of maximal force and nearly stopping it at high force. Metabolites accumulate, and the metaboreflex together with central command drives a strong sympathetic pressor response, graded by relative force and duration, so even the forearm can raise pressure substantially. Cardiac output rises modestly through heart rate, stroke volume changes little, and TPR stays the same or rises, so systolic and diastolic pressure both rise sharply. A Valsalva maneuver during maximal lifting adds intrathoracic pressure to the aorta. This is pressure work: the loop becomes taller, and by the Laplace relationship (wall stress proportional to pressure times radius divided by wall thickness) wall stress and O2 demand rise."
+        },
+        {
+          "type": "table",
+          "title": "Acute responses to dynamic and static exercise",
+          "cols": [
+            "Variable",
+            "Dynamic (running, cycling)",
+            "Static (handgrip, heavy hold)"
+          ],
+          "rows": [
+            [
+              "Heart rate",
+              "Large rise with work rate",
+              "Moderate rise"
+            ],
+            [
+              "Stroke volume",
+              "Rises",
+              "Little change or slight fall"
+            ],
+            [
+              "Cardiac output",
+              "Large rise",
+              "Modest rise, mainly from heart rate"
+            ],
+            [
+              "TPR",
+              "Falls",
+              "Unchanged or rises"
+            ],
+            [
+              "Systolic pressure",
+              "Rises progressively",
+              "Rises sharply"
+            ],
+            [
+              "Diastolic pressure",
+              "Unchanged or falls slightly",
+              "Rises sharply"
+            ],
+            [
+              "Main pressor drive",
+              "Central command and mechanoreflex",
+              "Metaboreflex and central command"
+            ],
+            [
+              "Load on left ventricle",
+              "Volume load",
+              "Pressure load"
+            ]
+          ],
+          "caption": "Most real activities mix the two patterns; rowing, for example, adds a large static component to a volume load."
+        },
+        {
+          "type": "p",
+          "text": "Pressure work costs more O2 than volume work, and the rate-pressure product indexes myocardial O2 demand, so static effort can provoke ischemia at a lower heart rate than running. A fall in systolic pressure as dynamic workload rises is abnormal: cardiac output cannot offset the falling resistance, as in severe left ventricular dysfunction, extensive ischemia, or severe aortic stenosis. An exaggerated rise suggests resistance is not falling and may precede resting hypertension. Sustained handgrip raises afterload, so the murmurs of mitral regurgitation, aortic regurgitation, and ventricular septal defect get louder, while the murmur of hypertrophic cardiomyopathy softens (section C05). After exercise, persisting vasodilation lowers pressure for an hour or more, and stopping abruptly removes the muscle pump and can cause lightheadedness."
+        },
+        {
+          "type": "example",
+          "title": "Working out TPR from pressure and cardiac output",
+          "text": "Use MAP equals diastolic pressure plus one third of pulse pressure, and TPR equals MAP divided by cardiac output. At rest, 120/80 mmHg and 5 L/min give a MAP of about 93 mmHg and TPR of about 19 mmHg per L/min. Running, 180/76 mmHg and 20 L/min give a MAP of about 111 mmHg and TPR of about 5.5: cardiac output quadrupled while MAP rose only about 17 mmHg, because TPR fell to under one third. In sustained handgrip, 165/110 mmHg and 6.5 L/min give a MAP of about 128 mmHg and TPR of about 20: cardiac output rose 30%, yet MAP rose 35 mmHg because resistance did not fall. At high heart rates diastole shortens, so true running MAP lies nearer the systolic and diastolic midpoint, which still leaves TPR far below resting."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-CARD-12-01-C05",
+      "obj": "CV-12.5",
+      "title": "The trained endurance heart versus pathologic hypertrophy",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Adult myocytes rarely divide, so the heart adapts by enlarging them. A recurring volume load adds sarcomeres in series, enlarging the cavity with proportional wall thickening (eccentric hypertrophy). A sustained pressure load adds sarcomeres in parallel, thickening the wall relative to the cavity (concentric hypertrophy). Both bring wall stress back toward normal (Laplace relationship)."
+        },
+        {
+          "type": "h",
+          "text": "The endurance-trained heart"
+        },
+        {
+          "type": "p",
+          "text": "Endurance training remodels the left ventricle eccentrically, with mild symmetric wall thickening, a normal wall-to-cavity ratio, enlarged right ventricle and atria, and normal or enhanced diastolic filling. Plasma volume expands within days (renin-angiotensin-aldosterone, vasopressin, albumin) faster than red cell mass, so hemoglobin concentration may fall slightly by dilution, not anemia."
+        },
+        {
+          "type": "p",
+          "text": "With resting cardiac output still about 5 L/min, a stroke volume of about 100 mL needs only about 50 bpm. The slowing comes mainly from vagal tone, plus a lower intrinsic SA node rate; vagal tone also explains benign sinus arrhythmia, first degree AV block, and Mobitz I block that disappear with exercise. At the same submaximal workload, the trained person reaches the same VO2 and cardiac output with a lower heart rate, a larger stroke volume, and less lactate; at maximum, cardiac output, extraction, and VO2max rise, but heart rate does not. Greater muscle capillary and mitochondrial density raise extraction and fat oxidation, and VO2max typically increases about 15% to 20% in previously sedentary people."
+        },
+        {
+          "type": "flow",
+          "title": "From repeated volume load to higher VO2max",
+          "steps": [
+            "Repeated dynamic exercise imposes volume overload",
+            "Plasma volume and preload rise",
+            "Sarcomeres added in series enlarge the ventricle",
+            "Stroke volume rises at rest and at every workload",
+            "Same resting output needs fewer beats",
+            "Larger maximal stroke volume raises maximal output and VO2max"
+          ],
+          "caption": "Bradycardia follows from the larger stroke volume."
+        },
+        {
+          "type": "h",
+          "text": "Physiologic versus pathologic hypertrophy"
+        },
+        {
+          "type": "p",
+          "text": "Physiologic hypertrophy is driven by insulin-like growth factor 1 through PI3K and Akt, with matching capillary growth and no fibrosis. Pathologic hypertrophy is driven by wall stress and neurohormones (angiotensin II, endothelin 1, and norepinephrine at alpha-1 receptors) through Gq-coupled receptors and calcineurin and NFAT signaling. It reactivates fetal genes (beta-myosin heavy chain, natriuretic peptides) and brings fibrosis, capillary insufficiency, and diastolic then systolic dysfunction."
+        },
+        {
+          "type": "p",
+          "text": "HCM, the main mimic of athlete's heart, is usually autosomal dominant with variable penetrance, caused by sarcomere gene mutations, most often MYH7 (beta-myosin heavy chain) and MYBPC3 (cardiac myosin binding protein C). The stiff ventricle fills poorly, causing high filling pressures and exertional dyspnea; a large muscle mass with diseased intramural arterioles causes angina despite normal epicardial arteries; and disarray with fibrosis is a substrate for reentrant ventricular arrhythmias, a leading cause of sudden death in young athletes."
+        },
+        {
+          "type": "p",
+          "text": "Many patients have dynamic outflow obstruction from the septum and systolic anterior motion of the mitral valve, worsened by anything that makes the ventricle smaller or more forceful: lower preload (standing, Valsalva strain, dehydration), lower afterload, greater contractility, or tachycardia. The murmur therefore gets louder with standing or Valsalva and softer with squatting or handgrip."
+        },
+        {
+          "type": "table",
+          "title": "Athlete's heart versus hypertrophic cardiomyopathy",
+          "cols": [
+            "Feature",
+            "Athlete's heart (endurance)",
+            "Hypertrophic cardiomyopathy"
+          ],
+          "rows": [
+            [
+              "Wall thickness",
+              "Symmetric, usually 12 mm or less",
+              "Often asymmetric septal, 15 mm or more"
+            ],
+            [
+              "Cavity",
+              "Enlarged (often above 55 mm)",
+              "Small or normal (often below 45 mm)"
+            ],
+            [
+              "Diastolic function",
+              "Normal or enhanced",
+              "Impaired relaxation"
+            ],
+            [
+              "Histology",
+              "Orderly myocytes, no fibrosis",
+              "Disarray, fibrosis"
+            ],
+            [
+              "Outflow tract",
+              "No obstruction",
+              "Dynamic obstruction in many"
+            ],
+            [
+              "ECG",
+              "Bradycardia, isolated high voltage",
+              "Deep T wave inversion, pathologic Q waves"
+            ],
+            [
+              "Peak VO2",
+              "High",
+              "Normal or reduced"
+            ],
+            [
+              "After about 3 months of detraining",
+              "Regresses",
+              "No regression"
+            ],
+            [
+              "Family history",
+              "Usually negative",
+              "Often HCM or sudden death"
+            ]
+          ],
+          "caption": "Thresholds are approximate; in the 13 to 15 mm gray zone the features are weighed together."
+        },
+        {
+          "type": "stop",
+          "predict": "A patient with obstructive HCM becomes dehydrated running in the heat. What happens to the outflow gradient?",
+          "explain": "Lower preload, lower afterload, and higher contractility and rate each make the ventricle smaller and more forceful, so obstruction worsens.",
+          "check": "Compare with the paragraph on dynamic outflow obstruction."
+        }
+      ]
+    }
+  ],
+  "integration": [
+    {
+      "type": "p",
+      "text": "Structure sets up every exercise response. Venous valves and muscle-enclosed deep veins make the muscle pump work, compliant splanchnic and cutaneous veins supply the blood that venoconstriction moves centrally, and muscle capillary density sets the surface for O2 exchange. ATP hydrolysis in working muscle produces the adenosine, H+, and CO2 that dilate arterioles and shift the oxyhemoglobin curve, and glycolysis outpacing oxidation explains the lactate threshold. The kidney links to training through the plasma volume expansion driven by renin-angiotensin-aldosterone and vasopressin."
+    },
+    {
+      "type": "p",
+      "text": "Pathology appears wherever the response cannot be completed. A coronary stenosis or peripheral artery disease blocks the active hyperemia that working myocardium or calf muscle needs, causing angina or claudication. In heart failure, limited stroke volume reserve and exaggerated muscle reflexes lower peak VO2. HCM shows that the same muscle mass seen in an athlete is pathologic when it comes from a different stimulus and signaling pathway. The values in this chapter are typical for healthy young adults and vary with age, sex, body size, and heredity."
+    }
+  ],
+  "summary": [
+    "Central command starts the exercise response and resets the baroreflex upward; group III mechanoreceptors and group IV metaboreceptors adjust it through the exercise pressor reflex.",
+    "Heart rate rises first through vagal withdrawal (IKACh, within one or two beats); sympathetic effects through cAMP build over seconds and dominate at higher intensities.",
+    "VO2 equals cardiac output times the a-vO2 difference; from rest to maximum, cardiac output rises about four- to fivefold and extraction about threefold.",
+    "Stroke volume rises from greater filling and contractility and plateaus at about 40% to 60% of VO2max in untrained people; heart rate rises linearly.",
+    "Extraction rises through capillary recruitment, low tissue PO2, and a right shift of the oxyhemoglobin curve.",
+    "Metabolites and NO dilate active muscle and blunt sympathetic constriction, so TPR falls; gut and kidney flow fall, coronary flow rises, brain flow stays constant, and skin flow rises to shed heat.",
+    "Dynamic exercise lowers TPR, raises systolic pressure, leaves diastolic pressure about the same, and imposes a volume load.",
+    "Static exercise compresses muscle vessels, triggers the metaboreflex, raises systolic and diastolic pressure, and imposes a more O2-costly pressure load.",
+    "Endurance training produces eccentric remodeling and a larger blood volume, raising stroke volume and VO2max while resting cardiac output and maximal heart rate stay about the same.",
+    "HCM is an autosomal dominant sarcomere disease with asymmetric septal hypertrophy, a small stiff cavity, myocyte disarray, and dynamic outflow obstruction, and it does not regress with detraining."
+  ],
+  "sources": [
+    {
+      "book": "Guyton and Hall Textbook of Medical Physiology",
+      "where": "Muscle Blood Flow and Cardiac Output During Exercise; the Coronary Circulation and Ischemic Heart Disease"
+    },
+    {
+      "book": "Guyton and Hall Textbook of Medical Physiology",
+      "where": "Sports Physiology"
+    },
+    {
+      "book": "Boron and Boulpaep Medical Physiology",
+      "where": "Integrated control of the cardiovascular system; exercise physiology"
+    },
+    {
+      "book": "Robbins and Cotran Pathologic Basis of Disease",
+      "where": "The Heart: cardiac hypertrophy and hypertrophic cardiomyopathy"
+    },
+    {
+      "book": "Lange Pathophysiology of Disease",
+      "where": "Cardiovascular Disorders: Heart Disease"
+    }
+  ],
+  "verify": [
+    "The heart rate up to which vagal withdrawal accounts for most of the increase is quoted as roughly 100 bpm in review sources; confirm whether NABNE expects a specific value.",
+    "The distribution of cardiac output at rest and at maximal exercise is taken from classic illustrative exercise physiology tables; individual values differ among sources.",
+    "Values for maximal stroke volume, cardiac output, a-vO2 difference, and VO2max in untrained people and elite athletes are approximate and vary among texts.",
+    "The fraction of maximal voluntary force at which intramuscular pressure restricts muscle blood flow varies by muscle and study, so it is stated only qualitatively.",
+    "Peak systolic pressure in healthy adults during dynamic exercise (about 160 to 200 mmHg) varies with age, sex, and protocol; thresholds for an exaggerated response differ among guidelines.",
+    "Thresholds separating athlete's heart from HCM (12 mm or less versus 15 mm or more, gray zone 13 to 15 mm, cavity above 55 mm versus below 45 mm, regression within about 3 months) are commonly quoted approximations; confirm the values NABNE expects.",
+    "The contribution of reduced intrinsic SA node rate to athletic bradycardia is less established than the vagal mechanism; confirm the emphasis NABNE expects.",
+    "The older view that strength training produces concentric and endurance training eccentric hypertrophy is only partly supported by current imaging; this chapter teaches the endurance pattern and treats static loading as an acute pressure load.",
+    "The typical rise in VO2max with training in previously sedentary adults (about 15% to 20%) varies widely among individuals and studies.",
+    "Confirm whether NABNE Part I expects the terms central command, exercise pressor reflex, functional sympatholysis, and cardiovascular drift, or only descriptive explanations.",
+    "Requested new diagram names for a future revision: pv-loop-exercise (pressure-volume loops at rest, in dynamic exercise, and in static exercise) and fick-graded-exercise (heart rate, stroke volume, cardiac output, and a-vO2 difference plotted against percent VO2max)."
+  ]
+}

@@ -12,7 +12,8 @@
           "Anemia: PaO2 and SaO2 normal, content low (Hb 7.5 g/dL halves content to about 10 mL/dL).",
           "Polycythemia: PaO2 and SaO2 normal, content high.",
           "O2 delivery = cardiac output x CaO2, so low content can be partly offset by a higher cardiac output."
-        ]
+        ],
+        "why": "Almost all arterial O2 rides on hemoglobin, so content depends on how much hemoglobin there is and how full it is, while dissolved O2 adds very little. PaO2 reflects gas exchange across the alveolar membrane and sets the percent saturation, but it cannot tell how much hemoglobin is present. This is why anemia lowers content and delivery with a normal PaO2 and SaO2, and why the body compensates by raising cardiac output and extracting more O2 in the tissues."
       },
       {
         "h": "The dissociation curve",
@@ -23,7 +24,8 @@
           "Right shift (easier unloading): more H+ (lower pH), more CO2, higher temperature, more 2,3-BPG, exercise.",
           "Left shift (tighter binding): fetal hemoglobin, carbon monoxide, methemoglobin, alkalosis, low temperature, low 2,3-BPG.",
           "The flat top keeps saturation near 90 percent until PaO2 drops below about 60 mmHg; the steep part sits at tissue PO2 levels."
-        ]
+        ],
+        "why": "Hemoglobin is a tetramer whose four subunits change shape together. When O2 binds one heme, the iron moves into the plane of the porphyrin ring and pulls the molecule from the T state toward the R state, which raises affinity at the remaining hemes and gives the sigmoid shape. H+, CO2, and 2,3-BPG stabilize the T state, so they shift the curve right and release O2. The plateau protects loading in the lungs when alveolar PO2 falls, and the steep middle lets a small drop in tissue PO2 release a large amount of O2."
       },
       {
         "h": "Carbon dioxide transport",
@@ -32,7 +34,8 @@
           "In red cells, carbonic anhydrase makes CO2 + H2O into H2CO3, which splits into H+ and HCO3-.",
           "HCO3- leaves the red cell in exchange for Cl- through band 3 (the chloride shift); the reverse happens in the lungs.",
           "H+ is buffered by deoxyhemoglobin, which is a better buffer than oxyhemoglobin."
-        ]
+        ],
+        "why": "CO2 diffuses into red cells, where carbonic anhydrase hydrates it within milliseconds, so most CO2 ends up in plasma as bicarbonate after the chloride shift. Deoxyhemoglobin buffers the H+ that is released, which keeps the reaction moving forward and limits the fall in venous pH. Carbamino compounds form on the terminal amino groups of the globin chains, and deoxyhemoglobin forms them more readily. In the lungs every step runs in reverse, regenerating CO2 that is exhaled."
       },
       {
         "h": "Bohr and Haldane effects",
@@ -40,7 +43,8 @@
           "Bohr effect (tissues): high CO2 and H+ lower hemoglobin O2 affinity, so O2 unloads where metabolism is high.",
           "Haldane effect (lungs): oxygenation of hemoglobin lowers its affinity for CO2 and H+, so CO2 is released into the alveoli.",
           "In tissues the two work together: unloading O2 makes deoxyhemoglobin, which picks up more CO2 and H+."
-        ]
+        ],
+        "why": "Both effects come from one linkage: O2 binding and H+ or CO2 binding favor opposite conformations of hemoglobin. In active tissue, H+ and CO2 stabilize the T state and push O2 off (Bohr effect). In the lungs, O2 loading shifts hemoglobin to the R state, which releases bound H+ and carbamino CO2; that H+ combines with HCO3- to form CO2 for exhalation (Haldane effect). So each gas helps unload the other exactly where it needs to leave."
       },
       {
         "h": "Carbon monoxide and methemoglobin",
@@ -51,7 +55,8 @@
           "Methemoglobinemia gives chocolate-colored blood and cyanosis that does not improve with O2; pulse oximetry tends to read about 85 percent.",
           "Common causes of methemoglobinemia: nitrites, dapsone, benzocaine and other topical anesthetics.",
           "Co-oximetry measures carboxyhemoglobin and methemoglobin directly and is the test that settles both."
-        ]
+        ],
+        "why": "Both disorders lower O2 content while PaO2 stays normal, because they alter hemoglobin and leave alveolar gas exchange untouched. CO occupies heme sites and locks the remaining hemes in a high-affinity state, so less O2 is carried and what is carried unloads poorly in tissues. Oxidizing drugs convert ferrous iron to ferric iron, which cannot bind O2 and raises the affinity of the other hemes in the same tetramer. Standard pulse oximeters read only two wavelengths and cannot identify these abnormal hemoglobins, which is why co-oximetry is needed."
       },
       {
         "h": "Respiratory acid-base",
@@ -61,6 +66,41 @@
           "Respiratory alkalosis (hyperventilation): HCO3- falls about 2 mEq/L per 10 mmHg acutely and 4 to 5 mEq/L chronically.",
           "Renal compensation takes 3 to 5 days, which is why acute and chronic values differ.",
           "If the measured HCO3- is clearly off the expected value, a second (metabolic) disorder is present."
+        ],
+        "why": "PaCO2 is set by alveolar ventilation, so hypoventilation raises PaCO2 and lowers pH through the CO2 and bicarbonate equilibrium. The small acute rise in HCO3- comes from buffering by hemoglobin and other intracellular proteins. The larger chronic change appears over 3 to 5 days as the kidney increases H+ secretion and ammonium excretion and adds new bicarbonate to the blood, or does the reverse in alkalosis. Comparing measured HCO3- with the expected value tells you whether a separate metabolic disorder is also present."
+      }
+    ],
+    "flows": [
+      {
+        "title": "CO2 loading in systemic capillaries",
+        "steps": [
+          "Tissue CO2 diffuses into plasma and then into red cells",
+          "Carbonic anhydrase converts CO2 and H2O to H2CO3",
+          "H2CO3 dissociates into H+ and HCO3-",
+          "Deoxyhemoglobin buffers the H+, pulling the reaction forward",
+          "HCO3- leaves through band 3 in exchange for Cl- (chloride shift)",
+          "HCO3- travels in plasma to the lungs, where every step reverses"
+        ]
+      },
+      {
+        "title": "Carbon monoxide poisoning to tissue hypoxia",
+        "steps": [
+          "CO binds heme with about 200 times the affinity of O2",
+          "Fewer heme sites carry O2, so O2 content falls",
+          "Remaining hemes hold O2 more tightly (left shift), so unloading falls",
+          "Tissue hypoxia develops while PaO2 and standard pulse oximetry stay normal",
+          "Cells shift to anaerobic glycolysis and lactate rises"
+        ]
+      },
+      {
+        "title": "Chronic respiratory acidosis and renal compensation",
+        "steps": [
+          "Alveolar ventilation falls, so PaCO2 rises",
+          "CO2 hydration raises H+ and pH falls",
+          "Renal tubule cells increase H+ secretion and ammonium excretion",
+          "The kidney adds new HCO3- to the blood over 3 to 5 days",
+          "HCO3- rises 3 to 4 mEq/L per 10 mmHg rise in PaCO2",
+          "pH moves back toward normal without fully correcting"
         ]
       }
     ],
@@ -250,7 +290,8 @@
           "Fetal cortisol and thyroid hormone increase synthesis, which is why antenatal corticosteroids speed lung maturity.",
           "Fetal hyperinsulinemia (maternal diabetes) slows synthesis, so these infants get respiratory distress at a later gestational age.",
           "Maturity markers in amniotic fluid: lecithin to sphingomyelin ratio above 2.0 and phosphatidylglycerol present."
-        ]
+        ],
+        "why": "Surface tension in a curved alveolus creates a collapsing pressure equal to 2T/r (law of Laplace), so without surfactant small alveoli would empty into larger ones. DPPC packs tightly as the film is compressed during expiration, so surface tension falls most as the alveolus shrinks, which keeps alveoli of different sizes stable. Fetal glucocorticoids induce type II cell maturation and the enzymes of phosphatidylcholine synthesis, while fetal insulin antagonizes this effect, which explains delayed lung maturity in infants of diabetic mothers."
       },
       {
         "h": "Proteases and antiproteases",
@@ -259,7 +300,8 @@
           "Cigarette smoke recruits neutrophils and macrophages, which release elastase and matrix metalloproteinases.",
           "Oxidants in smoke oxidize a methionine in the reactive site of alpha-1 antitrypsin and inactivate it.",
           "More protease plus less antiprotease tips the balance toward alveolar wall destruction (emphysema)."
-        ]
+        ],
+        "why": "Alveolar wall elastin stays intact because alpha-1 antitrypsin traps neutrophil elastase in an irreversible complex. Smoking upsets this balance from both sides: it recruits neutrophils and macrophages that release elastase, and its oxidants inactivate the antitrypsin that should neutralize it. Unopposed elastase destroys alveolar septa, which merges airspaces and removes the radial traction that holds small airways open, producing emphysema with air trapping."
       },
       {
         "h": "Elastin and collagen",
@@ -268,7 +310,8 @@
           "Lysyl oxidase, a copper-dependent enzyme, makes these cross-links (and collagen cross-links).",
           "Elastin loss in emphysema raises compliance and lowers recoil, so air is trapped.",
           "Collagen deposition in fibrosis lowers compliance and raises recoil, so lung volumes shrink."
-        ]
+        ],
+        "why": "Lung recoil comes from alveolar surface tension and from elastic fibers. Lysyl oxidase uses copper to oxidize lysine side chains into reactive aldehydes, which condense into desmosine cross-links that let elastin stretch and snap back. Losing elastin makes the lung floppy (high compliance) with weak recoil, so airways collapse during expiration and air is trapped. Depositing stiff collagen does the opposite, raising recoil and lowering lung volumes, which is the restrictive pattern."
       },
       {
         "h": "Vitamins",
@@ -277,7 +320,8 @@
           "Vitamin A deficiency causes squamous (keratinizing) metaplasia, loss of cilia and goblet cells, and more respiratory infections.",
           "Cystic fibrosis blocks pancreatic enzyme release, fats are poorly absorbed, and fat-soluble vitamins A, D, E, and K run low.",
           "Results: night blindness (A), rickets or osteomalacia (D), hemolysis and neuropathy (E), bleeding (K)."
-        ]
+        ],
+        "why": "Retinoic acid acts through nuclear retinoic acid receptors that control the genes for airway epithelial differentiation. Without it, the lining shifts to keratinizing squamous epithelium that lacks cilia and goblet cells, so the mucociliary escalator fails and infections rise. In cystic fibrosis, thick secretions block the pancreatic ducts and lipase does not reach the gut, and because fat-soluble vitamins are absorbed in micelles with dietary fat, all four become deficient."
       },
       {
         "h": "Oxidant injury",
@@ -287,7 +331,8 @@
           "Superoxide dismutase turns superoxide into hydrogen peroxide; catalase turns hydrogen peroxide into water and O2.",
           "Glutathione peroxidase uses selenium and reduced glutathione to clear peroxides; NADPH regenerates glutathione.",
           "Prolonged high FiO2 causes diffuse alveolar damage in adults and adds to bronchopulmonary dysplasia in neonates."
-        ]
+        ],
+        "why": "Reactive oxygen species form when O2 accepts single electrons, and their production rises with high FiO2 and with the oxidants in smoke. Cells clear them with a sequence of enzymes: superoxide dismutase, then catalase or glutathione peroxidase, with NADPH from the pentose phosphate pathway regenerating reduced glutathione through glutathione reductase. When production outpaces this system, lipid peroxidation and protein damage injure alveolar epithelium and endothelium, causing leak and diffuse alveolar damage."
       },
       {
         "h": "Mucus",
@@ -296,6 +341,40 @@
           "Secreted by goblet cells in the epithelium and by submucosal glands.",
           "Chronic bronchitis: submucosal gland hyperplasia (Reid index above 0.4) and goblet cell increase make excess mucus.",
           "Cystic fibrosis: too little water in the airway surface liquid makes mucus thick and hard for cilia to move."
+        ],
+        "why": "Mucins form a gel because their dense O-linked sugar chains bind large amounts of water, so the hydration of the airway surface liquid decides how easily cilia can move them. Chronic irritation from smoke enlarges submucosal glands and expands goblet cells, which increases mucus volume. In cystic fibrosis the mucus is short on water: without CFTR chloride secretion and with excess ENaC sodium absorption, the periciliary layer collapses and mucus becomes thick and sticky."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Smoking and the protease-antiprotease imbalance",
+        "steps": [
+          "Cigarette smoke recruits neutrophils and activates alveolar macrophages",
+          "These cells release elastase and matrix metalloproteinases",
+          "Smoke oxidants inactivate alpha-1 antitrypsin at its reactive-site methionine",
+          "Unopposed elastase digests elastin in alveolar walls",
+          "Airspaces enlarge and elastic recoil falls",
+          "Small airways collapse in expiration and air is trapped (emphysema)"
+        ]
+      },
+      {
+        "title": "Maternal diabetes and delayed lung maturity",
+        "steps": [
+          "Maternal glucose crosses the placenta to the fetus",
+          "The fetal pancreas responds with hyperinsulinemia",
+          "Insulin antagonizes cortisol-driven maturation of type II pneumocytes",
+          "Synthesis of DPPC and phosphatidylglycerol is delayed",
+          "Alveoli collapse after birth, causing respiratory distress at a later gestational age"
+        ]
+      },
+      {
+        "title": "Clearing reactive oxygen species",
+        "steps": [
+          "O2 accepts one electron to form superoxide",
+          "Superoxide dismutase converts superoxide to hydrogen peroxide",
+          "Catalase or glutathione peroxidase converts hydrogen peroxide to water",
+          "Glutathione peroxidase oxidizes reduced glutathione in the process",
+          "Glutathione reductase uses NADPH to regenerate reduced glutathione"
         ]
       }
     ],
@@ -488,7 +567,8 @@
           "Airways: less chloride secretion and more sodium absorption pull water out, leaving thick, dehydrated mucus.",
           "Sweat glands: chloride cannot be reabsorbed, so sweat chloride is high (60 mmol/L or more is diagnostic).",
           "Other findings: meconium ileus, pancreatic insufficiency, male infertility from absent vas deferens, recurrent Staphylococcus aureus and Pseudomonas infections."
-        ]
+        ],
+        "why": "CFTR opens when protein kinase A phosphorylates its regulatory domain and ATP binds its nucleotide-binding domains, letting chloride (and bicarbonate) flow onto epithelial surfaces. The F508 deletion disrupts folding, so ER quality control tags the protein with ubiquitin for proteasomal destruction and little reaches the membrane. In airways, lost chloride secretion plus unchecked ENaC sodium absorption dehydrates the surface liquid. In the sweat duct CFTR normally reabsorbs chloride, so its loss leaves sweat salty."
       },
       {
         "h": "Alpha-1 antitrypsin deficiency",
@@ -498,7 +578,8 @@
           "Lung: unopposed elastase causes panacinar emphysema, worst in the lower lobes, often before age 45 in smokers.",
           "Liver: retained protein injures hepatocytes and causes hepatitis and cirrhosis.",
           "Liver biopsy shows PAS-positive, diastase-resistant globules in hepatocytes."
-        ]
+        ],
+        "why": "The Z allele (a single glutamate to lysine substitution) lets the protein misfold and polymerize in the hepatocyte ER, which causes two separate problems. Too little antitrypsin reaches the lung, so neutrophil elastase destroys alveolar walls throughout the acinus, giving panacinar emphysema. The retained polymers injure hepatocytes from within, causing hepatitis and cirrhosis, and appear as PAS-positive, diastase-resistant globules. Because alleles are codominant, each one contributes its own protein, so PiMZ carriers have intermediate serum levels."
       },
       {
         "h": "Primary ciliary dyskinesia",
@@ -508,7 +589,8 @@
           "Sperm flagella share the same axoneme, so men are infertile; women have reduced fertility and more ectopic pregnancy.",
           "Embryonic nodal cilia set left-right orientation; without them sidedness is random, so about half have situs inversus.",
           "Kartagener syndrome is the triad of situs inversus, chronic sinusitis, and bronchiectasis."
-        ]
+        ],
+        "why": "Motile cilia have a 9+2 axoneme in which dynein arms use ATP to slide the outer microtubule doublets past each other and bend the cilium. Without dynein arms, mucus pools in the sinuses, middle ears, and bronchi, and repeated infection and inflammation destroy bronchial walls into bronchiectasis. Sperm flagella use the same motor, so sperm are immotile. In the embryo, rotating nodal cilia create a leftward fluid flow that sets left-right asymmetry, so without them organ position is decided by chance."
       },
       {
         "h": "Cell cycle brakes and tobacco",
@@ -517,7 +599,8 @@
           "p53 senses DNA damage and induces p21, which inhibits CDKs and holds the cell in G1 for repair or apoptosis.",
           "Benzo[a]pyrene is activated by cytochrome P450 to a diol epoxide that binds guanine and forms DNA adducts.",
           "Unrepaired adducts cause G to T transversions, including in TP53 hot spots, which removes the G1 brake."
-        ]
+        ],
+        "why": "The G1 checkpoint lets a cell repair DNA before copying it. Rb holds E2F inactive until cyclin D with CDK4 and CDK6 phosphorylates it, and p53 can stop this by inducing p21, a CDK inhibitor that keeps Rb unphosphorylated. Tobacco carcinogens such as benzo[a]pyrene become DNA-reactive only after P450 activation, and their guanine adducts cause G to T transversions in TP53. Losing p53 removes the damage checkpoint, so mutations pile up with each division."
       },
       {
         "h": "Driver mutations in lung cancer",
@@ -527,6 +610,41 @@
           "KRAS mutations are more common in smokers; KRAS and EGFR mutations rarely occur in the same tumor.",
           "Small cell carcinoma: loss of TP53 and RB1 in nearly all tumors.",
           "EGFR and ALK changes matter because targeted kinase inhibitors exist for them."
+        ],
+        "why": "A driver mutation gives the tumor a growth signal it comes to depend on. Mutant EGFR and the EML4-ALK fusion are tyrosine kinases that signal without ligand through the RAS-MAPK and PI3K-AKT pathways, while mutant KRAS stays locked in its active GTP-bound state further down the same pathway. Because these changes activate one pathway, a tumor gains little from carrying two of them, which is one reason they rarely occur together. Small cell carcinoma instead loses the RB1 and TP53 brakes on the cell cycle."
+      }
+    ],
+    "flows": [
+      {
+        "title": "F508 deletion to thick airway mucus",
+        "steps": [
+          "Deletion of phenylalanine 508 causes CFTR to misfold",
+          "ER quality control tags the protein with ubiquitin for proteasomal degradation",
+          "Little CFTR reaches the apical membrane",
+          "Chloride secretion falls and ENaC sodium absorption rises",
+          "Water follows sodium out of the airway surface liquid",
+          "Dehydrated mucus defeats ciliary clearance, leading to infection and bronchiectasis"
+        ]
+      },
+      {
+        "title": "PiZZ alpha-1 antitrypsin deficiency in the lung",
+        "steps": [
+          "Z protein misfolds and polymerizes in the hepatocyte ER",
+          "Little antitrypsin is secreted, so serum levels are low",
+          "Neutrophil elastase acts unopposed in the alveoli",
+          "Alveolar walls are destroyed across the whole acinus",
+          "Panacinar emphysema develops, worst in the lower lobes"
+        ]
+      },
+      {
+        "title": "Tobacco carcinogen to loss of the G1 checkpoint",
+        "steps": [
+          "Benzo[a]pyrene is inhaled in cigarette smoke",
+          "Cytochrome P450 enzymes activate it to a diol epoxide",
+          "The epoxide binds guanine, forming bulky DNA adducts",
+          "Unrepaired adducts cause G to T transversions in TP53",
+          "Loss of p53 removes p21 induction after DNA damage",
+          "Cells pass the G1 checkpoint with damaged DNA, and mutations accumulate"
         ]
       }
     ],
@@ -703,7 +821,8 @@
           "Without O2, NADH builds up and the electron transport chain stops.",
           "Lactate dehydrogenase turns pyruvate into lactate to regenerate NAD+ so glycolysis can continue.",
           "Result: lactic acidosis, an anion gap metabolic acidosis (lactate normally below about 2 mmol/L)."
-        ]
+        ],
+        "why": "O2 is the terminal electron acceptor, so it keeps electrons flowing from NADH and FADH2 through the chain to complex IV. When O2 is lacking, the chain backs up, proton pumping stops, ATP synthase slows, and NADH cannot be reoxidized to NAD+. Glycolysis needs NAD+ at the glyceraldehyde-3-phosphate dehydrogenase step, so cells regenerate it by reducing pyruvate to lactate. The extra lactate and H+ produce an anion gap metabolic acidosis."
       },
       {
         "h": "Cyanide and carbon monoxide",
@@ -714,7 +833,8 @@
           "PaO2 stays normal because O2 still reaches the blood; cells cannot use it, so lactate rises.",
           "In cyanide poisoning tissues extract little O2, so venous O2 saturation is high and venous blood looks bright red.",
           "Hydroxocobalamin binds cyanide to form cyanocobalamin; sodium thiosulfate helps rhodanese convert cyanide to thiocyanate."
-        ]
+        ],
+        "why": "Cyanide stops complex IV, so cells cannot use O2 even though blood carries a normal amount; CO adds the same block to its main effect on hemoglobin. O2 still diffuses into the blood, which is why PaO2 stays normal, and in cyanide poisoning the unused O2 returns in venous blood and raises venous saturation. Because ATP falls, cells switch to anaerobic glycolysis and lactate rises. The antidotes give cyanide another target: hydroxocobalamin binds it directly, and thiosulfate supplies sulfur so rhodanese can form thiocyanate for renal excretion."
       },
       {
         "h": "Respiratory quotient",
@@ -724,7 +844,8 @@
           "Example: VCO2 200 mL/min and VO2 250 mL/min gives RQ 0.8.",
           "Heavy carbohydrate feeding raises CO2 production, and RQ above 1.0 means net fat synthesis.",
           "More CO2 means more ventilation needed, a problem for patients with COPD or those weaning from a ventilator."
-        ]
+        ],
+        "why": "RQ reflects how oxidized a fuel already is. Carbohydrate carries enough oxygen in its own structure that each O2 consumed yields one CO2, while fat is highly reduced, so much of the O2 goes to forming water and RQ is about 0.7. When excess carbohydrate is converted to fat, an oxygen-rich substrate becomes an oxygen-poor product, so CO2 is released without matching O2 use and RQ exceeds 1.0. Because PaCO2 depends on CO2 production divided by alveolar ventilation, a larger CO2 load requires more ventilation to hold PaCO2 steady."
       },
       {
         "h": "2,3-BPG",
@@ -735,7 +856,8 @@
           "High altitude: hypoxia and respiratory alkalosis stimulate glycolysis, raising 2,3-BPG within hours to days.",
           "Pyruvate kinase deficiency backs up glycolytic intermediates, raising 2,3-BPG and improving O2 unloading despite anemia.",
           "Hexokinase deficiency and stored blood lower 2,3-BPG and shift the curve left."
-        ]
+        ],
+        "why": "2,3-BPG carries strong negative charges that fit the positively charged central cavity between the beta chains of deoxyhemoglobin, holding it in the T state and lowering O2 affinity. Its level depends on glycolytic flux through the red cell, so a block below the shunt (pyruvate kinase deficiency) raises it, while a block above it (hexokinase deficiency) lowers it. Fetal hemoglobin binds 2,3-BPG poorly because its gamma chains lack a positively charged histidine found in beta chains, which explains its higher O2 affinity."
       },
       {
         "h": "Work of breathing in emphysema",
@@ -744,6 +866,40 @@
           "In severe emphysema, air trapping and a flattened diaphragm make each breath cost far more energy.",
           "Resting energy expenditure rises while dyspnea and early fullness cut food intake.",
           "Result: weight loss and muscle wasting, and a low body mass index predicts worse survival."
+        ],
+        "why": "Work of breathing rises when muscles must move air through collapsing airways, and hyperinflation leaves the diaphragm short and flat, where it generates force inefficiently. The O2 cost of breathing therefore climbs and takes a much larger share of resting energy use. With intake limited by dyspnea, the energy gap is filled by breaking down fat and muscle, including respiratory muscle, which further weakens ventilation."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Tissue hypoxia to lactic acidosis",
+        "steps": [
+          "O2 delivery to cells falls below demand",
+          "Complex IV lacks its electron acceptor, so the electron transport chain stops",
+          "Oxidative ATP production falls and NADH accumulates",
+          "Lactate dehydrogenase reduces pyruvate to lactate, regenerating NAD+",
+          "Glycolysis continues, yielding only 2 ATP per glucose",
+          "Lactate and H+ accumulate, causing anion gap metabolic acidosis"
+        ]
+      },
+      {
+        "title": "Cyanide poisoning from smoke inhalation",
+        "steps": [
+          "Burning plastics, foam, wool, or silk release hydrogen cyanide that is inhaled",
+          "Cyanide binds the ferric iron of cytochrome a3 in complex IV",
+          "Cells cannot use O2, so ATP production falls",
+          "Anaerobic glycolysis takes over and lactate rises",
+          "Unused O2 returns in venous blood, so venous saturation is high"
+        ]
+      },
+      {
+        "title": "The red cell 2,3-BPG shunt",
+        "steps": [
+          "Glycolysis in the red cell produces 1,3-bisphosphoglycerate",
+          "Bisphosphoglycerate mutase converts it to 2,3-BPG, bypassing an ATP-producing step",
+          "2,3-BPG binds the central cavity of deoxyhemoglobin",
+          "The T state is stabilized and O2 affinity falls",
+          "The curve shifts right and tissues receive more O2"
         ]
       }
     ],
@@ -918,7 +1074,8 @@
           "Alveolar macrophages clear microbes and particles small enough to reach the alveoli (about 1 to 5 micrometers).",
           "Surfactant proteins A and D bind microbes and act as opsonins for macrophages.",
           "Smoking paralyzes cilia and impairs macrophages; alcohol blunts cough and gag reflexes and raises aspiration risk; ciliary defects stop clearance."
-        ]
+        ],
+        "why": "Defenses are layered by particle size and depth in the airway. Large particles impact in the nose, smaller ones land on mucus that coordinated ciliary beating carries upward, and secretory IgA keeps microbes from attaching to the epithelium. Particles that reach the alveoli meet macrophages, helped by SP-A and SP-D, which bind microbial surface sugars and opsonize them. Smoking, alcohol, and ciliary defects each remove one of these layers, which is why each raises pneumonia risk."
       },
       {
         "h": "Allergic asthma (type I)",
@@ -928,7 +1085,8 @@
           "IgE coats mast cells through FcεRI; re-exposure cross-links IgE and triggers degranulation.",
           "Early phase (minutes): histamine, prostaglandin D2, and leukotrienes C4, D4, and E4 cause bronchoconstriction, mucus, and leak.",
           "Late phase (about 4 to 8 hours): eosinophils and Th2 cells arrive; major basic protein injures epithelium; sputum may show Charcot-Leyden crystals."
-        ]
+        ],
+        "why": "Allergic asthma is driven by Th2 cells. Dendritic cells present allergen to naive CD4 T cells in the presence of IL-4, and the resulting Th2 cytokines each drive one feature: IL-4 switches B cells to IgE, IL-5 produces and activates eosinophils, and IL-13 drives goblet cell mucus and airway hyperresponsiveness. Preformed and newly made mast cell mediators cause the early response within minutes, while recruited eosinophils and T cells cause the late phase and the epithelial damage that keeps inflammation going."
       },
       {
         "h": "Granulomas (type IV)",
@@ -938,7 +1096,8 @@
           "TNF-alpha holds the granuloma together.",
           "TNF-alpha blockers can let latent tuberculosis reactivate, so patients are screened first.",
           "Tuberculosis granulomas caseate; sarcoidosis granulomas do not."
-        ]
+        ],
+        "why": "A granuloma walls off an antigen that macrophages cannot destroy. Macrophage IL-12 drives Th1 differentiation, Th1 cells release IFN-gamma, and the activated macrophages become epithelioid cells that can fuse into multinucleated giant cells. TNF-alpha from macrophages keeps this structure organized, which is why blocking TNF can break down granulomas that contain dormant mycobacteria. Caseous necrosis in the center reflects the intense cell-mediated response to mycobacterial antigens."
       },
       {
         "h": "Hypersensitivity pneumonitis",
@@ -948,7 +1107,8 @@
           "Histology: lymphocytic interstitial infiltrate with poorly formed noncaseating granulomas.",
           "Acute episodes bring fever, cough, and dyspnea 4 to 6 hours after exposure; chronic exposure causes fibrosis.",
           "Unlike asthma: no IgE, no eosinophilia, restrictive pattern, reduced DLCO."
-        ]
+        ],
+        "why": "Organic antigens such as actinomycete spores are small enough to reach the terminal bronchioles and alveoli, where repeated exposure induces precipitating IgG. Immune complexes form in the alveolar walls, activate complement, and recruit neutrophils over several hours, which explains the 4 to 6 hour delay of acute episodes. Continued exposure shifts the reaction toward T cell inflammation with poorly formed granulomas and eventually fibrosis. Because the injury is in the alveolar walls and IgE plays no part, the pattern is restrictive with a low DLCO."
       },
       {
         "h": "Lung and kidney together",
@@ -957,7 +1117,8 @@
           "Goodpasture causes pulmonary hemorrhage (hemoptysis) and rapidly progressive glomerulonephritis with linear IgG on immunofluorescence.",
           "Granulomatosis with polyangiitis: PR3-ANCA (c-ANCA), necrotizing granulomatous vasculitis.",
           "It hits the upper airway (sinusitis, nasal ulcers, saddle nose), lungs (cavitating nodules), and kidneys (pauci-immune crescentic glomerulonephritis)."
-        ]
+        ],
+        "why": "Goodpasture antibodies target the alpha-3 chain of type IV collagen, which is present in both glomerular and alveolar basement membranes. The antibody binds evenly along the membrane, giving linear IgG staining, and complement activation and neutrophils damage capillaries in both organs. Granulomatosis with polyangiitis works differently: PR3-ANCA activates primed neutrophils that injure small vessel walls, so the kidney shows few or no immune deposits (pauci-immune)."
       },
       {
         "h": "Vaccines for respiratory pathogens",
@@ -967,7 +1128,8 @@
           "Plain polysaccharides are T cell independent: mostly IgM, little memory, weak response under age 2.",
           "Conjugate vaccines (Hib, pneumococcal) link polysaccharide to a protein so B cells present carrier peptides to helper T cells.",
           "T cell help gives class switching to IgG, affinity maturation, memory, and protection in infants."
-        ]
+        ],
+        "why": "Toxoids are toxins chemically inactivated so they no longer cause disease while keeping their antigenic epitopes, so the IgG they induce neutralizes the real toxin. Polysaccharides have repeating epitopes that cross-link B cell receptors without T cell help, which gives short-lived IgM and poor responses in children under 2. Linking the polysaccharide to a protein lets the polysaccharide-specific B cell take in the carrier and present its peptides on MHC class II. Helper T cells then supply CD40 ligand and cytokines for class switching, affinity maturation, and memory."
       },
       {
         "h": "Lung cancer and immunity",
@@ -977,6 +1139,43 @@
           "Small cell carcinoma shares antigens with neurons, so antibodies against the tumor also hit nerves.",
           "Anti-Hu: paraneoplastic encephalomyelitis and sensory neuronopathy.",
           "Anti-voltage-gated calcium channel: Lambert-Eaton syndrome, proximal weakness that improves with repeated effort."
+        ],
+        "why": "CD8 T cells recognize tumor peptides on MHC class I, so tumors that reduce class I expression escape them. PD-L1 on tumor cells engages PD-1, an inhibitory receptor on activated T cells that dampens their signaling, and checkpoint inhibitor drugs release this brake. Small cell carcinoma is a neuroendocrine tumor that expresses neuronal proteins, so antibodies raised against the tumor cross-react with neurons or with presynaptic calcium channels, causing paraneoplastic neurologic syndromes."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Allergic asthma attack",
+        "steps": [
+          "Dendritic cells present inhaled allergen to naive CD4 T cells",
+          "IL-4 drives the T cells to become Th2 cells",
+          "Th2 IL-4 switches allergen-specific B cells to make IgE",
+          "IgE binds FcεRI on mast cells (sensitization)",
+          "Re-exposure cross-links bound IgE and mast cells degranulate",
+          "Histamine and leukotrienes cause bronchoconstriction, mucus, and edema within minutes",
+          "Eosinophils recruited by IL-5 drive the late phase hours later"
+        ]
+      },
+      {
+        "title": "Granuloma formation",
+        "steps": [
+          "Macrophages ingest an antigen they cannot clear, such as M. tuberculosis",
+          "Macrophages present antigen on MHC class II and secrete IL-12",
+          "Naive CD4 T cells become Th1 cells",
+          "Th1 cells secrete IFN-gamma, activating macrophages",
+          "Activated macrophages become epithelioid cells and fuse into giant cells",
+          "TNF-alpha maintains the organized granuloma"
+        ]
+      },
+      {
+        "title": "Conjugate vaccine response",
+        "steps": [
+          "A polysaccharide-specific B cell binds the conjugate through its receptor",
+          "The B cell internalizes the conjugate and processes the carrier protein",
+          "Carrier peptides are presented on MHC class II",
+          "Carrier-specific helper T cells supply CD40 ligand and cytokines",
+          "The B cell class switches to IgG and undergoes affinity maturation",
+          "Memory B cells give lasting protection, even in infants"
         ]
       }
     ],
@@ -1169,7 +1368,8 @@
           "Polysaccharide capsule is the main virulence factor; IgA protease and pneumolysin add to it.",
           "Most common cause of community-acquired pneumonia and of lobar pneumonia; rust-colored sputum.",
           "Asplenia raises risk of severe infection with encapsulated organisms like this one."
-        ]
+        ],
+        "why": "The polysaccharide capsule blocks complement deposition and phagocytosis, which is why opsonizing antibody and the spleen are central to defense against it. IgA protease cleaves secretory IgA so the organism can colonize the nasopharynx, and pneumolysin, a pore-forming toxin, damages epithelium and drives inflammation as alveoli fill with exudate. Optochin sensitivity and bile solubility (bile salts activate the organism's autolysin) are the lab traits that separate it from viridans streptococci."
       },
       {
         "h": "Gram-negative lung pathogens",
@@ -1180,7 +1380,8 @@
           "Pseudomonas aeruginosa: oxidase-positive, non-lactose-fermenting aerobic rod; blue-green pigment; cystic fibrosis and ventilated patients.",
           "Legionella pneumophila: stains poorly with Gram stain; grows on buffered charcoal yeast extract agar with iron and cysteine.",
           "Legionella spreads from contaminated water (cooling towers, plumbing), not person to person; hyponatremia and diarrhea are clues; urine antigen test."
-        ]
+        ],
+        "why": "The lab and clinical clues for each organism follow from its biology. H. influenzae cannot make heme (factor X) or NAD+ (factor V), so it needs chocolate agar, and its type b capsule lets it survive in the blood and invade. Klebsiella's thick capsule resists phagocytosis, and aspiration of colonized oral secretions in alcoholics explains its necrotizing pneumonia. Pseudomonas thrives in moist settings and in the thick mucus of cystic fibrosis, while Legionella multiplies inside amoebae in water systems and needs added iron and cysteine to grow in culture."
       },
       {
         "h": "Toxin-driven infections",
@@ -1190,7 +1391,8 @@
           "Clinical result: gray pseudomembrane in the pharynx, bull neck, myocarditis, and cranial nerve palsies.",
           "Bordetella pertussis: gram-negative coccobacillus; pertussis toxin ADP-ribosylates Gi, so Gi cannot inhibit adenylyl cyclase and cAMP rises.",
           "Clinical result: catarrhal stage, then paroxysmal cough with inspiratory whoop and post-tussive vomiting, plus marked lymphocytosis."
-        ]
+        ],
+        "why": "Both toxins have a binding part that gets them into cells and an active part that transfers ADP-ribose from NAD+ to a host protein. Diphtheria toxin inactivates elongation factor 2, so translation stops and cells die, which forms the pseudomembrane locally and damages heart and nerves when toxin circulates. Pertussis toxin modifies Gi so it can no longer inhibit adenylyl cyclase, and cAMP rises and impairs phagocyte function. Blocking Gi-coupled chemokine signaling also keeps lymphocytes from leaving the blood, which produces the marked lymphocytosis."
       },
       {
         "h": "Mycobacterium tuberculosis",
@@ -1200,7 +1402,8 @@
           "Sulfatides help block phagosome and lysosome fusion, so the organism survives inside macrophages.",
           "Spread by airborne droplet nuclei small enough to reach the alveoli.",
           "Primary infection: Ghon focus in the lower part of the upper lobe or upper part of the lower lobe; reactivation favors the apices."
-        ]
+        ],
+        "why": "Mycolic acids make the wall waxy and resistant to decolorization by acid alcohol, which is the basis of acid-fast staining. Inside macrophages the organism blocks phagolysosome fusion and survives until Th1 cells activate those macrophages with IFN-gamma, and cord factor drives the TNF-alpha release that organizes granulomas. Primary infection lands in the well-ventilated middle lung zones, while reactivation favors the apices, where the high PO2 suits this obligate aerobe."
       },
       {
         "h": "Respiratory viruses",
@@ -1211,7 +1414,8 @@
           "Respiratory syncytial virus: nonsegmented negative-sense RNA pneumovirus (formerly grouped with paramyxoviruses).",
           "RSV F protein fuses cells into syncytia; RSV is the top cause of bronchiolitis in infants.",
           "Coronaviruses: enveloped, positive-sense single-stranded RNA; SARS-CoV-2 spike protein binds ACE2."
-        ]
+        ],
+        "why": "Influenza hemagglutinin binds sialic acid to enter cells, and neuraminidase cleaves sialic acid to release new virions. The viral RNA polymerase makes frequent errors, producing point mutations (drift), and the segmented genome lets two influenza A strains swap segments in one cell (shift). Virus kills ciliated epithelium and strips away mucociliary clearance, opening the airway to bacterial superinfection. RSV F protein fuses infected cells with their neighbors into syncytia, and infants' narrow bronchioles plug easily with the resulting debris and mucus."
       },
       {
         "h": "Fungi",
@@ -1222,6 +1426,41 @@
           "Coccidioides: southwestern United States desert dust; spherules filled with endospores; erythema nodosum and arthralgias.",
           "Aspergillus: septate hyphae branching at acute angles (about 45 degrees); invasive disease with neutropenia.",
           "Pneumocystis jirovecii: cysts on methenamine silver stain; diffuse interstitial pneumonia when CD4 count is below 200 cells/mm3."
+        ],
+        "why": "Dimorphism is a temperature switch: environmental molds release spores that are inhaled, and at body temperature the fungus converts to its tissue form. Histoplasma yeasts survive inside macrophages, so infection spreads with them through the reticuloendothelial system, while Blastomyces spreads through the blood to skin and bone. Aspergillus and Pneumocystis are opportunists that cause invasive disease mainly when the defenses that normally control them are missing, neutrophils for Aspergillus and CD4 T cells for Pneumocystis."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Diphtheria toxin",
+        "steps": [
+          "A phage carrying the tox gene lysogenizes C. diphtheriae",
+          "The bacterium colonizes the pharynx and secretes toxin",
+          "The toxin binds host cells and its A fragment enters the cytosol",
+          "The A fragment ADP-ribosylates elongation factor 2",
+          "Protein synthesis stops and cells die, forming the pseudomembrane",
+          "Circulating toxin damages the myocardium and cranial nerves"
+        ]
+      },
+      {
+        "title": "Influenza with secondary bacterial pneumonia",
+        "steps": [
+          "Hemagglutinin binds sialic acid on respiratory epithelial cells",
+          "Virus enters by endocytosis and replicates in the nucleus",
+          "Neuraminidase cleaves sialic acid, releasing new virions",
+          "Infected ciliated epithelium dies and mucociliary clearance fails",
+          "S. aureus, S. pneumoniae, or H. influenzae invade the damaged airway"
+        ]
+      },
+      {
+        "title": "Primary tuberculosis infection",
+        "steps": [
+          "Inhaled droplet nuclei carry bacilli to the alveoli",
+          "Alveolar macrophages ingest bacilli, which block phagolysosome fusion and multiply",
+          "Macrophages present antigen and secrete IL-12, inducing Th1 cells",
+          "Th1 IFN-gamma activates macrophages to kill bacilli",
+          "Caseating granulomas form the Ghon focus; with hilar node involvement, the Ghon complex",
+          "Most lesions heal by fibrosis and calcification, leaving latent infection"
         ]
       }
     ],
@@ -1452,7 +1691,8 @@
           "Signs within hours of birth: tachypnea, grunting, nasal flaring, retractions; ground-glass X-ray with air bronchograms.",
           "Hypoxemia keeps the ductus arteriosus open (patent ductus arteriosus).",
           "O2 and ventilation can cause bronchopulmonary dysplasia and retinopathy of prematurity."
-        ]
+        ],
+        "why": "By the law of Laplace, collapsing pressure equals 2T/r, so without surfactant the smallest alveoli collapse at the end of each breath. Collapsed alveoli that are still perfused act as a right-to-left shunt, so hypoxemia responds poorly to supplemental O2. Injured epithelium and capillaries leak protein that forms hyaline membranes with necrotic cells. Hypoxemia and acidosis keep pulmonary vascular resistance high and the ductus arteriosus open, while the high O2 and pressures used in treatment injure developing lungs and retinal vessels."
       },
       {
         "h": "Acute respiratory distress syndrome",
@@ -1462,7 +1702,8 @@
           "Protein-rich fluid floods alveoli and hyaline membranes form.",
           "Criteria: onset within 1 week, bilateral infiltrates, edema not explained by heart failure, PaO2/FiO2 of 300 or less.",
           "Example: PaO2 75 mmHg on FiO2 0.5 gives a ratio of 150 (moderate ARDS); hypoxemia responds poorly to O2 because of shunt."
-        ]
+        ],
+        "why": "The common pathway is injury to the alveolar-capillary barrier, reached through the airway (pneumonia, aspiration) or the blood (sepsis, pancreatitis). Activated macrophages release IL-1, IL-8, and TNF, and recruited neutrophils release proteases and reactive oxygen species that damage endothelium and type I pneumocytes. Protein-rich fluid floods alveoli, inactivates surfactant, and forms hyaline membranes. Because flooded alveoli are still perfused, the hypoxemia behaves as shunt and responds poorly to O2."
       },
       {
         "h": "Idiopathic pulmonary fibrosis",
@@ -1472,7 +1713,8 @@
           "Usual interstitial pneumonia pattern: patchy subpleural and basal scar of different ages, fibroblastic foci, and honeycomb cysts at end stage.",
           "Dry cough, slowly worsening dyspnea, fine bibasilar inspiratory crackles, clubbing.",
           "Spirometry: low FVC and TLC, FEV1/FVC normal or high; DLCO reduced."
-        ]
+        ],
+        "why": "The current model is repeated microinjury to alveolar epithelium in a susceptible person, followed by abnormal repair. Injured epithelium releases TGF-beta, which activates fibroblasts and turns them into myofibroblasts that lay down collagen in fibroblastic foci. Because injury happens at different times, scars of different ages sit side by side, the hallmark of usual interstitial pneumonia. Stiff lungs shrink all volumes while extra radial traction holds airways open, so FEV1/FVC stays normal or high, and the thickened membrane lowers DLCO."
       },
       {
         "h": "Pneumoconioses",
@@ -1482,7 +1724,8 @@
           "Asbestosis (shipyards, insulation, roofing, plumbing): lower lobes, ferruginous bodies (iron-coated fibers).",
           "Asbestos also causes calcified pleural plaques, bronchogenic carcinoma (the most common cancer), and mesothelioma.",
           "Berylliosis (aerospace, electronics): type IV reaction with noncaseating granulomas that mimic sarcoidosis."
-        ]
+        ],
+        "why": "Inhaled mineral particles are engulfed by alveolar macrophages, which release cytokines and growth factors that drive fibroblasts. Silica is directly toxic to macrophages: it ruptures phagolysosomes, activates the inflammasome, and kills the cell, so the particle is released and taken up again, which sustains fibrosis and weakens defense against mycobacteria. Long, thin asbestos fibers travel to the lower lobes and pleura, where an iron and protein coat turns them into ferruginous bodies. Beryllium acts as an antigen, causing a T cell granulomatous reaction."
       },
       {
         "h": "Sarcoidosis",
@@ -1493,7 +1736,8 @@
           "Granuloma macrophages have 1-alpha-hydroxylase, make calcitriol, and cause hypercalcemia and hypercalciuria.",
           "More common in Black women; usual onset age 20 to 40; eyes (uveitis), skin, and heart can be involved.",
           "Lofgren syndrome: erythema nodosum, bilateral hilar lymphadenopathy, arthritis (often ankles), and fever; usually resolves."
-        ]
+        ],
+        "why": "Sarcoidosis is an exaggerated Th1 response to an unidentified antigen that produces noncaseating granulomas in lymph nodes, lungs, and other organs. Activated granuloma macrophages make ACE and also express 1-alpha-hydroxylase that escapes the normal feedback control by PTH and calcium. The calcitriol they produce raises intestinal calcium absorption, causing hypercalcemia and hypercalciuria with a suppressed PTH."
       },
       {
         "h": "Intrinsic versus extrapulmonary restriction",
@@ -1501,7 +1745,8 @@
           "Intrinsic (lung tissue scar or fluid): low TLC, low DLCO, wide A-a gradient.",
           "Extrapulmonary: obesity, kyphoscoliosis, neuromuscular weakness (ALS, myasthenia gravis, Guillain-Barre syndrome).",
           "The alveolar membrane is normal, so DLCO is usually normal; hypoventilation raises PaCO2 with a normal A-a gradient."
-        ]
+        ],
+        "why": "Both forms shrink lung volumes, but the problem sits in different places. Intrinsic disease thickens or fills the alveolar wall, so diffusion is impaired, DLCO falls, and the A-a gradient widens. In extrapulmonary restriction the lung tissue is normal and the chest wall or respiratory muscles fail, so gas exchange is preserved; reduced ventilation raises PaCO2 and lowers PaO2 together, which keeps the A-a gradient normal."
       },
       {
         "h": "Other interstitial and occupational diseases",
@@ -1512,6 +1757,39 @@
           "Byssinosis: cotton dust, chest tightness on the first workday of the week; bagassosis: moldy sugarcane, a hypersensitivity pneumonitis.",
           "Silo-filler disease: nitrogen dioxide from fresh silage causes pulmonary edema and later bronchiolitis obliterans.",
           "Drug-induced fibrosis: bleomycin, amiodarone, busulfan, methotrexate (also nitrofurantoin); the drug history separates it from IPF."
+        ],
+        "why": "Each of these diseases has its own histologic pattern, and the pattern predicts how it behaves. Desquamative interstitial pneumonia and cryptogenic organizing pneumonia are dominated by inflammation or loose, young fibroblast tissue that can resolve, so they improve when smoking stops or with steroids. Nonspecific interstitial pneumonia shows uniform, same-age changes that point to a single process such as connective tissue disease, and it carries a better prognosis than usual interstitial pneumonia. Occupational and drug exposures injure the lung directly, so the history separates them from IPF."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Neonatal respiratory distress syndrome",
+        "steps": [
+          "Preterm type II pneumocytes make too little surfactant",
+          "Surface tension rises and alveoli collapse at end expiration",
+          "Perfused but unventilated alveoli create shunt and hypoxemia",
+          "Repeated collapse injures epithelium; leaked fibrin and dead cells form hyaline membranes",
+          "Hypoxemia and acidosis keep the ductus arteriosus open"
+        ]
+      },
+      {
+        "title": "ARDS pathogenesis",
+        "steps": [
+          "Pneumonia, aspiration, sepsis, or trauma activates macrophages and endothelium",
+          "Cytokines (IL-1, IL-8, TNF) recruit neutrophils to the lung",
+          "Neutrophil proteases and oxidants damage endothelium and type I pneumocytes",
+          "Protein-rich fluid floods alveoli and inactivates surfactant",
+          "Hyaline membranes form, and shunt causes hypoxemia that responds poorly to O2"
+        ]
+      },
+      {
+        "title": "Sarcoidosis and hypercalcemia",
+        "steps": [
+          "A Th1 response to an unknown antigen forms noncaseating granulomas",
+          "Activated granuloma macrophages express 1-alpha-hydroxylase",
+          "They convert 25-hydroxyvitamin D to calcitriol without normal feedback control",
+          "Calcitriol raises intestinal calcium absorption",
+          "Hypercalcemia and hypercalciuria develop, and PTH is suppressed"
         ]
       }
     ],

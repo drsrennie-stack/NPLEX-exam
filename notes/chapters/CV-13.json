@@ -1,0 +1,708 @@
+{
+ "unit": "CV-13",
+ "chapter_id": "NPLEX-P1-CARD-13",
+ "topic_id": "NPLEX-P1-CARD-13-01",
+ "title": "Cardiovascular Biochemistry and Nutrition",
+ "subject": "Cardiovascular System (CARD)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter links the biochemistry of lipids, fuels, vitamins, and minerals to the heart and blood vessels. It covers how lipoproteins move fat and cholesterol, how inherited defects produce recognizable lipid patterns, and how cells regulate their own cholesterol. It then treats the heart as a metabolic organ: which fuels it burns, how fatty acids reach its mitochondria, and how its energy supply fails in ischemia. The last sections explain how thiamine, B vitamins, vitamin C, and copper protect the heart and vessel wall, and how K+, Ca2+, and Mg2+ change the action potential and the ECG. Board questions usually ask what accumulates and what runs short when one step fails.",
+  "prerequisites": [
+   "Structure of triglycerides, phospholipids, cholesterol, and cholesteryl esters",
+   "Glycolysis, the pyruvate dehydrogenase complex, the TCA cycle, and oxidative phosphorylation",
+   "Receptor-mediated endocytosis, endosomes, and lysosomes",
+   "Ventricular myocyte action potential and its ion currents (CV-5)",
+   "Normal ECG waves and intervals (CV-7)"
+  ],
+  "connections": [
+   {
+    "to": "Cardiac muscle contraction (CV-5)",
+    "how": "ATP from cardiac fuel metabolism powers cross-bridge cycling and Ca2+ reuptake, so ischemic energy failure impairs both contraction and relaxation."
+   },
+   {
+    "to": "Conduction system and the ECG (CV-7)",
+    "how": "Electrolyte disorders act on the same K+, Na+, and Ca2+ currents that shape the T wave, QRS, and QT interval."
+   },
+   {
+    "to": "Cardiovascular genetics (CV-14)",
+    "how": "Familial hypercholesterolemia and other inherited lipid disorders build on the LDL receptor pathway taught here."
+   },
+   {
+    "to": "Vascular conditions (CV-18-I)",
+    "how": "LDL retention and oxidation, homocysteine, and weak collagen or elastin explain atherosclerosis, thrombosis, and aneurysm."
+   },
+   {
+    "to": "Congestive heart failure (CV-18-B)",
+    "how": "Wet beriberi is a classic cause of high-output heart failure with low systemic vascular resistance."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Apolipoprotein",
+    "def": "A protein on a lipoprotein surface that provides structure, activates or inhibits enzymes, or binds a receptor."
+   },
+   {
+    "term": "Lipoprotein lipase (LPL)",
+    "def": "An enzyme on the luminal surface of capillary endothelium that hydrolyzes triglyceride in chylomicrons and VLDL to release fatty acids, and requires apo C-II as its activator."
+   },
+   {
+    "term": "LCAT",
+    "def": "Lecithin-cholesterol acyltransferase, a plasma enzyme activated by apo A-I that esterifies free cholesterol on HDL so it moves into the particle core."
+   },
+   {
+    "term": "HMG-CoA reductase",
+    "def": "The endoplasmic reticulum enzyme that converts HMG-CoA to mevalonate, the rate-limiting and main regulated step of cholesterol synthesis."
+   },
+   {
+    "term": "SREBP",
+    "def": "Sterol regulatory element-binding protein, a membrane-bound transcription factor released by proteolysis when cell sterol is low, which turns on genes for the LDL receptor and HMG-CoA reductase."
+   },
+   {
+    "term": "Carnitine shuttle",
+    "def": "The system of carnitine palmitoyltransferase I, a translocase, and carnitine palmitoyltransferase II that carries long-chain fatty acyl groups into the mitochondrial matrix."
+   },
+   {
+    "term": "Thiamine pyrophosphate (TPP)",
+    "def": "The active coenzyme form of vitamin B1, required for oxidative decarboxylation of alpha-keto acids and for transketolase."
+   },
+   {
+    "term": "High-output heart failure",
+    "def": "Heart failure in which cardiac output is above normal but still inadequate, usually because systemic vascular resistance is low or metabolic demand is high."
+   },
+   {
+    "term": "Homocysteine",
+    "def": "A sulfur amino acid formed from methionine after methyl donation, which is either remethylated to methionine or converted to cysteine through cystathionine."
+   },
+   {
+    "term": "Lysyl oxidase",
+    "def": "A copper-dependent extracellular enzyme that oxidizes lysine side chains in collagen and elastin so they can form covalent cross-links."
+   },
+   {
+    "term": "U wave",
+    "def": "A small deflection after the T wave, in the same direction as the T wave, that becomes prominent when repolarization is slowed, classically in hypokalemia."
+   },
+   {
+    "term": "Torsades de pointes",
+    "def": "A polymorphic ventricular tachycardia in the setting of a long QT interval, in which the QRS axis appears to twist around the baseline."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-CARD-13-01-C01",
+   "obj": "CV-13.1",
+   "title": "Lipoprotein transport: exogenous, endogenous, and reverse pathways",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Triglyceride and cholesteryl ester are almost insoluble in water, so plasma carries them in lipoproteins: spheres with a core of triglyceride and cholesteryl ester and a surface of phospholipid, free cholesterol, and apolipoproteins. Apolipoproteins give each particle its identity; some are structural, some activate enzymes, and some are ligands for receptors. As triglyceride is removed, particles become smaller, denser, and richer in cholesterol, which is why density runs from chylomicrons (largest, lightest) through VLDL, IDL, and LDL to HDL (smallest, most protein)."
+    },
+    {
+     "type": "table",
+     "title": "Lipoproteins and their apolipoproteins",
+     "cols": [
+      "Particle",
+      "Made by",
+      "Key apolipoproteins",
+      "Main role"
+     ],
+     "rows": [
+      [
+       "Chylomicron",
+       "Enterocytes",
+       "B-48 (needed for assembly, lacks the LDL receptor-binding region); C-II and E from HDL",
+       "Carries dietary triglyceride to muscle and adipose tissue; remnant returns to liver"
+      ],
+      [
+       "VLDL",
+       "Liver",
+       "B-100; C-II and E from HDL",
+       "Carries liver-made triglyceride to tissues"
+      ],
+      [
+       "IDL",
+       "VLDL in plasma",
+       "B-100 and E",
+       "Taken up by liver (about half) or converted to LDL"
+      ],
+      [
+       "LDL",
+       "IDL in plasma",
+       "B-100 only (LDL receptor ligand)",
+       "Main plasma carrier of cholesterol to liver and peripheral cells"
+      ],
+      [
+       "HDL",
+       "Liver and intestine (lipid-poor apo A-I)",
+       "A-I (activates LCAT, accepts cholesterol through ABCA1); lends C-II and E",
+       "Reverse cholesterol transport"
+      ]
+     ],
+     "caption": "Apo C-II activates lipoprotein lipase; apo E mediates hepatic uptake of remnants and IDL. Apo B never leaves its particle, so each chylomicron carries one B-48 and each VLDL, IDL, and LDL one B-100."
+    },
+    {
+     "type": "h",
+     "text": "Exogenous and endogenous pathways"
+    },
+    {
+     "type": "p",
+     "text": "Enterocytes resynthesize absorbed fat into triglyceride, and microsomal triglyceride transfer protein loads it with cholesteryl ester and fat-soluble vitamins onto apo B-48. Apo B-48 comes from the same APOB gene as B-100: intestinal RNA editing changes one cytosine to uracil, creating a stop codon at about 48% of full length. Chylomicrons are too large to enter blood capillaries, so they enter lacteals and reach the blood through the thoracic duct, delivering dietary fat to peripheral tissues before the liver."
+    },
+    {
+     "type": "flow",
+     "title": "Exogenous lipoprotein pathway",
+     "steps": [
+      "Enterocytes package dietary triglyceride with apo B-48 as chylomicrons",
+      "Chylomicrons travel through lacteals and the thoracic duct",
+      "HDL donates apo C-II and apo E",
+      "Apo C-II activates capillary lipoprotein lipase",
+      "Fatty acids enter adipose tissue, skeletal muscle, and heart",
+      "Liver takes up the remnant through apo E"
+     ],
+     "caption": "Loss of apo C-II or lipoprotein lipase stops the pathway at step 4, so chylomicrons accumulate. Normally chylomicrons are gone from plasma after a 12-hour fast."
+    },
+    {
+     "type": "p",
+     "text": "Insulin raises lipoprotein lipase in adipose tissue after a meal, while the cardiac enzyme has a lower Km and keeps supplying the heart during fasting. The liver uses the same machinery with apo B-100 to secrete VLDL. Lipoprotein lipase converts VLDL to IDL; about half of IDL is taken up through apo E, and hepatic lipase converts the rest to LDL, which loses apo E and depends on apo B-100 binding the LDL receptor. LDL therefore stays in plasma for days, mostly cleared by the liver, with adrenal cortex and gonads taking it for steroid synthesis."
+    },
+    {
+     "type": "h",
+     "text": "HDL and reverse cholesterol transport"
+    },
+    {
+     "type": "p",
+     "text": "Peripheral cells cannot degrade the sterol ring, so excess cholesterol must return to the liver for excretion in bile or as bile acids. Lipid-poor apo A-I collects free cholesterol and phospholipid from cells through ABCA1 (absent in Tangier disease, in which HDL is nearly absent). Apo A-I activates LCAT, which esterifies the cholesterol so it moves into the core, keeping the gradient that draws more out of cells. HDL delivers the ester to the liver through SR-B1, or CETP transfers it to apo B particles in exchange for triglyceride. When triglyceride-rich particles are abundant, CETP loads HDL with triglyceride that hepatic lipase then removes, producing small HDL that is cleared quickly; this is why high triglyceride usually comes with low HDL. LCAT works on HDL in plasma, whereas ACAT esterifies cholesterol inside cells for storage."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-13-01-C02",
+   "obj": "CV-13.2",
+   "title": "Familial dyslipidemias: defects and lipid patterns",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "A dyslipidemia is a blocked or overloaded step: a particle that cannot be broken down, cannot be taken up, or is overproduced accumulates. The Fredrickson types group primary disorders by the raised lipoprotein. High triglyceride points to chylomicrons or VLDL, and high cholesterol with normal triglyceride points to LDL. On standing overnight in the cold, chylomicrons float as a creamy top layer, VLDL leaves the plasma uniformly turbid, and LDL leaves it clear. Approximate desirable adult values are total cholesterol below 200 mg/dL, LDL below 100 mg/dL, HDL at least 40 mg/dL in men and 50 mg/dL in women, and fasting triglyceride below 150 mg/dL."
+    },
+    {
+     "type": "table",
+     "title": "Primary dyslipidemias by Fredrickson type",
+     "cols": [
+      "Type",
+      "Defect",
+      "Raised particle and lipids",
+      "Consequences"
+     ],
+     "rows": [
+      [
+       "I (familial chylomicronemia), autosomal recessive",
+       "Lipoprotein lipase or apo C-II deficiency",
+       "Chylomicrons; triglyceride often above 1,000 mg/dL",
+       "Pancreatitis, eruptive xanthomas, lipemia retinalis; little added atherosclerosis"
+      ],
+      [
+       "IIa (familial hypercholesterolemia), autosomal dominant",
+       "Defective LDL receptor (also apo B-100 or gain-of-function PCSK9)",
+       "LDL; high cholesterol, normal triglyceride",
+       "Premature atherosclerosis, tendon xanthomas, xanthelasma, early corneal arcus"
+      ],
+      [
+       "IIb (combined)",
+       "Hepatic overproduction of apo B particles, usually polygenic",
+       "LDL and VLDL; both lipids raised",
+       "Premature atherosclerosis"
+      ],
+      [
+       "III (dysbetalipoproteinemia)",
+       "Apo E2 homozygosity plus a second metabolic factor",
+       "Remnants and IDL; both lipids raised to similar levels",
+       "Palmar and tuberoeruptive xanthomas; premature coronary and peripheral disease"
+      ],
+      [
+       "IV (familial hypertriglyceridemia)",
+       "Hepatic VLDL overproduction",
+       "VLDL; triglyceride raised, cholesterol near normal",
+       "Pancreatitis if very high; linked to insulin resistance"
+      ],
+      [
+       "V",
+       "VLDL overproduction with impaired clearance",
+       "VLDL and chylomicrons",
+       "Pancreatitis, eruptive xanthomas"
+      ]
+     ],
+     "caption": "Secondary causes such as diabetes, hypothyroidism, nephrotic syndrome, and alcohol must be excluded before a pattern is called familial."
+    },
+    {
+     "type": "p",
+     "text": "In type I, pancreatic lipase hydrolyzes chylomicron triglyceride in pancreatic capillaries, releasing free fatty acids that injure acinar cells, which is the accepted explanation for pancreatitis. Chylomicrons are too large to enter the intima efficiently, so atherosclerosis is not markedly increased. In type IIa, hepatocytes with too few receptors behave as if cholesterol-poor and keep synthesizing cholesterol and secreting VLDL, adding still more LDL; tendon xanthomas on the Achilles and hand extensor tendons are characteristic. In type III, apo E2 binds hepatic receptors poorly; most homozygotes have near-normal lipids until obesity, diabetes, hypothyroidism, or alcohol adds a second load. In type IV, insulin resistance, alcohol, and estrogen increase hepatic triglyceride output, and the high triglyceride, low HDL, small dense LDL pattern is the dyslipidemia of the metabolic syndrome."
+    },
+    {
+     "type": "example",
+     "title": "Classifying a dyslipidemia from the laboratory picture",
+     "text": "A 9-year-old with acute pancreatitis has fasting triglyceride of 2,800 mg/dL, cholesterol of 260 mg/dL, and a thick creamy layer over clear plasma after refrigeration. Step 1: triglyceride far exceeds cholesterol, so the excess particle is chylomicrons or VLDL. Step 2: the floating cream means chylomicrons, and the clear infranatant means VLDL is not greatly raised. Step 3: fasting chylomicrons mean failed clearance by lipoprotein lipase or apo C-II, so this is type I; the modest cholesterol rise is the cholesterol each chylomicron carries. Contrast an obese adult with triglyceride of 450 mg/dL and uniformly cloudy plasma (VLDL, type IV), and a patient with cholesterol of 360 mg/dL, triglyceride of 340 mg/dL, and yellow palmar creases (remnants, type III, apo E2)."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-13-01-C03",
+   "obj": "CV-13.3",
+   "title": "Cholesterol synthesis, SREBP, and LDL receptor uptake",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Cells obtain cholesterol by synthesis from acetyl-CoA or by LDL uptake, and balance both against need, since excess free cholesterol is toxic to membranes. The same control system sets hepatic LDL receptor number and therefore plasma LDL."
+    },
+    {
+     "type": "h",
+     "text": "Synthesis and control of HMG-CoA reductase"
+    },
+    {
+     "type": "p",
+     "text": "In the cytosol, three acetyl-CoA form HMG-CoA through cytosolic HMG-CoA synthase (the mitochondrial isoform makes HMG-CoA for ketogenesis). HMG-CoA reductase, an ER membrane enzyme, reduces HMG-CoA to mevalonate with 2 NADPH; this is the rate-limiting, regulated step. Mevalonate becomes isoprene units, then farnesyl pyrophosphate, squalene, lanosterol, and finally cholesterol. Farnesyl pyrophosphate also supplies ubiquinone, dolichol, and protein lipid anchors, so blocking the reductase lowers these as well."
+    },
+    {
+     "type": "p",
+     "text": "The reductase is controlled at four levels. SREBP-2 raises its transcription when sterol is low. Accumulating sterols make it bind Insig, which leads to ubiquitination and proteasomal degradation. AMPK phosphorylates and inactivates it when energy is short. Insulin and thyroid hormone increase activity or expression, whereas glucagon and glucocorticoids decrease them."
+    },
+    {
+     "type": "h",
+     "text": "SREBP: how the cell senses its own sterol"
+    },
+    {
+     "type": "flow",
+     "title": "SREBP activation when cell sterol is low",
+     "steps": [
+      "ER membrane cholesterol falls",
+      "SCAP releases Insig and escorts SREBP-2 to the Golgi",
+      "Site-1 then site-2 protease cleave SREBP-2",
+      "The freed N-terminal transcription factor enters the nucleus",
+      "It binds sterol regulatory elements",
+      "LDL receptor and HMG-CoA reductase transcription rise",
+      "More LDL uptake and synthesis restore cell sterol"
+     ],
+     "caption": "When sterol is high, cholesterol-bound SCAP binds Insig and the complex stays in the ER, so the genes are turned down. SREBP-1c mainly controls fatty acid synthesis genes in response to insulin."
+    },
+    {
+     "type": "h",
+     "text": "LDL receptor-mediated endocytosis"
+    },
+    {
+     "type": "p",
+     "text": "The LDL receptor binds apo B-100 and apo E. Its NPXY tail motif gathers it into clathrin-coated pits, which pinch off with the help of dynamin. In the acidified endosome LDL is released and the receptor recycles to the surface. LDL goes to the lysosome, where apo B-100 is degraded and acid lipase frees cholesterol, which leaves through NPC1 and NPC2 (trapped in Niemann-Pick type C). PCSK9, itself an SREBP target, diverts receptors to the lysosome and shortens their life."
+    },
+    {
+     "type": "p",
+     "text": "The released cholesterol is the feedback signal: it suppresses SREBP processing, speeds reductase degradation, and activates ACAT to store the excess as ester. Macrophage scavenger receptors such as SR-A and CD36 take up oxidized LDL and are not downregulated, so macrophages fill with cholesteryl ester and become foam cells (CV-18-I). This system also explains why lowering liver cholesterol lowers plasma LDL: inhibiting hepatic HMG-CoA reductase releases SREBP-2, raises LDL receptor number, and increases clearance, which requires receptor genes that can respond. Hypothyroidism lowers receptor expression and is a common secondary cause of high LDL."
+    },
+    {
+     "type": "stop",
+     "predict": "A child has two null LDL receptor alleles. Predict hepatic cholesterol synthesis, and whether an HMG-CoA reductase inhibitor would lower plasma LDL as much as in a person with normal receptors.",
+     "explain": "Synthesis stays high, because the liver receives little LDL cholesterol and SREBP-2 remains active. The inhibitor would lower LDL much less than usual, because its main plasma effect comes from SREBP-driven synthesis of new receptors, and this child has no functional receptor gene to turn on. Any effect would come from reduced VLDL output.",
+     "check": "Compare with the SREBP figure and the paragraph on how lowering liver cholesterol lowers plasma LDL."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-13-01-C04",
+   "obj": "CV-13.4",
+   "title": "Fuels of the heart and energy failure in ischemia",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The heart stores only seconds of ATP and must remake it continuously, almost entirely by oxidative phosphorylation. Mitochondria fill about a third of a ventricular myocyte, and O2 extraction is already high at rest, so the heart meets greater demand mainly by raising coronary flow. At rest the adult heart obtains roughly 60 to 90% of its ATP from fatty acids, which arrive bound to albumin or are released by cardiac lipoprotein lipase, enter mainly through CD36, and are activated to fatty acyl-CoA in the cytosol."
+    },
+    {
+     "type": "table",
+     "title": "Cardiac fuels",
+     "cols": [
+      "Fuel",
+      "Entry into oxidation",
+      "When its share rises"
+     ],
+     "rows": [
+      [
+       "Fatty acids",
+       "Carnitine shuttle, then beta-oxidation",
+       "Fasting, resting adult state, diabetes"
+      ],
+      [
+       "Glucose",
+       "Glycolysis, then pyruvate dehydrogenase",
+       "High insulin after a carbohydrate meal; ischemia (anaerobic); fetal heart"
+      ],
+      [
+       "Lactate",
+       "Lactate dehydrogenase to pyruvate",
+       "Exercise"
+      ],
+      [
+       "Ketone bodies",
+       "Succinyl-CoA:3-ketoacid CoA transferase to acetyl-CoA",
+       "Prolonged fasting, diabetic ketoacidosis"
+      ]
+     ],
+     "caption": "The liver makes ketone bodies but cannot use them, because it lacks the transferase that heart, muscle, and brain use."
+    },
+    {
+     "type": "h",
+     "text": "The carnitine shuttle and fuel choice"
+    },
+    {
+     "type": "p",
+     "text": "Long-chain acyl-CoA cannot cross the inner mitochondrial membrane. CPT-I on the outer membrane forms acylcarnitine, a translocase moves it into the matrix in exchange for carnitine, and CPT-II re-forms acyl-CoA for beta-oxidation; short- and medium-chain fatty acids need no carnitine. Carnitine or CPT-II defects can cause cardiomyopathy. CPT-I is inhibited by malonyl-CoA, the product of acetyl-CoA carboxylase, so high glucose and insulin raise malonyl-CoA and reduce fatty acid entry, while AMPK inhibits the carboxylase and increases it. In the reverse direction, active fatty acid oxidation raises acetyl-CoA and NADH, which inactivate pyruvate dehydrogenase through its kinase, and raises citrate, which inhibits phosphofructokinase-1 (the glucose-fatty acid cycle). Creatine kinase carries high-energy phosphate from mitochondria to myofibrils as phosphocreatine, which also buffers ATP for the first seconds of a shortfall."
+    },
+    {
+     "type": "example",
+     "title": "Why fatty acids cost more oxygen per ATP",
+     "text": "Use 2.5 ATP per NADH and 1.5 per FADH2. Glucose consumes 6 O2 (12 oxygen atoms) and yields about 31 ATP, or about 2.6 ATP per oxygen atom. Palmitate gives 8 acetyl-CoA (80 ATP), 7 NADH (17.5), and 7 FADH2 (10.5), totaling 108, minus 2 for activation, so 106 ATP. It consumes 23 O2 (46 oxygen atoms), about 2.3 ATP per oxygen atom. Glucose therefore yields roughly 10% more ATP for the same O2, although palmitate yields over three times as much per molecule. Fatty acids suit a well-oxygenated heart, but when O2 is limited, shifting toward glucose oxidation gets more work from the same coronary flow."
+    },
+    {
+     "type": "h",
+     "text": "Energy failure in ischemia"
+    },
+    {
+     "type": "flow",
+     "title": "From coronary occlusion to energy failure",
+     "steps": [
+      "Flow stops; myocardial O2 is exhausted within seconds",
+      "Oxidative phosphorylation, TCA cycle, and beta-oxidation halt",
+      "Phosphocreatine, then ATP fall; AMP and phosphate rise",
+      "Glycogenolysis and anaerobic glycolysis make lactate",
+      "Lactate and H+ accumulate; acidosis inhibits phosphofructokinase-1",
+      "Phosphate and H+ weaken cross-bridges; contraction fails within about a minute",
+      "Pump failure causes K+ loss and Ca2+ overload",
+      "Injury becomes irreversible after about 20 to 40 minutes"
+     ],
+     "caption": "Approximate times for severe ischemia follow Robbins. Early loss of contraction is reversible and spares the remaining ATP."
+    },
+    {
+     "type": "p",
+     "text": "Anaerobic glycolysis gives only 2 ATP per glucose (3 per glucose unit from glycogen), and lactate dehydrogenase regenerates the NAD+ it needs. The normal heart takes up lactate, so lactate release into coronary sinus blood is a marker of ischemia. As ATP falls, the Na+/K+-ATPase slows, K+ leaks out through ATP-sensitive channels, and Na+ gain reduces Ca2+ extrusion by the Na+/Ca2+ exchanger, while Na+/H+ exchange adds more Na+. Cytosolic Ca2+ rises, SERCA failure impairs relaxation, and irreversible membrane damage releases troponin. Raised local extracellular K+ depolarizes ischemic cells, linking energy failure to conduction slowing and arrhythmia (section C07)."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-13-01-C05",
+   "obj": "CV-13.5",
+   "title": "Thiamine pyrophosphate and wet beriberi",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Thiamine (B1) is absorbed mainly in the jejunum and converted by thiamine pyrophosphokinase to thiamine pyrophosphate (TPP). Stores are small and turnover is fast, so deficiency can develop within weeks, first affecting tissues with high aerobic glucose use, the nervous system and the heart. The thiazolium carbanion of TPP attacks the carbonyl carbon of an alpha-keto acid, releasing CO2 and carrying the acyl fragment, which is why TPP is needed for oxidative decarboxylation and for transketolase."
+    },
+    {
+     "type": "table",
+     "title": "Enzymes that require thiamine pyrophosphate",
+     "cols": [
+      "Enzyme",
+      "Reaction",
+      "Effect of deficiency"
+     ],
+     "rows": [
+      [
+       "Pyruvate dehydrogenase (E1)",
+       "Pyruvate to acetyl-CoA",
+       "Pyruvate accumulates and becomes lactate"
+      ],
+      [
+       "Alpha-ketoglutarate dehydrogenase (E1)",
+       "Alpha-ketoglutarate to succinyl-CoA",
+       "TCA cycle slows, cutting NADH and ATP from every fuel"
+      ],
+      [
+       "Branched-chain alpha-ketoacid dehydrogenase",
+       "Catabolism of leucine, isoleucine, valine",
+       "Keto acids accumulate (minor in acquired deficiency)"
+      ],
+      [
+       "Transketolase",
+       "Two-carbon transfer in the pentose phosphate pathway",
+       "Low red cell activity, used as a test"
+      ]
+     ],
+     "caption": "The dehydrogenase complexes also need lipoic acid, CoA (B5), FAD (B2), and NAD+ (B3). A large rise in red cell transketolase activity when TPP is added indicates deficiency."
+    },
+    {
+     "type": "p",
+     "text": "The block produces lactic acidosis even with normal oxygenation: cells have O2 but cannot feed enough fuel into the TCA cycle to use it. Deficiency follows alcohol use disorder (poor intake, absorption, storage, and conversion to TPP), polished rice diets, persistent vomiting or bariatric surgery, and long diuretic use. A glucose load given to someone with marginal stores increases flux through TPP enzymes and can unmask it. Dry beriberi is a peripheral neuropathy, and Wernicke encephalopathy and Korsakoff syndrome are the central forms."
+    },
+    {
+     "type": "h",
+     "text": "Wet beriberi: high-output heart failure"
+    },
+    {
+     "type": "flow",
+     "title": "Mechanism of wet beriberi",
+     "steps": [
+      "Low TPP blocks pyruvate and alpha-ketoglutarate dehydrogenase",
+      "Aerobic ATP falls; pyruvate and lactate accumulate",
+      "Metabolic vasodilation lowers systemic vascular resistance",
+      "Venous return and cardiac output rise",
+      "Sympathetic and renin-angiotensin-aldosterone activation retain Na+ and water",
+      "The ATP-starved myocardium dilates and fails"
+     ],
+     "caption": "Low resistance and a failing myocardium come from the same metabolic block. The exact vasodilator mediators are not fully established."
+    },
+    {
+     "type": "p",
+     "text": "Each finding follows from the mechanism. Low resistance with a high stroke volume gives warm extremities, a bounding pulse, and a wide pulse pressure; sympathetic drive gives tachycardia; salt and water retention gives raised jugular venous pressure, edema, and sometimes pulmonary congestion; the heart is enlarged on radiograph; and lactate is raised. Shoshin beriberi is a fulminant form with severe lactic acidosis and circulatory collapse. Other high-output states have different clues: severe anemia (low hemoglobin), thyrotoxicosis (low TSH, high free T4 or T3), and arteriovenous fistula (continuous bruit, heart rate falls on compression), whereas ordinary low-output failure gives cool extremities and a narrow pulse pressure (CV-18-B)."
+    },
+    {
+     "type": "stop",
+     "predict": "A malnourished man with alcohol use disorder has warm hands, heart rate 115 bpm, wide pulse pressure, leg edema, and lactate 6 mmol/L (normal below about 2) with normal O2 saturation. Why is lactate high despite normal oxygenation?",
+     "explain": "Without TPP, pyruvate dehydrogenase cannot convert pyruvate to acetyl-CoA, so pyruvate accumulates and is reduced to lactate. The problem is fuel entry into the TCA cycle, not O2 delivery. The same block drives the metabolic vasodilation behind his warm skin and wide pulse pressure.",
+     "check": "Compare with the TPP enzyme table and the wet beriberi figure."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-13-01-C06",
+   "obj": "CV-13.6",
+   "title": "Homocysteine, vitamin C, and copper in vascular health",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Micronutrients protect vessels in two ways. Folate, B12, and B6 keep plasma homocysteine low, and their lack injures the endothelium and favors thrombosis. Vitamin C and copper are cofactors for enzymes that build collagen and elastin, and their lack weakens the wall."
+    },
+    {
+     "type": "h",
+     "text": "Homocysteine metabolism"
+    },
+    {
+     "type": "cycle",
+     "title": "The methionine cycle and the exits for homocysteine",
+     "steps": [
+      "Methionine is activated by ATP to S-adenosylmethionine (SAM)",
+      "SAM donates a methyl group, becoming S-adenosylhomocysteine",
+      "Hydrolysis yields homocysteine",
+      "Methionine synthase (B12, N5-methyltetrahydrofolate) remethylates it to methionine",
+      "Or cystathionine beta-synthase (B6) commits it to cysteine"
+     ],
+     "caption": "Homocysteine leaves only through these enzymes, so loss of B12, folate, B6, or the enzymes makes it accumulate."
+    },
+    {
+     "type": "p",
+     "text": "Methionine synthase uses B12 as methylcobalamin and regenerates tetrahydrofolate; its methyl donor is made by MTHFR, and the liver also remethylates through betaine-homocysteine methyltransferase. Transsulfuration through cystathionine beta-synthase and cystathionine gamma-lyase, both pyridoxal phosphate enzymes, removes homocysteine permanently. In B12 deficiency folate is trapped as N5-methyltetrahydrofolate (the methylfolate trap), so both deficiencies cause megaloblastic anemia, but only B12 deficiency raises methylmalonic acid, because B12 is also the cofactor for methylmalonyl-CoA mutase."
+    },
+    {
+     "type": "table",
+     "title": "Causes of raised homocysteine",
+     "cols": [
+      "Cause",
+      "Step affected",
+      "Methylmalonic acid",
+      "Other clues"
+     ],
+     "rows": [
+      [
+       "Folate deficiency",
+       "Remethylation",
+       "Normal",
+       "Megaloblastic anemia"
+      ],
+      [
+       "Vitamin B12 deficiency",
+       "Remethylation",
+       "Raised",
+       "Megaloblastic anemia; neurologic signs"
+      ],
+      [
+       "Vitamin B6 deficiency",
+       "Transsulfuration",
+       "Normal",
+       "Sideroblastic anemia, neuropathy; isoniazid"
+      ],
+      [
+       "Cystathionine beta-synthase deficiency (homocystinuria)",
+       "Transsulfuration",
+       "Normal",
+       "Autosomal recessive; homocysteine often above 100 µmol/L, raised methionine, downward lens dislocation, marfanoid habitus, early thrombosis"
+      ],
+      [
+       "MTHFR C677T variant",
+       "Methyl donor formation",
+       "Normal",
+       "Mild rise, mainly with low folate"
+      ],
+      [
+       "Chronic kidney disease",
+       "Reduced clearance",
+       "May be raised",
+       "Low glomerular filtration rate"
+      ]
+     ],
+     "caption": "Normal fasting total homocysteine is about 5 to 15 µmol/L."
+    },
+    {
+     "type": "p",
+     "text": "Homocysteine oxidizes readily, generating reactive oxygen species that injure endothelium and reduce nitric oxide. It promotes smooth muscle proliferation and favors thrombosis, for example by raising tissue factor and impairing the thrombomodulin and protein C pathway. Homocystinuria shows the extreme, with arterial and venous thrombosis in the young. Whether a mild elevation causes atherosclerosis or only accompanies it is unsettled, so a mild elevation is best read as a risk marker."
+    },
+    {
+     "type": "h",
+     "text": "Vitamin C, copper, and the vessel wall"
+    },
+    {
+     "type": "p",
+     "text": "In the rough ER, prolyl and lysyl hydroxylases hydroxylate collagen chains; their iron must be kept as Fe2+ by ascorbate. Hydroxyproline stabilizes the triple helix at 37 °C (98.6 °F), and hydroxylysine provides glycosylation and cross-link sites. Without vitamin C, collagen in capillary basement membranes and perivascular tissue is weak, giving the bleeding of scurvy: perifollicular hemorrhages, bleeding gums, hemarthrosis, subperiosteal bleeding, poor wound healing, and corkscrew hairs. Stores last about 1 to 3 months."
+    },
+    {
+     "type": "p",
+     "text": "After secretion, copper-dependent lysyl oxidase oxidizes lysine and hydroxylysine side chains to aldehydes that form covalent cross-links, including desmosine in elastin. Without copper the aorta and large arteries lose strength and recoil and become tortuous and aneurysmal. In Menkes disease (X-linked recessive, ATP7A), copper cannot leave enterocytes, so serum copper and ceruloplasmin are low; boys have fragile tortuous arteries, kinky hair, hypopigmentation, hypotonia, and neurodegeneration. Acquired deficiency follows bariatric surgery or excess zinc. Wilson disease (ATP7B) is the opposite, with copper retained in liver and brain."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-13-01-C07",
+   "obj": "CV-13.7",
+   "title": "Electrolytes and the ECG: potassium, calcium, and magnesium",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Electrolytes change the ECG by changing action potential currents, so ask which phase is affected and where it appears on the tracing. Approximate adult ranges are K+ 3.5 to 5.0 mEq/L (hemolysis falsely raises it), total calcium 8.5 to 10.5 mg/dL (ionized about 4.5 to 5.3 mg/dL; add 0.8 mg/dL for each 1 g/dL that albumin is below 4.0 g/dL), and Mg2+ about 1.7 to 2.2 mg/dL (plasma can be normal despite cellular depletion)."
+    },
+    {
+     "type": "diagram",
+     "name": "ventricular-ap",
+     "caption": "Phase 4 rest near -90 mV (K+), phase 0 Na+ upstroke (QRS), phase 2 Ca2+ plateau (ST segment), phase 3 K+ repolarization (T wave)."
+    },
+    {
+     "type": "h",
+     "text": "Potassium"
+    },
+    {
+     "type": "p",
+     "text": "The resting potential lies near the K+ equilibrium potential. In hyperkalemia, the first change is in repolarization: higher extracellular K+ increases IKr and inward rectifier conductance, so phase 3 is faster and T waves become tall, narrow, and peaked. As K+ rises further, the resting membrane depolarizes and inactivates a growing fraction of fast Na+ channels, slowing phase 0 and conduction, so the P wave flattens, PR lengthens, the QRS widens, and finally a sine-wave pattern can lead to ventricular fibrillation or asystole. The K+ level for each change varies widely, and a normal ECG does not exclude danger."
+    },
+    {
+     "type": "p",
+     "text": "In hypokalemia, low extracellular K+ reduces IK1 and IKr conductance, so phase 3 slows despite a more negative equilibrium potential. T waves flatten or invert, the ST segment may sag, and prominent U waves appear, often merging into a long QU interval, mainly below about 3 mEq/L. Long repolarization allows early afterdepolarizations and torsades, and reduced Na+/K+-ATPase activity raises cell Ca2+, favoring delayed afterdepolarizations. Low K+ also increases cardiac glycoside toxicity, because K+ competes with these drugs at the pump."
+    },
+    {
+     "type": "h",
+     "text": "Calcium and magnesium"
+    },
+    {
+     "type": "p",
+     "text": "Extracellular Ca2+ sets the length of phase 2. In hypocalcemia, slower Ca2+-dependent inactivation of L-type channels lengthens the plateau, so the ST segment and QT are long with a normal T wave; in hypercalcemia both are short. Ca2+ also raises the threshold of excitable membranes, so low ionized Ca2+ causes tingling and tetany (Chvostek and Trousseau signs), and alkalosis can cause tetany with normal total calcium by increasing albumin binding."
+    },
+    {
+     "type": "p",
+     "text": "Mg2+ is needed for Na+/K+-ATPase function and normally blocks K+ exit through renal ROMK channels, so hypomagnesemia causes K+ loss and hypokalemia that persists until Mg2+ is restored. Severe deficiency also impairs parathyroid hormone release and action, causing hypocalcemia. Torsades de pointes, a polymorphic ventricular tachycardia twisting around the baseline, arises when a long QT lets early afterdepolarizations, driven by L-type Ca2+ channel reactivation, reach threshold, often after a short-long-short sequence. Low Mg2+ promotes it through low K+ and Ca2+ and by removing its limit on inward Ca2+ current. Causes include alcohol use disorder, diarrhea, loop and thiazide diuretics, and long-term proton pump inhibitors."
+    },
+    {
+     "type": "table",
+     "title": "Electrolyte disorders and their ECG signatures",
+     "cols": [
+      "Disorder",
+      "Action potential change",
+      "ECG findings",
+      "Main rhythm risk"
+     ],
+     "rows": [
+      [
+       "Hyperkalemia",
+       "Faster phase 3; depolarized rest with Na+ channel inactivation",
+       "Peaked T, then flat P, long PR, wide QRS, sine wave",
+       "Ventricular fibrillation, asystole"
+      ],
+      [
+       "Hypokalemia",
+       "Slower phase 3",
+       "Flat or inverted T, ST depression, U waves, long QU",
+       "Torsades, tachyarrhythmias; glycoside toxicity"
+      ],
+      [
+       "Hypocalcemia",
+       "Longer phase 2",
+       "Long ST and QT, normal T",
+       "Torsades (uncommon); tetany"
+      ],
+      [
+       "Hypercalcemia",
+       "Shorter phase 2",
+       "Short ST and QT",
+       "Bradyarrhythmia, AV block at high levels"
+      ],
+      [
+       "Hypomagnesemia",
+       "Long repolarization, mostly through low K+ and Ca2+",
+       "Long QT, often with hypokalemic features",
+       "Torsades de pointes"
+      ]
+     ],
+     "caption": "Kidney failure often combines hyperkalemia and hypocalcemia, giving a long ST segment followed by a peaked T wave."
+    },
+    {
+     "type": "stop",
+     "predict": "Plasma K+ rises gradually from 4.5 to 8.5 mEq/L. Why do T waves peak before the QRS widens?",
+     "explain": "Repolarizing K+ currents respond first: higher extracellular K+ increases their conductance and speeds phase 3 at moderate levels. QRS widening needs enough resting depolarization to inactivate many fast Na+ channels, which happens only at higher K+, slowing phase 0 and conduction.",
+     "check": "Compare with the potassium paragraphs."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "One rule unifies the chapter: when a step fails, the substrate before it accumulates and the products after it run short. Missing lipoprotein lipase leaves chylomicrons, missing LDL receptors leave LDL and unchecked hepatic synthesis, missing TPP leaves pyruvate and lactate, missing B12, folate, or B6 leaves homocysteine, and missing O2 leaves NADH, lactate, and H+. The same logic reaches the membrane, where a change in extracellular K+ or Ca2+ alters one current and one part of the ECG. Anatomy places these events: chylomicrons bypass the liver through the thoracic duct, the intima retains LDL and remnants but largely excludes chylomicrons, and vessel strength depends on collagen and elastin."
+  },
+  {
+   "type": "p",
+   "text": "Inherited defects such as familial hypercholesterolemia, apo E2 homozygosity, homocystinuria, and Menkes disease show each pathway in extreme form, while acquired states often combine several; alcohol use disorder can bring thiamine and folate deficiency, hypomagnesemia, hypokalemia, and hypertriglyceridemia together. Limits matter: thresholds for ECG changes vary between patients, a mildly raised homocysteine marks risk without proven causation, and Fredrickson types describe patterns rather than single diseases."
+  }
+ ],
+ "summary": [
+  "Chylomicrons (apo B-48) carry dietary triglyceride through the lymph; VLDL (apo B-100) carries liver-made triglyceride.",
+  "Apo C-II activates lipoprotein lipase, apo E mediates hepatic uptake of remnants and IDL, and hepatic lipase converts IDL to LDL, which is cleared through apo B-100 and the LDL receptor.",
+  "HDL (apo A-I) collects cell cholesterol through ABCA1, LCAT esterifies it, and SR-B1 or CETP returns it to the liver.",
+  "Type I (lipoprotein lipase or apo C-II) raises chylomicrons and causes pancreatitis; type IIa (LDL receptor) raises LDL with tendon xanthomas and early atherosclerosis; type III (apo E2) raises remnants with palmar xanthomas; type IV raises VLDL.",
+  "HMG-CoA reductase is the rate-limiting step of cholesterol synthesis; low ER sterol releases SREBP-2, which raises reductase and LDL receptor expression.",
+  "The LDL receptor recycles from the acidic endosome while LDL is degraded in the lysosome; unregulated scavenger receptors turn macrophages into foam cells.",
+  "The resting heart burns mainly fatty acids through the carnitine shuttle (CPT-I inhibited by malonyl-CoA), which yield about 10% less ATP per O2 than glucose.",
+  "In ischemia, anaerobic glycolysis makes lactate and H+, contraction fails within about a minute, and injury becomes irreversible after about 20 to 40 minutes.",
+  "TPP deficiency blocks pyruvate and alpha-ketoglutarate dehydrogenase, causing lactic acidosis and wet beriberi; folate, B12, or B6 deficiency raises homocysteine, and only B12 also raises methylmalonic acid; vitamin C and copper are needed for collagen and elastin.",
+  "Hyperkalemia peaks T waves then widens the QRS, hypokalemia flattens T waves and adds U waves, calcium sets ST and QT length, and low Mg2+ predisposes to torsades de pointes."
+ ],
+ "sources": [
+  {
+   "book": "Lippincott Illustrated Reviews: Biochemistry",
+   "where": "Cholesterol, Lipoprotein, and Steroid Metabolism"
+  },
+  {
+   "book": "Lippincott Illustrated Reviews: Biochemistry",
+   "where": "Fatty Acid, Triacylglycerol, and Ketone Body Metabolism; Vitamins"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Lipid Metabolism; Fundamentals of Electrocardiography"
+  },
+  {
+   "book": "Boron and Boulpaep Medical Physiology",
+   "where": "Cardiac electrophysiology and cardiac energy metabolism"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Blood Vessels (atherosclerosis); The Heart (myocardial infarction); Environmental and Nutritional Diseases"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Cardiovascular disorders and disorders of electrolyte balance"
+  }
+ ],
+ "verify": [
+  "Lipid panel targets (total cholesterol below 200 mg/dL, LDL below 100 mg/dL optimal, HDL 40 or 50 mg/dL or more, triglyceride below 150 mg/dL) follow widely used US consensus categories; confirm the cutoffs NABNE uses.",
+  "The triglyceride level at which pancreatitis risk becomes high is quoted as about 500 to 1,000 mg/dL in different sources; this chapter uses above 1,000 mg/dL for type I disease.",
+  "The share of resting cardiac ATP from fatty acids is quoted from about 60% to 90%; the mitochondrial volume of about one third of the myocyte also varies slightly between sources.",
+  "ATP yields use P/O ratios of 2.5 for NADH and 1.5 for FADH2 (about 30 to 32 ATP per glucose and 106 per palmitate); older texts use 3 and 2 (36 to 38 and 129), which changes the absolute numbers but not the conclusion.",
+  "Timing of ischemic injury (contraction lost within about 1 minute, irreversible injury after about 20 to 40 minutes) follows Robbins; other sources quote slightly different times.",
+  "The specific mediators of peripheral vasodilation in wet beriberi are not fully established; the explanation given is the standard textbook account.",
+  "Reference ranges for homocysteine (about 5 to 15 µmol/L), magnesium (about 1.7 to 2.2 mg/dL), and ionized calcium vary between laboratories.",
+  "The K+ levels at which each hyperkalemic ECG change appears and the level below which hypokalemic changes become prominent (about 3 mEq/L) vary widely between patients and sources.",
+  "Inheritance of type IIb and type IV patterns is described as autosomal dominant in review books but is often polygenic; confirm the form NABNE expects.",
+  "Requested new diagram names for a future revision: lipoprotein-pathways (exogenous, endogenous, and reverse pathways on one schematic) and electrolyte-ecg (side-by-side beats for hyperkalemia, hypokalemia, hypocalcemia, and hypercalcemia).",
+  "Confirm whether NABNE Part I expects the eponyms Fredrickson classification and the glucose-fatty acid (Randle) cycle, or only the descriptive terms."
+ ]
+}

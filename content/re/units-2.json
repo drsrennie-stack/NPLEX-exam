@@ -10,7 +10,8 @@
           "Each pulse makes gonadotrophs release LH and FSH; faster pulses favor LH, slower pulses favor FSH.",
           "Continuous GnRH (or a long-acting analog such as leuprolide) gives a brief flare, then receptor downregulation, so LH, FSH, and sex steroids fall.",
           "This is why GnRH analogs given continuously treat prostate cancer, endometriosis, and central precocious puberty, while pulsatile pump dosing induces ovulation."
-        ]
+        ],
+        "why": "The GnRH receptor is a Gq-coupled receptor that needs the gap between pulses to resensitize; constant occupancy drives receptor internalization and uncoupling, so gonadotrophs stop responding. Pulse frequency also tunes transcription inside the gonadotroph, with rapid pulses favoring the LH beta subunit and slow pulses favoring FSH beta. A depot GnRH agonist therefore acts as medical castration after a brief flare, while a pump that mimics physiologic pulses restores the axis."
       },
       {
         "h": "Male axis",
@@ -20,7 +21,8 @@
           "Testosterone feeds back on the hypothalamus and pituitary mainly to lower LH.",
           "Inhibin B feeds back on the pituitary to lower FSH selectively.",
           "Exogenous testosterone suppresses LH and FSH, so intratesticular testosterone falls and the testes shrink with low sperm counts."
-        ]
+        ],
+        "why": "LH and FSH act on different cells, so each has its own feedback signal: testosterone mainly controls LH, and Sertoli cell inhibin B controls FSH. Spermatogenesis needs an intratesticular testosterone level far above the serum level, which androgen-binding protein helps hold in the tubules. Exogenous testosterone raises serum androgen but suppresses LH, so Leydig cells stop making testosterone inside the testis and spermatogenesis fails even though the patient is androgen-replete systemically."
       },
       {
         "h": "Ovary: two cells, two gonadotropins",
@@ -30,7 +32,8 @@
           "Low to moderate estradiol gives negative feedback on LH and FSH.",
           "Estradiol held above about 200 pg/mL for about 2 days flips to positive feedback and triggers the midcycle LH surge.",
           "Ovulation follows about 34 to 36 hours after the surge begins; the corpus luteum then secretes progesterone, estradiol, and inhibin A."
-        ]
+        ],
+        "why": "Theca cells have LH receptors and CYP17 but little aromatase, while granulosa cells have FSH-induced aromatase but lack CYP17, so neither cell can make estradiol alone. Theca androgen diffuses across the basement membrane to granulosa cells for aromatization. As the dominant follicle grows, estradiol rises high enough and long enough to switch pituitary feedback from negative to positive, and the resulting LH surge lets the oocyte finish meiosis I and ruptures the follicle."
       },
       {
         "h": "Transport in blood",
@@ -40,7 +43,8 @@
           "SHBG rises with estrogen (pregnancy, oral contraceptives), hyperthyroidism, and cirrhosis.",
           "SHBG falls with androgens, insulin resistance (high insulin), obesity, and hypothyroidism.",
           "Low SHBG raises free testosterone even when total testosterone is normal, as in PCOS with hirsutism."
-        ]
+        ],
+        "why": "Only unbound hormone diffuses into cells, and albumin binding is weak enough to release hormone in capillary beds, so free plus albumin-bound testosterone sets tissue effect. SHBG is made in the liver, where estrogen and thyroid hormone increase its synthesis and insulin and androgens suppress it. This is why total testosterone can mislead: in insulin resistance, low SHBG raises the free fraction and androgen effects in skin even when the total is normal."
       },
       {
         "h": "What each steroid does",
@@ -49,7 +53,8 @@
           "Testosterone: Wolffian duct development, spermatogenesis, muscle mass, libido, and voice deepening.",
           "Estrogen: proliferative endometrium, breast duct growth, thin stretchy cervical mucus, epiphyseal closure, bone preservation, and higher hepatic binding proteins.",
           "Progesterone: secretory endometrium, thick cervical mucus, quiet myometrium, breast lobule development, and a basal body temperature rise of about 0.3 to 0.5 °C (0.5 to 0.9 °F)."
-        ]
+        ],
+        "why": "Testosterone acts directly on the androgen receptor in Wolffian ducts and muscle, but tissues rich in 5-alpha-reductase (genital skin, prostate, hair follicles) convert it to DHT, which binds the same receptor more tightly. Estrogen and progesterone work in sequence: estrogen drives proliferation and induces progesterone receptors, and progesterone then turns the primed endometrium secretory and ready for implantation. Progesterone also raises the hypothalamic temperature set point, so the basal temperature rise confirms ovulation after the fact."
       },
       {
         "h": "Puberty",
@@ -58,7 +63,8 @@
           "The first sign in the lab is LH pulses during sleep, which later spread across the whole day.",
           "Usual female sequence: thelarche, pubarche, growth spurt, menarche (menarche comes about 2 to 3 years after breast budding).",
           "In boys, testicular enlargement comes first, and the growth spurt comes later than in girls."
-        ]
+        ],
+        "why": "Through childhood the GnRH pulse generator is held quiet by central inhibition, and puberty begins when arcuate kisspeptin neurons drive GnRH neurons through the KISS1R receptor. The generator wakes during sleep before it runs all day, which is why nighttime LH pulses are the first lab sign. In girls, ovarian estrogen produces breast budding first and menarche comes only after estrogen has built up the endometrium; in boys, FSH-driven growth of the seminiferous tubules enlarges the testes first."
       },
       {
         "h": "Prolactin",
@@ -68,6 +74,41 @@
           "High prolactin suppresses GnRH pulses, so LH, FSH, and sex steroids fall.",
           "Result in women: amenorrhea, galactorrhea, infertility; in men: low libido, erectile dysfunction, infertility.",
           "Primary hypothyroidism raises TRH, which can raise prolactin."
+        ],
+        "why": "Prolactin is the one anterior pituitary hormone under dominant inhibitory hypothalamic control, so cutting dopamine delivery through the portal vessels releases lactotrophs from inhibition. High prolactin suppresses GnRH pulse release, largely by acting on kisspeptin neurons, which is why prolactinoma presents as secondary hypogonadism with low or inappropriately normal LH and FSH. In primary hypothyroidism, raised TRH stimulates lactotrophs directly, so thyroid testing belongs in any workup of high prolactin."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Follicular phase to ovulation",
+        "steps": [
+          "FSH drives granulosa proliferation and aromatase in the dominant follicle",
+          "Rising estradiol at first gives negative feedback on LH and FSH",
+          "Estradiol above about 200 pg/mL for about 2 days switches to positive feedback",
+          "Pituitary releases the midcycle LH surge",
+          "Oocyte completes meiosis I and arrests at metaphase II",
+          "Follicle ruptures about 34 to 36 hours after surge onset",
+          "Ruptured follicle luteinizes into the corpus luteum, secreting progesterone"
+        ]
+      },
+      {
+        "title": "Exogenous testosterone to infertility",
+        "steps": [
+          "Exogenous testosterone raises serum androgen",
+          "Negative feedback lowers GnRH, LH, and FSH",
+          "Low LH stops Leydig cell testosterone production",
+          "Intratesticular testosterone falls below what spermatogenesis needs",
+          "Testicular atrophy with oligospermia or azoospermia"
+        ]
+      },
+      {
+        "title": "Prolactinoma to hypogonadism",
+        "steps": [
+          "Lactotroph adenoma secretes excess prolactin",
+          "High prolactin suppresses hypothalamic GnRH pulses",
+          "LH and FSH fall",
+          "Estradiol or testosterone falls",
+          "Women: amenorrhea and infertility; men: low libido and erectile dysfunction"
         ]
       }
     ],
@@ -257,7 +298,8 @@
           "17-alpha-hydroxylase then 17,20-lyase (both on CYP17) turn pregnenolone into DHEA, which 3-beta-HSD turns into androstenedione.",
           "17-beta-hydroxysteroid dehydrogenase turns androstenedione into testosterone.",
           "Aromatase turns testosterone into estradiol and androstenedione into estrone."
-        ]
+        ],
+        "why": "Every sex steroid starts as cholesterol, and the pathway is gated at the mitochondrion: StAR delivery of cholesterol to CYP11A1 sets the rate, and LH raises StAR and side-chain cleavage through cAMP and protein kinase A. From pregnenolone, CYP17 decides the fate: without it the product stops at progestins, and with its hydroxylase and lyase activities the skeleton is cut to 19-carbon androgens. Aromatase then removes carbon 19 and aromatizes the A ring, so every estrogen passes through an androgen first."
       },
       {
         "h": "Testosterone to DHT",
@@ -267,7 +309,8 @@
           "At birth: ambiguous or female-appearing external genitalia, while Wolffian ducts are normal (testosterone-driven) and Mullerian ducts are absent (AMH present).",
           "At puberty: the testosterone surge virilizes the body (phallic growth, muscle, deep voice), but the prostate stays small and facial hair is sparse.",
           "Labs: normal or high testosterone, low DHT, high testosterone to DHT ratio."
-        ]
+        ],
+        "why": "Testosterone and DHT share one androgen receptor, but DHT binds it more tightly and dissociates more slowly, so tissues that depend on local conversion need 5-alpha-reductase type 2. The Wolffian ducts lie beside the fetal testis and respond to high local testosterone, while the genital tubercle, urogenital folds, and urogenital sinus need DHT to form the penis, scrotum, and prostate. That split explains male internal ducts with undervirilized external genitalia, then partial virilization when pubertal testosterone rises high enough to act directly."
       },
       {
         "h": "Aromatase in fat",
@@ -277,7 +320,8 @@
           "In obesity, more fat means more estrone without matching progesterone (unopposed estrogen).",
           "Unopposed estrogen drives endometrial hyperplasia and endometrioid endometrial carcinoma.",
           "In men, obesity raises estrogen and causes gynecomastia, and the extra estrogen lowers LH and testosterone."
-        ]
+        ],
+        "why": "Aromatase in adipose stromal cells makes body fat an endocrine organ, and because it needs only circulating androgen precursor, estrone output scales with fat mass rather than ovarian function. Peripheral estrone is not paired with cyclic progesterone, which normally converts the endometrium to a secretory state and limits its growth, so the glands keep proliferating toward atypical hyperplasia and carcinoma. In men, the same estrogen stimulates breast ducts and adds negative feedback on LH, lowering testicular testosterone."
       },
       {
         "h": "Glycoprotein hormones",
@@ -287,7 +331,8 @@
           "hCG beta closely resembles LH beta, so hCG acts on LH receptors and keeps the corpus luteum alive.",
           "Very high hCG in a hydatidiform mole or choriocarcinoma weakly stimulates TSH receptors, giving hyperthyroidism with low TSH.",
           "Very high hCG also overstimulates the ovaries and causes theca lutein cysts."
-        ]
+        ],
+        "why": "These four hormones are heterodimers whose common alpha subunit comes from one gene, so the beta subunit carries both receptor specificity and assay specificity. The hCG and LH beta subunits are similar enough to bind the same LH/hCG receptor, which lets placental hCG rescue the corpus luteum until the placenta takes over progesterone production at about 8 to 10 weeks. Receptor recognition is not absolute, so very high hCG cross-activates TSH receptors on thyrocytes and overdrives theca cells."
       },
       {
         "h": "Liver clearance",
@@ -296,7 +341,8 @@
           "Cirrhosis slows estrogen clearance and diverts adrenal androgens around the liver to fat, where they are aromatized.",
           "Cirrhosis also raises SHBG, which binds testosterone more tightly than estradiol, so free estrogen rises relative to free testosterone.",
           "Result: gynecomastia, spider angiomas, palmar erythema, testicular atrophy, and loss of male hair pattern."
-        ]
+        ],
+        "why": "Hepatic metabolism is the main exit for estrogens, so liver failure raises estrogen exposure in two ways: less degradation, and portosystemic shunting that sends androstenedione past the liver to peripheral aromatase. Higher SHBG adds a third effect, because it holds testosterone more tightly than estradiol and shifts the free ratio toward estrogen. Estrogen excess causes the vasodilatory skin signs and breast duct growth, while the fall in free testosterone contributes to testicular atrophy."
       },
       {
         "h": "Semen chemistry",
@@ -306,6 +352,40 @@
           "PSA is a serine protease (kallikrein) that liquefies the coagulum within about 15 to 30 minutes.",
           "PSA marks prostate tissue of any kind: it rises in BPH (more tissue), prostatitis (leaky inflamed epithelium), and carcinoma.",
           "Absent fructose with low volume points to absent vas deferens or seminal vesicles, or ejaculatory duct obstruction."
+        ],
+        "why": "Each accessory gland adds its own marker, so semen chemistry localizes a problem: fructose and semenogelin come from the seminal vesicles, which drain through the ejaculatory ducts, and citrate, zinc, and PSA come from the prostate. Semenogelin forms the coagulum right after ejaculation, and PSA, a kallikrein serine protease, cleaves semenogelin to liquefy it and free motile sperm. PSA normally stays in the glandular lumen, so serum PSA rises whenever there is more prostate tissue or the epithelial barrier is disrupted."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Cholesterol to estradiol in the follicle",
+        "steps": [
+          "LH stimulates theca cells; StAR moves cholesterol into mitochondria",
+          "CYP11A1 cleaves the side chain to make pregnenolone",
+          "CYP17 hydroxylase and lyase activities make DHEA",
+          "3-beta-HSD converts DHEA to androstenedione",
+          "Androstenedione diffuses to granulosa cells",
+          "FSH-induced aromatase and 17-beta-HSD convert it to estradiol"
+        ]
+      },
+      {
+        "title": "5-alpha-reductase deficiency",
+        "steps": [
+          "46,XY fetus with normal testes lacks 5-alpha-reductase type 2",
+          "Sertoli cell AMH regresses the Mullerian ducts",
+          "Leydig cell testosterone develops the Wolffian ducts normally",
+          "Low DHT leaves external genitalia undervirilized at birth",
+          "Pubertal testosterone surge virilizes the body; prostate stays small"
+        ]
+      },
+      {
+        "title": "Molar pregnancy to hyperthyroidism",
+        "steps": [
+          "Hydatidiform mole: proliferating trophoblast secretes very high hCG",
+          "hCG shares the alpha subunit with TSH",
+          "Very high hCG weakly activates TSH receptors on thyrocytes",
+          "Thyroid hormone output rises",
+          "Negative feedback suppresses pituitary TSH"
         ]
       }
     ],
@@ -494,7 +574,8 @@
           "Low folate slows DNA synthesis in rapidly dividing neuroepithelium.",
           "The neural tube closes by about day 28 after conception, often before pregnancy is recognized, so supplements must start before conception.",
           "Standard dose is 0.4 mg daily; higher doses are used after a prior affected pregnancy. Folate antagonists and valproate raise risk."
-        ]
+        ],
+        "why": "Folate is reduced to tetrahydrofolate, which carries one-carbon units for thymidylate and purine synthesis. When thymidine runs short, DNA replication stalls and uracil is misincorporated, which hits the rapidly dividing neuroepithelium while the neural folds are fusing. Because closure is finished by about day 28, folate must already be adequate at conception, and drugs that block folate metabolism, such as dihydrofolate reductase inhibitors, raise the risk."
       },
       {
         "h": "Iron in pregnancy",
@@ -504,7 +585,8 @@
           "Dilutional anemia: normal MCV and normal ferritin.",
           "Iron deficiency: low ferritin (below about 30 ng/mL), then low MCV and high RDW.",
           "TIBC rises in normal pregnancy because estrogen raises transferrin, so TIBC alone cannot diagnose iron deficiency here."
-        ]
+        ],
+        "why": "Pregnancy expands plasma volume more than red cell mass, which lowers blood viscosity and supports placental perfusion, so hemoglobin concentration falls even when iron is adequate. True iron deficiency shows first as falling ferritin, the storage form, before hemoglobin synthesis is limited and microcytic cells appear. Estrogen increases hepatic transferrin synthesis, so TIBC rises in every pregnancy, which is why ferritin is the test that separates dilution from deficiency."
       },
       {
         "h": "Milk",
@@ -514,7 +596,8 @@
           "Human milk has more lactose and less total protein than cow milk, with whey proteins making up most of the protein.",
           "It carries secretory IgA, lactoferrin, and lysozyme for gut defense.",
           "It is low in vitamin D (breastfed infants get supplements) and vitamin K (all newborns get vitamin K at birth)."
-        ]
+        ],
+        "why": "Galactosyltransferase normally adds galactose to glycoproteins, but alpha-lactalbumin, induced by prolactin as progesterone falls after delivery, lowers its Km for glucose so the complex makes lactose. Lactose cannot cross the Golgi membrane, so it draws water in osmotically and sets milk volume. The protective factors act at the infant gut surface: secretory IgA blocks microbial adherence, lactoferrin binds the iron bacteria need, and lysozyme digests bacterial peptidoglycan."
       },
       {
         "h": "Glucose across the placenta",
@@ -525,7 +608,8 @@
           "Fetal insulin is anabolic: macrosomia with fat over the shoulders and trunk (shoulder dystocia risk).",
           "After the cord is cut, glucose supply stops but insulin stays high, so neonatal hypoglycemia follows.",
           "Fetal hyperinsulinemia also delays surfactant production (respiratory distress)."
-        ]
+        ],
+        "why": "Placental glucose transfer is carrier-mediated and driven by the concentration gradient, so fetal glucose tracks maternal glucose, while insulin stays on the maternal side. The fetal pancreas responds to hyperglycemia with beta cell hyperplasia and hyperinsulinemia, and insulin then drives fat and glycogen storage and organ growth. At birth the glucose supply stops abruptly but fetal hyperinsulinemia persists, causing hypoglycemia, and insulin also antagonizes the cortisol-driven maturation of surfactant synthesis in type II pneumocytes."
       },
       {
         "h": "Zinc and vitamin A",
@@ -534,7 +618,8 @@
           "Zinc deficiency: hypogonadism, delayed sexual maturation, growth failure, poor wound healing, loss of taste, and periorificial dermatitis.",
           "Excess preformed vitamin A and retinoids such as isotretinoin act on retinoic acid receptors and disrupt neural crest and Hox patterning.",
           "Retinoid embryopathy: craniofacial defects (small or absent ears, cleft palate), conotruncal heart defects, and CNS defects."
-        ]
+        ],
+        "why": "Zinc stabilizes many enzymes and the zinc finger DNA-binding domains of transcription factors, including the sex steroid receptors, and deficiency impairs testicular steroidogenesis and spermatogenesis, so growth and sexual maturation stall. Retinoic acid acts through nuclear RAR and RXR receptors that set Hox gene expression along the body axis and guide neural crest cells. Excess retinoid during organogenesis mispatterns cranial neural crest derivatives, which explains the ear, palate, and conotruncal heart defects."
       },
       {
         "h": "Energy availability and leptin",
@@ -543,7 +628,8 @@
           "Low energy availability (athletes, eating disorders, very low body fat) lowers leptin and GnRH pulsatility.",
           "LH, FSH, and estradiol fall, causing hypothalamic amenorrhea.",
           "Low estrogen speeds bone resorption, so bone density falls and stress fractures rise."
-        ]
+        ],
+        "why": "The hypothalamus reads leptin as a signal of stored energy and permits reproduction only when stores can support it. When intake falls short of expenditure, leptin drops and GnRH pulse frequency slows, so LH pulses fade and the ovary stops producing a dominant follicle. Estrogen normally restrains osteoclast activity, so the resulting hypoestrogenism speeds bone loss, which completes the female athlete triad of low energy availability, menstrual dysfunction, and low bone density."
       },
       {
         "h": "Cholesterol supply for steroids",
@@ -552,6 +638,41 @@
           "LH raises LDL receptor and StAR activity in Leydig and theca cells.",
           "StAR moving cholesterol to the inner mitochondrial membrane is the rate-limiting step in gonadal steroidogenesis.",
           "The placenta makes progesterone from maternal LDL cholesterol but lacks 17-alpha-hydroxylase, so it needs fetal adrenal DHEA-S (16-hydroxylated in fetal liver) to make estriol."
+        ],
+        "why": "Steroid-producing cells store little hormone and make it on demand, so they import cholesterol from LDL through LDL receptors and move it to CYP11A1 with StAR. LH increases both steps through cAMP, which couples trophic stimulation to substrate supply. The placenta is an incomplete steroid organ: it makes progesterone from maternal cholesterol but lacks CYP17, so estriol depends on DHEA-S from the fetal adrenal and 16-hydroxylation in the fetal liver, which ties maternal estriol to fetal well-being."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Maternal hyperglycemia to neonatal hypoglycemia",
+        "steps": [
+          "Maternal hyperglycemia",
+          "Glucose crosses the placenta by GLUT1; maternal insulin does not",
+          "Fetal hyperglycemia causes beta cell hyperplasia and hyperinsulinemia",
+          "Fetal insulin drives growth and fat deposition: macrosomia",
+          "Cord clamped: glucose supply stops while insulin stays high",
+          "Neonatal hypoglycemia"
+        ]
+      },
+      {
+        "title": "Low energy availability to bone loss",
+        "steps": [
+          "Energy intake below expenditure lowers fat stores and leptin",
+          "GnRH pulse frequency slows",
+          "LH and FSH fall, so no dominant follicle develops",
+          "Low estradiol causes hypothalamic amenorrhea",
+          "Less estrogen restraint on osteoclasts raises bone resorption",
+          "Low bone density and stress fractures"
+        ]
+      },
+      {
+        "title": "Fetoplacental estriol synthesis",
+        "steps": [
+          "Fetal adrenal makes DHEA-S",
+          "Fetal liver 16-alpha-hydroxylates DHEA-S",
+          "16-hydroxy DHEA-S travels to the placenta",
+          "Placental sulfatase removes the sulfate",
+          "Placental 3-beta-HSD and aromatase convert it to estriol"
         ]
       }
     ],
@@ -740,7 +861,8 @@
           "45,X (Turner): usually the lost sex chromosome is paternal, and risk does not rise with maternal age.",
           "Nondisjunction or chromosome loss after fertilization gives mosaicism (for example 45,X/46,XX) with milder features.",
           "45,X/46,XY mosaics carry gonadoblastoma risk in their dysgenetic gonads."
-        ]
+        ],
+        "why": "In meiosis I the paired homologs should go to opposite poles, so failure sends both homologs (for example the paternal X and Y) into one gamete. In meiosis II the sister chromatids of one homolog fail to part, so the gamete gets two copies of the same parental chromosome. An XY sperm can only arise from a paternal meiosis I error, while errors after fertilization affect only some cell lines and give mosaicism with an often milder phenotype."
       },
       {
         "h": "X inactivation",
@@ -749,7 +871,8 @@
           "Inactivation is random in each cell early in the embryo and then fixed in its descendants.",
           "Barr bodies = number of X chromosomes minus one: 46,XX has 1, 47,XXY has 1, 45,X has 0, 47,XXX has 2.",
           "Some genes (including pseudoautosomal SHOX) escape inactivation, which is why 45,X and 47,XXY still have phenotypes."
-        ]
+        ],
+        "why": "XIST is transcribed from the X that will be silenced and spreads along it in cis, recruiting histone modifications and DNA methylation that compact it into heterochromatin. This dosage compensation equalizes X-linked gene expression between XX and XY cells, so the Barr body count follows the number of X chromosomes. Pseudoautosomal genes such as SHOX have Y copies and escape inactivation, so normal development needs two active copies; one copy (45,X) or three copies (47,XXY) change dosage and produce a phenotype."
       },
       {
         "h": "Sex chromosome syndromes",
@@ -758,7 +881,8 @@
           "Klinefelter testes show hyalinized seminiferous tubules and low inhibin B; male breast cancer risk rises.",
           "Turner: short stature (SHOX loss), streak ovaries, primary amenorrhea, high FSH and LH, low estrogen.",
           "Turner also: webbed neck and lymphedema (from cystic hygroma), bicuspid aortic valve, coarctation, and horseshoe kidney."
-        ]
+        ],
+        "why": "In Klinefelter, the extra X damages germ cells and seminiferous tubules, so Sertoli inhibin B and Leydig testosterone both fall and the pituitary answers with high FSH and LH, the pattern of primary hypogonadism. Low testosterone with relatively more estradiol explains gynecomastia, and delayed epiphyseal closure plus an extra SHOX copy adds height. In Turner, oocytes are lost at an accelerated rate, so the ovaries become streaks without follicles and the loss of estrogen and inhibin releases FSH and LH."
       },
       {
         "h": "HPV oncoproteins",
@@ -767,7 +891,8 @@
           "E6 binds p53 and recruits a ubiquitin ligase, so p53 is degraded and damaged cells neither arrest nor die.",
           "E7 binds Rb and releases E2F, which pushes the cell from G1 into S phase.",
           "Loss of both checkpoints lets mutations pile up in the cervical transformation zone; p16 staining rises as a marker."
-        ]
+        ],
+        "why": "The viral genome first persists as an episome, where E2 represses transcription of E6 and E7, but integration often breaks the E2 gene and releases that brake. E6 targets p53 for proteasomal degradation through the ubiquitin ligase E6AP, removing the G1 arrest and apoptosis that follow DNA damage, and E7 binds Rb and frees E2F to drive S phase entry. With Rb inactivated, the cell overexpresses p16, a CDK inhibitor, which serves as a surrogate marker of high-risk HPV transformation."
       },
       {
         "h": "BRCA and Lynch",
@@ -778,7 +903,8 @@
           "BRCA2: breast, ovarian, male breast, prostate, and pancreatic cancer.",
           "Lynch syndrome: autosomal dominant germline mismatch repair mutations (MLH1, MSH2, MSH6, PMS2) with microsatellite instability.",
           "In women with Lynch, endometrial carcinoma risk is as high as or higher than colorectal risk; ovarian risk also rises."
-        ]
+        ],
+        "why": "Both syndromes start with one defective repair allele in every cell, and a tumor needs the second allele to fail (the two-hit model), which is why risk is high but incomplete. Without BRCA1 or BRCA2, double-strand breaks go to error-prone repair pathways and the genome becomes unstable; without mismatch repair, replication slips in repetitive sequences go uncorrected and appear as microsatellite instability. Loss of homologous recombination also makes BRCA-deficient tumors sensitive to PARP inhibitors, which block a backup repair path."
       },
       {
         "h": "Breast cancer receptor groups",
@@ -787,6 +913,41 @@
           "Luminal B: ER positive with higher proliferation, with or without HER2.",
           "HER2-enriched: ERBB2 gene amplification, ER negative, responds to HER2-targeted antibody therapy.",
           "Basal-like: ER, PR, and HER2 negative (triple-negative), high grade, younger patients, linked to BRCA1."
+        ],
+        "why": "Gene expression profiling sorts breast cancers into groups that resemble luminal or basal epithelial cells, and the ER, PR, HER2, and Ki-67 panel approximates those groups in practice. ER-positive tumors grow under estrogen signaling, so blocking estrogen production or the receptor slows them, while HER2 amplification drives growth through receptor tyrosine kinase signaling that antibodies such as trastuzumab block. Triple-negative tumors lack both targets, grow fast, and often reflect BRCA1-related loss of DNA repair."
+      }
+    ],
+    "flows": [
+      {
+        "title": "High-risk HPV to cervical carcinoma",
+        "steps": [
+          "HPV 16 or 18 infects basal cells of the transformation zone",
+          "Viral DNA often integrates, disrupting E2",
+          "E6 and E7 are overexpressed",
+          "E6 degrades p53; E7 binds Rb, releasing E2F",
+          "Unchecked proliferation and accumulated mutations: rising grades of CIN",
+          "Invasion through the basement membrane: squamous cell carcinoma"
+        ]
+      },
+      {
+        "title": "Klinefelter syndrome",
+        "steps": [
+          "Nondisjunction yields an XX egg or an XY sperm",
+          "Fertilization gives 47,XXY",
+          "Extra X damages germ cells and seminiferous tubules (hyalinization)",
+          "Inhibin B and testosterone fall",
+          "Loss of feedback raises FSH and LH",
+          "Small firm testes, azoospermia, and gynecomastia"
+        ]
+      },
+      {
+        "title": "BRCA two-hit tumorigenesis",
+        "steps": [
+          "Germline BRCA1 or BRCA2 mutation is present in every cell",
+          "Second allele is lost in a breast or ovarian epithelial cell",
+          "Homologous recombination repair of double-strand breaks fails",
+          "Error-prone repair causes genomic instability",
+          "Mutations accumulate and carcinoma develops"
         ]
       }
     ],
@@ -974,7 +1135,8 @@
           "Barrier breach (trauma, torsion, vasectomy, mumps orchitis) exposes sperm and leads to antisperm antibodies.",
           "Antisperm antibodies agglutinate sperm and reduce motility, causing infertility.",
           "Autoimmune orchitis (alone or in autoimmune polyendocrine syndromes) destroys the testis, causing primary hypogonadism with high LH and FSH."
-        ]
+        ],
+        "why": "Central tolerance is set in the thymus long before puberty, so the new antigens on meiotic and postmeiotic germ cells were never presented for deletion. Sertoli tight junctions sequester these cells in the adluminal compartment, and local TGF-beta, Fas ligand, and regulatory T cells suppress any response that starts. When the barrier breaks, sperm antigens reach the immune system and antibodies coat sperm and impair their motility, while T cell attack on the testis causes primary gonadal failure."
       },
       {
         "h": "Tolerance of the fetus",
@@ -984,7 +1146,8 @@
           "Extravillous trophoblast expresses nonclassical HLA-G, which binds inhibitory receptors on uterine NK cells and T cells.",
           "HLA-G prevents NK cells from attacking the cells for missing class I (the missing-self signal).",
           "Complement regulators on trophoblast and expanded maternal regulatory T cells add more protection."
-        ]
+        ],
+        "why": "The villous syncytiotrophoblast bathed in maternal blood expresses no classical HLA class I or class II, so maternal T cells find no paternal HLA to recognize there. Extravillous trophoblast that invades the decidua must still avoid uterine NK cells, which kill cells lacking class I, so it expresses HLA-G, which engages NK inhibitory receptors and blocks missing-self killing. Complement regulators on trophoblast and expanded maternal regulatory T cells limit antibody and T cell injury."
       },
       {
         "h": "Passive immunity of the newborn",
@@ -994,7 +1157,8 @@
           "IgM in cord blood was made by the fetus and signals congenital infection.",
           "Maternal IgG wanes over about 6 months, so preterm infants and infants at 3 to 6 months are most vulnerable.",
           "Breast milk secretory IgA coats the infant gut and blocks pathogen attachment; colostrum has the most."
-        ]
+        ],
+        "why": "FcRn in the syncytiotrophoblast binds IgG inside acidified endosomes and releases it at the neutral pH of fetal blood, an active transport that is selective for IgG and peaks late in gestation. Because only IgG crosses, any IgM in the newborn was made by the fetus, which means the fetus met an antigen in utero. Maternal IgG decays with a half-life of about 3 weeks while the infant's own IgG production is still low, creating the low point at 3 to 6 months."
       },
       {
         "h": "Rh alloimmunization",
@@ -1006,7 +1170,8 @@
           "Fetal anemia leads to extramedullary hematopoiesis, hepatosplenomegaly, high-output heart failure, and hydrops fetalis.",
           "After birth, unconjugated bilirubin rises fast and can cause kernicterus.",
           "Anti-D immune globulin at about 28 weeks and after delivery or any bleeding event clears fetal cells before the mother is sensitized."
-        ]
+        ],
+        "why": "The primary response to RhD after a fetomaternal bleed is slow and mostly IgM, which cannot cross the placenta, so the first RhD-positive fetus is usually spared. Class switching and memory let a later exposure produce anti-D IgG that crosses by FcRn and opsonizes fetal red cells for splenic destruction. Before birth the placenta clears the bilirubin from hemolysis, but after birth it overwhelms immature neonatal glucuronidation, and anti-D immune globulin works by clearing RhD-positive fetal cells before naive maternal B cells respond."
       },
       {
         "h": "Vaginal defenses",
@@ -1014,7 +1179,8 @@
           "Estrogen loads vaginal epithelium with glycogen, which lactobacilli ferment to lactic acid, keeping the pH at or below 4.5; some also make hydrogen peroxide.",
           "Secretory IgA and antimicrobial peptides add mucosal protection.",
           "When lactobacilli are lost (douching, antibiotics, new partners), Gardnerella and anaerobes overgrow: bacterial vaginosis with pH above 4.5 and fishy amines."
-        ]
+        ],
+        "why": "Estrogen builds a thick, glycogen-rich epithelium, and lactobacilli ferment glycogen breakdown products to lactic acid, keeping a low pH that inhibits most pathogens. The defense therefore depends on hormone state, which is why vaginal pH is higher before puberty and after menopause. When lactobacilli decline, Gardnerella and anaerobes form a biofilm on epithelial cells (clue cells), and their amines such as trimethylamine give the fishy odor that KOH releases by raising the pH."
       },
       {
         "h": "HPV immunity and the vaccine",
@@ -1023,7 +1189,8 @@
           "It induces neutralizing IgG that blocks infection; it does not treat existing infection or lesions.",
           "Most natural HPV infections and low-grade lesions are cleared by cell-mediated immunity within about 2 years.",
           "Low CD4 counts (HIV, transplant immunosuppression) let HPV persist, so CIN and cervical cancer rise."
-        ]
+        ],
+        "why": "L1 is the major capsid protein, and expressed alone it self-assembles into virus-like particles that display the virion's conformational epitopes but carry no genome, so they cannot infect or transform. The neutralizing IgG they induce reaches the cervical surface and binds virions at sites of microtrauma before they reach basal cells. Infected basal cells do not make L1, so vaccine antibodies cannot clear an existing infection; clearance needs T cell immunity, which explains persistence when CD4 counts fall."
       },
       {
         "h": "Tubal scarring after infection",
@@ -1033,6 +1200,42 @@
           "Gonococcal lipooligosaccharide and peptidoglycan trigger TNF release that kills ciliated cells.",
           "Healing causes fibrosis, loss of cilia, adhesions, and blocked tubes (hydrosalpinx).",
           "Partial damage traps the embryo, causing ectopic pregnancy; complete blockage causes tubal factor infertility."
+        ],
+        "why": "Chlamydia infects columnar epithelium of the endocervix and tube and often causes few symptoms, so it goes untreated and recurs. Repeated infection drives a stronger cell-mediated response with IFN-gamma and other cytokines that injure the mucosa, and gonococcal lipooligosaccharide and peptidoglycan fragments trigger TNF release that kills ciliated cells. Repair replaces cilia and mucosal folds with fibrosis, so the tube either closes (infertility, hydrosalpinx) or narrows enough to delay the embryo, which then implants in the tube."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Rh alloimmunization",
+        "steps": [
+          "RhD-negative mother carries an RhD-positive fetus",
+          "Fetomaternal hemorrhage at delivery exposes her to RhD",
+          "Primary response is mostly IgM with memory B cells; first fetus usually spared",
+          "Next RhD-positive pregnancy: memory B cells make anti-D IgG",
+          "IgG crosses the placenta by FcRn and coats fetal red cells",
+          "Splenic macrophages destroy coated cells, causing fetal anemia",
+          "Extramedullary hematopoiesis, high-output heart failure, and hydrops fetalis"
+        ]
+      },
+      {
+        "title": "Tubal infection to ectopic pregnancy",
+        "steps": [
+          "Chlamydia or gonorrhea infects the endocervix",
+          "Organisms ascend to the fallopian tubes: salpingitis",
+          "Inflammation destroys ciliated cells and mucosal folds",
+          "Fibrosis and adhesions narrow the tube",
+          "Embryo transport is delayed",
+          "Blastocyst implants in the tubal wall: ectopic pregnancy"
+        ]
+      },
+      {
+        "title": "Blood-testis barrier breach to infertility",
+        "steps": [
+          "Trauma, torsion, vasectomy, or orchitis disrupts the blood-testis barrier",
+          "Sequestered sperm antigens reach the immune system",
+          "B cells make antisperm antibodies",
+          "Antibodies agglutinate sperm and reduce motility",
+          "Male infertility"
         ]
       }
     ],
@@ -1211,7 +1414,8 @@
           "Pili attach to epithelium and undergo antigenic variation, so reinfection is common and no vaccine exists.",
           "IgA protease cleaves mucosal IgA; lipooligosaccharide acts as endotoxin; there is no polysaccharide capsule.",
           "Men show intracellular diplococci in neutrophils on Gram stain of urethral discharge; nucleic acid amplification is the usual test."
-        ]
+        ],
+        "why": "Gonococcal pili attach to nonciliated columnar epithelium, and recombination between silent and expressed pilin genes keeps changing the pili, so antibodies from a prior infection do not protect. Lacking a polysaccharide capsule, the organism relies on IgA protease and phase-variable outer membrane proteins to persist on mucosa, while lipooligosaccharide drives the neutrophil influx that makes the discharge purulent. Thayer-Martin agar adds antimicrobials that suppress commensal flora, and maltose fermentation separates meningococcus from gonococcus."
       },
       {
         "h": "Chlamydia trachomatis",
@@ -1221,7 +1425,8 @@
           "Reticulate body: replicates by binary fission inside an inclusion, then turns back into elementary bodies that are released.",
           "Cell wall has little peptidoglycan, so beta-lactams do not work well.",
           "Serovars A to C: trachoma; D to K: urethritis, cervicitis, PID, neonatal conjunctivitis and pneumonia; L1 to L3: lymphogranuloma venereum."
-        ]
+        ],
+        "why": "Chlamydia alternates between two forms suited to two settings: the hardy elementary body survives outside cells and enters by endocytosis, and the metabolically active reticulate body divides inside an inclusion that avoids lysosomal fusion. Because it relies on host ATP, it grows only inside living cells and not on routine culture media, so nucleic acid amplification is used for diagnosis. Its wall has little peptidoglycan, so beta-lactams work poorly and drugs that target bacterial ribosomes, such as macrolides and tetracyclines, are used."
       },
       {
         "h": "Treponema pallidum",
@@ -1230,7 +1435,8 @@
           "Seen by dark-field microscopy of chancre fluid; cannot be cultured on standard media.",
           "Spread by sexual contact with lesions and across the placenta.",
           "Diagnosis is mainly serologic: nontreponemal tests (RPR, VDRL) track activity; treponemal tests usually stay positive for life."
-        ]
+        ],
+        "why": "Treponema is too thin to resolve by light microscopy after Gram staining, which is why dark-field microscopy or serology is used. Nontreponemal tests detect antibodies to cardiolipin, a lipid exposed during tissue injury, so titers rise with active disease and fall after treatment, while treponemal tests detect antibodies to the organism's own antigens and persist. Its corkscrew motility and an outer membrane with few surface proteins help it disseminate and evade antibody, including across the placenta."
       },
       {
         "h": "HSV-2 and HPV",
@@ -1240,7 +1446,8 @@
           "HPV: nonenveloped circular dsDNA papillomavirus that infects basal keratinocytes through small breaks in the epithelium.",
           "HPV-infected cells show koilocytes (perinuclear halo, wrinkled nucleus).",
           "Low-risk types 6 and 11: genital warts (condyloma acuminatum). High-risk types 16 and 18: CIN and squamous carcinoma."
-        ]
+        ],
+        "why": "HSV-2 lyses epithelial cells to form vesicles, then enters sensory nerve endings and travels by retrograde axonal transport to the sacral dorsal root ganglia, where it persists as a latent episome expressing latency-associated transcripts. Stress or immune suppression reactivates it, and virus returns down the nerve to the same area of skin. HPV instead completes its life cycle within differentiating epithelium: it infects basal cells, but late gene expression and virion assembly occur only in upper layers, where koilocytes appear."
       },
       {
         "h": "Vaginitis on the slide",
@@ -1248,7 +1455,8 @@
           "Trichomonas vaginalis: motile, pear-shaped flagellated protozoan on saline wet mount; frothy discharge, pH above 4.5.",
           "Candida albicans: budding yeast with pseudohyphae on KOH prep; thick white discharge, pH normal.",
           "Gardnerella vaginalis: clue cells (epithelial cells coated with bacteria) on wet mount; fishy odor with KOH, pH above 4.5, few white cells."
-        ]
+        ],
+        "why": "Each organism changes the vaginal environment in its own way, so pH and microscopy sort them quickly. Candida overgrowth leaves the acid pH intact, and KOH dissolves epithelial cells so its hyphae stand out. Trichomonas and bacterial vaginosis both raise the pH, but Trichomonas is a motile parasite that provokes inflammation with many white cells, while bacterial vaginosis is a shift in flora with little inflammation and bacteria-coated clue cells."
       },
       {
         "h": "Chancroid and toxic shock",
@@ -1258,7 +1466,8 @@
           "Staphylococcus aureus TSST-1 is a superantigen that links MHC class II to the T cell receptor beta chain outside the antigen groove.",
           "This activates a huge fraction of T cells at once, causing a cytokine storm (IL-2, IFN-gamma, TNF).",
           "Toxic shock: fever, hypotension, diffuse rash with later desquamation, and multiorgan injury, classically with retained tampons or nasal packing."
-        ]
+        ],
+        "why": "Haemophilus ducreyi provokes intense neutrophil inflammation, producing a soft, painful ulcer and suppurative nodes, unlike the painless indurated chancre of syphilis. TSST-1 skips antigen processing by clamping the outside of MHC class II to the variable region of the T cell receptor beta chain, so it activates every T cell carrying certain V-beta segments instead of a rare antigen-specific clone. The resulting surge of IL-2, IFN-gamma, and TNF causes capillary leak, hypotension, and multiorgan failure."
       },
       {
         "h": "Group B strep and TORCH",
@@ -1268,6 +1477,42 @@
           "Causes neonatal sepsis, pneumonia, and meningitis acquired during delivery.",
           "TORCH: Toxoplasma, Other (syphilis, varicella-zoster, parvovirus B19, Listeria, HIV, Zika), Rubella, CMV, HSV.",
           "Most TORCH organisms cross the placenta; HSV is mainly acquired during delivery."
+        ],
+        "why": "Group B strep carries a sialic acid-rich polysaccharide capsule that resists complement, and a newborn whose mother lacks protective antibody has little defense against it, so organisms picked up in the birth canal reach the blood and meninges. Screening at 36 to 37 weeks finds colonized mothers so intrapartum antibiotics can lower the bacterial load the infant meets during delivery. Most TORCH organisms reach the fetus through maternal blood and the placenta, and earlier infection is more likely to cause structural defects, as with first-trimester rubella."
+      }
+    ],
+    "flows": [
+      {
+        "title": "Chlamydia developmental cycle",
+        "steps": [
+          "Elementary body attaches to a columnar epithelial cell",
+          "Enters by endocytosis; the inclusion avoids lysosomal fusion",
+          "Elementary body converts to a reticulate body",
+          "Reticulate bodies divide by binary fission using host ATP",
+          "Reticulate bodies convert back to elementary bodies",
+          "Elementary bodies are released to infect new cells"
+        ]
+      },
+      {
+        "title": "HSV-2 latency and recurrence",
+        "steps": [
+          "Virus replicates in genital epithelium: painful vesicles",
+          "Virus enters sensory nerve endings",
+          "Retrograde axonal transport to sacral dorsal root ganglia",
+          "Latency in neurons with latency-associated transcripts",
+          "Stress or immunosuppression reactivates replication",
+          "Anterograde transport back to skin: recurrent lesions in the same area"
+        ]
+      },
+      {
+        "title": "TSST-1 toxic shock",
+        "steps": [
+          "Staphylococcus aureus grows on a retained tampon or nasal packing",
+          "It secretes the superantigen TSST-1",
+          "TSST-1 links MHC class II to T cell receptor V-beta outside the groove",
+          "A large fraction of T cells activates at once",
+          "Massive IL-2, IFN-gamma, and TNF release",
+          "Capillary leak: fever, hypotension, rash, and multiorgan injury"
         ]
       }
     ],

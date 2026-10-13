@@ -1,0 +1,696 @@
+{
+ "unit": "GI-11",
+ "chapter_id": "NPLEX-P1-GAST-11",
+ "topic_id": "NPLEX-P1-GAST-11-01",
+ "title": "Immune Responses in Gastrointestinal Disease",
+ "subject": "Gastrointestinal System (GAST)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "The gut must ignore food and trillions of resident bacteria while still stopping pathogens, and it does this with a specialized mucosal immune system built around M cells, secretory IgA, and regulatory T cells. This chapter explains that normal balance and then the diseases that follow when it fails: celiac disease, Crohn disease, autoimmune gastritis, autoimmune hepatitis, primary biliary cholangitis, gastric MALT lymphoma, and the immune injury and serology of hepatitis B. Board questions usually name a cell, antibody, HLA type, or serologic pattern and ask you to explain the lesion it produces, so the emphasis here is on mechanism.",
+  "prerequisites": [
+   "Antibody classes, class switching, and complement activation",
+   "CD4 helper subsets (Th1, Th2, Th17, regulatory T cells) and CD8 cytotoxic T cell killing",
+   "MHC class I and class II antigen presentation",
+   "Hypersensitivity types I to IV",
+   "Histology of the small intestine, gastric body and antrum, and liver lobule (GI-1 to GI-3)"
+  ],
+  "connections": [
+   {
+    "to": "Digestion and absorption (GI-6, GI-7)",
+    "how": "Loss of proximal villi in celiac disease and terminal ileal disease in Crohn disease explain which nutrients are malabsorbed."
+   },
+   {
+    "to": "Gastrointestinal microbiology (GI-9)",
+    "how": "Helicobacter pylori, Giardia, and hepatitis B are pathogens whose disease is shaped as much by the host response as by the organism."
+   },
+   {
+    "to": "Gastrointestinal genetics (GI-10)",
+    "how": "HLA-DQ2 and DQ8 in celiac disease and NOD2 in Crohn disease show how immune genes set disease risk."
+   },
+   {
+    "to": "Renal pathology and vasculitis",
+    "how": "Hepatitis B immune complexes cause membranous nephropathy and polyarteritis nodosa, linking liver infection to the kidney and medium-sized arteries."
+   },
+   {
+    "to": "Hematology",
+    "how": "Autoimmune gastritis causes pernicious anemia, and celiac disease causes iron and folate deficiency anemia."
+   }
+  ],
+  "terms": [
+   {
+    "term": "M cell",
+    "def": "A specialized epithelial cell over Peyer patches that transports intact luminal antigen to underlying immune cells."
+   },
+   {
+    "term": "Polymeric Ig receptor (pIgR)",
+    "def": "An epithelial receptor that binds J chain-containing IgA and IgM on the basolateral surface and carries them into the lumen."
+   },
+   {
+    "term": "Secretory component",
+    "def": "The fragment of pIgR that stays bound to IgA after cleavage and protects it from luminal proteases."
+   },
+   {
+    "term": "Oral tolerance",
+    "def": "Reduced systemic immune responsiveness to an antigen that was first encountered through the gut."
+   },
+   {
+    "term": "Tissue transglutaminase (tTG)",
+    "def": "A calcium-dependent enzyme that deamidates gliadin in celiac disease and is the target of its IgA autoantibodies."
+   },
+   {
+    "term": "NOD2",
+    "def": "A cytosolic pattern recognition receptor for muramyl dipeptide from bacterial peptidoglycan whose variants raise Crohn disease risk."
+   },
+   {
+    "term": "Transmural inflammation",
+    "def": "Inflammation that extends through every layer of the bowel wall from mucosa to serosa."
+   },
+   {
+    "term": "Interface hepatitis",
+    "def": "Lymphocyte and plasma cell inflammation that crosses the limiting plate between portal tracts and the hepatocytes around them."
+   },
+   {
+    "term": "Marginal zone lymphoma",
+    "def": "A low-grade B cell lymphoma derived from post-germinal center marginal zone B cells; the extranodal form is MALT lymphoma."
+   },
+   {
+    "term": "Type III hypersensitivity",
+    "def": "Tissue injury caused by deposited antigen-antibody complexes that activate complement and recruit leukocytes."
+   },
+   {
+    "term": "Window period",
+    "def": "The interval in acute hepatitis B after HBsAg disappears and before anti-HBs is detectable, when IgM anti-HBc is the only marker."
+   },
+   {
+    "term": "Anti-HBc",
+    "def": "Antibody to the hepatitis B core antigen, which forms only after natural infection because the vaccine contains no core protein."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-GAST-11-01-C01",
+   "obj": "GI-11.1",
+   "title": "Mucosal immunity, secretory IgA, oral tolerance, and selective IgA deficiency",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The intestinal mucosa is the largest surface of the body exposed to foreign antigen, separated from food and trillions of commensal bacteria by a single layer of epithelium. Antigen is sampled and lymphocytes primed at organized inductive sites, and effector cells act diffusely in the lamina propria and epithelium."
+    },
+    {
+     "type": "h",
+     "text": "Antigen sampling by M cells"
+    },
+    {
+     "type": "p",
+     "text": "Peyer patches are aggregated lymphoid follicles in the mucosa and submucosa, most numerous in the terminal ileum. The follicle-associated epithelium over them contains M (microfold) cells, which have short irregular microfolds instead of a brush border, little overlying mucus, and a basolateral pocket holding dendritic cells and lymphocytes. M cells transcytose bacteria, viruses, and particles into this pocket with little degradation, and dendritic cells carry the antigen into the follicle and T cell zones. Several pathogens use M cells as an entry route, including Salmonella, Shigella, and Yersinia."
+    },
+    {
+     "type": "h",
+     "text": "Making and delivering secretory IgA"
+    },
+    {
+     "type": "p",
+     "text": "In the Peyer patch, helper T cells (through CD40 ligand), TGF-beta, and retinoic acid made by gut dendritic cells switch activated B cells to IgA. Retinoic acid also induces the gut homing molecules alpha4beta7 integrin and CCR9, so these cells leave through lymph and blood and return to the lamina propria as plasma cells. There they secrete dimeric IgA, two monomers joined by a J chain. More IgA is made each day than all other antibody classes combined, most of it in the gut."
+    },
+    {
+     "type": "flow",
+     "title": "From antigen sampling to secretory IgA",
+     "steps": [
+      "M cell carries luminal antigen to dome dendritic cells",
+      "Dendritic cells prime T cells, which help B cells",
+      "TGF-beta, retinoic acid, and CD40 ligand switch B cells to IgA",
+      "IgA B cells home to the lamina propria",
+      "Plasma cells secrete dimeric IgA with J chain",
+      "pIgR carries the dimer across the enterocyte",
+      "pIgR is cleaved; secretory component stays attached"
+     ],
+     "caption": "Inductive sites prime B cells; effector plasma cells sit beneath the whole epithelium."
+    },
+    {
+     "type": "p",
+     "text": "The polymeric Ig receptor (pIgR) on the basolateral surface of enterocytes binds J chain-containing IgA, carries it across the cell in vesicles, and is cleaved at the apical surface. The bound fragment, secretory component, protects IgA from proteases and anchors it in mucus. Secretory IgA acts by immune exclusion: it agglutinates microbes, blocks adhesins, and neutralizes toxins. Because IgA activates the classical complement pathway poorly, this defense causes little inflammation."
+    },
+    {
+     "type": "h",
+     "text": "Oral tolerance"
+    },
+    {
+     "type": "p",
+     "text": "Feeding a protein normally reduces later systemic responses to it, a state called oral tolerance. Lamina propria CD103+ dendritic cells carry food antigen to mesenteric lymph nodes and present it with TGF-beta and retinoic acid, which convert naive CD4 T cells into FoxP3+ regulatory T cells that suppress through IL-10 and TGF-beta. Presentation without costimulation causes anergy, and very high doses can delete responding clones. Breakdown of these controls contributes to celiac disease and inflammatory bowel disease."
+    },
+    {
+     "type": "h",
+     "text": "Selective IgA deficiency"
+    },
+    {
+     "type": "p",
+     "text": "Selective IgA deficiency (serum IgA below about 7 mg/dL with normal IgG and IgM) is the most common primary immunodeficiency and reflects failed differentiation of B cells into IgA plasma cells. Most patients have no symptoms because pIgR also transports pentameric IgM, which carries a J chain, into secretions. A minority have recurrent sinopulmonary infections and giardiasis, and the defect is associated with atopy, autoimmune disease, and celiac disease. Some patients form IgG or IgE antibodies against IgA and can have anaphylaxis when given blood products that contain IgA."
+    },
+    {
+     "type": "stop",
+     "predict": "If a person lacked pIgR entirely, would IgM still reach the gut lumen as it does in selective IgA deficiency?",
+     "explain": "No. Selective IgA deficiency is compensated because pIgR still moves J chain-containing pentameric IgM into secretions. Without pIgR, neither dimeric IgA nor pentameric IgM is actively transported, so mucosal antibody defense would fail even with normal plasma cells.",
+     "check": "The pIgR paragraph and the selective IgA deficiency paragraph."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-GAST-11-01-C02",
+   "obj": "GI-11.2",
+   "title": "Celiac disease immunopathogenesis",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Celiac disease is an immune-mediated enteropathy of the small intestine triggered by gluten in genetically susceptible people. The harmful fraction is gliadin from wheat, along with related proteins in barley and rye. Gliadin is rich in proline and glutamine, so gastric, pancreatic, and brush border proteases cannot cut it completely, and long peptides reach the lamina propria intact."
+    },
+    {
+     "type": "h",
+     "text": "The enzyme and the HLA molecule"
+    },
+    {
+     "type": "p",
+     "text": "Tissue transglutaminase (tTG, transglutaminase 2) is a calcium-dependent enzyme released in the lamina propria. It deamidates selected glutamine residues in gliadin to glutamate, adding negative charge. HLA-DQ2 and HLA-DQ8 have peptide-binding pockets that favor negatively charged residues, so deamidated gliadin binds them tightly and is presented strongly to CD4 T cells. About 90% to 95% of patients carry DQ2 and most of the rest carry DQ8. These alleles are necessary but not sufficient, since about a third of people of European ancestry carry DQ2 and most never develop disease; their absence makes celiac disease very unlikely."
+    },
+    {
+     "type": "flow",
+     "title": "From gluten to villous atrophy",
+     "steps": [
+      "Gliadin peptides resist digestion and reach the lamina propria",
+      "tTG deamidates glutamine to glutamate",
+      "HLA-DQ2 or DQ8 presents deamidated gliadin",
+      "Gliadin-specific CD4 Th1 cells release IFN-gamma",
+      "Stressed enterocytes express IL-15 and MICA",
+      "Intraepithelial CD8 T cells kill enterocytes via NKG2D",
+      "Villous atrophy, crypt hyperplasia, intraepithelial lymphocytosis"
+     ],
+     "caption": "An adaptive CD4 response and an innate-like epithelial response act together."
+    },
+    {
+     "type": "p",
+     "text": "Two arms injure the mucosa. Gliadin-specific CD4 Th1 cells release IFN-gamma, which drives inflammation and crypt hyperplasia. At the same time, stressed enterocytes express IL-15 and the stress ligand MICA, which activate intraepithelial CD8 T cells through the NKG2D receptor to kill enterocytes. When enterocytes are lost faster than crypts replace them, villi flatten. The lesion is worst in the duodenum and proximal jejunum, where gluten load is highest."
+    },
+    {
+     "type": "h",
+     "text": "Why antibodies form against a self enzyme"
+    },
+    {
+     "type": "p",
+     "text": "tTG cross-links gliadin peptides to itself. A B cell whose receptor recognizes tTG internalizes these complexes and presents gliadin peptides on DQ2 or DQ8, so gliadin-specific CD4 T cells give it help. This explains IgA autoantibodies to tTG that depend on gluten intake and fall when gluten is removed. The endomysial antigen detected in the anti-endomysial test is tTG itself, and antibodies to deamidated gliadin peptides also appear."
+    },
+    {
+     "type": "table",
+     "title": "Serologic and genetic markers in celiac disease",
+     "cols": [
+      "Test",
+      "What it detects",
+      "Use and limitation"
+     ],
+     "rows": [
+      [
+       "IgA anti-tTG",
+       "IgA against tissue transglutaminase",
+       "Most sensitive screening antibody; requires normal IgA and current gluten intake"
+      ],
+      [
+       "IgA anti-endomysial",
+       "IgA binding tTG in connective tissue around smooth muscle",
+       "Very specific; read by immunofluorescence"
+      ],
+      [
+       "IgG anti-deamidated gliadin peptide or IgG anti-tTG",
+       "IgG class antibodies",
+       "Used when the patient is IgA deficient"
+      ],
+      [
+       "Total serum IgA",
+       "IgA level",
+       "Detects IgA deficiency, which makes IgA tests falsely negative"
+      ],
+      [
+       "HLA-DQ2 and DQ8 typing",
+       "Susceptibility alleles",
+       "Negative result nearly excludes disease; positive result does not confirm it"
+      ]
+     ],
+     "caption": "Duodenal biopsy showing villous atrophy confirms the diagnosis."
+    },
+    {
+     "type": "p",
+     "text": "Proximal mucosal loss explains the manifestations: iron deficiency (iron is absorbed in the duodenum), folate deficiency, steatorrhea with loss of fat-soluble vitamins and calcium leading to osteopenia, and secondary lactose intolerance from brush border loss. Dermatitis herpetiformis is an itchy vesicular rash with granular IgA in the dermal papillae, linked to antibodies against epidermal transglutaminase. Long-standing disease raises the risk of enteropathy-associated T cell lymphoma."
+    },
+    {
+     "type": "example",
+     "title": "A negative screen that is not reassuring",
+     "text": "A 28-year-old woman with iron deficiency anemia, bloating, and recurrent sinusitis eats wheat daily. IgA anti-tTG is negative. Before accepting this, ask whether she can make IgA. Recurrent sinusitis suggests selective IgA deficiency, which is about 10 times more common in celiac disease than in the general population. Total IgA is undetectable, so the IgA test could not be positive. IgG anti-deamidated gliadin peptide is strongly positive, she carries HLA-DQ2, and duodenal biopsy shows villous atrophy with intraepithelial lymphocytes. Iron deficiency fits duodenal damage, where most dietary iron is absorbed."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-GAST-11-01-C03",
+   "obj": "GI-11.3",
+   "title": "NOD2, commensal bacteria, and transmural granulomatous inflammation in Crohn disease",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Crohn disease is a chronic inflammatory bowel disease in which a genetically susceptible host mounts a sustained, poorly regulated response to its own intestinal bacteria. Genes, a defective barrier, altered flora, and environmental factors such as smoking all contribute, but the NOD2 story shows the core mechanism most clearly."
+    },
+    {
+     "type": "h",
+     "text": "What NOD2 normally does"
+    },
+    {
+     "type": "p",
+     "text": "NOD2 is a cytosolic pattern recognition receptor that senses muramyl dipeptide, a fragment of peptidoglycan found in gram-positive and gram-negative bacteria. It is expressed in monocytes, macrophages, dendritic cells, and the Paneth cells at the base of small intestinal crypts. Binding activates NF-kappa-B and MAP kinase signaling through the kinase RIPK2, supports Paneth cell secretion of antimicrobial alpha-defensins, and triggers autophagy of intracellular bacteria together with ATG16L1. NOD2 was the first Crohn susceptibility gene identified. The common risk variants reduce NOD2 function, risk is higher with two variant alleles than with one, and variants are linked to ileal disease."
+    },
+    {
+     "type": "h",
+     "text": "Why weak sensing causes strong inflammation"
+    },
+    {
+     "type": "p",
+     "text": "With defective NOD2, Paneth cells secrete fewer defensins and macrophages clear internalized bacteria poorly, so commensals penetrate the mucosa and persist. Persistent bacterial antigen keeps dendritic cells and macrophages making IL-12 and IL-23. IL-12 drives Th1 cells that secrete IFN-gamma, and IL-23 sustains Th17 cells that secrete IL-17 and IL-22. Variants in IL23R, ATG16L1, and IRGM also influence risk, supporting this model: the disease reflects failed bacterial clearance followed by a compensatory, uncontrolled adaptive response."
+    },
+    {
+     "type": "flow",
+     "title": "From NOD2 variant to Crohn lesion",
+     "steps": [
+      "NOD2 variant weakens sensing of muramyl dipeptide",
+      "Fewer Paneth cell defensins; poor bacterial autophagy",
+      "Commensals cross the mucosa and persist",
+      "Dendritic cells and macrophages secrete IL-12 and IL-23",
+      "Th1 (IFN-gamma) and Th17 (IL-17) responses expand",
+      "Activated macrophages release TNF and form granulomas",
+      "Transmural inflammation, fissures, fibrosis"
+     ],
+     "caption": "Loss of innate bacterial control leads to excessive cell-mediated immunity."
+    },
+    {
+     "type": "p",
+     "text": "IFN-gamma activates macrophages, which secrete TNF and aggregate as epithelioid cells into noncaseating granulomas, found in roughly a third of resected specimens. Th17 cytokines recruit neutrophils that form crypt abscesses and ulcers. Because this cell-mediated response is not confined to the mucosa, it extends through the full thickness of the wall."
+    },
+    {
+     "type": "table",
+     "title": "Crohn features explained by mechanism",
+     "cols": [
+      "Feature",
+      "Mechanism"
+     ],
+     "rows": [
+      [
+       "Fistulas, abscesses, perforation",
+       "Transmural inflammation tunnels through the wall into bowel, bladder, vagina, or skin"
+      ],
+      [
+       "Strictures and obstruction",
+       "Chronic injury and TGF-beta-driven fibrosis thicken the wall"
+      ],
+      [
+       "Skip lesions and cobblestone mucosa",
+       "Patchy foci of inflammation; linear ulcers separate edematous mucosa"
+      ],
+      [
+       "Creeping fat",
+       "Serosal inflammation causes mesenteric fat to wrap the bowel"
+      ],
+      [
+       "Terminal ileal predominance",
+       "Dense lymphoid tissue and Paneth cells where NOD2 activity matters most"
+      ],
+      [
+       "B12 and bile acid malabsorption",
+       "Loss or resection of the terminal ileum, where both are absorbed"
+      ],
+      [
+       "Noncaseating granulomas",
+       "IFN-gamma-activated macrophages; caseation suggests tuberculosis instead"
+      ]
+     ],
+     "caption": "Ulcerative colitis, by contrast, is mucosal, continuous from the rectum, and lacks granulomas."
+    },
+    {
+     "type": "stop",
+     "predict": "Why would a loss-of-function variant in an innate immune sensor lead to more intestinal inflammation rather than less?",
+     "explain": "NOD2 is needed to clear bacteria early through defensins and autophagy. When it fails, bacteria persist in the mucosa and keep antigen-presenting cells making IL-12 and IL-23, so Th1 and Th17 responses grow and cause chronic transmural, granulomatous injury.",
+     "check": "The paragraph on why weak sensing causes strong inflammation."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-GAST-11-01-C04",
+   "obj": "GI-11.4",
+   "title": "Autoantibodies in autoimmune gastritis, autoimmune hepatitis, and primary biliary cholangitis",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "In these three diseases, tissue injury is mainly T cell mediated, and the autoantibodies chiefly mark loss of tolerance to a specific self antigen. Knowing each antibody's target tells you which cell is attacked, where the damage occurs, and which laboratory values change."
+    },
+    {
+     "type": "table",
+     "title": "Autoimmune gastrointestinal diseases and their autoantibodies",
+     "cols": [
+      "Disease",
+      "Autoantibodies",
+      "Target",
+      "Cells injured",
+      "Typical laboratory pattern"
+     ],
+     "rows": [
+      [
+       "Autoimmune gastritis",
+       "Anti-parietal cell; anti-intrinsic factor",
+       "H+/K+-ATPase; intrinsic factor",
+       "Parietal cells of body and fundus",
+       "Achlorhydria, high gastrin, low pepsinogen I, low B12"
+      ],
+      [
+       "Autoimmune hepatitis type 1",
+       "ANA; anti-smooth muscle",
+       "Nuclear antigens; F-actin",
+       "Hepatocytes",
+       "High aminotransferases, high IgG"
+      ],
+      [
+       "Autoimmune hepatitis type 2",
+       "Anti-LKM1 (often with anti-LC1)",
+       "Cytochrome P450 2D6",
+       "Hepatocytes",
+       "High aminotransferases, high IgG; usually children and adolescents"
+      ],
+      [
+       "Primary biliary cholangitis",
+       "Antimitochondrial (AMA)",
+       "E2 subunit of the pyruvate dehydrogenase complex",
+       "Small intrahepatic bile duct epithelium",
+       "High alkaline phosphatase and GGT, high IgM"
+      ]
+     ],
+     "caption": "The target cell predicts whether the pattern is hepatocellular or cholestatic."
+    },
+    {
+     "type": "h",
+     "text": "Autoimmune gastritis"
+    },
+    {
+     "type": "p",
+     "text": "CD4 T cells attack the H+/K+-ATPase of parietal cells, which are confined to the oxyntic mucosa of the body and fundus, so the antrum is spared. Anti-parietal cell antibodies are sensitive but also occur in some healthy older adults, while anti-intrinsic factor antibodies are less sensitive but highly specific. Some anti-intrinsic factor antibodies block B12 binding to intrinsic factor, and others block uptake of the complex in the ileum. Loss of acid removes the normal feedback inhibition of antral G cells, so gastrin rises and drives enterochromaffin-like cell hyperplasia, which can progress to gastric neuroendocrine tumors. B12 deficiency (pernicious anemia, with megaloblastic anemia and subacute combined degeneration) appears only after years because hepatic B12 stores are large. The disease clusters with autoimmune thyroiditis and type 1 diabetes."
+    },
+    {
+     "type": "h",
+     "text": "Autoimmune hepatitis"
+    },
+    {
+     "type": "p",
+     "text": "Here T cells attack hepatocytes, producing interface hepatitis rich in plasma cells. Because hepatocytes are the target, aminotransferases rise far more than alkaline phosphatase, and polyclonal IgG is elevated. Type 1, the most common form, occurs mainly in women at any age with ANA and anti-smooth muscle antibodies. Type 2 affects mainly children and adolescents and is defined by anti-liver kidney microsomal type 1 (anti-LKM1) antibodies against cytochrome P450 2D6."
+    },
+    {
+     "type": "h",
+     "text": "Primary biliary cholangitis"
+    },
+    {
+     "type": "p",
+     "text": "Primary biliary cholangitis occurs mainly in middle-aged women. AMA, present in about 95% of patients, targets the E2 component of the pyruvate dehydrogenase complex on the inner mitochondrial membrane. T cells destroy small interlobular bile ducts, sometimes with granulomas around them (the florid duct lesion). Bile flow fails, so alkaline phosphatase and GGT rise, retained bile acids cause pruritus, cholesterol rises with xanthomas, and fat-soluble vitamins are malabsorbed. Progressive duct loss leads to biliary cirrhosis. Associations include Sjogren syndrome, systemic sclerosis, and autoimmune thyroiditis. Primary sclerosing cholangitis differs: it scars large ducts, is linked to ulcerative colitis, and is AMA negative."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-GAST-11-01-C05",
+   "obj": "GI-11.5",
+   "title": "Helicobacter pylori and gastric MALT lymphoma",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Mucosa-associated lymphoid tissue (MALT) lymphoma is an extranodal marginal zone B cell lymphoma. It is a low-grade tumor of small B cells that arises where chronic antigen stimulation has built lymphoid tissue, such as the stomach in H. pylori infection, the salivary gland in Sjogren syndrome, and the thyroid in Hashimoto thyroiditis. The stomach is the most common site, and most gastric cases are associated with H. pylori."
+    },
+    {
+     "type": "h",
+     "text": "Acquired lymphoid tissue and antigen-driven growth"
+    },
+    {
+     "type": "p",
+     "text": "Normal gastric mucosa has almost no organized lymphoid tissue. Chronic H. pylori gastritis creates lymphoid follicles with germinal centers in the mucosa. B cells in these follicles proliferate in response to CD40 ligand and cytokines from H. pylori-specific CD4 T cells. The tumor B cells themselves usually do not recognize H. pylori; their immunoglobulin often binds self antigens, and their growth depends on help from the bacterium-specific T cells nearby. Years of driven proliferation favor acquired genetic changes, and one clone eventually outgrows the rest."
+    },
+    {
+     "type": "p",
+     "text": "Histologically, small centrocyte-like and monocytoid B cells (CD20 positive, CD5 and CD10 negative) expand the marginal zone and invade gastric glands to form lymphoepithelial lesions. The clonal proliferation can be shown by light chain restriction or immunoglobulin gene rearrangement."
+    },
+    {
+     "type": "flow",
+     "title": "From H. pylori gastritis to MALT lymphoma",
+     "steps": [
+      "Chronic H. pylori infection inflames the gastric mucosa",
+      "Lymphoid follicles form in previously follicle-poor mucosa",
+      "H. pylori-specific T cells provide CD40 ligand and cytokines",
+      "Polyclonal B cells proliferate continuously",
+      "A monoclonal marginal zone clone emerges",
+      "Early tumor still needs T cell help",
+      "t(11;18) or transformation makes growth independent"
+     ],
+     "caption": "Regression after eradication is possible only while the clone remains antigen dependent."
+    },
+    {
+     "type": "h",
+     "text": "Why early lesions regress"
+    },
+    {
+     "type": "p",
+     "text": "Eradicating H. pylori removes the antigen that keeps the specific T cells active. Without CD40 ligand and cytokine help, an early antigen-dependent clone stops proliferating and its cells undergo apoptosis, so many localized, H. pylori-positive tumors regress over months. This is one of the few cancers that can regress after an infection is cleared. Response is unlikely when the clone has become autonomous. The t(11;18)(q21;q21) translocation fuses API2 (BIRC3) to MALT1, and the fusion protein activates NF-kappa-B continuously, replacing the survival signal that T cell help once supplied; t(1;14) involving BCL10 and t(14;18) involving MALT1 act the same way. Invasion beyond the submucosa, nodal spread, and transformation to diffuse large B cell lymphoma also predict failure."
+    },
+    {
+     "type": "stop",
+     "predict": "Two patients have localized H. pylori-positive gastric MALT lymphoma, and only one tumor carries t(11;18). Which tumor is more likely to regress after the organism is eradicated?",
+     "explain": "The tumor without t(11;18). It still depends on H. pylori-driven T cell help for NF-kappa-B activation and survival. The API2-MALT1 fusion activates NF-kappa-B by itself, so removing the bacterium leaves the clone's growth signal intact.",
+     "check": "The paragraph on why early lesions regress."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-GAST-11-01-C06",
+   "obj": "GI-11.6",
+   "title": "Immune-mediated injury in hepatitis B and its immune complex diseases",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Hepatitis B virus (HBV) is a partially double-stranded DNA hepadnavirus that replicates in hepatocytes without killing them. Two observations show this: during the immune tolerant phase of perinatally acquired infection, patients have very high viral DNA with normal aminotransferases, and immunosuppressed patients carry large viral loads with little inflammation. Liver damage in HBV infection is therefore a product of the host response."
+    },
+    {
+     "type": "h",
+     "text": "CD8 T cells cause the hepatitis"
+    },
+    {
+     "type": "p",
+     "text": "Infected hepatocytes process viral proteins and display peptides on MHC class I. Virus-specific CD8 cytotoxic T cells recognize them and kill the cells through perforin and granzymes and through Fas ligand, producing apoptotic acidophil bodies and aminotransferase release. The same T cells secrete IFN-gamma and TNF, which suppress viral replication in many hepatocytes without killing them. Anti-HBs neutralizes free virions and limits spread. In acute infection, viral DNA peaks weeks before aminotransferases, because injury begins only when the T cell response arrives."
+    },
+    {
+     "type": "flow",
+     "title": "How the immune response injures the liver in hepatitis B",
+     "steps": [
+      "HBV replicates in hepatocytes without cytopathic effect",
+      "Viral peptides appear on MHC class I",
+      "Virus-specific CD8 T cells recognize infected hepatocytes",
+      "Perforin, granzymes, and Fas ligand cause apoptosis",
+      "Aminotransferases rise; acidophil bodies form",
+      "IFN-gamma and TNF suppress replication noncytolytically"
+     ],
+     "caption": "The strength of the T cell response decides whether infection clears, persists, or becomes fulminant."
+    },
+    {
+     "type": "p",
+     "text": "Outcome depends on the strength of this response. A vigorous, broad response clears the virus, and an excessive one causes fulminant hepatitis. A weak response allows chronic infection, in which exhausted T cells (expressing inhibitory receptors such as PD-1) kill hepatocytes slowly, driving cycles of injury, regeneration, fibrosis, and eventually cirrhosis and hepatocellular carcinoma. About 90% of perinatal infections become chronic, partly because neonatal T cell responses are immature and transplacental HBeAg may promote tolerance, while fewer than 5% of adult infections do. When immunosuppression is withdrawn, T cell recovery can cause a hepatitis flare."
+    },
+    {
+     "type": "h",
+     "text": "Immune complex disease"
+    },
+    {
+     "type": "p",
+     "text": "Infected hepatocytes release HBsAg in large excess as noninfectious subviral particles, so circulating antigen-antibody complexes form with antigen in excess. These small soluble complexes escape clearance by phagocytes, deposit in vessel walls and glomeruli, and activate complement, a type III hypersensitivity reaction. A serum sickness-like prodrome of fever, rash, and arthralgia can precede jaundice in acute infection, and complement levels may fall."
+    },
+    {
+     "type": "table",
+     "title": "Hepatitis B immune complex diseases",
+     "cols": [
+      "Feature",
+      "Polyarteritis nodosa",
+      "Membranous nephropathy"
+     ],
+     "rows": [
+      [
+       "Site of deposits",
+       "Walls of medium-sized muscular arteries",
+       "Subepithelial side of the glomerular basement membrane"
+      ],
+      [
+       "Antigen implicated",
+       "HBsAg complexes",
+       "HBV antigens; HBeAg prominent in many studies"
+      ],
+      [
+       "Mechanism of injury",
+       "Complement and neutrophils cause segmental transmural fibrinoid necrosis",
+       "Membrane attack complex injures podocytes with little leukocyte influx"
+      ],
+      [
+       "Manifestations",
+       "Renal, mesenteric, nerve, and skin infarcts; hypertension; microaneurysms",
+       "Nephrotic syndrome"
+      ],
+      [
+       "Distinguishing points",
+       "Spares lungs; no glomerulonephritis; ANCA negative",
+       "More common in children in endemic regions"
+      ]
+     ],
+     "caption": "Both are type III hypersensitivity, but the location of the deposits determines the lesion."
+    },
+    {
+     "type": "p",
+     "text": "In polyarteritis nodosa, lesions at different stages along an artery reflect repeated waves of deposition, and the lungs and glomerular capillaries are spared because they are not medium-sized muscular arteries. In membranous nephropathy, subepithelial deposits lie beyond the basement membrane, out of reach of circulating leukocytes, so complement injures podocytes and causes heavy proteinuria without much inflammation."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-GAST-11-01-C07",
+   "obj": "GI-11.7",
+   "title": "Hepatitis B vaccine response and serology",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The hepatitis B vaccine contains recombinant HBsAg produced in yeast and adsorbed to an aluminum adjuvant. It contains no viral DNA, no core protein, and nothing that can replicate. The vaccinated person therefore makes anti-HBs, a neutralizing IgG antibody against the surface antigen, but never anti-HBc. Anti-HBc forms only when HBV replicates in hepatocytes and produces core protein, so it marks natural infection, past or present. A level of anti-HBs of at least 10 mIU/mL after the full series is taken as evidence of protection."
+    },
+    {
+     "type": "h",
+     "text": "What each marker means"
+    },
+    {
+     "type": "p",
+     "text": "HBsAg means current infection, acute or chronic, and persistence beyond 6 months defines chronic infection. IgM anti-HBc marks acute infection (and can reappear in flares of chronic disease), while IgG anti-HBc persists for life after any infection. Anti-HBs marks immunity, from either recovery or vaccination. HBeAg indicates active replication and high infectivity, and anti-HBe indicates lower replication. Anti-HBc is not protective, so it signals exposure rather than immunity."
+    },
+    {
+     "type": "table",
+     "title": "Hepatitis B serologic patterns",
+     "cols": [
+      "State",
+      "HBsAg",
+      "Anti-HBc",
+      "Anti-HBs"
+     ],
+     "rows": [
+      [
+       "Susceptible, never infected or vaccinated",
+       "Negative",
+       "Negative",
+       "Negative"
+      ],
+      [
+       "Immune from vaccination",
+       "Negative",
+       "Negative",
+       "Positive"
+      ],
+      [
+       "Immune from resolved infection",
+       "Negative",
+       "Positive (IgG)",
+       "Positive"
+      ],
+      [
+       "Acute infection",
+       "Positive",
+       "Positive (IgM)",
+       "Negative"
+      ],
+      [
+       "Window period",
+       "Negative",
+       "Positive (IgM)",
+       "Negative"
+      ],
+      [
+       "Chronic infection",
+       "Positive for over 6 months",
+       "Positive (IgG)",
+       "Negative"
+      ]
+     ],
+     "caption": "Anti-HBc separates infection from vaccination; anti-HBs alone means vaccine."
+    },
+    {
+     "type": "example",
+     "title": "Reading two serology panels",
+     "text": "Two nurses have positive anti-HBs and negative HBsAg. Nurse A is anti-HBc negative; nurse B is IgG anti-HBc positive. Both are immune, but for different reasons. Nurse A has never been infected, because without core protein replicating in her liver she could not form anti-HBc, so her anti-HBs came from vaccination. Nurse B was infected and recovered: IgG anti-HBc records the past infection, and anti-HBs shows the virus was cleared. If nurse B had instead shown IgM anti-HBc with both HBsAg and anti-HBs negative, she would be in the window period of acute infection, not immune."
+    },
+    {
+     "type": "h",
+     "text": "Exceptions that change interpretation"
+    },
+    {
+     "type": "p",
+     "text": "Anti-HBs falls below detectable levels years after vaccination in many people, but memory B cells persist and a booster or exposure produces a rapid anamnestic rise. HBsAg from the vaccine itself can be detected briefly after a dose. Passively acquired antibody also misleads: hepatitis B immune globulin gives anti-HBs without vaccination, and infants of infected mothers can carry maternal IgG anti-HBc for many months, whereas IgM does not cross the placenta. Isolated anti-HBc may mean resolved infection with waned anti-HBs, the window period, occult infection, or a false positive."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Every disease in this chapter is a failure of the balance described in the first section. Anatomy and histology locate the damage: Peyer patches and Paneth cells explain ileal Crohn disease, parietal cell distribution explains why autoimmune gastritis spares the antrum, and the duodenal site of iron absorption explains iron deficiency in celiac disease. Immunology supplies the effector: CD4 Th1 and CD8 T cells in celiac disease, Th1 and Th17 cells in Crohn disease, T cell attack with marker autoantibodies in the autoimmune diseases, CD8 cytotoxicity and immune complexes in hepatitis B, and T cell help that sustains early MALT lymphoma."
+  },
+  {
+   "type": "p",
+   "text": "Microbiology and pathology meet where host response decides the lesion: commensals in Crohn disease, H. pylori in MALT lymphoma, and HBV, whose injury tracks the T cell response rather than viral load. Laboratory findings follow the target, with tTG antibodies for celiac disease, a hepatocellular pattern in autoimmune hepatitis, a cholestatic pattern in primary biliary cholangitis, and anti-HBc as the record of true infection. Two limits matter: IgA-based tests fail in IgA deficiency, and susceptibility genes such as HLA-DQ2 and NOD2 raise risk without determining disease."
+  }
+ ],
+ "summary": [
+  "M cells over Peyer patches sample antigen; TGF-beta and retinoic acid switch B cells to IgA, and pIgR transports dimeric IgA, leaving secretory component attached.",
+  "Secretory IgA excludes microbes without inflammation; oral tolerance relies on regulatory T cells, anergy, and deletion.",
+  "Selective IgA deficiency is the most common primary immunodeficiency; secretory IgM compensates, and anti-IgA antibodies can cause transfusion anaphylaxis.",
+  "In celiac disease, tTG deamidates gliadin so HLA-DQ2 or DQ8 presents it; CD4 Th1 cells and IL-15-activated intraepithelial CD8 T cells flatten villi.",
+  "IgA anti-tTG and anti-endomysial antibodies arise through gliadin-specific T cell help to tTG-specific B cells; check total IgA.",
+  "Defective NOD2 lets commensals persist, driving IL-12 and IL-23, Th1 and Th17 responses, transmural inflammation, and noncaseating granulomas in Crohn disease.",
+  "Autoimmune gastritis targets the H+/K+-ATPase and intrinsic factor; autoimmune hepatitis has ANA and anti-smooth muscle (type 1) or anti-LKM1 (type 2); PBC has AMA against PDC-E2.",
+  "Early gastric MALT lymphoma depends on H. pylori-specific T cell help and can regress after eradication; t(11;18) makes it independent.",
+  "HBV is not cytopathic; CD8 T cells cause hepatocyte injury, and HBV antigen immune complexes cause polyarteritis nodosa and membranous nephropathy.",
+  "The vaccine is HBsAg only, so anti-HBs alone means vaccination and anti-HBs with anti-HBc means recovery from infection."
+ ],
+ "sources": [
+  {
+   "book": "Abbas, Cellular and Molecular Immunology",
+   "where": "Specialized immunity at epithelial barriers: immunity in the gastrointestinal system"
+  },
+  {
+   "book": "Abbas, Cellular and Molecular Immunology",
+   "where": "Immunologic tolerance and autoimmunity; primary immunodeficiencies"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "The Gastrointestinal Tract: celiac disease, inflammatory bowel disease, gastritis, and gastric lymphoma"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Liver and Gallbladder: viral hepatitis, autoimmune hepatitis, and primary biliary cholangitis"
+  },
+  {
+   "book": "Jawetz, Melnick, and Adelberg Medical Microbiology",
+   "where": "Hepatitis viruses"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Gastrointestinal and liver disease"
+  }
+ ],
+ "verify": [
+  "Serum IgA cutoff for selective IgA deficiency (below 7 mg/dL here) and the age criterion vary between sources.",
+  "The frequency of selective IgA deficiency among celiac patients (stated as about 10 times the general population) varies by study.",
+  "The share of celiac patients carrying DQ2 (about 90% to 95%) and of the general population carrying DQ2 (about a third of Europeans) varies by population.",
+  "The fraction of Crohn resection specimens with granulomas is quoted at about 35% in Robbins and differently elsewhere; this chapter says roughly a third.",
+  "AMA positivity in PBC is given as about 90% to 95% across sources.",
+  "Regression rates of localized H. pylori-positive gastric MALT lymphoma after eradication (often quoted as about 60% to 80%) are not stated as a number here; confirm whether NABNE expects a figure.",
+  "The competency names HBsAg immune complexes for both diseases; much of the literature implicates HBeAg as the main deposited antigen in HBV membranous nephropathy, so this chapter says HBV antigens with HBeAg prominent.",
+  "The duration of transient HBsAg detection after vaccination and of maternal anti-HBc persistence in infants (often quoted up to about 18 to 24 months) vary by source.",
+  "Anti-LKM1 can also occur in some patients with chronic hepatitis C; confirm whether NABNE tests this overlap.",
+  "Confirm whether NABNE uses the name primary biliary cirrhosis or primary biliary cholangitis."
+ ]
+}

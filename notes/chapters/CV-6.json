@@ -1,0 +1,698 @@
+{
+ "unit": "CV-6",
+ "chapter_id": "NPLEX-P1-CARD-06",
+ "topic_id": "NPLEX-P1-CARD-06-01",
+ "title": "Cardiac Output and Its Regulation",
+ "subject": "Cardiovascular System (CARD)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter explains how cardiac output and arterial pressure are kept matched to the body's needs. It covers the equations linking cardiac output, stroke volume, ejection fraction, arterial pressure, and O2 consumption; the three controls of stroke volume; how the heart and the venous system jointly set output; the law of Laplace and myocardial O2 demand; the baroreceptor reflex; hormonal control of blood volume; and orthostatic hypotension. Most board questions here are predictions or calculations: a change is given, such as a hemorrhage, a stiffer aorta, or a patient who stands up, and you must say which way each variable moves. Name what the change acts on first, then follow the chain of consequences.",
+  "prerequisites": [
+   "The cardiac cycle and the left ventricular pressure-volume loop (CV-4)",
+   "The cardiac length-tension relationship and beta-1 adrenergic signaling in myocytes (CV-5)",
+   "Autonomic control of the SA and AV nodes (CV-7)",
+   "Flow equals pressure gradient divided by resistance, and vascular compliance (CV-11)",
+   "Oxygen content of blood: hemoglobin binding capacity, saturation, and dissolved O2"
+  ],
+  "connections": [
+   {
+    "to": "Heart valves and the cardiac cycle (CV-4)",
+    "how": "Every change in preload, afterload, or contractility in this chapter appears as a predictable change in the shape and position of the pressure-volume loop."
+   },
+   {
+    "to": "Cardiac muscle contraction (CV-5)",
+    "how": "The Frank-Starling mechanism and inotropy are the organ-level expression of sarcomere length-dependent activation and myocyte Ca2+ handling."
+   },
+   {
+    "to": "Hemodynamics and blood flow regulation (CV-11)",
+    "how": "Mean arterial pressure equals cardiac output times total peripheral resistance, which is the circulation-wide form of the flow equation."
+   },
+   {
+    "to": "Hypertensive heart disease and heart failure (CV-18-A, CV-18-B)",
+    "how": "Laplace's law explains concentric and eccentric remodeling, and chronic activation of the renin-angiotensin-aldosterone system and ADH drives fluid retention in heart failure."
+   },
+   {
+    "to": "Renal and endocrine physiology",
+    "how": "Renin, aldosterone, ADH, and the natriuretic peptides act on the nephron to set blood volume, which is the long-term determinant of arterial pressure."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Cardiac output (CO)",
+    "def": "The volume of blood pumped by each ventricle per minute, equal to stroke volume times heart rate."
+   },
+   {
+    "term": "Stroke volume (SV)",
+    "def": "The volume ejected by a ventricle in one beat, equal to end-diastolic volume minus end-systolic volume."
+   },
+   {
+    "term": "Ejection fraction (EF)",
+    "def": "The fraction of end-diastolic volume ejected in one beat, stroke volume divided by end-diastolic volume."
+   },
+   {
+    "term": "Fick principle",
+    "def": "The statement that O2 uptake by the body equals blood flow through the lungs times the arteriovenous O2 content difference."
+   },
+   {
+    "term": "Preload",
+    "def": "The load that stretches ventricular muscle before contraction, best represented by end-diastolic volume."
+   },
+   {
+    "term": "Afterload",
+    "def": "The load the ventricle must overcome to eject blood, best represented by systolic wall stress and approximated by aortic pressure."
+   },
+   {
+    "term": "Contractility (inotropy)",
+    "def": "The intrinsic strength of contraction at a given preload and afterload, set mainly by myocyte Ca2+ handling."
+   },
+   {
+    "term": "Frank-Starling mechanism",
+    "def": "The intrinsic property of the heart whereby greater end-diastolic filling produces a stronger contraction and a larger stroke volume."
+   },
+   {
+    "term": "Mean systemic filling pressure",
+    "def": "The pressure that would exist throughout the systemic circulation if the heart stopped and pressures equalized, about 7 mmHg normally."
+   },
+   {
+    "term": "Wall stress",
+    "def": "The force per unit cross-sectional area of the ventricular wall, which by the law of Laplace rises with pressure and radius and falls with wall thickness."
+   },
+   {
+    "term": "Baroreceptor",
+    "def": "A stretch-sensitive nerve ending in the wall of the carotid sinus or aortic arch whose firing rate rises with arterial pressure."
+   },
+   {
+    "term": "Orthostatic hypotension",
+    "def": "A sustained fall in systolic pressure of at least 20 mmHg or diastolic pressure of at least 10 mmHg within 3 minutes of standing."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-CARD-06-01-C01",
+   "obj": "CV-6.1",
+   "title": "Calculating cardiac output, ejection fraction, mean arterial pressure, and Fick output",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Cardiac output (CO) is the volume of blood each ventricle pumps per minute. Because the two ventricles are in series, their outputs are equal over any period longer than a few beats. Resting CO is about 5 L/min; normalized to body surface area as the cardiac index, it is about 2.5 to 4 L/min per square meter."
+    },
+    {
+     "type": "p",
+     "text": "Stroke volume (SV) is end-diastolic volume minus end-systolic volume. A resting left ventricle fills to an EDV of about 120 mL and empties to an ESV of about 50 mL, ejecting about 70 mL, so at 72 bpm CO is about 5 L/min. Ejection fraction (EF) is SV divided by EDV and is normally about 55 to 70%. EF partly corrects for chamber size: a dilated, weak ventricle can keep a near-normal SV by filling to a very large EDV, but its EF is low. EF is not a pure index of contractility, because it also falls when afterload rises (C02)."
+    },
+    {
+     "type": "p",
+     "text": "Applying the flow equation to the systemic circulation gives CO = (MAP - RAP) / TPR, where MAP is mean arterial pressure, RAP is right atrial pressure, and TPR is total peripheral resistance. With RAP near 0 mmHg this becomes MAP = CO x TPR, which is why a fall in output must be offset by a rise in resistance if pressure is to hold, the job of the baroreceptor reflex (C05). At resting heart rates diastole fills about two thirds of the cycle, so MAP is about diastolic pressure plus one third of the pulse pressure: 120/80 mmHg gives about 93 mmHg. At fast rates diastole shortens more than systole, and this rule underestimates MAP. Normal TPR is about 18 mmHg per L/min, and MAP is normally about 70 to 100 mmHg."
+    },
+    {
+     "type": "h",
+     "text": "The Fick principle"
+    },
+    {
+     "type": "p",
+     "text": "The Fick principle is conservation of mass applied to O2. All the O2 the body consumes (VO2) must be loaded into blood flowing through the lungs, and pulmonary blood flow equals CO, so CO = VO2 / (CaO2 - CvO2). VO2 comes from expired gas analysis and is about 250 mL/min at rest. Arterial O2 content (CaO2) can be sampled from any systemic artery, but mixed venous content (CvO2) must come from the pulmonary artery, because venous blood from different organs differs widely (coronary sinus blood is far more desaturated than renal venous blood). O2 content is (1.34 x hemoglobin in g/dL x fractional saturation) + (0.003 x PO2 in mmHg), in mL O2 per dL; dissolved O2 adds only about 0.3 mL/dL. Multiply by 10 to express content per liter."
+    },
+    {
+     "type": "p",
+     "text": "Read in reverse, the equation explains a key compensation. If CO falls while VO2 is unchanged, tissues extract more O2 from each liter of blood, so the arteriovenous O2 difference widens and mixed venous saturation falls. A low mixed venous saturation therefore signals that delivery is inadequate for demand. The same principle applied to one organ's O2 uptake and arteriovenous difference gives that organ's blood flow."
+    },
+    {
+     "type": "example",
+     "title": "Calculating output by two routes",
+     "text": "A resting patient has HR 75 bpm, EDV 140 mL, and ESV 60 mL, so SV is 80 mL, CO is 6.0 L/min, and EF is about 57%. To check by Fick: VO2 is 300 mL/min, hemoglobin 15 g/dL, arterial saturation 98% (PO2 95 mmHg), and pulmonary artery saturation 73% (PO2 40 mmHg). CaO2 = (1.34 x 15 x 0.98) + (0.003 x 95) = 20.0 mL/dL. CvO2 = (1.34 x 15 x 0.73) + (0.003 x 40) = 14.8 mL/dL. The difference, 5.2 mL/dL, equals 52 mL O2 per L of blood, so CO = 300 / 52 = 5.8 L/min, close to the volumetric value. Skipping the dL to L conversion gives an answer ten times off."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-06-01-C02",
+   "obj": "CV-6.2",
+   "title": "Preload, afterload, contractility, and the Frank-Starling curve",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Stroke volume has three determinants. Preload sets how far the muscle is stretched before it contracts, afterload sets how hard it must push to eject, and contractility sets how strongly it contracts at a given preload and afterload. For a prediction question, decide which one a change acts on first, then follow EDV and ESV, since SV is their difference."
+    },
+    {
+     "type": "h",
+     "text": "Preload and the Frank-Starling mechanism"
+    },
+    {
+     "type": "p",
+     "text": "Preload is strictly end-diastolic wall stress; EDV is its practical index. End-diastolic pressure (estimated for the left ventricle by pulmonary capillary wedge pressure) tracks volume only when compliance is normal, so a stiff ventricle can show high filling pressure at a normal EDV."
+    },
+    {
+     "type": "p",
+     "text": "Within physiologic limits, the more the heart fills, the more it ejects (the Frank-Starling mechanism); the curve of SV against EDV rises steeply and then flattens. Its basis is length-dependent activation (CV-5): stretch toward an optimal sarcomere length of about 2.2 micrometers improves filament overlap and, more importantly, raises the Ca2+ sensitivity of troponin C, so the same Ca2+ transient produces more force. More filling raises SV with ESV about unchanged. The normal heart works on the ascending limb, where stiff myocardium and the pericardium resist overstretch. The mechanism also keeps right and left outputs matched beat to beat."
+    },
+    {
+     "type": "h",
+     "text": "Afterload"
+    },
+    {
+     "type": "p",
+     "text": "Afterload is systolic wall stress (C04), approximated for the left ventricle by aortic pressure, because the ventricle must exceed aortic diastolic pressure to open the aortic valve. It rises with hypertension, aortic stenosis, a stiff aorta, and a dilated chamber; right ventricular afterload is pulmonary arterial pressure. Higher afterload means more of each contraction is spent building pressure, so ESV rises and SV and EF fall. Over the next beats the residual blood adds to normal filling, EDV rises, and the Frank-Starling mechanism restores much of the lost SV at a higher filling pressure."
+    },
+    {
+     "type": "h",
+     "text": "Contractility"
+    },
+    {
+     "type": "p",
+     "text": "Contractility (inotropy) is the strength of contraction at fixed preload and afterload, set by myofilament Ca2+ delivery and responsiveness. On the pressure-volume loop it is the slope of the end-systolic pressure-volume relationship (ESPVR). An inotropic change shifts the whole Frank-Starling curve, giving a different SV at the same EDV. Contractility rises with beta-1 stimulation (protein kinase A phosphorylates L-type Ca2+ channels and phospholamban), with faster heart rate (the force-frequency or Bowditch effect), and with Na+/K+-ATPase inhibition by cardiac glycosides, which slows Ca2+ removal by the Na+/Ca2+ exchanger and loads the SR. It falls with ischemia and hypoxia (less ATP), acidosis (H+ competes with Ca2+ for troponin C), loss of muscle, and beta-1 or L-type Ca2+ channel blockade."
+    },
+    {
+     "type": "table",
+     "title": "Predicting the effect of each primary change on the left ventricle",
+     "cols": [
+      "Primary change",
+      "EDV",
+      "ESV",
+      "SV and EF",
+      "Frank-Starling curve",
+      "Pressure-volume loop"
+     ],
+     "rows": [
+      [
+       "Increased preload",
+       "Up",
+       "About the same",
+       "SV up; EF slightly up",
+       "Moves up the same curve",
+       "Loop widens to the right"
+      ],
+      [
+       "Increased afterload",
+       "Same, then up",
+       "Up",
+       "Both down",
+       "Shifts down and right",
+       "Taller and narrower; ESV point moves right on the same ESPVR"
+      ],
+      [
+       "Increased contractility",
+       "Same, then slightly down",
+       "Down",
+       "Both up",
+       "Shifts up and left",
+       "Steeper ESPVR; loop widens to the left"
+      ]
+     ],
+     "caption": "Preload acts through EDV; afterload and contractility act through ESV. Loop width is SV. Decreases mirror these rows."
+    },
+    {
+     "type": "p",
+     "text": "Faster rates raise CO, but extra beats come mostly out of diastole, so at very high rates EDV, SV, and then CO fall. Sympathetic lusitropy (faster relaxation) and inotropy raise this limit in exercise, while a stiff ventricle that depends on atrial contraction loses output at lower rates."
+    },
+    {
+     "type": "stop",
+     "predict": "Aortic pressure rises suddenly with venous return and contractility unchanged. What happens to EDV over several beats, and why does SV partly recover?",
+     "explain": "ESV rises, normal filling adds to the larger residual volume, and EDV increases; the Frank-Starling mechanism then restores much of the lost SV at a higher filling pressure.",
+     "check": "Compare with the afterload paragraph and the increased afterload row of the table."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-06-01-C03",
+   "obj": "CV-6.3",
+   "title": "Cardiac function and venous return curves",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The heart can pump only what returns to it. Guyton's method plots the cardiac function curve and the venous return curve on the same axes, with right atrial pressure (RAP) on the horizontal axis and flow on the vertical axis. In the steady state CO equals venous return, so the operating point is where the two curves cross."
+    },
+    {
+     "type": "p",
+     "text": "The cardiac function curve is the Frank-Starling curve with RAP as the measure of filling: CO rises steeply with RAP and then plateaus. Positive inotropy shifts it up and to the left. Negative inotropy, as after myocardial infarction, or increased afterload shifts it down and to the right."
+    },
+    {
+     "type": "h",
+     "text": "The venous return curve"
+    },
+    {
+     "type": "p",
+     "text": "Venous return = (MSFP - RAP) / RVR. Mean systemic filling pressure (MSFP), about 7 mmHg, is the pressure that would exist throughout the systemic circulation if the heart stopped and pressures equalized; RVR is the resistance to venous return, most of which lies in the veins. The curve meets the horizontal axis where RAP equals MSFP and flow is zero, rises with a slope of 1/RVR as RAP falls, and plateaus once RAP falls below atmospheric pressure, because the large veins entering the thorax collapse."
+    },
+    {
+     "type": "p",
+     "text": "MSFP depends on blood volume relative to vascular capacity, chiefly the veins, which hold about two thirds of the blood. Only stressed volume, the blood above what fills the vessels without stretching them, generates pressure. Transfusion raises MSFP, and so does venoconstriction, which converts unstressed volume into stressed volume; hemorrhage and venodilation lower it. A change in MSFP shifts the curve parallel to itself, while a change in resistance rotates it about the same x-intercept. In the standard analysis, arteriolar constriction raises TPR, rotates the venous return curve downward, and adds afterload that shifts the cardiac function curve down; arteriolar dilation does the reverse."
+    },
+    {
+     "type": "table",
+     "title": "New operating point after common perturbations",
+     "cols": [
+      "Change",
+      "Curve affected and how",
+      "Cardiac output",
+      "Right atrial pressure"
+     ],
+     "rows": [
+      [
+       "Hemorrhage",
+       "Venous return curve shifts left (MSFP falls)",
+       "Down",
+       "Down"
+      ],
+      [
+       "Volume infusion or venoconstriction",
+       "Venous return curve shifts right (MSFP rises)",
+       "Up",
+       "Up"
+      ],
+      [
+       "Increased contractility",
+       "Cardiac function curve shifts up and left",
+       "Up",
+       "Down"
+      ],
+      [
+       "Decreased contractility (heart failure)",
+       "Cardiac function curve shifts down and right",
+       "Down",
+       "Up"
+      ],
+      [
+       "Increased TPR (arteriolar constriction)",
+       "Venous return curve rotates down; cardiac function curve shifts down",
+       "Down",
+       "About unchanged"
+      ],
+      [
+       "Decreased TPR (exercising muscle, AV fistula)",
+       "Venous return curve rotates up; cardiac function curve shifts up",
+       "Up",
+       "About unchanged"
+      ]
+     ],
+     "caption": "Volume and venous tone act on MSFP and move CO and RAP in the same direction. Contractility moves them in opposite directions. TPR moves both curves together, so CO changes while RAP stays about the same."
+    },
+    {
+     "type": "p",
+     "text": "The direction of RAP is the most useful clue. When CO and RAP change in the same direction, the primary problem is vascular (volume or venous tone); when they change in opposite directions, it is in the heart. A low CO with a high RAP points to pump failure, and a low CO with a low RAP points to inadequate filling."
+    },
+    {
+     "type": "flow",
+     "title": "Hemorrhage on the cardiac function and venous return diagram",
+     "steps": [
+      "Blood loss reduces stressed volume",
+      "MSFP falls; venous return curve shifts left",
+      "New intersection at lower RAP and lower CO",
+      "Lower MAP reduces baroreceptor firing",
+      "Sympathetic venoconstriction raises MSFP toward normal",
+      "Sympathetic inotropy shifts the cardiac function curve up",
+      "CO partly recovers while RAP stays low"
+     ],
+     "caption": "A vascular shift, partly corrected by reflex venoconstriction and inotropy."
+    },
+    {
+     "type": "stop",
+     "predict": "A patient with an acute anterior infarction has a low cardiac output. Over the next days the kidneys retain salt and water. Show on the curves what the retention does to CO and RAP.",
+     "explain": "The infarct shifts the cardiac function curve down (low CO, high RAP). Retention raises MSFP and shifts the venous return curve right, so CO improves somewhat but RAP rises further, supporting output at the cost of venous congestion and edema.",
+     "check": "Compare with the operating point table."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-06-01-C04",
+   "obj": "CV-6.4",
+   "title": "Law of Laplace, ventricular remodeling, and myocardial O2 demand",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The law of Laplace, in the form used for a thick-walled chamber, gives wall stress = (P x r) / (2 x h), where P is intraventricular pressure, r is chamber radius, and h is wall thickness. Wall stress is the force each unit of wall must develop. In systole it is the afterload (C02) and a major determinant of myocardial O2 demand. Higher pressure or a larger radius raises stress, so a dilated ventricle must develop more force per unit of wall to produce the same pressure; a thicker wall lowers stress by sharing the load among more muscle."
+    },
+    {
+     "type": "h",
+     "text": "Remodeling under chronic overload"
+    },
+    {
+     "type": "p",
+     "text": "In pressure overload, as in hypertension or aortic stenosis, systolic wall stress rises. The sustained load, aided by angiotensin II and catecholamines, makes myocytes add sarcomeres in parallel, so the wall thickens with a normal or small cavity (concentric hypertrophy). The larger h returns systolic stress toward normal; for example, raising systolic pressure from 120 to 200 mmHg increases stress by about two thirds, and thickening the wall from 1.0 to about 1.7 cm restores it. The cost is a stiff chamber that needs a high filling pressure (diastolic dysfunction, S4), and capillary growth that lags myocyte growth, so the subendocardium becomes vulnerable to ischemia even with normal coronary arteries."
+    },
+    {
+     "type": "p",
+     "text": "In volume overload, as in aortic or mitral regurgitation, raised diastolic wall stress makes myocytes add sarcomeres in series, so the chamber enlarges (eccentric hypertrophy). The wall thickens enough to keep the thickness to radius ratio about normal, holding stress near normal while the chamber delivers a large SV. When a failing heart dilates further, as in dilated cardiomyopathy or after a large infarction, radius grows without matching thickness, so wall stress and the O2 cost of every beat rise in muscle that is already weakened."
+    },
+    {
+     "type": "table",
+     "title": "Concentric versus eccentric remodeling",
+     "cols": [
+      "Feature",
+      "Concentric hypertrophy",
+      "Eccentric hypertrophy and dilation"
+     ],
+     "rows": [
+      [
+       "Typical cause",
+       "Pressure overload: hypertension, aortic stenosis",
+       "Volume overload: aortic or mitral regurgitation; failing dilated ventricle"
+      ],
+      [
+       "Signal",
+       "Raised systolic wall stress",
+       "Raised diastolic wall stress"
+      ],
+      [
+       "Sarcomere addition",
+       "In parallel (wider cells)",
+       "In series (longer cells)"
+      ],
+      [
+       "Thickness to radius ratio",
+       "Increased",
+       "About normal when compensated; decreased in decompensated dilation"
+      ],
+      [
+       "Wall stress",
+       "Returns toward normal",
+       "Near normal when compensated; rises as the chamber dilates"
+      ],
+      [
+       "Typical consequence",
+       "Stiff chamber, diastolic dysfunction, S4",
+       "Large SV when compensated; systolic dysfunction, S3 when decompensated"
+      ]
+     ],
+     "caption": "Both patterns attempt to restore normal wall stress; they differ in whether the overload acts in systole or diastole."
+    },
+    {
+     "type": "h",
+     "text": "Determinants of myocardial O2 demand"
+    },
+    {
+     "type": "p",
+     "text": "Myocardial O2 demand is set mainly by heart rate (the number of tension-generating cycles per minute), contractility (ATP used in Ca2+ cycling and cross-bridge activity), and systolic wall stress. Developing pressure costs far more O2 than ejecting volume, so pressure work is much more expensive than volume work. The rate-pressure (double) product, heart rate times systolic pressure, is a simple index of demand."
+    },
+    {
+     "type": "p",
+     "text": "The heart already extracts about 70 to 75% of the O2 delivered to it at rest, so increased demand must be met almost entirely by increased coronary flow (CV-8), and most left ventricular flow occurs in diastole. Tachycardia is therefore doubly harmful with a fixed coronary stenosis: it raises demand and shortens the diastolic time available for supply."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-06-01-C05",
+   "obj": "CV-6.5",
+   "title": "The baroreceptor reflex",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The arterial baroreceptor reflex is a negative feedback loop that buffers arterial pressure within seconds."
+    },
+    {
+     "type": "h",
+     "text": "Sensors and afferent pathways"
+    },
+    {
+     "type": "p",
+     "text": "Baroreceptors are stretch-sensitive endings in the adventitia of the carotid sinus, a dilation at the origin of the internal carotid artery, and of the aortic arch. Carotid sinus afferents run in the carotid sinus nerve (nerve of Hering) to the glossopharyngeal nerve (CN IX); aortic arch afferents run in the vagus (CN X). Both end in the nucleus tractus solitarius (NTS) of the dorsal medulla. Carotid receptors are nearly silent below about 50 to 60 mmHg and fire maximally near 180 mmHg, with the steepest response around normal MAP; aortic receptors operate about 30 mmHg higher. Firing also rises with the rate of pressure change. Because the receptors reset within 1 to 2 days, the reflex corrects short-term changes but does not set long-term pressure, which depends on renal control of volume (C06)."
+    },
+    {
+     "type": "h",
+     "text": "Central integration and effectors"
+    },
+    {
+     "type": "p",
+     "text": "Afferents release glutamate onto NTS neurons. The NTS excites vagal preganglionic neurons in the nucleus ambiguus and dorsal motor nucleus of the vagus and, through the caudal ventrolateral medulla, inhibits the sympathetic premotor neurons of the rostral ventrolateral medulla (RVLM) that drive the intermediolateral cell column. A rise in pressure therefore raises vagal and lowers sympathetic output, and a fall does the opposite. The effectors are the SA node, the AV node, the ventricular myocardium (sympathetic only; the vagus has little direct effect on ventricular force), arterioles (alpha-1), veins (venous tone and MSFP), the adrenal medulla, and juxtaglomerular cells (renin through beta-1). Nodal ion channel mechanisms are in CV-7."
+    },
+    {
+     "type": "cycle",
+     "title": "Baroreceptor reflex response to a fall in arterial pressure",
+     "steps": [
+      "Arterial pressure falls",
+      "Carotid sinus and aortic arch stretch decreases",
+      "Afferent firing in CN IX and CN X to the NTS falls",
+      "Vagal output falls; RVLM sympathetic output rises",
+      "Heart rate, contractility, arteriolar resistance, and venous tone rise",
+      "CO and TPR rise; MAP returns toward its set point"
+     ],
+     "caption": "The response opposes the original change, and rising pressure restores baroreceptor firing. A rise in pressure runs the loop in reverse."
+    },
+    {
+     "type": "h",
+     "text": "Predicting the response"
+    },
+    {
+     "type": "p",
+     "text": "On standing, roughly half a liter of blood pools in the legs and pelvis. Reduced firing raises heart rate by about 10 to 20 bpm and constricts arterioles and veins, restoring MAP within about a minute with systolic pressure slightly lower and diastolic pressure slightly higher (C07). After hemorrhage the same reflex causes tachycardia, venoconstriction, and arteriolar constriction concentrated in skin, gut, and kidney, which explains cool pale skin, low urine output, and a narrow pulse pressure; a loss of about 10% of blood volume barely changes arterial pressure. Below a MAP of about 80 mmHg peripheral chemoreceptors add sympathetic drive, and below about 60 mmHg the brainstem ischemic response produces an intense sympathetic discharge."
+    },
+    {
+     "type": "p",
+     "text": "Carotid sinus massage stretches the receptors as if pressure had risen, so vagal output rises and sympathetic output falls: the SA node slows, AV nodal conduction lengthens, and arterioles dilate. Slowed AV nodal conduction explains why carotid pressure can interrupt a tachycardia whose circuit runs through the AV node, and carotid sinus hypersensitivity in older adults can cause bradycardia and syncope from a tight collar or head turning. A drug that raises pressure by alpha-1 vasoconstriction likewise causes reflex bradycardia. Atrial and pulmonary low-pressure receptors sense volume rather than arterial pressure and, mainly through the vagus, adjust heart rate, renal sympathetic activity, and ADH release, linking this reflex to C06."
+    },
+    {
+     "type": "stop",
+     "predict": "A drug causes pure arteriolar vasodilation and MAP falls. Predict heart rate, contractility, and plasma renin activity.",
+     "explain": "Lower MAP reduces baroreceptor firing, so vagal tone falls and sympathetic output rises. Heart rate and contractility increase (reflex tachycardia), and beta-1 stimulation of juxtaglomerular cells, together with lower renal perfusion pressure, raises renin release.",
+     "check": "Compare with the effectors and the reflex cycle."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-06-01-C06",
+   "obj": "CV-6.6",
+   "title": "Hormonal control of blood volume and pressure",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Over hours to days, arterial pressure is set mainly by blood volume. Body Na+ content largely determines extracellular and plasma volume, while water balance determines osmolality. The renin-angiotensin-aldosterone system (RAAS) and antidiuretic hormone (ADH) defend volume and pressure, and the natriuretic peptides oppose expansion."
+    },
+    {
+     "type": "h",
+     "text": "The renin-angiotensin-aldosterone system"
+    },
+    {
+     "type": "p",
+     "text": "Juxtaglomerular cells of the afferent arteriole release renin in response to low renal perfusion pressure (less arteriolar stretch), low macula densa NaCl delivery, and beta-1 stimulation; angiotensin II and ANP inhibit release. Renin cleaves hepatic angiotensinogen to angiotensin I, the rate-limiting step, and angiotensin-converting enzyme (ACE), most abundant on pulmonary capillary endothelium, forms angiotensin II. ACE also inactivates the vasodilator bradykinin. Angiotensin II constricts the efferent arteriole more than the afferent, preserving filtration pressure when renal perfusion is low, and chronically promotes cardiac and vascular hypertrophy and fibrosis."
+    },
+    {
+     "type": "p",
+     "text": "Aldosterone enters principal cells of the late distal tubule and collecting duct and binds the intracellular mineralocorticoid receptor, increasing transcription of apical epithelial Na+ channels (ENaC) and basolateral Na+/K+-ATPase. Na+ reabsorption rises, the lumen-negative potential drives K+ secretion, and intercalated cells secrete more H+. Because it acts through new protein synthesis, its effect takes hours."
+    },
+    {
+     "type": "flow",
+     "title": "Renin-angiotensin-aldosterone response to low renal perfusion",
+     "steps": [
+      "Low perfusion pressure, low macula densa NaCl, or beta-1 input",
+      "Juxtaglomerular cells release renin",
+      "Renin cleaves angiotensinogen to angiotensin I",
+      "Pulmonary ACE forms angiotensin II",
+      "Arteriolar constriction, proximal Na+ reabsorption, thirst, ADH",
+      "Aldosterone increases ENaC and Na+/K+-ATPase in principal cells",
+      "Na+ and water retention raise volume and pressure"
+     ],
+     "caption": "Restored pressure and volume remove the stimulus for renin release."
+    },
+    {
+     "type": "h",
+     "text": "ADH and the natriuretic peptides"
+    },
+    {
+     "type": "p",
+     "text": "ADH (vasopressin) is released mainly in response to a rise in plasma osmolality (normal about 285 to 295 mOsm/kg), which anterior hypothalamic osmoreceptors detect at changes of about 1%. A fall in volume or pressure needs a larger change (on the order of 10% or more) but then produces levels high enough for V1 vasoconstriction. Angiotensin II, nausea, and pain increase release; atrial stretch inhibits it. Through V2 receptors and cAMP, ADH inserts collecting duct aquaporin-2 channels and raises inner medullary urea permeability. Because ADH retains water rather than Na+, its main job is correcting osmolality."
+    },
+    {
+     "type": "p",
+     "text": "The natriuretic peptides oppose the RAAS and ADH. They dilate the afferent and constrict the efferent arteriole, raising GFR; inhibit collecting duct Na+ reabsorption; inhibit renin, aldosterone, and ADH; relax vascular smooth muscle; and increase capillary permeability. In heart failure their levels are high but the renal response is blunted, so they cannot overcome RAAS and sympathetic drive."
+    },
+    {
+     "type": "table",
+     "title": "Hormonal regulators of volume and pressure",
+     "cols": [
+      "Hormone",
+      "Source",
+      "Main stimulus",
+      "Receptor and messenger",
+      "Main actions"
+     ],
+     "rows": [
+      [
+       "Angiotensin II",
+       "Formed from angiotensin I by ACE",
+       "Renin release",
+       "AT1, Gq",
+       "Arteriolar and efferent constriction, proximal Na+/H+ exchange, aldosterone, ADH, thirst, norepinephrine release"
+      ],
+      [
+       "Aldosterone",
+       "Zona glomerulosa",
+       "Angiotensin II; high plasma K+",
+       "Intracellular mineralocorticoid receptor, gene transcription",
+       "ENaC and Na+/K+-ATPase up; Na+ reabsorption, K+ and H+ secretion"
+      ],
+      [
+       "ADH (vasopressin)",
+       "Supraoptic and paraventricular nuclei; posterior pituitary",
+       "High osmolality; large fall in volume or pressure",
+       "V2, Gs, cAMP (kidney); V1, Gq (vessels)",
+       "Aquaporin-2 insertion and water reabsorption; vasoconstriction at high levels"
+      ],
+      [
+       "ANP",
+       "Atrial myocytes",
+       "Atrial stretch",
+       "NPR-A guanylyl cyclase, cGMP",
+       "Natriuresis, raised GFR, vasodilation; inhibits renin, aldosterone, ADH"
+      ],
+      [
+       "BNP",
+       "Mainly ventricular myocytes",
+       "Ventricular stretch and wall stress",
+       "NPR-A guanylyl cyclase, cGMP",
+       "Same as ANP; BNP and inactive NT-proBNP mark ventricular strain"
+      ]
+     ],
+     "caption": "Angiotensin II, aldosterone, and ADH conserve volume; the natriuretic peptides discard it."
+    },
+    {
+     "type": "p",
+     "text": "The baroreceptor reflex acts in seconds, angiotensin II in minutes, and aldosterone over hours to days. Long-term control rests on renal pressure natriuresis, in which higher pressure increases Na+ and water excretion until volume and pressure return to the level the kidney defends. In primary hyperaldosteronism, Na+ retention raises pressure, but within days the higher pressure and ANP increase excretion enough to halt expansion (aldosterone escape), so hypertension and hypokalemia occur without edema."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-CARD-06-01-C07",
+   "obj": "CV-6.7",
+   "title": "Orthostatic hypotension",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Orthostatic hypotension is a sustained fall in systolic pressure of at least 20 mmHg, or diastolic pressure of at least 10 mmHg, within 3 minutes of standing or head-up tilt to at least 60 degrees. It is a sign that the normal response to standing has failed."
+    },
+    {
+     "type": "h",
+     "text": "Why standing threatens arterial pressure"
+    },
+    {
+     "type": "p",
+     "text": "Standing raises foot venous pressure to about 90 mmHg in a motionless adult. Roughly half a liter of blood pools in the leg and pelvic veins within seconds and plasma filters into the leg interstitium over minutes, so venous return, SV, CO, and MAP fall. Normally the baroreceptor reflex (C05) raises heart rate by about 10 to 20 bpm and constricts splanchnic and muscle arterioles and veins, the skeletal muscle pump drives blood upward past venous valves, and renin and ADH add support over minutes. Symptoms of failure appear once MAP at head level falls below the lower limit of cerebral autoregulation (about 60 mmHg): lightheadedness, blurred vision, weakness, cognitive slowing, and syncope, with a coat-hanger ache of the neck and shoulders in neurogenic forms."
+    },
+    {
+     "type": "h",
+     "text": "Mechanisms"
+    },
+    {
+     "type": "p",
+     "text": "Volume depletion (hemorrhage, vomiting, diarrhea, diuresis, burns) lowers MSFP before the person stands. Adrenal insufficiency does the same by a hormonal route: aldosterone loss causes renal Na+ wasting, and cortisol loss reduces vascular responsiveness to catecholamines. With the reflex intact, heart rate rises vigorously, often 30 bpm or more."
+    },
+    {
+     "type": "p",
+     "text": "In neurogenic orthostatic hypotension the efferent sympathetic pathway cannot release enough norepinephrine, so resistance and venous tone do not rise and heart rate rises little despite a large fall in pressure, the key distinction from volume depletion. Supine hypertension is common, partly because denervated vessels are hypersensitive to circulating pressors. In diabetic autonomic neuropathy, the classic cause, aldose reductase converts glucose to sorbitol and depletes NADPH (less glutathione regeneration, more oxidative stress), advanced glycation end products accumulate, and vasa nervorum disease adds ischemia. Long fibers fail first; vagal loss often precedes sympathetic loss, giving a fixed resting tachycardia before splanchnic vasoconstrictor loss causes orthostatic hypotension. Other causes include Parkinson disease, multiple system atrophy, pure autonomic failure, and amyloid neuropathy; alpha-1 blockade mimics it."
+    },
+    {
+     "type": "p",
+     "text": "Prolonged bed rest shifts blood toward the thorax and stretches the atria, so ANP rises, ADH falls, and diuresis lowers plasma volume within days. The ventricle becomes smaller and stiffer, baroreflex sensitivity falls, and the muscle pump weakens; spaceflight has the same effect. POTS, by contrast, is a heart rate rise of at least 30 bpm in adults on standing with symptoms but no significant fall in pressure, and in vasovagal syncope sympathetic tone is suddenly withdrawn while vagal output surges, so pressure and heart rate fall together."
+    },
+    {
+     "type": "table",
+     "title": "Distinguishing the main mechanisms",
+     "cols": [
+      "Feature",
+      "Volume depletion",
+      "Autonomic failure",
+      "Prolonged bed rest"
+     ],
+     "rows": [
+      [
+       "Primary defect",
+       "Low circulating volume and MSFP",
+       "Failed efferent sympathetic response",
+       "Low plasma volume, blunted reflexes, smaller ventricle"
+      ],
+      [
+       "Reflex arc",
+       "Intact",
+       "Defective (efferent limb)",
+       "Intact but less sensitive"
+      ],
+      [
+       "Heart rate on standing",
+       "Large rise",
+       "Little or no rise",
+       "Rise, often exaggerated"
+      ],
+      [
+       "Supine blood pressure",
+       "Normal or low",
+       "Often high",
+       "Usually normal"
+      ],
+      [
+       "Clues",
+       "Thirst, low urine output, raised BUN to creatinine ratio",
+       "Fixed heart rate, gastroparesis, bladder dysfunction",
+       "Recent immobility"
+      ]
+     ],
+     "caption": "The heart rate response separates the two main mechanisms."
+    },
+    {
+     "type": "example",
+     "title": "Interpreting two sets of orthostatic vital signs",
+     "text": "After three days of vomiting, patient A goes from 112/70 mmHg (HR 92 bpm) supine to 88/62 mmHg (HR 128 bpm) at 3 minutes standing: systolic pressure fell 24 mmHg and heart rate rose 36 bpm, so an intact reflex is working against too little volume. Patient B, with long-standing diabetes, goes from 162/88 mmHg (HR 96 bpm) to 118/70 mmHg (HR 100 bpm): a larger fall with a 4 bpm rise, so the sympathetic response is missing. Supine hypertension and a high, fixed resting rate support autonomic failure. The heart rate response separates the two mechanisms."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Anatomy places the controls. Carotid sinus afferents travel with CN IX and aortic arch afferents with CN X, so neck procedures or trauma at the carotid bifurcation can disturb pressure and heart rate. The juxtaglomerular apparatus sets renin cells beside the macula densa, letting one site sense both perfusion pressure and tubular NaCl, and thin-walled, compliant veins make the venous system the reservoir that pools on standing and that venoconstriction mobilizes. Second messengers tie the hormones together: Gq for angiotensin II and V1, Gs and cAMP for V2 and cardiac beta-1 receptors, cGMP for the natriuretic peptides, and gene transcription for aldosterone."
+  },
+  {
+   "type": "p",
+   "text": "Pathology follows when these controls are overloaded: pressure overload causes concentric hypertrophy and diastolic dysfunction, dilation raises wall stress, and chronic sympathetic, RAAS, and ADH activation drives fluid retention and remodeling in heart failure (CV-18-B). Inappropriate ADH secretion causes hyponatremia rather than hypertension because ADH retains water rather than Na+. The prediction tables assume one variable changes while the others stay fixed, but reflexes respond within seconds, so distinguish the immediate effect of a change from the net effect after compensation."
+  }
+ ],
+ "summary": [
+  "CO = SV x HR, SV = EDV - ESV, and EF = SV / EDV; at rest CO is about 5 L/min, SV about 70 mL, and EF about 55 to 70%.",
+  "MAP = CO x TPR (with RAP near 0), and at resting heart rates MAP is about diastolic pressure plus one third of the pulse pressure.",
+  "Fick: CO = VO2 / (CaO2 - CvO2), with CvO2 from the pulmonary artery and mL/dL multiplied by 10; at constant VO2 a widening arteriovenous O2 difference means CO has fallen.",
+  "Preload changes SV through EDV along one Frank-Starling curve; afterload raises ESV and contractility lowers it, and both shift the curve.",
+  "Venous return = (MSFP - RAP) / RVR; volume and venoconstriction shift the curve, resistance rotates it; CO and RAP moving together indicate a vascular cause, moving oppositely a cardiac cause.",
+  "Wall stress = P x r / 2h: concentric hypertrophy in pressure overload normalizes stress, while dilation raises stress and O2 demand.",
+  "Myocardial O2 demand is set by heart rate, contractility, and systolic wall stress; because extraction is already about 70 to 75%, more demand needs more coronary flow.",
+  "Baroreceptor afferents (carotid sinus in CN IX, aortic arch in CN X) reach the NTS; falling pressure, as on standing or after hemorrhage, lowers vagal and raises sympathetic output, and carotid sinus massage does the reverse.",
+  "Angiotensin II constricts arterioles and stimulates aldosterone, ADH, and proximal Na+ reabsorption; aldosterone increases ENaC and Na+/K+-ATPase; ADH inserts aquaporin-2 through V2; ANP and BNP act through cGMP to oppose all three.",
+  "Orthostatic hypotension is a fall of at least 20 mmHg systolic or 10 mmHg diastolic within 3 minutes of standing; a large heart rate rise points to volume depletion and little or no rise to autonomic failure."
+ ],
+ "sources": [
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Cardiac Output, Venous Return, and Their Regulation"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Nervous Regulation of the Circulation and Rapid Control of Arterial Pressure"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Role of the Kidneys in Long-Term Control of Arterial Pressure and in Hypertension"
+  },
+  {
+   "book": "Boron and Boulpaep Medical Physiology",
+   "where": "The heart as a pump; regulation of arterial pressure and cardiac output"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "The Heart, section on cardiac hypertrophy and heart failure"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Cardiovascular Disorders: Heart Disease; Disorders of the Adrenal Cortex"
+  }
+ ],
+ "verify": [
+  "Normal ejection fraction is given here as about 55 to 70%; echocardiography guidelines use slightly different sex-specific ranges, and some sources use 50% as the lower limit. Confirm the range NABNE expects.",
+  "The O2 binding constant for hemoglobin is given as 1.34 mL O2 per g; some texts use 1.36 or 1.39, which changes calculated contents slightly.",
+  "The effect of increased TPR on the venous return curve follows the standard review-text analysis (rotation with unchanged MSFP); Guyton's fuller treatment notes that arteriolar constriction contributes relatively little to resistance to venous return. Confirm the convention NABNE uses.",
+  "The baroreceptor operating range (carotid sinus about 50 to 60 up to about 180 mmHg, aortic arch about 30 mmHg higher) and the 1 to 2 day resetting time follow Guyton and Hall; other sources give slightly different values.",
+  "The threshold change in blood volume needed to stimulate ADH release is quoted from about 5% to about 15 to 25% in different texts; this chapter says on the order of 10% or more.",
+  "The volume shifted to the legs on standing (given as roughly half a liter) and the normal heart rate rise on standing (about 10 to 20 bpm) vary between sources.",
+  "The lower limit of cerebral autoregulation is given as about 60 mmHg MAP; some sources use 50 mmHg.",
+  "Confirm whether NABNE expects the heart rate criterion for neurogenic orthostatic hypotension (for example a ratio of heart rate rise to systolic fall below about 0.5 bpm per mmHg) and the adult POTS criterion of a rise of at least 30 bpm; both are stated cautiously here.",
+  "Confirm whether NABNE expects the eponyms nerve of Hering and Bowditch effect, and the term aldosterone escape.",
+  "Requested new diagram names for a future revision: pv-loop-shifts (left ventricular pressure-volume loops for increased preload, afterload, and contractility), cf-vr-curves (cardiac function and venous return curves with shifts and rotations), frank-starling-family (Frank-Starling curves at different contractility), and baroreflex-pathway (carotid sinus and aortic arch through CN IX and X to the NTS and medullary outflow)."
+ ]
+}
