@@ -1,0 +1,816 @@
+{
+ "unit": "GI-13-C",
+ "chapter_id": "NPLEX-P1-GAST-13",
+ "topic_id": "NPLEX-P1-GAST-13-03",
+ "title": "Cholestasis, Cirrhosis, and Noninfectious Liver Disease",
+ "subject": "Gastrointestinal System (GAST)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter covers the noninfectious diseases of the liver: obstructed bile flow, immune destruction of bile ducts, inherited disorders of bilirubin handling, alcohol, metabolic fatty liver, autoimmune and drug hepatitis, and the cirrhosis and portal hypertension in which many of them end. Board questions usually give a set of liver tests, a few physical signs, or a biopsy description and ask you to name the process, locate the defect, or predict the next complication. Each finding in this chapter traces back to one lost hepatocyte or bile duct function, or to raised resistance in the portal circulation, so learning the mechanism lets you work out findings you have not memorized.",
+  "prerequisites": [
+   "Liver lobule and acinus, zones 1 to 3, sinusoids, and the space of Disse (GI-5)",
+   "Bilirubin formation, conjugation, and excretion, and the meaning of direct and indirect bilirubin (GI-9)",
+   "Hepatic synthetic functions: albumin, clotting factors, and the urea cycle (GI-9)",
+   "Portal venous anatomy and the portosystemic anastomoses",
+   "Renin-angiotensin-aldosterone system and baroreceptor control of renal blood flow"
+  ],
+  "connections": [
+   {
+    "to": "Viral hepatitis (GI-12)",
+    "how": "Chronic hepatitis B and C are leading causes of the cirrhosis whose mechanism and findings are taught here."
+   },
+   {
+    "to": "Esophageal and gastric bleeding (GI-13-J)",
+    "how": "Portal hypertension opens left gastric to esophageal collaterals, and variceal rupture is a major cause of death in cirrhosis."
+   },
+   {
+    "to": "Liver tumors (GI-13-K)",
+    "how": "Cirrhosis of any cause, and MASH even before cirrhosis, is the main soil for hepatocellular carcinoma, while primary sclerosing cholangitis predisposes to cholangiocarcinoma."
+   },
+   {
+    "to": "Inflammatory bowel disease (GI-13-G)",
+    "how": "About 70% of patients with primary sclerosing cholangitis have inflammatory bowel disease, usually ulcerative colitis."
+   },
+   {
+    "to": "Endocrine and metabolic disease",
+    "how": "Insulin resistance and obesity drive metabolic fatty liver disease, and altered hepatic steroid clearance explains the feminizing signs of cirrhosis."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Cholestasis",
+    "def": "Impaired formation or flow of bile, so that bile constituents such as conjugated bilirubin and bile acids accumulate in blood and tissues."
+   },
+   {
+    "term": "Space of Disse",
+    "def": "The narrow perisinusoidal space between the fenestrated sinusoidal endothelium and the hepatocyte surface, where hepatic stellate cells reside."
+   },
+   {
+    "term": "Hepatic stellate cell",
+    "def": "A perisinusoidal cell that stores vitamin A when quiescent and becomes a collagen-producing myofibroblast when activated by injury."
+   },
+   {
+    "term": "Regenerative nodule",
+    "def": "A rounded island of proliferating hepatocytes, without normal lobular architecture, enclosed by fibrous septa in cirrhosis."
+   },
+   {
+    "term": "Portal hypertension",
+    "def": "A rise in the portal pressure gradient above normal, defined clinically as a hepatic venous pressure gradient above 5 mmHg."
+   },
+   {
+    "term": "Effective arterial blood volume",
+    "def": "The part of the circulating volume that fills the arterial tree and is sensed by baroreceptors, which can be low even when total body fluid is high."
+   },
+   {
+    "term": "Asterixis",
+    "def": "A flapping tremor of the outstretched, dorsiflexed hands caused by brief lapses of postural muscle tone, typical of metabolic encephalopathy."
+   },
+   {
+    "term": "Interface hepatitis",
+    "def": "Inflammation that crosses the limiting plate from the portal tract into the lobule and kills periportal hepatocytes."
+   },
+   {
+    "term": "Mallory-Denk body",
+    "def": "An eosinophilic cytoplasmic aggregate of damaged keratin intermediate filaments bound to ubiquitin, seen in injured hepatocytes."
+   },
+   {
+    "term": "UGT1A1",
+    "def": "Uridine diphosphate glucuronosyltransferase 1A1, the hepatocyte enzyme that conjugates bilirubin with glucuronic acid."
+   },
+   {
+    "term": "MRP2",
+    "def": "Multidrug resistance-associated protein 2, the ATP-dependent canalicular pump that secretes conjugated bilirubin into bile."
+   },
+   {
+    "term": "Kernicterus",
+    "def": "Bilirubin encephalopathy caused by deposition of free unconjugated bilirubin in the basal ganglia and brainstem nuclei."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-GAST-13-03-C01",
+   "obj": "GI-13-C.1",
+   "title": "Intrahepatic and extrahepatic cholestasis and the cholestatic profile",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Cholestasis is impaired formation or flow of bile. Bile formation begins at the canalicular membrane of the hepatocyte, where ATP-dependent pumps secrete bile salts (the bile salt export pump, BSEP) and conjugated bilirubin (MRP2) into the canaliculus. Bile then drains through ductules and intrahepatic ducts into the extrahepatic ducts. A failure anywhere along this path produces a similar biochemical picture, so the task is to locate it."
+    },
+    {
+     "type": "p",
+     "text": "Intrahepatic cholestasis arises inside the liver, from failure of hepatocyte secretion or loss of small ducts. Estrogens and anabolic steroids inhibit canalicular transport, and drugs such as chlorpromazine and amoxicillin-clavulanate cause idiosyncratic cholestatic injury. Intrahepatic cholestasis of pregnancy appears in the third trimester, when high levels of estrogen and progesterone metabolites impair bile salt export in susceptible women, causing pruritus of the palms and soles and raised serum bile acids. Total parenteral nutrition (TPN) causes cholestasis, especially in infants, because absent enteral feeding removes the cholecystokinin signal that drives bile flow and soybean lipid phytosterols impair bile acid signaling. Sepsis cytokines downregulate the same transporters, and primary biliary cholangitis destroys small ducts (C02). Extrahepatic obstruction blocks the large ducts, and pressure above the block dilates them, which ultrasound shows; intrahepatic cholestasis leaves duct caliber normal."
+    },
+    {
+     "type": "table",
+     "title": "Locating cholestasis",
+     "cols": [
+      "Level",
+      "Examples",
+      "Ducts on ultrasound",
+      "Clue"
+     ],
+     "rows": [
+      [
+       "Hepatocyte secretion",
+       "Estrogens, anabolic steroids, pregnancy, TPN, sepsis",
+       "Normal",
+       "Timing with a drug, third trimester, or illness"
+      ],
+      [
+       "Small intrahepatic ducts",
+       "Primary biliary cholangitis",
+       "Normal",
+       "Middle-aged woman, antimitochondrial antibody"
+      ],
+      [
+       "Large extrahepatic ducts",
+       "Common bile duct stone, carcinoma of the pancreatic head or ampulla, cholangiocarcinoma, stricture",
+       "Dilated above the block",
+       "Colicky pain and fever with a stone; painless jaundice with a palpable gallbladder with carcinoma"
+      ]
+     ],
+     "caption": "Intrahepatic cholestasis leaves ducts normal in caliber; extrahepatic obstruction dilates the ducts upstream of the block."
+    },
+    {
+     "type": "p",
+     "text": "The laboratory pattern follows from what is retained. Conjugated bilirubin is water soluble, so it is filtered and darkens the urine, while no bilirubin reaches the gut to form urobilinogen and stercobilin, so stools turn pale. Retained bile acids induce alkaline phosphatase (ALP) on canalicular and cholangiocyte membranes and release it into blood, so ALP rises out of proportion to the aminotransferases. ALP also comes from bone, placenta, and intestine; gamma-glutamyl transferase (GGT) rises in hepatobiliary but not bone disease, so a high GGT confirms a hepatic source. Retained bile acids and other pruritogens cause pruritus. Cholesterol that cannot be excreted in bile raises serum lipids, including the abnormal lipoprotein X, and deposits in skin as xanthomas and xanthelasma. Without bile salts in the gut, fat and vitamins A, D, E, and K are poorly absorbed, and the prolonged prothrombin time of vitamin K deficiency corrects with parenteral vitamin K, unlike that of hepatocellular failure (C04)."
+    },
+    {
+     "type": "example",
+     "title": "Is a high ALP cholestatic, and where is the block?",
+     "text": "A 52-year-old woman has pruritus. Total bilirubin is 3.4 mg/dL (reference about 0.3 to 1.2) with direct bilirubin 2.6 mg/dL, ALP 480 U/L (about 40 to 130), GGT 310 U/L (about 5 to 50), and ALT 70 U/L (about 7 to 40). Direct bilirubin dominates, so the defect lies after conjugation. ALP is nearly four times its upper limit while ALT is only mildly raised, a cholestatic rather than hepatocellular pattern, and the high GGT shows the ALP is hepatic; a growing adolescent or a patient with Paget disease of bone would have a high ALP with a normal GGT. Ultrasound then sets the level: dilated ducts mean extrahepatic obstruction, normal ducts an intrahepatic cause. With normal ducts in a middle-aged woman, an antimitochondrial antibody would support primary biliary cholangitis."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-GAST-13-03-C02",
+   "obj": "GI-13-C.2",
+   "title": "Primary biliary cholangitis versus primary sclerosing cholangitis",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Both diseases are chronic immune-mediated destruction of bile ducts that causes cholestasis, progressive fibrosis, and eventually biliary cirrhosis. They differ in which ducts are attacked, how they are injured, and who is affected."
+    },
+    {
+     "type": "p",
+     "text": "Primary biliary cholangitis (PBC, formerly primary biliary cirrhosis) is an autoimmune disease, about 90% in women, usually diagnosed between about 40 and 60 years of age. T cells destroy the small interlobular bile ducts of the portal tracts. The characteristic florid duct lesion is a dense lymphocytic and plasma cell infiltrate, often with noncaseating granulomas, around a damaged duct. The marker is antimitochondrial antibody (AMA), present in about 95% of patients and directed against the E2 subunit of the pyruvate dehydrogenase complex. Every cell has this antigen, but dying biliary epithelial cells keep it in an intact, immunogenic form, which helps explain why the attack centers on ducts. Serum IgM is often raised. As ducts disappear (ductopenia), retained bile acids injure hepatocytes and fibrosis spreads from the portal tracts over years. Fatigue and pruritus come early, with xanthelasma from high cholesterol and osteoporosis later. PBC accompanies other autoimmune diseases, especially Sjogren syndrome, autoimmune thyroiditis, and systemic sclerosis."
+    },
+    {
+     "type": "p",
+     "text": "Primary sclerosing cholangitis (PSC) is inflammation and obliterative fibrosis of intrahepatic and extrahepatic ducts. Men are affected about twice as often as women, usually in their 30s and 40s, and about 70% have inflammatory bowel disease, mostly ulcerative colitis. The cause is not settled; a leading idea is that gut-derived lymphocytes or bacterial products reach the biliary tree through the portal blood. Concentric onion-skin fibrosis around ducts eventually leaves a fibrous cord where a duct was. Because large ducts are involved, short strictures alternate with dilated segments, giving a beaded pattern on cholangiography. Atypical perinuclear antineutrophil cytoplasmic antibody (p-ANCA) is common but nonspecific, and AMA is absent. Chronic biliary inflammation is premalignant: lifetime risk of cholangiocarcinoma is roughly 10 to 15%, and gallbladder cancer and, with colitis, colorectal cancer risks also rise."
+    },
+    {
+     "type": "table",
+     "title": "PBC and PSC compared",
+     "cols": [
+      "Feature",
+      "Primary biliary cholangitis",
+      "Primary sclerosing cholangitis"
+     ],
+     "rows": [
+      [
+       "Typical patient",
+       "Woman, usually about 40 to 60 years",
+       "Man, usually in his 30s or 40s"
+      ],
+      [
+       "Ducts",
+       "Small intrahepatic (interlobular) ducts",
+       "Intrahepatic and extrahepatic ducts, small and large"
+      ],
+      [
+       "Histology",
+       "Lymphocytic, granulomatous duct destruction (florid duct lesion)",
+       "Concentric onion-skin periductal fibrosis, fibrous obliteration"
+      ],
+      [
+       "Cholangiography",
+       "Large ducts normal",
+       "Beaded ducts from strictures and dilations"
+      ],
+      [
+       "Antibody",
+       "Antimitochondrial antibody (about 95%); raised IgM",
+       "p-ANCA in many; AMA negative"
+      ],
+      [
+       "Associations",
+       "Sjogren syndrome, autoimmune thyroiditis, systemic sclerosis",
+       "Ulcerative colitis (about 70% have inflammatory bowel disease)"
+      ],
+      [
+       "Main cancer risk",
+       "Hepatocellular carcinoma once cirrhotic",
+       "Cholangiocarcinoma; also gallbladder and colorectal carcinoma"
+      ]
+     ],
+     "caption": "PBC is an autoantibody-marked disease of small ducts in women; PSC is a fibrosing disease of large and small ducts in men with colitis."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-GAST-13-03-C03",
+   "obj": "GI-13-C.3",
+   "title": "How cirrhosis forms: stellate cells, the space of Disse, and its causes",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Hepatocytes face sinusoidal blood across the space of Disse. The sinusoidal endothelium is fenestrated and lacks a true basement membrane, and the space holds only a sparse, low-density matrix (mainly type IV collagen), so plasma proteins and solutes reach hepatocyte microvilli freely. Hepatic stellate cells (Ito cells) lie in this space, store vitamin A as retinyl esters in lipid droplets, and are normally quiescent."
+    },
+    {
+     "type": "p",
+     "text": "Chronic injury of any cause kills hepatocytes and releases reactive oxygen species, lipid peroxides, and damage signals. Kupffer cells (resident macrophages) and injured cells release transforming growth factor beta (TGF-beta), platelet-derived growth factor (PDGF), tumor necrosis factor, and interleukin-1. Stellate cells lose their vitamin A and become myofibroblasts that proliferate (driven by PDGF), contract (driven by endothelin-1), and deposit type I and type III collagen (driven mainly by TGF-beta). This dense matrix fills the space of Disse, and the endothelium loses its fenestrations and builds a basement membrane, called capillarization of the sinusoids. Exchange between blood and hepatocytes is restricted, so function declines even before much liver is lost."
+    },
+    {
+     "type": "flow",
+     "title": "From chronic injury to cirrhosis",
+     "steps": [
+      "Chronic hepatocyte injury releases reactive oxygen species and damage signals",
+      "Kupffer cells secrete TGF-beta, PDGF, and TNF",
+      "Stellate cells lose vitamin A and become myofibroblasts",
+      "Type I and III collagen fills the space of Disse",
+      "Sinusoids lose fenestrations (capillarization)",
+      "Bridging septa surround regenerative nodules",
+      "Portal resistance rises and hepatocyte exchange fails"
+     ],
+     "caption": "Stellate cell activation links injury of any cause to the common end stage of fibrosis and nodules."
+    },
+    {
+     "type": "p",
+     "text": "Cirrhosis is diffuse fibrosis with bridging septa that link portal tracts with each other and with central veins, surrounding regenerative nodules of hepatocytes that have lost lobular architecture. Nodules are micronodular (under about 3 mm), classically in alcohol, or macronodular, often after viral hepatitis, but the pattern changes with time and does not reliably identify the cause. Vascular channels in the septa carry blood past hepatocytes, and fibrosis, distorted vessels, and contracting stellate cells raise resistance to portal flow (C10). Fibrosis can partly regress if injury stops, but established nodular architecture rarely returns to normal, and cirrhosis of any cause raises the risk of hepatocellular carcinoma."
+    },
+    {
+     "type": "table",
+     "title": "Main causes of cirrhosis",
+     "cols": [
+      "Category",
+      "Examples",
+      "Main injury"
+     ],
+     "rows": [
+      [
+       "Alcohol",
+       "Alcohol-related liver disease",
+       "Acetaldehyde, NADH excess, oxidative stress (C07)"
+      ],
+      [
+       "Viral",
+       "Chronic hepatitis B (with or without D) and C",
+       "Immune killing of infected hepatocytes"
+      ],
+      [
+       "Metabolic fatty liver",
+       "MASLD and MASH",
+       "Lipotoxicity from insulin resistance (C08)"
+      ],
+      [
+       "Inherited metabolic",
+       "Hereditary hemochromatosis, Wilson disease, alpha-1 antitrypsin deficiency",
+       "Iron or copper catalyzed free radicals; misfolded protein retained in the endoplasmic reticulum"
+      ],
+      [
+       "Biliary and autoimmune",
+       "PBC, PSC, chronic large duct obstruction, autoimmune hepatitis",
+       "Bile acid toxicity; immune hepatocyte injury"
+      ],
+      [
+       "Vascular",
+       "Chronic right heart failure, Budd-Chiari syndrome",
+       "Zone 3 congestion and hypoxia"
+      ]
+     ],
+     "caption": "Alcohol, chronic viral hepatitis, and metabolic fatty liver disease account for most cirrhosis; many cases once called cryptogenic are burned-out MASH."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-GAST-13-03-C04",
+   "obj": "GI-13-C.4",
+   "title": "Findings of cirrhosis: hepatocellular failure and portal hypertension",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Cirrhosis produces two families of findings. Hepatocellular failure reflects lost hepatocyte mass and poor exchange in the hepatocytes that remain; portal hypertension reflects raised resistance to portal flow (C10). Compensated cirrhosis may show neither, and decompensation is marked by jaundice, ascites, variceal bleeding, or encephalopathy."
+    },
+    {
+     "type": "p",
+     "text": "Hepatocytes make most clotting factors, including fibrinogen and factors II, V, VII, IX, X, and XI. Factor VII has the shortest half-life (about 4 to 6 hours), so the prothrombin time (PT) and international normalized ratio (INR) rise early in failure, and vitamin K cannot correct them because the defect is synthesis, not carboxylation. Factor VIII, made largely by sinusoidal endothelium, stays normal or high, which separates liver failure from disseminated intravascular coagulation. Because protein C, protein S, and antithrombin also fall, hemostasis is rebalanced rather than simply impaired, and thrombosis, including portal vein thrombosis, still occurs."
+    },
+    {
+     "type": "table",
+     "title": "Hepatocellular failure explained by lost function",
+     "cols": [
+      "Finding",
+      "Lost function or cause"
+     ],
+     "rows": [
+      [
+       "Jaundice (mixed hyperbilirubinemia)",
+       "Failed uptake, conjugation, and canalicular excretion of bilirubin"
+      ],
+      [
+       "High PT and INR not corrected by vitamin K",
+       "Failed synthesis of clotting factors"
+      ],
+      [
+       "Hypoalbuminemia, edema",
+       "Failed albumin synthesis (half-life about 3 weeks, so a marker of chronic failure) lowers oncotic pressure"
+      ],
+      [
+       "Spider angiomas, palmar erythema, gynecomastia, testicular atrophy",
+       "Less hepatic estrogen clearance, more peripheral aromatization of shunted androstenedione, and higher SHBG binding of testosterone"
+      ],
+      [
+       "Hepatic encephalopathy, asterixis, fetor hepaticus",
+       "Ammonia and other gut-derived toxins escape the urea cycle and pass through shunts"
+      ],
+      [
+       "Hypoglycemia (advanced failure)",
+       "Loss of glycogen stores and gluconeogenesis"
+      ]
+     ],
+     "caption": "Each sign of hepatocellular failure is a missing hepatocyte product or a substance the hepatocyte no longer clears."
+    },
+    {
+     "type": "p",
+     "text": "Hepatic encephalopathy is reversible brain dysfunction caused mainly by ammonia. Colonic bacterial urease and enterocyte glutaminase generate ammonia, normally converted to urea by periportal hepatocytes. In cirrhosis, ammonia bypasses the failing liver through shunts and reaches astrocytes, which lack a urea cycle and fix it as glutamine. Glutamine is osmotically active, so astrocytes swell and neurotransmission fails; increased GABA-ergic tone and systemic inflammation contribute. The precipitants follow from the chemistry: bleeding adds a protein load, alkalosis converts NH4+ to diffusible NH3, hypokalemia increases renal ammonia production, and infection, constipation, and sedatives worsen it. Signs progress from disturbed sleep and confusion to coma, with asterixis, a flapping tremor from brief lapses of postural tone."
+    },
+    {
+     "type": "flow",
+     "title": "Ammonia and hepatic encephalopathy",
+     "steps": [
+      "Gut bacteria and enterocytes produce ammonia",
+      "Portosystemic shunts and failed urea cycle let ammonia pass",
+      "Astrocytes convert ammonia to glutamine",
+      "Glutamine draws water; astrocytes swell",
+      "Confusion, asterixis, and coma"
+     ],
+     "caption": "Bleeding, alkalosis, hypokalemia, infection, and sedatives all push this sequence forward."
+    },
+    {
+     "type": "p",
+     "text": "Portal hypertension adds ascites, splenomegaly with thrombocytopenia from platelet sequestration, esophageal varices, and caput medusae, discussed by mechanism in C10."
+    },
+    {
+     "type": "stop",
+     "predict": "Two patients have an INR of 2.0. One has an obstructing common bile duct stone and the other has cirrhosis. Predict each INR after parenteral vitamin K.",
+     "explain": "The obstructed patient corrects, because hepatocytes are healthy and only lack vitamin K, which needs bile salts for absorption. The cirrhotic patient does not, because the hepatocytes cannot make enough factor protein to carboxylate.",
+     "check": "The coagulation paragraph here and the fat-soluble vitamin sentence in C01."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-GAST-13-03-C05",
+   "obj": "GI-13-C.5",
+   "title": "Hepatorenal and hepatopulmonary syndromes",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Portal hypertension increases vasodilator production in the splanchnic bed, chiefly nitric oxide (from endothelial shear stress and from gut bacterial products reaching the portal blood), along with carbon monoxide and endocannabinoids. Splanchnic arterioles dilate, systemic vascular resistance and arterial pressure fall, and cardiac output rises in a hyperdynamic circulation."
+    },
+    {
+     "type": "p",
+     "text": "Hepatorenal syndrome is functional kidney failure in advanced cirrhosis, usually with ascites. Splanchnic vasodilation lowers effective arterial blood volume even though total body sodium and water are increased. Baroreceptors respond by activating the renin-angiotensin-aldosterone system, sympathetic nerves, and nonosmotic release of antidiuretic hormone. These defend blood pressure but constrict the renal vessels, and as disease advances, intrarenal vasodilator prostaglandins can no longer offset them. GFR falls while the tubules stay intact and retain sodium avidly, so urine sodium is very low (often under 10 mEq/L), fractional excretion of sodium is under 1%, the sediment is bland, and proteinuria is minimal; retained water causes dilutional hyponatremia. Renal histology is normal, and such kidneys work when transplanted into a recipient with a healthy liver, which proves the failure is hemodynamic. Unlike prerenal azotemia, function does not recover with volume expansion. Triggers reduce renal perfusion further: spontaneous bacterial peritonitis, gastrointestinal bleeding, large-volume paracentesis, overdiuresis, and nonsteroidal anti-inflammatory drugs."
+    },
+    {
+     "type": "flow",
+     "title": "Hepatorenal syndrome",
+     "steps": [
+      "Portal hypertension raises splanchnic nitric oxide",
+      "Splanchnic vasodilation lowers effective arterial blood volume",
+      "RAAS, sympathetic nerves, and ADH are activated",
+      "Renal vessels constrict and GFR falls",
+      "Kidneys retain sodium; urine sodium under 10 mEq/L",
+      "Kidney failure with normal renal histology"
+     ],
+     "caption": "The kidney behaves as if the patient were hypovolemic, although total body fluid is increased."
+    },
+    {
+     "type": "p",
+     "text": "Hepatopulmonary syndrome is hypoxemia caused by intrapulmonary vascular dilation in a patient with liver disease or portal hypertension. Excess pulmonary nitric oxide, from endothelin-1 acting on endothelin B receptors of pulmonary endothelium and from intravascular macrophages, widens capillaries from a normal diameter of about 8 to 15 micrometers to as much as several hundred. Oxygen cannot diffuse to red cells in the center of these wide vessels, rapid transit shortens contact time, and ventilation-perfusion mismatch and some true shunting add to the defect, widening the alveolar-arterial gradient. The dilations lie mainly in the lung bases, so standing increases flow through them: dyspnea worsens upright (platypnea) and arterial oxygen falls upright (orthodeoxia). Contrast echocardiography shows bubbles reaching the left heart only after about three or more beats, because they pass through the lung rather than an intracardiac shunt. Breathing 100% oxygen raises PaO2 because a high alveolar pressure drives oxygen farther across the vessel. Portopulmonary hypertension is the opposite lesion: vasoconstriction and remodeling raise pulmonary arterial pressure."
+    },
+    {
+     "type": "stop",
+     "predict": "A man with cirrhosis and ascites has a rising creatinine, urine sodium of 5 mEq/L, and a bland sediment. He takes ibuprofen for back pain. Predict the effect on his GFR.",
+     "explain": "GFR falls further. In hepatorenal physiology, renal prostaglandins are the main local vasodilators opposing angiotensin II and sympathetic constriction; blocking cyclooxygenase removes them, so renal vasoconstriction becomes unopposed.",
+     "check": "The hepatorenal paragraph and flow."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-GAST-13-03-C06",
+   "obj": "GI-13-C.6",
+   "title": "Gilbert syndrome and Crigler-Najjar syndromes",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Unconjugated bilirubin from heme breakdown is lipid soluble and travels in plasma bound to albumin. In the hepatocyte endoplasmic reticulum, UGT1A1 adds glucuronic acid to make water-soluble bilirubin glucuronides, which MRP2 secretes into bile. A UGT1A1 defect therefore raises unconjugated (indirect) bilirubin with normal liver enzymes and no bilirubin in the urine, because albumin-bound unconjugated bilirubin is not filtered. How much enzyme activity remains decides the severity."
+    },
+    {
+     "type": "p",
+     "text": "Gilbert syndrome affects roughly 5 to 10% of many populations. Most affected people are homozygous for a promoter variant, an extra TA repeat in the TATA box (UGT1A1*28), that lowers transcription and leaves about 30% of normal activity. Bilirubin is normal or mildly raised, generally under about 3 mg/dL, and rises with fasting, intercurrent illness, exertion, or stress, so transient scleral icterus appears during a cold or a missed meal. The diagnosis rests on a mild unconjugated hyperbilirubinemia with normal aminotransferases and ALP and no hemolysis (normal hemoglobin, reticulocyte count, haptoglobin, and lactate dehydrogenase). It causes no liver injury and does not shorten life, although drugs cleared by UGT1A1, such as the active metabolite of irinotecan, are glucuronidated more slowly."
+    },
+    {
+     "type": "p",
+     "text": "Crigler-Najjar syndrome is rare, autosomal recessive, and caused by coding mutations in UGT1A1. In type I, activity is absent, unconjugated bilirubin reaches about 20 to 50 mg/dL in the newborn, and bile is nearly colorless because little conjugate forms. Bilirubin that exceeds albumin binding circulates free, crosses the blood-brain barrier, and deposits in the basal ganglia (especially the globus pallidus), hippocampus, cerebellum, and brainstem nuclei, causing kernicterus. In type II (Arias syndrome), residual activity of under about 10% keeps bilirubin near 6 to 20 mg/dL, and kernicterus is uncommon. Phenobarbital induces UGT1A1 transcription through the constitutive androstane receptor; it lowers bilirubin by about 25% or more in type II, where some enzyme exists to induce, and does nothing in type I, so the response distinguishes them."
+    },
+    {
+     "type": "table",
+     "title": "Inherited unconjugated hyperbilirubinemias",
+     "cols": [
+      "Feature",
+      "Gilbert syndrome",
+      "Crigler-Najjar type I",
+      "Crigler-Najjar type II"
+     ],
+     "rows": [
+      [
+       "UGT1A1 activity",
+       "About 30% (promoter variant)",
+       "Absent",
+       "Under about 10%"
+      ],
+      [
+       "Usual bilirubin",
+       "Under about 3 mg/dL, rising with fasting or illness",
+       "About 20 to 50 mg/dL",
+       "About 6 to 20 mg/dL"
+      ],
+      [
+       "Onset",
+       "Adolescence or adulthood, intermittent",
+       "First days of life",
+       "Infancy or childhood"
+      ],
+      [
+       "Kernicterus",
+       "No",
+       "Yes, without intervention",
+       "Uncommon"
+      ],
+      [
+       "Response to phenobarbital",
+       "Bilirubin falls",
+       "None",
+       "Falls by about 25% or more"
+      ],
+      [
+       "Outlook",
+       "Benign",
+       "Severe",
+       "Usually compatible with normal life"
+      ]
+     ],
+     "caption": "All three raise unconjugated bilirubin with normal liver enzymes; residual enzyme activity sets severity and the response to enzyme induction."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-GAST-13-03-C07",
+   "obj": "GI-13-C.7",
+   "title": "Alcohol-related liver disease and the AST to ALT ratio",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Alcohol-related liver disease progresses through three overlapping lesions: steatosis, alcoholic hepatitis, and cirrhosis. Steatosis develops in most heavy drinkers and resolves within weeks of abstinence, but only a minority progress, with risk shaped by amount and duration of drinking, female sex, genetic variants such as PNPLA3, obesity, and coexisting viral hepatitis."
+    },
+    {
+     "type": "p",
+     "text": "Ethanol is oxidized by alcohol dehydrogenase to acetaldehyde and by aldehyde dehydrogenase to acetate, and both steps reduce NAD+ to NADH. The high NADH to NAD+ ratio inhibits fatty acid beta-oxidation, favors glycerol 3-phosphate (the triglyceride backbone), and shifts pyruvate to lactate, which blocks gluconeogenesis and raises lactate and uric acid. Fatty acids are therefore stored as triglyceride in large droplets, first in zone 3. Acetaldehyde forms protein adducts and damages microtubules, which impairs lipoprotein secretion; inducible CYP2E1 generates reactive oxygen species; and increased gut permeability delivers endotoxin to Kupffer cells, which release TNF."
+    },
+    {
+     "type": "flow",
+     "title": "Ethanol metabolism to fatty liver",
+     "steps": [
+      "Alcohol and aldehyde dehydrogenases oxidize ethanol",
+      "NADH to NAD+ ratio rises",
+      "Beta-oxidation falls; glycerol 3-phosphate rises",
+      "Fatty acids are esterified to triglyceride",
+      "Macrovesicular steatosis, first in zone 3"
+     ],
+     "caption": "Excess NADH redirects hepatocyte metabolism from burning fat to storing it."
+    },
+    {
+     "type": "p",
+     "text": "Alcoholic hepatitis follows heavy, usually prolonged drinking and presents with fever, tender hepatomegaly, jaundice, and neutrophilic leukocytosis. Histology shows hepatocyte ballooning (swollen cells with cleared cytoplasm from a damaged cytoskeleton), Mallory-Denk bodies (aggregates of keratins 8 and 18 bound to ubiquitin), neutrophils clustered around injured hepatocytes, and pericellular and perisinusoidal fibrosis in zone 3. Mallory-Denk bodies are characteristic but not specific, also appearing in MASH, Wilson disease, and chronic cholestasis. Repeated injury activates stellate cells, and cirrhosis, classically micronodular, follows."
+    },
+    {
+     "type": "p",
+     "text": "Aminotransferases are only modestly raised, usually under about 300 U/L even in severe alcoholic hepatitis, with AST more than twice ALT. Two mechanisms explain the ratio. Alcohol injures mitochondria, which hold a separate mitochondrial isoenzyme of AST but little ALT. Both enzymes need pyridoxal 5'-phosphate (vitamin B6), and the deficiency common in heavy drinkers lowers ALT activity more than AST. Aminotransferases in the thousands point to another process, such as acetaminophen injury, ischemia, or viral hepatitis. GGT is often high from enzyme induction, and macrocytosis is common."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-GAST-13-03-C08",
+   "obj": "GI-13-C.8",
+   "title": "Metabolic dysfunction-associated steatotic liver disease",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Metabolic dysfunction-associated steatotic liver disease (MASLD) is hepatic steatosis, fat in at least 5% of hepatocytes, in a person with at least one cardiometabolic risk factor (overweight or central obesity, raised glucose or type 2 diabetes, hypertension, high triglycerides, or low HDL cholesterol) and no other cause, such as significant alcohol use. The 2023 nomenclature replaced nonalcoholic fatty liver disease (NAFLD) and nonalcoholic steatohepatitis (NASH) with MASLD and MASH. It is the most common chronic liver disease, affecting roughly a quarter to a third of adults worldwide."
+    },
+    {
+     "type": "p",
+     "text": "Insulin resistance fills the liver with fat from several sources. In resistant adipose tissue, insulin fails to suppress lipolysis, so free fatty acids flow to the liver. Compensatory hyperinsulinemia, through sterol regulatory element-binding protein 1c (SREBP-1c), keeps hepatic de novo lipogenesis running even while insulin fails to suppress glucose output, a pattern called selective hepatic insulin resistance. Dietary fructose, which enters glycolysis below the phosphofructokinase-1 control point, adds lipogenic substrate. Export of triglyceride as VLDL cannot keep pace, so fat accumulates."
+    },
+    {
+     "type": "p",
+     "text": "Stored triglyceride is relatively inert; the injury comes from lipotoxic intermediates (free fatty acids, diacylglycerols, ceramides, and free cholesterol) that cause endoplasmic reticulum stress, mitochondrial production of reactive oxygen species, and hepatocyte apoptosis. Less adiponectin and more TNF from visceral fat, and bacterial products from the gut, add inflammation and activate stellate cells."
+    },
+    {
+     "type": "p",
+     "text": "Simple steatosis is fat without significant inflammation or hepatocyte injury and rarely progresses. Steatohepatitis (MASH) adds lobular inflammation and hepatocyte ballooning, often with Mallory-Denk bodies and zone 3 pericellular fibrosis, so its histology can look like alcoholic hepatitis; the drinking history separates them. Fibrosis stage, not the amount of fat, best predicts liver-related death, though cardiovascular disease is the most common cause of death overall. MASH can progress to cirrhosis and hepatocellular carcinoma, and carcinoma sometimes arises before cirrhosis. Aminotransferases are often normal or mildly raised with ALT above AST, the reverse of alcohol, until advanced fibrosis, when the ratio rises. Imaging detects fat but cannot separate steatosis from MASH; biopsy remains the reference standard."
+    },
+    {
+     "type": "table",
+     "title": "Simple steatosis versus MASH",
+     "cols": [
+      "Feature",
+      "Simple steatosis",
+      "MASH"
+     ],
+     "rows": [
+      [
+       "Histology",
+       "Macrovesicular fat only",
+       "Fat plus lobular inflammation and ballooning, often zone 3 fibrosis"
+      ],
+      [
+       "Hepatocyte injury",
+       "Absent or minimal",
+       "Present, from lipotoxicity"
+      ],
+      [
+       "Aminotransferases",
+       "Often normal",
+       "Mildly raised, ALT above AST"
+      ],
+      [
+       "Course",
+       "Rarely progresses",
+       "Can progress to cirrhosis and hepatocellular carcinoma"
+      ]
+     ],
+     "caption": "Fat alone is the substrate; inflammation, ballooning, and fibrosis mark the lesion that progresses."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-GAST-13-03-C09",
+   "obj": "GI-13-C.9",
+   "title": "Autoimmune hepatitis versus drug and toxin hepatitis",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Autoimmune hepatitis is chronic hepatitis in which T cells, poorly restrained by regulatory T cells, attack hepatocyte antigens. Women are affected about three to four times as often as men, often when young, and the disease associates with HLA-DR3 and HLA-DR4 and with other autoimmune diseases. The hallmarks are hypergammaglobulinemia with raised IgG, circulating autoantibodies, and interface hepatitis, in which lymphocytes and abundant plasma cells cross the limiting plate and kill periportal hepatocytes. Type 1, the common adult form, carries antinuclear antibody (ANA) and anti-smooth muscle (anti-actin) antibody; type 2, mainly in children, carries anti-liver-kidney microsomal 1 antibody, directed at CYP2D6. Aminotransferases rise more than ALP, a hepatocellular pattern. It ranges from silent to acute hepatitis, can progress to cirrhosis, and is diagnosed only after viral hepatitis, drugs, and Wilson disease are excluded."
+    },
+    {
+     "type": "p",
+     "text": "Drug-induced liver injury is intrinsic or idiosyncratic. Intrinsic injury is dose dependent, predictable, and rapid, as with acetaminophen. Idiosyncratic injury affects few exposed people, tracks dose poorly, and appears after weeks to months, as with isoniazid. Where the toxic metabolite forms decides which zone dies."
+    },
+    {
+     "type": "p",
+     "text": "At therapeutic doses most acetaminophen is glucuronidated or sulfated, and about 5 to 10% is oxidized, mainly by CYP2E1, to N-acetyl-p-benzoquinone imine (NAPQI), which glutathione conjugates at once. In overdose, conjugation saturates and more NAPQI forms; once glutathione falls to about 30% of normal, free NAPQI binds cysteine residues of mitochondrial proteins, causing oxidative stress, mitochondrial permeability transition, and necrosis. Zone 3 dies first because CYP2E1 is concentrated there and glutathione and oxygen are lowest. Aminotransferases climb into the thousands, peaking at about 72 to 96 hours. Chronic alcohol use (which induces CYP2E1 and depletes glutathione) and fasting lower the toxic dose. Supplying cysteine for glutathione synthesis (the basis of N-acetylcysteine) prevents injury, which confirms the mechanism."
+    },
+    {
+     "type": "p",
+     "text": "Isoniazid is acetylated by N-acetyltransferase 2 (NAT2) to acetylisoniazid, then hydrolyzed to acetylhydrazine; direct hydrolysis yields hydrazine. Both are oxidized, partly by CYP2E1, to reactive intermediates. About 10 to 20% of people taking it develop mild, transient aminotransferase rises, while clinical hepatitis affects up to about 1%, more often with older age, daily alcohol use, and concurrent rifampin; most recent studies find higher risk in slow acetylators. Histology resembles acute viral hepatitis, with diffuse lobular injury and, in severe cases, bridging or submassive necrosis."
+    },
+    {
+     "type": "table",
+     "title": "Autoimmune, acetaminophen, and isoniazid hepatitis",
+     "cols": [
+      "Feature",
+      "Autoimmune hepatitis",
+      "Acetaminophen",
+      "Isoniazid"
+     ],
+     "rows": [
+      [
+       "Mechanism",
+       "T cell attack on hepatocytes",
+       "Intrinsic: NAPQI after glutathione depletion",
+       "Idiosyncratic: reactive hydrazine metabolites"
+      ],
+      [
+       "Timing",
+       "Chronic, may flare acutely",
+       "Within 1 to 3 days of overdose",
+       "Usually within the first months of use"
+      ],
+      [
+       "Histology",
+       "Interface hepatitis with plasma cells",
+       "Zone 3 (centrilobular) coagulative necrosis",
+       "Acute hepatitis pattern, diffuse lobular injury"
+      ],
+      [
+       "Key labs",
+       "High IgG, ANA, anti-smooth muscle or anti-LKM1 antibody",
+       "Aminotransferases often over 1,000 U/L",
+       "Hepatocellular pattern: ALT and AST rise more than ALP"
+      ],
+      [
+       "Risk factors",
+       "Female sex, HLA-DR3 and DR4",
+       "Chronic alcohol use, fasting",
+       "Older age, alcohol, rifampin, slow acetylation"
+      ]
+     ],
+     "caption": "Autoantibodies and plasma cells point to autoimmunity; dose, timing, and the zone of necrosis point to a drug."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-GAST-13-03-C10",
+   "obj": "GI-13-C.10",
+   "title": "Portal hypertension: site of obstruction and its consequences",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Portal venous pressure is normally about 5 to 10 mmHg, and the hepatic venous pressure gradient (HVPG, wedged minus free hepatic venous pressure, an estimate of sinusoidal pressure) is about 1 to 5 mmHg. Portal hypertension is an HVPG above 5 mmHg; varices and ascites appear at about 10 mmHg or more, and varices can bleed above about 12 mmHg. The pressure gradient equals flow times resistance, and cirrhosis raises both: resistance from fibrosis, nodules, and contracting stellate cells, and inflow from splanchnic vasodilation (C05)."
+    },
+    {
+     "type": "p",
+     "text": "The site of obstruction predicts the liver and the ascites, because ascites needs raised sinusoidal pressure, which forces fluid into the space of Disse faster than lymphatics can return it. Portal vein thrombosis (prehepatic) leaves sinusoidal pressure normal, so splenomegaly and varices develop with a normal liver and little ascites. Schistosoma mansoni and S. japonicum eggs lodge in portal venules and provoke granulomas and periportal pipestem fibrosis, a presinusoidal intrahepatic block that spares hepatocyte function. Hepatic vein thrombosis (Budd-Chiari syndrome, often from polycythemia vera or another hypercoagulable state), right heart failure, and constrictive pericarditis are posthepatic: they congest zone 3, giving a tender, enlarged nutmeg liver and ascites. In Budd-Chiari syndrome the caudate lobe enlarges because its veins drain directly into the inferior vena cava, while raised jugular venous pressure points to a cardiac cause."
+    },
+    {
+     "type": "table",
+     "title": "Portal hypertension by site",
+     "cols": [
+      "Site",
+      "Examples",
+      "Liver",
+      "Ascites"
+     ],
+     "rows": [
+      [
+       "Prehepatic",
+       "Portal vein thrombosis",
+       "Normal",
+       "Little or none"
+      ],
+      [
+       "Intrahepatic, presinusoidal",
+       "Schistosomiasis",
+       "Periportal fibrosis, function preserved",
+       "Less prominent"
+      ],
+      [
+       "Intrahepatic, sinusoidal",
+       "Cirrhosis (most common cause)",
+       "Fibrosis and nodules",
+       "Yes, low protein"
+      ],
+      [
+       "Posthepatic",
+       "Budd-Chiari syndrome, right heart failure, constrictive pericarditis",
+       "Enlarged, congested nutmeg liver",
+       "Yes, high protein"
+      ]
+     ],
+     "caption": "Ascites tracks sinusoidal pressure, so it is prominent with sinusoidal and posthepatic blocks."
+    },
+    {
+     "type": "p",
+     "text": "Raised pressure reroutes blood through portosystemic collaterals: left gastric to esophageal veins (esophageal varices), paraumbilical to superficial epigastric veins (caput medusae), and superior to middle and inferior rectal veins (anorectal varices). The congested spleen enlarges and sequesters platelets. Ascites from any portal hypertensive cause has a serum-ascites albumin gradient (SAAG) of 1.1 g/dL or more."
+    },
+    {
+     "type": "example",
+     "title": "Using ascitic fluid to locate the block",
+     "text": "Two patients have ascites with a SAAG of 1.8 g/dL. Ascitic total protein is 1.2 g/dL in patient A and 3.6 g/dL in patient B. A SAAG of 1.1 g/dL or more means portal hypertension in both. In cirrhosis, capillarized sinusoids hold back protein, so the fluid is protein-poor (under 2.5 g/dL), which fits patient A. In posthepatic congestion the sinusoids are still fenestrated, so protein-rich lymph leaks out (2.5 g/dL or more), which fits patient B. Raised jugular venous pressure would point B toward the heart; normal neck veins with an enlarged caudate lobe would point to Budd-Chiari syndrome. A SAAG under 1.1 g/dL would instead suggest a peritoneal cause such as carcinomatosis or tuberculosis."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-GAST-13-03-C11",
+   "obj": "GI-13-C.11",
+   "title": "Dubin-Johnson and Rotor syndromes",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Conjugated bilirubin leaves the hepatocyte across the canalicular membrane through MRP2, the rate-limiting step of bilirubin excretion. Some conjugate is also exported to sinusoidal blood by MRP3 on the basolateral membrane and taken back up by downstream hepatocytes through OATP1B1 and OATP1B3, a shuttle that spreads the excretory load across the lobule. Dubin-Johnson and Rotor syndromes each break one part of this circuit, so both raise conjugated bilirubin without hepatocyte injury, and because conjugated bilirubin is filtered, both darken the urine."
+    },
+    {
+     "type": "p",
+     "text": "Dubin-Johnson syndrome is autosomal recessive loss of functional MRP2 (gene ABCC2). Conjugated bilirubin cannot enter bile and refluxes into blood through MRP3, giving a mainly conjugated hyperbilirubinemia, usually about 2 to 5 mg/dL, that worsens in pregnancy and with estrogen-containing contraceptives, which further reduce canalicular excretion. Bile acids use a different pump, BSEP, so their secretion is normal: there is no pruritus, and ALP, GGT, and aminotransferases are normal. A dark pigment, thought to derive from retained anionic metabolites such as those of epinephrine, collects in lysosomes of centrilobular hepatocytes and turns the liver black. Total urinary coproporphyrin is normal, but over about 80% is isomer I instead of the usual minority."
+    },
+    {
+     "type": "p",
+     "text": "Rotor syndrome is autosomal recessive combined deficiency of OATP1B1 and OATP1B3 (genes SLCO1B1 and SLCO1B3). Conjugated bilirubin exported to blood by MRP3 cannot be taken back up, so it accumulates in plasma. Canalicular secretion is intact and no pigment is stored, so the liver is normal in color. Total urinary coproporphyrin is raised, with isomer I a smaller majority. Both syndromes are benign."
+    },
+    {
+     "type": "table",
+     "title": "Dubin-Johnson and Rotor syndromes compared",
+     "cols": [
+      "Feature",
+      "Dubin-Johnson syndrome",
+      "Rotor syndrome"
+     ],
+     "rows": [
+      [
+       "Defect",
+       "Canalicular secretion (MRP2, ABCC2)",
+       "Sinusoidal reuptake (OATP1B1 and OATP1B3)"
+      ],
+      [
+       "Bilirubin",
+       "Mainly conjugated, worse with pregnancy or estrogen",
+       "Mainly conjugated"
+      ],
+      [
+       "Liver",
+       "Black, lysosomal pigment in centrilobular hepatocytes",
+       "Normal color"
+      ],
+      [
+       "Urinary coproporphyrin",
+       "Total normal; over about 80% isomer I",
+       "Total raised; isomer I a smaller majority"
+      ],
+      [
+       "ALP, GGT, bile acids",
+       "Normal",
+       "Normal"
+      ],
+      [
+       "Course",
+       "Benign",
+       "Benign, often milder"
+      ]
+     ],
+     "caption": "Normal ALP, GGT, and bile acids separate both from cholestasis; liver color and coproporphyrin pattern separate them from each other."
+    },
+    {
+     "type": "stop",
+     "predict": "Why does a patient with Dubin-Johnson syndrome have dark urine but no itching, while a patient with a common bile duct stone has both?",
+     "explain": "Both have filtered conjugated bilirubin, which darkens the urine. In Dubin-Johnson syndrome only MRP2 fails, so BSEP still secretes bile acids and they do not accumulate. A duct stone blocks every bile constituent, so bile acids back up into blood and cause pruritus.",
+     "check": "The transporter paragraph here and the laboratory paragraph in C01."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Anatomy and physiology set the pattern of disease. The lobule's zonation explains why alcohol, acetaminophen, and venous congestion injure zone 3 first, where CYP2E1 is concentrated and oxygen is lowest, while interface hepatitis begins at the periportal limiting plate. The space of Disse explains why stellate cell collagen impairs function before nodules form, and the portal circulation explains why fibrosis anywhere along it produces varices, splenomegaly, and ascites, with the site of block predicting liver appearance and ascitic protein. Biochemistry explains the bilirubin disorders, because the step that fails (conjugation by UGT1A1, canalicular export by MRP2, or reuptake by OATP1B1 and OATP1B3) predicts which fraction rises and whether bile acids follow."
+  },
+  {
+   "type": "p",
+   "text": "In immunology, antimitochondrial antibody, p-ANCA, ANA, and anti-smooth muscle antibody each point to a distinct immune process, but none is diagnostic alone, and drug injury and viral hepatitis must be excluded. Cirrhosis is a common end stage whose consequences extend to the kidney, lung, brain, and endocrine system through vasodilation, shunting, and lost hepatocyte function. Laboratory ratios such as AST to ALT are probabilistic clues rather than proof, and histologic features such as Mallory-Denk bodies overlap among alcohol, MASH, and cholestasis, so each finding is read with the history."
+  }
+ ],
+ "summary": [
+  "Intrahepatic cholestasis (drugs, pregnancy, TPN, sepsis, PBC) leaves ducts normal in caliber; extrahepatic obstruction dilates ducts above the block.",
+  "Cholestasis raises conjugated bilirubin, ALP, and GGT, and causes pruritus, pale stools, dark urine, xanthomas, and vitamin K-correctable PT prolongation.",
+  "PBC destroys small intrahepatic ducts in middle-aged women with antimitochondrial antibody; PSC fibroses large and small ducts with beading, ulcerative colitis, and cholangiocarcinoma risk.",
+  "Activated stellate cells lay collagen in the space of Disse, capillarize sinusoids, and with bridging septa and regenerative nodules create cirrhosis.",
+  "Hepatocellular failure causes mixed jaundice, vitamin K-resistant coagulopathy, hypoalbuminemia, hyperestrogenism, and ammonia-driven encephalopathy with asterixis.",
+  "Splanchnic nitric oxide lowers effective arterial volume, causing hepatorenal syndrome with low urine sodium and normal kidneys; pulmonary capillary dilation causes hepatopulmonary hypoxemia with orthodeoxia.",
+  "Gilbert and Crigler-Najjar syndromes raise unconjugated bilirubin from reduced or absent UGT1A1; phenobarbital response separates type II from type I.",
+  "Alcohol produces steatosis, then hepatitis with ballooning, Mallory-Denk bodies, and neutrophils, then cirrhosis, with AST more than twice ALT; MASLD usually shows ALT above AST.",
+  "Autoimmune hepatitis shows high IgG and plasma cell interface hepatitis; acetaminophen causes zone 3 necrosis after glutathione depletion; isoniazid hepatitis is idiosyncratic.",
+  "Portal hypertension is prehepatic, intrahepatic, or posthepatic; Dubin-Johnson (MRP2, black liver) and Rotor (OATP1B, normal liver) raise conjugated bilirubin with normal ALP and bile acids."
+ ],
+ "sources": [
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Liver and Gallbladder"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Liver Disease"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "The Liver"
+  },
+  {
+   "book": "Boron and Boulpaep Medical Physiology",
+   "where": "Hepatobiliary Function"
+  },
+  {
+   "book": "Lippincott Illustrated Reviews: Biochemistry",
+   "where": "Heme degradation and bilirubin metabolism; ethanol metabolism"
+  },
+  {
+   "book": "Junqueira's Basic Histology",
+   "where": "Organs Associated with the Digestive Tract, liver"
+  }
+ ],
+ "verify": [
+  "MASLD definitions follow the 2023 multisociety nomenclature (steatosis in at least 5% of hepatocytes plus one cardiometabolic criterion); confirm whether NABNE items still use NAFLD and NASH, and how they treat MetALD (MASLD with moderate alcohol intake).",
+  "Prevalence figures (MASLD in about a quarter to a third of adults, Gilbert syndrome in about 5 to 10%) vary by population and source.",
+  "PSC figures vary between sources: inflammatory bowel disease in about 60 to 80%, p-ANCA in about 30 to 80%, and lifetime cholangiocarcinoma risk from about 7 to 20%; this chapter gives about 70% and roughly 10 to 15%.",
+  "Gilbert syndrome inheritance is usually described as autosomal recessive (homozygous UGT1A1*28 in most populations) but some texts call it autosomal dominant with incomplete penetrance.",
+  "Bilirubin ranges for Crigler-Najjar types I and II and for Dubin-Johnson syndrome, and coproporphyrin isomer I fractions (about 80% in Dubin-Johnson, about 65% in Rotor), differ slightly between sources.",
+  "Whether slow or fast acetylators carry the higher risk of isoniazid hepatitis has been reported both ways historically; most recent studies favor slow acetylators.",
+  "HVPG thresholds (above 5 mmHg for portal hypertension, about 10 mmHg for clinically significant portal hypertension, about 12 mmHg for variceal bleeding) and the ascitic protein cutoff of 2.5 g/dL follow common consensus values.",
+  "Hepatorenal syndrome subtype names (type 1 and type 2 versus HRS-AKI and HRS-NAKI) changed in recent consensus criteria; confirm which NABNE uses.",
+  "Reference ranges for ALP, GGT, ALT, AST, and bilirubin vary between laboratories; values given are approximate adult ranges.",
+  "Requested new diagram names for a future revision: liver-acinus-zones (zones 1 to 3 with oxygen and CYP2E1 gradients), sinusoid-disse (hepatocyte, space of Disse, stellate cell, fenestrated endothelium before and after capillarization), and portosystemic-anastomoses."
+ ]
+}

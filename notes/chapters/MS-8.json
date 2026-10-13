@@ -1,0 +1,632 @@
+{
+ "unit": "MS-8",
+ "chapter_id": "NPLEX-P1-MUSC-08",
+ "topic_id": "NPLEX-P1-MUSC-08-01",
+ "title": "Musculoskeletal Biochemistry and Nutrition",
+ "subject": "Musculoskeletal System (MUSC)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter covers the chemistry that keeps bone mineralized and muscle supplied with ATP. It traces vitamin D from skin to kidney, explains how PTH, calcitriol, calcitonin, and FGF23 hold serum calcium and phosphate in range, follows muscle fuel use from the first seconds of effort to hours of exercise, and uses McArdle disease and CPT II deficiency to show what happens when one fuel pathway fails. It ends with the minerals and cofactors that bone and muscle depend on. Board questions usually give a lab pattern or an exercise history and ask for the hormone, enzyme, or cofactor that explains it.",
+  "prerequisites": [
+   "Glycolysis, glycogenolysis, gluconeogenesis, and their ATP yields",
+   "Mitochondrial beta-oxidation and oxidative phosphorylation",
+   "Bone cells and remodeling: osteoblasts, osteocytes, osteoclasts (MS-1)",
+   "Nephron segments and proximal tubule transport",
+   "Nuclear receptors and G protein coupled receptor signaling"
+  ],
+  "connections": [
+   {
+    "to": "Renal physiology",
+    "how": "The proximal tubule is where 1-alpha-hydroxylation occurs and where PTH and FGF23 regulate phosphate reabsorption, so kidney disease disturbs both."
+   },
+   {
+    "to": "Endocrine system (parathyroid and thyroid)",
+    "how": "Parathyroid chief cells and thyroid C cells sense ionized calcium and release the hormones that defend it."
+   },
+   {
+    "to": "Metabolic bone disease (rickets, osteomalacia, osteoporosis)",
+    "how": "Low calcium times phosphate product impairs mineralization, while a high RANKL to OPG ratio increases resorption."
+   },
+   {
+    "to": "Skeletal muscle physiology (MS-3)",
+    "how": "Fiber type determines whether a muscle relies on glycogen or fatty acids, which predicts which metabolic myopathy affects it."
+   },
+   {
+    "to": "Connective tissue biochemistry",
+    "how": "Collagen hydroxylation and cross-linking need vitamin C and copper, linking nutrition to bone strength."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Calcidiol",
+    "def": "25-hydroxyvitamin D, the main circulating and storage form of vitamin D made in the liver."
+   },
+   {
+    "term": "Calcitriol",
+    "def": "1,25-dihydroxyvitamin D, the active hormone made mainly in the renal proximal tubule."
+   },
+   {
+    "term": "Calcium-sensing receptor (CaSR)",
+    "def": "A Gq coupled receptor on parathyroid and renal cells that detects ionized calcium and suppresses PTH release when calcium is high."
+   },
+   {
+    "term": "RANKL",
+    "def": "Receptor activator of nuclear factor kappa B ligand, made by osteoblasts and osteocytes, which binds RANK on osteoclast precursors to drive their maturation and activity."
+   },
+   {
+    "term": "Osteoprotegerin (OPG)",
+    "def": "A soluble decoy receptor secreted by osteoblasts that binds RANKL and prevents it from activating RANK."
+   },
+   {
+    "term": "FGF23",
+    "def": "Fibroblast growth factor 23, a phosphate-lowering hormone secreted by osteocytes that acts on the kidney with the coreceptor Klotho."
+   },
+   {
+    "term": "Phosphocreatine",
+    "def": "A high-energy phosphate store in muscle that creatine kinase uses to regenerate ATP from ADP in one step."
+   },
+   {
+    "term": "Cori cycle",
+    "def": "The circuit in which muscle lactate is converted to glucose by hepatic gluconeogenesis and returned to muscle."
+   },
+   {
+    "term": "Myoglobinuria",
+    "def": "Myoglobin in the urine after muscle breakdown, giving dark urine that tests positive for heme without red cells."
+   },
+   {
+    "term": "Second wind",
+    "def": "Improved exercise tolerance after about 10 minutes in McArdle disease, as bloodborne glucose and fatty acids replace unavailable muscle glycogen."
+   },
+   {
+    "term": "Carnitine shuttle",
+    "def": "The CPT I, translocase, and CPT II system that carries long-chain fatty acids across the inner mitochondrial membrane."
+   },
+   {
+    "term": "Gamma-carboxylation",
+    "def": "Vitamin K dependent addition of a second carboxyl group to glutamate residues, creating calcium-binding Gla residues."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-MUSC-08-01-C01",
+   "obj": "MS-8.1",
+   "title": "Vitamin D activation and why 25-hydroxyvitamin D measures status",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Vitamin D is a prohormone. Neither the form made in skin nor the form absorbed from food binds the vitamin D receptor well, so two hydroxylations in two organs are needed to make the active hormone. Where each step happens, and how tightly it is regulated, explains which blood test reflects body stores."
+    },
+    {
+     "type": "p",
+     "text": "In the epidermis, ultraviolet B light (about 290 to 315 nm) opens the B ring of 7-dehydrocholesterol, a cholesterol precursor in the plasma membrane of keratinocytes, to form previtamin D3. Body heat then isomerizes previtamin D3 to cholecalciferol (vitamin D3), which enters the circulation bound to vitamin D binding protein. Prolonged sun exposure cannot cause toxicity, because excess UVB converts previtamin D3 and vitamin D3 into inactive photoproducts. Melanin, high latitude, winter, sunscreen, and age (less 7-dehydrocholesterol in older skin) all reduce synthesis. Diet supplies vitamin D3 from animal foods and ergocalciferol (vitamin D2) from fungi and fortified foods; both are fat soluble and absorbed in chylomicrons, so fat malabsorption causes deficiency."
+    },
+    {
+     "type": "flow",
+     "title": "Vitamin D activation",
+     "steps": [
+      "7-dehydrocholesterol in skin plus UVB",
+      "Previtamin D3 isomerizes to cholecalciferol (D3)",
+      "Diet adds D2 and D3 via chylomicrons",
+      "Liver 25-hydroxylase forms 25-hydroxyvitamin D",
+      "Renal proximal tubule 1-alpha-hydroxylase forms calcitriol",
+      "Calcitriol binds the nuclear vitamin D receptor",
+      "24-hydroxylase inactivates both 25-OH D and calcitriol"
+     ],
+     "caption": "The liver step depends on supply; the kidney step is the regulated control point."
+    },
+    {
+     "type": "p",
+     "text": "The liver 25-hydroxylase (mainly CYP2R1) is driven by substrate supply and is barely regulated, so 25-hydroxyvitamin D (calcidiol) rises and falls with sun exposure and intake. It circulates at high concentration bound to vitamin D binding protein and has a half-life of about 2 to 3 weeks, so a single value integrates supply over recent weeks to months."
+    },
+    {
+     "type": "p",
+     "text": "The renal 1-alpha-hydroxylase (CYP27B1) in proximal tubule cells is the control point. PTH and low phosphate increase it; FGF23, high phosphate, and calcitriol itself suppress it, and calcitriol also induces the 24-hydroxylase (CYP24A1) that inactivates both metabolites. Calcitriol circulates at roughly one thousandth the concentration of calcidiol and has a half-life of only hours. In early deficiency, falling calcium absorption raises PTH, which drives 1-alpha-hydroxylase harder, so calcitriol stays normal or even high until stores are severely depleted. That is why serum calcitriol is a poor test of status and serum 25-hydroxyvitamin D is the correct one."
+    },
+    {
+     "type": "p",
+     "text": "Calcitriol acts through the vitamin D receptor, which pairs with the retinoid X receptor and changes gene transcription. In the duodenum it increases the apical calcium channel TRPV6, the carrier protein calbindin, and the basolateral calcium pump, and it raises phosphate absorption. It also suppresses PTH gene transcription. Calcitriol measurement is useful in a different situation: activated macrophages in granulomas (for example sarcoidosis) express 1-alpha-hydroxylase that PTH does not regulate, producing high calcitriol, hypercalcemia, and suppressed PTH. Advanced chronic kidney disease does the opposite, lowering calcitriol despite normal stores."
+    },
+    {
+     "type": "stop",
+     "predict": "A patient with low intake and little sun has a low 25-hydroxyvitamin D but a normal calcitriol. Is the normal calcitriol reassuring?",
+     "explain": "No. Secondary hyperparathyroidism is driving the remaining substrate through 1-alpha-hydroxylase at a high rate, so the active hormone is defended at the cost of high PTH, phosphate wasting, and bone resorption.",
+     "check": "The regulation of 1-alpha-hydroxylase and the half-lives of the two metabolites."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-MUSC-08-01-C02",
+   "obj": "MS-8.2",
+   "title": "Hormonal control of serum calcium and phosphate",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Low ionized calcium is sensed by the calcium-sensing receptor on parathyroid chief cells, which release PTH within minutes. Total serum calcium is about 8.5 to 10.5 mg/dL (2.1 to 2.6 mmol/L). About 45% is ionized, 40% albumin bound, and the rest complexed to anions. Only ionized calcium (about 4.5 to 5.3 mg/dL, 1.1 to 1.3 mmol/L) is sensed and biologically active. Low albumin lowers total but not ionized calcium; alkalosis increases albumin binding and lowers ionized calcium. Adult serum phosphate is about 2.5 to 4.5 mg/dL (0.8 to 1.45 mmol/L)."
+    },
+    {
+     "type": "p",
+     "text": "In the kidney PTH increases calcium reabsorption in the distal convoluted tubule (through the apical channel TRPV5) and thick ascending limb, removes the sodium phosphate cotransporters NaPi-IIa and NaPi-IIc from proximal tubule membranes, and induces 1-alpha-hydroxylase. The phosphaturia matters because calcium released from bone comes with phosphate, which would otherwise complex ionized calcium."
+    },
+    {
+     "type": "p",
+     "text": "Mature osteoclasts lack PTH receptors, so PTH acts on bone indirectly. Osteoblasts and osteocytes respond by raising RANKL and lowering osteoprotegerin (OPG). RANKL binds RANK on osteoclast precursors and, with M-CSF, drives their fusion into multinucleated osteoclasts that dissolve mineral with acid and matrix with cathepsin K. OPG, secreted by osteoblasts, is a decoy receptor that binds RANKL and blocks this step, so the RANKL to OPG ratio sets the resorption rate. Estrogen increases OPG, which is why its loss at menopause speeds resorption. Continuous PTH excess favors resorption, whereas intermittent PTH exposure is anabolic."
+    },
+    {
+     "type": "p",
+     "text": "Calcitonin, from thyroid parafollicular C cells, is released when calcium is high and binds receptors directly on osteoclasts to inhibit resorption. Its role in adults is minor: neither thyroidectomy nor the high calcitonin of medullary thyroid carcinoma disturbs serum calcium. FGF23 from osteocytes is the phosphate-lowering hormone. High phosphate and calcitriol stimulate it; acting with Klotho, it removes proximal tubule phosphate transporters, suppresses 1-alpha-hydroxylase, induces 24-hydroxylase, and reduces PTH secretion. Excess FGF23 (X-linked hypophosphatemia, tumor-induced osteomalacia) causes phosphate wasting with low or inappropriately normal calcitriol."
+    },
+    {
+     "type": "table",
+     "title": "Hormones that regulate calcium and phosphate",
+     "cols": [
+      "Hormone",
+      "Source and stimulus",
+      "Bone",
+      "Kidney",
+      "Gut",
+      "Net serum effect"
+     ],
+     "rows": [
+      [
+       "PTH",
+       "Parathyroid chief cells; low ionized calcium",
+       "Resorption via osteoblast RANKL",
+       "Ca reabsorption, P excretion, and 1-alpha-hydroxylase up",
+       "Indirect, through calcitriol",
+       "Ca up, P down"
+      ],
+      [
+       "Calcitriol",
+       "Proximal tubule; PTH, low phosphate",
+       "Supplies mineral for mineralization",
+       "Minor reabsorption",
+       "Ca and P absorption up",
+       "Ca up, P up"
+      ],
+      [
+       "Calcitonin",
+       "Thyroid C cells; high calcium",
+       "Direct osteoclast inhibition",
+       "Minor",
+       "None",
+       "Ca down slightly"
+      ],
+      [
+       "FGF23",
+       "Osteocytes; high phosphate, calcitriol",
+       "Little direct effect",
+       "P excretion up; 1-alpha-hydroxylase down",
+       "Less absorption via lower calcitriol",
+       "P down"
+      ]
+     ],
+     "caption": "Ca, calcium; P, phosphate. PTH and FGF23 both cause phosphaturia but have opposite effects on calcitriol."
+    },
+    {
+     "type": "table",
+     "title": "Lab patterns that test these relationships",
+     "cols": [
+      "Condition",
+      "Calcium",
+      "Phosphate",
+      "PTH",
+      "Calcitriol"
+     ],
+     "rows": [
+      [
+       "Primary hyperparathyroidism",
+       "High",
+       "Low",
+       "High",
+       "High or normal"
+      ],
+      [
+       "Vitamin D deficiency",
+       "Low or normal",
+       "Low",
+       "High",
+       "Normal, high, or low"
+      ],
+      [
+       "Chronic kidney disease",
+       "Low or normal",
+       "High",
+       "High",
+       "Low"
+      ],
+      [
+       "Hypoparathyroidism",
+       "Low",
+       "High",
+       "Low",
+       "Low"
+      ],
+      [
+       "FGF23 excess (X-linked hypophosphatemia)",
+       "Normal",
+       "Low",
+       "Normal or mildly high",
+       "Low or inappropriately normal"
+      ]
+     ],
+     "caption": "The direction of phosphate relative to PTH usually identifies the primary disturbance."
+    },
+    {
+     "type": "example",
+     "title": "Reading a calcium and phosphate pattern",
+     "text": "A patient with chronic kidney disease has calcium 8.2 mg/dL, phosphate 6.1 mg/dL, and a high PTH. Start with phosphate: the failing kidney cannot excrete it, so phosphate and FGF23 rise. FGF23 and lost renal mass lower 1-alpha-hydroxylase, so calcitriol and gut calcium absorption fall. Low calcium, low calcitriol, and high phosphate all stimulate the parathyroid (secondary hyperparathyroidism). In primary hyperparathyroidism, calcium is high and phosphate low, because a healthy kidney responds to PTH by wasting phosphate."
+    },
+    {
+     "type": "stop",
+     "predict": "If osteoblasts made no OPG, what would happen to bone mass at normal PTH levels?",
+     "explain": "RANKL would act unopposed, so osteoclast formation and resorption would outpace formation and bone would be lost early.",
+     "check": "The paragraph on how PTH acts on bone through osteoblasts."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-MUSC-08-01-C03",
+   "obj": "MS-8.3",
+   "title": "Muscle fuel use across exercise, the Cori cycle, and creatinine",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Muscle can raise its ATP turnover more than a hundredfold, yet its free ATP would last only a few seconds of maximal contraction. It therefore uses three systems that trade speed of ATP supply for capacity. The fastest are the smallest, and the largest are the slowest, so the fuel mix shifts as exercise continues."
+    },
+    {
+     "type": "table",
+     "title": "Energy systems in skeletal muscle",
+     "cols": [
+      "System",
+      "Reaction",
+      "ATP yield",
+      "Dominant period",
+      "Limit"
+     ],
+     "rows": [
+      [
+       "Phosphagen",
+       "Phosphocreatine + ADP to creatine + ATP (creatine kinase)",
+       "1 ATP per phosphocreatine",
+       "First seconds, up to about 10 s maximal",
+       "Small store"
+      ],
+      [
+       "Anaerobic glycolysis",
+       "Glycogen to pyruvate to lactate (lactate dehydrogenase)",
+       "3 ATP per glucosyl unit from glycogen; 2 per blood glucose",
+       "About 10 s to 2 min of hard effort",
+       "Lactate and H+ accumulate; glycogen store"
+      ],
+      [
+       "Oxidative, carbohydrate",
+       "Glucose and glycogen to CO2 via TCA cycle and oxidative phosphorylation",
+       "About 30 to 32 ATP per glucose",
+       "Sustained moderate to high intensity",
+       "Oxygen delivery; glycogen depletion"
+      ],
+      [
+       "Oxidative, fat",
+       "Fatty acids to acetyl-CoA by beta-oxidation, then TCA cycle",
+       "About 106 ATP per palmitate",
+       "Prolonged low to moderate intensity, fasting",
+       "Slower maximal rate; more oxygen per ATP"
+      ]
+     ],
+     "caption": "Higher intensity shifts the mix toward carbohydrate; longer duration shifts it toward fat."
+    },
+    {
+     "type": "p",
+     "text": "Creatine kinase transfers phosphate from phosphocreatine to ADP in one step, buffering ATP at the start of contraction. Glycogen breakdown begins immediately: calcium released from the sarcoplasmic reticulum activates phosphorylase kinase, AMP allosterically activates glycogen phosphorylase, and epinephrine adds cAMP and protein kinase A. Phosphorylase releases glucose 1-phosphate without spending ATP, so glycogen yields 3 ATP per glucosyl unit anaerobically. Muscle lacks glucose 6-phosphatase, so its glycogen serves only the muscle. When glycolysis outruns mitochondria, lactate dehydrogenase reduces pyruvate to lactate to regenerate NAD+ so glycolysis can continue."
+    },
+    {
+     "type": "p",
+     "text": "As exercise continues, AMP-activated protein kinase and contraction move GLUT4 to the membrane without insulin, and adipose lipolysis supplies fatty acids. In prolonged low to moderate exercise and in fasting, especially in oxidative type I fibers, fatty acids become the major fuel, sparing glycogen. Fat yields more ATP per carbon but needs more oxygen per ATP and is oxidized at a slower maximal rate, so very intense effort still depends on carbohydrate."
+    },
+    {
+     "type": "cycle",
+     "title": "The Cori cycle",
+     "steps": [
+      "Muscle glycolysis makes lactate from glucose (+2 ATP)",
+      "Lactate enters blood",
+      "Liver oxidizes lactate to pyruvate",
+      "Hepatic gluconeogenesis makes glucose (uses 6 ATP equivalents)",
+      "Glucose returns to muscle"
+     ],
+     "caption": "Net cost of about 4 ATP per turn, paid by hepatic fatty acid oxidation; the glucose-alanine cycle also carries amino nitrogen."
+    },
+    {
+     "type": "p",
+     "text": "The Cori cycle moves the metabolic burden from working muscle to the liver, which spends 6 high-energy phosphates (4 ATP and 2 GTP) to rebuild one glucose from 2 lactate while muscle gained only 2 ATP. It also explains lactic acidosis when hepatic gluconeogenesis fails or perfusion falls."
+    },
+    {
+     "type": "p",
+     "text": "Creatine is made from arginine and glycine in the kidney (guanidinoacetate) and methylated by S-adenosylmethionine in the liver, then taken up by muscle. Creatine and phosphocreatine cyclize nonenzymatically to creatinine at a nearly constant rate of about 1.5 to 2% of the pool per day. Daily creatinine production therefore tracks muscle mass, and creatinine is freely filtered with little tubular secretion, so serum creatinine (about 0.6 to 1.2 mg/dL, 53 to 106 micromol/L) reflects both muscle mass and GFR. A frail older adult can have a normal serum creatinine despite a reduced GFR, and a muscular person a mildly high one with normal GFR. Creatine kinase, unlike creatinine, rises only when damaged muscle leaks it."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-MUSC-08-01-C04",
+   "obj": "MS-8.4",
+   "title": "McArdle disease: muscle glycogen phosphorylase deficiency",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "McArdle disease (glycogen storage disease type V) is an autosomal recessive deficiency of myophosphorylase, the muscle isoform of glycogen phosphorylase, caused by mutations in the PYGM gene. Liver phosphorylase is a separate isoform and is normal, so hepatic glycogenolysis and fasting blood glucose are preserved. The defect is confined to the one fuel that muscle needs most at the start of intense work."
+    },
+    {
+     "type": "p",
+     "text": "Phosphorylase is the first enzyme of glycogenolysis, cleaving glucose 1-phosphate from glycogen chains. Without it, the fiber cannot use its own glycogen, which accumulates modestly in subsarcolemmal deposits that stain with periodic acid-Schiff. At rest and during light activity, muscle runs on bloodborne glucose and fatty acids and the patient feels normal. In the first minutes of brief, intense, or isometric exercise (sprinting, lifting, carrying), demand outruns blood fuel delivery, the phosphocreatine store is exhausted, and ATP falls."
+    },
+    {
+     "type": "flow",
+     "title": "From missing myophosphorylase to myoglobinuria",
+     "steps": [
+      "Intense exercise begins",
+      "Muscle glycogen cannot be broken down",
+      "Phosphocreatine is spent; ATP falls",
+      "Calcium reuptake and ion pumps fail",
+      "Contracture and early fatigue",
+      "Membrane breakdown releases CK and myoglobin",
+      "Dark urine; risk of acute kidney injury"
+     ],
+     "caption": "Symptoms begin within minutes of intense exercise, when muscle normally depends on its own glycogen."
+    },
+    {
+     "type": "p",
+     "text": "Low ATP explains each sign. Relaxation needs ATP for SERCA to pump calcium back into the sarcoplasmic reticulum and for myosin to release actin, so fibers stay contracted in painful cramps that are electrically silent on electromyography (contractures). Failing Na+/K+-ATPase activity and membrane damage lead to rhabdomyolysis: creatine kinase is often elevated even at rest and rises sharply after attacks, and myoglobin colors the urine red-brown. The urine dipstick is positive for heme while microscopy shows few or no red cells. Filtered myoglobin can injure tubules and cause acute kidney injury."
+    },
+    {
+     "type": "p",
+     "text": "Blood lactate fails to rise with exercise because no glucosyl units enter glycolysis from glycogen. In the classic forearm exercise test, lactate stays flat while ammonia still rises, often excessively, because ATP depletion pushes AMP through AMP deaminase in the purine nucleotide cycle. A normal lactate rise argues against a glycogenolytic or glycolytic defect."
+    },
+    {
+     "type": "p",
+     "text": "The second wind is a hallmark. After about 6 to 10 minutes of moderate exercise, heart rate falls and the patient can continue, because increased muscle blood flow and hepatic glycogenolysis now deliver glucose, and adipose lipolysis delivers fatty acids. The muscle bypasses its own glycogen. Glycolysis downstream of phosphorylase is intact, so blood glucose can still be used."
+    },
+    {
+     "type": "table",
+     "title": "McArdle disease compared with related glycogen disorders",
+     "cols": [
+      "Feature",
+      "McArdle (type V)",
+      "Phosphofructokinase deficiency (type VII)",
+      "Liver phosphorylase deficiency (type VI)"
+     ],
+     "rows": [
+      [
+       "Enzyme",
+       "Muscle glycogen phosphorylase",
+       "Muscle phosphofructokinase",
+       "Liver glycogen phosphorylase"
+      ],
+      [
+       "Fasting hypoglycemia",
+       "No",
+       "No",
+       "Mild, with hepatomegaly"
+      ],
+      [
+       "Exercise lactate rise",
+       "Absent",
+       "Absent",
+       "Normal"
+      ],
+      [
+       "Second wind",
+       "Yes",
+       "Not typical; glucose cannot enter glycolysis",
+       "Not applicable"
+      ],
+      [
+       "Other",
+       "Contractures, myoglobinuria",
+       "Also hemolysis and hyperuricemia",
+       "Liver-limited disease"
+      ]
+     ],
+     "caption": "The step blocked determines whether blood glucose can rescue exercising muscle."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-MUSC-08-01-C05",
+   "obj": "MS-8.5",
+   "title": "Carnitine shuttle defects and CPT II deficiency",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Long-chain fatty acids (about 14 to 20 carbons) are oxidized in the mitochondrial matrix, but their acyl-CoA esters cannot cross the inner mitochondrial membrane. The carnitine shuttle carries them across. Short- and medium-chain fatty acids enter the matrix without carnitine, which is why carnitine shuttle defects spare their use."
+    },
+    {
+     "type": "flow",
+     "title": "The carnitine shuttle",
+     "steps": [
+      "Acyl-CoA synthetase activates fatty acid on outer membrane",
+      "CPT I transfers acyl group to carnitine",
+      "Translocase moves acylcarnitine into matrix, carnitine out",
+      "CPT II regenerates acyl-CoA on inner membrane",
+      "Beta-oxidation yields acetyl-CoA, NADH, FADH2"
+     ],
+     "caption": "CPT I is the regulated step: malonyl-CoA, made in the fed state, inhibits it."
+    },
+    {
+     "type": "p",
+     "text": "CPT I is the rate-limiting step. Malonyl-CoA, produced by acetyl-CoA carboxylase when insulin is high, inhibits CPT I so newly made fatty acids are not oxidized. In fasting and prolonged exercise, glucagon, epinephrine, and AMP-activated protein kinase lower malonyl-CoA and open the shuttle. Skeletal muscle, especially oxidative type I fibers, and heart then depend heavily on fatty acid oxidation."
+    },
+    {
+     "type": "p",
+     "text": "Carnitine palmitoyltransferase II deficiency is an autosomal recessive disorder and the most common inherited disorder of fatty acid oxidation affecting skeletal muscle in adults. In the common myopathic form, enough enzyme activity remains to meet normal needs, so patients are well between attacks with normal strength and often normal CK. Attacks come when demand for fatty acid oxidation is high and glycogen is depleted: prolonged exercise, fasting, cold exposure, fever, or infection. The fiber then runs short of ATP, cannot maintain ion gradients and membrane integrity, and breaks down. The result is muscle pain, weakness, and exertional rhabdomyolysis with myoglobinuria, high CK, and risk of acute kidney injury."
+    },
+    {
+     "type": "p",
+     "text": "The timing separates it from McArdle disease. Short intense exercise uses glycogen and is tolerated, there is no second wind, and the forearm exercise test shows a normal lactate rise. Long-chain acylcarnitines (for example C16 and C18:1) build up behind the block and can be detected in plasma. Severe neonatal and infantile forms affect liver and heart and cause hypoketotic hypoglycemia, because the liver cannot make ketones from fatty acids and gluconeogenesis lacks the acetyl-CoA, ATP, and NADH that fatty acid oxidation normally provides."
+    },
+    {
+     "type": "table",
+     "title": "Defects of carnitine-dependent fatty acid transport",
+     "cols": [
+      "Defect",
+      "Main tissues",
+      "Key features"
+     ],
+     "rows": [
+      [
+       "CPT II deficiency, myopathic form",
+       "Skeletal muscle",
+       "Episodic rhabdomyolysis after prolonged exercise, fasting, cold, or illness"
+      ],
+      [
+       "CPT I deficiency (liver isoform)",
+       "Liver",
+       "Hypoketotic hypoglycemia with fasting; muscle usually spared"
+      ],
+      [
+       "Primary carnitine deficiency (carnitine transporter OCTN2)",
+       "Heart, muscle, liver",
+       "Low plasma carnitine, cardiomyopathy, weakness, hypoketotic hypoglycemia"
+      ]
+     ],
+     "caption": "Which isoform or transporter is defective determines whether liver, muscle, or heart fails first."
+    },
+    {
+     "type": "example",
+     "title": "Distinguishing two exercise-induced myoglobinurias",
+     "text": "Patient A develops cramps and dark urine within minutes of lifting heavy boxes, but can keep walking if he slows down for a few minutes. Patient B finishes a 3-hour hike without breakfast, then develops aching weakness and dark urine that evening. A fails early, when muscle relies on its own glycogen, and improves once blood glucose and fatty acids arrive: McArdle disease, with a flat lactate response. B fails late, after glycogen is spent and muscle depends on long-chain fatty acids: CPT II deficiency, with a normal lactate rise and raised long-chain acylcarnitines."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-MUSC-08-01-C06",
+   "obj": "MS-8.6",
+   "title": "Minerals and cofactors in bone and muscle",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Bone strength comes from two components: a type I collagen scaffold that resists tension and bends without breaking, and a mineral phase that resists compression. By weight, mature bone matrix is roughly two thirds mineral and one third organic material, about 90% of which is type I collagen. Several nutrients act at specific steps in building each component."
+    },
+    {
+     "type": "p",
+     "text": "The mineral is calcium hydroxyapatite, Ca10(PO4)6(OH)2, deposited as small crystals in the gaps between collagen fibrils. Bone holds about 99% of body calcium and about 85% of body phosphate. Osteoblasts release matrix vesicles and express tissue-nonspecific alkaline phosphatase, which cleaves pyrophosphate (a crystal inhibitor) and frees phosphate. Mineralization therefore needs an adequate calcium times phosphate product; when either is low, as in vitamin D deficiency or phosphate wasting, unmineralized osteoid accumulates (rickets in children, osteomalacia in adults). Fluoride can replace hydroxyl ions to form fluorapatite, which is more resistant to acid."
+    },
+    {
+     "type": "p",
+     "text": "Collagen requires vitamin C for prolyl and lysyl hydroxylation inside the cell, and copper for cross-linking outside it. Lysyl oxidase, a copper-dependent extracellular enzyme, oxidatively deaminates selected lysine and hydroxylysine residues to reactive aldehydes, which condense with neighboring residues to form covalent cross-links between collagen molecules (and elastin). Without cross-links, fibrils have little tensile strength. Copper deficiency, including Menkes disease (X-linked ATP7A defect in copper transport), causes osteoporosis, fragile vessels, and lax connective tissue."
+    },
+    {
+     "type": "p",
+     "text": "Vitamin K is the cofactor for gamma-glutamyl carboxylase, which adds a second carboxyl group to specific glutamate residues to make gamma-carboxyglutamate (Gla). The two adjacent carboxyl groups chelate calcium. Osteocalcin, made by osteoblasts, needs its Gla residues to bind hydroxyapatite; matrix Gla protein uses the same modification to inhibit calcification of soft tissue. The reaction oxidizes vitamin K to its epoxide, and vitamin K epoxide reductase (the enzyme warfarin inhibits) recycles it."
+    },
+    {
+     "type": "p",
+     "text": "Magnesium (serum about 1.7 to 2.2 mg/dL, 0.7 to 0.9 mmol/L) is needed for both PTH secretion and PTH action. Mild hypomagnesemia can stimulate PTH, but severe hypomagnesemia (often below about 1 mg/dL) impairs PTH release and causes end-organ resistance, partly because low intracellular magnesium enhances calcium-sensing receptor signaling. The resulting hypocalcemia does not correct with calcium alone until magnesium is restored. Magnesium is also bound to ATP in every kinase and ATPase reaction in muscle."
+    },
+    {
+     "type": "table",
+     "title": "Mineral and cofactor roles",
+     "cols": [
+      "Nutrient",
+      "Enzyme or role",
+      "Product or process",
+      "Deficiency effect"
+     ],
+     "rows": [
+      [
+       "Calcium and phosphate",
+       "Substrates for hydroxyapatite",
+       "Bone mineral",
+       "Rickets or osteomalacia"
+      ],
+      [
+       "Vitamin C",
+       "Prolyl and lysyl hydroxylase",
+       "Stable collagen triple helix",
+       "Scurvy, weak osteoid"
+      ],
+      [
+       "Copper",
+       "Lysyl oxidase",
+       "Collagen and elastin cross-links",
+       "Osteoporosis, vascular fragility"
+      ],
+      [
+       "Vitamin K",
+       "Gamma-glutamyl carboxylase",
+       "Gla residues on osteocalcin and matrix Gla protein",
+       "Undercarboxylated osteocalcin"
+      ],
+      [
+       "Magnesium",
+       "PTH secretion and action; Mg-ATP",
+       "Calcium homeostasis; muscle energetics",
+       "Refractory hypocalcemia"
+      ]
+     ],
+     "caption": "Vitamin C and copper build the collagen scaffold; calcium, phosphate, and vitamin K govern its mineral."
+    },
+    {
+     "type": "stop",
+     "predict": "A patient with chronic diarrhea has low calcium that does not rise with calcium replacement, and PTH is inappropriately low. What should be measured?",
+     "explain": "Serum magnesium. Severe hypomagnesemia suppresses PTH release and blunts PTH action, so calcium stays low until magnesium is replaced.",
+     "check": "The magnesium paragraph."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Calcium balance links four organs through one set of hormones. The skin and liver supply vitamin D according to sun and diet, the kidney decides how much becomes calcitriol and how much phosphate to keep, bone acts as both reservoir and sensor through osteoblasts and osteocytes, and the parathyroid closes the loop. Pathology follows from where the loop breaks: deficient supply gives secondary hyperparathyroidism and osteomalacia, renal failure gives high phosphate, high FGF23, and low calcitriol, and granulomas escape PTH control altogether. Biochemistry adds the scaffold side, since vitamin C, copper, and vitamin K act on proteins rather than on mineral, so a normal calcium does not guarantee normal bone."
+  },
+  {
+   "type": "p",
+   "text": "In muscle, timing is the diagnostic clue. Brief intense effort depends on phosphocreatine and glycogen, so glycogenolytic and glycolytic defects fail early and show a flat lactate response; prolonged effort and fasting depend on long-chain fatty acids, so carnitine shuttle defects fail late with a normal lactate response. Both end in the same pathology, ATP depletion followed by rhabdomyolysis, and the same renal risk from myoglobin. Creatinine and creatine kinase come from the same muscle chemistry but answer different questions: creatinine reflects muscle mass and filtration, while creatine kinase reflects injury."
+  }
+ ],
+ "summary": [
+  "Vitamin D needs hepatic 25-hydroxylation (supply driven) and renal 1-alpha-hydroxylation (regulated by PTH, phosphate, FGF23, and calcitriol) to become active.",
+  "Serum 25-hydroxyvitamin D measures status because it is abundant, long lived, and unregulated; calcitriol can stay normal in deficiency because PTH drives its production.",
+  "PTH raises calcium by increasing distal tubular reabsorption, calcitriol synthesis, and osteoblast-mediated osteoclast activation, and lowers phosphate by proximal tubule phosphaturia.",
+  "The RANKL to OPG ratio sets bone resorption; OPG is a decoy receptor that limits osteoclast activation.",
+  "FGF23 from osteocytes lowers phosphate and calcitriol; calcitonin inhibits osteoclasts directly but has a minor role in adult calcium balance.",
+  "Muscle uses phosphocreatine first, then anaerobic glycolysis, then oxidative metabolism, with fat dominating prolonged moderate exercise; the Cori cycle costs about 4 ATP per turn.",
+  "Creatinine forms nonenzymatically at a steady rate from creatine, so it reflects muscle mass as well as GFR.",
+  "McArdle disease fails early in intense exercise, with contractures, myoglobinuria, flat lactate, and a second wind; CPT II deficiency fails late with prolonged exercise, fasting, or cold.",
+  "Bone mineral is calcium hydroxyapatite; copper (lysyl oxidase) and vitamin C build the collagen scaffold, vitamin K carboxylates osteocalcin, and magnesium is needed for PTH secretion and action."
+ ],
+ "sources": [
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Parathyroid Hormone, Calcitonin, Calcium and Phosphate Metabolism, Vitamin D, Bone, and Teeth"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Sports Physiology"
+  },
+  {
+   "book": "Boron and Boulpaep Medical Physiology",
+   "where": "Endocrine regulation of calcium and phosphate"
+  },
+  {
+   "book": "Lippincott Illustrated Reviews: Biochemistry",
+   "where": "Glycogen Metabolism; Metabolism of Dietary Lipids and fatty acid oxidation; Vitamins; Collagen"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Genetic and Pediatric Diseases: glycogen storage diseases; Bones, Joints, and Soft Tissue Tumors: metabolic bone disease"
+  }
+ ],
+ "verify": [
+  "Vitamin D status cutoffs differ: the Institute of Medicine (now National Academy of Medicine) treats 25-hydroxyvitamin D of 20 ng/mL (50 nmol/L) or more as adequate, while the Endocrine Society guideline used 30 ng/mL (75 nmol/L); confirm which thresholds NABNE expects. No cutoff is stated in the chapter body for this reason.",
+  "Reference ranges for total and ionized calcium, phosphate, magnesium, and creatinine vary slightly by laboratory; values here are approximate consensus ranges.",
+  "The magnesium level below which PTH secretion is impaired is quoted variously (about 1.0 to 1.2 mg/dL); the chapter says about 1 mg/dL.",
+  "The duration of the phosphagen and anaerobic phases (about 10 s and up to about 2 min) and the timing of the McArdle second wind (about 6 to 10 min) vary between physiology and clinical sources.",
+  "ATP yields assume modern P/O ratios (about 30 to 32 ATP per glucose, about 106 per palmitate); older texts give 36 to 38 and 129.",
+  "Confirm whether NABNE expects the ischemic or nonischemic forearm exercise test, and the specific acylcarnitine species (C16, C18:1) for CPT II deficiency.",
+  "The statement that intermittent PTH exposure is anabolic is included as mechanism only; confirm that NABNE Part I tests this distinction.",
+  "Requested new diagram names for a future revision: vitamin-d-pathway (skin, liver, kidney hydroxylation steps with regulators) and carnitine-shuttle (CPT I, translocase, CPT II across mitochondrial membranes)."
+ ]
+}

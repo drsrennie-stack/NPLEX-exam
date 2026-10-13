@@ -1,0 +1,869 @@
+{
+  "unit": "GI-13-L",
+  "chapter_id": "NPLEX-P1-GAST-13",
+  "topic_id": "NPLEX-P1-GAST-13-12",
+  "title": "Infectious Gastrointestinal Diseases",
+  "subject": "Gastrointestinal System (GAST)",
+  "version": "1.0",
+  "overview": {
+    "intro": "This chapter covers infection along the whole digestive tract: the mouth and teeth, the esophagus, the small and large bowel, and the liver. The organisms differ, but the reasoning is the same each time. Ask what normally keeps the organism in check, which cell or layer it attacks, and whether it damages tissue by invasion, by toxin, or through the host immune response. That mechanism predicts the stool (watery or bloody), the lesion (plaque, vesicle, ulcer, or abscess), the timing, and the complication. Board questions give a setting, such as recent antibiotics, a cruise ship, an AIDS patient with painful swallowing, or a serology panel, and ask you to name the organism and predict what comes next.",
+    "prerequisites": [
+      "Histology of the oral mucosa, periodontium, esophagus, small intestinal villi, colon, and liver lobule",
+      "Intestinal fluid secretion through CFTR and absorption through sodium-coupled transport",
+      "G protein signaling through cAMP and cGMP",
+      "Bacterial structure, spores, exotoxins, and endotoxin; viral genome types",
+      "Innate and adaptive immunity, including cytotoxic T cells, antibody classes, and type III hypersensitivity"
+    ],
+    "connections": [
+      {
+        "to": "Renal system",
+        "how": "Shiga toxin injures glomerular endothelium, so EHEC infection can end in acute kidney injury through hemolytic uremic syndrome."
+      },
+      {
+        "to": "Nervous system",
+        "how": "Antibodies raised against Campylobacter cross-react with peripheral nerve gangliosides and cause Guillain-Barre syndrome."
+      },
+      {
+        "to": "Musculoskeletal system",
+        "how": "Reactive arthritis after Shigella, Salmonella, Campylobacter, or Yersinia enteritis is strongly linked to HLA-B27."
+      },
+      {
+        "to": "Immunology and HIV infection",
+        "how": "Thrush and esophagitis from Candida, HSV, and CMV track the fall in CD4 T cells and mark advancing immunosuppression."
+      },
+      {
+        "to": "Hepatic pathology and neoplasia",
+        "how": "Chronic HBV and HCV infection drive cirrhosis and hepatocellular carcinoma by different molecular routes."
+      }
+    ],
+    "terms": [
+      {
+        "term": "Pseudomembrane",
+        "def": "An adherent plaque of fibrin, mucus, neutrophils, and necrotic epithelium that forms on injured mucosa and resembles a membrane."
+      },
+      {
+        "term": "Enterotoxin",
+        "def": "A bacterial toxin that acts on intestinal epithelium to cause fluid secretion, often without killing the cell."
+      },
+      {
+        "term": "Dysentery",
+        "def": "Frequent small-volume stools containing blood and mucus with cramps and tenesmus, caused by mucosal invasion or cytotoxic injury of the colon."
+      },
+      {
+        "term": "Hemolytic uremic syndrome",
+        "def": "A thrombotic microangiopathy with microangiopathic hemolytic anemia, thrombocytopenia, and acute kidney injury."
+      },
+      {
+        "term": "Molecular mimicry",
+        "def": "Cross-reaction of an immune response against a microbial antigen with a structurally similar host molecule."
+      },
+      {
+        "term": "Odynophagia",
+        "def": "Pain on swallowing, which points to ulceration or inflammation of the esophageal mucosa."
+      },
+      {
+        "term": "Biofilm",
+        "def": "A structured community of bacteria embedded in a self-made extracellular matrix and attached to a surface."
+      },
+      {
+        "term": "Pseudohyphae",
+        "def": "Chains of elongated budding yeast cells that stay attached, with constrictions at each septum, typical of Candida in tissue."
+      },
+      {
+        "term": "Window period",
+        "def": "The interval in hepatitis B after HBsAg has cleared and before anti-HBs is detectable, when IgM anti-HBc is the only marker of acute infection."
+      },
+      {
+        "term": "Quasispecies",
+        "def": "A population of closely related but genetically different viral variants within one host, produced by an error-prone polymerase."
+      },
+      {
+        "term": "Cryoglobulin",
+        "def": "An immunoglobulin or immune complex that precipitates in the cold and redissolves on warming."
+      },
+      {
+        "term": "Anchovy paste fluid",
+        "def": "The thick, odorless, reddish-brown aspirate of an amebic liver abscess, made of liquefied liver tissue and blood with few neutrophils."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "comp": "NPLEX-P1-GAST-13-12-C01",
+      "obj": "GI-13-L.1",
+      "title": "Pseudomembranous colitis from Clostridioides difficile",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The healthy colon holds a dense anaerobic flora that resists colonization by newcomers. Part of that resistance is metabolic: resident bacteria convert primary bile acids into secondary bile acids, and they use up the nutrients a newcomer would need. Primary bile acids such as taurocholate trigger germination of C. difficile spores, while secondary bile acids inhibit growth of the vegetative cells."
+        },
+        {
+          "type": "p",
+          "text": "Clostridioides difficile is a gram-positive, spore-forming, obligately anaerobic bacillus. Its spores survive drying, alcohol hand rubs, and many surface disinfectants, so they persist on hospital surfaces and hands and are swallowed. Almost any antibiotic can disturb the flora, but clindamycin, fluoroquinolones, and cephalosporins carry the highest risk. Older age, hospital or nursing home stay, and acid suppression add risk, and disease can follow even a single dose or begin weeks after the drug is stopped."
+        },
+        {
+          "type": "flow",
+          "title": "From antibiotic exposure to pseudomembranes",
+          "steps": [
+            "Antibiotic depletes resident colonic flora",
+            "Secondary bile acids fall; primary bile acids rise",
+            "Ingested spores germinate into toxin-producing cells",
+            "Toxins A and B glucosylate Rho family GTPases",
+            "Actin collapses, tight junctions open, colonocytes die",
+            "Neutrophils, fibrin, and mucus form pseudomembranes"
+          ],
+          "caption": "Loss of colonization resistance lets spores germinate; toxin injury and the neutrophil response build the pseudomembranes."
+        },
+        {
+          "type": "p",
+          "text": "The organism does not invade. Disease is caused by two large exotoxins. Toxin A (TcdA) is mainly an enterotoxin that draws fluid and neutrophils, and toxin B (TcdB) is a more potent cytotoxin. Both enter colonocytes and glucosylate Rho, Rac, and Cdc42, the GTPases that maintain the actin cytoskeleton. The cells round up, tight junctions open, fluid leaks into the lumen, and dying cells release IL-8 and other signals that recruit neutrophils. Some epidemic strains also make a binary toxin and produce more toxin A and B."
+        },
+        {
+          "type": "p",
+          "text": "Grossly the colon shows raised yellow-white plaques scattered over a reddened mucosa. Microscopically the exudate bursts out of damaged crypts in a mushroom or volcano pattern. Patients have watery, usually nonbloody diarrhea, cramping, fever, and often a marked neutrophil leukocytosis. In severe colitis the inflamed wall loses tone and the colon dilates (toxic megacolon, usually a transverse colon diameter over about 6 cm with systemic toxicity), which can perforate."
+        },
+        {
+          "type": "p",
+          "text": "Diagnosis rests on finding the toxin or its genes in unformed stool, by enzyme immunoassay for toxin or by nucleic acid amplification for the toxin B gene. Because people can carry the organism without disease, a positive test is meaningful only in a patient with three or more unformed stools in a day. Endoscopic pseudomembranes are characteristic but not required."
+        },
+        {
+          "type": "stop",
+          "predict": "Why does a patient develop C. difficile colitis after a course of antibiotics even though the antibiotic did not bring the organism?",
+          "explain": "The antibiotic removed the resident flora that made secondary bile acids and competed for nutrients, so swallowed spores could germinate and the toxin-producing cells could multiply.",
+          "check": "Compare with the first paragraph and the flow figure on colonization resistance."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-GAST-13-12-C02",
+      "obj": "GI-13-L.2",
+      "title": "Bloody enterocolitis and its complications",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Diarrhea becomes bloody when the organism breaks the mucosa, either by invading epithelial cells or by killing them with a cytotoxin. The result is dysentery: frequent small stools with blood, mucus, and pus, cramping, and tenesmus. Invasive bacteria usually cause fever and many fecal leukocytes. Two useful exceptions are EHEC, which is not invasive and usually causes little or no fever, and Entamoeba histolytica, whose trophozoites lyse neutrophils so fecal leukocytes may be scant."
+        },
+        {
+          "type": "table",
+          "title": "Causes of bloody enterocolitis",
+          "cols": [
+            "Organism",
+            "Biology and source",
+            "How it injures the mucosa",
+            "Classic complication"
+          ],
+          "rows": [
+            [
+              "Shigella",
+              "Gram-negative, nonmotile, non-lactose fermenting rod; person to person; infectious dose of a few hundred organisms or fewer",
+              "Enters M cells, escapes into cytoplasm, spreads cell to cell by actin polymerization; ulcers of the distal colon",
+              "Reactive arthritis; HUS with Shiga toxin of S. dysenteriae type 1"
+            ],
+            [
+              "Campylobacter jejuni",
+              "Curved or S-shaped gram-negative rod, oxidase positive, grows best at 42 C (107.6 F); undercooked poultry, raw milk",
+              "Invades jejunal, ileal, and colonic mucosa",
+              "Guillain-Barre syndrome; reactive arthritis"
+            ],
+            [
+              "Nontyphoidal Salmonella",
+              "Motile, flagellated, H2S-producing gram-negative rod; poultry, eggs, reptiles; acid-sensitive, so large inoculum needed",
+              "Invades through M cells with a type III secretion system, survives in macrophages; ileum and colon",
+              "Bacteremia; osteomyelitis in sickle cell disease; reactive arthritis"
+            ],
+            [
+              "EHEC O157:H7",
+              "Does not ferment sorbitol; undercooked ground beef, unpasteurized juice, produce",
+              "Attaches to colonic cells and releases Shiga toxin; not invasive",
+              "Hemolytic uremic syndrome"
+            ],
+            [
+              "Entamoeba histolytica",
+              "Protozoan; cysts in fecally contaminated water or food",
+              "Trophozoites lyse cells and form flask-shaped ulcers, often in the cecum and ascending colon; trophozoites contain ingested red cells",
+              "Amebic liver abscess through the portal vein"
+            ]
+          ],
+          "caption": "Invasion or cytotoxic injury puts blood and inflammatory cells in the stool; each organism has a complication it is known for."
+        },
+        {
+          "type": "h",
+          "text": "Hemolytic uremic syndrome after EHEC"
+        },
+        {
+          "type": "p",
+          "text": "Shiga toxin has one A subunit and five B subunits. The B subunits bind the glycolipid Gb3, which is abundant on glomerular endothelium. The A subunit removes an adenine from the 28S ribosomal RNA of the 60S subunit, halting protein synthesis and injuring the endothelial cell. Hemolytic uremic syndrome follows in roughly 5 to 15% of infected children, about 5 to 10 days after diarrhea begins."
+        },
+        {
+          "type": "flow",
+          "title": "Shiga toxin to hemolytic uremic syndrome",
+          "steps": [
+            "EHEC in colon releases Shiga toxin",
+            "Toxin absorbed and binds Gb3 on renal endothelium",
+            "A subunit inactivates 60S ribosome; endothelium injured",
+            "Platelet microthrombi form in glomerular capillaries",
+            "Red cells sheared into schistocytes; platelets consumed",
+            "Anemia, thrombocytopenia, acute kidney injury"
+          ],
+          "caption": "Endothelial injury, not bacterial invasion, explains each part of the HUS triad."
+        },
+        {
+          "type": "h",
+          "text": "Postinfectious immune complications"
+        },
+        {
+          "type": "p",
+          "text": "Guillain-Barre syndrome follows Campylobacter infection in a small fraction of cases, usually 1 to 3 weeks later, and Campylobacter is the most commonly identified antecedent infection. The lipooligosaccharide of some strains mimics peripheral nerve gangliosides such as GM1, so antibodies raised against the bacterium bind the axolemma or myelin and cause an ascending, areflexic, flaccid weakness."
+        },
+        {
+          "type": "p",
+          "text": "Reactive arthritis is a sterile, asymmetric oligoarthritis of the lower limbs that appears 1 to 4 weeks after infection with Shigella, Salmonella, Campylobacter, or Yersinia (or after Chlamydia urethritis). It may come with conjunctivitis and urethritis and is strongly associated with HLA-B27, which is thought to shape how bacterial antigens are presented and how long they persist in the joint."
+        },
+        {
+          "type": "stop",
+          "predict": "A child has bloody diarrhea without fever after a barbecue. A week later the urine output falls and the platelet count is low. What links the two events?",
+          "explain": "EHEC releases Shiga toxin that binds Gb3 on glomerular endothelium; endothelial injury causes microthrombi, red cell fragmentation, platelet consumption, and renal failure.",
+          "check": "Compare with the Shiga toxin flow figure."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-GAST-13-12-C03",
+      "obj": "GI-13-L.3",
+      "title": "Infectious esophagitis in the immunocompromised patient",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The esophagus is lined by nonkeratinized stratified squamous epithelium over a lamina propria that holds capillaries and fibroblasts. Intact epithelium, saliva, and peristalsis normally keep organisms from establishing infection. When T cell immunity fails, as in HIV infection with low CD4 counts, transplantation, chemotherapy, or high-dose corticosteroids, three agents dominate: Candida, herpes simplex virus (mostly HSV-1), and cytomegalovirus. All three cause odynophagia, which signals mucosal ulceration, and dysphagia."
+        },
+        {
+          "type": "p",
+          "text": "Each organism produces a different lesion because it infects a different cell. Candida grows on and into the squamous surface. HSV infects squamous epithelial cells, so its damage is in the epithelium and its inclusions are found in the squamous cells at the edge of an ulcer. CMV does not infect squamous cells well; it infects endothelial cells, fibroblasts, and macrophages in the lamina propria, so its ulcers form by injury to the tissue beneath the epithelium and its inclusions lie in the ulcer base. This is why a biopsy for HSV is taken from the ulcer edge and a biopsy for CMV from the ulcer base."
+        },
+        {
+          "type": "table",
+          "title": "Distinguishing infectious esophagitis",
+          "cols": [
+            "Feature",
+            "Candida",
+            "HSV-1",
+            "CMV"
+          ],
+          "rows": [
+            [
+              "Endoscopic appearance",
+              "White or yellow adherent plaques (pseudomembranes)",
+              "Small, shallow, punched-out ulcers, sometimes with vesicles",
+              "Large, shallow, linear or longitudinal ulcers"
+            ],
+            [
+              "Cell infected",
+              "Squamous surface epithelium",
+              "Squamous epithelial cells",
+              "Endothelial cells, fibroblasts, macrophages in the lamina propria"
+            ],
+            [
+              "Microscopy",
+              "Budding yeast and pseudohyphae invading epithelium (PAS or silver stain)",
+              "Multinucleated cells with molded nuclei, ground-glass chromatin, Cowdry A intranuclear inclusions",
+              "Enlarged cells with an owl's eye intranuclear inclusion and granular cytoplasmic inclusions"
+            ],
+            [
+              "Where to biopsy",
+              "Plaque",
+              "Ulcer edge",
+              "Ulcer base"
+            ],
+            [
+              "Usual immune setting",
+              "Most common type; in HIV usually CD4 below about 100 per microliter",
+              "Can occur with milder immunosuppression, rarely in healthy hosts",
+              "Advanced HIV, usually CD4 below about 50 per microliter, and transplant recipients"
+            ]
+          ],
+          "caption": "The cell each organism infects predicts the lesion, the inclusion, and where the diagnostic tissue lies."
+        },
+        {
+          "type": "p",
+          "text": "Candida is the most common cause and often coexists with oral thrush, but thrush can be absent. Esophageal candidiasis, and CMV disease outside the liver, spleen, and nodes, are AIDS-defining conditions. HSV and CMV ulcers may coexist with Candida, so finding plaques does not exclude a viral cause in a patient with severe odynophagia. Pill injury and reflux esophagitis are the main noninfectious alternatives."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-GAST-13-12-C04",
+      "obj": "GI-13-L.4",
+      "title": "Acute watery gastroenteritis by setting",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The watery diarrhea of these infections arises in the small intestine, which handles most of the fluid entering the gut each day. It occurs when absorption by the villus enterocytes is lost or when crypt secretion is switched on. Neither process requires killing many cells or invading the mucosa, so the stool is large in volume and free of blood and neutrophils. The main danger is loss of water, sodium, potassium, and bicarbonate, causing dehydration, hypokalemia, and a non-anion gap metabolic acidosis."
+        },
+        {
+          "type": "table",
+          "title": "Watery gastroenteritis by setting",
+          "cols": [
+            "Organism",
+            "Typical setting",
+            "Mechanism",
+            "Clues"
+          ],
+          "rows": [
+            [
+              "Rotavirus",
+              "Unvaccinated infants and young children, mostly 6 months to 2 years; cooler months",
+              "Nonenveloped, segmented double-stranded RNA virus (Reoviridae); kills mature villus tip enterocytes; NSP4 enterotoxin drives Ca2+-dependent secretion",
+              "Vomiting then watery diarrhea; often severe dehydration"
+            ],
+            [
+              "Norovirus",
+              "Cruise ships, nursing homes, schools, catered food",
+              "Nonenveloped positive-sense RNA calicivirus; blunts small intestinal villi",
+              "Explosive vomiting; incubation 12 to 48 hours; tiny infectious dose; survives on surfaces"
+            ],
+            [
+              "ETEC",
+              "Traveler's diarrhea; contaminated food and water in low-resource regions",
+              "Fimbriae attach to small bowel; heat-labile toxin raises cAMP, heat-stable toxin raises cGMP; no invasion",
+              "Watery diarrhea, usually within the first week of travel"
+            ],
+            [
+              "Vibrio cholerae",
+              "Fecally contaminated water, often after disasters; undercooked shellfish",
+              "Comma-shaped, oxidase-positive gram-negative rod; cholera toxin locks Gs on",
+              "Painless rice-water stool, up to about 1 L per hour; shock"
+            ],
+            [
+              "Bacillus cereus",
+              "Cooked rice held warm and reheated",
+              "Spores survive cooking; emetic toxin (cereulide) is preformed and heat stable; diarrheal enterotoxins form in the gut",
+              "Vomiting 1 to 6 hours after eating; diarrheal form 8 to 16 hours"
+            ]
+          ],
+          "caption": "The setting names the organism; the mechanism explains the timing and the stool."
+        },
+        {
+          "type": "p",
+          "text": "Cholera is the model of secretory diarrhea. The toxin's B subunits bind GM1 ganglioside on enterocytes, and the A1 fragment ADP-ribosylates the alpha subunit of Gs. This blocks its GTPase activity, so adenylyl cyclase stays on. ETEC heat-labile toxin works the same way; ETEC heat-stable toxin reaches the same result through guanylate cyclase C and cGMP."
+        },
+        {
+          "type": "flow",
+          "title": "How cholera toxin produces rice-water stool",
+          "steps": [
+            "B subunits bind GM1 on enterocytes",
+            "A1 fragment ADP-ribosylates Gs alpha",
+            "Gs cannot hydrolyze GTP; adenylyl cyclase stays active",
+            "cAMP rises; protein kinase A opens CFTR",
+            "Crypt cells secrete Cl-; Na+ and water follow",
+            "Villus NaCl absorption is also inhibited"
+          ],
+          "caption": "Secretion is switched on without cell death, so the stool is watery, clear, and free of blood and pus."
+        },
+        {
+          "type": "p",
+          "text": "Sodium-glucose cotransport through SGLT1 remains intact in cholera, which is the physiologic basis for glucose-sodium oral rehydration. Incubation time follows mechanism. A preformed toxin in food, as with emetic B. cereus or Staphylococcus aureus, causes vomiting within hours because nothing needs to grow. Organisms that must colonize and then make toxin, such as ETEC and V. cholerae, take a day or more."
+        },
+        {
+          "type": "example",
+          "title": "Worked example: reading the timing",
+          "text": "Twelve people at a buffet develop vomiting about 3 hours after eating fried rice that was cooked the day before and kept warm. Step 1: onset in hours means a preformed toxin; an infection that must multiply could not act this fast. Step 2: vomiting dominates, which fits an emetic toxin acting on the gut and vagal afferents. Step 3: rice that sat warm lets B. cereus spores, which survive boiling, germinate and make cereulide, which reheating does not destroy. Compare a passenger who develops diarrhea and vomiting 36 hours after boarding a ship along with many others: a delay of 1 to 2 days and person-to-person spread fit norovirus."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-GAST-13-12-C05",
+      "obj": "GI-13-L.5",
+      "title": "Plaque, periodontal disease, caries, and tooth abscess",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The periodontium anchors each tooth. The gingiva seals around the neck of the tooth through junctional epithelium, leaving a shallow sulcus about 1 to 3 mm deep. Below it, collagen fibers of the periodontal ligament run from cementum on the root to the alveolar bone of the jaw. Within minutes of cleaning, salivary glycoproteins coat the enamel as a pellicle, and bacteria attach to it and build dental plaque, a biofilm whose matrix protects them from saliva and host defenses."
+        },
+        {
+          "type": "h",
+          "text": "Gingivitis and periodontitis"
+        },
+        {
+          "type": "p",
+          "text": "Plaque left at the gum line for days to weeks provokes gingivitis: red, swollen gums that bleed on brushing. The inflammation is confined to the gingiva and the attachment is intact, so removing plaque returns the tissue to normal. As plaque matures below the gum line, the flora shifts toward gram-negative anaerobes, including Porphyromonas gingivalis. P. gingivalis makes proteases called gingipains that degrade host proteins and disrupt complement, and it alters the local immune response so that inflammation increases while the bacteria survive."
+        },
+        {
+          "type": "p",
+          "text": "Most of the tissue loss in periodontitis is done by the host. Neutrophils, macrophages, and lymphocytes release IL-1, TNF, prostaglandin E2, and matrix metalloproteinases that digest ligament collagen, and RANKL from activated T cells and stromal cells drives osteoclasts to resorb alveolar bone. The junctional epithelium migrates down the root and the sulcus deepens into a periodontal pocket. Ligament and bone do not regrow on their own, so the attachment loss is permanent and teeth become mobile and are lost. Smoking and poorly controlled diabetes are the main systemic risk factors."
+        },
+        {
+          "type": "h",
+          "text": "Dental caries and tooth abscess"
+        },
+        {
+          "type": "p",
+          "text": "Streptococcus mutans uses glucosyltransferases to turn dietary sucrose into sticky glucans that anchor it within plaque, and it ferments sugars to lactic acid while tolerating the acid it makes. When plaque pH falls below about 5.5, enamel hydroxyapatite dissolves. Saliva buffers acid with bicarbonate and supplies calcium and phosphate for remineralization, and fluoride is built into enamel as fluorapatite, which resists acid. Caries results when acid attacks outpace repair, so frequent sugar intake and low saliva flow raise risk."
+        },
+        {
+          "type": "flow",
+          "title": "From sugar to periapical abscess",
+          "steps": [
+            "S. mutans ferments sucrose to lactic acid",
+            "Plaque pH below about 5.5 dissolves enamel",
+            "Lesion advances through dentin toward the pulp",
+            "Bacteria reach the pulp; pulpitis develops",
+            "Pulp swells in a rigid chamber and necroses",
+            "Infection exits the root apex: periapical abscess"
+          ],
+          "caption": "Caries becomes an abscess when infection passes through the dead pulp and out of the root tip into bone."
+        },
+        {
+          "type": "p",
+          "text": "The pulp is enclosed in a rigid chamber, so inflammatory swelling compresses its vessels and the pulp dies. Infection then leaves through the root apex into the surrounding bone. When no sinus tract drains the pus, pressure builds, and the tooth throbs and is very tender to biting or tapping. A periapical abscess differs from a periodontal abscess, which forms in a periodontal pocket beside a living tooth. Untreated dental infection can spread into the fascial spaces of the face and neck; infection from lower molars can reach the submandibular space; bilateral cellulitis of the submandibular and sublingual spaces is Ludwig angina."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-GAST-13-12-C06",
+      "obj": "GI-13-L.6",
+      "title": "Oral thrush",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Candida albicans lives harmlessly in the mouth of many healthy people. Several defenses keep it in that state: resident bacteria compete for space and nutrients, saliva flushes the surface and carries antimicrobial proteins, the epithelium sheds and renews, and Th17 cells release IL-17 and IL-22 that recruit neutrophils and stimulate antifungal peptides from epithelial cells. CD4 T cell immunity therefore guards the mucosa, while neutrophils guard against spread into the blood and deep organs."
+        },
+        {
+          "type": "p",
+          "text": "Thrush, or pseudomembranous candidiasis, is overgrowth on the oral mucosa when one of these defenses fails. It appears as creamy white, curd-like plaques on the buccal mucosa, tongue, palate, or pharynx. The plaques are made of yeast, pseudohyphae, desquamated epithelium, and debris, so they scrape off and leave a red, sometimes bleeding base. A potassium hydroxide preparation or Gram stain shows budding yeast with pseudohyphae. In tissue, Candida forms pseudohyphae and true hyphae, which help it adhere and penetrate."
+        },
+        {
+          "type": "table",
+          "title": "Who gets thrush and why",
+          "cols": [
+            "Setting",
+            "Defense that is lost"
+          ],
+          "rows": [
+            [
+              "Newborns and young infants",
+              "Immature T cell immunity and a resident flora not yet established; Candida may be acquired during vaginal birth"
+            ],
+            [
+              "Inhaled corticosteroids",
+              "Drug deposited in the oropharynx suppresses local immune responses"
+            ],
+            [
+              "Broad-spectrum antibiotics",
+              "Bacterial competitors are removed"
+            ],
+            [
+              "Diabetes mellitus",
+              "Glucose in saliva feeds the yeast; hyperglycemia impairs neutrophil function"
+            ],
+            [
+              "HIV infection",
+              "Loss of CD4 T cells and Th17 responses; thrush is common once CD4 falls below about 200 to 300 per microliter"
+            ],
+            [
+              "Other",
+              "Dentures, dry mouth, chemotherapy, and systemic corticosteroids"
+            ]
+          ],
+          "caption": "Each risk factor removes competition, mucosal immunity, or neutrophil function."
+        },
+        {
+          "type": "p",
+          "text": "Thrush in a healthy adult with none of these risks suggests undiagnosed immunodeficiency, especially HIV. Thrush that extends into the esophagus with pain on swallowing means more severe immunosuppression. Two white lesions must be told apart. Oral hairy leukoplakia, caused by Epstein-Barr virus, forms white corrugated patches on the lateral tongue that do not scrape off. Leukoplakia, a white patch from epithelial thickening that can be premalignant, also does not scrape off."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-GAST-13-12-C07",
+      "obj": "GI-13-L.7",
+      "title": "Stomatitis: vesicles and ulcers of the mouth",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Stomatitis means inflammation of the oral mucosa. Most painful oral lesions are either vesicles that rupture into ulcers, which suggests a virus, or ulcers that begin as ulcers, which suggests aphthae. The site in the mouth, the age of the patient, fever, and lesions elsewhere on the body sort the causes."
+        },
+        {
+          "type": "p",
+          "text": "Primary herpes simplex virus type 1 infection in young children often causes herpetic gingivostomatitis. HSV-1 is an enveloped double-stranded DNA virus that replicates in mucosal epithelial cells, causing them to swell, fuse into multinucleated giant cells, and separate into vesicles. Fever, irritability, and tender cervical nodes accompany swollen, red, bleeding gums and clusters of vesicles on the gingiva, tongue, buccal mucosa, and lips that break into painful ulcers. The virus then travels up sensory axons and becomes latent in the trigeminal ganglion. Reactivation produces herpes labialis at the lip border, not a repeat of the widespread primary illness."
+        },
+        {
+          "type": "p",
+          "text": "Coxsackie A viruses are nonenveloped positive-sense RNA enteroviruses that spread by the fecal-oral and respiratory routes, mostly in summer and fall. In herpangina, fever and sore throat come with small vesicles and ulcers on the posterior mouth: the soft palate, uvula, and tonsillar pillars, while the gums are spared. In hand-foot-and-mouth disease, usually from coxsackie A16 (enterovirus 71 and coxsackie A6 also cause it), oral ulcers on the tongue and buccal mucosa come with vesicles on the palms, soles, and often the buttocks."
+        },
+        {
+          "type": "p",
+          "text": "Aphthous ulcers (canker sores) are not infections. They are shallow, round, painful ulcers with a gray-yellow fibrin base and a red rim, appear on nonkeratinized mucosa such as the inner lips, cheeks, and floor of the mouth, have no vesicle stage, and recur. They are thought to reflect T cell-mediated injury to the epithelium. Recurrent aphthae can signal systemic disease: Crohn disease, which can involve any part of the gut from mouth to anus; Behcet disease, a vasculitis with recurrent oral and genital ulcers and uveitis that is linked to HLA-B51; celiac disease; and deficiency of iron, folate, or vitamin B12."
+        },
+        {
+          "type": "table",
+          "title": "Distinguishing causes of stomatitis",
+          "cols": [
+            "Condition",
+            "Cause",
+            "Who and when",
+            "Oral lesions",
+            "Clues outside the mouth"
+          ],
+          "rows": [
+            [
+              "Herpetic gingivostomatitis",
+              "Primary HSV-1",
+              "Young children; any season",
+              "Vesicles and ulcers on gingiva, anterior mouth, and lips; swollen bleeding gums",
+              "High fever, cervical lymphadenopathy; Tzanck smear shows multinucleated giant cells"
+            ],
+            [
+              "Herpangina",
+              "Coxsackie A",
+              "Children; summer and fall",
+              "Vesicles and ulcers on soft palate, uvula, tonsillar pillars; gums spared",
+              "Fever, sore throat; no rash"
+            ],
+            [
+              "Hand-foot-and-mouth disease",
+              "Coxsackie A16 mainly",
+              "Young children; summer and fall",
+              "Ulcers on tongue and buccal mucosa",
+              "Vesicles on palms, soles, and buttocks"
+            ],
+            [
+              "Aphthous ulcers",
+              "Noninfectious, immune mediated",
+              "Any age; recurrent",
+              "Round ulcers with fibrin base and red rim on nonkeratinized mucosa; no vesicles",
+              "Crohn disease, Behcet disease (genital ulcers, uveitis), celiac disease, nutrient deficiency"
+            ]
+          ],
+          "caption": "Location within the mouth, a vesicle stage, and lesions on the hands, feet, or genitals separate the four."
+        },
+        {
+          "type": "stop",
+          "predict": "A 3-year-old has fever and painful ulcers. Where in the mouth would you expect them if the cause is coxsackie A herpangina rather than primary HSV-1?",
+          "explain": "Herpangina affects the posterior mouth (soft palate, uvula, tonsillar pillars) and spares the gums; primary HSV-1 involves the gingiva and the front of the mouth and lips.",
+          "check": "Compare with the stomatitis table."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-GAST-13-12-C08",
+      "obj": "GI-13-L.8",
+      "title": "Interpreting hepatitis B serology",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Hepatitis B virus is an enveloped, partially double-stranded DNA virus (Hepadnaviridae) that copies its genome through an RNA intermediate using its own reverse transcriptase. Each marker in a serology panel comes from a specific part of the virus or of the immune response, so knowing the source of each marker makes the panel readable without memorizing patterns."
+        },
+        {
+          "type": "table",
+          "title": "What each hepatitis B marker means",
+          "cols": [
+            "Marker",
+            "Source",
+            "Meaning when present"
+          ],
+          "rows": [
+            [
+              "HBsAg",
+              "Surface (envelope) protein, made in great excess",
+              "Current infection, acute or chronic"
+            ],
+            [
+              "Anti-HBs",
+              "Neutralizing antibody to surface antigen",
+              "Immunity, from recovery or vaccination"
+            ],
+            [
+              "Anti-HBc, IgM",
+              "Early antibody to core protein",
+              "Acute or recent infection; the only marker in the window period"
+            ],
+            [
+              "Anti-HBc, IgG",
+              "Long-lived antibody to core protein",
+              "Past or ongoing infection; never produced by vaccination"
+            ],
+            [
+              "HBeAg",
+              "Secreted protein from the precore and core gene",
+              "Active replication and high infectivity"
+            ],
+            [
+              "Anti-HBe",
+              "Antibody to HBeAg",
+              "Lower replication and infectivity"
+            ],
+            [
+              "HBV DNA",
+              "Viral genome in serum",
+              "Directly measures replication"
+            ]
+          ],
+          "caption": "Core antigen itself stays inside the virion and infected cells, so serum tests detect antibody to core, not core antigen."
+        },
+        {
+          "type": "flow",
+          "title": "Markers over time in acute hepatitis B that resolves",
+          "steps": [
+            "Exposure; HBsAg appears in about 1 to 10 weeks",
+            "HBeAg and HBV DNA rise; patient highly infectious",
+            "Symptoms and ALT rise; IgM anti-HBc appears",
+            "HBeAg falls and anti-HBe appears",
+            "HBsAg clears, usually by 4 to 6 months",
+            "Window: IgM anti-HBc alone until anti-HBs appears",
+            "Recovery: anti-HBs plus lifelong IgG anti-HBc"
+          ],
+          "caption": "Surface antigen and its antibody rarely coexist, which creates the window period between them."
+        },
+        {
+          "type": "p",
+          "text": "Liver injury in hepatitis B is caused mainly by cytotoxic T cells killing infected hepatocytes, which is why ALT and symptoms rise with the immune response rather than with the first appearance of virus. The window period exists because anti-HBs forms immune complexes with the large amount of HBsAg in serum, so free antibody becomes detectable only after the antigen has cleared. A patient tested in that gap is HBsAg negative and anti-HBs negative and could be wrongly called uninfected unless anti-HBc is measured."
+        },
+        {
+          "type": "table",
+          "title": "Reading a hepatitis B panel",
+          "cols": [
+            "Interpretation",
+            "HBsAg",
+            "Anti-HBs",
+            "Anti-HBc"
+          ],
+          "rows": [
+            [
+              "Acute infection",
+              "Positive",
+              "Negative",
+              "IgM"
+            ],
+            [
+              "Window period",
+              "Negative",
+              "Negative",
+              "IgM"
+            ],
+            [
+              "Chronic infection",
+              "Positive for more than 6 months",
+              "Negative",
+              "IgG"
+            ],
+            [
+              "Resolved infection, immune",
+              "Negative",
+              "Positive",
+              "IgG"
+            ],
+            [
+              "Vaccinated, immune",
+              "Negative",
+              "Positive",
+              "Negative"
+            ],
+            [
+              "Never infected, not immune",
+              "Negative",
+              "Negative",
+              "Negative"
+            ]
+          ],
+          "caption": "Anti-HBc separates infection from vaccination, IgM versus IgG separates recent from old, and HBsAg beyond 6 months defines chronic infection."
+        },
+        {
+          "type": "p",
+          "text": "Chronic carriers may be HBeAg positive, with high viral DNA and high infectivity, or HBeAg negative with anti-HBe. HBeAg-negative carriers can still have active disease when precore mutant virus replicates without making HBeAg, so HBV DNA is the better guide to replication. An isolated IgG anti-HBc with no HBsAg or anti-HBs usually means a remote infection in which anti-HBs has waned, but it can also reflect low-level occult infection or a false positive result."
+        },
+        {
+          "type": "example",
+          "title": "Worked example: a hepatitis B panel",
+          "text": "A health care worker has HBsAg negative, anti-HBs negative, IgM anti-HBc positive, and ALT about 600 U/L (reference about 7 to 56 U/L). Step 1: anti-HBc is positive, so this person has been infected; vaccination alone never produces anti-HBc. Step 2: the antibody is IgM, so the infection is recent. Step 3: HBsAg has cleared but anti-HBs is not yet detectable. This is the window period of an acute infection that is resolving. If the same person instead had HBsAg positive and IgG anti-HBc a year later, the infection would be chronic. If the only positive marker were anti-HBs, the person would be immune from vaccination."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-GAST-13-12-C09",
+      "obj": "GI-13-L.9",
+      "title": "Outcomes of viral hepatitis",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Whether a hepatitis virus is cleared depends on the vigor of the T cell response and on the virus's ability to evade it. A strong response clears virus but causes acute hepatitis; a weak or tolerant response causes little early injury but lets the infection persist. Persistence matters because years of hepatocyte death and regeneration lead to fibrosis, cirrhosis, and cancer."
+        },
+        {
+          "type": "table",
+          "title": "Hepatitis viruses and their outcomes",
+          "cols": [
+            "Virus",
+            "Genome and spread",
+            "Chronic infection",
+            "Distinctive outcomes"
+          ],
+          "rows": [
+            [
+              "HAV",
+              "Positive-sense RNA picornavirus; fecal-oral",
+              "Never",
+              "Usually self-limited; fulminant failure rare"
+            ],
+            [
+              "HBV",
+              "Partially double-stranded DNA with reverse transcriptase; blood, sex, birth",
+              "About 90% of infected neonates, about 25 to 50% of young children, under 5% of adults",
+              "Cirrhosis; hepatocellular carcinoma, sometimes without cirrhosis; polyarteritis nodosa; membranous nephropathy"
+            ],
+            [
+              "HCV",
+              "Positive-sense RNA flavivirus; mainly blood",
+              "About 75 to 85% of adults",
+              "Cirrhosis in about 10 to 20% over 20 to 30 years; hepatocellular carcinoma on cirrhosis; mixed cryoglobulinemia"
+            ],
+            [
+              "HDV",
+              "Defective RNA virus that needs HBsAg for its envelope; blood",
+              "Most superinfections of HBV carriers; few coinfections",
+              "Superinfection speeds progression to cirrhosis and raises risk of fulminant failure"
+            ],
+            [
+              "HEV",
+              "Positive-sense RNA hepevirus; fecal-oral, water, undercooked pork",
+              "Not in healthy hosts; can persist in transplant recipients",
+              "High mortality in pregnancy from fulminant hepatic failure"
+            ]
+          ],
+          "caption": "Fecal-oral viruses cause acute disease only; the blood-borne viruses cause chronic disease and its consequences."
+        },
+        {
+          "type": "p",
+          "text": "Age at HBV infection is the strongest predictor of chronicity. A neonate infected at birth, especially from an HBeAg-positive mother, has an immature T cell response, and maternal HBeAg crossing the placenta is thought to induce tolerance. The virus therefore replicates with little liver injury for years, and about 90% of such infants become chronic carriers. Most adults mount a vigorous cytotoxic T cell response, have a clinically obvious acute hepatitis, and clear the virus."
+        },
+        {
+          "type": "p",
+          "text": "HCV takes the opposite course. Acute infection is usually mild or silent, yet most adults never clear it. Its RNA-dependent RNA polymerase lacks proofreading, so the virus exists as a quasispecies, and variants in the envelope protein E2, especially its hypervariable region, keep escaping neutralizing antibody and T cell recognition."
+        },
+        {
+          "type": "p",
+          "text": "The two viruses cause cancer by different routes. HBV DNA integrates into the host genome, which can disrupt or activate cellular genes, and its HBx protein interferes with p53 and growth control, so hepatocellular carcinoma can arise in a noncirrhotic liver. HCV is an RNA virus that does not integrate; its cancers arise mainly from chronic inflammation, regeneration, and cirrhosis."
+        },
+        {
+          "type": "p",
+          "text": "Chronic HCV stimulates B cells continuously, and clonal B cells make an IgM rheumatoid factor that binds polyclonal IgG and viral antigen. These complexes precipitate in the cold (type II mixed cryoglobulinemia) and deposit in small vessels and glomeruli, where they fix complement and cause a type III hypersensitivity vasculitis. The result is palpable purpura of the legs, arthralgia, weakness, peripheral neuropathy, and membranoproliferative glomerulonephritis, with low C4. HCV is also associated with B cell lymphoma, porphyria cutanea tarda, and lichen planus."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-GAST-13-12-C10",
+      "obj": "GI-13-L.10",
+      "title": "Pyogenic versus amebic liver abscess",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The liver receives blood from the portal vein, which drains the bowel, and from the hepatic artery, and it drains bile through the biliary tree. Each of these channels is also a route for infection. Kupffer cells normally clear the small numbers of gut bacteria that enter portal blood, but a large load, an obstructed bile duct, or impaired host defense allows an abscess to form."
+        },
+        {
+          "type": "p",
+          "text": "A pyogenic abscess is a cavity of pus made of neutrophils and necrotic liver. The most common route is biliary: stones, strictures, or cancer obstruct the ducts, bile stagnates, and bacteria ascend (ascending cholangitis), often producing several abscesses. Portal spread comes from intra-abdominal infection such as appendicitis or diverticulitis, sometimes with septic thrombophlebitis of the portal vein (pylephlebitis). Arterial spread occurs during bacteremia, as with Staphylococcus aureus endocarditis. Escherichia coli and Klebsiella pneumoniae are the leading organisms, often with streptococci of the anginosus group and anaerobes. Hypervirulent Klebsiella strains, common in East Asia and in people with diabetes, can cause a single abscess and seed the eye or brain. Patients are usually older adults with fever, right upper quadrant pain, leukocytosis, and a raised alkaline phosphatase."
+        },
+        {
+          "type": "p",
+          "text": "An amebic abscess follows intestinal infection with Entamoeba histolytica. Trophozoites that have invaded the colon wall enter portal venules and are carried to the liver, most often the right lobe, which receives most of the blood from the cecum and ascending colon. They kill hepatocytes and neutrophils on contact, so the cavity fills with liquefied liver and blood rather than true pus. The aspirate is thick, odorless, and reddish brown (anchovy paste), and trophozoites are found mainly in the abscess wall rather than in the fluid. Patients are typically young men who have lived in or traveled to an endemic area, often months earlier, and many have no current diarrhea. Serum antibody to E. histolytica is usually positive, while stool microscopy is often negative."
+        },
+        {
+          "type": "table",
+          "title": "Pyogenic versus amebic liver abscess",
+          "cols": [
+            "Feature",
+            "Pyogenic abscess",
+            "Amebic abscess"
+          ],
+          "rows": [
+            [
+              "Organisms",
+              "E. coli, Klebsiella, anginosus streptococci, anaerobes; often polymicrobial",
+              "Entamoeba histolytica"
+            ],
+            [
+              "Route",
+              "Biliary (most common), portal, arterial, direct spread, cryptogenic",
+              "Portal vein from colonic ulcers"
+            ],
+            [
+              "Patient",
+              "Older adult; biliary disease, diabetes, abdominal infection",
+              "Young adult man; travel to or residence in an endemic area"
+            ],
+            [
+              "Number",
+              "Single or multiple; multiple when biliary",
+              "Usually single, right lobe"
+            ],
+            [
+              "Aspirate",
+              "Purulent and often foul smelling; Gram stain and culture show bacteria",
+              "Anchovy paste, odorless, few neutrophils; culture negative"
+            ],
+            [
+              "Key test",
+              "Blood and aspirate cultures",
+              "Serum antibody to E. histolytica"
+            ],
+            [
+              "Complication",
+              "Sepsis; rupture",
+              "Rupture through the diaphragm into the pleura or lung, or into the pericardium or peritoneum"
+            ]
+          ],
+          "caption": "Route of spread, patient background, and the character of the aspirate separate the two abscesses."
+        }
+      ]
+    }
+  ],
+  "integration": [
+    {
+      "type": "p",
+      "text": "Microbiology and pathology meet in the mechanism of injury. Organisms that switch on secretion through cAMP or cGMP (V. cholerae, ETEC) cause watery small-bowel diarrhea without inflammation, organisms that invade or kill colonocytes (Shigella, Campylobacter, Salmonella, Entamoeba) cause dysentery, and the host response itself causes much of the damage in periodontitis and hepatitis B. Immunology explains the postinfectious diseases: molecular mimicry in Guillain-Barre syndrome, HLA-B27 in reactive arthritis, and immune complexes in HCV cryoglobulinemia."
+    },
+    {
+      "type": "p",
+      "text": "Anatomy explains the spread. Portal venous drainage carries amebae and gut bacteria to the liver, rigid tooth and fascial compartments turn dental infection into abscess and deep neck infection, and Gb3 on glomerular endothelium makes the kidney the target of Shiga toxin. The limits of the patterns are real: stool tests detect carriage as well as disease, a negative HBsAg does not exclude acute hepatitis B, and organisms overlap in their presentations, so the setting, timing, and mechanism must be read together."
+    }
+  ],
+  "summary": [
+    "Antibiotics remove the colonic flora that blocks C. difficile; toxins A and B inactivate Rho GTPases, producing pseudomembranes, watery diarrhea, and risk of toxic megacolon, diagnosed by stool toxin or toxin gene tests.",
+    "Bloody diarrhea means invasion or cytotoxic injury: Shigella, Campylobacter, Salmonella, EHEC, and Entamoeba histolytica.",
+    "Shiga toxin binds Gb3 on renal endothelium and stops protein synthesis, causing HUS; Campylobacter mimicry of gangliosides causes Guillain-Barre syndrome; HLA-B27 predisposes to reactive arthritis.",
+    "In immunocompromised patients, Candida causes white esophageal plaques, HSV punched-out ulcers with squamous inclusions at the edge, and CMV linear ulcers with endothelial and stromal inclusions in the base.",
+    "Watery diarrhea follows lost absorption or toxin-driven secretion: rotavirus in infants, norovirus in outbreaks, ETEC in travelers, cholera from water, and preformed B. cereus toxin from reheated rice.",
+    "Plaque causes reversible gingivitis; periodontitis is host-mediated destruction of ligament and bone driven by organisms such as P. gingivalis; S. mutans acid causes caries that can end in periapical abscess.",
+    "Thrush is Candida overgrowth when flora, saliva, Th17 or CD4 immunity, or neutrophil function fails; its plaques scrape off, unlike hairy leukoplakia.",
+    "Primary HSV-1 affects the gums and front of the mouth with fever, herpangina affects the posterior pharynx, hand-foot-and-mouth adds palm and sole vesicles, and aphthae have no vesicle stage and suggest Crohn or Behcet disease.",
+    "In HBV serology, HBsAg means infection, anti-HBs means immunity, IgM anti-HBc means recent infection, IgG anti-HBc means infection at any time, and anti-HBs alone means vaccination.",
+    "HBV becomes chronic in most neonates but few adults, HCV in most adults; both cause cirrhosis and cancer, and HCV causes mixed cryoglobulinemia; pyogenic abscesses come from biliary or portal spread, amebic abscesses from colonic amebae."
+  ],
+  "sources": [
+    {
+      "book": "Robbins and Cotran Pathologic Basis of Disease",
+      "where": "Head and Neck, sections on the oral cavity; The Gastrointestinal Tract, sections on infectious esophagitis, infectious enterocolitis, and pseudomembranous colitis; Liver and Gallbladder, sections on viral hepatitis and liver abscess"
+    },
+    {
+      "book": "Jawetz, Melnick, and Adelberg's Medical Microbiology",
+      "where": "Enteric gram-negative rods, vibrios and campylobacters, spore-forming gram-positive bacilli, herpesviruses, picornaviruses, and hepatitis viruses"
+    },
+    {
+      "book": "Abbas, Cellular and Molecular Immunology",
+      "where": "Immunity to microbes and hypersensitivity disorders"
+    },
+    {
+      "book": "Guyton and Hall Textbook of Medical Physiology",
+      "where": "Secretory functions of the alimentary tract and physiology of gastrointestinal disorders, section on diarrhea"
+    },
+    {
+      "book": "Lange Pathophysiology of Disease",
+      "where": "Infectious diseases and liver disease chapters, sections on infectious diarrhea and viral hepatitis"
+    }
+  ],
+  "verify": [
+    "Frequency figures vary between sources and should be checked against the values NABNE expects: HUS after EHEC O157:H7 (quoted from about 5% to 15% in children), chronic HBV by age (about 90% neonates, 25 to 50% young children, under 5% adults), chronic HCV (quoted from about 55% to 85%), and cirrhosis after chronic HCV (about 10 to 20% over 20 to 30 years).",
+    "CD4 thresholds for thrush (about 200 to 300 per microliter), Candida esophagitis (about 100), and CMV esophagitis (about 50) are approximate and differ among references.",
+    "The C. difficile testing approach (toxin enzyme immunoassay versus toxin gene amplification, alone or in a multistep algorithm) and the toxic megacolon diameter cutoff (about 6 cm) vary between guidelines; confirm the version NABNE uses.",
+    "Some sources attribute periodontitis to a broader group of organisms (Porphyromonas gingivalis, Tannerella forsythia, Treponema denticola, Aggregatibacter actinomycetemcomitans) and describe P. gingivalis as a keystone pathogen; this chapter names only P. gingivalis as the objective does.",
+    "Confirm whether NABNE uses the name Clostridioides difficile or the older Clostridium difficile.",
+    "The incubation ranges for B. cereus emetic (about 1 to 6 hours) and diarrheal (about 8 to 16 hours) forms, and the ALT reference range in the worked example, are approximate.",
+    "Requested new diagram name for a future revision: hbv-serology-timeline (HBsAg, HBeAg, IgM and IgG anti-HBc, anti-HBe, and anti-HBs plotted against weeks after exposure, with the window period marked)."
+  ]
+}
