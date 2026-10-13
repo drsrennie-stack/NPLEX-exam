@@ -1,0 +1,13 @@
+notes1-MS-7 review log (notes/chapters/MS-7.json)
+- C01 Ca2+ rise: "roughly a hundredfold" changed to "about 100-fold or more" (Guyton and Hall give a larger rise; sources differ).
+- C01 malignant hyperthermia: dantrolene sentence reworded so the drug only shows the mechanism (blocks RyR1 release), not a treatment recommendation.
+- C01 STOP: check now points to the exact sentence on Ca2+-free fluid.
+- C02: cut filler opener "Notice where the energy goes."
+- C05 NO paragraph: corrected eNOS activation; shear stress acts mainly through Akt phosphorylation, not by raising endothelial Ca2+.
+- C05 NO flow step 1 corrected to match ("Acetylcholine (via Ca2+) or shear stress activates eNOS").
+- C06: reworded the myoglobin sentence for precision (red pigment that stores O2 and speeds its diffusion to mitochondria).
+- Integration: disease name corrected to catecholaminergic polymorphic ventricular tachycardia.
+- Integration: removed sentence on approximate values that repeated the verify list.
+- verify[0]: updated to reflect the source difference on peak Ca2+.
+- All other facts, tables, flows, worked examples, sources, and cross-references checked against Guyton and Hall, Boron and Boulpaep, and Robbins; no further errors found. Scope, writing rules, and STOP prompts confirmed.
+- Checker: 0 errors, 0 warnings. Total words 4747 before, 4741 after (not lengthened).

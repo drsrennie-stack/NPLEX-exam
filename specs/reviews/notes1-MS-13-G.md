@@ -1,0 +1,12 @@
+# Review log: notes/chapters/MS-13-G.json (Phase 1)
+
+- C01 organism table, Lyme row: "Recent tick bite, chronic knee effusion" changed to "Tick exposure months earlier; knee effusion" (Lyme arthritis appears months after the bite, so "recent" was inaccurate).
+- C02 worked example: "a negative Gram stain misses about half of infections" made precise as "Gram stains are negative in about half of septic joints".
+- C03 clinical signs paragraph: fluid described as foul only when anaerobes are present (type II streptococcal infection is not typically foul smelling).
+- C07 clinical paragraph: incubation "usually under 24 to 72 hours" (internally inconsistent) corrected to "short, usually under 3 days".
+- C08 trichinellosis paragraph: fixed the run-on list so conjunctival hemorrhages and subungual splinter hemorrhages read as separate findings.
+- C08 pyomyositis paragraph: tightened the tropical pyomyositis sentence to offset added words; no content change.
+- Sources: Robbins necrosis entry, Jawetz organism entries, Jawetz parasitology entry, and Abbas entry changed to real chapter titles (Cell Injury, Cell Death, and Adaptations; The Staphylococci; The Streptococci; Spore-Forming Gram-Positive Bacilli: Bacillus and Clostridium Species; Neisseriae; Medical Parasitology; Immunity to Microbes).
+- Confirmed against references: synovial barrier anatomy, cartilage destruction mechanism, DGI triad and terminal complement link, host and organism tables, synovial fluid categories and crystal birefringence, NF types, Fournier fascial planes, superantigen mechanism (SpeA, SpeC; SpeB a protease), metaphyseal vascular loops, transphyseal vessels under about 18 months, intracapsular metaphyses, spondylodiscitis and Pott disease, diabetic foot and sickle cell osteomyelitis, sequestrum, involucrum, cloaca, Brodie abscess, ESR and CRP, radiograph lag and MRI sensitivity, Marjolin ulcer, AA amyloidosis, dry and wet gangrene necrosis patterns, diabetic risk mechanisms, C. perfringens alpha and theta toxins, C. septicum association, double zone hemolysis and Nagler reaction, pyomyositis stages, Trichinella life cycle, nurse cell, Th2 eosinophilia, myocarditis as the main cause of death. Each section teaches its full competency; no treatment content; STOP prompts answerable with correct check targets; no dashes, italics, or banned phrases; verify list honest and unchanged.
+- Length: 5574 words before review, 5572 after (not lengthened).
+- Checker: 0 errors, 0 warnings.

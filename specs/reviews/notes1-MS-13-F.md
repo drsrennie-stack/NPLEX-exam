@@ -1,0 +1,9 @@
+# Review log: notes/chapters/MS-13-F.json (Phase 1)
+
+- C04 osteosarcoma pathology paragraph: replaced "often held back by the growth plate and articular cartilage, which resist invasion" with "the growth plate and articular cartilage are only relative barriers, so joint invasion is less common" (transphyseal spread is common on MRI; Robbins describes epiphyseal and joint involvement as less common, not blocked).
+- C09 metastases paragraph: corrected "sarcomas make up well under 1% of cancers" to "only about 1% of adult cancers" (bone plus soft tissue sarcomas together are about 1%).
+- Overview connections: corrected two cross-reference unit names to match the registry (RE-13-J "Reproductive dysplasia and neoplasms"; PU-14-F "Neoplasms of the pulmonary system and upper respiratory tract").
+- C03 NSAID paragraph: cut the closing sentence restating that NSAID response is a diagnostic clue (repeats the sentence before it and the table) to offset added words.
+- All other facts, numbers, tables (osteoid osteoma versus osteoblastoma, osteosarcoma age peaks, periosteal reactions, rhabdomyosarcoma subtypes, osteochondroma versus enchondroma, giant cell tumors, metastasis patterns, muscle markers, lung paraneoplastic syndromes), flows and cycle (IDH oncometabolite, EWSR1-FLI1, two-hit RB1, vicious cycle, HPOA), and both worked examples checked and confirmed against Robbins, Lippincott Biochemistry, Guyton and Hall, Junqueira, and Lange Pathophysiology of Disease; each section covers its full competency text; denosumab appears only to demonstrate the RANKL mechanism, no treatment content; STOP prompts answerable and check targets correct; sources are real chapter titles or plain section names; verify list is honest and already holds the variable frequencies, size cutoff, HPOA hypothesis, and terminology changes; no dashes, italics, or banned phrases.
+- Length: 6398 words before review, 6391 after (not lengthened).
+- Checker: 0 errors, 0 warnings.

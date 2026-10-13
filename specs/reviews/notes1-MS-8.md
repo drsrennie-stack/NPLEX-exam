@@ -1,0 +1,14 @@
+# Review log: notes/chapters/MS-8.json (Phase 1)
+
+- C02 lab pattern table caption: replaced "the direction of phosphate relative to PTH usually identifies the primary disturbance" (inaccurate: vitamin D deficiency and primary hyperparathyroidism share low phosphate with high PTH) with "Calcium separates primary from secondary hyperparathyroidism; phosphate separates vitamin D deficiency from kidney disease."
+- C02 STOP explain: fixed "osteoclast formation and resorption would outpace formation" to "would outpace bone formation".
+- C04 comparison table, PFK deficiency second wind cell: "glucose cannot enter glycolysis" was imprecise (glucose enters glycolysis but is blocked at PFK); now "blood glucose is also blocked at PFK".
+- Overview term "Second wind": "about 10 minutes" changed to "about 6 to 10 minutes" to match the C04 body and verify item.
+- C04 second wind paragraph: cut the redundant sentence "The muscle bypasses its own glycogen."
+- C03 opening paragraph: tightened the speed versus capacity sentence (no content change) to offset added words.
+- Sources, Lippincott Biochemistry: corrected section names to real chapter titles ("Fatty Acid, Ketone Body, and Triacylglycerol Metabolism" for fatty acid oxidation; "Fibrous Proteins" for collagen).
+- All other facts, numbers, and units checked and confirmed: vitamin D photochemistry and photoproducts, CYP2R1, CYP27B1, CYP24A1 regulation, 25-hydroxyvitamin D half-life and concentration ratio, duodenal TRPV6 and calbindin, granulomatous 1-alpha-hydroxylase; calcium fractions and ionized, phosphate, magnesium, and creatinine ranges with SI conversions; PTH renal actions (TRPV5, NaPi-IIa and IIc), indirect bone action via RANKL and OPG, calcitonin, FGF23 and Klotho, hormone and lab pattern tables, CKD worked example; energy system table, glycogenolysis activation, 3 versus 2 ATP, GLUT4, Cori cycle cost (6 used, 2 gained, net 4), creatine synthesis and creatinine formation; McArdle genetics, contracture mechanism, forearm test lactate and ammonia, second wind, GSD V, VI, VII table; carnitine shuttle flow, malonyl-CoA regulation, CPT II deficiency triggers, normal lactate, acylcarnitines, neonatal hypoketotic hypoglycemia, CPT I and OCTN2 table, myoglobinuria worked example; hydroxyapatite, mineral distribution, alkaline phosphatase and pyrophosphate, lysyl oxidase, Menkes, gamma-carboxylation and VKOR, magnesium and PTH.
+- Each section teaches its full competency text; no treatment content (warfarin named only as the VKOR inhibitor; intermittent PTH as mechanism only); STOP prompts answerable from their sections with correct check targets; no dashes, italics, or banned phrases; verify list honest and unchanged.
+- Facts corrected: 3. Sections expanded: 0. Items moved to verify: 0.
+- Length: 4536 words before review, 4534 after (not lengthened).
+- Checker: 0 errors, 0 warnings.

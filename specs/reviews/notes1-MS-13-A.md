@@ -1,0 +1,11 @@
+# Review log: notes/chapters/MS-13-A.json (Phase 1)
+
+- C02 anticonvulsant paragraph: removed CYP24A1 from the list of hepatic enzymes induced through the pregnane X receptor (CYP24A1 is mainly renal and intestinal, not a hepatic inducible enzyme); now "chiefly CYP3A4", which performs the inactivating 24- and 23-hydroxylation of vitamin D metabolites.
+- C06 infant scurvy paragraph: separated cause from symptom for the scorbutic rosary (the angular shape comes from the sternum sinking back behind the rib ends; tenderness is a separate feature, not caused by that displacement).
+- Overview connections (MS-6): replaced the vague "the same pathway that places osteogenesis imperfecta and Ehlers-Danlos syndrome" with a precise statement that those disorders arise at other steps of the same pathway.
+- C03 laboratory table: column header "Test (adult reference about)" made readable as "Test (approximate adult range)".
+- C03 Looser zone paragraph: cut "if done" from the bone biopsy sentence to offset added words.
+- All other facts, numbers, tables (mineralization causes, risk factors by pathway step, adult lab patterns including hypophosphatasia and FGF23-mediated disease, rickets findings, nutritional rickets versus XLH, scurvy findings), flows (vitamin D deficiency to unmineralized osteoid, PHEX loss to rickets, ascorbate deficiency to fragile tissue), worked examples (osteomalacia panel, painful legs in a toddler), unit conversions (12 ng/mL = 30 nmol/L; 0.2 mg/dL ascorbate = about 11 micromol/L), and the Celsius with Fahrenheit value checked and confirmed against Guyton and Hall, Boron and Boulpaep, Robbins, Lippincott Biochemistry, and Lange Pathophysiology of Disease; each section covers its full competency text; no treatment content; STOP prompts answerable and check targets correct; sources are real chapter titles or plain section names; verify list is honest and complete; no dashes, italics, or banned phrases.
+- Items moved to verify: none (existing verify list already covers thresholds, reference ranges, probable mechanisms, scurvy timing, eponyms, and age ranges).
+- Length: 4460 words before review, 4459 after (not lengthened); prose about 1,970 words, within the 3,500 limit.
+- Checker: 0 errors, 0 warnings.

@@ -1,667 +1,667 @@
 {
- "unit": "MS-7",
- "chapter_id": "NPLEX-P1-MUSC-07",
- "topic_id": "NPLEX-P1-MUSC-07-01",
- "title": "Muscle Contraction",
- "subject": "Musculoskeletal System (MUSC)",
- "version": "1.0",
- "author": "Dr. Sharilyn Rennie",
- "brand": "MedMasters Collaborative",
- "overview": {
-  "intro": "This chapter explains how skeletal, cardiac, and smooth muscle turn an electrical or chemical signal into force, and how each type grades that force. It follows Ca2+ from its release to its removal, works through the cross-bridge cycle and the mechanics of length and load, and contrasts the three muscle types and the two main skeletal fiber types. Board questions usually change one step (a channel, a pump, a kinase, ATP supply, or a training pattern) and ask what happens to contraction or relaxation. If you can say where the Ca2+ comes from, what it binds, and what removes it in each muscle type, you can reason through most of them.",
-  "prerequisites": [
-   "Resting membrane potential and the action potential (NE-13)",
-   "Neuromuscular junction transmission by acetylcholine at nicotinic receptors",
-   "Sarcomere structure: thick and thin filaments, Z lines, A and I bands (MS-2)",
-   "G protein signaling: Gs, Gq, cAMP, IP3, and protein kinases A and G",
-   "ATP production by phosphocreatine, glycolysis, and oxidative phosphorylation"
+  "unit": "MS-7",
+  "chapter_id": "NPLEX-P1-MUSC-07",
+  "topic_id": "NPLEX-P1-MUSC-07-01",
+  "title": "Muscle Contraction",
+  "subject": "Musculoskeletal System (MUSC)",
+  "version": "1.0",
+  "author": "Dr. Sharilyn Rennie",
+  "brand": "MedMasters Collaborative",
+  "overview": {
+    "intro": "This chapter explains how skeletal, cardiac, and smooth muscle turn an electrical or chemical signal into force, and how each type grades that force. It follows Ca2+ from its release to its removal, works through the cross-bridge cycle and the mechanics of length and load, and contrasts the three muscle types and the two main skeletal fiber types. Board questions usually change one step (a channel, a pump, a kinase, ATP supply, or a training pattern) and ask what happens to contraction or relaxation. If you can say where the Ca2+ comes from, what it binds, and what removes it in each muscle type, you can reason through most of them.",
+    "prerequisites": [
+      "Resting membrane potential and the action potential (NE-13)",
+      "Neuromuscular junction transmission by acetylcholine at nicotinic receptors",
+      "Sarcomere structure: thick and thin filaments, Z lines, A and I bands (MS-2)",
+      "G protein signaling: Gs, Gq, cAMP, IP3, and protein kinases A and G",
+      "ATP production by phosphocreatine, glycolysis, and oxidative phosphorylation"
+    ],
+    "connections": [
+      {
+        "to": "Cardiac muscle contraction and the cardiac cycle (CV-5, CV-6)",
+        "how": "Calcium-induced Ca2+ release and the length dependence of force underlie contractility and the Frank-Starling mechanism."
+      },
+      {
+        "to": "Hemodynamics and blood flow regulation (CV-11)",
+        "how": "Vascular smooth muscle tone, set by the balance of MLCK and MLCP and by nitric oxide, determines arteriolar resistance."
+      },
+      {
+        "to": "Muscle and nerve interactions (MS-10)",
+        "how": "The motor neuron sets motor unit size, recruitment order, firing rate, and fiber type."
+      },
+      {
+        "to": "Musculoskeletal biochemistry and genetics (MS-8, MS-9)",
+        "how": "ATP supply limits contraction and relaxation, and RyR1, SERCA1, and myophosphorylase variants produce characteristic contraction disorders."
+      },
+      {
+        "to": "Exercise and the cardiovascular system (CV-12)",
+        "how": "Fiber type and training adaptations explain differences in endurance and strength."
+      }
+    ],
+    "terms": [
+      {
+        "term": "Excitation-contraction coupling",
+        "def": "The sequence that links a muscle action potential or receptor signal to a rise in cytosolic Ca2+ and cross-bridge cycling."
+      },
+      {
+        "term": "Triad",
+        "def": "A T tubule flanked by two terminal cisternae of the sarcoplasmic reticulum, the site of coupling in skeletal muscle."
+      },
+      {
+        "term": "Dihydropyridine receptor (DHPR)",
+        "def": "The L-type Ca2+ channel of the T tubule, which in skeletal muscle acts mainly as a voltage sensor."
+      },
+      {
+        "term": "Ryanodine receptor (RyR)",
+        "def": "The Ca2+ release channel of the sarcoplasmic reticulum; RyR1 in skeletal muscle and RyR2 in cardiac muscle."
+      },
+      {
+        "term": "SERCA",
+        "def": "The sarcoplasmic and endoplasmic reticulum Ca2+-ATPase, which pumps Ca2+ back into the SR and allows relaxation."
+      },
+      {
+        "term": "Cross-bridge cycle",
+        "def": "The repeated binding, power stroke, and release of myosin heads on actin, driven by ATP binding and hydrolysis."
+      },
+      {
+        "term": "Motor unit",
+        "def": "One alpha motor neuron and all the muscle fibers it innervates."
+      },
+      {
+        "term": "Tetanus (physiological)",
+        "def": "Fused, sustained maximal contraction produced when action potentials arrive faster than the fiber can relax."
+      },
+      {
+        "term": "Phospholamban",
+        "def": "An SR membrane protein that inhibits SERCA2a until it is phosphorylated, mainly by protein kinase A."
+      },
+      {
+        "term": "Myosin light chain kinase (MLCK)",
+        "def": "The Ca2+-calmodulin dependent enzyme that phosphorylates the myosin regulatory light chain and switches on smooth muscle contraction."
+      },
+      {
+        "term": "Latch state",
+        "def": "Maintenance of smooth muscle force by slowly cycling dephosphorylated cross-bridges at low ATP cost."
+      },
+      {
+        "term": "Calcium sensitization",
+        "def": "An increase in smooth muscle force at a constant Ca2+ concentration, usually through inhibition of myosin light chain phosphatase."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "comp": "NPLEX-P1-MUSC-07-01-C01",
+      "obj": "MS-7.1",
+      "title": "Skeletal excitation-contraction coupling",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A skeletal fiber contracts only when its motor neuron fires. Acetylcholine opens nicotinic cation channels at the end plate, and the resulting depolarization fires a sarcolemmal action potential that lasts only about 1 to 5 ms. Excitation-contraction coupling converts that brief electrical event into a rise in cytosolic Ca2+, and the Ca2+ into force."
+        },
+        {
+          "type": "p",
+          "text": "The action potential travels into the fiber along transverse (T) tubules, which in mammalian skeletal muscle lie at each junction of the A and I bands. Each T tubule is flanked by two terminal cisternae of the sarcoplasmic reticulum (SR), forming a triad. The T tubule membrane contains the dihydropyridine receptor (DHPR), an L-type Ca2+ channel (Cav1.1) that here works mainly as a voltage sensor. Its cytoplasmic loop is physically linked to ryanodine receptor 1 (RyR1), the SR release channel. Depolarization moves the DHPR voltage sensors, the conformational change is transmitted directly, and RyR1 opens. Because the link is mechanical, skeletal muscle keeps contracting for a time in Ca2+-free bathing fluid; Ca2+ entry through the DHPR is small and slow and is not needed for contraction."
+        },
+        {
+          "type": "p",
+          "text": "Released Ca2+ raises cytosolic concentration about 100-fold or more from its resting level of about 0.1 micromolar. Troponin has three subunits: troponin C (TnC) binds Ca2+, troponin I (TnI) inhibits actin-myosin interaction, and troponin T (TnT) anchors the complex to tropomyosin. Ca2+ binding to TnC pulls TnI off actin, so tropomyosin rolls deeper into the actin groove and uncovers the myosin-binding sites. Cross-bridges then cycle (C02)."
+        },
+        {
+          "type": "p",
+          "text": "Relaxation requires active removal of Ca2+. SERCA1, the fast-fiber SR Ca2+-ATPase, pumps two Ca2+ into the SR for each ATP hydrolyzed, and calsequestrin binds Ca2+ inside the SR so the store holds a large amount at a modest free concentration. As cytosolic Ca2+ falls, Ca2+ leaves TnC, tropomyosin covers the binding sites, and tension declines. Relaxation therefore costs ATP just as contraction does."
+        },
+        {
+          "type": "flow",
+          "title": "Skeletal excitation-contraction coupling",
+          "steps": [
+            "Action potential spreads along sarcolemma and down T tubules",
+            "DHPR voltage sensors change shape",
+            "Mechanical link opens RyR1 in the SR",
+            "Ca2+ binds troponin C; tropomyosin uncovers actin",
+            "Cross-bridges cycle and generate force",
+            "SERCA1 pumps Ca2+ back into the SR; fiber relaxes"
+          ],
+          "caption": "No extracellular Ca2+ is required; the voltage signal reaches the SR through protein-to-protein contact."
+        },
+        {
+          "type": "table",
+          "title": "Proteins of skeletal coupling and their disorders",
+          "cols": [
+            "Protein",
+            "Location",
+            "Role",
+            "Disorder when altered"
+          ],
+          "rows": [
+            [
+              "DHPR (Cav1.1)",
+              "T tubule membrane",
+              "Voltage sensor linked to RyR1",
+              "Hypokalemic periodic paralysis type 1; some malignant hyperthermia"
+            ],
+            [
+              "RyR1",
+              "SR terminal cisternae",
+              "Ca2+ release channel",
+              "Malignant hyperthermia; central core disease"
+            ],
+            [
+              "Troponin C",
+              "Thin filament",
+              "Ca2+ sensor that moves tropomyosin",
+              "Not a classic skeletal disorder"
+            ],
+            [
+              "Calsequestrin",
+              "SR lumen",
+              "Ca2+ storage buffer",
+              "Not a classic skeletal disorder"
+            ],
+            [
+              "SERCA1",
+              "SR membrane of fast fibers",
+              "Ca2+ reuptake, relaxation",
+              "Brody disease: slow relaxation after exercise"
+            ]
+          ],
+          "caption": "Each step of coupling has a protein whose variants change contraction or relaxation."
+        },
+        {
+          "type": "p",
+          "text": "Malignant hyperthermia shows the system failing. An autosomal dominant RyR1 variant makes the channel open excessively when exposed to volatile anesthetics or succinylcholine. Uncontrolled Ca2+ release causes sustained rigidity, and ATP use by myosin and SERCA produces heat, CO2, and lactate; as fibers break down, K+ and myoglobin leak out (hyperkalemia, rhabdomyolysis). Dantrolene blocks RyR1 release and halts the process, which shows that the defect lies at the SR channel."
+        },
+        {
+          "type": "stop",
+          "predict": "Severe hypocalcemia causes muscle cramps and carpopedal spasm. Does this mean skeletal contraction depends on extracellular Ca2+?",
+          "explain": "No. Skeletal coupling uses SR Ca2+ released through the mechanical DHPR to RyR1 link. Low extracellular Ca2+ makes nerve membranes more excitable, because voltage-gated Na+ channels open more easily, so motor axons fire spontaneously and drive the spasm.",
+          "check": "The DHPR and RyR1 paragraph, last sentence on Ca2+-free fluid."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-MUSC-07-01-C02",
+      "obj": "MS-7.2",
+      "title": "The cross-bridge cycle and rigor mortis",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Force comes from myosin II heads on the thick filament pulling the thin actin filaments toward the center of the sarcomere (the M line). The filaments slide past each other without changing length, which is why the band pattern changes the way it does during shortening."
+        },
+        {
+          "type": "table",
+          "title": "Sarcomere bands during shortening",
+          "cols": [
+            "Region",
+            "What it contains",
+            "Change with shortening"
+          ],
+          "rows": [
+            [
+              "A band",
+              "Full length of the thick filaments",
+              "No change"
+            ],
+            [
+              "I band",
+              "Thin filaments only, bisected by the Z line",
+              "Narrows"
+            ],
+            [
+              "H zone",
+              "Thick filaments only, center of the A band",
+              "Narrows"
+            ],
+            [
+              "Z line to Z line",
+              "One sarcomere",
+              "Shortens"
+            ]
+          ],
+          "caption": "Constant A band width is the key evidence that filaments slide rather than shorten."
+        },
+        {
+          "type": "p",
+          "text": "Each myosin head has an actin-binding site and an ATPase site, and the nucleotide in the ATPase site decides how tightly the head holds actin. The cycle is easiest to follow from the rigor state, in which a head with no nucleotide is bound tightly to actin at the end of its stroke. ATP binding lowers the head's affinity for actin, so it detaches. The head then hydrolyzes ATP to ADP and inorganic phosphate (Pi), keeps both products bound, and uses the energy released to re-cock into its high-energy, pre-stroke position. If Ca2+ has uncovered the binding sites, the cocked head binds actin, weakly at first. Release of Pi converts this to strong binding and triggers the power stroke, a lever-arm rotation that moves the thin filament roughly 5 to 10 nm. ADP then leaves, returning the head to rigor until another ATP arrives."
+        },
+        {
+          "type": "cycle",
+          "title": "The cross-bridge cycle",
+          "steps": [
+            "Rigor: nucleotide-free head bound tightly to actin",
+            "ATP binds; head releases actin",
+            "ATP hydrolyzed; head cocks with ADP and Pi bound",
+            "Cocked head binds an exposed actin site",
+            "Pi released; power stroke pulls thin filament",
+            "ADP released; head returns to rigor"
+          ],
+          "caption": "Ca2+ controls whether step 4 can occur; ATP controls whether step 2 can occur."
+        },
+        {
+          "type": "p",
+          "text": "ATP binding, not its hydrolysis, causes detachment, and the power stroke is driven by energy stored when the head was cocked and released with Pi. Heads cycle out of step with one another, so some are always attached and tension is smooth. ATP is also consumed by SERCA and the Na+/K+-ATPase. A fiber stores enough ATP for only a second or two of maximal work, so ATP is regenerated from phosphocreatine through creatine kinase, then by glycolysis and oxidative phosphorylation (MS-8)."
+        },
+        {
+          "type": "p",
+          "text": "Rigor mortis follows directly from this cycle. After death, ATP production stops, Ca2+ is no longer pumped back into the SR, and heads that bind actin cannot detach without ATP. Muscles stiffen over the first several hours and soften again over roughly the next day or two as proteolytic enzymes degrade the contractile proteins, with timing that depends strongly on temperature. The same principle explains the electrically silent contracture of myophosphorylase deficiency (McArdle disease): during intense exercise, fibers that cannot break down glycogen run short of ATP, cannot release actin or re-sequester Ca2+, and lock in a painful cramp without action potentials on electromyography."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-MUSC-07-01-C03",
+      "obj": "MS-7.3",
+      "title": "Grading force: recruitment, summation, length, and load",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A motor unit is one alpha motor neuron and all the fibers it supplies, all of the same type. Because neuromuscular transmission normally has a large safety factor, one motor neuron action potential makes every fiber in the unit twitch, so force cannot be graded within a unit by weakening the signal. The nervous system grades whole-muscle force by recruiting more units and by firing each unit faster. Muscles needing fine control (extraocular, intrinsic hand) have units of a few fibers; large limb muscles have units of several hundred or more."
+        },
+        {
+          "type": "h",
+          "text": "Recruitment and the size principle"
+        },
+        {
+          "type": "p",
+          "text": "Units are recruited from smallest to largest. A small motor neuron has less membrane area and therefore higher input resistance, so the same synaptic current produces a larger depolarization (V = IR) and reaches threshold first. Small neurons supply small units of fatigue-resistant type I fibers, and the largest neurons supply type II units that produce high force but fatigue quickly (C06). Posture and light tasks use mainly slow units, and fast units join as demand rises. Because each added unit is larger than the last, each increment of force stays roughly proportional to the force already present, which keeps control precise at every level of effort."
+        },
+        {
+          "type": "h",
+          "text": "Summation and tetanus"
+        },
+        {
+          "type": "p",
+          "text": "The action potential lasts a few milliseconds, but the twitch lasts tens of milliseconds or longer because Ca2+ release, cycling, and reuptake take time. A second action potential that arrives before relaxation adds force (summation). At high firing rates cytosolic Ca2+ stays elevated, twitches fuse into a smooth tetanus, and force reaches several times twitch force. A single twitch is weaker because Ca2+ is removed before the contractile elements have fully stretched the series elastic components (tendon and other elastic structures in series with the sarcomeres)."
+        },
+        {
+          "type": "h",
+          "text": "Length-tension and force-velocity"
+        },
+        {
+          "type": "p",
+          "text": "Active tension depends on how many myosin heads can reach actin, which depends on filament overlap. Passive tension, from titin and connective tissue, rises steeply when a relaxed muscle is stretched beyond its resting length; total tension is the sum of the two. Skeletal muscles in the body rest near optimal length, while cardiac muscle works on the ascending limb, so stretch increases its force (Frank-Starling, CV-6)."
+        },
+        {
+          "type": "table",
+          "title": "Active force across sarcomere length",
+          "cols": [
+            "Sarcomere length",
+            "Filament overlap",
+            "Active force"
+          ],
+          "rows": [
+            [
+              "About 3.6 micrometers or more",
+              "No thick and thin overlap",
+              "Zero"
+            ],
+            [
+              "About 2.2 to 3.6 micrometers",
+              "Overlap falls as length rises",
+              "Falls roughly linearly"
+            ],
+            [
+              "About 2.0 to 2.2 micrometers",
+              "All heads can reach actin",
+              "Maximal (plateau)"
+            ],
+            [
+              "Below about 2.0 micrometers",
+              "Thin filaments overlap each other; thick filaments approach Z lines",
+              "Falls, steeply below about 1.65 micrometers"
+            ]
+          ],
+          "caption": "Values are approximate and derive mainly from classic single-fiber studies."
+        },
+        {
+          "type": "p",
+          "text": "Shortening velocity falls as load rises. With no load, velocity is maximal (Vmax), set by the cross-bridge cycling rate of the fiber's myosin isoform. Heavier loads require more heads attached at once, so shortening slows until, at a load equal to maximal isometric force (P0), velocity is zero. A load above P0 stretches the active muscle (eccentric contraction), and force then exceeds P0 because attached heads are pulled backward before detaching. Power (force times velocity) peaks at roughly one-third of Vmax and P0."
+        },
+        {
+          "type": "example",
+          "title": "Combining length and load",
+          "text": "Why is active force zero at about 3.6 micrometers? Two thin filaments of about 1.0 micrometer and a thick filament of about 1.6 micrometers span that distance, so no head overlaps actin. Between 2.2 and 3.6 micrometers force falls roughly linearly, so at 2.9 micrometers, halfway along that limb, a fiber develops about half its maximal isometric force. Now give that stretched fiber a load equal to 40% of its optimal-length P0. The load is about 80% of what it can generate at 2.9 micrometers, so it shortens slowly. At 2.2 micrometers the same load is only 40% of its P0, so it shortens much faster."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-MUSC-07-01-C04",
+      "obj": "MS-7.4",
+      "title": "Cardiac muscle: calcium-induced calcium release and contractility",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Cardiac myocytes share the troponin and tropomyosin switch and the cross-bridge cycle with skeletal fibers, but they couple excitation differently and grade force differently. Gap junctions make the myocardium a functional syncytium, so every cell contracts on every beat; there are no motor units to recruit and no summation. Force is graded instead by how much Ca2+ reaches the myofilaments and how sensitive the filaments are to it."
+        },
+        {
+          "type": "p",
+          "text": "During the plateau (phase 2) of the ventricular action potential, L-type Ca2+ channels (Cav1.2) carry an inward Ca2+ current. Unlike skeletal muscle, there is no mechanical link to the SR. The trigger Ca2+ entering through L-type channels binds and opens ryanodine receptor 2 (RyR2), which releases a much larger amount from the SR: calcium-induced calcium release. Because the trigger controls release, anything that changes L-type current or SR Ca2+ content changes the strength of the beat, and cardiac muscle stops contracting within a few beats in Ca2+-free fluid. In human ventricle about 70% of the activating Ca2+ is pumped back into the SR by SERCA2a and most of the rest is extruded by the sarcolemmal Na+/Ca2+ exchanger (NCX, three Na+ in for one Ca2+ out); at steady state, NCX removes as much Ca2+ as entered."
+        },
+        {
+          "type": "diagram",
+          "name": "ventricular-ap",
+          "caption": "Phases 0 to 4 of the ventricular myocyte action potential; L-type Ca2+ entry during the phase 2 plateau triggers SR release."
+        },
+        {
+          "type": "p",
+          "text": "Fast Na+ channels inactivate during the upstroke and cannot recover until phase 3 repolarization. The effective refractory period therefore lasts nearly as long as the action potential, about 250 ms in ventricle, and by then the twitch is well into relaxation. A new action potential cannot arrive until the previous contraction is largely over, so twitches cannot fuse and tetany is impossible. This protects the pump, because a tetanized ventricle could not relax and fill."
+        },
+        {
+          "type": "table",
+          "title": "Skeletal versus cardiac coupling",
+          "cols": [
+            "Feature",
+            "Skeletal muscle",
+            "Cardiac muscle"
+          ],
+          "rows": [
+            [
+              "T tubule junction",
+              "Triad, at the A-I junction",
+              "Dyad, at the Z line"
+            ],
+            [
+              "DHPR to RyR link",
+              "Mechanical (DHPR to RyR1)",
+              "Ca2+ entry triggers RyR2"
+            ],
+            [
+              "Needs extracellular Ca2+",
+              "No",
+              "Yes"
+            ],
+            [
+              "Main Ca2+ removal",
+              "SERCA1",
+              "SERCA2a, then NCX"
+            ],
+            [
+              "Grading of force",
+              "Recruitment and summation",
+              "Amount of Ca2+ released and myofilament sensitivity"
+            ],
+            [
+              "Tetany",
+              "Possible",
+              "Prevented by long refractory period"
+            ]
+          ],
+          "caption": "The two muscles share troponin C regulation but differ in how voltage releases Ca2+ and how force is graded."
+        },
+        {
+          "type": "p",
+          "text": "Sympathetic stimulation increases contractility (inotropy) and speeds relaxation (lusitropy). Norepinephrine acts on beta-1 receptors, and protein kinase A (PKA) phosphorylates three key targets. Phospholamban, a small SR membrane protein, inhibits SERCA2a by lowering its Ca2+ affinity while it is dephosphorylated. PKA phosphorylation removes this brake, so SERCA2a pumps faster: cytosolic Ca2+ falls sooner, preserving diastolic filling time at high heart rates, and the SR stores more Ca2+, so the next release is larger."
+        },
+        {
+          "type": "flow",
+          "title": "Sympathetic increase in contractility",
+          "steps": [
+            "Norepinephrine binds beta-1 receptors",
+            "Gs activates adenylyl cyclase; cAMP rises",
+            "Protein kinase A is activated",
+            "L-type channels phosphorylated: more trigger Ca2+",
+            "Phospholamban phosphorylated: SERCA2a disinhibited",
+            "Troponin I phosphorylated: Ca2+ leaves TnC faster",
+            "Stronger, faster contraction with faster relaxation"
+          ],
+          "caption": "More trigger Ca2+ and a fuller SR raise force; faster reuptake and lower TnC affinity speed relaxation."
+        },
+        {
+          "type": "p",
+          "text": "Disease alters the same steps: failing myocardium expresses less SERCA2a, so relaxation slows and SR loading falls, and RyR2 variants that leak Ca2+ in diastole cause catecholaminergic polymorphic ventricular tachycardia (CV-7)."
+        },
+        {
+          "type": "example",
+          "title": "Why inhibiting the Na+/K+-ATPase strengthens the beat",
+          "text": "Cardiac glycosides partially inhibit the Na+/K+-ATPase, so intracellular Na+ rises slightly. NCX depends on the inward Na+ gradient to push Ca2+ out, and a smaller gradient means less Ca2+ is extruded between beats. More of each beat's Ca2+ is therefore left for SERCA2a to pump into the SR, SR content rises, and the next calcium-induced release is larger, so force increases. SR content, not only trigger size, sets release, and NCX links Na+ handling to contractility."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-MUSC-07-01-C05",
+      "obj": "MS-7.5",
+      "title": "Smooth muscle: MLCK, MLCP, latch, and nitric oxide",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Smooth muscle in vessels, airways, gut, bladder, and uterus has no sarcomeres and no troponin. Thin filaments anchor to cytoplasmic dense bodies and membrane dense plaques, which contain alpha-actinin like the Z line, so cells shorten in several directions and generate force over a wide range of lengths. Regulation is on the thick filament: myosin cannot cycle until its regulatory light chain is phosphorylated."
+        },
+        {
+          "type": "p",
+          "text": "Cytosolic Ca2+ rises by two routes. Depolarization by action potentials, slow waves, or stretch opens L-type Ca2+ channels (electromechanical coupling). Agonists on Gq-coupled receptors, such as alpha-1 adrenergic, angiotensin II type 1, and endothelin receptors, activate phospholipase C; IP3 then opens SR IP3 receptors, often with little change in membrane potential (pharmacomechanical coupling). Membrane potential and Ca2+ are graded, so force is graded rather than all-or-none."
+        },
+        {
+          "type": "p",
+          "text": "Ca2+ binds calmodulin, and Ca2+-calmodulin activates myosin light chain kinase (MLCK), which phosphorylates the 20 kDa regulatory light chain of myosin and switches on cross-bridge cycling. Myosin light chain phosphatase (MLCP) removes the phosphate. Force therefore reflects the balance of kinase and phosphatase activity, not Ca2+ alone. Agonists that activate RhoA and Rho kinase phosphorylate the regulatory subunit of MLCP and inhibit it, and protein kinase C inhibits it through the protein CPI-17, so force rises at the same Ca2+ (Ca2+ sensitization). Relaxation needs Ca2+ removal by SERCA, the plasma membrane Ca2+-ATPase, and NCX, which inactivates MLCK, together with MLCP activity."
+        },
+        {
+          "type": "flow",
+          "title": "Smooth muscle contraction",
+          "steps": [
+            "L-type Ca2+ entry or IP3 receptor release from SR",
+            "Ca2+ binds calmodulin",
+            "Ca2+-calmodulin activates MLCK",
+            "MLCK phosphorylates myosin regulatory light chain",
+            "Myosin ATPase activates; cross-bridges cycle",
+            "MLCP dephosphorylates; force falls or enters latch"
+          ],
+          "caption": "Rho kinase inhibition of MLCP raises force without more Ca2+."
+        },
+        {
+          "type": "p",
+          "text": "Smooth muscle myosin cycles far more slowly than skeletal myosin. During sustained stimulation, Ca2+ and light chain phosphorylation fall partway, yet force is maintained, because heads dephosphorylated while still attached detach very slowly (latch bridges). The latch state lets vascular and sphincter muscle hold tone for long periods at a small fraction of the ATP that skeletal muscle would spend for the same force."
+        },
+        {
+          "type": "p",
+          "text": "Nitric oxide (NO) is the main endothelium-derived relaxing factor. Endothelial NO synthase (eNOS), a Ca2+-calmodulin dependent enzyme, makes NO from L-arginine when agonists such as acetylcholine (on endothelial M3 receptors) and bradykinin raise endothelial Ca2+; shear stress activates it mainly by phosphorylation through Akt. NO diffuses into smooth muscle and activates soluble guanylyl cyclase by binding its heme, and the cGMP it produces activates protein kinase G (PKG), which lowers Ca2+ and activates MLCP. Phosphodiesterase 5 ends the signal by hydrolyzing cGMP, so blocking it prolongs relaxation. Without intact endothelium, acetylcholine instead contracts many vessels through smooth muscle muscarinic receptors, and reduced NO availability is the endothelial dysfunction of atherosclerosis, hypertension, and diabetes. A parallel path uses cAMP: beta-2 receptors activate PKA, which lowers Ca2+ and reduces MLCK affinity for Ca2+-calmodulin."
+        },
+        {
+          "type": "flow",
+          "title": "Nitric oxide relaxation",
+          "steps": [
+            "Acetylcholine (via Ca2+) or shear stress activates eNOS",
+            "eNOS makes NO from L-arginine",
+            "NO diffuses into smooth muscle",
+            "NO activates soluble guanylyl cyclase: GTP to cGMP",
+            "cGMP activates protein kinase G",
+            "PKG lowers Ca2+ and activates MLCP",
+            "Light chains dephosphorylate; muscle relaxes"
+          ],
+          "caption": "PKG lowers Ca2+ by reducing entry and IP3 release, increasing SR uptake, and opening K+ channels that hyperpolarize the cell."
+        },
+        {
+          "type": "stop",
+          "predict": "A compound inhibits MLCP. What happens to force at unchanged Ca2+, and to relaxation after Ca2+ falls?",
+          "explain": "Light chain phosphorylation rises, so force increases at the same Ca2+ (sensitization). After Ca2+ falls, MLCK stops, but light chains stay phosphorylated, so relaxation is slow and incomplete.",
+          "check": "The MLCK and MLCP paragraph."
+        }
+      ]
+    },
+    {
+      "comp": "NPLEX-P1-MUSC-07-01-C06",
+      "obj": "MS-7.6",
+      "title": "Skeletal fiber types and training adaptations",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Skeletal fibers differ chiefly in the myosin heavy chain isoform they express, which sets ATPase rate and shortening velocity, and in how they make ATP. Type I fibers express slow (beta) myosin, the isoform that also predominates in human ventricle. Type II fibers express fast isoforms; human muscle contains type IIa (fast oxidative-glycolytic) and type IIx (fast glycolytic) fibers. All fibers in a motor unit share one type, and most muscles are mosaics whose proportions reflect genetics and use."
+        },
+        {
+          "type": "table",
+          "title": "Skeletal muscle fiber types",
+          "cols": [
+            "Feature",
+            "Type I",
+            "Type IIa",
+            "Type IIx"
+          ],
+          "rows": [
+            [
+              "Contraction and myosin ATPase",
+              "Slow",
+              "Fast",
+              "Fastest"
+            ],
+            [
+              "Main ATP source",
+              "Oxidative phosphorylation",
+              "Oxidative and glycolytic",
+              "Glycolysis"
+            ],
+            [
+              "Mitochondria, capillaries, myoglobin",
+              "Many (red)",
+              "Moderate to many",
+              "Few (white)"
+            ],
+            [
+              "Glycogen",
+              "Low",
+              "Intermediate",
+              "High"
+            ],
+            [
+              "Fiber diameter and force",
+              "Small, low",
+              "Intermediate",
+              "Large, high"
+            ],
+            [
+              "Fatigue",
+              "Resistant",
+              "Moderately resistant",
+              "Rapid"
+            ],
+            [
+              "Motor unit",
+              "Small, recruited first",
+              "Intermediate",
+              "Large, recruited last"
+            ],
+            [
+              "Example",
+              "Soleus, postural muscles",
+              "Mixed limb muscles",
+              "Muscles for brief, powerful movement"
+            ]
+          ],
+          "caption": "Boards often simplify to type I (slow, oxidative, red) versus type II (fast, glycolytic, white)."
+        },
+        {
+          "type": "p",
+          "text": "The properties cluster for a reason. A fiber that works continuously must regenerate ATP as fast as it uses it, which only oxidative phosphorylation can sustain, so type I fibers have many mitochondria, dense capillaries, and abundant myoglobin, the red pigment that stores O2 and speeds its diffusion to the mitochondria. Slow myosin also uses less ATP for each unit of force held. Type II fibers generate ATP rapidly from phosphocreatine and glycogen through glycolysis, and an extensive SR with SERCA1 lets them contract and relax quickly. Glycolysis cannot keep pace for long, and accumulating Pi and H+ depress cross-bridge force and SR Ca2+ release, so these fibers fatigue within seconds to minutes."
+        },
+        {
+          "type": "p",
+          "text": "The motor neuron largely determines fiber type through its firing pattern: slow neurons fire steadily at low rates, fast neurons in brief high-frequency bursts, and cross-reinnervation experiments show that changing the nerve shifts the fiber toward the new type."
+        },
+        {
+          "type": "table",
+          "title": "Training adaptations",
+          "cols": [
+            "Feature",
+            "Endurance training",
+            "Resistance training"
+          ],
+          "rows": [
+            [
+              "Main signals",
+              "AMP-activated protein kinase, Ca2+-dependent kinases, PGC-1 alpha",
+              "mTORC1 and myofibrillar protein synthesis"
+            ],
+            [
+              "Mitochondria and oxidative enzymes",
+              "Increase markedly",
+              "Little change"
+            ],
+            [
+              "Capillary density",
+              "Increases",
+              "Little change per fiber"
+            ],
+            [
+              "Fiber size",
+              "Little change",
+              "Increases, mostly in type II fibers"
+            ],
+            [
+              "Fiber type shift",
+              "IIx toward IIa; little type II to type I conversion",
+              "IIx toward IIa"
+            ],
+            [
+              "Functional result",
+              "Fatigue resistance, more fat oxidation",
+              "Greater force and power"
+            ]
+          ],
+          "caption": "Training mainly remodels existing fibers rather than converting type II fibers to type I."
+        },
+        {
+          "type": "p",
+          "text": "Endurance training activates PGC-1 alpha, the coactivator that drives mitochondrial biogenesis, so fibers of every type become more oxidative and fatigue resistant. Resistance training adds myofibrils in parallel, enlarging fiber cross-sectional area, and satellite cells fuse with fibers to supply new nuclei; fiber number changes little in humans. Strength rises in the first weeks largely through neural adaptation (fuller recruitment and higher firing rates) before hypertrophy is measurable."
+        },
+        {
+          "type": "p",
+          "text": "These adaptations reverse with disuse. Immobilization and weightlessness atrophy postural, type I rich muscles such as the soleus, whereas aging and glucocorticoid excess preferentially atrophy type II fibers. After denervation, surviving axons sprout and reinnervate orphaned fibers, converting them to their own type, so biopsy shows fiber type grouping, a sign of neurogenic disease (MS-10)."
+        }
+      ]
+    }
   ],
-  "connections": [
-   {
-    "to": "Cardiac muscle contraction and the cardiac cycle (CV-5, CV-6)",
-    "how": "Calcium-induced Ca2+ release and the length dependence of force underlie contractility and the Frank-Starling mechanism."
-   },
-   {
-    "to": "Hemodynamics and blood flow regulation (CV-11)",
-    "how": "Vascular smooth muscle tone, set by the balance of MLCK and MLCP and by nitric oxide, determines arteriolar resistance."
-   },
-   {
-    "to": "Muscle and nerve interactions (MS-10)",
-    "how": "The motor neuron sets motor unit size, recruitment order, firing rate, and fiber type."
-   },
-   {
-    "to": "Musculoskeletal biochemistry and genetics (MS-8, MS-9)",
-    "how": "ATP supply limits contraction and relaxation, and RyR1, SERCA1, and myophosphorylase variants produce characteristic contraction disorders."
-   },
-   {
-    "to": "Exercise and the cardiovascular system (CV-12)",
-    "how": "Fiber type and training adaptations explain differences in endurance and strength."
-   }
+  "integration": [
+    {
+      "type": "p",
+      "text": "Muscle contraction ties several disciplines to one sequence. Neuroscience supplies the trigger (motor neuron firing and acetylcholine at the end plate), biochemistry supplies the ATP that both detaches myosin and pumps Ca2+, and genetics explains disorders at single steps: RyR1 variants in malignant hyperthermia and central core disease, SERCA1 loss in Brody disease, myophosphorylase deficiency in McArdle disease, and RyR2 variants in catecholaminergic polymorphic ventricular tachycardia. Pathology follows the same logic, since uncontrolled Ca2+ release or ATP failure leads to contracture, heat production, and rhabdomyolysis with myoglobinuria."
+    },
+    {
+      "type": "p",
+      "text": "The three muscle types answer the same problem in different ways. Skeletal muscle needs speed and voluntary grading, so it uses a mechanical voltage link and recruits motor units. The heart must beat reliably and refill, so it uses trigger Ca2+ and a long refractory period and grades force through Ca2+ handling under sympathetic control. Smooth muscle must hold tone cheaply, so it regulates myosin by phosphorylation and uses latch."
+    }
   ],
-  "terms": [
-   {
-    "term": "Excitation-contraction coupling",
-    "def": "The sequence that links a muscle action potential or receptor signal to a rise in cytosolic Ca2+ and cross-bridge cycling."
-   },
-   {
-    "term": "Triad",
-    "def": "A T tubule flanked by two terminal cisternae of the sarcoplasmic reticulum, the site of coupling in skeletal muscle."
-   },
-   {
-    "term": "Dihydropyridine receptor (DHPR)",
-    "def": "The L-type Ca2+ channel of the T tubule, which in skeletal muscle acts mainly as a voltage sensor."
-   },
-   {
-    "term": "Ryanodine receptor (RyR)",
-    "def": "The Ca2+ release channel of the sarcoplasmic reticulum; RyR1 in skeletal muscle and RyR2 in cardiac muscle."
-   },
-   {
-    "term": "SERCA",
-    "def": "The sarcoplasmic and endoplasmic reticulum Ca2+-ATPase, which pumps Ca2+ back into the SR and allows relaxation."
-   },
-   {
-    "term": "Cross-bridge cycle",
-    "def": "The repeated binding, power stroke, and release of myosin heads on actin, driven by ATP binding and hydrolysis."
-   },
-   {
-    "term": "Motor unit",
-    "def": "One alpha motor neuron and all the muscle fibers it innervates."
-   },
-   {
-    "term": "Tetanus (physiological)",
-    "def": "Fused, sustained maximal contraction produced when action potentials arrive faster than the fiber can relax."
-   },
-   {
-    "term": "Phospholamban",
-    "def": "An SR membrane protein that inhibits SERCA2a until it is phosphorylated, mainly by protein kinase A."
-   },
-   {
-    "term": "Myosin light chain kinase (MLCK)",
-    "def": "The Ca2+-calmodulin dependent enzyme that phosphorylates the myosin regulatory light chain and switches on smooth muscle contraction."
-   },
-   {
-    "term": "Latch state",
-    "def": "Maintenance of smooth muscle force by slowly cycling dephosphorylated cross-bridges at low ATP cost."
-   },
-   {
-    "term": "Calcium sensitization",
-    "def": "An increase in smooth muscle force at a constant Ca2+ concentration, usually through inhibition of myosin light chain phosphatase."
-   }
+  "summary": [
+    "In skeletal muscle, T tubule depolarization moves the DHPR, which mechanically opens RyR1; no extracellular Ca2+ is required.",
+    "Ca2+ binding to troponin C moves tropomyosin off actin; SERCA pumps Ca2+ back into the SR, so relaxation also costs ATP.",
+    "ATP binding detaches myosin, hydrolysis cocks the head, and Pi release drives the power stroke; without ATP, heads stay bound (rigor mortis, McArdle contracture).",
+    "Skeletal force is graded by recruitment from small to large motor units (size principle) and by firing rate, from summation to fused tetanus.",
+    "Active force is maximal at sarcomere lengths of about 2.0 to 2.2 micrometers; shortening velocity falls as load rises and is zero at maximal isometric force.",
+    "In cardiac muscle, L-type Ca2+ entry triggers RyR2 release (calcium-induced calcium release), and SR content plus trigger size set the strength of the beat.",
+    "The cardiac refractory period lasts nearly as long as contraction, so the heart cannot tetanize and always relaxes to fill.",
+    "Beta-1 stimulation via PKA phosphorylates L-type channels, phospholamban, and troponin I, increasing force and speeding relaxation.",
+    "Smooth muscle contracts when Ca2+-calmodulin activates MLCK and relaxes when MLCP dephosphorylates the light chain; latch holds tone cheaply, and NO relaxes through cGMP and PKG.",
+    "Type I fibers are slow, oxidative, red, and fatigue resistant; type II fibers are fast, glycolytic, and fatigable; endurance training raises oxidative capacity and resistance training enlarges type II fibers."
+  ],
+  "sources": [
+    {
+      "book": "Guyton and Hall Textbook of Medical Physiology",
+      "where": "Contraction of Skeletal Muscle"
+    },
+    {
+      "book": "Guyton and Hall Textbook of Medical Physiology",
+      "where": "Excitation of Skeletal Muscle: Neuromuscular Transmission and Excitation-Contraction Coupling"
+    },
+    {
+      "book": "Guyton and Hall Textbook of Medical Physiology",
+      "where": "Excitation and Contraction of Smooth Muscle"
+    },
+    {
+      "book": "Guyton and Hall Textbook of Medical Physiology",
+      "where": "Cardiac Muscle; The Heart as a Pump and Function of the Heart Valves"
+    },
+    {
+      "book": "Boron and Boulpaep Medical Physiology",
+      "where": "Cellular physiology of skeletal, cardiac, and smooth muscle"
+    },
+    {
+      "book": "Robbins and Cotran Pathologic Basis of Disease",
+      "where": "Peripheral Nerves and Skeletal Muscles"
+    }
+  ],
+  "verify": [
+    "Resting and peak cytosolic Ca2+ in skeletal muscle differ between sources (resting about 0.1 micromolar; Guyton and Hall give a larger peak rise than others); the chapter states only \"about 100-fold or more\".",
+    "The share of Ca2+ removal by SERCA2a versus NCX in human ventricle (about 70% versus most of the remainder) comes from cardiac myocyte research reviews; Guyton and Hall present the extracellular contribution differently.",
+    "Length-tension values (plateau about 2.0 to 2.2 micrometers, zero force near 3.6 micrometers) come from classic frog fiber data; human thin filaments are somewhat longer, shifting these values slightly.",
+    "Timing of rigor mortis onset and resolution varies widely with temperature and source; confirm whether NABNE expects specific hours.",
+    "The ventricular effective refractory period (about 250 ms) and twitch durations vary with heart rate and source.",
+    "Confirm whether NABNE Part I expects the eponyms Henneman (size principle), Brody disease, and McArdle disease, and the IIa versus IIx fiber subtypes or only type I versus type II.",
+    "Requested new diagram names for a future revision: cross-bridge-cycle (myosin head states on actin) and length-tension-curve (active, passive, and total tension against sarcomere length)."
   ]
- },
- "sections": [
-  {
-   "comp": "NPLEX-P1-MUSC-07-01-C01",
-   "obj": "MS-7.1",
-   "title": "Skeletal excitation-contraction coupling",
-   "blocks": [
-    {
-     "type": "p",
-     "text": "A skeletal fiber contracts only when its motor neuron fires. Acetylcholine opens nicotinic cation channels at the end plate, and the resulting depolarization fires a sarcolemmal action potential that lasts only about 1 to 5 ms. Excitation-contraction coupling converts that brief electrical event into a rise in cytosolic Ca2+, and the Ca2+ into force."
-    },
-    {
-     "type": "p",
-     "text": "The action potential travels into the fiber along transverse (T) tubules, which in mammalian skeletal muscle lie at each junction of the A and I bands. Each T tubule is flanked by two terminal cisternae of the sarcoplasmic reticulum (SR), forming a triad. The T tubule membrane contains the dihydropyridine receptor (DHPR), an L-type Ca2+ channel (Cav1.1) that here works mainly as a voltage sensor. Its cytoplasmic loop is physically linked to ryanodine receptor 1 (RyR1), the SR release channel. Depolarization moves the DHPR voltage sensors, the conformational change is transmitted directly, and RyR1 opens. Because the link is mechanical, skeletal muscle keeps contracting for a time in Ca2+-free bathing fluid; Ca2+ entry through the DHPR is small and slow and is not needed for contraction."
-    },
-    {
-     "type": "p",
-     "text": "Released Ca2+ raises cytosolic concentration roughly a hundredfold from its resting level of about 0.1 micromolar. Troponin has three subunits: troponin C (TnC) binds Ca2+, troponin I (TnI) inhibits actin-myosin interaction, and troponin T (TnT) anchors the complex to tropomyosin. Ca2+ binding to TnC pulls TnI off actin, so tropomyosin rolls deeper into the actin groove and uncovers the myosin-binding sites. Cross-bridges then cycle (C02)."
-    },
-    {
-     "type": "p",
-     "text": "Relaxation requires active removal of Ca2+. SERCA1, the fast-fiber SR Ca2+-ATPase, pumps two Ca2+ into the SR for each ATP hydrolyzed, and calsequestrin binds Ca2+ inside the SR so the store holds a large amount at a modest free concentration. As cytosolic Ca2+ falls, Ca2+ leaves TnC, tropomyosin covers the binding sites, and tension declines. Relaxation therefore costs ATP just as contraction does."
-    },
-    {
-     "type": "flow",
-     "title": "Skeletal excitation-contraction coupling",
-     "steps": [
-      "Action potential spreads along sarcolemma and down T tubules",
-      "DHPR voltage sensors change shape",
-      "Mechanical link opens RyR1 in the SR",
-      "Ca2+ binds troponin C; tropomyosin uncovers actin",
-      "Cross-bridges cycle and generate force",
-      "SERCA1 pumps Ca2+ back into the SR; fiber relaxes"
-     ],
-     "caption": "No extracellular Ca2+ is required; the voltage signal reaches the SR through protein-to-protein contact."
-    },
-    {
-     "type": "table",
-     "title": "Proteins of skeletal coupling and their disorders",
-     "cols": [
-      "Protein",
-      "Location",
-      "Role",
-      "Disorder when altered"
-     ],
-     "rows": [
-      [
-       "DHPR (Cav1.1)",
-       "T tubule membrane",
-       "Voltage sensor linked to RyR1",
-       "Hypokalemic periodic paralysis type 1; some malignant hyperthermia"
-      ],
-      [
-       "RyR1",
-       "SR terminal cisternae",
-       "Ca2+ release channel",
-       "Malignant hyperthermia; central core disease"
-      ],
-      [
-       "Troponin C",
-       "Thin filament",
-       "Ca2+ sensor that moves tropomyosin",
-       "Not a classic skeletal disorder"
-      ],
-      [
-       "Calsequestrin",
-       "SR lumen",
-       "Ca2+ storage buffer",
-       "Not a classic skeletal disorder"
-      ],
-      [
-       "SERCA1",
-       "SR membrane of fast fibers",
-       "Ca2+ reuptake, relaxation",
-       "Brody disease: slow relaxation after exercise"
-      ]
-     ],
-     "caption": "Each step of coupling has a protein whose variants change contraction or relaxation."
-    },
-    {
-     "type": "p",
-     "text": "Malignant hyperthermia shows the system failing. An autosomal dominant RyR1 variant makes the channel open excessively when exposed to volatile anesthetics or succinylcholine. Uncontrolled Ca2+ release causes sustained rigidity, and ATP use by myosin and SERCA produces heat, CO2, and lactate; as fibers break down, K+ and myoglobin leak out (hyperkalemia, rhabdomyolysis). Dantrolene, which suppresses RyR1 release, confirms that the defect lies at the SR channel."
-    },
-    {
-     "type": "stop",
-     "predict": "Severe hypocalcemia causes muscle cramps and carpopedal spasm. Does this mean skeletal contraction depends on extracellular Ca2+?",
-     "explain": "No. Skeletal coupling uses SR Ca2+ released through the mechanical DHPR to RyR1 link. Low extracellular Ca2+ makes nerve membranes more excitable, because voltage-gated Na+ channels open more easily, so motor axons fire spontaneously and drive the spasm.",
-     "check": "The DHPR and RyR1 paragraph."
-    }
-   ]
-  },
-  {
-   "comp": "NPLEX-P1-MUSC-07-01-C02",
-   "obj": "MS-7.2",
-   "title": "The cross-bridge cycle and rigor mortis",
-   "blocks": [
-    {
-     "type": "p",
-     "text": "Force comes from myosin II heads on the thick filament pulling the thin actin filaments toward the center of the sarcomere (the M line). The filaments slide past each other without changing length, which is why the band pattern changes the way it does during shortening."
-    },
-    {
-     "type": "table",
-     "title": "Sarcomere bands during shortening",
-     "cols": [
-      "Region",
-      "What it contains",
-      "Change with shortening"
-     ],
-     "rows": [
-      [
-       "A band",
-       "Full length of the thick filaments",
-       "No change"
-      ],
-      [
-       "I band",
-       "Thin filaments only, bisected by the Z line",
-       "Narrows"
-      ],
-      [
-       "H zone",
-       "Thick filaments only, center of the A band",
-       "Narrows"
-      ],
-      [
-       "Z line to Z line",
-       "One sarcomere",
-       "Shortens"
-      ]
-     ],
-     "caption": "Constant A band width is the key evidence that filaments slide rather than shorten."
-    },
-    {
-     "type": "p",
-     "text": "Each myosin head has an actin-binding site and an ATPase site, and the nucleotide in the ATPase site decides how tightly the head holds actin. The cycle is easiest to follow from the rigor state, in which a head with no nucleotide is bound tightly to actin at the end of its stroke. ATP binding lowers the head's affinity for actin, so it detaches. The head then hydrolyzes ATP to ADP and inorganic phosphate (Pi), keeps both products bound, and uses the energy released to re-cock into its high-energy, pre-stroke position. If Ca2+ has uncovered the binding sites, the cocked head binds actin, weakly at first. Release of Pi converts this to strong binding and triggers the power stroke, a lever-arm rotation that moves the thin filament roughly 5 to 10 nm. ADP then leaves, returning the head to rigor until another ATP arrives."
-    },
-    {
-     "type": "cycle",
-     "title": "The cross-bridge cycle",
-     "steps": [
-      "Rigor: nucleotide-free head bound tightly to actin",
-      "ATP binds; head releases actin",
-      "ATP hydrolyzed; head cocks with ADP and Pi bound",
-      "Cocked head binds an exposed actin site",
-      "Pi released; power stroke pulls thin filament",
-      "ADP released; head returns to rigor"
-     ],
-     "caption": "Ca2+ controls whether step 4 can occur; ATP controls whether step 2 can occur."
-    },
-    {
-     "type": "p",
-     "text": "Notice where the energy goes. ATP binding, not its hydrolysis, causes detachment, and the power stroke is driven by energy stored when the head was cocked and released with Pi. Heads cycle out of step with one another, so some are always attached and tension is smooth. ATP is also consumed by SERCA and the Na+/K+-ATPase. A fiber stores enough ATP for only a second or two of maximal work, so ATP is regenerated from phosphocreatine through creatine kinase, then by glycolysis and oxidative phosphorylation (MS-8)."
-    },
-    {
-     "type": "p",
-     "text": "Rigor mortis follows directly from this cycle. After death, ATP production stops, Ca2+ is no longer pumped back into the SR, and heads that bind actin cannot detach without ATP. Muscles stiffen over the first several hours and soften again over roughly the next day or two as proteolytic enzymes degrade the contractile proteins, with timing that depends strongly on temperature. The same principle explains the electrically silent contracture of myophosphorylase deficiency (McArdle disease): during intense exercise, fibers that cannot break down glycogen run short of ATP, cannot release actin or re-sequester Ca2+, and lock in a painful cramp without action potentials on electromyography."
-    }
-   ]
-  },
-  {
-   "comp": "NPLEX-P1-MUSC-07-01-C03",
-   "obj": "MS-7.3",
-   "title": "Grading force: recruitment, summation, length, and load",
-   "blocks": [
-    {
-     "type": "p",
-     "text": "A motor unit is one alpha motor neuron and all the fibers it supplies, all of the same type. Because neuromuscular transmission normally has a large safety factor, one motor neuron action potential makes every fiber in the unit twitch, so force cannot be graded within a unit by weakening the signal. The nervous system grades whole-muscle force by recruiting more units and by firing each unit faster. Muscles needing fine control (extraocular, intrinsic hand) have units of a few fibers; large limb muscles have units of several hundred or more."
-    },
-    {
-     "type": "h",
-     "text": "Recruitment and the size principle"
-    },
-    {
-     "type": "p",
-     "text": "Units are recruited from smallest to largest. A small motor neuron has less membrane area and therefore higher input resistance, so the same synaptic current produces a larger depolarization (V = IR) and reaches threshold first. Small neurons supply small units of fatigue-resistant type I fibers, and the largest neurons supply type II units that produce high force but fatigue quickly (C06). Posture and light tasks use mainly slow units, and fast units join as demand rises. Because each added unit is larger than the last, each increment of force stays roughly proportional to the force already present, which keeps control precise at every level of effort."
-    },
-    {
-     "type": "h",
-     "text": "Summation and tetanus"
-    },
-    {
-     "type": "p",
-     "text": "The action potential lasts a few milliseconds, but the twitch lasts tens of milliseconds or longer because Ca2+ release, cycling, and reuptake take time. A second action potential that arrives before relaxation adds force (summation). At high firing rates cytosolic Ca2+ stays elevated, twitches fuse into a smooth tetanus, and force reaches several times twitch force. A single twitch is weaker because Ca2+ is removed before the contractile elements have fully stretched the series elastic components (tendon and other elastic structures in series with the sarcomeres)."
-    },
-    {
-     "type": "h",
-     "text": "Length-tension and force-velocity"
-    },
-    {
-     "type": "p",
-     "text": "Active tension depends on how many myosin heads can reach actin, which depends on filament overlap. Passive tension, from titin and connective tissue, rises steeply when a relaxed muscle is stretched beyond its resting length; total tension is the sum of the two. Skeletal muscles in the body rest near optimal length, while cardiac muscle works on the ascending limb, so stretch increases its force (Frank-Starling, CV-6)."
-    },
-    {
-     "type": "table",
-     "title": "Active force across sarcomere length",
-     "cols": [
-      "Sarcomere length",
-      "Filament overlap",
-      "Active force"
-     ],
-     "rows": [
-      [
-       "About 3.6 micrometers or more",
-       "No thick and thin overlap",
-       "Zero"
-      ],
-      [
-       "About 2.2 to 3.6 micrometers",
-       "Overlap falls as length rises",
-       "Falls roughly linearly"
-      ],
-      [
-       "About 2.0 to 2.2 micrometers",
-       "All heads can reach actin",
-       "Maximal (plateau)"
-      ],
-      [
-       "Below about 2.0 micrometers",
-       "Thin filaments overlap each other; thick filaments approach Z lines",
-       "Falls, steeply below about 1.65 micrometers"
-      ]
-     ],
-     "caption": "Values are approximate and derive mainly from classic single-fiber studies."
-    },
-    {
-     "type": "p",
-     "text": "Shortening velocity falls as load rises. With no load, velocity is maximal (Vmax), set by the cross-bridge cycling rate of the fiber's myosin isoform. Heavier loads require more heads attached at once, so shortening slows until, at a load equal to maximal isometric force (P0), velocity is zero. A load above P0 stretches the active muscle (eccentric contraction), and force then exceeds P0 because attached heads are pulled backward before detaching. Power (force times velocity) peaks at roughly one-third of Vmax and P0."
-    },
-    {
-     "type": "example",
-     "title": "Combining length and load",
-     "text": "Why is active force zero at about 3.6 micrometers? Two thin filaments of about 1.0 micrometer and a thick filament of about 1.6 micrometers span that distance, so no head overlaps actin. Between 2.2 and 3.6 micrometers force falls roughly linearly, so at 2.9 micrometers, halfway along that limb, a fiber develops about half its maximal isometric force. Now give that stretched fiber a load equal to 40% of its optimal-length P0. The load is about 80% of what it can generate at 2.9 micrometers, so it shortens slowly. At 2.2 micrometers the same load is only 40% of its P0, so it shortens much faster."
-    }
-   ]
-  },
-  {
-   "comp": "NPLEX-P1-MUSC-07-01-C04",
-   "obj": "MS-7.4",
-   "title": "Cardiac muscle: calcium-induced calcium release and contractility",
-   "blocks": [
-    {
-     "type": "p",
-     "text": "Cardiac myocytes share the troponin and tropomyosin switch and the cross-bridge cycle with skeletal fibers, but they couple excitation differently and grade force differently. Gap junctions make the myocardium a functional syncytium, so every cell contracts on every beat; there are no motor units to recruit and no summation. Force is graded instead by how much Ca2+ reaches the myofilaments and how sensitive the filaments are to it."
-    },
-    {
-     "type": "p",
-     "text": "During the plateau (phase 2) of the ventricular action potential, L-type Ca2+ channels (Cav1.2) carry an inward Ca2+ current. Unlike skeletal muscle, there is no mechanical link to the SR. The trigger Ca2+ entering through L-type channels binds and opens ryanodine receptor 2 (RyR2), which releases a much larger amount from the SR: calcium-induced calcium release. Because the trigger controls release, anything that changes L-type current or SR Ca2+ content changes the strength of the beat, and cardiac muscle stops contracting within a few beats in Ca2+-free fluid. In human ventricle about 70% of the activating Ca2+ is pumped back into the SR by SERCA2a and most of the rest is extruded by the sarcolemmal Na+/Ca2+ exchanger (NCX, three Na+ in for one Ca2+ out); at steady state, NCX removes as much Ca2+ as entered."
-    },
-    {
-     "type": "diagram",
-     "name": "ventricular-ap",
-     "caption": "Phases 0 to 4 of the ventricular myocyte action potential; L-type Ca2+ entry during the phase 2 plateau triggers SR release."
-    },
-    {
-     "type": "p",
-     "text": "Fast Na+ channels inactivate during the upstroke and cannot recover until phase 3 repolarization. The effective refractory period therefore lasts nearly as long as the action potential, about 250 ms in ventricle, and by then the twitch is well into relaxation. A new action potential cannot arrive until the previous contraction is largely over, so twitches cannot fuse and tetany is impossible. This protects the pump, because a tetanized ventricle could not relax and fill."
-    },
-    {
-     "type": "table",
-     "title": "Skeletal versus cardiac coupling",
-     "cols": [
-      "Feature",
-      "Skeletal muscle",
-      "Cardiac muscle"
-     ],
-     "rows": [
-      [
-       "T tubule junction",
-       "Triad, at the A-I junction",
-       "Dyad, at the Z line"
-      ],
-      [
-       "DHPR to RyR link",
-       "Mechanical (DHPR to RyR1)",
-       "Ca2+ entry triggers RyR2"
-      ],
-      [
-       "Needs extracellular Ca2+",
-       "No",
-       "Yes"
-      ],
-      [
-       "Main Ca2+ removal",
-       "SERCA1",
-       "SERCA2a, then NCX"
-      ],
-      [
-       "Grading of force",
-       "Recruitment and summation",
-       "Amount of Ca2+ released and myofilament sensitivity"
-      ],
-      [
-       "Tetany",
-       "Possible",
-       "Prevented by long refractory period"
-      ]
-     ],
-     "caption": "The two muscles share troponin C regulation but differ in how voltage releases Ca2+ and how force is graded."
-    },
-    {
-     "type": "p",
-     "text": "Sympathetic stimulation increases contractility (inotropy) and speeds relaxation (lusitropy). Norepinephrine acts on beta-1 receptors, and protein kinase A (PKA) phosphorylates three key targets. Phospholamban, a small SR membrane protein, inhibits SERCA2a by lowering its Ca2+ affinity while it is dephosphorylated. PKA phosphorylation removes this brake, so SERCA2a pumps faster: cytosolic Ca2+ falls sooner, preserving diastolic filling time at high heart rates, and the SR stores more Ca2+, so the next release is larger."
-    },
-    {
-     "type": "flow",
-     "title": "Sympathetic increase in contractility",
-     "steps": [
-      "Norepinephrine binds beta-1 receptors",
-      "Gs activates adenylyl cyclase; cAMP rises",
-      "Protein kinase A is activated",
-      "L-type channels phosphorylated: more trigger Ca2+",
-      "Phospholamban phosphorylated: SERCA2a disinhibited",
-      "Troponin I phosphorylated: Ca2+ leaves TnC faster",
-      "Stronger, faster contraction with faster relaxation"
-     ],
-     "caption": "More trigger Ca2+ and a fuller SR raise force; faster reuptake and lower TnC affinity speed relaxation."
-    },
-    {
-     "type": "p",
-     "text": "Disease alters the same steps: failing myocardium expresses less SERCA2a, so relaxation slows and SR loading falls, and RyR2 variants that leak Ca2+ in diastole cause catecholaminergic polymorphic ventricular tachycardia (CV-7)."
-    },
-    {
-     "type": "example",
-     "title": "Why inhibiting the Na+/K+-ATPase strengthens the beat",
-     "text": "Cardiac glycosides partially inhibit the Na+/K+-ATPase, so intracellular Na+ rises slightly. NCX depends on the inward Na+ gradient to push Ca2+ out, and a smaller gradient means less Ca2+ is extruded between beats. More of each beat's Ca2+ is therefore left for SERCA2a to pump into the SR, SR content rises, and the next calcium-induced release is larger, so force increases. SR content, not only trigger size, sets release, and NCX links Na+ handling to contractility."
-    }
-   ]
-  },
-  {
-   "comp": "NPLEX-P1-MUSC-07-01-C05",
-   "obj": "MS-7.5",
-   "title": "Smooth muscle: MLCK, MLCP, latch, and nitric oxide",
-   "blocks": [
-    {
-     "type": "p",
-     "text": "Smooth muscle in vessels, airways, gut, bladder, and uterus has no sarcomeres and no troponin. Thin filaments anchor to cytoplasmic dense bodies and membrane dense plaques, which contain alpha-actinin like the Z line, so cells shorten in several directions and generate force over a wide range of lengths. Regulation is on the thick filament: myosin cannot cycle until its regulatory light chain is phosphorylated."
-    },
-    {
-     "type": "p",
-     "text": "Cytosolic Ca2+ rises by two routes. Depolarization by action potentials, slow waves, or stretch opens L-type Ca2+ channels (electromechanical coupling). Agonists on Gq-coupled receptors, such as alpha-1 adrenergic, angiotensin II type 1, and endothelin receptors, activate phospholipase C; IP3 then opens SR IP3 receptors, often with little change in membrane potential (pharmacomechanical coupling). Membrane potential and Ca2+ are graded, so force is graded rather than all-or-none."
-    },
-    {
-     "type": "p",
-     "text": "Ca2+ binds calmodulin, and Ca2+-calmodulin activates myosin light chain kinase (MLCK), which phosphorylates the 20 kDa regulatory light chain of myosin and switches on cross-bridge cycling. Myosin light chain phosphatase (MLCP) removes the phosphate. Force therefore reflects the balance of kinase and phosphatase activity, not Ca2+ alone. Agonists that activate RhoA and Rho kinase phosphorylate the regulatory subunit of MLCP and inhibit it, and protein kinase C inhibits it through the protein CPI-17, so force rises at the same Ca2+ (Ca2+ sensitization). Relaxation needs Ca2+ removal by SERCA, the plasma membrane Ca2+-ATPase, and NCX, which inactivates MLCK, together with MLCP activity."
-    },
-    {
-     "type": "flow",
-     "title": "Smooth muscle contraction",
-     "steps": [
-      "L-type Ca2+ entry or IP3 receptor release from SR",
-      "Ca2+ binds calmodulin",
-      "Ca2+-calmodulin activates MLCK",
-      "MLCK phosphorylates myosin regulatory light chain",
-      "Myosin ATPase activates; cross-bridges cycle",
-      "MLCP dephosphorylates; force falls or enters latch"
-     ],
-     "caption": "Rho kinase inhibition of MLCP raises force without more Ca2+."
-    },
-    {
-     "type": "p",
-     "text": "Smooth muscle myosin cycles far more slowly than skeletal myosin. During sustained stimulation, Ca2+ and light chain phosphorylation fall partway, yet force is maintained, because heads dephosphorylated while still attached detach very slowly (latch bridges). The latch state lets vascular and sphincter muscle hold tone for long periods at a small fraction of the ATP that skeletal muscle would spend for the same force."
-    },
-    {
-     "type": "p",
-     "text": "Nitric oxide (NO) is the main endothelium-derived relaxing factor. Endothelial NO synthase, a Ca2+-calmodulin dependent enzyme, makes NO from L-arginine when shear stress or agonists such as acetylcholine (on endothelial M3 receptors) and bradykinin raise endothelial Ca2+. NO diffuses into smooth muscle and activates soluble guanylyl cyclase by binding its heme, and the cGMP it produces activates protein kinase G (PKG), which lowers Ca2+ and activates MLCP. Phosphodiesterase 5 ends the signal by hydrolyzing cGMP, so blocking it prolongs relaxation. Without intact endothelium, acetylcholine instead contracts many vessels through smooth muscle muscarinic receptors, and reduced NO availability is the endothelial dysfunction of atherosclerosis, hypertension, and diabetes. A parallel path uses cAMP: beta-2 receptors activate PKA, which lowers Ca2+ and reduces MLCK affinity for Ca2+-calmodulin."
-    },
-    {
-     "type": "flow",
-     "title": "Nitric oxide relaxation",
-     "steps": [
-      "Shear stress or acetylcholine raises endothelial Ca2+",
-      "eNOS makes NO from L-arginine",
-      "NO diffuses into smooth muscle",
-      "NO activates soluble guanylyl cyclase: GTP to cGMP",
-      "cGMP activates protein kinase G",
-      "PKG lowers Ca2+ and activates MLCP",
-      "Light chains dephosphorylate; muscle relaxes"
-     ],
-     "caption": "PKG lowers Ca2+ by reducing entry and IP3 release, increasing SR uptake, and opening K+ channels that hyperpolarize the cell."
-    },
-    {
-     "type": "stop",
-     "predict": "A compound inhibits MLCP. What happens to force at unchanged Ca2+, and to relaxation after Ca2+ falls?",
-     "explain": "Light chain phosphorylation rises, so force increases at the same Ca2+ (sensitization). After Ca2+ falls, MLCK stops, but light chains stay phosphorylated, so relaxation is slow and incomplete.",
-     "check": "The MLCK and MLCP paragraph."
-    }
-   ]
-  },
-  {
-   "comp": "NPLEX-P1-MUSC-07-01-C06",
-   "obj": "MS-7.6",
-   "title": "Skeletal fiber types and training adaptations",
-   "blocks": [
-    {
-     "type": "p",
-     "text": "Skeletal fibers differ chiefly in the myosin heavy chain isoform they express, which sets ATPase rate and shortening velocity, and in how they make ATP. Type I fibers express slow (beta) myosin, the isoform that also predominates in human ventricle. Type II fibers express fast isoforms; human muscle contains type IIa (fast oxidative-glycolytic) and type IIx (fast glycolytic) fibers. All fibers in a motor unit share one type, and most muscles are mosaics whose proportions reflect genetics and use."
-    },
-    {
-     "type": "table",
-     "title": "Skeletal muscle fiber types",
-     "cols": [
-      "Feature",
-      "Type I",
-      "Type IIa",
-      "Type IIx"
-     ],
-     "rows": [
-      [
-       "Contraction and myosin ATPase",
-       "Slow",
-       "Fast",
-       "Fastest"
-      ],
-      [
-       "Main ATP source",
-       "Oxidative phosphorylation",
-       "Oxidative and glycolytic",
-       "Glycolysis"
-      ],
-      [
-       "Mitochondria, capillaries, myoglobin",
-       "Many (red)",
-       "Moderate to many",
-       "Few (white)"
-      ],
-      [
-       "Glycogen",
-       "Low",
-       "Intermediate",
-       "High"
-      ],
-      [
-       "Fiber diameter and force",
-       "Small, low",
-       "Intermediate",
-       "Large, high"
-      ],
-      [
-       "Fatigue",
-       "Resistant",
-       "Moderately resistant",
-       "Rapid"
-      ],
-      [
-       "Motor unit",
-       "Small, recruited first",
-       "Intermediate",
-       "Large, recruited last"
-      ],
-      [
-       "Example",
-       "Soleus, postural muscles",
-       "Mixed limb muscles",
-       "Muscles for brief, powerful movement"
-      ]
-     ],
-     "caption": "Boards often simplify to type I (slow, oxidative, red) versus type II (fast, glycolytic, white)."
-    },
-    {
-     "type": "p",
-     "text": "The properties cluster for a reason. A fiber that works continuously must regenerate ATP as fast as it uses it, which only oxidative phosphorylation can sustain, so type I fibers have many mitochondria, dense capillaries, and myoglobin, which stores O2 and speeds its diffusion to mitochondria and gives the red color. Slow myosin also uses less ATP for each unit of force held. Type II fibers generate ATP rapidly from phosphocreatine and glycogen through glycolysis, and an extensive SR with SERCA1 lets them contract and relax quickly. Glycolysis cannot keep pace for long, and accumulating Pi and H+ depress cross-bridge force and SR Ca2+ release, so these fibers fatigue within seconds to minutes."
-    },
-    {
-     "type": "p",
-     "text": "The motor neuron largely determines fiber type through its firing pattern: slow neurons fire steadily at low rates, fast neurons in brief high-frequency bursts, and cross-reinnervation experiments show that changing the nerve shifts the fiber toward the new type."
-    },
-    {
-     "type": "table",
-     "title": "Training adaptations",
-     "cols": [
-      "Feature",
-      "Endurance training",
-      "Resistance training"
-     ],
-     "rows": [
-      [
-       "Main signals",
-       "AMP-activated protein kinase, Ca2+-dependent kinases, PGC-1 alpha",
-       "mTORC1 and myofibrillar protein synthesis"
-      ],
-      [
-       "Mitochondria and oxidative enzymes",
-       "Increase markedly",
-       "Little change"
-      ],
-      [
-       "Capillary density",
-       "Increases",
-       "Little change per fiber"
-      ],
-      [
-       "Fiber size",
-       "Little change",
-       "Increases, mostly in type II fibers"
-      ],
-      [
-       "Fiber type shift",
-       "IIx toward IIa; little type II to type I conversion",
-       "IIx toward IIa"
-      ],
-      [
-       "Functional result",
-       "Fatigue resistance, more fat oxidation",
-       "Greater force and power"
-      ]
-     ],
-     "caption": "Training mainly remodels existing fibers rather than converting type II fibers to type I."
-    },
-    {
-     "type": "p",
-     "text": "Endurance training activates PGC-1 alpha, the coactivator that drives mitochondrial biogenesis, so fibers of every type become more oxidative and fatigue resistant. Resistance training adds myofibrils in parallel, enlarging fiber cross-sectional area, and satellite cells fuse with fibers to supply new nuclei; fiber number changes little in humans. Strength rises in the first weeks largely through neural adaptation (fuller recruitment and higher firing rates) before hypertrophy is measurable."
-    },
-    {
-     "type": "p",
-     "text": "These adaptations reverse with disuse. Immobilization and weightlessness atrophy postural, type I rich muscles such as the soleus, whereas aging and glucocorticoid excess preferentially atrophy type II fibers. After denervation, surviving axons sprout and reinnervate orphaned fibers, converting them to their own type, so biopsy shows fiber type grouping, a sign of neurogenic disease (MS-10)."
-    }
-   ]
-  }
- ],
- "integration": [
-  {
-   "type": "p",
-   "text": "Muscle contraction ties several disciplines to one sequence. Neuroscience supplies the trigger (motor neuron firing and acetylcholine at the end plate), biochemistry supplies the ATP that both detaches myosin and pumps Ca2+, and genetics explains disorders at single steps: RyR1 variants in malignant hyperthermia and central core disease, SERCA1 loss in Brody disease, myophosphorylase deficiency in McArdle disease, and RyR2 variants in catecholaminergic ventricular tachycardia. Pathology follows the same logic, since uncontrolled Ca2+ release or ATP failure leads to contracture, heat production, and rhabdomyolysis with myoglobinuria."
-  },
-  {
-   "type": "p",
-   "text": "The three muscle types answer the same problem in different ways. Skeletal muscle needs speed and voluntary grading, so it uses a mechanical voltage link and recruits motor units. The heart must beat reliably and refill, so it uses trigger Ca2+ and a long refractory period and grades force through Ca2+ handling under sympathetic control. Smooth muscle must hold tone cheaply, so it regulates myosin by phosphorylation and uses latch. Quantitative values in this chapter (Ca2+ concentrations, sarcomere lengths, and removal fractions) are approximate and partly derived from animal studies."
-  }
- ],
- "summary": [
-  "In skeletal muscle, T tubule depolarization moves the DHPR, which mechanically opens RyR1; no extracellular Ca2+ is required.",
-  "Ca2+ binding to troponin C moves tropomyosin off actin; SERCA pumps Ca2+ back into the SR, so relaxation also costs ATP.",
-  "ATP binding detaches myosin, hydrolysis cocks the head, and Pi release drives the power stroke; without ATP, heads stay bound (rigor mortis, McArdle contracture).",
-  "Skeletal force is graded by recruitment from small to large motor units (size principle) and by firing rate, from summation to fused tetanus.",
-  "Active force is maximal at sarcomere lengths of about 2.0 to 2.2 micrometers; shortening velocity falls as load rises and is zero at maximal isometric force.",
-  "In cardiac muscle, L-type Ca2+ entry triggers RyR2 release (calcium-induced calcium release), and SR content plus trigger size set the strength of the beat.",
-  "The cardiac refractory period lasts nearly as long as contraction, so the heart cannot tetanize and always relaxes to fill.",
-  "Beta-1 stimulation via PKA phosphorylates L-type channels, phospholamban, and troponin I, increasing force and speeding relaxation.",
-  "Smooth muscle contracts when Ca2+-calmodulin activates MLCK and relaxes when MLCP dephosphorylates the light chain; latch holds tone cheaply, and NO relaxes through cGMP and PKG.",
-  "Type I fibers are slow, oxidative, red, and fatigue resistant; type II fibers are fast, glycolytic, and fatigable; endurance training raises oxidative capacity and resistance training enlarges type II fibers."
- ],
- "sources": [
-  {
-   "book": "Guyton and Hall Textbook of Medical Physiology",
-   "where": "Contraction of Skeletal Muscle"
-  },
-  {
-   "book": "Guyton and Hall Textbook of Medical Physiology",
-   "where": "Excitation of Skeletal Muscle: Neuromuscular Transmission and Excitation-Contraction Coupling"
-  },
-  {
-   "book": "Guyton and Hall Textbook of Medical Physiology",
-   "where": "Excitation and Contraction of Smooth Muscle"
-  },
-  {
-   "book": "Guyton and Hall Textbook of Medical Physiology",
-   "where": "Cardiac Muscle; The Heart as a Pump and Function of the Heart Valves"
-  },
-  {
-   "book": "Boron and Boulpaep Medical Physiology",
-   "where": "Cellular physiology of skeletal, cardiac, and smooth muscle"
-  },
-  {
-   "book": "Robbins and Cotran Pathologic Basis of Disease",
-   "where": "Peripheral Nerves and Skeletal Muscles"
-  }
- ],
- "verify": [
-  "Resting and peak cytosolic Ca2+ in skeletal muscle are quoted differently between sources (resting about 0.1 micromolar; peak from about 1 to over 10 micromolar); the chapter states only a roughly hundredfold rise.",
-  "The share of Ca2+ removal by SERCA2a versus NCX in human ventricle (about 70% versus most of the remainder) comes from cardiac myocyte research reviews; Guyton and Hall present the extracellular contribution differently.",
-  "Length-tension values (plateau about 2.0 to 2.2 micrometers, zero force near 3.6 micrometers) come from classic frog fiber data; human thin filaments are somewhat longer, shifting these values slightly.",
-  "Timing of rigor mortis onset and resolution varies widely with temperature and source; confirm whether NABNE expects specific hours.",
-  "The ventricular effective refractory period (about 250 ms) and twitch durations vary with heart rate and source.",
-  "Confirm whether NABNE Part I expects the eponyms Henneman (size principle), Brody disease, and McArdle disease, and the IIa versus IIx fiber subtypes or only type I versus type II.",
-  "Requested new diagram names for a future revision: cross-bridge-cycle (myosin head states on actin) and length-tension-curve (active, passive, and total tension against sarcomere length)."
- ]
 }

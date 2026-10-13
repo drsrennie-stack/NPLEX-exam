@@ -1,0 +1,627 @@
+{
+ "unit": "MS-10",
+ "chapter_id": "NPLEX-P1-MUSC-10",
+ "topic_id": "NPLEX-P1-MUSC-10-01",
+ "title": "Neuromuscular Transmission, Reflexes, and Muscle Excitability",
+ "subject": "Musculoskeletal System (MUSC)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter follows the signal from motor neuron to muscle fiber: how acetylcholine is released and received at the neuromuscular junction, how spindles and tendon organs feed back on motor neurons, and how plasma calcium and potassium set the excitability of nerve and muscle. These mechanisms let you place weakness at the nerve, the junction, or the muscle. Board questions describe a pattern of weakness, a reflex finding, a biopsy, or an electrolyte value and ask you to name the site and mechanism. The recurring examples are myasthenia gravis, Lambert-Eaton syndrome, botulism, spinal muscular atrophy, and tetany from hypocalcemia.",
+  "prerequisites": [
+   "Resting membrane potential, the Nernst equation, and voltage-gated sodium channel gating",
+   "Chemical synapses, quantal release, and ligand-gated ion channels",
+   "Excitation-contraction coupling and skeletal muscle fiber types (earlier MS units)",
+   "Type II hypersensitivity and antibody-mediated injury",
+   "Spinal cord gray matter organization and the dermatome and myotome concept"
+  ],
+  "connections": [
+   {
+    "to": "Immunology",
+    "how": "Myasthenia gravis and Lambert-Eaton syndrome are antibody-mediated (type II) diseases, and Lambert-Eaton is often a paraneoplastic response to small cell lung cancer."
+   },
+   {
+    "to": "Microbiology",
+    "how": "Clostridium botulinum toxin is a zinc protease that cleaves SNARE proteins, and tetanus toxin cleaves synaptobrevin, one of the same proteins, in inhibitory spinal interneurons."
+   },
+   {
+    "to": "Neuroscience",
+    "how": "Reflex grading separates upper from lower motor neuron lesions because descending pathways set gamma motor neuron drive and spinal reflex gain."
+   },
+   {
+    "to": "Endocrine and renal physiology",
+    "how": "Parathyroid hormone, vitamin D, magnesium, and renal potassium handling determine the electrolyte values that change nerve and muscle excitability."
+   },
+   {
+    "to": "Cardiovascular physiology",
+    "how": "The same calcium and potassium effects alter the cardiac action potential, producing QT and T wave changes and arrhythmias."
+   }
+  ],
+  "terms": [
+   {
+    "term": "End plate potential (EPP)",
+    "def": "The local depolarization of the muscle membrane at the motor end plate produced by acetylcholine opening nicotinic receptor channels."
+   },
+   {
+    "term": "Quantum",
+    "def": "The packet of acetylcholine contained in one synaptic vesicle; spontaneous release of a single quantum produces a miniature end plate potential."
+   },
+   {
+    "term": "Safety factor",
+    "def": "The amount by which the normal end plate potential exceeds the depolarization needed to fire a muscle action potential."
+   },
+   {
+    "term": "SNARE proteins",
+    "def": "Synaptobrevin on the vesicle and syntaxin and SNAP-25 on the plasma membrane, which zipper together to fuse vesicles with the membrane."
+   },
+   {
+    "term": "Repetitive nerve stimulation",
+    "def": "An electrodiagnostic test that records the compound muscle action potential during a train of nerve shocks to detect decrement or increment."
+   },
+   {
+    "term": "Intrafusal fiber",
+    "def": "A specialized muscle fiber inside the spindle capsule whose central region carries sensory endings and whose ends receive gamma motor neurons."
+   },
+   {
+    "term": "Alpha-gamma coactivation",
+    "def": "Simultaneous firing of alpha and gamma motor neurons so the spindle stays taut and keeps signaling while the muscle shortens."
+   },
+   {
+    "term": "Autogenic inhibition",
+    "def": "Inhibition of a muscle's own motor neurons by Ib input from its Golgi tendon organs when tension rises."
+   },
+   {
+    "term": "Motor unit",
+    "def": "One alpha motor neuron and all the muscle fibers it innervates, which share the same fiber type."
+   },
+   {
+    "term": "Fiber type grouping",
+    "def": "Clusters of muscle fibers of the same histochemical type that replace the normal checkerboard pattern after denervation and reinnervation."
+   },
+   {
+    "term": "Fasciculation",
+    "def": "A visible spontaneous twitch of a whole motor unit caused by ectopic firing of an irritable lower motor neuron or its axon."
+   },
+   {
+    "term": "Tetany",
+    "def": "Involuntary sustained muscle contraction from spontaneous repetitive firing of peripheral nerves, classically from low ionized calcium."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-MUSC-10-01-C01",
+   "obj": "MS-10.1",
+   "title": "Neuromuscular transmission and where junction disorders act",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The neuromuscular junction is a chemical synapse built for reliability: normally every motor neuron action potential fires the muscle. Choline acetyltransferase makes acetylcholine from choline and acetyl-CoA, and sodium-coupled choline uptake from the cleft limits the rate of synthesis."
+    },
+    {
+     "type": "p",
+     "text": "When the action potential invades the terminal, depolarization opens P/Q-type voltage-gated calcium channels clustered at active zones opposite the postsynaptic folds. Calcium binds synaptotagmin on docked vesicles, which drives the final zippering of the SNARE complex: synaptobrevin (VAMP) on the vesicle pairs with syntaxin and SNAP-25 on the plasma membrane, pulling the two membranes together until they fuse. Release depends steeply on calcium (roughly with the third to fourth power of its concentration), so a modest fall in calcium entry produces a large fall in output. One impulse releases on the order of 100 or more quanta."
+    },
+    {
+     "type": "p",
+     "text": "Acetylcholine crosses the cleft and binds the muscle-type nicotinic receptor, a pentamer of two alpha, one beta, one delta, and one epsilon subunit (gamma replaces epsilon in fetal and denervated muscle). Binding of two acetylcholine molecules, one at each of the two alpha subunit interfaces (alpha-delta and alpha-epsilon), opens a nonselective cation channel. Sodium has the larger driving force, so net current is inward. The resulting end plate potential is a graded local potential, normally several times larger than needed to reach threshold, and it spreads to voltage-gated sodium channels (Nav1.4) concentrated in the troughs of the junctional folds, which fire the muscle action potential."
+    },
+    {
+     "type": "p",
+     "text": "Acetylcholinesterase, anchored in the basal lamina of the cleft, hydrolyzes acetylcholine to acetate and choline within milliseconds, so each nerve impulse produces one brief end plate potential. Inhibiting the enzyme (as organophosphates do) lets acetylcholine persist, causing fasciculations and then a depolarizing block in which perijunctional sodium channels stay inactivated and the muscle weakens."
+    },
+    {
+     "type": "flow",
+     "title": "Neuromuscular transmission",
+     "steps": [
+      "Action potential invades motor nerve terminal",
+      "P/Q-type calcium channels open at active zones",
+      "Calcium binds synaptotagmin; SNARE complex fuses vesicles",
+      "Acetylcholine binds alpha subunits of nicotinic receptors",
+      "Cation influx produces the end plate potential",
+      "Nav1.4 channels fire the muscle action potential",
+      "Acetylcholinesterase hydrolyzes acetylcholine, ending the signal"
+     ],
+     "caption": "Each step is a separate target: Lambert-Eaton syndrome acts at step 2, botulinum toxin at step 3, myasthenia gravis at step 4, and cholinesterase inhibitors at step 7."
+    },
+    {
+     "type": "table",
+     "title": "Localizing the defect",
+     "cols": [
+      "Step",
+      "Disorder or agent",
+      "Mechanism",
+      "Result"
+     ],
+     "rows": [
+      [
+       "Presynaptic calcium entry",
+       "Lambert-Eaton syndrome",
+       "IgG against P/Q-type calcium channels",
+       "Fewer quanta per impulse; facilitation with repeated firing"
+      ],
+      [
+       "Vesicle fusion",
+       "Botulinum toxin",
+       "Light chain protease cleaves SNARE proteins",
+       "Release fails at somatic and autonomic cholinergic synapses"
+      ],
+      [
+       "Postsynaptic receptor",
+       "Myasthenia gravis",
+       "IgG blocks, internalizes, and lyses (via complement) nicotinic receptors",
+       "Smaller end plate potential; fatigue with use"
+      ],
+      [
+       "Acetylcholine removal",
+       "Organophosphates (mechanistic example)",
+       "Acetylcholinesterase inhibition",
+       "Fasciculations, then depolarizing block and weakness"
+      ]
+     ],
+     "caption": "Presynaptic disorders reduce how much acetylcholine is released; postsynaptic disorders reduce how well it is detected."
+    },
+    {
+     "type": "p",
+     "text": "Botulism comes from Clostridium botulinum, a spore-forming, gram-positive anaerobic rod. Adults usually ingest preformed toxin in home-canned food, infants ingest spores (classically in honey) that colonize the gut, and wounds can be infected. The heavy chain binds cholinergic terminals and mediates entry; the light chain, a zinc-dependent protease, cleaves SNAP-25 (types A and E), synaptobrevin (type B), or syntaxin and SNAP-25 (type C). Because all cholinergic terminals are affected, the picture is a symmetric descending flaccid paralysis that begins in cranial nerves (ptosis, diplopia, dysarthria, dysphagia) with dilated poorly reactive pupils, dry mouth, constipation, and urinary retention, while sensation and alertness are preserved. Tetanus toxin also cleaves synaptobrevin but travels retrogradely to silence inhibitory spinal interneurons, causing rigidity instead."
+    },
+    {
+     "type": "stop",
+     "predict": "A patient has ptosis, diplopia, and dysphagia. What single bedside finding best separates botulism from myasthenia gravis?",
+     "explain": "Botulinum toxin also blocks parasympathetic cholinergic terminals, so pupils are dilated; myasthenic antibodies target only the muscle nicotinic receptor, so pupils are normal.",
+     "check": "The botulism paragraph."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-MUSC-10-01-C02",
+   "obj": "MS-10.2",
+   "title": "Myasthenia gravis versus Lambert-Eaton syndrome",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Both diseases are antibody-mediated (type II hypersensitivity), but one attacks detection and the other release, and the response to repeated effort follows from that difference."
+    },
+    {
+     "type": "h",
+     "text": "Myasthenia gravis: too few receptors"
+    },
+    {
+     "type": "p",
+     "text": "In most patients with generalized myasthenia gravis (about 85%), IgG antibodies bind the nicotinic acetylcholine receptor. They reduce functional receptors by complement-mediated destruction of the postsynaptic folds, by cross-linking that speeds receptor internalization, and by blocking the binding site. A minority of patients have antibodies to MuSK or LRP4, proteins that cluster receptors. The thymus is abnormal in most patients: thymic hyperplasia with germinal centers in about two thirds and thymoma in about 10 to 15%."
+    },
+    {
+     "type": "p",
+     "text": "Release per impulse normally declines over the first few impulses of a train as the readily releasable vesicle pool is depleted. The safety factor normally hides this. With fewer receptors, each end plate potential starts closer to threshold, so as release falls, more fibers fail to fire. Strength therefore declines with use and worsens toward the end of the day. Extraocular and levator muscles are usually affected first, giving fluctuating ptosis and diplopia, followed by bulbar and proximal limb muscles; respiratory muscle failure is myasthenic crisis. Reflexes, sensation, and pupils are normal. Low-rate (2 to 3 Hz) repetitive nerve stimulation shows a decrement, and raising cleft acetylcholine with a short-acting cholinesterase inhibitor, or cooling the eyelid (cold slows the enzyme), briefly improves strength."
+    },
+    {
+     "type": "h",
+     "text": "Lambert-Eaton syndrome: too little release"
+    },
+    {
+     "type": "p",
+     "text": "In Lambert-Eaton syndrome, IgG antibodies against presynaptic P/Q-type calcium channels reduce calcium entry, so fewer quanta are released and the resting compound muscle action potential is small. About half of cases are paraneoplastic, nearly always with small cell lung cancer, whose neuroendocrine cells express the same channels and provoke the immune response. During rapid repeated firing, calcium enters faster than the terminal can clear it, residual calcium builds up, and release rises. Strength and reflexes therefore improve briefly after a few seconds of maximal effort (post-exercise facilitation), and high-rate stimulation (20 to 50 Hz) or brief exercise produces a large increment. Weakness is proximal and starts in the legs, reflexes are reduced or absent, and autonomic cholinergic failure causes dry mouth, constipation, and erectile dysfunction."
+    },
+    {
+     "type": "table",
+     "title": "Myasthenia gravis versus Lambert-Eaton syndrome",
+     "cols": [
+      "Feature",
+      "Myasthenia gravis",
+      "Lambert-Eaton syndrome"
+     ],
+     "rows": [
+      [
+       "Antibody target",
+       "Postsynaptic nicotinic acetylcholine receptor (some MuSK, LRP4)",
+       "Presynaptic P/Q-type voltage-gated calcium channel"
+      ],
+      [
+       "Effect of repeated effort",
+       "Weakness worsens (fatigability)",
+       "Strength briefly improves (facilitation)"
+      ],
+      [
+       "First muscles",
+       "Levator palpebrae and extraocular, then bulbar",
+       "Proximal legs"
+      ],
+      [
+       "Reflexes",
+       "Normal",
+       "Reduced or absent; return after brief exercise"
+      ],
+      [
+       "Autonomic signs",
+       "None; pupils normal",
+       "Dry mouth, constipation, erectile dysfunction"
+      ],
+      [
+       "Associated condition",
+       "Thymic hyperplasia or thymoma",
+       "Small cell lung cancer (about half of cases)"
+      ],
+      [
+       "Repetitive nerve stimulation",
+       "Decrement at 2 to 3 Hz",
+       "Small baseline response; large increment at high rates or after exercise"
+      ]
+     ],
+     "caption": "The site of the antibody determines whether repeated activity uncovers or overcomes the defect."
+    },
+    {
+     "type": "example",
+     "title": "Why a train of shocks gives opposite results",
+     "text": "Suppose (illustrative numbers) a normal end plate potential is 3 times threshold and release falls about 25% by the fourth shock of a 3 Hz train. Normally the fourth potential is still about 2.25 times threshold, so every fiber fires and the compound response is unchanged. In myasthenia gravis, suppose receptor loss shrinks the first potential to 1.2 times threshold in many fibers; a 25% fall leaves 0.9 times threshold, those fibers drop out, and the compound response decrements. In Lambert-Eaton syndrome, many fibers start below threshold, so the first response is small. At 50 Hz, residual calcium builds faster than it is cleared, release rises, and fibers that were silent are recruited, so the response increments."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-MUSC-10-01-C03",
+   "obj": "MS-10.3",
+   "title": "Muscle spindles, Golgi tendon organs, and reflex roots",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Motor neurons need constant information about muscle length and force. Two receptors supply it, and what each one reports follows from how it is mounted relative to the working (extrafusal) muscle fibers."
+    },
+    {
+     "type": "p",
+     "text": "The muscle spindle is a capsule of small intrafusal fibers (nuclear bag and nuclear chain fibers) lying in parallel with extrafusal fibers, so it is stretched whenever the muscle lengthens. Group Ia afferents, the primary endings, wrap the central region of every intrafusal fiber and fire in proportion to both length and rate of stretch. Group II afferents, the secondary endings, mainly report static length. The contractile ends of intrafusal fibers are innervated by gamma motor neurons. If only alpha motor neurons fired, the shortening muscle would let the spindle go slack and its signal would stop. Alpha-gamma coactivation shortens the intrafusal ends along with the muscle, keeping the spindle taut and sensitive over the whole range of movement. Gamma drive therefore sets the gain of the stretch reflex."
+    },
+    {
+     "type": "p",
+     "text": "Tapping a tendon stretches the muscle briefly, and Ia afferents excite alpha motor neurons to the same muscle directly through a single synapse (the monosynaptic stretch reflex). Ia collaterals also excite inhibitory interneurons that relax the antagonist (reciprocal inhibition), so the joint can move."
+    },
+    {
+     "type": "flow",
+     "title": "Stretch (deep tendon) reflex arc",
+     "steps": [
+      "Tendon tap briefly stretches the muscle and its spindles",
+      "Ia afferent fires through the dorsal root",
+      "Ia synapses directly on alpha motor neurons in the ventral horn",
+      "Alpha motor neuron contracts the same muscle",
+      "Ia collateral excites interneuron that inhibits the antagonist"
+     ],
+     "caption": "A tendon reflex tests the sensory nerve, dorsal root, cord segment, alpha motor neuron, ventral root, junction, and muscle in one maneuver."
+    },
+    {
+     "type": "p",
+     "text": "The Golgi tendon organ lies in series at the muscle-tendon junction, where collagen strands squeeze its endings as tension rises. Because it is in series, it responds best to active contraction rather than passive stretch. Its Ib afferents act through inhibitory interneurons on alpha motor neurons of the same muscle (autogenic inhibition, a disynaptic pathway), which helps regulate force and limits excessive tension."
+    },
+    {
+     "type": "table",
+     "title": "Muscle spindle versus Golgi tendon organ",
+     "cols": [
+      "Feature",
+      "Muscle spindle",
+      "Golgi tendon organ"
+     ],
+     "rows": [
+      [
+       "Arrangement",
+       "In parallel with extrafusal fibers",
+       "In series at the muscle-tendon junction"
+      ],
+      [
+       "Senses",
+       "Length and rate of change of length",
+       "Tension (force)"
+      ],
+      [
+       "Afferent",
+       "Ia (length and velocity), II (length)",
+       "Ib"
+      ],
+      [
+       "Central pathway",
+       "Monosynaptic excitation of homonymous alpha motor neurons",
+       "Disynaptic inhibition of homonymous alpha motor neurons"
+      ],
+      [
+       "Effect on the same muscle",
+       "Contraction",
+       "Relaxation"
+      ],
+      [
+       "Efferent control",
+       "Gamma motor neurons set sensitivity",
+       "None"
+      ]
+     ],
+     "caption": "Spindles keep length near a set point; tendon organs regulate force."
+    },
+    {
+     "type": "table",
+     "title": "Deep tendon reflexes and their roots",
+     "cols": [
+      "Reflex",
+      "Main root",
+      "Nerve",
+      "Muscle"
+     ],
+     "rows": [
+      [
+       "Biceps",
+       "C5 to C6",
+       "Musculocutaneous",
+       "Biceps brachii"
+      ],
+      [
+       "Triceps",
+       "C7",
+       "Radial",
+       "Triceps brachii"
+      ],
+      [
+       "Patellar",
+       "L4",
+       "Femoral",
+       "Quadriceps femoris"
+      ],
+      [
+       "Achilles",
+       "S1",
+       "Tibial",
+       "Gastrocnemius and soleus"
+      ]
+     ],
+     "caption": "Each reflex receives contributions from neighboring segments (for example patellar L2 to L4), but these are the roots usually tested."
+    },
+    {
+     "type": "p",
+     "text": "Reflex grading localizes lesions. Damage anywhere along the arc (peripheral nerve, root, anterior horn cell, junction in Lambert-Eaton syndrome, or severe muscle loss) reduces or abolishes the reflex, so a lost Achilles reflex with lateral foot sensory loss points to an S1 radiculopathy. Upper motor neuron lesions remove descending inhibition of spinal circuits, raising reflex gain and producing hyperreflexia, spasticity, clonus, and an extensor plantar response."
+    },
+    {
+     "type": "stop",
+     "predict": "During a voluntary contraction, what would the Ia afferent do if gamma motor neurons were silent?",
+     "explain": "The extrafusal fibers would shorten while the intrafusal fibers did not, the spindle would go slack, and Ia firing would pause, removing length information exactly when it is needed.",
+     "check": "Compare with the paragraph on alpha-gamma coactivation."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-MUSC-10-01-C04",
+   "obj": "MS-10.4",
+   "title": "Neurogenic versus myopathic weakness",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The motor unit is the key to this distinction. All fibers in a unit share one motor neuron and therefore one fiber type, and units interdigitate, so a normal ATPase or oxidative stain shows a checkerboard of type I and type II fibers. Neurogenic disease removes whole units at once; myopathic disease damages individual fibers scattered through every unit."
+    },
+    {
+     "type": "h",
+     "text": "Neurogenic weakness"
+    },
+    {
+     "type": "p",
+     "text": "When a lower motor neuron is lost, every fiber in its unit is denervated together. These fibers shrink into small angular fibers that appear in groups (grouped atrophy). Surviving neurons sprout and adopt orphaned fibers, which convert to the fiber type of their new neuron; the checkerboard is replaced by large patches of one type (fiber type grouping). If an enlarged unit is later lost, a large group of atrophic fibers of one type appears. The irritable neuron or axon fires spontaneously, producing visible fasciculations, and denervated single fibers fire spontaneously as fibrillations, seen only on electromyography. Weakness comes with early atrophy, reduced tone, and reduced reflexes. Fibers are lost without much membrane necrosis, so creatine kinase (CK) is normal or only mildly raised."
+    },
+    {
+     "type": "flow",
+     "title": "Denervation and reinnervation",
+     "steps": [
+      "Lower motor neuron dies",
+      "All fibers of its unit atrophy together",
+      "Surviving neurons sprout to orphaned fibers",
+      "Adopted fibers convert to the new neuron's type",
+      "Checkerboard replaced by fiber type grouping"
+     ],
+     "caption": "Grouping on biopsy records denervation followed by reinnervation."
+    },
+    {
+     "type": "p",
+     "text": "Spinal muscular atrophy is the classic childhood neurogenic disorder. It is autosomal recessive, most often from homozygous deletion of exon 7 of SMN1 on chromosome 5q. The SMN protein assembles small nuclear ribonucleoproteins for the spliceosome, and anterior horn cells are especially vulnerable to its loss. The nearly identical SMN2 gene makes mostly an exon 7 skipped transcript but some full-length protein, so SMN2 copy number modifies severity. Type 1 (Werdnig-Hoffmann disease) presents before 6 months as a floppy infant with symmetric, proximal weakness, areflexia, and tongue fasciculations, with facial and eye movements relatively spared and alertness normal. SMA is an exception to the rule that neurogenic weakness is distal."
+    },
+    {
+     "type": "h",
+     "text": "Myopathic weakness"
+    },
+    {
+     "type": "p",
+     "text": "In myopathies the defect is in the fiber itself, so weakness is usually proximal and symmetric (difficulty rising from a chair or lifting the arms), fasciculations are absent, and reflexes persist until much muscle is lost. In necrotizing myopathies such as the dystrophies and inflammatory myopathies, damaged sarcolemma leaks CK, which is high. Biopsy shows necrosis, regeneration, internal nuclei, variation in fiber size, and in chronic cases endomysial fibrosis."
+    },
+    {
+     "type": "p",
+     "text": "Type II fiber atrophy is a nonspecific pattern seen with disuse, glucocorticoid excess, and cachexia. Glucocorticoids increase ubiquitin-proteasome proteolysis and reduce anabolic signaling, and fast type II fibers are the most sensitive. Because fibers shrink without necrosis, CK stays normal; proximal weakness with normal CK in a patient on long-term glucocorticoids suggests steroid myopathy."
+    },
+    {
+     "type": "table",
+     "title": "Neurogenic versus myopathic weakness",
+     "cols": [
+      "Feature",
+      "Neurogenic (lower motor neuron)",
+      "Myopathic"
+     ],
+     "rows": [
+      [
+       "Distribution",
+       "Often distal and asymmetric (SMA proximal)",
+       "Proximal and symmetric"
+      ],
+      [
+       "Fasciculations",
+       "Present",
+       "Absent"
+      ],
+      [
+       "Atrophy",
+       "Early and marked",
+       "Later, proportional to weakness"
+      ],
+      [
+       "Reflexes",
+       "Reduced or absent",
+       "Preserved until late"
+      ],
+      [
+       "CK",
+       "Normal or mildly raised",
+       "High in necrotizing myopathies; normal in steroid myopathy"
+      ],
+      [
+       "Biopsy",
+       "Grouped atrophy, fiber type grouping",
+       "Necrosis, regeneration, internal nuclei, varied fiber size"
+      ],
+      [
+       "Electromyography",
+       "Fibrillations; large, long-duration motor unit potentials with reduced recruitment",
+       "Small, short, polyphasic motor unit potentials with early recruitment"
+      ]
+     ],
+     "caption": "Neurogenic disease removes whole motor units; myopathic disease damages fibers within every unit."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-MUSC-10-01-C05",
+   "obj": "MS-10.5",
+   "title": "Calcium, potassium, and the excitability of nerve and muscle",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Excitability depends on the resting membrane potential and on the threshold at which enough sodium channels open to start an action potential. Potassium mainly changes the resting potential; calcium mainly changes the threshold."
+    },
+    {
+     "type": "h",
+     "text": "Hypocalcemia: a threshold that moves toward rest"
+    },
+    {
+     "type": "p",
+     "text": "Extracellular calcium binds and screens fixed negative charges on the outer surface of the membrane and its sodium channels, which affect the voltage the channel gates sense. When ionized calcium falls, the channels activate at a more negative membrane potential, and threshold moves closer to the resting potential. Peripheral nerves then fire spontaneously and repetitively. This is why low calcium causes tetany, even though contraction itself requires calcium; the calcium for contraction comes from the sarcoplasmic reticulum."
+    },
+    {
+     "type": "p",
+     "text": "Severe hypocalcemia can also cause laryngospasm, seizures, and a prolonged QT interval. Chvostek sign is a twitch of the ipsilateral facial muscles when the facial nerve is tapped just in front of the ear; it is also present in a minority of healthy people. Trousseau sign is carpal spasm (wrist and metacarpophalangeal flexion, interphalangeal extension, thumb adduction) when a blood pressure cuff is held above systolic pressure for 3 minutes; it is more specific. Only ionized calcium (about 1.1 to 1.3 mmol/L) acts on membranes. Total calcium is about 8.5 to 10.5 mg/dL (2.1 to 2.6 mmol/L), and alkalosis increases calcium binding to albumin, which explains tetany during hyperventilation with a normal total calcium. Hypercalcemia does the reverse, raising threshold and causing weakness, hyporeflexia, and a short QT interval."
+    },
+    {
+     "type": "flow",
+     "title": "From low ionized calcium to tetany",
+     "steps": [
+      "Ionized calcium falls (hypoparathyroidism, alkalosis, low magnesium)",
+      "Less screening of negative surface charge",
+      "Sodium channels activate at more negative voltage",
+      "Threshold moves toward resting potential",
+      "Spontaneous repetitive firing of peripheral nerves",
+      "Paresthesias, carpopedal spasm, positive Chvostek and Trousseau signs"
+     ],
+     "caption": "Hypocalcemia makes nerves hyperexcitable by changing threshold, not resting potential."
+    },
+    {
+     "type": "h",
+     "text": "Potassium: why both directions cause weakness"
+    },
+    {
+     "type": "p",
+     "text": "The resting potential of nerve and muscle lies close to the potassium equilibrium potential, which depends on the ratio of extracellular to intracellular potassium (normal plasma potassium about 3.5 to 5.0 mEq/L). In hypokalemia the membrane hyperpolarizes, moving further from threshold, so a larger stimulus is needed and weakness, cramps, and ileus follow; severe depletion can cause rhabdomyolysis. In hyperkalemia the membrane depolarizes. A small rise first brings the cell closer to threshold, but sustained depolarization closes the inactivation gates of sodium channels and keeps them closed, so fewer channels are available, action potentials fail, and an ascending flaccid weakness develops. In the heart this produces peaked T waves, a widened QRS complex, and arrhythmias."
+    },
+    {
+     "type": "table",
+     "title": "Electrolyte effects on excitability",
+     "cols": [
+      "Disorder",
+      "Main change",
+      "Effect on excitability",
+      "Muscle result"
+     ],
+     "rows": [
+      [
+       "Hypocalcemia",
+       "Threshold moves toward rest",
+       "Increased",
+       "Tetany, cramps, Chvostek and Trousseau signs"
+      ],
+      [
+       "Hypercalcemia",
+       "Threshold moves away from rest",
+       "Decreased",
+       "Weakness, hyporeflexia"
+      ],
+      [
+       "Hypokalemia",
+       "Resting potential hyperpolarized",
+       "Decreased",
+       "Weakness, cramps, ileus"
+      ],
+      [
+       "Hyperkalemia",
+       "Resting potential depolarized; sodium channels inactivated",
+       "Briefly increased, then decreased",
+       "Flaccid weakness, cardiac conduction failure"
+      ]
+     ],
+     "caption": "Calcium mainly moves threshold; potassium mainly moves the resting potential."
+    },
+    {
+     "type": "example",
+     "title": "Calculating the potassium equilibrium potential",
+     "text": "At 37 °C (98.6 °F), EK = 61.5 mV times log(extracellular K / intracellular K). With intracellular potassium 140 and plasma potassium 4 mEq/L, log(4/140) is about minus 1.54, so EK is about minus 95 mV. At 2 mEq/L, log(2/140) is about minus 1.85, giving about minus 113 mV: the cell hyperpolarizes and is harder to excite. At 7 mEq/L, log(7/140) is about minus 1.30, giving about minus 80 mV: the cell depolarizes, and if the depolarization persists, sodium channels remain inactivated. The resting potential sits slightly positive to EK (small sodium leak) but moves the same way."
+    },
+    {
+     "type": "stop",
+     "predict": "A patient hyperventilating during a panic attack develops perioral tingling and carpal spasm with a normal total calcium. Why?",
+     "explain": "Respiratory alkalosis makes albumin bind more calcium, so ionized calcium falls while total calcium is unchanged, and threshold moves toward rest.",
+     "check": "Compare with the hypocalcemia paragraphs and flow."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Localizing weakness uses every Part I discipline. Anatomy supplies the reflex roots and the nerve paths; physiology supplies the safety factor, spindle gain, and the electrical effects of calcium and potassium; immunology explains why myasthenia gravis and Lambert-Eaton syndrome are antibody diseases with thymic and tumor associations; microbiology explains why botulinum and tetanus toxins, which both cleave SNARE proteins, cause opposite clinical pictures; and pathology reads the muscle biopsy to separate whole motor unit loss from fiber necrosis."
+  },
+  {
+   "type": "p",
+   "text": "The reasoning has limits. Mixed pictures occur: reflexes can fall late in severe myopathy, CK can be mildly raised in active denervation, and seronegative myasthenia gravis still produces fatigable weakness. Spinal muscular atrophy breaks the distal rule for neurogenic disease, and some myopathies do not raise CK at all. Use the whole pattern of distribution, fatigue, reflexes, autonomic signs, CK, and biopsy rather than any single finding."
+  }
+ ],
+ "summary": [
+  "Calcium entry through P/Q-type channels drives SNARE-mediated fusion of acetylcholine vesicles; acetylcholine opens nicotinic cation channels to produce an end plate potential that normally exceeds threshold by a wide safety factor.",
+  "Acetylcholinesterase in the basal lamina ends each signal; inhibiting it causes fasciculations and then depolarizing block.",
+  "Botulinum toxin cleaves SNARE proteins at all cholinergic terminals, producing descending flaccid paralysis with dilated pupils and autonomic failure.",
+  "Myasthenia gravis is postsynaptic receptor loss: fatigable ocular and bulbar weakness, normal reflexes and pupils, decrement at low-rate stimulation, thymic disease.",
+  "Lambert-Eaton syndrome is presynaptic calcium channel loss: proximal leg weakness, low reflexes, autonomic signs, facilitation with effort, and small cell lung cancer.",
+  "Spindles lie in parallel and sense length through Ia afferents, with gamma motor neurons setting their gain; tendon organs lie in series and sense tension through Ib afferents that inhibit the same muscle.",
+  "Biceps C5 to C6, triceps C7, patellar L4, Achilles S1; lower motor neuron lesions lower reflexes and upper motor neuron lesions raise them.",
+  "Neurogenic weakness shows fasciculations, grouped atrophy, and fiber type grouping with near-normal CK; myopathic weakness is proximal with high CK in necrotizing disease; type II atrophy with normal CK suggests disuse or glucocorticoids.",
+  "Hypocalcemia moves threshold toward rest, causing tetany with Chvostek and Trousseau signs; hypokalemia hyperpolarizes and hyperkalemia inactivates sodium channels, so both weaken muscle."
+ ],
+ "sources": [
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Neuromuscular Transmission and Excitation-Contraction Coupling; Motor Functions of the Spinal Cord; the Cord Reflexes"
+  },
+  {
+   "book": "Boron and Boulpaep Medical Physiology",
+   "where": "Synaptic transmission and the neuromuscular junction; electrophysiology of the cell membrane"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Peripheral Nerves and Skeletal Muscles, sections on neuromuscular junction disorders, denervation, and myopathies"
+  },
+  {
+   "book": "Jawetz, Melnick, and Adelberg's Medical Microbiology",
+   "where": "Spore-forming gram-positive bacilli, section on Clostridium botulinum and Clostridium tetani"
+  },
+  {
+   "book": "Abbas Cellular and Molecular Immunology",
+   "where": "Hypersensitivity disorders, antibody-mediated diseases"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Nervous system disorders, sections on myasthenia gravis; disorders of the parathyroids and calcium metabolism"
+  }
+ ],
+ "verify": [
+  "Approximate proportions (about 85% of generalized myasthenia gravis with acetylcholine receptor antibodies, thymic hyperplasia in about two thirds, thymoma in about 10 to 15%, about half of Lambert-Eaton cases paraneoplastic) are consensus values that vary between sources.",
+  "Increment criteria for Lambert-Eaton syndrome on repetitive stimulation (classically 100% or more, some laboratories use 60%) differ between references and were left unquantified.",
+  "The fraction of healthy people with a positive Chvostek sign is given differently across sources and was left unquantified.",
+  "The calcium dependence of release (third to fourth power) and the number of quanta per impulse (on the order of 100 or more) are approximate textbook values.",
+  "Some sources describe disuse atrophy as affecting type I fibers in antigravity muscles; the type II pattern stated here follows Robbins and the competency wording. Confirm the NABNE expectation.",
+  "Confirm whether NABNE expects the names Werdnig-Hoffmann, MuSK, LRP4, Nav1.4, and the botulinum serotype targets, or only the core mechanisms named in the competencies.",
+  "Requested new diagram name for a future revision: nmj-synapse (presynaptic terminal with P/Q calcium channels and SNARE complex, cleft with acetylcholinesterase, postsynaptic folds with nicotinic receptors and sodium channels)."
+ ]
+}

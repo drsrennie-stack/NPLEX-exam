@@ -1,0 +1,534 @@
+{
+ "unit": "MS-13-C",
+ "chapter_id": "NPLEX-P1-MUSC-13",
+ "topic_id": "NPLEX-P1-MUSC-13-03",
+ "title": "Metabolic Bone Disease: Osteopetrosis, Bone Laboratory Patterns, and Renal Osteodystrophy",
+ "subject": "Musculoskeletal System (MUSC)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter covers bone diseases that arise when the cells or hormones that control bone turnover fail. Osteopetrosis shows what happens when osteoclasts cannot resorb bone: the skeleton becomes dense yet brittle, crowds out the marrow, and traps the cranial nerves in narrow foramina. The chapter then shows how serum calcium, phosphate, alkaline phosphatase, and parathyroid hormone (PTH) separate the common metabolic bone diseases, and closes with renal osteodystrophy, in which chronic kidney disease drives secondary hyperparathyroidism and defective mineralization. Board questions usually give a lab panel, a radiograph description, or an infant with dense bones and cytopenias and ask for the mechanism. A few rules about PTH, calcitriol, and osteoblast activity explain the lab patterns.",
+  "prerequisites": [
+   "Bone cells, the bone remodeling unit, and endochondral ossification (MS-2)",
+   "RANKL, RANK, and osteoprotegerin signaling between osteoblasts and osteoclasts (MS-8)",
+   "PTH, calcitriol, FGF23, and calcitonin in calcium and phosphate balance (EN-5, EN-7)",
+   "Renal handling of phosphate and acid excretion by the proximal and distal tubule (UR-6, UR-7)",
+   "Hematopoiesis in the marrow and its fetal sites in the liver and spleen"
+  ],
+  "connections": [
+   {
+    "to": "Nutritional bone disease (MS-13-A)",
+    "how": "Osteomalacia and rickets supply the vitamin D deficiency lab pattern and the mineralization defect that also appears in renal osteodystrophy."
+   },
+   {
+    "to": "Degenerative bone disease (MS-13-E)",
+    "how": "Osteoporosis and Paget disease are the normal-lab and isolated high alkaline phosphatase patterns used in the lab comparison."
+   },
+   {
+    "to": "Endocrine hyperfunction (EN-12-A)",
+    "how": "Primary, secondary, and tertiary hyperparathyroidism share osteitis fibrosa cystica but differ in calcium and phosphate."
+   },
+   {
+    "to": "Glomerular disease and chronic kidney disease (UR-12-A)",
+    "how": "Loss of nephrons causes the phosphate retention and calcitriol deficiency that start renal osteodystrophy."
+   },
+   {
+    "to": "Hematology",
+    "how": "Marrow obliteration in osteopetrosis is a myelophthisic process with extramedullary hematopoiesis, like marrow replacement by fibrosis or tumor."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Osteoclast",
+    "def": "A multinucleated bone-resorbing cell formed by fusion of monocyte-macrophage precursors under the control of M-CSF and RANKL."
+   },
+   {
+    "term": "Ruffled border",
+    "def": "The folded osteoclast membrane facing bone, through which acid and proteases are secreted into the sealed resorption space."
+   },
+   {
+    "term": "Osteopetrosis",
+    "def": "A group of inherited disorders in which osteoclasts are absent or cannot resorb bone, producing dense, brittle bone that fills the marrow cavity."
+   },
+   {
+    "term": "Extramedullary hematopoiesis",
+    "def": "Blood cell production outside the bone marrow, mainly in the liver and spleen, when the marrow cannot support it."
+   },
+   {
+    "term": "Alkaline phosphatase (ALP)",
+    "def": "An enzyme on the osteoblast surface (and in liver and other tissues) whose serum level rises when osteoblasts are active."
+   },
+   {
+    "term": "Secondary hyperparathyroidism",
+    "def": "Increased PTH secretion that is an appropriate response to low calcium, high phosphate, or low calcitriol rather than a primary gland disorder."
+   },
+   {
+    "term": "Tertiary hyperparathyroidism",
+    "def": "Autonomous PTH secretion with hypercalcemia from parathyroid glands that were stimulated for years by secondary hyperparathyroidism."
+   },
+   {
+    "term": "FGF23",
+    "def": "Fibroblast growth factor 23, an osteocyte hormone that increases renal phosphate excretion and suppresses calcitriol synthesis."
+   },
+   {
+    "term": "Renal osteodystrophy",
+    "def": "The bone disease of chronic kidney disease, ranging from high-turnover osteitis fibrosa cystica to low-turnover and mineralization defects."
+   },
+   {
+    "term": "Osteitis fibrosa cystica",
+    "def": "PTH-driven bone disease with osteoclastic resorption, marrow fibrosis, cysts, and brown tumors."
+   },
+   {
+    "term": "Brown tumor",
+    "def": "A reactive, non-neoplastic mass of osteoclast-like giant cells, fibrous tissue, hemorrhage, and hemosiderin in hyperparathyroidism."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-MUSC-13-03-C01",
+   "obj": "MS-13-C.1",
+   "title": "Osteopetrosis: failure of osteoclast resorption",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Bone is continuously remodeled: osteoclasts remove old bone and osteoblasts replace it. During growth, osteoclasts also carve the marrow cavity out of calcified cartilage, shape the metaphyses, and enlarge the skull foramina. Osteopetrosis (marble bone disease) is a group of inherited disorders in which osteoclasts are absent or cannot resorb bone, so formation continues while removal fails."
+    },
+    {
+     "type": "p",
+     "text": "An osteoclast attaches to bone through integrins (mainly alphaVbeta3) and forms a sealing zone that isolates a resorption lacuna. It then acidifies this space to about pH 4.5 to dissolve hydroxyapatite, and secretes cathepsin K to digest the exposed collagen."
+    },
+    {
+     "type": "flow",
+     "title": "How an osteoclast dissolves bone",
+     "steps": [
+      "Sealing zone isolates the resorption lacuna",
+      "Carbonic anhydrase II forms H+ and HCO3- from CO2 and water",
+      "Basolateral exchanger exports HCO3- and imports Cl-",
+      "Ruffled border H+-ATPase (TCIRG1 subunit) pumps H+ into lacuna",
+      "ClC-7 (CLCN7) moves Cl- alongside, forming HCl",
+      "Acid dissolves hydroxyapatite; cathepsin K digests type I collagen"
+     ],
+     "caption": "Every step must work; a defect in the proton supply, the pump, or the chloride channel stops resorption."
+    },
+    {
+     "type": "p",
+     "text": "Each step is a point of failure. Loss of the proton pump subunit or of ClC-7 leaves osteoclasts present, often in increased numbers, but unable to acidify the lacuna (osteoclast-rich osteopetrosis). Mutations in RANKL or RANK stop osteoclasts from forming at all (osteoclast-poor osteopetrosis). Osteoclast number on biopsy therefore does not define the disease; resorptive function does."
+    },
+    {
+     "type": "table",
+     "title": "Molecular causes of osteopetrosis",
+     "cols": [
+      "Gene (protein)",
+      "Defect",
+      "Osteoclasts",
+      "Inheritance and features"
+     ],
+     "rows": [
+      [
+       "TCIRG1 (a3 subunit of the V-type H+-ATPase)",
+       "No proton pumping",
+       "Present, nonfunctional",
+       "Autosomal recessive; about half of severe infantile cases"
+      ],
+      [
+       "CLCN7 (ClC-7 chloride transporter)",
+       "Lacuna cannot be acidified",
+       "Present, nonfunctional",
+       "Autosomal dominant adult form; also a severe recessive form"
+      ],
+      [
+       "CA2 (carbonic anhydrase II)",
+       "No proton supply",
+       "Present, nonfunctional",
+       "Autosomal recessive; renal tubular acidosis, cerebral calcification"
+      ],
+      [
+       "TNFSF11 (RANKL) or TNFRSF11A (RANK)",
+       "No osteoclast differentiation",
+       "Absent",
+       "Autosomal recessive; RANKL defect lies in osteoblast-lineage cells"
+      ]
+     ],
+     "caption": "Most forms leave osteoclasts in place but disabled; RANKL and RANK defects prevent their formation."
+    },
+    {
+     "type": "p",
+     "text": "Carbonic anhydrase II also supplies H+ in renal tubule cells, both for bicarbonate reclamation in the proximal tubule and for H+ secretion by distal intercalated cells. Its deficiency therefore combines osteopetrosis with renal tubular acidosis that has proximal and distal features, a normal anion gap (hyperchloremic) metabolic acidosis, along with cerebral calcification and often intellectual disability."
+    },
+    {
+     "type": "p",
+     "text": "Dense bone is brittle because quality, not quantity, determines strength. Without resorption, calcified cartilage and woven primary spongiosa are never replaced by lamellar bone, so the medullary cavity fills with disorganized, highly mineralized tissue. Microcracks from daily loading are not removed, because targeted repair begins with osteoclasts. Bones fracture transversely, like chalk. Radiographs show diffuse sclerosis without a clear medullary cavity, club-shaped (Erlenmeyer flask) distal femora, bone-within-bone images, and in the adult form dense vertebral endplates (sandwich vertebrae)."
+    },
+    {
+     "type": "example",
+     "title": "One enzyme, two organs",
+     "text": "A 7-year-old with two low-trauma fractures and diffusely dense bones has Na+ 138, Cl- 113, and HCO3- 16 mEq/L, arterial pH 7.31, and urine pH 6.6. The anion gap is 138 minus (113 plus 16), or 9 mEq/L, so this is a normal anion gap metabolic acidosis. A urine pH above 5.5 despite acidemia shows that the distal tubule cannot secrete H+ normally. Dense bones point to failed osteoclast acidification. The single defect that explains both is carbonic anhydrase II deficiency, because both the osteoclast and the renal tubule cell need this enzyme to generate H+ for secretion."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-MUSC-13-03-C02",
+   "obj": "MS-13-C.2",
+   "title": "Complications of osteopetrosis and the infantile versus adult forms",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The complications of osteopetrosis follow from what osteoclasts normally do during growth: make space and shape bone. Severity depends on how completely resorption fails. The autosomal recessive infantile (malignant) form shows the full picture within months of birth, while the autosomal dominant adult form (Albers-Schönberg disease) is often found through fractures or an incidental radiograph."
+    },
+    {
+     "type": "flow",
+     "title": "From failed resorption to pancytopenia and hepatosplenomegaly",
+     "steps": [
+      "Osteoclasts fail to hollow out the medullary cavity",
+      "Bone and calcified cartilage fill the marrow space",
+      "Marrow failure: anemia, neutropenia, thrombocytopenia",
+      "Hematopoiesis shifts to the liver and spleen",
+      "Hepatosplenomegaly; the enlarged spleen sequesters cells",
+      "Cytopenias worsen; infection and bleeding follow"
+     ],
+     "caption": "Marrow obliteration is a myelophthisic process, and splenic sequestration adds to the marrow failure."
+    },
+    {
+     "type": "p",
+     "text": "Hematopoietic marrow needs a cavity. When none forms, blood cell production moves back to the fetal sites, the liver and spleen, which enlarge. The blood smear may be leukoerythroblastic, with nucleated red cells and immature granulocytes, as in other causes of marrow replacement. The large spleen also sequesters red cells and platelets, deepening the anemia and thrombocytopenia. Neutropenia predisposes to infection, which with anemia and bleeding is a major cause of death in the infantile form."
+    },
+    {
+     "type": "p",
+     "text": "The skull foramina normally widen by resorption of their margins as the nerves grow. In osteopetrosis they stay narrow, so the nerves are compressed. The optic nerve (CN II) is most often affected, giving progressive vision loss with optic atrophy; the facial nerve (CN VII) gives facial palsy; and the vestibulocochlear nerve (CN VIII) gives hearing loss. Thickening of the skull base can also narrow the foramen magnum and cause hydrocephalus."
+    },
+    {
+     "type": "p",
+     "text": "Fractures follow minor trauma and heal slowly, because remodeling of the callus needs osteoclasts. Dense jaw bone with poor blood supply and delayed tooth eruption make osteomyelitis of the mandible a characteristic complication. Infants may develop hypocalcemia with tetany or seizures because calcium is locked in a skeleton that cannot be resorbed, and PTH rises in response. Serum calcium, phosphate, and ALP are otherwise usually normal, which separates osteopetrosis from the mineral disorders in C03."
+    },
+    {
+     "type": "table",
+     "title": "Infantile and adult osteopetrosis compared",
+     "cols": [
+      "Feature",
+      "Infantile form",
+      "Adult form"
+     ],
+     "rows": [
+      [
+       "Inheritance",
+       "Autosomal recessive",
+       "Autosomal dominant"
+      ],
+      [
+       "Typical genes",
+       "TCIRG1, CLCN7; CA2 in a milder variant",
+       "CLCN7"
+      ],
+      [
+       "Onset",
+       "Infancy",
+       "Late childhood to adulthood; may be silent"
+      ],
+      [
+       "Marrow",
+       "Pancytopenia, hepatosplenomegaly",
+       "Usually normal"
+      ],
+      [
+       "Cranial nerves",
+       "Blindness, deafness, facial palsy common",
+       "Uncommon"
+      ],
+      [
+       "Other",
+       "Growth failure, macrocephaly, hypocalcemic seizures",
+       "Fractures, hip osteoarthritis, jaw osteomyelitis"
+      ],
+      [
+       "Course",
+       "Often fatal in childhood",
+       "Usually normal life span"
+      ]
+     ],
+     "caption": "Both forms make brittle bone; only the infantile form usually obliterates the marrow and nerve foramina."
+    },
+    {
+     "type": "stop",
+     "predict": "Why can an infant with osteopetrosis be hypocalcemic when the skeleton holds more calcium than normal?",
+     "explain": "Serum calcium is defended minute to minute partly by PTH-driven osteoclastic release from bone. If osteoclasts cannot resorb, that calcium cannot be mobilized, so a growing infant with high mineral demand becomes hypocalcemic despite a large skeletal store.",
+     "check": "The osteoclast flow in C01 and the hypocalcemia sentence in this section."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-MUSC-13-03-C03",
+   "obj": "MS-13-C.3",
+   "title": "Reading calcium, phosphate, alkaline phosphatase, and PTH in bone disease",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Four serum tests answer most questions about metabolic bone disease: calcium, phosphate, alkaline phosphatase (ALP), which reflects osteoblast activity, and PTH, which shows whether the parathyroid glands cause the problem or are responding to it."
+    },
+    {
+     "type": "p",
+     "text": "Three rules generate every pattern. First, PTH raises serum calcium (osteoclastic resorption, distal tubular calcium reabsorption, and stimulation of renal calcitriol synthesis) and lowers serum phosphate by inhibiting proximal tubular phosphate reabsorption. When PTH excess is the primary problem, calcium is high and phosphate low; when PTH rises to defend a falling calcium (secondary hyperparathyroidism), calcium is low or low-normal. Second, phosphate separates the two common secondary causes: in vitamin D deficiency the healthy kidney wastes phosphate under high PTH and gut absorption is poor, so phosphate is low, whereas the failing kidney cannot excrete phosphate, so it is high. Third, ALP comes from active osteoblasts, so it rises when bone formation is increased or when osteoblasts lay down osteoid that fails to mineralize, and it stays normal in osteoporosis, where bone is lost slowly."
+    },
+    {
+     "type": "table",
+     "title": "Serum patterns in metabolic bone disease",
+     "cols": [
+      "Condition",
+      "Calcium",
+      "Phosphate",
+      "ALP",
+      "PTH",
+      "Why"
+     ],
+     "rows": [
+      [
+       "Osteoporosis",
+       "Normal",
+       "Normal",
+       "Normal",
+       "Normal",
+       "Bone mass lost; mineral regulation intact"
+      ],
+      [
+       "Osteopetrosis",
+       "Normal (low in some infants)",
+       "Normal",
+       "Normal",
+       "Normal (high if hypocalcemic)",
+       "Resorption fails; regulation intact"
+      ],
+      [
+       "Osteomalacia or rickets (vitamin D deficiency)",
+       "Low or low-normal",
+       "Low",
+       "High",
+       "High",
+       "Low gut absorption; PTH wastes phosphate"
+      ],
+      [
+       "Paget disease",
+       "Normal",
+       "Normal",
+       "High, often very high",
+       "Normal",
+       "Focal chaotic remodeling, active osteoblasts"
+      ],
+      [
+       "Primary hyperparathyroidism",
+       "High",
+       "Low or low-normal",
+       "Normal or high",
+       "High or inappropriately normal",
+       "Autonomous PTH; ALP high with bone disease"
+      ],
+      [
+       "Renal osteodystrophy",
+       "Low or normal",
+       "High",
+       "High",
+       "High, often very high",
+       "Phosphate retention, low calcitriol; ALP low or normal in adynamic bone"
+      ]
+     ],
+     "caption": "Read calcium and PTH together first, then use phosphate and ALP to separate the causes."
+    },
+    {
+     "type": "flow",
+     "title": "Reasoning through a bone lab panel",
+     "steps": [
+      "Read albumin-corrected calcium and PTH together",
+      "High calcium with high or normal PTH: primary hyperparathyroidism",
+      "Low calcium with high PTH: secondary; check phosphate",
+      "Low phosphate: vitamin D deficiency (osteomalacia, rickets)",
+      "High phosphate: chronic kidney disease (renal osteodystrophy)",
+      "Normal calcium and PTH: check ALP",
+      "Isolated high ALP: Paget disease; all normal: osteoporosis"
+     ],
+     "caption": "A normal PTH in the face of hypercalcemia is inappropriate, because hypercalcemia should suppress it."
+    },
+    {
+     "type": "table",
+     "title": "Approximate adult reference ranges",
+     "cols": [
+      "Test",
+      "About"
+     ],
+     "rows": [
+      [
+       "Total calcium",
+       "8.5 to 10.5 mg/dL (2.1 to 2.6 mmol/L)"
+      ],
+      [
+       "Phosphate",
+       "2.5 to 4.5 mg/dL (0.8 to 1.45 mmol/L)"
+      ],
+      [
+       "ALP",
+       "40 to 130 U/L (higher in growing children)"
+      ],
+      [
+       "Intact PTH",
+       "10 to 65 pg/mL"
+      ],
+      [
+       "25-hydroxyvitamin D",
+       "Deficient below about 20 ng/mL (50 nmol/L)"
+      ]
+     ],
+     "caption": "Ranges vary by laboratory; judge borderline values against the reporting laboratory."
+    },
+    {
+     "type": "p",
+     "text": "Three cautions prevent common errors. Total calcium falls when albumin is low, so either correct it (add about 0.8 mg/dL for each 1 g/dL that albumin is below 4 g/dL) or measure ionized calcium. ALP also comes from liver, so a high ALP with a high gamma-glutamyl transferase suggests a hepatic source, and children normally have a high ALP from active growth plates. Finally, osteoporosis by definition has normal labs; an abnormal panel in a patient with low bone mass points to a secondary cause such as hyperparathyroidism or vitamin D deficiency."
+    },
+    {
+     "type": "example",
+     "title": "Three panels, three diseases",
+     "text": "Patient A: calcium 11.4 mg/dL, phosphate 2.1 mg/dL, ALP 150 U/L, PTH 120 pg/mL. Calcium and PTH are both high, so the gland is the cause: primary hyperparathyroidism, with low phosphate from PTH phosphaturia. Patient B: calcium 8.4, phosphate 2.0, ALP 220, PTH 140. Calcium is slightly low and PTH high, so PTH is responding; low phosphate means the kidney is working and wasting phosphate, so this is vitamin D deficiency with osteomalacia. Patient C: calcium 8.2, phosphate 6.8, ALP 190, PTH 480. Again PTH is responding, but phosphate is high because the kidney cannot excrete it: renal osteodystrophy."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-MUSC-13-03-C04",
+   "obj": "MS-13-C.4",
+   "title": "Renal osteodystrophy",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Renal osteodystrophy is the bone disease of chronic kidney disease (CKD). It is one part of the CKD mineral and bone disorder, which also includes the abnormal laboratory values and vascular calcification. Its hormonal changes begin early, with PTH often rising once GFR falls below about 60 mL/min per 1.73 m2, long before bone symptoms appear."
+    },
+    {
+     "type": "p",
+     "text": "The first change is phosphate retention. As nephrons are lost, each remaining nephron must excrete more phosphate, and osteocytes respond by secreting FGF23, which with its coreceptor Klotho reduces proximal phosphate reabsorption and suppresses renal 1-alpha-hydroxylase. Loss of renal mass removes more of this enzyme, so calcitriol falls early, gut calcium absorption drops, and serum calcium falls. Three signals then drive the parathyroids: low ionized calcium sensed by the calcium-sensing receptor, high phosphate acting directly on the glands, and loss of calcitriol, which normally restrains PTH gene transcription and parathyroid cell proliferation through the vitamin D receptor. The result is secondary hyperparathyroidism with diffuse, later nodular, gland hyperplasia."
+    },
+    {
+     "type": "flow",
+     "title": "Chronic kidney disease to bone disease",
+     "steps": [
+      "Falling GFR retains phosphate; osteocytes raise FGF23",
+      "FGF23 and lost renal mass reduce 1-alpha-hydroxylase",
+      "Low calcitriol cuts gut calcium absorption; calcium falls",
+      "Low calcium, high phosphate, low calcitriol stimulate the parathyroids",
+      "Parathyroid hyperplasia; PTH rises (secondary hyperparathyroidism)",
+      "PTH drives osteoclast resorption: osteitis fibrosa cystica",
+      "Low calcitriol and acidosis impair mineralization"
+     ],
+     "caption": "Phosphate retention starts the chain; high-turnover resorption and defective mineralization are its two skeletal results."
+    },
+    {
+     "type": "p",
+     "text": "Sustained PTH acts on osteoblast-lineage cells, which raise RANKL and recruit osteoclasts, so turnover becomes high. Osteoclasts tunnel into trabeculae, the marrow next to them is replaced by fibrous tissue, and woven bone is laid down rapidly, raising ALP. This is osteitis fibrosa cystica. Where resorption is severe, cysts form, and hemorrhage with osteoclast-like giant cells, fibroblasts, and hemosiderin produces brown tumors, which are reactive rather than neoplastic and resemble giant cell tumor of bone under the microscope."
+    },
+    {
+     "type": "table",
+     "title": "Findings of osteitis fibrosa cystica and CKD bone disease",
+     "cols": [
+      "Finding",
+      "Mechanism"
+     ],
+     "rows": [
+      [
+       "Subperiosteal resorption, radial side of middle phalanges of index and middle fingers",
+       "Most specific radiographic sign of PTH excess"
+      ],
+      [
+       "Resorption of distal phalangeal tufts",
+       "PTH-driven osteoclastic resorption"
+      ],
+      [
+       "Salt and pepper skull",
+       "Mottled trabecular resorption of the skull vault"
+      ],
+      [
+       "Loss of the lamina dura around teeth",
+       "Resorption of the dense bone lining tooth sockets"
+      ],
+      [
+       "Brown tumors and bone cysts",
+       "Focal intense resorption with hemorrhage; may fracture"
+      ],
+      [
+       "Rugger jersey spine",
+       "Endplate sclerosis from excess trabecular bone in CKD"
+      ],
+      [
+       "Vascular and soft tissue calcification",
+       "High phosphate and calcium-phosphate product"
+      ]
+     ],
+     "caption": "The first five are shared with primary hyperparathyroidism; the last two are characteristic of CKD."
+    },
+    {
+     "type": "p",
+     "text": "Defective mineralization often coexists. Low calcitriol, chronic metabolic acidosis (bone mineral is consumed as a buffer), and historically aluminum exposure in dialysis patients cause unmineralized osteoid to accumulate (osteomalacia). At the other extreme, adynamic bone disease has very low turnover with few osteoblasts and osteoclasts, usually when PTH is relatively low. Many patients have a mixed lesion, with bone pain, proximal muscle weakness, and fractures; children show growth failure and rickets-like changes."
+    },
+    {
+     "type": "p",
+     "text": "After years of stimulation, nodular parathyroid tissue expresses fewer calcium-sensing and vitamin D receptors and secretes PTH autonomously. Calcium then becomes high with very high PTH (tertiary hyperparathyroidism), which can persist after kidney transplantation."
+    },
+    {
+     "type": "stop",
+     "predict": "PTH lowers phosphate in primary hyperparathyroidism. Why is phosphate high in renal osteodystrophy even though PTH is higher still?",
+     "explain": "PTH lowers serum phosphate by reducing tubular reabsorption, which only works if phosphate is being filtered. With a low GFR, the filtered load is too small for phosphaturia to keep up with intake, so phosphate is retained despite maximal PTH and FGF23.",
+     "check": "The second rule in C03 and the phosphate retention paragraph in this section."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Osteopetrosis and renal osteodystrophy sit at opposite ends of one system. Osteoclasts are hematopoietic cells of the monocyte-macrophage lineage that depend on RANKL from osteoblast-lineage cells, so osteopetrosis links bone biology to hematology (myelophthisic marrow failure), renal physiology (carbonic anhydrase II and tubular acidosis), and neuroanatomy (cranial nerves in their foramina). In renal osteodystrophy the opposite happens: osteoclasts are driven too hard by PTH, and the kidney, parathyroid, gut, and osteocyte are linked through calcitriol, FGF23, and phosphate."
+  },
+  {
+   "type": "p",
+   "text": "The lab table works because each disease disturbs a different control point, but it has limits. Values overlap near reference limits, mixed disease is common (vitamin D deficiency in CKD, osteoporosis with hyperparathyroidism), and ALP reflects only osteoblast activity, not bone mass. Lab values point to a mechanism; bone density, radiographs, and sometimes bone biopsy define the skeletal lesion."
+  }
+ ],
+ "summary": [
+  "Osteoclasts resorb bone by sealing a lacuna and secreting HCl (carbonic anhydrase II, V-type H+-ATPase, ClC-7) and cathepsin K.",
+  "Osteopetrosis is failed osteoclast resorption; bone is dense but brittle because woven bone and microcracks are never remodeled.",
+  "Carbonic anhydrase II deficiency combines osteopetrosis with renal tubular acidosis and cerebral calcification, because both cell types need it to make H+.",
+  "Marrow obliteration causes pancytopenia, extramedullary hematopoiesis, and hepatosplenomegaly; narrow foramina compress CN II, VII, and VIII.",
+  "The autosomal recessive infantile form is severe and often fatal in childhood; the autosomal dominant adult form causes fractures and jaw osteomyelitis.",
+  "PTH raises calcium and lowers phosphate; ALP tracks osteoblast activity.",
+  "Osteoporosis has normal labs, Paget disease an isolated high ALP, and primary hyperparathyroidism high calcium with low phosphate.",
+  "Low calcium with high PTH is secondary hyperparathyroidism: low phosphate means vitamin D deficiency, high phosphate means CKD.",
+  "In CKD, phosphate retention, high FGF23, and low calcitriol drive secondary hyperparathyroidism, osteitis fibrosa cystica, and defective mineralization.",
+  "Long-standing secondary hyperparathyroidism can become autonomous (tertiary) with hypercalcemia."
+ ],
+ "sources": [
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "Bones, Joints, and Soft Tissue Tumors (osteopetrosis, hyperparathyroidism, renal osteodystrophy)"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Parathyroid Hormone, Calcitonin, Calcium and Phosphate Metabolism, Vitamin D, Bone, and Teeth"
+  },
+  {
+   "book": "Boron and Boulpaep Medical Physiology",
+   "where": "Calcium and phosphate homeostasis: the parathyroid glands, vitamin D, and bone"
+  },
+  {
+   "book": "Junqueira's Basic Histology",
+   "where": "Bone: osteoclasts and bone remodeling"
+  },
+  {
+   "book": "Lange Pathophysiology of Disease",
+   "where": "Disorders of the parathyroids and calcium and phosphorus metabolism; chronic kidney disease"
+  }
+ ],
+ "verify": [
+  "Reference ranges for calcium, phosphate, ALP, intact PTH, and 25-hydroxyvitamin D vary by laboratory and assay; confirm the values NABNE uses.",
+  "The 25-hydroxyvitamin D cutoff for deficiency is given as below 20 ng/mL here; some sources use below 30 ng/mL as insufficiency.",
+  "The albumin correction factor of 0.8 mg/dL per 1 g/dL below 4 g/dL is a common approximation; its use on the exam should be confirmed.",
+  "The GFR threshold at which PTH begins to rise in CKD (about 60 mL/min per 1.73 m2) varies between sources.",
+  "The proportion of infantile osteopetrosis due to TCIRG1 (about half) comes from genetic series and varies by population.",
+  "Carbonic anhydrase II deficiency renal tubular acidosis is described as mixed proximal and distal (sometimes called type 3); confirm the classification NABNE expects.",
+  "Confirm whether NABNE expects the eponym Albers-Schönberg disease and the radiographic terms sandwich vertebrae (osteopetrosis) and rugger jersey spine (renal osteodystrophy); some texts use rugger jersey for both.",
+  "Primary hyperparathyroidism ALP is normal in most patients and high only with significant bone disease; review books differ in how they list it.",
+  "Requested new diagram name for a future revision: osteoclast-resorption (sealing zone, ruffled border, carbonic anhydrase II, proton pump, ClC-7, and resorption lacuna)."
+ ]
+}

@@ -1,0 +1,880 @@
+{
+ "unit": "NE-5",
+ "chapter_id": "NPLEX-P1-NEUR-05",
+ "topic_id": "NPLEX-P1-NEUR-05-01",
+ "title": "Sensory Receptors, Pathways, and Reflexes",
+ "subject": "Nervous System (NEUR)",
+ "version": "1.0",
+ "author": "Dr. Sharilyn Rennie",
+ "brand": "MedMasters Collaborative",
+ "overview": {
+  "intro": "This chapter follows somatic sensation from the receptor to the cortex. It covers how receptors transduce touch, vibration, stretch, pain, and temperature, how the dorsal column and spinothalamic pathways carry those signals and where each crosses, and how spinal reflexes use the same afferents. It then explains referred pain, how the dorsal horn and brainstem turn pain up or down, neuropathic pain, and the three common primary headaches. Board questions usually describe a pattern of sensory loss, an abnormal reflex, or a pain distribution and ask you to localize the lesion or name the mechanism. If you know which fibers carry what and where they cross, most of these questions become reasoning rather than recall.",
+  "prerequisites": [
+   "Resting membrane potential, graded potentials, and action potential generation (NE-13)",
+   "Spinal cord cross-sectional anatomy: gray horns, white columns, and the anterior white commissure (NE-3)",
+   "Dermatomes and the spinal nerve roots (NE-8)",
+   "Thalamic nuclei and the location of the postcentral gyrus (NE-3)",
+   "Skeletal muscle structure and the motor unit (MS-10)"
+  ],
+  "connections": [
+   {
+    "to": "Brain and spinal cord structures (NE-3)",
+    "how": "The position of each tract in the cord and brainstem is what turns a sensory exam into a lesion level."
+   },
+   {
+    "to": "CNS blood supply (NE-10) and vascular disease (NE-20-A)",
+    "how": "Medullary, thalamic, and cortical strokes produce sensory losses that follow the pathways in this chapter."
+   },
+   {
+    "to": "Nutritional neurological disease (NE-20-D) and CNS infections (NE-20-G)",
+    "how": "B12 deficiency and tabes dorsalis damage the dorsal columns, giving loss of vibration and position sense with a positive Romberg sign."
+   },
+   {
+    "to": "Neurological pathogens (NE-19)",
+    "how": "Varicella zoster virus latent in sensory ganglia explains dermatomal shingles and postherpetic neuralgia."
+   },
+   {
+    "to": "Cardiovascular and gastrointestinal systems",
+    "how": "Referred pain from the heart, diaphragm, gallbladder, and appendix follows the spinal segments that receive their visceral afferents."
+   }
+  ],
+  "terms": [
+   {
+    "term": "Receptor (generator) potential",
+    "def": "A graded depolarization of a sensory ending produced by its stimulus that triggers action potentials when it reaches threshold."
+   },
+   {
+    "term": "Adaptation",
+    "def": "The decline in a receptor's firing during a constant stimulus; rapid adaptation signals change and slow adaptation signals a steady state."
+   },
+   {
+    "term": "Receptive field",
+    "def": "The area of skin or tissue from which a stimulus changes the firing of a given sensory neuron."
+   },
+   {
+    "term": "Intrafusal fiber",
+    "def": "A small specialized muscle fiber inside a muscle spindle, innervated by gamma motor neurons, that carries the spindle's sensory endings."
+   },
+   {
+    "term": "Decussation",
+    "def": "The crossing of a pathway's axons from one side of the nervous system to the other."
+   },
+   {
+    "term": "Dissociated sensory loss",
+    "def": "Loss of pain and temperature with touch, vibration, and position preserved, or the reverse, because the modalities travel in different tracts."
+   },
+   {
+    "term": "Reciprocal inhibition",
+    "def": "Inhibition of the antagonist muscle through an interneuron while the agonist is reflexly excited."
+   },
+   {
+    "term": "Referred pain",
+    "def": "Pain from a deep or visceral structure felt in a body surface area served by the same spinal segments."
+   },
+   {
+    "term": "Allodynia",
+    "def": "Pain produced by a stimulus that is normally not painful, such as light touch."
+   },
+   {
+    "term": "Hyperalgesia",
+    "def": "An exaggerated pain response to a stimulus that is normally painful."
+   },
+   {
+    "term": "Neuropathic pain",
+    "def": "Pain caused by a lesion or disease of the somatosensory nervous system itself rather than by ongoing tissue injury."
+   },
+   {
+    "term": "Cortical spreading depression",
+    "def": "A slowly advancing wave of neuronal and glial depolarization followed by suppressed activity that underlies migraine aura."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "comp": "NPLEX-P1-NEUR-05-01-C01",
+   "obj": "NE-5.1",
+   "title": "Sensory receptors, adaptation, and afferent fiber types",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "A sensory receptor is a transducer. Its stimulus opens mechanically, thermally, or chemically gated cation channels in the nerve ending (for light touch, mechanically gated channels such as Piezo2), producing a graded receptor potential. When that potential brings the first node of the afferent axon to threshold, action potentials fire at a rate that rises with stimulus strength. The type of stimulus is coded by which receptor and pathway is active (the labeled line principle), intensity by firing rate and the number of receptors recruited, and location by the receptor's receptive field. Small, dense receptive fields in the fingertips give fine two-point discrimination."
+    },
+    {
+     "type": "h",
+     "text": "Adaptation"
+    },
+    {
+     "type": "p",
+     "text": "Rapidly adapting (phasic) receptors fire at the onset and offset of a stimulus, so they signal change, movement, and vibration. Slowly adapting (tonic) receptors keep firing for as long as the stimulus lasts, so they signal steady pressure, skin stretch, position, and length. The Pacinian corpuscle shows how structure sets adaptation: its terminal is wrapped in concentric fluid-filled lamellae, and during sustained pressure the fluid redistributes so the terminal is no longer deformed, while the terminal itself also accommodates. Only rapid changes reach the nerve, which is why it detects vibration."
+    },
+    {
+     "type": "table",
+     "title": "Somatic receptors",
+     "cols": [
+      "Receptor",
+      "Location",
+      "Best stimulus",
+      "Adaptation",
+      "Afferent fiber"
+     ],
+     "rows": [
+      [
+       "Meissner corpuscle",
+       "Dermal papillae of hairless (glabrous) skin",
+       "Light touch, low-frequency vibration (flutter)",
+       "Rapid",
+       "Aβ"
+      ],
+      [
+       "Pacinian corpuscle",
+       "Deep dermis, subcutis, joint capsules",
+       "High-frequency vibration (best near 250 Hz), rapid pressure change",
+       "Very rapid",
+       "Aβ"
+      ],
+      [
+       "Merkel disc",
+       "Basal epidermis",
+       "Sustained pressure, texture, edges",
+       "Slow",
+       "Aβ"
+      ],
+      [
+       "Ruffini ending",
+       "Dermis and joint capsules",
+       "Skin stretch, sustained joint position",
+       "Slow",
+       "Aβ"
+      ],
+      [
+       "Free nerve ending",
+       "Nearly all tissues",
+       "Pain, temperature, itch, crude touch",
+       "Slow; nociceptors may sensitize",
+       "Aδ and C"
+      ],
+      [
+       "Muscle spindle",
+       "Within muscle, parallel to extrafusal fibers",
+       "Muscle length and rate of length change",
+       "Ia: rate and length; II: length (slow)",
+       "Ia and II"
+      ],
+      [
+       "Golgi tendon organ",
+       "Musculotendinous junction, in series",
+       "Muscle tension, especially active contraction",
+       "Slow",
+       "Ib"
+      ]
+     ],
+     "caption": "Encapsulated skin receptors use Aβ fibers and differ in adaptation and depth."
+    },
+    {
+     "type": "h",
+     "text": "Pain and temperature endings"
+    },
+    {
+     "type": "p",
+     "text": "Nociceptors and thermoreceptors are free nerve endings. Nociceptors adapt little and can sensitize: bradykinin, prostaglandins, and other inflammatory mediators lower their threshold, producing hyperalgesia around an injury. The heat and capsaicin channel TRPV1 opens above about 43 °C (109 °F), and TRPM8 responds to cooling and menthol. Thinly myelinated Aδ fibers carry fast, sharp, well-localized first pain and cold; unmyelinated C fibers carry slow, burning, poorly localized second pain, warmth, and itch."
+    },
+    {
+     "type": "h",
+     "text": "Muscle spindles and Golgi tendon organs"
+    },
+    {
+     "type": "p",
+     "text": "A spindle contains intrafusal fibers (nuclear bag and nuclear chain) lying in parallel with the working extrafusal fibers. Primary (Ia) endings report length and the velocity of stretch; secondary (group II) endings report mainly steady length. Gamma motor neurons contract the striated poles of the intrafusal fibers, and because alpha and gamma neurons are activated together, the spindle stays taut and sensitive while the muscle shortens. The Golgi tendon organ lies in series, its Ib endings woven between collagen strands at the musculotendinous junction. Tension straightens the strands and compresses the endings, so active contraction excites it strongly, while passive stretch of a relaxed muscle mainly excites the spindle."
+    },
+    {
+     "type": "table",
+     "title": "Afferent and efferent fiber classes",
+     "cols": [
+      "Class",
+      "Myelin",
+      "Diameter",
+      "Velocity",
+      "Carries"
+     ],
+     "rows": [
+      [
+       "Aα (Ia, Ib)",
+       "Heavy",
+       "About 12 to 20 µm",
+       "About 70 to 120 m/s",
+       "Spindle primary, tendon organ; alpha motor neurons"
+      ],
+      [
+       "Aβ (II)",
+       "Moderate",
+       "About 6 to 12 µm",
+       "About 30 to 70 m/s",
+       "Touch, vibration, pressure; spindle secondary endings"
+      ],
+      [
+       "Aγ",
+       "Moderate",
+       "About 3 to 6 µm",
+       "About 15 to 30 m/s",
+       "Gamma motor neurons to intrafusal fibers (efferent)"
+      ],
+      [
+       "Aδ (III)",
+       "Thin",
+       "About 1 to 5 µm",
+       "About 5 to 30 m/s",
+       "Fast sharp pain, cold"
+      ],
+      [
+       "C (IV)",
+       "None",
+       "About 0.2 to 1.5 µm",
+       "About 0.5 to 2 m/s",
+       "Slow burning pain, warmth, itch; postganglionic autonomic"
+      ]
+     ],
+     "caption": "Letter and Roman numeral classes; larger, more myelinated fibers conduct faster."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-05-01-C02",
+   "obj": "NE-5.2",
+   "title": "Dorsal column medial lemniscus and spinothalamic pathways",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Somatic sensation from the body reaches the cortex by two three-neuron pathways. In both, the first-order neuron's cell body is in the dorsal root ganglion, the second-order neuron crosses the midline, and the third-order neuron in the ventral posterolateral (VPL) nucleus of the thalamus projects through the posterior limb of the internal capsule to the primary somatosensory cortex (postcentral gyrus, areas 3, 1, and 2). Sensation from the face uses trigeminal equivalents that relay in the ventral posteromedial (VPM) nucleus."
+    },
+    {
+     "type": "h",
+     "text": "Dorsal column medial lemniscus (DCML)"
+    },
+    {
+     "type": "p",
+     "text": "Large Aβ fibers carrying fine touch, vibration, two-point discrimination, and conscious proprioception ascend on the same side without synapsing. Fibers from below about T6 (lower limb and lower trunk) form the medial fasciculus gracilis; fibers from T6 and above (upper limb) add laterally as the fasciculus cuneatus. They synapse in the nuclei gracilis and cuneatus of the caudal medulla, and the second-order axons sweep across as internal arcuate fibers (the sensory decussation) to form the contralateral medial lemniscus."
+    },
+    {
+     "type": "flow",
+     "title": "DCML pathway",
+     "steps": [
+      "Receptor, Aβ fiber, cell body in dorsal root ganglion",
+      "Ascends ipsilaterally in fasciculus gracilis or cuneatus",
+      "Synapse in nucleus gracilis or cuneatus, caudal medulla",
+      "Crosses as internal arcuate fibers",
+      "Rises as contralateral medial lemniscus to VPL",
+      "Internal capsule to postcentral gyrus"
+     ],
+     "caption": "The DCML stays ipsilateral throughout the spinal cord and crosses in the lower medulla."
+    },
+    {
+     "type": "h",
+     "text": "Spinothalamic tract (anterolateral system)"
+    },
+    {
+     "type": "p",
+     "text": "Aδ and C fibers carrying pain, temperature, and crude touch enter laterally and may run up or down one or two segments in the dorsolateral tract of Lissauer before synapsing in the dorsal horn (laminae I, II, and V). Second-order axons cross within one or two segments in the anterior white commissure and ascend in the contralateral anterolateral white matter. Fibers carrying fast Aδ pain run directly to VPL and allow localization. Slow C fiber pain also projects to the reticular formation, periaqueductal gray, and intralaminar thalamic nuclei, which explains its arousing, unpleasant quality. Because each new segment adds fibers medially, sacral fibers lie most lateral and cervical fibers most medial."
+    },
+    {
+     "type": "flow",
+     "title": "Spinothalamic pathway",
+     "steps": [
+      "Free nerve ending, Aδ or C fiber, dorsal root ganglion",
+      "Lissauer tract, synapse in dorsal horn",
+      "Crosses in anterior white commissure within 1 to 2 segments",
+      "Ascends in contralateral anterolateral column",
+      "Synapse in VPL (and reticular, intralaminar targets)",
+      "Internal capsule to postcentral gyrus"
+     ],
+     "caption": "The spinothalamic tract crosses almost at once, so in the cord it carries information from the opposite side."
+    },
+    {
+     "type": "table",
+     "title": "Predicting sensory loss from lesion level",
+     "cols": [
+      "Lesion",
+      "Touch, vibration, position",
+      "Pain and temperature",
+      "Example"
+     ],
+     "rows": [
+      [
+       "Dorsal root",
+       "Ipsilateral, dermatomal",
+       "Ipsilateral, dermatomal",
+       "Disc herniation compressing a root"
+      ],
+      [
+       "Both dorsal columns",
+       "Lost bilaterally below lesion",
+       "Spared",
+       "B12 deficiency, tabes dorsalis"
+      ],
+      [
+       "Cord hemisection",
+       "Ipsilateral below lesion",
+       "Contralateral, from 1 to 2 segments below",
+       "Brown-Séquard (C03)"
+      ],
+      [
+       "Central cord, crossing fibers",
+       "Spared",
+       "Bilateral, only at involved segments",
+       "Syringomyelia (C03)"
+      ],
+      [
+       "Lateral medulla",
+       "Spared",
+       "Contralateral body and ipsilateral face",
+       "Lateral medullary (Wallenberg) infarct"
+      ],
+      [
+       "Medial medulla",
+       "Contralateral body",
+       "Spared",
+       "Medial medullary infarct"
+      ],
+      [
+       "Pons, thalamus, internal capsule",
+       "Contralateral",
+       "Contralateral",
+       "Lacunar or thalamic stroke"
+      ],
+      [
+       "Postcentral gyrus",
+       "Contralateral; leg if medial, face and arm if lateral",
+       "Contralateral, often milder",
+       "ACA or MCA territory infarct"
+      ]
+     ],
+     "caption": "Below the medulla the tracts carry opposite sides; above it both carry the contralateral body."
+    },
+    {
+     "type": "example",
+     "title": "Localizing a crossed sensory loss",
+     "text": "A patient has lost pain and temperature on the left face and the right arm, trunk, and leg; touch and vibration are normal. A crossed face and body pattern means the lesion lies where the face fibers have not crossed but the body fibers have: the lower brainstem. Trigeminal pain fibers descend ipsilaterally in the spinal trigeminal tract and nucleus in the lateral medulla, beside the already crossed spinothalamic tract carrying the right body. The medial lemniscus lies medially, so it is spared. The lesion is in the left lateral medulla (vertebral or PICA territory)."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-05-01-C03",
+   "obj": "NE-5.3",
+   "title": "Brown-Séquard hemisection and syringomyelia",
+   "blocks": [
+    {
+     "type": "h",
+     "text": "Brown-Séquard syndrome"
+    },
+    {
+     "type": "p",
+     "text": "A hemisection cuts every tract on one half of the cord, usually from penetrating trauma or a tumor. The lateral corticospinal tract has already crossed at the pyramidal decussation in the caudal medulla, so weakness is ipsilateral, with upper motor neuron signs below the lesion (spasticity, hyperreflexia, an extensor plantar response) once spinal shock passes. The dorsal columns have not yet crossed, so vibration, position, and fine touch are lost ipsilaterally. The spinothalamic tract has already crossed, so pain and temperature are lost contralaterally, starting one or two segments below the lesion, because opposite-side fibers entering just below it rise one or two segments on their own side and cross above the lesion."
+    },
+    {
+     "type": "p",
+     "text": "At the level of the lesion itself, the damaged dorsal root entry zone and ventral horn cause a narrow ipsilateral band of loss of all sensation with lower motor neuron signs in that segment. A lesion at or above T1 can also interrupt descending sympathetic fibers on their way to the T1 to T2 preganglionic neurons, adding an ipsilateral Horner syndrome (ptosis, miosis, anhidrosis)."
+    },
+    {
+     "type": "table",
+     "title": "Findings in Brown-Séquard syndrome",
+     "cols": [
+      "Finding",
+      "Tract or structure",
+      "Side",
+      "Extent"
+     ],
+     "rows": [
+      [
+       "Spastic weakness, hyperreflexia, Babinski sign",
+       "Lateral corticospinal (crossed in medulla)",
+       "Ipsilateral",
+       "Below lesion"
+      ],
+      [
+       "Loss of vibration, position, fine touch",
+       "Dorsal column (crosses in medulla)",
+       "Ipsilateral",
+       "Below lesion"
+      ],
+      [
+       "Loss of pain and temperature",
+       "Spinothalamic (crossed in cord)",
+       "Contralateral",
+       "From 1 to 2 segments below lesion"
+      ],
+      [
+       "Band of total anesthesia, flaccid weakness",
+       "Dorsal root entry zone, ventral horn",
+       "Ipsilateral",
+       "At lesion level"
+      ],
+      [
+       "Horner syndrome",
+       "Descending sympathetic fibers",
+       "Ipsilateral",
+       "Lesion at or above T1"
+      ]
+     ],
+     "caption": "Motor and dorsal column signs share a side; pain and temperature loss is opposite."
+    },
+    {
+     "type": "h",
+     "text": "Syringomyelia"
+    },
+    {
+     "type": "p",
+     "text": "A syrinx is a fluid-filled cavity in the central cord, most often cervical, commonly associated with a Chiari I malformation or following trauma. It first destroys the spinothalamic fibers crossing in the anterior white commissure from both sides. The result is bilateral loss of pain and temperature limited to the segments involved, classically a cape over the shoulders and arms, with touch, vibration, and position preserved because the dorsal columns lie outside the cavity. Below the cavity sensation is normal, since fibers from lower segments crossed lower down. Painless burns on the hands are typical."
+    },
+    {
+     "type": "p",
+     "text": "As the cavity enlarges it reaches the ventral horns, causing lower motor neuron signs (wasting of the intrinsic hand muscles, lost arm reflexes), then the lateral corticospinal tracts, causing upper motor neuron signs in the legs. Extension into the lateral horn at T1 can add Horner syndrome, and loss of protective pain sensation can lead to neuropathic (Charcot) joints of the shoulder or elbow."
+    },
+    {
+     "type": "example",
+     "title": "Working out a hemisection",
+     "text": "A man is stabbed in the back. His right leg is weak with brisk reflexes and an extensor plantar response, and he cannot feel vibration or position in the right foot. Pinprick and temperature are lost on the left from about the umbilicus down, with a narrow band of total loss on the right just above. Ipsilateral weakness and dorsal column loss put the lesion on the right. The contralateral pinprick loss begins near T10, and spinothalamic loss starts one or two segments below the lesion, so the lesion is about T8 to T9, matching the right-sided band. Diagnosis: right hemisection near T9 (Brown-Séquard)."
+    },
+    {
+     "type": "stop",
+     "predict": "Why does a syrinx spanning C5 to T1 spare pain sensation in the legs, while a hemisection at C6 removes it from the opposite leg?",
+     "explain": "The syrinx damages only fibers crossing at C5 to T1; leg fibers crossed in the lumbosacral cord and ascend in the anterolateral columns outside the cavity. A hemisection cuts the ascending tract itself, which carries all fibers from the opposite side below the lesion.",
+     "check": "The crossing point of the spinothalamic tract and the somatotopy of the anterolateral column in C02."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-05-01-C04",
+   "obj": "NE-5.4",
+   "title": "Spinal reflexes and reflex root levels",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "A reflex arc has a receptor, an afferent neuron, one or more central synapses, an efferent neuron, and an effector. Spinal reflexes run without the brain, but descending pathways constantly adjust their gain, which is why reflex testing examines both the arc and its supervision."
+    },
+    {
+     "type": "h",
+     "text": "Stretch (myotatic) reflex"
+    },
+    {
+     "type": "p",
+     "text": "Tapping a tendon briefly stretches the muscle and its spindles. Ia afferents fire and synapse directly on alpha motor neurons of the same muscle and its synergists, making this the only monosynaptic reflex. Collaterals excite Ia inhibitory interneurons that suppress the antagonist (reciprocal inhibition). The reflex is negative feedback on muscle length: stretch causes contraction that restores length. Gamma motor neuron activity sets spindle sensitivity, so it raises or lowers reflex gain."
+    },
+    {
+     "type": "flow",
+     "title": "Monosynaptic stretch reflex",
+     "steps": [
+      "Tendon tap stretches muscle and spindle",
+      "Ia afferent fires, enters dorsal root",
+      "Direct synapse on alpha motor neuron of same muscle",
+      "Ia inhibitory interneuron relaxes antagonist",
+      "Muscle contracts, restoring length (reflex jerk)"
+     ],
+     "caption": "One central synapse between afferent and efferent, with a parallel disynaptic path inhibiting the antagonist."
+    },
+    {
+     "type": "h",
+     "text": "Golgi tendon organ, withdrawal, and crossed extensor reflexes"
+    },
+    {
+     "type": "p",
+     "text": "In the Golgi tendon organ (Ib, autogenic inhibition) reflex, rising tension excites Ib afferents, which act through inhibitory interneurons to reduce firing of the same muscle's alpha motor neurons and excite the antagonist. It regulates force and helps prevent excessive tension. The withdrawal (flexor) reflex is polysynaptic: nociceptor input excites ipsilateral flexors and inhibits extensors, pulling the limb away, and reverberating interneuron circuits keep it going briefly after the stimulus ends. Commissural interneurons simultaneously excite contralateral extensors and inhibit contralateral flexors, so the opposite leg stiffens to bear weight (crossed extensor reflex)."
+    },
+    {
+     "type": "table",
+     "title": "Comparison of spinal reflexes",
+     "cols": [
+      "Reflex",
+      "Receptor and afferent",
+      "Central pathway",
+      "Effect"
+     ],
+     "rows": [
+      [
+       "Stretch",
+       "Spindle, Ia",
+       "Monosynaptic to alpha motor neuron",
+       "Same muscle contracts; antagonist inhibited"
+      ],
+      [
+       "Golgi tendon organ",
+       "Tendon organ, Ib",
+       "Disynaptic through inhibitory interneuron",
+       "Same muscle relaxes; antagonist excited"
+      ],
+      [
+       "Withdrawal",
+       "Nociceptors, Aδ and C",
+       "Polysynaptic, several segments",
+       "Ipsilateral flexion, extensors inhibited"
+      ],
+      [
+       "Crossed extensor",
+       "Same input as withdrawal",
+       "Polysynaptic, crosses through commissural interneurons",
+       "Contralateral extension"
+      ]
+     ],
+     "caption": "Only the stretch reflex is monosynaptic; the others use interneurons and spread across segments."
+    },
+    {
+     "type": "table",
+     "title": "Deep tendon reflexes tested on examination",
+     "cols": [
+      "Reflex",
+      "Main root",
+      "Roots involved",
+      "Nerve and muscle"
+     ],
+     "rows": [
+      [
+       "Biceps",
+       "C5",
+       "C5 to C6",
+       "Musculocutaneous; biceps brachii"
+      ],
+      [
+       "Brachioradialis",
+       "C6",
+       "C5 to C6",
+       "Radial; brachioradialis"
+      ],
+      [
+       "Triceps",
+       "C7",
+       "C7 to C8",
+       "Radial; triceps brachii"
+      ],
+      [
+       "Patellar",
+       "L4",
+       "L3 to L4",
+       "Femoral; quadriceps femoris"
+      ],
+      [
+       "Achilles",
+       "S1",
+       "S1 to S2",
+       "Tibial; gastrocnemius and soleus"
+      ]
+     ],
+     "caption": "A root lesion weakens or abolishes the reflex it serves; an S1 radiculopathy removes the ankle jerk while the knee jerk is preserved."
+    },
+    {
+     "type": "h",
+     "text": "Reflexes in disease"
+    },
+    {
+     "type": "p",
+     "text": "Any break in the arc (peripheral neuropathy, radiculopathy, ventral horn disease, neuromuscular disease) reduces or abolishes the reflex. An upper motor neuron lesion removes descending inhibition of alpha and gamma motor neurons, so after the acute phase of spinal shock, stretch reflexes become brisk, spread to neighboring muscles, and may show clonus, while the polysynaptic plantar reflex reverts to the extensor (Babinski) response."
+    },
+    {
+     "type": "stop",
+     "predict": "A patient with a C6 cord injury has absent biceps reflexes but brisk patellar and Achilles reflexes. Explain both findings with one lesion.",
+     "explain": "At C5 to C6 the injury destroys the reflex arc itself (ventral horn and roots), a lower motor neuron pattern, so the biceps reflex is lost. Below the lesion the lumbar and sacral arcs are intact but have lost descending inhibition, an upper motor neuron pattern, so they are exaggerated.",
+     "check": "The reflex root table and the Reflexes in disease paragraph."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-05-01-C05",
+   "obj": "NE-5.5",
+   "title": "Visceral and referred pain",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Visceral pain differs from somatic pain. Viscera are sparsely innervated, mostly by C fibers that travel with sympathetic nerves (and, for the pelvic organs, with pelvic splanchnic nerves) to the dorsal root ganglia. Cutting or burning the gut causes little pain, while distension, ischemia, inflammation, and traction on the mesentery are strong stimuli. Because the afferents are few, overlap several segments, and often arrive from both sides, visceral pain is dull, poorly localized, often felt in the midline, and accompanied by autonomic signs such as nausea, sweating, and pallor. When disease spreads to the parietal pleura or peritoneum, which have somatic innervation, pain becomes sharp and well localized."
+    },
+    {
+     "type": "h",
+     "text": "Convergence and projection"
+    },
+    {
+     "type": "p",
+     "text": "Visceral afferents enter the cord at the segments that supplied the organ during development and synapse on the same dorsal horn projection neurons (many in lamina V) that receive skin afferents from those dermatomes. The brain has learned to read activity in these shared neurons as coming from the skin, which supplies far more input, so it projects visceral pain onto the matching dermatomes. Referral therefore follows spinal segments, not the organ's position in the body."
+    },
+    {
+     "type": "p",
+     "text": "The heart develops in the neck and upper thorax, and its afferents return with the cardiac sympathetic nerves to about T1 to T4. Ischemic pain is therefore felt as substernal pressure spreading to the left chest and the medial left arm (T1 to T2 dermatomes). The central diaphragm, along with the mediastinal pleura and pericardium, is sensory-supplied by the phrenic nerve (C3 to C5), so blood, pus, or inflammation under the diaphragm or around the heart is felt at the shoulder tip, which the supraclavicular nerves (C3 to C4) supply. The peripheral diaphragm is supplied by lower intercostal nerves and refers to the adjacent chest and abdominal wall."
+    },
+    {
+     "type": "table",
+     "title": "Common referral patterns",
+     "cols": [
+      "Source",
+      "Afferent pathway and segments",
+      "Where pain is felt"
+     ],
+     "rows": [
+      [
+       "Heart (ischemia)",
+       "Cardiac sympathetic afferents, about T1 to T4",
+       "Substernal, left chest, medial left arm; often neck and jaw"
+      ],
+      [
+       "Central diaphragm, pericardium",
+       "Phrenic nerve, C3 to C5",
+       "Shoulder tip and lower neck (C3 to C4 dermatomes)"
+      ],
+      [
+       "Gallbladder",
+       "Greater splanchnic, about T6 to T9",
+       "Epigastrium and right upper quadrant; right shoulder if diaphragm irritated"
+      ],
+      [
+       "Appendix (early)",
+       "Lesser splanchnic, about T10",
+       "Periumbilical, then right lower quadrant when parietal peritoneum is inflamed"
+      ]
+     ],
+     "caption": "Visceral pain is felt over dermatomes of the segments that receive the organ's afferents; spread to parietal serosa makes it local and sharp."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-05-01-C06",
+   "obj": "NE-5.6",
+   "title": "Pain modulation and neuropathic pain",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Pain is not a fixed readout of tissue damage. Its main relay, the dorsal horn, is a site where incoming nociceptive signals are amplified or suppressed by local circuits and by pathways descending from the brainstem."
+    },
+    {
+     "type": "h",
+     "text": "Gate control"
+    },
+    {
+     "type": "p",
+     "text": "In the gate control model (Melzack and Wall), collaterals of large Aβ touch fibers excite inhibitory interneurons in the substantia gelatinosa (lamina II), which release GABA, glycine, or enkephalin onto spinothalamic projection neurons and reduce their response to Aδ and C input. Activity in small pain fibers inhibits these interneurons and opens the gate. This explains why rubbing an injured area or applying transcutaneous electrical stimulation can reduce pain."
+    },
+    {
+     "type": "h",
+     "text": "Descending inhibition and endogenous opioids"
+    },
+    {
+     "type": "p",
+     "text": "The periaqueductal gray (PAG) of the midbrain receives input from the cortex, amygdala, and hypothalamus. It excites the rostral ventromedial medulla, including the serotonergic nucleus raphe magnus, and noradrenergic neurons of the pons such as the locus coeruleus. Their axons descend in the dorsolateral funiculus to the dorsal horn, where serotonin and norepinephrine (through alpha-2 receptors) inhibit projection neurons and activate local enkephalin interneurons. This system underlies stress-induced analgesia."
+    },
+    {
+     "type": "p",
+     "text": "Endogenous opioids come from three precursors: beta-endorphin from pro-opiomelanocortin (mainly mu receptors), enkephalins from proenkephalin (mainly delta), and dynorphins from prodynorphin (mainly kappa). All three receptors couple to Gi/o proteins. Presynaptically they close voltage-gated Ca2+ channels on nociceptor terminals, reducing release of glutamate and substance P; postsynaptically they open G protein-gated inwardly rectifying K+ channels, hyperpolarizing the projection neuron. In the PAG, opioids inhibit GABAergic interneurons, which disinhibits the descending pathway."
+    },
+    {
+     "type": "flow",
+     "title": "Descending pain inhibition",
+     "steps": [
+      "Cortex, amygdala, hypothalamus activate the PAG",
+      "Opioids in PAG remove local GABA inhibition",
+      "PAG excites raphe magnus (serotonin) and locus coeruleus (norepinephrine)",
+      "Fibers descend in dorsolateral funiculus to dorsal horn",
+      "Enkephalin interneurons and monoamines inhibit pain transmission",
+      "Less nociceptive signal ascends in spinothalamic tract"
+     ],
+     "caption": "Brainstem control of the dorsal horn; opioids act both in the PAG and at the spinal synapse."
+    },
+    {
+     "type": "h",
+     "text": "Sensitization and neuropathic pain"
+    },
+    {
+     "type": "p",
+     "text": "Repeated C fiber input releases glutamate and substance P; the sustained depolarization removes the Mg2+ block of NMDA receptors on dorsal horn neurons, progressively increasing their output (wind-up) and producing central sensitization, so touch carried by Aβ fibers can be felt as pain (allodynia). Neuropathic pain arises when the somatosensory system itself is damaged. Injured axons accumulate Na+ channels and fire ectopically, dorsal horn inhibitory interneurons are lost, and central maps reorganize, so pain persists without ongoing tissue injury. It is typically burning, shooting, or electric, and often coexists with reduced sensation in the same area."
+    },
+    {
+     "type": "table",
+     "title": "Neuropathic pain syndromes",
+     "cols": [
+      "Syndrome",
+      "Site of injury",
+      "Mechanism",
+      "Typical features"
+     ],
+     "rows": [
+      [
+       "Postherpetic neuralgia",
+       "Dorsal root or trigeminal ganglion and nerve",
+       "Varicella zoster reactivation damages sensory neurons, leaving ectopic firing and central sensitization",
+       "Pain persisting 3 months or more after zoster in the same dermatome; allodynia; risk rises with age"
+      ],
+      [
+       "Phantom limb pain",
+       "Severed peripheral nerves and their central maps",
+       "Neuroma discharge, central sensitization, cortical reorganization",
+       "Pain felt in the missing limb; stump stimulation may trigger it"
+      ],
+      [
+       "Thalamic pain (Dejerine-Roussy)",
+       "VPL nucleus of the thalamus, usually infarct",
+       "Loss of normal thalamic processing with abnormal spontaneous activity",
+       "Initial contralateral sensory loss, later burning pain and allodynia on the same side"
+      ]
+     ],
+     "caption": "All three are pain caused by injury to the nervous system rather than activation of nociceptors by tissue damage."
+    },
+    {
+     "type": "stop",
+     "predict": "Why can thalamic pain be severe in a body region where the patient has lost the ability to feel pinprick?",
+     "explain": "The infarct removes the normal relay, so pinprick no longer reaches the cortex, but surviving thalamic and cortical neurons become hyperexcitable and fire spontaneously, generating pain that does not depend on a peripheral stimulus.",
+     "check": "The mechanisms of central sensitization and the neuropathic pain table."
+    }
+   ]
+  },
+  {
+   "comp": "NPLEX-P1-NEUR-05-01-C07",
+   "obj": "NE-5.7",
+   "title": "Migraine, cluster, and tension headache",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Brain parenchyma has no pain receptors. Headache arises from the meninges, dural venous sinuses, and large intracranial and meningeal arteries, together with scalp muscles and other extracranial tissues. Structures above the tentorium are supplied mainly by the ophthalmic division of the trigeminal nerve (V1), so their pain is felt in the front of the head; those in the posterior fossa are supplied mainly by the C2 and C3 nerves, so their pain is felt at the occiput and neck. Trigeminal and C2 to C3 afferents converge in the trigeminocervical complex of the lower brainstem and upper cord."
+    },
+    {
+     "type": "h",
+     "text": "Migraine"
+    },
+    {
+     "type": "p",
+     "text": "Migraine is a recurrent headache lasting about 4 to 72 hours that is often unilateral and pulsating, moderate to severe, worsened by routine activity, and accompanied by nausea or by photophobia and phonophobia. It is about three times more common in adult women. Trigeminovascular activation releases calcitonin gene-related peptide (CGRP) and substance P from trigeminal fibers around meningeal vessels, causing vasodilation and neurogenic inflammation. Sensitized trigeminal neurons then turn normal arterial pulsation into throbbing pain, and central sensitization can make the scalp painful to touch. About a third of patients have an aura, typically visual (a spreading scintillating scotoma), lasting about 5 to 60 minutes. It reflects cortical spreading depression moving across the cortex at about 3 mm per minute, which is why symptoms march gradually instead of appearing at once. Rare familial hemiplegic migraine is caused by mutations in ion channel and pump genes such as CACNA1A."
+    },
+    {
+     "type": "flow",
+     "title": "Migraine mechanism",
+     "steps": [
+      "Hypothalamic and brainstem changes, with or without cortical spreading depression",
+      "Trigeminal afferents around meningeal vessels activated",
+      "CGRP and substance P released",
+      "Meningeal vasodilation and neurogenic inflammation",
+      "Peripheral then central trigeminal sensitization",
+      "Throbbing pain, nausea, photophobia, allodynia"
+     ],
+     "caption": "Trigeminovascular model of migraine; aura is a cortical event that can precede the pain."
+    },
+    {
+     "type": "h",
+     "text": "Cluster and tension headache"
+    },
+    {
+     "type": "p",
+     "text": "Cluster headache is a trigeminal autonomic cephalalgia: severe, strictly unilateral orbital or temporal pain lasting about 15 to 180 minutes, recurring up to several times a day in bouts of weeks, often at the same time of night, and more common in men. Imaging during attacks shows activation of the posterior hypothalamus, which fits the circadian timing. Trigeminal pain activates a reflex parasympathetic outflow from the superior salivatory nucleus through the facial nerve and pterygopalatine ganglion, producing ipsilateral tearing, conjunctival injection, nasal congestion, and rhinorrhea. Swelling around the internal carotid artery can compress its sympathetic plexus, adding ipsilateral ptosis and miosis."
+    },
+    {
+     "type": "p",
+     "text": "Tension-type headache, the most common primary headache, is bilateral, pressing or band-like, mild to moderate, and not worsened by routine activity. Nausea is absent and at most one of photophobia or phonophobia is present. Its mechanism is less defined; tender pericranial muscles and, in the chronic form, central sensitization of pain pathways are thought to contribute."
+    },
+    {
+     "type": "table",
+     "title": "Distinguishing the primary headaches",
+     "cols": [
+      "Feature",
+      "Migraine",
+      "Cluster",
+      "Tension-type"
+     ],
+     "rows": [
+      [
+       "Location",
+       "Often unilateral",
+       "Strictly unilateral, orbital or temporal",
+       "Bilateral, band-like"
+      ],
+      [
+       "Quality and severity",
+       "Pulsating, moderate to severe",
+       "Boring, very severe",
+       "Pressing, mild to moderate"
+      ],
+      [
+       "Duration",
+       "About 4 to 72 hours",
+       "About 15 to 180 minutes, in bouts",
+       "About 30 minutes to 7 days"
+      ],
+      [
+       "Associated features",
+       "Nausea, photophobia, phonophobia, aura in about a third",
+       "Ipsilateral tearing, rhinorrhea, ptosis, miosis",
+       "No nausea; at most one of photophobia or phonophobia"
+      ],
+      [
+       "Behavior",
+       "Lies still in a dark room; worse with activity",
+       "Restless, pacing",
+       "Continues activities"
+      ],
+      [
+       "Sex",
+       "Women more often",
+       "Men more often",
+       "Slight female predominance"
+      ],
+      [
+       "Mechanism",
+       "Trigeminovascular activation, CGRP",
+       "Hypothalamic activation, trigeminal autonomic reflex",
+       "Pericranial muscle tenderness, sensitization"
+      ]
+     ],
+     "caption": "Duration, laterality, autonomic signs, and behavior during an attack separate the three."
+    }
+   ]
+  }
+ ],
+ "integration": [
+  {
+   "type": "p",
+   "text": "Anatomy and physiology meet in localization. Receptor type decides fiber size, fiber size decides the tract, and each tract's crossing point decides whether a lesion produces ipsilateral or contralateral loss. The same afferents serve reflexes, so a spindle Ia fiber appears in both the patellar reflex and position sense, and dorsal column and dorsal root diseases (B12 deficiency, tabes dorsalis from Treponema pallidum) cause both sensory ataxia with a positive Romberg sign and reduced reflexes. Embryology explains referred pain: organs keep the segmental innervation of the region where they formed, so the heart refers to T1 to T4 and the diaphragm, which arises in the cervical region, refers to C3 to C5."
+  },
+  {
+   "type": "p",
+   "text": "Biochemistry, microbiology, and pathology explain how the system is modulated and injured. Glutamate, substance P, and CGRP carry the pain signal, while GABA, glycine, enkephalins, serotonin, and norepinephrine suppress it, and the same Gi/o signaling explains endogenous and exogenous opioid analgesia. Varicella zoster virus, held latent in sensory ganglia by T cell immunity, reactivates as immunity wanes with age and leaves neuropathic pain behind. Patterns in this chapter are classic forms; real lesions are often incomplete, so a partial hemisection or a syrinx at an early stage may show only some findings."
+  }
+ ],
+ "summary": [
+  "Receptors transduce stimuli into graded receptor potentials; modality is coded by labeled lines, intensity by firing rate and recruitment.",
+  "Meissner and Pacinian corpuscles adapt rapidly and signal change and vibration; Merkel discs and Ruffini endings adapt slowly and signal steady pressure and stretch; all use Aβ fibers.",
+  "Aδ fibers carry fast pain and cold; C fibers carry slow burning pain, warmth, and itch.",
+  "Spindles lie in parallel and sense length (Ia, II); Golgi tendon organs lie in series and sense tension (Ib).",
+  "The DCML crosses in the caudal medulla; the spinothalamic tract crosses within 1 to 2 segments in the anterior white commissure; both relay in VPL to the postcentral gyrus.",
+  "Hemisection gives ipsilateral weakness and dorsal column loss with contralateral pain and temperature loss; a syrinx gives bilateral segmental pain and temperature loss with touch preserved.",
+  "The stretch reflex is the only monosynaptic reflex; biceps C5, triceps C7, patellar L4, Achilles S1.",
+  "Referred pain reflects convergence of visceral and skin afferents on shared dorsal horn neurons: heart to left arm (T1 to T4), diaphragm to shoulder (C3 to C5).",
+  "Pain is reduced by Aβ gating and by PAG-driven serotonergic, noradrenergic, and opioid inhibition of the dorsal horn; neuropathic pain arises from injury to the nervous system itself.",
+  "Migraine is trigeminovascular and CGRP mediated, with aura from cortical spreading depression; cluster headache adds ipsilateral autonomic signs; tension-type headache is bilateral and band-like."
+ ],
+ "sources": [
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Sensory Receptors, Neuronal Circuits for Processing Information"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Somatic Sensations: I. General Organization, the Tactile and Position Senses"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Somatic Sensations: II. Pain, Headache, and Thermal Sensations"
+  },
+  {
+   "book": "Guyton and Hall Textbook of Medical Physiology",
+   "where": "Motor Functions of the Spinal Cord; the Cord Reflexes"
+  },
+  {
+   "book": "Boron and Boulpaep Medical Physiology",
+   "where": "Sensory transduction and the somatic sensory system"
+  },
+  {
+   "book": "Robbins and Cotran Pathologic Basis of Disease",
+   "where": "The Central Nervous System, malformations including syringomyelia and Chiari malformation"
+  }
+ ],
+ "verify": [
+  "Fiber diameters and conduction velocities differ between Guyton and Hall, Boron and Boulpaep, and review books; values are given as approximate.",
+  "The DCML division between fasciculus gracilis and cuneatus is given as T6; some sources place it at T6 to T7.",
+  "Reflex root levels follow the objective (biceps C5, triceps C7, patellar L4, Achilles S1); some sources list biceps as C6 or triceps as C8. Confirm NABNE's expected single root.",
+  "Cardiac afferent segments are given as about T1 to T4; some texts give T1 to T5. The mechanism of referral to the neck and jaw is less well established than referral to the arm.",
+  "Gallbladder (about T6 to T9) and appendix (about T10) segment levels vary slightly among anatomy texts.",
+  "Headache durations follow the International Classification of Headache Disorders, third edition; confirm against current NABNE materials.",
+  "The proportion of migraine patients with aura (about a third) and the spreading depression velocity (about 3 mm per minute, range 2 to 6) are approximate.",
+  "The postherpetic neuralgia threshold of 3 months after zoster is a common definition; some studies use 90 days from rash onset or other cutoffs.",
+  "Requested new diagram names for a future revision: sensory-pathways (DCML and spinothalamic tracts from receptor to cortex with crossing points), cord-cross-section (tract positions with Brown-Séquard and syrinx lesions shaded), and reflex-arcs (stretch, Golgi tendon organ, and withdrawal with crossed extensor)."
+ ]
+}
