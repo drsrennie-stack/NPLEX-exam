@@ -796,6 +796,7 @@ VIEW.path = function(){
     '<p class="lead">One body system a week. Week 12 pulls it all together with full practice exams.</p></div>';
   h+='<section aria-labelledby="sum-h" class="section"><h2 id="sum-h" class="sr-only">Your progress</h2><div class="grid g4">'+
     stat(started,'Units started')+stat(mastered,'Units mastered','gold')+stat(due,'Due today','terra')+stat(blind,'Blind spots','goldlt')+'</div></section>';
+  h+='<section class="section" aria-label="Study plan">'+planCardHTML()+'</section>';
   h+='<section aria-labelledby="today-h" class="section"><div class="card"><p class="eyebrow">Today</p><h2 id="today-h">What should you do next?</h2>'+todayHTML()+'</div></section>';
   h+='<section aria-labelledby="rt-h" class="section soft"><h2 id="rt-h">How do you work each unit?</h2><ol class="routine">'+
     '<li>Brain dump before you study</li><li>Study the notes and videos</li><li>Answer the case questions</li><li>Brain dump after you study</li><li>Spaced recall keeps it</li></ol>'+
@@ -986,6 +987,102 @@ VIEW.cards = function(arg){
     '<p class="err" id="fc-err" role="alert"></p><button type="button" class="btn acc" data-act="fcstart" style="margin-top:12px">Start cards</button></form>';
   return h;
 };
+
+
+/* ---------------- study planner ---------------- */
+var RATE = [['strong','Strong','I know this well'],['ok','OK','I know the basics'],['weak','Weak','Shaky, need real work'],['new','Never learned it','Starting from scratch']];
+var LEARN_H = {strong:0.4, ok:0.75, weak:1.1, new:1.5};   /* hours per unit: brain dumps, notes, videos */
+var QSHARE  = {strong:0.4, ok:0.6, weak:0.8, new:1.0};    /* share of that system's questions to do */
+var MIN_PER_Q = 3;  /* 1.5 min to answer (NPLEX pace: 200 questions in 5 hours) plus about 1.5 min to review */
+function daysBetween(a,b){ var pa=a.split('-'),pb=b.split('-'); return Math.round((new Date(+pb[0],+pb[1]-1,+pb[2])-new Date(+pa[0],+pa[1]-1,+pa[2]))/86400000); }
+function sysPractice(code){ var n=0,k=0; Object.keys(S.attempts).forEach(function(q){ var m=QMAP[q]; if(!m||m.c.system!==code) return; var a=S.attempts[q][0]; n++; if(a.ok) k++; }); return n>=8?Math.round(100*k/n):null; }
+function planCalc(P){
+  var sys=SYS_ORDER.map(function(code){
+    var r=(P.rate&&P.rate[code])||'ok', units=ORDERED.filter(function(c){return c.systemCode===code;}).length;
+    var nq=0; casesFor(code).forEach(function(c){ nq+=c.questions.length; });
+    var q=Math.round(nq*QSHARE[r]), learn=units*LEARN_H[r], qh=q*MIN_PER_Q/60;
+    return {code:code, rate:r, units:units, q:q, learn:learn, qh:qh, h:learn+qh, w:(SYS[code]&&SYS[code].weight)||0};
+  });
+  var learn=0,qh=0,nq=0; sys.forEach(function(x){ learn+=x.learn; qh+=x.qh; nq+=x.q; });
+  var exams = 2*(5+2.5) + (S.history.some(function(h){return h.kind==='diag';})?0:1.5); /* two full exams plus review, diagnostic if not done */
+  var review = 0.12*(learn+qh);   /* spaced recall and flashcards */
+  var total = learn+qh+exams+review;
+  var days = daysBetween(P.start, P.exam), weeks = Math.max(1, Math.floor(days/7));
+  var finalW = weeks>=4 ? 1 : 0, studyW = Math.max(1, weeks-finalW);
+  var need = total/weeks;
+  var order = sys.slice();
+  if(P.order==='weak'){ var rk={new:0,weak:1,ok:2,strong:3}; order.sort(function(a,b){ return rk[a.rate]-rk[b.rate] || b.w-a.w || SYS_ORDER.indexOf(a.code)-SYS_ORDER.indexOf(b.code); }); }
+  /* spread system hours evenly across study weeks, in order */
+  var sysTotal=0; order.forEach(function(x){ sysTotal+=x.h; });
+  var cap=sysTotal/studyW, W=[], wi=0, room=cap;
+  for(var i=0;i<studyW;i++) W.push({n:i+1, start:addDays(P.start,7*i), items:[], h:0});
+  order.forEach(function(x){
+    var left=x.h, part=0;
+    while(left>0.01 && wi<studyW){
+      var take=Math.min(left, room); if(wi===studyW-1) take=left;
+      part++; W[wi].items.push({code:x.code, h:take, part:part}); W[wi].h+=take; left-=take; room-=take;
+      if(room<=0.01 && wi<studyW-1){ wi++; room=cap; }
+    }
+  });
+  W.forEach(function(w){ var multi={}; w.items.forEach(function(it){ var tot=W.reduce(function(n,ww){ return n+ww.items.filter(function(z){return z.code===it.code;}).length; },0); it.split=tot>1; }); w.h += (review+ (finalW?0:exams))/studyW; });
+  if(finalW) W.push({n:weeks, start:addDays(P.start,7*(weeks-1)), items:[], h:exams+review/weeks, final:true});
+  return {sys:sys, learn:learn, qh:qh, nq:nq, exams:exams, review:review, total:total, weeks:weeks, days:days, need:need, W:W, finalW:finalW};
+}
+function r1(x){ return Math.round(x); }
+function planWeekNow(P,R){ var d=daysBetween(P.start,today()); if(d<0) return 0; var n=Math.floor(d/7)+1; return n>R.weeks?R.weeks:n; }
+VIEW.plan = function(){
+  var P=S.settings.plan||null, D=planDraft;
+  if(!D) D=planDraft = P ? JSON.parse(JSON.stringify(P)) : {start:today(), exam:addDays(today(),84), hrs:20, rate:{}, order:'course'};
+  var h='<div class="head"><p class="eyebrow">Study plan</p><h1 tabindex="-1">Build your <span class="accent">study plan</span></h1><p class="lead">Tell us your dates, your hours, and how you feel about each system. You get a week-by-week plan and a routine to follow.</p></div>';
+  h+='<form class="card" novalidate onsubmit="return false"><h2>1. Your dates and hours</h2><div class="grid g3">'+
+    '<div><label class="field" for="pl-start">Start date</label><input type="date" id="pl-start" value="'+esc(D.start)+'" data-chg="plset" data-k="start"></div>'+
+    '<div><label class="field" for="pl-exam">Exam date (or target date)</label><input type="date" id="pl-exam" value="'+esc(D.exam)+'" data-chg="plset" data-k="exam"></div>'+
+    '<div><label class="field" for="pl-hrs">Hours you can study each week</label><input type="number" id="pl-hrs" min="1" max="80" value="'+esc(D.hrs)+'" data-chg="plset" data-k="hrs" style="width:7rem"></div></div>'+
+    '<h2 style="margin-top:20px">2. How do you feel about each system?</h2><p class="note">Be honest. Weak and never-learned systems get more time. If you have practiced a system here, your score shows next to it.</p><ul class="small" style="margin:.2rem 0 .6rem">'+RATE.map(function(o){return '<li><strong>'+o[1]+':</strong> '+o[2]+'</li>';}).join('')+'</ul>'+
+    '<div class="tbl-wrap" role="region" tabindex="0" aria-label="Confidence by system (scrolls sideways)"><table><thead><tr><th scope="col">System</th><th scope="col">How you feel</th><th scope="col">Your practice score</th></tr></thead><tbody>'+
+    SYS_ORDER.map(function(code){ var r=D.rate[code]||'ok', ps=sysPractice(code);
+      return '<tr><th scope="row">'+esc(sysName(code))+'</th><td><label class="sr-only" for="pl-r-'+code+'">How you feel about '+esc(sysName(code))+'</label><select id="pl-r-'+code+'" data-chg="plrate" data-code="'+code+'">'+
+        RATE.map(function(o){ return '<option value="'+o[0]+'"'+(o[0]===r?' selected':'')+'>'+o[1]+'</option>'; }).join('')+'</select></td><td>'+(ps==null?'<span class="note">Not enough yet</span>':ps+'%')+'</td></tr>'; }).join('')+
+    '</tbody></table></div>'+
+    '<h2 style="margin-top:20px">3. What order?</h2><div class="radios">'+
+    [['course','Course order (one system a week)'],['weak','Weakest systems first']].map(function(o){ return '<label for="pl-o-'+o[0]+'"><input type="radio" name="plorder" id="pl-o-'+o[0]+'" value="'+o[0]+'" data-chg="plorder"'+(D.order===o[0]?' checked':'')+'>'+o[1]+'</label>'; }).join('')+'</div>'+
+    '<p class="err" id="pl-err" role="alert"></p></form>';
+  var bad = !D.start||!D.exam ? 'Add both dates.' : daysBetween(D.start,D.exam)<7 ? 'Your exam date needs to be at least a week after your start date.' : !(+D.hrs>0) ? 'Add your hours per week.' : '';
+  if(bad){ h+='<div class="card" style="margin-top:14px"><p>'+esc(bad)+'</p></div>'; return h; }
+  var R=planCalc(D), hrs=+D.hrs, gap=R.need-hrs;
+  h+='<section class="section" aria-labelledby="pl-res"><h2 id="pl-res">Your plan</h2><div class="grid g4">'+
+    stat(R.weeks,'Weeks until your exam')+stat('About '+r1(R.total),'Hours of work in total','gold')+stat('About '+r1(R.need),'Hours you need each week','terra')+stat(hrs,'Hours you have each week','goldlt')+'</div>';
+  if(gap>1) h+='<div class="card" style="margin-top:14px"><h3>You are short by about '+r1(gap)+' hours a week</h3><ul><li>Add about '+r1(gap)+' hours a week, or</li><li>Move your date to about '+nice(addDays(D.start, 7*Math.ceil(R.total/hrs)))+', or</li><li>Do fewer questions in your strong systems and put that time on weak ones. Start with the systems that weigh most on the exam: Cardio and GI (12% each), then MSK, Neuro, Repro, and Urology (10% each).</li></ul></div>';
+  else if(gap<-2) h+='<div class="card" style="margin-top:14px"><h3>This fits, with about '+r1(-gap)+' hours a week to spare</h3><p>Use the extra time for more case questions and timed mixed sets. Doing questions the way you will be tested is the best use of spare time.</p></div>';
+  else h+='<div class="card" style="margin-top:14px"><h3>This fits your hours</h3><p>Keep a steady pace and you will finish on time.</p></div>';
+  var pace=Math.min(hrs,R.need)||R.need, wq=R.qh/R.total*pace, wl=R.learn/R.total*pace;
+  h+='<div class="card" style="margin-top:14px"><h3>Your weekly routine</h3><ul>'+
+    '<li><strong>Study units (about '+r1(wl)+' hours a week):</strong> brain dump before, notes and videos, brain dump after.</li>'+
+    '<li><strong>Case questions in Teaching mode (about '+r1(wq)+' hours, about '+r1(wq*60/MIN_PER_Q)+' questions a week):</strong> read every explanation, even when you are right.</li>'+
+    '<li><strong>Every day, 15 to 20 minutes:</strong> clear what is due today and your blind spots. Use flashcards as a warm-up.</li>'+
+    '<li><strong>Once a week:</strong> one timed mixed set of 25 questions (about 40 minutes) from the systems you have finished.</li>'+
+    (S.history.some(function(x){return x.kind==='diag';})?'':'<li><strong>First:</strong> take the diagnostic to find your starting gaps.</li>')+
+    '<li><strong>Final week:</strong> two full-length exams (two sessions of 2.5 hours, 100 questions each), then review every miss.</li></ul></div>';
+  h+='<div class="card" style="margin-top:14px"><h3>Week by week</h3><p class="note">Hours shown are what the plan needs each week'+(gap>1?', which is more than the '+hrs+' you have. Adjust above until it fits.':'.')+'</p><ol class="rec plan-weeks">'+R.W.map(function(w){
+    var what = w.final ? 'Full-length exams, mixed review, and your blind spots' :
+      w.items.map(function(it){ return esc(sysName(it.code))+(it.split?' (part '+it.part+')':''); }).join(', ');
+    return '<li><span><strong>Week '+w.n+'</strong> · starts '+nice(w.start)+'<br>'+what+'</span><span class="note">about '+r1(w.h)+' hours</span></li>'; }).join('')+'</ol></div>';
+  h+='<details class="card" style="margin-top:14px"><summary><strong>How this is figured</strong></summary><ul class="small">'+
+    '<li>Study time per unit: Strong 25 min, OK 45 min, Weak about 1 hour, Never learned 1.5 hours.</li>'+
+    '<li>Questions: Strong 40% of that system\'s questions, OK 60%, Weak 80%, Never learned all of them. Each question takes about 3 minutes: 1.5 to answer (the NPLEX pace of 200 questions in 5 hours) and 1.5 to review.</li>'+
+    '<li>Review: about 12% extra for spaced recall and flashcards. Final exams: two full exams plus review, about 15 hours.</li>'+
+    '<li>These are estimates. Change your ratings as you go and rebuild the plan.</li></ul></details>';
+  h+='<div class="row" style="margin-top:14px"><button type="button" class="btn acc" data-act="plsave">'+(P?'Update my plan':'Save my plan')+'</button><span class="note" id="pl-msg" role="status"></span></div></section>';
+  return h;
+};
+var planDraft = null;
+function planCardHTML(){
+  var P=S.settings.plan;
+  if(!P) return '<div class="card"><p class="eyebrow">Study plan</p><h2>How much do you need to study each week?</h2><p>Put in your exam date, your hours, and how you feel about each system. You get a week-by-week plan.</p><a class="btn acc" href="#plan">Build your study plan</a></div>';
+  var R=planCalc(P), n=planWeekNow(P,R), w=R.W[n-1];
+  var what = !n ? 'Your plan starts '+nice(P.start)+'.' : w ? (w.final?'Full-length exams and mixed review':w.items.map(function(it){ return sysName(it.code)+(it.split?' (part '+it.part+')':''); }).join(', ')) : 'Exam week.';
+  return '<div class="card"><p class="eyebrow">Study plan · exam '+nice(P.exam)+'</p><h2>'+(n?'This is week '+n+' of '+R.weeks:'Get ready')+'</h2><p>'+esc(what)+(w&&n?'. About '+r1(w.h)+' hours this week.':'')+'</p><a class="btn ghost" href="#plan">See or change your plan</a></div>';
+}
 
 /* brain dumps */
 var dumpUI = {tab:'comp', sys:null, focus:null};
@@ -1516,8 +1613,8 @@ VIEW.diagnostic = function(){
 };
 
 /* ---------------- router ---------------- */
-var NAV_FOR = {path:'path',week:'path',subjects:'subjects',subject:'subjects',predict:'dashboard',study:'path',dumps:'dumps',cards:'cards',practice:'practice',exams:'exams',dashboard:'dashboard',diagnostic:'diagnostic'};
-var TITLES = {path:'Your path',week:'Week',subjects:'Subjects',subject:'Subject',predict:'Predicted result',study:'Study unit',dumps:'Brain dumps',cards:'Flashcards',practice:'Practice',exams:'Full exams',dashboard:'Dashboard',diagnostic:'Diagnostic',take:'Question',results:'Results'};
+var NAV_FOR = {path:'path',week:'path',subjects:'subjects',subject:'subjects',predict:'dashboard',plan:'path',study:'path',dumps:'dumps',cards:'cards',practice:'practice',exams:'exams',dashboard:'dashboard',diagnostic:'diagnostic'};
+var TITLES = {path:'Your path',week:'Week',subjects:'Subjects',subject:'Subject',predict:'Predicted result',plan:'Study plan',study:'Study unit',dumps:'Brain dumps',cards:'Flashcards',practice:'Practice',exams:'Full exams',dashboard:'Dashboard',diagnostic:'Diagnostic',take:'Question',results:'Results'};
 var lastRoute='';
 function route(keepFocus){
   var h=decodeURIComponent(location.hash.slice(1))||'path';
@@ -1580,6 +1677,7 @@ function moveTo(ss,i){
   announce('Question '+(ss.cur-part[0]+1)+' of '+(part[1]-part[0]));
 }
 var ACT = {
+  plsave:function(){ S.settings.plan=JSON.parse(JSON.stringify(planDraft)); S.settings.plan.made=today(); save(); rerender(); var m=document.getElementById('pl-msg'); if(m) m.textContent='Saved. Your path page now shows this week.'; announce('Plan saved'); },
   fcstart:function(){
     var ids=[]; var us=fcUnit?[fcUnit]:ORDERED.filter(function(c){return c.systemCode===fcSys;}).map(function(c){return c.id;});
     us.forEach(function(u){ cardsFor(u).forEach(function(c){ if(!fcOnlyMissed || (S.cards[c.id]&&S.cards[c.id].m>0&&S.cards[c.id].last!=='k')) ids.push(c.id); }); });
@@ -1713,6 +1811,9 @@ function endPart(key){
   finishSession(key);
 }
 var CHG = {
+  plset:function(t){ planDraft[t.getAttribute('data-k')]=t.value; rerender(); focusSel('#'+t.id); },
+  plrate:function(t){ planDraft.rate[t.getAttribute('data-code')]=t.value; rerender(); focusSel('#'+t.id); },
+  plorder:function(t){ planDraft.order=t.value; rerender(); focusSel('#'+t.id); },
   fcsys:function(t){ fcSys=t.value; fcUnit=''; rerender(); focusSel('#fc-sys'); },
   fcunit:function(t){ fcUnit=t.value; },
   fcom:function(t){ fcOnlyMissed=t.checked; },
