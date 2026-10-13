@@ -29,3 +29,16 @@ You add verified YouTube videos to study units that have an empty "videos" list.
 - First look for already verified videos in other units: grep content/*/units-*.json for the topic. If one is clearly on this unit's topic, reuse it (copy channel, title, url exactly). This costs no searches.
 - Search budget: at most 2 WebSearch calls per empty unit in your files, total. Make each search count (for example "Ninja Nerd renal tubular acidosis", then "Armando Hasudungan OR Khan Academy renal tubular acidosis"). Aim for 1 to 3 verified videos per unit.
 - Still verify every new video with the oEmbed fetch.
+
+## Third pass (added channels)
+- Two more channels are now allowed: Osmosis (oEmbed author_name "Osmosis from Elsevier" or "Osmosis"; set "channel": "Osmosis") and Ninja Nerd Nursing (set "channel": "Ninja Nerd Nursing").
+- Fill only units whose "videos" list is still empty. Reuse verified videos from other units first, then search (at most 3 searches per empty unit). Verify every new video with oEmbed. Aim for 1 to 3 per unit.
+
+## Quality bar (all passes)
+- Only full teaching videos that explain the topic at medical-school depth. No YouTube Shorts, no clips under about 3 minutes, no quiz or "question of the day" videos, no promos, no patient-education videos aimed at the public.
+- The video's main subject must match the unit (a passing mention does not count).
+- Khan Academy and Khan Academy Medicine are allowed (channel "Khan Academy"), and so are Ninja Nerd Nursing, Osmosis, Ninja Nerd, Armando Hasudungan, and Dr. Najeeb Lectures.
+
+## Ninja Nerd top-up (immunology and pathology)
+- Ninja Nerd has strong immunology and pathology lectures (for example its Immunology series, hepatitis, and Clinical Medicine disease lectures). For each assigned unit that has no Ninja Nerd video, search for the matching Ninja Nerd lecture and add 1 or 2 if they meet the quality bar and are verified by oEmbed. Keep the unit at 5 videos or fewer; do not remove good existing videos.
+- Up to 2 searches per unit. Also fill any assigned unit whose list is empty.

@@ -13,6 +13,9 @@ For every one of the 236 study units:
 3. Case questions (NPLEX format: case summary with diagnosis, then 4 questions)
 4. Brain dump after studying
 5. Spaced recall brings the unit back on a schedule
+6. Flashcards for quick recall, built from each unit's charts and memory aids
+
+Every question rates confidence (Sure, Fairly sure, Not sure) and shows a confidence score. Teaching mode explains every option and links to the exact notes, chart, or mnemonic that teaches it.
 
 The app tracks every unit as Not started, In progress, Due, Blind spot, or Mastered, so nothing on the blueprint gets skipped.
 
@@ -50,8 +53,9 @@ python3 tools/build_bundle.py
 
 Saved in the browser (localStorage keys `nplex-state`, `nplex-progress`, `nplex-theme`). `nplex-progress` uses the Mastery OS recall format, keyed by unit id.
 
-## Status (Oct 7, 2026)
+## Status (Oct 12, 2026)
 
-- Cardiovascular: complete. 28 study units, 60 cases, 240 questions, each independently reviewed.
-- Diagnostic: Batch 1 rebuilt as 16 cases (64 questions, CV and GI).
-- Other 10 systems: to be built on the same pipeline.
+- All 11 systems complete: 236 study units, 750 cases, 3,000 questions, each file independently reviewed.
+- Every one of the 1,687 competencies is tested by at least one question.
+- Diagnostic: 16 cases (64 questions, CV and GI).
+- Next: video pass for units that do not have videos yet.

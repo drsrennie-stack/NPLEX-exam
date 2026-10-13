@@ -365,6 +365,14 @@ label.field{display:block;font-weight:700;margin-bottom:.35rem}
   *,*::before,*::after{transition:none!important;animation:none!important;scroll-behavior:auto!important}
   .card.lift:hover{transform:none}
 }
+
+.flash{outline:3px solid var(--gold,#C9A14A);outline-offset:4px;border-radius:8px;transition:outline-color 2s}
+.taught{margin:.3rem 0 .8rem}
+.fc{min-height:220px;display:flex;flex-direction:column;justify-content:center;gap:10px;padding:28px}
+.fc .ctx{font-size:.85rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+.fc .front{font-size:clamp(1.15rem,2.6vw,1.45rem);font-weight:800;line-height:1.35}
+.fc .back{font-size:1.05rem;border-top:1px solid var(--line);padding-top:12px;margin-top:4px}
+.fc-note{background:var(--card);border-radius:12px;box-shadow:var(--shadow);padding:14px 18px;margin:0 0 16px}
 </style>
 </head>
 <body>
@@ -389,6 +397,7 @@ label.field{display:block;font-weight:700;margin-bottom:.35rem}
       <li><a href="#path" data-nav="path">Your path</a></li>
       <li><a href="#subjects" data-nav="subjects">Subjects</a></li>
       <li><a href="#dumps" data-nav="dumps">Brain dumps</a></li>
+      <li><a href="#cards" data-nav="cards">Flashcards</a></li>
       <li><a href="#practice" data-nav="practice">Practice</a></li>
       <li><a href="#exams" data-nav="exams">Full exams</a></li>
       <li><a href="#dashboard" data-nav="dashboard">Dashboard</a></li>
@@ -451,6 +460,32 @@ function unitOf(code){
   if(m && COMP[m[1]]) return m[1];
   return null;
 }
+var OBJT = {}; COMPS.forEach(function(c){ (c.objectives||[]).forEach(function(o){ OBJT[o.id]=o.t; }); });
+var STOP = 'that this with from which most these their there into than then when what were have been also only each such more other about after before between both does most over under while where whose most cause causes caused'.split(' ');
+function toks(t){ var o={}; String(t||'').toLowerCase().replace(/[^a-z0-9 ]+/g,' ').split(/\s+/).forEach(function(w){ if(w.length>=4 && STOP.indexOf(w)<0) o[w]=1; }); return o; }
+function overlap(a,b){ var n=0; for(var k in a){ if(b[k]) n++; } return n; }
+/* Where a question is taught: best-matching notes section, chart and memory aid in the unit, by shared key words */
+function taughtIn(q){
+  var u=unitOf(q.comp); if(!u || !UNITS[u]) return null;
+  var U0=UNITS[u], want=toks([OBJT[q.obj]||'', (q.study&&q.study.topics||[]).join(' '), q.options[q.answer]].join(' '));
+  function best(list,textOf,pre){ var bi=-1,bs=1; list.forEach(function(x,i){ var sc=overlap(want,toks(textOf(x))); if(sc>bs){bs=sc;bi=i;} }); return bi<0?null:{i:bi,id:pre+bi,x:list[bi]}; }
+  return {unit:u,
+    note:best(U0.notes||[],function(n){return n.h+' '+(n.points||[]).join(' ');},'n-'),
+    chart:best(U0.charts||[],function(c){return c.title+' '+(c.cols||[]).join(' ')+' '+(c.rows||[]).map(function(r){return r.join(' ');}).join(' ');},'c-'),
+    trick:best(U0.tricks||[],function(t){return t.label+' '+t.text;},'t-')};
+}
+function taughtHTML(q,hN){
+  var T=taughtIn(q), h='';
+  if(q.obj && OBJT[q.obj]) h+='<'+hN+'>What this question tests</'+hN+'><p><span class="oid">'+esc(q.obj)+'</span> '+esc(OBJT[q.obj])+'</p>';
+  if(!T) return h;
+  var L=[];
+  if(T.note) L.push('<li><a href="#study/'+esc(T.unit)+'/'+T.note.id+'">Notes: '+esc(T.note.x.h)+'</a></li>');
+  if(T.chart) L.push('<li><a href="#study/'+esc(T.unit)+'/'+T.chart.id+'">Chart: '+esc(T.chart.x.title)+'</a></li>');
+  if(T.trick) L.push('<li><a href="#study/'+esc(T.unit)+'/'+T.trick.id+'">'+(T.trick.x.kind==='mnemonic'?'Mnemonic':'Study trick')+': '+esc(T.trick.x.label)+'</a></li>');
+  L.push('<li><a href="#study/'+esc(T.unit)+'">All notes for '+esc(T.unit)+' '+esc(COMP[T.unit].name)+'</a></li>');
+  L.push('<li><a href="#cards/'+esc(T.unit)+'">Flashcards for '+esc(T.unit)+'</a></li>');
+  return h+'<'+hN+'>Where this is taught</'+hN+'><ul class="taught">'+L.join('')+'</ul>';
+}
 var SYS_SHORT={CV:'Cardio',GI:'GI',MS:'MSK',NE:'Neuro',RE:'Repro',UR:'Urology',EN:'Endo',IM:'Immuno',PU:'Pulm',HE:'Heme',IN:'Derm'};
 function sysName(code){ return SYS_SHORT[code] || (SYS[code] ? SYS[code].name : code); }
 function sysFull(code){ return SYS[code] ? (SYS[code].full||SYS[code].name) : code; }
@@ -477,7 +512,7 @@ var store = {
   get:function(k){ try{ var v=window.localStorage.getItem(k); return v==null ? (k in mem ? mem[k] : null) : v; }catch(e){ return k in mem ? mem[k] : null; } },
   set:function(k,v){ mem[k]=v; try{ window.localStorage.setItem(k,v); return true; }catch(e){ return false; } }
 };
-function blank(){ return {v:1,units:{},attempts:{},srs:{},sessions:{},history:[],dumps:{},settings:{}}; }
+function blank(){ return {v:1,units:{},attempts:{},srs:{},sessions:{},history:[],dumps:{},settings:{},cards:{}}; }
 function loadState(){
   var s=null; try{ s=JSON.parse(store.get('nplex-state')||'null'); }catch(e){ s=null; }
   var b=blank(); if(s && typeof s==='object'){ for(var k in b){ if(s[k]!=null) b[k]=s[k]; } }
@@ -838,7 +873,8 @@ function unitRow(c){
 }
 
 /* study */
-VIEW.study = function(id){
+VIEW.study = function(arg){
+  var pp=String(arg||'').split('/'), id=pp[0]; scrollTarget=pp[1]||null;
   var c=COMP[id];
   if(!c) return '<div class="head"><h1 tabindex="-1">Unit not found</h1><p><a href="#path">Back to your path</a></p></div>';
   var u=UNITS[id], st=status(id), us=S.units[id]?S.units[id].steps:{};
@@ -857,15 +893,16 @@ VIEW.study = function(id){
     }).join('')+'</div>'+
     '<div class="row" style="margin-top:12px"><a class="btn ghost" href="#dumps/'+esc(id)+'">Brain dump before you study</a>'+
     '<button type="button" class="btn acc" data-act="unitpractice" data-unit="'+esc(id)+'">Practice cases for this unit</button>'+
-    '<a class="btn ghost" href="#dumps/'+esc(id)+'">Brain dump after you study</a></div></div>';
+    '<a class="btn ghost" href="#dumps/'+esc(id)+'">Brain dump after you study</a>'+
+    (cardsFor(id).length?'<a class="btn ghost" href="#cards/'+esc(id)+'">Flashcards for this unit</a>':'')+'</div></div>';
   if(u.summary) h+='<p class="lead" style="font-size:1.05rem;max-width:75ch">'+esc(u.summary)+'</p>';
   if((c.objectives||[]).length) h+=sec('s-objs','What should you be able to do?',objHTML(c),true);
 
-  var notes=(u.notes||[]).map(function(n){ return '<h3>'+esc(n.h)+'</h3><ul>'+(n.points||[]).map(function(p){return '<li>'+esc(p)+'</li>';}).join('')+'</ul>'; }).join('');
+  var notes=(u.notes||[]).map(function(n,i){ return '<h3 id="n-'+i+'" tabindex="-1">'+esc(n.h)+'</h3><ul>'+(n.points||[]).map(function(p){return '<li>'+esc(p)+'</li>';}).join('')+'</ul>'; }).join('');
   if(notes) h+=sec('s-notes','Notes','<div class="notes">'+notes+'</div>',true);
-  if(u.charts && u.charts.length) h+=sec('s-charts','Charts',u.charts.map(tableHTML).join(''),true);
-  if(u.tricks && u.tricks.length) h+=sec('s-tricks','Mnemonics and study tricks',u.tricks.map(function(t){
-    return '<div class="trick"><span class="kind">'+(t.kind==='mnemonic'?'Mnemonic':'Study trick')+'</span><strong>'+esc(t.label)+'</strong><p style="margin:.3rem 0 0">'+esc(t.text)+'</p></div>';
+  if(u.charts && u.charts.length) h+=sec('s-charts','Charts',u.charts.map(function(t,i){ return '<div id="c-'+i+'" tabindex="-1" class="anchor">'+tableHTML(t)+'</div>'; }).join(''),true);
+  if(u.tricks && u.tricks.length) h+=sec('s-tricks','Mnemonics and study tricks',u.tricks.map(function(t,i){
+    return '<div class="trick" id="t-'+i+'" tabindex="-1"><span class="kind">'+(t.kind==='mnemonic'?'Mnemonic':'Study trick')+'</span><strong>'+esc(t.label)+'</strong><p style="margin:.3rem 0 0">'+esc(t.text)+'</p></div>';
   }).join(''),false);
   if(u.highYield && u.highYield.length) h+=sec('s-hy','High-yield','<ul>'+u.highYield.map(function(x){return '<li>'+esc(x)+'</li>';}).join('')+'</ul>',true);
   if(u.pitfalls && u.pitfalls.length) h+=sec('s-pit','Common mix-ups','<ul>'+u.pitfalls.map(function(x){return '<li>'+esc(x)+'</li>';}).join('')+'</ul>',false);
@@ -890,8 +927,69 @@ function tableHTML(t){
   return h+'</tbody></table></div>';
 }
 
+
+/* flashcards: built only from the reviewed charts and memory aids in each study unit */
+var CARDS_CACHE = {};
+function cardsFor(uid){
+  if(CARDS_CACHE[uid]) return CARDS_CACHE[uid];
+  var u=UNITS[uid], out=[]; if(!u){ CARDS_CACHE[uid]=out; return out; }
+  (u.charts||[]).forEach(function(t,ci){
+    var cols=t.cols||[];
+    (t.rows||[]).forEach(function(r,ri){
+      if(!r[0]) return;
+      for(var j=1;j<r.length;j++){
+        if(!r[j] || !cols[j] || /^(none|n\/a|-)$/i.test(String(r[j]).trim())) continue;
+        out.push({id:uid+'|c'+ci+'|'+ri+'|'+j, unit:uid, ctx:t.title, front:r[0]+': '+cols[j]+'?', back:r[j], link:'c-'+ci});
+      }
+    });
+  });
+  (u.tricks||[]).forEach(function(t,ti){
+    out.push({id:uid+'|t'+ti, unit:uid, ctx:t.kind==='mnemonic'?'Mnemonic':'Study trick', front:t.label, back:t.text, link:'t-'+ti});
+  });
+  CARDS_CACHE[uid]=out; return out;
+}
+var fc = null; /* {title, deck:[ids], i, shown, known, missed:[], again:{}} */
+var fcSys = null, fcUnit = '', fcOnlyMissed = false;
+function cardById(id){ var uid=id.split('|')[0]; var L=cardsFor(uid); for(var i=0;i<L.length;i++) if(L[i].id===id) return L[i]; return null; }
+function shuffle(a){ for(var i=a.length-1;i>0;i--){ var j=Math.floor(Math.random()*(i+1)); var t=a[i]; a[i]=a[j]; a[j]=t; } return a; }
+function startCards(ids,title){ fc={title:title, deck:shuffle(ids.slice()), i:0, shown:false, known:0, missed:[], again:{}}; }
+var FC_NOTE = '<div class="fc-note"><strong>Flashcards help you remember facts quickly.</strong> The exam tests you with cases, so practicing case questions is still the best way to prepare. Use cards as a warm-up or a quick review, then go practice cases.</div>';
+VIEW.cards = function(arg){
+  var h='<div class="head"><p class="eyebrow">Quick recall</p><h1 tabindex="-1">Flash<span class="accent">cards</span></h1></div>'+FC_NOTE;
+  if(arg && UNITS[arg] && (!fc || fc.unitArg!==arg)){ startCards(cardsFor(arg).map(function(c){return c.id;}), arg+' '+COMP[arg].name); fc.unitArg=arg; }
+  if(fc && fc.i<fc.deck.length){
+    var c=cardById(fc.deck[fc.i]), n=fc.deck.length;
+    h+='<p class="note" aria-live="polite">'+esc(fc.title)+' · Card '+(fc.i+1)+' of '+n+'</p>';
+    h+='<div class="card fc"><p class="ctx">'+esc(c.ctx)+'</p><p class="front">'+esc(c.front)+'</p>'+
+      (fc.shown?'<div class="back" id="fc-back" tabindex="-1">'+esc(c.back)+'<p class="note" style="margin:.6rem 0 0"><a href="#study/'+esc(c.unit)+'/'+c.link+'">See it in the notes for '+esc(c.unit)+'</a></p></div>':'')+'</div>';
+    h+='<div class="row" style="margin-top:14px">'+(fc.shown?
+      '<button type="button" class="btn acc" data-act="fcknow">I knew it</button><button type="button" class="btn" data-act="fcmiss">Not yet</button>':
+      '<button type="button" class="btn acc" data-act="fcshow">Show the answer</button>')+
+      '<button type="button" class="btn ghost" data-act="fcquit">End this set</button></div>';
+    return h;
+  }
+  if(fc && fc.deck.length){
+    h+='<div class="card"><h2>Set done</h2><p>You knew '+fc.known+' of '+fc.deck.length+' on the first try.</p><div class="row">'+
+      (fc.missed.length?'<button type="button" class="btn acc" data-act="fcagain">Go over the '+fc.missed.length+' I missed</button>':'')+
+      '<a class="btn" href="#practice">Practice cases now</a><button type="button" class="btn ghost" data-act="fcquit">Pick another set</button></div></div>';
+    return h;
+  }
+  var sysList=SYS_ORDER.filter(function(code){ return ORDERED.some(function(c){ return c.systemCode===code && cardsFor(c.id).length; }); });
+  if(!fcSys || sysList.indexOf(fcSys)<0) fcSys=sysList[0];
+  var units=ORDERED.filter(function(c){ return c.systemCode===fcSys && cardsFor(c.id).length; });
+  h+='<form class="card" novalidate onsubmit="return false"><label class="field" for="fc-sys">System</label><select id="fc-sys" data-chg="fcsys">'+
+    sysList.map(function(code){ return '<option value="'+code+'"'+(code===fcSys?' selected':'')+'>'+esc(sysName(code))+'</option>'; }).join('')+'</select>'+
+    '<label class="field" for="fc-unit" style="margin-top:12px">Unit</label><select id="fc-unit" data-chg="fcunit"><option value="">All units in '+esc(sysName(fcSys))+'</option>'+
+    units.map(function(c){ return '<option value="'+esc(c.id)+'"'+(fcUnit===c.id?' selected':'')+'>'+esc(c.id+' '+c.name)+' ('+cardsFor(c.id).length+')</option>'; }).join('')+'</select>'+
+    '<div class="checks" style="margin-top:12px"><label for="fc-om"><input type="checkbox" id="fc-om" data-chg="fcom"'+(fcOnlyMissed?' checked':'')+'>Only cards I have missed before</label></div>'+
+    '<label class="field" for="fc-n" style="margin-top:12px">How many cards?</label><select id="fc-n">'+[10,20,40].map(function(k){return '<option>'+k+'</option>';}).join('')+'<option value="0">All</option></select>'+
+    '<p class="err" id="fc-err" role="alert"></p><button type="button" class="btn acc" data-act="fcstart" style="margin-top:12px">Start cards</button></form>';
+  return h;
+};
+
 /* brain dumps */
 var dumpUI = {tab:'comp', sys:null, focus:null};
+var scrollTarget = null;
 var spin = null, spinSys = null;
 VIEW.dumps = function(arg){
   if(arg && COMP[arg]){ dumpUI.tab='comp'; dumpUI.sys=COMP[arg].systemCode; dumpUI.focus=arg; }
@@ -999,7 +1097,7 @@ VIEW.practice = function(){
   var pool=practicePool();
   h+='<div class="grid g2" style="margin-top:12px"><div><label class="field" for="pb-n">How many cases? (1 to 25)</label><input type="number" id="pb-n" min="1" max="25" value="'+pb.n+'" data-chg="pbn" style="width:7rem"> <span class="note" id="pb-match">'+pool.length+' cases match</span></div>';
   h+='<fieldset><legend>Mode</legend><div class="radios">'+
-    '<label for="pb-m-t"><input type="radio" name="pbmode" id="pb-m-t" value="tutor" data-chg="pbmode"'+(pb.mode==='tutor'?' checked':'')+'>Tutor: feedback after each question</label>'+
+    '<label for="pb-m-t"><input type="radio" name="pbmode" id="pb-m-t" value="tutor" data-chg="pbmode"'+(pb.mode==='tutor'?' checked':'')+'>Teaching mode: explanation after each question</label>'+
     '<label for="pb-m-e"><input type="radio" name="pbmode" id="pb-m-e" value="exam" data-chg="pbmode"'+(pb.mode==='exam'?' checked':'')+'>Exam: feedback at the end</label></div></fieldset></div>';
   h+='<div class="steps-box" style="margin-bottom:12px"><label for="pb-timed"><input type="checkbox" id="pb-timed" data-chg="pbtimed"'+(pb.timed?' checked':'')+'>Timed (90 seconds per question)</label></div>';
   h+='<div class="row"><button type="button" class="btn acc" data-act="pbstart"'+(pool.length?'':' disabled')+'>Start practice set</button>'+(S.sessions.practice?'<span class="note">Starting a new set replaces the one in progress.</span>':'')+'</div>';
@@ -1039,7 +1137,7 @@ VIEW.take = function(key){
   var caseIx=0, seenC=[]; for(var i=0;i<=ss.cur;i++){ if(seenC.indexOf(ss.items[i].c)<0) seenC.push(ss.items[i].c); } caseIx=seenC.length;
   var nCases=[]; ss.items.forEach(function(x){ if(nCases.indexOf(x.c)<0) nCases.push(x.c); });
   var qInPart=ss.cur-part[0]+1, nPart=part[1]-part[0];
-  var h='<div class="head" style="margin-bottom:12px"><p class="eyebrow">'+esc(ss.mode==='tutor'?'Tutor mode':'Exam mode')+(ss.parts.length>1?' · Session '+(ss.part+1)+' of 2':'')+'</p><h1 tabindex="-1" style="font-size:clamp(1.3rem,3vw,1.8rem)">'+esc(ss.title)+'</h1></div>';
+  var h='<div class="head" style="margin-bottom:12px"><p class="eyebrow">'+esc(ss.mode==='tutor'?'Teaching mode':'Exam mode')+(ss.parts.length>1?' · Session '+(ss.part+1)+' of 2':'')+'</p><h1 tabindex="-1" style="font-size:clamp(1.3rem,3vw,1.8rem)">'+esc(ss.title)+'</h1></div>';
   h+='<div class="q-top"><span class="note">Case '+caseIx+' of '+nCases.length+'</span>';
   if(ss.timed){
     var hid=!!S.settings.hideClock;
@@ -1102,6 +1200,7 @@ function reviewBody(it,q,a,lv){
   h+='<'+hN+'>Why the others are wrong</'+hN+'><ul>';
   it.p.forEach(function(orig,di){ if(orig!==q.answer) h+='<li><strong>'+'ABCD'[di]+'. '+esc(q.options[orig])+':</strong> '+esc((q.whyNot||[])[orig]||'')+'</li>'; });
   h+='</ul>';
+  h+=taughtHTML(q,hN);
   if(q.study){
     var comps=[]; (q.study.comps||[]).forEach(function(k){ var u=unitOf(k); if(u && comps.indexOf(u)<0) comps.push(u); });
     h+='<'+hN+'>Study next</'+hN+'>';
@@ -1417,8 +1516,8 @@ VIEW.diagnostic = function(){
 };
 
 /* ---------------- router ---------------- */
-var NAV_FOR = {path:'path',week:'path',subjects:'subjects',subject:'subjects',predict:'dashboard',study:'path',dumps:'dumps',practice:'practice',exams:'exams',dashboard:'dashboard',diagnostic:'diagnostic'};
-var TITLES = {path:'Your path',week:'Week',subjects:'Subjects',subject:'Subject',predict:'Predicted result',study:'Study unit',dumps:'Brain dumps',practice:'Practice',exams:'Full exams',dashboard:'Dashboard',diagnostic:'Diagnostic',take:'Question',results:'Results'};
+var NAV_FOR = {path:'path',week:'path',subjects:'subjects',subject:'subjects',predict:'dashboard',study:'path',dumps:'dumps',cards:'cards',practice:'practice',exams:'exams',dashboard:'dashboard',diagnostic:'diagnostic'};
+var TITLES = {path:'Your path',week:'Week',subjects:'Subjects',subject:'Subject',predict:'Predicted result',study:'Study unit',dumps:'Brain dumps',cards:'Flashcards',practice:'Practice',exams:'Full exams',dashboard:'Dashboard',diagnostic:'Diagnostic',take:'Question',results:'Results'};
 var lastRoute='';
 function route(keepFocus){
   var h=decodeURIComponent(location.hash.slice(1))||'path';
@@ -1444,6 +1543,11 @@ function route(keepFocus){
     announce((TITLES[v]||'')+' opened. '+(h1?h1.textContent:''));
     if(v==='dumps' && dumpUI.focus){ var el=document.getElementById('du-'+dumpUI.focus); if(el) el.scrollIntoView(); dumpUI.focus=null; }
   } else if(!first) window.scrollTo(0,y);
+  if(scrollTarget && v==='study'){
+    var tg=document.getElementById(scrollTarget); scrollTarget=null;
+    if(tg){ var pn=tg.closest('.panel'); if(pn && pn.classList.contains('hide')){ pn.classList.remove('hide'); var bt=main.querySelector('[aria-controls="'+pn.id+'"]'); if(bt) bt.setAttribute('aria-expanded','true'); }
+      tg.classList.add('flash'); tg.scrollIntoView({block:'start'}); tg.focus({preventScroll:true}); setTimeout(function(){ tg.classList.remove('flash'); },2600); }
+  }
   setTimeout(postHeight,30);
 }
 function rerender(){ route(true); }
@@ -1460,6 +1564,12 @@ main.addEventListener('change',function(e){
   var fn=CHG[act]; if(fn) fn(t,e);
 });
 
+function fcMark(ok){
+  var id=fc.deck[fc.i], r=S.cards[id]=S.cards[id]||{k:0,m:0};
+  if(ok){ r.k++; r.last='k'; if(!fc.again[id]) fc.known++; } else { r.m++; r.last='m'; if(fc.missed.indexOf(id)<0) fc.missed.push(id); fc.again[id]=1; }
+  save(); fc.i++; fc.shown=false; rerender();
+  var b=main.querySelector('[data-act="fcshow"],[data-act="fcagain"],a.btn'); if(b) b.focus();
+}
 function curSession(){ var f=document.getElementById('qform'); return f ? S.sessions[f.getAttribute('data-key')] : null; }
 function curKey(){ var f=document.getElementById('qform'); return f ? f.getAttribute('data-key') : null; }
 function moveTo(ss,i){
@@ -1470,6 +1580,18 @@ function moveTo(ss,i){
   announce('Question '+(ss.cur-part[0]+1)+' of '+(part[1]-part[0]));
 }
 var ACT = {
+  fcstart:function(){
+    var ids=[]; var us=fcUnit?[fcUnit]:ORDERED.filter(function(c){return c.systemCode===fcSys;}).map(function(c){return c.id;});
+    us.forEach(function(u){ cardsFor(u).forEach(function(c){ if(!fcOnlyMissed || (S.cards[c.id]&&S.cards[c.id].m>0&&S.cards[c.id].last!=='k')) ids.push(c.id); }); });
+    var err=document.getElementById('fc-err');
+    if(!ids.length){ err.textContent=fcOnlyMissed?'No missed cards here yet.':'No cards here yet.'; return; }
+    var n=+document.getElementById('fc-n').value; startCards(ids, fcUnit?fcUnit+' '+COMP[fcUnit].name:sysName(fcSys)); if(n) fc.deck=fc.deck.slice(0,n);
+    rerender(); var b=main.querySelector('[data-act="fcshow"]'); if(b) b.focus(); },
+  fcshow:function(){ fc.shown=true; rerender(); var b=document.getElementById('fc-back'); if(b) b.focus(); },
+  fcknow:function(){ fcMark(true); },
+  fcmiss:function(){ fcMark(false); },
+  fcagain:function(){ startCards(fc.missed, fc.title+' (missed)'); rerender(); var b=main.querySelector('[data-act="fcshow"]'); if(b) b.focus(); },
+  fcquit:function(){ fc=null; if(location.hash!=='#cards') go('cards'); else rerender(); },
   toggle:function(b){
     var exp=b.getAttribute('aria-expanded')==='true', p=document.getElementById(b.getAttribute('aria-controls'));
     b.setAttribute('aria-expanded',exp?'false':'true'); if(p) p.classList.toggle('hide',exp);
@@ -1591,6 +1713,9 @@ function endPart(key){
   finishSession(key);
 }
 var CHG = {
+  fcsys:function(t){ fcSys=t.value; fcUnit=''; rerender(); focusSel('#fc-sys'); },
+  fcunit:function(t){ fcUnit=t.value; },
+  fcom:function(t){ fcOnlyMissed=t.checked; },
   step:function(t){
     var id=t.getAttribute('data-unit'), u=U(id); u.steps[t.getAttribute('data-step')]=t.checked; if(t.checked) u.lastStudied=today(); save();
     announce((t.checked?'Marked done: ':'Unmarked: ')+t.parentNode.textContent.trim());
