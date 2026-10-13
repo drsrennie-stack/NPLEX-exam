@@ -1,0 +1,1570 @@
+[
+ {
+  "id": "IN-C31",
+  "system": "IN",
+  "dx": "Cystic fibrosis diagnosed by sweat chloride testing in an infant with salty-tasting skin and poor growth",
+  "codes": [
+   "IN-3"
+  ],
+  "case": "A 5-month-old girl is brought to the physician because of poor weight gain and frequent loose stools. Her parents say her skin tastes salty when they kiss her. She was born at term after an uncomplicated pregnancy and passes three to five bulky, greasy, foul-smelling stools daily. Her temperature is 37.0 °C (98.6 °F), pulse is 132/min, respirations are 38/min, and blood pressure is 88/54 mm Hg. Her weight is below the 3rd percentile. Physical examination shows reduced subcutaneous fat and scattered crackles at both lung bases. Sweat chloride concentration after pilocarpine iontophoresis is 96 mmol/L (29 or less is normal; 60 or higher is consistent with cystic fibrosis), and a repeat test gives the same result. Genetic testing shows homozygous F508del variants of CFTR. Diagnosis: cystic fibrosis.",
+  "questions": [
+   {
+    "id": "IN-C31-Q1",
+    "stem": "In her airway epithelium, the CFTR defect reduces chloride secretion into the airway lumen. Which of the following best explains why the same defect raises the chloride concentration of her sweat?",
+    "options": [
+     "Increased water reabsorption from the sweat duct",
+     "Increased chloride secretion by the secretory coil",
+     "Failed chloride reabsorption in the sweat duct",
+     "Increased sodium secretion into the sweat duct lumen"
+    ],
+    "answer": 2,
+    "sea": "P",
+    "comp": "IN-3",
+    "obj": "IN-3.7",
+    "dok": 3,
+    "approach": [
+     "Note the opposite directions: CFTR secretes chloride in the airway but reabsorbs it in the sweat duct.",
+     "Recall that the secretory coil makes primary sweat with a salt content close to plasma, and the duct then reabsorbs sodium chloride while letting little water follow.",
+     "If CFTR cannot carry chloride out of the duct lumen, chloride stays in the sweat, and sodium reabsorption falls with it."
+    ],
+    "why": "Primary sweat made in the secretory coil has a sodium chloride content close to plasma. As it flows up the duct, chloride is reabsorbed through CFTR and sodium through ENaC, and the duct lets little water follow, so normal sweat reaching the skin is hypotonic. In cystic fibrosis, chloride cannot leave the duct lumen, sodium reabsorption falls with it, and sweat chloride rises to 60 mmol/L or higher. The airway shows the reverse problem: CFTR normally secretes chloride into the airway lumen, and loss of that secretion leaves thick, dehydrated mucus.",
+    "whyNot": [
+     "The sweat duct is nearly impermeable to water, and extra water reabsorption is not the mechanism. The high chloride reflects salt left behind in the duct.",
+     "The secretory coil still makes primary sweat normally in cystic fibrosis. The problem is in the duct, where chloride should be taken back.",
+     "Correct.",
+     "The duct reabsorbs sodium through ENaC rather than secreting it. In cystic fibrosis, sodium reabsorption in the sweat duct falls along with chloride, so sweat sodium also rises."
+    ],
+    "study": {
+     "topics": [
+      "CFTR in the sweat duct versus the airway",
+      "Sweat chloride testing"
+     ],
+     "comps": [
+      "IN-3",
+      "IN-1"
+     ]
+    }
+   },
+   {
+    "id": "IN-C31-Q2",
+    "stem": "Assume a sweat duct cell has an intracellular chloride concentration of 10 mmol/L and an extracellular chloride concentration of 100 mmol/L. At body temperature, the value of 2.303RT/F is about 61 mV. Which of the following is closest to the chloride equilibrium potential of this cell?",
+    "options": [
+     "-122 mV",
+     "-61 mV",
+     "+61 mV",
+     "+122 mV"
+    ],
+    "answer": 1,
+    "sea": "P",
+    "comp": "IN-3",
+    "obj": "IN-3.5",
+    "dok": 3,
+    "approach": [
+     "Write the Nernst equation: E = (61 mV / z) x log (outside concentration / inside concentration).",
+     "Chloride has a valence of -1, so the sign flips: E = -61 mV x log (100/10).",
+     "The log of 10 is 1, so E is about -61 mV."
+    ],
+    "why": "The Nernst equation gives the membrane potential at which an ion's electrical and chemical driving forces balance. For chloride, z = -1, so E = -61 mV x log (100/10) = -61 mV. An inside-negative potential pushes the negatively charged chloride outward, which balances its tendency to diffuse inward down the 10-fold gradient. When a cell's membrane potential is less negative than this value, opening chloride channels lets chloride enter and pulls the potential toward -61 mV.",
+    "whyNot": [
+     "This doubles the answer, as if chloride carried two charges. Chloride has a valence of -1.",
+     "Correct.",
+     "This has the right size but the wrong sign. A positive value would fit a monovalent cation that is 10 times more concentrated outside the cell, such as sodium in this example.",
+     "This has the wrong sign and twice the size. No correct use of the Nernst equation for chloride gives this value."
+    ],
+    "study": {
+     "topics": [
+      "Nernst equation for anions",
+      "Resting membrane potential"
+     ],
+     "comps": [
+      "IN-3"
+     ]
+    }
+   },
+   {
+    "id": "IN-C31-Q3",
+    "stem": "Her sweat for testing was collected from the skin of the flexor forearm, an area with only fine vellus hair. Which of the following best describes the glands that produced this sweat?",
+    "options": [
+     "Modified apocrine glands of the eyelid margins",
+     "Glands opening into axillary and anogenital hair follicles",
+     "Holocrine glands emptying into the follicular canal",
+     "Coiled dermal glands opening directly onto the skin"
+    ],
+    "answer": 3,
+    "sea": "A",
+    "comp": "IN-1",
+    "obj": "IN-1.6",
+    "dok": 2,
+    "approach": [
+     "Identify the site: forearm skin, away from the axilla and anogenital region.",
+     "Recall that eccrine glands cover nearly all skin and make the watery sweat used in sweat testing.",
+     "Describe eccrine anatomy: a coiled secretory portion deep in the dermis and a duct that opens directly onto the skin surface."
+    ],
+    "why": "Eccrine glands are found over almost the entire body surface and make the watery, salty sweat used for cooling and for the sweat chloride test. Each has a coiled secretory portion in the deep dermis or upper subcutis and a duct that spirals through the epidermis to open on the surface, separate from hair follicles. They are driven by sympathetic fibers that release acetylcholine, which is why the muscarinic agonist pilocarpine is used to make the skin sweat for the test.",
+    "whyNot": [
+     "Glands of Moll are modified apocrine glands found only along the eyelid margins. They are not present on the forearm.",
+     "These are apocrine glands, which empty into hair follicles of the axillae and anogenital region and make a thicker, protein-rich secretion that bacteria turn into body odor. They are not the source of forearm sweat.",
+     "This describes sebaceous glands, which release sebum by holocrine secretion into hair follicles. They make lipid, not sweat, and they are the glands involved in acne.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Eccrine, apocrine, and sebaceous glands"
+     ],
+     "comps": [
+      "IN-1",
+      "IN-3"
+     ]
+    }
+   },
+   {
+    "id": "IN-C31-Q4",
+    "stem": "At 8 years of age, she has been taking her pancreatic enzyme capsules irregularly. She now has rough, keratotic papules centered on hair follicles of the extensor arms and thighs, generalized dry skin, and trouble seeing in dim light. Deficiency of which of the following is most likely?",
+    "options": [
+     "Vitamin A",
+     "Biotin",
+     "Riboflavin",
+     "Zinc"
+    ],
+    "answer": 0,
+    "sea": "B",
+    "comp": "IN-5",
+    "obj": "IN-5.4",
+    "dok": 3,
+    "approach": [
+     "Link poor use of enzyme replacement to fat malabsorption from pancreatic insufficiency.",
+     "Fat malabsorption causes deficiency of the fat-soluble vitamins A, D, E, and K.",
+     "Match follicular hyperkeratosis, dry skin, and poor night vision to vitamin A."
+    ],
+    "why": "Without pancreatic lipase, dietary fat and the fat-soluble vitamins are poorly absorbed. Vitamin A, acting as retinoic acid, is needed for normal keratinocyte differentiation, so deficiency causes follicular hyperkeratosis (phrynoderma) and dry skin. Retinal is part of rhodopsin in the rods, so night blindness is often the earliest eye sign. Vitamins D, E, and K are also at risk in cystic fibrosis.",
+    "whyNot": [
+     "Correct.",
+     "Biotin deficiency causes periorificial dermatitis and alopecia and is classically linked to eating raw egg whites (avidin) or long-term parenteral nutrition. Biotin is water soluble and does not cause night blindness.",
+     "Riboflavin deficiency causes angular cheilitis, glossitis, and seborrheic-like dermatitis. It is water soluble and does not explain night blindness.",
+     "Zinc deficiency causes eruptions around the mouth and anus and on the hands and feet, with alopecia and diarrhea. It does not produce follicular keratotic papules with poor night vision."
+    ],
+    "study": {
+     "topics": [
+      "Fat-soluble vitamin deficiency in cystic fibrosis",
+      "Skin signs of vitamin A deficiency"
+     ],
+     "comps": [
+      "IN-5"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "IN-C32",
+  "system": "IN",
+  "dx": "Heterozygous familial hypercholesterolemia with Achilles tendon xanthomas and xanthelasma",
+  "codes": [
+   "IN-5"
+  ],
+  "case": "A 38-year-old man comes to the physician for a routine examination. His father died of a myocardial infarction at 46 years of age. He does not smoke. His temperature is 36.8 °C (98.2 °F), pulse is 70/min, respirations are 14/min, and blood pressure is 126/80 mm Hg. Physical examination shows soft yellow plaques on the medial upper eyelids and firm, nontender nodular thickening of both Achilles tendons. Fasting serum studies show total cholesterol of 342 mg/dL (less than 200), LDL cholesterol of 268 mg/dL (less than 130), HDL cholesterol of 46 mg/dL (40 or higher), and triglycerides of 140 mg/dL (less than 150). Genetic testing shows a heterozygous loss-of-function variant in the LDL receptor gene. Diagnosis: heterozygous familial hypercholesterolemia with tendon xanthomas and xanthelasma.",
+  "questions": [
+   {
+    "id": "IN-C32-Q1",
+    "stem": "His coworker has crops of small yellow papules with red halos over the buttocks and extensor arms. The coworker's fasting serum triglyceride concentration is 2,800 mg/dL (less than 150), and a creamy layer forms on top of his serum after overnight refrigeration. A defect in which of the following is most likely in the coworker?",
+    "options": [
+     "LDL receptor",
+     "Lipoprotein lipase",
+     "Apolipoprotein B-100",
+     "Microsomal triglyceride transfer protein"
+    ],
+    "answer": 1,
+    "sea": "B",
+    "comp": "IN-5",
+    "obj": "IN-5.7",
+    "dok": 3,
+    "approach": [
+     "Eruptive xanthomas with very high triglycerides point to chylomicronemia.",
+     "A creamy layer on refrigerated serum confirms excess chylomicrons.",
+     "Chylomicrons build up when lipoprotein lipase, or its activator apoC-II, fails to clear their triglyceride."
+    ],
+    "why": "Eruptive xanthomas appear as crops of small yellow papules with a red base, usually on the buttocks and extensor surfaces, when triglycerides are very high, often above 1,000 to 2,000 mg/dL. Lipoprotein lipase on capillary endothelium hydrolyzes the triglyceride in chylomicrons and VLDL and needs apoC-II as its activator. Loss of either leaves chylomicrons in plasma, and they float as a creamy layer. The patient's own tendon xanthomas and xanthelasma instead reflect high LDL from loss of LDL receptor function.",
+    "whyNot": [
+     "LDL receptor loss raises LDL with near-normal triglycerides and gives tendon xanthomas and xanthelasma, as in the patient himself. It does not cause eruptive xanthomas.",
+     "Correct.",
+     "Defective apoB-100 binds poorly to the LDL receptor and mimics familial hypercholesterolemia, with high LDL and tendon xanthomas. It does not cause chylomicronemia.",
+     "Loss of microsomal triglyceride transfer protein causes abetalipoproteinemia, in which chylomicrons and VLDL cannot be assembled. Plasma lipids are very low, with fat malabsorption and acanthocytes."
+    ],
+    "study": {
+     "topics": [
+      "Xanthoma types and lipid disorders",
+      "Lipoprotein lipase and apoC-II"
+     ],
+     "comps": [
+      "IN-5"
+     ]
+    }
+   },
+   {
+    "id": "IN-C32-Q2",
+    "stem": "Macrophages in his xanthomas take up large amounts of cholesterol, and some of it enters their plasma membranes. At body temperature, raising the cholesterol content of a phospholipid bilayer has which of the following effects?",
+    "options": [
+     "More fluid and less permeable to small polar molecules",
+     "More fluid and more permeable to small polar molecules",
+     "Less fluid and more permeable to small polar molecules",
+     "Less fluid and less permeable to small polar molecules"
+    ],
+    "answer": 3,
+    "sea": "P",
+    "comp": "IN-3",
+    "obj": "IN-3.1",
+    "dok": 2,
+    "approach": [
+     "Picture cholesterol's rigid steroid rings lying beside the fatty acid tails, close to the phospholipid head groups.",
+     "At body temperature the rings limit tail movement, which lowers fluidity and tightens the bilayer.",
+     "A tighter bilayer lets fewer small water-soluble molecules slip through."
+    ],
+    "why": "Cholesterol acts as a fluidity buffer. At body temperature its flat, rigid ring system holds still the first segments of nearby fatty acid tails, which makes the membrane less fluid and less permeable to small water-soluble molecules. At low temperatures it does the opposite, keeping tails from packing into a stiff gel. Unsaturated fatty acids, with kinks from cis double bonds, push tails apart and raise fluidity.",
+    "whyNot": [
+     "Cholesterol makes the membrane less fluid at body temperature. It raises fluidity only at low temperatures, by keeping the tails from crystallizing.",
+     "This describes adding unsaturated fatty acids with cis double bonds, which loosen packing. Cholesterol has the opposite effect at body temperature.",
+     "Fluidity and passive permeability change together in a bilayer. A stiffer, tighter membrane lets fewer small polar molecules cross.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Membrane cholesterol and fluidity"
+     ],
+     "comps": [
+      "IN-3"
+     ]
+    }
+   },
+   {
+    "id": "IN-C32-Q3",
+    "stem": "In healthy persons, hepatocytes clear LDL particles from plasma by binding their apolipoprotein B-100. LDL particles are about 20 to 25 nm in diameter. By which of the following mechanisms do these particles normally enter hepatocytes?",
+    "options": [
+     "Endocytosis in clathrin-coated pits",
+     "Facilitated diffusion through a carrier",
+     "Sodium-coupled secondary active transport",
+     "Simple diffusion across the lipid bilayer"
+    ],
+    "answer": 0,
+    "sea": "P",
+    "comp": "IN-3",
+    "obj": "IN-3.2",
+    "dok": 2,
+    "approach": [
+     "Note the size: an LDL particle is far too large for any carrier or channel.",
+     "Large particles bound to surface receptors enter by receptor-mediated endocytosis.",
+     "This route is saturable and needs energy, and it moves particles into the cell inside vesicles."
+    ],
+    "why": "LDL binds the LDL receptor through apoB-100. The receptors cluster in clathrin-coated pits that pinch off as vesicles, and the vesicles fuse with endosomes, where the acidic pH releases LDL so the receptor can recycle to the surface. Cholesterol esters are then freed in lysosomes. Uptake is saturable because receptor number is limited, and vesicle formation needs energy. In this patient, about half the normal number of working receptors slows LDL clearance and raises plasma LDL.",
+    "whyNot": [
+     "Correct.",
+     "Facilitated diffusion uses carriers such as GLUT transporters to move small solutes like glucose down their gradients. A carrier cannot move a lipoprotein particle.",
+     "Secondary active transport, such as SGLT1, moves small solutes against a gradient using the sodium gradient. Lipoprotein particles are far too large for this.",
+     "Simple diffusion works for small lipid-soluble molecules such as oxygen, carbon dioxide, and steroid hormones. A 20-nm particle wrapped in protein cannot cross the bilayer this way."
+    ],
+    "study": {
+     "topics": [
+      "Receptor-mediated endocytosis of LDL",
+      "Membrane transport types"
+     ],
+     "comps": [
+      "IN-3",
+      "IN-5"
+     ]
+    }
+   },
+   {
+    "id": "IN-C32-Q4",
+    "stem": "A biopsy specimen of an eyelid plaque shows clusters of lipid-laden foamy macrophages in the upper dermis, filling the dermal papillae just beneath the epidermis. Which of the following best describes the normal tissue of this dermal layer?",
+    "options": [
+     "Lobules of adipocytes separated by fibrous septa",
+     "Dense irregular connective tissue with thick collagen bundles",
+     "Loose connective tissue with capillary loops",
+     "Dense regular connective tissue with parallel collagen fibers"
+    ],
+    "answer": 2,
+    "sea": "A",
+    "comp": "IN-1",
+    "obj": "IN-1.5",
+    "dok": 2,
+    "approach": [
+     "Locate the lesion: the uppermost dermis, inside the dermal papillae, is the papillary dermis.",
+     "Recall its structure: loose connective tissue with fine collagen, rich capillary loops, and, in hairless skin, Meissner corpuscles.",
+     "Contrast it with the dense reticular dermis below and the fatty hypodermis beneath that."
+    ],
+    "why": "The papillary dermis is a thin layer of loose connective tissue that fills the dermal papillae between rete ridges. It holds fine collagen fibers, capillary loops that nourish the epidermis, and, in hairless skin such as the fingertips, Meissner corpuscles for light touch. Xanthelasma is made of foamy macrophages in the superficial dermis of the eyelid. The reticular dermis below is dense irregular connective tissue that gives skin most of its strength.",
+    "whyNot": [
+     "This is the hypodermis (subcutis), below the dermis, which stores fat and contains Pacinian corpuscles. It is the site of panniculitis such as erythema nodosum.",
+     "This describes the reticular dermis, the thicker layer beneath the papillary dermis that gives skin most of its tensile strength.",
+     "Correct.",
+     "Dense regular connective tissue with parallel collagen bundles forms tendons and ligaments, including the Achilles tendon where his tendon xanthomas lie. It is not a layer of the dermis."
+    ],
+    "study": {
+     "topics": [
+      "Papillary dermis, reticular dermis, and hypodermis"
+     ],
+     "comps": [
+      "IN-1"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "IN-C33",
+  "system": "IN",
+  "dx": "Porphyria cutanea tarda with chronic hepatitis C and alcohol use",
+  "codes": [
+   "IN-5"
+  ],
+  "case": "A 52-year-old man comes to the physician because of a 4-month history of blisters on the backs of his hands that appear after time outdoors. Minor bumps tear the skin of his hands. He has chronic hepatitis C infection and drinks six to eight cans of beer daily. Vital signs are within normal limits. Physical examination shows tense vesicles, erosions, and healed atrophic scars on the dorsal hands, and increased fine dark hair over the temples and cheeks. Serum ferritin concentration is 940 ng/mL (24 to 336), and transferrin saturation is 62% (20 to 50). Urine uroporphyrin excretion is markedly increased. Diagnosis: porphyria cutanea tarda.",
+  "questions": [
+   {
+    "id": "IN-C33-Q1",
+    "stem": "Which of the following best explains why his blisters are confined to sun-exposed skin?",
+    "options": [
+     "UV-induced autoantibody binding at the basement membrane",
+     "UVB-induced pyrimidine dimers in basal keratinocytes",
+     "Sunlight-triggered histamine release from dermal mast cells",
+     "Photoexcited porphyrins forming reactive oxygen species"
+    ],
+    "answer": 3,
+    "sea": "B",
+    "comp": "IN-5",
+    "obj": "IN-5.8",
+    "dok": 3,
+    "approach": [
+     "Link uroporphyrinogen decarboxylase deficiency to buildup of uroporphyrin and related porphyrins in liver, plasma, and skin.",
+     "Porphyrins absorb visible light strongly near 400 nm, light that passes through window glass and reaches the dermis.",
+     "Excited porphyrins pass energy to oxygen, forming reactive oxygen species that damage the dermal-epidermal junction and small vessels."
+    ],
+    "why": "Low hepatic uroporphyrinogen decarboxylase activity lets uroporphyrinogen and other highly carboxylated porphyrinogens build up. They oxidize to porphyrins, which circulate and deposit in the skin. Porphyrins absorb visible light, especially near 400 nm, and the excited molecules generate singlet oxygen and other reactive oxygen species. The damage in the upper dermis and basement membrane zone makes the skin fragile and produces blisters on light-exposed areas. Alcohol, hepatitis C, iron overload, and estrogen all lower hepatic enzyme activity further, and many of them act by increasing hepatic iron and oxidative stress.",
+    "whyNot": [
+     "Autoantibodies at the basement membrane cause bullous pemphigoid and epidermolysis bullosa acquisita. These diseases are not caused by light, and his porphyrin excess explains the sun-exposed pattern.",
+     "UVB forms pyrimidine dimers that, when unrepaired, cause sunburn, mutation, and skin cancer, as in xeroderma pigmentosum. Dimers do not cause blistering with fragility and increased facial hair.",
+     "Light-triggered mast cell histamine release explains solar urticaria, with wheals within minutes of exposure that fade within hours. It does not cause blisters that heal with scars.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Porphyria cutanea tarda mechanism",
+      "Heme synthesis enzymes"
+     ],
+     "comps": [
+      "IN-5",
+      "IN-6"
+     ]
+    }
+   },
+   {
+    "id": "IN-C33-Q2",
+    "stem": "He also has a 2-cm, firm, mobile, dome-shaped nodule on his upper back with a small central pore. It is excised. Which of the following histologic findings is most likely?",
+    "options": [
+     "Granular layer lining with loose laminated keratin",
+     "Lining without a granular layer, with compact keratin",
+     "Mature adipocyte lobules within a thin capsule",
+     "Basaloid nests with peripheral nuclear palisading"
+    ],
+    "answer": 0,
+    "sea": "X",
+    "comp": "IN-13-F",
+    "obj": "IN-13-F.5",
+    "dok": 2,
+    "approach": [
+     "A firm, mobile dermal nodule with a central pore on the trunk suggests an epidermal inclusion cyst.",
+     "Its wall copies the surface epidermis, including a granular layer, and it fills with loose, layered keratin.",
+     "Contrast the trichilemmal cyst of the scalp, whose wall lacks a granular layer and makes dense, compact keratin."
+    ],
+    "why": "An epidermal inclusion cyst forms when surface epidermis, often from the upper part of a hair follicle, becomes trapped in the dermis. Its wall is stratified squamous epithelium with a granular layer, and it fills with layered flakes of keratin, the cheesy material that comes out when it is squeezed. If the cyst ruptures, the keratin triggers a foreign body giant cell reaction, and the lesion becomes red and painful.",
+    "whyNot": [
+     "Correct.",
+     "A wall without a granular layer that makes dense, compact keratin is a trichilemmal (pilar) cyst. Most occur on the scalp, and they have no central pore.",
+     "Mature fat in a thin capsule is a lipoma, a soft, mobile subcutaneous mass without a central pore.",
+     "Basaloid nests with peripheral palisading describe basal cell carcinoma, which presents as a pearly papule with telangiectasias on sun-exposed skin."
+    ],
+    "study": {
+     "topics": [
+      "Epidermal inclusion cyst versus trichilemmal cyst",
+      "Lipoma"
+     ],
+     "comps": [
+      "IN-13-F",
+      "IN-1"
+     ]
+    }
+   },
+   {
+    "id": "IN-C33-Q3",
+    "stem": "His sister has similar blisters and scars on the backs of her hands, but her urine and plasma porphyrin levels are normal. She has circulating IgG autoantibodies against type VII collagen. At which of the following levels does her skin most likely split?",
+    "options": [
+     "Within the basal keratinocytes",
+     "Within the lamina lucida",
+     "Beneath the lamina densa",
+     "Above the basal cell layer"
+    ],
+    "answer": 2,
+    "sea": "A",
+    "comp": "IN-1",
+    "obj": "IN-1.4",
+    "dok": 3,
+    "approach": [
+     "Locate type VII collagen: it forms the anchoring fibrils that hang from the lamina densa into the papillary dermis.",
+     "Antibodies that disable the anchoring fibrils detach the lamina densa from the dermis.",
+     "The split therefore lies beneath the lamina densa, and the basement membrane stays with the blister roof."
+    ],
+    "why": "From top to bottom, the dermal-epidermal junction has the basal keratinocyte hemidesmosomes, the lamina lucida crossed by anchoring filaments of collagen XVII and laminin 332, the lamina densa made of type IV collagen, and type VII collagen anchoring fibrils that tie the lamina densa to the dermis. Autoantibodies to type VII collagen cause epidermolysis bullosa acquisita, which splits beneath the lamina densa and can look like porphyria cutanea tarda on the hands. Splits this deep heal with scars and milia, the same pattern seen in dystrophic epidermolysis bullosa from type VII collagen mutations.",
+    "whyNot": [
+     "Splitting through basal keratinocytes occurs in epidermolysis bullosa simplex from keratin 5 or 14 mutations, which weaken the basal cell cytoskeleton.",
+     "A split in the lamina lucida follows damage to collagen XVII (BP180) or laminin 332, as in bullous pemphigoid and junctional epidermolysis bullosa.",
+     "Correct.",
+     "A split just above the basal layer, with acantholysis, is pemphigus vulgaris, caused by antibodies to desmoglein 3 in desmosomes."
+    ],
+    "study": {
+     "topics": [
+      "Dermal-epidermal junction layers",
+      "Epidermolysis bullosa acquisita"
+     ],
+     "comps": [
+      "IN-1",
+      "IN-13-D"
+     ]
+    }
+   },
+   {
+    "id": "IN-C33-Q4",
+    "stem": "A liver biopsy specimen from this patient shows coarse golden-brown granules in periportal hepatocytes and Kupffer cells. Which of the following is the most likely identity of this pigment?",
+    "options": [
+     "Lipofuscin from lipid peroxidation",
+     "Hemosiderin from stored iron",
+     "Bilirubin from heme breakdown",
+     "Melanin from tyrosine oxidation"
+    ],
+    "answer": 1,
+    "sea": "X",
+    "comp": "IN-8",
+    "obj": "IN-8.5",
+    "dok": 2,
+    "approach": [
+     "Use the clinical clue: his ferritin and transferrin saturation are high, so the liver is iron loaded.",
+     "Coarse golden-brown granules in hepatocytes and Kupffer cells of an iron-loaded liver are hemosiderin.",
+     "The Prussian blue reaction would confirm it by staining the iron blue."
+    ],
+    "why": "Hemosiderin is aggregated, partly broken-down ferritin that forms when cells hold more iron than ferritin alone can store. It appears as coarse golden-brown granules and turns blue with the Prussian blue reaction. Hepatic iron overload is common in porphyria cutanea tarda, sometimes with HFE gene variants, and the extra iron helps inhibit hepatic uroporphyrinogen decarboxylase.",
+    "whyNot": [
+     "Lipofuscin is a fine yellow-brown wear-and-tear pigment from peroxidized membrane lipids, found near the nuclei of aging liver cells, heart muscle, and neurons. It is Prussian blue negative and does not reflect iron overload.",
+     "Correct.",
+     "Bilirubin appears as green-brown plugs in bile canaliculi and hepatocytes in cholestasis. His findings point to iron overload.",
+     "Melanin is made by melanocytes, not liver cells, and it stains black with the Fontana-Masson method. It is not stored in hepatocytes."
+    ],
+    "study": {
+     "topics": [
+      "Endogenous pigments and their stains",
+      "Hemosiderin"
+     ],
+     "comps": [
+      "IN-8",
+      "IN-5"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "IN-C34",
+  "system": "IN",
+  "dx": "Xeroderma pigmentosum with early cutaneous squamous cell carcinoma in a child",
+  "codes": [
+   "IN-7",
+   "IN-13-G2"
+  ],
+  "case": "A 9-year-old boy is brought to the physician because of a growing sore on his nose. Since infancy he has had severe sunburns after only minutes in the sun, and he had many freckles on his face and arms by 2 years of age. His parents are first cousins and are unaffected. Physical examination shows dry, thin, mottled skin with many freckles and telangiectasias on sun-exposed areas and a 1.4-cm crusted, ulcerated nodule on the left nasal ala. He has photophobia and conjunctival injection. A biopsy specimen of the nodule shows invasive squamous cell carcinoma. Cultured skin fibroblasts show markedly reduced DNA repair synthesis after ultraviolet irradiation. Diagnosis: xeroderma pigmentosum.",
+  "questions": [
+   {
+    "id": "IN-C34-Q1",
+    "stem": "Which of the following DNA repair processes is most likely defective in this patient?",
+    "options": [
+     "Excision of a short strand segment around a bulky lesion",
+     "Removal of a single damaged base by a glycosylase",
+     "Correction of base mismatches left after replication",
+     "Rejoining of double-strand breaks using a sister chromatid"
+    ],
+    "answer": 0,
+    "sea": "B",
+    "comp": "IN-7",
+    "obj": "IN-7.2",
+    "dok": 3,
+    "approach": [
+     "Severe sun sensitivity, early freckling, and childhood skin cancer in a child of related parents point to autosomal recessive xeroderma pigmentosum.",
+     "UV light forms pyrimidine dimers, bulky lesions that distort the DNA helix.",
+     "Bulky lesions are removed by nucleotide excision repair: the damaged strand is cut on both sides, a short segment is removed, and polymerase and ligase fill the gap."
+    ],
+    "why": "Nucleotide excision repair recognizes helix-distorting lesions such as cyclobutane pyrimidine dimers and 6-4 photoproducts. Proteins including the XP gene products unwind the DNA, endonucleases cut the damaged strand on both sides of the lesion, a short oligonucleotide is removed, and DNA polymerase and ligase fill the gap. When this fails, UV damage persists, causing severe sunburn and mutations in genes such as TP53, so basal cell carcinoma, squamous cell carcinoma, and melanoma appear in childhood. Reduced repair synthesis in his fibroblasts after UV exposure is the classic laboratory finding.",
+    "whyNot": [
+     "Correct.",
+     "Base excision repair uses glycosylases to remove single small damaged bases, such as uracil or oxidized guanine. It is not the main pathway for UV-induced pyrimidine dimers.",
+     "Mismatch repair fixes replication errors. Defects in MSH2 or MLH1 cause Lynch syndrome with colon and endometrial cancer, not sun sensitivity.",
+     "Homologous recombination repairs double-strand breaks. Defects in BRCA1 or BRCA2 raise the risk of breast and ovarian cancer without sun sensitivity."
+    ],
+    "study": {
+     "topics": [
+      "Nucleotide excision repair",
+      "DNA repair defects and cancer"
+     ],
+     "comps": [
+      "IN-7",
+      "IN-6"
+     ]
+    }
+   },
+   {
+    "id": "IN-C34-Q2",
+    "stem": "Which of the following findings in the biopsy specimen best distinguishes this tumor from squamous cell carcinoma in situ (Bowen disease)?",
+    "options": [
+     "Palisading basaloid nests with stromal retraction clefts",
+     "Full-thickness epidermal atypia above an intact basement membrane",
+     "Atypical squamous nests in the dermis with keratin pearls",
+     "Atypia confined to the lower third of the epidermis"
+    ],
+    "answer": 2,
+    "sea": "X",
+    "comp": "IN-13-G2",
+    "obj": "IN-13-G.3",
+    "dok": 3,
+    "approach": [
+     "Recall what separates invasive squamous cell carcinoma from carcinoma in situ: a breach of the basement membrane.",
+     "Invasive tumor forms nests of atypical squamous cells in the dermis, often with keratin pearls and intercellular bridges.",
+     "Carcinoma in situ has full-thickness atypia but an intact basement membrane."
+    ],
+    "why": "Squamous cell carcinoma in situ (Bowen disease) shows atypical keratinocytes through the full thickness of the epidermis without crossing the basement membrane. Once tumor cells invade, they form irregular nests and strands in the dermis, and well-differentiated tumors keep squamous features, including intercellular bridges and concentric whorls of keratin called keratin pearls. Invasion is what gives cutaneous squamous cell carcinoma its small but real risk of spread to regional lymph nodes, which is higher than that of basal cell carcinoma.",
+    "whyNot": [
+     "Palisading basaloid nests with retraction clefts are typical of basal cell carcinoma, which xeroderma pigmentosum also causes but which rarely metastasizes.",
+     "This describes squamous cell carcinoma in situ itself. Without dermal invasion, the tumor cannot metastasize.",
+     "Correct.",
+     "Atypia limited to the lower epidermis is actinic keratosis, the precursor lesion on sun-damaged skin."
+    ],
+    "study": {
+     "topics": [
+      "Squamous cell carcinoma histology",
+      "Bowen disease and actinic keratosis"
+     ],
+     "comps": [
+      "IN-13-G",
+      "IN-13-F"
+     ]
+    }
+   },
+   {
+    "id": "IN-C34-Q3",
+    "stem": "At 11 years of age, he develops a 7-mm, uniformly blue-black, dome-shaped papule on his upper back. It grew over 3 months with no preceding flat pigmented phase. Which of the following melanoma subtypes is most likely?",
+    "options": [
+     "Acral lentiginous melanoma",
+     "Nodular melanoma",
+     "Lentigo maligna melanoma",
+     "Superficial spreading melanoma"
+    ],
+    "answer": 1,
+    "sea": "X",
+    "comp": "IN-13-G3",
+    "obj": "IN-13-G.4",
+    "dok": 3,
+    "approach": [
+     "Note the rapid growth of a raised dark papule with no flat, spreading phase.",
+     "Melanoma subtypes differ in whether they first spread within the epidermis (radial growth) or invade downward from the start (vertical growth).",
+     "Vertical growth from the start defines nodular melanoma, which is often thick when found."
+    ],
+    "why": "Most melanoma subtypes begin with a radial growth phase in which cells spread within the epidermis and superficial dermis and rarely metastasize. Nodular melanoma skips this step and grows downward into the dermis from the outset, so it presents as a rapidly enlarging, often uniformly dark nodule and carries a worse outlook for its size. Xeroderma pigmentosum raises the risk of UV-driven melanomas, and they appear at young ages.",
+    "whyNot": [
+     "Acral lentiginous melanoma arises on the palms, soles, and nail beds, is not linked to UV light, and is the most common subtype in people with darkly pigmented skin.",
+     "Correct.",
+     "Lentigo maligna melanoma arises in chronically sun-damaged facial skin of older adults after a long flat in situ phase.",
+     "Superficial spreading melanoma, the most common type, starts as a flat, irregular, multicolored patch that spreads outward before any vertical growth."
+    ],
+    "study": {
+     "topics": [
+      "Melanoma subtypes",
+      "Radial versus vertical growth"
+     ],
+     "comps": [
+      "IN-13-G",
+      "IN-7"
+     ]
+    }
+   },
+   {
+    "id": "IN-C34-Q4",
+    "stem": "Cells of his squamous cell carcinoma have lost surface expression of MHC class I molecules. Which of the following immune cells is best able to recognize and kill these tumor cells?",
+    "options": [
+     "Regulatory T cells",
+     "CD8 cytotoxic T cells",
+     "CD4 helper T cells",
+     "Natural killer cells"
+    ],
+    "answer": 3,
+    "sea": "M",
+    "comp": "IN-11",
+    "obj": "IN-11.6",
+    "dok": 3,
+    "approach": [
+     "CD8 T cells need tumor peptides presented on MHC class I, so loss of MHC class I hides tumor cells from them.",
+     "NK cells carry inhibitory receptors that recognize self MHC class I.",
+     "When MHC class I is missing, the inhibitory signal is lost and the NK cell kills (missing-self recognition)."
+    ],
+    "why": "Tumors often lose MHC class I to escape CD8 T cells. NK cells weigh activating against inhibitory signals. Inhibitory receptors such as KIRs bind self MHC class I, and loss of that signal, together with stress ligands that bind activating receptors such as NKG2D, triggers killing by perforin and granzymes. This makes NK cells a backup against cells that escape T cell recognition. Tumors can also escape by expressing PD-L1, which switches off PD-1-bearing T cells.",
+    "whyNot": [
+     "Regulatory T cells suppress immune responses through IL-10, TGF-beta, and CTLA-4, and they often help tumors escape.",
+     "CD8 T cells recognize peptides only when they are presented on MHC class I. Tumor cells that lose MHC class I escape them.",
+     "CD4 T cells recognize antigen on MHC class II, mostly on antigen-presenting cells, and they mainly help other cells rather than killing tumor cells directly.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "NK cell missing-self recognition",
+      "Tumor immune escape"
+     ],
+     "comps": [
+      "IN-11"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "IN-C35",
+  "system": "IN",
+  "dx": "Neurofibromatosis type 1 with cafe-au-lait macules and cutaneous neurofibromas",
+  "codes": [
+   "IN-7"
+  ],
+  "case": "A 16-year-old girl comes to the physician because of soft bumps on her trunk that have increased in number over 2 years. Physical examination shows eight smooth-bordered light-brown macules, each larger than 15 mm, on the trunk and thighs; freckling in both axillae; and about 20 soft, skin-colored, dome-shaped papules on the trunk that sink inward with finger pressure. Slit-lamp examination shows pigmented hamartomas of both irises. Her parents and two siblings have no skin findings. Genetic testing shows a heterozygous pathogenic variant in NF1 on chromosome 17 that is absent in both parents. Diagnosis: neurofibromatosis type 1.",
+  "questions": [
+   {
+    "id": "IN-C35-Q1",
+    "stem": "The protein encoded by the mutated gene normally restrains cell growth. Loss of its function in the Schwann cells of her neurofibromas leads most directly to which of the following?",
+    "options": [
+     "Unopposed smoothened signaling",
+     "Unchecked mTOR activity",
+     "Prolonged GTP binding by Ras",
+     "Constitutive beta-catenin activity"
+    ],
+    "answer": 2,
+    "sea": "B",
+    "comp": "IN-7",
+    "obj": "IN-7.5",
+    "dok": 3,
+    "approach": [
+     "Neurofibromin is a GTPase-activating protein that speeds Ras hydrolysis of GTP to GDP.",
+     "Without it, Ras stays in its active, GTP-bound form.",
+     "Active Ras drives the MAP kinase and PI3K pathways, so Schwann cells that lose both NF1 copies proliferate."
+    ],
+    "why": "NF1 is a tumor suppressor gene. Its product, neurofibromin, turns Ras off by stimulating its intrinsic GTPase activity. When both copies are lost in a Schwann cell, Ras remains bound to GTP and keeps signaling through the MAP kinase and PI3K pathways, so the cells proliferate and form neurofibromas. Melanocytes with NF1 loss produce the café-au-lait macules and axillary freckling.",
+    "whyNot": [
+     "Unopposed smoothened signaling follows PTCH1 loss in basal cell nevus (Gorlin) syndrome and drives basal cell carcinoma.",
+     "Unchecked mTOR activity follows loss of hamartin or tuberin in tuberous sclerosis, which causes ash-leaf macules, facial angiofibromas, and cortical tubers.",
+     "Correct.",
+     "Constitutive beta-catenin activity follows APC loss in familial adenomatous polyposis, which causes colonic polyps rather than neurofibromas."
+    ],
+    "study": {
+     "topics": [
+      "Neurofibromin and Ras",
+      "NF1 versus tuberous sclerosis"
+     ],
+     "comps": [
+      "IN-7"
+     ]
+    }
+   },
+   {
+    "id": "IN-C35-Q2",
+    "stem": "Her 6-week-old cousin has a bright red, raised, soft plaque on the scalp. It was not visible at birth, appeared at 2 weeks of age, and has since doubled in size. Which of the following courses is most likely for this lesion?",
+    "options": [
+     "Growth for months, then slow regression over years",
+     "Persistence for life with gradual darkening and thickening",
+     "Repeated bleeding from a friable, rapidly growing papule",
+     "Lifelong stability as a small red papule"
+    ],
+    "answer": 0,
+    "sea": "X",
+    "comp": "IN-13-F",
+    "obj": "IN-13-F.6",
+    "dok": 3,
+    "approach": [
+     "A red, raised vascular lesion that appears in the first weeks of life and grows quickly is an infantile hemangioma.",
+     "These benign tumors of endothelial cells grow for several months and then slowly involute.",
+     "A port-wine stain, by contrast, is present at birth and grows only in proportion to the child."
+    ],
+    "why": "Infantile hemangioma is the most common tumor of infancy. It is usually absent or faint at birth, appears in the first weeks, grows quickly during the first months, and then slowly involutes over years, often leaving a soft or slightly discolored patch. Its endothelial cells express GLUT1, which separates it from vascular malformations.",
+    "whyNot": [
+     "Correct.",
+     "Lifelong lesions that darken and thicken are port-wine stains, capillary malformations present at birth. A facial port-wine stain in the ophthalmic division of the trigeminal nerve suggests Sturge-Weber syndrome.",
+     "A friable, rapidly growing papule that bleeds easily is a pyogenic granuloma, common on the gums in pregnancy and at sites of minor injury.",
+     "Small, stable red papules that appear in adulthood are cherry hemangiomas. This lesion appeared in infancy and is growing."
+    ],
+    "study": {
+     "topics": [
+      "Infantile hemangioma",
+      "Vascular lesions of the skin"
+     ],
+     "comps": [
+      "IN-13-F"
+     ]
+    }
+   },
+   {
+    "id": "IN-C35-Q3",
+    "stem": "Her records show that at 5 years of age she was found to have a low-grade glioma of the left optic nerve. The tumor arose from glial cells that share their embryologic origin with which of the following?",
+    "options": [
+     "Anterior pituitary",
+     "Lens of the eye",
+     "Adrenal medulla",
+     "Neural retina"
+    ],
+    "answer": 3,
+    "sea": "A",
+    "comp": "IN-2",
+    "obj": "IN-2.1",
+    "dok": 2,
+    "approach": [
+     "The optic nerve grows out of the forebrain, so its glial cells come from neuroectoderm of the neural tube.",
+     "Match it to another neuroectoderm derivative: the neural retina.",
+     "Separate this from surface ectoderm (lens, anterior pituitary) and neural crest (adrenal medulla, Schwann cells, melanocytes)."
+    ],
+    "why": "The optic nerve, optic chiasm, and retina all develop from the optic vesicle, an outpocketing of the forebrain. Their astrocytes and oligodendrocytes therefore come from neuroectoderm, like the rest of the central nervous system. Optic pathway gliomas in NF1 are pilocytic astrocytomas of this tissue. Her neurofibromas (Schwann cells) and café-au-lait macules (melanocytes) instead arise from neural crest derivatives.",
+    "whyNot": [
+     "The anterior pituitary comes from Rathke pouch, an outgrowth of surface ectoderm in the roof of the primitive mouth. The posterior pituitary is the neuroectoderm part.",
+     "The lens forms from surface ectoderm (the lens placode) induced by the optic vesicle. It shares an origin with the epidermis, not with the optic nerve.",
+     "Adrenal medullary chromaffin cells come from neural crest, like the Schwann cells and melanocytes affected in her skin. Pheochromocytoma, a neural crest tumor, is more common in NF1.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Ectoderm derivatives",
+      "Neuroectoderm versus neural crest"
+     ],
+     "comps": [
+      "IN-2"
+     ]
+    }
+   },
+   {
+    "id": "IN-C35-Q4",
+    "stem": "Ten years later, she and her unaffected partner plan a pregnancy. Which of the following is the probability that each of their children will inherit neurofibromatosis type 1?",
+    "options": [
+     "1/4",
+     "1/2",
+     "3/4",
+     "1"
+    ],
+    "answer": 1,
+    "sea": "B",
+    "comp": "IN-7",
+    "obj": "IN-7.4",
+    "dok": 3,
+    "approach": [
+     "Her parents are unaffected and lack the variant, so her NF1 arose as a new (de novo) mutation.",
+     "Once present, the variant is in her germline and follows autosomal dominant inheritance.",
+     "Each child of an affected heterozygote and an unaffected partner has a 1/2 chance of inheriting it."
+    ],
+    "why": "About half of NF1 cases come from new mutations, which explains her unaffected parents and siblings. A de novo germline variant behaves like any other autosomal dominant allele in the next generation, so each child has a 50% chance of inheriting it. Penetrance is essentially complete, but expression varies widely, so an affected child may have milder or more severe disease than she does.",
+    "whyNot": [
+     "A 1/4 risk applies when both parents are carriers of an autosomal recessive disease, such as xeroderma pigmentosum or oculocutaneous albinism.",
+     "Correct.",
+     "A 3/4 chance of showing a dominant trait applies to children of two heterozygous affected parents. With an unaffected partner, the risk is 1/2.",
+     "A risk of 1 would require a homozygous affected parent. She is heterozygous, so on average she passes the variant to half of her children."
+    ],
+    "study": {
+     "topics": [
+      "Autosomal dominant inheritance and de novo mutation"
+     ],
+     "comps": [
+      "IN-7"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "IN-C36",
+  "system": "IN",
+  "dx": "Scurvy in an older adult living alone on a restricted diet",
+  "codes": [
+   "IN-5"
+  ],
+  "case": "A 78-year-old man is brought to the physician by his daughter because of bleeding gums and easy bruising for 2 months. He lives alone and, since his wife died 8 months ago, has eaten mainly tea, toast, and canned soup. A cut on his shin from 2 months ago has not healed. His temperature is 36.8 °C (98.2 °F), pulse is 88/min, respirations are 16/min, and blood pressure is 124/76 mm Hg. Physical examination shows swollen, purple, bleeding gums; large ecchymoses on both thighs; and a 2-cm shallow ulcer on the left shin with a pale base. His hemoglobin concentration is 10.9 g/dL (13.5 to 17.5), platelet count is 248,000/mm3 (150,000 to 400,000), and plasma ascorbic acid concentration is less than 0.1 mg/dL (0.4 to 2.0). Diagnosis: scurvy.",
+  "questions": [
+   {
+    "id": "IN-C36-Q1",
+    "stem": "Close examination of the hair-bearing skin of his lower legs is most likely to show which of the following?",
+    "options": [
+     "Twisted, brittle hairs with a steel-wool texture",
+     "Perifollicular hemorrhages around coiled hairs",
+     "Broken hairs that taper toward the skin surface",
+     "Shiny hairless skin with thickened toenails"
+    ],
+    "answer": 1,
+    "sea": "B",
+    "comp": "IN-5",
+    "obj": "IN-5.2",
+    "dok": 2,
+    "approach": [
+     "Vitamin C deficiency weakens collagen in small vessel walls.",
+     "Fragile capillaries around hair follicles bleed, producing perifollicular hemorrhages.",
+     "Follicles also plug with keratin, and the hairs inside coil into corkscrew shapes."
+    ],
+    "why": "In scurvy, poorly hydroxylated collagen leaves small vessels fragile, so bleeding appears around hair follicles, in the gums, and as large bruises. Follicles become plugged with keratin, and the hair shafts bend and coil into corkscrew hairs. Perifollicular hemorrhages with corkscrew hairs on the legs are among the most specific skin signs. A normal platelet count, as in this patient, shows that the bleeding comes from vessel fragility rather than low platelets.",
+    "whyNot": [
+     "Twisted, brittle, steel-wool hair is the sign of Menkes disease, an X-linked defect in the ATP7A copper transporter that presents in infant boys.",
+     "Correct.",
+     "Short broken hairs that narrow toward the skin are the exclamation point hairs of alopecia areata, which causes round bald patches.",
+     "Shiny hairless skin with thick nails reflects chronic arterial insufficiency in peripheral artery disease, a problem of poor blood flow rather than fragile vessels."
+    ],
+    "study": {
+     "topics": [
+      "Skin signs of scurvy",
+      "Menkes disease"
+     ],
+     "comps": [
+      "IN-5"
+     ]
+    }
+   },
+   {
+    "id": "IN-C36-Q2",
+    "stem": "A biopsy specimen from the edge of his shin ulcer shows many new capillaries, fibroblasts, and macrophages in loose, edematous stroma with very little collagen. Healing has stalled in which of the following phases?",
+    "options": [
+     "Hemostatic phase",
+     "Early inflammatory phase",
+     "Remodeling phase",
+     "Proliferative phase"
+    ],
+    "answer": 3,
+    "sea": "X",
+    "comp": "IN-10",
+    "obj": "IN-10.1",
+    "dok": 2,
+    "approach": [
+     "Capillaries, fibroblasts, and macrophages in loose stroma are granulation tissue.",
+     "Granulation tissue is the hallmark of the proliferative phase, when fibroblasts normally lay down type III collagen.",
+     "Without vitamin C, fibroblasts cannot secrete stable collagen, so the wound stays in this phase and never gains strength."
+    ],
+    "why": "Wound healing runs through hemostasis, inflammation (neutrophils first, then macrophages by about day 3), proliferation, and remodeling. In the proliferative phase, VEGF-driven angiogenesis and fibroblast growth form granulation tissue, and fibroblasts lay down type III collagen. During remodeling, type III collagen is replaced by type I and cross-linked, while zinc-dependent metalloproteinases reshape the matrix, and even then a scar regains only about 70 to 80 percent of normal strength. In scurvy, granulation tissue forms but collagen deposition fails, so the wound cannot move on.",
+    "whyNot": [
+     "Hemostasis forms a platelet plug and fibrin clot within minutes to hours. The established granulation tissue shows the wound is past this step.",
+     "The early inflammatory phase is dominated by neutrophils in the first 1 to 2 days. His biopsy shows granulation tissue with fibroblasts and new vessels, which comes later.",
+     "Remodeling replaces type III collagen with type I collagen and cross-links it over months. It needs a collagen-rich scar to remodel, and his wound has almost no collagen.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Phases of wound healing",
+      "Granulation tissue"
+     ],
+     "comps": [
+      "IN-10",
+      "IN-5"
+     ]
+    }
+   },
+   {
+    "id": "IN-C36-Q3",
+    "stem": "His daughter reports that about 3 months after a hospital stay for pneumonia last year, he shed large amounts of scalp hair diffusely, and the hair later regrew. Which of the following best explains the delay between the illness and the hair shedding?",
+    "options": [
+     "Androgens gradually shrink follicles into vellus hairs",
+     "Autoimmune T cells slowly destroy anagen hair bulbs",
+     "Early shift into telogen, which lasts about 3 months",
+     "Scarring slowly replaces the bulge stem cells of follicles"
+    ],
+    "answer": 2,
+    "sea": "A",
+    "comp": "IN-1",
+    "obj": "IN-1.7",
+    "dok": 3,
+    "approach": [
+     "Diffuse shedding 2 to 3 months after a major stressor such as fever, surgery, or childbirth is telogen effluvium.",
+     "The stress pushes many anagen follicles into catagen and then telogen at the same time.",
+     "Telogen lasts about 3 months before the club hair is shed, which explains the delay. The follicles then reenter anagen and regrow hair."
+    ],
+    "why": "Each scalp follicle cycles through anagen (growth, lasting years), catagen (involution, lasting weeks), and telogen (rest, about 3 months). Normally about 85 to 90 percent of scalp hairs are in anagen. A severe illness shifts many anagen follicles into telogen together, and when telogen ends about 3 months later, those club hairs fall out at once. Because the bulge stem cells and dermal papilla are spared, the follicles reenter anagen and the hair grows back.",
+    "whyNot": [
+     "Androgen-driven miniaturization is androgenetic alopecia, a slow, patterned thinning over years that does not regrow on its own.",
+     "T cell attack on anagen bulbs is alopecia areata, which causes sharply defined round patches with exclamation point hairs rather than diffuse shedding after an illness.",
+     "Correct.",
+     "Destruction of bulge stem cells with fibrosis is scarring alopecia, which leaves smooth areas without follicular openings and permanent loss."
+    ],
+    "study": {
+     "topics": [
+      "Hair cycle",
+      "Telogen effluvium"
+     ],
+     "comps": [
+      "IN-1",
+      "IN-13-C"
+     ]
+    }
+   },
+   {
+    "id": "IN-C36-Q4",
+    "stem": "Prolyl and lysyl hydroxylases need ascorbic acid to function. Which of the following best describes the role of ascorbic acid in these reactions?",
+    "options": [
+     "Keeps enzyme iron in the ferrous state",
+     "Supplies the hydroxyl group added to proline",
+     "Provides copper to the enzyme active site",
+     "Donates a phosphate group that activates the enzyme"
+    ],
+    "answer": 0,
+    "sea": "B",
+    "comp": "IN-5",
+    "obj": "IN-5.1",
+    "dok": 3,
+    "approach": [
+     "Prolyl and lysyl hydroxylases are iron-containing enzymes in the rough endoplasmic reticulum that use O2 and alpha-ketoglutarate.",
+     "During some reaction cycles the iron is oxidized to Fe3+, which inactivates the enzyme.",
+     "Ascorbate reduces the iron back to Fe2+, so without vitamin C, hydroxylation fails."
+    ],
+    "why": "Hydroxyproline stabilizes the collagen triple helix through hydrogen bonding, and hydroxylysine provides sites for glycosylation and for later cross-links. The hydroxylases put one oxygen atom from O2 into proline or lysine and the other into alpha-ketoglutarate, which becomes succinate. Ascorbate is a reducing agent that returns the active-site iron to Fe2+. Poorly hydroxylated chains form unstable helices that are degraded, so vessels, gums, and healing wounds lack strong collagen.",
+    "whyNot": [
+     "Correct.",
+     "The oxygen in the new hydroxyl group comes from molecular oxygen, not from ascorbate. Ascorbate keeps the enzyme working as a reducing agent.",
+     "Copper is the cofactor for lysyl oxidase, which forms collagen cross-links outside the cell. Copper transport fails in Menkes disease, not in scurvy.",
+     "Ascorbate is not a phosphate donor. It acts as a reducing agent for the iron at the enzyme's active site."
+    ],
+    "study": {
+     "topics": [
+      "Collagen synthesis steps and cofactors"
+     ],
+     "comps": [
+      "IN-5",
+      "IN-10"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "IN-C37",
+  "system": "IN",
+  "dx": "Pityriasis rosea in early pregnancy with coexisting melasma",
+  "codes": [
+   "IN-13-B"
+  ],
+  "case": "A 27-year-old woman at 10 weeks' gestation comes to the physician because of a mildly itchy rash on her trunk for 10 days. She has had no fever, takes only a prenatal vitamin, and has had no new sexual partners. Physical examination shows dozens of oval, salmon-pink patches 1 to 2 cm across on the trunk and upper arms, each with a fine collarette of scale just inside its border. On the back, the long axes of the patches run along skin cleavage lines in a pattern resembling the branches of a fir tree. She also has symmetric, irregular light-brown patches on her cheeks, upper lip, and forehead that began a few weeks after conception. Palms, soles, and oral mucosa are normal. A rapid plasma reagin test is negative. Diagnosis: pityriasis rosea with melasma.",
+  "questions": [
+   {
+    "id": "IN-C37-Q1",
+    "stem": "Which of the following lesions most likely appeared on her trunk about 1 to 2 weeks before the rest of the eruption?",
+    "options": [
+     "An annular plaque with a scaly advancing edge",
+     "A painless indurated ulcer with a clean base",
+     "A cluster of vesicles on an erythematous base",
+     "A single large oval scaly patch"
+    ],
+    "answer": 3,
+    "sea": "X",
+    "comp": "IN-13-B",
+    "obj": "IN-13-B.7",
+    "dok": 2,
+    "approach": [
+     "Recognize pityriasis rosea: oval salmon-colored patches with collarette scale along cleavage lines in a Christmas tree pattern.",
+     "Recall the usual sequence: a single herald patch first, then the widespread eruption 1 to 2 weeks later.",
+     "Expect the rash to clear on its own over about 6 to 8 weeks."
+    ],
+    "why": "Pityriasis rosea usually begins with a herald patch, a single oval, pink, scaly patch about 2 to 10 cm across, often on the trunk. One to two weeks later, smaller similar patches erupt over the trunk and upper limbs, with their long axes along skin cleavage lines, which gives the Christmas tree pattern on the back. It clears without treatment in about 6 to 8 weeks. It has been linked to reactivation of human herpesviruses 6 and 7.",
+    "whyNot": [
+     "An annular plaque with an advancing scaly edge suggests tinea corporis. The herald patch can resemble it, but tinea does not spread in crops along cleavage lines, and a KOH preparation of pityriasis rosea shows no hyphae.",
+     "A painless indurated ulcer is a syphilitic chancre. Secondary syphilis can mimic pityriasis rosea, but it usually involves the palms and soles, and her rapid plasma reagin test is negative.",
+     "Grouped vesicles on a red base suggest herpes simplex or herpes zoster, not the scaly patch that starts pityriasis rosea.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Pityriasis rosea",
+      "Papulosquamous rashes"
+     ],
+     "comps": [
+      "IN-13-B"
+     ]
+    }
+   },
+   {
+    "id": "IN-C37-Q2",
+    "stem": "Her sister has many small, light-brown macules across her nose and cheeks that darken every summer and fade every winter. Compared with nearby normal skin, a biopsy specimen of one of the sister's macules would most likely show which of the following?",
+    "options": [
+     "More basal melanocytes along elongated rete ridges",
+     "Normal melanocyte number with more melanin",
+     "Nests of melanocytes at the dermal-epidermal junction",
+     "Absent melanocytes in the basal layer"
+    ],
+    "answer": 1,
+    "sea": "X",
+    "comp": "IN-13-A",
+    "obj": "IN-13-A.5",
+    "dok": 2,
+    "approach": [
+     "Small tan macules on sun-exposed skin that darken in summer and fade in winter are ephelides (freckles).",
+     "Freckles reflect more melanin made and passed to keratinocytes by a normal number of melanocytes.",
+     "Lentigines, by contrast, have more basal melanocytes and do not fade in winter."
+    ],
+    "why": "In ephelides, melanocytes are present in normal numbers but are more active, so basal keratinocytes hold more melanin. Sun exposure boosts this activity, so freckles darken in summer and fade in winter. Solar lentigines and lentigo simplex have an increased number of basal melanocytes, often along elongated rete ridges, and they do not fade. Melasma, as in this patient, is driven by estrogen, progesterone, and UV light and shows extra melanin in the epidermis, the dermis, or both.",
+    "whyNot": [
+     "More basal melanocytes along elongated rete ridges describe lentigo simplex and solar lentigines, which stay the same color through the year.",
+     "Correct.",
+     "Junctional nests of melanocytes form a junctional nevus, which does not change color with the seasons.",
+     "Absent melanocytes cause the white macules of vitiligo, not brown macules."
+    ],
+    "study": {
+     "topics": [
+      "Freckles, lentigines, and melasma"
+     ],
+     "comps": [
+      "IN-13-A",
+      "IN-7"
+     ]
+    }
+   },
+   {
+    "id": "IN-C37-Q3",
+    "stem": "Hormonal changes of pregnancy and UV light increase melanin production in her facial melanocytes. Part of this effect works through alpha-melanocyte-stimulating hormone (alpha-MSH) binding the melanocortin 1 receptor (MC1R). Which of the following signals links this receptor to increased tyrosinase expression?",
+    "options": [
+     "Gs, cAMP, and protein kinase A raising MITF",
+     "Gq, IP3, and calcium activating calcineurin",
+     "JAK kinases phosphorylating STAT proteins",
+     "Receptor tyrosine kinase activating Ras"
+    ],
+    "answer": 0,
+    "sea": "B",
+    "comp": "IN-7",
+    "obj": "IN-7.7",
+    "dok": 2,
+    "approach": [
+     "MC1R is a G protein-coupled receptor linked to Gs.",
+     "Gs activates adenylyl cyclase, cAMP rises, and protein kinase A phosphorylates the transcription factor CREB.",
+     "CREB raises MITF, the master melanocyte transcription factor, which turns on tyrosinase and favors dark eumelanin."
+    ],
+    "why": "Alpha-MSH, cut from POMC, binds MC1R on melanocytes. Through Gs and adenylyl cyclase, cAMP rises, and protein kinase A activates CREB, which increases MITF. MITF drives tyrosinase and related enzymes, raising melanin output and shifting it toward dark eumelanin. Loss-of-function MC1R variants weaken this signal, which is why carriers have red hair, fair skin, and a higher risk of melanoma.",
+    "whyNot": [
+     "Correct.",
+     "Gq signaling through IP3 and calcium is used by receptors such as the alpha-1 adrenergic and H1 histamine receptors, not by MC1R.",
+     "JAK-STAT signaling is used by cytokine receptors, such as those for interferons and many interleukins. It is not the pathway of MC1R.",
+     "Receptor tyrosine kinases, such as KIT on melanocytes, signal through Ras and MAP kinase. KIT matters for melanocyte development and survival, but MC1R is a G protein-coupled receptor."
+    ],
+    "study": {
+     "topics": [
+      "MC1R signaling and melanogenesis"
+     ],
+     "comps": [
+      "IN-7",
+      "IN-13-A"
+     ]
+    }
+   },
+   {
+    "id": "IN-C37-Q4",
+    "stem": "A biopsy specimen of one of her trunk patches shows small mounds of scale in which the corneocytes still contain nuclei. In normal skin, at which of the following points in keratinocyte maturation are the nuclei lost?",
+    "options": [
+     "Stratum basale to stratum spinosum",
+     "Stratum spinosum to stratum granulosum",
+     "Stratum granulosum to stratum corneum",
+     "Within the stratum corneum during desquamation"
+    ],
+    "answer": 2,
+    "sea": "A",
+    "comp": "IN-1",
+    "obj": "IN-1.1",
+    "dok": 2,
+    "approach": [
+     "Nuclei kept in the stratum corneum is called parakeratosis.",
+     "Normally keratinocytes destroy their nuclei and organelles as they pass from the stratum granulosum into the stratum corneum.",
+     "When turnover speeds up or differentiation is disturbed, cells reach the surface before this step is finished."
+    ],
+    "why": "As keratinocytes rise, they switch from keratins 5 and 14 in the basal layer to keratins 1 and 10 in the spinous layer, then form keratohyalin granules and discharge lamellar body lipids in the granular layer. At the junction with the stratum corneum, enzymes break down the nucleus and organelles, and the cell becomes a flat, anucleate corneocyte. Parakeratosis means this last step failed. It is seen in the mounds of scale of pityriasis rosea and in psoriasis.",
+    "whyNot": [
+     "As cells leave the basal layer for the spinous layer, they switch from keratins 5 and 14 to keratins 1 and 10. They keep their nuclei long after this point.",
+     "Cells in the granular layer fill with keratohyalin granules (profilaggrin) and discharge lamellar body lipids to build the water barrier. These cells are still nucleated, so this step does not remove nuclei.",
+     "Correct.",
+     "Normal corneocytes are already anucleate when they enter the stratum corneum. Desquamation sheds these dead cells from the surface, long after the nuclei are gone."
+    ],
+    "study": {
+     "topics": [
+      "Epidermal layers and keratinocyte maturation",
+      "Parakeratosis"
+     ],
+     "comps": [
+      "IN-1",
+      "IN-8"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "IN-C38",
+  "system": "IN",
+  "dx": "Dermatitis herpetiformis revealing celiac disease, with patchy alopecia areata",
+  "codes": [
+   "IN-13-D"
+  ],
+  "case": "A 31-year-old man comes to the physician because of a 4-month history of intensely itchy bumps on his elbows, knees, and buttocks. He also has intermittent bloating and loose stools. Physical examination shows grouped small vesicles and many excoriated erosions symmetrically on the extensor elbows and knees and on the buttocks. There are two sharply defined, round, smooth patches of complete hair loss on the scalp, each about 3 cm across, with no scale, scarring, or erythema. His hemoglobin concentration is 11.4 g/dL (13.5 to 17.5), serum ferritin concentration is 9 ng/mL (24 to 336), and serum IgA anti-tissue transglutaminase is 160 U/mL (less than 4). A duodenal biopsy specimen shows villous atrophy with crypt hyperplasia. Diagnosis: dermatitis herpetiformis with celiac disease, and alopecia areata.",
+  "questions": [
+   {
+    "id": "IN-C38-Q1",
+    "stem": "A biopsy specimen of normal-appearing skin next to a vesicle is examined by direct immunofluorescence. Which of the following patterns is most likely?",
+    "options": [
+     "Granular IgA in the dermal papillae",
+     "Linear IgG and C3 along the basement membrane",
+     "Intercellular IgG in a net-like epidermal pattern",
+     "Linear IgA along the basement membrane"
+    ],
+    "answer": 0,
+    "sea": "X",
+    "comp": "IN-13-D",
+    "obj": "IN-13-D.6",
+    "dok": 3,
+    "approach": [
+     "Link grouped itchy vesicles on extensor surfaces plus celiac disease to dermatitis herpetiformis.",
+     "Patients make IgA against epidermal transglutaminase, and IgA deposits in the tips of the dermal papillae.",
+     "Direct immunofluorescence of nearby uninvolved skin shows granular IgA in the papillae."
+    ],
+    "why": "In dermatitis herpetiformis, gluten-driven IgA antibodies target epidermal transglutaminase (transglutaminase 3), and IgA complexes deposit in the papillary dermis. Direct immunofluorescence of nearby uninvolved skin shows granular IgA at the dermal papillary tips. Routine histology of an early lesion shows neutrophilic microabscesses at the papillary tips with a blister beneath the epidermis. Nearly all patients have celiac-type gluten sensitivity, even when bowel symptoms are mild.",
+    "whyNot": [
+     "Correct.",
+     "Linear IgG and C3 along the basement membrane is bullous pemphigoid, which produces large tense blisters in older adults.",
+     "A net-like intercellular IgG pattern is pemphigus, caused by antibodies to desmogleins, with flaccid blisters and erosions.",
+     "Linear IgA along the basement membrane defines linear IgA bullous dermatosis, which is often triggered by drugs such as vancomycin and is not linked to gluten sensitivity."
+    ],
+    "study": {
+     "topics": [
+      "Dermatitis herpetiformis",
+      "Immunofluorescence patterns in blistering disease"
+     ],
+     "comps": [
+      "IN-13-D",
+      "IN-11"
+     ]
+    }
+   },
+   {
+    "id": "IN-C38-Q2",
+    "stem": "He asks whether the hair in his scalp patches can grow back. Which of the following best explains why regrowth is possible?",
+    "options": [
+     "Follicles are replaced by fibrous tracts that later remodel",
+     "Androgens shrink follicles that later enlarge again on their own",
+     "Inflammation targets anagen bulbs and spares bulge stem cells",
+     "Fungal hyphae invade hair shafts and are later cleared"
+    ],
+    "answer": 2,
+    "sea": "X",
+    "comp": "IN-13-C",
+    "obj": "IN-13-C.8",
+    "dok": 3,
+    "approach": [
+     "Round, smooth patches with no scale or scarring point to alopecia areata, which can occur alongside other autoimmune diseases such as celiac disease.",
+     "In alopecia areata, T cells attack the bulb of anagen follicles after the follicle loses its immune privilege.",
+     "The bulge stem cells higher in the follicle are spared, so the follicle survives and can regrow hair, unlike in scarring alopecia."
+    ],
+    "why": "Alopecia areata is an autoimmune, nonscarring alopecia. Lymphocytes, including CD8 T cells, gather around the bulbs of anagen follicles and push them into catagen and telogen, producing short broken exclamation point hairs at the edges of patches. Because the bulge region, which holds the follicle's stem cells, is not destroyed, follicular openings remain visible and hair can regrow, often white at first. Scarring alopecias destroy the bulge and leave permanent loss.",
+    "whyNot": [
+     "Replacement of follicles by fibrous tracts is scarring alopecia, such as lichen planopilaris or discoid lupus. The loss is permanent, and the skin is smooth without follicular openings.",
+     "Androgen-driven miniaturization causes patterned thinning over the crown and temples (androgenetic alopecia), not round bald patches, and it does not reverse on its own.",
+     "Correct.",
+     "Fungal invasion of hair shafts is tinea capitis, which usually causes scaly patches with broken hairs, mostly in children. His patches have no scale or erythema."
+    ],
+    "study": {
+     "topics": [
+      "Alopecia areata",
+      "Scarring versus nonscarring alopecia"
+     ],
+     "comps": [
+      "IN-13-C",
+      "IN-1"
+     ]
+    }
+   },
+   {
+    "id": "IN-C38-Q3",
+    "stem": "Months later, he is stung by a wasp. Within 10 minutes he develops itchy wheals over his trunk and swelling of his lips. Which of the following mechanisms most likely explains this reaction?",
+    "options": [
+     "Cytokine release by sensitized T cells",
+     "IgG binding fixed antigens on cell surfaces",
+     "Immune complex deposition in vessel walls",
+     "Allergen cross-linking IgE on mast cells"
+    ],
+    "answer": 3,
+    "sea": "M",
+    "comp": "IN-11",
+    "obj": "IN-11.4",
+    "dok": 3,
+    "approach": [
+     "Note the timing: wheals and lip swelling within minutes of exposure.",
+     "Minutes point to type I hypersensitivity, which needs earlier sensitization and IgE already bound to mast cells.",
+     "Allergen cross-links the IgE, and mast cells release preformed histamine, followed by newly made leukotrienes and prostaglandins."
+    ],
+    "why": "Type I hypersensitivity follows earlier sensitization, when Th2 cells drive B cells to make venom-specific IgE that binds high-affinity Fc receptors on mast cells and basophils. On reexposure, venom cross-links the bound IgE, and mast cells degranulate within minutes, releasing histamine and tryptase and then making leukotrienes and prostaglandins. Histamine increases venular permeability, causing wheals in the superficial dermis and angioedema in deeper tissue such as the lips. Immune complex and T cell reactions take hours to days.",
+    "whyNot": [
+     "Sensitized T cells releasing cytokines cause type IV reactions, such as allergic contact dermatitis, which appear 48 to 72 hours after exposure.",
+     "IgG or IgM against fixed cell or tissue antigens is type II hypersensitivity, as in pemphigus and bullous pemphigoid. These cause blistering over days to weeks, not wheals within minutes.",
+     "Immune complex deposition is type III hypersensitivity, as in the Arthus reaction and leukocytoclastic vasculitis, which develop over hours to days with palpable purpura.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Hypersensitivity types in the skin",
+      "Type I hypersensitivity"
+     ],
+     "comps": [
+      "IN-11",
+      "IN-13-B4"
+     ]
+    }
+   },
+   {
+    "id": "IN-C38-Q4",
+    "stem": "His serum 25-hydroxyvitamin D concentration is 11 ng/mL (30 to 100). He has deeply pigmented skin, lives at a northern latitude, and works indoors. Which of the following steps in vitamin D production is most directly limited by his skin pigmentation?",
+    "options": [
+     "25-hydroxylation of cholecalciferol in the liver",
+     "UVB conversion of 7-dehydrocholesterol in the epidermis",
+     "1-alpha-hydroxylation of calcidiol in the kidney",
+     "Micelle-dependent uptake of dietary vitamin D in the jejunum"
+    ],
+    "answer": 1,
+    "sea": "B",
+    "comp": "IN-5",
+    "obj": "IN-5.5",
+    "dok": 3,
+    "approach": [
+     "Vitamin D3 synthesis starts in the epidermis, where UVB converts 7-dehydrocholesterol to previtamin D3, which then becomes cholecalciferol.",
+     "Melanin absorbs UVB, so more pigment means less UVB reaches 7-dehydrocholesterol.",
+     "High latitude, indoor work, and sunscreen act at the same step by reducing UVB exposure."
+    ],
+    "why": "Cholecalciferol made in the skin or absorbed from food is hydroxylated in the liver to 25-hydroxyvitamin D, the main circulating form, and then in the kidney by 1-alpha-hydroxylase to active 1,25-dihydroxyvitamin D. Melanin competes with 7-dehydrocholesterol for UVB, so people with darker skin need longer sun exposure to make the same amount. At northern latitudes in winter, little UVB reaches the ground, and sunscreen blocks it further. His celiac disease adds a second problem, poor absorption of dietary vitamin D, but that step does not depend on skin pigmentation.",
+    "whyNot": [
+     "Hepatic 25-hydroxylation falls in severe liver disease and is not affected by skin color.",
+     "Correct.",
+     "Renal 1-alpha-hydroxylation is controlled by parathyroid hormone, phosphate, and FGF23, and it falls in chronic kidney disease. It does not depend on skin pigmentation.",
+     "Absorption of dietary vitamin D depends on bile acid micelles and a healthy small bowel, and his celiac disease does impair it. Skin pigmentation has no effect on this step."
+    ],
+    "study": {
+     "topics": [
+      "Vitamin D synthesis in skin",
+      "Causes of low vitamin D"
+     ],
+     "comps": [
+      "IN-5"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "IN-C39",
+  "system": "IN",
+  "dx": "Pyoderma gangrenosum with pathergy and oral aphthous ulcers in ulcerative colitis",
+  "codes": [
+   "IN-13-C"
+  ],
+  "case": "A 44-year-old woman with a 10-year history of ulcerative colitis comes to the physician because of a painful ulcer on her right shin. Two weeks ago she bumped her shin on a table, and a small pustule formed at the site and then rapidly broke down into an ulcer. She has had bloody diarrhea for the past month and painful sores in her mouth. Her temperature is 37.4 °C (99.3 °F), pulse is 92/min, respirations are 16/min, and blood pressure is 118/72 mm Hg. Physical examination shows a 5-cm ulcer with a purulent base and a raised, violaceous, undermined border. Bacterial, fungal, and mycobacterial cultures of the ulcer are negative. A biopsy specimen from the ulcer edge shows a dense dermal neutrophilic infiltrate without vasculitis or organisms. Diagnosis: pyoderma gangrenosum.",
+  "questions": [
+   {
+    "id": "IN-C39-Q1",
+    "stem": "A surgeon proposes sharp debridement of the ulcer edge. Which of the following outcomes is most likely after this procedure?",
+    "options": [
+     "Rapid healing with granulation tissue in 1 week",
+     "Faster closure from removal of necrotic tissue",
+     "Enlargement of the ulcer at the debrided edge",
+     "Spread of infection along the deep fascia"
+    ],
+    "answer": 2,
+    "sea": "X",
+    "comp": "IN-13-C",
+    "obj": "IN-13-C.6",
+    "dok": 3,
+    "approach": [
+     "Recall that pyoderma gangrenosum shows pathergy: minor trauma triggers new lesions or worsens existing ones.",
+     "Her ulcer began at a site of minor injury, which is pathergy in action.",
+     "Debridement is a new injury, so it typically enlarges the ulcer."
+    ],
+    "why": "Pyoderma gangrenosum is a sterile neutrophilic dermatosis. Neutrophils are drawn into the dermis by dysregulated inflammatory signals such as IL-1, IL-8, and TNF, and minor trauma, including surgery, can start or enlarge lesions. This exaggerated response to injury is called pathergy. The disease is linked to inflammatory bowel disease, rheumatoid arthritis, and hematologic malignancies such as myeloid leukemia. Because cultures are negative, it is diagnosed after infection and other causes of ulcers are excluded.",
+    "whyNot": [
+     "Rapid granulation and healing would be expected in a clean surgical wound, not in a pathergic ulcer.",
+     "Debridement speeds healing of ordinary wounds that contain dead tissue. In pyoderma gangrenosum, the trauma provokes more neutrophilic inflammation.",
+     "Correct.",
+     "Her cultures are negative and the infiltrate is sterile. Spread along fascia describes necrotizing fasciitis, which causes severe pain, systemic toxicity, and rapid progression."
+    ],
+    "study": {
+     "topics": [
+      "Pyoderma gangrenosum and pathergy",
+      "Skin signs of inflammatory bowel disease"
+     ],
+     "comps": [
+      "IN-13-C",
+      "IN-11"
+     ]
+    }
+   },
+   {
+    "id": "IN-C39-Q2",
+    "stem": "Which of the following best describes the oral lesions most likely present in this patient?",
+    "options": [
+     "Shallow gray-based ulcers with red halos on buccal mucosa",
+     "Clusters of small ulcers on the hard palate and gingiva",
+     "White plaques that wipe off to leave raw bleeding bases",
+     "Lacy white striae on the buccal mucosa that do not wipe off"
+    ],
+    "answer": 0,
+    "sea": "X",
+    "comp": "IN-13-B",
+    "obj": "IN-13-B.9",
+    "dok": 2,
+    "approach": [
+     "Painful oral ulcers during an inflammatory bowel disease flare are usually recurrent aphthous ulcers.",
+     "Aphthae are shallow, round ulcers with a yellow-gray fibrin base and a red halo.",
+     "They form on nonkeratinized mucosa such as the buccal and labial mucosa, while recurrent intraoral herpes favors the keratinized hard palate and gingiva."
+    ],
+    "why": "Recurrent aphthous ulcers are painful, shallow, round to oval ulcers covered by a yellow-gray fibrin membrane and ringed by redness. They appear on movable, nonkeratinized mucosa such as the inner lips, cheeks, floor of the mouth, and underside of the tongue, and they heal in 1 to 2 weeks. They are common on their own but also occur with inflammatory bowel disease, celiac disease, and Behçet disease, where they often flare with disease activity.",
+    "whyNot": [
+     "Correct.",
+     "Clusters of small ulcers on the hard palate and attached gingiva are typical of recurrent intraoral herpes simplex, which favors keratinized mucosa bound to bone.",
+     "White plaques that wipe off to leave a raw base are oral candidiasis (thrush), usually after antibiotics, inhaled steroids, or immunosuppression.",
+     "Lacy white striae that cannot be wiped off are reticular oral lichen planus, a T cell-mediated interface disease, and they are usually painless."
+    ],
+    "study": {
+     "topics": [
+      "Recurrent aphthous ulcers",
+      "Oral ulcer differential"
+     ],
+     "comps": [
+      "IN-13-B"
+     ]
+    }
+   },
+   {
+    "id": "IN-C39-Q3",
+    "stem": "Neutrophils reach her ulcer by leaving dermal postcapillary venules. Which of the following interactions is responsible for the firm adhesion of neutrophils to the venular endothelium before they transmigrate?",
+    "options": [
+     "Sialyl Lewis X binding E-selectin",
+     "Beta-2 integrins binding ICAM-1",
+     "Homophilic PECAM-1 binding",
+     "C5a binding the C5a receptor"
+    ],
+    "answer": 1,
+    "sea": "M",
+    "comp": "IN-11",
+    "obj": "IN-11.2",
+    "dok": 3,
+    "approach": [
+     "Order the steps: rolling, firm adhesion, transmigration, then chemotaxis.",
+     "Rolling uses selectins binding sialyl Lewis X. Firm adhesion uses beta-2 integrins such as LFA-1 and Mac-1 binding ICAM-1.",
+     "Chemokines such as IL-8 switch the integrins to their high-affinity state, which stops the rolling cell."
+    ],
+    "why": "In acute inflammation, cytokines such as IL-1 and TNF make venular endothelium express E-selectin and ICAM-1. Neutrophils first roll on selectins, and then IL-8 and other chemokines on the endothelial surface activate their beta-2 integrins (CD11/CD18, such as LFA-1 and Mac-1), which bind ICAM-1 tightly and arrest the cell. The neutrophil then squeezes between endothelial cells using PECAM-1 (CD31) and follows gradients of C5a, LTB4, and IL-8 into the tissue. In leukocyte adhesion deficiency type 1, absent CD18 blocks firm adhesion, so patients have high blood neutrophil counts, delayed separation of the umbilical cord, and infections without pus.",
+    "whyNot": [
+     "Selectin binding to sialyl Lewis X is weak and brief and produces rolling. A defect in making this ligand causes leukocyte adhesion deficiency type 2.",
+     "Correct.",
+     "PECAM-1 (CD31) interactions guide the neutrophil between endothelial cells during transmigration, after firm adhesion has occurred.",
+     "C5a is a chemoattractant that directs neutrophil movement through tissue and helps activate integrins, but it is not itself an adhesion molecule."
+    ],
+    "study": {
+     "topics": [
+      "Leukocyte recruitment steps",
+      "Leukocyte adhesion deficiency"
+     ],
+     "comps": [
+      "IN-11"
+     ]
+    }
+   },
+   {
+    "id": "IN-C39-Q4",
+    "stem": "Neutrophils in her ulcer release reactive oxygen species, which can form hydroxyl radicals that injure nearby keratinocytes and fibroblasts. Which of the following best describes how hydroxyl radicals damage the plasma membranes of these cells?",
+    "options": [
+     "Detergent-like solubilization of the lipid bilayer",
+     "Hydrolysis of phospholipid ester bonds",
+     "Insertion of pore-forming protein complexes",
+     "Chain peroxidation of polyunsaturated lipids"
+    ],
+    "answer": 3,
+    "sea": "B",
+    "comp": "IN-6",
+    "obj": "IN-6.1",
+    "dok": 2,
+    "approach": [
+     "Hydroxyl radicals are the most reactive oxygen species and attack the nearest molecule.",
+     "In membranes, they pull hydrogen atoms from polyunsaturated fatty acids, creating lipid radicals.",
+     "Lipid radicals react with oxygen to form peroxyl radicals that attack neighboring lipids, so the damage spreads as a chain."
+    ],
+    "why": "Neutrophils make superoxide with NADPH oxidase. Superoxide is converted to hydrogen peroxide, and hydrogen peroxide reacting with Fe2+ (the Fenton reaction) yields the hydroxyl radical. Hydroxyl radicals start lipid peroxidation by removing a hydrogen atom from a polyunsaturated fatty acid. The lipid radical combines with oxygen to form a peroxyl radical, which attacks the next fatty acid, and the reaction spreads until an antioxidant such as vitamin E stops it. The result is leaky, damaged membranes. The same radicals also oxidize proteins and break DNA strands.",
+    "whyNot": [
+     "Detergents such as bile salts dissolve membranes by pulling lipids into mixed micelles. Hydroxyl radicals act through oxidation, not as detergents.",
+     "Hydrolysis of phospholipid ester bonds is done by phospholipases, such as the alpha toxin of Clostridium perfringens. It is an enzyme reaction that does not need radicals.",
+     "Pore-forming complexes include the complement membrane attack complex and perforin. They are proteins, not oxygen radicals.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Free radical injury and lipid peroxidation"
+     ],
+     "comps": [
+      "IN-6",
+      "IN-8"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "IN-C40",
+  "system": "IN",
+  "dx": "Mycosis fungoides progressing to Sezary syndrome with erythroderma",
+  "codes": [
+   "IN-13-G"
+  ],
+  "case": "A 67-year-old man comes to the physician because of red, scaling, intensely itchy skin over his whole body for 4 months. For 8 years before this, he had slowly enlarging, scaly, red-brown patches on his buttocks and lower trunk, some of which became thick plaques. His temperature is 36.6 °C (97.9 °F), pulse is 96/min, respirations are 16/min, and blood pressure is 132/78 mm Hg. Physical examination shows diffuse erythema with fine scale over more than 80% of the body surface, thickened skin of the palms and soles, and enlarged, nontender lymph nodes in the neck, axillae, and groin. Leukocyte count is 14,200/mm3 (4,500 to 11,000), with an absolute Sézary cell count of 1,600/mm3 (1,000 or higher supports Sézary syndrome) and a CD4:CD8 ratio of 14 (about 1 to 3). Diagnosis: mycosis fungoides progressing to Sézary syndrome.",
+  "questions": [
+   {
+    "id": "IN-C40-Q1",
+    "stem": "A biopsy specimen taken from one of his earlier plaques would most likely show which of the following?",
+    "options": [
+     "Spongiotic vesicles with many eosinophils in the dermis",
+     "Epidermal clusters of atypical cerebriform T cells",
+     "Neutrophilic microabscesses at the dermal papillary tips",
+     "Bandlike lymphocytic infiltrate with necrotic basal cells"
+    ],
+    "answer": 1,
+    "sea": "X",
+    "comp": "IN-13-G",
+    "obj": "IN-13-G.6",
+    "dok": 3,
+    "approach": [
+     "Years of slowly growing patches and plaques on skin covered by clothing, followed by erythroderma with circulating atypical cells, describe mycosis fungoides progressing to Sézary syndrome.",
+     "Mycosis fungoides is a lymphoma of skin-homing CD4 T cells that move into the epidermis.",
+     "Clusters of these cells in the epidermis are Pautrier microabscesses, and the cells have folded, cerebriform nuclei."
+    ],
+    "why": "Mycosis fungoides is the most common cutaneous T cell lymphoma. Malignant CD4 T cells home to the skin and pass through patch, plaque, and tumor stages over years. Plaques show atypical lymphocytes with convoluted, cerebriform nuclei collecting in the epidermis as Pautrier microabscesses, with little spongiosis. Sézary syndrome is the leukemic form, with erythroderma, lymphadenopathy, and circulating Sézary cells, and it has a poor prognosis.",
+    "whyNot": [
+     "Spongiotic vesicles with eosinophils describe eczematous or allergic contact dermatitis. Mycosis fungoides cells enter the epidermis with little spongiosis.",
+     "Correct.",
+     "Neutrophilic microabscesses at the dermal papillary tips are typical of dermatitis herpetiformis.",
+     "A bandlike infiltrate with damaged basal keratinocytes is lichen planus, an interface dermatitis."
+    ],
+    "study": {
+     "topics": [
+      "Mycosis fungoides and Sézary syndrome",
+      "Cutaneous T cell lymphoma histology"
+     ],
+     "comps": [
+      "IN-13-G",
+      "IN-11"
+     ]
+    }
+   },
+   {
+    "id": "IN-C40-Q2",
+    "stem": "Before his diagnosis, scabies was considered as a cause of his itching. Which of the following findings would most strongly have supported scabies?",
+    "options": [
+     "Lice and their eggs in the seams of clothing",
+     "Nits cemented to hair shafts near the scalp",
+     "Linear groups of three bites on exposed skin",
+     "Burrows in finger web spaces and on wrists"
+    ],
+    "answer": 3,
+    "sea": "M",
+    "comp": "IN-13-H",
+    "obj": "IN-13-H.21",
+    "dok": 2,
+    "approach": [
+     "Scabies is caused by the mite Sarcoptes scabiei, which tunnels within the stratum corneum.",
+     "Its burrows are thin, wavy lines in the finger webs, wrists, elbows, axillae, and genitals, with itching worse at night.",
+     "Lice and bedbugs live on hair, clothing, or bedding and do not burrow."
+    ],
+    "why": "The female Sarcoptes scabiei mite burrows into the stratum corneum and lays eggs. The itch comes from a delayed hypersensitivity reaction to mites, eggs, and feces, so it starts weeks after a first infestation and is worse at night. Burrows favor the finger webs, wrists, and genitals. In immunosuppressed or debilitated patients, crusted scabies carries very large numbers of mites and produces thick crusted plaques that can mimic other causes of erythroderma, and it spreads easily to contacts.",
+    "whyNot": [
+     "Body lice live in clothing seams and feed on the skin. They transmit Rickettsia prowazekii (epidemic typhus) and Bartonella quintana (trench fever), but they do not burrow.",
+     "Nits on hair shafts point to head lice or, in pubic hair, crab lice (Pthirus pubis). Lice do not burrow.",
+     "Linear groups of bites on exposed skin, often called breakfast, lunch, and dinner, suggest bedbug (Cimex) bites, which occur during sleep.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Scabies",
+      "Lice and bedbugs"
+     ],
+     "comps": [
+      "IN-13-H",
+      "IN-12"
+     ]
+    }
+   },
+   {
+    "id": "IN-C40-Q3",
+    "stem": "His erythrodermic skin becomes colonized with Staphylococcus aureus. His keratinocytes detect lipoteichoic acid and lipoproteins from these bacteria. Which of the following best describes the keratinocytes' innate response?",
+    "options": [
+     "TLR2 signaling that induces defensins",
+     "Migration to lymph nodes to prime naive T cells",
+     "IgE-triggered release of preformed histamine",
+     "Secretion of opsonizing IgA onto the skin surface"
+    ],
+    "answer": 0,
+    "sea": "M",
+    "comp": "IN-11",
+    "obj": "IN-11.1",
+    "dok": 2,
+    "approach": [
+     "Keratinocytes are innate immune cells as well as barrier cells.",
+     "They carry Toll-like receptors, and TLR2 recognizes gram-positive lipoteichoic acid and lipoproteins.",
+     "Signaling through NF-kB induces IL-1, TNF, and antimicrobial peptides such as beta-defensins and cathelicidin."
+    ],
+    "why": "Keratinocytes express pattern recognition receptors such as TLR2. When bacterial products bind, NF-kB signaling turns on IL-1, TNF, and chemokines that recruit neutrophils, and it raises production of beta-defensins and cathelicidin (LL-37), which disrupt bacterial membranes. Langerhans cells, not keratinocytes, carry antigen to regional lymph nodes to prime naive T cells, and mast cells release histamine.",
+    "whyNot": [
+     "Correct.",
+     "Langerhans cells, the dendritic cells of the epidermis, capture antigen and migrate to lymph nodes to prime naive T cells. Keratinocytes stay in the epidermis.",
+     "IgE-triggered histamine release is a mast cell function in type I hypersensitivity, not a keratinocyte response to bacteria.",
+     "Antibodies are made by plasma cells. Keratinocytes do not make IgA."
+    ],
+    "study": {
+     "topics": [
+      "Innate immunity of keratinocytes",
+      "Antimicrobial peptides"
+     ],
+     "comps": [
+      "IN-11",
+      "IN-9"
+     ]
+    }
+   },
+   {
+    "id": "IN-C40-Q4",
+    "stem": "During a heat wave, the air conditioning on his ward fails, and the air reaches 37 °C (98.6 °F) with a relative humidity of 90%. He sweats heavily, but the sweat drips from his skin, and his core temperature rises. Which of the following best explains why his sweating fails to cool him?",
+    "options": [
+     "Reflex constriction of dermal arterioles in heat",
+     "Reduced secretion of sweat by each eccrine gland",
+     "Small water vapor gradient from skin to air",
+     "Lower heat of vaporization of sweat at high temperature"
+    ],
+    "answer": 2,
+    "sea": "P",
+    "comp": "IN-4",
+    "obj": "IN-4.2",
+    "dok": 3,
+    "approach": [
+     "With air at 37 °C (98.6 °F), the skin is no warmer than the air, so radiation, conduction, and convection cannot remove heat.",
+     "Only evaporation remains, and it depends on the difference in water vapor pressure between the wet skin and the air.",
+     "At 90% humidity that difference is small, so sweat drips off without evaporating and removes almost no heat."
+    ],
+    "why": "Each gram of sweat that evaporates removes about 0.58 kcal of heat, but sweat that drips off removes almost none. Evaporation is driven by the difference between water vapor pressure at the wet skin surface and in the surrounding air. In humid air this gradient shrinks, so evaporation slows even when sweat output is high. When air temperature also exceeds skin temperature, conduction and convection add heat to the body instead of removing it, which is why hot, humid conditions are the most dangerous for heat illness.",
+    "whyNot": [
+     "In heat, the hypothalamus lowers sympathetic tone to skin vessels, causing vasodilation rather than constriction. His erythroderma also keeps skin vessels dilated.",
+     "His glands are producing plenty of sweat, as the dripping shows. The problem is that the sweat cannot evaporate.",
+     "Correct.",
+     "The heat of vaporization of water changes very little over this temperature range. How much heat is removed depends on how much sweat evaporates."
+    ],
+    "study": {
+     "topics": [
+      "Routes of heat loss",
+      "Humidity and evaporative cooling"
+     ],
+     "comps": [
+      "IN-4",
+      "IN-1"
+     ]
+    }
+   }
+  ]
+ }
+]

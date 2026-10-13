@@ -1,0 +1,1585 @@
+[
+ {
+  "id": "GI-C81",
+  "system": "GI",
+  "dx": "Sigmoid colon adenocarcinoma in MUTYH-associated polyposis",
+  "codes": [
+   "GI-13-K7"
+  ],
+  "case": "A 54-year-old man comes to the physician because of a 3-month history of increasing constipation, narrow stools, and intermittent cramping pain in the left lower quadrant. His 58-year-old brother had a colectomy for numerous colonic adenomas. His parents have had normal colonoscopies. Hemoglobin is 13.9 g/dL (13.5 to 17.5). Colonoscopy shows about 60 adenomatous polyps scattered through the colon and an annular, constricting mass in the sigmoid colon. Biopsy of the mass shows invasive adenocarcinoma. Germline testing shows a pathogenic MUTYH variant on each of his two alleles and no APC variant. The diagnosis is sigmoid colon adenocarcinoma in MUTYH-associated polyposis.",
+  "questions": [
+   {
+    "id": "GI-C81-Q1",
+    "stem": "His 25-year-old son asks about his own risk. The son's mother has no MUTYH variant on genetic testing. Which of the following best describes the son's risk of developing the same polyposis syndrome?",
+    "options": [
+     "Very low, because he can inherit only one mutant allele",
+     "About 25 percent, because both of the patient's parents are carriers",
+     "About 50 percent, because one mutant allele causes the disorder",
+     "Nearly 100 percent, because the father's variants are fully penetrant"
+    ],
+    "answer": 0,
+    "sea": "B",
+    "comp": "GI-10",
+    "obj": "GI-10.5",
+    "dok": 3,
+    "approach": [
+     "Note that the disease needed a mutant MUTYH allele on both chromosomes, so it is autosomal recessive.",
+     "The son gets one mutant allele from his father and a normal allele from his mother, who has no variant.",
+     "One mutant allele makes him a carrier, not an affected person."
+    ],
+    "why": "MUTYH-associated polyposis is autosomal recessive. The patient's parents are carriers, which is why they had normal colonoscopies while two of their sons were affected. The son must inherit one mutant allele from his father, but his mother has none to give, so he will be a heterozygous carrier with a very low risk of the syndrome. This is the key contrast with familial adenomatous polyposis, which is autosomal dominant and passes to about half of an affected parent's children.",
+    "whyNot": [
+     "Correct.",
+     "The patient's parents are indeed carriers, but that sets the risk for the patient's siblings (1 in 4), not for his son.",
+     "A 50 percent risk fits an autosomal dominant disorder such as familial adenomatous polyposis from a germline APC mutation.",
+     "Each child receives only one of the father's two alleles, so the son cannot get both mutant copies from him."
+    ],
+    "study": {
+     "topics": [
+      "MUTYH-associated polyposis inheritance",
+      "Autosomal recessive risk calculations"
+     ],
+     "comps": [
+      "GI-10",
+      "GI-13-K7"
+     ]
+    }
+   },
+   {
+    "id": "GI-C81-Q2",
+    "stem": "Immunohistochemistry of his tumor shows intact nuclear staining for MLH1, MSH2, MSH6, and PMS2, and the tumor is microsatellite stable. Sequencing shows G:C to T:A transversions that inactivate APC and activate KRAS. Which of the following best explains why his tumor developed through the APC, KRAS, and TP53 pathway rather than the pathway of Lynch syndrome?",
+    "options": [
+     "Failed repair of base mismatches in repetitive DNA sequences",
+     "Failed removal of pyrimidine dimers by nucleotide excision",
+     "Failed removal of adenine paired with oxidized guanine",
+     "Failed repair of double-strand breaks by homologous recombination"
+    ],
+    "answer": 2,
+    "sea": "B",
+    "comp": "GI-10",
+    "obj": "GI-10.4",
+    "dok": 3,
+    "approach": [
+     "Intact mismatch repair proteins and microsatellite stability rule out the Lynch pathway.",
+     "Recall that MUTYH is a base excision repair glycosylase.",
+     "Link its failure to G:C to T:A point mutations that hit APC and KRAS, the same driver genes as the classic adenoma to carcinoma sequence."
+    ],
+    "why": "MUTYH removes adenine that has been wrongly placed opposite 8-oxoguanine, a common oxidative lesion. Without it, the mispair is copied as a G:C to T:A transversion. These point mutations inactivate APC and activate KRAS, so tumors follow the same APC, KRAS, and TP53 sequence as sporadic adenomas. Lynch syndrome tumors instead arise from loss of mismatch repair (MLH1, MSH2, MSH6, PMS2), which produces microsatellite instability.",
+    "whyNot": [
+     "Mismatch repair failure is the Lynch syndrome mechanism and would cause microsatellite instability with loss of staining, both absent here.",
+     "Nucleotide excision repair of UV-induced pyrimidine dimers is defective in xeroderma pigmentosum, which causes skin cancers.",
+     "Correct.",
+     "Homologous recombination repair is defective with BRCA1 and BRCA2 mutations, which raise the risk of breast and ovarian cancer."
+    ],
+    "study": {
+     "topics": [
+      "Base excision repair and MUTYH",
+      "Chromosomal instability versus microsatellite instability pathways"
+     ],
+     "comps": [
+      "GI-10",
+      "GI-13-K7"
+     ]
+    }
+   },
+   {
+    "id": "GI-C81-Q3",
+    "stem": "Before surgery, his serum carcinoembryonic antigen (CEA) concentration is 14 ng/mL (under 3.0). Four weeks after sigmoid resection, it is 1.8 ng/mL. Which of the following is the most appropriate use of this marker in his care?",
+    "options": [
+     "Screening his siblings for early colorectal cancer",
+     "Confirming the diagnosis of new polyps without biopsy",
+     "Distinguishing adenomas from hyperplastic polyps",
+     "Detecting recurrence during follow-up after resection"
+    ],
+    "answer": 3,
+    "sea": "X",
+    "comp": "GI-13-K7",
+    "obj": "GI-13-K.10",
+    "dok": 2,
+    "approach": [
+     "The CEA was high before surgery and fell to normal after the tumor was removed, so the tumor was its source.",
+     "A marker that tracks tumor burden is useful for follow-up, not for screening or diagnosis.",
+     "A later rise would signal recurrence or metastasis."
+    ],
+    "why": "CEA is a glycoprotein made by many colorectal adenocarcinomas. It lacks the sensitivity and specificity needed for screening or diagnosis, because early cancers often have normal values and smoking and inflammation can raise it. When CEA is high before surgery and falls to normal after resection, serial measurements become a good way to watch for recurrence.",
+    "whyNot": [
+     "Early cancers often have a normal CEA, so it misses too many to screen relatives; his siblings need colonoscopy.",
+     "Polyps do not reliably raise CEA, and only histology can classify a polyp.",
+     "CEA does not distinguish polyp types; histology does.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Carcinoembryonic antigen as a tumor marker",
+      "Left-sided colon cancer presentation"
+     ],
+     "comps": [
+      "GI-13-K7"
+     ]
+    }
+   },
+   {
+    "id": "GI-C81-Q4",
+    "stem": "One of the polyps removed from his rectum is 4 mm across. Microscopic examination shows crypts with a sawtooth luminal outline in their upper half, narrow crypt bases of normal shape, and no dysplasia. Which of the following best classifies this polyp?",
+    "options": [
+     "Sessile serrated lesion, with risk of progression to carcinoma",
+     "Hyperplastic polyp, with negligible malignant potential",
+     "Tubular adenoma, with risk of progression to carcinoma",
+     "Juvenile polyp, a hamartoma with negligible malignant potential"
+    ],
+    "answer": 1,
+    "sea": "A",
+    "comp": "GI-13-K7",
+    "obj": "GI-13-K.11",
+    "dok": 2,
+    "approach": [
+     "Notice the serrated outline limited to the upper crypts with normal crypt bases.",
+     "Serration confined to the top of the crypt in a small left-sided polyp defines a hyperplastic polyp.",
+     "Hyperplastic polyps have essentially no malignant potential."
+    ],
+    "why": "Hyperplastic polyps are small, usually in the rectosigmoid, and show a sawtooth outline only in the upper part of the crypts, where mature cells pile up before shedding. The crypt bases stay narrow and normal. A sessile serrated lesion also has serration, but it extends to the crypt bases, which become dilated and boot-shaped, and these lesions are more often in the right colon and can progress to cancer. Adenomas are defined by dysplasia.",
+    "whyNot": [
+     "A sessile serrated lesion has serration down to dilated, distorted crypt bases, not narrow normal bases.",
+     "Correct.",
+     "A tubular adenoma shows dysplastic epithelium with crowded, elongated, hyperchromatic nuclei, which is absent here.",
+     "A juvenile polyp is a hamartoma with cystically dilated glands in an inflamed lamina propria, not serrated crypts."
+    ],
+    "study": {
+     "topics": [
+      "Classification of colonic polyps",
+      "Hyperplastic polyp versus sessile serrated lesion"
+     ],
+     "comps": [
+      "GI-13-K7",
+      "GI-2"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "GI-C82",
+  "system": "GI",
+  "dx": "Perianal abscess and fistula-in-ano in Crohn disease",
+  "codes": [
+   "GI-13-G9"
+  ],
+  "case": "A 26-year-old woman comes to the physician because of 5 days of throbbing pain beside the anus that is worse when she sits. She has had Crohn disease of the terminal ileum for 6 years. Temperature is 38.3 °C (100.9 °F), pulse is 98/min, respirations are 16/min, and blood pressure is 118/74 mm Hg. Examination shows a tender, red, fluctuant swelling in the perianal skin 3 cm from the anal verge. Leukocyte count is 13,800/mm3 (4,500 to 11,000). The abscess is incised and drained. Eight weeks later, pus still drains from a small opening in the perianal skin, and examination under anesthesia shows a tract running from an anal crypt to this opening. The diagnosis is perianal abscess and fistula-in-ano in Crohn disease.",
+  "questions": [
+   {
+    "id": "GI-C82-Q1",
+    "stem": "Three years earlier, she had severe tearing pain with each bowel movement and a streak of bright red blood on the toilet paper. She had no fever and no perianal swelling, and the pain resolved over 6 weeks. Which of the following was most likely seen on examination at that time?",
+    "options": [
+     "Tender fluctuant swelling lateral to the anus",
+     "Linear tear of the anoderm below the pectinate line",
+     "Circumferential rectal mucosa protruding with straining",
+     "External skin opening that drains purulent fluid"
+    ],
+    "answer": 1,
+    "sea": "X",
+    "comp": "GI-13-G9",
+    "obj": "GI-13-G.13",
+    "dok": 2,
+    "approach": [
+     "Pain with each bowel movement plus a little bright red blood, without fever or swelling, is the pattern of an anal fissure.",
+     "A fissure is a tear in the sensitive anoderm below the pectinate line.",
+     "Match that to the exam finding."
+    ],
+    "why": "An anal fissure is a linear tear in the anoderm below the pectinate line. Because this skin has somatic innervation, defecation causes sharp, tearing pain, and the bleeding is small and bright red. Most fissures lie in the posterior midline. Fissures off the midline should raise concern for Crohn disease. An abscess causes constant throbbing pain with fever and a fluctuant mass, and a fistula drains pus from an external opening.",
+    "whyNot": [
+     "A fluctuant swelling is an anorectal abscess, which causes constant pain and often fever, both absent at that time.",
+     "Correct.",
+     "Protruding circumferential rectal mucosa is rectal prolapse, which presents with a mass and mucus soiling rather than sharp pain with each stool.",
+     "A draining external opening is a fistula-in-ano, her later problem, which usually follows an abscess."
+    ],
+    "study": {
+     "topics": [
+      "Anal fissure versus abscess and fistula",
+      "Anorectal disorders in Crohn disease"
+     ],
+     "comps": [
+      "GI-13-G",
+      "GI-5"
+     ]
+    }
+   },
+   {
+    "id": "GI-C82-Q2",
+    "stem": "The abscess lies in the perianal skin distal to the pectinate line. Lymph from this region first drains to which of the following groups of lymph nodes?",
+    "options": [
+     "Internal iliac nodes",
+     "Inferior mesenteric artery nodes",
+     "Para-aortic lumbar nodes",
+     "Superficial inguinal nodes"
+    ],
+    "answer": 3,
+    "sea": "A",
+    "comp": "GI-5",
+    "obj": "GI-5.5",
+    "dok": 2,
+    "approach": [
+     "Place the lesion below the pectinate line.",
+     "Below the line, the anal canal and perianal skin come from ectoderm and drain like the rest of the perineal skin.",
+     "Perineal skin lymph drains to the superficial inguinal nodes."
+    ],
+    "why": "The pectinate line divides the anal canal into two territories. Above it, the lining is endodermal columnar epithelium with visceral pain fibers, portal venous drainage through the superior rectal vein, and lymph drainage to internal iliac nodes. Below it, the lining is ectodermal squamous epithelium with somatic pain fibers from the inferior rectal nerve, systemic venous drainage, and lymph drainage to the superficial inguinal nodes. Infection or cancer below the line can therefore enlarge nodes in the groin.",
+    "whyNot": [
+     "Internal iliac nodes drain the anal canal above the pectinate line.",
+     "Inferior mesenteric nodes drain the hindgut colon and upper rectum.",
+     "Para-aortic lumbar nodes receive lymph from deeper nodes and from the gonads, not first from perianal skin.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Anal canal above and below the pectinate line"
+     ],
+     "comps": [
+      "GI-5",
+      "GI-13-J2"
+     ]
+    }
+   },
+   {
+    "id": "GI-C82-Q3",
+    "stem": "Biopsy of the fistula tract shows transmural inflammation with noncaseating granulomas. Many of the infiltrating CD4+ T cells secrete interleukin-17. Which of the following is the main effect of this cytokine in her lesion?",
+    "options": [
+     "Recruitment of neutrophils to the tissue",
+     "Activation of eosinophils within the tissue",
+     "Class switching of B cells to produce IgE",
+     "Suppression of effector T cells in the tissue"
+    ],
+    "answer": 0,
+    "sea": "M",
+    "comp": "GI-11",
+    "obj": "GI-11.3",
+    "dok": 2,
+    "approach": [
+     "Identify the IL-17 secreting CD4+ T cells as Th17 cells.",
+     "Recall that IL-17 induces chemokines and growth factors that call in neutrophils.",
+     "Neutrophil recruitment adds to the tissue injury that builds fistulas and abscesses in Crohn disease."
+    ],
+    "why": "In Crohn disease, defective handling of commensal bacteria drives Th1 and Th17 responses. Th1 cells release interferon-gamma, which activates macrophages and builds granulomas. Th17 cells release IL-17, which stimulates epithelial and stromal cells to make chemokines such as CXCL8 and growth factors such as G-CSF, recruiting and producing neutrophils. These neutrophils add to the tissue damage that forms ulcers, fistulas, and abscesses.",
+    "whyNot": [
+     "Correct.",
+     "Eosinophils are activated by IL-5 from Th2 cells, as in parasitic and allergic disease.",
+     "Class switching to IgE is driven by IL-4 and IL-13 from Th2 cells.",
+     "Suppression of effector T cells is the role of regulatory T cells through IL-10 and TGF-beta. IL-17 promotes inflammation instead."
+    ],
+    "study": {
+     "topics": [
+      "Th17 cells and IL-17",
+      "Immune mechanisms of Crohn disease"
+     ],
+     "comps": [
+      "GI-11",
+      "GI-13-G9"
+     ]
+    }
+   },
+   {
+    "id": "GI-C82-Q4",
+    "stem": "Two years later, 40 cm of her terminal ileum is resected because of a stricture. Afterward, she has 4 to 6 watery stools daily without excess fecal fat. The diarrhea improves when she takes cholestyramine, a resin that binds bile acids. Which of the following best explains her diarrhea?",
+    "options": [
+     "Lactase loss from the brush border of the remaining jejunum",
+     "Rapid transit of chyme through the shortened small intestine",
+     "Unabsorbed bile acids stimulating colonic fluid secretion",
+     "Fat malabsorption from depletion of the circulating bile acid pool"
+    ],
+    "answer": 2,
+    "sea": "B",
+    "comp": "GI-13-G9",
+    "obj": "GI-13-G.11",
+    "dok": 3,
+    "approach": [
+     "The terminal ileum is the site of active bile acid reabsorption.",
+     "A short resection lets bile acids spill into the colon, but the liver can still make enough to digest fat, so stool fat is normal.",
+     "Bile acids in the colon cause secretion of water and electrolytes, which a binding resin blocks."
+    ],
+    "why": "The terminal ileum reabsorbs about 95 percent of bile acids through a sodium-coupled transporter. After a short ileal resection (under about 100 cm), more bile acids reach the colon, where they stimulate chloride and water secretion and cause watery diarrhea. The liver increases synthesis enough to keep the bile acid pool adequate, so fat digestion continues. Binding the bile acids with a resin stops the diarrhea. With longer resections, losses exceed synthesis and steatorrhea results instead.",
+    "whyNot": [
+     "Lactase deficiency causes osmotic diarrhea after dairy and would not improve with a bile acid binding resin.",
+     "Faster transit may contribute, but it would not explain the clear response to a bile acid binder.",
+     "Correct.",
+     "Depletion of the bile acid pool causes steatorrhea after long ileal resections; her stool fat is normal."
+    ],
+    "study": {
+     "topics": [
+      "Bile acid diarrhea after ileal resection",
+      "Complications of Crohn disease"
+     ],
+     "comps": [
+      "GI-13-G9",
+      "GI-7",
+      "GI-13-E"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "GI-C83",
+  "system": "GI",
+  "dx": "Acute sigmoid diverticulitis with a pericolic abscess",
+  "codes": [
+   "GI-13-G3"
+  ],
+  "case": "A 67-year-old man is brought to the emergency department because of 3 days of constant pain in the left lower quadrant and fever. He has long-standing constipation and eats a low-fiber diet. Temperature is 38.7 °C (101.7 °F), pulse is 104/min, respirations are 18/min, and blood pressure is 132/80 mm Hg. There is tenderness with guarding in the left lower quadrant. Leukocyte count is 16,200/mm3 (4,500 to 11,000). CT of the abdomen shows many sigmoid diverticula, thickening of the sigmoid wall with stranding of the surrounding fat, and a 4-cm rim-enhancing fluid collection beside the sigmoid colon. The diagnosis is acute sigmoid diverticulitis with a pericolic abscess.",
+  "questions": [
+   {
+    "id": "GI-C83-Q1",
+    "stem": "Which of the following best explains why his diverticula formed mainly in the sigmoid colon?",
+    "options": [
+     "Narrow lumen in which segmental contractions generate high pressure",
+     "Absence of the taeniae coli that reinforce the rest of the colonic wall",
+     "Absence of a muscularis mucosae where the vasa recta enter the wall",
+     "Watershed blood supply between the middle and left colic arteries"
+    ],
+    "answer": 0,
+    "sea": "P",
+    "comp": "GI-13-G3",
+    "obj": "GI-13-G.3",
+    "dok": 3,
+    "approach": [
+     "Diverticula are herniations of mucosa through weak points in the wall, pushed out by high pressure in the lumen.",
+     "By the law of Laplace, a segment with a small radius generates the highest pressure for a given wall tension.",
+     "The sigmoid is the narrowest part of the colon, and a low-fiber diet makes it contract hard on small, firm stools."
+    ],
+    "why": "Colonic diverticula are false diverticula: mucosa and submucosa push out through the muscular wall where the vasa recta penetrate it. The driving force is high intraluminal pressure from exaggerated segmental contractions. Because pressure is proportional to wall tension divided by radius, the narrow sigmoid builds the highest pressures, especially with small stool volumes from a low-fiber diet. That is why most diverticula in Western patients are in the sigmoid.",
+    "whyNot": [
+     "Correct.",
+     "Taeniae coli are present along the sigmoid colon; they end at the rectosigmoid junction, where the rectum begins.",
+     "The colonic mucosa has a muscularis mucosae throughout. The weak points are in the muscularis externa where vessels pass.",
+     "The watershed between the middle and left colic territories is at the splenic flexure, a site of ischemic colitis, not diverticula."
+    ],
+    "study": {
+     "topics": [
+      "Pathogenesis of diverticulosis",
+      "Law of Laplace in the colon"
+     ],
+     "comps": [
+      "GI-13-G3",
+      "GI-6"
+     ]
+    }
+   },
+   {
+    "id": "GI-C83-Q2",
+    "stem": "At laparotomy, a loop of bowel is found stuck to the wall of the abscess. Which of the following findings would identify this loop as colon rather than ileum?",
+    "options": [
+     "A mesentery attaching it to the posterior abdominal wall",
+     "Long vasa recta arising from few arterial arcades",
+     "Omental appendices projecting from its serosa",
+     "A complete outer coat of longitudinal muscle"
+    ],
+    "answer": 2,
+    "sea": "A",
+    "comp": "GI-3",
+    "obj": "GI-3.4",
+    "dok": 2,
+    "approach": [
+     "List the external features that only the colon has: taeniae coli, haustra, and omental appendices.",
+     "Check each option against both segments.",
+     "Small fat-filled peritoneal tags on the serosa are found only on the colon."
+    ],
+    "why": "The colon has three surface features that the small intestine lacks. Its outer longitudinal muscle is gathered into three bands, the taeniae coli. Their pull creates sacculations called haustra. Small fat-filled pouches of peritoneum, the omental (epiploic) appendices, hang from its surface. Seeing these appendices on a loop identifies it as colon.",
+    "whyNot": [
+     "The ileum has a mesentery, and so does the sigmoid colon, so a mesentery does not tell them apart.",
+     "Long vasa recta with few arcades describe the jejunum. The ileum has short vasa recta and many arcades, and the colon is not identified this way.",
+     "Correct.",
+     "A continuous outer longitudinal muscle coat belongs to the small intestine. In the colon this layer is gathered into taeniae coli."
+    ],
+    "study": {
+     "topics": [
+      "Distinguishing colon from small intestine"
+     ],
+     "comps": [
+      "GI-3",
+      "GI-2"
+     ]
+    }
+   },
+   {
+    "id": "GI-C83-Q3",
+    "stem": "Eight weeks after recovery, colonoscopy also shows three flat, cherry-red lesions, each 4 mm across, made of dilated, tortuous submucosal vessels in the cecum. Which of the following best explains why these lesions form mainly in the cecum?",
+    "options": [
+     "Narrowest lumen with the highest segmental pressures",
+     "Greatest wall tension from the widest colonic diameter",
+     "Weak points where vasa recta penetrate the circular muscle",
+     "Portosystemic collateral veins draining the right colon"
+    ],
+    "answer": 1,
+    "sea": "X",
+    "comp": "GI-13-J4",
+    "obj": "GI-13-J.4",
+    "dok": 3,
+    "approach": [
+     "Identify the lesions as angiodysplasia.",
+     "By the law of Laplace, wall tension rises with radius, so the wide cecum has the highest wall tension.",
+     "High tension repeatedly squeezes the submucosal veins where they cross the muscle, and they slowly dilate."
+    ],
+    "why": "Angiodysplasia is a collection of dilated, tortuous mucosal and submucosal vessels, mostly in the cecum and right colon of older adults. The cecum has the widest diameter, so its wall tension is the greatest. Contraction and distension repeatedly obstruct the submucosal veins as they pass through the muscle, and over years the veins and capillaries dilate. The lesions cause painless lower GI bleeding and are linked to aortic stenosis and end-stage kidney disease.",
+    "whyNot": [
+     "High pressure in a narrow lumen explains diverticula in the sigmoid colon, not vascular lesions in the cecum.",
+     "Correct.",
+     "Weak points where vasa recta penetrate are where diverticula form, not where vessels dilate.",
+     "Portosystemic collaterals in portal hypertension form varices at sites such as the esophagus and rectum. They do not explain angiodysplasia."
+    ],
+    "study": {
+     "topics": [
+      "Angiodysplasia",
+      "Diverticulosis versus angiodysplasia"
+     ],
+     "comps": [
+      "GI-13-J4",
+      "GI-13-G3"
+     ]
+    }
+   },
+   {
+    "id": "GI-C83-Q4",
+    "stem": "His pain began as a dull, poorly localized ache in the suprapubic region before it moved to the left lower quadrant. Which of the following best explains the initial location of his pain?",
+    "options": [
+     "Midgut derivative supplied by the ileocolic and right colic arteries",
+     "Foregut derivative supplied by the celiac trunk",
+     "Hindgut derivative supplied by the internal iliac artery",
+     "Hindgut derivative supplied by the inferior mesenteric artery"
+    ],
+    "answer": 3,
+    "sea": "A",
+    "comp": "GI-1",
+    "obj": "GI-1.1",
+    "dok": 2,
+    "approach": [
+     "Early visceral pain is felt in the midline region that matches the embryonic gut division.",
+     "The sigmoid colon is a hindgut derivative supplied by the inferior mesenteric artery.",
+     "Hindgut visceral pain is referred to the suprapubic region. Pain moves to the left lower quadrant once the parietal peritoneum is inflamed."
+    ],
+    "why": "Visceral pain fibers travel with the sympathetic nerves that follow the arteries of each gut division, so the pain is felt in the midline dermatomes of that division. Foregut pain is epigastric, midgut pain is periumbilical, and hindgut pain is suprapubic. The sigmoid colon is hindgut, supplied by sigmoid branches of the inferior mesenteric artery. When inflammation reaches the somatically innervated parietal peritoneum, the pain becomes sharp and localizes over the site, here the left lower quadrant.",
+    "whyNot": [
+     "The ileocolic and right colic arteries supply midgut structures, the cecum and ascending colon, whose pain is periumbilical.",
+     "The celiac trunk supplies foregut structures, whose pain is epigastric.",
+     "The internal iliac artery supplies the lower rectum and anal canal through the middle and inferior rectal arteries, not the sigmoid colon.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Gut divisions and referred visceral pain"
+     ],
+     "comps": [
+      "GI-1",
+      "GI-5"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "GI-C84",
+  "system": "GI",
+  "dx": "Ruptured hepatocellular adenoma in a woman taking oral contraceptives",
+  "codes": [
+   "GI-13-K4"
+  ],
+  "case": "A 31-year-old woman is brought to the emergency department 1 hour after the sudden onset of severe right upper quadrant pain followed by lightheadedness. She has taken a combined oral contraceptive for 12 years. Temperature is 36.8 °C (98.2 °F), pulse is 124/min, respirations are 22/min, and blood pressure is 84/52 mm Hg. The abdomen is distended and diffusely tender. Hemoglobin is 8.6 g/dL (12.0 to 16.0). CT shows a 7-cm hemorrhagic mass in the right lobe of the liver with free intraperitoneal blood. A second, 1.5-cm lesion in the left lobe shows peripheral nodular enhancement that fills in toward its center on delayed images. The rest of the liver is normal. Surgery confirms a ruptured hepatocellular adenoma.",
+  "questions": [
+   {
+    "id": "GI-C84-Q1",
+    "stem": "Which of the following best describes the 1.5-cm lesion in the left lobe?",
+    "options": [
+     "Second hepatocellular adenoma, at high risk of rupture",
+     "Metastasis from an occult primary colorectal adenocarcinoma",
+     "Focal nodular hyperplasia, with a central stellate scar",
+     "Cavernous hemangioma, the most common benign liver tumor"
+    ],
+    "answer": 3,
+    "sea": "X",
+    "comp": "GI-13-K4",
+    "obj": "GI-13-K.7",
+    "dok": 2,
+    "approach": [
+     "Peripheral nodular enhancement that fills in toward the center is the imaging pattern of blood slowly entering vascular spaces.",
+     "That pattern defines a cavernous hemangioma.",
+     "Hemangiomas are the most common benign liver tumors and are usually harmless."
+    ],
+    "why": "Cavernous hemangioma is the most common benign tumor of the liver. It is made of large, blood-filled vascular channels lined by endothelium, so contrast enters slowly from the edge and fills toward the center. Most are small, incidental, and need no treatment. Hepatocellular adenoma, by contrast, is a proliferation of benign hepatocytes linked to oral contraceptive or anabolic steroid use, and it can rupture and bleed, as in this patient.",
+    "whyNot": [
+     "An adenoma shows early arterial enhancement, not peripheral nodular enhancement with centripetal fill-in.",
+     "Metastases are the most common malignant liver lesions, but they are usually multiple and lack this fill-in pattern in an otherwise healthy young woman.",
+     "Focal nodular hyperplasia enhances brightly and evenly in the arterial phase and often has a central scar, which is a different pattern.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Benign liver tumors",
+      "Hemangioma versus hepatocellular adenoma"
+     ],
+     "comps": [
+      "GI-13-K4"
+     ]
+    }
+   },
+   {
+    "id": "GI-C84-Q2",
+    "stem": "After surgery, she is prescribed acetaminophen for pain, with a limit of 3 g per day. Which of the following best explains why liver injury from this drug occurs mainly after large doses?",
+    "options": [
+     "Glutathione conjugation of the parent drug is its main pathway at usual doses",
+     "Saturated glucuronidation and sulfation shift more drug to CYP2E1 oxidation",
+     "Cytochrome P450 enzymes metabolize the drug only above a threshold level",
+     "Large doses block the renal excretion of glucuronide conjugates"
+    ],
+    "answer": 1,
+    "sea": "B",
+    "comp": "GI-9",
+    "obj": "GI-9.3",
+    "dok": 3,
+    "approach": [
+     "At usual doses most acetaminophen is conjugated with glucuronide or sulfate and excreted.",
+     "A small fraction is oxidized by CYP2E1 to NAPQI, which glutathione quickly neutralizes.",
+     "With large doses the conjugation pathways saturate, more drug forms NAPQI, glutathione runs out, and NAPQI damages zone 3 hepatocytes."
+    ],
+    "why": "Phase II conjugation with glucuronide and sulfate handles about 90 percent of a usual acetaminophen dose. Phase I oxidation by CYP2E1 converts a small fraction into the reactive metabolite NAPQI, which is detoxified by glutathione conjugation. After a large dose, the conjugation pathways saturate, so more drug goes to CYP2E1. NAPQI production then exceeds glutathione supply, and free NAPQI binds cell proteins and kills hepatocytes, most of all in zone 3, where CYP2E1 is most abundant.",
+    "whyNot": [
+     "Glutathione conjugates NAPQI, not the parent drug. Glucuronidation and sulfation are the main pathways at usual doses.",
+     "Correct.",
+     "CYP2E1 forms a small amount of NAPQI at every dose. Toxicity appears when glutathione can no longer keep up.",
+     "Acetaminophen hepatotoxicity comes from a reactive metabolite in the liver, not from retained conjugates."
+    ],
+    "study": {
+     "topics": [
+      "Phase I and phase II drug metabolism",
+      "Acetaminophen hepatotoxicity"
+     ],
+     "comps": [
+      "GI-9",
+      "GI-13-C4"
+     ]
+    }
+   },
+   {
+    "id": "GI-C84-Q3",
+    "stem": "Her 29-year-old sister, at 33 weeks' gestation, has intense itching of the palms and soles with no rash. Serum ALT is 160 U/L (10 to 40), total bilirubin is 2.0 mg/dL (0.1 to 1.0) and mostly conjugated, and fasting serum bile acids are 48 µmol/L (under 10). Ultrasonography shows no gallstones and no bile duct dilation. Which of the following best explains her findings?",
+    "options": [
+     "Obstruction of the common bile duct by a pigment stone",
+     "Reduced bilirubin conjugation by UDP-glucuronosyltransferase",
+     "Hormone metabolites impairing canalicular bile acid export",
+     "Increased bilirubin production from intravascular hemolysis"
+    ],
+    "answer": 2,
+    "sea": "X",
+    "comp": "GI-13-C1",
+    "obj": "GI-13-C.1",
+    "dok": 3,
+    "approach": [
+     "Itching with raised serum bile acids and conjugated bilirubin means cholestasis.",
+     "Normal ducts on ultrasonography make the cause intrahepatic rather than extrahepatic.",
+     "In late pregnancy, estrogen and progesterone metabolites impair the canalicular transporters that export bile acids."
+    ],
+    "why": "This is intrahepatic cholestasis of pregnancy. High levels of estrogen and progesterone metabolites in the third trimester impair the bile salt export pump and other canalicular transporters. Bile acids then build up in the hepatocytes and blood, causing intense itching and a rise in aminotransferases, sometimes with mild conjugated hyperbilirubinemia. Drugs, total parenteral nutrition, and primary biliary cholangitis are other intrahepatic causes, while stones and tumors cause extrahepatic obstruction with dilated ducts.",
+    "whyNot": [
+     "A stone blocking the common bile duct would dilate the duct, which is not seen.",
+     "Reduced UDP-glucuronosyltransferase activity, as in Gilbert syndrome, raises unconjugated bilirubin and does not raise bile acids or cause itching.",
+     "Correct.",
+     "Hemolysis raises unconjugated bilirubin and does not raise serum bile acids."
+    ],
+    "study": {
+     "topics": [
+      "Intrahepatic versus extrahepatic cholestasis",
+      "Intrahepatic cholestasis of pregnancy"
+     ],
+     "comps": [
+      "GI-13-C1",
+      "GI-9"
+     ]
+    }
+   },
+   {
+    "id": "GI-C84-Q4",
+    "stem": "Before surgery, ultrasonography performed with her lying supine shows the largest collection of free fluid between the liver and the right kidney. Which of the following best explains why blood collected at this site?",
+    "options": [
+     "It is the lowest supracolic space when the patient is supine",
+     "It is the lowest peritoneal space when the patient is upright",
+     "It lies within the lesser sac behind the stomach and liver",
+     "It lies in the bare area of the liver, outside the peritoneum"
+    ],
+    "answer": 0,
+    "sea": "A",
+    "comp": "GI-4",
+    "obj": "GI-4.6",
+    "dok": 2,
+    "approach": [
+     "Free intraperitoneal fluid runs to the most dependent space for the patient's position.",
+     "The hepatorenal recess (Morison pouch) lies between the liver and the right kidney.",
+     "When a patient lies supine, it is the lowest part of the upper abdominal peritoneal cavity."
+    ],
+    "why": "Free fluid, blood, or pus in the peritoneal cavity collects in the lowest spaces. In a supine patient, the hepatorenal recess, between the right lobe of the liver and the right kidney, is the most dependent part of the upper abdomen, and it communicates with the right subphrenic space and the right paracolic gutter. That is why it is the first place checked for blood on bedside ultrasonography. In an upright patient, fluid falls to the rectouterine or rectovesical pouch.",
+    "whyNot": [
+     "Correct.",
+     "The lowest space when upright is the rectouterine pouch in women or the rectovesical pouch in men, not the hepatorenal recess.",
+     "The hepatorenal recess is part of the greater sac. The lesser sac lies behind the stomach.",
+     "The bare area is outside the peritoneum, so free intraperitoneal blood cannot collect there."
+    ],
+    "study": {
+     "topics": [
+      "Dependent peritoneal spaces",
+      "Hepatorenal recess"
+     ],
+     "comps": [
+      "GI-4"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "GI-C85",
+  "system": "GI",
+  "dx": "Rampant dental caries and oral candidiasis in a woman with Sjogren syndrome",
+  "codes": [
+   "GI-13-L4",
+   "GI-13-L5"
+  ],
+  "case": "A 52-year-old woman comes to the dentist because of dry mouth, many new cavities, and a burning feeling in her mouth for 4 months. She has had dry, gritty eyes for 2 years. Serum antibodies to Ro (SS-A) and La (SS-B) are positive. Examination shows little pooled saliva, carious lesions along the gum line of many teeth, and creamy white plaques on the buccal mucosa and palate that wipe off with gauze, leaving a red, raw surface. Unstimulated whole salivary flow is 0.05 mL/min (normal above 0.1). The diagnosis is rampant dental caries and oral candidiasis secondary to Sjogren syndrome.",
+  "questions": [
+   {
+    "id": "GI-C85-Q1",
+    "stem": "Which of the following best explains how the main bacterial cause of her caries damages tooth enamel?",
+    "options": [
+     "Gingipain proteases that degrade the periodontal ligament",
+     "Ammonia from urease activity that softens the dentin",
+     "Lactic acid from fermentation of dietary sugars",
+     "Exotoxin that kills odontoblasts in the dental pulp"
+    ],
+    "answer": 2,
+    "sea": "M",
+    "comp": "GI-13-L4",
+    "obj": "GI-13-L.5",
+    "dok": 2,
+    "approach": [
+     "The main cause of dental caries is Streptococcus mutans in plaque biofilm.",
+     "It ferments dietary sugars to lactic acid.",
+     "When plaque pH falls below about 5.5, enamel hydroxyapatite dissolves. With little saliva to buffer the acid, decay is rapid."
+    ],
+    "why": "Streptococcus mutans uses sucrose to build sticky glucans that anchor plaque to the tooth, and it ferments sugars to lactic acid. The acid lowers plaque pH below the level at which enamel hydroxyapatite dissolves. Normally saliva buffers this acid and helps repair early lesions, so when salivary flow falls, as in Sjogren syndrome, caries develop quickly, often along the gum line.",
+    "whyNot": [
+     "Gingipains are proteases of Porphyromonas gingivalis, a cause of periodontitis that destroys the tooth-supporting tissue, not enamel.",
+     "Urease and ammonia raise pH, which works against enamel demineralization.",
+     "Correct.",
+     "Streptococcus mutans does not damage teeth with an exotoxin. Pulp damage follows deep caries rather than starting it."
+    ],
+    "study": {
+     "topics": [
+      "Streptococcus mutans and dental caries",
+      "Gingivitis and periodontitis"
+     ],
+     "comps": [
+      "GI-13-L4",
+      "GI-9"
+     ]
+    }
+   },
+   {
+    "id": "GI-C85-Q2",
+    "stem": "Two weeks after she completes a 10-day course of amoxicillin-clavulanate for sinusitis, the white plaques in her mouth spread. Which of the following best explains this change?",
+    "options": [
+     "Loss of commensal bacteria that compete with the yeast",
+     "Drug-induced fall in the number of circulating CD4+ T cells",
+     "Direct stimulation of yeast hyphal growth by the antibiotic",
+     "Drug-induced neutropenia that impairs killing of the yeast"
+    ],
+    "answer": 0,
+    "sea": "M",
+    "comp": "GI-13-L5",
+    "obj": "GI-13-L.6",
+    "dok": 2,
+    "approach": [
+     "Plaques that wipe off to leave a red base are oral thrush from Candida albicans.",
+     "Broad-spectrum antibiotics kill oral bacteria but not fungi.",
+     "Fewer competing bacteria let Candida grow, on top of the dry mouth she already has."
+    ],
+    "why": "Candida albicans lives on the oral mucosa in many healthy people, held in check by saliva, an intact immune system, and competing bacterial flora. Broad-spectrum antibiotics remove much of that bacterial flora and free up space and nutrients for the yeast. Other common predisposing factors are infancy, inhaled corticosteroids, diabetes, dentures, dry mouth, and HIV infection with low CD4 counts.",
+    "whyNot": [
+     "Correct.",
+     "Amoxicillin-clavulanate does not lower CD4 counts. A low CD4 count predisposes to thrush in HIV infection.",
+     "Antibiotics do not directly stimulate fungal growth. They act by removing bacterial competition.",
+     "Severe neutropenia is a rare drug effect and predisposes more to invasive candidiasis than to spreading oral plaques."
+    ],
+    "study": {
+     "topics": [
+      "Oral candidiasis risk factors",
+      "Normal flora as a host defense"
+     ],
+     "comps": [
+      "GI-13-L5",
+      "GI-11"
+     ]
+    }
+   },
+   {
+    "id": "GI-C85-Q3",
+    "stem": "Her dentist notes chalky white spots of early enamel demineralization on several teeth. In a person with normal salivary flow, such early lesions can harden again over time. Which of the following salivary functions best explains this repair?",
+    "options": [
+     "Lysozyme cleavage of bacterial cell wall peptidoglycan",
+     "Secretory IgA that blocks bacterial adherence to the enamel",
+     "Lactoferrin binding of iron needed for bacterial growth",
+     "Calcium and phosphate redeposited into the enamel surface"
+    ],
+    "answer": 3,
+    "sea": "P",
+    "comp": "GI-9",
+    "obj": "GI-9.6",
+    "dok": 3,
+    "approach": [
+     "Chalky white spots are early, reversible enamel lesions in which mineral has been lost but the surface is intact.",
+     "Repairing them means putting mineral back into the enamel.",
+     "Saliva is supersaturated with calcium and phosphate, so it can redeposit hydroxyapatite once the pH rises again."
+    ],
+    "why": "Saliva protects teeth in several ways: bicarbonate buffers plaque acid, secretory IgA, lysozyme, and lactoferrin limit microbes, and its high content of calcium and phosphate supports remineralization. When the pH rises after acid exposure, these ions redeposit into partly demineralized enamel, and early white spot lesions can harden. With reduced salivary flow, this repair fails and lesions progress to cavities.",
+    "whyNot": [
+     "Lysozyme limits bacterial growth, but killing bacteria does not restore lost mineral to enamel.",
+     "Secretory IgA reduces bacterial attachment, but it does not rebuild enamel.",
+     "Lactoferrin withholds iron from microbes, which is antimicrobial and does not repair enamel.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Protective functions of saliva",
+      "Enamel demineralization and remineralization"
+     ],
+     "comps": [
+      "GI-9",
+      "GI-13-L4"
+     ]
+    }
+   },
+   {
+    "id": "GI-C85-Q4",
+    "stem": "A separate flat, uniformly white plaque on the left lateral border of her tongue does not wipe off with gauze and is not corrugated. She is HIV negative and takes no immunosuppressive drugs. Which of the following best describes this lesion?",
+    "options": [
+     "Hairy leukoplakia from Epstein-Barr virus replication",
+     "Leukoplakia, a plaque that may harbor epithelial dysplasia",
+     "Pseudomembranous candidiasis from yeast overgrowth",
+     "Erythroplakia, a patch with a high rate of severe dysplasia"
+    ],
+    "answer": 1,
+    "sea": "X",
+    "comp": "GI-13-K5",
+    "obj": "GI-13-K.8",
+    "dok": 3,
+    "approach": [
+     "A white plaque that cannot be wiped off is not thrush.",
+     "Hairy leukoplakia is corrugated and occurs with immunosuppression, which she lacks.",
+     "A fixed, flat white plaque in a person without immunosuppression is leukoplakia, a clinical term for a lesion that can contain dysplasia and needs biopsy."
+    ],
+    "why": "Leukoplakia is a white patch or plaque that cannot be scraped off and cannot be explained by another disease. It is a clinical description, and biopsy is needed because some lesions contain dysplasia or carcinoma, especially with tobacco and alcohol use. Candidal plaques wipe off. Hairy leukoplakia is a corrugated white lesion of the lateral tongue caused by Epstein-Barr virus in immunosuppressed people and is not premalignant.",
+    "whyNot": [
+     "Hairy leukoplakia is corrugated and occurs in HIV infection or other immunosuppression, both absent here.",
+     "Correct.",
+     "Pseudomembranous candidiasis wipes off with gauze, as her other plaques did.",
+     "Erythroplakia is a red patch, not a white one. It carries a higher risk of dysplasia than leukoplakia."
+    ],
+    "study": {
+     "topics": [
+      "Leukoplakia versus candidiasis versus hairy leukoplakia"
+     ],
+     "comps": [
+      "GI-13-K5",
+      "GI-13-L5"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "GI-C86",
+  "system": "GI",
+  "dx": "Metabolic dysfunction-associated steatohepatitis in an adolescent with obesity and insulin resistance",
+  "codes": [
+   "GI-13-C4"
+  ],
+  "case": "A 15-year-old girl comes to the physician for evaluation of abnormal liver tests found at a sports physical. She drinks no alcohol and takes no medications. Body mass index is 36 kg/m2. There are velvety, hyperpigmented plaques on the back of her neck. Serum ALT is 92 U/L (10 to 40) and AST is 54 U/L (10 to 40). Fasting plasma glucose is 112 mg/dL (70 to 99), fasting insulin is 38 µU/mL (about 2 to 20), and triglycerides are 240 mg/dL (under 150). Viral hepatitis serologies are negative. Liver biopsy shows macrovesicular steatosis, hepatocyte ballooning, lobular inflammation, and early fibrosis. The diagnosis is metabolic dysfunction-associated steatohepatitis.",
+  "questions": [
+   {
+    "id": "GI-C86-Q1",
+    "stem": "Which of the following processes most directly drives the progression of her disease from simple steatosis to steatohepatitis?",
+    "options": [
+     "Raised NADH to NAD+ ratio from ethanol oxidation",
+     "Oxidative stress and lipid peroxidation from excess fatty acids",
+     "Retention of misfolded protein in the endoplasmic reticulum",
+     "Accumulation of copper from impaired biliary excretion of the metal"
+    ],
+    "answer": 1,
+    "sea": "B",
+    "comp": "GI-13-C4",
+    "obj": "GI-13-C.8",
+    "dok": 3,
+    "approach": [
+     "Insulin resistance floods the liver with fatty acids, and stored triglyceride alone causes simple steatosis.",
+     "Excess fatty acids overload mitochondrial and peroxisomal oxidation, producing reactive oxygen species.",
+     "Lipid peroxidation and toxic lipid intermediates injure hepatocytes, causing ballooning, inflammation, and fibrosis."
+    ],
+    "why": "In MASLD, insulin resistance raises the flow of fatty acids to the liver and increases hepatic fat synthesis. Triglyceride storage alone is fairly harmless. Injury begins when excess fatty acids and their toxic intermediates overload oxidation pathways and generate reactive oxygen species. Lipid peroxidation damages membranes and mitochondria, and the injured hepatocytes balloon and release signals that recruit inflammatory cells and activate stellate cells. This is steatohepatitis (MASH), which can progress to cirrhosis and hepatocellular carcinoma.",
+    "whyNot": [
+     "A high NADH to NAD+ ratio from ethanol metabolism drives alcohol-related fatty liver, and she drinks no alcohol.",
+     "Correct.",
+     "Retained misfolded protein in hepatocytes is the mechanism of alpha-1 antitrypsin deficiency.",
+     "Copper accumulation from impaired biliary excretion is Wilson disease."
+    ],
+    "study": {
+     "topics": [
+      "Pathogenesis of MASLD and MASH",
+      "Simple steatosis versus steatohepatitis"
+     ],
+     "comps": [
+      "GI-13-C4",
+      "GI-8"
+     ]
+    }
+   },
+   {
+    "id": "GI-C86-Q2",
+    "stem": "Trichrome stain of her biopsy shows fine strands of collagen around single hepatocytes near the central veins. As this fibrosis advances, which of the following changes in the space of Disse most directly impairs exchange between sinusoidal blood and hepatocytes?",
+    "options": [
+     "Proliferation of Kupffer cells within the sinusoidal lumen",
+     "Storage of more vitamin A in quiescent stellate cell vacuoles",
+     "Widening of bile canaliculi between adjacent hepatocytes",
+     "Collagen deposition with loss of endothelial fenestrations"
+    ],
+    "answer": 3,
+    "sea": "A",
+    "comp": "GI-13-C2",
+    "obj": "GI-13-C.3",
+    "dok": 3,
+    "approach": [
+     "The space of Disse lies between the fenestrated sinusoidal endothelium and the hepatocytes, and normal exchange depends on its open structure.",
+     "Activated stellate cells in this space lose their vitamin A stores and lay down collagen.",
+     "Collagen in the space plus loss of endothelial fenestrations turns the sinusoid into a barrier like a capillary."
+    ],
+    "why": "Normally, sinusoidal endothelium has open fenestrations and no true basement membrane, so plasma reaches the hepatocyte surface freely through the space of Disse. In chronic injury, quiescent stellate cells there become activated myofibroblasts, lose their vitamin A droplets, and deposit collagen. The endothelium loses its fenestrations, a change called capillarization of the sinusoids. Exchange between blood and hepatocytes falls, and the fibrosis eventually bridges between vessels and forms the septa of cirrhosis.",
+    "whyNot": [
+     "Kupffer cells are macrophages within the sinusoid. They release signals that activate stellate cells, but they do not create a barrier in the space of Disse.",
+     "Quiescent stellate cells store vitamin A. Activation causes them to lose these stores, not gain more.",
+     "Bile canaliculi lie between hepatocytes, not in the space of Disse, and they do not carry exchange with blood.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Hepatic stellate cells and fibrosis",
+      "Space of Disse"
+     ],
+     "comps": [
+      "GI-13-C2",
+      "GI-2"
+     ]
+    }
+   },
+   {
+    "id": "GI-C86-Q3",
+    "stem": "Her ratio of AST to ALT is below 1, whereas in alcohol-related liver disease the ratio is often greater than 2. Which of the following best explains the high ratio in alcohol-related liver disease?",
+    "options": [
+     "Pyridoxal phosphate deficiency reducing hepatic ALT activity",
+     "Greater release of ALT from damaged skeletal muscle",
+     "Ethanol-induced synthesis of ALT in centrilobular hepatocytes",
+     "Selective renal clearance of AST in heavy drinkers"
+    ],
+    "answer": 0,
+    "sea": "B",
+    "comp": "GI-13-C4",
+    "obj": "GI-13-C.7",
+    "dok": 3,
+    "approach": [
+     "Both aminotransferases need pyridoxal phosphate, the active form of vitamin B6, as a cofactor.",
+     "Heavy drinkers are often deficient in vitamin B6, and ALT activity falls more than AST activity when the cofactor is short.",
+     "Alcohol also injures mitochondria, which release their own AST, so the ratio rises above 2."
+    ],
+    "why": "AST and ALT both use pyridoxal phosphate as a cofactor. In alcohol-related liver disease, vitamin B6 deficiency lowers ALT activity more than AST activity. Alcohol also damages mitochondria, releasing mitochondrial AST. Together these push the AST to ALT ratio above 2. In MASLD, ALT is usually higher than AST until advanced fibrosis develops.",
+    "whyNot": [
+     "Correct.",
+     "Skeletal muscle injury raises AST more than ALT, and muscle damage does not explain the typical pattern of alcohol-related liver disease.",
+     "Ethanol does not induce ALT synthesis, and more ALT would lower the ratio, not raise it.",
+     "There is no selective renal clearance of AST in drinkers, and faster AST clearance would lower the ratio."
+    ],
+    "study": {
+     "topics": [
+      "AST to ALT ratio",
+      "Alcohol-related versus metabolic fatty liver disease"
+     ],
+     "comps": [
+      "GI-13-C4",
+      "GI-8"
+     ]
+    }
+   },
+   {
+    "id": "GI-C86-Q4",
+    "stem": "Two years later, her ALT rises to 610 U/L. She still drinks no alcohol and takes no medications or supplements. Serum IgG is 2,450 mg/dL (700 to 1,600). Antinuclear and anti-smooth muscle antibodies are negative. Repeat biopsy shows interface hepatitis with many plasma cells. Antibodies against which of the following antigens are most likely present?",
+    "options": [
+     "Pyruvate dehydrogenase complex E2 subunit",
+     "Tissue transglutaminase",
+     "Cytochrome P450 2D6",
+     "Double-stranded DNA"
+    ],
+    "answer": 2,
+    "sea": "M",
+    "comp": "GI-13-C4",
+    "obj": "GI-13-C.9",
+    "dok": 2,
+    "approach": [
+     "High IgG, interface hepatitis with plasma cells, and no drug exposure point to autoimmune hepatitis rather than drug or toxin injury.",
+     "Negative antinuclear and anti-smooth muscle antibodies argue against type 1 disease.",
+     "Type 2 autoimmune hepatitis, seen mainly in children and adolescents, has anti-liver-kidney microsomal type 1 antibodies, which target CYP2D6."
+    ],
+    "why": "Autoimmune hepatitis shows raised aminotransferases, hypergammaglobulinemia, and interface hepatitis rich in plasma cells. Type 1 is marked by antinuclear and anti-smooth muscle antibodies. Type 2 mostly affects children and adolescents and is marked by anti-liver-kidney microsomal type 1 antibodies, whose target is the cytochrome P450 enzyme CYP2D6. Drug and toxin hepatitis, such as acetaminophen zone 3 necrosis or isoniazid hepatitis, depends on exposure and lacks these autoantibodies.",
+    "whyNot": [
+     "Antibodies to the E2 subunit of pyruvate dehydrogenase are antimitochondrial antibodies, the marker of primary biliary cholangitis, a cholestatic disease of middle-aged women.",
+     "Tissue transglutaminase antibodies mark celiac disease, which can raise aminotransferases but does not cause plasma cell-rich interface hepatitis.",
+     "Correct.",
+     "Antibodies to double-stranded DNA are specific for systemic lupus erythematosus."
+    ],
+    "study": {
+     "topics": [
+      "Autoimmune hepatitis types 1 and 2",
+      "Autoimmune versus drug-induced hepatitis"
+     ],
+     "comps": [
+      "GI-13-C4",
+      "GI-11"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "GI-C87",
+  "system": "GI",
+  "dx": "Gallstone pancreatitis complicated by walled-off necrosis in the lesser sac",
+  "codes": [
+   "GI-13-B1",
+   "GI-13-D2"
+  ],
+  "case": "A 48-year-old woman is brought to the emergency department because of 4 days of severe epigastric pain radiating to the back, with nausea and vomiting. Over the past year she has had several episodes of right upper quadrant pain after meals. She drinks alcohol rarely. Temperature is 38.0 °C (100.4 °F), pulse is 112/min, respirations are 22/min, and blood pressure is 102/64 mm Hg. Serum lipase is 1,860 U/L (13 to 60). Ultrasonography shows gallstones and a common bile duct 9 mm in diameter (normal under 6). Four weeks later, CT shows a 10-cm encapsulated collection of fluid and necrotic debris in the lesser sac behind the stomach. The diagnosis is gallstone pancreatitis complicated by walled-off necrosis.",
+  "questions": [
+   {
+    "id": "GI-C87-Q1",
+    "stem": "Her serum amylase on arrival is 118 U/L (25 to 125). Which of the following best explains the normal amylase with a markedly raised lipase?",
+    "options": [
+     "Faster return of amylase to normal after the onset of injury",
+     "Destruction of amylase by trypsin activated within the gland",
+     "Release of lipase from inflamed gallbladder epithelium",
+     "Retention of amylase within the acini by duct obstruction"
+    ],
+    "answer": 0,
+    "sea": "B",
+    "comp": "GI-13-B1",
+    "obj": "GI-13-B.2",
+    "dok": 2,
+    "approach": [
+     "Note that she came in 4 days after her pain began.",
+     "Serum amylase rises early and usually returns to normal within 3 to 5 days, while lipase stays raised for 1 to 2 weeks.",
+     "A late presentation can therefore show a normal amylase with a lipase more than 3 times normal."
+    ],
+    "why": "Both enzymes leak from injured acinar cells. Amylase is cleared quickly, partly by the kidneys, and often falls to normal within a few days. Lipase stays high longer and is also more specific for the pancreas, because amylase also comes from salivary glands and other sites. A lipase above 3 times the upper limit with typical pain confirms acute pancreatitis even when amylase is normal.",
+    "whyNot": [
+     "Correct.",
+     "Activated trypsin digests pancreatic tissue, but it does not selectively destroy amylase in the serum.",
+     "The gallbladder epithelium is not a source of lipase. Serum lipase in pancreatitis comes from acinar cells.",
+     "Duct obstruction does not keep amylase in while letting lipase out. Both leak from injured acini."
+    ],
+    "study": {
+     "topics": [
+      "Laboratory diagnosis of acute pancreatitis",
+      "Amylase versus lipase"
+     ],
+     "comps": [
+      "GI-13-B1",
+      "GI-6"
+     ]
+    }
+   },
+   {
+    "id": "GI-C87-Q2",
+    "stem": "On hospital day 3, she becomes short of breath. Arterial PO2 is 58 mm Hg (75 to 100) while she breathes 40% oxygen. A chest radiograph shows diffuse bilateral infiltrates. Pulmonary capillary wedge pressure is 10 mm Hg (6 to 12). There has been no witnessed aspiration. Which of the following best explains her respiratory failure?",
+    "options": [
+     "Thromboembolism to the pulmonary arteries from leg veins",
+     "Left ventricular failure from fluid given for resuscitation",
+     "Alveolar injury from circulating enzymes and cytokines",
+     "Lobar pneumonia from aspirated oropharyngeal bacteria"
+    ],
+    "answer": 2,
+    "sea": "X",
+    "comp": "GI-13-B1",
+    "obj": "GI-13-B.3",
+    "dok": 3,
+    "approach": [
+     "Severe hypoxemia with bilateral infiltrates and a normal wedge pressure is acute respiratory distress syndrome.",
+     "In acute pancreatitis, activated enzymes such as phospholipase A2 and cytokines enter the circulation.",
+     "They injure alveolar capillaries and degrade surfactant, causing noncardiogenic pulmonary edema."
+    ],
+    "why": "Severe acute pancreatitis is a systemic inflammatory illness. Activated pancreatic enzymes and cytokines such as IL-1, IL-6, and TNF reach the lungs, injure the alveolar capillary membrane, and break down surfactant through phospholipase A2. Protein-rich fluid floods the alveoli, producing ARDS with bilateral infiltrates and a normal wedge pressure. Other systemic complications include hypovolemic shock, DIC, and acute kidney injury. Local complications include necrosis, infection, and pseudocyst.",
+    "whyNot": [
+     "Pulmonary embolism causes hypoxemia, but not diffuse bilateral infiltrates.",
+     "Left ventricular failure would raise the pulmonary capillary wedge pressure, which is normal.",
+     "Correct.",
+     "Lobar pneumonia gives a localized consolidation, not diffuse bilateral infiltrates, and there was no aspiration."
+    ],
+    "study": {
+     "topics": [
+      "Complications of acute pancreatitis",
+      "Acute respiratory distress syndrome"
+     ],
+     "comps": [
+      "GI-13-B1"
+     ]
+    }
+   },
+   {
+    "id": "GI-C87-Q3",
+    "stem": "The lesser sac normally communicates with the greater sac through the omental (epiploic) foramen. The anterior boundary of this foramen is the free edge of the hepatoduodenal ligament. Which of the following structures forms its posterior boundary?",
+    "options": [
+     "Portal vein",
+     "Inferior vena cava",
+     "Common bile duct",
+     "Proper hepatic artery"
+    ],
+    "answer": 1,
+    "sea": "A",
+    "comp": "GI-4",
+    "obj": "GI-4.3",
+    "dok": 2,
+    "approach": [
+     "The hepatoduodenal ligament in front of the foramen contains the portal triad: portal vein, proper hepatic artery, and common bile duct.",
+     "Those three structures form the anterior boundary, so they cannot be the posterior one.",
+     "The posterior boundary is the inferior vena cava, covered by peritoneum."
+    ],
+    "why": "The omental foramen is the only natural opening between the greater sac and the lesser sac. In front of it is the free edge of the hepatoduodenal ligament carrying the portal vein, proper hepatic artery, and common bile duct. Behind it is the inferior vena cava with the right crus of the diaphragm. Above is the caudate lobe of the liver, and below is the first part of the duodenum. A surgeon can compress the anterior boundary between finger and thumb to control bleeding from the hepatic artery or portal vein.",
+    "whyNot": [
+     "The portal vein lies in the hepatoduodenal ligament, the anterior boundary.",
+     "Correct.",
+     "The common bile duct lies in the hepatoduodenal ligament, the anterior boundary.",
+     "The proper hepatic artery lies in the hepatoduodenal ligament, the anterior boundary."
+    ],
+    "study": {
+     "topics": [
+      "Omental foramen boundaries",
+      "Lesser sac and hepatoduodenal ligament"
+     ],
+     "comps": [
+      "GI-4"
+     ]
+    }
+   },
+   {
+    "id": "GI-C87-Q4",
+    "stem": "Which of the following additional findings at presentation would most strongly support gallstones rather than alcohol as the cause of her pancreatitis?",
+    "options": [
+     "Serum calcium of 7.9 mg/dL (8.5 to 10.5)",
+     "Serum glucose of 182 mg/dL (70 to 99)",
+     "Leukocyte count of 16,400/mm3 (4,500 to 11,000)",
+     "Serum ALT of 420 U/L (10 to 40)"
+    ],
+    "answer": 3,
+    "sea": "X",
+    "comp": "GI-13-B1",
+    "obj": "GI-13-B.1",
+    "dok": 2,
+    "approach": [
+     "Gallstones and alcohol are the two leading causes of acute pancreatitis.",
+     "A stone passing through or lodging at the ampulla also blocks bile flow and injures hepatocytes.",
+     "An ALT more than 3 times normal early in the illness strongly suggests a biliary cause."
+    ],
+    "why": "Gallstones cause pancreatitis when a stone blocks the ampulla, raising pressure in the pancreatic duct and triggering premature activation of trypsin inside acinar cells. The same stone obstructs the bile duct, so serum ALT rises sharply. An ALT above about 3 times normal in the first 48 hours strongly predicts a biliary cause. Low calcium, high glucose, and leukocytosis reflect the severity of pancreatitis from any cause.",
+    "whyNot": [
+     "Hypocalcemia reflects calcium soap formation in fat necrosis and occurs with any cause of severe pancreatitis.",
+     "Hyperglycemia reflects stress hormones and islet injury and does not point to a cause.",
+     "Leukocytosis reflects inflammation from any cause.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Causes of acute pancreatitis",
+      "Gallstone pancreatitis"
+     ],
+     "comps": [
+      "GI-13-B1",
+      "GI-13-D2"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "GI-C88",
+  "system": "GI",
+  "dx": "Esophageal squamous cell carcinoma in a man with long-standing achalasia",
+  "codes": [
+   "GI-13-K1",
+   "GI-13-F1"
+  ],
+  "case": "A 63-year-old man comes to the physician because of 3 months of worsening difficulty swallowing and a 9-kg (20-lb) weight loss. Achalasia was diagnosed when he was 35 years old and was treated with pneumatic dilation, after which he had mild, stable dysphagia to both solids and liquids. He has never smoked and rarely drinks alcohol. Barium swallow shows a dilated esophagus that tapers to a narrow segment at the gastroesophageal junction and an irregular filling defect in the middle third of the esophagus. Endoscopic biopsy of the lesion shows invasive keratinizing squamous cell carcinoma. The diagnosis is esophageal squamous cell carcinoma arising in long-standing achalasia.",
+  "questions": [
+   {
+    "id": "GI-C88-Q1",
+    "stem": "Which of the following best explains how his achalasia increased his risk of this tumor?",
+    "options": [
+     "Intestinal metaplasia from acid reflux across the sphincter",
+     "Iron deficiency causing atrophy of the esophageal mucosa",
+     "Loss of inhibitory neurons that restrain epithelial growth",
+     "Chronic irritation of squamous mucosa by retained food"
+    ],
+    "answer": 3,
+    "sea": "X",
+    "comp": "GI-13-K1",
+    "obj": "GI-13-K.1",
+    "dok": 3,
+    "approach": [
+     "He has no tobacco or alcohol exposure, so the achalasia is the risk factor.",
+     "In achalasia, food and fluid sit in the dilated esophagus for long periods.",
+     "Stasis causes chronic inflammation of the squamous lining, which leads over decades to dysplasia and squamous cell carcinoma."
+    ],
+    "why": "Esophageal squamous cell carcinoma arises from the squamous lining, usually in the upper and middle thirds. Its risks are things that injure that lining over years: alcohol, tobacco, very hot drinks, caustic injury, Plummer-Vinson syndrome, and achalasia. In achalasia, retained food ferments and causes chronic esophagitis, which drives dysplasia. Adenocarcinoma, by contrast, arises in the distal third from Barrett esophagus caused by reflux.",
+    "whyNot": [
+     "Intestinal metaplasia from reflux leads to adenocarcinoma, and in achalasia the sphincter fails to relax, so reflux is not the problem.",
+     "Iron deficiency with an esophageal web is Plummer-Vinson syndrome, a separate risk factor that is not part of achalasia.",
+     "The lost myenteric neurons control smooth muscle and the sphincter. They do not restrain epithelial growth.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Risk factors for esophageal squamous cell carcinoma",
+      "Squamous cell carcinoma versus adenocarcinoma"
+     ],
+     "comps": [
+      "GI-13-K1",
+      "GI-13-F1"
+     ]
+    }
+   },
+   {
+    "id": "GI-C88-Q2",
+    "stem": "Before his achalasia was diagnosed, systemic sclerosis was considered because it also causes dysphagia to solids and liquids. Which of the following manometry findings best distinguishes his disorder from esophageal involvement by systemic sclerosis?",
+    "options": [
+     "Absent peristalsis in the distal esophageal body",
+     "Incomplete relaxation of the lower esophageal sphincter",
+     "Low resting pressure of the lower esophageal sphincter",
+     "Normal peristalsis in the upper striated muscle segment"
+    ],
+    "answer": 1,
+    "sea": "P",
+    "comp": "GI-13-F1",
+    "obj": "GI-13-F.1",
+    "dok": 3,
+    "approach": [
+     "Both disorders cause aperistalsis in the smooth muscle of the distal esophagus and spare the upper striated muscle.",
+     "In achalasia, loss of inhibitory nitric oxide and VIP neurons keeps the lower sphincter from relaxing, and its resting tone is often high.",
+     "In systemic sclerosis, fibrosis weakens the sphincter, so its pressure is low and reflux is common."
+    ],
+    "why": "Achalasia is the loss of inhibitory neurons in the myenteric plexus that release nitric oxide and VIP. Without them, the lower esophageal sphincter cannot relax with swallowing, and the body of the esophagus loses peristalsis. Systemic sclerosis replaces the smooth muscle with fibrous tissue, so it also abolishes distal peristalsis, but it leaves a weak, low-pressure sphincter that relaxes easily and allows severe reflux. The behavior of the sphincter separates the two.",
+    "whyNot": [
+     "Absent distal peristalsis occurs in both achalasia and systemic sclerosis, so it does not separate them.",
+     "Correct.",
+     "A low-pressure sphincter is typical of systemic sclerosis. In achalasia the sphincter pressure is normal or high.",
+     "The upper striated muscle is spared in both disorders, so its normal function does not separate them."
+    ],
+    "study": {
+     "topics": [
+      "Achalasia manometry",
+      "Achalasia versus systemic sclerosis"
+     ],
+     "comps": [
+      "GI-13-F1",
+      "GI-6"
+     ]
+    }
+   },
+   {
+    "id": "GI-C88-Q3",
+    "stem": "The inhibitory neurons lost from his myenteric plexus share their embryonic origin with the neurons that are missing from the distal colon in Hirschsprung disease. Which of the following identifies this origin and the gene most often mutated in Hirschsprung disease?",
+    "options": [
+     "Splanchnic mesoderm; RET",
+     "Neural crest; CFTR",
+     "Neural crest; RET",
+     "Foregut endoderm; RET"
+    ],
+    "answer": 2,
+    "sea": "A",
+    "comp": "GI-1",
+    "obj": "GI-1.5",
+    "dok": 2,
+    "approach": [
+     "The myenteric and submucosal plexuses are made of enteric neurons and glia.",
+     "These cells come from neural crest cells that migrate down the gut from cranial to caudal.",
+     "In Hirschsprung disease, mutations in RET, the receptor that guides this migration, leave the distal colon without ganglion cells."
+    ],
+    "why": "Enteric neurons arise from neural crest cells, mostly vagal neural crest, that enter the foregut and migrate down the length of the gut to form the myenteric and submucosal plexuses. The RET receptor tyrosine kinase is needed for their survival and migration. Loss-of-function RET mutations are the most common genetic cause of Hirschsprung disease, in which the aganglionic segment always includes the rectum because the cells arrive there last.",
+    "whyNot": [
+     "Splanchnic mesoderm forms the smooth muscle and connective tissue of the gut wall, not its neurons.",
+     "Neural crest is the correct origin, but CFTR mutations cause cystic fibrosis and meconium ileus, not Hirschsprung disease.",
+     "Correct.",
+     "Foregut endoderm forms the lining epithelium and glands, not the enteric neurons."
+    ],
+    "study": {
+     "topics": [
+      "Development of the enteric nervous system",
+      "Hirschsprung disease"
+     ],
+     "comps": [
+      "GI-1",
+      "GI-13-F5"
+     ]
+    }
+   },
+   {
+    "id": "GI-C88-Q4",
+    "stem": "Before endoscopy, a Schatzki ring was considered as the cause of his new symptoms. Which of the following features of his history most strongly argued against a Schatzki ring?",
+    "options": [
+     "Progressive dysphagia with marked weight loss",
+     "Dysphagia occurring mainly with solid food",
+     "Narrowing located near the gastroesophageal junction",
+     "Episodes of food sticking while eating meat"
+    ],
+    "answer": 0,
+    "sea": "X",
+    "comp": "GI-13-H2",
+    "obj": "GI-13-H.2",
+    "dok": 3,
+    "approach": [
+     "A Schatzki ring is a thin mucosal ring at the squamocolumnar junction in the lower esophagus.",
+     "It causes intermittent dysphagia to solids, often a bolus of meat, without weight loss.",
+     "Steadily worsening dysphagia with weight loss points instead to a growing tumor."
+    ],
+    "why": "A Schatzki ring is a thin mucosal ring at the squamocolumnar junction of the lower esophagus. It is not progressive, so patients have intermittent episodes of a solid bolus sticking, classically meat, with normal swallowing in between and no weight loss. An esophageal web is in the upper esophagus and, with iron deficiency anemia, forms Plummer-Vinson syndrome, which raises the risk of squamous cell carcinoma. Progressive dysphagia with weight loss is the pattern of cancer.",
+    "whyNot": [
+     "Correct.",
+     "Solid food dysphagia is typical of a Schatzki ring, so it supports that diagnosis rather than arguing against it.",
+     "A Schatzki ring lies at the squamocolumnar junction near the gastroesophageal junction, so this location supports it.",
+     "Food sticking while eating meat is the classic presentation of a Schatzki ring."
+    ],
+    "study": {
+     "topics": [
+      "Esophageal webs and rings",
+      "Progressive versus intermittent dysphagia"
+     ],
+     "comps": [
+      "GI-13-H2",
+      "GI-13-K1"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "GI-C89",
+  "system": "GI",
+  "dx": "Adenocarcinoma of the pancreatic tail with liver metastases in a man with chronic pancreatitis",
+  "codes": [
+   "GI-13-K6"
+  ],
+  "case": "A 66-year-old man comes to the physician because of 4 months of dull epigastric and left upper quadrant pain radiating to the back and a 12-kg (26-lb) weight loss. He has had alcohol-related chronic pancreatitis for 15 years and has smoked one pack of cigarettes daily for 40 years. He is not jaundiced. Serum total bilirubin is 0.8 mg/dL (0.1 to 1.0), and CA 19-9 is 1,240 U/mL (under 37). CT shows coarse pancreatic calcifications, a 5-cm mass in the pancreatic tail, and multiple low-density nodules in both lobes of the liver. Biopsy of a liver nodule shows gland-forming adenocarcinoma consistent with a pancreatic primary. The diagnosis is pancreatic ductal adenocarcinoma of the tail with liver metastases.",
+  "questions": [
+   {
+    "id": "GI-C89-Q1",
+    "stem": "Sequencing of his tumor shows an activating KRAS mutation and loss of both copies of CDKN2A. Loss of the protein encoded by CDKN2A most directly causes which of the following?",
+    "options": [
+     "Constitutive RAS signaling from impaired GTP hydrolysis",
+     "Loss of growth inhibition by transforming growth factor beta",
+     "Unrestrained CDK4 phosphorylation of the RB protein",
+     "Failure to repair DNA mismatches after replication"
+    ],
+    "answer": 2,
+    "sea": "B",
+    "comp": "GI-13-K6",
+    "obj": "GI-13-K.9",
+    "dok": 3,
+    "approach": [
+     "CDKN2A encodes p16, an inhibitor of cyclin-dependent kinases 4 and 6.",
+     "Without p16, cyclin D with CDK4 or CDK6 phosphorylates RB, which releases E2F.",
+     "E2F drives the cell from G1 into S phase without restraint."
+    ],
+    "why": "Pancreatic ductal adenocarcinoma usually carries an activating KRAS mutation plus loss of tumor suppressors, most often CDKN2A, along with TP53 and SMAD4. CDKN2A encodes p16, which blocks cyclin D with CDK4 and CDK6. When p16 is lost, these kinases phosphorylate RB, freeing E2F to start S-phase gene expression, so the G1 checkpoint fails. Smoking and chronic pancreatitis are major risk factors.",
+    "whyNot": [
+     "Impaired GTP hydrolysis is the effect of the KRAS mutation, not of CDKN2A loss.",
+     "Loss of TGF-beta growth inhibition follows SMAD4 inactivation, another common event in this cancer.",
+     "Correct.",
+     "Failed mismatch repair follows loss of MLH1, MSH2, MSH6, or PMS2, as in Lynch syndrome."
+    ],
+    "study": {
+     "topics": [
+      "Molecular genetics of pancreatic adenocarcinoma",
+      "p16 and the G1 checkpoint"
+     ],
+     "comps": [
+      "GI-13-K6",
+      "GI-10"
+     ]
+    }
+   },
+   {
+    "id": "GI-C89-Q2",
+    "stem": "In a patient with a tumor like his but without metastases, the surgeon mobilizes the pancreatic tail at the hilum of the spleen. Which of the following is the peritoneal fold that contains the pancreatic tail, and which vessels run within it?",
+    "options": [
+     "Splenorenal ligament; splenic artery and vein",
+     "Gastrosplenic ligament; short gastric vessels",
+     "Gastrohepatic ligament; left and right gastric arteries",
+     "Gastrocolic ligament; gastroomental vessels"
+    ],
+    "answer": 0,
+    "sea": "A",
+    "comp": "GI-4",
+    "obj": "GI-4.4",
+    "dok": 2,
+    "approach": [
+     "The pancreatic tail is the only part of the pancreas that lies within a peritoneal fold.",
+     "That fold runs from the left kidney to the hilum of the spleen.",
+     "It carries the splenic artery and vein along with the tail."
+    ],
+    "why": "Most of the pancreas is retroperitoneal, but its tail runs into the splenorenal (lienorenal) ligament, which also carries the splenic artery and vein to the splenic hilum. Distal pancreatectomy for a tail tumor therefore usually includes splenectomy. The gastrosplenic ligament carries the short gastric and left gastro-omental vessels, the gastrohepatic ligament carries the left and right gastric arteries, and the falciform ligament carries the ligamentum teres.",
+    "whyNot": [
+     "Correct.",
+     "The gastrosplenic ligament carries the short gastric vessels between the stomach and spleen, but not the pancreatic tail.",
+     "The gastrohepatic ligament, part of the lesser omentum, carries the gastric arteries along the lesser curvature, far from the pancreatic tail.",
+     "The gastrocolic ligament, part of the greater omentum, carries gastro-omental vessels along the greater curvature, not the pancreatic tail."
+    ],
+    "study": {
+     "topics": [
+      "Peritoneal ligaments and their contents"
+     ],
+     "comps": [
+      "GI-4",
+      "GI-3"
+     ]
+    }
+   },
+   {
+    "id": "GI-C89-Q3",
+    "stem": "Which of the following best explains why the liver is the most common site of distant metastasis from his tumor?",
+    "options": [
+     "Lymphatic drainage of the pancreas into the thoracic duct",
+     "Arterial spread through branches of the celiac trunk",
+     "Direct extension along the hepatoduodenal ligament",
+     "Venous drainage through the splenic and portal veins"
+    ],
+    "answer": 3,
+    "sea": "X",
+    "comp": "GI-13-K4",
+    "obj": "GI-13-K.7",
+    "dok": 2,
+    "approach": [
+     "Tumor cells that invade veins travel with the venous blood.",
+     "Pancreatic venous blood drains into the splenic and superior mesenteric veins, which join to form the portal vein.",
+     "The liver sinusoids are the first capillary bed this blood meets, so they trap the tumor cells."
+    ],
+    "why": "Metastases are the most common malignant tumors of the liver. Cancers of the stomach, pancreas, and colon drain through the portal system, so the liver sinusoids are the first capillary bed their tumor cells reach. The liver also has a dual blood supply that brings in tumor cells from the systemic circulation, such as from lung and breast cancer. Metastases are usually multiple, as in this patient, while primary hepatocellular carcinoma is often a single mass in a cirrhotic liver.",
+    "whyNot": [
+     "Lymph from the pancreas reaches the thoracic duct and then the systemic veins, which would favor the lungs, not the liver.",
+     "Celiac arterial branches carry blood into the pancreas, not from the pancreas to the liver, so they cannot deliver tumor cells from the pancreas to the liver.",
+     "Direct spread through the hepatoduodenal ligament would reach the porta hepatis, not seed multiple nodules in both lobes.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Liver metastases",
+      "Portal venous drainage"
+     ],
+     "comps": [
+      "GI-13-K4",
+      "GI-5"
+     ]
+    }
+   },
+   {
+    "id": "GI-C89-Q4",
+    "stem": "Before his cancer was diagnosed, he had bulky, greasy, foul-smelling stools and reported trouble seeing while driving at night. Which of the following best explains his night vision problem?",
+    "options": [
+     "Thiamine deficiency from chronic alcohol use",
+     "Retinol deficiency from loss of pancreatic lipase",
+     "Cobalamin deficiency from loss of pancreatic proteases",
+     "Riboflavin deficiency from reduced dietary intake"
+    ],
+    "answer": 1,
+    "sea": "X",
+    "comp": "GI-13-B1",
+    "obj": "GI-13-B.4",
+    "dok": 3,
+    "approach": [
+     "Coarse calcifications and greasy stools mean chronic pancreatitis with exocrine insufficiency.",
+     "Without enough lipase, fat is poorly digested, and fat-soluble vitamins A, D, E, and K are poorly absorbed.",
+     "Vitamin A deficiency impairs rhodopsin regeneration in rods, causing night blindness."
+    ],
+    "why": "In chronic pancreatitis, alcohol, cystic fibrosis, duct obstruction, or hereditary mutations such as PRSS1 and SPINK1 lead to fibrosis, duct calcifications, and loss of acinar tissue. Once lipase output falls below about 10 percent of normal, steatorrhea appears and fat-soluble vitamins are malabsorbed. Vitamin A is needed to form retinal for rhodopsin, so deficiency first causes night blindness. Later loss of islets causes diabetes.",
+    "whyNot": [
+     "Thiamine deficiency in alcohol use causes Wernicke encephalopathy and beriberi, not night blindness.",
+     "Correct.",
+     "Cobalamin absorption can fall in pancreatic insufficiency, but deficiency causes anemia and neuropathy, not night blindness.",
+     "Riboflavin deficiency causes cheilosis, glossitis, and corneal vascularization, not night blindness."
+    ],
+    "study": {
+     "topics": [
+      "Exocrine pancreatic insufficiency",
+      "Fat-soluble vitamin deficiency"
+     ],
+     "comps": [
+      "GI-13-B1",
+      "GI-8"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "GI-C90",
+  "system": "GI",
+  "dx": "Gastroschisis with later short bowel syndrome in an infant of a young mother",
+  "codes": [
+   "GI-13-H",
+   "GI-13-E"
+  ],
+  "case": "A male newborn is delivered at 36 weeks' gestation to a 17-year-old mother whose prenatal ultrasonography showed free-floating loops of bowel outside the fetal abdomen. At birth, loops of small and large intestine protrude through a 3-cm full-thickness defect in the abdominal wall just to the right of an intact umbilical cord. The bowel has no covering membrane and is thickened and edematous. No other anomalies are found. The defect is closed in stages. At 4 weeks of age, he develops abdominal distension and bloody stools, and a necrotic segment that includes most of the ileum and the ileocecal valve is resected. The diagnosis is gastroschisis with later short bowel syndrome.",
+  "questions": [
+   {
+    "id": "GI-C90-Q1",
+    "stem": "Which of the following best explains the thickened, edematous appearance of his bowel at birth?",
+    "options": [
+     "Compression of the bowel within a sac of peritoneum and amnion",
+     "Exposure of the uncovered bowel to amniotic fluid",
+     "Absence of ganglion cells from the herniated segments",
+     "Obstruction of the bowel by thick meconium from cystic fibrosis"
+    ],
+    "answer": 1,
+    "sea": "A",
+    "comp": "GI-13-H",
+    "obj": "GI-13-H.6",
+    "dok": 3,
+    "approach": [
+     "A defect to the right of an intact cord with no covering membrane is gastroschisis.",
+     "Without a sac, the bowel floats freely in amniotic fluid for months.",
+     "Exposure to amniotic fluid, along with constriction at the small defect, inflames and thickens the bowel wall."
+    ],
+    "why": "Gastroschisis is a full-thickness defect of the abdominal wall, usually just right of the umbilicus, through which bowel herniates with no covering of peritoneum or amnion. The exposed bowel is bathed in amniotic fluid and squeezed at the defect, so it becomes thick, edematous, and matted, and its function is slow to recover. Omphalocele, in contrast, is a midline defect with viscera inside a sac of peritoneum and amnion, often with trisomies or Beckwith-Wiedemann syndrome. Gastroschisis is linked to young maternal age and is rarely associated with chromosomal anomalies.",
+    "whyNot": [
+     "A sac of peritoneum and amnion describes omphalocele. In gastroschisis the bowel is uncovered.",
+     "Correct.",
+     "Absent ganglion cells define Hirschsprung disease, which causes obstruction but not a thickened, exposed bowel at birth.",
+     "Meconium ileus from cystic fibrosis causes obstruction inside the abdomen and is not part of gastroschisis."
+    ],
+    "study": {
+     "topics": [
+      "Gastroschisis versus omphalocele"
+     ],
+     "comps": [
+      "GI-13-H",
+      "GI-1"
+     ]
+    }
+   },
+   {
+    "id": "GI-C90-Q2",
+    "stem": "Because his intestine developed outside the abdomen, it did not complete its normal rotation. During normal development, the midgut loop rotates as it herniates and returns. Which of the following describes this normal rotation?",
+    "options": [
+     "90 degrees counterclockwise around the vitelline duct",
+     "180 degrees clockwise around the superior mesenteric artery",
+     "270 degrees counterclockwise around the inferior mesenteric artery",
+     "270 degrees counterclockwise around the superior mesenteric artery"
+    ],
+    "answer": 3,
+    "sea": "A",
+    "comp": "GI-1",
+    "obj": "GI-1.2",
+    "dok": 2,
+    "approach": [
+     "The midgut herniates into the umbilical cord in week 6 because it grows faster than the abdominal cavity.",
+     "Its axis is the superior mesenteric artery, which supplies the midgut.",
+     "Viewed from the front, it rotates a total of 270 degrees counterclockwise, 90 degrees while herniated and 180 degrees on returning by week 10."
+    ],
+    "why": "The midgut loop herniates into the umbilical cord in week 6 and rotates 90 degrees counterclockwise around the superior mesenteric artery. As it returns to the abdomen by week 10, it turns a further 180 degrees, for a total of 270 degrees. This places the cecum in the right lower quadrant and the duodenojejunal flexure to the left of the artery. Incomplete rotation leaves a narrow mesenteric base and Ladd bands, setting up midgut volvulus, and failed return of the loop leaves an omphalocele.",
+    "whyNot": [
+     "The vitelline duct connects the midgut to the yolk sac. It is not the axis of rotation, and the total rotation is more than 90 degrees.",
+     "The direction is counterclockwise as viewed from the front, and the total is 270 degrees.",
+     "The inferior mesenteric artery supplies the hindgut and is not the axis of midgut rotation.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Midgut rotation",
+      "Malrotation and volvulus"
+     ],
+     "comps": [
+      "GI-1",
+      "GI-13-H"
+     ]
+    }
+   },
+   {
+    "id": "GI-C90-Q3",
+    "stem": "Before his resection, an abdominal radiograph showed linear and bubbly collections of gas within the bowel wall. He had been receiving formula feeds. Which of the following best explains the pathogenesis of his bowel injury?",
+    "options": [
+     "Mucosal ischemia with invasion of the bowel wall by bacteria",
+     "Toxin-producing Clostridioides difficile overgrowth after antibiotics",
+     "Eosinophilic inflammation from allergy to cow's milk protein",
+     "Absent ganglion cells causing obstruction and enterocolitis"
+    ],
+    "answer": 0,
+    "sea": "X",
+    "comp": "GI-13-J",
+    "obj": "GI-13-J.5",
+    "dok": 3,
+    "approach": [
+     "Bloody stools, distension, and gas in the bowel wall in a young infant are necrotizing enterocolitis.",
+     "Its key steps are mucosal injury from poor blood flow and an immature barrier, followed by bacterial invasion.",
+     "Bacteria in the wall produce gas, seen as pneumatosis intestinalis, and the injury can progress to necrosis and perforation."
+    ],
+    "why": "Necrotizing enterocolitis mainly affects premature infants, but infants recovering from gastroschisis repair are also at risk. Mucosal ischemia and an immature barrier let bacteria invade the bowel wall, where they ferment substrates and produce gas, seen on radiographs as pneumatosis intestinalis. Formula feeding raises the risk, and breast milk lowers it. The ileum and colon are most often affected, and necrotic bowel may need resection, a common cause of short bowel syndrome in infants.",
+    "whyNot": [
+     "Correct.",
+     "Clostridioides difficile colitis is uncommon in young infants and does not cause gas within the bowel wall.",
+     "Allergic proctocolitis to cow's milk protein causes mild bloody stools in well infants, without pneumatosis or necrosis.",
+     "Hirschsprung enterocolitis follows obstruction from an aganglionic segment, which is not present here."
+    ],
+    "study": {
+     "topics": [
+      "Necrotizing enterocolitis"
+     ],
+     "comps": [
+      "GI-13-J",
+      "GI-11"
+     ]
+    }
+   },
+   {
+    "id": "GI-C90-Q4",
+    "stem": "At 6 months of age, he has steatorrhea although his fecal elastase is normal. Which of the following best explains his fat malabsorption?",
+    "options": [
+     "Lipase deficiency in the brush border of the remaining jejunum",
+     "Lactase deficiency from injury to the remaining villi",
+     "Bile acid losses that exceed hepatic bile acid synthesis",
+     "Failed chylomicron assembly from apolipoprotein B deficiency"
+    ],
+    "answer": 2,
+    "sea": "P",
+    "comp": "GI-13-E",
+    "obj": "GI-13-E.5",
+    "dok": 3,
+    "approach": [
+     "A normal fecal elastase shows that pancreatic enzyme output is adequate.",
+     "The terminal ileum reabsorbs bile acids for return to the liver.",
+     "After resection of most of the ileum, bile acid loss outpaces synthesis, the pool shrinks, and fat cannot form micelles."
+    ],
+    "why": "About 95 percent of bile acids are reabsorbed in the terminal ileum and recycled. When a long segment of ileum is removed, so much is lost in stool that the liver cannot keep up, and the bile acid pool shrinks. Without enough bile acids to form micelles, fat and fat-soluble vitamins are poorly absorbed, causing steatorrhea. Loss of the ileum also stops vitamin B12 absorption, and unabsorbed fatty acids bind calcium in the colon, freeing oxalate to be absorbed and form kidney stones.",
+    "whyNot": [
+     "The jejunal brush border does not make lipase. Fat digestion depends on pancreatic lipase, which is normal here.",
+     "Lactase deficiency causes osmotic diarrhea after lactose, not steatorrhea.",
+     "Correct.",
+     "Absent chylomicron assembly occurs in abetalipoproteinemia, an inherited disorder, not after bowel resection."
+    ],
+    "study": {
+     "topics": [
+      "Short bowel syndrome",
+      "Enterohepatic circulation of bile acids"
+     ],
+     "comps": [
+      "GI-13-E",
+      "GI-7"
+     ]
+    }
+   }
+  ]
+ }
+]

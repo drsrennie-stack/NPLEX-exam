@@ -1,0 +1,1595 @@
+[
+ {
+  "id": "EN-C51",
+  "system": "EN",
+  "dx": "Kallmann syndrome (hypogonadotropic hypogonadism with anosmia)",
+  "codes": [
+   "EN-12-B4",
+   "EN-9"
+  ],
+  "case": "A 17-year-old boy is brought to the physician by his mother because he has not gone through puberty. He says he has never been able to smell coffee or smoke. He is 178 cm tall, and his arm span exceeds his height by 6 cm. Physical examination shows no facial hair, Tanner stage 2 pubic hair, testes of 3 mL each (adult, 15 to 25 mL), and no gynecomastia. Serum studies show LH 0.4 mIU/mL (1.5 to 9.3), FSH 0.6 mIU/mL (1.4 to 18.1), and total testosterone 45 ng/dL (300 to 1000). Serum prolactin, TSH, free T4, morning cortisol, and IGF-1 concentrations are within the reference ranges. MRI of the head shows absent olfactory bulbs with a normal hypothalamus and pituitary gland. The diagnosis is Kallmann syndrome.",
+  "questions": [
+   {
+    "id": "EN-C51-Q1",
+    "stem": "A 17-year-old classmate of this patient also has delayed puberty. The classmate is tall, with gynecomastia and small, firm testes, and his karyotype is 47,XXY. Which of the following sets of serum findings is most likely in the classmate?",
+    "options": [
+     "Low LH, low FSH, low testosterone",
+     "High LH, high FSH, low testosterone",
+     "Low LH, low FSH, high testosterone",
+     "High LH, high FSH, high testosterone"
+    ],
+    "answer": 1,
+    "sea": "B",
+    "comp": "EN-9",
+    "obj": "EN-9.6",
+    "dok": 3,
+    "approach": [
+     "Decide where each defect sits. Kallmann syndrome is a hypothalamic failure; 47,XXY is a testicular failure.",
+     "When the testes fail, testosterone and inhibin fall, so the hypothalamus and pituitary lose negative feedback and LH and FSH rise.",
+     "When GnRH is missing, the pituitary is never driven, so LH, FSH, and testosterone are all low."
+    ],
+    "why": "Klinefelter syndrome (47,XXY) causes primary hypogonadism. Seminiferous tubules hyalinize and Leydig cells work poorly, so testosterone and inhibin are low and the pituitary responds with high LH and FSH (hypergonadotropic hypogonadism). Kallmann syndrome causes secondary hypogonadism. GnRH neurons start in the olfactory placode and must migrate along olfactory nerve fibers into the hypothalamus. When this migration fails, both GnRH secretion and the olfactory bulbs are lost, so LH, FSH, and testosterone are all low and the patient has anosmia.",
+    "whyNot": [
+     "This low gonadotropin pattern is the one seen in this patient with Kallmann syndrome, where the defect lies above the testes.",
+     "Correct.",
+     "High testosterone with low gonadotropins suggests an outside androgen source, such as anabolic steroid use, which suppresses LH and FSH.",
+     "High LH with high testosterone fits androgen insensitivity, where the receptor cannot respond to testosterone. A failing testis cannot make high testosterone."
+    ],
+    "study": {
+     "topics": [
+      "Primary versus secondary hypogonadism",
+      "Klinefelter and Kallmann syndromes"
+     ],
+     "comps": [
+      "EN-9",
+      "EN-12-B4"
+     ]
+    }
+   },
+   {
+    "id": "EN-C51-Q2",
+    "stem": "His findings are compared with those of a 30-year-old man whose pituitary stalk was transected in a motor vehicle collision. Which of the following sets of findings is most likely in the man with stalk transection?",
+    "options": [
+     "Low prolactin, low LH, and normal urine output",
+     "High prolactin, high LH, and normal urine output",
+     "Low prolactin, high LH, and polyuria",
+     "High prolactin, low LH, and polyuria"
+    ],
+    "answer": 3,
+    "sea": "P",
+    "comp": "EN-5",
+    "obj": "EN-5.1",
+    "dok": 3,
+    "approach": [
+     "Recall that hypothalamic releasing hormones reach the anterior pituitary through portal vessels in the stalk.",
+     "Most anterior pituitary cells need a stimulating hormone (GnRH, TRH, CRH, GHRH), so cutting the stalk lowers their output.",
+     "Lactotrophs are held back mainly by dopamine, so cutting the stalk releases them and prolactin rises. ADH travels down axons in the stalk, so its delivery is also cut off."
+    ],
+    "why": "GnRH stimulates LH and FSH, TRH stimulates TSH (and prolactin), CRH stimulates ACTH, and GHRH stimulates GH, while somatostatin inhibits GH and TSH. Dopamine is the main hypothalamic control of prolactin, and it is inhibitory. Stalk section removes all of these signals, so stimulated hormones fall and prolactin rises. ADH is made in the supraoptic and paraventricular nuclei and carried down axons in the stalk to the posterior lobe, so a high stalk section also causes central diabetes insipidus with polyuria. In Kallmann syndrome only GnRH is missing, so prolactin and the other axes stay normal.",
+    "whyNot": [
+     "Prolactin falls only when lactotrophs themselves are destroyed, as in Sheehan syndrome. Loss of dopamine raises it.",
+     "LH needs GnRH from the hypothalamus, so it cannot rise once the portal supply is cut.",
+     "Polyuria fits, but loss of dopamine raises prolactin rather than lowering it, and loss of GnRH lowers LH rather than raising it.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Hypothalamic control of the anterior pituitary",
+      "Pituitary stalk section"
+     ],
+     "comps": [
+      "EN-5",
+      "EN-12-B4"
+     ]
+    }
+   },
+   {
+    "id": "EN-C51-Q3",
+    "stem": "Before the MRI was obtained, a destructive hypothalamic mass such as a craniopharyngioma was considered as the cause of his delayed puberty. Which of the following additional findings would have favored a hypothalamic mass over his actual diagnosis?",
+    "options": [
+     "Raised serum prolactin",
+     "Raised serum thyrotropin",
+     "Raised plasma corticotropin",
+     "Raised serum IGF-1"
+    ],
+    "answer": 0,
+    "sea": "X",
+    "comp": "EN-12-B4",
+    "obj": "EN-12-B.9",
+    "dok": 3,
+    "approach": [
+     "Kallmann syndrome is an isolated loss of GnRH, so every other axis is normal.",
+     "A destructive hypothalamic lesion removes several releasing hormones and also the dopamine that normally holds prolactin down.",
+     "So a mass lowers TSH, ACTH, and GH output while prolactin rises."
+    ],
+    "why": "Lesions of the hypothalamus, such as craniopharyngioma, infiltrative diseases (sarcoidosis, Langerhans cell histiocytosis), or cranial radiation, cause loss of several releasing hormones. The result is low anterior pituitary output, often with central diabetes insipidus. Prolactin is the exception: lactotrophs are under tonic dopamine inhibition, so when dopamine delivery stops, prolactin rises. A raised prolactin together with hypogonadism therefore points to a lesion beyond an isolated GnRH defect.",
+    "whyNot": [
+     "Correct.",
+     "TSH falls with loss of TRH. A raised TSH points to primary thyroid failure.",
+     "ACTH falls with loss of CRH. A raised ACTH points to primary adrenal failure or an ACTH-secreting tumor.",
+     "IGF-1 falls with loss of GHRH and GH. A raised IGF-1 points to GH excess, as in acromegaly."
+    ],
+    "study": {
+     "topics": [
+      "Hypothalamic lesions and their hormone pattern",
+      "Dopamine control of prolactin"
+     ],
+     "comps": [
+      "EN-12-B4",
+      "EN-5"
+     ]
+    }
+   },
+   {
+    "id": "EN-C51-Q4",
+    "stem": "Unlike GnRH, which is released into portal capillaries at the median eminence, ADH is made in the supraoptic and paraventricular nuclei of the hypothalamus. His ADH secretion is normal. On microscopic examination of a normal posterior pituitary, ADH is stored in which of the following structures?",
+    "options": [
+     "Basophilic secretory cells",
+     "Acidophilic secretory cells",
+     "Dilated axon terminals",
+     "Pituicyte cytoplasmic granules"
+    ],
+    "answer": 2,
+    "sea": "A",
+    "comp": "EN-2",
+    "obj": "EN-2.3",
+    "dok": 2,
+    "approach": [
+     "The posterior pituitary is neural tissue. It has no hormone-secreting epithelial cells of its own.",
+     "ADH and oxytocin are made in the supraoptic and paraventricular nuclei and carried down axons bound to neurophysin.",
+     "The hormone collects in swollen axon terminals called Herring bodies, next to fenestrated capillaries."
+    ],
+    "why": "The anterior pituitary is glandular epithelium with acidophils (somatotrophs and lactotrophs), basophils (gonadotrophs, thyrotrophs, corticotrophs), and chromophobes. The posterior pituitary contains unmyelinated axons from hypothalamic neurons, glial-like pituicytes, and capillaries. ADH and oxytocin are stored in dilated axon terminals, seen as Herring bodies, and released into the blood on demand. This is why disease of the hypothalamus or stalk can cause diabetes insipidus even when the posterior lobe itself is intact.",
+    "whyNot": [
+     "Basophils are anterior pituitary cells that make FSH, LH, TSH, and ACTH. In this patient the gonadotrophs are normal but lack GnRH stimulation.",
+     "Acidophils are anterior pituitary cells that make GH and prolactin.",
+     "Correct.",
+     "Pituicytes are supporting glial cells of the posterior lobe. They do not make or store ADH."
+    ],
+    "study": {
+     "topics": [
+      "Histology of the pituitary gland",
+      "Posterior pituitary hormone storage"
+     ],
+     "comps": [
+      "EN-2",
+      "EN-5"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "EN-C52",
+  "system": "EN",
+  "dx": "Isolated growth hormone deficiency with short stature and fasting hypoglycemia",
+  "codes": [
+   "EN-12-B4"
+  ],
+  "case": "A 4-year-old boy is brought to the physician because of poor growth. His birth weight and length were normal. His height has fallen from the 40th percentile at age 1 year to below the 1st percentile, and he has increased truncal fat. Twice he has become sweaty and lethargic after missing breakfast, with capillary glucose of 42 mg/dL (70 to 99) during one episode. Both parents are of average height. His bone age is 2 years. Serum IGF-1 is below the reference range for age. Peak serum GH after two separate stimulation tests is 3.1 ng/mL (normal, greater than 10). Serum TSH, free T4, morning cortisol, and prolactin concentrations are within the reference ranges. The diagnosis is isolated growth hormone deficiency.",
+  "questions": [
+   {
+    "id": "EN-C52-Q1",
+    "stem": "His 6-year-old cousin also has severe short stature and fasting hypoglycemia. The cousin's serum GH concentration is markedly increased, his serum IGF-1 concentration is very low, and IGF-1 does not rise after a course of GH injections. Which of the following best explains the cousin's disorder?",
+    "options": [
+     "Constitutional growth delay",
+     "GHRH receptor mutation",
+     "GH receptor mutation",
+     "Familial short stature"
+    ],
+    "answer": 2,
+    "sea": "X",
+    "comp": "EN-12-B4",
+    "obj": "EN-12-B.14",
+    "dok": 3,
+    "approach": [
+     "Look at GH and IGF-1 together. High GH with low IGF-1 means the liver is not responding to GH.",
+     "Failure of IGF-1 to rise after GH injections confirms resistance at the GH receptor.",
+     "This is Laron syndrome. Treatment uses recombinant IGF-1, since GH cannot work."
+    ],
+    "why": "GH acts on hepatic GH receptors to make IGF-1, which drives linear growth. In GH deficiency, GH and IGF-1 are both low and bone age is delayed, as in this patient. In GH receptor defects (Laron syndrome), GH is high because low IGF-1 removes negative feedback, but IGF-1 stays low even after GH is given. Constitutional growth delay shows a delayed bone age with normal GH and IGF-1 for bone age, and familial short stature shows a normal bone age with short parents.",
+    "whyNot": [
+     "Children with constitutional delay grow slowly with a delayed bone age, but GH and IGF-1 are normal for bone age and they reach normal adult height.",
+     "A GHRH receptor defect causes low GH secretion, so GH would be low and would respond to GH injections.",
+     "Correct.",
+     "Familial short stature occurs with short parents, normal bone age, and normal GH and IGF-1."
+    ],
+    "study": {
+     "topics": [
+      "Causes of short stature",
+      "GH and IGF-1 axis"
+     ],
+     "comps": [
+      "EN-12-B4",
+      "EN-6"
+     ]
+    }
+   },
+   {
+    "id": "EN-C52-Q2",
+    "stem": "Daily subcutaneous injections of recombinant GH are started, and his growth velocity doubles over the next year. Which of the following best explains how this treatment increases his linear growth?",
+    "options": [
+     "Hepatic IGF-1 acting on growth plates",
+     "Lipolysis supplying fatty acid fuel",
+     "Insulin antagonism raising blood glucose",
+     "Direct activation of osteoclasts"
+    ],
+    "answer": 0,
+    "sea": "P",
+    "comp": "EN-6",
+    "obj": "EN-6.5",
+    "dok": 2,
+    "approach": [
+     "Separate the direct actions of GH from those it produces through IGF-1.",
+     "Direct GH actions are metabolic: lipolysis and opposition to insulin.",
+     "Growth of long bones comes mainly from IGF-1, made in the liver and locally in cartilage, which stimulates chondrocytes at the epiphyseal plates."
+    ],
+    "why": "GH binds receptors on hepatocytes and activates JAK2-STAT signaling, which increases IGF-1 production. IGF-1 circulates bound to binding proteins and stimulates chondrocyte proliferation at the epiphyseal growth plates, along with protein synthesis in muscle. Directly, GH increases lipolysis and opposes insulin action. GH secretion is driven by GHRH, sleep, exercise, and hypoglycemia, and is inhibited by somatostatin and by IGF-1 feedback.",
+    "whyNot": [
+     "Correct.",
+     "Lipolysis is a direct metabolic effect of GH that shifts fuel use. It does not lengthen bones.",
+     "Insulin antagonism is a direct GH effect that raises blood glucose. It explains GH-induced hyperglycemia, not growth.",
+     "Osteoclast activation breaks down bone. Linear growth depends on chondrocyte proliferation at the growth plate."
+    ],
+    "study": {
+     "topics": [
+      "Direct and indirect actions of GH",
+      "IGF-1 and linear growth"
+     ],
+     "comps": [
+      "EN-6",
+      "EN-12-B4"
+     ]
+    }
+   },
+   {
+    "id": "EN-C52-Q3",
+    "stem": "MRI of his head shows a small anterior pituitary, a thin pituitary stalk, and the bright posterior pituitary signal located at the median eminence instead of in the sella. This bright signal comes from hormone-containing tissue that normally forms the posterior lobe. This tissue develops from which of the following embryologic processes?",
+    "options": [
+     "Upgrowth of oral ectoderm from the stomodeum",
+     "Migration of neural crest into the sella",
+     "Budding of foregut endoderm from the pharynx",
+     "Downgrowth of diencephalic neuroectoderm"
+    ],
+    "answer": 3,
+    "sea": "A",
+    "comp": "EN-1",
+    "obj": "EN-1.3",
+    "dok": 2,
+    "approach": [
+     "The bright spot on MRI is the stored ADH and oxytocin of the posterior pituitary.",
+     "The posterior lobe forms from the infundibulum, a downgrowth from the floor of the diencephalon.",
+     "The anterior lobe forms from Rathke pouch, an upgrowth of oral ectoderm. The two parts meet and fuse."
+    ],
+    "why": "The pituitary has two embryologic sources. Rathke pouch grows up from the roof of the stomodeum (oral ectoderm) and forms the anterior lobe, the pars intermedia, and the pars tuberalis. The infundibulum grows down from the diencephalon (neuroectoderm) and forms the stalk and posterior lobe, which is why the posterior pituitary is really a projection of the hypothalamus. An ectopic posterior pituitary with a thin or absent stalk is a recognized finding in congenital GH deficiency. Remnants of Rathke pouch can give rise to craniopharyngioma.",
+    "whyNot": [
+     "Oral ectoderm of Rathke pouch forms the anterior lobe, which makes GH. It does not form the posterior lobe.",
+     "Neural crest forms the adrenal medulla and thyroid C cells, not the pituitary lobes.",
+     "Foregut endoderm forms structures such as the thyroid follicles and the pancreas.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Embryology of the pituitary gland",
+      "Rathke pouch and infundibulum"
+     ],
+     "comps": [
+      "EN-1",
+      "EN-2"
+     ]
+    }
+   },
+   {
+    "id": "EN-C52-Q4",
+    "stem": "His episodes of hypoglycemia occur only after an overnight fast. Which of the following best describes the normal contribution of GH to maintaining blood glucose during prolonged fasting?",
+    "options": [
+     "Rapid hepatic glycogenolysis through cAMP",
+     "Lipolysis that reduces glucose use by muscle",
+     "Suppression of insulin release from beta cells",
+     "Stimulation of glucagon release from alpha cells"
+    ],
+    "answer": 1,
+    "sea": "P",
+    "comp": "EN-5",
+    "obj": "EN-5.6",
+    "dok": 2,
+    "approach": [
+     "Sort the counterregulatory hormones by speed. Glucagon and epinephrine act within minutes; cortisol and GH act over hours.",
+     "GH increases lipolysis, so muscle and other tissues burn fatty acids and take up less glucose.",
+     "Without GH, a young child with small glycogen stores runs out of glucose during a long fast."
+    ],
+    "why": "During fasting and hypoglycemia, glucagon and epinephrine raise glucose quickly through hepatic glycogenolysis and gluconeogenesis, with epinephrine also suppressing insulin release. Cortisol and GH act more slowly. Cortisol induces gluconeogenic enzymes and supplies amino acids. GH increases lipolysis and opposes insulin action, which spares glucose by shifting tissues toward fat use. Children with GH deficiency (or cortisol deficiency) are prone to hypoglycemia after an overnight fast.",
+    "whyNot": [
+     "Rapid glycogenolysis through cAMP is the action of glucagon (and epinephrine), which work within minutes.",
+     "Correct.",
+     "Suppression of insulin release through alpha-2 receptors is an action of epinephrine.",
+     "Glucagon release is stimulated by hypoglycemia itself and by epinephrine, not mainly by GH."
+    ],
+    "study": {
+     "topics": [
+      "Glucose counterregulation",
+      "Metabolic effects of GH"
+     ],
+     "comps": [
+      "EN-5",
+      "EN-6"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "EN-C53",
+  "system": "EN",
+  "dx": "Hyperosmolar hyperglycemic state in type 2 diabetes",
+  "codes": [
+   "EN-12-D1"
+  ],
+  "case": "A 71-year-old woman is brought to the emergency department from her assisted living facility because of increasing confusion for 2 days. She has type 2 diabetes treated with metformin and glipizide. She has had dysuria for 1 week and has been drinking little. Temperature is 37.9 °C (100.2 °F), pulse is 112/min, respirations are 18/min, and blood pressure is 96/58 mm Hg. Her mucous membranes are dry, and she is oriented only to person. Laboratory studies show glucose 1,060 mg/dL (70 to 99), Na+ 147 mEq/L (135 to 145), K+ 4.8 mEq/L (3.5 to 5.0), Cl- 111 mEq/L (98 to 106), HCO3- 22 mEq/L (22 to 28), BUN 62 mg/dL (7 to 20), creatinine 2.0 mg/dL (0.6 to 1.1), and beta-hydroxybutyrate 0.9 mmol/L (less than 0.6). Arterial pH is 7.36 (7.35 to 7.45). The diagnosis is hyperosmolar hyperglycemic state.",
+  "questions": [
+   {
+    "id": "EN-C53-Q1",
+    "stem": "Which of the following best explains her confusion?",
+    "options": [
+     "Cerebral edema from rapid water entry into neurons",
+     "Ketoacid accumulation lowering brain pH",
+     "Hyponatremia causing neuronal swelling",
+     "Water loss from neurons into hyperosmolar plasma"
+    ],
+    "answer": 3,
+    "sea": "X",
+    "comp": "EN-12-D1",
+    "obj": "EN-12-D.3",
+    "dok": 3,
+    "approach": [
+     "Calculate the effective plasma osmolality: 2 x Na+ plus glucose/18 = 294 + 59, or about 353 mOsm/kg (275 to 295).",
+     "Plasma this concentrated pulls water out of brain cells, which shrink and malfunction.",
+     "She has almost no ketosis and a normal pH, so acidosis is not the cause."
+    ],
+    "why": "Hyperosmolar hyperglycemic state develops in type 2 diabetes when some insulin is still present. That insulin is enough to restrain lipolysis and ketogenesis, so ketosis and acidosis are mild or absent. Glucose climbs much higher than in DKA because a long osmotic diuresis, poor water intake, and falling kidney function prevent glucose excretion. The resulting hyperosmolality dehydrates neurons, and mental status changes track with effective osmolality, usually becoming marked above about 320 mOsm/kg. DKA, in contrast, shows an anion gap acidosis with ketones and Kussmaul breathing.",
+    "whyNot": [
+     "Cerebral edema is a risk during treatment if osmolality is lowered too fast, especially in children with DKA. It does not explain her confusion on arrival.",
+     "Her pH is normal and her beta-hydroxybutyrate is only slightly raised, so ketoacidosis is not present.",
+     "Her sodium is high, and with this degree of hyperglycemia her true tonicity is far above normal, so neurons shrink rather than swell.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Hyperosmolar hyperglycemic state versus DKA",
+      "Calculating plasma osmolality"
+     ],
+     "comps": [
+      "EN-12-D1",
+      "EN-7"
+     ]
+    }
+   },
+   {
+    "id": "EN-C53-Q2",
+    "stem": "During treatment with intravenous insulin, her plasma glucose concentration falls. Which of the following tissues and transporters accounts for most of the insulin-stimulated uptake of glucose from the blood?",
+    "options": [
+     "Cerebral neurons through GLUT3",
+     "Skeletal muscle through GLUT4",
+     "Hepatocytes through GLUT2",
+     "Erythrocytes through GLUT1"
+    ],
+    "answer": 1,
+    "sea": "B",
+    "comp": "EN-7",
+    "obj": "EN-7.1",
+    "dok": 2,
+    "approach": [
+     "Identify which glucose transporter is moved by insulin. Only GLUT4 is stored in vesicles and inserted into the membrane in response to insulin.",
+     "GLUT4 is found in skeletal muscle, heart, and adipose tissue.",
+     "Skeletal muscle is by far the largest of these tissues, so it takes up most of the glucose cleared by insulin."
+    ],
+    "why": "Insulin binds its receptor tyrosine kinase and, through the PI3K-Akt pathway, moves GLUT4 vesicles to the cell surface in muscle and fat. Insulin also promotes glycogen synthesis, glycolysis, lipogenesis, and protein synthesis, and it suppresses hepatic glucose output. Glucagon does the opposite during fasting: it drives glycogenolysis, gluconeogenesis, and ketogenesis in the liver. Brain, liver, and red cells take up glucose through transporters that do not need insulin.",
+    "whyNot": [
+     "Neurons take up glucose through GLUT3 at a steady rate that does not depend on insulin.",
+     "Correct.",
+     "Hepatocytes use GLUT2, a high-capacity transporter that does not need insulin. Insulin lowers hepatic glucose output by other actions.",
+     "Red cells use GLUT1, which is not regulated by insulin."
+    ],
+    "study": {
+     "topics": [
+      "Actions of insulin on fuel metabolism",
+      "Glucose transporters"
+     ],
+     "comps": [
+      "EN-7",
+      "EN-5"
+     ]
+    }
+   },
+   {
+    "id": "EN-C53-Q3",
+    "stem": "Glipizide is a sulfonylurea. It increases insulin secretion by acting at the same step in the beta cell that rising glucose metabolism normally triggers. Which of the following is this step?",
+    "options": [
+     "Phosphorylation of glucose by glucokinase",
+     "Binding of GLP-1 to its Gs-coupled receptor",
+     "Closure of ATP-sensitive potassium channels",
+     "Entry of glucose through GLUT2 transporters"
+    ],
+    "answer": 2,
+    "sea": "P",
+    "comp": "EN-5",
+    "obj": "EN-5.5",
+    "dok": 2,
+    "approach": [
+     "Trace the beta cell sequence: glucose enters through GLUT2, glucokinase phosphorylates it, and metabolism raises ATP.",
+     "Rising ATP closes ATP-sensitive potassium channels, which depolarizes the cell.",
+     "Sulfonylureas bind the SUR1 subunit of this channel and close it directly, so they bypass the earlier metabolic steps."
+    ],
+    "why": "In beta cells, glucose enters through GLUT2 and is phosphorylated by glucokinase, which acts as the glucose sensor. Glycolysis and oxidative metabolism raise the ATP to ADP ratio, which closes K-ATP channels. The membrane depolarizes, voltage-gated calcium channels open, and calcium influx triggers exocytosis of insulin granules. Oral glucose releases more insulin than intravenous glucose because the gut releases the incretins GLP-1 and GIP, which raise cAMP in beta cells.",
+    "whyNot": [
+     "Glucokinase is the glucose sensor that sets the rate of metabolism. Sulfonylureas do not act on it.",
+     "GLP-1 acts through a Gs-coupled receptor and cAMP to amplify secretion. This is the incretin pathway used by GLP-1 agonists.",
+     "Correct.",
+     "GLUT2 lets glucose into the beta cell by facilitated diffusion. Sulfonylureas do not affect it."
+    ],
+    "study": {
+     "topics": [
+      "Glucose-stimulated insulin secretion",
+      "Beta cell K-ATP channel"
+     ],
+     "comps": [
+      "EN-5",
+      "EN-7"
+     ]
+    }
+   },
+   {
+    "id": "EN-C53-Q4",
+    "stem": "In the same emergency department, a 19-year-old man with type 1 diabetes has diabetic ketoacidosis. His urine nitroprusside test shows only small ketones, but his serum beta-hydroxybutyrate is 7.2 mmol/L (less than 0.6). Which of the following best explains why beta-hydroxybutyrate is the main ketone body in his serum?",
+    "options": [
+     "Reduction of acetoacetate by abundant NADH",
+     "Decarboxylation of acetoacetate in plasma",
+     "Cleavage of HMG-CoA directly to beta-hydroxybutyrate",
+     "Renal synthesis of beta-hydroxybutyrate from lactate"
+    ],
+    "answer": 0,
+    "sea": "B",
+    "comp": "EN-7",
+    "obj": "EN-7.2",
+    "dok": 3,
+    "approach": [
+     "Without insulin and with high glucagon, the liver oxidizes large amounts of fatty acid, which produces both acetyl-CoA and NADH.",
+     "Acetyl-CoA is made into HMG-CoA and then acetoacetate. Beta-hydroxybutyrate dehydrogenase reduces acetoacetate using NADH.",
+     "A high NADH to NAD+ ratio pushes most acetoacetate to beta-hydroxybutyrate, which the nitroprusside test does not detect."
+    ],
+    "why": "In DKA, insulin deficiency with glucagon excess increases lipolysis and hepatic fatty acid oxidation. The excess acetyl-CoA forms acetoacetate through HMG-CoA, and the high mitochondrial NADH favors its reduction to beta-hydroxybutyrate. Both are keto acids that consume bicarbonate and produce an anion gap metabolic acidosis. The nitroprusside test reacts with acetoacetate and acetone only, so it can underestimate ketosis, and the urine test may seem to worsen during treatment as beta-hydroxybutyrate is converted back to acetoacetate.",
+    "whyNot": [
+     "Correct.",
+     "Decarboxylation of acetoacetate forms acetone, which gives the fruity breath odor. It does not form beta-hydroxybutyrate.",
+     "HMG-CoA lyase produces acetoacetate. Beta-hydroxybutyrate forms only after acetoacetate is reduced.",
+     "Ketone bodies are made in hepatic mitochondria from fatty acids. The kidney does not make them from lactate."
+    ],
+    "study": {
+     "topics": [
+      "Ketone body formation",
+      "Anion gap acidosis in DKA"
+     ],
+     "comps": [
+      "EN-7",
+      "EN-12-D1"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "EN-C54",
+  "system": "EN",
+  "dx": "Latent autoimmune diabetes in adults (LADA)",
+  "codes": [
+   "EN-12-D1"
+  ],
+  "case": "A 38-year-old woman comes to the physician because of fatigue, increased thirst, and a 5-kg weight loss over 3 months. Eighteen months ago, routine testing showed hyperglycemia, and type 2 diabetes was diagnosed. Her glucose was well controlled with metformin for the first year. Her mother has Hashimoto thyroiditis. Her BMI is 22 kg/m2, and she has no acanthosis nigricans. Her fasting serum glucose is 248 mg/dL (70 to 99), HbA1c is 9.4% (less than 5.7), and fasting serum C-peptide is 0.4 ng/mL (0.8 to 3.1). Urine ketones are small. Further testing confirms latent autoimmune diabetes in adults, and insulin therapy is started.",
+  "questions": [
+   {
+    "id": "EN-C54-Q1",
+    "stem": "Which of the following laboratory findings would most strongly support an autoimmune cause of her diabetes?",
+    "options": [
+     "Serum antibodies to GAD65",
+     "Increased serum triglycerides",
+     "Raised serum ferritin",
+     "Raised serum lipase"
+    ],
+    "answer": 0,
+    "sea": "M",
+    "comp": "EN-10",
+    "obj": "EN-10.3",
+    "dok": 2,
+    "approach": [
+     "A lean adult whose oral therapy failed within a year and whose C-peptide is falling should raise concern for autoimmune beta cell loss.",
+     "Islet autoantibodies (GAD65, insulin, IA-2, ZnT8) mark the autoimmune process.",
+     "GAD65 antibodies are the most frequent marker in adults with this slowly progressive form."
+    ],
+    "why": "Latent autoimmune diabetes in adults (LADA, sometimes called type 1.5) is autoimmune diabetes with a slow course. Like type 1 diabetes, it involves T cell-mediated beta cell destruction (insulitis), and islet autoantibodies serve as markers rather than as the cause of injury. Because insulin secretion declines over months to years, patients are often first labeled as type 2 and later need insulin. GAD65 antibodies are the most useful marker in this setting.",
+    "whyNot": [
+     "Correct.",
+     "High triglycerides are part of the insulin resistance pattern seen in type 2 diabetes and metabolic syndrome.",
+     "A raised ferritin suggests hereditary hemochromatosis, where iron deposition damages islets.",
+     "A raised lipase points to acute pancreatitis, which can cause diabetes through loss of pancreatic tissue."
+    ],
+    "study": {
+     "topics": [
+      "LADA",
+      "Islet autoantibodies"
+     ],
+     "comps": [
+      "EN-10",
+      "EN-12-D1"
+     ]
+    }
+   },
+   {
+    "id": "EN-C54-Q2",
+    "stem": "A 19-year-old man in the same clinic has had stable fasting glucose of 110 to 130 mg/dL (70 to 99) since age 12, with HbA1c of 6.3% to 6.6%. He is not obese, has no islet autoantibodies, and has never needed insulin. His father and paternal grandmother have the same mild hyperglycemia. Which of the following best explains his condition?",
+    "options": [
+     "Maternally inherited mitochondrial DNA mutation",
+     "Polygenic inheritance with insulin resistance",
+     "Autosomal dominant glucokinase mutation",
+     "HLA-DR3 and DR4 linked autoimmunity"
+    ],
+    "answer": 2,
+    "sea": "B",
+    "comp": "EN-9",
+    "obj": "EN-9.3",
+    "dok": 3,
+    "approach": [
+     "Note the pattern: onset in youth, no obesity, no autoantibodies, and affected relatives in three generations, passed through his father.",
+     "Vertical transmission through both sexes suggests autosomal dominant inheritance, which defines maturity-onset diabetes of the young.",
+     "Mild, stable fasting hyperglycemia that rarely needs treatment is typical of glucokinase mutations, which raise the glucose set point of beta cells."
+    ],
+    "why": "Maturity-onset diabetes of the young (MODY) is a group of single-gene, autosomal dominant forms of diabetes. Glucokinase mutations reset the beta cell glucose sensor, producing mild, stable fasting hyperglycemia. HNF1A mutations cause a more progressive form. Type 1 diabetes and LADA are autoimmune and linked to HLA-DR3 and DR4. Type 2 diabetes is polygenic and strongly tied to obesity, and monozygotic twin concordance is higher for type 2 than for type 1 diabetes.",
+    "whyNot": [
+     "Mitochondrial diabetes passes only through the mother and is often linked to deafness. His trait came through his father.",
+     "Polygenic type 2 diabetes usually appears with obesity and insulin resistance and tends to progress.",
+     "Correct.",
+     "HLA-linked autoimmunity causes type 1 diabetes and LADA, which come with islet autoantibodies and progress to insulin need."
+    ],
+    "study": {
+     "topics": [
+      "Genetics of diabetes",
+      "Maturity-onset diabetes of the young"
+     ],
+     "comps": [
+      "EN-9",
+      "EN-12-D1"
+     ]
+    }
+   },
+   {
+    "id": "EN-C54-Q3",
+    "stem": "At her first visit 18 months ago, she had no symptoms. Which of the following sets of results from a single fasting blood sample would have established the diagnosis of diabetes? (Reference ranges: fasting glucose, 70 to 99 mg/dL; HbA1c, less than 5.7%.)",
+    "options": [
+     "Fasting glucose 109 mg/dL and HbA1c 6.9%",
+     "Fasting glucose 118 mg/dL and HbA1c 6.2%",
+     "Fasting glucose 124 mg/dL and HbA1c 6.4%",
+     "Fasting glucose 131 mg/dL and HbA1c 6.7%"
+    ],
+    "answer": 3,
+    "sea": "X",
+    "comp": "EN-12-D1",
+    "obj": "EN-12-D.2",
+    "dok": 3,
+    "approach": [
+     "Recall the thresholds: fasting glucose at least 126 mg/dL, HbA1c at least 6.5%, 2-hour glucose tolerance value at least 200 mg/dL, or random glucose at least 200 mg/dL with symptoms.",
+     "Without symptoms, diagnosis needs two abnormal results, either two different tests from the same sample or the same test repeated.",
+     "Only one set has both values above the diabetic cutoffs."
+    ],
+    "why": "Diabetes is diagnosed by fasting glucose of 126 mg/dL or more, a 2-hour oral glucose tolerance value of 200 mg/dL or more, HbA1c of 6.5% or more, or a random glucose of 200 mg/dL or more with classic symptoms. In a patient without symptoms, the result must be confirmed, and two different tests above threshold from one sample are accepted. Fasting glucose of 100 to 125 mg/dL and HbA1c of 5.7% to 6.4% define prediabetes. HbA1c reflects average glucose over about 3 months, the life span of red cells.",
+    "whyNot": [
+     "The HbA1c is in the diabetic range, but a fasting glucose of 109 mg/dL is only in the prediabetes range. When two tests disagree, the result above its cutoff must be repeated before diagnosis.",
+     "Both values fall in the prediabetes range.",
+     "Both values fall in the prediabetes range, just below the diabetic cutoffs.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Diagnostic criteria for diabetes",
+      "HbA1c as a 3-month measure"
+     ],
+     "comps": [
+      "EN-12-D1",
+      "EN-7"
+     ]
+    }
+   },
+   {
+    "id": "EN-C54-Q4",
+    "stem": "Her beta cells, like the other islet endocrine cells, are neuroendocrine cells that stain for synaptophysin and chromogranin. From which of the following embryonic tissues do these cells arise?",
+    "options": [
+     "Neural crest cells migrating to the gut",
+     "Endoderm of the foregut pancreatic buds",
+     "Splanchnic mesoderm of the dorsal mesentery",
+     "Midgut endoderm of the vitelline duct"
+    ],
+    "answer": 1,
+    "sea": "A",
+    "comp": "EN-1",
+    "obj": "EN-1.6",
+    "dok": 2,
+    "approach": [
+     "Neuroendocrine staining shows what the cells do. It does not show where they come from.",
+     "The pancreas forms from dorsal and ventral buds of foregut endoderm.",
+     "Both the ducts and acini and the islet cells develop from this endoderm."
+    ],
+    "why": "The pancreas arises from dorsal and ventral buds of the foregut endoderm near the future duodenum. The ventral bud rotates behind the duodenum and fuses with the dorsal bud. Endodermal progenitors in both buds give rise to acini, ducts, and islet endocrine cells. Islet cells share markers such as synaptophysin and chromogranin with neural crest-derived cells, but they are endodermal in origin. The surrounding connective tissue and vessels come from splanchnic mesoderm.",
+    "whyNot": [
+     "Neural crest forms the adrenal medulla, enteric neurons, and thyroid C cells, not islet cells.",
+     "Correct.",
+     "Splanchnic mesoderm forms the stroma, capsule, and vessels of the pancreas, not its epithelial or islet cells.",
+     "The vitelline duct links the midgut to the yolk sac and does not form the pancreas."
+    ],
+    "study": {
+     "topics": [
+      "Development of the pancreas",
+      "Origin of islet cells"
+     ],
+     "comps": [
+      "EN-1",
+      "EN-2"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "EN-C55",
+  "system": "EN",
+  "dx": "Factitious hypoglycemia from surreptitious insulin injection",
+  "codes": [
+   "EN-12-G2"
+  ],
+  "case": "A 34-year-old woman who works in a hospital pharmacy is brought to the emergency department after coworkers found her sweating and confused. She has had three similar episodes in 2 months, at different times of day, including after meals. She has no history of diabetes. Her mother has type 2 diabetes treated with insulin. Fingerstick glucose is 34 mg/dL, and her symptoms resolve after intravenous dextrose. During a later monitored episode, serum studies show glucose 38 mg/dL (70 to 99), insulin 96 µU/mL (expected less than 3 at this glucose), and C-peptide less than 0.1 ng/mL (expected less than 0.6 at this glucose). A screen for sulfonylureas is negative. The diagnosis is factitious hypoglycemia from surreptitious insulin injection.",
+  "questions": [
+   {
+    "id": "EN-C55-Q1",
+    "stem": "If her hypoglycemia had instead been caused by surreptitious ingestion of a sulfonylurea, which of the following sets of findings would be expected at the time of hypoglycemia?",
+    "options": [
+     "Low insulin, low C-peptide, negative drug screen",
+     "High insulin, high C-peptide, positive drug screen",
+     "High insulin, low C-peptide, positive drug screen",
+     "High insulin, high C-peptide, negative drug screen"
+    ],
+    "answer": 1,
+    "sea": "X",
+    "comp": "EN-12-G2",
+    "obj": "EN-12-G.4",
+    "dok": 3,
+    "approach": [
+     "Sulfonylureas make the patient's own beta cells secrete insulin.",
+     "Endogenous insulin comes with C-peptide, so both are high, as in insulinoma.",
+     "The drug screen separates a sulfonylurea from an insulinoma, which has the same insulin and C-peptide pattern."
+    ],
+    "why": "In hypoglycemia, insulin should be suppressed. High insulin with high C-peptide means the beta cells are secreting: insulinoma or an insulin secretagogue such as a sulfonylurea, distinguished by a drug screen. High insulin with low C-peptide means insulin came from outside, as in this patient. Low insulin and low C-peptide are expected in non-insulin causes such as sepsis, liver failure, adrenal insufficiency, or prolonged starvation.",
+    "whyNot": [
+     "Low insulin and low C-peptide fit hypoglycemia not driven by insulin, such as sepsis or liver failure.",
+     "Correct.",
+     "A sulfonylurea acts on the patient's beta cells, so C-peptide rises along with insulin.",
+     "This pattern fits an insulinoma. A sulfonylurea would give a positive drug screen."
+    ],
+    "study": {
+     "topics": [
+      "Laboratory approach to hypoglycemia",
+      "Insulin and C-peptide patterns"
+     ],
+     "comps": [
+      "EN-12-G2",
+      "EN-8"
+     ]
+    }
+   },
+   {
+    "id": "EN-C55-Q2",
+    "stem": "Her low C-peptide reflects that pharmaceutical insulin contains none. In normal beta cells, at which of the following steps is C-peptide separated from insulin?",
+    "options": [
+     "Prohormone convertase cleavage of proinsulin in secretory granules",
+     "Signal peptidase cleavage of preproinsulin in the endoplasmic reticulum",
+     "Lysosomal proteolysis of insulin after receptor-mediated uptake",
+     "Disulfide bond formation between chains in the Golgi"
+    ],
+    "answer": 0,
+    "sea": "B",
+    "comp": "EN-8",
+    "obj": "EN-8.4",
+    "dok": 3,
+    "approach": [
+     "Preproinsulin is made on ribosomes, and its signal peptide is removed in the endoplasmic reticulum, leaving proinsulin.",
+     "Proinsulin folds and forms disulfide bonds, then moves through the Golgi into immature secretory granules.",
+     "In the granules, prohormone convertases and carboxypeptidase E cut out C-peptide, leaving insulin's A and B chains linked by disulfide bonds."
+    ],
+    "why": "Insulin begins as preproinsulin. Removal of the signal peptide in the endoplasmic reticulum yields proinsulin, in which the connecting C-peptide joins the B and A chains. Proinsulin is cleaved in secretory granules, so insulin and C-peptide are released together in equal molar amounts. Recombinant insulin products contain no C-peptide, and injected insulin also suppresses the patient's own beta cells, so C-peptide is low when exogenous insulin causes hypoglycemia. Insulinoma and sulfonylurea use raise both insulin and C-peptide.",
+    "whyNot": [
+     "Correct.",
+     "Signal peptidase removes the signal peptide from preproinsulin. C-peptide is still attached after this step.",
+     "Lysosomal breakdown of insulin is how target cells clear the hormone. It does not create C-peptide.",
+     "Disulfide bonds hold the A and B chains together. They form before C-peptide is removed and do not release it."
+    ],
+    "study": {
+     "topics": [
+      "Insulin biosynthesis",
+      "C-peptide as a marker of endogenous insulin"
+     ],
+     "comps": [
+      "EN-8",
+      "EN-12-G2"
+     ]
+    }
+   },
+   {
+    "id": "EN-C55-Q3",
+    "stem": "In a healthy person in the fasting state, the molar concentration of C-peptide in peripheral venous blood is several times that of insulin, although the two are secreted in equal amounts. Which of the following best explains this difference?",
+    "options": [
+     "Insulin binding to plasma albumin",
+     "Renal reabsorption of C-peptide",
+     "Delayed exocytosis of insulin granules",
+     "First-pass hepatic uptake of insulin"
+    ],
+    "answer": 3,
+    "sea": "P",
+    "comp": "EN-4",
+    "obj": "EN-4.5",
+    "dok": 3,
+    "approach": [
+     "Follow the venous drainage. Pancreatic veins empty into the hepatic portal vein, so islet hormones reach the liver before the rest of the body.",
+     "The liver removes about half of the insulin on this first pass, while it removes little C-peptide.",
+     "C-peptide is cleared mainly by the kidney and has a longer half-life, so it stays higher in peripheral blood."
+    ],
+    "why": "Insulin and glucagon drain from the islets into the splenic and superior mesenteric veins and then the portal vein, so hepatocytes see them at the highest concentration. The liver extracts roughly half of portal insulin on the first pass, which lets insulin regulate hepatic glucose output strongly while peripheral levels stay lower. C-peptide escapes hepatic extraction and has a longer half-life (about 30 minutes versus about 5 minutes for insulin). Insulin injected under the skin enters the systemic circulation first and skips this hepatic step.",
+    "whyNot": [
+     "Insulin circulates mostly free, and any bound fraction would still be measured. Binding does not explain the gap.",
+     "The kidney is the main site where C-peptide is removed and degraded. It does not return C-peptide to the blood.",
+     "Insulin and C-peptide sit in the same granules and leave the cell together.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Portal drainage of the pancreas",
+      "Hepatic first-pass extraction of insulin"
+     ],
+     "comps": [
+      "EN-4",
+      "EN-8"
+     ]
+    }
+   },
+   {
+    "id": "EN-C55-Q4",
+    "stem": "Before these laboratory results were available, an insulinoma was considered, and the first step was to confirm that her symptoms were caused by hypoglycemia. Which of the following observations during an episode would satisfy the Whipple triad?",
+    "options": [
+     "Sweating 2 hours after a meal, glucose 84 mg/dL, relief with juice",
+     "Confusion while fasting, glucose 41 mg/dL, no relief with dextrose",
+     "Confusion while fasting, glucose 41 mg/dL, relief with dextrose",
+     "Tremor while fasting, glucose not measured, relief with juice"
+    ],
+    "answer": 2,
+    "sea": "X",
+    "comp": "EN-12-G2",
+    "obj": "EN-12-G.3",
+    "dok": 2,
+    "approach": [
+     "The Whipple triad has three parts: symptoms of hypoglycemia, a low plasma glucose measured at the time of symptoms, and relief of symptoms when glucose is raised.",
+     "Check each option for all three parts. A normal glucose, a glucose that was never measured, or symptoms that persist after glucose is given all fail the triad.",
+     "Once the triad is met, insulin, C-peptide, and proinsulin measured during hypoglycemia sort out the cause."
+    ],
+    "why": "An insulinoma is a beta cell tumor that secretes insulin without regard to glucose, causing fasting hypoglycemia with neuroglycopenic and adrenergic symptoms. The Whipple triad confirms that hypoglycemia is real: symptoms, low glucose at that moment, and relief with glucose. In insulinoma, insulin, C-peptide, and proinsulin are all inappropriately high, and ketones are suppressed. About 5 to 10% of insulinomas occur in MEN1, so hypercalcemia from parathyroid disease should prompt that diagnosis.",
+    "whyNot": [
+     "A glucose of 84 mg/dL is normal, so these symptoms are not caused by hypoglycemia. Symptoms after meals with a normal glucose do not point to insulinoma.",
+     "If symptoms do not clear once glucose is raised, hypoglycemia is not their cause, and another explanation such as a seizure or stroke should be sought.",
+     "Correct.",
+     "Feeling better after eating is not enough. Without a low glucose measured during the episode, the triad is not met."
+    ],
+    "study": {
+     "topics": [
+      "Whipple triad",
+      "Insulinoma"
+     ],
+     "comps": [
+      "EN-12-G2",
+      "EN-12-G6"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "EN-C56",
+  "system": "EN",
+  "dx": "Four-gland parathyroid hyperplasia in MEN1 with a duodenal gastrinoma",
+  "codes": [
+   "EN-12-G3",
+   "EN-12-G6"
+  ],
+  "case": "A 44-year-old man comes to the physician because of epigastric pain and watery diarrhea for 6 months. He passed a kidney stone last year. His father had recurrent peptic ulcers and kidney stones. After acid-suppressing medication is stopped, laboratory studies show calcium 11.6 mg/dL (8.5 to 10.2), phosphate 2.2 mg/dL (2.5 to 4.5), intact PTH 112 pg/mL (10 to 65), and fasting gastrin 980 pg/mL (less than 100) with a gastric pH of 1.5. Endoscopy shows thickened gastric folds and ulcers in the second part of the duodenum. Endoscopic ultrasound shows an 8-mm submucosal duodenal tumor. Genetic testing shows a germline MEN1 mutation. The diagnosis is multiple endocrine neoplasia type 1 with parathyroid hyperplasia and a duodenal gastrinoma.",
+  "questions": [
+   {
+    "id": "EN-C56-Q1",
+    "stem": "At parathyroid surgery, all four glands are enlarged. If his hyperparathyroidism had instead been caused by a sporadic single adenoma, which of the following would most likely be found in the remaining three glands?",
+    "options": [
+     "Diffuse chief cell hyperplasia",
+     "Capsular and vascular invasion",
+     "Normal or reduced size",
+     "Replacement by oxyphil cell nodules"
+    ],
+    "answer": 2,
+    "sea": "X",
+    "comp": "EN-12-G3",
+    "obj": "EN-12-G.6",
+    "dok": 3,
+    "approach": [
+     "An adenoma is one autonomous gland. Its PTH raises calcium, and the high calcium acts on the calcium-sensing receptors of the other glands.",
+     "Those glands are suppressed and stay normal in size or shrink.",
+     "Enlargement of every gland means a stimulus or genetic defect affects all of them, as in MEN syndromes or chronic kidney disease."
+    ],
+    "why": "Primary hyperparathyroidism is caused mostly by a single adenoma (about 85%), less often by hyperplasia of several glands, and rarely by carcinoma. An adenoma is an encapsulated chief cell nodule, often with a rim of compressed normal tissue, and the other glands are normal or small because high calcium suppresses them. Hyperplasia involves several or all glands and is the usual lesion in MEN1 and MEN2A. Carcinoma is suggested by very high calcium, invasion of nearby tissue, and metastasis.",
+    "whyNot": [
+     "Diffuse chief cell hyperplasia in several glands is the lesion in this patient with MEN1, not in sporadic adenoma.",
+     "Invasion of the capsule and vessels is a feature of parathyroid carcinoma, and it occurs in the tumor itself.",
+     "Correct.",
+     "Oxyphil cells increase with age and can form part of some adenomas, but they do not replace suppressed normal glands."
+    ],
+    "study": {
+     "topics": [
+      "Parathyroid adenoma versus hyperplasia",
+      "Causes of primary hyperparathyroidism"
+     ],
+     "comps": [
+      "EN-12-G3",
+      "EN-12-G6"
+     ]
+    }
+   },
+   {
+    "id": "EN-C56-Q2",
+    "stem": "Analysis of his gastrinoma cells shows loss of the remaining normal MEN1 allele. Which of the following best explains the role of this gene in tumor formation?",
+    "options": [
+     "Gain of function in a receptor tyrosine kinase",
+     "Dominant-negative effect of a single mutant allele",
+     "Expansion of an unstable trinucleotide repeat",
+     "Loss of both copies of a tumor suppressor"
+    ],
+    "answer": 3,
+    "sea": "B",
+    "comp": "EN-9",
+    "obj": "EN-9.1",
+    "dok": 2,
+    "approach": [
+     "He inherited one mutant MEN1 allele, which is present in every cell.",
+     "The tumor appeared only after the second, normal allele was lost. That is the two-hit pattern of a tumor suppressor gene.",
+     "MEN1 encodes menin, a nuclear protein that restrains cell proliferation."
+    ],
+    "why": "MEN1 is autosomal dominant at the level of the family, because one inherited mutant allele carries a very high lifetime risk of tumors. At the cell level the gene is a tumor suppressor: a tumor develops only when a second hit, often loss of the normal allele, removes menin function. MEN2A and MEN2B work the other way. A single gain-of-function mutation in the RET proto-oncogene, a receptor tyrosine kinase, is enough to drive C cell and chromaffin cell tumors, with parathyroid hyperplasia in MEN2A only.",
+    "whyNot": [
+     "Gain of function in the RET receptor tyrosine kinase causes MEN2A and MEN2B.",
+     "In a dominant-negative effect, one mutant protein blocks the normal one, so a second hit is not needed. Loss of the second allele argues against it.",
+     "Trinucleotide repeat expansion causes diseases such as Huntington disease and fragile X syndrome.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "MEN1 and the two-hit hypothesis",
+      "Tumor suppressors versus oncogenes"
+     ],
+     "comps": [
+      "EN-9",
+      "EN-12-G6"
+     ]
+    }
+   },
+   {
+    "id": "EN-C56-Q3",
+    "stem": "During neck exploration, the surgeon finds both superior glands and the right inferior gland on the posterior thyroid capsule but cannot find the left inferior gland near the lower thyroid pole. Which of the following sites is most likely to contain this gland?",
+    "options": [
+     "Thyrothymic ligament or thymus",
+     "Retroesophageal space",
+     "Posterior to the upper thyroid pole",
+     "Submandibular triangle"
+    ],
+    "answer": 0,
+    "sea": "A",
+    "comp": "EN-3",
+    "obj": "EN-3.3",
+    "dok": 2,
+    "approach": [
+     "The superior glands usually lie in a fairly constant spot on the back of the upper thyroid lobes.",
+     "The inferior glands start higher in the neck and travel down with the thymus, so their final position varies more.",
+     "When an inferior gland is missing from the lower pole, the thyrothymic ligament and upper thymus are the first places to search."
+    ],
+    "why": "The four parathyroid glands usually lie on the posterior surface of the thyroid lobes. The superior glands have a short path of descent and a constant position near the level of the cricoid cartilage. The inferior glands come from the third pharyngeal pouch with the thymus and have a long path, so they may stop high near the carotid bifurcation or be carried into the thyrothymic ligament, the thymus, or the anterior mediastinum. In four-gland hyperplasia, a missed gland causes persistent hyperparathyroidism, so knowing these sites matters.",
+    "whyNot": [
+     "Correct.",
+     "The retroesophageal space is a site for ectopic superior glands, which can slide down behind the esophagus.",
+     "Behind the upper pole is the usual site of the superior gland, which has already been found.",
+     "An undescended inferior gland can stay high in the neck near the carotid bifurcation, but this is much less common than descent into the thyrothymic ligament or thymus."
+    ],
+    "study": {
+     "topics": [
+      "Location of the parathyroid glands",
+      "Ectopic parathyroid glands"
+     ],
+     "comps": [
+      "EN-3",
+      "EN-1"
+     ]
+    }
+   },
+   {
+    "id": "EN-C56-Q4",
+    "stem": "His 40-year-old sister carries the same germline mutation. She has headaches and has had no menstrual periods for 8 months. Which of the following findings is most likely in the sister?",
+    "options": [
+     "Elevated serum calcitonin",
+     "Elevated serum prolactin",
+     "Elevated plasma metanephrines",
+     "Elevated serum PTH-related peptide"
+    ],
+    "answer": 1,
+    "sea": "X",
+    "comp": "EN-12-G6",
+    "obj": "EN-12-G.15",
+    "dok": 2,
+    "approach": [
+     "MEN1 affects the parathyroids, the pituitary, and the pancreas and duodenum.",
+     "Headaches and amenorrhea in a woman suggest a pituitary adenoma, and prolactinoma is the most common pituitary tumor in MEN1.",
+     "Calcitonin and metanephrines are markers of MEN2 tumors."
+    ],
+    "why": "MEN1 includes parathyroid hyperplasia (the most common feature), pituitary adenomas (most often prolactinoma), and pancreatic and duodenal neuroendocrine tumors such as gastrinoma and insulinoma. MEN2A includes medullary thyroid carcinoma, pheochromocytoma, and parathyroid hyperplasia. MEN2B includes medullary thyroid carcinoma, pheochromocytoma, mucosal neuromas, and a marfanoid habitus. Prolactin suppresses GnRH, which explains her amenorrhea.",
+    "whyNot": [
+     "Calcitonin is the marker of medullary thyroid carcinoma, a tumor of MEN2A and MEN2B.",
+     "Correct.",
+     "Plasma metanephrines rise with pheochromocytoma, a tumor of MEN2A and MEN2B.",
+     "PTH-related peptide causes hypercalcemia of malignancy, usually from squamous cell carcinomas. It is not part of MEN1."
+    ],
+    "study": {
+     "topics": [
+      "MEN1, MEN2A, and MEN2B tumors",
+      "Prolactinoma"
+     ],
+     "comps": [
+      "EN-12-G6",
+      "EN-9"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "EN-C57",
+  "system": "EN",
+  "dx": "Autoimmune polyendocrine syndrome type 1 with hypoparathyroidism, mucocutaneous candidiasis, and Addison disease",
+  "codes": [
+   "EN-12-B3",
+   "EN-12-B2"
+  ],
+  "case": "A 13-year-old girl is brought to the physician because of fatigue, salt craving, and dizziness on standing for 2 months. Since early childhood, she has had recurrent oral thrush and Candida infection of her fingernails. At age 8 years, she had a hypocalcemic seizure, and hypoparathyroidism was diagnosed and treated with calcium and calcitriol. Temperature is 36.8 °C (98.2 °F), pulse is 104/min, respirations are 16/min, and blood pressure is 88/54 mm Hg supine, falling on standing. Her palmar creases and gums are hyperpigmented. Serum studies show Na+ 128 mEq/L (135 to 145), K+ 5.8 mEq/L (3.5 to 5.0), glucose 64 mg/dL (70 to 99), and calcium 8.4 mg/dL (8.5 to 10.2). Genetic testing shows mutations in both copies of the AIRE gene. The diagnosis is autoimmune polyendocrine syndrome type 1.",
+  "questions": [
+   {
+    "id": "EN-C57-Q1",
+    "stem": "Which of the following best describes the normal function of the protein encoded by the gene mutated in this patient?",
+    "options": [
+     "Induction of FOXP3-positive regulatory T cells",
+     "Fas-mediated apoptosis of activated lymphocytes",
+     "CTLA-4 blockade of B7 costimulation on APCs",
+     "Thymic display of organ-specific self-antigens"
+    ],
+    "answer": 3,
+    "sea": "M",
+    "comp": "EN-10",
+    "obj": "EN-10.4",
+    "dok": 2,
+    "approach": [
+     "AIRE stands for autoimmune regulator, a transcription factor in thymic medullary epithelial cells.",
+     "It switches on genes for proteins normally made only in peripheral organs, such as insulin and adrenal enzymes.",
+     "Developing T cells that react strongly to these self-antigens are deleted. Without AIRE, they escape and attack many endocrine organs."
+    ],
+    "why": "Central tolerance removes self-reactive T cells in the thymus. AIRE lets medullary thymic epithelial cells express many tissue-restricted antigens so that T cells reactive to them are deleted. Loss of AIRE causes autoimmune polyendocrine syndrome type 1, an autosomal recessive disorder with chronic mucocutaneous candidiasis, hypoparathyroidism, and Addison disease, usually beginning in childhood. The candidiasis is linked to autoantibodies against IL-17 and IL-22, cytokines needed for mucosal defense against Candida. Type 2 is more common, starts in adulthood, and combines Addison disease with autoimmune thyroid disease or type 1 diabetes.",
+    "whyNot": [
+     "FOXP3 drives regulatory T cell development. Its loss causes IPEX syndrome, with enteropathy, diabetes, and eczema.",
+     "Fas-mediated apoptosis removes activated lymphocytes. Its loss causes autoimmune lymphoproliferative syndrome.",
+     "CTLA-4 limits costimulation and is a peripheral tolerance mechanism. Inherited CTLA-4 deficiency causes immune dysregulation with lymphocytic infiltration of many organs, without the AIRE pattern.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "AIRE and central tolerance",
+      "Autoimmune polyendocrine syndromes"
+     ],
+     "comps": [
+      "EN-10",
+      "EN-12-B2"
+     ]
+    }
+   },
+   {
+    "id": "EN-C57-Q2",
+    "stem": "Plasma ACTH and renin activity are measured, and a cosyntropin (ACTH) stimulation test is performed. Which of the following sets of results is most likely?",
+    "options": [
+     "Low ACTH, low cortisol response, normal renin",
+     "High ACTH, normal cortisol response, low renin",
+     "High ACTH, low cortisol response, high renin",
+     "Low ACTH, normal cortisol response, high renin"
+    ],
+    "answer": 2,
+    "sea": "X",
+    "comp": "EN-12-B2",
+    "obj": "EN-12-B.3",
+    "dok": 3,
+    "approach": [
+     "Primary adrenal failure destroys all zones of the cortex, so cortisol does not rise when ACTH is given.",
+     "Low cortisol removes negative feedback, so the pituitary makes more ACTH, along with MSH from the same POMC precursor, which darkens the skin.",
+     "Loss of aldosterone causes salt loss and volume depletion, which raises renin."
+    ],
+    "why": "Autoimmune adrenalitis is the most common cause of Addison disease in developed countries. Tuberculosis and metastases are other causes. Loss of cortisol causes fatigue, hypoglycemia, and hypotension, and the high ACTH and MSH from POMC cause hyperpigmentation. Loss of aldosterone causes hyponatremia, hyperkalemia, and high renin. In secondary adrenal insufficiency, ACTH is low, aldosterone and renin are largely normal, and the skin is not darkened.",
+    "whyNot": [
+     "Low ACTH with normal renin is the pattern of secondary adrenal insufficiency from pituitary disease.",
+     "A normal cortisol response rules out adrenal insufficiency, and low renin would point to aldosterone excess.",
+     "Correct.",
+     "A normal cortisol response rules out primary adrenal failure, and low ACTH argues against it."
+    ],
+    "study": {
+     "topics": [
+      "Laboratory diagnosis of Addison disease",
+      "Primary versus secondary adrenal insufficiency"
+     ],
+     "comps": [
+      "EN-12-B2",
+      "EN-6"
+     ]
+    }
+   },
+   {
+    "id": "EN-C57-Q3",
+    "stem": "Two years later, while taking maintenance hydrocortisone and fludrocortisone, she develops influenza with repeated vomiting. She is brought to the emergency department with a blood pressure of 70/40 mm Hg that does not respond to intravenous fluids alone. Which of the following best explains her acute decompensation?",
+    "options": [
+     "Hemorrhagic necrosis of the adrenal medulla",
+     "Stress needs exceeding her cortisol dose",
+     "Sudden autoimmune loss of thyroid hormone",
+     "Hypoglycemia from excess insulin secretion"
+    ],
+    "answer": 1,
+    "sea": "X",
+    "comp": "EN-12-B2",
+    "obj": "EN-12-B.4",
+    "dok": 2,
+    "approach": [
+     "A healthy adrenal cortex raises cortisol output several-fold during illness. Her glands cannot.",
+     "Her fixed replacement dose does not match the higher need, and vomiting keeps her from absorbing it.",
+     "The result is adrenal crisis, with shock that responds poorly until stress doses of hydrocortisone are given."
+    ],
+    "why": "Adrenal crisis is acute adrenocortical insufficiency with shock. Common causes are physiologic stress (infection, surgery, trauma) in a patient with chronic insufficiency who does not increase the dose, abrupt withdrawal of long-term glucocorticoids, and bilateral adrenal hemorrhage from anticoagulation or DIC, as in Waterhouse-Friderichsen syndrome. Cortisol is needed for normal vascular responses to catecholamines, so shock persists until hydrocortisone is given. Patients are taught to double or triple their dose during illness and to use injectable hydrocortisone when vomiting.",
+    "whyNot": [
+     "Loss of the adrenal medulla alone does not cause shock, because sympathetic nerves still supply norepinephrine.",
+     "Correct.",
+     "Hypothyroidism develops over weeks and would not cause sudden shock during an infection.",
+     "Nothing points to excess insulin. Hypoglycemia in adrenal crisis comes from the lack of cortisol."
+    ],
+    "study": {
+     "topics": [
+      "Causes of adrenal crisis",
+      "Stress dosing of glucocorticoids"
+     ],
+     "comps": [
+      "EN-12-B2",
+      "EN-6"
+     ]
+    }
+   },
+   {
+    "id": "EN-C57-Q4",
+    "stem": "Her parathyroid glands, which developed from the third and fourth pharyngeal pouches, have been destroyed by autoimmune injury. Her thyroid C cells are spared and continue to secrete calcitonin. These C cells reach the thyroid gland by way of which of the following structures?",
+    "options": [
+     "Ultimobranchial body",
+     "Thyroglossal duct",
+     "Third pharyngeal pouch",
+     "Second pharyngeal arch"
+    ],
+    "answer": 0,
+    "sea": "A",
+    "comp": "EN-1",
+    "obj": "EN-1.2",
+    "dok": 2,
+    "approach": [
+     "The parathyroids come from the third pouch (inferior glands, with the thymus) and the fourth pouch (superior glands).",
+     "The ultimobranchial body forms from the most caudal pouch region and fuses with the thyroid.",
+     "Neural crest cells carried in the ultimobranchial body become the parafollicular C cells."
+    ],
+    "why": "The third pharyngeal pouch forms the inferior parathyroid glands and the thymus, and the inferior glands descend with the thymus, which explains ectopic glands in the mediastinum. The fourth pouch forms the superior parathyroid glands. The ultimobranchial body brings neural crest-derived cells into the lateral thyroid lobes, where they become calcitonin-secreting C cells. Follicular cells come from endoderm at the foramen cecum and descend through the thyroglossal duct.",
+    "whyNot": [
+     "Correct.",
+     "The thyroglossal duct is the path of the follicular cells that make thyroxine.",
+     "The third pouch forms the inferior parathyroids and thymus, not the C cells.",
+     "The second pharyngeal arch forms structures such as the stapes, styloid process, and muscles of facial expression."
+    ],
+    "study": {
+     "topics": [
+      "Pharyngeal pouch derivatives",
+      "Origin of thyroid C cells"
+     ],
+     "comps": [
+      "EN-1",
+      "EN-2"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "EN-C58",
+  "system": "EN",
+  "dx": "Hypoparathyroidism after total thyroidectomy for Graves disease",
+  "codes": [
+   "EN-12-B3"
+  ],
+  "case": "A 36-year-old woman comes to the emergency department 30 hours after a total thyroidectomy for Graves disease because of tingling around her mouth and in her fingertips and painful cramping of her hands. Temperature is 37.0 °C (98.6 °F), pulse is 88/min, respirations are 16/min, and blood pressure is 124/78 mm Hg. Tapping in front of her ear produces twitching of the upper lip. Serum total calcium is 6.9 mg/dL (8.5 to 10.2), albumin is 4.0 g/dL (3.5 to 5.0), and magnesium is 2.0 mg/dL (1.7 to 2.2). The operative note states that all four parathyroid glands were identified and left in place. The diagnosis is postoperative hypoparathyroidism.",
+  "questions": [
+   {
+    "id": "EN-C58-Q1",
+    "stem": "Her parathyroid glands were left in place, but they may have lost their blood supply during the operation. Which of the following arteries is the main blood supply of both the superior and the inferior parathyroid glands in most people?",
+    "options": [
+     "Inferior thyroid artery",
+     "Superior thyroid artery",
+     "Thyroid ima artery",
+     "Ascending cervical artery"
+    ],
+    "answer": 0,
+    "sea": "A",
+    "comp": "EN-4",
+    "obj": "EN-4.4",
+    "dok": 3,
+    "approach": [
+     "Each parathyroid gland has a small end artery entering at a hilum.",
+     "In most people, branches of the inferior thyroid artery supply the inferior glands and usually the superior glands as well.",
+     "Ligating or stripping these branches near the thyroid capsule can leave every gland in place but without blood flow."
+    ],
+    "why": "The inferior thyroid artery, a branch of the thyrocervical trunk, is the main supply of all four parathyroid glands in most people, with the superior thyroid artery or an anastomosis between the two contributing to the superior glands in some. During thyroidectomy, surgeons ligate branches of the inferior thyroid artery close to the thyroid capsule to protect the parathyroid supply. Devascularized glands may recover, giving temporary hypocalcemia, or may fail, giving permanent hypoparathyroidism. Hypocalcemia after thyroidectomy usually appears within 1 to 3 days.",
+    "whyNot": [
+     "Correct.",
+     "The superior thyroid artery supplies the upper thyroid pole and adds to the superior parathyroid supply in some people, but it is not the main source for both glands.",
+     "The thyroid ima artery is an inconstant vessel from the brachiocephalic trunk or aortic arch to the isthmus.",
+     "The ascending cervical artery supplies muscles of the neck and does not reach the parathyroids."
+    ],
+    "study": {
+     "topics": [
+      "Blood supply of the parathyroid glands",
+      "Hypocalcemia after thyroidectomy"
+     ],
+     "comps": [
+      "EN-4",
+      "EN-3"
+     ]
+    }
+   },
+   {
+    "id": "EN-C58-Q2",
+    "stem": "Her sister, who has dark skin, covers most of her skin outdoors, and avoids dairy products, has diffuse bone pain and proximal muscle weakness. Her serum 25-hydroxyvitamin D concentration is 6 ng/mL (30 to 100). Which of the following sets of serum findings is most likely in the sister?",
+    "options": [
+     "Low calcium, high phosphate, low PTH",
+     "Low calcium, low phosphate, high PTH",
+     "High calcium, low phosphate, high PTH",
+     "Normal calcium, high phosphate, high PTH"
+    ],
+    "answer": 1,
+    "sea": "B",
+    "comp": "EN-7",
+    "obj": "EN-7.4",
+    "dok": 3,
+    "approach": [
+     "Low sunlight exposure, dark skin, and poor intake limit vitamin D production in skin and intake from food.",
+     "Without enough vitamin D, the gut absorbs less calcium and phosphate. Falling calcium raises PTH (secondary hyperparathyroidism).",
+     "PTH restores calcium partly from bone but makes the kidney waste phosphate, so phosphate falls. Poor mineralization causes osteomalacia."
+    ],
+    "why": "UVB light converts 7-dehydrocholesterol in the skin to cholecalciferol. The liver adds a 25-hydroxyl group, and the kidney adds a 1-alpha-hydroxyl group under the control of PTH and low phosphate, producing active calcitriol. Deficiency causes rickets in children and osteomalacia in adults. The typical serum pattern is low or low-normal calcium, low phosphate, high PTH, and high alkaline phosphatase. Hypoparathyroidism differs by having low PTH and high phosphate.",
+    "whyNot": [
+     "Low calcium with high phosphate and low PTH is the pattern of hypoparathyroidism, as in this patient.",
+     "Correct.",
+     "High calcium with high PTH and low phosphate is the pattern of primary hyperparathyroidism.",
+     "High phosphate with high PTH points to chronic kidney disease or PTH resistance, not simple vitamin D deficiency."
+    ],
+    "study": {
+     "topics": [
+      "Vitamin D activation",
+      "Osteomalacia and secondary hyperparathyroidism"
+     ],
+     "comps": [
+      "EN-7",
+      "EN-5"
+     ]
+    }
+   },
+   {
+    "id": "EN-C58-Q3",
+    "stem": "Which of the following sets of additional serum findings is most likely in this patient?",
+    "options": [
+     "Low phosphate and high PTH",
+     "High phosphate and high PTH",
+     "Low phosphate and low PTH",
+     "High phosphate and low PTH"
+    ],
+    "answer": 3,
+    "sea": "X",
+    "comp": "EN-12-B3",
+    "obj": "EN-12-B.6",
+    "dok": 3,
+    "approach": [
+     "Her albumin and magnesium are normal, so the low calcium is real and not caused by magnesium deficiency.",
+     "Injured parathyroid glands cannot secrete PTH, so PTH is low despite hypocalcemia.",
+     "Without PTH, the proximal tubule reabsorbs more phosphate, so serum phosphate rises."
+    ],
+    "why": "Hypoparathyroidism is caused most often by neck surgery, and also by autoimmune destruction, DiGeorge syndrome, and severe hypomagnesemia, which impairs PTH release. The lab pattern is low calcium, high phosphate, and low PTH. Low ionized calcium lowers the threshold for nerve depolarization, causing perioral numbness, tingling, carpopedal spasm, and the Chvostek and Trousseau signs. It also lengthens the plateau of the cardiac action potential, so the QT interval is prolonged.",
+    "whyNot": [
+     "Low phosphate with high PTH fits vitamin D deficiency, where the parathyroids are working.",
+     "High phosphate with high PTH fits chronic kidney disease or pseudohypoparathyroidism, where PTH is present but ineffective or phosphate cannot be excreted.",
+     "Low phosphate is not expected when PTH is absent, because PTH is what makes the kidney excrete phosphate.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Hypoparathyroidism",
+      "Signs of hypocalcemia"
+     ],
+     "comps": [
+      "EN-12-B3",
+      "EN-5"
+     ]
+    }
+   },
+   {
+    "id": "EN-C58-Q4",
+    "stem": "A 15-year-old boy has hypocalcemia and hyperphosphatemia similar to hers, but his serum PTH concentration is 240 pg/mL (10 to 65). He is short, with a round face and short fourth and fifth metacarpals. Which of the following best explains his hypocalcemia?",
+    "options": [
+     "Autoimmune destruction of chief cells",
+     "Activating mutation of the calcium-sensing receptor",
+     "Defective Gs-alpha signaling from the PTH receptor",
+     "Absent third and fourth pharyngeal pouches"
+    ],
+    "answer": 2,
+    "sea": "P",
+    "comp": "EN-12-B3",
+    "obj": "EN-12-B.7",
+    "dok": 3,
+    "approach": [
+     "High PTH with the chemistry of hypoparathyroidism means target tissues are not responding to PTH.",
+     "The PTH receptor in kidney and bone signals through Gs and cAMP. A GNAS mutation disrupts this step.",
+     "Short fourth and fifth metacarpals, a round face, and short stature are Albright hereditary osteodystrophy."
+    ],
+    "why": "Pseudohypoparathyroidism type 1a is end-organ resistance to PTH caused by an inactivating GNAS mutation, which encodes the alpha subunit of Gs. The kidney cannot respond, so phosphate stays high, calcitriol is low, and calcium falls. The glands respond normally by secreting large amounts of PTH. Albright hereditary osteodystrophy accompanies the disorder, and resistance to other Gs-coupled hormones such as TSH may occur. In true hypoparathyroidism, PTH is low.",
+    "whyNot": [
+     "Autoimmune destruction of chief cells would cause low PTH.",
+     "An activating calcium-sensing receptor mutation makes the glands read calcium as too high, so PTH is low or inappropriately normal.",
+     "Correct.",
+     "Absence of the third and fourth pouches occurs in DiGeorge syndrome, in which the glands are missing and PTH is low."
+    ],
+    "study": {
+     "topics": [
+      "Pseudohypoparathyroidism",
+      "Gs-coupled PTH receptor signaling"
+     ],
+     "comps": [
+      "EN-12-B3",
+      "EN-6"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "EN-C59",
+  "system": "EN",
+  "dx": "Meningococcal sepsis with bilateral adrenal hemorrhage in a college student",
+  "codes": [
+   "EN-12-H2"
+  ],
+  "case": "A 19-year-old man who lives in a college dormitory is brought to the emergency department 12 hours after the onset of fever, headache, muscle aches, and a rash. He has not received any meningococcal vaccine. Temperature is 39.8 °C (103.6 °F), pulse is 134/min, respirations are 28/min, and blood pressure is 74/40 mm Hg. He is drowsy, and petechiae and purpura cover his trunk and legs. Laboratory studies show platelets 38,000/mm3 (150,000 to 400,000), prothrombin time 24 seconds (11 to 13.5), fibrinogen 90 mg/dL (200 to 400), Na+ 129 mEq/L (135 to 145), K+ 5.6 mEq/L (3.5 to 5.0), and glucose 58 mg/dL (70 to 99). Blood cultures grow Neisseria meningitidis. CT shows bilateral adrenal hemorrhage. The diagnosis is meningococcal sepsis with Waterhouse-Friderichsen syndrome.",
+  "questions": [
+   {
+    "id": "EN-C59-Q1",
+    "stem": "Which of the following features of the organism most directly allows it to resist complement-mediated opsonization and phagocytosis in his bloodstream?",
+    "options": [
+     "Pili that bind nasopharyngeal cells",
+     "Protease that cleaves secretory IgA1",
+     "Polysaccharide capsule",
+     "Opa proteins that mediate adhesion"
+    ],
+    "answer": 2,
+    "sea": "M",
+    "comp": "EN-11",
+    "obj": "EN-11.1",
+    "dok": 2,
+    "approach": [
+     "Split the infection into two stages: colonizing the nasopharynx and then surviving in the blood.",
+     "Pili, Opa proteins, and IgA1 protease help with the mucosal stage.",
+     "In the blood, the antiphagocytic polysaccharide capsule protects the organism, and it is the target of the vaccines."
+    ],
+    "why": "Neisseria meningitidis is a gram-negative diplococcus spread by respiratory droplets, with outbreaks in crowded settings such as dormitories and barracks. It colonizes the nasopharynx using pili and outer membrane adhesins and cleaves mucosal IgA with IgA1 protease. Once in the blood, the polysaccharide capsule blocks complement deposition and phagocytosis. Its lipooligosaccharide endotoxin triggers cytokine release, septic shock, and DIC, which causes the purpura and the adrenal hemorrhage.",
+    "whyNot": [
+     "Pili help the organism attach to nasopharyngeal epithelium. They do not protect it from complement in the blood.",
+     "IgA1 protease helps the organism colonize mucosal surfaces by cleaving secretory IgA.",
+     "Correct.",
+     "Opa proteins help the organism bind and enter host cells at mucosal surfaces."
+    ],
+    "study": {
+     "topics": [
+      "Neisseria meningitidis virulence factors",
+      "Capsule and complement evasion"
+     ],
+     "comps": [
+      "EN-11",
+      "EN-10"
+     ]
+    }
+   },
+   {
+    "id": "EN-C59-Q2",
+    "stem": "His roommate receives a vaccine in which meningococcal capsular polysaccharide is chemically linked to a protein carrier. Which of the following interactions is required for the roommate's B cells to switch from IgM to high-affinity IgG against the capsule?",
+    "options": [
+     "CD40 ligand on helper T cells binding CD40",
+     "Polysaccharide cross-linking of B cell receptors",
+     "MHC class I presentation to CD8 T cells",
+     "Lipooligosaccharide binding Toll-like receptor 4"
+    ],
+    "answer": 0,
+    "sea": "M",
+    "comp": "EN-10",
+    "obj": "EN-10.6",
+    "dok": 3,
+    "approach": [
+     "Plain polysaccharide antigens cross-link B cell receptors and trigger a T cell-independent response with mostly IgM and little memory.",
+     "In a conjugate, B cells that bind the polysaccharide take in the whole molecule and show carrier peptides on MHC class II.",
+     "Carrier-specific CD4 T cells then help those B cells through CD40 ligand binding CD40 and cytokines, which drive class switching, affinity maturation, and memory."
+    ],
+    "why": "Conjugate vaccines turn a T cell-independent antigen into a T cell-dependent one. The B cell recognizes the polysaccharide but presents peptides from the attached protein to helper T cells. CD40 ligand on the T cell binding CD40 on the B cell, along with cytokines, starts germinal center reactions with class switching to IgG, affinity maturation, and memory B cells. This makes the vaccine effective in young children and gives lasting protection against invasive meningococcal disease, including Waterhouse-Friderichsen syndrome.",
+    "whyNot": [
+     "Correct.",
+     "Cross-linking of B cell receptors by repeating polysaccharide is the T cell-independent pathway, which yields mostly IgM and little memory.",
+     "MHC class I presentation to CD8 T cells is used for intracellular antigens and does not help B cells switch class.",
+     "TLR4 senses endotoxin and drives innate inflammation. It does not provide the T cell help needed for class switching."
+    ],
+    "study": {
+     "topics": [
+      "Conjugate vaccines",
+      "T cell-dependent B cell responses"
+     ],
+     "comps": [
+      "EN-10",
+      "EN-11"
+     ]
+    }
+   },
+   {
+    "id": "EN-C59-Q3",
+    "stem": "Despite 4 L of intravenous fluid and a norepinephrine infusion, his blood pressure remains 78/42 mm Hg. Which of the following best explains how his adrenal lesions contribute to this refractory shock?",
+    "options": [
+     "Loss of medullary epinephrine causing vasodilation",
+     "Acute loss of cortisol and aldosterone secretion",
+     "Retroperitoneal bleeding causing major blood loss",
+     "Release of catecholamines from ruptured medulla"
+    ],
+    "answer": 1,
+    "sea": "X",
+    "comp": "EN-12-H2",
+    "obj": "EN-12-H.2",
+    "dok": 3,
+    "approach": [
+     "Endotoxin-driven sepsis causes DIC, and microthrombi plus bleeding destroy both adrenal glands.",
+     "With the cortex gone, cortisol and aldosterone fall suddenly. His hyponatremia, hyperkalemia, and low glucose fit this.",
+     "Without cortisol, vessels respond poorly to catecholamines, so the shock resists fluids and vasopressors until hydrocortisone is given."
+    ],
+    "why": "Waterhouse-Friderichsen syndrome is bilateral hemorrhagic necrosis of the adrenal glands during overwhelming sepsis, classically from Neisseria meningitidis. Endotoxin causes cytokine release, endothelial injury, and DIC, which also produces the petechiae and purpura. Loss of the adrenal cortex causes acute adrenal insufficiency on top of septic shock: cortisol loss impairs vascular tone and catecholamine responsiveness, and aldosterone loss adds sodium and volume loss. Treatment includes antibiotics, supportive care, and stress-dose hydrocortisone.",
+    "whyNot": [
+     "The sympathetic nervous system still releases norepinephrine when the medulla is lost, so medullary loss alone does not cause shock.",
+     "Correct.",
+     "Adrenal hemorrhage is usually confined to the glands and is not large enough to cause hypovolemic shock.",
+     "A burst of catecholamines would raise blood pressure, not cause refractory hypotension."
+    ],
+    "study": {
+     "topics": [
+      "Waterhouse-Friderichsen syndrome",
+      "Acute adrenal insufficiency in sepsis"
+     ],
+     "comps": [
+      "EN-12-H2",
+      "EN-12-B2"
+     ]
+    }
+   },
+   {
+    "id": "EN-C59-Q4",
+    "stem": "In response to his shock, his sympathetic nerve terminals increase norepinephrine synthesis. Which of the following reactions is the rate-limiting step that is accelerated?",
+    "options": [
+     "L-DOPA to dopamine",
+     "Dopamine to norepinephrine",
+     "Norepinephrine to epinephrine",
+     "Tyrosine to L-DOPA"
+    ],
+    "answer": 3,
+    "sea": "B",
+    "comp": "EN-8",
+    "obj": "EN-8.3",
+    "dok": 2,
+    "approach": [
+     "List the catecholamine pathway: tyrosine, L-DOPA, dopamine, norepinephrine, epinephrine.",
+     "Tyrosine hydroxylase catalyzes the first step and is the rate-limiting enzyme. It needs tetrahydrobiopterin.",
+     "Sympathetic activity raises its activity quickly by phosphorylation and over longer periods by more enzyme synthesis."
+    ],
+    "why": "Catecholamine synthesis starts with tyrosine hydroxylase converting tyrosine to L-DOPA, the rate-limiting step. DOPA decarboxylase forms dopamine, dopamine beta-hydroxylase in vesicles forms norepinephrine, and PNMT in the adrenal medulla forms epinephrine. Breakdown by COMT and MAO produces metanephrines, normetanephrines, and vanillylmandelic acid, which are measured to detect pheochromocytoma. With both adrenal medullas destroyed, his circulating epinephrine falls, but sympathetic nerves keep making norepinephrine.",
+    "whyNot": [
+     "DOPA decarboxylase works quickly and is not the limiting step.",
+     "Dopamine beta-hydroxylase acts inside storage vesicles and is not rate-limiting.",
+     "PNMT forms epinephrine mainly in the adrenal medulla, which his illness has destroyed. Sympathetic nerves stop at norepinephrine.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Catecholamine synthesis",
+      "Tyrosine hydroxylase"
+     ],
+     "comps": [
+      "EN-8",
+      "EN-2"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "EN-C60",
+  "system": "EN",
+  "dx": "Streptococcus pyogenes suppurative thyroiditis in an adult with nodular goiter",
+  "codes": [
+   "EN-12-H1"
+  ],
+  "case": "A 58-year-old woman with a long-standing multinodular goiter comes to the emergency department because of a painful swelling on the right side of her neck for 3 days and pain on swallowing. One week ago she had a sore throat. Temperature is 39.2 °C (102.6 °F), pulse is 108/min, respirations are 18/min, and blood pressure is 128/76 mm Hg. The right thyroid lobe is red, warm, very tender, and fluctuant. Her leukocyte count is 18,400/mm3 (4,500 to 11,000) with 88% neutrophils (40 to 70), and ESR is 72 mm/h (0 to 20). Ultrasound shows a fluid collection within a nodule of the right lobe. Needle aspiration yields pus, and culture grows Streptococcus pyogenes. The diagnosis is acute suppurative thyroiditis with abscess formation.",
+  "questions": [
+   {
+    "id": "EN-C60-Q1",
+    "stem": "In another patient with acute suppurative thyroiditis, the aspirate from an infected thyroid nodule shows gram-positive cocci in clusters that are catalase-positive and coagulase-positive. Which of the following organisms is most likely?",
+    "options": [
+     "Staphylococcus epidermidis",
+     "Staphylococcus aureus",
+     "Streptococcus pneumoniae",
+     "Enterococcus faecalis"
+    ],
+    "answer": 1,
+    "sea": "M",
+    "comp": "EN-11",
+    "obj": "EN-11.2",
+    "dok": 2,
+    "approach": [
+     "Gram-positive cocci in clusters that are catalase-positive are staphylococci.",
+     "Coagulase separates Staphylococcus aureus from coagulase-negative species.",
+     "S. aureus is the most common cause of acute suppurative thyroiditis, followed by streptococci such as S. pyogenes and S. pneumoniae."
+    ],
+    "why": "Acute suppurative thyroiditis is uncommon because the thyroid has a capsule, a rich blood and lymph supply, and high iodine content. It occurs when the gland is already abnormal (nodular goiter, cancer) or when a congenital tract allows bacteria in. In children, recurrent left-sided infection points to a pyriform sinus fistula from the fourth pharyngeal pouch. The usual organisms are Staphylococcus aureus, Streptococcus pyogenes, and Streptococcus pneumoniae, with anaerobes from the mouth in some cases.",
+    "whyNot": [
+     "Staphylococcus epidermidis is coagulase-negative and causes infections of prosthetic devices and catheters.",
+     "Correct.",
+     "Streptococcus pneumoniae is a catalase-negative, lancet-shaped diplococcus.",
+     "Enterococcus faecalis is a catalase-negative coccus in pairs and chains that causes urinary and endocardial infections."
+    ],
+    "study": {
+     "topics": [
+      "Causes of acute suppurative thyroiditis",
+      "Identifying gram-positive cocci"
+     ],
+     "comps": [
+      "EN-11",
+      "EN-12-H1"
+     ]
+    }
+   },
+   {
+    "id": "EN-C60-Q2",
+    "stem": "Which of the following patterns of thyroid function tests is most likely in this patient?",
+    "options": [
+     "Low TSH and high free T4",
+     "High TSH and low free T4",
+     "Low TSH and low free T4",
+     "Normal TSH and free T4"
+    ],
+    "answer": 3,
+    "sea": "X",
+    "comp": "EN-12-H1",
+    "obj": "EN-12-H.1",
+    "dok": 2,
+    "approach": [
+     "Bacterial infection here forms a localized abscess, often within a nodule, and spares most of the gland.",
+     "The remaining follicles keep making hormone, and little stored hormone leaks out.",
+     "So thyroid function is usually normal, unlike subacute thyroiditis, which causes thyrotoxicosis."
+    ],
+    "why": "Acute suppurative thyroiditis presents with fever, a red, warm, painful, tender thyroid that may be fluctuant, and a neutrophilic leukocytosis. Thyroid function is usually normal, although a transient rise or fall can occur with extensive destruction. Abscess formation is the main complication, and the infection can spread into the deep neck spaces or mediastinum. Treatment is antibiotics with drainage. Subacute granulomatous thyroiditis causes a painful gland too, but with thyrotoxicosis and low radioiodine uptake.",
+    "whyNot": [
+     "Low TSH with high free T4 is typical of subacute granulomatous thyroiditis, where widespread follicle damage releases stored hormone.",
+     "High TSH with low free T4 indicates primary hypothyroidism, as in Hashimoto thyroiditis.",
+     "Low TSH with low free T4 indicates central hypothyroidism from pituitary or hypothalamic disease.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Acute suppurative thyroiditis",
+      "Thyroid function in painful thyroid disorders"
+     ],
+     "comps": [
+      "EN-12-H1",
+      "EN-12-C2"
+     ]
+    }
+   },
+   {
+    "id": "EN-C60-Q3",
+    "stem": "During drainage and right lobectomy, the surgeon ligates the artery entering the upper pole of the lobe, which runs with the external branch of the superior laryngeal nerve. This artery most often arises from which of the following?",
+    "options": [
+     "Thyrocervical trunk",
+     "Internal carotid artery",
+     "External carotid artery",
+     "Brachiocephalic trunk"
+    ],
+    "answer": 2,
+    "sea": "A",
+    "comp": "EN-4",
+    "obj": "EN-4.1",
+    "dok": 2,
+    "approach": [
+     "The artery at the upper pole is the superior thyroid artery.",
+     "It is usually the first anterior branch of the external carotid artery.",
+     "The inferior thyroid artery, from the thyrocervical trunk, supplies the lower pole and the parathyroids."
+    ],
+    "why": "The thyroid is supplied by the superior thyroid artery from the external carotid artery and the inferior thyroid artery from the thyrocervical trunk of the subclavian artery. An inconstant thyroid ima artery may arise from the brachiocephalic trunk or aortic arch. The superior and middle thyroid veins drain into the internal jugular vein, and the inferior thyroid veins drain into the brachiocephalic veins. The external branch of the superior laryngeal nerve runs close to the superior thyroid artery, so it is at risk when the artery is ligated, which can weaken the cricothyroid muscle and the voice.",
+    "whyNot": [
+     "The thyrocervical trunk gives rise to the inferior thyroid artery, which enters the lower part of the gland.",
+     "The internal carotid artery has no branches in the neck.",
+     "Correct.",
+     "The brachiocephalic trunk is an occasional source of the inconstant thyroid ima artery to the isthmus."
+    ],
+    "study": {
+     "topics": [
+      "Blood supply of the thyroid gland",
+      "Superior laryngeal nerve"
+     ],
+     "comps": [
+      "EN-4",
+      "EN-3"
+     ]
+    }
+   },
+   {
+    "id": "EN-C60-Q4",
+    "stem": "A 41-year-old man has had fever and a painful, tender thyroid for 10 days, beginning 2 weeks after a viral upper respiratory infection. His ESR is 86 mm/h (0 to 15), serum TSH is low, free T4 is high, and 24-hour radioiodine uptake is 2% (10 to 30). A biopsy specimen of his thyroid gland is most likely to show which of the following?",
+    "options": [
+     "Granulomas with multinucleated giant cells",
+     "Lymphoid follicles with Hürthle cells",
+     "Neutrophilic abscess with bacterial colonies",
+     "Dense fibrosis extending into neck muscles"
+    ],
+    "answer": 0,
+    "sea": "X",
+    "comp": "EN-12-C2",
+    "obj": "EN-12-C.3",
+    "dok": 3,
+    "approach": [
+     "A painful thyroid after a viral illness, with high ESR, thyrotoxicosis, and very low radioiodine uptake, is subacute granulomatous (de Quervain) thyroiditis.",
+     "Injured follicles release colloid and stored hormone. The leaked colloid draws in macrophages and giant cells.",
+     "The gland therefore shows granulomatous inflammation with multinucleated giant cells around damaged follicles."
+    ],
+    "why": "Subacute granulomatous thyroiditis follows a viral infection and causes a painful, tender gland with fever and a high ESR. Damaged follicles release preformed hormone, so free T4 is high and TSH is low, while radioiodine uptake is low because the injured gland is not making new hormone. Histology shows disrupted follicles, neutrophils early, then lymphocytes, macrophages, and granulomas with multinucleated giant cells around colloid. The illness usually resolves over weeks to months, sometimes with a brief hypothyroid phase.",
+    "whyNot": [
+     "Correct.",
+     "Lymphoid follicles with germinal centers and Hürthle cells are the histology of Hashimoto thyroiditis, which is usually painless.",
+     "A neutrophilic abscess with bacteria is acute suppurative thyroiditis, as in the woman in this case, where thyroid function is usually normal.",
+     "Dense fibrosis extending beyond the gland is Riedel thyroiditis, which is hard and fixed and usually painless."
+    ],
+    "study": {
+     "topics": [
+      "Subacute granulomatous thyroiditis",
+      "Thyroiditis histology"
+     ],
+     "comps": [
+      "EN-12-C2",
+      "EN-12-H1"
+     ]
+    }
+   }
+  ]
+ }
+]

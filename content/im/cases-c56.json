@@ -1,0 +1,798 @@
+[
+ {
+  "id": "IM-C56",
+  "system": "IM",
+  "dx": "Primary influenza A viral pneumonia",
+  "codes": [
+   "IM-15-F3"
+  ],
+  "case": "A 29-year-old woman at 28 weeks' gestation is brought to the emergency department in January because of 3 days of abrupt fever, myalgia, headache, and dry cough, with worsening shortness of breath over the past day. Her temperature is 39.4 °C (102.9 °F), pulse is 118/min, respirations are 30/min, and blood pressure is 104/62 mm Hg. Oxygen saturation is 86% on room air. Diffuse inspiratory crackles are heard over both lungs. Leukocyte count is 4,200/mm3 (4,500 to 11,000). A chest x-ray shows bilateral interstitial infiltrates without lobar consolidation. A nasopharyngeal PCR assay is positive for influenza A (H1N1)pdm09. Sputum Gram stain shows few neutrophils and no organisms, and blood and sputum cultures are negative. Diagnosis: primary influenza A viral pneumonia.",
+  "questions": [
+   {
+    "id": "IM-C56-Q1",
+    "stem": "The strain causing her infection first appeared in 2009 as a pandemic virus carrying gene segments of swine, avian, and human influenza origin. Which of the following properties of influenza virus made the emergence of this strain possible?",
+    "options": [
+     "Error-prone polymerase causing point mutations",
+     "Integration of proviral DNA into host chromosomes",
+     "Segmented RNA genome permitting reassortment",
+     "Recombination of a double-stranded DNA genome"
+    ],
+    "answer": 2,
+    "sea": "B",
+    "comp": "IM-14",
+    "obj": "IM-14.3",
+    "dok": 2,
+    "approach": [
+     "Spot the clue: a new strain with whole genes from three different host species.",
+     "Swapping whole genes between viruses requires a genome split into separate pieces.",
+     "Influenza has eight separate negative-sense RNA segments, so two strains infecting one cell can trade segments."
+    ],
+    "why": "Influenza A has a segmented, negative-sense RNA genome. When two different strains infect the same cell (often in pigs), their segments can be packaged together into a new virus. This reassortment is antigenic shift. It can produce a new hemagglutinin or neuraminidase that few people have immunity to, which is why shift causes pandemics.",
+    "whyNot": [
+     "Point mutations from the error-prone RNA polymerase cause antigenic drift. Drift makes small yearly changes and seasonal epidemics, and it cannot bring in genes from other species.",
+     "Integration of a DNA copy into the host genome is how retroviruses such as HIV persist. Influenza replicates in the nucleus but never integrates.",
+     "Correct.",
+     "Influenza has an RNA genome. Recombination between double-stranded DNA genomes is a feature of DNA viruses such as herpesviruses and does not explain the mixed origin of this strain."
+    ],
+    "study": {
+     "topics": [
+      "Influenza antigenic shift versus drift",
+      "Segmented RNA viruses"
+     ],
+     "comps": [
+      "IM-14",
+      "IM-15-F3"
+     ]
+    }
+   },
+   {
+    "id": "IM-C56-Q2",
+    "stem": "Which of the following histologic findings in her lungs best explains her hypoxemia?",
+    "options": [
+     "Septal lymphocytes with hyaline membranes",
+     "Neutrophil-filled alveoli confined to one lobe",
+     "Caseating granulomas with Langhans giant cells",
+     "Foamy eosinophilic alveolar exudate with cysts"
+    ],
+    "answer": 0,
+    "sea": "X",
+    "comp": "IM-15-F3",
+    "obj": "IM-15-F.3",
+    "dok": 3,
+    "approach": [
+     "Separate primary viral pneumonia from secondary bacterial pneumonia: bilateral interstitial infiltrates, no organisms on Gram stain, and negative cultures point to the virus itself.",
+     "Viral pneumonia injures the alveolar wall and the alveolar lining, so the pattern is interstitial with diffuse alveolar damage.",
+     "Choose the option that shows interstitial inflammation plus damaged alveoli."
+    ],
+    "why": "In primary influenza pneumonia the virus infects and kills alveolar and airway epithelial cells. The alveolar septa fill with lymphocytes and macrophages, and leaking protein and debris form hyaline membranes that line the alveoli (diffuse alveolar damage). These membranes block gas exchange, which explains the severe hypoxemia. Pregnancy is a known risk factor for this severe course.",
+    "whyNot": [
+     "Correct.",
+     "Neutrophils filling the alveoli of one lobe is lobar bacterial pneumonia. This is the pattern of secondary bacterial pneumonia after influenza, usually from S pneumoniae or S aureus, which would show organisms on Gram stain and a lobar infiltrate.",
+     "Caseating granulomas with Langhans giant cells are typical of tuberculosis, a slower illness with a Th1 granulomatous response.",
+     "A foamy eosinophilic alveolar exudate containing cysts is Pneumocystis pneumonia, which occurs with T cell deficiency, such as AIDS or high-dose glucocorticoids."
+    ],
+    "study": {
+     "topics": [
+      "Complications of influenza",
+      "Diffuse alveolar damage"
+     ],
+     "comps": [
+      "IM-15-F3",
+      "IM-14"
+     ]
+    }
+   },
+   {
+    "id": "IM-C56-Q3",
+    "stem": "In her alveolar macrophages, a cytosolic multiprotein sensor responds to the influenza M2 ion channel and to signals from damaged cells, and mature interleukin-1beta is then released. Which of the following enzymes does this sensor complex activate to produce mature interleukin-1beta?",
+    "options": [
+     "Caspase-3",
+     "Cyclooxygenase-2",
+     "Granzyme B",
+     "Caspase-1"
+    ],
+    "answer": 3,
+    "sea": "M",
+    "comp": "IM-6",
+    "obj": "IM-6.1",
+    "dok": 2,
+    "approach": [
+     "Name the sensor: a cytosolic complex that responds to ion flux and danger signals (DAMPs) is the NLRP3 inflammasome.",
+     "Recall what the inflammasome does: it brings pro-caspase-1 together so it activates itself.",
+     "Active caspase-1 cleaves pro-IL-1beta (and pro-IL-18) into the mature, secreted cytokines."
+    ],
+    "why": "IL-1beta is made as an inactive precursor after pattern recognition signals switch on its gene. The NLRP3 inflammasome forms in the cytosol in response to ion flux (such as from the influenza M2 channel), crystals, and other danger signals. It activates caspase-1, which cuts pro-IL-1beta into active IL-1beta, a key driver of fever and inflammation in the lung.",
+    "whyNot": [
+     "Caspase-3 is an executioner caspase of apoptosis. It dismantles the cell but does not process IL-1beta.",
+     "Cyclooxygenase-2 makes prostaglandins such as PGE2. IL-1beta induces COX-2 in the hypothalamus to cause fever, so COX-2 acts downstream of IL-1beta.",
+     "Granzyme B is delivered by cytotoxic T cells and NK cells to trigger apoptosis in target cells. It is not part of the inflammasome.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "NLRP3 inflammasome",
+      "Pattern recognition receptors"
+     ],
+     "comps": [
+      "IM-6",
+      "IM-13"
+     ]
+    }
+   },
+   {
+    "id": "IM-C56-Q4",
+    "stem": "Within the first few days of infection, before antigen-specific T cells have expanded, some infected airway epithelial cells that display reduced surface MHC class I are lysed. Which of the following cells is most likely responsible?",
+    "options": [
+     "Cytotoxic CD8 T cells",
+     "Natural killer cells",
+     "Plasmacytoid dendritic cells",
+     "Alveolar macrophages"
+    ],
+    "answer": 1,
+    "sea": "M",
+    "comp": "IM-3",
+    "obj": "IM-3.5",
+    "dok": 2,
+    "approach": [
+     "Note the two clues: killing happens before the adaptive response, and the target cells have lost MHC class I.",
+     "Cells low in class I escape CD8 T cells, because CD8 T cells need class I to see antigen.",
+     "NK cells are held back by inhibitory receptors that bind self class I. When class I is missing, the brake is released and the NK cell kills (missing self)."
+    ],
+    "why": "NK cells are innate lymphocytes that need no prior sensitization. Their inhibitory receptors (such as KIRs) bind self MHC class I on healthy cells. Virus-infected or tumor cells that lower class I to hide from CD8 T cells lose this inhibitory signal, and activating signals then drive NK cell killing with perforin and granzymes. This is the missing self mechanism, and it is most active early in viral infection.",
+    "whyNot": [
+     "CD8 T cells recognize viral peptide on MHC class I. Cells with reduced class I are harder for them to see, and antigen-specific CD8 cells take about a week to expand.",
+     "Correct.",
+     "Plasmacytoid dendritic cells sense viral RNA through TLR7 and secrete large amounts of type I interferon. They are not the main cells that kill infected targets.",
+     "Alveolar macrophages engulf debris and release cytokines. They do not use loss of MHC class I as a trigger for killing."
+    ],
+    "study": {
+     "topics": [
+      "NK cells and missing self",
+      "MHC class I and CD8 T cells"
+     ],
+     "comps": [
+      "IM-3",
+      "IM-13"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "IM-C57",
+  "system": "IM",
+  "dx": "Lymphatic filariasis (Wuchereria bancrofti) with lower-limb lymphedema and chyluria",
+  "codes": [
+   "IM-9",
+   "IM-4"
+  ],
+  "case": "A 42-year-old man who moved to the United States 3 years ago from a region where lymphatic filariasis is endemic comes to the physician because of slowly progressive swelling of his left leg over 5 years and several episodes of milky urine. In the past he had recurrent attacks of fever with painful red streaks along the leg. Physical examination shows firm, nonpitting edema of the left leg and foot with thickened skin. There are no varicose veins. Urine is milky white, with 2+ protein and many lymphocytes, and urine triglyceride is detectable (normally absent). A circulating filarial antigen test is positive, and a blood smear drawn at midnight shows sheathed microfilariae. Imaging shows dilated retroperitoneal lymphatics draining into the left renal collecting system. Diagnosis: lymphatic filariasis due to Wuchereria bancrofti with lymphedema and chyluria.",
+  "questions": [
+   {
+    "id": "IM-C57-Q1",
+    "stem": "Which of the following conditions causes leg edema by the same basic mechanism as the edema in this patient?",
+    "options": [
+     "Milroy disease from FLT4 mutation",
+     "Nephrotic syndrome with hypoalbuminemia",
+     "Right heart failure with venous congestion",
+     "Thrombosis of the popliteal vein"
+    ],
+    "answer": 0,
+    "sea": "X",
+    "comp": "IM-9",
+    "obj": "IM-9.4",
+    "dok": 3,
+    "approach": [
+     "Name his mechanism: adult worms in the lymphatics cause inflammation, scarring, and obstruction, so filtered fluid and protein cannot return to the blood.",
+     "Sort the options by Starling cause: low plasma oncotic pressure, high venous pressure, or failed lymph drainage.",
+     "Pick the option where lymph drainage fails."
+    ],
+    "why": "Lymphedema results from failed lymph drainage. Protein that leaks from capillaries stays in the tissue, holds water, and over time drives fibrosis, so the edema becomes firm and nonpitting. In filariasis the lymphatics are damaged and blocked by adult worms. In Milroy disease, a mutation in FLT4 (VEGFR-3) leaves the lymphatic vessels underdeveloped from birth, so the same failure of drainage occurs.",
+    "whyNot": [
+     "Correct.",
+     "Nephrotic syndrome lowers plasma oncotic pressure from protein loss in the urine. The edema is low in protein and pitting, and the lymphatics work normally.",
+     "Right heart failure raises venous and capillary hydrostatic pressure, so filtration exceeds what normal lymphatics can carry away. Lymph flow actually rises.",
+     "Deep vein thrombosis raises venous pressure in the limb and causes pitting edema. Lymphatic drainage is intact."
+    ],
+    "study": {
+     "topics": [
+      "Lymphedema causes",
+      "Starling forces and edema"
+     ],
+     "comps": [
+      "IM-9",
+      "IM-14"
+     ]
+    }
+   },
+   {
+    "id": "IM-C57-Q2",
+    "stem": "Before his lymphatics were damaged, lymph flow from his leg rose whenever interstitial fluid volume in the leg increased. Which of the following mechanisms links the rise in interstitial fluid volume to the rise in lymph flow?",
+    "options": [
+     "Relaxation of lymphatic smooth muscle",
+     "Higher lymph oncotic pressure drawing fluid in",
+     "Closure of initial lymphatic flap valves",
+     "Stretch of lymphangions triggering contraction"
+    ],
+    "answer": 3,
+    "sea": "P",
+    "comp": "IM-9",
+    "obj": "IM-9.3",
+    "dok": 2,
+    "approach": [
+     "Rising interstitial fluid raises interstitial pressure.",
+     "Higher pressure pushes more fluid into the initial lymphatics and fills the collecting vessels.",
+     "Each lymphangion (the segment between two valves) responds to stretch by contracting harder, pumping the lymph onward through one-way valves."
+    ],
+    "why": "Collecting lymphatics are divided by one-way valves into segments called lymphangions, each with its own smooth muscle. When a segment fills and stretches, its muscle contracts and pushes lymph into the next segment. More interstitial fluid means more filling, more stretch, and stronger pumping, so lymph flow rises in step with interstitial pressure. Skeletal muscle compression and breathing add to this intrinsic pump.",
+    "whyNot": [
+     "Relaxation of the lymphatic smooth muscle would weaken the intrinsic pump and lower lymph flow.",
+     "Lymph flow is driven by pressure and pumping. Protein in lymph comes from the interstitium, and its oncotic pressure does not draw fluid forward along the vessels.",
+     "Rising interstitial pressure opens the overlapping endothelial flaps of the initial lymphatics, letting more fluid in. Closing them would reduce lymph entry.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Lymphatic pump",
+      "Interstitial pressure and lymph flow"
+     ],
+     "comps": [
+      "IM-9",
+      "IM-4"
+     ]
+    }
+   },
+   {
+    "id": "IM-C57-Q3",
+    "stem": "His urine becomes more milky after meals rich in long-chain fat. Which of the following components of the fluid leaking into his urinary tract accounts for the milky appearance?",
+    "options": [
+     "Free fatty acids bound to albumin",
+     "Chylomicrons from intestinal lymph",
+     "Very-low-density lipoproteins from the liver",
+     "Phosphate crystals from alkaline urine"
+    ],
+    "answer": 1,
+    "sea": "P",
+    "comp": "IM-9",
+    "obj": "IM-9.2",
+    "dok": 2,
+    "approach": [
+     "Link the milky urine to a fatty meal: the source is intestinal lymph (chyle).",
+     "Long-chain fat leaves the gut packaged in chylomicrons that enter the lacteals.",
+     "Chylomicrons are large enough to scatter light, which makes chyle look milky."
+    ],
+    "why": "Lymph from the intestine after a meal is called chyle. It carries interstitial fluid, filtered plasma protein, lymphocytes, and large numbers of chylomicrons. Chylomicrons are big triglyceride-rich particles that scatter light and make the fluid white. When blocked retroperitoneal lymphatics rupture into the renal collecting system, chyle enters the urine, which then contains fat, protein, and lymphocytes, as in this patient.",
+    "whyNot": [
+     "Free fatty acids bound to albumin travel in plasma, are not visible, and do not make fluid milky.",
+     "Correct.",
+     "VLDL is made by the liver and enters the blood directly. It is not carried in intestinal lymph and is not the source of chyle.",
+     "Phosphate crystals can make alkaline urine cloudy, but they would not increase after fatty meals or come with lymphocytes and triglyceride."
+    ],
+    "study": {
+     "topics": [
+      "Composition of lymph and chyle",
+      "Chyluria"
+     ],
+     "comps": [
+      "IM-9",
+      "IM-11"
+     ]
+    }
+   },
+   {
+    "id": "IM-C57-Q4",
+    "stem": "For intestinal chyle to reach his urinary tract, lymph from the gut must back up into the lumbar lymphatic territory. At which of the following structures do the intestinal and lumbar lymphatic trunks normally converge?",
+    "options": [
+     "Right lymphatic duct",
+     "Superficial inguinal nodes",
+     "Cisterna chyli",
+     "Left venous angle"
+    ],
+    "answer": 2,
+    "sea": "A",
+    "comp": "IM-4",
+    "obj": "IM-4.1",
+    "dok": 2,
+    "approach": [
+     "Trace leg lymph: superficial and deep inguinal nodes, iliac nodes, lumbar (lateral aortic) nodes, then the lumbar trunks.",
+     "Trace gut lymph: lacteals, mesenteric nodes, then the intestinal trunk.",
+     "Both meet in the cisterna chyli, a sac at about L1 to L2, which continues upward as the thoracic duct."
+    ],
+    "why": "The lumbar trunks (draining the legs, pelvis, and posterior abdominal wall) and the intestinal trunk (draining the gut) join in the cisterna chyli in the upper abdomen. The cisterna chyli continues as the thoracic duct, which runs up through the thorax and empties into the left venous angle. Obstruction at or above this junction lets chyle reflux into lumbar and renal lymphatics.",
+    "whyNot": [
+     "The right lymphatic duct drains the right side of the head and neck, right upper limb, and right thorax. It receives no lymph from the abdomen or legs.",
+     "Superficial inguinal nodes receive lymph from the skin of the leg and lower trunk, upstream of the lumbar trunks. Gut lymph never passes through them.",
+     "Correct.",
+     "The left venous angle (junction of the left internal jugular and subclavian veins) is where the thoracic duct ends, far above where the abdominal trunks first meet."
+    ],
+    "study": {
+     "topics": [
+      "Cisterna chyli and thoracic duct",
+      "Lymphatic trunks"
+     ],
+     "comps": [
+      "IM-4",
+      "IM-9"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "IM-C58",
+  "system": "IM",
+  "dx": "Primary intestinal lymphangiectasia with protein-losing enteropathy and lymphopenia",
+  "codes": [
+   "IM-11",
+   "IM-9"
+  ],
+  "case": "A 6-year-old boy is brought to the physician because of 4 months of swelling of his legs and eyelids and intermittent loose, greasy stools. Physical examination shows bilateral pitting edema of the legs. Dullness to percussion is present at the right lung base. Laboratory studies show serum albumin 1.9 g/dL (3.5 to 5.5), serum IgG below the reference range for age, and an absolute lymphocyte count of 600/mm3 (1,500 to 6,500). Urinalysis shows no protein. Fecal alpha-1 antitrypsin clearance is increased. Upper endoscopy shows scattered white-tipped duodenal villi, and biopsy shows markedly dilated lacteals in the mucosa and submucosa. Diagnosis: primary intestinal lymphangiectasia with protein-losing enteropathy and lymphopenia.",
+  "questions": [
+   {
+    "id": "IM-C58-Q1",
+    "stem": "His dietitian replaces most long-chain dietary fat with medium-chain triglycerides, which are absorbed directly into portal blood. Packaging long-chain fatty acids into the particles that normally enter his dilated lacteals requires which of the following apolipoproteins made in enterocytes?",
+    "options": [
+     "Apolipoprotein B-100",
+     "Apolipoprotein C-II",
+     "Apolipoprotein E",
+     "Apolipoprotein B-48"
+    ],
+    "answer": 3,
+    "sea": "B",
+    "comp": "IM-11",
+    "obj": "IM-11.1",
+    "dok": 2,
+    "approach": [
+     "Identify the particle: long-chain fat leaves the enterocyte as chylomicrons that enter lacteals.",
+     "Chylomicron assembly needs a structural apolipoprotein loaded with lipid by microsomal triglyceride transfer protein.",
+     "In the intestine that protein is apoB-48, made by RNA editing of the apoB message."
+    ],
+    "why": "Inside the enterocyte, long-chain fatty acids and monoglycerides are rebuilt into triglycerides. Microsomal triglyceride transfer protein loads these lipids onto apoB-48, forming chylomicrons that are too large to enter capillaries, so they enter the lacteals and travel in lymph. Medium-chain fatty acids skip this step and go straight to portal blood, which is why the diet lowers lacteal pressure and lymph loss.",
+    "whyNot": [
+     "ApoB-100 is made in the liver and is the structural protein of VLDL and LDL. Intestinal cells edit the apoB message to make the shorter apoB-48 instead.",
+     "ApoC-II is picked up by chylomicrons from HDL after they reach the blood. It activates lipoprotein lipase and is not needed to assemble the particle.",
+     "ApoE is also acquired in the blood and allows remnant uptake by the liver. It is not the structural protein of nascent chylomicrons.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Chylomicron assembly",
+      "ApoB-48 and MTP"
+     ],
+     "comps": [
+      "IM-11",
+      "IM-9"
+     ]
+    }
+   },
+   {
+    "id": "IM-C58-Q2",
+    "stem": "His serum albumin falls quickly because intestinal lymph normally carries a higher protein concentration than lymph from skeletal muscle. Which of the following features of intestinal villus capillaries accounts for this difference?",
+    "options": [
+     "Continuous endothelium with tight junctions",
+     "Fenestrated endothelium",
+     "Discontinuous endothelium lacking a basement membrane",
+     "Thick basement membrane with pericytes"
+    ],
+    "answer": 1,
+    "sea": "P",
+    "comp": "IM-11",
+    "obj": "IM-11.4",
+    "dok": 2,
+    "approach": [
+     "Lymph protein reflects how much protein leaks out of the local capillaries.",
+     "Skeletal muscle has continuous capillaries, which are tight to protein.",
+     "Villus capillaries are fenestrated to absorb nutrients, so more protein escapes and intestinal lymph is protein-rich."
+    ],
+    "why": "Lymph is formed from interstitial fluid, so its protein content matches how leaky the local capillaries are. Intestinal villus capillaries have fenestrations that allow rapid exchange of absorbed nutrients and let more plasma protein escape than continuous muscle capillaries. Liver sinusoids are leakier still, so hepatic lymph has the highest protein. When dilated lacteals leak into the gut, this protein-rich lymph is lost.",
+    "whyNot": [
+     "Continuous endothelium with tight junctions is found in skeletal muscle, skin, and lung, and it produces lymph with the lowest protein.",
+     "Correct.",
+     "Discontinuous (sinusoidal) endothelium with gaps and a poor basement membrane is found in the liver, spleen, and bone marrow. It explains the very high protein of hepatic lymph, not intestinal lymph.",
+     "Pericytes and a thick basement membrane tighten a capillary rather than loosen it. Pericyte coverage is highest in tight beds such as brain capillaries, so this would lower protein leak."
+    ],
+    "study": {
+     "topics": [
+      "Capillary types and lymph protein",
+      "Protein-losing enteropathy"
+     ],
+     "comps": [
+      "IM-11",
+      "IM-9"
+     ]
+    }
+   },
+   {
+    "id": "IM-C58-Q3",
+    "stem": "The chylomicrons that do reach his blood through the thoracic duct deliver most of their fatty acids to muscle and adipose tissue. Which of the following best describes how the remaining particles are then cleared?",
+    "options": [
+     "Hepatic uptake through binding of apoB-48",
+     "Conversion to LDL by hepatic lipase",
+     "Hepatic uptake of remnants through apoE",
+     "Macrophage uptake through scavenger receptors"
+    ],
+    "answer": 2,
+    "sea": "B",
+    "comp": "IM-11",
+    "obj": "IM-11.2",
+    "dok": 3,
+    "approach": [
+     "Chylomicrons enter the blood and gain apoC-II and apoE from HDL.",
+     "ApoC-II activates lipoprotein lipase on capillary endothelium in muscle and fat, which strips off triglyceride.",
+     "The smaller remnant keeps apoE, which binds hepatic receptors (LDL receptor and LRP) for uptake."
+    ],
+    "why": "After lipoprotein lipase removes most of the triglyceride, the chylomicron becomes a cholesterol-rich remnant. Its apoE binds hepatic receptors, and the liver takes the remnant up by endocytosis. This is why apoE defects (such as the apoE2 variant in familial dysbetalipoproteinemia) raise chylomicron and VLDL remnants in the blood.",
+    "whyNot": [
+     "ApoB-48 lacks the receptor-binding region found in apoB-100, so it cannot mediate uptake by the LDL receptor. Remnant clearance depends on apoE.",
+     "Hepatic lipase helps convert IDL (from VLDL) into LDL. Chylomicron remnants are not converted into LDL.",
+     "Correct.",
+     "Scavenger receptor uptake by macrophages takes in oxidized LDL and forms foam cells in atherosclerosis. It is not the normal route of chylomicron remnant clearance."
+    ],
+    "study": {
+     "topics": [
+      "Chylomicron metabolism",
+      "Lipoprotein lipase and apoE"
+     ],
+     "comps": [
+      "IM-11"
+     ]
+    }
+   },
+   {
+    "id": "IM-C58-Q4",
+    "stem": "Thoracentesis of his right pleural effusion yields milky, odorless fluid with a triglyceride concentration of 320 mg/dL (more than 110 mg/dL indicates chyle). Which of the following cell types most likely predominates in this fluid?",
+    "options": [
+     "Lymphocytes",
+     "Neutrophils",
+     "Eosinophils",
+     "Mesothelial cells"
+    ],
+    "answer": 0,
+    "sea": "A",
+    "comp": "IM-4",
+    "obj": "IM-4.5",
+    "dok": 3,
+    "approach": [
+     "Milky fluid with triglyceride above 110 mg/dL is chyle, so this is a chylothorax.",
+     "Chyle is thoracic duct lymph, which carries chylomicrons and recirculating lymphocytes.",
+     "So the cells in chylous fluid are mostly lymphocytes, mainly T cells, which also explains how chyle loss causes lymphopenia."
+    ],
+    "why": "Thoracic duct lymph returns large numbers of recirculating lymphocytes to the blood along with chylomicrons. When chyle leaks into the pleural space, from duct injury or from abnormal lymphatics as in this boy, the fluid is milky, rich in triglyceride and chylomicrons, and lymphocyte-predominant. Ongoing loss of lymph into the pleura or gut drains lymphocytes, immunoglobulin, and albumin from the body.",
+    "whyNot": [
+     "Correct.",
+     "Neutrophil-predominant pleural fluid suggests a bacterial infection, such as a parapneumonic effusion or empyema, which is cloudy from pus and has low triglyceride.",
+     "Eosinophil-rich pleural fluid is seen with air or blood in the pleural space, drug reactions, and some parasitic infections. It is not typical of chyle.",
+     "Mesothelial cells line the pleura and are shed into many effusions, but they do not predominate in chyle, which is lymph from the thoracic duct."
+    ],
+    "study": {
+     "topics": [
+      "Chylothorax",
+      "Thoracic duct lymph composition"
+     ],
+     "comps": [
+      "IM-4",
+      "IM-9"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "IM-C59",
+  "system": "IM",
+  "dx": "Iatrogenic Cushing syndrome from long-term high-dose prednisone with Pneumocystis pneumonia",
+  "codes": [
+   "IM-15-B1",
+   "IM-8"
+  ],
+  "case": "A 67-year-old man with giant cell arteritis who has taken prednisone 60 mg daily for 4 months comes to the physician because of 2 weeks of progressive shortness of breath, dry cough, and low-grade fever. His temperature is 37.9 °C (100.2 °F), pulse is 104/min, respirations are 26/min, and blood pressure is 148/88 mm Hg. Oxygen saturation is 89% on room air. Physical examination shows a rounded face, supraclavicular fat pads, thin skin with purple abdominal striae, and proximal muscle weakness. Leukocyte count is 14,800/mm3 (4,500 to 11,000) with 90% neutrophils and an absolute lymphocyte count of 500/mm3 (1,000 to 4,800). An HIV test is negative. A chest x-ray shows bilateral perihilar ground-glass opacities. Methenamine silver stain of bronchoalveolar lavage fluid shows cup-shaped cysts. Diagnosis: iatrogenic Cushing syndrome with Pneumocystis jirovecii pneumonia.",
+  "questions": [
+   {
+    "id": "IM-C59-Q1",
+    "stem": "Which of the following additional findings on his differential leukocyte count is most likely?",
+    "options": [
+     "Eosinophilia",
+     "Eosinopenia",
+     "Basophilia",
+     "Monocytosis"
+    ],
+    "answer": 1,
+    "sea": "P",
+    "comp": "IM-8",
+    "obj": "IM-8.5",
+    "dok": 2,
+    "approach": [
+     "His blood count already shows the glucocorticoid pattern: neutrophilia with lymphopenia.",
+     "High cortisol also lowers circulating eosinophils (and monocytes and basophils) through redistribution out of the blood and apoptosis.",
+     "So the expected extra finding is a very low eosinophil count."
+    ],
+    "why": "Glucocorticoids raise the neutrophil count, mainly by releasing neutrophils marginated along vessel walls into the circulating pool. At the same time they lower lymphocytes, eosinophils, monocytes, and basophils by moving them out of the blood into tissues such as the bone marrow and by promoting their apoptosis. Long-term exposure also causes thymic and lymphoid atrophy. Eosinopenia is a classic marker of high cortisol.",
+    "whyNot": [
+     "Eosinophilia suggests allergy, parasitic infection, or adrenal insufficiency, which is the opposite of cortisol excess.",
+     "Correct.",
+     "Basophilia is seen in myeloproliferative disorders such as chronic myeloid leukemia. Glucocorticoids lower basophil counts.",
+     "Glucocorticoids lower circulating monocytes. Monocytosis is seen in chronic infections such as tuberculosis and during recovery from neutropenia."
+    ],
+    "study": {
+     "topics": [
+      "Glucocorticoid effects on the blood count",
+      "Cortisol and lymphoid tissue"
+     ],
+     "comps": [
+      "IM-8",
+      "IM-15-B1"
+     ]
+    }
+   },
+   {
+    "id": "IM-C59-Q2",
+    "stem": "His physician notes that a calcineurin inhibitor such as tacrolimus carries a similar risk of this infection. Which of the following shared effects on immunity best explains the risk?",
+    "options": [
+     "Depletion of circulating B cells",
+     "Neutralization of tumor necrosis factor",
+     "Reduced IL-2 production by T cells",
+     "Inhibition of the terminal complement cascade"
+    ],
+    "answer": 2,
+    "sea": "X",
+    "comp": "IM-15-B1",
+    "obj": "IM-15-B.1",
+    "dok": 3,
+    "approach": [
+     "Pneumocystis is controlled mainly by CD4 T cells, so its appearance points to T cell suppression.",
+     "Calcineurin inhibitors block NFAT activation, and glucocorticoids block NF-kB and AP-1. Both reduce transcription of IL-2 and other T cell cytokines.",
+     "Without IL-2, T cells do not proliferate well, so both drugs raise the risk of Pneumocystis."
+    ],
+    "why": "Activated T cells need IL-2 to proliferate. Tacrolimus and cyclosporine inhibit calcineurin, so NFAT stays in the cytoplasm and the IL-2 gene is not transcribed. Glucocorticoids inhibit NF-kB and AP-1, which also lowers IL-2 and other cytokines, and they cause lymphopenia. The shared result is weak CD4 T cell immunity, which allows Pneumocystis and other opportunistic infections.",
+    "whyNot": [
+     "B cell depletion is the effect of rituximab (anti-CD20). Its signature infection risk is hepatitis B reactivation, and neither tacrolimus nor prednisone acts this way.",
+     "Neutralizing TNF-alpha (infliximab, adalimumab, etanercept) breaks down granulomas and is classically linked to reactivation of latent tuberculosis.",
+     "Correct.",
+     "Blocking C5 (eculizumab) prevents formation of the membrane attack complex and greatly raises the risk of Neisseria meningitidis infection."
+    ],
+    "study": {
+     "topics": [
+      "Drug-induced immunodeficiency",
+      "Calcineurin inhibitors and glucocorticoids"
+     ],
+     "comps": [
+      "IM-15-B1",
+      "IM-13"
+     ]
+    }
+   },
+   {
+    "id": "IM-C59-Q3",
+    "stem": "Pneumocystis pneumonia in this patient points to suppression of one arm of immunity. A child born with a defect limited to that same arm would most likely present with which of the following patterns of infection?",
+    "options": [
+     "Severe viral infections and persistent thrush",
+     "Recurrent Neisseria bacteremia",
+     "Staphylococcus aureus abscesses and invasive Aspergillus",
+     "Sinopulmonary bacterial infections after 6 months of age"
+    ],
+    "answer": 0,
+    "sea": "M",
+    "comp": "IM-15-A",
+    "obj": "IM-15-A.6",
+    "dok": 3,
+    "approach": [
+     "Pneumocystis is an opportunist of T cell deficiency.",
+     "Match each infection pattern to the arm it reveals: T cells, terminal complement, phagocytes, or B cells.",
+     "T cell defects let viruses, fungi such as Candida, and Pneumocystis thrive."
+    ],
+    "why": "Each arm of immunity has a typical infection signature. T cell defects, such as DiGeorge syndrome or SCID, cause severe viral infections, persistent mucocutaneous candidiasis, and Pneumocystis pneumonia. The first test for a suspected T cell defect is a lymphocyte count with flow cytometry for T cell subsets. Recognizing the pattern tells you which arm to test first.",
+    "whyNot": [
+     "Correct.",
+     "Recurrent Neisseria infections point to terminal complement deficiency (C5 to C9), screened with a CH50 assay.",
+     "Staphylococcus aureus abscesses with Aspergillus point to a phagocyte defect, such as chronic granulomatous disease, screened with the dihydrorhodamine (DHR) test.",
+     "Sinopulmonary infections with encapsulated bacteria starting after maternal IgG wanes at about 6 months point to a B cell defect, such as X-linked agammaglobulinemia, screened with immunoglobulin levels."
+    ],
+    "study": {
+     "topics": [
+      "Infection patterns by immune defect",
+      "Screening tests for immunodeficiency"
+     ],
+     "comps": [
+      "IM-15-A",
+      "IM-15-B1"
+     ]
+    }
+   },
+   {
+    "id": "IM-C59-Q4",
+    "stem": "His neutrophil count is high, yet his immune system cannot clear Pneumocystis. Which of the following properties distinguishes the suppressed T cell response from the neutrophil response?",
+    "options": [
+     "Activation within minutes of first exposure",
+     "Recognition through toll-like receptors",
+     "Opsonization of organisms by complement",
+     "Clonal expansion with lasting memory"
+    ],
+    "answer": 3,
+    "sea": "M",
+    "comp": "IM-13",
+    "obj": "IM-13.1",
+    "dok": 2,
+    "approach": [
+     "Neutrophils belong to innate immunity; T cells belong to adaptive immunity.",
+     "List the defining adaptive features: rearranged antigen receptors, clonal expansion of specific cells, and memory.",
+     "Choose the option that only the adaptive response has."
+    ],
+    "why": "Innate immunity, including neutrophils, macrophages, NK cells, and complement, uses germline-encoded pattern recognition receptors and acts within minutes to hours, with no memory. Adaptive immunity uses T and B cell receptors made by gene rearrangement. A T cell that recognizes its antigen divides into a large clone of identical cells, and some remain as memory cells for a faster response on re-exposure. Glucocorticoids blunt this clonal expansion.",
+    "whyNot": [
+     "Activation within minutes of first exposure is a feature of innate cells such as neutrophils. A primary T cell response takes days to build.",
+     "Toll-like receptors are germline-encoded pattern recognition receptors of innate immunity, used by neutrophils, macrophages, and dendritic cells.",
+     "Complement opsonization (C3b) is part of innate immunity and helps neutrophils engulf organisms. It is not a property of T cells.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Innate versus adaptive immunity",
+      "Clonal expansion and memory"
+     ],
+     "comps": [
+      "IM-13",
+      "IM-8"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "IM-C60",
+  "system": "IM",
+  "dx": "Acute retroviral syndrome (primary HIV infection)",
+  "codes": [
+   "IM-15-B2"
+  ],
+  "case": "A 31-year-old woman comes to the physician because of 5 days of fever, sore throat, diffuse muscle aches, and a rash. Her male sexual partner of 2 months was recently found to have HIV infection, and they did not use condoms. Her temperature is 38.6 °C (101.5 °F), pulse is 102/min, respirations are 16/min, and blood pressure is 118/72 mm Hg. Physical examination shows shallow oral ulcers, nonexudative pharyngitis, generalized lymphadenopathy, and a maculopapular rash on the trunk. Leukocyte count is 3,600/mm3 (4,500 to 11,000), and platelet count is 118,000/mm3 (150,000 to 400,000). A heterophile antibody test is negative. A fourth-generation HIV-1/2 antigen/antibody combination immunoassay is reactive. Diagnosis: acute retroviral syndrome (primary HIV infection).",
+  "questions": [
+   {
+    "id": "IM-C60-Q1",
+    "stem": "If she receives no antiretroviral treatment, which of the following is the most likely course of her infection over the next 3 to 6 months?",
+    "options": [
+     "Clearance of virus from lymphoid tissue",
+     "Steady rise in viral load to AIDS within months",
+     "Fall in viral load to a set point",
+     "Sustained CD4 count below 200 cells/mm3"
+    ],
+    "answer": 2,
+    "sea": "X",
+    "comp": "IM-15-B2",
+    "obj": "IM-15-B.3",
+    "dok": 3,
+    "approach": [
+     "Acute HIV infection brings a very high viral load and a temporary drop in CD4 cells.",
+     "Within weeks, HIV-specific CD8 T cells and antibodies bring the viral load down to a steady level, the set point.",
+     "Clinical latency follows for years, with ongoing replication in lymphoid tissue and slow CD4 decline."
+    ],
+    "why": "In primary infection the virus replicates explosively, mainly in gut and lymphoid CD4 T cells, causing a mononucleosis-like illness and a transient CD4 drop. The immune response, led by cytotoxic CD8 T cells, then cuts the viral load to a set point, and symptoms resolve. The set point predicts how fast the disease will progress. Without treatment, AIDS (CD4 below 200 cells/mm3 or an AIDS-defining illness) usually appears after about 8 to 10 years.",
+    "whyNot": [
+     "HIV integrates into host DNA and forms a latent reservoir, so the immune response cannot clear it. Replication continues in lymph nodes throughout clinical latency.",
+     "The viral load falls after the acute peak. Progression to AIDS usually takes years, not months.",
+     "Correct.",
+     "CD4 counts dip during acute infection but usually recover partly. A sustained count below 200 cells/mm3 marks AIDS, which develops years later."
+    ],
+    "study": {
+     "topics": [
+      "Natural history of HIV",
+      "Viral set point"
+     ],
+     "comps": [
+      "IM-15-B2",
+      "IM-13"
+     ]
+    }
+   },
+   {
+    "id": "IM-C60-Q2",
+    "stem": "A follow-up HIV-1/HIV-2 antibody differentiation immunoassay on the same specimen is negative. Which of the following is the most appropriate next test?",
+    "options": [
+     "CD4 T cell count",
+     "HIV-1 Western blot",
+     "Repeat antibody testing in 6 months",
+     "HIV-1 RNA nucleic acid test"
+    ],
+    "answer": 3,
+    "sea": "M",
+    "comp": "IM-15-B2",
+    "obj": "IM-15-B.4",
+    "dok": 3,
+    "approach": [
+     "A reactive fourth-generation assay with a negative antibody differentiation assay means either a false positive or very early infection.",
+     "The fourth-generation assay detects p24 antigen, which appears before antibodies, so acute infection is likely here.",
+     "An HIV-1 RNA test confirms acute infection by detecting the virus directly."
+    ],
+    "why": "The fourth-generation assay detects both HIV antibodies and p24 capsid antigen, so it usually turns positive about 18 to 45 days after exposure, before antibodies are reliably present. In acute infection the antibody differentiation assay may still be negative. The recommended next step is an HIV-1 nucleic acid test, which will show a very high viral load if she is acutely infected and is negative if the first result was a false positive.",
+    "whyNot": [
+     "A CD4 count stages the infection and guides prophylaxis once HIV is confirmed. It cannot confirm or exclude infection.",
+     "The Western blot is no longer part of the recommended algorithm. It detects antibodies only and is often negative or indeterminate in acute infection.",
+     "Waiting 6 months delays diagnosis during the most infectious phase, when the viral load is highest and early treatment helps most.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "HIV testing algorithm",
+      "Window period in acute HIV"
+     ],
+     "comps": [
+      "IM-15-B2"
+     ]
+    }
+   },
+   {
+    "id": "IM-C60-Q3",
+    "stem": "Some people remain uninfected despite repeated sexual exposure to HIV. A small number of them are homozygous for a 32-base-pair deletion in a gene encoding a cell surface protein. The virus transmitted to this patient most likely uses that protein for which of the following steps?",
+    "options": [
+     "Coreceptor binding before fusion",
+     "Primary attachment of gp120 to the CD4 molecule",
+     "Reverse transcription of the viral RNA genome",
+     "Integration of proviral DNA into host chromosomes"
+    ],
+    "answer": 0,
+    "sea": "B",
+    "comp": "IM-15-B2",
+    "obj": "IM-15-B.2",
+    "dok": 2,
+    "approach": [
+     "The 32-base-pair deletion is CCR5 delta32, which removes CCR5 from the cell surface.",
+     "Sexually transmitted HIV is almost always R5-tropic, using CCR5 on macrophages and memory CD4 T cells.",
+     "CCR5 acts as the coreceptor: after gp120 binds CD4, it binds CCR5, which triggers gp41 to fuse the membranes."
+    ],
+    "why": "HIV entry happens in steps. gp120 first binds CD4, which changes its shape so it can bind a chemokine coreceptor, CCR5 or CXCR4. Coreceptor binding unfolds gp41, which inserts into the host membrane and pulls the two membranes together for fusion. Transmitted virus nearly always uses CCR5, so people homozygous for CCR5 delta32 lack the coreceptor and are highly resistant to infection.",
+    "whyNot": [
+     "Correct.",
+     "CD4 is the primary receptor, and the CCR5 deletion leaves CD4 intact. People with this deletion still have normal CD4 on their T cells.",
+     "Reverse transcription uses the viral enzyme reverse transcriptase (from pol) after entry. No host surface protein is involved.",
+     "Integration is done by viral integrase inside the nucleus after reverse transcription. It does not depend on a cell surface protein."
+    ],
+    "study": {
+     "topics": [
+      "HIV entry and coreceptors",
+      "CCR5 delta32"
+     ],
+     "comps": [
+      "IM-15-B2",
+      "IM-12"
+     ]
+    }
+   },
+   {
+    "id": "IM-C60-Q4",
+    "stem": "She declines treatment and is lost to follow-up. Eight years later, her CD4 count is 30 cells/mm3 (500 to 1,500), and she reports painless floaters and blurred vision in one eye. Funduscopy shows yellow-white retinal infiltrates with hemorrhages along the retinal vessels. Which of the following organisms is the most likely cause?",
+    "options": [
+     "Toxoplasma gondii",
+     "Cytomegalovirus",
+     "Cryptococcus neoformans",
+     "Pneumocystis jirovecii"
+    ],
+    "answer": 1,
+    "sea": "M",
+    "comp": "IM-15-B2",
+    "obj": "IM-15-B.5",
+    "dok": 3,
+    "approach": [
+     "Place the CD4 count: below 50 cells/mm3 opens the door to CMV and Mycobacterium avium complex.",
+     "Match the eye finding: painless vision loss with yellow-white retinal necrosis and hemorrhage along the vessels is CMV retinitis.",
+     "Combine the two clues to pick CMV."
+    ],
+    "why": "Opportunistic infections in HIV follow the CD4 count. Pneumocystis appears below 200 cells/mm3, Toxoplasma encephalitis below 100, and CMV retinitis and MAC below 50. CMV retinitis causes painless floaters and vision loss, and the fundus shows yellow-white areas of retinal necrosis with hemorrhage along the vessels. Without treatment it can progress to blindness.",
+    "whyNot": [
+     "Toxoplasma usually causes encephalitis with ring-enhancing brain lesions in AIDS at CD4 below 100. Its retinochoroiditis is less common and typically shows a focal lesion with dense vitreous inflammation.",
+     "Correct.",
+     "Cryptococcus causes meningitis with headache and high opening pressure at CD4 below 100. It is not a usual cause of necrotizing retinitis.",
+     "Pneumocystis causes pneumonia at CD4 below 200. It does not cause retinitis with hemorrhage."
+    ],
+    "study": {
+     "topics": [
+      "Opportunistic infections by CD4 count",
+      "CMV retinitis"
+     ],
+     "comps": [
+      "IM-15-B2",
+      "IM-14"
+     ]
+    }
+   }
+  ]
+ }
+]

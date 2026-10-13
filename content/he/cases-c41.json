@@ -1,0 +1,792 @@
+[
+  {
+    "id": "HE-C41",
+    "system": "HE",
+    "dx": "Endemic Burkitt lymphoma of the jaw in a child",
+    "codes": [
+      "HE-9-D2"
+    ],
+    "case": "A 7-year-old boy from a rural village in Malawi, where malaria is highly endemic, is brought to a mission clinic because of a rapidly enlarging swelling of the right jaw for 3 weeks. His temperature is 37.4 °C (99.3 °F), pulse is 104/min, respirations are 22/min, and blood pressure is 98/60 mm Hg. Physical examination shows a firm, nontender mass of the right mandible that has loosened two molars. There is no peripheral lymphadenopathy. Laboratory studies show hemoglobin 10.6 g/dL (reference, 11.5 to 15.5 g/dL), lactate dehydrogenase 1,420 U/L (reference, 120 to 300 U/L), and uric acid 8.4 mg/dL (reference, 2.0 to 5.5 mg/dL). Biopsy of the mass shows sheets of uniform, medium-sized lymphoid cells with basophilic, vacuolated cytoplasm, many mitoses, and scattered pale macrophages. The Ki-67 proliferation index is nearly 100%. Diagnosis: endemic Burkitt lymphoma.",
+    "questions": [
+      {
+        "id": "HE-C41-Q1",
+        "stem": "Cytogenetic analysis of the tumor cells shows t(8;14)(q24;q32). Which of the following best explains how this translocation drives the growth of the tumor?",
+        "options": [
+          "Constitutive tyrosine kinase activity of a fusion protein",
+          "Overexpression of an antiapoptotic mitochondrial membrane protein",
+          "MYC transcription driven by an immunoglobulin gene enhancer",
+          "Cyclin D1 overexpression speeding the G1 to S phase transition"
+        ],
+        "answer": 2,
+        "sea": "B",
+        "comp": "HE-6",
+        "obj": "HE-6.5",
+        "dok": 2,
+        "approach": [
+          "Identify the genes at the breakpoints: MYC on 8q24 and the immunoglobulin heavy chain locus on 14q32.",
+          "The heavy chain enhancer is highly active in B cells, so the moved MYC gene is transcribed constantly.",
+          "MYC is a transcription factor that pushes cells through the cycle and raises biosynthesis, which fits a Ki-67 index near 100%."
+        ],
+        "why": "In Burkitt lymphoma, MYC on chromosome 8 is moved next to the immunoglobulin heavy chain locus on chromosome 14. The strong B cell enhancer of that locus then drives nonstop MYC expression. MYC is a nuclear transcription factor that turns on genes for cell cycle entry, ribosome production, and glycolysis, so nearly every tumor cell is dividing. Less common variants place MYC next to the kappa light chain gene, t(2;8), or the lambda light chain gene, t(8;22). This is a different mechanism from the other classic translocations, which deregulate BCL2, cyclin D1, ABL1, or the retinoic acid receptor.",
+        "whyNot": [
+          "A constitutively active tyrosine kinase fusion protein is BCR-ABL1 from t(9;22) in chronic myeloid leukemia.",
+          "Overexpression of the antiapoptotic protein BCL2 comes from t(14;18) in follicular lymphoma. It lets cells survive rather than making them divide rapidly.",
+          "Correct.",
+          "Cyclin D1 overexpression comes from t(11;14) in mantle cell lymphoma, a CD5-positive tumor of older adults."
+        ],
+        "study": {
+          "topics": [
+            "Chromosomal translocations in lymphoma",
+            "MYC as a transcription factor oncogene"
+          ],
+          "comps": [
+            "HE-6",
+            "HE-9-D2"
+          ]
+        }
+      },
+      {
+        "id": "HE-C41-Q2",
+        "stem": "In situ hybridization shows Epstein-Barr virus-encoded RNA in nearly every tumor cell. The virus infects B cells preferentially because B cells express which of the following surface molecules?",
+        "options": [
+          "CD21, complement receptor type 2",
+          "CD4 together with the CCR5 chemokine coreceptor",
+          "Globoside, the erythrocyte P antigen",
+          "Intercellular adhesion molecule 1"
+        ],
+        "answer": 0,
+        "sea": "M",
+        "comp": "HE-7",
+        "obj": "HE-7.6",
+        "dok": 2,
+        "approach": [
+          "Epstein-Barr virus has a strong tropism for B cells.",
+          "Its envelope glycoprotein gp350 binds a complement receptor found on B cells and follicular dendritic cells.",
+          "That receptor is CD21, also called CR2, the receptor for the C3d fragment of complement."
+        ],
+        "why": "Epstein-Barr virus attaches through its envelope glycoprotein gp350 to CD21 (complement receptor 2), which B cells use to bind C3d-coated antigen. Infected B cells can become latently infected and immortalized. In mononucleosis, the large atypical lymphocytes in the blood are CD8 T cells reacting to those infected B cells. The virus contributes to endemic Burkitt lymphoma, many cases of Hodgkin lymphoma, and B cell lymphomas in people with weak T cell immunity. In endemic Burkitt lymphoma, chronic malaria is thought to add B cell stimulation and to weaken T cell control of the virus.",
+        "whyNot": [
+          "Correct.",
+          "CD4 with CCR5 or CXCR4 is the entry receptor for HIV, which infects helper T cells and macrophages.",
+          "Globoside (P antigen) is the receptor for parvovirus B19 on erythroid progenitors.",
+          "Intercellular adhesion molecule 1 is the receptor for most rhinoviruses on respiratory epithelium."
+        ],
+        "study": {
+          "topics": [
+            "Epstein-Barr virus receptor and tropism",
+            "Viral receptors on blood cells"
+          ],
+          "comps": [
+            "HE-7",
+            "HE-8"
+          ]
+        }
+      },
+      {
+        "id": "HE-C41-Q3",
+        "stem": "Which of the following best explains the scattered pale macrophages among the tumor cells in this biopsy?",
+        "options": [
+          "Granulomatous reaction to Epstein-Barr virus antigens",
+          "Engulfment of malaria parasites from coexisting infection",
+          "Histiocytic differentiation of the neoplastic B cells",
+          "Clearance of tumor cells dying by apoptosis"
+        ],
+        "answer": 3,
+        "sea": "X",
+        "comp": "HE-9-D2",
+        "obj": "HE-9-D.7",
+        "dok": 3,
+        "approach": [
+          "Uniform sheets of dark tumor cells with scattered pale macrophages form the starry-sky pattern.",
+          "A tumor with nearly all cells dividing also has a very high rate of cell death by apoptosis.",
+          "Benign tingible body macrophages move in to engulf the apoptotic tumor cells, and they are the stars."
+        ],
+        "why": "Burkitt lymphoma is one of the fastest-growing human tumors, and many of its cells also die by apoptosis. Benign macrophages engulf the dead cells and appear as pale stars against the dark blue sky of tumor cells. Among the other non-Hodgkin lymphomas, diffuse large B cell lymphoma is the most common and is aggressive, follicular lymphoma carries t(14;18) and is indolent, mantle cell lymphoma carries t(11;14) and is CD5 positive, and MALT lymphoma of the stomach is linked to Helicobacter pylori. The same high turnover explains the high LDH and uric acid in this boy.",
+        "whyNot": [
+          "Granulomas are clusters of epithelioid macrophages around a persistent antigen. They are not the cause of the starry-sky pattern.",
+          "Macrophages in chronic malaria can hold hemozoin pigment, but that does not create the starry-sky pattern seen in every Burkitt lymphoma.",
+          "The tumor cells are mature germinal center B cells. They do not turn into macrophages.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Burkitt lymphoma histology",
+            "Comparison of non-Hodgkin lymphomas"
+          ],
+          "comps": [
+            "HE-9-D2"
+          ]
+        }
+      },
+      {
+        "id": "HE-C41-Q4",
+        "stem": "Flow cytometry shows that the tumor cells express CD19, CD20, CD10, and BCL6. This profile matches normal B cells that are proliferating rapidly and undergoing somatic hypermutation after antigen stimulation. In the spleen, normal B cells with this profile are found in which of the following locations?",
+        "options": [
+          "Periarteriolar lymphoid sheath",
+          "Germinal centers of white pulp follicles",
+          "Cords of the red pulp",
+          "Marginal zone at the edge of the white pulp"
+        ],
+        "answer": 1,
+        "sea": "A",
+        "comp": "HE-1",
+        "obj": "HE-1.7",
+        "dok": 2,
+        "approach": [
+          "CD10 and BCL6 mark germinal center B cells, which proliferate and mutate their antibody genes after meeting antigen.",
+          "In the spleen, B cells live in the follicles of the white pulp, and germinal centers form inside activated follicles.",
+          "The periarteriolar lymphoid sheath holds T cells, and the red pulp filters blood."
+        ],
+        "why": "The splenic white pulp has a T cell zone, the periarteriolar lymphoid sheath around the central artery, and B cell follicles beside it. After antigen stimulation, follicles develop germinal centers where B cells divide quickly, mutate their antibody genes, and switch class. The marginal zone around the white pulp holds a separate B cell group that responds quickly to blood-borne polysaccharide antigens. The red pulp has cords and sinusoids where macrophages remove old and damaged red cells. In a lymph node, the same B cell follicles sit in the outer cortex, T cells fill the paracortex, and plasma cells collect in the medullary cords.",
+        "whyNot": [
+          "The periarteriolar lymphoid sheath is the T cell zone of the spleen, like the paracortex of a lymph node.",
+          "Correct.",
+          "The red pulp cords hold macrophages, red cells, and plasma cells. Germinal center B cells are not found there.",
+          "The marginal zone holds marginal zone B cells that respond to polysaccharide antigens. These cells do not express CD10 and BCL6 and are the source of marginal zone lymphomas."
+        ],
+        "study": {
+          "topics": [
+            "Splenic white pulp and red pulp",
+            "Lymph node B and T cell zones"
+          ],
+          "comps": [
+            "HE-1",
+            "HE-9-D2"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "HE-C42",
+    "system": "HE",
+    "dx": "Multiple myeloma presenting with light chain cast nephropathy",
+    "codes": [
+      "HE-9-D3"
+    ],
+    "case": "A 58-year-old woman comes to the physician because of fatigue, low back pain, and decreased urine output for 2 months. Her temperature is 36.9 °C (98.4 °F), pulse is 88/min, respirations are 16/min, and blood pressure is 132/80 mm Hg. Laboratory studies show hemoglobin 8.6 g/dL (reference, 12.0 to 16.0 g/dL), creatinine 3.6 mg/dL (reference, 0.6 to 1.1 mg/dL), calcium 10.8 mg/dL (reference, 8.5 to 10.5 mg/dL), and total protein 11.4 g/dL (reference, 6.0 to 8.3 g/dL). Urine dipstick shows trace protein, but 24-hour urine protein is 4.1 g, mostly free kappa light chains. Serum protein electrophoresis shows an IgG kappa M spike of 6.8 g/dL. Bone marrow biopsy shows 55% clonal plasma cells. Kidney biopsy shows dense, fractured casts obstructing tubules, surrounded by multinucleated giant cells. Diagnosis: multiple myeloma with light chain cast nephropathy.",
+    "questions": [
+      {
+        "id": "HE-C42-Q1",
+        "stem": "A 66-year-old man has a lambda light chain plasma cell clone with 8% marrow plasma cells, no lytic bone lesions, nephrotic syndrome, macroglossia, and a thickened, stiff left ventricle. A kidney biopsy shows glomerular deposits that are apple-green under polarized light after Congo red staining. These deposits are most likely composed of which of the following?",
+        "options": [
+          "Serum amyloid A from chronic inflammation",
+          "Transthyretin, wild type or mutant",
+          "Beta-2 microglobulin retained by failing kidneys",
+          "Fragments of monoclonal light chains"
+        ],
+        "answer": 3,
+        "sea": "X",
+        "comp": "HE-9-D3",
+        "obj": "HE-9-D.10",
+        "dok": 2,
+        "approach": [
+          "Apple-green birefringence with Congo red means amyloid.",
+          "A clonal plasma cell population that makes lambda light chains is the source of the misfolding protein.",
+          "Light chain fragments, especially lambda, deposit as AL amyloid in kidney, heart, tongue, and nerves."
+        ],
+        "why": "AL amyloidosis forms when free monoclonal light chains, more often lambda than kappa, misfold into beta-pleated sheets. It can occur with myeloma or with a small plasma cell clone that does not meet myeloma criteria, as in this man. Kidney deposits cause nephrotic syndrome, and heart deposits cause restrictive cardiomyopathy. MGUS has an M protein below 3 g/dL, under 10% marrow plasma cells, and no end-organ damage. Waldenström macroglobulinemia has an IgM M protein, hyperviscosity, and no lytic lesions.",
+        "whyNot": [
+          "Serum amyloid A forms AA amyloid in long-standing inflammatory disease such as rheumatoid arthritis or chronic infection. It is not linked to a plasma cell clone.",
+          "Transthyretin forms amyloid in the heart of older adults (wild type) or in hereditary amyloid neuropathy (mutant). It does not come from a light chain clone.",
+          "Beta-2 microglobulin amyloid occurs in patients on long-term dialysis and mainly affects joints and the carpal tunnel.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "AL amyloidosis",
+            "Types of amyloid protein"
+          ],
+          "comps": [
+            "HE-9-D3"
+          ]
+        }
+      },
+      {
+        "id": "HE-C42-Q2",
+        "stem": "Her serum sodium measured on the main chemistry analyzer, which dilutes the sample before measuring sodium with an ion-selective electrode, is 127 mEq/L (reference, 136 to 145 mEq/L). Sodium measured on undiluted blood with a direct ion-selective electrode is 139 mEq/L. Measured serum osmolality is 289 mOsm/kg H2O (reference, 275 to 295 mOsm/kg H2O). Which of the following best explains the low value from the main analyzer?",
+        "options": [
+          "Water retention from excess antidiuretic hormone",
+          "Paraprotein taking up part of the plasma volume",
+          "Sodium bound to the paraprotein and kept from the electrode",
+          "Water drawn out of cells by the high protein concentration"
+        ],
+        "answer": 1,
+        "sea": "P",
+        "comp": "HE-2",
+        "obj": "HE-2.1",
+        "dok": 3,
+        "approach": [
+          "Normal plasma is about 93% water; the rest is mainly protein, with smaller amounts of lipid.",
+          "Sodium is dissolved only in the water portion. The diluting method assumes a normal water fraction when it calculates sodium per liter of plasma.",
+          "Her protein is very high, so each liter holds less water and less sodium, while the sodium concentration in the water itself (direct method) and the osmolality are normal."
+        ],
+        "why": "Plasma is mostly water, with albumin, globulins, fibrinogen, electrolytes, and small solutes dissolved in it. Serum is the same fluid after clotting, without fibrinogen. Sodium lives in the water phase. When a huge M protein takes up more of each liter, a method that dilutes a fixed volume of sample reports a falsely low sodium. This is pseudohyponatremia. The direct electrode measures sodium in the plasma water, so it reads normal, and the normal osmolality confirms that no true hypotonic state exists. Severe hypertriglyceridemia causes the same artifact.",
+        "whyNot": [
+          "Excess antidiuretic hormone causes true hyponatremia, with low serum osmolality and a low sodium by the direct method too.",
+          "Correct.",
+          "Binding of sodium by protein would lower the free sodium measured by both electrode methods. It would not explain a normal direct reading.",
+          "Proteins add very few osmoles because they are large molecules present at low molar concentration. A water shift out of cells is seen with hyperglycemia or mannitol, where osmolality is high."
+        ],
+        "study": {
+          "topics": [
+            "Composition of plasma",
+            "Pseudohyponatremia from high protein or lipid"
+          ],
+          "comps": [
+            "HE-2",
+            "HE-9-D3"
+          ]
+        }
+      },
+      {
+        "id": "HE-C42-Q3",
+        "stem": "Her marrow aspirate shows sheets of cells with eccentric nuclei, coarse clock-face chromatin, abundant basophilic cytoplasm, and a pale zone beside the nucleus. The normal counterparts of these cells developed through which of the following pathways?",
+        "options": [
+          "Common lymphoid progenitor, then B lymphocyte",
+          "Common lymphoid progenitor, then T lymphocyte",
+          "Common lymphoid progenitor, then natural killer cell",
+          "Common myeloid progenitor, then monocyte"
+        ],
+        "answer": 0,
+        "sea": "A",
+        "comp": "HE-1",
+        "obj": "HE-1.2",
+        "dok": 2,
+        "approach": [
+          "Eccentric nuclei, clock-face chromatin, and a pale Golgi zone identify plasma cells.",
+          "Plasma cells are terminally differentiated B cells that secrete antibody.",
+          "B cells come from the common lymphoid progenitor, which arises from the hematopoietic stem cell."
+        ],
+        "why": "The hematopoietic stem cell gives rise to two main progenitors. The common lymphoid progenitor makes B cells, T cells, and natural killer cells. The common myeloid progenitor makes red cells, platelets, granulocytes, monocytes, and mast cells. B cells mature in the marrow, meet antigen in lymphoid tissue, and become plasma cells. The pale zone beside the nucleus is the large Golgi apparatus, and the basophilic cytoplasm reflects abundant rough endoplasmic reticulum for antibody synthesis.",
+        "whyNot": [
+          "Correct.",
+          "T cells also come from the common lymphoid progenitor but mature in the thymus and never become antibody-secreting plasma cells.",
+          "Natural killer cells come from the common lymphoid progenitor but are cytotoxic cells that do not make antibody.",
+          "Monocytes come from the common myeloid progenitor and become macrophages. Plasma cells are not part of the myeloid lineage."
+        ],
+        "study": {
+          "topics": [
+            "Hematopoietic lineages",
+            "Plasma cell structure"
+          ],
+          "comps": [
+            "HE-1",
+            "HE-9-D3"
+          ]
+        }
+      },
+      {
+        "id": "HE-C42-Q4",
+        "stem": "Which of the following best describes where and how the casts that are injuring her kidneys form?",
+        "options": [
+          "In proximal tubules, where filtered light chains are taken up",
+          "In the glomerular mesangium, from trapped immune complexes",
+          "In distal tubules, where light chains bind uromodulin",
+          "In the medullary interstitium, from calcium phosphate deposits"
+        ],
+        "answer": 2,
+        "sea": "A",
+        "comp": "HE-9-D3",
+        "obj": "HE-9-D.9",
+        "dok": 3,
+        "approach": [
+          "Free light chains are small enough to pass the glomerular filter.",
+          "Proximal tubule cells reabsorb filtered light chains until that capacity is exceeded, so the excess flows downstream.",
+          "In the distal nephron, light chains bind uromodulin (Tamm-Horsfall protein) secreted by the thick ascending limb and form obstructing casts."
+        ],
+        "why": "Myeloma cells make far more light chains than heavy chains. The free light chains are filtered at the glomerulus. Once proximal tubule uptake is overwhelmed, the light chains reach the distal tubule and collecting duct, where they bind uromodulin and precipitate as hard casts. The casts block flow and trigger a giant cell reaction. Volume depletion, hypercalcemia, NSAIDs, and contrast dye make cast formation more likely. Other features of myeloma include hypercalcemia and lytic lesions, anemia, rouleaux, infections, and an M spike.",
+        "whyNot": [
+          "Proximal tubule cells take up light chains, and an overload can injure them (light chain proximal tubulopathy), but the obstructing casts form farther down the nephron.",
+          "Immune complex deposits in the mesangium are seen in IgA nephropathy and lupus nephritis. Myeloma casts are inside tubules.",
+          "Correct.",
+          "Hypercalcemia can cause calcium deposits in the kidney (nephrocalcinosis), but these do not form the fractured protein casts with giant cells seen in her biopsy."
+        ],
+        "study": {
+          "topics": [
+            "Myeloma kidney",
+            "Nephron segments and uromodulin"
+          ],
+          "comps": [
+            "HE-9-D3"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "HE-C43",
+    "system": "HE",
+    "dx": "Transfusion-transmitted babesiosis after cardiac surgery",
+    "codes": [
+      "HE-9-E1"
+    ],
+    "case": "A 72-year-old man is admitted to the hospital in January because of fever and fatigue for 10 days. Five weeks ago, he underwent coronary artery bypass grafting and received 4 units of packed red blood cells. He has not traveled outside his city in Ohio and has had no tick bites. His temperature is 39.1 °C (102.4 °F), pulse is 108/min, respirations are 20/min, and blood pressure is 104/62 mm Hg. Laboratory studies show hemoglobin 7.9 g/dL (reference, 13.5 to 17.5 g/dL), platelet count 62,000/mm3 (reference, 150,000 to 400,000/mm3), lactate dehydrogenase 980 U/L (reference, 140 to 280 U/L), total bilirubin 3.1 mg/dL (reference, 0.1 to 1.2 mg/dL), and haptoglobin below 10 mg/dL (reference, 30 to 200 mg/dL). A thin blood smear shows small intraerythrocytic ring forms in 6% of red cells. PCR is positive for Babesia microti. Diagnosis: transfusion-transmitted babesiosis.",
+    "questions": [
+      {
+        "id": "HE-C43-Q1",
+        "stem": "Before the PCR result was available, the smear raised concern for Plasmodium falciparum. Which of the following additional smear findings would have most strongly favored Babesia?",
+        "options": [
+          "Multiple ring forms within single red cells",
+          "Tetrads of merozoites in a cross pattern",
+          "Crescent-shaped gametocytes",
+          "Brown hemozoin pigment within parasites"
+        ],
+        "answer": 1,
+        "sea": "M",
+        "comp": "HE-8",
+        "obj": "HE-8.4",
+        "dok": 2,
+        "approach": [
+          "Both Babesia and P. falciparum appear as small ring forms inside red cells, and both can put several rings in one cell.",
+          "Babesia divides by budding into four merozoites that can stay joined in a cross, the Maltese cross tetrad.",
+          "Plasmodium shows hemozoin pigment and recognizable gametocytes on the smear, and Babesia shows neither."
+        ],
+        "why": "Babesia microti is a protozoan that lives inside red cells. Its ring forms look like those of P. falciparum, but it can form tetrads in a Maltese cross shape, and it never makes hemozoin pigment or shows recognizable gametocytes on a smear. It is spread mainly by the Ixodes scapularis tick in the northeastern and upper midwestern United States, the same tick that carries Borrelia burgdorferi. Infected donors usually have no symptoms, and the parasite survives refrigerated storage of red cells, so it can be passed by transfusion in any season and in any region.",
+        "whyNot": [
+          "Several rings in one red cell occur in both Babesia and P. falciparum infection, so this finding does not separate them.",
+          "Correct.",
+          "Crescent or banana-shaped gametocytes are typical of P. falciparum. Babesia shows no recognizable gametocytes on a blood smear.",
+          "Hemozoin pigment comes from hemoglobin digestion by Plasmodium. Babesia does not make it."
+        ],
+        "study": {
+          "topics": [
+            "Babesia versus Plasmodium on a blood smear",
+            "Babesia transmission"
+          ],
+          "comps": [
+            "HE-8",
+            "HE-9-E1"
+          ]
+        }
+      },
+      {
+        "id": "HE-C43-Q2",
+        "stem": "Each of the following people acquires Babesia microti from a tick bite on Cape Cod, Massachusetts, in July. Which of them is at greatest risk of severe disease with high parasitemia?",
+        "options": [
+          "A 24-year-old woman with sickle cell trait",
+          "A 31-year-old man with a history of Lyme disease",
+          "A 9-year-old boy with mild intermittent asthma",
+          "A 68-year-old woman receiving rituximab"
+        ],
+        "answer": 3,
+        "sea": "M",
+        "comp": "HE-9-E1",
+        "obj": "HE-9-E.1",
+        "dok": 3,
+        "approach": [
+          "Most healthy young people infected with Babesia have mild illness or no symptoms.",
+          "Severe disease is linked to asplenia, age over about 50 years, and weakened immunity.",
+          "Rituximab removes B cells and antibody responses, and combined with older age it carries the highest risk."
+        ],
+        "why": "Babesiosis is acquired from Ixodes ticks in the northeastern and upper midwestern United States, mostly in summer. Healthy hosts usually have a mild flu-like illness. Severe disease, with high parasitemia, hemolytic anemia, thrombocytopenia, kidney injury, and respiratory failure, occurs in people without a spleen, people older than about 50, and people with weak immunity, such as those with HIV, cancer, organ transplants, or B cell-depleting drugs such as rituximab. Patients on rituximab can also have persistent, relapsing infection.",
+        "whyNot": [
+          "Sickle cell trait is not a recognized risk factor for severe babesiosis. A young adult with an intact spleen usually has mild disease.",
+          "A past Lyme infection shows exposure to the same tick but does not weaken immunity to Babesia.",
+          "Mild asthma does not impair immunity. Children usually have mild babesiosis.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Risk factors for severe babesiosis",
+            "Clinical features of babesiosis"
+          ],
+          "comps": [
+            "HE-9-E1"
+          ]
+        }
+      },
+      {
+        "id": "HE-C43-Q3",
+        "stem": "Which of the following findings would best show that much of his hemolysis is occurring inside blood vessels rather than within splenic and hepatic macrophages?",
+        "options": [
+          "Increased serum unconjugated bilirubin",
+          "Increased reticulocyte count",
+          "Free hemoglobin in plasma",
+          "Increased serum lactate dehydrogenase"
+        ],
+        "answer": 2,
+        "sea": "X",
+        "comp": "HE-3",
+        "obj": "HE-3.3",
+        "dok": 3,
+        "approach": [
+          "Ask which findings occur with any hemolysis and which require red cells to break open in the circulation.",
+          "Unconjugated bilirubin, LDH, and reticulocytes rise whether red cells are destroyed in vessels or in macrophages.",
+          "Free hemoglobin in plasma appears only when red cells lyse in the bloodstream and the haptoglobin binding capacity is used up."
+        ],
+        "why": "In intravascular hemolysis, red cells burst in the circulation and release hemoglobin into plasma. Haptoglobin binds it and is cleared, so haptoglobin becomes very low. Extra free hemoglobin turns plasma pink, is filtered into urine (hemoglobinuria), and is taken up by tubular cells, which later shed hemosiderin into the urine. The smear may show schistocytes when the cause is mechanical. In extravascular hemolysis, macrophages in the spleen and liver eat the red cells, often spherocytes, so plasma free hemoglobin stays low. Both types raise LDH, unconjugated bilirubin, and reticulocytes.",
+        "whyNot": [
+          "Unconjugated bilirubin comes from heme breakdown in macrophages and rises in both intravascular and extravascular hemolysis.",
+          "A high reticulocyte count shows the marrow is replacing lost red cells and occurs with any hemolysis or blood loss.",
+          "Correct.",
+          "LDH leaks from red cells in both types of hemolysis and also rises with tissue injury."
+        ],
+        "study": {
+          "topics": [
+            "Intravascular versus extravascular hemolysis",
+            "Laboratory markers of hemolysis"
+          ],
+          "comps": [
+            "HE-3",
+            "HE-9-B1"
+          ]
+        }
+      },
+      {
+        "id": "HE-C43-Q4",
+        "stem": "His mean corpuscular volume is 102 fL (reference, 80 to 100 fL), mean corpuscular hemoglobin concentration is 33 g/dL (reference, 32 to 36 g/dL), red cell distribution width is 18% (reference, 11.5% to 14.5%), and reticulocyte count is 11% (reference, 0.5% to 2.5%). Serum vitamin B12 and folate concentrations are within the reference ranges. Which of the following best explains his increased mean corpuscular volume?",
+        "options": [
+          "Release of large, immature red cells from the marrow",
+          "Impaired DNA synthesis in erythroid precursors",
+          "Extra membrane lipid acquired from abnormal plasma lipoproteins",
+          "Direct parasite injury to developing erythroid precursors"
+        ],
+        "answer": 0,
+        "sea": "P",
+        "comp": "HE-2",
+        "obj": "HE-2.5",
+        "dok": 3,
+        "approach": [
+          "A high reticulocyte count means the marrow is responding, which points to red cell loss or destruction rather than underproduction.",
+          "Reticulocytes are larger than mature red cells, so a large reticulocyte fraction raises the MCV and widens the RDW.",
+          "Normal B12 and folate levels argue against megaloblastic anemia."
+        ],
+        "why": "Anemia is first sorted by MCV into microcytic (below 80 fL), normocytic, or macrocytic (above 100 fL). The reticulocyte count then shows whether the marrow is responding. A high count means hemolysis or blood loss, and a low count means underproduction. Reticulocytes still carry residual RNA and are larger than mature cells, so brisk reticulocytosis can push the MCV just above 100 fL and widen the RDW. His anemia is a hemolytic anemia with a strong marrow response. A normal MCHC fits, because MCHC rises mainly with spherocytes.",
+        "whyNot": [
+          "Correct.",
+          "Impaired DNA synthesis causes megaloblastic anemia from B12 or folate deficiency, with a low reticulocyte count from ineffective erythropoiesis. His vitamin levels are normal and his reticulocytes are high.",
+          "Lipid loading of the red cell membrane causes target cells and mild macrocytosis in liver disease. Nothing here suggests liver disease.",
+          "Babesia infects circulating red cells. It does not infect marrow precursors, and marrow injury would lower the reticulocyte count."
+        ],
+        "study": {
+          "topics": [
+            "Classification of anemia by MCV and reticulocyte count",
+            "Reticulocytes"
+          ],
+          "comps": [
+            "HE-2",
+            "HE-1"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "HE-C44",
+    "system": "HE",
+    "dx": "Relapsing Plasmodium vivax malaria with splenic rupture",
+    "codes": [
+      "HE-9-E2"
+    ],
+    "case": "A 34-year-old man is brought to the emergency department because of sudden left upper quadrant pain and lightheadedness for 2 hours. He has had fever with shaking chills for 6 days. He returned 8 months ago from a 6-month work assignment in rural India, where he was treated for malaria with chloroquine alone. His temperature is 38.9 °C (102.0 °F), pulse is 124/min, respirations are 24/min, and blood pressure is 86/54 mm Hg. The left upper quadrant is tender with guarding. Bedside ultrasound shows free intraperitoneal fluid. Laboratory studies show hemoglobin 7.4 g/dL (reference, 13.5 to 17.5 g/dL) and platelet count 58,000/mm3 (reference, 150,000 to 400,000/mm3). A thin blood smear shows enlarged red cells with fine red stippling that contain ameboid trophozoites. At emergency splenectomy, the spleen is enlarged and ruptured. Diagnosis: relapsing Plasmodium vivax malaria with splenic rupture.",
+    "questions": [
+      {
+        "id": "HE-C44-Q1",
+        "stem": "Anopheles mosquitoes are present near his home. Which of the following best describes how the parasite would continue its life cycle in a female Anopheles mosquito that feeds on him during this illness?",
+        "options": [
+          "Ingested sporozoites invade the salivary glands directly",
+          "Ingested trophozoites multiply asexually in the midgut",
+          "Ingested gametocytes fuse in the midgut and form oocysts",
+          "Ingested hypnozoites reactivate within the mosquito fat body"
+        ],
+        "answer": 2,
+        "sea": "M",
+        "comp": "HE-8",
+        "obj": "HE-8.1",
+        "dok": 2,
+        "approach": [
+          "Humans hold the asexual stages and the gametocytes; the mosquito is where sexual reproduction happens.",
+          "Only gametocytes survive in the mosquito gut. They form gametes that fuse into a zygote, which becomes an oocyst on the midgut wall.",
+          "Oocysts release sporozoites that move to the salivary glands, ready for the next bite."
+        ],
+        "why": "A female Anopheles mosquito injects sporozoites, which travel to the liver and multiply in hepatocytes as liver schizonts. Merozoites released from the liver invade red cells and cycle as rings, trophozoites, and schizonts, while some become male and female gametocytes. A feeding mosquito takes up gametocytes, which mate in its midgut, form an ookinete and then an oocyst, and release sporozoites that reach the salivary glands. In P. vivax and P. ovale, some liver forms stay dormant as hypnozoites and can cause relapse months later. That is why chloroquine alone, which acts only on blood stages, did not prevent his relapse.",
+        "whyNot": [
+          "Sporozoites are the stage the mosquito injects into humans. They are not present in human blood for a mosquito to pick up later.",
+          "Trophozoites are asexual blood stages that die in the mosquito gut. They cannot continue the life cycle there.",
+          "Correct.",
+          "Hypnozoites are dormant liver forms. They never circulate in blood and have no stage in the mosquito."
+        ],
+        "study": {
+          "topics": [
+            "Plasmodium life cycle",
+            "Sexual stage in the mosquito"
+          ],
+          "comps": [
+            "HE-8",
+            "HE-9-E2"
+          ]
+        }
+      },
+      {
+        "id": "HE-C44-Q2",
+        "stem": "Which of the following best explains the timing of his fever spikes once his infection became synchronized?",
+        "options": [
+          "Reactivation of dormant liver forms about every 48 hours",
+          "Rupture of infected red cells about every 48 hours",
+          "Rupture of infected red cells about every 72 hours",
+          "Release of merozoites from liver cells about every 72 hours"
+        ],
+        "answer": 1,
+        "sea": "M",
+        "comp": "HE-9-E2",
+        "obj": "HE-9-E.2",
+        "dok": 2,
+        "approach": [
+          "Fever spikes come when a synchronized wave of infected red cells bursts and releases merozoites and pyrogenic material.",
+          "The length of the red cell cycle sets the interval and depends on the species.",
+          "P. vivax and P. ovale complete the cycle in about 48 hours; P. malariae takes about 72 hours."
+        ],
+        "why": "Each red cell cycle ends when schizonts rupture, releasing merozoites, hemozoin, and parasite products that trigger cytokines such as TNF and IL-1. Once the infection is synchronized, fevers recur about every 48 hours for P. vivax and P. ovale (tertian) and about every 72 hours for P. malariae (quartan). P. falciparum often gives irregular fevers. Repeated red cell destruction causes hemolytic anemia, the spleen enlarges as it clears infected cells, and platelets fall. An acutely enlarged spleen is soft and can rupture, especially in P. vivax infection.",
+        "whyNot": [
+          "Hypnozoites reactivate sporadically, weeks to months apart, and start a relapse. They do not set a regular fever cycle.",
+          "Correct.",
+          "A 72-hour cycle is typical of P. malariae, not P. vivax.",
+          "Liver schizonts release merozoites once, at the start of blood infection. The liver stage does not cycle."
+        ],
+        "study": {
+          "topics": [
+            "Malaria fever periodicity",
+            "Hemolysis and splenomegaly in malaria"
+          ],
+          "comps": [
+            "HE-9-E2",
+            "HE-8"
+          ]
+        }
+      },
+      {
+        "id": "HE-C44-Q3",
+        "stem": "His coworker, who was born in West Africa and worked beside him in the same area, never developed P. vivax infection. Testing shows that her red cells are Duffy antigen negative. Which of the following best explains her resistance?",
+        "options": [
+          "Lack of a red cell receptor for merozoite entry",
+          "Hemoglobin polymerization in parasitized cells",
+          "Early oxidant injury and clearance of parasitized cells",
+          "Reduced hemoglobin synthesis limiting parasite growth"
+        ],
+        "answer": 0,
+        "sea": "B",
+        "comp": "HE-8",
+        "obj": "HE-8.3",
+        "dok": 3,
+        "approach": [
+          "The Duffy antigen is a red cell surface glycoprotein that also acts as a chemokine receptor.",
+          "P. vivax merozoites use a Duffy-binding protein to attach to this molecule before entering red cells.",
+          "Without the Duffy antigen, merozoites mostly cannot invade, so blood-stage infection rarely takes hold."
+        ],
+        "why": "P. vivax merozoites attach to reticulocytes through the Duffy antigen. The Duffy-negative blood type is common in West and Central Africa, which is why P. vivax malaria is rare there. Other inherited red cell traits protect against severe falciparum malaria by different routes. Sickle cell trait cells sickle when parasitized and are cleared by the spleen. G6PD-deficient cells suffer oxidant damage and are removed early. Thalassemia trait cells support parasite growth poorly and may be cleared more readily.",
+        "whyNot": [
+          "Correct.",
+          "Polymerization of hemoglobin S in parasitized cells explains protection from severe falciparum malaria in sickle cell trait.",
+          "Early oxidant injury and removal of parasitized cells explains protection in G6PD deficiency.",
+          "Reduced globin synthesis describes thalassemia trait, which protects against severe falciparum malaria. It does not block vivax invasion."
+        ],
+        "study": {
+          "topics": [
+            "Duffy antigen and P. vivax",
+            "Inherited red cell traits that protect against malaria"
+          ],
+          "comps": [
+            "HE-8",
+            "HE-6"
+          ]
+        }
+      },
+      {
+        "id": "HE-C44-Q4",
+        "stem": "He receives antimalarial treatment. Seven days after splenectomy, his platelet count is 790,000/mm3. Which of the following best explains this change?",
+        "options": [
+          "Clonal megakaryocyte proliferation from a JAK2 mutation",
+          "Hemoconcentration from postoperative fluid losses",
+          "Increased marrow output driven by erythropoietin",
+          "Loss of splenic platelet pooling and removal"
+        ],
+        "answer": 3,
+        "sea": "A",
+        "comp": "HE-9-B",
+        "obj": "HE-9-B.11",
+        "dok": 3,
+        "approach": [
+          "The normal spleen holds about one third of the body's platelets in its red pulp and removes old platelets.",
+          "After splenectomy, that pool joins the circulation and platelet removal slows.",
+          "A reactive rise after surgery adds to this, so thrombocytosis is expected after splenectomy."
+        ],
+        "why": "The spleen stores about a third of circulating platelets and clears aging blood cells. After it is removed, the platelet count rises, often well above normal, during the first weeks. The smear also shows Howell-Jolly bodies (nuclear remnants), target cells, and other inclusions that the spleen would normally remove. Splenic rupture follows blunt trauma or rapid splenomegaly from mononucleosis or malaria. Splenic infarcts occur in sickle cell disease and with emboli, and splenic abscesses follow septic emboli from endocarditis.",
+        "whyNot": [
+          "A JAK2 mutation causes clonal thrombocytosis in essential thrombocythemia. A rise right after splenectomy is expected and is not clonal.",
+          "Hemoconcentration would raise all cell counts by a small proportion. It cannot push the platelet count to about twice the upper reference limit.",
+          "Erythropoietin drives red cell production. Platelet production is driven mainly by thrombopoietin.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Effects of splenectomy",
+            "Causes of splenic rupture and infarct"
+          ],
+          "comps": [
+            "HE-9-B",
+            "HE-7"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "HE-C45",
+    "system": "HE",
+    "dx": "Urogenital schistosomiasis (Schistosoma haematobium) with hematuria and eosinophilia",
+    "codes": [
+      "HE-9-E3"
+    ],
+    "case": "A 15-year-old boy is brought to the physician because of blood at the end of urination and burning with urination for 6 months. He moved to the United States 3 months ago from a village on the shore of Lake Malawi, where he swam and fished almost daily. His temperature is 37.0 °C (98.6 °F), pulse is 78/min, respirations are 14/min, and blood pressure is 114/70 mm Hg. Physical examination shows mild suprapubic tenderness. Laboratory studies show hemoglobin 11.8 g/dL (reference, 13.0 to 16.0 g/dL) and leukocyte count 9,400/mm3 (reference, 4,500 to 11,000/mm3); the differential count is pending. Urinalysis shows many red cells. A filtered midday urine sample shows large oval eggs with a terminal spine. Ultrasound shows a thickened bladder wall with calcifications. Diagnosis: urogenital schistosomiasis caused by Schistosoma haematobium.",
+    "questions": [
+      {
+        "id": "HE-C45-Q1",
+        "stem": "Which of the following best describes how he acquired this infection?",
+        "options": [
+          "Ingestion of eggs in fecally contaminated water",
+          "Ingestion of larvae encysted on freshwater plants",
+          "Skin penetration by larvae released from snails",
+          "Bite of a blood-feeding fly carrying infective larvae"
+        ],
+        "answer": 2,
+        "sea": "M",
+        "comp": "HE-8",
+        "obj": "HE-8.5",
+        "dok": 2,
+        "approach": [
+          "Eggs passed in urine hatch in fresh water and infect a snail, the intermediate host.",
+          "Snails release free-swimming cercariae, which bore through intact human skin during swimming or wading.",
+          "The larvae mature as they travel to the venous plexus around the bladder, where adult pairs lay eggs."
+        ],
+        "why": "Schistosomes have a freshwater snail as intermediate host. Cercariae from the snail penetrate the skin, lose their tails, and travel through the blood to the portal system, where they mature. Adult S. haematobium pairs then move to the vesical venous plexus around the bladder, while S. mansoni and S. japonicum stay in mesenteric venules. Eggs pass through the bladder wall into urine, or through the bowel wall into stool, to complete the cycle. Eggs that stay trapped in tissue cause the disease.",
+        "whyNot": [
+          "Swallowed schistosome eggs are not infective to humans. They must hatch in water and pass through a snail first.",
+          "Larvae encysted on water plants (metacercariae) transmit Fasciola and Fasciolopsis, which are swallowed and do not penetrate skin.",
+          "Correct.",
+          "Biting flies transmit filarial worms such as Onchocerca volvulus. Schistosomes have no insect vector."
+        ],
+        "study": {
+          "topics": [
+            "Schistosoma life cycle",
+            "Schistosome species and venous sites"
+          ],
+          "comps": [
+            "HE-8",
+            "HE-9-E3"
+          ]
+        }
+      },
+      {
+        "id": "HE-C45-Q2",
+        "stem": "Which of the following findings on his white cell differential count is most likely, and which product of those cells helps damage the parasite?",
+        "options": [
+          "Neutrophilia, with myeloperoxidase-derived hypochlorous acid",
+          "Basophilia, with preformed histamine and heparin",
+          "Atypical lymphocytosis, with perforin and granzymes",
+          "Eosinophilia, with major basic protein"
+        ],
+        "answer": 3,
+        "sea": "P",
+        "comp": "HE-2",
+        "obj": "HE-2.6",
+        "dok": 2,
+        "approach": [
+          "Tissue-invading helminths drive a Th2 response with IL-5, which raises eosinophil production.",
+          "Helminths are far too large to be phagocytosed, so cells attack them from outside.",
+          "Eosinophils release major basic protein and other toxic granule proteins onto the worm surface."
+        ],
+        "why": "Each white cell type points to a different kind of illness. Neutrophilia fits acute bacterial infection, eosinophilia fits helminth infection or allergic disease, and lymphocytosis fits viral infection. Eosinophils are recruited by IL-5 and kill helminths by releasing granule contents such as major basic protein and eosinophil cationic protein. Basophils release histamine in allergic reactions, and monocytes become tissue macrophages. Around trapped schistosome eggs, eosinophils also join the granulomas that cause fibrosis.",
+        "whyNot": [
+          "Neutrophilia points to acute bacterial infection. Neutrophils kill ingested bacteria with myeloperoxidase but play little role against tissue helminths.",
+          "Basophils release histamine and heparin in allergic reactions. Basophilia is most typical of chronic myeloid leukemia.",
+          "Atypical lymphocytosis with cytotoxic T cells fits viral infection such as Epstein-Barr virus mononucleosis.",
+          "Correct."
+        ],
+        "study": {
+          "topics": [
+            "Leukocyte functions",
+            "Eosinophilia in helminth infection"
+          ],
+          "comps": [
+            "HE-2",
+            "HE-7"
+          ]
+        }
+      },
+      {
+        "id": "HE-C45-Q3",
+        "stem": "His uncle grew up in rural Upper Egypt and received a series of injections for schistosomiasis as a child, a mass treatment campaign that spread hepatitis C virus through reused needles. The uncle now has chronic hepatitis C, palpable purpura, arthralgias, hematuria with proteinuria, a low serum C4, and a serum protein that precipitates in the cold. His purpura and kidney injury result from which of the following types of hypersensitivity reaction?",
+        "options": [
+          "Type III, from deposited immune complexes",
+          "Type II, from antibodies against cell surface antigens",
+          "Type I, from IgE-armed mast cell degranulation",
+          "Type IV, from sensitized T cells releasing cytokines"
+        ],
+        "answer": 0,
+        "sea": "M",
+        "comp": "HE-7",
+        "obj": "HE-7.2",
+        "dok": 3,
+        "approach": [
+          "A protein that precipitates in the cold, with purpura and low complement in hepatitis C, is mixed cryoglobulinemia.",
+          "The cryoglobulins are complexes of IgM rheumatoid factor bound to polyclonal IgG, often carrying viral antigen.",
+          "Circulating complexes lodge in small vessels and glomeruli and activate complement, which defines a type III reaction."
+        ],
+        "why": "Mixed cryoglobulinemia is a type III reaction. Immune complexes deposit in small vessel walls and glomeruli, fix complement (lowering C4), and draw in neutrophils, causing palpable purpura and membranoproliferative glomerulonephritis. Hepatitis C is the most common cause. Type II reactions involve antibody binding to antigens on cells, as in acute hemolytic transfusion reactions, autoimmune hemolytic anemia, and hemolytic disease of the newborn. The Egyptian injection campaigns are a documented example of iatrogenic spread of hepatitis C.",
+        "whyNot": [
+          "Correct.",
+          "Type II reactions target fixed antigens on cells, as in autoimmune hemolysis or transfusion reactions. Cryoglobulins circulate as complexes first.",
+          "Type I reactions are immediate and IgE-mediated, as in anaphylaxis. They do not cause cold-precipitating proteins or low complement.",
+          "Type IV reactions are T cell-mediated and antibody-independent, as in contact dermatitis or the granulomas around schistosome eggs."
+        ],
+        "study": {
+          "topics": [
+            "Hypersensitivity types in hematologic disease",
+            "Cryoglobulinemia"
+          ],
+          "comps": [
+            "HE-7",
+            "HE-9-E3"
+          ]
+        }
+      },
+      {
+        "id": "HE-C45-Q4",
+        "stem": "Cystoscopy shows sandy, yellow patches in the bladder mucosa. Biopsy shows calcified eggs with terminal spines surrounded by granulomas in the bladder wall. If his infection goes untreated for many years, which of the following bladder neoplasms is he at greatest risk of developing?",
+        "options": [
+          "Papillary urothelial carcinoma",
+          "Squamous cell carcinoma",
+          "Urachal remnant adenocarcinoma",
+          "Small cell neuroendocrine carcinoma"
+        ],
+        "answer": 1,
+        "sea": "A",
+        "comp": "HE-9-E3",
+        "obj": "HE-9-E.4",
+        "dok": 3,
+        "approach": [
+          "S. haematobium adults lay eggs in the vesical venous plexus, and many eggs lodge in the bladder wall.",
+          "Granulomas and fibrosis around the eggs cause chronic irritation of the bladder lining.",
+          "The normal transitional epithelium (urothelium) undergoes squamous metaplasia, which can progress to squamous cell carcinoma."
+        ],
+        "why": "The bladder is normally lined by urothelium, a transitional epithelium that stretches as the bladder fills. Eggs that pass through the bladder wall cause bleeding and terminal hematuria, and eggs that stay trapped provoke granulomas, fibrosis, and calcification. Years of injury convert the urothelium to squamous epithelium, and squamous cell carcinoma can follow, so this tumor is common where S. haematobium is endemic. In S. mansoni infection, granulomas around eggs in the portal venules instead cause presinusoidal portal hypertension with periportal pipestem fibrosis.",
+        "whyNot": [
+          "Papillary urothelial carcinoma is the most common bladder cancer overall and is linked to smoking and aromatic amines. Chronic schistosomal injury favors squamous metaplasia instead.",
+          "Correct.",
+          "Urachal adenocarcinoma arises from the embryonic urachal remnant at the bladder dome and is not linked to schistosomiasis.",
+          "Small cell carcinoma of the bladder is rare and is not linked to chronic schistosomal irritation."
+        ],
+        "study": {
+          "topics": [
+            "Bladder complications of S. haematobium",
+            "Squamous metaplasia"
+          ],
+          "comps": [
+            "HE-9-E3"
+          ]
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,1562 @@
+[
+ {
+  "id": "NE-C51",
+  "system": "NE",
+  "dx": "Alobar holoprosencephaly in a newborn with trisomy 13",
+  "codes": [
+   "NE-1",
+   "NE-20-E"
+  ],
+  "case": "A male newborn is evaluated in the neonatal intensive care unit shortly after birth. He was born at 37 weeks' gestation to a 41-year-old woman who had no prenatal care. Physical examination shows microcephaly, closely spaced eyes, a single central nostril on a flattened nose, a midline cleft lip, postaxial polydactyly of both hands, and a scalp defect at the vertex. MRI of the brain shows a single midline forebrain ventricle with no interhemispheric fissure, fused thalami, and absent olfactory bulbs. Cytogenetic studies confirm trisomy 13. The diagnosis is alobar holoprosencephaly associated with trisomy 13.",
+  "questions": [
+   {
+    "id": "NE-C51-Q1",
+    "stem": "The brain malformation and the midline facial defects in this infant share a common developmental basis. The same malformation can also occur in a child with a normal karyotype. Which of the following single-gene defects is most likely in such a child?",
+    "options": [
+     "Activating mutation in FGFR3",
+     "Loss-of-function mutation in PAX3",
+     "Loss-of-function mutation in SHH",
+     "Loss-of-function mutation in NF1"
+    ],
+    "answer": 2,
+    "sea": "X",
+    "comp": "NE-1",
+    "obj": "NE-1.5",
+    "dok": 2,
+    "approach": [
+     "Link the forebrain that failed to divide with the midline face defects (close-set eyes, single nostril, cleft lip).",
+     "Recall the signal from the prechordal plate and notochord that patterns the ventral midline of both brain and face.",
+     "Pick the gene for that signal: sonic hedgehog."
+    ],
+    "why": "Sonic hedgehog (SHH) is released by the prechordal plate and notochord and patterns the ventral midline. It is needed for the prosencephalon to split into two cerebral hemispheres and for the midline face to form. Loss of SHH signaling gives holoprosencephaly with hypotelorism, cyclopia in the worst cases, a single nostril, and midline cleft lip. Trisomy 13 is the classic chromosomal cause, and SHH mutations are a classic single-gene cause.",
+    "whyNot": [
+     "Activating FGFR3 mutations cause achondroplasia, which affects endochondral bone growth and does not split the forebrain.",
+     "PAX3 loss causes Waardenburg syndrome, with pigment changes and deafness from neural crest defects, not a failure of forebrain division.",
+     "Correct.",
+     "NF1 loss causes neurofibromatosis type 1, with café-au-lait macules and neurofibromas, not a forebrain malformation."
+    ],
+    "study": {
+     "topics": [
+      "Holoprosencephaly and sonic hedgehog",
+      "Midline facial development"
+     ],
+     "comps": [
+      "NE-1",
+      "NE-20-E"
+     ]
+    }
+   },
+   {
+    "id": "NE-C51-Q2",
+    "stem": "The fused thalami fill the space where a midline ventricular cavity normally lies between them. From which of the following embryonic structures does this missing cavity normally develop?",
+    "options": [
+     "Lumen of the diencephalon",
+     "Lumen of the telencephalon",
+     "Lumen of the mesencephalon",
+     "Lumen of the metencephalon"
+    ],
+    "answer": 0,
+    "sea": "A",
+    "comp": "NE-1",
+    "obj": "NE-1.2",
+    "dok": 2,
+    "approach": [
+     "Name the cavity that normally lies between the two thalami: the third ventricle.",
+     "Recall that the thalami form from the walls of the diencephalon.",
+     "The lumen of each vesicle becomes the ventricle inside its adult structures, so the third ventricle comes from the diencephalon."
+    ],
+    "why": "The prosencephalon divides into the telencephalon and the diencephalon. The thalami and hypothalamus form from the walls of the diencephalon, and its lumen becomes the third ventricle. In alobar holoprosencephaly the thalami are fused, so the normal third ventricle between them is missing.",
+    "whyNot": [
+     "Correct.",
+     "The lumen of the telencephalon becomes the two lateral ventricles inside the cerebral hemispheres.",
+     "The lumen of the mesencephalon becomes the cerebral aqueduct of the midbrain.",
+     "The lumen of the metencephalon becomes the upper part of the fourth ventricle, beneath the pons and cerebellum."
+    ],
+    "study": {
+     "topics": [
+      "Brain vesicles and their ventricles"
+     ],
+     "comps": [
+      "NE-1",
+      "NE-10"
+     ]
+    }
+   },
+   {
+    "id": "NE-C51-Q3",
+    "stem": "If this infant survives, the absence of the olfactory bulbs will leave one group of first-order sensory neurons without their central target. Which of the following best describes these neurons?",
+    "options": [
+     "Pseudounipolar neurons in the CN VII geniculate ganglion",
+     "Bipolar neurons of the spiral ganglion",
+     "Pseudounipolar neurons in the inferior CN IX ganglion",
+     "Bipolar neurons with axons crossing the cribriform plate"
+    ],
+    "answer": 3,
+    "sea": "A",
+    "comp": "NE-6",
+    "obj": "NE-6.7",
+    "dok": 2,
+    "approach": [
+     "Recall what synapses in the olfactory bulb: the axons of olfactory receptor neurons.",
+     "Recall where those neurons sit and how their axons reach the bulb: bipolar cells in the nasal epithelium whose axons pass through the cribriform plate.",
+     "Rule out the taste and hearing neurons, which project to brainstem nuclei."
+    ],
+    "why": "Olfactory receptor neurons are bipolar cells in the olfactory epithelium of the nasal roof. Their thin axons form CN I, pass through the cribriform plate of the ethmoid bone, and synapse in the olfactory bulb. From the bulb, the olfactory tract reaches olfactory cortex without a thalamic relay. With no bulbs, these axons have nowhere to synapse, so smell is lost.",
+    "whyNot": [
+     "Geniculate ganglion neurons carry taste from the anterior two thirds of the tongue (CN VII) to the nucleus solitarius, which is not affected here.",
+     "Spiral ganglion neurons carry hearing to the cochlear nuclei in the brainstem.",
+     "Inferior glossopharyngeal ganglion neurons carry taste from the posterior third of the tongue to the nucleus solitarius.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Olfactory pathway",
+      "Taste pathways"
+     ],
+     "comps": [
+      "NE-6"
+     ]
+    }
+   },
+   {
+    "id": "NE-C51-Q4",
+    "stem": "The infant's maternal aunt has a 6-year-old daughter with Down syndrome. The daughter's karyotype shows 46 chromosomes, including two normal chromosomes 21 and one chromosome formed by fusion of the long arms of chromosomes 14 and 21. Which of the following best explains why this finding changes the recurrence risk for the aunt's future pregnancies?",
+    "options": [
+     "The error arose in a mitosis after fertilization",
+     "A parent may be a balanced translocation carrier",
+     "The error arose during maternal meiosis I",
+     "The risk now depends mainly on maternal age"
+    ],
+    "answer": 1,
+    "sea": "B",
+    "comp": "NE-16",
+    "obj": "NE-16.2",
+    "dok": 3,
+    "approach": [
+     "Recognize a Robertsonian translocation: 46 chromosomes, but three copies of chromosome 21 material.",
+     "Recall that this form can be inherited from a parent who carries a balanced version with 45 chromosomes.",
+     "Contrast it with nondisjunction, which is usually a new event tied to maternal age."
+    ],
+    "why": "About 95% of Down syndrome cases come from nondisjunction, usually in maternal meiosis. That is a new event whose risk rises with maternal age and rarely recurs. In a Robertsonian translocation, the extra chromosome 21 long arm is fused to another acrocentric chromosome, most often 14, so the count is 46. One parent may carry a balanced form (45 chromosomes, healthy) and can pass the unbalanced form to more children, so both parents should be karyotyped. Mosaicism, the third mechanism, comes from a mitotic error after fertilization. Trisomy 13, as in this infant, arises by the same three mechanisms.",
+    "whyNot": [
+     "A mitotic error after fertilization gives mosaicism, with a mix of normal and trisomic cells, and is not inherited from a parent.",
+     "Correct.",
+     "Maternal meiosis I nondisjunction gives 47 chromosomes with a free extra chromosome 21 and has a low recurrence risk.",
+     "Maternal age drives nondisjunction trisomies, not translocation trisomies, which depend on whether a parent is a carrier."
+    ],
+    "study": {
+     "topics": [
+      "Robertsonian translocation",
+      "Mechanisms of Down syndrome"
+     ],
+     "comps": [
+      "NE-16",
+      "NE-20-E1"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "NE-C52",
+  "system": "NE",
+  "dx": "Idiopathic REM sleep behavior disorder as a prodromal synucleinopathy",
+  "codes": [
+   "NE-20-B3"
+  ],
+  "case": "A 66-year-old man comes to the physician with his wife because he has been acting out his dreams for 4 years. She reports that during the second half of the night he shouts, punches, and kicks, and that he once fell out of bed and cut his forehead. When awakened, he recalls dreams of being attacked. He has had constipation for 8 years and has noticed a reduced sense of smell. He takes no medications. Neurologic examination shows no tremor, rigidity, bradykinesia, or cognitive deficits. Video polysomnography is performed, and idiopathic REM sleep behavior disorder is diagnosed. He is told that this disorder often precedes a synucleinopathy.",
+  "questions": [
+   {
+    "id": "NE-C52-Q1",
+    "stem": "Which of the following polysomnographic findings during his episodes most likely confirmed the diagnosis?",
+    "options": [
+     "Arousals from N3 sleep with high-amplitude delta waves",
+     "Periodic limb movements during N2 sleep",
+     "Generalized 3 Hz spike-and-wave discharges",
+     "Sustained chin EMG tone during REM sleep"
+    ],
+    "answer": 3,
+    "sea": "P",
+    "comp": "NE-12",
+    "obj": "NE-12.5",
+    "dok": 2,
+    "approach": [
+     "Note that his events are dream enactment late in the night, when REM sleep is most abundant.",
+     "Recall that normal REM sleep has near-total skeletal muscle atonia.",
+     "The diagnostic finding is REM sleep with retained muscle tone."
+    ],
+    "why": "In normal REM sleep, a pontine region next to the locus coeruleus activates medullary neurons that inhibit spinal motor neurons with glycine and GABA, so skeletal muscles are nearly atonic. In REM sleep behavior disorder this circuit fails, so the chin EMG keeps its tone and the limbs move during dreams. REM periods lengthen toward morning, which is why the events cluster in the second half of the night. Idiopathic REM sleep behavior disorder often comes years before Parkinson disease, dementia with Lewy bodies, or multiple system atrophy.",
+    "whyNot": [
+     "Arousals from N3 delta sleep cause sleepwalking and sleep terrors, which occur early in the night, mostly in children, and without dream recall.",
+     "Periodic limb movements during non-REM sleep go with restless legs syndrome, not with complex dream enactment.",
+     "Generalized 3 Hz spike-and-wave discharges define absence seizures.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "REM sleep atonia",
+      "Parasomnias"
+     ],
+     "comps": [
+      "NE-12",
+      "NE-20-B3"
+     ]
+    }
+   },
+   {
+    "id": "NE-C52-Q2",
+    "stem": "Seven years later, he develops a rest tremor and bradykinesia and begins treatment with levodopa combined with carbidopa. Carbidopa increases the amount of levodopa that reaches the brain. Which of the following enzymes does carbidopa inhibit outside the central nervous system?",
+    "options": [
+     "Tyrosine hydroxylase",
+     "Aromatic L-amino acid decarboxylase",
+     "Dopamine beta-hydroxylase",
+     "Phenylethanolamine N-methyltransferase"
+    ],
+    "answer": 1,
+    "sea": "B",
+    "comp": "NE-15",
+    "obj": "NE-15.1",
+    "dok": 2,
+    "approach": [
+     "Place levodopa in the catecholamine pathway: it is L-DOPA, the product of tyrosine hydroxylase.",
+     "Identify the next step, which turns L-DOPA into dopamine.",
+     "Carbidopa blocks that step in peripheral tissues so more levodopa crosses into the brain."
+    ],
+    "why": "Catecholamines are made in this order: tyrosine to L-DOPA by tyrosine hydroxylase (rate limiting), L-DOPA to dopamine by aromatic L-amino acid decarboxylase (DOPA decarboxylase), dopamine to norepinephrine by dopamine beta-hydroxylase (needs vitamin C), and norepinephrine to epinephrine by PNMT (induced by cortisol). Dopamine cannot cross the blood-brain barrier, but levodopa can. Carbidopa inhibits the decarboxylase outside the brain and does not cross the barrier itself, so more levodopa reaches the brain and peripheral side effects such as nausea fall.",
+    "whyNot": [
+     "Tyrosine hydroxylase makes L-DOPA from tyrosine. Levodopa bypasses this step, so inhibiting it would not help.",
+     "Correct.",
+     "Dopamine beta-hydroxylase converts dopamine to norepinephrine inside vesicles and is not the target of carbidopa.",
+     "PNMT converts norepinephrine to epinephrine, mostly in the adrenal medulla, and is not the target of carbidopa."
+    ],
+    "study": {
+     "topics": [
+      "Catecholamine synthesis",
+      "Levodopa and carbidopa"
+     ],
+     "comps": [
+      "NE-15",
+      "NE-20-B3"
+     ]
+    }
+   },
+   {
+    "id": "NE-C52-Q3",
+    "stem": "He dies of pneumonia at the age of 78 years. At autopsy, Lewy bodies and neuronal loss are found in a pigmented nucleus in the rostral pons beneath the floor of the fourth ventricle. Loss of these neurons most directly reduces which of the following neurotransmitters in the cerebral cortex?",
+    "options": [
+     "Norepinephrine",
+     "Dopamine",
+     "Serotonin",
+     "Gamma-aminobutyric acid"
+    ],
+    "answer": 0,
+    "sea": "B",
+    "comp": "NE-15",
+    "obj": "NE-15.6",
+    "dok": 2,
+    "approach": [
+     "Identify the pigmented nucleus in the dorsal rostral pons near the fourth ventricle: the locus coeruleus.",
+     "Recall its transmitter and projections: norepinephrine to the whole cortex.",
+     "Separate it from the other pigmented nucleus, the substantia nigra, which lies in the midbrain."
+    ],
+    "why": "The locus coeruleus is a small, neuromelanin-pigmented nucleus in the dorsal rostral pons, under the floor of the fourth ventricle. It is the main source of norepinephrine for the cortex, and it supports arousal and attention. It degenerates early in synucleinopathies, along with nearby brainstem regions linked to REM sleep behavior disorder.",
+    "whyNot": [
+     "Correct.",
+     "Dopamine comes from the substantia nigra pars compacta and the ventral tegmental area, both in the midbrain.",
+     "Serotonin comes from the raphe nuclei along the brainstem midline, which are not pigmented.",
+     "GABA is released mostly by local interneurons and by striatal and cerebellar projection neurons, not by a pigmented pontine nucleus."
+    ],
+    "study": {
+     "topics": [
+      "Brainstem monoamine nuclei"
+     ],
+     "comps": [
+      "NE-15",
+      "NE-12"
+     ]
+    }
+   },
+   {
+    "id": "NE-C52-Q4",
+    "stem": "At the age of 73 years, he develops fluctuating attention and recurrent, well-formed visual hallucinations, and dementia with Lewy bodies is diagnosed. Which of the following findings, had it appeared early in his course, would most strongly suggest progressive supranuclear palsy instead?",
+    "options": [
+     "Loss of the sense of smell",
+     "Daily fluctuations in alertness",
+     "Impaired voluntary downward gaze",
+     "Orthostatic hypotension with syncope"
+    ],
+    "answer": 2,
+    "sea": "X",
+    "comp": "NE-20-B3",
+    "obj": "NE-20-B.10",
+    "dok": 3,
+    "approach": [
+     "Group the features of dementia with Lewy bodies: hallucinations, fluctuations, parkinsonism, REM sleep behavior disorder, loss of smell, autonomic failure.",
+     "Recall the defining signs of progressive supranuclear palsy: vertical gaze palsy and early backward falls.",
+     "Pick the finding that belongs to the tauopathy, not to the synucleinopathies."
+    ],
+    "why": "Progressive supranuclear palsy is a tauopathy that damages the midbrain and other brainstem and basal ganglia regions. Its hallmarks are a supranuclear vertical gaze palsy (downward gaze is often affected first), early backward falls, and axial rigidity. Dementia with Lewy bodies is an alpha-synucleinopathy with cortical Lewy bodies, visual hallucinations, fluctuating cognition, and parkinsonism. Frontotemporal dementia instead begins with personality change and has tau or TDP-43 inclusions.",
+    "whyNot": [
+     "Loss of smell is an early feature of the synucleinopathies (Parkinson disease and dementia with Lewy bodies).",
+     "Fluctuations in alertness are a core feature of dementia with Lewy bodies.",
+     "Correct.",
+     "Autonomic failure with orthostatic hypotension points to a synucleinopathy, especially multiple system atrophy or Lewy body disease."
+    ],
+    "study": {
+     "topics": [
+      "Dementia with Lewy bodies",
+      "Progressive supranuclear palsy"
+     ],
+     "comps": [
+      "NE-20-B3",
+      "NE-20-B1"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "NE-C53",
+  "system": "NE",
+  "dx": "Thyrotoxic hypokalemic periodic paralysis",
+  "codes": [
+   "NE-13"
+  ],
+  "case": "A 27-year-old man is brought to the emergency department because he awoke unable to stand. The previous evening he played basketball for 2 hours and then ate a large rice and pasta dinner. Over 3 months he has had a 6-kg (13-lb) weight loss, palpitations, and heat intolerance. Temperature is 37.2 °C (99.0 °F), pulse is 118/min, respirations are 16/min, and blood pressure is 142/70 mm Hg. Physical examination shows a fine tremor, a diffusely enlarged thyroid gland, and symmetric flaccid weakness of the proximal arms and legs with reduced deep tendon reflexes. Sensation is normal. Serum potassium is 1.9 mEq/L (reference 3.5 to 5.0 mEq/L), TSH is less than 0.01 μU/mL (reference 0.4 to 4.0 μU/mL), and free T4 is elevated. The diagnosis is thyrotoxic hypokalemic periodic paralysis.",
+  "questions": [
+   {
+    "id": "NE-C53-Q1",
+    "stem": "His urine potassium excretion is low. After a small dose of potassium chloride, his serum potassium returns to normal within hours as his strength recovers. Which of the following best explains his hypokalemia?",
+    "options": [
+     "Shift of potassium into cells by Na+/K+-ATPase",
+     "Renal potassium wasting from aldosterone excess",
+     "Gastrointestinal loss of potassium-rich fluid",
+     "Depletion of total body potassium stores"
+    ],
+    "answer": 0,
+    "sea": "P",
+    "comp": "NE-13",
+    "obj": "NE-13.7",
+    "dok": 3,
+    "approach": [
+     "Use the clues: low urine potassium rules out renal loss, and quick recovery with a small dose means total body potassium is not depleted.",
+     "That leaves a shift of potassium from blood into cells.",
+     "Link the triggers: thyroid hormone, insulin after a carbohydrate meal, and catecholamines all stimulate the Na+/K+-ATPase."
+    ],
+    "why": "Hypokalemic periodic paralysis is a skeletal muscle ion channelopathy. The familial form is inherited, and the thyrotoxic form appears in people with an underlying channel susceptibility when thyroid hormone is high. Attacks of flaccid weakness come with low serum potassium, often after a carbohydrate-rich meal or rest after exercise. In the thyrotoxic form, thyroid hormone increases Na+/K+-ATPase activity, and insulin and catecholamines push it further, so potassium moves into cells. Total body potassium is normal, which is why a small dose corrects it and large doses risk rebound hyperkalemia.",
+    "whyNot": [
+     "Correct.",
+     "Aldosterone excess wastes potassium in the urine, so urine potassium would be high, and the low level would not correct with a small dose.",
+     "Diarrhea or vomiting would deplete total body potassium and would be in the history.",
+     "True depletion would need much more potassium to correct and would not resolve within hours after a small dose."
+    ],
+    "study": {
+     "topics": [
+      "Hypokalemic periodic paralysis",
+      "Internal potassium balance"
+     ],
+     "comps": [
+      "NE-13"
+     ]
+    }
+   },
+   {
+    "id": "NE-C53-Q2",
+    "stem": "A normal neuron has intracellular potassium of 140 mEq/L and extracellular potassium of 4.5 mEq/L, giving a potassium equilibrium potential of about -92 mV at body temperature. Which of the following is the predicted potassium equilibrium potential when extracellular potassium falls to this patient's value?",
+    "options": [
+     "About -130 mV",
+     "About -115 mV",
+     "About -92 mV",
+     "About -70 mV"
+    ],
+    "answer": 1,
+    "sea": "P",
+    "comp": "NE-13",
+    "obj": "NE-13.1",
+    "dok": 3,
+    "approach": [
+     "Write the Nernst equation at 37 °C (98.6 °F): E(K) = 61.5 mV x log (outside / inside).",
+     "Plug in 1.9 / 140: the log is about -1.87, so E(K) is about -115 mV.",
+     "Note the direction: a lower outside potassium makes E(K) more negative, which hyperpolarizes the resting membrane."
+    ],
+    "why": "The resting membrane potential depends mostly on potassium leak channels, while the Na+/K+-ATPase maintains the gradients. By the Nernst equation, dropping outside potassium from 4.5 to 1.9 mEq/L moves E(K) from about -92 to about -115 mV. In a normal neuron this hyperpolarizes the membrane, moves it farther from threshold, and reduces excitability. In the muscle of patients with periodic paralysis, abnormal channels let some fibers depolarize paradoxically instead, which inactivates their sodium channels and leaves them unable to fire.",
+    "whyNot": [
+     "About -130 mV would need extracellular potassium near 1 mEq/L.",
+     "Correct.",
+     "About -92 mV is the normal value, and it would change whenever extracellular potassium changes.",
+     "About -70 mV would need extracellular potassium near 10 mEq/L, as in severe hyperkalemia."
+    ],
+    "study": {
+     "topics": [
+      "Nernst equation",
+      "Potassium and excitability"
+     ],
+     "comps": [
+      "NE-13"
+     ]
+    }
+   },
+   {
+    "id": "NE-C53-Q3",
+    "stem": "His limb muscles are paralyzed, yet his heart rate remains fast. Which of the following best describes how the motor pathway to his quadriceps differs from the sympathetic pathway that accelerates his heart?",
+    "options": [
+     "Its cell bodies lie in the lateral gray horn",
+     "Its final neuron releases norepinephrine",
+     "Its target receptor is G protein-coupled",
+     "It has no synapse in a peripheral ganglion"
+    ],
+    "answer": 3,
+    "sea": "A",
+    "comp": "NE-7",
+    "obj": "NE-7.3",
+    "dok": 2,
+    "approach": [
+     "Lay out the somatic pathway: one ventral horn motor neuron runs straight to the muscle and releases acetylcholine onto nicotinic receptors.",
+     "Lay out the sympathetic pathway to the heart: a lateral horn preganglionic neuron, a ganglionic synapse, then a postganglionic neuron releasing norepinephrine on beta1 receptors.",
+     "The key structural difference is the ganglion."
+    ],
+    "why": "Somatic motor output uses one neuron from the ventral horn to skeletal muscle, where acetylcholine opens nicotinic ligand-gated channels. Visceral motor output uses two neurons: a preganglionic neuron in the CNS and a postganglionic neuron in a peripheral ganglion. For the heart, sympathetic postganglionic fibers release norepinephrine on beta1 receptors, which are G protein-coupled. His heart still responds because his problem lies in skeletal muscle excitability.",
+    "whyNot": [
+     "The lateral gray horn (T1 to L2) holds sympathetic preganglionic neurons. Somatic motor neurons sit in the ventral horn.",
+     "Norepinephrine is released by the sympathetic postganglionic neuron to the heart. Somatic motor neurons release acetylcholine.",
+     "Skeletal muscle uses nicotinic receptors, which are ion channels. The heart uses G protein-coupled beta1 receptors.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Somatic versus autonomic motor pathways"
+     ],
+     "comps": [
+      "NE-7",
+      "NE-9"
+     ]
+    }
+   },
+   {
+    "id": "NE-C53-Q4",
+    "stem": "His weakness is flaccid with reduced reflexes and no fasciculations or muscle atrophy. Which of the following sets of findings would be expected if his weakness had instead resulted from a chronic bilateral lesion of the corticospinal tracts?",
+    "options": [
+     "Flaccid tone, areflexia, and fasciculations",
+     "Atrophy, fasciculations, and flexor plantar responses",
+     "Spasticity, hyperreflexia, and Babinski signs",
+     "Normal tone, normal reflexes, and fatigability"
+    ],
+    "answer": 2,
+    "sea": "X",
+    "comp": "NE-7",
+    "obj": "NE-7.2",
+    "dok": 2,
+    "approach": [
+     "Recognize the corticospinal tract as an upper motor neuron pathway.",
+     "Recall the chronic upper motor neuron signs: increased tone, brisk reflexes, extensor plantar response.",
+     "Set them against lower motor neuron signs: flaccidity, areflexia, atrophy, fasciculations."
+    ],
+    "why": "Upper motor neuron lesions remove descending inhibition of spinal reflex circuits. Over time this gives spasticity, hyperreflexia, and a Babinski sign, with little atrophy beyond disuse. Lower motor neuron lesions give flaccid weakness, reduced reflexes, fasciculations, and marked atrophy, as in poliomyelitis and spinal muscular atrophy. ALS mixes both sets of signs.",
+    "whyNot": [
+     "Flaccidity, areflexia, and fasciculations are lower motor neuron signs.",
+     "Atrophy and fasciculations are lower motor neuron signs, and a flexor plantar response is normal.",
+     "Correct.",
+     "Normal tone and reflexes with fatigable weakness suggest a neuromuscular junction disorder such as myasthenia gravis."
+    ],
+    "study": {
+     "topics": [
+      "Upper versus lower motor neuron signs"
+     ],
+     "comps": [
+      "NE-7",
+      "NE-20-B2"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "NE-C54",
+  "system": "NE",
+  "dx": "Lead encephalopathy in a toddler exposed to old house paint",
+  "codes": [
+   "NE-14"
+  ],
+  "case": "A 2-year-old boy is brought to the emergency department after a generalized seizure. For 3 weeks he has been irritable, has vomited off and on, and has become unsteady when walking. The family lives in a house built in 1925 that is being renovated, and his parents have seen him chewing paint chips from a windowsill. Temperature is 37.0 °C (98.6 °F), pulse is 84/min, respirations are 20/min, and blood pressure is 118/76 mm Hg. Physical examination shows drowsiness, and funduscopic examination shows bilateral papilledema. Hemoglobin is 8.9 g/dL (reference 11.0 to 14.0 g/dL), MCV is 64 fL (reference 70 to 86 fL), and a blood smear shows basophilic stippling. Blood lead level is 96 μg/dL (CDC reference value 3.5 μg/dL). CT of the head shows diffuse cerebral edema. The diagnosis is lead encephalopathy.",
+  "questions": [
+   {
+    "id": "NE-C54-Q1",
+    "stem": "Which of the following laboratory findings most directly reflects lead inhibition of the final step of heme synthesis?",
+    "options": [
+     "Markedly increased urine porphobilinogen",
+     "Decreased urine aminolevulinic acid",
+     "Elevated erythrocyte zinc protoporphyrin",
+     "Decreased erythrocyte free protoporphyrin"
+    ],
+    "answer": 2,
+    "sea": "B",
+    "comp": "NE-14",
+    "obj": "NE-14.7",
+    "dok": 2,
+    "approach": [
+     "Name the final step of heme synthesis: ferrochelatase inserts iron into protoporphyrin IX.",
+     "Predict what builds up when it is blocked: protoporphyrin, which takes up zinc instead of iron.",
+     "Remember the second lead target, ALA dehydratase, which raises ALA rather than lowering it."
+    ],
+    "why": "Lead inhibits two heme enzymes. Blocking ferrochelatase leaves protoporphyrin in red cells, where zinc is inserted in place of iron, so zinc protoporphyrin rises. Blocking ALA dehydratase makes aminolevulinic acid build up and spill into the urine. The result is a microcytic anemia with basophilic stippling. In children, lead also injures brain capillaries and causes encephalopathy with cerebral edema.",
+    "whyNot": [
+     "Porphobilinogen is made by ALA dehydratase, which lead inhibits, so it does not rise markedly. A large rise suggests acute intermittent porphyria.",
+     "Urine ALA increases in lead poisoning because ALA dehydratase is blocked.",
+     "Correct.",
+     "Free and zinc protoporphyrin both increase when ferrochelatase is blocked."
+    ],
+    "study": {
+     "topics": [
+      "Heme synthesis",
+      "Lead poisoning"
+     ],
+     "comps": [
+      "NE-14"
+     ]
+    }
+   },
+   {
+    "id": "NE-C54-Q2",
+    "stem": "Lead damages brain capillaries, allowing water and plasma proteins to leak into the brain. Which of the following structures normally forms the main barrier that this injury has breached?",
+    "options": [
+     "Astrocyte foot processes on the capillary wall",
+     "Tight junctions of choroid plexus epithelium",
+     "Fenestrations in the capillary endothelium",
+     "Tight junctions between endothelial cells"
+    ],
+    "answer": 3,
+    "sea": "P",
+    "comp": "NE-4",
+    "obj": "NE-4.4",
+    "dok": 2,
+    "approach": [
+     "Classify the edema: plasma leaking from capillaries is vasogenic edema, a breach of the blood-brain barrier.",
+     "List the parts of that barrier: endothelial tight junctions, basement membrane, astrocyte foot processes.",
+     "Pick the part that actually seals the space between cells."
+    ],
+    "why": "The blood-brain barrier is formed mainly by brain capillary endothelial cells joined by tight junctions, with no fenestrations and little vesicle transport. The basement membrane and astrocyte foot processes support and help maintain the barrier, but the tight junctions do the sealing. Lead injures these endothelial cells, so plasma leaks into the brain. Circumventricular organs such as the area postrema and posterior pituitary have fenestrated capillaries and no barrier.",
+    "whyNot": [
+     "Astrocyte foot processes cover the capillaries and help induce the barrier, but they leave gaps and do not form the seal.",
+     "Choroid plexus epithelial tight junctions form the blood-CSF barrier, not the barrier in brain capillaries.",
+     "Normal brain capillaries lack fenestrations. Fenestrated capillaries are found in circumventricular organs.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Blood-brain barrier",
+      "Vasogenic edema"
+     ],
+     "comps": [
+      "NE-4",
+      "NE-20-C1"
+     ]
+    }
+   },
+   {
+    "id": "NE-C54-Q3",
+    "stem": "He survives with cognitive deficits. MRI 1 year later shows atrophy and scarring in areas of previous cortical injury. Which of the following cell types is mainly responsible for forming this scar?",
+    "options": [
+     "Astrocytes",
+     "Microglia",
+     "Oligodendrocytes",
+     "Ependymal cells"
+    ],
+    "answer": 0,
+    "sea": "A",
+    "comp": "NE-2",
+    "obj": "NE-2.4",
+    "dok": 2,
+    "approach": [
+     "Recall that the CNS heals without a fibroblast collagen scar.",
+     "Identify the cell that proliferates and fills injured tissue with GFAP-rich processes.",
+     "That process is gliosis, carried out by reactive astrocytes."
+    ],
+    "why": "After CNS injury, astrocytes become reactive. They enlarge, divide, increase their GFAP intermediate filaments, and form a glial scar. Astrocytes also support the blood-brain barrier and buffer extracellular potassium. Microglia, the resident CNS macrophages, clear debris in the early phase but do not form the long-term scar.",
+    "whyNot": [
+     "Correct.",
+     "Microglia are resident macrophages that clear debris and form multinucleated giant cells in HIV infection. They do not form the lasting scar.",
+     "Oligodendrocytes make CNS myelin and do not form scars.",
+     "Ependymal cells line the ventricles and central canal and do not fill cortical injuries."
+    ],
+    "study": {
+     "topics": [
+      "Glial cell functions",
+      "Gliosis"
+     ],
+     "comps": [
+      "NE-2"
+     ]
+    }
+   },
+   {
+    "id": "NE-C54-Q4",
+    "stem": "A 26-year-old woman seen in the same hospital has severe abdominal pain, weakness of both arms, and anxiety. Her symptoms began after she started carbamazepine and fasted for several days. Her blood lead level is normal, and her urine porphobilinogen is markedly elevated. Which of the following best explains how the medication and fasting triggered her attack?",
+    "options": [
+     "Inhibition of hepatic ferrochelatase",
+     "Induction of hepatic ALA synthase",
+     "Inhibition of ALA dehydratase",
+     "Increased porphobilinogen deaminase activity"
+    ],
+    "answer": 1,
+    "sea": "B",
+    "comp": "NE-20-E",
+    "obj": "NE-20-E.9",
+    "dok": 3,
+    "approach": [
+     "Recognize acute intermittent porphyria: abdominal pain, neuropathy, psychiatric symptoms, high urine porphobilinogen.",
+     "Recall the defect: half-normal porphobilinogen deaminase, which is usually enough.",
+     "Explain triggers: enzyme inducers and fasting increase hepatic ALA synthase, sending more substrate into the partial block."
+    ],
+    "why": "Acute intermittent porphyria is an autosomal dominant partial deficiency of porphobilinogen deaminase. Most of the time the remaining enzyme keeps up. Cytochrome P450 inducers such as carbamazepine use up hepatic heme, which removes heme's repression of ALA synthase, and fasting also increases ALA synthase. More ALA and porphobilinogen are made than the weak enzyme can handle, and they build up and injure nerves. Glucose and hemin treat attacks by turning ALA synthase back down.",
+    "whyNot": [
+     "Ferrochelatase is blocked by lead, which this patient does not have, and blocking it would not raise porphobilinogen.",
+     "Correct.",
+     "Lead inhibits ALA dehydratase, which lowers porphobilinogen formation rather than raising it.",
+     "More porphobilinogen deaminase activity would clear porphobilinogen. The disease is a deficiency of this enzyme."
+    ],
+    "study": {
+     "topics": [
+      "Acute intermittent porphyria triggers"
+     ],
+     "comps": [
+      "NE-20-E",
+      "NE-14"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "NE-C55",
+  "system": "NE",
+  "dx": "Sturge-Weber syndrome with focal seizures",
+  "codes": [
+   "NE-16"
+  ],
+  "case": "A 4-year-old girl is brought to the physician because of recurrent seizures that began at the age of 9 months. Since birth she has had a flat, dark red patch over the left forehead and upper eyelid. Her parents and two siblings are healthy. Physical examination shows the facial lesion, an enlarged left cornea, and mild weakness of the right hand. Intraocular pressure is 29 mm Hg in the left eye and 15 mm Hg in the right eye (reference 10 to 21 mm Hg). MRI of the brain shows enhancing leptomeningeal vessels over the left frontal and parietal lobes with cortical atrophy and calcification beneath them. The diagnosis is Sturge-Weber syndrome.",
+  "questions": [
+   {
+    "id": "NE-C55-Q1",
+    "stem": "Sequencing of DNA from the facial lesion shows an activating mutation in GNAQ, but no mutation is found in DNA from her blood leukocytes. Which of the following best explains this pattern?",
+    "options": [
+     "Autosomal dominant mutation with reduced penetrance",
+     "Autosomal recessive inheritance from carrier parents",
+     "Loss of heterozygosity in a tumor suppressor gene",
+     "Postzygotic mutation in an embryonic cell lineage"
+    ],
+    "answer": 3,
+    "sea": "B",
+    "comp": "NE-16",
+    "obj": "NE-16.4",
+    "dok": 3,
+    "approach": [
+     "Notice the mutation is present in the lesion but absent from blood, so it is not in every cell.",
+     "That means it arose after fertilization in one embryonic cell and its descendants (somatic mosaicism).",
+     "Apply it: such a mutation is not inherited from the parents."
+    ],
+    "why": "Sturge-Weber syndrome is sporadic. It is caused by a somatic activating mutation in GNAQ, a G protein alpha subunit, that arises after fertilization in an early progenitor cell. Only cells descended from that progenitor carry it, which gives the port-wine stain in the CN V1 area, the ipsilateral leptomeningeal angioma, and the eye vessel changes that lead to glaucoma. Her siblings and parents are not at increased risk.",
+    "whyNot": [
+     "An inherited dominant mutation would be in every cell, including blood leukocytes.",
+     "Recessive inheritance would need two mutant copies in every cell, and GNAQ here is an activating mutation in some cells only.",
+     "Loss of heterozygosity describes a second hit in a tumor suppressor gene. GNAQ here is gain of function.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Somatic mosaicism",
+      "Sturge-Weber syndrome"
+     ],
+     "comps": [
+      "NE-16"
+     ]
+    }
+   },
+   {
+    "id": "NE-C55-Q2",
+    "stem": "During a typical episode, her right hand and then her right arm jerk rhythmically for about 1 minute. Throughout the episode she watches her mother, answers questions, and afterward describes what happened. Which of the following best classifies these seizures?",
+    "options": [
+     "Generalized absence seizures",
+     "Focal impaired awareness seizures",
+     "Focal aware motor seizures",
+     "Generalized tonic-clonic seizures"
+    ],
+    "answer": 2,
+    "sea": "P",
+    "comp": "NE-13",
+    "obj": "NE-13.6",
+    "dok": 2,
+    "approach": [
+     "Decide onset: jerking that starts in one hand and spreads up the arm comes from one hemisphere, so it is focal.",
+     "Decide awareness: she responds and remembers the event, so awareness is kept.",
+     "Combine: focal aware seizure with motor signs."
+    ],
+    "why": "Seizures come from excess synchronous firing when excitation outweighs inhibition. Focal seizures start in one hemisphere and are classified by whether awareness is kept. Hers start in one hand, spread along the arm, and leave her responsive with full memory, so they are focal aware motor seizures. In Sturge-Weber syndrome, the cortex under the angioma is damaged by poor venous drainage and becomes epileptogenic.",
+    "whyNot": [
+     "Absence seizures cause brief staring with loss of awareness and 3 Hz spike-and-wave discharges, without one-sided jerking.",
+     "A focal impaired awareness seizure would leave her unresponsive with no memory of the event.",
+     "Correct.",
+     "A generalized tonic-clonic seizure involves both sides from the start and causes loss of consciousness."
+    ],
+    "study": {
+     "topics": [
+      "Seizure classification"
+     ],
+     "comps": [
+      "NE-13",
+      "NE-20-F"
+     ]
+    }
+   },
+   {
+    "id": "NE-C55-Q3",
+    "stem": "Gonioscopy of the left eye shows an open anterior chamber angle with abnormal angle structures. If her intraocular pressure remains elevated, which of the following changes is most likely to develop in the left eye?",
+    "options": [
+     "Optic disc swelling with an enlarged blind spot",
+     "Optic disc cupping with peripheral field loss",
+     "Macular drusen with central field loss",
+     "Lens opacity with glare and blurred vision"
+    ],
+    "answer": 1,
+    "sea": "X",
+    "comp": "NE-20-J4",
+    "obj": "NE-20-J.4",
+    "dok": 2,
+    "approach": [
+     "Recognize glaucoma from high intraocular pressure in the eye on the same side as the facial stain.",
+     "Recall that glaucoma is an optic neuropathy: ganglion cell axons die at the optic disc.",
+     "Predict the result: an enlarging cup and loss of peripheral vision first."
+    ],
+    "why": "Glaucoma is damage to the optic nerve, usually with high intraocular pressure. Pressure injures ganglion cell axons as they leave the eye, so the optic cup enlarges and the rim thins. Peripheral vision fails first, and central vision is lost late. Open-angle glaucoma from poor outflow is painless, while acute angle closure causes a painful red eye. In Sturge-Weber syndrome, pressure rises from abnormal angle development and high episcleral venous pressure.",
+    "whyNot": [
+     "Optic disc swelling with an enlarged blind spot is papilledema from raised intracranial pressure, usually in both eyes.",
+     "Correct.",
+     "Drusen with central vision loss describe age-related macular degeneration.",
+     "Lens opacity with glare describes a cataract."
+    ],
+    "study": {
+     "topics": [
+      "Glaucoma as optic neuropathy"
+     ],
+     "comps": [
+      "NE-20-J4",
+      "NE-6"
+     ]
+    }
+   },
+   {
+    "id": "NE-C55-Q4",
+    "stem": "Her seizures always begin with jerking of the right hand. In which of the following cortical regions do her seizures most likely begin?",
+    "options": [
+     "Left precentral gyrus",
+     "Left postcentral gyrus",
+     "Right precentral gyrus",
+     "Left inferior frontal gyrus"
+    ],
+    "answer": 0,
+    "sea": "A",
+    "comp": "NE-3",
+    "obj": "NE-3.1",
+    "dok": 2,
+    "approach": [
+     "Identify the symptom type: involuntary jerking is a motor sign, so the seizure starts in motor cortex.",
+     "Recall that motor cortex controls the opposite side of the body.",
+     "Right hand jerking means the left precentral gyrus, hand area."
+    ],
+    "why": "The primary motor cortex lies in the precentral gyrus and controls movement of the opposite side of the body. A seizure that starts in the hand area of the left precentral gyrus makes the right hand jerk first. Her fixed right hand weakness fits damage to the same area from the overlying angioma.",
+    "whyNot": [
+     "Correct.",
+     "A seizure starting in the left postcentral gyrus would cause tingling or numbness of the right hand, not jerking.",
+     "The right precentral gyrus controls the left side of the body.",
+     "The left inferior frontal gyrus holds Broca area. A lesion there causes nonfluent aphasia, not hand jerking."
+    ],
+    "study": {
+     "topics": [
+      "Primary motor cortex"
+     ],
+     "comps": [
+      "NE-3"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "NE-C56",
+  "system": "NE",
+  "dx": "Acute disseminated encephalomyelitis after a viral illness in a child",
+  "codes": [
+   "NE-20-B6"
+  ],
+  "case": "A 6-year-old boy is brought to the emergency department because of confusion and an unsteady gait for 2 days. Two weeks earlier he had a febrile upper respiratory illness that resolved. Temperature is 37.9 °C (100.2 °F), pulse is 104/min, respirations are 22/min, and blood pressure is 102/64 mm Hg. Physical examination shows drowsiness, disorientation, a left facial droop, weakness of the right leg, and truncal ataxia. MRI of the brain shows multiple large, bilateral, poorly marginated T2 hyperintense lesions in the cerebral white matter, thalami, and cerebellum, all enhancing to a similar degree. CSF shows 28 lymphocytes/mm3 (reference 0 to 5/mm3), protein 52 mg/dL (reference 15 to 45 mg/dL), normal glucose, and negative cultures and viral PCR. The diagnosis is acute disseminated encephalomyelitis.",
+  "questions": [
+   {
+    "id": "NE-C56-Q1",
+    "stem": "Which of the following histologic findings is most likely in a biopsy specimen of his brain lesions?",
+    "options": [
+     "Plaques of different ages around the lateral ventricles",
+     "Perivenous demyelination with lesions of one age",
+     "Intranuclear viral inclusions in oligodendrocytes",
+     "Necrosis of medial temporal cortex with hemorrhage"
+    ],
+    "answer": 1,
+    "sea": "X",
+    "comp": "NE-20-B6",
+    "obj": "NE-20-B.9",
+    "dok": 2,
+    "approach": [
+     "Note the setting: a child, one illness, after a viral infection, with lesions that all enhance alike.",
+     "That points to a single (monophasic) autoimmune attack, so all lesions are the same age.",
+     "Recall the pattern: sleeves of demyelination around small veins."
+    ],
+    "why": "Acute disseminated encephalomyelitis is a monophasic autoimmune demyelinating disease, mostly in children, that follows a viral infection or, rarely, vaccination. Lymphocytes and macrophages cuff small veins, and myelin is lost in sleeves around them. Because there is one attack, all lesions are the same age. Multiple sclerosis is relapsing, with periventricular plaques of different ages.",
+    "whyNot": [
+     "Plaques of different ages near the ventricles describe multiple sclerosis, a relapsing disease.",
+     "Correct.",
+     "Viral inclusions in oligodendrocyte nuclei describe progressive multifocal leukoencephalopathy from JC virus, seen in immunosuppressed patients.",
+     "Hemorrhagic necrosis of the medial temporal lobes describes herpes simplex encephalitis, and his viral PCR is negative."
+    ],
+    "study": {
+     "topics": [
+      "Acute disseminated encephalomyelitis versus MS"
+     ],
+     "comps": [
+      "NE-20-B6",
+      "NE-20-B5"
+     ]
+    }
+   },
+   {
+    "id": "NE-C56-Q2",
+    "stem": "His parents ask whether this illness could be the first attack of multiple sclerosis. Which of the following findings on later CSF testing would most strongly support multiple sclerosis?",
+    "options": [
+     "Neutrophilic pleocytosis with low glucose",
+     "High protein with a normal cell count",
+     "Elevated 14-3-3 protein",
+     "IgG oligoclonal bands present only in CSF"
+    ],
+    "answer": 3,
+    "sea": "M",
+    "comp": "NE-18",
+    "obj": "NE-18.2",
+    "dok": 2,
+    "approach": [
+     "Recall the immune basis of MS: T cells (Th1 and Th17) start the attack, and B cells and plasma cells stay inside the CNS.",
+     "Those plasma cells make IgG within the CNS, seen as oligoclonal bands in CSF but not in serum.",
+     "Match each other CSF pattern to a different disease."
+    ],
+    "why": "Multiple sclerosis is a T cell-mediated autoimmune attack on CNS myelin, with an HLA-DR2 association and periventricular plaques. B cells and plasma cells settle in the CNS and make IgG there, so most patients have oligoclonal IgG bands in the CSF that are absent from serum. In ADEM these bands are usually absent or transient, so finding them would favor MS.",
+    "whyNot": [
+     "Neutrophils with low glucose point to bacterial meningitis.",
+     "High protein with few cells (albuminocytologic dissociation) points to Guillain-Barré syndrome.",
+     "Elevated 14-3-3 protein supports Creutzfeldt-Jakob disease.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Immunology of multiple sclerosis",
+      "CSF oligoclonal bands"
+     ],
+     "comps": [
+      "NE-18",
+      "NE-20-B5"
+     ]
+    }
+   },
+   {
+    "id": "NE-C56-Q3",
+    "stem": "His serum contains antibodies against myelin oligodendrocyte glycoprotein, a protein made by the myelinating cells of the central nervous system. Nerve conduction studies of his limbs are normal. Which of the following best explains why his peripheral nerves are spared?",
+    "options": [
+     "Peripheral axons lack myelin sheaths",
+     "Oligodendrocytes form peripheral myelin",
+     "Schwann cells form peripheral myelin",
+     "Satellite cells form peripheral myelin"
+    ],
+    "answer": 2,
+    "sea": "A",
+    "comp": "NE-2",
+    "obj": "NE-2.3",
+    "dok": 2,
+    "approach": [
+     "Note the antibody target: a protein made by oligodendrocytes.",
+     "Recall that CNS myelin comes from oligodendrocytes and PNS myelin from Schwann cells.",
+     "A protein unique to oligodendrocyte myelin is not on peripheral nerves, so they are spared."
+    ],
+    "why": "Oligodendrocytes myelinate CNS axons, and each one makes internodes on many axons. Schwann cells myelinate PNS axons, and each one makes a single internode on one axon. The two cells make different myelin proteins, and myelin oligodendrocyte glycoprotein is found only in the CNS. That is why ADEM and MS damage the brain and cord, while Guillain-Barré syndrome damages Schwann cell myelin in nerves.",
+    "whyNot": [
+     "Many peripheral axons are myelinated, including the large motor and sensory fibers tested by nerve conduction studies.",
+     "Oligodendrocytes form myelin only in the CNS.",
+     "Correct.",
+     "Satellite cells surround neuron cell bodies in sensory and autonomic ganglia and do not form myelin."
+    ],
+    "study": {
+     "topics": [
+      "Schwann cells versus oligodendrocytes"
+     ],
+     "comps": [
+      "NE-2",
+      "NE-20-B4"
+     ]
+    }
+   },
+   {
+    "id": "NE-C56-Q4",
+    "stem": "Macrophages in his lesions contain lipid from ingested myelin. Compared with most other cell membranes, myelin is especially rich in which of the following glycolipids?",
+    "options": [
+     "Galactocerebroside",
+     "Globotriaosylceramide",
+     "Glucocerebroside",
+     "Ganglioside GM2"
+    ],
+    "answer": 0,
+    "sea": "B",
+    "comp": "NE-14",
+    "obj": "NE-14.6",
+    "dok": 2,
+    "approach": [
+     "Recall the main lipids of myelin: cholesterol, galactocerebroside, sulfatide, and sphingomyelin.",
+     "Pick the glycolipid on that list.",
+     "Link the others to the storage disease in which each builds up."
+    ],
+    "why": "Myelin is mostly lipid, rich in cholesterol, galactocerebroside, its sulfated form sulfatide, and sphingomyelin. Galactocerebroside is the signature glycolipid of myelin. Lysosomal defects in breaking down these lipids injure white matter, as in Krabbe disease (galactocerebrosidase deficiency) and metachromatic leukodystrophy (arylsulfatase A deficiency).",
+    "whyNot": [
+     "Correct.",
+     "Globotriaosylceramide builds up in Fabry disease, mainly in vessel walls, kidney, and heart, and is not a major myelin lipid.",
+     "Glucocerebroside builds up in macrophages in Gaucher disease and is not the main myelin glycolipid.",
+     "Ganglioside GM2 is concentrated in neuronal membranes and builds up in neurons in Tay-Sachs disease."
+    ],
+    "study": {
+     "topics": [
+      "Myelin lipid composition",
+      "Leukodystrophies"
+     ],
+     "comps": [
+      "NE-14",
+      "NE-20-E2"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "NE-C57",
+  "system": "NE",
+  "dx": "Idiopathic acute transverse myelitis",
+  "codes": [
+   "NE-20-B"
+  ],
+  "case": "A 34-year-old woman comes to the emergency department because of numbness and weakness of both legs that began 2 days ago and has steadily worsened. She has been unable to urinate since this morning. One week ago she had a febrile flu-like illness. Temperature is 37.1 °C (98.8 °F), pulse is 88/min, respirations are 16/min, and blood pressure is 126/78 mm Hg. Physical examination shows weakness of both legs and a palpable bladder. MRI of the brain is normal. MRI of the spine shows a T2 hyperintense, enhancing lesion spanning about one and a half segments of the upper thoracic cord. CSF shows 18 lymphocytes/mm3 (reference 0 to 5/mm3) and no oligoclonal bands. Serum aquaporin-4 antibodies are negative. The diagnosis is idiopathic acute transverse myelitis.",
+  "questions": [
+   {
+    "id": "NE-C57-Q1",
+    "stem": "On arrival, the physician first considered Guillain-Barré syndrome. Which of the following examination findings most strongly favors her final diagnosis over Guillain-Barré syndrome?",
+    "options": [
+     "Absent knee and ankle reflexes",
+     "Weakness that ascends over days",
+     "A sensory level on the trunk",
+     "Tingling in the toes and fingers"
+    ],
+    "answer": 2,
+    "sea": "X",
+    "comp": "NE-20-B",
+    "obj": "NE-20-B.12",
+    "dok": 3,
+    "approach": [
+     "Ask where each disease sits: transverse myelitis in the spinal cord, Guillain-Barré syndrome in peripheral nerves and roots.",
+     "Find the sign that only a cord lesion makes: a horizontal border on the trunk below which sensation is lost.",
+     "Rule out signs both diseases can share, such as areflexia early in an acute cord lesion."
+    ],
+    "why": "Transverse myelitis is acute inflammation across one segment of the spinal cord, often after an infection or as part of MS. Because it cuts all the ascending tracts at one level, sensation is lost below a line on the trunk (a sensory level). It also causes bilateral weakness and early bladder dysfunction. Guillain-Barré syndrome damages peripheral nerves, so it does not make a sensory level and rarely affects the bladder early.",
+    "whyNot": [
+     "Areflexia is typical of Guillain-Barré syndrome but also occurs early after an acute cord lesion (spinal shock), so it does not separate them.",
+     "Weakness ascending over days is the classic course of Guillain-Barré syndrome.",
+     "Correct.",
+     "Distal tingling in hands and feet points to a peripheral neuropathy such as Guillain-Barré syndrome."
+    ],
+    "study": {
+     "topics": [
+      "Transverse myelitis",
+      "Cord versus nerve localization"
+     ],
+     "comps": [
+      "NE-20-B",
+      "NE-20-B4"
+     ]
+    }
+   },
+   {
+    "id": "NE-C57-Q2",
+    "stem": "Pinprick sensation is reduced on both sides below a horizontal line across the nipples. Damage to which of the following spinal cord segments best explains the upper border of this sensory loss?",
+    "options": [
+     "T2",
+     "T4",
+     "T6",
+     "T10"
+    ],
+    "answer": 1,
+    "sea": "A",
+    "comp": "NE-8",
+    "obj": "NE-8.5",
+    "dok": 2,
+    "approach": [
+     "Recall the trunk dermatome landmarks: T4 at the nipples, T10 at the umbilicus.",
+     "A sensory level at the nipples means the highest damaged segment is about T4.",
+     "Remember this is the cord segment, which lies above the vertebra of the same number."
+    ],
+    "why": "Each spinal nerve supplies a band of skin called a dermatome. Key landmarks are C6 at the thumb, T4 at the nipple, T10 at the umbilicus, L4 at the knee, L5 at the dorsum of the foot, and S1 at the lateral foot. A sensory level at the nipples places the upper edge of her cord lesion at about the T4 segment, which fits the upper thoracic lesion on MRI.",
+    "whyNot": [
+     "A T2 level would put the border higher, near the axilla and upper chest.",
+     "Correct.",
+     "A T6 level would put the border near the xiphoid process, below the nipples.",
+     "A T10 level would put the border at the umbilicus."
+    ],
+    "study": {
+     "topics": [
+      "Dermatome landmarks"
+     ],
+     "comps": [
+      "NE-8"
+     ]
+    }
+   },
+   {
+    "id": "NE-C57-Q3",
+    "stem": "Later that week, a 52-year-old man is admitted with double vision, an unsteady gait, and absent reflexes 10 days after diarrhea caused by Campylobacter jejuni. Limb strength is normal. Antibodies against which of the following targets are most likely in his serum?",
+    "options": [
+     "Ganglioside GQ1b",
+     "Aquaporin-4",
+     "Acetylcholine receptor",
+     "Myelin oligodendrocyte glycoprotein"
+    ],
+    "answer": 0,
+    "sea": "M",
+    "comp": "NE-18",
+    "obj": "NE-18.3",
+    "dok": 2,
+    "approach": [
+     "Recognize the triad of ophthalmoplegia, ataxia, and areflexia after Campylobacter: the Miller Fisher variant of Guillain-Barré syndrome.",
+     "Recall molecular mimicry: Campylobacter surface glycans resemble nerve gangliosides.",
+     "Name the ganglioside rich in the nerves to the eye muscles: GQ1b."
+    ],
+    "why": "Campylobacter jejuni has surface lipooligosaccharides that look like human gangliosides. Antibodies made against the bacterium then bind the patient's own nerves (molecular mimicry). In the Miller Fisher variant, antibodies target GQ1b, which is concentrated in the oculomotor, trochlear, and abducens nerves, causing ophthalmoplegia, ataxia, and areflexia with little limb weakness.",
+    "whyNot": [
+     "Correct.",
+     "Aquaporin-4 antibodies cause neuromyelitis optica, with optic neuritis and long cord lesions.",
+     "Acetylcholine receptor antibodies cause myasthenia gravis, which gives fatigable weakness with normal reflexes.",
+     "Antibodies to myelin oligodendrocyte glycoprotein target CNS myelin, as in some cases of ADEM and optic neuritis."
+    ],
+    "study": {
+     "topics": [
+      "Molecular mimicry",
+      "Miller Fisher variant"
+     ],
+     "comps": [
+      "NE-18",
+      "NE-20-B4"
+     ]
+    }
+   },
+   {
+    "id": "NE-C57-Q4",
+    "stem": "Her detrusor muscle fails to contract during attempts to void. A drug that directly activates the receptor through which parasympathetic nerves normally contract the detrusor is considered. Which of the following receptors and G proteins does this drug act on?",
+    "options": [
+     "M2 receptor coupled to Gi",
+     "Beta3 receptor coupled to Gs",
+     "Alpha1 receptor coupled to Gq",
+     "M3 receptor coupled to Gq"
+    ],
+    "answer": 3,
+    "sea": "P",
+    "comp": "NE-9",
+    "obj": "NE-9.2",
+    "dok": 2,
+    "approach": [
+     "Recall that parasympathetic postganglionic fibers release acetylcholine onto muscarinic receptors.",
+     "Identify the muscarinic subtype on smooth muscle that causes contraction: M3.",
+     "Recall its G protein: Gq, which raises IP3 and calcium."
+    ],
+    "why": "Parasympathetic fibers in the pelvic splanchnic nerves (S2 to S4) synapse in ganglia near the bladder. The postganglionic fibers release acetylcholine onto M3 receptors on detrusor smooth muscle. M3 couples to Gq, which activates phospholipase C, raises IP3 and calcium, and contracts the muscle. A direct muscarinic agonist such as bethanechol works at this receptor.",
+    "whyNot": [
+     "M2 receptors couple to Gi and mainly slow the heart.",
+     "Beta3 receptors couple to Gs and relax the detrusor during bladder filling.",
+     "Alpha1 receptors couple to Gq and contract the internal urethral sphincter, which would worsen retention.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Autonomic receptors and G proteins",
+      "Bladder control"
+     ],
+     "comps": [
+      "NE-9"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "NE-C58",
+  "system": "NE",
+  "dx": "Charcot-Marie-Tooth disease type 1A",
+  "codes": [
+   "NE-20-D2"
+  ],
+  "case": "A 16-year-old boy comes to the physician because he trips often and has had repeated ankle sprains. His father and paternal grandmother have high-arched feet and walk with a slapping gait. Physical examination shows pes cavus, hammer toes, and wasting of the lower legs and feet. Ankle dorsiflexion is weak on both sides, and ankle reflexes are absent. Vibration sense is reduced at the toes. The ulnar and common fibular nerves are palpably enlarged. Nerve conduction studies show uniformly slowed motor conduction velocities of about 20 m/s in all nerves tested (reference greater than 45 m/s in the arms and greater than 40 m/s in the legs). Genetic testing shows a duplication of PMP22 on chromosome 17. The diagnosis is Charcot-Marie-Tooth disease type 1A.",
+  "questions": [
+   {
+    "id": "NE-C58-Q1",
+    "stem": "A sural nerve biopsy is obtained. Which of the following findings is most likely?",
+    "options": [
+     "Concentric Schwann cell layers around axons",
+     "Endoneurial lymphocytes and macrophages",
+     "Congo red-positive deposits in endoneurium",
+     "Selective loss of small unmyelinated fibers"
+    ],
+    "answer": 0,
+    "sea": "X",
+    "comp": "NE-20-D2",
+    "obj": "NE-20-D.6",
+    "dok": 2,
+    "approach": [
+     "Link the PMP22 duplication and uniform slowing to an inherited demyelinating neuropathy.",
+     "Recall what years of demyelination and remyelination do: Schwann cells multiply and wrap axons in layers.",
+     "This makes onion bulbs and explains the enlarged nerves."
+    ],
+    "why": "Charcot-Marie-Tooth disease is a group of inherited motor and sensory neuropathies. Type 1A, the most common, is autosomal dominant and caused by a duplication of PMP22, a Schwann cell myelin protein. Myelin breaks down and is rebuilt again and again, and extra Schwann cells wrap each axon in concentric layers called onion bulbs, which thicken the nerves. Over time, the longest axons are lost, giving distal weakness, foot drop, pes cavus, and hammer toes.",
+    "whyNot": [
+     "Correct.",
+     "Endoneurial lymphocytes and macrophages point to an inflammatory neuropathy such as Guillain-Barré syndrome or CIDP.",
+     "Congo red-positive deposits indicate amyloid neuropathy.",
+     "Selective loss of small fibers fits small-fiber neuropathy, as in early diabetes, not uniform demyelinating slowing."
+    ],
+    "study": {
+     "topics": [
+      "Charcot-Marie-Tooth disease",
+      "Onion bulb formation"
+     ],
+     "comps": [
+      "NE-20-D2",
+      "NE-2"
+     ]
+    }
+   },
+   {
+    "id": "NE-C58-Q2",
+    "stem": "On the biopsy, the delicate loose connective tissue between the individual myelinated fibers inside each fascicle is expanded. Which of the following layers is this?",
+    "options": [
+     "Epineurium",
+     "Perineurium",
+     "Endoneurium",
+     "Arachnoid sleeve"
+    ],
+    "answer": 2,
+    "sea": "A",
+    "comp": "NE-2",
+    "obj": "NE-2.2",
+    "dok": 2,
+    "approach": [
+     "Place the tissue: inside a fascicle, around single nerve fibers.",
+     "Recall the three layers from inside out: endoneurium around each fiber, perineurium around each fascicle, epineurium around the whole nerve.",
+     "Pick the innermost layer."
+    ],
+    "why": "A peripheral nerve has three connective tissue layers. Endoneurium is loose tissue around each nerve fiber and its Schwann cells. Perineurium is a sleeve of flat cells joined by tight junctions around each fascicle, and it forms the blood-nerve barrier. Epineurium is dense tissue around the whole nerve and between fascicles. In CMT1A, onion bulbs expand the endoneurial space.",
+    "whyNot": [
+     "Epineurium surrounds the whole nerve and lies between fascicles, not between single fibers.",
+     "Perineurium wraps each fascicle and forms the blood-nerve barrier. It does not lie between single fibers.",
+     "Correct.",
+     "An arachnoid sleeve surrounds spinal nerve roots near the spinal cord, not fibers inside a peripheral nerve fascicle."
+    ],
+    "study": {
+     "topics": [
+      "Peripheral nerve connective tissue layers"
+     ],
+     "comps": [
+      "NE-2"
+     ]
+    }
+   },
+   {
+    "id": "NE-C58-Q3",
+    "stem": "His vibration sense is impaired because his large myelinated sensory fibers conduct poorly. In a healthy nerve, which of the following best explains why the largest myelinated fibers conduct impulses fastest?",
+    "options": [
+     "More sodium channels along their internodes",
+     "Higher membrane capacitance of their myelin",
+     "Slower inactivation of their nodal sodium channels",
+     "Lower axial resistance and longer internodes"
+    ],
+    "answer": 3,
+    "sea": "P",
+    "comp": "NE-13",
+    "obj": "NE-13.4",
+    "dok": 3,
+    "approach": [
+     "Recall that myelinated fibers use saltatory conduction, with current jumping from node to node.",
+     "Ask what lets current travel farther and faster inside the axon: a wide axon has less internal resistance.",
+     "Add that wide axons have thicker myelin and longer internodes, so fewer nodes are needed."
+    ],
+    "why": "In saltatory conduction, current flows inside the axon from one node of Ranvier to the next, and only the nodes fire action potentials. A wider axon has lower internal (axial) resistance, so current spreads farther and faster. Thick myelin lowers membrane capacitance and current leak, and larger fibers have longer internodes, so fewer nodes must fire. Demyelination, as in CMT1A, MS, and Guillain-Barré syndrome, lets current leak, which slows or blocks conduction.",
+    "whyNot": [
+     "Sodium channels cluster at the nodes. The internodes under myelin have few of them.",
+     "Myelin lowers membrane capacitance. Higher capacitance would slow conduction.",
+     "Slower sodium channel inactivation would lengthen the action potential, not speed conduction between nodes.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Saltatory conduction",
+      "Axon diameter and velocity"
+     ],
+     "comps": [
+      "NE-13",
+      "NE-2"
+     ]
+    }
+   },
+   {
+    "id": "NE-C58-Q4",
+    "stem": "His foot slaps the floor at each step, and he lifts his knees high to clear his toes. Weakness of which of the following muscles, and the nerve that supplies it, best explains this gait?",
+    "options": [
+     "Fibularis longus, superficial fibular nerve",
+     "Tibialis anterior, deep fibular nerve",
+     "Tibialis posterior, tibial nerve",
+     "Gluteus medius, superior gluteal nerve"
+    ],
+    "answer": 1,
+    "sea": "A",
+    "comp": "NE-8",
+    "obj": "NE-8.4",
+    "dok": 2,
+    "approach": [
+     "Name the gait: a steppage gait from foot drop.",
+     "Foot drop means weak ankle dorsiflexion.",
+     "The main dorsiflexor is tibialis anterior, supplied by the deep fibular nerve."
+    ],
+    "why": "Tibialis anterior is the main dorsiflexor of the ankle and is supplied by the deep fibular nerve (L4 to L5). When it is weak, the foot hangs, the toes catch, and the patient lifts the knee high and the foot slaps down. Long-axon neuropathies such as CMT affect the fibular-supplied muscles early, and the common fibular nerve can also be injured at the fibular neck.",
+    "whyNot": [
+     "Fibularis longus everts the foot. Its weakness causes poor eversion and ankle instability but not the main foot drop.",
+     "Correct.",
+     "Tibialis posterior inverts and plantar flexes the foot. Tibial nerve injury weakens plantar flexion, not dorsiflexion.",
+     "Gluteus medius weakness from superior gluteal nerve injury causes a Trendelenburg gait with a pelvic drop."
+    ],
+    "study": {
+     "topics": [
+      "Foot drop",
+      "Lower limb nerve injuries"
+     ],
+     "comps": [
+      "NE-8"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "NE-C59",
+  "system": "NE",
+  "dx": "Fragile X syndrome in a school-age boy",
+  "codes": [
+   "NE-20-E"
+  ],
+  "case": "An 8-year-old boy is brought to the physician for evaluation of learning problems. He has delayed speech, poor attention, frequent hand flapping, and poor eye contact. His mother had menopause at the age of 38 years, and his maternal grandfather developed an intention tremor and gait ataxia in his 60s. Physical examination shows a long, narrow face, a prominent jaw, large protruding ears, and hyperextensible finger joints. Full-scale IQ is 58 (population mean 100, standard deviation 15). DNA analysis shows more than 200 CGG repeats in the FMR1 gene on the X chromosome. The diagnosis is fragile X syndrome.",
+  "questions": [
+   {
+    "id": "NE-C59-Q1",
+    "stem": "Which of the following best explains how this repeat expansion causes his disorder?",
+    "options": [
+     "Polyglutamine tract causing protein aggregates",
+     "Toxic RNA sequestering splicing regulators",
+     "Intronic repeat reducing transcript elongation",
+     "Promoter methylation silencing transcription"
+    ],
+    "answer": 3,
+    "sea": "B",
+    "comp": "NE-20-E",
+    "obj": "NE-20-E.7",
+    "dok": 2,
+    "approach": [
+     "Note the repeat size: more than 200 CGG repeats is a full mutation.",
+     "Recall what a full mutation does: the repeat and nearby promoter become hypermethylated.",
+     "Methylation silences FMR1, so its protein, FMRP, is missing."
+    ],
+    "why": "Fragile X syndrome is the most common inherited cause of intellectual disability. A full mutation of more than 200 CGG repeats in the 5' untranslated region of FMR1 leads to hypermethylation of the repeat and promoter. The gene is silenced, so the RNA-binding protein FMRP, which controls protein synthesis at synapses, is not made. This gives intellectual disability, autism features, a long face, large ears, and macroorchidism after puberty.",
+    "whyNot": [
+     "A polyglutamine tract from a CAG repeat in the coding region is the mechanism in Huntington disease.",
+     "Toxic RNA that traps splicing proteins is the mechanism in myotonic dystrophy (CTG). A similar RNA effect explains the premutation disorders, not the full mutation.",
+     "An intronic GAA repeat that reduces frataxin transcription is the mechanism in Friedreich ataxia.",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Fragile X syndrome",
+      "Repeat expansion mechanisms"
+     ],
+     "comps": [
+      "NE-20-E",
+      "NE-16"
+     ]
+    }
+   },
+   {
+    "id": "NE-C59-Q2",
+    "stem": "His mother has normal intellect and 95 CGG repeats in one FMR1 allele. Which of the following best explains why her son has a much larger expansion?",
+    "options": [
+     "Paternal expansion during spermatogenesis",
+     "Expansion of her premutation during oogenesis",
+     "Contraction of the repeat in early embryos",
+     "New point mutation in the FMR1 coding sequence"
+    ],
+    "answer": 1,
+    "sea": "B",
+    "comp": "NE-16",
+    "obj": "NE-16.1",
+    "dok": 3,
+    "approach": [
+     "Classify the mother's allele: 55 to 200 repeats is a premutation.",
+     "Recall that premutations are unstable when passed on by a female and can expand to a full mutation.",
+     "Explain the family pattern: grandfather and mother carry premutations, and the son inherited a full mutation."
+    ],
+    "why": "FMR1 premutations (about 55 to 200 CGG repeats) are unstable in female meiosis and often expand to full mutations in the next generation. Larger premutations expand more often. Males pass a premutation to all daughters without expanding it to a full mutation. This growth across generations is anticipation. The premutation also explains his mother's early menopause (primary ovarian insufficiency) and his grandfather's tremor and ataxia (FXTAS).",
+    "whyNot": [
+     "An X-linked gene in a son comes from his mother, not his father.",
+     "Correct.",
+     "Contraction would shorten the repeat, not lengthen it.",
+     "Fragile X is almost always caused by CGG expansion, and his test already shows a full expansion."
+    ],
+    "study": {
+     "topics": [
+      "Trinucleotide repeat expansion and anticipation"
+     ],
+     "comps": [
+      "NE-16",
+      "NE-20-E"
+     ]
+    }
+   },
+   {
+    "id": "NE-C59-Q3",
+    "stem": "Neuropsychological testing shows that he has trouble holding information in mind and planning multistep tasks. When the sorting rule on a card test changes, he keeps using the old rule. Dysfunction of which of the following regions best explains these deficits?",
+    "options": [
+     "Dorsolateral prefrontal cortex",
+     "Orbitofrontal cortex",
+     "Hippocampal formation",
+     "Posterior parietal association cortex"
+    ],
+    "answer": 0,
+    "sea": "P",
+    "comp": "NE-11",
+    "obj": "NE-11.1",
+    "dok": 2,
+    "approach": [
+     "Group the deficits: working memory, planning, and switching rules are executive functions.",
+     "Recall that executive function depends on the dorsolateral part of the prefrontal cortex.",
+     "Separate it from the orbitofrontal cortex, which governs social behavior and impulse control."
+    ],
+    "why": "The prefrontal cortex handles executive function, planning, judgment, and personality. The dorsolateral part supports working memory, planning, and flexible switching between rules. Damage there causes perseveration, where the person keeps using a rule that no longer works. Orbitofrontal damage instead causes disinhibition and poor social judgment, as seen in frontotemporal dementia.",
+    "whyNot": [
+     "Correct.",
+     "Orbitofrontal dysfunction causes disinhibition, impulsivity, and poor social judgment more than working memory and set-shifting deficits.",
+     "The hippocampal formation forms new long-term declarative memories. It does not run working memory or rule switching.",
+     "Posterior parietal cortex handles spatial attention and sensory integration. Damage causes neglect or apraxia, not perseveration."
+    ],
+    "study": {
+     "topics": [
+      "Prefrontal cortex functions"
+     ],
+     "comps": [
+      "NE-11"
+     ]
+    }
+   },
+   {
+    "id": "NE-C59-Q4",
+    "stem": "His 5-year-old cousin also has intellectual disability. She has hypotonia, upslanting palpebral fissures, a flat facial profile, and a single palmar crease, and her karyotype shows trisomy 21. Which of the following associated findings is most characteristic of her condition?",
+    "options": [
+     "Mitral valve prolapse",
+     "Superotemporal lens dislocation",
+     "Atrioventricular septal defect",
+     "Coarctation of the aorta"
+    ],
+    "answer": 2,
+    "sea": "X",
+    "comp": "NE-20-E1",
+    "obj": "NE-20-E.1",
+    "dok": 2,
+    "approach": [
+     "Recognize Down syndrome from the features and karyotype.",
+     "Recall its classic associated defects: atrioventricular septal defect, duodenal atresia, atlantoaxial instability, leukemia, early Alzheimer disease.",
+     "Match each other option to its own syndrome."
+    ],
+    "why": "Down syndrome causes intellectual disability, hypotonia, and characteristic facial features. About half of affected children have congenital heart disease, and atrioventricular septal defect from endocardial cushion failure is the classic lesion. Other links are duodenal atresia, atlantoaxial instability, higher leukemia risk, and early-onset Alzheimer disease from an extra APP gene.",
+    "whyNot": [
+     "Mitral valve prolapse is associated with fragile X syndrome and connective tissue disorders such as Marfan syndrome.",
+     "Upward and outward lens dislocation is typical of Marfan syndrome.",
+     "Correct.",
+     "Coarctation of the aorta is classically associated with Turner syndrome."
+    ],
+    "study": {
+     "topics": [
+      "Down syndrome associated findings"
+     ],
+     "comps": [
+      "NE-20-E1",
+      "NE-16"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "NE-C60",
+  "system": "NE",
+  "dx": "Maple syrup urine disease in a neonate",
+  "codes": [
+   "NE-20-E"
+  ],
+  "case": "A 6-day-old girl is brought to the emergency department because of poor feeding, vomiting, and increasing lethargy for 2 days. She was born at term after an uncomplicated pregnancy and fed well until the age of 3 days. Temperature is 36.8 °C (98.2 °F), pulse is 132/min, respirations are 38/min, and blood pressure is 74/46 mm Hg. Physical examination shows lethargy with alternating episodes of hypertonia and opisthotonic posturing. Her urine has a sweet, burnt-sugar odor. Serum glucose and plasma ammonia concentrations are within the reference ranges. Plasma amino acid analysis shows markedly increased leucine, isoleucine, valine, and alloisoleucine. The diagnosis is maple syrup urine disease.",
+  "questions": [
+   {
+    "id": "NE-C60-Q1",
+    "stem": "In the same nursery, a 3-day-old boy has lethargy and vomiting, with a plasma ammonia concentration of 420 μmol/L (reference less than 50 μmol/L) and increased urine orotic acid. Which of the following best explains the orotic aciduria in this boy?",
+    "options": [
+     "Deficient UMP synthase in pyrimidine synthesis",
+     "Carbamoyl phosphate diverted to pyrimidines",
+     "Branched-chain ketoacids blocking the urea cycle",
+     "Deficient carbamoyl phosphate synthetase I"
+    ],
+    "answer": 1,
+    "sea": "B",
+    "comp": "NE-20-E",
+    "obj": "NE-20-E.8",
+    "dok": 3,
+    "approach": [
+     "Recognize hyperammonemia with high orotic acid in a newborn boy: ornithine transcarbamylase (OTC) deficiency, which is X-linked.",
+     "Recall that OTC uses carbamoyl phosphate, so its substrate builds up in mitochondria.",
+     "Excess carbamoyl phosphate leaks to the cytosol and feeds pyrimidine synthesis, producing orotic acid."
+    ],
+    "why": "OTC joins carbamoyl phosphate and ornithine to make citrulline in the urea cycle. When OTC is missing, ammonia rises and carbamoyl phosphate builds up, leaks into the cytosol, and enters the pyrimidine pathway, where it is turned into orotic acid. In maple syrup urine disease, by contrast, branched-chain alpha-ketoacid dehydrogenase is deficient, so leucine, isoleucine, valine, and their ketoacids build up and injure the brain, usually with normal ammonia.",
+    "whyNot": [
+     "UMP synthase deficiency (hereditary orotic aciduria) causes orotic aciduria with megaloblastic anemia but no hyperammonemia.",
+     "Correct.",
+     "Branched-chain ketoacids build up in maple syrup urine disease and do not cause orotic aciduria.",
+     "Carbamoyl phosphate synthetase I deficiency causes hyperammonemia with low orotic acid, because carbamoyl phosphate is not made."
+    ],
+    "study": {
+     "topics": [
+      "Urea cycle defects",
+      "Maple syrup urine disease"
+     ],
+     "comps": [
+      "NE-20-E"
+     ]
+    }
+   },
+   {
+    "id": "NE-C60-Q2",
+    "stem": "Some patients with her disorder improve with high-dose thiamine. Which of the following enzymes requires the same thiamine-derived cofactor as the deficient enzyme complex?",
+    "options": [
+     "Glyceraldehyde-3-phosphate dehydrogenase",
+     "Propionyl-CoA carboxylase",
+     "Methylmalonyl-CoA mutase",
+     "Alpha-ketoglutarate dehydrogenase"
+    ],
+    "answer": 3,
+    "sea": "B",
+    "comp": "NE-14",
+    "obj": "NE-14.2",
+    "dok": 2,
+    "approach": [
+     "Identify the deficient enzyme: branched-chain alpha-ketoacid dehydrogenase.",
+     "Recall that it belongs to the alpha-ketoacid dehydrogenase family, which uses thiamine pyrophosphate.",
+     "Pick the other family member: alpha-ketoglutarate dehydrogenase (pyruvate dehydrogenase is the third)."
+    ],
+    "why": "Thiamine pyrophosphate is the cofactor for pyruvate dehydrogenase, alpha-ketoglutarate dehydrogenase, branched-chain alpha-ketoacid dehydrogenase, and transketolase. These dehydrogenase complexes share a similar structure and cofactor set. In thiamine-responsive maple syrup urine disease, extra thiamine boosts the remaining enzyme activity. In thiamine deficiency, failure of these same enzymes starves neurons of energy, as in Wernicke encephalopathy.",
+    "whyNot": [
+     "Glyceraldehyde-3-phosphate dehydrogenase uses NAD+, not thiamine pyrophosphate.",
+     "Propionyl-CoA carboxylase uses biotin.",
+     "Methylmalonyl-CoA mutase uses vitamin B12 (adenosylcobalamin).",
+     "Correct."
+    ],
+    "study": {
+     "topics": [
+      "Thiamine-dependent enzymes"
+     ],
+     "comps": [
+      "NE-14",
+      "NE-20-D4"
+     ]
+    }
+   },
+   {
+    "id": "NE-C60-Q3",
+    "stem": "MRI of the brain shows swelling of the myelinated white matter and brainstem with restricted water diffusion and no contrast enhancement. Which of the following mechanisms best explains this edema?",
+    "options": [
+     "Plasma leakage across a disrupted barrier",
+     "CSF pushed across the ventricular lining",
+     "Water movement into swollen cells",
+     "Blood breakdown products drawing in water"
+    ],
+    "answer": 2,
+    "sea": "X",
+    "comp": "NE-20-C1",
+    "obj": "NE-20-C.1",
+    "dok": 2,
+    "approach": [
+     "Read the MRI clues: restricted diffusion means water is trapped inside cells, and no enhancement means the blood-brain barrier is intact.",
+     "Name the edema type: cytotoxic.",
+     "Contrast with vasogenic edema, which leaks through a broken barrier and enhances."
+    ],
+    "why": "Cytotoxic edema is swelling of cells, with the blood-brain barrier still intact. It occurs when energy failure or toxic metabolites disturb ion pumps and osmotic balance, as in ischemia, hypoxia, and the leucine and ketoacid buildup of maple syrup urine disease. Water trapped in cells restricts diffusion on MRI. Severe edema of any type raises intracranial pressure and can cause herniation.",
+    "whyNot": [
+     "Plasma leaking through a damaged barrier is vasogenic edema, seen with tumors, abscesses, and trauma, and it usually enhances.",
+     "CSF forced across the ependyma is interstitial edema, seen around the ventricles in hydrocephalus.",
+     "Correct.",
+     "Edema around a hemorrhage would follow bleeding, which is not present here."
+    ],
+    "study": {
+     "topics": [
+      "Types of cerebral edema"
+     ],
+     "comps": [
+      "NE-20-C1",
+      "NE-4"
+     ]
+    }
+   },
+   {
+    "id": "NE-C60-Q4",
+    "stem": "Before her diagnosis was known, she received empiric antibiotics for possible neonatal meningitis. In a different neonate, CSF culture grows a gram-positive rod with tumbling motility, and the mother ate unpasteurized soft cheese during pregnancy. Which of the following virulence mechanisms lets this organism spread directly from one host cell to the next?",
+    "options": [
+     "Polymerization of host cell actin",
+     "A polysaccharide K1 capsule",
+     "Secretion of an IgA protease",
+     "Exotoxin ADP-ribosylating elongation factor 2"
+    ],
+    "answer": 0,
+    "sea": "M",
+    "comp": "NE-19",
+    "obj": "NE-19.2",
+    "dok": 2,
+    "approach": [
+     "Identify the organism: a gram-positive rod with tumbling motility from unpasteurized dairy is Listeria monocytogenes.",
+     "Recall that Listeria lives inside cells.",
+     "It uses the host's actin to push itself into neighboring cells, avoiding antibodies."
+    ],
+    "why": "Listeria monocytogenes is a gram-positive rod that causes neonatal meningitis and sepsis, often after maternal intake of unpasteurized dairy or deli meats. After escaping the phagosome, it uses its surface protein ActA to build host actin tails that push it into the next cell. This keeps it hidden from antibodies, so cell-mediated immunity controls it. The other main neonatal meningitis organisms are group B Streptococcus and Escherichia coli with the K1 capsule. Ampicillin is added to empiric therapy to cover Listeria.",
+    "whyNot": [
+     "Correct.",
+     "The K1 capsule is the key virulence factor of neonatal Escherichia coli, a gram-negative rod.",
+     "IgA protease is made by Neisseria, Haemophilus influenzae, and Streptococcus pneumoniae to cleave mucosal IgA.",
+     "ADP-ribosylation of elongation factor 2 is how diphtheria toxin and Pseudomonas exotoxin A stop protein synthesis."
+    ],
+    "study": {
+     "topics": [
+      "Listeria monocytogenes",
+      "Neonatal meningitis pathogens"
+     ],
+     "comps": [
+      "NE-19"
+     ]
+    }
+   }
+  ]
+ }
+]
